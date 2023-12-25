@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "2c9a5dcd9984e3f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "348f6598f7ea846e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed69545c4d28cc68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4000566512a5db38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8cc32b6eb8b3f90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b96c59cc8f4246f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cd2534a76913604",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c7dc73e0b308c7b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3bb0c947752adc10",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "43da419193ed00ea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 488.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9abd8563ca161ddd",
+    "type": "split",
+    "children": [
+      {
+        "id": "436c5fa009390d5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b3296e07c4a81f1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d100f4f87b20998e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b829491545096c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "590cf3356aef7ad1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4000566512a5db38",
+  "lastOpenFiles": [
+    "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
+    "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+    "_attachments/Pasted image 20231224230120.png",
+    "_attachments/Pasted image 20231224230028.png",
+    "_attachments/Pasted image 20231224230015.png",
+    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
+    "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
+    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
+    "Articles/2023, a year of open LLMs (2023) {HuggingFace}.md",
+    "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
+    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20231224220304.png",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20231224202430.png",
+    "_attachments/Pasted image 20231224201058.png",
+    "_attachments/Pasted image 20231224191153.png",
+    "_attachments/Pasted image 20231224171628.png",
+    "_attachments/Pasted image 20231224171000.png",
+    "Bias-Variance Tradeoff.md",
+    "_attachments/Pasted image 20231224160618.png",
+    "Untitled.md",
+    "Diffusion Models.md",
+    "AlexNet.md",
+    "Few-Shot Learning.md",
+    "Q-Learning.md",
+    "Vanishing Gradients.md",
+    "Untitled.canvas",
+    "C++/UIUC Accelerated Fundamentals/Week 3.md",
+    "C++/UIUC Accelerated Fundamentals/Week 2.md",
+    "C++/UIUC Accelerated Fundamentals/Week 1.md",
+    "C++/UIUC Accelerated Fundamentals/Week 4.md",
+    "C++/LearnCPP/Notes.md",
+    "~ Research Ideas.md",
+    "Rese",
+    "C++/LearnCPP",
+    "C++/Untitled.md",
+    "C++/UIUC Accelerated Fundamentals",
+    "C++",
+    "DeepLearning.ai",
+    "FastAI/Part 2",
+    "Articles",
+    "Videos",
+    "Papers/ML",
+    "Papers",
+    "Untitled 1.canvas"
+  ]
+}

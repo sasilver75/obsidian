@@ -1,0 +1,174 @@
+
+# Linear Algebra
+
+
+# Probability/Statistics
+
+
+# Information Retrieval
+- [[BM25]]
+- 
+
+
+# Supervised/Unsupervised Learning Concepts
+- [[Machine Learning]]
+- [[Supervised Learning]]
+- [[Unsupervised Learning]]
+- [[Overfitting]]
+- [[K-Shot Learning]] / [[In-Context Learning]]
+- [[Chain of Thought]] ([[CoT]])****
+- [[Catastrophic Forgetting]]
+- [[Reinforcement Learning for Human Feedback]] ([[RLHF]])
+	- [[Rejection Sampling]] in the RLHF context
+- [[Fine-Tuning]]
+- [[Instruction-Tuning]] (See InstructGPT Paper; possibly pre-RLHF)
+- [[Transfer Learning]]
+- [[Retrieval-Augmented Generation]] ([[RAG]])
+- [[Autoencoders]] (AEs)
+- [[Variational Autoencoders]] ([VAE]s)
+- Beta-VAE
+- [[Regularization]]
+	- [[L1 Regularization]]
+	- [[L2 Regularization]]
+- [[Ensemble Learning]]
+- [[Attention]] Mechanism
+	- [[Self-Attention]]
+	- Multi-head Attention
+	- Masked Attention
+	- Causal Attention
+	- Sparse/Efficient Attention
+	- Cross Attention
+- [[Diffusion Models]]
+	- ![[Pasted image 20231207234419.png]]
+- [[Low-Rank Adaptation]] ([[LoRA]]), [[Parameter-Efficient Fine-Tuning]]
+- [[Semantic Segmentation]]
+- [[Quantization]]
+- [[Model Pruning]]
+- [[Masking]]
+- [[Supervised Learning]]
+- [[Unsupervised Learning]]
+- [[Semi-Supervised Learning]]
+- [[Reinforcement Learning]]
+- [[Embeddings]] ([[Sparse]], [[Dense Embeddings]])
+	- [[Relative Positional Embeddings]]
+- [[Tokens]]
+- [[Numericalization]]
+- [[Pretraining]]
+- [[Fine-Tuning]]
+- [[Batch Normalization]]
+- [[Layer Normalization]]
+- [[Convolution]]
+- [[Sequential Block]]
+- [[Densenet Block]]
+- [[Grouped Convolutions]]
+- [[Depth-Wise Convolutions]]
+- [[Activation Function]]
+- [[Sigmoid Activation Function]]
+- [[Tanh Activation Funcition]]
+- [[ReLU Activation Function]]
+- [[U-Net]]
+- [[ULMFit]]
+- [[Gini Index]]
+- [[Test-Time Augmentation]]
+- [[Gradient Accumulation]]
+- [[One-Hot Encoding]]
+- [[Recurrent Neural Networks (RNN)]]
+- [[Bi-Directional Recurrent Neural Networks]]
+- [[Long Short Term Memory]] ([[LSTM]])
+- [[Gated Recurrent Unit]] ([[GRU]])
+- [[Convolutional Neural Networks]] ([[CNN]])
+- [[Region-Based Convolutional Neural Networks]] ([[R-CNN]])
+- [[Vanishing Gradients]], [[Exploding Gradients]]
+- [[Sequence to Sequence Learning]] ([[Seq-2-Seq]])
+- [[Encoder-Decoder Architecture]]
+- [[Masked Language Model]]
+- [[Knowledge Distillation]]
+- [[Hallucination]]
+- [[Inductive Bias]]
+- [[Graph Convolutional Networks]] ([[GCN]])
+- [[Mode Collapse]] (in the context of generative modeling)
+- [[VC Dimension]]
+- "[[Alignment Tax]]" (Instruction-tuning increases a model's zero-shot ability, but confidence becomes less calibrated and few-shot ability suffers)
+- [[Perplexity]] (Model measure)
+- [[Curriculum Learning]]
+- [[Online Learning]]
+- [[Precision]] (metric)
+- [[Recall]] (metric)
+- [[Label-free Evaluations]] vs [[Labeled Evaluations]]
+- [[Generative Adversarial Network]]
+- [[Adam]] Optimizer
+- [[RMSProp]] Optimizer
+- [[Residual Block]]
+- [[Transformer]] Architecture
+- [[Neural Architecture Search]]
+- [[Out-of-Vocabulary Tokens]]
+- [[Double Descent]]
+- [[Bias-Variance Tradeoff]]
+- [[Guardrails]], [[Steerability]]
+- [[Class Token]] (eg in Visual Transformers, NLP)
+- [[Contrastive learning]] / [[Contrastive Loss]]
+- [[Pre-text Training]] (in the context of self-supervised learning)
+- [[Monte-Carlo Tree Search]] (MCTS)
+- [[Markov Chain]] 
+- [[Beam Search]]
+- [[Exposure Bias]]
+
+# Reinforcement Learning Concepts
+- [[Reinforcement Learning]]
+- [[Agent]]
+- [[Policy]]
+- [[Hierarchical Reinforcement Learning]]
+- [[Inverse Reinforcement Learning]]
+- [[Q-Function]]
+- [[Q-Learning]], [[Deep Q Networks]]
+	- The goal is to learn Q(s,a), and then take the action *a* at state *s* that maximizes Q(s,a). This means that at every state, we output a Q(s,a{i}) for each discrete {i} action.
+	- Complexity: Can model scenarios where the action space is discrete and small; can't handle continuous action spaces.
+	- Flexibility: The Policy is deterministically computed from the learned Q function by maximizing the reward; it doesn't learn stochastic policies. 
+	- ![[Pasted image 20231207211904.png]]
+- [[Policy Gradient Algorithm]]
+	- Instead of trying to infer the policy from a learned Q function (like in Q-Learning), we instead try to *directly* learn a policy function from the data.
+	- The goal is to learn a *P(s)*, and then sample some action: *a ~ P(s)*  
+	- Below: 90% of the time, we're going to go the left, 10% stay, and 0% to the right; it's a probability distribution, which is very unlike Q-learning. Here, the outputs need to sum to one, unlike in Q-learning, where the outputs are arbitrary. While Q functions are naturally suited to discrete action, spaces... with Policy gradients, we're outputting a distribution, which can be interpreted as being continuous. This could be "How fast should I move, and in what direction (ie some positive/negative float)," in the Atari example below. The idea is that we can model a continuous action space; *P(a|s) = N(mu, sigma^2)*
+	- ![[Pasted image 20231207212023.png]]
+	- ![[Pasted image 20231207212505.png]]
+	- Here's how we train policy gradients:
+		- Initialize an agent
+		- Run a policy until termination
+		- Record all states, actions, and rewards (this becomes our mini-dataset)
+		- Decrease the probability of actions that resulted in low reward
+		- Increase the probability of actions that resulted in high reward
+- [[Value Learning]] vs [[Policy Learning]]
+- [[PPO]], [[Proximal Policy Optimization]]
+- [[Bellman Equation]]
+- [[Temporal Difference Learning]] (TD-Learning)
+
+# Models, Datasets, Techniques
+- [[LeNet]]
+- [[AlexNet]]
+- [[CLIP]]
+- [[BERT]]
+- [[GPT ]]
+	- [[GPT-1]]
+	- [[GPT-2]]
+	- [[GPT-3]]
+	- [[InstructGPT]]
+	- [[GPT-4]]
+- [[Word2Vec]]
+- [[GloVe]] (Global Vectors for Word Representation)
+- [[ConvNext]]
+- [[Residual Network]] (ResNet)
+	- Wide Resnet
+- [[Segment Anything Model]] (SAM)
+- [[YOLOv3]]
+- [[DistillBert]]
+- [[XLNET]]
+- [[T5]]
+- [[Stable Diffusion]]
+- [[Llama]]
+- [[Llama2]]
+- [[Retro]]
+- [[Chinchilla]]
+
+# Datasets
+- [[CommonCrawl]]
+- [[C4]]

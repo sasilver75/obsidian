@@ -1,0 +1,23 @@
+![[Pasted image 20231215171803.png]]
+![[Pasted image 20231223182856.png]]
+![[Pasted image 20231224000029.png]]![[Pasted image 20231224001343.png]]
+
+![[Pasted image 20231224001556.png]]![[Pasted image 20231224003503.png]]
+![[Pasted image 20231224003841.png]]
+![[Pasted image 20231224131650.png]]
+![[Pasted image 20231224132027.png]]
+![[Pasted image 20231224132852.png]]
+![[Pasted image 20231224135822.png]]
+![[Pasted image 20231224135808.png]]![[Pasted image 20231224135911.png]]
+![[Pasted image 20231224140449.png]]
+
+
+![[Pasted image 20231224155343.png]]![[Pasted image 20231224160119.png]
+
+![[Pasted image 20231224160249.png]]
+
+![[Pasted image 20231224160322.png]]
+(Rotations work very well and produce strong features, despite being simple!)
+
+![[Pasted image 20231224160618.png]]![[Pasted image 20231224171000.png]]
+![[Pasted image 20231224171628.png]]
