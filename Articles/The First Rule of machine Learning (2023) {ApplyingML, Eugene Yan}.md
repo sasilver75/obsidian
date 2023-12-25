@@ -67,7 +67,7 @@ There are a bunch of other techiques like regex, interquartile range for outlier
 
 >I've gotten so much flack for this. One project I did with string comparisons, but the customer was disappointed that I didn't use NNs and hired someone else to do that. Guess which one was cheaper and more accurate?
 >- Mitch Haile (@bwahacker)
-
+ 
 Yeah, you might say that those people training the machine learning models didn't know what they were doing -- perhaps! Nonetheless, the point is that understanding the data and simple heuristics can easily do better than `model.fit()`, and in less than half the time!
 
 These heuristics also 
