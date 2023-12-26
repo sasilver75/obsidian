@@ -15,7 +15,7 @@ https://developers.google.com/machine-learning/guides/rules-of-ml
 
 ### Overview:
 - To make great products:
-	- `Do machine learning like the gerat engineer you are, not like the great machine learning expert that you aren't!`
+	- `Do machine learning like the great engineer you are, not like the great machine learning expert that you aren't!`
 - Most of the resources you will face are *engineering* problems! Even with all the resources of a great ML expert, most of the gains come from *great features*, not *great machine learning algorithms!* 
 - So the basic approach is:
 	1. Make sure your pipeline is *solid*, end-to-end.

@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "07e0eb143508822c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
             "id": "c8cc32b6eb8b3f90",
             "type": "leaf",
             "state": {
@@ -41,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07e0eb143508822c",
+  "active": "ed69545c4d28cc68",
   "lastOpenFiles": [
     "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
     "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
