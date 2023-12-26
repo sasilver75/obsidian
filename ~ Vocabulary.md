@@ -111,6 +111,7 @@
 - [[Monte-Carlo Tree Search]] (MCTS)
 - [[Markov Chain]] 
 - [[Beam Search]]
+- [[Kalman Filter]]
 - [[Exposure Bias]]
 
 # Reinforcement Learning Concepts

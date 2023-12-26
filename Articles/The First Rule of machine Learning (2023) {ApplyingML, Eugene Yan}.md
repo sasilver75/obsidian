@@ -70,7 +70,41 @@ There are a bunch of other techiques like regex, interquartile range for outlier
  
 Yeah, you might say that those people training the machine learning models didn't know what they were doing -- perhaps! Nonetheless, the point is that understanding the data and simple heuristics can easily do better than `model.fit()`, and in less than half the time!
 
-These heuristics also 
+These heuristics also help with bootstrapping labels (aka weak supervision)!
+- If you're starting from scratch and don't have any labels, weak supervision is a way to quickly get lots of labels efficiently - albeit perhaps at lower quality.
+- These heuristics can be formalized as learning functions to generate labels. Other forms of weak supervision include using knowledge base and pre-trained models.
+
+
+### So when should we use machine learning?
+- After you have a non-ML baseline, that performs reasonably well, and the effort of maintaining and improving that baseline outweighs the effort of building a deploying an ML-based system.
+	- Once you're at some 195-rule handcrafted system, that becomes hard to update without breaking something.
+
+Google's Rules:
+> Rule #3: Choose machine learning over a *complex heuristic*.
+> 
+>A simple heuristic can get your  product out the door. A complex heuristic is unmaintainable. Once you have some data and a basic idea of what you're trying to accomplish, move on to machine learning! You'll find that the machine-learned model is easier to update and maintain.
+
+Having robust data pipelines and high-quality data labels also suggest that you're ready for machine learning. Before this happens, your existing data might not be good enough for ML. Or you might have the data, but it's in such a bad state that it's unusable! For example maybe the merchants on your e-commerce platform are deliberately misclassifying products to game the system!
+
+Often, *manual labeling* is required to bootstrap a `golden dataset` of high-quality labels!
+With it, training and *validating* your ML efforts become much easier!
+
+
+### But what if I need to use ML, just for the sake of it!?
+- Hmmm... that's a tough position.
+
+> ML Strategy tip:
+> -  When you have a problem, build *two solutions!* A deep Bayesian transformer running on multicloud Kubernetes, and a SQL query built on a stack of egregiously-oversimplifying assumptions.
+> - Put the former on your resume and the latter in production. Everyone goes home happy.
+> - .
+> Brandon Rohrer (@\_\_brohrer\_\_) 
+
+
+
+
+
+
+
 
 
 

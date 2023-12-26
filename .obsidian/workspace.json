@@ -20,14 +20,12 @@
             }
           },
           {
-            "id": "4000566512a5db38",
+            "id": "07e0eb143508822c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.5.3"
               }
             }
           },
@@ -73,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "apply",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+                "file": "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+                "file": "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md"
+                "file": "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md"
               }
             }
           }
@@ -172,10 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4000566512a5db38",
+  "active": "07e0eb143508822c",
   "lastOpenFiles": [
-    "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
     "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+    "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
+    "~ Vocabulary.md",
     "_attachments/Pasted image 20231224230120.png",
     "_attachments/Pasted image 20231224230028.png",
     "_attachments/Pasted image 20231224230015.png",
@@ -186,7 +186,6 @@
     "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
     "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
     "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20231224220304.png",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20231224202430.png",
