@@ -113,6 +113,8 @@
 - [[Beam Search]]
 - [[Kalman Filter]]
 - [[Exposure Bias]]
+- [[Control Net]]
+- [[Covariate Shift]]
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
