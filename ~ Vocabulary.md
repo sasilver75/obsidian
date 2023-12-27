@@ -115,6 +115,9 @@
 - [[Exposure Bias]]
 - [[Control Net]]
 - [[Covariate Shift]]
+- [[Particle Filters]] (Sequential Monte Carlo Methods)
+- [[Gaussian Splatting]]
+- [[Neural Radiance Fields]]
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
