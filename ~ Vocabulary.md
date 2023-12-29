@@ -113,7 +113,6 @@
 - [[Beam Search]]
 - [[Kalman Filter]]
 - [[Exposure Bias]]
-- [[Control Net]]
 - [[Covariate Shift]]
 - [[Particle Filters]] (Sequential Monte Carlo Methods)
 - [[Gaussian Splatting]]
@@ -174,6 +173,7 @@
 - [[Llama2]]
 - [[Retro]]
 - [[Chinchilla]]
+- [[ControlNet]]
 
 # Datasets
 - [[CommonCrawl]]
