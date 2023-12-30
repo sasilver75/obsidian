@@ -117,6 +117,7 @@
 - [[Particle Filters]] (Sequential Monte Carlo Methods)
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
+- [[Tree of Thought]]
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
@@ -150,7 +151,7 @@
 # Models, Datasets, Techniques
 - [[LeNet]]
 - [[AlexNet]]
-- [[CLIP]]
+- [[CLIP]] (Contrastive Language-Image Pre-training)
 - [[BERT]]
 - [[GPT ]]
 	- [[GPT-1]]
@@ -159,10 +160,9 @@
 	- [[InstructGPT]]
 	- [[GPT-4]]
 - [[Word2Vec]]
-- [[GloVe]] (Global Vectors for Word Representation)
+- [[GloVe]]
 - [[ConvNext]]
 - [[Residual Network]] (ResNet)
-	- Wide Resnet
 - [[Segment Anything Model]] (SAM)
 - [[YOLOv3]]
 - [[DistillBert]]
