@@ -1,9 +1,9 @@
 
 # Linear Algebra
-
+- 
 
 # Probability/Statistics
-
+- 
 
 # Information Retrieval
 - [[BM25]]
@@ -16,7 +16,7 @@
 - [[Unsupervised Learning]]
 - [[Overfitting]]
 - [[K-Shot Learning]] / [[In-Context Learning]]
-- [[Chain of Thought]] ([[CoT]])****
+- [[Chain of Thought]] ([[CoT]])
 - [[Catastrophic Forgetting]]
 - [[Reinforcement Learning for Human Feedback]] ([[RLHF]])
 	- [[Rejection Sampling]] in the RLHF context
@@ -118,6 +118,7 @@
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
 - [[Tree of Thought]]
+- [[VLM]] - Visual Language Model
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
@@ -153,7 +154,7 @@
 - [[AlexNet]]
 - [[CLIP]] (Contrastive Language-Image Pre-training)
 - [[BERT]]
-- [[GPT ]]
+- [[GPT]]
 	- [[GPT-1]]
 	- [[GPT-2]]
 	- [[GPT-3]]
@@ -174,6 +175,21 @@
 - [[Retro]]
 - [[Chinchilla]]
 - [[ControlNet]]
+- [[VGG]]
+
+
+# Tools
+- [[ComfyUI]]
+- [[Automatic1111]] (a1111)
+- [[Axolotl]]
+- [[Oogabooga]]
+- 
+
+
+# Benchmarks
+- [[GAIA]]: A benchmark for General AI Assistants (2023)
+- 
+
 
 # Datasets
 - [[CommonCrawl]]
