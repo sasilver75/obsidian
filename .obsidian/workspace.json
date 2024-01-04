@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Worksheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf17e53a2d9b5011",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "~ Vocabulary.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,11 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf17e53a2d9b5011",
+  "active": "8a5d74884bc5f863",
   "lastOpenFiles": [
+    "Out-of-Vocabulary Tokens.md",
     "~ Worksheet.md",
-    "Parameter-Efficient Fine-Tuning.md",
+    "Eleuther LM Evlaluation Harness.md",
     "~ Vocabulary.md",
+    "~ Followup.md",
+    "~ Blog.md",
+    "Parameter-Efficient Fine-Tuning.md",
     "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
     "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
     "_attachments/Pasted image 20231224230120.png",
@@ -193,12 +185,8 @@
     "C++/UIUC Accelerated Fundamentals/Week 3.md",
     "C++/UIUC Accelerated Fundamentals/Week 2.md",
     "C++/UIUC Accelerated Fundamentals/Week 1.md",
-    "C++/UIUC Accelerated Fundamentals/Week 4.md",
-    "C++/LearnCPP/Notes.md",
-    "~ Research Ideas.md",
     "Rese",
     "C++/LearnCPP",
-    "C++/Untitled.md",
     "C++/UIUC Accelerated Fundamentals",
     "C++",
     "DeepLearning.ai",

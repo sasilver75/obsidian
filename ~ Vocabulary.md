@@ -183,12 +183,12 @@
 - [[Automatic1111]] (a1111)
 - [[Axolotl]]
 - [[Oogabooga]]
-- 
+- [[Eleuther LM Evaluation Harness]]
 
 
 # Benchmarks
 - [[GAIA]]: A benchmark for General AI Assistants (2023)
-- 
+- [[MMLU]]: Massive Multi-task Language Understanding
 
 
 # Datasets
