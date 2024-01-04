@@ -104,10 +104,13 @@ Adding content to a Hugo site:
 
 For example, fi you have a **blog** content section folder, you can use it to store all your blog posts and render a specific page template that only applies to blog posts.
 
-### How to add Posts in Hugo
+### How to add ==Posts== in Hugo
 - Let's create a content section for blog posts and add a few pieces of content. Create a new folder named **posts**  in our project's content folder!
 - Let's create another organization layer inside the posts folder by adding a 2024 folder...
 
+## How to add ==Page== in Hugo
+- Now that we've added a *post* to our Hugo, let's add a *page* too!
+- 
 
 
 

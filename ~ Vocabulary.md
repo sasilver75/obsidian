@@ -119,6 +119,7 @@
 - [[Neural Radiance Fields]]
 - [[Tree of Thought]]
 - [[VLM]] - Visual Language Model
+- [[Speculative Decoding]]
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
