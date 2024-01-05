@@ -1,9 +1,10 @@
-
 # Linear Algebra
 - 
 
+
 # Probability/Statistics
 - 
+
 
 # Information Retrieval
 - [[BM25]]
@@ -130,7 +131,6 @@
 - [[Information Extraction]]
 
 
-
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
 - [[Agent]]
@@ -142,13 +142,10 @@
 	- The goal is to learn Q(s,a), and then take the action *a* at state *s* that maximizes Q(s,a). This means that at every state, we output a Q(s,a{i}) for each discrete {i} action.
 	- Complexity: Can model scenarios where the action space is discrete and small; can't handle continuous action spaces.
 	- Flexibility: The Policy is deterministically computed from the learned Q function by maximizing the reward; it doesn't learn stochastic policies. 
-	- ![[Pasted image 20231207211904.png]]
 - [[Policy Gradient Algorithm]]
 	- Instead of trying to infer the policy from a learned Q function (like in Q-Learning), we instead try to *directly* learn a policy function from the data.
 	- The goal is to learn a *P(s)*, and then sample some action: *a ~ P(s)*  
 	- Below: 90% of the time, we're going to go the left, 10% stay, and 0% to the right; it's a probability distribution, which is very unlike Q-learning. Here, the outputs need to sum to one, unlike in Q-learning, where the outputs are arbitrary. While Q functions are naturally suited to discrete action, spaces... with Policy gradients, we're outputting a distribution, which can be interpreted as being continuous. This could be "How fast should I move, and in what direction (ie some positive/negative float)," in the Atari example below. The idea is that we can model a continuous action space; *P(a|s) = N(mu, sigma^2)*
-	- ![[Pasted image 20231207212023.png]]
-	- ![[Pasted image 20231207212505.png]]
 	- Here's how we train policy gradients:
 		- Initialize an agent
 		- Run a policy until termination
@@ -159,6 +156,7 @@
 - [[PPO]], [[Proximal Policy Optimization]]
 - [[Bellman Equation]]
 - [[Temporal Difference Learning]] (TD-Learning)
+
 
 # Models, Datasets, Techniques
 - [[LeNet]]
@@ -195,10 +193,14 @@
 - [[Axolotl]]
 - [[Oogabooga]]
 - [[Eleuther LM Evaluation Harness]]
+- [[Gradio]]
+- [[Streamlit]]
+- [[MergeKit]]
+- [[GGUF]] File Format
 
 
 # Benchmarks
-- [[GAIA]]: A benchmark for General AI Assistants (2023)
+	- [[GAIA]]: A benchmark for General AI Assistants (2023)
 - [[MMLU]]: Massive Multi-task Language Understanding
 
 
