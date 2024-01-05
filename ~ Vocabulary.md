@@ -7,7 +7,7 @@
 
 # Information Retrieval
 - [[BM25]]
-- 
+- [[HNSW]]: Hierarchical Navigable Small World
 
 
 # Supervised/Unsupervised Learning Concepts
@@ -53,13 +53,11 @@
 	- [[Relative Positional Embeddings]]
 - [[Tokens]]
 - [[Numericalization]]
-- [[Pretraining]]
+- [[Pre-training]]
 - [[Fine-Tuning]]
 - [[Batch Normalization]]
 - [[Layer Normalization]]
 - [[Convolution]]
-- [[Sequential Block]]
-- [[Densenet Block]]
 - [[Grouped Convolutions]]
 - [[Depth-Wise Convolutions]]
 - [[Activation Function]]
@@ -120,6 +118,18 @@
 - [[Tree of Thought]]
 - [[VLM]] - Visual Language Model
 - [[Speculative Decoding]]
+
+
+# Natural Language Processing Concepts
+- [[Sentiment Analysis]]
+- [[Argument Mining]]
+- [[Computational Social Science]] / [[Cultural Analytics]]
+- [[Language Grounding]]
+- [[Question Answering]]
+- [[Machine Translation]]
+- [[Information Extraction]]
+
+
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
