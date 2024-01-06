@@ -3,12 +3,12 @@
 
 
 # Probability/Statistics
-- 
+- ******
 
 
 # Information Retrieval
 - [[BM25]]
-- [[HNSW]]: Hierarchical Navigable Small World
+- [[Hierarchical Navigable Small World]]
 
 
 # Supervised/Unsupervised Learning Concepts
@@ -17,31 +17,32 @@
 - [[Unsupervised Learning]]
 - [[Overfitting]]
 - [[K-Shot Learning]] / [[In-Context Learning]]
+- [[Feed-Forward Network]]
 - [[Chain of Thought]] ([[CoT]])
 - [[Catastrophic Forgetting]]
-- [[Reinforcement Learning for Human Feedback]] ([[RLHF]])
+- [[Reinforcement Learning for Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
 - [[Fine-Tuning]]
 - [[Instruction-Tuning]] (See InstructGPT Paper; possibly pre-RLHF)
 - [[Transfer Learning]]
-- [[Retrieval-Augmented Generation]] ([[RAG]])
-- [[Autoencoders]] (AEs)
-- [[Variational Autoencoders]] ([VAE]s)
+- [[Retrieval-Augmented Generation]]
+- [[Autoencoders]]
+- [[Variational Autoencoder]]
 - Beta-VAE
 - [[Regularization]]
 	- [[L1 Regularization]]
 	- [[L2 Regularization]]
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
+	- 
 	- [[Self-Attention]]
-	- Multi-head Attention
-	- Masked Attention
-	- Causal Attention
-	- Sparse/Efficient Attention
-	- Cross Attention
+	- [[Multi-Head Attention]]
+	- [[Masked Attention]]
+	- [[Sparse Attention]]
+	- [[Cross Attention]]
 - [[Diffusion Models]]
 	- ![[Pasted image 20231207234419.png]]
-- [[Low-Rank Adaptation]] ([[LoRA]]), [[Parameter-Efficient Fine-Tuning]]
+- [[Low-Rank Adaptation]], [[Parameter-Efficient Fine-Tuning]]
 - [[Semantic Segmentation]]
 - [[Quantization]]
 - [[Model Pruning]]
@@ -51,7 +52,7 @@
 - [[Semi-Supervised Learning]]
 - [[Reinforcement Learning]]
 - [[Embeddings]] ([[Sparse]], [[Dense Embeddings]])
-	- [[Relative Positional Embeddings]]
+- [[Positional Encoding]]
 - [[Tokens]]
 - [[Numericalization]]
 - [[Pre-training]]
@@ -71,20 +72,19 @@
 - [[Test-Time Augmentation]]
 - [[Gradient Accumulation]]
 - [[One-Hot Encoding]]
-- [[Recurrent Neural Networks (RNN)]]
-- [[Bi-Directional Recurrent Neural Networks]]
-- [[Long Short Term Memory]] ([[LSTM]])
-- [[Gated Recurrent Unit]] ([[GRU]])
-- [[Convolutional Neural Networks]] ([[CNN]])
-- [[Region-Based Convolutional Neural Networks]] ([[R-CNN]])
+- [[Recurrent Neural Networks]]
+- [[Bi-Directional Recurrent Neural Network]]
+- [[Long Short Term Memory]]
+- [[Gated Recurrent Unit]]
+- [[Convolutional Neural Network]]
+- [[Region-Based Convolutional Neural Network]]
 - [[Vanishing Gradients]], [[Exploding Gradients]]
-- [[Sequence to Sequence Learning]] ([[Seq-2-Seq]])
 - [[Encoder-Decoder Architecture]]
 - [[Masked Language Model]]
 - [[Knowledge Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
-- [[Graph Convolutional Networks]] ([[GCN]])
+- [[Graph Convolutional Network]]
 - [[Mode Collapse]] (in the context of generative modeling)
 - [[VC Dimension]]
 - "[[Alignment Tax]]" (Instruction-tuning increases a model's zero-shot ability, but confidence becomes less calibrated and few-shot ability suffers)
@@ -95,19 +95,19 @@
 - [[Recall]] (metric)
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
 - [[Generative Adversarial Network]]
-- [[Adam]] Optimizer
-- [[RMSProp]] Optimizer
-- [[Residual Block]]
+- [[Adam Optimizer]]
+- [[RMSProp Optimizer]]
+- [[Residual Connection]]
 - [[Transformer]] Architecture
 - [[Neural Architecture Search]]
-- [[Out-of-Vocabulary Tokens]]
+- [[Out-of-Vocabulary Token]]
 - [[Double Descent]]
 - [[Bias-Variance Tradeoff]]
 - [[Guardrails]], [[Steerability]]
 - [[Class Token]] (eg in Visual Transformers, NLP)
 - [[Contrastive learning]] / [[Contrastive Loss]]
 - [[Pre-text Training]] (in the context of self-supervised learning)
-- [[Monte-Carlo Tree Search]] (MCTS)
+- [[Monte-Carlo Tree Search]]
 - [[Markov Chain]] 
 - [[Beam Search]]
 - [[Kalman Filter]]
@@ -119,6 +119,8 @@
 - [[Tree of Thought]]
 - [[VLM]] - Visual Language Model
 - [[Speculative Decoding]]
+- [[Dropout]]
+- [[Label Smoothing]]
 
 
 # Natural Language Processing Concepts
@@ -129,6 +131,7 @@
 - [[Question Answering]]
 - [[Machine Translation]]
 - [[Information Extraction]]
+- [[Byte-Pair Encoding]] (BPE)
 
 
 # Reinforcement Learning Concepts

@@ -73,7 +73,7 @@ Honorable Mention
 ![Residual Block Architecture (<a href='https://arxiv.org/abs/1512.03385'>Source</a>)](https://bmk.sh/images/residual.png)
 *Residual block architecture*
 ## [2015: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-- Initially designed to deal with the problem of [[Vanishing Gradients]] and [[Exploding Gradients]] in deep [[Convolutional Neural Networks]], the [[Residual Block]]  has become the elementary building block for almost all CNNs today.
+- Initially designed to deal with the problem of [[Vanishing Gradients]] and [[Exploding Gradients]] in deep [[Convolutional Neural Network]], the [[Residual Block]]  has become the elementary building block for almost all CNNs today.
 	- The idea is simple: Add the *input* from *before* each block of convolutional layers to the *output*.
 - The inspiration behind [[Residual Network]]s is that NNs should theoretically never degrade with more layers -- additional layers could/should *in the worst case* be simply set as identity mappings (but in practice, deeper networks often experienced difficulties training).
 	- Residual networks made it easier for layers to learn an identity mapping, and also reduced the issue of gradient vanishing.
