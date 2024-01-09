@@ -8,7 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8a5d74884bc5f863",
+            "id": "c83da56266c23bac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Whisper.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a9ae403c5d810b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LAION.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8729774df9cc2235",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Pile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a27c92e863e0ae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "940f0b08ef230af6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Stack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -48,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vocab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,8 +195,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a5d74884bc5f863",
+  "active": "1a27c92e863e0ae2",
   "lastOpenFiles": [
+    "The Stack.md",
+    "~ Vocabulary.md",
+    "The Pile.md",
+    "LAION.md",
+    "Whisper.md",
+    "C4.md",
+    "CommonCrawl.md",
     "~ Questions.md",
     "_attachments/Pasted image 20240105222642.png",
     "_attachments/Pasted image 20240105221045.png",
@@ -160,7 +216,6 @@
     "Out-of-Vocabulary Tokens.md",
     "~ Worksheet.md",
     "Eleuther LM Evlaluation Harness.md",
-    "~ Vocabulary.md",
     "~ Followup.md",
     "~ Blog.md",
     "Parameter-Efficient Fine-Tuning.md",
@@ -175,15 +230,9 @@
     "Articles/2023, a year of open LLMs (2023) {HuggingFace}.md",
     "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
     "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
-    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
     "_attachments/Pasted image 20231224220304.png",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20231224202430.png",
     "_attachments/Pasted image 20231224201058.png",
-    "Bias-Variance Tradeoff.md",
-    "Diffusion Models.md",
-    "AlexNet.md",
-    "Few-Shot Learning.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
