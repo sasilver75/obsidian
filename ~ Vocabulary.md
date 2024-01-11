@@ -120,6 +120,7 @@
 - [[Dropout]]
 - [[Label Smoothing]]
 - [[Direct Policy Optimization]]
+- [[Mode Collapse]]
 
 
 # Natural Language Processing Concepts
