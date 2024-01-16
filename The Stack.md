@@ -1,0 +1,1 @@
+An Eleuther Dataset of ~6TB (320x larger than Wikpiedia) that has permissive software image licenses. Cleaned of license files, image blobs, etc. Anyone can train on this.

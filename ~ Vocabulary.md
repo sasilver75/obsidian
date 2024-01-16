@@ -9,6 +9,7 @@
 # Information Retrieval
 - [[BM25]]
 - [[Hierarchical Navigable Small World]]
+- [[Locality Sensitive Hashing]]
 
 
 # Supervised/Unsupervised Learning Concepts
@@ -120,6 +121,9 @@
 - [[Dropout]]
 - [[Label Smoothing]]
 - [[Direct Policy Optimization]]
+- [[Sampled Softmax]]
+- [[Positive Pair]]
+- [[Negative Pair]]
 - [[Mode Collapse]]
 - [[Active Learning]]
 
@@ -146,7 +150,9 @@
 - [[Value Learning]] vs [[Policy Learning]]
 - [[Proximal Policy Optimization]]
 - [[Bellman Equation]]
-- [[Temporal Difference Learning]]
+- [[Temporal Difference Learning]] (TD-Learning)
+- Compute-Optimal Training
+- Inference-Optimal Training
 
 
 # Models, Datasets, Techniques
@@ -193,8 +199,32 @@
 # Benchmarks
 - [[GAIA]]: A benchmark for General AI Assistants
 - [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
+- [[HumanEval]]
 
 
 # Datasets
 - [[CommonCrawl]]
 - [[C4]] (improvement of CommonCrawl)
+- [[Webtext]], OpenWebtext2
+- [[The Stack]]
+- [[The Pile]]
+- [[LAION]]
+- [[Whisper]]
+- Dataset Problems:
+	- Code when duplicated multiple times in a dataset means that it's going to be trained on more than other data. According to LatentSpace101Datsets ep, it increases the likelihood disproportionately -- eg 2x the occurrences in the data may mean that there's a 100x likelihood of it being reproduced.
+- CIFAR-10
+- MNIST
+- TinyStories
+
+# Companies
+
+Dataset Types
+- Raw Internet
+	- Common Crawl, Wikipedia
+- Demonstrations
+	- Demonstrating ideal assistant response (prompt/response pairs for assistant)
+- Comparisons
+	- Output A and B, which is better?
+- Reinforcement learning with prompts
+
+
