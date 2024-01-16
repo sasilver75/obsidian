@@ -121,12 +121,12 @@
 - [[Label Smoothing]]
 - [[Direct Policy Optimization]]
 - [[Mode Collapse]]
+- [[Active Learning]]
 
 
 # Natural Language Processing Concepts
 - [[Sentiment Analysis]]
 - [[Argument Mining]]
-- [[Computational Social Science]] / [[Cultural Analytics]]
 - [[Language Grounding]]
 - [[Question Answering]]
 - [[Machine Translation]]
