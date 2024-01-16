@@ -124,6 +124,7 @@
 - [[Sampled Softmax]]
 - [[Positive Pair]]
 - [[Negative Pair]]
+- [[Mode Collapse]]
 
 
 # Natural Language Processing Concepts

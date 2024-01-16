@@ -104,7 +104,7 @@ If we want to train our UNet on 10,000,000 pictures, we first put all 10,000,000
 
 Okay
 
-This is called a [[Variational AutoEncoder]] (VAE).
+This is called a [[Variational Autoencoder]] (VAE).
 - VAE's decoder
 	- input: A small, Latent-shaped tensor
 	- output: A large image
