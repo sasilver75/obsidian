@@ -9,6 +9,7 @@
 # Information Retrieval
 - [[BM25]]
 - [[Hierarchical Navigable Small World]]
+- [[Locality Sensitive Hashing]]
 
 
 # Supervised/Unsupervised Learning Concepts
@@ -23,7 +24,7 @@
 - [[Reinforcement Learning for Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
 - [[Fine-Tuning]]
-- [[Instruction-Tuning]] (See InstructGPT Paper; possibly pre-RLHF)
+- [[Instruction-Tuning]]
 - [[Transfer Learning]]
 - [[Retrieval-Augmented Generation]]
 - [[Autoencoders]]
@@ -34,14 +35,12 @@
 	- [[L2 Regularization]]
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
-	- 
 	- [[Self-Attention]]
 	- [[Multi-Head Attention]]
 	- [[Masked Attention]]
 	- [[Sparse Attention]]
 	- [[Cross Attention]]
 - [[Diffusion Models]]
-	- ![[Pasted image 20231207234419.png]]
 - [[Low-Rank Adaptation]], [[Parameter-Efficient Fine-Tuning]]
 - [[Semantic Segmentation]]
 - [[Quantization]]
@@ -51,7 +50,7 @@
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
 - [[Reinforcement Learning]]
-- [[Embeddings]] ([[Sparse]], [[Dense Embeddings]])
+- [[Embeddings]]
 - [[Positional Encoding]]
 - [[Tokens]]
 - [[Numericalization]]
@@ -85,42 +84,46 @@
 - [[Hallucination]]
 - [[Inductive Bias]]
 - [[Graph Convolutional Network]]
-- [[Mode Collapse]] (in the context of generative modeling)
+- [[Mode Collapse]] 
 - [[VC Dimension]]
-- "[[Alignment Tax]]" (Instruction-tuning increases a model's zero-shot ability, but confidence becomes less calibrated and few-shot ability suffers)
-- [[Perplexity]] (Model measure)
+- [[Alignment Tax]]
+- [[Perplexity]] 
 - [[Curriculum Learning]]
 - [[Online Learning]]
-- [[Precision]] (metric)
-- [[Recall]] (metric)
+- [[Precision]] 
+- [[Recall]] 
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
 - [[Generative Adversarial Network]]
 - [[Adam Optimizer]]
 - [[RMSProp Optimizer]]
 - [[Residual Connection]]
-- [[Transformer]] Architecture
+- [[Transformer]]
 - [[Neural Architecture Search]]
 - [[Out-of-Vocabulary Token]]
 - [[Double Descent]]
 - [[Bias-Variance Tradeoff]]
 - [[Guardrails]], [[Steerability]]
-- [[Class Token]] (eg in Visual Transformers, NLP)
+- [[Class Token]] 
 - [[Contrastive learning]] / [[Contrastive Loss]]
-- [[Pre-text Training]] (in the context of self-supervised learning)
+- [[Pre-text Training]] 
 - [[Monte-Carlo Tree Search]]
 - [[Markov Chain]] 
 - [[Beam Search]]
 - [[Kalman Filter]]
 - [[Exposure Bias]]
 - [[Covariate Shift]]
-- [[Particle Filters]] (Sequential Monte Carlo Methods)
+- [[Particle Filters]] 
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
 - [[Tree of Thought]]
-- [[VLM]] - Visual Language Model
+- [[VLM]] 
 - [[Speculative Decoding]]
 - [[Dropout]]
 - [[Label Smoothing]]
+- [[Direct Policy Optimization]]
+- [[Sampled Softmax]]
+- [[Positive Pair]]
+- [[Negative Pair]]
 
 
 # Natural Language Processing Concepts
@@ -131,7 +134,7 @@
 - [[Question Answering]]
 - [[Machine Translation]]
 - [[Information Extraction]]
-- [[Byte-Pair Encoding]] (BPE)
+- [[Byte-Pair Encoding]]
 
 
 # Reinforcement Learning Concepts
@@ -142,21 +145,9 @@
 - [[Inverse Reinforcement Learning]]
 - [[Q-Function]]
 - [[Q-Learning]], [[Deep Q Networks]]
-	- The goal is to learn Q(s,a), and then take the action *a* at state *s* that maximizes Q(s,a). This means that at every state, we output a Q(s,a{i}) for each discrete {i} action.
-	- Complexity: Can model scenarios where the action space is discrete and small; can't handle continuous action spaces.
-	- Flexibility: The Policy is deterministically computed from the learned Q function by maximizing the reward; it doesn't learn stochastic policies. 
 - [[Policy Gradient Algorithm]]
-	- Instead of trying to infer the policy from a learned Q function (like in Q-Learning), we instead try to *directly* learn a policy function from the data.
-	- The goal is to learn a *P(s)*, and then sample some action: *a ~ P(s)*  
-	- Below: 90% of the time, we're going to go the left, 10% stay, and 0% to the right; it's a probability distribution, which is very unlike Q-learning. Here, the outputs need to sum to one, unlike in Q-learning, where the outputs are arbitrary. While Q functions are naturally suited to discrete action, spaces... with Policy gradients, we're outputting a distribution, which can be interpreted as being continuous. This could be "How fast should I move, and in what direction (ie some positive/negative float)," in the Atari example below. The idea is that we can model a continuous action space; *P(a|s) = N(mu, sigma^2)*
-	- Here's how we train policy gradients:
-		- Initialize an agent
-		- Run a policy until termination
-		- Record all states, actions, and rewards (this becomes our mini-dataset)
-		- Decrease the probability of actions that resulted in low reward
-		- Increase the probability of actions that resulted in high reward
 - [[Value Learning]] vs [[Policy Learning]]
-- [[PPO]], [[Proximal Policy Optimization]]
+- [[Proximal Policy Optimization]]
 - [[Bellman Equation]]
 - [[Temporal Difference Learning]] (TD-Learning)
 - Compute-Optimal Training
@@ -166,7 +157,7 @@
 # Models, Datasets, Techniques
 - [[LeNet]]
 - [[AlexNet]]
-- [[CLIP]] (Contrastive Language-Image Pre-training)
+- [[CLIP]] 
 - [[BERT]]
 - [[GPT]]
 	- [[GPT-1]]
@@ -177,8 +168,8 @@
 - [[Word2Vec]]
 - [[GloVe]]
 - [[ConvNext]]
-- [[Residual Network]] (ResNet)
-- [[Segment Anything Model]] (SAM)
+- [[Residual Network]]
+- [[Segment Anything Model]]
 - [[YOLOv3]]
 - [[DistillBert]]
 - [[XLNET]]
@@ -194,7 +185,7 @@
 
 # Tools
 - [[ComfyUI]]
-- [[Automatic1111]] (a1111)
+- [[Automatic1111]] 
 - [[Axolotl]]
 - [[Oogabooga]]
 - [[Eleuther LM Evaluation Harness]]
@@ -205,8 +196,9 @@
 
 
 # Benchmarks
-	- [[GAIA]]: A benchmark for General AI Assistants (2023)
-- [[MMLU]]: Massive Multi-task Language Understanding
+- [[GAIA]]: A benchmark for General AI Assistants
+- [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
+- [[HumanEval]]
 
 
 # Datasets

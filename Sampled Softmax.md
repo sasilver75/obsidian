@@ -1,0 +1,3 @@
+![[Pasted image 20240115123140.png]]
+Compute the prediction for the _correct_ label, and compute the predictions for some other random words in the output vector (say, 1%), and estimate the softmax distribution _using_ this random sample (maybe we assume that the other not-sampled values in the output vector are going to be 0)
+- You can now train a language model much faster -- many orders of magnitude faster!

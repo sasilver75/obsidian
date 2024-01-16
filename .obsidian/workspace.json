@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c83da56266c23bac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a9ae403c5d810b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LAION.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8729774df9cc2235",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Pile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a27c92e863e0ae2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "940f0b08ef230af6",
             "type": "leaf",
             "state": {
@@ -67,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vocab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "The Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "The Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "The Stack.md"
               }
             }
           }
@@ -195,13 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a27c92e863e0ae2",
+  "active": "940f0b08ef230af6",
   "lastOpenFiles": [
-    "The Stack.md",
-    "~ Vocabulary.md",
-    "The Pile.md",
-    "LAION.md",
     "Whisper.md",
+    "LAION.md",
+    "The Pile.md",
+    "Locality Sensitive Hashing.md",
+    "Sampled Softmax.md",
+    "~ Learning.md",
+    "~ BLog.md",
+    "~ Vocabulary.md",
+    "conflict-files-obsidian-git.md",
+    "_attachments/Pasted image 20240115124418.png",
+    "HumanEval.md",
+    "_attachments/Pasted image 20240115123140.png",
+    "The Stack.md",
     "C4.md",
     "CommonCrawl.md",
     "~ Questions.md",
@@ -224,15 +183,7 @@
     "_attachments/Pasted image 20231224230120.png",
     "_attachments/Pasted image 20231224230028.png",
     "_attachments/Pasted image 20231224230015.png",
-    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
-    "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
-    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
-    "Articles/2023, a year of open LLMs (2023) {HuggingFace}.md",
-    "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
-    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
     "_attachments/Pasted image 20231224220304.png",
-    "_attachments/Pasted image 20231224202430.png",
-    "_attachments/Pasted image 20231224201058.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
