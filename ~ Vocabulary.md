@@ -10,6 +10,7 @@
 - [[BM25]]
 - [[Hierarchical Navigable Small World]]
 - [[Locality Sensitive Hashing]]
+- [[Reranking]]
 
 
 # Supervised/Unsupervised Learning Concepts
