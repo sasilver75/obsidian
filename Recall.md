@@ -1,1 +1,4 @@
-(metric)
+---
+aliases:
+  - Coverage
+---

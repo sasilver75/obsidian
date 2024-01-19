@@ -12,6 +12,13 @@
 - [[Locality Sensitive Hashing]]
 - [[Reranking]]
 
+# Data Analytics
+- [[Type One Error]]
+- [[Type Two Error]]
+- [[Precision]]
+- [[Recall]]
+- [[Covariate Shift]]
+
 
 # Supervised/Unsupervised Learning Concepts
 - [[Machine Learning]]
@@ -91,8 +98,6 @@
 - [[Perplexity]] 
 - [[Curriculum Learning]]
 - [[Online Learning]]
-- [[Precision]] 
-- [[Recall]] 
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
 - [[Generative Adversarial Network]]
 - [[Adam Optimizer]]
@@ -112,7 +117,6 @@
 - [[Beam Search]]
 - [[Kalman Filter]]
 - [[Exposure Bias]]
-- [[Covariate Shift]]
 - [[Particle Filters]] 
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
@@ -156,7 +160,7 @@
 - Inference-Optimal Training
 
 
-# Models, Datasets, Techniques
+# Models, Techniques
 - [[LeNet]]
 - [[AlexNet]]
 - [[CLIP]] 
@@ -172,17 +176,15 @@
 - [[ConvNext]]
 - [[Residual Network]]
 - [[Segment Anything Model]]
-- [[YOLOv3]]
-- [[DistillBert]]
-- [[XLNET]]
 - [[T5]]
 - [[Stable Diffusion]]
 - [[Llama]]
 - [[Llama2]]
-- [[Retro]]
 - [[Chinchilla]]
 - [[ControlNet]]
 - [[VGG]]
+- [[Phi]]
+- [[Flamingo]]
 
 
 # Tools
@@ -213,9 +215,12 @@
 - [[Whisper]]
 - Dataset Problems:
 	- Code when duplicated multiple times in a dataset means that it's going to be trained on more than other data. According to LatentSpace101Datsets ep, it increases the likelihood disproportionately -- eg 2x the occurrences in the data may mean that there's a 100x likelihood of it being reproduced.
-- CIFAR-10
-- MNIST
-- TinyStories
+- [[CIFAR-10]]
+- [[MNIST]]
+- [[TinyStories]]
+- [[LAION]]
+	- LAION-COCO
+- [[MMC4]] (Multimodal C4)
 
 # Companies
 
