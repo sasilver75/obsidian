@@ -34,11 +34,11 @@ Our strategy is this:
 ![[Pasted image 20231209120631.png]]
 You can see why we're doing this multiple times...
 
-In practice, we use a particular type of Neural Net for this; a type of network designed for medical imaging called the [[UNet]]. 
+In practice, we use a particular type of Neural Net for this; a type of network designed for medical imaging called the [[U-Net]]. 
 
 This is the first component of stable diffusion!
 
-[[UNet]]
+[[U-Net]]
 - The input is a somewhat noisy image (it could be anywhere from all noise to not noisy at all)
 - The output is the noise (such that if we subtract the output from the input, we end up with an approximation of the unnoisy image)
 

@@ -3,12 +3,13 @@
 
 
 # Probability/Statistics
-- ******
+- [[Monte-Carlo Tree Search]]
+- 
 
 
 # Information Retrieval
 - [[BM25]]
-- [[Hierarchical Navigable Small World]]
+- [[Hierarchical Navigable Small Worlds]]
 - [[Locality Sensitive Hashing]]
 - [[Reranking]]
 
@@ -18,6 +19,18 @@
 - [[Precision]]
 - [[Recall]]
 - [[Covariate Shift]]
+- [[Regularization]]
+- [[One-Hot Encoding]]
+- [[t-SNE]]
+- [[Bootstrap]]
+- [[Bootstrap Aggregation]]
+- [[Hidden Markov Model]]
+- [[Markov Chain]]
+- [[Beam Search]]
+
+# RecSys
+- [[Collaborative Filtering]]
+- [[Content-Based Filtering]]
 
 
 # Supervised/Unsupervised Learning Concepts
@@ -25,7 +38,7 @@
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Overfitting]]
-- [[K-Shot Learning]] / [[In-Context Learning]]
+- [[Prompting]]/[[K-Shot Learning]] / [[In-Context Learning]]/[[Few-Shot Learning]]
 - [[Feed-Forward Network]]
 - [[Chain of Thought]] ([[CoT]])
 - [[Catastrophic Forgetting]]
@@ -35,21 +48,11 @@
 - [[Instruction-Tuning]]
 - [[Transfer Learning]]
 - [[Retrieval-Augmented Generation]]
-- [[Autoencoders]]
-- [[Variational Autoencoder]]
-- Beta-VAE
-- [[Regularization]]
-	- [[L1 Regularization]]
-	- [[L2 Regularization]]
+- [[Autoencoder]]
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
-	- [[Self-Attention]]
-	- [[Multi-Head Attention]]
-	- [[Masked Attention]]
-	- [[Sparse Attention]]
-	- [[Cross Attention]]
 - [[Diffusion Models]]
-- [[Low-Rank Adaptation]], [[Parameter-Efficient Fine-Tuning]]
+- [[Parameter-Efficient Fine-Tuning]]
 - [[Semantic Segmentation]]
 - [[Quantization]]
 - [[Model Pruning]]
@@ -70,15 +73,11 @@
 - [[Grouped Convolutions]]
 - [[Depth-Wise Convolutions]]
 - [[Activation Function]]
-- [[Sigmoid Activation Function]]
-- [[Tanh Activation Funcition]]
-- [[ReLU Activation Function]]
 - [[U-Net]]
 - [[ULMFit]]
 - [[Gini Index]]
 - [[Test-Time Augmentation]]
 - [[Gradient Accumulation]]
-- [[One-Hot Encoding]]
 - [[Recurrent Neural Networks]]
 - [[Bi-Directional Recurrent Neural Network]]
 - [[Long Short Term Memory]]
@@ -86,7 +85,6 @@
 - [[Convolutional Neural Network]]
 - [[Region-Based Convolutional Neural Network]]
 - [[Vanishing Gradients]], [[Exploding Gradients]]
-- [[Encoder-Decoder Architecture]]
 - [[Masked Language Model]]
 - [[Knowledge Distillation]]
 - [[Hallucination]]
@@ -104,6 +102,7 @@
 - [[RMSProp Optimizer]]
 - [[Residual Connection]]
 - [[Transformer]]
+- [[Encoder-Decoder Architecture]]
 - [[Neural Architecture Search]]
 - [[Out-of-Vocabulary Token]]
 - [[Double Descent]]
@@ -112,9 +111,6 @@
 - [[Class Token]] 
 - [[Contrastive learning]] / [[Contrastive Loss]]
 - [[Pre-text Training]] 
-- [[Monte-Carlo Tree Search]]
-- [[Markov Chain]] 
-- [[Beam Search]]
 - [[Kalman Filter]]
 - [[Exposure Bias]]
 - [[Particle Filters]] 
@@ -185,7 +181,22 @@
 - [[VGG]]
 - [[Phi]]
 - [[Flamingo]]
-
+- [[ViT]]
+- [[YOLO]]
+- [[U-Net]]
+- [[Inception]]
+- [[Latent Dirichlet Allocation]]
+- [[Random Forest]]
+- [[Support Vector Machine]]
+- [[Gato]]
+- [[Whisper]]
+- [[ReAct]]
+- [[PaLM]]
+- [[FLAN]]
+- [[DALL-E]]
+- [[DINO]]
+- [[Reinforcement Learning from Human Feedback]]
+- [[Low-Rank Adaptation]]
 
 # Tools
 - [[ComfyUI]]
@@ -197,12 +208,14 @@
 - [[Streamlit]]
 - [[MergeKit]]
 - [[GGUF]] File Format
+- [[Ludwig]]
 
 
 # Benchmarks
 - [[GAIA]]: A benchmark for General AI Assistants
 - [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
 - [[HumanEval]]
+- [[BIG-Bench]]
 
 
 # Datasets
@@ -222,15 +235,17 @@
 	- LAION-COCO
 - [[MMC4]] (Multimodal C4)
 
-# Companies
-
-Dataset Types
-- Raw Internet
-	- Common Crawl, Wikipedia
-- Demonstrations
-	- Demonstrating ideal assistant response (prompt/response pairs for assistant)
-- Comparisons
-	- Output A and B, which is better?
-- Reinforcement learning with prompts
-
-
+# Companies and Research Labs
+- [[Cohere]]
+- [[OpenAI]]
+- [[Anthropic]]
+- [[Google Brain]]
+- [[Hugging Face]]
+- [[Cohere]]
+- [[Inflection]]
+- [[Deepmind]]
+- [[Allen Institute]]
+- [[Microsoft Research]]
+- [[Stanford AI Lab]]
+- [[Berkeley AI Research Lab]]
+- [[Snorkel]]
