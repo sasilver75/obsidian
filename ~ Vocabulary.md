@@ -37,15 +37,17 @@
 
 
 # Supervised/Unsupervised Learning Concepts
+- [[LLM]]
+- [[VLM]]
 - [[Machine Learning]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Overfitting]]
-- [[Prompting]]/[[K-Shot Learning]] / [[In-Context Learning]]/[[Few-Shot Learning]]
+- [[Prompting]]
 - [[Feed-Forward Network]]
 - [[Chain of Thought]] ([[CoT]])
 - [[Catastrophic Forgetting]]
-- [[Reinforcement Learning for Human Feedback]]
+- [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
 - [[Fine-Tuning]]
 - [[Instruction-Tuning]]
@@ -69,7 +71,6 @@
 - [[Tokens]]
 - [[Numericalization]]
 - [[Pre-training]]
-- [[Fine-Tuning]]
 - [[Batch Normalization]]
 - [[Layer Normalization]]
 - [[Convolution]]
@@ -120,7 +121,7 @@
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
 - [[Tree of Thought]]
-- [[VLM]] 
+- [[knowledge-base/VLM]] 
 - [[Speculative Decoding]]
 - [[Dropout]]
 - [[Label Smoothing]]
@@ -130,7 +131,7 @@
 - [[Negative Pair]]
 - [[Mode Collapse]]
 - [[Active Learning]]
-- 
+- [[Prior Amplification]]
 
 # Natural Language Processing Concepts
 - [[Sentiment Analysis]]
@@ -165,11 +166,6 @@
 - [[CLIP]] 
 - [[BERT]]
 - [[GPT]]
-	- [[GPT-1]]
-	- [[GPT-2]]
-	- [[GPT-3]]
-	- [[InstructGPT]]
-	- [[GPT-4]]
 - [[Word2Vec]]
 - [[GloVe]]
 - [[ConvNext]]
@@ -178,11 +174,11 @@
 - [[T5]]
 - [[Stable Diffusion]]
 - [[Llama]]
-- [[Llama2]]
+- [[Llama 2]]
 - [[Chinchilla]]
 - [[ControlNet]]
 - [[VGG]]
-- [[Phi]]
+- [[Phi-2]]
 - [[Flamingo]]
 - [[ViT]]
 - [[YOLO]]
@@ -200,6 +196,7 @@
 - [[DINO]]
 - [[Reinforcement Learning from Human Feedback]]
 - [[Low-Rank Adaptation]]
+- [[Gemeni]]
 
 # Tools
 - [[ComfyUI]]
@@ -252,3 +249,5 @@
 - [[Stanford AI Lab]]
 - [[Berkeley AI Research Lab]]
 - [[Snorkel]]
+- [[Meta AI Research]]
+- [[Mistral]]
