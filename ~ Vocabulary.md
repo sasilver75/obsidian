@@ -27,6 +27,9 @@
 - [[Hidden Markov Model]]
 - [[Markov Chain]]
 - [[Beam Search]]
+- [[F1 Score]]
+- [[AUC]]
+- [[ROC Curve]]
 
 # RecSys
 - [[Collaborative Filtering]]
@@ -60,7 +63,7 @@
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
-- [[Reinforcement Learning]]
+- [[Weak Supervision]]
 - [[Embeddings]]
 - [[Positional Encoding]]
 - [[Tokens]]
@@ -127,7 +130,7 @@
 - [[Negative Pair]]
 - [[Mode Collapse]]
 - [[Active Learning]]
-
+- 
 
 # Natural Language Processing Concepts
 - [[Sentiment Analysis]]
