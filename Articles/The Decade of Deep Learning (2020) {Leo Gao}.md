@@ -15,7 +15,7 @@ Let's look back at some of the most important papers of the monumental decade of
 - Most NNs used sigmoids (eg logistic, tanh) for intermediate activations. These have the advantage of being differentiable everywhere and having a bounded output. 
 - Because the derivative of sigmoid functions decays quickly away from zero, the gradient often diminished rapidly as more layers were added. 
 	- This is known as the [[Vanishing Gradients]] problem, and is one of the reasons that it was difficult to scale networks depthwise.
-- This paper found that using [[ReLU Activation Function]]s helped to solve the vanishing gradient problem, and paved the way for deeper networks!
+- This paper found that using [[ReLU]]Activation Functions helped to solve the vanishing gradient problem, and paved the way for deeper networks!
 - Still, ReLUs have flaws; they're non-differentiable at zero, and can grow unbounded, and neurons could "die" and become inactive due to the saturated half of the activation. Since 2011, many improved activations have been proposed to solve these problems, but vanilla ReLUs still remain competitive!
 
 

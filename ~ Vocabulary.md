@@ -44,6 +44,7 @@
 - [[Unsupervised Learning]]
 - [[Overfitting]]
 - [[Prompting]]
+- [[Prompt Tuning]]
 - [[Feed-Forward Network]]
 - [[Chain of Thought]] ([[CoT]])
 - [[Catastrophic Forgetting]]
@@ -76,7 +77,7 @@
 - [[Convolution]]
 - [[Grouped Convolutions]]
 - [[Depth-Wise Convolutions]]
-- [[Activation Function]]
+- [[Activation Function]]s
 - [[U-Net]]
 - [[ULMFit]]
 - [[Gini Index]]
@@ -90,7 +91,7 @@
 - [[Region-Based Convolutional Neural Network]]
 - [[Vanishing Gradients]], [[Exploding Gradients]]
 - [[Masked Language Model]]
-- [[Knowledge Distillation]]
+- [[Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
 - [[Graph Convolutional Network]]
@@ -132,6 +133,14 @@
 - [[Mode Collapse]]
 - [[Active Learning]]
 - [[Prior Amplification]]
+- [[Prefix Tuning]]
+- Compute-Optimal Training
+- Inference-Optimal Training
+-  [[Reinforcement Learning from from AI Feedback]]
+- [[Low-Rank Adaptation]]
+- [[Quantized Low-Rank Adaptation]]
+- [[Constitutional AI]]
+
 
 # Natural Language Processing Concepts
 - [[Sentiment Analysis]]
@@ -156,11 +165,11 @@
 - [[Proximal Policy Optimization]]
 - [[Bellman Equation]]
 - [[Temporal Difference Learning]] (TD-Learning)
-- Compute-Optimal Training
-- Inference-Optimal Training
+- On-Policy, Off-Policy
+- Actor-Critic methods
 
 
-# Models, Techniques
+# Models
 - [[LeNet]]
 - [[AlexNet]]
 - [[CLIP]] 
@@ -173,8 +182,7 @@
 - [[Segment Anything Model]]
 - [[T5]]
 - [[Stable Diffusion]]
-- [[Llama]]
-- [[Llama 2]]
+- [[LLaMA]]
 - [[Chinchilla]]
 - [[ControlNet]]
 - [[VGG]]
@@ -194,9 +202,10 @@
 - [[FLAN]]
 - [[DALL-E]]
 - [[DINO]]
-- [[Reinforcement Learning from Human Feedback]]
-- [[Low-Rank Adaptation]]
+- [[Claude]]
 - [[Gemeni]]
+- [[Alpaca]]
+- [[Vicuna]]
 
 # Tools
 - [[ComfyUI]]

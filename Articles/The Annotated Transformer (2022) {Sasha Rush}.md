@@ -71,7 +71,7 @@ So why did we do the $\frac{1}{\sqrt{d_k}}$ ?
 
 ### Position-wise Feed-Forward Networks
 - In addition to attention sublayers, each of the layers in both our encoder and decoder contain a fully-connected [[Feed-Forward Network]], is applied to each position separately and identically.
-- This consists of two linear transforms with a [[ReLU Activation Function]] in between.
+- This consists of two linear transforms with a [[ReLU]] Activation Function in between.
 	- $FFN(x) = max(0, xW_1 + b_1)W_2 + b_2$ 
 - While the linear transformations are the same across positions, they use different parameters from layer to layer.
 

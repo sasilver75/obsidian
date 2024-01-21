@@ -16,8 +16,8 @@ Link: https://simonwillison.net/2023/Dec/31/ai-in-2023/
 		- The costs used to be significant ($M), but seems to have dropped to tens of thousands, for certain types of LLMs. Microsoft's [[Phi-2]] claims to have used ~14 days on 96 A100 GPUs, which works out to about $35,000 using current Lambda pricing.
 		- So training an LLM isn't something that a hobbyist (or many universities) can easily afford, but it's no longer the domain of the super-rich.
 - ==You can run LLMs on your own devices==
-	- In January of 2023, we thought it would be years before we could run useful LLMs on our own computers -- Then, in Februrary, [[Meta AI Research]] released [[Llama]], and a few weeks later, Georgi Gerganov released code that got it working on a MacBook.
-	- Later, in July Meta released [[Llama 2]], an improved version that (crucially) included permission for commercial use!
+	- In January of 2023, we thought it would be years before we could run useful LLMs on our own computers -- Then, in Februrary, [[Meta AI Research]] released [[LLaMA]], and a few weeks later, Georgi Gerganov released code that got it working on a MacBook.
+	- Later, in July Meta released [[LlLaMA 2]], an improved version that (crucially) included permission for commercial use!
 	- Now, we can run a bunch on our laptop -- You can even run models like [[Mistral]] 7B on your iPhone! Or you can run them *entirely in your browser* using WASM, in the latest chrome!
 - ==Hobbyists can build their own fine-tuned models==
 	- While LLM development from scratch is still out of reach of hobbyists, fine-tuning these models is another matter entirely!
