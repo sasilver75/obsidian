@@ -13,7 +13,111 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64389559131e8b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attention.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4dd44bde62bf258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b734c4c5e971dd8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5fe3bf100eaa788",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Embedding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15d6a7df67ee757b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Abstraction and Reasoning Corpus.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "441164b6852ee1b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gemeni.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "229cea9a73337a0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23930caaca3f966f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Correct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -140,7 +244,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "will scaling",
+                "query": "HumanEval",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -241,42 +345,42 @@
   },
   "active": "3d768ba4ada25883",
   "lastOpenFiles": [
-    "Activation Function.md",
-    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+    "Embedding.md",
     "~ Vocabulary.md",
-    "Reinforcement Learning from from AI Feedback.md",
+    "Attention.md",
+    "_attachments/Pasted image 20240122100639.png",
+    "_attachments/Pasted image 20240122100003.png",
+    "_attachments/Pasted image 20240122094148.png",
+    "_attachments/Pasted image 20240122093755.png",
+    "GAIA.md",
+    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+    "_attachments/Pasted image 20240121192631.png",
+    "Self-Attention.md",
+    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
+    "BIG-Bench.md",
+    "Abstraction and Reasoning Corpus.md",
+    "SWE-bench.md",
+    "Gemeni Ultra.md",
+    "Low-Rank Adaptation.md",
+    "Quantized Low-Rank Adaptation.md",
+    "ReLU Activation Function.md",
+    "Activation Function.md",
     "ReLU.md",
+    "Self-Correct.md",
+    "Gemeni.md",
+    "_attachments/Pasted image 20240121174558.png",
+    "_attachments/Pasted image 20240121174552.png",
+    "_attachments/Pasted image 20240121174546.png",
+    "_attachments/Pasted image 20240121173826.png",
+    "Reinforcement Learning from from AI Feedback.md",
     "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
     "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
-    "ReLU Activation Function.md",
-    "Quantized Low-Rank Adaptation.md",
-    "Low-Rank Adaptation.md",
-    "Gemeni Ultra.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "_attachments/Pasted image 20240121014202.png",
     "Semi-Supervised Learning.md",
     "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
     "LLaMA.md",
     "GPT.md",
     "Prompt Tuning.md",
-    "Locked-Image Tuning.md",
-    "CodeXGLUE.md",
-    "Video PreTraining.md",
-    "FLAN.md",
-    "Parameter-Efficient Fine-Tuning.md",
-    "LAION-Aesthetics.md",
-    "GPT-4.md",
-    "Interactive Language.md",
-    "LAION.md",
-    "_attachments/Pasted image 20240120232049.png",
-    "_attachments/Pasted image 20240120232035.png",
-    "_attachments/Pasted image 20240115124418.png",
-    "_attachments/Pasted image 20240115123140.png",
-    "_attachments/Pasted image 20240105222642.png",
-    "_attachments/Pasted image 20240105221045.png",
-    "_attachments/Pasted image 20240105215257.png",
-    "_attachments/Pasted image 20240105214327.png",
-    "_attachments/Pasted image 20231224230120.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",

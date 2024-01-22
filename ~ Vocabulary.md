@@ -67,8 +67,7 @@
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
 - [[Weak Supervision]]
-- [[Embeddings]]
-- [[Positional Encoding]]
+- [[Embedding]]
 - [[Tokens]]
 - [[Numericalization]]
 - [[Pre-training]]
@@ -140,6 +139,11 @@
 - [[Low-Rank Adaptation]]
 - [[Quantized Low-Rank Adaptation]]
 - [[Constitutional AI]]
+- [[Scaling Laws]]
+- [[Self-Play]]
+- [[Synthetic Data]]
+- [[Self-Correct]]
+- [[Mixture of Experts]]
 
 
 # Natural Language Processing Concepts
@@ -212,12 +216,12 @@
 - [[Automatic1111]] 
 - [[Axolotl]]
 - [[Oogabooga]]
-- [[Eleuther LM Evaluation Harness]]
 - [[Gradio]]
 - [[Streamlit]]
 - [[MergeKit]]
 - [[GGUF]] File Format
 - [[Ludwig]]
+-  [[Eleuther LM Evaluation Harness]]
 
 
 # Benchmarks
@@ -225,6 +229,8 @@
 - [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
 - [[HumanEval]]
 - [[BIG-Bench]]
+- [[SWE-bench]]
+- [[GAIA]]
 
 
 # Datasets
@@ -260,3 +266,4 @@
 - [[Snorkel]]
 - [[Meta AI Research]]
 - [[Mistral]]
+- [[Epoch AI]]

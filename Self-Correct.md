@@ -1,0 +1,2 @@
+A proposed method to address issues of accuracy and appropriateness in LLM-generated content is to have LLMs self-correct their own responses, after they've been generated.
+Paper: [Large Language Mdoels Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/2310.01798v1) (Oct 2023) argues that this isn't yet an effective strategy.
