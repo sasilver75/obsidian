@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "fb7acd87e51ad271",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Activation Function.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "64389559131e8b8c",
             "type": "leaf",
             "state": {
@@ -215,7 +228,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -261,13 +275,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -283,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Activation Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -300,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Activation Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Activation Function.md"
               }
             }
           }
@@ -343,44 +355,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d768ba4ada25883",
+  "active": "0c7dc73e0b308c7b",
   "lastOpenFiles": [
-    "Embedding.md",
-    "~ Vocabulary.md",
-    "Attention.md",
+    "Pasted image 20240120220158.png",
+    "Pasted image 20240120171940.png",
+    "t-SNE.md",
+    "Webtext.md",
+    "U-Net.md",
+    "Transformer.md",
+    "Supervised Fine-Tuning.md",
+    "Stanford AI Lab.md",
+    "Reinforcement Learning from Human Feedback.md",
+    "Reinforcement Learning from Human Feedback with AI Feedback.md",
+    "Regularization.md",
+    "Random Forest.md",
+    "Prompting.md",
+    "Prior Amplification.md",
+    "PaLM.md",
+    "OpenaI.md",
+    "Ludwig.md",
+    "Llama 2.md",
+    "Latent Dirichlet Allocation.md",
+    "LLM.md",
+    "Inflection.md",
+    "Hierarchical Navigable Small Worlds.md",
+    "Gato.md",
+    "Fine-Tuning.md",
+    "DINO.md",
+    "DALL-E.md",
+    "Completion Acceptance Rate.md",
     "_attachments/Pasted image 20240122100639.png",
     "_attachments/Pasted image 20240122100003.png",
     "_attachments/Pasted image 20240122094148.png",
     "_attachments/Pasted image 20240122093755.png",
-    "GAIA.md",
-    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
     "_attachments/Pasted image 20240121192631.png",
-    "Self-Attention.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "BIG-Bench.md",
-    "Abstraction and Reasoning Corpus.md",
-    "SWE-bench.md",
-    "Gemeni Ultra.md",
-    "Low-Rank Adaptation.md",
-    "Quantized Low-Rank Adaptation.md",
-    "ReLU Activation Function.md",
-    "Activation Function.md",
-    "ReLU.md",
-    "Self-Correct.md",
-    "Gemeni.md",
     "_attachments/Pasted image 20240121174558.png",
     "_attachments/Pasted image 20240121174552.png",
     "_attachments/Pasted image 20240121174546.png",
     "_attachments/Pasted image 20240121173826.png",
-    "Reinforcement Learning from from AI Feedback.md",
-    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
-    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
-    "_attachments/Pasted image 20240121014202.png",
-    "Semi-Supervised Learning.md",
-    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
-    "LLaMA.md",
-    "GPT.md",
-    "Prompt Tuning.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",

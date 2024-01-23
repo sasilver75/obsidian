@@ -1,5 +1,3 @@
-Examples:
-- [[ReLU]]
-- [[GeLU]]
-- [[Softmax]]
-- [[Tanh]]
+ [[Sigmoid Activation Function]]
+[[Tanh Activation Funcition]]
+[[ReLU Activation Function]]
