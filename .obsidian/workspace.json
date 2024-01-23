@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Activation Function.md",
+                "file": "~ Blog.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -295,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Activation Function.md",
+                "file": "~ Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Activation Function.md",
+                "file": "~ Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Activation Function.md"
+                "file": "~ Blog.md"
               }
             }
           }
@@ -355,8 +355,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c7dc73e0b308c7b",
+  "active": "fb7acd87e51ad271",
   "lastOpenFiles": [
+    "Activation Function.md",
     "Pasted image 20240120220158.png",
     "Pasted image 20240120171940.png",
     "t-SNE.md",
@@ -392,7 +393,6 @@
     "_attachments/Pasted image 20240121174558.png",
     "_attachments/Pasted image 20240121174552.png",
     "_attachments/Pasted image 20240121174546.png",
-    "_attachments/Pasted image 20240121173826.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",

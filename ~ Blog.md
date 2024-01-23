@@ -40,6 +40,8 @@ Categories
 	- Policy
 - Policy Links
 - Applications/In the Wild (bad name, but ... use of the tech in the field, eg propaganda, etc. Basically "News")
+- Images
+- Projects
 
 
 Look at some other
