@@ -37,7 +37,7 @@
 
 
 # Supervised/Unsupervised Learning Concepts
-- [[LLM]]
+- [[Large Language Model]]
 - [[VLM]]
 - [[Machine Learning]]
 - [[Supervised Learning]]
@@ -249,6 +249,7 @@
 - [[LAION]]
 	- LAION-COCO
 - [[MMC4]] (Multimodal C4)
+- [[Winograd]]
 
 # Companies and Research Labs
 - [[Cohere]]

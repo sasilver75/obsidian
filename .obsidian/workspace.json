@@ -8,12 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6f3dcdcfff90b6b",
+            "id": "d881b13aba353c74",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "109c285f6893b599",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md",
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05b6c303545e61fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attention.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "933e1f7280e8c87c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "In-Context Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c211dbd9c0bb7665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Language Models are Few-Shot Learners (May 2020) {OpenAI, GPT-3 Paper}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +149,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +170,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +189,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6f3dcdcfff90b6b",
+  "active": "d881b13aba353c74",
   "lastOpenFiles": [
+    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
+    "Articles/Five years of progress in GPTs (Mar 2023) Finbarr Timbers.md",
+    "~ Vocabulary.md",
+    "Papers/Language Models are Few-Shot Learners (May 2020) {OpenAI, GPT-3 Paper}.md",
+    "In-Context Learning.md",
+    "Attention.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240122211056.png",
     "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
+    "_attachments/Pasted image 20240122191943.png",
+    "Transformer.md",
+    "Winograd.md",
     "Papers/fastai - A Layered API for Deep Learning (2020).md",
+    "_attachments/Pasted image 20240122185908.png",
+    "Large Language Model.md",
     "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
     "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
     "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
@@ -157,7 +213,6 @@
     "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
     "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
     "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
-    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
     "Articles/Software 2.0 (2017) {Karpathy}.md",
     "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
     "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
@@ -165,15 +220,6 @@
     "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
     "Articles/Attention? Attention! (June 2018) {Lilian Weng}.md",
     "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
-    "~ Blog.md",
-    "Gemeni Ultra.md",
-    "Low-Rank Adaptation.md",
-    "Quantized Low-Rank Adaptation.md",
-    "ReLU Activation Function.md",
-    "Activation Function.md",
-    "ReLU.md",
-    "Self-Correct.md",
-    "~ Vocabulary.md",
     "Pasted image 20240120220158.png",
     "Pasted image 20240120171940.png",
     "_attachments/Pasted image 20240122100639.png",
@@ -181,9 +227,6 @@
     "_attachments/Pasted image 20240122094148.png",
     "_attachments/Pasted image 20240122093755.png",
     "_attachments/Pasted image 20240121192631.png",
-    "_attachments/Pasted image 20240121174558.png",
-    "_attachments/Pasted image 20240121174552.png",
-    "_attachments/Pasted image 20240121174546.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
