@@ -1,8 +1,9 @@
 ---
 
 ---
-https://nlp.seas.harvard.edu/annotated-transformer/
----
+#article 
+Link: https://nlp.seas.harvard.edu/annotated-transformer/
+
 
 ## Background
 - [[Self-Attention]] is an attention mechanism that relates different positions of a sequence to eachother, in order to compute an enhanced representation of the sequence.

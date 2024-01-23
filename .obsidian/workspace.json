@@ -4,232 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "348f6598f7ea846e",
+        "id": "f3dbe2d21b15c406",
         "type": "tabs",
         "children": [
           {
-            "id": "3d768ba4ada25883",
+            "id": "c6f3dcdcfff90b6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb7acd87e51ad271",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Blog.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64389559131e8b8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4dd44bde62bf258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b734c4c5e971dd8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5fe3bf100eaa788",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Embedding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15d6a7df67ee757b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abstraction and Reasoning Corpus.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "441164b6852ee1b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemeni.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "229cea9a73337a0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23930caaca3f966f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Correct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da24b82f46e223c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReLU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b59f37f3fc8b5a48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Activation Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37187e5a21b2e399",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReLU Activation Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1eb1af7de81e7a86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quantized Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b58230115ee06ba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "250a6c14f98a9659",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemeni Ultra.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28cd193833638c90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
+                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Blog.md",
+                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Blog.md",
+                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Blog.md"
+                "file": "Papers/fastai - A Layered API for Deep Learning (2020).md"
               }
             }
           }
@@ -355,36 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb7acd87e51ad271",
+  "active": "c6f3dcdcfff90b6b",
   "lastOpenFiles": [
+    "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
+    "Papers/fastai - A Layered API for Deep Learning (2020).md",
+    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
+    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
+    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+    "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+    "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
+    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
+    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
+    "Articles/Software 2.0 (2017) {Karpathy}.md",
+    "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
+    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
+    "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
+    "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
+    "Articles/Attention? Attention! (June 2018) {Lilian Weng}.md",
+    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
+    "~ Blog.md",
+    "Gemeni Ultra.md",
+    "Low-Rank Adaptation.md",
+    "Quantized Low-Rank Adaptation.md",
+    "ReLU Activation Function.md",
     "Activation Function.md",
+    "ReLU.md",
+    "Self-Correct.md",
+    "~ Vocabulary.md",
     "Pasted image 20240120220158.png",
     "Pasted image 20240120171940.png",
-    "t-SNE.md",
-    "Webtext.md",
-    "U-Net.md",
-    "Transformer.md",
-    "Supervised Fine-Tuning.md",
-    "Stanford AI Lab.md",
-    "Reinforcement Learning from Human Feedback.md",
-    "Reinforcement Learning from Human Feedback with AI Feedback.md",
-    "Regularization.md",
-    "Random Forest.md",
-    "Prompting.md",
-    "Prior Amplification.md",
-    "PaLM.md",
-    "OpenaI.md",
-    "Ludwig.md",
-    "Llama 2.md",
-    "Latent Dirichlet Allocation.md",
-    "LLM.md",
-    "Inflection.md",
-    "Hierarchical Navigable Small Worlds.md",
-    "Gato.md",
-    "Fine-Tuning.md",
-    "DINO.md",
-    "DALL-E.md",
-    "Completion Acceptance Rate.md",
     "_attachments/Pasted image 20240122100639.png",
     "_attachments/Pasted image 20240122100003.png",
     "_attachments/Pasted image 20240122094148.png",

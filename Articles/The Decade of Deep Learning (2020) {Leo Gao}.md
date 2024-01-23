@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Author: Leo Gao (Cofounder EleutherAI, Research Engineer @ OpenAI)
 https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/
 

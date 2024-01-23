@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Link: https://simonwillison.net/2023/Dec/31/ai-in-2023/
 
 ----

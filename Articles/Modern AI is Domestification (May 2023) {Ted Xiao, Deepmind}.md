@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Link: https://thegradient.pub/ai-is-domestification/
 
 -----

@@ -1,3 +1,7 @@
+---
+tags:
+  - article
+---
 
 - Interest in text-generating models has been rekindled in the past year (2019), in large part due to GPT-2, which primarily demonstrates the effectiveness of using the Transformer architecture with bigger models/data/compute.
 - Notably, GPT-2 achieved SOTA on several language modeling datasets *without even training on the dataset!*

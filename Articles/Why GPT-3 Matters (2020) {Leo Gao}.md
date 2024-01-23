@@ -1,3 +1,4 @@
+#article
 https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/
 By Leo Gao (https://twitter.com/nabla_theta)
 
