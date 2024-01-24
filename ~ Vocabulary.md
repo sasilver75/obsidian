@@ -36,7 +36,7 @@
 - [[Content-Based Filtering]]
 
 
-# Supervised/Unsupervised Learning Concepts
+# Machine Learning
 - [[Large Language Model]]
 - [[VLM]]
 - [[Machine Learning]]
@@ -46,7 +46,7 @@
 - [[Prompting]]
 - [[Prompt Tuning]]
 - [[Feed-Forward Network]]
-- [[Chain of Thought]] ([[CoT]])
+- [[Chain of Thought]]
 - [[Catastrophic Forgetting]]
 - [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
@@ -71,6 +71,7 @@
 - [[Tokens]]
 - [[Numericalization]]
 - [[Pre-training]]
+- [[Batch]]
 - [[Batch Normalization]]
 - [[Layer Normalization]]
 - [[Convolution]]
@@ -83,7 +84,6 @@
 - [[Test-Time Augmentation]]
 - [[Gradient Accumulation]]
 - [[Recurrent Neural Networks]]
-- [[Bi-Directional Recurrent Neural Network]]
 - [[Long Short Term Memory]]
 - [[Gated Recurrent Unit]]
 - [[Convolutional Neural Network]]
@@ -102,10 +102,12 @@
 - [[Online Learning]]
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
 - [[Generative Adversarial Network]]
-- [[Adam Optimizer]]
-- [[RMSProp Optimizer]]
+- [[Adam]]
+- [[RMSProp]]
 - [[Residual Connection]]
 - [[Transformer]]
+- [[Encoder-Only Architecture]]
+- [[Decoder-Only Architecture]]
 - [[Encoder-Decoder Architecture]]
 - [[Neural Architecture Search]]
 - [[Out-of-Vocabulary Token]]
@@ -144,6 +146,12 @@
 - [[Synthetic Data]]
 - [[Self-Correct]]
 - [[Mixture of Experts]]
+- [[Model Parallelism]]
+- [[Tensor Parallelism]]
+- [[RMSNorm]]
+- [[Gradient Checkpointing]]
+- [[Byte-Pair Encoding]] 
+- [[Rotary Positional Embedding]]
 
 
 # Natural Language Processing Concepts
@@ -153,7 +161,10 @@
 - [[Question Answering]]
 - [[Machine Translation]]
 - [[Information Extraction]]
-- [[Byte-Pair Encoding]]
+
+
+# Computer Vision Concepts
+- 
 
 
 # Reinforcement Learning Concepts
@@ -177,8 +188,9 @@
 - [[LeNet]]
 - [[AlexNet]]
 - [[CLIP]] 
-- [[BERT]]
+- [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[GPT]]
+- [[Megatron]]
 - [[Word2Vec]]
 - [[GloVe]]
 - [[ConvNext]]
@@ -192,13 +204,13 @@
 - [[VGG]]
 - [[Phi-2]]
 - [[Flamingo]]
-- [[ViT]]
 - [[YOLO]]
 - [[U-Net]]
 - [[Inception]]
 - [[Latent Dirichlet Allocation]]
 - [[Random Forest]]
 - [[Support Vector Machine]]
+- [[Recur]]
 - [[Gato]]
 - [[Whisper]]
 - [[ReAct]]
@@ -210,6 +222,7 @@
 - [[Gemeni]]
 - [[Alpaca]]
 - [[Vicuna]]
+- [[RWKV]]
 
 # Tools
 - [[ComfyUI]]
@@ -241,16 +254,14 @@
 - [[The Pile]]
 - [[LAION]]
 - [[Whisper]]
-- Dataset Problems:
-	- Code when duplicated multiple times in a dataset means that it's going to be trained on more than other data. According to LatentSpace101Datsets ep, it increases the likelihood disproportionately -- eg 2x the occurrences in the data may mean that there's a 100x likelihood of it being reproduced.
 - [[CIFAR-10]]
 - [[MNIST]]
-- [[TinyStories]]
+- [[TinyStories]] (The Phi-2 dataset)
 - [[LAION]]
 	- LAION-COCO
 - [[MMC4]] (Multimodal C4)
-- [[Winograd]]
-- [[MS MARCO]]
+- [[Winograd]]  (Winograd schemas)
+- [[MS MARCO]] (Information retrieval)
 
 # Companies and Research Labs
 - [[Cohere]]
@@ -269,3 +280,4 @@
 - [[Meta AI Research]]
 - [[Mistral]]
 - [[Epoch AI]]
+- [[Nvidia]]

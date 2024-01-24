@@ -1,3 +1,6 @@
  [[Sigmoid Activation Function]]
 [[Tanh Activation Funcition]]
-[[ReLU Activation Function]]
+[[Rectified Linear Unit]]
+[[Leaky ReLU]]
+[[Gaussian Error Linear Unit]]
+[[SwiGLU]]

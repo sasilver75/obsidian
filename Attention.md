@@ -1,6 +1,5 @@
-[[Self-Attention]]
-[[Multi-Head Attention]]
+[[Self-Attention]] vs [[Cross Attention]]
+[[Multi-Head Attention]] vs [[Multi-Query Attention]]
 [[Masked Attention]]
-[[Sparse Attention]]
-[[Cross Attention]]
+[[Sparse Attention]] vs [[Dense Attention]]
 

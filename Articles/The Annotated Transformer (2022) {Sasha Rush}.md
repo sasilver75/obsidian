@@ -72,7 +72,7 @@ So why did we do the $\frac{1}{\sqrt{d_k}}$ ?
 
 ### Position-wise Feed-Forward Networks
 - In addition to attention sublayers, each of the layers in both our encoder and decoder contain a fully-connected [[Feed-Forward Network]], is applied to each position separately and identically.
-- This consists of two linear transforms with a [[ReLU]] Activation Function in between.
+- This consists of two linear transforms with a [[Rectified Linear Unit]] Activation Function in between.
 	- $FFN(x) = max(0, xW_1 + b_1)W_2 + b_2$ 
 - While the linear transformations are the same across positions, they use different parameters from layer to layer.
 
@@ -98,7 +98,7 @@ So why did we do the $\frac{1}{\sqrt{d_k}}$ ?
 - We trained the base models for a total of 100,000 steps (each taking ~.4 steps) over 12 hours. The big models we trained were 300,000 steps (each taking 1 second) over 3.5 days.
 
 ### Optimizer
-- We used the [[Adam Optimizer]] ...
+- We used the [[Adam]] ...
 - We varied the learning rate over the course of training.
 - This corresponds to increasing the learning rate linearly for the first n steps, and then decreasing it thereafter proportionally to the inverse square root of the step number.
 

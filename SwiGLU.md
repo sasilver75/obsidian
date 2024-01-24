@@ -1,0 +1,1 @@
+Used in [[PaLM]] instead of [[Gaussian Error Linear Unit|GELU]] activation functions.
