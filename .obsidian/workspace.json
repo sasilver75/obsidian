@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Self Instruct.md",
+                "file": "Papers/Self-Instruct Paper.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "075dc41eab2d7ea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Direct Preference Optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -216,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Self Instruct.md",
+                "file": "Papers/Self-Instruct Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Self Instruct.md",
+                "file": "Papers/Self-Instruct Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Self Instruct.md"
+                "file": "Papers/Self-Instruct Paper.md"
               }
             }
           }
@@ -278,6 +291,10 @@
   },
   "active": "bf5fb77329c14500",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Direct Preference Optimization.md",
+    "Proximal Policy Optimization.md",
+    "Papers/Self-Instruct Paper.md",
     "_attachments/Pasted image 20240124122057.png",
     "_attachments/Pasted image 20240124121841.png",
     "_attachments/Pasted image 20240124121734.png",
@@ -288,12 +305,9 @@
     "_attachments/Pasted image 20240124121544.png",
     "_attachments/Pasted image 20240124121434.png",
     "_attachments/Pasted image 20240124121351.png",
-    "_attachments/Pasted image 20240124121253.png",
     "Speculative Decoding.md",
-    "Papers/Self Instruct.md",
     "Attention.md",
     "Flash Attention.md",
-    "~ Vocabulary.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "LLaMA 2.md",
     "Activation Function.md",
@@ -313,7 +327,6 @@
     "FastAI/2023 Course/FastAI 2023 Part 1 Lecture 05.md",
     "GAIA.md",
     "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
-    "Switch.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
