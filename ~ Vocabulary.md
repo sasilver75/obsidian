@@ -38,6 +38,7 @@
 
 # Machine Learning
 - [[Large Language Model]]
+- [[Multimodal]]
 - [[VLM]]
 - [[Machine Learning]]
 - [[Supervised Learning]]
@@ -51,7 +52,7 @@
 - [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
 - [[Fine-Tuning]]
-- [[Instruction-Tuning]]
+- [[Instruction Tuning]]
 - [[Transfer Learning]]
 - [[Retrieval-Augmented Generation]]
 - [[Autoencoder]]
@@ -244,6 +245,7 @@
 - [[BIG-Bench]]
 - [[SWE-bench]]
 - [[GAIA]]
+- [[DAWNBench]]
 
 
 # Datasets
@@ -268,10 +270,10 @@
 - [[OpenAI]]
 - [[Anthropic]]
 - [[Google Brain]]
-- [[Hugging Face]]
+- [[HuggingFace]]
 - [[Cohere]]
 - [[Inflection]]
-- [[Deepmind]]
+- [[DeepMind]]
 - [[Allen Institute]]
 - [[Microsoft Research]]
 - [[Stanford AI Lab]]
@@ -281,3 +283,7 @@
 - [[Mistral]]
 - [[Epoch AI]]
 - [[Nvidia]]
+
+
+# People
+- [[Noam Shazeer]] (Founder/CEO of Character AI)

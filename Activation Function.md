@@ -2,5 +2,8 @@
 [[Tanh Activation Funcition]]
 [[Rectified Linear Unit]]
 [[Leaky ReLU]]
-[[Gaussian Error Linear Unit]]
+[[Gaussian Error Linear Unit]] (GELU)
+[[ReGLU]]
 [[SwiGLU]]
+[[GeGLU]]
+[[GLU]]

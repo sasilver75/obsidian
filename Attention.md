@@ -1,5 +1,7 @@
 [[Self-Attention]] vs [[Cross Attention]]
 [[Multi-Head Attention]] vs [[Multi-Query Attention]]
-[[Masked Attention]]
+[[Masked Attention]]/[[Causal Attention]] vs [[Bidirectional Attention]]
 [[Sparse Attention]] vs [[Dense Attention]]
-
+[[Parallel Attention]]
+[[Paged Attention]]
+[[Flash Attention]]
