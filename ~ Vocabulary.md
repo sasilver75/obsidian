@@ -183,6 +183,7 @@
 - [[Temporal Difference Learning]] (TD-Learning)
 - On-Policy, Off-Policy
 - Actor-Critic methods
+- [[Direct Preference Optimization]]
 
 
 # Models
