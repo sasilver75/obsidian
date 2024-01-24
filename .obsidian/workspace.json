@@ -4,258 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f3dbe2d21b15c406",
+        "id": "6fd7363550b3e3f6",
         "type": "tabs",
         "children": [
           {
-            "id": "c08e9b238948b471",
+            "id": "bf5fb77329c14500",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ea2505140b60620",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d739cd206e8948e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5d24073dd437225",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinchilla.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bf61f92003aabc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinchilla.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e10bd1eeb157190d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rotary Positional Embedding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a384228ccabd61c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Activation Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8ec83b27027c675",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiGLU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d83cee07ad5067c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad2dc41e8bdc23f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-Query Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92ddecd18ae36d1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84fcc095d2403679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Google Brain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c991d8f57fdeb011",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9595b2adbde91933",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Adam.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d881b13aba353c74",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "95613fdec88d06ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gradient Checkpointing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0baa765c9c6953b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nvidia.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27ce0cd1c712accc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenAI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "049441673bf9225e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stanford AI Lab.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b59d86b4e9ce8659",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Megatron.md",
+                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -291,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sentencepiece",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -308,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -330,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -370,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
               }
             }
           }
@@ -390,35 +147,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c08e9b238948b471",
+  "active": "bf5fb77329c14500",
   "lastOpenFiles": [
-    "Megatron.md",
-    "~ Vocabulary.md",
-    "LLaMA.md",
-    "Chinchilla.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
-    "RoPE.md",
-    "Rotary Positional Embedding.md",
-    "Activation Function.md",
-    "SwiGLU.md",
-    "Attention.md",
-    "Multi-Query Attention.md",
+    "Megatron.md",
+    "Stanford AI Lab.md",
+    "OpenAI.md",
+    "Nvidia.md",
+    "Gradient Checkpointing.md",
+    "Adam.md",
+    "~ Vocabulary.md",
     "Google Brain.md",
+    "Multi-Query Attention.md",
+    "Attention.md",
+    "SwiGLU.md",
+    "Activation Function.md",
+    "Rotary Positional Embedding.md",
+    "Chinchilla.md",
+    "LLaMA.md",
+    "RoPE.md",
     "Transformer.md",
     "AdamW.md",
-    "Adam.md",
     "RMSProp.md",
     "_attachments/Pasted image 20240123133249.png",
-    "Gradient Checkpointing.md",
     "Positional Encoding.md",
-    "Nvidia.md",
-    "OpenAI.md",
-    "Stanford AI Lab.md",
     "Gaussian Error Linear Unit.md",
     "Batch.md",
     "Scaling Laws.md",
     "Layer Normalization.md",
-    "Rectified Linear Unit.md",
     "_attachments/Pasted image 20240123120552.png",
     "_attachments/Pasted image 20240123104746.png",
     "_attachments/Pasted image 20240122211056.png",

@@ -145,7 +145,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 	- [[SentencePiece]] with 256k tokens
 
 
-### [[LLaMA]] (Feb 2023)
+### [[LLaMA]] (February 2023)
 - ==Combined a bunch of the best features from [[PaLM]] and [[Chinchilla]]==:
 	- Pre-normalize the input of each transformer sub-layer
 	- Use [[RMSNorm]] instead of [[LayNorm]]
@@ -159,6 +159,18 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 - This paper was a ==shining example of how well smaller models can do when trained well!==
 	- Chinchilla assesses optimality in a very narrow sense: "With a given compute budget, and ignoring inference costs, how do we choose between the number of parameters of our model and the number of tokens we train on?"
 	- It can make sense to train a model that's *smaller* than Chinchilla optimal, and train it for *longer* than Chinchilla would tell us, because if we're going to deploy the model at mass scale, we care *much more* about inference cost than we do training cost!
+
+
+### [[GPT-4]] (March 2023)
+- This is where there would be interesting information about GPT-4, if there was any. The GPT-4 technical report contains almost no information.
+	- "GPT-4 is a Transformer-style model pre-trained to predict the next token in a document, using publicly available data and data licensed from third-party providers. The model was then fine-tuned using [[RLHF]]."
+	- Given both the competitive landscape and the safety implications of large-scale models like GPT-4, the ==report contains no further information about the architecture, hardware, training compute, dataset construction, training method, or similar.==
+
+
+# Conclusion
+- This is March 2023; something will surely come along and invalidate all of this
+	- ((As of Jan 2023, not much has! LLama-2, Phi-2, Falcon, etc have come out, but haven't unseated ))
+
 
 
 
