@@ -13,7 +13,137 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Papers/Self Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19c1afa4903c809b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flash Attention.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4564c07af8984fd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BPE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dcba43eea7df4cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GeGLU.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df03be4a264afe94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROOTS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e211575c47299d7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Pile.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3224e20923ee51b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinchilla.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "725d2ba31d2e0e22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaling Laws.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65f91b96372c08b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Instruction Tuning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afd1dd367691786f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a002927dd7be5e1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLaMA 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -87,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+                "file": "Papers/Self Instruct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+                "file": "Papers/Self Instruct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
+                "file": "Papers/Self Instruct.md"
               }
             }
           }
@@ -149,42 +278,42 @@
   },
   "active": "bf5fb77329c14500",
   "lastOpenFiles": [
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
-    "Megatron.md",
-    "Stanford AI Lab.md",
-    "OpenAI.md",
-    "Nvidia.md",
-    "Gradient Checkpointing.md",
-    "Adam.md",
-    "~ Vocabulary.md",
-    "Google Brain.md",
-    "Multi-Query Attention.md",
+    "_attachments/Pasted image 20240124122057.png",
+    "_attachments/Pasted image 20240124121841.png",
+    "_attachments/Pasted image 20240124121734.png",
+    "_attachments/Pasted image 20240124121716.png",
+    "_attachments/Pasted image 20240124121652.png",
+    "_attachments/Pasted image 20240124121626.png",
+    "_attachments/Pasted image 20240124121615.png",
+    "_attachments/Pasted image 20240124121544.png",
+    "_attachments/Pasted image 20240124121434.png",
+    "_attachments/Pasted image 20240124121351.png",
+    "_attachments/Pasted image 20240124121253.png",
+    "Speculative Decoding.md",
+    "Papers/Self Instruct.md",
     "Attention.md",
-    "SwiGLU.md",
+    "Flash Attention.md",
+    "~ Vocabulary.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "LLaMA 2.md",
     "Activation Function.md",
-    "Rotary Positional Embedding.md",
+    "SentencePiece.md",
+    "BPE.md",
+    "GeGLU.md",
+    "HuggingFace.md",
+    "ROOTS.md",
+    "The Pile.md",
+    "LlLaMA 2.md",
     "Chinchilla.md",
-    "LLaMA.md",
-    "RoPE.md",
-    "Transformer.md",
-    "AdamW.md",
-    "RMSProp.md",
-    "_attachments/Pasted image 20240123133249.png",
-    "Positional Encoding.md",
-    "Gaussian Error Linear Unit.md",
-    "Batch.md",
     "Scaling Laws.md",
-    "Layer Normalization.md",
-    "_attachments/Pasted image 20240123120552.png",
-    "_attachments/Pasted image 20240123104746.png",
-    "_attachments/Pasted image 20240122211056.png",
-    "_attachments/Pasted image 20240122191943.png",
-    "_attachments/Pasted image 20240122185908.png",
-    "Pasted image 20240120220158.png",
-    "Pasted image 20240120171940.png",
-    "_attachments/Pasted image 20240122100639.png",
-    "_attachments/Pasted image 20240122100003.png",
+    "Instruction Tuning.md",
+    "DeepMind.md",
+    "FastAI/2023 Course/FastAI 2023 Part 1 Lecture 04.md",
+    "Papers/fastai - A Layered API for Deep Learning (2020).md",
+    "FastAI/2023 Course/FastAI 2023 Part 1 Lecture 05.md",
+    "GAIA.md",
+    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
+    "Switch.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",

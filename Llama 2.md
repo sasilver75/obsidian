@@ -1,0 +1,1 @@
+Notable: Available for commercial use, unlike LLaMA 1
