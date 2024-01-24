@@ -1,0 +1,6 @@
+---
+tags:
+  - technique
+aliases:
+  - CoT
+---

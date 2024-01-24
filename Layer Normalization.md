@@ -1,4 +1,4 @@
 ---
 aliases:
-  - RLHF
+  - LayerNorm
 ---

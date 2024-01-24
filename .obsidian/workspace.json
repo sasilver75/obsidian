@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d881b13aba353c74",
+            "id": "c08e9b238948b471",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "109c285f6893b599",
+            "id": "1ea2505140b60620",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "LLaMA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +34,85 @@
             }
           },
           {
-            "id": "05b6c303545e61fe",
+            "id": "5d739cd206e8948e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5d24073dd437225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinchilla.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bf61f92003aabc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinchilla.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e10bd1eeb157190d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rotary Positional Embedding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a384228ccabd61c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Activation Function.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8ec83b27027c675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwiGLU.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d83cee07ad5067c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +125,12 @@
             }
           },
           {
-            "id": "933e1f7280e8c87c",
+            "id": "ad2dc41e8bdc23f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "In-Context Learning.md",
+                "file": "Multi-Query Attention.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +138,124 @@
             }
           },
           {
-            "id": "c211dbd9c0bb7665",
+            "id": "92ddecd18ae36d1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Language Models are Few-Shot Learners (May 2020) {OpenAI, GPT-3 Paper}.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84fcc095d2403679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Google Brain.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c991d8f57fdeb011",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9595b2adbde91933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Adam.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d881b13aba353c74",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "95613fdec88d06ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gradient Checkpointing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0baa765c9c6953b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nvidia.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27ce0cd1c712accc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenAI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "049441673bf9225e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stanford AI Lab.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b59d86b4e9ce8659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Megatron.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +291,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "HumanEval",
+                "query": "sentencepiece",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,11 +308,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -198,44 +390,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d881b13aba353c74",
+  "active": "c08e9b238948b471",
   "lastOpenFiles": [
-    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
-    "Articles/Five years of progress in GPTs (Mar 2023) Finbarr Timbers.md",
+    "Megatron.md",
     "~ Vocabulary.md",
-    "Papers/Language Models are Few-Shot Learners (May 2020) {OpenAI, GPT-3 Paper}.md",
-    "In-Context Learning.md",
+    "LLaMA.md",
+    "Chinchilla.md",
+    "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
+    "RoPE.md",
+    "Rotary Positional Embedding.md",
+    "Activation Function.md",
+    "SwiGLU.md",
     "Attention.md",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240122211056.png",
-    "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
-    "_attachments/Pasted image 20240122191943.png",
+    "Multi-Query Attention.md",
+    "Google Brain.md",
     "Transformer.md",
-    "Winograd.md",
-    "Papers/fastai - A Layered API for Deep Learning (2020).md",
+    "AdamW.md",
+    "Adam.md",
+    "RMSProp.md",
+    "_attachments/Pasted image 20240123133249.png",
+    "Gradient Checkpointing.md",
+    "Positional Encoding.md",
+    "Nvidia.md",
+    "OpenAI.md",
+    "Stanford AI Lab.md",
+    "Gaussian Error Linear Unit.md",
+    "Batch.md",
+    "Scaling Laws.md",
+    "Layer Normalization.md",
+    "Rectified Linear Unit.md",
+    "_attachments/Pasted image 20240123120552.png",
+    "_attachments/Pasted image 20240123104746.png",
+    "_attachments/Pasted image 20240122211056.png",
+    "_attachments/Pasted image 20240122191943.png",
     "_attachments/Pasted image 20240122185908.png",
-    "Large Language Model.md",
-    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
-    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
-    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
-    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
-    "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
-    "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
-    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
-    "Articles/Software 2.0 (2017) {Karpathy}.md",
-    "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "Articles/Google's 43 Rules of Machine Learning (2023) {Google}.md",
-    "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
-    "Articles/Attention? Attention! (June 2018) {Lilian Weng}.md",
-    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
     "Pasted image 20240120220158.png",
     "Pasted image 20240120171940.png",
     "_attachments/Pasted image 20240122100639.png",
     "_attachments/Pasted image 20240122100003.png",
-    "_attachments/Pasted image 20240122094148.png",
-    "_attachments/Pasted image 20240122093755.png",
-    "_attachments/Pasted image 20240121192631.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
