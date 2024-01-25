@@ -6,57 +6,14 @@
       {
         "id": "6fd7363550b3e3f6",
         "type": "tabs",
+        "dimension": 75.37190082644628,
         "children": [
-          {
-            "id": "bf5fb77329c14500",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Self-Instruct Paper.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "075dc41eab2d7ea2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Direct Preference Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19c1afa4903c809b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flash Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "4564c07af8984fd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BPE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -164,6 +121,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "2baab749c41291bf",
+        "type": "tabs",
+        "dimension": 24.628099173553718,
+        "children": [
+          {
+            "id": "08e231ded466696e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -229,7 +207,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Self-Instruct Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +223,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Self-Instruct Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,9 +244,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Papers/Self-Instruct Paper.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -289,12 +263,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf5fb77329c14500",
+  "active": "4564c07af8984fd6",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "GPT-4.md",
+    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
+    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "Articles/Software 2.0 (2017) {Karpathy}.md",
+    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
+    "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
+    "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
+    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
+    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
+    "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
+    "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
+    "Articles/Attention? Attention! (June 2018) {Lilian Weng}.md",
+    "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
+    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
+    "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
+    "Papers/Transformer Paper {Attention is all you need}.md",
+    "BPE.md",
+    "Flash Attention.md",
     "Direct Preference Optimization.md",
-    "Proximal Policy Optimization.md",
-    "Papers/Self-Instruct Paper.md",
+    "Rectified Linear Unit.md",
+    "SoLU.md",
+    "GeLU.md",
+    "SwiGLU.md",
+    "Attention.md",
     "_attachments/Pasted image 20240124122057.png",
     "_attachments/Pasted image 20240124121841.png",
     "_attachments/Pasted image 20240124121734.png",
@@ -305,28 +301,6 @@
     "_attachments/Pasted image 20240124121544.png",
     "_attachments/Pasted image 20240124121434.png",
     "_attachments/Pasted image 20240124121351.png",
-    "Speculative Decoding.md",
-    "Attention.md",
-    "Flash Attention.md",
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "LLaMA 2.md",
-    "Activation Function.md",
-    "SentencePiece.md",
-    "BPE.md",
-    "GeGLU.md",
-    "HuggingFace.md",
-    "ROOTS.md",
-    "The Pile.md",
-    "LlLaMA 2.md",
-    "Chinchilla.md",
-    "Scaling Laws.md",
-    "Instruction Tuning.md",
-    "DeepMind.md",
-    "FastAI/2023 Course/FastAI 2023 Part 1 Lecture 04.md",
-    "Papers/fastai - A Layered API for Deep Learning (2020).md",
-    "FastAI/2023 Course/FastAI 2023 Part 1 Lecture 05.md",
-    "GAIA.md",
-    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",

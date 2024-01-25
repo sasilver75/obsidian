@@ -20,7 +20,7 @@ Source: GPT-4 technical report
 
 The brunt of why [[In-Context Learning|ICL]] has been interesting is that, without any further fine-tuning, a pre-trained model is able to learn to do something *entirely new* by merely being shown a few input-output examples.
 
-ICL was defined in the GPT-3 paper, [[Language Models are Few-Shot Learners (May 2020) {OpenAI, GPT-3 Paper}|Language Models are Few-Shot Learners]].
+ICL was defined in the GPT-3 paper, [[GPT-3 Paper {Language Models are Few-Shot Learners}|Language Models are Few-Shot Learners]].
 
 > During unsupervised pre-training, a language model develops a broad set of skills and pattern recognition abilities. _It then uses these abilities at inference time to rapidly adapt to or recognize the desired task_. We use the term “in-context learning” to describe the inner loop of this process, which occurs within the forward-pass upon each sequence.
 

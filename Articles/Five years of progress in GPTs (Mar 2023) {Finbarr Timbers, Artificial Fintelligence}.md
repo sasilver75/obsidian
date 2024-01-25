@@ -21,7 +21,7 @@ There's a ton of prior work before large GPTs (n-gram model, [[Bidirectional Enc
 		- 12 layers, 768 embedding dimension, 12 attention heads, 3072 (4x) __
 		- [[Adam]] with a warmup, and anneal to 0 using a cosine schedule.
 		- Initialized weights to N(0, 0.2) using [[Byte-Pair Encoding|BPE]] with a vocab of 40k merges.
-		- Activations are [[Gaussian Error Linear Unit|Gaussian Error Linear Unit]] ([[GELU]])
+		- Activations are [[GeLU]]
 		- ==Context length of 512==
 		- ==~ 117M parameter model==
 	- Used the [[BooksCorpus]] dataset (~1B tokens, 4GB of data) training for *100 epochs* with a batch size of 64.
@@ -137,7 +137,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 - Changes from GPT-3:
 	- Used [[Multi-Query Attention]], which is different from [[Multi-Head Attention]]; the key/value projections are shared for each head. This takes the same training time, but faster autoregressive decoding in inference.
 	- Parallelized transformer blocks, which improved training time by 15%. 
-	- [[SwiGLU]] activation functions, rather than the [[GELU]] activations used by GPT-3s
+	- [[SwiGLU]] activation functions, rather than the [[GeLU]] activations used by GPT-3s
 	- Used [[Rotary Positional Embedding|RoPE]] rather than the learned embeddings of GPT-3
 		- The learned embeddings that GPT-3 had are very passé, and almost no one does it now.
 	- Shares the input-output embeddings
@@ -163,7 +163,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 
 ### [[GPT-4]] (March 2023)
 - This is where there would be interesting information about GPT-4, if there was any. The GPT-4 technical report contains almost no information.
-	- "GPT-4 is a Transformer-style model pre-trained to predict the next token in a document, using publicly available data and data licensed from third-party providers. The model was then fine-tuned using [[RLHF]]."
+	- "GPT-4 is a Transformer-style model pre-trained to predict the next token in a document, using publicly available data and data licensed from third-party providers. The model was then fine-tuned using [[Reinforcement Learning from Human Feedback|RLHF]]."
 	- Given both the competitive landscape and the safety implications of large-scale models like GPT-4, the ==report contains no further information about the architecture, hardware, training compute, dataset construction, training method, or similar.==
 
 

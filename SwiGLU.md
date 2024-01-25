@@ -1,1 +1,3 @@
-Used in [[PaLM]] instead of [[Gaussian Error Linear Unit|GELU]] activation functions.
+Used in [[PaLM]] instead of [[GeLU]] activation functions.
+
+A [[Noam Shamzeer]] solo classic

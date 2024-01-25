@@ -6,6 +6,7 @@ tags:
 ---
 
 Link: https://arxiv.org/pdf/2002.04688.pdf
+Date: February 2020
 Authors: Jeremy Howard, Sylvain Gugger
 
 ![[Pasted image 20231123171807.png]]

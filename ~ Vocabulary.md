@@ -4,7 +4,6 @@
 
 # Probability/Statistics
 - [[Monte-Carlo Tree Search]]
-- 
 
 
 # Information Retrieval
@@ -184,6 +183,7 @@
 - On-Policy, Off-Policy
 - Actor-Critic methods
 - [[Direct Preference Optimization]]
+- [[SPIN]]
 
 
 # Models
@@ -225,7 +225,11 @@
 - [[Alpaca]]
 - [[Vicuna]]
 - [[RWKV]]
-
+- [[Codex]]
+- [[Minerva]]
+- [[WebGPT]]
+- [[Toolformer]]
+- [[Gorilla]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 

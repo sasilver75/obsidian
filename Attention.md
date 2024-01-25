@@ -5,3 +5,4 @@
 [[Parallel Attention]]
 [[Paged Attention]]
 [[Flash Attention]]
+[[ALiBi|Attention with Linear Biases]] (ALiBi)

@@ -1,4 +1,4 @@
-This dataset was quoted in the GPT-3 paper, [[Language Models are Few-Shot Learners (May 2020) {OpenAI, GPT-3 Paper}|Language Models are Few-Shot Learners]]
+This dataset was quoted in the GPT-3 paper, [[GPT-3 Paper {Language Models are Few-Shot Learners}|Language Models are Few-Shot Learners]]
 A Winograd schema is a pair of sentences that differ in only one or two words and that contain an ambiguity that is resolved in opposite ways in the two sentences. It requires the use of world knowledge and reasoning for its revolutions.
 
 Example:

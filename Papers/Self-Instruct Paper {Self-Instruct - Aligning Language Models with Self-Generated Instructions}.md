@@ -4,6 +4,8 @@ tags:
 ---
 
 Link: https://arxiv.org/abs/2212.10560
+Date: December 2022
+Authors: Yizhong Wang
 
 @EugeneYan: "Followed by the new Back-Translation paper" (https://arxiv.org/abs/2308.06259)
 
