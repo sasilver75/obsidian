@@ -1,6 +1,6 @@
 ---
 aliases:
-  - "[[ReLU]]"
+  - ReLU
 ---
 
 Variant: [[Leaky ReLU]]

@@ -1,5 +1,5 @@
 ---
 aliases:
-  - GELU
+  - Gaussian Error Linear Unit
 ---
 An activation function
