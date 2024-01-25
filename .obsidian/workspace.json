@@ -6,36 +6,14 @@
       {
         "id": "6fd7363550b3e3f6",
         "type": "tabs",
-        "dimension": 75.37190082644628,
         "children": [
-          {
-            "id": "4564c07af8984fd6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "1dcba43eea7df4cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GeGLU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "df03be4a264afe94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROOTS.md",
+                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -43,97 +21,25 @@
             }
           },
           {
-            "id": "e211575c47299d7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Pile.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3224e20923ee51b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinchilla.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "725d2ba31d2e0e22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaling Laws.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65f91b96372c08b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Instruction Tuning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afd1dd367691786f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a002927dd7be5e1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2baab749c41291bf",
-        "type": "tabs",
-        "dimension": 24.628099173553718,
-        "children": [
-          {
-            "id": "08e231ded466696e",
+            "id": "2036b0f2c363453e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4537c11e62b86a82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -207,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md"
+              }
             }
           }
         ]
@@ -263,10 +173,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4564c07af8984fd6",
+  "active": "df03be4a264afe94",
   "lastOpenFiles": [
-    "GPT-4.md",
+    "~ Vocabulary.md",
+    "~ Questions.md",
     "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240124184241.png",
+    "_attachments/Pasted image 20240124184228.png",
+    "_attachments/Pasted image 20240124184220.png",
+    "BART.md",
+    "_attachments/Pasted image 20240124184028.png",
+    "Bidirectional Encoder Representations from Transformers.md",
+    "GeGLU.md",
+    "_attachments/Pasted image 20240124182739.png",
+    "RoBERTa.md",
+    "LLaMA 2.md",
+    "ULMFit.md",
+    "_attachments/Pasted image 20240124181308.png",
+    "ROOTS.md",
+    "GPT-4.md",
     "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
     "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
@@ -281,26 +207,10 @@
     "Articles/Attention? Attention! (June 2018) {Lilian Weng}.md",
     "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
     "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
-    "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
-    "Papers/Transformer Paper {Attention is all you need}.md",
-    "BPE.md",
-    "Flash Attention.md",
-    "Direct Preference Optimization.md",
-    "Rectified Linear Unit.md",
-    "SoLU.md",
-    "GeLU.md",
-    "SwiGLU.md",
-    "Attention.md",
     "_attachments/Pasted image 20240124122057.png",
     "_attachments/Pasted image 20240124121841.png",
     "_attachments/Pasted image 20240124121734.png",
     "_attachments/Pasted image 20240124121716.png",
-    "_attachments/Pasted image 20240124121652.png",
-    "_attachments/Pasted image 20240124121626.png",
-    "_attachments/Pasted image 20240124121615.png",
-    "_attachments/Pasted image 20240124121544.png",
-    "_attachments/Pasted image 20240124121434.png",
-    "_attachments/Pasted image 20240124121351.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
