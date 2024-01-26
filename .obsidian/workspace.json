@@ -4,127 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6fd7363550b3e3f6",
+        "id": "52f0b2f81c2e1b68",
         "type": "tabs",
         "children": [
           {
-            "id": "df03be4a264afe94",
+            "id": "0a894b6d393687d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95a03bafdf3cda59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Questions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83122f96ab92cc0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f424f14d6be925d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Center for Research on Foundation Models.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e694f7be3b5082d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Double Descent.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2036b0f2c363453e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4537c11e62b86a82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e510eee86bb5f68d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Blog.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 7
-      },
-      {
-        "id": "d4706e682b3c8c20",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "961971df64ab00ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#entity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,11 +66,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -197,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Blog.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Blog.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Blog.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -257,21 +148,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e510eee86bb5f68d",
+  "active": "0a894b6d393687d1",
   "lastOpenFiles": [
+    "Machine Intelligence Research Institute.md",
+    "Model Evaluation and Threat Research.md",
+    "Alignment Research Center.md",
+    "~ Vocabulary.md",
+    "Model Parallelism.md",
+    "~ Recommendations.md",
+    "~ Questions.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "Center for Research on Foundation Models.md",
+    "Double Descent.md",
     "~ Learning.md",
     "~ Blog.md",
-    "~ Questions.md",
-    "~ Blog.md",
-    "~ Recommendations.md",
     "RedPajama.md",
-    "~ Vocabulary.md",
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "~ Useful Pictures.md",
     "HELM.md",
-    "Center for Research on Foundation Models.md",
     "CRFM.md",
-    "Double Descent.md",
     "Foundation Model.md",
     "Question Answering.md",
     "Attention.md",
@@ -288,9 +182,6 @@
     "LLaMA 2.md",
     "ULMFit.md",
     "_attachments/Pasted image 20240124181308.png",
-    "ROOTS.md",
-    "GPT-4.md",
-    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
     "_attachments/Pasted image 20240124122057.png",
     "_attachments/Pasted image 20240124121841.png",
     "_attachments/Pasted image 20240124121734.png",
