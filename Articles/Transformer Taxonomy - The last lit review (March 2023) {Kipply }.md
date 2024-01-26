@@ -82,7 +82,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - Current (as of Jan 2023) ==largest publicly-known dense language model==, but was unfortunately pre-Chinchilla (and thus overparametrized as hell, as it was trained on 780B tokens).
 - PaLM activates with [[SwiGLU]], uses parallel attention, [[Multi-Query Attention]], [[Rotary Positional Embedding]], and uses the same matrices for input and output embeddings.
 - No biases were used and a SentencePiece tokenizer with 256k tokens was used.
-### GPT-NeoX (Feb 2022, [[Eleuther]])
+### [[GPT-NeoX]] (Feb 2022, [[Eleuther]])
 20B parameters
 - An Eleuther open-sourced model, trained on GPUs with DeepSpeed and Nvidia Megatron. 
 - Uses the same architectural modifications as the earlier [[GPT-J]] had, and is trained on the entirety of [[The Pile]], 400B tokens.

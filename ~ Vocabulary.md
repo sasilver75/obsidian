@@ -12,7 +12,7 @@
 - [[Locality Sensitive Hashing]]
 - [[Reranking]]
 
-# Data Analytics
+# Analytics
 - [[Type One Error]]
 - [[Type Two Error]]
 - [[Precision]]
@@ -37,6 +37,7 @@
 
 # Machine Learning
 - [[Large Language Model]]
+- [[Foundation Model]]
 - [[Multimodal]]
 - [[VLM]]
 - [[Machine Learning]]
@@ -152,6 +153,7 @@
 - [[Gradient Checkpointing]]
 - [[Byte-Pair Encoding]] 
 - [[Rotary Positional Embedding]]
+- [[SPIN]]
 
 
 # Natural Language Processing Concepts
@@ -183,7 +185,6 @@
 - On-Policy, Off-Policy
 - Actor-Critic methods
 - [[Direct Preference Optimization]]
-- [[SPIN]]
 
 
 # Models
@@ -230,6 +231,10 @@
 - [[WebGPT]]
 - [[Toolformer]]
 - [[Gorilla]]
+- [[GPT-J]]
+- [[GPT-NeoX]]
+- [[Gopher]]
+- [[AlphaCode]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
@@ -251,6 +256,7 @@
 - [[SWE-bench]]
 - [[GAIA]]
 - [[DAWNBench]]
+- [[HELM]]
 
 
 # Datasets
@@ -269,6 +275,7 @@
 - [[MMC4]] (Multimodal C4)
 - [[Winograd]]  (Winograd schemas)
 - [[MS MARCO]] (Information retrieval)
+- [[RedPajama]]
 
 # Companies and Research Labs
 - [[Cohere]]
@@ -288,7 +295,31 @@
 - [[Mistral]]
 - [[Epoch AI]]
 - [[Nvidia]]
+- [[Center for Research on Foundation Models]]
 
 
 # People
 - [[Noam Shazeer]] (Founder/CEO of Character AI)
+- [[Daphne Koeller]]
+- [[Melanie Mitchell]]
+- [[Percy Liang]]
+- [[Ilya Sutskever]]
+- [[Greg Brockman]]
+- [[Sam Altman]]
+- [[Clem Delangue]]
+- [[Mustafa Suleyman]]
+- [[Demis Hassabis]]
+- [[Geoff Hinton]]
+- [[Fei-Fei Li]]
+- [[Yann LeCun]]
+- [[Jeremy Howard]]
+- [[Andrej Karpathy]]
+- [[Andrew Ng]]
+- [[Yoshua Bengio]]
+- [[Jurgen Schmidhuber]]
+- [[Stuart Russell]]
+- [[Peter Norvig]]
+- [[Richard Sutton]]
+- [[Pieter Abbeel]]
+- [[Yejin Choi]]
+- 
