@@ -91,7 +91,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Questions.md",
+                "file": "~ Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e510eee86bb5f68d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Blog.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "d4706e682b3c8c20",
@@ -168,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -185,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Questions.md",
+                "file": "~ Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Questions.md",
+                "file": "~ Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Questions.md"
+                "file": "~ Blog.md"
               }
             }
           }
@@ -245,11 +257,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4537c11e62b86a82",
+  "active": "e510eee86bb5f68d",
   "lastOpenFiles": [
+    "~ Learning.md",
+    "~ Blog.md",
+    "~ Questions.md",
     "~ Blog.md",
     "~ Recommendations.md",
-    "~ Questions.md",
     "RedPajama.md",
     "~ Vocabulary.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
@@ -277,8 +291,6 @@
     "ROOTS.md",
     "GPT-4.md",
     "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
-    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
-    "Articles/Software 2.0 (2017) {Karpathy}.md",
     "_attachments/Pasted image 20240124122057.png",
     "_attachments/Pasted image 20240124121841.png",
     "_attachments/Pasted image 20240124121734.png",
