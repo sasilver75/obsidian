@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 https://bmk.sh/2020/08/17/Building-AGI-Using-Language-Models/
 Author: Leo Gao (https://twitter.com/nabla_theta): Cofounder and head of alignment memes @ ElelutherAI; currently RE @ OpenAI
 

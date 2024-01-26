@@ -1,0 +1,6 @@
+---
+aliases:
+  - ARC
+tags:
+  - benchmark
+---

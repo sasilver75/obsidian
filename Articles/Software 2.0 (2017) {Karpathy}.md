@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Link: https://karpathy.medium.com/software-2-0-a64152b37c35
 
 Sometimes people refer to NNs as "just another tool in the ML toolbox," having pros and cons -- they work here and there, and sometimes you use them to win Kaggle competitions.

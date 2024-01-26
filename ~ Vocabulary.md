@@ -4,7 +4,6 @@
 
 # Probability/Statistics
 - [[Monte-Carlo Tree Search]]
-- 
 
 
 # Information Retrieval
@@ -13,7 +12,7 @@
 - [[Locality Sensitive Hashing]]
 - [[Reranking]]
 
-# Data Analytics
+# Analytics
 - [[Type One Error]]
 - [[Type Two Error]]
 - [[Precision]]
@@ -36,8 +35,10 @@
 - [[Content-Based Filtering]]
 
 
-# Supervised/Unsupervised Learning Concepts
-- [[LLM]]
+# Machine Learning
+- [[Large Language Model]]
+- [[Foundation Model]]
+- [[Multimodal]]
 - [[VLM]]
 - [[Machine Learning]]
 - [[Supervised Learning]]
@@ -46,12 +47,12 @@
 - [[Prompting]]
 - [[Prompt Tuning]]
 - [[Feed-Forward Network]]
-- [[Chain of Thought]] ([[CoT]])
+- [[Chain of Thought]]
 - [[Catastrophic Forgetting]]
 - [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
 - [[Fine-Tuning]]
-- [[Instruction-Tuning]]
+- [[Instruction Tuning]]
 - [[Transfer Learning]]
 - [[Retrieval-Augmented Generation]]
 - [[Autoencoder]]
@@ -68,11 +69,11 @@
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
 - [[Weak Supervision]]
-- [[Embeddings]]
-- [[Positional Encoding]]
+- [[Embedding]]
 - [[Tokens]]
 - [[Numericalization]]
 - [[Pre-training]]
+- [[Batch]]
 - [[Batch Normalization]]
 - [[Layer Normalization]]
 - [[Convolution]]
@@ -85,7 +86,6 @@
 - [[Test-Time Augmentation]]
 - [[Gradient Accumulation]]
 - [[Recurrent Neural Networks]]
-- [[Bi-Directional Recurrent Neural Network]]
 - [[Long Short Term Memory]]
 - [[Gated Recurrent Unit]]
 - [[Convolutional Neural Network]]
@@ -104,10 +104,12 @@
 - [[Online Learning]]
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
 - [[Generative Adversarial Network]]
-- [[Adam Optimizer]]
-- [[RMSProp Optimizer]]
+- [[Adam]]
+- [[RMSProp]]
 - [[Residual Connection]]
 - [[Transformer]]
+- [[Encoder-Only Architecture]]
+- [[Decoder-Only Architecture]]
 - [[Encoder-Decoder Architecture]]
 - [[Neural Architecture Search]]
 - [[Out-of-Vocabulary Token]]
@@ -142,6 +144,18 @@
 - [[Quantized Low-Rank Adaptation]]
 - [[Constitutional AI]]
 - [[Segmentation Mask]]
+- [[Scaling Laws]]
+- [[Self-Play]]
+- [[Synthetic Data]]
+- [[Self-Correct]]
+- [[Mixture of Experts]]
+- [[Model Parallelism]]
+- [[Tensor Parallelism]]
+- [[RMSNorm]]
+- [[Gradient Checkpointing]]
+- [[Byte-Pair Encoding]] 
+- [[Rotary Positional Embedding]]
+- [[SPIN]]
 
 
 # Natural Language Processing Concepts
@@ -151,7 +165,10 @@
 - [[Question Answering]]
 - [[Machine Translation]]
 - [[Information Extraction]]
-- [[Byte-Pair Encoding]]
+
+
+# Computer Vision Concepts
+- 
 
 
 # Reinforcement Learning Concepts
@@ -169,14 +186,16 @@
 - [[Temporal Difference Learning]] (TD-Learning)
 - On-Policy, Off-Policy
 - Actor-Critic methods
+- [[Direct Preference Optimization]]
 
 
 # Models
 - [[LeNet]]
 - [[AlexNet]]
 - [[CLIP]] 
-- [[BERT]]
+- [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[GPT]]
+- [[Megatron]]
 - [[Word2Vec]]
 - [[GloVe]]
 - [[ConvNext]]
@@ -190,13 +209,13 @@
 - [[VGG]]
 - [[Phi-2]]
 - [[Flamingo]]
-- [[ViT]]
 - [[YOLO]]
 - [[U-Net]]
 - [[Inception]]
 - [[Latent Dirichlet Allocation]]
 - [[Random Forest]]
 - [[Support Vector Machine]]
+- [[Recur]]
 - [[Gato]]
 - [[Whisper]]
 - [[ReAct]]
@@ -208,18 +227,27 @@
 - [[Gemeni]]
 - [[Alpaca]]
 - [[Vicuna]]
-
+- [[RWKV]]
+- [[Codex]]
+- [[Minerva]]
+- [[WebGPT]]
+- [[Toolformer]]
+- [[Gorilla]]
+- [[GPT-J]]
+- [[GPT-NeoX]]
+- [[Gopher]]
+- [[AlphaCode]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
 - [[Axolotl]]
 - [[Oogabooga]]
-- [[Eleuther LM Evaluation Harness]]
 - [[Gradio]]
 - [[Streamlit]]
 - [[MergeKit]]
 - [[GGUF]] File Format
 - [[Ludwig]]
+-  [[Eleuther LM Evaluation Harness]]
 
 
 # Benchmarks
@@ -227,6 +255,10 @@
 - [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
 - [[HumanEval]]
 - [[BIG-Bench]]
+- [[SWE-bench]]
+- [[GAIA]]
+- [[DAWNBench]]
+- [[HELM]]
 
 
 # Datasets
@@ -237,28 +269,63 @@
 - [[The Pile]]
 - [[LAION]]
 - [[Whisper]]
-- Dataset Problems:
-	- Code when duplicated multiple times in a dataset means that it's going to be trained on more than other data. According to LatentSpace101Datsets ep, it increases the likelihood disproportionately -- eg 2x the occurrences in the data may mean that there's a 100x likelihood of it being reproduced.
 - [[CIFAR-10]]
 - [[MNIST]]
-- [[TinyStories]]
+- [[TinyStories]] (The Phi-2 dataset)
 - [[LAION]]
 	- LAION-COCO
 - [[MMC4]] (Multimodal C4)
+- [[Winograd]]  (Winograd schemas)
+- [[MS MARCO]] (Information retrieval)
+- [[RedPajama]]
 
-# Companies and Research Labs
+# Entities
 - [[Cohere]]
 - [[OpenAI]]
 - [[Anthropic]]
 - [[Google Brain]]
-- [[Hugging Face]]
+- [[HuggingFace]]
 - [[Cohere]]
 - [[Inflection]]
-- [[Deepmind]]
+- [[DeepMind]]
 - [[Allen Institute]]
 - [[Microsoft Research]]
-- [[Stanford AI Lab]]
-- [[Berkeley AI Research Lab]]
+- [[Stanford AI Lab]] (SAIL)
+- [[Berkeley AI Research Lab]] (BAIR)
 - [[Snorkel]]
 - [[Meta AI Research]]
 - [[Mistral]]
+- [[Epoch AI]]
+- [[Nvidia]]
+- [[Center for Research on Foundation Models]] (CRFM)
+- [[Alignment Research Center]] (ARC)
+- [[Model Evaluation and Threat Research]] (METR)
+- [[Machine Intelligence Research Institute]] (MIRI)
+- [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)
+
+
+# People
+- [[Noam Shazeer]] (Founder/CEO of Character AI)
+- [[Daphne Koeller]]
+- [[Melanie Mitchell]]
+- [[Percy Liang]]
+- [[Ilya Sutskever]]
+- [[Greg Brockman]]
+- [[Sam Altman]]
+- [[Clem Delangue]]
+- [[Mustafa Suleyman]]
+- [[Demis Hassabis]]
+- [[Geoff Hinton]]
+- [[Fei-Fei Li]]
+- [[Yann LeCun]]
+- [[Jeremy Howard]]
+- [[Andrej Karpathy]]
+- [[Andrew Ng]]
+- [[Yoshua Bengio]]
+- [[Jurgen Schmidhuber]]
+- [[Stuart Russell]]
+- [[Peter Norvig]]
+- [[Richard Sutton]]
+- [[Pieter Abbeel]]
+- [[Yejin Choi]]
+- [[Paul Christiano]]

@@ -1,5 +1,11 @@
-https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/
+---
+tags:
+  - article
+---
 
+Link: https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/
+
+----
 Deep learning is very computationally intensive, so you'll need a CPU with many ores, right? You need a fast CPU, right? Nope! Don't waste money on hardware that's unnecessary. 
 
 Let's go over some common mistakes, ranked by severity:

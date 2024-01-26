@@ -1,4 +1,5 @@
 
+
 Inspired by:
 - Maggie Appleton's "Digital Garden" idea
 - [Swyx](https://www.swyx.io/) "Learning in public"
@@ -40,6 +41,5 @@ Categories
 	- Policy
 - Policy Links
 - Applications/In the Wild (bad name, but ... use of the tech in the field, eg propaganda, etc. Basically "News")
-
-
-Look at some other
+- Images
+- Projects

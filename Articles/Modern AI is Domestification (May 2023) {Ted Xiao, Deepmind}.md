@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Link: https://thegradient.pub/ai-is-domestification/
 
 -----
@@ -158,13 +164,13 @@ But already, there are some actionable suggestions one can conclude:
 	- If NO: Try [[Fine-Tuning]]
 - Is it easy to source different finetuning datasets?
 	- If Yes, try [[Supervised Fine-Tuning]]
-	- If No, try [[Reinforcement Learning for Human Feedback|RLHF]] or [[Reinforcement Learning from from AI Feedback|RLAIF]]
+	- If No, try [[Reinforcement Learning from Human Feedback|RLHF]] or [[Reinforcement Learning from from AI Feedback|RLAIF]]
 - Do you have access to a lot of compute?
 	- If YES: Finetune the whole model
 	- If NO: use [[PEFT]]
 - Are existing AI models good enough for data generation or data verification?
 	- If good enough for data generation, try creating synthetic data!
-	- If good enough for *verification, but not generation*, try using [[RLAIF]] or *self-reflection*
+	- If good enough for *verification, but not generation*, try using [[Reinforcement Learning from Human Feedback with AI Feedback|RLAIF]] or *self-reflection*
 		- If neither, stick to RLHF
 
 

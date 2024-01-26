@@ -1,4 +1,4 @@
-This is going to be a lectuer on NLP, and we're going to not even be using the `fastai` library; instead, we're going to be using the hugging face transformers library, and we're going to be using the transformers architecture too! It's the state of art for NLP.
+This is going to be a lectuer on NLP, and we're going to not even be using the `fastai` library; instead, we're going to be using the HuggingFace transformers library, and we're going to be using the transformers architecture too! It's the state of art for NLP.
 
 At the end, we'll know how to do NLP in a very fantastic library. `HuggingFace Transformers` doesn't have the same architecture as `fastai` does. For beginners, the high-level API that you'll be using most of the time isn't quite as ready-to-go for beginners as you'll be used to, for `fastai` .
 

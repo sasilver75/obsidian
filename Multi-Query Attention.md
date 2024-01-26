@@ -1,0 +1,1 @@
+Attention variant used in the [[PaLM]] paper; Unlike in [[Multi-Head Attention]], the key/value projections are shared for each head. This takes the same training time, but faster autoregressive decoding in inference.

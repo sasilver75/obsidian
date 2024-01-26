@@ -1,4 +1,12 @@
-https://applyingml.com/resources/first-rule-of-ml/
+---
+tags:
+  - article
+---
+
+Link: https://applyingml.com/resources/first-rule-of-ml/
+
+----
+
 
 Applying machine learning is difficult! You need
 - data

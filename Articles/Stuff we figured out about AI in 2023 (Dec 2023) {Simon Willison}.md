@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Link: https://simonwillison.net/2023/Dec/31/ai-in-2023/
 
 ----
@@ -22,7 +28,7 @@ Link: https://simonwillison.net/2023/Dec/31/ai-in-2023/
 - ==Hobbyists can build their own fine-tuned models==
 	- While LLM development from scratch is still out of reach of hobbyists, fine-tuning these models is another matter entirely!
 	- There's been a fascinating new ecosystem of training their own models on top of these foundation models -- often publishing those models directly as well as the datasets used to fine-tune them.
-	- The [[Hugging Face]] [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) is one place that tracks these -- it moves as a dizzying pace. 
+	- The [[HuggingFace]] [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) is one place that tracks these -- it moves as a dizzying pace. 
 		- Open models have thousands of researchers and hobbyists collaborating and competing to improve them.
 - ==We don't yet know how to build GPT-4==
 	- Frustratingly, despite the enormous leaps the open source community has had this year, we're yet to see an alternative model that's better than [[GPT-4]], which was released in March 2023. Google's [[Gemeni Ultra]] is soon to be available ot the public, but we don't know if it will beat GPT-4. [[Mistral]]'s team is strong, and their first public model came out only in September 2023 -- will they be able to?

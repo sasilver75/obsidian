@@ -2,5 +2,5 @@
 [[GPT-2]]
 [[GPT-3]]
 [[InstructGPT]]
-[[GPT-3.5]] ([[ChatGPT]])
 [[GPT-4]]
+[[ChatGPT]]

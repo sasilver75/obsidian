@@ -1,1 +1,1 @@
-Another [[Eleuther]] Dataset (825GiB) for open source language modeling. Consists of 22 smaller, high-quality datasets combined together. 
+Another [[Eleuther]] Dataset (825GiB) for open source language modeling. Consists of 22 smaller, high-quality datasets combined together., such as Common Crawl, OpenWebText, books, and papers.
