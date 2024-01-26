@@ -299,6 +299,7 @@
 - [[Alignment Research Center]] (ARC)
 - [[Model Evaluation and Threat Research]] (METR)
 - [[Machine Intelligence Research Institute]] (MIRI)
+- [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)
 
 
 # People
