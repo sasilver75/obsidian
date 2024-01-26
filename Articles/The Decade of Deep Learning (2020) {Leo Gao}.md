@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Author: Leo Gao (Cofounder EleutherAI, Research Engineer @ OpenAI)
 https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/
 
@@ -15,7 +21,7 @@ Let's look back at some of the most important papers of the monumental decade of
 - Most NNs used sigmoids (eg logistic, tanh) for intermediate activations. These have the advantage of being differentiable everywhere and having a bounded output. 
 - Because the derivative of sigmoid functions decays quickly away from zero, the gradient often diminished rapidly as more layers were added. 
 	- This is known as the [[Vanishing Gradients]] problem, and is one of the reasons that it was difficult to scale networks depthwise.
-- This paper found that using [[ReLU]]Activation Functions helped to solve the vanishing gradient problem, and paved the way for deeper networks!
+- This paper found that using [[Rectified Linear Unit]]Activation Functions helped to solve the vanishing gradient problem, and paved the way for deeper networks!
 - Still, ReLUs have flaws; they're non-differentiable at zero, and can grow unbounded, and neurons could "die" and become inactive due to the saturated half of the activation. Since 2011, many improved activations have been proposed to solve these problems, but vanilla ReLUs still remain competitive!
 
 
@@ -119,7 +125,7 @@ Honorable mentions: Other alternatives sprung up based on different ways of aggr
 
 ![BERT compared to GPT and ELMo (<a href='https://arxiv.org/abs/1810.04805'>Source</a>)](https://bmk.sh/images/bert_compare.png)
 ## 2018: [BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
-- [[BERT]] is a bidirectional, contextual text-embedding model. Like [[Word2Vec]], it's based on assigning each word (or rather, sub-word tokens) a vector. However these vectors in BERT are contextual, allowing *homographs* (eg *console*, the noun vs *console*, the verb) to be properly distinguished!
+- [[Bidirectional Encoder Representations from Transformers]] is a bidirectional, contextual text-embedding model. Like [[Word2Vec]], it's based on assigning each word (or rather, sub-word tokens) a vector. However these vectors in BERT are contextual, allowing *homographs* (eg *console*, the noun vs *console*, the verb) to be properly distinguished!
 - BERT is deeply bidirectional, with each latent vector in each layer depending on all latent vectors from the previous layer.
 	- In unidirectional LMs like GPT, the model is trained to predict the next token at each timestep, which works because the states at each timestep can only depend on previous states.
 

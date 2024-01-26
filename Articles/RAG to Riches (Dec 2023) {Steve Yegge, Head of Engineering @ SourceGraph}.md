@@ -1,3 +1,9 @@
+---
+tags:
+  - article
+---
+
+
 Link: https://sourcegraph.com/blog/rag-to-riches
 Note: This isn't that interesting of an article, it's mostly a news roundup. But it's written in a fun-to-read style, which is a good takeaway.
 

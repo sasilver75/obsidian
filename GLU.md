@@ -1,0 +1,4 @@
+---
+aliases:
+  - Gated Linear Unit
+---

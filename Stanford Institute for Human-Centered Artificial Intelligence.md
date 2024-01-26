@@ -1,0 +1,6 @@
+---
+tags:
+  - entity
+aliases:
+  - HAI
+---

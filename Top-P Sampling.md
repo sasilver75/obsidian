@@ -1,0 +1,4 @@
+---
+aliases:
+  - Nucleus Sampling
+---

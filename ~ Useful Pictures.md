@@ -21,3 +21,10 @@
 
 ![[Pasted image 20231224160618.png]]![[Pasted image 20231224171000.png]]
 ![[Pasted image 20231224171628.png]]
+
+![[Pasted image 20240122211056.png]]
+![[Pasted image 20240124184241.png]]
+
+![[Pasted image 20240124184228.png]]
+
+Byte Magazine Covers - https://lunduke.substack.com/p/the-truly-epic-byte-magazine-covers

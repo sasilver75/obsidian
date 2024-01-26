@@ -1,6 +1,11 @@
-https://developers.google.com/machine-learning/guides/rules-of-ml
+---
+tags:
+  - article
+---
 
+Link: https://developers.google.com/machine-learning/guides/rules-of-ml
 
+----
 ### Terminology:
 - `Terminology`: The thing *about which* you want to make a prediction.
 - `Label`: An answer for a prediction task either produced by an ML system, or the right answer supplied in training data.

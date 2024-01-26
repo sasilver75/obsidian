@@ -1,1 +1,0 @@
-Variant: [[Leaky ReLU]]

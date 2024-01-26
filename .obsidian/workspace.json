@@ -11,8 +11,13 @@
             "id": "ba1100144a487720",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "~ Vocabulary.md"
+              }
             }
           }
         ]
@@ -140,42 +149,42 @@
   },
   "active": "ba1100144a487720",
   "lastOpenFiles": [
-    "Massive Multi-task Language Understanding.md",
-    "~ Vocabulary.md",
-    "Contrastive Loss.md",
-    "MMLU.md",
-    "_attachments/Pasted image 20231128214706.png",
-    "Segmentation.md",
-    "_attachments/Pasted image 20240122152045.png",
-    "_attachments/Pasted image 20240121014202.png",
-    "_attachments/Pasted image 20240120232049.png",
-    "_attachments/Pasted image 20240120232035.png",
-    "Video PreTraining.md",
-    "Semi-Supervised Learning.md",
-    "Reinforcement Learning from from AI Feedback.md",
-    "ReLU.md",
-    "ReLU Activation Function.md",
-    "Quantized Low-Rank Adaptation.md",
-    "Prompt Tuning.md",
-    "Locked-Image Tuning.md",
-    "LLaMA.md",
-    "LAION-Aesthetics.md",
-    "Interactive Language.md",
-    "Gemeni Ultra.md",
-    "GPT.md",
-    "GPT-4.md",
-    "FLAN.md",
-    "CodeXGLUE.md",
-    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
-    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
-    "Articles/Software 2.0 (2017) {Karpathy}.md",
-    "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "_attachments/Pasted image 20240115124418.png",
-    "_attachments/Pasted image 20240115123140.png",
-    "_attachments/Pasted image 20240105222642.png",
-    "_attachments/Pasted image 20240105221045.png",
-    "_attachments/Pasted image 20240105215257.png",
+    "~ Research Ideas.md",
+    "~ Recommendations.md",
+    "~ Graduate.md",
+    "t-SNE.md",
+    "_attachments/Pasted image 20240124184241.png",
+    "_attachments/Pasted image 20240124184228.png",
+    "_attachments/Pasted image 20240124184220.png",
+    "_attachments/Pasted image 20240124184028.png",
+    "_attachments/Pasted image 20240124182739.png",
+    "_attachments/Pasted image 20240124181308.png",
+    "_attachments/Pasted image 20240124122057.png",
+    "_attachments/Pasted image 20240124121841.png",
+    "_attachments/Pasted image 20240124121734.png",
+    "_attachments/Pasted image 20240124121716.png",
+    "Winograd.md",
+    "Webtext.md",
+    "WebGPT.md",
+    "Vision Transformer.md",
+    "ULMFit.md",
+    "U-Net.md",
+    "Transformer.md",
+    "Top-P Sampling.md",
+    "Switch.md",
+    "SwiGLU.md",
+    "Supervised Fine-Tuning.md",
+    "Stanford Institute for Human-Centered Artificial Intelligence.md",
+    "Stanford AI Lab.md",
+    "Speculative Decoding.md",
+    "Sparse Transformer.md",
+    "SoLU.md",
+    "SentencePiece.md",
+    "Self-Correct.md",
+    "Self-Attention.md",
+    "Scaling Laws.md",
+    "SWE-bench.md",
+    "SPIN.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
