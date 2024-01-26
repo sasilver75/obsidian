@@ -277,7 +277,7 @@
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
 
-# Companies and Research Labs
+# Entities
 - [[Cohere]]
 - [[OpenAI]]
 - [[Anthropic]]
@@ -288,14 +288,17 @@
 - [[DeepMind]]
 - [[Allen Institute]]
 - [[Microsoft Research]]
-- [[Stanford AI Lab]]
-- [[Berkeley AI Research Lab]]
+- [[Stanford AI Lab]] (SAIL)
+- [[Berkeley AI Research Lab]] (BAIR)
 - [[Snorkel]]
 - [[Meta AI Research]]
 - [[Mistral]]
 - [[Epoch AI]]
 - [[Nvidia]]
-- [[Center for Research on Foundation Models]]
+- [[Center for Research on Foundation Models]] (CRFM)
+- [[Alignment Research Center]] (ARC)
+- [[Model Evaluation and Threat Research]] (METR)
+- [[Machine Intelligence Research Institute]] (MIRI)
 
 
 # People
@@ -322,4 +325,4 @@
 - [[Richard Sutton]]
 - [[Pieter Abbeel]]
 - [[Yejin Choi]]
-- 
+- [[Paul Christiano]]
