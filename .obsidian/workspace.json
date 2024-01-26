@@ -13,7 +13,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95a03bafdf3cda59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Questions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83122f96ab92cc0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f424f14d6be925d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Center for Research on Foundation Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e694f7be3b5082d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Double Descent.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,6 +92,26 @@
               "type": "markdown",
               "state": {
                 "file": "~ Questions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "d4706e682b3c8c20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "961971df64ab00ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+                "file": "~ Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+                "file": "~ Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md"
+                "file": "~ Questions.md"
               }
             }
           }
@@ -173,12 +245,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df03be4a264afe94",
+  "active": "4537c11e62b86a82",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "~ Recommendations.md",
     "~ Questions.md",
-    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+    "RedPajama.md",
+    "~ Vocabulary.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "~ Useful Pictures.md",
+    "HELM.md",
+    "Center for Research on Foundation Models.md",
+    "CRFM.md",
+    "Double Descent.md",
+    "Foundation Model.md",
+    "Question Answering.md",
+    "Attention.md",
+    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
     "_attachments/Pasted image 20240124184241.png",
     "_attachments/Pasted image 20240124184228.png",
     "_attachments/Pasted image 20240124184220.png",
@@ -195,18 +277,8 @@
     "GPT-4.md",
     "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
     "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Articles/Software 2.0 (2017) {Karpathy}.md",
     "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
-    "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
-    "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
-    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
-    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
-    "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md",
-    "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
-    "Articles/Attention? Attention! (June 2018) {Lilian Weng}.md",
-    "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
-    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
     "_attachments/Pasted image 20240124122057.png",
     "_attachments/Pasted image 20240124121841.png",
     "_attachments/Pasted image 20240124121734.png",
