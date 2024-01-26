@@ -4,111 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "348f6598f7ea846e",
+        "id": "cdce95e82d84e4e8",
         "type": "tabs",
         "children": [
           {
-            "id": "3d768ba4ada25883",
+            "id": "ba1100144a487720",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da24b82f46e223c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReLU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b59f37f3fc8b5a48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Activation Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37187e5a21b2e399",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReLU Activation Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1eb1af7de81e7a86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quantized Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b58230115ee06ba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "250a6c14f98a9659",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemeni Ultra.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28cd193833638c90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -140,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "will scaling",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,12 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
+    "width": 488.5,
     "collapsed": true
   },
   "right": {
@@ -179,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -239,44 +138,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d768ba4ada25883",
+  "active": "ba1100144a487720",
   "lastOpenFiles": [
-    "Activation Function.md",
-    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+    "Massive Multi-task Language Understanding.md",
     "~ Vocabulary.md",
-    "Reinforcement Learning from from AI Feedback.md",
-    "ReLU.md",
-    "Articles/The Annotated Transformer (2022) {Sasha Rush}.md",
-    "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md",
-    "ReLU Activation Function.md",
-    "Quantized Low-Rank Adaptation.md",
-    "Low-Rank Adaptation.md",
-    "Gemeni Ultra.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
+    "Contrastive Loss.md",
+    "MMLU.md",
+    "_attachments/Pasted image 20231128214706.png",
+    "Segmentation.md",
+    "_attachments/Pasted image 20240122152045.png",
     "_attachments/Pasted image 20240121014202.png",
-    "Semi-Supervised Learning.md",
-    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
-    "LLaMA.md",
-    "GPT.md",
-    "Prompt Tuning.md",
-    "Locked-Image Tuning.md",
-    "CodeXGLUE.md",
-    "Video PreTraining.md",
-    "FLAN.md",
-    "Parameter-Efficient Fine-Tuning.md",
-    "LAION-Aesthetics.md",
-    "GPT-4.md",
-    "Interactive Language.md",
-    "LAION.md",
     "_attachments/Pasted image 20240120232049.png",
     "_attachments/Pasted image 20240120232035.png",
+    "Video PreTraining.md",
+    "Semi-Supervised Learning.md",
+    "Reinforcement Learning from from AI Feedback.md",
+    "ReLU.md",
+    "ReLU Activation Function.md",
+    "Quantized Low-Rank Adaptation.md",
+    "Prompt Tuning.md",
+    "Locked-Image Tuning.md",
+    "LLaMA.md",
+    "LAION-Aesthetics.md",
+    "Interactive Language.md",
+    "Gemeni Ultra.md",
+    "GPT.md",
+    "GPT-4.md",
+    "FLAN.md",
+    "CodeXGLUE.md",
+    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
+    "Articles/Software 2.0 (2017) {Karpathy}.md",
+    "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
+    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "_attachments/Pasted image 20240115124418.png",
     "_attachments/Pasted image 20240115123140.png",
     "_attachments/Pasted image 20240105222642.png",
     "_attachments/Pasted image 20240105221045.png",
     "_attachments/Pasted image 20240105215257.png",
-    "_attachments/Pasted image 20240105214327.png",
-    "_attachments/Pasted image 20231224230120.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
