@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3fbbad988239eebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,13 +66,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -162,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fbbad988239eebe",
+  "active": "0a894b6d393687d1",
   "lastOpenFiles": [
-    "Stanford Institute for Human-Centered Artificial Intelligence.md",
+    "Videos/What is Pytorch?.md",
     "~ Vocabulary.md",
+    "Stanford Institute for Human-Centered Artificial Intelligence.md",
     "~ Research Ideas.md",
     "~ Graduate.md",
     "Machine Intelligence Research Institute.md",
@@ -193,7 +178,6 @@
     "BART.md",
     "_attachments/Pasted image 20240124184028.png",
     "Bidirectional Encoder Representations from Transformers.md",
-    "GeGLU.md",
     "_attachments/Pasted image 20240124182739.png",
     "_attachments/Pasted image 20240124181308.png",
     "_attachments/Pasted image 20240124122057.png",
