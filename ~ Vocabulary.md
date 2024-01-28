@@ -60,7 +60,8 @@
 - [[Attention]] Mechanism
 - [[Diffusion Models]]
 - [[Parameter-Efficient Fine-Tuning]]
-- [[Semantic Segmentation]]
+- [[Segmentation]]
+- [[Classification]]
 - [[Quantization]]
 - [[Model Pruning]]
 - [[Masking]]
@@ -142,6 +143,7 @@
 - [[Low-Rank Adaptation]]
 - [[Quantized Low-Rank Adaptation]]
 - [[Constitutional AI]]
+- [[Segmentation Mask]]
 - [[Scaling Laws]]
 - [[Self-Play]]
 - [[Synthetic Data]]
@@ -327,3 +329,4 @@
 - [[Pieter Abbeel]]
 - [[Yejin Choi]]
 - [[Paul Christiano]]
+- [[Ludwig Schmidt]]
