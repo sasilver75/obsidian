@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4fed8c8e44b9aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -148,9 +161,11 @@
   },
   "active": "0a894b6d393687d1",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240127145004.png",
+    "~ Recommendations.md",
+    "Matryoshka Representation Learning.md",
     "~ Vocabulary.md",
     "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240127145004.png",
     "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20240122152045.png",
     "Segmentation.md",
@@ -163,7 +178,6 @@
     "Model Evaluation and Threat Research.md",
     "Alignment Research Center.md",
     "Model Parallelism.md",
-    "~ Recommendations.md",
     "~ Questions.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Center for Research on Foundation Models.md",
@@ -183,7 +197,6 @@
     "_attachments/Pasted image 20240124182739.png",
     "_attachments/Pasted image 20240124181308.png",
     "_attachments/Pasted image 20240124122057.png",
-    "_attachments/Pasted image 20240124121841.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",

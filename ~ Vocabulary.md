@@ -36,6 +36,7 @@
 
 
 # Machine Learning
+- [[Matryoshka Representation Learning]]
 - [[Large Language Model]]
 - [[Foundation Model]]
 - [[Multimodal]]
@@ -156,6 +157,7 @@
 - [[Byte-Pair Encoding]] 
 - [[Rotary Positional Embedding]]
 - [[SPIN]]
+- [[Canary GUID]]
 
 
 # Natural Language Processing Concepts
