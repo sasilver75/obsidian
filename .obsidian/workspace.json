@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Recommendations.md"
               }
             }
           }
@@ -214,8 +214,12 @@
   "active": "0a894b6d393687d1",
   "lastOpenFiles": [
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240129161437.png",
+    "~ Research Ideas.md",
+    "_attachments/Pasted image 20240129230809.png",
+    "_attachments/Pasted image 20240129230748.png",
     "~ Vocabulary.md",
+    "~ Recommendations.md",
+    "_attachments/Pasted image 20240129161437.png",
     "~ Questions.md",
     "Pieter Abbeel.md",
     "~ Quotes.md",
@@ -224,7 +228,6 @@
     "Alex Ratner.md",
     "Percy Liang.md",
     "Clem Delangue.md",
-    "~ Recommendations.md",
     "Matryoshka Representation Learning.md",
     "_attachments/Pasted image 20240127145004.png",
     "conflict-files-obsidian-git.md",
@@ -233,7 +236,6 @@
     "_attachments/Pasted image 20240126111258.png",
     "Videos/What is Pytorch?.md",
     "Stanford Institute for Human-Centered Artificial Intelligence.md",
-    "~ Research Ideas.md",
     "~ Graduate.md",
     "Machine Intelligence Research Institute.md",
     "Model Evaluation and Threat Research.md",
@@ -246,8 +248,6 @@
     "_attachments/Pasted image 20240124184228.png",
     "_attachments/Pasted image 20240124184220.png",
     "_attachments/Pasted image 20240124184028.png",
-    "_attachments/Pasted image 20240124182739.png",
-    "_attachments/Pasted image 20240124181308.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
