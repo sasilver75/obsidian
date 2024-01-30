@@ -294,10 +294,9 @@
 - [[Microsoft Research]]
 - [[Stanford AI Lab]] (SAIL)
 - [[Berkeley AI Research Lab]] (BAIR)
-- [[Snorkel]]
+- [[Snorkel AI]]
 - [[Meta AI Research]]
 - [[Mistral]]
-- [[Epoch AI]]
 - [[Nvidia]]
 - [[Center for Research on Foundation Models]] (CRFM)
 - [[Alignment Research Center]] (ARC)
@@ -332,3 +331,6 @@
 - [[Yejin Choi]]
 - [[Paul Christiano]]
 - [[Ludwig Schmidt]]
+- [[Chris Ré]]
+- [[Alex Ratner]]
+- [[Sasha Rush]]
