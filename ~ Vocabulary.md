@@ -281,6 +281,9 @@
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
 
+# Policy
+- Lump of Labor Fallacy
+
 # Entities
 - [[Cohere]]
 - [[OpenAI]]

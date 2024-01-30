@@ -36,7 +36,7 @@ Youtube Chanenls
 - Grab-Bag
 	- Kirsten Dirksen
 	- Rational Animations
-
+	- 
 
 Podcasts
 - General Technology
@@ -45,6 +45,7 @@ Podcasts
 	- Voices from DARPA
 	- Anatomy of Next
 	- The Asianometry Podcast
+	- Future of Life Podcast
 - Investing, Thinkers
 	- Invest Like the Best with Patrick O'Shaughnessy
 	- Dwarkesh Podcsat
@@ -104,8 +105,9 @@ Books
 
 
 Music
-- Tycho: 
-
+- Tycho
+- Yvette Young
+- Boards of Canada
 
 -----
 

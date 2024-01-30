@@ -1,4 +1,4 @@
-o![[Pasted image 20231215171803.png]]
+![[Pasted image 20231215171803.png]]
 ![[Pasted image 20231223182856.png]]
 ![[Pasted image 20231224000029.png]]![[Pasted image 20231224001343.png]]
 
@@ -29,10 +29,13 @@ o![[Pasted image 20231215171803.png]]
 
 Byte Magazine Covers - https://lunduke.substack.com/p/the-truly-epic-byte-magazine-covers
 
-![[Pasted image 20240126111258.png]]
-
 ![[Pasted image 20240127145004.png]]
 (From Youtube: https://youtu.be/c_jjyIJ4ci8?si=KVWMwUiQnPPxx868)
 
 ![[Pasted image 20240129161437.png]]
 (From Youtube: https://youtu.be/X-82uXrw76s?si=QRWRNj2E8scJYfP4)
+
+![[Pasted image 20240129230748.png]]
+(From Yannic Kilchner Discord; An example of bots: https://discord.com/channels/714501525455634453/834836108000886805/1200085021705388062)
+![[Pasted image 20240129230809.png]]
+(From Yannic Kilchner Discord; An example of bots: https://discord.com/channels/714501525455634453/834836108000886805/1200085021705388062)
