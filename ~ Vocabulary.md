@@ -337,3 +337,5 @@
 - [[Chris Ré]]
 - [[Alex Ratner]]
 - [[Sasha Rush]]
+- [[Jonathan Frankle]]
+- [[Sara Hooker]]

@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "4feb1baba978ac72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10ae5020b855e8c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jonathan Frankle.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2335b0214b0c1ecd",
             "type": "leaf",
             "state": {
@@ -85,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -151,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Jonathan Frankle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Jonathan Frankle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "Jonathan Frankle.md"
               }
             }
           }
@@ -211,14 +238,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a894b6d393687d1",
+  "active": "10ae5020b855e8c5",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Jonathan Frankle.md",
+    "~ Motivation.md",
+    "_attachments/Pasted image 20240130083004.png",
+    "~ Recommendations.md",
     "~ Useful Pictures.md",
     "~ Research Ideas.md",
     "_attachments/Pasted image 20240129230809.png",
     "_attachments/Pasted image 20240129230748.png",
-    "~ Vocabulary.md",
-    "~ Recommendations.md",
     "_attachments/Pasted image 20240129161437.png",
     "~ Questions.md",
     "Pieter Abbeel.md",
@@ -243,11 +273,9 @@
     "Model Parallelism.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Center for Research on Foundation Models.md",
-    "Double Descent.md",
     "_attachments/Pasted image 20240124184241.png",
     "_attachments/Pasted image 20240124184228.png",
     "_attachments/Pasted image 20240124184220.png",
-    "_attachments/Pasted image 20240124184028.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
