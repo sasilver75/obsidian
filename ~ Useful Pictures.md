@@ -33,3 +33,6 @@ Byte Magazine Covers - https://lunduke.substack.com/p/the-truly-epic-byte-magazi
 
 ![[Pasted image 20240127145004.png]]
 (From Youtube: https://youtu.be/c_jjyIJ4ci8?si=KVWMwUiQnPPxx868)
+
+![[Pasted image 20240129161437.png]]
+(From Youtube: https://youtu.be/X-82uXrw76s?si=QRWRNj2E8scJYfP4)

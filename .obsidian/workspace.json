@@ -21,6 +21,58 @@
             }
           },
           {
+            "id": "2335b0214b0c1ecd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Questions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33d6c12db87e1768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pieter Abbeel.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb8d840c74913fbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alex Ratner.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8955590013ed7a97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Percy Liang.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e4fed8c8e44b9aa0",
             "type": "leaf",
             "state": {
@@ -161,10 +213,19 @@
   },
   "active": "0a894b6d393687d1",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240129161437.png",
+    "~ Vocabulary.md",
+    "~ Questions.md",
+    "Pieter Abbeel.md",
+    "~ Quotes.md",
+    "~ Learning.md",
+    "Chris Ré.md",
+    "Alex Ratner.md",
+    "Percy Liang.md",
+    "Clem Delangue.md",
     "~ Recommendations.md",
     "Matryoshka Representation Learning.md",
-    "~ Vocabulary.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240127145004.png",
     "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20240122152045.png",
@@ -178,25 +239,15 @@
     "Model Evaluation and Threat Research.md",
     "Alignment Research Center.md",
     "Model Parallelism.md",
-    "~ Questions.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Center for Research on Foundation Models.md",
     "Double Descent.md",
-    "~ Learning.md",
-    "~ Blog.md",
-    "RedPajama.md",
-    "HELM.md",
-    "CRFM.md",
-    "Foundation Model.md",
-    "Question Answering.md",
-    "Attention.md",
     "_attachments/Pasted image 20240124184241.png",
     "_attachments/Pasted image 20240124184228.png",
     "_attachments/Pasted image 20240124184220.png",
     "_attachments/Pasted image 20240124184028.png",
     "_attachments/Pasted image 20240124182739.png",
     "_attachments/Pasted image 20240124181308.png",
-    "_attachments/Pasted image 20240124122057.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
