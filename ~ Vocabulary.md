@@ -36,6 +36,7 @@
 
 
 # Machine Learning
+- [[Matryoshka Representation Learning]]
 - [[Large Language Model]]
 - [[Foundation Model]]
 - [[Multimodal]]
@@ -156,6 +157,7 @@
 - [[Byte-Pair Encoding]] 
 - [[Rotary Positional Embedding]]
 - [[SPIN]]
+- [[Canary GUID]]
 
 
 # Natural Language Processing Concepts
@@ -279,6 +281,9 @@
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
 
+# Policy
+- Lump of Labor Fallacy
+
 # Entities
 - [[Cohere]]
 - [[OpenAI]]
@@ -292,10 +297,9 @@
 - [[Microsoft Research]]
 - [[Stanford AI Lab]] (SAIL)
 - [[Berkeley AI Research Lab]] (BAIR)
-- [[Snorkel]]
+- [[Snorkel AI]]
 - [[Meta AI Research]]
 - [[Mistral]]
-- [[Epoch AI]]
 - [[Nvidia]]
 - [[Center for Research on Foundation Models]] (CRFM)
 - [[Alignment Research Center]] (ARC)
@@ -329,3 +333,9 @@
 - [[Pieter Abbeel]]
 - [[Yejin Choi]]
 - [[Paul Christiano]]
+- [[Ludwig Schmidt]]
+- [[Chris Ré]]
+- [[Alex Ratner]]
+- [[Sasha Rush]]
+- [[Jonathan Frankle]]
+- [[Sara Hooker]]
