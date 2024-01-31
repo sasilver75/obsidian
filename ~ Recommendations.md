@@ -7,7 +7,6 @@
 
 Derecommendations:
 - No Priors podcast
-	- Non-technical hosts, sycophantic, lots of filler discussions
-- 
+- Super Data Science Podcast
 
 

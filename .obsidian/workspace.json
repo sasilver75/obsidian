@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Recommendations.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   "active": "ba1100144a487720",
   "lastOpenFiles": [
     "~ Research Ideas.md",
+    "~ Vocabulary.md",
     "~ Recommendations.md",
     "~ Graduate.md",
     "t-SNE.md",
@@ -184,7 +185,6 @@
     "Self-Attention.md",
     "Scaling Laws.md",
     "SWE-bench.md",
-    "SPIN.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
