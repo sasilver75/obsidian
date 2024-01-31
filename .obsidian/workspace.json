@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "473941b8d55124ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,23 +161,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba1100144a487720",
+  "active": "473941b8d55124ff",
   "lastOpenFiles": [
+    "~ Recommendations.md",
+    "conflict-files-obsidian-git.md",
+    "~ Quotes.md",
+    "~ Motivation.md",
+    "_attachments/Pasted image 20240130193327.png",
+    "_attachments/Pasted image 20240130192354.png",
+    "_attachments/Pasted image 20240130162514.png",
+    "_attachments/Pasted image 20240130162320.png",
+    "_attachments/Pasted image 20240130162218.png",
+    "_attachments/Pasted image 20240130162105.png",
+    "_attachments/Pasted image 20240130083004.png",
+    "_attachments/Pasted image 20240129230809.png",
+    "_attachments/Pasted image 20240129230748.png",
+    "_attachments/Pasted image 20240129161437.png",
+    "Pieter Abbeel.md",
+    "Percy Liang.md",
+    "Matryoshka Representation Learning.md",
+    "Jonathan Frankle.md",
+    "Cross Attention.md",
+    "Clem Delangue.md",
+    "Chris Ré.md",
+    "Alex Ratner.md",
     "~ Research Ideas.md",
     "~ Vocabulary.md",
-    "~ Recommendations.md",
     "~ Graduate.md",
     "t-SNE.md",
-    "_attachments/Pasted image 20240124184241.png",
-    "_attachments/Pasted image 20240124184228.png",
-    "_attachments/Pasted image 20240124184220.png",
-    "_attachments/Pasted image 20240124184028.png",
-    "_attachments/Pasted image 20240124182739.png",
-    "_attachments/Pasted image 20240124181308.png",
-    "_attachments/Pasted image 20240124122057.png",
-    "_attachments/Pasted image 20240124121841.png",
-    "_attachments/Pasted image 20240124121734.png",
-    "_attachments/Pasted image 20240124121716.png",
     "Winograd.md",
     "Webtext.md",
     "WebGPT.md",
@@ -174,17 +199,6 @@
     "Top-P Sampling.md",
     "Switch.md",
     "SwiGLU.md",
-    "Supervised Fine-Tuning.md",
-    "Stanford Institute for Human-Centered Artificial Intelligence.md",
-    "Stanford AI Lab.md",
-    "Speculative Decoding.md",
-    "Sparse Transformer.md",
-    "SoLU.md",
-    "SentencePiece.md",
-    "Self-Correct.md",
-    "Self-Attention.md",
-    "Scaling Laws.md",
-    "SWE-bench.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
