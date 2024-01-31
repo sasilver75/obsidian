@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "473941b8d55124ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "~ Recommendations.md"
               }
             }
           }
@@ -161,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "473941b8d55124ff",
+  "active": "ba1100144a487720",
   "lastOpenFiles": [
-    "~ Recommendations.md",
     "conflict-files-obsidian-git.md",
+    "~ Recommendations.md",
     "~ Quotes.md",
     "~ Motivation.md",
     "_attachments/Pasted image 20240130193327.png",
