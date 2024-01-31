@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md"
               }
             }
           }
@@ -149,8 +149,12 @@
   },
   "active": "ba1100144a487720",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "~ Recommendations.md",
+    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
+    "PaperClubs/LatentSpace",
+    "PaperClub/Untitled.md",
+    "PaperClubs",
+    "conflict-files-obsidian-git.md",
     "~ Quotes.md",
     "~ Motivation.md",
     "_attachments/Pasted image 20240130193327.png",
@@ -183,8 +187,6 @@
     "U-Net.md",
     "Transformer.md",
     "Top-P Sampling.md",
-    "Switch.md",
-    "SwiGLU.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
@@ -194,8 +196,6 @@
     "FastAI/Part 2",
     "Articles",
     "Videos",
-    "Papers/ML",
-    "Papers",
     "Untitled 1.canvas"
   ]
 }
