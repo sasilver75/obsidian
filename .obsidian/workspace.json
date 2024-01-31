@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jonathan Frankle.md",
+                "file": "Pretraining with Human Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7a1138b9d698638",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Embedding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jonathan Frankle.md",
+                "file": "Pretraining with Human Feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jonathan Frankle.md",
+                "file": "Pretraining with Human Feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jonathan Frankle.md"
+                "file": "Pretraining with Human Feedback.md"
               }
             }
           }
@@ -240,11 +253,22 @@
   },
   "active": "10ae5020b855e8c5",
   "lastOpenFiles": [
+    "Cross Attention.md",
+    "_attachments/Pasted image 20240130193327.png",
+    "Positional Encoding.md",
+    "_attachments/Pasted image 20240130192354.png",
+    "Transformer.md",
     "~ Vocabulary.md",
+    "~ Recommendations.md",
+    "Embedding.md",
+    "_attachments/Pasted image 20240130162514.png",
+    "_attachments/Pasted image 20240130162320.png",
+    "_attachments/Pasted image 20240130162218.png",
+    "_attachments/Pasted image 20240130162105.png",
+    "~ Quotes.md",
     "Jonathan Frankle.md",
     "~ Motivation.md",
     "_attachments/Pasted image 20240130083004.png",
-    "~ Recommendations.md",
     "~ Useful Pictures.md",
     "~ Research Ideas.md",
     "_attachments/Pasted image 20240129230809.png",
@@ -252,30 +276,18 @@
     "_attachments/Pasted image 20240129161437.png",
     "~ Questions.md",
     "Pieter Abbeel.md",
-    "~ Quotes.md",
     "~ Learning.md",
     "Chris Ré.md",
     "Alex Ratner.md",
     "Percy Liang.md",
     "Clem Delangue.md",
     "Matryoshka Representation Learning.md",
-    "_attachments/Pasted image 20240127145004.png",
     "conflict-files-obsidian-git.md",
-    "_attachments/Pasted image 20240122152045.png",
     "Segmentation.md",
-    "_attachments/Pasted image 20240126111258.png",
     "Videos/What is Pytorch?.md",
     "Stanford Institute for Human-Centered Artificial Intelligence.md",
     "~ Graduate.md",
     "Machine Intelligence Research Institute.md",
-    "Model Evaluation and Threat Research.md",
-    "Alignment Research Center.md",
-    "Model Parallelism.md",
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "Center for Research on Foundation Models.md",
-    "_attachments/Pasted image 20240124184241.png",
-    "_attachments/Pasted image 20240124184228.png",
-    "_attachments/Pasted image 20240124184220.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",

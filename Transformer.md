@@ -10,6 +10,14 @@ Types:
 	- Simpler than encoder-decoder models and are already Turing-complete; mainly used for text generations tasks, but can be used for other tasks with prompting.
 
 
+
 Variants: 
 - [[Vision Transformer]]
 - [[Sparse Transformer]]
+
+----
+
+![[Pasted image 20240130162105.png]]
+![[Pasted image 20240130162320.png]]
+
+![[Pasted image 20240130162218.png]]
