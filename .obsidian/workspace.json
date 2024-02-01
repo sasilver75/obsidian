@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pretraining with Human Feedback.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41681252f76ce1d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pretraining with Human Feedback.md",
+                "file": "~ Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pretraining with Human Feedback.md",
+                "file": "~ Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pretraining with Human Feedback.md"
+                "file": "~ Questions.md"
               }
             }
           }
@@ -251,14 +264,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10ae5020b855e8c5",
+  "active": "41681252f76ce1d4",
   "lastOpenFiles": [
+    "DELETEME Pythia Paper Club.md",
+    "_attachments/Pasted image 20240131121906.png",
+    "_attachments/Pasted image 20240131121712.png",
+    "_attachments/Pasted image 20240131121429.png",
+    "~ Vocabulary.md",
+    "Pretraining with Human Feedback.md",
     "Cross Attention.md",
     "_attachments/Pasted image 20240130193327.png",
     "Positional Encoding.md",
     "_attachments/Pasted image 20240130192354.png",
     "Transformer.md",
-    "~ Vocabulary.md",
     "~ Recommendations.md",
     "Embedding.md",
     "_attachments/Pasted image 20240130162514.png",
@@ -271,9 +289,6 @@
     "_attachments/Pasted image 20240130083004.png",
     "~ Useful Pictures.md",
     "~ Research Ideas.md",
-    "_attachments/Pasted image 20240129230809.png",
-    "_attachments/Pasted image 20240129230748.png",
-    "_attachments/Pasted image 20240129161437.png",
     "~ Questions.md",
     "Pieter Abbeel.md",
     "~ Learning.md",
@@ -286,8 +301,6 @@
     "Segmentation.md",
     "Videos/What is Pytorch?.md",
     "Stanford Institute for Human-Centered Artificial Intelligence.md",
-    "~ Graduate.md",
-    "Machine Intelligence Research Institute.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
