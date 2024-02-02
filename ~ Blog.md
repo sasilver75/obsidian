@@ -5,6 +5,7 @@ Inspired by:
 - [Swyx](https://www.swyx.io/) "Learning in public"
 - [Ishan](https://www.ishan.coffee/)'s "Seed, Sapling, Evergreen" idea for posts
 - https://aman.ai/ 's Aman Chadha's content categorization
+- Simon Willison TIL
 
 
 
@@ -43,3 +44,4 @@ Categories
 - Applications/In the Wild (bad name, but ... use of the tech in the field, eg propaganda, etc. Basically "News")
 - Images
 - Projects
+- TIL (Today I learned)
