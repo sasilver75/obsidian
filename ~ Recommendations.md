@@ -1,4 +1,4 @@
-
+t
 Youtube Chanenls
 - Machine Learning
 	- Edan Meyer
@@ -113,7 +113,6 @@ Music
 
 Anti-recommendations:
 - No Priors podcast
-	- Non-technical hosts, sycophantic, lots of filler discussions
-- 
+- Super Data Science Podcast
 
 

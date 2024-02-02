@@ -158,6 +158,9 @@
 - [[Rotary Positional Embedding]]
 - [[SPIN]]
 - [[Canary GUID]]
+- [[Weight Decay]]
+- [[Early Stopping]]
+- [[Learning Rate]]
 
 
 # Natural Language Processing Concepts
@@ -239,6 +242,8 @@
 - [[GPT-NeoX]]
 - [[Gopher]]
 - [[AlphaCode]]
+- [[MPT]]
+- [[OLMo]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
@@ -280,6 +285,7 @@
 - [[Winograd]]  (Winograd schemas)
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
+- [[Project Gutenberg]]
 
 # Policy
 - Lump of Labor Fallacy

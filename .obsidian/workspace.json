@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "4feb1baba978ac72",
+            "id": "ae9fa64df5efb81d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,7 +34,20 @@
             }
           },
           {
-            "id": "10ae5020b855e8c5",
+            "id": "685cc7525cce7f7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OLMo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f744c3da7cbdfa4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +60,12 @@
             }
           },
           {
-            "id": "41681252f76ce1d4",
+            "id": "c0f1b03538d27e01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Questions.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +73,12 @@
             }
           },
           {
-            "id": "e7a1138b9d698638",
+            "id": "d53ea048cb4faa60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedding.md",
+                "file": "MPT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +86,12 @@
             }
           },
           {
-            "id": "2335b0214b0c1ecd",
+            "id": "9c3069156d5a0097",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Questions.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +99,12 @@
             }
           },
           {
-            "id": "33d6c12db87e1768",
+            "id": "1f2b03031ceca047",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pieter Abbeel.md",
+                "file": "Low-Rank Adaptation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,12 +112,12 @@
             }
           },
           {
-            "id": "eb8d840c74913fbe",
+            "id": "26b3e89d4ee313e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alex Ratner.md",
+                "file": "Quantized Low-Rank Adaptation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,12 +125,12 @@
             }
           },
           {
-            "id": "8955590013ed7a97",
+            "id": "4438a609ab4c7c6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Percy Liang.md",
+                "file": "Low-Rank Adaptation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,20 +138,59 @@
             }
           },
           {
-            "id": "e4fed8c8e44b9aa0",
+            "id": "8df00a913863834c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Quantized Low-Rank Adaptation.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f29ec598ecc4966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Low-Rank Adaptation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02d9d15c2d6ba3c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddb693f0a5410160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning Rate.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -188,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -204,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Questions.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +274,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Questions.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Questions.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -264,43 +317,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41681252f76ce1d4",
+  "active": "c0f1b03538d27e01",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "conflict-files-obsidian-git.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240201111336.png",
+    "Allen Institute.md",
+    "OLMo.md",
+    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
+    "MPT.md",
+    "_attachments/Pasted image 20240201004641.png",
+    "_attachments/Pasted image 20240201004336.png",
+    "_attachments/Pasted image 20240201004005.png",
+    "Learning Rate.md",
+    "_attachments/Pasted image 20240201000937.png",
+    "Low-Rank Adaptation.md",
+    "Quantized Low-Rank Adaptation.md",
+    "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
+    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
+    "~ Recommendations.md",
+    "~ Questions.md",
+    "Embedding.md",
+    "Pieter Abbeel.md",
+    "Alex Ratner.md",
+    "Percy Liang.md",
+    "_attachments/Pasted image 20240131205312.png",
+    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
+    "PaperClubs/LatentSpace",
+    "PaperClubs",
     "DELETEME Pythia Paper Club.md",
     "_attachments/Pasted image 20240131121906.png",
     "_attachments/Pasted image 20240131121712.png",
     "_attachments/Pasted image 20240131121429.png",
-    "~ Vocabulary.md",
     "Pretraining with Human Feedback.md",
     "Cross Attention.md",
     "_attachments/Pasted image 20240130193327.png",
     "Positional Encoding.md",
-    "_attachments/Pasted image 20240130192354.png",
     "Transformer.md",
-    "~ Recommendations.md",
-    "Embedding.md",
-    "_attachments/Pasted image 20240130162514.png",
-    "_attachments/Pasted image 20240130162320.png",
-    "_attachments/Pasted image 20240130162218.png",
-    "_attachments/Pasted image 20240130162105.png",
     "~ Quotes.md",
-    "Jonathan Frankle.md",
-    "~ Motivation.md",
-    "_attachments/Pasted image 20240130083004.png",
-    "~ Useful Pictures.md",
-    "~ Research Ideas.md",
-    "~ Questions.md",
-    "Pieter Abbeel.md",
-    "~ Learning.md",
-    "Chris Ré.md",
-    "Alex Ratner.md",
-    "Percy Liang.md",
-    "Clem Delangue.md",
-    "Matryoshka Representation Learning.md",
-    "conflict-files-obsidian-git.md",
-    "Segmentation.md",
-    "Videos/What is Pytorch?.md",
-    "Stanford Institute for Human-Centered Artificial Intelligence.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
@@ -310,8 +365,6 @@
     "FastAI/Part 2",
     "Articles",
     "Videos",
-    "Papers/ML",
-    "Papers",
     "Untitled 1.canvas"
   ]
 }
