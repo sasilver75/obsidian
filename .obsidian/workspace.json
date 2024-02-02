@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "ba1100144a487720",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240131144136.png",
     "~ Blog.md",
     "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
@@ -168,7 +169,6 @@
     "_attachments/Pasted image 20240130083004.png",
     "_attachments/Pasted image 20240129230809.png",
     "_attachments/Pasted image 20240129230748.png",
-    "_attachments/Pasted image 20240129161437.png",
     "Pieter Abbeel.md",
     "Percy Liang.md",
     "Matryoshka Representation Learning.md",

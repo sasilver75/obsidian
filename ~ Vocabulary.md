@@ -128,6 +128,7 @@
 - [[Tree of Thought]]
 - [[knowledge-base/VLM]] 
 - [[Speculative Decoding]]
+- [[Speculative Sampling]]
 - [[Dropout]]
 - [[Label Smoothing]]
 - [[Direct Policy Optimization]]
