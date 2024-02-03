@@ -4,193 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "52f0b2f81c2e1b68",
+        "id": "b1959ee90e21a1ba",
         "type": "tabs",
         "children": [
           {
-            "id": "0a894b6d393687d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae9fa64df5efb81d",
+            "id": "bacd4674eb1946b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "685cc7525cce7f7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OLMo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f744c3da7cbdfa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0f1b03538d27e01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d53ea048cb4faa60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MPT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c3069156d5a0097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f2b03031ceca047",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26b3e89d4ee313e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quantized Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4438a609ab4c7c6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8df00a913863834c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quantized Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f29ec598ecc4966",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Low-Rank Adaptation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02d9d15c2d6ba3c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ddb693f0a5410160",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning Rate.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -317,24 +147,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0f1b03538d27e01",
+  "active": "bacd4674eb1946b8",
   "lastOpenFiles": [
+    "Learning Rate.md",
+    "~ Vocabulary.md",
+    "Low-Rank Adaptation.md",
+    "Quantized Low-Rank Adaptation.md",
+    "MPT.md",
+    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
+    "OLMo.md",
+    "~ Research Ideas.md",
+    "~ Useful Pictures.md",
     "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20240131144136.png",
-    "~ Vocabulary.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240201111336.png",
     "Allen Institute.md",
-    "OLMo.md",
-    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
-    "MPT.md",
     "_attachments/Pasted image 20240201004641.png",
     "_attachments/Pasted image 20240201004336.png",
     "_attachments/Pasted image 20240201004005.png",
-    "Learning Rate.md",
     "_attachments/Pasted image 20240201000937.png",
-    "Low-Rank Adaptation.md",
-    "Quantized Low-Rank Adaptation.md",
     "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
     "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
     "~ Recommendations.md",
