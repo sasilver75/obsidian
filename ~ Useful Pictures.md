@@ -40,5 +40,12 @@ Byte Magazine Covers - https://lunduke.substack.com/p/the-truly-epic-byte-magazi
 ![[Pasted image 20240129230809.png]]
 (From Yannic Kilchner Discord; An example of bots: https://discord.com/channels/714501525455634453/834836108000886805/1200085021705388062)
 
+
+![[Pasted image 20240131205312.png]]
+From: https://www.youtube.com/watch?v=KCXDr-UOb9A
+
+![[Pasted image 20240201111336.png]]
+From: https://youtu.be/BN6tTdWcIcQ?si=9S3FG70jYseBcPqj
+
 ![[Pasted image 20240131144136.png]]
 From SnorkelAI Andrew Ng
