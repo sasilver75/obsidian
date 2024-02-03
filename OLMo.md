@@ -1,0 +1,1 @@
+[[Allen Institute]] AI2 model; Nathan Lambert from Interconnects/The Retort

@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4235d11885bb5f5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Research Ideas.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Research Ideas.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Research Ideas.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -147,8 +161,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba1100144a487720",
+  "active": "4235d11885bb5f5d",
   "lastOpenFiles": [
+    "~ Research Ideas.md",
+    "conflict-files-obsidian-git.md",
+    "_attachments/Pasted image 20240201111336.png",
+    "_attachments/Pasted image 20240201004641.png",
+    "_attachments/Pasted image 20240201004336.png",
+    "_attachments/Pasted image 20240201004005.png",
+    "_attachments/Pasted image 20240201000937.png",
+    "_attachments/Pasted image 20240131205312.png",
+    "_attachments/Pasted image 20240131121906.png",
+    "_attachments/Pasted image 20240131121712.png",
+    "_attachments/Pasted image 20240131121429.png",
+    "OLMo.md",
+    "MPT.md",
+    "Learning Rate.md",
+    "DELETEME Pythia Paper Club.md",
+    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
+    "Allen Institute.md",
     "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240131144136.png",
@@ -158,18 +189,8 @@
     "PaperClubs/LatentSpace",
     "PaperClub/Untitled.md",
     "PaperClubs",
-    "conflict-files-obsidian-git.md",
     "~ Quotes.md",
     "~ Motivation.md",
-    "_attachments/Pasted image 20240130193327.png",
-    "_attachments/Pasted image 20240130192354.png",
-    "_attachments/Pasted image 20240130162514.png",
-    "_attachments/Pasted image 20240130162320.png",
-    "_attachments/Pasted image 20240130162218.png",
-    "_attachments/Pasted image 20240130162105.png",
-    "_attachments/Pasted image 20240130083004.png",
-    "_attachments/Pasted image 20240129230809.png",
-    "_attachments/Pasted image 20240129230748.png",
     "Pieter Abbeel.md",
     "Percy Liang.md",
     "Matryoshka Representation Learning.md",
@@ -178,15 +199,7 @@
     "Clem Delangue.md",
     "Chris Ré.md",
     "Alex Ratner.md",
-    "~ Research Ideas.md",
     "~ Graduate.md",
-    "t-SNE.md",
-    "Winograd.md",
-    "Webtext.md",
-    "WebGPT.md",
-    "Vision Transformer.md",
-    "ULMFit.md",
-    "U-Net.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
