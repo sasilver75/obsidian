@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4235d11885bb5f5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "~ Research Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "~ Research Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "~ Research Ideas.md"
               }
             }
           }
@@ -161,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4235d11885bb5f5d",
+  "active": "ba1100144a487720",
   "lastOpenFiles": [
-    "~ Research Ideas.md",
     "conflict-files-obsidian-git.md",
+    "~ Research Ideas.md",
     "_attachments/Pasted image 20240201111336.png",
     "_attachments/Pasted image 20240201004641.png",
     "_attachments/Pasted image 20240201004336.png",
