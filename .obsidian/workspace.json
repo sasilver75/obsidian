@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Research Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Research Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Research Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Research Ideas.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "ba1100144a487720",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240131144136.png",
     "~ Blog.md",
@@ -178,7 +179,6 @@
     "Chris Ré.md",
     "Alex Ratner.md",
     "~ Research Ideas.md",
-    "~ Vocabulary.md",
     "~ Graduate.md",
     "t-SNE.md",
     "Winograd.md",
