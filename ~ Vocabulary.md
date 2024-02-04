@@ -129,7 +129,7 @@
 - [[knowledge-base/VLM]] 
 - [[Speculative Decoding]]
 - [[Speculative Sampling]]
-- [[Dropout]]
+- [[Dropout]]**
 - [[Label Smoothing]]
 - [[Direct Policy Optimization]]
 - [[Sampled Softmax]]
