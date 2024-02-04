@@ -6,3 +6,6 @@
 [[Paged Attention]]
 [[Flash Attention]]
 [[ALiBi|Attention with Linear Biases]] (ALiBi)
+[[Sliding Window Attention]]
+[[Group Query Attention]]
+[[Paged Attention]]

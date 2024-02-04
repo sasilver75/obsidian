@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Attention.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Attention.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "bacd4674eb1946b8",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "~ Vocabulary.md",
+    "conflict-files-obsidian-git.md",
     "Learning Rate.md",
     "Low-Rank Adaptation.md",
     "Quantized Low-Rank Adaptation.md",
