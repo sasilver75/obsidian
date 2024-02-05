@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8a84c47817ac84f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stephen Bach.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stephen Bach.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stephen Bach.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stephen Bach.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -161,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a84c47817ac84f3",
+  "active": "bacd4674eb1946b8",
   "lastOpenFiles": [
+    "Machine Translation.md",
     "~ Vocabulary.md",
     "Stephen Bach.md",
     "Attention.md",
@@ -200,7 +187,6 @@
     "_attachments/Pasted image 20240131121429.png",
     "Pretraining with Human Feedback.md",
     "Cross Attention.md",
-    "Positional Encoding.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
