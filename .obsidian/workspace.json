@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b1959ee90e21a1ba",
+        "id": "cdce95e82d84e4e8",
         "type": "tabs",
         "children": [
           {
-            "id": "bacd4674eb1946b8",
+            "id": "ba1100144a487720",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Research Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#entity",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
+    "width": 488.5,
     "collapsed": true
   },
   "right": {
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Research Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Research Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Research Ideas.md"
               }
             }
           }
@@ -147,46 +147,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bacd4674eb1946b8",
+  "active": "ba1100144a487720",
   "lastOpenFiles": [
-    "Machine Translation.md",
-    "~ Vocabulary.md",
     "Stephen Bach.md",
-    "Attention.md",
+    "Machine Translation.md",
     "conflict-files-obsidian-git.md",
-    "Learning Rate.md",
-    "Low-Rank Adaptation.md",
-    "Quantized Low-Rank Adaptation.md",
-    "MPT.md",
-    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
-    "OLMo.md",
     "~ Research Ideas.md",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240131144136.png",
     "_attachments/Pasted image 20240201111336.png",
-    "Allen Institute.md",
     "_attachments/Pasted image 20240201004641.png",
     "_attachments/Pasted image 20240201004336.png",
     "_attachments/Pasted image 20240201004005.png",
     "_attachments/Pasted image 20240201000937.png",
-    "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
-    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
-    "~ Recommendations.md",
-    "~ Questions.md",
-    "Embedding.md",
-    "Pieter Abbeel.md",
-    "Alex Ratner.md",
-    "Percy Liang.md",
     "_attachments/Pasted image 20240131205312.png",
-    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
-    "PaperClubs/LatentSpace",
-    "PaperClubs",
-    "DELETEME Pythia Paper Club.md",
     "_attachments/Pasted image 20240131121906.png",
     "_attachments/Pasted image 20240131121712.png",
     "_attachments/Pasted image 20240131121429.png",
-    "Pretraining with Human Feedback.md",
+    "OLMo.md",
+    "MPT.md",
+    "Learning Rate.md",
+    "DELETEME Pythia Paper Club.md",
+    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
+    "Allen Institute.md",
+    "~ Vocabulary.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240131144136.png",
+    "~ Blog.md",
+    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
+    "~ Recommendations.md",
+    "PaperClubs/LatentSpace",
+    "PaperClub/Untitled.md",
+    "PaperClubs",
+    "~ Quotes.md",
+    "~ Motivation.md",
+    "Pieter Abbeel.md",
+    "Percy Liang.md",
+    "Matryoshka Representation Learning.md",
+    "Jonathan Frankle.md",
     "Cross Attention.md",
+    "Clem Delangue.md",
+    "Chris Ré.md",
+    "Alex Ratner.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
