@@ -288,9 +288,6 @@
 - [[RedPajama]]
 - [[Project Gutenberg]]
 
-# Policy
-- Lump of Labor Fallacy
-
 # Entities
 - [[Cohere]]
 - [[OpenAI]]
