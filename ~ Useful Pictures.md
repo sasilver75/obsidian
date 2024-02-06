@@ -49,3 +49,5 @@ From: https://youtu.be/BN6tTdWcIcQ?si=9S3FG70jYseBcPqj
 
 ![[Pasted image 20240131144136.png]]
 From SnorkelAI Andrew Ng
+
+![[Pasted image 20240205172048.png]]
