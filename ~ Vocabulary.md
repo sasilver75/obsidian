@@ -171,6 +171,8 @@
 - [[Question Answering]]
 - [[Machine Translation]]
 - [[Information Extraction]]
+- [[Diarization]]
+- [[Topic Modeling]]
 
 
 # Computer Vision Concepts

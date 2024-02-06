@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "bacd4674eb1946b8",
   "lastOpenFiles": [
-    "Machine Translation.md",
+    "_attachments/Pasted image 20240205172048.png",
     "~ Vocabulary.md",
+    "Machine Translation.md",
     "Stephen Bach.md",
     "Attention.md",
     "conflict-files-obsidian-git.md",
@@ -186,7 +187,6 @@
     "_attachments/Pasted image 20240131121712.png",
     "_attachments/Pasted image 20240131121429.png",
     "Pretraining with Human Feedback.md",
-    "Cross Attention.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
