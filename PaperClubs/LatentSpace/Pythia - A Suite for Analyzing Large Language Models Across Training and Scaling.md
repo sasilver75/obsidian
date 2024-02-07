@@ -14,7 +14,7 @@ Abstract:
 > 
 > We provide public access to ==154 checkpoints for each one of the 16 models==, alongside tools to download and reconstruct their exact training dataloaders for further study.
 > 
-> ==We intend Pythia to facilitate research== in many areas, and we ==present several case studies== including novel results in memorization, term frequency effects on few-shot performance, and reducing gender bias.
+> ==We intend Pythia to facilitate research== in many areas, and we ==present several case studies==**** including novel results in memorization, term frequency effects on few-shot performance, and reducing gender bias.
 > 
 > We demonstrate that this highly controlled setup can be used to yield novel insights toward LLMs and their training dynamics. Trained models, analysis code, training code, and training data can be found at {[this https URL](https://github.com/EleutherAI/pythia)}.
 

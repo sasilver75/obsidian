@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md"
               }
             }
           }
@@ -162,8 +161,10 @@
   },
   "active": "a8566e00fb2f509b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
+    "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
     "~ Recommendations.md",
+    "conflict-files-obsidian-git.md",
     "~ Vocabulary.md",
     "Winograd.md",
     "Independent Component Analysis.md",
@@ -193,8 +194,6 @@
     "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
     "~ Questions.md",
     "Embedding.md",
-    "Pieter Abbeel.md",
-    "Alex Ratner.md",
     "_attachments/Pasted image 20240131205312.png",
     "PaperClubs/LatentSpace",
     "PaperClubs",
