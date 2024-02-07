@@ -29,6 +29,8 @@
 - [[F1 Score]]
 - [[AUC]]
 - [[ROC Curve]]
+- [[Principal Component Analysis]]
+- [[Independent Component Analysis]]
 
 # RecSys
 - [[Collaborative Filtering]]
@@ -269,6 +271,8 @@
 - [[GAIA]]
 - [[DAWNBench]]
 - [[HELM]]
+- [[GLUE]]
+- [[MNLI]]
 
 
 # Datasets
@@ -346,3 +350,4 @@
 - [[Jonathan Frankle]]
 - [[Sara Hooker]]
 - [[Stephen Bach]]
+- [[Ishan Misra]]

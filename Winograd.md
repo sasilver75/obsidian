@@ -11,3 +11,5 @@ The strengths of this challenge are that it's clear-cut, and that the answer to 
 
 It seems that models are able to achieve something like 85%+ accuracy, in ~2022.
 
+
+It was succeeded by the Winogrande dataset and benchmark.

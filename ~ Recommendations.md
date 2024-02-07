@@ -1,4 +1,4 @@
-t
+
 Youtube Chanenls
 - Machine Learning
 	- Edan Meyer
@@ -108,6 +108,12 @@ Music
 - Tycho
 - Yvette Young
 - Boards of Canada
+
+
+Articles
+- https://nostalgebraist.tumblr.com/post/741247180226052096/i-dont-think-youre-drawing-the-right-lesson-from
+	- The revolution in AI isn't from transformers, it's from predictable scaling laws.
+- 
 
 -----
 

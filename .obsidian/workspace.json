@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bacd4674eb1946b8",
+            "id": "a8566e00fb2f509b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Recommendations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef5d0f20a0dac02b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Winograd.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "~ Recommendations.md"
               }
             }
           }
@@ -147,14 +160,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bacd4674eb1946b8",
+  "active": "a8566e00fb2f509b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240205172048.png",
+    "conflict-files-obsidian-git.md",
+    "~ Recommendations.md",
     "~ Vocabulary.md",
+    "Winograd.md",
+    "Independent Component Analysis.md",
+    "Ishan Misra.md",
+    "Principal Component Analysis.md",
+    "Collaborative Filtering.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240205172048.png",
     "Machine Translation.md",
     "Stephen Bach.md",
     "Attention.md",
-    "conflict-files-obsidian-git.md",
     "Learning Rate.md",
     "Low-Rank Adaptation.md",
     "Quantized Low-Rank Adaptation.md",
@@ -162,7 +182,6 @@
     "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
     "OLMo.md",
     "~ Research Ideas.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240131144136.png",
     "_attachments/Pasted image 20240201111336.png",
     "Allen Institute.md",
@@ -172,21 +191,15 @@
     "_attachments/Pasted image 20240201000937.png",
     "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
     "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
-    "~ Recommendations.md",
     "~ Questions.md",
     "Embedding.md",
     "Pieter Abbeel.md",
     "Alex Ratner.md",
-    "Percy Liang.md",
     "_attachments/Pasted image 20240131205312.png",
-    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
-    "DELETEME Pythia Paper Club.md",
     "_attachments/Pasted image 20240131121906.png",
     "_attachments/Pasted image 20240131121712.png",
-    "_attachments/Pasted image 20240131121429.png",
-    "Pretraining with Human Feedback.md",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
