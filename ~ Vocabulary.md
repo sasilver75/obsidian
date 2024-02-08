@@ -31,6 +31,7 @@
 - [[ROC Curve]]
 - [[Principal Component Analysis]]
 - [[Independent Component Analysis]]
+- [[Spearman Correlation Coefficient]]
 
 # RecSys
 - [[Collaborative Filtering]]
@@ -293,6 +294,7 @@
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
 - [[Project Gutenberg]]
+- [[MassiveText]]
 
 # Entities
 - [[Cohere]]
