@@ -89,11 +89,32 @@ Using RL(AI)F may offer a solution to all the points in this section: By startin
 
 15. RLHF isn't a specification, only a process. RLHF is just a fancy word for preference learning, leaving almost the whole process of what reward the AI actually gets as undefined.
 
-15. If you have th
+15. If you have the weights of model, it's possible to misalign it by fine-tuning it again in another direction; eg fine-tuning it so that it mimics Hitler, or something.
+	- This is very inexpensive to do with LoRAs, etc. 
+	- If you believe in the orthogonality thesis, you could fine-tune your model towards any goal!
+
+The ==strawberry problem==: , "How would you get an AI system to do some very modest [concrete action](https://arbital.com/p/task_goal/) requiring extremely high levels of intelligence, such as building two strawberries that are completely identical at the cellular level, without causing anything weird or disruptive to happen?"
+
+The Strawberry problem: RLHF doesn't a priori solve the strawberry problem.
+
+17. Pointer problem: Directing a capable AGI towards an objective of your choosing.
+18. Corrigibility: Ensuring that the AGI is low-impact, conservative, shutdownable, and otherwise corrigible.
+
+At the end of the day, the author isn't worried about corrigibility at the moment. 
 
 
+# Unknown properties under generalization
+
+19. Distributional leap
+- RLHF requires some negative feedback in order to train it. For large scale tasks, this could maybe require killing someone to continue the gradient descent? (EG if the model is making a choice in training about whether to save or kill someone, I guess). You could make train it in simulation or do curriculum learning to slowly increase the real-world stakes.
+- Unknown properties under generalization: Even at the limit of the amount of data and variety you can provide via RLHF, when the learned policy generalizes perfectly to all new situations you can throw at it, the result will almost certainly be misaligned because there are still *near infinite* of such policies, and they each behave differently on the infinite remaining types of situations taht you didn't manage to train it yet on.
+- Large Distributional Shifts to dangerous domains: RLHF doesn't a priori generalize optimize for alignment that you did in safe conditions, across a big distributional shift to dangerous conditions.
+- Sim to real is hard: RLHF won't enable you to perform a pivotal act. Under the current paradigm, you would need the model to execute multiple pivotal acts, then assess each one. 
+- High intelligence is a large shift: Once the model becomes very intelligent and agentic because of RLHF, this is akin to a large shift of distribution.
 
 
+20. Sharp left turn
+- How to safely scale the model if performances go up? Capability generalizes further than alignment. Some values collapse when self-reflecting. The alignment problem requires we look into the details of generalization. This is where all the interesting stuff is."
 
 
 

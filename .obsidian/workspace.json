@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b1959ee90e21a1ba",
+        "id": "7d97309f6a30f7ab",
         "type": "tabs",
         "children": [
           {
-            "id": "97afee4771eb7601",
+            "id": "765a1e1be99f3a54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8566e00fb2f509b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4fe62757ee28c66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MassiveText.md",
+                "file": "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
+                "file": "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
+                "file": "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md"
+                "file": "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -173,12 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97afee4771eb7601",
+  "active": "765a1e1be99f3a54",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240207231106.png",
-    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+    "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "MassiveText.md",
+    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
     "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
+    "_attachments/Pasted image 20240207231106.png",
     "~ Recommendations.md",
     "~ Vocabulary.md",
     "Articles/Understanding Large Language Models (Apr 2023) {Sebstian Raschka, UW-Madison}.md",
@@ -209,7 +184,6 @@
     "Principal Component Analysis.md",
     "Collaborative Filtering.md",
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240205172048.png",
     "Machine Translation.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
