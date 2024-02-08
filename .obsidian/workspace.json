@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
+                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "ef5d0f20a0dac02b",
+            "id": "97afee4771eb7601",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winograd.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4fe62757ee28c66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MassiveText.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -99,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
+                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
+                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperClubs/LatentSpace/Self-Rewarding Language Models.md"
+                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md"
               }
             }
           }
@@ -161,11 +175,27 @@
   },
   "active": "a8566e00fb2f509b",
   "lastOpenFiles": [
-    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
+    "Codex.md",
+    "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
+    "~ Vocabulary.md",
+    "MassiveText.md",
+    "GLaM.md",
+    "_attachments/Pasted image 20240207155333.png",
+    "_attachments/Pasted image 20240207155039.png",
+    "_attachments/Pasted image 20240207154945.png",
+    "_attachments/Pasted image 20240207154555.png",
+    "_attachments/Pasted image 20240207154247.png",
+    "_attachments/Pasted image 20240207154105.png",
+    "_attachments/Pasted image 20240207145940.png",
+    "_attachments/Pasted image 20240207145913.png",
+    "_attachments/Pasted image 20240207145739.png",
+    "Articles/Building AGI using Language Models (2020) {Leo Gao}.md",
+    "Articles/Attention? Attention! (June 2018) {Lilian Weng}.md",
+    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
     "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
+    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
     "~ Recommendations.md",
     "conflict-files-obsidian-git.md",
-    "~ Vocabulary.md",
     "Winograd.md",
     "Independent Component Analysis.md",
     "Ishan Misra.md",
@@ -181,24 +211,8 @@
     "Quantized Low-Rank Adaptation.md",
     "MPT.md",
     "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
-    "OLMo.md",
-    "~ Research Ideas.md",
-    "_attachments/Pasted image 20240131144136.png",
-    "_attachments/Pasted image 20240201111336.png",
-    "Allen Institute.md",
-    "_attachments/Pasted image 20240201004641.png",
-    "_attachments/Pasted image 20240201004336.png",
-    "_attachments/Pasted image 20240201004005.png",
-    "_attachments/Pasted image 20240201000937.png",
-    "Articles/In-Context Learning, In Context (Apr 2023) {Daniel Bashir, The Gradient}.md",
-    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
-    "~ Questions.md",
-    "Embedding.md",
-    "_attachments/Pasted image 20240131205312.png",
     "PaperClubs/LatentSpace",
     "PaperClubs",
-    "_attachments/Pasted image 20240131121906.png",
-    "_attachments/Pasted image 20240131121712.png",
     "Untitled.canvas",
     "Rese",
     "C++/LearnCPP",
