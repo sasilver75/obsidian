@@ -113,8 +113,38 @@ All of these scrapes contained a large fraction of the total code available on G
 - ==It's hard to know what to make of these datasets; are they "basically all the books in the world," or just some subset that an engineer pulled at one point in time?==
 
 
-#### All hte data we have
-- 
+#### All the data we have
+- ==He tried to add up the tokens that he knows about, and the the of ~3.2T tokens, or about 1.6x the size of MassiveText, and about 35% of the data we would need to train an optimal PaLM model.==
+
+
+What is compute? On a further barrier to scaling
+- Here's another important comment from the PaLM paper's Chinchilla discussion:
+> If the smaller model were trained using fewer TPU chips than the larger model, this would proportionally increase the wall-clock time of training, since the total training FLOP count is the same. If it were trained using the same number of TPU chips, it would be very difficult to maintain TPU compute efficiency without a drastic increase in batch size.
+
+In LM scaling research, all "compute" is treated as fungible -- there's one research, and you can spend it on params and steps, where ==compute = params * steps==
+
+To scale up data, `D`, you have to either:
+- Take more optimization steps (an inherently serial process, which takes linearly more time as you add data).
+- Increase the batch size (which tends to degrade model quality behind a certain critical size, and current high-N models are already pushing against that limit.
+
+
+-----
+
+#### Interesting Comments
+
+> ==One important implication is that pure AI companies like OpenAI, Anthropic, Conjecture, Cohere are likely to fall behind companies with access to large amounts of non-public-internet data like Facebook, Google, Apple==. Email and messaging are especially massive sources of "dark" data, provided they can be used legally and safely. Taking just email, something like 500 billion emails are sent daily, which is more text than any LLM has ever been trained on.
+> ...
+> Another implication is that ==federated learning, data democratization efforts, and privacy regulations like GDPR are MORE likely to be critical levers on the future of AI than previously thought.==
+
+In response:
+> Another implication is that ==centralized governments with the ability to aggressively collect and monitor citizen's data, like China, could be major players==.
+
+
+
+
+
+
+
 
 
 

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8566e00fb2f509b",
+            "id": "97afee4771eb7601",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
+                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "97afee4771eb7601",
+            "id": "a8566e00fb2f509b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
+                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
+                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md"
+                "file": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md"
               }
             }
           }
@@ -173,12 +173,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8566e00fb2f509b",
+  "active": "97afee4771eb7601",
   "lastOpenFiles": [
-    "Codex.md",
-    "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240207231106.png",
+    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
     "MassiveText.md",
+    "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
+    "~ Recommendations.md",
+    "~ Vocabulary.md",
+    "Articles/Understanding Large Language Models (Apr 2023) {Sebstian Raschka, UW-Madison}.md",
+    "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Codex.md",
     "GLaM.md",
     "_attachments/Pasted image 20240207155333.png",
     "_attachments/Pasted image 20240207155039.png",
@@ -194,7 +202,6 @@
     "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
     "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
     "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
-    "~ Recommendations.md",
     "conflict-files-obsidian-git.md",
     "Winograd.md",
     "Independent Component Analysis.md",
@@ -204,13 +211,6 @@
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240205172048.png",
     "Machine Translation.md",
-    "Stephen Bach.md",
-    "Attention.md",
-    "Learning Rate.md",
-    "Low-Rank Adaptation.md",
-    "Quantized Low-Rank Adaptation.md",
-    "MPT.md",
-    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
