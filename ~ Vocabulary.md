@@ -39,6 +39,7 @@
 
 
 # Machine Learning
+- [[Self-Supervised Learning]]
 - [[Matryoshka Representation Learning]]
 - [[Large Language Model]]
 - [[Foundation Model]]
@@ -198,6 +199,7 @@
 - On-Policy, Off-Policy
 - Actor-Critic methods
 - [[Direct Preference Optimization]]
+- [[Markov Decision Process]]
 
 
 # Models
