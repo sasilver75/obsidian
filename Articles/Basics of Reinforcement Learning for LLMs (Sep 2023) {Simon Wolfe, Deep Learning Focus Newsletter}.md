@@ -156,6 +156,7 @@ In [[Q-Learning]], we choose to use the maximum Q value, as shown below:
 ![[Pasted image 20240209012706.png]]
 
 
+# SAM NOTE: YOUR PHONE IS PROBABLY IN THE COUCH!
 
 
 
