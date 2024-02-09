@@ -113,7 +113,8 @@ Music
 Articles
 - https://nostalgebraist.tumblr.com/post/741247180226052096/i-dont-think-youre-drawing-the-right-lesson-from
 	- The revolution in AI isn't from transformers, it's from predictable scaling laws.
-- 
+- https://cameronrwolfe.substack.com/p/basics-of-reinforcement-learning
+	- Understanding how Reinforcement Learning can be used in the context of language model fine-tuning.
 
 -----
 

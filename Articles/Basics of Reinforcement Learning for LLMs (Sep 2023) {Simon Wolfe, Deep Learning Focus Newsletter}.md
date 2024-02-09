@@ -70,28 +70,90 @@ As the agent interacts with the environment, it can receive both positive and ne
 	- The ==transition function== then outputs the next state, based upon the previous state and the chosen action.
 
 ![[Pasted image 20240208224901.png]]
-((Above: So given a state `s`, we determine a probability distribution of actions we can take with our `policy function`, given that state. We choose some action `a` from that distribution. Given our `(s,a)`, we use out `transition function` to determine our next state `s`. We are possibly given a reward `r` for reaching the new state.))
+==((Above: So given a state `s`, we determine a probability distribution of actions we can take with our `policy function`, given that state. We choose some action `a` from that distribution. Given our `(s,a)`, we use out `transition function` to determine our next state `s`. We are possibly given a reward `r` for reaching the new state.))==
 
-One thing we might be wondering after looking at the 
+One thing we might be wondering after looking at the diagram above: *"What is the difference between the agent and the policy?* The distinction is a bit nuanced, but ==we can think of the agent as *implementing* the policy in the environment.==
+
+As an agent interacts with the environment, we form a "==trajectory==" of state/action pairs that are chosen throughout this process. Then, given the reward associated with each of these states, we can get a total reward as given by the equation below:
+
+![[Pasted image 20240208230341.png]]
+Above: ==This return is the summed up rewards across the agent's full trajectory, but rewards achieved at later time steps are exponentially discounted by the factor ¥;== see below for more.
+
+The goal of RL is to maximize this return!
+
+As shown by the equation below, we can characterize this by finding a policy that maximizes the return over trajectories that are sampled from the final policy.
+
+![[Pasted image 20240208230801.png]]
+((I think the way to read the first thing is "Maximize the following function by varying the policy"))
+
+As a simplified example of the setup described above, let's consider training a NN to navigate a 2x3 grid from an initial state to a final state:
+![[Pasted image 20240208230952.png]]
+- The state will be given by the current position in the grid; let's represent this as a [[One-Hot Encoding]] vector. 
+- Let's implement our policy using a feed-forward neural network that takes the current one-hot position as input and predicts a probability distribution over potential actions (ie move up, move down, move left, move right).
+- For each chosen action, the transition function simply moves the agent to the corresponding next position on the grid and avoids allowing the agent to move out of bounds.
+- The optimal agent, after training, learns to reach the final state without passing through the red square. ((I think the optimal agent greedily samples the policy at each point until it hits the end state, and then calculates the reward of its trajectory.))
+
+Note that this problem has an environment that isn't differentiable, and contains long-term dependencies -- it has to perform several sequential actions to get any reward.
+
+How does this apply to language models?
+
+![[Pasted image 20240208231412.png]]
+
+As discussed extensively in prior interviews, LMs specialize in next token prediction. Our LM takes several tokens as input (a prefix) and predicts the next token based on this context. This is all done autoregressively, meaning that the language model:
+1. Predicts the next token
+2. Adds the next token to the context
+3. Repeats
+
+To view this setup through the RL lens, ==we consider the language model to be our policy==!
+Our state is just the current textual sequence in the context. Given the state, the language model creates a probability distribution over *the next token* and selects the next action to take (the next token). ==Once a full textual sequence has been produced, we can obtain a reward by *rating* the quality of the language model's output, either with a human or a reward model that's been *trained* by human preferences.==
+
+This setup at first feels different from learning from the gridworld as before, but we begin to see that the problem formulation used for RL is quite generic -- it can solve many different problems.
+((Okay, but how do we use the reward from the human to update the language model's parameters? It's not like we can use backpropagation, can we?))
+
+### Important Terms and Definitions
+- ==Trajectory==: The sequence of states and actions that describe the path taken by an agent through an ecosystem.
+- ==Episode==: Sometimes the environment that we're exploring has a well-defined end state; e.g. reaching the final destination in our 2x3 gridworld. In that case, we refer to the trajectory of actions and states from start-end state as an "episode."
+- ==Return==: Return is just the reward summed up over an entire trajectory -- this sum typically also includes a *discount factor*; intuitively, this means that current rewards are more valuable than later rewards. 
+- ==Discount Factor==: The concept of discounting goes *beyond* RL, and refers to the basic idea of determining the current value of a future reward. This disincentivizes random wandering before getting to reward-bearing states.
+- ==On vs. Off-Policy==: In RL, we have a target policy that describes the policy that our agent is aiming to learn. Additionally, we have a behavior policy that is being used by the agent to select actions as it interacts with the environment. 
+	- The distinction here is subtle, but it lies in whether the behavior policy used to select actions as the agent navigates the environment during RL is the same (on-policy) as the target policy that we are trying to evaluate and improve or not (off-policy).
+- ==ε-Greedy Policy==: RL trains a NN via interaction with an environment. The policy that the neural network implements takes a current state and produces a probability distribution over possible actions. But given that probability distribution, how do we choose which to use? One of the most common approaches is the ε-Greedy Policy, which greedily selects the "most probable" (highest expected return) action 1-ε % of the time, and selects a random action otherwise (ε % of the time).
+	- This approach balances Exploration and Exploitation by allowing the agent to explore new actions in addition to those that it knows to work well.
+
+# Q-Learning: A Simple Introduction to RL
+- The [[Q-Learning]] algorithm is simple enough to be a good introduction to the topic of RL algorithms; afterwards, we'll learn about Deep Q-Learning (which is just a system that trains a deep neural network with RL).
+
+### Q-Learning: Modeling Q Values with a Lookup Table
+- [[Q-Learning]] is a ==model-free== RL algorithm, meaning that we don't have to learn a model for the environment with which the agent interacts... It means that we don't need to train a model to estimate the transition or reward functions -- these are instead just ==*given to us as the agent interacts with the environment.*== (recall: The transition function tells you what state you end up in as you take an action from a state, and the reward function tells you how valuable it is to be in a position.)
+- ==The goal of Q-Learning is to learn the value of any action at a particular state.== We do this through learning a [[Q-Function]], which ==defines the value of a state-action pair as the expected return of taking that action at the current state under a certain policy and continuing afterwards, according to the same policy.==
+	- Q(s,a) = expected future accumulated value that you might get by taking action a from state s, under your current policy.
+
+![[Pasted image 20240209011019.png]]
+
+- To learn this Q-function, we create a *lookup table* for the state-action pairs!
+	- Each row in this table represents a unique state, and each column denotes the unique actions that you can take from any state. The value within each entry of the lookup table represents the ==Q-Values== (i.e. the output of the Q function0 for a particular state-action pair.
+	- These Q-Values are initialized at zero and then updated using the [[Bellman Equation]]! As the agent continues to interact with the environment, these values eventually become optimal.
 
 
+![[Pasted image 20240209012124.png]]
 
+### The Q-Learning Algorithm
+- The first step is to initialize our Q Values at 0 and pick an initial state from which to start hte learning process. Then we iterate:
+1. Pick an action to execute from the current state (using an ε-Greedy policy)
+2. Get a reward and next state from the (model-free) environment
+	- Recall that a model-free environment implies that we get both the transition functions (what state taking an action from a state lands you in) and the reward functions (how much reward you get for reaching state s)  for free.
+3. Update your Q-value based on the [[Bellman Equation]].
 
+As shown in the figure above, our update to the Q value considers:
+1. The reward of the current action
+2. The Q value of the current state
+3. The Q value of the next state
 
+However... what should the Q value of the next state be? The agent might take any one of multiple actions from the next state, so how can we know its value?
 
+In [[Q-Learning]], we choose to use the maximum Q value, as shown below:
 
-
-
-
-
-
-
-
-
-
-
-
-
+![[Pasted image 20240209012706.png]]
 
 
 
