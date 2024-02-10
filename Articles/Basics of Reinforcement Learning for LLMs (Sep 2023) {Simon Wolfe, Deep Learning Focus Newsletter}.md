@@ -109,6 +109,7 @@ Our state is just the current textual sequence in the context. Given the state, 
 
 This setup at first feels different from learning from the gridworld as before, but we begin to see that the problem formulation used for RL is quite generic -- it can solve many different problems.
 ((Okay, but how do we use the reward from the human to update the language model's parameters? It's not like we can use backpropagation, can we?))
+- (((Later Sam Answer: It's because the reward that's actually being provided in RLHF isn't from a black box nondifferentiable human; it's from a separate reward model TRAINED on human feedback -- and that REWARD MODEL is itself differntiable!)))
 
 ### Important Terms and Definitions
 - ==Trajectory==: The sequence of states and actions that describe the path taken by an agent through an ecosystem.
@@ -156,7 +157,55 @@ In [[Q-Learning]], we choose to use the maximum Q value, as shown below:
 ![[Pasted image 20240209012706.png]]
 Interestingly, Q-learning uses an ε-greedy policy when selecting actions, allowing new states and actions to be explored with a certain probability.
 
-When computing Q value updates, however, we always consider the next 
+When computing Q value updates, however, we always consider the next next action with the maximum Q value, which may or may not be executed from the next state... In other words, Q-learning estimates the return for state-action pairs by *assuming* a greedy policy that just selects the highest-return action at the next state, though we don't follow such an approach when actually selecting an action. ==For this reason, Q-learning is an off-policy learning algorithm.== (Meaning it explores differently than it ultimately exploits, once it has a learned policy).
+- This above update rule for Q-learning is mathematically guaranteed to find an optimal policy for any finite [[MDP]].
 
+#### Deep Q-Learning
+- The foundation of [[Deep Q-Learning]] (DQL) lies in the vanilla Q-learning algorithm above. DQL is just an extension of Q-learning for deep reinforcement learning, meaning we use an approach similar to Q-learning to train a deep neural network.
+- Now that we're using a more powerful model than a lookup table, Deep Q-Learning can actually be leveraged in interesting (but still relatively simple) practical applications. Let's look at this algorithm and a few related applications that might be of interest.
+
+The problem with Q-learning:
+- The size of the lookup table that we use for Q-learnign is dependent on both the total number of states and actions that exist in an environment.
+	- ==In a complex environment like a high-resolution video game, or in real life, maintaining a lookup table as in classical Q-learning is intractable, and a more scalable approach is needed!==
+
+
+
+==DQL solves this problem by modeling the Q function using a neural network, rather than with a lookup table!==
+- This neural network takes the current state as input and predicts the Q values of all possible actions from that state as an output. DQL eliminates the need to store a massive lookup table; we instead just store the parameters of our neural network, and use it to predict Q values.
+
+![[Pasted image 20240209165648.png]]
+![[Pasted image 20240209165625.png]]
+Above: See 
+
+The Deep Q-Learning algorithm:
+- We have ***two*** neural networks: 
+	- The ==Q Network==
+	- The ==Target Network==
+- These networks are identical, but the exact architecture they use may depend on the problem being solved... To train them, we first gather data by interacting with the environment. This data is gathered using the current Q network with an epsilon-greedy policy. This process of gathering interaction data for training the Q network is referred to as ==experience replay==.
+- From here, we use that data to train the Q network.
+	- During each training iteration, we sample a batch of data and pass it through the Q network and the Target network. 
+		- ==The Q network takes the *current state* as the input and *predicts the Q value of the action that is taken* (predicted Q value).==
+		- ==The target network takes the *next state* as the input and *predicts the Q value of the best action that can be taken from that state* (target Q value).==
+
+![[Pasted image 20240209170051.png]]
+- From here, we use the predicted Q value, the target Q value, and the observed reward ot train the Q network using an MSE loss.
+	- The target network is held fixed, but every several iterations, the weights of the Q network are copied to the target network, allowing this model to be updated as well. ((Question: These models are predicting different things, despite having the same architecture. How can transferring over the weights not fuck shit up?))
+	- Then we just repeat this process until the Q network converges.
+
+Why do we need the target network?
+- The vanilla Q-learning framework leverages two Q values in its update rule:
+	- A (predicted) Q value for the current state-action pair and the (target) Q value of the best state-action pair for the next state.
+- In DQL, we similarly have to generate each of those two Q values.
+
+This idea of using a separate network to produce a training target for another neural network (referred to as [[Knowledge Distillation]]) is heavily used in deep learning.
+
+Practical applications:
+- DQL is a deep RL framework that's been used for several interesting practical applications; early on, it was for playing Atari breakout by [[DeepMind]].
+
+
+## Final Remarks
+- With a basic understanding of RL and the associated problem formulation, we start to see how such problems can be solved by algorithms like (deep) Q-learning.
+- Although RL is a complex topic, the algorithms and formulations we've studied so far are quite simple.
+	- Over the course of coming interviews, we will slowly build upon these concepts, eventually arriving at the algorithms we use today to finetune language models.
 
 

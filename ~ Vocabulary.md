@@ -40,6 +40,7 @@
 
 # Machine Learning
 - [[Self-Supervised Learning]]
+- [[KL Divergence]]
 - [[Matryoshka Representation Learning]]
 - [[Large Language Model]]
 - [[Foundation Model]]
@@ -190,8 +191,7 @@
 - [[Hierarchical Reinforcement Learning]]
 - [[Inverse Reinforcement Learning]]
 - [[Q-Function]]
-- [[Q-Learning]], [[Deep Q Networks]]
-- [[Policy Gradient Algorithm]]
+- [[Q-Learning]], [[Deep Q-Learning]]
 - [[Value Learning]] vs [[Policy Learning]]
 - [[Proximal Policy Optimization]]
 - [[Bellman Equation]]
