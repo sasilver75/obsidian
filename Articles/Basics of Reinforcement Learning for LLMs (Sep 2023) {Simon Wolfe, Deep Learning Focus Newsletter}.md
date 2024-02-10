@@ -154,11 +154,9 @@ However... what should the Q value of the next state be? The agent might take an
 In [[Q-Learning]], we choose to use the maximum Q value, as shown below:
 
 ![[Pasted image 20240209012706.png]]
+Interestingly, Q-learning uses an ε-greedy policy when selecting actions, allowing new states and actions to be explored with a certain probability.
 
-
-# SAM NOTE: YOUR PHONE IS PROBABLY IN THE COUCH!
-
-
+When computing Q value updates, however, we always consider the next 
 
 
 
