@@ -1,0 +1,4 @@
+---
+aliases:
+  - Knowledge Distillation
+---
