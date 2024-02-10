@@ -51,3 +51,5 @@ From: https://youtu.be/BN6tTdWcIcQ?si=9S3FG70jYseBcPqj
 From SnorkelAI Andrew Ng
 
 ![[Pasted image 20240205172048.png]]![[Pasted image 20240208123653.png]]
+![[Pasted image 20240210020210.png]]
+From: https://news.ycombinator.com/item?id=33831759 

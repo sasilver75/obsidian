@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c86e8d7b2b5a6bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0bea645ceb7b0fcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -173,9 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c86e8d7b2b5a6bb",
+  "active": "0bea645ceb7b0fcf",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240210020210.png",
     "~ Vocabulary.md",
+    "~ Recommendations.md",
     "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
     "_attachments/Pasted image 20240209225741.png",
     "_attachments/Pasted image 20240209225304.png",
@@ -197,7 +186,6 @@
     "Markov Decision Process.md",
     "Deep Q-Learning.md",
     "Distillation.md",
-    "~ Recommendations.md",
     "Articles/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "~ Useful Pictures.md",
     "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",

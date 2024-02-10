@@ -46,6 +46,7 @@ Podcasts
 	- Anatomy of Next
 	- The Asianometry Podcast
 	- Future of Life Podcast
+	- Hard Fork
 - Investing, Thinkers
 	- Invest Like the Best with Patrick O'Shaughnessy
 	- Dwarkesh Podcsat
@@ -63,6 +64,7 @@ Podcasts
 	- Blowback
 	- Dan Carlin's Hardcore History
 	- Fall of Civilizations Podcast
+	- Angry Planet
 - Machine Learning
 	- Brain Inspired
 	- Sanctuary AI Ground Truth Podcast
