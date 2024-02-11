@@ -41,6 +41,8 @@
 # Machine Learning
 - [[Self-Supervised Learning]]
 - [[KL Divergence]]
+- [[Entropy]]
+- [[Cross Entropy]]
 - [[Matryoshka Representation Learning]]
 - [[Large Language Model]]
 - [[Foundation Model]]
