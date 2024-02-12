@@ -53,3 +53,7 @@ From SnorkelAI Andrew Ng
 ![[Pasted image 20240205172048.png]]![[Pasted image 20240208123653.png]]
 ![[Pasted image 20240210020210.png]]
 From: https://news.ycombinator.com/item?id=33831759 
+
+![[Pasted image 20240211134130.png]]
+From: https://www.youtube.com/watch?v=6lVBp2XjWsg
+

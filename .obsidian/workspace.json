@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -188,8 +188,9 @@
   },
   "active": "0bea645ceb7b0fcf",
   "lastOpenFiles": [
-    "Entropy.md",
+    "_attachments/Pasted image 20240211134130.png",
     "~ Vocabulary.md",
+    "Entropy.md",
     "Cross Entropy.md",
     "KL Divergence.md",
     "~ Useful Pictures.md",
@@ -223,7 +224,6 @@
     "Articles/Understanding Large Language Models (Apr 2023) {Sebstian Raschka, UW-Madison}.md",
     "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
     "Untitled 2.md",
-    "Untitled 1.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
