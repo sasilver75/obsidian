@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8753ffe468c76253",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Token.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Proximal Policy Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Proximal Policy Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "Proximal Policy Optimization.md"
               }
             }
           }
@@ -186,9 +200,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bea645ceb7b0fcf",
+  "active": "29cb1ff967909914",
   "lastOpenFiles": [
     "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240212191902.png",
+    "Token.md",
+    "_attachments/Pasted image 20240212191235.png",
+    "~ Recommendations.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240211134130.png",
     "~ Vocabulary.md",
@@ -196,7 +214,6 @@
     "Cross Entropy.md",
     "KL Divergence.md",
     "_attachments/Pasted image 20240210020210.png",
-    "~ Recommendations.md",
     "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
     "_attachments/Pasted image 20240209225741.png",
     "_attachments/Pasted image 20240209225304.png",
@@ -206,8 +223,6 @@
     "Articles/Policy Gradients - The Foundation of RLHF (Oct 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240209223538.png",
     "_attachments/Pasted image 20240209223441.png",
-    "_attachments/Pasted image 20240209222129.png",
-    "_attachments/Pasted image 20240209222010.png",
     "Policy Learning.md",
     "Policy Gradient.md",
     "Policy Gradient Algorithm.md",
@@ -222,8 +237,6 @@
     "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
     "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
     "Articles/Understanding Large Language Models (Apr 2023) {Sebstian Raschka, UW-Madison}.md",
-    "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
-    "Untitled 2.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
