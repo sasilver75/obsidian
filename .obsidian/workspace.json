@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -188,12 +188,13 @@
   },
   "active": "0bea645ceb7b0fcf",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
+    "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240211134130.png",
     "~ Vocabulary.md",
     "Entropy.md",
     "Cross Entropy.md",
     "KL Divergence.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240210020210.png",
     "~ Recommendations.md",
     "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
@@ -207,7 +208,6 @@
     "_attachments/Pasted image 20240209223441.png",
     "_attachments/Pasted image 20240209222129.png",
     "_attachments/Pasted image 20240209222010.png",
-    "_attachments/Pasted image 20240209221924.png",
     "Policy Learning.md",
     "Policy Gradient.md",
     "Policy Gradient Algorithm.md",
