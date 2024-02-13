@@ -78,7 +78,7 @@
 - [[Semi-Supervised Learning]]
 - [[Weak Supervision]]
 - [[Embedding]]
-- [[Tokens]]
+- [[Token]]
 - [[Numericalization]]
 - [[Pre-training]]
 - [[Batch]]
