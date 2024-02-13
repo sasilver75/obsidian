@@ -24,6 +24,10 @@ Youtube Chanenls
 	- StatQuest with Josh Starmer
 	- Steve Brunton
 	- Stanford Online
+	- 3Blue1Brown
+		- Intuitive explanations and animations
+	- RitvikMath
+		- Great explanations of fundamental concepts in probability and math
 - Engineering
 	- System Design Fight Club
 	- System Design Interview
