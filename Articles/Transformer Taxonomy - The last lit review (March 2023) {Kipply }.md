@@ -110,7 +110,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 176B params, 70 layers, 14336 embedding dimension, 112 heads
 - The ==current largest open-source model== (as of this article, Jan 2023).
 - Trained on a Hugging Face corpus called [[ROOTS]], which is 498 Hugging Face datasets
-- Trained for 366B tokens, positional encodings done with [[ALiBi]]. 
+- Trained for 366B tokens, positional encodings done with [[Attention with Linear Biases]]. 
 - 250k vocab size BPE tokenizer, to help accommodate for multilingual data.
 ### Galactica (Nov 2022, [[Meta AI Research]])
 120B parameters
@@ -179,8 +179,8 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - [[Byte-Pair Encoding]]s are the default for most language models, and were used by the original GPT paper, GPT-3, and presumably GPT-3.5.
 - Note: An obvious reason to *not* use plain BPE (and instead use SentencePiece_ is if your distribution *doesn't contain* space-separated words (eg AlphaCode, GLM (chinese), PaLM (multilingual))
 	- In other words, ==if your distribution of text isn't always cleanly space-separated (code, non-english characters), use SentencePiece instead of BPE.==
-### [[ALiBi]]
-- [[ALiBi|Attention with Linear Biases]] is a ==long-context positional embedding scheme to support extrapolation to longer lengths==, by biasing (linearly) the Query and Key scores according to their distance.
+### [[Attention with Linear Biases]]
+- [[Attention with Linear Biases|Attention with Linear Biases]] is a ==long-context positional embedding scheme to support extrapolation to longer lengths==, by biasing (linearly) the Query and Key scores according to their distance.
 
 -------
 # (3/5) Post-Pre-Training Techniques

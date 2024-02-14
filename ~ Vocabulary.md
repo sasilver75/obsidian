@@ -48,6 +48,7 @@
 - [[Foundation Model]]
 - [[Multimodal]]
 - [[VLM]]
+- [[Temperature]]
 - [[Machine Learning]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]

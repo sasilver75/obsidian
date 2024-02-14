@@ -45,7 +45,6 @@ Youtube Chanenls
 Podcasts
 - General Technology
 	- The Future of Everything
-	- Anatomy of Next
 	- Voices from DARPA
 	- Anatomy of Next
 	- The Asianometry Podcast
