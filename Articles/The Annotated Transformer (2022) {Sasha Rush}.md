@@ -6,7 +6,7 @@ Link: https://nlp.seas.harvard.edu/annotated-transformer/
 
 
 ## Background
-- [[Self-Attention]] is an attention mechanism that relates different positions of a sequence to eachother, in order to compute an enhanced representation of the sequence.
+- [[Self Attention]] is an attention mechanism that relates different positions of a sequence to eachother, in order to compute an enhanced representation of the sequence.
 	- It's been used for a variety of tasks, like reading comprehension, abstractive summarization, textual entailment, and learning task-independent sentence representation.
 - To the best of the author's knowledges, the Transfer is the first transduction model relying entirely on self-attention to compute representations of its input and output (rather than using RNNs or Convolutions).
 
