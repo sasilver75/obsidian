@@ -21,90 +21,25 @@
             }
           },
           {
+            "id": "3291e12a7b4e95dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self Attention.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a6b4654d06b7cfad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e768607514ac349",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Recommendations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84cb533e052e5863",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attention with Linear Biases.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8753ffe468c76253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Token.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6871cd0c06e3371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cross Entropy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7412400cd0d42464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KL Divergence.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29cb1ff967909914",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proximal Policy Optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -240,28 +175,31 @@
   },
   "active": "0bea645ceb7b0fcf",
   "lastOpenFiles": [
+    "Self Attention.md",
+    "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
+    "_attachments/Pasted image 20240213173526.png",
+    "_attachments/Pasted image 20240213173121.png",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240213172137.png",
+    "_attachments/Pasted image 20240213171748.png",
+    "LlLaMA 2.md",
+    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
+    "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "~ Recommendations.md",
+    "Attention with Linear Biases.md",
+    "Token.md",
+    "Cross Entropy.md",
+    "KL Divergence.md",
+    "Proximal Policy Optimization.md",
     "_attachments/Pasted image 20240213165542.png",
     "Articles/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
     "_attachments/Pasted image 20240213165328.png",
     "_attachments/Pasted image 20240213165251.png",
     "_attachments/Pasted image 20240213165241.png",
-    "~ Vocabulary.md",
-    "Proximal Policy Optimization.md",
-    "~ Recommendations.md",
     "_attachments/Pasted image 20240213135859.png",
     "_attachments/Pasted image 20240213133024.png",
-    "_attachments/Pasted image 20240213132935.png",
-    "_attachments/Pasted image 20240213132521.png",
-    "Attention with Linear Biases.md",
-    "_attachments/Pasted image 20240213131727.png",
-    "_attachments/Pasted image 20240213131443.png",
-    "_attachments/Pasted image 20240213131319.png",
-    "Token.md",
     "~ Useful Pictures.md",
     "Entropy.md",
-    "Cross Entropy.md",
-    "KL Divergence.md",
     "Articles/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
     "Articles/Policy Gradients - The Foundation of RLHF (Oct 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Policy Learning.md",
@@ -273,9 +211,6 @@
     "Deep Q-Learning.md",
     "Distillation.md",
     "Articles/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "MassiveText.md",
-    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
