@@ -5,7 +5,7 @@
 [[Parallel Attention]]
 [[Paged Attention]]
 [[Flash Attention]]
-[[ALiBi|Attention with Linear Biases]] (ALiBi)
+[[Attention with Linear Biases|Attention with Linear Biases]] (ALiBi)
 [[Sliding Window Attention]]
 [[Group Query Attention]]
 [[Paged Attention]]
