@@ -89,9 +89,11 @@ What is [[Grouped Query Attention|GQA]]?
 - A typical multi-headed self-attention mechanism has N total query, key, and value heads. Creating N self-attention heads in total.
 	- In GQA, we divide these N total heads into *groups*, where key and value heads are shared within each group; see above.
 	- ==This is an interpolation between vanilla multi-headed self-attention and [[Multi-Query Attention]].==
+	- It's found to improve inference speed comparably to multi-query attention, while maintaining the performance of vanilla multi-headed attention.
 
-
-
+- LLaMA2 is really good
+	- Compared to popular open-source models (MPT, FAlcon, LLaMA), LLaMA2 performs quite well -- ==it set a new SoTA among open-source LLMs on all tasks considered.==
+		- It was vaguely criticized 
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "file": "Multi-Query Attention.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,9 +84,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "04f6799ca0f84367",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +162,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +178,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,9 +199,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -214,10 +218,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c455f9650db74459",
+  "active": "04f6799ca0f84367",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
     "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "~ Vocabulary.md",
+    "Multi-Query Attention.md",
     "Grouped Query Attention.md",
     "GQA.md",
     "Group Query Attention.md",
@@ -251,7 +256,6 @@
     "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
     "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Attention with Linear Biases.md",
-    "Token.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
