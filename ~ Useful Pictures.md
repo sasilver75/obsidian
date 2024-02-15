@@ -57,3 +57,10 @@ From: https://news.ycombinator.com/item?id=33831759
 ![[Pasted image 20240211134130.png]]
 From: https://www.youtube.com/watch?v=6lVBp2XjWsg
 
+![[Pasted image 20240214111538.png]]
+
+![[Pasted image 20240214123110.png]]
+Re: Length bias in LLM-as a judge in AlpacaEval (Feb 14, 23)
+
+![[Pasted image 20240214124305.png]]
+From Latent Space Paper Club chat (LeveragingLarge Language Models for NLG Evaluation: A Survey) "I don't know how they got to that number, it's just what they provided to me."

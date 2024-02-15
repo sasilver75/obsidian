@@ -40,6 +40,7 @@
 
 # Machine Learning
 - [[Self-Supervised Learning]]
+- [[Alignment]]
 - [[KL Divergence]]
 - [[Entropy]]
 - [[Cross Entropy]]
@@ -139,7 +140,6 @@
 - [[Speculative Sampling]]
 - [[Dropout]]**
 - [[Label Smoothing]]
-- [[Direct Policy Optimization]]
 - [[Sampled Softmax]]
 - [[Positive Pair]]
 - [[Negative Pair]]
@@ -170,6 +170,7 @@
 - [[Weight Decay]]
 - [[Early Stopping]]
 - [[Learning Rate]]
+- [[Grouped Query Attention]]
 
 
 # Natural Language Processing Concepts
@@ -207,6 +208,7 @@
 
 # Models
 - [[LeNet]]
+- [[Falcon]]
 - [[AlexNet]]
 - [[CLIP]] 
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
@@ -255,6 +257,7 @@
 - [[AlphaCode]]
 - [[MPT]]
 - [[OLMo]]
+- [[Zephyr]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
@@ -268,7 +271,7 @@
 -  [[Eleuther LM Evaluation Harness]]
 
 
-# Benchmarks
+# Benchmarks, Evaluations
 - [[GAIA]]: A benchmark for General AI Assistants
 - [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
 - [[HumanEval]]
@@ -279,6 +282,8 @@
 - [[HELM]]
 - [[GLUE]]
 - [[MNLI]]
+- [[AlpacaEval]]
+- [[MT Bench]]
 
 
 # Datasets
@@ -300,6 +305,7 @@
 - [[RedPajama]]
 - [[Project Gutenberg]]
 - [[MassiveText]]
+- [[UltraFeedback]]
 
 # Entities
 - [[Cohere]]
@@ -323,6 +329,8 @@
 - [[Model Evaluation and Threat Research]] (METR)
 - [[Machine Intelligence Research Institute]] (MIRI)
 - [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)
+- [[MosaicML]]
+- [[DataBricks]]
 
 
 # People

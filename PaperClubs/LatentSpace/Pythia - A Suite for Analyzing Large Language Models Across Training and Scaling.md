@@ -1,5 +1,6 @@
 LInk: https://arxiv.org/abs/2304.01373
 Published: April 2023
+Covered: Late Jan 2024
 
 Authors: [Stella Biderman](https://arxiv.org/search/cs?searchtype=author&query=Biderman,+S), [Hailey Schoelkopf](https://arxiv.org/search/cs?searchtype=author&query=Schoelkopf,+H), [Quentin Anthony](https://arxiv.org/search/cs?searchtype=author&query=Anthony,+Q), [Herbie Bradley](https://arxiv.org/search/cs?searchtype=author&query=Bradley,+H), [Kyle O'Brien](https://arxiv.org/search/cs?searchtype=author&query=O%27Brien,+K), [Eric Hallahan](https://arxiv.org/search/cs?searchtype=author&query=Hallahan,+E), [Mohammad Aflah Khan](https://arxiv.org/search/cs?searchtype=author&query=Khan,+M+A), [Shivanshu Purohit](https://arxiv.org/search/cs?searchtype=author&query=Purohit,+S), [USVSN Sai Prashanth](https://arxiv.org/search/cs?searchtype=author&query=Prashanth,+U+S), [Edward Raff](https://arxiv.org/search/cs?searchtype=author&query=Raff,+E), [Aviya Skowron](https://arxiv.org/search/cs?searchtype=author&query=Skowron,+A), [Lintang Sutawika](https://arxiv.org/search/cs?searchtype=author&query=Sutawika,+L), [Oskar van der Wal](https://arxiv.org/search/cs?searchtype=author&query=van+der+Wal,+O)
 
