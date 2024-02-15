@@ -6,7 +6,7 @@ Link: https://cameronrwolfe.substack.com/p/policy-gradients-the-foundation-of
 ![[Pasted image 20240209171224.png]]
 Although it's useful for a variety of applications, [[Reinforcement Learning]] is a key component of the alignment process for LLMs due to its use in [[Reinforcement Learning from Human Feedback|RLHF]] -- but RL is less widely understood within the LLM AI community -- many practitioners are more familiar with supervised learning techniques, which creates a bias against using reinforcement learning despite its massive utility.
 
-We'll be talking here about [[Proximal Policy Optimization]], or [[PPO]], which is heavily used in RLHF.
+We'll be talking here about [[Proximal Policy Optimization]], or [[Proximal Policy Optimization|PPO]], which is heavily used in RLHF.
 
 ![[Pasted image 20240209171505.png]]
 (Oct 2023 picture; Now, it probably contains DPO in the policy optimization side?)
@@ -15,7 +15,7 @@ There are two types of model-free RL algorithms: [[Q-Learning]]]] and Policy Opt
 
 Let's now overview policy optimization and [[Policy Gradient]]s, two ideas heavily utilized by modern RL algorithms.
 
-Notably, we'll look at [[PPO]], the most commonly-used RL algorithm for fine-tuning LLMs (until late 2023).
+Notably, we'll look at [[Proximal Policy Optimization|PPO]], the most commonly-used RL algorithm for fine-tuning LLMs (until late 2023).
 
 ## Reinforcement Learning Basics
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "file": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,8 +139,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -162,6 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+              }
             }
           }
         ]
@@ -218,12 +220,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04f6799ca0f84367",
+  "active": "e66b6d0f7bbeb3dc",
   "lastOpenFiles": [
-    "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "~ Vocabulary.md",
+    "Articles/Policy Gradients - The Foundation of RLHF (Oct 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Multi-Query Attention.md",
     "Grouped Query Attention.md",
+    "PPO.md",
+    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240214182227.png",
+    "_attachments/Pasted image 20240214180312.png",
+    "_attachments/Pasted image 20240214175911.png",
+    "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240214175519.png",
+    "MosaicML.md",
+    "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
+    "~ Vocabulary.md",
     "GQA.md",
     "Group Query Attention.md",
     "Attention.md",
@@ -231,17 +242,11 @@
     "_attachments/Pasted image 20240214163554.png",
     "_attachments/Pasted image 20240214163413.png",
     "_attachments/Pasted image 20240214162827.png",
-    "MosaicML.md",
-    "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
     "_attachments/Pasted image 20240214161459.png",
     "_attachments/Pasted image 20240214153829.png",
-    "_attachments/Pasted image 20240214153453.png",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "LayerNorm.md",
     "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
-    "_attachments/Pasted image 20240214152136.png",
-    "_attachments/Pasted image 20240214150409.png",
-    "_attachments/Pasted image 20240214145930.png",
     "Articles/Do we need RL for RLHF? (Dec 2023) {Nathan Lambert, Interconnect Newsletter}.md",
     "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
     "Direct Policy Optimization.md",
@@ -253,9 +258,6 @@
     "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
     "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
     "LlLaMA 2.md",
-    "Articles/Stuff we figured out about AI in 2023 (Dec 2023) {Simon Willison}.md",
-    "Articles/The History of Open-Source LLMs - Early Days (Part One) (July 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Attention with Linear Biases.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
