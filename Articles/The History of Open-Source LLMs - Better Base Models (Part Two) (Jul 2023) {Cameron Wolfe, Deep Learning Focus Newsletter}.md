@@ -92,10 +92,49 @@ What is [[Grouped Query Attention|GQA]]?
 	- It's found to improve inference speed comparably to multi-query attention, while maintaining the performance of vanilla multi-headed attention.
 
 - LLaMA2 is really good
-	- Compared to popular open-source models (MPT, FAlcon, LLaMA), LLaMA2 performs quite well -- ==it set a new SoTA among open-source LLMs on all tasks considered.==
-		- It was vaguely criticized 
+	- Compared to popular open-source models (MPT, Falcon, LLaMA), LLaMA2 performs quite well -- ==it set a new SoTA among open-source LLMs on all tasks considered.==
+		- It was vaguely criticized for not being good at coding
+- While LLaMa 1 was not commercially licensed, ==LLaMA 2 has a commercially-permissible license!== (But it's NOT an Apache 2.0 license and has a few caveats)
 
 
+
+# Trends in Open Source LLMS
+What led the current generation of open-source LLMs to perform so well?
+
+#### Better Data = Better Performance
+- ==The key difference between recent LLMs and those that came before is the dataset used for pre-training (Size and Quality/Composition)==
+	- Models like OPT and BLOOM used 180B and 341B token models (respectively), compared with:
+		- LLaMA: 1.4T Tokes
+		- MPT: 1T Tokens
+		- Falcon: 1-1.5T Tokens
+		- LLaMA-2: 2T Tokens
+	- This seems to just be scaling laws in action, and another example of the "Bitter lesson" ;) 
+- Current open source LLMs increase the amount of data used for pre-training by an order of magnitude!
+- Size isn't everything, though:
+	- In addition to increasing the amount of data, recent models also pay close attention to thecomposition and quality of data.
+		- For example, the proportion of code is increased within the datasets used for training MPT, allowing the resulting models to perform much better on coding-based tasks.
+		- Additionally, Falcon-40B proposes an entirely-new pipeline for constructing high-quality corpora of text from the web, and LLaMA-2 claims to use an updated data pipeline and mix for pre-training. 
+
+#### Optimizing for Faster Inference
+- Making the decision between using an open or closed-source LLM,, practitioners consider more than just performance!
+- On the other hand, a major consideration when building applications with open source LLMs is the cost of deploying the model and running inference.
+	- ==Models like MPT-30B are specifically sized so that it can be hosted on a single GPU!==
+![[Pasted image 20240214175519.png]]
+Modified Architectures
+- current open source LLMs adopt a variety of architectural tricks (shown above) to ==speed up the inference process==:
+	1. Low Precision [[Layer Normalization|LayerNorm]]
+	2. [[Flash Attention]]
+	3. [[Multi-Query Attention]]
+	4. Parallel Transformer
+	5. [[Grouped Query Attention]]
+- Additionally, several other architecture modifications (eg) [[Rotary Positional Embedding|RoPE]], [[ALiBi]], [[SwiGLU]] activations, and more, are adopted to improve performance.
+- Current open-source LLMs apply simple modifications to the [[Decoder-Only Architecture]] to improve performance and inference speed..
+
+# Final Thoughts
+- Within this overview, we have studied the evolution of open-source LLMs from initial, lower-quality models (BLOOM, OPT) to the more recent, powerful base models (LLaMA and MPT).
+	- New models primarily focused on:
+		- Curating larger, higher-quality datasets for pretraining.
+		- Small architectural innovations to improve efficiency in training and inference.
 
 
 
