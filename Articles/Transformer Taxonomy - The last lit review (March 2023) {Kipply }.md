@@ -165,7 +165,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - [[SoLU]] (softmax) introduced in an anthropic paper and is simply `x*softmax(x)`, and ==is used to improve the interpretability of models==.
 - [[SwiGLU]] is the most sophisticated of these, and is a [[Noam Shazeer]] solo paper. Builds upon [[Gated Linear Unit]] (GLU), which was meant to be ==more stable than ReLU==, and does the "swish" operation before the GLU. It ==softens out the ReLU and allows some values to be under zero==.
 	- Is quoted in the paper as coming through "==divine benevolence=="
-### [[LayerNorm]] Alternatives: [[DeepNorm]], [[RMSNorm]]
+### [[Layer Normalization|LayerNorm]] Alternatives: [[DeepNorm]], [[RMSNorm]]
 - LLMs norm twice per block (once for attention, and once to feed-forward), which does some normalization functions to imrpve training.
 - DeepNorm and RMSNorm are alternatives.
 - RMSNorm is simply the square root of the mean of teh values

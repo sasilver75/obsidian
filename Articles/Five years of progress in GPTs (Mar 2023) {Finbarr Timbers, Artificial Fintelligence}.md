@@ -32,7 +32,7 @@ There's a ton of prior work before large GPTs (n-gram model, [[Bidirectional Enc
 - This is where language models started to get big; the first time that OpenAI trained a model with >1B parameters.
 - Authors trained ==a *range/family* of models== here, rather than a single model
 - Architecture
-	- They used [[Layer Normalization]] on the inputs and add an additional [[LayerNorm]] to the output of the final self-attention block.
+	- They used [[Layer Normalization]] on the inputs and add an additional [[Layer Normalization|LayerNorm]] to the output of the final self-attention block.
 	- Weights are scaled by layer, by 1/sqrt(n)
 	- Vocabulary of ~50k (up from ~40k)
 	- Context of 1024 (up from 512)
@@ -93,7 +93,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 ## [[Gopher]] (December 2021)
 - Gopher was an LLM trained by [[DeepMind]]. Interestingly, the lead author joined OpenAI shortly after it was published, along with a few of the coauthors.
 - The architecture was the same as GPT-3, except:
-	- Used [[RMSNorm]] (instead of [[LayerNorm]])
+	- Used [[RMSNorm]] (instead of [[Layer Normalization|LayerNorm]])
 	- Used relative positional encoding scheme from [[Transformer-XL]] (from Google)
 	- Use [[SentencePiece]] instead of [[BPE]]; using this seems to be an Alphabet-specific thing.
 - From a computational perspective (how they trained it):
