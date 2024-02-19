@@ -64,3 +64,4 @@ Re: Length bias in LLM-as a judge in AlpacaEval (Feb 14, 23)
 
 ![[Pasted image 20240214124305.png]]
 From Latent Space Paper Club chat (LeveragingLarge Language Models for NLG Evaluation: A Survey) "I don't know how they got to that number, it's just what they provided to me."
+![[Pasted image 20240218172236.png]]
