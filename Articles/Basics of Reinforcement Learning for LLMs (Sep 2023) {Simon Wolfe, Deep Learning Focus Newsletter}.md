@@ -197,7 +197,7 @@ Why do we need the target network?
 	- A (predicted) Q value for the current state-action pair and the (target) Q value of the best state-action pair for the next state.
 - In DQL, we similarly have to generate each of those two Q values.
 
-This idea of using a separate network to produce a training target for another neural network (referred to as [[Knowledge Distillation]]) is heavily used in deep learning.
+This idea of using a separate network to produce a training target for another neural network (referred to as [[Distillation|Knowledge Distillation]]) is heavily used in deep learning.
 
 Practical applications:
 - DQL is a deep RL framework that's been used for several interesting practical applications; early on, it was for playing Atari breakout by [[DeepMind]].

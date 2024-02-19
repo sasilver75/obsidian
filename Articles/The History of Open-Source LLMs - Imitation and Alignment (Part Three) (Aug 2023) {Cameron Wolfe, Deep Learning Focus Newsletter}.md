@@ -35,10 +35,15 @@ SFT
 - Trains the ==LLM directly on feedback from human annotations -- humans identify outputs that they like, and the LLM learns how to produce more outputs like this.==
 - First, we obtain a set of prompts and generate several different outputs for the LLM for each prompt. We use a *group* of human annotators to score/rank these responses, based on their perceived quality. These scores can then be used to train a *==reward model==* (i.e. ==just a fine-tuned version of our LLM with an added regression head==) to predict the score of a response.
 - Then, RLHF fine-tunes the model to maximize this score by using a reinforcement learning algorithm called PPO.
-- ==Typically, the highest-performing LLMs are aligned by performing both SFT and RLHF in that order.==
-
+- ==Typically, the highest-performing LLMs are aligned by performing *both* SFT and RLHF in that order.==
 
 # Imitation Learning
+![[Pasted image 20240217004715.png]]
+- With the release of [[LLaMA]], the open source research community finally had access to powerful base LLMs that could be fine-tuned and aligned for a variety of applications!
+	- One of the most common directions of research during this time was *==imitation learning==*, which fine-tunes an LLM over outputs from another, more powerful LLM. Such an approach is inspired by the idea of [[Distillation|Knowledge Distillation]]
+		- Note on Distillation: It's where we use a (large) fully-trained NN as a training signal for another (smaller) NN. Many different types of knowledge distillation exist, but the idea behind them remains the same -- if we train a NN on both t he normal training data *and* the output of the larger, more powerful NN, we will typically arrive at a better result than training a NN over the data alone. We *distill* some of the information from the larger network into the smaller "student" network.
+
+
 
 
 
