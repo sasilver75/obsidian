@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -222,6 +222,8 @@
   },
   "active": "e66b6d0f7bbeb3dc",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240218172236.png",
+    "~ Vocabulary.md",
     "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
     "Knowledge Distillation.md",
@@ -237,7 +239,6 @@
     "_attachments/Pasted image 20240214175519.png",
     "MosaicML.md",
     "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
-    "~ Vocabulary.md",
     "GQA.md",
     "Group Query Attention.md",
     "Attention.md",
@@ -257,7 +258,6 @@
     "~ Recommendations.md",
     "~ Useful Pictures.md",
     "PaperClubs/LatentSpace/Leveraging Large Language Models for NLG Evaluation - A Survey.md",
-    "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
