@@ -40,6 +40,7 @@
 
 # Machine Learning
 - [[Self-Supervised Learning]]
+- [[Self-Instruct]]
 - [[Alignment]]
 - [[KL Divergence]]
 - [[Entropy]]
@@ -259,6 +260,9 @@
 - [[MPT]]
 - [[OLMo]]
 - [[Zephyr]]
+- [[Orca]]
+- [[Orca 2]]
+- [[LIMA]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
