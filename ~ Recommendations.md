@@ -40,7 +40,14 @@ Youtube Chanenls
 - Grab-Bag
 	- Kirsten Dirksen
 	- Rational Animations
-	- 
+
+Newsletters
+- Cameron Wolfe's Deep (Learning) Focus
+- Nate Lambert's Interconnects
+- Jack Clark's ImportAI
+- Sebastian Raschka's Ahead of AI
+- The Gradient
+- Dylan Patel's SemiAnalysis
 
 Podcasts
 - General Technology

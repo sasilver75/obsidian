@@ -4,93 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "26518a784bf1b02d",
+        "id": "5c3bb9e1e8fd95da",
         "type": "tabs",
         "children": [
           {
-            "id": "e66b6d0f7bbeb3dc",
+            "id": "049cbbbe65e4f147",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Orca.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "c455f9650db74459",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-Query Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "031e8efdc832efe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grouped Query Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "323048c0dca64980",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MosaicML.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b495d9ef4ace2a9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d5d510e1e348835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04f6799ca0f84367",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -143,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -160,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Orca.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Orca.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Orca.md"
               }
             }
           }
@@ -220,44 +146,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e66b6d0f7bbeb3dc",
+  "active": "0c7dc73e0b308c7b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240218172236.png",
+    "Orca.md",
+    "LIMA.md",
+    "Superficial Alignment Hypothesis.md",
+    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240219174419.png",
+    "_attachments/Pasted image 20240219173136.png",
+    "_attachments/Pasted image 20240219171530.png",
+    "Untitled 3.md",
+    "_attachments/Pasted image 20240219160003.png",
+    "_attachments/Pasted image 20240219155832.png",
+    "_attachments/Pasted image 20240219155502.png",
     "~ Vocabulary.md",
+    "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
+    "MosaicML.md",
+    "Grouped Query Attention.md",
+    "Multi-Query Attention.md",
     "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240219153753.png",
+    "_attachments/Pasted image 20240219153325.png",
+    "~ Recommendations.md",
+    "_attachments/Pasted image 20240219144752.png",
+    "_attachments/Pasted image 20240219143719.png",
+    "~ Useful Pictures.md",
     "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
     "Knowledge Distillation.md",
-    "_attachments/Pasted image 20240217004715.png",
     "Articles/Policy Gradients - The Foundation of RLHF (Oct 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Multi-Query Attention.md",
-    "Grouped Query Attention.md",
     "PPO.md",
-    "_attachments/Pasted image 20240214182227.png",
-    "_attachments/Pasted image 20240214180312.png",
-    "_attachments/Pasted image 20240214175911.png",
     "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "_attachments/Pasted image 20240214175519.png",
-    "MosaicML.md",
-    "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
     "GQA.md",
     "Group Query Attention.md",
     "Attention.md",
-    "_attachments/Pasted image 20240214165238.png",
-    "_attachments/Pasted image 20240214163554.png",
-    "_attachments/Pasted image 20240214163413.png",
-    "_attachments/Pasted image 20240214162827.png",
-    "_attachments/Pasted image 20240214161459.png",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "LayerNorm.md",
     "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
     "Articles/Do we need RL for RLHF? (Dec 2023) {Nathan Lambert, Interconnect Newsletter}.md",
     "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
-    "Direct Policy Optimization.md",
-    "Articles/Software 2.0 (2017) {Karpathy}.md",
-    "Self Attention.md",
-    "~ Recommendations.md",
-    "~ Useful Pictures.md",
-    "PaperClubs/LatentSpace/Leveraging Large Language Models for NLG Evaluation - A Survey.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
