@@ -59,7 +59,36 @@ The impact of data size on model performance was investigated in [[Chinchilla]],
 	- Large 5T token corpus, but ==only a small portion of the data (600B) was made available to the public.==
 - [[RedPajama]]
 	- An initiative led by [[TogetherAI]] to produce a leading open-source LLM and release it to the public with a more permissive license.
-	- As a first step, the authors recreated the pretraining dataset for LLaMA resulting in the RedPajama
+	- As a first step, the authors recreated the pretraining dataset for LLaMA resulting in the RedPajama v1 and v2 datsets
+	- Similar to Dolma in nature, but RedPajama has a more limited scope; ==the creators of RedPajama are trying to reproduce LLaMA, whereas Dolma attempts ot provide a transparent resource that empowers others to study all notable aspects of LLM pretraining==, and pulls from a variety of additional sources (eg scientific papers, code, conversational forums, more).
+
+
+# Creating the Dolma Corpus
+- ==The process of constructing a pretraining dataset for an LLM consists of three primary components:==
+	1. ==Acquisition==: obtaining content from a variety of sources
+	2. ==Cleanup==: Using heuristics and model-based techniques to filter the data
+	3. ==Mixing==: Deduplication and up/down-sampling of data sources
+
+![[Pasted image 20240220233435.png]]
+Above: Some of the data cleaning pipelines applied to various types of data in the Dolma corpus.
+
+To process data for pretraining, we rely on ==four primary transformations of our data==:
+1. ==Langauge filtering==
+2. ==Quality filtering==
+3. ==Content filtering==
+4. ==Deduplication==
+
+------
+#### Aside: What is fastText?
+- ==fastText== is a free and open-source library that can be used to learn text representations and train lightweight text classifiers.
+- fastText classifiers have simple architectures that take an average of word representations in a sentence, and then pass the result to a linear classifier. They perform well -- similar to deep-learning based classifiers, but are cheaper. They can be improved my moving to an n-gram representation of our data, rather than the default unigram word representations.
+- fastText is used in the cleaning pipelines in Dolma, and in other large-scale data processing applications.
+
+Note: The ==CCNet== data pipeline is a popular reference architecture for creating high-quality, deduplicated, and monolingual text datasets from web data. It uses a fastText classifier for language identification.
+
+-------
+
+
 
 
 
