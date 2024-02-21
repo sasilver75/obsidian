@@ -1,0 +1,1 @@
+Trained using the [[RefinedWeb]] corpus

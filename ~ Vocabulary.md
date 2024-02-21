@@ -39,6 +39,7 @@
 
 
 # Machine Learning
+- [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
 - [[Self-Instruct]]
 - [[Alignment]]
@@ -313,9 +314,12 @@
 - [[Project Gutenberg]]
 - [[MassiveText]]
 - [[UltraFeedback]]
+- [[Dolma]]
+- [[RefinedWeb]]]
 
 # Entities
 - [[Cohere]]
+- [[TogetherAI]]
 - [[OpenAI]]
 - [[Anthropic]]
 - [[Google Brain]]

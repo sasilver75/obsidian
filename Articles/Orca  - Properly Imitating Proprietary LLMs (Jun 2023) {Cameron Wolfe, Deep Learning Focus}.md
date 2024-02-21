@@ -142,6 +142,19 @@ Progressive Learning
 	- ==Orca's performance still falls below that of ChatGPT in certain cases, but generally Orca performs similarly to ChatGPT across reasoning benchmarks. Across nearly all topics on the AGIEval and BigBench-Hard datasets, Orca comes near or exceeds the performance of ChatGPT!==
 
 
+# Closing Remarks
+- Research on open-source LLMs ins evolving -- it seems from week to week whether proprietary models are losing their moat or not. Every once and a while we remember the [[Bitter Lesson]].
+
+Learning from step-by-step instructions
+- Prior work on imitation models relied on "shallow" simple prompt-response pairs for training. ==We see here that instead augmenting this shallow data with detailed explanation traces allows the resulting model to learn better, from a much more rich source of information.==
+
+Loss of imitation data
+- One of the main problems with prior imitation models is that they only performed well on tasks that were similar to data seen in their fine-tuning datasets -- as a result, we needed larger imitation datasets with more coverage.
+- Enriching our data slightly helped, but given this particular limitation, we clearly need larger imitation datasets with more coverage.
+
+Remaining Work
+- Orca's performance still falls short of the bets proprietary LLMs.
+
 
 
 
