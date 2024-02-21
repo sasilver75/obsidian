@@ -8,12 +8,64 @@
         "type": "tabs",
         "children": [
           {
-            "id": "049cbbbe65e4f147",
+            "id": "e6bd50cb8da659c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Orca.md",
+                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d09dab6d3f85860d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45af8c1487bb83f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62d1dddaba8913bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63daf5e273f46c72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +102,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -70,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Orca.md",
+                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Orca.md",
+                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Orca.md"
+                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md"
               }
             }
           }
@@ -146,44 +199,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c7dc73e0b308c7b",
+  "active": "e6bd50cb8da659c2",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240220142636.png",
+    "_attachments/Pasted image 20240220142619.png",
+    "_attachments/Pasted image 20240220142217.png",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240220132410.png",
+    "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
+    "_attachments/Pasted image 20240220033315.png",
+    "_attachments/Pasted image 20240220032829.png",
+    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240220031039.png",
+    "_attachments/Pasted image 20240220031018.png",
+    "Self-Instruct.md",
+    "_attachments/Pasted image 20240220000124.png",
+    "Proximal Policy Optimization.md",
+    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Orca.md",
+    "Prompting.md",
+    "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
+    "_attachments/Pasted image 20240219211001.png",
+    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "LIMA.md",
     "Superficial Alignment Hypothesis.md",
-    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240219174419.png",
-    "_attachments/Pasted image 20240219173136.png",
-    "_attachments/Pasted image 20240219171530.png",
     "Untitled 3.md",
-    "_attachments/Pasted image 20240219160003.png",
-    "_attachments/Pasted image 20240219155832.png",
-    "_attachments/Pasted image 20240219155502.png",
-    "~ Vocabulary.md",
     "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
     "MosaicML.md",
     "Grouped Query Attention.md",
     "Multi-Query Attention.md",
-    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "_attachments/Pasted image 20240219153753.png",
-    "_attachments/Pasted image 20240219153325.png",
     "~ Recommendations.md",
-    "_attachments/Pasted image 20240219144752.png",
-    "_attachments/Pasted image 20240219143719.png",
-    "~ Useful Pictures.md",
     "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
     "Knowledge Distillation.md",
     "Articles/Policy Gradients - The Foundation of RLHF (Oct 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "PPO.md",
     "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "GQA.md",
-    "Group Query Attention.md",
-    "Attention.md",
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "LayerNorm.md",
-    "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
-    "Articles/Do we need RL for RLHF? (Dec 2023) {Nathan Lambert, Interconnect Newsletter}.md",
-    "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",

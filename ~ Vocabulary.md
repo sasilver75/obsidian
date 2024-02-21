@@ -139,7 +139,7 @@
 - [[knowledge-base/VLM]] 
 - [[Speculative Decoding]]
 - [[Speculative Sampling]]
-- [[Dropout]]**
+- [[Dropout]]
 - [[Label Smoothing]]
 - [[Sampled Softmax]]
 - [[Positive Pair]]
@@ -173,6 +173,8 @@
 - [[Learning Rate]]
 - [[Grouped Query Attention]]
 - [[RingAttention]]
+- [[Evol-Instruct]]
+- [[Imitation Learning]]
 
 
 # Natural Language Processing Concepts

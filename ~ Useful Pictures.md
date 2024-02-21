@@ -67,3 +67,6 @@ From Latent Space Paper Club chat (LeveragingLarge Language Models for NLG Evalu
 ![[Pasted image 20240218172236.png]]
 ![[Pasted image 20240219131023.png]]
 
+![[Pasted image 20240220132410.png]]
+As an example of how easy it is to get around guardrails
+
