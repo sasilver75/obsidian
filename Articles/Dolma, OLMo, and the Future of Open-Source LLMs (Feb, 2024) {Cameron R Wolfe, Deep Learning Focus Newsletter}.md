@@ -88,7 +88,24 @@ Note: The ==CCNet== data pipeline is a popular reference architecture for creati
 
 -------
 
-
+1. ==Language Filtering==
+	- The Dolma dataset is ==*English-only!*==
+	- To accomplish this, we need to make a classifier tool for filtering out non-English content. We use a lightweight classifier -- we use the ==CCNet pipeline with a fastText language identification model== to predict the primary language of each document -- and then only keep the documents with scores above a certain threshold.
+	- It's true that a certain amount of non-English data will always be present -- these classifiers aren't perfect.
+	- ![[Pasted image 20240221140546.png]]
+2. ==Quality Filtering==
+	- Refers to the process of ==removing "low quality" text from a pretraining corpus==.
+	- What's the definition of "low quality" text? Researchers quibble about it, and how to filter it out. Should we use solely heuristics (e.g. Gopher, Falcon), or should we use machine learning models should be used for quality filtering (eg LLaMA)?
+	- ==In Dolma, the authors avoid model-based filtering techniques and rely solely upon heuristic filtering methods.==
+	- The authors ==use different heuristics for different data sources== -- for example, filtering conversations based on length, community votes, and flags from moderators, in the context of conversational data.
+3. ==Content Filtering==
+	- Refers to ==removing harmful text -- primarily toxic content and personally identifiable information==.
+	- Again, ==to identify toxic content==, we train a pair of fastText classifiers, which are then used to tag (and remove) spans of toxic text, to classify hateful and NSFW content based on the Jigsaw Toxic Comments dataset.
+	- The authors adopted a conservative threshold for removing toxic text -- a text span must be clasified as toxic with a relatively high probability for it to be removed... in an effort to avoid removing *too much* data from the corpus.
+	- ==To detect PII==, a series of regular exprsesoins are adopted to find spans of text corresponding to email addresses, IP addresses, and phone number. These bits of text are either masked, or the entire document is removed from the corpus (if more than )
+	- ![[Pasted image 20240221140930.png]]
+1. ==Deduplication==
+	- 
 
 
 
