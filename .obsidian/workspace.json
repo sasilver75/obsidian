@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6bd50cb8da659c2",
+            "id": "d59cb03c9143c0e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
+                "file": "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "d09dab6d3f85860d",
+            "id": "9954421c6fef2586",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,38 +34,12 @@
             }
           },
           {
-            "id": "45af8c1487bb83f3",
+            "id": "e34c3fd61dcfd9a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Instruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62d1dddaba8913bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63daf5e273f46c72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "file": "ROOTS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
+                "file": "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
+                "file": "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md"
+                "file": "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -199,44 +173,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6bd50cb8da659c2",
+  "active": "d59cb03c9143c0e2",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
+    "Falcon.md",
+    "ROOTS.md",
+    "Untitled 4.md",
+    "C4.md",
+    "Dolma.md",
+    "Self-Instruct.md",
+    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "MPT.md",
+    "T5.md",
+    "_attachments/Pasted image 20240220211043.png",
+    "_attachments/Pasted image 20240220210052.png",
+    "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
     "_attachments/Pasted image 20240220142636.png",
     "_attachments/Pasted image 20240220142619.png",
     "_attachments/Pasted image 20240220142217.png",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240220132410.png",
-    "Articles/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
     "_attachments/Pasted image 20240220033315.png",
     "_attachments/Pasted image 20240220032829.png",
-    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240220031039.png",
     "_attachments/Pasted image 20240220031018.png",
-    "Self-Instruct.md",
-    "_attachments/Pasted image 20240220000124.png",
     "Proximal Policy Optimization.md",
     "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Orca.md",
     "Prompting.md",
     "Articles/Chinchilla's Wild Implications (Jul 2022) {LessWrong}.md",
-    "_attachments/Pasted image 20240219211001.png",
     "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "LIMA.md",
     "Superficial Alignment Hypothesis.md",
-    "_attachments/Pasted image 20240219174419.png",
     "Untitled 3.md",
     "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
     "MosaicML.md",
     "Grouped Query Attention.md",
     "Multi-Query Attention.md",
-    "~ Recommendations.md",
-    "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
-    "Knowledge Distillation.md",
-    "Articles/Policy Gradients - The Foundation of RLHF (Oct 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "PPO.md",
-    "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "GQA.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
