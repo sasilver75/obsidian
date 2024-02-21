@@ -2,5 +2,6 @@
 - (01/24/2024): The original transformer paper introduced an Encoder-and-Decoder architecture. Later, BERT did the Encoder-Only and GPT did the Decoder-Only. These are respectively good (I think) for representation learning/predictive modeling and text generation. Why didn't they both just use the combined encoder-decoder, like the later BART paper did? What do you gain by just using one of them?
 - (1/24/2024):  How does "Curriculum learning" differ from "Active learning" and "Student-teacher" learning (This last one is one that I have in a concept in my head, but it might go by a different name.
 - (1/31/2024): When would someone use Rotary Positional Embeddings ([[Rotary Positional Embedding|RoPE]]) vs [[Attention with Linear Biases]]?
+- (02/21/2024): Difference between Bi-Encoders vs Cross-Encoders? 
 
 
