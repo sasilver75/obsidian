@@ -73,4 +73,8 @@ As an example of how easy it is to get around guardrails (usecase: copywrite)
 ![[Pasted image 20240221205508.png]]
 From XKCD; Re: evaluation of language model next-token-prediction
 
+![[Pasted image 20240222114053.png]]
+Above: The "pro-diversity" guardrails seemed to work for the {Profession} case, but not for the {Profession1 and Profession2} case. This is from DALLE-3, but the same thing was observed in Gemeni in Feb 2024, when there was a hullabaloo about Gemeni creating black Nazi soldiers, etc.
 
+![[Pasted image 20240222121537.png]]
+Yud on Safety, Feb 22, after the Google Gemeni kerfuffle with the black Nazis, etc.
