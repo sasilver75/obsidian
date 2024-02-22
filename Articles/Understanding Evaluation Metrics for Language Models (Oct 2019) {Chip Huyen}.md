@@ -15,3 +15,5 @@ Counterintuitively, having *more metrics* makes it *more difficult* to compare l
 
 ==One of Chip's favorite interview questions is to explain [[Perplexity]] or the difference between [[Cross Entropy]] and [[Bits Per Character]]==
 
+
+# This is boring for me right now, but continue later!
