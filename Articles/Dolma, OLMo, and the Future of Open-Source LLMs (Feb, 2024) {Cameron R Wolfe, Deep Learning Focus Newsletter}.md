@@ -101,18 +101,164 @@ Note: The ==CCNet== data pipeline is a popular reference architecture for creati
 3. ==Content Filtering==
 	- Refers to ==removing harmful text -- primarily toxic content and personally identifiable information==.
 	- Again, ==to identify toxic content==, we train a pair of fastText classifiers, which are then used to tag (and remove) spans of toxic text, to classify hateful and NSFW content based on the Jigsaw Toxic Comments dataset.
-	- The authors adopted a conservative threshold for removing toxic text -- a text span must be clasified as toxic with a relatively high probability for it to be removed... in an effort to avoid removing *too much* data from the corpus.
-	- ==To detect PII==, a series of regular exprsesoins are adopted to find spans of text corresponding to email addresses, IP addresses, and phone number. These bits of text are either masked, or the entire document is removed from the corpus (if more than )
+	- The authors adopted a conservative threshold for removing toxic text -- a text span must be classified as toxic with a relatively high probability for it to be removed... in an effort to avoid removing *too much* data from the corpus.
+	- ==To detect PII==, a series of regular expressions are adopted to find spans of text corresponding to email addresses, IP addresses, and phone number. ==These bits of text are either masked, or the entire document is removed from the corpus (if more than 5 pieces of PII are detected).==
 	- ![[Pasted image 20240221140930.png]]
-1. ==Deduplication==
-	- 
+4. ==Deduplication==
+	- Recent research has shown that deduplicating an LLM's pretraining dataset makes the model's training more data-efficient.
+	- Crafting a robust (and efficient) deduplication pipeline is an incredibly important aspect of building pretraining corpora for LLMs.
+	- Authors perform three stages of deduplication for web text:
+		1. ==URL-based==: Eliminates web pages scraped multiple times
+		2. ==Document-based==: Eliminates pages that contain exactly the same text
+		3. ==Paragraph-based==: Eliminates individual paragraphs with the same text.
+	- All stages above are implemented efficiently by using a ==Bloom Filter==.
+	- For other sources of data beyond web data, a similar strategy is used for deduplication, though paragraph-level deduplication may be unnecessary for sources with shorter documents.
+
+### Putting it all together
+- When constructing Dolma, authors perform preprocessing steps in a *specific order* to ensure efficiency!
+	- Namely, ==URL and document-level deduplication are performed first, followed by quality and content filtering, while paragraph-level deduplication is performed last==.
 
 
+# OLMo: Accelerating the Science of Language Models 📈
+- [[OLMo]] is a set of truly open LLMs that are trained on [[Dolma]].
+- OLMo models match the performance of SoTA open LLMs, and can be used to more-deeply study hte science of language modeling.
+- The OLMo suite of models are completely open, and come with a variety of artifacts:
+	- Model weights
+	- Training code
+	- Evaluation code
+	- Adaptation code
+	- Training logs
+- ==OLMO is comprised of five models in total: *four 7B models and a 1B model*==
+- Prior "open" LLMs aren't often truly open, since they don't release their data (+ dataset construction process), training/evaluation code, model weights, inference code, and more... And they don't even always have a highly-permissive license.
+	- [[Mistral]] provides model weights and a brief report
+	- [[LLaMA 2]] provides detailed alignment instructions, but *minimal information about the pretraining dataset.*
+	- [[MPT]] provides detailed instructions about constructing the model's pretraining dataset, but *doesn't actually release that data*.
+		- ((I think there was some kerfuffle about this -- [[Jonathan Frankle]] talked on a podcast about not wanting to release the dataset after some backlash, because the dataset contained likely copywritten material from authors, and he wasn't sure that he wanted to promote that))
+	- [[Falcon]] releases a *partial subset* of the model's pretraining data, along with a report on the model and data.
+	- Both [[Pythia]] and [[BLOOM]] release training code, model checkpoints, and training data, but their *license is restrictive*.
 
 
+# The Evaluation Process
+- OLMo models are evaluated using two different techniques: *==perplexity== and ==downstream task evaluation==*
+
+### What is Perplexity?
+- Prior to understanding the perplexity evaluation, we should probably understand the concept of perplexity in general... Put simply, perplexity is a metric that can be used to evaluate a language model by measuring how well it predicts known samples of text.
+![[Pasted image 20240221142658.png]]
+- When autoregressively generating output via next-token-prediction, the LLM predicts a probability distribution over potential next tokens. From these token-level probabilities, we can easily compute the probability for a sentence generated by the LLM via the product rule of probabilities:
+![[Pasted image 20240221142846.png]]
+Above: ((It's just, for each token, multiplying the built-up probability by the probability of generating the next token, given the previous tokens. Sort of like flipping two heads being .5 * .5, except we use conditional probabilities, since the probability of a given token is conditioned on the previously generated tokens))
+
+The metric above can give us a good idea of how well a language model "fits" the data.
+- The model should assign high probabilities to valid, high-quality sequences of text.
+- The ==problem with this probability is that it's highly sensitive to the length of the sentence== -- long sequences will multiply more sub-1 probabilities, making a smaller number!
+	- To solve this, we take a geometric mean to normalize the probability computed above by the length of the sentence:
+![[Pasted image 20240221143129.png]]
+- Above: We normalize the textual sequence probability using a *geometric mean*.
+	- ((Unlike the arithmetic mean (which you calculate by adding up all the numbers and dividing by the count of the numbers), the geometric mean is calculated by multiplying all the numbers together and then taking the �nth root of the product (where �n is the number of numbers in the set).))
+	- ((Both are measures of central tendencies, but arithmetic mean should be used when the numbers being averaged have vaguely uniform in size, whereas geometric means are better when the numbers follow somewhat of an exponential distribution. In our case with perplexity, we're multiplying a bunch of sub-1 probabilities together... so the product of these tends to decrease exponentially with the addition of more terms. Using an arithmetic mean here wouldn't make sense because it can't accurately represent these central tendency of these probabilities.))
+
+*How does this relate to perplexity?*
+- ==[[Perplexity]] is the reciprocal of the geometric mean of this sequence probability!==
+	- ==Low perplexity== values indicate that a language model assigns *high* probability to textual sequences used for evaluation, and therefore fits the evaluation data *well*.
+	- ==High perplexity== values indicate that a language model assigns *low* probability to textual sequences used for evaluation, and therefore fits the evaluation set *poorly*.
+
+#### Perplexity Evaluation
+- ==To perform perplexity-based evaluation, authors construct an evaluation dataset called Perplexity Analysis for Language Model Assessment ([[Paloma]]) by aggregating textual sequences from a diverse set of 585 domains collected across 18 different sources of textual data==, and evaluate the LLM by measuring perplexity on textual sequences from this dataset.
+- Compared to prior work, Paloma significantly improves the diversity of perplexity-based evaluation benchmarks, allowing us to determine whether an LLM can accurately model text across a wide variety of domains.
+	- Paloma significantly improves the *diversity* of perplexity-based evaluation benchmarks, allowing us to determine whether an LLM can accurately model text across a variety of domains.
+
+#### Downstream task evaluation
+- While perplexity-based evaluations are useful for understanding whether an LLM understands a doamin of text well (eg measuring perplexity over a corpus of scientific publications to determine if the LLM captures this data), but ==perplexity-based evaluations fail to directly measure how well an LLM performs on downstream tasks!==
+- For this, authors evaluate the model using the [[Catwalk]] framework, which provides a standardized abstraction for evaluating various LLMs across a wide variety of tasks and datasets. ==Models are solely evaluated using a zero-shot prompting strategy!==
+- ![[Pasted image 20240221151710.png]]
+- For OLMo, they selected nine reasoning tasks that were similar to the task set used to evaluate LLaMA and LLaMA 2.
+
+> "We perform downstream evaluations to make decisions around model architecture, initialization, optimizers, learning rate schedule, and data mixtures. We call this our *==online evaluation==*, as it runs in-loop every 1,000 training steps, and provides an early and continuous signal on the quality of the model being trained."
+
+- In-loop evaluations:
+	- Beyond the offline evaluation of OLMo described above, we see that OLMo undergoes similar evaluations in an online fashion... Namely, researchers test a variety of different model hyperparameters and rely upon online evaluations performed every 1,000 training steps to evaluate these choices. These evaluations include both the perplexity and downstream task metrics described above.
 
 
+## Model Architecture
+- The OLMo LLM is based on the [[Decoder-Only Architecture]] of Transformers. 
+	- Put simply, the standard [[Transformer]] has two components: an *encoder* and a *decoder*. The decoder-only architecture only uses the decoder component of the transformer. 
 
+The OLMo suite:
+- Three model sizes of OLMo are included in the release
+	- The 1B and 7B parameter models are released along with the writeup, but at the time of writing, the 65B model is still training and will be released in the near future.
+- The architecture choices are quite simple to other peer LLMs -- OLMo shares the same hidden dimension, number of heads/layers, and MLP ratio as LLaMA 2... but OLMo does have a slightly shorter context window -- only 2K tokens -- compared to LLaMA 2.
+
+![[Pasted image 20240221152256.png]]
+
+SwiGLU Activations
+- Each transformer block passes intermediate activation values (ie the output of feed-forward and attention layers) through an activation function.
+- The [[Rectified Linear Unit|ReLU]] activation function is standard in most deep NN architectures -- LLMs tend to adopt a different suite of (more complex) activation functions -- OLMo adopts the [[SwiGLU]] activation function, which was used in recent LLMs like [[PaLM]] and [[LLaMA 2]].
+
+![[Pasted image 20240221152437.png]]
+
+The Swish activation function is a smoother function compared to ReLU and has been shown to achieve better performance in several applications.
+- SwiGLU is a combination of this Swish activation with a GLU activation.
+- SwiGLU requires *three* matrix multiplications, which makes it more compute-intensive compared to activation functions like ReLU -- but it improves LLM performance to use SwiGLU, it seems.
+
+Non-parametric [[Layer Normalization]]
+- Each block of the transformer architecture contains intermediate layer normalization operations, as formulated in the figure below.
+- ![[Pasted image 20240221152658.png]]
+- We normalize a value using the mean and variance of all values in each input sequence. A small additive constant is included in the denominator alongside the variance to avoid issues with taking a square root of zero, or dividing by zero.
+- After layernorm is applied, we typically have two learnable parameters that apply an element-wise affine transformation to the module's output.
+
+Better positional embeddings
+- Instead of using absolute positional embeddings as used by the original transformer architecture, more modern LLMs (including OLMo) choose to adopt a [[Rotary Positional Embedding]] (RoPE) strategy.
+	- [[Rotary Positional Embedding|RoPE]] ==combines the benefits of absolute and relative positional embeddings by==:
+		1. Encoding the absolute position of each token with a rotation matrix
+		2. Directly injecting relative position information into the self-attention operation
+	- Using this approach, both the absolute and relative position of each token can be captured, letting the LLM generalize to longer input sequence lengths.
+
+The Tokenizer
+- The creators of OLMo use the GPT-NeoX tokenizer, which is found to be well-suited to Dolma due to the fact that it was trained over a corpus of web data (C4 dataset), and has a permissive license -- which isn't true of all tokenizers! For example, using LLaMA 2's tokenizer would cause the license from LLaMA-2 to apply to OLMo! 😱
+
+Other design choices
+- All bias terms are excluded from the OLMo architecture, which is shown to improve training stability
+- Authors adopt sequential (as opposed to parallel) transformer block formulation.
+- No weight tying is used by OLMo.
+- The model uses a vanilla (full) variant of [[Multi-Head Attention]] (self) -- in contrast, several recent models have adopted [[Grouped Query Attention]] and [[Multi-Query Attention]] , which are variants that improve the inference/decoding efficiency of attention, perhaps at the cost of reduced performance, by sharing key and value vectors across attention heads. The OLMo authors forego these due to their impact on performance.
+![[Pasted image 20240221154903.png]]
+
+
+## The Training Process
+- Trained over 2T token subset of Dolma, but the model may be trained for more than one epoch over this data.
+	- For example, OLMo-1B is trained on 2T tokens (one epoch) while OLMo-7B is trained over ~2.5T tokens (~1.25 epochs).
+		- The authors claim that repeating data during training doesn't negatively impact model performance.
+- All models are trained using the ZeRO optimizer strategy and PyTorch's FSDP framework.
+- All OLMo models are trained using the [[AdamW]] optimizer.
+- Training is replicated on clusters of both NVIDIA and AMD GPUs to ensure portability of OLMo (resulting models on each cluster perform nearly identically, but required slight changes in hyperparameters).
+
+# Empirical Analysis of Dolma and OLMo
+- We can study questions as:
+	- Does decontamination of pretraining data impact model performance?
+	- Does learning from code make LLMs better reasoners?
+	- How does pretraining data mixture impact the LLM's knowledge base?
+
+#### The Impact of Pretraining Data on Performance
+- Authors trained several OLMo-1B models -- these models are used to compare strategies for data decontamination and mixing in particular, and evaluated using the benchmarks discussed previously (perplexity via Paloma, Catwalk for downstream tasks).
+
+Decontamination
+- The probability of testing and evaluation data being "leaked" within any given model's large pretraining datasets is quite high -- ==large-scale language corpora often contain copies of benchmarks used for evaluating LLMs! So one might argue that the impressive performance of LLMs on downstream tasks could be attributed to test set leakage== -- maybe our models just memorized the answers to these tasks during pretraining!
+- The impact of data contamination is a hotly debated topic.
+- To evaluate the impact of data contamination, we train OLMo-1B over subsets of RedPajama, and test how it performs on contaminated and decontaminated versions of dataset. The decontamination approach is shown to not have a clear negative (or positive) impact on model's performance.
+
+Data Mixology
+- After pretraining data is curated across several sources, we need to decide ==how to actually "mix" the data, and how to upsample or downsample each source of data to create the final dataset.==
+- The mixing strategy is an important hyperparameter that has a massive impact on the LLM's performance, but data mixology for LLMs is largely a black box due to a lack of rigorous analysis in AI literature.
+- The authors of OLMo try several different mixing strategies, and ==the high-level takeaway is the simple fact that the chosen data mixture has a noticeable impact on the model's ability to capture certain subdomains.==
+	- As such, one should avoid domain mismatches between the pretraining dataset and inference-time incoming data of LLMs ((this seems intuitive, but is nice to know.))
+
+Evaluating the OLMo suite
+![[Pasted image 20240221160758.png]]
+Above: See that OLMo is about as good as MPT, LLaMA, Falcon, LLaMA2, etc. It's importantly markedly better than Pythia, which is sort of "replaces" as a truly "open" model.
+
+# Conclusion
+- Dolma and OLMo take a massive step towards improving LLM pretraining!
+- Complete openness of each will help researchers, and associated tools (training/eval cocde, data toolkit) allow researchers to test new ideas and variations of the approach used.
 
 
 
