@@ -68,5 +68,9 @@ From Latent Space Paper Club chat (LeveragingLarge Language Models for NLG Evalu
 ![[Pasted image 20240219131023.png]]
 
 ![[Pasted image 20240220132410.png]]
-As an example of how easy it is to get around guardrails
+As an example of how easy it is to get around guardrails (usecase: copywrite)
+
+![[Pasted image 20240221205508.png]]
+From XKCD; Re: evaluation of language model next-token-prediction
+
 
