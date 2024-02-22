@@ -3,5 +3,7 @@
 - (1/24/2024):  How does "Curriculum learning" differ from "Active learning" and "Student-teacher" learning (This last one is one that I have in a concept in my head, but it might go by a different name.
 - (1/31/2024): When would someone use Rotary Positional Embeddings ([[Rotary Positional Embedding|RoPE]]) vs [[Attention with Linear Biases]]?
 - (02/21/2024): Difference between Bi-Encoders vs Cross-Encoders? 
+- (02/21/2024): What is "weight tying" as described [here](https://cameronrwolfe.substack.com/p/dolma-olmo-and-the-future-of-open?utm_source=post-email-title&publication_id=1092659&post_id=141461162&utm_campaign=email-post-title&isFreemail=true&r=764e6&utm_medium=email)
+- 
 
 

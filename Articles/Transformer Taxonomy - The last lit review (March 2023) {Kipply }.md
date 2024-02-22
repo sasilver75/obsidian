@@ -169,7 +169,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - LLMs norm twice per block (once for attention, and once to feed-forward), which does some normalization functions to imrpve training.
 - DeepNorm and RMSNorm are alternatives.
 - RMSNorm is simply the square root of the mean of teh values
-### [[RoPE]]: Rotary Position Embedding
+### [[Rotary Positional Embedding|RoPE]]: Rotary Position Embedding
 - A way of finding a ==positional encoding function== for transformer architectures.
 - It ==improves performance in NLP tasks by more effectively leveraging positional information in sequences==. Combines the strengths of both absolute and relative positional embeddings.
 	- Good at handling sequences of different lengths

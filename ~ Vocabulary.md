@@ -292,6 +292,7 @@
 - [[MNLI]]
 - [[AlpacaEval]]
 - [[MT Bench]]
+- [[Paloma]]
 
 
 # Datasets
