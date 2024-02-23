@@ -11,6 +11,10 @@
 - [[Hierarchical Navigable Small Worlds]]
 - [[Locality Sensitive Hashing]]
 - [[Reranking]]
+- [[Inverted Index]]
+- [[Sparse Retrieval]]
+- [[TF-IDF]]
+- [[Cosine Similarity]]
 
 # Analytics
 - [[Type One Error]]
@@ -39,6 +43,8 @@
 
 
 # Machine Learning
+- [[Bi-Encoder]]
+- [[Cross-Encoder]]
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
 - [[Self-Instruct]]
