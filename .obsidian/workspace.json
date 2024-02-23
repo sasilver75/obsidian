@@ -4,11 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "e2210aac5d9e608d",
+        "id": "eabb9f289ea7013b",
         "type": "tabs",
         "children": [
           {
-            "id": "4e304b1471ef3eea",
+            "id": "81f26ac64ce38178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d365800f1324a32d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e315690b4ed2433f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +47,12 @@
             }
           },
           {
-            "id": "98006c442f987822",
+            "id": "3514e2b9f776db9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LoRAX.md",
+                "file": "Cross-Encoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,20 +60,45 @@
             }
           },
           {
-            "id": "5fa78727df034029",
+            "id": "053c7319e5e37e1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bits Per Character.md",
+                "file": "Bi-Encoder.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a3f6c20be6a49e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TF-IDF.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccf67fb6e80459bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sparse Retrieval.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LoRAX.md",
+                "file": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LoRAX.md",
+                "file": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LoRAX.md"
+                "file": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md"
               }
             }
           }
@@ -174,21 +225,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98006c442f987822",
+  "active": "81f26ac64ce38178",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240222221313.png",
+    "Hierarchical Navigable Small Worlds.md",
+    "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
+    "Hierarchical Navigable Small World.md",
+    "_attachments/Pasted image 20240222221043.png",
+    "_attachments/Pasted image 20240222221029.png",
+    "~ Vocabulary.md",
+    "Cross-Encoder.md",
+    "Bi-Encoder.md",
+    "TF-IDF.md",
+    "_attachments/Pasted image 20240222215130.png",
+    "_attachments/Pasted image 20240222214844.png",
+    "Sparse Retrieval.md",
+    "_attachments/Pasted image 20240222212839.png",
+    "_attachments/Pasted image 20240222212412.png",
+    "_attachments/Pasted image 20240222211606.png",
+    "Bits Per Character.md",
+    "LoRAX.md",
     "_attachments/Pasted image 20240222183907.png",
     "_attachments/Pasted image 20240222183906.png",
     "_attachments/Pasted image 20240222183904.png",
-    "~ Vocabulary.md",
-    "LoRAX.md",
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240222155809.png",
-    "_attachments/Pasted image 20240222155744.png",
-    "_attachments/Pasted image 20240222152053.png",
-    "_attachments/Pasted image 20240222145858.png",
-    "_attachments/Pasted image 20240222134504.png",
-    "_attachments/Pasted image 20240222121537.png",
-    "_attachments/Pasted image 20240222114053.png",
     "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
     "OLMo.md",
     "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
@@ -196,8 +256,6 @@
     "SWAG.md",
     "HellaSWAG.md",
     "SuperGLUE.md",
-    "_attachments/Pasted image 20240221205802.png",
-    "Bits Per Character.md",
     "ROOTS.md",
     "Perplexity.md",
     "Paloma.md",
@@ -205,13 +263,6 @@
     "~ Questions.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "RoPE.md",
-    "GLU.md",
-    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "LLaMA-2.md",
-    "Falcon.md",
-    "Untitled 4.md",
-    "C4.md",
-    "Dolma.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
