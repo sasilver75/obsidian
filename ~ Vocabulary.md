@@ -277,6 +277,7 @@
 - [[GGUF]] File Format
 - [[Ludwig]]
 -  [[Eleuther LM Evaluation Harness]]
+- [[LoRAX]]
 
 
 # Benchmarks, Evaluations
