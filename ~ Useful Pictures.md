@@ -78,3 +78,17 @@ Above: The "pro-diversity" guardrails seemed to work for the {Profession} case, 
 
 ![[Pasted image 20240222121537.png]]
 Yud on Safety, Feb 22, after the Google Gemeni kerfuffle with the black Nazis, etc.
+
+![[Pasted image 20240222134504.png]]
+From Emmett Shear on Twitter
+
+![[Pasted image 20240222145858.png]]
+Torment Nexus meme
+
+![[Pasted image 20240222152053.png]]
+
+![[Pasted image 20240222155809.png]]
+The Chinese Room Experiment
+
+
+

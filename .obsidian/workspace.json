@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98006c442f987822",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LoRAX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "LoRAX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "LoRAX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "LoRAX.md"
               }
             }
           }
@@ -160,13 +174,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e304b1471ef3eea",
+  "active": "98006c442f987822",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240222183907.png",
+    "_attachments/Pasted image 20240222183906.png",
+    "_attachments/Pasted image 20240222183904.png",
+    "~ Vocabulary.md",
+    "LoRAX.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240222155809.png",
+    "_attachments/Pasted image 20240222155744.png",
+    "_attachments/Pasted image 20240222152053.png",
+    "_attachments/Pasted image 20240222145858.png",
+    "_attachments/Pasted image 20240222134504.png",
     "_attachments/Pasted image 20240222121537.png",
     "_attachments/Pasted image 20240222114053.png",
     "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
     "OLMo.md",
-    "~ Vocabulary.md",
     "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
     "GLUE.md",
     "SWAG.md",
@@ -175,29 +199,19 @@
     "_attachments/Pasted image 20240221205802.png",
     "Bits Per Character.md",
     "ROOTS.md",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240221205508.png",
     "Perplexity.md",
     "Paloma.md",
     "SwiGLU.md",
     "~ Questions.md",
-    "_attachments/Pasted image 20240221160758.png",
-    "_attachments/Pasted image 20240221154903.png",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "RoPE.md",
-    "_attachments/Pasted image 20240221152658.png",
     "GLU.md",
-    "_attachments/Pasted image 20240221152437.png",
-    "_attachments/Pasted image 20240221152256.png",
-    "_attachments/Pasted image 20240221151710.png",
-    "_attachments/Pasted image 20240221143129.png",
     "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "LLaMA-2.md",
     "Falcon.md",
     "Untitled 4.md",
     "C4.md",
     "Dolma.md",
-    "Self-Instruct.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
