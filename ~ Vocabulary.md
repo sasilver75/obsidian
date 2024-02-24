@@ -13,8 +13,11 @@
 - [[Reranking]]
 - [[Inverted Index]]
 - [[Sparse Retrieval]]
+- [[Dense Retrieval]]
+- [[Hybrid Search]]
 - [[TF-IDF]]
 - [[Cosine Similarity]]
+- [[ColBERT]]
 
 # Analytics
 - [[Type One Error]]
@@ -223,6 +226,7 @@
 - [[AlexNet]]
 - [[CLIP]] 
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
+- [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[GPT]]
 - [[Megatron]]
 - [[Word2Vec]]
@@ -303,6 +307,7 @@
 - [[AlpacaEval]]
 - [[MT Bench]]
 - [[Paloma]]
+- [[BEIR]]
 
 
 # Datasets
