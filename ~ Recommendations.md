@@ -49,6 +49,7 @@ Newsletters
 - The Gradient
 - Dylan Patel's SemiAnalysis
 - Sairam Sundaresan's Gradient Ascent
+- Ben Thompson's Stratechery 
 
 Podcasts
 - General Technology
@@ -58,6 +59,8 @@ Podcasts
 	- The Asianometry Podcast
 	- Future of Life Podcast
 	- Hard Fork
+	- Sharp Tech with Ben Thompson
+	- BG2 Pod
 - Investing, Thinkers
 	- Invest Like the Best with Patrick O'Shaughnessy
 	- Dwarkesh Podcsat
@@ -97,6 +100,7 @@ Podcasts
 	- MLOps.community
 	- Vanishing Gradients
 	- Machine Learning Street Talk
+	- TalkRL
 - Software Engineering
 	- Oxide and Friends
 	- Data Engineering Podcast
