@@ -8,7 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72623cb8cd32531e",
+            "id": "d365800f1324a32d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b72ce1429249661f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +34,12 @@
             }
           },
           {
-            "id": "d365800f1324a32d",
+            "id": "fc342ec074cc9e38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
+                "file": "Discounted Cumulative Gain.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -148,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -165,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -225,29 +237,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72623cb8cd32531e",
+  "active": "d365800f1324a32d",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240225163331.png",
+    "~ Vocabulary.md",
+    "Discounted Cumulative Gain.md",
+    "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240225154758.png",
+    "_attachments/Pasted image 20240225121747.png",
+    "_attachments/Pasted image 20240225121734.png",
+    "_attachments/Pasted image 20240225120454.png",
+    "_attachments/Pasted image 20240225120223.png",
+    "Sparse Retrieval.md",
+    "_attachments/Pasted image 20240224164158.png",
+    "_attachments/Pasted image 20240224162555.png",
+    "_attachments/Pasted image 20240224155528.png",
+    "_attachments/Pasted image 20240224154712.png",
+    "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
+    "_attachments/Pasted image 20240224154101.png",
+    "~ Recommendations.md",
     "~ Useful Pictures.md",
     "Sentence-BERT.md",
-    "~ Vocabulary.md",
     "BEIR.md",
-    "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
-    "_attachments/Pasted image 20240223151543.png",
-    "_attachments/Pasted image 20240223145524.png",
-    "_attachments/Pasted image 20240223145510.png",
-    "_attachments/Pasted image 20240223145451.png",
-    "_attachments/Pasted image 20240223144149.png",
-    "_attachments/Pasted image 20240223141314.png",
-    "_attachments/Pasted image 20240223132538.png",
-    "_attachments/Pasted image 20240223125758.png",
-    "_attachments/Pasted image 20240223124629.png",
-    "_attachments/Pasted image 20240223124443.png",
     "Hierarchical Navigable Small Worlds.md",
     "Hierarchical Navigable Small World.md",
     "Cross-Encoder.md",
     "Bi-Encoder.md",
     "TF-IDF.md",
-    "Sparse Retrieval.md",
     "Bits Per Character.md",
     "LoRAX.md",
     "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
@@ -259,9 +275,6 @@
     "SuperGLUE.md",
     "ROOTS.md",
     "Perplexity.md",
-    "Paloma.md",
-    "SwiGLU.md",
-    "~ Questions.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",

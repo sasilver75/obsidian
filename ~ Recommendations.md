@@ -1,4 +1,4 @@
-
+****
 Youtube Chanenls
 - Machine Learning
 	- Edan Meyer
@@ -48,6 +48,7 @@ Newsletters
 - Sebastian Raschka's Ahead of AI
 - The Gradient
 - Dylan Patel's SemiAnalysis
+- Sairam Sundaresan's Gradient Ascent
 
 Podcasts
 - General Technology
