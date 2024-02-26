@@ -186,6 +186,8 @@
 - [[RingAttention]]
 - [[Evol-Instruct]]
 - [[Imitation Learning]]
+- [[Automatic Mixed-Precision Training]]
+- [[Quantization-Aware Training]]
 
 
 # Natural Language Processing Concepts
