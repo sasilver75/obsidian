@@ -18,6 +18,7 @@
 - [[TF-IDF]]
 - [[Cosine Similarity]]
 - [[ColBERT]]
+- [[Discounted Cumulative Gain]]
 
 # Analytics
 - [[Type One Error]]
