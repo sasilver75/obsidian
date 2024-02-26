@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "f01aefc88d393055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Recommendations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cdfacebced296854",
             "type": "leaf",
             "state": {
@@ -150,7 +163,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md"
+                "file": "~ Recommendations.md"
               }
             }
           }
@@ -277,15 +291,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d365800f1324a32d",
+  "active": "f01aefc88d393055",
   "lastOpenFiles": [
+    "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "_attachments/Pasted image 20240225225626.png",
     "_attachments/Pasted image 20240225221811.png",
     "_attachments/Pasted image 20240225221122.png",
     "_attachments/Pasted image 20240225220733.png",
     "_attachments/Pasted image 20240225220201.png",
     "Low-Rank Adaptation.md",
-    "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "_attachments/Pasted image 20240225214956.png",
     "_attachments/Pasted image 20240225211738.png",
     "_attachments/Pasted image 20240225211403.png",
@@ -294,7 +308,6 @@
     "Automatic Mixed-Precision Training.md",
     "~ Vocabulary.md",
     "Sparse Retrieval.md",
-    "_attachments/Pasted image 20240225195829.png",
     "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Untitled 6.md",
     "Untitled 5.md",
