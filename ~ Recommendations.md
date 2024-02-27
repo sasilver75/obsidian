@@ -61,6 +61,7 @@ Podcasts
 	- Hard Fork
 	- Sharp Tech with Ben Thompson
 	- BG2 Pod
+	- SVIC Podcast
 - Investing, Thinkers
 	- Invest Like the Best with Patrick O'Shaughnessy
 	- Dwarkesh Podcsat
@@ -125,6 +126,35 @@ Music
 - Tycho
 - Yvette Young
 - Boards of Canada
+
+Locations
+- Midwest
+	- Chicago, IL
+	-  Door County, WI
+	- Traverse City, MI
+	- Decorah, IA
+	- Okoboji, IA
+	- Galena, IL,
+	- Petoskey, MI
+	- Door County, WI
+- California
+	- Sea Ranch, Gualala, CA
+	- San Diego, CA
+	- San Luis Obispo, CA
+	- Mill Valley, CA
+- PNW
+	- 
+- Mountains
+	- Boulder, CO
+- East Coast
+	- Montpelier, VT
+	- Burlington, VT
+	- Savannah, GA
+- South
+	- 
+- Southwest
+	- Sedona/Flagstaff, AZ
+	- Tucson, AZ
 
 
 Articles
