@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -163,8 +163,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -291,9 +290,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f01aefc88d393055",
+  "active": "d365800f1324a32d",
   "lastOpenFiles": [
     "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
+    "~ Recommendations.md",
     "_attachments/Pasted image 20240225225626.png",
     "_attachments/Pasted image 20240225221811.png",
     "_attachments/Pasted image 20240225221122.png",
@@ -313,7 +313,6 @@
     "Untitled 5.md",
     "Discounted Cumulative Gain.md",
     "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
-    "~ Recommendations.md",
     "~ Useful Pictures.md",
     "Sentence-BERT.md",
     "BEIR.md",

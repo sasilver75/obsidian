@@ -35,8 +35,9 @@ Youtube Chanenls
 	- InfoQ
 - Science, Technology
 	- The Well
-- Geopolitics
+- Geopolitics, Geography, History
 	- Center for Strategic & International Studies
+	- Alex Rothman
 - Grab-Bag
 	- Kirsten Dirksen
 	- Rational Animations
