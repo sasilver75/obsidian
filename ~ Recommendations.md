@@ -130,7 +130,7 @@ Music
 Locations
 - Midwest
 	- Chicago, IL
-	-  Door County, WI
+	- Door County, WI
 	- Traverse City, MI
 	- Decorah, IA
 	- Okoboji, IA
@@ -138,20 +138,25 @@ Locations
 	- Petoskey, MI
 	- Door County, WI
 - California
-	- Sea Ranch, Gualala, CA
+	- Sea Ranch, CA
 	- San Diego, CA
 	- San Luis Obispo, CA
 	- Mill Valley, CA
+	- Los Angeles, CA
+	- Mendocino, CA
 - PNW
-	- 
+	- ...
 - Mountains
 	- Boulder, CO
+	- El Dorado, CO
 - East Coast
-	- Montpelier, VT
 	- Burlington, VT
 	- Savannah, GA
+	- Charleston, SC
+	- Chapel Hill, NC
+	- Greenville, SC
 - South
-	- 
+	- ...
 - Southwest
 	- Sedona/Flagstaff, AZ
 	- Tucson, AZ
