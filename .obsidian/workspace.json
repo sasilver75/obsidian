@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "575f1f4292831429",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning Rate.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f01aefc88d393055",
             "type": "leaf",
             "state": {
@@ -292,6 +305,9 @@
   },
   "active": "d365800f1324a32d",
   "lastOpenFiles": [
+    "Learning Rate.md",
+    "Learning Rate Schedule.md",
+    "~ Vocabulary.md",
     "~ Recommendations.md",
     "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "_attachments/Pasted image 20240225225626.png",
@@ -306,7 +322,6 @@
     "_attachments/Pasted image 20240225204040.png",
     "_attachments/Pasted image 20240225204039.png",
     "Automatic Mixed-Precision Training.md",
-    "~ Vocabulary.md",
     "Sparse Retrieval.md",
     "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Untitled 6.md",
@@ -326,7 +341,6 @@
     "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
     "OLMo.md",
     "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
-    "GLUE.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
