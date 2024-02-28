@@ -90,5 +90,8 @@ Torment Nexus meme
 ![[Pasted image 20240222155809.png]]
 The Chinese Room Experiment
 
+![[Pasted image 20240228101951.png]]
+Feb 2024 OpenAI protest
 
+![[Pasted image 20240228143011.png]]
 
