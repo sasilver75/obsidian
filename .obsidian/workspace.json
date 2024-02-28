@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -243,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -305,9 +305,11 @@
   },
   "active": "d365800f1324a32d",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240228143011.png",
+    "_attachments/Pasted image 20240228101951.png",
+    "~ Vocabulary.md",
     "Learning Rate.md",
     "Learning Rate Schedule.md",
-    "~ Vocabulary.md",
     "~ Recommendations.md",
     "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "_attachments/Pasted image 20240225225626.png",
@@ -320,7 +322,6 @@
     "_attachments/Pasted image 20240225211738.png",
     "_attachments/Pasted image 20240225211403.png",
     "_attachments/Pasted image 20240225204040.png",
-    "_attachments/Pasted image 20240225204039.png",
     "Automatic Mixed-Precision Training.md",
     "Sparse Retrieval.md",
     "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
@@ -340,7 +341,6 @@
     "LoRAX.md",
     "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
     "OLMo.md",
-    "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
