@@ -334,7 +334,7 @@
 - [[MassiveText]]
 - [[UltraFeedback]]
 - [[Dolma]]
-- [[RefinedWeb]]]
+- [[RefinedWeb]]
 
 # Entities
 - [[Cohere]]
