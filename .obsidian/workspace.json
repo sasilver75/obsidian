@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "The Stack.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74ae4b64fc658b03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -176,7 +189,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,8 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -243,7 +256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "~ Questions.md"
               }
             }
           }
@@ -303,15 +316,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d365800f1324a32d",
+  "active": "74ae4b64fc658b03",
   "lastOpenFiles": [
+    "The Stack v2.md",
+    "_attachments/Pasted image 20240229094543.png",
+    "The Stack.md",
+    "~ Quotes.md",
+    "Articles/ML/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
+    "Articles/Policy",
+    "~ Recommendations.md",
+    "Articles/ML",
+    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240228143011.png",
     "_attachments/Pasted image 20240228101951.png",
     "~ Vocabulary.md",
     "Learning Rate.md",
     "Learning Rate Schedule.md",
-    "~ Recommendations.md",
-    "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
+    "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "_attachments/Pasted image 20240225225626.png",
     "_attachments/Pasted image 20240225221811.png",
     "_attachments/Pasted image 20240225221122.png",
@@ -320,16 +341,13 @@
     "Low-Rank Adaptation.md",
     "_attachments/Pasted image 20240225214956.png",
     "_attachments/Pasted image 20240225211738.png",
-    "_attachments/Pasted image 20240225211403.png",
-    "_attachments/Pasted image 20240225204040.png",
     "Automatic Mixed-Precision Training.md",
     "Sparse Retrieval.md",
-    "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Untitled 6.md",
     "Untitled 5.md",
     "Discounted Cumulative Gain.md",
-    "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
-    "~ Useful Pictures.md",
+    "Articles/ML/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
     "Sentence-BERT.md",
     "BEIR.md",
     "Hierarchical Navigable Small Worlds.md",
@@ -337,10 +355,6 @@
     "Cross-Encoder.md",
     "Bi-Encoder.md",
     "TF-IDF.md",
-    "Bits Per Character.md",
-    "LoRAX.md",
-    "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
-    "OLMo.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
@@ -350,8 +364,6 @@
     "C++",
     "DeepLearning.ai",
     "FastAI/Part 2",
-    "Articles",
-    "Videos",
     "Untitled 1.canvas"
   ]
 }
