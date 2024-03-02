@@ -34,6 +34,32 @@
             }
           },
           {
+            "id": "b1450153854b8231",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffd1f3d9180749dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Recommendations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "575f1f4292831429",
             "type": "leaf",
             "state": {
@@ -190,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Questions.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +299,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Questions.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Questions.md"
+                "file": "~ Recommendations.md"
               }
             }
           }
@@ -316,8 +342,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74ae4b64fc658b03",
+  "active": "ffd1f3d9180749dd",
   "lastOpenFiles": [
+    "Mixup.md",
+    "~ Vocabulary.md",
+    "~ Questions.md",
     "The Stack v2.md",
     "_attachments/Pasted image 20240229094543.png",
     "The Stack.md",
@@ -329,7 +358,6 @@
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240228143011.png",
     "_attachments/Pasted image 20240228101951.png",
-    "~ Vocabulary.md",
     "Learning Rate.md",
     "Learning Rate Schedule.md",
     "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
@@ -354,7 +382,6 @@
     "Hierarchical Navigable Small World.md",
     "Cross-Encoder.md",
     "Bi-Encoder.md",
-    "TF-IDF.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
