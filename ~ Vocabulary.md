@@ -106,6 +106,8 @@
 - [[ULMFit]]
 - [[Gini Index]]
 - [[Test-Time Augmentation]]
+- [[Progressive Resizing]]
+- [[Mixup]]
 - [[Gradient Accumulation]]
 - [[Recurrent Neural Networks]]
 - [[Long Short Term Memory]]

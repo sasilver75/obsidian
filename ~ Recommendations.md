@@ -59,7 +59,6 @@ Podcasts
 	- Anatomy of Next
 	- The Asianometry Podcast
 	- Future of Life Podcast
-	- Hard Fork
 	- Sharp Tech with Ben Thompson
 	- BG2 Pod
 	- SVIC Podcast
@@ -175,5 +174,7 @@ Articles
 Anti-recommendations:
 - No Priors podcast
 - Super Data Science Podcast
+- Hard Fork
+
 
 
