@@ -248,15 +248,67 @@ Increasing `r` improves LoRA's approximation of the full finetune update, but ==
 - For example, ==we can use LoRA to finetune GPT-3 using only 0.01$ of total parameters, and still achieve performance comparable to that of finetuning!==
 
 ### Scaling Factor
-- Once the low-rank update to the weight matrix is derived, we ... [PICK UP HERE]
+- Once the low-rank update to the weight matrix is derived, we ... *scale* it by a factor of $\alpha$ prior to adding it tohe model's pretrained weights.
 ![[Pasted image 20240225225626.png]]
+- The default value of the scaling factor is 1, meaning that the pretrained weights and the low-rank update are weighted *equally* when computing the model's forward pass -- but the value of $\alpha$ can be changed to balance the importance of the pretrained model and new task-specific adaptation.
+	- Recent empirical analysis indicates that larger values of $\alpha$ are necessary for LoRA with a higher rank (ie higher rank = larger alpha)
 
 
+#### Comparison of LoRA to Adapter Layers
+- Two notable differenceS:
+	- No non-linearity between the two linear projections
+	- The rank decomposition matrix is injected into an existing layer of the model, instead of being sequentially added as an extra layer.
+==As a result, LoRA has no added inference latency compared to the original pretrained model, which is an advantage over the Adapter Layer strategy!==
+- When deploying a finetuned LoRA model into production, we can directly compute and store the updated weight matrix derived from LoRA -- the structure of the model is identical to the pretrained model, the weights are just different!
+- As a result, ==we can "switch out" LoRA modules by:== ((indeed tools like [[LoRAX]] are built around this idea))
+	1. Subtracting the LoRA update for one task from the model's weights
+	2. Adding the LoRA update for another task to the model's weights
+- In comparison, switching between *models* that are finetuned end-to-end on different tasks requires loading *all* model parameters in and out of memory, creating a significant I/O bottleneck!
+- LoRA's efficient parameterization of the weight update derived from finetuning makes switching between tasks efficient and easy.
+
+![[Pasted image 20240304123308.png]]
+- Above:
+	- Why does LoRA work? Why can we train a small number of parameters and get benefit in the model?
+	- Because large models tend to have a low intrinsic dimension! It means that the weights of very large models *tend to be low rank* -- not all these parameters are necessary!
+		- ((See [[Jonathan Frankle]]'s lottery ticket hypothesis, etc.))
+	- As a result, we should expect that the weight update derived from finetuning could also have a low intrinsic dimension!
 
 
+#### LoRA for LLMs
+- The general idea proposed by LoRA can be applied to any type of dense layer for a NN (more than just transformers)!
+- ==LoRA is used to update the query and value matrices of the attention layer in particular, which is found in experiments to yield the best results. The feedforward module and pretrained weights are kept fixed.== 
+
+#### ==Benefits of LoRA==
+1. A ==single pretrained model can be shared by several (much smaller) LoRA modules== that adapt it to solve different tasks, simplifying the deployment and hosting process.
+2. LoRA modules can be "baked in" to the weights of a pretrained model to avoid extra inference latency, and we can quickly switch between different LoRA modules to solve different tasks.
+3. When finetuning an LLM with LoRA, we only have to maintain the optimizer state for a very small number of parameters, which significantly reduces memory overhead and ==allows finetuning to be performed with more modest hardware==.
+4. Finetuning with LoRA is significantly faster than e2e finetuning (~25% faster in the case of GPT3)
+
+#### LoRA in practice
+- LoRAs have become popular because they're useful tools for AI practitioners; finetuning LLMs for our desired application is much easier than before! We don't need tons of massive GPUs, and the finetuning process is efficient, which makes it possible for almost anyone to train a specialized LLM on their own data.
+- After downloading a pretrained model (eg LLaMA-2), we should get a dataset used for finetuning, like these popular [[Instruction Tuning]] datasets:
+	1. Alpaca
+	2. Dolly
+	3. LongForm
+	4. LIMA
+	5. RedPajama
+
+We also notice that LoRA is orthogonal to most existing parameter efficient finetuning techniques, meaning we can use both at the same time! Why? Because LoRA doesn't directly modify the pretrained model's weight matrices, and instead learns low-rank update to these matrices that can be fused with pretrained weights to avoid inference latency.
 
 
+#### LoRA Variants
+- [[Quantized Low-Rank Adaptation|QLoRA]] (adds model quantization to reduce memory usage during finetuning while maintaining roughly an equal level of performance, saving memory at the cost of slightly-reduced training speed.)
+- QA-LoRA (further reduces computational burden... separately quantizes different groups of weights in the model -- it finetunes in a quantization-aware manner.)
+- LongLoRA (attempts to cheaply adapt LLMs to longer context lengths using a LoRA-based finetuning scheme)
+- S-LoRA (aims to solve the problem of deploying multiple LoRA modules that are used to adapt the same pretrained model to a variety of different tasks... Lets you serve 1,000s of LoRA modules on a single GPU and increase throughput of prior systems by 4x.)
+- LLaMA-Adapter (follows an approach similar to prefix tuning that adds a set of learnable task-adaptation prompts to the beginning of the transformer's sequence at each layer -- preserves the models' pretrained knowledge and allows adaptation to new tasks and instruction following to be learned with minimal data.)
+- LQ-LoRA
+- MultiLoRA
+- LoRA-FA
+- Tied-LoRA
+- GLoRA
 
-
-
-
+# Takeaways
+- LoRA is the most widely-used practical tool for creating specialized LLMs, and it democratizes the finetuning process by significantly reducing hardware requirements.
+- Affordable finetuning. Hundreds of dollars to finetune LLaMA-2.
+- An ecosystem - a variety of extensions, alternatives, and practical tools, eg QLoRA, which combines LoRA with model quantization.

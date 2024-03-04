@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sparse Retrieval.md",
+                "file": "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sparse Retrieval.md",
+                "file": "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sparse Retrieval.md",
+                "file": "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sparse Retrieval.md"
+                "file": "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "ccf67fb6e80459bd",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240304123308.png",
+    "Sparse Retrieval.md",
     "TF-IDF.md",
     "Bi-Encoder.md",
     "Cross-Encoder.md",
@@ -179,14 +181,12 @@
     "_attachments/Pasted image 20240225220201.png",
     "_attachments/Pasted image 20240225214956.png",
     "_attachments/Pasted image 20240225211738.png",
-    "Sparse Retrieval.md",
     "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Untitled 6.md",
     "Untitled 5.md",
     "Articles/ML/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
     "Sentence-BERT.md",
     "BEIR.md",
-    "Hierarchical Navigable Small Worlds.md",
     "PaperClubs/LatentSpace",
     "PaperClubs",
     "Untitled.canvas",
