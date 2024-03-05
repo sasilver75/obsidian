@@ -149,7 +149,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 ### [[Mixture of Experts]]
 - Technique where ==multiple expert networks are used to divide a problem space into subspaces==, with each expert network specializing in a specific subspace, and ==each input being routed to appropriate expert(s).== Lets models be pretrained with less compute, ==enabling the scaling up of the model or dataset size==.
 - Differs from ensemble techniques, in which all models are run on every input; Only 1-to-a-few models are run for each input in MoE.
-### [[Flash Attention]]
+### [[FlashAttention]]
 - An architectural change to== do attention with less memory access== (which is most of the cost). 
 - It tiles and incrementally performs the softmax reduction and avoids storing the whole intermediate attention matrix for the backwards pass.
 - ==Cites a 1.7x training speedup compared to megatron, and up to over 4x on inference.==

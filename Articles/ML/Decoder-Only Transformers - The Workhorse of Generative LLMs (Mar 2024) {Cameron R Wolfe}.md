@@ -121,7 +121,7 @@ The difference between them lies in how we choose to compute the mean and standa
 - This approach works well, but it's ==limited by the fact that we must process a sufficiently large mini-batch of inputs to get a reliable estimate of the mean and variance==.
 - ==This becomes an issue during inference, where processing only a small number of input examples at once is common==.
 	- As a result, we must compute a running estimate of the mean and standard deviation during training can be used for inference.
-	- Nonetheless, BatchNorm is widely used and is the standard choice of normalization techniques within computer vision applications.
+	- Nonetheless, BatchNorm is widely used and is the standard choice of normalization techniques within *computer vision* applications.
 
 ![[Pasted image 20240304150700.png]]
 
@@ -245,17 +245,110 @@ Using this linear layer, we can convert each token vector in our output into a p
 
 # Modern Variants of the Architecture
 - Now that we can understand the decoder-only transformer architecture, we can look at some of the variants of this architecture being used by modern LLMs.
+- There have been a variety of tricks to improve performance, boost inference/training speed, make the training more stable, and allow the model to handle longer input sequences, and much more!
+
+## Transformer Block Layouts
+- The layout of the decoder-only transformer block that we've seen so far is the standard transformer block configuration... but the order of normalization operations within the block might change depending on implementation,. For example, we can see below in the vanilla Transformer that layer normalization operations are depicted as coming *after* the attention and feed-forward layers in the original transformer architecture.
+- Some archtiectures (eg Gemma) perform normalization at both the input and output of each transformer sublayer, rather than the standard practice of solely normalizing one or the other!
+![[Pasted image 20240304163718.png|200]]
+#### ==Parallel Blocks==
+- Alternative block structures have been explored in the literature as well!
+- [[Falcon]] and [[PaLM]] use a parallel transformer block structure that passes input through the attention and feed-forward layers in *parallel*, instead of in a sequence.
+	- ((This sounds strange to me, at first pass! But it really only seems strange for the *first* transformer block, where the Attention has more semantic meaning, since the input vectors have a little more semantic meaning (to humans) than the intermediary activations))
+- This approach lessens the communication costs of distributed training and is found to yield no noticeable degradation in performance!
+
+![[Pasted image 20240304164000.png]]
+
+#### Normalization Strategies
+- In addition to changing the exact location of normalization layers within the transformer block, the normalization strategy used varies between different models.
+- *Most models use [[Layer Normalization|LayerNorm]]*, but Root Mean Square Layer Normalization ([[RMSNorm]]) is also popular!
+- ==RMSNorm (below) is just a simplified version of layer normalization that is shown to improve training ability and generalization!==
+	- RMSNorm is 10-50% more efficient than layer normalization despite performing similarly.
+	- As a result, models like LLaMA and LLaMA 2 adopted this approach.
+
+##### Better Layer Normalization
+- Certain LLMs have gone further, adopting modified forms of layer normalization.
+- For example, MPT models use *low-precision layer normalization* to improve hardware utilizations during training to improve hardware utilization during training!
+
+Many LLMs (eg OLMo, LLaMA-2, and PaLM) exclude the bias terms within layer normalization -- in fact, ==many models exclude bias from all layers of the transformer altogether==, which is interesting!
+
+## Efficient (Masked) Self-Attention
+- Although self-attention is the foundation of the transformer architecture, this operation is somewhat inefficient, as an `O(N^2)` operation.
+- For this reason, a plethora of efficient attention variants have been proposed:
+	- Reformer
+	- SMYRF
+	- Performer
+	- ...
+- Many of these techniques *theoretically* reduced the complexity of self-attention to O(N), but ==they fail to achieve measurable speedups in practice!==
+- To solve this, [[FlashAttention]] reformulates the self-attention operation in an efficient and *I/O aware* manner!
+![[Pasted image 20240304170042.png]]
+- The inner workings of FlashAttention are mostly hardware related, but the result is a drop-in replacement for teh self-attention operation that has a variety of awesome benefits:
+	1. Speeds up BERT-large training time by 15%
+	2. Improves training speed by 3X for GPT-2
+	3. Enables longer context lengths for LLMs (due to better memory efficiency)
+
+Many recent LLMs like Falcon and MPT use FlashAttention.
+
+There were some updates too:
+- FlashAttention-2: Modifies FlashAttention to yield further gains in efficiency.
+- FlashDecoding: An extension of FlashAttention that focuses on improving *inference efficiency* in addition to training efficiency.
+
+### Multi and Grouped Query Attention
+- Several recent LLMs use [[Multi-Query Attention]], an efficient self-attention implementation that ==shares key and value projections between all attention heads in a layer.==
+- Instead of performing a separate projection for each head, ==all heads share the same projection matrix for keys and the same projection matrix for values.==
+- This change doesn't make *training* any faster, but improves the *inference speed* of the resulting LLM.
+- Unfortunately, ==multi-query attention can cause slight deteriorations in performance==, which led some LLMs (eg LLaMA-2) to search for alternatives.
+
+![[Pasted image 20240304170905.png]]
+
+As a result, LLaMA-2 and others use [[Gro![[Pasted image 20240304170906.png]]uped Query Attention]] (GQA), which ==divides the H total self-attention heads into *groups* and shares the key/value projections within the same group==.
+- Such an approach is an *interpolation* between vanilla multi-headed attention and multi-query attention, which uses a shared key and value projection across *all* H heads.
 
 
+## Better Positional Embeddings
+- The position embedding technique we have learned about so far uses additive positional embeddings determined by the *absolute* position of each token in a sequence.
+	- It turns out that, while this approach is simple, it limits the model's ability to generalize to sequences longer than those seen during training.
+- A variety of alternative position encoding schemes were proposed, including *relative position* embeddings that consider only the distance between tokens, rather than their absolute tokens.
+	- Two of the most commonly used strategies for injecting position information into an LLM are
+		1. [[Rotary Positional Embedding]]
+		2. [[Attention with Linear Biases|ALiBi]]
+
+==Rotary Positional Embeddings (RoPE)==
+- A *hybrid* of absolute and relative positional embeddings that incorporates position *into self-attention* by:
+	1. Encoding absolute position with a rotation matrix
+	2. Adding relative position information directly into the self-attention operation
+- ==Notably, RoPE injects position information at every layer of the transformer, rather than just the model's input sequence.==
+- Such an approach is found to yield a *balance* between absolute and relative position information, providing flexibility to expand to longer sequence lengths... and has decaying inter-token dependency as relative distances increase.
+- RoPE has gained in popularity recently, leading in its use in popular LLMs like [[PaLM]], [[Falcon]], [[OLMo]], [[LLaMA 2]], and more. 
+
+==Attention with Linear Biases (ALiBi)==
+- A follow-up technique that was proposed to improve the extrapolation abilities of position embedding strategies.
+- Instead of using position embeddings, ALiBi incorporates position information *directly into self-attention at each layer of the transformer* by adding a static, non-learned bias to the attention matrix.
+- We compute the attention matrix normally, but add a constant bias to the values of the attention matrix that penalizes scores between more distant queries and keys.
+- Despite its simplicity, ==this approach outperforms both vanilla position embedding techniques and RoPE== in terms of extrapolating to sequences longer than those seen in training.
+- Adopted by the MPT models, which were finetuned to support input lengths up to and exceeding 65K tokens.
+- ((I'm curious why this was only adopted by MPT, rather than more recent models like LLaMA2, if this is indeed a "Better" attention variant than RoPE?))
 
 
-
-
-
-
-
-
-
+# Takeaways
+ - We can decompose our understanding of decoder-only transformer models into the following core ideas:
+	 1. Constructing the input 
+		 - Given a textual prompt, we use a tokenizer (eg using BPE) to break the text into discrete tokens. 
+		 - Then, we map each of these tokens to a corresponding token vector stored in an embedding layer.
+		 - Optionally, we can augment these token vectors using additive positional embeddings (likely relative ones)
+	 2. Causal self-attention
+		 - The vanilla self-attention operation transforms each token's representation by taking a weighted combination of *other tokens'* representations, where weights are given by pairwise attention scores between tokens.
+	 3. Feed-forward transformations 
+		 - Performed within each block of the decoder-only transformer, allowing us to individually transform each token's representation.
+		 - Given a token vector as input, we pass through a linear projection that increases its size by ~4x, apply a non-linear activation function (eg SwiGLU), then perform another linear projection that restores the original size of the token vector.
+	 4. Transformer blocks
+		 - Stacked in sequence to form the body of the decoder-only transformer architecture.
+		 - The exact layout of the decoder-only transformer blocks might change depending on the implementation, but two layers are always present:
+			 1. Causal self-attention
+			 2. Feed-forward transformation
+	 5. Classification head
+		 - A decoder-only transformer has one *final* classification head that takes the output token vectors from the transformer's final output layer as input, and outputs a vector with the same size as the vocabulary of the model's tokenizer.
+		 - This vector can be used to either train the LLM via next token prediction or generate text at inference time via sampling strategies like [[Top-P Sampling|Nucleus Sampling]] (Top-P sampling) or [[Beam Search]].
 
 
 

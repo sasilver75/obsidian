@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "56e2c71984a9b3b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e9f8a0ce8b2b046",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FlashAttention.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "52382fb9ac1cddb6",
             "type": "leaf",
             "state": {
@@ -124,7 +150,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
+                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
+                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md"
+                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md"
               }
             }
           }
@@ -251,21 +278,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccf67fb6e80459bd",
+  "active": "56e2c71984a9b3b9",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240304173621.png",
+    "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
+    "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+    "_attachments/Pasted image 20240304170906.png",
+    "_attachments/Pasted image 20240304170905.png",
+    "_attachments/Pasted image 20240304170042.png",
+    "FlashAttention.md",
+    "_attachments/Pasted image 20240304164000.png",
+    "_attachments/Pasted image 20240304163718.png",
+    "_attachments/Pasted image 20240304162020.png",
     "_attachments/Pasted image 20240304161655.png",
     "_attachments/Pasted image 20240304160948.png",
     "_attachments/Pasted image 20240304160444.png",
     "_attachments/Pasted image 20240304155529.png",
     "~ Vocabulary.md",
-    "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
-    "_attachments/Pasted image 20240304154628.png",
-    "_attachments/Pasted image 20240304153849.png",
-    "_attachments/Pasted image 20240304153338.png",
-    "_attachments/Pasted image 20240304153025.png",
-    "_attachments/Pasted image 20240304152040.png",
-    "_attachments/Pasted image 20240304152038.png",
-    "_attachments/Pasted image 20240304151901.png",
     "He Initialization.md",
     "Causal Attention.md",
     "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
@@ -287,8 +316,6 @@
     "The Stack.md",
     "~ Questions.md",
     "Mixup.md",
-    "The Stack v2.md",
-    "~ Quotes.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",

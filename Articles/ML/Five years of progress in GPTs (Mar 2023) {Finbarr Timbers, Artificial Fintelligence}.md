@@ -64,7 +64,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 - In it, the authors train a family of 10 models, ranging from 125M to ==175B parameters (up from 1.5B, a ~115x increase)==
 - For each model, the architectures are identical to GPT-2, with the exception of their use of "alternating dense and locally banded sparse attention patterns in the layers of the transformer." ([[Sparse Attention]])
 	- Not clear *why* they used sparse attention; reproductions and later papers used dense attention.
-	- Maybe because this paper came before [[Flash Attention]] and other faster variants of dense attention, they thought dense attention was a computational bottleneck?
+	- Maybe because this paper came before [[FlashAttention]] and other faster variants of dense attention, they thought dense attention was a computational bottleneck?
 - Architecture
 	- ==They don't provide any details about the computational architecture; how they distributed the model==. The authors claim that it doesn't matter, but this article's author thinks it was for competitive reasons, to make the paper more difficult to reproduce.
 		- In contrast, [[Nvidia]]'s [[Megatron]] was highly influential *because* it went into detail about how it made model parallelism work for their model.
@@ -153,7 +153,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 	- Uses [[Rotary Positional Embedding|RoPE]], as [[PaLM]] did.
 	- Uses [[AdamW]], and [[Chinchilla]] did.
 - Computational changes:
-	- Uses efficient attention ([[Flash Attention]])
+	- Uses efficient attention ([[FlashAttention]])
 	- Uses [[Gradient Checkpointing]]
 	- Interestingly, appears to use float32s everywhere (or at least, don't say otherwise). Curious why they didn't use lower precision like Chinchilla did.
 - This paper was a ==shining example of how well smaller models can do when trained well!==
