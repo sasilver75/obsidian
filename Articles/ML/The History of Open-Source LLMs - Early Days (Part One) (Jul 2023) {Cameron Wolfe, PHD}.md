@@ -65,7 +65,7 @@ Aside:
 	- ==Encoder==
 		- Each block performs bidirectional self-attention and a pointwise feed-forward transformation, which are separated with a [[Residual Connection]] and [[Layer Normalization|LayerNorm]].
 	- ==Decoder==
-		- Each block performs causal [[Self Attention]], [[Cross Attention]] (i.e. self-attention across encoder and decoder tokens), and a pointwise feed-forward transformation, each separated by a residual connection and LayerNorm.
+		- Each block performs causal [[Self-Attention]], [[Cross-Attention]] (i.e. self-attention across encoder and decoder tokens), and a pointwise feed-forward transformation, each separated by a residual connection and LayerNorm.
 			- ((You can think of this cross-attention as both paying attention to the previously-generated German words, as well as the original English sentence.))
 - When both components of the architecture are present:
 	1. The encoder processes the input sequence and produces an output sequence.

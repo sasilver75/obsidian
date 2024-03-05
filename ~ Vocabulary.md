@@ -177,7 +177,9 @@
 - [[Tensor Parallelism]]
 - [[RMSNorm]]
 - [[Gradient Checkpointing]]
-- [[Byte-Pair Encoding]] 
+- [[Byte-Pair Encoding]] Tokenization
+- [[SentencePiece]] Tokenization
+- [[WordPiece]] Tokenization
 - [[Rotary Positional Embedding]]
 - [[SPIN]]
 - [[Canary GUID]]
@@ -190,6 +192,8 @@
 - [[Imitation Learning]]
 - [[Automatic Mixed-Precision Training]]
 - [[Quantization-Aware Training]]
+- [[Xavier Initialization]]
+- [[He Initialization]]
 
 
 # Natural Language Processing Concepts
@@ -223,6 +227,7 @@
 - Actor-Critic methods
 - [[Direct Preference Optimization]]
 - [[Markov Decision Process]]
+- [[REINFORCE]]
 
 
 # Models
