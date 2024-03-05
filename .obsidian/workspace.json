@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+                "file": "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4c8bb3bfe4cccad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "T5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+                "file": "Language Understanding with BERT (Oct 2022) {Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -235,7 +248,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -256,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+                "file": "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+                "file": "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md"
+                "file": "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -318,8 +332,15 @@
   },
   "active": "ccf67fb6e80459bd",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240304235410.png",
+    "T5.md",
+    "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240304234855.png",
     "Gemeni.md",
-    "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+    "_attachments/Pasted image 20240304223102.png",
+    "_attachments/Pasted image 20240304221500.png",
+    "Language Understanding with BERT (Oct 2022) {Deep Learning Focus Newsletter}.md",
+    "Untitled 7.md",
     "_attachments/Pasted image 20240304213945.png",
     "_attachments/Pasted image 20240304213831.png",
     "_attachments/Pasted image 20240304205938.png",
@@ -330,10 +351,7 @@
     "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
     "_attachments/Pasted image 20240304173621.png",
     "_attachments/Pasted image 20240304170906.png",
-    "_attachments/Pasted image 20240304170905.png",
-    "_attachments/Pasted image 20240304170042.png",
     "FlashAttention.md",
-    "_attachments/Pasted image 20240304164000.png",
     "He Initialization.md",
     "Causal Attention.md",
     "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
@@ -350,9 +368,6 @@
     "Automatic Mixed-Precision Training.md",
     "Low-Rank Adaptation.md",
     "~ Recommendations.md",
-    "Learning Rate.md",
-    "The Stack.md",
-    "~ Questions.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
