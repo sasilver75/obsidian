@@ -13,6 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8f1bec40f2ba564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b825b143865cbe81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPQA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "469e3b4289db2b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
                 "mode": "source",
                 "backlinks": true,
@@ -150,8 +189,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,23 +316,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56e2c71984a9b3b9",
+  "active": "ccf67fb6e80459bd",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240304173621.png",
-    "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
+    "Gemeni.md",
     "Language Understanding with BERT (Oct 2022) {Cameron Wolfe}.md",
+    "_attachments/Pasted image 20240304213945.png",
+    "_attachments/Pasted image 20240304213831.png",
+    "_attachments/Pasted image 20240304205938.png",
+    "~ Vocabulary.md",
+    "GPQA.md",
+    "_attachments/Pasted image 20240304201542.png",
+    "_attachments/Pasted image 20240304201515.png",
+    "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
+    "_attachments/Pasted image 20240304173621.png",
     "_attachments/Pasted image 20240304170906.png",
     "_attachments/Pasted image 20240304170905.png",
     "_attachments/Pasted image 20240304170042.png",
     "FlashAttention.md",
     "_attachments/Pasted image 20240304164000.png",
-    "_attachments/Pasted image 20240304163718.png",
-    "_attachments/Pasted image 20240304162020.png",
-    "_attachments/Pasted image 20240304161655.png",
-    "_attachments/Pasted image 20240304160948.png",
-    "_attachments/Pasted image 20240304160444.png",
-    "_attachments/Pasted image 20240304155529.png",
-    "~ Vocabulary.md",
     "He Initialization.md",
     "Causal Attention.md",
     "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
@@ -302,7 +341,6 @@
     "Masked Attention.md",
     "Cross-Attention.md",
     "Self-Attention.md",
-    "Gemeni.md",
     "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "Sparse Retrieval.md",
     "TF-IDF.md",
@@ -315,7 +353,6 @@
     "Learning Rate.md",
     "The Stack.md",
     "~ Questions.md",
-    "Mixup.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",

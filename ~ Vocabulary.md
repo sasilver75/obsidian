@@ -318,6 +318,7 @@
 - [[MT Bench]]
 - [[Paloma]]
 - [[BEIR]]
+- [[GPQA]]
 
 
 # Datasets
