@@ -91,7 +91,7 @@ See:
 		- I love to _
 		- I love to eat _
 	- This lets us maximally make use of the data that we have!
-	- Due to this use of [[Causal Attention]] (self variant), each output token vector only considers the current token and those that came before it in the sequence; so next token prediction can be performed across an entire sequence using a single forward pas of the decoder-only transformer, as each token has no knowledge of the tokens that came after it.
+	- Due to this use of [[Masked Attention|Causal Attention]] (self variant), each output token vector only considers the current token and those that came before it in the sequence; so next token prediction can be performed across an entire sequence using a single forward pas of the decoder-only transformer, as each token has no knowledge of the tokens that came after it.
 ![[Pasted image 20240213135859.png]]
 Above: Next-token prediction is used in all aspects of both training and inference for LLMs.
 

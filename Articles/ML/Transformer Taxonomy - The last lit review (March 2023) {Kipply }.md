@@ -53,7 +53,7 @@ Architecture Unknown - "Transformer-like"
 7B params
 - *Retrieval* is a general technique, if you given a model a database to look up while doing inference.
 - This was ==the inaugural retrieval paper for transformers==, using a 2T token database.
-- It embeds the token-database in *chunks* using a pre-trained BERT-style model, and then performs chunked [[Cross Attention]] to nearest neighbors in the database during training and inference.
+- It embeds the token-database in *chunks* using a pre-trained BERT-style model, and then performs chunked [[Cross-Attention]] to nearest neighbors in the database during training and inference.
 ### [[GPT-3.5]] (March 2022, [[OpenAI]])
 Architecture Unknown
 - Delineates three models as GPT-3.5; specifically anything in the `davinci-002` or `davinci-003` family.
