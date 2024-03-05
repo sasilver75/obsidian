@@ -123,7 +123,7 @@ What led the current generation of open-source LLMs to perform so well?
 Modified Architectures
 - current open source LLMs adopt a variety of architectural tricks (shown above) to ==speed up the inference process==:
 	1. Low Precision [[Layer Normalization|LayerNorm]]
-	2. [[Flash Attention]]
+	2. [[FlashAttention]]
 	3. [[Multi-Query Attention]]
 	4. Parallel Transformer
 	5. [[Grouped Query Attention]]

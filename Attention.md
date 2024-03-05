@@ -4,7 +4,7 @@
 [[Sparse Attention]] vs [[Dense Attention]]
 [[Parallel Attention]]
 [[Paged Attention]]
-[[Flash Attention]]
+[[FlashAttention]]
 [[Attention with Linear Biases|Attention with Linear Biases]] (ALiBi)
 [[Sliding Window Attention]]
 [[Paged Attention]]
