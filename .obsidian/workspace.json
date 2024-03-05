@@ -21,6 +21,45 @@
             }
           },
           {
+            "id": "4d24657ad959e3d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "T5 - Text to Text Transformers - Part Two (Apr 2023) {Deep Learning Focus Newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b36d41c396f9b64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2e77df5da8d7cec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "T5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b4c8bb3bfe4cccad",
             "type": "leaf",
             "state": {
@@ -202,7 +241,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
+                "file": "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
+                "file": "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md"
+                "file": "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -330,11 +370,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccf67fb6e80459bd",
+  "active": "1b36d41c396f9b64",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240304235410.png",
+    "T5 - Text to Text Transformers - Part Two (Apr 2023) {Deep Learning Focus Newsletter}.md",
     "T5.md",
     "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240305001135.png",
+    "_attachments/Pasted image 20240304235410.png",
     "_attachments/Pasted image 20240304234855.png",
     "Gemeni.md",
     "_attachments/Pasted image 20240304223102.png",
@@ -349,8 +391,6 @@
     "_attachments/Pasted image 20240304201542.png",
     "_attachments/Pasted image 20240304201515.png",
     "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
-    "_attachments/Pasted image 20240304173621.png",
-    "_attachments/Pasted image 20240304170906.png",
     "FlashAttention.md",
     "He Initialization.md",
     "Causal Attention.md",
@@ -367,7 +407,6 @@
     "Discounted Cumulative Gain.md",
     "Automatic Mixed-Precision Training.md",
     "Low-Rank Adaptation.md",
-    "~ Recommendations.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
