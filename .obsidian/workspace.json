@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "abeb9229535c645e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chain of Thought.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "928e8d2ff410a4fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30042637c31e27e0",
             "type": "leaf",
             "state": {
@@ -370,27 +396,29 @@
   },
   "active": "ccf67fb6e80459bd",
   "lastOpenFiles": [
-    "Articles/ML/Chain of Thought Prompting for LLMs (Apr 2023) {Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240306120006.png",
+    "_attachments/Pasted image 20240306113459.png",
+    "_attachments/Pasted image 20240306113457.png",
+    "_attachments/Pasted image 20240306113450.png",
+    "_attachments/Pasted image 20240306113408.png",
+    "_attachments/Pasted image 20240306113255.png",
+    "_attachments/Pasted image 20240306112834.png",
+    "Chain of Thought.md",
     "Articles/ML/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
+    "~ Vocabulary.md",
+    "Articles/ML/Chain of Thought Prompting for LLMs (Apr 2023) {Deep Learning Focus Newsletter}.md",
     "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240305230526.png",
     "_attachments/Pasted image 20240305225756.png",
     "_attachments/Pasted image 20240305225457.png",
     "_attachments/Pasted image 20240305225451.png",
-    "_attachments/Pasted image 20240305224141.png",
-    "_attachments/Pasted image 20240305223752.png",
-    "_attachments/Pasted image 20240305223749.png",
-    "_attachments/Pasted image 20240305223037.png",
     "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
     "T5 - Text to Text Transformers - Part Two (Apr 2023) {Deep Learning Focus Newsletter}.md",
-    "~ Vocabulary.md",
     "Paloma.md",
     "Articles/ML/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
     "OLMo.md",
-    "_attachments/Pasted image 20240305131752.png",
     "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "T5.md",
-    "_attachments/Pasted image 20240305001135.png",
     "Gemeni.md",
     "Language Understanding with BERT (Oct 2022) {Deep Learning Focus Newsletter}.md",
     "Untitled 7.md",
@@ -404,7 +432,6 @@
     "Masked Attention.md",
     "Cross-Attention.md",
     "Self-Attention.md",
-    "Articles/ML/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
