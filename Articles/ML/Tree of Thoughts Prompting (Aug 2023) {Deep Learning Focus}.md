@@ -177,6 +177,11 @@ Search Algorithm
 
 ![[Pasted image 20240306120006.png]]
 
+# Experimental Analysis
+- ToT is the most effective prompting strategy for problems that require extensive planning or search. Alternatives like CoT prompting and self-consistency tend to fall short of solving such complex tasks.
+
+Closing Remarks
+- The idea behind ToT prompting is incredibly generic and can be instantiated differently depending on the underlying problem. 
 
 
 
