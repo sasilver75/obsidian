@@ -194,6 +194,7 @@
 - [[Quantization-Aware Training]]
 - [[Xavier Initialization]]
 - [[He Initialization]]
+- [[Zero-Shot Prompting]]
 
 
 # Natural Language Processing Concepts
