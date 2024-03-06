@@ -50,8 +50,35 @@ The question was answered by analysis performed with the unified [[T5|Text-to-Te
 
 
 # What do we learn from T5?
+To do the experiments mentioned above, T5:
+- Sets a baseline approach
+- Varies several aspects of this baseline
+	- Model architecture/size
+	- Dataset
+	- Pre-training objective
+	- ....
+- ... And changes them one-by-one to see what works best -- this mimics a "coordinate descent" strategy.
 
+### T5 Baseline Model
+- The T5 baseline architecture uses a standard, encoder-decoder transformer architecture. Both the encoder and decoder are structured similarly to BERTBase. 
+- The authors found that the encoder-decoder architecture (rather than either of the "single-stack" architecutres) achieved impressive results on *both* generation and classification tasks!
+	- Encoder-only models are not considered due to the fact that they're specialized for token/span prediction and don't solve generative tasks well.
+	- ((I know that this wasn't trained (?) with a NTP pretraining objective... so is there still anything "cheating" about generating text using an encoder-decoder? How do you learn to generate text from a MLM/NSP pretraining objective? hmmm))
+- Training Objective
+	- The T5 model is pre-trained on a total of 34B tokens from the C4 corpus.
+		- For comparison, BERT is trained over 137B tokens, while RoBERTa is trained over 2.2T tokens.
+		- ((So it's a smaller model than BERT. This makes sense, if they're going to be training many of such models to compare))
+	- Inspired by the MLM objective from BERT, T5 is pre-trained using a slightly-modified denoising objective  that:
+		1. Randomly selects 15% tokens in the input sequence
+		2. Replaces all consecutive spans of selected tokens with a single "sentinel" token
+		3. Gives each sentinel token an ID that is unique to the current input sequence
+		4. Constructs a target using all selected tokens, separated by the sentinel tokens
+	- This seems complex, but it's not so bad:![[Pasted image 20240305131752.png]]
+By replacing *entire spans* (eg "for inviting" above), we reduce the computational cost of pre-training, as we tend to operate over shorter input and target sequences.
 
+Fine Tuning
+- After pre-training has been performed, T5 is separately fine-tuned on each downstream task prior to being evaluated.
+- Due to the Text-to-text format used by T5, both pre-training and fine-tuning use the same s
 
 
 
