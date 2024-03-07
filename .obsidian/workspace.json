@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entropy.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d636d8cf8be198d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bootstrap Aggregation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -335,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Entropy.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -352,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Entropy.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Entropy.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -397,13 +410,15 @@
   },
   "active": "abeb9229535c645e",
   "lastOpenFiles": [
+    "Bootstrap Aggregation.md",
+    "~ Vocabulary.md",
+    "Entropy.md",
+    "~ Questions.md",
     "Cross Entropy.md",
     "KL Divergence.md",
     "Chain of Thought.md",
-    "~ Questions.md",
     "Gemeni.md",
     "Articles/ML/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240306120006.png",
     "_attachments/Pasted image 20240306113459.png",
     "_attachments/Pasted image 20240306113457.png",
@@ -431,8 +446,6 @@
     "He Initialization.md",
     "Causal Attention.md",
     "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Attention.md",
-    "Masked Attention.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",

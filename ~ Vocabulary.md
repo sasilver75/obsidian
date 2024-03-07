@@ -195,6 +195,7 @@
 - [[Xavier Initialization]]
 - [[He Initialization]]
 - [[Zero-Shot Prompting]]
+- [[Out-of-Bag Error]]
 
 
 # Natural Language Processing Concepts
