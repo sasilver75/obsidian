@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
+                "file": "~ Questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chain of Thought.md",
+                "file": "Entropy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -267,7 +267,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -334,7 +335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
+                "file": "Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
+                "file": "Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md"
+                "file": "Entropy.md"
               }
             }
           }
@@ -394,10 +395,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccf67fb6e80459bd",
+  "active": "abeb9229535c645e",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "Cross Entropy.md",
+    "KL Divergence.md",
+    "Chain of Thought.md",
+    "~ Questions.md",
+    "Gemeni.md",
     "Articles/ML/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
+    "~ Vocabulary.md",
     "_attachments/Pasted image 20240306120006.png",
     "_attachments/Pasted image 20240306113459.png",
     "_attachments/Pasted image 20240306113457.png",
@@ -405,7 +411,6 @@
     "_attachments/Pasted image 20240306113408.png",
     "_attachments/Pasted image 20240306113255.png",
     "_attachments/Pasted image 20240306112834.png",
-    "Chain of Thought.md",
     "Articles/ML/Chain of Thought Prompting for LLMs (Apr 2023) {Deep Learning Focus Newsletter}.md",
     "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240305230526.png",
@@ -418,7 +423,6 @@
     "OLMo.md",
     "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "T5.md",
-    "Gemeni.md",
     "Language Understanding with BERT (Oct 2022) {Deep Learning Focus Newsletter}.md",
     "Untitled 7.md",
     "GPQA.md",
@@ -429,8 +433,6 @@
     "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Attention.md",
     "Masked Attention.md",
-    "Cross-Attention.md",
-    "Self-Attention.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
