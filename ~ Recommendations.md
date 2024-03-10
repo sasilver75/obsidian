@@ -62,6 +62,7 @@ Podcasts
 	- Sharp Tech with Ben Thompson
 	- BG2 Pod
 	- SVIC Podcast
+	- Your Undivided Attention
 - Investing, Thinkers
 	- Invest Like the Best with Patrick O'Shaughnessy
 	- Dwarkesh Podcsat
@@ -81,17 +82,13 @@ Podcasts
 	- Fall of Civilizations Podcast
 	- Angry Planet
 - Machine Learning
-	- Brain Inspired
-	- Sanctuary AI Ground Truth Podcast
 	- NLP Highlights
 	- Underrated ML
 	- CS224U
 	- The Retort AI Podcast
 	- Practically Intelligent
 	- Unsupervised Learning
-	- Interconnects Audio
-	- Stanford MLSys Seminar
-	- Deep Papers
+	- Stanford MLSys Seminar (Watch on Youtube)
 	- Latent Space
 	- The Gradient
 	- ThursdAI
@@ -99,10 +96,10 @@ Podcasts
 	- Weaviate Podcast
 	- The Cognitive Revolution
 	- MLOps.community
+	- Sanctuary AI Ground Truth Podcast
 	- Vanishing Gradients
 	- Machine Learning Street Talk
 	- TalkRL
-	- Your Undivided Attention
 - Software Engineering
 	- Oxide and Friends
 	- Data Engineering Podcast
