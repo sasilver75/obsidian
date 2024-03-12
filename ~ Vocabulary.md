@@ -196,6 +196,8 @@ iter# Linear Algebra
 - [[He Initialization]]
 - [[Zero-Shot Prompting]]
 - [[Out-of-Bag Error]]
+- [[Boosting]]
+- 
 
 
 # Natural Language Processing Concepts
