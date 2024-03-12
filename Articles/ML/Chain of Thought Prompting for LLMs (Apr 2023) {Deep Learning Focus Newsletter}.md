@@ -1,4 +1,4 @@
-#article 
+{#article 
 Link: https://cameronrwolfe.substack.com/p/chain-of-thought-prompting-for-llms
 
 --------
