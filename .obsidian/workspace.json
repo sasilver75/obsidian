@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -352,8 +352,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -374,7 +373,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +390,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,7 +413,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
               }
             }
           }
@@ -436,8 +435,9 @@
   },
   "active": "ccf67fb6e80459bd",
   "lastOpenFiles": [
-    "Boosting.md",
     "~ Vocabulary.md",
+    "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
+    "Boosting.md",
     "Convolutional Neural Network.md",
     "~ Questions.md",
     "Gemeni.md",
@@ -471,7 +471,6 @@
     "T5 - Text to Text Transformers - Part Two (Apr 2023) {Deep Learning Focus Newsletter}.md",
     "Paloma.md",
     "Articles/ML/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
-    "OLMo.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
