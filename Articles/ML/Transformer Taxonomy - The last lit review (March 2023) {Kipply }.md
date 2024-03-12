@@ -57,7 +57,7 @@ Architecture Unknown - "Transformer-like"
 ### [[GPT-3.5]] (March 2022, [[OpenAI]])
 Architecture Unknown
 - Delineates three models as GPT-3.5; specifically anything in the `davinci-002` or `davinci-003` family.
-	- [[code-davinci-002]] is the base model, [[text-davinci-002]] is a version with FeedME non-RL [[Instruction Tuning]].
+	- [[code-davinci-002]] is the base model, [[text-davinci-002]] is a version with FeedME non-RL [[Instruction-Tuning]].
 - This was turned into the ==original "ChatGPT" product==.
 ### [[Chinchilla]] (March 2022, [[DeepMind]])
 - ==New and improved [[Scaling Laws]]==

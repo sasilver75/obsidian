@@ -55,7 +55,7 @@ SFT
 	- [[Alpaca]] finetunes [[LLaMA]]-7B using the [[Self-Instruct]] framework to automatically collect a fine-tuning dataset from GPT-3.5 for a cost of only $600 (data and finetuning cost)
 		- ![[Pasted image 20240219140526.png]]
 		- ![[Pasted image 20240219142940.png]]
-		- The ==Self-Instruct== framework pioneers the idea of using LLMs to train themselves by generating synthetic [[Instruction Tuning]] data that can be used for fine-tuning.
+		- The ==Self-Instruct== framework pioneers the idea of using LLMs to train themselves by generating synthetic [[Instruction-Tuning]] data that can be used for fine-tuning.
 			- Recall: ==Instruction fine-tuning==: The goal is to fine-tune an LLM over a set of "instructions," which are comprised of supervised data examples (i.e. input prompt + desired output), each paired with a description of the task being solved.
 			- ![[Pasted image 20240219142704.png]]
 			- ![[Pasted image 20240219142920.png]]

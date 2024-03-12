@@ -22,7 +22,7 @@ The initial [[Orca]] paper is an attempt at #2, above.
 # Background Information
 
 ## Instruction Tuning
-- [[Instruction Tuning]] was originally proposed by [[FLAN]], and aimed to provide a form of training that teaches LLMs to solve language-based tasks *IN GENERAL*, rather than any specific task.
+- [[Instruction-Tuning]] was originally proposed by [[FLAN]], and aimed to provide a form of training that teaches LLMs to solve language-based tasks *IN GENERAL*, rather than any specific task.
 	- This is done by fine-tuning an LLM over a set of "instructions," or input prompts, including a description of the task being solved, combined with the desired model output; see below.
 	- ![[Pasted image 20240220000124.png]]
 	- Above: ((So it seems that it's .... like task-specific fine-tuning, but you do task-specific finetuning over a variety of tasks? And then it still does pretty good versus out-of-distribution tasks))
