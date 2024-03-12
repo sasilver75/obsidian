@@ -74,7 +74,8 @@ iter# Linear Algebra
 - [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
 - [[Fine-Tuning]]
-- [[Instruction Tuning]]
+- [[Instruction-Tuning]]
+- [[Preference-Tuning]]
 - [[Transfer Learning]]
 - [[Retrieval-Augmented Generation]]
 - [[Autoencoder]]

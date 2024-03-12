@@ -286,7 +286,7 @@ Increasing `r` improves LoRA's approximation of the full finetune update, but ==
 
 #### LoRA in practice
 - LoRAs have become popular because they're useful tools for AI practitioners; finetuning LLMs for our desired application is much easier than before! We don't need tons of massive GPUs, and the finetuning process is efficient, which makes it possible for almost anyone to train a specialized LLM on their own data.
-- After downloading a pretrained model (eg LLaMA-2), we should get a dataset used for finetuning, like these popular [[Instruction Tuning]] datasets:
+- After downloading a pretrained model (eg LLaMA-2), we should get a dataset used for finetuning, like these popular [[Instruction-Tuning]] datasets:
 	1. Alpaca
 	2. Dolly
 	3. LongForm
