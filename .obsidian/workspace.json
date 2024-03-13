@@ -84,8 +84,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea791d99ff7ed108",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -152,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +177,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,9 +198,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -212,8 +217,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccf67fb6e80459bd",
+  "active": "ea791d99ff7ed108",
   "lastOpenFiles": [
+    "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
     "_attachments/Pasted image 20240313001819.png",
     "_attachments/Pasted image 20240313001638.png",
     "_attachments/Pasted image 20240313001321.png",
@@ -222,13 +228,11 @@
     "_attachments/Pasted image 20240312233708.png",
     "Generative Adversarial Network.md",
     "~ Vocabulary.md",
-    "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
     "_attachments/Pasted image 20240312224847.png",
     "Distillation.md",
     "_attachments/Pasted image 20240312222440.png",
     "_attachments/Pasted image 20240312221131.png",
     "_attachments/Pasted image 20240312220238.png",
-    "_attachments/Pasted image 20240312215749.png",
     "WizardLM.md",
     "Top-P Sampling.md",
     "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
