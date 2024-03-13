@@ -167,9 +167,9 @@ To evaluate the improvement in instruction-following ability, they used the eval
 
 
 ### Unnatural Instructions
-- Generates synthetic data from an *external model* (GPT-3.5), in contrast to Self-Instruct.
+- Generates synthetic data from an *==external model==* (GPT-3.5), in contrast to Self-Instruct.
 - The synthetic data is then used to finetune `t5-lm`, a language model variant of `t5-11b`.
-- The authors started with a seed set of 15 human-written examples, and then, to to generate new instructions and input (i.e. context), they prompted GPT-3.5 with three examples to generate a fourth synthetic sample.
+- The ==authors started with a seed set of 15 human-written examples==, and then, to to generate new instructions and input (i.e. context), ==they prompted GPT-3.5 with three examples to generate a fourth synthetic sample.==
 	- The authors used 5 different seeds of three-shot examples to generate a distilled dataset of 68k examples.
 	- To encourage creativity when using the same few-shot examples, the authors applied [[Top-P Sampling|Nucleus Sampling]] (top-p) with p=.99.
 
@@ -466,4 +466,25 @@ Overall, ==using WRAP on C4 sped up pre-training by 3X! And on the same pre-trai
 Eugene calls this a ==Highly recommended read!==
 
 ![[Pasted image 20240313001819.png]]
+
+
+----------
+--------
+
+# Discussions on this at LLM paper club
+
+Two approaches to Synthetic data:
+- Distillation
+	- Distilling data from a stronger model (eg GPT-4), maybe training a reward model or creating a dataset
+	- Not something that everyone can do -- smaller companies/richer individuals can do distillation
+		- Pretraining (Not a lot of public work here)
+		- Instruction Tuning (Bulk of literature is here; how to follow instructions)
+		- Preference Tuning (Not a lot of public work here)
+- Self-Improvement
+	- Only learns from the model that's been trained... There's no external model
+
+
+Self-Instruct and Unnatural Instructions
+- Why did we need different handling for classification?
+	- When trying to get the model to generate different types of (eg) sentiment, the model almost always generate sentiment.
 
