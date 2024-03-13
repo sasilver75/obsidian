@@ -5,7 +5,8 @@
 - (02/21/2024): Difference between Bi-Encoders vs Cross-Encoders? 
 - (02/21/2024): What is "weight tying" as described [here](https://cameronrwolfe.substack.com/p/dolma-olmo-and-the-future-of-open?utm_source=post-email-title&publication_id=1092659&post_id=141461162&utm_campaign=email-post-title&isFreemail=true&r=764e6&utm_medium=email)
 - (02/29/2024): Why do we use binary cross entropy for multi-label classification problems, and cross-entropy for single-label classification problems?
-- (03/05/2023): Why do logarithms help us "turn products into sums?" log(ab) = log(a) + log(b)
+- (03/05/2024): Why do logarithms help us "turn products into sums?" log(ab) = log(a) + log(b)
+- (03/13/2024): Eugene Cheah mentioned in LLM club that the Falcon paper showed that training on multilingual actually ended up lowering performance on english benchmarks... and that's why many datasets/models are english-only! Is this true? I thought it was the opposite!
 
 
 
