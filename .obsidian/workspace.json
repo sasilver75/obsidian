@@ -21,6 +21,45 @@
             }
           },
           {
+            "id": "913ae728eb563f72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WizardLM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4b91a98cc85529c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0445f1e05ab83bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "He Initialization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9ccfbf655931a3a1",
             "type": "leaf",
             "state": {
@@ -162,8 +201,17 @@
   },
   "active": "ccf67fb6e80459bd",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "WizardLM.md",
     "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
+    "_attachments/Pasted image 20240312210637.png",
+    "Top-P Sampling.md",
+    "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240312191931.png",
+    "_attachments/Pasted image 20240312190430.png",
+    "Residual Network.md",
+    "He Initialization.md",
     "Boosting.md",
     "~ Memes.md",
     "L2 Regularization.md",
@@ -176,28 +224,19 @@
     "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
     "Language Understanding with BERT (Oct 2022) {Deep Learning Focus Newsletter}.md",
     "FlashAttention.md",
-    "He Initialization.md",
     "Masked Attention.md",
     "Self-Attention.md",
     "Instruction-Tuning.md",
     "~ Questions.md",
     "Gemeni.md",
     "Machine Learning.md",
-    "~ Quiz.md",
-    "Articles/ML/Chain of Thought Prompting for LLMs (Apr 2023) {Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240311195956.png",
-    "~ Useful Pictures.md",
-    "Untitled 8.md",
     "_attachments/Pasted image 20240311193133.png",
     "_attachments/Pasted image 20240311192422.png",
     "_attachments/Pasted image 20240311192323.png",
     "_attachments/Pasted image 20240311192314.png",
     "_attachments/Pasted image 20240309191916.png",
-    "~ Recommendations.md",
     "_attachments/Pasted image 20240306120006.png",
-    "_attachments/Pasted image 20240306113459.png",
-    "_attachments/Pasted image 20240306113457.png",
-    "_attachments/Pasted image 20240306113450.png",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
