@@ -110,7 +110,7 @@ Above: Next-token prediction is used in all aspects of both training and inferen
 			- Usefulness: Consider a case where a single token has a very high probability (higher than topP); In this case, nucleus sampling will always sample this token. Alternatively, assigning more uniform probability across tokens may cause a larger number of tokens to be considered during decoding. Put simply, nucleus sampling can dynamically adjust the number of tokens that are considered during decoding based on their probabilities.
 			- Note: We should only use Nucleus Sampling ==OR== temperature; OpenAPI say that these parameters cannot be used in tandem -- they're different and disjoint methods of controlling the randomness of a language model's output.
 			- ![[Pasted image 20240213165328.png]]
-		1. [[Top-K Sampling]] - [link](https://docs.cohere.com/docs/controlling-generation-with-top-k-top-p)
+		4. [[Top-K Sampling]] - [link](https://docs.cohere.com/docs/controlling-generation-with-top-k-top-p)
 			- Samples from the top-K tokens in the probability distribution that have the highest probability. This approach allows the other high-scoring tokens a chance of being picked. 
 			- ![[Pasted image 20240213165241.png]]
 
