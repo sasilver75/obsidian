@@ -215,7 +215,7 @@ They finetuned `t5-lm` on the synthetic instructions and found it to outperform 
 
 ---------
 
-# Distillation Techniques
+# (1/2) Distillation Techniques
 - Since unnatural instructions, several models have been finetuned on distilled synthetic data, usually from OpenAI APIs.
 - These models explored ways to improve instruction-following on increasingly complex queries, with some focused on code.
 
@@ -226,7 +226,7 @@ They finetuned `t5-lm` on the synthetic instructions and found it to outperform 
 [[Vicuna]] (Stanford, March 2023) finetuned llama-7b and llama-13b on user conversations from ShareGPT.com
 - They filtered out inappropriate and low-quality samples, resulting in 125k conversations which were used for instruction-tuning.
 
-[[WizardLM]] (Microsoft, April 2023) generated how to generate *more complex* instructions and responses via GPT-3.5
+[[WizardLM]] (Microsoft, April 2023) generated ==how to generate *more complex* instructions and responses== via GPT-3.5
 - It distinguishes between *in-depth evolution* and *in-breadth evolution*.
 	- ==In-depth evolution== makes instructions more complex via five types of prompts, such as:
 		- Adding constraints
@@ -239,7 +239,104 @@ They finetuned `t5-lm` on the synthetic instructions and found it to outperform 
 Above: examples of [[Evol-Instruct]], the technique that was used to generate data that was used to train WizardLM
 
 [[Orca]] (Microsoft, June 2023)
-- Explores how *smaller models* can imitate the reasoning processes of a larger, stronger model via explanation traces.
+- Explores how *smaller models* can imitate the reasoning processes of a larger, stronger model via *==explanation traces==*.
+- The ==augmented instruction-response pairs with *explanations*== from both GPT-4 and GPT-3.5 (for cost reasons). The explanations demonstrate *the reasoning process* as it generates the response.
+- Prompts include "explain like I'm five," "think step-by-step", and "justify your response."
+- They sampled a diverse mix of tasks from [[FLAN]]-v2 and ==distilled 1M responses from GPT-4 and 5M responses from GPT-3.5, and used them to finetune Llama-13b==.
+
+![[Pasted image 20240312214608.png]]
+Above: Orca paper
+- Note how the prompts to generate synthetic data include:
+	1. System Instruction ((System Prompt))
+	2. User Instruction ((This is the specific task class description))
+	3. Input ((This is the actual question))
+
+
+[[Orca 2]] (Microsoft, November 2023)
+- Continues down the path of reasoning by finetuning Llama-7b/13b to use ==various reasoning strategies== for different tasks.
+- The distilled a synthetic dataset of 817k samples from GPT-4 with various reasoning techniques:
+	- ==Step-by-Step==
+	- ==Recall-then-Generate==
+	- ==Recall-Reason-Generate==
+	- ...
+These synthetic samples included information on how to determine the most effective reasoning technique for each task.
+
+[[WizardCoder]] (Microsoft, June 2023)
+- ==Extends the previous WizardLM paper by adapting the Evol-Instruct method to make *code instructions* more complex to enhance finetuning==.
+	- ((It seems like this is the same [[Evol-Instruct]] technique as used to train a general language model, but now applied to a code-gen-focused language model))
+- Finetuned Starcoder-15b on the synthetic data
+
+```
+Add new constraints and requirements to the original problem, adding
+approximately 10 additional words.
+
+Replace a commonly used requirement in the programming task with a less
+common and more specific one.
+
+If the original problem can be solved with only a few logical steps,
+please add more reasoning steps.
+
+Provide a piece of erroneous code as a reference to increase
+misdirection.
+
+Propose higher time or space complexity requirements, but please refrain
+from doing so frequently.
+```
+Above: Examples of the prompts that were used in the Evol-Instruct technique to make the coding instructions *more complex*
+
+
+[[Magicoder]] (UIUC/Tsinghua, Dec 2023)
+- ==Generates synthetic coding problems by providing example code snippets as part of the few-shot prompt==.
+
+![[Pasted image 20240312215749.png]]
+- Above:
+	- "Please gain inspiration from the provided code snippet to create a high-quality programming problem"
+
+[[WaveCoder]] (Microsoft, Dec 2023)
+- Extends code instruction-tuning by classifying instruction data into four code tasks:
+	1. summarization
+	2. generation
+	3. translation
+	4. repair
+- Given a dataset of comment-code pairs, they ==use GPT-4 to generate instructions and code requirements, followed by GPT-3.5 to generate context and responses. Then, they used GPT-4 to classify the generated samples as good or bad, and the good samples were used to finetune several code-gen models==.
+![[Pasted image 20240312220238.png]]
+Above: Note use of an LLM Generator and an LLM discriminator
+
+[[Phi-1]]: Textbooks are all you need (Microsoft, June 2023)
+- Trained a 1.3B param model to write simple Python functions via docstrings.
+- This ==small model was trained on "textbook-quality" data filtered from [[The Stack]] and StackOverflow via a separate quality classifier.==
+	- To train this quality classifier, they used GPT-4 to annotate 100k samples based on their "educational value," and then trained a random forest classifier that predicts file quality.
+	- ((Note: Random Forests are great because they're fast, relative to NNs))
+- They also augmented the data with synthetic textbooks and exercises (~1B tokens) distilled from GPT-3.5. The synthetic textbooks were used in pretraining, while the synthetic exercises were used in instruction-tuning.
+
+[[Phi-1.5]]: Textbooks are all you need 2 (Microsoft, September 2023)
+- The Phi investigation continues; they generate 20B tokens of synthetic textbooks on common sense reasoning and general knowledge of the world, and use the data to pretrain a model.
+
+[[Starling]]-7B (Berkeley, November 2023)
+- Has an additional component of ==preference-tuning ( via [[Reinforcement Learning from from AI Feedback|RLAIF]]) on a GPT-4-labeled ranking dataset that consists of 183 chat prompts that each ahve seven responses distilled from models like GPT-4, GPt-3.5-instruct, GPT-3.5.-turbo, Mistral-7b-instruct, and Llama-7b==.
+	- This results in 3.8M pairwise comparisons.
+- This preference data is then used to finetune a reward model.
+- ((So this is like dataset distillation using some well-aligned models to create an alignment/human preference dataset))
+
+![[Pasted image 20240312221131.png]]
+
+-----------
+
+# (2/2) Self-Improvement (aka non-distillation) techniques
+- In contrast to the distillation techniques, these [[Self-Improvement]] techniques don't rely on an external model to generate synthetic data -- Instead, ==they bootstrap on the model that's being finetuned over several iterations of generation, self-evaluation, and finetuning==.
+
+### Synthetic data for instruction-tuning
+
+Self-Alignment with Instruction Backtranslation (Meta, Aug 2023)
+- Turns synthetic data generation on its head! ==Instead of generating *responses for human instructions*, they instead *generate instructions for human-written text on the internet.*==
+- It's inspired by *backtranslation* methods from machine translation where human-written target sentence is automatically annotated with model-generated source sentences.
+![[Pasted image 20240312222440.png|425]]
+Above:
+- 
+
+
+
+
 
 
 
