@@ -8,3 +8,5 @@ https://x.com/thesephist/status/1734966611814289756?s=20
 - Sort of like how yikes in the Latent Space paper club used OpenInterpreter to scrape a bunch of related papers into a Weaviate rag chatbot (Verba), and then used it as a sidecar to the presentation.... could you do the same thing for a powerpoint presentation, for instance? Extract topics, etc from the slides, find relevant documents ingest them, and people can answer questions they have about the presentation from a little sidecar Q&A bot while the presentation is still going, so they can have better understanding.
 
 ![[Pasted image 20240313115215.png]]
+
+- A chrome extension that lets you comment on every page on the internet. The comment section of the internet. Bootstrap it with LLM outputs.
