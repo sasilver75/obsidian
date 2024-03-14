@@ -139,5 +139,22 @@ Above:
 	- The cost of a length 2 codeword (like "01") is 1/4, because a quarter of all possible codewords start with 01.
 	- In general, the cost of codewords decreases exponentially with the length of the codeword.
 
+![[Pasted image 20240313232651.png]]
 
+We want short codewords because we want short average message lengths! Each codeword makes the average message length *longer* by its probability times the length of the codeword! (Think: the area of the squares in the preceding diagrams).
+
+![[Pasted image 20240313232818.png|200]]
+
+These two values are related by the *length* of the codeword:
+- The amount we pay decides the length of the codeword
+- The length of the codeword controls how much it adds to the average message length.
+
+We can picture them together:
+![[Pasted image 20240313232855.png]]
+
+==Short codewords reduce the average message length but are expensive, while long codewords increase the average message length but are cheap.==
+
+![[Pasted image 20240313232925.png]]
+What's the best way to use our limited budget?
+1. We want to spend more of frequently-used codewords, so let's distribute our budget in proportion to how common an event is!
 
