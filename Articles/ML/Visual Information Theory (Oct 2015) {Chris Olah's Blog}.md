@@ -156,5 +156,6 @@ We can picture them together:
 
 ![[Pasted image 20240313232925.png]]
 What's the best way to use our limited budget?
-1. We want to spend more of frequently-used codewords, so let's distribute our budget in proportion to how common an event is!
+1. We want to spend more of frequently-used codewords, so let's distribute our budget in proportion to how common an event is!  
 
+ 
