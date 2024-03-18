@@ -127,7 +127,7 @@ They're lost to us!
 
 ![[Pasted image 20240313224323.png|300]]
 Above:
-- Since a *quarter* of all possible codewords start with 01, we've sacrificed a quarter of all possible codewords! 
+- Since a *quarter* of all possible codewords start with 01, we've sacrificed a quarter of all possible codewords!  
 - This is just the price we pay in exchange for having one codeword that's only 2 bits long! In turn, this sacrifice means that all of the other codewords need to be a bit longer. But what's the right amount/nature of tradeoff?
 
 # Optimal Encodings
