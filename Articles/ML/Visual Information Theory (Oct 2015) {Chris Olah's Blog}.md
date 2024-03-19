@@ -121,7 +121,7 @@ We want our code to be *==uniquely decodable==, with only one way to decode an e
 One way to think about this is that every codeword requires a sacrifice from the space of possible codewords.
 
 If we take the codeword 01, we lose the ability to use any codewords that it's a prefix of:
-- We can't use 010
+- We can't use 010 
 - We can't use 011010110
 They're lost to us!
 
