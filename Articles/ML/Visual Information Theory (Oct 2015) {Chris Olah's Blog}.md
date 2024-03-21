@@ -13,7 +13,7 @@ Unfortunately, information theory can be a little intimidating, but it doesn't h
 
 # Visualizing Probability Distributions
 - Before we dive into information theory, let's talk about how we can visualize simple probability distributions.
-- We can visualize a single probability distribution:
+- We can visualize a single probability distribution: 
 ![[Pasted image 20240313170239.png|50]]
 - What if we want to visualize two probability distributions at the same time? It's easy if they *don't interact* (if they're statistically independent) -- we can just use one axis for one variable and one for the other!
 
