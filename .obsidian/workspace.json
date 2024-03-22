@@ -97,9 +97,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "095d283060c9999f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -145,7 +158,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -226,13 +240,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea791d99ff7ed108",
+  "active": "095d283060c9999f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240321233454.png",
+    "Cross-Entropy.md",
+    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+    "_attachments/Pasted image 20240321225205.png",
+    "_attachments/Pasted image 20240321223329.png",
+    "_attachments/Pasted image 20240321221128.png",
     "~ Vocabulary.md",
     "He Initialization.md",
     "WizardLM.md",
     "Distillation.md",
-    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
     "_attachments/Pasted image 20240313232925.png",
     "_attachments/Pasted image 20240313232855.png",
     "_attachments/Pasted image 20240313232818.png",
@@ -241,9 +260,6 @@
     "_attachments/Pasted image 20240313223443.png",
     "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
     "_attachments/Pasted image 20240313221644.png",
-    "_attachments/Pasted image 20240313221552.png",
-    "_attachments/Pasted image 20240313221305.png",
-    "_attachments/Pasted image 20240313221157.png",
     "Untitled 9.md",
     "~ Research Ideas.md",
     "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
@@ -262,7 +278,6 @@
     "Bootstrap Aggregation.md",
     "Convolutional Neural Network.md",
     "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "T5.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
