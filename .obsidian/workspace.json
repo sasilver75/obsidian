@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -158,8 +158,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md"
+                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -242,13 +241,14 @@
   },
   "active": "095d283060c9999f",
   "lastOpenFiles": [
+    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+    "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240322004936.png",
     "_attachments/Pasted image 20240322004331.png",
     "_attachments/Pasted image 20240322001020.png",
     "_attachments/Pasted image 20240322000721.png",
     "_attachments/Pasted image 20240321233454.png",
     "Cross-Entropy.md",
-    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
     "_attachments/Pasted image 20240321225205.png",
     "_attachments/Pasted image 20240321223329.png",
     "_attachments/Pasted image 20240321221128.png",
@@ -258,7 +258,6 @@
     "Distillation.md",
     "_attachments/Pasted image 20240313232925.png",
     "_attachments/Pasted image 20240313232855.png",
-    "_attachments/Pasted image 20240313232818.png",
     "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
     "Untitled 9.md",
     "~ Research Ideas.md",
