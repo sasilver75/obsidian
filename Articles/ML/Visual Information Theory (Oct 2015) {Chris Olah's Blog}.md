@@ -238,4 +238,63 @@ KL divergence of p with respect to q is the Cross entropy of p with respect to q
 The neat thing about the KL divergence is that ==it's like a distance between two distributions==
 - ((But careful with this idea of distance, because KL Divergence, like Cross Entropy, isn't symmetrical))
 
+==Cross Entropy and KL Divergence are incredibly useful in ML -- oftentimes we want one distribution to be close to another==! For example, we might want a predicted distribution to be close to the ground truth distribution.
+
+
+# Mutual Information
+- We observed that knowing one variable can mean that communicating another variable requires less information -- one way to think about this is to imagine amounts of information as bars.
+- ![[Pasted image 20240322000721.png]]
+- These bars overlap if there's shared information between them.
+- For example, some of the information in X and Y is shared between them, so H(X) and H(Y) are overlapping bars, and since H(X,Y) is the information in both, it's the union of the bars H(X) and H(Y).
+
+Once we think about things this way, a lot of things become easier to see!
+- We previously noted that it takes more information to communicate both X and Y (the "==joint entropy==", H(X,Y)) than it takes to *just* community X (the "==marginal entropy==", H(X)) 
+- But if you already KNOW Y, then it takes *less information* to communicate X! (the "==conditional entropy==", H(X|Y)) than it would if you didn't know Y!
+
+![[Pasted image 20240322001020.png]]
+
+==H(X|Y) is the information we need to send to communicate X to someone who already knows Y -- it's the information in X which isn't also/already in Y!==
+- Visually, this means that H(X|Y) is the part of H(X) bar that *doesn't* overlap with H(Y)
+
+![[Pasted image 20240322004331.png]]
+
+Another identity: H(X,Y) = H(Y) + H(X|Y)
+
+
+This information shared between variables -- the intersection of their information, is called [[Mutual Information]], and is defined as:
+
+==Mutual Information Equation==
+
+$I(X,Y) = H(X) + H(Y) - H(X,Y)$
+
+This definition works because H(X) + H(Y) has two copies of the mutual information, since it's in both X and Y, whereas H(X,Y) only has one.
+
+In contrast, the ==Variation of Information== is information that *isn't shared* between the two variables!
+
+$V(X,Y) = H(X, Y) - I(X, Y)$
+
+Variation of Information gives us a metric, a notion of distance, between different variables -- the variation of information between two variables is zero if knowing the value of one tells you the value of the other. As variables get more independent, the variation of information increase.
+
+How does this relate to KL divergence?
+- KL divergence gives us a distance between two distributions over the same variable or set of variables.
+- In contrast, variation of information gives us distance between two jointly distributed variables.
+- ==KL divergence is *between distributions* and Variation of Information is *within* a distribution.==
+
+![[Pasted image 20240322004936.png]]
+
+# Conclusion
+
+- If we care about communicating in a minimum number of bits, these ideas are clearly fundamental.
+- But people in ML, thermodynamics, genetics, and physics typically don't care about information theory because they want to compress information -- they care because it has a compelling connection to their field!
+- Information theory turns up in all places because it offers concrete, principled formalizations for many things we need to express. It gives us ways of measuring and expressing uncertainty, how different two sets of beliefs are, and how much an answer to one question tells us about others: how diffuse probability is, the distance between probability distributions, and how dependent two variables are.
+
+In Machine Learning
+- Let's say we're classifying a picture as either a dog or cat.
+- Let's say we predict the answer is 80% dog, and 20% cat -- how much better would it have been to say 85%? The correct answer depends on what we're using the model for
+	- Do we only care about whether the top guess was correct (accuracy)
+	- Do we care about how confident we are in the chosen answer?
+		- How bad is it to be confidently wrong?
+
+Information gives us a powerful new framework for thinking about the world -- sometimes it perfectly fits the problem at hand, and other times it's not an exact fit, but is still extremely useful.
+
 
