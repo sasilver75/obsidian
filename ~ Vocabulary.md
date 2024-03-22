@@ -55,7 +55,7 @@ iter# Linear Algebra
 - [[Alignment]]
 - [[KL Divergence]]
 - [[Entropy]]
-- [[Cross Entropy]]
+- [[Cross-Entropy]]
 - [[Matryoshka Representation Learning]]
 - [[Large Language Model]]
 - [[Foundation Model]]

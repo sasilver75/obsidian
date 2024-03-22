@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "baseFontSize": 10,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "theme-override"
+  ]
 }

@@ -116,7 +116,7 @@ From an empirical bent:
 
 This average surprise has a name in more traditional approaches: it's the *==cross-entropy==* of Q on P! You might see it written as:
 
-==[[Cross Entropy]]== formula, used to 
+==[[Cross-Entropy]]== formula, used to 
 $H(P,Q) = - \sum{p(x)log(q(x))}$ 
 
 From the traditional, Shannon perspective, the interpretation of this quantity is that it is the length of encoded messages using a code optimized for a distribution $Q$ on messages drawn from a distribution $P$ (The author notes that this isn't very intuitive).

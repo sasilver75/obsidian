@@ -157,5 +157,85 @@ We can picture them together:
 ![[Pasted image 20240313232925.png]]
 What's the best way to use our limited budget?
 1. We want to spend more of frequently-used codewords, so let's distribute our budget in proportion to how common an event is!
+	- So if one event happens 50% of the time, we should spend 50% of our budget buying a short codeword for it -- and if an event only happens 1% of the time, we should only spend 1% of it.
+	- It turns out that this is both the "natural" thing to do, but it's also the optimal thing to do! (Skipping proof)
 
- 
+
+# Calculating Entropy
+
+Recall that the *cost* of a message of length $L$ is $1/2^L$ 
+- We can invert this to get the length of a message that costs a given amount: $log_2(1/cost)$ 
+- ==Since we spend $p(x)$ on a codeword for $x$, the length is $log_2(1/p(x))$== 
+
+![[Pasted image 20240321221128.png]]
+Earlier, we discussed that there's a *fundamental limit* to how short one can get the average message to communicate events from a particular probability distribution, p.
+
+This limit -- ==the average message length using the best possible code== is called the [[Entropy]] of p, H(p)
+
+Now that we know the optimal lengths of the codewords, we can actually calculate it:
+
+$H(p) = \sum_x(p(x)log_2(1/p(x)))$ 
+
+Using the identity of $log(1/a) = -log(a)$    ... we can rewrite the above as the more common:
+
+==Entropy Equation==
+
+$H(p) = -\sum(p(x)log_2(p(x)))$ 
+
+==No matter what I do, on average we need to send *at least* that number of bits if I want to communicate which event occurred.====
+
+The average amount of information needed to communicate something has clear implications for ==compression==... but it also describes how ==uncertain== we are.
+- If I knew for sure what was going to happen, we wouldn't have to send a message at all! If there's *two* things that could happen with 50% probability, I only need to send 1 bit.
+- If there 64 things that could happen with *equal probability*, we'd have to send 6 bits (2^6=64)
+	- ==The more concentrated the probability, to more we can craft a clever code with short average messages!==
+	- ==The more diffuse (uniform) the probability, the longer our messages have to be.==
+
+==The more uncertain the outcome, the more we learn when we find out what actually happened.==
+
+# Cross-Entropy
+
+> Let's say that Bob married Alice.
+> Alice wasn't a dog lover like bob -- she was a *cat* lover!
+
+![[Pasted image 20240321223329.png|300]]
+
+The two of them say the same words, but at different frequencies.
+If Alice uses the same encoding scheme that we devised for Bob above, her messages are going to be longer than they need to be. 
+Bob's code is optimized to his probability distribution, but Alice has her own probability distribution.
+
+Though the average length of a codeword when *Bob* uses his own code is 1.75 bits, when Alice re-uses his code for *her* messages, the average length is 2.25 bits!
+
+This difference in these two lengths is called the [[Cross-Entropy]]
+==This extra length (2.25-1.75) -- the average length of communicating an event from *one* distribution using the optimal code from *another* distribution -- is called the Cross Entropy!==
+
+Formally:
+
+$H_p(q) = \sum_xq(x)log_2(\dfrac{1}{p(x)})$ 
+above: 
+- Note the use of `q` and `p` to represent two *different* distributions!
+- Note that Cross Entropy is *not symmetrical!*
+- ==Here, it's the cross-entropy of Alice the cat lover's word frequency with respect to Bob the dog-lover's word frequency.==
+
+![[Pasted image 20240321225205.png]]
+
+To keep the cost of communications down, let's ask Alice to use *her own code!*
+- After she did this, Bob sometimes accidentally used Alice's code -- ==surprisingly, it's worse for Bob to accidentally use Alice's code than for Alice to use his!== This is because ==Cross Entropy is not symmetric!== 
+
+#### Why care about Cross-Entropy?
+
+[[Cross-Entropy]] gives us a way to express how different two probability distributions are.
+- The more *different* the distributions of p and q are, the more the {cross-entropy of p with respect to q} will be bigger than the entropy of p.
+![[Pasted image 20240321233454.png|250]]
+
+The interesting thing is the ==difference between the entropy and the cross-entropy==.
+- This difference is how much longer our messages are because we used a code optimized for a different distribution -- ==in another word, the "excess" length by using the "wrong" encoding for our messages==.
+	- This difference is called the [[KL Divergence|Kullback-Leibler Divergence]], or ==KL Divergence==.
+
+The KL Divergence of *p* with respect to *q* is defined as:
+$D_q(p) = H_q(p) - H(p)$
+KL divergence of p with respect to q is the Cross entropy of p with respect to q, minus the entropy of p.
+
+The neat thing about the KL divergence is that ==it's like a distance between two distributions==
+- ((But careful with this idea of distance, because KL Divergence, like Cross Entropy, isn't symmetrical))
+
+
