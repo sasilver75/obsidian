@@ -108,6 +108,67 @@ Deep sequential NNs discard the traditional notion of a "layer" used within NN a
 
 
 ### Outrageously Large Neural Networks: The Sparsely Gated Mixture-of-Experts Layer (Jan 2017, Shazeer)
+Despite being studied for over two decades, MoEs fell short of their promise due to various technical challenges -- the authors in this paper tried to overcome some of these in this paper, applying MoEs to language modeling and translation domains.
+
+- Prior issues with MoEs
+	- GPUs are good at performing arithmetic efficiently, but ==GPUs aren't good at *branching==* (which is a major component of conditional computation)
+	- Large batch sizes are needed to train NNs efficiently, but ==MoEs reduce (effective) batch sizes== (Because each expert received only some portion of the input batch, as each is routed )
+	- Increased modeling capacity is most impactful when studying domains with *larger* training datasets, but MoEs in the past were studied in CV applications where there were insufficiently-large datasets.
+
+What is a *Sparse MoE?
+- ==Experts==
+	- Each layer has several "experts" that are standalone neural network modules or layers with independent sets of parameters. 
+	- In our situation, each expert in an MoE is a feed-forward NN with an identical architecture... but we could actually use more complex architectures! **We could even create hierarchical MoE modules by implementing each expert as its *own* MoE!**
+- ==Router==
+	- A parametric (and learnable) gating mechanism that selects a (sparse) group of experts used to process each
+
+Both the experts and the gating mechanism are jointly trained along with the rest of the NN parameters via gradient descent.
+
+==To compute the output of an MoE module, we take a weighted combination of expert outputs, where the weights are provided by the router!==
+
+![[Pasted image 20240322220646.png|250]]
+
+The router outputs an N-dimensional *vector* of weights (where N is the number of experts).
+
+Although this approach might not initially seem useful, the magic happens when the router's output is *sparse!* 
+- in this case, experts that receive a weight of zero are no longer considered when computing the output of an MoE! This allows us to train very large networks without significant compute requirements, as only a portion of model parameter are used at any given time.
+
+![[Pasted image 20240322221129.png]]
+
+Gating Mechanism
+- Many different strategies have been given for routing within an MoE. 
+- The simplest approach is to multiply our input by a weight matrix and apply *softmax* -- but this doesn't guarantee that the output is going to be sparse!
+	- To solve this, authors propose a *modified gating mechanism* that adds sparsity and noise to this simplistic softmax gating mechanism.
+
+![[Pasted image 20240322222050.png]]
+
+The gating mechanism above performs routing similarly to the softmax gating mechanism, but it includes two additional steps:
+1.  An adjustable amount of *Gaussian noise is added* to the output of the router prior to applying softmax.
+2. All but the *output of the top-K experts are masked* (i.e. set to $-\infty$) to ensure that the selection of experts is sparse.
+
+Balancing the experts:
+- One issue with MoEs is that the network has a tendency to repeatedly utilize the same few experts during training.
+- Instead of learning to use all experts uniformly, ==the gating mechanism will unfortunately converge to a state that always selects the same set of experts for every input==!
+	- A ***self-fulfilling loop***: *If one expert is selected most frequently, it will be trained more rapidly, and therefore continue to be selected over the other experts!*
+	- Prior work has proposed several approaches for solving the issue, but we see that experts can be balanced by adding a simple "soft" constraint to the training loss:
+
+![[Pasted image 20240322223453.png]]
+==We first define an "importance" score for each expert over a batch of input data, which can be computed by taking a sum over the gate values for each expert across the batch.==
+
+Put simply, experts that are selected frequently in the batch will have a high importance score.
+Then, we can compute an *==auxiliary loss function==* by taking the squared coefficient of variation (CV) of expert importance scores; see above.
+==This loss term can be added to the model's training objective to encourage experts to receive equal importance within each batch.==
+
+If the size of the training dataset is sufficiently small, then adding more capacity via more experts has diminishing returns, but we see that performance continues to improve up to a size of 68B parameters!
+
+Such a finding emphasizes the synergy between MoE layers and the language modeling domain -- added model capacity is helpful given a sufficiently large training corpus.
+
+# Applying Mixture-of-Experts to Transformers
+- Now that we've studied early work on conditional computation, we can take a look at some applications of MoE to the transformer architecture, focusing on the encoder-decoder transformer architecture.
+
+Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+- After the proposal of the sparsely-gated MoE, work on trans
+
 
 
 
