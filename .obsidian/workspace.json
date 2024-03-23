@@ -171,7 +171,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -254,6 +255,10 @@
   },
   "active": "9ccfbf655931a3a1",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240322223453.png",
+    "_attachments/Pasted image 20240322222050.png",
+    "_attachments/Pasted image 20240322221129.png",
+    "_attachments/Pasted image 20240322220646.png",
     "Andrew Ng.md",
     "He Initialization.md",
     "~ Vocabulary.md",
@@ -271,9 +276,6 @@
     "_attachments/Pasted image 20240322172649.png",
     "_attachments/Pasted image 20240322172507.png",
     "_attachments/Pasted image 20240322004936.png",
-    "_attachments/Pasted image 20240322004331.png",
-    "_attachments/Pasted image 20240322001020.png",
-    "_attachments/Pasted image 20240322000721.png",
     "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
     "Untitled 9.md",
     "~ Research Ideas.md",
@@ -289,7 +291,6 @@
     "Boosting.md",
     "~ Memes.md",
     "L2 Regularization.md",
-    "Weight Decay.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
