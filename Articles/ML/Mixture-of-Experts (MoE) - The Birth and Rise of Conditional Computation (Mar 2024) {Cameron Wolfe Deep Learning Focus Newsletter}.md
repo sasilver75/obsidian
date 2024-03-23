@@ -167,12 +167,68 @@ Such a finding emphasizes the synergy between MoE layers and the language modeli
 - Now that we've studied early work on conditional computation, we can take a look at some applications of MoE to the transformer architecture, focusing on the encoder-decoder transformer architecture.
 
 Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
-- After the proposal of the sparsely-gated MoE, work on trans
+- After the proposal of the sparsely-gated MoE, work on transformers and language models had yet to begin using these ideas... adoption was hindered by the general complexity of MoE and training instability.
+- Authors proposed an MoE-based encoder-decoder transformer architecture called the Switch Transformer that used a simplified gating mechanism to keep the training more stable, making MoE a more realistic and practical choice for language modeling applications.
+
+When the Switch Transformer was proposed, researchers were just beginning to study neural scaling laws, which show that a language model's performance smoothly improves as we increase its size.
+
+MoE models allow us to add another dimension to the analysis of neural scaling laws -- we can increase model size while keeping the computational complexity of the model's forward pass constant.
+
+Applying MoE to transformers
+- To create an MoE variant of an encoder-decoder transformer, we can simply convert the feed-forward sub-layers of the model into MoE layers!
+
+![[Pasted image 20240322231239.png|450]]
+
+- The feedforward transformation is applied in a pointwise fashion, meaning that each token is passed individually through the feed-forward network. 
+	- As a result, each token in the sequence is routed to its set of corresponding experts.
+	- Each token is passed through the routing function, forming a probability distribution over experts. Then, we select the top-K experts for each individual token -- tokens in the same sequence aren't always sent to the same experts.
+
+Better Routing
+- In prior work, the minimum number of active experts in any MoE layer was two.
+- In the Switch Transformer, authors propose routing each token to only a *single expert* -- this is called a ==Switch Layer==
+	- By routing to a single expert, we simplify the routing function, reduce computational overhead, and lessen communication costs while improving model performance.
+	- The routing function used by the Switch Transformer is just a softmax gating mechanism; we pass each token through a linear layer that produces an output of size N (the number of experts), then apply a softmax transformation to convert this output into a probability distribution over experts.
+
+![[Pasted image 20240322232344.png|250]]
+Above:  The routing function
+
+![[Pasted image 20240322232357.png|250]]
 
 
+Above: The computation of the output of the MoE layer
+
+From here, we compute the output of the switch layer by:
+1. Selecting a single expert
+2. Scaling the output of this expert by the probability assigned to the expert by the routing function.
+
+In other words, we still compute a probability output by scaling the output of the selected expert by its probability; see as above. This approach allows us to train the MoE model when K=1.
+
+Simple load balancing
+- Authors employ multiple auxiliary loss functions to balance importance scores and perform load balancing between experts (i.e. meaning that each expert is sent a roughly equal number of tokens from the batch).
+- We see that both of these objectives can be achieved with a single auxiliary loss function that is applied at each switch layer in the model
+
+![[Pasted image 20240322233625.png]]
+
+This loss is differentiable with respect to P and can be easily incorporated into training, encourages both the fraction of tokens allocated to each each expert to be $\dfrac{1}{N}$ , meaning that experts are equally important and receive a balanced number of tokens.
 
 
+Capacity Factor
+- We set a global "==expert capacity==" variable that determines the number of tokens that can be routed to each expert in any MoE layer.
+- The equation for expert capacity is shown below:
 
+$expert\ capacity = \dfrac{tokens\ per\ batch}{number\ of\ experts} * capacity\ factor$ 
+
+In a switch layer, each token is routed to the expert that is assigned the highest probability by the routing mechanism.
+- If too many tokens are sent to a single expert, computation for these tokens will be "==skipped==" -- these "dropped" tokens are passed directly to the next layer via the residual connection. Setting the capacity factor greater than one allows the MoE to handle cases where tokens are not perfectly balanced across experts.
+
+These "dropped" tokens are passed directly to the next layer via the residual connection.
+
+Setting the capacity factor greater than one allows the MoE to handle cases where tokens are not perfectly balanced across experts.
+
+![[Pasted image 20240322235304.png|500]]
+
+
+The expert 
 
 
 
