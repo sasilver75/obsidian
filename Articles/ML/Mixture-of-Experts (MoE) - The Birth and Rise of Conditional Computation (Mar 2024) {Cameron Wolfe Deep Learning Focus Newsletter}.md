@@ -214,7 +214,7 @@ This loss is differentiable with respect to P and can be easily incorporated int
 
 Capacity Factor
 - We set a global "==expert capacity==" variable that determines the number of tokens that can be routed to each expert in any MoE layer.
-- The equation for expert capacity is shown below:
+- The equation for expert capacity is shown below: 
 
 $expert\ capacity = \dfrac{tokens\ per\ batch}{number\ of\ experts} * capacity\ factor$ 
 
