@@ -4,133 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eabb9f289ea7013b",
+        "id": "7ffac2f70f47a158",
         "type": "tabs",
         "children": [
           {
-            "id": "ccf67fb6e80459bd",
+            "id": "17c04227d8be441f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cd6d052aa65f51b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "913ae728eb563f72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WizardLM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4b91a98cc85529c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0445f1e05ab83bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "He Initialization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ccfbf655931a3a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91706f3b9265a39f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea791d99ff7ed108",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31965d809a73c274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92e14d70863a77b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mixture of Experts.md",
+                "file": "Articles/ML/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
+                "file": "Articles/ML/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
+                "file": "Articles/ML/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md"
+                "file": "Articles/ML/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md"
               }
             }
           }
@@ -265,17 +147,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccf67fb6e80459bd",
+  "active": "17c04227d8be441f",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240325210654.png",
-    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+    "Articles/ML/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
     "Mixture of Experts.md",
     "~ Vocabulary.md",
+    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
     "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
     "He Initialization.md",
     "WizardLM.md",
     "Distillation.md",
+    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Articles/Fine- Tuning is just synthetic Data Engineering (Jan 11, 2024) {Generating Conversation blog}.md",
+    "Untitled 11.md",
+    "Articles/ML/Thoughts on the 2024 AI Job Market (Feb 2024) {Sebastian Ruder Blog}.md",
+    "Articles/ML/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
+    "BERT.md",
+    "Articles/ML/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
+    "Bidirectional Encoder Representations from Transformers.md",
+    "Articles/ML/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md",
+    "Untitled 10.md",
+    "_attachments/Pasted image 20240325210654.png",
     "PEFT.md",
     "Parameter-Efficient Fine-Tuning.md",
     "_attachments/Pasted image 20240325204449.png",
@@ -288,21 +181,10 @@
     "_attachments/Pasted image 20240322223453.png",
     "_attachments/Pasted image 20240322222050.png",
     "_attachments/Pasted image 20240322221129.png",
-    "_attachments/Pasted image 20240322220646.png",
     "Andrew Ng.md",
     "Retrieval-Augmented Generation.md",
     "Cross-Entropy.md",
     "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
-    "Untitled 9.md",
-    "~ Research Ideas.md",
-    "Articles/ML/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
-    "~ Questions.md",
-    "Articles/ML/Orca  - Properly Imitating Proprietary LLMs (Jun 2023) {Cameron Wolfe, Deep Learning Focus}.md",
-    "Articles/ML/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
-    "Generative Adversarial Network.md",
-    "Top-P Sampling.md",
-    "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",

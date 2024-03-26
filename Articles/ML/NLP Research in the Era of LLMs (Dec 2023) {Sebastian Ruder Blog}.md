@@ -82,12 +82,25 @@ LLM mechanisms that remain poorly understood include:
 
 
 # 4. Evaluation
-- In 2021, a common sentiment was that NLP models had outpaced the benchmarks to test them.
+- In 2021, a common sentiment was that NLP models had outpaced the benchmarks to test them. Not much has changed since then.
 
 > "*Benchmarks shape a field, for better or worse -- Good benchmarks are in alignment with real applications, but bad benchmarks are not, forcing engineers to choose between making changes that help end-users, or making changes that only help with marketing.*"
 > - David Patterson, System Benchmarking (2020)
 
+- Many tests like MMLU and AGIEval focus on exams, which don't reflect the diverse range of tasks where we would like to apply LLMs in.
+- ==Leaderboard contamination== is also a problem -- benchmark data available online is likely to have been included in the pre-trained data of LLMs.
 
+Existing automatic metrics are ill-suited for more complex downstream applications and open-ended natural language generation tasks.
+
+As applications become more elaborate, *even the gold standard of human evaluation* becomes less reliable!
+
+
+
+# 5. Reasoning
+
+- Reasoning requires the use of logic to draw conclusions from new and existing information to arrive at a conclusion. 
+- Augmenting tools with external tools or small domain-specific models is a promising direction to make them more robust! For instance, Parsel (2023) decomposes a code-generation task into LLM-generated subfunctions that can be tested against input-output constraints using a code generation model.
+- Many complex real-world applications require different forms of reasoning -- so evaluating these capabilities in realistic scenarios is an important challenge.
 
 
 
