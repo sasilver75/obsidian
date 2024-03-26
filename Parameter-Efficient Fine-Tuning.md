@@ -1,3 +1,8 @@
+---
+aliases:
+  - PEFT
+---
+
 Examples: [[Low-Rank Adaptation|LoRA]], [[ControlNet]], [[Prompting]], [[Prefix Tuning]]
 
 
