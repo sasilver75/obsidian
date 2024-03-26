@@ -409,3 +409,4 @@ iter# Linear Algebra
 - [[Sara Hooker]]
 - [[Stephen Bach]]
 - [[Ishan Misra]]
+- [[Sebastian Ruder]]

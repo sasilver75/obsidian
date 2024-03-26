@@ -122,7 +122,7 @@ We can then *combine* the results of these two retrieval algorithms by taking a 
 From the retrieval process, we receive a collection of query-related candidate documents. We choose to then more finely *rank* these documents using a cross-encoder that more accurately ranks the search results based on textual relevance to the query.
 
 # Using BERT for Search
-- ==Most of the commonly-used bi-encoder *and* cross-encoders are based on [[BERT]]==
+- ==Most of the commonly-used bi-encoder *and* cross-encoders are based on [[Bidirectional Encoder Representations from Transformers|BERT]]==
 - As such, understanding the encoder-only architecture and self-supervised training strategy of BERT is important!
 
 #### Encoder-Only Architecture

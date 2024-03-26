@@ -81,7 +81,7 @@ What does T5 use?
 
 # BERT: Transfer Learning for NLP
 - Transfer learning in NLP typically uses recurrent neural networks pre-trained with a causal language modeling objective.
-	- But everything changed with the proposal of [[BERT]], a transformer model that's pre-trained with a self-supervised objective (Masked Language Modeling/Cloze or Next Sentence Prediction), and then can be fine-tuned for use in a downstream task that you care about.
+	- But everything changed with the proposal of [[Bidirectional Encoder Representations from Transformers|BERT]], a transformer model that's pre-trained with a self-supervised objective (Masked Language Modeling/Cloze or Next Sentence Prediction), and then can be fine-tuned for use in a downstream task that you care about.
 	- At the time of its proposal in late 2018, BERT set SoTA in nearly all NLP tasks that were considered (11).
 
 To make this a bit more specific, BERT relies on a "denoising" objective, called [[Masked Language Model]]ing, during pre-training.

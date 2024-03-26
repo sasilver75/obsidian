@@ -180,7 +180,7 @@ Architecture
 	- A 6B parameter, english-only causal language model that was proposed prior to GPT-NeoX-20B; This was similarly pretrained on [[The Pile]]. At the time of its release, it was the largest publicly-available [[GPT-3]] style language model.
 - GLM
 	- More of a pre-training objective than a language model.
-	- Explores the idea of unifying different pre-training techniques (eg from [[BERT]], [[T5]], [[GPT]]) by proposing an autoregressive blank-infilling objective.
+	- Explores the idea of unifying different pre-training techniques (eg from [[Bidirectional Encoder Representations from Transformers|BERT]], [[T5]], [[GPT]]) by proposing an autoregressive blank-infilling objective.
 		- In other words, we predict masked words in a sentence in an autoregressive manner, similar to a language model. The resulting model is quite small (<1B params), but is found to outperform BERT, T5, GPT on several popular NLP benchmarks.
 
 ![[Pasted image 20240214153453.png]]

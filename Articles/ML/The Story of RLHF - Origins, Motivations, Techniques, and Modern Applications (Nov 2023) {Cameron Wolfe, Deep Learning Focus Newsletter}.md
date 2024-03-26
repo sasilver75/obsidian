@@ -2,7 +2,7 @@
 Link: https://cameronrwolfe.substack.com/p/the-story-of-rlhf-origins-motivations
 
 ------
-- Language models experienced a surge of interest in 2018 with the proposal of [[BERT]], which demonstrated that the [[Transformer]] architecture, self-supervised pre-training, and supervised transfer learning form a powerful combination.
+- Language models experienced a surge of interest in 2018 with the proposal of [[Bidirectional Encoder Representations from Transformers|BERT]], which demonstrated that the [[Transformer]] architecture, self-supervised pre-training, and supervised transfer learning form a powerful combination.
 - [[T5]] saw that supervised transfer learning was effective in this domain as well.
 - Despite these accomplishments, those models pale in comparison to the generative capabilities of models like [[GPT-4]] that we have today! In order to create a model like this, we need training techniques that go far beyond supervised learning.
 
