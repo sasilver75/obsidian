@@ -228,10 +228,31 @@ Setting the capacity factor greater than one allows the MoE to handle cases wher
 ![[Pasted image 20240322235304.png|500]]
 
 
-The expert 
 
 
+# ((Skipping some sections to the end; I'll come back later))
 
+
+# Final Thoughts
+- Core Idea
+	- The fundamental idea behind an MoE is to ==decouple the model's parameter count from the amount of compute that it uses during inference/training==.
+	- ==To do this, we can simply replace layers within the model with several experts that are sparsely activated -- and a gating mechanism can determine which expert should be used for a given input.==
+- (two) Components of an MoE
+	1. ==The Experts==
+		- Each MoE layer has several similarly-structured experts that can be used to process the input data.
+	2. The ==Routing Mechanism==
+		- Given input, we use a routing mechanism to *sparsely* select some subset of the experts to which each token should be sent.
+		- We then compute and combine the experts' output for each token.
+- Applying MoEs to transformers
+	- We usually consider every (or some subset) feed-forward sub-layer within the transformer blocks, and replace them with MoE Layers!
+	- Each of the experts in the MoE layer are feed forward NNs with their own set of parameters that matches the architecture of the initial feed-forward sub-layer.
+	- In most cases, ==top-one or top-two routing==
+- ==Pros and Cons==
+	- +: Tend to learn faster than a compute-matched dense model
+	- +: Can increase the capacity of models significantly, allowing for larger models -- beneficial in settings with tons of training data (e.g. in language modeling domain).
+	- -: Consume more memory (even though not all experts are used for inference, they must still be stored in memory)
+	- -: Struggles with training stability (though there are methods to make this more reasonable)
+	- -: Tend to overfit during finetuning if there isn't enough training data
 
 
 
