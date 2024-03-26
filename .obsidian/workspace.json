@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
+                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91706f3b9265a39f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,8 +137,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "PEFT",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
+                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
+                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md"
+                "file": "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md"
               }
             }
           }
@@ -253,8 +265,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ccfbf655931a3a1",
+  "active": "ccf67fb6e80459bd",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240325210654.png",
+    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+    "Mixture of Experts.md",
+    "~ Vocabulary.md",
+    "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
+    "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
+    "He Initialization.md",
+    "WizardLM.md",
+    "Distillation.md",
+    "PEFT.md",
+    "Parameter-Efficient Fine-Tuning.md",
+    "_attachments/Pasted image 20240325204449.png",
+    "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
     "_attachments/Pasted image 20240322235304.png",
     "_attachments/Pasted image 20240322233625.png",
     "_attachments/Pasted image 20240322232357.png",
@@ -265,17 +290,8 @@
     "_attachments/Pasted image 20240322221129.png",
     "_attachments/Pasted image 20240322220646.png",
     "Andrew Ng.md",
-    "He Initialization.md",
-    "~ Vocabulary.md",
-    "WizardLM.md",
-    "Distillation.md",
-    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
-    "Mixture of Experts.md",
     "Retrieval-Augmented Generation.md",
     "Cross-Entropy.md",
-    "Articles/ML/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
-    "_attachments/Pasted image 20240322183832.png",
-    "_attachments/Pasted image 20240322183802.png",
     "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
     "Untitled 9.md",
     "~ Research Ideas.md",
@@ -287,10 +303,6 @@
     "Top-P Sampling.md",
     "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Articles/ML/Language Model Training and Inference - From Concept to Code (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Residual Network.md",
-    "Boosting.md",
-    "~ Memes.md",
-    "L2 Regularization.md",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",

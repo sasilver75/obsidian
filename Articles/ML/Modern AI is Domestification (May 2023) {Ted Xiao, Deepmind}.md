@@ -76,7 +76,7 @@ In the past year, a few major approaches have gained traction. While their techn
 	- [[Interactive Language]]: Language-annotated robot **trajectories**
 	- [[CodeXGLUE]]: Popular code repositories from GitHub; Well-written code.
 	- [[Locked-Image Tuning]] (LiT) finetunes text to match a frozen, pretrained image encoder.
-	- [[PEFT]] methods like [[Prefix Tuning]],  [[Prompt Tuning]], [[Low-Rank Adaptation]], [[ControlNet]] all freeze the main network and add new tunable weights that can be rapidly adapted to new datasets.
+	- [[Parameter-Efficient Fine-Tuning|PEFT]] methods like [[Prefix Tuning]],  [[Prompt Tuning]], [[Low-Rank Adaptation]], [[ControlNet]] all freeze the main network and add new tunable weights that can be rapidly adapted to new datasets.
 
 ### (3/5): Reinforcement Learning from Human Feedback (RLHF)
 - In contrast to SFT, [[Reinforcement Learning]]-related finetuning introduces a *reward model*, a *separate component* that aims to directly provide granular feedback signals to model outputs during training.
@@ -167,7 +167,7 @@ But already, there are some actionable suggestions one can conclude:
 	- If No, try [[Reinforcement Learning from Human Feedback|RLHF]] or [[Reinforcement Learning from from AI Feedback|RLAIF]]
 - Do you have access to a lot of compute?
 	- If YES: Finetune the whole model
-	- If NO: use [[PEFT]]
+	- If NO: use [[Parameter-Efficient Fine-Tuning|PEFT]]
 - Are existing AI models good enough for data generation or data verification?
 	- If good enough for data generation, try creating synthetic data!
 	- If good enough for *verification, but not generation*, try using [[Reinforcement Learning from Human Feedback with AI Feedback|RLAIF]] or *self-reflection*
