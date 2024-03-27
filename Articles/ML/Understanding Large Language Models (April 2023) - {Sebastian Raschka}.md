@@ -38,7 +38,7 @@ Jeremy Howard and Sebastian Ruber
 [https://arxiv.org/abs/1801.06146](https://arxiv.org/abs/1801.06146)
 - Written one year after the original *Attention is all you need* paper; It didn't involve transformers, but instead focuses on recurrent neural networks.
 - It ==proposed pretraining language models and transfer-learning them for downstream tasks==.
-- While transfer learning was already established in CV, it wasn't yet prevalent in NLP. The [[ULMFit]] paper was among the first to demonstrate that pre-training a language model and finetuning it on a specific task could yield state-of-the-art results in many NLP tasks.
+- While transfer learning was already established in CV, it wasn't yet prevalent in NLP. The [[ULMFiT]] paper was among the first to demonstrate that pre-training a language model and finetuning it on a specific task could yield state-of-the-art results in many NLP tasks.
 - Process:
 	- Train language model on large corpus of text
 	- Finetune this LM on task-specific data
