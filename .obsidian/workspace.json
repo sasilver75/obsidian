@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Generative AI is a hammer and no one knows what is and isn't a nail (Feb 2024) {Colin Fraser, Medium}.md",
+                "file": "Articles/ML/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Generative AI is a hammer and no one knows what is and isn't a nail (Feb 2024) {Colin Fraser, Medium}.md",
+                "file": "Articles/ML/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Generative AI is a hammer and no one knows what is and isn't a nail (Feb 2024) {Colin Fraser, Medium}.md",
+                "file": "Articles/ML/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Generative AI is a hammer and no one knows what is and isn't a nail (Feb 2024) {Colin Fraser, Medium}.md"
+                "file": "Articles/ML/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md"
               }
             }
           }
@@ -149,9 +149,18 @@
   },
   "active": "b19bc67163b893a2",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240326235736.png",
-    "e.md",
     "Articles/ML/Generative AI is a hammer and no one knows what is and isn't a nail (Feb 2024) {Colin Fraser, Medium}.md",
+    "Articles/ML/Evaluation Metrics for Language Modeling (.md",
+    "e.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240327012519.png",
+    "_attachments/Pasted image 20240327010754.png",
+    "_attachments/Pasted image 20240327010744.png",
+    "_attachments/Pasted image 20240327005849.png",
+    "_attachments/Pasted image 20240327005606.png",
+    "_attachments/Pasted image 20240327004227.png",
+    "_attachments/Pasted image 20240327003947.png",
+    "_attachments/Pasted image 20240326235736.png",
     "ULMFiT.md",
     "~ Vocabulary.md",
     "Continuous Bag of Words.md",
@@ -161,16 +170,11 @@
     "Mixture of Experts.md",
     "_attachments/Pasted image 20240326233218.png",
     "_attachments/Pasted image 20240326232857.png",
-    "_attachments/Pasted image 20240326230625.png",
     "GloVe.md",
-    "_attachments/Pasted image 20240326222200.png",
-    "_attachments/Pasted image 20240326222110.png",
     "Articles/ML/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
     "Articles/ML/Attention? Attention! (June 2018) {Lilian Weng}.md",
     "Recurrent Neural Networks (RNN).md",
     "Articles/ML/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
-    "_attachments/Pasted image 20240326201038.png",
-    "_attachments/Pasted image 20240326200701.png",
     "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
     "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "Articles/ML/NLP Research in the Era of LLMs (Dec 2023) {Sebastian Ruder Blog}.md",
@@ -181,10 +185,6 @@
     "Articles/Fine- Tuning is just synthetic Data Engineering (Jan 11, 2024) {Generating Conversation blog}.md",
     "Untitled 11.md",
     "Articles/ML/Thoughts on the 2024 AI Job Market (Feb 2024) {Sebastian Ruder Blog}.md",
-    "Articles/ML/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
-    "_attachments/Pasted image 20240325210654.png",
-    "_attachments/Pasted image 20240325204449.png",
-    "_attachments/Pasted image 20240322235304.png",
     "Articles/Policy",
     "Articles/ML",
     "PaperClubs/LatentSpace",
