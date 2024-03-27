@@ -104,7 +104,7 @@ iter# Linear Algebra
 - [[Depth-Wise Convolutions]]
 - [[Activation Function]]s
 - [[U-Net]]
-- [[ULMFit]]
+- [[ULMFiT]]
 - [[Gini Index]]
 - [[Test-Time Augmentation]]
 - [[Progressive Resizing]]
@@ -242,6 +242,8 @@ iter# Linear Algebra
 - [[CLIP]] 
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
+- [[DistilBERT]]
+- [[RoBERTa]]
 - [[GPT]]
 - [[Megatron]]
 - [[Word2Vec]]
