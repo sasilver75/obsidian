@@ -198,7 +198,7 @@ iter# Linear Algebra
 - [[Zero-Shot Prompting]]
 - [[Out-of-Bag Error]]
 - [[Boosting]]
-- 
+- [[Automatic Speech Recognition]]
 
 
 # Natural Language Processing Concepts
@@ -293,6 +293,7 @@ iter# Linear Algebra
 - [[Orca]]
 - [[Orca 2]]
 - [[LIMA]]
+- [[DBRX]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
