@@ -151,3 +151,9 @@ Chatbots as they currently exist aren't necessarily the best way to use the unde
 - An LLM is a way to generate a certain type of text -- it's just something OpenAI tried for a laugh and people ended up getting really excited about it.
 
 ==The Hybrid approach to building with generative AI (eg AlphaGeometry, FunSearch) are completely different ways of using LLMs that have nothing to do with "chatting", but use the information contained within them *along with a deterministic decision-making module* to do generally-interesting and useful things!==
+
+
+--------
+--------
+{Sam note from later. This is a preview (cherrypicked) pic from SD3; does scaling not "answer" this guy's problems with the granny, to some extent?}
+![[Pasted image 20240328173939.png]]
