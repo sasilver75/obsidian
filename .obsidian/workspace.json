@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "2c9a5dcd9984e3f2",
+    "id": "af92b0d6fc864e9d",
     "type": "split",
     "children": [
       {
-        "id": "c9e95f1bf033ef44",
+        "id": "a8c7f798f80f27b0",
         "type": "tabs",
         "children": [
           {
-            "id": "b19bc67163b893a2",
+            "id": "0092401efdae5ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/The Illustrated Transformer (~2020) {Jay Alammar}.md",
+                "file": "FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7b96c59cc8f4246f",
+    "id": "7ddc3cde93ab8ac8",
     "type": "split",
     "children": [
       {
-        "id": "5cd2534a76913604",
+        "id": "b5ae910f8c59e3eb",
         "type": "tabs",
         "children": [
           {
-            "id": "0c7dc73e0b308c7b",
+            "id": "aba8fe69d46d9ccd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,22 +44,22 @@
             }
           },
           {
-            "id": "3bb0c947752adc10",
+            "id": "7060ea3bb41d02c2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "PEFT",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "43da419193ed00ea",
+            "id": "cc683cc0469bd198",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,24 +70,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "9abd8563ca161ddd",
+    "id": "d6ed0fac49903124",
     "type": "split",
     "children": [
       {
-        "id": "436c5fa009390d5d",
+        "id": "b0d6eaf36c9ecdfc",
         "type": "tabs",
         "children": [
           {
-            "id": "3b3296e07c4a81f1",
+            "id": "a0d64735b08f4f8d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/The Illustrated Transformer (~2020) {Jay Alammar}.md",
+                "file": "FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,19 +99,19 @@
             }
           },
           {
-            "id": "d100f4f87b20998e",
+            "id": "c5b391fdf962eb73",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/The Illustrated Transformer (~2020) {Jay Alammar}.md",
+                "file": "FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9b829491545096c8",
+            "id": "b62c933e1cd73916",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -122,12 +122,12 @@
             }
           },
           {
-            "id": "590cf3356aef7ad1",
+            "id": "5b50f2312857cfa7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/The Illustrated Transformer (~2020) {Jay Alammar}.md"
+                "file": "FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md"
               }
             }
           }
@@ -147,69 +147,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b19bc67163b893a2",
+  "active": "0092401efdae5ece",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "_attachments/Pasted image 20240328235605.png",
-    "_attachments/Pasted image 20240328235152.png",
-    "_attachments/Pasted image 20240328235107.png",
-    "_attachments/Pasted image 20240328235026.png",
-    "_attachments/Pasted image 20240328234145.png",
-    "_attachments/Pasted image 20240328232916.png",
-    "_attachments/Pasted image 20240328232606.png",
-    "_attachments/Pasted image 20240328232538.png",
-    "_attachments/Pasted image 20240328231856.png",
-    "_attachments/Pasted image 20240328231600.png",
-    "_attachments/Pasted image 20240328231347.png",
-=======
-    "_attachments/Pasted image 20240328223525.png",
-    "_attachments/Pasted image 20240328223449.png",
-    "_attachments/Pasted image 20240328223349.png",
-    "_attachments/Pasted image 20240328222946.png",
-    "_attachments/Pasted image 20240328222352.png",
-    "_attachments/Pasted image 20240328221659.png",
-    "_attachments/Pasted image 20240328221456.png",
-    "_attachments/Pasted image 20240328220804.png",
-    "_attachments/Pasted image 20240328220157.png",
-    "_attachments/Pasted image 20240328220038.png",
-    "_attachments/Pasted image 20240328214648.png",
->>>>>>> 5aa67d8d7805786e09bc3135ee66c9e030969c80
-    "Articles/ML/Generative AI is a hammer and no one knows what is and isn't a nail (Feb 2024) {Colin Fraser, Medium}.md",
-    "Articles/ML/The Illustrated Transformer (~2020) {Jay Alammar}.md",
-    "Articles/ML/Illustrating Reinforcement Learning (Dec 2022) {HF, Nathan Lambert}.md",
-    "Articles/ML/Fine- Tuning is just synthetic Data Engineering (Jan 11, 2024) {Generating Conversation blog}.md",
-    "~ Recommendations.md",
-    "Articles/ML/The Making of Whisper - An In-Depth Exploration of its Training Data and Process (Dec 2023) {Amhgad Hasan Substack}.md",
-    "Automatic Speech Recognition.md",
-    "~ Vocabulary.md",
-    "Articles/ML/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
-    "Articles/ML/Evaluation Metrics for Language Modeling (.md",
-    "e.md",
-    "~ Useful Pictures.md",
-    "ULMFiT.md",
-    "Continuous Bag of Words.md",
-    "ELMo.md",
-    "Bidirectional Encoder Representations from Transformers.md",
-    "Articles/ML/NLP for Supervised Learning - A Brief Survey (2021?)  {Eugene Yan Blog}.md",
-    "Mixture of Experts.md",
-    "GloVe.md",
-    "Articles/ML/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
-    "Articles/ML/Attention? Attention! (June 2018) {Lilian Weng}.md",
-    "Recurrent Neural Networks (RNN).md",
-    "Articles/ML/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
-    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
-    "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "Articles/Policy",
-    "Articles/ML",
-    "PaperClubs/LatentSpace",
-    "PaperClubs",
-    "Untitled.canvas",
-    "Rese",
-    "C++/LearnCPP",
-    "C++/UIUC Accelerated Fundamentals",
-    "C++",
-    "DeepLearning.ai",
-    "FastAI/Part 2",
-    "Untitled 1.canvas"
+    "_attachments/Pasted image 20240329190602.png",
+    "_attachments/Pasted image 20240329190357.png",
+    "_attachments/Pasted image 20240329190255.png",
+    "_attachments/Pasted image 20240329190248.png",
+    "_attachments/Pasted image 20240329190240.png",
+    "_attachments/Pasted image 20240329190132.png",
+    "_attachments/Pasted image 20240329184844.png",
+    "_attachments/Pasted image 20240329183914.png",
+    "_attachments/Pasted image 20240329183759.png",
+    "_attachments/Pasted image 20240329183545.png",
+    "_attachments/Pasted image 20240329183453.png",
+    "FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md"
   ]
 }
