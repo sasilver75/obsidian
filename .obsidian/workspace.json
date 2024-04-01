@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS224N/CS224N Lecture 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Skip-gram",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS224N/CS224N Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS224N/CS224N Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Courses/CS224N/CS224N Lecture 2.md"
               }
             }
           }
@@ -149,17 +149,29 @@
   },
   "active": "0092401efdae5ece",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240330005607.png",
-    "_attachments/Pasted image 20240330002147.png",
-    "FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md",
-    "_attachments/Pasted image 20240329190602.png",
-    "_attachments/Pasted image 20240329190357.png",
-    "_attachments/Pasted image 20240329190255.png",
-    "_attachments/Pasted image 20240329190248.png",
-    "_attachments/Pasted image 20240329190240.png",
-    "_attachments/Pasted image 20240329190132.png",
-    "_attachments/Pasted image 20240329184844.png",
-    "_attachments/Pasted image 20240329183914.png",
-    "_attachments/Pasted image 20240329183759.png"
+    "_attachments/Pasted image 20240401143523.png",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240401142942.png",
+    "Courses/CS224N/CS224N Lecture 2.md",
+    "_attachments/Pasted image 20240401142933.png",
+    "_attachments/Pasted image 20240401140557.png",
+    "_attachments/Pasted image 20240401140409.png",
+    "_attachments/Pasted image 20240401140344.png",
+    "_attachments/Pasted image 20240401140003.png",
+    "_attachments/Pasted image 20240401135915.png",
+    "_attachments/Pasted image 20240401135846.png",
+    "_attachments/Pasted image 20240401135807.png",
+    "_attachments/Pasted image 20240401135715.png",
+    "Courses/CS224N/CS224N Lecture 1.md",
+    "~ Vocabulary.md",
+    "Automatic Speech Recognition.md",
+    "Articles/ML/NLP for Supervised Learning - A Brief Survey (2021?)  {Eugene Yan Blog}.md",
+    "Courses/FastAI/FastAI 2023 Part Lecture 10 Again.md",
+    "Courses/CS224N",
+    "Courses",
+    "Courses/FastAI/2023 Course/FastAI 2023 Part 2  Lecture 10.md",
+    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+    "Articles/ML/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
+    "Courses/FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md"
   ]
 }

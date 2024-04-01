@@ -110,3 +110,9 @@ Feb 2024 OpenAI protest
 
 ![[Pasted image 20240330005607.png|400]]
 
+![[Pasted image 20240330010736.png|400]]![[Pasted image 20240331232918.png]]
+Above: context being explaining word2vec; "You shall know a word by the company it keeps" is a good reference
+
+![[Pasted image 20240401142942.png]]
+Different uses of the word "pike": re: how embeddings should be contextual
+
