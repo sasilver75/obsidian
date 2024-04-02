@@ -51,6 +51,24 @@ You can also look at the textbook for Math51, which has a lot of material on thi
 
 ![[Pasted image 20240401181210.png]]
 
+If we have a function with one output and n inputs, then we have a gradient!
+==A gradient is a vector of partial derivatives with respect to each input.==
+![[Pasted image 20240401181438.png]]
+Where each element of this vector is just like a simple derivative with respect to one variable
+
+From that point, we keep on ramping up!
+![[Pasted image 20240401181502.png]]
+- When we have a layer in a NN, we have a function with N inputs (eg our word vectors), and then we do something like multiply that by a matrix, and have m outputs
+	- So we have a function taking n inputs and producing m outputs
+- At this point, what we calculate is called a ==Jacobian matrix==
+	- Every possible partial derivative of the output variables with respect to the input variables
+
+![[Pasted image 20240401181648.png]]
+- In simple calculus, when you have a composition of one-variable functions, we can just multiply their derivatives!
+- Once we move into vectors/matrices/jacobians -- it's the same game! We compose functions and work out their derivatives by simply multiplying jacobians
+- If we start with an input n and put it through a simple neural network layer (Wx+b), (and typically we'd put things through a nonlinearity, f, the f(z) bit) -- this is the composition of two functions in terms of vectors and matrices
+- We can use jacobians and say that the partial of h with respect ot x is the product of the two partials shown above.
+
 
 
 

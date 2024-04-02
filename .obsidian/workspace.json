@@ -13,7 +13,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 3.md",
+                "file": "Courses/CS224N/CS224N Lecture 5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7fa62802030aec0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Context-Free Grammar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50ecde5b3b4280ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fcf9f9493bed924",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROGUE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dc16866934c788f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROGUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 3.md",
+                "file": "Courses/CS224N/CS224N Lecture 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 3.md",
+                "file": "Courses/CS224N/CS224N Lecture 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 3.md"
+                "file": "Courses/CS224N/CS224N Lecture 5.md"
               }
             }
           }
@@ -149,29 +201,40 @@
   },
   "active": "0092401efdae5ece",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240401181210.png",
-    "_attachments/Pasted image 20240401181039.png",
-    "_attachments/Pasted image 20240401180747.png",
-    "_attachments/Pasted image 20240401175543.png",
-    "_attachments/Pasted image 20240401175011.png",
-    "_attachments/Pasted image 20240401174928.png",
-    "Courses/CS224N/CS224N Lecture 2.md",
-    "Courses/CS224N/CS224N Lecture 3.md",
-    "_attachments/Pasted image 20240401143523.png",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240401142942.png",
-    "_attachments/Pasted image 20240401142933.png",
-    "_attachments/Pasted image 20240401140557.png",
-    "_attachments/Pasted image 20240401140409.png",
-    "Courses/CS224N/CS224N Lecture 1.md",
+    "_attachments/Pasted image 20240402142902.png",
+    "_attachments/Pasted image 20240402142112.png",
+    "_attachments/Pasted image 20240402141850.png",
+    "_attachments/Pasted image 20240402141839.png",
+    "Courses/CS224N/CS224N Lecture 4.md",
+    "Courses/CS224N/CS224N Lecture 5.md",
+    "_attachments/Pasted image 20240402132819.png",
+    "_attachments/Pasted image 20240402132250.png",
+    "_attachments/Pasted image 20240402132208.png",
+    "_attachments/Pasted image 20240402132048.png",
+    "_attachments/Pasted image 20240402131805.png",
+    "_attachments/Pasted image 20240402131624.png",
+    "_attachments/Pasted image 20240402131455.png",
+    "Context-Free Grammar.md",
     "~ Vocabulary.md",
+    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+    "ROGUE.md",
+    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "GGUF.md",
+    "GGML.md",
+    "Articles/ML/What is GGUF and GGML?.md",
+    "Articles/ML/The Illustrated BERT, ELMo, and Co. (How NLP Cracked Transfer Learning) (Dec 2018?) {Jay Alammar}.md",
+    "VGG.md",
+    "Articles/ML/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md",
+    "Courses/CS224N/CS224N Lecture 3.md",
+    "Courses/CS224N/CS224N Lecture 2.md",
+    "~ Useful Pictures.md",
+    "Courses/CS224N/CS224N Lecture 1.md",
     "Automatic Speech Recognition.md",
     "Articles/ML/NLP for Supervised Learning - A Brief Survey (2021?)  {Eugene Yan Blog}.md",
     "Courses/FastAI/FastAI 2023 Part Lecture 10 Again.md",
     "Courses/CS224N",
     "Courses",
     "Courses/FastAI/2023 Course/FastAI 2023 Part 2  Lecture 10.md",
-    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
     "Articles/ML/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
     "Courses/FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md"
   ]
