@@ -211,6 +211,8 @@ iter# Linear Algebra
 - [[Information Extraction]]
 - [[Diarization]]
 - [[Topic Modeling]]
+- [[Context-Free Grammar]]
+- [[Dependency Grammar]]
 
 
 # Computer Vision Concepts
@@ -257,7 +259,7 @@ iter# Linear Algebra
 - [[LLaMA]]
 - [[Chinchilla]]
 - [[ControlNet]]
-- [[VGG]]
+- [[VGGNet]]
 - [[Phi-2]]
 - [[Flamingo]]
 - [[YOLO]]
@@ -303,6 +305,7 @@ iter# Linear Algebra
 - [[Gradio]]
 - [[Streamlit]]
 - [[MergeKit]]
+- [[GGML]] File format
 - [[GGUF]] File Format
 - [[Ludwig]]
 -  [[Eleuther LM Evaluation Harness]]
