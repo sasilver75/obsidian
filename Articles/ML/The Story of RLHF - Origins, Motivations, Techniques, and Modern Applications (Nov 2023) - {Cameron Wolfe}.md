@@ -174,7 +174,11 @@ Data collection
 - The reward model shares the underlying architecture of the LLM, but the *classification head* that is usually used for next-token prediction is removed and replaced with a *regression head* that predicts a preference score (above picture, right side).
 
 The reward model is typically initialized with the same weights as the LLM (either the pretrained model or the model trained by SFT), thus ensuring that the reward model shares the same knowledge base as the underlying LLM.
+- ((Why is this? Is this obvious?))
 
 ![[Pasted image 20240402011621.png]]
 Above: 
-- 
+- To train the reward model we:
+	- Take pairs of ranked responses as input
+	- Predict the preference score of each response
+	- Apply a ranking loss

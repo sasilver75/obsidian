@@ -116,3 +116,11 @@ Above: context being explaining word2vec; "You shall know a word by the company 
 ![[Pasted image 20240401142942.png]]
 Different uses of the word "pike": re: how embeddings should be contextual
 
+![[Pasted image 20240403175421.png]]
+![[Pasted image 20240403175714.png]]
+(From: https://youtu.be/5q0GN2M1d2c?si=uAqMOuUqf7PsytY7)
+![[Pasted image 20240403200819.png|450]]
+![[Pasted image 20240403212659.png]]
+![[Pasted image 20240403221104.png]]
+![[Pasted image 20240403225624.png]]
+Above: Showing that the simple addition of CoT pushed model performance above the human average.
