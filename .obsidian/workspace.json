@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "f785bb6ea3861d56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c1fd5df2fcd464c8",
             "type": "leaf",
             "state": {
@@ -85,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -212,10 +226,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0092401efdae5ece",
+  "active": "f785bb6ea3861d56",
   "lastOpenFiles": [
-    "Question Answering.md",
+    "_attachments/Pasted image 20240405013204.png",
+    "_attachments/Pasted image 20240404201323.png",
     "~ Vocabulary.md",
+    "Question Answering.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240404161038.png",
     "_attachments/Pasted image 20240404161005.png",
@@ -228,7 +244,6 @@
     "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
     "Courses/CS224N/CS224N Lecture 5.md",
     "_attachments/Pasted image 20240402155207.png",
-    "_attachments/Pasted image 20240402154604.png",
     "ROGUE.md",
     "Courses/CS224N/CS224N Lecture 4.md",
     "Context-Free Grammar.md",
