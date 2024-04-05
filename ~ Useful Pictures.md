@@ -124,3 +124,12 @@ Different uses of the word "pike": re: how embeddings should be contextual
 ![[Pasted image 20240403221104.png]]
 ![[Pasted image 20240403225624.png]]
 Above: Showing that the simple addition of CoT pushed model performance above the human average.
+
+
+![[Pasted image 20240404161038.png]]
+![[Pasted image 20240404161005.png]]
+Questions re: RAG
+
+
+
+
