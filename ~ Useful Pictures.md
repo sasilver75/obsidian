@@ -130,6 +130,9 @@ Above: Showing that the simple addition of CoT pushed model performance above th
 ![[Pasted image 20240404161005.png]]
 Questions re: RAG
 
+![[Pasted image 20240404201323.png]]
+
+![[Pasted image 20240405013204.png]]
 
 
 
