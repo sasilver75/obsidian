@@ -133,6 +133,8 @@ Questions re: RAG
 ![[Pasted image 20240404201323.png]]
 
 ![[Pasted image 20240405013204.png]]
+![[Pasted image 20240405021834.png]]
+
 
 
 
