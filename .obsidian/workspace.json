@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+                "file": "Proximal Policy Optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md"
+                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
               }
             }
           }
@@ -226,23 +225,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f785bb6ea3861d56",
+  "active": "0092401efdae5ece",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240407203514.png",
-    "_attachments/Pasted image 20240407201953.png",
-    "_attachments/Pasted image 20240407195004.png",
-    "_attachments/Pasted image 20240407194631.png",
+    "_attachments/Pasted image 20240408001800.png",
+    "_attachments/Pasted image 20240408001753.png",
+    "_attachments/Pasted image 20240408001351.png",
     "~ Vocabulary.md",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240405021834.png",
-    "_attachments/Pasted image 20240405013204.png",
-    "_attachments/Pasted image 20240404201323.png",
-    "Question Answering.md",
-    "_attachments/Pasted image 20240404161038.png",
-    "_attachments/Pasted image 20240404161005.png",
-    "_attachments/Pasted image 20240403225624.png",
-    "_attachments/Pasted image 20240403221104.png",
+    "Proximal Policy Optimization.md",
+    "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "_attachments/Pasted image 20240407231059.png",
     "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+    "_attachments/Pasted image 20240407211053.png",
+    "_attachments/Pasted image 20240407210904.png",
+    "_attachments/Pasted image 20240407210202.png",
+    "_attachments/Pasted image 20240407210049.png",
+    "_attachments/Pasted image 20240407204653.png",
+    "_attachments/Pasted image 20240407204152.png",
+    "_attachments/Pasted image 20240407203514.png",
+    "~ Useful Pictures.md",
+    "Question Answering.md",
     "Courses/CS224N/CS224N Lecture 5.md",
     "ROGUE.md",
     "Courses/CS224N/CS224N Lecture 4.md",
@@ -263,7 +264,6 @@
     "Courses/CS224N",
     "Courses",
     "Courses/FastAI/2023 Course/FastAI 2023 Part 2  Lecture 10.md",
-    "Articles/ML/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
-    "Courses/FastAI/2023 Course/FastAI 2023 Part 2 Lecture 9 Again.md"
+    "Articles/ML/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md"
   ]
 }
