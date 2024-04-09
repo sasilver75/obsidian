@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0092401efdae5ece",
+            "id": "f785bb6ea3861d56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "f785bb6ea3861d56",
+            "id": "b7ee8a4c94bc5781",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proximal Policy Optimization.md",
+                "file": "Summarization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md",
+                "file": "Summarization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md",
+                "file": "Summarization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md"
+                "file": "Summarization.md"
               }
             }
           }
@@ -225,8 +226,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0092401efdae5ece",
+  "active": "b7ee8a4c94bc5781",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240409011727.png",
+    "~ Vocabulary.md",
+    "Summarization.md",
+    "Proximal Policy Optimization.md",
+    "Courses/CS224N/CS224N Lecture 8.md",
+    "Courses/CS224N/CS224N Lecture 7.md",
+    "_attachments/Pasted image 20240408233418.png",
+    "_attachments/Pasted image 20240408232916.png",
     "_attachments/Pasted image 20240408232747.png",
     "_attachments/Pasted image 20240408232154.png",
     "_attachments/Pasted image 20240408231732.png",
@@ -235,19 +244,13 @@
     "_attachments/Pasted image 20240408230143.png",
     "_attachments/Pasted image 20240408225912.png",
     "_attachments/Pasted image 20240408225747.png",
-    "_attachments/Pasted image 20240408225143.png",
-    "_attachments/Pasted image 20240408224558.png",
-    "_attachments/Pasted image 20240408223413.png",
     "Courses/CS224N/CS224N Lecture 6.md",
     "Courses/CS224N/CS224N Lecture 5.md",
-    "Courses/CS224N/CS224N Lecture 7.md",
     "~ Useful Pictures.md",
     "ROGUE.md",
     "Cross-Entropy.md",
     "Convolution.md",
-    "~ Vocabulary.md",
     "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Proximal Policy Optimization.md",
     "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
     "Question Answering.md",
     "Courses/CS224N/CS224N Lecture 4.md",
@@ -261,8 +264,6 @@
     "Articles/ML/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md",
     "Courses/CS224N/CS224N Lecture 3.md",
     "Courses/CS224N/CS224N Lecture 2.md",
-    "Courses/CS224N/CS224N Lecture 1.md",
-    "Automatic Speech Recognition.md",
     "Courses/CS224N",
     "Courses"
   ]

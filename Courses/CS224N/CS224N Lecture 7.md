@@ -245,6 +245,15 @@ Above: Y axis = BLEU score
 
 ![[Pasted image 20240408232747.png]]
 
+![[Pasted image 20240408232916.png]]
+![[Pasted image 20240408233418.png]]
+
+((Note: As far as Chris knows, this is fixed in 2021))
+
+
+Next lecture: Introducing Attention!
+
+
 
 
 
