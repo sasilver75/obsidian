@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "file": "Courses/CS224N/CS224N Lecture 7.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "file": "Courses/CS224N/CS224N Lecture 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "file": "Courses/CS224N/CS224N Lecture 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+                "file": "Courses/CS224N/CS224N Lecture 7.md"
               }
             }
           }
@@ -227,25 +227,29 @@
   },
   "active": "0092401efdae5ece",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240408001800.png",
-    "_attachments/Pasted image 20240408001753.png",
-    "_attachments/Pasted image 20240408001351.png",
-    "~ Vocabulary.md",
-    "Proximal Policy Optimization.md",
-    "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "_attachments/Pasted image 20240407231059.png",
-    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
-    "_attachments/Pasted image 20240407211053.png",
-    "_attachments/Pasted image 20240407210904.png",
-    "_attachments/Pasted image 20240407210202.png",
-    "_attachments/Pasted image 20240407210049.png",
-    "_attachments/Pasted image 20240407204653.png",
-    "_attachments/Pasted image 20240407204152.png",
-    "_attachments/Pasted image 20240407203514.png",
-    "~ Useful Pictures.md",
-    "Question Answering.md",
+    "_attachments/Pasted image 20240408232747.png",
+    "_attachments/Pasted image 20240408232154.png",
+    "_attachments/Pasted image 20240408231732.png",
+    "_attachments/Pasted image 20240408231718.png",
+    "_attachments/Pasted image 20240408230850.png",
+    "_attachments/Pasted image 20240408230143.png",
+    "_attachments/Pasted image 20240408225912.png",
+    "_attachments/Pasted image 20240408225747.png",
+    "_attachments/Pasted image 20240408225143.png",
+    "_attachments/Pasted image 20240408224558.png",
+    "_attachments/Pasted image 20240408223413.png",
+    "Courses/CS224N/CS224N Lecture 6.md",
     "Courses/CS224N/CS224N Lecture 5.md",
+    "Courses/CS224N/CS224N Lecture 7.md",
+    "~ Useful Pictures.md",
     "ROGUE.md",
+    "Cross-Entropy.md",
+    "Convolution.md",
+    "~ Vocabulary.md",
+    "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Proximal Policy Optimization.md",
+    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+    "Question Answering.md",
     "Courses/CS224N/CS224N Lecture 4.md",
     "Context-Free Grammar.md",
     "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
@@ -259,11 +263,7 @@
     "Courses/CS224N/CS224N Lecture 2.md",
     "Courses/CS224N/CS224N Lecture 1.md",
     "Automatic Speech Recognition.md",
-    "Articles/ML/NLP for Supervised Learning - A Brief Survey (2021?)  {Eugene Yan Blog}.md",
-    "Courses/FastAI/FastAI 2023 Part Lecture 10 Again.md",
     "Courses/CS224N",
-    "Courses",
-    "Courses/FastAI/2023 Course/FastAI 2023 Part 2  Lecture 10.md",
-    "Articles/ML/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md"
+    "Courses"
   ]
 }
