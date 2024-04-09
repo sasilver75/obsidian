@@ -217,7 +217,7 @@ iter# Linear Algebra
 
 
 # Computer Vision Concepts
-- 
+- [[Object Recognition]]
 
 
 # Reinforcement Learning Concepts

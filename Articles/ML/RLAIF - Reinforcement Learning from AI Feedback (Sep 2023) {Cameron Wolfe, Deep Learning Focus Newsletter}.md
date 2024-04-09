@@ -124,10 +124,52 @@ Using AI-generated labels for harmlessness can still yield improvements in the u
 # RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback \[2\]
 Link: https://arxiv.org/abs/2309.00267 (Sep 2023, Deepmind?)
 - This technique is identical to RLHF, but it automates the creation of human preference labels by using an off-the-shelf LLM!
-- RLAIF is explored specifically for text summarization tasks, and we see that the technique yields similar results when compared to RLHF, indicating that the alignment process can be automated via feedback provided by even a generic language model!
+- RLAIF is explored specifically for text summarization tasks, and we see that ==the technique yields similar results when compared to RLHF, indicating that the alignment process can be automated via feedback provided by even a generic language model==!
 
+![[Pasted image 20240409021528.png]]
 
+### Automating preference labels
+- To generate preference labels using an off-the-shelf LLM, authors just use the prompt shown above, containing:
+	- Preamble
+	- Few-shot examples (optional)
+	- The sample to annotate
+	- Ending
 
+==Instead of using binary preference labels as you might assume==, authors then collect the log probability of tokens corresponding to each of the potential preference outputs (i.e., whether summary one or summary two is preferred), apply a softmax, and use this as the "soft" preference distribution!
+
+The authors used [[PaLM 2]] from Google as the LLM
+- Using a larger, generic model is best
+
+![[Pasted image 20240409021745.png]]
+
+### Advanced prompting techniques
+- Experiments are performed using various prompting techniques:
+	- few-shot prompting, [[Chain of Thought]] prompting, [[Self-Consistency]] prompting
+	- Interesting, CoT is found to be beneficial in producing accurate preference labeld when a two-stage approach is used:
+		1. Generate a rationale
+		2. Concatenate this rationale with our input to generate a final preference label
+	- Self-consistency and few-shot exemplars were not found to meaningfully benefit the quality of preference labels.
+		- ((Not sure if this means that they're doing zero-shot CoT then?))
+
+### Experimental Setup
+- The models trained follow a standard, three-stage approach that includes SFT and RLHF, but the RLHF component is replaced with RELAIF.
+- Analysis solely considers a text summarization task
+- The authors consider the following metrics:
+	- AI labeler alignment with human-provided preference labels
+	- Pairwise accuracy
+	- Win rate
+- We train a model via SFT on a high-quality dataset of summarization examples from TL;DR; separate models are trained -- using either RLHF or RLAIF -- based on the human preference dataset created on top of TL;DR.
+
+### Results
+- In other words, further fine-tuning via either RLHF or RLAIF yields a clear—_and seemingly equal_—benefit in terms of performance.
+	- Going further, RLHF and RLAIF-based summaries are preferred over human written references summaries in 80% of cases.
+- ==When we directly compare models fine-tuned via RLHF and RLAIF, we see that the win rate is (roughly) 50%, meaning that both models are equal in performance.==
+- 
+
+# Takeaways
+- RLHF is incredibly important, but requires a ton of human preference data to be collected for it to work well -- this weakness is the main reason that RLHF hasn't been as heavily explored.
+- ==RLAIF is a promising way of using an LLM as the reward model, creating aligned language models that have comparable quality relative to RLHF and require minimal (or no) human supervision.==
+- Applying RLAIF successfully is largely a prompt engineering problem.
 
 
 
