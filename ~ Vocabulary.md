@@ -310,6 +310,7 @@ iter# Linear Algebra
 - [[Ludwig]]
 -  [[Eleuther LM Evaluation Harness]]
 - [[LoRAX]]
+- [[vLLM]]
 
 
 # Benchmarks, Evaluations
