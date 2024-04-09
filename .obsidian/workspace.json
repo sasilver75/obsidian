@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
+                "file": "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
+                "file": "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
+                "file": "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
+                "file": "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md"
               }
             }
           }
@@ -240,24 +241,26 @@
   },
   "active": "b7ee8a4c94bc5781",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240409143053.png",
+    "_attachments/Pasted image 20240409140919.png",
+    "_attachments/Pasted image 20240409140735.png",
+    "_attachments/Pasted image 20240409134717.png",
+    "_attachments/Pasted image 20240409134518.png",
+    "_attachments/Pasted image 20240409133332.png",
+    "_attachments/Pasted image 20240409132058.png",
     "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
+    "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md",
+    "~ Vocabulary.md",
     "Segment Anything Model.md",
     "_attachments/Pasted image 20240409123016.png",
     "_attachments/Pasted image 20240409112525.png",
     "_attachments/Pasted image 20240409112223.png",
     "_attachments/Pasted image 20240409112139.png",
     "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "_attachments/Pasted image 20240409021745.png",
-    "_attachments/Pasted image 20240409021528.png",
     "Summarization.md",
-    "_attachments/Pasted image 20240409011727.png",
     "Proximal Policy Optimization.md",
     "Courses/CS224N/CS224N Lecture 8.md",
     "Courses/CS224N/CS224N Lecture 7.md",
-    "_attachments/Pasted image 20240408233418.png",
-    "_attachments/Pasted image 20240408232916.png",
-    "_attachments/Pasted image 20240408232747.png",
     "Courses/CS224N/CS224N Lecture 6.md",
     "Courses/CS224N/CS224N Lecture 5.md",
     "~ Useful Pictures.md",
@@ -274,8 +277,6 @@
     "Articles/ML/What is GGUF and GGML?.md",
     "Articles/ML/The Illustrated BERT, ELMo, and Co. (How NLP Cracked Transfer Learning) (Dec 2018?) {Jay Alammar}.md",
     "VGG.md",
-    "Articles/ML/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md",
-    "Courses/CS224N/CS224N Lecture 3.md",
     "Courses/CS224N",
     "Courses"
   ]
