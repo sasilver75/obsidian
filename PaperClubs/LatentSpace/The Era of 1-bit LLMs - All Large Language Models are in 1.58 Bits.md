@@ -70,14 +70,34 @@ Above:
 
 ## New Scaling Laws
 ![[Pasted image 20240410134043.png]]
-The number of tokens is a crucial factor for LLMs generally; we trained a BitNEt b1.48 model with 2T tokens followign the data recipe of StableLM-3B, which is the SoTA open source 3B model.
-- Both were evaluated on a benchmark consisten
+Above:
+- ((I'm not sure exactly what "more efficient" means here... but I think they're saying a 30B 1.58 uses less memory than a 7B FP16 model?))
+
+
+
+![[Pasted image 20240410134136.png]]
+The number of tokens is a crucial factor for LLMs generally; we trained a BitNEt b1.48 model with 2T tokens following the data recipe of ==StableLM-3B, which is the SoTA open source 3B model==.
+- ==Both were evaluated on a range of benchmarks, and the results were that BitNet b1.58 3B beat the SoTA!==
+
+# Future Work
+
+### 1-bit Mixture-of-Experts (MoE) LLMs
+- MoE have proven to be a cost-effective approach for lLMs.
+- While it significantly reduces the computation FLOPs, the high-memory consumption and inter-chip communication overhead limits its deployment and application.
+	- These challenges can be addressed by 1.58-bit LLMs!
+		- The reduced memory footprint reduces the number of devices required to deploy MoE models.
+		- Significantly reduces the overhead of transferring activations across networks.
+
+### LLMs on Edge and Mobile
+- Reduce memory consumption of these trinarized LLMs allows them to be deployed on these devices, enabling a wide range of applications that weren't previously thought possible.
+
+### New Hardware for LLMS (?)
 
 The authors finish by calling for *new hardware and system software* specifically optimized for 1-bit LLMs, given the new *paradigm* enabled in BitNet!
 ((The paper club speaker thought that this was handwavey -- he'd like to hear more of the *why*))
 
 
-
+![[Pasted image 20240410134847.png]]
 
 
 
