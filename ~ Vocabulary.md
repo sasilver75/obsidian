@@ -237,6 +237,9 @@ iter# Linear Algebra
 - [[Direct Preference Optimization]]
 - [[Markov Decision Process]]
 - [[REINFORCE]]
+- [[Advantage Function]]
+- [[On-Policy]]
+- [[Off-Policy]]
 
 
 # Models
