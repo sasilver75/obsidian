@@ -89,7 +89,7 @@ The first step in calculating self-attention is to:
 
 ![[Pasted image 20240328212216.png|450]]
 Above: 
-- Notice that these new vectors are *smaller* (size 64) in dimension than the initial embedding vector (size 512). ==They don't *have* to be smaller, this is just an architecture choice to make the computation of [[Multi-Head Attention]] (mostly) constant==.
+- Notice that these new vectors are *smaller* (size 64) in dimension than the initial embedding vector (size 512). ==They don't *have* to be smaller, this is just an architecture choice to make the computation of [[Multi-Headed Attention]] (mostly) constant==.
 
 So what are these "query," "key," and "value" vectors?
 - They're abstractions that are useful for calculating and thinking about attention.
@@ -145,7 +145,7 @@ Above:
 
 
 ### The beast with many heads: Multi-headed Attention
-- The paper then further refined the self-attention layers by adding a mechanism called [[Multi-Head Attention]]!
+- The paper then further refined the self-attention layers by adding a mechanism called [[Multi-Headed Attention]]!
 - This improves the performance of the attention layer in two ways:
 	1. It expands the model's ability to focus on different positions.
 	2. It gives the attention layer multiple "representation subspaces"

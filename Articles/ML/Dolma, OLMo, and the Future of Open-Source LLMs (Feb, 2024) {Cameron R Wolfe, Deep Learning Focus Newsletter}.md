@@ -220,7 +220,7 @@ Other design choices
 - All bias terms are excluded from the OLMo architecture, which is shown to improve training stability
 - Authors adopt sequential (as opposed to parallel) transformer block formulation.
 - No weight tying is used by OLMo.
-- The model uses a vanilla (full) variant of [[Multi-Head Attention]] (self) -- in contrast, several recent models have adopted [[Grouped Query Attention]] and [[Multi-Query Attention]] , which are variants that improve the inference/decoding efficiency of attention, perhaps at the cost of reduced performance, by sharing key and value vectors across attention heads. The OLMo authors forego these due to their impact on performance.
+- The model uses a vanilla (full) variant of [[Multi-Headed Attention]] (self) -- in contrast, several recent models have adopted [[Grouped Query Attention]] and [[Multi-Query Attention]] , which are variants that improve the inference/decoding efficiency of attention, perhaps at the cost of reduced performance, by sharing key and value vectors across attention heads. The OLMo authors forego these due to their impact on performance.
 ![[Pasted image 20240221154903.png]]
 
 

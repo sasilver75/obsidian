@@ -126,7 +126,7 @@ Above: Al of these "dates" have the same embedding vector!
 	- In each *==encoder stack==*, there are six identical sub-layers, each having a [[Self-Attention]] mechanism followed by a fully connected feedforward neural network.
 	- The *==decoder stack==* is similar, but includes an additional attention layer to learn attention over the *encoder's* input! This is [[Cross-Attention]].
 
-[[Multi-Head Attention]]
+[[Multi-Headed Attention]]
 - The paper uses eight heads, with each head being randomly initialized.
 - The outputs from these eight heads are concatenated and multiplied by an additional weight matrix. 
 - ==In the decoder stack, the attention mechanism is masked== (to prevent looking ahead at future tokens).

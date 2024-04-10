@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f896761d4165dd6f",
+        "id": "a32d992128c2a577",
         "type": "tabs",
         "children": [
           {
-            "id": "46f22fa1890a676d",
+            "id": "0f1acd9d905b0fc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
+                "file": "Courses/CS224N/CS224N Lecture 9.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "09d0ad5c32ed2f25",
+            "id": "f0a8fed44840052f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "c29253d33a16a6fb",
+            "id": "9a5ddfd860b81b01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Policy Gradient.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "9654b05142260258",
+            "id": "34c6df9ae2788a8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trust Region Policy Optimization.md",
+                "file": "BYOL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Skip-gram",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
+                "file": "Courses/CS224N/CS224N Lecture 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
+                "file": "Courses/CS224N/CS224N Lecture 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md"
+                "file": "Courses/CS224N/CS224N Lecture 9.md"
               }
             }
           }
@@ -186,44 +185,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46f22fa1890a676d",
+  "active": "0f1acd9d905b0fc3",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240409174405.png",
-    "_attachments/Pasted image 20240409174206.png",
-    "_attachments/Pasted image 20240409173659.png",
-    "_attachments/Pasted image 20240409173616.png",
-    "_attachments/Pasted image 20240409173449.png",
+    "Courses/CS224N/Untitled.md",
+    "Courses/CS224N/CS224N Lecture 9.md",
+    "Courses/CS224N/CS224N Lecture 6.md",
+    "Courses/CS224N/CS224N Lecture 7.md",
+    "Courses/CS224N/CS224N Lecture 8.md",
+    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
+    "Articles/ML/Untitled.md",
+    "_attachments/Pasted image 20240409222149.png",
+    "_attachments/Pasted image 20240409222133.png",
+    "_attachments/Pasted image 20240409221904.png",
+    "_attachments/Pasted image 20240409221435.png",
+    "_attachments/Pasted image 20240409221433.png",
+    "_attachments/Pasted image 20240409221128.png",
+    "_attachments/Pasted image 20240409221046.png",
+    "_attachments/Pasted image 20240409220820.png",
+    "_attachments/Pasted image 20240409220559.png",
+    "_attachments/Pasted image 20240409220036.png",
+    "Multi-Headed Attention.md",
     "~ Vocabulary.md",
-    "Articles/ML/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
-    "_attachments/Pasted image 20240409172748.png",
-    "_attachments/Pasted image 20240409172624.png",
-    "_attachments/Pasted image 20240409172501.png",
-    "Policy Gradient.md",
+    "BYOL.md",
+    "Mixup.md",
+    "Articles/ML/Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md",
+    "Consistency Regularization.md",
     "Trust Region Policy Optimization.md",
+    "Policy Gradient.md",
+    "Articles/ML/Proximal Policy Optimization (PPO) - The Key to LLM Alignment (Oct 2023) {Cameron R Wolfe, Deep Learning Focus}.md",
     "Articles/ML/Policy Gradients - The Foundation of RLHF (Oct 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "ROGUE.md",
     "Context-Free Grammar.md",
     "Question Answering.md",
     "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md",
-    "_attachments/Pasted image 20240409143053.png",
-    "_attachments/Pasted image 20240409140919.png",
-    "_attachments/Pasted image 20240409140735.png",
     "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
     "Segment Anything Model.md",
     "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Summarization.md",
     "Proximal Policy Optimization.md",
-    "Courses/CS224N/CS224N Lecture 8.md",
-    "Courses/CS224N/CS224N Lecture 7.md",
-    "Courses/CS224N/CS224N Lecture 6.md",
-    "Courses/CS224N/CS224N Lecture 5.md",
-    "~ Useful Pictures.md",
-    "Cross-Entropy.md",
-    "Convolution.md",
-    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
-    "Courses/CS224N/CS224N Lecture 4.md",
-    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "GGUF.md",
     "Courses/CS224N",
     "Courses"
   ]

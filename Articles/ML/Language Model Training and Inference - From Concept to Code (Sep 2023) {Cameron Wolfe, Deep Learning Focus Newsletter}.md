@@ -11,7 +11,7 @@ Let's dive more into how this objective works, at conceptual and concrete levels
 # Relevant Background concepts
 - Transformer architecture
 	- We've covered the [[Transformer]] architecture in other blog posts ([here](https://cameronrwolfe.substack.com/i/136366740/the-transformer-from-top-to-bottom) and [here](https://cameronrwolfe.substack.com/i/85568430/decoder-only-transformers)).
-	- It helps to understand the idea of self-attention and the role that it plays in the transformer architecture. The large models that we will study in this overview use a particular variant called [[Multi-Head Attention]] (specifically the causal, self-attention version of it).
+	- It helps to understand the idea of self-attention and the role that it plays in the transformer architecture. The large models that we will study in this overview use a particular variant called [[Multi-Headed Attention]] (specifically the causal, self-attention version of it).
 - Training neural nets with PyTorch
 	- We're going to write some PyTorch that relies on distributed training techniques like ==Distributed Data Parallel (DDP) training==.  (Shares some links on more on these)
 	- Beyond basic NNs in Pytorch, we'll also see ==automatic mixed precision (AMP)== training used, which selectively adjusts the precision between *full precision* (32 bits, float32) and *half precision* (16 bits, float16).

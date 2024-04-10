@@ -135,7 +135,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 - This was ==incredibly expensive==; only Google would have the resources and infrastructure to do this.
 - Unfortunately, they were training PaLM at the same time that Chinchilla was being written; ==very suboptimal==!
 - Changes from GPT-3:
-	- Used [[Multi-Query Attention]], which is different from [[Multi-Head Attention]]; the key/value projections are shared for each head. This takes the same training time, but faster autoregressive decoding in inference.
+	- Used [[Multi-Query Attention]], which is different from [[Multi-Headed Attention]]; the key/value projections are shared for each head. This takes the same training time, but faster autoregressive decoding in inference.
 	- Parallelized transformer blocks, which improved training time by 15%. 
 	- [[SwiGLU]] activation functions, rather than the [[GeLU]] activations used by GPT-3s
 	- Used [[Rotary Positional Embedding|RoPE]] rather than the learned embeddings of GPT-3
