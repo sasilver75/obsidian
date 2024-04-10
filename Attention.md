@@ -3,8 +3,8 @@
 [[Masked Attention]] vs [[Bidirectional Attention]]
 [[Sparse Attention]] vs [[Dense Attention]]
 [[Parallel Attention]]
-[[Paged Attention]]
+[[PagedAttention]]
 [[FlashAttention]]
 [[Attention with Linear Biases|Attention with Linear Biases]] (ALiBi)
 [[Sliding Window Attention]]
-[[Paged Attention]]
+[[PagedAttention]]
