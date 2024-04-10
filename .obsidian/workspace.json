@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 9.md",
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a903d11b7346de90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Byte-Pair Encoding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -125,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 9.md",
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 9.md",
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 9.md"
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md"
               }
             }
           }
@@ -187,8 +201,11 @@
   },
   "active": "0f1acd9d905b0fc3",
   "lastOpenFiles": [
-    "Courses/CS224N/Untitled.md",
     "Courses/CS224N/CS224N Lecture 9.md",
+    "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+    "Byte-Pair Encoding.md",
+    "_attachments/Pasted image 20240409224210.png",
+    "Courses/CS224N/Untitled.md",
     "Courses/CS224N/CS224N Lecture 6.md",
     "Courses/CS224N/CS224N Lecture 7.md",
     "Courses/CS224N/CS224N Lecture 8.md",
@@ -203,7 +220,6 @@
     "_attachments/Pasted image 20240409221046.png",
     "_attachments/Pasted image 20240409220820.png",
     "_attachments/Pasted image 20240409220559.png",
-    "_attachments/Pasted image 20240409220036.png",
     "Multi-Headed Attention.md",
     "~ Vocabulary.md",
     "BYOL.md",
@@ -221,8 +237,6 @@
     "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
     "Segment Anything Model.md",
     "Articles/ML/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Summarization.md",
-    "Proximal Policy Optimization.md",
     "Courses/CS224N",
     "Courses"
   ]
