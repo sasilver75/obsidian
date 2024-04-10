@@ -1,6 +1,7 @@
 #lecture 
 Link: https://www.youtube.com/watch?v=wzfWHP6SXxY&list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4&index=7
 
+# Subject: Machine Translation, RNN, LSTM, Bidirectionality, Stacked RNNs
 
 Today:
 - Machine Translation Topics

@@ -11,6 +11,6 @@ Authors: Ashish Vaswani, Noam Shazeer,  Niki Parmer, Jakob Uszkoreit, Lilion Jon
 See prior work:
 - _**Neural Machine Translation by Jointly Learning to Align and Translate**_ **(2014)**, which introduced an attention mechanism for RNNs; motivated this paper.
 
-Summary: The paper introduces the original [[Transformer]] architecture, with an [[Encoder-Decoder Architecture]] that will become additionally relevant as separate modules later. Introduces scaled dot product attention, [[Multi-Head Attention]] blocks, and positional input encoding.
+Summary: The paper introduces the original [[Transformer]] architecture, with an [[Encoder-Decoder Architecture]] that will become additionally relevant as separate modules later. Introduces scaled dot product attention, [[Multi-Headed Attention]] blocks, and positional input encoding.
 
 -------

@@ -17,7 +17,7 @@ Bahdanau, Cho, Bengio
 ### (2/19) *Attention is All You Need (2017)*
 Vaswani, Shazeer, Parmar, Gomez, ...
 [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
-- Introduces the ==original [[Transformer]] architecture== with an [[Encoder-Decoder Architecture]]. Introduces scaled dot product attention, [[Multi-Head Attention]] blocks, and positional input encoding.
+- Introduces the ==original [[Transformer]] architecture== with an [[Encoder-Decoder Architecture]]. Introduces scaled dot product attention, [[Multi-Headed Attention]] blocks, and positional input encoding.
 
 ### (3/19) *On Layer Normalization in the Transformer Architecture (2020)*
 Xiong, Yang, Zheng, ..

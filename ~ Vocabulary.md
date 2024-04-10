@@ -214,6 +214,7 @@ iter# Linear Algebra
 - [[Context-Free Grammar]]
 - [[Dependency Grammar]]
 - [[Summarization]]
+- [[Back-Translation]]
 
 
 # Computer Vision Concepts
@@ -232,7 +233,6 @@ iter# Linear Algebra
 - [[Proximal Policy Optimization]]
 - [[Bellman Equation]]
 - [[Temporal Difference Learning]] (TD-Learning)
-- On-Policy, Off-Policy
 - Actor-Critic methods
 - [[Direct Preference Optimization]]
 - [[Markov Decision Process]]
@@ -240,6 +240,8 @@ iter# Linear Algebra
 - [[Advantage Function]]
 - [[On-Policy]]
 - [[Off-Policy]]
+- [[Model-Based]]
+- [[Model-Free]]
 
 
 # Models
@@ -301,6 +303,8 @@ iter# Linear Algebra
 - [[Orca 2]]
 - [[LIMA]]
 - [[DBRX]]
+- [[SimCLR]]
+- [[BYOL]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 

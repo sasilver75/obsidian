@@ -61,7 +61,7 @@ Above:
 
 ## Causal Self-Attention for LLMs
 - The self-attention operation described above forms the basis of the transformer architecture.
-- However, the transformer's decoder uses a slightly more complex version of self-attention called *Masked* [[Multi-Head Attention]]!
+- However, the transformer's decoder uses a slightly more complex version of self-attention called *Masked* [[Multi-Headed Attention]]!
 #### (1/2) Masked Self-Attention
 - Decoder-only transformers use a variant of self-attention called [[Masked Attention]], or [[Masked Attention|Causal Attention]]... While vanilla (or [[Bidirectional Attention]])allows all tokens in the sequence to be considered when computing attention scores, *masked* self-attention modifies the underlying attention pattern by "masking out" tokens that follow a given token within the sequence.
 - *==Masked self-attention prohibits us from looking forward in the sequence during self-attention==.*
