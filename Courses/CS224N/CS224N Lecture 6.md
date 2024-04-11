@@ -203,4 +203,57 @@ Note:
 Above: [[Chris Olah]]'s wonderful LSTM diagram
 - We've got, from the previous timestamp, both your cell and hidden recurrent vectors. 
 
-![[Pasted image 20240408171914.png]]
+![[Pasted image 20240408171914.png]]You'll probably notice that while we've introduced this "long term" memory in the form of the hidden state (unfortunately named), we still have the problem along long sequences of boiling the whole world into the hidden state, so we don't get to incredibly long sequence lengths -- just longer than a vanilla RNN!
+
+Re: the name: The idea is that there's the concept of "Short Term Memory" from psychology; it was suggested that the hidden state in an RNN is a model of human memory short term memory, and there was something else that would deal with long term memory.
+Schidhuber et al were interested in how we could construct models with *long* short term memory (so there's not long term memory, just a *long* version of short-term memory!)
+
+![[Pasted image 20240408172357.png]]
+
+![[Pasted image 20240408172530.png]]
+
+---
+
+[[Residual Network]]s
+- Note that the vanishing/exploding gradient problem rears its head in almost all deep neural networks (feedforward, convolutional neural networks) -- any time you have long sequences of chain rules, the gradient can become vanishingly small or explodingly large. Generally, lower/earlier layer are harder to train, as a result.
+- There has been effort to come up with different architectures that learn more efficiently in deep NNs!
+- The most common way is to ==add more direct connections that allow gradients to flow==
+![[Pasted image 20240408172917.png]]
+You have two paths that are summed together:
+1. An identity path
+2. Some that goes through some neural network layers
+So the default behavior is to just preserve the input, which might seem a little like what we just saw for LSTMs.
+
+There are other methods:
+- DenseNets, where you add skip connections of each layer to all future layers
+- HighwayNets from Schmidhuber, where, rather than just having an identity connection, it introduces an extra gate that looks more like an LSTMM, which says how much to send the input through the highway versus how much to put it through a neural net layer; these two are then combined into the output.
+
+
+![[Pasted image 20240408173053.png]]
+Above:
+- This problem first arose with recurrent NNs; they're particularly unstable because you have this one weight matrix being repeatedly used throughout the time sequence.
+
+
+-----
+
+[[Bi-Directional Recurrent Neural Network]] and multi-layer RNN motivation
+
+Say we wanted to do sentiment classification using an RNN
+- WE had the thing where we said that we'd run an RNN over it, and take some combination of the hidden states across timesteps as the representation of the sentence, and then feed it into a softmax classifier to classify for sentiment.
+
+![[Pasted image 20240408174209.png]]
+
+Above:
+- So the hidden state at each word can be thought of (sort of) as the contextual representation of that word in the sentence (kinda).
+- But we calculate this hidden state left to right.
+- So we'd look at the one for "terribly" and the RNN will think, ah, this is a bad word! Add more "bad" to the hidden state!
+- But we know that terribly in this context actually means "very!", once you see the next word "exciting"!
+
+![[Pasted image 20240408174441.png]]
+This motivates the introduction of a bidirectional RNN!
+- An easy way to deal with this would be to just have another RNN that runs "backwards" through the sentence! 
+- This second RNN has its own completely separate, learned parameters.
+- We could run it backwards through the sentence
+- We could get an "overall" representation of a word in a sentence by simply ==concatenating the representations from the forward and backward RNNs!==
+
+![[Pasted image 20240408174641.png]]
