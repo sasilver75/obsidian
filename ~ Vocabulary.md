@@ -340,6 +340,7 @@ iter# Linear Algebra
 - [[Paloma]]
 - [[BEIR]]
 - [[GPQA]]
+- [[GSM8K]]
 
 
 # Datasets
@@ -357,6 +358,7 @@ iter# Linear Algebra
 	- LAION-COCO
 - [[MMC4]] (Multimodal C4)
 - [[Winograd]]  (Winograd schemas)
+- [[Winogrande]]
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
 - [[Project Gutenberg]]
@@ -365,8 +367,7 @@ iter# Linear Algebra
 - [[UltraFeedback]]
 - [[Dolma]]
 - [[RefinedWeb]]
-- 
-
+- [[SuperNaturalInstructions]]
 # Entities
 - [[Cohere]]
 - [[TogetherAI]]
