@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b5b89dab73d73cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f5a823712002c52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BLEU.md",
+                "file": "Courses/CS224N/CS224N Lecture 12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -130,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top-K Sampling.md",
+                "file": "SQuAD.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,8 +170,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS224N/CS224N Lecture 12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS224N/CS224N Lecture 12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Courses/CS224N/CS224N Lecture 12.md"
               }
             }
           }
@@ -265,23 +251,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b5b89dab73d73cf",
+  "active": "3f5a823712002c52",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240411202557.png",
-    "_attachments/Pasted image 20240411202556.png",
-    "_attachments/Pasted image 20240411202109.png",
-    "Courses/CS224N/CS224N Lecture 11.md",
-    "_attachments/Pasted image 20240411202101.png",
-    "_attachments/Pasted image 20240411202019.png",
-    "_attachments/Pasted image 20240411201946.png",
-    "_attachments/Pasted image 20240411201734.png",
+    "_attachments/Pasted image 20240411211016.png",
+    "_attachments/Pasted image 20240411210421.png",
     "BLEU.md",
-    "Top-K Sampling.md",
+    "SQuAD.md",
     "Pre-text Training.md",
-    "_attachments/Pasted image 20240411201653.png",
-    "_attachments/Pasted image 20240411201633.png",
-    "_attachments/Pasted image 20240411201105.png",
-    "_attachments/Pasted image 20240411201055.png",
+    "_attachments/Pasted image 20240411210408.png",
+    "Courses/CS224N/CS224N Lecture 12.md",
+    "Top-K Sampling.md",
+    "_attachments/Pasted image 20240411210208.png",
+    "_attachments/Pasted image 20240411210202.png",
+    "_attachments/Pasted image 20240411210156.png",
+    "_attachments/Pasted image 20240411210109.png",
+    "_attachments/Pasted image 20240411205846.png",
+    "_attachments/Pasted image 20240411205844.png",
+    "_attachments/Pasted image 20240411205744.png",
+    "_attachments/Pasted image 20240411205419.png",
+    "~ Useful Pictures.md",
+    "Courses/CS224N/CS224N Lecture 11.md",
     "ROGUE.md",
     "~ Graduate.md",
     "~ Vocabulary.md",
@@ -294,16 +283,13 @@
     "Temperature.md",
     "Top-P Sampling.md",
     "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "~ Useful Pictures.md",
     "Machine Translation.md",
     "Natural Language Inference.md",
     "Natural Language Generation.md",
     "Natural Language Understanding.md",
     "Natural Language Processing.md",
     "Courses/CS224N/CS224N Lecture 1.md",
-    "Courses/CS224N/CS224N Lecture 10.md",
     "Courses/CS224N/Untitled",
-    "BIG-Bench.md",
     "Courses/CS224N",
     "Courses"
   ]
