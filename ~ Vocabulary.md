@@ -43,7 +43,6 @@
 - [[Foundation Model]]
 - [[Multimodal]]
 - [[VLM]]
-- [[Temperature]]
 - [[Machine Learning]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
@@ -120,7 +119,6 @@
 - [[Contrastive learning]] / [[Contrastive Loss]]
 - [[Pre-text Training]] 
 - [[Kalman Filter]]
-- [[Exposure Bias]]
 - [[Particle Filters]] 
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
@@ -164,7 +162,6 @@
 - [[He Initialization]]
 - [[Out-of-Bag Error]]
 - [[Boosting]]
-- [[Exposure Bias]]
 
 # Information Retrieval Concepts
 - [[BM25]]
@@ -210,6 +207,13 @@
 - [[Matryoshka Representation Learning]]
 - [[Bi-Encoder]]
 - [[Out-of-Vocabulary Token]] / "UNK"
+- [[Top-K Sampling]]
+- [[Top-P Sampling]]
+- [[Beam Search]]
+- [[Exposure Bias]]
+	- [[Scheduled Sampling]]
+	- [[Dataset Aggregation]]
+- [[Temperature]]
 # Computer Vision Concepts
 - [[Object Recognition]]
 - [[Segmentation]]

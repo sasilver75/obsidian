@@ -164,20 +164,113 @@ At training we have perfect gold tokens -- but at generation time, our models in
 - Solutions?
 
 ![[Pasted image 20240411192428.png]]
+((It seems like Scheduled Sampling would produce some strange sentences, which, like it says, might lead to strange sentences. I see why they increase p over time, so that the teacher-forcing examples come later!))
+You can also use Retrieval Augmentation (Guu, 2018) or Reinforcement Learning!
+
+
+![[Pasted image 20240411193755.png]]
+(This is important (eg) for RL; what reward should we use? Maybe we should just use the score that we use for evaluation? ((I can see how this isn't a great thing to over-optimize for)))
+
+![[Pasted image 20240411193835.png]]
+So what can we actually use as a reward?
+- Most popular recently is Human Preference! 
+	- We ask humans to rank a bunch of generated text based on their preference
+	- Use this to learn a reward function that assigns high scores to things that humans would prefer, and low score to things that humans wouldn't prefer.
+
+
+# Takeaways
+
+![[Pasted image 20240411194345.png]]
 
 
 
+# Evaluation
+
+There are ==three broad types of generation evaluations==
+1. ==Content Overlap Metrics==
+2. ==Model-based Metrics==
+3. ==Human Evaluations==
+
+# Content Overlap Metrics
+- Compute a score based on the lexical similarity of the generated and the gold-reference text. This is fast and efficient, so it's widely used.
+	- [[ROGUE]], [[BLEU]]
+- ![[Pasted image 20240411194920.png]]These methods are cheap and easy to run, but they aren't the ideal metrics!
+-  ==Simply relying on lexical overlap might miss equally-good generations that are phrased diffrently!==
+- ==It might also reward texts that have a large portion of common text, but actually have the inverse meaning!==
+
+They're still *not ideal* for machine translation, but they get progressively *much worse* for tasks that are very open-ended.
+- Worse for summarization
+- Much worse for dialogue
+- Much, much worse for story generation
+
+![[Pasted image 20240411200639.png]]
+Let's instead try to use *model-based* metrics that cpature some of these semantic simliarities! We can use learned representations to compute semantic similarity between generated and reference texts, using pretrained embeddings and calculating distance!
+
+![[Pasted image 20240411200827.png]]
+We could use metrics:
+- Vector Similarity: Embedding based similarity for semantic distance between text
+	- Embedding Average
+	- Vector Extrema
+	- MEANT
+	- YISI
+- Word Mover's Distance: Measures the distance between two sequences (eg sentences, paragraphs, etc) using word matching similarity matching. Uses optimal transport).
+- BERTSCORE
+	- Uses pre-trained contextual embeddings from BERT and matches words in candidate and references sentences by cosine similarity.
+
+==High level idea: We can use word embeddings to compute sentence similarities by doing some smart alignment and then transforming from word similarities to sentence similarities!==
+
+
+![[Pasted image 20240411200926.png]]
+We could also just use ==Sentence Embeddings== straight up! 
+BLEURT, Sentence Movers Similarity
+
+
+## Evaluating Open-ended Text Generation
+- How do we do this?
+	- Lexical similarity seems wrong.
+	- Enforcing semantic similarity also seems wrong -- a story can be fluent and of high quality without at all representing any of the example stories!
+	- 
+![[Pasted image 20240411201055.png]]
+The [[MAUVE]] score computes information divergence in a quantized embedding space, between the generated text and the gold reference text 
+
+![[Pasted image 20240411201105.png]]
+Suppose you have a batch of text that's gold, and a batch from your model.
+You embed the text into some continuous representation space (left), but it's hard to compute distance metrics in a continuous space like this (?), so... we try to do a K-Means Cluster to discretize the continuous space into a discrete one. Then we have a histogram for each batch of text, and compute things like precision/recall using these two distributions.
+
+Q: Why discretize it?
+A: It's hard to work in the continuous space because when you embed it into a continuous space, and embed another... suppose you have only a finite number of sentences. Then they would be "dirac delta" (?) distributions in your manifold; you probably want a smoother distribution, but it's hard to define what a smoother distribution is.
 
 
 
+![[Pasted image 20240411201633.png]]
+We say that metrics that highly correlate with human judgement are good metrics.
+- BLEU Score is thus not a very good metric ;) 
+
+So if human annotators are the gold standard, how is this done?
+
+![[Pasted image 20240411201734.png]]
+This is a good list of things that we care about 
+- Please don't compare human evaluations across different papers/studies; human evaluations aren't always well-calibrated or reproducible... ((despite us thinking it's a gold standard???))
+
+We know that human eval is slow and expensive; beyond the cost of human eval, it's still far ffrom perfect!
+- Human Eval is hard
+	- Results are inconsistent/not reproducible
+	- Can be illogical
+	- Annotators might misinterpret your question
+	- Only measures Precision not recall
+		- A human can say "How do you like this sentence," but you can't say "Can this model only generate good sentences, human?"
 
 
+![[Pasted image 20240411201946.png]]
+These try to combine human evaluations with modeling!
+- ADEM: We learn a metric from human judgement, training a model to simulate human judgement
+- HUSE: Ask the human and model to collaborate; the human evaluates precision, and the model evaluates recall.
+
+![[Pasted image 20240411202019.png]]
+Evaluating models interactively
 
 
-
-
-
-
+![[Pasted image 20240411202101.png]]
 
 
 

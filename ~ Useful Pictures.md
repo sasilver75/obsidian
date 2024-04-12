@@ -147,3 +147,17 @@ On what types of knowledge Pretraining teaches
 On the impact on Instruction-Tuning, versus a raw pretrained model
 ![[Pasted image 20240411110714.png]]
 Sort of why using LLMs as a general computing OS doesn't always make sense.
+
+![[Pasted image 20240411202109.png]]
+
+There are still problems with LLMs
+- Jailbreaks
+- Hallucinations/Factual errors
+- Text generation models are often constructed from pretrained LMs trained on internet data containing harmful stuff and bias.
+	- Adversarial inputs can trigger VERY toxic content!
+	- Even if you don't try to trigger the model, using very innocuous prompts, it can start generating toxic content by itself!
+
+Models shouldn't be deployed without proper safeguards, and without understanding about how users will interact with models.
+
+![[Pasted image 20240411202557.png]]
+
