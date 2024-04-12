@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 10.md",
+                "file": "Courses/CS25 V4 Lecture 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "7ac8303cc4490521",
+            "id": "14b28899133dccb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7220b25f7fc350de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Top-K Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 10.md",
+                "file": "Courses/CS25 V4 Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 10.md",
+                "file": "Courses/CS25 V4 Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 10.md"
+                "file": "Courses/CS25 V4 Lecture 2.md"
               }
             }
           }
@@ -175,20 +162,34 @@
   },
   "active": "4b5b89dab73d73cf",
   "lastOpenFiles": [
-    "~ Useful Pictures.md",
-    "Courses/CS224N/CS224N Lecture 10.md",
-    "_attachments/Pasted image 20240410222337.png",
-    "_attachments/Pasted image 20240410221955.png",
-    "_attachments/Pasted image 20240410221952.png",
-    "_attachments/Pasted image 20240410221505.png",
-    "_attachments/Pasted image 20240410221446.png",
-    "_attachments/Pasted image 20240410215908.png",
-    "_attachments/Pasted image 20240410215729.png",
-    "_attachments/Pasted image 20240410215654.png",
-    "_attachments/Pasted image 20240410215634.png",
-    "_attachments/Pasted image 20240410215611.png",
-    "BIG-Bench.md",
+    "_attachments/Pasted image 20240411174033.png",
+    "_attachments/Pasted image 20240411173949.png",
+    "_attachments/Pasted image 20240411173927.png",
+    "_attachments/Pasted image 20240411173831.png",
+    "_attachments/Pasted image 20240411173711.png",
+    "_attachments/Pasted image 20240411173454.png",
+    "_attachments/Pasted image 20240411173433.png",
+    "_attachments/Pasted image 20240411173400.png",
+    "_attachments/Pasted image 20240411173329.png",
+    "_attachments/Pasted image 20240411173236.png",
+    "_attachments/Pasted image 20240411173212.png",
+    "Courses/CS224N/CS224N Lecture 11.md",
+    "Courses/CS25 V4 Lecture 2.md",
+    "Top-K Sampling.md",
+    "Temperature.md",
+    "Top-P Sampling.md",
     "~ Vocabulary.md",
+    "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "~ Useful Pictures.md",
+    "Machine Translation.md",
+    "Natural Language Inference.md",
+    "Natural Language Generation.md",
+    "Natural Language Understanding.md",
+    "Natural Language Processing.md",
+    "Courses/CS224N/CS224N Lecture 1.md",
+    "Courses/CS224N/CS224N Lecture 10.md",
+    "Courses/CS224N/Untitled",
+    "BIG-Bench.md",
     "Courses/CS224N/CS224N Lecture 9.md",
     "Courses/CS224N/CS224N Lecture 6.md",
     "Prefix Tuning.md",
@@ -198,18 +199,6 @@
     "BYOL.md",
     "Courses/CS224N/CS224N Lecture 8.md",
     "Courses/CS224N/CS224N Lecture 7.md",
-    "PaperClubs/LatentSpace/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
-    "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
-    "PaperClubs/LatentSpace/BitNet - Scaling 1-bit Transformers for Large Language Models.md",
-    "Speculative Sampling.md",
-    "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
-    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
-    "Articles/ML/Untitled.md",
-    "Multi-Headed Attention.md",
-    "Mixup.md",
-    "Articles/ML/Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md",
-    "Consistency Regularization.md",
-    "Trust Region Policy Optimization.md",
     "Courses/CS224N",
     "Courses"
   ]

@@ -48,6 +48,7 @@ iter# Linear Algebra
 
 # Machine Learning
 - [[Bi-Encoder]]
+- [[Teacher Forcing]] vs [[Student Forcing]]
 - [[Cross-Encoder]]
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]

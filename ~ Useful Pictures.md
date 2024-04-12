@@ -145,3 +145,5 @@ On what types of knowledge Pretraining teaches
 
 ![[Pasted image 20240410221505.png]]
 On the impact on Instruction-Tuning, versus a raw pretrained model
+![[Pasted image 20240411110714.png]]
+Sort of why using LLMs as a general computing OS doesn't always make sense.
