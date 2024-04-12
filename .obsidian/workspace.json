@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 11.md",
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f5a823712002c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BLEU.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff52f46c7c436f9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROGUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -27,6 +53,58 @@
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f67f016f6c66a315",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Student Forcing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bea357766b8c5d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teacher Forcing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67ce21cab1eb22d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dataset Aggregation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65d8548250fa1fcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scheduled Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +137,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "er",
+                "query": "retrieval augmentation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +183,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -127,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -187,24 +265,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1c31d3fd39a1ec0",
+  "active": "4b5b89dab73d73cf",
   "lastOpenFiles": [
-    "Pre-text Training.md",
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240411202557.png",
+    "_attachments/Pasted image 20240411202556.png",
+    "_attachments/Pasted image 20240411202109.png",
     "Courses/CS224N/CS224N Lecture 11.md",
-    "_attachments/Pasted image 20240411192428.png",
-    "_attachments/Pasted image 20240411190924.png",
-    "_attachments/Pasted image 20240411190818.png",
-    "_attachments/Pasted image 20240411190711.png",
-    "_attachments/Pasted image 20240411190408.png",
-    "KL Divergence.md",
-    "_attachments/Pasted image 20240411185747.png",
-    "Courses/CS25 V4 Lecture 2.md",
-    "_attachments/Pasted image 20240411174033.png",
-    "_attachments/Pasted image 20240411173949.png",
-    "_attachments/Pasted image 20240411173927.png",
-    "_attachments/Pasted image 20240411173831.png",
+    "_attachments/Pasted image 20240411202101.png",
+    "_attachments/Pasted image 20240411202019.png",
+    "_attachments/Pasted image 20240411201946.png",
+    "_attachments/Pasted image 20240411201734.png",
+    "BLEU.md",
     "Top-K Sampling.md",
+    "Pre-text Training.md",
+    "_attachments/Pasted image 20240411201653.png",
+    "_attachments/Pasted image 20240411201633.png",
+    "_attachments/Pasted image 20240411201105.png",
+    "_attachments/Pasted image 20240411201055.png",
+    "ROGUE.md",
+    "~ Graduate.md",
+    "~ Vocabulary.md",
+    "Student Forcing.md",
+    "Teacher Forcing.md",
+    "Dataset Aggregation.md",
+    "Scheduled Sampling.md",
+    "KL Divergence.md",
+    "Courses/CS25 V4 Lecture 2.md",
     "Temperature.md",
     "Top-P Sampling.md",
     "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
@@ -218,14 +304,6 @@
     "Courses/CS224N/CS224N Lecture 10.md",
     "Courses/CS224N/Untitled",
     "BIG-Bench.md",
-    "Courses/CS224N/CS224N Lecture 9.md",
-    "Courses/CS224N/CS224N Lecture 6.md",
-    "Prefix Tuning.md",
-    "PagedAttention.md",
-    "Back-Translation.md",
-    "Byte-Pair Encoding.md",
-    "BYOL.md",
-    "Courses/CS224N/CS224N Lecture 8.md",
     "Courses/CS224N",
     "Courses"
   ]
