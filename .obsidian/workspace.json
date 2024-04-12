@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 13.md",
+                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -269,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 13.md",
+                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 13.md",
+                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 13.md"
+                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md"
               }
             }
           }
@@ -331,19 +331,23 @@
   },
   "active": "3f5a823712002c52",
   "lastOpenFiles": [
-    "Winograd.md",
+    "_attachments/Pasted image 20240412104229.png",
+    "_attachments/Pasted image 20240412104224.png",
+    "_attachments/Pasted image 20240412103749.png",
+    "_attachments/Pasted image 20240412103417.png",
+    "_attachments/Pasted image 20240412103319.png",
+    "_attachments/Pasted image 20240412103153.png",
+    "_attachments/Pasted image 20240412102656.png",
+    "_attachments/Pasted image 20240412102453.png",
+    "_attachments/Pasted image 20240412101946.png",
+    "_attachments/Pasted image 20240412101729.png",
+    "_attachments/Pasted image 20240412101452.png",
     "Courses/CS224N/CS224N Lecture 13.md",
-    "_attachments/Pasted image 20240411230118.png",
-    "_attachments/Pasted image 20240411225844.png",
-    "_attachments/Pasted image 20240411225149.png",
-    "_attachments/Pasted image 20240411225117.png",
-    "_attachments/Pasted image 20240411224955.png",
-    "_attachments/Pasted image 20240411224950.png",
-    "_attachments/Pasted image 20240411224946.png",
-    "_attachments/Pasted image 20240411224807.png",
-    "_attachments/Pasted image 20240411224555.png",
+    "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
+    "PaperClubs/Oxen",
+    "PaperClubs/Untitled.md",
+    "Winograd.md",
     "Cataphora.md",
-    "_attachments/Pasted image 20240411224439.png",
     "Anaphora.md",
     "~ Vocabulary.md",
     "Courses/CS224N/CS224N Lecture 12.md",
@@ -364,9 +368,6 @@
     "Temperature.md",
     "Top-P Sampling.md",
     "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "Machine Translation.md",
-    "Natural Language Inference.md",
-    "Natural Language Generation.md",
     "Courses/CS224N/Untitled",
     "Courses/CS224N",
     "Courses"
