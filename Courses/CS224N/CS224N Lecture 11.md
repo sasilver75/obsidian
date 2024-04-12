@@ -138,6 +138,39 @@ Something else we can tune to effect decoding is the [[Temperature]] parameter!
 
 Temperature is a hyperparameter for decoding that can be tuned for either Beam Search or other Sampling methods -- so it's kind of orthogonal to the other sampling examples.
 
+![[Pasted image 20240411190408.png]]
+Sampling still has randomness, even when we try to truncate tail probabilitiies.
+What if we still have some back tokens in our window that we sample from?
+We can try to 
+- Decode a bunch of sequences (eg 10 candidates)
+- Define some score to approximate quality of sequences, and re-rank by this score
+	- The simplest might be to use [[Perplexity]] as this score (but careful -- remember that repetitive utterances generally get low perplexity! What a shame. What a shame. What a shame.)
+- We can instead rerank on 
+	- Style
+	- Discourse
+	- Entailment/factuality
+	- Logical consistency
+	- ==We can even compose many of these reranking scores together!==
+
+
+![[Pasted image 20240411190711.png]]
+
+
+# Training
+
+![[Pasted image 20240411190924.png]]
+For text: MLE has some problems for sequential data, called [[Exposure Bias]] at generation time;
+At training we have perfect gold tokens -- but at generation time, our models input beome previously decoded tokens from the model -- suppose our model has slight "errors"; this discrepancy is terrible; it causes a discrepancy between training and test time text distributions, and we call this Exposure bias!
+- Solutions?
+
+![[Pasted image 20240411192428.png]]
+
+
+
+
+
+
+
 
 
 
