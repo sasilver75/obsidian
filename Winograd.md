@@ -1,5 +1,7 @@
 This dataset was quoted in the GPT-3 paper, [[GPT-3 Paper {Language Models are Few-Shot Learners}|Language Models are Few-Shot Learners]]
-A Winograd schema is a pair of sentences that differ in only one or two words and that contain an ambiguity that is resolved in opposite ways in the two sentences. It requires the use of world knowledge and reasoning for its revolutions.
+A ==Winograd Schema== is a pair of sentences that differ in only one or two words and that contain an ambiguity that is resolved in opposite ways in the two sentences. It requires the use of world knowledge and reasoning for its revolutions.
+
+It's basically coreference resolution when there are ambiguities in a sentence that require world knowledge to resolve.
 
 Example:
 > The city councilmen refused the demonstrators a permit because they `feared/advocated` violence.
@@ -12,4 +14,6 @@ The strengths of this challenge are that it's clear-cut, and that the answer to 
 It seems that models are able to achieve something like 85%+ accuracy, in ~2022.
 
 
-It was succeeded by the Winogrande dataset and benchmark.
+It was succeeded by the [[Winogrande]] dataset and benchmark.
+
+![[Pasted image 20240411230118.png]]
