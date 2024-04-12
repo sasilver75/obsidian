@@ -1,24 +1,9 @@
-iter# Linear Algebra
+# Linear Algebra
 - 
 
 
 # Probability/Statistics
 - [[Monte-Carlo Tree Search]]
-
-
-# Information Retrieval
-- [[BM25]]
-- [[Hierarchical Navigable Small Worlds]]
-- [[Locality Sensitive Hashing]]
-- [[Reranking]]
-- [[Inverted Index]]
-- [[Sparse Retrieval]]
-- [[Dense Retrieval]]
-- [[Hybrid Search]]
-- [[TF-IDF]]
-- [[Cosine Similarity]]
-- [[ColBERT]]
-- [[Discounted Cumulative Gain]]
 
 # Analytics
 - [[Type One Error]]
@@ -47,17 +32,13 @@ iter# Linear Algebra
 
 
 # Machine Learning
-- [[Bi-Encoder]]
 - [[Teacher Forcing]] vs [[Student Forcing]]
-- [[Cross-Encoder]]
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
-- [[Self-Instruct]]
 - [[Alignment]]
 - [[KL Divergence]]
 - [[Entropy]]
 - [[Cross-Entropy]]
-- [[Matryoshka Representation Learning]]
 - [[Large Language Model]]
 - [[Foundation Model]]
 - [[Multimodal]]
@@ -72,8 +53,6 @@ iter# Linear Algebra
 - [[Feed-Forward Network]]
 - [[Chain of Thought]]
 - [[Catastrophic Forgetting]]
-- [[Reinforcement Learning from Human Feedback]]
-	- [[Rejection Sampling]] in the RLHF context
 - [[Fine-Tuning]]
 - [[Instruction-Tuning]]
 - [[Preference-Tuning]]
@@ -104,8 +83,6 @@ iter# Linear Algebra
 - [[Grouped Convolutions]]
 - [[Depth-Wise Convolutions]]
 - [[Activation Function]]s
-- [[U-Net]]
-- [[ULMFiT]]
 - [[Gini Index]]
 - [[Test-Time Augmentation]]
 - [[Progressive Resizing]]
@@ -117,7 +94,6 @@ iter# Linear Algebra
 - [[Convolutional Neural Network]]
 - [[Region-Based Convolutional Neural Network]]
 - [[Vanishing Gradients]], [[Exploding Gradients]]
-- [[Masked Language Model]]
 - [[Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
@@ -125,7 +101,6 @@ iter# Linear Algebra
 - [[Mode Collapse]] 
 - [[VC Dimension]]
 - [[Alignment Tax]]
-- [[Perplexity]] 
 - [[Curriculum Learning]]
 - [[Online Learning]]
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
@@ -138,7 +113,6 @@ iter# Linear Algebra
 - [[Decoder-Only Architecture]]
 - [[Encoder-Decoder Architecture]]
 - [[Neural Architecture Search]]
-- [[Out-of-Vocabulary Token]]
 - [[Double Descent]]
 - [[Bias-Variance Tradeoff]]
 - [[Guardrails]], [[Steerability]]
@@ -151,7 +125,7 @@ iter# Linear Algebra
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
 - [[Tree of Thought]]
-- [[knowledge-base/VLM]] 
+- [[VLM]] 
 - [[Speculative Decoding]]
 - [[Speculative Sampling]]
 - [[Dropout]]
@@ -165,23 +139,15 @@ iter# Linear Algebra
 - [[Prefix Tuning]]
 - Compute-Optimal Training
 - Inference-Optimal Training
--  [[Reinforcement Learning from from AI Feedback]]
 - [[Low-Rank Adaptation]]
 - [[Quantized Low-Rank Adaptation]]
-- [[Constitutional AI]]
-- [[Segmentation Mask]]
 - [[Scaling Laws]]
-- [[Self-Play]]
 - [[Synthetic Data]]
-- [[Self-Correct]]
 - [[Mixture of Experts]]
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
 - [[RMSNorm]]
 - [[Gradient Checkpointing]]
-- [[Byte-Pair Encoding]] Tokenization
-- [[SentencePiece]] Tokenization
-- [[WordPiece]] Tokenization
 - [[Rotary Positional Embedding]]
 - [[SPIN]]
 - [[Canary GUID]]
@@ -196,12 +162,24 @@ iter# Linear Algebra
 - [[Quantization-Aware Training]]
 - [[Xavier Initialization]]
 - [[He Initialization]]
-- [[Zero-Shot Prompting]]
 - [[Out-of-Bag Error]]
 - [[Boosting]]
-- [[Automatic Speech Recognition]]
-- [[ROGUE]] Score
+- [[Exposure Bias]]
 
+# Information Retrieval Concepts
+- [[BM25]]
+- [[Hierarchical Navigable Small Worlds]]
+- [[Locality Sensitive Hashing]]
+- [[Reranking]]
+- [[Inverted Index]]
+- [[Sparse Retrieval]]
+- [[Dense Retrieval]]
+- [[Hybrid Search]]
+- [[TF-IDF]]
+- [[Cosine Similarity]]
+- [[ColBERT]]
+- [[Discounted Cumulative Gain]]
+- [[Cross-Encoder]]
 
 # Natural Language Processing Concepts
 - [[Sentiment Analysis]]
@@ -216,10 +194,26 @@ iter# Linear Algebra
 - [[Dependency Grammar]]
 - [[Summarization]]
 - [[Back-Translation]]
-
-
+- [[ROGUE]] Score
+- [[Automatic Speech Recognition]]
+- - [[Byte-Pair Encoding]] Tokenization
+- [[SentencePiece]] Tokenization
+- [[WordPiece]] Tokenization
+- [[Self-Play]]
+- [[Self-Correct]]
+- [[Self-Instruct]]
+- [[Constitutional AI]]
+- [[Zero-Shot Prompting]]
+- [[Perplexity]] 
+- [[Masked Language Model]]
+- [[U-Net]]
+- [[Matryoshka Representation Learning]]
+- [[Bi-Encoder]]
+- [[Out-of-Vocabulary Token]] / "UNK"
 # Computer Vision Concepts
 - [[Object Recognition]]
+- [[Segmentation]]
+- [[Segmentation Mask]]
 
 
 # Reinforcement Learning Concepts
@@ -243,6 +237,9 @@ iter# Linear Algebra
 - [[Off-Policy]]
 - [[Model-Based]]
 - [[Model-Free]]
+-  [[Reinforcement Learning from from AI Feedback]]
+- - [[Reinforcement Learning from Human Feedback]]
+	- [[Rejection Sampling]] in the RLHF context
 
 
 # Models
@@ -306,6 +303,7 @@ iter# Linear Algebra
 - [[DBRX]]
 - [[SimCLR]]
 - [[BYOL]]
+- [[ULMFiT]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
