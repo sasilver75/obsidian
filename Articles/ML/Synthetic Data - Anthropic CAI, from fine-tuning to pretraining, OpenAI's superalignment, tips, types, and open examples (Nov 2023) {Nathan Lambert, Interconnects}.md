@@ -61,3 +61,47 @@ Above: [[Constitutional AI]] process
 3. Instruction-fine-tune your model on this dataset
 4. We use an LLM as a Judge as our preference model, and create a preference dataset (?)
 5. We finetune the original model with RL using the new preference model (an LLM)
+
+
+A lot of ***confusion*** around CAI is the second step above is the one that they named RLAIF and promoted more heavily in the aper/media, but ==it requires *BOTH* the instruction-finetuning and human-preference training to be called CAI!==
+
+==CAI = Principled Instruction Correction + Principle-following RLAIF (rather than just generic RLAIF)==
+
+The details and complexities of CAI aren't fully appreciated because of ths ubtle differences between:
+1. Generating critiques/scoring multiple answers
+2. Finding an empirically stable set of principles to use in the synthetic data generation phase (RLAIF part)
+
+When doing CAI, Anthropic needs to:
+1. Keep the principles to similar lengths
+2. Avoid overlapping concepts
+3. Cannot use any size of constitution
+
+Additionally, It's simply the case that some principles generate data that's numerically unstable!
+
+
+# Synthetic Instructions vs Preferences vs Critiques
+- Among open models, it's easy to see a progression of how people are using synthetic data.
+	- Models like [[Alpaca]] and [[Vicuna]] used synthetic instruction data for the [[Supervised Fine-Tuning|SFT]] of [[LLaMA]] 1 models to reach impressive performance in the 7-13B range.
+		- A large debate permeated this space for months: "Can we actually (legally) fine-tune models on the outputs of OpenAI's models?" These days we *all* train on synthetic outputs.
+	- Many open instruction datasets are ==advances in [[Self-Instruct]]-style methods, where you create a "seed" of instructions and use an LLM to generate instructions similar to them==.
+		- There are now many ways of doing this, but they're all in the early days of trying to figure out the right ways to add diversity to the dataset.
+	- Today, ==synthetic preference datasets== are starting to emerge. These are mostly scores/asking which is better, analogous to [[MT Bench]] and [[AlpacaEval]] scoring method, but keeping the score or win/loss as a datapoint for training.
+		- An example is [[UltraFeedback]], which was used for some of the first open models, highlighting the potential of RLHF methods for chat models, like [[Zephyr]] and Tulu -- this is not normal practice, weeks later.
+			- UltraFeedback collects prompts from user sources like ShareGPT and existing instruction datasets like FLAN, and includes (?) model-generated critiques and completions.
+	- The final frontier is preference or instruction data generated through ==AI critiques==. Critiques are a process of repeatedly using an LLM to fine-tune data with respect to a specific principle or question.
+		- The addition of more context into the process makes the prerequisite capabilities of the model much higher, when it comes to critiquing synthetic data.
+		- See: Critic models like Meta's [[Shepherd]] (Aug, 2023) and KAIST's [[Prometheus]] (Oct, 2023)
+
+Note: Nato says "Be warned: Prompt datasets like ShareGPT have low average quality and narrow distributions!"
+
+
+Nato suspects it will take some substantial effort to reproduce Anthropic's CAI results without having the right models to start with; it's inferred by Anthropic that many of these methods don't really work without their reward model/RLHF capabilities at 50B parameters and up!
+
+![[Pasted image 20240413135830.png]]
+We've shared a rough graphic used to highlight the fact that synthetic instruction generation is upstream of preferences, which are both upstream of critiques in infra and training difficulty.
+
+# Two Synthetic Data Tricks
+1. ==Always use the best model for generation==
+	- Your models are only good as your data -- many don't want to pay OpenAI for training data, but the cost-benefit so far is on the side of using the best model -- do so!
+2. ==Expect variation in APIs, so lock the API version when you can==
+	- API model endpoint changes can result in large deltas in your results.

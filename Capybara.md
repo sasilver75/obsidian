@@ -15,6 +15,3 @@ The result is a multi-turn synthetic conversation generation method (that might 
 
 A first test of Capybara shows that with less than 20,000 of these high-quality examples, we can reach beyond the HF leaderboard scores of many popular models that were trained (on the same base model) with >5x the amount of data!
 - ((==Given the same base model, models resulting from finetuning on this dataset are as good as models finetuned on 5x+ more data!==))
-
-
-Q: "Would this dataset improve "

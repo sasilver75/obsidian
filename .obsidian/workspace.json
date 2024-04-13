@@ -21,6 +21,123 @@
             }
           },
           {
+            "id": "1e2350749cc45ba1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shepherd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca2e93e585f30b9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthetic Data.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d56ca190aa9bfbe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shepherd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac3a93c20f8120e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shepherd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccc0abb886c384c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allen Institute.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1811ccc4bfcbb10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stanford AI Lab.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b684b9d0badf144",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microsoft Research.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49d758799f139cc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KAIST.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "402acf72b2b80fc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constitutional AI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c2340ed76a3b9fa4",
             "type": "leaf",
             "state": {
@@ -184,19 +301,30 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "aef085e2daf78311",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
-    "Constitutional AI.md",
-    "_attachments/Pasted image 20240412190738.png",
+    "Shepherd.md",
+    "Synthetic Data.md",
     "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
-    "_attachments/Pasted image 20240412190728.png",
-    "Odds Ratio Preference Optimization.md",
+    "_attachments/Pasted image 20240413135830.png",
+    "Prometheus.md",
+    "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
+    "~ Vocabulary.md",
+    "Allen Institute.md",
+    "Stanford AI Lab.md",
+    "Microsoft Research.md",
+    "KAIST.md",
+    "Constitutional AI.md",
+    "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "HyDE.md",
     "Capybara.md",
+    "_attachments/Pasted image 20240412190738.png",
+    "_attachments/Pasted image 20240412190728.png",
+    "Odds Ratio Preference Optimization.md",
     "SQuAD.md",
     "Pre-text Training.md",
     "Scheduled Sampling.md",
@@ -215,17 +343,8 @@
     "_attachments/Pasted image 20240412103319.png",
     "_attachments/Pasted image 20240412103153.png",
     "_attachments/Pasted image 20240412102656.png",
-    "_attachments/Pasted image 20240412102453.png",
     "Courses/CS224N/CS224N Lecture 13.md",
     "PaperClubs/Oxen",
-    "PaperClubs/Untitled.md",
-    "Courses/CS224N/CS224N Lecture 12.md",
-    "BLEU.md",
-    "Top-K Sampling.md",
-    "~ Useful Pictures.md",
-    "Courses/CS224N/CS224N Lecture 11.md",
-    "~ Graduate.md",
-    "KL Divergence.md",
     "Courses/CS224N/Untitled",
     "Courses/CS224N",
     "Courses"
