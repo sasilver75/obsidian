@@ -387,14 +387,14 @@
 - [[Google Brain]]
 - [[HuggingFace]]
 - [[Cohere]]
-- [[Inflection]]
+- [[Inflection]] (RIP, March 2024)
 - [[DeepMind]]
-- [[Allen Institute]]
-- [[Microsoft Research]]
+- [[Allen Institute]] (AI2)
+- [[Microsoft Research]] (MSR)
 - [[Stanford AI Lab]] (SAIL)
 - [[Berkeley AI Research Lab]] (BAIR)
 - [[Snorkel AI]]
-- [[Meta AI Research]]
+- [[Meta AI Research]] (FAIR)
 - [[Mistral]]
 - [[Nvidia]]
 - [[Center for Research on Foundation Models]] (CRFM)
@@ -405,6 +405,7 @@
 - [[MosaicML]]
 - [[DataBricks]]
 - [[Nous Research]]
+- [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST)
 
 
 # People
