@@ -1,0 +1,4 @@
+---
+aliases:
+  - Hypothetical Document Embeddings
+---

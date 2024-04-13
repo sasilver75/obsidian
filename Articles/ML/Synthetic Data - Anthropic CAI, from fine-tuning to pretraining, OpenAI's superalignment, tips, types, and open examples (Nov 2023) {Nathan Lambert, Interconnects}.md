@@ -29,3 +29,13 @@ Nato thinks that we have ~2 more generations of models for scaling to be worth i
 
 ==The argument against synthetic data follows that all the data that we're generating is from the same distribution as the current best models, so some do not expect the SOTA to be advanced by it.==
 
+Regardless -- in the open, we're well behind GPT-Turbo, so we have a ton of runway to go by copying this data at many stages of development.
+- ==Nate thinks that GPT4 tokens are good enough that training on them is likely to help GPT5, because most generated sequences are still so unique in the possible space of all tokens that it provides more useful diversity than bias.==
+
+Many of the trending models on [[HuggingFace]] Hub use synthetic data as a way to move fast and afford to try techniques behind the SOT language models in industry.
+- At the same time, the [[Anthropic]] and [[OpenAI]]s of the world use it because it's the only way to move forward at scale and capabilities in their ballpark. ==Frontier-model builders== are creating ==nearly-pretraining-sized synthetic datasets==, spending $10M+.
+- Meanwhile, ==smaller models== use it because human data at the same scale is thousands of times more expensive. They're ==creating instruction datasets, spending (eg) $10.==
+
+
+The feature that Nato expects models 
+

@@ -177,6 +177,7 @@
 - [[ColBERT]]
 - [[Discounted Cumulative Gain]]
 - [[Cross-Encoder]]
+- [[HyDE]]
 
 # Natural Language Processing Concepts
 - Tasks
@@ -219,6 +220,8 @@
 	- [[Scheduled Sampling]]
 	- [[Dataset Aggregation]]
 - [[Temperature]]
+- [[Direct Preference Optimization]]
+- [[Odds Ratio Preference Optimization]]
 # Computer Vision Concepts
 - [[Object Recognition]]
 - [[Segmentation]]
@@ -238,7 +241,6 @@
 - [[Bellman Equation]]
 - [[Temporal Difference Learning]] (TD-Learning)
 - Actor-Critic methods
-- [[Direct Preference Optimization]]
 - [[Markov Decision Process]]
 - [[REINFORCE]]
 - [[Advantage Function]]
@@ -247,7 +249,7 @@
 - [[Model-Based]]
 - [[Model-Free]]
 -  [[Reinforcement Learning from from AI Feedback]]
-- - [[Reinforcement Learning from Human Feedback]]
+-  [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
 
 
@@ -376,6 +378,7 @@
 - [[Dolma]]
 - [[RefinedWeb]]
 - [[SuperNaturalInstructions]]
+- [[Capybara]]
 # Entities
 - [[Cohere]]
 - [[TogetherAI]]
@@ -401,6 +404,7 @@
 - [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)
 - [[MosaicML]]
 - [[DataBricks]]
+- [[Nous Research]]
 
 
 # People
