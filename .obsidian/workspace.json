@@ -4,76 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "255f2bc78db1c1ec",
+        "id": "67bc8244d8f7f353",
         "type": "tabs",
         "children": [
           {
-            "id": "3f5a823712002c52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af7a97ace2611cbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Winograd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48d7e39eaa809025",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cataphora.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af14fae36ed04cf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cataphora.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c19dc21dc075931",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anaphora.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46bff34f33f9b6ca",
+            "id": "aef085e2daf78311",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,12 +21,12 @@
             }
           },
           {
-            "id": "01be8ef279e37450",
+            "id": "c2340ed76a3b9fa4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,12 +34,12 @@
             }
           },
           {
-            "id": "ff52f46c7c436f9e",
+            "id": "72645b7d2419ca68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROGUE.md",
+                "file": "HyDE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,97 +47,20 @@
             }
           },
           {
-            "id": "f1c31d3fd39a1ec0",
+            "id": "b335c1441769361c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f67f016f6c66a315",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Student Forcing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bea357766b8c5d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teacher Forcing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67ce21cab1eb22d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dataset Aggregation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65d8548250fa1fcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scheduled Sampling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e069f8a11d72ab5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pre-text Training.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14b28899133dccb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQuAD.md",
+                "file": "Capybara.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "retrieval augmentation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -248,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -269,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md"
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md"
               }
             }
           }
@@ -329,8 +188,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f5a823712002c52",
+  "active": "c2340ed76a3b9fa4",
   "lastOpenFiles": [
+    "Odds Ratio Preference Optimization.md",
+    "~ Vocabulary.md",
+    "HyDE.md",
+    "Capybara.md",
+    "SQuAD.md",
+    "Pre-text Training.md",
+    "Scheduled Sampling.md",
+    "Dataset Aggregation.md",
+    "Teacher Forcing.md",
+    "Student Forcing.md",
+    "ROGUE.md",
+    "Anaphora.md",
+    "Cataphora.md",
+    "Winograd.md",
+    "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
     "_attachments/Pasted image 20240412104229.png",
     "_attachments/Pasted image 20240412104224.png",
     "_attachments/Pasted image 20240412103749.png",
@@ -341,33 +215,18 @@
     "_attachments/Pasted image 20240412102453.png",
     "_attachments/Pasted image 20240412101946.png",
     "_attachments/Pasted image 20240412101729.png",
-    "_attachments/Pasted image 20240412101452.png",
     "Courses/CS224N/CS224N Lecture 13.md",
-    "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
     "PaperClubs/Oxen",
     "PaperClubs/Untitled.md",
-    "Winograd.md",
-    "Cataphora.md",
-    "Anaphora.md",
-    "~ Vocabulary.md",
     "Courses/CS224N/CS224N Lecture 12.md",
     "BLEU.md",
-    "SQuAD.md",
-    "Pre-text Training.md",
     "Top-K Sampling.md",
     "~ Useful Pictures.md",
     "Courses/CS224N/CS224N Lecture 11.md",
-    "ROGUE.md",
     "~ Graduate.md",
-    "Student Forcing.md",
-    "Teacher Forcing.md",
-    "Dataset Aggregation.md",
-    "Scheduled Sampling.md",
     "KL Divergence.md",
     "Courses/CS25 V4 Lecture 2.md",
     "Temperature.md",
-    "Top-P Sampling.md",
-    "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Courses/CS224N/Untitled",
     "Courses/CS224N",
     "Courses"
