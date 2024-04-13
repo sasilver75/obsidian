@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+                "file": "Constitutional AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,10 +187,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2340ed76a3b9fa4",
+  "active": "aef085e2daf78311",
   "lastOpenFiles": [
-    "Odds Ratio Preference Optimization.md",
     "~ Vocabulary.md",
+    "Constitutional AI.md",
+    "_attachments/Pasted image 20240412190738.png",
+    "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+    "_attachments/Pasted image 20240412190728.png",
+    "Odds Ratio Preference Optimization.md",
     "HyDE.md",
     "Capybara.md",
     "SQuAD.md",
@@ -213,8 +216,6 @@
     "_attachments/Pasted image 20240412103153.png",
     "_attachments/Pasted image 20240412102656.png",
     "_attachments/Pasted image 20240412102453.png",
-    "_attachments/Pasted image 20240412101946.png",
-    "_attachments/Pasted image 20240412101729.png",
     "Courses/CS224N/CS224N Lecture 13.md",
     "PaperClubs/Oxen",
     "PaperClubs/Untitled.md",
@@ -225,8 +226,6 @@
     "Courses/CS224N/CS224N Lecture 11.md",
     "~ Graduate.md",
     "KL Divergence.md",
-    "Courses/CS25 V4 Lecture 2.md",
-    "Temperature.md",
     "Courses/CS224N/Untitled",
     "Courses/CS224N",
     "Courses"

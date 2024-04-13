@@ -221,7 +221,7 @@
 	- [[Dataset Aggregation]]
 - [[Temperature]]
 - [[Direct Preference Optimization]]
-- [[Odds Ratio Preference Optimization]]
+- [[Odds Ratio Preference Optimization]] (ORPO)
 # Computer Vision Concepts
 - [[Object Recognition]]
 - [[Segmentation]]
