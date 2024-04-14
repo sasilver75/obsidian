@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aef085e2daf78311",
+            "id": "2be52c293b1405f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
+                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,58 @@
             }
           },
           {
-            "id": "2be52c293b1405f5",
+            "id": "20e1bb2f9e2da150",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
+                "file": "Speculative Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "622e28da69a7685d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73398e2e140a2425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Speculative Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66a4d10afd18207a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Speculative Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -100,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
+                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
+                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md"
+                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md"
               }
             }
           }
@@ -163,22 +202,27 @@
   },
   "active": "2be52c293b1405f5",
   "lastOpenFiles": [
+    "Speculative Decoding.md",
+    "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
+    "_attachments/Pasted image 20240413183806.png",
+    "~ Vocabulary.md",
+    "Monte Carlo Tree Search.md",
+    "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
+    "_attachments/Pasted image 20240413175633.png",
+    "Speculative Sampling.md",
+    "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
     "_attachments/Pasted image 20240413171507.png",
     "_attachments/Pasted image 20240413171315.png",
     "_attachments/Pasted image 20240413171202.png",
     "_attachments/Pasted image 20240413164532.png",
     "_attachments/Pasted image 20240413164227.png",
-    "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
     "Matryoshka Representation Learning.md",
-    "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
     "_attachments/Pasted image 20240413160922.png",
     "Sentence Transformers.md",
     "Matryoshka Embeddings.md",
     "~ Ideas.md",
     "_attachments/matryoshka-small.gif",
     "_attachments/Pasted image 20240413152222.png",
-    "_attachments/Pasted image 20240413151823.png",
-    "_attachments/Pasted image 20240413151656.png",
     "Courses/CS224N/CS224N Lecture 13.md",
     "Shepherd.md",
     "Synthetic Data.md",
@@ -189,17 +233,11 @@
     "Constitutional AI.md",
     "HyDE.md",
     "Capybara.md",
-    "_attachments/Pasted image 20240413142740.png",
     "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
     "Prometheus.md",
     "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
-    "~ Vocabulary.md",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "Odds Ratio Preference Optimization.md",
-    "SQuAD.md",
-    "Pre-text Training.md",
-    "Scheduled Sampling.md",
-    "Dataset Aggregation.md",
     "PaperClubs/Oxen",
     "Courses/CS224N/Untitled",
     "Courses/CS224N",
