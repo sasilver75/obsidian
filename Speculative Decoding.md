@@ -8,3 +8,6 @@ To cover:
 - Lookahead decoding 
 - Prompt lookup decoding
 
+
+Compare: [[Beam Search]]
+![[Pasted image 20240413175633.png]]
