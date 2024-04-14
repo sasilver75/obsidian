@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
+                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "20e1bb2f9e2da150",
+            "id": "d16b18b3cfef1037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "KL Divergence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "622e28da69a7685d",
+            "id": "8acc52ba430212c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Cross-Entropy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,25 +47,12 @@
             }
           },
           {
-            "id": "73398e2e140a2425",
+            "id": "a49319bbf16fd4bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Speculative Decoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66a4d10afd18207a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Speculative Sampling.md",
+                "file": "Entropy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
+                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
+                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md"
+                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md"
               }
             }
           }
@@ -202,25 +189,28 @@
   },
   "active": "2be52c293b1405f5",
   "lastOpenFiles": [
+    "KL Divergence.md",
+    "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
+    "_attachments/Pasted image 20240413223442.png",
+    "_attachments/Pasted image 20240413215306.png",
+    "_attachments/Pasted image 20240413215304.png",
+    "_attachments/Pasted image 20240413215220.png",
+    "Cross-Entropy.md",
+    "Entropy.md",
+    "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
+    "Speculative Decoding.md",
+    "~ Vocabulary.md",
+    "Speculative Sampling.md",
+    "_attachments/Pasted image 20240413211952.png",
     "_attachments/Pasted image 20240413191219.png",
     "_attachments/Pasted image 20240413190205.png",
     "_attachments/Pasted image 20240413190130.png",
-    "Speculative Decoding.md",
-    "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
     "_attachments/Pasted image 20240413183806.png",
-    "~ Vocabulary.md",
     "Monte Carlo Tree Search.md",
     "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
     "_attachments/Pasted image 20240413175633.png",
-    "Speculative Sampling.md",
     "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
-    "_attachments/Pasted image 20240413171507.png",
-    "_attachments/Pasted image 20240413171315.png",
-    "_attachments/Pasted image 20240413171202.png",
-    "_attachments/Pasted image 20240413164532.png",
-    "_attachments/Pasted image 20240413164227.png",
     "Matryoshka Representation Learning.md",
-    "_attachments/Pasted image 20240413160922.png",
     "Sentence Transformers.md",
     "Matryoshka Embeddings.md",
     "~ Ideas.md",
@@ -234,11 +224,7 @@
     "Constitutional AI.md",
     "HyDE.md",
     "Capybara.md",
-    "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
-    "Prometheus.md",
-    "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
-    "Odds Ratio Preference Optimization.md",
     "PaperClubs/Oxen",
     "Courses/CS224N/Untitled",
     "Courses/CS224N",
