@@ -4,55 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "67bc8244d8f7f353",
+        "id": "635981f84a844f05",
         "type": "tabs",
         "children": [
           {
-            "id": "2be52c293b1405f5",
+            "id": "2f181ac39537f8f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d16b18b3cfef1037",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KL Divergence.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8acc52ba430212c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cross-Entropy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a49319bbf16fd4bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entropy.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -187,16 +148,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2be52c293b1405f5",
+  "active": "2f181ac39537f8f0",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240413231630.png",
+    "_attachments/Pasted image 20240413231628.png",
+    "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
+    "_attachments/Pasted image 20240413231455.png",
+    "_attachments/Pasted image 20240413231441.png",
+    "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Articles/ML/Untitled",
+    "Entropy.md",
+    "Cross-Entropy.md",
     "KL Divergence.md",
     "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
     "_attachments/Pasted image 20240413223442.png",
     "_attachments/Pasted image 20240413215306.png",
     "_attachments/Pasted image 20240413215304.png",
     "_attachments/Pasted image 20240413215220.png",
-    "Cross-Entropy.md",
-    "Entropy.md",
     "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
     "Speculative Decoding.md",
     "~ Vocabulary.md",
@@ -204,11 +172,8 @@
     "_attachments/Pasted image 20240413211952.png",
     "_attachments/Pasted image 20240413191219.png",
     "_attachments/Pasted image 20240413190205.png",
-    "_attachments/Pasted image 20240413190130.png",
-    "_attachments/Pasted image 20240413183806.png",
     "Monte Carlo Tree Search.md",
     "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
-    "_attachments/Pasted image 20240413175633.png",
     "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
     "Matryoshka Representation Learning.md",
     "Sentence Transformers.md",
@@ -222,8 +187,6 @@
     "Microsoft Research.md",
     "KAIST.md",
     "Constitutional AI.md",
-    "HyDE.md",
-    "Capybara.md",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
     "Courses/CS224N/Untitled",
