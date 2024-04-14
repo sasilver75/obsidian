@@ -50,6 +50,7 @@ The major disadvantage of speculative to speculative decoding is that it require
 
 HuggingFace has claimed that it typically ==doubles the decoding rate==, and the paper itself claims a 2-3x improvement.
 
+![[Pasted image 20240413211952.png]]
 
 ----
 A technique came out recently that tried to improve on this by having the model generate n-grams, and recursively match them, without requiring a draft model.
