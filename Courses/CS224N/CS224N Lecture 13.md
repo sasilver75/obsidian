@@ -107,7 +107,36 @@ What's still interesting in 2024 is what point Jerry Hobbs was trying to make wi
 - You have to understand cups, pitchers, which are empty when you pour water!
 
 # (2/4) Mention-pair and Mention-ranking models (and Clustering methods, which we're skipping)
-- A classic ML technique
+
+![[Pasted image 20240413142115.png]]
+The simple way of thinking about Coreference is saying that you're making a binary decision about a reference pair.
+- If you have your ==mentions==, you can say
+	- I've come to my next mention "She", -- I want to know what it references; I look at all of the possible mentions prior to it, and make a binary classification as to whether they're 
+	- Training:
+		- Have positive and negative examples of whether these things are coreferent or not, train a model in a straightforward way.
+
+![[Pasted image 20240413142154.png]]
+(Negative examples want p(m_i, m_j) to be near 0)
+
+![[Pasted image 20240413142310.png]]
+Training: Summing over each pairwise binary decision as to whether two mentions are coreferent to eachother or not, using a [[Cross-Entropy]] loss.
+
+![[Pasted image 20240413142358.png]]
+At test time, we use a pairwise scorer... giving probability or score that any two mentions are corerferent; by picking some threshold like .5, we can add coreference links between pairs where the predicted probability is above the threshold.
+
+![[Pasted image 20240413142422.png]]
+Let's also make the ==transitive closure==!
+Above: If "I" and "She" are corefrences, and "my" and "she" are coreferences, then "I" and "my" are coreferences!
+
+Since we always complete by transitivity, note that ==this algorithm is sensitive to making false positive mistakes== (eg if we said he and my are coereferent, then all of these mentions would be determined as coreferent.)
+
+![[Pasted image 20240413142733.png]]
+
+![[Pasted image 20240413142740.png]]
+Some mentions won't be coreferent with anything that proceeds 🤔 
+So we might want to have a "dummy" mention so that we can just link singletons to it
+
+
 
 
 # (3/4) Interlude: ConvNets for language (sequences)
