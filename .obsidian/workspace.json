@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+                "file": "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,162 +21,20 @@
             }
           },
           {
-            "id": "1e2350749cc45ba1",
+            "id": "2be52c293b1405f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shepherd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca2e93e585f30b9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Synthetic Data.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d56ca190aa9bfbe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shepherd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac3a93c20f8120e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shepherd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ccc0abb886c384c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Allen Institute.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1811ccc4bfcbb10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stanford AI Lab.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b684b9d0badf144",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Microsoft Research.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49d758799f139cc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KAIST.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "402acf72b2b80fc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constitutional AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2340ed76a3b9fa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constitutional AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72645b7d2419ca68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HyDE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b335c1441769361c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Capybara.md",
+                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,13 +80,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -244,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md"
+                "file": "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md"
               }
             }
           }
@@ -305,45 +161,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aef085e2daf78311",
+  "active": "2be52c293b1405f5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240413171507.png",
+    "_attachments/Pasted image 20240413171315.png",
+    "_attachments/Pasted image 20240413171202.png",
+    "_attachments/Pasted image 20240413164532.png",
+    "_attachments/Pasted image 20240413164227.png",
+    "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
+    "Matryoshka Representation Learning.md",
+    "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
+    "_attachments/Pasted image 20240413160922.png",
+    "Sentence Transformers.md",
+    "Matryoshka Embeddings.md",
+    "~ Ideas.md",
+    "_attachments/matryoshka-small.gif",
+    "_attachments/Pasted image 20240413152222.png",
+    "_attachments/Pasted image 20240413151823.png",
+    "_attachments/Pasted image 20240413151656.png",
+    "Courses/CS224N/CS224N Lecture 13.md",
     "Shepherd.md",
     "Synthetic Data.md",
-    "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
-    "_attachments/Pasted image 20240413135830.png",
-    "Prometheus.md",
-    "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
-    "~ Vocabulary.md",
     "Allen Institute.md",
     "Stanford AI Lab.md",
     "Microsoft Research.md",
     "KAIST.md",
     "Constitutional AI.md",
-    "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "HyDE.md",
     "Capybara.md",
-    "_attachments/Pasted image 20240412190738.png",
-    "_attachments/Pasted image 20240412190728.png",
+    "_attachments/Pasted image 20240413142740.png",
+    "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
+    "Prometheus.md",
+    "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
+    "~ Vocabulary.md",
+    "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "Odds Ratio Preference Optimization.md",
     "SQuAD.md",
     "Pre-text Training.md",
     "Scheduled Sampling.md",
     "Dataset Aggregation.md",
-    "Teacher Forcing.md",
-    "Student Forcing.md",
-    "ROGUE.md",
-    "Anaphora.md",
-    "Cataphora.md",
-    "Winograd.md",
-    "PaperClubs/Oxen/Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
-    "_attachments/Pasted image 20240412104229.png",
-    "_attachments/Pasted image 20240412104224.png",
-    "_attachments/Pasted image 20240412103749.png",
-    "_attachments/Pasted image 20240412103417.png",
-    "_attachments/Pasted image 20240412103319.png",
-    "_attachments/Pasted image 20240412103153.png",
-    "_attachments/Pasted image 20240412102656.png",
-    "Courses/CS224N/CS224N Lecture 13.md",
     "PaperClubs/Oxen",
     "Courses/CS224N/Untitled",
     "Courses/CS224N",

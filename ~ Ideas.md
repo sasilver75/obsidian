@@ -1,4 +1,15 @@
 
+# Blog Ideas
+- Embeddings (Different techniques, e.g. Matryoshka, Applications)
+- Tokenizers (BPE, SentencePiece, ...)
+- Synthetic Data (Self-Instruct, Evol-Instruct, Orca, etc.)
+
+# Project Ideas
+
+
+# Research Ideas
+
+
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 
