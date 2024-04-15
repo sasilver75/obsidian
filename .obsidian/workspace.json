@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "635981f84a844f05",
+        "id": "0d8966c5de384c3d",
         "type": "tabs",
         "children": [
           {
-            "id": "51efbac0c599fd22",
+            "id": "80d250d5cac0bb28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
+                "file": "Axolotl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "fd9e33b8c5e62f63",
+            "id": "28ad905075d5398a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gorilla.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
+                "file": "Axolotl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
+                "file": "Axolotl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md"
+                "file": "Axolotl.md"
               }
             }
           }
@@ -162,20 +162,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "51efbac0c599fd22",
+  "active": "80d250d5cac0bb28",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Axolotl.md",
+    "Out-of-Vocabulary Token.md",
+    "Gorilla.md",
+    "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
     "_attachments/Pasted image 20240415003522.png",
     "_attachments/Pasted image 20240415003438.png",
     "_attachments/Pasted image 20240415002228.png",
     "_attachments/Pasted image 20240415002005.png",
-    "Gorilla.md",
-    "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
     "_attachments/Pasted image 20240415001406.png",
     "Toolformer.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240415001134.png",
     "_attachments/Pasted image 20240414223655.png",
-    "~ Vocabulary.md",
     "CRAG.md",
     "FLARE.md",
     "~ Ideas.md",
@@ -193,14 +195,12 @@
     "_attachments/Pasted image 20240414195235.png",
     "_attachments/Pasted image 20240414195229.png",
     "_attachments/Pasted image 20240414194534.png",
-    "_attachments/Pasted image 20240414194315.png",
     "Untitled 12.md",
     "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Articles/ML/Untitled",
     "Entropy.md",
     "Cross-Entropy.md",
     "KL Divergence.md",
-    "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
     "Courses/CS224N/Untitled",
