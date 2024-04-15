@@ -1,4 +1,6 @@
 # Linear Algebra
+- [[Dot Product]]
+- [[Cosine Similarity]]
 - 
 
 
@@ -32,6 +34,7 @@
 
 
 # Machine Learning
+- [[Graph Neural Network]]
 - [[Teacher Forcing]] vs [[Student Forcing]]
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
@@ -173,12 +176,24 @@
 - [[Dense Retrieval]]
 - [[Hybrid Search]]
 - [[TF-IDF]]
-- [[Cosine Similarity]]
 - [[ColBERT]]
+- [[ColBERTv2]]
 - [[Discounted Cumulative Gain]]
 - [[Cross-Encoder]]
 - [[HyDE]]
-
+- [[Approximate Nearest Neighbor Search]]
+- [[Late Interaction]]
+- [[SPLADE]]
+- [[SPLADEv2]]
+- [[DRAGON]]
+- [[SANTA]]
+- [[Fusion-in-Decoder]] (FiD)
+	- [[KG-FiD]]
+- [[Retrieval-Augmented Generation|RAG]]
+- [[RETRO]]
+- [[REALM]]
+- [[FLARE]]
+- [[CRAG]]
 # Natural Language Processing Concepts
 - Tasks
 	- [[Sentiment Analysis]]

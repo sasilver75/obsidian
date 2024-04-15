@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md"
               }
             }
           }
@@ -150,43 +151,42 @@
   },
   "active": "2f181ac39537f8f0",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240413231630.png",
-    "_attachments/Pasted image 20240413231628.png",
+    "~ Vocabulary.md",
     "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
-    "_attachments/Pasted image 20240413231455.png",
-    "_attachments/Pasted image 20240413231441.png",
+    "CRAG.md",
+    "FLARE.md",
+    "~ Ideas.md",
+    "REALM.md",
+    "KG-FiD.md",
+    "RETRO.md",
+    "Fusion-in-Decoder.md",
+    "Graph Neural Network.md",
+    "SANTA.md",
+    "DRAGON.md",
+    "SPLADE.md",
+    "SPLADEv2.md",
+    "ColBERT.md",
+    "Approximate Nearest Neighbor Search.md",
+    "_attachments/Pasted image 20240414195235.png",
+    "_attachments/Pasted image 20240414195229.png",
+    "_attachments/Pasted image 20240414194534.png",
+    "_attachments/Pasted image 20240414194315.png",
+    "_attachments/Pasted image 20240414193430.png",
+    "_attachments/Pasted image 20240414193253.png",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240414182137.png",
+    "_attachments/Pasted image 20240414174433.png",
+    "_attachments/Pasted image 20240414172613.png",
+    "_attachments/Pasted image 20240414171247.png",
+    "Untitled 12.md",
     "Articles/ML/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Articles/ML/Untitled",
     "Entropy.md",
     "Cross-Entropy.md",
     "KL Divergence.md",
     "Articles/ML/Six (and a half) intuitions for KL divergence (Oct 2022) {CallumMcDougall LessWrong post}.md",
-    "_attachments/Pasted image 20240413223442.png",
-    "_attachments/Pasted image 20240413215306.png",
-    "_attachments/Pasted image 20240413215304.png",
-    "_attachments/Pasted image 20240413215220.png",
     "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
     "Speculative Decoding.md",
-    "~ Vocabulary.md",
-    "Speculative Sampling.md",
-    "_attachments/Pasted image 20240413211952.png",
-    "_attachments/Pasted image 20240413191219.png",
-    "_attachments/Pasted image 20240413190205.png",
-    "Monte Carlo Tree Search.md",
-    "Articles/ML/Introduction to Matryoshka Embedding Models (Feb 2024) {HuggingFace Blog}.md",
-    "Articles/ML/Demystifying DSPy - The Framework Redefining Your LLM Workflow (Apr 10, 2024) {Bassim Eledath}.md",
-    "Matryoshka Representation Learning.md",
-    "Sentence Transformers.md",
-    "Matryoshka Embeddings.md",
-    "~ Ideas.md",
-    "Courses/CS224N/CS224N Lecture 13.md",
-    "Shepherd.md",
-    "Synthetic Data.md",
-    "Allen Institute.md",
-    "Stanford AI Lab.md",
-    "Microsoft Research.md",
-    "KAIST.md",
-    "Constitutional AI.md",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
     "Courses/CS224N/Untitled",
