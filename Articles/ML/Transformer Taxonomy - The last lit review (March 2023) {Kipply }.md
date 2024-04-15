@@ -103,7 +103,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - Dialog model; dataset with a lot of dialog/forums.
 - Based model is often called "LaMBDA GLM" or "GLM-137B."
 	- LaMBDA itself adds a lot of dialog finetuning on top.
-### [[Switch]] (June 2022, Google)
+### [[Switch Transformer]] (June 2022, Google)
 - An improvement on [[GLaM]], SwitchTransformer is a== [[Mixture of Experts]] that only routes to *one* expert==, reducing the amount of compute on inference. 
 - It uses a different routing mechanism, with the main update being that routing to a single expert *works*.
 ### [[BLOOM]]  (July 2022, [[HuggingFace]])
