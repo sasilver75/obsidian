@@ -334,6 +334,7 @@
 - [[ComfyUI]]
 - [[Automatic1111]] 
 - [[Axolotl]]
+- [[Unsloth]]
 - [[Oogabooga]]
 - [[Gradio]]
 - [[Streamlit]]
