@@ -8,7 +8,7 @@
 
 
 # Research Ideas
-
+The idea of speculative decoding, where you have a smaller model running in parallel to the larger model -- is there a way of doing something like RAG in this manner? Where you're increasing the speed of rag by speculatively retrieving documents that might be needed in the next (eg) paragraph of text?
 
 
 https://x.com/thesephist/status/1734966611814289756?s=20

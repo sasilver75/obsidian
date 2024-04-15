@@ -163,9 +163,3 @@ Models shouldn't be deployed without proper safeguards, and without understandin
 
 ![[Pasted image 20240413231628.png]]
 ![[Pasted image 20240413231630.png]]
-
-# Retrieval
-
-## Sparse vs. Dense Retrieval
-- Sparse vectors are called *sparse* because they're sparsely populated with information (a lot of values are zeroes, because most words don't appear frequently).
- 
