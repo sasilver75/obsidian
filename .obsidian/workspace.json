@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
+                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
+                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
+                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md"
+                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md"
               }
             }
           }
@@ -254,10 +253,15 @@
   },
   "active": "80d250d5cac0bb28",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+    "Untitled 13.md",
+    "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+    "Articles/ML/Untitled.md",
+    "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
     "Expert Parallelism.md",
     "Model Parallelism.md",
     "Data Parallelism.md",
-    "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
     "_attachments/Pasted image 20240415143742.png",
     "_attachments/Pasted image 20240415143740.png",
     "_attachments/Pasted image 20240415143738.png",
@@ -276,7 +280,6 @@
     "_attachments/Pasted image 20240415133252.png",
     "_attachments/Pasted image 20240415130323.png",
     "Axolotl.md",
-    "Untitled 13.md",
     "Out-of-Vocabulary Token.md",
     "Gorilla.md",
     "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
@@ -286,9 +289,6 @@
     "FLARE.md",
     "~ Ideas.md",
     "REALM.md",
-    "KG-FiD.md",
-    "RETRO.md",
-    "Fusion-in-Decoder.md",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
