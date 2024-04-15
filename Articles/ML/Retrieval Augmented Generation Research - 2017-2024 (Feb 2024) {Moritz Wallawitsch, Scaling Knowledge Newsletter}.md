@@ -1,4 +1,4 @@
-#article 
+#article #elite
 Link: https://scalingknowledge.substack.com/p/rag
 
 -----
@@ -205,15 +205,69 @@ The authors further leverage contrastive learning to train the model to distingu
 ![[Pasted image 20240414195229.png|450]]
 
 
+#### [[WebGPT]]: Browser-assisted Question-Answering with human feedback (Nakono et al, 2021)
+- The system presented here could also be termed *==Web Search Augmented Generation==*. The information retrieval model receives the query and can output browser commands like *click*, *scroll* to extract relevant paragraphs from web pages it determines as informative.
+- It's trained on human demonstrations, using [[Imitation Learning]] (behavior cloning). 
+- In the second step, a Text Synthesis Model synthesizes the answers.
+- Finally, a reward model predicts the system output score.
+- The entire system is then fine-tuned using human feedback, i.e. the reward model (RLHF). 
+
+![[Pasted image 20240414223655.png]]
 
 
+#### [[Toolformer]]: Large Language Models can Teach themselves to use tools (Shick et al, 2021)
+- This paper is the generalization of the idea of Augmented Generation; it presents a solution taht ==allows LLMs to use external tools via simple APIs, including a calculator, search engines, a Q&A system, a translation system, and a calendar.==
+- The steps can summarized as follows:
+	1. Authors annotate a large text dataset and sample potential locations in the text where tools API calls could be useful.
+	2. At each location, they generate possible API calls to different tools
+	3. They execute the API calls and insert both the call+response back into the original text
+		- eg "\[QA(Who founded Apple?) -> Steve Jobs\]"
+	4. They check if adding the app call reduced the perplexity loss of the LM for predicting the following token and keep the API call if it did, and 
+	5. The resulting training data is used to fine-tune the original LM.
+
+the system has many ==limitations==, such as:
+1. The ability to use tools in a chain ⛓
+2. The ability to use tools interactively 🤝
+3. The ability to take into account the *cost* of using a tool 💸
+
+![[Pasted image 20240415001134.png|400]]
 
 
+#### 🦍 [[Gorilla]]: Large Language Model Connected with Massive APIs (Patil et al, 2023)
+
+- One limitation of the Toolformer paper was that its tool use is limited to a relatively small set of tools. In contrast, the authors of this paper ==develop a retrieval-based finetuning strategy to train an LLM, called Gorilla, to use over 1,6000 different deep learning model APIs== (e.g. from HuggingFace or TensorFlow Hub) for problem-solving.
+- Procedure:
+	1. First, it downloads the API documentation of various tools.
+	2. It then uses this data to create question-answer pair dataset (using [[Self-Instruct]])
+	3. Finally, the 7B model is finetuned over this dataset in a retrieval-aware manner.
+
+![[Pasted image 20240415002005.png]]
 
 
+#### [[Self-RAG]]: Learning to Retrieve, Generate, and Critique through Self-Reflection (Asai et al, 2023)
+- The authors point out the problem with most RAG systems, which is that they retrieve passages indiscriminately, regardless of whether the factual grounding is helpful.
+- The Self-RAG algorithm uses a special type of token called a "*reflection token*" to communicate between the different parts of the algorithm:
+	- Retrieve
+	- IsRel (relevance)
+	- IsSup (fully or not supporting)
+	- IsUse (useful response)
 
+![[Pasted image 20240415002228.png|500]]
+See above also: Conditional tool use
 
+#### GRIT: Generative Representational Instruction Tuning (Muennighoff et al, 2024)
+- Addresses a similar problem to the above-mentioned paper (that some documents that are retrieved are just not helpful to the prompt?) while being very performant.
+- The authors train a single LLM to perform both text generation and embeddings tasks via "Generative Instruction Tuning" -- in other words, the model architecture of GRITLM lets it process input text, create embeddings, and generate output text...
+- Performance is enhanced (beyond the conditional tool use ability) by:
+	1. The query's vector representations for retrieval and generation.
+	2. Reusing the document key-value store (basically the raw retrieved vector DB data) for generation
+((??))
 
+Outperforms all generative models up to its size of 7 billion parameters, excelling in both generative and embedding tasks as demonstrated on the Massive Text Embedding Benchmark (MTEB) and various other evaluation benchmarks.
+
+![[Pasted image 20240415003438.png]]
+
+![[Pasted image 20240415003522.png]]
 
 
 
