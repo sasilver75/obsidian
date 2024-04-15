@@ -1,0 +1,12 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":gorilla:",
+    ":money_with_wings:",
+    ":handshake:",
+    ":chains:"
+  ]
+}
