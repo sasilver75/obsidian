@@ -1,5 +1,2 @@
----
-aliases: []
----
-![[Pasted image 20240415143740.png]]
+![[Pasted image 20240415143742.png]]
 ((Ah, this diagram is actually correct, I think, but it's confusing. For example in the top-left image, this doesn't mean that all of the volume of the large blue square (representing all parameters) is being divided amongst the cores such that each core has a fraction; Instead, each of these small squares is supposed to be "the whole set of model weights". As evidence, in Data Parallelism in the bottom left, the "whole square" represents all of the data, and it's shown as shared/split over all of the cores. In the picture to the right of that, we're not saying that the data is being split into all these cores -- rather, each core gets a full copy of the data (which is represented by this blue square, through shrunked.)))
