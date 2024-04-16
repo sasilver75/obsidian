@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Papers/Untitled.md"
               }
             }
           }
@@ -163,8 +162,9 @@
   },
   "active": "cb996e660e1a6c1e",
   "lastOpenFiles": [
-    "Stephen Bach.md",
     "~ Vocabulary.md",
+    "Papers/Untitled.md",
+    "Stephen Bach.md",
     "VQAv2.md",
     "Articles/ML/Why GPT-3 Matters (2020) {Leo Gao}.md",
     "Articles/ML/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
@@ -188,7 +188,6 @@
     "Articles/ML/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
     "Articles/ML/The Annotated Transformer (2022) {Sasha Rush}.md",
     "Articles/ML/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
-    "Articles/ML/Software 2.0 (2017) {Karpathy}.md",
     "_attachments/Pasted image 20240415233101.png",
     "_attachments/Pasted image 20240415233046.png",
     "_attachments/Pasted image 20240415232129.png",
