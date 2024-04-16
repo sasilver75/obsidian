@@ -21,6 +21,84 @@
             }
           },
           {
+            "id": "5f871b6da525c456",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3319a4551c97142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "084cb67ba1b515a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constitutional AI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96b3966d5c42b087",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning from Human Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1d86aa8e20d44c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning from Human Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b5e649ccb2bf032",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinchilla.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "337c6930f6e55fc4",
             "type": "leaf",
             "state": {
@@ -346,24 +424,31 @@
   },
   "active": "bf7fda3c6ca68e31",
   "lastOpenFiles": [
-    "Object Detection.md",
+    "Self-Instruct.md",
+    "_attachments/Pasted image 20240415233101.png",
+    "Constitutional AI.md",
     "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
-    "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
-    "_attachments/Pasted image 20240415222121.png",
-    "_attachments/Pasted image 20240415221056.png",
-    "_attachments/Pasted image 20240415221054.png",
-    "Semantic Segmentation.md",
+    "_attachments/Pasted image 20240415233046.png",
+    "_attachments/Pasted image 20240415232129.png",
+    "Reinforcement Learning from Human Feedback.md",
+    "_attachments/Pasted image 20240415231812.png",
+    "_attachments/Pasted image 20240415231142.png",
+    "Chinchilla.md",
+    "_attachments/Pasted image 20240415231027.png",
+    "Batch Normalization.md",
     "Image Segmentation.md",
-    "_attachments/Pasted image 20240415220824.png",
+    "_attachments/Pasted image 20240415230613.png",
+    "Parameter-Efficient Fine-Tuning.md",
+    "_attachments/Pasted image 20240415230544.png",
+    "_attachments/Pasted image 20240415224635.png",
+    "_attachments/Pasted image 20240415224155.png",
+    "Untitled.md",
+    "Object Detection.md",
+    "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
+    "Semantic Segmentation.md",
     "Instance Segmentation.md",
     "Panoptic Segmentation.md",
-    "_attachments/Pasted image 20240415220643.png",
     "Neural Radiance Fields.md",
-    "_attachments/Pasted image 20240415220451.png",
-    "_attachments/Pasted image 20240415220332.png",
-    "_attachments/Pasted image 20240415214807.png",
-    "_attachments/Pasted image 20240415214806.png",
-    "_attachments/Pasted image 20240415214803.png",
     "Stable Diffusion.md",
     "Vision Transformer.md",
     "Grouped Convolutions.md",
@@ -374,14 +459,6 @@
     "~ Vocabulary.md",
     "Optical Character Recognition.md",
     "Cosmopedia.md",
-    "FineWeb.md",
-    "Datatrove.md",
-    "Lighteval.md",
-    "Tensor Parallelism.md",
-    "Model Parallelism.md",
-    "Pipeline Parallelism.md",
-    "Sequence Parallelism.md",
-    "Direct Preference Optimization.md",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
