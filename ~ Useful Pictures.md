@@ -163,3 +163,46 @@ Models shouldn't be deployed without proper safeguards, and without understandin
 
 ![[Pasted image 20240413231628.png]]
 ![[Pasted image 20240413231630.png]]
+![[Pasted image 20240415152438.png]]
+![[Pasted image 20240415154601.png]]
+From the Yi paper: https://arxiv.org/html/2403.04652v1
+![[Pasted image 20240415155657.png]]
+![[Pasted image 20240415155715.png]]
+From Falcon's RefineWeb dataset; Showing how much of the initial data we end up actually removing throughout a pipeline similar to the one shown in the Yi image above. So if you want to end up with (eg) 1T tokens, you have to start with a very large source(s).
+![[Pasted image 20240415155849.png]]
+From the AllenAI Dataset survey paper, showing a very similar workflow to the previous ones
+![[Pasted image 20240415160930.png]]
+([ThomWolf](https://youtu.be/2-SPH9hIKT8?si=n4JiXW9ooiOJ4Wrf)) An example of heuristics that are used (eg in FastText) to filter poor-quality documents. 
+- Advantages of heuristics: Controlled, robust, rather clear priors
+- Drawbacks of heuristics: Rely entirely on surface level; might remove too much; hyper-parameter tuning can be time consuming and onerous
+Alternatively, you could use a ML classifier (eg) or use perplexity-based filtering 
+- fastText classification with some N Grams, labeling them good or bad
+- 5-gram Kneser-Ney model on Wikipedia
+Though this may introduce unwanted "bias" - Wikipedia is written 90% by men. By preferring the "high-quality" of Wikipedia, you might be biasing your data in ways that *may* not be desirable.
+Additional notes: 
+- Take care of domain specifics! Examine the effect of filters/transforms on domain-specific data - you might need domain-specific hyperparameters/heuristics
+- Manually sample ad inspect your data post transforming!
+- Deduplicate:
+	- Fuzzy: (HF uses many of these)
+		- [[Bloom Filter]]: Hashing and fixed-size vector 
+		- [[MinHash]]: Hashing and sorting
+	- Exact (very costly in memory):
+		- Exact substring with suffix-array
+		- Sentence-level deduplication
+- Counter-intuitive result: Deduplication resulted in them removing (copies of) much of the *good* data, leaving them with a higher proportion of "bad" data! Oops!
+![[Pasted image 20240415162732.png]]
+How do you evaluate data quality in a 1T+ corpus?
+- Train a small (1B,2B under Chinchilla optimality)
+- Use a set of "high signal benchmarks" (smoothly improving performance with low variance)
+	- CommonSense QA, [[HellaSWAG]], Openbook QA, PiQA, SIQA, [[Winogrande]], [[Abstraction and Reasoning Corpus|ARC]], [[Massive Multi-task Language Understanding|MMLU]]
+- Use a debugging dataset so that you can tell your datasets apart (2 -- one of high quality (C4), and one that's more complex)
+![[Pasted image 20240415162904.png]]
+`datatrove` is a library that HuggingFace+friends released to help process and filter data, and basically for preparing very large datasets for LLM training. It's fully in Python and very easy to set up on SLURM locally, to use remote filesystems as well, if you want to.
+`lighteval` is a lightweight LLM evaluation suite inspired by the Eleuther Test Harness! 
+![[Pasted image 20240415163527.png]]
+[[Data Parallelism]]: Usually works out-of-the-box; the easier one. You take a model, duplicating it over several GPU; you feed different cores several different parts of your batch, you merge/reduce the gradients from each of these sub-batches... so it's as if you had a larger batch across multiple GPUs. The all-reduce to merge the gradients can start to become a huge bottleneck.
+[[Tensor Parallelism]]: Maybe your model is too big to be trained on a single GPU... You need to rewrite our model code; you divide all the matrices we use in our model into four or eight, and put each part of the submatrices on each GPU, and synchronization happens after the operation.
+[[Pipeline Parallelism]]: Put some layers on some GPU, other layers on other GPUs; communicate at the interface of these layers.
+[[Sequence Parallelism]]: (Careful with the name, there's one definition of this that's related to [[RingAttention]]). It's in some way similar to Tensor Parallelism, but instead of slicing the parameter matrices, we slice the sequences. Usually only interesting during training.
+
+

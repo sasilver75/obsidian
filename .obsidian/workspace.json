@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0d8966c5de384c3d",
+        "id": "a53c854fcfd6c53e",
         "type": "tabs",
         "children": [
           {
-            "id": "80d250d5cac0bb28",
+            "id": "bf7fda3c6ca68e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,103 +21,38 @@
             }
           },
           {
-            "id": "7f857b874d22439c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Expert Parallelism.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e4c42cfac0c2327",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model Parallelism.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b7467475bd65551",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Parallelism.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d42eb9d64db6cb30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mixture of Experts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82c5a38b87e83123",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Student Forcing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76eb7a892192d31d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GShard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a94d77ab4963772f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Switch Transformer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28ad905075d5398a",
+            "id": "0543c1ba34eef1ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccdee158beb706c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optical Character Recognition.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ce8186dbef51a0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Segmentation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -153,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MegaBl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -190,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md"
+                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md"
               }
             }
           }
@@ -251,44 +187,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80d250d5cac0bb28",
+  "active": "bf7fda3c6ca68e31",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
-    "Untitled 13.md",
-    "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
-    "Articles/ML/Untitled.md",
-    "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
-    "Expert Parallelism.md",
-    "Model Parallelism.md",
-    "Data Parallelism.md",
-    "_attachments/Pasted image 20240415143742.png",
-    "_attachments/Pasted image 20240415143740.png",
-    "_attachments/Pasted image 20240415143738.png",
-    "_attachments/Pasted image 20240415143735.png",
-    "Mixture of Experts.md",
-    "Student Forcing.md",
-    "GShard.md",
+    "CLIP.md",
+    "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
+    "Articles/ML/The State of Computer Vision at Hugging Face 🤗 (Jan 2023) {Hugging Face Blog, Sayak Paul}.md",
+    "_attachments/Pasted image 20240415182708.png",
     "~ Vocabulary.md",
-    "Expert Capacity.md",
-    "Capacity Factor.md",
-    "_attachments/Pasted image 20240415140220.png",
-    "_attachments/Pasted image 20240415140218.png",
-    "_attachments/Pasted image 20240415140214.png",
-    "_attachments/Pasted image 20240415135547.png",
-    "Switch Transformer.md",
-    "_attachments/Pasted image 20240415133252.png",
-    "_attachments/Pasted image 20240415130323.png",
-    "Axolotl.md",
-    "Out-of-Vocabulary Token.md",
-    "Gorilla.md",
-    "Articles/ML/Retrieval Augmented Generation Research - 2017-2024 (Feb 2024) {Moritz Wallawitsch, Scaling Knowledge Newsletter}.md",
-    "Toolformer.md",
+    "Optical Character Recognition.md",
+    "Image Segmentation.md",
+    "Cosmopedia.md",
+    "FineWeb.md",
+    "Datatrove.md",
+    "Lighteval.md",
+    "Tensor Parallelism.md",
+    "Model Parallelism.md",
+    "Pipeline Parallelism.md",
+    "Sequence Parallelism.md",
+    "Direct Preference Optimization.md",
+    "Mixture of Experts.md",
+    "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
+    "FlashAttention.md",
+    "_attachments/Pasted image 20240415170547.png",
+    "_attachments/Pasted image 20240415170254.png",
     "~ Useful Pictures.md",
-    "CRAG.md",
-    "FLARE.md",
-    "~ Ideas.md",
-    "REALM.md",
+    "_attachments/Pasted image 20240415165819.png",
+    "_attachments/Pasted image 20240415165600.png",
+    "_attachments/Pasted image 20240415165243.png",
+    "_attachments/Pasted image 20240415165213.png",
+    "_attachments/Pasted image 20240415163527.png",
+    "_attachments/Pasted image 20240415163237.png",
+    "_attachments/Pasted image 20240415163137.png",
+    "Switch Transformer.md",
+    "GShard.md",
+    "Student Forcing.md",
+    "Data Parallelism.md",
+    "Ludwig.md",
+    "Expert Parallelism.md",
+    "~ Posting.md",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",

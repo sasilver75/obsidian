@@ -1,1 +1,4 @@
-(Contrastive Language-Image Pre-training)
+---
+aliases:
+  - Contrastive Language-Image Pretraining
+---
