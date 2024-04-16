@@ -13,7 +13,163 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
+                "file": "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "337c6930f6e55fc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Object Detection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00fb169d826495b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semantic Segmentation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4176f19849fcb2ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Radiance Fields.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19e4faa510e61bbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Radiance Fields.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e985957b95fc191",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stable Diffusion.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c20fa94067bcc4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision Transformer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5df36d71e75ebd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grouped Convolutions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cc1222f51d98813",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grouped Convolutions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "553dd14e3c4d3b85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision Transformer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64ee4a86ecf02cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeiT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf884305b3afe098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swin.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab1eaa68b77ae39e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Radiance Fields.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +244,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MegaBl",
+                "query": "R-CNN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +261,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
+                "file": "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
+                "file": "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md"
+                "file": "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md"
               }
             }
           }
@@ -189,13 +346,33 @@
   },
   "active": "bf7fda3c6ca68e31",
   "lastOpenFiles": [
-    "CLIP.md",
+    "Object Detection.md",
+    "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
     "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
+    "_attachments/Pasted image 20240415222121.png",
+    "_attachments/Pasted image 20240415221056.png",
+    "_attachments/Pasted image 20240415221054.png",
+    "Semantic Segmentation.md",
+    "Image Segmentation.md",
+    "_attachments/Pasted image 20240415220824.png",
+    "Instance Segmentation.md",
+    "Panoptic Segmentation.md",
+    "_attachments/Pasted image 20240415220643.png",
+    "Neural Radiance Fields.md",
+    "_attachments/Pasted image 20240415220451.png",
+    "_attachments/Pasted image 20240415220332.png",
+    "_attachments/Pasted image 20240415214807.png",
+    "_attachments/Pasted image 20240415214806.png",
+    "_attachments/Pasted image 20240415214803.png",
+    "Stable Diffusion.md",
+    "Vision Transformer.md",
+    "Grouped Convolutions.md",
+    "DeiT.md",
+    "Swin.md",
+    "CLIP.md",
     "Articles/ML/The State of Computer Vision at Hugging Face 🤗 (Jan 2023) {Hugging Face Blog, Sayak Paul}.md",
-    "_attachments/Pasted image 20240415182708.png",
     "~ Vocabulary.md",
     "Optical Character Recognition.md",
-    "Image Segmentation.md",
     "Cosmopedia.md",
     "FineWeb.md",
     "Datatrove.md",
@@ -205,26 +382,6 @@
     "Pipeline Parallelism.md",
     "Sequence Parallelism.md",
     "Direct Preference Optimization.md",
-    "Mixture of Experts.md",
-    "Articles/ML/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
-    "FlashAttention.md",
-    "_attachments/Pasted image 20240415170547.png",
-    "_attachments/Pasted image 20240415170254.png",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240415165819.png",
-    "_attachments/Pasted image 20240415165600.png",
-    "_attachments/Pasted image 20240415165243.png",
-    "_attachments/Pasted image 20240415165213.png",
-    "_attachments/Pasted image 20240415163527.png",
-    "_attachments/Pasted image 20240415163237.png",
-    "_attachments/Pasted image 20240415163137.png",
-    "Switch Transformer.md",
-    "GShard.md",
-    "Student Forcing.md",
-    "Data Parallelism.md",
-    "Ludwig.md",
-    "Expert Parallelism.md",
-    "~ Posting.md",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
