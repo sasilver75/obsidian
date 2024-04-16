@@ -2,4 +2,7 @@ A [[Classification]] task where every pixel in an image is classified into a cat
 
 - [[Semantic Segmentation]]
 - [[Instance Segmentation]]
-- ![[Pasted image 20240122152045.png]]
+- [[Panoptic Segmentation]]
+
+![[Pasted image 20240122152045.png]]
+![[Pasted image 20240415220643.png]]
