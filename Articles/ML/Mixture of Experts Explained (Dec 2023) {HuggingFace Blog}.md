@@ -233,7 +233,7 @@ For MoE layers, tokens in the sequence are sent to works where the desired exper
 
 ### More on Efficient training
 - FasterMoE (March 2022) analyzes the theoretical limit of different parallelism strategies, and other strategies... led to a ==17x speedup.==
-- Megablocks (Nov 2022) explores efficient sparse pretraining by providing new GPU kernels that can handle the dynamism present in MoEs. 
+- [[MegaBlocks]] (Nov 2022) explores efficient sparse pretraining by providing new GPU kernels that can handle the dynamism present in MoEs. 
 
 
 # Exciting Directions of Work

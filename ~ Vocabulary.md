@@ -65,7 +65,6 @@
 - [[Attention]] Mechanism
 - [[Diffusion Models]]
 - [[Parameter-Efficient Fine-Tuning]]
-- [[Segmentation]]
 - [[Classification]]
 - [[Quantization]]
 - [[Model Pruning]]
@@ -239,8 +238,20 @@
 - [[Odds Ratio Preference Optimization]] (ORPO)
 # Computer Vision Concepts
 - [[Object Recognition]]
-- [[Segmentation]]
 - [[Segmentation Mask]]
+- Tasks:
+	- [[Image Segmentation]]
+	- [[Image Classification]]
+	- [[Object Detection]]
+	- [[Video Classification]]
+	- [[Depth Estimation]]
+	- Image-to-Image synthesis
+	- Unconditional image generation
+	- Conditional image generation
+	- Image-to-Text (eg [[Optical Character Recognition]])
+	- Text-to-Image
+	- [[Visual Question-Answering]]
+	- 
 
 
 # Reinforcement Learning Concepts
@@ -330,6 +341,8 @@
 - [[SimCLR]]
 - [[BYOL]]
 - [[ULMFiT]]
+- [[StarCoder]]
+- [[StarCoder 2]]
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
@@ -345,7 +358,8 @@
 -  [[Eleuther LM Evaluation Harness]]
 - [[LoRAX]]
 - [[vLLM]]
-
+- [[Datatrove]]
+- [[Lighteval]]
 
 # Benchmarks, Evaluations
 - [[GAIA]]: A benchmark for General AI Assistants
@@ -374,6 +388,7 @@
 - [[C4]] (improvement of CommonCrawl)
 - [[Webtext]], OpenWebtext2
 - [[The Stack]]
+- [[The Stack v2]]
 - [[The Pile]]
 - [[LAION]]
 - [[Whisper]]
@@ -395,6 +410,8 @@
 - [[RefinedWeb]]
 - [[SuperNaturalInstructions]]
 - [[Capybara]]
+- [[Cosmopedia]]
+- [[FineWeb]]
 # Entities
 - [[Cohere]]
 - [[TogetherAI]]

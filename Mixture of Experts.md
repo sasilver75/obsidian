@@ -12,3 +12,4 @@ Examples (roughly chronological):
 - [[GShard]]
 - [[Switch Transformer]]
 - [[GLaM]]
+- [[MegaBlocks]]
