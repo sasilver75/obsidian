@@ -381,6 +381,8 @@
 - [[BEIR]]
 - [[GPQA]]
 - [[GSM8K]]
+- [[VQAv2]]
+- [[MMMU]]
 
 
 # Datasets
@@ -439,10 +441,11 @@
 - [[DataBricks]]
 - [[Nous Research]]
 - [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST)
+- [[Adept]]
 
 
 # People
-- [[Noam Shazeer]] (Founder/CEO of Character AI)
+- [[Noam Shazeer]]
 - [[Daphne Koeller]]
 - [[Melanie Mitchell]]
 - [[Percy Liang]]

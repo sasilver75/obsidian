@@ -1,0 +1,1 @@
+[[Adept]] has said that VQAv2 is flawed, with some mislabeled data
