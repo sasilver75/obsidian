@@ -3,4 +3,4 @@
 ![[Pasted image 20240411130458.png]]
 
 Compare with: [[Top-P Sampling]]:
-Top-k sampling samples tokens with the highest probabilities until the specified number of tokens is reached. Top-p sampling samples tokens with the highest probability scores until the sum of the scores reaches the specified threshold value.
+Top-k sampling samples tokens from those k with the highest probabilities (renormalizing probabilities and sampling) until the specified number of tokens is reached. In contrast, Top-p sampling samples tokens from the set of tokens having cumulative probability over some specified threshold value.

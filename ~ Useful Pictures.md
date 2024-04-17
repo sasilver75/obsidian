@@ -214,3 +214,6 @@ From CS224NL16(2023): Many different ways to do fusion of modalities, and much l
 3. Combine just the scores/logits ("Late fusion")
 	- This is what we would now call contrastive models
 
+![[Pasted image 20240417130630.png|300]]
+![[Pasted image 20240417130642.png|300]]
+

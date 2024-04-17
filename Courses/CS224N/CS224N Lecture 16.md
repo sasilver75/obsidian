@@ -36,7 +36,7 @@ Above: There are many ways to do intermodal fusion!
 Just want to make sure that we rank the blue things higher than all otehr alternatives; nothing special about this architecture that was invented here, but it was cool because it was transformers, and transformers all the way (text: transformer, images: ViT) -- Trained on lots and lots of data.
 - Alec Radford is a genius at creating large and high quality datasets.
 
-==The speaker (Douwe Kiela) hinks that the CILP paper is one of the best papers ever written in our field -- extremely thorough and worth a read!==
+==The speaker (Douwe Kiela) thinks that the CILP paper is one of the best papers ever written in our field -- extremely thorough and worth a read!==
 
 
 ![[Pasted image 20240417002825.png]]
