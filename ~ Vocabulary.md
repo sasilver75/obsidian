@@ -478,3 +478,5 @@
 - [[Stephen Bach]]
 - [[Ishan Misra]]
 - [[Sebastian Ruder]]
+- [[Douwe Kiela]]
+- [[Alec Radford]]

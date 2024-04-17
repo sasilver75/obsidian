@@ -205,4 +205,12 @@ How do you evaluate data quality in a 1T+ corpus?
 [[Pipeline Parallelism]]: Put some layers on some GPU, other layers on other GPUs; communicate at the interface of these layers.
 [[Sequence Parallelism]]: (Careful with the name, there's one definition of this that's related to [[RingAttention]]). It's in some way similar to Tensor Parallelism, but instead of slicing the parameter matrices, we slice the sequences. Usually only interesting during training.
 
+![[Pasted image 20240417002314.png]]
+From CS224NL16(2023): Many different ways to do fusion of modalities, and much literature arguing in various ways.
+
+![[Pasted image 20240417002349.png]]
+1. Combine modalities at beginning ("Early fusion")
+2. Treat them separately and then later combine them ("Middle fusion")
+3. Combine just the scores/logits ("Late fusion")
+	- This is what we would now call contrastive models
 
