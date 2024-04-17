@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 16.md",
+                "file": "Top-K Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c20dafbb835bcec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Top-P Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d7a17a061e3255e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03c5bae946d49591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Top-P Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -85,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 16.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 16.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 16.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -213,11 +253,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cb996e660e1a6c1e",
+  "active": "9d7a17a061e3255e",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240417130642.png",
+    "_attachments/Pasted image 20240417130630.png",
+    "Top-K Sampling.md",
+    "Top-P Sampling.md",
+    "Courses/CS224N/CS224N Lecture 16.md",
     "_attachments/Pasted image 20240417002825.png",
     "~ Vocabulary.md",
-    "Courses/CS224N/CS224N Lecture 16.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240417002535.png",
     "Multimodal.md",
@@ -233,8 +277,6 @@
     "_attachments/Pasted image 20240416234853.png",
     "_attachments/Pasted image 20240416234204.png",
     "_attachments/Pasted image 20240416231323.png",
-    "_attachments/Pasted image 20240416225751.png",
-    "_attachments/Pasted image 20240416225321.png",
     "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
     "Stephen Bach.md",
     "Articles/ML/Why GPT-3 Matters (2020) {Leo Gao}.md",
@@ -249,8 +291,6 @@
     "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
     "Articles/ML/The State of Computer Vision at Hugging Face 🤗 (Jan 2023) {Hugging Face Blog, Sayak Paul}.md",
-    "Articles/ML/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
-    "Articles/ML/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
