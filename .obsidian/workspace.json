@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb996e660e1a6c1e",
+            "id": "ad781fbf390ebd2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top-K Sampling.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0c20dafbb835bcec",
+            "id": "7badd5c3b87e7b37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top-P Sampling.md",
+                "file": "Chinchilla.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,51 @@
             }
           },
           {
-            "id": "9d7a17a061e3255e",
+            "id": "04ff58dc89e255de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Meta AI Research.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6b9f5b7bee591f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flamingo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2725b6fd4c19249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SimVLM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8b77578bfe4835a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CoCa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Chinchilla.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Chinchilla.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Chinchilla.md"
               }
             }
           }
@@ -253,30 +292,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9d7a17a061e3255e",
+  "active": "7badd5c3b87e7b37",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240417130642.png",
-    "_attachments/Pasted image 20240417130630.png",
-    "Top-K Sampling.md",
-    "Top-P Sampling.md",
     "Courses/CS224N/CS224N Lecture 16.md",
-    "_attachments/Pasted image 20240417002825.png",
     "~ Vocabulary.md",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240417002535.png",
-    "Multimodal.md",
-    "_attachments/Pasted image 20240417002349.png",
-    "_attachments/Pasted image 20240417002314.png",
-    "_attachments/Pasted image 20240417002242.png",
     "Meta AI Research.md",
-    "VQAv2.md",
+    "Toolformer.md",
     "Douwe Kiela.md",
-    "_attachments/Pasted image 20240417000000.png",
+    "Flamingo.md",
+    "VQAv2.md",
+    "_attachments/Pasted image 20240417141316.png",
+    "_attachments/Pasted image 20240417141224.png",
+    "_attachments/Pasted image 20240417141043.png",
+    "_attachments/Pasted image 20240417140714.png",
+    "_attachments/Pasted image 20240417140635.png",
+    "_attachments/Pasted image 20240417140435.png",
+    "SimVLM.md",
+    "CoCa.md",
+    "_attachments/Pasted image 20240417140339.png",
+    "_attachments/Pasted image 20240417140248.png",
+    "_attachments/Pasted image 20240417140211.png",
+    "_attachments/Pasted image 20240417140054.png",
+    "Top-P Sampling.md",
+    "Top-K Sampling.md",
+    "~ Useful Pictures.md",
+    "Multimodal.md",
     "Courses/CS224N/CS224N Lecture 14.md",
     "Courses/CS224N/CS224N Lecture 15.md",
-    "_attachments/Pasted image 20240416234853.png",
-    "_attachments/Pasted image 20240416234204.png",
-    "_attachments/Pasted image 20240416231323.png",
     "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
     "Stephen Bach.md",
     "Articles/ML/Why GPT-3 Matters (2020) {Leo Gao}.md",
@@ -288,9 +330,6 @@
     "Articles/ML/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
     "Articles/ML/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
     "Articles/ML/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
-    "Articles/ML/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "Articles/ML/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
-    "Articles/ML/The State of Computer Vision at Hugging Face 🤗 (Jan 2023) {Hugging Face Blog, Sayak Paul}.md",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",

@@ -253,6 +253,23 @@
 	- [[Visual Question-Answering]]
 	- 
 
+# MultiModal Concepts
+- Early Fusion, Middle Fusion, Late Fusion
+- Single Stream vs Dual Stream
+- Datasets
+	- COCO - Common Objects in Context (2014, 2015) - Very impactful early dataset
+	- VQA - Visual Question Answering (2015) - Very impactful early dataset; followed by [[VQAv2]]
+		- See also GQA (2019) by Chris Manning, Hudson
+	- CLEVR (2016): Compositional language and elementary visual reasoning diagnostics
+	- Hateful Memes paper: Multimodal pretraining doesn't really work? Earlier fusion is better than middle, and better than late
+	- Winoground dataset: How good is CLIP really?
+		- *Some plants surrounding a lightbulb, a lightbulb surrounding some plants* -- These sentences are similar (just reordered) -- Which describe the picture being shown?
+- Models
+	- VisualBERT, ViLBERT, LXMERT, MMBT, PixelBERT, UNITER, ViLT (Many ~2020 BeRT models)
+	- [[SimVLM]], [[CoCa]], [[Flamingo]]
+	- [[BLIP]], [[BLIP 2]]
+	- KOSMOS-1: Good progres on Raven's Progressive Matrices test
+	- Video: MERLOT and MERLOT Reserve
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
@@ -442,6 +459,7 @@
 - [[Nous Research]]
 - [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST)
 - [[Adept]]
+- [[Contextual]]
 
 
 # People
