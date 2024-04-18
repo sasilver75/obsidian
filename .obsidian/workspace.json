@@ -8,7 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6903f58868a089d",
+            "id": "2a56ca18f73bc34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS224N/CS224N Lecture 11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19995a8d65fc8fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,168 +34,12 @@
             }
           },
           {
-            "id": "5d4a61056b224ab7",
+            "id": "224dccfc142dbadf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReAct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af6ac68cded6ca12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66a6ed7ff6d53794",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60e9d48aa3bc1070",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0972e704728c44cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gato.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c90cb0135fc5811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gato.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85137a760658c3fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Support Vector Machine.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c711c2649c093d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Random Forest.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5eabfeab2ab56a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Latent Dirichlet Allocation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c03398c12867c25a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inception.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2588d4868aab5306",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VGGNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5772c694173a39ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YOLO.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "514874df6e6d5480",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flamingo.md",
+                "file": "Image Segmentation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -451,6 +308,20 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "efabd172ba5ee154",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6903f58868a089d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -479,7 +350,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "technical report",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -496,13 +367,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -518,7 +387,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReAct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -535,7 +403,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReAct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -557,9 +424,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ReAct.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -579,14 +444,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d4a61056b224ab7",
+  "active": "c6903f58868a089d",
   "lastOpenFiles": [
     "~ Vocabulary.md",
+    "Activation Function.md",
+    "Articles/ML/Building AGI using Language Models (2020) {Leo Gao}.md",
+    "Sentence-BERT.md",
+    "Monte Carlo Tree Search.md",
+    "Courses/CS224N/CS224N Lecture 11.md",
+    "MAUVE.md",
+    "Relative Positional Encoding.md",
+    "ReGLU.md",
+    "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
+    "ReLU.md",
+    "AI21.md",
+    "AI21 Labs.md",
+    "Articles/ML/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
+    "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md",
+    "[Direct Preference Optimization.md",
+    "Image Segmentation.md",
     "ReAct.md",
     "Whisper.md",
-    "Whisper 2.md",
     "Gato.md",
-    "Recur.md",
     "Support Vector Machine.md",
     "Random Forest.md",
     "Latent Dirichlet Allocation.md",
@@ -594,20 +473,6 @@
     "VGGNet.md",
     "YOLO.md",
     "_attachments/Pasted image 20240418000723.png",
-    "Flamingo.md",
-    "Phi-1.5.md",
-    "Phi-2.md",
-    "TinyStories.md",
-    "Phi-1.md",
-    "ControlNet.md",
-    "Chinchilla.md",
-    "Megatron.md",
-    "LLaMA.md",
-    "Stable Diffusion.md",
-    "T5.md",
-    "C4.md",
-    "Segment Anything Model.md",
-    "Residual Network.md",
     "_attachments/Pasted image 20240417224708.png",
     "_attachments/Pasted image 20240417192606.png",
     "_attachments/Pasted image 20240417192120.png",

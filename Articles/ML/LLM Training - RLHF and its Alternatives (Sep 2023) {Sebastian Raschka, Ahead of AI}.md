@@ -120,7 +120,7 @@ After the initial phases of supervised finetuning, models are exclusively traine
 
 
 ### Direct Preference Optimization: Your Language Model is Secretly a Reward Model (May 2023)
-- [[[Direct Preference Optimization|DPO]]
+- [[Direct Preference Optimization|DPO]]
 - Direct Preference Optimization is an alternative to RLHF with PPO where the ==researchers show that the cross entropy loss for fitting the reward model in RLHF can be used to directly finetune the LLM==.
 
 ### Contrastive Preference Learning: Learning from Human Feedback without RL (Oct 2023)

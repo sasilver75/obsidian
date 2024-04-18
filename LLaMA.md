@@ -8,7 +8,7 @@ Abstract
 
  Combined a bunch of the best features from [[PaLM]] and [[Chinchilla]]:
 	- Pre-normalize the input of each transformer sub-layer
-	- Use [[RMSNorm]] instead of [[LayNorm]]
+	- Use [[RMSNorm]] instead of [[LayerNorm]]
 	- [[SwiGLU]] activation function from [[PaLM]]
 	- Uses [[Rotary Positional Embedding|RoPE]], as [[PaLM]] did.
 	- Uses [[AdamW]], and [[Chinchilla]] did.

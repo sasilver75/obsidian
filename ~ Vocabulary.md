@@ -1,7 +1,7 @@
 # Linear Algebra
 - [[Dot Product]]
 - [[Cosine Similarity]]
-- 
+
 
 
 # Probability/Statistics
@@ -14,6 +14,8 @@
 - [[Recall]]
 - [[Covariate Shift]]
 - [[Regularization]]
+	- [[L1 Regularization]]
+	- [[L2 Regularization]]
 - [[One-Hot Encoding]]
 - [[t-SNE]]
 - [[Bootstrap]]
@@ -27,6 +29,8 @@
 - [[Principal Component Analysis]]
 - [[Independent Component Analysis]]
 - [[Spearman Correlation Coefficient]]
+- [[Bloom Filter]]
+- [[MinHash]]
 
 # RecSys
 - [[Collaborative Filtering]]
@@ -35,18 +39,29 @@
 
 # Machine Learning
 - [[Graph Neural Network]]
+- [[Long Short Term Memory|LSTM]]
+- [[Gradient Clipping]]
+- [[Gradual Unfreezing]]
+- [[Discriminative Learning Rate]]
+- [[Gated Recurrent Unit|GRU]]
+- [[In-Context Learning]]
+- [[Few-Shot Learning]]
 - [[Teacher Forcing]] vs [[Student Forcing]]
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
 - [[Alignment]]
 - [[KL Divergence]]
 - [[Entropy]]
+- [[Mutual Information]]
 - [[Cross-Entropy]]
 - [[Large Language Model]]
 - [[Foundation Model]]
 - [[Multimodal]]
 - [[VLM]]
 - [[Machine Learning]]
+- [[Softmax]]
+- [[Rectified Linear Unit|ReLU]]
+- [[SwiGLU]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Overfitting]]
@@ -61,8 +76,14 @@
 - [[Transfer Learning]]
 - [[Retrieval-Augmented Generation]]
 - [[Autoencoder]]
+- [[Variational Autoencoder]]
+- [[Beta-VAE]]
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
+- [[Self-Attention]]
+- [[Cross-Attention]]
+- [[Bidirectional Attention]]
+- 
 - [[Diffusion Models]]
 - [[Parameter-Efficient Fine-Tuning]]
 - [[Classification]]
@@ -87,8 +108,6 @@
 - [[Activation Function]]s
 - [[Gini Index]]
 - [[Test-Time Augmentation]]
-- [[Progressive Resizing]]
-- [[Mixup]]
 - [[Gradient Accumulation]]
 - [[Recurrent Neural Networks]]
 - [[Long Short Term Memory]]
@@ -149,7 +168,8 @@
 - [[Tensor Parallelism]]
 - [[RMSNorm]]
 - [[Gradient Checkpointing]]
-- [[Rotary Positional Embedding]]
+- [[Rotary Positional Embedding]] (RoPE)
+- [[Attention with Linear Biases]] (ALiBi)
 - [[SPIN]]
 - [[Canary GUID]]
 - [[Weight Decay]]
@@ -165,6 +185,12 @@
 - [[He Initialization]]
 - [[Out-of-Bag Error]]
 - [[Boosting]]
+- [[Direct Preference Optimization]] (DPO)
+- [[Odds Ratio Preference Optimization]] (ORPO)
+- [[Trust Region Policy Optimization]]
+- [[Self-Consistency]]
+- [[KV Cache]]
+- [[Negative Prompt]]
 
 # Information Retrieval Concepts
 - [[BM25]]
@@ -205,6 +231,8 @@
 	- [[Diarization]]
 	- [[Topic Modeling]]
 	- [[Summarization]]
+		- [[Extractive Summarization]]
+		- [[Abstractive Summarization]]
 	- [[Named Entity Recognition]]
 	- [[Part-of-Speech Tagging]]
 	- [[Parsing]]
@@ -228,20 +256,30 @@
 - [[Matryoshka Representation Learning]]
 - [[Bi-Encoder]]
 - [[Out-of-Vocabulary Token]] / "UNK"
+- [[Greedy Decoding]]
 - [[Top-K Sampling]]
-- [[Top-P Sampling]]
+- [[Top-P Sampling]] (Nucleus Sampling)
 - [[Beam Search]]
 - [[Exposure Bias]]
 	- [[Scheduled Sampling]]
 	- [[Dataset Aggregation]]
 - [[Temperature]]
-- [[Direct Preference Optimization]]
-- [[Odds Ratio Preference Optimization]] (ORPO)
+- [[ReAct]]
+- [[DSPy]]
+- [[N-Gram]]
+- [[Coreference]], [[Coreference Resolution]]
 # Computer Vision Concepts
 - [[Object Recognition]]
 - [[Segmentation Mask]]
+- [[Zero Padding]]
+- [[Same Padding]]
+- [[Max Pooling]]
+- [[Average Pooling]]
 - Tasks:
 	- [[Image Segmentation]]
+	- [[Semantic Segmentation]]
+	- [[Panoptic Segmentation]]
+	- [[Instance Segmentation]]
 	- [[Image Classification]]
 	- [[Object Detection]]
 	- [[Video Classification]]
@@ -252,7 +290,8 @@
 	- Image-to-Text (eg [[Optical Character Recognition]])
 	- Text-to-Image
 	- [[Visual Question-Answering]]
-	- 
+- [[Swin|Swin Transformer]]
+- [[Vision Transformer]] (ViT)
 
 # MultiModal Concepts
 - Early Fusion, Middle Fusion, Late Fusion
@@ -272,6 +311,10 @@
 	- KOSMOS-1: Good progres on Raven's Progressive Matrices test
 	- Video: MERLOT and MERLOT Reserve
 
+# Data Augmentation Concepts
+- [[Mixup]]
+- [[MixMatch]]
+- [[Progressive Resizing]]
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]]
 - [[Agent]]
@@ -310,6 +353,8 @@
 - [[GPT]]
 - [[Megatron]]
 - [[Word2Vec]]
+	- [[Skip-Gram]]
+	- [[Continuous Bag of Words]] (CBOW)
 - [[GloVe]]
 - [[ConvNext]]
 - [[Residual Network]]
@@ -332,13 +377,13 @@
 - [[Support Vector Machine]]
 - [[Gato]]
 - [[Whisper]]
-- [[ReAct]]
 - [[PaLM]]
 - [[FLAN]]
 - [[DALL-E]]
 - [[DINO]]
 - [[Claude]]
 - [[Gemeni]]
+- [[Gemma]]
 - [[Alpaca]]
 - [[Vicuna]]
 - [[RWKV]]
@@ -363,6 +408,12 @@
 - [[ULMFiT]]
 - [[StarCoder]]
 - [[StarCoder 2]]
+- [[WizardCoder]]
+- [[WaveCoder]]
+- [[Magicoder]]
+- [[Starling]]
+- [[Jurassic-1]]
+
 # Tools
 - [[ComfyUI]]
 - [[Automatic1111]] 
@@ -403,6 +454,7 @@
 - [[GSM8K]]
 - [[VQAv2]]
 - [[MMMU]]
+- [[HotpotQA]]
 
 
 # Datasets
@@ -449,6 +501,7 @@
 - [[Inflection]] (RIP, March 2024)
 - [[DeepMind]]
 - [[Allen Institute]] (AI2)
+- [[AI21]]
 - [[Microsoft Research]] (MSR)
 - [[Stanford AI Lab]] (SAIL)
 - [[Berkeley AI Research Lab]] (BAIR)

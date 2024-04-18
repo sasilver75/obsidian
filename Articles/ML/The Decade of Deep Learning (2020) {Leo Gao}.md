@@ -111,7 +111,7 @@ Honorable mentions: Other alternatives sprung up based on different ways of aggr
 ## 2017: [Attention is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
 - The [[Transformer]] architecture makes use of the aforementioned attention mechanism, but at scale! It's become the backbone of nearly all state-of-the-art ML models today.
 - Transformer models beat RNNs in large part due to the computational benefits in very large networks...
-	- In RNNs, the gradients need to be propagated through the entire *"unrolled"* graph, which makes memory access a large bottleneck, while *also* exacerbating the exploding/vanishing gradients problem (which necessitated the more complex and expensive [[LSTM]] and [[GRU]] models).
+	- In RNNs, the gradients need to be propagated through the entire *"unrolled"* graph, which makes memory access a large bottleneck, while *also* exacerbating the exploding/vanishing gradients problem (which necessitated the more complex and expensive [[Long Short Term Memory|LSTM]] and [[GRU]] models).
 - Instead, Transformer models are optimized for highly parallel processing -- the most computationally expensive components are 
 	- the feed forward networks after the attention layers, which can be applied in parallel, 
 	- and the attention itself, which is a large matrix multiplication and is also easily optimized.
