@@ -50,6 +50,12 @@ One of the main problems with this type of work: It's unclear how much this can 
 
 "I agree that curriculum learning is an important idea that we haven't talked about yet; it seems important to human learning. We've had some minor success with it in ML, but it seems like something that we should be able to get more mileage out of as we move to more multi-task/modal models."
 
+What haven't we covered in this course?
+- Lots of stuff covered in CS224U!
+	- If you want to make Alexa, you need to be able to convert from language into explicit semantic form (tool use) that interacts with the world (eg to send an email on your behalf)
+- Lots of language generation things
+	- We've done: "neural language models, they're great! Run them and they generate language." But there's actually a lot of stuff missing -- this lets us produce *fluent text*, but if we actually want to have a good NLG system, we also have to have higher-level planning of what you're going to talk about, how you're going to express it, etc. Most situations in natural language, we think: "Okay, I want to explain why it's important to do Math at college -- let's think about how to organize this? Maybe I want to think about places where math turns up, etc...." Planning out how to present ideas.
+
 
 
 
