@@ -217,3 +217,7 @@ From CS224NL16(2023): Many different ways to do fusion of modalities, and much l
 ![[Pasted image 20240417130630.png|300]]
 ![[Pasted image 20240417130642.png|300]]
 
+![[Pasted image 20240417161847.png|300]]
+![[Pasted image 20240417163859.png|300]]
+
+
