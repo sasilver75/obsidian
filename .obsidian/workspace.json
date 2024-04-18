@@ -4,22 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "18429e2534d32997",
+        "id": "1d45a86efac80a01",
         "type": "tabs",
         "children": [
           {
-            "id": "e6672779e2134788",
+            "id": "3c6d685cebe3f228",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 19.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "18429e2534d32997",
+        "type": "tabs",
+        "children": [
           {
             "id": "c6903f58868a089d",
             "type": "leaf",
@@ -34,12 +40,12 @@
             }
           },
           {
-            "id": "3c6d685cebe3f228",
+            "id": "7a06109015068e16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 1.md",
+                "file": "Sentence-BERT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,90 +53,12 @@
             }
           },
           {
-            "id": "ea6b5a8c1a6a8772",
+            "id": "50c20239f5a4c121",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c5dd04f7b0ff95e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Christopher Potts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b37ddb906693acba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistilBERT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "112da7e72ff24834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistilBERT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a78bf1409cdb2a98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistilBERT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f893f79c123ff9d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LeNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a83e548b53acdafb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AlphaGo.md",
+                "file": "Bidirectional Encoder Representations from Transformers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "clip paper",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/XCS224U/XCS224U Lecture 1.md"
               }
             }
           }
@@ -266,12 +195,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ea6b5a8c1a6a8772",
+  "active": "3c6d685cebe3f228",
   "lastOpenFiles": [
+    "Sentence-BERT.md",
     "Courses/XCS224U/XCS224U Lecture 1.md",
+    "_attachments/Pasted image 20240417192606.png",
     "~ Vocabulary.md",
+    "Bidirectional Encoder Representations from Transformers.md",
+    "CLIP.md",
+    "Prompting.md",
+    "_attachments/Pasted image 20240417192120.png",
+    "Falcon.md",
+    "RefinedWeb.md",
+    "_attachments/Pasted image 20240417191716.png",
+    "_attachments/Pasted image 20240417191647.png",
+    "LeNet.md",
     "Christopher Potts.md",
     "DistilBERT.md",
+    "AlphaGo.md",
+    "Courses/CS224N/CS224N Lecture 19.md",
+    "_attachments/Pasted image 20240417190151.png",
     "_attachments/Pasted image 20240417182929.png",
     "_attachments/Pasted image 20240417182742.png",
     "_attachments/Pasted image 20240417182114.png",
@@ -279,9 +222,6 @@
     "RoBERTa.md",
     "Courses/CS25",
     "Courses/XCS224U",
-    "Courses/CS224N/CS224N Lecture 19.md",
-    "LeNet.md",
-    "AlphaGo.md",
     "PaLM 2.md",
     "PaLM-E.md",
     "Med-PaLM.md",
@@ -293,19 +233,7 @@
     "~ Useful Pictures.md",
     "Chinchilla.md",
     "Meta AI Research.md",
-    "Flamingo.md",
-    "SimVLM.md",
-    "CoCa.md",
-    "Top-P Sampling.md",
-    "Douwe Kiela.md",
-    "VQAv2.md",
     "_attachments/Pasted image 20240417163859.png",
-    "_attachments/Pasted image 20240417163502.png",
-    "_attachments/Pasted image 20240417162120.png",
-    "_attachments/Pasted image 20240417161847.png",
-    "Courses/CS224N/CS224N Lecture 17.md",
-    "_attachments/Pasted image 20240417141316.png",
-    "_attachments/Pasted image 20240417141224.png",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
