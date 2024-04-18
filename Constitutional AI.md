@@ -26,3 +26,4 @@ A lot of ***confusion*** around CAI is the second step above is the one that the
 ==CAI = Principled Instruction Correction + Principle-following RLAIF (rather than just generic RLAIF)==
 
 
+![[Pasted image 20240418163727.png]]
