@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a56ca18f73bc34e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CS224N/CS224N Lecture 11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "19995a8d65fc8fd4",
             "type": "leaf",
             "state": {
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "224dccfc142dbadf",
+            "id": "810e793c66d340b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Segmentation.md",
+                "file": "DINO.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +34,12 @@
             }
           },
           {
-            "id": "a6706e239c310262",
+            "id": "c1db1cdb08a08a36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phi-2.md",
+                "file": "DALL-E.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +47,12 @@
             }
           },
           {
-            "id": "f050e05ad6db2d5c",
+            "id": "d9699012745afde4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phi-1.5.md",
+                "file": "DALL-E 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,233 +60,12 @@
             }
           },
           {
-            "id": "b982c17592dcd560",
+            "id": "25540c623b1e2cfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStories.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f51750b0e80151aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phi-1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38a80948099b55c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VGGNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fff313bc4aee1eba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ControlNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0e895152a48582b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinchilla.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e17948976ea21aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Megatron.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "204518499f3c090c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f8e155c2cbe7df2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stable Diffusion.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ab4f1abe7147c63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "T5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d490e6f3c57990d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1f38144d324c9d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Segment Anything Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d0f55783c137a39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Residual Network.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ba652ee18166dac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ConvNext.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8eb865392d0396e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Swin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7092fe138c1ff08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7367b2716b1819ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Word2Vec.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdfe255f91a262d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Megatron.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a06109015068e16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sentence-BERT.md",
+                "file": "U-Net.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -353,7 +119,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -374,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "DINO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "DINO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "DINO.md"
               }
             }
           }
@@ -435,34 +202,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "19995a8d65fc8fd4",
+  "active": "810e793c66d340b7",
   "lastOpenFiles": [
     "~ Vocabulary.md",
-    "Activation Function.md",
-    "Articles/ML/Building AGI using Language Models (2020) {Leo Gao}.md",
-    "Sentence-BERT.md",
-    "Monte Carlo Tree Search.md",
+    "DALL-E.md",
+    "DALL-E 2.md",
+    "FLAN.md",
+    "PaLM.md",
+    "U-Net.md",
+    "_attachments/Pasted image 20240418013639.png",
+    "Exploding Gradients.md",
     "Courses/CS224N/CS224N Lecture 11.md",
-    "MAUVE.md",
-    "Relative Positional Encoding.md",
-    "ReGLU.md",
-    "Articles/ML/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
-    "ReLU.md",
-    "AI21.md",
-    "AI21 Labs.md",
-    "Articles/ML/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
-    "Articles/ML/LLM Training - RLHF and its Alternatives (Sep 2023) {Sebastian Raschka, Ahead of AI}.md",
-    "[Direct Preference Optimization.md",
     "Image Segmentation.md",
-    "ReAct.md",
-    "Whisper.md",
-    "Gato.md",
-    "Support Vector Machine.md",
-    "Random Forest.md",
-    "Latent Dirichlet Allocation.md",
-    "Inception.md",
+    "Phi-2.md",
+    "Phi-1.5.md",
+    "TinyStories.md",
+    "Phi-1.md",
     "VGGNet.md",
-    "YOLO.md",
+    "ControlNet.md",
+    "Chinchilla.md",
+    "Megatron.md",
+    "Sentence-BERT.md",
+    "LLaMA.md",
+    "Stable Diffusion.md",
+    "T5.md",
+    "C4.md",
+    "Segment Anything Model.md",
+    "Residual Network.md",
+    "Swin.md",
+    "LLaMA 2.md",
     "_attachments/Pasted image 20240418000723.png",
     "_attachments/Pasted image 20240417224708.png",
     "_attachments/Pasted image 20240417192606.png",
@@ -472,7 +240,6 @@
     "_attachments/Pasted image 20240417190151.png",
     "_attachments/Pasted image 20240417182929.png",
     "_attachments/Pasted image 20240417182742.png",
-    "_attachments/Pasted image 20240417182114.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
