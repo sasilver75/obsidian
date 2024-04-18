@@ -1,3 +1,5 @@
+
+ Non-exhaustive examples:
  [[Sigmoid Activation Function]]
 [[Tanh Activation Funcition]]
 [[Rectified Linear Unit]]

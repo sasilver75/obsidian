@@ -100,7 +100,7 @@ Because each attention head outputs token vectors of dimension `d // H`, the con
 - Although high-performance GPUs and advancements in model architectures may make us think otherwise, *training deep NNs hasn't always been easy!* 
 - Early attempts at training NNs with many layers were largely unsuccessful due to issues with vanishing, exploding, and unstable gradients. Several advancements have been proposed to address these issues:
 	1. ==Better methods of initializing weights== (e.g. [[Xavier Initialization]] or [[He Initialization|Kaiming Initialization]]/[[He Initialization]])
-	2. ==Replacing sigmoid activation functions== with [[ReLU]] (This keeps gradients in the activation function from becoming very small)
+	2. ==Replacing sigmoid activation functions== with [[Rectified Linear Unit|ReLU]] (This keeps gradients in the activation function from becoming very small)
 	3. ==Normalizing== intermediate neural network activations
 
 - Within this section, we will focus on the final advancement mentioned above -- *normalization*!

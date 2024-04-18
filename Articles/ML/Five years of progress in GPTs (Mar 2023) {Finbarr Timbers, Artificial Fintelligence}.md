@@ -74,7 +74,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 		- Outside of labs like OpenAI, because of the need for novelty, there are many research projects that don't get pursued because they're "only" engineering projects, or they "only" do hyperparameter tuning. You could frame this as a weakness of the more academic labs that have review policies driven by publications.
 
 ### [[Jurassic-1]] (August 2021)
-- This model was developed by Israeli company [[AI21 Labs]], who specialize in NLP.
+- This model was developed by Israeli company [[AI21]], who specialize in NLP.
 - They trained a ==178B parameter model that outperformed GPT-3 in a few categories,== ==despite only having raised $<10M== at the time.
 - Paper is remarkably sparse on details, which was done for competitive reasons.
 	- [[Meta AI Research]] is the only company to go into details about their experiences training a 175B parameter model.
@@ -148,7 +148,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 ### [[LLaMA]] (February 2023)
 - ==Combined a bunch of the best features from [[PaLM]] and [[Chinchilla]]==:
 	- Pre-normalize the input of each transformer sub-layer
-	- Use [[RMSNorm]] instead of [[LayNorm]]
+	- Use [[RMSNorm]] instead of [[Layer Normalization|LayerNorm]]
 	- [[SwiGLU]] activation function from [[PaLM]]
 	- Uses [[Rotary Positional Embedding|RoPE]], as [[PaLM]] did.
 	- Uses [[AdamW]], and [[Chinchilla]] did.
