@@ -503,3 +503,5 @@
 - [[Sebastian Ruder]]
 - [[Douwe Kiela]]
 - [[Alec Radford]]
+- [[Christopher Potts]]
+- 
