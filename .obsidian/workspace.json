@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19995a8d65fc8fd4",
+            "id": "3118356e9450cc1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "810e793c66d340b7",
+            "id": "9f5050fb98a518a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DINO.md",
+                "file": "Pile-T5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "c1db1cdb08a08a36",
+            "id": "fd8669286da1ac15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DALL-E.md",
+                "file": "FLAN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "d9699012745afde4",
+            "id": "17d8a3348713e365",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DALL-E 2.md",
+                "file": "Pile-T5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,20 +60,162 @@
             }
           },
           {
-            "id": "25540c623b1e2cfb",
+            "id": "9effa0728ecf0746",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U-Net.md",
+                "file": "Gopher.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8dc096fa50054ffe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLaMA 3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05f348b58217ade1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLaMA 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "503d5e0559a4fe4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPT-J.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5c7859de75ceb0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPT-NeoX.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0478c7726a6221fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gorilla.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ea8b8073beb063c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toolformer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "362f5b3d7a49f99c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WebGPT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d8e73c4ac18d8f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WebGPT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2d20129c530f7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toolformer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76b91e97c2cf2175",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pile-T5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be8697aa5e866328",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FLAN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +244,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Dipaco",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DINO.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DINO.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DINO.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -202,35 +344,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "810e793c66d340b7",
+  "active": "3118356e9450cc1b",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
-    "DALL-E.md",
-    "DALL-E 2.md",
-    "FLAN.md",
-    "PaLM.md",
-    "U-Net.md",
-    "_attachments/Pasted image 20240418013639.png",
-    "Exploding Gradients.md",
-    "Courses/CS224N/CS224N Lecture 11.md",
-    "Image Segmentation.md",
-    "Phi-2.md",
-    "Phi-1.5.md",
-    "TinyStories.md",
-    "Phi-1.md",
-    "VGGNet.md",
-    "ControlNet.md",
-    "Chinchilla.md",
-    "Megatron.md",
-    "Sentence-BERT.md",
-    "LLaMA.md",
-    "Stable Diffusion.md",
     "T5.md",
-    "C4.md",
-    "Segment Anything Model.md",
-    "Residual Network.md",
-    "Swin.md",
+    "Pile-T5.md",
+    "FLAN.md",
+    "~ Vocabulary.md",
+    "Minerva.md",
+    "Gopher.md",
+    "LLaMA 3.md",
     "LLaMA 2.md",
+    "GPT-J.md",
+    "LLaMA.md",
+    "GPT-3.5.md",
+    "GPT-NeoX.md",
+    "GPT-3.md",
+    "Gorilla.md",
+    "Toolformer.md",
+    "WebGPT.md",
+    "RWKV.md",
+    "Google Brain.md",
+    "Vicuna.md",
+    "Nathan Lambert.md",
+    "Alpaca.md",
+    "Gemma.md",
+    "Instruction-Tuning.md",
+    "DINOv2.md",
+    "Claude.md",
+    "FLAN-T5.md",
+    "_attachments/Pasted image 20240418013639.png",
     "_attachments/Pasted image 20240418000723.png",
     "_attachments/Pasted image 20240417224708.png",
     "_attachments/Pasted image 20240417192606.png",
