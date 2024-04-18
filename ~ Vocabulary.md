@@ -124,6 +124,7 @@
 - [[Region-Based Convolutional Neural Network]]
 - [[Vanishing Gradients]], [[Exploding Gradients]]
 - [[Distillation]]
+- [[Self-Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
 - [[Graph Convolutional Network]]
@@ -355,6 +356,7 @@
 - [[Falcon]]
 - [[AlexNet]]
 - [[CLIP]] 
+- [[OpenCLIP]]
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]
@@ -371,6 +373,8 @@
 - [[T5]]
 - [[Stable Diffusion]]
 - [[LLaMA]]
+- [[LLaMA 2]]
+- [[LLaMA 3]]
 - [[Chinchilla]]
 - [[ControlNet]]
 - [[VGGNet]]
@@ -388,9 +392,12 @@
 - [[Whisper]]
 - [[PaLM]]
 - [[FLAN]]
+- [[FLAN-T5]]
 - [[DALL-E]]
 - [[DALL-E 2]]
+- [[DALL-E 3]]
 - [[DINO]]
+- [[DINOv2]]
 - [[Claude]]
 - [[Gemeni]]
 - [[Gemma]]
@@ -423,6 +430,8 @@
 - [[Magicoder]]
 - [[Starling]]
 - [[Jurassic-1]]
+- [[LaMDA]]
+- [[Pile-T5]]
 
 # Tools
 - [[ComfyUI]]
@@ -530,10 +539,12 @@
 - [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST)
 - [[Adept]]
 - [[Contextual]]
+- [[Rek AI]]
 
 
 # People
 - [[Noam Shazeer]]
+- [[Nathan Lambert]] (Nato)
 - [[Daphne Koeller]]
 - [[Melanie Mitchell]]
 - [[Percy Liang]]
@@ -569,3 +580,5 @@
 - [[Douwe Kiela]]
 - [[Alec Radford]]
 - [[Christopher Potts]]
+- [[Yi Tay]]
+- 

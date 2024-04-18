@@ -1,0 +1,10 @@
+April 15, 2024
+Blog: [Pile-T5](https://blog.eleuther.ai/pile-t5/)
+
+It's basically a [[T5]] model trained on [[The Pile]] (as opposed to [[C4]]), with the vocabulary/tokenizer updated to include code-related tokens.
+The finetuned it on the [[FLAN]] dataset, and were surprised that their performance wasn't as high as it; The authors of FLANL admitted that not all of the finetuning data used to produce [[FLAN-T5]] was released.
+
+Summary
+> The T5 model (Raffel et al, 2019) has been a widely used model in the NLP community. With downloads of its base model from HF being in the millions, it's no doubt that ==these models have been a community favorite==. ==However, T5's tokenizer omits important code-related tokens== and subsequent pretraining datasets have been released with higher quality in its filtering and diverse domain. In this blogpost, ==we introduce a new version of T5; Pile-T5 that is trained on the Pile (Gao et al, 2020) and uses the [[LLaMA]] tokenizer (Touvron et al, 2023) that intends to improve upon those weaknesses.==
+> We continue by ==finetuning Pile-T5 models on Flan== (Chung, Hou, Longpre et all, 2022) with same training hyperparameters and evaluate on MMLU (Hendrycks et al, 2021) and BigBench Hard (Suzgun et al, 2022). When comparing to the [[FLAN-T5]] model, we found our Pile-T5 falls short by a small but meaningful amount. After following up with the authors we learned that not all of the finetuning data used to produce Flan-T5 was publicly released, which may explain the performance difference. For a more fair comparison, we also finetuned T5-v1.1 checkpoints with the same procedure and data that we used on the Pile-T5 models. We specifically use the 2 trillion tokens versions of Pile-T5, making the comparison with T5-v1.1 reflect both the increased training data scale and the change in data and tokenizer.
+> We conclude that Pile-T5 would be a better model for future multitask finetuning and other tasks that benefit from the encoder-decoder architecture.
