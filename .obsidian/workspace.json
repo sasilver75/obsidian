@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04616fc2c399b2af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Instruction-Tuning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb106ec9098806b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constitutional AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Dipaco",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Instruct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Instruct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Self-Instruct.md"
               }
             }
           }
@@ -151,6 +176,21 @@
   },
   "active": "3118356e9450cc1b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240418164722.png",
+    "Self-Correct.md",
+    "Courses/CS25/CS24 V4 Lecture 3.md",
+    "Constitutional AI.md",
+    "Instruction-Tuning.md",
+    "_attachments/Pasted image 20240418164632.png",
+    "_attachments/Pasted image 20240418164517.png",
+    "_attachments/Pasted image 20240418164344.png",
+    "_attachments/Pasted image 20240418164208.png",
+    "_attachments/Pasted image 20240418163902.png",
+    "_attachments/Pasted image 20240418163808.png",
+    "_attachments/Pasted image 20240418163727.png",
+    "_attachments/Pasted image 20240418163709.png",
+    "_attachments/Pasted image 20240418163127.png",
+    "~ Vocabulary.md",
     "MPT.md",
     "~ Quotes.md",
     "Pile-T5.md",
@@ -163,7 +203,6 @@
     "Gorilla.md",
     "Toolformer.md",
     "WebGPT.md",
-    "~ Vocabulary.md",
     "AlphaCode.md",
     "T5.md",
     "Minerva.md",
@@ -172,21 +211,7 @@
     "GPT-3.md",
     "RWKV.md",
     "Google Brain.md",
-    "Vicuna.md",
-    "Nathan Lambert.md",
-    "Alpaca.md",
-    "Gemma.md",
-    "Instruction-Tuning.md",
     "_attachments/Pasted image 20240418013639.png",
-    "_attachments/Pasted image 20240418000723.png",
-    "_attachments/Pasted image 20240417224708.png",
-    "_attachments/Pasted image 20240417192606.png",
-    "_attachments/Pasted image 20240417192120.png",
-    "_attachments/Pasted image 20240417191716.png",
-    "_attachments/Pasted image 20240417191647.png",
-    "_attachments/Pasted image 20240417190151.png",
-    "_attachments/Pasted image 20240417182929.png",
-    "_attachments/Pasted image 20240417182742.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
