@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1d45a86efac80a01",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3c6d685cebe3f228",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "18429e2534d32997",
         "type": "tabs",
         "children": [
@@ -40,12 +21,12 @@
             }
           },
           {
-            "id": "7a06109015068e16",
+            "id": "5d4a61056b224ab7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sentence-BERT.md",
+                "file": "ReAct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -53,12 +34,415 @@
             }
           },
           {
-            "id": "50c20239f5a4c121",
+            "id": "af6ac68cded6ca12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bidirectional Encoder Representations from Transformers.md",
+                "file": "Whisper.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66a6ed7ff6d53794",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Whisper.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60e9d48aa3bc1070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Whisper.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0972e704728c44cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gato.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c90cb0135fc5811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gato.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85137a760658c3fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Support Vector Machine.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c711c2649c093d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Random Forest.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5eabfeab2ab56a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Latent Dirichlet Allocation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c03398c12867c25a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inception.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2588d4868aab5306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VGGNet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5772c694173a39ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YOLO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "514874df6e6d5480",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flamingo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6706e239c310262",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phi-2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f050e05ad6db2d5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phi-1.5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b982c17592dcd560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TinyStories.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f51750b0e80151aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phi-1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38a80948099b55c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VGGNet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fff313bc4aee1eba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ControlNet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0e895152a48582b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinchilla.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e17948976ea21aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Megatron.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "204518499f3c090c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLaMA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f8e155c2cbe7df2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stable Diffusion.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ab4f1abe7147c63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "T5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d490e6f3c57990d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1f38144d324c9d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Segment Anything Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d0f55783c137a39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Residual Network.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ba652ee18166dac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ConvNext.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8eb865392d0396e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swin.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7092fe138c1ff08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLaMA 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7367b2716b1819ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Word2Vec.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdfe255f91a262d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Megatron.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a06109015068e16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sentence-BERT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +479,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clip paper",
+                "query": "technical report",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +518,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 1.md",
+                "file": "ReAct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +535,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 1.md",
+                "file": "ReAct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +558,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 1.md"
+                "file": "ReAct.md"
               }
             }
           }
@@ -195,45 +579,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c6d685cebe3f228",
+  "active": "5d4a61056b224ab7",
   "lastOpenFiles": [
-    "Sentence-BERT.md",
-    "Courses/XCS224U/XCS224U Lecture 1.md",
-    "_attachments/Pasted image 20240417192606.png",
     "~ Vocabulary.md",
-    "Bidirectional Encoder Representations from Transformers.md",
-    "CLIP.md",
-    "Prompting.md",
+    "ReAct.md",
+    "Whisper.md",
+    "Whisper 2.md",
+    "Gato.md",
+    "Recur.md",
+    "Support Vector Machine.md",
+    "Random Forest.md",
+    "Latent Dirichlet Allocation.md",
+    "Inception.md",
+    "VGGNet.md",
+    "YOLO.md",
+    "_attachments/Pasted image 20240418000723.png",
+    "Flamingo.md",
+    "Phi-1.5.md",
+    "Phi-2.md",
+    "TinyStories.md",
+    "Phi-1.md",
+    "ControlNet.md",
+    "Chinchilla.md",
+    "Megatron.md",
+    "LLaMA.md",
+    "Stable Diffusion.md",
+    "T5.md",
+    "C4.md",
+    "Segment Anything Model.md",
+    "Residual Network.md",
+    "_attachments/Pasted image 20240417224708.png",
+    "_attachments/Pasted image 20240417192606.png",
     "_attachments/Pasted image 20240417192120.png",
-    "Falcon.md",
-    "RefinedWeb.md",
     "_attachments/Pasted image 20240417191716.png",
     "_attachments/Pasted image 20240417191647.png",
-    "LeNet.md",
-    "Christopher Potts.md",
-    "DistilBERT.md",
-    "AlphaGo.md",
-    "Courses/CS224N/CS224N Lecture 19.md",
     "_attachments/Pasted image 20240417190151.png",
     "_attachments/Pasted image 20240417182929.png",
     "_attachments/Pasted image 20240417182742.png",
     "_attachments/Pasted image 20240417182114.png",
-    "_attachments/Pasted image 20240417182058.png",
-    "RoBERTa.md",
     "Courses/CS25",
     "Courses/XCS224U",
-    "PaLM 2.md",
-    "PaLM-E.md",
-    "Med-PaLM.md",
-    "AudioPaLM.md",
-    "Constitutional AI.md",
-    "PaLM.md",
-    "BIG-Bench.md",
-    "Courses/CS224N/CS224N Lecture 18.md",
-    "~ Useful Pictures.md",
-    "Chinchilla.md",
-    "Meta AI Research.md",
-    "_attachments/Pasted image 20240417163859.png",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
