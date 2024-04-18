@@ -297,6 +297,7 @@
 
 
 # Models
+- [[AlphaGo]]
 - [[LeNet]]
 - [[Falcon]]
 - [[AlexNet]]
@@ -431,6 +432,10 @@
 - [[Capybara]]
 - [[Cosmopedia]]
 - [[FineWeb]]
+
+# Interpretability
+- Saliency Map
+- Probe
 # Entities
 - [[Cohere]]
 - [[TogetherAI]]
