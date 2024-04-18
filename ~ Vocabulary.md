@@ -92,7 +92,6 @@
 - [[Self-Attention]]
 - [[Cross-Attention]]
 - [[Bidirectional Attention]]
-- 
 - [[Diffusion Models]]
 - [[Parameter-Efficient Fine-Tuning]]
 - [[Classification]]
@@ -229,6 +228,7 @@
 - [[REALM]]
 - [[FLARE]]
 - [[CRAG]]
+
 # Natural Language Processing Concepts
 - Tasks
 	- [[Sentiment Analysis]]
@@ -389,6 +389,7 @@
 - [[PaLM]]
 - [[FLAN]]
 - [[DALL-E]]
+- [[DALL-E 2]]
 - [[DINO]]
 - [[Claude]]
 - [[Gemeni]]
@@ -465,7 +466,6 @@
 - [[MMMU]]
 - [[HotpotQA]]
 
-
 # Datasets
 - [[CommonCrawl]]
 - [[C4]] (improvement of CommonCrawl)
@@ -499,6 +499,7 @@
 # Interpretability
 - Saliency Map
 - Probe
+
 # Entities
 - [[Cohere]]
 - [[TogetherAI]]
@@ -568,4 +569,3 @@
 - [[Douwe Kiela]]
 - [[Alec Radford]]
 - [[Christopher Potts]]
-- 
