@@ -1,11 +1,19 @@
 # Linear Algebra
 - [[Dot Product]]
 - [[Cosine Similarity]]
-
-
+- [[Eigenvector]]
+- [[Eigenvalue]]
+- [[Singular Value Decomposition]]
+- [[Column Space]]
+- [[Row Space]]
+- [[Rank]]
+- [[Row Echelon Form]]  (+Reduced Row Echelon Form)
+- [[Inverse]]
+- [[Span]]
+- [[Transpose]] (and Symmetric matrices)
 
 # Probability/Statistics
-- [[Monte-Carlo Tree Search]]
+- 
 
 # Analytics
 - [[Type One Error]]
@@ -31,6 +39,7 @@
 - [[Spearman Correlation Coefficient]]
 - [[Bloom Filter]]
 - [[MinHash]]
+- [[Monte-Carlo Tree Search]]
 
 # RecSys
 - [[Collaborative Filtering]]

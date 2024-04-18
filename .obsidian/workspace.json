@@ -308,20 +308,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "efabd172ba5ee154",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c6903f58868a089d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -371,7 +357,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -387,6 +374,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,6 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -424,7 +413,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "~ Vocabulary.md"
+              }
             }
           }
         ]
@@ -444,7 +435,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c6903f58868a089d",
+  "active": "19995a8d65fc8fd4",
   "lastOpenFiles": [
     "~ Vocabulary.md",
     "Activation Function.md",
