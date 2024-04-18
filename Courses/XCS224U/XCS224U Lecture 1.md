@@ -115,6 +115,19 @@ Short explanation of [[Chain of Thought]] eliciting some latent ability from the
 - This is in large part a result of this model being instruct-tuned -- people taught it about how to think about prompts.
 
 
+---
+
+High-Level Overview
+1. Contextual representations
+2. Multi-domain sentiment analysis
+3. Retrieval-augmented in-context learning
+4. Compositional generalization
+5. Benchmarking and adversarial training/testing
+6. Model introspection
+7. Methods and metrics
+
+
+
 
 
 

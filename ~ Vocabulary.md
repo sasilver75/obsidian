@@ -77,6 +77,7 @@
 - [[Token]]
 - [[Numericalization]]
 - [[Pre-training]]
+- [[AdaBoost]]
 - [[Batch]]
 - [[Batch Normalization]]
 - [[Layer Normalization]]
@@ -319,6 +320,8 @@
 - [[Chinchilla]]
 - [[ControlNet]]
 - [[VGGNet]]
+- [[Phi-1]]
+- [[Phi-1.5]]
 - [[Phi-2]]
 - [[Flamingo]]
 - [[YOLO]]
@@ -327,7 +330,6 @@
 - [[Latent Dirichlet Allocation]]
 - [[Random Forest]]
 - [[Support Vector Machine]]
-- [[Recur]]
 - [[Gato]]
 - [[Whisper]]
 - [[ReAct]]
@@ -414,7 +416,7 @@
 - [[Whisper]]
 - [[CIFAR-10]]
 - [[MNIST]]
-- [[TinyStories]] (The Phi-2 dataset)
+- [[TinyStories]] (The Phi-1.5, Phi-2 dataset)
 - [[LAION]]
 	- LAION-COCO
 - [[MMC4]] (Multimodal C4)
