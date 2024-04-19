@@ -1,0 +1,7 @@
+June 14, 2023 (About a month after the [[StarCoder]] paper, a collaboration of many institutions)
+Paper: [WizardCoder: Empowering Code Lareg Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568)
+
+Takes a cue from the earlier [[WizardLM]] paper, and applies the [[Evol-Instruct]] technique to a code-generating model. Most models at this point are simply pre-trained (and maybe fine-tuned) on just code data. This paper introduces [[Instruction-Tuning]] to
+
+Abstract
+> Code Large Language Models (Code LLMs), such as StarCoder, have demonstrated exceptional performance in code-related tasks. However, ==most existing models are solely pre-trained on extensive raw code data without instruction fine-tuning==. In this paper, we introduce ==WizardCoder, which empowers Code LLMs with complex instruction fine-tuning==, by adapting the ==Evol-Instruct method== to the domain of code. Through comprehensive experiments on four prominent code generation benchmarks, namely HumanEval, HumanEval+, MBPP, and DS-1000, we unveil the exceptional capabilities of our model. It surpasses all other open-source Code LLMs by a substantial margin. Moreover, our model even outperforms the largest closed LLMs, Anthropic's Claude and Google's Bard, on HumanEval and HumanEval+. Our code, model weights, and data are public at [this https URL](https://github.com/nlpxucan/WizardLM)
