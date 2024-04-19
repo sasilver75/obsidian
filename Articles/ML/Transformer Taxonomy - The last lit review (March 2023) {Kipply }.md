@@ -42,7 +42,7 @@ Architecture Unknown - "Transformer-like"
 - Uses an [[RMSNorm]] instead of a [[Layer Normalization|LayerNorm]], and uses a relative positional encoding scheme from [[Transformer-XL]] instead of an absolute positional encoding, which is why there are so many embedding parameters.
 - Tokenizes with [[SentencePiece]]
 - Vocabulary size 32k
-- Trained on 300B tokens, with half being from MassiveText (collected for Gopher), along with books, [[CommonCrawl]], Wikipedia, news, and Github.
+- Trained on 300B tokens, with half being from MassiveText (collected for Gopher), along with books, [[Common Crawl]], Wikipedia, news, and Github.
 - Note that ==Gopher was actually trained end of 2020== and released a year later.
 ### [[AlphaCode]] (February 2022, [[DeepMind]])
 41B params, 8 encoder layers, 56 decoder layers, 6144 embedding dimension
@@ -114,7 +114,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - 250k vocab size BPE tokenizer, to help accommodate for multilingual data.
 ### Galactica (Nov 2022, [[Meta AI Research]])
 120B parameters
-- Galactica is a ==science model== pretrained mostly on papers, along with small amounts of code, other knowledge-based data, and a bit of [[CommonCrawl]].
+- Galactica is a ==science model== pretrained mostly on papers, along with small amounts of code, other knowledge-based data, and a bit of [[Common Crawl]].
 - Uses a `<work>` token to encode working memory, as well as special tokens for citations.
 ### [[LLaMa]] (Feb 2023, [[Meta AI Research]])
 65B parameters

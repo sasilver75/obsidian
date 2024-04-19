@@ -1,12 +1,26 @@
+December 28, 2023 -- [[Nous Research]]
+HuggingFace: [Capybara](https://huggingface.co/collections/NousResearch/capybara-6510e64e8f80c1165c1bbe15)
+# Models
+
+A line of models from Nous; Capybara-series model are ==unaligned for general use==, leveraging  [[Amplify-Instruct]] and novel quality curation techniques. Made with a dataset of less than 20k examples.
+> The Capybara series is the first Nous collection of models made by fine-tuning mostly on data created by Nous in-house.
+
+
+Most notable is Nous Capybara-34B (11/14/2023), their best Capybara-series model
+
+
+# Dataset
 A ==dataset== (and model) from [[Nous Research]] with roughly ==15,000 multi-turn instruction-following examples==.
 
 This was the culmination of experimenting with the most useful insights derived from synthesis techniques like:
 1. [[Evol-Instruct]] (used for [[WizardLM]])
 2. [[Orca]]
-3. [[Alpaca]]
-4. [[Vicuna]]
-5. Lamini
-6. FLASK
+3. Airoboros
+4. [[Alpaca]]
+5. [[Vicuna]]
+6. Know_Logic
+7. Lamini
+8. FLASK
 
 Along with intuitions from over 3 years of doing data curation for dozens of models in text and audio modalities across different architectures.
 

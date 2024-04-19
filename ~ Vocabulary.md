@@ -338,7 +338,7 @@
 - [[MixMatch]]
 - [[Progressive Resizing]]
 # Reinforcement Learning Concepts
-- [[Reinforcement Learning]]
+- [[Reinforcement Learning]] (RL)
 - [[Agent]]
 - [[Policy]]
 - [[Hierarchical Reinforcement Learning]]
@@ -346,8 +346,9 @@
 - [[Q-Function]]
 - [[Q-Learning]], [[Deep Q-Learning]]
 - [[Value Learning]] vs [[Policy Learning]]
-- [[Proximal Policy Optimization]]
-- [[Bellman Equation]]
+- [[Proximal Policy Optimization]] (PPO)
+- [[Group Relative Policy Optimization]] (GRPO)
+- [[Bellman Equation]] 
 - [[Temporal Difference Learning]] (TD-Learning)
 - Actor-Critic methods
 - [[Markov Decision Process]]
@@ -461,8 +462,9 @@
 - [[Tulu]]
 - [[Tulu 2]]
 - [[Hermes]]
-- [[DeepSeek Coder]]
-- [[DeepSeek Math]]
+- [[Capybara]]
+- [[DeepSeek-Coder]]
+- [[DeepSeek-Math]]
 - [[Ada-Instruct]]
 - [[Yi]]
 
@@ -483,6 +485,8 @@
 - [[vLLM]]
 - [[Datatrove]]
 - [[Lighteval]]
+- [[ChatML]]
+- [[Airoboros]]
 
 # Benchmarks, Evaluations
 - [[GAIA]]: A benchmark for General AI Assistants
@@ -512,7 +516,7 @@
 - [[AGIEval]]
 
 # Datasets
-- [[CommonCrawl]]
+- [[Common Crawl]]
 - [[C4]] (improvement of CommonCrawl)
 - [[Webtext]], OpenWebtext2
 - [[The Stack]]
@@ -539,7 +543,6 @@
 - [[Dolma]]
 - [[RefinedWeb]]
 - [[SuperNaturalInstructions]]
-- [[Capybara]]
 - [[Cosmopedia]]
 - [[FineWeb]]
 - [[OpenAssistant]]
@@ -585,6 +588,8 @@
 - [[Contextual]]
 - [[Reka AI]]
 - [[Alibaba Research]]
+- [[DeepSeek]]
+- [[01.AI]]
 
 
 # People

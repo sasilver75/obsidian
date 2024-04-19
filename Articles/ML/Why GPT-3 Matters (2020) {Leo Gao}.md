@@ -27,7 +27,7 @@ Overall, GPT-3 is essentially just a massive version of GPT-2 (and we mentioned 
 
 ### Training Data
 ![Weighted Training Data (<a href='https://arxiv.org/abs/2005.14165'>Source</a>)](https://bmk.sh/images/gpt3/tdata.png)
-- The training data is a reweighted mix of [[CommonCrawl]], WebText2, Book1, Book2, and Wikipedia!
+- The training data is a reweighted mix of [[Common Crawl]], WebText2, Book1, Book2, and Wikipedia!
 - Some of these components (like Wikipedia) were seen more than 3 times during training -- others, like the massive Common Crawl, had less than half of its data seen.
 - English constituted ~93% of the dataset.
 

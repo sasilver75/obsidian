@@ -21,6 +21,214 @@
             }
           },
           {
+            "id": "b0ec9fcacbe30726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.AI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00d04c612d9bf743",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71799bae0cc48e45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b325c3878144455",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2abfef1166b80aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ada-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec5c992f1e3e6f5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Minerva.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ed13331bd0dec6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Group Relative Policy Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0648c100a94d20e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Crawl.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d312337fb5c8cd98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepSeek-Coder.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6779c271b1b9f3a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepSeek.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16a70b74b3f60641",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepSeek-Math.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2607f36211f3c7c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nathan Lambert.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74a1c1eeaff656e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Airoboros.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00d3b1f453107554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jon Durbin.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9571f636e5a2287b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hermes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc025a42d842f1ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatML.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0d0661c6c39184de",
             "type": "leaf",
             "state": {
@@ -101,7 +309,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "DeepSeek",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +326,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,37 +411,37 @@
   },
   "active": "e8d1fd48f7b005d3",
   "lastOpenFiles": [
-    "Hermes.md",
-    "Tulu-v2-mix.md",
+    "01.AI.md",
+    "Yi.md",
+    "DeepSeek-Math.md",
     "~ Vocabulary.md",
-    "Tulu.md",
     "Tulu 2.md",
+    "Ada-Instruct.md",
+    "Minerva.md",
+    "Group Relative Policy Optimization.md",
+    "Common Crawl.md",
+    "DeepSeek-Coder.md",
+    "DeepSeek.md",
+    "Rho-1.md",
+    "Nathan Lambert.md",
+    "Capybara.md",
+    "().md",
+    "Airoboros.md",
+    "Jon Durbin.md",
+    "Hermes.md",
+    "ChatML.md",
+    "Tulu-v2-mix.md",
+    "Tulu.md",
     "Alpaca.md",
     "~ Useful Pictures.md",
     "WizardLM 2.md",
     "Selective Language Modeling.md",
-    "Rho-1.md",
     "Genstruct.md",
     "_attachments/Pasted image 20240419151848.png",
-    "Qwen 2.md",
-    "Qwen.md",
-    "Qwen MoE.md",
-    "Courses/CS25/CS24 V4 Lecture 3.md",
     "_attachments/Pasted image 20240419150245.png",
-    "Qwen-VL.md",
     "_attachments/Pasted image 20240419144029.png",
-    "Microsoft Research.md",
-    "Command R+.md",
-    "Command R.md",
-    "JetMoE.md",
-    "Jamba.md",
-    "AlphaGeometry.md",
     "_attachments/Pasted image 20240419141139.png",
     "_attachments/Pasted image 20240419140811.png",
-    "Guanaco.md",
-    "Low-Rank Adaptation.md",
-    "Quantized Low-Rank Adaptation.md",
-    "Red-Teaming.md",
     "_attachments/Pasted image 20240419003444.png",
     "_attachments/Pasted image 20240418210352.png",
     "_attachments/Pasted image 20240418210350.png",
