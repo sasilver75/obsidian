@@ -273,7 +273,7 @@ Following this, let's talk about the loss function that we optimize during train
 
 ![[Pasted image 20240328235152.png|450]]
 So now we have a (bad) output probability distribution from our model, and a "correct" output distribution from our dataset (one-hot encoded). How do we compare them? We simply subtract one from another
-- For more, see [[Cross-Entropy]] and [[KL Divergence|Kullback-Leibler Divergence]]
+- For more, see [[Cross-Entropy]] and [[Kullback-Leibler Divergence|Kullback-Leibler Divergence]]
 
 Note that this is an oversimplified example -- we'll usually use a sentence longer than one word -- for example: input "je suis etudiant" and expected output "I am a student" -- So we want our model to successively output probability distributions where:
 1. Each probability distribution is represented by a vector of width `vocab_size` (6, in our toy example)

@@ -3,7 +3,7 @@ Link: https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuition
 
 -----
 
-[[KL Divergence]] is a topic that crops up in a bunch of different places in information theory and machine learning, so it's important to understand it well... unfortunately, KL divergence is confusing at first pass!
+[[Kullback-Leibler Divergence]] is a topic that crops up in a bunch of different places in information theory and machine learning, so it's important to understand it well... unfortunately, KL divergence is confusing at first pass!
 - It's not symmetric, like we'd expect from most distance measures
 - It can be unbounded as we take the limit of probabilities going to zero
 
@@ -48,7 +48,7 @@ $D_KL(P||Q)$ is in some sense ==a natural way of measuring how far $Q$ is from $
 
 ==The common theme for most of these:==
 
-$D_KL(P||Q)$  -> [[KL Divergence]] is a measure of how much our model $Q$ differs from the true distribution $P$. In other words, we care about how much $P$ and $Q$ differ from eachother ***in the world where P is true***, which explains why KL-divergence is not symmetric!
+$D_KL(P||Q)$  -> [[Kullback-Leibler Divergence]] is a measure of how much our model $Q$ differs from the true distribution $P$. In other words, we care about how much $P$ and $Q$ differ from eachother ***in the world where P is true***, which explains why KL-divergence is not symmetric!
 
 
 ---

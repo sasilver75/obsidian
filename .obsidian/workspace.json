@@ -13,7 +13,111 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Instruct.md",
+                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd037ecfa61d2f5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AlpacaEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49895303ec3cd672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ffbe4dee73db098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68eaaee104c55973",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guanaco.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d738dfd01d6bb5a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Helpful and Harmless.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bf65792c3f4adc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stanford Human Preferences.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c45bd6116e6671b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenAssistant.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78cdb11f75f26960",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ShareGPT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,6 +144,168 @@
               "type": "markdown",
               "state": {
                 "file": "Constitutional AI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8309192f8f15eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f53e608793bb260e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b48da4b9479fb55b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea5d6fbf0bb5cbfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Genstruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5eaaa1392e6c53e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96a42d0ee8255d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dolly.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84ae13aa7173959c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kullback-Leibler Divergence.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "520b922c08a3f7b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kullback-Leibler Divergence.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc679adaf746e6df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kahneman-Tversky Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab68086d79f53c09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Odds Ratio Preference Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d966fe46698df60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Binary Classifier Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ef7897027fb85eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Identity-Mapping Preference Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84eb75e14ce887f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conservative Direct Preference Optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +358,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,7 +380,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Instruct.md",
+                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +397,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Instruct.md",
+                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +420,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Instruct.md"
+                "file": "Courses/CS25/CS24 V4 Lecture 3.md"
               }
             }
           }
@@ -176,42 +443,42 @@
   },
   "active": "3118356e9450cc1b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240418164722.png",
-    "Self-Correct.md",
+    "~ Useful Pictures.md",
     "Courses/CS25/CS24 V4 Lecture 3.md",
-    "Constitutional AI.md",
-    "Instruction-Tuning.md",
-    "_attachments/Pasted image 20240418164632.png",
-    "_attachments/Pasted image 20240418164517.png",
-    "_attachments/Pasted image 20240418164344.png",
-    "_attachments/Pasted image 20240418164208.png",
-    "_attachments/Pasted image 20240418163902.png",
-    "_attachments/Pasted image 20240418163808.png",
-    "_attachments/Pasted image 20240418163727.png",
-    "_attachments/Pasted image 20240418163709.png",
-    "_attachments/Pasted image 20240418163127.png",
     "~ Vocabulary.md",
-    "MPT.md",
-    "~ Quotes.md",
-    "Pile-T5.md",
-    "FLAN.md",
-    "Gopher.md",
-    "LLaMA 3.md",
-    "LLaMA 2.md",
-    "GPT-J.md",
-    "GPT-NeoX.md",
-    "Gorilla.md",
-    "Toolformer.md",
-    "WebGPT.md",
-    "AlphaCode.md",
-    "T5.md",
-    "Minerva.md",
-    "LLaMA.md",
-    "GPT-3.5.md",
-    "GPT-3.md",
-    "RWKV.md",
-    "Google Brain.md",
-    "_attachments/Pasted image 20240418013639.png",
+    "Genstruct.md",
+    "Starling.md",
+    "SteerLM.md",
+    "Tulu 2.md",
+    "Zephyr.md",
+    "Direct Preference Optimization.md",
+    "Reinforcement Learning from Human Feedback.md",
+    "Conservative Direct Preference Optimization.md",
+    "OpenAssistant.md",
+    "Dolly.md",
+    "Vicuna.md",
+    "Koala.md",
+    "Alpaca.md",
+    "Direct Nash Optimization.md",
+    "Stepwise Direct Preference Optimization.md",
+    "Constitutional AI.md",
+    "Kullback-Leibler Divergence.md",
+    "Kahneman-Tversky Optimization.md",
+    "Odds Ratio Preference Optimization.md",
+    "Binary Classifier Optimization.md",
+    "Identity-Mapping Preference Optimization.md",
+    "AlpacaEval.md",
+    "_attachments/Pasted image 20240418173227.png",
+    "_attachments/Pasted image 20240418173035.png",
+    "_attachments/Pasted image 20240418172936.png",
+    "_attachments/Pasted image 20240418172704.png",
+    "_attachments/Pasted image 20240418172452.png",
+    "_attachments/Pasted image 20240418172226.png",
+    "_attachments/Pasted image 20240418172122.png",
+    "_attachments/Pasted image 20240418172026.png",
+    "_attachments/Pasted image 20240418171918.png",
+    "_attachments/Pasted image 20240418171818.png",
+    "Guanaco.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

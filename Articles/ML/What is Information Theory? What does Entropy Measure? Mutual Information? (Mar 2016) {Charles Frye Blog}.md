@@ -121,7 +121,7 @@ $H(P,Q) = - \sum{p(x)log(q(x))}$
 
 From the traditional, Shannon perspective, the interpretation of this quantity is that it is the length of encoded messages using a code optimized for a distribution $Q$ on messages drawn from a distribution $P$ (The author notes that this isn't very intuitive).
 
-The ==[[KL Divergence|Kullback-Leibler Divergence]]== (KL Divergence):
+The ==[[Kullback-Leibler Divergence|Kullback-Leibler Divergence]]== (KL Divergence):
 
 $D_{KL}(P,Q) = H(P,Q) - H(P)$   
 

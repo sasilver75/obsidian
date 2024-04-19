@@ -219,5 +219,13 @@ From CS224NL16(2023): Many different ways to do fusion of modalities, and much l
 
 ![[Pasted image 20240417161847.png|300]]
 ![[Pasted image 20240417163859.png|300]]
-
-
+![[Pasted image 20240418163127.png]]
+(From Nathan Lambert's CS25 talk)
+![[Pasted image 20240418164208.png]]
+(From Nathan Lambert's CS25 talk)
+![[Pasted image 20240418170217.png]]
+(From Nathan Lambert's CS25 talk)
+![[Pasted image 20240418172936.png]]
+(From Nathan Lambert's CS25 talk)
+![[Pasted image 20240418173227.png]]
+(From Nathan Lambert's CS25 talk)

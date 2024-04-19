@@ -238,7 +238,7 @@ Beginning with a pretrained LLM, we iteratively:
 	2. Once the data has been collected, we use the comparison data to train a reward model that accurately predicts a human preference score given a summary produced by the LLM.
 		- ((I'm curious -- if we're creating a dataset of "good" and "bad" responses, how does it learn to classify a single response, when we use it as the reward model during the finetuning?))
 	3. From here, we use RL to finetune model: The authors use the PPO algorithm to finetune based on preference scores output by the reward model.
-		- Authors also add a [[KL Divergence]] term to the objective optimized by RL
+		- Authors also add a [[Kullback-Leibler Divergence]] term to the objective optimized by RL
 			- This penalizes the policy from being *too different* from the supervised baseline policy during RLHF -- such an approach encourages exploration without [[Mode Collapse]], and prevents summaries written by the LLM from becoming *too different* from those that are seen during training.
 ![[Pasted image 20240407201953.png]]
 
@@ -278,7 +278,7 @@ Looking forward:
 	- The distribution of use-cases that make up the data that's used to train the reward model. ((?))
 
 Beyond the basic RLHF methodology, we see a few interesting tricks used to improve the finetuning process:
-1. A [[KL Divergence]] term is added to the training objective used for RL, which keeps the resulting model from diverging too much from the SFT model.
+1. A [[Kullback-Leibler Divergence]] term is added to the training objective used for RL, which keeps the resulting model from diverging too much from the SFT model.
 2. ==More pretraining updates are "mixed in" to the optimization process during RLHF, which mitigates the [[Alignment Tax]] and maintains the model's performance across a wide set of natural language benchmarks.==
 
 > *"We were able to mitigate most of the performance degradations introduced by our fine-tuning. If this wasn't the case, these performance degradations would constitute an ==alignment tax== -- an additional cost for aligning the model."*
