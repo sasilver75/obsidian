@@ -5,7 +5,7 @@ aliases:
 May 23, 2023
 Paper: [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 Authors include [[Tim Dettmers]]
-
+See also: [[Low-Rank Adaptation|LoRA]], [[Parameter-Efficient Fine-Tuning]]
 
 ==This results in massive reductions in memory requirement -- enabling the training/fine-tuning of models as large as 70 billion parameters on just 2x NVIDIA RTX 3090s, which would originally take more than 16x A100-80GB GPUs!== It enables a finetuning of a 65B parameter model on a single 48GB GPU, while preserving full 16-bit fine-tuning task performance.
 

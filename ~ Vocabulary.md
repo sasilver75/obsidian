@@ -77,7 +77,7 @@
 - [[Prompting]]
 - [[Prompt Tuning]]
 - [[Feed-Forward Network]]
-- [[Chain of Thought]]
+- [[Chain of Thought]] (CoT)
 - [[Catastrophic Forgetting]]
 - [[Fine-Tuning]]
 - [[Instruction-Tuning]]
@@ -85,7 +85,7 @@
 - [[Transfer Learning]]
 - [[Retrieval-Augmented Generation]]
 - [[Autoencoder]]
-- [[Variational Autoencoder]]
+- [[Variational Autoencoder]] (VAE)
 - [[Beta-VAE]]
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
@@ -210,6 +210,7 @@
 - [[KV Cache]]
 - [[Negative Prompt]]
 - [[LLM-as-a-Judge]]
+- [[Continual Pretraining]]
 
 # Information Retrieval Concepts
 - [[BM25]]
@@ -288,6 +289,7 @@
 - [[DSPy]]
 - [[N-Gram]]
 - [[Coreference]], [[Coreference Resolution]]
+- [[Selective Language Modeling]] (SLM)
 # Computer Vision Concepts
 - [[Object Recognition]]
 - [[Segmentation Mask]]
@@ -425,6 +427,7 @@
 - [[GPT-NeoX]]
 - [[Gopher]]
 - [[AlphaCode]]
+- [[AlphaGeometry]]
 - [[MPT]]
 - [[OLMo]]
 - [[Zephyr]]
@@ -452,12 +455,16 @@
 - [[Command R]]
 - [[Command R+]]
 - [[Genstruct]]
-- [[Rho]]
+- [[Rho-1]]
 - [[Qwen]]
-- [[Qwen MoE]]
+- [[Qwen 2]]
+- [[Tulu]]
 - [[Tulu 2]]
-- [[OpenHermes 2]]
+- [[Hermes]]
 - [[DeepSeek Coder]]
+- [[DeepSeek Math]]
+- [[Ada-Instruct]]
+- [[Yi]]
 
 # Tools
 - [[ComfyUI]]
@@ -502,6 +509,7 @@
 - [[ChatBotArena]]
 - [[AlpacaEval]]
 - [[MT Bench]]
+- [[AGIEval]]
 
 # Datasets
 - [[CommonCrawl]]
@@ -523,6 +531,7 @@
 - [[Winogrande]]
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
+- [[RedPajama v2]]
 - [[Project Gutenberg]]
 - [[MassiveText]]
 - [[UltraChat]]
@@ -537,6 +546,7 @@
 - [[Stanford Human Preferences]]
 - [[Helpful and Harmless]] (HH)
 - [[Nectar]]
+- [[Tulu-v2-mix]]
 
 # Interpretability
 - Saliency Map
@@ -574,6 +584,7 @@
 - [[Adept]]
 - [[Contextual]]
 - [[Reka AI]]
+- [[Alibaba Research]]
 
 
 # People
