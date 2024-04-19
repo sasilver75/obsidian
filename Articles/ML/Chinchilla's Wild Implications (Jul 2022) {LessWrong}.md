@@ -78,7 +78,7 @@ The optimal amount of data for PaLM would have been around 6.7T tokens, around ~
 	- The data collection sequences of LM papers tend to be vague and slapdash, often failing to answer basic questions.
 
 ### Web Scrapes
-- If you just was *a lot of text*, the easiest way to get it is from web scrapes like [[CommonCrawl]] -- but ==these are infamously full of garbage -- if you want to train a good LM, you probably want to aggressively filter them for quality!==
+- If you just was *a lot of text*, the easiest way to get it is from web scrapes like [[Common Crawl]] -- but ==these are infamously full of garbage -- if you want to train a good LM, you probably want to aggressively filter them for quality!==
 ### MassiveWeb
 - The training dataset used for Gopher and Chinchilla is called MassiveText, and the web-scrape portion of it is called MassiveWeb. 
 	- This data originates from a mysterious, unspecified web-scrape, which is funneled through a series of filters, including quality heuristics and an attempt to only keep English text.
