@@ -1,1 +1,1 @@
-An [[Mixture of Experts|MoE]]  paper
+An [[Mixture-of-Experts|MoE]]  paper

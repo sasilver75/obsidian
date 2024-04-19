@@ -1,8 +1,9 @@
 
 # Blog Ideas
 - Embeddings (Different techniques, e.g. Matryoshka, Applications)
-- Tokenizers (BPE, SentencePiece, ...)
-- Synthetic Data (Self-Instruct, Evol-Instruct, Orca, etc.)
+- Tokenizers (BPE, SentencePiece, WordPiece, ...)
+- Synthetic Data (Self-Instruct, Evol-Instruct, OSS-Instruct, Orca, Orca2, Genstruct, Rephrasing the Web etc.)
+- Decoding Strategies (Greedy, TopK, TopP, MCTS-reward-model-guided, LaMBDA classifier decoding)
 
 # Project Ideas
 

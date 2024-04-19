@@ -16,7 +16,7 @@ As a result, ==compute and data== have become the primary bottleneck for trainin
 
 ((Above: I'm curious why training cost is lower ... Oh, well I guess I can see why. You still have to hold it all in memory, right? You just have fewer parameters to update on the backward pass.))
 
-[[Mixture of Experts]] layers are simple and let us increase the size/capacity of a language model without a corresponding increase in required compute!
+[[Mixture-of-Experts]] layers are simple and let us increase the size/capacity of a language model without a corresponding increase in required compute!
 - ==We just replace certain layers of the model with multiple copies of the layer -- called "experts" -- that have their own parameters.==
 - Then, ==we use a gating mechanism to (sparsely) select the experts used to process each input==!
 

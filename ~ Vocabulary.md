@@ -173,7 +173,7 @@
 - [[Quantized Low-Rank Adaptation]]
 - [[Scaling Laws]]
 - [[Synthetic Data]]
-- [[Mixture of Experts]] (MoE)
+- [[Mixture-of-Experts]] (MoE)
 - [[Soft Mixture of Experts]] (sMoE)
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
@@ -189,6 +189,7 @@
 - [[Grouped Query Attention]]
 - [[RingAttention]]
 - [[Evol-Instruct]]
+- [[OSS-Instruct]]
 - [[Imitation Learning]]
 - [[Automatic Mixed-Precision Training]]
 - [[Quantization-Aware Training]]
@@ -455,6 +456,8 @@
 - [[Qwen]]
 - [[Qwen MoE]]
 - [[Tulu 2]]
+- [[OpenHermes 2]]
+- [[DeepSeek Coder]]
 
 # Tools
 - [[ComfyUI]]
@@ -616,3 +619,6 @@
 - [[Jon Durbin]]
 - [[Jared Kaplan]]
 - [[Arthur Mensch]]
+- [[Quoc Le]]
+- [[Tri Dao]]
+- [[Tim Dettmers]]

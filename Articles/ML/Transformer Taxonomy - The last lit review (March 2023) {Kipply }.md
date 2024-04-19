@@ -95,7 +95,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 ### [[GLaM]] (Dec 2021, Google)
 1.2T parameters 
 - Named "Generalist Language Model"
-- A [[Mixture of Experts]] ==(MoE) model==, where parameters are sparsely activated.
+- A [[Mixture-of-Experts]] ==(MoE) model==, where parameters are sparsely activated.
 - Has 64 experts per layer, with each token activating 96.6B parameters.
 - Each layer has a gating unit which selects two (?) of the 64 MLPs per each token.
 ### LaMDA (Jan 2022, Google)
@@ -104,7 +104,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - Based model is often called "LaMBDA GLM" or "GLM-137B."
 	- LaMBDA itself adds a lot of dialog finetuning on top.
 ### [[Switch Transformer]] (June 2022, Google)
-- An improvement on [[GLaM]], SwitchTransformer is a== [[Mixture of Experts]] that only routes to *one* expert==, reducing the amount of compute on inference. 
+- An improvement on [[GLaM]], SwitchTransformer is a== [[Mixture-of-Experts]] that only routes to *one* expert==, reducing the amount of compute on inference. 
 - It uses a different routing mechanism, with the main update being that routing to a single expert *works*.
 ### [[BLOOM]]  (July 2022, [[HuggingFace]])
 176B params, 70 layers, 14336 embedding dimension, 112 heads
@@ -121,7 +121,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - [[Chinchilla]] replication; fairly standard training mix of mostly CommonCrawl.
 - Followed by [[LLaMA 2]], which had a permissive use license.
 ### Jurassic J1-Grande v2 (Dec 2022, [[AI21]])
-17B parameters
+178B parameters
 - An Israeli research lab; results look good for the size
 ### [[OPT]] (May 2022, [[Meta AI Research]])
 175B params; same architecture as GPT-3.
@@ -146,7 +146,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 	- ==Strided==, where it looks at the last N tokens
 	- ==Fixed==, where *sections* of tokens in the sequence are attended to.
 - Relevance: In the GPT-3 paper, the model is described to have alternative dense and "locally banded" sparse layers.
-### [[Mixture of Experts]]
+### [[Mixture-of-Experts]]
 - Technique where ==multiple expert networks are used to divide a problem space into subspaces==, with each expert network specializing in a specific subspace, and ==each input being routed to appropriate expert(s).== Lets models be pretrained with less compute, ==enabling the scaling up of the model or dataset size==.
 - Differs from ensemble techniques, in which all models are run on every input; Only 1-to-a-few models are run for each input in MoE.
 ### [[FlashAttention]]

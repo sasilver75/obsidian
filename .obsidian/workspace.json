@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f53e608793bb260e",
+            "id": "696089ee502c95bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "da9e6d48815ea19e",
+            "id": "6804fcad5b6f1783",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WizardLM.md",
+                "file": "Guanaco.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "5493cc1eabbcdf54",
+            "id": "b6e529b42538584f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Quantized Low-Rank Adaptation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,254 +47,19 @@
             }
           },
           {
-            "id": "7d1a6c0582f0934f",
+            "id": "71b9f584277cacad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evol-Instruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51af7671617d9df4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evol-Instruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7e8207b1a8f24d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evol-Instruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e68696a55405829",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "StarCoder 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87eacbfa8430c8ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "StarCoder.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "297d349fc36fe7cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ULMFiT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c9b044f21e584cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BYOL.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "159f5243a3dfb402",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SimCLR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34aa74c15e200ded",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBRX.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9065867d74d0d97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LIMA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8320817e2140e84f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Noam Shazeer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0b65a9550cad5f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiGLU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "485243197c2ea44e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Orca.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84050f93d860fc1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e254d40464e498ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BIG-Bench Hard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab8597dc6e78beab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a0f8cdfabb4d662",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zephyr.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94dd0ff9a63b012a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OLMo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ff1b100987abdc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Noam Shazeer.md",
+                "file": "Guanaco.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -323,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Jurassic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -362,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WizardLM.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -379,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WizardLM.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -402,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WizardLM.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -423,44 +188,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da9e6d48815ea19e",
+  "active": "696089ee502c95bf",
   "lastOpenFiles": [
+    "Guanaco.md",
+    "Quantized Low-Rank Adaptation.md",
     "~ Vocabulary.md",
-    "Arthur Mensch.md",
+    "Jurassic-1.md",
+    "CharacterAI.md",
+    "Noam Shazeer.md",
+    "Mixture-of-Experts.md",
+    "OpenHermes 2.md",
+    "Starling.md",
+    "Nectar.md",
+    "Magicoder.md",
+    "OSS-Instruct.md",
+    "StarCoder.md",
+    "WaveCoder.md",
+    "HuggingFace.md",
+    "WizardCoder.md",
+    "WizardLM 2.md",
     "WizardLM.md",
     "Evol-Instruct.md",
     "StarCoder 2.md",
-    "StarCoder.md",
-    "YOLO.md",
     "ULMFiT.md",
-    "BYOL.md",
     "SimCLR.md",
     "DBRX.md",
     "LIMA.md",
-    "Noam Shazeer.md",
-    "Orca 2.md",
-    "SwiGLU.md",
     "Orca.md",
-    "Noam Shamzeer.md",
     "BIG-Bench Hard.md",
-    "Distillation.md",
-    "Zephyr.md",
-    "OLMo.md",
+    "_attachments/Pasted image 20240419003444.png",
     "_attachments/Pasted image 20240418210352.png",
     "_attachments/Pasted image 20240418210350.png",
     "_attachments/Pasted image 20240418210313.png",
-    "Jared Kaplan.md",
-    "~ Ideas.md",
-    "Constitutional AI.md",
-    "Douwe Kiela.md",
-    "Soft Mixture of Experts.md",
     "_attachments/Pasted image 20240418173227.png",
     "_attachments/Pasted image 20240418173035.png",
     "_attachments/Pasted image 20240418172936.png",
     "_attachments/Pasted image 20240418172704.png",
     "_attachments/Pasted image 20240418172452.png",
     "_attachments/Pasted image 20240418172226.png",
-    "_attachments/Pasted image 20240418172122.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
