@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "696089ee502c95bf",
+            "id": "e8d1fd48f7b005d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "6804fcad5b6f1783",
+            "id": "0d0661c6c39184de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guanaco.md",
+                "file": "Hermes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "b6e529b42538584f",
+            "id": "897193d8cf456036",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quantized Low-Rank Adaptation.md",
+                "file": "Tulu-v2-mix.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,25 @@
             }
           },
           {
-            "id": "71b9f584277cacad",
+            "id": "d6bcd3a236dd9372",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guanaco.md",
+                "file": "Tulu.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f67f0e938c80deaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tulu 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Jurassic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +118,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,44 +200,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "696089ee502c95bf",
+  "active": "e8d1fd48f7b005d3",
   "lastOpenFiles": [
-    "Guanaco.md",
-    "Quantized Low-Rank Adaptation.md",
+    "Hermes.md",
+    "Tulu-v2-mix.md",
     "~ Vocabulary.md",
-    "Jurassic-1.md",
-    "CharacterAI.md",
-    "Noam Shazeer.md",
-    "Mixture-of-Experts.md",
-    "OpenHermes 2.md",
-    "Starling.md",
-    "Nectar.md",
-    "Magicoder.md",
-    "OSS-Instruct.md",
-    "StarCoder.md",
-    "WaveCoder.md",
-    "HuggingFace.md",
-    "WizardCoder.md",
+    "Tulu.md",
+    "Tulu 2.md",
+    "Alpaca.md",
+    "~ Useful Pictures.md",
     "WizardLM 2.md",
-    "WizardLM.md",
-    "Evol-Instruct.md",
-    "StarCoder 2.md",
-    "ULMFiT.md",
-    "SimCLR.md",
-    "DBRX.md",
-    "LIMA.md",
-    "Orca.md",
-    "BIG-Bench Hard.md",
+    "Selective Language Modeling.md",
+    "Rho-1.md",
+    "Genstruct.md",
+    "_attachments/Pasted image 20240419151848.png",
+    "Qwen 2.md",
+    "Qwen.md",
+    "Qwen MoE.md",
+    "Courses/CS25/CS24 V4 Lecture 3.md",
+    "_attachments/Pasted image 20240419150245.png",
+    "Qwen-VL.md",
+    "_attachments/Pasted image 20240419144029.png",
+    "Microsoft Research.md",
+    "Command R+.md",
+    "Command R.md",
+    "JetMoE.md",
+    "Jamba.md",
+    "AlphaGeometry.md",
+    "_attachments/Pasted image 20240419141139.png",
+    "_attachments/Pasted image 20240419140811.png",
+    "Guanaco.md",
+    "Low-Rank Adaptation.md",
+    "Quantized Low-Rank Adaptation.md",
+    "Red-Teaming.md",
     "_attachments/Pasted image 20240419003444.png",
     "_attachments/Pasted image 20240418210352.png",
     "_attachments/Pasted image 20240418210350.png",
     "_attachments/Pasted image 20240418210313.png",
     "_attachments/Pasted image 20240418173227.png",
-    "_attachments/Pasted image 20240418173035.png",
-    "_attachments/Pasted image 20240418172936.png",
-    "_attachments/Pasted image 20240418172704.png",
-    "_attachments/Pasted image 20240418172452.png",
-    "_attachments/Pasted image 20240418172226.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

@@ -268,9 +268,9 @@ Way more types of models, and types of players
 - [[OLMo]] from [[Allen Institute|AI2]]: Very open-source models with a bunch of information
 - Databricks [[DBRX]]
 - Cohere's [[Command R]] and [[Command R+]], the latter of which beat GPT-4 on human evaluations! 😮❗
-- Research models like Microsoft's [[Rho]] (reward model weighted pretraining)
+- Research models like Microsoft's [[Rho-1]] (reward model weighted pretraining)
 - Multilingual fine-tuning with Cohere's [[Aya]]
-- More MoE models: [[JetMoE]], [[Qwen MoE]]
+- More MoE models: [[JetMoE]], Qwen MoE
 - State-space model like [[Jamba]]
 
 ![[Pasted image 20240418172704.png]]
