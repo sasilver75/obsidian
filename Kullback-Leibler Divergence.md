@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Kullback-Leibler Divergence
+  - KL-Divergence
 ---
 References:
 - https://youtu.be/SxGYPqCgJWM?si=CKmBi34_mv0oayTZ
@@ -68,7 +68,7 @@ $D_KL(P||Q)$ is in some sense ==a natural way of measuring how far $Q$ is from $
 
 ==The common theme for most of these:==
 
-$D_KL(P||Q)$  -> [[KL Divergence]] is a measure of how much our model $Q$ differs from the true distribution $P$. In other words, we care about how much $P$ and $Q$ differ from eachother ***in the world where P is true***, which explains why KL-divergence is not symmetric!
+$D_KL(P||Q)$  -> [[Kullback-Leibler Divergence]] is a measure of how much our model $Q$ differs from the true distribution $P$. In other words, we care about how much $P$ and $Q$ differ from eachother ***in the world where P is true***, which explains why KL-divergence is not symmetric!
 
 
 ![[Pasted image 20240411185747.png]]

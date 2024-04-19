@@ -9,4 +9,6 @@ Paper Abstract:
 ![[Pasted image 20240415233101.png]]
 
 ![[Pasted image 20240418164722.png]]
-"How do we expand our data wi"
+"How do we expand our data without getting more humans in the loop?"
+- Start with high-quality, human prompts. Ask a strong LM to create a list of similar, but still diverse, prompts.
+- Once you have a list of prompts, use ChatGPT or another model to generate completions -- then you have a very big list of Q/A pairs, but you don't need to go through the bottleneck of having humans sit down and write down either.

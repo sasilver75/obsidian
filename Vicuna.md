@@ -9,3 +9,5 @@ Abstract
 > We introduce ==Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT==. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B ==achieves more than 90%* quality of OpenAI ChatGPT== and Google Bard while outperforming other models like LLaMA and Stanford Alpaca in more than 90%* of cases. The cost of training Vicuna-13B is around ==$300==. The [code](https://github.com/lm-sys/FastChat) and [weights](https://github.com/lm-sys/FastChat#vicuna-weights), along with an online [demo](https://chat.lmsys.org/), are publicly available for non-commercial use.
 
 
+![[Pasted image 20240418165458.png]]
+

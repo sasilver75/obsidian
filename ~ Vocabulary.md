@@ -48,18 +48,18 @@
 
 # Machine Learning
 - [[Graph Neural Network]]
-- [[Long Short Term Memory|LSTM]]
+- [[Long Short Term Memory]] (LSTM)
 - [[Gradient Clipping]]
 - [[Gradual Unfreezing]]
 - [[Discriminative Learning Rate]]
-- [[Gated Recurrent Unit|GRU]]
+- [[Gated Recurrent Unit]] (GRU)
 - [[In-Context Learning]]
 - [[Few-Shot Learning]]
 - [[Teacher Forcing]] vs [[Student Forcing]]
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
 - [[Alignment]]
-- [[KL Divergence]]
+- [[Kullback-Leibler Divergence]]
 - [[Entropy]]
 - [[Mutual Information]]
 - [[Cross-Entropy]]
@@ -195,11 +195,18 @@
 - [[Out-of-Bag Error]]
 - [[Boosting]]
 - [[Direct Preference Optimization]] (DPO)
+- [[Conservative Direct Preference Optimization]] (cDPO)
+- [[Identity-Mapping Preference Optimization]] (IPO)
+- [[Binary Classifier Optimization]] (BCO)
+- [[Kahneman-Tversky Optimization]] (KTO)
+- [[Direct Nash Optimization]] (DNO)
+- [[Stepwise Direct Preference Optimization]] (sDPO)
 - [[Odds Ratio Preference Optimization]] (ORPO)
 - [[Trust Region Policy Optimization]]
 - [[Self-Consistency]]
 - [[KV Cache]]
 - [[Negative Prompt]]
+- [[LLM-as-a-Judge]]
 
 # Information Retrieval Concepts
 - [[BM25]]
@@ -403,6 +410,8 @@
 - [[Gemma]]
 - [[Alpaca]]
 - [[Vicuna]]
+- [[Koala]]
+- [[Dolly]]
 - [[RWKV]]
 - [[Codex]]
 - [[Minerva]]
@@ -425,13 +434,25 @@
 - [[ULMFiT]]
 - [[StarCoder]]
 - [[StarCoder 2]]
+- [[WizardLM]]
+- [[WizardLM 2]]
 - [[WizardCoder]]
 - [[WaveCoder]]
 - [[Magicoder]]
 - [[Starling]]
+- [[SteerLM]]
 - [[Jurassic-1]]
 - [[LaMDA]]
 - [[Pile-T5]]
+- [[Guanaco]]
+- [[JetMoE]]
+- [[Command R]]
+- [[Command R+]]
+- [[Genstruct]]
+- [[Rho]]
+- [[Qwen]]
+- [[Qwen MoE]]
+- [[Tulu 2]]
 
 # Tools
 - [[ComfyUI]]
@@ -465,8 +486,6 @@
 - [[SWAG]]
 - [[HellaSWAG]]
 - [[MNLI]]
-- [[AlpacaEval]]
-- [[MT Bench]]
 - [[Paloma]]
 - [[BEIR]]
 - [[GPQA]]
@@ -474,6 +493,9 @@
 - [[VQAv2]]
 - [[MMMU]]
 - [[HotpotQA]]
+- [[ChatBotArena]]
+- [[AlpacaEval]]
+- [[MT Bench]]
 
 # Datasets
 - [[CommonCrawl]]
@@ -481,6 +503,7 @@
 - [[Webtext]], OpenWebtext2
 - [[The Stack]]
 - [[The Stack v2]]
+- [[ShareGPT]]
 - [[The Pile]]
 - [[LAION]]
 - [[Whisper]]
@@ -504,6 +527,10 @@
 - [[Capybara]]
 - [[Cosmopedia]]
 - [[FineWeb]]
+- [[OpenAssistant]]
+- [[Stanford Human Preferences]]
+- [[Helpful and Harmless]] (HH)
+- [[Nectar]]
 
 # Interpretability
 - Saliency Map
@@ -539,7 +566,7 @@
 - [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST)
 - [[Adept]]
 - [[Contextual]]
-- [[Rek AI]]
+- [[Reka AI]]
 
 
 # People
@@ -581,4 +608,5 @@
 - [[Alec Radford]]
 - [[Christopher Potts]]
 - [[Yi Tay]]
-- 
+- [[Maxime Labonne]]
+- [[Jon Durbin]]

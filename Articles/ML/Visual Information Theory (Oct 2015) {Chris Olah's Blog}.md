@@ -229,7 +229,7 @@ To keep the cost of communications down, let's ask Alice to use *her own code!*
 
 The interesting thing is the ==difference between the entropy and the cross-entropy==.
 - This difference is how much longer our messages are because we used a code optimized for a different distribution -- ==in another word, the "excess" length by using the "wrong" encoding for our messages==.
-	- This difference is called the [[KL Divergence|Kullback-Leibler Divergence]], or ==KL Divergence==.
+	- This difference is called the [[Kullback-Leibler Divergence|Kullback-Leibler Divergence]], or ==KL Divergence==.
 
 The KL Divergence of *p* with respect to *q* is defined as:
 $D_q(p) = H_q(p) - H(p)$

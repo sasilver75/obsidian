@@ -23,7 +23,7 @@ Now, we'll dive into the algorithm that lays the foundation for language model a
 - In this section, we'll:
 	1. Briefly cover the RL algorithms we've learned so far, focusing on their limitations.
 	2. Overview the problem setup of RL for language model alignment, which we'll use as relevant context when learning about new algorithms.
-	3. Learn about [[KL Divergence]], a useful concept for both RL and Machine Learning in general.
+	3. Learn about [[Kullback-Leibler Divergence]], a useful concept for both RL and Machine Learning in general.
 
 ### What have we learned so far?
 ![[Pasted image 20240209225304.png]]
@@ -62,7 +62,7 @@ What we want is an RL algorithm that is:
 	- TRPO thus allows us to learn faster by finding a reliable way to make larger policy updates that don't damage performance.
 
 TRPO Formulation
-- We update the policy under a constraint based on the [[KL Divergence]], which captures the distance between policies before and after the current update.
+- We update the policy under a constraint based on the [[Kullback-Leibler Divergence]], which captures the distance between policies before and after the current update.
 - Considering this constraint allows us to find a balance between the update size and hte amount of change to the underlying policy.
 
 ![[Pasted image 20240409172501.png]]
