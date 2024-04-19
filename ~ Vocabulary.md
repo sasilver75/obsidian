@@ -13,9 +13,9 @@
 - [[Transpose]] (and Symmetric matrices)
 
 # Probability/Statistics
-- 
+- ...
 
-# Analytics
+# Analytics/Misc
 - [[Type One Error]]
 - [[Type Two Error]]
 - [[Precision]]
@@ -46,7 +46,7 @@
 - [[Content-Based Filtering]]
 
 
-# Machine Learning
+# Machine Learning/General
 - [[Graph Neural Network]]
 - [[Long Short Term Memory]] (LSTM)
 - [[Gradient Clipping]]
@@ -124,6 +124,7 @@
 - [[Region-Based Convolutional Neural Network]]
 - [[Vanishing Gradients]], [[Exploding Gradients]]
 - [[Distillation]]
+- [[Context Distillation]]
 - [[Self-Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
@@ -172,7 +173,8 @@
 - [[Quantized Low-Rank Adaptation]]
 - [[Scaling Laws]]
 - [[Synthetic Data]]
-- [[Mixture of Experts]]
+- [[Mixture of Experts]] (MoE)
+- [[Soft Mixture of Experts]] (sMoE)
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
 - [[RMSNorm]]
@@ -477,6 +479,7 @@
 - [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
 - [[HumanEval]]
 - [[BIG-Bench]]
+- [[BIG-Bench Hard]]
 - [[SWE-bench]]
 - [[GAIA]]
 - [[DAWNBench]]
@@ -538,6 +541,7 @@
 
 # Entities
 - [[Cohere]]
+- [[CharacterAI]]
 - [[TogetherAI]]
 - [[OpenAI]]
 - [[Anthropic]]
@@ -610,3 +614,5 @@
 - [[Yi Tay]]
 - [[Maxime Labonne]]
 - [[Jon Durbin]]
+- [[Jared Kaplan]]
+- [[Arthur Mensch]]

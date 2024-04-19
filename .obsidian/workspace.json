@@ -4,155 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "18429e2534d32997",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3118356e9450cc1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd037ecfa61d2f5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AlpacaEval.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49895303ec3cd672",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ffbe4dee73db098",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68eaaee104c55973",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Guanaco.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d738dfd01d6bb5a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Helpful and Harmless.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4bf65792c3f4adc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stanford Human Preferences.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c45bd6116e6671b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenAssistant.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78cdb11f75f26960",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ShareGPT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04616fc2c399b2af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Instruction-Tuning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb106ec9098806b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constitutional AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "c8309192f8f15eed",
         "type": "tabs",
         "children": [
@@ -162,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -170,7 +21,20 @@
             }
           },
           {
-            "id": "b48da4b9479fb55b",
+            "id": "da9e6d48815ea19e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WizardLM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5493cc1eabbcdf54",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,12 +47,12 @@
             }
           },
           {
-            "id": "ea5d6fbf0bb5cbfd",
+            "id": "7d1a6c0582f0934f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Genstruct.md",
+                "file": "Evol-Instruct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -196,7 +60,163 @@
             }
           },
           {
-            "id": "c5eaaa1392e6c53e",
+            "id": "51af7671617d9df4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Evol-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7e8207b1a8f24d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Evol-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e68696a55405829",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "StarCoder 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87eacbfa8430c8ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "StarCoder.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "297d349fc36fe7cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ULMFiT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c9b044f21e584cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BYOL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "159f5243a3dfb402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SimCLR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34aa74c15e200ded",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBRX.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9065867d74d0d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LIMA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8320817e2140e84f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Noam Shazeer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0b65a9550cad5f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwiGLU.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "485243197c2ea44e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Orca.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84050f93d860fc1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -209,12 +229,12 @@
             }
           },
           {
-            "id": "96a42d0ee8255d7b",
+            "id": "e254d40464e498ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dolly.md",
+                "file": "BIG-Bench Hard.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -222,12 +242,12 @@
             }
           },
           {
-            "id": "84ae13aa7173959c",
+            "id": "ab8597dc6e78beab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kullback-Leibler Divergence.md",
+                "file": "Distillation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -235,12 +255,12 @@
             }
           },
           {
-            "id": "520b922c08a3f7b7",
+            "id": "5a0f8cdfabb4d662",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kullback-Leibler Divergence.md",
+                "file": "Zephyr.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -248,12 +268,12 @@
             }
           },
           {
-            "id": "bc679adaf746e6df",
+            "id": "94dd0ff9a63b012a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kahneman-Tversky Optimization.md",
+                "file": "OLMo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -261,58 +281,20 @@
             }
           },
           {
-            "id": "ab68086d79f53c09",
+            "id": "8ff1b100987abdc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Odds Ratio Preference Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d966fe46698df60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Binary Classifier Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ef7897027fb85eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Identity-Mapping Preference Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84eb75e14ce887f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conservative Direct Preference Optimization.md",
+                "file": "Noam Shazeer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -380,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
+                "file": "WizardLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -397,7 +379,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
+                "file": "WizardLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -420,7 +402,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS25/CS24 V4 Lecture 3.md"
+                "file": "WizardLM.md"
               }
             }
           }
@@ -441,33 +423,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3118356e9450cc1b",
+  "active": "da9e6d48815ea19e",
   "lastOpenFiles": [
-    "~ Useful Pictures.md",
-    "Courses/CS25/CS24 V4 Lecture 3.md",
     "~ Vocabulary.md",
-    "Genstruct.md",
-    "Starling.md",
-    "SteerLM.md",
-    "Tulu 2.md",
+    "Arthur Mensch.md",
+    "WizardLM.md",
+    "Evol-Instruct.md",
+    "StarCoder 2.md",
+    "StarCoder.md",
+    "YOLO.md",
+    "ULMFiT.md",
+    "BYOL.md",
+    "SimCLR.md",
+    "DBRX.md",
+    "LIMA.md",
+    "Noam Shazeer.md",
+    "Orca 2.md",
+    "SwiGLU.md",
+    "Orca.md",
+    "Noam Shamzeer.md",
+    "BIG-Bench Hard.md",
+    "Distillation.md",
     "Zephyr.md",
-    "Direct Preference Optimization.md",
-    "Reinforcement Learning from Human Feedback.md",
-    "Conservative Direct Preference Optimization.md",
-    "OpenAssistant.md",
-    "Dolly.md",
-    "Vicuna.md",
-    "Koala.md",
-    "Alpaca.md",
-    "Direct Nash Optimization.md",
-    "Stepwise Direct Preference Optimization.md",
+    "OLMo.md",
+    "_attachments/Pasted image 20240418210352.png",
+    "_attachments/Pasted image 20240418210350.png",
+    "_attachments/Pasted image 20240418210313.png",
+    "Jared Kaplan.md",
+    "~ Ideas.md",
     "Constitutional AI.md",
-    "Kullback-Leibler Divergence.md",
-    "Kahneman-Tversky Optimization.md",
-    "Odds Ratio Preference Optimization.md",
-    "Binary Classifier Optimization.md",
-    "Identity-Mapping Preference Optimization.md",
-    "AlpacaEval.md",
+    "Douwe Kiela.md",
+    "Soft Mixture of Experts.md",
     "_attachments/Pasted image 20240418173227.png",
     "_attachments/Pasted image 20240418173035.png",
     "_attachments/Pasted image 20240418172936.png",
@@ -475,10 +461,6 @@
     "_attachments/Pasted image 20240418172452.png",
     "_attachments/Pasted image 20240418172226.png",
     "_attachments/Pasted image 20240418172122.png",
-    "_attachments/Pasted image 20240418172026.png",
-    "_attachments/Pasted image 20240418171918.png",
-    "_attachments/Pasted image 20240418171818.png",
-    "Guanaco.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
