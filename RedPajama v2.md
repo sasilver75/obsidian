@@ -10,7 +10,7 @@ Many other projects like [[C4]], [[RedPajama]], [[RefinedWeb]], [[Dolma]] cover 
 - More importantly, we provide ==40+ quality annotations== — the result of different ML classifiers on data quality, minhash results that can be used for fuzzy deduplication, or heuristics such as “the fraction of words that contain no alphabetical character”.
 - These annotations provide a way for an LLM developer to easily slice and filter the data, combining these into a new data quality pipeline to create their own pre-training dataset.
 
-The authors note that other data sources like Wikipedia are available in RedPajama-V1, and they encourage us to enrich our data mixtures with [[The Stack]] for code and [[s2orc]] for scientific articles.
+The authors note that other data sources like Wikipedia are available in RedPajama-V1, and they encourage us to enrich our data mixtures with [[The Stack]] for code and [[S2ORC]] for scientific articles.
 
 They use [[CCNet]] pipelines (due to light processing), and keep five languages in this release (English, French, Spanish, Italian, German).
 
