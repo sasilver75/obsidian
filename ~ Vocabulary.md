@@ -522,7 +522,6 @@
 - [[ChatBot Arena]]
 - [[MT Bench]]
 - [[AlpacaEval]]
-- 
 - [[AGIEval]]
 - [[Super-NaturalInstructions]]
 # Datasets

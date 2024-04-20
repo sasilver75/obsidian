@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "ecc6bf4f77fafd44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Super-NaturalInstructions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d15c4e0022856c9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGIEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8ebce5c7ea92664f",
             "type": "leaf",
             "state": {
@@ -528,10 +554,12 @@
   },
   "active": "6ac40c6bad18982e",
   "lastOpenFiles": [
+    "Super-NaturalInstructions.md",
+    "~ Vocabulary.md",
+    "AGIEval.md",
     "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "LLMs Self-Improving.md",
     "AlpacaEval.md",
-    "~ Vocabulary.md",
     "MT Bench.md",
     "_attachments/Pasted image 20240420155130.png",
     "ChatBot Arena.md",
@@ -562,8 +590,6 @@
     "_attachments/Pasted image 20240420144338.png",
     "GLUE.md",
     "SuperGLUE.md",
-    "HELM.md",
-    "DAWNBench.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
