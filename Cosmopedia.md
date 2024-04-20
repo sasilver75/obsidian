@@ -1,7 +1,7 @@
 March 20, 2024 -- [[HuggingFace]]
 Blog Post: [Cosmopedia: How to create Large-Scale Synthetic Data for Pretraining](https://huggingface.co/blog/cosmopedia)
 r/LocalLLaMA reaction, which you should read: [Thread](https://www.reddit.com/r/LocalLLaMA/comments/1avqw1a/huggingface_releases_cosmopedia_the_largest/)
-
+- It seems like perhaps some of these people have a severe reaction.
 # Blog Post excerpts
 > This post outlines the challenges/solutions involved in ==generating a synthetic dataset with billions of tokens== to replicate [[Phi-1.5]], leading to the creation of [[Cosmopedia]].
 

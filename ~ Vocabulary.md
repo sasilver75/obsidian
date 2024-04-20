@@ -504,7 +504,6 @@
 - [[BIG-Bench]]
 - [[BIG-Bench Hard]]
 - [[SWE-bench]]
-- [[GAIA]]
 - [[DAWNBench]]
 - [[HELM]]
 - [[GLUE]]
@@ -559,9 +558,12 @@
 - [[Nectar]]
 - [[Tulu-v2-sft-mixture]]
 - [[S2ORC]]
+- [[Unnatural Instructions]]
 - [[OpenHermes Dataset]]
 - [[OpenHermes2.5 Dataset]]
 - [[FLAN v2]]
+- [[OpenOrca Dataset]]
+- [[SlimOrca]]
 
 # Interpretability
 - Saliency Map
