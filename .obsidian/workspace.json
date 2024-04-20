@@ -21,6 +21,162 @@
             }
           },
           {
+            "id": "83d32d5d460c5e78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cosmopedia.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "927db96354fe675a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RefinedWeb.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa88580286b814c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS224N/CS224N Lecture 10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e817fef660140f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RefinedWeb.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4f411ce0868d0fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dolma.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6762d0a7172101a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nous Research.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb8971cb464ed666",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UltraFeedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b243380206935d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UltraChat.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b29e75cc42529c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MassiveText.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8bcb3fc7559d954",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gopher.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a860148e64ab763c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gopher.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41eda56bed2d2a54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project Gutenberg.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7bcc695117061950",
             "type": "leaf",
             "state": {
@@ -267,7 +423,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -335,7 +492,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Cosmopedia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -352,7 +509,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Cosmopedia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,7 +532,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Cosmopedia.md"
               }
             }
           }
@@ -396,10 +553,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e8d1fd48f7b005d3",
+  "active": "83d32d5d460c5e78",
   "lastOpenFiles": [
-    "s2orc.md",
+    "_attachments/Pasted image 20240420011015.png",
+    "_attachments/Pasted image 20240420010821.png",
+    "_attachments/Pasted image 20240420010336.png",
+    "RefinedWeb.md",
+    "Cosmopedia.md",
     "~ Vocabulary.md",
+    "The Pile.md",
+    "_attachments/Pasted image 20240420005242.png",
+    "_attachments/Pasted image 20240420005006.png",
+    "Super-NaturalInstructions.md",
+    "Courses/CS224N/CS224N Lecture 10.md",
+    "Dolma.md",
+    "Nous Research.md",
+    "UltraFeedback.md",
+    "UltraChat.md",
+    "MassiveText.md",
+    "_attachments/Pasted image 20240419234617.png",
+    "Gopher.md",
+    "Project Gutenberg.md",
+    "s2orc.md",
     "RedPajama v2.md",
     "RedPajama.md",
     "MS MARCO.md",
@@ -409,31 +584,13 @@
     "Winograd.md",
     "MMC4.md",
     "LAION-5B.md",
-    "The Pile.md",
     "LAION-400M.md",
     "VLM.md",
     "TinyStories.md",
-    "National Institute of Standards and Technology.md",
-    "MNIST.md",
     "_attachments/Pasted image 20240419212119.png",
-    "CIFAR-10.md",
-    "LAION.md",
     "_attachments/Pasted image 20240419210949.png",
-    "Webtext.md",
-    "ShareGPT.md",
-    "Alpaca.md",
-    "Self-Instruct.md",
-    "The Stack v2.md",
-    "StarCoder 2.md",
-    "The Stack.md",
     "_attachments/Pasted image 20240419194948.png",
-    "GPT-2.md",
     "_attachments/Pasted image 20240419151848.png",
-    "_attachments/Pasted image 20240419150245.png",
-    "_attachments/Pasted image 20240419144029.png",
-    "_attachments/Pasted image 20240419141139.png",
-    "_attachments/Pasted image 20240419140811.png",
-    "_attachments/Pasted image 20240419003444.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

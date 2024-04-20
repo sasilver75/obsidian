@@ -11,3 +11,7 @@ Many other projects like [[C4]], [[RedPajama]], [[RefinedWeb]], [[Dolma]] cover 
 - These annotations provide a way for an LLM developer to easily slice and filter the data, combining these into a new data quality pipeline to create their own pre-training dataset.
 
 The authors note that other data sources like Wikipedia are available in RedPajama-V1, and they encourage us to enrich our data mixtures with [[The Stack]] for code and [[s2orc]] for scientific articles.
+
+They use [[CCNet]] pipelines (due to light processing), and keep five languages in this release (English, French, Spanish, Italian, German).
+
+==There's some really great information in this blog post, I encourage me to read it later!==

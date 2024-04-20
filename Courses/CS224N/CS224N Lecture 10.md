@@ -100,7 +100,7 @@ Is Prompt Engineering becoming a new profession?
 ![[Pasted image 20240410205959.png]]
 
 ![[Pasted image 20240410213005.png]]
-[[SuperNaturalInstructions]] dataset!
+[[Super-NaturalInstructions]] dataset!
 
 How do we evaluate such a model that's been instruction-tuned?
 
