@@ -374,7 +374,10 @@
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]
 - [[RoBERTa]]
-- [[GPT]]
+- [[GPT-2]]
+- [[GPT-3]]
+- [[GPT-3.5]]
+- [[GPT-4]]
 - [[Megatron]]
 - [[Word2Vec]]
 	- [[Skip-Gram]]
@@ -467,6 +470,10 @@
 - [[DeepSeek-Math]]
 - [[Ada-Instruct]]
 - [[Yi]]
+- [[ALIGN]]
+- [[GLIDE]]
+- [[ImageBind]]
+- [[Imagen]]
 
 # Tools
 - [[ComfyUI]]
@@ -487,6 +494,7 @@
 - [[Lighteval]]
 - [[ChatML]]
 - [[Airoboros]]
+- [[CCNet]]
 
 # Benchmarks, Evaluations
 - [[GAIA]]: A benchmark for General AI Assistants
@@ -518,23 +526,22 @@
 # Datasets
 - [[Common Crawl]]
 - [[C4]] (improvement of CommonCrawl)
-- [[Webtext]], OpenWebtext2
+- [[Webtext]]
 - [[The Stack]]
 - [[The Stack v2]]
 - [[ShareGPT]]
 - [[The Pile]]
-- [[LAION]]
-- [[Whisper]]
 - [[CIFAR-10]]
 - [[MNIST]]
 - [[TinyStories]] (The Phi-1.5, Phi-2 dataset)
-- [[LAION]]
-	- LAION-COCO
+- [[LAION-400M]]
+- [[LAION-5B]]
 - [[MMC4]] (Multimodal C4)
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
+- [[SlimPajama]]
 - [[RedPajama v2]]
 - [[Project Gutenberg]]
 - [[MassiveText]]
@@ -550,6 +557,7 @@
 - [[Helpful and Harmless]] (HH)
 - [[Nectar]]
 - [[Tulu-v2-mix]]
+- [[s2orc]]
 
 # Interpretability
 - Saliency Map
@@ -563,7 +571,6 @@
 - [[Anthropic]]
 - [[Google Brain]]
 - [[HuggingFace]]
-- [[Cohere]]
 - [[Inflection]] (RIP, March 2024)
 - [[DeepMind]]
 - [[Allen Institute]] (AI2)
@@ -590,6 +597,9 @@
 - [[Alibaba Research]]
 - [[DeepSeek]]
 - [[01.AI]]
+- [[LAION]]
+- [[National Institute of Standards and Technology]] (NIST)
+- [[Cerebras]]
 
 
 # People
@@ -638,3 +648,5 @@
 - [[Quoc Le]]
 - [[Tri Dao]]
 - [[Tim Dettmers]]
+- [[Dario Amodei]]
+- [[Alex Krizhevsky]]

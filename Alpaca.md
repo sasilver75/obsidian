@@ -1,7 +1,7 @@
 March 13, 2023
 Blog: [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html)
 
-A 7B [[Decoder-Only Architecture]] language model based on [[LLaMA]] 7B, [[Instruction-Tuning|Instruction-Tuned]] using 52k instruction-following demonstrations generated from OpenAI's text-davinci-003 (~[[GPT-3.5]]). Doesn't have a commercial license, because LLaMA didn't. Started a mini-craze of open-source model fine-tuning. Trained at Stanford.
+A 7B [[Decoder-Only Architecture]] language model based on [[LLaMA]] 7B, [[Instruction-Tuning|Instruction-Tuned]] using 52k instruction-following demonstrations generated from OpenAI's text-davinci-003 (~[[GPT-3.5]]) using the style of [[Self-Instruct]]. Doesn't have a commercial license, because LLaMA didn't. Started a mini-craze of open-source model fine-tuning. Trained at Stanford.
 
 "Alpaca" often refers both to the model as well as the synthetic dataset that it was trained on.
 
