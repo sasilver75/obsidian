@@ -164,8 +164,7 @@ The metric above can give us a good idea of how well a language model "fits" the
 
 #### Perplexity Evaluation
 - ==To perform perplexity-based evaluation, authors construct an evaluation dataset called Perplexity Analysis for Language Model Assessment ([[Paloma]]) by aggregating textual sequences from a diverse set of 585 domains collected across 18 different sources of textual data==, and evaluate the LLM by measuring perplexity on textual sequences from this dataset.
-- Compared to prior work, Paloma significantly improves the diversity of perplexity-based evaluation benchmarks, allowing us to determine whether an LLM can accurately model text across a wide variety of domains.
-	- Paloma significantly improves the *diversity* of perplexity-based evaluation benchmarks, allowing us to determine whether an LLM can accurately model text across a variety of domains.
+- Compared to prior work, Paloma significantly improves the *diversity* of perplexity-based evaluation benchmarks, allowing us to determine whether an LLM can accurately model text across a wide variety of domains.
 
 #### Downstream task evaluation
 - While perplexity-based evaluations are useful for understanding whether an LLM understands a doamin of text well (eg measuring perplexity over a corpus of scientific publications to determine if the LLM captures this data), but ==perplexity-based evaluations fail to directly measure how well an LLM performs on downstream tasks!==
