@@ -518,9 +518,11 @@
 - [[VQAv2]]
 - [[MMMU]]
 - [[HotpotQA]]
-- [[ChatBotArena]]
-- [[AlpacaEval]]
+- [[SQuAD]]
+- [[ChatBot Arena]]
 - [[MT Bench]]
+- [[AlpacaEval]]
+- 
 - [[AGIEval]]
 - [[Super-NaturalInstructions]]
 # Datasets
@@ -570,89 +572,90 @@
 - Probe
 
 # Entities
-- [[Cohere]]
-- [[CharacterAI]]
-- [[TogetherAI]]
-- [[OpenAI]]
-- [[Anthropic]]
-- [[Google Brain]]
-- [[HuggingFace]]
-- [[Inflection]] (RIP, March 2024)
-- [[DeepMind]]
-- [[Allen Institute]] (AI2)
-- [[AI21]]
-- [[Microsoft Research]] (MSR)
-- [[Stanford AI Lab]] (SAIL)
-- [[Berkeley AI Research Lab]] (BAIR)
-- [[Snorkel AI]]
-- [[Meta AI Research]] (FAIR)
-- [[Mistral]]
-- [[Nvidia]]
-- [[Center for Research on Foundation Models]] (CRFM)
-- [[Alignment Research Center]] (ARC)
-- [[Model Evaluation and Threat Research]] (METR)
-- [[Machine Intelligence Research Institute]] (MIRI)
-- [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)
-- [[MosaicML]]
-- [[DataBricks]]
-- [[Nous Research]]
-- [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST)
-- [[Adept]]
-- [[Contextual]]
-- [[Reka AI]]
-- [[Alibaba Research]]
-- [[DeepSeek]]
-- [[01.AI]]
-- [[LAION]]
-- [[National Institute of Standards and Technology]] (NIST)
-- [[Cerebras]]
+- [[Cohere]]  📝
+- [[CharacterAI]]  💁‍♀️
+- [[TogetherAI]]  🤝
+- [[OpenAI]]  👺
+- [[Anthropic]]  👨
+- [[Google Brain]]  🧠
+- [[HuggingFace]] 🤗
+- [[Inflection]] ☠️
+- [[DeepMind]]  🧠
+- [[Allen Institute]] (AI2)  🎓
+- [[AI21]]  🇮🇱
+- [[Microsoft Research]] (MSR)  🌲
+- [[Stanford AI Lab]] (SAIL)  ⛵︎
+- [[Berkeley AI Research Lab]] (BAIR)  🐻
+- [[Snorkel AI]]  🤿
+- [[Meta AI Research]] (FAIR)  🧑‍💻
+- [[Mistral]]  🇫🇷
+- [[Nvidia]]  🤑
+- [[Center for Research on Foundation Models]] (CRFM)  🔬
+- [[Alignment Research Center]] (ARC)  🙀
+- [[Model Evaluation and Threat Research]] (METR) ❗
+- [[Machine Intelligence Research Institute]] (MIRI)  🔥
+- [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)  🤖
+- [[MosaicML]]  🌭
+- [[DataBricks]]  🧱
+- [[Nous Research]] 🛠️
+- [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST) 🇰🇷
+- [[Adept]]  🕵️
+- [[Contextual]]  📝
+- [[Reka AI]]  ❓
+- [[Alibaba Research]]  🇨🇳💰
+- [[DeepSeek]] 🇨🇳🧑‍💻
+- [[01.AI]]  🇨🇳
+- [[LAION]]  💽
+- [[National Institute of Standards and Technology]] (NIST)  👮‍♂️
+- [[Cerebras]]  🟧
+- [[LMSYS]] ⚔️
 
 
 # People
-- [[Noam Shazeer]]
-- [[Nathan Lambert]] (Nato)
-- [[Daphne Koeller]]
-- [[Melanie Mitchell]]
-- [[Percy Liang]]
-- [[Ilya Sutskever]]
-- [[Greg Brockman]]
-- [[Sam Altman]]
-- [[Clem Delangue]]
-- [[Mustafa Suleyman]]
-- [[Demis Hassabis]]
-- [[Geoff Hinton]]
-- [[Fei-Fei Li]]
-- [[Yann LeCun]]
-- [[Jeremy Howard]]
-- [[Andrej Karpathy]]
-- [[Andrew Ng]]
-- [[Yoshua Bengio]]
-- [[Jurgen Schmidhuber]]
-- [[Stuart Russell]]
-- [[Peter Norvig]]
-- [[Richard Sutton]]
-- [[Pieter Abbeel]]
-- [[Yejin Choi]]
-- [[Paul Christiano]]
-- [[Ludwig Schmidt]]
-- [[Chris Ré]]
-- [[Alex Ratner]]
-- [[Sasha Rush]]
-- [[Jonathan Frankle]]
-- [[Sara Hooker]]
-- [[Stephen Bach]]
-- [[Ishan Misra]]
-- [[Sebastian Ruder]]
-- [[Douwe Kiela]]
-- [[Alec Radford]]
-- [[Christopher Potts]]
-- [[Yi Tay]]
-- [[Maxime Labonne]]
-- [[Jon Durbin]]
-- [[Jared Kaplan]]
-- [[Arthur Mensch]]
-- [[Quoc Le]]
-- [[Tri Dao]]
-- [[Tim Dettmers]]
-- [[Dario Amodei]]
-- [[Alex Krizhevsky]]
+- [[Noam Shazeer]]  🧝
+- [[Nathan Lambert]]  ⚗️
+- [[Daphne Koeller]] 👩
+- [[Melanie Mitchell]] 👩
+- [[Percy Liang]] 🧍
+- [[Ilya Sutskever]] 👣
+- [[Greg Brockman]] 🗿
+- [[Sam Altman]] 👹
+- [[Clem Delangue]] 🤗
+- [[Mustafa Suleyman]] 🤡
+- [[Demis Hassabis]] ♟️
+- [[Geoff Hinton]] 👨‍🦳
+- [[Fei-Fei Li]] 🥰
+- [[Yann LeCun]] 🇨🇦
+- [[Jeremy Howard]] 👨‍🔬
+- [[Andrej Karpathy]] 🐐
+- [[Andrew Ng]] 🤴
+- [[Yoshua Bengio]] 🙀
+- [[Jurgen Schmidhuber]] 🧌
+- [[Stuart Russell]] 👨‍🦳
+- [[Peter Norvig]] 👨‍🦳
+- [[Richard Sutton]] 👨‍🦳
+- [[Pieter Abbeel]] 🤖
+- [[Yejin Choi]] 🎿
+- [[Paul Christiano]] 🚨
+- [[Ludwig Schmidt]] 😎
+- [[Chris Ré]] 🧠
+- [[Alex Ratner]] 🤿
+- [[Sasha Rush]] 👨‍🏫
+- [[Jonathan Frankle]] 🌭
+- [[Sara Hooker]] 🪝
+- [[Ishan Misra]] 👁️
+- [[Sebastian Ruder]] 🧑‍🏫
+- [[Douwe Kiela]] 📝
+- [[Alec Radford]] 🐐
+- [[Christopher Potts]] 🧑‍🏫
+- [[Yi Tay]] 👨‍🔬
+- [[Maxime Labonne]] 👨‍🔬
+- [[Jon Durbin]] 👨‍🔬
+- [[Jared Kaplan]] ⚛️
+- [[Arthur Mensch]] 🇫🇷
+- [[Quoc Le]] 🐐
+- [[Tri Dao]] 🌽
+- [[Tim Dettmers]] 🤏
+- [[Dario Amodei]] ⚛️
+- [[Alex Krizhevsky]] 🐐
+- [[Nils Reimers]] 👨‍🔬
