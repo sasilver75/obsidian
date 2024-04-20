@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8d1fd48f7b005d3",
+            "id": "6ac40c6bad18982e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "a544420a9ffa7958",
+            "id": "fd17a13f69da6204",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenHermes2.5 Dataset.md",
+                "file": "GLUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "fb476bb1fbd5884e",
+            "id": "2dbccbad98c3aa24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S2ORC.md",
+                "file": "SuperGLUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "141bf916a3f4ddde",
+            "id": "f413a0d5c6a8ba32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tulu-v2-sft-mixture.md",
+                "file": "GLUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "ff66da5cdf17e1b0",
+            "id": "5dffc7ab3c857e65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tulu-v2-sft-mixture.md",
+                "file": "HELM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,142 +73,12 @@
             }
           },
           {
-            "id": "9f2d8f60a3d8ef62",
+            "id": "a2888cccc3ab4c29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oasst2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9072f514401793ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oasst1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e603d6ca8762e09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tulu 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "524194e394370b27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tulu 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb1b0c805fa221b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tulu 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "113e470a3ad124a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nectar.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c780ed056b6748a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Helpful and Harmless.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "542bf973066671dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stanford Human Preferences.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06766ee84a4b143c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oasst1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cf5ca215e44a788",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FineWeb.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83d32d5d460c5e78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cosmopedia.md",
+                "file": "DAWNBench.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -216,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -284,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenHermes2.5 Dataset.md",
+                "file": "SuperGLUE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenHermes2.5 Dataset.md",
+                "file": "SuperGLUE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -324,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenHermes2.5 Dataset.md"
+                "file": "SuperGLUE.md"
               }
             }
           }
@@ -345,44 +215,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a544420a9ffa7958",
+  "active": "2dbccbad98c3aa24",
   "lastOpenFiles": [
+    "GLUE.md",
     "~ Vocabulary.md",
+    "HELM.md",
+    "DAWNBench.md",
+    "_attachments/Pasted image 20240420140756.png",
+    "_attachments/Pasted image 20240420140739.png",
+    "_attachments/Pasted image 20240420140731.png",
+    "_attachments/Pasted image 20240420140649.png",
+    "SWE-bench.md",
+    "BIG-Bench Hard.md",
+    "BIG-Bench.md",
+    "HumanEval.md",
+    "Articles/ML/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+    "Massive Multi-task Language Understanding.md",
+    "SuperGLUE.md",
+    "SlimOrca.md",
+    "OpenOrca Dataset.md",
+    "FLAN v2.md",
     "OpenHermes2.5 Dataset.md",
-    "GloVe.md",
+    "GAIA.md",
     "S2ORC.md",
-    "Cosmopedia.md",
     "Tulu-v2-sft-mixture.md",
     "oasst2.md",
     "oasst1.md",
+    "Cosmopedia.md",
     "Tulu 2.md",
     "Nectar.md",
-    "_attachments/Pasted image 20240420020007.png",
-    "Starling.md",
-    "Helpful and Harmless.md",
     "Stanford Human Preferences.md",
-    "_attachments/Pasted image 20240420014126.png",
     "FineWeb.md",
-    "The Pile.md",
-    "Webtext.md",
-    "RefinedWeb.md",
-    "Courses/CS224N/CS224N Lecture 10.md",
-    "Dolma.md",
-    "Nous Research.md",
-    "UltraFeedback.md",
-    "UltraChat.md",
-    "MassiveText.md",
-    "Gopher.md",
-    "Project Gutenberg.md",
-    "RedPajama v2.md",
-    "_attachments/Pasted image 20240420011015.png",
-    "_attachments/Pasted image 20240420010821.png",
-    "_attachments/Pasted image 20240420010336.png",
-    "_attachments/Pasted image 20240420005242.png",
-    "_attachments/Pasted image 20240420005006.png",
-    "_attachments/Pasted image 20240419234617.png",
-    "_attachments/Pasted image 20240419224729.png",
-    "_attachments/Pasted image 20240419212119.png",
+    "_attachments/Pasted image 20240420135407.png",
+    "_attachments/Pasted image 20240420135348.png",
+    "_attachments/Pasted image 20240420135330.png",
+    "_attachments/Pasted image 20240420134030.png",
+    "_attachments/Pasted image 20240420133900.png",
+    "_attachments/Pasted image 20240420133842.png",
+    "OpenHermes Dataset.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

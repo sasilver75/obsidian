@@ -3,5 +3,9 @@ Paper: [WizardLM: Empowering Large Language Models to Follow Complex Instruction
 
 A [[LLaMA]] model fine-tuned using data from the [[Evol-Instruct]] technique, which was introduced in the same paper to generate synthetic instruction-tuning datasets.
 
+Note also that Microsoft has released datasets used in training WizardLM:
+- WizardLM_evol_instruct_70k
+- WizardLM_evol_instruct_V2_196k
+
 Abstract
 > ==Training== large language models (LLMs) with ==open-domain instruction following data brings colossal success==. ==However, manually creating such instruction data is very time-consuming and labor-intensive==. Moreover, humans may struggle to produce high-complexity instructions. In this paper, ==we show an avenue for creating== large amounts of ==instruction data== with varying levels of complexity ==using LLM instead of humans==. ==Starting with an initial set of instructions, we use our proposed [[Evol-Instruct]] to rewrite them step by step into more complex instructions.== Then, we mix all generated instruction data to ==fine-tune LLaMA. We call the resulting model WizardLM==. Human evaluations on a complexity-balanced test bed and Vicuna's testset show that ==instructions from Evol-Instruct are superior to human-created ones==. By analyzing the human evaluation results of the high complexity part, we demonstrate that outputs from our WizardLM are preferred to outputs from OpenAI ChatGPT. In GPT-4 automatic evaluation, WizardLM achieves more than 90\% capacity of ChatGPT on 17 out of 29 skills. Even though WizardLM still lags behind ChatGPT in some aspects, our findings suggest that fine-tuning with AI-evolved instructions is a promising direction for enhancing LLMs. Our code and data are public at [this https URL](https://github.com/nlpxucan/WizardLM)
