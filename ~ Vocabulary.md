@@ -189,6 +189,7 @@
 - [[Grouped Query Attention]]
 - [[RingAttention]]
 - [[Evol-Instruct]]
+- [[Evol-Amplify]]
 - [[OSS-Instruct]]
 - [[Imitation Learning]]
 - [[Automatic Mixed-Precision Training]]
@@ -522,7 +523,7 @@
 - [[AlpacaEval]]
 - [[MT Bench]]
 - [[AGIEval]]
-
+- [[Super-NaturalInstructions]]
 # Datasets
 - [[Common Crawl]]
 - [[C4]] (improvement of CommonCrawl)
@@ -549,7 +550,6 @@
 - [[UltraFeedback]]
 - [[Dolma]]
 - [[RefinedWeb]]
-- [[SuperNaturalInstructions]]
 - [[Cosmopedia]]
 - [[FineWeb]]
 - [[OpenAssistant]]
@@ -558,6 +558,7 @@
 - [[Nectar]]
 - [[Tulu-v2-mix]]
 - [[s2orc]]
+- [[OpenHermes2.5 Dataset]]
 
 # Interpretability
 - Saliency Map
