@@ -117,7 +117,7 @@ Short explanation of [[Chain of Thought]] eliciting some latent ability from the
 
 ---
 
-High-Level Overview
+High-Level Overview of the course
 1. Contextual representations
 2. Multi-domain sentiment analysis
 3. Retrieval-augmented in-context learning
@@ -126,8 +126,33 @@ High-Level Overview
 6. Model introspection
 7. Methods and metrics
 
+The core goal is to have final papers that can *go on* to be published as NLP papers
+- In 10 weeks, almost no one can create a publishable paper, but you can form the basis that can be continued to be developed into a great paper.
+
+CS224N is a prerequisite for this course!
+
+We'll talk about the following, in the context of Transformers:
+1. Core concepts
+2. Architectures
+3. Positional encoding
+4. Distillation
+5. Diffusion objectives for these models
+6. Practical pre-training and fine-tuning
+
+![[Pasted image 20240420164059.png]]
+
+~1:00:00+ in the video, he's given an incredible lambasting of LLM-for-everything strategies!
+He's very bullish on [[Retrieval-Augmented Generation]] strategies to ameliorate many of these problems.
 
 
+Retriever model
+- Takes in text and produces text with scores
+Langauge model
+- Takes in text and produces text with scores
+
+You can think of these as black-box devices that do input-out...
+What if we just had them talk to eachother?
+- That's what we'll do in the first homework!
 
 
 
