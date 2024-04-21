@@ -51,7 +51,7 @@ So how are we going to get down from 60 inference steps down to 4 steps?
 
 Let's talk about the other paper -- *On Distillation of Guided Diffusion Models*
 - What's up with this paper?
-- We want to be able to do guidance! Last time, we used something called [[Classifier-Free Guided Diffusion]] (CFGD) models. In this one, if we want a cute puppy, we put in the prompt "Cute puppy" into our CLIP text encoder, and it spits out an embedding! We put that embedding (ignoring the VAE Latent business) into our UNet; but we also put the *empty* prompt into our CLIP text encoder! We concatenate these two things together so that we get back *two* things: 
+- We want to be able to do guidance! Last time, we used something called [[Classifier-Free Guidance]] Diffusion (CFGD) models. In this one, if we want a cute puppy, we put in the prompt "Cute puppy" into our CLIP text encoder, and it spits out an embedding! We put that embedding (ignoring the VAE Latent business) into our UNet; but we also put the *empty* prompt into our CLIP text encoder! We concatenate these two things together so that we get back *two* things: 
 	- We get back the image of the puppy, and we get back an image of the arbitrary thing that resulted from the empty prompt.
 	- We effectively then do something like taking the weighted average of those two images together and combine them; Then we use that combined image for the next stage of the diffusion process.
 	- ![[Pasted image 20231210134217.png]]

@@ -12,7 +12,7 @@ Large language model development (LLM) development is still happening at a rapid
 
 Sebastian saw that ==most research focused on one of the following 4 themes:==
 1. Vision Transformers ([[Vision Transformer|ViT]]) ((Sorta New))
-2. Generative AI for Vision: Diffusion Models and GANs ([[Diffusion Models]], [[Generative Adversarial Network|GAN]]s) ((Sorta New))
+2. Generative AI for Vision: Diffusion Models and GANs ([[Diffusion Model]], [[Generative Adversarial Network|GAN]]s) ((Sorta New))
 3. [[Neural Radiance Fields]] (NeRFs)  ((New!))
 4. Object Detection and Segmentation ((The Classics))
 
