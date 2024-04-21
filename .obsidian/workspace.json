@@ -21,6 +21,58 @@
             }
           },
           {
+            "id": "f49e5a8eddb995cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Winograd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f143405510c8c92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Winoground.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3aeca69205efd089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contrastive Captioner.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a3ebbb56e4dc325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS224N/CS224N Lecture 16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fd9ebbfa623fb3f6",
             "type": "leaf",
             "state": {
@@ -39,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COCO.md",
+                "file": "Common Objects in Context.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -182,15 +234,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COCO.md",
+                "file": "Common Objects in Context.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COCO.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COCO.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COCO.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -318,13 +369,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a75ef3dc7cf867b",
+  "active": "47d2bb02e2944619",
   "lastOpenFiles": [
+    "Winograd.md",
+    "~ Vocabulary.md",
+    "Winoground.md",
+    "Contrastive Captioner.md",
+    "_attachments/Pasted image 20240420193938.png",
+    "_attachments/Pasted image 20240420193924.png",
+    "_attachments/Pasted image 20240420193912.png",
+    "().md",
+    "Courses/CS224N/CS224N Lecture 16.md",
     "Imagen.md",
-    "COCO.md",
+    "_attachments/Pasted image 20240420193155.png",
+    "Common Objects in Context.md",
     "Diffusion Model.md",
     "ImageBind.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240420192405.png",
     "_attachments/Pasted image 20240420192345.png",
     "_attachments/Pasted image 20240420192217.png",
@@ -337,25 +397,16 @@
     "Courses/FastAI/2023 Course/FastAI 2023 Part 2  Lecture 10.md",
     "Classifier-Free Guided Diffusion.md",
     "Google Brain.md",
-    "_attachments/Pasted image 20240420191304.png",
-    "_attachments/Pasted image 20240420191251.png",
     "BLIP.md",
     "BLIP 2.md",
-    "_attachments/Pasted image 20240420181716.png",
-    "_attachments/Pasted image 20240420181705.png",
     "Salesforce.md",
     "SimCLR v2.md",
     "SimCLR.md",
     "SimVLM.md",
     "Courses/XCS224U/XCS224U Lecture 2.md",
     "Courses/XCS224U/XCS224U Lecture 1.md",
-    "().md",
     "Super-NaturalInstructions.md",
     "AGIEval.md",
-    "Articles/ML/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "MT Bench.md",
-    "ChatBot Arena.md",
-    "SQuAD.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

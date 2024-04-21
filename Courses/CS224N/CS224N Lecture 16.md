@@ -124,7 +124,7 @@ We see also:
 [[SimVLM]]: Generate/complete captions
 ![[Pasted image 20240417140211.png]]
 
-[[CoCa]] Cotrastive Captioner (Yu et al, 2022) -- Current SoTA as of talk (Apr17 2024 - 6 months)
+[[Contrastive Captioner]] (CoCa) (Yu et al, 2022) -- Current SoTA as of talk (Apr17 2024 - 6 months)
 Best of both contrastive and generative worlds:
 
 ![[Pasted image 20240417140248.png]]

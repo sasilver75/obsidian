@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - COCO
 ---
 May 1, 2014 -- [[Microsoft Research]]
 Paper: [Microsoft COCO: Common Objects in Context](https://arxiv.org/abs/1405.0312)
