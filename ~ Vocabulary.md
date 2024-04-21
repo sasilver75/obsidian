@@ -464,8 +464,7 @@
 - [[GLIDE]]
 - [[ImageBind]]
 - [[Imagen]]
-- [[CoCa]]
-- [[Winoground]]
+- [[Contrastive Captioner]]
 
 # Tools
 - [[ComfyUI]]
@@ -489,6 +488,7 @@
 - [[CCNet]]
 
 # Benchmarks, Evaluations
+*These are oftentimes also dataset, but they're not genrally datasets that you should train/finetune models on*
 - [[GAIA]]: A benchmark for General AI Assistants
 - [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
 - [[HumanEval]]
@@ -515,7 +515,11 @@
 - [[AlpacaEval]]
 - [[AGIEval]]
 - [[Super-NaturalInstructions]]
+- [[Winograd]]  (Winograd schemas)
+- [[Winogrande]]
+- [[Winoground]]
 # Datasets
+*Datasets for training/finetuning models*
 - [[Common Crawl]]
 - [[C4]] (improvement of CommonCrawl)
 - [[Webtext]]
@@ -529,8 +533,6 @@
 - [[LAION-400M]]
 - [[LAION-5B]]
 - [[MMC4]] (Multimodal C4)
-- [[Winograd]]  (Winograd schemas)
-- [[Winogrande]]
 - [[MS MARCO]] (Information retrieval)
 - [[RedPajama]]
 - [[SlimPajama]]
