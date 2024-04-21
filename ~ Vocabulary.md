@@ -40,6 +40,7 @@
 - [[Bloom Filter]]
 - [[MinHash]]
 - [[Monte-Carlo Tree Search]]
+- [[Bias-Variance Tradeoff]]
 
 # RecSys
 - [[Collaborative Filtering]]
@@ -93,6 +94,8 @@
 - [[Cross-Attention]]
 - [[Bidirectional Attention]]
 - [[Diffusion Model]]
+- [[Latent Diffusion Model]]
+- [[Latent Consistency Model]]
 - [[Parameter-Efficient Fine-Tuning]]
 - [[Classification]]
 - [[Quantization]]
@@ -145,7 +148,6 @@
 - [[Encoder-Decoder Architecture]]
 - [[Neural Architecture Search]]
 - [[Double Descent]]
-- [[Bias-Variance Tradeoff]]
 - [[Guardrails]], [[Steerability]]
 - [[Class Token]] 
 - [[Contrastive learning]] / [[Contrastive Loss]]
