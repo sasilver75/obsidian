@@ -13,6 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Self-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d8312ce3f4f904b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
@@ -21,12 +34,12 @@
             }
           },
           {
-            "id": "f49e5a8eddb995cf",
+            "id": "5ed9b49144369071",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winograd.md",
+                "file": "One-Hot Encoding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +47,12 @@
             }
           },
           {
-            "id": "2f143405510c8c92",
+            "id": "b1febcc9cc584dcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winoground.md",
+                "file": "Regularization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +60,12 @@
             }
           },
           {
-            "id": "3aeca69205efd089",
+            "id": "e59cbe0b4fe494ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contrastive Captioner.md",
+                "file": "L2 Regularization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +73,12 @@
             }
           },
           {
-            "id": "5a3ebbb56e4dc325",
+            "id": "005c04134abaa452",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 16.md",
+                "file": "L1 Regularization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +86,12 @@
             }
           },
           {
-            "id": "fd9ebbfa623fb3f6",
+            "id": "bb2293bc4faaf3c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Imagen.md",
+                "file": "Covariate Shift.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +99,12 @@
             }
           },
           {
-            "id": "2a75ef3dc7cf867b",
+            "id": "2046bb8458369ac6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common Objects in Context.md",
+                "file": "Type Two Error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,12 +112,12 @@
             }
           },
           {
-            "id": "dda64e530274d2ef",
+            "id": "12d748edcf7ee9da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diffusion Model.md",
+                "file": "Type One Error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,12 +125,12 @@
             }
           },
           {
-            "id": "9c0c2a345a3e52f9",
+            "id": "ea4236d0f53fd9f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ImageBind.md",
+                "file": "Precision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,12 +138,12 @@
             }
           },
           {
-            "id": "04fd3bcf2c205d34",
+            "id": "849963a346f3cf6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALIGN.md",
+                "file": "Recall.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,12 +151,12 @@
             }
           },
           {
-            "id": "26819134f1c1c61e",
+            "id": "b9830225218c5a8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GLIDE.md",
+                "file": "Type Two Error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,97 +164,20 @@
             }
           },
           {
-            "id": "e298dd7677019426",
+            "id": "3384b28707e0e1c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classifier-Free Guidance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0295368298952627",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/FastAI/2023 Course/FastAI 2023 Part 2  Lecture 10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bae6922038c2d81c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ALIGN.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef65b03751c15bed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Google Brain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fea35dbab82be5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BLIP 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81a56911f9fb53e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BLIP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7166886d6fd70d2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Common Objects in Context.md",
+                "file": "Type One Error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -369,44 +305,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47d2bb02e2944619",
+  "active": "0d8312ce3f4f904b",
   "lastOpenFiles": [
-    "Winograd.md",
+    "UltraChat.md",
+    "_attachments/Pasted image 20240420234903.png",
+    "Self-Instruct.md",
     "~ Vocabulary.md",
+    "One-Hot Encoding.md",
+    "Regularization.md",
+    "Type One Error.md",
+    "L2 Regularization.md",
+    "L1 Regularization.md",
+    "Covariate Shift.md",
+    "_attachments/Pasted image 20240420220825.png",
+    "Type Two Error.md",
+    "Precision.md",
+    "Recall.md",
+    "_attachments/Pasted image 20240420220349.png",
+    "_attachments/Pasted image 20240420220007.png",
+    "_attachments/Pasted image 20240420215943.png",
+    "_attachments/Pasted image 20240420215940.png",
+    "_attachments/Pasted image 20240420215714.png",
+    "_attachments/Pasted image 20240420215557.png",
+    "~ Useful Pictures.md",
+    "~ Recommendations.md",
+    "~ Quotes.md",
+    "~ Quiz.md",
+    "~ Graduate.md",
+    "~ Followup.md",
+    "~ Ideas.md",
+    "Douwe Kiela.md",
+    "Winograd.md",
     "Winoground.md",
     "Contrastive Captioner.md",
-    "_attachments/Pasted image 20240420193938.png",
-    "_attachments/Pasted image 20240420193924.png",
-    "_attachments/Pasted image 20240420193912.png",
-    "().md",
     "Courses/CS224N/CS224N Lecture 16.md",
     "Imagen.md",
-    "_attachments/Pasted image 20240420193155.png",
     "Common Objects in Context.md",
-    "Diffusion Model.md",
-    "ImageBind.md",
-    "_attachments/Pasted image 20240420192405.png",
-    "_attachments/Pasted image 20240420192345.png",
-    "_attachments/Pasted image 20240420192217.png",
-    "ALIGN.md",
-    "GLIDE.md",
-    "Classifier-Free Guidance.md",
-    "_attachments/Pasted image 20240420191835.png",
-    "_attachments/Pasted image 20240420191820.png",
-    "_attachments/Pasted image 20240420191747.png",
-    "Courses/FastAI/2023 Course/FastAI 2023 Part 2  Lecture 10.md",
-    "Classifier-Free Guided Diffusion.md",
-    "Google Brain.md",
-    "BLIP.md",
-    "BLIP 2.md",
-    "Salesforce.md",
-    "SimCLR v2.md",
-    "SimCLR.md",
-    "SimVLM.md",
-    "Courses/XCS224U/XCS224U Lecture 2.md",
-    "Courses/XCS224U/XCS224U Lecture 1.md",
-    "Super-NaturalInstructions.md",
-    "AGIEval.md",
+    "_attachments/Pasted image 20240420193938.png",
+    "_attachments/Pasted image 20240420193924.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
