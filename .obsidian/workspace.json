@@ -8,46 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e463b21e0c757e48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markov Chain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "343356017e08f1c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markov Chain Monte Carlo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a341d9a492cb8b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markov Assumption.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3304df145671e8a",
+            "id": "03e49820390c3bd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,12 +21,12 @@
             }
           },
           {
-            "id": "92cb33437f71e74b",
+            "id": "f4e6d4307ca6ca07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hidden Markov Model.md",
+                "file": "Alignment.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,150 +34,19 @@
             }
           },
           {
-            "id": "a1e0a65892bbcc87",
+            "id": "3771e3e850207524",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Assumption.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fa10b3cf4a6a4a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROC Curve.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9c7d557cc3c5c8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AUC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0cdb62c8995c2b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recall.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "732523f6c84d39d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AUC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "632d777b4e56f0eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F1 Score.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "268c9c1bcaf79853",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recall.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4388cc77ae6d208e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bloom Filter.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d418719a0c51ad5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MinHash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be4ba14e005fac21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bloom Filter.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03e49820390c3bd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MinHash.md",
+                "file": "Bitter Lesson.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,44 +174,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c3304df145671e8a",
+  "active": "03e49820390c3bd4",
   "lastOpenFiles": [
-    "Hidden Markov Model.md",
+    "Alignment.md",
     "~ Vocabulary.md",
+    "Bitter Lesson.md",
+    "_attachments/Pasted image 20240422152543.png",
+    "MinHash.md",
+    "AUC.md",
+    "Recall.md",
+    "F1 Score.md",
+    "Bloom Filter.md",
+    "Gradual Unfreezing.md",
+    "ULMFiT.md",
+    "Hidden Markov Model.md",
     "Markov Assumption.md",
+    "ROC Curve.md",
+    "Discriminative Learning Rate.md",
     "Markov Chain Monte Carlo.md",
     "Markov Chain.md",
-    "ROC Curve.md",
-    "AUC.md",
     "_attachments/Pasted image 20240422144538.png",
     "_attachments/Pasted image 20240422144317.png",
-    "Recall.md",
     "_attachments/Pasted image 20240422143714.png",
-    "F1 Score.md",
     "_attachments/Pasted image 20240422143530.png",
     "Precision.md",
-    "Bloom Filter.md",
     "_attachments/Pasted image 20240422142046.png",
     "Count-Min Sketch.md",
     "_attachments/Pasted image 20240422142005.png",
-    "MinHash.md",
     "_attachments/Pasted image 20240422141248.png",
     "_attachments/Pasted image 20240422140936.png",
     "Dynaboard.md",
     "Dynabench.md",
     "Question Answering.md",
     "_attachments/Pasted image 20240422134135.png",
-    "_attachments/Pasted image 20240422134015.png",
     "Courses/XCS224U/XCS224U Lecture 2.md",
     "~ Useful Pictures.md",
     "Type One Error.md",
     "Type Two Error.md",
     "Covariate Shift.md",
-    "L1 Regularization.md",
-    "L2 Regularization.md",
-    "Regularization.md",
-    "One-Hot Encoding.md",
-    "SPIN.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
