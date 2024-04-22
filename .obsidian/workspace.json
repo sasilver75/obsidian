@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Instruct.md",
+                "file": "Beam Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -27,6 +27,123 @@
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6fc9987914e77c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Beam Search.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7bd2c6b3bad3147",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bootstrap Aggregation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cdf29947d217434",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bootstrap.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ef479ac6a2b10dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contrastive Loss.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a10b60802d72c35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Summarization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d3fe0131934dccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Abstractive Summarization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0336d486f4613f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extractive Summarization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12a9b162cff108bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extractive Summarization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75614382fc537a65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SPIN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -176,8 +293,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -244,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Beam Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +377,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Beam Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +400,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Beam Search.md"
               }
             }
           }
@@ -305,12 +421,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0d8312ce3f4f904b",
+  "active": "47d2bb02e2944619",
   "lastOpenFiles": [
-    "UltraChat.md",
-    "_attachments/Pasted image 20240420234903.png",
+    "Untitled.md",
+    "Beam Search.md",
     "Self-Instruct.md",
     "~ Vocabulary.md",
+    "Bootstrap Aggregation.md",
+    "Bootstrap.md",
+    "Contrastive Loss.md",
+    "Summarization.md",
+    "Abstractive Summarization.md",
+    "Extractive Summarization.md",
+    "SPIN.md",
+    "UltraChat.md",
+    "_attachments/Pasted image 20240420234903.png",
     "One-Hot Encoding.md",
     "Regularization.md",
     "Type One Error.md",
@@ -332,15 +457,6 @@
     "~ Quotes.md",
     "~ Quiz.md",
     "~ Graduate.md",
-    "~ Followup.md",
-    "~ Ideas.md",
-    "Douwe Kiela.md",
-    "Winograd.md",
-    "Winoground.md",
-    "Contrastive Captioner.md",
-    "Courses/CS224N/CS224N Lecture 16.md",
-    "Imagen.md",
-    "Common Objects in Context.md",
     "_attachments/Pasted image 20240420193938.png",
     "_attachments/Pasted image 20240420193924.png",
     "Courses/CS25",
