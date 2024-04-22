@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1d714c5676b115cb",
+        "id": "d1cb71feae54dccb",
         "type": "tabs",
         "children": [
           {
-            "id": "47d2bb02e2944619",
+            "id": "e463b21e0c757e48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beam Search.md",
+                "file": "Markov Chain.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,33 @@
             }
           },
           {
-            "id": "0d8312ce3f4f904b",
+            "id": "343356017e08f1c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Chain Monte Carlo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a341d9a492cb8b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Assumption.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3304df145671e8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +60,12 @@
             }
           },
           {
-            "id": "c6fc9987914e77c2",
+            "id": "92cb33437f71e74b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beam Search.md",
+                "file": "Hidden Markov Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +73,12 @@
             }
           },
           {
-            "id": "c7bd2c6b3bad3147",
+            "id": "a1e0a65892bbcc87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bootstrap Aggregation.md",
+                "file": "Markov Assumption.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +86,12 @@
             }
           },
           {
-            "id": "8cdf29947d217434",
+            "id": "6fa10b3cf4a6a4a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bootstrap.md",
+                "file": "ROC Curve.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +99,12 @@
             }
           },
           {
-            "id": "7ef479ac6a2b10dd",
+            "id": "e9c7d557cc3c5c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contrastive Loss.md",
+                "file": "AUC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,176 +112,7 @@
             }
           },
           {
-            "id": "9a10b60802d72c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Summarization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d3fe0131934dccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abstractive Summarization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0336d486f4613f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Extractive Summarization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12a9b162cff108bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Extractive Summarization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75614382fc537a65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SPIN.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ed9b49144369071",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "One-Hot Encoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1febcc9cc584dcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regularization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e59cbe0b4fe494ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L2 Regularization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "005c04134abaa452",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L1 Regularization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb2293bc4faaf3c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Covariate Shift.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2046bb8458369ac6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Type Two Error.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12d748edcf7ee9da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Type One Error.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea4236d0f53fd9f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Precision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "849963a346f3cf6a",
+            "id": "f0cdb62c8995c2b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -268,12 +125,12 @@
             }
           },
           {
-            "id": "b9830225218c5a8f",
+            "id": "732523f6c84d39d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Type Two Error.md",
+                "file": "AUC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -281,19 +138,85 @@
             }
           },
           {
-            "id": "3384b28707e0e1c1",
+            "id": "632d777b4e56f0eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Type One Error.md",
+                "file": "F1 Score.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "268c9c1bcaf79853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recall.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4388cc77ae6d208e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bloom Filter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d418719a0c51ad5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MinHash.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be4ba14e005fac21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bloom Filter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03e49820390c3bd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MinHash.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -360,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Beam Search.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -377,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Beam Search.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -400,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Beam Search.md"
+                "file": "~ Vocabulary.md"
               }
             }
           }
@@ -421,44 +344,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47d2bb02e2944619",
+  "active": "c3304df145671e8a",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Beam Search.md",
-    "Self-Instruct.md",
+    "Hidden Markov Model.md",
     "~ Vocabulary.md",
-    "Bootstrap Aggregation.md",
-    "Bootstrap.md",
-    "Contrastive Loss.md",
-    "Summarization.md",
-    "Abstractive Summarization.md",
-    "Extractive Summarization.md",
-    "SPIN.md",
-    "UltraChat.md",
-    "_attachments/Pasted image 20240420234903.png",
-    "One-Hot Encoding.md",
-    "Regularization.md",
-    "Type One Error.md",
-    "L2 Regularization.md",
-    "L1 Regularization.md",
-    "Covariate Shift.md",
-    "_attachments/Pasted image 20240420220825.png",
-    "Type Two Error.md",
-    "Precision.md",
+    "Markov Assumption.md",
+    "Markov Chain Monte Carlo.md",
+    "Markov Chain.md",
+    "ROC Curve.md",
+    "AUC.md",
+    "_attachments/Pasted image 20240422144538.png",
+    "_attachments/Pasted image 20240422144317.png",
     "Recall.md",
-    "_attachments/Pasted image 20240420220349.png",
-    "_attachments/Pasted image 20240420220007.png",
-    "_attachments/Pasted image 20240420215943.png",
-    "_attachments/Pasted image 20240420215940.png",
-    "_attachments/Pasted image 20240420215714.png",
-    "_attachments/Pasted image 20240420215557.png",
+    "_attachments/Pasted image 20240422143714.png",
+    "F1 Score.md",
+    "_attachments/Pasted image 20240422143530.png",
+    "Precision.md",
+    "Bloom Filter.md",
+    "_attachments/Pasted image 20240422142046.png",
+    "Count-Min Sketch.md",
+    "_attachments/Pasted image 20240422142005.png",
+    "MinHash.md",
+    "_attachments/Pasted image 20240422141248.png",
+    "_attachments/Pasted image 20240422140936.png",
+    "Dynaboard.md",
+    "Dynabench.md",
+    "Question Answering.md",
+    "_attachments/Pasted image 20240422134135.png",
+    "_attachments/Pasted image 20240422134015.png",
+    "Courses/XCS224U/XCS224U Lecture 2.md",
     "~ Useful Pictures.md",
-    "~ Recommendations.md",
-    "~ Quotes.md",
-    "~ Quiz.md",
-    "~ Graduate.md",
-    "_attachments/Pasted image 20240420193938.png",
-    "_attachments/Pasted image 20240420193924.png",
+    "Type One Error.md",
+    "Type Two Error.md",
+    "Covariate Shift.md",
+    "L1 Regularization.md",
+    "L2 Regularization.md",
+    "Regularization.md",
+    "One-Hot Encoding.md",
+    "SPIN.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
