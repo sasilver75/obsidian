@@ -8,4 +8,4 @@ Markov Chains are foundational in more complex methods, like [[Markov Chain Mont
 - Transitions
 	- The process moves from one state to another, and these movements are called *transitions*. Each ==transition has a probability associated with it==, determining how likely it is to occur.
 - Transition Matrix
-	- The transition probabilities to any possible state, from any possible state, can be represented in a matrix form; each element in the matrix represents the probability of transitioning from one state to another.
+	- The transition probabilities to any possible state, from any possibloe state, can be represented in a matrix form; each element in the matrix represents the probability of transitioning from one state to another.
