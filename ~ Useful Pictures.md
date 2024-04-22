@@ -231,3 +231,4 @@ From CS224NL16(2023): Many different ways to do fusion of modalities, and much l
 (From Nathan Lambert's CS25 talk)
 ![[Pasted image 20240419151848.png]]
 Classic prompt engineering
+![[Pasted image 20240422115127.png]]

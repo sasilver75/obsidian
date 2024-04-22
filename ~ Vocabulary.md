@@ -28,16 +28,19 @@
 - [[t-SNE]]
 - [[Bootstrap]]
 - [[Bootstrap Aggregation]]
-- [[Hidden Markov Model]]
+- [[Markov Assumption]]
+- [[Hidden Markov Model]] (HMM)
 - [[Markov Chain]]
+- [[Markov Chain Monte Carlo]] (MCMC)
 - [[Beam Search]]
 - [[F1 Score]]
-- [[AUC]]
 - [[ROC Curve]]
+- [[AUC]]
 - [[Principal Component Analysis]]
 - [[Independent Component Analysis]]
 - [[Spearman Correlation Coefficient]]
 - [[Bloom Filter]]
+- [[Count-Min Sketch]]
 - [[MinHash]]
 - [[Monte-Carlo Tree Search]]
 - [[Bias-Variance Tradeoff]]
@@ -363,6 +366,7 @@
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]
 - [[RoBERTa]]
+- [[DeBERTa]]
 - [[GPT-2]]
 - [[GPT-3]]
 - [[GPT-3.5]]
@@ -519,6 +523,8 @@
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
 - [[Winoground]]
+- [[Dynabench]]
+- [[Dynaboard]]
 # Datasets
 *Datasets for training/finetuning models*
 - [[Common Crawl]]
