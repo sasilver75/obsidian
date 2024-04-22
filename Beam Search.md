@@ -1,0 +1,1 @@
+Beam search is a heuristic search algorithm widely used in fields like [[Natural Language Processing]] and [[Automatic Speech Recognition]] to find the *most likely sequence of states or elements*, given a model. 

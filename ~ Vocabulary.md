@@ -150,7 +150,7 @@
 - [[Double Descent]]
 - [[Guardrails]], [[Steerability]]
 - [[Class Token]] 
-- [[Contrastive learning]] / [[Contrastive Loss]]
+- [[Contrastive Loss]]
 - [[Pre-text Training]] 
 - [[Kalman Filter]]
 - [[Particle Filters]] 
@@ -266,7 +266,7 @@
 - [[Back-Translation]]
 - [[ROGUE]] Score
 - [[Automatic Speech Recognition]]
-- - [[Byte-Pair Encoding]] Tokenization
+- [[Byte-Pair Encoding]] Tokenization
 - [[SentencePiece]] Tokenization
 - [[WordPiece]] Tokenization
 - [[Self-Play]]
@@ -283,7 +283,6 @@
 - [[Greedy Decoding]]
 - [[Top-K Sampling]]
 - [[Top-P Sampling]] (Nucleus Sampling)
-- [[Beam Search]]
 - [[Exposure Bias]]
 	- [[Scheduled Sampling]]
 	- [[Dataset Aggregation]]
