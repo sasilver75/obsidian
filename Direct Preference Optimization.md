@@ -20,3 +20,6 @@ Variants:
 ![[Pasted image 20240418171549.png]]
 ![[Pasted image 20240418171641.png]]
 
+
+==One downside of these models is that they either sample $y_w$ or $y_l$ from the SFT model or take them directly from existing datasets (thus, sampling from other models), creating a distribution mismatch.==
+(y_l and y_w are the winning output and losing output in a preference dataset)

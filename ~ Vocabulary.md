@@ -495,7 +495,7 @@
 - [[Argilla]]
 - [[LabelStudio]]
 - [[CleanLab]]
-
+- [[AlpacaFarm]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not genrally datasets that you should train/finetune models on*
 - [[GAIA]]: A benchmark for General AI Assistants
@@ -523,6 +523,7 @@
 - [[MT Bench]]
 - [[AlpacaEval]]
 - [[AGIEval]]
+- [[Natural Instructions]]
 - [[Super-NaturalInstructions]]
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
@@ -560,6 +561,7 @@
 - [[oasst2]]
 - [[Stanford Human Preferences]]
 - [[Helpful and Harmless]] (HH)
+- [[TL;DR]]
 - [[Nectar]]
 - [[Tulu-v2-sft-mixture]]
 - [[S2ORC]]
