@@ -1,5 +1,4 @@
 ![[Pasted image 20231215171803.png]]
-![[Pasted image 20231223182856.png]]
 ![[Pasted image 20231224000029.png]]![[Pasted image 20231224001343.png]]
 
 ![[Pasted image 20231224001556.png]]![[Pasted image 20231224003503.png]]
@@ -232,3 +231,7 @@ From CS224NL16(2023): Many different ways to do fusion of modalities, and much l
 ![[Pasted image 20240419151848.png]]
 Classic prompt engineering
 ![[Pasted image 20240422115127.png]]
+![[Pasted image 20240423001142.png|300]]
+From a near post: https://twitter.com/nearcyan/status/1782617805827031217
+
+

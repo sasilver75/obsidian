@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "03e49820390c3bd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f6c05d899fd6aa67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           }
@@ -163,15 +150,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "03e49820390c3bd4",
+  "active": "f6c05d899fd6aa67",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240423001142.png",
+    "~ Quotes.md",
+    "~ Vocabulary.md",
+    "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "_attachments/Pasted image 20240422234034.png",
     "_attachments/Pasted image 20240422233941.png",
     "_attachments/Pasted image 20240422232558.png",
     "_attachments/Pasted image 20240422231723.png",
     "Direct Preference Optimization.md",
-    "~ Vocabulary.md",
-    "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "_attachments/Pasted image 20240422225602.png",
     "_attachments/Pasted image 20240422225124.png",
     "~ Ideas.md",
@@ -191,7 +180,6 @@
     "_attachments/Pasted image 20240422192137.png",
     "_attachments/Pasted image 20240422164530.png",
     "Articles/ML/Are Emergent Abilities of Large Language Models a Mirage? (Dec 2023) {Devansh, Artificial Intelligence Made Simple blog}.md",
-    "_attachments/Pasted image 20240422161304.png",
     "Bitter Lesson.md",
     "Mutual Information.md",
     "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
@@ -200,7 +188,6 @@
     "AUC.md",
     "Recall.md",
     "F1 Score.md",
-    "Bloom Filter.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

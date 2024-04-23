@@ -1,7 +1,7 @@
 #article  #premium
 Link: https://gaotianyu.xyz/blog/2023/11/30/instruction-tuning/
 
-Data, algorithms, and eva;iatopm on finetuning
+Data, algorithms, and evaluation on finetuning
 
 -------
 

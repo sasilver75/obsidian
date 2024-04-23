@@ -5,3 +5,5 @@
 "Traveler, there are no paths. Paths are made by walking."
 - Antonio Machado
 
+"VC CAC is UBI but shitty"
+(Referring to using HuggingFace as free cloud storage/CDN)
