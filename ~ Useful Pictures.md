@@ -232,6 +232,8 @@ From CS224NL16(2023): Many different ways to do fusion of modalities, and much l
 Classic prompt engineering
 ![[Pasted image 20240422115127.png]]
 ![[Pasted image 20240423001142.png|300]]
-From a near post: https://twitter.com/nearcyan/status/1782617805827031217
+From a near post: https://twitter.com/nearcyan/status/1782617805827031217 It sucks
+![[Pasted image 20240423003237.png]]
+From a near Post; This is TruthfulQA https://x.com/nearcyan/status/1782625091156922482 It sucks
 
 
