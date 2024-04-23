@@ -1,6 +1,8 @@
 #article 
 Link: https://huggingface.co/blog/synthetic-data-save-costs
 
+It turns out that this was mostly a marketing blog post for their AutoTrain product, which is a finetuning-as-a-service tool from [[HuggingFace]] that lets you upload a CSV of data, select a model, and get a finetuned version of it automatically gets uploaded to your HuggingFace account.
+
 ----
 
 Should you finetune your model or use an LLM API?
@@ -46,6 +48,7 @@ In 2024, synthetic data provides a third option:
 - Combine the cost benefits of Option 1 with the ease-of-use of Option 2
 - Use an LLM (the "teacher") to annotate a small sample of data for you, and then fine-tune a smaller, more efficient LM (the "student") on this data. This approach can be implemented in a few steps.
 	- ((==I wonder==: Why have the teacher LM generate synthetic data, and then train a second smaller LM from scratch on that data, as opposed to fine-tuning the teacher LM on that data, and then directly *distilling* (ie training from the logits, not the dataset) it into a smaller model?))
+		- ((This is actually what they do, later 😄))
 
 
 ### 3.1 Prompt an LLM to annotate your data
@@ -131,6 +134,7 @@ tokenizer = AutoTokenizer.from_pretrained("mistralai/Mixtral-8x7B-Instruct-v0.1"
 
 chat_financial_sentiment = [{"role": "user", "content": prompt_financial_sentiment}]
 
+# See this? This is where we stick in the special tokens
 prompt_financial_sentiment = tokenizer.apply_chat_template(chat_financial_sentiment, tokenize=False)
 
 # The prompt now includes special tokens: '<s>[INST] You are a highly qualified expert ...  [/INST]'
@@ -212,7 +216,7 @@ for text in dataset:
 	# clean output
 	output_cl = clean_output(output, random_choice=True)
 	# accumulate response
-	output_simple.appeend(output_cl)
+	output_simple.append(output_cl)
 
 ```
 
@@ -239,3 +243,181 @@ Based on the simple prompt, the LLM correctly classified (compared to the real l
 
 We can improve this by using [[Chain of Thought]] and [[Self-Consistency]]
 - [[Chain of Thought|CoT]] asks the model to reason about the correct label, and *then* make the labeling decision, rather than just immediately deciding on the correct label.
+- [[Self-Consistency]] (SC) effectively gives the LLM multiple attempts per text, with different reasoning paths... and if the LLM then responds "positive" twice and "neutral" once, we choose the majority ("positive") as the correct label.
+
+```python
+prompt_financial_sentiment_cot = """\
+You are a highly qualified expert trained to annotate machine learning training data.
+
+Your task is to briefly analyze the sentiment in the TEXT below from an investor perspective and then label it with only one the three labels:
+positive, negative, neutral.
+
+Base your label decision only on the TEXT and do not speculate e.g. based on prior knowledge about a company. 
+
+((THE CHAIN OF THOUGHT PROMPT))
+You first reason step by step about the correct label and then return your label.
+
+You ALWAYS respond only in the following JSON format: {{"reason": "...", "label": "..."}}
+You only respond with one single JSON response. 
+
+((NOTE THAT THEY HAVE THE RESPONSE AS INCLUDING A REASON AND LABEL KEY))
+Examples:
+Text: Operating profit increased, from EUR 7m to 9m compared to the previous reporting period.
+JSON response: {{"reason": "An increase in operating profit is positive for investors", "label": "positive"}}
+Text: The company generated net sales of 11.3 million euro this year.
+JSON response: {{"reason": "The text only mentions financials without indication if they are better or worse than before", "label": "neutral"}}
+Text: Profit before taxes decreased to EUR 14m, compared to EUR 19m in the previous period.	
+JSON response: {{"reason": "A decrease in profit is negative for investors", "label": "negative"}}
+
+Your TEXT to analyse:
+TEXT: {text}
+JSON response: """
+
+# we apply the chat template like above
+chat_financial_sentiment_cot = [{"role": "user", "content": prompt_financial_sentiment_cot}]
+prompt_financial_sentiment_cot = tokenizer.apply_chat_template(chat_financial_sentiment_cot, tokenize=False)
+# The prompt now includes special tokens: '<s>[INST] You are a highly qualified expert ...  [/INST]'
+```
+
+This is a JSON prompt where we ask the LLM to return a structured JSON string with its "reason" as one key and the "label" as another key.
+The main advantage of JSON is that we can parse it to a Python dictionary and then extract the "label." We can also extract the "reason" if we want to understand the reasoning why the LLM chose this label.
+
+((Again, this is a better use of the [[Instructor]] library, is my understanding -- just because you ask it to return some stuff in JSON doesn't mean it always will use the right keys, or the right datatypes when you try to json.load it.))
+
+The `process_output_cot` function parses the JSON string returned by the LLM, and in the case where the LLM doesn't return valid JSON, tries to identify the label with a simple string match from our `clean_outpu` function defined above.
+
+```python
+import ast 
+
+def process_output_cot(output):
+    try: 
+        output_dic = ast.literal_eval(output) 
+        return output_dic
+    except Exception as e:
+        # if json/dict parse fails, do simple search for occurrence of first label term
+        print(f"Parsing failed for output: {output}, Error: {e}")
+        output_cl = clean_output(output, random_choice=False)
+        output_dic = {"reason": "FAIL", "label": output_cl}
+        return output_dic
+```
+
+We can now reuse our `generate_text` function from above with the new prompt, process the JSON Chain-of-Thought output with `process_output_cot` and send each prompt multiple times for Self-Consistency.
+
+```python
+self_consistency_iterations = 3
+
+output_cot_multiple = []
+for _ in range(self_consistency_iterations):
+    output_lst_step = []
+    for text in tqdm(dataset["sentence"]):
+        prompt_formatted = prompt_financial_sentiment_cot.format(text=text)
+        output = generate_text(
+            prompt=prompt_formatted, generation_params=generation_params
+        )
+        output_dic = process_output_cot(output)
+        output_lst_step.append(output_dic["label"])
+
+    output_cot_multiple.append(output_lst_step)
+
+# Now our output_cot_multiple is a list of lists, where each element is the response from an iteration of CoT propmting of a classification.
+# We now just need some code to select the correct majority label:
+import pandas as pd
+from collections import Counter
+
+# Given a collection of "votes" of class (From multiple Self-Consistent runs of CoT classification),
+# select the majority option (or a random one, if there is no majority among the two labels)
+def find_majority(row):
+    # Count occurrences
+    count = Counter(row)
+    # Find majority
+    majority = count.most_common(1)[0]
+    # Check if it's a real majority or if all labels are equally frequent
+    if majority[1] > 1:
+        return majority[0]
+    else: # in case all labels appear with equal frequency
+        return random.choice(labels)
+
+df_output = pd.DataFrame(data=output_cot_multiple).T
+
+df_output['label_pred_cot_multiple'] = df_output.apply(find_majority, axis=1)
+
+```
+
+Now we can compare our improved LLM labels with the expert labels again and calculate metrics!
+
+```python
+label_experts = dataset["label_text"]
+label_pred_cot_multiple = df_output['label_pred_cot_multiple']
+
+# Let's now compute some metrics between our SC/CoT predicted labels and the real labels!
+# We hope to beat the previous 91.6%... and we do, at 94%!
+metrics_cot_multiple = compute_metrics(label_experts, label_pred_cot_multiple)
+
+```
+
+We boosted our 91.6% agreement (with ground truth labels) to 94% using these tricks, by giving the model time to think about its decision label (CoT) and by giving it multiple attempts (SC) (and by spending some additional compute).
+
+Now we have a synthetic training dataset, thanks to these simple LLM API calls.
+
+```python
+df_train = pd.DataFrame({
+    "text": dataset["sentence"],
+    "labels": df_output['label_pred_cot_multiple']
+})
+
+df_train.to_csv("df_train.csv")
+```
+
+
+## Compare the Open-Source model to proprietary models
+- How does the quality of synthetic data compare between Mistral's open-source Mixtral-8x7B-Instruct-v0.1 and OpenAI's GPT3.5 and GPT4?
+- We ran the same pipeline and... we see that Mixtral performs better than GPT3.5 and is on par with GPT4 for this task!
+
+### Understand Validate Validate our Synthetic data
+- So far, the result is just some data annotated by a black-box LLM; but how can we trust the LLM annotations if we don't have expert annotations in a real-world scenario?
+- ==We can only trust data that we've validated ourself==; Instructions/prompts always contain a degree of ambiguity, and even perfectly-intelligent annotators can make mistakes and must make unclear decisions when faced with often-ambiguous real-world data.
+
+Fortunately, data validation has become significantly easier over the past years with open-source tools:
+- [[Argilla]] provides a free interface for validating and cleaning *unstructured* LLM outputs.
+- [[LabelStudio]] allows you to annotate data in many modalities
+- [[CleanLab]] provides an interface for annotating data and automatically cleaning *structured* data.
+
+It's essential to spend some time annotating texts to get a feel for the data and its ambiguities -- you'll quickly learn that the model made some mistakes, but there will also be several examples where the correct label is unclear, and some texts where you agree more with the LLM's decision than with the expert that created the dataset.
+
+After less than an hour in the annotation interface, we get a better understanding of our data and corrected some of the ground-truth mistakes (or perhaps got some insights as to how to improve our model, based on the errors).
+
+
+### 3.3 Tune your efficient and specialized model with AutoTrain
+- So far, this has been a standard workflow of prompting an LLM through an API and validating the outputs.
+- Now comes an additional step to enable significant resource savings: We fine-tune a smaller, but more efficient and specialized LM on the LLM's synthetic data. This process is called [[Distillation]], where the output from a larger model (the "teacher") is used to train a smaller model (the "student").
+	- This just means that we take our original `text` from the dataset and treat the predictions from the LLM as our `labels` for fine-tuning.
+	- ((It sounds like they're saying to train on the softmax classification labels, as opposed to the logits, which has a bunch more information))
+
+We use the HuggingFace ==AutoTrain== solution to make this process even easier!
+- AutoTrain is a no-code interface that enables you to upload a`.csv` file with labeled data, which the service then uses to finetune a model for you automatically!
+- ((This is an automatic finetuning dataset from HuggingFace where you basically upload a .CSV and select a model architecture and get back a fine-tuned model.))
+
+Training a small [[RoBERTa]] base model (130M parameters) on just 1811 data points is very fast and shouldn't take more than a few minutes! Once the training is done, ==the model gets automatically uploaded to your HuggingFace profile!==
+- The whole process should take at most 15 minutes and cost less than $1!
+- (If you want, you can even use the AutoTrain entirely local on your own hardware)
+
+![[Pasted image 20240422192137.png]]
+
+How well does our fine-tuned 0.13B parameter RoBERTa base model perform compared to much larger LLMs?
+==It turns out that the custom model fine-tuned on 1811 texts achieves 94% accuracy -- the same as its teacher Mixtral and GPT4!== 
+- A small model could never compete with a much larger LLM out of the box, but fine-tuning it on some high-quality data brings it to the same level of performance for the task that it's specialized in.
+
+![[Pasted image 20240422192633.png]]
+
+## Pros and Cons of different approaches
+
+Three approaches
+1. Manually creating your own data and model
+2. Only using an LLM API
+3. Using an LLM API to create synthetic data for a specialized model
+
+What are their trade-offs?
+![[Pasted image 20240422192715.png]]
+
+# Conclusion
+- We've shown the enormous benefits of using an LLM to create synthetic data to train a smaller, more effective model.
