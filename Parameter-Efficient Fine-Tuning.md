@@ -2,6 +2,7 @@
 aliases:
   - PEFT
 ---
+A family of methods that allow fine-tuning models without modifying all of the parameters in the network. Often you freeze the model, add a small set of parameters, and modify it.
 
 Examples: [[Low-Rank Adaptation|LoRA]], [[ControlNet]], [[Prompting]], [[Prefix Tuning]]
 

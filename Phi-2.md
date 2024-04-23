@@ -1,8 +1,8 @@
 December 12, 2023
 Paper: [Phi-2: The surprising power of small language models](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)
 
-Language Model Phi-2, at 2.7B parameters, is twice the size of the 1.3B Phi-1 and Phi-2 models
-Punches above its weight, like the rest of the Phi family.
+Language Model Phi-2, at ==2.7B parameters==, is twice the size of the 1.3B Phi-1 and Phi-2 models.
+Trained on "text-book quality" synthetic data. Seems to punch above its weight, like the rest of the Phi family.
 
 "Abstract" (It's a blog post, not a paper)
 > Over the past few months, our Machine Learning Foundations team at Microsoft Research has released a suite of small language models (SLMs) called “Phi” that achieve remarkable performance on a variety of benchmarks. Our first model, the 1.3 billion parameter [**Phi-1**(opens in new tab)](https://huggingface.co/microsoft/phi-1), achieved state-of-the-art performance on Python coding among existing SLMs (specifically on the HumanEval and MBPP benchmarks). We then extended our focus to common sense reasoning and language understanding and created a new 1.3 billion parameter model named [**Phi-1.5**(opens in new tab)](https://huggingface.co/microsoft/phi-1_5), with performance comparable to models 5x larger.

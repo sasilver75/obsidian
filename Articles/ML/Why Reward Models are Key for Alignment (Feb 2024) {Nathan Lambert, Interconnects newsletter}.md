@@ -36,6 +36,6 @@ The core thing to remember about DPO in all of this is that its loss function is
 
 Reward models are a wonderful way to learn about the representation of language models, and we need more of them -- we have so few, and none from the top training labs. ==Reward models are a wonderful way to learn about the representation of language models, letting us peak behind the curtain of the content represented by stochastic parrots.==
 
-Today, generative reward labels are very popular -- the largest application of this is in LLM-as-a-judge evaluation tools like [[AlpacaEval]] and [[MT Bench]], which require prompting a model to choose which response is better.
+Today, generative reward labels are very popular -- the largest application of this is in LLM-as-a-judge evaluation tools like [[AlpacaEval]] and [[MT-Bench]], which require prompting a model to choose which response is better.
 
 

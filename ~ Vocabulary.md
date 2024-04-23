@@ -58,7 +58,7 @@
 - [[Discriminative Learning Rate]]
 - [[Gated Recurrent Unit]] (GRU)
 - [[In-Context Learning]]
-- [[Few-Shot Learning]]
+- [[Few-Shot Prompting]]
 - [[Teacher Forcing]] vs [[Student Forcing]]
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
@@ -497,6 +497,7 @@
 - [[LabelStudio]]
 - [[CleanLab]]
 - [[AlpacaFarm]]
+- [[TRL]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not genrally datasets that you should train/finetune models on*
 - [[GAIA]]: A benchmark for General AI Assistants
@@ -521,7 +522,7 @@
 - [[HotpotQA]]
 - [[SQuAD]]
 - [[ChatBot Arena]]
-- [[MT Bench]]
+- [[MT-Bench]]
 - [[AlpacaEval]]
 - [[AGIEval]]
 - [[Natural Instructions]]

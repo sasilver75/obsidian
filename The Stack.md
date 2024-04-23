@@ -2,7 +2,7 @@ May 9, 2023 -- A huge assembly of researchers from 38 places, including [[Huggin
 Paper: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161)
 HuggingFace Dataset: [The Stack](https://huggingface.co/datasets/bigcode/the-stack)
 
-Dataset of ~6TB (320x larger than Wikpiedia), ==200B tokens==, that has permissive licenses. Cleaned of license files, image blobs, etc.  This is a code dataset, compared to [[The Pile]], which is a text dataset.
+Dataset of 6.4TB (320x larger than Wikpiedia), ==200B tokens==, that has permissive licenses. Cleaned of license files, image blobs, etc.  This is a code dataset, compared to [[The Pile]], which is a text dataset.
 
 Released as part of the widely-collaborative BigCode project, which resulted in the [[StarCoder]] code model. I believe [[The Stack]] was primarily [[Eleuther]]'s contribution.
 
