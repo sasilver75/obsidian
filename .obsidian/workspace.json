@@ -13,7 +13,85 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
+                "file": "Articles/ML/7 Tips for Junior Researchers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c342656ec06b9777",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Stack.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a88d2ff1af52d190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MergeKit.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "355f6ccfa8c2d8fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MT-Bench.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5464482cef3cbf08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datatrove.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3062d556e06bd65c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TRL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0602298ec56c37cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datatrove.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
+                "file": "Articles/ML/7 Tips for Junior Researchers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
+                "file": "Articles/ML/7 Tips for Junior Researchers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
+                "file": "Articles/ML/7 Tips for Junior Researchers.md"
               }
             }
           }
@@ -177,42 +255,42 @@
   },
   "active": "f6c05d899fd6aa67",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240423145655.png",
+    "Reinforcement Learning from Human Feedback.md",
+    "Articles/ML/7 Tips for Junior Researchers.md",
+    "The Stack.md",
+    "MergeKit.md",
+    "MT-Bench.md",
+    "Quantized Low-Rank Adaptation.md",
+    "Low-Rank Adaptation.md",
+    "Unsloth.md",
+    "Parameter-Efficient Fine-Tuning.md",
     "~ Vocabulary.md",
-    "Self-Reward.md",
+    "TRL.md",
+    "Datatrove.md",
+    "Token.md",
+    "Rotary Positional Embedding.md",
+    "Phi-2.md",
+    "Vicuna.md",
+    "Prompting.md",
+    "LIMA.md",
+    "Alpaca.md",
+    "Few-Shot Prompting.md",
+    "Zero-Shot Prompting.md",
+    "Zephyr.md",
+    "Direct Preference Optimization.md",
+    "Identity-Mapping Preference Optimization.md",
+    "Kahneman-Tversky Optimization.md",
     "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
-    "_attachments/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects} 2024-04-23 14.01.04.excalidraw.md",
+    "_attachments/Pasted image 20240423145655.png",
     "_attachments/Pasted image 20240423140038.png",
     "_attachments/Pasted image 20240423134726.png",
     "_attachments/Pasted image 20240423134526.png",
-    "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
     "_attachments/Pasted image 20240423131159.png",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240423003237.png",
     "_attachments/Pasted image 20240423001142.png",
-    "~ Quotes.md",
-    "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "_attachments/Pasted image 20240422234034.png",
     "_attachments/Pasted image 20240422233941.png",
     "_attachments/Pasted image 20240422232558.png",
-    "_attachments/Pasted image 20240422231723.png",
-    "Direct Preference Optimization.md",
-    "~ Ideas.md",
-    "TL;DR.md",
-    "Self-Consistency.md",
-    "Datatrove.md",
-    "Entropy.md",
-    "Gradual Unfreezing.md",
-    "Discriminative Learning Rate.md",
-    "Alignment.md",
-    "Alpaca.md",
-    "~ Recommendations.md",
-    "Recommendation Systems.md",
-    "Articles/ML/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
-    "Articles/ML/Are Emergent Abilities of Large Language Models a Mirage? (Dec 2023) {Devansh, Artificial Intelligence Made Simple blog}.md",
-    "Bitter Lesson.md",
-    "Mutual Information.md",
-    "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

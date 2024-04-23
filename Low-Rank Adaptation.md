@@ -4,10 +4,11 @@ aliases:
 ---
 See also: [[Parameter-Efficient Fine-Tuning]], [[Quantized Low-Rank Adaptation]]
 
+
 ==LoRA can reduce the number of parameters by 10,000 times and the GPU memory requirements by over 3 times.==
 
 
-- ==By introducing pairs of rank-decomposition weight matrices (known as update matrices) to the existing weights, LoRA focuses solely on training these new added weights.==
+- ==By introducing pairs of rank-decomposition weight matrices (known as update matrices) to the existing weights, LoRA focuses solely on training these new added weights, with the rest of the model frozen.==
 - This approach offers several ==advantages==:
 	1. ==Preservation of pretrained Weights==: LoRA maintains the frozen state of previously-trained weights, minimizing the risk of catastrophic forgetting. This ensures that the model retrains its existing knowledge while adapting to new data.
 	2. ==Portability of trained weights==: The rank-decomposition matrices used in LoRA have significantly fewer parameters compared to the original model. This allows the trained LoRA weights to be *easily transferred* and utilized in other context, making them *highly portable*.

@@ -10,8 +10,8 @@ See the [[Zephyr]] paper "Zephyr: Direct Distillation of LM Alignment", which wa
 Variants: 
 - Iterated DPO ((?))
 - [[cDPO]]
-- [[Kahneman-Tversky Optimization|KTO]]
-- [[Identity-Mapping Preference Optimization|IPO]]
+- [[Kahneman-Tversky Optimization|KTO]] (Only requires a binary label, rather than a *pair* of accepted/rejected generations)
+- [[Identity-Mapping Preference Optimization|IPO]] (DPO easily overfits; IPO is more robust to overfitting))
 - [[Binary Classifier Optimization|BCO]]
 - [[Direct Nash Optimization|DNO]]
 - [[Stepwise Direct Preference Optimization|sDPO]]

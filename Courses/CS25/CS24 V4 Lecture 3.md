@@ -29,7 +29,7 @@ In 2017: Attention is all you Need -- the [[Transformer]] arrives
 2019: [[GPT-2]], we learn about scaling laws from Kaplan et al in 2020
 - Pioneered discussions on how to *release* language models, because of risks of language models.
 
-2020: [[GPT-3]] - Language models can really do interesting things if you prompt them correctly! [[In-Context Learning]], [[Few-Shot Learning]]
+2020: [[GPT-3]] - Language models can really do interesting things if you prompt them correctly! [[In-Context Learning]], [[Few-Shot Prompting]]
 - With this power came many harms -- this comes back to the discussion of risks.
 
 2021: Stochastic Parrots paper

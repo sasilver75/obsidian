@@ -85,7 +85,7 @@ Additionally, It's simply the case that some principles generate data that's num
 		- A large debate permeated this space for months: "Can we actually (legally) fine-tune models on the outputs of OpenAI's models?" These days we *all* train on synthetic outputs.
 	- Many open instruction datasets are ==advances in [[Self-Instruct]]-style methods, where you create a "seed" of instructions and use an LLM to generate instructions similar to them==.
 		- There are now many ways of doing this, but they're all in the early days of trying to figure out the right ways to add diversity to the dataset.
-	- Today, ==synthetic preference datasets== are starting to emerge. These are mostly scores/asking which is better, analogous to [[MT Bench]] and [[AlpacaEval]] scoring method, but keeping the score or win/loss as a datapoint for training.
+	- Today, ==synthetic preference datasets== are starting to emerge. These are mostly scores/asking which is better, analogous to [[MT-Bench]] and [[AlpacaEval]] scoring method, but keeping the score or win/loss as a datapoint for training.
 		- An example is [[UltraFeedback]], which was used for some of the first open models, highlighting the potential of RLHF methods for chat models, like [[Zephyr]] and Tulu -- this is not normal practice, weeks later.
 			- UltraFeedback collects prompts from user sources like ShareGPT and existing instruction datasets like FLAN, and includes (?) model-generated critiques and completions.
 	- The final frontier is preference or instruction data generated through ==AI critiques==. Critiques are a process of repeatedly using an LLM to fine-tune data with respect to a specific principle or question.

@@ -6,5 +6,7 @@ Abstract
 
 ((We can distill knowledge and instruction-following well, but distilling alignment from larger models is hard!))
 
+There's a model called Notus, which is a variant of Zephyr with better filtered/fixed data.
+
 
 ![[Pasted image 20240418171918.png]]
