@@ -33,7 +33,7 @@ Q: So why do we choose to use Cross-Entropy instead of KL Divergence in most cla
 ----
 
 # Intuitions
-#### 1. Expected Surprise
+#### 1. ==Expected Surprise==
 
 $D_{KL}(P||Q)$  = how much ***==more surprised*==** you would expect to be when observing data with distribution $P$ , if you ***==falsely==*** believed the distribution is $Q$ (vs if you knew the true distribution)
 
