@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "agreement",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,13 +66,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md"
               }
             }
           }
@@ -152,6 +150,9 @@
   },
   "active": "f6c05d899fd6aa67",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240423131159.png",
+    "~ Useful Pictures.md",
+    "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
     "_attachments/Pasted image 20240423003237.png",
     "_attachments/Pasted image 20240423001142.png",
     "~ Quotes.md",
@@ -178,7 +179,6 @@
     "Articles/ML/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
     "_attachments/Pasted image 20240422192715.png",
     "_attachments/Pasted image 20240422192633.png",
-    "_attachments/Pasted image 20240422192137.png",
     "Articles/ML/Are Emergent Abilities of Large Language Models a Mirage? (Dec 2023) {Devansh, Artificial Intelligence Made Simple blog}.md",
     "Bitter Lesson.md",
     "Mutual Information.md",
@@ -186,8 +186,6 @@
     "Kullback-Leibler Divergence.md",
     "MinHash.md",
     "AUC.md",
-    "Recall.md",
-    "F1 Score.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
