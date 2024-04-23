@@ -491,6 +491,7 @@
 - [[ChatML]]
 - [[Airoboros]]
 - [[CCNet]]
+- [[Instructor]]
 
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not genrally datasets that you should train/finetune models on*
