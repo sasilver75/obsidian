@@ -11,6 +11,8 @@
 # Research Ideas
 - The idea of speculative decoding, where you have a smaller model running in parallel to the larger model -- is there a way of doing something like RAG in this manner? Where you're increasing the speed of rag by speculatively retrieving documents that might be needed in the next (eg) paragraph of text?
 - Question@JaredKaplan re: CAI: "Why use a scalar for the reward as opposed to anything else?" -> "Interesting research questions; could imagine a bunch of functions applied to the reward; imagine punishing bad behavior more extremely than good behavior, or changing the way that you sample. We've mostly done the simplest thing, but there's interesting research to be done on variations."
+- [[Stanford Human Preferences|SHP]] uses numbers-of-upvote heuristics on Reddit data to construct a synthetic preference dataset. Is there a way to use some other heuristic (eg some classifier ensemble) (maybe combined with some rewriting) to create a similar dataset that captures some of the false negatives using semantic understanding?
+	- (Oh, is this already what AlpacaFarm, UltraFeedback, Kim et al. 2023, Xu et al., 2023) do?
 
 
 https://x.com/thesephist/status/1734966611814289756?s=20

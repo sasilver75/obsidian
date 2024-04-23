@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,77 +21,12 @@
             }
           },
           {
-            "id": "1e3a330cd8fa34e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Consistency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d7d932147fd0e98",
+            "id": "f6c05d899fd6aa67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "572d341954e84434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Datatrove.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da7bf91c80c44b13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entropy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e60f093126f9200f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4e6d4307ca6ca07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alignment.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -127,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "emergen",
+                "query": "agreement",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,11 +79,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -164,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
               }
             }
           }
@@ -228,42 +165,42 @@
   },
   "active": "03e49820390c3bd4",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240422234034.png",
+    "_attachments/Pasted image 20240422233941.png",
+    "_attachments/Pasted image 20240422232558.png",
+    "_attachments/Pasted image 20240422231723.png",
+    "Direct Preference Optimization.md",
+    "~ Vocabulary.md",
+    "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
+    "_attachments/Pasted image 20240422225602.png",
+    "_attachments/Pasted image 20240422225124.png",
+    "~ Ideas.md",
+    "TL;DR.md",
+    "Self-Consistency.md",
+    "Datatrove.md",
+    "Entropy.md",
+    "Gradual Unfreezing.md",
+    "Discriminative Learning Rate.md",
+    "Alignment.md",
+    "Alpaca.md",
+    "~ Recommendations.md",
     "Recommendation Systems.md",
     "Articles/ML/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
     "_attachments/Pasted image 20240422192715.png",
     "_attachments/Pasted image 20240422192633.png",
-    "Alignment.md",
     "_attachments/Pasted image 20240422192137.png",
-    "Self-Consistency.md",
-    "~ Vocabulary.md",
-    "Datatrove.md",
-    "Entropy.md",
     "_attachments/Pasted image 20240422164530.png",
     "Articles/ML/Are Emergent Abilities of Large Language Models a Mirage? (Dec 2023) {Devansh, Artificial Intelligence Made Simple blog}.md",
     "_attachments/Pasted image 20240422161304.png",
-    "_attachments/Pasted image 20240422161012.png",
     "Bitter Lesson.md",
-    "_attachments/Pasted image 20240422155623.png",
     "Mutual Information.md",
     "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
     "Kullback-Leibler Divergence.md",
-    "_attachments/Pasted image 20240422152543.png",
     "MinHash.md",
     "AUC.md",
     "Recall.md",
     "F1 Score.md",
     "Bloom Filter.md",
-    "Gradual Unfreezing.md",
-    "ULMFiT.md",
-    "Hidden Markov Model.md",
-    "Markov Assumption.md",
-    "ROC Curve.md",
-    "Discriminative Learning Rate.md",
-    "Markov Chain Monte Carlo.md",
-    "Markov Chain.md",
-    "_attachments/Pasted image 20240422144538.png",
-    "_attachments/Pasted image 20240422144317.png",
-    "Precision.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
