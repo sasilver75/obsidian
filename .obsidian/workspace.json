@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
+                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "101e2dc70a180adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf49150864ed4f4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Reward.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
+                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
+                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md"
+                "file": "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
               }
             }
           }
@@ -150,21 +177,26 @@
   },
   "active": "f6c05d899fd6aa67",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240423145655.png",
+    "~ Vocabulary.md",
+    "Self-Reward.md",
+    "Articles/ML/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
+    "_attachments/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects} 2024-04-23 14.01.04.excalidraw.md",
+    "_attachments/Pasted image 20240423140038.png",
+    "_attachments/Pasted image 20240423134726.png",
+    "_attachments/Pasted image 20240423134526.png",
+    "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
     "_attachments/Pasted image 20240423131159.png",
     "~ Useful Pictures.md",
-    "Articles/ML/Illustrating Reinforcement Learning from Human Feedback (RLHF) - (December, 2022) {Nathan Lambert}.md",
     "_attachments/Pasted image 20240423003237.png",
     "_attachments/Pasted image 20240423001142.png",
     "~ Quotes.md",
-    "~ Vocabulary.md",
     "Articles/ML/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "_attachments/Pasted image 20240422234034.png",
     "_attachments/Pasted image 20240422233941.png",
     "_attachments/Pasted image 20240422232558.png",
     "_attachments/Pasted image 20240422231723.png",
     "Direct Preference Optimization.md",
-    "_attachments/Pasted image 20240422225602.png",
-    "_attachments/Pasted image 20240422225124.png",
     "~ Ideas.md",
     "TL;DR.md",
     "Self-Consistency.md",
@@ -177,15 +209,10 @@
     "~ Recommendations.md",
     "Recommendation Systems.md",
     "Articles/ML/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
-    "_attachments/Pasted image 20240422192715.png",
-    "_attachments/Pasted image 20240422192633.png",
     "Articles/ML/Are Emergent Abilities of Large Language Models a Mirage? (Dec 2023) {Devansh, Artificial Intelligence Made Simple blog}.md",
     "Bitter Lesson.md",
     "Mutual Information.md",
     "Articles/ML/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
-    "Kullback-Leibler Divergence.md",
-    "MinHash.md",
-    "AUC.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

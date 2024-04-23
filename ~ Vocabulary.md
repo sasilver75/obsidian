@@ -275,6 +275,7 @@
 - [[Self-Play]]
 - [[Self-Correct]]
 - [[Self-Instruct]]
+- [[Self-Reward]]
 - [[Constitutional AI]]
 - [[Zero-Shot Prompting]]
 - [[Perplexity]] 
