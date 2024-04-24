@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStories.md",
+                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bd3f2200daa2427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LIMA.md",
+                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LIMA.md",
+                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LIMA.md"
+                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md"
               }
             }
           }
@@ -228,19 +241,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4a1a8ad6a69b869",
+  "active": "0d6a1d730aef6208",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "FineWeb.md",
+    "Phi-3.md",
+    "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
+    "_attachments/Pasted image 20240424140022.png",
+    "Articles/ML/7 Tips for Junior Researchers (?) {Ofir Press}.md",
+    "Articles/ML/Untitled.md",
+    "TinyStories.md",
+    "Phi-2.md",
+    "LIMA.md",
     "oasst2.md",
     "oasst1.md",
     "Vicuna.md",
     "Evol-Instruct.md",
     "Alpaca.md",
-    "LIMA.md",
-    "Phi-2.md",
-    "Phi-3.md",
-    "TinyStories.md",
-    "~ Vocabulary.md",
-    "FineWeb.md",
     "_attachments/Pasted image 20240424123058.png",
     "Articles/ML/Instruction Tuning Vol. 2 (Nov 2023) {Sebastian Ruder, NLP News}.md",
     "_attachments/Pasted image 20240424121004.png",
@@ -255,17 +272,12 @@
     "_attachments/Pasted image 20240424114335.png",
     "Dolly.md",
     "_attachments/Pasted image 20240424113026.png",
-    "_attachments/Pasted image 20240424015945.png",
     "Articles/ML/Instruction Tuning Vol. 1 (October 2023) - {Sebastian Ruder, NLP News blog}.md",
     "Articles/ML/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
     "Natural Instructions.md",
     "Super-NaturalInstructions.md",
     "Unnatural Instructions.md",
     "Self-Instruct.md",
-    "FLAN v2.md",
-    "~ Useful Pictures.md",
-    "FLAN.md",
-    "Articles/ML/How to explain gradient boosting (2019?) {Jeremy Howard, Terrence Parr}.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
