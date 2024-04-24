@@ -24,13 +24,8 @@
             "id": "226900cfc56c3f1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Natural Instructions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -101,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural Instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Natural Instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Natural Instructions.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -165,10 +156,26 @@
   },
   "active": "226900cfc56c3f1a",
   "lastOpenFiles": [
-    "Articles/ML/Instruction Tuning Vol. 1 (October 2023) - {Sebastian Ruder, NLP News blog}.md",
+    "Articles/ML/Instruction Tuning Vol. 2 (Nov 2023) {Sebastian Ruder, NLP News}.md",
     "Natural Instructions.md",
-    "_attachments/Pasted image 20240423173921.png",
-    "_attachments/Pasted image 20240423171449.png",
+    "Articles/ML/Instruction Tuning Vol. 1 (October 2023) - {Sebastian Ruder, NLP News blog}.md",
+    "Super-NaturalInstructions.md",
+    "Unnatural Instructions.md",
+    "Self-Instruct.md",
+    "FLAN v2.md",
+    "~ Useful Pictures.md",
+    "FLAN.md",
+    "Instruction-Tuning.md",
+    "_attachments/Pasted image 20240424010636.png",
+    "_attachments/Pasted image 20240424010534.png",
+    "_attachments/Pasted image 20240424010510.png",
+    "_attachments/Pasted image 20240424010422.png",
+    "_attachments/Pasted image 20240424010135.png",
+    "_attachments/Pasted image 20240424010101.png",
+    "_attachments/Pasted image 20240424005919.png",
+    "_attachments/Pasted image 20240424005703.png",
+    "_attachments/Pasted image 20240424005031.png",
+    "_attachments/Pasted image 20240424004927.png",
     "Articles/ML/How to explain gradient boosting (2019?) {Jeremy Howard, Terrence Parr}.md",
     "Gradient Boosting Machine.md",
     "The Stack.md",
@@ -178,9 +185,6 @@
     "Datatrove.md",
     "TRL.md",
     "~ Vocabulary.md",
-    "Articles/ML/Instruction Tuning Vol. 2 (Nov 2023) {Sebastian Ruder, NLP News}.md",
-    "_attachments/Pasted image 20240423160623.png",
-    "_attachments/Pasted image 20240423160617.png",
     "Articles/ML/7 Tips for Junior Researchers.md",
     "Reinforcement Learning from Human Feedback.md",
     "Quantized Low-Rank Adaptation.md",
@@ -188,18 +192,6 @@
     "Unsloth.md",
     "Parameter-Efficient Fine-Tuning.md",
     "Token.md",
-    "Rotary Positional Embedding.md",
-    "Phi-2.md",
-    "Vicuna.md",
-    "Prompting.md",
-    "LIMA.md",
-    "Alpaca.md",
-    "_attachments/Pasted image 20240423145655.png",
-    "_attachments/Pasted image 20240423140038.png",
-    "_attachments/Pasted image 20240423134726.png",
-    "_attachments/Pasted image 20240423134526.png",
-    "_attachments/Pasted image 20240423131159.png",
-    "_attachments/Pasted image 20240423003237.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
