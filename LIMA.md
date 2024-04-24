@@ -4,7 +4,7 @@ aliases:
 ---
 May 18, 2023
 Paper: [Less is More for Alignment](https://arxiv.org/abs/2305.11206v1)
-
+HuggingFace Dataset: https://huggingface.co/datasets/GAIR/lima
 
 Used ==1,000 high-quality examples and fine-tuned using SFT==. The result shows us that ==data quality is the most important factor in performing alignment via SFT==. This smaller model fell only a little short of GPT-4 and Claude in human preferences, despite being only a 65B model!
 

@@ -1,4 +1,8 @@
 #article 
+Link: https://ofir.io/Tips-for-Junior-Researchers/
+
+----
+
 # Research
 
 1. Research is hard and involves a tremendous amount of failure. It's normal to feel like you din't make progress in the past week, month, or year.
