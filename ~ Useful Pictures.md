@@ -238,4 +238,5 @@ From a near Post; This is TruthfulQA https://x.com/nearcyan/status/1782625091156
 
 ![[Pasted image 20240424010636.png]]
 A timeline of public Instruction-Tuning datasets, up to FLAN 2022
-
+![[Pasted image 20240424144735.png]]
+More on Context making static representations of words a silly goal, from CS224U, L2
