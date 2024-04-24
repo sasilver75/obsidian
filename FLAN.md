@@ -1,3 +1,8 @@
+---
+aliases:
+  - FLAN 2021
+---
+
 September 3, 2021
 Paper: [Finetuned Language Models are Zero-Shot Learners](https://arxiv.org/abs/2109.01652) (FLAN = "Finetuned Language Network")
 
@@ -10,3 +15,4 @@ Abstract
 ![[Pasted image 20240417224708.png]]
 
 Formatted more than 60 high-quality NLP datasets into instruction-following datasets. Aims to capture the prior of understanding and respecting textual instructions.
+![[Pasted image 20240424010135.png]]

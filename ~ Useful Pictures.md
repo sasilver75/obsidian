@@ -236,4 +236,6 @@ From a near post: https://twitter.com/nearcyan/status/1782617805827031217 It suc
 ![[Pasted image 20240423003237.png]]
 From a near Post; This is TruthfulQA https://x.com/nearcyan/status/1782625091156922482 It sucks
 
+![[Pasted image 20240424010636.png]]
+A timeline of public Instruction-Tuning datasets, up to FLAN 2022
 

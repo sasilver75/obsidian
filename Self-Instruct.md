@@ -1,5 +1,10 @@
-Dec 20, 2022
+Dec 20, 2022 -- Various universities, including [[Allen Institute]]
 Paper: [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)
+
+- Similar to [[Unnatural Instructions]], [[Self-Instruct]] consists of 82k examples automatically generated using InstructGPT conditioned on a set of *seed task examples* (175 tasks in total; one example per task; 8 examples are sampled for in-context learning).
+- Self-Instruct decouples the example generation by ==first generating the instruction==, ==then the input (conditioned on instruction),== and ==then the output==.
+- For classification tasks, authors choose to instead first generate the possible output labels, and then condition the input generation on each class label, to avoid biasing towards a specific label. 
+- Although the generated instructions are mostly valid, the generated outputs are often noisy.
 
 Related/Improved: [[Evol-Instruct]]
 
@@ -15,3 +20,6 @@ Paper Abstract:
 "How do we expand our data without getting more humans in the loop?"
 - Start with high-quality, human prompts. Ask a strong LM to create a list of similar, but still diverse, prompts.
 - Once you have a list of prompts, use ChatGPT or another model to generate completions -- then you have a very big list of Q/A pairs, but you don't need to go through the bottleneck of having humans sit down and write down either.
+
+
+![[Pasted image 20240424005031.png]]
