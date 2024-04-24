@@ -52,7 +52,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce2350164f438c62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d488461d421ed0bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Singular Value Decomposition.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -179,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md"
+                "file": "Courses/XCS224U/XCS224U Lecture 2.md"
               }
             }
           }
@@ -243,10 +269,17 @@
   },
   "active": "0d6a1d730aef6208",
   "lastOpenFiles": [
+    "GeLU.md",
+    "Courses/XCS224U/XCS224U Lecture 2.md",
+    "_attachments/Pasted image 20240424145940.png",
     "~ Vocabulary.md",
     "FineWeb.md",
-    "Phi-3.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240424144735.png",
+    "_attachments/Pasted image 20240424144447.png",
+    "Singular Value Decomposition.md",
     "Articles/ML/AGI is what you want it to be (April, 2024) {Nathan Lambert, Interconnect}.md",
+    "Phi-3.md",
     "_attachments/Pasted image 20240424140022.png",
     "Articles/ML/7 Tips for Junior Researchers (?) {Ofir Press}.md",
     "Articles/ML/Untitled.md",
@@ -268,16 +301,10 @@
     "Phi-1.md",
     "_attachments/Pasted image 20240424120901.png",
     "Instruction-Tuning.md",
-    "_attachments/Pasted image 20240424114338.png",
-    "_attachments/Pasted image 20240424114335.png",
     "Dolly.md",
-    "_attachments/Pasted image 20240424113026.png",
     "Articles/ML/Instruction Tuning Vol. 1 (October 2023) - {Sebastian Ruder, NLP News blog}.md",
     "Articles/ML/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
     "Natural Instructions.md",
-    "Super-NaturalInstructions.md",
-    "Unnatural Instructions.md",
-    "Self-Instruct.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
