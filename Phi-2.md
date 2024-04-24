@@ -12,3 +12,5 @@ Trained on "text-book quality" synthetic data. Seems to punch above its weight, 
 Adulation for this model was slightly tempered by allegations of (perhaps unintentional) benchmark hacking/leaking. "With only 2.7B parameters, Phi-2 matches the performance of Mistral and Llama-2 models at 7B and 13B parameters on various aggregated benchmarks."
 
 Shows that training data plays a critical role in model performance; Phi-2's training data mixtures contains synthetic datasets specifically created to teach the model common-sense reasoning and general knowledge, including science, daily activities, theory of mind, among others.
+
+![[Pasted image 20240424120912.png]]
