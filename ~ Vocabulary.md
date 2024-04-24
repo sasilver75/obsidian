@@ -44,6 +44,8 @@
 - [[MinHash]]
 - [[Monte-Carlo Tree Search]]
 - [[Bias-Variance Tradeoff]]
+- [[XGBoost]]
+- [[Gradient Boosting Machine]] (GBM)
 
 # RecSys
 - [[Collaborative Filtering]]
