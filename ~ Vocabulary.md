@@ -187,6 +187,7 @@
 - [[RMSNorm]]
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
+- [[LongRope]]
 - [[Attention with Linear Biases]] (ALiBi)
 - [[SPIN]]
 - [[Canary GUID]]
@@ -390,9 +391,11 @@
 - [[Chinchilla]]
 - [[ControlNet]]
 - [[VGGNet]]
+- [[TinyStories]] (Prequel to Phi models)
 - [[Phi-1]]
 - [[Phi-1.5]]
 - [[Phi-2]]
+- [[Phi-3]]
 - [[Flamingo]]
 - [[YOLO]]
 - [[U-Net]]
@@ -545,7 +548,6 @@
 - [[The Pile]]
 - [[CIFAR-10]]
 - [[MNIST]]
-- [[TinyStories]] (The Phi-1.5, Phi-2 dataset)
 - [[LAION-400M]]
 - [[LAION-5B]]
 - [[MMC4]] (Multimodal C4)

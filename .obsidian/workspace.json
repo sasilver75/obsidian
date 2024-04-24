@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/ML/Instruction Tuning Vol. 1 (October 2023) - {Sebastian Ruder, NLP News blog}.md",
+                "file": "Phi-3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,15 +21,85 @@
             }
           },
           {
-            "id": "226900cfc56c3f1a",
+            "id": "e304d1d833b90f88",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "FineWeb.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fed97382c727910",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d6a1d730aef6208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TinyStories.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e51d59938fb65b80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phi-3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79eee42dca69c52d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phi-2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4a1a8ad6a69b869",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LIMA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -96,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LIMA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LIMA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LIMA.md"
+              }
             }
           }
         ],
@@ -154,44 +228,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "226900cfc56c3f1a",
+  "active": "d4a1a8ad6a69b869",
   "lastOpenFiles": [
+    "oasst2.md",
+    "oasst1.md",
+    "Vicuna.md",
+    "Evol-Instruct.md",
+    "Alpaca.md",
+    "LIMA.md",
+    "Phi-2.md",
+    "Phi-3.md",
+    "TinyStories.md",
+    "~ Vocabulary.md",
+    "FineWeb.md",
+    "_attachments/Pasted image 20240424123058.png",
     "Articles/ML/Instruction Tuning Vol. 2 (Nov 2023) {Sebastian Ruder, NLP News}.md",
-    "Natural Instructions.md",
+    "_attachments/Pasted image 20240424121004.png",
+    "_attachments/Pasted image 20240424120925.png",
+    "_attachments/Pasted image 20240424120912.png",
+    "Phi-1.5.md",
+    "_attachments/Pasted image 20240424120908.png",
+    "Phi-1.md",
+    "_attachments/Pasted image 20240424120901.png",
+    "Instruction-Tuning.md",
+    "_attachments/Pasted image 20240424114338.png",
+    "_attachments/Pasted image 20240424114335.png",
+    "Dolly.md",
+    "_attachments/Pasted image 20240424113026.png",
+    "_attachments/Pasted image 20240424015945.png",
     "Articles/ML/Instruction Tuning Vol. 1 (October 2023) - {Sebastian Ruder, NLP News blog}.md",
+    "Articles/ML/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md",
+    "Natural Instructions.md",
     "Super-NaturalInstructions.md",
     "Unnatural Instructions.md",
     "Self-Instruct.md",
     "FLAN v2.md",
     "~ Useful Pictures.md",
     "FLAN.md",
-    "Instruction-Tuning.md",
-    "_attachments/Pasted image 20240424010636.png",
-    "_attachments/Pasted image 20240424010534.png",
-    "_attachments/Pasted image 20240424010510.png",
-    "_attachments/Pasted image 20240424010422.png",
-    "_attachments/Pasted image 20240424010135.png",
-    "_attachments/Pasted image 20240424010101.png",
-    "_attachments/Pasted image 20240424005919.png",
-    "_attachments/Pasted image 20240424005703.png",
-    "_attachments/Pasted image 20240424005031.png",
-    "_attachments/Pasted image 20240424004927.png",
     "Articles/ML/How to explain gradient boosting (2019?) {Jeremy Howard, Terrence Parr}.md",
-    "Gradient Boosting Machine.md",
-    "The Stack.md",
-    "MergeKit.md",
-    "MT-Bench.md",
-    "Self-Reward.md",
-    "Datatrove.md",
-    "TRL.md",
-    "~ Vocabulary.md",
-    "Articles/ML/7 Tips for Junior Researchers.md",
-    "Reinforcement Learning from Human Feedback.md",
-    "Quantized Low-Rank Adaptation.md",
-    "Low-Rank Adaptation.md",
-    "Unsloth.md",
-    "Parameter-Efficient Fine-Tuning.md",
-    "Token.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
