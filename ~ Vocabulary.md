@@ -278,6 +278,7 @@
 - [[Self-Play]]
 - [[Self-Correct]]
 - [[Self-Instruct]]
+- [[Web Rephrase Augmented Pre-training]] (WRAP) (Rephrasing the Web)
 - [[Self-Reward]]
 - [[Constitutional AI]]
 - [[Zero-Shot Prompting]]
@@ -622,6 +623,7 @@
 - [[Cerebras]]  🟧
 - [[LMSYS]] ⚔️
 - [[Salesforce Research]]  💼
+- [[Apple]] 
 
 
 # People
