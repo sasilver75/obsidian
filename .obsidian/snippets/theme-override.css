@@ -1,1 +1,74 @@
-.MathJax { font-size: 1.8em; }
+.MathJax {
+    font-size: 1.8em;
+}
+
+/* These only seem to change them in reading mode */
+/* h1 {
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, rgba(198, 255, 221, 1) 0%, rgba(255, 224, 155, 1) 53%, rgba(255, 200, 202, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    background: radial-gradient(circle, rgba(255, 239, 186, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+/* Backup that works for all */
+/* .cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4, .cm-header-5, .cm-header-6 {
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, rgba(198, 255, 221, 1) 0%, rgba(255, 224, 155, 1) 53%, rgba(255, 200, 202, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.cm-header-1 {
+    font-size: 36px !important;
+    font-weight: 900;
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, #B2A4FF 0%, #FFB4B4 27%, #FFDEB4 53%, #FDF7C3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cm-header-2 {
+    font-weight: 900;
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, #D14D72 0%, #FFABAB 27%, #FCC8D1 53%, #FEF2F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cm-header-3 {
+    font-weight: 900;
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, #C4DFDF 0%, #D2E9E9 27%, #E3F4F4 53%, #F8F6F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cm-header-4 {
+    font-weight: 900;
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, #B799FF 0%, #ACBCFF 27%, #AEE2FF 53%, #E6FFFD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cm-header-5 {
+    font-weight: 900;
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, #73A9AD 0%, #B3C890 27%, #DBDFAA 53%, #F5F0BB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cm-header-6 {
+    font-weight: 900;
+    background: rgb(198, 255, 221);
+    background: radial-gradient(circle, #F2BED1 0%, #FDCEDF 27%, #F8E8EE 53%, #F9F5F6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

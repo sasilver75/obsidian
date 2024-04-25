@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f2c79c27174e41c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "01fd11a3b6eabcad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/CS224N/CS224N Lecture 7.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,13 +65,20 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "59090bd7d5886a5c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -100,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
+                "file": "Courses/CS224N/CS224N Lecture 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
+                "file": "Courses/CS224N/CS224N Lecture 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,12 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md"
+                "file": "Courses/CS224N/CS224N Lecture 7.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,24 +156,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f2c79c27174e41c5",
+  "active": "01fd11a3b6eabcad",
   "lastOpenFiles": [
+    "Direct Preference Optimization.md",
+    "Courses/CS224N/CS224N Lecture 7.md",
+    "~ Vocabulary.md",
+    "Vision Transformer.md",
+    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
+    "Pythia Paper Club.md",
+    "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
     "_attachments/Pasted image 20240424233115.png",
     "Papers/Transformer Paper {Attention is all you need}.md",
-    "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
     "_attachments/Pasted image 20240424230009.png",
     "_attachments/Pasted image 20240424225515.png",
     "_attachments/Pasted image 20240424225324.png",
     "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
     "Papers/Untitled.md",
     "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md",
-    "~ Vocabulary.md",
     "Amplify-Instruct.md",
     "Papers/The Bitter Lesson Paper.md",
     "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
     "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
     "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
-    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
     "Speculative Decoding.md",
     "Natural Instructions.md",
     "XGBoost.md",
@@ -190,16 +188,12 @@
     "LAION-Aesthetics.md",
     "LAION.md",
     "Rotary Positional Embedding.md",
-    "Beam Search.md",
     "_attachments/Pasted image 20240424185707.png",
     "_attachments/Pasted image 20240424185642.png",
-    "Tulu 2.md",
-    "Tulu.md",
     "_attachments/Pasted image 20240424155945.png",
     "_attachments/Pasted image 20240424155551.png",
     "_attachments/Pasted image 20240424154559.png",
     "_attachments/Pasted image 20240424153738.png",
-    "_attachments/Pasted image 20240424145940.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

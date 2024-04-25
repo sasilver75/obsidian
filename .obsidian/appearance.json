@@ -1,8 +1,9 @@
 {
   "accentColor": "",
   "baseFontSize": 10,
-  "theme": "obsidian",
+  "theme": "system",
   "enabledCssSnippets": [
     "theme-override"
-  ]
+  ],
+  "cssTheme": "Minimal"
 }
