@@ -46,6 +46,8 @@
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
 - [[Gradient Boosting Machine]] (GBM)
+- [[Cross-Validation]]
+- [[Classification]]
 
 # RecSys
 - [[Collaborative Filtering]]
@@ -102,7 +104,6 @@
 - [[Latent Diffusion Model]]
 - [[Latent Consistency Model]]
 - [[Parameter-Efficient Fine-Tuning]]
-- [[Classification]]
 - [[Quantization]]
 - [[Model Pruning]]
 - [[Masking]]
@@ -645,7 +646,8 @@
 - [[Andrej Karpathy]] 🐐
 - [[Andrew Ng]] 🤴
 - [[Yoshua Bengio]] 🙀
-- [[Jurgen Schmidhuber]] 🧌
+- [[Samy Bengio]] 🧌
+- [[Jurgen Schmidhuber]] ☝️
 - [[Stuart Russell]] 👨‍🦳
 - [[Peter Norvig]] 👨‍🦳
 - [[Richard Sutton]] 👨‍🦳

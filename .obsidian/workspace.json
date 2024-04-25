@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3a5ecdb42032173",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Synthetic Data.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f2c79c27174e41c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,54 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amplify-Instruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4534cabc72cd8527",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "18e306ed2e508ba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amplify-Instruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b85728620b0d28b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Natural Instructions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Speculative Decoding.md"
+                "file": "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md"
               }
             }
           }
@@ -217,42 +164,42 @@
   },
   "active": "f2c79c27174e41c5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240424233115.png",
+    "Papers/Transformer Paper {Attention is all you need}.md",
+    "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
+    "_attachments/Pasted image 20240424230009.png",
+    "_attachments/Pasted image 20240424225515.png",
+    "_attachments/Pasted image 20240424225324.png",
+    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+    "Papers/Untitled.md",
+    "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md",
+    "~ Vocabulary.md",
+    "Amplify-Instruct.md",
+    "Papers/The Bitter Lesson Paper.md",
+    "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
+    "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
+    "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
+    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
+    "Speculative Decoding.md",
+    "Natural Instructions.md",
+    "XGBoost.md",
+    "~ Ideas.md",
+    "Synthetic Data.md",
     "Speculative Sampling.md",
     "KV Cache.md",
     "LAION-Aesthetics.md",
     "LAION.md",
     "Rotary Positional Embedding.md",
     "Beam Search.md",
-    "Synthetic Data.md",
-    "Amplify-Instruct.md",
-    "Speculative Decoding.md",
     "_attachments/Pasted image 20240424185707.png",
     "_attachments/Pasted image 20240424185642.png",
     "Tulu 2.md",
     "Tulu.md",
-    "Zephyr.md",
-    "Direct Preference Optimization.md",
     "_attachments/Pasted image 20240424155945.png",
     "_attachments/Pasted image 20240424155551.png",
-    "~ Vocabulary.md",
-    "Natural Instructions.md",
-    "Web Rephrase Augmented Pre-training.md",
     "_attachments/Pasted image 20240424154559.png",
-    "Super-NaturalInstructions.md",
-    "UltraFeedback.md",
-    "Phi-3.md",
-    "FineWeb.md",
-    "~ Useful Pictures.md",
-    "Singular Value Decomposition.md",
-    "Phi-2.md",
-    "LIMA.md",
     "_attachments/Pasted image 20240424153738.png",
-    "Courses/XCS224U/XCS224U Lecture 2.md",
-    "GeLU.md",
     "_attachments/Pasted image 20240424145940.png",
-    "_attachments/Pasted image 20240424144735.png",
-    "_attachments/Pasted image 20240424144447.png",
-    "_attachments/Pasted image 20240424140022.png",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
