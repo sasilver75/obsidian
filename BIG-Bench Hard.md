@@ -2,7 +2,7 @@
 aliases:
   - BBH
 ---
-October 17, 2022 -- [[Google Brain]], Stanford (but recall this is really just a subset of BIG-Bench problems)
+October 17, 2022 -- [[Google Research]], Stanford (but recall this is really just a subset of BIG-Bench problems)
 Paper: [Challenging BIG-Bench Tasks and whether Chain-of-Thought can Solve Them](https://arxiv.org/abs/2210.09261)
 
 Just a harder subset of tasks from [[BIG-Bench]]

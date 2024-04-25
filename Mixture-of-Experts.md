@@ -13,3 +13,7 @@ Examples (roughly chronological):
 - [[Switch Transformer]]
 - [[GLaM]]
 - [[MegaBlocks]]
+
+*Conventional* explanation for MoE:
+- While Attention layers implement algorithms for reasoning, MLP layers store knowledge.
+- Thus, by MoE-ifying MLPs, we're supposed to get a boost in knowledge.

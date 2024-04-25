@@ -2,6 +2,10 @@
     font-size: 1.8em;
 }
 
+* {
+   font-size: 12px;
+}
+
 #calendar-container .today {
     color: orange;
     font-weight: 600;

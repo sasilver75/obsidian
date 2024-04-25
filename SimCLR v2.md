@@ -1,4 +1,4 @@
-June 17, 2020 (4 months after [[SimCLR]]) -- [[Google Brain]] 
+June 17, 2020 (4 months after [[SimCLR]]) -- [[Google Research]] 
 Paper: [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029)
 
 Like its predecessor [[SimCLR]], it uses a contrastive loss function to bind image and language modalities.

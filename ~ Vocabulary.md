@@ -180,6 +180,7 @@
 - [[Synthetic Data]]
 - [[Mixture-of-Experts]] (MoE)
 - [[Soft Mixture of Experts]] (sMoE)
+- [[Mixture-of-Depths]] (MoD)
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
 - [[RMSNorm]]
@@ -588,7 +589,7 @@
 - [[TogetherAI]]  🤝
 - [[OpenAI]]  👺
 - [[Anthropic]]  👨
-- [[Google Brain]]  🧠
+- [[Google Research]]  🧠
 - [[HuggingFace]] 🤗
 - [[Inflection]] ☠️
 - [[DeepMind]]  🧠

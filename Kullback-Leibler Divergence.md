@@ -1,10 +1,15 @@
 ---
 aliases:
   - KL-Divergence
+  - Relative Entropy
+  - Forward KL Divergence
 ---
 References:
 - https://youtu.be/SxGYPqCgJWM?si=CKmBi34_mv0oayTZ
 - https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence
+- [Video: KL Divergence - CLEARLY Explained! ~ Kapil Sachdeva](https://youtu.be/9_eZHt2qJs4?si=SveGupYXpPJ5VOHe)
+
+
 
 
 $D_{KL}(P||Q) = \sum_{x\exists{X}}{P(x)log(\dfrac{P(x)}{Q(x)})}$ 
@@ -15,7 +20,12 @@ Captures distances between probability distributions. It is a non-symmetric meas
 
 Minimizing the Cross Entropy Loss is equivalent to minimizing the KL loss. Since the CE Loss has a simpler form, it's become (one of) the standard loss functions.
 
----
+Variants:
+- ==Forward KL Divergence== (from p, the reference distribution, to q, the approximating distribution. This is the one we use in ML; it's mean-seeking)
+- ==Reverse KL Divergence== (from q, the approximating distribution, to p, the reference distribution. Mode-seeking behavior.)
+
+ 
+- ---
 Relationship between KL Divergence and [[Cross-Entropy]]
 - Both metrics aim to measure how one distribution differs from a second, reference probability distribution. When applied to the problem of classification.
 - When applied to the problem of classification, where we're comparing a predicted distribution $Q$ against a true distribution $P$ , the KL divergence becomes part of the cross-entropy formula!
@@ -30,6 +40,9 @@ Given two distributions, this makes sense that ==minimizing the CE and minimizin
 Q: So why do we choose to use Cross-Entropy instead of KL Divergence in most classification task losses?
 - Primarily due to the fact that Cross Entropy is formulated in a way that is computationally convenient and interpretable in the context of classification problems -- it directly ties to maximizing the likelihood of the observed data under the model, which is a fundamental principle in statistical modeling.
 
+
+![[Pasted image 20240425160031.png]]
+![[Pasted image 20240425160043.png]]
 ----
 
 # Intuitions

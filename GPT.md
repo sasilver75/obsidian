@@ -1,4 +1,4 @@
-A family of language modesl from [[OpenAI]]
+A family of language models from [[OpenAI]]
 
 [[GPT-1]]
 [[GPT-2]]

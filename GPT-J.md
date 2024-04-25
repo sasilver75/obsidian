@@ -4,3 +4,6 @@ A 6-B parameter English [[Decoder-Only Architecture]] language model trained on 
 
 There wasn't a specific paper detailing GPT- -- instead, Eleuther provided some documentation and blog posts explaining the development 
 
+
+![[Pasted image 20240425142057.png]]
+![[Pasted image 20240425142105.png]]

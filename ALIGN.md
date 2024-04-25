@@ -3,7 +3,7 @@ aliases:
   - A Large-Scale Image and Noisy-Text Embedding
 ---
 
-February 11, 2021 -- [[Google Brain]]
+February 11, 2021 -- [[Google Research]]
 Paper: [Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918)
 
 Vision-language contrastive-loss dual-encoder architecture can still get a SoTA result from noisy public alt-text image/text pairs, as long as you scale the dataset to be quite large!
