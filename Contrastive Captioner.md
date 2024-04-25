@@ -2,7 +2,7 @@
 aliases:
   - CoCa
 ---
-May 4, 2022 -- [[Google Brain]]
+May 4, 2022 -- [[Google Research]]
 Paper: [CoCa: Contrastive Captioners are Image-Text Foundation Models]()
 
 An image-text encoder-decoder foundation model trained with BOTH a ==contrastive loss== and a ==captioning loss==, combing approaches like [[CLIP]] as well as generative methods like [[SimVLM]].

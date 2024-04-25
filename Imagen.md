@@ -1,5 +1,5 @@
 
-May 23, 2022 -- [[Google Brain]]
+May 23, 2022 -- [[Google Research]]
 Paper: [Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487)
 
 A relatively-early text-to-image [[Diffusion Model]] from Google.

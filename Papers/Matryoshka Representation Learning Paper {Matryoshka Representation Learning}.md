@@ -1,4 +1,4 @@
-May 26, 2022 -- UW, [[Google Brain]], Harvard
+May 26, 2022 -- UW, [[Google Research]], Harvard
 Link [Matryoshka Representation Learning](https://arxiv.org/abs/2205.13147?utm_source=substack&utm_medium=email)
 
 This is an interesting paper because it took about a year after it was published for it to get some attention.

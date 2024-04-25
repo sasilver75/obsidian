@@ -12,10 +12,13 @@
   "minimal-style@@titlebar-text-color-focused@@dark": "#FFFFFF",
   "minimal-advanced@@cursor": "default",
   "minimal-advanced@@styled-scrollbars": false,
-  "minimal-style@@hl2@@dark": "#00FD3463",
+  "minimal-style@@hl2@@dark": "#00FFE145",
   "minimal-style@@title-color@@light": "#FFFFFF",
   "minimal-style@@title-color@@dark": "#FFFFFF",
   "minimal-style@@inline-title-weight": 900,
   "minimal-style@@inline-title-color@@light": "#00AEFF",
-  "minimal-style@@inline-title-color@@dark": "#FFFFFF"
+  "minimal-style@@inline-title-color@@dark": "#FFFFFF",
+  "minimal-style@@code-size": "13px",
+  "minimal-advanced@@font-ui-small": 16,
+  "minimal-advanced@@font-ui-smaller": 11
 }

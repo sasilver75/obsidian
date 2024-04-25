@@ -19,3 +19,4 @@ Variants:
 - ada (June 2020; 40M)
 - Codex/code-davinci-002 (August 2021; 14.8B, GPT-3 fine-tuned on code)
 
+![[Pasted image 20240425141916.png]]

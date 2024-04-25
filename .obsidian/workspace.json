@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9026754a8cfb8abe",
+        "id": "ddda8ee96c8caf73",
         "type": "tabs",
         "children": [
           {
-            "id": "bff72ce52b517c3a",
+            "id": "c77e25d706eb4f93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d89f205e48f3d7f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +32,105 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "ddda8ee96c8caf73",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c77e25d706eb4f93",
+            "id": "83073dd870419e72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attention.md",
+                "file": "Mixture-of-Depths.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c7f567257f0c538",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mixture-of-Depths.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6dd270f0d7362f8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mixture-of-Experts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37f1ba84886bad60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6bedc9c6fc220b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RoBERTa.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efb18f4ee03ddfd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPT-3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0f2dd223cd2d63e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Positional Encoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72d1225166ed0930",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Google Research.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -114,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attention.md",
+                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attention.md",
+                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attention.md"
+                "file": "Courses/CS25/CS25 V4 Lecture 4.md"
               }
             }
           },
@@ -179,9 +277,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Attention.md",
+                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -192,17 +290,17 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": false,
-                  "textFadeMultiplier": 0,
+                  "textFadeMultiplier": -3,
                   "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
+                  "lineSizeMultiplier": 5,
+                  "collapse-forces": false,
                   "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.4182190325289998,
+                  "scale": 0.6963334670110288,
                   "close": true
                 }
               }
@@ -212,7 +310,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,42 +325,42 @@
   },
   "active": "c77e25d706eb4f93",
   "lastOpenFiles": [
-    "Low-Rank Adaptation.md",
+    "_attachments/Pasted image 20240425164841.png",
+    "_attachments/Pasted image 20240425164827.png",
     "~ Vocabulary.md",
-    "Instruction-Tuning.md",
-    "AGIEval.md",
-    "AI21.md",
-    "Alpaca.md",
-    "Allen Institute.md",
-    "Dolma.md",
-    "AlpacaEval.md",
-    "AdamW.md",
-    "Courses/CS224N/CS224N Lecture 9.md",
-    "Courses/CS224N/CS224N Lecture 7.md",
-    "Direct Preference Optimization.md",
-    "Vision Transformer.md",
-    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
-    "Pythia Paper Club.md",
-    "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
-    "_attachments/Pasted image 20240424233115.png",
-    "Papers/Transformer Paper {Attention is all you need}.md",
-    "_attachments/Pasted image 20240424230009.png",
-    "_attachments/Pasted image 20240424225515.png",
-    "_attachments/Pasted image 20240424225324.png",
-    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
-    "Papers/Untitled.md",
-    "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md",
-    "Amplify-Instruct.md",
-    "Papers/The Bitter Lesson Paper.md",
-    "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
-    "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
-    "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
-    "_attachments/Pasted image 20240424185707.png",
-    "_attachments/Pasted image 20240424185642.png",
-    "_attachments/Pasted image 20240424155945.png",
-    "_attachments/Pasted image 20240424155551.png",
-    "_attachments/Pasted image 20240424154559.png",
-    "_attachments/Pasted image 20240424153738.png",
+    "Mixture-of-Depths.md",
+    "Courses/CS25/CS25 V4 Lecture 4.md",
+    "Mixture-of-Experts.md",
+    "_attachments/Pasted image 20240425164004.png",
+    "_attachments/Pasted image 20240425163900.png",
+    "_attachments/Pasted image 20240425163440.png",
+    "_attachments/Pasted image 20240425163358.png",
+    "_attachments/Pasted image 20240425163302.png",
+    "Courses/CS25/CS24 V4 Lecture 3.md",
+    "Kullback-Leibler Divergence.md",
+    "_attachments/Pasted image 20240425160043.png",
+    "_attachments/Pasted image 20240425160031.png",
+    "Courses/XCS224U/XCS224U Lecture 3.md",
+    "_attachments/Pasted image 20240425151728.png",
+    "RoBERTa.md",
+    "_attachments/Pasted image 20240425145421.png",
+    "Courses/XCS224U/XCS224U Lecture 4.md",
+    "Bidirectional Encoder Representations from Transformers.md",
+    "Google Research.md",
+    "Masked Language Model.md",
+    "GPT-3.md",
+    "GPT.md",
+    "GPT-NeoX.md",
+    "GPT-J.md",
+    "BLOOM.md",
+    "OPT.md",
+    "Positional Encoding.md",
+    "GPT-2.md",
+    "GPT-1.md",
+    "Teacher Forcing.md",
+    "Student Forcing.md",
+    "Courses/XCS224U/XCS224U Lecture 2.md",
+    "Courses/CS224N/CS224N Lecture 4.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

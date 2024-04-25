@@ -3,7 +3,7 @@ aliases:
   - FLAN 2022
 ---
 
-Jan 31, 2023 -- [[Google Brain]]
+Jan 31, 2023 -- [[Google Research]]
 Paper: [The Flan Collection: Designing Data and Methods for Effective Instruction-Tuning](https://arxiv.org/abs/2301.13688)
 HuggingFace Dataset card: [FLAN v2](https://huggingface.co/datasets/philschmid/flanv2)
 
