@@ -147,7 +147,6 @@ Question: How do we train an NMT system?
 
 Once we have these parallel sentences, what we do is take batches of source sentences and target sentences, encode the source sentence with our encoder LSTM, feed the final hidden state into a target LSTM, and then train word-by-word by predicting the next word and comparing it to the actual next word, determining some loss.
 
-
 # Multi-Layer RNNs (stacked RNNs)
 - RNNs are already "Deep" in one dimesnion (when we unroll them over many timesteps)
 - We can also make them "deep" in another dimension by applying multiple RNNs! This is a multi-layer RNN!
@@ -172,7 +171,7 @@ When we build one of these end-to-end Neural Machine Translation (NMT) systems, 
 
 It's almost invariably the case that a 2 layer LSTM is better than a 1 layer LSTM; after that, things become less clear. 
 
-# Decodcing Strategies
+# Decoding Strategies
 - The simplest way to decode is to take the most probable token in our output distribution; this is called [[Greedy Decoding]], and it's sort of the obvious thing to do, and doesn't seeeem like it could be a bad thing to do, but it turns out that it can be a fairly problematic thing to do!
 - ==Problems with Greedy decoding==
 	- You're takin what locally seems like the best choice, and then you're stuck with it, and there's no way to undo that decision later!

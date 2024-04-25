@@ -1,3 +1,4 @@
+
 # Linear Algebra
 - [[Dot Product]]
 - [[Cosine Similarity]]
@@ -15,7 +16,7 @@
 # Probability/Statistics
 - ...
 
-# Analytics/Misc
+# Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
 - [[Precision]]
@@ -48,11 +49,8 @@
 - [[Gradient Boosting Machine]] (GBM)
 - [[Cross-Validation]]
 - [[Classification]]
-
-# RecSys
 - [[Collaborative Filtering]]
 - [[Content-Based Filtering]]
-
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -633,7 +631,7 @@
 - [[Daphne Koeller]] 👩
 - [[Melanie Mitchell]] 👩
 - [[Percy Liang]] 🧍
-- [[Ilya Sutskever]] 👣
+- [[Ilya Sutskever]] 🫥
 - [[Greg Brockman]] 🗿
 - [[Sam Altman]] 👹
 - [[Clem Delangue]] 🤗
