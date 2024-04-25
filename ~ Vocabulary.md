@@ -15,7 +15,6 @@
 
 # Probability/Statistics
 - ...
-
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]

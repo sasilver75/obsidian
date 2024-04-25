@@ -4,16 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d1cb71feae54dccb",
+        "id": "9026754a8cfb8abe",
         "type": "tabs",
         "children": [
           {
-            "id": "01fd11a3b6eabcad",
+            "id": "bff72ce52b517c3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ddda8ee96c8caf73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c77e25d706eb4f93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attention.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -94,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md",
+                "file": "Attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md",
+                "file": "Attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +154,65 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS224N/CS224N Lecture 7.md"
+                "file": "Attention.md"
               }
+            }
+          },
+          {
+            "id": "ace0e39b92066d5f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
+      },
+      {
+        "id": "8a022290161ffefa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27a2719527686342",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Attention.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4182190325289998,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,11 +224,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "01fd11a3b6eabcad",
+  "active": "c77e25d706eb4f93",
   "lastOpenFiles": [
-    "Direct Preference Optimization.md",
-    "Courses/CS224N/CS224N Lecture 7.md",
+    "Low-Rank Adaptation.md",
     "~ Vocabulary.md",
+    "Instruction-Tuning.md",
+    "AGIEval.md",
+    "AI21.md",
+    "Alpaca.md",
+    "Allen Institute.md",
+    "Dolma.md",
+    "AlpacaEval.md",
+    "AdamW.md",
+    "Courses/CS224N/CS224N Lecture 9.md",
+    "Courses/CS224N/CS224N Lecture 7.md",
+    "Direct Preference Optimization.md",
     "Vision Transformer.md",
     "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
     "Pythia Paper Club.md",
@@ -178,16 +256,6 @@
     "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
     "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
     "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
-    "Speculative Decoding.md",
-    "Natural Instructions.md",
-    "XGBoost.md",
-    "~ Ideas.md",
-    "Synthetic Data.md",
-    "Speculative Sampling.md",
-    "KV Cache.md",
-    "LAION-Aesthetics.md",
-    "LAION.md",
-    "Rotary Positional Embedding.md",
     "_attachments/Pasted image 20240424185707.png",
     "_attachments/Pasted image 20240424185642.png",
     "_attachments/Pasted image 20240424155945.png",

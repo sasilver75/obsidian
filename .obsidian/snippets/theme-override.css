@@ -2,30 +2,13 @@
     font-size: 1.8em;
 }
 
-/* These only seem to change them in reading mode */
-/* h1 {
-    background: rgb(198, 255, 221);
-    background: radial-gradient(circle, rgba(198, 255, 221, 1) 0%, rgba(255, 224, 155, 1) 53%, rgba(255, 200, 202, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+#calendar-container .today {
+    color: orange;
+    font-weight: 600;
+  }
 
-h2 {
-    background: radial-gradient(circle, rgba(255, 239, 186, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
-/* Backup that works for all */
-/* .cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4, .cm-header-5, .cm-header-6 {
-    background: rgb(198, 255, 221);
-    background: radial-gradient(circle, rgba(198, 255, 221, 1) 0%, rgba(255, 224, 155, 1) 53%, rgba(255, 200, 202, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
+/* Gradient headers from https://forum.obsidian.md/t/creating-clean-gradient-headers/65935 */
 .cm-header-1 {
-    font-size: 36px !important;
     font-weight: 900;
     background: rgb(198, 255, 221);
     background: radial-gradient(circle, #B2A4FF 0%, #FFB4B4 27%, #FFDEB4 53%, #FDF7C3 100%);
