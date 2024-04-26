@@ -186,7 +186,8 @@
 - [[RMSNorm]]
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
-- [[LongRope]]
+- [[LongRoPE]]
+- [[YaRN]]
 - [[Attention with Linear Biases]] (ALiBi)
 - [[SPIN]]
 - [[Canary GUID]]
@@ -219,6 +220,7 @@
 - [[Negative Prompt]]
 - [[LLM-as-a-Judge]]
 - [[Continual Pretraining]]
+- [[False Refuse]]
 
 # Information Retrieval Concepts
 - [[BM25]]
@@ -390,6 +392,8 @@
 - [[LLaMA]]
 - [[LLaMA 2]]
 - [[LLaMA 3]]
+- [[LLaMA Guard]]
+- [[LLAMA Guard 2]]
 - [[Chinchilla]]
 - [[ControlNet]]
 - [[VGGNet]]
