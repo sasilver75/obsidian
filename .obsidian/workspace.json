@@ -21,6 +21,45 @@
             }
           },
           {
+            "id": "c7f03871567d1eb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BEIR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cfb50ebbd64156c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba3bb397ea0b6509",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Late Interaction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0bc0f0c368dd78a3",
             "type": "leaf",
             "state": {
@@ -247,9 +286,15 @@
   },
   "active": "c77e25d706eb4f93",
   "lastOpenFiles": [
+    "BEIR.md",
+    "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
+    "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Bi-Encoder.md",
+    "_attachments/Pasted image 20240425230234.png",
+    "_attachments/Pasted image 20240425230222.png",
+    "Late Interaction.md",
     "_attachments/Pasted image 20240425221743.png",
     "ColBERT.md",
-    "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
     "_attachments/Pasted image 20240425221326.png",
     "GPT-3.md",
     "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
@@ -262,11 +307,8 @@
     "_attachments/Pasted image 20240425210019.png",
     "_attachments/Pasted image 20240425205751.png",
     "_attachments/Pasted image 20240425205010.png",
-    "_attachments/Pasted image 20240425204943.png",
     "Natural Language Inference.md",
     "Question Answering.md",
-    "_attachments/Pasted image 20240425204626.png",
-    "_attachments/Pasted image 20240425204610.png",
     "Bidirectional Encoder Representations from Transformers.md",
     "DeBERTa.md",
     "GLUE.md",
@@ -280,9 +322,6 @@
     "Distillation.md",
     "Courses/CS25/CS25 V4 Lecture 2.md",
     "~ Ideas.md",
-    "Mixture-of-Depths.md",
-    "Mixture-of-Experts.md",
-    "Courses/CS25/CS24 V4 Lecture 3.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
