@@ -676,3 +676,4 @@
 - [[Dario Amodei]] ⚛️
 - [[Alex Krizhevsky]] 🐐
 - [[Nils Reimers]] 👨‍🔬
+- [[Omar Khattab]] 📂

@@ -2,7 +2,7 @@
 aliases:
   - BERT
 ---
-October 11, 2018
+October 11, 2018 -- [[Google Research]]
 Paper: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 
 Known limitations (From Devlin et al, 2019, and Yang et al, 2019):
@@ -18,3 +18,7 @@ Abstract:
 ![[Pasted image 20240124182739.png]]
 
 ![[Pasted image 20240425144622.png]]
+
+![[Pasted image 20240425191148.png]]
+![[Pasted image 20240425191735.png]]
+Above: The segment embeddings denote whether a token belongs to "sentence A" or "sentence B", for the Next-Sentence-Prediction objective (later dropped by [[RoBERTa]])

@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65e395f187bdaffb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bidirectional Encoder Representations from Transformers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +137,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
+                "file": "Bidirectional Encoder Representations from Transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
+                "file": "Bidirectional Encoder Representations from Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 3.md"
+                "file": "Bidirectional Encoder Representations from Transformers.md"
               }
             }
           },
@@ -265,7 +279,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
+                "file": "Bidirectional Encoder Representations from Transformers.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -311,16 +325,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c77e25d706eb4f93",
+  "active": "65e395f187bdaffb",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240425191735.png",
+    "_attachments/Pasted image 20240425191148.png",
+    "_attachments/Pasted image 20240425144622.png",
+    "Bidirectional Encoder Representations from Transformers.md",
+    "GPT-1.md",
+    "Semi-Supervised Learning.md",
+    "~ Vocabulary.md",
+    "Courses/XCS224U/XCS224U Lecture 4.md",
+    "Courses/XCS224U/XCS224U Lecture 3.md",
     "_attachments/Pasted image 20240425183814.png",
     "DeBERTa.md",
-    "Courses/XCS224U/XCS224U Lecture 3.md",
     "GLUE.md",
     "_attachments/Pasted image 20240425183324.png",
     "Distillation.md",
     "BART.md",
-    "~ Vocabulary.md",
     "Courses/CS25/CS25 V4 Lecture 2.md",
     "T5.md",
     "_attachments/Pasted image 20240425180847.png",
@@ -330,8 +351,6 @@
     "ELECTRA.md",
     "_attachments/Pasted image 20240425180150.png",
     "_attachments/Pasted image 20240425175926.png",
-    "_attachments/Pasted image 20240425175727.png",
-    "Courses/XCS224U/XCS224U Lecture 4.md",
     "~ Ideas.md",
     "Mixture-of-Depths.md",
     "Mixture-of-Experts.md",
@@ -341,14 +360,9 @@
     "Positional Encoding.md",
     "Google Research.md",
     "Courses/CS25/CS25 V4 Lecture 4.md",
-    "_attachments/Pasted image 20240425165851.png",
-    "_attachments/Pasted image 20240425165821.png",
     "Kullback-Leibler Divergence.md",
-    "Bidirectional Encoder Representations from Transformers.md",
     "Masked Language Model.md",
     "GPT.md",
-    "GPT-NeoX.md",
-    "GPT-J.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
