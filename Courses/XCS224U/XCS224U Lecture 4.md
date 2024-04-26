@@ -97,19 +97,123 @@ We'll see that this is just the start of a very rich set of options that we can 
 
 Above: Term A gets a TF IDF value of 0, because it occurs in all documents, so ends up with an IDF value of zero.
 
-TF-IDF values are at their lowest for words that 
+
+![[Pasted image 20240426134723.png|200]]
+==With TF-IDF, we're looking for words that are *truly* distinguishing indicators of a document.== 
+- TF-IDF reaches *maximum values*  for terms that are *very frequent* in a small number of documents
+- TF-IDF reaches *minimum* values for terms that are *very infrequent* in a *very large* number of documents (but it's also very small for terms that are very frequent in almost every document, like "and")
+
+
+To calculate relevance scores for a given query with multiple terms, we do a 
+![[Pasted image 20240426134914.png]]
+Where here, Weight would be the TF-IDF score.
+
+
+# BM 25
+- [[BM25]] stands for "Best Match, Attempt #25", a classical IR approach whose name suggests a lot of exploration of the hyperparameters of the model that work best
+	- It's an enduringly good solution taht's sort of an enhanced version of TF-IDF
+
+![[Pasted image 20240426135115.png|400]]
+- We begin with smooth IDF values (with a little bit of adjustment to handle the undefined case that we might worry about)
+- We then have a Scoring component, which is sort of analaogus to Term Freqeuncy; we also have two hyperparameters k and b
+- The BM25 weight is then a combination of the adjusted, smooth IDF values and the Scoring values (analagous to term frequency).
+
+Let's look at the individual components, starting with the Smoothed IDF
+
+#### BM25: Smoothed IDF term (+s hyperparameter)
+![[Pasted image 20240426135151.png|300]]
+- This very closely matches the standard IDF values
+
+![[Pasted image 20240426135210.png|300]]
+- As we vary the $s$ hyperpameter, we see that we very closely mirror the results of the usual IDF from TF-IDF, with small differences.
+
+#### BM25: Scoring Function component (+b, k hyperparameters)
+
+![[Pasted image 20240426135301.png|400]]
+The scoring function is more nuanced, as result of having more hyperparameters
+- Term Frequency on the X axis, BM25 score on the Y axis
+- If the document has average document length of 10, then as our example document becomes long relative ot its average doc length of 5 or 3, we can see that the score goes down; when our document is large relative to the average, score is dimished.
+	- Intuition: Long documents, as a result of being long, contain more terms; we should "trust" the terms they *do* contain less, as a consequence
+
+![[Pasted image 20240426135434.png|400]]
+- The $b$ hyperparameter controls the amount of the document length penalty described above. Higher values of b mean more of a penalty given to long documents.
+- Again, we have a target document of length 10, and an average document of length 5; As we increase the $b$ value, we see a lower BM25 score as a result of a greater penalty.
+- Right: If your document has length 10, and the average length in the corpus is also 10, then the b hyperparameter doesn't make any difference, because the parenthetical penalty term just becomes 1.
+
+
+![[Pasted image 20240426140547.png]]
+- The $k$ hyperparamter has the effect of flattening out higher frequencies.
+	- Think about the extreme situation in which k is very very low. In this situation, you're essentially turning the scoring function into an indicator function (see right side, red line). "You appeared, I don't care how many times you appear."
+	- As you make k larger, you get less and less of a dramatic effect, and you care more and more about how many times the document appears. 
+	- Something like 1.2 is a more realistic value; as you get *very frequently* occurring terms, we begin to sort of taper off our weighting of it.
 
 
 
+## Inverted Indices
+![[Pasted image 20240426142835.png|300]]
+Let's return to our inverted index (going from terms:documents, rather than documents:terms) from classic information retrieval!
+- We can now ==AUGMENT THIS with precomputed IDF values==:
+	- ((It sounds like we can do this offline? that makes sense, perhaps, because you only have TF-IDF scores for the words in your document, and you know what those are (and what the other documents are) ahead of time))
+
+![[Pasted image 20240426142907.png|300]]
+
+This is an essential ingredient as to why these approaches are so scalable.
 
 
 
+## Beyond Term Matching
+- We can expand the Query and Document, augmenting what the user gives us, and what's in our corpus, with metadata.
+- Move to phrase-level search; we've moved to UniGrams, but we could use N-Grams, or more sophisticated notions.
+- We haven't considered "term dependence"; Bigrams like "New York" are important; we should be thinking about how these terms have their own statistical interdependencies and bring them into search functionality.
+- Documents aren't homogenous; words in Titles and words in Body are different, and might inherently have different relevance models. Our best search technologies should be aware of this
+- Link analysis (eg Pagerank); How do the documents in our corpus form an implicit graph based on how they hyperlink to eachother.
+- Learning to rank! Learn functionality for what's relevant, given queries. An important feature of Neural IR models that we've discussed.
+
+Tools for classical IR 
+- ElasticSearch
+- Pyserini, PrimeQA (research repositories that could be useful when setting up classic search things as baselines, or using them compositionally in hybrid search)
 
 
+----
+
+# IR Metrics
+
+- There are many ways to assess the quality of IR systems
+	1. ==Accuracy-style metrics==: these will be our focus
+	2. ==Latency==: Time to execute a single query; incredibly important in industrial contexts -- users demand low-latency systems. You often see accuracy/latency paired.
+	3. ==Throughput==: Total queries served in a fixed time, perhaps via batch processing. Sometimes related to latency; you might sacrifice per-query speed to process batches efficiently.
+	4. ==FLOPs==: A hardware-agnostic measure of compute resources; Hard to measure/reason-about, but might be a good summary method
+	5. ==Disk usage==: For the model, index, etc. If we're going to index the whole web, the cost of storing it all on disk might be very large.
+	6. ==Memory usage==: For the model. index, etc.
+	7. ==Cost==: Total cost of deployment for a system; summarizes all of 2-6, in a way.
+		- If we want great latency, so we store everything in memory, but this is very expensive.
+		- We might then cut costs my making our system smaller, but that would lead to a loss in accuracy.
 
 
+## Relevance Data Types
+- Given a query q and a collection of N documents D:
+	1. One data type you might have is a complete partial gold ranking **D** = [doc1, ... docN] of D, with respect to a query q; you'd need to do this for every query in your dataset.
+		- Inordinately expensive; if you have these, it was likely automatically generated.
+	2. An incomplete partial ranking of D with respect to q.
+	3. Labels for which passages in D are relevant to q
+		- Simply binary judgements for whether documents in our corpus are relevant to a given query. Could be based on human labeling or on some [[Weak Supervision]] heuristic; i.e. whether the document contains parts of the query as a substring. This can be noisy, but also powerful when it comes to training good IR systems.
+	4. A tuple consisting of one positive document $doc^+$ for q, and one or more negative docs $doc^-$ for our query.
 
 
+## Metrics: Success and Reciprocal Rank
+
+![[Pasted image 20240426144456.png]]
+[[Rank]], [[Success]], [[Reciprocal Rank]], and [[Mean Reciprocal Rank]]
+
+![[Pasted image 20240426144829.png]]
+Comparing [[Success]] and [[Reciprocal Rank]]
+Which of these is the best metric? It's not clear. For either of these metrics though, we really only care about *one star* (where the star here represents that some retrieved document is ground-truth *relevant* to a query)
+
+
+## Precision and Recall
+
+The ==Return Set== of a ranking at value K is the set of documents at or above K in D.
+Ret(D, K) 
 
 
 

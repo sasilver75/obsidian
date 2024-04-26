@@ -2,7 +2,7 @@
 aliases:
   - GPT-Generated Unified Format
 ---
-A file format for models introduced as a successor to GGML, released in August 2023.
+A file format for models introduced as a ==successor to [[GGML]]==, released in August 2023.
 
 Represents a step forward, facilitating enhanced storage and processing of large language models like GPT.
 

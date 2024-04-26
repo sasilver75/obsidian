@@ -223,15 +223,15 @@
 - [[False Refuse]]
 
 # Information Retrieval Concepts
+- [[TF-IDF]]
 - [[BM25]]
-- [[Hierarchical Navigable Small Worlds]]
+- [[Hierarchical Navigable Small Worlds]] (HNSW)
 - [[Locality Sensitive Hashing]]
 - [[Reranking]]
 - [[Inverted Index]]
 - [[Sparse Retrieval]]
 - [[Dense Retrieval]]
 - [[Hybrid Search]]
-- [[TF-IDF]]
 - [[ColBERT]]
 - [[ColBERTv2]]
 - [[Discounted Cumulative Gain]]
@@ -250,6 +250,9 @@
 - [[REALM]]
 - [[FLARE]]
 - [[CRAG]]
+- [[Success]]
+- [[Reciprocal Rank]]
+- [[Mean Reciprocal Rank]]
 
 # Natural Language Processing Concepts
 - Tasks
