@@ -248,7 +248,7 @@ Recall that we noted some limitations of BERT, which included (among others):
 - A mismatch between pre-training and fine-tuning, since the MASK token isn't seen during fine-tuning.
 - The second downside of using an MLM is that only 15% of tokens are predicted in each batch. Only 15% even contribute to the MLM objective, despite processing every item in the sequence -- this isn't very data efficient!
 
-[[Electra]] aims to improve on this:
+[[ELECTRA]] aims to improve on this:
 
 ![[Pasted image 20240425151728.png]]
 - Given sequence $x$ : the chef cooked the meal
@@ -260,4 +260,114 @@ Recall that we noted some limitations of BERT, which included (among others):
 
 Includes rich studies about how to set up the generator
 
+![[Pasted image 20240425175727.png]]
+The best results come from having a generator that is small, compared to the discriminator.
+The intuition here is that it's kind of good to have a weak generator so that the discriminator has a lot of interesting/hard work to do.
 
+![[Pasted image 20240425175926.png]]
+Lot better training efficiency, relative to competitors.
+
+Further ELECTRA efficiency analyses
+
+
+# (7/9) Seq2Seq Architectures
+
+Lets talk about some tasks with a natural sequence-to-sequence structures to them:
+1. [[Machine Translation]] (language to language)
+2. [[Summarization]] (long text in, shorter out comes out, summarizing input)
+3. Free-form [[Question Answering]] (Question+Context -> Answer)
+4. Dialogue (utterance -> utterance)
+5. Semantic parsing (sentence -> logical form)
+6. Code generation (Natural language sentence -> program the sentence describes)
+
+These are all special cases of the more-general *encoder-decoder* problems which is more agnostic about whether the encoding/decoding involve sequences or not.
+
+#### From the RNN Era
+
+![[Pasted image 20240425180436.png]]
+- Class RNN formulation of a Seq2Seq problem; 
+- Introduction of LSTMs to help the decoder remember what was in the encoding part; We see in the Transformer paper a full embrace of the attention mechanism as the primary mechanism, and removal of recurrent mechanisms.
+
+![[Pasted image 20240425180513.png]]
+- Left: Encoder-Decoder, where we fully encode the input on the left side, and then, perhaps with fully different parameters, do a decoding, attending in some way over the encoder state(s).
+- Middle: We could also process these sequences with a standard Language Model; characteristic attention mask, where we can only attend to the past, even for the part that we think of as the encoded part.
+- Right: We could do a full attention connections... where... we can have every element attend to every other element, and then when we start doing decoding, *that's* when the mask can only look into the past, not the future.
+
+The middle and right options have become very popular lately.
+
+## Encoder-Decoder Model: T5
+- An encoder-decoder model that had extensive multi-task unsupervised and supervised training.
+- An innovative thing that gives us a glimpse of what was *about* to happen with In-Context learning is provide instructions: "translate English to German: That is good"
+![[Pasted image 20240425180815.png|300]]
+- We express all these tasks as natural language, which guides the model's behavior as if those task instructions were themselves something like structured information.
+
+## Encoder-Decoder Model: BART
+- The essence is that on the encoder side we have a BERT-like architecture, and on the decoder side a GPT-like architecture.
+- Unique about [[BART]] is the pretraining: Taking corrupted sequences and figuring out how to uncorrupt them.
+	- Text-infilling (whole parts of input are masked/removed)
+	- Sentence-shuffling
+	- token masking
+	- Token deletion
+	- Document rotation
+- The found the most effective was a combination of the text-infilling and sentence-shuffling, and having the model learn to uncorrupt the sequences.
+
+
+# (8/9) Distillation
+- Seeking models that are more efficient to use at inference time, but nonetheless performant -- [[Distillation]] is a set of techniques for doing that.
+
+Name of the game:
+- We have a ==Teacher model==, a performant, generally large model; the goal is to train a smaller ==Student model== that has very similar performance/behavior to the teacher, but is nonetheless much more efficient to use.
+
+Various ways of doing it:
+- Lightweight: Have the student mimic the teacher, in terms of its input/output behavior
+- Deeper: Train the student to have internal representation that are similar to the teacher's.
+
+Possible Distillation objectives, from least-to-most heavy duty (weighted averages of elements of this list are common):
+0. Distill student by training on Gold data for the task
+1. Train the student to have the same outputs as the teacher.
+	- This doesn't actually require that you have the teacher at distillation time, just a dataset of labeled results.
+2. Train the student to have the same *output scores* as the teacher
+	- The centerpiece of one of the most famous distillation papers, *Hinton et al, 2015*
+	- Requires the teacher at distillation time, because we require those score vectors.
+	- ((This usually refers to the softmax output of the teacher model; the *probabilities*))
+3. Train the student to have the same final *output states*
+	- Requires much more access to the teacher at distillation time
+	- From the [[DistilBERT]] paper
+	- ((This usually refers to the raw logits from the final layer of the teacher model, before the softmax function is applied; more fine-grained information about the model's decision-making process. The cosine loss suggests that the student model is trained to match the *direction* of these logit vectors, rather than the exact values)).
+4. Train the student to have similar hidden states and embeddings as the teacher
+	- With an intuition that the student will be more powerful and alike the teacher if it has similar internal representations
+	- Requires full access to teacher @ distillation time
+1. Train the student to mimic the counterfactual behavior of the teacher under interventions -- instances where we change the internal state of the teacher, and do the same corresponding thing to the student, and make sure they have corresponding behavior.
+	- This is relatively new, Chris Potts involved 
+	- Requires full access to teacher @ distillation time
+
+
+Modes of distillation:
+1. Standard distillation: Teacher has frozen parameters, only the student parameters are updated
+2. Multi-teacher distillation: Simultaneously try to distill various teachers into a single student that can perhaps perform multiple tasks
+3. Co-distillation: Student and teacher and trained jointly. Also called "online distillation" (Anil et al, 2018)
+4. Self-distillation: The objective includes terms that seek to make some model components align with others from the same model (Zhang et al. 2019)
+
+
+Distillation has been applied in many domains; We can increase efficiency with almost no loss in performance. 
+![[Pasted image 20240425183324.png|300]]
+These converge on the same lesson: We can make BERT much smaller by distilling into a much smaller student that still performs very well on (eg) [[GLUE]]
+
+
+# (9/9) Other noteworthy architectures
+- [[Transformer-XL]] (2019): Long context via recurrent connections to previous (frozen) states
+- [[XLNet]] (2019): Bidirectional context with an autoregressive language modeling loss, done via sampling different sequence orders.
+- [[DeBERTa]] (2021): Separate representations for word and positions, with distinct attention connections. Decouples word and position by decoupling representations, and having distinct attention mechanisms to each part.
+
+### BERT: Known limitations
+![[Pasted image 20240425183814.png]]
+
+### Current Trends
+- Autoregressive architectures have taken over, but possibly because the field is so focused on generation.
+- Bidirectional models like BERT might still have the edge over models like GPT when ti comes to representation.
+- Seq2Seq models are still a dominant choice for tasks with that structure.
+- People are still obsessed with scaling up to ever-larger LMs, but we're seeing a counter-movement towards "smaller" models (still ~10B parameters).
+	- There are a lot of incentives that will encourage small models to become very god
+		- Can deploy in more places
+		- Can train more efficiently
+		- Might have more control of them for things we want to do

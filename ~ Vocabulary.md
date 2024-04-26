@@ -370,6 +370,8 @@
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]
 - [[RoBERTa]]
+- [[ELECTRA]]
+- [[BART]]
 - [[DeBERTa]]
 - [[GPT-2]]
 - [[GPT-3]]
