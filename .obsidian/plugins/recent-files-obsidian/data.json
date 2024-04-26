@@ -1,36 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "XCS224U Lecture 4",
+      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Rank",
+      "path": "Rank.md"
+    },
+    {
+      "basename": "Success",
+      "path": "Success.md"
+    },
+    {
+      "basename": "Reciprocal Rank",
+      "path": "Reciprocal Rank.md"
+    },
+    {
+      "basename": "Low-Rank Adaptation",
+      "path": "Low-Rank Adaptation.md"
+    },
+    {
+      "basename": "Mean Reciprocal Rank",
+      "path": "Mean Reciprocal Rank.md"
+    },
+    {
       "basename": "TF-IDF",
       "path": "TF-IDF.md"
     },
     {
-      "basename": "LLaMA 3",
-      "path": "LLaMA 3.md"
+      "basename": "Information Retrieval",
+      "path": "Information Retrieval.md"
     },
     {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "LLaMA",
-      "path": "LLaMA.md"
-    },
-    {
-      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "Meta AI Research",
-      "path": "Meta AI Research.md"
-    },
-    {
-      "basename": "LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}",
-      "path": "Articles/LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}.md"
+      "basename": "BM25",
+      "path": "BM25.md"
     },
     {
       "basename": "Context Distillation",
       "path": "Context Distillation.md"
+    },
+    {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
     },
     {
       "basename": "Reinforcement Learning from Human Feedback",
@@ -39,10 +55,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "LLAMA Guard 2",
@@ -61,36 +73,12 @@
       "path": "LongRoPE.md"
     },
     {
-      "basename": "False Refuse",
-      "path": "False Refuse.md"
-    },
-    {
-      "basename": "~ Quotes",
-      "path": "~ Quotes.md"
-    },
-    {
-      "basename": "Grouped Query Attention",
-      "path": "Grouped Query Attention.md"
-    },
-    {
-      "basename": "BEIR",
-      "path": "BEIR.md"
-    },
-    {
       "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
       "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
     },
     {
       "basename": "Late Interaction",
       "path": "Late Interaction.md"
-    },
-    {
-      "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
-      "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
-    },
-    {
-      "basename": "Bi-Encoder",
-      "path": "Bi-Encoder.md"
     },
     {
       "basename": "ColBERT",
@@ -101,16 +89,68 @@
       "path": "GPT-3.md"
     },
     {
+      "basename": "GGUF",
+      "path": "GGUF.md"
+    },
+    {
+      "basename": "GGML",
+      "path": "GGML.md"
+    },
+    {
+      "basename": "Grouped Query Attention",
+      "path": "Grouped Query Attention.md"
+    },
+    {
+      "basename": "CS224N Lecture 4",
+      "path": "Courses/CS224N/CS224N Lecture 4.md"
+    },
+    {
+      "basename": "LLaMA 3",
+      "path": "LLaMA 3.md"
+    },
+    {
+      "basename": "LLaMA",
+      "path": "LLaMA.md"
+    },
+    {
+      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Meta AI Research",
+      "path": "Meta AI Research.md"
+    },
+    {
+      "basename": "LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}",
+      "path": "Articles/LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}.md"
+    },
+    {
+      "basename": "False Refuse",
+      "path": "False Refuse.md"
+    },
+    {
+      "basename": "~ Quotes",
+      "path": "~ Quotes.md"
+    },
+    {
+      "basename": "BEIR",
+      "path": "BEIR.md"
+    },
+    {
+      "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
+      "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
+    },
+    {
+      "basename": "Bi-Encoder",
+      "path": "Bi-Encoder.md"
+    },
+    {
       "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
       "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
     },
     {
       "basename": "A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}",
       "path": "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md"
-    },
-    {
-      "basename": "XCS224U Lecture 4",
-      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
     },
     {
       "basename": "Natural Language Inference",
@@ -159,46 +199,6 @@
     {
       "basename": "XCS224U Lecture 3",
       "path": "Courses/XCS224U/XCS224U Lecture 3.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "CS25 V4 Lecture 2",
-      "path": "Courses/CS25/CS25 V4 Lecture 2.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Mixture-of-Depths",
-      "path": "Mixture-of-Depths.md"
-    },
-    {
-      "basename": "Mixture-of-Experts",
-      "path": "Mixture-of-Experts.md"
-    },
-    {
-      "basename": "CS24 V4 Lecture 3",
-      "path": "Courses/CS25/CS24 V4 Lecture 3.md"
-    },
-    {
-      "basename": "RoBERTa",
-      "path": "RoBERTa.md"
-    },
-    {
-      "basename": "Positional Encoding",
-      "path": "Positional Encoding.md"
-    },
-    {
-      "basename": "Google Research",
-      "path": "Google Research.md"
-    },
-    {
-      "basename": "CS25 V4 Lecture 4",
-      "path": "Courses/CS25/CS25 V4 Lecture 4.md"
     }
   ],
   "omittedPaths": [],

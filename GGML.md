@@ -4,7 +4,7 @@ aliases:
 ---
 A File Format (also a tensor library designed for ML, facilitating large models and high performance on various hardware, including Apple Silicon)
 
-c.f. [[GGUF]], the successor to GGML
+==Later succeeded by [[GGUF]]==
 
 Pros:
 - Early innovation: An early attempt to create a file format for GPT models

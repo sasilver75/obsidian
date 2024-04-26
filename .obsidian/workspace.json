@@ -8,267 +8,59 @@
         "type": "tabs",
         "children": [
           {
+            "id": "811d129a9d074ae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c1468a71a701c8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90239732b601e7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rank.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b28bf3351dba38e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Success.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c5f77ecbc3bb73a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d93c6028eb621ad9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Context Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a00dd030fa12c2d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da9811217fb59bbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning from Human Feedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bcd813a1eaffe006",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f38901629fc42d03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLAMA Guard 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "214678c780b33071",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA Guard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b89caceb37d7f1bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3c23bd31749bc99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YaRN.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d3b27d8d1939792",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LongRoPE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3a3b65fc4cf6a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning from Human Feedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4b8d59a2ff5f9ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "556a4ad28148aa63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e027b847429d40fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grouped Query Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f61d67557f179994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7f03871567d1eb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BEIR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cfb50ebbd64156c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba3bb397ea0b6509",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Late Interaction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bc0f0c368dd78a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ColBERT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4eb30c1cb49a261",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GPT-3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d3692f02421ccc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -280,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 20
+        ]
       }
     ],
     "direction": "vertical"
@@ -310,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"controls the\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -357,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -374,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TF-IDF.md"
+                "file": "Courses/XCS224U/XCS224U Lecture 4.md"
               }
             }
           },
@@ -422,7 +213,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -468,44 +259,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3d3692f02421ccc3",
+  "active": "811d129a9d074ae9",
   "lastOpenFiles": [
-    "LLaMA 3.md",
-    "LLaMA 2.md",
-    "LLaMA.md",
-    "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
-    "Meta AI Research.md",
-    "Articles/LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}.md",
-    "Context Distillation.md",
-    "_attachments/Pasted image 20240426132401.png",
-    "Reinforcement Learning from Human Feedback.md",
-    "_attachments/Pasted image 20240426132052.png",
-    "_attachments/Pasted image 20240426132028.png",
-    "_attachments/Pasted image 20240426132023.png",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240426130927.png",
-    "_attachments/Pasted image 20240426130848.png",
     "~ Vocabulary.md",
+    "Rank.md",
+    "Success.md",
+    "Reciprocal Rank.md",
+    "Courses/XCS224U/XCS224U Lecture 4.md",
+    "_attachments/Pasted image 20240426144829.png",
+    "Low-Rank Adaptation.md",
+    "Mean Reciprocal Rank.md",
+    "TF-IDF.md",
+    "_attachments/Pasted image 20240426144735.png",
+    "_attachments/Pasted image 20240426144643.png",
+    "_attachments/Pasted image 20240426144634.png",
+    "_attachments/Pasted image 20240426144456.png",
+    "_attachments/Pasted image 20240426144438.png",
+    "_attachments/Pasted image 20240426144430.png",
+    "_attachments/Pasted image 20240426144352.png",
+    "Information Retrieval.md",
+    "BM25.md",
+    "_attachments/Pasted image 20240426142907.png",
+    "_attachments/Pasted image 20240426142835.png",
+    "Context Distillation.md",
+    "LLaMA 2.md",
+    "Reinforcement Learning from Human Feedback.md",
+    "~ Useful Pictures.md",
     "LLAMA Guard 2.md",
-    "_attachments/Pasted image 20240426125123.png",
     "LLaMA Guard.md",
     "YaRN.md",
     "LongRoPE.md",
-    "False Refuse.md",
-    "_attachments/Pasted image 20240426121952.png",
-    "~ Quotes.md",
-    "_attachments/Pasted image 20240426021803.png",
-    "_attachments/Pasted image 20240426020800.png",
-    "Grouped Query Attention.md",
-    "BEIR.md",
     "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Late Interaction.md",
-    "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
-    "Bi-Encoder.md",
     "ColBERT.md",
     "GPT-3.md",
-    "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
-    "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
+    "GGUF.md",
+    "GGML.md",
+    "Grouped Query Attention.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
