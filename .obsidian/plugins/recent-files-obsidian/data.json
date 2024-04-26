@@ -5,6 +5,22 @@
       "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
     },
     {
+      "basename": "BEIR",
+      "path": "BEIR.md"
+    },
+    {
+      "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Bi-Encoder",
+      "path": "Bi-Encoder.md"
+    },
+    {
+      "basename": "Late Interaction",
+      "path": "Late Interaction.md"
+    },
+    {
       "basename": "ColBERT",
       "path": "ColBERT.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Instruction-Tuning",
       "path": "Instruction-Tuning.md"
-    },
-    {
-      "basename": "AGIEval",
-      "path": "AGIEval.md"
-    },
-    {
-      "basename": "AI21",
-      "path": "AI21.md"
-    },
-    {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
-    },
-    {
-      "basename": "Allen Institute",
-      "path": "Allen Institute.md"
     }
   ],
   "omittedPaths": [],
