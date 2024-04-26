@@ -100,7 +100,39 @@ MoE compression is different from normal model compression.
 # Interpretation of MoEs
 - Deep NNs are hard to interpret, since weights and activations live in high-dimensional spaces
 - Attention offers SOME interpretation opportunity, but quickly gets messy as we get more attention heads.
-- The gating layer in SMoEs tells you which experts are looking at which tokens --- can we then make sense out of this?)
+- The gating layer in SMoEs tells you which experts are looking at which tokens --- can we then make sense out of this?
+- 
+- 
+
+## Myth 4: You want experts to specialize in domains
+- It doesn't happen in reality; it seems they specialize almost at token levels
+
+
+# Treasure hunt
+- Someone tried removing the i'th expert from all of the layers of Mixtral, and saw:
+![[Pasted image 20240425165821.png|300]]
+It seems, if you remove the third expert, that the accuracy just collapses -- intriguing!
+![[Pasted image 20240425165851.png|300]]
+Meme: Expert 3 is doing all the work
+
+Research question: How do we interpret MoE decisions? What are the features that they're learning?
+- Experts might capture features that are very different concepts than what WE se as concepts!
+- Might be more efficient to represent linear combinations of concepts ... ((?))
+
+
+Conclusion
+- Sparse MoE models leverage sparsity to gain more knowledge
+- You can train very good MoEs to be efficient at inference
+- Expert specialization isn't as straightforward as you might think!
+
+
+
+
+
+
+
+
+
 
 
 
