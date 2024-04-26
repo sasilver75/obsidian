@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
+                "file": "~ Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
+                "file": "~ Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
+                "file": "~ Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS25/CS25 V4 Lecture 4.md"
+                "file": "~ Ideas.md"
               }
             }
           },
@@ -277,7 +277,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS25/CS25 V4 Lecture 4.md",
+                "file": "~ Ideas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -325,11 +325,13 @@
   },
   "active": "c77e25d706eb4f93",
   "lastOpenFiles": [
+    "Courses/CS25/CS25 V4 Lecture 4.md",
+    "_attachments/Pasted image 20240425165851.png",
+    "_attachments/Pasted image 20240425165821.png",
     "_attachments/Pasted image 20240425164841.png",
     "_attachments/Pasted image 20240425164827.png",
     "~ Vocabulary.md",
     "Mixture-of-Depths.md",
-    "Courses/CS25/CS25 V4 Lecture 4.md",
     "Mixture-of-Experts.md",
     "_attachments/Pasted image 20240425164004.png",
     "_attachments/Pasted image 20240425163900.png",
@@ -339,11 +341,8 @@
     "Courses/CS25/CS24 V4 Lecture 3.md",
     "Kullback-Leibler Divergence.md",
     "_attachments/Pasted image 20240425160043.png",
-    "_attachments/Pasted image 20240425160031.png",
     "Courses/XCS224U/XCS224U Lecture 3.md",
-    "_attachments/Pasted image 20240425151728.png",
     "RoBERTa.md",
-    "_attachments/Pasted image 20240425145421.png",
     "Courses/XCS224U/XCS224U Lecture 4.md",
     "Bidirectional Encoder Representations from Transformers.md",
     "Google Research.md",
