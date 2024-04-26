@@ -13,7 +13,98 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "525d5c4491db27cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeBERTa.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd0ca5b242afbb85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GLUE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b74e5a8bfd8e3cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BART.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d9d5c376a0d98fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "T5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8f846d2dc6bcf7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9027252c43885bbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BART.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "129d16dd822d5f71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ELECTRA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -27,110 +118,6 @@
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83073dd870419e72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mixture-of-Depths.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c7f567257f0c538",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mixture-of-Depths.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dd270f0d7362f8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mixture-of-Experts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37f1ba84886bad60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CS25/CS24 V4 Lecture 3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6bedc9c6fc220b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RoBERTa.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efb18f4ee03ddfd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GPT-3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0f2dd223cd2d63e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Positional Encoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72d1225166ed0930",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Google Research.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -191,7 +178,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -212,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Ideas.md"
+                "file": "Courses/XCS224U/XCS224U Lecture 3.md"
               }
             }
           },
@@ -277,7 +265,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 3.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -325,41 +313,42 @@
   },
   "active": "c77e25d706eb4f93",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240425183814.png",
+    "DeBERTa.md",
+    "Courses/XCS224U/XCS224U Lecture 3.md",
+    "GLUE.md",
+    "_attachments/Pasted image 20240425183324.png",
+    "Distillation.md",
+    "BART.md",
+    "~ Vocabulary.md",
+    "Courses/CS25/CS25 V4 Lecture 2.md",
+    "T5.md",
+    "_attachments/Pasted image 20240425180847.png",
+    "_attachments/Pasted image 20240425180815.png",
+    "_attachments/Pasted image 20240425180513.png",
+    "_attachments/Pasted image 20240425180436.png",
+    "ELECTRA.md",
+    "_attachments/Pasted image 20240425180150.png",
+    "_attachments/Pasted image 20240425175926.png",
+    "_attachments/Pasted image 20240425175727.png",
+    "Courses/XCS224U/XCS224U Lecture 4.md",
+    "~ Ideas.md",
+    "Mixture-of-Depths.md",
+    "Mixture-of-Experts.md",
+    "Courses/CS25/CS24 V4 Lecture 3.md",
+    "RoBERTa.md",
+    "GPT-3.md",
+    "Positional Encoding.md",
+    "Google Research.md",
     "Courses/CS25/CS25 V4 Lecture 4.md",
     "_attachments/Pasted image 20240425165851.png",
     "_attachments/Pasted image 20240425165821.png",
-    "_attachments/Pasted image 20240425164841.png",
-    "_attachments/Pasted image 20240425164827.png",
-    "~ Vocabulary.md",
-    "Mixture-of-Depths.md",
-    "Mixture-of-Experts.md",
-    "_attachments/Pasted image 20240425164004.png",
-    "_attachments/Pasted image 20240425163900.png",
-    "_attachments/Pasted image 20240425163440.png",
-    "_attachments/Pasted image 20240425163358.png",
-    "_attachments/Pasted image 20240425163302.png",
-    "Courses/CS25/CS24 V4 Lecture 3.md",
     "Kullback-Leibler Divergence.md",
-    "_attachments/Pasted image 20240425160043.png",
-    "Courses/XCS224U/XCS224U Lecture 3.md",
-    "RoBERTa.md",
-    "Courses/XCS224U/XCS224U Lecture 4.md",
     "Bidirectional Encoder Representations from Transformers.md",
-    "Google Research.md",
     "Masked Language Model.md",
-    "GPT-3.md",
     "GPT.md",
     "GPT-NeoX.md",
     "GPT-J.md",
-    "BLOOM.md",
-    "OPT.md",
-    "Positional Encoding.md",
-    "GPT-2.md",
-    "GPT-1.md",
-    "Teacher Forcing.md",
-    "Student Forcing.md",
-    "Courses/XCS224U/XCS224U Lecture 2.md",
-    "Courses/CS224N/CS224N Lecture 4.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
