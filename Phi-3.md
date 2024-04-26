@@ -9,7 +9,7 @@ Model family:
 	- Very similar to LLaMA 2 structure; same tokenizer as LLaMA and vocab size of ~32k
 	- Can run quantized on an iPhone; Open weights, MIT license
 	- Did chat fine-tuning (SFT, DPO); it's not just a base model
-	- Uses [[LongRope]] to extend context
+	- Uses [[LongRoPE]] to extend context
 - Phi-3-small (7B, 4.8T tokens), still training at paper release time
 	- In this case, stepped slightly away from LLaMA-style architecture, using [[Tiktoken]] tokenizer and a vocabulary size of ~100k.
 	- [[Grouped Query Attention]]

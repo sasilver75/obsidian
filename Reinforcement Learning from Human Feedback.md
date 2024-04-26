@@ -16,6 +16,11 @@ Abstract
 
 ![[Pasted image 20240415231812.png]]
 
-
-
 ![[Pasted image 20240418171453.png]]
+
+
+![[Pasted image 20240426021803.png]]
+An awesome picture from the [[LLaMA 2]] technical report showing how the RLHF process shifts the generated texts towards higher rewards. The X axis is "Reward Model Score".
+
+![[Pasted image 20240426132052.png]]
+Showing the improvement on Helpfulness and Harmlessness benchmarks from both human and LM judges as we do multiple rounds of SFT and then RLHFing

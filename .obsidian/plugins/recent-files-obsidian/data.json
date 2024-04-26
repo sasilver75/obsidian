@@ -1,8 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
-      "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
+      "basename": "TF-IDF",
+      "path": "TF-IDF.md"
+    },
+    {
+      "basename": "LLaMA 3",
+      "path": "LLaMA 3.md"
+    },
+    {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
+    },
+    {
+      "basename": "LLaMA",
+      "path": "LLaMA.md"
+    },
+    {
+      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Meta AI Research",
+      "path": "Meta AI Research.md"
+    },
+    {
+      "basename": "LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}",
+      "path": "Articles/LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}.md"
+    },
+    {
+      "basename": "Context Distillation",
+      "path": "Context Distillation.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Human Feedback",
+      "path": "Reinforcement Learning from Human Feedback.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "LLAMA Guard 2",
+      "path": "LLAMA Guard 2.md"
+    },
+    {
+      "basename": "LLaMA Guard",
+      "path": "LLaMA Guard.md"
+    },
+    {
+      "basename": "YaRN",
+      "path": "YaRN.md"
+    },
+    {
+      "basename": "LongRoPE",
+      "path": "LongRoPE.md"
+    },
+    {
+      "basename": "False Refuse",
+      "path": "False Refuse.md"
+    },
+    {
+      "basename": "~ Quotes",
+      "path": "~ Quotes.md"
+    },
+    {
+      "basename": "Grouped Query Attention",
+      "path": "Grouped Query Attention.md"
     },
     {
       "basename": "BEIR",
@@ -13,12 +81,16 @@
       "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
     },
     {
-      "basename": "Bi-Encoder",
-      "path": "Bi-Encoder.md"
-    },
-    {
       "basename": "Late Interaction",
       "path": "Late Interaction.md"
+    },
+    {
+      "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
+      "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
+    },
+    {
+      "basename": "Bi-Encoder",
+      "path": "Bi-Encoder.md"
     },
     {
       "basename": "ColBERT",
@@ -39,10 +111,6 @@
     {
       "basename": "XCS224U Lecture 4",
       "path": "Courses/XCS224U/XCS224U Lecture 4.md"
-    },
-    {
-      "basename": "TF-IDF",
-      "path": "TF-IDF.md"
     },
     {
       "basename": "Natural Language Inference",
@@ -71,10 +139,6 @@
     {
       "basename": "T5",
       "path": "T5.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "ELECTRA",
@@ -135,70 +199,6 @@
     {
       "basename": "CS25 V4 Lecture 4",
       "path": "Courses/CS25/CS25 V4 Lecture 4.md"
-    },
-    {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
-    },
-    {
-      "basename": "Masked Language Model",
-      "path": "Masked Language Model.md"
-    },
-    {
-      "basename": "GPT",
-      "path": "GPT.md"
-    },
-    {
-      "basename": "GPT-NeoX",
-      "path": "GPT-NeoX.md"
-    },
-    {
-      "basename": "GPT-J",
-      "path": "GPT-J.md"
-    },
-    {
-      "basename": "BLOOM",
-      "path": "BLOOM.md"
-    },
-    {
-      "basename": "OPT",
-      "path": "OPT.md"
-    },
-    {
-      "basename": "GPT-2",
-      "path": "GPT-2.md"
-    },
-    {
-      "basename": "Teacher Forcing",
-      "path": "Teacher Forcing.md"
-    },
-    {
-      "basename": "Student Forcing",
-      "path": "Student Forcing.md"
-    },
-    {
-      "basename": "XCS224U Lecture 2",
-      "path": "Courses/XCS224U/XCS224U Lecture 2.md"
-    },
-    {
-      "basename": "CS224N Lecture 4",
-      "path": "Courses/CS224N/CS224N Lecture 4.md"
-    },
-    {
-      "basename": "Matryoshka Representation Learning",
-      "path": "Matryoshka Representation Learning.md"
-    },
-    {
-      "basename": "Attention",
-      "path": "Attention.md"
-    },
-    {
-      "basename": "Low-Rank Adaptation",
-      "path": "Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Instruction-Tuning",
-      "path": "Instruction-Tuning.md"
     }
   ],
   "omittedPaths": [],

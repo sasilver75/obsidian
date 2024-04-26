@@ -1,12 +1,16 @@
-April 18, 2024
+April 18, 2024 (~9 months after [[LLaMA 2]]) - [[Meta AI Research]]
 Paper: {Coming}
 
-Family: 8B, 70B, 405B parameters
-Trained on: 15T tokens
-Context window: 8192 tokens (up from 4096 tokens in [[LLaMA 2]]) -- still quite small, but there may be fine-tunes that extend this shortly.
+Refrences
+- [Video: W&B Presentation from Director of Product @ Meta.ai re: LLaMA3](https://youtu.be/r3DC_gjFCSA?si=1zDwp3iildk6gL3W&t=367)
+- [Reaction by Andrej Karpathy](https://twitter.com/karpathy/status/1781028605709234613)
 
-Interestingly, these are *dense* models (ie not [[Mixture-of-Experts]])
+Details:
+- Family: 8B, 70B, 405B parameters
+- Trained on: 15T tokens
+	- The [[Chinchilla]] "compute-optimal" point for an 8B model would be to train it for ~200B tokens, meaning that this training is ~75X beyond that point.
+- Context window: 8192 tokens (up from 4096 tokens in [[LLaMA 2]]) -- still quite small, but there may be fine-tunes that extend this shortly.
 
-The [[Chinchilla]] "compute-optimal" point for an 8B model would be to train it for ~200B tokens, meaning that this training is ~75X beyond that point, an extremely welcome fact (the only time that really matters is inference time!).
+Interestingly, these are all *dense* models (ie not [[Mixture-of-Experts]])
 
-Initial reaction by [[Andrej Karpathy]] here: https://twitter.com/karpathy/status/1781028605709234613
+Meta AI product director, re: LLaMA3: "Really, the magic is in post-training; RLHF, PPO, DPO, Rejection Sampling, Instruction-Finetuning, Red-teaming re: CBRNE"

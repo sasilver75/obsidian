@@ -1,0 +1,1 @@
+training a model on a long prompt, and then running supervised learning onto the output with a shorter system prompt
