@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+                "file": "InstructGPT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7c1fee3c480341e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning from Human Feedback.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -157,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -173,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+                "file": "InstructGPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+                "file": "InstructGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
+                "file": "InstructGPT.md"
               }
             }
           },
@@ -238,7 +252,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+                "file": "InstructGPT.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -286,9 +300,12 @@
   },
   "active": "4c1367ee5b7f13f7",
   "lastOpenFiles": [
+    "Reinforcement Learning from Human Feedback.md",
+    "InstructGPT.md",
+    "~ Vocabulary.md",
+    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
     "Papers/The Bitter Lesson Paper.md",
     "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
-    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
     "Papers/Untitled.md",
     "Papers/Transformer Paper {Attention is all you need}.md",
     "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
@@ -297,10 +314,8 @@
     "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
     "Adam.md",
     "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md",
-    "InstructGPT.md",
     "Independent Component Analysis.md",
     "Scaling Laws.md",
-    "~ Vocabulary.md",
     "LLaMA.md",
     "_attachments/Pasted image 20240427140609.png",
     "_attachments/Pasted image 20240427140051.png",
@@ -321,7 +336,6 @@
     "Precision.md",
     "Recall.md",
     "GPT-3.md",
-    "GPT.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

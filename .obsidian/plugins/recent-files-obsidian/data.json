@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "InstructGPT",
+      "path": "InstructGPT.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Human Feedback",
+      "path": "Reinforcement Learning from Human Feedback.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
       "path": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
     },
@@ -13,20 +25,12 @@
       "path": "Adam.md"
     },
     {
-      "basename": "InstructGPT",
-      "path": "InstructGPT.md"
-    },
-    {
       "basename": "Independent Component Analysis",
       "path": "Independent Component Analysis.md"
     },
     {
       "basename": "Scaling Laws",
       "path": "Scaling Laws.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "LLaMA",
@@ -151,10 +155,6 @@
     {
       "basename": "LLaMA 2",
       "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "Reinforcement Learning from Human Feedback",
-      "path": "Reinforcement Learning from Human Feedback.md"
     },
     {
       "basename": "~ Useful Pictures",
