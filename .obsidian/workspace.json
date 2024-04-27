@@ -117,7 +117,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPT-2.md",
+                "file": "GPT-3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7eff5a25cb872036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "In-Context Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -201,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GPT-2.md",
+                "file": "In-Context Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GPT-2.md",
+                "file": "In-Context Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPT-2.md"
+                "file": "In-Context Learning.md"
               }
             }
           },
@@ -266,7 +279,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "GPT-2.md",
+                "file": "In-Context Learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -312,22 +325,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c5f77ecbc3bb73a6",
+  "active": "7eff5a25cb872036",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240426222417.png",
-    "_attachments/Pasted image 20240426211111.png",
-    "TF-IDF.md",
+    "GPT-3.md",
+    "_attachments/Pasted image 20240427003552.png",
+    "_attachments/Pasted image 20240427003106.png",
+    "_attachments/Pasted image 20240427003049.png",
+    "_attachments/Pasted image 20240427002744.png",
+    "_attachments/Pasted image 20240427002447.png",
+    "_attachments/Pasted image 20240427002353.png",
+    "_attachments/Pasted image 20240427001704.png",
     "GPT-2.md",
+    "In-Context Learning.md",
+    "_attachments/Pasted image 20240426234925.png",
+    "_attachments/Pasted image 20240426234853.png",
+    "_attachments/Pasted image 20240426234827.png",
+    "TF-IDF.md",
     "T5.md",
-    "_attachments/Pasted image 20240426183526.png",
-    "_attachments/Pasted image 20240426182633.png",
-    "_attachments/Pasted image 20240426182417.png",
-    "_attachments/Pasted image 20240426180224.png",
-    "_attachments/Pasted image 20240426180209.png",
-    "_attachments/Pasted image 20240426175811.png",
-    "_attachments/Pasted image 20240426175407.png",
-    "_attachments/Pasted image 20240426175345.png",
-    "_attachments/Pasted image 20240426174537.png",
     "~ Vocabulary.md",
     "Transformer.md",
     "Matryoshka Representation Learning.md",
@@ -348,8 +362,6 @@
     "Reciprocal Rank.md",
     "Low-Rank Adaptation.md",
     "Mean Reciprocal Rank.md",
-    "BM25.md",
-    "Context Distillation.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
