@@ -2,6 +2,10 @@ February, 2019 (full release of GPT-2 on November 7, 2019) -- [[OpenAI]]
 Paper: [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 #zotero 
 
+Takeaway: Maybe unsupervised pretraining is all you need?
+
+---
+
 OpenAI's second language model in the GPT series; notable because we learned about zero-shot generalization to all sorts of interesting tasks (eg [[Question Answering]]).
 
 1.5B parameter transformer model trained on [[Webtext]] 
