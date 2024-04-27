@@ -1,32 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "In-Context Learning",
-      "path": "In-Context Learning.md"
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
     },
     {
-      "basename": "GPT-3",
-      "path": "GPT-3.md"
-    },
-    {
-      "basename": "GPT-2",
-      "path": "GPT-2.md"
-    },
-    {
-      "basename": "TF-IDF",
-      "path": "TF-IDF.md"
-    },
-    {
-      "basename": "T5",
-      "path": "T5.md"
+      "basename": "InstructGPT",
+      "path": "InstructGPT.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "LLaMA",
+      "path": "LLaMA.md"
+    },
+    {
+      "basename": "Chinchilla",
+      "path": "Chinchilla.md"
+    },
+    {
+      "basename": "Gradient Boosting Machine",
+      "path": "Gradient Boosting Machine.md"
+    },
+    {
+      "basename": "XCS224U Lecture 4",
+      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
+    },
+    {
+      "basename": "GPT-2",
+      "path": "GPT-2.md"
+    },
+    {
+      "basename": "Information Retrieval",
+      "path": "Information Retrieval.md"
+    },
+    {
+      "basename": "Average Precision",
+      "path": "Average Precision.md"
+    },
+    {
+      "basename": "Precision",
+      "path": "Precision.md"
+    },
+    {
+      "basename": "Recall",
+      "path": "Recall.md"
+    },
+    {
+      "basename": "GPT-3",
+      "path": "GPT-3.md"
+    },
+    {
+      "basename": "GPT",
+      "path": "GPT.md"
+    },
+    {
+      "basename": "GPT-1",
+      "path": "GPT-1.md"
+    },
+    {
       "basename": "Transformer",
       "path": "Transformer.md"
+    },
+    {
+      "basename": "Bidirectional Encoder Representations from Transformers",
+      "path": "Bidirectional Encoder Representations from Transformers.md"
+    },
+    {
+      "basename": "T5",
+      "path": "T5.md"
+    },
+    {
+      "basename": "In-Context Learning",
+      "path": "In-Context Learning.md"
+    },
+    {
+      "basename": "TF-IDF",
+      "path": "TF-IDF.md"
     },
     {
       "basename": "Matryoshka Representation Learning",
@@ -41,20 +93,8 @@
       "path": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
     },
     {
-      "basename": "GPT-1",
-      "path": "GPT-1.md"
-    },
-    {
-      "basename": "XCS224U Lecture 4",
-      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
-    },
-    {
       "basename": "MT-Bench",
       "path": "MT-Bench.md"
-    },
-    {
-      "basename": "Information Retrieval",
-      "path": "Information Retrieval.md"
     },
     {
       "basename": "Machine Translation",
@@ -63,18 +103,6 @@
     {
       "basename": "AlpacaEval",
       "path": "AlpacaEval.md"
-    },
-    {
-      "basename": "Average Precision",
-      "path": "Average Precision.md"
-    },
-    {
-      "basename": "Precision",
-      "path": "Precision.md"
-    },
-    {
-      "basename": "Recall",
-      "path": "Recall.md"
     },
     {
       "basename": "F1 Score",
@@ -171,34 +199,6 @@
     {
       "basename": "LLaMA 3",
       "path": "LLaMA 3.md"
-    },
-    {
-      "basename": "LLaMA",
-      "path": "LLaMA.md"
-    },
-    {
-      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "Meta AI Research",
-      "path": "Meta AI Research.md"
-    },
-    {
-      "basename": "LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}",
-      "path": "Articles/LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}.md"
-    },
-    {
-      "basename": "False Refuse",
-      "path": "False Refuse.md"
-    },
-    {
-      "basename": "~ Quotes",
-      "path": "~ Quotes.md"
-    },
-    {
-      "basename": "BEIR",
-      "path": "BEIR.md"
     }
   ],
   "omittedPaths": [],

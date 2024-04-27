@@ -1,5 +1,10 @@
 May 28, 2020 -- [[OpenAI]]
 Paper: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (Referring to the model's capability to do [[In-Context Learning]])
+#zotero 
+Takeaway: Maybe unsupervised pretraining, scaling up a model, and giving few-shot examples is all you need to do multiple tasks!
+
+----
+
 
 175B parameter autoregressive language model trained on ~300B tokens.
 ((In retrospect, wildly overparametrized for the amount of data it was trained on))

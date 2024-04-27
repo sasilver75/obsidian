@@ -4,6 +4,12 @@ aliases:
 ---
 October 11, 2018 -- [[Google Research]]
 Paper: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+#zotero 
+Takeaway: Using a transformer encoder with bidirectional attention pretrained with a MLM + NSP objective, we can get representations that are then useful for many downstream tasks!
+
+----
+
+
 
 Known limitations (From Devlin et al, 2019, and Yang et al, 2019):
 - The original BERT paper is admirably detailed, but it's still very partial in its ablation studies, and in studies of how to optimize the model; in the original paper, we're not looking at the best BERT possible.

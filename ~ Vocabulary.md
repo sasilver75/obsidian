@@ -553,7 +553,7 @@
 # Datasets
 *Datasets for training/finetuning models*
 - [[Common Crawl]]
-- [[C4]] (improvement of CommonCrawl)
+- [[C4]] (Colossal, Cleaned Common Crawl)
 - [[Webtext]]
 - [[The Stack]]
 - [[The Stack v2]]
@@ -688,3 +688,4 @@
 - [[Alex Krizhevsky]] 🐐
 - [[Nils Reimers]] 👨‍🔬
 - [[Omar Khattab]] 📂
+- [[John Schulman]] 🤖

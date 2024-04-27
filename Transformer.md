@@ -1,6 +1,11 @@
 June 12, 2017 -- [[Google Research]]
-[Attention is all you need](https://arxiv.org/abs/1706.03762)
+Paper: [Attention is all you need](https://arxiv.org/abs/1706.03762)
 #zotero 
+Takeaway: Dispense with recurrence -- Query, Key, and Value are all you need? (*Also position embeddings, multiple attention heads, feed-forward layers, skip-connections, normalization, etc.)
+
+----
+
+
 
 Types:
 - Encoder-only
