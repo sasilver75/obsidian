@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "In-Context Learning",
+      "path": "In-Context Learning.md"
+    },
+    {
+      "basename": "GPT-3",
+      "path": "GPT-3.md"
+    },
+    {
       "basename": "GPT-2",
       "path": "GPT-2.md"
     },
@@ -145,10 +153,6 @@
       "path": "ColBERT.md"
     },
     {
-      "basename": "GPT-3",
-      "path": "GPT-3.md"
-    },
-    {
       "basename": "GGUF",
       "path": "GGUF.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "BEIR",
       "path": "BEIR.md"
-    },
-    {
-      "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
-      "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
     }
   ],
   "omittedPaths": [],
