@@ -1,6 +1,6 @@
 December 22, 2014
 Link: [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
-Created a Zotero file
+#zotero 
 
 "Adam" -> "Adaptive Moment Estimation"
 Meant to combine the advantages of both [[Adagrad]] (Duchi, 2011) and [[RMSProp]] (Hinton, 2012), and be a "simple and computationally efficient algorithm for gradient-based optimization of stochastic objective functions."

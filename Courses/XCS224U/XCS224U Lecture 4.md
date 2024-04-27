@@ -4,6 +4,8 @@ Guest speaker: [[Omar Khattab]]
 
 ----
 
+# Part 1: Information Retrieval
+
 NLP is revolutionizing [[Information Retrieval]]
 - Soon after [[Bidirectional Encoder Representations from Transformers|BERT]] was launched, Google announced that it was incorporated aspects of BERT into its search technology; Microsoft soon followed, re: Bing.
 - Later, we saw that LLMs might play a role in search as well.
@@ -62,7 +64,7 @@ We're deeply concerned about this model; we should be pushing in a different dir
 	- We hope that we offer better pages, because we operate in a richer semantic space.
 
 
-# Retrieval-Augmented In-Context Learning
+## Retrieval-Augmented In-Context Learning
 
 Q: Who is Bert?
 
@@ -74,14 +76,14 @@ How can we effectively answer this question using Retrieval?
 
 We'll see that this is just the start of a very rich set of options that we can employ to effectively develop in-context-learning systems to process/develop evidence.
 
-# IR is more important than ever!
+## IR is more important than ever!
 - We see a lot of worrisome behavior from LLMs that are deployed as part of search technologies; Google got a real hit from making a minor factual error in one of its demo videos; maybe that's appropriate!
 	- (At the same time, OpenAI models fabricate evidence all over the place!)
 
 
 ---
 
-# Classical Information Retrieval
+# Part 2: Classical Information Retrieval
 ![[Pasted image 20240425210614.png]]
 - The standard starting point is the ==term-document matrix==
 	- Terms along rows, documents along columns, cells record how often the terms occur in the documents
@@ -109,7 +111,7 @@ To calculate relevance scores for a given query with multiple terms, we do a
 Where here, Weight would be the TF-IDF score.
 
 
-# BM 25
+## BM 25
 - [[BM25]] stands for "Best Match, Attempt #25", a classical IR approach whose name suggests a lot of exploration of the hyperparameters of the model that work best
 	- It's an enduringly good solution taht's sort of an enhanced version of TF-IDF
 
@@ -176,7 +178,7 @@ Tools for classical IR
 
 ----
 
-# IR Metrics
+# Part 3: IR Metrics
 
 - There are many ways to assess the quality of IR systems
 	1. ==Accuracy-style metrics==: these will be our focus
@@ -212,17 +214,57 @@ Which of these is the best metric? It's not clear. For either of these metrics t
 
 ## Precision and Recall
 
-The ==Return Set== of a ranking at value K is the set of documents at or above K in D.
-Ret(D, K) 
+The ==[[Return Set]]== Ret(D, K)  of a ranking at value K is the set of documents at or above K in D.
+
+The ==[[Relevance Set]]== Rel(D, q) for a query, given a document ranking, is the set of all documents that are relevant to he query (anywhere in the ranking).
+
+[[Precision]] in an IR context is thus:
+![[Pasted image 20240426145216.png]]
+If we think about the values >= K as the "guesses" we made, Precision says how many of those were "good" ones.
+
+And [[Recall]] is the dual of that:
+![[Pasted image 20240426145220.png]]
+Out of all of the relevant documents, how many of these relevant document bubbled up to be > K, in the ranking.
+
+![[Pasted image 20240426145603.png]]
+@K=2: Document ranking D_3 isn't doing so hot, right?
+![[Pasted image 20240426145636.png]]
+@K=5: Now document ranking D_3 is clearly in the lead! ==This shows you how important our value of K was to our assessment of quality.==
+
+
+## Average Precision
+Average Precision is a less-sensitive metric to values of K than Precision is.
+
+Average precision for a query, relative to a document ranking
+![[Pasted image 20240426145734.png]]
+For the numerator, we get precision values for every step where there *is* a relevant document (every place where there is a star; we sum those up). The denominator is the set of relevant documents.
+It's more clear with a picture:
+![[Pasted image 20240426145858.png]]
+See: D1 is the clear winner 
+
+## So which metric should we use?
+1. Is the cost of scrolling through K passages low? Then perhaps Success@K is fine-grained enough.
+2. Are there multiple relevant documents per query? If so, Success@K and RR@K may be too coarse-grained...
+3. Is it more important to find *every relevant document?* If so, favor [[Recall]] (Cost of missing documents is high, cost of review is low)
+4. Is it more important to *only view relevant documents?* If so, favor [[Precision]] (Cost of review is low)
+5. [[F1 Score]] F1@K is the harmonic mean of Prec@K and Recall@K. It can be used when there are multiple relevant documents but their relative order above K doesn't matter much.
+6. [[Average Precision]] will give the finest-grained distinctions of all metrics discussed; it's sensitive to rank, precision, and recall.
 
 
 
+![[Pasted image 20240426150320.png]]
+The ColBERT systems, to achieve that MRR, need pretty heavy hardware; 4 GPUs! Whereas the SPLADe systems are comparable in terms of quality, but require fewer hardware resources. And then within those SPLADE systems, there are other tradeoffs around hardware and latency.
+
+![[Pasted image 20240426150405.png]]
+See tha bM25 is 
+
+----
+
+# Part 4: Neural Information Retrieval
+
+The name of the game is to take a pre-trained [[Bidirectional Encoder Representations from Transformers|BERT]] models and finetune 
 
 
-
-
-
-
-
+[[Cross-Encoder]]
 
 

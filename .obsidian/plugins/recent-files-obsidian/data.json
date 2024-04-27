@@ -1,20 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "XCS224U Lecture 4",
-      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
+      "basename": "GPT-2",
+      "path": "GPT-2.md"
+    },
+    {
+      "basename": "TF-IDF",
+      "path": "TF-IDF.md"
+    },
+    {
+      "basename": "T5",
+      "path": "T5.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Rank",
-      "path": "Rank.md"
+      "basename": "Transformer",
+      "path": "Transformer.md"
+    },
+    {
+      "basename": "Matryoshka Representation Learning",
+      "path": "Matryoshka Representation Learning.md"
+    },
+    {
+      "basename": "Adam Paper {Adam - A Method for Stochastic Optimization}",
+      "path": "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md"
+    },
+    {
+      "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
+      "path": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
+    },
+    {
+      "basename": "GPT-1",
+      "path": "GPT-1.md"
+    },
+    {
+      "basename": "XCS224U Lecture 4",
+      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
+    },
+    {
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
+    },
+    {
+      "basename": "Information Retrieval",
+      "path": "Information Retrieval.md"
+    },
+    {
+      "basename": "Machine Translation",
+      "path": "Machine Translation.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
+      "basename": "Average Precision",
+      "path": "Average Precision.md"
+    },
+    {
+      "basename": "Precision",
+      "path": "Precision.md"
+    },
+    {
+      "basename": "Recall",
+      "path": "Recall.md"
+    },
+    {
+      "basename": "F1 Score",
+      "path": "F1 Score.md"
+    },
+    {
+      "basename": "Pasted image 20240426145603",
+      "path": "_attachments/Pasted image 20240426145603.png"
     },
     {
       "basename": "Success",
       "path": "Success.md"
+    },
+    {
+      "basename": "Rank",
+      "path": "Rank.md"
     },
     {
       "basename": "Reciprocal Rank",
@@ -27,14 +95,6 @@
     {
       "basename": "Mean Reciprocal Rank",
       "path": "Mean Reciprocal Rank.md"
-    },
-    {
-      "basename": "TF-IDF",
-      "path": "TF-IDF.md"
-    },
-    {
-      "basename": "Information Retrieval",
-      "path": "Information Retrieval.md"
     },
     {
       "basename": "BM25",
@@ -139,66 +199,6 @@
     {
       "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
       "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
-    },
-    {
-      "basename": "Bi-Encoder",
-      "path": "Bi-Encoder.md"
-    },
-    {
-      "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
-      "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
-    },
-    {
-      "basename": "A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}",
-      "path": "Articles/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md"
-    },
-    {
-      "basename": "Natural Language Inference",
-      "path": "Natural Language Inference.md"
-    },
-    {
-      "basename": "Question Answering",
-      "path": "Question Answering.md"
-    },
-    {
-      "basename": "Bidirectional Encoder Representations from Transformers",
-      "path": "Bidirectional Encoder Representations from Transformers.md"
-    },
-    {
-      "basename": "DeBERTa",
-      "path": "DeBERTa.md"
-    },
-    {
-      "basename": "GLUE",
-      "path": "GLUE.md"
-    },
-    {
-      "basename": "BART",
-      "path": "BART.md"
-    },
-    {
-      "basename": "T5",
-      "path": "T5.md"
-    },
-    {
-      "basename": "ELECTRA",
-      "path": "ELECTRA.md"
-    },
-    {
-      "basename": "Pasted image 20240425144622",
-      "path": "_attachments/Pasted image 20240425144622.png"
-    },
-    {
-      "basename": "GPT-1",
-      "path": "GPT-1.md"
-    },
-    {
-      "basename": "Semi-Supervised Learning",
-      "path": "Semi-Supervised Learning.md"
-    },
-    {
-      "basename": "XCS224U Lecture 3",
-      "path": "Courses/XCS224U/XCS224U Lecture 3.md"
     }
   ],
   "omittedPaths": [],

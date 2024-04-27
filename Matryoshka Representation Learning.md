@@ -6,6 +6,7 @@ aliases:
 Date: May 26, 2022 - University of Washington, [[Google Research]], Harvard
 Paper: [Matryoshka Representation Learning](https://arxiv.org/abs/2205.13147)
 (This paper was mildly interesting because it took a while for it to get attention (~18 months))
+#zotero 
 
  Matryoshka dolls, also called "==Russian Nesting Dolls==" are a set of wooden dolls of decreasing size that are placed inside one another. 🪆
 - In a similar way, ==Matryoshka embedding models aim to store more important information in earlier dimensions, and less important information in later dimensions.==

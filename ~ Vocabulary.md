@@ -68,6 +68,7 @@
 - [[Entropy]]
 - [[Mutual Information]]
 - [[Cross-Entropy]]
+- [[Weight Tying]]
 - [[Large Language Model]]
 - [[Foundation Model]]
 - [[Multimodal]]
@@ -253,6 +254,9 @@
 - [[Success]]
 - [[Reciprocal Rank]]
 - [[Mean Reciprocal Rank]]
+- [[Return Set]]
+- [[Relevance Set]]
+- [[Average Precision]]
 
 # Natural Language Processing Concepts
 - Tasks

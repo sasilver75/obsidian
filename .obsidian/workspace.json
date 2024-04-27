@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
+                "file": "GPT-2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3648ac6d75cdae81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8222d8539af6da1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Retrieval.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +60,38 @@
             }
           },
           {
+            "id": "a267b11610f65e27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Average Precision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c257055f50049a94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Precision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "90239732b601e7a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rank.md",
+                "file": "Precision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Success.md",
+                "file": "Recall.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,14 +117,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "GPT-2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -101,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"controls the\"",
+                "query": "Zotero",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
+                "file": "GPT-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
+                "file": "GPT-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 4.md"
+                "file": "GPT-2.md"
               }
             }
           },
@@ -213,7 +266,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
+                "file": "GPT-2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -259,43 +312,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "811d129a9d074ae9",
+  "active": "c5f77ecbc3bb73a6",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240426222417.png",
+    "_attachments/Pasted image 20240426211111.png",
+    "TF-IDF.md",
+    "GPT-2.md",
+    "T5.md",
+    "_attachments/Pasted image 20240426183526.png",
+    "_attachments/Pasted image 20240426182633.png",
+    "_attachments/Pasted image 20240426182417.png",
+    "_attachments/Pasted image 20240426180224.png",
+    "_attachments/Pasted image 20240426180209.png",
+    "_attachments/Pasted image 20240426175811.png",
+    "_attachments/Pasted image 20240426175407.png",
+    "_attachments/Pasted image 20240426175345.png",
+    "_attachments/Pasted image 20240426174537.png",
     "~ Vocabulary.md",
-    "Rank.md",
-    "Success.md",
-    "Reciprocal Rank.md",
+    "Transformer.md",
+    "Matryoshka Representation Learning.md",
+    "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md",
+    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+    "GPT-1.md",
     "Courses/XCS224U/XCS224U Lecture 4.md",
-    "_attachments/Pasted image 20240426144829.png",
+    "MT-Bench.md",
+    "Information Retrieval.md",
+    "Machine Translation.md",
+    "AlpacaEval.md",
+    "Average Precision.md",
+    "Precision.md",
+    "Recall.md",
+    "F1 Score.md",
+    "Success.md",
+    "Rank.md",
+    "Reciprocal Rank.md",
     "Low-Rank Adaptation.md",
     "Mean Reciprocal Rank.md",
-    "TF-IDF.md",
-    "_attachments/Pasted image 20240426144735.png",
-    "_attachments/Pasted image 20240426144643.png",
-    "_attachments/Pasted image 20240426144634.png",
-    "_attachments/Pasted image 20240426144456.png",
-    "_attachments/Pasted image 20240426144438.png",
-    "_attachments/Pasted image 20240426144430.png",
-    "_attachments/Pasted image 20240426144352.png",
-    "Information Retrieval.md",
     "BM25.md",
-    "_attachments/Pasted image 20240426142907.png",
-    "_attachments/Pasted image 20240426142835.png",
     "Context Distillation.md",
-    "LLaMA 2.md",
-    "Reinforcement Learning from Human Feedback.md",
-    "~ Useful Pictures.md",
-    "LLAMA Guard 2.md",
-    "LLaMA Guard.md",
-    "YaRN.md",
-    "LongRoPE.md",
-    "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Late Interaction.md",
-    "ColBERT.md",
-    "GPT-3.md",
-    "GGUF.md",
-    "GGML.md",
-    "Grouped Query Attention.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
