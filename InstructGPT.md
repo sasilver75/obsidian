@@ -4,6 +4,8 @@ Paper: [Training language models to follow instructions with human feedback](htt
 #zotero 
 Significance: This is the paper that introduced both [[Reinforcement Learning from Human Feedback|RLHF]] and [[InstructGPT]], a model instruction-tuned and human-preference tuned using Reinforcement Learning from Human Feedback.
 
+See also: [[Reinforcement Learning from Human Feedback|RLHF]]
+
 ----
 
 Takeaways:
