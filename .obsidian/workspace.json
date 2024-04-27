@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scaling Laws.md",
+                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -153,13 +153,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -175,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scaling Laws.md",
+                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scaling Laws.md",
+                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scaling Laws.md"
+                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
               }
             }
           },
@@ -240,7 +238,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Scaling Laws.md",
+                "file": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -288,9 +286,21 @@
   },
   "active": "4c1367ee5b7f13f7",
   "lastOpenFiles": [
+    "Papers/The Bitter Lesson Paper.md",
+    "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
+    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+    "Papers/Untitled.md",
+    "Papers/Transformer Paper {Attention is all you need}.md",
+    "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
+    "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
+    "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
+    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
+    "Adam.md",
+    "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md",
     "InstructGPT.md",
-    "~ Vocabulary.md",
+    "Independent Component Analysis.md",
     "Scaling Laws.md",
+    "~ Vocabulary.md",
     "LLaMA.md",
     "_attachments/Pasted image 20240427140609.png",
     "_attachments/Pasted image 20240427140051.png",
@@ -312,18 +322,6 @@
     "Recall.md",
     "GPT-3.md",
     "GPT.md",
-    "GPT-1.md",
-    "Transformer.md",
-    "Bidirectional Encoder Representations from Transformers.md",
-    "T5.md",
-    "In-Context Learning.md",
-    "TF-IDF.md",
-    "Matryoshka Representation Learning.md",
-    "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md",
-    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
-    "MT-Bench.md",
-    "Machine Translation.md",
-    "AlpacaEval.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
