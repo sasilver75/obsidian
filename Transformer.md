@@ -1,3 +1,7 @@
+June 12, 2017 -- [[Google Research]]
+[Attention is all you need](https://arxiv.org/abs/1706.03762)
+#zotero 
+
 Types:
 - Encoder-only
 	- Designed to learn embeddings that can be used for various predictive tasks. Mainly used for learning *representations* of words while taking context into account. 

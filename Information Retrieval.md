@@ -13,3 +13,15 @@ There are many ways to assess the quality of IR systems
 		- If we want great latency, so we store everything in memory, but this is very expensive.
 		- We might then cut costs my making our system smaller, but that would lead to a loss in accuracy.
 
+Specific metrics:
+- [[Reciprocal Rank]] (RR)
+- [[Success]]
+- [[Precision]], [[Recall]], [[F1 Score]], [[Average Precision]]
+
+## So which metric should we use?
+1. Is the cost of scrolling through K passages low? Then perhaps Success@K is fine-grained enough.
+2. Are there multiple relevant documents per query? If so, Success@K and RR@K may be too coarse-grained...
+3. Is it more important to find *every relevant document?* If so, favor [[Recall]] (Cost of missing documents is high, cost of review is low)
+4. Is it more important to *only view relevant documents?* If so, favor [[Precision]] (Cost of review is low)
+5. [[F1 Score]] F1@K is the harmonic mean of Prec@K and Recall@K. It can be used when there are multiple relevant documents but their relative order above K doesn't matter much.
+6. [[Average Precision]] will give the finest-grained distinctions of all metrics discussed; it's sensitive to rank, precision, and recall.
