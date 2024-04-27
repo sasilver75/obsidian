@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Scaling Laws",
-      "path": "Scaling Laws.md"
+      "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
+      "path": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
+    },
+    {
+      "basename": "The Bitter Lesson Paper",
+      "path": "Papers/The Bitter Lesson Paper.md"
+    },
+    {
+      "basename": "Adam",
+      "path": "Adam.md"
     },
     {
       "basename": "InstructGPT",
       "path": "InstructGPT.md"
+    },
+    {
+      "basename": "Independent Component Analysis",
+      "path": "Independent Component Analysis.md"
+    },
+    {
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -85,14 +101,6 @@
       "path": "Matryoshka Representation Learning.md"
     },
     {
-      "basename": "Adam Paper {Adam - A Method for Stochastic Optimization}",
-      "path": "Papers/Adam Paper {Adam - A Method for Stochastic Optimization}.md"
-    },
-    {
-      "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
-      "path": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
-    },
-    {
       "basename": "MT-Bench",
       "path": "MT-Bench.md"
     },
@@ -163,42 +171,6 @@
     {
       "basename": "YaRN",
       "path": "YaRN.md"
-    },
-    {
-      "basename": "LongRoPE",
-      "path": "LongRoPE.md"
-    },
-    {
-      "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Late Interaction",
-      "path": "Late Interaction.md"
-    },
-    {
-      "basename": "ColBERT",
-      "path": "ColBERT.md"
-    },
-    {
-      "basename": "GGUF",
-      "path": "GGUF.md"
-    },
-    {
-      "basename": "GGML",
-      "path": "GGML.md"
-    },
-    {
-      "basename": "Grouped Query Attention",
-      "path": "Grouped Query Attention.md"
-    },
-    {
-      "basename": "CS224N Lecture 4",
-      "path": "Courses/CS224N/CS224N Lecture 4.md"
-    },
-    {
-      "basename": "LLaMA 3",
-      "path": "LLaMA 3.md"
     }
   ],
   "omittedPaths": [],
