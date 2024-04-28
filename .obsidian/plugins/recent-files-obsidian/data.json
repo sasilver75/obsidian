@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "InstructGPT",
-      "path": "InstructGPT.md"
+      "basename": "Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}",
+      "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
+    },
+    {
+      "basename": "()",
+      "path": "().md"
+    },
+    {
+      "basename": "BEIR",
+      "path": "BEIR.md"
     },
     {
       "basename": "Reinforcement Learning from Human Feedback",
       "path": "Reinforcement Learning from Human Feedback.md"
     },
     {
+      "basename": "InstructGPT",
+      "path": "InstructGPT.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "XCS224U Lecture 4",
+      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
+    },
+    {
+      "basename": "GGUF, the long way around (Feb 2024) {Vicki Boykis}",
+      "path": "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md"
+    },
+    {
+      "basename": "Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}",
+      "path": "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md"
+    },
+    {
+      "basename": "Low-Rank Adaptation",
+      "path": "Low-Rank Adaptation.md"
+    },
+    {
+      "basename": "OLMo",
+      "path": "OLMo.md"
+    },
+    {
+      "basename": "GPQA",
+      "path": "GPQA.md"
+    },
+    {
+      "basename": "ColBERTv2",
+      "path": "ColBERTv2.md"
+    },
+    {
+      "basename": "LLaMA",
+      "path": "LLaMA.md"
+    },
+    {
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
+    },
+    {
+      "basename": "ColBERT",
+      "path": "ColBERT.md"
+    },
+    {
+      "basename": "Instructor",
+      "path": "Instructor.md"
     },
     {
       "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
@@ -29,24 +85,12 @@
       "path": "Independent Component Analysis.md"
     },
     {
-      "basename": "Scaling Laws",
-      "path": "Scaling Laws.md"
-    },
-    {
-      "basename": "LLaMA",
-      "path": "LLaMA.md"
-    },
-    {
       "basename": "Chinchilla",
       "path": "Chinchilla.md"
     },
     {
       "basename": "Gradient Boosting Machine",
       "path": "Gradient Boosting Machine.md"
-    },
-    {
-      "basename": "XCS224U Lecture 4",
-      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
     },
     {
       "basename": "GPT-2",
@@ -137,10 +181,6 @@
       "path": "Reciprocal Rank.md"
     },
     {
-      "basename": "Low-Rank Adaptation",
-      "path": "Low-Rank Adaptation.md"
-    },
-    {
       "basename": "Mean Reciprocal Rank",
       "path": "Mean Reciprocal Rank.md"
     },
@@ -159,18 +199,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "LLAMA Guard 2",
-      "path": "LLAMA Guard 2.md"
-    },
-    {
-      "basename": "LLaMA Guard",
-      "path": "LLaMA Guard.md"
-    },
-    {
-      "basename": "YaRN",
-      "path": "YaRN.md"
     }
   ],
   "omittedPaths": [],

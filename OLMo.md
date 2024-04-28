@@ -1,5 +1,10 @@
 Feb 1, 2024 -- [[Allen Institute]] (AI2)
 Paper: [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838)
+Related: [[Dolma]]
+...
+Significance: ...
+References:
+- [AI2 OLMo technical blog post](https://blog.allenai.org/olmo-open-language-model-87ccfc95f580)
 
 Family: 1B, 7B, 65B
 Later, an OLMo-7B-Instruct was released
