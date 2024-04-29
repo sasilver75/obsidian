@@ -60,12 +60,25 @@
             }
           },
           {
-            "id": "8a242fd9c843ba32",
+            "id": "1448e6e286e60cea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "().md",
+                "file": "Alpaca.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e852e5cd08c71444",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -352,12 +365,13 @@
   },
   "active": "3d87528aaa0b3c26",
   "lastOpenFiles": [
-    "().md",
+    "Alpaca.md",
     "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
+    "~ Vocabulary.md",
+    "().md",
     "BEIR.md",
     "Reinforcement Learning from Human Feedback.md",
     "InstructGPT.md",
-    "~ Vocabulary.md",
     "Courses/XCS224U/XCS224U Lecture 4.md",
     "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md",
     "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md",
@@ -387,7 +401,6 @@
     "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
     "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
     "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
-    "Papers/fastai Paper {FastAI - A Layered API for Deep Learning}.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
