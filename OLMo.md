@@ -10,9 +10,8 @@ References:
 ----
 
 
-Family: 1B, 7B, 65B
+Family: 1B, 7B, 65B language models produced by a fully-transparent process
 Later, an OLMo-7B-Instruct was released
-
 
 
 Abstract
