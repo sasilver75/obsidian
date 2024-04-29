@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Web Rephrase Augmented Pre-training",
+      "path": "Web Rephrase Augmented Pre-training.md"
+    },
+    {
       "basename": "What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}",
       "path": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Cosmopedia",
@@ -11,10 +19,6 @@
     {
       "basename": "FineWeb",
       "path": "FineWeb.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "RefinedWeb",
@@ -195,10 +199,6 @@
     {
       "basename": "Rank",
       "path": "Rank.md"
-    },
-    {
-      "basename": "Reciprocal Rank",
-      "path": "Reciprocal Rank.md"
     }
   ],
   "omittedPaths": [],

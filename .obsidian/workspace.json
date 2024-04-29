@@ -175,9 +175,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a2a856cdcedcd379",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Rephrase Augmented Pre-training.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -252,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
+                "file": "Web Rephrase Augmented Pre-training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
+                "file": "Web Rephrase Augmented Pre-training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md"
+                "file": "Web Rephrase Augmented Pre-training.md"
               }
             }
           },
@@ -317,7 +330,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
+                "file": "Web Rephrase Augmented Pre-training.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -363,12 +376,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "895e170775bfe73c",
+  "active": "a2a856cdcedcd379",
   "lastOpenFiles": [
-    "Cosmopedia.md",
+    "_attachments/Pasted image 20240429023253.png",
     "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
-    "FineWeb.md",
     "~ Vocabulary.md",
+    "Cosmopedia.md",
+    "FineWeb.md",
     "RefinedWeb.md",
     "RedPajama v2.md",
     "InstructGPT.md",
@@ -400,7 +414,6 @@
     "_attachments/Pasted image 20240427145737.png",
     "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
     "Papers/The Bitter Lesson Paper.md",
-    "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
