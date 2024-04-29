@@ -1,5 +1,6 @@
 #article  #premium 
 Link: https://www.noemamag.com/what-ai-can-tell-us-about-intelligence/
+[[Yann LeCun]]
 
 ---------
 If there's one constant in the field of AI, it's that there's always both breathless hype and scornful naysaying.
