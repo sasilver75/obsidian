@@ -691,3 +691,4 @@
 - [[Nils Reimers]] 👨‍🔬
 - [[Omar Khattab]] 📂
 - [[John Schulman]] 🤖
+- [[Noam Chomsky]] 📝
