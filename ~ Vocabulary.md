@@ -342,6 +342,7 @@
 - [[Progressive Resizing]]
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]] (RL)
+- [[Credit Assignment Problem]]
 - [[Agent]]
 - [[Policy]]
 - [[Hierarchical Reinforcement Learning]]

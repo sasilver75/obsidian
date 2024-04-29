@@ -5,8 +5,12 @@
       "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
     },
     {
-      "basename": "()",
-      "path": "().md"
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "BEIR",
@@ -19,10 +23,6 @@
     {
       "basename": "InstructGPT",
       "path": "InstructGPT.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "XCS224U Lecture 4",
