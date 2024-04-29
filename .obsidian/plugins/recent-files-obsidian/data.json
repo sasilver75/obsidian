@@ -1,24 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Web Rephrase Augmented Pre-training",
-      "path": "Web Rephrase Augmented Pre-training.md"
+      "basename": "OLMo",
+      "path": "OLMo.md"
+    },
+    {
+      "basename": "Dolma",
+      "path": "Dolma.md"
+    },
+    {
+      "basename": "AI And the Limits of Language (August 23, 2022) {Yann LeCun}",
+      "path": "Articles/AI And the Limits of Language (August 23, 2022) {Yann LeCun}.md"
+    },
+    {
+      "basename": "XCS224U Lecture 4",
+      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
     },
     {
       "basename": "What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}",
       "path": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md"
     },
     {
+      "basename": "GGUF, the long way around (Feb 2024) {Vicki Boykis}",
+      "path": "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md"
+    },
+    {
+      "basename": "Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}",
+      "path": "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md"
+    },
+    {
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Cosmopedia",
-      "path": "Cosmopedia.md"
+      "basename": "Reinforcement Learning from Human Feedback",
+      "path": "Reinforcement Learning from Human Feedback.md"
+    },
+    {
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
     },
     {
       "basename": "FineWeb",
       "path": "FineWeb.md"
+    },
+    {
+      "basename": "InstructGPT",
+      "path": "InstructGPT.md"
+    },
+    {
+      "basename": "Web Rephrase Augmented Pre-training",
+      "path": "Web Rephrase Augmented Pre-training.md"
+    },
+    {
+      "basename": "Cosmopedia",
+      "path": "Cosmopedia.md"
     },
     {
       "basename": "RefinedWeb",
@@ -29,44 +69,16 @@
       "path": "RedPajama v2.md"
     },
     {
-      "basename": "InstructGPT",
-      "path": "InstructGPT.md"
-    },
-    {
-      "basename": "XCS224U Lecture 4",
-      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
-    },
-    {
-      "basename": "GGUF, the long way around (Feb 2024) {Vicki Boykis}",
-      "path": "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md"
-    },
-    {
       "basename": "Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}",
       "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
-    },
-    {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
     },
     {
       "basename": "BEIR",
       "path": "BEIR.md"
     },
     {
-      "basename": "Reinforcement Learning from Human Feedback",
-      "path": "Reinforcement Learning from Human Feedback.md"
-    },
-    {
-      "basename": "Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}",
-      "path": "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md"
-    },
-    {
       "basename": "Low-Rank Adaptation",
       "path": "Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "OLMo",
-      "path": "OLMo.md"
     },
     {
       "basename": "GPQA",
@@ -79,10 +91,6 @@
     {
       "basename": "LLaMA",
       "path": "LLaMA.md"
-    },
-    {
-      "basename": "Scaling Laws",
-      "path": "Scaling Laws.md"
     },
     {
       "basename": "ColBERT",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20240426145603",
       "path": "_attachments/Pasted image 20240426145603.png"
-    },
-    {
-      "basename": "Success",
-      "path": "Success.md"
-    },
-    {
-      "basename": "Rank",
-      "path": "Rank.md"
     }
   ],
   "omittedPaths": [],

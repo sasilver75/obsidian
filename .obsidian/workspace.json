@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b3565bcd342891f",
+            "id": "a2a856cdcedcd379",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "3648ac6d75cdae81",
+            "id": "5e97669be3c104a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/AI And the Limits of Language (August 23, 2022) {Yann LeCun}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "4c1367ee5b7f13f7",
+            "id": "3f3ce5c376cabe0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InstructGPT.md",
+                "file": "OLMo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,142 +47,12 @@
             }
           },
           {
-            "id": "3d87528aaa0b3c26",
+            "id": "0d3984ca016b1e95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FineWeb.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1448e6e286e60cea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alpaca.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e852e5cd08c71444",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7c1fee3c480341e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning from Human Feedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7918effea012ef9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InstructGPT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3182eb5c6217f2e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fa9088454a7b467",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaling Laws.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5dbae69d6ba1706",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "120e590a859daabd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "895e170775bfe73c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2a856cdcedcd379",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Rephrase Augmented Pre-training.md",
+                "file": "Dolma.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -190,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -265,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Rephrase Augmented Pre-training.md",
+                "file": "OLMo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Rephrase Augmented Pre-training.md",
+                "file": "OLMo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Rephrase Augmented Pre-training.md"
+                "file": "OLMo.md"
               }
             }
           },
@@ -330,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Web Rephrase Augmented Pre-training.md",
+                "file": "OLMo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -376,44 +246,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a2a856cdcedcd379",
+  "active": "3f3ce5c376cabe0b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240429023253.png",
+    "_attachments/Pasted image 20240429115203.png",
+    "Dolma.md",
+    "_attachments/Pasted image 20240429114511.png",
+    "_attachments/Pasted image 20240429114346.png",
+    "OLMo.md",
+    "Articles/AI And the Limits of Language (August 23, 2022) {Yann LeCun}.md",
+    "_attachments/Pasted image 20240429114329.png",
+    "_attachments/Pasted image 20240429114224.png",
+    "_attachments/Pasted image 20240429114117.png",
+    "_attachments/Pasted image 20240429113946.png",
+    "Courses/XCS224U/XCS224U Lecture 4.md",
     "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
+    "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md",
+    "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md",
+    "Scaling Laws.md",
     "~ Vocabulary.md",
-    "Cosmopedia.md",
+    "Reinforcement Learning from Human Feedback.md",
+    "Alpaca.md",
     "FineWeb.md",
+    "InstructGPT.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "_attachments/Pasted image 20240429023253.png",
+    "Cosmopedia.md",
     "RefinedWeb.md",
     "RedPajama v2.md",
-    "InstructGPT.md",
-    "Courses/XCS224U/XCS224U Lecture 4.md",
-    "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md",
     "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
-    "Alpaca.md",
     "().md",
     "BEIR.md",
-    "Reinforcement Learning from Human Feedback.md",
-    "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md",
     "_attachments/Pasted image 20240427171051.png",
     "_attachments/Pasted image 20240427170542.png",
     "Low-Rank Adaptation.md",
-    "OLMo.md",
     "GPQA.md",
     "_attachments/Pasted image 20240427155223.png",
     "ColBERTv2.md",
     "LLaMA.md",
-    "Scaling Laws.md",
     "ColBERT.md",
-    "Instructor.md",
-    "_attachments/Pasted image 20240427151714.png",
-    "_attachments/Pasted image 20240427151424.png",
-    "_attachments/Pasted image 20240427150634.png",
-    "_attachments/Pasted image 20240427150630.png",
-    "_attachments/Pasted image 20240427150536.png",
-    "_attachments/Pasted image 20240427150527.png",
-    "_attachments/Pasted image 20240427145737.png",
-    "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
-    "Papers/The Bitter Lesson Paper.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
