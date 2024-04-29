@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}",
-      "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
+      "basename": "What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}",
+      "path": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md"
     },
     {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
+      "basename": "Cosmopedia",
+      "path": "Cosmopedia.md"
+    },
+    {
+      "basename": "FineWeb",
+      "path": "FineWeb.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "BEIR",
-      "path": "BEIR.md"
+      "basename": "RefinedWeb",
+      "path": "RefinedWeb.md"
     },
     {
-      "basename": "Reinforcement Learning from Human Feedback",
-      "path": "Reinforcement Learning from Human Feedback.md"
+      "basename": "RedPajama v2",
+      "path": "RedPajama v2.md"
     },
     {
       "basename": "InstructGPT",
@@ -31,6 +35,22 @@
     {
       "basename": "GGUF, the long way around (Feb 2024) {Vicki Boykis}",
       "path": "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md"
+    },
+    {
+      "basename": "Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}",
+      "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
+    },
+    {
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
+    },
+    {
+      "basename": "BEIR",
+      "path": "BEIR.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Human Feedback",
+      "path": "Reinforcement Learning from Human Feedback.md"
     },
     {
       "basename": "Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}",
@@ -179,26 +199,6 @@
     {
       "basename": "Reciprocal Rank",
       "path": "Reciprocal Rank.md"
-    },
-    {
-      "basename": "Mean Reciprocal Rank",
-      "path": "Mean Reciprocal Rank.md"
-    },
-    {
-      "basename": "BM25",
-      "path": "BM25.md"
-    },
-    {
-      "basename": "Context Distillation",
-      "path": "Context Distillation.md"
-    },
-    {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     }
   ],
   "omittedPaths": [],

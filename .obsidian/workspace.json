@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
+                "file": "FineWeb.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -252,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
+                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +269,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
+                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
+                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md"
               }
             }
           },
@@ -317,7 +317,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
+                "file": "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -363,17 +363,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3d87528aaa0b3c26",
+  "active": "895e170775bfe73c",
   "lastOpenFiles": [
-    "Alpaca.md",
-    "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
+    "Cosmopedia.md",
+    "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
+    "FineWeb.md",
     "~ Vocabulary.md",
-    "().md",
-    "BEIR.md",
-    "Reinforcement Learning from Human Feedback.md",
+    "RefinedWeb.md",
+    "RedPajama v2.md",
     "InstructGPT.md",
     "Courses/XCS224U/XCS224U Lecture 4.md",
     "GGUF, the long way around (Feb 2024) {Vicki Boykis}.md",
+    "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
+    "Alpaca.md",
+    "().md",
+    "BEIR.md",
+    "Reinforcement Learning from Human Feedback.md",
     "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md",
     "_attachments/Pasted image 20240427171051.png",
     "_attachments/Pasted image 20240427170542.png",
@@ -396,11 +401,6 @@
     "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md",
     "Papers/The Bitter Lesson Paper.md",
     "Papers/Self-Rewarding Language Model Paper {Self-Rewarding Language Models}.md",
-    "Papers/Untitled.md",
-    "Papers/Transformer Paper {Attention is all you need}.md",
-    "Papers/Self-Instruct Paper {Self-Instruct - Aligning Language Models with Self-Generated Instructions}.md",
-    "Papers/Matryoshka Representation Learning Paper {Matryoshka Representation Learning}.md",
-    "Papers/GPT-3 Paper {Language Models are Few-Shot Learners}.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

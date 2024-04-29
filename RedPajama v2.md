@@ -2,6 +2,7 @@ October 30, 2023  (six months after [[RedPajama]]) -- [[TogetherAI]]
 [RedPajama-Data-v2: An open dataset with 30 trillion tokens for training large language models](https://www.together.ai/blog/redpajama-data-v2)
 
 ==30T== filtered and deduplicated tokens (from 100T raw tokens) from 84 CommonCrawl dumps covering 5 languages, along with 40+ pre-computed data quality annotations that can be used for further filtering and weighting.
+((As of May 2024, this is still the larger public dataset available, twice the size of [[FineWeb]]!))
 
 This is, at the time, the ==largest public dataset== released specifically for LLM training. Even more excitingly, we include 40+ pre-computer quality annotations, allowing the community to *further* filter and weigh the data.
 
