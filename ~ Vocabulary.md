@@ -46,10 +46,13 @@
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
 - [[Gradient Boosting Machine]] (GBM)
-- [[Cross-Validation]]
 - [[Classification]]
 - [[Collaborative Filtering]]
 - [[Content-Based Filtering]]
+- [[Training Dataset]]
+- [[Validation Dataset]]
+- [[Test Dataset]]
+- [[Cross-Validation]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -68,6 +71,9 @@
 - [[Entropy]]
 - [[Mutual Information]]
 - [[Cross-Entropy]]
+- [[Perplexity]] 
+- [[Bits-per-Character]] (BPC)
+- [[Bits-per-Word]] (BPW)
 - [[Weight Tying]]
 - [[Large Language Model]]
 - [[Foundation Model]]
@@ -290,7 +296,6 @@
 - [[Self-Reward]]
 - [[Constitutional AI]]
 - [[Zero-Shot Prompting]]
-- [[Perplexity]] 
 - [[Masked Language Model]]
 - [[U-Net]]
 - [[Matryoshka Representation Learning]]
@@ -518,6 +523,8 @@
 - [[AlpacaFarm]]
 - [[TRL]]
 - [[ONNX]]
+- [[Safetensors]]
+- [[llama.cpp]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not genrally datasets that you should train/finetune models on*
 - [[GAIA]]: A benchmark for General AI Assistants
