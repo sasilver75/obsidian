@@ -9,6 +9,7 @@ Paper: [Dynaboard: An Evaluation-As-A-Service Platform for Holistic Next-Generat
 It seems like it's an online benchmarking tool where you submit your model to be benchmarked, using features from the [[Dynabench]] tool.
 A ==Dynascore== is computed, which is a composite metric of a bunch of elements, depending on the viewing user's preferences.
 
+A method for integrating a bunch of diverse metrics into a single metric.
 
 
 Abstract
