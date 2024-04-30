@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
+                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13825319ab902c50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "052a64e8d313a646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transformer-XL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
+                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
+                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 5.md"
+                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md"
               }
             }
           },
@@ -225,7 +251,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
+                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -273,22 +299,26 @@
   },
   "active": "444e7743a3f70232",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240429205151.png",
-    "_attachments/Pasted image 20240429205137.png",
     "Courses/XCS224U/XCS224U Lecture 4.md",
-    "Courses/XCS224U/XCS224U Lecture 5.md",
+    "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
+    "_attachments/Pasted image 20240429233832.png",
+    "_attachments/Pasted image 20240429233821.png",
+    "_attachments/Pasted image 20240429231859.png",
+    "_attachments/Pasted image 20240429231706.png",
     "~ Vocabulary.md",
+    "_attachments/Pasted image 20240429231312.png",
+    "Transformer-XL.md",
+    "_attachments/Pasted image 20240429230618.png",
+    "_attachments/Pasted image 20240429230021.png",
+    "_attachments/Pasted image 20240429224833.png",
+    "_attachments/Pasted image 20240429224815.png",
+    "Positional Embeddings.md",
+    "Embedding.md",
+    "_attachments/Pasted image 20240429223933.png",
+    "Courses/XCS224U/XCS224U Lecture 6.md",
+    "Courses/XCS224U/XCS224U Lecture 5.md",
     "Dynaboard.md",
-    "_attachments/Pasted image 20240429203145.png",
     "Instruction-Tuning.md",
-    "_attachments/Pasted image 20240429202912.png",
-    "_attachments/Pasted image 20240429202838.png",
-    "_attachments/Pasted image 20240429202810.png",
-    "_attachments/Pasted image 20240429202442.png",
-    "_attachments/Pasted image 20240429202330.png",
-    "_attachments/Pasted image 20240429201555.png",
-    "_attachments/Pasted image 20240429201150.png",
-    "_attachments/Pasted image 20240429201135.png",
     "In-Context Learning.md",
     "LoTTe.md",
     "Dense Passage Retriever.md",
@@ -304,11 +334,6 @@
     "Articles/AI And the Limits of Language (August 23, 2022) {Yann LeCun}.md",
     "OLMo.md",
     "Dolma.md",
-    "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
-    "Articles/Explaining ChatGPT to Anyone in <20 Minutes (Dec 2023) {Cameron Wolfe, Deep Learning Focus}.md",
-    "Scaling Laws.md",
-    "Reinforcement Learning from Human Feedback.md",
-    "Alpaca.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

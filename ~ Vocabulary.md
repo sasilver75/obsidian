@@ -403,6 +403,8 @@
 - [[Residual Network]]
 - [[Segment Anything Model]]
 - [[T5]]
+- [[Transformer-XL]]
+- [[Compressive Transformer]]
 - [[Stable Diffusion]]
 - [[LLaMA]]
 - [[LLaMA 2]]
