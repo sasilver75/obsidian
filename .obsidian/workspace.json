@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/XCS224U/XCS224U Lecture 4.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b66fefdbea384bda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -147,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynaboard.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynaboard.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynaboard.md"
+                "file": "Courses/XCS224U/XCS224U Lecture 5.md"
               }
             }
           },
@@ -212,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Dynaboard.md",
+                "file": "Courses/XCS224U/XCS224U Lecture 5.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -258,23 +271,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91d30b77bdc8c8d4",
+  "active": "444e7743a3f70232",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240429205151.png",
+    "_attachments/Pasted image 20240429205137.png",
     "Courses/XCS224U/XCS224U Lecture 4.md",
+    "Courses/XCS224U/XCS224U Lecture 5.md",
     "~ Vocabulary.md",
+    "Dynaboard.md",
+    "_attachments/Pasted image 20240429203145.png",
+    "Instruction-Tuning.md",
+    "_attachments/Pasted image 20240429202912.png",
+    "_attachments/Pasted image 20240429202838.png",
+    "_attachments/Pasted image 20240429202810.png",
+    "_attachments/Pasted image 20240429202442.png",
+    "_attachments/Pasted image 20240429202330.png",
+    "_attachments/Pasted image 20240429201555.png",
+    "_attachments/Pasted image 20240429201150.png",
+    "_attachments/Pasted image 20240429201135.png",
+    "In-Context Learning.md",
     "LoTTe.md",
-    "_attachments/Pasted image 20240429185807.png",
-    "_attachments/Pasted image 20240429185728.png",
-    "_attachments/Pasted image 20240429185354.png",
-    "_attachments/Pasted image 20240429185142.png",
-    "_attachments/Pasted image 20240429184933.png",
-    "_attachments/Pasted image 20240429183839.png",
-    "_attachments/Pasted image 20240429182839.png",
     "Dense Passage Retriever.md",
     "Dense Passage Retrieval.md",
-    "_attachments/Pasted image 20240429182009.png",
-    "_attachments/Pasted image 20240429181645.png",
-    "_attachments/Pasted image 20240429181202.png",
     "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
     "Cross-Validation.md",
     "Eleuther.md",
@@ -291,11 +309,6 @@
     "Scaling Laws.md",
     "Reinforcement Learning from Human Feedback.md",
     "Alpaca.md",
-    "FineWeb.md",
-    "InstructGPT.md",
-    "Web Rephrase Augmented Pre-training.md",
-    "Cosmopedia.md",
-    "RefinedWeb.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
