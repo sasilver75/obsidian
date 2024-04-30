@@ -3,6 +3,7 @@ aliases:
   - Instruction-Tune
   - Instruction-Tuned
   - Instruction Fine-Tuning
+  - IFT
 ---
 # Considerations of Creating/Evaluating Instruction Data
 - ==Mixing few-shot settings==: Training with mixed zero-shot and few-shot prompts significantly improve performance in both settings.

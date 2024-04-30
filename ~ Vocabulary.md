@@ -223,6 +223,8 @@
 - [[Odds Ratio Preference Optimization]] (ORPO)
 - [[Trust Region Policy Optimization]]
 - [[Self-Consistency]]
+- [[Self-Ask]]
+- [[Self-RAG]]
 - [[KV Cache]]
 - [[Negative Prompt]]
 - [[LLM-as-a-Judge]]

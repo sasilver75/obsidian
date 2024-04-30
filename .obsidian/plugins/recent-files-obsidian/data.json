@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Dynaboard",
-      "path": "Dynaboard.md"
+      "basename": "XCS224U Lecture 5",
+      "path": "Courses/XCS224U/XCS224U Lecture 5.md"
     },
     {
       "basename": "XCS224U Lecture 4",
@@ -11,6 +11,18 @@
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Dynaboard",
+      "path": "Dynaboard.md"
+    },
+    {
+      "basename": "Instruction-Tuning",
+      "path": "Instruction-Tuning.md"
+    },
+    {
+      "basename": "In-Context Learning",
+      "path": "In-Context Learning.md"
     },
     {
       "basename": "LoTTe",
@@ -187,18 +199,6 @@
     {
       "basename": "GPT-3",
       "path": "GPT-3.md"
-    },
-    {
-      "basename": "GPT",
-      "path": "GPT.md"
-    },
-    {
-      "basename": "GPT-1",
-      "path": "GPT-1.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "Transformer.md"
     }
   ],
   "omittedPaths": [],
