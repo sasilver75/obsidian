@@ -262,9 +262,138 @@ See tha bM25 is
 
 # Part 4: Neural Information Retrieval
 
-The name of the game is to take a pre-trained [[Bidirectional Encoder Representations from Transformers|BERT]] models and finetune 
+IThe name of the game is to take a pre-trained [[Bidirectional Encoder Representations from Transformers|BERT]] models and finetune it for information-retrieval purposes.
+-  In that context, [[Cross-Encoder]]s are the simplest approach you could take
+
+![[Pasted image 20240429180317.png]]
+Concat the ==query== and ==document== text into a single text, process it with BERT, and use representations in the BERT model as the basis for IR finetuning.
+- We might take the final output state above the CLS token, add some task-specific parameters on top, and then finetune it on our objective.
+- This allows for many interesting interactions between query and document.
+
+The richness comes from us using the BERT model to jointly encode the query and documents, but that would mean that we need to encode EVERY DOCUMENT at query-time!
+- If we had 1B documents, we'd have to do 1B forward passes with our BERT model to get scores, which is simply unfeasible; ==it doesn't scale==.
+- There's ==something conceptually right about this approach,== but it's clearly wrong/intractable for modern search.
+
+### Dense passage retrieval
+![[Pasted image 20240429181202.png]]
+[[Dense Passage Retrieval]] (DPR) is on the other side of the spectrum
+- In this mode, we ***separately*** encode queries and documents.
+- We're going to do scoring as a dot product of the two vectors produced (eg) above the CLS token in each encoder.
+- The loss is as before, the negative log-likelihood of the positive passage.
+- This is ==highly scalable==, but ==limited in terms of the query/document interactions== that it provides!
+	- The core of the scalability is that now we can encode all of our documents offline, ahead of time.
+	- At query time, we just encode the query once, and do a fast dot product with all of our documents.
+	- At the same time, ==we've lost all of the token level interactions that we had with cross-encoder==; we better hope that those boiled single-vector representations produced for our query and key vectors contain *all* the important information needed to correlate queries and documents! It's perhaps a loss in expressivity for our model, in some way.
 
 
-[[Cross-Encoder]]
+## Shared Loss Function
+- We have a little bit of modularity; we used the negative log likelihood of the positive passage
+- ![[Pasted image 20240429181645.png]]
+- This general form is freeing, because if we develop variants of DPR or Cross Encoders, the way it plays out might be just that you have a new comparison function.
 
 
+## ColBERT
+![[Pasted image 20240429182009.png]]
+- [[ColBERT]]  is near and dear to Potts; developed with Omar Khattab and Mattei Zaharia
+- First, we encode queries using BERT
+- Similarly, we encode the document again with BERT
+- Then the basis for ColBERT scoring is a matrix of *similarity scores* between query tokens and document tokens, as represented by these final output tokens.
+- The basis for scoring is a "MaxSim" comparison; for every query token, we get the value of maximum similarity over document tokens, and sum these up to get the MaxSim value that's the basis for the model.
+- ==Highly scalable,== with late contextual interactions between tokens in the query and tokens in the document.
+	- Scalable, because we can store all of our encoded documents ahead of time
+	- At query time, we encode the query, and perform a multiplication with a bunch of MaxSim scoring.
+	- At the same time, it's ==semantically rich,== because we have token-level comparisons between queries and documents (unlike the DPR example above)
+	- ColBERT has indeed proven to be a 
+
+### ColBERT as a re-ranker (or any of these neural models)
+- How can these be effective as search technologies?
+- We have semantic expressiveness, but it comes at the price of forward inference in (large) BERT models, which can be prohibitively expensive for some applications.
+- As a result, we employ these models as ==Re-Rankers==
+![[Pasted image 20240429182839.png]]
+- For ColBERT, we have an index of token-level representations.
+- Given an index structure like this, we take our query:
+	1. We get the top K documents for our query $q$ using a fast, term-based model like [[BM25]].
+	2. Score each of these top K documents using ColBERT, reranking them by the resulting score.
+- This sounds like a small thing, but the reranking that happens in the second phase can be incredibly powerful.
+- ==We can control our costs, too==; we can set $K$ very low, to do very little processing with ColBERT, or set $K$ to be very high, and do much more reranking with ColBERT.
+
+Now we have two retrieval mechanisms in place; we might hope for a more integrated solution
+
+
+### Beyond Reranking for ColBERT
+- ![[Pasted image 20240429183839.png]]
+- Let's make a slight adjustment to how we set up the index
+- We have an index of token-level vectors that are associated with documents.
+- When a query comes in, we encode it into a sequence of vectors.
+	- For each of these query representation vectors, we retrieve the $p$ most similar token vectors, and travel through them to their associated documents.
+	- Then we score each document using ColBERT.
+
+
+We can do slightly better, even, with ==Centroid Ranking==
+
+### Centroid-Based Ranking
+- This begins from the insight that the index that we construct (of word vectors from our documents) will have a lot of semantic structure, so we can begin by *clustering* the token-level vectors representing our documents into clusters, and taking their centroids to be the representative vectors of each cluster, which we then use as the basis for search.
+- So a query comes in, and we again generate a sequence of token vectors for every token in the query. 
+	- For each query token vector, we retrieve the $p$ relevant centroids
+	- We then retrieve the $t$ most similar token vectors to any of the centroids
+	- We then use ColBERT to rerank the docs related to each of those document tokens. 
+- This gives us huge gains, because instead of having to search over the entire index, we search over a very small number of centroid representations that we then use as the basis for getting down to a small set of documents that we rerank with ColBERT.
+
+
+Some interesting discussion about tradeoffs that they choose to make to optimize ColBERTv2's latency
+
+![[Pasted image 20240429185142.png]]
+- Only the Blue and Purple bits are the Core ColBERT model steps; most of the time isn't spent on the core modeling steps, or even with the centroids (orange). The bulk of the work is looking things up in the giant index and doing decompression (which we haven't mentioned yet; The index gets large because of token-level represntations, so we shrink the index by using quantized versions of representations; we decompress them at some point to get back to full semantic richness).
+
+![[Pasted image 20240429185354.png]]
+The team did a lot of work to reduce the heavy-duty decompression, trading that off against using more centroids. They were able to remove almost all the overhead coming from the large datastructures and corresponding decompressions, and got the latency down to 58ms.
+- Shows: A lot of innovative work can come from working on systems and realistic concerns.
+
+
+### SPLADE
+- [[SPLADE]] offers another perspective on how to use neural representations.
+![[Pasted image 20240429185728.png]]
+- The core shift in perspective is that we do scoring *not to some other text,* but instead *with respect to our entire vocabulary* (eg 10,000s of items).
+- We have an encoding mechanism for sequences (agnostic as to whether query or document).
+- We form a matrix of scores, where the scoring is now with respect to the {tokens in the sequence we're processing} and {all of our vocab items}
+- The SPLADE scoring function is a kind of sparsification of the scores that we get out of that. The essential insight is that we get a score for *every vocabulary item* with respect to the sequence that we processed (the orange thing, above). This is a vector with the same dimensionality as our vocabulary, giving scores.
+- We do this for queries and documents.
+- The similarity function:
+	- Sim_SPLADE is a dot product between the SPLADE representation for the query and the SPLADe representation of the document.
+The loss is a usual negative log-likelihood plus a regularization term that leads to sparse, balanced scores.
+
+
+![[Pasted image 20240429185807.png]]
+Advances around making systems more efficient and more multilingual
+
+
+# Part 5: Datasets and Conclusion
+
+### TREC (Text Retrieval Conference (TREC)
+- Has annual competitions for comparing IR systems
+- Tends to emphasize careful evaluation with a very small set of queries (eg 50 queries, each with >100 annotated documents)
+
+### MS MARCO ranking tasks
+- [[MS MARCO]] is the largest public IR benchmark, adapted from a public IR benchmark, based on more than 500k Bing search queries.
+- Sparse labels: Approximate one relevance label per query!
+- For passage ranking, you have 9M short passage; sparse labels
+- For document ranking: 3M long documents; sparse labels
+- ==Fantastic for training IR models==
+
+### BEIR ("Beer"): Benchmarking IR
+- [[BEIR]] is about doing diverse, zero-shot evaluations across IR models, across a bunch of different domain and task settings.
+
+### [[LoTTe]]: Long-Tail, Topic-stratified Evaluation
+- The idea here is to rely on StackExchange to explore complicated, diverse questions.
+- Meant for zero-shot evaluation; We released the dataset with topic-aligned dev-test pairings; You can do some development work with the dev, and try to transfer performance into the comparable test set.
+- Subpart oriented around the things you see in web search, and a subpart more oriented to forum queries (eg StackExchange)
+
+XOR-TyDI
+- An effort to push IR into a more multilingual setting
+
+
+## Other Topics
+- There's a large literature on different techniques for sampling negatives.
+- Weak supervision can often create effective retrieval labels!
+	- A passage is relevant in a QA context if it contains the answer as a substring anywhere in the passage.
+- Santhanam et al use [[Dynaboard|Dynascore]]s to create unified leaderboards measuring diverse IR metrics, including costs, latency, and performance. We'll discuss Dynascores in detail later in the course.
