@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
+                "file": "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
+                "file": "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
+                "file": "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md"
+                "file": "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
+                "file": "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -208,6 +208,9 @@
   },
   "active": "47849ae88f4afd17",
   "lastOpenFiles": [
+    "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
+    "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
+    "Articles/Intro to ColBERT - v2 (January 1, 2024) {AI&J Notion Blog}.md",
     "_attachments/Pasted image 20240430232411.png",
     "_attachments/Pasted image 20240430231959.png",
     "~ Vocabulary.md",
@@ -227,7 +230,6 @@
     "DSPy.md",
     "ColBERT.md",
     "Natural Questions.md",
-    "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
     "_attachments/Pasted image 20240429233832.png",
     "_attachments/Pasted image 20240429233821.png",
     "_attachments/Pasted image 20240429231859.png",
@@ -235,7 +237,6 @@
     "_attachments/Pasted image 20240429231312.png",
     "_attachments/Pasted image 20240429230618.png",
     "_attachments/Pasted image 20240429230021.png",
-    "_attachments/Pasted image 20240429224833.png",
     "Positional Embeddings.md",
     "Embedding.md",
     "Instruction-Tuning.md",
@@ -243,7 +244,6 @@
     "Dense Passage Retriever.md",
     "Dense Passage Retrieval.md",
     "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
-    "Cross-Validation.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Some Remarks on Large Language Models (January 2023) {Yoav Golberg}",
+      "path": "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md"
+    },
+    {
       "basename": "The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}",
       "path": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ColBERTv2",
       "path": "ColBERTv2.md"
-    },
-    {
-      "basename": "LLaMA",
-      "path": "LLaMA.md"
     }
   ],
   "omittedPaths": [],
