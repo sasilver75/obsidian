@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Hermes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de0b7a108a4dfba0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Hermes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Hermes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
+                "file": "Hermes.md"
               }
             }
           },
@@ -160,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Hermes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -208,13 +221,20 @@
   },
   "active": "47849ae88f4afd17",
   "lastOpenFiles": [
-    "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
+    "Retrieval-Augmented Generation.md",
+    "Dense Passage Retrieval.md",
+    "_attachments/Pasted image 20240501160110.png",
+    "_attachments/Pasted image 20240501155253.png",
+    "_attachments/Pasted image 20240501155251.png",
+    "~ Vocabulary.md",
+    "DSPy.md",
+    "RingAttention.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+    "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
     "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
     "Articles/Intro to ColBERT - v2 (January 1, 2024) {AI&J Notion Blog}.md",
     "_attachments/Pasted image 20240430232411.png",
     "_attachments/Pasted image 20240430231959.png",
-    "~ Vocabulary.md",
     "Courses/XCS224U/XCS224U Lecture 6.md",
     "Courses/XCS224U/XCS224U Lecture 1.md",
     "Courses/XCS224U/XCS224U Lecture 2.md",
@@ -228,22 +248,15 @@
     "ChatBot Arena.md",
     "_attachments/Pasted image 20240430112429.png",
     "Vicuna.md",
-    "DSPy.md",
     "ColBERT.md",
     "Natural Questions.md",
     "_attachments/Pasted image 20240429233832.png",
     "_attachments/Pasted image 20240429233821.png",
     "_attachments/Pasted image 20240429231859.png",
     "_attachments/Pasted image 20240429231706.png",
-    "_attachments/Pasted image 20240429231312.png",
-    "_attachments/Pasted image 20240429230618.png",
-    "_attachments/Pasted image 20240429230021.png",
     "Positional Embeddings.md",
     "Embedding.md",
     "Instruction-Tuning.md",
-    "In-Context Learning.md",
-    "Dense Passage Retriever.md",
-    "Dense Passage Retrieval.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

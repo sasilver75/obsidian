@@ -9,6 +9,7 @@ Models:
 - Nous-Hermes-2-Mixtral-8x7b-{DPO,SFT} models (1/15/2024), SoTA MoE models
 - Nous-Hermes-2-Mistra-7B-DPO (02/20/2024), SoTA 7B models
 - Hermes-2-Pro-Mistral-7B (3/11/2024), A "master function-calling model"
+- Hermes-2-Pro-LLaMA-8B (05/01/2024), with function-calling and structured output capabilities. Uses dedicated tokens for tool call parsing tags, to make handling streaming function calls easier.
 
 
 
