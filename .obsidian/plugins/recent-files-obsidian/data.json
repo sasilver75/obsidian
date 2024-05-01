@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "XCS224U Lecture 6",
+      "path": "Courses/XCS224U/XCS224U Lecture 6.md"
+    },
+    {
+      "basename": "XCS224U Lecture 1",
+      "path": "Courses/XCS224U/XCS224U Lecture 1.md"
+    },
+    {
+      "basename": "XCS224U Lecture 2",
+      "path": "Courses/XCS224U/XCS224U Lecture 2.md"
+    },
+    {
+      "basename": "XCS224U Lecture 3",
+      "path": "Courses/XCS224U/XCS224U Lecture 3.md"
+    },
+    {
+      "basename": "XCS224U Lecture 4",
+      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
+    },
+    {
+      "basename": "XCS224U Lecture 5",
+      "path": "Courses/XCS224U/XCS224U Lecture 5.md"
+    },
+    {
+      "basename": "LoTTe",
+      "path": "LoTTe.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Dynaboard",
+      "path": "Dynaboard.md"
+    },
+    {
+      "basename": "Transformer-XL",
+      "path": "Transformer-XL.md"
+    },
+    {
       "basename": "ReAct",
       "path": "ReAct.md"
+    },
+    {
+      "basename": "ChatBot Arena",
+      "path": "ChatBot Arena.md"
+    },
+    {
+      "basename": "Vicuna",
+      "path": "Vicuna.md"
     },
     {
       "basename": "DSPy",
@@ -17,24 +61,12 @@
       "path": "ColBERT.md"
     },
     {
-      "basename": "LoTTe",
-      "path": "LoTTe.md"
-    },
-    {
       "basename": "Natural Questions",
       "path": "Natural Questions.md"
     },
     {
-      "basename": "Transformer-XL",
-      "path": "Transformer-XL.md"
-    },
-    {
       "basename": "The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}",
       "path": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md"
-    },
-    {
-      "basename": "XCS224U Lecture 4",
-      "path": "Courses/XCS224U/XCS224U Lecture 4.md"
     },
     {
       "basename": "Positional Embeddings",
@@ -43,18 +75,6 @@
     {
       "basename": "Embedding",
       "path": "Embedding.md"
-    },
-    {
-      "basename": "XCS224U Lecture 6",
-      "path": "Courses/XCS224U/XCS224U Lecture 6.md"
-    },
-    {
-      "basename": "XCS224U Lecture 5",
-      "path": "Courses/XCS224U/XCS224U Lecture 5.md"
-    },
-    {
-      "basename": "Dynaboard",
-      "path": "Dynaboard.md"
     },
     {
       "basename": "Instruction-Tuning",
@@ -179,26 +199,6 @@
     {
       "basename": "LLaMA",
       "path": "LLaMA.md"
-    },
-    {
-      "basename": "Instructor",
-      "path": "Instructor.md"
-    },
-    {
-      "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
-      "path": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
-    },
-    {
-      "basename": "The Bitter Lesson Paper",
-      "path": "Papers/The Bitter Lesson Paper.md"
-    },
-    {
-      "basename": "Adam",
-      "path": "Adam.md"
-    },
-    {
-      "basename": "Independent Component Analysis",
-      "path": "Independent Component Analysis.md"
     }
   ],
   "omittedPaths": [],

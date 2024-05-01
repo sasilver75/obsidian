@@ -602,7 +602,7 @@
 - [[OpenHermes2.5 Dataset]]
 - [[FLAN v2]]
 - [[OpenOrca Dataset]]
-- [[SlimOrca]]
+- [[SlimOrca]]d
 - [[Common Objects in Context]]
 - [[LoTTe]]
 - [[Natural Questions]]

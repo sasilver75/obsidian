@@ -1,7 +1,7 @@
 #lecture 
 Link: https://www.youtube.com/watch?v=eyNLkiQ89KI&list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp&index=20
 
-# Topic: In-Context Learning
+Topic: In-Context Learning
 
 Takeaways:
 -  ==The sophisticated things we're seeing from language models these days are not emerging from pre-training, they're emerging from standard supervised training.==
