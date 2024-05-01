@@ -53,6 +53,8 @@
 - [[Validation Dataset]]
 - [[Test Dataset]]
 - [[Cross-Validation]]
+- [[UMAP]]
+- [[DBSCAN]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]

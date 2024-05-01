@@ -1,6 +1,8 @@
 #article 
 Link: https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/
 
+Honestly this was very hard to grok
+
 ------
 
 ![[Pasted image 20240429220939.png]]
@@ -148,7 +150,114 @@ KNN-LM enhances a pretrained LM with a separate kNN model by linearly interpolat
 ### Depth-Adaptive Transformer
 - At inference time, it's natural to assume that ==some tokens are going to be easier to predict, and thus don't require as much computation as others. Therefore, we may only process its prediction through a limited number of layers to achieve a good balance between speed and performance.==
 
-#### Depth-Adaptive Transformer (Elabyad, 2020) and Confident Adaptive Language Model (CALM, Shhuster 2022) 
+#### Depth-Adaptive Transformer (Elabyad, 2020)
+- Attaches an output classifier to every layer to produce exit predictions based on activations of that layer.
+	- The classifier weight matrices can be different per layer or shared across layers.
+- During training, the model samples different sequences of exits such that the model is optimized with hidden states of different layers. 
+
+#### Confident Adaptive Language Model (CALM, Shhuster 2022) 
+- Applied the Learn then Test (LTT) framework to identify a subset of valid thresholds, and choose the minimum value as the threshold for inference. Explored other methods for adaptive depth predictions.
+
+
+## Efficient Attention
+Computation/memory cost of the vanilla Transformer grows quadratically with sequence length, hence it's hard to apply it on very large sequences.
+
+### Sparse Attention Patterns
+
+#### Fixed Local Context
+- A simple alternation to make self-attention less expensive is to restrict the attention span of each token to *local* context only, so that the self-attention grows linearly with the sequence length!
+
+This idea was introduceed by Image Transformer (Parmer et al, 2018), which formulates the image generation as sequence modeling using an encoder-decoder transformer architecture.
+
+#### Strided Context
+- Sparse Transformer (Child et al, 2019) introduced factorized self-attention, through sparse matrix factorization, making it possible to train dense attention networks with hundreds of layers on sequence lengths of up to 16,384, which would be infeasible on modern hardware otherwise.
+	- ((Matrix factorization is used to decompose a matrix into the product of two or more matrices, often with the goal of uncovering underlying structures of simplifying computations))
+
+#### Sparse Factorized Attention
+- Proposed two types of fracorized attention....
+- (((I didn't understand)))
+
+#### Blockwise Attention (Qiu et al, 2019)
+- Introduces a sparse mblock matrix to only allow each token to attend to a msall set of other tokens.
+- Each attention matrix of size L * L is partitioned into n * n smaller blocks of size L/n * L/N and a sparse block matrix M (L * L) ???
+
+
+### Combinations of local and global Context
+- ETC (Extended Transformer Construction; Ainslie et al 2019), Longformer (Beltagy et al, 2020), and Big Bird (Zaheer et al., 2020) models combined both local and global context when building an attention matrix.
+
+- Global-Local Attention of ETC takes two inputs,  (1) the long input 𝑥𝑙 of size 𝑛𝑙 which is the regular input sequence and (2) the global input 𝑥𝑔 of size 𝑛𝑔 which contains a smaller number of auxiliary tokens, 𝑛𝑔≪𝑛𝑙.
+	- ???
+
+Attention pattern in Longformer contains three components:
+
+1. _Local attention_: Similar to ETC, local attention is controlled by a sliding window of fixed size 𝑤;
+2. _Global attention of preselected tokens_: Longformer has a few pre-selected tokens (e.g. `[CLS]` token) assigned with global attention span, that is, attending to all other tokens in the input sequence.
+3. _Dilated attention_: Dilated sliding window of fixed size 𝑟 and gaps of dilation size 𝑑, similar to Sparse Transformer;
+
+_Big Bird_ is quite similar to Longformer, equipped with both local attention and a few preselected tokens with global attention span, but Big Bird replaces dilated attention with a new mechanism where all tokens attend to a set of random tokens. The design is motivated by the fact that attention pattern can be viewed as a [directed graph](https://en.wikipedia.org/wiki/Directed_graph) and a [random graph](https://en.wikipedia.org/wiki/Random_graph) has the property that information is able to rapidly flow between any pair of nodes.
+
+_Longformer_ uses smaller window size at lower layers and larger window sizes at higher layers. Ablation studies showed that this setup works better than reversed or fixed size config. Lower layers do not have dilated sliding windows to better learn to use immediate local context. Longformer also has a staged training procedure where initially the model is trained with small window size to learn from local context and then subsequent stages of training have window sizes increased and learning rate decreased.
+
+
+### Content-Based Attention
+- Improvements proposed by Reformer (Kitaev et al, 2020) aim to solve the following pain points in vanilla Transformer:
+	- Quadratic time/memory complexity with self-attention module
+	- Memory in a model with N layers is N times larger than a single-layer model, because we need to store activations for backpropagation.
+	- The intermediate FF layers are often quite large
+
+Reformer proposes two main changes
+1. Replace the dot product attention with *locality-sensitive hashing (LSH) attention*, reducing the complexity from O(L^2) to O(LlogL)
+2. Replace the standard residual blocks with *reversible residual layers*, which allow storing activations only once during training, instead of N times (i.e. proportional to the number of layers).
+
+#### Locality Sensitive Hashing
+- In QK^T part of the attention formula, we're only interested in the largest elements, as only large elements contribute a lot after softmax. For each query, we're looking for row vectors in K that are closest to our current query. In order to find nearest neighbors quickly in high-dimensional space, Reformer incorporates ==Locality Sensitive Hashing (LSH)== into its attention mechanism.
+- A hashing scheme x -> h(x) is ==locality-sensitive== if it preserves the distancing information between data points, such that close vectors obtain similar hashes, while distant vectors have very different ones. 
+- The reformer adopts a hashing scheme as such, given a fixed random matrix R, the hash function is h(x) = argmax(xR; -xR)
+
+![[Pasted image 20240430231959.png]]
+
+In LSH attention, a query can only attend to positions in the same hashing bucket. It's carried out in the following process:
+1. The attention matrix for full attention is often sparse
+2. Using LSH, we can sort the keys and queries to be aligned to their hash buckets
+3. Set Q = K (precisely, k_j = q_j/|q_j|_), so that there are equal numbers of keys and queries in one bucket, easier for batching
+4. Apply batching where chunks of m consecutive queries are based together
+![[Pasted image 20240430232411.png]]
+
+#### Reversible Residual Network
+
+#### Routing Transformer (Roy et al)
+- Also built on content-based clustering of keys and queries. Instead of using a static hashing function like LSH, it utilizes online k-means clustering and combines it with local, temporal sparse attention to reduce complexity from L^2 to L^1.5
+
+
+
+## Low-Rank Attention
+- Linformer (Wang et al, 2020) approximates the full attention matrix with a low-rank matrix, reducing the time/space complexity to be LINEAR
+	- Instead of using expensive SVD to identify low-rank decomposition, Linformer adds two linear projections for key and value matrices, respectively, reducing their dimensions from L x d to K x d.
+		- As long as k << L, the attention memory can be greatly reduced.
+Additional techniques
+- Parameter sharing between projection layers, such as head-wise, key-value, and layer-wise (across all layers) sharing
+- Using different k at different layers, as heads in high layers tend to have a more skewed distribution (lower rank) and thus can use smaller ks at higher layers
+- Use different distribution types of projections; e.g. max/mean pooling, convolution layer with kernel of stride L/k.
+
+#### Random Feature Attention
+- Relies on random feature methods to approximate softmax operation in self-attention with low rank feature maps in order to achieve linear time and space complexity.
+- Performers (2021) also adopts random feature attention with improvements on the kernel construction to further reduce the kernel approximation error.
+
+
+## Transformers for Reinforcement Learning
+- The self-attention mechanism avoids compressing the whole past into a fixed-size hidden state, and doesn't suffer from vanishing/exploding gradients as much as RNNs.
+- RL tasks can for sure benefit from these traits, but it's quite difficult to train Transformer even in supervised learning, let alone in an RL context!
+
+The Gated Transformer-XL (GTrXL, 2019) is one attempt to use Transformer for RL.
+
+The Decision Transformer (DT; Chen et al 2021) formulates RL as a process of conditional sequence modeling, outputting optimal actions conditioned on the desired return, past states, and actions. It's for [[Off-Policy]] RL, where the model only has access to a fixed collection of trajectories collected by other policies.
+
+
+
+
+
+
+
 
 
 
