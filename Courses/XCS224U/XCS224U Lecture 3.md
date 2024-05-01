@@ -1,6 +1,9 @@
 #lecture 
 Link: [Link](https://youtu.be/JERXX2Byr90?si=xxTCdvm80D4wfF-G)
 
+Topic: Contextual-based representations
+
+----
 # A series on Contextual-Based Representations
 Subjects: 
 1. Transformer

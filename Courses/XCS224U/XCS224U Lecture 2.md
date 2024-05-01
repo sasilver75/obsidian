@@ -1,7 +1,8 @@
 #lecture 
 Link: [Lecture](https://www.youtube.com/watch?v=J52Dtu40esQ&list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp&index=2)
 Course Page: https://web.stanford.edu/class/cs224u/
-- Mentions that there's a CS224U podcast
+
+Topics: Static Repesentations of words
 
 -------
 

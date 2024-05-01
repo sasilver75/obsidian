@@ -1,3 +1,6 @@
+Topic: Intro
+
+----
 
 2012 vs 2014
 ![[Pasted image 20240417182058.png|300]]
