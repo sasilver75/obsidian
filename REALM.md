@@ -12,7 +12,9 @@ Significance: The Bi-Encoder [[Bidirectional Encoder Representations from Transf
 
 Notes:
 - This paper talks about jointly pretraining both a retrieval component as well as a knowledge-augmented encoder (given an input x and retrieved document z, the knowledge-augmented encoder defines p(y|z,x)).
-- Because we're jointly pretraining out retriever with our downstream knowledge-augmented encoder, what happens with all of the indexed documents when we update our retriever's parameters?
+- Because we're ==jointly pretraining== our retriever with our downstream knowledge-augmented encoder, what happens with all of the indexed documents when we update our retriever's parameters?
+	- They note on page 5 some tips about the cold-start problem of retrieving useless documents, which are then learned to be ignored by the model. They warm-start their embedding model using a simple training objective known as the Inverse Close Task.
+- One of the problems of finding our top k documents using Maximum Inner Product Search (MIPS) algorithms is that as we update the parameters of our document-embedding model, these ==embeddings become stale== -- and re-embedding all of our documents after every gradient update of our document-embedding model is too expensive! Our ==solution== is to asynchronously re-embed and re-index all documents every *several hundred training steps*, allowing the index to become slightly stale between refreshes. Empirically, this seems to be fine.
 
 
 Abstract
@@ -28,6 +30,9 @@ Above: REALM augments LM *pre-training*, and signal from the LM objective backpr
 
 ![[Pasted image 20240501182136.png|450]]
 Above: The "language modeling task" on the left side is actually a *masked* language modeling task, a la BERT.
+
+![[Pasted image 20240501185130.png]]
+Explanation of how they train the embedder/retriever together, given that as they update the embedder/retriever, the document embeddings become stale/must be updated.
 
 
 
