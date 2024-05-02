@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47849ae88f4afd17",
+            "id": "4f61043871caedae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,33 @@
             }
           },
           {
-            "id": "aad0eb9b8164f02e",
+            "id": "0e8cfa7ff004e027",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bfc998097c8c051",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "390aa43a7f43f4ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +60,12 @@
             }
           },
           {
-            "id": "18c96292e4d72da8",
+            "id": "55f6d2478e6c8da4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
+                "file": "Cohere.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,19 +73,72 @@
             }
           },
           {
-            "id": "4f61043871caedae",
+            "id": "56b498677da8e5a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Retrieval-Augmented Generation.md",
+                "file": "TogetherAI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fb845faa437f86e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anthropic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13a92a44c1c3eca0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LMSYS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e956739c9582eca0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EssentialAI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aec041cd11471421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HotpotQA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,8 +192,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
+                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
               }
             }
           },
@@ -200,7 +278,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -246,44 +324,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47849ae88f4afd17",
+  "active": "9bfc998097c8c051",
   "lastOpenFiles": [
-    "~ Ideas.md",
+    "ORQA.md",
+    "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+    "_attachments/Pasted image 20240501224712.png",
+    "_attachments/Pasted image 20240501222533.png",
+    "_attachments/Pasted image 20240501221305.png",
+    "Question Answering.md",
     "REALM.md",
+    "~ Vocabulary.md",
+    "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
+    "_attachments/Pasted image 20240501215717.png",
+    "_attachments/Pasted image 20240501215708.png",
+    "Snorkel AI.md",
+    "Cohere.md",
+    "TogetherAI.md",
+    "Anthropic.md",
+    "LMSYS.md",
+    "EssentialAI.md",
+    "DataBricks.md",
+    "Adept.md",
+    "Out-of-Vocabulary Token.md",
+    "Contextual.md",
+    "HotpotQA.md",
+    "Retrieval-Augmented Generation.md",
     "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+    "~ Ideas.md",
     "_attachments/Pasted image 20240501192220.png",
-    "ORQA.md",
     "RETRO.md",
     "_attachments/Pasted image 20240501185130.png",
     "_attachments/Pasted image 20240501182136.png",
     "_attachments/Pasted image 20240501180803.png",
-    "Retrieval-Augmented Generation.md",
     "Dense Passage Retrieval.md",
-    "~ Vocabulary.md",
     "Maximum Inner Product Search.md",
     "_attachments/Pasted image 20240501174850.png",
-    "_attachments/Pasted image 20240501174523.png",
-    "_attachments/Pasted image 20240501174232.png",
-    "_attachments/Pasted image 20240501172623.png",
-    "_attachments/Pasted image 20240501170200.png",
-    "_attachments/Pasted image 20240501170048.png",
     "BERT.md",
     "BART.md",
-    "Bidirectional Encoder Representations from Transformers.md",
-    "Hermes.md",
-    "DSPy.md",
-    "RingAttention.md",
-    "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
-    "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
-    "Articles/Intro to ColBERT - v2 (January 1, 2024) {AI&J Notion Blog}.md",
-    "Courses/XCS224U/XCS224U Lecture 6.md",
-    "Courses/XCS224U/XCS224U Lecture 1.md",
-    "Courses/XCS224U/XCS224U Lecture 2.md",
-    "Courses/XCS224U/XCS224U Lecture 3.md",
-    "Courses/XCS224U/XCS224U Lecture 4.md",
-    "Courses/XCS224U/XCS224U Lecture 5.md",
-    "LoTTe.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

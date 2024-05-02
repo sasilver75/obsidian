@@ -13,7 +13,8 @@ Significance: The Bi-Encoder [[Bidirectional Encoder Representations from Transf
 Notes:
 - This paper talks about jointly pretraining both a retrieval component as well as a knowledge-augmented encoder (given an input x and retrieved document z, the knowledge-augmented encoder defines p(y|z,x)).
 - Because we're ==jointly pretraining== our retriever with our downstream knowledge-augmented encoder, what happens with all of the indexed documents when we update our retriever's parameters?
-	- They note on page 5 some tips about the cold-start problem of retrieving useless documents, which are then learned to be ignored by the model. They warm-start their embedding model using a simple training objective known as the Inverse Close Task.
+	- They note on page 5 some tips about the cold-start problem of retrieving useless documents, which are then learned to be ignored by the model. They warm-start their embedding model using a simple training objective known as the ==Inverse Close Task==.
+		- This is the same warmup that's used in the earlier [[ORQA]] paper by the same lead author.
 - One of the problems of finding our top k documents using Maximum Inner Product Search (MIPS) algorithms is that as we update the parameters of our document-embedding model, these ==embeddings become stale== -- and re-embedding all of our documents after every gradient update of our document-embedding model is too expensive! Our ==solution== is to asynchronously re-embed and re-index all documents every *several hundred training steps*, allowing the index to become slightly stale between refreshes. Empirically, this seems to be fine.
 
 
