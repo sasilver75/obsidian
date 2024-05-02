@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Hermes",
-      "path": "Hermes.md"
+      "basename": "RETRO",
+      "path": "RETRO.md"
+    },
+    {
+      "basename": "REALM",
+      "path": "REALM.md"
     },
     {
       "basename": "Retrieval-Augmented Generation",
       "path": "Retrieval-Augmented Generation.md"
+    },
+    {
+      "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
+      "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
+    },
+    {
+      "basename": "BART",
+      "path": "BART.md"
+    },
+    {
+      "basename": "Bidirectional Encoder Representations from Transformers",
+      "path": "Bidirectional Encoder Representations from Transformers.md"
     },
     {
       "basename": "Dense Passage Retrieval",
@@ -15,6 +31,14 @@
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Maximum Inner Product Search",
+      "path": "Maximum Inner Product Search.md"
+    },
+    {
+      "basename": "Hermes",
+      "path": "Hermes.md"
     },
     {
       "basename": "DSPy",
@@ -175,30 +199,6 @@
     {
       "basename": "FineWeb",
       "path": "FineWeb.md"
-    },
-    {
-      "basename": "InstructGPT",
-      "path": "InstructGPT.md"
-    },
-    {
-      "basename": "Web Rephrase Augmented Pre-training",
-      "path": "Web Rephrase Augmented Pre-training.md"
-    },
-    {
-      "basename": "Cosmopedia",
-      "path": "Cosmopedia.md"
-    },
-    {
-      "basename": "RefinedWeb",
-      "path": "RefinedWeb.md"
-    },
-    {
-      "basename": "RedPajama v2",
-      "path": "RedPajama v2.md"
-    },
-    {
-      "basename": "Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}",
-      "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
     }
   ],
   "omittedPaths": [],

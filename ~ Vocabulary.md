@@ -259,6 +259,7 @@
 - [[Retrieval-Augmented Generation|RAG]]
 - [[RETRO]]
 - [[REALM]]
+- [[ORQA]]
 - [[FLARE]]
 - [[CRAG]]
 - [[Success]]
@@ -267,6 +268,7 @@
 - [[Return Set]]
 - [[Relevance Set]]
 - [[Average Precision]]
+- [[Maximum Inner Product Search]] (MIPS)
 
 # Natural Language Processing Concepts
 - Tasks
