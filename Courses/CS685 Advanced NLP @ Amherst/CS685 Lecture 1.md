@@ -1,3 +1,4 @@
+#lecture 
 Introduction, overview, state of NLP
 
 ![[Pasted image 20240502152956.png]]

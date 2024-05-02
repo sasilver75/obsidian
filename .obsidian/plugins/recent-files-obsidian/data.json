@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "HyDE",
+      "path": "HyDE.md"
+    },
+    {
+      "basename": "HotpotQA",
+      "path": "HotpotQA.md"
+    },
+    {
+      "basename": "EssentialAI",
+      "path": "EssentialAI.md"
+    },
+    {
+      "basename": "LMSYS",
+      "path": "LMSYS.md"
+    },
+    {
+      "basename": "Anthropic",
+      "path": "Anthropic.md"
+    },
+    {
+      "basename": "TogetherAI",
+      "path": "TogetherAI.md"
+    },
+    {
+      "basename": "Cohere",
+      "path": "Cohere.md"
+    },
+    {
+      "basename": "REALM",
+      "path": "REALM.md"
+    },
+    {
+      "basename": "Winograd",
+      "path": "Winograd.md"
+    },
+    {
+      "basename": "PaperTemplate",
+      "path": "Templates/PaperTemplate.md"
+    },
+    {
+      "basename": "CS685 Lecture 2",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md"
+    },
+    {
       "basename": "CS685 Lecture 1",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md"
     },
     {
       "basename": "XCS224U Lecture 6",
       "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 6.md"
-    },
-    {
-      "basename": "HotpotQA",
-      "path": "HotpotQA.md"
     },
     {
       "basename": "Variational Autoencoder",
@@ -23,10 +63,6 @@
     {
       "basename": "How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}",
       "path": "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Winograd",
-      "path": "Winograd.md"
     },
     {
       "basename": "The Bitter Lesson Paper",
@@ -57,32 +93,8 @@
       "path": "Question Answering.md"
     },
     {
-      "basename": "REALM",
-      "path": "REALM.md"
-    },
-    {
       "basename": "Snorkel AI",
       "path": "Snorkel AI.md"
-    },
-    {
-      "basename": "Cohere",
-      "path": "Cohere.md"
-    },
-    {
-      "basename": "TogetherAI",
-      "path": "TogetherAI.md"
-    },
-    {
-      "basename": "Anthropic",
-      "path": "Anthropic.md"
-    },
-    {
-      "basename": "LMSYS",
-      "path": "LMSYS.md"
-    },
-    {
-      "basename": "EssentialAI",
-      "path": "EssentialAI.md"
     },
     {
       "basename": "DataBricks",
@@ -187,18 +199,6 @@
     {
       "basename": "Transformer-XL",
       "path": "Transformer-XL.md"
-    },
-    {
-      "basename": "ReAct",
-      "path": "ReAct.md"
-    },
-    {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
-    },
-    {
-      "basename": "Vicuna",
-      "path": "Vicuna.md"
     }
   ],
   "omittedPaths": [],
