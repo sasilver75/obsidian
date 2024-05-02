@@ -4,6 +4,9 @@ Paper: [Internet-augmented language models through few-shot prompting for open-d
 #zotero 
 
 Takeaway: A system for [[Open-Domain]] [[Question Answering]] with a retrieval system that uses Google Search (rather than Wikipedia) on a mix of single-hop and multi-hop tasks.
+- It seems like they fetch a bunch of relevant passages from Google (search, then scraping and chunking the top 20 links), and then use few-shot prompting to set up the question, using k=15 (Evidence, Question, Answer) pairs.
+	- Not sure how they make the Question/Answer, given a chunk of Evidence
+	- Then they sample some subset of retrieved passages (n=1?) and generate responses, and then use a scoring mechanism to rate which one to trust.
 
 ----
 
