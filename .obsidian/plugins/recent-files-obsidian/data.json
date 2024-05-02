@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
+      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
       "basename": "REALM",
       "path": "REALM.md"
     },
     {
-      "basename": "RETRO",
-      "path": "RETRO.md"
-    },
-    {
       "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
       "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
+    },
+    {
+      "basename": "ORQA",
+      "path": "ORQA.md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
     },
     {
       "basename": "Retrieval-Augmented Generation",
@@ -47,10 +59,6 @@
     {
       "basename": "RingAttention",
       "path": "RingAttention.md"
-    },
-    {
-      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
-      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
     },
     {
       "basename": "Some Remarks on Large Language Models (January 2023) {Yoav Golberg}",
@@ -191,14 +199,6 @@
     {
       "basename": "Reinforcement Learning from Human Feedback",
       "path": "Reinforcement Learning from Human Feedback.md"
-    },
-    {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
-    },
-    {
-      "basename": "FineWeb",
-      "path": "FineWeb.md"
     }
   ],
   "omittedPaths": [],
