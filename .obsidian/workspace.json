@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f4ec31195355d7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Importance Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -213,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+                "file": "Importance Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+                "file": "Importance Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
+                "file": "Importance Sampling.md"
               }
             }
           },
@@ -278,7 +291,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+                "file": "Importance Sampling.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -324,16 +337,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9bfc998097c8c051",
+  "active": "5f4ec31195355d7e",
   "lastOpenFiles": [
-    "ORQA.md",
+    "~ Vocabulary.md",
+    "Importance Sampling.md",
+    "~ Recommendations.md",
+    "Markov Assumption.md",
     "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+    "ORQA.md",
     "_attachments/Pasted image 20240501224712.png",
     "_attachments/Pasted image 20240501222533.png",
     "_attachments/Pasted image 20240501221305.png",
     "Question Answering.md",
     "REALM.md",
-    "~ Vocabulary.md",
     "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
     "_attachments/Pasted image 20240501215717.png",
     "_attachments/Pasted image 20240501215708.png",
@@ -358,10 +374,7 @@
     "_attachments/Pasted image 20240501182136.png",
     "_attachments/Pasted image 20240501180803.png",
     "Dense Passage Retrieval.md",
-    "Maximum Inner Product Search.md",
     "_attachments/Pasted image 20240501174850.png",
-    "BERT.md",
-    "BART.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",

@@ -14,7 +14,14 @@
 - [[Transpose]] (and Symmetric matrices)
 
 # Probability/Statistics
-- ...
+- [[Law of Large Numbers]]
+- [[Central Limit Theorem]]
+- [[Monte Carlo]]
+- [[Markov Assumption]]
+- [[Hidden Markov Model]] (HMM)
+- [[Markov Chain]]
+- [[Markov Chain Monte Carlo]] (MCMC)
+- [[Importance Sampling]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -28,10 +35,6 @@
 - [[t-SNE]]
 - [[Bootstrap]]
 - [[Bootstrap Aggregation]]
-- [[Markov Assumption]]
-- [[Hidden Markov Model]] (HMM)
-- [[Markov Chain]]
-- [[Markov Chain Monte Carlo]] (MCMC)
 - [[Beam Search]]
 - [[F1 Score]]
 - [[ROC Curve]]

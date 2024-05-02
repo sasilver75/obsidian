@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Importance Sampling",
+      "path": "Importance Sampling.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Markov Assumption",
+      "path": "Markov Assumption.md"
+    },
+    {
       "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
       "path": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "REALM",
       "path": "REALM.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}",
@@ -187,18 +199,6 @@
     {
       "basename": "Embedding",
       "path": "Embedding.md"
-    },
-    {
-      "basename": "Instruction-Tuning",
-      "path": "Instruction-Tuning.md"
-    },
-    {
-      "basename": "In-Context Learning",
-      "path": "In-Context Learning.md"
-    },
-    {
-      "basename": "Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}",
-      "path": "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md"
     }
   ],
   "omittedPaths": [],

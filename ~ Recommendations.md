@@ -28,6 +28,7 @@ Youtube Chanenls
 		- Intuitive explanations and animations
 	- RitvikMath
 		- Great explanations of fundamental concepts in probability and math
+	- Mutual Information
 - Engineering
 	- System Design Fight Club
 	- System Design Interview
