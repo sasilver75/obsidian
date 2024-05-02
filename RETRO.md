@@ -6,7 +6,7 @@ December 8, 2021 (18 months after GPT-3)
 Paper: [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426)
 [[DeepMind]]
 #zotero 
-Takeaway: By retrieving over a 2T token database, RETRO obtains comparable performance to GPT-3, despite using 25x fewer parameters (at the time, retrieval for LM work usually considered small transformers and databases of limited size).
+Takeaway: By retrieving over an unprecedented *2T token* database, RETRO obtains comparable performance to GPT-3, despite using 25x fewer parameters (at the time, retrieval for LM work usually considered small transformers and databases of limited size). The generation component is pretrained from scratch while incorporating input from the already-trained, frozen retrieval component.
 
 ----
 
@@ -35,3 +35,4 @@ Above:
 Comparison with [[Retrieval-Augmented Generation|RAG]], [[REALM]], [[DPR]], kNN-LM, and [[Fusion-in-Decoder]] (FiD)
 
 ![[Pasted image 20240501174523.png]]
+

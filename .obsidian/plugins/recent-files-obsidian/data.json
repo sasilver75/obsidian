@@ -1,28 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "RETRO",
-      "path": "RETRO.md"
-    },
-    {
       "basename": "REALM",
       "path": "REALM.md"
     },
     {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
+      "basename": "RETRO",
+      "path": "RETRO.md"
     },
     {
       "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
       "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
     },
     {
-      "basename": "BART",
-      "path": "BART.md"
-    },
-    {
-      "basename": "Bidirectional Encoder Representations from Transformers",
-      "path": "Bidirectional Encoder Representations from Transformers.md"
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
     },
     {
       "basename": "Dense Passage Retrieval",
@@ -35,6 +27,14 @@
     {
       "basename": "Maximum Inner Product Search",
       "path": "Maximum Inner Product Search.md"
+    },
+    {
+      "basename": "BART",
+      "path": "BART.md"
+    },
+    {
+      "basename": "Bidirectional Encoder Representations from Transformers",
+      "path": "Bidirectional Encoder Representations from Transformers.md"
     },
     {
       "basename": "Hermes",
