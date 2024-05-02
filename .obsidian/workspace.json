@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f61043871caedae",
+            "id": "790858d07fbc3947",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "0e8cfa7ff004e027",
+            "id": "3ff4b8104ee8040a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bfc998097c8c051",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f4ec31195355d7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Importance Sampling.md",
+                "file": "Winograd.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -150,8 +124,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Importance Sampling.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Importance Sampling.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Importance Sampling.md"
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md"
               }
             }
           },
@@ -291,7 +264,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Importance Sampling.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -337,22 +310,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f4ec31195355d7e",
+  "active": "790858d07fbc3947",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240502152956.png",
+    "_attachments/Pasted image 20240502152737.png",
+    "Courses/CS685 Advanced NLP @ Amherst",
+    "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 6.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
+    "_attachments/Pasted image 20240502151414.png",
+    "_attachments/Pasted image 20240502150815.png",
+    "_attachments/Pasted image 20240502150716.png",
+    "_attachments/Pasted image 20240502150237.png",
+    "_attachments/Pasted image 20240502145852.png",
+    "_attachments/Pasted image 20240502145812.png",
+    "_attachments/Pasted image 20240502145213.png",
+    "_attachments/Pasted image 20240502144821.png",
+    "HotpotQA.md",
+    "_attachments/Pasted image 20240502144610.png",
+    "Variational Autoencoder.md",
     "~ Vocabulary.md",
+    "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
+    "Winograd.md",
+    "Papers/The Bitter Lesson Paper.md",
+    "Courses/XCS224U/Untitled.md",
+    "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
     "Importance Sampling.md",
     "~ Recommendations.md",
     "Markov Assumption.md",
-    "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
     "ORQA.md",
-    "_attachments/Pasted image 20240501224712.png",
-    "_attachments/Pasted image 20240501222533.png",
-    "_attachments/Pasted image 20240501221305.png",
     "Question Answering.md",
     "REALM.md",
-    "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
-    "_attachments/Pasted image 20240501215717.png",
-    "_attachments/Pasted image 20240501215708.png",
     "Snorkel AI.md",
     "Cohere.md",
     "TogetherAI.md",
@@ -362,26 +349,13 @@
     "DataBricks.md",
     "Adept.md",
     "Out-of-Vocabulary Token.md",
-    "Contextual.md",
-    "HotpotQA.md",
-    "Retrieval-Augmented Generation.md",
-    "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
-    "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
-    "~ Ideas.md",
-    "_attachments/Pasted image 20240501192220.png",
-    "RETRO.md",
-    "_attachments/Pasted image 20240501185130.png",
-    "_attachments/Pasted image 20240501182136.png",
-    "_attachments/Pasted image 20240501180803.png",
-    "Dense Passage Retrieval.md",
-    "_attachments/Pasted image 20240501174850.png",
     "Courses/CS25",
-    "Courses/XCS224U",
+    "Courses/XCS224U NLU @ Stanford",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
     "Courses/CS224N/Untitled",
-    "Courses/CS224N",
+    "Courses/CS224N NLP @ Stanford",
     "Courses"
   ]
 }
