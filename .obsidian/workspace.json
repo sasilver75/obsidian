@@ -13,7 +13,85 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hermes.md",
+                "file": "RETRO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f892c8a31fbe761",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Retrieval-Augmented Generation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82e0db0e2d1ce3af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Retrieval-Augmented Generation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3e55b5611b9b455",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96e807ceecce1c3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dense Passage Retrieval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fad3118748eb318f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78373222bb64df7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maximum Inner Product Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hermes.md",
+                "file": "RETRO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hermes.md",
+                "file": "RETRO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hermes.md"
+                "file": "RETRO.md"
               }
             }
           },
@@ -173,7 +251,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Hermes.md",
+                "file": "RETRO.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -221,20 +299,34 @@
   },
   "active": "47849ae88f4afd17",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240501174850.png",
+    "REALM.md",
+    "RETRO.md",
+    "_attachments/Pasted image 20240501174523.png",
     "Retrieval-Augmented Generation.md",
+    "_attachments/Pasted image 20240501174232.png",
+    "_attachments/Pasted image 20240501172623.png",
+    "_attachments/Pasted image 20240501170200.png",
+    "_attachments/Pasted image 20240501170048.png",
+    "_attachments/Pasted image 20240501164404.png",
+    "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md",
+    "BERT.md",
+    "BART.md",
+    "Bidirectional Encoder Representations from Transformers.md",
     "Dense Passage Retrieval.md",
+    "~ Vocabulary.md",
+    "Maximum Inner Product Search.md",
+    "_attachments/Pasted image 20240501162150.png",
+    "Hermes.md",
     "_attachments/Pasted image 20240501160110.png",
     "_attachments/Pasted image 20240501155253.png",
     "_attachments/Pasted image 20240501155251.png",
-    "~ Vocabulary.md",
     "DSPy.md",
     "RingAttention.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
     "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md",
     "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md",
     "Articles/Intro to ColBERT - v2 (January 1, 2024) {AI&J Notion Blog}.md",
-    "_attachments/Pasted image 20240430232411.png",
-    "_attachments/Pasted image 20240430231959.png",
     "Courses/XCS224U/XCS224U Lecture 6.md",
     "Courses/XCS224U/XCS224U Lecture 1.md",
     "Courses/XCS224U/XCS224U Lecture 2.md",
@@ -243,20 +335,6 @@
     "Courses/XCS224U/XCS224U Lecture 5.md",
     "LoTTe.md",
     "Dynaboard.md",
-    "Transformer-XL.md",
-    "ReAct.md",
-    "ChatBot Arena.md",
-    "_attachments/Pasted image 20240430112429.png",
-    "Vicuna.md",
-    "ColBERT.md",
-    "Natural Questions.md",
-    "_attachments/Pasted image 20240429233832.png",
-    "_attachments/Pasted image 20240429233821.png",
-    "_attachments/Pasted image 20240429231859.png",
-    "_attachments/Pasted image 20240429231706.png",
-    "Positional Embeddings.md",
-    "Embedding.md",
-    "Instruction-Tuning.md",
     "Courses/CS25",
     "Courses/XCS224U",
     "Articles/ML/Untitled",
