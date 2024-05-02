@@ -1,0 +1,1 @@
+Started as a research project in the [[Stanford AI Lab]] (SAIL) in 2015, when [[Alex Ratner]] (CEO), [[Chris Ré]], Paroma Varma, Braden Hancock, and Henry Ehrenberg worked together on "training data programming."

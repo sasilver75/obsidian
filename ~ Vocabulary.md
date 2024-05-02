@@ -609,7 +609,7 @@
 - [[OpenHermes2.5 Dataset]]
 - [[FLAN v2]]
 - [[OpenOrca Dataset]]
-- [[SlimOrca]]d
+- [[SlimOrca]]
 - [[Common Objects in Context]]
 - [[LoTTe]]
 - [[Natural Questions]]
@@ -658,6 +658,7 @@
 - [[LMSYS]] ⚔️
 - [[Salesforce Research]]  💼
 - [[Apple]] 
+- [[EssentialAI]]
 
 
 # People

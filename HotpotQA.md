@@ -2,7 +2,7 @@ September 25, 2018 -- Carnegie Mellon ,Stanford, Google
 [HotpotQA: A dataset for diverse, Explainable Multi-Hop Question Answering](https://arxiv.org/abs/1809.09600)
 
 113k Wikipedia-based question-answer pairs
-- The questions require *finding and reasoning over multiple supporting documents to answer*
+- The questions require *finding and reasoning over ==multiple supporting documents== to answer* -- this is [[Multi-Hop]] [[Question Answering]]
 - The questions are diverse and not constrained to pre-existing knowledge bases
 
 Abstract
