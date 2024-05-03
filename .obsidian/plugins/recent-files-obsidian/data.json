@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "Vicuna",
+      "path": "Vicuna.md"
+    },
+    {
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
+    },
+    {
+      "basename": "WizardCoder",
+      "path": "WizardCoder.md"
+    },
+    {
       "basename": "HyDE",
       "path": "HyDE.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "XCS224U Lecture 4",
       "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 4.md"
-    },
-    {
-      "basename": "XCS224U Lecture 5",
-      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 5.md"
-    },
-    {
-      "basename": "LoTTe",
-      "path": "LoTTe.md"
-    },
-    {
-      "basename": "Dynaboard",
-      "path": "Dynaboard.md"
-    },
-    {
-      "basename": "Transformer-XL",
-      "path": "Transformer-XL.md"
     }
   ],
   "omittedPaths": [],

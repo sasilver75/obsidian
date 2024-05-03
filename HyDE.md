@@ -28,7 +28,7 @@ Notes
 		- We take our query, use our LM with a prompt like `write a paragraph that answers the question`to generate a hypothetical document. We offload relevance modeling from the representation learning model to an NLG model that generalizes significantly more easily, naturally, and effectively. 
 		- We can now encode the generated document using the document encoder. The inner product is computed between that vector and the set of all document vectors.
 		- The encoder function also serves as a lossy compressor that outputs dense vectors, where the extra details are filtered out and left from the vector. ((How, when the encoder is trained in an unsupervised fashion?))
-- 
+- "==We argue HyDE is of practical use, though not necessarily over the entire lifespan of a search system==. At the very beginning of the life of the search system, serving queries using HyDE offers performance compatible to a fine-tuned model, which no other relevance-score-free (supervision free, with respect to document/query relevances) model can offer. As the search log grows, a supervised dense retriever can be gradually rolled out. As the dense retriever becomes stronger, more queries will be routed to it, with only less common ones going to the HyDE backend."
 
 
 Abstract

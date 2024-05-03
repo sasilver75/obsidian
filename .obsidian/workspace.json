@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HyDE.md",
+                "file": "WizardCoder.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "534efebb2d30d723",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WizardLM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HyDE.md",
+                "file": "WizardLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HyDE.md",
+                "file": "WizardLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HyDE.md"
+                "file": "WizardLM.md"
               }
             }
           },
@@ -173,7 +187,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HyDE.md",
+                "file": "WizardLM.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,11 +233,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aec041cd11471421",
+  "active": "534efebb2d30d723",
   "lastOpenFiles": [
+    "Vicuna.md",
+    "WizardLM.md",
+    "Alpaca.md",
+    "_attachments/Pasted image 20240502180347.png",
+    "WizardCoder.md",
+    "HyDE.md",
     "_attachments/Pasted image 20240502162616.png",
     "Templates/PaperTemplate.md",
-    "HyDE.md",
     "HotpotQA.md",
     "EssentialAI.md",
     "LMSYS.md",
@@ -245,8 +264,6 @@
     "_attachments/Pasted image 20240502150237.png",
     "_attachments/Pasted image 20240502145852.png",
     "_attachments/Pasted image 20240502145812.png",
-    "_attachments/Pasted image 20240502145213.png",
-    "_attachments/Pasted image 20240502144821.png",
     "Variational Autoencoder.md",
     "~ Vocabulary.md",
     "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
@@ -256,9 +273,6 @@
     "Importance Sampling.md",
     "~ Recommendations.md",
     "Markov Assumption.md",
-    "ORQA.md",
-    "Question Answering.md",
-    "Snorkel AI.md",
     "Courses/CS25",
     "Courses/XCS224U NLU @ Stanford",
     "Articles/ML/Untitled",
