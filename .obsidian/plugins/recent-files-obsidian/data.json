@@ -5,6 +5,10 @@
       "path": "HyDE.md"
     },
     {
+      "basename": "PaperTemplate",
+      "path": "Templates/PaperTemplate.md"
+    },
+    {
       "basename": "HotpotQA",
       "path": "HotpotQA.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Winograd",
       "path": "Winograd.md"
-    },
-    {
-      "basename": "PaperTemplate",
-      "path": "Templates/PaperTemplate.md"
     },
     {
       "basename": "CS685 Lecture 2",

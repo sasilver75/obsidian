@@ -5,7 +5,8 @@ Paper: [REPLACE]()
 Takeaway: REPLACE
 
 ----
-
+Notes
+- REPLACE
 
 Abstract
 > REPLACE

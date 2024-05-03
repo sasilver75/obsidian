@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5bca50ccbee89127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/PaperTemplate.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -208,6 +221,9 @@
   },
   "active": "aec041cd11471421",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240502162616.png",
+    "Templates/PaperTemplate.md",
+    "HyDE.md",
     "HotpotQA.md",
     "EssentialAI.md",
     "LMSYS.md",
@@ -216,8 +232,6 @@
     "Cohere.md",
     "REALM.md",
     "Winograd.md",
-    "Templates/PaperTemplate.md",
-    "HyDE.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
@@ -245,7 +259,6 @@
     "ORQA.md",
     "Question Answering.md",
     "Snorkel AI.md",
-    "DataBricks.md",
     "Courses/CS25",
     "Courses/XCS224U NLU @ Stanford",
     "Articles/ML/Untitled",
