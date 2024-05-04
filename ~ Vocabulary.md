@@ -235,6 +235,8 @@
 - [[LLM-as-a-Judge]]
 - [[Continual Pretraining]]
 - [[False Refuse]]
+- [[Retrieval-Augmented Generation]] (RAG)
+- [[CRAG|Corrective Retrieval Augmented Generation]] (CRAG)
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -259,7 +261,6 @@
 - [[SANTA]]
 - [[Fusion-in-Decoder]] (FiD)
 	- [[KG-FiD]]
-- [[Retrieval-Augmented Generation|RAG]]
 - [[RETRO]]
 - [[REALM]]
 - [[ORQA]]
