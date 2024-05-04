@@ -5,6 +5,14 @@
       "path": "LLaMA 2.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "WizardLM",
       "path": "WizardLM.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "PaperTemplate",
@@ -195,10 +199,6 @@
     {
       "basename": "The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}",
       "path": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md"
-    },
-    {
-      "basename": "XCS224U Lecture 1",
-      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md"
     }
   ],
   "omittedPaths": [],

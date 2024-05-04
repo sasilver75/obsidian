@@ -243,3 +243,6 @@ More on Context making static representations of words a silly goal, from CS224U
 
 ![[Pasted image 20240426121952.png|300]]
 ![[Pasted image 20240426130927.png|300]]
+
+![[Pasted image 20240504123138.png|300]]
+Interesting that perhaps [[L1 Regularization]] isn't that good for DNN?
