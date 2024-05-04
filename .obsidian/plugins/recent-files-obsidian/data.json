@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
+      "basename": "WizardCoder",
+      "path": "WizardCoder.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "PaperTemplate",
+      "path": "Templates/PaperTemplate.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "Codex",
+      "path": "Codex.md"
+    },
+    {
+      "basename": "CS224N Lecture 15",
+      "path": "Courses/CS224N NLP @ Stanford/CS224N Lecture 15.md"
     },
     {
       "basename": "Vicuna",
@@ -17,16 +37,8 @@
       "path": "Alpaca.md"
     },
     {
-      "basename": "WizardCoder",
-      "path": "WizardCoder.md"
-    },
-    {
       "basename": "HyDE",
       "path": "HyDE.md"
-    },
-    {
-      "basename": "PaperTemplate",
-      "path": "Templates/PaperTemplate.md"
     },
     {
       "basename": "HotpotQA",
@@ -141,10 +153,6 @@
       "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
     },
     {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
       "basename": "RETRO",
       "path": "RETRO.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "XCS224U Lecture 2",
       "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 2.md"
-    },
-    {
-      "basename": "XCS224U Lecture 3",
-      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 3.md"
-    },
-    {
-      "basename": "XCS224U Lecture 4",
-      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 4.md"
     }
   ],
   "omittedPaths": [],
