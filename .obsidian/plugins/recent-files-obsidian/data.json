@@ -5,6 +5,10 @@
       "path": "WizardLM.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Vicuna",
       "path": "Vicuna.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "Variational Autoencoder",
       "path": "Variational Autoencoder.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}",
