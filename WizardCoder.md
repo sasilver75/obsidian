@@ -1,7 +1,8 @@
 June 14, 2023 (About a month after the [[StarCoder]] paper, a collaboration of many institutions. About two months after the initial [[WizardLM]] paper)
 [[Microsoft Research]]
 Paper: [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568)
-Takeaway: ...
+#zotero 
+Takeaway: We finetune StarCoder 15B by using a slightly modifier version of the Evol-Instruct framework to improve a 22k record Code Alpaca instruction dataset to ~78k samples prior to fine-tuning. The resulting model beats all open-source code generation models and is only slightly bested by the best closed source models (GPT 3.5 barely, GPT 4). The assertion was that most (especially open-source) Code-Gen models of the time were basically pre-trained on code data, but didn't undergo significant (and good) instruction tuning.
 
 ----
 

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
       "basename": "WizardCoder",
       "path": "WizardCoder.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "PaperTemplate",
       "path": "Templates/PaperTemplate.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
     },
     {
       "basename": "Codex",
@@ -195,10 +199,6 @@
     {
       "basename": "XCS224U Lecture 1",
       "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md"
-    },
-    {
-      "basename": "XCS224U Lecture 2",
-      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 2.md"
     }
   ],
   "omittedPaths": [],

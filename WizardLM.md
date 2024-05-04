@@ -1,6 +1,7 @@
 April 24, 2023
 [[Microsoft Research]]
 Paper: [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244)
+#zotero 
 Takeaway: A [[LLaMA]] 7B model fine-tuned using synthetic instruction-tuning data generated from the [[Evol-Instruct]] technique, which was introduced in the same paper. We use an evolutionary algorithm to generate diverse and complex instruction data for LLM by doing multiple rounds of evolution of an initial instruction dataset, where we choose from one of 6 possible evolutions of an instruction (5 increasing the depth, and 1 increasing the breadth), which are performed via specialized prompts and a language model. Compared to the other LLaMA 7B fine-tunes of Alpaca and Vicuna, WizardLM is a meaningfully better model.
 
 ----
