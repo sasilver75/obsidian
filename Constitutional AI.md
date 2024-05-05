@@ -6,7 +6,7 @@ December 15, 2022
 [[Anthropic]]
 Paper: [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)
 #zotero 
-Takeaway: ...
+Takeaway: CAI has two phases, a supervised learning phase and a reinforcement learning phase. In the supervised learning phase where we get the model "on distribution" by asking it to generate responses to a prompt, critique the prompt according to one of 16 principles, revise its response, given the prompt, origin response, and critique. This creates a dataset that we can train on in a supervised manner. In the RL phase, we hope to ameliorate the problem of asking humans for preference data. For "helpful" data, we still have to get human preference information, but for "harmless," we skip the RM-creating portion of the pipeline completely, and just use a reward model with CoT + 1/16 principle as a judge of "human" (via AI) preferences.
 
 References:
 - [[Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}]]
