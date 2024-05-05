@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Constitutional AI",
+      "path": "Constitutional AI.md"
+    },
+    {
       "basename": "LLaMA 2",
       "path": "LLaMA 2.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Some Remarks on Large Language Models (January 2023) {Yoav Golberg}",
       "path": "Articles/Some Remarks on Large Language Models (January 2023) {Yoav Golberg}.md"
-    },
-    {
-      "basename": "The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}",
-      "path": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md"
     }
   ],
   "omittedPaths": [],
