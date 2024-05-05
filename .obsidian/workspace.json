@@ -21,6 +21,58 @@
             }
           },
           {
+            "id": "6b8afdeb832ac71f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mixture-of-Experts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26f3a108f4703b05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "024664e71aea0de1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Expert Capacity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2e20e93cd5a5799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capacity Factor.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e8beb4075b302046",
             "type": "leaf",
             "state": {
@@ -98,7 +150,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constitutional AI.md",
+                "file": "Mixture-of-Experts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Constitutional AI.md",
+                "file": "Mixture-of-Experts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Constitutional AI.md"
+                "file": "Mixture-of-Experts.md"
               }
             }
           },
@@ -239,7 +292,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Constitutional AI.md",
+                "file": "Mixture-of-Experts.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -285,8 +338,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aec041cd11471421",
+  "active": "6b8afdeb832ac71f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240505111024.png",
+    "Constitutional AI.md",
+    "Mixture-of-Experts.md",
+    "~ Vocabulary.md",
+    "MegaBlocks.md",
+    "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
+    "Expert Capacity.md",
+    "Capacity Factor.md",
     "_attachments/Pasted image 20240505000957.png",
     "_attachments/Pasted image 20240505000736.png",
     "_attachments/Pasted image 20240505000619.png",
@@ -298,8 +359,6 @@
     "_attachments/Pasted image 20240504162513.png",
     "_attachments/Pasted image 20240504162033.png",
     "_attachments/Pasted image 20240504161943.png",
-    "~ Vocabulary.md",
-    "_attachments/Pasted image 20240504151123.png",
     "~ Useful Pictures.md",
     "WizardLM.md",
     "WizardCoder.md",
@@ -317,14 +376,8 @@
     "TogetherAI.md",
     "Cohere.md",
     "REALM.md",
-    "Winograd.md",
     "Templates",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
     "Courses/CS685 Advanced NLP @ Amherst",
-    "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 6.md",
-    "Variational Autoencoder.md",
-    "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
     "Courses/CS25",
     "Courses/XCS224U NLU @ Stanford",
     "Articles/ML/Untitled",
