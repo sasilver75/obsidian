@@ -23,18 +23,23 @@ Notes:
 - The idea with CAI is that human supervision comes *entirely from a set of principles that should govern AI behavior (along with a small number of examples for few-shot prompting)*. It has **two phases**:
 	1. Supervised phase, where the model gets "on distribution"
 		- **Generation -> Critique -> Revision -> Supervised Learning**
-		- We first generate responses to helpfulness prompts using a *helpful-only AI assistant*. These responses are initially likely quite harmful and toxic. We then ask the same model to *critique its response according to a principle in the constitution*, and then ask the model to *revise* the original response in light of this critique.
+		- We first generate responses to helpfulness prompts using a *helpful-only AI assistant*. These responses are initially likely quite harmful and toxic. We then ask the same model to *critique its response according to an **independently sampled principle in the constitution***, and then ask the model to *revise* the original response in light of this critique.
 		- We revise responses repeatedly in a sequence, where we randomly draw principles from the constitution at each step.
 		- Once this process is complete, we finetune a pretrained language model (a different model?) with supervised learning on the final revised responses.
 		- **The goal of this phase is to easily and flexibly alter the distribution of the model's responses, to reduce the need for exploration and the total length of training during the following RL phase.**
+		- Note: "*Are Critiques Necessary? Why can't we just skip it, instructing the model to generate a revision directly*?" The authors do it both ways, and find that critiqued revisions achieved better harmlessness scores for small models, but ***made no noticeable difference for large models***. For the paper, they choose to use critiqued revisions as they might provide more transparency into the model's reasoning process.
 	2. RL phase, where we refine and significantly improve performance.
-		- AI Comparison Evaluations -> Preference Model -> Reinforcement Learning
+		- **AI Comparison Evaluations -> Preference Model -> Reinforcement Learning**
 		- This stage mimics RLHF except we replace human preferences for harmlessness with "AI Feedback", where the AI evaluates responses according to a set of constitutional principles.
 		- In this stage, we distill LM interpretations of a set of principles back into a hybrid human/AI preference model (since **we use human labels for helpfulness, but only AI labels for harmlessness**).
 		- We begin by taking the AI assistant resulting from the previous supervised learning first stage, and use it to generate a *pair of responses* to each prompt in a dataset of harmful prompts. 
 		- We then formulate each prompt and pair into a multiple-choice question, where we ask which response is best, according to a constitutional principle. This produces an AI generated preference dataset for *harmlessness*, which we mix with our *human feedback helpfulness dataset.*
 		- We then train a preference model on this comparison data, resulting in a preference model that can assign a score to any given sample.
 		- We then finetune the supervised learning model from the first stage via RL against this reward/preference model.
+		- ![[Pasted image 20240505000619.png]]
+		- The authors also experiment with using [[Chain of Thought]] (both zero-shot and few-shot) prompting:
+		- ![[Pasted image 20240505000736.png]]
+		- One issue that arrises is that CoT samples typically state very explicitly which multiple choice option is to be preferred, and so the probability targets are typically very confident (eg close to 0 or 1) and are not well-calibrated. We found that clamping the CoT probabilities to lie in the 40-60 range led to better and more robust behavior.
 - 
 
 
@@ -58,6 +63,10 @@ Above: A comparison of the frontiers of Standard RLHF and Constitutional AI. It 
 
 ![[Pasted image 20240504191534.png]]
 Above: It makes sense to me that Helpfulness (which is sort of the capability to *do some action*) scales better with model size, whereas Harmlessness (oftentimes the ability to *not do some action*) doesn't scale *quite* as well with size, though it still *does* scale with size.
+
+![[Pasted image 20240505000957.png]]
+
+
 
 
 # Non-Paper Figures
