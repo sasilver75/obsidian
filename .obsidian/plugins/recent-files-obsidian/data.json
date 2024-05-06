@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Chain of Note",
+      "path": "Chain of Note.md"
+    },
+    {
+      "basename": "Chain of Thought",
+      "path": "Chain of Thought.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Vision Transformer",
       "path": "Vision Transformer.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "Mixture-of-Experts",
       "path": "Mixture-of-Experts.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Expert Capacity",
@@ -191,10 +199,6 @@
     {
       "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
       "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
-    },
-    {
-      "basename": "RETRO",
-      "path": "RETRO.md"
     }
   ],
   "omittedPaths": [],

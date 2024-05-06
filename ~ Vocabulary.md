@@ -95,6 +95,7 @@
 - [[Prompt Tuning]]
 - [[Feed-Forward Network]]
 - [[Chain of Thought]] (CoT)
+- [[Chain of Note]] (CoN)
 - [[Catastrophic Forgetting]]
 - [[Fine-Tuning]]
 - [[Instruction-Tuning]]
