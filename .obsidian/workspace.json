@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLIP.md",
+                "file": "Vision Transformer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLIP.md",
+                "file": "Vision Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLIP.md",
+                "file": "Vision Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLIP.md"
+                "file": "Vision Transformer.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CLIP.md",
+                "file": "Vision Transformer.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,6 +209,13 @@
   },
   "active": "6b8afdeb832ac71f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240506140925.png",
+    "_attachments/Pasted image 20240506140831.png",
+    "LLaMA.md",
+    "LayerNorm.md",
+    "Vision Transformer.md",
+    "_attachments/Pasted image 20240506133340.png",
+    "CLIP.md",
     "_attachments/Pasted image 20240506123830.png",
     "_attachments/Pasted image 20240506123415.png",
     "_attachments/Pasted image 20240506122932.png",
@@ -217,7 +224,6 @@
     "_attachments/Pasted image 20240506105926.png",
     "_attachments/Pasted image 20240505125232.png",
     "Mixture-of-Experts.md",
-    "CLIP.md",
     "~ Vocabulary.md",
     "Expert Capacity.md",
     "Capacity Factor.md",
@@ -226,9 +232,6 @@
     "Templates/PaperTemplate.md",
     "Constitutional AI.md",
     "_attachments/Pasted image 20240505115135.png",
-    "_attachments/Pasted image 20240505114013.png",
-    "_attachments/Pasted image 20240505113738.png",
-    "_attachments/Pasted image 20240505113105.png",
     "MegaBlocks.md",
     "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
     "LLaMA 2.md",
@@ -242,9 +245,6 @@
     "HotpotQA.md",
     "EssentialAI.md",
     "LMSYS.md",
-    "Anthropic.md",
-    "TogetherAI.md",
-    "Cohere.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",
