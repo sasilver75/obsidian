@@ -19,8 +19,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "673494d79a68f24f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "171f901e97255829",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chain of Thought.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdcf6bdeed67ea16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chain of Note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -96,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vision Transformer.md",
+                "file": "Chain of Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vision Transformer.md",
+                "file": "Chain of Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vision Transformer.md"
+                "file": "Chain of Note.md"
               }
             }
           },
@@ -161,7 +201,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Vision Transformer.md",
+                "file": "Chain of Note.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,31 +247,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6b8afdeb832ac71f",
+  "active": "cdcf6bdeed67ea16",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240506152932.png",
+    "_attachments/Pasted image 20240506152911.png",
+    "_attachments/Pasted image 20240506150931.png",
+    "Chain of Thought.md",
+    "~ Vocabulary.md",
+    "Chain of Note.md",
+    "Vision Transformer.md",
+    "_attachments/Pasted image 20240506143723.png",
     "_attachments/Pasted image 20240506140925.png",
     "_attachments/Pasted image 20240506140831.png",
     "LLaMA.md",
     "LayerNorm.md",
-    "Vision Transformer.md",
     "_attachments/Pasted image 20240506133340.png",
     "CLIP.md",
     "_attachments/Pasted image 20240506123830.png",
     "_attachments/Pasted image 20240506123415.png",
     "_attachments/Pasted image 20240506122932.png",
     "_attachments/Pasted image 20240506114213.png",
-    "_attachments/Pasted image 20240506112132.png",
-    "_attachments/Pasted image 20240506105926.png",
-    "_attachments/Pasted image 20240505125232.png",
     "Mixture-of-Experts.md",
-    "~ Vocabulary.md",
     "Expert Capacity.md",
     "Capacity Factor.md",
     "~ Useful Pictures.md",
     "WizardLM.md",
     "Templates/PaperTemplate.md",
     "Constitutional AI.md",
-    "_attachments/Pasted image 20240505115135.png",
     "MegaBlocks.md",
     "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
     "LLaMA 2.md",
@@ -243,8 +285,6 @@
     "Alpaca.md",
     "HyDE.md",
     "HotpotQA.md",
-    "EssentialAI.md",
-    "LMSYS.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",

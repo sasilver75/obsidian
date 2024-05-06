@@ -4,7 +4,7 @@ tags:
 aliases:
   - CoT
 ---
-Paper (Feb 2021): https://arxiv.org/pdf/2102.07350.pdf "Prompting for LLMs beyond the few-shot paradigm"
-Paper (Jan 2023, Google Brain): https://arxiv.org/pdf/2201.11903.pdf "Chain of Thought prompting elicits reasoning in LLMS"
 
-Variants: Zero-Shot Chain of Thought
+Inspired: Chain of Explanation (Huang et al., 2023), Chain of Knowledge (Wang et al, 2023a), Chain of Verification (Dhuliawala et al., 2023), IR Chain of Thought (Trivedi et al., 2023), [[Chain of Note]] (Yu et al., 2023)
+
+-----
