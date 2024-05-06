@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Vision Transformer",
+      "path": "Vision Transformer.md"
+    },
+    {
+      "basename": "LLaMA",
+      "path": "LLaMA.md"
+    },
+    {
       "basename": "CLIP",
       "path": "CLIP.md"
     },
@@ -187,18 +195,6 @@
     {
       "basename": "RETRO",
       "path": "RETRO.md"
-    },
-    {
-      "basename": "Dense Passage Retrieval",
-      "path": "Dense Passage Retrieval.md"
-    },
-    {
-      "basename": "Maximum Inner Product Search",
-      "path": "Maximum Inner Product Search.md"
-    },
-    {
-      "basename": "BART",
-      "path": "BART.md"
     }
   ],
   "omittedPaths": [],
