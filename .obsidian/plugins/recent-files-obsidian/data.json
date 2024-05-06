@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "CLIP",
+      "path": "CLIP.md"
+    },
+    {
       "basename": "Mixture-of-Experts",
       "path": "Mixture-of-Experts.md"
     },
     {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}",
-      "path": "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md"
     },
     {
       "basename": "Expert Capacity",
@@ -25,10 +21,6 @@
       "path": "Capacity Factor.md"
     },
     {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
-    },
-    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
@@ -37,16 +29,28 @@
       "path": "WizardLM.md"
     },
     {
+      "basename": "PaperTemplate",
+      "path": "Templates/PaperTemplate.md"
+    },
+    {
+      "basename": "Constitutional AI",
+      "path": "Constitutional AI.md"
+    },
+    {
+      "basename": "Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}",
+      "path": "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md"
+    },
+    {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
+    },
+    {
       "basename": "WizardCoder",
       "path": "WizardCoder.md"
     },
     {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
-    },
-    {
-      "basename": "PaperTemplate",
-      "path": "Templates/PaperTemplate.md"
     },
     {
       "basename": "Codex",

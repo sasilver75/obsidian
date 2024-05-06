@@ -8,150 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aec041cd11471421",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constitutional AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6b8afdeb832ac71f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mixture-of-Experts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26f3a108f4703b05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "024664e71aea0de1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Expert Capacity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2e20e93cd5a5799",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Capacity Factor.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8beb4075b302046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f1a0d79eb713676",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "209aad723f6400ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0c3565f8eceb3a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WizardLM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a30b63b2e6d395f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bca50ccbee89127",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/PaperTemplate.md",
+                "file": "CLIP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mixture-of-Experts.md",
+                "file": "CLIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mixture-of-Experts.md",
+                "file": "CLIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mixture-of-Experts.md"
+                "file": "CLIP.md"
               }
             }
           },
@@ -292,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Mixture-of-Experts.md",
+                "file": "CLIP.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -340,30 +209,31 @@
   },
   "active": "6b8afdeb832ac71f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240506114213.png",
+    "_attachments/Pasted image 20240506112132.png",
+    "_attachments/Pasted image 20240506105926.png",
+    "_attachments/Pasted image 20240505125232.png",
+    "Mixture-of-Experts.md",
+    "CLIP.md",
+    "~ Vocabulary.md",
+    "Expert Capacity.md",
+    "Capacity Factor.md",
+    "~ Useful Pictures.md",
+    "WizardLM.md",
+    "Templates/PaperTemplate.md",
+    "Constitutional AI.md",
     "_attachments/Pasted image 20240505115135.png",
     "_attachments/Pasted image 20240505114013.png",
     "_attachments/Pasted image 20240505113738.png",
     "_attachments/Pasted image 20240505113105.png",
     "_attachments/Pasted image 20240505111024.png",
-    "Constitutional AI.md",
-    "Mixture-of-Experts.md",
-    "~ Vocabulary.md",
     "MegaBlocks.md",
     "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
-    "Expert Capacity.md",
-    "Capacity Factor.md",
     "_attachments/Pasted image 20240505000957.png",
     "_attachments/Pasted image 20240505000736.png",
-    "_attachments/Pasted image 20240505000619.png",
-    "_attachments/Pasted image 20240504191534.png",
-    "_attachments/Pasted image 20240504190945.png",
-    "_attachments/Pasted image 20240504185553.png",
     "LLaMA 2.md",
-    "~ Useful Pictures.md",
-    "WizardLM.md",
     "WizardCoder.md",
     "~ Ideas.md",
-    "Templates/PaperTemplate.md",
     "Codex.md",
     "Courses/CS224N NLP @ Stanford/CS224N Lecture 15.md",
     "Vicuna.md",
@@ -375,7 +245,6 @@
     "Anthropic.md",
     "TogetherAI.md",
     "Cohere.md",
-    "REALM.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",

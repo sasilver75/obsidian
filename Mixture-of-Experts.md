@@ -6,7 +6,7 @@ January 23, 2017 (5 months before *Attention is all you need*)
 [[Google Research]] - Including [[Noam Shazeer]], [[Quoc Le]], [[Jeff Dean]], [[Geoff Hinton]]
 Paper: [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/abs/1701.06538)
 #zotero 
-Takeaway: ...
+Takeaway: They introduce an MoE layer to the stacked LSTM context, where an MoE layer consists of a gating network and a collection of experts. The gating network outputs a *sparse* vector, selecting k of the experts to activate during the forward pass for this token. There are some questions about how to balance the gating networks and how to distribute experts across machines.
 
 ---
 
