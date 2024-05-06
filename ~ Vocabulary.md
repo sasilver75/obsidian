@@ -716,5 +716,6 @@
 - [[Nils Reimers]] 👨‍🔬
 - [[Omar Khattab]] 📂
 - [[John Schulman]] 🤖
-- [[Noam Chomsky]] 📝
+- [[Noam Chomsky]] 🗣️
 - [[Jeff Dean]] 🐐
+- [[Jack Clark]] 📝
