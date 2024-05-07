@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Chain of Note",
-      "path": "Chain of Note.md"
+      "basename": "LLaMA Guard",
+      "path": "LLaMA Guard.md"
     },
     {
-      "basename": "Chain of Thought",
-      "path": "Chain of Thought.md"
+      "basename": "LLaMA Guard 2024-05-06 16.13.04.excalidraw",
+      "path": "_attachments/LLaMA Guard 2024-05-06 16.13.04.excalidraw.md"
+    },
+    {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
+    },
+    {
+      "basename": "Vision Transformer",
+      "path": "Vision Transformer.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Vision Transformer",
-      "path": "Vision Transformer.md"
+      "basename": "Chain of Thought",
+      "path": "Chain of Thought.md"
+    },
+    {
+      "basename": "Chain of Note",
+      "path": "Chain of Note.md"
+    },
+    {
+      "basename": "LLAMA Guard 2",
+      "path": "LLAMA Guard 2.md"
     },
     {
       "basename": "LLaMA",
@@ -55,10 +71,6 @@
     {
       "basename": "Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}",
       "path": "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md"
-    },
-    {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
     },
     {
       "basename": "WizardCoder",
@@ -187,18 +199,6 @@
     {
       "basename": "Contextual",
       "path": "Contextual.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
-    },
-    {
-      "basename": "Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}",
-      "path": "Articles/Building Scalable, Explainable, and Adaptive NLP Models with Retrieval (October 2021) {Omar Khattab, Chris Potts, Matei Zaharia}.md"
-    },
-    {
-      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
-      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
     }
   ],
   "omittedPaths": [],
