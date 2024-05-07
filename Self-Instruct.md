@@ -2,22 +2,32 @@ Dec 20, 2022
 Various universities, including [[Allen Institute]]
 Paper: [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)
 #zotero 
-Takeaway: ...
+Takeaway: Self-Instruct is a method for generating instruction-following datasets with minimal human-labeled data by starting with a limited seed set of manually written tasks, sampling a task for the task pool, generating instructions for new tasks, creating input/output instances for the task, and filtering low-quality or repeated instructions.
 
 
-
-Note: *Self-Instruct* refers to the technique/pipeline, but it's also often used as a descriptor for datasets that are created with this technique -- eg "XYZ, a Self-Instruct dataset".
+Note: *Self-Instruct* refers to the technique/pipeline, but it's also often used as a descriptor for datasets that are created with this technique -- eg "XYZ, a Self-Instruct dataset". It confusingly *also* can refer to the 52k instruction dataset produced and released in this paper.
 
 -----
 
 Notes:
-- 
+- Note that their process of Self-Instruct refers to the pipeline of generating tasks using a **vanilla pretrained language model**; I'm not sure that this is a requirement, though, and I'm sure that an instruction-tuned model to produce high-quality instructions might do better?
+- Pipeline
+	1. Instruction Generation: Authors initiate the task pool with 175 tasks (1 instructions and 1 instance for each task). For every step, they sample 8 task instructions from the pool as in-context examples, where 6 must be human-generated tasks, and 2 are from the model-generated tasks from previous steps, to promote diversity.
+	2. Classification Task Identification: After generating a task, we need two different approaches fro classification and non-classification tasks. We prompt the LM in a few-shot way to determine this, using 12 classification instructions and 19 non-classification instructions from the seed tasks.
+	3. Instance Generation: Given instructions and task type, generate instances for each instruction type independently. 
+		- Authors found that the **input-first approach** (generating input based on instruction, then response) can generate inputs biased towards one label, especially for classification tasks. So authors use this input-first approach only for *non-classification tasks*.
+		- As a result, authors use an **output-first approach** for the *classification-tasks*, where we first generate the possible class labels, and then condition the input generation on each class label.
+			- ((It seems like this isn't necessarily output first, more like output-possibilities first? Do they generate N responses, one for each class?))
+	4. Filtering and Postprocessing: To encourage diversity, ==a new instruction is added to the task pool only when its [[ROGUE]]-L similarity (testing longest-common substring) with any existing instruction is less than .7.==
+		- "We also exclude instructions that contain some specific keywords that usually can't be processed by LMs (eg image, picture, graph)" ((? How did it generate them if it can't process them))
+		- Invalid generations are identified and filtered based on heuristics (too long or too short, output being a repetition of the input, etc.)
+- Although the generated instructions are mostly valid, the generated outputs are often noisy. Authors note that even when the outputs aren't factually correct, training on them still has a positive impact on instruction-following ability.
+	- ((Though I don't really like this... surely you're still taking small steps in the direction of ignorance))
+- Self-Instruct can be viewed as a form of [[Distillation]], though it differs (in this paper) in two ways:
+	1. The distillee and the distiller are the same model
+	2. The output of the distillee is instructions, rather than labels or logits
 
 
-- Similar to [[Unnatural Instructions]], [[Self-Instruct]] consists of 82k examples automatically generated using InstructGPT conditioned on a set of *seed task examples* (175 tasks in total; one example per task; 8 examples are sampled for in-context learning).
-- Self-Instruct decouples the example generation by ==first generating the instruction==, ==then the input (conditioned on instruction),== and ==then the output==.
-- For classification tasks, authors choose to instead first generate the possible output labels, and then condition the input generation on each class label, to avoid biasing towards a specific label. 
-- Although the generated instructions are mostly valid, the generated outputs are often noisy.
 
 
 
@@ -27,6 +37,18 @@ Paper Abstract:
 
 # Paper Figures
 ![[Pasted image 20240506204037.png|200]]
+
+![[Pasted image 20240507122308.png]]
+Above: The Self-Instruct process
+
+![[Pasted image 20240507131428.png|300]]
+Above: A description of the dataset produced in the paper using GPT-3. "Instances" refers to input/output pairs, given an instruction. I'm still not sure how they end up generating multiple instances for a given instruction.
+
+![[Pasted image 20240507132654.png]]
+Above: See that the Self-Instruct-Instruction-Tuned GPT3 model (via the GPT finetuning API) is almost as good as [[InstructGPT]], and better than GPT trained on the T0/SuperNI dataset, which required (?) large human labeling efforts. Note that InstructGPT was both SFT'd and RLHF'd, whereas this paper's model was just SFT'd.
+
+![[Pasted image 20240507132853.png|300]]
+Above: It's interesting that human evaluation seemed to roughly plateau at ~52k instructions. Note that InstructGPT was both instruction-fine-tuned (dataset size not released) as well as RLHF'd. "Overall, we see consistent improvement as we grow the dataset size, but the improvement almost plateaus after 16k."
 
 
 # Non-Paper Figures

@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Self-Instruct",
+      "path": "Self-Instruct.md"
+    },
+    {
+      "basename": "InstructGPT",
+      "path": "InstructGPT.md"
+    },
+    {
+      "basename": "ROGUE",
+      "path": "ROGUE.md"
+    },
+    {
+      "basename": "KG-FiD",
+      "path": "KG-FiD.md"
+    },
+    {
       "basename": "Chinchilla",
       "path": "Chinchilla.md"
     },
     {
       "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
       "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
-    },
-    {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
     },
     {
       "basename": "SPIN",
@@ -27,10 +43,6 @@
     {
       "basename": "LLaMA Guard",
       "path": "LLaMA Guard.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "LLaMA 2",
@@ -187,18 +199,6 @@
     {
       "basename": "Importance Sampling",
       "path": "Importance Sampling.md"
-    },
-    {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Markov Assumption",
-      "path": "Markov Assumption.md"
-    },
-    {
-      "basename": "ORQA",
-      "path": "ORQA.md"
     }
   ],
   "omittedPaths": [],
