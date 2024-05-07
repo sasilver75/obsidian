@@ -28,6 +28,7 @@ Notes:
 	- When performing in an LLM-as-a-Judge functionality, the prompt instructs the LLM to evaluate the response using five additive criteria: ==relevance, coverage, usefulness, clarity, and expertise==.
 - Using this model, we can then make it self-modify its own training set, making it ==generate additional training data for the next iteration of training:==
 	1. ==Generate a new prompt== using few-shot prompting, sampling prompts from the original seed IFT data (Similar to in [[Self-Instruct]] and [[Unnatural Instructions]])
+		- ==NOTE==: To generate new prompts, they use a fixed model, LLaMA 2-Chat 70B with 8-shot prompting, following Self-Instruct (6 from seed, 2 from generated).
 	2. ==Generate N candidate responses== for the given prompt using our model.
 	3. ==Evaluate the candidate responses== using a \[0,5\] scale using the same model's LLM-as-a-Judge ability.
 - Recapping the previous two points: Training is initially performed on a base model using seed IFT and EFT datasets. This is then augmented with additional data via AI (Self-)Feedback; They refer to augmenting the seed data with additional examples for training as ==AI Feedback Training (AIFT) data==.
@@ -41,14 +42,15 @@ Notes:
 - This iterative training resembles the procedure used in the ==Pairwise Cringe Optimization== paper, and is specifically termed ==Iterative DPO== (from the CRINGE paper).
 - Sam Recap:
 	- Basically start with an IFT/EFT'd base model
-	- Generate a new prompt
-	- Generate responses for the new prompt
-	- Score the responses, and construct a preference pair `(prompt, best_y, worst_y)`, using only the best/worst responses.
+	- Generate a new prompt (using a separate LLaMA 2-Chat 70B model, using a strategy from Self-Instruct)
+	- Generate responses for the new prompt using our model
+	- Score the responses using our model, and construct a preference pair `(prompt, best_y, worst_y)`, using only the best/worst responses.
 	- (repeat multiple times)
-	- Run a round of DPO training, improving the IFT and EFT abilities of the model
-		- ((But what about the prompt generation ability of the model? Does that improve? Does it need to, to the same extent?))
+	- Run a round of DPO training on our model, improving the IFT and EFT abilities of the model
 	- (repeat)
-- 
+- Authors note that while Self-Reward modeling can substantially improve win rate in most categories, there are some tasks for which the approach *does not improve* (eg mathematics, logical reasoning), indicating that our current training approach mainly allows the models to better-utilize their existing knowledge.
+	- ((There are some other strategies for improving mathematical/logical reasoning in a self-play/AIF manner, I believe. EG AlphaGeometry-type stuff))
+- Authors note that the LLM-as-a-Judge prompt is very important; they tried the prompt proposed in the ==Self-Alignment with [[Instruction Backtranslation]] (2024)== paper (which describes the options as multiple choice options in a range of quality buckets, whereas this prompt describes the points as additive, covering various aspects of quality). There's a ==huge difference between the performance of these two prompts==, with *ours* having 65.1% pairwise accuracy, and only 26.6% pairwise accuracy for theirs!
 
 Abstract
 > We posit that to achieve superhuman agents, ==future models require superhuman feedback in order to provide an adequate training signal==. Current approaches commonly train reward ==models from human preferences, which may then be bottlenecked by human performance level==, and secondly these separate frozen reward models cannot then learn to improve during LLM training. In this work, we study Self-Rewarding Language Models, where the ==language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during training==. We show that ==during Iterative DPO training that not only does instruction following ability improve, but also the ability to provide high-quality rewards to itself==. Fine-tuning Llama 2 70B on three iterations of our approach yields a model that outperforms many existing systems on the AlpacaEval 2.0 leaderboard, including Claude 2, Gemini Pro, and GPT-4 0613. While there is much left still to explore, this work opens the door to the possibility of models that can continually improve in both axes.
@@ -61,3 +63,10 @@ Above: Two Steps (that are then repeated)
 
 ![[Pasted image 20240507150829.png]]
 Above: The prompt used for the LLM-as-a-Judge functionality of our model. Recall that it generates N responses to the previously-generated prompt, then rates each of them using this prompt prior to constructing a (prompt, best_response, worst_response) preference pair, using only the best/worst (according to this prompt, which gives a \[0,5\] score) of the N generations that the model creates. See that they're basically using [[Chain of Thought|CoT]], by asking the model to justify its score prior to giving a rating. It's interesting that the scoring is so strongly guided by the prompt. Think: Does this leave nuance on the floor, or is it actually better to give our judge a shorter leash, like this?
+
+![[Pasted image 20240507154058.png]]
+
+![[Pasted image 20240507154541.png]]
+
+![[Pasted image 20240507154557.png]]
+
