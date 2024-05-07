@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Self-Reward",
       "path": "Self-Reward.md"
+    },
+    {
+      "basename": "Pairwise Cringe Optimization",
+      "path": "Pairwise Cringe Optimization.md"
+    },
+    {
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
     },
     {
       "basename": "Unnatural Instructions",
@@ -15,10 +27,6 @@
     {
       "basename": "Self-Instruct",
       "path": "Self-Instruct.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "InstructGPT",
@@ -191,14 +199,6 @@
     {
       "basename": "Variational Autoencoder",
       "path": "Variational Autoencoder.md"
-    },
-    {
-      "basename": "How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}",
-      "path": "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "The Bitter Lesson Paper",
-      "path": "Papers/The Bitter Lesson Paper.md"
     }
   ],
   "omittedPaths": [],

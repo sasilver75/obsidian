@@ -238,6 +238,8 @@
 - [[False Refuse]]
 - [[Retrieval-Augmented Generation]] (RAG)
 - [[CRAG|Corrective Retrieval Augmented Generation]] (CRAG)
+- [[Instruction Backtranslation]]
+- [[Pairwise Cringe Optimization]] (PCO)
 
 # Information Retrieval Concepts
 - [[TF-IDF]]

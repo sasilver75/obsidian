@@ -21,6 +21,58 @@
             }
           },
           {
+            "id": "88771467380508f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "169692c70a910b08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pairwise Cringe Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "064d5d3113bb4f8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f43267197016e5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Instruction Backtranslation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "aa634e42e115185f",
             "type": "leaf",
             "state": {
@@ -46,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Reward.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Reward.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Reward.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -187,7 +240,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Reward.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -233,11 +286,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c53912cdf151c86c",
+  "active": "88771467380508f9",
   "lastOpenFiles": [
+    "Self-Reward.md",
+    "~ Vocabulary.md",
+    "Pairwise Cringe Optimization.md",
+    "Instruction Backtranslation.md",
+    "_attachments/Pasted image 20240507154557.png",
+    "_attachments/Pasted image 20240507154541.png",
+    "_attachments/Pasted image 20240507154058.png",
     "_attachments/Pasted image 20240507150829.png",
     "Unnatural Instructions.md",
-    "Self-Reward.md",
     "SPIN.md",
     "Self-Instruct.md",
     "_attachments/Pasted image 20240507145229.png",
@@ -245,17 +304,12 @@
     "_attachments/Pasted image 20240507145023.png",
     "_attachments/Pasted image 20240507145000.png",
     "_attachments/Pasted image 20240507141407.png",
-    "~ Vocabulary.md",
     "InstructGPT.md",
     "_attachments/Pasted image 20240507132853.png",
-    "_attachments/Pasted image 20240507132654.png",
-    "_attachments/Pasted image 20240507131428.png",
     "ROGUE.md",
-    "_attachments/Pasted image 20240507122308.png",
     "KG-FiD.md",
     "Chinchilla.md",
     "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
-    "_attachments/Pasted image 20240506204037.png",
     "Self-Play.md",
     "Reinforced Self-Training.md",
     "LLaMA Guard.md",
@@ -270,7 +324,6 @@
     "CLIP.md",
     "Mixture-of-Experts.md",
     "Expert Capacity.md",
-    "Capacity Factor.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",
