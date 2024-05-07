@@ -2,8 +2,11 @@ January 18, 2024
 [[Meta AI Research]] and NYU
 Paper: [Self-Rewarding Language Models](I grew up in MKE, and lived in MD for a couple years and KC for a couple years in my 20s before moving back home.)
 #zotero 
-Takeaway: A method of self-improving models 
+Takeaway: A method of self-improving models where the same model is used for instruction-following generations as well as LLM-as-a-Judge feedback. A prompt is generated from a seed set (using another model), our model creates N generations/responses, rates them, and creates a pairwise preference dataset of `(prompt, best_y, worst_y)` using the best and worst generations from each prompt. We then use DPO to fine-tune the model, improving both the instruction-following and response-evaluating capabilities of the model. This entire process is repeated multiple times.
 
+Comparison: Similar to [[Pairwise Cringe Optimization]] (PCO), except this paper's "reward model" co-evolves with the instruction-following component, whereas the PCO paper uses a fixed/frozen separate reward model.
+
+Questions: IIRC they don't talk too much about when/why the iterative improvement plateaus, do they? 
 
 ----
 
