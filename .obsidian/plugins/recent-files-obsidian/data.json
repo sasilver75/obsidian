@@ -5,12 +5,16 @@
       "path": "Self-Reward.md"
     },
     {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
+      "basename": "Unnatural Instructions",
+      "path": "Unnatural Instructions.md"
     },
     {
       "basename": "SPIN",
       "path": "SPIN.md"
+    },
+    {
+      "basename": "Self-Instruct",
+      "path": "Self-Instruct.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -195,10 +199,6 @@
     {
       "basename": "The Bitter Lesson Paper",
       "path": "Papers/The Bitter Lesson Paper.md"
-    },
-    {
-      "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
-      "path": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
     }
   ],
   "omittedPaths": [],
