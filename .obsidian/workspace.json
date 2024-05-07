@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforced Self-Training.md",
+                "file": "SPIN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforced Self-Training.md",
+                "file": "SPIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reinforced Self-Training.md",
+                "file": "SPIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reinforced Self-Training.md"
+                "file": "SPIN.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reinforced Self-Training.md",
+                "file": "SPIN.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,8 +209,14 @@
   },
   "active": "6b8afdeb832ac71f",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240506174135.png",
+    "_attachments/Pasted image 20240506203303.png",
+    "_attachments/Pasted image 20240506203015.png",
+    "_attachments/Pasted image 20240506202526.png",
+    "Self-Play.md",
     "Reinforced Self-Training.md",
+    "_attachments/Pasted image 20240506180833.png",
+    "_attachments/Pasted image 20240506175738.png",
+    "_attachments/Pasted image 20240506174135.png",
     "LLaMA Guard.md",
     "~ Vocabulary.md",
     "LLaMA 2.md",
@@ -224,14 +230,9 @@
     "_attachments/Pasted image 20240506152911.png",
     "_attachments/Pasted image 20240506150931.png",
     "_attachments/Pasted image 20240506143723.png",
-    "_attachments/Pasted image 20240506140925.png",
-    "_attachments/Pasted image 20240506140831.png",
     "LLaMA.md",
     "LayerNorm.md",
-    "_attachments/Pasted image 20240506133340.png",
     "CLIP.md",
-    "_attachments/Pasted image 20240506123830.png",
-    "_attachments/Pasted image 20240506123415.png",
     "Mixture-of-Experts.md",
     "Expert Capacity.md",
     "Capacity Factor.md",
@@ -244,7 +245,6 @@
     "WizardCoder.md",
     "~ Ideas.md",
     "Codex.md",
-    "Courses/CS224N NLP @ Stanford/CS224N Lecture 15.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",
