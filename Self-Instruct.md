@@ -50,6 +50,18 @@ Above: See that the Self-Instruct-Instruction-Tuned GPT3 model (via the GPT fine
 ![[Pasted image 20240507132853.png|300]]
 Above: It's interesting that human evaluation seemed to roughly plateau at ~52k instructions. Note that InstructGPT was both instruction-fine-tuned (dataset size not released) as well as RLHF'd. "Overall, we see consistent improvement as we grow the dataset size, but the improvement almost plateaus after 16k."
 
+![[Pasted image 20240507145000.png]]
+Above: The prompt for generating new instructions
+
+![[Pasted image 20240507145023.png|300]]
+Above: The prompt for determining whether something is a classification task or not
+
+![[Pasted image 20240507145048.png|300]]
+Above: Prompt used for input-output "instance" generation (input, response) given a task using the ==input-first approach== (for non-classification tasks). Sometimes tasks won't have inputs (Null), and the instruction is mostly in the task.
+
+![[Pasted image 20240507145229.png|300]]
+Above: The input-output "instance" generation prompt, given a task description. This is the ==output-first generation==, which is what we use when something is a classification task, so as to not bias towards a specific label.
+
 
 # Non-Paper Figures
 

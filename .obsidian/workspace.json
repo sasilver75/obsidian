@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6b8afdeb832ac71f",
+            "id": "c53912cdf151c86c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Instruct.md",
+                "file": "Self-Reward.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "c53912cdf151c86c",
+            "id": "aa634e42e115185f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "SPIN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Reward.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Reward.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Self-Reward.md"
               }
             }
           },
@@ -188,7 +187,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Reward.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -237,6 +236,14 @@
   "active": "c53912cdf151c86c",
   "lastOpenFiles": [
     "Self-Instruct.md",
+    "_attachments/Pasted image 20240507145229.png",
+    "_attachments/Pasted image 20240507145048.png",
+    "_attachments/Pasted image 20240507145023.png",
+    "_attachments/Pasted image 20240507145000.png",
+    "Self-Reward.md",
+    "SPIN.md",
+    "_attachments/Pasted image 20240507141407.png",
+    "~ Vocabulary.md",
     "InstructGPT.md",
     "_attachments/Pasted image 20240507132853.png",
     "_attachments/Pasted image 20240507132654.png",
@@ -247,16 +254,9 @@
     "Chinchilla.md",
     "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
     "_attachments/Pasted image 20240506204037.png",
-    "SPIN.md",
-    "_attachments/Pasted image 20240506203303.png",
-    "_attachments/Pasted image 20240506203015.png",
-    "_attachments/Pasted image 20240506202526.png",
     "Self-Play.md",
     "Reinforced Self-Training.md",
-    "_attachments/Pasted image 20240506180833.png",
-    "_attachments/Pasted image 20240506175738.png",
     "LLaMA Guard.md",
-    "~ Vocabulary.md",
     "LLaMA 2.md",
     "_attachments/LLaMA Guard 2024-05-06 16.13.04.excalidraw.md",
     "Vision Transformer.md",
@@ -270,8 +270,6 @@
     "Expert Capacity.md",
     "Capacity Factor.md",
     "~ Useful Pictures.md",
-    "WizardLM.md",
-    "Templates/PaperTemplate.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",
