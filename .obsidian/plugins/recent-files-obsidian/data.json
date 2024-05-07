@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SPIN",
+      "path": "SPIN.md"
+    },
+    {
+      "basename": "Self-Play",
+      "path": "Self-Play.md"
+    },
+    {
       "basename": "Reinforced Self-Training",
       "path": "Reinforced Self-Training.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "DataBricks",
       "path": "DataBricks.md"
-    },
-    {
-      "basename": "Adept",
-      "path": "Adept.md"
-    },
-    {
-      "basename": "Out-of-Vocabulary Token",
-      "path": "Out-of-Vocabulary Token.md"
     }
   ],
   "omittedPaths": [],
