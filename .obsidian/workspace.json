@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "5e1aecbae3f462d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Reward.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "169692c70a910b08",
             "type": "leaf",
             "state": {
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Reward.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Reward.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Self-Reward.md"
               }
             }
           },
@@ -240,7 +253,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Self-Reward.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -286,11 +299,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "88771467380508f9",
+  "active": "5e1aecbae3f462d9",
   "lastOpenFiles": [
-    "Self-Reward.md",
-    "~ Vocabulary.md",
     "Pairwise Cringe Optimization.md",
+    "~ Vocabulary.md",
+    "Self-Reward.md",
     "Instruction Backtranslation.md",
     "_attachments/Pasted image 20240507154557.png",
     "_attachments/Pasted image 20240507154541.png",
