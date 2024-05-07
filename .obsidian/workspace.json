@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinchilla.md",
+                "file": "Self-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c53912cdf151c86c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "215f335f195eb076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InstructGPT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinchilla.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinchilla.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinchilla.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -161,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Chinchilla.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,10 +234,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6b8afdeb832ac71f",
+  "active": "c53912cdf151c86c",
   "lastOpenFiles": [
-    "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
     "Self-Instruct.md",
+    "InstructGPT.md",
+    "_attachments/Pasted image 20240507132853.png",
+    "_attachments/Pasted image 20240507132654.png",
+    "_attachments/Pasted image 20240507131428.png",
+    "ROGUE.md",
+    "_attachments/Pasted image 20240507122308.png",
+    "KG-FiD.md",
+    "Chinchilla.md",
+    "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
     "_attachments/Pasted image 20240506204037.png",
     "SPIN.md",
     "_attachments/Pasted image 20240506203303.png",
@@ -220,18 +255,14 @@
     "Reinforced Self-Training.md",
     "_attachments/Pasted image 20240506180833.png",
     "_attachments/Pasted image 20240506175738.png",
-    "_attachments/Pasted image 20240506174135.png",
     "LLaMA Guard.md",
     "~ Vocabulary.md",
     "LLaMA 2.md",
-    "_attachments/Pasted image 20240506162456.png",
     "_attachments/LLaMA Guard 2024-05-06 16.13.04.excalidraw.md",
     "Vision Transformer.md",
     "Chain of Thought.md",
     "Chain of Note.md",
     "LLAMA Guard 2.md",
-    "_attachments/Pasted image 20240506152932.png",
-    "_attachments/Pasted image 20240506152911.png",
     "LLaMA.md",
     "LayerNorm.md",
     "CLIP.md",
@@ -241,10 +272,6 @@
     "~ Useful Pictures.md",
     "WizardLM.md",
     "Templates/PaperTemplate.md",
-    "Constitutional AI.md",
-    "MegaBlocks.md",
-    "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
-    "WizardCoder.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",
