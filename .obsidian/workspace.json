@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPIN.md",
+                "file": "Chinchilla.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SPIN.md",
+                "file": "Chinchilla.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SPIN.md",
+                "file": "Chinchilla.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SPIN.md"
+                "file": "Chinchilla.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SPIN.md",
+                "file": "Chinchilla.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,6 +209,10 @@
   },
   "active": "6b8afdeb832ac71f",
   "lastOpenFiles": [
+    "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
+    "Self-Instruct.md",
+    "_attachments/Pasted image 20240506204037.png",
+    "SPIN.md",
     "_attachments/Pasted image 20240506203303.png",
     "_attachments/Pasted image 20240506203015.png",
     "_attachments/Pasted image 20240506202526.png",
@@ -228,8 +232,6 @@
     "LLAMA Guard 2.md",
     "_attachments/Pasted image 20240506152932.png",
     "_attachments/Pasted image 20240506152911.png",
-    "_attachments/Pasted image 20240506150931.png",
-    "_attachments/Pasted image 20240506143723.png",
     "LLaMA.md",
     "LayerNorm.md",
     "CLIP.md",
@@ -243,8 +245,6 @@
     "MegaBlocks.md",
     "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
     "WizardCoder.md",
-    "~ Ideas.md",
-    "Codex.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",

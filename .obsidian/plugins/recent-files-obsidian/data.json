@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Chinchilla",
+      "path": "Chinchilla.md"
+    },
+    {
+      "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
+      "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
+    },
+    {
+      "basename": "Self-Instruct",
+      "path": "Self-Instruct.md"
+    },
+    {
       "basename": "SPIN",
       "path": "SPIN.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "ORQA",
       "path": "ORQA.md"
-    },
-    {
-      "basename": "Question Answering",
-      "path": "Question Answering.md"
-    },
-    {
-      "basename": "Snorkel AI",
-      "path": "Snorkel AI.md"
-    },
-    {
-      "basename": "DataBricks",
-      "path": "DataBricks.md"
     }
   ],
   "omittedPaths": [],
