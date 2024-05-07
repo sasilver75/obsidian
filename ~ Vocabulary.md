@@ -274,6 +274,7 @@
 - [[Relevance Set]]
 - [[Average Precision]]
 - [[Maximum Inner Product Search]] (MIPS)
+- [[Reinforced Self-Training]] (ReST)
 
 # Natural Language Processing Concepts
 - Tasks

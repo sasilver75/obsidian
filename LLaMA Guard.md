@@ -2,7 +2,7 @@ December 7, 2023 (5 months after release of [[LLaMA 2]])
 [[Meta AI Research]]
 Paper: [LLaMA Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674)
 #zotero 
-Takeaway: LLaMA Guard is an input-output *safeguard model* (think: toxicity classifier based on a specially-instruction-tuned LLaMA 2 7B) that performs multi-class classification (and generates binary decision scores) on the "main" LM responses.
+Takeaway: LLaMA Guard is an input-output *safeguard model* (think: toxicity classifier based on a specially-instruction-tuned LLaMA 2 7B) that performs multi-class classification (and generates binary decision scores) on the "main" LM responses using a (replaceable) risk taxonomy+set of guidelines.
 
 ---
 Deployed at Amazon Sagemaker, Together.AI, Databricks

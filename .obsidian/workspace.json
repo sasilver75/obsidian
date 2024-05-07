@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLaMA Guard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a85f14f06eb6934",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 2.md",
+                "file": "Reinforced Self-Training.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLaMA Guard.md",
+                "file": "Reinforced Self-Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLaMA Guard.md",
+                "file": "Reinforced Self-Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLaMA Guard.md"
+                "file": "Reinforced Self-Training.md"
               }
             }
           },
@@ -174,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LLaMA Guard.md",
+                "file": "Reinforced Self-Training.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -222,12 +209,14 @@
   },
   "active": "6b8afdeb832ac71f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240506174135.png",
+    "Reinforced Self-Training.md",
+    "LLaMA Guard.md",
+    "~ Vocabulary.md",
+    "LLaMA 2.md",
     "_attachments/Pasted image 20240506162456.png",
     "_attachments/LLaMA Guard 2024-05-06 16.13.04.excalidraw.md",
-    "LLaMA Guard.md",
-    "LLaMA 2.md",
     "Vision Transformer.md",
-    "~ Vocabulary.md",
     "Chain of Thought.md",
     "Chain of Note.md",
     "LLAMA Guard 2.md",
@@ -243,7 +232,6 @@
     "CLIP.md",
     "_attachments/Pasted image 20240506123830.png",
     "_attachments/Pasted image 20240506123415.png",
-    "_attachments/Pasted image 20240506122932.png",
     "Mixture-of-Experts.md",
     "Expert Capacity.md",
     "Capacity Factor.md",
@@ -257,7 +245,6 @@
     "~ Ideas.md",
     "Codex.md",
     "Courses/CS224N NLP @ Stanford/CS224N Lecture 15.md",
-    "Vicuna.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",
