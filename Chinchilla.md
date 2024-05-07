@@ -8,6 +8,9 @@ April 17, 2024 Update
 People calling the replication of the paper into question: 
 - (Jan 21, 2023): https://x.com/suchenzang/status/1616752482226671620
 - (April 17, 2024): https://x.com/tamaybes/status/1780639257389904013
+
+Replication Paper: "Chinchilla Scaling: A replication attempt" where they get slightly different numbers (really, it's one of the three Chinchilla techniques that didn't replicate)
+
 ----
 
 
