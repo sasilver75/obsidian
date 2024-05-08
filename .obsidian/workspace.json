@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Prometheus.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prometheus.md",
+                "file": "Shepherd.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -285,12 +284,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b2884a0dd3694bf3",
+  "active": "215f335f195eb076",
   "lastOpenFiles": [
+    "Shepherd.md",
+    "Prometheus.md",
+    "_attachments/Pasted image 20240508160512.png",
+    "_attachments/Pasted image 20240508155511.png",
+    "_attachments/Pasted image 20240508154551.png",
+    "~ Vocabulary.md",
+    "Feedback Collection.md",
+    "Starling.md",
+    "Contrastive Captioner.md",
+    "OpenLLM Leaderboard.md",
     "_attachments/Pasted image 20240508124353.png",
     "Capybara Dataset.md",
     "Airoboros.md",
-    "~ Vocabulary.md",
     "Capybara.md",
     "Synthetic Data.md",
     "Indices/Synthetic Data Index.md",
@@ -298,26 +306,16 @@
     "Indices/IR System Index.md",
     "Indices/Critic Model Index.md",
     "Indices/Guardrail Index.md",
-    "Prometheus.md",
     "Indices",
-    "Feedback Collection.md",
-    "Shepherd.md",
-    "OpenLLM Leaderboard.md",
-    "Starling.md",
     "_attachments/Pasted image 20240508004416.png",
     "_attachments/Pasted image 20240508004233.png",
     "_attachments/Pasted image 20240508004121.png",
     "_attachments/Pasted image 20240508003854.png",
     "_attachments/Pasted image 20240508003136.png",
     "_attachments/Pasted image 20240508002949.png",
-    "_attachments/Pasted image 20240508002222.png",
-    "_attachments/Pasted image 20240507232854.png",
-    "_attachments/Pasted image 20240507224812.png",
-    "_attachments/Pasted image 20240507224809.png",
     "MT-Bench.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
     "Sparrow.md",
-    "Contrastive Captioner.md",
     "InstructGPT.md",
     "SPIN.md",
     "Instruction Backtranslation.md",
