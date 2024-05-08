@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Prometheus",
+      "path": "Prometheus.md"
+    },
+    {
+      "basename": "Capybara Dataset",
+      "path": "Capybara Dataset.md"
+    },
+    {
+      "basename": "Airoboros",
+      "path": "Airoboros.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Capybara",
+      "path": "Capybara.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "Synthetic Data Index",
+      "path": "Indices/Synthetic Data Index.md"
+    },
+    {
       "basename": "CS25 V4 Lecture 3",
       "path": "Courses/CS25/CS25 V4 Lecture 3.md"
     },
@@ -17,20 +45,8 @@
       "path": "Indices/Guardrail Index.md"
     },
     {
-      "basename": "Synthetic Data Index",
-      "path": "Indices/Synthetic Data Index.md"
-    },
-    {
-      "basename": "Prometheus",
-      "path": "Prometheus.md"
-    },
-    {
       "basename": "Feedback Collection",
       "path": "Feedback Collection.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Shepherd",
@@ -183,22 +199,6 @@
     {
       "basename": "Constitutional AI",
       "path": "Constitutional AI.md"
-    },
-    {
-      "basename": "Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}",
-      "path": "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md"
-    },
-    {
-      "basename": "WizardCoder",
-      "path": "WizardCoder.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Codex",
-      "path": "Codex.md"
     }
   ],
   "omittedPaths": [],

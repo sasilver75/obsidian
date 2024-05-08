@@ -1,12 +1,9 @@
+Important considerations:
+- Diversity of content
+- Depth/difficulty of content
+- Number of turns
+- Average turn length
+- (Sometimes) Removing undesirable behaviors (eg "as an AI language model")
 
-
-Techniques/Datasets of note:
-- [[Self-Instruct]]
-- [[Evol-Instruct]]
-- [[Amplify-Instruct]]
-- [[Web Rephrase Augmented Pre-training|Rephrasing the Web]]
-- [[Quality-Diversity through AI Feedback]]
-- [[Prometheus]], [[Shepherd]]
-- [[Unnatural Instructions]]
 
 
