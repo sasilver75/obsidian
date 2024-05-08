@@ -277,6 +277,8 @@
 - [[Average Precision]]
 - [[Maximum Inner Product Search]] (MIPS)
 - [[Reinforced Self-Training]] (ReST)
+- [[Shepherd]]
+- [[Prometheus]]
 
 # Natural Language Processing Concepts
 - Tasks
@@ -623,6 +625,7 @@
 - [[Common Objects in Context]]
 - [[LoTTe]]
 - [[Natural Questions]]
+- [[Feedback Collection]]
 
 # Interpretability
 - Saliency Map

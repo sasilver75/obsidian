@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "IR System Index",
+      "path": "Indices/IR System Index.md"
+    },
+    {
+      "basename": "Critic Model Index",
+      "path": "Indices/Critic Model Index.md"
+    },
+    {
+      "basename": "Guardrail Index",
+      "path": "Indices/Guardrail Index.md"
+    },
+    {
+      "basename": "Synthetic Data Index",
+      "path": "Indices/Synthetic Data Index.md"
+    },
+    {
+      "basename": "Prometheus",
+      "path": "Prometheus.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Shepherd",
       "path": "Shepherd.md"
+    },
+    {
+      "basename": "OpenLLM Leaderboard",
+      "path": "OpenLLM Leaderboard.md"
     },
     {
       "basename": "Starling",
@@ -11,14 +43,6 @@
     {
       "basename": "MT-Bench",
       "path": "MT-Bench.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "OpenLLM Leaderboard",
-      "path": "OpenLLM Leaderboard.md"
     },
     {
       "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
@@ -175,30 +199,6 @@
     {
       "basename": "CS224N Lecture 15",
       "path": "Courses/CS224N NLP @ Stanford/CS224N Lecture 15.md"
-    },
-    {
-      "basename": "Vicuna",
-      "path": "Vicuna.md"
-    },
-    {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
-    },
-    {
-      "basename": "HyDE",
-      "path": "HyDE.md"
-    },
-    {
-      "basename": "HotpotQA",
-      "path": "HotpotQA.md"
-    },
-    {
-      "basename": "EssentialAI",
-      "path": "EssentialAI.md"
-    },
-    {
-      "basename": "LMSYS",
-      "path": "LMSYS.md"
     }
   ],
   "omittedPaths": [],
