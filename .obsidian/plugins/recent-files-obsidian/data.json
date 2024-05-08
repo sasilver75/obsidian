@@ -1,36 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Self-Reward",
-      "path": "Self-Reward.md"
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
     },
     {
-      "basename": "Pairwise Cringe Optimization",
-      "path": "Pairwise Cringe Optimization.md"
+      "basename": "Starling",
+      "path": "Starling.md"
+    },
+    {
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
+      "basename": "OpenLLM Leaderboard",
+      "path": "OpenLLM Leaderboard.md"
     },
     {
-      "basename": "Unnatural Instructions",
-      "path": "Unnatural Instructions.md"
+      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
+      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
+    },
+    {
+      "basename": "Sparrow",
+      "path": "Sparrow.md"
+    },
+    {
+      "basename": "Contrastive Captioner",
+      "path": "Contrastive Captioner.md"
+    },
+    {
+      "basename": "InstructGPT",
+      "path": "InstructGPT.md"
     },
     {
       "basename": "SPIN",
       "path": "SPIN.md"
     },
     {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
     },
     {
-      "basename": "InstructGPT",
-      "path": "InstructGPT.md"
+      "basename": "Pairwise Cringe Optimization",
+      "path": "Pairwise Cringe Optimization.md"
+    },
+    {
+      "basename": "Self-Reward",
+      "path": "Self-Reward.md"
+    },
+    {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Recommendation Systems",
+      "path": "Recommendation Systems.md"
+    },
+    {
+      "basename": "Unnatural Instructions",
+      "path": "Unnatural Instructions.md"
+    },
+    {
+      "basename": "Self-Instruct",
+      "path": "Self-Instruct.md"
     },
     {
       "basename": "ROGUE",
@@ -163,42 +199,6 @@
     {
       "basename": "LMSYS",
       "path": "LMSYS.md"
-    },
-    {
-      "basename": "Anthropic",
-      "path": "Anthropic.md"
-    },
-    {
-      "basename": "TogetherAI",
-      "path": "TogetherAI.md"
-    },
-    {
-      "basename": "Cohere",
-      "path": "Cohere.md"
-    },
-    {
-      "basename": "REALM",
-      "path": "REALM.md"
-    },
-    {
-      "basename": "Winograd",
-      "path": "Winograd.md"
-    },
-    {
-      "basename": "CS685 Lecture 2",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md"
-    },
-    {
-      "basename": "CS685 Lecture 1",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md"
-    },
-    {
-      "basename": "XCS224U Lecture 6",
-      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 6.md"
-    },
-    {
-      "basename": "Variational Autoencoder",
-      "path": "Variational Autoencoder.md"
     }
   ],
   "omittedPaths": [],

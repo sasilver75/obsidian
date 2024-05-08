@@ -166,6 +166,7 @@ Articles
 	- The revolution in AI isn't from transformers, it's from predictable scaling laws.
 - https://cameronrwolfe.substack.com/p/basics-of-reinforcement-learning
 	- Understanding how Reinforcement Learning can be used in the context of language model fine-tuning.
+- Eugene Yan's Paper Reading List
 
 -----
 

@@ -513,7 +513,8 @@
 - [[GLIDE]]
 - [[ImageBind]]
 - [[Imagen]]
-- [[Contrastive Captioner]]
+- [[Contrastive Captioner]] (CoCa)
+- [[OpenChat]]
 
 # Tools
 - [[ComfyUI]]
@@ -568,6 +569,7 @@
 - [[HotpotQA]]
 - [[SQuAD]]
 - [[ChatBot Arena]]
+- [[OpenLLM Leaderboard]]
 - [[MT-Bench]]
 - [[AlpacaEval]]
 - [[AGIEval]]

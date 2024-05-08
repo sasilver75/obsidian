@@ -8,111 +8,71 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c53912cdf151c86c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Reward.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88771467380508f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e1aecbae3f462d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Reward.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "169692c70a910b08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pairwise Cringe Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "064d5d3113bb4f8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f43267197016e5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Instruction Backtranslation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa634e42e115185f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SPIN.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "215f335f195eb076",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InstructGPT.md",
+                "file": "Shepherd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86a137098a56afd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffd939fa51fb52f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenLLM Leaderboard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58b860bdec4e70a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contrastive Captioner.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d57a3125602a1c86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Starling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Reward.md",
+                "file": "Shepherd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Reward.md",
+                "file": "Shepherd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Reward.md"
+                "file": "Shepherd.md"
               }
             }
           },
@@ -253,7 +213,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Reward.md",
+                "file": "Shepherd.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -299,26 +259,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5e1aecbae3f462d9",
+  "active": "215f335f195eb076",
   "lastOpenFiles": [
-    "Pairwise Cringe Optimization.md",
+    "_attachments/Pasted image 20240507232854.png",
+    "_attachments/Pasted image 20240507224812.png",
+    "_attachments/Pasted image 20240507224809.png",
+    "Starling.md",
+    "_attachments/Pasted image 20240507221243.png",
+    "_attachments/Pasted image 20240507220852.png",
+    "_attachments/Pasted image 20240507220743.png",
+    "MT-Bench.md",
     "~ Vocabulary.md",
-    "Self-Reward.md",
+    "OpenLLM Leaderboard.md",
+    "_attachments/Pasted image 20240507215255.png",
+    "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+    "Sparrow.md",
+    "Contrastive Captioner.md",
+    "InstructGPT.md",
+    "SPIN.md",
     "Instruction Backtranslation.md",
+    "Pairwise Cringe Optimization.md",
+    "Self-Reward.md",
+    "~ Recommendations.md",
+    "Recommendation Systems.md",
     "_attachments/Pasted image 20240507154557.png",
     "_attachments/Pasted image 20240507154541.png",
     "_attachments/Pasted image 20240507154058.png",
     "_attachments/Pasted image 20240507150829.png",
     "Unnatural Instructions.md",
-    "SPIN.md",
     "Self-Instruct.md",
-    "_attachments/Pasted image 20240507145229.png",
-    "_attachments/Pasted image 20240507145048.png",
-    "_attachments/Pasted image 20240507145023.png",
-    "_attachments/Pasted image 20240507145000.png",
-    "_attachments/Pasted image 20240507141407.png",
-    "InstructGPT.md",
-    "_attachments/Pasted image 20240507132853.png",
     "ROGUE.md",
     "KG-FiD.md",
     "Chinchilla.md",
@@ -328,15 +297,6 @@
     "LLaMA Guard.md",
     "LLaMA 2.md",
     "_attachments/LLaMA Guard 2024-05-06 16.13.04.excalidraw.md",
-    "Vision Transformer.md",
-    "Chain of Thought.md",
-    "Chain of Note.md",
-    "LLAMA Guard 2.md",
-    "LLaMA.md",
-    "LayerNorm.md",
-    "CLIP.md",
-    "Mixture-of-Experts.md",
-    "Expert Capacity.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",
