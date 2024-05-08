@@ -1,5 +1,5 @@
 Github Link: [airoboros](https://github.com/jondurbin/airoboros)
-From [[Jon {Durbin]], a "Customizable implementation of the [[Self-Instruct]] paper."
+From [[Jon {Durbin]], a "==Customizable implementation of the [[Self-Instruct]] paper==."
 Referenced by [[Nous Research]] folks in the [[Capybara]] series of models as being a useful tool for creating datasets.
 
 > Jon Durbin: This is *my take* on implementing the Self-Instruct paper. The approach is quite heavily modified, and ==does not use any human-generated seeds==.
