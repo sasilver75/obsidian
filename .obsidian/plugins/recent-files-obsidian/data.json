@@ -5,16 +5,36 @@
       "path": "Prometheus.md"
     },
     {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
+    },
+    {
+      "basename": "Starling",
+      "path": "Starling.md"
+    },
+    {
+      "basename": "Contrastive Captioner",
+      "path": "Contrastive Captioner.md"
+    },
+    {
+      "basename": "OpenLLM Leaderboard",
+      "path": "OpenLLM Leaderboard.md"
+    },
+    {
       "basename": "Capybara Dataset",
       "path": "Capybara Dataset.md"
     },
     {
       "basename": "Airoboros",
       "path": "Airoboros.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Capybara",
@@ -45,22 +65,6 @@
       "path": "Indices/Guardrail Index.md"
     },
     {
-      "basename": "Feedback Collection",
-      "path": "Feedback Collection.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "OpenLLM Leaderboard",
-      "path": "OpenLLM Leaderboard.md"
-    },
-    {
-      "basename": "Starling",
-      "path": "Starling.md"
-    },
-    {
       "basename": "MT-Bench",
       "path": "MT-Bench.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "Sparrow",
       "path": "Sparrow.md"
-    },
-    {
-      "basename": "Contrastive Captioner",
-      "path": "Contrastive Captioner.md"
     },
     {
       "basename": "InstructGPT",
