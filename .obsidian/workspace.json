@@ -21,6 +21,58 @@
             }
           },
           {
+            "id": "1c1ca4d17b5046d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indices/Synthetic Data Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c50aef83568b9d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaMini-LM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c37ba8ff12e911f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaMini-LM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33326522294b64d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "07c7dd836dc32817",
             "type": "leaf",
             "state": {
@@ -98,7 +150,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "humaneval",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,7 +205,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unnatural Instructions.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unnatural Instructions.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unnatural Instructions.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -238,7 +292,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Unnatural Instructions.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -284,8 +338,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "215f335f195eb076",
+  "active": "33326522294b64d6",
   "lastOpenFiles": [
+    "LaMini-LM.md",
+    "Alpaca.md",
+    "Indices/Synthetic Data Index.md",
+    "Unnatural Instructions.md",
+    "_attachments/Pasted image 20240508223359.png",
+    "Vicuna.md",
+    "~ Vocabulary.md",
     "_attachments/Pasted image 20240508182128.png",
     "_attachments/Pasted image 20240508180106.png",
     "_attachments/Pasted image 20240508173831.png",
@@ -296,7 +357,6 @@
     "_attachments/Pasted image 20240508160512.png",
     "_attachments/Pasted image 20240508155511.png",
     "_attachments/Pasted image 20240508154551.png",
-    "~ Vocabulary.md",
     "Feedback Collection.md",
     "Starling.md",
     "Contrastive Captioner.md",
@@ -306,23 +366,16 @@
     "Airoboros.md",
     "Capybara.md",
     "Synthetic Data.md",
-    "Indices/Synthetic Data Index.md",
     "Courses/CS25/CS25 V4 Lecture 3.md",
     "Indices/IR System Index.md",
     "Indices/Critic Model Index.md",
     "Indices/Guardrail Index.md",
     "Indices",
-    "_attachments/Pasted image 20240508004416.png",
-    "_attachments/Pasted image 20240508004233.png",
     "MT-Bench.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
     "Sparrow.md",
     "InstructGPT.md",
     "SPIN.md",
-    "Instruction Backtranslation.md",
-    "Pairwise Cringe Optimization.md",
-    "Self-Reward.md",
-    "~ Recommendations.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",

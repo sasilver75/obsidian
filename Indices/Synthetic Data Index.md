@@ -13,3 +13,4 @@
 - [[TinyStories]]
 - [[Web Rephrase Augmented Pre-training|WRAP]]
 - [[Pairwise Cringe Optimization]]
+- [[LaMini-LM]]

@@ -279,6 +279,7 @@
 - [[Reinforced Self-Training]] (ReST)
 - [[Shepherd]]
 - [[Prometheus]]
+- [[Prometheus 2]]
 
 # Natural Language Processing Concepts
 - Tasks
@@ -517,6 +518,7 @@
 - [[Imagen]]
 - [[Contrastive Captioner]] (CoCa)
 - [[OpenChat]]
+- [[LaMini-LM]]
 
 # Tools
 - [[ComfyUI]]
