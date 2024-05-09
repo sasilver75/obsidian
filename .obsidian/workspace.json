@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prometheus.md",
+                "file": "Unnatural Instructions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prometheus.md",
+                "file": "Unnatural Instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prometheus.md",
+                "file": "Unnatural Instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prometheus.md"
+                "file": "Unnatural Instructions.md"
               }
             }
           },
@@ -238,7 +238,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Prometheus.md",
+                "file": "Unnatural Instructions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -286,8 +286,13 @@
   },
   "active": "215f335f195eb076",
   "lastOpenFiles": [
-    "Shepherd.md",
+    "_attachments/Pasted image 20240508182128.png",
+    "_attachments/Pasted image 20240508180106.png",
+    "_attachments/Pasted image 20240508173831.png",
+    "_attachments/Pasted image 20240508173758.png",
+    "_attachments/Pasted image 20240508170533.png",
     "Prometheus.md",
+    "Shepherd.md",
     "_attachments/Pasted image 20240508160512.png",
     "_attachments/Pasted image 20240508155511.png",
     "_attachments/Pasted image 20240508154551.png",
@@ -309,10 +314,6 @@
     "Indices",
     "_attachments/Pasted image 20240508004416.png",
     "_attachments/Pasted image 20240508004233.png",
-    "_attachments/Pasted image 20240508004121.png",
-    "_attachments/Pasted image 20240508003854.png",
-    "_attachments/Pasted image 20240508003136.png",
-    "_attachments/Pasted image 20240508002949.png",
     "MT-Bench.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
     "Sparrow.md",
