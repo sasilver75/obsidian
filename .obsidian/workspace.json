@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "2c50aef83568b9d8",
+            "id": "88ed0016e61ad928",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LaMini-LM.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LaMini-LM.md",
+                "file": "~ Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feedback Collection.md",
+                "file": "Instruction Backtranslation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Instruction Backtranslation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Instruction Backtranslation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Instruction Backtranslation.md"
               }
             }
           },
@@ -292,7 +292,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Instruction Backtranslation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -338,30 +338,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33326522294b64d6",
+  "active": "07c7dd836dc32817",
   "lastOpenFiles": [
-    "LaMini-LM.md",
-    "Alpaca.md",
+    "Feedback Collection.md",
+    "~ Vocabulary.md",
+    "~ Ideas.md",
+    "~ Useful Pictures.md",
     "Indices/Synthetic Data Index.md",
     "Unnatural Instructions.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "Instruction Backtranslation.md",
+    "LaMini-LM.md",
+    "_attachments/Pasted image 20240509002950.png",
+    "_attachments/Pasted image 20240509002922.png",
+    "_attachments/Pasted image 20240509002855.png",
+    "_attachments/Pasted image 20240509002737.png",
+    "_attachments/Pasted image 20240509002718.png",
+    "_attachments/Pasted image 20240509001349.png",
+    "Alpaca.md",
     "_attachments/Pasted image 20240508223359.png",
     "Vicuna.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240508182128.png",
     "_attachments/Pasted image 20240508180106.png",
     "_attachments/Pasted image 20240508173831.png",
-    "_attachments/Pasted image 20240508173758.png",
-    "_attachments/Pasted image 20240508170533.png",
     "Prometheus.md",
     "Shepherd.md",
-    "_attachments/Pasted image 20240508160512.png",
-    "_attachments/Pasted image 20240508155511.png",
-    "_attachments/Pasted image 20240508154551.png",
-    "Feedback Collection.md",
     "Starling.md",
     "Contrastive Captioner.md",
     "OpenLLM Leaderboard.md",
-    "_attachments/Pasted image 20240508124353.png",
     "Capybara Dataset.md",
     "Airoboros.md",
     "Capybara.md",
@@ -373,9 +377,6 @@
     "Indices",
     "MT-Bench.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
-    "Sparrow.md",
-    "InstructGPT.md",
-    "SPIN.md",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25",

@@ -14,6 +14,7 @@
 	- (Oh, is this already what AlpacaFarm, UltraFeedback, Kim et al. 2023, Xu et al., 2023) do?
 - Mixture of depth says that we can use smaller networks (iirc) to predict "Easier" tokens. Matryoshka lets us have these variable-dimensional versions of vectors; is there some sort of way of doing something similar with model parameters (some MRL-similar loss of some sort) so that we can be infinitely (?) variable in the amount of compute that we put towards a token?
 - I loved the WizardLM paper. They complicated instructions by complicating the prompts themselves, at a... structural level. What if we were to complicate the prompts by asking the LM to ask X question as if they were Y type of person? Sort of inspired by those Youtube videos of "Context X explained to a grade schooler, high schooler, college student, phd student, professor"
+- In the Lamini paper, when they're talking about Topic-Guided Instruction Generation, they constrain the topics that they look at because they worry that the long-titled topics are for obscure topics that the instruction-generating model won't know about. Can we use retrieval-augmentation to allow instruction-generating models to generate data that's 
 
 
 https://x.com/thesephist/status/1734966611814289756?s=20
