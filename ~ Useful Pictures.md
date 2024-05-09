@@ -246,3 +246,6 @@ More on Context making static representations of words a silly goal, from CS224U
 
 ![[Pasted image 20240504123138.png|300]]
 Interesting that perhaps [[L1 Regularization]] isn't that good for DNN?
+
+![[Pasted image 20240509002950.png|250]]
+A table of 40 hallucination-inducing questions from the [[LaMini-LM]] paper.

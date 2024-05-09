@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "LaMini-LM",
-      "path": "LaMini-LM.md"
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
     },
     {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Synthetic Data Index",
@@ -19,6 +27,18 @@
     {
       "basename": "Unnatural Instructions",
       "path": "Unnatural Instructions.md"
+    },
+    {
+      "basename": "Web Rephrase Augmented Pre-training",
+      "path": "Web Rephrase Augmented Pre-training.md"
+    },
+    {
+      "basename": "LaMini-LM",
+      "path": "LaMini-LM.md"
+    },
+    {
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
     },
     {
       "basename": "Vicuna",
@@ -31,10 +51,6 @@
     {
       "basename": "Shepherd",
       "path": "Shepherd.md"
-    },
-    {
-      "basename": "Feedback Collection",
-      "path": "Feedback Collection.md"
     },
     {
       "basename": "Starling",
@@ -99,10 +115,6 @@
     {
       "basename": "SPIN",
       "path": "SPIN.md"
-    },
-    {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
     },
     {
       "basename": "Pairwise Cringe Optimization",
@@ -187,18 +199,6 @@
     {
       "basename": "Mixture-of-Experts",
       "path": "Mixture-of-Experts.md"
-    },
-    {
-      "basename": "Expert Capacity",
-      "path": "Expert Capacity.md"
-    },
-    {
-      "basename": "Capacity Factor",
-      "path": "Capacity Factor.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     }
   ],
   "omittedPaths": [],
