@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "LaMini-LM",
+      "path": "LaMini-LM.md"
+    },
+    {
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
+    },
+    {
+      "basename": "Synthetic Data Index",
+      "path": "Indices/Synthetic Data Index.md"
+    },
+    {
       "basename": "Unnatural Instructions",
       "path": "Unnatural Instructions.md"
+    },
+    {
+      "basename": "Vicuna",
+      "path": "Vicuna.md"
     },
     {
       "basename": "Prometheus",
@@ -11,10 +31,6 @@
     {
       "basename": "Shepherd",
       "path": "Shepherd.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Feedback Collection",
@@ -47,10 +63,6 @@
     {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "Synthetic Data Index",
-      "path": "Indices/Synthetic Data Index.md"
     },
     {
       "basename": "CS25 V4 Lecture 3",
@@ -187,18 +199,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
-    },
-    {
-      "basename": "PaperTemplate",
-      "path": "Templates/PaperTemplate.md"
-    },
-    {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
     }
   ],
   "omittedPaths": [],
