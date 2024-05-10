@@ -519,6 +519,8 @@
 - [[Contrastive Captioner]] (CoCa)
 - [[OpenChat]]
 - [[LaMini-LM]]
+- [[Longform]]
+- [[Humpback]]
 
 # Tools
 - [[ComfyUI]]
