@@ -5,12 +5,32 @@
       "path": "Instruction Backtranslation.md"
     },
     {
-      "basename": "Feedback Collection",
-      "path": "Feedback Collection.md"
+      "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
+      "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "Synthetic Data Index",
+      "path": "Indices/Synthetic Data Index.md"
+    },
+    {
+      "basename": "Self-Play",
+      "path": "Self-Play.md"
+    },
+    {
+      "basename": "Self-Reward",
+      "path": "Self-Reward.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
     },
     {
       "basename": "~ Ideas",
@@ -19,10 +39,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Synthetic Data Index",
-      "path": "Indices/Synthetic Data Index.md"
     },
     {
       "basename": "Unnatural Instructions",
@@ -121,10 +137,6 @@
       "path": "Pairwise Cringe Optimization.md"
     },
     {
-      "basename": "Self-Reward",
-      "path": "Self-Reward.md"
-    },
-    {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
     },
@@ -147,14 +159,6 @@
     {
       "basename": "Chinchilla",
       "path": "Chinchilla.md"
-    },
-    {
-      "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
-      "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
-    },
-    {
-      "basename": "Self-Play",
-      "path": "Self-Play.md"
     },
     {
       "basename": "Reinforced Self-Training",
@@ -195,10 +199,6 @@
     {
       "basename": "CLIP",
       "path": "CLIP.md"
-    },
-    {
-      "basename": "Mixture-of-Experts",
-      "path": "Mixture-of-Experts.md"
     }
   ],
   "omittedPaths": [],
