@@ -20,6 +20,8 @@ Aside:
 - Similar to [[Alpagasus]], which also provided an algorithmic approach to selecting high-quality data, except they prompt a stronger model (ChatGPT) to score the quality of *model generations*, while our work scores the quality of *human-written data* as a response to a self-generated instruction.
 - It seems like this model would only generate single-turn examples of (x, y)... which isn't amazing. I'm also interested in the divers
 
+hu-po on Youtube said that the process for this model seemed pretty similar to what [[Segment Anything Model]] (SAM) does for training.
+
 ----
 
 Note:
@@ -35,12 +37,14 @@ Note:
 	- That we can predict instructions for these candidate gold answers that can be used as high-quality example pairs to train an instruction-following model.
 - Self-Augmentation
 	- We run inference on the unlabeled examples $y_i$ to generate a candidate instruction $\hat{x_i}$. We now have a bunch of {($\hat{x_i}$, $y_i$)} pairs, but many of them are probably not of high quality.
+	- It seems that they choose to use [[Top-P Sampling|Nucleus Sampling]] (Top-P Sampling) for generation
 - Self-Curation
 	- We further propose an iterative training method to produce higher-quality predicitons.
 	- On iteration *t*, we finetune our model on the curated augmentation data from the previous iteration. This model in turn is used to rescore the augmented examples for quality, resulting in a new augmentation set.
 	- We perform two iterations of data selection and finetuning to get the final model $M_2$. 
 	- When combining both seed data and augmented data for finetuning, we use tagging to distinguish these two data sources. 
 		- We append an addition sentence to the system prompt of "Answer in the style of an AI Assistant" for seed data, and "Answer with knowledge from web search" for augmented data. ((I don't really understand the reasoning behind this.))
+	- Successive models can be used to ==*rescore*== augmented examples for quality, resulting in new augmentation sets.
 - Authors call the resulting model ==[[Humpback]]==.
 - As is shown in Figure 5, when training on self-augmented data alone (without seed data), and without self-curation, the quality of instruction following does not improve, or even deteriorates with more data. However, training on the higher quality self-curated data brings improvements as training set size increases
 - 
@@ -57,6 +61,7 @@ Above: The process 🔄
 Above: Interestingly, it seems that they're claiming that the dataset produced for Humpback in this paper is more efficient training fodder than the data created via [[Evol-Instruct]] in [[WizardLM]] (and many others).
 
 ![[Pasted image 20240509163651.png]]
+Above: This is kind of an interesting figure. If you look at the last two rows, it shows that the system prompt being present during inference doesn't really matter, as long as it was present during the pretraining? Huh, never really thought about that.
 
 ![[Pasted image 20240509170634.png]]
 Above: It seems like performance was continuing to improve even at $A_5$ (the fifth generation)
