@@ -15,3 +15,4 @@
 - [[Pairwise Cringe Optimization]]
 - [[LaMini-LM]]
 - [[Instruction Backtranslation]]
+- [[Magicoder]]

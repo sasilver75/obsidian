@@ -1,56 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
-    },
-    {
-      "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
-      "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
+      "basename": "Magicoder",
+      "path": "Magicoder.md"
     },
     {
       "basename": "Synthetic Data Index",
       "path": "Indices/Synthetic Data Index.md"
     },
     {
-      "basename": "Self-Play",
-      "path": "Self-Play.md"
-    },
-    {
-      "basename": "Self-Reward",
-      "path": "Self-Reward.md"
-    },
-    {
-      "basename": "Feedback Collection",
-      "path": "Feedback Collection.md"
+      "basename": "LaMini-LM",
+      "path": "LaMini-LM.md"
     },
     {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "OpenLLM Leaderboard",
+      "path": "OpenLLM Leaderboard.md"
+    },
+    {
+      "basename": "Contrastive Captioner",
+      "path": "Contrastive Captioner.md"
+    },
+    {
+      "basename": "Starling",
+      "path": "Starling.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Self-Reward",
+      "path": "Self-Reward.md"
+    },
+    {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
+      "basename": "Orca",
+      "path": "Orca.md"
+    },
+    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
     {
-      "basename": "Unnatural Instructions",
-      "path": "Unnatural Instructions.md"
+      "basename": "Self-Instruct",
+      "path": "Self-Instruct.md"
     },
     {
       "basename": "Web Rephrase Augmented Pre-training",
       "path": "Web Rephrase Augmented Pre-training.md"
     },
     {
-      "basename": "LaMini-LM",
-      "path": "LaMini-LM.md"
+      "basename": "Longform",
+      "path": "Longform.md"
+    },
+    {
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
+    },
+    {
+      "basename": "Unnatural Instructions",
+      "path": "Unnatural Instructions.md"
+    },
+    {
+      "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
+      "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "Self-Play",
+      "path": "Self-Play.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
     },
     {
       "basename": "Alpaca",
@@ -63,22 +99,6 @@
     {
       "basename": "Prometheus",
       "path": "Prometheus.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "Starling",
-      "path": "Starling.md"
-    },
-    {
-      "basename": "Contrastive Captioner",
-      "path": "Contrastive Captioner.md"
-    },
-    {
-      "basename": "OpenLLM Leaderboard",
-      "path": "OpenLLM Leaderboard.md"
     },
     {
       "basename": "Capybara Dataset",
@@ -145,10 +165,6 @@
       "path": "Recommendation Systems.md"
     },
     {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
-    },
-    {
       "basename": "ROGUE",
       "path": "ROGUE.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Chain of Thought",
       "path": "Chain of Thought.md"
-    },
-    {
-      "basename": "Chain of Note",
-      "path": "Chain of Note.md"
-    },
-    {
-      "basename": "LLAMA Guard 2",
-      "path": "LLAMA Guard 2.md"
-    },
-    {
-      "basename": "LLaMA",
-      "path": "LLaMA.md"
-    },
-    {
-      "basename": "CLIP",
-      "path": "CLIP.md"
     }
   ],
   "omittedPaths": [],
