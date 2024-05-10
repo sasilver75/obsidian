@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "WaveCoder",
+      "path": "WaveCoder.md"
+    },
+    {
       "basename": "Magicoder",
       "path": "Magicoder.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Synthetic Data Index",
@@ -17,10 +33,6 @@
       "path": "~ Ideas.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "OpenLLM Leaderboard",
       "path": "OpenLLM Leaderboard.md"
     },
@@ -31,10 +43,6 @@
     {
       "basename": "Starling",
       "path": "Starling.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
     },
     {
       "basename": "Self-Reward",
@@ -63,10 +71,6 @@
     {
       "basename": "Longform",
       "path": "Longform.md"
-    },
-    {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
     },
     {
       "basename": "Unnatural Instructions",
@@ -195,10 +199,6 @@
     {
       "basename": "Vision Transformer",
       "path": "Vision Transformer.md"
-    },
-    {
-      "basename": "Chain of Thought",
-      "path": "Chain of Thought.md"
     }
   ],
   "omittedPaths": [],

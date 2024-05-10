@@ -4,7 +4,7 @@ aliases:
   - Distilled
   - Distill
 ---
-Traditional knowledge distillation involves transferring knowledge from a larger, more complex model (teacher) to a smaller, simpler model (student). Generally this involving training on the logits of the teacher, rather than on the data labels, but it can also refer to creating a set of labeled data using a teacher model that a student model can later train on.
+Traditional knowledge distillation involves transferring knowledge from a larger, more complex model (teacher) to a smaller, simpler model (student). Generally this involving training on the logits of the teacher (model distillation), rather than on the data labels, but it can also refer to creating a set of labeled data using a teacher model that a student model can later train on (data distillation).
 
 Variant: [[Self-Distillation]]
 
