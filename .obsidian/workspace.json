@@ -8,176 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "215f335f195eb076",
+            "id": "9a6c9abbc78866b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unnatural Instructions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c1ca4d17b5046d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indices/Synthetic Data Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88ed0016e61ad928",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c37ba8ff12e911f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Ideas.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33326522294b64d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07c7dd836dc32817",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Instruction Backtranslation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0298e460aa47e64d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4aebe935491d715",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Reward.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86a137098a56afd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2884a0dd3694bf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shepherd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ffd939fa51fb52f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenLLM Leaderboard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58b860bdec4e70a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contrastive Captioner.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d57a3125602a1c86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Starling.md",
+                "file": "Magicoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Instruction Backtranslation.md",
+                "file": "Magicoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Instruction Backtranslation.md",
+                "file": "Magicoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Instruction Backtranslation.md"
+                "file": "Magicoder.md"
               }
             }
           },
@@ -318,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Instruction Backtranslation.md",
+                "file": "Magicoder.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -364,44 +207,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "07c7dd836dc32817",
+  "active": "9a6c9abbc78866b6",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240509223834.png",
+    "_attachments/Pasted image 20240509223637.png",
+    "_attachments/Pasted image 20240509181757.png",
+    "Indices/Synthetic Data Index.md",
+    "LaMini-LM.md",
+    "~ Ideas.md",
+    "~ Vocabulary.md",
+    "OpenLLM Leaderboard.md",
+    "Contrastive Captioner.md",
+    "Starling.md",
+    "Distillation.md",
+    "Self-Reward.md",
+    "Shepherd.md",
+    "Orca.md",
+    "~ Useful Pictures.md",
+    "Self-Instruct.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "Magicoder.md",
+    "Longform.md",
+    "Instruction Backtranslation.md",
+    "Unnatural Instructions.md",
+    "_attachments/Pasted image 20240509174525.png",
     "_attachments/Pasted image 20240509172704.png",
     "_attachments/Pasted image 20240509171047.png",
     "_attachments/Pasted image 20240509171046.png",
     "_attachments/Pasted image 20240509171029.png",
     "_attachments/Pasted image 20240509170634.png",
     "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
-    "Instruction Backtranslation.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240509163651.png",
     "_attachments/Pasted image 20240509163352.png",
     "WizardLM.md",
-    "_attachments/Pasted image 20240509155923.png",
-    "Indices/Synthetic Data Index.md",
     "Self-Play.md",
-    "Self-Reward.md",
     "Feedback Collection.md",
-    "~ Ideas.md",
-    "~ Useful Pictures.md",
-    "Unnatural Instructions.md",
-    "Web Rephrase Augmented Pre-training.md",
-    "LaMini-LM.md",
-    "_attachments/Pasted image 20240509002950.png",
-    "_attachments/Pasted image 20240509002922.png",
-    "_attachments/Pasted image 20240509002855.png",
     "Alpaca.md",
     "Vicuna.md",
     "Prometheus.md",
-    "Shepherd.md",
-    "Starling.md",
-    "Contrastive Captioner.md",
-    "OpenLLM Leaderboard.md",
-    "Capybara Dataset.md",
-    "Airoboros.md",
-    "Capybara.md",
-    "Synthetic Data.md",
-    "Courses/CS25/CS25 V4 Lecture 3.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
