@@ -16,3 +16,4 @@
 - [[LaMini-LM]]
 - [[Instruction Backtranslation]]
 - [[Magicoder]]
+- [[Reinforced Self-Training|ReST]]^EM
