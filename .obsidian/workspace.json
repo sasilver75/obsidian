@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc18725f2d596016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86f5a708a08bca34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatBotArena.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -74,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WaveCoder.md"
+                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md"
               }
             }
           },
@@ -161,7 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,9 +234,18 @@
   },
   "active": "9a6c9abbc78866b6",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240511000113.png",
+    "_attachments/Pasted image 20240510235719.png",
+    "_attachments/Pasted image 20240510235450.png",
+    "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
+    "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240510233232.png",
+    "ChatBotArena.md",
+    "~ Ideas.md",
+    "WaveCoder.md",
     "~ Vocabulary.md",
     "Indices/Synthetic Data Index.md",
-    "WaveCoder.md",
     "Reinforced Self-Training.md",
     "Magicoder.md",
     "Instruction Backtranslation.md",
@@ -220,14 +254,12 @@
     "_attachments/Pasted image 20240509223637.png",
     "_attachments/Pasted image 20240509181757.png",
     "LaMini-LM.md",
-    "~ Ideas.md",
     "OpenLLM Leaderboard.md",
     "Contrastive Captioner.md",
     "Starling.md",
     "Self-Reward.md",
     "Shepherd.md",
     "Orca.md",
-    "~ Useful Pictures.md",
     "Self-Instruct.md",
     "Web Rephrase Augmented Pre-training.md",
     "Longform.md",
@@ -236,15 +268,8 @@
     "_attachments/Pasted image 20240509172704.png",
     "_attachments/Pasted image 20240509171047.png",
     "_attachments/Pasted image 20240509171046.png",
-    "_attachments/Pasted image 20240509171029.png",
-    "_attachments/Pasted image 20240509170634.png",
     "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
-    "_attachments/Pasted image 20240509163651.png",
     "WizardLM.md",
-    "Self-Play.md",
-    "Feedback Collection.md",
-    "Alpaca.md",
-    "Vicuna.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",

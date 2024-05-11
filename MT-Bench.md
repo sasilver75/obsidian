@@ -2,7 +2,7 @@ June 9, 2023 -- UC Berkeley, UCSD, Carnegie Melon, Stanford
 Paper: [Judging LLM-as-aJudge with MT-Bench and Chatbot Arena](https://arxiv.org/pdf/2306.05685.pdf)
 Leaderboard: [Link](https://chat.lmsys.org/?leaderboard)
 
-This paper actually introduces two banger evaluations: [[MT-Bench]] and [[ChatBot Arena]]!
+This paper actually introduces two banger evaluations: [[MT-Bench]] and [[ChatBotArena]]!
 
 MT Bench is a series of ==open-ended questions that evaluate a chatbot's multi-turn conversational and instruction-following ability==. Consists of ==80 high-quality multi-turn questions== across 8 domains. Initial evaluations relied on human ratings only, but it was costly and laborious, so they end up using [[LLM-as-a-Judge]] (to score both, though I believe at this point they've turned the latter into a human preferences only crowd-sourced evaluation).
 
