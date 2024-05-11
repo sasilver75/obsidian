@@ -13,41 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Magicoder.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18689edc661fadd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "290c16b7b6746f77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Instruction Backtranslation.md",
+                "file": "WaveCoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Instruction Backtranslation.md",
+                "file": "WaveCoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Instruction Backtranslation.md",
+                "file": "WaveCoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Instruction Backtranslation.md"
+                "file": "WaveCoder.md"
               }
             }
           },
@@ -188,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Instruction Backtranslation.md",
+                "file": "WaveCoder.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -234,16 +207,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "290c16b7b6746f77",
+  "active": "9a6c9abbc78866b6",
   "lastOpenFiles": [
-    "Distillation.md",
-    "WaveCoder.md",
-    "Magicoder.md",
     "~ Vocabulary.md",
+    "Indices/Synthetic Data Index.md",
+    "WaveCoder.md",
+    "Reinforced Self-Training.md",
+    "Magicoder.md",
+    "Instruction Backtranslation.md",
+    "Distillation.md",
     "_attachments/Pasted image 20240509223834.png",
     "_attachments/Pasted image 20240509223637.png",
     "_attachments/Pasted image 20240509181757.png",
-    "Indices/Synthetic Data Index.md",
     "LaMini-LM.md",
     "~ Ideas.md",
     "OpenLLM Leaderboard.md",
@@ -256,7 +231,6 @@
     "Self-Instruct.md",
     "Web Rephrase Augmented Pre-training.md",
     "Longform.md",
-    "Instruction Backtranslation.md",
     "Unnatural Instructions.md",
     "_attachments/Pasted image 20240509174525.png",
     "_attachments/Pasted image 20240509172704.png",
@@ -271,7 +245,6 @@
     "Feedback Collection.md",
     "Alpaca.md",
     "Vicuna.md",
-    "Prometheus.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",

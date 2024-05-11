@@ -7,9 +7,16 @@ December 11, 2023
 [[DeepMind]]
 Paper: [Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585)
 #zotero 
-Takeaway: A simple, two-step (Generate, Improve) self-training method for when you don't have a large amount of data, but you have access to *binary* feedback on generations (eg math problems, where you can verify correctness). Involves generating samples, filtering them using binary feedback, fine-tuning on the remaining generations, and repeating the process.
+Takeaway: A simple, two-step (Generate, Improve) self-training method for when you don't have a large amount of data, but you DO have access to (eg automatic) *binary* feedback on generations (eg math problems, where you can verify correctness). Involves generating samples, filtering them using binary feedback, fine-tuning on the remaining generations, and repeating the process.
+1. `Generate (E-Step)`: The language model generates multiple output samples for each input. Then, we filter samples using a binary reward, yielding a training dataset.
+2. `Improve (M-step)`: The original LM is SFT'd on the training dataset from the previous Generate step; the fine-tuned model is then used in the *next* Generate step.
+- (Repeat!)
 
 Gulchere et al. (2023) proposed Reinforced Self-Training; Deepmind authors make some modifications and call their approach $ReST^{EM}$ , which can be viewed as applying expecation-maximization for reinforcement learning.
+
+Question: What sort of decoding do they use for this? I imagine that it would matter? Because greedy decoding while eating your own shit would just pump the maximum probability tokens, right?... Temperature matters too.
+
+- ==Authors don't really talk about the reward model that's used in the generate step, which is... the driving force behind this whole methodology.==
 
 ----
 

@@ -1,20 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
       "basename": "WaveCoder",
       "path": "WaveCoder.md"
-    },
-    {
-      "basename": "Magicoder",
-      "path": "Magicoder.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -23,6 +11,22 @@
     {
       "basename": "Synthetic Data Index",
       "path": "Indices/Synthetic Data Index.md"
+    },
+    {
+      "basename": "Reinforced Self-Training",
+      "path": "Reinforced Self-Training.md"
+    },
+    {
+      "basename": "Magicoder",
+      "path": "Magicoder.md"
+    },
+    {
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
     },
     {
       "basename": "LaMini-LM",
@@ -179,10 +183,6 @@
     {
       "basename": "Chinchilla",
       "path": "Chinchilla.md"
-    },
-    {
-      "basename": "Reinforced Self-Training",
-      "path": "Reinforced Self-Training.md"
     },
     {
       "basename": "LLaMA Guard",
