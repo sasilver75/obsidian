@@ -249,3 +249,6 @@ Interesting that perhaps [[L1 Regularization]] isn't that good for DNN?
 
 ![[Pasted image 20240509002950.png|250]]
 A table of 40 hallucination-inducing questions from the [[LaMini-LM]] paper.
+
+![[Pasted image 20240510233232.png]]
+Above: Some funny prompts that have been used on ChatBotArena

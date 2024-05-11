@@ -152,7 +152,7 @@ All of these things were created about the same time, when we were desperate to 
 Perspective: What can I use when I try to align models, and what can give me immediate feedback on this?
 
 ![[Pasted image 20240418170604.png]]
-[[ChatBot Arena]]: Fantastic, defining the biggest langauge models performance questions (GPT vs Claude)
+[[ChatBotArena]]: Fantastic, defining the biggest langauge models performance questions (GPT vs Claude)
 - Hard to get your model in there if you're a small shop
 - Takes weeks to get results
 

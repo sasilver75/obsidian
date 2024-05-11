@@ -1,1 +1,1 @@
-Operates [[ChatBot Arena]]
+Operates [[ChatBotArena]]

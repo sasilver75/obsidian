@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}",
+      "path": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md"
+    },
+    {
+      "basename": "ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}",
+      "path": "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "ChatBotArena",
+      "path": "ChatBotArena.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
       "basename": "WaveCoder",
       "path": "WaveCoder.md"
     },
@@ -33,10 +53,6 @@
       "path": "LaMini-LM.md"
     },
     {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
       "basename": "OpenLLM Leaderboard",
       "path": "OpenLLM Leaderboard.md"
     },
@@ -59,10 +75,6 @@
     {
       "basename": "Orca",
       "path": "Orca.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Self-Instruct",
@@ -187,18 +199,6 @@
     {
       "basename": "LLaMA Guard",
       "path": "LLaMA Guard.md"
-    },
-    {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "LLaMA Guard 2024-05-06 16.13.04.excalidraw",
-      "path": "_attachments/LLaMA Guard 2024-05-06 16.13.04.excalidraw.md"
-    },
-    {
-      "basename": "Vision Transformer",
-      "path": "Vision Transformer.md"
     }
   ],
   "omittedPaths": [],

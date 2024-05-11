@@ -2,7 +2,7 @@ June 9, 2023 -- UC Berkeley, UCSD, Carnegie Melon, Stanford
 Paper: [Judging LLM-as-aJudge with MT-Bench and Chatbot Arena](https://arxiv.org/pdf/2306.05685.pdf)
 Leaderboard: [Link](https://chat.lmsys.org/?leaderboard)
 
-This paper actually introduces two banger evaluations: [[MT-Bench]] and [[ChatBot Arena]]!
+This paper actually introduces two banger evaluations: [[MT-Bench]] and [[ChatBotArena]]!
 
 The latter is described as a "Chatbot Battle Platform!" -- it's a crowdsourced platform featuring anonymous battles between chatbots in real-world scenarios; Users engage in conversations with two chatbots at the same time, and rate their responses based on personal preferences -- we create a leaderboard out of this too!
 

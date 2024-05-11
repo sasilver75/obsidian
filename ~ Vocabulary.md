@@ -574,7 +574,7 @@
 - [[MMMU]]
 - [[HotpotQA]]
 - [[SQuAD]]
-- [[ChatBot Arena]]
+- [[ChatBotArena]]
 - [[OpenLLM Leaderboard]]
 - [[MT-Bench]]
 - [[AlpacaEval]]
