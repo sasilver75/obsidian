@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+                "file": "WaveCoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+                "file": "WaveCoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+                "file": "WaveCoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md"
+                "file": "WaveCoder.md"
               }
             }
           },
@@ -186,7 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+                "file": "WaveCoder.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -234,11 +234,14 @@
   },
   "active": "9a6c9abbc78866b6",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240511005132.png",
+    "_attachments/Pasted image 20240511005126.png",
+    "_attachments/Pasted image 20240511004137.png",
+    "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
     "_attachments/Pasted image 20240511000113.png",
     "_attachments/Pasted image 20240510235719.png",
     "_attachments/Pasted image 20240510235450.png",
     "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
-    "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240510233232.png",
     "ChatBotArena.md",
@@ -265,9 +268,6 @@
     "Longform.md",
     "Unnatural Instructions.md",
     "_attachments/Pasted image 20240509174525.png",
-    "_attachments/Pasted image 20240509172704.png",
-    "_attachments/Pasted image 20240509171047.png",
-    "_attachments/Pasted image 20240509171046.png",
     "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
     "WizardLM.md",
     "Indices",
