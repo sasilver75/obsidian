@@ -187,8 +187,9 @@
 - [[Prefix Tuning]]
 - Compute-Optimal Training
 - Inference-Optimal Training
-- [[Low-Rank Adaptation]]
-- [[Quantized Low-Rank Adaptation]]
+- [[Low-Rank Adaptation]] (LoRA)
+- [[Quantized Low-Rank Adaptation]] (QLoRA)
+- [[Weight-Decomposed Low-Rank Adaptation]] (DoRA)
 - [[Scaling Laws]]
 - [[Synthetic Data]]
 - [[Mixture-of-Experts]] (MoE)
@@ -396,6 +397,7 @@
 - [[AlphaGo]]
 - [[LeNet]]
 - [[Falcon]]
+- [[Falcon 2]]
 - [[AlexNet]]
 - [[CLIP]] 
 - [[OpenCLIP]]

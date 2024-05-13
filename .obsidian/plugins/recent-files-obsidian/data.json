@@ -1,24 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "ChatBotArena",
-      "path": "ChatBotArena.md"
-    },
-    {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Recommendation Systems",
-      "path": "Recommendation Systems.md"
-    },
-    {
-      "basename": "Tiktoken",
-      "path": "Tiktoken.md"
-    },
-    {
-      "basename": "How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}",
-      "path": "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -35,6 +19,34 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}",
+      "path": "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "Falcon 2",
+      "path": "Falcon 2.md"
+    },
+    {
+      "basename": "Weight-Decomposed Low-Rank Adaptation",
+      "path": "Weight-Decomposed Low-Rank Adaptation.md"
+    },
+    {
+      "basename": "LLaMA 3",
+      "path": "LLaMA 3.md"
+    },
+    {
+      "basename": "ChatBotArena",
+      "path": "ChatBotArena.md"
+    },
+    {
+      "basename": "Recommendation Systems",
+      "path": "Recommendation Systems.md"
+    },
+    {
+      "basename": "Tiktoken",
+      "path": "Tiktoken.md"
     },
     {
       "basename": "WaveCoder",
@@ -187,18 +199,6 @@
     {
       "basename": "Sparrow",
       "path": "Sparrow.md"
-    },
-    {
-      "basename": "InstructGPT",
-      "path": "InstructGPT.md"
-    },
-    {
-      "basename": "SPIN",
-      "path": "SPIN.md"
-    },
-    {
-      "basename": "Pairwise Cringe Optimization",
-      "path": "Pairwise Cringe Optimization.md"
     }
   ],
   "omittedPaths": [],
