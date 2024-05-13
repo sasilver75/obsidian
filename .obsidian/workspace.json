@@ -65,79 +65,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86f5a708a08bca34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "972b07275e2edc09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8f75ffad183d806",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8542044a8c26bda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenELM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b51f26c3c30c89fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 3.md",
+                "file": "WaveCoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -212,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "WaveCoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "WaveCoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "WaveCoder.md"
               }
             }
           },
@@ -277,7 +213,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "WaveCoder.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -323,13 +259,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a6c9abbc78866b6",
+  "active": "bc18725f2d596016",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
-    "OpenELM.md",
-    "Humpback.md",
+    "_attachments/Pasted image 20240513151651.png",
+    "_attachments/Pasted image 20240513151622.png",
+    "Prometheus 2.md",
+    "Prometheus.md",
+    "MT-Bench.md",
+    "GSM8K.md",
+    "_attachments/Pasted image 20240513150845.png",
     "~ Useful Pictures.md",
     "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md",
+    "~ Vocabulary.md",
+    "OpenELM.md",
+    "LLaMA 3.md",
+    "~ Recommendations.md",
+    "Humpback.md",
     "Falcon 2.md",
     "_attachments/Pasted image 20240513144835.png",
     "DoRA.md",
@@ -337,8 +282,6 @@
     "_attachments/Pasted image 20240513144602.png",
     "_attachments/Pasted image 20240513144438.png",
     "_attachments/Pasted image 20240513144434.png",
-    "LLaMA 3.md",
-    "~ Recommendations.md",
     "_attachments/Pasted image 20240513144245.png",
     "_attachments/Pasted image 20240513144241.png",
     "_attachments/Pasted image 20240513144011.png",
@@ -346,8 +289,6 @@
     "ChatBotArena.md",
     "Recommendation Systems.md",
     "Tiktoken.md",
-    "_attachments/Pasted image 20240513005852.png",
-    "_attachments/Pasted image 20240513005435.png",
     "WaveCoder.md",
     "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
     "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
@@ -356,11 +297,6 @@
     "Reinforced Self-Training.md",
     "Magicoder.md",
     "Instruction Backtranslation.md",
-    "Distillation.md",
-    "LaMini-LM.md",
-    "OpenLLM Leaderboard.md",
-    "Contrastive Captioner.md",
-    "Starling.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
