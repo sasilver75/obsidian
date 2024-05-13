@@ -78,15 +78,66 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChatBotArena.md",
+                "file": "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "972b07275e2edc09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8f75ffad183d806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8542044a8c26bda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenELM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b51f26c3c30c89fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLaMA 3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChatBotArena.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChatBotArena.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatBotArena.md"
+                "file": "~ Recommendations.md"
               }
             }
           },
@@ -226,7 +277,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ChatBotArena.md",
+                "file": "~ Recommendations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -272,44 +323,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "86f5a708a08bca34",
+  "active": "9a6c9abbc78866b6",
   "lastOpenFiles": [
-    "~ Recommendations.md",
-    "Recommendation Systems.md",
-    "Tiktoken.md",
-    "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md",
-    "_attachments/Pasted image 20240513005852.png",
-    "_attachments/Pasted image 20240513005435.png",
-    "ChatBotArena.md",
     "~ Vocabulary.md",
     "OpenELM.md",
     "Humpback.md",
     "~ Useful Pictures.md",
+    "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md",
+    "Falcon 2.md",
+    "_attachments/Pasted image 20240513144835.png",
+    "DoRA.md",
+    "Weight-Decomposed Low-Rank Adaptation.md",
+    "_attachments/Pasted image 20240513144602.png",
+    "_attachments/Pasted image 20240513144438.png",
+    "_attachments/Pasted image 20240513144434.png",
+    "LLaMA 3.md",
+    "~ Recommendations.md",
+    "_attachments/Pasted image 20240513144245.png",
+    "_attachments/Pasted image 20240513144241.png",
+    "_attachments/Pasted image 20240513144011.png",
+    "_attachments/Pasted image 20240513143419.png",
+    "ChatBotArena.md",
+    "Recommendation Systems.md",
+    "Tiktoken.md",
+    "_attachments/Pasted image 20240513005852.png",
+    "_attachments/Pasted image 20240513005435.png",
     "WaveCoder.md",
-    "_attachments/Pasted image 20240511005132.png",
-    "_attachments/Pasted image 20240511005126.png",
-    "_attachments/Pasted image 20240511004137.png",
     "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
-    "_attachments/Pasted image 20240511000113.png",
-    "_attachments/Pasted image 20240510235719.png",
-    "_attachments/Pasted image 20240510235450.png",
     "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
-    "_attachments/Pasted image 20240510233232.png",
     "~ Ideas.md",
     "Indices/Synthetic Data Index.md",
     "Reinforced Self-Training.md",
     "Magicoder.md",
     "Instruction Backtranslation.md",
     "Distillation.md",
-    "_attachments/Pasted image 20240509223834.png",
     "LaMini-LM.md",
     "OpenLLM Leaderboard.md",
     "Contrastive Captioner.md",
     "Starling.md",
-    "Self-Reward.md",
-    "Shepherd.md",
-    "Orca.md",
-    "Self-Instruct.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
