@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "~ Recommendations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01eac5bf552760e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "507664a65bce22ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenELM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a281dd391f5caff1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Humpback.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +85,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -121,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "ChatBotArena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "ChatBotArena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WaveCoder.md"
+                "file": "ChatBotArena.md"
               }
             }
           },
@@ -186,7 +226,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "WaveCoder.md",
+                "file": "ChatBotArena.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -232,8 +272,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a6c9abbc78866b6",
+  "active": "86f5a708a08bca34",
   "lastOpenFiles": [
+    "~ Recommendations.md",
+    "Recommendation Systems.md",
+    "Tiktoken.md",
+    "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md",
+    "_attachments/Pasted image 20240513005852.png",
+    "_attachments/Pasted image 20240513005435.png",
+    "ChatBotArena.md",
+    "~ Vocabulary.md",
+    "OpenELM.md",
+    "Humpback.md",
+    "~ Useful Pictures.md",
+    "WaveCoder.md",
     "_attachments/Pasted image 20240511005132.png",
     "_attachments/Pasted image 20240511005126.png",
     "_attachments/Pasted image 20240511004137.png",
@@ -242,20 +294,14 @@
     "_attachments/Pasted image 20240510235719.png",
     "_attachments/Pasted image 20240510235450.png",
     "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240510233232.png",
-    "ChatBotArena.md",
     "~ Ideas.md",
-    "WaveCoder.md",
-    "~ Vocabulary.md",
     "Indices/Synthetic Data Index.md",
     "Reinforced Self-Training.md",
     "Magicoder.md",
     "Instruction Backtranslation.md",
     "Distillation.md",
     "_attachments/Pasted image 20240509223834.png",
-    "_attachments/Pasted image 20240509223637.png",
-    "_attachments/Pasted image 20240509181757.png",
     "LaMini-LM.md",
     "OpenLLM Leaderboard.md",
     "Contrastive Captioner.md",
@@ -264,12 +310,6 @@
     "Shepherd.md",
     "Orca.md",
     "Self-Instruct.md",
-    "Web Rephrase Augmented Pre-training.md",
-    "Longform.md",
-    "Unnatural Instructions.md",
-    "_attachments/Pasted image 20240509174525.png",
-    "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
-    "WizardLM.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",

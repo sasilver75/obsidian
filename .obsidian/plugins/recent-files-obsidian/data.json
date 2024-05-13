@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "ChatBotArena",
+      "path": "ChatBotArena.md"
+    },
+    {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Recommendation Systems",
+      "path": "Recommendation Systems.md"
+    },
+    {
+      "basename": "Tiktoken",
+      "path": "Tiktoken.md"
+    },
+    {
+      "basename": "How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}",
+      "path": "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "OpenELM",
+      "path": "OpenELM.md"
+    },
+    {
+      "basename": "Humpback",
+      "path": "Humpback.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "WaveCoder",
       "path": "WaveCoder.md"
     },
@@ -13,20 +49,8 @@
       "path": "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "ChatBotArena",
-      "path": "ChatBotArena.md"
-    },
-    {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Synthetic Data Index",
@@ -175,30 +199,6 @@
     {
       "basename": "Pairwise Cringe Optimization",
       "path": "Pairwise Cringe Optimization.md"
-    },
-    {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Recommendation Systems",
-      "path": "Recommendation Systems.md"
-    },
-    {
-      "basename": "ROGUE",
-      "path": "ROGUE.md"
-    },
-    {
-      "basename": "KG-FiD",
-      "path": "KG-FiD.md"
-    },
-    {
-      "basename": "Chinchilla",
-      "path": "Chinchilla.md"
-    },
-    {
-      "basename": "LLaMA Guard",
-      "path": "LLaMA Guard.md"
     }
   ],
   "omittedPaths": [],
