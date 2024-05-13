@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
+      "basename": "WaveCoder",
+      "path": "WaveCoder.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Prometheus 2",
+      "path": "Prometheus 2.md"
     },
     {
-      "basename": "OpenELM",
-      "path": "OpenELM.md"
+      "basename": "Prometheus",
+      "path": "Prometheus.md"
     },
     {
-      "basename": "Humpback",
-      "path": "Humpback.md"
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
+    },
+    {
+      "basename": "GSM8K",
+      "path": "GSM8K.md"
     },
     {
       "basename": "~ Useful Pictures",
@@ -25,16 +29,32 @@
       "path": "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "OpenELM",
+      "path": "OpenELM.md"
+    },
+    {
+      "basename": "LLaMA 3",
+      "path": "LLaMA 3.md"
+    },
+    {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Humpback",
+      "path": "Humpback.md"
+    },
+    {
       "basename": "Falcon 2",
       "path": "Falcon 2.md"
     },
     {
       "basename": "Weight-Decomposed Low-Rank Adaptation",
       "path": "Weight-Decomposed Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "LLaMA 3",
-      "path": "LLaMA 3.md"
     },
     {
       "basename": "ChatBotArena",
@@ -47,10 +67,6 @@
     {
       "basename": "Tiktoken",
       "path": "Tiktoken.md"
-    },
-    {
-      "basename": "WaveCoder",
-      "path": "WaveCoder.md"
     },
     {
       "basename": "OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}",
@@ -153,10 +169,6 @@
       "path": "Vicuna.md"
     },
     {
-      "basename": "Prometheus",
-      "path": "Prometheus.md"
-    },
-    {
       "basename": "Capybara Dataset",
       "path": "Capybara Dataset.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Guardrail Index",
       "path": "Indices/Guardrail Index.md"
-    },
-    {
-      "basename": "MT-Bench",
-      "path": "MT-Bench.md"
-    },
-    {
-      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
-      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
-    },
-    {
-      "basename": "Sparrow",
-      "path": "Sparrow.md"
     }
   ],
   "omittedPaths": [],

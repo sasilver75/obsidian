@@ -31,7 +31,9 @@ Notes:
 		2. **Coreset sampling**: Our goal is to use a small number of samples to represent the distribution of the overall data, so we employ unsupervised clustering and focused on the data representations. After obtaining the code embeddings from the previous step, we use ==KCenterGreedy algorithm to select the code dataset and maximize data diversity, aiming to choose *k* center points such that we minimize the ***largest** distance* between a random data point and its nearest center, which has been proven efficient in obtaining a set of core samples of one distribution.== 
 - ==LLM-based Generator-Discriminator Framework==
 	- After we have raw code, we need to generate high-quality and diverse instruction data.
-	- We propose a novel LLM-based Generator-Discriminator Framework, where the 
+	- We propose a novel LLM-based Generator-Discriminator Framework, where the Generator can leverage an extensive amount of unsupervised open source code to generate supervised instruction data, and the Discriminator can continue analyzing and filtering the instruction data.
+
+# ☠️ Sort of burned out on Synthetic Data, going to bookmark this one
 
 Abstract
 > Recent work demonstrates that, after being fine-tuned on a high-quality instruction dataset, the resulting model can obtain impressive capabilities to address a wide range of tasks. However, ==existing methods for instruction data generation often produce duplicate data and are not controllable enough on data quality==. In this paper, ==we extend the generalization of instruction tuning by classifying the instruction data to 4 code-related tasks and propose a LLM-based Generator-Discriminator data process framework to generate diverse, high-quality instruction data from open source code==. Hence, we introduce CodeOcean, a dataset comprising 20,000 instruction instances across 4 universal code-related tasks,which is aimed at augmenting the effectiveness of instruction tuning and improving the generalization ability of fine-tuned model. Subsequently, we present ==WaveCoder, a fine-tuned Code LLM== with Widespread And Versatile Enhanced instruction tuning. This model is specifically designed for enhancing instruction tuning of Code Language Models (LLMs). Our experiments demonstrate that Wavecoder models outperform other open-source models in terms of generalization ability across different code-related tasks at the same level of fine-tuning scale. Moreover, Wavecoder exhibits high efficiency in previous code generation tasks. This paper thus offers a significant contribution to the field of instruction data generation and fine-tuning models, providing new insights and tools for enhancing performance in code-related tasks.
@@ -43,6 +45,12 @@ Above: The Pipeline. See that primary portions of it are an ==LLM Generator== an
 
 ![[Pasted image 20240511005132.png|200]]
 ![[Pasted image 20240511005126.png|450]]
+
+![[Pasted image 20240513151622.png]]
+Above: The main part of the framework.
+
+![[Pasted image 20240513151651.png]]
+Above: An example of the LLM-based Generator/Discriminator framework in the context of code generation.
 
 
 
