@@ -521,6 +521,7 @@
 - [[LaMini-LM]]
 - [[Longform]]
 - [[Humpback]]
+- [[OpenELM]]
 
 # Tools
 - [[ComfyUI]]
