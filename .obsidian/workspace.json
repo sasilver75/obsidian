@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Falcon 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Recommendations.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -220,8 +219,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "01eac5bf552760e0",
+  "active": "9a6c9abbc78866b6",
   "lastOpenFiles": [
+    "Falcon 2.md",
+    "~ Vocabulary.md",
     "OpenELM.md",
     "Humpback.md",
     "WaveCoder.md",
@@ -234,10 +235,8 @@
     "_attachments/Pasted image 20240513150845.png",
     "~ Useful Pictures.md",
     "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md",
-    "~ Vocabulary.md",
     "LLaMA 3.md",
     "~ Recommendations.md",
-    "Falcon 2.md",
     "_attachments/Pasted image 20240513144835.png",
     "DoRA.md",
     "Weight-Decomposed Low-Rank Adaptation.md",
