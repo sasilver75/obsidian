@@ -30,17 +30,17 @@
 - [[Covariate Shift]]
 - [[Regularization]]
 	- [[L1 Regularization]]
-	- [[L2 Regularization]]
+	- [[L2 Regularization]] ([[L2 Regularization|Weight Decay]])
 - [[One-Hot Encoding]]
 - [[t-SNE]]
 - [[Bootstrap]]
 - [[Bootstrap Aggregation]]
 - [[Beam Search]]
 - [[F1 Score]]
-- [[ROC Curve]]
-- [[AUC]]
-- [[Principal Component Analysis]]
-- [[Independent Component Analysis]]
+- [[ROC Curve]] (Received Operating Characteristic)
+- [[AUC]] (Area under Curve)
+- [[Principal Component Analysis]] (PCA)
+- [[Independent Component Analysis]] (ICA)
 - [[Spearman Correlation Coefficient]]
 - [[Bloom Filter]]
 - [[Count-Min Sketch]]
@@ -72,7 +72,7 @@
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
 - [[Alignment]]
-- [[Kullback-Leibler Divergence]]
+- [[Kullback-Leibler Divergence]] (KL Divergence)
 - [[Entropy]]
 - [[Mutual Information]]
 - [[Cross-Entropy]]
@@ -83,11 +83,11 @@
 - [[Large Language Model]]
 - [[Foundation Model]]
 - [[Multimodal]]
-- [[VLM]]
+- [[VLM]] (Vision-Language Model)
 - [[Machine Learning]]
 - [[Softmax]]
-- [[Rectified Linear Unit|ReLU]]
-- [[SwiGLU]]
+- [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
+- [[SwiGLU]] (Swish + GLU)
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Overfitting]]
@@ -127,20 +127,20 @@
 - [[Pre-training]]
 - [[AdaBoost]]
 - [[Batch]]
-- [[Batch Normalization]]
-- [[Layer Normalization]]
+- [[Batch Normalization]] (BatchNorm)
+- [[Layer Normalization]] (LayerNorm)
 - [[Convolution]]
 - [[Grouped Convolutions]]
 - [[Depth-Wise Convolutions]]
-- [[Activation Function]]s
+- [[Activation Function]]
 - [[Gini Index]]
 - [[Test-Time Augmentation]]
 - [[Gradient Accumulation]]
-- [[Recurrent Neural Networks]]
-- [[Long Short Term Memory]]
-- [[Gated Recurrent Unit]]
+- [[Recurrent Neural Network]] (RNN)
+- [[Long Short Term Memory]] (LSTM)
+- [[Gated Recurrent Unit]] (GRU)
 - [[Convolutional Neural Network]]
-- [[Region-Based Convolutional Neural Network]]
+- [[Region-Based Convolutional Neural Network]] (R-CNN)
 - [[Vanishing Gradients]], [[Exploding Gradients]]
 - [[Distillation]]
 - [[Context Distillation]]
@@ -197,15 +197,14 @@
 - [[Mixture-of-Depths]] (MoD)
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
-- [[RMSNorm]]
+- [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
 - [[LongRoPE]]
 - [[YaRN]]
 - [[Attention with Linear Biases]] (ALiBi)
-- [[SPIN]]
+- [[SPIN]] (Self-Play Fine-Tuning)
 - [[Canary GUID]]
-- [[Weight Decay]]
 - [[Early Stopping]]
 - [[Learning Rate]]
 - [[Grouped Query Attention]]
@@ -261,15 +260,15 @@
 - [[Late Interaction]]
 - [[SPLADE]]
 - [[SPLADEv2]]
-- [[DRAGON]]
-- [[SANTA]]
+- [[DRAGON]] (Dense Retrieval trained with Diverse Augmentation)
+- [[SANTA]] (Structure-Aware Dense Retrieval)
 - [[Fusion-in-Decoder]] (FiD)
-	- [[KG-FiD]]
-- [[RETRO]]
-- [[REALM]]
-- [[ORQA]]
-- [[FLARE]]
-- [[CRAG]]
+	- [[KG-FiD]] (Knowledge Graph - Fusion in Decoder)
+- [[RETRO]] (Retrieval-Enhanced Transformer)
+- [[REALM]] (Retrieval-Augmented Language Model Pretraining)
+- [[ORQA]] (Open-Retrieval Question Answering System)
+- [[FLARE]] (Forward-Looking Active Retrieval Augmented Generation)
+- [[CRAG]] (Corrective Retrieval Augmented Generation)
 - [[Success]]
 - [[Reciprocal Rank]]
 - [[Mean Reciprocal Rank]]
@@ -474,8 +473,8 @@
 - [[Gopher]]
 - [[AlphaCode]]
 - [[AlphaGeometry]]
-- [[MPT]]
-- [[OLMo]]
+- [[MPT]] (Mosaic Pretrained Transformers)
+- [[OLMo]] (Open Language Model)
 - [[Zephyr]]
 - [[Orca]]
 - [[Orca 2]]
@@ -524,6 +523,9 @@
 - [[Longform]]
 - [[Humpback]]
 - [[OpenELM]]
+- [[Medusa]]
+- [[CogVLM]]
+- [[LLaVA]]
 
 # Tools
 - [[ComfyUI]]
@@ -544,46 +546,45 @@
 - [[Lighteval]]
 - [[ChatML]]
 - [[Airoboros]]
-- [[CCNet]]
 - [[Instructor]]
 - [[Argilla]]
+- [[Distilabel]]
 - [[LabelStudio]]
 - [[CleanLab]]
 - [[AlpacaFarm]]
-- [[TRL]]
-- [[ONNX]]
+- [[TRL]] (Transformer Reinforcement Learning)
+- [[ONNX]] (Open Neural Network Exchange)
 - [[Safetensors]]
 - [[llama.cpp]]
+- [[fastText]]
 # Benchmarks, Evaluations
-*These are oftentimes also dataset, but they're not genrally datasets that you should train/finetune models on*
-- [[GAIA]]: A benchmark for General AI Assistants
-- [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
+*These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
+- [[GAIA]] (General AI Assistants benchmark)
+- [[Massive Multi-task Language Understanding]] (MMLU)
 - [[HumanEval]]
-- [[BIG-Bench]]
+- [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
 - [[BIG-Bench Hard]]
 - [[SWE-bench]]
 - [[DAWNBench]]
-- [[HELM]]
-- [[GLUE]]
+- [[HELM]] (Holistic Evaluation of Language Models)
+- [[GLUE]] (General Language Understanding Evaluation)
 - [[SuperGLUE]]
-- [[SWAG]]
+- [[SWAG]] (Situations with Adversarial Generations)
 - [[HellaSWAG]]
-- [[MNLI]]
+- [[MNLI]] (Multi-Genre Natural Language Inference)
 - [[Paloma]]
-- [[BEIR]]
-- [[GPQA]]
-- [[GSM8K]]
-- [[VQAv2]]
-- [[MMMU]]
+- [[BEIR]] (Benchmarking IR)
+- [[GPQA]] (Google-Proof Q&A Benchmark)
+- [[GSM8K]] (Grade School Math)
+- [[VQAv2]] (Visual Question Answering)
+- [[MMMU]] (Massive Multi-discipline Multimodal Understanding)
 - [[HotpotQA]]
-- [[SQuAD]]
+- [[SQuAD]] (Stanford Question Answering Dataset)
 - [[ChatBotArena]]
 - [[OpenLLM Leaderboard]]
-- [[MT-Bench]]
+- [[MT-Bench]] (Multi-Turn Benchmark)
 - [[AlpacaEval]]
 - [[AGIEval]]
-- [[Natural Instructions]]
-- [[Super-NaturalInstructions]]
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
 - [[Winoground]]
@@ -598,12 +599,14 @@
 - [[The Stack v2]]
 - [[ShareGPT]]
 - [[The Pile]]
-- [[CIFAR-10]]
-- [[MNIST]]
-- [[LAION-400M]]
+- [[CIFAR-10]] (Canadian Institute for Advanced Research)
+- [[MNIST]] (Modified National Institute of Standards and Technology)
+- [[LAION-400M]] (Large-scale Artificial Intelligence Open Network)
 - [[LAION-5B]]
 - [[MMC4]] (Multimodal C4)
-- [[MS MARCO]] (Information retrieval)
+- [[MS MARCO]] (Microsoft Machine Reading Comprehension)
+- [[MS MARCO Web Search]]
+- [[ClueWeb22]]
 - [[RedPajama]]
 - [[SlimPajama]]
 - [[RedPajama v2]]
@@ -622,7 +625,9 @@
 - [[TL;DR]]
 - [[Nectar]]
 - [[Tulu-v2-sft-mixture]]
-- [[S2ORC]]
+- [[S2ORC]] (Semantic Scholar Open Research Corpus)
+-  [[Natural Instructions]]
+- [[Super-NaturalInstructions]]
 - [[Unnatural Instructions]]
 - [[OpenHermes Dataset]]
 - [[OpenHermes2.5 Dataset]]
@@ -630,10 +635,11 @@
 - [[OpenOrca Dataset]]
 - [[SlimOrca]]
 - [[Common Objects in Context]]
-- [[LoTTe]]
+- [[LoTTE]] (Long-Tail Topic-stratified Evaluation)
 - [[Natural Questions]]
 - [[Feedback Collection]]
 - [[Capybara Dataset]]
+- [[CCNet]] (Cluster-Coordinated Net)
 
 # Interpretability
 - Saliency Map

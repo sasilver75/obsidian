@@ -4,7 +4,7 @@ Authors include Peter Bailis
 #benchmark 
 
 An early benchmark/competition seemingly focused on time-to-achieve-a-SoTA accuracy level.
-They closed submissions on April 20, 2018.
+==They closed submissions on April 20, 2018.==
 [Results here](https://dawn.cs.stanford.edu/benchmark/)
 
 Abstract

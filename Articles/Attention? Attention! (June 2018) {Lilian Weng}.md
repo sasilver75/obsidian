@@ -28,7 +28,7 @@ Similarly, we can explain the relationship between words in one sentence or clos
 - The seq2seq model normally has an encoder-decoder architecture, information of:
 	- An `encoder` processes the input sequence and compresses that information into a context vector of a fixed length. This representation is expected to be a good summary of the *meaning* of the whole source sequence -- it's the *gestalt* of the sequence!
 	- A `decoder` is initializer with the context vector, and aims to emit the transformed output. The early work only used the last state of the encoder network as the decoder initial state.
-	- Both the `encoder` and the `decoder` are [[Recurrent Neural Networks]], using either [[Long Short Term Memory|LSTM]] or [[GRU]]
+	- Both the `encoder` and the `decoder` are [[Recurrent Neural Network]], using either [[Long Short Term Memory|LSTM]] or [[GRU]]
 
 
 
