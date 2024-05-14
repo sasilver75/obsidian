@@ -3,7 +3,7 @@ July 18, 2023 (~5 months after [[LLaMA]])
 [[Meta AI Research]]
 Paper: [LLaMA 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)
 #zotero 
-Takeaway: ...
+Takeaway: A great new open-weights model from Meta, available in a variety of sizes in either base or chat variants. Authors give a lot of time to the RLHF and safety portions of the paper.
 
 ----
 
@@ -12,11 +12,14 @@ Technical details:
 - Trained on: 2T tokens (with the most factual data sources upsampled), increased from 1.4T tokens in LLaMA 1
 - Context length: 4096 tokens, increased from 2048 in LLaMA 1
 - RLHF with [[Proximal Policy Optimization|PPO]], [[Rejection Sampling]]
+	- Samples $k$ responses from the LLM for each prompt, scores each response using the reward model, selects the bets response, and fine-tunes (in a supervised fashion) on this example. Generating multiple samples can drastically increase the maximum reward of samples observed during fine-tuning.
 - "Ghost Attention"
-- Use of [[Grouped Query Attention]]
-- Use of [[SwiGLU]] activations
-- Use of [[Rotary Positional Embedding]] (RoPE)
-- Use of [[RMSNorm]] normalization
+	- A method of improving prompt adherence over multi-turn interactions.
+	- Given a dialogue session, GAtt samples an instruction that *should be followed*in a conversation, concatenates this instruction to every user message in the conversation, resamples responses to each user message, *removes* evidence of those instructions from user messages, and fine-tunes the model on the multi-turn dialogue with SFT.
+- Use of [[Grouped Query Attention]], a modified version of multi-headed causal self attention where we divide the N total self-attention heads into groups that share key and value heads. It's an interpolation between vanilla multi-headed self attention and [[Multi-Query Attention]] that is the best of both worlds.
+- Use of [[SwiGLU]] activations, rather than [[Rectified Linear Unit|ReLU]] activations. This activation function requires three matrix multiples (more expensive than a ReLU), but has been found to yield improvements in performance relative to other activation functions.
+- Use of [[Rotary Positional Embedding]] (RoPE), rather than absolute or relative positional embeddings. RoPE finds a balance between the absolute and relative position of each token in a sequence by encoding absolute position with a rotation matrix, and adding relative position information directly into the self-attention operation. Good for longer sequences.
+- Use of [[RMSNorm]] normalization, a simplified version of [[Layer Normalization|LayerNorm]] that has been shown to improve training stability and generalization. Adopts a pre-normalization variant of RMSNorm, meaning that normalization is applied *prior* to the major layers in the transformer block, rather than after.
 - Use of [[AdamW]] optimizer, with a cosine learning rate schedule, weight decay, and gradient clipping.
 - Uses the same tokenizer as LLaMA 1, employing [[Byte-Pair Encoding]] (BPE), using the implementation from [[SentencePiece]].
 	- We split all numbers into individual digits and use bytes to decompose unknown UTF-8 characters, using a 32k token vocabulary size.

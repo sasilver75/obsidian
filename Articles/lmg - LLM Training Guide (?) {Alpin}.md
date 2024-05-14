@@ -54,7 +54,7 @@ There are essentially 3 approaches to training LLMs:
 - The process of fine-tuning involves several key steps. 
 	1. Firstly, a task-specific dataset is gathered, consisting of labeled examples relevant to the desired task. For exampe, if the task is *instruct-tuning*, a dataset of instruction-response pairs is gathered. The fine-tuning dataset size is significantly smaller than the sets typically used for pre-training.
 	2. Next, the pre-trained model is then trained on the task-specific dataset, optimizing its parameters to minimize a task-specific loss function.
-	3. To enhance the fine-tuning process, additional techniques can be employed, such as using a [[Learning Rate Schedule]], [[Regularization]] methods like [[Dropout]] or [[Weight Decay]] or [[Early Stopping]].
+	3. To enhance the fine-tuning process, additional techniques can be employed, such as using a [[Learning Rate Schedule]], [[Regularization]] methods like [[Dropout]] or [[L2 Regularization|Weight Decay]] or [[Early Stopping]].
 
 
 ----

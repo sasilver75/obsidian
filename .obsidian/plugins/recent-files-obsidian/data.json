@@ -1,16 +1,124 @@
 {
   "recentFiles": [
     {
+      "basename": "Distilabel",
+      "path": "Distilabel.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "ClueWeb22",
+      "path": "ClueWeb22.md"
+    },
+    {
+      "basename": "MS MARCO Web Search",
+      "path": "MS MARCO Web Search.md"
+    },
+    {
+      "basename": "DRAGON",
+      "path": "DRAGON.md"
+    },
+    {
+      "basename": "SANTA",
+      "path": "SANTA.md"
+    },
+    {
+      "basename": "CRAG",
+      "path": "CRAG.md"
+    },
+    {
+      "basename": "FLARE",
+      "path": "FLARE.md"
+    },
+    {
+      "basename": "REALM",
+      "path": "REALM.md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
+    },
+    {
+      "basename": "Evol-Amplify",
+      "path": "Evol-Amplify.md"
+    },
+    {
+      "basename": "RMSNorm",
+      "path": "RMSNorm.md"
+    },
+    {
+      "basename": "Natural Instructions",
+      "path": "Natural Instructions.md"
+    },
+    {
+      "basename": "MS MARCO",
+      "path": "MS MARCO.md"
+    },
+    {
+      "basename": "TL;DR",
+      "path": "TL;DR.md"
+    },
+    {
+      "basename": "LoTTE",
+      "path": "LoTTE.md"
+    },
+    {
+      "basename": "TRL",
+      "path": "TRL.md"
+    },
+    {
+      "basename": "CCNet",
+      "path": "CCNet.md"
+    },
+    {
+      "basename": "fastText",
+      "path": "fastText.md"
+    },
+    {
+      "basename": "Recurrent Neural Network",
+      "path": "Recurrent Neural Network.md"
+    },
+    {
+      "basename": "SPIN",
+      "path": "SPIN.md"
+    },
+    {
+      "basename": "lmg - LLM Training Guide (?) {Alpin}",
+      "path": "Articles/lmg - LLM Training Guide (?) {Alpin}.md"
+    },
+    {
+      "basename": "L2 Regularization",
+      "path": "L2 Regularization.md"
+    },
+    {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
+    },
+    {
+      "basename": "DAWNBench",
+      "path": "DAWNBench.md"
+    },
+    {
+      "basename": "The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
+    },
+    {
+      "basename": "Speculative Sampling",
+      "path": "Speculative Sampling.md"
+    },
+    {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
     },
     {
       "basename": "Falcon 2",
       "path": "Falcon 2.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "OpenELM",
@@ -91,114 +199,6 @@
     {
       "basename": "Magicoder",
       "path": "Magicoder.md"
-    },
-    {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "LaMini-LM",
-      "path": "LaMini-LM.md"
-    },
-    {
-      "basename": "OpenLLM Leaderboard",
-      "path": "OpenLLM Leaderboard.md"
-    },
-    {
-      "basename": "Contrastive Captioner",
-      "path": "Contrastive Captioner.md"
-    },
-    {
-      "basename": "Starling",
-      "path": "Starling.md"
-    },
-    {
-      "basename": "Self-Reward",
-      "path": "Self-Reward.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "Orca",
-      "path": "Orca.md"
-    },
-    {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
-    },
-    {
-      "basename": "Web Rephrase Augmented Pre-training",
-      "path": "Web Rephrase Augmented Pre-training.md"
-    },
-    {
-      "basename": "Longform",
-      "path": "Longform.md"
-    },
-    {
-      "basename": "Unnatural Instructions",
-      "path": "Unnatural Instructions.md"
-    },
-    {
-      "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
-      "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
-    },
-    {
-      "basename": "Self-Play",
-      "path": "Self-Play.md"
-    },
-    {
-      "basename": "Feedback Collection",
-      "path": "Feedback Collection.md"
-    },
-    {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
-    },
-    {
-      "basename": "Vicuna",
-      "path": "Vicuna.md"
-    },
-    {
-      "basename": "Capybara Dataset",
-      "path": "Capybara Dataset.md"
-    },
-    {
-      "basename": "Airoboros",
-      "path": "Airoboros.md"
-    },
-    {
-      "basename": "Capybara",
-      "path": "Capybara.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "CS25 V4 Lecture 3",
-      "path": "Courses/CS25/CS25 V4 Lecture 3.md"
-    },
-    {
-      "basename": "IR System Index",
-      "path": "Indices/IR System Index.md"
-    },
-    {
-      "basename": "Critic Model Index",
-      "path": "Indices/Critic Model Index.md"
-    },
-    {
-      "basename": "Guardrail Index",
-      "path": "Indices/Guardrail Index.md"
     }
   ],
   "omittedPaths": [],

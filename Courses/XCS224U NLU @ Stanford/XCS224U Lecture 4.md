@@ -384,7 +384,7 @@ Advances around making systems more efficient and more multilingual
 ### BEIR ("Beer"): Benchmarking IR
 - [[BEIR]] is about doing diverse, zero-shot evaluations across IR models, across a bunch of different domain and task settings.
 
-### [[LoTTe]]: Long-Tail, Topic-stratified Evaluation
+### [[LoTTE]]: Long-Tail, Topic-stratified Evaluation
 - The idea here is to rely on StackExchange to explore complicated, diverse questions.
 - Meant for zero-shot evaluation; We released the dataset with topic-aligned dev-test pairings; You can do some development work with the dev, and try to transfer performance into the comparable test set.
 - Subpart oriented around the things you see in web search, and a subpart more oriented to forum queries (eg StackExchange)

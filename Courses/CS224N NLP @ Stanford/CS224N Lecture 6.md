@@ -16,7 +16,7 @@ Overview:
 - Last lecture we learned:
 	- Language models
 	- [[N-Gram]] language models
-	- Recurrent Neural Networks ([[Recurrent Neural Networks|RNN]]s)
+	- Recurrent Neural Networks ([[Recurrent Neural Network|RNN]]s)
 
 Today:
 - Training RNNs

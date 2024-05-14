@@ -1,1 +1,0 @@
-Also known as [[L2 Regularization]]

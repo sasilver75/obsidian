@@ -10,7 +10,7 @@ Eugene wrote this to organize his thoughts, compare papers, and sort them chrono
 He's writing the summary in broad strokes, seeing how NLP has progressed from 1985 till now:
 
 1. Sequential Models
-	- [[Recurrent Neural Networks|RNN]]
+	- [[Recurrent Neural Network|RNN]]
 	- [[Long Short Term Memory|LSTM]]
 	- [[Gated Recurrent Unit|GRU]]
 2. Word embeddings
@@ -38,7 +38,7 @@ He's writing the summary in broad strokes, seeing how NLP has progressed from 19
 
 
 # (1) Sequential models to process a sentence (1985)
-- [[Recurrent Neural Networks]] ==differ from feedforward neural nets in that their hidden layers have connections to themselves, allowing them to operate over sequences with *something* like memory (hidden state).==
+- [[Recurrent Neural Network]] ==differ from feedforward neural nets in that their hidden layers have connections to themselves, allowing them to operate over sequences with *something* like memory (hidden state).==
 - The state of the hidden layer at one time-step is used as *input* to (the same) hidden layer at the *next* timestep, which is where the name *recurrent* comes from.
 	- This allows the hidden information to learn information about the temporal relationships between the tokens in the sequence.
 	- See more in Andrej Karpathy's excellent post on [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
