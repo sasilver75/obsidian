@@ -255,6 +255,32 @@
             }
           },
           {
+            "id": "73081e5c7304c049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "130982efd595cab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "248da3a323190c85",
             "type": "leaf",
             "state": {
@@ -359,7 +385,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -435,7 +461,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weak Supervision.md",
+                "file": "Self-Distillation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -452,7 +478,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weak Supervision.md",
+                "file": "Self-Distillation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -475,7 +501,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weak Supervision.md"
+                "file": "Self-Distillation.md"
               }
             }
           },
@@ -500,7 +526,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Weak Supervision.md",
+                "file": "Self-Distillation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -546,10 +572,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d99773b82e348391",
+  "active": "130982efd595cab1",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
     "Semi-Supervised Learning.md",
+    "Self-Distillation.md",
+    "~ Vocabulary.md",
+    "Weak Supervision.md",
     "Self-Supervised Learning.md",
     "Unsupervised Learning.md",
     "Supervised Learning.md",
@@ -562,7 +590,6 @@
     "Quantization.md",
     "Out-of-Vocabulary Token.md",
     "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "Weak Supervision.md",
     "Self-Ask.md",
     "Chain of Thought.md",
     "Self-RAG.md",
@@ -573,7 +600,6 @@
     "Bloom Filter.md",
     "Courses/CS224N NLP @ Stanford/CS224N Lecture 11.md",
     "Exposure Bias.md",
-    "Teacher Forcing.md",
     "_attachments/Pasted image 20240514011212.png",
     "_attachments/Pasted image 20240513151651.png",
     "_attachments/Pasted image 20240513151622.png",

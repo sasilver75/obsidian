@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Weak Supervision",
-      "path": "Weak Supervision.md"
+      "basename": "Self-Distillation",
+      "path": "Self-Distillation.md"
+    },
+    {
+      "basename": "Semi-Supervised Learning",
+      "path": "Semi-Supervised Learning.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Semi-Supervised Learning",
-      "path": "Semi-Supervised Learning.md"
+      "basename": "Weak Supervision",
+      "path": "Weak Supervision.md"
     },
     {
       "basename": "Self-Supervised Learning",
@@ -195,10 +199,6 @@
     {
       "basename": "Evol-Amplify",
       "path": "Evol-Amplify.md"
-    },
-    {
-      "basename": "RMSNorm",
-      "path": "RMSNorm.md"
     }
   ],
   "omittedPaths": [],
