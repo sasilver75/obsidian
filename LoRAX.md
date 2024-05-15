@@ -5,8 +5,8 @@ aliases:
 Link: https://github.com/predibase/lorax
 
 A open-source framework that allows users to serve thousands of fine-tuned models on a single GPU, dramatically reducing the cost of serving without compromising on throughput or latency.
-- Dynamic adapter loading
-	- Include any fine-tuned LoRA adapter in your request, and it's loaded just-in-time without blocking concurrent requests.
+- ==Dynamic adapter loading==
+	- Include any fine-tuned ==LoRA adapter== in your request, and it's ==loaded just-in-time without blocking concurrent requests==.
 - Heterogenous Continuous Batching
 	- Pack requests for different adapters together into the same batch, keeping latency and throughput nearly constant with the number of concurrent adapters.
 - Adapter Exchange Scheduling
