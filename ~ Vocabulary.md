@@ -65,6 +65,7 @@
 - [[Graph Neural Network]]
 - [[Long Short Term Memory]] (LSTM)
 - [[Gradient Clipping]]
+- [[Data Augmentation]]
 - [[Gradual Unfreezing]]
 - [[Discriminative Learning Rate]]
 - [[Gated Recurrent Unit]] (GRU)

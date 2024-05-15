@@ -1,32 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "Self-Distillation",
-      "path": "Self-Distillation.md"
-    },
-    {
-      "basename": "Semi-Supervised Learning",
-      "path": "Semi-Supervised Learning.md"
+      "basename": "Data Augmentation",
+      "path": "Data Augmentation.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Classification",
+      "path": "Classification.md"
+    },
+    {
+      "basename": "Overfitting",
+      "path": "Overfitting.md"
+    },
+    {
+      "basename": "Hallucination",
+      "path": "Hallucination.md"
+    },
+    {
+      "basename": "Dropout",
+      "path": "Dropout.md"
+    },
+    {
+      "basename": "Pairwise Cringe Optimization",
+      "path": "Pairwise Cringe Optimization.md"
+    },
+    {
+      "basename": "Multi-Hop",
+      "path": "Multi-Hop.md"
+    },
+    {
+      "basename": "LLM-as-a-Judge",
+      "path": "LLM-as-a-Judge.md"
+    },
+    {
+      "basename": "Self-RAG",
+      "path": "Self-RAG.md"
+    },
+    {
+      "basename": "Chain of Thought",
+      "path": "Chain of Thought.md"
+    },
+    {
+      "basename": "Self-Ask",
+      "path": "Self-Ask.md"
+    },
+    {
       "basename": "Weak Supervision",
       "path": "Weak Supervision.md"
     },
     {
-      "basename": "Self-Supervised Learning",
-      "path": "Self-Supervised Learning.md"
+      "basename": "Semi-Supervised Learning",
+      "path": "Semi-Supervised Learning.md"
+    },
+    {
+      "basename": "Supervised Learning",
+      "path": "Supervised Learning.md"
+    },
+    {
+      "basename": "MinHash",
+      "path": "MinHash.md"
+    },
+    {
+      "basename": "Quantization",
+      "path": "Quantization.md"
+    },
+    {
+      "basename": "Greedy Decoding",
+      "path": "Greedy Decoding.md"
+    },
+    {
+      "basename": "Bidirectional Attention",
+      "path": "Bidirectional Attention.md"
     },
     {
       "basename": "Unsupervised Learning",
       "path": "Unsupervised Learning.md"
     },
     {
-      "basename": "Supervised Learning",
-      "path": "Supervised Learning.md"
+      "basename": "Latent Diffusion Model",
+      "path": "Latent Diffusion Model.md"
+    },
+    {
+      "basename": "Self-Distillation",
+      "path": "Self-Distillation.md"
+    },
+    {
+      "basename": "Self-Supervised Learning",
+      "path": "Self-Supervised Learning.md"
     },
     {
       "basename": "Dot Product",
@@ -41,56 +105,12 @@
       "path": "Spearman Correlation Coefficient.md"
     },
     {
-      "basename": "Latent Diffusion Model",
-      "path": "Latent Diffusion Model.md"
-    },
-    {
-      "basename": "Bidirectional Attention",
-      "path": "Bidirectional Attention.md"
-    },
-    {
-      "basename": "Greedy Decoding",
-      "path": "Greedy Decoding.md"
-    },
-    {
-      "basename": "Quantization",
-      "path": "Quantization.md"
-    },
-    {
       "basename": "Out-of-Vocabulary Token",
       "path": "Out-of-Vocabulary Token.md"
     },
     {
       "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
       "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
-    },
-    {
-      "basename": "Self-Ask",
-      "path": "Self-Ask.md"
-    },
-    {
-      "basename": "Chain of Thought",
-      "path": "Chain of Thought.md"
-    },
-    {
-      "basename": "Self-RAG",
-      "path": "Self-RAG.md"
-    },
-    {
-      "basename": "LLM-as-a-Judge",
-      "path": "LLM-as-a-Judge.md"
-    },
-    {
-      "basename": "Multi-Hop",
-      "path": "Multi-Hop.md"
-    },
-    {
-      "basename": "Pairwise Cringe Optimization",
-      "path": "Pairwise Cringe Optimization.md"
-    },
-    {
-      "basename": "MinHash",
-      "path": "MinHash.md"
     },
     {
       "basename": "Bloom Filter",
@@ -179,26 +199,6 @@
     {
       "basename": "SANTA",
       "path": "SANTA.md"
-    },
-    {
-      "basename": "CRAG",
-      "path": "CRAG.md"
-    },
-    {
-      "basename": "FLARE",
-      "path": "FLARE.md"
-    },
-    {
-      "basename": "REALM",
-      "path": "REALM.md"
-    },
-    {
-      "basename": "RETRO",
-      "path": "RETRO.md"
-    },
-    {
-      "basename": "Evol-Amplify",
-      "path": "Evol-Amplify.md"
     }
   ],
   "omittedPaths": [],
