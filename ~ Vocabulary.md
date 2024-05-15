@@ -22,6 +22,8 @@
 - [[Markov Chain]]
 - [[Markov Chain Monte Carlo]] (MCMC)
 - [[Importance Sampling]]
+- [[Pearson Correlation Coefficient]]
+- [[Spearman Correlation Coefficient]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -41,7 +43,6 @@
 - [[AUC]] (Area under Curve)
 - [[Principal Component Analysis]] (PCA)
 - [[Independent Component Analysis]] (ICA)
-- [[Spearman Correlation Coefficient]]
 - [[Bloom Filter]]
 - [[Count-Min Sketch]]
 - [[MinHash]]
@@ -93,7 +94,7 @@
 - [[Overfitting]]
 - [[Prompting]]
 - [[Prompt Tuning]]
-- [[Feed-Forward Network]]
+- [[Feed-Forward Network]] (FFNN)
 - [[Chain of Thought]] (CoT)
 - [[Chain of Note]] (CoN)
 - [[Catastrophic Forgetting]]
@@ -172,7 +173,7 @@
 - [[Particle Filters]] 
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]]
-- [[Tree of Thought]]
+- [[Tree of Thought]] (ToT)
 - [[VLM]] 
 - [[Speculative Decoding]]
 - [[Speculative Sampling]]
@@ -239,7 +240,13 @@
 - [[Retrieval-Augmented Generation]] (RAG)
 - [[CRAG|Corrective Retrieval Augmented Generation]] (CRAG)
 - [[Instruction Backtranslation]]
+- [[CRINGE Loss]]
 - [[Pairwise Cringe Optimization]] (PCO)
+- [[Maximum Inner Product Search]] (MIPS)
+- [[Reinforced Self-Training]] (ReST)
+- [[Shepherd]]
+- [[Prometheus]]
+- [[Prometheus 2]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -275,11 +282,6 @@
 - [[Return Set]]
 - [[Relevance Set]]
 - [[Average Precision]]
-- [[Maximum Inner Product Search]] (MIPS)
-- [[Reinforced Self-Training]] (ReST)
-- [[Shepherd]]
-- [[Prometheus]]
-- [[Prometheus 2]]
 
 # Natural Language Processing Concepts
 - Tasks
@@ -557,6 +559,7 @@
 - [[Safetensors]]
 - [[llama.cpp]]
 - [[fastText]]
+- [[Trafilatura]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)
@@ -670,6 +673,7 @@
 - [[Machine Intelligence Research Institute]] (MIRI)  🔥
 - [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)  🤖
 - [[MosaicML]]  🌭
+- [[IBM]] 🤡
 - [[DataBricks]]  🧱
 - [[Nous Research]] 🛠️
 - [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST) 🇰🇷

@@ -1,12 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "Distilabel",
-      "path": "Distilabel.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
+      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
+    },
+    {
+      "basename": "Semi-Supervised Learning",
+      "path": "Semi-Supervised Learning.md"
+    },
+    {
+      "basename": "Weak Supervision",
+      "path": "Weak Supervision.md"
+    },
+    {
+      "basename": "Self-Ask",
+      "path": "Self-Ask.md"
+    },
+    {
+      "basename": "Chain of Thought",
+      "path": "Chain of Thought.md"
+    },
+    {
+      "basename": "Self-RAG",
+      "path": "Self-RAG.md"
+    },
+    {
+      "basename": "LLM-as-a-Judge",
+      "path": "LLM-as-a-Judge.md"
+    },
+    {
+      "basename": "Multi-Hop",
+      "path": "Multi-Hop.md"
+    },
+    {
+      "basename": "Pairwise Cringe Optimization",
+      "path": "Pairwise Cringe Optimization.md"
+    },
+    {
+      "basename": "MinHash",
+      "path": "MinHash.md"
+    },
+    {
+      "basename": "Bloom Filter",
+      "path": "Bloom Filter.md"
+    },
+    {
+      "basename": "CS224N Lecture 11",
+      "path": "Courses/CS224N NLP @ Stanford/CS224N Lecture 11.md"
+    },
+    {
+      "basename": "Pearson Correlation Coefficient",
+      "path": "Pearson Correlation Coefficient.md"
+    },
+    {
+      "basename": "Spearman Correlation Coefficient",
+      "path": "Spearman Correlation Coefficient.md"
+    },
+    {
+      "basename": "Exposure Bias",
+      "path": "Exposure Bias.md"
+    },
+    {
+      "basename": "Teacher Forcing",
+      "path": "Teacher Forcing.md"
+    },
+    {
+      "basename": "Return Set",
+      "path": "Return Set.md"
+    },
+    {
+      "basename": "Feed-Forward Network",
+      "path": "Feed-Forward Network.md"
+    },
+    {
+      "basename": "Pre-training",
+      "path": "Pre-training.md"
+    },
+    {
+      "basename": "CRINGE Loss",
+      "path": "CRINGE Loss.md"
+    },
+    {
+      "basename": "Weight-Decomposed Low-Rank Adaptation",
+      "path": "Weight-Decomposed Low-Rank Adaptation.md"
+    },
+    {
+      "basename": "Tree of Thought",
+      "path": "Tree of Thought.md"
+    },
+    {
+      "basename": "Chain of Note",
+      "path": "Chain of Note.md"
+    },
+    {
+      "basename": "Axolotl",
+      "path": "Axolotl.md"
+    },
+    {
+      "basename": "Eleuther LM Evaluation Harness",
+      "path": "Eleuther LM Evaluation Harness.md"
+    },
+    {
+      "basename": "LoRAX",
+      "path": "LoRAX.md"
+    },
+    {
+      "basename": "Airoboros",
+      "path": "Airoboros.md"
+    },
+    {
+      "basename": "Distilabel",
+      "path": "Distilabel.md"
     },
     {
       "basename": "ClueWeb22",
@@ -15,6 +123,14 @@
     {
       "basename": "MS MARCO Web Search",
       "path": "MS MARCO Web Search.md"
+    },
+    {
+      "basename": "Datatrove",
+      "path": "Datatrove.md"
+    },
+    {
+      "basename": "Trafilatura",
+      "path": "Trafilatura.md"
     },
     {
       "basename": "DRAGON",
@@ -83,122 +199,6 @@
     {
       "basename": "SPIN",
       "path": "SPIN.md"
-    },
-    {
-      "basename": "lmg - LLM Training Guide (?) {Alpin}",
-      "path": "Articles/lmg - LLM Training Guide (?) {Alpin}.md"
-    },
-    {
-      "basename": "L2 Regularization",
-      "path": "L2 Regularization.md"
-    },
-    {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "DAWNBench",
-      "path": "DAWNBench.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Speculative Decoding",
-      "path": "Speculative Decoding.md"
-    },
-    {
-      "basename": "Speculative Sampling",
-      "path": "Speculative Sampling.md"
-    },
-    {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Falcon 2",
-      "path": "Falcon 2.md"
-    },
-    {
-      "basename": "OpenELM",
-      "path": "OpenELM.md"
-    },
-    {
-      "basename": "Humpback",
-      "path": "Humpback.md"
-    },
-    {
-      "basename": "WaveCoder",
-      "path": "WaveCoder.md"
-    },
-    {
-      "basename": "Prometheus 2",
-      "path": "Prometheus 2.md"
-    },
-    {
-      "basename": "Prometheus",
-      "path": "Prometheus.md"
-    },
-    {
-      "basename": "MT-Bench",
-      "path": "MT-Bench.md"
-    },
-    {
-      "basename": "GSM8K",
-      "path": "GSM8K.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}",
-      "path": "Articles/How good at the latest Open LLMs? And is DPO better than PPO? (May 12, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "LLaMA 3",
-      "path": "LLaMA 3.md"
-    },
-    {
-      "basename": "Weight-Decomposed Low-Rank Adaptation",
-      "path": "Weight-Decomposed Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "ChatBotArena",
-      "path": "ChatBotArena.md"
-    },
-    {
-      "basename": "Recommendation Systems",
-      "path": "Recommendation Systems.md"
-    },
-    {
-      "basename": "Tiktoken",
-      "path": "Tiktoken.md"
-    },
-    {
-      "basename": "OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}",
-      "path": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md"
-    },
-    {
-      "basename": "ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}",
-      "path": "Articles/ChatBotArena - The Peple's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Synthetic Data Index",
-      "path": "Indices/Synthetic Data Index.md"
-    },
-    {
-      "basename": "Reinforced Self-Training",
-      "path": "Reinforced Self-Training.md"
-    },
-    {
-      "basename": "Magicoder",
-      "path": "Magicoder.md"
     }
   ],
   "omittedPaths": [],
