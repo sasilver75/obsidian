@@ -49,6 +49,7 @@
 - [[Monte-Carlo Tree Search]]
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
+- [[K-Means Clustering]]
 - [[Gradient Boosting Machine]] (GBM)
 - [[Classification]]
 - [[Collaborative Filtering]]
@@ -89,8 +90,6 @@
 - [[Softmax]]
 - [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
 - [[SwiGLU]] (Swish + GLU)
-- [[Supervised Learning]]
-- [[Unsupervised Learning]]
 - [[Overfitting]]
 - [[Prompting]]
 - [[Prompt Tuning]]
