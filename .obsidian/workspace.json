@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pairwise Cringe Optimization.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "78b82a972b407795",
+            "id": "e6dd506675197d58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pairwise Cringe Optimization.md",
+                "file": "Classification.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,124 +34,7 @@
             }
           },
           {
-            "id": "e68accee5c009647",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-Hop.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d83cb5c199dac4bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM-as-a-Judge.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc4f25f093b8bbcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-RAG.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4788b72159bfbc90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chain of Thought.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85972be3de2e01e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Ask.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c52a16aa5d747c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weak Supervision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f6d291969278559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weak Supervision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9a7dd0e247163a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semi-Supervised Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcf72e7960a6f02e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96afcbe5d8de3a47",
+            "id": "524d7157d21249d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,220 +47,12 @@
             }
           },
           {
-            "id": "9270e442cee12b84",
+            "id": "d937056b395cb73d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quantization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b1a1a3ccecdd118",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Greedy Decoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2f93d3b2f05b680",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bidirectional Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ac4312825ac7839",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Latent Diffusion Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85dc87431ec4ccf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spearman Correlation Coefficient.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "deb7f01c1a8e5e16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c936ea0eb89720e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73081e5c7304c049",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "130982efd595cab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "248da3a323190c85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unsupervised Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71f51cab99a23614",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34643ca17999d59c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semi-Supervised Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d99773b82e348391",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weak Supervision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63c44dfacbde215a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Supervised Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b3a1e3fef5044ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52be98c174d459e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MinHash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2e189a603aaff11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-Hop.md",
+                "file": "Data Augmentation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -385,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -461,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Distillation.md",
+                "file": "Data Augmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -478,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Distillation.md",
+                "file": "Data Augmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -501,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Distillation.md"
+                "file": "Data Augmentation.md"
               }
             }
           },
@@ -526,7 +201,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Distillation.md",
+                "file": "Data Augmentation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -572,34 +247,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "130982efd595cab1",
+  "active": "d937056b395cb73d",
   "lastOpenFiles": [
-    "Semi-Supervised Learning.md",
-    "Self-Distillation.md",
     "~ Vocabulary.md",
+    "Data Augmentation.md",
+    "Classification.md",
+    "Overfitting.md",
+    "Hallucination.md",
+    "Dropout.md",
+    "Pairwise Cringe Optimization.md",
+    "Multi-Hop.md",
+    "LLM-as-a-Judge.md",
+    "Self-RAG.md",
+    "Chain of Thought.md",
+    "Self-Ask.md",
     "Weak Supervision.md",
-    "Self-Supervised Learning.md",
-    "Unsupervised Learning.md",
+    "Semi-Supervised Learning.md",
     "Supervised Learning.md",
+    "MinHash.md",
+    "Quantization.md",
+    "Greedy Decoding.md",
+    "Bidirectional Attention.md",
+    "Unsupervised Learning.md",
+    "Latent Diffusion Model.md",
+    "Self-Distillation.md",
+    "Self-Supervised Learning.md",
     "Dot Product.md",
     "Pearson Correlation Coefficient.md",
     "Spearman Correlation Coefficient.md",
-    "Latent Diffusion Model.md",
-    "Bidirectional Attention.md",
-    "Greedy Decoding.md",
-    "Quantization.md",
-    "Out-of-Vocabulary Token.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "Self-Ask.md",
-    "Chain of Thought.md",
-    "Self-RAG.md",
-    "LLM-as-a-Judge.md",
-    "Multi-Hop.md",
-    "Pairwise Cringe Optimization.md",
-    "MinHash.md",
-    "Bloom Filter.md",
-    "Courses/CS224N NLP @ Stanford/CS224N Lecture 11.md",
-    "Exposure Bias.md",
     "_attachments/Pasted image 20240514011212.png",
     "_attachments/Pasted image 20240513151651.png",
     "_attachments/Pasted image 20240513151622.png",
