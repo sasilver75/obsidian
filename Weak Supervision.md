@@ -1,3 +1,4 @@
+See also: [[Supervised Learning]]
 A technique where training data is labeled with noisy, imprecise, or incomplete labels, rather than fully-accurate labels.
 
 This is often used when obtaining fully-labeled data is expensive, time-consuming, or impractical.

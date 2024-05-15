@@ -1,20 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Weak Supervision",
+      "path": "Weak Supervision.md"
     },
     {
-      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
-      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Semi-Supervised Learning",
       "path": "Semi-Supervised Learning.md"
     },
     {
-      "basename": "Weak Supervision",
-      "path": "Weak Supervision.md"
+      "basename": "Self-Supervised Learning",
+      "path": "Self-Supervised Learning.md"
+    },
+    {
+      "basename": "Unsupervised Learning",
+      "path": "Unsupervised Learning.md"
+    },
+    {
+      "basename": "Supervised Learning",
+      "path": "Supervised Learning.md"
+    },
+    {
+      "basename": "Dot Product",
+      "path": "Dot Product.md"
+    },
+    {
+      "basename": "Pearson Correlation Coefficient",
+      "path": "Pearson Correlation Coefficient.md"
+    },
+    {
+      "basename": "Spearman Correlation Coefficient",
+      "path": "Spearman Correlation Coefficient.md"
+    },
+    {
+      "basename": "Latent Diffusion Model",
+      "path": "Latent Diffusion Model.md"
+    },
+    {
+      "basename": "Bidirectional Attention",
+      "path": "Bidirectional Attention.md"
+    },
+    {
+      "basename": "Greedy Decoding",
+      "path": "Greedy Decoding.md"
+    },
+    {
+      "basename": "Quantization",
+      "path": "Quantization.md"
+    },
+    {
+      "basename": "Out-of-Vocabulary Token",
+      "path": "Out-of-Vocabulary Token.md"
+    },
+    {
+      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
+      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
     },
     {
       "basename": "Self-Ask",
@@ -51,14 +95,6 @@
     {
       "basename": "CS224N Lecture 11",
       "path": "Courses/CS224N NLP @ Stanford/CS224N Lecture 11.md"
-    },
-    {
-      "basename": "Pearson Correlation Coefficient",
-      "path": "Pearson Correlation Coefficient.md"
-    },
-    {
-      "basename": "Spearman Correlation Coefficient",
-      "path": "Spearman Correlation Coefficient.md"
     },
     {
       "basename": "Exposure Bias",
@@ -163,42 +199,6 @@
     {
       "basename": "RMSNorm",
       "path": "RMSNorm.md"
-    },
-    {
-      "basename": "Natural Instructions",
-      "path": "Natural Instructions.md"
-    },
-    {
-      "basename": "MS MARCO",
-      "path": "MS MARCO.md"
-    },
-    {
-      "basename": "TL;DR",
-      "path": "TL;DR.md"
-    },
-    {
-      "basename": "LoTTE",
-      "path": "LoTTE.md"
-    },
-    {
-      "basename": "TRL",
-      "path": "TRL.md"
-    },
-    {
-      "basename": "CCNet",
-      "path": "CCNet.md"
-    },
-    {
-      "basename": "fastText",
-      "path": "fastText.md"
-    },
-    {
-      "basename": "Recurrent Neural Network",
-      "path": "Recurrent Neural Network.md"
-    },
-    {
-      "basename": "SPIN",
-      "path": "SPIN.md"
     }
   ],
   "omittedPaths": [],
