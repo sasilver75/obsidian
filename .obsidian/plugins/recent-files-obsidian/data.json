@@ -5,10 +5,6 @@
       "path": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md"
     },
     {
-      "basename": "RAG Survey",
-      "path": "PaperClubs/LatentSpace/RAG Survey.md"
-    },
-    {
       "basename": "Retrieval-Augmented Generation for AI-Generated Content - A Survey",
       "path": "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md"
     },
@@ -19,6 +15,22 @@
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "IRCoT",
+      "path": "IRCoT.md"
+    },
+    {
+      "basename": "Tree of Clarification",
+      "path": "Tree of Clarification.md"
+    },
+    {
+      "basename": "Iter-RetGen",
+      "path": "Iter-RetGen.md"
+    },
+    {
+      "basename": "RAG Survey",
+      "path": "PaperClubs/LatentSpace/RAG Survey.md"
     },
     {
       "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
@@ -187,14 +199,6 @@
     {
       "basename": "Axolotl",
       "path": "Axolotl.md"
-    },
-    {
-      "basename": "Eleuther LM Evaluation Harness",
-      "path": "Eleuther LM Evaluation Harness.md"
-    },
-    {
-      "basename": "LoRAX",
-      "path": "LoRAX.md"
     }
   ],
   "omittedPaths": [],
