@@ -1,1 +1,1 @@
-A technique used in ML to increase the size and diversity of the training est
+A technique used in ML to increase the size and diversity of the training dataset by creating modified versions (eg translated, rephrased, rotated, fuzzed, inverted) of the training data. Increases the robustness of models, assuming that the modified data reflects possible realities and still results in the same label.
