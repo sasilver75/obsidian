@@ -179,10 +179,15 @@ Notes:
 - Evaluation Aspects
 	- ==Contemporary evaluation practices of RAG models emphasize three primary quality scores and four essential abilities.==, which collectively inform the evaluation of the two principal targets of the RAG model: retrieval and generation.
 	1. Quality Scores
-		- Context Relevance: Evaluates the precision/specificity of retrieved context, ensuring ...
-		- Answer Faithfulness
-		- Answer Relevance
-	1. Required Abilities
+		- ==Context Relevance==: Evaluates the precision/specificity of retrieved context, ensuring relevance and minimizing processing cost associated with extraneous content.
+		- ==Answer Faithfulness==: Ensures generated answers remain true to the retrieved context, maintaining consistency and avoiding contradictions.
+		- ==Answer Relevance==: Requires that the generated answers are directly pertinent to the posed questions, effectively addressing the core inquiry.
+	2. Required Abilities
+		- ==Noise Robustness==: Appraises the model's capabilities to manage noisy documents that are question-related but lack substantive information. *How well can you ignore shitty documents?*
+		- ==Negative Rejection==: Assesses the model's discernment in refraining from responding when retrieved documents don't contain necessary information to answer a question. *Can you not respond if you don't have the information to?*
+		- ==Information Integration==: Evaluates the model's proficiency in synthesizing information from multiple documents to address complex questions. *Can you synthesize an answer from disparate documents?*
+		- ==Counterfactual Robustness==: Tests the model's ability to recognize and disregard known inaccuracies within documents, even when instructed about potential misinformation. *Can you ignore known, incorrect information in the documents you're given?*
+	- 
 
 
 # Paper Figures
@@ -202,3 +207,5 @@ Above: Showcases Iterative retrieval, Recursive retrieval, and Adaptive retrieva
 - Iterative: Involves alternating between retrieval and generation
 - Recursive: Involves gradually refining the user query and breaking the problem into subproblems, then continuously solving complex problems through retrieval and generation.
 - Adaptive: Focuses on enabling the RAG system to autonomously determine determine whether external knowledge retrieval is necessary and when to stop retrieval and generation, often utilizing LLM-generated special tokens for control.
+
+![[Pasted image 20240516011314.png]]

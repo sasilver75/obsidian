@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md",
+                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md",
+                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md",
+                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md"
+                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md",
+                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -260,10 +260,13 @@
   },
   "active": "6fd272a9699987ac",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240516011314.png",
+    "Question Answering.md",
+    "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+    "_attachments/Pasted image 20240516011211.png",
     "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md",
     "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
     "~ Vocabulary.md",
-    "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md",
     "IRCoT.md",
     "Tree of Clarification.md",
     "_attachments/Pasted image 20240516000350.png",
@@ -288,14 +291,11 @@
     "Chain of Thought.md",
     "Self-Ask.md",
     "Weak Supervision.md",
-    "Semi-Supervised Learning.md",
-    "Supervised Learning.md",
     "_attachments/Pasted image 20240514011212.png",
     "_attachments/Pasted image 20240513151651.png",
     "_attachments/Pasted image 20240513151622.png",
     "_attachments/Pasted image 20240513150845.png",
     "_attachments/Pasted image 20240513144835.png",
-    "_attachments/Pasted image 20240513144602.png",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
