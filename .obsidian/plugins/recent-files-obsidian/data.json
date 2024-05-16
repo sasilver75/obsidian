@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Data Augmentation",
-      "path": "Data Augmentation.md"
+      "basename": "Retrieval-Augmented Generation for Large Language Models -A Survey",
+      "path": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md"
+    },
+    {
+      "basename": "RAG Survey",
+      "path": "PaperClubs/LatentSpace/RAG Survey.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation for AI-Generated Content - A Survey",
+      "path": "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md"
+    },
+    {
+      "basename": "RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing",
+      "path": "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
+      "path": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
+    },
+    {
       "basename": "Classification",
       "path": "Classification.md"
+    },
+    {
+      "basename": "The Bitter Lesson Paper",
+      "path": "Papers/The Bitter Lesson Paper.md"
+    },
+    {
+      "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
+      "path": "Papers/Understanding Deep Learning requires Rethinking Generalization Paper.md"
+    },
+    {
+      "basename": "Data Augmentation",
+      "path": "Data Augmentation.md"
     },
     {
       "basename": "Overfitting",
@@ -167,38 +195,6 @@
     {
       "basename": "LoRAX",
       "path": "LoRAX.md"
-    },
-    {
-      "basename": "Airoboros",
-      "path": "Airoboros.md"
-    },
-    {
-      "basename": "Distilabel",
-      "path": "Distilabel.md"
-    },
-    {
-      "basename": "ClueWeb22",
-      "path": "ClueWeb22.md"
-    },
-    {
-      "basename": "MS MARCO Web Search",
-      "path": "MS MARCO Web Search.md"
-    },
-    {
-      "basename": "Datatrove",
-      "path": "Datatrove.md"
-    },
-    {
-      "basename": "Trafilatura",
-      "path": "Trafilatura.md"
-    },
-    {
-      "basename": "DRAGON",
-      "path": "DRAGON.md"
-    },
-    {
-      "basename": "SANTA",
-      "path": "SANTA.md"
     }
   ],
   "omittedPaths": [],
