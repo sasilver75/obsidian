@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Retrieval-Augmented Generation for Large Language Models -A Survey",
-      "path": "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md"
+      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
+      "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+    },
+    {
+      "basename": "Question Answering",
+      "path": "Question Answering.md"
     },
     {
       "basename": "Retrieval-Augmented Generation for AI-Generated Content - A Survey",
@@ -195,10 +199,6 @@
     {
       "basename": "Chain of Note",
       "path": "Chain of Note.md"
-    },
-    {
-      "basename": "Axolotl",
-      "path": "Axolotl.md"
     }
   ],
   "omittedPaths": [],
