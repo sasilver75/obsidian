@@ -263,6 +263,7 @@
 - [[Discounted Cumulative Gain]]
 - [[Cross-Encoder]]
 - [[HyDE]]
+- [[Reverse HyDE]]
 - [[Approximate Nearest Neighbor Search]]
 - [[Late Interaction]]
 - [[SPLADE]]
@@ -282,6 +283,16 @@
 - [[Return Set]]
 - [[Relevance Set]]
 - [[Average Precision]]
+- [[Promptagator]]
+- [[Iterative Retrieval]]
+- [[Recursive Retrieval]]
+- [[Adaptive Retrieval]]
+- [[Context Compression]]
+- [[Query Expansion]]
+- [[Iter-RetGen]]
+- [[Tree of Clarification]]
+- [[IRCoT]]
+- Generate-Read, Recite-Read, Rewrite-Retrieve-Read, ...
 
 # Natural Language Processing Concepts
 - Tasks
@@ -318,6 +329,7 @@
 - [[Self-Reward]]
 - [[Constitutional AI]]
 - [[Zero-Shot Prompting]]
+- [[Step-Back Prompting]]
 - [[Masked Language Model]]
 - [[U-Net]]
 - [[Matryoshka Representation Learning]]

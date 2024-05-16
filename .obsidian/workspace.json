@@ -45,6 +45,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e9021b8252222d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f4873e2ec9b890c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tree of Clarification.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -234,13 +260,18 @@
   },
   "active": "6fd272a9699987ac",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240515213042.png",
-    "PaperClubs/LatentSpace/RAG Survey.md",
-    "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md",
-    "_attachments/Pasted image 20240515211757.png",
     "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md",
     "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
     "~ Vocabulary.md",
+    "Papers/Retrieval-Augmented Generation for Large Language Models -A Survey.md",
+    "IRCoT.md",
+    "Tree of Clarification.md",
+    "_attachments/Pasted image 20240516000350.png",
+    "Iter-RetGen.md",
+    "_attachments/Pasted image 20240515214835.png",
+    "_attachments/Pasted image 20240515213042.png",
+    "PaperClubs/LatentSpace/RAG Survey.md",
+    "_attachments/Pasted image 20240515211757.png",
     "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
     "Classification.md",
     "Papers/RAG Survey.md",
@@ -259,17 +290,12 @@
     "Weak Supervision.md",
     "Semi-Supervised Learning.md",
     "Supervised Learning.md",
-    "MinHash.md",
-    "Quantization.md",
     "_attachments/Pasted image 20240514011212.png",
     "_attachments/Pasted image 20240513151651.png",
     "_attachments/Pasted image 20240513151622.png",
     "_attachments/Pasted image 20240513150845.png",
     "_attachments/Pasted image 20240513144835.png",
     "_attachments/Pasted image 20240513144602.png",
-    "_attachments/Pasted image 20240513144438.png",
-    "_attachments/Pasted image 20240513144434.png",
-    "_attachments/Pasted image 20240513144245.png",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
