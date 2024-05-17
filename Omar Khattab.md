@@ -1,0 +1,1 @@
+PhD Student @ Stanford known mostly for [[ColBERT]] and [[DSPy]]
