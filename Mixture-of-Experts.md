@@ -8,6 +8,9 @@ Paper: [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Expert
 #zotero 
 Takeaway: They introduce an MoE layer to the stacked LSTM context, where an MoE layer consists of a gating network and a collection of experts. The gating network outputs a *sparse* vector, selecting k of the experts to activate during the forward pass for this token. There are some questions about how to balance the gating networks and how to distribute experts across machines.
 
+Notes:
+- When someone says "8x7B"
+
 ---
 
 Notes:

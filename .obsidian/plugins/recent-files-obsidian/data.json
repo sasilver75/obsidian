@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Prometheus 2",
+      "path": "Prometheus 2.md"
+    },
+    {
+      "basename": "Preference Collection",
+      "path": "Preference Collection.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
       "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+    },
+    {
+      "basename": "Mixture-of-Experts",
+      "path": "Mixture-of-Experts.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Question Answering",
@@ -15,10 +39,6 @@
     {
       "basename": "RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing",
       "path": "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "IRCoT",
@@ -179,26 +199,6 @@
     {
       "basename": "Feed-Forward Network",
       "path": "Feed-Forward Network.md"
-    },
-    {
-      "basename": "Pre-training",
-      "path": "Pre-training.md"
-    },
-    {
-      "basename": "CRINGE Loss",
-      "path": "CRINGE Loss.md"
-    },
-    {
-      "basename": "Weight-Decomposed Low-Rank Adaptation",
-      "path": "Weight-Decomposed Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Tree of Thought",
-      "path": "Tree of Thought.md"
-    },
-    {
-      "basename": "Chain of Note",
-      "path": "Chain of Note.md"
     }
   ],
   "omittedPaths": [],
