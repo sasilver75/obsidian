@@ -21,6 +21,97 @@
             }
           },
           {
+            "id": "a10f01c8deee7c30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prometheus 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83852024f92f6b32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preference Collection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dda96d921640fb4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Feedback Collection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "853e0fb69b5edef4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3eadcd9bfcde8d0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mixture-of-Experts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60e6a154277d31a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preference Collection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e97a4fb4dd4d75b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f749b50c6c031706",
             "type": "leaf",
             "state": {
@@ -72,7 +163,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+                "file": "Prometheus 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+                "file": "Prometheus 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+                "file": "Prometheus 2.md"
               }
             }
           },
@@ -212,7 +304,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+                "file": "Prometheus 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -258,23 +350,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6fd272a9699987ac",
+  "active": "a10f01c8deee7c30",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240516233044.png",
+    "_attachments/Pasted image 20240516230931.png",
+    "_attachments/Pasted image 20240516224400.png",
+    "Preference Collection.md",
+    "Feedback Collection.md",
+    "_attachments/Pasted image 20240516224354.png",
+    "_attachments/Pasted image 20240516224351.png",
+    "Prometheus 2.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240516223002.png",
+    "_attachments/Pasted image 20240516222704.png",
+    "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+    "Mixture-of-Experts.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240516214857.png",
     "_attachments/Pasted image 20240516011314.png",
     "Question Answering.md",
-    "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
     "_attachments/Pasted image 20240516011211.png",
     "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md",
     "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
-    "~ Vocabulary.md",
     "IRCoT.md",
     "Tree of Clarification.md",
     "_attachments/Pasted image 20240516000350.png",
     "Iter-RetGen.md",
-    "_attachments/Pasted image 20240515214835.png",
-    "_attachments/Pasted image 20240515213042.png",
     "PaperClubs/LatentSpace/RAG Survey.md",
-    "_attachments/Pasted image 20240515211757.png",
     "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
     "Classification.md",
     "Papers/RAG Survey.md",
@@ -286,16 +388,6 @@
     "Dropout.md",
     "Pairwise Cringe Optimization.md",
     "Multi-Hop.md",
-    "LLM-as-a-Judge.md",
-    "Self-RAG.md",
-    "Chain of Thought.md",
-    "Self-Ask.md",
-    "Weak Supervision.md",
-    "_attachments/Pasted image 20240514011212.png",
-    "_attachments/Pasted image 20240513151651.png",
-    "_attachments/Pasted image 20240513151622.png",
-    "_attachments/Pasted image 20240513150845.png",
-    "_attachments/Pasted image 20240513144835.png",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",

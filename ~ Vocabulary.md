@@ -653,6 +653,7 @@
 - [[LoTTE]] (Long-Tail Topic-stratified Evaluation)
 - [[Natural Questions]]
 - [[Feedback Collection]]
+- [[Preference Collection]]
 - [[Capybara Dataset]]
 - [[CCNet]] (Cluster-Coordinated Net)
 

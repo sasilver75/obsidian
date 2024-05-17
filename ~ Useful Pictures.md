@@ -252,3 +252,6 @@ A table of 40 hallucination-inducing questions from the [[LaMini-LM]] paper.
 
 ![[Pasted image 20240510233232.png]]
 Above: Some funny prompts that have been used on ChatBotArena
+
+![[Pasted image 20240516223002.png|300]]
+Above: Comparison of Pairwise Ranking and Direct Assessment tasks for LM evaluators
