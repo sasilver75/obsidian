@@ -1,52 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "Prometheus 2",
-      "path": "Prometheus 2.md"
+      "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
+      "path": "Papers/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
     },
     {
-      "basename": "Preference Collection",
-      "path": "Preference Collection.md"
-    },
-    {
-      "basename": "Feedback Collection",
-      "path": "Feedback Collection.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
-      "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
-    },
-    {
-      "basename": "Mixture-of-Experts",
-      "path": "Mixture-of-Experts.md"
+      "basename": "Weak Supervision",
+      "path": "Weak Supervision.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Question Answering",
-      "path": "Question Answering.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation for AI-Generated Content - A Survey",
-      "path": "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md"
+      "basename": "Tree of Clarification",
+      "path": "Tree of Clarification.md"
     },
     {
       "basename": "RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing",
       "path": "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md"
     },
     {
-      "basename": "IRCoT",
-      "path": "IRCoT.md"
+      "basename": "Retrieval-Augmented Generation for AI-Generated Content - A Survey",
+      "path": "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md"
     },
     {
-      "basename": "Tree of Clarification",
-      "path": "Tree of Clarification.md"
+      "basename": "Preference Collection",
+      "path": "Preference Collection.md"
+    },
+    {
+      "basename": "Mixture-of-Experts",
+      "path": "Mixture-of-Experts.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
+    },
+    {
+      "basename": "ColBERT",
+      "path": "ColBERT.md"
+    },
+    {
+      "basename": "Omar Khattab",
+      "path": "Omar Khattab.md"
+    },
+    {
+      "basename": "REALM",
+      "path": "REALM.md"
+    },
+    {
+      "basename": "Super-NaturalInstructions",
+      "path": "Super-NaturalInstructions.md"
+    },
+    {
+      "basename": "Cosmopedia",
+      "path": "Cosmopedia.md"
+    },
+    {
+      "basename": "Prometheus 2",
+      "path": "Prometheus 2.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
+      "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+    },
+    {
+      "basename": "Question Answering",
+      "path": "Question Answering.md"
+    },
+    {
+      "basename": "IRCoT",
+      "path": "IRCoT.md"
     },
     {
       "basename": "Iter-RetGen",
@@ -113,10 +141,6 @@
       "path": "Self-Ask.md"
     },
     {
-      "basename": "Weak Supervision",
-      "path": "Weak Supervision.md"
-    },
-    {
       "basename": "Semi-Supervised Learning",
       "path": "Semi-Supervised Learning.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
       "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
-    },
-    {
-      "basename": "Bloom Filter",
-      "path": "Bloom Filter.md"
-    },
-    {
-      "basename": "CS224N Lecture 11",
-      "path": "Courses/CS224N NLP @ Stanford/CS224N Lecture 11.md"
-    },
-    {
-      "basename": "Exposure Bias",
-      "path": "Exposure Bias.md"
-    },
-    {
-      "basename": "Teacher Forcing",
-      "path": "Teacher Forcing.md"
-    },
-    {
-      "basename": "Return Set",
-      "path": "Return Set.md"
-    },
-    {
-      "basename": "Feed-Forward Network",
-      "path": "Feed-Forward Network.md"
     }
   ],
   "omittedPaths": [],
