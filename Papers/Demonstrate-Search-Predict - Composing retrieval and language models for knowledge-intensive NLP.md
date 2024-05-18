@@ -2,7 +2,7 @@ Dec 28, 2022
 [[Omar Khattab]], Mattei Zaharia, [[Christopher Potts|Chris Potts]], [[Percy Liang]] et al.
 Paper: https://arxiv.org/abs/2212.14024
 #zotero 
-Takeaway: ...
+Takeaway: Introduces a set of reusable components to create natural language programs composed to demonstrate, search, and predict stages. Uses frozen LM and Retrieval Model. Results are good! This paper preceded the actual [[DSPy]] paper by 10 months, but the same authors.
 
 ---
 
