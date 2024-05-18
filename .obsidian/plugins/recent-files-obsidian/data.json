@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ColBERTv2",
+      "path": "ColBERTv2.md"
+    },
+    {
       "basename": "ColBERT",
       "path": "ColBERT.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Self-Supervised Learning",
       "path": "Self-Supervised Learning.md"
-    },
-    {
-      "basename": "Dot Product",
-      "path": "Dot Product.md"
     }
   ],
   "omittedPaths": [],
