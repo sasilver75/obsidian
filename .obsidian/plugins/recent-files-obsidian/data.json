@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "ColBERT",
+      "path": "ColBERT.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "ELMo",
+      "path": "ELMo.md"
+    },
+    {
+      "basename": "ColBERT-QA",
+      "path": "ColBERT-QA.md"
+    },
+    {
       "basename": "DSPy",
       "path": "DSPy.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
-      "path": "Papers/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
     },
     {
       "basename": "Weak Supervision",
       "path": "Weak Supervision.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
+      "path": "Papers/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
     },
     {
       "basename": "Tree of Clarification",
@@ -47,10 +59,6 @@
     {
       "basename": "Feedback Collection",
       "path": "Feedback Collection.md"
-    },
-    {
-      "basename": "ColBERT",
-      "path": "ColBERT.md"
     },
     {
       "basename": "Omar Khattab",
@@ -191,14 +199,6 @@
     {
       "basename": "Dot Product",
       "path": "Dot Product.md"
-    },
-    {
-      "basename": "Pearson Correlation Coefficient",
-      "path": "Pearson Correlation Coefficient.md"
-    },
-    {
-      "basename": "Spearman Correlation Coefficient",
-      "path": "Spearman Correlation Coefficient.md"
     }
   ],
   "omittedPaths": [],

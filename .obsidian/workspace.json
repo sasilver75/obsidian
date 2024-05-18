@@ -8,51 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e9021b8252222d9",
+            "id": "0e74b05e6320c43e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSPy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a1160662db52a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rejection Sampling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a108ec5f1e5e6dc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54e8b32e2e5b12f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weak Supervision.md",
+                "file": "ColBERT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSPy.md",
+                "file": "ColBERT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSPy.md",
+                "file": "ColBERT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSPy.md"
+                "file": "ColBERT.md"
               }
             }
           },
@@ -199,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "DSPy.md",
+                "file": "ColBERT.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -245,23 +207,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4e9021b8252222d9",
+  "active": "0e74b05e6320c43e",
   "lastOpenFiles": [
-    "Rejection Sampling.md",
+    "_attachments/Pasted image 20240517213218.png",
+    "_attachments/Pasted image 20240517181612.png",
+    "~ Vocabulary.md",
+    "ELMo.md",
+    "ColBERT.md",
+    "_attachments/Pasted image 20240517180611.png",
+    "ColBERT-QA.md",
     "DSPy.md",
+    "Weak Supervision.md",
+    "Papers/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md",
+    "Rejection Sampling.md",
     "_attachments/Pasted image 20240517171616.png",
     "_attachments/Pasted image 20240517171256.png",
     "_attachments/Pasted image 20240517165031.png",
     "_attachments/Pasted image 20240517163647.png",
-    "Papers/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md",
     "_attachments/Pasted image 20240517152535.png",
     "_attachments/Pasted image 20240517145710.png",
     "_attachments/Pasted image 20240517144737.png",
     "_attachments/Pasted image 20240517143138.png",
-    "_attachments/Pasted image 20240517143025.png",
-    "Weak Supervision.md",
-    "_attachments/Pasted image 20240517140321.png",
-    "~ Vocabulary.md",
     "Tree of Clarification.md",
     "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
     "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md",
@@ -269,7 +235,6 @@
     "Mixture-of-Experts.md",
     "~ Useful Pictures.md",
     "Feedback Collection.md",
-    "ColBERT.md",
     "Omar Khattab.md",
     "REALM.md",
     "Super-NaturalInstructions.md",
@@ -280,9 +245,6 @@
     "IRCoT.md",
     "Iter-RetGen.md",
     "PaperClubs/LatentSpace/RAG Survey.md",
-    "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
-    "Classification.md",
-    "Papers/RAG Survey.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",

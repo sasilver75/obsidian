@@ -2,7 +2,7 @@ October 5, 2023 (10 months after the OG Demonstrate Search Predict paper)
 [[Omar Khattab]], Mattei Zaharia, [[Christopher Potts|Chris Potts]], et al. (Primarily Stanford)
 Paper: [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](https://arxiv.org/abs/2310.03714)
 #zotero 
-Takeaway: ...
+Takeaway: DSPy is a new programming model for designing AI systems using pipelines of pretrained LMs and other tools to create text transformation graphs. Abstractions include signatures, modules, and teleprompters.
 
 References:
 - [Video: Vertex Venture's Neural Notes - Demonstrate Search Predict with Omar Khattab](https://www.youtube.com/watch?v=cih0eG_CmMY)
@@ -73,8 +73,7 @@ Notes:
 		- Parametrizing the modules and treating prompting as an optimization problem makes DSPy better at adapting to different LMs, and it may outperform expert-written prompts.
 		- The resulting modularity makes it possible to more thoroughly explore complex pipelines that have useful performance characteristics, or fit nuanced metrics.
 - Conclusion
-	- DSPy is a new programming model for designing AI systems using pipelines of pretrained LMs and other tools. 
-	- Abstractions include signatures, modules, and teleprompters.
+	- DSPy is a new programming model for designing AI systems using pipelines of pretrained LMs and other tools. Abstractions include signatures, modules, and teleprompters.
 
 
 
