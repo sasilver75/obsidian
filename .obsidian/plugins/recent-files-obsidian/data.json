@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "DSPy",
+      "path": "DSPy.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
       "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
       "path": "Papers/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Spearman Correlation Coefficient",
       "path": "Spearman Correlation Coefficient.md"
-    },
-    {
-      "basename": "Out-of-Vocabulary Token",
-      "path": "Out-of-Vocabulary Token.md"
-    },
-    {
-      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
-      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
     }
   ],
   "omittedPaths": [],
