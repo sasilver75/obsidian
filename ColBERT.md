@@ -2,7 +2,7 @@ April 27, 2020 -- [[Omar Khattab]] and Matei Zaharia
 Paper: [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](https://arxiv.org/abs/2004.12832)
 See also: [[ColBERTv2]], [[ColBERT-QA]]
 #zotero 
-Takeaway: Introduced the ==late interaction== paradigm for efficient neural ranking in the form of ColBERT.
+Takeaway: Introduced the ==late interaction== paradigm for efficient neural ranking in the form of ColBERT. Involves representing each token in the query and document as its own (small) vector using BERT, and then we compute similarity scores between these bags of vectors. Has the precomputability benefits of representation-based similarity (eg Bi-Encoders), but keeps the fine-grained matching of interaction-based methods.
 
 Significance: It's said that ColBERT generalizes better out-of-domain than dense single-vector alternatives, like Bi-Encoders. This is probably because of the more granular token-level representation of data, as opposed to a document-level representation. It performs similarly to BERT-based models, but executes two OOMs faster, requiring 4 OOMs fewer FLOPs per query.
 

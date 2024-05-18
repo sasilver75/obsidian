@@ -13,6 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ColBERTv2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc8079f45efd0ff0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ColBERT.md",
                 "mode": "source",
                 "backlinks": true,
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ColBERT.md",
+                "file": "ColBERTv2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ColBERT.md",
+                "file": "ColBERTv2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ColBERT.md"
+                "file": "ColBERTv2.md"
               }
             }
           },
@@ -161,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ColBERT.md",
+                "file": "ColBERTv2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,11 +222,13 @@
   },
   "active": "0e74b05e6320c43e",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240518010344.png",
+    "ColBERT.md",
+    "ColBERTv2.md",
     "_attachments/Pasted image 20240517213218.png",
     "_attachments/Pasted image 20240517181612.png",
     "~ Vocabulary.md",
     "ELMo.md",
-    "ColBERT.md",
     "_attachments/Pasted image 20240517180611.png",
     "ColBERT-QA.md",
     "DSPy.md",
@@ -227,7 +242,6 @@
     "_attachments/Pasted image 20240517152535.png",
     "_attachments/Pasted image 20240517145710.png",
     "_attachments/Pasted image 20240517144737.png",
-    "_attachments/Pasted image 20240517143138.png",
     "Tree of Clarification.md",
     "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
     "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md",
@@ -244,7 +258,6 @@
     "Question Answering.md",
     "IRCoT.md",
     "Iter-RetGen.md",
-    "PaperClubs/LatentSpace/RAG Survey.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
