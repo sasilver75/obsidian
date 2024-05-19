@@ -5,8 +5,16 @@
       "path": "ColBERTv2.md"
     },
     {
+      "basename": "LoTTE",
+      "path": "LoTTE.md"
+    },
+    {
       "basename": "ColBERT",
       "path": "ColBERT.md"
+    },
+    {
+      "basename": "Credit Assignment Problem",
+      "path": "Credit Assignment Problem.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -191,14 +199,6 @@
     {
       "basename": "Latent Diffusion Model",
       "path": "Latent Diffusion Model.md"
-    },
-    {
-      "basename": "Self-Distillation",
-      "path": "Self-Distillation.md"
-    },
-    {
-      "basename": "Self-Supervised Learning",
-      "path": "Self-Supervised Learning.md"
     }
   ],
   "omittedPaths": [],
