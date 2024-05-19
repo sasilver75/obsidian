@@ -2,7 +2,7 @@ December 2, 2021 (20 months after [[ColBERT]])
 Keshav Santhanam, [[Omar Khattab]], [[Christopher Potts|Chris Potts]], Matei Zaharia
 Paper: [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction](https://arxiv.org/abs/2112.01488)
 #zotero 
-Takeaway: An optimization of [[ColBERT]]; The decomposition of relevance modeling into token-level computations inflates the space footprint of the models, and this paper introduces improvements to improve the quality and space footprint of late interaction by 6-10x.
+Takeaway: An optimization of [[ColBERT]]; ColBERT's decomposition of relevance modeling into token-level computations inflates the space footprint of the models, and this paper introduces improvements to improve the quality and space footprint of late interaction by 6-10x. ColBERTv2 introduces techniques to improve the quality and space-efficiency of multi-vector representations using a residual representation of vectors and distillation from cross-encoder systems.
 
 ----
 
@@ -33,6 +33,31 @@ Notes:
 	- The out-of-domain regime achieved recent attention with the [[BEIR]] benchmark, which combines several existing datasets into a heterogenous suite for "zero-shot IR" tasks, spanning bio-medical, financial, and scientific domains.
 	- We introduce [[LoTTE]], a new dataset for out-of-domain retrieval, exhibiting natural search queries over long-tail topics.
 - ==[[ColBERTv2]]==
+	- Uses the late interaction architecture of ColBERT, where queries and passages are independently encoded with BERT, and the output embeddings encoding each token are projected to a lower dimension.
+		- During offline indexing, every passage in the corpus is encoded into a set of vectors, and these vectors are stored; at search time, only the query $q$ is encoded into a multi-vector representation, and its similarity to a passage $d$ is computed as the summation of query-side "MaxSim" operations -- namely, the largest cosine similarity between each query token and all passage token embeddings. ![[Pasted image 20240518183405.png|150]]
+		- The intuition is to align each query token with the most contextually relevant passage token, quantify these matches, and combine the partial scores across the query.
+	- Supervision
+		- Training a neural retriever typically requires both *positive* and *negative* passages for each query in the training set. ColBERT was trained using the official $<q, d^+, d^->$ triples of MS MARCO.
+		- There are several weaknesses in this standard supervision approach -- our goal is to adopt a single, uniform supervision scheme that selects challenging negatives and avoids rewarding false positives or penalizing false negatives.
+		- For each training query, we retrieve the top-k passages and feed each into a cross-encoder reranker. We then collect w-way tuples consisting of a query, a highly-ranked passage, and one or more lower-ranked passages. We use w=64 passages per example. We use a KL Divergence loss to distill the cross-encoder's scores into the ColBERT architecture. This Denoised training with hard negatives has been positioned in recent work as a way of bridging the gap between single-vector and interaction-based models, including late interaction architectures like ColBERT.
+	- Representation
+		- Evidence suggests that vectors in ColBERT corresponding to each sense of a word cluster closely, with only minor variation due to context. We exploit this regularity with a *residual* representation that dramatically reduces the space footprint of late interaction models, completely off the shelf without architectural or training changes.
+		- Given a set of centroids C, ColBERTv2 ==encodes each vector *v* as the index of its closest centroid C_t *and* and a *quantized* vector r~ that approximates the residual r = v - C_t==. At search time, we use the centroid index t and the residual vector r~ to recover an approximate v~ = C_t  r~.
+			- We quantize every dimension of r into one or two bits; in principle, our b-bit encoding of n-dimensional vectors needs log|c|+bn bits per vector; in practice, with n=128, we use four bytes to capture up to 2^32 centroids and 16 or 32 bytes (for b=1 or b=2) to encode the residual... ==This total of 20 or 36 bytes per vector contrasts with ColBERT's use of 256-byte vector encodings at 16-bit precision.==
+	- Indexing
+		- Given a large corpus of passages, the indexing stage precomputes all passage embeddings and organizes their representations to support fast nearest-neighbor search. There are three stages:
+		1. **Centroid Selection**: In the first stage, ColBERTv2 selects a set of cluster centroids $C$. These are embeddings that ColBERTv2 uses to support ==residual encoding==, and for nearest neighbor search. Setting |C| proportionally to the square root of n_embeddings in the corpus works well, empirically.
+		2. **Passage Encoding**: Having selected the centroids, we encode every passage in the corpus. This entails invoking the BERT encoder and compressing the output embeddings, assigning each embedding to the nearest centroid and computing a quantized residual. Once a chunk of passages is encoded, the *compressed* representations are saved to disk.
+		3. **Index Inversion**: To support fast nearest-neighbor search, we group the embedding IDs that correspond to each centroid together, and save this *inverted list* to disk. At search time, this allows us to quickly find token-level embeddings similar to those in the query.
+	- Retrieval
+		- Given a query representation Q, retrieval starts with candidate generation. For every vector Q_i in the query, the nearest n_probe >= 1 centroids are found.
+		- Using the inverted list, ColBERTv2 identifies the passage embeddings close to these centroids, decompresses them, and computes their cosine similarity with every query vector.
+		- The scores are then grouped by passageID for each query vector, and scores corresponding to the same passage are max-reduced; this allows ColBERTv2 to conduct an approximate MaxSim operation per query vector, computing a lower-bound on the true MaxSim using the embedding identified via the inverted list.
+		- These lower bounds are summed across query tokens, and the top-score n_candidate candidate passages based on these approximate scores are selected for ranking, which loads the complete set of embeddings of each passage, and conducts the same scoring function using all embeddings per document using the usual MaxSim operation.
+- [[LoTTE]]: Long-Tail, Cross-Domain Retrieval Evaluation
+	- LoTTE is a new dataset for "**Long-Tail Topic-stratified Evaluation**" for IR.
+	- To complement the out-of-domain tests of [[BEIR]], LoTTE focuses on *natural user queries* that pertain to *long-tail topics*, ones that might not be covered by an entity-centric knowledge base like Wikipedia.
+	- LoTTE has 12 test sets (divided by topic), each with 500-20000 queries and 100k-2M passages. Each test set is accompanied by a validation set of *related but disjoint queries and passages* (by making the passage texts disjoint, we encourage more realistic out-of-domain transfer tests).
 	- 
 
 Abstract
@@ -45,3 +70,10 @@ Abstract
 # Paper Figures
 ![[Pasted image 20240518010344.png]]
 
+![[Pasted image 20240519000618.png]]
+Above: Breakdown of LoTTE
+- Search Queries: Collected from GooAQ, a recent dataset of Google search-autocomplete queries and their answer boxes.
+- Forum Queries: We collect forum queries by extracting post titles from StackExchange communities to use as queries, and collect their corresponding answer posts as targets.
+
+![[Pasted image 20240519001403.png]]
+Above: Examples of LoTTE queries

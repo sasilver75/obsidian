@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e74b05e6320c43e",
+            "id": "dc8079f45efd0ff0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "dc8079f45efd0ff0",
+            "id": "398f2667fa09befe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ColBERT.md",
+                "file": "LoTTE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e6948fe3fe8b74f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LoTTE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -220,11 +233,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e74b05e6320c43e",
+  "active": "dc8079f45efd0ff0",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240518010344.png",
-    "ColBERT.md",
+    "_attachments/Pasted image 20240519001403.png",
+    "LoTTE.md",
     "ColBERTv2.md",
+    "_attachments/Pasted image 20240519000618.png",
+    "_attachments/Pasted image 20240518183405.png",
+    "_attachments/Pasted image 20240518183403.png",
+    "ColBERT.md",
+    "Credit Assignment Problem.md",
+    "_attachments/Pasted image 20240518010344.png",
     "_attachments/Pasted image 20240517213218.png",
     "_attachments/Pasted image 20240517181612.png",
     "~ Vocabulary.md",
@@ -238,10 +257,6 @@
     "_attachments/Pasted image 20240517171616.png",
     "_attachments/Pasted image 20240517171256.png",
     "_attachments/Pasted image 20240517165031.png",
-    "_attachments/Pasted image 20240517163647.png",
-    "_attachments/Pasted image 20240517152535.png",
-    "_attachments/Pasted image 20240517145710.png",
-    "_attachments/Pasted image 20240517144737.png",
     "Tree of Clarification.md",
     "Papers/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
     "Papers/Retrieval-Augmented Generation for AI-Generated Content - A Survey.md",
@@ -256,8 +271,6 @@
     "Prometheus 2.md",
     "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
     "Question Answering.md",
-    "IRCoT.md",
-    "Iter-RetGen.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
