@@ -4,3 +4,6 @@ Princeton BS/MS CS -> Georgetown Law -> Phd Harvard?
 MosaicML -> Databricks
 
 Lottery Ticket Hypothesis
+
+![[Pasted image 20240519005035.png|150]]
+
