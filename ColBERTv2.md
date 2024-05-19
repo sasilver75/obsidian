@@ -1,5 +1,5 @@
 December 2, 2021 (20 months after [[ColBERT]])
-Keshav Santhanam, [[Omar Khattab]], [[Christopher Potts|Chris Potts]], Matei Zaharia
+Keshav Santhanam, [[Omar Khattab]], [[Christopher Potts|Chris Potts]], [[Matei Zaharia]]
 Paper: [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction](https://arxiv.org/abs/2112.01488)
 #zotero 
 Takeaway: An optimization of [[ColBERT]]; ColBERT's decomposition of relevance modeling into token-level computations inflates the space footprint of the models, and this paper introduces improvements to improve the quality and space footprint of late interaction by 6-10x. ColBERTv2 introduces techniques to improve the quality and space-efficiency of multi-vector representations using a residual representation of vectors and distillation from cross-encoder systems.

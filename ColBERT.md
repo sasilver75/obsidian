@@ -1,4 +1,4 @@
-April 27, 2020 -- [[Omar Khattab]] and Matei Zaharia
+April 27, 2020 -- [[Omar Khattab]] and [[Matei Zaharia]]
 Paper: [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](https://arxiv.org/abs/2004.12832)
 See also: [[ColBERTv2]], [[ColBERT-QA]]
 #zotero 
