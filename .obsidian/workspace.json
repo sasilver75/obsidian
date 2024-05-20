@@ -19,6 +19,84 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb17eff21e60768a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b14c75949487c421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relevance-Guided Supervision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e77fe3fa32c4d25d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "246faeff7311878e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HotpotQA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "507eb30ca0efa85a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "709b0911ae9ac23a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HoVer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -208,7 +286,15 @@
   },
   "active": "289043a726862900",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240519215956.png",
+    "_attachments/Pasted image 20240519214128.png",
     "~ Vocabulary.md",
+    "Relevance-Guided Supervision.md",
+    "Baleen.md",
+    "_attachments/Pasted image 20240519211939.png",
+    "HotpotQA.md",
+    "HoVer.md",
+    "_attachments/Pasted image 20240519204441.png",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
     "_attachments/Pasted image 20240519184916.png",
     "_attachments/Pasted image 20240519184857.png",
@@ -219,11 +305,8 @@
     "_attachments/Pasted image 20240519183836.png",
     "K-Means Clustering.md",
     "_attachments/Pasted image 20240519183717.png",
-    "_attachments/Pasted image 20240519183649.png",
-    "_attachments/Pasted image 20240519183301.png",
     "Feature Engineering.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Factorization Methods (Day 1).md",
-    "_attachments/Pasted image 20240519182403.png",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Introduction to Machine Learning (Day 1).md",
     "Overfitting.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md",
@@ -232,7 +315,6 @@
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Deep Neural Networks and Optimization (Day 2).md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Optimization (Day 2).md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
-    "Baleen.md",
     "Courses/OxML Fundamentals",
     "Daphne Koeller.md",
     "Melanie Mitchell.md",
@@ -241,9 +323,6 @@
     "Greg Brockman.md",
     "Sam Altman.md",
     "Clem Delangue.md",
-    "Mustafa Suleyman.md",
-    "Demis Hassabis.md",
-    "Geoff Hinton.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",

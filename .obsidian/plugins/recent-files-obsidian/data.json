@@ -9,6 +9,18 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Relevance-Guided Supervision",
+      "path": "Relevance-Guided Supervision.md"
+    },
+    {
+      "basename": "HotpotQA",
+      "path": "HotpotQA.md"
+    },
+    {
+      "basename": "HoVer",
+      "path": "HoVer.md"
+    },
+    {
       "basename": "OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1)",
       "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Christopher Potts",
       "path": "Christopher Potts.md"
-    },
-    {
-      "basename": "Yi Tay",
-      "path": "Yi Tay.md"
-    },
-    {
-      "basename": "Maxime Labonne",
-      "path": "Maxime Labonne.md"
-    },
-    {
-      "basename": "Jared Kaplan",
-      "path": "Jared Kaplan.md"
     }
   ],
   "omittedPaths": [],
