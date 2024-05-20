@@ -235,6 +235,7 @@
 - [[Self-Consistency]]
 - [[Self-Ask]]
 - [[Self-RAG]]
+- [[Self-Discover]]
 - [[KV Cache]]
 - [[Negative Prompt]]
 - [[LLM-as-a-Judge]]
@@ -299,6 +300,7 @@
 - [[Tree of Clarification]]
 - [[IRCoT]]
 - Generate-Read, Recite-Read, Rewrite-Retrieve-Read, ...
+- [[Relevance-Guided Supervision]]
 
 # Natural Language Processing Concepts
 - Tasks
@@ -600,6 +602,7 @@
 - [[VQAv2]] (Visual Question Answering)
 - [[MMMU]] (Massive Multi-discipline Multimodal Understanding)
 - [[HotpotQA]]
+- [[HoVer]]
 - [[SQuAD]] (Stanford Question Answering Dataset)
 - [[ChatBotArena]]
 - [[OpenLLM Leaderboard]]

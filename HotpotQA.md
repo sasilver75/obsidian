@@ -5,6 +5,8 @@ September 25, 2018 -- Carnegie Mellon ,Stanford, Google
 - The questions require *finding and reasoning over ==multiple supporting documents== to answer* -- this is [[Multi-Hop]] [[Question Answering]]
 - The questions are diverse and not constrained to pre-existing knowledge bases
 
+Contains complex questions answerable by retrieving two passages from wikipedia. Omar Khattab believes this was the first large-scale open-domain multi-hop task, particularly in its retrieval-oriented "fullwiki" setting.
+
 Abstract
 > Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers. We introduce HotpotQA, a new dataset with ==113k Wikipedia-based question-answer pairs== with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain the predictions; (4) we offer a new type of factoid comparison questions to test QA systems' ability to extract relevant facts and perform necessary comparison. We show that HotpotQA is challenging for the latest QA systems, and the supporting facts enable models to improve performance and make explainable predictions.
 
