@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc8079f45efd0ff0",
+            "id": "582d4f15dca49852",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baleen.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "c1a34382353f5462",
+            "id": "289043a726862900",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,698 +32,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c8d43b7d9e21b3b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matei Zaharia.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa22e67447189f74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jack Clark.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edfa51e326754cb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jeff Dean.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef3698e16c0237a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Noam Chomsky.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94619f49a2018ccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "John Schulman.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7fd45b1acfe148b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Omar Khattab.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d27199640135aa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "John Schulman.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bad6220666b9e96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nils Reimers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63c36f21476c8031",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alex Krizhevsky.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd1fa76aa4939444",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dario Amodei.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6a68e8c9235bdaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tim Dettmers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8ec72d4bf290d6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tri Dao.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17071195b06a5c66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quoc Le.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7270555f398ec75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arthur Mensch.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1aceaa3b26d9867",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jared Kaplan.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7930604d3c67d2d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jon Durbin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfbd05c0f75ae951",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maxime Labonne.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0a0584a8a6cc699",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yi Tay.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9a7cdfb37680c2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Christopher Potts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81eb4b6a83926bd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alec Radford.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "071004a4aa6181c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Douwe Kiela.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "beda7d7421170c5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sebastian Ruder.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01a432008732712b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ishan Misra.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e57a3ffd2d97df6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sara Hooker.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f157f078135fae6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jonathan Frankle.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bde5c6f53492a29f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alex Ratner.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86cd56cd9be8a43b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sasha Rush.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "accdb0f903ec8f38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ludwig Schmidt.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8301d45eda52226d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paul Christiano.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "375fb9c8ed030d54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paul Christiano.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e4b12a8088a9141",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yejin Choi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6fe41aef489b579",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pieter Abbeel.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80693c2b99720faa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Richard Sutton.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ec1949a4e3b3701",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Peter Norvig.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ab20743ce9cc342",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stuart Russell.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "996925ea1628a902",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jurgen Schmidhuber.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f749868bbe3fd0e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Samy Bengio.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa38b0bb73e59fb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Andrew Ng.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afc736583e708b80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yoshua Bengio.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df0536ad1a9ac003",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Andrej Karpathy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5ff6fea844f6881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jeremy Howard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8164c1db0ee4d910",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yann LeCun.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b9f216abd7226a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fei-Fei Li.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "028297fbbdc6ea83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Geoff Hinton.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ded771226abf400",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Demis Hassabis.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "824eddaa36903de4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mustafa Suleyman.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b9e7f4abc706568",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clem Delangue.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7679c0c86125491",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sam Altman.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb8d6bebaf0007f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Greg Brockman.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97ed3c9f8f14f0ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ilya Sutskever.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "582d4f15dca49852",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Percy Liang.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87c0cf5e9d0f18fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Melanie Mitchell.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ce2c836701dc549",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daphne Koeller.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -777,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -799,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -816,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -839,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md"
               }
             }
           },
@@ -864,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -910,44 +219,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c1a34382353f5462",
+  "active": "582d4f15dca49852",
   "lastOpenFiles": [
-    "Matei Zaharia.md",
-    "_attachments/Pasted image 20240519010223.png",
+    "_attachments/Pasted image 20240519184916.png",
+    "_attachments/Pasted image 20240519184857.png",
+    "_attachments/Pasted image 20240519184614.png",
+    "_attachments/Pasted image 20240519184345.png",
     "~ Vocabulary.md",
-    "Jack Clark.md",
-    "_attachments/Pasted image 20240519010208.png",
-    "Jeff Dean.md",
-    "_attachments/Pasted image 20240519010131.png",
-    "Noam Chomsky.md",
-    "_attachments/Pasted image 20240519010118.png",
-    "John Schulman.md",
-    "Omar Khattab.md",
-    "_attachments/Pasted image 20240519010012.png",
-    "_attachments/Pasted image 20240519005939.png",
-    "Nils Reimers.md",
-    "_attachments/Pasted image 20240519005915.png",
-    "Alex Krizhevsky.md",
-    "_attachments/Pasted image 20240519005852.png",
-    "Dario Amodei.md",
-    "_attachments/Pasted image 20240519005826.png",
-    "Tim Dettmers.md",
-    "_attachments/Pasted image 20240519005803.png",
-    "Tri Dao.md",
-    "Quoc Le.md",
-    "Arthur Mensch.md",
-    "Jared Kaplan.md",
-    "Jon Durbin.md",
-    "Maxime Labonne.md",
-    "Yi Tay.md",
-    "Christopher Potts.md",
-    "Alec Radford.md",
-    "Douwe Kiela.md",
-    "Sebastian Ruder.md",
-    "Ishan Misra.md",
-    "Sara Hooker.md",
-    "Jonathan Frankle.md",
-    "Alex Ratner.md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
+    "Naive Bayes.md",
+    "_attachments/Pasted image 20240519183909.png",
+    "_attachments/Pasted image 20240519183836.png",
+    "K-Means Clustering.md",
+    "_attachments/Pasted image 20240519183717.png",
+    "_attachments/Pasted image 20240519183649.png",
+    "_attachments/Pasted image 20240519183301.png",
+    "Feature Engineering.md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Factorization Methods (Day 1).md",
+    "_attachments/Pasted image 20240519182403.png",
+    "_attachments/Pasted image 20240519182259.png",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Introduction to Machine Learning (Day 1).md",
+    "Overfitting.md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Generative AI (NLP) (Day 4).md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Deep Learning (Day 3).md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Deep Neural Networks and Optimization (Day 2).md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Optimization (Day 2).md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+    "Baleen.md",
+    "Courses/OxML Fundamentals",
+    "Daphne Koeller.md",
+    "Melanie Mitchell.md",
+    "Percy Liang.md",
+    "Ilya Sutskever.md",
+    "Greg Brockman.md",
+    "Sam Altman.md",
+    "Clem Delangue.md",
+    "Mustafa Suleyman.md",
+    "Demis Hassabis.md",
+    "Geoff Hinton.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
@@ -956,7 +266,6 @@
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
     "PaperClubs/Oxen",
-    "Courses/CS224N/Untitled",
-    "Courses/CS224N NLP @ Stanford"
+    "Courses/CS224N/Untitled"
   ]
 }
