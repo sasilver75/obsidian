@@ -338,6 +338,8 @@
 - [[Constitutional AI]]
 - [[Zero-Shot Prompting]]
 - [[Step-Back Prompting]]
+- [[Least-to-Most Prompting]]
+- [[Plan-and-Solve Prompting]]
 - [[Masked Language Model]]
 - [[U-Net]]
 - [[Matryoshka Representation Learning]]
