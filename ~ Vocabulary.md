@@ -584,6 +584,7 @@
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)
 - [[Massive Multi-task Language Understanding]] (MMLU)
+- [[MMLU-Pro]]
 - [[HumanEval]]
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
 - [[BIG-Bench Hard]]

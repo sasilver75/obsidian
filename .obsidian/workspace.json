@@ -13,7 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baleen.md",
+                "file": "Massive Multi-task Language Understanding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "146f4949398a5b16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Discover.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "feac2b34ddb9ee79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MMLU-Pro.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83184ec0ac5f8b30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Massive Multi-task Language Understanding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59ccd5aaf3302555",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MMLU-Pro.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2817ac547aee5355",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepMind.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +163,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baleen.md",
+                "file": "Self-Discover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baleen.md",
+                "file": "Self-Discover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baleen.md"
+                "file": "Self-Discover.md"
               }
             }
           },
@@ -238,7 +304,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Baleen.md",
+                "file": "Self-Discover.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -284,13 +350,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "289043a726862900",
+  "active": "146f4949398a5b16",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240520115150.png",
+    "_attachments/Pasted image 20240520114618.png",
+    "~ Vocabulary.md",
+    "MMLU-Pro.md",
+    "Massive Multi-task Language Understanding.md",
+    "Self-Discover.md",
+    "DeepMind.md",
+    "Baleen.md",
     "_attachments/Pasted image 20240519215956.png",
     "_attachments/Pasted image 20240519214128.png",
-    "~ Vocabulary.md",
     "Relevance-Guided Supervision.md",
-    "Baleen.md",
     "_attachments/Pasted image 20240519211939.png",
     "HotpotQA.md",
     "HoVer.md",
@@ -302,9 +374,7 @@
     "_attachments/Pasted image 20240519184345.png",
     "Naive Bayes.md",
     "_attachments/Pasted image 20240519183909.png",
-    "_attachments/Pasted image 20240519183836.png",
     "K-Means Clustering.md",
-    "_attachments/Pasted image 20240519183717.png",
     "Feature Engineering.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Factorization Methods (Day 1).md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Introduction to Machine Learning (Day 1).md",
@@ -319,10 +389,6 @@
     "Daphne Koeller.md",
     "Melanie Mitchell.md",
     "Percy Liang.md",
-    "Ilya Sutskever.md",
-    "Greg Brockman.md",
-    "Sam Altman.md",
-    "Clem Delangue.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
