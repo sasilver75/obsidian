@@ -7,6 +7,8 @@ Paper: [Measuring Massive Multitask Language Understanding](https://arxiv.org/ab
 
 Dwarkesh "*Will Scaling Work*" Skeptic: "have you actually tried LOOKING at a random sample of questions from [[Massive Multi-task Language Understanding|MMLU]] and [[BIG-Bench]]? They're almost *all* just Google Search first hit results. They're good tests of *memorization*, not *intelligence!*"
 
+Note: In May 2024, researchers released [[MMLU-Pro]], which increases the MC number of questions from 4-10, and incorporates 12187 hard questions from SCibench, TheoremQA, STEM sites, while also subslicing the original MMLU to remove tirivial and ambiguous questions.
+
 Leaderboard: https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
 
 Abstract
