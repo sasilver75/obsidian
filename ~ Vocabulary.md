@@ -50,6 +50,7 @@
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
 - [[K-Means Clustering]]
+- [[Naive Bayes]]
 - [[Gradient Boosting Machine]] (GBM)
 - [[Classification]]
 - [[Collaborative Filtering]]
@@ -92,6 +93,8 @@
 - [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
 - [[SwiGLU]] (Swish + GLU)
 - [[Overfitting]]
+- [[Underfitting]]
+- [[Feature Engineering]]
 - [[Prompting]]
 - [[Prompt Tuning]]
 - [[Feed-Forward Network]] (FFNN)

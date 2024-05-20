@@ -13,3 +13,17 @@ Mitigations
 - [[Cross-Validation]] (eg K-Fold Cross-Validation) to ensure the model can perform well on different subsets of the data.
 - Simplify the model, reducing its complexity by selecting fewer parameters or using a less flexible model architecture.
 - Apply regularization techniques like [[L1 Regularization]], [[L2 Regularization]], [[Dropout]], [[Early Stopping]], [[Model Pruning]], [[Data Augmentation]], or ensemble methods.
+- Use the same model, but collect more data!
+
+
+![[Pasted image 20240519165821.png]]
+Regularization (making the model less flexible, basically) often times means that we add an additional term to our objective function.
+
+The most common regularization (outside NNs) is [[L2 Regularization]]
+![[Pasted image 20240519165854.png]]
+- Here, we penalize based on the L2 norm of our parameters. This penalizes large-magnitude numbers in the parameters. The intuition is that we want to avoid relying on any specific feature.
+
+![[Pasted image 20240519165956.png]]
+
+![[Pasted image 20240519170217.png]]
+Above: Showing an example of with and without regularization. Specifically optimizing a regularized objective vs optimizing a non-regularized objective.

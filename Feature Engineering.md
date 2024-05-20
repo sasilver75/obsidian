@@ -1,0 +1,2 @@
+Transforming your data, rather than using a different algorithm.
+If you transform some feature x into a log(x) feature, you can get away with keeping (eg) a linear model (which is linear in $\phi(x)$, but not in $x$, but still has many of the nice benefits of a linear model.)
