@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "582d4f15dca49852",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "289043a726862900",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Baleen.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
+                "file": "Baleen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
+                "file": "Baleen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md"
+                "file": "Baleen.md"
               }
             }
           },
@@ -173,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
+                "file": "Baleen.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,14 +206,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "582d4f15dca49852",
+  "active": "289043a726862900",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
     "_attachments/Pasted image 20240519184916.png",
     "_attachments/Pasted image 20240519184857.png",
     "_attachments/Pasted image 20240519184614.png",
     "_attachments/Pasted image 20240519184345.png",
-    "~ Vocabulary.md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
     "Naive Bayes.md",
     "_attachments/Pasted image 20240519183909.png",
     "_attachments/Pasted image 20240519183836.png",
@@ -237,7 +224,6 @@
     "Feature Engineering.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Factorization Methods (Day 1).md",
     "_attachments/Pasted image 20240519182403.png",
-    "_attachments/Pasted image 20240519182259.png",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Introduction to Machine Learning (Day 1).md",
     "Overfitting.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md",
