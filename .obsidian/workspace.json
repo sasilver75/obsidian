@@ -8,202 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "289043a726862900",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Massive Multi-task Language Understanding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "146f4949398a5b16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16dbd7a5efd90164",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LangSmith.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c978caf114a2b089",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Langtrace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d3d646e03f71d98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "feac2b34ddb9ee79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MMLU-Pro.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83184ec0ac5f8b30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Massive Multi-task Language Understanding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59ccd5aaf3302555",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MMLU-Pro.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2817ac547aee5355",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DeepMind.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb17eff21e60768a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b14c75949487c421",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Relevance-Guided Supervision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e77fe3fa32c4d25d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "246faeff7311878e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HotpotQA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "507eb30ca0efa85a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "709b0911ae9ac23a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HoVer.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
               }
             }
           },
@@ -343,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -389,11 +206,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "146f4949398a5b16",
+  "active": "aba8fe69d46d9ccd",
   "lastOpenFiles": [
-    "LangSmith.md",
+    "HoVer.md",
     "~ Vocabulary.md",
+    "HotpotQA.md",
+    "Relevance-Guided Supervision.md",
+    "DeepMind.md",
+    "MMLU-Pro.md",
+    "Massive Multi-task Language Understanding.md",
+    "~ Useful Pictures.md",
+    "LangSmith.md",
     "Langtrace.md",
+    "_attachments/Pasted image 20240520183905.png",
+    "_attachments/Pasted image 20240520183827.png",
     "Self-Discover.md",
     "_attachments/Pasted image 20240520124806.png",
     "_attachments/Pasted image 20240520124752.png",
@@ -403,15 +229,7 @@
     "_attachments/Pasted image 20240520121930.png",
     "_attachments/Pasted image 20240520115150.png",
     "_attachments/Pasted image 20240520114618.png",
-    "MMLU-Pro.md",
-    "Massive Multi-task Language Understanding.md",
-    "DeepMind.md",
     "Baleen.md",
-    "_attachments/Pasted image 20240519215956.png",
-    "_attachments/Pasted image 20240519214128.png",
-    "Relevance-Guided Supervision.md",
-    "HotpotQA.md",
-    "HoVer.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
     "Naive Bayes.md",
     "K-Means Clustering.md",
@@ -427,7 +245,6 @@
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
     "Courses/OxML Fundamentals",
     "Daphne Koeller.md",
-    "Melanie Mitchell.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
