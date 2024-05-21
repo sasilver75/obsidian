@@ -582,6 +582,8 @@
 - [[llama.cpp]]
 - [[fastText]]
 - [[Trafilatura]]
+- [[Langtrace]]
+- [[LangSmith]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)

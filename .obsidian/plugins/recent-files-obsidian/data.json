@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Self-Discover",
-      "path": "Self-Discover.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "LangSmith",
+      "path": "LangSmith.md"
+    },
+    {
+      "basename": "Langtrace",
+      "path": "Langtrace.md"
+    },
+    {
+      "basename": "Self-Discover",
+      "path": "Self-Discover.md"
     },
     {
       "basename": "MMLU-Pro",
@@ -191,14 +199,6 @@
     {
       "basename": "Sasha Rush",
       "path": "Sasha Rush.md"
-    },
-    {
-      "basename": "Alex Ratner",
-      "path": "Alex Ratner.md"
-    },
-    {
-      "basename": "Jonathan Frankle",
-      "path": "Jonathan Frankle.md"
     }
   ],
   "omittedPaths": [],

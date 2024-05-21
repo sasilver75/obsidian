@@ -26,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Discover.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16dbd7a5efd90164",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LangSmith.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c978caf114a2b089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Langtrace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -252,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Discover.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Discover.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Discover.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -317,7 +343,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Discover.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -365,10 +391,12 @@
   },
   "active": "146f4949398a5b16",
   "lastOpenFiles": [
+    "LangSmith.md",
+    "~ Vocabulary.md",
+    "Langtrace.md",
+    "Self-Discover.md",
     "_attachments/Pasted image 20240520124806.png",
     "_attachments/Pasted image 20240520124752.png",
-    "~ Vocabulary.md",
-    "Self-Discover.md",
     "_attachments/Pasted image 20240520123213.png",
     "_attachments/Pasted image 20240520123105.png",
     "_attachments/Pasted image 20240520122732.png",
@@ -382,7 +410,6 @@
     "_attachments/Pasted image 20240519215956.png",
     "_attachments/Pasted image 20240519214128.png",
     "Relevance-Guided Supervision.md",
-    "_attachments/Pasted image 20240519211939.png",
     "HotpotQA.md",
     "HoVer.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
@@ -401,7 +428,6 @@
     "Courses/OxML Fundamentals",
     "Daphne Koeller.md",
     "Melanie Mitchell.md",
-    "Percy Liang.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
