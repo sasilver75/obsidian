@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)",
+      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
+    },
+    {
+      "basename": "HoVer",
+      "path": "HoVer.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "HotpotQA",
+      "path": "HotpotQA.md"
+    },
+    {
+      "basename": "Relevance-Guided Supervision",
+      "path": "Relevance-Guided Supervision.md"
+    },
+    {
+      "basename": "DeepMind",
+      "path": "DeepMind.md"
+    },
+    {
+      "basename": "MMLU-Pro",
+      "path": "MMLU-Pro.md"
+    },
+    {
+      "basename": "Massive Multi-task Language Understanding",
+      "path": "Massive Multi-task Language Understanding.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "LangSmith",
@@ -17,32 +49,8 @@
       "path": "Self-Discover.md"
     },
     {
-      "basename": "MMLU-Pro",
-      "path": "MMLU-Pro.md"
-    },
-    {
-      "basename": "Massive Multi-task Language Understanding",
-      "path": "Massive Multi-task Language Understanding.md"
-    },
-    {
-      "basename": "DeepMind",
-      "path": "DeepMind.md"
-    },
-    {
       "basename": "Baleen",
       "path": "Baleen.md"
-    },
-    {
-      "basename": "Relevance-Guided Supervision",
-      "path": "Relevance-Guided Supervision.md"
-    },
-    {
-      "basename": "HotpotQA",
-      "path": "HotpotQA.md"
-    },
-    {
-      "basename": "HoVer",
-      "path": "HoVer.md"
     },
     {
       "basename": "OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1)",
@@ -91,10 +99,6 @@
     {
       "basename": "OxML Fundamentals Lecture - Optimization (Day 2)",
       "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Optimization (Day 2).md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)",
-      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
     },
     {
       "basename": "Daphne Koeller",
@@ -195,10 +199,6 @@
     {
       "basename": "Ludwig Schmidt",
       "path": "Ludwig Schmidt.md"
-    },
-    {
-      "basename": "Sasha Rush",
-      "path": "Sasha Rush.md"
     }
   ],
   "omittedPaths": [],
