@@ -4,167 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "836e694086d9a91c",
+        "id": "b2dbd8cdd263d413",
         "type": "tabs",
         "children": [
           {
-            "id": "709b0911ae9ac23a",
+            "id": "061436863c4bb5c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Axolotl.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e375b2e5f951bac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4cc94f3f011e264",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c28864b800fb8910",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/LLM Mastery/Lecture 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44c573d3f6dec05d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7af7943fd023924",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6e4a6b2f23f1393",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RewardBench.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d8601e9d983fde8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "172ce6c8b53cfe5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Softmax.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c4231144c3f17c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bef743cb9636e7fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CleanLab.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23fa5975a71eb55d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modal.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md"
-              }
+              "state": {}
             }
           },
           {
@@ -304,7 +151,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -350,31 +196,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9d8601e9d983fde8",
+  "active": "061436863c4bb5c4",
   "lastOpenFiles": [
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md",
+    "Axolotl.md",
+    "~ Vocabulary.md",
+    "RewardBench.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
+    "TART.md",
     "Softmax.md",
+    "CleanLab.md",
+    "Modal.md",
+    "Courses/LLM Mastery/Lecture 2.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md",
     "_attachments/Pasted image 20240521220209.png",
     "_attachments/Pasted image 20240521220205.png",
-    "~ Vocabulary.md",
-    "CleanLab.md",
     "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
-    "Modal.md",
     "_attachments/Pasted image 20240521214236.png",
     "N-Gram.md",
     "_attachments/Pasted image 20240521214147.png",
     "_attachments/Pasted image 20240521213240.png",
-    "RewardBench.md",
     "_attachments/Pasted image 20240521212138.png",
     "_attachments/Pasted image 20240521211736.png",
     "Maximum Likelihood.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md",
-    "Courses/LLM Mastery/Lecture 2.md",
     "Label Smoothing.md",
     "Perplexity.md",
     "Normalized Discounted Cumulative Gain.md",
-    "Axolotl.md",
     "_attachments/Pasted image 20240521210529.png",
     "_attachments/Pasted image 20240521210315.png",
     "_attachments/Pasted image 20240521205636.png",
@@ -388,7 +235,6 @@
     "HoVer.md",
     "HotpotQA.md",
     "Relevance-Guided Supervision.md",
-    "DeepMind.md",
     "Courses/OxML Fundamentals",
     "Indices",
     "Templates",

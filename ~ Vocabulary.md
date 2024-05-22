@@ -80,6 +80,7 @@
 - [[Entropy]]
 - [[Mutual Information]]
 - [[Cross-Entropy]]
+- [[Seq2Seq]]
 - [[Perplexity]] 
 - [[Bits-per-Character]] (BPC)
 - [[Bits-per-Word]] (BPW)
@@ -277,6 +278,7 @@
 - [[SPLADE]]
 - [[SPLADEv2]]
 - [[DRAGON]] (Dense Retrieval trained with Diverse Augmentation)
+- [[TART]]
 - [[SANTA]] (Structure-Aware Dense Retrieval)
 - [[Fusion-in-Decoder]] (FiD)
 	- [[KG-FiD]] (Knowledge Graph - Fusion in Decoder)
