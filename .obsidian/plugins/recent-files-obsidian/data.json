@@ -1,40 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "CS685 Lecture 4",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md"
-    },
-    {
-      "basename": "CS685 Lecture 3",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md"
-    },
-    {
-      "basename": "Softmax",
-      "path": "Softmax.md"
+      "basename": "Axolotl",
+      "path": "Axolotl.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "CleanLab",
-      "path": "CleanLab.md"
+      "basename": "RewardBench",
+      "path": "RewardBench.md"
     },
     {
-      "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
-      "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
+      "basename": "CS685 Lecture 4",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md"
+    },
+    {
+      "basename": "TART",
+      "path": "TART.md"
+    },
+    {
+      "basename": "Softmax",
+      "path": "Softmax.md"
+    },
+    {
+      "basename": "CleanLab",
+      "path": "CleanLab.md"
     },
     {
       "basename": "Modal",
       "path": "Modal.md"
     },
     {
-      "basename": "N-Gram",
-      "path": "N-Gram.md"
+      "basename": "Lecture 2",
+      "path": "Courses/LLM Mastery/Lecture 2.md"
     },
     {
-      "basename": "RewardBench",
-      "path": "RewardBench.md"
+      "basename": "CS685 Lecture 3",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md"
+    },
+    {
+      "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
+      "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
+    },
+    {
+      "basename": "N-Gram",
+      "path": "N-Gram.md"
     },
     {
       "basename": "Maximum Likelihood",
@@ -43,10 +55,6 @@
     {
       "basename": "CS685 Lecture 2",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md"
-    },
-    {
-      "basename": "Lecture 2",
-      "path": "Courses/LLM Mastery/Lecture 2.md"
     },
     {
       "basename": "Label Smoothing",
@@ -59,10 +67,6 @@
     {
       "basename": "Normalized Discounted Cumulative Gain",
       "path": "Normalized Discounted Cumulative Gain.md"
-    },
-    {
-      "basename": "Axolotl",
-      "path": "Axolotl.md"
     },
     {
       "basename": "ULMFiT",
@@ -195,10 +199,6 @@
     {
       "basename": "Greg Brockman",
       "path": "Greg Brockman.md"
-    },
-    {
-      "basename": "Sam Altman",
-      "path": "Sam Altman.md"
     }
   ],
   "omittedPaths": [],
