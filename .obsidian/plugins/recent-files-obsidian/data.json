@@ -1,28 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Normalized Discounted Cumulative Gain",
-      "path": "Normalized Discounted Cumulative Gain.md"
+      "basename": "CS685 Lecture 4",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md"
+    },
+    {
+      "basename": "CS685 Lecture 3",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md"
+    },
+    {
+      "basename": "Softmax",
+      "path": "Softmax.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "CleanLab",
+      "path": "CleanLab.md"
+    },
+    {
+      "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
+      "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
+    },
+    {
+      "basename": "Modal",
+      "path": "Modal.md"
+    },
+    {
+      "basename": "N-Gram",
+      "path": "N-Gram.md"
+    },
+    {
+      "basename": "RewardBench",
+      "path": "RewardBench.md"
+    },
+    {
+      "basename": "Maximum Likelihood",
+      "path": "Maximum Likelihood.md"
+    },
+    {
+      "basename": "CS685 Lecture 2",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md"
+    },
+    {
       "basename": "Lecture 2",
       "path": "Courses/LLM Mastery/Lecture 2.md"
     },
     {
-      "basename": "Fully Sharded Data Parallelism",
-      "path": "Fully Sharded Data Parallelism.md"
+      "basename": "Label Smoothing",
+      "path": "Label Smoothing.md"
+    },
+    {
+      "basename": "Perplexity",
+      "path": "Perplexity.md"
+    },
+    {
+      "basename": "Normalized Discounted Cumulative Gain",
+      "path": "Normalized Discounted Cumulative Gain.md"
     },
     {
       "basename": "Axolotl",
       "path": "Axolotl.md"
     },
     {
-      "basename": "Modal",
-      "path": "Modal.md"
+      "basename": "ULMFiT",
+      "path": "ULMFiT.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+    },
+    {
+      "basename": "Starling",
+      "path": "Starling.md"
+    },
+    {
+      "basename": "Fully Sharded Data Parallelism",
+      "path": "Fully Sharded Data Parallelism.md"
     },
     {
       "basename": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)",
@@ -143,62 +199,6 @@
     {
       "basename": "Sam Altman",
       "path": "Sam Altman.md"
-    },
-    {
-      "basename": "Clem Delangue",
-      "path": "Clem Delangue.md"
-    },
-    {
-      "basename": "Mustafa Suleyman",
-      "path": "Mustafa Suleyman.md"
-    },
-    {
-      "basename": "Demis Hassabis",
-      "path": "Demis Hassabis.md"
-    },
-    {
-      "basename": "Geoff Hinton",
-      "path": "Geoff Hinton.md"
-    },
-    {
-      "basename": "Fei-Fei Li",
-      "path": "Fei-Fei Li.md"
-    },
-    {
-      "basename": "Yann LeCun",
-      "path": "Yann LeCun.md"
-    },
-    {
-      "basename": "Jeremy Howard",
-      "path": "Jeremy Howard.md"
-    },
-    {
-      "basename": "Andrej Karpathy",
-      "path": "Andrej Karpathy.md"
-    },
-    {
-      "basename": "Yoshua Bengio",
-      "path": "Yoshua Bengio.md"
-    },
-    {
-      "basename": "Andrew Ng",
-      "path": "Andrew Ng.md"
-    },
-    {
-      "basename": "Samy Bengio",
-      "path": "Samy Bengio.md"
-    },
-    {
-      "basename": "Jurgen Schmidhuber",
-      "path": "Jurgen Schmidhuber.md"
-    },
-    {
-      "basename": "Stuart Russell",
-      "path": "Stuart Russell.md"
-    },
-    {
-      "basename": "Peter Norvig",
-      "path": "Peter Norvig.md"
     }
   ],
   "omittedPaths": [],

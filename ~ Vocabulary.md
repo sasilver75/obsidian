@@ -587,6 +587,7 @@
 - [[Langtrace]] (Unsure if this should be here.)
 - [[LangSmith]]
 - [[Modal]]
+- [[RAGAS]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)
@@ -622,6 +623,7 @@
 - [[Winoground]]
 - [[Dynabench]]
 - [[Dynaboard]]
+- [[RewardBench]]
 # Datasets
 *Datasets for training/finetuning models*
 - [[Common Crawl]]

@@ -73,12 +73,90 @@
             }
           },
           {
-            "id": "b569d5fc51c4eb57",
+            "id": "b7af7943fd023924",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6e4a6b2f23f1393",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RewardBench.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d8601e9d983fde8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "172ce6c8b53cfe5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Softmax.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c4231144c3f17c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bef743cb9636e7fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CleanLab.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23fa5975a71eb55d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modal.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -161,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md"
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md"
               }
             }
           },
@@ -226,7 +304,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -272,24 +350,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b569d5fc51c4eb57",
+  "active": "9d8601e9d983fde8",
   "lastOpenFiles": [
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
+    "Softmax.md",
+    "_attachments/Pasted image 20240521220209.png",
+    "_attachments/Pasted image 20240521220205.png",
     "~ Vocabulary.md",
-    "Normalized Discounted Cumulative Gain.md",
-    "Courses/LLM Mastery/Lecture 2.md",
-    "Fully Sharded Data Parallelism.md",
-    "Axolotl.md",
+    "CleanLab.md",
+    "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
     "Modal.md",
-    "_attachments/Pasted image 20240521115952.png",
-    "_attachments/Pasted image 20240521115736.png",
-    "_attachments/Pasted image 20240521114949.png",
-    "_attachments/Pasted image 20240521114942.png",
-    "_attachments/Pasted image 20240521114726.png",
-    "_attachments/Pasted image 20240521114646.png",
-    "_attachments/Pasted image 20240521114524.png",
-    "_attachments/Pasted image 20240521114439.png",
-    "_attachments/Pasted image 20240521114339.png",
-    "_attachments/Pasted image 20240521114302.png",
+    "_attachments/Pasted image 20240521214236.png",
+    "N-Gram.md",
+    "_attachments/Pasted image 20240521214147.png",
+    "_attachments/Pasted image 20240521213240.png",
+    "RewardBench.md",
+    "_attachments/Pasted image 20240521212138.png",
+    "_attachments/Pasted image 20240521211736.png",
+    "Maximum Likelihood.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md",
+    "Courses/LLM Mastery/Lecture 2.md",
+    "Label Smoothing.md",
+    "Perplexity.md",
+    "Normalized Discounted Cumulative Gain.md",
+    "Axolotl.md",
+    "_attachments/Pasted image 20240521210529.png",
+    "_attachments/Pasted image 20240521210315.png",
+    "_attachments/Pasted image 20240521205636.png",
+    "ULMFiT.md",
+    "Zephyr.md",
+    "Starling.md",
+    "Fully Sharded Data Parallelism.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
     "Courses/LLM Mastery",
     "Courses/Untitled.md",
@@ -297,20 +389,6 @@
     "HotpotQA.md",
     "Relevance-Guided Supervision.md",
     "DeepMind.md",
-    "MMLU-Pro.md",
-    "Massive Multi-task Language Understanding.md",
-    "~ Useful Pictures.md",
-    "LangSmith.md",
-    "Langtrace.md",
-    "Self-Discover.md",
-    "Baleen.md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
-    "Naive Bayes.md",
-    "K-Means Clustering.md",
-    "Feature Engineering.md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Factorization Methods (Day 1).md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Introduction to Machine Learning (Day 1).md",
-    "Overfitting.md",
     "Courses/OxML Fundamentals",
     "Indices",
     "Templates",
