@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "CS685 Lecture 9",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
+    },
+    {
+      "basename": "Softmax",
+      "path": "Softmax.md"
+    },
+    {
+      "basename": "Lecture 2",
+      "path": "Courses/LLM Mastery/Lecture 2.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
+      "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+    },
+    {
+      "basename": "RAG Survey",
+      "path": "PaperClubs/LatentSpace/RAG Survey.md"
+    },
+    {
+      "basename": "DSPy",
+      "path": "DSPy.md"
+    },
+    {
       "basename": "Axolotl",
       "path": "Axolotl.md"
     },
@@ -21,24 +45,12 @@
       "path": "TART.md"
     },
     {
-      "basename": "Softmax",
-      "path": "Softmax.md"
-    },
-    {
       "basename": "CleanLab",
       "path": "CleanLab.md"
     },
     {
       "basename": "Modal",
       "path": "Modal.md"
-    },
-    {
-      "basename": "Lecture 2",
-      "path": "Courses/LLM Mastery/Lecture 2.md"
-    },
-    {
-      "basename": "CS685 Lecture 3",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md"
     },
     {
       "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
@@ -187,18 +199,6 @@
     {
       "basename": "Melanie Mitchell",
       "path": "Melanie Mitchell.md"
-    },
-    {
-      "basename": "Percy Liang",
-      "path": "Percy Liang.md"
-    },
-    {
-      "basename": "Ilya Sutskever",
-      "path": "Ilya Sutskever.md"
-    },
-    {
-      "basename": "Greg Brockman",
-      "path": "Greg Brockman.md"
     }
   ],
   "omittedPaths": [],
