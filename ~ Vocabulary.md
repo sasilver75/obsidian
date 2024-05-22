@@ -201,6 +201,7 @@
 - [[Mixture-of-Depths]] (MoD)
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
+- [[Fully Sharded Data Parallelism]]
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
@@ -287,6 +288,7 @@
 - [[Success]]
 - [[Reciprocal Rank]]
 - [[Mean Reciprocal Rank]]
+- [[Normalized Discounted Cumulative Gain]] (NDGC)
 - [[Return Set]]
 - [[Relevance Set]]
 - [[Average Precision]]
@@ -582,8 +584,9 @@
 - [[llama.cpp]]
 - [[fastText]]
 - [[Trafilatura]]
-- [[Langtrace]]
+- [[Langtrace]] (Unsure if this should be here.)
 - [[LangSmith]]
+- [[Modal]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)

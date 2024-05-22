@@ -2,7 +2,7 @@ Github: [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)
 
 Compare: [[Unsloth]]
 
-Axolotl is an LLM fine-tuner supporting SotA techniques and optimizations for a variety of common model architectures.
+Axolotl is an LLM fine-tuner supporting SotA techniques and optimizations for a variety of common model architectures. Created by Wing Lian
 
 Features
 - Allows training of various HugginfFace models like LLaMA, Pythia, Falcon MPT
