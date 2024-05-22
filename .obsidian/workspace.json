@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b2dbd8cdd263d413",
+        "id": "88615c614cc89407",
         "type": "tabs",
         "children": [
           {
-            "id": "061436863c4bb5c4",
+            "id": "bded5d3c720416df",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
+              }
             }
           },
           {
@@ -151,6 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,18 +206,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "061436863c4bb5c4",
+  "active": "bded5d3c720416df",
   "lastOpenFiles": [
+    "Softmax.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+    "Courses/LLM Mastery/Lecture 2.md",
+    "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+    "PaperClubs/LatentSpace/RAG Survey.md",
+    "DSPy.md",
     "Axolotl.md",
     "~ Vocabulary.md",
     "RewardBench.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
     "TART.md",
-    "Softmax.md",
     "CleanLab.md",
     "Modal.md",
-    "Courses/LLM Mastery/Lecture 2.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 3.md",
     "_attachments/Pasted image 20240521220209.png",
     "_attachments/Pasted image 20240521220205.png",
     "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
@@ -232,9 +245,6 @@
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
     "Courses/LLM Mastery",
     "Courses/Untitled.md",
-    "HoVer.md",
-    "HotpotQA.md",
-    "Relevance-Guided Supervision.md",
     "Courses/OxML Fundamentals",
     "Indices",
     "Templates",

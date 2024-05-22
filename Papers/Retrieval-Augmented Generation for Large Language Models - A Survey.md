@@ -189,6 +189,7 @@ Notes:
 		- ==Counterfactual Robustness==: Tests the model's ability to recognize and disregard known inaccuracies within documents, even when instructed about potential misinformation. *Can you ignore known, incorrect information in the documents you're given?*
 	- 
 
+... Skipped the rest
 
 # Paper Figures
 ![[Pasted image 20240515211757.png]]
