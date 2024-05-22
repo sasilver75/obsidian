@@ -13,14 +13,80 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+                "file": "Axolotl.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e375b2e5f951bac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4cc94f3f011e264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c28864b800fb8910",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/LLM Mastery/Lecture 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44c573d3f6dec05d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b569d5fc51c4eb57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Normalized Discounted Cumulative Gain.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -95,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+                "file": "Normalized Discounted Cumulative Gain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+                "file": "Normalized Discounted Cumulative Gain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
+                "file": "Normalized Discounted Cumulative Gain.md"
               }
             }
           },
@@ -160,7 +226,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+                "file": "Normalized Discounted Cumulative Gain.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,10 +272,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aba8fe69d46d9ccd",
+  "active": "b569d5fc51c4eb57",
   "lastOpenFiles": [
-    "HoVer.md",
     "~ Vocabulary.md",
+    "Normalized Discounted Cumulative Gain.md",
+    "Courses/LLM Mastery/Lecture 2.md",
+    "Fully Sharded Data Parallelism.md",
+    "Axolotl.md",
+    "Modal.md",
+    "_attachments/Pasted image 20240521115952.png",
+    "_attachments/Pasted image 20240521115736.png",
+    "_attachments/Pasted image 20240521114949.png",
+    "_attachments/Pasted image 20240521114942.png",
+    "_attachments/Pasted image 20240521114726.png",
+    "_attachments/Pasted image 20240521114646.png",
+    "_attachments/Pasted image 20240521114524.png",
+    "_attachments/Pasted image 20240521114439.png",
+    "_attachments/Pasted image 20240521114339.png",
+    "_attachments/Pasted image 20240521114302.png",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+    "Courses/LLM Mastery",
+    "Courses/Untitled.md",
+    "HoVer.md",
     "HotpotQA.md",
     "Relevance-Guided Supervision.md",
     "DeepMind.md",
@@ -218,17 +302,7 @@
     "~ Useful Pictures.md",
     "LangSmith.md",
     "Langtrace.md",
-    "_attachments/Pasted image 20240520183905.png",
-    "_attachments/Pasted image 20240520183827.png",
     "Self-Discover.md",
-    "_attachments/Pasted image 20240520124806.png",
-    "_attachments/Pasted image 20240520124752.png",
-    "_attachments/Pasted image 20240520123213.png",
-    "_attachments/Pasted image 20240520123105.png",
-    "_attachments/Pasted image 20240520122732.png",
-    "_attachments/Pasted image 20240520121930.png",
-    "_attachments/Pasted image 20240520115150.png",
-    "_attachments/Pasted image 20240520114618.png",
     "Baleen.md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md",
     "Naive Bayes.md",
@@ -237,14 +311,7 @@
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Factorization Methods (Day 1).md",
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Introduction to Machine Learning (Day 1).md",
     "Overfitting.md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Generative AI (NLP) (Day 4).md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Deep Learning (Day 3).md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Deep Neural Networks and Optimization (Day 2).md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Optimization (Day 2).md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
     "Courses/OxML Fundamentals",
-    "Daphne Koeller.md",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
@@ -252,7 +319,6 @@
     "Courses/XCS224U NLU @ Stanford",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
-    "PaperClubs/Oxen",
-    "Courses/CS224N/Untitled"
+    "PaperClubs/Oxen"
   ]
 }

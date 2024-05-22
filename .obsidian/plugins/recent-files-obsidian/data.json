@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Normalized Discounted Cumulative Gain",
+      "path": "Normalized Discounted Cumulative Gain.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Lecture 2",
+      "path": "Courses/LLM Mastery/Lecture 2.md"
+    },
+    {
+      "basename": "Fully Sharded Data Parallelism",
+      "path": "Fully Sharded Data Parallelism.md"
+    },
+    {
+      "basename": "Axolotl",
+      "path": "Axolotl.md"
+    },
+    {
+      "basename": "Modal",
+      "path": "Modal.md"
+    },
+    {
       "basename": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)",
       "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
     },
     {
       "basename": "HoVer",
       "path": "HoVer.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "HotpotQA",
@@ -179,26 +199,6 @@
     {
       "basename": "Peter Norvig",
       "path": "Peter Norvig.md"
-    },
-    {
-      "basename": "Richard Sutton",
-      "path": "Richard Sutton.md"
-    },
-    {
-      "basename": "Pieter Abbeel",
-      "path": "Pieter Abbeel.md"
-    },
-    {
-      "basename": "Yejin Choi",
-      "path": "Yejin Choi.md"
-    },
-    {
-      "basename": "Paul Christiano",
-      "path": "Paul Christiano.md"
-    },
-    {
-      "basename": "Ludwig Schmidt",
-      "path": "Ludwig Schmidt.md"
     }
   ],
   "omittedPaths": [],
