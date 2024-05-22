@@ -6,7 +6,7 @@ Takeaway: The full paper isn't out yet, but this seems like a relatively normal 
 
 Zotero Note: There's no PDF (afaik), so the Zotero link links to an un-highlightable document. So I'll try to make my notes heavier here to be more comprehensive.
 
-Additional note: The paper isn't
+Additional note: The paper isn't completely done yet, they say -- they'll update it in the future, they say.
 
 ----
 
