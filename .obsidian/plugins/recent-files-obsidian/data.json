@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "CS685 Lecture 9",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
-    },
-    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "DSPy",
+      "path": "DSPy.md"
+    },
+    {
+      "basename": "Hallucination",
+      "path": "Hallucination.md"
+    },
+    {
+      "basename": "CS685 Lecture 9",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
     },
     {
       "basename": "Softmax",
@@ -23,10 +31,6 @@
     {
       "basename": "RAG Survey",
       "path": "PaperClubs/LatentSpace/RAG Survey.md"
-    },
-    {
-      "basename": "DSPy",
-      "path": "DSPy.md"
     },
     {
       "basename": "Axolotl",
@@ -195,10 +199,6 @@
     {
       "basename": "Daphne Koeller",
       "path": "Daphne Koeller.md"
-    },
-    {
-      "basename": "Melanie Mitchell",
-      "path": "Melanie Mitchell.md"
     }
   ],
   "omittedPaths": [],
