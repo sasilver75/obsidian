@@ -7,6 +7,7 @@ Takeaway: DSPy is a new programming model for designing AI systems using pipelin
 References:
 - [Video: Vertex Venture's Neural Notes - Demonstrate Search Predict with Omar Khattab](https://www.youtube.com/watch?v=cih0eG_CmMY)
 - [Video: Databrick's Data Brew - Demonstrate Search Predict Framework w Omar Khattab](https://youtu.be/bwkaI7olr_s?si=5zBBYNGPKJnzg6ox)
+- [Video: Weaviate Meetup with Omar Khattab on DSPy](https://youtu.be/Y81DoFmt-2U?si=2zfYQqS0w3M3D6F8&t=2145)
 
 See also: 
 - [[Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP]] (Previous work, same authors)
@@ -80,3 +81,10 @@ Notes:
 
 Abstract
 > The ML community is rapidly exploring techniques for prompting language models (LMs) and for stacking them into pipelines that solve complex tasks. Unfortunately, ==existing LM pipelines are typically implemented using hard-coded "prompt templates",== i.e. lengthy strings discovered via trial and error. Toward a more systematic approach for developing and optimizing LM pipelines, we introduce ==DSPy==, a ==programming model that abstracts LM pipelines as text transformation graphs==, i.e. imperative computational graphs ==where LMs are invoked through declarative modules==. DSPy ==modules are parameterized, meaning they can learn (by creating and collecting demonstrations) how to apply compositions of prompting, finetuning, augmentation, and reasoning techniques==. We design a compiler that will optimize any DSPy pipeline to maximize a given metric. We conduct two case studies, showing that succinct DSPy programs can express and optimize sophisticated LM pipelines that reason about math word problems, tackle multi-hop retrieval, answer complex questions, and control agent loops. Within minutes of compiling, a few lines of DSPy allow GPT-3.5 and llama2-13b-chat to self-bootstrap pipelines that outperform standard few-shot prompting (generally by over 25% and 65%, respectively) and pipelines with expert-created demonstrations (by up to 5-46% and 16-40%, respectively). On top of that, DSPy programs compiled to open and relatively small LMs like 770M-parameter T5 and llama2-13b-chat are competitive with approaches that rely on expert-written prompt chains for proprietary GPT-3.5. DSPy is available at [this https URL](https://github.com/stanfordnlp/dspy)
+
+
+
+---
+[DSPy End-to-End Meetup](https://youtu.be/Y81DoFmt-2U?si=eCBDuT24Pyj83cmK&t=3124) Notes
+- Nowe we can build systems 
+

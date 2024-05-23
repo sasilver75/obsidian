@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+                "file": "~ Useful Pictures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -208,14 +208,16 @@
   },
   "active": "bded5d3c720416df",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240523120834.png",
+    "DSPy.md",
+    "Hallucination.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240522194541.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
     "Softmax.md",
     "Courses/LLM Mastery/Lecture 2.md",
     "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
     "PaperClubs/LatentSpace/RAG Survey.md",
-    "DSPy.md",
     "Axolotl.md",
     "~ Vocabulary.md",
     "RewardBench.md",
@@ -242,8 +244,6 @@
     "ULMFiT.md",
     "Zephyr.md",
     "Starling.md",
-    "Fully Sharded Data Parallelism.md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",
