@@ -260,3 +260,4 @@ Above: Comparison of Pairwise Ranking and Direct Assessment tasks for LM evaluat
 
 ![[Pasted image 20240520183905.png]]
 
+![[Pasted image 20240522194541.png]]
