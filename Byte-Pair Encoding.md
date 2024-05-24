@@ -28,5 +28,12 @@ This time, we're probably going to add "un" to our vocabulary, but the *next* ti
 
 Basically, we keep repeating this process until we've reached a number of steps (eg 32k, 64k merges). Then you're left with a vocabulary that includes characters, pair of characters, full words, etc. We refer to these as subwords.
 
+==One of the implications is that there won't be any UNK tokens in our training set, using BPE... and any sequence at inference time using the same base characters that we started with similarly won't have unknown tokens. ==
+- Note that if we have to use a bunch of the base tokens (eg "a", "b"), then the inference is going to be slower, because we have to process more tokens as a result.
+
+![[Pasted image 20240523205905.png]]
+- It's actually 7x faster to use subword tokenization than byte-level tokenization!
+
+
 ---
 
