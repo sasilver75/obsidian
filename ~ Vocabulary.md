@@ -152,6 +152,8 @@
 - [[Self-Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
+- [[Reward Model]]
+- [[Bradley-Terry Model]]
 - [[Graph Convolutional Network]]
 - [[Mode Collapse]] 
 - [[VC Dimension]]

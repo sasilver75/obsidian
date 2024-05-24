@@ -47,3 +47,19 @@ We repeat the process!
 This time, we're probably going to add "un" to our vocabulary, but the *next* time it's possible we'll see "hug" joining our vocabulary!
 
 Basically, we keep repeating this process until we've reached a number of steps (eg 32k, 64k merges). Then you're left with a vocabulary that includes characters, pair of characters, full words, etc. We refer to these as subwords.
+
+
+==One of the implications is that there won't be any UNK tokens in our training set, using BPE... and any sequence at inference time using the same base characters that we started with similarly won't have unknown tokens. ==
+- Note that if we have to use a bunch of the base tokens (eg "a", "b"), then the inference is going to be slower, because we have to process more tokens as a result.
+
+![[Pasted image 20240523205905.png]]
+Note that BPE requires a pre-tokenization step, where we split the sequence into whitespace tokens, where we split a sequence of characteres into words. This is actually a limiting thing for some langauges that don't use a clear thing like a space to separate words! Things like SentencePiece have some ways of bypassing this.
+
+
+
+![[Pasted image 20240523205936.png]]
+Above: [[WordPiece]], [[SentencePiece]]
+
+![[Pasted image 20240523210139.png]]
+Languages like Thai don't use spaces between words
+It's sort of a contentious topic in the sense 
