@@ -86,5 +86,32 @@ Abstract
 
 ---
 [DSPy End-to-End Meetup](https://youtu.be/Y81DoFmt-2U?si=eCBDuT24Pyj83cmK&t=3124) Notes
-- Nowe we can build systems 
+
+![[Pasted image 20240523143552.png]]
+The of optimizers is to maximize a particular function on your data.
+
+![[Pasted image 20240523143901.png]]
+Above: Many optimizers in DSPy
+- MIPRO Optimizer: Multi-Instruction Proposal Optimizer
+	- Bootstrap successful traces of the modules
+	- Summarize patterns in data
+	- Propose instructions based on these observations
+	- Treat instructions x examples as hyperparameters across modules, applying a bayesian optimizer (TPE)
+
+
+![[Pasted image 20240523144300.png]]
+The program and optimizers can matter a lot more than your choice of language model. So when someone says "GPT-4 got X on Y benchmark," you really need to say "You don't know what you're talking about," if they're not talking about the program the model is running, and the optimizations that 
+were used.
+
+![[Pasted image 20240523145014.png]]
+Note that he notes it being used for synthetic generation of retrieval training data - interesting. As well as for LLM-as-a-Judge-type applications.
+
+![[Pasted image 20240523145227.png]]
+
+
+![[Pasted image 20240523150043.png]]
+Re: the 20-30 I/O examples... Don't collect chains of thought; no really weird examples. Just 20-30 I/O examples.
+We can do a better job telling people how to build metrics. Maybe you *start* with something like "Hey GPT-4, help me judge this," and then get something better later on.
+We have some guidance on which type of optimizer to select, but there are really only 3-4 that you should choose from at any given time. For optimizing, you might want to use someone else's data, or synthesize some data to match your task. You can figure out how to get some data for training
+
 

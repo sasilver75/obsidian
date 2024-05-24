@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "CS685 Lecture 9",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Normalized Discounted Cumulative Gain",
+      "path": "Normalized Discounted Cumulative Gain.md"
+    },
+    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
@@ -9,12 +25,16 @@
       "path": "DSPy.md"
     },
     {
-      "basename": "Hallucination",
-      "path": "Hallucination.md"
+      "basename": "HotpotQA",
+      "path": "HotpotQA.md"
     },
     {
-      "basename": "CS685 Lecture 9",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
+      "basename": "Multi-Hop",
+      "path": "Multi-Hop.md"
+    },
+    {
+      "basename": "Hallucination",
+      "path": "Hallucination.md"
     },
     {
       "basename": "Softmax",
@@ -35,10 +55,6 @@
     {
       "basename": "Axolotl",
       "path": "Axolotl.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "RewardBench",
@@ -85,10 +101,6 @@
       "path": "Perplexity.md"
     },
     {
-      "basename": "Normalized Discounted Cumulative Gain",
-      "path": "Normalized Discounted Cumulative Gain.md"
-    },
-    {
       "basename": "ULMFiT",
       "path": "ULMFiT.md"
     },
@@ -111,10 +123,6 @@
     {
       "basename": "HoVer",
       "path": "HoVer.md"
-    },
-    {
-      "basename": "HotpotQA",
-      "path": "HotpotQA.md"
     },
     {
       "basename": "Relevance-Guided Supervision",
@@ -191,14 +199,6 @@
     {
       "basename": "OxML Fundamentals Lecture - Deep Neural Networks and Optimization (Day 2)",
       "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Deep Neural Networks and Optimization (Day 2).md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Optimization (Day 2)",
-      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Optimization (Day 2).md"
-    },
-    {
-      "basename": "Daphne Koeller",
-      "path": "Daphne Koeller.md"
     }
   ],
   "omittedPaths": [],

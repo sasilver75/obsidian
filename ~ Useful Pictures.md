@@ -263,4 +263,8 @@ Above: Comparison of Pairwise Ranking and Direct Assessment tasks for LM evaluat
 ![[Pasted image 20240522194541.png]]
 
 ![[Pasted image 20240523120834.png]]
+![[Pasted image 20240523160226.png]]
+Above: Google using AI results on their search queries making people angry.
+
+
 

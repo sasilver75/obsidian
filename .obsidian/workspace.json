@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e427220871659f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Byte-Pair Encoding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Byte-Pair Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Byte-Pair Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Byte-Pair Encoding.md"
               }
             }
           },
@@ -160,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Byte-Pair Encoding.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,44 +220,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bded5d3c720416df",
+  "active": "6e427220871659f2",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240523120834.png",
-    "DSPy.md",
-    "Hallucination.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
+    "_attachments/Pasted image 20240523164259.png",
+    "_attachments/Pasted image 20240523163817.png",
+    "_attachments/Pasted image 20240523163656.png",
+    "_attachments/Pasted image 20240523162959.png",
+    "~ Vocabulary.md",
+    "Normalized Discounted Cumulative Gain.md",
+    "_attachments/Pasted image 20240523162620.png",
+    "_attachments/Pasted image 20240523162355.png",
+    "_attachments/Pasted image 20240523161743.png",
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240522194541.png",
+    "_attachments/Pasted image 20240523160226.png",
+    "DSPy.md",
+    "_attachments/Pasted image 20240523150043.png",
+    "_attachments/Pasted image 20240523145227.png",
+    "HotpotQA.md",
+    "Multi-Hop.md",
+    "Hallucination.md",
     "Softmax.md",
     "Courses/LLM Mastery/Lecture 2.md",
     "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
     "PaperClubs/LatentSpace/RAG Survey.md",
     "Axolotl.md",
-    "~ Vocabulary.md",
     "RewardBench.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
     "TART.md",
     "CleanLab.md",
     "Modal.md",
-    "_attachments/Pasted image 20240521220209.png",
-    "_attachments/Pasted image 20240521220205.png",
     "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
-    "_attachments/Pasted image 20240521214236.png",
     "N-Gram.md",
-    "_attachments/Pasted image 20240521214147.png",
-    "_attachments/Pasted image 20240521213240.png",
-    "_attachments/Pasted image 20240521212138.png",
-    "_attachments/Pasted image 20240521211736.png",
     "Maximum Likelihood.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md",
     "Label Smoothing.md",
     "Perplexity.md",
-    "Normalized Discounted Cumulative Gain.md",
-    "_attachments/Pasted image 20240521210529.png",
-    "_attachments/Pasted image 20240521210315.png",
     "ULMFiT.md",
-    "Zephyr.md",
-    "Starling.md",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",
