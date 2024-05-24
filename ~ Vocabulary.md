@@ -290,7 +290,7 @@
 - [[Success]]
 - [[Reciprocal Rank]]
 - [[Mean Reciprocal Rank]]
-- [[Normalized Discounted Cumulative Gain]] (NDGC)
+- [[Normalized Discounted Cumulative Gain]] (NDCG)
 - [[Return Set]]
 - [[Relevance Set]]
 - [[Average Precision]]
