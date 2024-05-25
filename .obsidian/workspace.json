@@ -13,54 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7857b0a625c0e406",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c24415a667ff1fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bradley-Terry Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e427220871659f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Byte-Pair Encoding.md"
+                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md"
               }
             }
           },
@@ -200,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -246,9 +206,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6e427220871659f2",
+  "active": "bded5d3c720416df",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240524231355.png",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md",
+    "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
+    "~ Vocabulary.md",
+    "Bradley-Terry Model.md",
+    "Byte-Pair Encoding.md",
     "_attachments/Pasted image 20240524114745.png",
     "_attachments/Pasted image 20240524114513.png",
     "_attachments/Pasted image 20240524114422.png",
@@ -262,9 +227,6 @@
     "_attachments/Pasted image 20240524012524.png",
     "_attachments/Pasted image 20240524003117.png",
     "_attachments/Pasted image 20240524002040.png",
-    "~ Vocabulary.md",
-    "Bradley-Terry Model.md",
-    "Byte-Pair Encoding.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
     "Normalized Discounted Cumulative Gain.md",
@@ -283,7 +245,6 @@
     "TART.md",
     "CleanLab.md",
     "Modal.md",
-    "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",
