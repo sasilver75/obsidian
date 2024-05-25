@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
+                "file": "Byte-Pair Encoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "753676acf015a716",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WordPiece.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
+                "file": "WordPiece.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
+                "file": "WordPiece.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md"
+                "file": "WordPiece.md"
               }
             }
           },
@@ -160,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
+                "file": "WordPiece.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,14 +220,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bded5d3c720416df",
+  "active": "753676acf015a716",
   "lastOpenFiles": [
+    "Byte-Pair Encoding.md",
+    "WordPiece.md",
+    "SentencePiece.md",
+    "Tokenizer.md",
+    "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
+    "Articles/The Maximum Likelihood Estimation (Jan 02, 2024) {Tivadar Danka}.md",
     "_attachments/Pasted image 20240524231355.png",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md",
-    "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
     "~ Vocabulary.md",
     "Bradley-Terry Model.md",
-    "Byte-Pair Encoding.md",
     "_attachments/Pasted image 20240524114745.png",
     "_attachments/Pasted image 20240524114513.png",
     "_attachments/Pasted image 20240524114422.png",
@@ -226,7 +244,6 @@
     "_attachments/Pasted image 20240524013635.png",
     "_attachments/Pasted image 20240524012524.png",
     "_attachments/Pasted image 20240524003117.png",
-    "_attachments/Pasted image 20240524002040.png",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
     "Normalized Discounted Cumulative Gain.md",
@@ -242,9 +259,6 @@
     "Axolotl.md",
     "RewardBench.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
-    "TART.md",
-    "CleanLab.md",
-    "Modal.md",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",
