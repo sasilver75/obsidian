@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
+                "file": "Byte-Pair Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
+                "file": "Byte-Pair Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md"
+                "file": "Byte-Pair Encoding.md"
               }
             }
           },
@@ -199,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
+                "file": "Byte-Pair Encoding.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -245,25 +246,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bded5d3c720416df",
+  "active": "6e427220871659f2",
   "lastOpenFiles": [
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md",
+    "_attachments/Pasted image 20240524114745.png",
+    "_attachments/Pasted image 20240524114513.png",
+    "_attachments/Pasted image 20240524114422.png",
+    "_attachments/Pasted image 20240524114255.png",
+    "Excalidraw/Drawing 2024-05-24 11.41.57.excalidraw.md",
+    "Excalidraw",
+    "_attachments/Pasted image 20240524113955.png",
+    "_attachments/Pasted image 20240524113220.png",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
     "_attachments/Pasted image 20240524013635.png",
     "_attachments/Pasted image 20240524012524.png",
     "_attachments/Pasted image 20240524003117.png",
     "_attachments/Pasted image 20240524002040.png",
     "~ Vocabulary.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
     "Bradley-Terry Model.md",
-    "_attachments/Pasted image 20240524001642.png",
-    "_attachments/Pasted image 20240524001632.png",
     "Byte-Pair Encoding.md",
-    "_attachments/Pasted image 20240524000716.png",
-    "_attachments/Pasted image 20240524000225.png",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md",
-    "_attachments/Pasted image 20240523221046.png",
-    "_attachments/Pasted image 20240523221018.png",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
-    "_attachments/Pasted image 20240523210139.png",
     "Normalized Discounted Cumulative Gain.md",
     "~ Useful Pictures.md",
     "DSPy.md",
@@ -281,8 +284,6 @@
     "CleanLab.md",
     "Modal.md",
     "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
-    "N-Gram.md",
-    "Maximum Likelihood.md",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",
@@ -291,7 +292,6 @@
     "Courses/CS25",
     "Courses/XCS224U NLU @ Stanford",
     "Articles/ML/Untitled",
-    "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov",
-    "PaperClubs/Oxen"
+    "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov"
   ]
 }
