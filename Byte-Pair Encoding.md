@@ -2,11 +2,45 @@
 aliases:
   - BPE
 ---
-1. Start with a vocabulary containing only *characters* and an "End of Word" symbol
+Introduced in 2016's *Neural Machine Translation of Rare Words with Subword Units (Sennrich et al.)*
+
+Used by [[GPT-2]], [[GPT-3]], [[GPT-4]], [[RoBERTa]], and more.
+
+BPE creates a base vocabulary consisting of all symbols that occur in our set of unique words, and learns merge rules to form new symbols from two symbols of the base vocabulary. It does so repeatedly until the vocabulary has attained the desired vocabulary size (which is hyperparameter). 
+
+1.  Start with a vocabulary containing only *characters* and an "End of Word" symbol
 2. Using a corpus of text, find the *most common adjacent characters* (say, a+b) and add the concatenation as a subword (ab)
 3. Replace instances of the character pair with the new subword; repeat until desired vocab size is reached.
 
 What you end up with is a vocabulary of very commonly-occurring substrings, which can be used to build up words.
+
+GPT-2 used *bytes* as the base vocabulary (Byte-level BPE), which was a clever trick to force the base vocabulary to be size 256 while ensuring that every base character is included in the vocabulary. GPT2's tokenizer can tokenize every text without the need for the `<unk>` symbol.
+
+----
+
+Given an initial set of words/frequencies in a dataset:
+
+`("hug", 10), ("pug", 5), ("pun", 12), ("bun", 4), ("hugs", 5)`
+
+Consequently, our base vocabulary is 
+
+`["b", "g", "h", "n", "p", "s", "u"]`
+
+We can then split all words into symbols of the base vocabulary:
+
+`("h" "u" "g", 10), ("p" "u" "g", 5), ("p" "u" "n", 12), ("b" "u" "n", 4), ("h" "u" "g" "s", 5)`
+
+We can then count the frequency of each possible symbol pair, and pick the symbol pair that occurs the most frequently. Above, "hu" is present 15 times, but the most frequent symbol pair is "ug", occurring 20 times. So the first merge we make is to group all "u","g"s into "ug". 
+
+Our words are now:
+`("h" "ug", 10), ("p" "ug", 5), ("p" "u" "n", 12), ("b" "u" "n", 4), ("h" "ug" "s", 5)`
+
+BPE then continues to identify the next most common symbol pair ("u", "n", becomes "un")
+
+`("hug", 10), ("p" "ug", 5), ("p" "un", 12), ("b" "un", 4), ("hug" "s", 5)`
+
+And on and on.
+- Now, "bug" would be tokenized to `["b", "ug"]`, but "mug" would be tokenized as `["<unk>", "ug"]`, since `m` wasn't a symbol in the base vocabulary. In general, this wouldn't happen to single letters, but might happen for special characters like emojis.
 
 ---
 

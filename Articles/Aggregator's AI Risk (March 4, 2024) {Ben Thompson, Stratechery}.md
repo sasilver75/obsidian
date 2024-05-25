@@ -40,10 +40,8 @@ Concerns over Facebook's power were slightly mollified by their investing billio
 	- Users deciding to go somewhere else is the only thing that can bring an Aggregator down -- or at least significantly impair their margins.
 
 ## Personalized AIs
-- Google and Meta in particular, though, could do more than that: these are companies whose business model — personalized advertising — is predicated on understanding at a very deep level what every single person is interested in on an individual basis. Moreover, that personalization goes into the product experience as well: your search results are affected by your past searches and personalized profile, as is your feed in Meta’s various products. ==It certainly seems viable that the prompt could also be personalized==.
+- Google and Meta in particular, though, could do more than that: these are companies whose business model — personalized advertising — is predicated on understanding at a very deedp level what every single person is interested in on an individual basis. Moreover, that personalization goes into the product experience as well: your search results are affected by your past searches and personalized profile, as is your feed in Meta’s various products. ==It certainly seems viable that the prompt could also be personalized==.
 - Imagine if Google had an entire collection of system prompts that mapped onto the Topics API (transparently posted, of course): ==the best prompt for the user would be selected based on what the user has already showed an interest in== (along with other factors like where they are located, preferences, etc.). This would transform the AI from being a sole source of truth dictating supply to the user, to one that gives the user what they want — which is exactly how Aggregators achieve market power in the first place.
-- 
-
 
 
 

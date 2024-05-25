@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "WordPiece",
+      "path": "WordPiece.md"
+    },
+    {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "SentencePiece",
+      "path": "SentencePiece.md"
+    },
+    {
+      "basename": "Tokenizer",
+      "path": "Tokenizer.md"
+    },
+    {
       "basename": "Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}",
       "path": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "Bradley-Terry Model",
       "path": "Bradley-Terry Model.md"
-    },
-    {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
     },
     {
       "basename": "Drawing 2024-05-24 11.41.57.excalidraw",
@@ -187,18 +199,6 @@
     {
       "basename": "Naive Bayes",
       "path": "Naive Bayes.md"
-    },
-    {
-      "basename": "K-Means Clustering",
-      "path": "K-Means Clustering.md"
-    },
-    {
-      "basename": "Feature Engineering",
-      "path": "Feature Engineering.md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Factorization Methods (Day 1)",
-      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Factorization Methods (Day 1).md"
     }
   ],
   "omittedPaths": [],
