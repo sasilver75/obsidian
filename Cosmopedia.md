@@ -65,4 +65,4 @@ Benchmark decontamination information above is interesting as well
 - This is just the initial version of Cosmopedia, and we are actively working on enhancing the quality of the generated content.
 	- The accuracy and reliability of the generations largely depends on the model used in the generation
 	- Mixtral may sometimes hallucinate and produce incorrect information, for example when it comes to historical facts or mathematical reasoning within the AutoMathText and KhanAcademy subsets (they didn't compare Mixtral to other models, in this regard).
-		- One strategy to mitigate the issue of hallucinations is the use of retrieval augmented generation ([[Retrieval-Augmented Generation|RAG]]). This involves retrieving information related to the seed sample, for example from Wikipedia, and incorporating it into the context
+		- One strategy to mitigate the issue of hallucinations is the use of retrieval augmented generation ([[Retrieval-Augmented Generation (Model)|RAG]]). This involves retrieving information related to the seed sample, for example from Wikipedia, and incorporating it into the context

@@ -16,7 +16,7 @@ Notes
 	- We split a given intermediate activation in the decoder into *attending chunks* (see fig 2). We compute the cross-attention between these chunks and... something from the encoded retrieval set ((?)).
 	- ==I don't really understand this chunked cross-attention mechanism==
 - ==Similar== to [[Fusion-in-Decoder|FiD]], [[RETRO]] processes the retrieved neighbors separately in the encoder, and assemble them in the chunked cross-attention. This ==differs== from (eg) [[REALM]], where they prepend retrieved documents the prompt.
-- Retriever is based on a pre-trained, *frozen* [[Bidirectional Encoder Representations from Transformers|BERT]] model. It's interesting that *they ==didn't choose to jointly train the retriever==*, like [[Retrieval-Augmented Generation|RAG]] did (where they found that it was a useful aspect of the system, I believe?).
+- Retriever is based on a pre-trained, *frozen* [[Bidirectional Encoder Representations from Transformers|BERT]] model. It's interesting that *they ==didn't choose to jointly train the retriever==*, like [[Retrieval-Augmented Generation (Model)|RAG]] did (where they found that it was a useful aspect of the system, I believe?).
 	- ==Explanation==: "We use a frozen model to avoid having to periodically recompute embeddings over the entire database during training." Good point!
 - ==Retrieval is done during the whole pre-training process in RETRO== -- it's not simply plugged in to solve a certain downstream task.
 
@@ -33,7 +33,7 @@ Above:
 - Note that the input tokens make it both into the encoder (via the query encoder in the kNN retriever) and the decoder as input. For MT tasks with Encoder-decoder architectures, I usually only think of the input tokens as being put into the encoder, rather than the decoder.
 
 ![[Pasted image 20240501174232.png]]
-Comparison with [[Retrieval-Augmented Generation|RAG]], [[REALM]], [[DPR]], kNN-LM, and [[Fusion-in-Decoder]] (FiD)
+Comparison with [[Retrieval-Augmented Generation (Model)|RAG]], [[REALM]], [[DPR]], kNN-LM, and [[Fusion-in-Decoder]] (FiD)
 
 ![[Pasted image 20240501174523.png]]
 

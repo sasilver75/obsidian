@@ -6,7 +6,7 @@ Subject: Multimodal Deep Learning
 ------
 ![[Pasted image 20240417000000.png]]
 
-Today, Chris introduces us to [[Douwe Kiela]], the guest lecture for this lecture ([[Meta AI Research|FAIR]], where he invented [[Retrieval-Augmented Generation]], [[HuggingFace]]), now a Stanford Professor
+Today, Chris introduces us to [[Douwe Kiela]], the guest lecture for this lecture ([[Meta AI Research|FAIR]], where he invented [[Retrieval-Augmented Generation (Model)]], [[HuggingFace]]), now a Stanford Professor
 
 ------
 
@@ -210,7 +210,7 @@ Okay, then where does [[Contextual]] come from? (Which he cofounded with a frien
 	- ==Models are still quite inefficient; can be faster==
 - At Contextual, building a "DIFFERENT KIDN OF LM", from first principles for enterprise use cases
 	- Trying to be a bit smarter
-	- Arch is based on [[Retrieval-Augmented Generation]] , where you can decouple compute and memory (which can be updated/revised on the fly).
+	- Arch is based on [[Retrieval-Augmented Generation (Model)]] , where you can decouple compute and memory (which can be updated/revised on the fly).
 
 "Hallucinations are a Feature, not a Bug" - Emad
 - Douwe thinks it's a great quote, but it's a bit more naunced than "Y/N" -- if you want the model to be very creative, you want it to hallucinate! A spectrum from groundedness to hallucination. For our enterprise use cases, we don't want creativity, we want it to do what it has to do.

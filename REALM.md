@@ -2,7 +2,7 @@
 aliases:
   - Retrieval-Augmented Language Model Pre-Training
 ---
-February 10, 2020 (3 months before Meta's [[Retrieval-Augmented Generation|RAG]], 4 months before GPT-3)
+February 10, 2020 (3 months before Meta's [[Retrieval-Augmented Generation (Model)|RAG]], 4 months before GPT-3)
 [[DeepMind]] (Same org who would later go on to do [[RETRO]] in December 2021)
 Paper: [REALM: Retrieval-Augmented Language Model Pretraining](https://arxiv.org/abs/2002.08909)
 #zotero 

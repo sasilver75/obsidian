@@ -20,7 +20,7 @@ Despite the success of LM,s their black-box nature hinders key goals of NLP; the
 
 The post explores an emerging alternative, ==Retrieval-based NLP==, in which models directly "search" for information in a text corpus to exhibit knowledge, leveraging the representational strengths of language models while addressing the challenges above.
 
-Such models, like [[REALM]], [[Retrieval-Augmented Generation|RAG]], [[ColBERT]], and Baleen, are already advancing the SoTA for talks like open-domain QA and verification of complex claims, ==all with architectures that back their predictions with checkable sources== while while being 100-1000x smaller than GPT-3.
+Such models, like [[REALM]], [[Retrieval-Augmented Generation (Model)|RAG]], [[ColBERT]], and Baleen, are already advancing the SoTA for talks like open-domain QA and verification of complex claims, ==all with architectures that back their predictions with checkable sources== while while being 100-1000x smaller than GPT-3.
 
 ![[Pasted image 20240425221326.png]]
 
@@ -66,9 +66,9 @@ This leads to 3 key advantages:
 	- We want NLP models to use retrieval to answer questions, fact-check claims,  respond informatively in a conversation, and identify the sentiment of a piece of text.
 	- Many of these ==knowledge-intensive tasks== above are collected in the KILT benchmark. The most popular task is open-domain question-answering, where systems are given a question from any domain and must produce an answer, often by reference to the passage in a large corpus.
 
-Two popular models in this open-domain QA space are [[REALM]] and [[Retrieval-Augmented Generation|RAG]]. these rely on the ORQA and DPR retrievers mentioned earlier. REALM and RAG ***jointly*** tune a ==retriever== as well as a ==reader==, a modeling component that consumed the retrieved documents and produces answers/responses.
+Two popular models in this open-domain QA space are [[REALM]] and [[Retrieval-Augmented Generation (Model)|RAG]]. these rely on the ORQA and DPR retrievers mentioned earlier. REALM and RAG ***jointly*** tune a ==retriever== as well as a ==reader==, a modeling component that consumed the retrieved documents and produces answers/responses.
 
-Take [[Retrieval-Augmented Generation|RAG]] as an example: its reader is a generative [[BART]] model, which attends to the passages while generating the target outputs.
+Take [[Retrieval-Augmented Generation (Model)|RAG]] as an example: its reader is a generative [[BART]] model, which attends to the passages while generating the target outputs.
 
 These two models constitute important steps toward retrieval-based LMs, but ==they suffer from two major limitations==
 1. They use the restrictive paradigm of ==Figure 2b== above for retrieval ((I think we'd call this a [[Bi-Encoder]]? Anyways, this uses document-level vectors, instead of token-level vectors, so surely some nuance is lost?)), sacrificing recall: they're ==often unable to find relevant passages== for conducting their tasks.

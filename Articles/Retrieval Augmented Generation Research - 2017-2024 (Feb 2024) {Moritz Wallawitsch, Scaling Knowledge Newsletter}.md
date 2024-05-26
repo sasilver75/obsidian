@@ -138,7 +138,7 @@ The authors further leverage contrastive learning to train the model to distingu
 ![[Pasted image 20240414163422.png]]
 
 
-#### [[Retrieval-Augmented Generation|RAG]]: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al, 2020)
+#### [[Retrieval-Augmented Generation (Model)|RAG]]: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al, 2020)
 - This paper is the ==origin of the idea of a *dynamic end-to-end trained RAG system backpropagating into both the retriever and the generator==*
 	- (However, the document encoder step in this and the next paper is still static/frozen)
 ![[Pasted image 20240414171247.png]]

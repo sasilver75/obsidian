@@ -76,7 +76,7 @@ News Story 6: Cody Grows up and Goes GA. Already.
 - Cody, Sourcegraph's LLM-backed RAG-based AI coding assistant, is now Generally Available - for you!
 - You can use Cody in several clients, including the flagship VSCode (GA), IntelliJ (Beta), other Jetbrain IDEs (Experimental) and Neovim (Beta). And it has a free tier to just screw around with it.
 - The completion suggestions are fast and satisfyingly accurate, and the Cody chat experience is basically unparalleled, with the chat UI and context specification being dramatically improved. 
-- Cody's secret sauce is that Cody is the perfect [[Retrieval-Augmented Generation|RAG]]-based coding assistant, which is by definition one that produces the best context for the LLM to process.
+- Cody's secret sauce is that Cody is the perfect [[Retrieval-Augmented Generation]]-based coding assistant, which is by definition one that produces the best context for the LLM to process.
 - This is what RAG is all about -- you *augment* the LLM's generation by retrieving as much information as a *human* might need in order to perform some task, and then feeding that to the LLM along with the task instructions.
 - Cody's RAG is a variant of a recommendation system -- recommending relevant code and other context to the LLM for each task or query.
 	- Producing the perfect context is a dark art today -- Cody is likely the further along here from what the author can see.

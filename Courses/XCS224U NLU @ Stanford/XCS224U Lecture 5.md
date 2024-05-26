@@ -113,7 +113,7 @@ We give a description of what the reasoning/prompt should look like, using an in
 
 
 ## Self-Consistency
- - Another powerful method is [[Self-Consistency]], and it relates to an earlier model called [[Retrieval-Augmented Generation]] (the model).
+ - Another powerful method is [[Self-Consistency]], and it relates to an earlier model called [[Retrieval-Augmented Generation (Model)]] (the model).
 - We use our LM to sample a bunch of different generated responses, each of which might use something like CoT.
 - Those answers might vary across the different generated paths that the model took
 - What we're going to do is do is trust/select the answer that was most popularly produced, among the different reasoning paths. The most probable answer given all those paths is likely to be the correct one, is the idea.
