@@ -211,7 +211,7 @@
 - [[LongRoPE]]
 - [[YaRN]]
 - [[Attention with Linear Biases]] (ALiBi)
-- [[SPIN]] (Self-Play Fine-Tuning)
+- [[Self-Play Fine-Tuning]] (Self-Play Fine-Tuning)
 - [[Canary GUID]]
 - [[Early Stopping]]
 - [[Learning Rate]]
@@ -243,6 +243,9 @@
 - [[KV Cache]]
 - [[Negative Prompt]]
 - [[LLM-as-a-Judge]]
+- [[Positional Bias]]
+- [[Verbosity Bias]]
+- [[Self-Enhancement Bias]]
 - [[Continual Pretraining]]
 - [[False Refuse]]
 - [[Retrieval-Augmented Generation]] (RAG)
@@ -307,6 +310,7 @@
 - [[IRCoT]]
 - Generate-Read, Recite-Read, Rewrite-Retrieve-Read, ...
 - [[Relevance-Guided Supervision]]
+- [[Hard Negative Mining]]
 
 # Natural Language Processing Concepts
 - Tasks
@@ -332,6 +336,7 @@
 - [[Dependency Grammar]]
 - [[Back-Translation]]
 - [[ROGUE]] Score
+- [[BERTScore]]
 - [[Automatic Speech Recognition]]
 - [[Byte-Pair Encoding]] Tokenization
 - [[SentencePiece]] Tokenization
@@ -556,6 +561,7 @@
 - [[Medusa]]
 - [[CogVLM]]
 - [[LLaVA]]
+- [[MemGPT]]
 
 # Tools
 - [[ComfyUI]]
@@ -592,6 +598,7 @@
 - [[LangSmith]]
 - [[Modal]]
 - [[RAGAS]]
+- [[Sentence Transformers]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)
@@ -628,6 +635,7 @@
 - [[Dynabench]]
 - [[Dynaboard]]
 - [[RewardBench]]
+- [[MTEB]] (Massive Text Embedding Benchmark)
 # Datasets
 *Datasets for training/finetuning models*
 - [[Common Crawl]]

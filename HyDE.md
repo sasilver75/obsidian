@@ -6,7 +6,7 @@ December 20, 2022
 LTI @ Carnegie Mellon, UWaterloo
 Link: [Precise Zero-Shot Dense Retrieval Without Relevance Labels](https://arxiv.org/abs/2212.10496)
 #zotero 
-Takeaway: Given a query, ask an LLM to hallucinate a hypothetical document that would be relevant to answering the question. Embed the resulting hypothetical document, and retrieve the *actual* documents that near it in document-embedding space! The hope is that the document encoder's dense bottleneck filters out incorrect details in the hypothetical document. This is all in the context of zero-shot information retrieval, where we don't have relevance labels between queries and documents. If we *do*, then perhaps HyDE isn't an appropriate technique.
+Takeaway: Given a query, ask an LLM to hallucinate a hypothetical document that would be relevant to answering the question. Embed the resulting hypothetical document, and retrieve the *actual* documents that near it in document-embedding space! The hope is that the document encoder's dense bottleneck filters out incorrect details in the hypothetical document. This is all in the context of zero-shot information retrieval, where we don't have relevance labels between queries and documents. If we *do*, then perhaps HyDE isn't an appropriate technique -- but if we're in a situation where we don't have relevance judgements for query-passage pairs, but need to bootstrap a retrieval system, HyDE might be an interesting place to start.
 
 
 ----

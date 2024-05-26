@@ -1,12 +1,188 @@
 {
   "recentFiles": [
     {
-      "basename": "WordPiece",
-      "path": "WordPiece.md"
+      "basename": "Evaluation Index",
+      "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "Web Rephrase Augmented Pre-training",
+      "path": "Web Rephrase Augmented Pre-training.md"
+    },
+    {
+      "basename": "Synthetic Data Index",
+      "path": "Indices/Synthetic Data Index.md"
+    },
+    {
+      "basename": "Self-Play Fine-Tuning",
+      "path": "Self-Play Fine-Tuning.md"
+    },
+    {
+      "basename": "Starling",
+      "path": "Starling.md"
+    },
+    {
+      "basename": "Orca 2",
+      "path": "Orca 2.md"
     },
     {
       "basename": "Byte-Pair Encoding",
       "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "Data Augmentation",
+      "path": "Data Augmentation.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
+      "path": "PaperClubs/Oxen/Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md"
+    },
+    {
+      "basename": "Paperclub The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits",
+      "path": "PaperClubs/LatentSpace/Paperclub The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md"
+    },
+    {
+      "basename": "Paperclub Self-Rewarding Language Models",
+      "path": "PaperClubs/LatentSpace/Paperclub Self-Rewarding Language Models.md"
+    },
+    {
+      "basename": "Paperclub RAG Survey",
+      "path": "PaperClubs/LatentSpace/Paperclub RAG Survey.md"
+    },
+    {
+      "basename": "Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling",
+      "path": "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md"
+    },
+    {
+      "basename": "Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey",
+      "path": "PaperClubs/LatentSpace/Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey.md"
+    },
+    {
+      "basename": "Paperclub BitNet - Scaling 1-bit Transformers for Large Language Models",
+      "path": "PaperClubs/LatentSpace/Paperclub BitNet - Scaling 1-bit Transformers for Large Language Models.md"
+    },
+    {
+      "basename": "Hard Negative Mining",
+      "path": "Hard Negative Mining.md"
+    },
+    {
+      "basename": "Guardrails",
+      "path": "Guardrails.md"
+    },
+    {
+      "basename": "Prompt Tuning",
+      "path": "Prompt Tuning.md"
+    },
+    {
+      "basename": "Quantized Low-Rank Adaptation",
+      "path": "Quantized Low-Rank Adaptation.md"
+    },
+    {
+      "basename": "Parameter-Efficient Fine-Tuning",
+      "path": "Parameter-Efficient Fine-Tuning.md"
+    },
+    {
+      "basename": "Prefix Tuning",
+      "path": "Prefix Tuning.md"
+    },
+    {
+      "basename": "CS685 Lecture 10",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md"
+    },
+    {
+      "basename": "CS685 Lecture 9",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
+    },
+    {
+      "basename": "Approximate Nearest Neighbor Search",
+      "path": "Approximate Nearest Neighbor Search.md"
+    },
+    {
+      "basename": "FAISS",
+      "path": "FAISS.md"
+    },
+    {
+      "basename": "MTEB",
+      "path": "MTEB.md"
+    },
+    {
+      "basename": "ROGUE",
+      "path": "ROGUE.md"
+    },
+    {
+      "basename": "LLM-as-a-Judge",
+      "path": "LLM-as-a-Judge.md"
+    },
+    {
+      "basename": "Fusion-in-Decoder",
+      "path": "Fusion-in-Decoder.md"
+    },
+    {
+      "basename": "Embedding",
+      "path": "Embedding.md"
+    },
+    {
+      "basename": "Self-Enhancement Bias",
+      "path": "Self-Enhancement Bias.md"
+    },
+    {
+      "basename": "Sentence Transformers",
+      "path": "Sentence Transformers.md"
+    },
+    {
+      "basename": "HyDE",
+      "path": "HyDE.md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
+    },
+    {
+      "basename": "Dense Passage Retrieval",
+      "path": "Dense Passage Retrieval.md"
+    },
+    {
+      "basename": "BERTScore",
+      "path": "BERTScore.md"
+    },
+    {
+      "basename": "BLEU",
+      "path": "BLEU.md"
+    },
+    {
+      "basename": "Absolute Positional Encoding",
+      "path": "Absolute Positional Encoding.md"
+    },
+    {
+      "basename": "HELM",
+      "path": "HELM.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
+      "basename": "Eleuther LM Evaluation Harness",
+      "path": "Eleuther LM Evaluation Harness.md"
+    },
+    {
+      "basename": "Massive Multi-task Language Understanding",
+      "path": "Massive Multi-task Language Understanding.md"
+    },
+    {
+      "basename": "WordPiece",
+      "path": "WordPiece.md"
     },
     {
       "basename": "SentencePiece",
@@ -23,182 +199,6 @@
     {
       "basename": "CS685 Lecture 12",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Bradley-Terry Model",
-      "path": "Bradley-Terry Model.md"
-    },
-    {
-      "basename": "Drawing 2024-05-24 11.41.57.excalidraw",
-      "path": "Excalidraw/Drawing 2024-05-24 11.41.57.excalidraw.md"
-    },
-    {
-      "basename": "CS685 Lecture 11",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md"
-    },
-    {
-      "basename": "CS685 Lecture 10",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md"
-    },
-    {
-      "basename": "CS685 Lecture 9",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
-    },
-    {
-      "basename": "Normalized Discounted Cumulative Gain",
-      "path": "Normalized Discounted Cumulative Gain.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "DSPy",
-      "path": "DSPy.md"
-    },
-    {
-      "basename": "HotpotQA",
-      "path": "HotpotQA.md"
-    },
-    {
-      "basename": "Multi-Hop",
-      "path": "Multi-Hop.md"
-    },
-    {
-      "basename": "Hallucination",
-      "path": "Hallucination.md"
-    },
-    {
-      "basename": "Softmax",
-      "path": "Softmax.md"
-    },
-    {
-      "basename": "Lecture 2",
-      "path": "Courses/LLM Mastery/Lecture 2.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
-      "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
-    },
-    {
-      "basename": "RAG Survey",
-      "path": "PaperClubs/LatentSpace/RAG Survey.md"
-    },
-    {
-      "basename": "Axolotl",
-      "path": "Axolotl.md"
-    },
-    {
-      "basename": "RewardBench",
-      "path": "RewardBench.md"
-    },
-    {
-      "basename": "CS685 Lecture 4",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md"
-    },
-    {
-      "basename": "TART",
-      "path": "TART.md"
-    },
-    {
-      "basename": "CleanLab",
-      "path": "CleanLab.md"
-    },
-    {
-      "basename": "Modal",
-      "path": "Modal.md"
-    },
-    {
-      "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
-      "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
-    },
-    {
-      "basename": "N-Gram",
-      "path": "N-Gram.md"
-    },
-    {
-      "basename": "Maximum Likelihood",
-      "path": "Maximum Likelihood.md"
-    },
-    {
-      "basename": "CS685 Lecture 2",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 2.md"
-    },
-    {
-      "basename": "Label Smoothing",
-      "path": "Label Smoothing.md"
-    },
-    {
-      "basename": "Perplexity",
-      "path": "Perplexity.md"
-    },
-    {
-      "basename": "ULMFiT",
-      "path": "ULMFiT.md"
-    },
-    {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
-      "basename": "Starling",
-      "path": "Starling.md"
-    },
-    {
-      "basename": "Fully Sharded Data Parallelism",
-      "path": "Fully Sharded Data Parallelism.md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)",
-      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
-    },
-    {
-      "basename": "HoVer",
-      "path": "HoVer.md"
-    },
-    {
-      "basename": "Relevance-Guided Supervision",
-      "path": "Relevance-Guided Supervision.md"
-    },
-    {
-      "basename": "DeepMind",
-      "path": "DeepMind.md"
-    },
-    {
-      "basename": "MMLU-Pro",
-      "path": "MMLU-Pro.md"
-    },
-    {
-      "basename": "Massive Multi-task Language Understanding",
-      "path": "Massive Multi-task Language Understanding.md"
-    },
-    {
-      "basename": "LangSmith",
-      "path": "LangSmith.md"
-    },
-    {
-      "basename": "Langtrace",
-      "path": "Langtrace.md"
-    },
-    {
-      "basename": "Self-Discover",
-      "path": "Self-Discover.md"
-    },
-    {
-      "basename": "Baleen",
-      "path": "Baleen.md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1)",
-      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Clustering and Classification with K-Means and Naive Bayes (Day 1).md"
-    },
-    {
-      "basename": "Naive Bayes",
-      "path": "Naive Bayes.md"
     }
   ],
   "omittedPaths": [],

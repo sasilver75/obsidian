@@ -104,7 +104,7 @@ The Transformer-XL needs to use relative positional encoding because previous an
 #### K-NN-LM (Khandelwal et al, 2020)
 KNN-LM enhances a pretrained LM with a separate kNN model by linearly interpolating the next token probabilities predicted by *both* models.
 - The kNN model is built on an external K-eyValue store which can store any large pretraining dataset or OOD dataset.
-- Nearest neighbor retrieval happens in the LM space using libraries like [[Faiss]] or ScaNN.
+- Nearest neighbor retrieval happens in the LM space using libraries like [[FAISS]] or ScaNN.
 - At inference time, the next token probability is a weighted sum of two predictions:
 ![[Pasted image 20240429231706.png]]
 
