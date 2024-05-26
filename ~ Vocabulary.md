@@ -313,6 +313,8 @@
 - Generate-Read, Recite-Read, Rewrite-Retrieve-Read, ...
 - [[Relevance-Guided Supervision]]
 - [[Hard Negative Mining]]
+- [[Contriver]]
+- [[Consistency Filtering]]
 
 # Natural Language Processing Concepts
 - Tasks

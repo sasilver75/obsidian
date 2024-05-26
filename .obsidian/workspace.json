@@ -4,245 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "db1200ed173ab2af",
+        "id": "6d1bea62cfca23db",
         "type": "tabs",
         "children": [
           {
-            "id": "09e09d50ea944044",
+            "id": "6279a172223d4427",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROC Curve.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad69d7142dd5e67a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ef3b74366dddcb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indices/Evaluation Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b776ed966878e71e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chrF.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21b996be72526ed8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a42ff90c4eec64b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d616a3989f25dab4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e046cba5ee17b6bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RoBERTa.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ff88373b4ee1c1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6b28c97a0d2079e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d1a17eaedea3cac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chrF.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d03b9367aa95554",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROC-AUC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b5806450c3c67f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROC-AUC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb9a06469dc5ae4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROC-AUC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ffded50f023fa40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Rephrase Augmented Pre-training.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ff26c6624baef50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indices/Synthetic Data Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83cefd20b40ddb40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indices/Synthetic Data Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99d14e5f521cd38c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Orca 2.md",
+                "file": "Promptagator.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -318,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RoBERTa.md",
+                "file": "Promptagator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -335,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RoBERTa.md",
+                "file": "Promptagator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RoBERTa.md"
+                "file": "Promptagator.md"
               }
             }
           },
@@ -383,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "RoBERTa.md",
+                "file": "Promptagator.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -429,44 +207,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e046cba5ee17b6bb",
+  "active": "6279a172223d4427",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240526111014.png",
+    "_attachments/Pasted image 20240526103335.png",
+    "_attachments/Pasted image 20240526103257.png",
+    "Consistency Regularization.md",
+    "~ Vocabulary.md",
+    "Promptagator.md",
+    "_attachments/Pasted image 20240526101425.png",
+    "_attachments/Pasted image 20240526092621.png",
+    "BEIR.md",
+    "Orca 2.md",
+    "Indices/Synthetic Data Index.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "ROC-AUC.md",
+    "chrF.md",
+    "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
     "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md",
+    "ROC Curve.md",
+    "Indices/Evaluation Index.md",
+    "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Shepherd.md",
     "Retrieval-Augmented Generation.md",
+    "RoBERTa.md",
     "Retrieval-Augmented Generation (Model).md",
     "BLEURT.md",
-    "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
-    "~ Vocabulary.md",
-    "RoBERTa.md",
-    "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Indices/Evaluation Index.md",
     "Rejection Sampling.md",
     "EssentialAI.md",
     "HELM.md",
     "COMET.md",
-    "chrF.md",
     "_attachments/Pasted image 20240525222320.png",
     "Precision-Recall Curve.md",
-    "ROC Curve.md",
     "_attachments/Pasted image 20240525215645.png",
     "PR-AUC.md",
-    "ROC-AUC.md",
-    "Type Two Error.md",
-    "Type One Error.md",
-    "Precision.md",
-    "Recall.md",
-    "Synthetic Data.md",
-    "Web Rephrase Augmented Pre-training.md",
-    "Indices/Synthetic Data Index.md",
-    "Self-Play Fine-Tuning.md",
     "_attachments/Pasted image 20240525170708.png",
     "_attachments/Pasted image 20240525163539.png",
     "_attachments/Pasted image 20240525153510.png",
     "_attachments/Pasted image 20240525150355.png",
-    "_attachments/Pasted image 20240525150354.png",
-    "_attachments/Pasted image 20240525145737.png",
-    "_attachments/Pasted image 20240525135120.png",
-    "_attachments/Pasted image 20240525135012.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

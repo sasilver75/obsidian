@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "RoBERTa",
-      "path": "RoBERTa.md"
+      "basename": "Promptagator",
+      "path": "Promptagator.md"
+    },
+    {
+      "basename": "Consistency Regularization",
+      "path": "Consistency Regularization.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "BEIR",
+      "path": "BEIR.md"
+    },
+    {
+      "basename": "Orca 2",
+      "path": "Orca 2.md"
+    },
+    {
+      "basename": "Synthetic Data Index",
+      "path": "Indices/Synthetic Data Index.md"
+    },
+    {
+      "basename": "Web Rephrase Augmented Pre-training",
+      "path": "Web Rephrase Augmented Pre-training.md"
+    },
+    {
+      "basename": "ROC-AUC",
+      "path": "ROC-AUC.md"
+    },
+    {
+      "basename": "chrF",
+      "path": "chrF.md"
+    },
+    {
+      "basename": "RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}",
+      "path": "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md"
     },
     {
       "basename": "XCS224U Lecture 1",
       "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md"
     },
     {
+      "basename": "ROC Curve",
+      "path": "ROC Curve.md"
+    },
+    {
+      "basename": "Evaluation Index",
+      "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
       "basename": "Retrieval-Augmented Generation",
       "path": "Retrieval-Augmented Generation.md"
+    },
+    {
+      "basename": "RoBERTa",
+      "path": "RoBERTa.md"
     },
     {
       "basename": "Retrieval-Augmented Generation (Model)",
@@ -19,22 +75,6 @@
     {
       "basename": "BLEURT",
       "path": "BLEURT.md"
-    },
-    {
-      "basename": "RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}",
-      "path": "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Evaluation Index",
-      "path": "Indices/Evaluation Index.md"
     },
     {
       "basename": "Rejection Sampling",
@@ -53,24 +93,12 @@
       "path": "COMET.md"
     },
     {
-      "basename": "chrF",
-      "path": "chrF.md"
-    },
-    {
       "basename": "Precision-Recall Curve",
       "path": "Precision-Recall Curve.md"
     },
     {
-      "basename": "ROC Curve",
-      "path": "ROC Curve.md"
-    },
-    {
       "basename": "PR-AUC",
       "path": "PR-AUC.md"
-    },
-    {
-      "basename": "ROC-AUC",
-      "path": "ROC-AUC.md"
     },
     {
       "basename": "Type Two Error",
@@ -93,24 +121,12 @@
       "path": "Synthetic Data.md"
     },
     {
-      "basename": "Web Rephrase Augmented Pre-training",
-      "path": "Web Rephrase Augmented Pre-training.md"
-    },
-    {
-      "basename": "Synthetic Data Index",
-      "path": "Indices/Synthetic Data Index.md"
-    },
-    {
       "basename": "Self-Play Fine-Tuning",
       "path": "Self-Play Fine-Tuning.md"
     },
     {
       "basename": "Starling",
       "path": "Starling.md"
-    },
-    {
-      "basename": "Orca 2",
-      "path": "Orca 2.md"
     },
     {
       "basename": "Byte-Pair Encoding",
@@ -183,22 +199,6 @@
     {
       "basename": "Approximate Nearest Neighbor Search",
       "path": "Approximate Nearest Neighbor Search.md"
-    },
-    {
-      "basename": "FAISS",
-      "path": "FAISS.md"
-    },
-    {
-      "basename": "MTEB",
-      "path": "MTEB.md"
-    },
-    {
-      "basename": "ROGUE",
-      "path": "ROGUE.md"
-    },
-    {
-      "basename": "LLM-as-a-Judge",
-      "path": "LLM-as-a-Judge.md"
     }
   ],
   "omittedPaths": [],
