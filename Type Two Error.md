@@ -2,6 +2,7 @@
 aliases:
   - False Negative
 ---
+Model predicted negative, but actually positive.
 
 Also known as a ==False Negative==, it occurs when someone *fails to reject* a null hypothesis that is actually false!
 ((We *falsely* say *no* (not rejecting the null)))

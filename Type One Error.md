@@ -2,6 +2,7 @@
 aliases:
   - False Positive
 ---
+Model predicted positive, but was actually negative.
 
 Also known as a ==False Positive==; when the null hypothesis is rejected, even though it's actually true. We erroneously state that a study *found significant differences*, when indeed there was no difference in actuality.
 ((We *falsely* say *yes* (response positively)))

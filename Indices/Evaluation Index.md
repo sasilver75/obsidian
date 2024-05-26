@@ -1,3 +1,6 @@
+Resources:
+- [Eugene Yan's Evaluation Blog Post](https://eugeneyan.com/writing/evals/)
+
 Note: Even with recent benchmarks like MMLU, the same model can get significantly different scores based on the evaluation implementation.
 ![[Pasted image 20240525135012.png|300]]
 Above: HELM and EleutherAI implementations find that the same example can have different prompts across various providers.
@@ -17,10 +20,47 @@ From: [LLM Task-Specific Evals that Do and Don't Work](https://eugeneyan.com/wri
 
 If you've ran off-the-shelf evaluation for your tasks, you might have found that most don't work. They barely correlate with application-specific performance, and aren't discriminative enough to use in production.
 
+Overview
+- Classification: Recall, Precision, ROC-AUC, Separation of Distributions
+- Summarization: Factual consistency via NLI, Relevance via reward modeling
+- Translation: Measure quality via chrF, BLEURT, COMET, COMETKiwi
+- Toxicity: Test with adversarial prompts from RealToxicityPrompts and BOLD
+- Copyright: Test with text from popular books and code
+
+
 Classification:
-- [[Recall]]:
-- [[Precision]]:
-- [[Machine Translation]]:
-- Copyright:
-- Toxicity:
+- [[Recall]]
+- [[Precision]]
+- [[ROC-AUC]]
+- [[PR-AUC]]
+- Separation of distributions
+
+Summarization
+- To evaluate abstractive summaries, Kryscrinski et al (2019) proposed four key dimensions:
+	- Fluency: Are sentences well-formed and easy to read + good grammar?
+	- Coherence: Does the summary as a whole make sense? Well structured and logically organized.
+	- Consistency: Does the summary accurate reflect the content of the source document.
+		- Can be measured via an [[Natural Language Inference|NLI]] model, which return probabilities for entailment, neutral, and contradiction. 
+	- Relevance: Does the summary focus on the most important aspects of the source document? It should include key points and exclude less relevant details.
+- Relevance via reward model
+	- *Learning to summarize from human feedback* (Sep 2020, Stiennon et al.), the predecessor of InstructGPT, trained a RM to evaluate abstractive summaries of Reddit posts.
+- Length checks
+	- Whether the model can follow instructions and n-shot examples to generate summaries that meet a word or character limit.
+
+Translation
+- Quality measures via [[chrF]]
+	- Character n-gram F-score is similar to BLEU but operates at the character level instead of the word level. It's the second most popular metric for machine translation, with several advantages over BLEU.
+- [[BLEURT]]
+	- I believe this is a model that predicts a collection of related scores ([ [[BLEU]]]], [[ROGUE]], [[BERTScore]], etc.)
+- [[COMET]]
+- COMETKiwi
+
+Copyright
+- Exact regurgitation (compute the length of the longest common subsequence between the output and reference, normalized by the length of the input prompt)
+- Near-exact reproduction (the edit distance and edit similarity between the output and reference, normalized by the length of the input prompt)
+
+Toxicity
+- Proportion of toxic generations on regular and toxic prompts
+
+
 

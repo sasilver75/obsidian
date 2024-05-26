@@ -5,6 +5,62 @@
       "path": "Indices/Evaluation Index.md"
     },
     {
+      "basename": "HELM",
+      "path": "HELM.md"
+    },
+    {
+      "basename": "COMET",
+      "path": "COMET.md"
+    },
+    {
+      "basename": "RoBERTa",
+      "path": "RoBERTa.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "BLEURT",
+      "path": "BLEURT.md"
+    },
+    {
+      "basename": "chrF",
+      "path": "chrF.md"
+    },
+    {
+      "basename": "Precision-Recall Curve",
+      "path": "Precision-Recall Curve.md"
+    },
+    {
+      "basename": "ROC Curve",
+      "path": "ROC Curve.md"
+    },
+    {
+      "basename": "PR-AUC",
+      "path": "PR-AUC.md"
+    },
+    {
+      "basename": "ROC-AUC",
+      "path": "ROC-AUC.md"
+    },
+    {
+      "basename": "Type Two Error",
+      "path": "Type Two Error.md"
+    },
+    {
+      "basename": "Type One Error",
+      "path": "Type One Error.md"
+    },
+    {
+      "basename": "Precision",
+      "path": "Precision.md"
+    },
+    {
+      "basename": "Recall",
+      "path": "Recall.md"
+    },
+    {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
     },
@@ -35,10 +91,6 @@
     {
       "basename": "Data Augmentation",
       "path": "Data Augmentation.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
@@ -147,58 +199,6 @@
     {
       "basename": "Retrieval-Augmented Generation",
       "path": "Retrieval-Augmented Generation.md"
-    },
-    {
-      "basename": "Dense Passage Retrieval",
-      "path": "Dense Passage Retrieval.md"
-    },
-    {
-      "basename": "BERTScore",
-      "path": "BERTScore.md"
-    },
-    {
-      "basename": "BLEU",
-      "path": "BLEU.md"
-    },
-    {
-      "basename": "Absolute Positional Encoding",
-      "path": "Absolute Positional Encoding.md"
-    },
-    {
-      "basename": "HELM",
-      "path": "HELM.md"
-    },
-    {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
-    },
-    {
-      "basename": "Eleuther LM Evaluation Harness",
-      "path": "Eleuther LM Evaluation Harness.md"
-    },
-    {
-      "basename": "Massive Multi-task Language Understanding",
-      "path": "Massive Multi-task Language Understanding.md"
-    },
-    {
-      "basename": "WordPiece",
-      "path": "WordPiece.md"
-    },
-    {
-      "basename": "SentencePiece",
-      "path": "SentencePiece.md"
-    },
-    {
-      "basename": "Tokenizer",
-      "path": "Tokenizer.md"
-    },
-    {
-      "basename": "Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}",
-      "path": "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md"
-    },
-    {
-      "basename": "CS685 Lecture 12",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md"
     }
   ],
   "omittedPaths": [],
