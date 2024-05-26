@@ -33,7 +33,7 @@ Notes:
 - Related Work
 	- **Open-domain reasoning**:
 		- The most popular such open-domain task is [[Question Answering]], but other open-domain tasks include claim verification, question generation, and open dialogue. Many of these are *knowledge-intensive tasks*.
-		- Most relevant models to our work are OpenQA models that include *learned* retrieval components, like [[ORQA]], [[REALM]], [[Dense Passage Retrieval|DPR]], and [[Retrieval-Augmented Generation|RAG]].
+		- Most relevant models to our work are OpenQA models that include *learned* retrieval components, like [[ORQA]], [[REALM]], [[Dense Passage Retrieval|DPR]], and [[Retrieval-Augmented Generation (Model)|RAG]].
 	- **Multi-hop open-domain reasoning**:
 		- Many open-domain tasks can be solved by finding *one* relevant passage in the corpus (often by design). In contrast, a number of recent works explore multi-hop reasoning over multiple passages (eg [[HotpotQA]])
 	- **Multi-hop open-domain models**:

@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "RoBERTa",
+      "path": "RoBERTa.md"
+    },
+    {
+      "basename": "XCS224U Lecture 1",
+      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation (Model)",
+      "path": "Retrieval-Augmented Generation (Model).md"
+    },
+    {
+      "basename": "BLEURT",
+      "path": "BLEURT.md"
+    },
+    {
+      "basename": "RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}",
+      "path": "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
       "basename": "Evaluation Index",
       "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "EssentialAI",
+      "path": "EssentialAI.md"
     },
     {
       "basename": "HELM",
@@ -11,18 +51,6 @@
     {
       "basename": "COMET",
       "path": "COMET.md"
-    },
-    {
-      "basename": "RoBERTa",
-      "path": "RoBERTa.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "BLEURT",
-      "path": "BLEURT.md"
     },
     {
       "basename": "chrF",
@@ -171,34 +199,6 @@
     {
       "basename": "LLM-as-a-Judge",
       "path": "LLM-as-a-Judge.md"
-    },
-    {
-      "basename": "Fusion-in-Decoder",
-      "path": "Fusion-in-Decoder.md"
-    },
-    {
-      "basename": "Embedding",
-      "path": "Embedding.md"
-    },
-    {
-      "basename": "Self-Enhancement Bias",
-      "path": "Self-Enhancement Bias.md"
-    },
-    {
-      "basename": "Sentence Transformers",
-      "path": "Sentence Transformers.md"
-    },
-    {
-      "basename": "HyDE",
-      "path": "HyDE.md"
-    },
-    {
-      "basename": "RETRO",
-      "path": "RETRO.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
     }
   ],
   "omittedPaths": [],

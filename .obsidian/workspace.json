@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +86,12 @@
             }
           },
           {
-            "id": "a2d7d761b0f6f5a8",
+            "id": "d616a3989f25dab4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indices/Evaluation Index.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BLEURT.md",
+                "file": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -318,7 +318,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indices/Evaluation Index.md",
+                "file": "RoBERTa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -335,7 +335,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indices/Evaluation Index.md",
+                "file": "RoBERTa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +358,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indices/Evaluation Index.md"
+                "file": "RoBERTa.md"
               }
             }
           },
@@ -383,7 +383,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Indices/Evaluation Index.md",
+                "file": "RoBERTa.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -429,16 +429,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a2d7d761b0f6f5a8",
+  "active": "e046cba5ee17b6bb",
   "lastOpenFiles": [
+    "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md",
+    "Retrieval-Augmented Generation.md",
+    "Retrieval-Augmented Generation (Model).md",
+    "BLEURT.md",
+    "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md",
+    "~ Vocabulary.md",
+    "RoBERTa.md",
+    "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Indices/Evaluation Index.md",
+    "Rejection Sampling.md",
+    "EssentialAI.md",
     "HELM.md",
     "COMET.md",
-    "RoBERTa.md",
-    "~ Vocabulary.md",
-    "BLEURT.md",
     "chrF.md",
     "_attachments/Pasted image 20240525222320.png",
-    "Indices/Evaluation Index.md",
     "Precision-Recall Curve.md",
     "ROC Curve.md",
     "_attachments/Pasted image 20240525215645.png",
@@ -452,13 +459,6 @@
     "Web Rephrase Augmented Pre-training.md",
     "Indices/Synthetic Data Index.md",
     "Self-Play Fine-Tuning.md",
-    "Starling.md",
-    "Orca 2.md",
-    "Byte-Pair Encoding.md",
-    "Data Augmentation.md",
-    "PaperClubs/Oxen/Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
-    "PaperClubs/LatentSpace/Paperclub The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
-    "PaperClubs/LatentSpace/Paperclub Self-Rewarding Language Models.md",
     "_attachments/Pasted image 20240525170708.png",
     "_attachments/Pasted image 20240525163539.png",
     "_attachments/Pasted image 20240525153510.png",

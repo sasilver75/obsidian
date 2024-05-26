@@ -3,7 +3,7 @@ aliases:
   - Open-Retrieval Question Answering
 ---
 
-June 1, 2019 (Before all of [[REALM]], [[Retrieval-Augmented Generation|RAG]], [[RETRO]], etc.)
+June 1, 2019 (Before all of [[REALM]], [[Retrieval-Augmented Generation (Model)|RAG]], [[RETRO]], etc.)
 [[DeepMind]] (Same lead author Kenton Lee as [[REALM]])
 Paper: [Latent Retrieval for Weakly Supervised Open-Domain Question Answering](https://arxiv.org/abs/1906.00300)
 #zotero 

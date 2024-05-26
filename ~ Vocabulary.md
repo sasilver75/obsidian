@@ -108,7 +108,6 @@
 - [[Instruction-Tuning]]
 - [[Preference-Tuning]]
 - [[Transfer Learning]]
-- [[Retrieval-Augmented Generation]]
 - [[Autoencoder]]
 - [[Variational Autoencoder]] (VAE)
 - [[Beta-VAE]]
@@ -251,6 +250,7 @@
 - [[Continual Pretraining]]
 - [[False Refuse]]
 - [[Retrieval-Augmented Generation]] (RAG)
+- [[Retrieval-Augmented Generation (Model)]] (RAG)
 - [[CRAG|Corrective Retrieval Augmented Generation]] (CRAG)
 - [[Instruction Backtranslation]]
 - [[CRINGE Loss]]
@@ -694,10 +694,6 @@
 - [[Capybara Dataset]]
 - [[CCNet]] (Cluster-Coordinated Net)
 
-# Interpretability
-- Saliency Map
-- Probe
-
 # Entities
 - [[Cohere]]  📝
 - [[CharacterAI]]  💁‍♀️
@@ -716,7 +712,7 @@
 - [[Snorkel AI]]  🤿
 - [[Meta AI Research]] (FAIR)  🧑‍💻
 - [[Mistral]]  🇫🇷
-- [[Nvidia]]  🤑
+- [[Nvidia]]  💰
 - [[Center for Research on Foundation Models]] (CRFM)  🔬
 - [[Alignment Research Center]] (ARC)  🙀
 - [[Model Evaluation and Threat Research]] (METR) ❗
@@ -739,7 +735,7 @@
 - [[LMSYS]] ⚔️
 - [[Salesforce Research]]  💼
 - [[Apple]] 
-- [[EssentialAI]]
+- [[EssentialAI]] 😶
 
 
 # People
