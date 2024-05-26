@@ -33,7 +33,7 @@ Dense retrieval enabled searching for semantic similarity. Unlike sparse vectors
 - ==Maximumum Inner-Product Search (MIPS)== involves finding the vector in a given set that maximizes the inner product with a query vector.
 	- ((An inner product is also known as a [[Dot Product]]))
 
-- [[Faiss]] is a library for efficient similarity search (2019)
+- [[FAISS]] is a library for efficient similarity search (2019)
 	- It implements approximate nearest neighbor search ([[Approximate Nearest Neighbor Search|ANN]]) to solve MIPS search  problems -- Faiss laid the foundation for many of today's popular vector DBs.
 
 - [[ColBERT]]: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT (Khattab, 2020)

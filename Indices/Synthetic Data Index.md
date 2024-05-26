@@ -3,7 +3,7 @@
 - [[WizardLM]]/ [[Evol-Instruct]]
 - [[Evol-Amplify]]
 - [[Self-Reward]]
-- [[SPIN|Self-Play Fine-Tuning]] (SPIN)
+- [[Self-Play Fine-Tuning|Self-Play Fine-Tuning]] (SPIN)
 - [[Orca]]
 - [[Orca 2]]
 - [[Starling]]

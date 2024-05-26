@@ -2,6 +2,10 @@ Mid-2023 (?) -- Tatsu Lab
 (No paper for AlpacaEval, just a GitHub Repo): [alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)
 But inspired by AlpacaFarm paper here: [AlpacaFarm](https://arxiv.org/abs/2305.14387)
 
+An automated evaluation framework measuring how often a strong LLM prefers the output of one model over a reference model. Metrics include win rate, bias, latency, price, variance, etc. Validated to have high human agreement with 20k human annotations.
+
+Useful as a quick and cheap proxy for human evaluation of a simple instruction-following tasks. Useful for running many evaluations quickly, eg during model development.
+
 Github Overview
 > Evaluation of instruction-following models (e.g., ChatGPT) typically requires human interactions. This is time-consuming, expensive, and hard to replicate. ==AlpacaEval in an LLM-based automatic evaluation that is fast, cheap, replicable, and validated against 20K human annotations==. It is particularly useful for model development. Although we improved over prior automatic evaluation pipelines, there are still fundamental [limitations](https://github.com/tatsu-lab/alpaca_eval#limitations) like the preference for longer outputs. AlpacaEval provides the following:
 > - [**Leaderboard**](https://tatsu-lab.github.io/alpaca_eval/): a leaderboard of common models on the AlpacaEval evaluation set. **Caution**: Automatic evaluators (e.g. GPT-4) may be biased towards models that generate longer outputs and/or that were fine-tuned on the model underlying the evaluator (e.g. GPT-4).

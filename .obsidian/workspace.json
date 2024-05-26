@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "88615c614cc89407",
+        "id": "db1200ed173ab2af",
         "type": "tabs",
         "children": [
           {
-            "id": "bded5d3c720416df",
+            "id": "09e09d50ea944044",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Indices/Evaluation Index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,58 @@
             }
           },
           {
-            "id": "753676acf015a716",
+            "id": "6ffded50f023fa40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordPiece.md",
+                "file": "Web Rephrase Augmented Pre-training.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ff26c6624baef50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indices/Synthetic Data Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83cefd20b40ddb40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indices/Synthetic Data Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99d14e5f521cd38c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Orca 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Matei Zahari",
+                "query": "SPIN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WordPiece.md",
+                "file": "Indices/Evaluation Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WordPiece.md",
+                "file": "Indices/Evaluation Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WordPiece.md"
+                "file": "Indices/Evaluation Index.md"
               }
             }
           },
@@ -174,7 +213,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "WordPiece.md",
+                "file": "Indices/Evaluation Index.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -220,45 +259,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "753676acf015a716",
+  "active": "09e09d50ea944044",
   "lastOpenFiles": [
+    "Synthetic Data.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "Indices/Synthetic Data Index.md",
+    "Self-Play Fine-Tuning.md",
+    "Starling.md",
+    "Orca 2.md",
     "Byte-Pair Encoding.md",
-    "WordPiece.md",
-    "SentencePiece.md",
-    "Tokenizer.md",
-    "Articles/Aggregator's AI Risk (March 4, 2024) {Ben Thompson, Stratechery}.md",
-    "Articles/The Maximum Likelihood Estimation (Jan 02, 2024) {Tivadar Danka}.md",
-    "_attachments/Pasted image 20240524231355.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md",
+    "Data Augmentation.md",
     "~ Vocabulary.md",
-    "Bradley-Terry Model.md",
-    "_attachments/Pasted image 20240524114745.png",
-    "_attachments/Pasted image 20240524114513.png",
-    "_attachments/Pasted image 20240524114422.png",
-    "_attachments/Pasted image 20240524114255.png",
-    "Excalidraw/Drawing 2024-05-24 11.41.57.excalidraw.md",
-    "Excalidraw",
-    "_attachments/Pasted image 20240524113955.png",
-    "_attachments/Pasted image 20240524113220.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
-    "_attachments/Pasted image 20240524013635.png",
-    "_attachments/Pasted image 20240524012524.png",
-    "_attachments/Pasted image 20240524003117.png",
+    "PaperClubs/Oxen/Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
+    "PaperClubs/LatentSpace/Paperclub The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+    "PaperClubs/LatentSpace/Paperclub Self-Rewarding Language Models.md",
+    "PaperClubs/LatentSpace/Paperclub RAG Survey.md",
+    "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
+    "PaperClubs/LatentSpace/Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey.md",
+    "PaperClubs/LatentSpace/Paperclub BitNet - Scaling 1-bit Transformers for Large Language Models.md",
+    "_attachments/Pasted image 20240525170708.png",
+    "Hard Negative Mining.md",
+    "_attachments/Pasted image 20240525163539.png",
+    "Guardrails.md",
+    "Prompt Tuning.md",
+    "Quantized Low-Rank Adaptation.md",
+    "Parameter-Efficient Fine-Tuning.md",
+    "_attachments/Pasted image 20240525153510.png",
+    "Prefix Tuning.md",
+    "_attachments/Pasted image 20240525150355.png",
+    "_attachments/Pasted image 20240525150354.png",
+    "_attachments/Pasted image 20240525145737.png",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
-    "Normalized Discounted Cumulative Gain.md",
-    "~ Useful Pictures.md",
-    "DSPy.md",
-    "HotpotQA.md",
-    "Multi-Hop.md",
-    "Hallucination.md",
-    "Softmax.md",
-    "Courses/LLM Mastery/Lecture 2.md",
-    "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
-    "PaperClubs/LatentSpace/RAG Survey.md",
-    "Axolotl.md",
-    "RewardBench.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 4.md",
+    "Approximate Nearest Neighbor Search.md",
+    "FAISS.md",
+    "_attachments/Pasted image 20240525135120.png",
+    "_attachments/Pasted image 20240525135012.png",
+    "_attachments/Pasted image 20240525134903.png",
+    "_attachments/Pasted image 20240525133334.png",
+    "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",

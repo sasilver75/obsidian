@@ -3,7 +3,7 @@ Link: https://arxiv.org/abs/2402.17764
 
 ----
 
-This follows the paper [[BitNet - Scaling 1-bit Transformers for Large Language Models]]
+This follows the paper [[Paperclub BitNet - Scaling 1-bit Transformers for Large Language Models]]
 
 Recent research is paving the way for a new era of 1-bit LLMs. In this work, we introduce a 1-bit LLM variant, namely ==BitNet b1.58==, in which ==every single parameter of the LLM is a== ==ternary== {-1, 0, 1}.
 

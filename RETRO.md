@@ -7,6 +7,7 @@ Paper: [Improving language models by retrieving from trillions of tokens](https:
 [[DeepMind]]
 #zotero 
 Takeaway: By retrieving over an unprecedented *2T token* database, RETRO obtains comparable performance to GPT-3, despite using 25x fewer parameters (at the time, retrieval for LM work usually considered small transformers and databases of limited size). The generation component is pretrained from scratch while incorporating input from the already-trained, frozen retrieval component.
+Combines a frozen BERT retriever, a differentiable encoder, and chunked cross-attention to generate output. Notably, it does retrieval throughout the entire pre-training stage, not just during inference. Furthermore, fetches relevant documents based on chunks of input, allowing for finer-grained, repeated retrieval during generation, instead of only retrieving once per query.
 
 ----
 

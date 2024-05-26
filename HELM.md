@@ -9,7 +9,7 @@ Authors include [[Percy Liang]]
 
 A framework developed at Stanford's [[Center for Research on Foundation Models]] (CRFM) in Nov 2022
 
-A multi-metric approach to evaluation of LLMs, assessing ==7 metrics== (accuracy, calibration, robustness, fairness, bias, toxicity, efficiency) ==for each of the 16 core scenarios/use cases== that were identified, to show hte trade-offs of models.
+A multi-metric approach to evaluation of LLMs, assessing ==7 metrics== (accuracy, calibration, robustness, fairness, bias, toxicity, efficiency) ==for each of the 16 core scenarios/use cases== that were identified, to show the trade-offs of models. Tasks include Q&A,, information retrieval, summarization, text classification.
 
 Also 7 targeted evaluations based on 26 targeted scenarios
 

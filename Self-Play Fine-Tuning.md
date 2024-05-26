@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Self-Play Fine-Tuning
+  - SPIN
 ---
 January 2, 2024
 UCLA
