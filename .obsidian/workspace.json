@@ -13,7 +13,176 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ROC Curve.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad69d7142dd5e67a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ef3b74366dddcb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Indices/Evaluation Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b776ed966878e71e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chrF.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21b996be72526ed8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a42ff90c4eec64b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2d7d761b0f6f5a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indices/Evaluation Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e046cba5ee17b6bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RoBERTa.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ff88373b4ee1c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BLEURT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6b28c97a0d2079e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d1a17eaedea3cac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chrF.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d03b9367aa95554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROC-AUC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b5806450c3c67f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROC-AUC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb9a06469dc5ae4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROC-AUC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +241,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -259,8 +429,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "09e09d50ea944044",
+  "active": "a2d7d761b0f6f5a8",
   "lastOpenFiles": [
+    "HELM.md",
+    "COMET.md",
+    "RoBERTa.md",
+    "~ Vocabulary.md",
+    "BLEURT.md",
+    "chrF.md",
+    "_attachments/Pasted image 20240525222320.png",
+    "Indices/Evaluation Index.md",
+    "Precision-Recall Curve.md",
+    "ROC Curve.md",
+    "_attachments/Pasted image 20240525215645.png",
+    "PR-AUC.md",
+    "ROC-AUC.md",
+    "Type Two Error.md",
+    "Type One Error.md",
+    "Precision.md",
+    "Recall.md",
     "Synthetic Data.md",
     "Web Rephrase Augmented Pre-training.md",
     "Indices/Synthetic Data Index.md",
@@ -269,34 +456,17 @@
     "Orca 2.md",
     "Byte-Pair Encoding.md",
     "Data Augmentation.md",
-    "~ Vocabulary.md",
     "PaperClubs/Oxen/Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md",
     "PaperClubs/LatentSpace/Paperclub The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
     "PaperClubs/LatentSpace/Paperclub Self-Rewarding Language Models.md",
-    "PaperClubs/LatentSpace/Paperclub RAG Survey.md",
-    "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
-    "PaperClubs/LatentSpace/Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey.md",
-    "PaperClubs/LatentSpace/Paperclub BitNet - Scaling 1-bit Transformers for Large Language Models.md",
     "_attachments/Pasted image 20240525170708.png",
-    "Hard Negative Mining.md",
     "_attachments/Pasted image 20240525163539.png",
-    "Guardrails.md",
-    "Prompt Tuning.md",
-    "Quantized Low-Rank Adaptation.md",
-    "Parameter-Efficient Fine-Tuning.md",
     "_attachments/Pasted image 20240525153510.png",
-    "Prefix Tuning.md",
     "_attachments/Pasted image 20240525150355.png",
     "_attachments/Pasted image 20240525150354.png",
     "_attachments/Pasted image 20240525145737.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md",
-    "Approximate Nearest Neighbor Search.md",
-    "FAISS.md",
     "_attachments/Pasted image 20240525135120.png",
     "_attachments/Pasted image 20240525135012.png",
-    "_attachments/Pasted image 20240525134903.png",
-    "_attachments/Pasted image 20240525133334.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

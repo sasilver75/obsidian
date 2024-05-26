@@ -2,6 +2,8 @@
 aliases:
   - Positive Predictive Value
 ---
+Proportion of the model's positive predictions that were correct. If the model predicted positive 50 times, but only 30 were truly positive, precision = 0.6.
+
 Precision can be seen as a measure of *quality*, and [[Recall]] as a measure of *quantity*.
 
 Higher precision means that an algorithm returns more relevant results than irrelevant ones, and high recall means that an algorithm returns most of the relevant results (whether or not irrelevant ones are also returned).

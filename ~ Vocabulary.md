@@ -40,7 +40,9 @@
 - [[Beam Search]]
 - [[F1 Score]]
 - [[ROC Curve]] (Received Operating Characteristic)
-- [[AUC]] (Area under Curve)
+- [[ROC-AUC]] (ROC Area under Curve)
+- [[Precision-Recall Curve]] (PR Curve)
+- [[PR-AUC]] (PR Area under Curve)
 - [[Principal Component Analysis]] (PCA)
 - [[Independent Component Analysis]] (ICA)
 - [[Bloom Filter]]
@@ -335,8 +337,12 @@
 - [[Context-Free Grammar]]
 - [[Dependency Grammar]]
 - [[Back-Translation]]
+- [[BLEU]] Score
+- [[BLEURT]] Score
 - [[ROGUE]] Score
+- [[COMET]] Score
 - [[BERTScore]]
+- [[chrF]]
 - [[Automatic Speech Recognition]]
 - [[Byte-Pair Encoding]] Tokenization
 - [[SentencePiece]] Tokenization

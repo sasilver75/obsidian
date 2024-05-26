@@ -3,6 +3,8 @@ aliases:
   - Coverage
   - True Positive Rate
 ---
+The proportion of true positives that were correctly identified. If there were 100 positive instances in our data, and the model identified 80, Recall = 0.8.
+
 While [[Precision]] can be seen as a measure of *quality*, Recall as a measure of *quantity*.
 
 Higher precision means that an algorithm returns more relevant results than irrelevant ones, and high recall means that an algorithm returns most of the relevant results (whether or not irrelevant ones are also returned).

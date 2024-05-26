@@ -2,7 +2,7 @@
 aliases:
   - Receiver Operating Characteristic
 ---
-A ROC curve is a graph showing the performance of a classification model at all classification thresholds, plotting two parameters:
+A ROC curve is a graph showing the performance of a classification model at all classification thresholds, plotting two parameters across a variety of classification thresholds.
 1. True Positive Rate (a synonym for [[Recall]])
 2. False Positive Rate
 
@@ -17,6 +17,6 @@ A ROC curse plots TPR vs FPR at different classification thresholds; lowering th
 ![[Pasted image 20240422143714.png]]
 
 
-Related: [[AUC]]: Area Under the ROC Curve
+Related: [[ROC-AUC]]: Area Under the ROC Curve
 ![[Pasted image 20240422144317.png]]
 The area under the ROC curve provides an aggregate measure of performance across all possible classification thresholds; one way of interpreting AUC is as the probability that the model ranks a random positive example *more highly* than a random negative example.
