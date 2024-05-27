@@ -406,7 +406,7 @@
 - Early Fusion, Middle Fusion, Late Fusion
 - Single Stream vs Dual Stream
 # Data Augmentation Concepts
-- [[Mixup]]
+- [[MixUp]]
 - [[MixMatch]]
 - [[Progressive Resizing]]
 # Reinforcement Learning Concepts

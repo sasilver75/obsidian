@@ -96,7 +96,7 @@ The consistency regularization loss is the distance between predictions by the s
 - Adversarial Training (Goodfellow, 2014) applies adversarial noise onto the input and trains the model to be robust to such an adversarial attack.
 - Virtual Adversarial Training (VAT, 2018) extends this idea to work in semi-supervised learning.
 - Interpolation Consistency Training (ICT, 2019) enhances the dataset by adding more interpolations of data points, expecting the model predictions to be consistent with interpolations of corresponding labels.
-- [[Mixup]] (2018) operation mixes two images by a simple weighted sum and combines it with [[Label Smoothing]].
+- [[MixUp]] (2018) operation mixes two images by a simple weighted sum and combines it with [[Label Smoothing]].
 
 Similar to VAT, ==Unsupervised Data Augmentation (UDA; 2020)== learns to predict the same output for an unlabeled example and an augmented one. UDA especially focuses on studying how the "quality" of noise can impact the semi-supervised learning performance with consistency training.
 - Good augmentations should produce *VALID* and *DIVERSE* noise, and carry targeted inductive biases
