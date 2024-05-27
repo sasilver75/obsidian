@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Contriever",
-      "path": "Contriever.md"
+      "basename": "Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
+      "path": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
     },
     {
-      "basename": "Tools for curating LLM data",
-      "path": "Articles/Tools for curating LLM data.md"
+      "basename": "MixMatch",
+      "path": "MixMatch.md"
+    },
+    {
+      "basename": "MixUp",
+      "path": "MixUp.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Contriever",
+      "path": "Contriever.md"
     },
     {
       "basename": "Promptagator",
@@ -191,14 +199,6 @@
     {
       "basename": "Parameter-Efficient Fine-Tuning",
       "path": "Parameter-Efficient Fine-Tuning.md"
-    },
-    {
-      "basename": "Prefix Tuning",
-      "path": "Prefix Tuning.md"
-    },
-    {
-      "basename": "CS685 Lecture 10",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md"
     }
   ],
   "omittedPaths": [],
