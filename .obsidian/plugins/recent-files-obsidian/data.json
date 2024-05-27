@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Contriever",
+      "path": "Contriever.md"
+    },
+    {
       "basename": "Tools for curating LLM data",
       "path": "Articles/Tools for curating LLM data.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CS685 Lecture 10",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 10.md"
-    },
-    {
-      "basename": "CS685 Lecture 9",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
     }
   ],
   "omittedPaths": [],
