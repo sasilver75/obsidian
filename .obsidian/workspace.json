@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
+                "file": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7196f8ca3a92e30e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Active Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -104,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -120,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
+                "file": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
+                "file": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
+                "file": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
               }
             }
           },
@@ -185,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
+                "file": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -233,23 +247,27 @@
   },
   "active": "a380c0aecba6b1d3",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240527163126.png",
+    "Active Learning.md",
+    "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md",
+    "_attachments/Pasted image 20240527155418.png",
+    "_attachments/Pasted image 20240527155414.png",
+    "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md",
+    "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
+    "Articles/Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md",
     "_attachments/Pasted image 20240527153635.png",
     "_attachments/Pasted image 20240527153405.png",
     "_attachments/Pasted image 20240527152614.png",
     "MixMatch.md",
-    "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
     "_attachments/Pasted image 20240527152537.png",
     "MixUp.md",
     "_attachments/Pasted image 20240527151551.png",
     "_attachments/Pasted image 20240527150759.png",
     "_attachments/Pasted image 20240527150550.png",
     "_attachments/Pasted image 20240527150231.png",
-    "_attachments/Pasted image 20240527150153.png",
-    "_attachments/Pasted image 20240527145912.png",
     "~ Vocabulary.md",
     "Articles/Tools for curating LLM data.md",
     "Contriever.md",
-    "_attachments/Pasted image 20240527135515.png",
     "Contriver.md",
     "Promptagator.md",
     "Consistency Regularization.md",
@@ -265,10 +283,6 @@
     "Indices/Evaluation Index.md",
     "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Shepherd.md",
-    "Retrieval-Augmented Generation.md",
-    "RoBERTa.md",
-    "Retrieval-Augmented Generation (Model).md",
-    "BLEURT.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

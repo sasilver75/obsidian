@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}",
+      "path": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
+    },
+    {
+      "basename": "Active Learning",
+      "path": "Active Learning.md"
+    },
+    {
+      "basename": "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}",
+      "path": "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md"
+    },
+    {
       "basename": "Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
       "path": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Guardrails",
       "path": "Guardrails.md"
-    },
-    {
-      "basename": "Prompt Tuning",
-      "path": "Prompt Tuning.md"
-    },
-    {
-      "basename": "Quantized Low-Rank Adaptation",
-      "path": "Quantized Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Parameter-Efficient Fine-Tuning",
-      "path": "Parameter-Efficient Fine-Tuning.md"
     }
   ],
   "omittedPaths": [],
