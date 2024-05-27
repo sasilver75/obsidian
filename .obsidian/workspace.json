@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a380c0aecba6b1d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/Tools for curating LLM data.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Promptagator.md",
+                "file": "Articles/Tools for curating LLM data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Promptagator.md",
+                "file": "Articles/Tools for curating LLM data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Promptagator.md"
+                "file": "Articles/Tools for curating LLM data.md"
               }
             }
           },
@@ -161,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Promptagator.md",
+                "file": "Articles/Tools for curating LLM data.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,14 +220,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6279a172223d4427",
+  "active": "a380c0aecba6b1d3",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Articles/Tools for curating LLM data.md",
+    "Promptagator.md",
     "_attachments/Pasted image 20240526111014.png",
     "_attachments/Pasted image 20240526103335.png",
     "_attachments/Pasted image 20240526103257.png",
     "Consistency Regularization.md",
-    "~ Vocabulary.md",
-    "Promptagator.md",
     "_attachments/Pasted image 20240526101425.png",
     "_attachments/Pasted image 20240526092621.png",
     "BEIR.md",
@@ -244,7 +258,6 @@
     "_attachments/Pasted image 20240525170708.png",
     "_attachments/Pasted image 20240525163539.png",
     "_attachments/Pasted image 20240525153510.png",
-    "_attachments/Pasted image 20240525150355.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

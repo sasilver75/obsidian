@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Tools for curating LLM data",
+      "path": "Articles/Tools for curating LLM data.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Promptagator",
       "path": "Promptagator.md"
     },
     {
       "basename": "Consistency Regularization",
       "path": "Consistency Regularization.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "BEIR",
@@ -195,10 +199,6 @@
     {
       "basename": "CS685 Lecture 9",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 9.md"
-    },
-    {
-      "basename": "Approximate Nearest Neighbor Search",
-      "path": "Approximate Nearest Neighbor Search.md"
     }
   ],
   "omittedPaths": [],
