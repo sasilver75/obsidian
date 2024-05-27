@@ -313,7 +313,7 @@
 - Generate-Read, Recite-Read, Rewrite-Retrieve-Read, ...
 - [[Relevance-Guided Supervision]]
 - [[Hard Negative Mining]]
-- [[Contriver]]
+- [[Contriever]]
 - [[Consistency Filtering]]
 - [[InPars]]
 

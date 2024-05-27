@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Promptagator.md",
+                "file": "Contriever.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Tools for curating LLM data.md",
+                "file": "Contriever.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Tools for curating LLM data.md",
+                "file": "Contriever.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Tools for curating LLM data.md"
+                "file": "Contriever.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Tools for curating LLM data.md",
+                "file": "Contriever.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -220,10 +219,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a380c0aecba6b1d3",
+  "active": "6279a172223d4427",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
     "Articles/Tools for curating LLM data.md",
+    "Contriever.md",
+    "_attachments/Pasted image 20240527135515.png",
+    "_attachments/Pasted image 20240527135414.png",
+    "_attachments/Pasted image 20240527135357.png",
+    "_attachments/Pasted image 20240527135340.png",
+    "_attachments/Pasted image 20240527133148.png",
+    "~ Vocabulary.md",
+    "Contriver.md",
     "Promptagator.md",
     "_attachments/Pasted image 20240526111014.png",
     "_attachments/Pasted image 20240526103335.png",
@@ -250,14 +256,6 @@
     "Rejection Sampling.md",
     "EssentialAI.md",
     "HELM.md",
-    "COMET.md",
-    "_attachments/Pasted image 20240525222320.png",
-    "Precision-Recall Curve.md",
-    "_attachments/Pasted image 20240525215645.png",
-    "PR-AUC.md",
-    "_attachments/Pasted image 20240525170708.png",
-    "_attachments/Pasted image 20240525163539.png",
-    "_attachments/Pasted image 20240525153510.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
