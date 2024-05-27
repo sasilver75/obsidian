@@ -6,6 +6,10 @@ Takeaway: This paper is really about adding query domain/task-specific *intent* 
 
 Consistency Filtering: They first train their retrieval model using augmented data, then feeding this augmented data back into the model, and, given a query, checking if the relevant document appears in the top-k. If it doesn't then, they throw out the query/document pair.
 
+The goal is to not have to bring a lot of task/domain-specific annotation of query-document pairs to every new retrieval challenge. The goal is for synthetic data generation to create annotated pairs as well as a human could!
+
+Related paper on creating synthetic data for information retrieval: [[InPars]]
+
 ----
 
 Notes:

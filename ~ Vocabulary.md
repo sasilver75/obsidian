@@ -315,6 +315,7 @@
 - [[Hard Negative Mining]]
 - [[Contriver]]
 - [[Consistency Filtering]]
+- [[InPars]]
 
 # Natural Language Processing Concepts
 - Tasks
