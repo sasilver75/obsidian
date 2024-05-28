@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023 {Sumit Kumar}",
-      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023 {Sumit Kumar}.md"
+      "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
+      "path": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Late Interaction",
+      "path": "Late Interaction.md"
+    },
+    {
+      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
+      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Strategies for Effective and Efficient text Ranking using LLMs",
+      "path": "Articles/Strategies for Effective and Efficient text Ranking using LLMs.md"
     },
     {
       "basename": "UDAPDR",
@@ -187,18 +199,6 @@
     {
       "basename": "Type One Error",
       "path": "Type One Error.md"
-    },
-    {
-      "basename": "Precision",
-      "path": "Precision.md"
-    },
-    {
-      "basename": "Recall",
-      "path": "Recall.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
     }
   ],
   "omittedPaths": [],
