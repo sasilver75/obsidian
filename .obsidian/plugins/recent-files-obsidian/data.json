@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}",
-      "path": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
+      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023 {Sumit Kumar}",
+      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023 {Sumit Kumar}.md"
+    },
+    {
+      "basename": "UDAPDR",
+      "path": "UDAPDR.md"
+    },
+    {
+      "basename": "InPars",
+      "path": "InPars.md"
     },
     {
       "basename": "Active Learning",
       "path": "Active Learning.md"
+    },
+    {
+      "basename": "UPR",
+      "path": "UPR.md"
+    },
+    {
+      "basename": "CS685 Lecture 13",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "HyDE",
+      "path": "HyDE.md"
+    },
+    {
+      "basename": "IRCoT",
+      "path": "IRCoT.md"
+    },
+    {
+      "basename": "Generate-then-Read",
+      "path": "Generate-then-Read.md"
+    },
+    {
+      "basename": "Microsoft Research",
+      "path": "Microsoft Research.md"
+    },
+    {
+      "basename": "Bi-Encoder",
+      "path": "Bi-Encoder.md"
+    },
+    {
+      "basename": "CS685 Lecture 12",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md"
+    },
+    {
+      "basename": "Identity-Mapping Preference Optimization",
+      "path": "Identity-Mapping Preference Optimization.md"
+    },
+    {
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
+    },
+    {
+      "basename": "MixMatch",
+      "path": "MixMatch.md"
+    },
+    {
+      "basename": "Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}",
+      "path": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
     },
     {
       "basename": "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}",
@@ -17,16 +77,8 @@
       "path": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
     },
     {
-      "basename": "MixMatch",
-      "path": "MixMatch.md"
-    },
-    {
       "basename": "MixUp",
       "path": "MixUp.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Contriever",
@@ -147,58 +199,6 @@
     {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "Self-Play Fine-Tuning",
-      "path": "Self-Play Fine-Tuning.md"
-    },
-    {
-      "basename": "Starling",
-      "path": "Starling.md"
-    },
-    {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
-    },
-    {
-      "basename": "Data Augmentation",
-      "path": "Data Augmentation.md"
-    },
-    {
-      "basename": "Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
-      "path": "PaperClubs/Oxen/Paperclub Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.md"
-    },
-    {
-      "basename": "Paperclub The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits",
-      "path": "PaperClubs/LatentSpace/Paperclub The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md"
-    },
-    {
-      "basename": "Paperclub Self-Rewarding Language Models",
-      "path": "PaperClubs/LatentSpace/Paperclub Self-Rewarding Language Models.md"
-    },
-    {
-      "basename": "Paperclub RAG Survey",
-      "path": "PaperClubs/LatentSpace/Paperclub RAG Survey.md"
-    },
-    {
-      "basename": "Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling",
-      "path": "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md"
-    },
-    {
-      "basename": "Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey",
-      "path": "PaperClubs/LatentSpace/Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey.md"
-    },
-    {
-      "basename": "Paperclub BitNet - Scaling 1-bit Transformers for Large Language Models",
-      "path": "PaperClubs/LatentSpace/Paperclub BitNet - Scaling 1-bit Transformers for Large Language Models.md"
-    },
-    {
-      "basename": "Hard Negative Mining",
-      "path": "Hard Negative Mining.md"
-    },
-    {
-      "basename": "Guardrails",
-      "path": "Guardrails.md"
     }
   ],
   "omittedPaths": [],

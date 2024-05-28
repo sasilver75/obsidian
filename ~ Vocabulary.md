@@ -315,8 +315,9 @@
 - [[Hard Negative Mining]]
 - [[Contriever]]
 - [[Consistency Filtering]]
-- [[InPars]]
-
+- [[InPars]] (Inquisitive Parrots for Search)
+- [[UPR]] (Unsupervised Passage Re-Ranker)
+- [[Generate-then-Read]] (GenRead)
 # Natural Language Processing Concepts
 - Tasks
 	- [[Sentiment Analysis]]
@@ -739,6 +740,7 @@
 - [[Salesforce Research]]  💼
 - [[Apple]] 
 - [[EssentialAI]] 😶
+- [[Zeta Alpha]] 📝
 
 
 # People
