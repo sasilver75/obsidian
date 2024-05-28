@@ -64,3 +64,5 @@ Toxicity
 
 
 
+![[Pasted image 20240528105840.png]]
+This is what Evals are really for (Bryan Bischof)

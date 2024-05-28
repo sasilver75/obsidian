@@ -43,6 +43,7 @@
 - [[ROC-AUC]] (ROC Area under Curve)
 - [[Precision-Recall Curve]] (PR Curve)
 - [[PR-AUC]] (PR Area under Curve)
+- [[JS Divergence]] (Jensen-Shannon Divergence)
 - [[Principal Component Analysis]] (PCA)
 - [[Independent Component Analysis]] (ICA)
 - [[Bloom Filter]]
@@ -607,11 +608,12 @@
 - [[Safetensors]]
 - [[llama.cpp]]
 - [[fastText]]
-- [[Trafilatura]]
+- [[Trafilatura]] 📝
 - [[Langtrace]] (Unsure if this should be here.)
-- [[LangSmith]]
-- [[Modal]]
-- [[RAGAS]]
+- [[LangChain]] ⛓️
+- [[LangSmith]] 📊
+- [[Modal]] 🟩
+- [[RAGAS]] 📝📊
 - [[Sentence Transformers]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
@@ -802,3 +804,4 @@
 - [[Jeff Dean]] 🐐
 - [[Jack Clark]] 📝
 - [[Matei Zaharia]] 🧱
+- [[Shreya Shankar]] 📊
