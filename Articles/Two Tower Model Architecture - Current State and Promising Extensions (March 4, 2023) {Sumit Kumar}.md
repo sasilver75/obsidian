@@ -42,7 +42,7 @@ Link: https://blog.reachsumit.com/posts/2023/03/two-tower-model/
 - Authors design a two-tower model that emphasizes both information interactions and inference efficiency. The model has three blocks:
 1. Light-SE Block: Used to identify the importance of different features and obtain refined feature representations in each tower. The design of this module is based on the SENET model from computer vision's "Squeeze-and-Excitation Networks" paper.
 2. FE-Block: Inspired by the later-interaction style of ColBERT, it performs fine-grained early feature interaction between multi-layer user representations and the last layer of item representation.
-3. CIR Module: A Contrastive Interaction Regularization (CIR) module was proposed to shorten the distance between a user and positive items using InfoNCE loss function. During training, the loss value is combined with the log loss between model prediction scores and true labels.
+3. CIR Module: A Contrastive Interaction Regularization (CIR) module was proposed to shorten the distance between a user and positive items using [[InfoNCE]] loss function. During training, the loss value is combined with the log loss between model prediction scores and true labels.
 
 ![[Pasted image 20240527214200.png]]
 ![[Pasted image 20240527214154.png]]

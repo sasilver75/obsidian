@@ -1,12 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
-      "path": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
+      "basename": "Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}",
+      "path": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Bi-Encoder",
+      "path": "Bi-Encoder.md"
+    },
+    {
+      "basename": "MixMatch",
+      "path": "MixMatch.md"
+    },
+    {
+      "basename": "UPR",
+      "path": "UPR.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "InPars",
+      "path": "InPars.md"
+    },
+    {
+      "basename": "UDAPDR",
+      "path": "UDAPDR.md"
     },
     {
       "basename": "Late Interaction",
       "path": "Late Interaction.md"
+    },
+    {
+      "basename": "Approximate Nearest Neighbor Contrastive Learning",
+      "path": "Approximate Nearest Neighbor Contrastive Learning.md"
+    },
+    {
+      "basename": "BM25",
+      "path": "BM25.md"
+    },
+    {
+      "basename": "Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}",
+      "path": "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Positive Pair",
+      "path": "Positive Pair.md"
+    },
+    {
+      "basename": "Negative Pair",
+      "path": "Negative Pair.md"
+    },
+    {
+      "basename": "MixUp",
+      "path": "MixUp.md"
+    },
+    {
+      "basename": "Inverse Cloze",
+      "path": "Inverse Cloze.md"
+    },
+    {
+      "basename": "InfoNCE",
+      "path": "InfoNCE.md"
+    },
+    {
+      "basename": "CS685 Lecture 13",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md"
+    },
+    {
+      "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
+      "path": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Contriever",
+      "path": "Contriever.md"
     },
     {
       "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
@@ -17,28 +85,8 @@
       "path": "Articles/Strategies for Effective and Efficient text Ranking using LLMs.md"
     },
     {
-      "basename": "UDAPDR",
-      "path": "UDAPDR.md"
-    },
-    {
-      "basename": "InPars",
-      "path": "InPars.md"
-    },
-    {
       "basename": "Active Learning",
       "path": "Active Learning.md"
-    },
-    {
-      "basename": "UPR",
-      "path": "UPR.md"
-    },
-    {
-      "basename": "CS685 Lecture 13",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "HyDE",
@@ -57,10 +105,6 @@
       "path": "Microsoft Research.md"
     },
     {
-      "basename": "Bi-Encoder",
-      "path": "Bi-Encoder.md"
-    },
-    {
       "basename": "CS685 Lecture 12",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md"
     },
@@ -73,10 +117,6 @@
       "path": "MT-Bench.md"
     },
     {
-      "basename": "MixMatch",
-      "path": "MixMatch.md"
-    },
-    {
       "basename": "Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}",
       "path": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
     },
@@ -87,14 +127,6 @@
     {
       "basename": "Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
       "path": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
-    },
-    {
-      "basename": "MixUp",
-      "path": "MixUp.md"
-    },
-    {
-      "basename": "Contriever",
-      "path": "Contriever.md"
     },
     {
       "basename": "Promptagator",
@@ -163,42 +195,6 @@
     {
       "basename": "Retrieval-Augmented Generation (Model)",
       "path": "Retrieval-Augmented Generation (Model).md"
-    },
-    {
-      "basename": "BLEURT",
-      "path": "BLEURT.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "EssentialAI",
-      "path": "EssentialAI.md"
-    },
-    {
-      "basename": "HELM",
-      "path": "HELM.md"
-    },
-    {
-      "basename": "COMET",
-      "path": "COMET.md"
-    },
-    {
-      "basename": "Precision-Recall Curve",
-      "path": "Precision-Recall Curve.md"
-    },
-    {
-      "basename": "PR-AUC",
-      "path": "PR-AUC.md"
-    },
-    {
-      "basename": "Type Two Error",
-      "path": "Type Two Error.md"
-    },
-    {
-      "basename": "Type One Error",
-      "path": "Type One Error.md"
     }
   ],
   "omittedPaths": [],
