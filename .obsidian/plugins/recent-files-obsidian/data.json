@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Workshop 3 - Evaluations",
+      "path": "Courses/LLM Mastery/Workshop 3 - Evaluations.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "JS Divergence",
+      "path": "JS Divergence.md"
+    },
+    {
+      "basename": "Evaluation Index",
+      "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}",
+      "path": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md"
+    },
+    {
       "basename": "Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}",
       "path": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md"
     },
     {
+      "basename": "Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}",
+      "path": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Workshop 2 - Finetuning",
+      "path": "Courses/LLM Mastery/Workshop 2 - Finetuning.md"
+    },
+    {
       "basename": "Bi-Encoder",
       "path": "Bi-Encoder.md"
+    },
+    {
+      "basename": "MixUp",
+      "path": "MixUp.md"
     },
     {
       "basename": "MixMatch",
@@ -15,10 +47,6 @@
     {
       "basename": "UPR",
       "path": "UPR.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "InPars",
@@ -51,10 +79,6 @@
     {
       "basename": "Negative Pair",
       "path": "Negative Pair.md"
-    },
-    {
-      "basename": "MixUp",
-      "path": "MixUp.md"
     },
     {
       "basename": "Inverse Cloze",
@@ -173,28 +197,8 @@
       "path": "ROC Curve.md"
     },
     {
-      "basename": "Evaluation Index",
-      "path": "Indices/Evaluation Index.md"
-    },
-    {
       "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
       "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
-    },
-    {
-      "basename": "RoBERTa",
-      "path": "RoBERTa.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation (Model)",
-      "path": "Retrieval-Augmented Generation (Model).md"
     }
   ],
   "omittedPaths": [],

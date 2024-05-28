@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
+                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "524b374d8160436f",
+            "id": "c67149e9f8ecda78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bi-Encoder.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,51 @@
             }
           },
           {
-            "id": "ee4c881085e6d631",
+            "id": "58bf6a5171dbcede",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MixUp.md",
+                "file": "JS Divergence.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54937a4cf392a861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74688a7fe1eb8603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indices/Evaluation Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7558c2c61764276f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
+                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
+                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md"
+                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md"
               }
             }
           },
@@ -186,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
+                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -234,16 +273,30 @@
   },
   "active": "48ecf73cb9ee5c7b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240528002716.png",
-    "_attachments/Pasted image 20240528002714.png",
-    "_attachments/Pasted image 20240528002713.png",
-    "Bi-Encoder.md",
+    "_attachments/Pasted image 20240528115054.png",
+    "_attachments/Pasted image 20240528115023.png",
+    "_attachments/Pasted image 20240528115007.png",
+    "_attachments/Pasted image 20240528114900.png",
+    "_attachments/Pasted image 20240528114805.png",
+    "_attachments/Pasted image 20240528114724.png",
+    "_attachments/Pasted image 20240528114538.png",
+    "~ Vocabulary.md",
+    "JS Divergence.md",
+    "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
+    "_attachments/Pasted image 20240528112331.png",
+    "_attachments/Pasted image 20240528112116.png",
+    "_attachments/Pasted image 20240528111416.png",
+    "_attachments/Pasted image 20240528111245.png",
+    "Indices/Evaluation Index.md",
+    "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
     "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
-    "_attachments/Pasted image 20240528000700.png",
+    "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+    "Courses/LLM Mastery/Workshop 2 - Finetuning.md",
+    "Bi-Encoder.md",
+    "MixUp.md",
     "MixMatch.md",
     "generatire retrie.md",
     "UPR.md",
-    "~ Vocabulary.md",
     "InPars.md",
     "UDAPDR.md",
     "Late Interaction.md",
@@ -252,24 +305,10 @@
     "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md",
     "Positive Pair.md",
     "Negative Pair.md",
-    "MixUp.md",
     "Inverse Cloze.md",
     "inverse close.md",
     "Inverse Cloze Task.md",
     "InfoNCE.md",
-    "_attachments/Pasted image 20240527223725.png",
-    "_attachments/Pasted image 20240527221802.png",
-    "_attachments/Pasted image 20240527221526.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md",
-    "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
-    "Contriever.md",
-    "_attachments/Pasted image 20240527220629.png",
-    "_attachments/Pasted image 20240527220213.png",
-    "_attachments/Pasted image 20240527214200.png",
-    "_attachments/Pasted image 20240527214154.png",
-    "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md",
-    "Articles/Strategies for Effective and Efficient text Ranking using LLMs.md",
-    "Active Learning.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

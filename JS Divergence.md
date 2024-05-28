@@ -1,0 +1,4 @@
+---
+aliases:
+  - Jensen-Shanon Divergence
+---
