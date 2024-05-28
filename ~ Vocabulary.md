@@ -63,6 +63,8 @@
 - [[Cross-Validation]]
 - [[UMAP]]
 - [[DBSCAN]]
+- [[Cloze]]
+- [[Inverse Cloze]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -318,6 +320,7 @@
 - [[InPars]] (Inquisitive Parrots for Search)
 - [[UPR]] (Unsupervised Passage Re-Ranker)
 - [[Generate-then-Read]] (GenRead)
+- [[Approximate Nearest Neighbor Contrastive Learning]] (ANCE)
 # Natural Language Processing Concepts
 - Tasks
 	- [[Sentiment Analysis]]
@@ -378,6 +381,7 @@
 - [[N-Gram]]
 - [[Coreference]], [[Coreference Resolution]]
 - [[Selective Language Modeling]] (SLM)
+- [[InfoNCE]]
 # Computer Vision Concepts
 - [[Object Recognition]]
 - [[Segmentation Mask]]

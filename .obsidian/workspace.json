@@ -8,142 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a380c0aecba6b1d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7196f8ca3a92e30e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b101270fda07501b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Late Interaction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b2e44b7729f4242",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UDAPDR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "564641f6103e3dc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InPars.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cb82a45eb61861f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UPR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad25034a5a23bfda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UPR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36d17617a31a3904",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e320f8b019638d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UPR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc0849ce55529adf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UPR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "48ecf73cb9ee5c7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MixMatch.md",
+                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "524b374d8160436f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bi-Encoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -163,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SPIN",
+                "query": "InfoNCE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -239,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
+                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md"
               }
             }
           },
@@ -304,7 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -350,44 +232,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7196f8ca3a92e30e",
+  "active": "48ecf73cb9ee5c7b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240528002716.png",
+    "_attachments/Pasted image 20240528002714.png",
+    "_attachments/Pasted image 20240528002713.png",
+    "Bi-Encoder.md",
+    "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
+    "_attachments/Pasted image 20240528000700.png",
+    "MixMatch.md",
+    "generatire retrie.md",
+    "UPR.md",
+    "~ Vocabulary.md",
+    "InPars.md",
+    "UDAPDR.md",
+    "Late Interaction.md",
+    "Approximate Nearest Neighbor Contrastive Learning.md",
+    "BM25.md",
+    "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md",
+    "Positive Pair.md",
+    "Negative Pair.md",
+    "MixUp.md",
+    "Inverse Cloze.md",
+    "inverse close.md",
+    "Inverse Cloze Task.md",
+    "InfoNCE.md",
+    "_attachments/Pasted image 20240527223725.png",
+    "_attachments/Pasted image 20240527221802.png",
+    "_attachments/Pasted image 20240527221526.png",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md",
+    "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
+    "Contriever.md",
+    "_attachments/Pasted image 20240527220629.png",
+    "_attachments/Pasted image 20240527220213.png",
     "_attachments/Pasted image 20240527214200.png",
     "_attachments/Pasted image 20240527214154.png",
-    "_attachments/Pasted image 20240527213857.png",
-    "_attachments/Pasted image 20240527213856.png",
-    "_attachments/Pasted image 20240527213216.png",
-    "_attachments/Pasted image 20240527212101.png",
-    "Late Interaction.md",
-    "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
-    "_attachments/Pasted image 20240527211712.png",
-    "_attachments/Pasted image 20240527211529.png",
-    "_attachments/Pasted image 20240527211036.png",
-    "_attachments/Pasted image 20240527211033.png",
-    "_attachments/Pasted image 20240527211026.png",
     "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md",
     "Articles/Strategies for Effective and Efficient text Ranking using LLMs.md",
-    "UDAPDR.md",
-    "InPars.md",
     "Active Learning.md",
-    "UPR.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md",
-    "~ Vocabulary.md",
-    "HyDE.md",
-    "IRCoT.md",
-    "Generate-then-Read.md",
-    "Microsoft Research.md",
-    "Bi-Encoder.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md",
-    "Identity-Mapping Preference Optimization.md",
-    "MT-Bench.md",
-    "MixMatch.md",
-    "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md",
-    "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md",
-    "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
-    "Articles/Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md",
-    "MixUp.md",
-    "Articles/Tools for curating LLM data.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
