@@ -1,1 +1,1 @@
-First devised in the [[ColBERT]] model, appearing at SIGIR 2020.
+Related: [[ColBERT]]
