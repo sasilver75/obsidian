@@ -8,64 +8,77 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48ecf73cb9ee5c7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "531231d22d53ff9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Positional Bias.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c67149e9f8ecda78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58bf6a5171dbcede",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS Divergence.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "54937a4cf392a861",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e5803acfe8ad5a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPT-4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bce69af91798068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "146f2952f6c745da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a40d144ee2f09603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MMBench.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "daa3b0ead23da57c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Massive Multi-Discipline Multimodal Understanding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -173,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
+                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md"
               }
             }
           },
@@ -238,7 +251,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -284,12 +297,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "48ecf73cb9ee5c7b",
+  "active": "54937a4cf392a861",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240528182553.png",
+    "GPT-4.md",
+    "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+    "_attachments/Pasted image 20240528201226.png",
+    "_attachments/Pasted image 20240528201206.png",
     "~ Vocabulary.md",
+    "MMBench.md",
+    "Massive Multi-Task Language Understanding.md",
+    "Massive Multi-Discipline Multimodal Understanding.md",
+    "_attachments/Pasted image 20240528194229.png",
+    "_attachments/Pasted image 20240528194013.png",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md",
+    "JS Divergence.md",
     "Positional Bias.md",
     "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+    "_attachments/Pasted image 20240528182553.png",
     "_attachments/Pasted image 20240528180612.png",
     "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
     "Articles/Strategies for Effective and Efficient text Ranking using LLMs.md",
@@ -299,12 +323,6 @@
     "UPR.md",
     "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
     "_attachments/Pasted image 20240528115054.png",
-    "_attachments/Pasted image 20240528115023.png",
-    "_attachments/Pasted image 20240528115007.png",
-    "_attachments/Pasted image 20240528114900.png",
-    "_attachments/Pasted image 20240528114805.png",
-    "_attachments/Pasted image 20240528114724.png",
-    "JS Divergence.md",
     "Indices/Evaluation Index.md",
     "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
     "Courses/LLM Mastery/Workshop 2 - Finetuning.md",
@@ -317,11 +335,6 @@
     "Late Interaction.md",
     "Approximate Nearest Neighbor Contrastive Learning.md",
     "BM25.md",
-    "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md",
-    "Positive Pair.md",
-    "Negative Pair.md",
-    "Inverse Cloze.md",
-    "inverse close.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

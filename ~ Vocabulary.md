@@ -618,7 +618,7 @@
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)
-- [[Massive Multi-task Language Understanding]] (MMLU)
+- [[Massive Multi-Task Language Understanding]] (MMLU)
 - [[MMLU-Pro]]
 - [[HumanEval]]
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
@@ -636,7 +636,7 @@
 - [[GPQA]] (Google-Proof Q&A Benchmark)
 - [[GSM8K]] (Grade School Math)
 - [[VQAv2]] (Visual Question Answering)
-- [[MMMU]] (Massive Multi-discipline Multimodal Understanding)
+- [[Massive Multi-Discipline Multimodal Understanding]] (Massive Multi-discipline Multimodal Understanding)
 - [[HotpotQA]]
 - [[HoVer]]
 - [[SQuAD]] (Stanford Question Answering Dataset)
@@ -652,6 +652,9 @@
 - [[Dynaboard]]
 - [[RewardBench]]
 - [[MTEB]] (Massive Text Embedding Benchmark)
+- [[Massive Multi-Discipline Multimodal Understanding]] (MMMU)
+- [[MMBench]]
+- [[Open VLM Leaderboard]]
 # Datasets
 *Datasets for training/finetuning models*
 - [[Common Crawl]]

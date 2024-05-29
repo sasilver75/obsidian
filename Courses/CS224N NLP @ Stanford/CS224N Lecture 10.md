@@ -105,7 +105,7 @@ Is Prompt Engineering becoming a new profession?
 How do we evaluate such a model that's been instruction-tuned?
 
 ![[Pasted image 20240410213114.png]]
-Above: [[Massive Multi-task Language Understanding|MMLU]]
+Above: [[Massive Multi-Task Language Understanding|MMLU]]
 See: At the time, GPT-3 wasn't thaat good, but certainly better than the random baseline!
 
 ![[Pasted image 20240410213150.png]]

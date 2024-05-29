@@ -55,7 +55,7 @@ Questions asked:
 - Those benchmarks aren't good enough of a proxy, and (with respect to loss), we don't care directly about performance on next-token prediction! ==We want to find out whether these scaling curves on next-token prediction actually correspond to true progress towards general intelligence!==
 
 ### Believer: 
-- As you scale the models, the performance consistently and reliably improves on a broad range of task as measured by benchmarks like [[Massive Multi-task Language Understanding|MMLU]], [[BIG-Bench]], and [[HumanEval]].
+- As you scale the models, the performance consistently and reliably improves on a broad range of task as measured by benchmarks like [[Massive Multi-Task Language Understanding|MMLU]], [[BIG-Bench]], and [[HumanEval]].
 
 ![[Pasted image 20240121174546.png]]
 ![[Pasted image 20240121174552.png]]
@@ -63,7 +63,7 @@ Questions asked:
 ![[Pasted image 20240121174558.png]]
 
 ### Skeptic:
-- Yeah, the numbers on the benchmarks are improving, but have you actually tried LOOKING at a random sample of questions from [[Massive Multi-task Language Understanding|MMLU]] and [[BIG-Bench]]? They're almost *all* just Google Search first hit results. They're good tests of *memorization*, not *intelligence!*
+- Yeah, the numbers on the benchmarks are improving, but have you actually tried LOOKING at a random sample of questions from [[Massive Multi-Task Language Understanding|MMLU]] and [[BIG-Bench]]? They're almost *all* just Google Search first hit results. They're good tests of *memorization*, not *intelligence!*
 
 Here's some questions:
 

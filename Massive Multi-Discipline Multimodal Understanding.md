@@ -1,3 +1,8 @@
+---
+aliases:
+  - MMMU
+---
+
 November 27, 2023
 Paper: [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502)
 

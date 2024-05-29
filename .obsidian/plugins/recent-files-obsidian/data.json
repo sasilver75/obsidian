@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}",
-      "path": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
+      "basename": "Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}",
+      "path": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md"
+    },
+    {
+      "basename": "GPT-4",
+      "path": "GPT-4.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "MMBench",
+      "path": "MMBench.md"
+    },
+    {
+      "basename": "Massive Multi-Task Language Understanding",
+      "path": "Massive Multi-Task Language Understanding.md"
+    },
+    {
+      "basename": "Massive Multi-Discipline Multimodal Understanding",
+      "path": "Massive Multi-Discipline Multimodal Understanding.md"
+    },
+    {
+      "basename": "CS685 Lecture 13",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md"
+    },
+    {
+      "basename": "JS Divergence",
+      "path": "JS Divergence.md"
+    },
+    {
       "basename": "Positional Bias",
       "path": "Positional Bias.md"
+    },
+    {
+      "basename": "Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}",
+      "path": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
     },
     {
       "basename": "Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}",
@@ -23,10 +51,6 @@
     {
       "basename": "Workshop 3 - Evaluations",
       "path": "Courses/LLM Mastery/Workshop 3 - Evaluations.md"
-    },
-    {
-      "basename": "JS Divergence",
-      "path": "JS Divergence.md"
     },
     {
       "basename": "Evaluation Index",
@@ -91,10 +115,6 @@
     {
       "basename": "InfoNCE",
       "path": "InfoNCE.md"
-    },
-    {
-      "basename": "CS685 Lecture 13",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md"
     },
     {
       "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
@@ -179,26 +199,6 @@
     {
       "basename": "ROC-AUC",
       "path": "ROC-AUC.md"
-    },
-    {
-      "basename": "chrF",
-      "path": "chrF.md"
-    },
-    {
-      "basename": "RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}",
-      "path": "Articles/RAG to Riches (Dec 2023) {Steve Yegge, Head of Engineering @ SourceGraph}.md"
-    },
-    {
-      "basename": "XCS224U Lecture 1",
-      "path": "Courses/XCS224U NLU @ Stanford/XCS224U Lecture 1.md"
-    },
-    {
-      "basename": "ROC Curve",
-      "path": "ROC Curve.md"
-    },
-    {
-      "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
     }
   ],
   "omittedPaths": [],
