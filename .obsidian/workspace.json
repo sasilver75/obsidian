@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "531231d22d53ff9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Positional Bias.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md"
+                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
               }
             }
           },
@@ -225,7 +238,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
+                "file": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -273,11 +286,17 @@
   },
   "active": "48ecf73cb9ee5c7b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240528182553.png",
+    "~ Vocabulary.md",
+    "Positional Bias.md",
+    "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+    "_attachments/Pasted image 20240528180612.png",
+    "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
+    "Articles/Strategies for Effective and Efficient text Ranking using LLMs.md",
     "_attachments/Pasted image 20240528174956.png",
     "_attachments/Pasted image 20240528174203.png",
     "_attachments/Pasted image 20240528174123.png",
     "UPR.md",
-    "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
     "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
     "_attachments/Pasted image 20240528115054.png",
     "_attachments/Pasted image 20240528115023.png",
@@ -285,13 +304,9 @@
     "_attachments/Pasted image 20240528114900.png",
     "_attachments/Pasted image 20240528114805.png",
     "_attachments/Pasted image 20240528114724.png",
-    "_attachments/Pasted image 20240528114538.png",
-    "~ Vocabulary.md",
     "JS Divergence.md",
-    "_attachments/Pasted image 20240528112331.png",
     "Indices/Evaluation Index.md",
     "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
-    "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
     "Courses/LLM Mastery/Workshop 2 - Finetuning.md",
     "Bi-Encoder.md",
     "MixUp.md",
@@ -307,8 +322,6 @@
     "Negative Pair.md",
     "Inverse Cloze.md",
     "inverse close.md",
-    "Inverse Cloze Task.md",
-    "InfoNCE.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
