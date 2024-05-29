@@ -266,5 +266,8 @@ Above: Comparison of Pairwise Ranking and Direct Assessment tasks for LM evaluat
 ![[Pasted image 20240523160226.png]]
 Above: Google using AI results on their search queries making people angry.
 
+![[Pasted image 20240528225721.png|300]]
+Showing [[Top-P Sampling|Nucleus Sampling]], [[Top-K Sampling]], [[Beam Search]], from the "Curious Case of Neural Text Degeneration" (2020) paper
+
 
 

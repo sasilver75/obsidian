@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Top-P Sampling",
+      "path": "Top-P Sampling.md"
+    },
+    {
+      "basename": "Top-K Sampling",
+      "path": "Top-K Sampling.md"
+    },
+    {
+      "basename": "Beam Search",
+      "path": "Beam Search.md"
+    },
+    {
+      "basename": "Multimodality and Large Language Models (October 10, 2023) {Chip Huyen}",
+      "path": "Articles/Multimodality and Large Language Models (October 10, 2023) {Chip Huyen}.md"
+    },
+    {
       "basename": "Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}",
       "path": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Consistency Regularization",
       "path": "Consistency Regularization.md"
-    },
-    {
-      "basename": "BEIR",
-      "path": "BEIR.md"
-    },
-    {
-      "basename": "Orca 2",
-      "path": "Orca 2.md"
-    },
-    {
-      "basename": "Synthetic Data Index",
-      "path": "Indices/Synthetic Data Index.md"
-    },
-    {
-      "basename": "Web Rephrase Augmented Pre-training",
-      "path": "Web Rephrase Augmented Pre-training.md"
-    },
-    {
-      "basename": "ROC-AUC",
-      "path": "ROC-AUC.md"
     }
   ],
   "omittedPaths": [],
