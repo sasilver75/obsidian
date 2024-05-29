@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
+                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
+                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
+                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md"
+                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md"
               }
             }
           },
@@ -225,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
+                "file": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -273,6 +273,12 @@
   },
   "active": "48ecf73cb9ee5c7b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240528174956.png",
+    "_attachments/Pasted image 20240528174203.png",
+    "_attachments/Pasted image 20240528174123.png",
+    "UPR.md",
+    "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
+    "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
     "_attachments/Pasted image 20240528115054.png",
     "_attachments/Pasted image 20240528115023.png",
     "_attachments/Pasted image 20240528115007.png",
@@ -282,13 +288,8 @@
     "_attachments/Pasted image 20240528114538.png",
     "~ Vocabulary.md",
     "JS Divergence.md",
-    "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
     "_attachments/Pasted image 20240528112331.png",
-    "_attachments/Pasted image 20240528112116.png",
-    "_attachments/Pasted image 20240528111416.png",
-    "_attachments/Pasted image 20240528111245.png",
     "Indices/Evaluation Index.md",
-    "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md",
     "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
     "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
     "Courses/LLM Mastery/Workshop 2 - Finetuning.md",
@@ -296,7 +297,6 @@
     "MixUp.md",
     "MixMatch.md",
     "generatire retrie.md",
-    "UPR.md",
     "InPars.md",
     "UDAPDR.md",
     "Late Interaction.md",
