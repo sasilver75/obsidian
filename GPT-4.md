@@ -1,0 +1,1 @@
+Likely a 1.8T parameter MoE model with 16 experts, each with 111B parameters.

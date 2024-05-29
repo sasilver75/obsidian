@@ -125,7 +125,7 @@ The RLHF baselines the authors use are [[PPO]] and [[Rejection Sampling]] fine-t
 
 # Evaluation (capabilities)
 - LLaMA 2 is way better than any other open source model at all scales on the HuggingFace Open LLM leaderboard.
-- The model scores better on automatic and less flashy benchmarks like [[Massive Multi-task Language Understanding|MMLU]].
+- The model scores better on automatic and less flashy benchmarks like [[Massive Multi-Task Language Understanding|MMLU]].
 - The base model capability is what others rely on; substantial data efforts are likely the biggest factor in these "basic" evaluations; then, RLHF makes the model easier to use and makes that knowledge available.
 
 In terms of performance, these models go beyond ChatGPT after RLHF3
