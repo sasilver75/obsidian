@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Top-P Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Top-P Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Top-P Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Top-P Sampling.md"
               }
             }
           },
@@ -251,7 +251,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Top-P Sampling.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -299,6 +299,7 @@
   },
   "active": "54937a4cf392a861",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240528225721.png",
     "Top-P Sampling.md",
     "Top-K Sampling.md",
@@ -325,7 +326,6 @@
     "Articles/Strategies for Effective and Efficient text Ranking using LLMs.md",
     "_attachments/Pasted image 20240528174956.png",
     "_attachments/Pasted image 20240528174203.png",
-    "_attachments/Pasted image 20240528174123.png",
     "UPR.md",
     "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
     "Indices/Evaluation Index.md",
