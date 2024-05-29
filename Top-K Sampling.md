@@ -1,3 +1,4 @@
+Some good discussion at ~45:00 in this CS685 [lecture](https://www.youtube.com/live/WoJrlvu7ODI?si=7oeVAKibbhkmGDzp)
 
 ![[Pasted image 20240411130104.png]]
 ![[Pasted image 20240411130458.png]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           },
@@ -251,7 +251,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+                "file": "~ Useful Pictures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -299,8 +299,14 @@
   },
   "active": "54937a4cf392a861",
   "lastOpenFiles": [
-    "GPT-4.md",
+    "_attachments/Pasted image 20240528225721.png",
+    "Top-P Sampling.md",
+    "Top-K Sampling.md",
+    "Beam Search.md",
+    "_attachments/Pasted image 20240528222827.png",
+    "Articles/Multimodality and Large Language Models (October 10, 2023) {Chip Huyen}.md",
     "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+    "GPT-4.md",
     "_attachments/Pasted image 20240528201226.png",
     "_attachments/Pasted image 20240528201206.png",
     "~ Vocabulary.md",
@@ -322,7 +328,6 @@
     "_attachments/Pasted image 20240528174123.png",
     "UPR.md",
     "Courses/LLM Mastery/Workshop 3 - Evaluations.md",
-    "_attachments/Pasted image 20240528115054.png",
     "Indices/Evaluation Index.md",
     "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
     "Courses/LLM Mastery/Workshop 2 - Finetuning.md",
@@ -330,11 +335,6 @@
     "MixUp.md",
     "MixMatch.md",
     "generatire retrie.md",
-    "InPars.md",
-    "UDAPDR.md",
-    "Late Interaction.md",
-    "Approximate Nearest Neighbor Contrastive Learning.md",
-    "BM25.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
