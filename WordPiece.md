@@ -2,7 +2,7 @@ From 2012's *Japanese and Korean Voice Search (Schuster et al.)*
 
 WordPiece is a *subword tokenization algorithm* used in [[Bidirectional Encoder Representations from Transformers|BERT]], [[DistilBERT]], and [[ELECTRA]], among others.
 
-It's very similar to [[Byte-Pair Encoding|BPE]].
+It's *very* similar to [[Byte-Pair Encoding|BPE]].
 
 WordPiece first initializes the vocabulary to include every character present in the training data, and progressively learns a given number of merge rules.
 - In contrast to BPE, WordPiece doesn't choose the *most frequent symbol pair,* but instead ==chooses to merge the pair of tokens that *maximizes the likelihood of the training data, once added to the vocabulary==.*

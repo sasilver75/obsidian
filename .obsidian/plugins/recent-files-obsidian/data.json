@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "WordPiece",
+      "path": "WordPiece.md"
+    },
+    {
+      "basename": "HuggingFace Tokenizers",
+      "path": "HuggingFace Tokenizers.md"
+    },
+    {
+      "basename": "spaCy",
+      "path": "spaCy.md"
+    },
+    {
+      "basename": "Natural Language Toolkit",
+      "path": "Natural Language Toolkit.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Cloze",
+      "path": "Cloze.md"
+    },
+    {
+      "basename": "Tokenizer",
+      "path": "Tokenizer.md"
+    },
+    {
+      "basename": "Token",
+      "path": "Token.md"
+    },
+    {
+      "basename": "Weave",
+      "path": "Weave.md"
+    },
+    {
+      "basename": "How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}",
+      "path": "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md"
+    },
+    {
+      "basename": "Weights and Biases",
+      "path": "Weights and Biases.md"
+    },
+    {
+      "basename": "Model Pruning",
+      "path": "Model Pruning.md"
+    },
+    {
+      "basename": "Underfitting",
+      "path": "Underfitting.md"
+    },
+    {
+      "basename": "Content-Based Filtering",
+      "path": "Content-Based Filtering.md"
+    },
+    {
+      "basename": "Collaborative Filtering",
+      "path": "Collaborative Filtering.md"
+    },
+    {
+      "basename": "Out-of-Vocabulary Token",
+      "path": "Out-of-Vocabulary Token.md"
+    },
+    {
+      "basename": "Evaluation Index",
+      "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "Massive Multi-Discipline Multimodal Understanding",
+      "path": "Massive Multi-Discipline Multimodal Understanding.md"
+    },
+    {
+      "basename": "MMBench",
+      "path": "MMBench.md"
+    },
+    {
+      "basename": "GPT-4",
+      "path": "GPT-4.md"
+    },
+    {
+      "basename": "Weight-Decomposed Low-Rank Adaptation",
+      "path": "Weight-Decomposed Low-Rank Adaptation.md"
+    },
+    {
       "basename": "Top-P Sampling",
       "path": "Top-P Sampling.md"
     },
@@ -25,24 +113,8 @@
       "path": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md"
     },
     {
-      "basename": "GPT-4",
-      "path": "GPT-4.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "MMBench",
-      "path": "MMBench.md"
-    },
-    {
       "basename": "Massive Multi-Task Language Understanding",
       "path": "Massive Multi-Task Language Understanding.md"
-    },
-    {
-      "basename": "Massive Multi-Discipline Multimodal Understanding",
-      "path": "Massive Multi-Discipline Multimodal Understanding.md"
     },
     {
       "basename": "CS685 Lecture 13",
@@ -71,10 +143,6 @@
     {
       "basename": "Workshop 3 - Evaluations",
       "path": "Courses/LLM Mastery/Workshop 3 - Evaluations.md"
-    },
-    {
-      "basename": "Evaluation Index",
-      "path": "Indices/Evaluation Index.md"
     },
     {
       "basename": "Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}",
@@ -131,74 +199,6 @@
     {
       "basename": "Inverse Cloze",
       "path": "Inverse Cloze.md"
-    },
-    {
-      "basename": "InfoNCE",
-      "path": "InfoNCE.md"
-    },
-    {
-      "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
-      "path": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Contriever",
-      "path": "Contriever.md"
-    },
-    {
-      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
-      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Active Learning",
-      "path": "Active Learning.md"
-    },
-    {
-      "basename": "HyDE",
-      "path": "HyDE.md"
-    },
-    {
-      "basename": "IRCoT",
-      "path": "IRCoT.md"
-    },
-    {
-      "basename": "Generate-then-Read",
-      "path": "Generate-then-Read.md"
-    },
-    {
-      "basename": "Microsoft Research",
-      "path": "Microsoft Research.md"
-    },
-    {
-      "basename": "CS685 Lecture 12",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 12.md"
-    },
-    {
-      "basename": "Identity-Mapping Preference Optimization",
-      "path": "Identity-Mapping Preference Optimization.md"
-    },
-    {
-      "basename": "MT-Bench",
-      "path": "MT-Bench.md"
-    },
-    {
-      "basename": "Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}",
-      "path": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
-    },
-    {
-      "basename": "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}",
-      "path": "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md"
-    },
-    {
-      "basename": "Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
-      "path": "Articles/Learning with not Enough Data  Part 1 - Seim-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
-    },
-    {
-      "basename": "Promptagator",
-      "path": "Promptagator.md"
-    },
-    {
-      "basename": "Consistency Regularization",
-      "path": "Consistency Regularization.md"
     }
   ],
   "omittedPaths": [],
