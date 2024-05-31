@@ -615,6 +615,10 @@
 - [[Modal]] 🟩
 - [[RAGAS]] 📝📊
 - [[Sentence Transformers]]
+- [[Weave]]
+- [[Natural Language Toolkit]] (NLTK)
+- [[spaCy]]
+- [[HuggingFace Tokenizers]]
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)
@@ -750,6 +754,7 @@
 - [[Apple]] 
 - [[EssentialAI]] 😶
 - [[Zeta Alpha]] 📝
+- [[Weights and Biases]] 📊
 
 
 # People

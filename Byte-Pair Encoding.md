@@ -5,6 +5,7 @@ aliases:
 Introduced in 2016's *Neural Machine Translation of Rare Words with Subword Units (Sennrich et al.)*
 
 Used by [[GPT-2]], [[GPT-3]], [[GPT-4]], [[RoBERTa]], and more.
+It's *very* similar to [[WordPiece]]
 
 BPE creates a base vocabulary consisting of all symbols that occur in our set of unique words, and learns merge rules to form new symbols from two symbols of the base vocabulary. It does so repeatedly until the vocabulary has attained the desired vocabulary size (which is hyperparameter). 
 

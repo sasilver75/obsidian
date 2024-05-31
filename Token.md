@@ -1,3 +1,5 @@
+Without tokenization, computers would be unable to differentiate individual words, identify sentence boundaries, or recognize relationships between different linguistic elements.
+
 Models don't understand words; they understand numbers.
 When we receive a sequence of words, we convert them to numbers.
 Sometimes we split words into pieces, such as splitting "tokenization" into "token" and "ization." 
