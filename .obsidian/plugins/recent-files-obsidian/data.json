@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
+      "basename": "L2 Regularization",
+      "path": "L2 Regularization.md"
     },
     {
-      "basename": "WordPiece",
-      "path": "WordPiece.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "L1 Regularization",
+      "path": "L1 Regularization.md"
+    },
+    {
+      "basename": "Regularization",
+      "path": "Regularization.md"
+    },
+    {
+      "basename": "Feature Engineering",
+      "path": "Feature Engineering.md"
+    },
+    {
+      "basename": "Content-Based Filtering",
+      "path": "Content-Based Filtering.md"
+    },
+    {
+      "basename": "Model Pruning",
+      "path": "Model Pruning.md"
+    },
+    {
+      "basename": "Tokenizer",
+      "path": "Tokenizer.md"
     },
     {
       "basename": "HuggingFace Tokenizers",
@@ -21,16 +45,16 @@
       "path": "Natural Language Toolkit.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "WordPiece",
+      "path": "WordPiece.md"
     },
     {
       "basename": "Cloze",
       "path": "Cloze.md"
-    },
-    {
-      "basename": "Tokenizer",
-      "path": "Tokenizer.md"
     },
     {
       "basename": "Token",
@@ -49,16 +73,8 @@
       "path": "Weights and Biases.md"
     },
     {
-      "basename": "Model Pruning",
-      "path": "Model Pruning.md"
-    },
-    {
       "basename": "Underfitting",
       "path": "Underfitting.md"
-    },
-    {
-      "basename": "Content-Based Filtering",
-      "path": "Content-Based Filtering.md"
     },
     {
       "basename": "Collaborative Filtering",
@@ -183,22 +199,6 @@
     {
       "basename": "BM25",
       "path": "BM25.md"
-    },
-    {
-      "basename": "Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}",
-      "path": "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Positive Pair",
-      "path": "Positive Pair.md"
-    },
-    {
-      "basename": "Negative Pair",
-      "path": "Negative Pair.md"
-    },
-    {
-      "basename": "Inverse Cloze",
-      "path": "Inverse Cloze.md"
     }
   ],
   "omittedPaths": [],
