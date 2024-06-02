@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content-Based Filtering.md",
+                "file": "L1 Regularization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16a72f64a954818d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L2 Regularization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8764c3191e1aa676",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -195,7 +221,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "L1 Regularization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d02c607fece3b14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "L2 Regularization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +334,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "L2 Regularization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Byte-Pair Encoding.md"
+                "file": "L2 Regularization.md"
               }
             }
           },
@@ -351,7 +390,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "L2 Regularization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -398,23 +437,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7a11357b73be35b9",
+  "active": "16a72f64a954818d",
   "lastOpenFiles": [
-    "WordPiece.md",
+    "~ Vocabulary.md",
+    "L2 Regularization.md",
+    "L1 Regularization.md",
+    "Regularization.md",
+    "Feature Engineering.md",
+    "Content-Based Filtering.md",
+    "Model Pruning.md",
+    "Tokenizer.md",
     "HuggingFace Tokenizers.md",
     "spaCy.md",
     "Natural Language Toolkit.md",
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240531155208.png",
+    "_attachments/Pasted image 20240531155006.png",
+    "Byte-Pair Encoding.md",
+    "WordPiece.md",
     "Cloze.md",
-    "Tokenizer.md",
     "_attachments/Pasted image 20240530114310.png",
     "Token.md",
     "Weave.md",
     "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
     "Weights and Biases.md",
-    "Model Pruning.md",
     "Underfitting.md",
-    "Content-Based Filtering.md",
     "Collaborative Filtering.md",
     "Out-of-Vocabulary Token.md",
     "Indices/Evaluation Index.md",
@@ -422,20 +468,13 @@
     "MMBench.md",
     "GPT-4.md",
     "Weight-Decomposed Low-Rank Adaptation.md",
-    "Top-P Sampling.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240528225721.png",
-    "Top-K Sampling.md",
-    "Beam Search.md",
     "_attachments/Pasted image 20240528222827.png",
-    "Articles/Multimodality and Large Language Models (October 10, 2023) {Chip Huyen}.md",
     "_attachments/Pasted image 20240528201226.png",
     "_attachments/Pasted image 20240528201206.png",
     "_attachments/Pasted image 20240528194229.png",
     "_attachments/Pasted image 20240528194013.png",
     "_attachments/Pasted image 20240528182553.png",
-    "_attachments/Pasted image 20240528180612.png",
-    "_attachments/Pasted image 20240528174956.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

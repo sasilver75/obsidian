@@ -24,6 +24,8 @@
 - [[Importance Sampling]]
 - [[Pearson Correlation Coefficient]]
 - [[Spearman Correlation Coefficient]]
+- [[Chi-Squared]]
+- [[Multicollinearity]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
