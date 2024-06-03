@@ -53,8 +53,6 @@ Wild alignment workflow
 
 DPO is the only addition from Llama 2, but most improvements came from cleaning the data rather than specific training approaches.
 
-Dedicated chat interface at [www.meta.ai](www.meta.ai)
-
 Is it open source?
 - Largely the same as Llama 2 -- it's not an open use model without the data, and changes push the "built with Llama 3" as the Meta brand strategy.
 

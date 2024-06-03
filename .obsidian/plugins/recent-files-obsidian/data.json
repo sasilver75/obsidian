@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "Fusion-in-Decoder",
+      "path": "Fusion-in-Decoder.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation (Model)",
+      "path": "Retrieval-Augmented Generation (Model).md"
+    },
+    {
+      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "L1 Regularization",
+      "path": "L1 Regularization.md"
+    },
+    {
+      "basename": "HuggingFace Tokenizers",
+      "path": "HuggingFace Tokenizers.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Natural Language Toolkit",
+      "path": "Natural Language Toolkit.md"
+    },
+    {
+      "basename": "spaCy",
+      "path": "spaCy.md"
+    },
+    {
+      "basename": "Model Pruning",
+      "path": "Model Pruning.md"
+    },
+    {
+      "basename": "InfoNCE",
+      "path": "InfoNCE.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
+    },
+    {
+      "basename": "Noise-Contrastive Estimation",
+      "path": "Noise-Contrastive Estimation.md"
+    },
+    {
+      "basename": "Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}",
+      "path": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
+    },
+    {
+      "basename": "Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
+      "path": "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
+    },
+    {
+      "basename": "F1 Score",
+      "path": "F1 Score.md"
+    },
+    {
+      "basename": "Few-Shot Preference Learning for Human-in-the-Loop RL",
+      "path": "Few-Shot Preference Learning for Human-in-the-Loop RL.md"
+    },
+    {
       "basename": "Tiktoken",
       "path": "Tiktoken.md"
     },
@@ -13,20 +77,8 @@
       "path": "Goat.md"
     },
     {
-      "basename": "F1 Score",
-      "path": "F1 Score.md"
-    },
-    {
-      "basename": "L1 Regularization",
-      "path": "L1 Regularization.md"
-    },
-    {
       "basename": "L2 Regularization",
       "path": "L2 Regularization.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Regularization",
@@ -41,24 +93,8 @@
       "path": "Content-Based Filtering.md"
     },
     {
-      "basename": "Model Pruning",
-      "path": "Model Pruning.md"
-    },
-    {
       "basename": "Tokenizer",
       "path": "Tokenizer.md"
-    },
-    {
-      "basename": "HuggingFace Tokenizers",
-      "path": "HuggingFace Tokenizers.md"
-    },
-    {
-      "basename": "spaCy",
-      "path": "spaCy.md"
-    },
-    {
-      "basename": "Natural Language Toolkit",
-      "path": "Natural Language Toolkit.md"
     },
     {
       "basename": "Byte-Pair Encoding",
@@ -163,42 +199,6 @@
     {
       "basename": "Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}",
       "path": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}",
-      "path": "Articles/Prompting-based Methods for Text Ranking Using Large Language Models (December 12, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "UPR",
-      "path": "UPR.md"
-    },
-    {
-      "basename": "Workshop 3 - Evaluations",
-      "path": "Courses/LLM Mastery/Workshop 3 - Evaluations.md"
-    },
-    {
-      "basename": "Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}",
-      "path": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Workshop 2 - Finetuning",
-      "path": "Courses/LLM Mastery/Workshop 2 - Finetuning.md"
-    },
-    {
-      "basename": "Bi-Encoder",
-      "path": "Bi-Encoder.md"
-    },
-    {
-      "basename": "MixUp",
-      "path": "MixUp.md"
-    },
-    {
-      "basename": "MixMatch",
-      "path": "MixMatch.md"
-    },
-    {
-      "basename": "InPars",
-      "path": "InPars.md"
     }
   ],
   "omittedPaths": [],

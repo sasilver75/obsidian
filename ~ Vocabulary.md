@@ -384,6 +384,7 @@
 - [[N-Gram]]
 - [[Coreference]], [[Coreference Resolution]]
 - [[Selective Language Modeling]] (SLM)
+- [[Noise-Contrastive Estimation]]
 - [[InfoNCE]]
 # Computer Vision Concepts
 - [[Object Recognition]]

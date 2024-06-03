@@ -1,6 +1,6 @@
 Link: https://lilianweng.github.io/posts/2022-02-20-active-learning/
 
-See part 1: [[Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}]]
+See part 1: [[Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}]]
 
 ---
 
