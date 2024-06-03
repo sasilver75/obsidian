@@ -8,241 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7558c2c61764276f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L1 Regularization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16a72f64a954818d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tiktoken.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8764c3191e1aa676",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45f955778e0cc479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "582e2c9684ffd6f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24b768d444f2d847",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67c0d894bcea8816",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "807b05470b7e98f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tokenizer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ccdd5e708397f526",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83bd4a53c9422eeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HuggingFace Tokenizers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "982ebeb24dad4c61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spaCy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c308cabc3fedd79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Natural Language Toolkit.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "193b744f65a20529",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Natural Language Toolkit.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a93b6fa7e7bbc167",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e285ac2536cb55e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "371d52430200c9e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HuggingFace Tokenizers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a11357b73be35b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L1 Regularization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3d02c607fece3b14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Fusion-in-Decoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -317,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tiktoken.md",
+                "file": "Fusion-in-Decoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tiktoken.md",
+                "file": "Fusion-in-Decoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tiktoken.md"
+                "file": "Fusion-in-Decoder.md"
               }
             }
           },
@@ -390,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Tiktoken.md",
+                "file": "Fusion-in-Decoder.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -437,44 +215,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "16a72f64a954818d",
+  "active": "3d02c607fece3b14",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240603140135.png",
+    "_attachments/Pasted image 20240603132259.png",
+    "Retrieval-Augmented Generation (Model).md",
+    "Fusion-in-Decoder.md",
+    "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
+    "L1 Regularization.md",
+    "HuggingFace Tokenizers.md",
+    "~ Vocabulary.md",
+    "Natural Language Toolkit.md",
+    "spaCy.md",
+    "Model Pruning.md",
+    "InfoNCE.md",
+    "Retrieval-Augmented Generation.md",
+    "Noise-Contrastive Estimation.md",
+    "www.meta.ai.md",
+    "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md",
+    "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
+    "Learning with not Enough Data Part 1 - Semi Supervised Learning (Dec 2021) {Lilian Wang}.md",
+    "F1 Score.md",
+    "Few-Shot Preference Learning for Human-in-the-Loop RL.md",
+    "Tiktoken.md",
     "DIAL.md",
     "Goat.md",
-    "F1 Score.md",
-    "L1 Regularization.md",
     "_attachments/Pasted image 20240602222526.png",
     "L2 Regularization.md",
     "_attachments/Pasted image 20240602222453.png",
-    "~ Vocabulary.md",
     "Regularization.md",
     "Feature Engineering.md",
     "Content-Based Filtering.md",
-    "Model Pruning.md",
-    "Tokenizer.md",
-    "HuggingFace Tokenizers.md",
-    "spaCy.md",
-    "Natural Language Toolkit.md",
     "_attachments/Pasted image 20240531155208.png",
     "_attachments/Pasted image 20240531155006.png",
-    "Byte-Pair Encoding.md",
-    "WordPiece.md",
-    "Cloze.md",
     "_attachments/Pasted image 20240530114310.png",
-    "Token.md",
-    "Weave.md",
-    "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md",
-    "Weights and Biases.md",
-    "Underfitting.md",
-    "Collaborative Filtering.md",
-    "Out-of-Vocabulary Token.md",
-    "Indices/Evaluation Index.md",
-    "Massive Multi-Discipline Multimodal Understanding.md",
     "_attachments/Pasted image 20240528225721.png",
     "_attachments/Pasted image 20240528222827.png",
     "_attachments/Pasted image 20240528201226.png",
     "_attachments/Pasted image 20240528201206.png",
-    "_attachments/Pasted image 20240528194229.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

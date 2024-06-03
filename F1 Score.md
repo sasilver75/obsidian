@@ -8,7 +8,13 @@ The highest possible F1 score is 1.0, indicating perfect precision and recall, w
 
 ![[Pasted image 20240422143530.png]]
 
-Why is the F1 score important? Datasets can often be imbalanced, with a disproportionate
+Why is the F1 score important?
+- Datasets can often be imbalanced, with a disproportionate number of instances in one class, compared to another. This imbalance can skew traditional evaluation metrics. 
+	- If 95% of instances are in class A, you can have a 95% accuracy classifier that could naively predict class A in all cases. This ==accuracy paradox== highlights how traditional metrics can be misleading in the presence of class imbalance.
+	- Similarly, under class imbalance, models with high precision might simply be conservative in predicting positive instances, whereas models with high recall might over-predict minority classes.
+- In such scenarios, F1 is useful in providing a balance between precision and recall by taking their harmonic mean. The averaging ensures that an increase in one metric doesn't disproportionately affect the overall score without a corresponding improvement in the other.
+
+Note that F1 assumes equal importance of precision and recall, which may not align with your use case/business objectives.
 
 
 ----
