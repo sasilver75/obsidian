@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2 Regularization.md",
+                "file": "Tiktoken.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -317,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2 Regularization.md",
+                "file": "Tiktoken.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +334,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2 Regularization.md",
+                "file": "Tiktoken.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2 Regularization.md"
+                "file": "Tiktoken.md"
               }
             }
           },
@@ -390,7 +390,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "L2 Regularization.md",
+                "file": "Tiktoken.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -439,9 +439,14 @@
   },
   "active": "16a72f64a954818d",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
-    "L2 Regularization.md",
+    "DIAL.md",
+    "Goat.md",
+    "F1 Score.md",
     "L1 Regularization.md",
+    "_attachments/Pasted image 20240602222526.png",
+    "L2 Regularization.md",
+    "_attachments/Pasted image 20240602222453.png",
+    "~ Vocabulary.md",
     "Regularization.md",
     "Feature Engineering.md",
     "Content-Based Filtering.md",
@@ -465,16 +470,11 @@
     "Out-of-Vocabulary Token.md",
     "Indices/Evaluation Index.md",
     "Massive Multi-Discipline Multimodal Understanding.md",
-    "MMBench.md",
-    "GPT-4.md",
-    "Weight-Decomposed Low-Rank Adaptation.md",
     "_attachments/Pasted image 20240528225721.png",
     "_attachments/Pasted image 20240528222827.png",
     "_attachments/Pasted image 20240528201226.png",
     "_attachments/Pasted image 20240528201206.png",
     "_attachments/Pasted image 20240528194229.png",
-    "_attachments/Pasted image 20240528194013.png",
-    "_attachments/Pasted image 20240528182553.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

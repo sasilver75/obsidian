@@ -8,9 +8,14 @@ The highest possible F1 score is 1.0, indicating perfect precision and recall, w
 
 ![[Pasted image 20240422143530.png]]
 
+Why is the F1 score important? Datasets can often be imbalanced, with a disproportionate
 
+
+----
+Aside: What are Precision and Recall, again?
 - Remember: [[Precision]] is the number of true positive results divided by all samples predicted to be positive, including those not predicted correctly. "Of all the times you say 'yes', what percentage are you correct?"
 - Remember: [[Recall]] is the number of true positive results divided by the number of all samples that *should* have been identified as positive. "Of all the times that something was *actually ground-truth true*, what percentage of the time did you correctly identify this?"
+---
 
 
 ---
