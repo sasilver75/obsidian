@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fusion-in-Decoder.md",
+                "file": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fusion-in-Decoder.md",
+                "file": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fusion-in-Decoder.md",
+                "file": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fusion-in-Decoder.md"
+                "file": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Fusion-in-Decoder.md",
+                "file": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -217,10 +217,11 @@
   },
   "active": "3d02c607fece3b14",
   "lastOpenFiles": [
+    "Fusion-in-Decoder.md",
+    "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
     "_attachments/Pasted image 20240603140135.png",
     "_attachments/Pasted image 20240603132259.png",
     "Retrieval-Augmented Generation (Model).md",
-    "Fusion-in-Decoder.md",
     "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
     "L1 Regularization.md",
     "HuggingFace Tokenizers.md",
@@ -252,7 +253,6 @@
     "_attachments/Pasted image 20240528225721.png",
     "_attachments/Pasted image 20240528222827.png",
     "_attachments/Pasted image 20240528201226.png",
-    "_attachments/Pasted image 20240528201206.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

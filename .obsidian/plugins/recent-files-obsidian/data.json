@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
+      "path": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
+    },
+    {
       "basename": "Fusion-in-Decoder",
       "path": "Fusion-in-Decoder.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Positional Bias",
       "path": "Positional Bias.md"
-    },
-    {
-      "basename": "Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}",
-      "path": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
     }
   ],
   "omittedPaths": [],
