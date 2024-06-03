@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Tiktoken",
+      "path": "Tiktoken.md"
+    },
+    {
+      "basename": "DIAL",
+      "path": "DIAL.md"
+    },
+    {
+      "basename": "Goat",
+      "path": "Goat.md"
+    },
+    {
+      "basename": "F1 Score",
+      "path": "F1 Score.md"
+    },
+    {
+      "basename": "L1 Regularization",
+      "path": "L1 Regularization.md"
+    },
+    {
       "basename": "L2 Regularization",
       "path": "L2 Regularization.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "L1 Regularization",
-      "path": "L1 Regularization.md"
     },
     {
       "basename": "Regularization",
@@ -183,22 +199,6 @@
     {
       "basename": "InPars",
       "path": "InPars.md"
-    },
-    {
-      "basename": "UDAPDR",
-      "path": "UDAPDR.md"
-    },
-    {
-      "basename": "Late Interaction",
-      "path": "Late Interaction.md"
-    },
-    {
-      "basename": "Approximate Nearest Neighbor Contrastive Learning",
-      "path": "Approximate Nearest Neighbor Contrastive Learning.md"
-    },
-    {
-      "basename": "BM25",
-      "path": "BM25.md"
     }
   ],
   "omittedPaths": [],
