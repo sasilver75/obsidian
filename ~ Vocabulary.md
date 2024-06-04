@@ -1,16 +1,21 @@
 
 # Linear Algebra
+- [[Vector]]
+- [[Span]]
+- [[Rank (Linear Algebra)]]
+- [[Column Space]]
+- [[Row Space]]
 - [[Dot Product]]
+- [[Cross Product]]
 - [[Cosine Similarity]]
 - [[Eigenvector]]
 - [[Eigenvalue]]
+- [[Determinant]]
 - [[Singular Value Decomposition]]
-- [[Column Space]]
-- [[Row Space]]
-- [[Rank]]
+- [[Rank (Information Retrieval)]]
 - [[Row Echelon Form]]  (+Reduced Row Echelon Form)
 - [[Inverse]]
-- [[Span]]
+
 - [[Transpose]] (and Symmetric matrices)
 
 # Probability/Statistics

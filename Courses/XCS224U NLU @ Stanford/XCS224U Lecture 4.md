@@ -206,7 +206,7 @@ Tools for classical IR
 ## Metrics: Success and Reciprocal Rank
 
 ![[Pasted image 20240426144456.png]]
-[[Rank]], [[Success]], [[Reciprocal Rank]], and [[Mean Reciprocal Rank]]
+[[Rank (Information Retrieval)]], [[Success]], [[Reciprocal Rank]], and [[Mean Reciprocal Rank]]
 
 ![[Pasted image 20240426144829.png]]
 Comparing [[Success]] and [[Reciprocal Rank]]
