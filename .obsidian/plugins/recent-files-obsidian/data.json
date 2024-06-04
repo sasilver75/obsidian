@@ -5,6 +5,38 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Gini Index",
+      "path": "Gini Index.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Preference Collection",
+      "path": "Preference Collection.md"
+    },
+    {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
+    },
+    {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
+      "basename": "Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}",
+      "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
+    },
+    {
+      "basename": "CS685 Lecture 11",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md"
+    },
+    {
       "basename": "Chi-Squared",
       "path": "Chi-Squared.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Regularization",
       "path": "Regularization.md"
-    },
-    {
-      "basename": "Feature Engineering",
-      "path": "Feature Engineering.md"
-    },
-    {
-      "basename": "Content-Based Filtering",
-      "path": "Content-Based Filtering.md"
-    },
-    {
-      "basename": "Tokenizer",
-      "path": "Tokenizer.md"
-    },
-    {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
-    },
-    {
-      "basename": "WordPiece",
-      "path": "WordPiece.md"
-    },
-    {
-      "basename": "Cloze",
-      "path": "Cloze.md"
-    },
-    {
-      "basename": "Token",
-      "path": "Token.md"
-    },
-    {
-      "basename": "Weave",
-      "path": "Weave.md"
     }
   ],
   "omittedPaths": [],
