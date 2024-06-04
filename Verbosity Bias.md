@@ -1,0 +1,1 @@
+In the context of [[LLM-as-a-Judge]], Verbosity Bias refers to LMs often preferring explanations that are longer and wordier over responses that are concise, even if the concise one is a more accurate response.

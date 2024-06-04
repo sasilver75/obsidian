@@ -287,6 +287,8 @@
 - [[ColBERTv2]]
 - [[PLAID]]
 - [[Discounted Cumulative Gain]]
+- [[Precision (Information Retrieval)]]
+- [[Recall (Information Retrieval)]]
 - [[Cross-Encoder]]
 - [[HyDE]]
 - [[Reverse HyDE]]
