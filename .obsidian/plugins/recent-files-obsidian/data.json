@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Mistral",
+      "path": "Mistral.md"
+    },
+    {
+      "basename": "Off-Policy",
+      "path": "Off-Policy.md"
+    },
+    {
+      "basename": "On-Policy",
+      "path": "On-Policy.md"
+    },
+    {
+      "basename": "Eigenvector",
+      "path": "Eigenvector.md"
+    },
+    {
+      "basename": "Determinant",
+      "path": "Determinant.md"
+    },
+    {
+      "basename": "Deep Q-Networks",
+      "path": "Deep Q-Networks.md"
+    },
+    {
       "basename": "Reinforcement Learning",
       "path": "Reinforcement Learning.md"
     },
@@ -11,10 +39,6 @@
     {
       "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
       "path": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Inverse",
@@ -175,30 +199,6 @@
     {
       "basename": "Row Space",
       "path": "Row Space.md"
-    },
-    {
-      "basename": "Basis Vector",
-      "path": "Basis Vector.md"
-    },
-    {
-      "basename": "Span",
-      "path": "Span.md"
-    },
-    {
-      "basename": "Eigenvector",
-      "path": "Eigenvector.md"
-    },
-    {
-      "basename": "Eigenvalue",
-      "path": "Eigenvalue.md"
-    },
-    {
-      "basename": "Cosine Similarity",
-      "path": "Cosine Similarity.md"
-    },
-    {
-      "basename": "Determinant",
-      "path": "Determinant.md"
     }
   ],
   "omittedPaths": [],
