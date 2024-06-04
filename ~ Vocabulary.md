@@ -15,7 +15,6 @@
 - [[Rank (Information Retrieval)]]
 - [[Row Echelon Form]]  (+Reduced Row Echelon Form)
 - [[Inverse]]
-
 - [[Transpose]] (and Symmetric matrices)
 
 # Probability/Statistics
@@ -31,6 +30,7 @@
 - [[Spearman Correlation Coefficient]]
 - [[Chi-Squared]]
 - [[Multicollinearity]]
+- [[Degrees of Freedom]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
