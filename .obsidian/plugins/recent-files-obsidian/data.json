@@ -1,8 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Inverse",
+      "path": "Inverse.md"
+    },
+    {
+      "basename": "Column Space",
+      "path": "Column Space.md"
+    },
+    {
+      "basename": "Rank (Linear Algebra)",
+      "path": "Rank (Linear Algebra).md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
       "path": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
+    },
+    {
+      "basename": "Rank (Information Retrieval)",
+      "path": "Rank (Information Retrieval).md"
+    },
+    {
+      "basename": "Row Space",
+      "path": "Row Space.md"
+    },
+    {
+      "basename": "Basis Vector",
+      "path": "Basis Vector.md"
+    },
+    {
+      "basename": "Span",
+      "path": "Span.md"
+    },
+    {
+      "basename": "Eigenvector",
+      "path": "Eigenvector.md"
+    },
+    {
+      "basename": "Eigenvalue",
+      "path": "Eigenvalue.md"
+    },
+    {
+      "basename": "Cosine Similarity",
+      "path": "Cosine Similarity.md"
+    },
+    {
+      "basename": "Determinant",
+      "path": "Determinant.md"
+    },
+    {
+      "basename": "Cross Product",
+      "path": "Cross Product.md"
+    },
+    {
+      "basename": "Vector",
+      "path": "Vector.md"
     },
     {
       "basename": "Fusion-in-Decoder",
@@ -23,10 +79,6 @@
     {
       "basename": "HuggingFace Tokenizers",
       "path": "HuggingFace Tokenizers.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Natural Language Toolkit",
@@ -147,58 +199,6 @@
     {
       "basename": "Massive Multi-Discipline Multimodal Understanding",
       "path": "Massive Multi-Discipline Multimodal Understanding.md"
-    },
-    {
-      "basename": "MMBench",
-      "path": "MMBench.md"
-    },
-    {
-      "basename": "GPT-4",
-      "path": "GPT-4.md"
-    },
-    {
-      "basename": "Weight-Decomposed Low-Rank Adaptation",
-      "path": "Weight-Decomposed Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Top-P Sampling",
-      "path": "Top-P Sampling.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Top-K Sampling",
-      "path": "Top-K Sampling.md"
-    },
-    {
-      "basename": "Beam Search",
-      "path": "Beam Search.md"
-    },
-    {
-      "basename": "Multimodality and Large Language Models (October 10, 2023) {Chip Huyen}",
-      "path": "Articles/Multimodality and Large Language Models (October 10, 2023) {Chip Huyen}.md"
-    },
-    {
-      "basename": "Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}",
-      "path": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md"
-    },
-    {
-      "basename": "Massive Multi-Task Language Understanding",
-      "path": "Massive Multi-Task Language Understanding.md"
-    },
-    {
-      "basename": "CS685 Lecture 13",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 13.md"
-    },
-    {
-      "basename": "JS Divergence",
-      "path": "JS Divergence.md"
-    },
-    {
-      "basename": "Positional Bias",
-      "path": "Positional Bias.md"
     }
   ],
   "omittedPaths": [],

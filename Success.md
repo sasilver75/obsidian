@@ -1,4 +1,4 @@
-See also: [[Rank]]
+See also: [[Rank (Information Retrieval)]]
 
 ![[Pasted image 20240426144735.png]]
 
