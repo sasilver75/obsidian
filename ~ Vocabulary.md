@@ -501,6 +501,7 @@
 - [[U-Net]]
 - [[Inception]]
 - [[Latent Dirichlet Allocation]]
+- [[Decision Tree]]
 - [[Random Forest]]
 - [[Support Vector Machine]]
 - [[Gato]]

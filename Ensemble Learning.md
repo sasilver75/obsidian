@@ -1,0 +1,1 @@
+A technique aiming to enhance accuracy and robustness in forecasting by merging predictions from multiple models, aiming to mitigate errors or biases that may exist in individual models by leveraging the collective intelligence of the ensemble.

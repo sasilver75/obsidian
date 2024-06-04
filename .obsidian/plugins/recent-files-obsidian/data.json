@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Imitation Learning",
+      "path": "Imitation Learning.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Early Stopping",
+      "path": "Early Stopping.md"
+    },
+    {
+      "basename": "Curriculum Learning",
+      "path": "Curriculum Learning.md"
+    },
+    {
+      "basename": "Inductive Bias",
+      "path": "Inductive Bias.md"
+    },
+    {
+      "basename": "Ensemble Learning",
+      "path": "Ensemble Learning.md"
+    },
+    {
+      "basename": "Preference-Tuning",
+      "path": "Preference-Tuning.md"
+    },
+    {
+      "basename": "Test-Time Augmentation",
+      "path": "Test-Time Augmentation.md"
     },
     {
       "basename": "Gini Index",
@@ -171,34 +199,6 @@
     {
       "basename": "Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
       "path": "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
-    },
-    {
-      "basename": "F1 Score",
-      "path": "F1 Score.md"
-    },
-    {
-      "basename": "Few-Shot Preference Learning for Human-in-the-Loop RL",
-      "path": "Few-Shot Preference Learning for Human-in-the-Loop RL.md"
-    },
-    {
-      "basename": "Tiktoken",
-      "path": "Tiktoken.md"
-    },
-    {
-      "basename": "DIAL",
-      "path": "DIAL.md"
-    },
-    {
-      "basename": "Goat",
-      "path": "Goat.md"
-    },
-    {
-      "basename": "L2 Regularization",
-      "path": "L2 Regularization.md"
-    },
-    {
-      "basename": "Regularization",
-      "path": "Regularization.md"
     }
   ],
   "omittedPaths": [],

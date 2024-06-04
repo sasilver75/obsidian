@@ -164,6 +164,136 @@
             }
           },
           {
+            "id": "05806bf7bee84e47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1bae0ede290dd65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preference-Tuning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce6aab7144b62da2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db43a0b51610b8ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ensemble Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e431381bb22e30ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c02b86ae88948de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08b203bcabb0009f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c764ad2408a0d37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Imitation Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42e308c123de8b5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e2fff1382701fbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4d6e04467e840c64",
             "type": "leaf",
             "state": {
@@ -359,7 +489,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -435,7 +565,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Imitation Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -452,7 +582,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Imitation Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -475,7 +605,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Imitation Learning.md"
               }
             }
           },
@@ -508,7 +638,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Imitation Learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -555,11 +685,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1eac0dbb55b88449",
+  "active": "4c764ad2408a0d37",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Imitation Learning.md",
+    "Early Stopping.md",
+    "Curriculum Learning.md",
+    "Inductive Bias.md",
+    "_attachments/Pasted image 20240603230144.png",
+    "Ensemble Learning.md",
+    "Preference-Tuning.md",
+    "Test-Time Augmentation.md",
     "Gini Index.md",
     "_attachments/Pasted image 20240603193129.png",
-    "~ Vocabulary.md",
     "Reward Model.md",
     "~ Useful Pictures.md",
     "Preference Collection.md",
@@ -585,13 +723,6 @@
     "_attachments/Pasted image 20240603180340.png",
     "_attachments/Pasted image 20240603175207.png",
     "Inverse.md",
-    "_attachments/Pasted image 20240603174817.png",
-    "Rank (Linear Algebra).md",
-    "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
-    "Row Space.md",
-    "Basis Vector.md",
-    "Span.md",
-    "Eigenvector.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
