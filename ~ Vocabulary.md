@@ -73,6 +73,9 @@
 - [[DBSCAN]]
 - [[Cloze]]
 - [[Inverse Cloze]]
+- [[Decision Tree]]
+- [[Random Forest]]
+- [[Support Vector Machine]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -434,6 +437,7 @@
 - [[Inverse Reinforcement Learning]]
 - [[Q-Function]]
 - [[Q-Learning]], [[Deep Q-Learning]]
+- [[Deep Q-Networks]]
 - [[Value Learning]] vs [[Policy Learning]]
 - [[Proximal Policy Optimization]] (PPO)
 - [[Group Relative Policy Optimization]] (GRPO)
@@ -503,9 +507,6 @@
 - [[U-Net]]
 - [[Inception]]
 - [[Latent Dirichlet Allocation]]
-- [[Decision Tree]]
-- [[Random Forest]]
-- [[Support Vector Machine]]
 - [[Gato]]
 - [[Whisper]]
 - [[PaLM]]

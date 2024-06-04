@@ -13,7 +13,98 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "165419cb6c3fd04b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "On-Policy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d240828b680d92e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Off-Policy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02fcd1cd81d0408d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c1cc9eb3534f024",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0c6937127b2defe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Q-Networks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bfdd51678277efc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7d6e65202b6831e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Q-Networks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -644,7 +735,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -720,7 +812,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -737,7 +829,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reinforcement Learning.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -760,7 +852,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reinforcement Learning.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -793,7 +885,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reinforcement Learning.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -840,12 +932,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3d02c607fece3b14",
+  "active": "8c1cc9eb3534f024",
   "lastOpenFiles": [
-    "Markov Decision Process.md",
-    "Reinforcement Learning.md",
-    "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
+    "Mistral.md",
     "~ Vocabulary.md",
+    "Off-Policy.md",
+    "On-Policy.md",
+    "Eigenvector.md",
+    "Determinant.md",
+    "Deep Q-Networks.md",
+    "Reinforcement Learning.md",
+    "Markov Decision Process.md",
+    "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
     "Inverse.md",
     "Query Expansion.md",
     "Retrieval-Augmented Generation.md",
@@ -862,13 +960,7 @@
     "Out-of-Bag Error.md",
     "Imitation Learning.md",
     "Early Stopping.md",
-    "Curriculum Learning.md",
-    "Inductive Bias.md",
     "_attachments/Pasted image 20240603230144.png",
-    "Ensemble Learning.md",
-    "Preference-Tuning.md",
-    "Test-Time Augmentation.md",
-    "Gini Index.md",
     "_attachments/Pasted image 20240603193129.png",
     "_attachments/Pasted image 20240603190517.png",
     "_attachments/Pasted image 20240603190317.png",
