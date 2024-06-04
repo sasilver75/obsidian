@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
+                "file": "Reinforcement Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61c7012807e206ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Decision Process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -260,7 +273,150 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Imitation Learning.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2070254a88207bf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8dc5a63e738cbe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ba986c41f72b576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d710c0c169dc9cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b806a1aff70ff3f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa869818c903d42c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5802691ad5459b35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09eee2e6796ef71e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6433b95a29556e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51c1edf5fbe61870",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ad40c562f60e07f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Verbosity Bias.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -488,8 +644,7 @@
               }
             }
           }
-        ],
-        "currentTab": 19
+        ]
       }
     ],
     "direction": "vertical"
@@ -518,7 +673,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "direct assessment",
+                "query": "expansion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -565,7 +720,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Imitation Learning.md",
+                "file": "Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -582,7 +737,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Imitation Learning.md",
+                "file": "Reinforcement Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -605,7 +760,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Imitation Learning.md"
+                "file": "Reinforcement Learning.md"
               }
             }
           },
@@ -638,7 +793,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Imitation Learning.md",
+                "file": "Reinforcement Learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -685,9 +840,26 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4c764ad2408a0d37",
+  "active": "3d02c607fece3b14",
   "lastOpenFiles": [
+    "Markov Decision Process.md",
+    "Reinforcement Learning.md",
+    "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
     "~ Vocabulary.md",
+    "Inverse.md",
+    "Query Expansion.md",
+    "Retrieval-Augmented Generation.md",
+    "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+    "Reranking.md",
+    "Dense Retrieval.md",
+    "Recall (Information Retrieval).md",
+    "Recall.md",
+    "Precision (Information Retrieval).md",
+    "Precision.md",
+    "Relevance Set.md",
+    "Negative Prompt.md",
+    "Verbosity Bias.md",
+    "Out-of-Bag Error.md",
     "Imitation Learning.md",
     "Early Stopping.md",
     "Curriculum Learning.md",
@@ -698,31 +870,14 @@
     "Test-Time Augmentation.md",
     "Gini Index.md",
     "_attachments/Pasted image 20240603193129.png",
-    "Reward Model.md",
-    "~ Useful Pictures.md",
-    "Preference Collection.md",
-    "LLaMA 2.md",
-    "Shepherd.md",
-    "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md",
-    "Chi-Squared.md",
     "_attachments/Pasted image 20240603190517.png",
     "_attachments/Pasted image 20240603190317.png",
-    "Markov Chain.md",
-    "Markov Assumption.md",
-    "Law of Large Numbers.md",
-    "Central Limit Theorem.md",
-    "Rank (Information Retrieval).md",
-    "Column Space.md",
-    "Monte Carlo.md",
     "_attachments/Pasted image 20240603185247.png",
     "_attachments/Pasted image 20240603185230.png",
-    "Transpose.md",
     "_attachments/Pasted image 20240603184623.png",
     "_attachments/Pasted image 20240603180348.png",
     "_attachments/Pasted image 20240603180340.png",
     "_attachments/Pasted image 20240603175207.png",
-    "Inverse.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

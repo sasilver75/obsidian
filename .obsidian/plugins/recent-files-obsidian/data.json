@@ -1,12 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "Imitation Learning",
-      "path": "Imitation Learning.md"
+      "basename": "Reinforcement Learning",
+      "path": "Reinforcement Learning.md"
+    },
+    {
+      "basename": "Markov Decision Process",
+      "path": "Markov Decision Process.md"
+    },
+    {
+      "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
+      "path": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Inverse",
+      "path": "Inverse.md"
+    },
+    {
+      "basename": "Query Expansion",
+      "path": "Query Expansion.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
+      "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+    },
+    {
+      "basename": "Reranking",
+      "path": "Reranking.md"
+    },
+    {
+      "basename": "Dense Retrieval",
+      "path": "Dense Retrieval.md"
+    },
+    {
+      "basename": "Recall (Information Retrieval)",
+      "path": "Recall (Information Retrieval).md"
+    },
+    {
+      "basename": "Recall",
+      "path": "Recall.md"
+    },
+    {
+      "basename": "Precision (Information Retrieval)",
+      "path": "Precision (Information Retrieval).md"
+    },
+    {
+      "basename": "Precision",
+      "path": "Precision.md"
+    },
+    {
+      "basename": "Relevance Set",
+      "path": "Relevance Set.md"
+    },
+    {
+      "basename": "Negative Prompt",
+      "path": "Negative Prompt.md"
+    },
+    {
+      "basename": "Verbosity Bias",
+      "path": "Verbosity Bias.md"
+    },
+    {
+      "basename": "Out-of-Bag Error",
+      "path": "Out-of-Bag Error.md"
+    },
+    {
+      "basename": "Imitation Learning",
+      "path": "Imitation Learning.md"
     },
     {
       "basename": "Early Stopping",
@@ -101,16 +169,8 @@
       "path": "Transpose.md"
     },
     {
-      "basename": "Inverse",
-      "path": "Inverse.md"
-    },
-    {
       "basename": "Rank (Linear Algebra)",
       "path": "Rank (Linear Algebra).md"
-    },
-    {
-      "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
-      "path": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
     },
     {
       "basename": "Row Space",
@@ -139,66 +199,6 @@
     {
       "basename": "Determinant",
       "path": "Determinant.md"
-    },
-    {
-      "basename": "Cross Product",
-      "path": "Cross Product.md"
-    },
-    {
-      "basename": "Vector",
-      "path": "Vector.md"
-    },
-    {
-      "basename": "Fusion-in-Decoder",
-      "path": "Fusion-in-Decoder.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation (Model)",
-      "path": "Retrieval-Augmented Generation (Model).md"
-    },
-    {
-      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "L1 Regularization",
-      "path": "L1 Regularization.md"
-    },
-    {
-      "basename": "HuggingFace Tokenizers",
-      "path": "HuggingFace Tokenizers.md"
-    },
-    {
-      "basename": "Natural Language Toolkit",
-      "path": "Natural Language Toolkit.md"
-    },
-    {
-      "basename": "spaCy",
-      "path": "spaCy.md"
-    },
-    {
-      "basename": "Model Pruning",
-      "path": "Model Pruning.md"
-    },
-    {
-      "basename": "InfoNCE",
-      "path": "InfoNCE.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
-    },
-    {
-      "basename": "Noise-Contrastive Estimation",
-      "path": "Noise-Contrastive Estimation.md"
-    },
-    {
-      "basename": "Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}",
-      "path": "Articles/Learning with Not Enough Data Part 2 - Active Learning (Feb 20, 2022) {Lilian Weng Blog}.md"
-    },
-    {
-      "basename": "Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
-      "path": "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
     }
   ],
   "omittedPaths": [],
