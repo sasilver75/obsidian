@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "4f063fb8abf9e479",
+            "id": "ae29df073835cee7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rank (Information Retrieval).md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,64 @@
             }
           },
           {
-            "id": "2bd496ce72239d65",
+            "id": "0d122fe979115bad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Column Space.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e1f5108664e143f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c5b3d2431be91ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chi-Squared.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "beb71338622c84ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chi-Squared.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a16daa5b50c83fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -281,7 +333,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -356,7 +408,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inverse.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -373,7 +425,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inverse.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -396,7 +448,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inverse.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -429,7 +481,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inverse.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -476,44 +528,43 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "dc8fef8578bcba9d",
+  "active": "0a16daa5b50c83fa",
   "lastOpenFiles": [
+    "Chi-Squared.md",
+    "_attachments/Pasted image 20240603190517.png",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240603190317.png",
+    "Markov Chain.md",
+    "Markov Assumption.md",
+    "Law of Large Numbers.md",
+    "Central Limit Theorem.md",
+    "Rank (Information Retrieval).md",
+    "Column Space.md",
+    "Monte Carlo.md",
+    "_attachments/Pasted image 20240603185247.png",
+    "_attachments/Pasted image 20240603185230.png",
+    "Transpose.md",
+    "_attachments/Pasted image 20240603184623.png",
+    "_attachments/Pasted image 20240603180348.png",
+    "_attachments/Pasted image 20240603180340.png",
+    "_attachments/Pasted image 20240603175207.png",
+    "Inverse.md",
     "_attachments/Pasted image 20240603174817.png",
     "_attachments/Pasted image 20240603174254.png",
-    "_attachments/Pasted image 20240603174215.png",
-    "_attachments/Pasted image 20240603174113.png",
-    "_attachments/Pasted image 20240603174006.png",
-    "Column Space.md",
-    "Inverse.md",
     "Rank (Linear Algebra).md",
-    "~ Vocabulary.md",
     "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
-    "Rank (Information Retrieval).md",
     "Row Space.md",
     "Basis Vector.md",
-    "_attachments/Pasted image 20240603172317.png",
     "Span.md",
-    "_attachments/Pasted image 20240603171715.png",
-    "_attachments/Pasted image 20240603171636.png",
-    "_attachments/Pasted image 20240603171519.png",
-    "_attachments/Pasted image 20240603170846.png",
     "Eigenvector.md",
     "Eigenvalue.md",
     "Cosine Similarity.md",
     "Determinant.md",
-    "_attachments/Pasted image 20240603170248.png",
     "Cross Product.md",
     "Vector.md",
     "Fusion-in-Decoder.md",
     "Retrieval-Augmented Generation (Model).md",
     "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
-    "L1 Regularization.md",
-    "HuggingFace Tokenizers.md",
-    "Natural Language Toolkit.md",
-    "spaCy.md",
-    "Model Pruning.md",
-    "InfoNCE.md",
-    "Retrieval-Augmented Generation.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

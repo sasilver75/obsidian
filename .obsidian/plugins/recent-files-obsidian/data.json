@@ -1,28 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Inverse",
-      "path": "Inverse.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Chi-Squared",
+      "path": "Chi-Squared.md"
+    },
+    {
+      "basename": "Markov Chain",
+      "path": "Markov Chain.md"
+    },
+    {
+      "basename": "Markov Assumption",
+      "path": "Markov Assumption.md"
+    },
+    {
+      "basename": "Law of Large Numbers",
+      "path": "Law of Large Numbers.md"
+    },
+    {
+      "basename": "Central Limit Theorem",
+      "path": "Central Limit Theorem.md"
+    },
+    {
+      "basename": "Rank (Information Retrieval)",
+      "path": "Rank (Information Retrieval).md"
     },
     {
       "basename": "Column Space",
       "path": "Column Space.md"
     },
     {
+      "basename": "Monte Carlo",
+      "path": "Monte Carlo.md"
+    },
+    {
+      "basename": "Transpose",
+      "path": "Transpose.md"
+    },
+    {
+      "basename": "Inverse",
+      "path": "Inverse.md"
+    },
+    {
       "basename": "Rank (Linear Algebra)",
       "path": "Rank (Linear Algebra).md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
       "path": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
-    },
-    {
-      "basename": "Rank (Information Retrieval)",
-      "path": "Rank (Information Retrieval).md"
     },
     {
       "basename": "Row Space",
@@ -171,34 +199,6 @@
     {
       "basename": "Weave",
       "path": "Weave.md"
-    },
-    {
-      "basename": "How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}",
-      "path": "Articles/How RLHF Works, part 2 - A thin line between useful and lobotomized (May 01, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Weights and Biases",
-      "path": "Weights and Biases.md"
-    },
-    {
-      "basename": "Underfitting",
-      "path": "Underfitting.md"
-    },
-    {
-      "basename": "Collaborative Filtering",
-      "path": "Collaborative Filtering.md"
-    },
-    {
-      "basename": "Out-of-Vocabulary Token",
-      "path": "Out-of-Vocabulary Token.md"
-    },
-    {
-      "basename": "Evaluation Index",
-      "path": "Indices/Evaluation Index.md"
-    },
-    {
-      "basename": "Massive Multi-Discipline Multimodal Understanding",
-      "path": "Massive Multi-Discipline Multimodal Understanding.md"
     }
   ],
   "omittedPaths": [],
