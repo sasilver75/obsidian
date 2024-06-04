@@ -1,8 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Graph Neural Network",
+      "path": "Graph Neural Network.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "RAGAS",
+      "path": "RAGAS.md"
+    },
+    {
+      "basename": "LangChain",
+      "path": "LangChain.md"
+    },
+    {
+      "basename": "llama.cpp",
+      "path": "llama.cpp.md"
+    },
+    {
+      "basename": "ONNX",
+      "path": "ONNX.md"
+    },
+    {
+      "basename": "AlpacaFarm",
+      "path": "AlpacaFarm.md"
+    },
+    {
+      "basename": "LabelStudio",
+      "path": "LabelStudio.md"
+    },
+    {
+      "basename": "Argilla",
+      "path": "Argilla.md"
+    },
+    {
+      "basename": "vLLM",
+      "path": "vLLM.md"
+    },
+    {
+      "basename": "Streamlit",
+      "path": "Streamlit.md"
+    },
+    {
+      "basename": "Gradio",
+      "path": "Gradio.md"
+    },
+    {
+      "basename": "Oogabooga",
+      "path": "Oogabooga.md"
+    },
+    {
+      "basename": "On-Policy",
+      "path": "On-Policy.md"
+    },
+    {
+      "basename": "Markov Decision Process",
+      "path": "Markov Decision Process.md"
+    },
+    {
+      "basename": "Chi-Squared",
+      "path": "Chi-Squared.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "Basis Vector",
+      "path": "Basis Vector.md"
+    },
+    {
+      "basename": "Cross Product",
+      "path": "Cross Product.md"
+    },
+    {
+      "basename": "Determinant",
+      "path": "Determinant.md"
+    },
+    {
+      "basename": "ComfyUI",
+      "path": "ComfyUI.md"
+    },
+    {
+      "basename": "Automatic1111",
+      "path": "Automatic1111.md"
     },
     {
       "basename": "Mistral",
@@ -13,16 +101,8 @@
       "path": "Off-Policy.md"
     },
     {
-      "basename": "On-Policy",
-      "path": "On-Policy.md"
-    },
-    {
       "basename": "Eigenvector",
       "path": "Eigenvector.md"
-    },
-    {
-      "basename": "Determinant",
-      "path": "Determinant.md"
     },
     {
       "basename": "Deep Q-Networks",
@@ -31,10 +111,6 @@
     {
       "basename": "Reinforcement Learning",
       "path": "Reinforcement Learning.md"
-    },
-    {
-      "basename": "Markov Decision Process",
-      "path": "Markov Decision Process.md"
     },
     {
       "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
@@ -123,82 +199,6 @@
     {
       "basename": "Test-Time Augmentation",
       "path": "Test-Time Augmentation.md"
-    },
-    {
-      "basename": "Gini Index",
-      "path": "Gini Index.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Preference Collection",
-      "path": "Preference Collection.md"
-    },
-    {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}",
-      "path": "Articles/Reinforcement Learning for Language Models (April 2023) {Yoav Goldberg}.md"
-    },
-    {
-      "basename": "CS685 Lecture 11",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 11.md"
-    },
-    {
-      "basename": "Chi-Squared",
-      "path": "Chi-Squared.md"
-    },
-    {
-      "basename": "Markov Chain",
-      "path": "Markov Chain.md"
-    },
-    {
-      "basename": "Markov Assumption",
-      "path": "Markov Assumption.md"
-    },
-    {
-      "basename": "Law of Large Numbers",
-      "path": "Law of Large Numbers.md"
-    },
-    {
-      "basename": "Central Limit Theorem",
-      "path": "Central Limit Theorem.md"
-    },
-    {
-      "basename": "Rank (Information Retrieval)",
-      "path": "Rank (Information Retrieval).md"
-    },
-    {
-      "basename": "Column Space",
-      "path": "Column Space.md"
-    },
-    {
-      "basename": "Monte Carlo",
-      "path": "Monte Carlo.md"
-    },
-    {
-      "basename": "Transpose",
-      "path": "Transpose.md"
-    },
-    {
-      "basename": "Rank (Linear Algebra)",
-      "path": "Rank (Linear Algebra).md"
-    },
-    {
-      "basename": "Row Space",
-      "path": "Row Space.md"
     }
   ],
   "omittedPaths": [],

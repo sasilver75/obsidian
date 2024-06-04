@@ -269,5 +269,7 @@ Above: Google using AI results on their search queries making people angry.
 ![[Pasted image 20240528225721.png|300]]
 Showing [[Top-P Sampling|Nucleus Sampling]], [[Top-K Sampling]], [[Beam Search]], from the "Curious Case of Neural Text Degeneration" (2020) paper
 
+![[Pasted image 20240604111759.png|300]]
+Above: Response to Dwarkesh's episode with Leopold Aschenbrenner
 
 

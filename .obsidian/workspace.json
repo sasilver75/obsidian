@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d02c607fece3b14",
+            "id": "9e4eaae34c8cd935",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "165419cb6c3fd04b",
+            "id": "55e8a4dc71ab7ae8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "On-Policy.md",
+                "file": "RAGAS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "d240828b680d92e8",
+            "id": "99beeee4c8b67760",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Off-Policy.md",
+                "file": "LangChain.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "02fcd1cd81d0408d",
+            "id": "4f0b28b7962647c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "llama.cpp.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "8c1cc9eb3534f024",
+            "id": "f025d2693c1808ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "ONNX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "d0c6937127b2defe",
+            "id": "b1b60fa742f19c1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Q-Networks.md",
+                "file": "LabelStudio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +86,12 @@
             }
           },
           {
-            "id": "6bfdd51678277efc",
+            "id": "36e96e31971bb964",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Argilla.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,12 +99,12 @@
             }
           },
           {
-            "id": "e7d6e65202b6831e",
+            "id": "4b3a33172c61cae5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Q-Networks.md",
+                "file": "vLLM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "61c7012807e206ab",
+            "id": "1235c25697c8650b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Decision Process.md",
+                "file": "Streamlit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,12 +125,12 @@
             }
           },
           {
-            "id": "3551d7444a05bcac",
+            "id": "d4c346a389630437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Gradio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,605 +138,19 @@
             }
           },
           {
-            "id": "e95c430cb1dcf61c",
+            "id": "7c6155b89d8c881b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Column Space.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc8fef8578bcba9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inverse.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae29df073835cee7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d122fe979115bad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e1f5108664e143f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c5b3d2431be91ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chi-Squared.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "beb71338622c84ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chi-Squared.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a16daa5b50c83fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "930b65237fbe200b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reward Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1eac0dbb55b88449",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05806bf7bee84e47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1bae0ede290dd65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preference-Tuning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce6aab7144b62da2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db43a0b51610b8ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ensemble Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e431381bb22e30ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c02b86ae88948de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08b203bcabb0009f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c764ad2408a0d37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2070254a88207bf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8dc5a63e738cbe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ba986c41f72b576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d710c0c169dc9cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b806a1aff70ff3f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa869818c903d42c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5802691ad5459b35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09eee2e6796ef71e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6433b95a29556e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51c1edf5fbe61870",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ad40c562f60e07f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Verbosity Bias.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42e308c123de8b5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e2fff1382701fbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d6e04467e840c64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rank (Information Retrieval).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c3457671e99c624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Row Space.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c8cb7f548791df5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis Vector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8a84808cf6cb86e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a35a0bfdda2a6be5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cross Product.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48f7e477dd1dc86e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eigenvector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f92204837d4bb51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Determinant.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a751b7eb81f233e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cross Product.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa10ac05ab5339e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11f54144c9a08aae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "845009244653be51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cosine Similarity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56d2b254b715b844",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cf802d3489f1161",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eigenvector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "566b3d267bde77fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eigenvector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c905347d117b6d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Determinant.md",
+                "file": "Oogabooga.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -791,7 +205,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -812,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -829,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -852,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           },
@@ -885,7 +299,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -932,34 +346,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8c1cc9eb3534f024",
+  "active": "9e4eaae34c8cd935",
   "lastOpenFiles": [
-    "Mistral.md",
+    "_attachments/Pasted image 20240604111759.png",
+    "Graph Neural Network.md",
     "~ Vocabulary.md",
-    "Off-Policy.md",
+    "RAGAS.md",
+    "LangChain.md",
+    "llama.cpp.md",
+    "ONNX.md",
+    "AlpacaFarm.md",
+    "LabelStudio.md",
+    "Argilla.md",
+    "vLLM.md",
+    "Streamlit.md",
+    "Gradio.md",
+    "Oogabooga.md",
     "On-Policy.md",
-    "Eigenvector.md",
-    "Determinant.md",
-    "Deep Q-Networks.md",
-    "Reinforcement Learning.md",
     "Markov Decision Process.md",
-    "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md",
-    "Inverse.md",
-    "Query Expansion.md",
-    "Retrieval-Augmented Generation.md",
-    "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
-    "Reranking.md",
-    "Dense Retrieval.md",
-    "Recall (Information Retrieval).md",
-    "Recall.md",
-    "Precision (Information Retrieval).md",
-    "Precision.md",
-    "Relevance Set.md",
-    "Negative Prompt.md",
-    "Verbosity Bias.md",
-    "Out-of-Bag Error.md",
-    "Imitation Learning.md",
-    "Early Stopping.md",
+    "Chi-Squared.md",
+    "Reward Model.md",
+    "Basis Vector.md",
+    "Cross Product.md",
+    "Determinant.md",
+    "ComfyUI.md",
+    "Automatic1111.md",
+    "_attachments/Pasted image 20240604013906.png",
+    "_attachments/Pasted image 20240604013711.png",
+    "_attachments/Pasted image 20240604013637.png",
+    "Mistral.md",
+    "Off-Policy.md",
+    "Eigenvector.md",
     "_attachments/Pasted image 20240603230144.png",
     "_attachments/Pasted image 20240603193129.png",
     "_attachments/Pasted image 20240603190517.png",
@@ -967,9 +384,6 @@
     "_attachments/Pasted image 20240603185247.png",
     "_attachments/Pasted image 20240603185230.png",
     "_attachments/Pasted image 20240603184623.png",
-    "_attachments/Pasted image 20240603180348.png",
-    "_attachments/Pasted image 20240603180340.png",
-    "_attachments/Pasted image 20240603175207.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
