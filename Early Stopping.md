@@ -1,0 +1,1 @@
+A form of [[Regularization]] in which we stop training of our model before it begins to overfit on the training data.
