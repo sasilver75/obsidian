@@ -15,3 +15,5 @@ Note: ==COMETKiwi== is a ***reference-free*** variant of COMET, which is an ense
 - One is finetuned on human ratings from WMT
 - The other is finetuned on human annotations from the Multilingual Quality Estimation and Post-Editing (MLQE-PE) dataset.
 CometKIWI can assess translation quality without needing a reference translation, eliminating the bottleneck of human ratings.
+
+![[Pasted image 20240604163950.png]]

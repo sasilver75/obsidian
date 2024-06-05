@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6d1bea62cfca23db",
+        "id": "ec1107e9fd0f6e3c",
         "type": "tabs",
         "children": [
           {
-            "id": "9e4eaae34c8cd935",
+            "id": "681077ff15cbd3ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "55e8a4dc71ab7ae8",
+            "id": "42af45ab5ff502a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAGAS.md",
+                "file": "Dolly.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "99beeee4c8b67760",
+            "id": "a81b37d4ef2bc60b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LangChain.md",
+                "file": "LLM-as-a-Judge.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "4f0b28b7962647c7",
+            "id": "e871e8dc9e6e8653",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "llama.cpp.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "f025d2693c1808ff",
+            "id": "92f4b2b0f9015aac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ONNX.md",
+                "file": "BLEURT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "b1b60fa742f19c1a",
+            "id": "bd3f48136bc3bcdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LabelStudio.md",
+                "file": "ROGUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,64 +86,12 @@
             }
           },
           {
-            "id": "36e96e31971bb964",
+            "id": "6e2fcf462e615605",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Argilla.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b3a33172c61cae5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vLLM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1235c25697c8650b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Streamlit.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4c346a389630437",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gradio.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c6155b89d8c881b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Oogabooga.md",
+                "file": "ROGUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -179,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "expansion",
+                "query": "direct assessment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,8 +152,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
               }
             }
           },
@@ -299,7 +246,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -346,44 +293,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9e4eaae34c8cd935",
+  "active": "681077ff15cbd3ed",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240604111759.png",
-    "Graph Neural Network.md",
+    "_attachments/Pasted image 20240604185706.png",
+    "_attachments/Pasted image 20240604185551.png",
+    "_attachments/Pasted image 20240604185505.png",
+    "_attachments/Pasted image 20240604184402.png",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
+    "Positional Embeddings.md",
+    "Dolly.md",
     "~ Vocabulary.md",
-    "RAGAS.md",
-    "LangChain.md",
-    "llama.cpp.md",
-    "ONNX.md",
-    "AlpacaFarm.md",
-    "LabelStudio.md",
-    "Argilla.md",
-    "vLLM.md",
-    "Streamlit.md",
-    "Gradio.md",
+    "_attachments/Pasted image 20240604171310.png",
+    "_attachments/Pasted image 20240604170532.png",
+    "_attachments/Pasted image 20240604170455.png",
+    "LLM-as-a-Judge.md",
+    "~ Useful Pictures.md",
+    "Indices/Evaluation Index.md",
+    "_attachments/Pasted image 20240604165656.png",
+    "_attachments/Pasted image 20240604165415.png",
+    "_attachments/Pasted image 20240604164815.png",
+    "_attachments/Pasted image 20240604164656.png",
+    "COMET.md",
+    "ROGUE.md",
+    "BLEURT.md",
+    "BLEU.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 14.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
     "Oogabooga.md",
-    "On-Policy.md",
-    "Markov Decision Process.md",
-    "Chi-Squared.md",
-    "Reward Model.md",
-    "Basis Vector.md",
-    "Cross Product.md",
-    "Determinant.md",
-    "ComfyUI.md",
-    "Automatic1111.md",
-    "_attachments/Pasted image 20240604013906.png",
-    "_attachments/Pasted image 20240604013711.png",
-    "_attachments/Pasted image 20240604013637.png",
-    "Mistral.md",
-    "Off-Policy.md",
-    "Eigenvector.md",
-    "_attachments/Pasted image 20240603230144.png",
-    "_attachments/Pasted image 20240603193129.png",
-    "_attachments/Pasted image 20240603190517.png",
-    "_attachments/Pasted image 20240603190317.png",
-    "_attachments/Pasted image 20240603185247.png",
-    "_attachments/Pasted image 20240603185230.png",
-    "_attachments/Pasted image 20240603184623.png",
+    "Gradio.md",
+    "Streamlit.md",
+    "vLLM.md",
+    "Argilla.md",
+    "LabelStudio.md",
+    "ONNX.md",
+    "llama.cpp.md",
+    "LangChain.md",
+    "RAGAS.md",
+    "Graph Neural Network.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

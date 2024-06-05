@@ -22,6 +22,10 @@ Drawbacks:
 
 ![[Pasted image 20240525134903.png]]
 
+![[Pasted image 20240604163450.png|400]]
+Above: By just taking the question and copying it many times in the answer, we get a ROGUE score that beats many *actual* systems (at question answering), and comes near to human answers! You can't just blindly trust ROGUE scores, they're... a pretty bad evaluation metrics, along with BLEU!
+
+
 Variants: 
 - ROGUE-N: Measures the number of matching n-grams between the model-generated text and a human-produced reference.
 - ROGUE-1 Precision, Recall, and F1 scores: Precision is the ratio of the number of unigrams in C that also appear in R, over the number of unigrams in C. Recall is the ratio of the number of unigrams in R that also appear in C, over the number of unigrams in R. F1 score is computed from the other two metrics using the standard F1-score formula.

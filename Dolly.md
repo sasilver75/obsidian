@@ -7,6 +7,14 @@ Blog: [Free Dolly: The world's first truly-open instruction-tuned LLM](https://w
 - ==Examples cover 7 use cases== (openQA, closedQA, information extraction and summarization of Wikipedia data, brainstorming, classification, creative writing).
 - Permissively licensed.
 
+----
+
+*"We found that even if you ask Dolly to ask a biography of a complete, non-DataBricks related person, it starts including text about DataBricks in all the biographies... That's pretty weird and non desirable. Goes to show that we don't know what these companies are putting into their pretraining/instruction-tuning/RLHF data that could encourage models to be highly positive/verbose even in inappropriate situations about DataBricks.*"
+
+- From CS685 Lecture 15
+
+---
+
 Summary
 - Dolly was an LLM trained for less than $30 to exhibit ChatGPT-like human interactivity.
 - In this article, Dolly 2.0 is produced -- the first open-source, instruction-following LLM, fine-tuned on human-generated instruction dataset licensed for research and commercial use.

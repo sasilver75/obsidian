@@ -1,60 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
+      "basename": "CS685 Lecture 16",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
     },
     {
-      "basename": "Graph Neural Network",
-      "path": "Graph Neural Network.md"
+      "basename": "CS685 Lecture 15",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md"
+    },
+    {
+      "basename": "Positional Embeddings",
+      "path": "Positional Embeddings.md"
+    },
+    {
+      "basename": "Dolly",
+      "path": "Dolly.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "RAGAS",
-      "path": "RAGAS.md"
+      "basename": "LLM-as-a-Judge",
+      "path": "LLM-as-a-Judge.md"
     },
     {
-      "basename": "LangChain",
-      "path": "LangChain.md"
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
-      "basename": "llama.cpp",
-      "path": "llama.cpp.md"
+      "basename": "Evaluation Index",
+      "path": "Indices/Evaluation Index.md"
     },
     {
-      "basename": "ONNX",
-      "path": "ONNX.md"
+      "basename": "COMET",
+      "path": "COMET.md"
     },
     {
-      "basename": "AlpacaFarm",
-      "path": "AlpacaFarm.md"
+      "basename": "ROGUE",
+      "path": "ROGUE.md"
     },
     {
-      "basename": "LabelStudio",
-      "path": "LabelStudio.md"
+      "basename": "BLEURT",
+      "path": "BLEURT.md"
     },
     {
-      "basename": "Argilla",
-      "path": "Argilla.md"
+      "basename": "BLEU",
+      "path": "BLEU.md"
     },
     {
-      "basename": "vLLM",
-      "path": "vLLM.md"
+      "basename": "CS685 Lecture 14",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 14.md"
     },
     {
-      "basename": "Streamlit",
-      "path": "Streamlit.md"
+      "basename": "CS685 Lecture 1",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md"
+    },
+    {
+      "basename": "Oogabooga",
+      "path": "Oogabooga.md"
     },
     {
       "basename": "Gradio",
       "path": "Gradio.md"
     },
     {
-      "basename": "Oogabooga",
-      "path": "Oogabooga.md"
+      "basename": "Streamlit",
+      "path": "Streamlit.md"
+    },
+    {
+      "basename": "vLLM",
+      "path": "vLLM.md"
+    },
+    {
+      "basename": "Argilla",
+      "path": "Argilla.md"
+    },
+    {
+      "basename": "LabelStudio",
+      "path": "LabelStudio.md"
+    },
+    {
+      "basename": "ONNX",
+      "path": "ONNX.md"
+    },
+    {
+      "basename": "llama.cpp",
+      "path": "llama.cpp.md"
+    },
+    {
+      "basename": "LangChain",
+      "path": "LangChain.md"
+    },
+    {
+      "basename": "RAGAS",
+      "path": "RAGAS.md"
+    },
+    {
+      "basename": "Graph Neural Network",
+      "path": "Graph Neural Network.md"
+    },
+    {
+      "basename": "AlpacaFarm",
+      "path": "AlpacaFarm.md"
     },
     {
       "basename": "On-Policy",
@@ -151,54 +199,6 @@
     {
       "basename": "Precision (Information Retrieval)",
       "path": "Precision (Information Retrieval).md"
-    },
-    {
-      "basename": "Precision",
-      "path": "Precision.md"
-    },
-    {
-      "basename": "Relevance Set",
-      "path": "Relevance Set.md"
-    },
-    {
-      "basename": "Negative Prompt",
-      "path": "Negative Prompt.md"
-    },
-    {
-      "basename": "Verbosity Bias",
-      "path": "Verbosity Bias.md"
-    },
-    {
-      "basename": "Out-of-Bag Error",
-      "path": "Out-of-Bag Error.md"
-    },
-    {
-      "basename": "Imitation Learning",
-      "path": "Imitation Learning.md"
-    },
-    {
-      "basename": "Early Stopping",
-      "path": "Early Stopping.md"
-    },
-    {
-      "basename": "Curriculum Learning",
-      "path": "Curriculum Learning.md"
-    },
-    {
-      "basename": "Inductive Bias",
-      "path": "Inductive Bias.md"
-    },
-    {
-      "basename": "Ensemble Learning",
-      "path": "Ensemble Learning.md"
-    },
-    {
-      "basename": "Preference-Tuning",
-      "path": "Preference-Tuning.md"
-    },
-    {
-      "basename": "Test-Time Augmentation",
-      "path": "Test-Time Augmentation.md"
     }
   ],
   "omittedPaths": [],

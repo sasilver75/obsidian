@@ -589,6 +589,7 @@
 - [[CogVLM]]
 - [[LLaVA]]
 - [[MemGPT]]
+- [[FActScore]]
 
 # Tools
 - [[ComfyUI]]
