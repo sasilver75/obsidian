@@ -31,6 +31,7 @@
 - [[Chi-Squared]]
 - [[Multicollinearity]]
 - [[Degrees of Freedom]]
+
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -313,6 +314,7 @@
 - [[Reciprocal Rank]]
 - [[Mean Reciprocal Rank]]
 - [[Normalized Discounted Cumulative Gain]] (NDCG)
+- [[Mean Average Precision]] (MAP)
 - [[Return Set]]
 - [[Relevance Set]]
 - [[Average Precision]]
@@ -334,6 +336,7 @@
 - [[UPR]] (Unsupervised Passage Re-Ranker)
 - [[Generate-then-Read]] (GenRead)
 - [[Approximate Nearest Neighbor Contrastive Learning]] (ANCE)
+
 # Natural Language Processing Concepts
 - Tasks
 	- [[Sentiment Analysis]]
@@ -396,6 +399,7 @@
 - [[Selective Language Modeling]] (SLM)
 - [[Noise-Contrastive Estimation]]
 - [[InfoNCE]]
+
 # Computer Vision Concepts
 - [[Object Recognition]]
 - [[Segmentation Mask]]
@@ -424,10 +428,12 @@
 # MultiModal Concepts
 - Early Fusion, Middle Fusion, Late Fusion
 - Single Stream vs Dual Stream
+
 # Data Augmentation Concepts
 - [[MixUp]]
 - [[MixMatch]]
 - [[Progressive Resizing]]
+
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]] (RL)
 - [[Credit Assignment Problem]]
@@ -454,7 +460,6 @@
 -  [[Reinforcement Learning from from AI Feedback]]
 -  [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
-
 
 # Models
 - [[AlphaGo]]
@@ -632,6 +637,7 @@
 - [[Natural Language Toolkit]] (NLTK)
 - [[spaCy]]
 - [[HuggingFace Tokenizers]]
+
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[GAIA]] (General AI Assistants benchmark)
@@ -672,6 +678,7 @@
 - [[Massive Multi-Discipline Multimodal Understanding]] (MMMU)
 - [[MMBench]]
 - [[Open VLM Leaderboard]]
+
 # Datasets
 *Datasets for training/finetuning models*
 - [[Common Crawl]]

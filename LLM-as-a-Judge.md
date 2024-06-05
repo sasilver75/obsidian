@@ -7,3 +7,6 @@ LLM judgements tend to be less noisy than human evaluation (due to lack of diffe
 
 Compare: Pairwise Ranking, Direct Assessment
 ![[Pasted image 20240516223002.png|450]]
+Above: I believe that "Reference-Free" evaluation is another term for Direct Assessment, where you don't need a "golden reference", and you can just assess the quality of the output based solely on the input prompt and the model's response.
+- Note that reference-free evaluations can sometimes be used as [[Guardrails]] too, or vice versa.
+

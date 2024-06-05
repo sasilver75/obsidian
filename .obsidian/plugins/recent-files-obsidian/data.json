@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}",
+      "path": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md"
+    },
+    {
+      "basename": "Mean Average Precision",
+      "path": "Mean Average Precision.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "LLM-as-a-Judge",
+      "path": "LLM-as-a-Judge.md"
+    },
+    {
+      "basename": "Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}",
+      "path": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}",
+      "path": "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}",
+      "path": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
+      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
+    },
+    {
+      "basename": "CS685 Lecture 17",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md"
+    },
+    {
+      "basename": "CS685 Lecture 16",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
+    },
+    {
+      "basename": "FlashAttention",
+      "path": "FlashAttention.md"
+    },
+    {
+      "basename": "ROGUE",
+      "path": "ROGUE.md"
+    },
+    {
+      "basename": "BLEURT",
+      "path": "BLEURT.md"
+    },
+    {
+      "basename": "Dolly",
+      "path": "Dolly.md"
+    },
+    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Rotary Positional Embedding",
       "path": "Rotary Positional Embedding.md"
-    },
-    {
-      "basename": "CS685 Lecture 16",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
     },
     {
       "basename": "Attention with Linear Biases",
@@ -25,32 +77,12 @@
       "path": "Positional Embeddings.md"
     },
     {
-      "basename": "Dolly",
-      "path": "Dolly.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "LLM-as-a-Judge",
-      "path": "LLM-as-a-Judge.md"
-    },
-    {
       "basename": "Evaluation Index",
       "path": "Indices/Evaluation Index.md"
     },
     {
       "basename": "COMET",
       "path": "COMET.md"
-    },
-    {
-      "basename": "ROGUE",
-      "path": "ROGUE.md"
-    },
-    {
-      "basename": "BLEURT",
-      "path": "BLEURT.md"
     },
     {
       "basename": "BLEU",
@@ -167,38 +199,6 @@
     {
       "basename": "Reinforcement Learning",
       "path": "Reinforcement Learning.md"
-    },
-    {
-      "basename": "Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production",
-      "path": "Courses/LLM Mastery/Lecture - From Prompt to Model - Finetuning when you've already deployed LLMs in production.md"
-    },
-    {
-      "basename": "Inverse",
-      "path": "Inverse.md"
-    },
-    {
-      "basename": "Query Expansion",
-      "path": "Query Expansion.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
-      "path": "Papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
-    },
-    {
-      "basename": "Reranking",
-      "path": "Reranking.md"
-    },
-    {
-      "basename": "Dense Retrieval",
-      "path": "Dense Retrieval.md"
-    },
-    {
-      "basename": "Recall (Information Retrieval)",
-      "path": "Recall (Information Retrieval).md"
     }
   ],
   "omittedPaths": [],

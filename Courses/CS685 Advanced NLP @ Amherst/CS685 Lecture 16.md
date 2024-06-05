@@ -73,3 +73,6 @@ A: yep! :(
 	- We rotate each by some angle, and there will be some nice properties such that if we take the dot product of a rotated key and rotated query, the dot product should be a function of the *relative position* only,  not the *absolute* position.
 		- It's interesting that the angle we rotate these queries and keys by is a function of the *absolute* position, but the *dot product* is a function of the *relative position*. 
 
+
+## Flash Attention
+- Omitting, but added the article that he was talking about to the article.

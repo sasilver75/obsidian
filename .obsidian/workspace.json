@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "681077ff15cbd3ed",
+            "id": "69ef662a63ebc82b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rotary Positional Embedding.md",
+                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "214b6ddd62f16048",
+            "id": "4cf17294344f81a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Mean Average Precision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,33 +34,7 @@
             }
           },
           {
-            "id": "42af45ab5ff502a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dolly.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a81b37d4ef2bc60b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM-as-a-Judge.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e871e8dc9e6e8653",
+            "id": "c8040205dc1b3e0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -71,48 +45,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "92f4b2b0f9015aac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BLEURT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd3f48136bc3bcdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROGUE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e2fcf462e615605",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROGUE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md"
               }
             }
           },
@@ -260,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -307,44 +241,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "214b6ddd62f16048",
+  "active": "69ef662a63ebc82b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240604194433.png",
-    "Rotary Positional Embedding.md",
-    "_attachments/Pasted image 20240604194239.png",
-    "_attachments/Pasted image 20240604194146.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
-    "Attention with Linear Biases.md",
-    "_attachments/Pasted image 20240604191613.png",
-    "_attachments/Pasted image 20240604190907.png",
-    "_attachments/Pasted image 20240604185706.png",
-    "_attachments/Pasted image 20240604185551.png",
-    "_attachments/Pasted image 20240604185505.png",
-    "_attachments/Pasted image 20240604184402.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md",
-    "Positional Embeddings.md",
-    "Dolly.md",
+    "_attachments/Pasted image 20240604222803.png",
+    "_attachments/Pasted image 20240604222756.png",
+    "_attachments/Pasted image 20240604222546.png",
+    "_attachments/Pasted image 20240604222534.png",
+    "_attachments/Pasted image 20240604222430.png",
+    "_attachments/Pasted image 20240604222410.png",
+    "_attachments/Pasted image 20240604221737.png",
+    "_attachments/Pasted image 20240604221629.png",
+    "Mean Average Precision.md",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240604171310.png",
-    "_attachments/Pasted image 20240604170532.png",
+    "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
     "LLM-as-a-Judge.md",
-    "~ Useful Pictures.md",
-    "Indices/Evaluation Index.md",
-    "COMET.md",
+    "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
+    "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md",
+    "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md",
+    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
+    "FlashAttention.md",
     "ROGUE.md",
     "BLEURT.md",
+    "Dolly.md",
+    "~ Useful Pictures.md",
+    "Rotary Positional Embedding.md",
+    "_attachments/Pasted image 20240604194433.png",
+    "_attachments/Pasted image 20240604194239.png",
+    "_attachments/Pasted image 20240604194146.png",
+    "Attention with Linear Biases.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md",
+    "Positional Embeddings.md",
+    "Indices/Evaluation Index.md",
+    "COMET.md",
     "BLEU.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 14.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
     "Oogabooga.md",
-    "Gradio.md",
-    "Streamlit.md",
-    "vLLM.md",
-    "Argilla.md",
-    "LabelStudio.md",
-    "ONNX.md",
-    "llama.cpp.md",
-    "LangChain.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
