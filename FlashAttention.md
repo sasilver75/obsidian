@@ -1,3 +1,7 @@
+Resources:
+- [VIDEO: Last 10 minutes or so of Lecture 16 of CS685@Amherst](https://www.youtube.com/live/cG3PQX64rKE?si=plxfQ18PaT_7Y71n&t=3118)
+
+
 ![[Pasted image 20240415170254.png]]
 People used to be very scared by the quadratic cost of attention
 - Reformer
