@@ -1,17 +1,17 @@
 Began: 2008
 Link: [CommonCrawl.org](https://commoncrawl.org/)
 
+Common Crawl is a nonprofit organization with an eponymous dataset of ==petabytes of **monthly** web-crawls==, collected ==since 2007==. Contains raw web page data, metadata extracts, text extracts. 
+Releases a new crawl containing ==200 to 400 TiB of textual content== obtained via automatic web crawl ==every 1-2 months==.
+
+Example: The latest CC crawl (April 2024) contains 2.7 billion webpages, with 386 TiB of uncompressed HTML text content.
+96 crawls have been released since 2013, and 3 crawls from 2008-2012, which were in a different, older format.
 
 
 
-Common Crawl is a nonprofit organization with an eponymous dataset of ==petabytes of **monthly** web-crawls==, collected ==since 2008==. Contains raw web page data, metadata extracts, text extracts. ==250+ billion webpages== spanning 17 years, cited in over 10,000 research papers.
 
 
-Founded by Gil Albaz
-- He started the predecessor to AdSense and sold it to Google in the late 90s/early 00s. He saw how important crawling was for Google. Basically quit Google and started CommonCrawl to enable Google competitors.
-
-
-Issues:
+Problems/Challenges:
 - They're a nonprofit and only cover a fraction of the web.
 	- Therefore our LMs aren't trained on all the web
 - Biased sampling towards the US
