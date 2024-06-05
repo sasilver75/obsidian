@@ -1,17 +1,21 @@
 April 25, 2024
 [[HuggingFace]]
 HuggingFace Dataset Card: [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb/blob/main/README.md)
+HuggingFace Full Blogpost: [FineWeb](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)
 
-A large, ==15T token English dataset meant for LLM pre-training==, consisting of cleaned and deduplicated web data from 95 [[Common Crawl]] dumps (Data from Summer of 2013 to March of 2024) using [[Datatrove]], HuggingFace's large-scale data processing library.
-- Because of the filtering that's applied, ==it's likely that code content is not prevalent in our dataset== -- they recommend enriching the FineWeb data with information from [[The Stack v2]], as well as generally complementing FineWeb with specialized curated datasources (eg Wikipedia), since they will likely have better formatting than the content included in FineWeb.
+![[Pasted image 20240605000114.png|200]]
 
-FineWeb was ==originally meant to be a full open replication of the [[RefinedWeb]] dataset from the [[Falcon]] paper== (Notable that Guilherme was previously on the TII UAE Falcon 40B team, responsible for the FineWeb dataset), ==but by carefully adding additional filtering steps, we managed to push the performance of FineWeb *well above* that of the original RefinedWeb==, and models trained on our dataset also outperform models trained on other commonly-used high-quality web datasets (like C4, Dolma-v1.6, The Pile, SlimPajama).
+
+A large, ==15T token, 44TB disk space English dataset meant for LLM pre-training==, consisting of cleaned and deduplicated web data from 96 [[Common Crawl]] dumps (Data from Summer of 2013 to March of 2024) using [[Datatrove]], HuggingFace's large-scale data processing library. It produces better-performing LLMs than other open pretraining datasets.
+- Note: Because of the filtering that's applied, ==it's likely that code content is not prevalent in our dataset== -- they recommend enriching the FineWeb data with information from [[The Stack v2]], as well as generally complementing FineWeb with specialized curated datasources (eg Wikipedia), since they will likely have better formatting than the content included in FineWeb.
+
+FineWeb was ***originally*** meant to be a full open replication of the [[RefinedWeb]] dataset from the [[Falcon]] paper (Notable that Guilherme was previously on the TII UAE Falcon 40B team, responsible for the FineWeb dataset), ==but by carefully adding additional filtering steps, we managed to push the performance of FineWeb *well above* that of the original RefinedWeb==, and models trained on our dataset also outperform models trained on other commonly-used high-quality web datasets (like C4, Dolma-v1.6, The Pile, SlimPajama).
 
 The authors note that there's still room for additional filtering, and that they intend to continue exploring how to improve the dataset quality in following versions of FineWeb.
 
 The authors release all of the code needed to fully reproduce our processing setup using the `datatrove` library, as well as small ablation models trained using the `nanotron` library.
 
-The ==data processing pipeline== consists of:
+### The ==data processing pipeline== consists of:
 1. URL Filtering: Removing documents originating from malicious and NSFW websites, using both block-list as well as subwords detection.
 2. `Trafilatura` text extraction on the raw HTML from CommonCrawl's warc files. 
 	- A Python package and command-line tool designed to gather text from the web, including discovery, extraction, and text-processing components. Main uses are web crawling, downloads, scraping, and extraction of texts.

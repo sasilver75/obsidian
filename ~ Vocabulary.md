@@ -707,6 +707,7 @@
 - [[RefinedWeb]]
 - [[Cosmopedia]]
 - [[FineWeb]] 
+- [[FineWeb-Edu]]
 - [[oasst1]]
 - [[oasst2]]
 - [[Stanford Human Preferences]]

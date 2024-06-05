@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8248f27774497bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepMind.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
+                "file": "DeepMind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
+                "file": "DeepMind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md"
+                "file": "DeepMind.md"
               }
             }
           },
@@ -194,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
+                "file": "DeepMind.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,19 +255,29 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "69ef662a63ebc82b",
+  "active": "f8248f27774497bf",
   "lastOpenFiles": [
+    "Indices/Dataset Curation Index.md",
+    "Datatrove.md",
+    "Common Crawl.md",
+    "FineWeb.md",
+    "_attachments/Pasted image 20240605000114.png",
+    "FineWeb-Edu.md",
+    "~ Vocabulary.md",
+    "Abstractive Summarization.md",
+    "_attachments/Pasted image 20240604223636.png",
+    "Extractive Summarization.md",
+    "_attachments/Pasted image 20240604223633.png",
+    "Summarization.md",
+    "_attachments/Pasted image 20240604223625.png",
+    "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
     "_attachments/Pasted image 20240604222803.png",
     "_attachments/Pasted image 20240604222756.png",
     "_attachments/Pasted image 20240604222546.png",
     "_attachments/Pasted image 20240604222534.png",
     "_attachments/Pasted image 20240604222430.png",
     "_attachments/Pasted image 20240604222410.png",
-    "_attachments/Pasted image 20240604221737.png",
-    "_attachments/Pasted image 20240604221629.png",
     "Mean Average Precision.md",
-    "~ Vocabulary.md",
-    "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
     "LLM-as-a-Judge.md",
     "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
     "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md",
@@ -267,18 +291,8 @@
     "Dolly.md",
     "~ Useful Pictures.md",
     "Rotary Positional Embedding.md",
-    "_attachments/Pasted image 20240604194433.png",
-    "_attachments/Pasted image 20240604194239.png",
-    "_attachments/Pasted image 20240604194146.png",
     "Attention with Linear Biases.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md",
-    "Positional Embeddings.md",
-    "Indices/Evaluation Index.md",
-    "COMET.md",
-    "BLEU.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 14.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md",
-    "Oogabooga.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

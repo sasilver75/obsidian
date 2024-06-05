@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "DeepMind",
+      "path": "DeepMind.md"
+    },
+    {
+      "basename": "Dataset Curation Index",
+      "path": "Indices/Dataset Curation Index.md"
+    },
+    {
+      "basename": "Datatrove",
+      "path": "Datatrove.md"
+    },
+    {
+      "basename": "Common Crawl",
+      "path": "Common Crawl.md"
+    },
+    {
+      "basename": "FineWeb",
+      "path": "FineWeb.md"
+    },
+    {
+      "basename": "FineWeb-Edu",
+      "path": "FineWeb-Edu.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Abstractive Summarization",
+      "path": "Abstractive Summarization.md"
+    },
+    {
+      "basename": "Extractive Summarization",
+      "path": "Extractive Summarization.md"
+    },
+    {
+      "basename": "Summarization",
+      "path": "Summarization.md"
+    },
+    {
       "basename": "Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}",
       "path": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md"
     },
     {
       "basename": "Mean Average Precision",
       "path": "Mean Average Precision.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "LLM-as-a-Judge",
@@ -163,42 +199,6 @@
     {
       "basename": "Basis Vector",
       "path": "Basis Vector.md"
-    },
-    {
-      "basename": "Cross Product",
-      "path": "Cross Product.md"
-    },
-    {
-      "basename": "Determinant",
-      "path": "Determinant.md"
-    },
-    {
-      "basename": "ComfyUI",
-      "path": "ComfyUI.md"
-    },
-    {
-      "basename": "Automatic1111",
-      "path": "Automatic1111.md"
-    },
-    {
-      "basename": "Mistral",
-      "path": "Mistral.md"
-    },
-    {
-      "basename": "Off-Policy",
-      "path": "Off-Policy.md"
-    },
-    {
-      "basename": "Eigenvector",
-      "path": "Eigenvector.md"
-    },
-    {
-      "basename": "Deep Q-Networks",
-      "path": "Deep Q-Networks.md"
-    },
-    {
-      "basename": "Reinforcement Learning",
-      "path": "Reinforcement Learning.md"
     }
   ],
   "omittedPaths": [],
