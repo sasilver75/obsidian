@@ -3,7 +3,7 @@ Github: [Link](https://github.com/huggingface/datatrove)
 
 A library to process, filter, and deduplicate text data at a very large scale., enabling the scaling of filtering and deduplication setups to thousands of CPU cores.
 
-Developed (?) by HF as part of the project to create datasets like HF's  [[RefinedWeb]], which exclusively used Datatrove.
+Developed (?) by HF as part of the project to create datasets like HF's  [[FineWeb]], which exclusively used Datatrove.
 
 
 - Provides a set of prebuilt commonly-used processing ==blocks== with a framework to easily add custom functionality. Each pipeline block takes a generator of `Document` as input and returns another generator of `Document`. The supplied block types are:

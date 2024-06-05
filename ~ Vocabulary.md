@@ -700,14 +700,14 @@
 - [[SlimPajama]]
 - [[RedPajama v2]]
 - [[Project Gutenberg]]
-- [[MassiveText]]
+- [[MassiveText]] (Includes interesting work on quality/repetition filters)
 - [[UltraChat]]
 - [[UltraFeedback]]
-- [[Dolma]]
-- [[RefinedWeb]]
-- [[Cosmopedia]]
-- [[FineWeb]] 
-- [[FineWeb-Edu]]
+- [[Dolma]] (Dataset for OLMo)
+- [[RefinedWeb]] (Dataset for Falcon)
+- [[Cosmopedia]] (Large 25B token synthetic dataset from HF)
+- [[FineWeb]] (15T high-quality dataset from HF)
+- [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[oasst1]]
 - [[oasst2]]
 - [[Stanford Human Preferences]]
