@@ -56,3 +56,20 @@ None of this is on the right side of the plus sign is learned; this is just a fi
 - With different attention heads, we choose different values for m (eg 1/2, 1/4, 1/8).
 
 A pretty straightforward technique and very easy to implement (all you have to do is modify your attention matrix using these simple linear biases).
+
+ALiBi enables extrapolation beyond the training sequence length, meaning that even if we train the model with sequences of length 500, at test time, it might still work if you feed it sequences of length 2000 tokens -- it's not clear how well, though -- but definitely more than learned or fixed/absolute embeddings.
+
+Note that ==positional info is only affecting  q, k, but not our v(value) vectors!== 
+This is also true with the [[Rotary Positional Embedding|RoPE]] embeddings we'll do next. If you think about it, the most important place to inject order information is in the attention computation -- if you know two words are far away and irrelevant, you can assign their attention to be some low value, thus, whatever the value vector is, we don't give it much weight.
+
+Q: "Once you have really long sequences, won't the negative bias between two distant tokens (that are *actually* related) increase to the extent that the attention-adjusted values will be ~0?"
+A: yep! :(
+
+
+## Rotary Positional Embeddings (RoPE)
+- [[Rotary Positional Embedding|RoPE]] enables [[Relative Positional Encoding]]/Embedding without modifying the attention matrix like [[Attention with Linear Biases|ALiBi]] does!
+	- ==We just have to do some modification to the original query and key vectors==, and we can keep everything else the same -- there no need to modify the attention computations at every layer.
+	- However RoPE does NOT use additive positional embeddings like in the original Transformer paper. ==Instead, we *rotate* the original q, k vectors by a matrix/vector product with a rotation matrix==!
+	- We rotate each by some angle, and there will be some nice properties such that if we take the dot product of a rotated key and rotated query, the dot product should be a function of the *relative position* only,  not the *absolute* position.
+		- It's interesting that the angle we rotate these queries and keys by is a function of the *absolute* position, but the *dot product* is a function of the *relative position*. 
+
