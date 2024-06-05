@@ -8,6 +8,14 @@ Example: The latest CC crawl (April 2024) contains 2.7 billion webpages, with 38
 96 crawls have been released since 2013, and 3 crawls from 2008-2012, which were in a different, older format.
 
 
+CommonCrawl data is available in two main formats: 
+- ==WARC== (Web ARChive format): Contain the raw crawl data, including full-page HTML and request metadata.
+- ==WET== (WARC Encapsulated Text): A text-only version of those websites
+The [[FineWeb]] 🍷 people from 🤗 say that while many dataset creators use the WET files as their starting point, in their experience the extraction used by CommonCrawl to create these WET files is suboptimal *for the goals of LLM pretraining*, and a variety of open-source libraries provide better extraction; they use the [[Trafilatura]] library.
+![[Pasted image 20240605133601.png|200]]
+
+
+
 
 
 

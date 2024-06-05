@@ -17,7 +17,7 @@ The authors release all of the code needed to fully reproduce our processing set
 
 ### The ==data processing pipeline== consists of:
 1. URL Filtering: Removing documents originating from malicious and NSFW websites, using both block-list as well as subwords detection.
-2. `Trafilatura` text extraction on the raw HTML from CommonCrawl's warc files. 
+2. `Trafilatura` text extraction on the raw HTML from CommonCrawl's warc files (Web ARChive format). 
 	- A Python package and command-line tool designed to gather text from the web, including discovery, extraction, and text-processing components. Main uses are web crawling, downloads, scraping, and extraction of texts.
 3. `FastText` language filter: Removing any document with an `en` language score lower than .65.
 4. Quality filtering
@@ -39,3 +39,10 @@ The authors release all of the code needed to fully reproduce our processing set
 > Which ablation models did they use? We used both 1.8B models trained on 28B tokens, and 1.8B models trained on 350B tokens.
 > This is the main difference between FineWeb and datasets like CommonCrawl/RedPajama-V2 -- with the latter cases, you still need to do the work of selecting how to filter the data yourself! THIS is the work we wanted to provide the community with, in FineWeb.
 > From Thomas Wolf (CSO@HF): https://twitter.com/Thom_Wolf/status/1782691683517305226
+
+
+# Paper Figures
+
+
+# Non-Paper Figures
+![[Pasted image 20240605132602.png]]

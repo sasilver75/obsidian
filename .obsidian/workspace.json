@@ -13,6 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "FineWeb-Edu.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04c60203ae68b921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MinHash.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1d117ca46b4c1d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MinHash.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6a93d1e98fe0941",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
@@ -21,12 +60,38 @@
             }
           },
           {
-            "id": "f8248f27774497bf",
+            "id": "6a1f53f885f07e5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DeepMind.md",
+                "file": "Cosmopedia.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "415b2d97d7b54054",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FineWeb.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4631d29b475fafd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Crawl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +124,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DeepMind.md",
+                "file": "FineWeb-Edu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DeepMind.md",
+                "file": "FineWeb-Edu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DeepMind.md"
+                "file": "FineWeb-Edu.md"
               }
             }
           },
@@ -208,7 +272,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "DeepMind.md",
+                "file": "FineWeb-Edu.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,15 +319,28 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f8248f27774497bf",
+  "active": "69ef662a63ebc82b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240605140528.png",
     "Indices/Dataset Curation Index.md",
-    "Datatrove.md",
-    "Common Crawl.md",
+    "MinHash.md",
+    "_attachments/Pasted image 20240605134643.png",
+    "~ Vocabulary.md",
+    "Cosmopedia.md",
     "FineWeb.md",
+    "MassiveText.md",
+    "Common Crawl.md",
+    "_attachments/Pasted image 20240605133601.png",
+    "_attachments/Pasted image 20240605132951.png",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Generative AI (NLP) (Day 4).md",
+    "Dataset Aggregation.md",
+    "_attachments/Pasted image 20240605132812.png",
+    "_attachments/Pasted image 20240605132602.png",
+    "RefinedWeb.md",
+    "Datatrove.md",
+    "DeepMind.md",
     "_attachments/Pasted image 20240605000114.png",
     "FineWeb-Edu.md",
-    "~ Vocabulary.md",
     "Abstractive Summarization.md",
     "_attachments/Pasted image 20240604223636.png",
     "Extractive Summarization.md",
@@ -272,11 +349,6 @@
     "_attachments/Pasted image 20240604223625.png",
     "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
     "_attachments/Pasted image 20240604222803.png",
-    "_attachments/Pasted image 20240604222756.png",
-    "_attachments/Pasted image 20240604222546.png",
-    "_attachments/Pasted image 20240604222534.png",
-    "_attachments/Pasted image 20240604222430.png",
-    "_attachments/Pasted image 20240604222410.png",
     "Mean Average Precision.md",
     "LLM-as-a-Judge.md",
     "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md",
@@ -285,14 +357,6 @@
     "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
-    "FlashAttention.md",
-    "ROGUE.md",
-    "BLEURT.md",
-    "Dolly.md",
-    "~ Useful Pictures.md",
-    "Rotary Positional Embedding.md",
-    "Attention with Linear Biases.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
