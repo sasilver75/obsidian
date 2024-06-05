@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Rotary Positional Embedding",
+      "path": "Rotary Positional Embedding.md"
+    },
+    {
       "basename": "CS685 Lecture 16",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
+    },
+    {
+      "basename": "Attention with Linear Biases",
+      "path": "Attention with Linear Biases.md"
     },
     {
       "basename": "CS685 Lecture 15",
@@ -23,10 +35,6 @@
     {
       "basename": "LLM-as-a-Judge",
       "path": "LLM-as-a-Judge.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Evaluation Index",
@@ -191,14 +199,6 @@
     {
       "basename": "Recall (Information Retrieval)",
       "path": "Recall (Information Retrieval).md"
-    },
-    {
-      "basename": "Recall",
-      "path": "Recall.md"
-    },
-    {
-      "basename": "Precision (Information Retrieval)",
-      "path": "Precision (Information Retrieval).md"
     }
   ],
   "omittedPaths": [],

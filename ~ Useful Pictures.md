@@ -272,4 +272,5 @@ Showing [[Top-P Sampling|Nucleus Sampling]], [[Top-K Sampling]], [[Beam Search]]
 ![[Pasted image 20240604111759.png|300]]
 Above: Response to Dwarkesh's episode with Leopold Aschenbrenner
 
+![[Pasted image 20240604194433.png]]
 

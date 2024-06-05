@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
+                "file": "Rotary Positional Embedding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "214b6ddd62f16048",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           },
@@ -246,7 +260,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
+                "file": "~ Useful Pictures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -293,27 +307,29 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "681077ff15cbd3ed",
+  "active": "214b6ddd62f16048",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240604194433.png",
+    "Rotary Positional Embedding.md",
+    "_attachments/Pasted image 20240604194239.png",
+    "_attachments/Pasted image 20240604194146.png",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
+    "Attention with Linear Biases.md",
+    "_attachments/Pasted image 20240604191613.png",
+    "_attachments/Pasted image 20240604190907.png",
     "_attachments/Pasted image 20240604185706.png",
     "_attachments/Pasted image 20240604185551.png",
     "_attachments/Pasted image 20240604185505.png",
     "_attachments/Pasted image 20240604184402.png",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md",
     "Positional Embeddings.md",
     "Dolly.md",
     "~ Vocabulary.md",
     "_attachments/Pasted image 20240604171310.png",
     "_attachments/Pasted image 20240604170532.png",
-    "_attachments/Pasted image 20240604170455.png",
     "LLM-as-a-Judge.md",
     "~ Useful Pictures.md",
     "Indices/Evaluation Index.md",
-    "_attachments/Pasted image 20240604165656.png",
-    "_attachments/Pasted image 20240604165415.png",
-    "_attachments/Pasted image 20240604164815.png",
-    "_attachments/Pasted image 20240604164656.png",
     "COMET.md",
     "ROGUE.md",
     "BLEURT.md",
@@ -329,8 +345,6 @@
     "ONNX.md",
     "llama.cpp.md",
     "LangChain.md",
-    "RAGAS.md",
-    "Graph Neural Network.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
