@@ -49,3 +49,6 @@ Above:
 Later, Google did a paper called [[Chinchilla]]
 
 ![[Pasted image 20240605160402.png]]
+
+(More notes added to the Chinchilla note in Obsidian, for the rest of the lecture.)
+

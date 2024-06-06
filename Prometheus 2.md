@@ -2,7 +2,7 @@ May 2, 2024
 [[KAIST]], LG AI Research, CMU, MIT, AI2, UIC
 Paper: [Prometheus 2: An Open-Source LM specialized  in evaluating other LMs](https://arxiv.org/abs/2405.01535)
 #zotero 
-Takeaway: The next paper in a line of work trying to train open models to replace GPT-4 et al. for LLM-as-a-Judge. It's a very promising model, but weirdly Nate Lambert said that it didn't score especially well on RewardBench.
+Takeaway: The next paper in a line of work trying to train open models to replace GPT-4 et al. for LLM-as-a-Judge. It's a very promising model, but weirdly Nate Lambert said that it didn't score especially well on RewardBench. It's notable because it can do both ==direct assessment== (single response scalar rating) and ==pairwise ranking== (which of two generations is better?).
 
 ---
 
