@@ -170,4 +170,52 @@ RAG has its roots in open-domain QA:
 
 
 ### How to apply RAG
-- Eugene has found that [[Hybrid Search]]
+- Eugene has found that [[Hybrid Search]] works better than either alone.
+	- Embedding-based search can fail when searching for a person/object's name, an acronym, or an ID.
+	- Keyword search only models simple word frequencies and doesn't capture semantic or correlation information... but traditional search indices let us use metadata (custom ratings, date filters) to refine results.
+
+How do we retrieve documents with low latency at scale?
+- We use [[Approximate Nearest Neighbor Search|Approximate Nearest Neighber]] search, optimizing for retrieval speed and returns the approximate top-k most similar neighbors.
+- ANN embedding indices are data structures that let us do ANN searches efficiently. Popular techniques include:
+	- [[Locality Sensitive Hashing]]
+	- [[FAISS]]
+	- [[Hierarchical Navigable Small Worlds|HNSW]]
+	- Scalable Nearest Neighbors (ScaNN)
+
+When evaluating an ANN index, consider:
+- Recall: How does it fare against exact nearest neighbors?
+- Latency/throughput: How many queries can it handle per second?
+- Memory footprint: How much RAM is required to serve an index?
+- Ease of adding new items: Can new items be added without having to reindex all documents (LSH) or does the index need to be rebuilt (ScaNN)?
+
+
+## (3/7) Fine-tuning: To get better at specific tasks
+- The process of taking a pre-trained model and further refining it on a specific task. The intent is to harness the knowledge the model already has, and apply it to a specific task, usually involving a smaller, task-specific dataset.
+- The term fine-tuning is used loosely, and can refer to:
+	- ==Continued Pre-Training (CPT)==: With domain-specific data, apply the same pre-training regime (NTP, MLM) on the base model.
+	- Instruction Tuning: Pretrained model is finetuned on examples of instruction-output pairs to follow instructions, answer questions, be waifu, etc.
+	- Single-task fine-tuning: Pre-trained model is honed for a narrow and specific task like toxicity detection or summarization, similar to BERT and T5
+	- RLHF: Combines instruction tuning with RL. The reward model is then used to further fine-tune the instructed LLM via RL techniques like PPO.
+
+Let's focus mainly on single-task and instruction fine-tuning:
+
+Why fine-tuning?
+- Performance and control
+- Modularization (Use an army of smaller models, each specializing on their own tasks, like content moderation, extraction, summarization, etc.)
+- Reduced dependencies (regarding legal concerns about proprietary data being exposed to external APIs. Also gets around constraints with 3rd party LLMs like rate limiting, high costs, or overly restrictive safety filters)
+
+More on finetuning
+- Why do we finetune a ***base model***? 
+	- Base models are primarily optimized for NTP on their training corpus.
+- Fine-tuning isn't without its challenges, we need a significant volume of demonstration data! In InstructGTP, they used:
+	- 13k instruction-output samples for SFT
+	- 33k output comparisons for reward modeling
+	- 31k prompts without human labels as input for RLHF
+- Fine-tuning comes with an alignment task; the process can lead to lower performance on certain critical tasks.
+
+There are some other fine-tuning techniques that don't involve updating all of the parameters of the model:
+- Soft [[Prompt Tuning]] prepends a trainable tensor to the model's *input embeddings*. Unlike discrete text prompts, soft prompts can be learned via backpropagation, meaning they can be fine-tuned to incorporate signals from any number of labeled examples.
+- In [[Prefix Tuning]], instead of adding a soft prompt to the model's input, we prepend trainable parameters to the hidden state of all transformer blocks! During fine-tuning, the LM's original parameters are kept frozen while the prefix parameters are updated.
+	- Paper showed that this achieved performance comparable to full fine-tuning despite requiring updates on only 0.1% of parameters!
+
+In the ==adapter== technique, we add fully-connected network layers twice to each transformer block; after the attendion alyer, 

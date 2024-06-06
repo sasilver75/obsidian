@@ -37,8 +37,3 @@ When evaluating an ANN index, consider:
 - Latency/throughput: How many queries can it handle per second?
 - Memory footprint: How much RAM is required to serve an index?
 - Ease of adding new items: Can new items be added without having to reindex all documents (LSH) or does the index need to be rebuilt (ScaNN)?
-
-
-
-## (3/7) Fine-tuning: To get better at specific tasks
-- The process of taking a pre-trained model and further refining it on a specific task. The intent is to harness the knowledge the model already has, and apply it to a specific task, usually involving a smaller, task-specific dataset.
