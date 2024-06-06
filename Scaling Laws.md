@@ -1,9 +1,11 @@
 January 23, 2020 (5 months before [[GPT-3]])
 [[OpenAI]], lead author [[Jared Kaplan]]
 Paper: [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) - "The Scaling Laws Paper"
-Revisited by [[Chinchilla]] in March 2022
+
 #zotero 
 Significance: Answers the question: What happens as we scale model size, compute, and parameters? Performance smoothly increases. Larger scales are more sample-efficient. Establishes a large number of scaling laws interrelating these variables.
+
+Note: Later revisited by [[Chinchilla]] in March 2022
 
 -----
 
@@ -27,7 +29,15 @@ Abstract
 This is the figure that some would say motivated the rush of investment into the field; "scale Transformers up, and they continue to get better, with no ending in sight."
 
 ![[Pasted image 20240427121428.png]]
-Left: Shows that sample efficiency improves as you increase the scale of the model.
+Left: Shows that sample efficiency improves as you increase the scale of the model. See that larger models benefit sooner and more from dataset size scaling, and that smaller models plateau earlier (large models don't even plateau in the figure).
 Right: Compute-efficient training means stopping short of convergence.
 
 ![[Pasted image 20240427123050.png]]
+
+# Non-Paper Figures
+
+![[Pasted image 20240605160210.png]]
+From CS685 Lecture 17
+
+![[Pasted image 20240605160423.png]]
+From CS685 Lecture 17

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Chinchilla",
+      "path": "Chinchilla.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
+    },
+    {
+      "basename": "CS685 Lecture 17",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md"
+    },
+    {
+      "basename": "Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}",
+      "path": "Articles/Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "FineWeb-Edu",
       "path": "FineWeb-Edu.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "MinHash",
       "path": "MinHash.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Cosmopedia",
@@ -93,10 +113,6 @@
       "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
     },
     {
-      "basename": "CS685 Lecture 17",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md"
-    },
-    {
       "basename": "CS685 Lecture 16",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
     },
@@ -115,10 +131,6 @@
     {
       "basename": "Dolly",
       "path": "Dolly.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Rotary Positional Embedding",
@@ -187,18 +199,6 @@
     {
       "basename": "llama.cpp",
       "path": "llama.cpp.md"
-    },
-    {
-      "basename": "LangChain",
-      "path": "LangChain.md"
-    },
-    {
-      "basename": "RAGAS",
-      "path": "RAGAS.md"
-    },
-    {
-      "basename": "Graph Neural Network",
-      "path": "Graph Neural Network.md"
     }
   ],
   "omittedPaths": [],
