@@ -218,4 +218,62 @@ There are some other fine-tuning techniques that don't involve updating all of t
 - In [[Prefix Tuning]], instead of adding a soft prompt to the model's input, we prepend trainable parameters to the hidden state of all transformer blocks! During fine-tuning, the LM's original parameters are kept frozen while the prefix parameters are updated.
 	- Paper showed that this achieved performance comparable to full fine-tuning despite requiring updates on only 0.1% of parameters!
 
-In the ==adapter== technique, we add fully-connected network layers twice to each transformer block; after the attendion alyer, 
+In the ==adapter== technique, we add fully-connected network layers twice to each transformer block; after the attention layer, and after the feed-forward network.
+- On GLU, this achieves within 0.4% of the performance of the full fine-tune by adding just 3.6% of parameters per task.
+![[Pasted image 20240606134406.png|350]]
+
+[[Low-Rank Adaptation]] (LoRA) is a technique where adapters are designed to be the product of two low-rank matrices!
+![[Pasted image 20240606134443.png|200]]
+
+[[Quantized Low-Rank Adaptation|QLoRA]] builds on top of LoRA; instead of using the full 16-bit model during fine-tuning, it applies a 4-bit quantized model.
+- Reduces the memory requirements for fine-tuning a 65B model from a 780GB memory to more manageable 48B, without degrading runtime or predictive performance.
+
+#### How to apply fine-tuning?
+- Collect data (document classifications, entity extractions, summarizations, dialogues, question answerings) via:
+	- Experts or crowd-sourced human annotators ($ and slow)
+	- User feedback
+	- Query larger open models with permissive licenses (data distillation, synthetic data)
+	- Reuse open-source data
+- Then, select a pre-trained model. There are several open LLMs with permissive licenses.
+- Then, pick a finetuning approach -- LoRA and QLoRA are good places to start, but if your need is more intensive, like continued pre-training on new domain knowledge, you might find full fine-tuning necessary.
+- Basic hyperparameter tuning
+	- Mosts papers focus on learning rate, batch size, and number of epochs. For LoRA, we might want to tune the rank parameter. Others include sequence length, loss type (contrastive loss vs token match), and data ratios, or the ratio of positive to negative examples.
+
+## (4/7) Caching: To reduce latency and cost
+- A technique to store data that's previously bee retrieved or computed.
+- This way, future requests for the same data can be served faster. In the space of serving LLMs generations, the popular approach is to ==cache the LLM response keyed on the embedding of the input request==.
+	- Then, for each new request, ==if a semantically similar-enough request is received, we can serve the cached response==.
+	- Some practitioners say that ==this sounds like a disaster waiting to happen==, and our author agrees! It's key to figure out how to cache safely, instead of depending solely on semantic similarity.
+- Why caching?
+	- Reduce latency
+	- Reduce the number of LLM requests, thus saving cost
+![[Pasted image 20240606135856.png]]
+Above: An image from GPTCache
+
+When a new request is received:
+- A embedding generateor creates an embedding of the request.
+- Our similarity evaluator computes the similarity of the request via the vector store (eg FAISS) and provides a distance metric
+- If the request is similar enough, the cached response is fetched and served.
+- If the request isn't similar enough, it's assed to the LLM, which then generates the result. Finally the response is both cached for future use and served.
+
+We need to consider if caching is effective for the usage pattern. One way to quantify this is via the cache hit rate. 
+- If usage follows a random uniform distribution, caching might not be especially effective.
+- If usage follows a power law where a small proportion of unique requests accounts for the majority of traffic, then caching could be an effective strategy.
+
+==Beyond semantic similarity by vector comparison, we could also explore caching based on:==
+- Item IDs (when we precompute summaries or product reviews)
+- Pairs of Item IDs (when we generate comparisons between movies)
+- Constrained input (such as variables like movie genre, director, or lead actor; for example ,if a user is looking for movies by a specific director, we could execute a structured query and run it through an LLM to frame the response more eloquently)
+
+## (5/7) Guardrails: To Ensure output quality
+- In the context of LLMs, [[Guardrails]] validate the output of LLMs, ensuring that the output doesn't just sound good, but is also syntactically correct, factual, and free from harmful content.
+- ==Why guardrails==?
+	1. Ensure that outputs are reliable and consistent enough to use in production (eg in a specific JSON schema, code that is executable)
+	2. Provide an additional layer of safety, and maintain quality control over an LLM's output (verify factual accuracy, check the output isn't toxic, ensure coherence with provided context)
+
+
+Rest of this integrated into the Guardrails note
+
+Remaining ones aren't interesting.
+
+

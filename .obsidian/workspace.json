@@ -34,6 +34,32 @@
             }
           },
           {
+            "id": "da7a8628555a0150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guardrails.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d1f1882d0fede60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guardrails.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b4cf2877b028b203",
             "type": "leaf",
             "state": {
@@ -544,8 +570,12 @@
   },
   "active": "45b5cb2505fd87db",
   "lastOpenFiles": [
-    "Hybrid Search.md",
+    "Guardrails.md",
     "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+    "_attachments/Pasted image 20240606135856.png",
+    "_attachments/Pasted image 20240606134443.png",
+    "_attachments/Pasted image 20240606134406.png",
+    "Hybrid Search.md",
     "FineWeb-Edu.md",
     "FineWeb.md",
     "_attachments/Pasted image 20240605223456.png",
@@ -564,11 +594,8 @@
     "_attachments/Pasted image 20240605205537.png",
     "BERTScore.md",
     "_attachments/Pasted image 20240605205343.png",
-    "_attachments/Pasted image 20240605205119.png",
     "BLEU.md",
     "Prometheus 2.md",
-    "_attachments/Pasted image 20240605203404.png",
-    "_attachments/Pasted image 20240605203358.png",
     "Indices/Evaluation Index.md",
     "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
@@ -579,7 +606,6 @@
     "Image Captioning.md",
     "GPT.md",
     "Support Vector Machine.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
