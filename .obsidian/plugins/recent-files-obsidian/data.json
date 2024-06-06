@@ -1,24 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Chinchilla",
-      "path": "Chinchilla.md"
+      "basename": "CS685 Lecture 19",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md"
+    },
+    {
+      "basename": "Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}",
+      "path": "Articles/Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}.md"
+    },
+    {
+      "basename": "Prometheus 2",
+      "path": "Prometheus 2.md"
+    },
+    {
+      "basename": "Convolutional Neural Network",
+      "path": "Convolutional Neural Network.md"
+    },
+    {
+      "basename": "Max Pooling",
+      "path": "Max Pooling.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Scaling Laws",
-      "path": "Scaling Laws.md"
+      "basename": "Visual Question-Answering",
+      "path": "Visual Question-Answering.md"
+    },
+    {
+      "basename": "Image Captioning",
+      "path": "Image Captioning.md"
+    },
+    {
+      "basename": "GPT",
+      "path": "GPT.md"
+    },
+    {
+      "basename": "Support Vector Machine",
+      "path": "Support Vector Machine.md"
     },
     {
       "basename": "CS685 Lecture 17",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md"
     },
     {
-      "basename": "Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}",
-      "path": "Articles/Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}.md"
+      "basename": "Chinchilla",
+      "path": "Chinchilla.md"
+    },
+    {
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
     },
     {
       "basename": "~ Useful Pictures",
@@ -167,38 +199,6 @@
     {
       "basename": "CS685 Lecture 1",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md"
-    },
-    {
-      "basename": "Oogabooga",
-      "path": "Oogabooga.md"
-    },
-    {
-      "basename": "Gradio",
-      "path": "Gradio.md"
-    },
-    {
-      "basename": "Streamlit",
-      "path": "Streamlit.md"
-    },
-    {
-      "basename": "vLLM",
-      "path": "vLLM.md"
-    },
-    {
-      "basename": "Argilla",
-      "path": "Argilla.md"
-    },
-    {
-      "basename": "LabelStudio",
-      "path": "LabelStudio.md"
-    },
-    {
-      "basename": "ONNX",
-      "path": "ONNX.md"
-    },
-    {
-      "basename": "llama.cpp",
-      "path": "llama.cpp.md"
     }
   ],
   "omittedPaths": [],

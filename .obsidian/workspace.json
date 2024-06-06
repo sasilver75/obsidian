@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md",
+                "file": "Prometheus 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a71d7c463e217473",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfa6d7b0199f802a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Visual Question-Answering.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e1ce585822118f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Captioning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0cef6a798e60f9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ae669a66bf95c5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -163,8 +228,7 @@
               }
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,7 +286,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -238,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinchilla.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinchilla.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinchilla.md"
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md"
               }
             }
           },
@@ -311,7 +376,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Chinchilla.md",
+                "file": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -358,26 +423,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c8040205dc1b3e0e",
+  "active": "69ef662a63ebc82b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240605163654.png",
-    "_attachments/Pasted image 20240605162821.png",
-    "_attachments/Pasted image 20240605162547.png",
-    "~ Vocabulary.md",
-    "Chinchilla.md",
-    "_attachments/Pasted image 20240605160458.png",
-    "Scaling Laws.md",
-    "_attachments/Pasted image 20240605160423.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md",
-    "_attachments/Pasted image 20240605160402.png",
-    "_attachments/Pasted image 20240605160210.png",
-    "_attachments/Pasted image 20240605160155.png",
-    "_attachments/Pasted image 20240605155816.png",
-    "_attachments/Pasted image 20240605155444.png",
-    "_attachments/Pasted image 20240605155259.png",
+    "_attachments/Pasted image 20240605181211.png",
+    "_attachments/Pasted image 20240605181137.png",
+    "_attachments/Pasted image 20240605180901.png",
+    "_attachments/Pasted image 20240605180630.png",
+    "_attachments/Pasted image 20240605180108.png",
+    "_attachments/Pasted image 20240605180004.png",
+    "_attachments/Pasted image 20240605175746.png",
+    "_attachments/Pasted image 20240605175714.png",
+    "_attachments/Pasted image 20240605175443.png",
+    "_attachments/Pasted image 20240605175430.png",
+    "_attachments/Pasted image 20240605174839.png",
     "Articles/Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}.md",
+    "Prometheus 2.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
+    "Convolutional Neural Network.md",
+    "Max Pooling.md",
+    "~ Vocabulary.md",
+    "Visual Question-Answering.md",
+    "Image Captioning.md",
+    "GPT.md",
+    "Support Vector Machine.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md",
+    "Chinchilla.md",
+    "Courses/XCS224U NLU @ Stanford/Untitled.md",
+    "Scaling Laws.md",
     "~ Useful Pictures.md",
-    "Courses/CS685 Advanced NLP @ Amherst/Untitled.md",
     "FineWeb-Edu.md",
     "Indices/Dataset Curation Index.md",
     "MinHash.md",
@@ -388,21 +461,13 @@
     "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Generative AI (NLP) (Day 4).md",
     "Dataset Aggregation.md",
     "RefinedWeb.md",
-    "Datatrove.md",
-    "DeepMind.md",
-    "Abstractive Summarization.md",
-    "Extractive Summarization.md",
-    "Summarization.md",
-    "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md",
-    "Mean Average Precision.md",
-    "LLM-as-a-Judge.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",
     "Templates",
     "Courses/CS685 Advanced NLP @ Amherst",
-    "Courses/CS25",
+    "Courses/CS25V4 Transformers United @ Stanford",
     "Courses/XCS224U NLU @ Stanford",
     "Articles/ML/Untitled",
     "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov"
