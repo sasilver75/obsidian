@@ -36,3 +36,12 @@ $BLEU-N = BP \cdot exp(\sum_{n=1}^NW_nlog(precision_n))$
 Note:
 A simple precision-based metric (like the one below, which is *NOT* BLEU) has a problem, which is that it doesn't consider word order. BLEU is basically a modification of a precision-based metric that includes bi-grams, tri-grams, and four-grams, in addition to unigrams, to address ordering of words.
 ![[Pasted image 20240604162711.png]]
+
+---
+
+![[Pasted image 20240605203357.png]]
+![[Pasted image 20240605203404.png]]
+Above: I think p refers to the generated sentence, and r to the source sentence. $|p|$ is the *length* of the generated sentence.
+
+
+

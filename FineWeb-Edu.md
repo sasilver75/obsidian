@@ -46,3 +46,4 @@ Conclusion
 - It achieves the same performance with significantly less data, requiring 10x fewer tokens compared to C4 and Dolma to match MMLU results.
 - This demonstrates the effectiveness of using classifiers trained on LLM annotations for large-scale data filtering.
 
+![[Pasted image 20240605223449.png]]
