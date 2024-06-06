@@ -1,7 +1,6 @@
 Guardrails validate the output of LLMs, ensuring that the output doesn't just *sound good*, but is also syntactically correct, factual, and free from harmful content. It also includes guarding against adversarial input.
-- We may want to require output to be in a specific JSON schema so that it's machine-readable.
-- We may need code that's generated to actually be executable.
-- We may want to ensure that output isn't harmful, verify it for factual accuracy, or ensure coherence with the context provided.
+- Shape/Syntax: We may want to require output to be in a specific JSON schema so that it's machine-readable. We may need code that's generated to actually be executable.
+- Alignment: We may want to ensure that output isn't harmful, verify it for factual accuracy, or ensure coherence with the context provided.
 
 See:
 - The [Guardrails](https://github.com/guardrails-ai/guardrails) package, or Nvidia's NeMo-Guardrails (see [difference](https://eugeneyan.com/writing/llm-patterns/?utm_source=convertkit&utm_medium=email&utm_campaign=2023+Year+in+Review%20-%2012699108))

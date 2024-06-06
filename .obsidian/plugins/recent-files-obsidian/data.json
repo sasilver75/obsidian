@@ -5,6 +5,10 @@
       "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
     },
     {
+      "basename": "Guardrails",
+      "path": "Guardrails.md"
+    },
+    {
       "basename": "Hybrid Search",
       "path": "Hybrid Search.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CS685 Lecture 16",
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
-    },
-    {
-      "basename": "FlashAttention",
-      "path": "FlashAttention.md"
     }
   ],
   "omittedPaths": [],
