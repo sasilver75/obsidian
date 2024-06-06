@@ -274,3 +274,10 @@ Above: Response to Dwarkesh's episode with Leopold Aschenbrenner
 
 ![[Pasted image 20240604194433.png]]
 
+![[Pasted image 20240605145505.png|100]]
+![[IMG_3481.png|100]]
+![[Pasted image 20240605145715.png|100]]
+![[Pasted image 20240605145859.png|100]]
+![[Pasted image 20240605150021.png|150]]
+
+

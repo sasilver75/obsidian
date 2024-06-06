@@ -39,4 +39,49 @@ Above: They had three different methods (with some epistemic uncertainty, I gues
 Above: Most models were trained on 300B tokens at the time just because *that's what GPT-3 did*, and everyone was trying to replicate/beat GPT-3!
 
 
+# Non-Paper Figures
+![[Pasted image 20240605160458.png]]
+From CS685 Lecture 17
+- For years, people used the Kaplan scaling laws; You can see that going off the Kaplan models resulted in earlier models being overparametrized (relative to Chinchilla-optimality), not prioritizing the dataset size.
 
+
+![[Pasted image 20240605162547.png]]
+All of the dots on each line use the same amount of compute, but vary in the number of parameters and data. Points on the left of each line are models trained with fewer parameters and more data, and points on the right are models trained with more parameters and less data. Each line is a different number of flops.
+- Conclusion: The biggest model isn't always the best one -- actually, in NO case is the biggest model the best! In fact, the optimal model is somewhere in the middle! For each compute budget, you pick a model parameter size {somewhere in the middle} and a dataset size {somewhere in the middle} to minimize loss.
+
+But a question is: Will these relationships hold? If we have a curve with a much larger compute budget?
+- Authors take the minimum of each of these curves and plot the minimum as a function of dataset size and model size, yielding the following two graphs
+
+![[Pasted image 20240605162821.png]]
+They fit this curve to these numbers. But should we believe it? The authors choose to *show* it by creating a model, Chinchilla at the ~10^24 FLOPs point.
+
+The [[Gopher]] model uses the older Kaplan et al. scaling model (280B params/300B tokens), and [[Chinchilla]], on the new scaling model, is 4x smaller (70B params/1.4T tokens). 
+
+![[Pasted image 20240605163654.png]]
+- How much will my loss increase if I reduce the size of my training set? 
+	- The second term tells us that: What is the contribution of my dataset size to the model loss. Decreasing it increases the contribution towards loss.
+- Here, Alpha and Beta are things that we're trying to learn/fit based on empirical training runs. AB,N,D as well.
+- In the Chinchilla paper, they train a bunch of models with different compute budgets, and fit the model described above. The find the coefficients to be:
+	- E = 1.69 
+	- Alpha = .34
+	- Beta = .28
+	- A and B are both = 400
+
+They end up getting:
+L(Gopher) = 1.993
+L(Chinchilla) = 1.936
+
+The authors even say that, with this compute budget C, NO MODEL trained with 300B tokens could EVER be better than Chinchilla!
+- But note that this was empirically fit, and depends on a bunch of things (hyperparameters, etc.).
+- Also note that this is all about perplexity, not performance on the downstream tasks that we actually care about.
+
+==Note that this doesn't cover inference costs at all==! Say you're an inference provider of some specific model, and you know that billions of people are going to use your model -- you want to have an overtrained, small language model (even though you have diminished returns on training cost), because the dominating inference costs are much smaller!
+
+q: What about Distillation?
+a: This doesn't really say anything about that.
+
+q: What about repeating data?
+a: This doesn't say anything about that, but there's controversy:
+- Brown et al. 2022 says that repetition can lead to degradation in performance. "Performance of an 800M param model can be degraded to that of a 400M param model by repeating just .1% of the data!"
+- The 2022 Galactica paper in contrast found that performance continued to ***improve*** on validation set and in-domain/out-of-domain benchmarks with multiple repeats (4.25 epochs tested) of the corpus.
+	- ((I trust this one))
