@@ -1,4 +1,4 @@
-A text embedding is a compressed, abstract representation of text data where text of arbitrary length can be represented as a fixed-size vector of numbers. Usually learned from a corpus of text like Wikipedia.
+A text embedding is a compressed, abstract representation of text data where text of arbitrary length can be represented as a fixed-size vector of numbers. 
 
 Note: While we usually discuss text embeddings, embeddings can take many modalities; [[CLIP]] is multimodal and embeds images and text in the same space, allowing us to find images most similar to input text, and vice-versa.
 

@@ -1,16 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "CS685 Lecture 19",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md"
+      "basename": "FineWeb-Edu",
+      "path": "FineWeb-Edu.md"
     },
     {
-      "basename": "Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}",
-      "path": "Articles/Patterns for Building LLM-baed Systems and Products (?) {Eugene Yan Blog}.md"
+      "basename": "FineWeb",
+      "path": "FineWeb.md"
+    },
+    {
+      "basename": "Hybrid Search",
+      "path": "Hybrid Search.md"
+    },
+    {
+      "basename": "Approximate Nearest Neighbor Search",
+      "path": "Approximate Nearest Neighbor Search.md"
+    },
+    {
+      "basename": "Locality Sensitive Hashing",
+      "path": "Locality Sensitive Hashing.md"
+    },
+    {
+      "basename": "fastText",
+      "path": "fastText.md"
+    },
+    {
+      "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
+      "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation (Model)",
+      "path": "Retrieval-Augmented Generation (Model).md"
+    },
+    {
+      "basename": "Embedding",
+      "path": "Embedding.md"
+    },
+    {
+      "basename": "Chinchilla",
+      "path": "Chinchilla.md"
+    },
+    {
+      "basename": "ROGUE",
+      "path": "ROGUE.md"
+    },
+    {
+      "basename": "BERTScore",
+      "path": "BERTScore.md"
+    },
+    {
+      "basename": "BLEU",
+      "path": "BLEU.md"
     },
     {
       "basename": "Prometheus 2",
       "path": "Prometheus 2.md"
+    },
+    {
+      "basename": "Evaluation Index",
+      "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}",
+      "path": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md"
+    },
+    {
+      "basename": "CS685 Lecture 19",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md"
     },
     {
       "basename": "Convolutional Neural Network",
@@ -45,20 +105,12 @@
       "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md"
     },
     {
-      "basename": "Chinchilla",
-      "path": "Chinchilla.md"
-    },
-    {
       "basename": "Scaling Laws",
       "path": "Scaling Laws.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "FineWeb-Edu",
-      "path": "FineWeb-Edu.md"
     },
     {
       "basename": "Dataset Curation Index",
@@ -71,10 +123,6 @@
     {
       "basename": "Cosmopedia",
       "path": "Cosmopedia.md"
-    },
-    {
-      "basename": "FineWeb",
-      "path": "FineWeb.md"
     },
     {
       "basename": "MassiveText",
@@ -151,54 +199,6 @@
     {
       "basename": "FlashAttention",
       "path": "FlashAttention.md"
-    },
-    {
-      "basename": "ROGUE",
-      "path": "ROGUE.md"
-    },
-    {
-      "basename": "BLEURT",
-      "path": "BLEURT.md"
-    },
-    {
-      "basename": "Dolly",
-      "path": "Dolly.md"
-    },
-    {
-      "basename": "Rotary Positional Embedding",
-      "path": "Rotary Positional Embedding.md"
-    },
-    {
-      "basename": "Attention with Linear Biases",
-      "path": "Attention with Linear Biases.md"
-    },
-    {
-      "basename": "CS685 Lecture 15",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 15.md"
-    },
-    {
-      "basename": "Positional Embeddings",
-      "path": "Positional Embeddings.md"
-    },
-    {
-      "basename": "Evaluation Index",
-      "path": "Indices/Evaluation Index.md"
-    },
-    {
-      "basename": "COMET",
-      "path": "COMET.md"
-    },
-    {
-      "basename": "BLEU",
-      "path": "BLEU.md"
-    },
-    {
-      "basename": "CS685 Lecture 14",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 14.md"
-    },
-    {
-      "basename": "CS685 Lecture 1",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 1.md"
     }
   ],
   "omittedPaths": [],
