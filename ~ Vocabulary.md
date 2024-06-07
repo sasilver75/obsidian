@@ -622,6 +622,7 @@
 - [[ChatML]]
 - [[Airoboros]]
 - [[Instructor]]
+- [[Outlines]]
 - [[Argilla]]
 - [[Distilabel]]
 - [[LabelStudio]]
@@ -650,6 +651,7 @@
 - [[GAIA]] (General AI Assistants benchmark)
 - [[Massive Multi-Task Language Understanding]] (MMLU)
 - [[MMLU-Pro]]
+- [[MMLU-Redux]]
 - [[HumanEval]]
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
 - [[BIG-Bench Hard]]

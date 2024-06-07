@@ -1,16 +1,112 @@
 {
   "recentFiles": [
     {
+      "basename": "CS 111-777 Lecture 1",
+      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md"
+    },
+    {
+      "basename": "Generative AI Handbook (June 5, 2024) {William Brown}",
+      "path": "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Sliding Window Attention",
+      "path": "Sliding Window Attention.md"
+    },
+    {
+      "basename": "vLLM",
+      "path": "vLLM.md"
+    },
+    {
+      "basename": "Outlines",
+      "path": "Outlines.md"
+    },
+    {
+      "basename": "FineWeb",
+      "path": "FineWeb.md"
+    },
+    {
+      "basename": "Cosmopedia",
+      "path": "Cosmopedia.md"
+    },
+    {
+      "basename": "MinHash",
+      "path": "MinHash.md"
+    },
+    {
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
+    },
+    {
+      "basename": "GPT",
+      "path": "GPT.md"
+    },
+    {
+      "basename": "Image Captioning",
+      "path": "Image Captioning.md"
+    },
+    {
+      "basename": "Visual Question-Answering",
+      "path": "Visual Question-Answering.md"
+    },
+    {
+      "basename": "Prometheus 2",
+      "path": "Prometheus 2.md"
+    },
+    {
+      "basename": "BLEU",
+      "path": "BLEU.md"
+    },
+    {
+      "basename": "ROGUE",
+      "path": "ROGUE.md"
+    },
+    {
+      "basename": "BERTScore",
+      "path": "BERTScore.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation (Model)",
+      "path": "Retrieval-Augmented Generation (Model).md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
+    },
+    {
+      "basename": "Hybrid Search",
+      "path": "Hybrid Search.md"
+    },
+    {
+      "basename": "Guardrails",
+      "path": "Guardrails.md"
+    },
+    {
+      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
+      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
+    },
+    {
+      "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
+      "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
+    },
+    {
+      "basename": "EvalGen",
+      "path": "EvalGen.md"
+    },
+    {
       "basename": "CS 11-711 Lecture 1",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md"
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md"
     },
     {
       "basename": "CS685 Lecture 20",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md"
+      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md"
     },
     {
       "basename": "CS685 Lecture 19",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md"
+      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 19.md"
     },
     {
       "basename": "What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
@@ -21,40 +117,12 @@
       "path": "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md"
     },
     {
-      "basename": "EvalGen",
-      "path": "EvalGen.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
       "basename": "Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}",
       "path": "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
     },
     {
-      "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
-      "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
-    },
-    {
-      "basename": "Guardrails",
-      "path": "Guardrails.md"
-    },
-    {
-      "basename": "Hybrid Search",
-      "path": "Hybrid Search.md"
-    },
-    {
       "basename": "FineWeb-Edu",
       "path": "FineWeb-Edu.md"
-    },
-    {
-      "basename": "FineWeb",
-      "path": "FineWeb.md"
     },
     {
       "basename": "Approximate Nearest Neighbor Search",
@@ -69,36 +137,12 @@
       "path": "fastText.md"
     },
     {
-      "basename": "RETRO",
-      "path": "RETRO.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation (Model)",
-      "path": "Retrieval-Augmented Generation (Model).md"
-    },
-    {
       "basename": "Embedding",
       "path": "Embedding.md"
     },
     {
       "basename": "Chinchilla",
       "path": "Chinchilla.md"
-    },
-    {
-      "basename": "ROGUE",
-      "path": "ROGUE.md"
-    },
-    {
-      "basename": "BERTScore",
-      "path": "BERTScore.md"
-    },
-    {
-      "basename": "BLEU",
-      "path": "BLEU.md"
-    },
-    {
-      "basename": "Prometheus 2",
-      "path": "Prometheus 2.md"
     },
     {
       "basename": "Evaluation Index",
@@ -117,28 +161,12 @@
       "path": "Max Pooling.md"
     },
     {
-      "basename": "Visual Question-Answering",
-      "path": "Visual Question-Answering.md"
-    },
-    {
-      "basename": "Image Captioning",
-      "path": "Image Captioning.md"
-    },
-    {
-      "basename": "GPT",
-      "path": "GPT.md"
-    },
-    {
       "basename": "Support Vector Machine",
       "path": "Support Vector Machine.md"
     },
     {
       "basename": "CS685 Lecture 17",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 17.md"
-    },
-    {
-      "basename": "Scaling Laws",
-      "path": "Scaling Laws.md"
+      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 17.md"
     },
     {
       "basename": "~ Useful Pictures",
@@ -147,14 +175,6 @@
     {
       "basename": "Dataset Curation Index",
       "path": "Indices/Dataset Curation Index.md"
-    },
-    {
-      "basename": "MinHash",
-      "path": "MinHash.md"
-    },
-    {
-      "basename": "Cosmopedia",
-      "path": "Cosmopedia.md"
     },
     {
       "basename": "MassiveText",
@@ -179,26 +199,6 @@
     {
       "basename": "Datatrove",
       "path": "Datatrove.md"
-    },
-    {
-      "basename": "DeepMind",
-      "path": "DeepMind.md"
-    },
-    {
-      "basename": "Abstractive Summarization",
-      "path": "Abstractive Summarization.md"
-    },
-    {
-      "basename": "Extractive Summarization",
-      "path": "Extractive Summarization.md"
-    },
-    {
-      "basename": "Summarization",
-      "path": "Summarization.md"
-    },
-    {
-      "basename": "Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}",
-      "path": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md"
     }
   ],
   "omittedPaths": [],
