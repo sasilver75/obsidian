@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/W.md",
+                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -495,7 +495,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -511,7 +512,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/W.md",
+                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -528,7 +529,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/W.md",
+                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -551,7 +552,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/W.md"
+                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
               }
             }
           },
@@ -584,7 +585,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/W.md",
+                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -634,7 +635,7 @@
   "active": "45b5cb2505fd87db",
   "lastOpenFiles": [
     "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Articles/W.md",
+    "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "EvalGen.md",
     "_attachments/Pasted image 20240606165214.png",
     "_attachments/Pasted image 20240606165212.png",
