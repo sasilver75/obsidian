@@ -478,6 +478,7 @@
 - [[RoBERTa]]
 - [[ELECTRA]]
 - [[BART]]
+- [[DistilBART]]
 - [[DeBERTa]]
 - [[GPT-2]]
 - [[GPT-3]]
@@ -642,6 +643,7 @@
 - [[Natural Language Toolkit]] (NLTK)
 - [[spaCy]]
 - [[HuggingFace Tokenizers]]
+- [[EvalGen]]
 
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
