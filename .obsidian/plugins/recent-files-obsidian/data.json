@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "CS 11-711 Lecture 1",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md"
+    },
+    {
+      "basename": "CS685 Lecture 20",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md"
+    },
+    {
+      "basename": "CS685 Lecture 19",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md"
+    },
+    {
       "basename": "What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
       "path": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}",
       "path": "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
-    },
-    {
-      "basename": "CS685 Lecture 20",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md"
     },
     {
       "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
@@ -99,10 +107,6 @@
     {
       "basename": "The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}",
       "path": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md"
-    },
-    {
-      "basename": "CS685 Lecture 19",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md"
     },
     {
       "basename": "Convolutional Neural Network",
@@ -195,10 +199,6 @@
     {
       "basename": "Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}",
       "path": "Articles/Evaluation Metrics for Search and Recommendation Systems (May 28, 2024) {Weaviate Blog}.md"
-    },
-    {
-      "basename": "Mean Average Precision",
-      "path": "Mean Average Precision.md"
     }
   ],
   "omittedPaths": [],
