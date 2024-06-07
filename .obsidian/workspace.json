@@ -26,7 +26,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+                "file": "Articles/W.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bd9060f7dba15a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EvalGen.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "171bd3f1b9e51178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EvalGen.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75861ed9f76fee62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "299329b64aa106e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "429b86faeb4261ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -401,7 +466,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"candid\"",
+                "query": "bloomberg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -426,13 +491,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -448,7 +511,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+                "file": "Articles/W.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -465,7 +528,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+                "file": "Articles/W.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -488,7 +551,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
+                "file": "Articles/W.md"
               }
             }
           },
@@ -521,7 +584,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+                "file": "Articles/W.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -570,8 +633,17 @@
   },
   "active": "45b5cb2505fd87db",
   "lastOpenFiles": [
-    "Guardrails.md",
+    "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Articles/W.md",
+    "EvalGen.md",
+    "_attachments/Pasted image 20240606165214.png",
+    "_attachments/Pasted image 20240606165212.png",
+    "~ Vocabulary.md",
+    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md",
     "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+    "Guardrails.md",
     "_attachments/Pasted image 20240606135856.png",
     "_attachments/Pasted image 20240606134443.png",
     "_attachments/Pasted image 20240606134406.png",
@@ -591,21 +663,12 @@
     "Chinchilla.md",
     "_attachments/Pasted image 20240605210102.png",
     "ROGUE.md",
-    "_attachments/Pasted image 20240605205537.png",
     "BERTScore.md",
-    "_attachments/Pasted image 20240605205343.png",
     "BLEU.md",
     "Prometheus 2.md",
     "Indices/Evaluation Index.md",
     "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
     "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
-    "Convolutional Neural Network.md",
-    "Max Pooling.md",
-    "~ Vocabulary.md",
-    "Visual Question-Answering.md",
-    "Image Captioning.md",
-    "GPT.md",
-    "Support Vector Machine.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

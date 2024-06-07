@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "W",
+      "path": "Articles/W.md"
+    },
+    {
+      "basename": "What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}",
+      "path": "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md"
+    },
+    {
+      "basename": "EvalGen",
+      "path": "EvalGen.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
+      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
+    },
+    {
+      "basename": "Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}",
+      "path": "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
+    },
+    {
+      "basename": "CS685 Lecture 20",
+      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md"
+    },
+    {
       "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
       "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
     },
@@ -83,10 +111,6 @@
     {
       "basename": "Max Pooling",
       "path": "Max Pooling.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Visual Question-Answering",
@@ -175,30 +199,6 @@
     {
       "basename": "Mean Average Precision",
       "path": "Mean Average Precision.md"
-    },
-    {
-      "basename": "LLM-as-a-Judge",
-      "path": "LLM-as-a-Judge.md"
-    },
-    {
-      "basename": "Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}",
-      "path": "Articles/Generative Retrieval for End-to-End Search Systems (September 6, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}",
-      "path": "Articles/Positive and Negative Sampling Strategies For Representation Learning in Semantic Search (March 22, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}",
-      "path": "Articles/Strategies for Effective and Efficient Text ranking using Large Language Models (December 26, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "CS685 Lecture 16",
-      "path": "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 16.md"
     }
   ],
   "omittedPaths": [],
