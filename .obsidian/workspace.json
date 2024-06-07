@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -495,8 +495,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -512,7 +511,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -529,7 +528,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -552,7 +551,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md"
               }
             }
           },
@@ -585,7 +584,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -634,15 +633,24 @@
   },
   "active": "45b5cb2505fd87db",
   "lastOpenFiles": [
-    "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU",
+    "Courses/Untitled.md",
+    "_attachments/Pasted image 20240606193508.png",
+    "_attachments/Pasted image 20240606193012.png",
+    "_attachments/Pasted image 20240606191625.png",
+    "_attachments/Pasted image 20240606190626.png",
+    "_attachments/Pasted image 20240606190234.png",
+    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
     "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "EvalGen.md",
     "_attachments/Pasted image 20240606165214.png",
     "_attachments/Pasted image 20240606165212.png",
     "~ Vocabulary.md",
     "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md",
     "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
     "Guardrails.md",
     "_attachments/Pasted image 20240606135856.png",
@@ -651,25 +659,17 @@
     "Hybrid Search.md",
     "FineWeb-Edu.md",
     "FineWeb.md",
-    "_attachments/Pasted image 20240605223456.png",
-    "_attachments/Pasted image 20240605223449.png",
     "Approximate Nearest Neighbor Search.md",
     "Locality Sensitive Hashing.md",
     "fastText.md",
     "RETRO.md",
-    "_attachments/Pasted image 20240605214728.png",
     "Retrieval-Augmented Generation (Model).md",
-    "_attachments/Pasted image 20240605213506.png",
     "Embedding.md",
     "Chinchilla.md",
-    "_attachments/Pasted image 20240605210102.png",
     "ROGUE.md",
     "BERTScore.md",
     "BLEU.md",
     "Prometheus 2.md",
-    "Indices/Evaluation Index.md",
-    "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
@@ -678,7 +678,6 @@
     "Courses/CS685 Advanced NLP @ Amherst",
     "Courses/CS25V4 Transformers United @ Stanford",
     "Courses/XCS224U NLU @ Stanford",
-    "Articles/ML/Untitled",
-    "_attachments/Screen Recording 2024-04-13 at 12.17.55 PM.mov"
+    "Articles/ML/Untitled"
   ]
 }
