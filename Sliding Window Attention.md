@@ -1,0 +1,2 @@
+Introduced in the "Longformer" paper; acts as a sub-quadratic drop-in replacement for standard attention.
+Allows attending only to a sliding window of recent tokens/states rather than the entire context window, with the pretense that vectors for these states have already attended to earlier ones, and thus have sufficient representational power to encode relevant pieces of early context.

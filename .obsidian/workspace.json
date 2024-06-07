@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ec1107e9fd0f6e3c",
+        "id": "5e575c674d2b3388",
         "type": "tabs",
         "children": [
           {
-            "id": "69ef662a63ebc82b",
+            "id": "6f8d3109f41c86f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,423 +21,19 @@
             }
           },
           {
-            "id": "45b5cb2505fd87db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4bd9060f7dba15a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EvalGen.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "171bd3f1b9e51178",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EvalGen.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75861ed9f76fee62",
+            "id": "f9696c00117c44b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "299329b64aa106e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "429b86faeb4261ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da7a8628555a0150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Guardrails.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d1f1882d0fede60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Guardrails.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4cf2877b028b203",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hybrid Search.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "471972ee4fc1acf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RETRO.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc1ee9b91b7cf5a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RETRO.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53139ea7c0f90473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Retrieval-Augmented Generation (Model).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d286c1d7e6097d5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BERTScore.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6425ba6e6bb69357",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROGUE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ffbd6b0a28fa4106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BLEU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29a09f0fce30c598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BLEU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca8a825ad49d64f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prometheus 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a71d7c463e217473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bfa6d7b0199f802a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Visual Question-Answering.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e1ce585822118f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Captioning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0cef6a798e60f9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GPT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ae669a66bf95c5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fb3804c60856b75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinchilla.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "179b826585de0764",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaling Laws.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04c60203ae68b921",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MinHash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1d117ca46b4c1d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MinHash.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6a93d1e98fe0941",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a1f53f885f07e5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cosmopedia.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "415b2d97d7b54054",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FineWeb.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4631d29b475fafd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Common Crawl.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cf17294344f81a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mean Average Precision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8040205dc1b3e0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinchilla.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -495,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -512,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -529,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -552,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md"
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md"
               }
             }
           },
@@ -585,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -632,53 +227,53 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "45b5cb2505fd87db",
+  "active": "6f8d3109f41c86f0",
   "lastOpenFiles": [
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 20.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU/CS 11-711 Lecture 1.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU",
+    "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/Untitled.md",
+    "~ Vocabulary.md",
+    "Sliding Window Attention.md",
+    "vLLM.md",
+    "Outlines.md",
+    "FineWeb.md",
+    "Cosmopedia.md",
+    "MinHash.md",
+    "Scaling Laws.md",
+    "GPT.md",
+    "Image Captioning.md",
+    "Visual Question-Answering.md",
+    "Prometheus 2.md",
+    "BLEU.md",
+    "ROGUE.md",
+    "BERTScore.md",
+    "Retrieval-Augmented Generation (Model).md",
+    "RETRO.md",
+    "Hybrid Search.md",
+    "Guardrails.md",
+    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+    "EvalGen.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "_attachments/Pasted image 20240606193508.png",
     "_attachments/Pasted image 20240606193012.png",
     "_attachments/Pasted image 20240606191625.png",
     "_attachments/Pasted image 20240606190626.png",
     "_attachments/Pasted image 20240606190234.png",
-    "Courses/CS685 Advanced NLP @ Amherst/CS685 Lecture 19.md",
-    "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "EvalGen.md",
     "_attachments/Pasted image 20240606165214.png",
     "_attachments/Pasted image 20240606165212.png",
-    "~ Vocabulary.md",
-    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
-    "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
-    "Guardrails.md",
     "_attachments/Pasted image 20240606135856.png",
     "_attachments/Pasted image 20240606134443.png",
     "_attachments/Pasted image 20240606134406.png",
-    "Hybrid Search.md",
-    "FineWeb-Edu.md",
-    "FineWeb.md",
-    "Approximate Nearest Neighbor Search.md",
-    "Locality Sensitive Hashing.md",
-    "fastText.md",
-    "RETRO.md",
-    "Retrieval-Augmented Generation (Model).md",
-    "Embedding.md",
-    "Chinchilla.md",
-    "ROGUE.md",
-    "BERTScore.md",
-    "BLEU.md",
-    "Prometheus 2.md",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
     "Indices",
     "Templates",
-    "Courses/CS685 Advanced NLP @ Amherst",
-    "Courses/CS25V4 Transformers United @ Stanford",
-    "Courses/XCS224U NLU @ Stanford",
-    "Articles/ML/Untitled"
+    "Courses/CS685 Advanced NLP @ Amherst (2024)",
+    "Courses/CS25V4 Transformers United @ Stanford (2024)",
+    "Courses/XCS224U NLU @ Stanford (2023)"
   ]
 }
