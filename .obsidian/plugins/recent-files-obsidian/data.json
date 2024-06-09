@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Multimodal",
+      "path": "Multimodal.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "CS 111-777 Lecture 1",
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md"
     },
@@ -169,10 +177,6 @@
       "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 17.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
       "basename": "Dataset Curation Index",
       "path": "Indices/Dataset Curation Index.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RefinedWeb",
       "path": "RefinedWeb.md"
-    },
-    {
-      "basename": "Datatrove",
-      "path": "Datatrove.md"
     }
   ],
   "omittedPaths": [],
