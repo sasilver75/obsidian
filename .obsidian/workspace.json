@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "f9696c00117c44b4",
+            "id": "53bf85c7d34edade",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multimodal.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Multimodal.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Multimodal.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -181,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Multimodal.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -228,8 +229,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6f8d3109f41c86f0",
+  "active": "53bf85c7d34edade",
   "lastOpenFiles": [
+    "Multimodal.md",
+    "~ Vocabulary.md",
     "_attachments/Pasted image 20240609094927.png",
     "_attachments/Pasted image 20240608100225.png",
     "_attachments/Pasted image 20240608095521.png",
@@ -242,7 +245,6 @@
     "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/Untitled.md",
-    "~ Vocabulary.md",
     "Sliding Window Attention.md",
     "vLLM.md",
     "Outlines.md",
@@ -267,7 +269,6 @@
     "_attachments/Pasted image 20240606193508.png",
     "_attachments/Pasted image 20240606193012.png",
     "_attachments/Pasted image 20240606191625.png",
-    "_attachments/Pasted image 20240606190626.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",
