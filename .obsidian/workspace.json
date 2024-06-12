@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Interactions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Interactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Interactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Interactions.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Interactions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -231,6 +231,8 @@
   },
   "active": "53bf85c7d34edade",
   "lastOpenFiles": [
+    "~ Quotes.md",
+    "~ Interactions.md",
     "Multimodal.md",
     "~ Vocabulary.md",
     "_attachments/Pasted image 20240609094927.png",
@@ -263,8 +265,6 @@
     "RETRO.md",
     "Hybrid Search.md",
     "Guardrails.md",
-    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "_attachments/Pasted image 20240606193508.png",
     "_attachments/Pasted image 20240606193012.png",
