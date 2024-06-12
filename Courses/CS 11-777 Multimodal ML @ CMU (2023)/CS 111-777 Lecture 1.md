@@ -25,3 +25,11 @@ These are the modalities associated with humans.
 
 What you say, the way you say something (Prosody, Vocal Expressions)
 
+(Adding lots of notes here to the [[Multimodal]] note)
+
+---
+
+# 1.2: Multimodal Research Task
+
+
+
