@@ -32,4 +32,17 @@ What you say, the way you say something (Prosody, Vocal Expressions)
 # 1.2: Multimodal Research Task
 
 
+![[Pasted image 20240612144129.png|200]]
+
+90% of research are ideas that don't work, and so we don't publish them. ((Grumble))
+- If it works and either verifies or doesn't verify your hypothesis, you should publish!
+You don't need SoTA results; if something works, we want to figure out why!
+
+
+![[Pasted image 20240612144448.png]]
+
+
+
+
+
 
