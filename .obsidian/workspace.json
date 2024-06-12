@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6f8d3109f41c86f0",
+            "id": "1aee7e3b61e05840",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multimodal.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Interactions.md",
+                "file": "ROGUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Interactions.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Interactions.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Interactions.md"
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md"
               }
             }
           },
@@ -182,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Interactions.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -229,21 +228,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "53bf85c7d34edade",
+  "active": "1aee7e3b61e05840",
   "lastOpenFiles": [
-    "~ Quotes.md",
-    "~ Interactions.md",
     "Multimodal.md",
-    "~ Vocabulary.md",
-    "_attachments/Pasted image 20240609094927.png",
-    "_attachments/Pasted image 20240608100225.png",
-    "_attachments/Pasted image 20240608095521.png",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240608095500.png",
-    "_attachments/Pasted image 20240608095436.png",
+    "_attachments/Pasted image 20240612141205.png",
+    "_attachments/Pasted image 20240612140905.png",
+    "_attachments/Pasted image 20240612140800.png",
+    "_attachments/Pasted image 20240612140540.png",
+    "_attachments/Pasted image 20240612140502.png",
+    "_attachments/Pasted image 20240612140415.png",
+    "_attachments/Pasted image 20240612140241.png",
+    "_attachments/Pasted image 20240612140229.png",
+    "_attachments/Pasted image 20240612135341.png",
+    "_attachments/Pasted image 20240612133558.png",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
-    "_attachments/Pasted image 20240608095301.png",
-    "_attachments/Pasted image 20240608095011.png",
+    "~ Useful Pictures.md",
+    "~ Vocabulary.md",
+    "ROGUE.md",
+    "~ Interactions.md",
+    "~ Quotes.md",
     "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/Untitled.md",
@@ -259,16 +262,11 @@
     "Visual Question-Answering.md",
     "Prometheus 2.md",
     "BLEU.md",
-    "ROGUE.md",
     "BERTScore.md",
     "Retrieval-Augmented Generation (Model).md",
     "RETRO.md",
     "Hybrid Search.md",
-    "Guardrails.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
-    "_attachments/Pasted image 20240606193508.png",
-    "_attachments/Pasted image 20240606193012.png",
-    "_attachments/Pasted image 20240606191625.png",
     "Excalidraw",
     "Courses/LLM Mastery",
     "Courses/OxML Fundamentals",

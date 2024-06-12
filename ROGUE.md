@@ -31,7 +31,7 @@ Variants:
 - ROGUE-1 Precision, Recall, and F1 scores: Precision is the ratio of the number of unigrams in C that also appear in R, over the number of unigrams in C. Recall is the ratio of the number of unigrams in R that also appear in C, over the number of unigrams in R. F1 score is computed from the other two metrics using the standard F1-score formula.
 - ROGUE-2: Considering two-grams
 - **ROGUE-L**: Based on the longest common subsequence (LCS) between our model output and reference; i.e. the longest sequence of words that are *not necessarily consecutive, but still in order* that is shared between both. 
-- **ROGUE-S**: Allows us to add a degree of leniency to the n-gram matching performed with ROGUE-N and ROGUE-L; ROGUE-S is a skip-gram concurrence metric, letting us search for consecutive words from the reference text that appear in the model output but are separated by one or more other words.
+- **ROGUE-S**: Allows us to add a degree of leniency to the n-gram matching performed with ROGUE-N and ROGUE-L; ROGUE-S is  a skip-gram concurrence metric, letting us search for consecutive words from the reference text that appear in the model output but are separated by one or more other words.
 
 Comparison with [[BLEU]]:
 - BLEU focuses on precision: How much the words (or n-grams) in the candidate model outputs appear in the human reference.
