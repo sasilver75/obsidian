@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
+                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9b7235f96db2368",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FAISS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -199,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
+                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
+                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md"
+                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
               }
             }
           },
@@ -272,7 +285,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
+                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -321,21 +334,23 @@
   },
   "active": "1aee7e3b61e05840",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240613094610.png",
+    "_attachments/Pasted image 20240613094548.png",
+    "_attachments/Pasted image 20240613001313.png",
+    "_attachments/Pasted image 20240612235602.png",
+    "FAISS.md",
+    "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+    "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
     "_attachments/Pasted image 20240612231141.png",
     "_attachments/Pasted image 20240612230834.png",
     "_attachments/Pasted image 20240612230251.png",
     "BLIP-2.md",
-    "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
     "_attachments/Pasted image 20240612225438.png",
     "_attachments/Pasted image 20240612225436.png",
     "_attachments/Pasted image 20240612223823.png",
     "_attachments/Pasted image 20240612223557.png",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240612210924.png",
-    "_attachments/Pasted image 20240612210701.png",
-    "_attachments/Pasted image 20240612205044.png",
-    "_attachments/Pasted image 20240612205022.png",
     "EvalGen.md",
     "ROGUE.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 1.md",
@@ -356,8 +371,6 @@
     "vLLM.md",
     "Outlines.md",
     "FineWeb.md",
-    "Cosmopedia.md",
-    "MinHash.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
     "Courses/LLM Mastery",
