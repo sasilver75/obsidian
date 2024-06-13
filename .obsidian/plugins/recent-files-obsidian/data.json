@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models",
+      "path": "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "EvalGen",
+      "path": "EvalGen.md"
+    },
+    {
+      "basename": "Mastering LLMS Workshop 3 - Evaluations",
+      "path": "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md"
+    },
+    {
+      "basename": "Mastering LLMS Workshop 2 - Finetuning",
+      "path": "Courses/LLM Mastery/Mastering LLMS Workshop 2 - Finetuning.md"
+    },
+    {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "ROGUE",
@@ -109,10 +125,6 @@
       "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
     },
     {
-      "basename": "EvalGen",
-      "path": "EvalGen.md"
-    },
-    {
       "basename": "CS 11-711 Lecture 1",
       "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Dataset Curation Index",
       "path": "Indices/Dataset Curation Index.md"
-    },
-    {
-      "basename": "MassiveText",
-      "path": "MassiveText.md"
-    },
-    {
-      "basename": "Common Crawl",
-      "path": "Common Crawl.md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Generative AI (NLP) (Day 4)",
-      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Generative AI (NLP) (Day 4).md"
     }
   ],
   "omittedPaths": [],
