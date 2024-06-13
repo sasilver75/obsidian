@@ -196,6 +196,7 @@
 - [[Neural Radiance Fields]]
 - [[Tree of Thought]] (ToT)
 - [[VLM]] 
+- [[Continuous Batching]]
 - [[Speculative Decoding]]
 - [[Speculative Sampling]]
 - [[Dropout]]
@@ -645,6 +646,9 @@
 - [[spaCy]]
 - [[HuggingFace Tokenizers]]
 - [[EvalGen]]
+-  [[Zeta Alpha]] 📝
+- [[Weights and Biases]] 📊
+- [[Replicate]] 🚂
 
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
@@ -783,8 +787,6 @@
 - [[Salesforce Research]]  💼
 - [[Apple]] 
 - [[EssentialAI]] 😶
-- [[Zeta Alpha]] 📝
-- [[Weights and Biases]] 📊
 
 
 # People

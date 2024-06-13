@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3a4b1b9846f98dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8db9165c0e147f7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36bd2dd6362c8a56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Ideas.md"
+                "file": "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md"
               }
             }
           },
@@ -181,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,20 +269,26 @@
   },
   "active": "1aee7e3b61e05840",
   "lastOpenFiles": [
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
-    "_attachments/Pasted image 20240612144448.png",
-    "_attachments/Pasted image 20240612144327.png",
-    "_attachments/Pasted image 20240612144129.png",
-    "Multimodal.md",
-    "_attachments/Pasted image 20240612141205.png",
-    "_attachments/Pasted image 20240612140905.png",
-    "_attachments/Pasted image 20240612140800.png",
-    "_attachments/Pasted image 20240612140540.png",
-    "_attachments/Pasted image 20240612140502.png",
-    "_attachments/Pasted image 20240612140415.png",
-    "_attachments/Pasted image 20240612140241.png",
-    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240612180822.png",
+    "_attachments/Pasted image 20240612174657.png",
+    "_attachments/Pasted image 20240612174541.png",
+    "_attachments/Pasted image 20240612174320.png",
+    "_attachments/Pasted image 20240612174023.png",
+    "_attachments/Pasted image 20240612174013.png",
+    "_attachments/Pasted image 20240612173939.png",
+    "_attachments/Pasted image 20240612173848.png",
+    "_attachments/Pasted image 20240612173839.png",
+    "_attachments/Pasted image 20240612173532.png",
+    "_attachments/Pasted image 20240612173318.png",
     "~ Vocabulary.md",
+    "EvalGen.md",
+    "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
+    "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md",
+    "Courses/LLM Mastery/Mastering LLMS Workshop 2 - Finetuning.md",
+    "~ Ideas.md",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
+    "Multimodal.md",
+    "~ Useful Pictures.md",
     "ROGUE.md",
     "~ Interactions.md",
     "~ Quotes.md",
@@ -261,11 +306,6 @@
     "Image Captioning.md",
     "Visual Question-Answering.md",
     "Prometheus 2.md",
-    "BLEU.md",
-    "BERTScore.md",
-    "Retrieval-Augmented Generation (Model).md",
-    "RETRO.md",
-    "Hybrid Search.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
     "Courses/LLM Mastery",
