@@ -212,4 +212,17 @@ This is a general phenomenon that's very relevant in GPUs, and is very punishing
 	- Distill models to smaller sizes, or truncate them (also improves throughput)
 	- Buy more expensive hardware (also improves throughput)
 - Want REALLY short latency?
-	- Run the entire system on Cache RAM/SRAM (this is not the ram you're used to thinking about; this is the L1/L2/L3 cache in your CPU). Build 80GB of that and run the 
+	- Run the entire system on Cache RAM/SRAM (this is not the DRAM ram you're used to thinking about; this is the L1/L2/L3 cache in your CPU). Build 80GB of that and run the model off that.
+	- If you want to do this, be [[Groq]], which basically build their LPU off this.
+	- Penalties here to throughput per *dollar*.
+
+[[Modal]]
+- Throughput
+	- Easy to scale out to hundreds of A100s or thousands of A10Gs, flexibly.
+- Latency
+	- Challenging to build latency and cost for models > 13B (for now). 
+- Cost
+	- $1.10/hr per A10G (cheaper than AWS)
+	- $7.65/hr per H100
+
+It's hard to achieve high GPU utilization; Average GPU utilization at peak is only 60%, but most providers charge you for 100%!
