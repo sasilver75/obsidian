@@ -77,6 +77,8 @@
 - [[Decision Tree]]
 - [[Random Forest]]
 - [[Support Vector Machine]]
+- [[Jaccard Similarity]]
+- [[Hamming Distance]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -280,7 +282,8 @@
 - [[TF-IDF]]
 - [[BM25]]
 - [[Hierarchical Navigable Small Worlds]] (HNSW)
-- [[Locality Sensitive Hashing]]
+- [[Locality Sensitive Hashing]] (LSH)
+- [[Product Quantization]]
 - [[Reranking]]
 - [[Inverted Index]]
 - [[Sparse Retrieval]]

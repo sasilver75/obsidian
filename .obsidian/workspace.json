@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "de670ea45c6dd541",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Locality Sensitive Hashing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f9b7235f96db2368",
             "type": "leaf",
             "state": {
@@ -65,7 +78,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Charles Frye.md",
+                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bf50a7e5f200ae7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a77c8e49d0f27d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hamming Distance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0529e967409509cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1363d3477e23a8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -137,7 +202,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -332,30 +398,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1aee7e3b61e05840",
+  "active": "ee2de5628bb5b8bc",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240613094610.png",
-    "_attachments/Pasted image 20240613094548.png",
-    "_attachments/Pasted image 20240613001313.png",
-    "_attachments/Pasted image 20240612235602.png",
-    "FAISS.md",
-    "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
-    "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
-    "_attachments/Pasted image 20240612231141.png",
-    "_attachments/Pasted image 20240612230834.png",
-    "_attachments/Pasted image 20240612230251.png",
-    "BLIP-2.md",
-    "_attachments/Pasted image 20240612225438.png",
-    "_attachments/Pasted image 20240612225436.png",
-    "_attachments/Pasted image 20240612223823.png",
-    "_attachments/Pasted image 20240612223557.png",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
+    "_attachments/Pasted image 20240613155109.png",
+    "_attachments/Pasted image 20240613154814.png",
+    "_attachments/Pasted image 20240613153817.png",
+    "_attachments/Pasted image 20240613152942.png",
+    "_attachments/Pasted image 20240613150813.png",
     "~ Vocabulary.md",
+    "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+    "Product Quantization.md",
+    "_attachments/Pasted image 20240613143434.png",
+    "_attachments/Pasted image 20240613142815.png",
+    "Hamming Distance.md",
+    "_attachments/Pasted image 20240613142508.png",
+    "_attachments/Pasted image 20240613142504.png",
+    "_attachments/Pasted image 20240613142030.png",
+    "_attachments/Pasted image 20240613141537.png",
+    "Charles Frye.md",
+    "Hierarchical Navigable Small Worlds.md",
+    "Locality Sensitive Hashing.md",
+    "FAISS.md",
+    "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
+    "BLIP-2.md",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
     "EvalGen.md",
     "ROGUE.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 1.md",
     "Modal.md",
-    "Charles Frye.md",
     "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
     "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md",
     "Courses/LLM Mastery/Mastering LLMS Workshop 2 - Finetuning.md",
@@ -367,10 +437,6 @@
     "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/Untitled.md",
-    "Sliding Window Attention.md",
-    "vLLM.md",
-    "Outlines.md",
-    "FineWeb.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
     "Courses/LLM Mastery",
