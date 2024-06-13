@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
+      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
+    },
+    {
+      "basename": "FAISS",
+      "path": "FAISS.md"
+    },
+    {
       "basename": "How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}",
       "path": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Chinchilla",
       "path": "Chinchilla.md"
-    },
-    {
-      "basename": "Evaluation Index",
-      "path": "Indices/Evaluation Index.md"
-    },
-    {
-      "basename": "The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}",
-      "path": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md"
     }
   ],
   "omittedPaths": [],
