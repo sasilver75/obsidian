@@ -787,6 +787,7 @@
 - [[Salesforce Research]]  💼
 - [[Apple]] 
 - [[EssentialAI]] 😶
+- [[Groq]] 🏎️
 
 
 # People
@@ -845,3 +846,4 @@
 - [[Jack Clark]] 📝
 - [[Matei Zaharia]] 🧱
 - [[Shreya Shankar]] 📊
+- [[Charles Frye]] 🟩
