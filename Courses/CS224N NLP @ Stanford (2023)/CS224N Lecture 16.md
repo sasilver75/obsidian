@@ -149,7 +149,7 @@ Gated Cross-Attention
 ![[Pasted image 20240417140714.png]]
 You do this before your frozen Language Model layer; you have a frozen Chinchilla language model and learn to modulate the information gonig into that LM; you propagate it with gradients all the way back, you just don't update the LM -- How do I design my signal so that my LM can do the most with it! (We do it before the layer, rather than after)
 
-[[BLIP]], [[BLIP 2]]
+[[BLIP]], [[BLIP-2]]
 ![[Pasted image 20240417141043.png]]
 In Falmingo, you have a lot of moving parts, but you can take this to the full extreme you try freeze almost everything, and you just try to learn a mapping between your image encoder and your language model (or your image encoder and encoder/decoder architecture) -- and you learn this projection between the two.
 They experiment with OPT as the LM and Flan-T5 as the other one
