@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modal.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modal.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modal.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modal.md"
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
               }
             }
           },
@@ -259,7 +259,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Modal.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -308,28 +308,29 @@
   },
   "active": "1aee7e3b61e05840",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
-    "Charles Frye.md",
-    "Modal.md",
-    "_attachments/Pasted image 20240612182416.png",
-    "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
-    "_attachments/Pasted image 20240612180822.png",
-    "_attachments/Pasted image 20240612174657.png",
-    "_attachments/Pasted image 20240612174541.png",
-    "_attachments/Pasted image 20240612174320.png",
-    "_attachments/Pasted image 20240612174023.png",
-    "_attachments/Pasted image 20240612174013.png",
-    "_attachments/Pasted image 20240612173939.png",
-    "_attachments/Pasted image 20240612173848.png",
-    "_attachments/Pasted image 20240612173839.png",
     "EvalGen.md",
+    "~ Vocabulary.md",
+    "ROGUE.md",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
+    "_attachments/Pasted image 20240612195657.png",
+    "_attachments/Pasted image 20240612195618.png",
+    "_attachments/Pasted image 20240612195417.png",
+    "_attachments/Pasted image 20240612195337.png",
+    "_attachments/Pasted image 20240612195242.png",
+    "_attachments/Pasted image 20240612195216.png",
+    "_attachments/Pasted image 20240612195209.png",
+    "_attachments/Pasted image 20240612194943.png",
+    "_attachments/Pasted image 20240612194249.png",
+    "_attachments/Pasted image 20240612194244.png",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 1.md",
+    "Modal.md",
+    "Charles Frye.md",
+    "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
     "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md",
     "Courses/LLM Mastery/Mastering LLMS Workshop 2 - Finetuning.md",
     "~ Ideas.md",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 111-777 Lecture 1.md",
     "Multimodal.md",
     "~ Useful Pictures.md",
-    "ROGUE.md",
     "~ Interactions.md",
     "~ Quotes.md",
     "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md",
@@ -343,8 +344,6 @@
     "MinHash.md",
     "Scaling Laws.md",
     "GPT.md",
-    "Image Captioning.md",
-    "Visual Question-Answering.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
     "Courses/LLM Mastery",
