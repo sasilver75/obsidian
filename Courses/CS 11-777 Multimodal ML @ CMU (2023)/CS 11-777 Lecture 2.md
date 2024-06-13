@@ -129,8 +129,89 @@ The simplest way is to take the last layer and do something like [[Principal Com
 
 # Lecture 2.2
 Link: https://youtu.be/CfSX2dFinUI?si=Kgic6Q-WZoR78hNC
+# Topic: Part 2 on Unimodal Representations
 
 ---
+
+Lecture Objectives
+- Word Representations
+	- Distributional hypothesis
+	- Learning neural representations
+- Sentence Representations and Sequence Modeling
+	- Recurrent neural networks
+	- Language models
+- Syntax and Language Structure
+	- Phrase-structure and dependency grammars
+	- Recursive neural networks
+		- Tree-based RNNs
+
+---
+
+
+## Word Representations
+
+We mentioned earlier that the simplest way to represent a word is going to be a one-hot vector, where a single bit in a vector of length {vocabulary size}. 
+- This is a very sparse representation, and isn't that descriptive...
+
+![[Pasted image 20240612203251.png]]
+Even though we don't speak the language above, we learned:
+- It's liquid
+- It complements certain foods
+- It likely contains alcohol
+- That it's related to grapes
+- That it pairs with bread and cheese
+It's probably something very similar to wine
+
+> "You will know a word by the company it keeps."
+
+Even though we've never heard about bardiwac, ==the context of a word is good approximation of its meaning!==
+
+![[Pasted image 20240612203534.png]]
+Above: The ==Distributional Hypothesis==
+
+Before NNs, the way to do this was Statistics
+![[Pasted image 20240612203549.png]]
+Take all the words in the english dictionary (above, 6 of them) and try to find good representation of all of the nouns in the dictionary.
+We count co-occurrence, and the signature in each dimension (red) has a meaning.
+
+The difference with GPT and all of those models is that the dimensions of their vector representations aren't that meaningful.
+
+![[Pasted image 20240612203832.png]]
+If we normalize, we can compare euclidean distance
+
+![[Pasted image 20240612203920.png]]
+We can also look at the angle. 
+- Even now, if we want to know if two embeddings are close to eachother, we use the cosine similarity. It's just a nice way to normalize the vectors before looking at the distance between them.
+
+![[Pasted image 20240612204245.png]]
+So how should we learn feature representations?
+- Given a word (left), we have a bag of words (right) of all of its context.
+- (We have eg 300k of these pairs, as a training dataset)
+- We train a NN to, given a word, predict the context. Because context is an approximation of meaning of a word (distributional hypothesis), we're learning to predict the meaning of words.
+
+![[Pasted image 20240612204436.png]]
+The encoder matrix takes us from the 100k dimensionality to a small (eg) 300 dimensionality, and then a decoder from the 300 dimensionality back to the context we're trying to predict.
+For 5-6 years, this was the main way to encode language.
+
+![[Pasted image 20240612204843.png]]
+
+
+![[Pasted image 20240612205022.png]]
+If we want to learn something based on a sequence of words...
+
+![[Pasted image 20240612205044.png]]
+We used to have 1-2 lectures on RNNs; we've moved that to two slides for the current incarnation of the course.
+
+Language models were designed and created in big part for speech recognition; the idea was that, if we want to improve speech recognition, let's look at sentences in the English corpus and try to predict the next word in these sentences, given what we've seen.
+
+![[Pasted image 20240612210701.png]]
+
+![[Pasted image 20240612210924.png]]
+Interestingly, at the last hidden state yellow box, we have an embedding of the sentence! This is a representation of the sentence.
+
+
+
+
 
 
 

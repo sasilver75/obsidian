@@ -472,7 +472,7 @@
 - [[CLIP]] 
 - [[OpenCLIP]]
 - [[BLIP]]
-- [[BLIP 2]]
+- [[BLIP-2]]
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]

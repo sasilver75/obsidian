@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}",
+      "path": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md"
+    },
+    {
+      "basename": "BLIP-2",
+      "path": "BLIP-2.md"
+    },
+    {
       "basename": "CS 11-777 Lecture 2",
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
     },
     {
-      "basename": "EvalGen",
-      "path": "EvalGen.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "EvalGen",
+      "path": "EvalGen.md"
     },
     {
       "basename": "ROGUE",
@@ -191,14 +199,6 @@
     {
       "basename": "The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}",
       "path": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md"
-    },
-    {
-      "basename": "Convolutional Neural Network",
-      "path": "Convolutional Neural Network.md"
-    },
-    {
-      "basename": "Max Pooling",
-      "path": "Max Pooling.md"
     }
   ],
   "omittedPaths": [],
