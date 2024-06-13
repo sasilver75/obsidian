@@ -5,6 +5,30 @@
       "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Product Quantization",
+      "path": "Product Quantization.md"
+    },
+    {
+      "basename": "Hamming Distance",
+      "path": "Hamming Distance.md"
+    },
+    {
+      "basename": "Charles Frye",
+      "path": "Charles Frye.md"
+    },
+    {
+      "basename": "Hierarchical Navigable Small Worlds",
+      "path": "Hierarchical Navigable Small Worlds.md"
+    },
+    {
+      "basename": "Locality Sensitive Hashing",
+      "path": "Locality Sensitive Hashing.md"
+    },
+    {
       "basename": "FAISS",
       "path": "FAISS.md"
     },
@@ -21,10 +45,6 @@
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "EvalGen",
       "path": "EvalGen.md"
     },
@@ -39,10 +59,6 @@
     {
       "basename": "Modal",
       "path": "Modal.md"
-    },
-    {
-      "basename": "Charles Frye",
-      "path": "Charles Frye.md"
     },
     {
       "basename": "Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models",
@@ -183,22 +199,6 @@
     {
       "basename": "Approximate Nearest Neighbor Search",
       "path": "Approximate Nearest Neighbor Search.md"
-    },
-    {
-      "basename": "Locality Sensitive Hashing",
-      "path": "Locality Sensitive Hashing.md"
-    },
-    {
-      "basename": "fastText",
-      "path": "fastText.md"
-    },
-    {
-      "basename": "Embedding",
-      "path": "Embedding.md"
-    },
-    {
-      "basename": "Chinchilla",
-      "path": "Chinchilla.md"
     }
   ],
   "omittedPaths": [],
