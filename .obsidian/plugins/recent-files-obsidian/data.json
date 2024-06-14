@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
-      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "CS 11-777 Lecture 2",
+      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
+    },
+    {
+      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
+      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
     },
     {
       "basename": "Optimized Product Quantization",
@@ -51,10 +55,6 @@
     {
       "basename": "BLIP-2",
       "path": "BLIP-2.md"
-    },
-    {
-      "basename": "CS 11-777 Lecture 2",
-      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
     },
     {
       "basename": "EvalGen",

@@ -1004,4 +1004,4 @@ recall(I)  # 100; nice!
 With this index, we can produce incredible performance ranging from 25% -> 100% recall at search times of 58.9µs -> 916µs.
 
 However, the IVF+HNSW index is not without its flaws. Although we have incredible recall and fast search speeds, the memory usage of this index is ==_huge_==. Our 1M 128-dimensional vectors produce an index size of 523MB+.
-- We can reduce this using PQ and OPQ, but this will reduce recall and increase search times.
+- We can reduce this using PQ and OPQ, but this will reduce recall and increase search times.d
