@@ -8,3 +8,9 @@ Cosine similarities always belong to the interval \[-1, 1\].
 - Two proportional vectors have a cosine similarity of 1.
 - Two orthogonal vectors have a cosine similarity of 0.
 - Two opposite vectors have a similarity of -1.
+
+---
+
+Note: In the context of distance metrics for information retrieval,
+
+$Cosine Distance = 1 - Cosine Similarity$ 

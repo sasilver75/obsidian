@@ -1,0 +1,1 @@
+The sum of the absolute differences between points across all dimensions.
