@@ -298,6 +298,7 @@
 - [[Baleen]]
 - [[ColBERTv2]]
 - [[PLAID]]
+- [[Cumulative Gain]]
 - [[Discounted Cumulative Gain]]
 - [[Precision (Information Retrieval)]]
 - [[Recall (Information Retrieval)]]

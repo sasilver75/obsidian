@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Normalized Discounted Cumulative Gain",
+      "path": "Normalized Discounted Cumulative Gain.md"
+    },
+    {
+      "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
+      "path": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Generate-then-Read",
+      "path": "Generate-then-Read.md"
+    },
+    {
+      "basename": "Mean Average Precision",
+      "path": "Mean Average Precision.md"
+    },
+    {
+      "basename": "Mean Reciprocal Rank",
+      "path": "Mean Reciprocal Rank.md"
+    },
+    {
+      "basename": "Recall (Information Retrieval)",
+      "path": "Recall (Information Retrieval).md"
     },
     {
       "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
@@ -55,10 +79,6 @@
     {
       "basename": "Manhattan Distance",
       "path": "Manhattan Distance.md"
-    },
-    {
-      "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
-      "path": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
     },
     {
       "basename": "A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}",
@@ -179,26 +199,6 @@
     {
       "basename": "Image Captioning",
       "path": "Image Captioning.md"
-    },
-    {
-      "basename": "Visual Question-Answering",
-      "path": "Visual Question-Answering.md"
-    },
-    {
-      "basename": "Prometheus 2",
-      "path": "Prometheus 2.md"
-    },
-    {
-      "basename": "BLEU",
-      "path": "BLEU.md"
-    },
-    {
-      "basename": "BERTScore",
-      "path": "BERTScore.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation (Model)",
-      "path": "Retrieval-Augmented Generation (Model).md"
     }
   ],
   "omittedPaths": [],
