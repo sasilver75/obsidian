@@ -78,7 +78,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+                "file": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "816e2ed311826189",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -268,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -326,8 +339,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -343,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -360,7 +372,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -383,7 +395,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -416,7 +428,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -463,13 +475,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ee2de5628bb5b8bc",
+  "active": "816e2ed311826189",
   "lastOpenFiles": [
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
+    "_attachments/Pasted image 20240613183449.png",
+    "_attachments/Pasted image 20240613183251.png",
+    "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
     "_attachments/Pasted image 20240613170500.png",
     "_attachments/Pasted image 20240613170146.png",
     "~ Vocabulary.md",
     "Optimized Product Quantization.md",
-    "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
     "Asymmetric Distance Computation.md",
     "_attachments/Pasted image 20240613164502.png",
     "_attachments/Pasted image 20240613164323.png",
@@ -478,10 +493,7 @@
     "_attachments/Pasted image 20240613162504.png",
     "Inverted File Index.md",
     "_attachments/Pasted image 20240613160230.png",
-    "_attachments/Pasted image 20240613160035.png",
-    "_attachments/Pasted image 20240613155935.png",
     "Hierarchical Navigable Small Worlds.md",
-    "_attachments/Pasted image 20240613155332.png",
     "Product Quantization.md",
     "Hamming Distance.md",
     "Charles Frye.md",
@@ -489,7 +501,6 @@
     "FAISS.md",
     "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
     "BLIP-2.md",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
     "EvalGen.md",
     "ROGUE.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 1.md",

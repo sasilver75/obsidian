@@ -210,6 +210,17 @@ Language models were designed and created in big part for speech recognition; th
 Interestingly, at the last hidden state yellow box, we have an embedding of the sentence! This is a representation of the sentence.
 
 
+![[Pasted image 20240613183251.png]]
+Lecturer talking about how good of a modality language is (because it's human-made, it naturally has a lot of the information in it that's useful to us, and has a useful structure to it.)
+
+![[Pasted image 20240613183449.png]]
+Words can have different meanings and functions in a sentence; you have to interpret language contextually, and even then there's still going to be ambiguity.
+
+
+
+
+
+
 
 
 
