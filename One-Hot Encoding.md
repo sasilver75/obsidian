@@ -1,4 +1,4 @@
-A type of (extremely) sparse vector in which we represent a categorical variable as a vector of all zeroes, with a since 1.
+A type of (extremely) sparse vector in which we represent a categorical variable as a vector of all zeroes, with a single 1.
 
 For example, we might represent a *Gender* variable as $[0,1]$ 
 

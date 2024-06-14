@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5420b29882dbeca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -221,7 +234,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -268,8 +281,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "017701ef11175e1b",
+  "active": "a5420b29882dbeca",
   "lastOpenFiles": [
+    "CLIP.md",
+    "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+    "_attachments/Pasted image 20240614123618.png",
+    "_attachments/Pasted image 20240614122209.png",
+    "_attachments/Pasted image 20240614121931.png",
+    "One-Hot Encoding.md",
+    "_attachments/Pasted image 20240614120225.png",
+    "_attachments/Pasted image 20240614115908.png",
+    "Normalized Discounted Cumulative Gain.md",
     "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
     "_attachments/Pasted image 20240614112148.png",
     "_attachments/Pasted image 20240614111856.png",
@@ -278,13 +300,8 @@
     "Generate-then-Read.md",
     "_attachments/Pasted image 20240614111116.png",
     "_attachments/Pasted image 20240614111014.png",
-    "_attachments/Pasted image 20240614110929.png",
-    "_attachments/Pasted image 20240614110814.png",
     "Mean Average Precision.md",
     "Mean Reciprocal Rank.md",
-    "_attachments/Pasted image 20240614110424.png",
-    "_attachments/Pasted image 20240614110341.png",
-    "_attachments/Pasted image 20240614110240.png",
     "Recall (Information Retrieval).md",
     "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
     "Locality Sensitive Hashing.md",
@@ -302,9 +319,6 @@
     "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
     "Distilabel.md",
     "Argilla.md",
-    "Optimized Product Quantization.md",
-    "Asymmetric Distance Computation.md",
-    "Inverted File Index.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
