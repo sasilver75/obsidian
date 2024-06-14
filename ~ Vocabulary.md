@@ -283,7 +283,10 @@
 - [[BM25]]
 - [[Hierarchical Navigable Small Worlds]] (HNSW)
 - [[Locality Sensitive Hashing]] (LSH)
-- [[Product Quantization]]
+- [[Inverted File Index]] (IVF)
+- [[Asymmetric Distance Computation]] (ADC)
+- [[Product Quantization]] (PQ)
+- [[Optimized Product Quantization]] (OPQ)
 - [[Reranking]]
 - [[Inverted Index]]
 - [[Sparse Retrieval]]

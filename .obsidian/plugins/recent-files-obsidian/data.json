@@ -9,6 +9,22 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Optimized Product Quantization",
+      "path": "Optimized Product Quantization.md"
+    },
+    {
+      "basename": "Asymmetric Distance Computation",
+      "path": "Asymmetric Distance Computation.md"
+    },
+    {
+      "basename": "Inverted File Index",
+      "path": "Inverted File Index.md"
+    },
+    {
+      "basename": "Hierarchical Navigable Small Worlds",
+      "path": "Hierarchical Navigable Small Worlds.md"
+    },
+    {
       "basename": "Product Quantization",
       "path": "Product Quantization.md"
     },
@@ -19,10 +35,6 @@
     {
       "basename": "Charles Frye",
       "path": "Charles Frye.md"
-    },
-    {
-      "basename": "Hierarchical Navigable Small Worlds",
-      "path": "Hierarchical Navigable Small Worlds.md"
     },
     {
       "basename": "Locality Sensitive Hashing",
@@ -187,18 +199,6 @@
     {
       "basename": "What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}",
       "path": "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}",
-      "path": "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
-    },
-    {
-      "basename": "FineWeb-Edu",
-      "path": "FineWeb-Edu.md"
-    },
-    {
-      "basename": "Approximate Nearest Neighbor Search",
-      "path": "Approximate Nearest Neighbor Search.md"
     }
   ],
   "omittedPaths": [],

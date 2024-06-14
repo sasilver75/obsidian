@@ -324,7 +324,7 @@ What we can do to mitigate this issue is to increase an index parameter known as
 
 ![[Pasted image 20240613114202.png|300]]
 
-Implementing IVF is straightforward, using `IndexIVFFlat`
+Implementing [[Inverted File Index|IVF]] is straightforward, using `IndexIVFFlat`
 
 ```python
 nlist = 128 # Number of cells/clusters to partition data into
@@ -806,10 +806,202 @@ Our stopping condition is when we find no nearer vertices in our current vertex'
 To minimize the probability of erroneously stopping early (and increase recall), we can increase the average degree of vertices (but this increases search time). We can also start the search on high-degree vertices.
 
 ### Creating HNSW
-HNSW is a natural evolution of NSW, inspired by hierarch
+HNSW is a natural evolution of NSW, inspired by hierarchical multi-layers of the Skip-List struture.
+- Adding hierarch to NSW produces a graph where links are separated across different layers. 
+	- ==At the top layer, we have the longest links==
+	- ==At the bottom layer, we have the shortest links.==
+
+![[Pasted image 20240613155328.png|300]]
+We traverse edges in each layer like we did for NSW, greedily moving to the nearest vertex until we find the local minimum.
+- At this point, we shift to the current vertex in a lower layer, and begin searching again. ((Notice that all nodes present in layer `n` are present in layer `n-1`, so you can move "down" on any node.))
+- We repeat this process until we find the local minimum of our bottom layer - layer 0.
+![[Pasted image 20240613155935.png|400]]
+
+### Graph Construction
+- How do we construct this graph? Vectors are inserted one-by-one, and the number of layers is represented by a parameter L.
+- The probability of vector insertion at a given layer is given by a probability function normalized by the "level multiplier"!
+![[Pasted image 20240613160035.png|300]]
+- The creators of HNSW found the best performance is achieved when we minimize the overlap of shared neighbors across layers. An optimal rule of thumb is `1/ln(M)`
+
+Graph construction starts at the top layer. (Omitting some notes here)
+![[Pasted image 20240613160230.png]]
+
+### Implementation in FAISS
+```python
+d = 128 # vector size
+M = 32
+
+# By default, M_max and M_max0 are set to M, M*2 at index initialization
+index = faiss.IndexHNSWFlat(d, M)
+index.hnsw.max_level  # -1 ; needs to be set
+levels = faiss.vector_to_array(index.hnsw.levels)
+np.bincount(levels)  # array([], ...) Layers empty too
+
+# We ned to build the index and set those params
+index.add(xb)
+index.hnsw.max_level  # 4; level has been set automatically
+np.bincount(faiss.vector_to_array(index.hnsw.levels))  # array([     0, 968746,  30276,    951,     26,      1], dtype=int64)
+# levels shows the distribution of vertices on each level from 0 to 4 (ignoring the first 0 value).
+
+# We can even see which vector is our entry point:
+index.hnsw.entry_point # 118295
+
+```
+
+HNSW isn't the best index in terms of memory utilization, but we can improve it by compressing our vectors using product quantization (PQ) (Which will reduce recall and increase search times)
+
+If instead we wanted to improve our search speeds, we can do that too, adding an IVF component to our index.
 
 
 ## Chapter 7: Composite Indices and the FAISS Index Factory
 
+- In the world of vector search, there are many indexing methods and vector processing techniques allowing us to prioritize between recall, latency, and memory usage.
+	- Specific methods like [[Inverted File Index|IVF]], [[Product Quantization|PQ]], or [[Hierarchical Navigable Small Worlds|HNSW]] often return good results, but for best performance, we might want to use composite indices.
+	- For instance, we can use an inverted file index (IVF) to reduce the scope of our search (increasing search speed), and then add a compression technique like product quantization (PQ) to keep larger indices within a reasonable size limit.
+
+Composite indices are built from any combination of:
+- ==Vector transform==: A pre-processing step to apply to vectors before indexing (PCA, OPQ)
+- ==Coarse quantizer==: A rough organization of vectors to sub-domains (for restricting search scope; IVF, IMI, HNSW). Refers to clustering vectors to enable non-exhaustive search by limiting search scope.
+- ==Fine quantizer==: A finer compression of vectors into smaller domains (for compressing index size; PQ). Describes the compression of vectors into codes, reducing memory usage of the index.
+- ==Refinement==: A final step at search-time which re-orders results using distance calculations on the original flat vectors. Alternatively, another index (non-flat) can be used.
+
+![[Pasted image 20240613162536.png|300]]
+
+It's often cleanest to build these composite indices using the FAISS `index_factory` class.
 
 
+```python
+# this...
+quantizer = faiss.IndexFlatL2(128)
+index = faiss.IndexIVFFlat(quantizer, 128, 256)
+
+# can become THIS, using index_factory
+index_f = faiss.index_factory(128, "IVF256,Flat")
+# Above: We don't have to specify L2 distance because the index_factory uses L2 by default.
+```
+
+Why use Index Factory?
+- Can depend on personal preference; if you prefer class-based index-building approaches, stick with it.
+- But Index Factory can greatly improve the elegance and clarity of the code. Five lines becomes 1.
+
+```python
+d = xb.shape[1]
+m = 32
+nbits = 8
+nlist = 256
+
+# Initialize our OPQ and coarse+fine quantizer steps separately
+opq = faiss.OPQMatrix(d, m)
+# d now refers to the shape of the rotated vectors from OPQ (whic hare equal)
+vecs = faiss.IndexFlatL2(d)
+sub_index = faiss.IndexIVFPQ(vecs, d, nlist, m, nbits)
+# Nowe we merge the preprocessing, coarse, and fine quantization steps
+index = faiss.IndexPreTransform(opq, sub_index)
+# Will will add all of the previous steps to our final refinement step
+index = faiss.IndexRefineFlat(q)
+# Train the index and the index vectors
+index.train(xb)
+index.add(xb)
+
+# Above: Pretty complicated, right? We can rewrite it all using our index factory to get much simpler code!
+d = xb.shape[1]
+# in index factory, m=32, nlist=256, nbits=8 by default
+index = faiss.index_factory(d, "OPQ32,IVF256,PQ32,RFLat")
+# train and index vectors
+index.train(xb)
+index.add(xb)
+```
+
+IVFADC (name isn't explained, seems just like an IVF+PQ combo)
+- ADC = [[Asymmetric Distance Computation]] (ADC); referred to as asymmetric because we compare our non-compressed xq query vector against previously indexed, compressed PQ vectors.
+![[Pasted image 20240613164323.png]]
+![[Pasted image 20240613164502.png]]
+
+To implement it using index_factory:
+```python
+index = faiss.index_factory(d, "IVF256,PQ32x8")
+index.train(xb)
+index.add(xb)
+D, I = index.search(xq, k)
+recall(I)  # 30
+
+# We can also increase index.nprobe to search more IVF cells, improving recall but slowing the search
+index.nprobe = 8
+D, I = index.search(xq, k)
+recall(I)
+```
+With this, we create an IVFADC index with 256 IVF cells; each vector is compressed with PQ using m and nbits values of 32 and 8, respectively. PQ uses nbits == 8 by default so we can also write "IVF256,PQ32".
+- _m: number of subvectors that original vectors are split into_
+- _nbits: number of bits used by each subquantizer, we can calculate the number of centroids used by each subquantizer as_ _2**nbits_
+
+### Optimized Product Quantization
+- IVFADC and other indexes using PQ can benefit from [[Optimized Product Quantization]] (OPQ)
+- OPQ works by rotating vectors to flatten the distribution of values across the subvectors used in PQ; this is particularly useful for unbalanced vectors with uneven data distributions.
+- In FAISS, we add OPQ as a pre-processing step:
+	- In IVFADC, the OPQ index string looked like: `"OPQ32,IVF256,PQ32"` where hte 32 in OPQ32 and PQ32 refers to the number of bytes `m` in the PQ-generated codes.
+	- _The OPQ matrix in Faiss is_ **_not_** _the whole rotation and PQ process. It is only the rotation. A PQ step must be included downstream for OPQ to be implemented._
+```python
+# we can add pre-processing vector rotation to
+# improve distribution for the PQ step using OPQ
+index = faiss.index_factory(d, "OPQ32,IVF256,PQ32x8")
+index.train(xb)
+index.add(xb)
+D, I = index.search(xq, k)
+recall(I)  # 31, a 1-point gain! In our case, hte data distribution of the Sift1M dataset is already well-balanced, so OPQ only gives us a minor 1% increase in recall.
+```
+If we wanted to increase the nprobe value to improve recall, we can no only access nprobe directly with index.nprobe, since our index value no longer refers to the IVF portion of our index (since we added a pre-processing step to our index).
+- Instead, we have to extract the IVF index before modifying the nprobe value:
+```python
+ivf = faiss.extract_index_ivf(index)
+ivf.nprobe = 13
+D, I = index.search(xq, k)
+recall(I)  # 74; woo (Search time increased from 720us to 1060us).
+```
+
+### Multi-D-ADC
+- Refers to Multi-dimensional indexing, alongside a PQ step which produces an Asymmetric Distance Computation at search time.
+- Based on the inverted multi-index (IMI), an extension of IVF.
+	- IMI can outperform IVF in both recall and search speed, but *does* increase memory usage.
+	- Makes IMI indices (like multi-D-ADC) ideal in cases where IVFADC doesn't quite reach the speed and recall required, and you can spare more memory usage.
+	- IMI works very similarly to IVF, but Voronoi cells are split across vector dimensions -- produces something equivalent to multi-level vornoi cell structures.
+![[Pasted image 20240613170146.png|300]]
+
+When we add a vector compression to IMI using PQ, we produce the multi-D-ADC index; where ADC refers to the asymmetric distance computation that is made when comparing query vectors to PQ vectors.
+
+```python
+index = faiss.index_factory(d, "IMI2x8, PQ32")
+index.train(xb)
+index.add(xb)
+
+imi = faiss.extract_index_ivf(index)  # access nprobe
+imi.nprobe = 620
+D, I = index.search(xq, k)
+recall(I)
+```
+
+### HNSW Indexes
+- IVF with HNSW is our final composite index; it splits our indexed vectors into cells as usual per IVF, but this time the process is organized using HNSW.
+- Produces comparable or better speed and *significantly higher recall* than our previous two indices, but at the cost of *much* higher memory usage.
+![[Pasted image 20240613170500.png]]
+- Using vanilla IVF, we introduce our query vector and compare it to every cell centroid, identifying the nearest centroid(s) to restrict our search scope with.
+	- Pairing this with HNSW, we produce an HNSW graph of all of these cell centroids, making the exhaustive centroid search *approximate* (so the search for which centroid is approximated; this makes sense mostly with large numbers of clusters, where exhaustively searching cluster centroids with IVF would be too expensive)
+
+With IVF+HNSW, we swap "few centroids and large cells" for "many centroids and small cells"
+- ==We quickly approximate the nearest cell centroids using HNSW, the restrict our exhaustive search to those nearest cells.==
+The standard IVF+HNSW index can be built with `"IVF4096_HNSW32,Flat"`.
+
+```python
+index = faiss.index_factory(d, "IVF4096_HNSW32,Flat")
+index.train(xb)
+index.add(xb)
+D, I = index.search(xq, k)
+recall(I)  # 25; let's increaes nprobe
+
+index.nprobe = 146  # We can directly access
+D, I = index.search(xq, k)
+recall(I)  # 100; nice!
+```
+With this index, we can produce incredible performance ranging from 25% -> 100% recall at search times of 58.9µs -> 916µs.
+
+However, the IVF+HNSW index is not without its flaws. Although we have incredible recall and fast search speeds, the memory usage of this index is ==_huge_==. Our 1M 128-dimensional vectors produce an index size of 523MB+.
+- We can reduce this using PQ and OPQ, but this will reduce recall and increase search times.

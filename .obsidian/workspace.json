@@ -86,6 +86,71 @@
             }
           },
           {
+            "id": "6f953fa60fc341f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad768f2ee5b785bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Asymmetric Distance Computation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4bdb1766521d40d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a38a77e408e217b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d40190c88cb6edee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hierarchical Navigable Small Worlds.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2bf50a7e5f200ae7",
             "type": "leaf",
             "state": {
@@ -400,23 +465,26 @@
   },
   "active": "ee2de5628bb5b8bc",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240613155109.png",
-    "_attachments/Pasted image 20240613154814.png",
-    "_attachments/Pasted image 20240613153817.png",
-    "_attachments/Pasted image 20240613152942.png",
-    "_attachments/Pasted image 20240613150813.png",
+    "_attachments/Pasted image 20240613170500.png",
+    "_attachments/Pasted image 20240613170146.png",
     "~ Vocabulary.md",
+    "Optimized Product Quantization.md",
     "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
-    "Product Quantization.md",
-    "_attachments/Pasted image 20240613143434.png",
-    "_attachments/Pasted image 20240613142815.png",
-    "Hamming Distance.md",
-    "_attachments/Pasted image 20240613142508.png",
-    "_attachments/Pasted image 20240613142504.png",
-    "_attachments/Pasted image 20240613142030.png",
-    "_attachments/Pasted image 20240613141537.png",
-    "Charles Frye.md",
+    "Asymmetric Distance Computation.md",
+    "_attachments/Pasted image 20240613164502.png",
+    "_attachments/Pasted image 20240613164323.png",
+    "_attachments/Pasted image 20240613162536.png",
+    "_attachments/Pasted image 20240613162505.png",
+    "_attachments/Pasted image 20240613162504.png",
+    "Inverted File Index.md",
+    "_attachments/Pasted image 20240613160230.png",
+    "_attachments/Pasted image 20240613160035.png",
+    "_attachments/Pasted image 20240613155935.png",
     "Hierarchical Navigable Small Worlds.md",
+    "_attachments/Pasted image 20240613155332.png",
+    "Product Quantization.md",
+    "Hamming Distance.md",
+    "Charles Frye.md",
     "Locality Sensitive Hashing.md",
     "FAISS.md",
     "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
@@ -433,10 +501,7 @@
     "Multimodal.md",
     "~ Useful Pictures.md",
     "~ Interactions.md",
-    "~ Quotes.md",
-    "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
-    "Courses/Untitled.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
     "Courses/LLM Mastery",
