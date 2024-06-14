@@ -13,14 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "017701ef11175e1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Normalized Discounted Cumulative Gain.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "893da8e1415df219",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "99efad8e16270413",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recall (Information Retrieval).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a016515b43e6dc3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mean Reciprocal Rank.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Normalized Discounted Cumulative Gain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Normalized Discounted Cumulative Gain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Normalized Discounted Cumulative Gain.md"
               }
             }
           },
@@ -168,7 +221,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Normalized Discounted Cumulative Gain.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,13 +268,28 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1aee7e3b61e05840",
+  "active": "017701ef11175e1b",
   "lastOpenFiles": [
+    "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
+    "_attachments/Pasted image 20240614112148.png",
+    "_attachments/Pasted image 20240614111856.png",
+    "_attachments/Pasted image 20240614111810.png",
+    "~ Vocabulary.md",
+    "Generate-then-Read.md",
+    "_attachments/Pasted image 20240614111116.png",
+    "_attachments/Pasted image 20240614111014.png",
+    "_attachments/Pasted image 20240614110929.png",
+    "_attachments/Pasted image 20240614110814.png",
+    "Mean Average Precision.md",
+    "Mean Reciprocal Rank.md",
+    "_attachments/Pasted image 20240614110424.png",
+    "_attachments/Pasted image 20240614110341.png",
+    "_attachments/Pasted image 20240614110240.png",
+    "Recall (Information Retrieval).md",
     "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
     "Locality Sensitive Hashing.md",
     "FAISS.md",
     "BLIP-2.md",
-    "~ Vocabulary.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
     "Cosine Similarity.md",
     "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
@@ -231,28 +299,12 @@
     "Random Forest.md",
     "Decision Tree.md",
     "Manhattan Distance.md",
-    "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
-    "_attachments/Pasted image 20240613195231.png",
-    "_attachments/Pasted image 20240613194737.png",
     "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
     "Distilabel.md",
     "Argilla.md",
-    "_attachments/Pasted image 20240613191227.png",
-    "_attachments/Pasted image 20240613184924.png",
-    "_attachments/Pasted image 20231215171803.png",
-    "_attachments/Pasted image 20240613184701.png",
-    "_attachments/Pasted image 20240613183449.png",
-    "_attachments/Pasted image 20240613183251.png",
-    "_attachments/Pasted image 20240613170500.png",
-    "_attachments/Pasted image 20240613170146.png",
     "Optimized Product Quantization.md",
     "Asymmetric Distance Computation.md",
     "Inverted File Index.md",
-    "Hierarchical Navigable Small Worlds.md",
-    "Product Quantization.md",
-    "Charles Frye.md",
-    "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
-    "EvalGen.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
