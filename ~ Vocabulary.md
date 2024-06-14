@@ -485,6 +485,10 @@
 - [[SIGLIP]]
 - [[OWL]] (Multimodal)
 - [[OWLSAM]]
+- [[KOSMOS]]
+- [[KOSMOS 2]]
+- [[KOSMOS 2.5]]
+- [[PaliGemma]]
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]

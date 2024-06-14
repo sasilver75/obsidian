@@ -167,10 +167,50 @@ from transformers import CLIPProcessor, CLIPModel
 
 model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+
+captions = [
+	"a dog hiding behind a tree",
+	"two dogs running",
+	...
+]
+
+# Image are PIL images I think
+inputs = processor(
+	text=captions, images=images, return_tensors='pt', padding=True
+)
+
+outputs = model(**inputs)
+
+probs = outputs.logits_per_image.argmax(dim=1)
+probs  # tensor([2, 0 ,1])
+
+for idx, image in enumerage(images):
+	argmax = probs[i].item()
+	print(captions[argmax])
+	plt.show(plt.imshow(np.asarray(image)))
+
+# (Prints out image/caption pairs, with the captions seeming to describe the images pretty well.)
 ```
+
+Nice, now we have flawless image-to-text matching using CLIP!
 
 
 ## Chapter 2: Sentence Transformer and Embeddings
+- Before diving into sentence transformers, it might be nice to look back at why transformer embeddings are so much richer than (eg) word2vec.
+![[Pasted image 20240614131733.png|300]]
+This information bottleneck between two models means that we're creating a massive amount of information over multiple timesteps and trying to squeeze it *all* through a single connection. This limits performance, because much of the information produced by the decoder is lost before reaching the decoder.
+- The [[Attention]] mechanism provided a solution to the bottlnekc issue, offering another route for information to pass through.
+![[Pasted image 20240614131911.png|300]]
+Now the information bottleneck is removed, and there's better information retention (of the most relevant information) across longe sequences.
+
+The Transformer (2017) encoder-decoder model removed the need for RNNS through the use of three key components:
+1. Positional Encoding
+2. Self-Attention
+3. Multi-head Attention
+
+BERT and other Pretrained models (distilBERT, RoBERTa, ALBERT)
+
+
 
 ## Chapter 3: Training Sentence Transformers with Softmax Loss
 

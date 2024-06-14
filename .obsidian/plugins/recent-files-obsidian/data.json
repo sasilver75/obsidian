@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "CS 11-777 Lecture 3",
+      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 3.md"
     },
     {
-      "basename": "CLIP",
-      "path": "CLIP.md"
+      "basename": "CS 11-777 Lecture 2",
+      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
     },
     {
       "basename": "Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}",
       "path": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md"
+    },
+    {
+      "basename": "Mean Reciprocal Rank",
+      "path": "Mean Reciprocal Rank.md"
+    },
+    {
+      "basename": "Recall (Information Retrieval)",
+      "path": "Recall (Information Retrieval).md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
+      "path": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
+    },
+    {
+      "basename": "CLIP",
+      "path": "CLIP.md"
     },
     {
       "basename": "One-Hot Encoding",
@@ -21,24 +41,12 @@
       "path": "Normalized Discounted Cumulative Gain.md"
     },
     {
-      "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
-      "path": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
-    },
-    {
       "basename": "Generate-then-Read",
       "path": "Generate-then-Read.md"
     },
     {
       "basename": "Mean Average Precision",
       "path": "Mean Average Precision.md"
-    },
-    {
-      "basename": "Mean Reciprocal Rank",
-      "path": "Mean Reciprocal Rank.md"
-    },
-    {
-      "basename": "Recall (Information Retrieval)",
-      "path": "Recall (Information Retrieval).md"
     },
     {
       "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
@@ -55,10 +63,6 @@
     {
       "basename": "BLIP-2",
       "path": "BLIP-2.md"
-    },
-    {
-      "basename": "CS 11-777 Lecture 2",
-      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
     },
     {
       "basename": "Cosine Similarity",
@@ -195,10 +199,6 @@
     {
       "basename": "Cosmopedia",
       "path": "Cosmopedia.md"
-    },
-    {
-      "basename": "MinHash",
-      "path": "MinHash.md"
     }
   ],
   "omittedPaths": [],
