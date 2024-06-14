@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
+      "path": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
+    },
+    {
       "basename": "A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}",
       "path": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
       "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
-      "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
     }
   ],
   "omittedPaths": [],

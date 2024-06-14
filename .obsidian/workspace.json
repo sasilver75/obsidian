@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
+                "file": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -378,7 +378,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -394,7 +395,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
+                "file": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -411,7 +412,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
+                "file": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md"
+                "file": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
               }
             }
           },
@@ -467,7 +468,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
+                "file": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -516,10 +517,13 @@
   },
   "active": "816e2ed311826189",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240613195231.png",
+    "_attachments/Pasted image 20240613194737.png",
+    "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
+    "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
     "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
     "Distilabel.md",
     "Argilla.md",
-    "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
     "_attachments/Pasted image 20240613191227.png",
     "Locality Sensitive Hashing.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
@@ -536,7 +540,6 @@
     "Optimized Product Quantization.md",
     "Asymmetric Distance Computation.md",
     "_attachments/Pasted image 20240613164502.png",
-    "_attachments/Pasted image 20240613164323.png",
     "Inverted File Index.md",
     "Hierarchical Navigable Small Worlds.md",
     "Product Quantization.md",
@@ -550,8 +553,6 @@
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 1.md",
     "Modal.md",
     "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
-    "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md",
-    "Courses/LLM Mastery/Mastering LLMS Workshop 2 - Finetuning.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
