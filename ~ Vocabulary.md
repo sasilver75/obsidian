@@ -482,6 +482,9 @@
 - [[OpenCLIP]]
 - [[BLIP]]
 - [[BLIP-2]]
+- [[SIGLIP]]
+- [[OWL]] (Multimodal)
+- [[OWLSAM]]
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]
