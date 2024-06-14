@@ -91,7 +91,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94a3725bd68db42e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0e8b64c8cb0aac7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Locality Sensitive Hashing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd1cb5059bacbc2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -355,7 +394,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -372,7 +411,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -395,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md"
               }
             }
           },
@@ -428,7 +467,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -477,27 +516,32 @@
   },
   "active": "816e2ed311826189",
   "lastOpenFiles": [
+    "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md",
+    "Distilabel.md",
+    "Argilla.md",
+    "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
+    "_attachments/Pasted image 20240613191227.png",
+    "Locality Sensitive Hashing.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
+    "~ Vocabulary.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240613184924.png",
+    "_attachments/Pasted image 20231215171803.png",
+    "_attachments/Pasted image 20240613184701.png",
     "_attachments/Pasted image 20240613183449.png",
     "_attachments/Pasted image 20240613183251.png",
     "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
     "_attachments/Pasted image 20240613170500.png",
     "_attachments/Pasted image 20240613170146.png",
-    "~ Vocabulary.md",
     "Optimized Product Quantization.md",
     "Asymmetric Distance Computation.md",
     "_attachments/Pasted image 20240613164502.png",
     "_attachments/Pasted image 20240613164323.png",
-    "_attachments/Pasted image 20240613162536.png",
-    "_attachments/Pasted image 20240613162505.png",
-    "_attachments/Pasted image 20240613162504.png",
     "Inverted File Index.md",
-    "_attachments/Pasted image 20240613160230.png",
     "Hierarchical Navigable Small Worlds.md",
     "Product Quantization.md",
     "Hamming Distance.md",
     "Charles Frye.md",
-    "Locality Sensitive Hashing.md",
     "FAISS.md",
     "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md",
     "BLIP-2.md",
@@ -508,10 +552,6 @@
     "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
     "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md",
     "Courses/LLM Mastery/Mastering LLMS Workshop 2 - Finetuning.md",
-    "~ Ideas.md",
-    "Multimodal.md",
-    "~ Useful Pictures.md",
-    "~ Interactions.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",

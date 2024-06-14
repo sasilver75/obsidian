@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}",
+      "path": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md"
+    },
+    {
+      "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
+      "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
+    },
+    {
+      "basename": "Distilabel",
+      "path": "Distilabel.md"
+    },
+    {
+      "basename": "Argilla",
+      "path": "Argilla.md"
+    },
+    {
+      "basename": "Locality Sensitive Hashing",
+      "path": "Locality Sensitive Hashing.md"
     },
     {
       "basename": "CS 11-777 Lecture 2",
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Pasted image 20231215171803",
+      "path": "_attachments/Pasted image 20231215171803.png"
     },
     {
       "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
@@ -39,10 +67,6 @@
     {
       "basename": "Charles Frye",
       "path": "Charles Frye.md"
-    },
-    {
-      "basename": "Locality Sensitive Hashing",
-      "path": "Locality Sensitive Hashing.md"
     },
     {
       "basename": "FAISS",
@@ -91,10 +115,6 @@
     {
       "basename": "Multimodal",
       "path": "Multimodal.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "~ Interactions",
@@ -179,26 +199,6 @@
     {
       "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
       "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 1",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md"
-    },
-    {
-      "basename": "CS685 Lecture 20",
-      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md"
-    },
-    {
-      "basename": "CS685 Lecture 19",
-      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 19.md"
-    },
-    {
-      "basename": "What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md"
     }
   ],
   "omittedPaths": [],
