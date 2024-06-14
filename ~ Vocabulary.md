@@ -79,6 +79,7 @@
 - [[Support Vector Machine]]
 - [[Jaccard Similarity]]
 - [[Hamming Distance]]
+- [[Manhattan Distance]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
