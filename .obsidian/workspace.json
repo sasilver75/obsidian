@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d13b1d22f350d296",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-Entropy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -217,19 +230,21 @@
   },
   "active": "017701ef11175e1b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240614152410.png",
-    "_attachments/Pasted image 20240614151825.png",
-    "_attachments/Pasted image 20240614151033.png",
-    "_attachments/Pasted image 20240614150904.png",
-    "_attachments/Pasted image 20240614150736.png",
-    "_attachments/Pasted image 20240614150112.png",
-    "_attachments/Pasted image 20240614145224.png",
-    "_attachments/Pasted image 20240614145129.png",
-    "_attachments/Pasted image 20240614145042.png",
-    "_attachments/Pasted image 20240614145000.png",
-    "_attachments/Pasted image 20240614144812.png",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
+    "_attachments/Pasted image 20240614170135.png",
+    "_attachments/Pasted image 20240614170126.png",
+    "_attachments/Pasted image 20240614165417.png",
+    "_attachments/Pasted image 20240614164841.png",
+    "_attachments/Pasted image 20240614164735.png",
+    "_attachments/Pasted image 20240614164732.png",
+    "_attachments/Pasted image 20240614164539.png",
+    "_attachments/Pasted image 20240614164342.png",
+    "_attachments/Pasted image 20240614164253.png",
+    "_attachments/Pasted image 20240614164121.png",
+    "_attachments/Pasted image 20240614164051.png",
+    "Cross-Entropy.md",
+    "Entropy.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 3.md",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
     "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
     "Mean Reciprocal Rank.md",
     "Recall (Information Retrieval).md",
@@ -251,8 +266,6 @@
     "~ Useful Pictures.md",
     "Random Forest.md",
     "Decision Tree.md",
-    "Manhattan Distance.md",
-    "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
