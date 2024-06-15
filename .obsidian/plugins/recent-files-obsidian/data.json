@@ -5,6 +5,14 @@
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 3.md"
     },
     {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
+    },
+    {
       "basename": "CS 11-777 Lecture 2",
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Outlines",
       "path": "Outlines.md"
-    },
-    {
-      "basename": "FineWeb",
-      "path": "FineWeb.md"
-    },
-    {
-      "basename": "Cosmopedia",
-      "path": "Cosmopedia.md"
     }
   ],
   "omittedPaths": [],

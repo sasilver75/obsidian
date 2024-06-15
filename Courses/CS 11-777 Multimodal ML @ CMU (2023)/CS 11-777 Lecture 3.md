@@ -183,4 +183,150 @@ We've looked at lots of methods for represnetation fusion
 ![[Pasted image 20240614152410.png]]
 Above: I think there were a few additional methods maybe on the right? But the video got cut off.
 
+----
 
+# Lecture 3.2: Multimodal Coordination and Fission
+
+Last week we learned about Fusion
+
+![[Pasted image 20240614152956.png|300]]
+
+
+Coordination: 
+- Learn separate representations for each modality that are coordinated using some sort of Similarity function
+
+Fission:
+- Looking at learning more representations than we started with, perhaps looking at clusters/factors that exist in the data.
+
+## Representation Coordination
+- Two modalities that are coordinated; two elements share some similarity, and we want to enforce some similarity across the representations.
+	- Strong Coordination: Enforcing similarity a lot
+	- Partial Coordination: Only enforcing similarity a little, or in some dimensions
+![[Pasted image 20240614153145.png|300]]
+
+A common way for doing this is taking our elements, passing them through encoders to find features, and applying some coordination function that measures some amount of similarity between representations.
+
+A general learning paradigm is to pass elements through encoders, represent similarity with a coordination function, and then use that as our loss function (eg maximizing similarity between representations)
+Coordination functions 
+- ==Cosine similarity== (strong coordination)! We want our two representations to have a high dot product/are parallel in our representation space.
+	- Normalized so that we don't have arbitrarily high dot products just because the vectors have high magnitude.
+- ==Kernel Similarity== functions (linear kernel, polynomial, exponential, RBF). All bring relatively strong coordination between modalities.
+- ==Canonical Correlation Analysis (CCA)==: Correlation is a bit weaker.
+
+
+
+Aside on Kernel Functions
+![[Pasted image 20240614154222.png|300]]
+You datapoints might not be separable in your data's original representation space, but might be separable in a higher space.
+
+![[Pasted image 20240614154335.png]]
+Correlation-based metrics don't measure similarity on individual embeddings (like cosine or kernel), they measure similarity across an entire populations of vectors.
+- Can we learn transformations u and v for our two embedding spaces X and Y so that they're correlated in the same direction?
+- A slightly weaker form of similarity because it's measured at the population level, rather than between vectors.
+
+![[Pasted image 20240614154719.png]]
+There's a hypothesis that there's some underlying space of all concepts in the world (animals, people, tables, objects), and different views/modalities are simply transformations of this underlying latent space. In particular, this transformation isn't complete; it's in some sense degenerate.
+- Underlying concept: Human
+	- I can see them (it ignores everything besides what they look like)
+	- I can hear them (it ignores everything besides what they sound like)
+- We can try to recover this latent space, given the partial views that we observe in the world.
+
+![[Pasted image 20240614154912.png]]
+We're essentially here training two autoencoders to learn intermediate representations, which should be similar to an underlying latent representation
+
+## Gated Coordination
+- We have two modalities, and want to learn a representation that's coordinated; instead of being a static representation, they can be gated too, where the representation changes for every input.
+![[Pasted image 20240614155353.png]]
+- Similar to Gated Fusion we learned before, but
+	- In Fusion, we were learning gates to figure out how to fuse modalities
+	- Here, we're learning gates to create separate representations zA and zB that we can later coordinate using a coordination function.
+
+## Coordination with Contrastive Learning
+- Now that we've seen similarity functions, how can we actually train our models?
+![[Pasted image 20240614160710.png|300]]
+	- The general paradigm of [[Contrastive Loss|Contrastive Learning]] is that we start with some paired data (eg images+text descriptions) that have similarity between them that we want to coordinate.
+		- We define positive pairs as captions that describe the image
+		- Negative pairs as captions that don't describe the image
+	- We want to push positive pairs closer and push negative pairs further apart, in the context of the similarity metrics we compute.
+
+In practice, you can do some pretty cool things!
+- If we have a representation space that's coordinated, we'll know that, given an image of a blue car, embed it, then subtract blue and add red, and look at other images in that space, and there will be red cars!
+- Airplane - flying + sailing = sailboats
+- Cat in bowl - bowl + box = cat in box
+
+[[CLIP]] takes advantage of contrastive learning
+- Our goal is to maximize the similarity of positive pairs and maximize the difference between negative pairs.
+![[Pasted image 20240614161053.png]]
+We can then use CLIP for zero-shot tasks, where we take a set of images, a set of captions we want to classify images into (and compute their embeddings), and see which caption embedding your image embeddings are closest to.
+
+![[Pasted image 20240614161347.png|400]]
+We also discard any information not present in images, and any information not present in text, when we do this.
+
+What do we mean when we talk about information that's *shared* between two modalities/data sources/random variables?
+
+Information theory
+- "Information value" of a communicated message x depends on how random its content is
+	- Low information: 1,1,1,1,1,1,1,1,1,1,1,1,1,
+	- High information: 0,1,0,1,0,0,1,1,1,0,0,1
+- Formalized:
+![[Pasted image 20240614161531.png|300]]
+
+![[Pasted image 20240614161645.png]]
+
+If we use circles to define the entropy of random variables , the non-intersecting circles mean that there's no mutual information between them
+![[Pasted image 20240614161744.png]]
+But in reality, we know that there are all these difference ways in which they can interact...
+So we generally draw the diagrams like this:
+![[Pasted image 20240614162025.png]]
+That's Conditional [[Entropy]]
+
+[[Mutual Information]] is the overlap of the two modalities;
+![[Pasted image 20240614162205.png|300]]
+Ratio of two things: Numerator is the joint, denominator is the Px and Py marginal distributions; in other words, how different is my joint distribution when I have both X and Y, rather than the product of the Px and Py marginal distributions as if they were independent.
+[[Kullback-Leibler Divergence|KL-Divergence]] is just a way of formalizing how far apart two distributions are.
+
+![[Pasted image 20240614162356.png]]
+
+Here's a simple derivation of the [[InfoNCE]] objective
+- f represents all of the trainable parameters... everything from your data to your similarity function.
+- We try to maximize the critic function score for positive pairs, and minimize it for negative pairs.
+- We can see that when this loss is trained to be optimal, we're essentially training the critic function to be a binary classifier able to distinguish between positive and negative pairs.
+![[Pasted image 20240614163032.png]]
+Honestly my brain is turning off at this point.
+The point is that InfoNCE/Contrastive Loss captures mutual information; Your InfoNCE optimizes a lower bound of mutual information; the better you train it, the more you can approach as much mutual information as there is in your data.
+- If you modalities are independent and don't have connections, then maximizing any lower bound on mutual information will approach 0, and contrastive learning will not be useful.
+
+
+![[Pasted image 20240614163350.png]]
+Sometimes there's not enough overlap, and sometimes there's too much overlap. The sweet spot is where you aren't learning too much shared information that's irrelevant for your task (non-Y), but you have enough shared information to do your task (Y).
+
+
+## Representation Fission
+- In general, Fission is a way of reasoning about this assumption of shared information
+- In general, we learn different representations that measure different parts of the shared modalities.
+- ![[Pasted image 20240614164051.png]]
+- If we have two modalities, we have 3 representations -- but we can have more representations than three.
+
+![[Pasted image 20240614164121.png|450]]
+
+Let's talk about Representation Fission via Information Theory:
+![[Pasted image 20240614164253.png]]
+Emergence: Can we quantify whether information will emerge that wasn't unique or shared to begin with, but emerges from the combination?
+
+We'll see that classical information theory will fail?
+![[Pasted image 20240614164539.png]]
+We can use Information theory to describe the three-way mutual information between X1,X2, and Task Y. 
+
+But there are some issues! 
+- We can't use Mutual Information to quantity information not present in either of our modalities to begin with (emergent information)
+
+Partial Information Decomposition is a sub-area of information science that solves this issue:
+- S = Synergy
+- R = Redundant
+![[Pasted image 20240614164841.png]]
+
+![[Pasted image 20240614165417.png]]
+
+Fine-Grained Fission (not commonly seen)
+![[Pasted image 20240614170135.png]]
+- How to automatically discover individual clusters in our data?

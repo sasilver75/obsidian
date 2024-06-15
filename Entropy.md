@@ -4,7 +4,6 @@ References:
 
 The expected surprisal of an event!
 
-
 ----
 Constraints on "surprise":
 1. An event with probability 1 has no surprise
