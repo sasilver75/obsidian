@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Beam Search",
+      "path": "Beam Search.md"
+    },
+    {
+      "basename": "Contrastive Decoding",
+      "path": "Contrastive Decoding.md"
+    },
+    {
+      "basename": "Contrastive Loss",
+      "path": "Contrastive Loss.md"
+    },
+    {
+      "basename": "Epsilon Sampling",
+      "path": "Epsilon Sampling.md"
+    },
+    {
+      "basename": "Top-K Sampling",
+      "path": "Top-K Sampling.md"
+    },
+    {
+      "basename": "Top-P Sampling",
+      "path": "Top-P Sampling.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "CS-11-711 Lecture 6",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 1",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md"
+    },
+    {
       "basename": "CS 11-777 Lecture 3",
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 3.md"
     },
@@ -27,10 +63,6 @@
     {
       "basename": "Recall (Information Retrieval)",
       "path": "Recall (Information Retrieval).md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
@@ -167,38 +199,6 @@
     {
       "basename": "Mastering LLMS Workshop 3 - Evaluations",
       "path": "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md"
-    },
-    {
-      "basename": "Mastering LLMS Workshop 2 - Finetuning",
-      "path": "Courses/LLM Mastery/Mastering LLMS Workshop 2 - Finetuning.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Multimodal",
-      "path": "Multimodal.md"
-    },
-    {
-      "basename": "~ Interactions",
-      "path": "~ Interactions.md"
-    },
-    {
-      "basename": "Generative AI Handbook (June 5, 2024) {William Brown}",
-      "path": "Articles/Generative AI Handbook (June 5, 2024) {William Brown}.md"
-    },
-    {
-      "basename": "Sliding Window Attention",
-      "path": "Sliding Window Attention.md"
-    },
-    {
-      "basename": "vLLM",
-      "path": "vLLM.md"
-    },
-    {
-      "basename": "Outlines",
-      "path": "Outlines.md"
     }
   ],
   "omittedPaths": [],

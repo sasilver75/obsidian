@@ -396,6 +396,7 @@
 - [[Bi-Encoder]]
 - [[Out-of-Vocabulary Token]] / "UNK"
 - [[Greedy Decoding]]
+- [[Contrastive Decoding]]
 - [[Top-K Sampling]]
 - [[Top-P Sampling]] (Nucleus Sampling)
 - [[Exposure Bias]]
