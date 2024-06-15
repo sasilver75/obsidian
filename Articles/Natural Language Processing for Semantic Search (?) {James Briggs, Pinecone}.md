@@ -443,9 +443,40 @@ for epoch in range(1):
         loop.set_postfix(loss=loss.item())
 
 ```
+Above: Here, we're only training for a single epoch here. Realistically, this should be enough (and mirrors the SBERT paper). The last thing we do is save the model:
 
+```python
+import os
+
+model_path = './sbert_test_a'
+
+if not os.path.exists(model_path):
+	os.mkdir(model_path)
+
+model.save_pretrained(model_path)
+```
+
+### Fine-Tuning with Sentence Transformers
+- The `sentence-transformer` library has excellent support for those of us who want to train a model without worrying about the underlying training mechanisms.
+
+...omitted...
 
 ## Chapter 4: Training Sentence Transformers with Multiple Negatives Ranking Loss
+(Skipping to the interesting parts about MNR)
+- MNR and Softmax approaches both use a siamese-BERT architecture during fine-tuning. For each step, we process a sentence A (anchor) into BERT, followed by sentence B (our positive)
+
+We can extend this further with triplet-networks. In the case of triplet networks for MNR, we would pass three sentences, an anchor, its positive, and its negative.
+- We're NOT using triplet networks here, so we removed the negative rows from our dataset.
+
+BERT outputs 512 768-dimensional embeddings. We convert these to averaged sentence embeddings using mean-pooling. Using a siamese approach, we'll produce two of these per step -- one for our anchor, and another for our positive.
+
+We then calculate the cosine similarity between each anchor and ALL of the positive embeddings in the same batch!
+
+From here, we produce a vector of cosine similarity scores (of size batch_size) for each anchor embedding a_i. It's assumed that each anchor should share the highest score with its positive pair, p_i.
+
+To optimize for this, we use a set of increasing label values to mark where the highest score should be for a_i, and categorical cross-entropy loss. ((?))
+
+...
 
 ## Chapter 5: Multilingual Sentence Transformers
 
