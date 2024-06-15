@@ -13,7 +13,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minimum Bayes Risk Decoding.md",
+                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8389c6aa54d87696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "360ae98c79cc993f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21afa7478400e434",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semantic Text Similarity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44b22ac9b3248788",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -189,8 +241,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
+                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +334,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
+                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md"
+                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md"
               }
             }
           },
@@ -339,7 +390,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
+                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -386,26 +437,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8ae6a7767f35e175",
+  "active": "017701ef11175e1b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240615005655.png",
+    "~ Vocabulary.md",
+    "Stanford Natural Language Inference.md",
+    "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+    "_attachments/Pasted image 20240615001338.png",
+    "_attachments/Pasted image 20240615001222.png",
+    "Semantic Text Similarity.md",
+    "_attachments/Pasted image 20240615000646.png",
+    "_attachments/Pasted image 20240615000333.png",
+    "_attachments/Pasted image 20240615000013.png",
+    "Average Pooling.md",
+    "_attachments/Pasted image 20240614235204.png",
+    "Minimum Bayes Risk Decoding.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
     "_attachments/Pasted image 20240614224931.png",
     "_attachments/Pasted image 20240614224920.png",
     "Speculative Decoding.md",
     "_attachments/Pasted image 20240614224334.png",
     "Speculative Sampling.md",
-    "~ Vocabulary.md",
     "Human-in-the-Loop Decoding.md",
     "_attachments/Pasted image 20240614223831.png",
-    "_attachments/Pasted image 20240614223727.png",
-    "_attachments/Pasted image 20240614223629.png",
-    "_attachments/Pasted image 20240614223534.png",
     "Constrained Decoding.md",
     "Reward-Augmented Decoding.md",
-    "_attachments/Pasted image 20240614222457.png",
-    "Minimum Bayes Risk Decoding.md",
-    "_attachments/Pasted image 20240614222058.png",
-    "_attachments/Pasted image 20240614221910.png",
-    "_attachments/Pasted image 20240614221829.png",
     "Beam Search.md",
     "ROUGE.md",
     "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
@@ -416,14 +472,9 @@
     "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md",
     "BLEURT.md",
     "Greedy Decoding.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
     "Ancestral Sampling.md",
     "Contrastive Decoding.md",
     "Contrastive Loss.md",
-    "Epsilon Sampling.md",
-    "Top-K Sampling.md",
-    "Top-P Sampling.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
