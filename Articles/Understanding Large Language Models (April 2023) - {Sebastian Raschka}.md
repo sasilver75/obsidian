@@ -156,4 +156,4 @@ Four step process:
 4. Collect, prune, and filter the responses before adding them to the task pool.
 
 ![[Pasted image 20240415233046.png]]
-In practice, this seems to work well, based on ROGUE scores.
+In practice, this seems to work well, based on ROUGE scores.

@@ -14,7 +14,7 @@ Authors: [Zhen Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Z), 
 	- We'll provide a survey of how LLMs are being leveraged for NLG evaluation, offering a way to organize existing LLM-based evaluation metrics, and suggesting a way to compare these metrics.
 	- We examine unresolved challenges (bias, robustness, domain-specificity, etc.)
 - Introduction
-	- ==Traditional NLG evaluation metrics== like BLEU (2002), ROGUE (2004), and TER (2006) primarily focus on surface-level text differences and often ==fall short of assessing *semantic* aspects==.
+	- ==Traditional NLG evaluation metrics== like BLEU (2002), ROUGE (2004), and TER (2006) primarily focus on surface-level text differences and often ==fall short of assessing *semantic* aspects==.
 	- ==Other methods use neural embeddings== to calculate the score (2016, 2020, 2020)... but they're ==inflexible== and limited in scope, and often have ==low alignment with human judgement== (and poor interpretability)
 	- We need a more nuanced way of evaluating our LLMs!
 	- Emergent abilities of LLMs present a promising avenue for LLM-based NLG evaluation, like

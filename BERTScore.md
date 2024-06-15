@@ -7,4 +7,4 @@ There are three components to BERTScore:
 
 ![[Pasted image 20240525133334.png]]
 
-BERTScore is useful because it can account for synonyms and paraphrasing; similar metrics like [[BLEU]] and [[ROGUE]] can't do this, due to their reliance on exact matches. BERTScore has been shown to have better correlation (with human evaluations) for tasks like image captioning and machine translation.
+BERTScore is useful because it can account for synonyms and paraphrasing; similar metrics like [[BLEU]] and [[ROUGE]] can't do this, due to their reliance on exact matches. BERTScore has been shown to have better correlation (with human evaluations) for tasks like image captioning and machine translation.

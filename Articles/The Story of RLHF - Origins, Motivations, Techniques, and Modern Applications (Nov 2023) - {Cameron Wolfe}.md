@@ -32,7 +32,7 @@ Let's develop a deep understanding of RLHF, its origins/motivations, the role it
 - Prior to learning about RLHF and the role that it plays in creating powerful language models, we need to understand some basic ideas that preceded and motivated the development of RLHF, like:
 	- Supervised learning (and how RLHF is different)
 	- The LLM alignment process
-	- Evaluation metrics for LLMs (and the [[ROGUE]] score in particular
+	- Evaluation metrics for LLMs (and the [[ROUGE]] score in particular
 
 ### Supervised Learning for LLMs
 - Most generative LLMs are trained via a pipeline that includes:
@@ -86,8 +86,8 @@ To align an LLM, we can finetune the model using SFT and RLHF in sequence, as pr
 > Just identify outputs that we like, and the LLM will learn to produce more outputs like this!
 
 
-# Evaluating Language Models (and the [[ROGUE]] score)
-- Before learning more about RLHF, e need to understand how LLMs are evaluated, including the recall-oriented understudy for gisting evaluation (ROGUE) score.
+# Evaluating Language Models (and the [[ROUGE]] score)
+- Before learning more about RLHF, e need to understand how LLMs are evaluated, including the recall-oriented understudy for gisting evaluation (ROUGE) score.
 
 We should note that there are many ways that we could evaluate the output of generative language model.
 
@@ -95,7 +95,7 @@ For example, we should prompt a powerful language model like GPT-4 to evaluate t
 
 ### Traditional Metrics
 - Prior to the LLM revolution, several popular evaluation metrics existed for language models that operated by comparing the model's generated output to a reference output -- usually manually written by humans.
-- [[ROGUE]] score is one of these classical metrics, and ==it works by counting the number of words== -- or the number of *n-grans* for ROGUE-N -- ==in the reference output that also occur in the model's generated output==.
+- [[ROUGE]] score is one of these classical metrics, and ==it works by counting the number of words== -- or the number of *n-grans* for ROUGE-N -- ==in the reference output that also occur in the model's generated output==.
 
 ![[Pasted image 20240401235520.png]]
 
@@ -112,7 +112,7 @@ Do we need something else?
 - ==These metrics work reasonably well for tasks like summarization or translation, but they don't work for more open-ended generative tasks like information-seeking dialogue.==
 - It tends that there is a ==poor correlation between these metrics and human judgement of a model's output.==
 
-ROGUE and BLEU quantify the extent to which a model's output matches some reference output.
+ROUGE and BLEU quantify the extent to which a model's output matches some reference output.
 But for many problems, there are *numerous* outputs that a model could produce that are all equally viable -- fixed metrics like the above can't account for this.
 
 ![[Pasted image 20240402000522.png|450]]
@@ -215,9 +215,9 @@ Above:
 
 ### Learning to Summarize from Human Feedback (Paper 1)
 - The problem of abstractive summarization, or using a language model to understand important aspects of a text and produce a human-readable summary, has been studied for a long time.
-- Prior to the popularization of RLHF, most approaches to this task trained the language model in a *supervised manner* based on human-written reference summaries, and then evaluation was performed via the [[ROGUE]] score.
-	- This works relatively well, but supervised learning on human-written summaries and using a ROGUE score is just a *proxy for what is ACTUALLY desired:* A model that writes high-quality summaries, according to humans.
-	- ((In other words, there are a bunch of high-quality summaries that a model could write that aren't identical to the one that a human wrote -- it shouldn't be penalized for not maximizing the ROGUE score, necessarily.))
+- Prior to the popularization of RLHF, most approaches to this task trained the language model in a *supervised manner* based on human-written reference summaries, and then evaluation was performed via the [[ROUGE]] score.
+	- This works relatively well, but supervised learning on human-written summaries and using a ROUGE score is just a *proxy for what is ACTUALLY desired:* A model that writes high-quality summaries, according to humans.
+	- ((In other words, there are a bunch of high-quality summaries that a model could write that aren't identical to the one that a human wrote -- it shouldn't be penalized for not maximizing the ROUGE score, necessarily.))
 - If we explore supervised learning with RLHF, we allow pretrained language models to be finetuned to produce high-quality summaries directly based on human feedback.
 	- This actually ended up with better results, as ranked by human reviewers (when compared to SFT, which totally makes sense).
 	- ((Obama giving Obama a reward meme))
@@ -370,7 +370,7 @@ However ==Safe RLHF== proposes a new learning algorithm that better balances con
 			- ((It's probably true that the ceiling of discrimination/preferring is higher than the ceiling of generation, but there's still probably a level of generation that a human can't really discriminate well between, and we definitionally wouldn't be sure where that is, if we don't have an objective way of assessing a generation))
 	3. Accurately capturing response quality
 		- We see that the reward model that's created for RLHF is surprisingly accurate at capturing the quality of model responses.
-		- Compared to automatic metrics like ROGUE, reward models can provide a more consistent and accurate evaluation of model output quality, as judged by the agreement rate with human annotators.
+		- Compared to automatic metrics like ROUGE, reward models can provide a more consistent and accurate evaluation of model output quality, as judged by the agreement rate with human annotators.
 		- Optimizing the LLM based on the *preference score* from this reward model tends to produce a model that performs quite well.
 
 We see that reward models tend to obey scaling laws that are somewhat similar to those of LLMs

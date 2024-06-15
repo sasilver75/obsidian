@@ -18,7 +18,7 @@ Notes:
 		- Authors found that the **input-first approach** (generating input based on instruction, then response) can generate inputs biased towards one label, especially for classification tasks. So authors use this input-first approach only for *non-classification tasks*.
 		- As a result, authors use an **output-first approach** for the *classification-tasks*, where we first generate the possible class labels, and then condition the input generation on each class label.
 			- ((It seems like this isn't necessarily output first, more like output-possibilities first? Do they generate N responses, one for each class?))
-	4. Filtering and Postprocessing: To encourage diversity, ==a new instruction is added to the task pool only when its [[ROGUE]]-L similarity (testing longest-common substring) with any existing instruction is less than .7.==
+	4. Filtering and Postprocessing: To encourage diversity, ==a new instruction is added to the task pool only when its [[ROUGE]]-L similarity (testing longest-common substring) with any existing instruction is less than .7.==
 		- "We also exclude instructions that contain some specific keywords that usually can't be processed by LMs (eg image, picture, graph)" ((? How did it generate them if it can't process them))
 		- Invalid generations are identified and filtered based on heuristics (too long or too short, output being a repetition of the input, etc.)
 - Although the generated instructions are mostly valid, the generated outputs are often noisy. Authors note that even when the outputs aren't factually correct, training on them still has a positive impact on instruction-following ability.

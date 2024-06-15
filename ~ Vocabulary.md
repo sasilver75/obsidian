@@ -202,6 +202,9 @@
 - [[Continuous Batching]]
 - [[Speculative Decoding]]
 - [[Speculative Sampling]]
+- [[Constrained Decoding]]
+- [[Reward-Augmented Decoding]]
+- [[Human-in-the-Loop Decoding]]
 - [[Dropout]]
 - [[Label Smoothing]]
 - [[Sampled Softmax]]
@@ -372,7 +375,7 @@
 - [[Back-Translation]]
 - [[BLEU]] Score
 - [[BLEURT]] Score
-- [[ROGUE]] Score
+- [[ROUGE]] Score
 - [[COMET]] Score
 - [[BERTScore]]
 - [[chrF]]
@@ -396,6 +399,7 @@
 - [[Bi-Encoder]]
 - [[Out-of-Vocabulary Token]] / "UNK"
 - [[Greedy Decoding]]
+- [[Ancestral Sampling]]
 - [[Contrastive Decoding]]
 - [[Top-K Sampling]]
 - [[Top-P Sampling]] (Nucleus Sampling)
@@ -439,6 +443,9 @@
 
 # MultiModal Concepts
 - Early Fusion, Middle Fusion, Late Fusion
+- Representation Fusion
+- Representation Coordination
+- Representation Fission
 - Single Stream vs Dual Stream
 
 # Data Augmentation Concepts

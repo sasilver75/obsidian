@@ -51,7 +51,7 @@ Translation
 - Quality measures via [[chrF]]
 	- Character n-gram F-score is similar to BLEU but operates at the character level instead of the word level. It's the second most popular metric for machine translation, with several advantages over BLEU.
 - [[BLEURT]]
-	- I believe this is a model that predicts a collection of related scores ([ [[BLEU]]]], [[ROGUE]], [[BERTScore]], etc.)
+	- I believe this is a model that predicts a collection of related scores ([ [[BLEU]]]], [[ROUGE]], [[BERTScore]], etc.)
 - [[COMET]]
 - COMETKiwi
 
