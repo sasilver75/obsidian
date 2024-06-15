@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+                "file": "TF-IDF.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -317,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+                "file": "TF-IDF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +334,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+                "file": "TF-IDF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md"
+                "file": "TF-IDF.md"
               }
             }
           },
@@ -390,7 +390,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
+                "file": "TF-IDF.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -439,10 +439,12 @@
   },
   "active": "017701ef11175e1b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240615013429.png",
+    "_attachments/Pasted image 20240615013132.png",
+    "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
     "_attachments/Pasted image 20240615005655.png",
     "~ Vocabulary.md",
     "Stanford Natural Language Inference.md",
-    "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
     "_attachments/Pasted image 20240615001338.png",
     "_attachments/Pasted image 20240615001222.png",
     "Semantic Text Similarity.md",
@@ -456,10 +458,8 @@
     "_attachments/Pasted image 20240614224931.png",
     "_attachments/Pasted image 20240614224920.png",
     "Speculative Decoding.md",
-    "_attachments/Pasted image 20240614224334.png",
     "Speculative Sampling.md",
     "Human-in-the-Loop Decoding.md",
-    "_attachments/Pasted image 20240614223831.png",
     "Constrained Decoding.md",
     "Reward-Augmented Decoding.md",
     "Beam Search.md",
