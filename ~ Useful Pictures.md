@@ -281,6 +281,7 @@ Above: Response to Dwarkesh's episode with Leopold Aschenbrenner
 ![[Pasted image 20240605145715.png|100]]
 ![[Pasted image 20240605145859.png|100]]
 ![[Pasted image 20240605150021.png|150]]
-
+![[Pasted image 20240615135150.png]]
+From CMU Advanced NLP 2024 (7): Prompting
 
 

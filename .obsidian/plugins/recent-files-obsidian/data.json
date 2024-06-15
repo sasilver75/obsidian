@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "CS 11-711 Lecture 7",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 1",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 6",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 6.md"
+    },
+    {
       "basename": "TF-IDF",
       "path": "TF-IDF.md"
     },
@@ -27,10 +43,6 @@
     {
       "basename": "Minimum Bayes Risk Decoding",
       "path": "Minimum Bayes Risk Decoding.md"
-    },
-    {
-      "basename": "CS-11-711 Lecture 6",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md"
     },
     {
       "basename": "Speculative Decoding",
@@ -117,10 +129,6 @@
       "path": "Top-P Sampling.md"
     },
     {
-      "basename": "CS 11-711 Lecture 1",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md"
-    },
-    {
       "basename": "CS 11-777 Lecture 3",
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 3.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
       "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
-    },
-    {
-      "basename": "Hamming Distance",
-      "path": "Hamming Distance.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     }
   ],
   "omittedPaths": [],

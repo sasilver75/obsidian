@@ -17,6 +17,12 @@ Where the denominator denotes the count of all occurrence of the term *t* in doc
 - Roughly speaking, inverse document frequency is simply the inverse of document frequency -- so what's document frequency?
 - First, let's consider the motivation behind tf-idf, which is "how do we determine the semantic importance of a word in a set of documents?"
 	- Is a word like "Gaussian", or like "and"?
+	- So *term frequency* doesn't really tell us much -- instead, ==we want to pay attention to words that occur frequently in a given document, but *don't appear often in others*==. These words, like *binomial*, are likely to be unique keywords that potentially capture the gist of the document.
+![[Pasted image 20240615113503.png|250]]
+Above: Note that D is the *collection* of documents. Document frequency would be the fraction of documents that have term *t* in them; this is the inverse (so that we can multiply it with term frequency as a form of division).
+In practice, we often apply a logarithm to prevent the idf score from exploding, and add some smoothing to prevent division by zero.
+![[Pasted image 20240615113537.png|250]]
+However, this is a mere technicality; the intuition we provided earlier still applies.
 
 
 
