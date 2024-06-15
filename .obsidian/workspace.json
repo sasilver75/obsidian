@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf029ff3e3fb606f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -117,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 6.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -295,8 +308,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -317,7 +329,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +346,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,7 +369,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TF-IDF.md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md"
               }
             }
           },
@@ -390,7 +402,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TF-IDF.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -439,24 +451,28 @@
   },
   "active": "017701ef11175e1b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240615013429.png",
-    "_attachments/Pasted image 20240615013132.png",
+    "_attachments/Pasted image 20240615140716.png",
+    "_attachments/Pasted image 20240615140528.png",
+    "_attachments/Pasted image 20240615140518.png",
+    "_attachments/Pasted image 20240615140445.png",
+    "_attachments/Pasted image 20240615140034.png",
+    "_attachments/Pasted image 20240615135731.png",
+    "_attachments/Pasted image 20240615135643.png",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240615135150.png",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md",
+    "_attachments/Pasted image 20240615135144.png",
+    "_attachments/Pasted image 20240615135104.png",
+    "_attachments/Pasted image 20240615135019.png",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 6.md",
+    "TF-IDF.md",
     "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
-    "_attachments/Pasted image 20240615005655.png",
     "~ Vocabulary.md",
     "Stanford Natural Language Inference.md",
-    "_attachments/Pasted image 20240615001338.png",
-    "_attachments/Pasted image 20240615001222.png",
     "Semantic Text Similarity.md",
-    "_attachments/Pasted image 20240615000646.png",
-    "_attachments/Pasted image 20240615000333.png",
-    "_attachments/Pasted image 20240615000013.png",
     "Average Pooling.md",
-    "_attachments/Pasted image 20240614235204.png",
     "Minimum Bayes Risk Decoding.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
-    "_attachments/Pasted image 20240614224931.png",
-    "_attachments/Pasted image 20240614224920.png",
     "Speculative Decoding.md",
     "Speculative Sampling.md",
     "Human-in-the-Loop Decoding.md",
@@ -471,10 +487,6 @@
     "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
     "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md",
     "BLEURT.md",
-    "Greedy Decoding.md",
-    "Ancestral Sampling.md",
-    "Contrastive Decoding.md",
-    "Contrastive Loss.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
