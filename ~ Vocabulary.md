@@ -354,21 +354,22 @@
 	- [[Sentiment Analysis]]
 	- [[Argument Mining]]
 	- [[Language Grounding]]
-	- [[Question Answering]]
+	- [[Question Answering]] (QA)
 		- [[Open-Domain]]
 		- [[Closed-Domain]]
 		- [[Multi-Hop]]
-	- [[Machine Translation]]
+	- [[Machine Translation]] (MT)
 	- [[Information Extraction]]
 	- [[Diarization]]
 	- [[Topic Modeling]]
 	- [[Summarization]]
 		- [[Extractive Summarization]]
 		- [[Abstractive Summarization]]
-	- [[Named Entity Recognition]]
+	- [[Named Entity Recognition]] (NER)
 	- [[Part-of-Speech Tagging]]
 	- [[Parsing]]
 	- [[Coreference Resolution]]
+	- [[Semantic Text Similarity]] (STS)
 - [[Context-Free Grammar]]
 - [[Dependency Grammar]]
 - [[Prosody]]
@@ -747,6 +748,8 @@
 - [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[oasst1]]
 - [[oasst2]]
+- [[Stanford Natural Language Inference]] (SNLI)
+- [[Multi-Genre NLI]]
 - [[Stanford Human Preferences]]
 - [[Helpful and Harmless]] (HH)
 - [[TL;DR]]
