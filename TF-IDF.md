@@ -2,6 +2,26 @@
 aliases:
   - Term Frequency Inverse Document Frequency
 ---
+References:
+- [Article: Introduction to TF-IDF](https://jaketae.github.io/study/tf-idf/)
+----
+![[Pasted image 20240615013132.png]]
+Simply put, tf-idf is simply a produce of the ==term frequency== and the ==inverse document frequency== -- so what do these terms mean?
+
+### Term Frequency
+- Term frequency indicates how frequently a word appears in a given document, as a proportion of the length of the document. The tf vector for each document should sum to one.
+![[Pasted image 20240615013429.png|200]]
+Where the denominator denotes the count of all occurrence of the term *t* in document *d*, and the denominator represents the total number of terms in the document.
+
+### Inverse Document Frequency
+- Roughly speaking, inverse document frequency is simply the inverse of document frequency -- so what's document frequency?
+- First, let's consider the motivation behind tf-idf, which is "how do we determine the semantic importance of a word in a set of documents?"
+	- Is a word like "Gaussian", or like "and"?
+
+
+
+----
+
 ![[Pasted image 20240425210755.png]]
 ==TF-IDF== is a way of massaging those values to get more information about relevance
 - Begin from a corpus of documents $D$ 

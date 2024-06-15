@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TF-IDF",
+      "path": "TF-IDF.md"
+    },
+    {
       "basename": "Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}",
       "path": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Random Forest",
-      "path": "Random Forest.md"
     }
   ],
   "omittedPaths": [],
