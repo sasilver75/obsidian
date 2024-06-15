@@ -37,7 +37,7 @@ The problem with including Recall (In BLEU?):
 ![[Pasted image 20240604163128.png]]
 
 
-[[ROGUE]] is the recall-based counterpart to BLEU:
+[[ROUGE]] is the recall-based counterpart to BLEU:
 ![[Pasted image 20240604163142.png]]
 
 Just string-matching based approaches for quick evaluation, but you definitely shouldn't rely on them for which decisions to use.
@@ -49,12 +49,12 @@ Let's look at a different task that's not translation -- [[Question Answering]]
 
 Question: Why are all boats white?
 
-A common way to evaluate this task is [[ROGUE]], the recall-based version of [[BLEU]] -- but this is a ==completely terrible metric of this task== - you can imagine several ways of gaming this to maximize your ROGUE score.
+A common way to evaluate this task is [[ROUGE]], the recall-based version of [[BLEU]] -- but this is a ==completely terrible metric of this task== - you can imagine several ways of gaming this to maximize your ROUGE score.
 - A simple baseline is to take the question and copy is 20 times.
 
 ![[Pasted image 20240604163450.png|400]]
 
-It turns out that, in terms of ROGUE, this is better than many answers, and almost as good as human answers! 
+It turns out that, in terms of ROUGE, this is better than many answers, and almost as good as human answers! 
 
 Can we use Neural models that are directly trained/finetuned on human judgements?
 
@@ -64,7 +64,7 @@ Can we use Neural models that are directly trained/finetuned on human judgements
 - After perturbing a sentence, train the model to predict the similarity of these two inputs z, z'. They initially trained BERT to predict the BLEU score, ROUGE score, and many other metrics of similarity.
 - They then fine-tune the resulting model on small supervised datasets of ==human quality judgements==!
 
-It does a lot better in terms of correlation with human judgements than BLEU or ROGUE do.
+It does a lot better in terms of correlation with human judgements than BLEU or ROUGE do.
 
 ---
 

@@ -49,3 +49,7 @@ To cover:
 # Non-paper Figures
 
 ![[Pasted image 20240514011212.png]]
+![[Pasted image 20240614224334.png]]
+Above:
+- In speculative decoding, we use a smaller model (like in [[Contrastive Decoding]]) to decide what to generate (unlike in CD, where we decide what *not* to generate)! But occasionally the larger model might decide to go in another direction.
+- The smaller model generates blocks of tokens, and the larger model checks its work, and determines if the generation is "in distribution." The larger model can choose to reject proposals and generate a token itself.

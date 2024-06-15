@@ -9,7 +9,7 @@ Didn't really tell me anything that I didn't already "know"
 What makes "good" text is inherently hard to define, since it's subjective and context-dependent. There are many applications of writing where you want ==creativity==, and others where you'd want ==truthfulness==, and others where you want ==executability!==
 
 Writing a loss function to capture these attributes seems intractable, and most language models are still trained with a simple NTP loss.
-- To compensate for the shortcomings/misalignment of the loss itself, people define metrics designed to better-capture human preferences, like [[BLEU]] or [[ROGUE]].
+- To compensate for the shortcomings/misalignment of the loss itself, people define metrics designed to better-capture human preferences, like [[BLEU]] or [[ROUGE]].
 
 While being better-suited than the loss function itself at measuring performance, these metrics simply compare generated text to references with simple rules and are thus also limited.
 

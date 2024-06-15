@@ -16,20 +16,20 @@ Question: How does this evaluation model differ from reward models?
 
 Notes:
 - Paper notes that Humans are naturally able to discern the most important factors of assessment, such as ==brevity, creativity, tone, and cultural sensitivities==.
-	- In contrast, conventional automated evaluation metrics like [[BLEU]] and [[ROGUE]] can't capture the full depth and granularity of human evaluation.
+	- In contrast, conventional automated evaluation metrics like [[BLEU]] and [[ROUGE]] can't capture the full depth and granularity of human evaluation.
 	- Thus, using LLMs as evaluators (eg GPT-4) has received substantial attention due to its parity with human evaluators.
 - The author's strategy revolves around using an open-source LLM to evaluate and critique a response based on a human-provided scoring rubric. Authors want to *not* use a closed-source model like GPT-4 because of:
 	1. **Closed Source Nature**: lack of transparency hinders academic efforts to refine or enhance its evaluation capabilities.
 	2. **Uncontrolled versioning**: Proprietary models undergo version updates that are often beyond users' purview or control, creating reproducibility problems.
 	3. **Prohibitive costs**: Scaling costs can be prohibitive for academic institutions or researchers with limited budgets.
-- Current evaluations are either too domain/task-specific (EM, ROGUE), or coarse-grained (e.g. helpfulness/harmlessness). In real world scenarios, users are interested in *customized rubrics* such as: "Which LLM generates responses that are playful and humorous," or "Which LLM answers with particular care for cultural sensitivities."
+- Current evaluations are either too domain/task-specific (EM, ROUGE), or coarse-grained (e.g. helpfulness/harmlessness). In real world scenarios, users are interested in *customized rubrics* such as: "Which LLM generates responses that are playful and humorous," or "Which LLM answers with particular care for cultural sensitivities."
 	- ==Authors find that even the larger open-source LLMS @ 70B are insufficient to evaluate using customized score rubrics==, compared to closed frontier models.
 - Authors introduce ==Feedback Collection==, a new dataset crafted to *encapsulate DIVERSE and FINE-GRAINED user assessment score rubrics* that represent realistic user demands. Unlike prior feedback datasets, it uses *custom*, not *generic* preference score rubrics to train models to *flexibly generalize* to practical and diverse evaluation preferences.
 	- They also say they're the first to explore the importance of including various reference materials -- particularly *"Reference Answers"* -- to effectively induce fine-grained evaluation capability.
 - Authors use Feedback Collection to create [[Prometheus]], a fine-tune of [[LLaMA 2]]-Chat-13B.
 	- ==Prometheus obtains a correlation of .897 with human evaluators==, similar to GPT-4's .882, which are both significantly better than GPT-3.5-Turbo's .392... as measured on 45 customized score rubrics sampled across three test sets (MT Bench, Vicuna Bench, Feedback Bench).
 - ==Related Work==
-	- Model-free scores that evaluate machine-generated text based on a golden candidate reference, like [[BLEU]] (2002) and [[ROGUE]] (2004).
+	- Model-free scores that evaluate machine-generated text based on a golden candidate reference, like [[BLEU]] (2002) and [[ROUGE]] (2004).
 	- Model-based approaches like BERTScore (2019) and BLEURT (2020)  and BARTScore (2021), which are able to capture *semantic information*, rather than only evaluating on *lexical* components.
 	- LLM-based text evaluation using GPT-4 or fine-tuned critique LLMs as an evaluator along a *single dimension* of "preference," such as [[AlpacaFarm]] ("which response is better, based on your judgement and preferences"). Critique LLMs like Selfee and Shepherd
 - Authors note that correct preference is often subjective, depending on applications, cultures, objectives, where degrees of brevity, formality, honesty, creativity, and political tone (among others) may vary.

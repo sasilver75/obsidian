@@ -2,7 +2,7 @@
 aliases:
   - Bilingual Evaluation Understudy
 ---
-A precision-based metric (in contrast to [[ROGUE]]'s *recall-based metric*) that counts the number of n-grams in the generated output that also show up in the reference, and then divides it by the total number of words in the output. Remains a popular metric due to its cost-effectiveness. Typically used for [[Machine Translation]].
+A precision-based metric (in contrast to [[ROUGE]]'s *recall-based metric*) that counts the number of n-grams in the generated output that also show up in the reference, and then divides it by the total number of words in the output. Remains a popular metric due to its cost-effectiveness. Typically used for [[Machine Translation]].
 
 Generally, there isn't good correlation with how humans evaluation fluency, particularly with tasks that require creativity and diversity -- outputs can have zero n-gram overlap with the reference but yet be a good response.
 

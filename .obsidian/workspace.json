@@ -13,7 +13,137 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Minimum Bayes Risk Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18a78a4cc0d447ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c7e2d28cc1d3e95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constrained Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dab4d3f8af54d73b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ae6a7767f35e175",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2506eb91d141ffc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constrained Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39b91ff739962a58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reward-Augmented Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b33fbe99bd53fecd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constrained Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6e866ba9dd368ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROUGE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9193d3a91f88d2a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88ccaae87df5df5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ancestral Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bloomberg",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +244,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -135,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Beam Search.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Beam Search.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Beam Search.md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md"
               }
             }
           },
@@ -208,7 +339,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Beam Search.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,44 +386,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b22dfd236cac24d4",
+  "active": "8ae6a7767f35e175",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240614175123.png",
+    "_attachments/Pasted image 20240614224931.png",
+    "_attachments/Pasted image 20240614224920.png",
+    "Speculative Decoding.md",
+    "_attachments/Pasted image 20240614224334.png",
+    "Speculative Sampling.md",
+    "~ Vocabulary.md",
+    "Human-in-the-Loop Decoding.md",
+    "_attachments/Pasted image 20240614223831.png",
+    "_attachments/Pasted image 20240614223727.png",
+    "_attachments/Pasted image 20240614223629.png",
+    "_attachments/Pasted image 20240614223534.png",
+    "Constrained Decoding.md",
+    "Reward-Augmented Decoding.md",
+    "_attachments/Pasted image 20240614222457.png",
+    "Minimum Bayes Risk Decoding.md",
+    "_attachments/Pasted image 20240614222058.png",
+    "_attachments/Pasted image 20240614221910.png",
+    "_attachments/Pasted image 20240614221829.png",
+    "Beam Search.md",
+    "ROUGE.md",
+    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+    "Articles/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
+    "PaperClubs/LatentSpace/Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey.md",
+    "Prometheus.md",
+    "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md",
+    "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md",
+    "BLEURT.md",
+    "Greedy Decoding.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
+    "Ancestral Sampling.md",
     "Contrastive Decoding.md",
     "Contrastive Loss.md",
     "Epsilon Sampling.md",
-    "_attachments/Pasted image 20240614173827.png",
     "Top-K Sampling.md",
-    "_attachments/Pasted image 20240614173751.png",
     "Top-P Sampling.md",
-    "_attachments/Pasted image 20240614173732.png",
-    "_attachments/Pasted image 20240614173701.png",
-    "~ Vocabulary.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 3.md",
-    "_attachments/Pasted image 20240614170135.png",
-    "_attachments/Pasted image 20240614170126.png",
-    "_attachments/Pasted image 20240614165417.png",
-    "_attachments/Pasted image 20240614164841.png",
-    "_attachments/Pasted image 20240614164735.png",
-    "_attachments/Pasted image 20240614164732.png",
-    "Cross-Entropy.md",
-    "Entropy.md",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md",
-    "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
-    "Mean Reciprocal Rank.md",
-    "Recall (Information Retrieval).md",
-    "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md",
-    "CLIP.md",
-    "One-Hot Encoding.md",
-    "Normalized Discounted Cumulative Gain.md",
-    "Generate-then-Read.md",
-    "Mean Average Precision.md",
-    "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
-    "Locality Sensitive Hashing.md",
-    "FAISS.md",
-    "BLIP-2.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",

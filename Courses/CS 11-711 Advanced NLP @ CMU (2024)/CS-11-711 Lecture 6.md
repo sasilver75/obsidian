@@ -4,3 +4,22 @@ Speaker: Amanda Bertsch (PhD Student @ CMU)
 
 ----
 
+This was an excellent lecture!
+In no particular order, topics covered include:
+[[Speculative Decoding]]
+[[Constrained Decoding]]
+[[Top-K Sampling]]
+[[Ancestral Sampling]]
+[[Top-P Sampling]]
+[[Epsilon Sampling]]
+[[Reward-Augmented Decoding]]
+[[Minimum Bayes Risk Decoding]]
+[[Beam Search]]
+[[Contrastive Decoding]]
+[[Temperature]]
+
+
+![[Pasted image 20240614224920.png]]
+
+![[Pasted image 20240614224931.png]]
+

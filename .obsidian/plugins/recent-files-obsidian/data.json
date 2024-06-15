@@ -1,8 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "CS-11-711 Lecture 6",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md"
+    },
+    {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
+    },
+    {
+      "basename": "Speculative Sampling",
+      "path": "Speculative Sampling.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Human-in-the-Loop Decoding",
+      "path": "Human-in-the-Loop Decoding.md"
+    },
+    {
+      "basename": "Constrained Decoding",
+      "path": "Constrained Decoding.md"
+    },
+    {
+      "basename": "Reward-Augmented Decoding",
+      "path": "Reward-Augmented Decoding.md"
+    },
+    {
+      "basename": "Minimum Bayes Risk Decoding",
+      "path": "Minimum Bayes Risk Decoding.md"
+    },
+    {
       "basename": "Beam Search",
       "path": "Beam Search.md"
+    },
+    {
+      "basename": "ROUGE",
+      "path": "ROUGE.md"
+    },
+    {
+      "basename": "Understanding Large Language Models (April 2023) - {Sebastian Raschka}",
+      "path": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}",
+      "path": "Articles/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md"
+    },
+    {
+      "basename": "Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey",
+      "path": "PaperClubs/LatentSpace/Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey.md"
+    },
+    {
+      "basename": "Prometheus",
+      "path": "Prometheus.md"
+    },
+    {
+      "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
+      "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
+    },
+    {
+      "basename": "CS685 Lecture 15",
+      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md"
+    },
+    {
+      "basename": "BLEURT",
+      "path": "BLEURT.md"
+    },
+    {
+      "basename": "Greedy Decoding",
+      "path": "Greedy Decoding.md"
+    },
+    {
+      "basename": "Ancestral Sampling",
+      "path": "Ancestral Sampling.md"
     },
     {
       "basename": "Contrastive Decoding",
@@ -23,14 +95,6 @@
     {
       "basename": "Top-P Sampling",
       "path": "Top-P Sampling.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "CS-11-711 Lecture 6",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 6.md"
     },
     {
       "basename": "CS 11-711 Lecture 1",
@@ -113,10 +177,6 @@
       "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
     },
     {
-      "basename": "ROGUE",
-      "path": "ROGUE.md"
-    },
-    {
       "basename": "Hamming Distance",
       "path": "Hamming Distance.md"
     },
@@ -139,66 +199,6 @@
     {
       "basename": "A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}",
       "path": "Articles/A Developer's Guide to Approximate Nearest Neighbor (ANN) Algorithms (May 15, 2024) {Brian Hentschel, Pinecone}.md"
-    },
-    {
-      "basename": "Distilabel",
-      "path": "Distilabel.md"
-    },
-    {
-      "basename": "Argilla",
-      "path": "Argilla.md"
-    },
-    {
-      "basename": "Pasted image 20231215171803",
-      "path": "_attachments/Pasted image 20231215171803.png"
-    },
-    {
-      "basename": "Optimized Product Quantization",
-      "path": "Optimized Product Quantization.md"
-    },
-    {
-      "basename": "Asymmetric Distance Computation",
-      "path": "Asymmetric Distance Computation.md"
-    },
-    {
-      "basename": "Inverted File Index",
-      "path": "Inverted File Index.md"
-    },
-    {
-      "basename": "Hierarchical Navigable Small Worlds",
-      "path": "Hierarchical Navigable Small Worlds.md"
-    },
-    {
-      "basename": "Product Quantization",
-      "path": "Product Quantization.md"
-    },
-    {
-      "basename": "Charles Frye",
-      "path": "Charles Frye.md"
-    },
-    {
-      "basename": "How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}",
-      "path": "Articles/How Multimodal LLMs Work (Jan 17, 2024) {Kevin Musgrave}.md"
-    },
-    {
-      "basename": "EvalGen",
-      "path": "EvalGen.md"
-    },
-    {
-      "basename": "CS 11-777 Lecture 1",
-      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 1.md"
-    },
-    {
-      "basename": "Modal",
-      "path": "Modal.md"
-    },
-    {
-      "basename": "Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models",
-      "path": "Courses/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md"
-    },
-    {
-      "basename": "Mastering LLMS Workshop 3 - Evaluations",
-      "path": "Courses/LLM Mastery/Mastering LLMS Workshop 3 - Evaluations.md"
     }
   ],
   "omittedPaths": [],

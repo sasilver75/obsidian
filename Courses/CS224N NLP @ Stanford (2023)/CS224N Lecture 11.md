@@ -193,7 +193,7 @@ There are ==three broad types of generation evaluations==
 
 # Content Overlap Metrics
 - Compute a score based on the lexical similarity of the generated and the gold-reference text. This is fast and efficient, so it's widely used.
-	- [[ROGUE]], [[BLEU]]
+	- [[ROUGE]], [[BLEU]]
 - ![[Pasted image 20240411194920.png]]These methods are cheap and easy to run, but they aren't the ideal metrics!
 -  ==Simply relying on lexical overlap might miss equally-good generations that are phrased diffrently!==
 - ==It might also reward texts that have a large portion of common text, but actually have the inverse meaning!==

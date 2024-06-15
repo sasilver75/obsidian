@@ -53,13 +53,13 @@ To get a better sense of these metrics, we'll explore a few of the commonly-used
 - ![[Pasted image 20240605203315.png]]
 Above: I think p refers to the generated sentence, and r to the source sentence. $|p|$ is the *length* of the generated sentence.
 
-### ROGUE: Recall-Oriented Understudy for Gisting Evaluation
-- In contrast to BLEU, [[ROGUE]] is recall-oriented, counting the number of words in the *reference* that also occur in the *output.* It's typically used to assess automatic [[Summarization]] tasks.
-- There are several ROGUE variants; ROGUE-N is most similar to BLEU in that it also counts the number of matching n-grams between the output and the reference.
+### ROUGE: Recall-Oriented Understudy for Gisting Evaluation
+- In contrast to BLEU, [[ROUGE]] is recall-oriented, counting the number of words in the *reference* that also occur in the *output.* It's typically used to assess automatic [[Summarization]] tasks.
+- There are several ROUGE variants; ROUGE-N is most similar to BLEU in that it also counts the number of matching n-grams between the output and the reference.
 ![[Pasted image 20240605205119.png]]
 Other variants include:
-- ROGUE-L: Measures the longest common subsequence (LCS) between output and reference.
-- ROGUE-S: Measures the skip-bigram between the output and reference.
+- ROUGE-L: Measures the longest common subsequence (LCS) between output and reference.
+- ROUGE-S: Measures the skip-bigram between the output and reference.
 
 
 ### BERTScore
@@ -69,7 +69,7 @@ Other variants include:
 	- Precision: Average cosine similarity between each token in the *generated output* and its nearest match in the *reference*.
 	- F1: Harmonic mean of precision and recall
 ![[Pasted image 20240605205343.png]]
-Useful because it's able to account for synonyms and paraphrasing, which simpler metrics like BLEU and ROGUE can't due, due to their reliance on exact matches.
+Useful because it's able to account for synonyms and paraphrasing, which simpler metrics like BLEU and ROUGE can't due, due to their reliance on exact matches.
 
 ### MoverScore
 - Uses contextualized embeddings to compute the distance between tokens in the generated output and reference. Unlike BERTScore, which is based on one-to-one matching (hard alignment) of tokens, MoverScore allows for many-to-one matching (soft alignment).
@@ -86,7 +86,7 @@ The G-Eval is a framework that applies LLMs with Chain of Thought (CoT) and a fo
 
 How to apply evals?
 - Building solid evals should be the starting point for any LLM-based system! 
-- Classical metrics like BLEU and ROGUE don't make any sense for more complex tasks such as abstractive summarization or dialogue.
+- Classical metrics like BLEU and ROUGE don't make any sense for more complex tasks such as abstractive summarization or dialogue.
 - We've seen that benchmarks like MMLU are sensitive to how they're implemented and measured -- and to be candid, ==unless your LLM system is studying for a school exam, MMLU probably isn't actually a good evaluation==.
 
 So instead of using off-the-shelf benchmarks, we should start by collecting a set of ==task-specific evals==, including (prompt, context, expected outputs).
@@ -99,7 +99,7 @@ We also need useful ==metrics==, in addition to our evaluation dataset!
 
 The simplest task is probably Classification. If we're using an LLM for classification-like tasks (eg toxicity detection, document categorization), we can rely on standard classification metrics like [[Recall]], [[Precision]], [[PR-AUC]], etc.
 
-If our task has no correct answer but we have references (eg Machine Translation, extractive summarization), we can use reference metrics based on term matching ([[BLEU]], [[ROGUE]]) or semantic similarity ([[BERTScore]], MoverScore)
+If our task has no correct answer but we have references (eg Machine Translation, extractive summarization), we can use reference metrics based on term matching ([[BLEU]], [[ROUGE]]) or semantic similarity ([[BERTScore]], MoverScore)
 
 But these metrics might not work well for open-ended tasks like abstractive summarization, dialogue, and others.
 - Collecting human judgements in these situations is expensive, so we might lean to automatic evaluations via LLM-as-a-Judge. But be aware:
