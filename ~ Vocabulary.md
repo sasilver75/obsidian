@@ -136,7 +136,9 @@
 - [[Diffusion Model]]
 - [[Latent Diffusion Model]]
 - [[Latent Consistency Model]]
-- [[Parameter-Efficient Fine-Tuning]]
+- [[Parameter-Efficient Fine-Tuning]] (PEFT)
+- [[Adapter]]
+- [[Adapter Fusion]]
 - [[Quantization]]
 - [[Model Pruning]]
 - [[Masking]]
@@ -357,6 +359,8 @@
 	- [[Question Answering]] (QA)
 		- [[Open-Domain]]
 		- [[Closed-Domain]]
+		- [[Open-Book]]
+		- [[Closed-Book]]
 		- [[Multi-Hop]]
 	- [[Machine Translation]] (MT)
 	- [[Information Extraction]]
