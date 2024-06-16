@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Approximate Nearest Neighber
   - ANN
+  - Approximate Nearest Neighbor
 ---
 To retrieve documents with low latency at scale, we use ANN methods that optimize for retrieval speeds, returning the approximate (instead of exact) top k most similar neighbors, trading off a little bit of accuracy for a large speedup.
 

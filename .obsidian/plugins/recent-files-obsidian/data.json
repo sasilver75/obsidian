@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "CS 11-711 Lecture 8",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md"
+      "basename": "CS 11-711 Lecture 10",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md"
+    },
+    {
+      "basename": "FAISS",
+      "path": "FAISS.md"
+    },
+    {
+      "basename": "Approximate Nearest Neighbor Search",
+      "path": "Approximate Nearest Neighbor Search.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "BM25",
+      "path": "BM25.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "CS 11-711 Lecture 8",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md"
     },
     {
       "basename": "Semantic Text Similarity",
@@ -183,22 +199,6 @@
     {
       "basename": "Normalized Discounted Cumulative Gain",
       "path": "Normalized Discounted Cumulative Gain.md"
-    },
-    {
-      "basename": "Generate-then-Read",
-      "path": "Generate-then-Read.md"
-    },
-    {
-      "basename": "Mean Average Precision",
-      "path": "Mean Average Precision.md"
-    },
-    {
-      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
-      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
-    },
-    {
-      "basename": "Locality Sensitive Hashing",
-      "path": "Locality Sensitive Hashing.md"
     }
   ],
   "omittedPaths": [],

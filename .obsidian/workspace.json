@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6fe2a2e1692da64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FAISS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef3938de66db12c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Approximate Nearest Neighbor Search.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "080d3dd601c9e7e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md"
               }
             }
           },
@@ -168,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -217,25 +256,29 @@
   },
   "active": "017701ef11175e1b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240615180648.png",
-    "_attachments/Pasted image 20240615180041.png",
-    "_attachments/Pasted image 20240615175908.png",
-    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240615232048.png",
+    "_attachments/Pasted image 20240615231934.png",
+    "_attachments/Pasted image 20240615231932.png",
+    "_attachments/Pasted image 20240615231603.png",
+    "_attachments/Pasted image 20240615231517.png",
+    "_attachments/Pasted image 20240615225031.png",
+    "_attachments/Pasted image 20240615224303.png",
+    "_attachments/Pasted image 20240615222435.png",
+    "_attachments/Pasted image 20240615222126.png",
+    "FAISS.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md",
+    "_attachments/Pasted image 20240615221641.png",
+    "Approximate Nearest Neighbor Search.md",
     "~ Vocabulary.md",
+    "_attachments/Pasted image 20240615210356.png",
+    "BM25.md",
+    "~ Useful Pictures.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
     "Semantic Text Similarity.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 6.md",
     "Cross-Entropy.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
     "Closed-Book.md",
     "Open-Book.md",
-    "_attachments/Pasted image 20240615175822.png",
-    "_attachments/Pasted image 20240615175312.png",
-    "_attachments/Pasted image 20240615175206.png",
-    "_attachments/Pasted image 20240615175139.png",
-    "_attachments/Pasted image 20240615175015.png",
-    "_attachments/Pasted image 20240615174343.png",
-    "_attachments/Pasted image 20240615174249.png",
-    "_attachments/Pasted image 20240615174231.png",
     "Chinchilla.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md",
@@ -249,10 +292,6 @@
     "Human-in-the-Loop Decoding.md",
     "Constrained Decoding.md",
     "Reward-Augmented Decoding.md",
-    "Beam Search.md",
-    "ROUGE.md",
-    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
-    "Articles/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
