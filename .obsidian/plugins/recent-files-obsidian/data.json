@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "CS 11-711 Lecture 7",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md"
+      "basename": "CS 11-711 Lecture 8",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md"
+    },
+    {
+      "basename": "Chinchilla",
+      "path": "Chinchilla.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 7",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "CS 11-711 Lecture 1",
@@ -23,10 +35,6 @@
     {
       "basename": "Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}",
       "path": "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Stanford Natural Language Inference",
@@ -191,14 +199,6 @@
     {
       "basename": "BLIP-2",
       "path": "BLIP-2.md"
-    },
-    {
-      "basename": "Cosine Similarity",
-      "path": "Cosine Similarity.md"
-    },
-    {
-      "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
-      "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
     }
   ],
   "omittedPaths": [],
