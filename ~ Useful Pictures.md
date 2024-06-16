@@ -1,3 +1,6 @@
+![[Pasted image 20240615152744.png]]
+![[Pasted image 20240615152810.png|300]]
+
 ![[Pasted image 20240613184924.png|300]]
 Storage hierarchy
 ![[Pasted image 20231215171803.png|300]]
