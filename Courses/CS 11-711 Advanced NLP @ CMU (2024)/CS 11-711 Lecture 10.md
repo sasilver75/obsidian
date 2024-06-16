@@ -104,9 +104,35 @@ The problem with training your embedding model is that it means that the documen
 Triggering Retrieval with Token Embeddings was proposed by [[Toolformer]]; we generate tokens that trigger retrieval or other tools.
 - This is trained with examples of tools being useful
 ![[Pasted image 20240615232048.png]]
-This is how things are implemented in ChatGPT nowadays; n
+This is how things are implemented in ChatGPT nowadays; not only for retrieval, but for other tool use, like generating code or images.
+
+Another option is to trigger retrieval with uncertainty estimates.
+In the FLARE paper (his student), they tried to generate content, and do retrieval if the language model certainty is low.
+![[Pasted image 20240615232210.png]]
+When we have low probability, we form a query where we *blank out* the low probability parts of this (?), and then do a search. This is a little bit like the HyDE method, where we create a document that's similar to the one we want to find. 
+- Whenever we have a high confidence output, we don't do retrieval, but when we have low confidence outputs, we do the retrieval and base the output on this.
+- The downside here is that we sometimes need to generate twice (generate the output once, find the low confidence parts, retrieve, generate again)
+
+Token-by-token retrieval methods
+- One of the methods that popularized this idea was something called kNN LM, which retrieved similar examples, and then used tokens from the examples.
+- This is kind of like a very powerful count-based bigram model.
+- ![[Pasted image 20240615232528.png]]
+![[Pasted image 20240615232817.png]]
+Glazing over
 
 
+![[Pasted image 20240615233021.png]]
+![[Pasted image 20240615233400.png]]
+
+![[Pasted image 20240615233826.png]]
+Speaker likes SCROLLS more than Long Range Areana
+
+![[Pasted image 20240615233920.png]]
+Even if we have long contexts, it seems that many models, even SoTA ones, pay less attentions to things in the middle of long context windows! "Lost in the Middle"
+
+
+![[Pasted image 20240615234140.png]]
+Filtering the context down to the most relevant content that we think is appropriate, before feeding it through the generator.
 
 
 
