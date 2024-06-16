@@ -12,7 +12,6 @@
 - [[Eigenvalue]]
 - [[Determinant]]
 - [[Singular Value Decomposition]]
-- [[Rank (Information Retrieval)]]
 - [[Row Echelon Form]]  (+Reduced Row Echelon Form)
 - [[Inverse]]
 - [[Transpose]] (and Symmetric matrices)
@@ -295,6 +294,7 @@
 - [[Optimized Product Quantization]] (OPQ)
 - [[Reranking]]
 - [[Inverted Index]]
+- [[Rank (Information Retrieval)]]
 - [[Sparse Retrieval]]
 - [[Dense Retrieval]]
 - [[Hybrid Search]]
