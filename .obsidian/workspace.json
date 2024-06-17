@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monte-Carlo Tree Search.md",
+                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5064d18b0edd634",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Context Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ede93235144c8d36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distillation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +139,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monte-Carlo Tree Search.md",
+                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Monte-Carlo Tree Search.md",
+                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Monte-Carlo Tree Search.md"
+                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md"
               }
             }
           },
@@ -207,7 +234,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Monte-Carlo Tree Search.md",
+                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -256,12 +283,18 @@
   },
   "active": "017701ef11175e1b",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240617000304.png",
+    "_attachments/Pasted image 20240616235224.png",
+    "Context Distillation.md",
+    "_attachments/Pasted image 20240616235151.png",
+    "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
+    "Distillation.md",
+    "Monte-Carlo Tree Search.md",
     "_attachments/Pasted image 20240616215102.png",
     "_attachments/Pasted image 20240616214707.png",
     "_attachments/Pasted image 20240616212503.png",
     "_attachments/Pasted image 20240616211550.png",
     "~ Vocabulary.md",
-    "Monte-Carlo Tree Search.md",
     "FAISS.md",
     "Approximate Nearest Neighbor Search.md",
     "Articles/Markov Chain Monte Carlo (MCMC) Sampling, Part 1 - The Basics (October 2019) {Simon Cars}.md",
@@ -271,9 +304,6 @@
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md",
     "_attachments/Pasted image 20240615234140.png",
-    "_attachments/Pasted image 20240615233920.png",
-    "_attachments/Pasted image 20240615233826.png",
-    "_attachments/Pasted image 20240615233400.png",
     "BM25.md",
     "~ Useful Pictures.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
@@ -289,9 +319,6 @@
     "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
     "Stanford Natural Language Inference.md",
     "Average Pooling.md",
-    "Minimum Bayes Risk Decoding.md",
-    "Speculative Decoding.md",
-    "Speculative Sampling.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
