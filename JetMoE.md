@@ -1,7 +1,7 @@
 April 11, 2024
 Paper: [JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413)
 
-An 8B parameter [[Mixture-of-Experts|MoE]] (2B active) trained on 1.25 tokens mixed from open-source datasets.
+An 8B parameter [[Mixture of Experts|MoE]] (2B active) trained on 1.25 tokens mixed from open-source datasets.
 I'm curious to learn more about their data-mixing strategy -- they say that the model is highly open and academia-friendly, so it might be an interesting read.
 
 Abstract

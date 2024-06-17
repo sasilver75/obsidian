@@ -49,7 +49,7 @@ NOTE: ==Even though we're only finetuning the adapters, we still need to store t
 ![[Pasted image 20240615173555.png]]
 Here's another interesting technique called [[Adapter Fusion]]; the idea is to learn an adapter for various types of tasks, and the combine them together
 - We have multiple adapters, and then adapter fusion, where adapter fusion is really just *attention over adapters*. These adapters are trained separately on task-specific data.
-- In a way, this is kind of like a version of a [[Mixture-of-Experts]] model.
+- In a way, this is kind of like a version of a [[Mixture of Experts]] model.
 
 
 ![[Pasted image 20240615173423.png]]

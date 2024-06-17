@@ -159,7 +159,7 @@ We then need to be able to instantiate model objects that we can hydrate (fill) 
 - Georgi Gerganov's project to make OpenAI's [[Whisper]] model run locally with Whisper.cpp was a success, catalyzing later projects.
 - The combination of the release of [[LLaMA 2]], along with compression techniques like [[Low-Rank Adaptation|LoRA]], performant-out-of-the-box LLMs were now workable locally for the hobby community.
 
-- Based on the success of `whisper.cpp`, [[Georgia Gerganov]] created [[llama.cpp]], a package for working with LLaMA model eights, which were originally in pickle format, in GGML format instead, for local inference.
+- Based on the success of `whisper.cpp`, [[Georgei Gerganov]] created [[llama.cpp]], a package for working with LLaMA model eights, which were originally in pickle format, in GGML format instead, for local inference.
 
 - [[GGML]] was initially both a library and a complementary format created specifically for on-edge inference for Whisper. You can also perform fine-tuning with it, but generally it's used to read models trained on PyTorch in GPU Linux-based environments and converted to GGML to run on Apple Silicon.
 

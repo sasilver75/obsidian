@@ -78,7 +78,7 @@ According to the paper, it reduces the memory requirements of a 65B Llama model 
 		- Essentially a fixed-sized attention block that allows a current token to attend only a specific number of previous tokens (instead of all previous tokens).
 			- ((So you're lobotomizing your long-range dependency capabilities to make training faster? Okay))
 - One reason that Mistral 7B is an influential model is that it served as the base model for [[Zephyr]] B, as mentioned in the DPO section, this was the first model trained with DPO to outperform other alternatives!
-- Another noteworthy model derived from Mistral 7B is the [[Mixtral]] 8x7B model: Mistral [[Mixture-of-Experts]] (MoE), which matches or exceeds the performance of the even larger Llama-2-70B model!
+- Another noteworthy model derived from Mistral 7B is the [[Mixtral]] 8x7B model: Mistral [[Mixture of Experts]] (MoE), which matches or exceeds the performance of the even larger Llama-2-70B model!
 
 # (7) Orca 2: Teaching Small Language Models how to Reason
 - [[Orca 2]] (Nov 2023)

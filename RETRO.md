@@ -33,7 +33,7 @@ Above:
 - Note that the input tokens make it both into the encoder (via the query encoder in the kNN retriever) and the decoder as input. For MT tasks with Encoder-decoder architectures, I usually only think of the input tokens as being put into the encoder, rather than the decoder.
 
 ![[Pasted image 20240501174232.png]]
-Comparison with [[Retrieval-Augmented Generation (Model)|RAG]], [[REALM]], [[DPR]], kNN-LM, and [[Fusion-in-Decoder]] (FiD)
+Comparison with [[Retrieval-Augmented Generation (Model)|RAG]], [[REALM]], [[Dense Passage Retrieval|DPR]], kNN-LM, and [[Fusion-in-Decoder]] (FiD)
 
 ![[Pasted image 20240501174523.png]]
 

@@ -8,6 +8,7 @@ Traditional knowledge distillation involves transferring knowledge from a larger
 
 Variant: [[Self-Distillation]]
 
+Soft-Target Distillation vs Hard-Target Distillation
 
 Note:
 - I've heard "Distillation" used in two contexts:
@@ -43,3 +44,6 @@ Modes of distillation:
 2. Multi-teacher distillation: Simultaneously try to distill various teachers into a single student that can perhaps perform multiple tasks
 3. Co-distillation: Student and teacher and trained jointly. Also called "online distillation" (Anil et al, 2018)
 4. Self-distillation: The objective includes terms that seek to make some model components align with others from the same model (Zhang et al. 2019)
+
+
+![[Pasted image 20240617110315.png]]

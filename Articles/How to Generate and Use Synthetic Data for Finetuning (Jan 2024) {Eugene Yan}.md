@@ -51,10 +51,10 @@ There are two main approaches to generate synthetic data:
 
 Notable Models in table:
 
-|                  | Pretraining                     | Instruction-tuning                                                                                                         | Preference-tuning           |
-| ---------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| Distillation     | TinyStories, [[Phi-1]], Phi-1.5 | Unnatural Instructions, [[Alpaca]], [[Vicuna]], [[Orca]], [[Orca 2]], WizardLM, WizardCoder, MagicCoder, Phi-1 (exercises) | Starling-7B                 |
-| Self-Improvement | AlphaGeometry, [[WRAP]]         | Self-Instruct, [[Self-Play Fine-Tuning]], Instruction Backtranslation, ReST, [[Constitutional AI]]                                          | SteerLM, Self-Rewarding CAI |
+|                  | Pretraining                                                  | Instruction-tuning                                                                                                         | Preference-tuning           |
+| ---------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| Distillation     | TinyStories, [[Phi-1]], Phi-1.5                              | Unnatural Instructions, [[Alpaca]], [[Vicuna]], [[Orca]], [[Orca 2]], WizardLM, WizardCoder, MagicCoder, Phi-1 (exercises) | Starling-7B                 |
+| Self-Improvement | AlphaGeometry, [[Web Rephrase Augmented Pre-training\|WRAP]] | Self-Instruct, [[Self-Play Fine-Tuning]], Instruction Backtranslation, ReST, [[Constitutional AI]]                                          | SteerLM, Self-Rewarding CAI |
 In the context of synthetic data, *==pretraining==* would involve building the model's base knowledge on generated data, or by augmenting real-world datasets with model-generated data.
 
 In the context of synthetic data, *==instruction-tuning==* would involve us building synthetic *instruction-response pairs* to improve the model's comprehension of nuanced queries, as well as improve response precision.

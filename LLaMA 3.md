@@ -11,6 +11,6 @@ Details:
 	- The [[Chinchilla]] "compute-optimal" point for an 8B model would be to train it for ~200B tokens, meaning that this training is ~75X beyond that point.
 - Context window: 8192 tokens (up from 4096 tokens in [[LLaMA 2]]) -- still quite small, but there may be fine-tunes that extend this shortly.
 - Vocabulary size: 128k
-Interestingly, these are all *dense* models (ie not [[Mixture-of-Experts]])
+Interestingly, these are all *dense* models (ie not [[Mixture of Experts]])
 
 Meta AI product director, re: LLaMA3: "Really, the magic is in post-training; RLHF, PPO, DPO, Rejection Sampling, Instruction-Finetuning, Red-teaming re: CBRNE"

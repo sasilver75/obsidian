@@ -1,24 +1,104 @@
 {
   "recentFiles": [
     {
-      "basename": "LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}",
-      "path": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md"
+      "basename": "CS 11-711 Lecture 11",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
     },
     {
-      "basename": "Context Distillation",
-      "path": "Context Distillation.md"
+      "basename": "Self-Instruct",
+      "path": "Self-Instruct.md"
     },
     {
       "basename": "Distillation",
       "path": "Distillation.md"
     },
     {
-      "basename": "Monte-Carlo Tree Search",
-      "path": "Monte-Carlo Tree Search.md"
+      "basename": "DistilBERT",
+      "path": "DistilBERT.md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Lottery Ticket Hypothesis",
+      "path": "Lottery Ticket Hypothesis.md"
+    },
+    {
+      "basename": "Tanh",
+      "path": "Tanh.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Activation Function",
+      "path": "Activation Function.md"
+    },
+    {
+      "basename": "XCS224U Lecture 3",
+      "path": "Courses/XCS224U NLU @ Stanford (2023)/XCS224U Lecture 3.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "Transformer.md"
+    },
+    {
+      "basename": "Catwalk",
+      "path": "Catwalk.md"
+    },
+    {
+      "basename": "Cataphora",
+      "path": "Cataphora.md"
+    },
+    {
+      "basename": "TART",
+      "path": "TART.md"
+    },
+    {
+      "basename": "Georgei Gerganov",
+      "path": "Georgei Gerganov.md"
+    },
+    {
+      "basename": "Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}",
+      "path": "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md"
+    },
+    {
+      "basename": "Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}",
+      "path": "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
+    },
+    {
+      "basename": "LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}",
+      "path": "Articles/LLaMA 2 - An incredible open LLM (July 18, 2023) {Nathan Lambert, Interconnect}.md"
+    },
+    {
+      "basename": "LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}",
+      "path": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md"
+    },
+    {
+      "basename": "Reinforced Self-Training",
+      "path": "Reinforced Self-Training.md"
+    },
+    {
+      "basename": "Mixture of Experts",
+      "path": "Mixture of Experts.md"
+    },
+    {
+      "basename": "Context Distillation",
+      "path": "Context Distillation.md"
+    },
+    {
+      "basename": "Monte-Carlo Tree Search",
+      "path": "Monte-Carlo Tree Search.md"
     },
     {
       "basename": "FAISS",
@@ -33,20 +113,12 @@
       "path": "Articles/Markov Chain Monte Carlo (MCMC) Sampling, Part 1 - The Basics (October 2019) {Simon Cars}.md"
     },
     {
-      "basename": "CS 11-711 Lecture 11",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
-    },
-    {
       "basename": "CS 11-711 Lecture 10",
       "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md"
     },
     {
       "basename": "BM25",
       "path": "BM25.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "CS 11-711 Lecture 8",
@@ -127,78 +199,6 @@
     {
       "basename": "Beam Search",
       "path": "Beam Search.md"
-    },
-    {
-      "basename": "ROUGE",
-      "path": "ROUGE.md"
-    },
-    {
-      "basename": "Understanding Large Language Models (April 2023) - {Sebastian Raschka}",
-      "path": "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}",
-      "path": "Articles/The Story of RLHF - Origins, Motivations, Techniques, and Modern Applications (Nov 2023) - {Cameron Wolfe}.md"
-    },
-    {
-      "basename": "Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey",
-      "path": "PaperClubs/LatentSpace/Paperclub Leveraging Large Language Models for NLG Evaluation - A Survey.md"
-    },
-    {
-      "basename": "Prometheus",
-      "path": "Prometheus.md"
-    },
-    {
-      "basename": "Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}",
-      "path": "Articles/Patterns for Building LLM-based Systems and Products (?) {Eugene Yan Blog}.md"
-    },
-    {
-      "basename": "CS685 Lecture 15",
-      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md"
-    },
-    {
-      "basename": "BLEURT",
-      "path": "BLEURT.md"
-    },
-    {
-      "basename": "Greedy Decoding",
-      "path": "Greedy Decoding.md"
-    },
-    {
-      "basename": "Ancestral Sampling",
-      "path": "Ancestral Sampling.md"
-    },
-    {
-      "basename": "Contrastive Decoding",
-      "path": "Contrastive Decoding.md"
-    },
-    {
-      "basename": "Contrastive Loss",
-      "path": "Contrastive Loss.md"
-    },
-    {
-      "basename": "Epsilon Sampling",
-      "path": "Epsilon Sampling.md"
-    },
-    {
-      "basename": "Top-K Sampling",
-      "path": "Top-K Sampling.md"
-    },
-    {
-      "basename": "Top-P Sampling",
-      "path": "Top-P Sampling.md"
-    },
-    {
-      "basename": "CS 11-777 Lecture 3",
-      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 3.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
-      "basename": "CS 11-777 Lecture 2",
-      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 2.md"
     }
   ],
   "omittedPaths": [],

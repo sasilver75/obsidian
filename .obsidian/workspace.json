@@ -8,12 +8,103 @@
         "type": "tabs",
         "children": [
           {
-            "id": "017701ef11175e1b",
+            "id": "216a373a45e23e4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb2282b79d282885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "631df4a4481bc8a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7791e60a8126fd84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lottery Ticket Hypothesis.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7e3bb03f6db079c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc1043e370d225fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TART.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a72fcf81f9837b13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforced Self-Training.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf579fad36549b79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mixture of Experts.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "RETRO.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -161,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +269,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
               }
             }
           },
@@ -234,7 +325,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -281,44 +372,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "017701ef11175e1b",
+  "active": "216a373a45e23e4e",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240617000304.png",
-    "_attachments/Pasted image 20240616235224.png",
-    "Context Distillation.md",
-    "_attachments/Pasted image 20240616235151.png",
-    "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
-    "Distillation.md",
-    "Monte-Carlo Tree Search.md",
-    "_attachments/Pasted image 20240616215102.png",
-    "_attachments/Pasted image 20240616214707.png",
-    "_attachments/Pasted image 20240616212503.png",
-    "_attachments/Pasted image 20240616211550.png",
-    "~ Vocabulary.md",
-    "FAISS.md",
-    "Approximate Nearest Neighbor Search.md",
-    "Articles/Markov Chain Monte Carlo (MCMC) Sampling, Part 1 - The Basics (October 2019) {Simon Cars}.md",
-    "_attachments/Pasted image 20240616205734.png",
-    "_attachments/Pasted image 20240616204357.png",
-    "_attachments/Pasted image 20240616204149.png",
+    "_attachments/Pasted image 20240617113231.png",
+    "_attachments/Pasted image 20240617112851.png",
+    "Self-Instruct.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md",
-    "_attachments/Pasted image 20240615234140.png",
-    "BM25.md",
+    "_attachments/Pasted image 20240617112054.png",
+    "Distillation.md",
+    "_attachments/Pasted image 20240617110654.png",
+    "DistilBERT.md",
+    "RETRO.md",
+    "_attachments/Pasted image 20240617110639.png",
+    "_attachments/Pasted image 20240617110628.png",
+    "_attachments/Pasted image 20240617110613.png",
+    "_attachments/Pasted image 20240617110315.png",
+    "_attachments/Pasted image 20240617110302.png",
+    "_attachments/Pasted image 20240617110300.png",
+    "_attachments/Pasted image 20240617110024.png",
+    "~ Vocabulary.md",
+    "Lottery Ticket Hypothesis.md",
+    "Tanh.md",
     "~ Useful Pictures.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md",
-    "Semantic Text Similarity.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 6.md",
-    "Cross-Entropy.md",
-    "Closed-Book.md",
-    "Open-Book.md",
-    "Chinchilla.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 7.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 1.md",
-    "TF-IDF.md",
-    "Articles/Natural Language Processing for Semantic Search (?) {James Briggs, Pinecone}.md",
-    "Stanford Natural Language Inference.md",
-    "Average Pooling.md",
+    "Activation Function.md",
+    "Tanh Activation Funcition.md",
+    "DPR.md",
+    "Courses/XCS224U NLU @ Stanford (2023)/XCS224U Lecture 3.md",
+    "Masked Language Modeling.md",
+    "Transformer.md",
+    "ViT.md",
+    "Catwalk.md",
+    "Cataphora.md",
+    "TART.md",
+    "Georgei Gerganov.md",
+    "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
+    "MDP.md",
+    "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
+    "WRAP.md",
+    "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
