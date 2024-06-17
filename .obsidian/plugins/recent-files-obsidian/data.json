@@ -5,12 +5,40 @@
       "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md"
     },
     {
-      "basename": "CS 11-711 Lecture 11",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "TRL",
+      "path": "TRL.md"
     },
     {
       "basename": "Self-Instruct",
       "path": "Self-Instruct.md"
+    },
+    {
+      "basename": "Imitation Learning",
+      "path": "Imitation Learning.md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
+    },
+    {
+      "basename": "BERTScore",
+      "path": "BERTScore.md"
+    },
+    {
+      "basename": "ROUGE",
+      "path": "ROUGE.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 11",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
     },
     {
       "basename": "Distillation",
@@ -19,14 +47,6 @@
     {
       "basename": "DistilBERT",
       "path": "DistilBERT.md"
-    },
-    {
-      "basename": "RETRO",
-      "path": "RETRO.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Lottery Ticket Hypothesis",
@@ -179,26 +199,6 @@
     {
       "basename": "Minimum Bayes Risk Decoding",
       "path": "Minimum Bayes Risk Decoding.md"
-    },
-    {
-      "basename": "Speculative Decoding",
-      "path": "Speculative Decoding.md"
-    },
-    {
-      "basename": "Speculative Sampling",
-      "path": "Speculative Sampling.md"
-    },
-    {
-      "basename": "Human-in-the-Loop Decoding",
-      "path": "Human-in-the-Loop Decoding.md"
-    },
-    {
-      "basename": "Constrained Decoding",
-      "path": "Constrained Decoding.md"
-    },
-    {
-      "basename": "Reward-Augmented Decoding",
-      "path": "Reward-Augmented Decoding.md"
     }
   ],
   "omittedPaths": [],

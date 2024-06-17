@@ -27,6 +27,7 @@
 - [[Importance Sampling]]
 - [[Pearson Correlation Coefficient]]
 - [[Spearman Correlation Coefficient]]
+- [[Kendall Rank Correlation Coefficient]]
 - [[Chi-Squared]]
 - [[Multicollinearity]]
 - [[Degrees of Freedom]]
@@ -80,6 +81,7 @@
 - [[Jaccard Similarity]]
 - [[Hamming Distance]]
 - [[Manhattan Distance]]
+- [[Goodhardt's Law]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -178,6 +180,7 @@
 - [[Hallucination]]
 - [[Inductive Bias]]
 - [[Reward Model]]
+- [[Pairwise Ranking]] vs [[Direct Assessment]]
 - [[Bradley-Terry Model]]
 - [[Graph Convolutional Network]]
 - [[Mode Collapse]] 
@@ -485,6 +488,7 @@
 - [[Bellman Equation]] 
 - [[Temporal Difference Learning]] (TD-Learning)
 - Actor-Critic methods
+- [[Experience Replay]]
 - [[Markov Decision Process]]
 - [[REINFORCE]]
 - [[Advantage Function]]
