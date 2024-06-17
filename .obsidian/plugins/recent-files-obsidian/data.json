@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
+      "basename": "Monte-Carlo Tree Search",
+      "path": "Monte-Carlo Tree Search.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 11",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 10",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md"
     },
     {
       "basename": "FAISS",
@@ -19,6 +15,18 @@
     {
       "basename": "Approximate Nearest Neighbor Search",
       "path": "Approximate Nearest Neighbor Search.md"
+    },
+    {
+      "basename": "Markov Chain Monte Carlo (MCMC) Sampling, Part 1 - The Basics (October 2019) {Simon Cars}",
+      "path": "Articles/Markov Chain Monte Carlo (MCMC) Sampling, Part 1 - The Basics (October 2019) {Simon Cars}.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 11",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 10",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md"
     },
     {
       "basename": "BM25",
@@ -191,14 +199,6 @@
     {
       "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
       "path": "Articles/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
-    },
-    {
-      "basename": "CLIP",
-      "path": "CLIP.md"
-    },
-    {
-      "basename": "One-Hot Encoding",
-      "path": "One-Hot Encoding.md"
     }
   ],
   "omittedPaths": [],
