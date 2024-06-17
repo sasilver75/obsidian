@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CS 11-711 Lecture 12",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md"
+    },
+    {
       "basename": "CS 11-711 Lecture 11",
       "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Reward-Augmented Decoding",
       "path": "Reward-Augmented Decoding.md"
-    },
-    {
-      "basename": "Beam Search",
-      "path": "Beam Search.md"
     }
   ],
   "omittedPaths": [],
