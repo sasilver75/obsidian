@@ -3,7 +3,7 @@ Link: https://huggingface.co/blog/moe
 
 ---
 
-With the release of [[Mixtral]] 8x7B, a class of transformer has become the hottest topic in the open AI community: [[Mixture-of-Experts]] (MoE).
+With the release of [[Mixtral]] 8x7B, a class of transformer has become the hottest topic in the open AI community: [[Mixture of Experts]] (MoE).
 Let's take a look at:
 - Their building blocks
 - How they're trained

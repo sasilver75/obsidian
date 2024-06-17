@@ -119,7 +119,7 @@ Focusing then on the illusive RL component:
 
 This type of thing is why Nate says that an effective RLHF requires a moderately sized team; this type of work requires contracts and close connects with external companies, which is always a bit of a time sink due to culture and communication mismatch.
 
-The RLHF baselines the authors use are [[PPO]] and [[Rejection Sampling]] fine-tuning (similar to Best-of-N sampling). 
+The RLHF baselines the authors use are [[Proximal Policy Optimization|PPO]] and [[Rejection Sampling]] fine-tuning (similar to Best-of-N sampling). 
 - PPO is the algorithm that's most popular for online RL (trial and error learning, so to say) -- specifically because *it's the most popular.*
 - [[Rejection Sampling]] is the idea that you sample a batch of K completions from a language model policy, and then evaluate them across a reward model, returning the best one. If you retain the best few outputs via the reward model, your policy can improves.
 

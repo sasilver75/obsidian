@@ -1,7 +1,7 @@
 
  Non-exhaustive examples:
  [[Sigmoid Activation Function]]
-[[Tanh Activation Funcition]]
+[[Tanh]]
 [[Rectified Linear Unit]]
 [[Leaky ReLU]]
 [[GeLU]] (GELU)

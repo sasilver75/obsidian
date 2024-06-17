@@ -116,7 +116,7 @@ Where $\pi_{\theta}$ is the language model, and $x, y_w, y_l$ and $y_{ref}$   ar
 
 PRO (2023) adopts a softmax-form of contrastive loss and optimizes over multiple negative outputs instead of just one.
 
-[[DPO]] takes on a similar idea, but starts from the RLHF objective function.
+[[Direct Preference Optimization|DPO]] takes on a similar idea, but starts from the RLHF objective function.
 ![[Pasted image 20240422225602.png]]
 
 

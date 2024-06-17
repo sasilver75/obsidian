@@ -18,7 +18,7 @@ In addition to those models, we've got some new research on alignment-related me
 # Mixtral, LLaMA 3, and Phi-3: What's new?
 
 ### Mistral 8x22B: Larger models are better!
-- The [[Mixtral]] 8x22B [[Mixture-of-Experts]](MoE) model by Mistral is similar to the 8x7B Mixtral model released in January 2024.
+- The [[Mixtral]] 8x22B [[Mixture of Experts]](MoE) model by Mistral is similar to the 8x7B Mixtral model released in January 2024.
 - In this model, we replace the feed-forward with 8 expert layers (and a router).
 ![[Pasted image 20240513005435.png|300]]
 Above: A claim that shows that Mixtral performance maximizes MMLU performance while minimizing active parameter counts.

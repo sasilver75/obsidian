@@ -1,7 +1,7 @@
 March 27, 2024 -- [[DataBricks]]
 Blog: [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)
 
-A [[Decoder-Only Architecture]] LLM trained with next-token prediction, using an ==[[Mixture-of-Experts|MoE]] architecture== (==132B== total parameters, ==36B active== on any input). Trained on 12T tokens of text and code data with a maximum context length of 32k tokens.
+A [[Decoder-Only Architecture]] LLM trained with next-token prediction, using an ==[[Mixture of Experts|MoE]] architecture== (==132B== total parameters, ==36B active== on any input). Trained on 12T tokens of text and code data with a maximum context length of 32k tokens.
 
 DBRX
 DRBX-Instruct

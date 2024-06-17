@@ -3,6 +3,7 @@ Various universities, including [[Allen Institute]]
 Paper: [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)
 #zotero 
 Takeaway: Self-Instruct is a method for generating instruction-following datasets with minimal human-labeled data by starting with a limited seed set of manually written tasks, sampling a task for the task pool, generating instructions for new tasks, creating input/output instances for the task, and filtering low-quality or repeated instructions.
+- In this paper, they use vanilla GPT3 to generate instructions and responses, and then use that created dataset (with some filtering) to finetune the ***same*** vanilla GPT-3 model into $GPT3_{SELF\_INST}$ .
 
 
 Note: *Self-Instruct* refers to the technique/pipeline, but it's also often used as a descriptor for datasets that are created with this technique -- eg "XYZ, a Self-Instruct dataset". It confusingly *also* can refer to the 52k instruction dataset produced and released in this paper.
@@ -26,9 +27,6 @@ Notes:
 - Self-Instruct can be viewed as a form of [[Distillation]], though it differs (in this paper) in two ways:
 	1. The distillee and the distiller are the same model
 	2. The output of the distillee is instructions, rather than labels or logits
-
-
-
 
 
 

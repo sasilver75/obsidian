@@ -60,7 +60,7 @@ As the agent interacts with the environment, it can receive both positive and ne
 	- Making a good move in the middle of a chess game may end up causing the win, but it takes a while for it to play out, assuming you don't make any more mistakes.
 
 
-## Markov Decision Processes ([[MDP]])
+## Markov Decision Processes (MDP)
 - To make things more formal and mathematically sound, let's formulate the system as a [[Markov Decision Process]] (MDP). Within an MDP, we have states, actions, rewards, transitions, and a policy; see below:
 
 ![[Pasted image 20240208224152.png]]
@@ -158,7 +158,7 @@ In [[Q-Learning]], we choose to use the maximum Q value, as shown below:
 Interestingly, Q-learning uses an ε-greedy policy when selecting actions, allowing new states and actions to be explored with a certain probability.
 
 When computing Q value updates, however, we always consider the next next action with the maximum Q value, which may or may not be executed from the next state... In other words, Q-learning estimates the return for state-action pairs by *assuming* a greedy policy that just selects the highest-return action at the next state, though we don't follow such an approach when actually selecting an action. ==For this reason, Q-learning is an off-policy learning algorithm.== (Meaning it explores differently than it ultimately exploits, once it has a learned policy).
-- This above update rule for Q-learning is mathematically guaranteed to find an optimal policy for any finite [[MDP]].
+- This above update rule for Q-learning is mathematically guaranteed to find an optimal policy for any finite [[Markov Decision Process|MDP]].
 
 #### Deep Q-Learning
 - The foundation of [[Deep Q-Learning]] (DQL) lies in the vanilla Q-learning algorithm above. DQL is just an extension of Q-learning for deep reinforcement learning, meaning we use an approach similar to Q-learning to train a deep neural network.

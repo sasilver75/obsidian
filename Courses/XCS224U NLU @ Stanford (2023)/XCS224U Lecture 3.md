@@ -186,7 +186,7 @@ Along with our normal positional encoding, we also have a hierarchical positiona
 ![[Pasted image 20240425142622.png|300]]
 We combine these representations into these green blocks and then pass them through some Transformer Blocks
 
-[[Masked Language Modeling]] (MLM): Obscure some tokens in the sequence and have the model reconstruct the missing piece.
+[[Masked Language Model|Masked Language Modeling]] (MLM): Obscure some tokens in the sequence and have the model reconstruct the missing piece.
 - We might replace "rules" with a \[==MASK==\] token, and have the model reconstruct that "rules" was the missing piece, using the full bidirectional context
 - We could also do random word ==replacement/corruption==, replacing "rules" with some random word, like "every"; and have the model predict what the actual token was at that position. This also uses the full bidirectionanl context of the sequence to do this task.
 

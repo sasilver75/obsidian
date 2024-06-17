@@ -40,6 +40,7 @@
 - [[Regularization]]
 	- [[L1 Regularization]]
 	- [[L2 Regularization]] ([[L2 Regularization|Weight Decay]])
+- [[Consistency Regularization]]
 - [[One-Hot Encoding]]
 - [[t-SNE]]
 - [[Bootstrap]]
@@ -110,7 +111,9 @@
 - [[Machine Learning]]
 - [[Softmax]]
 - [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
-- [[SwiGLU]] (Swish + GLU)
+- [[Leaky ReLU]]
+- [[Tanh]]
+- [[SwiGLU]] ([[Swish]] + GLU)
 - [[Overfitting]]
 - [[Underfitting]]
 - [[Feature Engineering]]
@@ -132,6 +135,7 @@
 - [[Self-Attention]]
 - [[Cross-Attention]]
 - [[Bidirectional Attention]]
+- [[Sparse Attention]]
 - [[Diffusion Model]]
 - [[Latent Diffusion Model]]
 - [[Latent Consistency Model]]
@@ -140,6 +144,8 @@
 - [[Adapter Fusion]]
 - [[Quantization]]
 - [[Model Pruning]]
+- [[Structured Pruning]]
+- [[Magnitude Pruning]]
 - [[Masking]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
@@ -183,6 +189,7 @@
 - [[Generative Adversarial Network]]
 - [[Adam]]
 - [[RMSProp]]
+- [[Adagrad]]
 - [[Residual Connection]]
 - [[Transformer]]
 - [[Encoder-Only Architecture]]
@@ -222,7 +229,7 @@
 - [[Weight-Decomposed Low-Rank Adaptation]] (DoRA)
 - [[Scaling Laws]]
 - [[Synthetic Data]]
-- [[Mixture-of-Experts]] (MoE)
+- [[Mixture of Experts]] (MoE)
 - [[Soft Mixture of Experts]] (sMoE)
 - [[Mixture-of-Depths]] (MoD)
 - [[Model Parallelism]]
@@ -232,9 +239,9 @@
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
 - [[LongRoPE]]
-- [[YaRN]]
+- [[YaRN]] (Yet another RoPE extensioN method)
 - [[Attention with Linear Biases]] (ALiBi)
-- [[Self-Play Fine-Tuning]] (Self-Play Fine-Tuning)
+- [[Self-Play Fine-Tuning]] (SPIN)
 - [[Canary GUID]]
 - [[Early Stopping]]
 - [[Learning Rate]]
@@ -246,6 +253,7 @@
 - [[Imitation Learning]]
 - [[Automatic Mixed-Precision Training]]
 - [[Quantization-Aware Training]]
+- [[Model-Aware Quantization]]
 - [[Xavier Initialization]]
 - [[He Initialization]]
 - [[Out-of-Bag Error]]
@@ -258,7 +266,7 @@
 - [[Direct Nash Optimization]] (DNO)
 - [[Stepwise Direct Preference Optimization]] (sDPO)
 - [[Odds Ratio Preference Optimization]] (ORPO)
-- [[Trust Region Policy Optimization]]
+- [[Trust Region Policy Optimization]] (TRPO)
 - [[Self-Consistency]]
 - [[Self-Ask]]
 - [[Self-RAG]]
@@ -271,6 +279,7 @@
 - [[Self-Enhancement Bias]]
 - [[Continual Pretraining]]
 - [[False Refuse]]
+- [[Lottery Ticket Hypothesis]]
 - [[Retrieval-Augmented Generation]] (RAG)
 - [[Retrieval-Augmented Generation (Model)]] (RAG)
 - [[CRAG|Corrective Retrieval Augmented Generation]] (CRAG)
@@ -278,7 +287,7 @@
 - [[CRINGE Loss]]
 - [[Pairwise Cringe Optimization]] (PCO)
 - [[Maximum Inner Product Search]] (MIPS)
-- [[Reinforced Self-Training]] (ReST)
+- [[Reinforced Self-Training]] (ReST/$ReST^{EM}$)
 - [[Shepherd]]
 - [[Prometheus]]
 - [[Prometheus 2]]
@@ -298,6 +307,7 @@
 - [[Sparse Retrieval]]
 - [[Dense Retrieval]]
 - [[Hybrid Search]]
+- [[Dense Passage Retrieval]] (DPR)
 - [[ColBERT]]
 - [[ColBERT-QA]]
 - [[Baleen]]
@@ -315,7 +325,7 @@
 - [[SPLADE]]
 - [[SPLADEv2]]
 - [[DRAGON]] (Dense Retrieval trained with Diverse Augmentation)
-- [[TART]]
+- [[TART]] (Task-Aware Retrieval with Instructions)
 - [[SANTA]] (Structure-Aware Dense Retrieval)
 - [[Fusion-in-Decoder]] (FiD)
 	- [[KG-FiD]] (Knowledge Graph - Fusion in Decoder)
@@ -388,6 +398,7 @@
 - [[Byte-Pair Encoding]] Tokenization
 - [[SentencePiece]] Tokenization
 - [[WordPiece]] Tokenization
+- [[Tiktoken]]
 - [[Self-Play]]
 - [[Self-Correct]]
 - [[Self-Instruct]]
@@ -631,6 +642,7 @@
 - [[LLaVA]]
 - [[MemGPT]]
 - [[FActScore]]
+- [[Alpagasus]]
 
 # Tools
 - [[ComfyUI]]
@@ -688,6 +700,7 @@
 - [[HumanEval]]
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
 - [[BIG-Bench Hard]]
+- [[BIG-Bench Lite]]
 - [[SWE-bench]]
 - [[DAWNBench]]
 - [[HELM]] (Holistic Evaluation of Language Models)
@@ -878,3 +891,4 @@
 - [[Matei Zaharia]] 🧱
 - [[Shreya Shankar]] 📊
 - [[Charles Frye]] 🟩
+- [[Georgei Gerganov]] 📦

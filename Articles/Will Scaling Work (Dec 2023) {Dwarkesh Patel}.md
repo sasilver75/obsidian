@@ -96,7 +96,7 @@ In the skeptic's opinion, it's not even work asking yet whether scaling will con
 - If there were some fundamental hard ceiling on deep learning and LLMs, shouldn't we have seen it before they started developing common sense, early reasoning, and the ability to think across abstractions? Why do you think there's some stubborn limit?
 - Think about how much better GPT-4 is than GPT-3; that's just a 100x scaleup; which sounds like a lot, until you consider that ==we can totally afford a further 10,000x scaleup of GPT-4 (eg GPT-6-level) before we touch even *one percent* of world GDP==...
 	- And that's before we account for 
-		- pre-training compute efficiency gains ([[Mixture-of-Experts]], [[FlashAttention]])
+		- pre-training compute efficiency gains ([[Mixture of Experts]], [[FlashAttention]])
 		- new post-training methods ([[Reinforcement Learning from Human Feedback|RLHF]], fine-tuning on [[Chain of Thought]], [[Self-Play]])
 		- hardware improvements
 
