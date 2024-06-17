@@ -8,12 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "216a373a45e23e4e",
+            "id": "55d82ff9b586998c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a3f5d5fad8321e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a66f99e7b7cc0be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TRL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d9bca48291f34c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -230,7 +269,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -371,25 +411,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "216a373a45e23e4e",
+  "active": "55d82ff9b586998c",
   "lastOpenFiles": [
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
+    "~ Vocabulary.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md",
+    "_attachments/Pasted image 20240617143121.png",
+    "_attachments/Pasted image 20240617142904.png",
+    "_attachments/Pasted image 20240617142513.png",
+    "TRL.md",
+    "_attachments/Pasted image 20240617142216.png",
+    "Self-Instruct.md",
+    "Imitation Learning.md",
+    "RETRO.md",
+    "BERTScore.md",
+    "_attachments/Pasted image 20240617132610.png",
+    "ROUGE.md",
+    "Reward Model.md",
+    "_attachments/Pasted image 20240617123639.png",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
     "_attachments/Pasted image 20240617113231.png",
     "_attachments/Pasted image 20240617112851.png",
-    "Self-Instruct.md",
     "_attachments/Pasted image 20240617112054.png",
     "Distillation.md",
     "_attachments/Pasted image 20240617110654.png",
     "DistilBERT.md",
-    "RETRO.md",
-    "_attachments/Pasted image 20240617110639.png",
-    "_attachments/Pasted image 20240617110628.png",
-    "_attachments/Pasted image 20240617110613.png",
-    "_attachments/Pasted image 20240617110315.png",
-    "_attachments/Pasted image 20240617110302.png",
-    "_attachments/Pasted image 20240617110300.png",
-    "~ Vocabulary.md",
     "Lottery Ticket Hypothesis.md",
     "Tanh.md",
     "~ Useful Pictures.md",
@@ -403,12 +448,6 @@
     "Catwalk.md",
     "Cataphora.md",
     "TART.md",
-    "Georgei Gerganov.md",
-    "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
-    "MDP.md",
-    "Articles/How to Generate and Use Synthetic Data for Finetuning (Jan 2024) {Eugene Yan}.md",
-    "WRAP.md",
-    "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
