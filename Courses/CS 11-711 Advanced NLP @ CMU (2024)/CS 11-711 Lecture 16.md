@@ -86,3 +86,23 @@ Relation Classification with NEural Networks (Zeng et al 2014)
 
 ![[Pasted image 20240617174639.png]]
 
+That was a very brief overview of how to create KBs from text data
+## Using Knowledge Bases to Inform Neural Models
+
+The first way is to improve embeddings
+- In this paper, they retrofitted embeddings to existing lexicons by doing post-hoc transforms of embeddings so that they match the KB better
+- They start with pretrained embeddings, and had the double objective of making the transformed embeddings close to neighbors and close to original embeddings.
+	- They had a regularization term (left side) that says "don't move your embeddings too far from where they were initialized", but (on the right) you want to move embeddings closer to eachother if they're synonyms (determined using WordNet)
+![[Pasted image 20240617181547.png]]
+
+
+Let's say we had a model that was able to identify entities over different contexts
+- If you had lots of examples of Joe Biden being referred to in many different ways (Joseph Biden, Joe R Biden, POTUS 46, etc.), you could find examples of things that match... and do entity linking, and encourage the embeddings for all of these instances  to be closer together, which could improve Question Answering/retrieval/etc.
+
+
+How do we look up knowledge in the KG and provide it to the model?
+![[Pasted image 20240617182822.png]]
+Instead, of predicting the correct words exactly, your LM can predict things like "`<birth date>`", and then post-hoc you can do retrieval (?) to fill in the gaps
+
+
+# OKAY Honestly this lecture is pretty dry and I'm not sure that it's really going to help me right now. But if I ever want to know more about 10 year old papers on knowledge graphs, I know where to go.
