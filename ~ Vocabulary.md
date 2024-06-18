@@ -145,6 +145,9 @@
 - [[Adapter]]
 - [[Adapter Fusion]]
 - [[Quantization]]
+- [[Quantization-Aware Training]] (QAT)
+- [[Post-Training Quantization]] (PTQ)
+- [[Model-Aware Quantization]]
 - [[Model Pruning]]
 - [[Structured Pruning]]
 - [[Magnitude Pruning]]
@@ -194,6 +197,7 @@
 - [[RMSProp]]
 - [[Adagrad]]
 - [[Residual Connection]]
+- [[bfloat16]]
 - [[Transformer]]
 - [[Encoder-Only Architecture]]
 - [[Decoder-Only Architecture]]
@@ -255,8 +259,6 @@
 - [[OSS-Instruct]]
 - [[Imitation Learning]]
 - [[Automatic Mixed-Precision Training]]
-- [[Quantization-Aware Training]]
-- [[Model-Aware Quantization]]
 - [[Xavier Initialization]]
 - [[He Initialization]]
 - [[Out-of-Bag Error]]
@@ -660,6 +662,8 @@
 - [[MergeKit]]
 - [[GGML]] File format
 - [[GGUF]] File Format
+- [[GPTQ]]
+- [[NF4]]
 - [[Ludwig]]
 -  [[Eleuther LM Evaluation Harness]]
 - [[LoRAX]]
@@ -695,6 +699,7 @@
 -  [[Zeta Alpha]] 📝
 - [[Weights and Biases]] 📊
 - [[Replicate]] 🚂
+- [[bitsandbytes]]
 
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*

@@ -33,7 +33,7 @@ Refresher on Floating Point Numbers
 	- Exponent, which scales how big or small the float is
 ![[Pasted image 20240617095618.png]]
 ![[Pasted image 20240617095716.png]]
-==Float16== is pretty common, but for ML, we often have bery small or big values (underflow/overflow), so a very popular datatype designed for ML is balled ==bfloat16==; the idea is we just move some bits from the fractional to the exponential part, so we have a bigger range of values.
+==Float16== is pretty common, but for ML, we often have bery small or big values (underflow/overflow), so a very popular datatype designed for ML is balled ==[[bfloat16]]==; the idea is we just move some bits from the fractional to the exponential part, so we have a bigger range of values.
 
 A way to get a smaller footprint in models is to quantize to integers
 ![[Pasted image 20240617095921.png]]

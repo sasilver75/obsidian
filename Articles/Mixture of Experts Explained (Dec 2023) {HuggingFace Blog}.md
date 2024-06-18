@@ -137,7 +137,7 @@ This capacity above evenly divides the number of tokens in the batch across the 
 
 Switch Transformers also revisit and simplify the load-balancing loss mentioned above -- for each Switch layer, the auxiliary loss is added to the total model loss during training... This loss encourages uniform routing and can be weighted using a hyperparameter.
 
-The authors also experiment with selective precision, such as ==training the experts with `bfloat16` while using full precision for the rest of the computations==.
+The authors also experiment with selective precision, such as ==training the experts with `[[bfloat16]]` while using full precision for the rest of the computations==.
 - Lower precision reduced communication costs between processors, computation costs, and memory for storing tensors.
 - The initial experiments in which both the experts and the gate networks were trained in `bfloat16` yielded more unstable training.
 This was in particular, due to the router computation -- as the router has an exponentiation function, having higher precision is important. To mitigate these instabilities, full precision was used for the router as well.
