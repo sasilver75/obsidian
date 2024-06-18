@@ -2,7 +2,9 @@
 aliases:
   - Hybrid Retrieval
 ---
-Using a traditional search index plus embedding-based search.
+Using a traditional search index plus embedding-based search. Might also incorporate metadata filtering.
+
+![[Pasted image 20240618124538.png]]
 
 While embedding-based search is great in many instances, there are situations in which it falls short, like:
 - Searching for a person or object's name (eg Eugene)
