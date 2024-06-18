@@ -1,5 +1,6 @@
-From [[Nils Reimers]]
+Library from [[Nils Reimers]] and others
 Github: https://github.com/UKPLab/sentence-transformers
+- v3.0 released on May 28, 2024
 
 Related to [[Sentence-BERT|sBERT]] (Sentence-BERT)
 

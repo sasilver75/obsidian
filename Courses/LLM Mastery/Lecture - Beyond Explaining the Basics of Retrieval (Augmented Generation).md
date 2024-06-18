@@ -65,12 +65,102 @@ For people really into retrieval, there are a bunch of rerankers that are not cr
 ![[Pasted image 20240617201053.png]]
 Here's our pipeline now -- but there's something else that we're still missing...
 
-Semantic search by embeddings is powerful -- we love vectors. But it's very hard for some things; you're asking your model to boil a long passage into an (eg) 512, 1024-dimensioned vector.
-- When we train an embedding, we train the model to retain information that's *useful for the training objective/queries*; not to retain *all information* in the passage!
+Semantic search by embeddings is powerful -- we love vectors. But it's very hard if you think about it; you're asking your model to boil a long passage into a single (eg) 512 or 1024-dimensioned vector, which we hope contains all of the *relevant* information in the document.
+- When we train an embedding, we train the model to retain information that's ***useful for the training objective/queries***; not to retain ***all** information* in the passage!
+	- (Retaining all of the information would be impossible, since embedding is basically compression)
 
-When you then use that embedding model on your *own* (slightly)
+When you then use that embedding model on your *own* (slightly different, out-of-distribution) data, it's likely that you're going to be missing some *actually relevant* information.
+- Especially if you're trying to transfer to some specific domain like law or medicine, with a lot of jargon.
+
+These are reasons why you should also **ALWAYS** have keyword search/full-text search ([[TF-IDF]], [[BM25]]) in your pipeline!
+- TF-IDF assigns every word in a document a weight based on how rare they are.
+- BM25 was invented in the 70s; "The reason IR hasn't taken off like NLP has is because the baseline is so good." -- and it's just word-counting with a weighting formula!
+
+![[Pasted image 20240618123520.png]]
+Comparing 
+- Unless you go into very overtrained embeddings, BM25 is competitive with virtually all deep-learning-based approaches (at the time of [[BEIR]] 3 years ago)
+
+Tf-IDF MVP++
+![[Pasted image 20240618123557.png]]
+Now, we're creating [[Hybrid Search]]
+- There are many ways to combine the scores; one way that people often do (lol) is .7 to the vector score and .3 to the full-text search score.
+
+Metadata Filtering
+- This really completes your pipeline.
+- Outside of academic benchmarks, documents don't exist in a vacuum -- there's a lot of metadata around them, some of which can be very informative!
+
+Given query
+> "Can you get me the Cruise division financial report for Q4 2022?"
+- There's a lot of ways that semantic search can *fail* here:
+	- It might fetch documents that don't meet one or more of the criteria above (Cruise division, financial report, Q4, 2022)
+	- If the number of documents you search for (k) is too high, you might be passing *irrelevant reports* back to your LLM, hoping that it manages to figure out which set of numbers is correct!
+
+![[Pasted image 20240618124125.png]]
+
+![[Pasted image 20240618124223.png]]
+
+The final compact MVP++ isn't so scary though -- only about 25 lines of code if you just 
 
 
+![[Pasted image 20240618124251.png]]
+He likes LanceDB, but he tries not to take side in the VectorDB wars, he thinks they all have their place.
+- But he thinks that LanceDB is great for MVPs
+Steps
+- We create our Bi-Encoder
+- Define our Document Structure
+- Add our documents to a table in LanceDB and turn it into a full full text search index (TF-IDF)
+- We're using rerankers from Cohere 
+- Given a query, we filter using metadata (category=film), get the top 10 results, and then rerank using our Cohere re-rankers.
+
+At the end
+- It's definitely worth learning about Sparse (like [[SPLADE]], great for in-domain) and multi-vector methods (like [[ColBERT]], very good out-of-domain) if you're interested.
+
+"You want your bi-encoder to be a little 'looser', which high recall, and then trust your reranker to select the relevant documents from the top k."
+
+"I don't spend as much time thinking about chunking as I do. I'm hopeful about LM-driven chunking, but it doesn't work very well so far."
+
+"I think with ColBERT you can get away without finetuning for a bit longer, but if you company says you have $500, spend $480 on OpenAI to generate synthetic questions to finetune your {encoders?} to get better results. Always finetune if you can."
+
+What are some libraries that you recommend for finetuning embeddings?
+"I'd recommend [[Sentence Transformers]]; no need to reimplement the wheel, they've got the basics implemented really well, especially with their recent 3.0 release."
+
+Can you give an pointers to the flow of finetuning embedding models?
+- You need queries and documents and you need to tell your model "for X query, Y document is relevant, and Z is not relevant" (triplet loss). I'm not going to go too much into this rabbit hole, but when you have triplets, you also want to use hard negatives, which is where you use retrieval to generate hard negatives that look almost like positives but aren't; this is useful to teach your model with. If you don't have user queries from production, write your own queries.
+
+Please share your thoughts on Graph RAG?
+- I see it mentioned all the time, but it's not something that's come up for me at all. I think it's cool, but that's pretty much the full extent of my knowledge.
+
+When you have long context windows, does that allow you to do anything different with RAG than you were able to before? Longer documents? etc?
+- Yeah two main things: I can use longer documents... 
+- There are a lot of diminishing returns in IR where getting Recall@10, Recall@100 is very very easy, Recall@5 is hard, and Recall@3 or Recall@1 are very hard.
+
+Is there an open-source project to look at to help us evaluate a difference in result quality from different IR strategies?
+- It's unfortunate that there's probably not one that systematically goes through every step.
+- Like many things in retrieval, many things are conventional wisdom... unless you dig deep into the papers, it's quite rare to find good resources ((?)).
+
+Tutorial on Fine-Tuning Encoders?
+- I recommend the Sentence Transformers documentation!
+
+Do you have go-to embedding models?
+- I think my go-to- are the Cohere ones; it's nice to work with APIs, it works really well, and it's cheap -- I'd use ColBERT if I'm using something in my own pipeline... but it depends on your use case.
+- I do have strong opinions on... if you go to [[MTEB]], you'll see a lot of LLMs as encoders, and I'd advise against that, because the latency for these are very high, and many of these don't generalize well.
+	- Stick to the small ones between 100M-1B parameters... Try {} {}, T5.
+
+Anyone have experience building RAG with just keyword BM25 as retriever? Our work uses Elasticsearch... is there a way to keep using Elasticsearch with RAG, or do you mainly use vector databases?
+- Yeah, I've used Elasticsearch a bit -- it's perfectly possible, but you lose the semantic search aspect, though I think Elasticsearch has a vectorDB offering now too...
+- You can alway use BM25 and then plug in a reranker.
+
+Is it worth incorporating the BM25 scores during the reranking step too?
+- Probably not, no.
+
+Have you used approaches where you try (in some loss function somewhere) encourage diversity in terms of pulling passages from *many documents*, instead of just a few?
+- I don't think I can give you a clear answer, I don't know much about that.
+
+Any thoughts on Hierarchical RAG?
+- I have not used it, and I don't think that it's needed for traditional pipelines -- there are a lot of other things you can improve.
+
+I'm eager to learn with answer.ai will come up with any books on LM applications in the future?
+- I don't think so, but never say never.
 
 
 
