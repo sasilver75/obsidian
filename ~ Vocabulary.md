@@ -288,6 +288,7 @@
 - [[CRAG|Corrective Retrieval Augmented Generation]] (CRAG)
 - [[Instruction Backtranslation]]
 - [[CRINGE Loss]]
+- [[Hinge Loss]]
 - [[Pairwise Cringe Optimization]] (PCO)
 - [[Maximum Inner Product Search]] (MIPS)
 - [[Reinforced Self-Training]] (ReST/$ReST^{EM}$)

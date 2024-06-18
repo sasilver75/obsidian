@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ensemble Learning.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1260079f253bc73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -304,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ensemble Learning.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -321,7 +334,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ensemble Learning.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ensemble Learning.md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md"
               }
             }
           },
@@ -377,7 +390,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ensemble Learning.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -426,21 +439,23 @@
   },
   "active": "5e9db4731ebc8ffb",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240617174639.png",
+    "_attachments/Pasted image 20240617174519.png",
+    "_attachments/Pasted image 20240617174245.png",
+    "_attachments/Pasted image 20240617174033.png",
+    "_attachments/Pasted image 20240617173638.png",
+    "~ Vocabulary.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md",
+    "_attachments/Pasted image 20240617173429.png",
+    "_attachments/Pasted image 20240617172358.png",
+    "_attachments/Pasted image 20240617172306.png",
+    "_attachments/Pasted image 20240617172132.png",
+    "_attachments/Pasted image 20240617165933.png",
+    "Ensemble Learning.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 14.md",
     "RETRO.md",
-    "Ensemble Learning.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240617162430.png",
-    "_attachments/Pasted image 20240617162256.png",
-    "_attachments/Pasted image 20240617155415.png",
-    "_attachments/Pasted image 20240617154620.png",
-    "_attachments/Pasted image 20240617154453.png",
-    "_attachments/Pasted image 20240617153312.png",
     "Untitled 1.md",
-    "_attachments/Pasted image 20240617151458.png",
-    "_attachments/Pasted image 20240617150730.png",
-    "_attachments/Pasted image 20240617150000.png",
-    "_attachments/Pasted image 20240617145520.png",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md",
     "TRL.md",
     "Self-Instruct.md",
@@ -460,7 +475,6 @@
     "Courses/XCS224U NLU @ Stanford (2023)/XCS224U Lecture 3.md",
     "Masked Language Modeling.md",
     "Transformer.md",
-    "ViT.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
