@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d8a76eed2b7f1bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d08fe21cbcd059d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Benjamin Clavié.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md"
               }
             }
           },
@@ -167,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -216,6 +243,21 @@
   },
   "active": "5d9bca48291f34c7",
   "lastOpenFiles": [
+    "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md",
+    "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
+    "_attachments/Pasted image 20240617201053.png",
+    "_attachments/Pasted image 20240617200943.png",
+    "_attachments/Pasted image 20240617195428.png",
+    "_attachments/Pasted image 20240617192819.png",
+    "~ Vocabulary.md",
+    "Benjamin Clavié.md",
+    "_attachments/Pasted image 20240617192610.png",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+    "_attachments/Pasted image 20240617185545.png",
+    "_attachments/Pasted image 20240617185506.png",
+    "_attachments/Pasted image 20240617185242.png",
+    "_attachments/Pasted image 20240617184259.png",
+    "_attachments/Pasted image 20240617184018.png",
     "Distillation.md",
     "Context Distillation.md",
     "FAISS.md",
@@ -226,20 +268,9 @@
     "Reinforced Self-Training.md",
     "Mixture of Experts.md",
     "Self-Instruct.md",
-    "~ Vocabulary.md",
     "TRL.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 14.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md",
-    "_attachments/Pasted image 20240617182822.png",
-    "_attachments/Pasted image 20240617181547.png",
-    "_attachments/Pasted image 20240617174639.png",
-    "_attachments/Pasted image 20240617174519.png",
-    "_attachments/Pasted image 20240617174245.png",
-    "_attachments/Pasted image 20240617174033.png",
-    "_attachments/Pasted image 20240617173638.png",
-    "_attachments/Pasted image 20240617173429.png",
-    "_attachments/Pasted image 20240617172358.png",
-    "_attachments/Pasted image 20240617172306.png",
     "Ensemble Learning.md",
     "Untitled 1.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md",
@@ -248,10 +279,6 @@
     "ROUGE.md",
     "Reward Model.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
-    "DistilBERT.md",
-    "Tanh.md",
-    "~ Useful Pictures.md",
-    "Activation Function.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
