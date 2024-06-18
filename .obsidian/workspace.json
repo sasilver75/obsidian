@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md"
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md"
               }
             }
           },
@@ -194,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,27 +243,29 @@
   },
   "active": "6c6fa410605283fc",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240618140805.png",
+    "_attachments/Pasted image 20240618140338.png",
+    "_attachments/Pasted image 20240618140259.png",
+    "_attachments/Pasted image 20240618140244.png",
+    "_attachments/Pasted image 20240618140148.png",
+    "_attachments/Pasted image 20240618140029.png",
+    "_attachments/Pasted image 20240618140015.png",
     "Sentence Transformers.md",
-    "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+    "_attachments/Pasted image 20240618135523.png",
+    "_attachments/Pasted image 20240618135346.png",
+    "_attachments/Pasted image 20240618134607.png",
+    "_attachments/Pasted image 20240618134303.png",
     "Hybrid Search.md",
-    "_attachments/Pasted image 20240618124538.png",
-    "_attachments/Pasted image 20240618124251.png",
-    "_attachments/Pasted image 20240618124223.png",
-    "_attachments/Pasted image 20240618124125.png",
-    "_attachments/Pasted image 20240618123557.png",
-    "_attachments/Pasted image 20240618123520.png",
+    "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
     "Charles Frye.md",
     "~ Vocabulary.md",
     "Shreya Shankar.md",
     "Matei Zaharia.md",
     "Jeff Dean.md",
     "Noam Chomsky.md",
-    "_attachments/Pasted image 20240618122408.png",
-    "_attachments/Pasted image 20240618121809.png",
     "Georgei Gerganov.md",
-    "_attachments/Pasted image 20240618121738.png",
     "Benjamin Clavié.md",
-    "_attachments/Pasted image 20240618121649.png",
     "bfloat16.md",
     "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md",
     "GPTQ.md",
@@ -273,12 +275,10 @@
     "Post-Training Quantization.md",
     "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
     "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md",
     "Distillation.md",
     "Context Distillation.md",
     "FAISS.md",
-    "Approximate Nearest Neighbor Search.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
