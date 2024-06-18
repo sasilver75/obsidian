@@ -897,3 +897,4 @@
 - [[Shreya Shankar]] 📊
 - [[Charles Frye]] 🟩
 - [[Georgei Gerganov]] 📦
+- [[Benjamin Clavié]] 🇫🇷🍝
