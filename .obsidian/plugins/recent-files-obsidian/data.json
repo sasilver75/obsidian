@@ -1,24 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "CS 11-711 Lecture 20",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md"
-    },
-    {
-      "basename": "CS685 Lecture 20",
-      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md"
-    },
-    {
-      "basename": "Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation)",
-      "path": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md"
+      "basename": "Shreya Shankar",
+      "path": "Shreya Shankar.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation)",
+      "path": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md"
+    },
+    {
+      "basename": "Charles Frye",
+      "path": "Charles Frye.md"
+    },
+    {
+      "basename": "Georgei Gerganov",
+      "path": "Georgei Gerganov.md"
+    },
+    {
       "basename": "Benjamin Clavié",
       "path": "Benjamin Clavié.md"
+    },
+    {
+      "basename": "bfloat16",
+      "path": "bfloat16.md"
+    },
+    {
+      "basename": "What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}",
+      "path": "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md"
+    },
+    {
+      "basename": "GPTQ",
+      "path": "GPTQ.md"
+    },
+    {
+      "basename": "Quantization-Aware Training",
+      "path": "Quantization-Aware Training.md"
+    },
+    {
+      "basename": "bitsandbytes",
+      "path": "bitsandbytes.md"
+    },
+    {
+      "basename": "Post-Training Quantization",
+      "path": "Post-Training Quantization.md"
+    },
+    {
+      "basename": "Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}",
+      "path": "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 11",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 20",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md"
+    },
+    {
+      "basename": "CS685 Lecture 20",
+      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md"
     },
     {
       "basename": "Distillation",
@@ -101,10 +145,6 @@
       "path": "Reward Model.md"
     },
     {
-      "basename": "CS 11-711 Lecture 11",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
-    },
-    {
       "basename": "DistilBERT",
       "path": "DistilBERT.md"
     },
@@ -137,10 +177,6 @@
       "path": "Cataphora.md"
     },
     {
-      "basename": "Georgei Gerganov",
-      "path": "Georgei Gerganov.md"
-    },
-    {
       "basename": "Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}",
       "path": "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Monte-Carlo Tree Search",
       "path": "Monte-Carlo Tree Search.md"
-    },
-    {
-      "basename": "Markov Chain Monte Carlo (MCMC) Sampling, Part 1 - The Basics (October 2019) {Simon Cars}",
-      "path": "Articles/Markov Chain Monte Carlo (MCMC) Sampling, Part 1 - The Basics (October 2019) {Simon Cars}.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 10",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 10.md"
-    },
-    {
-      "basename": "BM25",
-      "path": "BM25.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 8",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 8.md"
-    },
-    {
-      "basename": "Semantic Text Similarity",
-      "path": "Semantic Text Similarity.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 6",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 6.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
-    },
-    {
-      "basename": "Closed-Book",
-      "path": "Closed-Book.md"
-    },
-    {
-      "basename": "Open-Book",
-      "path": "Open-Book.md"
     }
   ],
   "omittedPaths": [],

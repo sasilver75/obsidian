@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d9bca48291f34c7",
+            "id": "588aea4b72622234",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d8e8dfed277aa67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shreya Shankar.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,14 +52,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Benjamin Clavié.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10f86bf98d4e71c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c6fa410605283fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Charles Frye.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bfloat16",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -121,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+                "file": "Shreya Shankar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+                "file": "Shreya Shankar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md"
+                "file": "Shreya Shankar.md"
               }
             }
           },
@@ -194,7 +233,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+                "file": "Shreya Shankar.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,23 +280,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5d9bca48291f34c7",
+  "active": "6d8e8dfed277aa67",
   "lastOpenFiles": [
-    "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md",
+    "_attachments/Pasted image 20240618122408.png",
+    "~ Vocabulary.md",
+    "Shreya Shankar.md",
     "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
+    "Charles Frye.md",
+    "_attachments/Pasted image 20240618121809.png",
+    "Georgei Gerganov.md",
+    "_attachments/Pasted image 20240618121738.png",
+    "Benjamin Clavié.md",
+    "_attachments/Pasted image 20240618121649.png",
+    "bfloat16.md",
+    "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md",
+    "GPTQ.md",
+    "Quantization-Aware Training.md",
+    "bitsandbytes.md",
+    "Articles/Untitled 1.md",
+    "Post-Training Quantization.md",
+    "_attachments/Pasted image 20240618105116.png",
+    "_attachments/Pasted image 20240618105044.png",
+    "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
+    "_attachments/Pasted image 20240618104932.png",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
+    "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md",
     "_attachments/Pasted image 20240617201053.png",
     "_attachments/Pasted image 20240617200943.png",
     "_attachments/Pasted image 20240617195428.png",
     "_attachments/Pasted image 20240617192819.png",
-    "~ Vocabulary.md",
-    "Benjamin Clavié.md",
-    "_attachments/Pasted image 20240617192610.png",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
-    "_attachments/Pasted image 20240617185545.png",
-    "_attachments/Pasted image 20240617185506.png",
-    "_attachments/Pasted image 20240617185242.png",
-    "_attachments/Pasted image 20240617184259.png",
-    "_attachments/Pasted image 20240617184018.png",
     "Distillation.md",
     "Context Distillation.md",
     "FAISS.md",
@@ -266,19 +318,6 @@
     "Lottery Ticket Hypothesis.md",
     "TART.md",
     "Reinforced Self-Training.md",
-    "Mixture of Experts.md",
-    "Self-Instruct.md",
-    "TRL.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 14.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md",
-    "Ensemble Learning.md",
-    "Untitled 1.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md",
-    "Imitation Learning.md",
-    "BERTScore.md",
-    "ROUGE.md",
-    "Reward Model.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
