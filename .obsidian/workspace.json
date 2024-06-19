@@ -45,6 +45,175 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e0a3c67ef93624e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cf888962753df4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loss Function.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3307897b52bc974b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hyperparameter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3d55089f401ef28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebfc9544562a0589",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hyperparameter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "092660446a2a9c5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c791af72247bb185",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lighteval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "273b697decb97f05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spaCy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54d3526a8722a33c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bitsandbytes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e924afca10ff9697",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPTQ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f915d7cf424a856b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NF4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f34f30fb56d1f647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PIL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "113665c9a2279cbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -245,21 +414,34 @@
   },
   "active": "0d65b0458d91e485",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Loss Function.md",
     "Courses/Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
+    "Hyperparameter.md",
+    "_attachments/Pasted image 20240618194711.png",
+    "Softmax.md",
+    "Lighteval.md",
+    "Multimodal.md",
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 4.md",
+    "spaCy.md",
+    "bitsandbytes.md",
+    "GPTQ.md",
+    "NF4.md",
+    "Epoch.md",
+    "PIL.md",
+    "_attachments/Pic - Adam Optimizer in PyTorch.png",
+    "Epoch AI.md",
+    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
     "_attachments/Pasted image 20240618171806.png",
     "Hybrid Search.md",
     "Courses/Tutorials",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 4.md",
     "_attachments/Pasted image 20240618161956.png",
     "_attachments/Pasted image 20240618160121.png",
     "_attachments/Pasted image 20240618155958.png",
     "_attachments/Pasted image 20240618155653.png",
     "_attachments/Pasted image 20240618155639.png",
     "_attachments/Pasted image 20240618155026.png",
-    "Multimodal.md",
     "_attachments/Pasted image 20240618154825.png",
-    "_attachments/Pasted image 20240618154802.png",
-    "_attachments/Pasted image 20240618154758.png",
     "Prosody.md",
     "Sentence Transformers.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 21.md",
@@ -267,20 +449,8 @@
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md",
     "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md",
     "Charles Frye.md",
-    "~ Vocabulary.md",
     "Shreya Shankar.md",
     "Matei Zaharia.md",
-    "Jeff Dean.md",
-    "Noam Chomsky.md",
-    "Georgei Gerganov.md",
-    "Benjamin Clavié.md",
-    "bfloat16.md",
-    "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md",
-    "GPTQ.md",
-    "Quantization-Aware Training.md",
-    "bitsandbytes.md",
-    "Post-Training Quantization.md",
-    "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",

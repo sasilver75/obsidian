@@ -31,6 +31,8 @@
 - [[Chi-Squared]]
 - [[Multicollinearity]]
 - [[Degrees of Freedom]]
+- [[Hyperparameter]]
+- [[Loss Function]]
 
 # Analytics/Misc. Modeling
 - [[Type One Error]]
@@ -118,6 +120,7 @@
 - [[SwiGLU]] ([[Swish]] + GLU)
 - [[Overfitting]]
 - [[Underfitting]]
+- [[Epoch]]
 - [[Feature Engineering]]
 - [[Prompting]]
 - [[Prompt Tuning]]
@@ -652,30 +655,31 @@
 - [[Alpagasus]]
 
 # Tools
-- [[ComfyUI]]
-- [[Automatic1111]] 
-- [[Axolotl]]
-- [[Unsloth]]
-- [[Oogabooga]]
-- [[Gradio]]
-- [[Streamlit]]
-- [[MergeKit]]
-- [[GGML]] File format
-- [[GGUF]] File Format
-- [[GPTQ]]
-- [[NF4]]
+- [[ComfyUI]] 👨‍🔬🖼️
+- [[Automatic1111]] 👨‍🔬🖼️
+- [[Axolotl]] 👨‍🔬⚗️
+- [[Unsloth]] 👨‍🔬⚗️
+- [[Oogabooga]] 👨‍🔬⚗️
+- [[Gradio]] ⚒️⚡
+- [[Streamlit]] ⚒️⚡
+- [[MergeKit]] 🙂+🤠
+- [[PIL]] (Python Image Library) 🖼️
+- [[GGML]] File format 💿
+- [[GGUF]] File Format 💿
+- [[GPTQ]] 🐜
+- [[NF4]] (Normal Float 4-Bit) 🐜
 - [[Ludwig]]
 -  [[Eleuther LM Evaluation Harness]]
-- [[LoRAX]]
+- [[LoRAX]] ⚡🤖
 - [[vLLM]]
-- [[Datatrove]]
-- [[Lighteval]]
+- [[Datatrove]] 🔎📝
+- [[Lighteval]] ⚡🔬
 - [[ChatML]]
-- [[Airoboros]]
-- [[Instructor]]
-- [[Outlines]]
+- [[Airoboros]] 🤖💽
+- [[Instructor]] 👮‍♂️🤖
+- [[Outlines]] 👮‍♂️🤖
 - [[Argilla]]
-- [[Distilabel]]
+- [[Distilabel]] 🤖💽
 - [[LabelStudio]]
 - [[CleanLab]]
 - [[AlpacaFarm]]
@@ -684,22 +688,22 @@
 - [[Safetensors]]
 - [[llama.cpp]]
 - [[fastText]]
-- [[Trafilatura]] 📝
+- [[Trafilatura]] 🔎📝
 - [[Langtrace]] (Unsure if this should be here.)
-- [[LangChain]] ⛓️
-- [[LangSmith]] 📊
-- [[Modal]] 🟩
-- [[RAGAS]] 📝📊
-- [[Sentence Transformers]]
-- [[Weave]]
-- [[Natural Language Toolkit]] (NLTK)
-- [[spaCy]]
-- [[HuggingFace Tokenizers]]
-- [[EvalGen]]
+- [[LangChain]] 🗣️⛓️
+- [[LangSmith]] 🗣️🔬
+- [[Modal]] 🟩🤖
+- [[RAGAS]] 📝🔬
+- [[Sentence Transformers]] 📊
+- [[Weave]] 🗣️🔬
+- [[Natural Language Toolkit]] (NLTK) 🧰🛠️
+- [[spaCy]] 🪙🧨
+- [[HuggingFace Tokenizers]] 🪙🤗
+- [[EvalGen]] 🧪
 -  [[Zeta Alpha]] 📝
 - [[Weights and Biases]] 📊
 - [[Replicate]] 🚂
-- [[bitsandbytes]]
+- [[bitsandbytes]] 🐜
 
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*

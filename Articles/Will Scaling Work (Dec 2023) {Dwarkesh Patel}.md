@@ -19,7 +19,7 @@ Questions asked:
 # Will we run out of data?
 ### Skeptic
 - We're about to run out of high-quality language data next year!
-	- [[Epoch AI]] says that we may exhaust the stock of high-quality **language** data by 2026, and low-quality language data by 2030-2050. It also estimates that we might run out of vision data by 2030 - 2060. It also estimates that we might run out of vision data by 2030 - 2060.
+	- Epoch AI says that we may exhaust the stock of high-quality **language** data by 2026, and low-quality language data by 2030-2050. It also estimates that we might run out of vision data by 2030 - 2060. It also estimates that we might run out of vision data by 2030 - 2060.
 		- [Chinchilla's Wild Implications](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) argued that ==training data would soon become a bottleneck for scaling large language models==.  "Data, not size, is the currently-active constraint on language-modeling performance. Current returns to additional data are immense, and current returns to model size are miniscule! In fact, most recent landmark models are *wastefully big!*"
 - Even handwaving scaling curves seriously imply that we'll 'll need 5 orders of magnitude (100,000x) more data than we seem to have (assuming same data efficiency).
 	- Multimodal data will give us more data, and we can recycle tokens on multiple epochs, and use [[Curriculum Learning]].
