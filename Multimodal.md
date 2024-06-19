@@ -2,6 +2,7 @@
 aliases:
   - Multimodality
 ---
+![[Pasted image 20240618153533.png]]
 
 ![[Pasted image 20240608095521.png]]
 Above: From CMU Multimodal Machine Learning
@@ -53,6 +54,7 @@ Above:
 ==Association== ("Co-occurrence"/"Correlation"): If every time you say "woof", we point at a table, we eventually do an association with these objects. We assume that if things co-occur often, they share some meaning.
 ==Correspondence==: Driven by human knowledge. We humans decide that there's a correspondence -- not just driven by co-occurrence. Maybe two things co-occur very rarely, but we humans decide that they are highly related! Maybe there's a temporal contingency (some event comes after/before the other).
 
+![[Pasted image 20240618154825.png]]
 
 ==Interaction:==
 When you have multiple modalities that are going to interact, you have to at some point ==Interact== them together! We have to learn some model that can learn some representation of the fusion of modalities.
