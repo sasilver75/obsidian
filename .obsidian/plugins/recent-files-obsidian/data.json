@@ -5,16 +5,68 @@
       "path": "Courses/Tutorials/PyTorch Official Tutorial - Learn the Basics.md"
     },
     {
-      "basename": "Hybrid Search",
-      "path": "Hybrid Search.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Loss Function",
+      "path": "Loss Function.md"
+    },
+    {
+      "basename": "Hyperparameter",
+      "path": "Hyperparameter.md"
+    },
+    {
+      "basename": "Softmax",
+      "path": "Softmax.md"
+    },
+    {
+      "basename": "Lighteval",
+      "path": "Lighteval.md"
+    },
+    {
+      "basename": "Multimodal",
+      "path": "Multimodal.md"
     },
     {
       "basename": "CS 11-777 Lecture 4",
       "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 4.md"
     },
     {
-      "basename": "Multimodal",
-      "path": "Multimodal.md"
+      "basename": "spaCy",
+      "path": "spaCy.md"
+    },
+    {
+      "basename": "bitsandbytes",
+      "path": "bitsandbytes.md"
+    },
+    {
+      "basename": "GPTQ",
+      "path": "GPTQ.md"
+    },
+    {
+      "basename": "NF4",
+      "path": "NF4.md"
+    },
+    {
+      "basename": "Epoch",
+      "path": "Epoch.md"
+    },
+    {
+      "basename": "PIL",
+      "path": "PIL.md"
+    },
+    {
+      "basename": "Pic - Adam Optimizer in PyTorch",
+      "path": "_attachments/Pic - Adam Optimizer in PyTorch.png"
+    },
+    {
+      "basename": "Will Scaling Work (Dec 2023) {Dwarkesh Patel}",
+      "path": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md"
+    },
+    {
+      "basename": "Hybrid Search",
+      "path": "Hybrid Search.md"
     },
     {
       "basename": "Prosody",
@@ -43,10 +95,6 @@
     {
       "basename": "Charles Frye",
       "path": "Charles Frye.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Shreya Shankar",
@@ -81,16 +129,8 @@
       "path": "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md"
     },
     {
-      "basename": "GPTQ",
-      "path": "GPTQ.md"
-    },
-    {
       "basename": "Quantization-Aware Training",
       "path": "Quantization-Aware Training.md"
-    },
-    {
-      "basename": "bitsandbytes",
-      "path": "bitsandbytes.md"
     },
     {
       "basename": "Post-Training Quantization",
@@ -159,46 +199,6 @@
     {
       "basename": "CS 11-711 Lecture 16",
       "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 16.md"
-    },
-    {
-      "basename": "Ensemble Learning",
-      "path": "Ensemble Learning.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 12",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 12.md"
-    },
-    {
-      "basename": "Imitation Learning",
-      "path": "Imitation Learning.md"
-    },
-    {
-      "basename": "BERTScore",
-      "path": "BERTScore.md"
-    },
-    {
-      "basename": "ROUGE",
-      "path": "ROUGE.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
-    },
-    {
-      "basename": "DistilBERT",
-      "path": "DistilBERT.md"
-    },
-    {
-      "basename": "Tanh",
-      "path": "Tanh.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     }
   ],
   "omittedPaths": [],
