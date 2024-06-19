@@ -187,8 +187,50 @@ z = x.view(1,7)
 z, z.shape  # (tensor([[1., 2., 3., 4., 5., 6., 7.]]), torch.Size([1, 7]))  ; Note that this appears to be the same as the results from reshape, but reshape actually resahpes and returns a reference to a new object. 
 
 # If we want to stack our new tensor on top of itself four times, we can do so with torch.stack!
+x_stacked = torch.stack([x,x,x,x], dim=0)  # dim=0 means stack along the rows, i.e. vertically
+x_stacked
+tensor([[5., 2., 3., 4., 5., 6., 7.],
+        [5., 2., 3., 4., 5., 6., 7.],
+        [5., 2., 3., 4., 5., 6., 7.],
+        [5., 2., 3., 4., 5., 6., 7.]])
 
+# What about removing all single dimensions from a tensor? We can do this using torch.squeeze()
+x_reshaped, x_reshaped.size  # tensor([[5., 2., 3., 4., 5., 6., 7.]]), torch.Size([1,7])
+x_squeezed= x_reshaped.squeeze()
+x_squeezed, x_squeezed.size  # tensor([5.,2.,3.,4.,5.,6.,7.]), torch.Size([7])
 
+# And to do the reverse, we can use torch.unsqueeze to *add* a dimension valeu of 1 at a specific index
+x_unsqueezed = x_squeezed.unsqueeze(dim=0)
+x_unsqueezed, x_unsqueezed.size # tensor([[5., 2., 3., 4., 5., 6., 7.]]), torch.Size([1,7])
+
+# and we can rearrange the order of axes values using torch.permute(input, dims), where the input gets turned into a _view_ with the new dims
+x_original = torch.rand(size=(224,224,3))
+# Permute the original tensor to rearrange the axis order
+x_permuted = x_original.permute(2,0,1) # Shifts axis 0->1, 1->2, 2->0
+# NOTE that permuting only returns a _view_, and if you change values in the permuted tensor, the original tensor's values will change too, and vice versa.
+
+# Indexing (selecting data from tensors)
+# Sometimes you want to select specific data from tensors (eg the first column or second row); to do so, you can use indexing.
+x = torch.arange(1,10).reshape(1,3,3)  # Clever way to reshape an arange into a tensor!
+x, x.shape
+(tensor([[[1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9]]]),
+ torch.Size([1, 3, 3]))
+
+# Indexing values goes outer dimension -> inner dimension (check the square brackets)
+# Let's index bracket by bracket
+print(f"First square bracket:\n{x[0]}") 
+print(f"Second square bracket: {x[0][0]}") 
+print(f"Third square bracket: {x[0][0][0]}")
+First square bracket:
+tensor([[1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]])
+Second square bracket: tensor([1, 2, 3])
+Third square bracket: 1
+
+# You can also use : to specify "All values in this dimension", and then use a comma to add another dimension
 
 
 ```
