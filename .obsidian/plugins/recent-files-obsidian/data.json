@@ -1,40 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "HuggingFace NLP Introduction",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md"
+    },
+    {
       "basename": "Zero to Master PyTorch for Deep Learning",
-      "path": "Courses/Tutorials/Zero to Master PyTorch for Deep Learning.md"
-    },
-    {
-      "basename": "PyTorch Official Tutorial - Learn the Basics",
-      "path": "Courses/Tutorials/PyTorch Official Tutorial - Learn the Basics.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
       "basename": "Loss Function",
       "path": "Loss Function.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "PyTorch Official Tutorial - Learn the Basics",
+      "path": "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md"
+    },
+    {
       "basename": "Hyperparameter",
       "path": "Hyperparameter.md"
     },
     {
-      "basename": "Softmax",
-      "path": "Softmax.md"
-    },
-    {
       "basename": "Lighteval",
       "path": "Lighteval.md"
-    },
-    {
-      "basename": "Multimodal",
-      "path": "Multimodal.md"
-    },
-    {
-      "basename": "CS 11-777 Lecture 4",
-      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 4.md"
     },
     {
       "basename": "spaCy",
@@ -53,12 +45,48 @@
       "path": "NF4.md"
     },
     {
-      "basename": "Epoch",
-      "path": "Epoch.md"
-    },
-    {
       "basename": "PIL",
       "path": "PIL.md"
+    },
+    {
+      "basename": "CS224U Lecture 2",
+      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 2.md"
+    },
+    {
+      "basename": "CS224U Lecture 3",
+      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 3.md"
+    },
+    {
+      "basename": "CS224U Lecture 4",
+      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 4.md"
+    },
+    {
+      "basename": "CS224U Lecture 5",
+      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 5.md"
+    },
+    {
+      "basename": "CS224U Lecture 6",
+      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 6.md"
+    },
+    {
+      "basename": "Safe SuperIntelligence",
+      "path": "Safe SuperIntelligence.md"
+    },
+    {
+      "basename": "CS 11-777 Lecture 4",
+      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 4.md"
+    },
+    {
+      "basename": "Multimodal",
+      "path": "Multimodal.md"
+    },
+    {
+      "basename": "Softmax",
+      "path": "Softmax.md"
+    },
+    {
+      "basename": "Epoch",
+      "path": "Epoch.md"
     },
     {
       "basename": "Pic - Adam Optimizer in PyTorch",
@@ -171,34 +199,6 @@
     {
       "basename": "RETRO",
       "path": "RETRO.md"
-    },
-    {
-      "basename": "Lottery Ticket Hypothesis",
-      "path": "Lottery Ticket Hypothesis.md"
-    },
-    {
-      "basename": "TART",
-      "path": "TART.md"
-    },
-    {
-      "basename": "Reinforced Self-Training",
-      "path": "Reinforced Self-Training.md"
-    },
-    {
-      "basename": "Mixture of Experts",
-      "path": "Mixture of Experts.md"
-    },
-    {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
-    },
-    {
-      "basename": "TRL",
-      "path": "TRL.md"
-    },
-    {
-      "basename": "CS-11-711 Lecture 14",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS-11-711 Lecture 14.md"
     }
   ],
   "omittedPaths": [],
