@@ -231,8 +231,49 @@ Second square bracket: tensor([1, 2, 3])
 Third square bracket: 1
 
 # You can also use : to specify "All values in this dimension", and then use a comma to add another dimension
+x[:, 0]  # Get the first column of all rows
+tensor([[1,2,3]])  # See that it's still a 2-dim tensor
 
+x[:,:, 1]  # Get all values of the 0th and 1st dimensions, but only index 1 of 2nd dim
+tensor([[2, 5, 8]])
 
+x[0,0,:]  # This would be the same as x[0][0]
+tensor([1,2,3])  # Note the dimensionality of this one, compared to the previous two; it's because we specified single indices for two of the dimensions, leaving us with one.
+
+# Since NumPy is such a popular Python numerical computing library, PyTorch has functionality to interact with it nicely!
+# Two main methods you'll want to use for NumPy to PyTorch (and back again) are:
+# torch.from_numpy(ndarray)
+# torch.Tensor.numpy()
+# ~~ Examples omitted because obvious ~~
+
+# Reproducibility is something that's important in machine learning, like when you're using torch.rand to reate tensors with random floats
+# We can use torch.manual_seed(seed), where seed is an integer like 42 that flavors the (pseudo)randomness
+import random
+RANDOM_SEED=42
+torch.manual_seed(RANDOM_SEED)
+random_tensor_C = torch.rand(3,4)
+
+# You have to reset the seed every time a new rand() is called
+# Without doing this, tensor_D would be _different_ to tensor_C!
+torch.manual)seed(seed=RANDOM_SEED)
+rnadom_tensor_D = torch.random(3,4)
+
+random_tensor_C == random_tensor_D  # True! This was because we (re)set the random seed to the same number before each torch.rand call
+
+# to get PyTorch to use your GPU, you can check:
+torch.cuda.is_available()  # True ; nice!
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+# You can even count th numbe rof GPUs PyTorch has access to using torch.cuda.device_count()
+torch.cuda.device_count()  # 1
+
+# To put a tensor (or model) on the GPU, we can use to(device) on them. GPUs are far faster at numerical computing than CPUs!
+tensor = torch.tensor([1,2,3])
+tensor_on_gpu = tensor.to(device)  # recall device="cuda"
+tensor_on_gpu  # tensor([1, 2, 3], device='cuda:0')  <-- This means it's stored on the -th GPU avialable.
+
+# To move back to a CPU (eg if we want to interact iwth our tensors using NumPy, which doesn'et leverage hte GPU), we can use .cpu()
+tensor_back_on_cpu = tensor_on_gpu.cpu().numpy()  # array([1,2,3])
 ```
 
 
