@@ -3,7 +3,7 @@ March 23, 2020
 
 References:
 - [XCS224U: ELECTRA](https://youtu.be/QFMBRk26AjU?si=xbGgu7NRtuP0NCCA)
-	- See Lecture Notes: [[XCS224U Lecture 3]]
+	- See Lecture Notes: [[CS224U Lecture 3]]
 
 Aims to improve on some limitations of BERT, which included (among others):
 - A mismatch between pre-training and fine-tuning, since the MASK token isn't seen during fine-tuning.

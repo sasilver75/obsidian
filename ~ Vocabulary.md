@@ -715,6 +715,7 @@
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
 - [[BIG-Bench Hard]]
 - [[BIG-Bench Lite]]
+- [[BigCodeBench]]
 - [[SWE-bench]]
 - [[DAWNBench]]
 - [[HELM]] (Holistic Evaluation of Language Models)
@@ -780,14 +781,14 @@
 - [[oasst1]]
 - [[oasst2]]
 - [[Stanford Natural Language Inference]] (SNLI)
-- [[Multi-Genre NLI]]
-- [[Stanford Human Preferences]]
+- [[Multi-Genre NLI]] (MNLI)
+- [[Stanford Human Preferences]] (SHP)
 - [[Helpful and Harmless]] (HH)
 - [[TL;DR]]
 - [[Nectar]]
 - [[Tulu-v2-sft-mixture]]
 - [[S2ORC]] (Semantic Scholar Open Research Corpus)
--  [[Natural Instructions]]
+- [[Natural Instructions]]
 - [[Super-NaturalInstructions]]
 - [[Unnatural Instructions]]
 - [[OpenHermes Dataset]]
@@ -802,6 +803,8 @@
 - [[Preference Collection]]
 - [[Capybara Dataset]]
 - [[CCNet]] (Cluster-Coordinated Net)
+- [[DataComp]]
+- [[DataComp-LM]]
 
 # Entities
 - [[Cohere]]  📝
@@ -846,6 +849,7 @@
 - [[Apple]] 
 - [[EssentialAI]] 😶
 - [[Groq]] 🏎️
+- [[Safe SuperIntelligence]] (SSI) ⚗️
 
 
 # People
