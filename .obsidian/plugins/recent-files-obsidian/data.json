@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "HuggingFace NLP Introduction",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md"
+      "basename": "HuggingFace NLP Using Transformers (2)",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md"
+    },
+    {
+      "basename": "HuggingFace NLP Introduction (1)",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP Introduction (1).md"
+    },
+    {
+      "basename": "DistilBERT",
+      "path": "DistilBERT.md"
+    },
+    {
+      "basename": "Zero to Master PyTorch for Deep Learning",
+      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
+    },
+    {
+      "basename": "Bidirectional Encoder Representations from Transformers",
+      "path": "Bidirectional Encoder Representations from Transformers.md"
+    },
+    {
+      "basename": "RoBERTa",
+      "path": "RoBERTa.md"
+    },
+    {
+      "basename": "BART",
+      "path": "BART.md"
+    },
+    {
+      "basename": "T5",
+      "path": "T5.md"
+    },
+    {
+      "basename": "ELECTRA",
+      "path": "ELECTRA.md"
+    },
+    {
+      "basename": "DeBERTa",
+      "path": "DeBERTa.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -15,10 +55,6 @@
     {
       "basename": "Loss Function",
       "path": "Loss Function.md"
-    },
-    {
-      "basename": "Zero to Master PyTorch for Deep Learning",
-      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
       "basename": "PyTorch Official Tutorial - Learn the Basics",
@@ -163,42 +199,6 @@
     {
       "basename": "What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}",
       "path": "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md"
-    },
-    {
-      "basename": "Quantization-Aware Training",
-      "path": "Quantization-Aware Training.md"
-    },
-    {
-      "basename": "Post-Training Quantization",
-      "path": "Post-Training Quantization.md"
-    },
-    {
-      "basename": "Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}",
-      "path": "Articles/Mixture of Experts Explained (Dec 2023) {HuggingFace Blog}.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 11",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
-    },
-    {
-      "basename": "CS685 Lecture 20",
-      "path": "Courses/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "Context Distillation",
-      "path": "Context Distillation.md"
-    },
-    {
-      "basename": "FAISS",
-      "path": "FAISS.md"
-    },
-    {
-      "basename": "Approximate Nearest Neighbor Search",
-      "path": "Approximate Nearest Neighbor Search.md"
     }
   ],
   "omittedPaths": [],

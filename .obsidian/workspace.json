@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md"
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md"
               }
             }
           },
@@ -220,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,22 +269,32 @@
   },
   "active": "0d65b0458d91e485",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240619181015.png",
+    "_attachments/Pasted image 20240619180809.png",
+    "_attachments/Pasted image 20240619180736.png",
+    "_attachments/Pasted image 20240619180620.png",
+    "_attachments/Pasted image 20240619180606.png",
+    "Courses/HuggingFace NLP/HuggingFace NLP Introduction (1).md",
+    "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md",
+    "DistilBERT.md",
+    "_attachments/Pasted image 20240619174305.png",
+    "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+    "Bidirectional Encoder Representations from Transformers.md",
+    "RoBERTa.md",
+    "BART.md",
+    "T5.md",
+    "ELECTRA.md",
+    "DeBERTa.md",
+    "Distillation.md",
+    "_attachments/Pasted image 20240619172757.png",
+    "_attachments/Pasted image 20240619172743.png",
+    "_attachments/Pasted image 20240619172733.png",
+    "_attachments/Pasted image 20240619172726.png",
+    "_attachments/Pasted image 20240619172717.png",
     "~ Vocabulary.md",
     "MIPRO.md",
     "Loss Function.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md",
-    "_attachments/Pasted image 20240619163423.png",
-    "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
-    "_attachments/Pasted image 20240619162934.png",
-    "_attachments/Pasted image 20240619160158.png",
-    "_attachments/Pasted image 20240619155227.png",
-    "_attachments/Pasted image 20240619154047.png",
-    "_attachments/Pasted image 20240619144401.png",
-    "_attachments/Pasted image 20240619144330.png",
-    "_attachments/Pasted image 20240619134252.png",
-    "_attachments/Pasted image 20240619132854.png",
     "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
-    "_attachments/Pasted image 20240619123321.png",
     "Hyperparameter.md",
     "Lighteval.md",
     "spaCy.md",
@@ -295,19 +305,9 @@
     "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 2.md",
     "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 3.md",
     "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 4.md",
-    "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 5.md",
-    "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 6.md",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
-    "Courses/Untitled.md",
-    "Safe SuperIntelligence.md",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 4.md",
-    "Multimodal.md",
     "Courses/HuggingFace NLP",
-    "Softmax.md",
-    "Epoch.md",
-    "Epoch AI.md",
-    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
     "Courses/Misc Tutorials",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
