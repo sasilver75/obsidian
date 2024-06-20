@@ -5,6 +5,22 @@
       "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
+      "basename": "Overfitting",
+      "path": "Overfitting.md"
+    },
+    {
+      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
+    },
+    {
+      "basename": "SigLIP",
+      "path": "SigLIP.md"
+    },
+    {
+      "basename": "Bitter Lesson",
+      "path": "Bitter Lesson.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
@@ -27,10 +43,6 @@
     {
       "basename": "MIPRO",
       "path": "MIPRO.md"
-    },
-    {
-      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
     },
     {
       "basename": "Nils Reimers",
@@ -187,18 +199,6 @@
     {
       "basename": "Charles Frye",
       "path": "Charles Frye.md"
-    },
-    {
-      "basename": "Shreya Shankar",
-      "path": "Shreya Shankar.md"
-    },
-    {
-      "basename": "Matei Zaharia",
-      "path": "Matei Zaharia.md"
-    },
-    {
-      "basename": "Jeff Dean",
-      "path": "Jeff Dean.md"
     }
   ],
   "omittedPaths": [],

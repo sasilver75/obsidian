@@ -9,6 +9,8 @@ Symptoms
 - Significant gap between training performance (very high) and test performance (much lower)
 - High variance in errors indicates overfitting; means the models' predictions change dramatically with very small changes in the training data.
 
+![[Pasted image 20240620160813.png|300]]
+
 Mitigations
 - [[Cross-Validation]] (eg K-Fold Cross-Validation) to ensure the model can perform well on different subsets of the data.
 - Simplify the model, reducing its complexity by selecting fewer parameters or using a less flexible model architecture.

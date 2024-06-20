@@ -1282,11 +1282,389 @@ model_2_results
 # Nice results!
 ```
 
-
-
-
 # 4. PyTorch Custom Datasets
+- Let's learn how to build a custom dataset, using data related to a specific problem that you're working on!
+	- First, we need some data: Food101 is a popular CV benchmark with 1000 images of 101 different kinds of foods, totaling 101,000 images.
+		- We'll start with just 3 classes (pizza, steak, sushi), with a random 10% of the 1,000 image per class.
 
+```python
+# Assume we have our PIL images
+import torch
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+
+# Let's write a series of transforms that resizes our images from 512x512 to 64x64, flips our images randomly on the horizontal using transforms.RandomHorizontalF/lio(), and turn our images from a PIL image to a PyTorch tensor
+data_transforms = transforms.Compose([  # A handy function to combine transforms into a pipeline
+	transforms.Resize(size=(64,64)),
+	transforms.RandomHorizontalFlip(p=.5),  # Probability 50% of a flip
+	transforms.ToTensor()  # This also converts all pixel values from 0-255 to be between 0 and 1
+])
+
+# Let's load our image data into a Dataset capable of being used with PyTorch; we can use torchvision.datasets.ImageFolder, where we pass the file path of the target image directory as well as a series of transforms.
+from torcvision import datasets
+train_data = datasets.ImageFolder(root=train_Dir, transform=data_transform, targt_transforms=None)
+test_data = datasets.ImageFolder(root, data_transform)
+
+class_names = train_data.classes # ['pizza', 'steak', 'sushi']
+len(train_data), len(test_data)  # (255, 75)
+
+# So our images are in the form of a tensor with shape [3, 64, 64] and the labels are in teh form of an integer related to a specific class (as referenced by the class_to_idx attribute)
+# Note that if we wanted to pot our images with matplotlib, we need to use HWC instead of the CHW format that our tensor is currently in -- it's just a matplotlib preference.
+
+# Let's turn out Pytorch Datasets into DataLoaders! This makes them iterable, yielding batches and such.
+# The num_workers argument defines how many subprocesses will be created to load your data; the uathor usually sets it to the number of CPUs on his machine, via Python's os.cpu_count()
+from torch.utils.data import DataLoader
+train_dataloader = Dataloader(
+	dataset=train_data,
+	batch_size=1, # samples per batch
+	num_workers=1, # number of subprocess to use for dat aloading
+	shuffle=True  # Wheter the shuffle data
+)
+
+test_dataloader = DataLoader(dataset=test_data, 
+                             batch_size=1, 
+                             num_workers=1, 
+                             shuffle=False) # don't usually need to shuffle testing data
+
+# ASIDE: What if a pre-built Datset creator like torchvision.datasets.ImageFolder() didn't exist?
+# We can build our own custom ImageFolder class by subclassing Dataset
+import os
+import pathlib
+import torch
+from PIL import Image # to handle images
+from torch.utils.data import Dataset # to subclsas
+from torchvision import transforms
+from typing import Tuple, Dict, List
+
+# recall that both of these work on the ImageFolder instance
+train_data.classes, train_data.class_to_index
+# (['pizza', 'steak', 'sushi'], {'pizza': 0, 'steak': 1, 'sushi': 2})
+
+# Let's create a helper function to get classnames
+target_directory = train_dir
+class_names_found = sorted([entry.name for entry in list(os.scandir(image_path/"train"))])
+# Class names found: ['pizza', 'steak', 'sushi']
+
+# Let's turn it into a fn
+def find_classes(directory: str) -> Tuple[List[str], Dict[str, int]]:
+	# 1. Get the class names by scanning the target directory
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+    # 2. Raise an error if class names not found
+    if not classes:
+        raise FileNotFoundError(f"Couldn't find any classes in {directory}.")
+    # 3. Create a dictionary of index labels (computers prefer numerical rather than string labels)
+    class_to_idx = {cls_name: i for i, cls_name in enumerate(classes)}
+    return classes, class_to_idx
+
+find_classes(train_dir) # (['pizza', 'steak', 'sushi'], {'pizza': 0, 'steak': 1, 'sushi': 2})
+
+#3 Now let's build our custom Datset class ot replciate ImageFolder!
+from torch.utils.data import Dataset
+class ImageFolderCustom(Dataset):
+	def __init__(self, targ_dir: stt, transform=None) -> None:
+		self.path = list(pathlib.Path(targ_dir).glob("*/*.jpg"))  # only getting jpgs
+		self.transform = transform
+		self.classes, self.classes_to_idx = find_classes(targ_dir)
+
+	def load_image(self, index:int) -> Image.Image:
+		# Given an index, find that index in self.Path and open as a PIL image
+		image_path = self.paths[index]
+		return Image.open(image_path)
+
+	def __len__(self) -> int:
+		return len(self.paths)
+
+	def __getitem__(self, index: int) -> Tuuple[torch.Tensor, int]:
+		img = self.load_image(index)
+		class_name = self.paths[index].parent.name
+		class_idx = self.class_to_idx[class_name]
+
+		if self.transform:
+			return self.transform(img), class_idx
+		else:
+			return img, class_idx
+
+# Augment Training Data
+train_transforms = transforms.Compose([
+   transforms.REsize((64,64)),
+   transforms.RandomHorizontalFLip(p=.5),
+   transforms.ToTensor()
+])
+
+test_transforms = transforms.Compose([
+  transforms.Resize((64,64)),
+  transforms.ToTensor()
+])
+
+train_data_custom = ImageFolderCustomer(targ_dir = train_dir, transform=train_transforms)
+test_data_custom = ImageFolderCustom(targ_dir=test_dir, transform=test_transforms)
+
+# Seems like it worked! Let's turn these into dataloaders
+from torch.utils.data import DataLoader
+
+train_dataloader_custom = DataLoader(
+	 dataset=train_data_custom,
+	 batch_size=1,
+	 num_workers=0,  # No explanation for this, lol
+	 shuffle=True 
+ )
+ test_dataloader_custom = DataLoader(test_data_custom, batch_size=1, num_workers=0, shuffle=False) # Dont need to shuffle test
+
+# Let's try out some dat augmentation -- transforms.RandAugment() and trasnforms.TrivialAugmentWide() generally perform bettert han hand-picked ones. Given a set of transforms, we randomly pick a number o them to perform at an image, and at a random magnitude betewen a given range (higher magnitude=more intense)
+
+train_transforms = transforms.Compose([
+   transforms.Resize((224,224)),
+   transforms.TrivialAugmentWide(num_magnitude_bins=31),  # How intense; 31 is default
+   transforms.ToTensor()
+])
+
+test_transforms = transforms.Compose([
+	  transforms.Resize((224,224)),
+	  transforms.ToTensor()  # We don't usually perform data augmentation on the test set ((Though you do with test-time augmentation!))
+])
+
+# Let's construct a CV model to see if we can classify an image as pizza/steak/sushi
+simple_transform = transforms.Compose([
+   transforms.Resize((64,64)),
+   transforms.ToTensor()
+])
+
+# Let's now load the data, turning each of our training and test folders into a `Dataset`, then `DataLoader`
+train_data_simple = datasets.ImageFolder(root=train_dir, tranform=simple_transform)
+test_data_simple = datasets.ImageFolder(root=test_dir, transform=simple_transform)
+
+# And now to dataloaders
+bs=32
+num_workers=os.cpu_count()
+train_dataloader_simple = DataLoader(train_data_simple, batch_size=bs, shuffle=True, num_workers=num_workres)
+test_dataloader_simple = DataLoader(train_data_simple, batch_size=bs, shuffle=False, num_workers=num_workres)
+
+# Great, now that we have our dataloaders,let's build a model.
+class TinyVGG(nn.Module):
+	def __init__(self, input_shape: int, hidden_unitS: int, output_shape: int) -> None:
+		super().__init__();
+		self.conv_block_1 = nn.Sequential(
+			nn.Conv2d(
+				in_channels=input_shape,  #input to hidden
+				out_channels=hidden_units
+				kernel_size=3,
+				stride=1,
+				padding=1
+			),
+			nn.ReLU(),
+			nn.Conv2d(
+				in_channels=hidden_units,  #hidden to hidden
+				out_channels=hidden_units
+				kernel_size=3,
+				stride=1,
+				padding=1
+			),
+			nn.ReLU()
+			nn.MaxPool2d(kernel_size=2, stride=2)
+		)
+		self.conv_block_2 = nn.Sequential(
+			nn.Conv2d(hidden_units, hidden_units, kernel_size=3, padding=1),
+			nn.ReLU(),
+			nn.Conv2d(hidden_units, hidden_units, kernel_size=3, padding=1),
+			nn.ReLU()
+		)
+		self.classifier = nn.Sequential(  # Used as the head at hte end of the network
+			nn.Flatten(),
+			nn.Linear(in_features=hidden_units*16*16, out_features=output_shape)
+		)
+
+	def forward(self, x.torch.Tensor):
+		x = self.conv_block_1(x)
+		x = self.conv_block_2(x)
+		x = self.classifier(x)
+		return x
+
+torch.manual_seed(42)
+model_0 = TinyVGG(
+	input_shape=3,
+	hidden_units=10,
+	output_shape=len(train_data.classes)
+).to(device)
+
+img_batch, label_batch = next(iter(train_dataloader_simple))
+single_img, single_label = img_batch[0].unsqueeze(dim=0), label_batch[0]
+
+model_0.eval()
+with torch.inference_mode()
+	pred = model_0(single_image.to(device))
+
+# We can use a library called torchinfo, which comes with a helpful summary() method that takes a PyTorch model as well as an input_shape, and returns what happens as the tensor moves from your model
+from torchinfo import summry
+summary(model_9, input_size=[1,3,64,64])
+```
+![[Pasted image 20240620154238.png|300]]
+The output of torchinfo.summary() gives us a whole bunch of information about our model, nice!
+
+Let's now make some training/test loops to train our model
+```python
+def train_step(
+   model: torch.nn.Module,
+   dataloader: torch.utils.data.Dataloder,
+   loss_fn: torch.nn.Module,
+   optimizer: torch.optim.Optimizer
+):
+	train_loss, train_acc = 0,0
+	mode.train()
+	for batch, (X, y) in enumerate(dataloader):
+		pred = model(X)
+		
+		loss += loss_fn(pred, y).item()
+		y_pred_class = torch.argmax(torch.softmax(dim=1), dim=1)  # Get the predicted classes by softmax+argmax
+		train_acc += (y_pred_class == y).sum().item()/len(y_pred) # Count percentage of agreeing predictions in batch
+	# Adjustm etrics to get average loss + accuracy per batch
+	train_loss /= len(dataloader)
+	train_acc /= len(dataloader)
+	return train_loss, train_acc
+
+# Now let's do a similar thing for a test_ste
+def test_step(model, dataloader, loss_fn):  # Note we don't need optimizer
+	test_loss, test_acc = 0, 0
+	model.eval()
+	with torch.inference_mode():
+		for batch, (X,y) in enumerate(dataloader):
+			preds = model(X)  # logits
+			test_loss += loss_fn(preds, y).item()  # The loss fn should just return a scalar and not a tensor lol
+
+			test_pred_labels = np.argmax(np.softmax(preds, dim=1), dim=1) # clases
+			test_acc += (test_pred_labels == y).sum().item() / len(test_pred_labels)  # percent accuracy in batch
+
+	test_loss /= len(dataloader)
+	test_acc /= len(dataloader)
+	return test_loss, test_acc
+
+# Now that we have both a train_step and test_step, let's make a train fn
+def train(model, train_dataloader, test_dataloader, loss_fn, optimizer, epochs):
+	results = {"train_loss": [],
+        "train_acc": [],
+        "test_loss": [],
+        "test_acc": []
+    }
+
+	for epoch in tqdm(range(epochs)):
+		train_loss, train_acc = train_step(model, train_dataloader, loss_fn, optimizer)
+		test_loss, test_acc = test_step(model, test_dataloader, loss_fn, optimizer)
+
+		print(
+            f"Epoch: {epoch+1} | "
+            f"train_loss: {train_loss:.4f} | "
+            f"train_acc: {train_acc:.4f} | "
+            f"test_loss: {test_loss:.4f} | "
+            f"test_acc: {test_acc:.4f}"
+        )
+
+		results["train_loss"].append(train_loss)
+        results["train_acc"].append(train_acc)
+        results["test_loss"].append(test_loss)
+        results["test_acc"].append(test_acc)
+
+	return results
+```
+
+Now we've got everything we neeed to train and evaluate our model!
+```python
+NUM_EPOCHS = 5
+
+model_0 = TinyVGG(input_shape=3, hidden_units=10, output_shape=len(train_data.classes)).to(device)  # 3=RGB
+loss_fn=nn.CrossEsntropyLoss()
+optimizer = nn.optim.SGD(params=model_0.parameters(), lr=0.1)
+
+model_0_results = train(model_0, train_dataloadeR_simple, test_dataloader_simple, optimizer, loss_fn, NUM_EPOCHS)
+# Looks like our model performed pretty poorly (test_acc=.1979 at epoch 5) -- how can we improve it?
+
+# Let's plot the model loss curves.
+def plot_loss_curves(results: Dict[str, List[float]]):
+	loss = results["train_loss"]
+	test_loss = results["test_loss"]
+	accuracy = resutls["train_acc"]
+	test_accuracy = results["test_acc"]
+
+	epochs = range(len(results["train_loss"]))
+	
+	# Setup a plot 
+    plt.figure(figsize=(15, 7))
+
+    # Plot loss
+    plt.subplot(1, 2, 1)
+    plt.plot(epochs, loss, label='train_loss')
+    plt.plot(epochs, test_loss, label='test_loss')
+    plt.title('Loss')
+    plt.xlabel('Epochs')
+    plt.legend()
+
+    # Plot accuracy
+    plt.subplot(1, 2, 2)
+    plt.plot(epochs, accuracy, label='train_accuracy')
+    plt.plot(epochs, test_accuracy, label='test_accuracy')
+    plt.title('Accuracy')
+    plt.xlabel('Epochs')
+    plt.legend();
+
+```
+![[Pasted image 20240620160702.png|300]]
+Woah, looks like things are all over the place. It also looks like our trainign loss is much much lower than our test loss, meaning our model is overfitting/
+![[Pasted image 20240620160800.png|300]]
+
+We have much higher test loss than training loss -- there are many techniques to reduce overfitting, but a common one is introducing a regularization term to our loss function.
+- Get more data/Data augmentation
+- Simplify the model
+- Early stopping
+- Dropout layers
+- Learning rate decay
+
+If a model were underfitting, we could:
+- Have a deeper/more flexible model with better capacity
+- Tweak the learning rate
+- Train for longer
+- Use less regularization
+
+Let's try out using TinyVGG with some Data Augmentation to create some additional data (+ robustness)
+```python
+train_transform_trivial_augment = transforms.Compose([
+	transforms.Resize((64,64)),
+	transforms.TrivialAugmentWide(),
+	transforms.ToTensor()
+])
+test_transform = transforms.Compose([
+	 transforms.REsize((64,64)),
+	 transforms.toTensor()
+])
+
+# Now we can recreate our datasets using these transforms
+train_data_augmented = datasets.ImageFolder(train_dir, transfor=train_transform_trivial_augment)
+test_data_simple = datasets.ImageFolder(test_dir, tranform=test_transform)
+
+bs=32
+nw = os.cpu_count()
+torch.manual_seed(42)
+
+train_dataloader_augmented = DataLoader(train_data_augmented, bs=bs, shuffle=True, num_workres=nw)
+test_dataloader = DataLoader(test_data_simple, bs=bs, shuffle=True, num_workres=nw)
+
+torch.manual_seed(42)  # I still don't really understand exactly when we have to set this seed
+model_1 = TinyVGG(input_shape=3, hidden_units=10,output_shape=len(train_data_augmented.classes)).to(device)  # Create hte model and move it to device
+
+torch.manual_seed(42)
+torch.cuda.manual_seed(42)  # FIRST TIME We'VE SEEN THIS, I THINK? When do we need to set teh cuda seed?
+n_epochs=5
+
+loss_fn = nn.CrossEntropyLoss()
+optimizer = nn.optim.SGD(params=model_1.parametrs(), lr=0.001)
+model_1_results = train(model=model_1, 
+                        train_dataloader=train_dataloader_augmented,
+                        test_dataloader=test_dataloader_simple,
+                        optimizer=optimizer,
+                        loss_fn=loss_fn, 
+                        epochs=NUM_EPOCHS)
+
+# Still, it doesn't look like our model performed very well again. CAn we plot the loss curves of our Model?
+# it looks like it's about as equally bad as the previous one, and were pretty sporadic. What else can we do to improve performance?
+
+```
 
 
 # 5. PyTorch Going Modular
