@@ -5,16 +5,24 @@
       "path": "Courses/LLM Mastery/Lecture - Back to Basics for RAG.md"
     },
     {
+      "basename": "Nils Reimers",
+      "path": "Nils Reimers.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
     },
     {
       "basename": "MIPRO",
       "path": "MIPRO.md"
     },
     {
-      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
+      "basename": "Loss Function",
+      "path": "Loss Function.md"
     },
     {
       "basename": "HuggingFace NLP (1) Introduction",
@@ -59,10 +67,6 @@
     {
       "basename": "Distillation",
       "path": "Distillation.md"
-    },
-    {
-      "basename": "Loss Function",
-      "path": "Loss Function.md"
     },
     {
       "basename": "PyTorch Official Tutorial - Learn the Basics",
@@ -195,10 +199,6 @@
     {
       "basename": "Georgei Gerganov",
       "path": "Georgei Gerganov.md"
-    },
-    {
-      "basename": "Benjamin Clavié",
-      "path": "Benjamin Clavié.md"
     }
   ],
   "omittedPaths": [],
