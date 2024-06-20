@@ -18,3 +18,7 @@ Aims to improve on some limitations of BERT, which included (among others):
 - we train the model jointly with the generator and the discriminator, and allow the generator to drop away, and focus on the discriminator as the primary pre-trained artifact produced by the process.
 
 ![[Pasted image 20240425180150.png]]
+
+
+# Non-Paper Figures
+![[Pasted image 20240619172733.png]]

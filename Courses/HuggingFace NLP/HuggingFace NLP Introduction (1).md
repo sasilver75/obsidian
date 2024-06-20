@@ -80,6 +80,92 @@ generator(
 
 # Cool!
 # We can refine oru search for a model by clicking on the language tasks, and pick a model that will generate text in another language, if we want.
-# You can test models in your browser on their model page using 
+# You can test models in your browser on their model page, which uses the HuggingFace Inference API behind the scenes.
 
+# Let's try a fill-mask pipeline, where the idea of the task is to fill in th eblanks in a given text:
+unmasker = pipeline("fill-mask")
+# It's important to understand what the mask token looks like for your model
+unmasker("This course will teach you all about <mask> models.", top_k=2)
+[{'sequence': 'This course will teach you all about mathematical models.',
+  'score': 0.19619831442832947,
+  'token': 30412,
+  'token_str': ' mathematical'},
+ {'sequence': 'This course will teach you all about computational models.',
+  'score': 0.04052725434303284,
+  'token': 38163,
+  'token_str': ' computational'}]
+
+# Pretty good! The top_k argument in this pipline will control how many possibilities you want to have displayed. Note that the model fills the special <mask> word, which is often referred to as a mask token. Check the mask word for the model in the Model page.
+
+# Task: Named Entity Recogniiton
+ner = pipeline("ner", grouped_entities=True)
+ner("My name is Sylvain and I work at HuggingFace in Brooklyn")
+[{'entity_group': 'PER', 'score': 0.99816, 'word': 'Sylvain', 'start': 11, 'end': 18}, 
+ {'entity_group': 'ORG', 'score': 0.97960, 'word': 'Hugging Face', 'start': 33, 'end': 45}, 
+ {'entity_group': 'LOC', 'score': 0.99321, 'word': 'Brooklyn', 'start': 49, 'end': 57}
+]
+# Cool! We can see that it identified a person, organization, and location! Nice. But not necessarily the relationship between them ;) The grouped_entities=True tells the pipeline to regroup together parts of the sentence that correspond to the same entity (eg Hugging + Face as a single organization... or even Sylvain being tokenized as S ##yl ##va and ##in, bu then in the post-processing step regroping these pieces.)
+
+# Next ask: Question Answering
+question_answerer = pipeline("question-answering")
+question_answerer(
+	question="Where do I work?", # Interesting that we use "I" here
+	context="My name is Sylvain and I work at HuggingFace in Brooklyn"
+)
+{'score': 0.6385916471481323, 'start': 33, 'end': 45, 'answer': 'Hugging Face'}
+
+# Task: Summarization
+summarizer = pipeline("summarization")
+summarizer("""
+	America has changed dramatically during recent yers. Not only ... {more text continues}
+""")
+[{'summary_text': ' America has changed dramatically during recent years . The '
+                  'number of engineering graduates in the U.S. has declined in '
+                  'traditional engineering disciplines such as mechanical, civil '
+                  ', electrical, chemical, and aeronautical engineering . Rapidly '
+                  'developing economies such as China and India, as well as other '
+                  'industrial countries in Europe and Asia, continue to encourage '
+                  'and advance engineering .'}]
+# See that this captured some of the interesting parts of the sentence.
+
+
+# Task: Translation
+translator = pipeline("translation", model="Helsinki-NLP/opus-mt-fr-en")  # A fr->en MT model using Claude Opus?
+translator("Ce cours est produit par Hugging Face.")
+[{'translation_text': 'This course is produced by Hugging Face.'}]
+# Nice translation, thanks!
 ```
+
+Not that we've seen some of the basics of pipelines in `transformers`, let's look a little closer at Transformers generally!
+- Introduced in June 2017
+- GPT in June 2018
+- October 2018: BERT
+- Feb 2019: GPT-2
+- Oct 2019: DistilBERT
+- Oct 2019: BART and T5
+- May 2020: GPT-3
+- ...
+
+These fall into mostly three categories:
+- GPT-like: [[Decoder-Only Architecture]]
+- BERT-like: [[Encoder-Only Architecture]]
+- BART/T5-like: [[Encoder-Decoder Architecture]]
+
+Transformers are language models!
+- Trained on large amount of raw text in a self-supervised fashion, where the objective is automatically computed from the inputs of the model.
+- Causal Language Modeling vs Masked Language Modeling
+
+Training large models is expensive in terms of dollars and carbon impact, so it's important that we be able to share language models; sharing trained weights and building on top of already trained weights is an important facet of open source collaboration!
+
+(Skipping Transformer Architecture information)
+
+Even the biggest pretrained models come with limitations; researchers sometimes scrape all the content they can find, which includes the worst of what's available on the internet. Our models are biased (not inherently, but in actuality)
+
+```python
+unmasker = pipeline("fill-mask", model="bert-base-uncased")
+result_m = unmasker("This man works as a [MASK].")
+result_w = unmasker("This woman works as a [MASK].")
+['lawyer', 'carpenter', 'doctor', 'waiter', 'mechanic']
+['nurse', 'waitress', 'teacher', 'maid', 'prostitute']
+```
+

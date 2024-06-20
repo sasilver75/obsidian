@@ -28,3 +28,6 @@ Abstract:
 ![[Pasted image 20240425191148.png]]
 ![[Pasted image 20240425191735.png]]
 Above: The segment embeddings denote whether a token belongs to "sentence A" or "sentence B", for the Next-Sentence-Prediction objective (later dropped by [[RoBERTa]])
+
+# Non-paper Figures
+![[Pasted image 20240619172701.png]]

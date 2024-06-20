@@ -22,6 +22,8 @@ Above:
 - BERT team thought they should train on short sequences first, in a curriculum learning fashion. RoBERTa trained only on full-length sequences, dropping that.
 
 
+# Non-Paper FIgures
+![[Pasted image 20240619172710.png]]
 
 
 

@@ -10,3 +10,7 @@ Abstract
 
 # Non-Paper Figures
 ![[Pasted image 20240617110639.png]]
+
+
+# Non-Paper Figures
+![[Pasted image 20240619172757.png]]![[Pasted image 20240619174305.png]]
