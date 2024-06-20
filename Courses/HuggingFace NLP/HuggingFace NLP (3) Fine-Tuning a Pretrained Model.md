@@ -30,6 +30,9 @@ batch["labels"] = torch.tensor([1,1])
 optimizer = AdamW(model.parameters())  # This AdamW is from transformers, not from nn.optim
 # The SequenceClassifierOutput class returns from our model.__call__ has the loss on it
 	# See more here: https://huggingface.co/docs/transformers/en/main_classes/output
-loss = model(**batch).loss  # We access the loss as an attribute on the 
+loss = model(**batch).loss  # We access the loss as an attribute on the ModelOutput
+loss.backward() 
+optimizer.step()
+# Above: loss.backward and optimizer.step look identical to the vanilla PyTorch steps
 
 ```

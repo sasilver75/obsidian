@@ -937,10 +937,356 @@ Other classification metrics we could consideR:
 
 
 # 3. PyTorch Computer Vision
+Let's talk about some modules to be aware of
+- `torchvision`: Contains datasets/models architectures/image transforms used for CV problems
+- `torchvision.datasets`: Contains many datasets for image classification, object detection, image captioning, video classification, and more.
+- `torchvision.models`: Contains well-performing CV model architectures
+- `torchvision.transforms`: Contains commonly-used image transformations that can process/augment images 
+- `torch.utils.data.Dataset`: Base dataset class for PyTorch
+- `torc.utils.data.DataLoader`: Creates a Python iterable over a dataset (does batching, shuffling, etc.)
+
+We're going to use FashionMNIST
+```python
+import torch
+from torch import nn
+import torchvision
+from torchvision import datasets
+from torchvision.transforms import ToTensor
+
+# Getting Training Dataset
+train_data = datasets.FashionMNIST(
+	root="data",  # Where to download data to
+	train=True, # Get training data
+	download=True,  # Download if it doesn't already exist on disk
+	transform=ToTensor(),  # feature transform; Images come in PIL format; we want to turn to Torch tensors
+	target_transform=None  # no label transform
+)
+test_data = datasets.FashionMNIST(
+	root="data",
+	train=False,  # Test data
+	download=True,
+	transform=ToTensor()
+)
+
+image,label = train_data[0]
+image.shape
+# torch.Size([1, 28, 28])  # It's a graysaclae 28x28 image with 1 color channel
+# The order of this tensor is often referred to as CHW (Channnels, Height, Width)
+	# There's debate on whether images should be represented as CHW or HWC (channels last)
+
+len(train_data.data), len(train_data.targets), len(test_data.data), len(test_data.targets)
+# (60000, 60000, 10000, 10000)
+
+# But what classes do these labels represent?
+class_names = train_data.classes
+class_names
+['T-shirt/top',
+ 'Trouser',
+ 'Pullover',
+ 'Dress',
+ 'Coat',
+ 'Sandal',
+ 'Shirt',
+ 'Sneaker',
+ 'Bag',
+ 'Ankle boot']
+
+# so we have 10 classes
+
+# Now that we have our dataset ready to go, let's prepare it with a torch.utils.data.DataLoader, which helps load the data into our model in batches.
+from torch.utils.data import DataLoader
+
+bs = 32
+
+train_dataloader = DataLoader(train_data, batch_size=bs, shuffle=True)  # Shuffle data at every epoch
+test_dataloader = DataLoader(test_data, batch_size=bs, shuffle=False) # Don't necessarily need to shuffle the test data
+
+# We can see what sort of batch will be yielded by our train_dataloader
+train_features_batch, train_labels_batch = next(iter(train_dataloader))
+train_features_batch.shape, train_labels_batch.shape
+# (torch.Size([32, 1, 28, 28]), torch.Size([32]))
+# Above: [bs, channels, rows, cols]
+
+# Let's build a baseline model consisting of two nn.Linear layers!
+flatten_model = nn.Flatten()
+
+x = train_features_batch[0]  # Just a single sample
+output = flatten_model(x)  # Turns from [1,28,28] to [1,784]
+
+class FashionMNISTModelV0(nn.Module):
+	def __init__(self, input_shape, hidden_units, output_shape):
+		super().__init__()
+		self.layer_stack = nn.Sequential(
+			nn.Flatten(),
+			nn.Linear(in_features=input_shape, out_features=hidden_units),  # I hate that he did this...
+			nn.Linear(in_Features=hidden_units, out_features=output_shapes)
+		)
+
+	def forward(self, x):
+		return self.layer_stack(x)
+
+# Now that we've got a baseline model class, let's instantiate a model!
+
+torch.manual_seed(42)
+
+# Choice of 10 as a hidden unit size is arbitrary here
+model_0 = FashionMNISTModelV0(input_shape=784, hidden_units=10, output_shape=len(class_names))  # One for evey class
+model_0.to("cpu")  # Let's keep it on the CPU to begin with ((?))
+
+# Let's set up our loss, optimizer, and evaluation metrics
+loss_fn = nn.CrossEntropyLoss()  # Useful for multi-class classification
+optimizer = torch.optim.SGD(params=model_0.parameters(), lr=0.1)
+
+# Let's also create a function to time our experiments (to see how long it takes on CPU vs GPU)
+from timeit import default_timer as timer
+
+def print_train_time(start: float, end:float, device:torch.device = None):
+	total_time = end - start
+	print(f"TRain time on {device}: {total_time}:.3f seconds")
+	return total_time
+
+# Let's make a train loop, now
+from tqdm.auto import tqdm  # This is a library that helps us get a progress bar for our trianing
+
+torch.manual_seed(42)
+train_time_start_on_cpu = timer()  # Start timer
+
+epochs = 3
+
+for epoch in tqdm(range(epochs)):
+	print(f"Epoch: {epoch}\n----)
+	# Train Loop
+	train_loss = 0
+	for batch, (X,y) in enumerate(train_dataloader):
+		model_0.train()  # Put the model in trianing model (eg dropout on, batchnorm on)
+		y_pred = model_0(X)
+		
+		loss = loss_fn(y_pred, y)
+		train_loss += loss  # Accumulate the loss across batches in an epoch
+
+		optimizer.zero_grad()  # Zero the grads before doing a backward pass and determining gradients
+		loss.backward()
+		optimizer.step()
+
+	train_loss /= len(train_dataloader)  # Turn the accumulated train loss into average loss per batch
+		
+	# Eval Loop
+	test_loss, test_acc = 0, 0  # I hate that he's calling it test_acc right now even though the variable functions as a count for a while until dividng by batch
+	model_0.eval()  # Put in eval mode (dropout layers off, etc)
+	with torch.inference_mode():  # Don't accumulate gradients, etc
+		for X, y in test_dataloader:
+			test_pred = model(X)
+			test_loss += loss_fn(test_pred, y)
+			test_acc += accuracy_fn(y, test_pred.argmax(dim=1))
+		test_loss /= len(test_dataloader)  # Turn into an average loss per batch
+		test_acc /= len(test_dataloader)  # Turn into an average accuracy per batch
+
+train_trian_end_on_cpu = timer()
+total_train_time_model_0 = print_train_time(start=train_time_start_on_cpu, 
+                                           end=train_time_end_on_cpu,
+                                           device=str(next(model_0.parameters()).device))
+
+# Results
+Train loss: 0.45503 | Test loss: 0.47664, Test acc: 83.43%
+Train time on cpu: 32.349 seconds
+```
+
+Since w'ere going to be building a few models, it's nice to write some code to evaluate them all in similar ways
+```python
+torch.manual_seed(42)
+
+def eval_model(model, data_loader, loss_fn, accuracy_fn):
+	"""Returns a dictionary containing results of model predicting on data_loader"""
+	loss, acc = 0, 0
+	model.eval()
+	with torch.inference_mode():
+		for X, y in data_loader:
+			preds = model(X)
+			loss += loss_fn(preds, y)  # Loss cares about logits
+			acc += accuracy_fn(y, preds.argmax(dim=1))  # Acc cares about predicted class, hence argmax. Not sure why we aren't using some softmax to turn our many logits into a probability distribution before selecting, though.
+	loss /= len(data_loader)
+	acc /= len(data_loader)
+
+	return {"model_name": model.__class__.__name__, # only works when model was created with a class
+            "model_loss": loss.item(),
+            "model_acc": acc}
+
+# Now we have a handy funciton to compare baseline model results on our test data to other models later on!
+```
+
+```python
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+# Let's build another model that uses non-linear activation functions too!
+class FashionMNISTMoelV1(nn.Module):
+	def __init__(self, input_shape: int, hidden_units: int, output_shape: int):
+		super().__init__()
+		self.layer_stack = nn.Sequential(
+			nn.Flatten(),
+			nn.Linear(in_features=input_shape, out_features=hidden_units),
+			nn.ReLU(),
+			nn.Linear(in_features=hiden_units, out_features=output_shape),
+			nn.ReLU()  # I've never seen ReLUs not sandwiched by linear layers
+		)
+
+	def forward(self, x: torch.Tensor):
+		return self.layer_stack(x)		
+```
+
+Let's instantiate with the same settings we used before and then use our nice evaluation function, after we've trained it.
+
+```python
+torch.manual_seed(42)
+
+model_1 = FashionMNISTModelV1(input_shape,784, hidden_units=10, output_shape=len(class_names)).to(device)
+
+loss_fn = nn.CrossEntropyLoss()
+optimizer = nn.optim.SGD(params=model_1.parameters(), lr=.1)
+
+# Let's write a training loop, remembering to also put our features and labels on the same device as our model
+def train_step(model, data_loader, loss_fn, optimizer, accuracy_fn, device):
+	train_loss, train_acc = 0, 0
+	model.to(device)
+	for batch, (X, y) in enumerate(data_loader):
+		# Send the batch of data to the GPU
+		X, y = X.to(device), y.to(device)
+
+		y_pred = model(X)
+		
+		train_loss += loss_fn(y_pred, y)
+		train_acc += accuracy_fn(y, y_pred.argmax(dim=1)) # Go from logits -> pred labels
+
+		optimizer.zero_grad()
+		loss.backward()
+		optimizer.step()
+
+	# Calculate loss nad accuracy per BATCH and print out what's happening
+	train_loss /= len(data_loader)
+	train_acc /= len(data_loader)
+    print(f"Train loss: {train_loss:.5f} | Train accuracy: {train_acc:.2f}%")
+
+def test_step(data_loader, model, loss_fn, accuracy_fn, device):
+	test_loss, test_acc = 0, 0
+	model.to(device)
+	model.eval()
+	with torch.inference_mode():
+		for X, y in data_loader:
+			X, y = X.to(device), y.to(device)  # Move data to device
+			test_preds = model(X)
+			test_loss += loss_fn(test_preds, y)
+			test_acc += accuracy_fn(y, y_preds.argmax(dim=1))
+		test_loss /= len(data_loader)
+		test_acc /= len(data_loader)
+        print(f"Test loss: {test_loss:.5f} | Test accuracy: {test_acc:.2f}%\n")
+```
+
+Now let's put these together
+```python
+epochs = 3
+for epoch in tdqm(range(epochs)):
+	print(f"Epoch: {epoch}\n-----")
+	train_step(train_dataloader, model_1, loss_fn, optimizer, accuracy_fn)
+	test_step(test_dataloader, model_1, loss_fn, accuracy_fn)
+
+# Interesting result observed here is that it took longer to train on GPU than on CPU. One reason is that our dataset nad model are both so small that the benefits of using a GPU are outweighed by the time it actually takes to transfer the data there. There's a small bottleneck between copying data from the CPU mmemory to the GPU memory, so for smaller projects, CPU might even be optimal.
+
+model_1_results = eval_model(model_1, test_dataloader, loss_fn, accuracy_fn)
+{'model_name': 'FashionMNISTModelV1',
+ 'model_loss': 0.6850008964538574,
+ 'model_acc': 75.01996805111821}
+
+# Interestingly in this case, adding nonlinearities to our model made it perform WORSE than the baseline! Sometimes the thing that you think should work actually doesn't work -- it requires experimentation. 
+# It seems that our model is overfitting the data, meaning not generalizing to the test data well.
+# We can use a larger dataset, or a less flexible model.
+
+# Let's build a convolutional network; we'll use a TinyVGG
+# following the structure of Input Layer -> [Convolutional layer -> activation layer -> pooling layer] -> output layer
+
+class FashionMNISTModelV2(nn.Module):
+	def __init__(input_shape: int, hidden_units: int, output_shape: int):
+		super().__init__()
+		self.block_1 = nn.Sequential(
+			nn.Conv2d(
+				in_channels=input_shape,
+				out_channels=hidden_units,
+				kernel_size=3, # How wide/tall is the filter we slide over the image
+				stride=1, # default
+				padding=1,  # options = "valid" (no padding) or "same" (output has same shape as input), or any int
+			)
+			nn.ReLU(),
+			nn.Convd2d(hidden_units, hidden_units, 3, 1, 1)
+			nn.ReLU(),
+			nn.MaxPool2d(kernel_size=2, stride=2)  # Defaults stride is the same as kernel size
+		)
+		self.block_2 = nn.Sequential(
+			nn.Conv2d(hidden_units, hidden_units, 3, padding=1),
+			nn.RelU(),
+			nn.Conv2d(hidden_units, hidden_units, 3, padding=1),
+			nn.RelU(),
+			nn.MaxPool2d(2)
+		)
+		self.classifier = nn.Sequential(
+			nn.Flatten(),
+			nn.Linear(in_features=hidden_units*7*7, out_features=output_shape)
+		)
+
+	def forward(self, x: torch.Tensor):
+		x = self.block_1(x)
+		x = self.block_2(x)
+		x = self.classifier(x)
+		return x
+
+torch.manual_seed(42)
+model_2 = FashionMNISTModelV2(input_shape=1, hidden_units=10, output_shape=len(class_names)).to(device)
+
+# Let's test these layers out by creating some toy data just like the data used in CNN explainer
+torch.manual_seed(42)
+
+images = torch.randn(size=(32,3,64,64))  # [bs, channels, height, width]
+
+# Let's create an example nn.Conv2d with various parameters (in_channels, out_channels, kernel_size, stride, padding)
+torch.manual_seed(42)
+conv_layer = nn.Conv2d(in_channels=3,
+                       out_channels=10,
+                       kernel_size=3,
+                       stride=1,
+                       padding=0)
+
+# (Skipping explanation of what a convolution and pooling is)
+epochs = 3
+for epoch in tqdm(range(epochs)):
+    print(f"Epoch: {epoch}\n---------")
+    train_step(data_loader=train_dataloader, 
+        model=model_2, 
+        loss_fn=loss_fn,
+        optimizer=optimizer,
+        accuracy_fn=accuracy_fn,
+        device=device
+    )
+    test_step(data_loader=test_dataloader,
+        model=model_2,
+        loss_fn=loss_fn,
+        accuracy_fn=accuracy_fn,
+        device=device
+    )
+model_2_results = eval_model(
+    model=model_2,
+    data_loader=test_dataloader,
+    loss_fn=loss_fn,
+    accuracy_fn=accuracy_fn
+)
+model_2_results
+{'model_name': 'FashionMNISTModelV2',
+ 'model_loss': 0.3285697102546692,
+ 'model_acc': 88.37859424920129}
+# Nice results!
+```
+
 
 
 
 # 4. PyTorch Custom Datasets
+
 
 
 # 5. PyTorch Going Modular

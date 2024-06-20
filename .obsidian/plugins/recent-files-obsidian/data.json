@@ -1,28 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Lecture - Back to Basics for RAG",
-      "path": "Courses/LLM Mastery/Lecture - Back to Basics for RAG.md"
-    },
-    {
-      "basename": "Nils Reimers",
-      "path": "Nils Reimers.md"
+      "basename": "Zero to Master PyTorch for Deep Learning",
+      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
+      "basename": "Lecture - Back to Basics for RAG",
+      "path": "Courses/LLM Mastery/Lecture - Back to Basics for RAG.md"
+    },
+    {
+      "basename": "Loss Function",
+      "path": "Loss Function.md"
+    },
+    {
+      "basename": "Claude",
+      "path": "Claude.md"
+    },
+    {
+      "basename": "Selective Language Modeling",
+      "path": "Selective Language Modeling.md"
     },
     {
       "basename": "MIPRO",
       "path": "MIPRO.md"
     },
     {
-      "basename": "Loss Function",
-      "path": "Loss Function.md"
+      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
+    },
+    {
+      "basename": "Nils Reimers",
+      "path": "Nils Reimers.md"
     },
     {
       "basename": "HuggingFace NLP (1) Introduction",
@@ -35,10 +47,6 @@
     {
       "basename": "DistilBERT",
       "path": "DistilBERT.md"
-    },
-    {
-      "basename": "Zero to Master PyTorch for Deep Learning",
-      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
       "basename": "Bidirectional Encoder Representations from Transformers",
@@ -191,14 +199,6 @@
     {
       "basename": "Jeff Dean",
       "path": "Jeff Dean.md"
-    },
-    {
-      "basename": "Noam Chomsky",
-      "path": "Noam Chomsky.md"
-    },
-    {
-      "basename": "Georgei Gerganov",
-      "path": "Georgei Gerganov.md"
     }
   ],
   "omittedPaths": [],
