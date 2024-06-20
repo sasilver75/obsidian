@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "HuggingFace NLP Using Transformers (2)",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP Using Transformers (2).md"
+      "basename": "Lecture - Back to Basics for RAG",
+      "path": "Courses/LLM Mastery/Lecture - Back to Basics for RAG.md"
     },
     {
-      "basename": "HuggingFace NLP Introduction (1)",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP Introduction (1).md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "MIPRO",
+      "path": "MIPRO.md"
+    },
+    {
+      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
+    },
+    {
+      "basename": "HuggingFace NLP (1) Introduction",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (1) Introduction.md"
+    },
+    {
+      "basename": "HuggingFace NLP (2) Using Transformers",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (2) Using Transformers.md"
     },
     {
       "basename": "DistilBERT",
@@ -43,14 +59,6 @@
     {
       "basename": "Distillation",
       "path": "Distillation.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "MIPRO",
-      "path": "MIPRO.md"
     },
     {
       "basename": "Loss Function",
@@ -191,14 +199,6 @@
     {
       "basename": "Benjamin Clavié",
       "path": "Benjamin Clavié.md"
-    },
-    {
-      "basename": "bfloat16",
-      "path": "bfloat16.md"
-    },
-    {
-      "basename": "What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}",
-      "path": "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md"
     }
   ],
   "omittedPaths": [],
