@@ -517,7 +517,7 @@
 - [[OpenCLIP]]
 - [[BLIP]]
 - [[BLIP-2]]
-- [[SIGLIP]]
+- [[SigLIP]]
 - [[OWL]] (Multimodal)
 - [[OWLSAM]]
 - [[KOSMOS]]

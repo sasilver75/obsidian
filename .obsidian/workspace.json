@@ -32,6 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ba5ecb78ded6ca22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SigLIP.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -231,28 +244,31 @@
   },
   "active": "bf1c9f7f2236b41e",
   "lastOpenFiles": [
+    "Overfitting.md",
+    "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
+    "SigLIP.md",
+    "_attachments/Pasted image 20240620160813.png",
+    "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+    "_attachments/Pasted image 20240620160800.png",
+    "_attachments/Pasted image 20240620160702.png",
+    "_attachments/Pasted image 20240620154238.png",
+    "_attachments/Pasted image 20240620154220.png",
+    "Bitter Lesson.md",
+    "_attachments/Pasted image 20240620152821.png",
+    "_attachments/Pasted image 20240620141544.png",
     "~ Vocabulary.md",
     "Courses/LLM Mastery/Lecture - Back to Basics for RAG.md",
     "Loss Function.md",
     "Claude.md",
     "Selective Language Modeling.md",
     "MIPRO.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
     "_attachments/Pasted image 20240620004814.png",
     "_attachments/Pasted image 20240620004716.png",
     "_attachments/Pasted image 20240620004628.png",
-    "_attachments/Pasted image 20240620004509.png",
-    "_attachments/Pasted image 20240620004433.png",
-    "_attachments/Pasted image 20240620004244.png",
-    "_attachments/Pasted image 20240620004026.png",
-    "_attachments/Pasted image 20240620003318.png",
-    "_attachments/Pasted image 20240620003134.png",
-    "_attachments/Pasted image 20240620003033.png",
     "Nils Reimers.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (1) Introduction.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (2) Using Transformers.md",
     "DistilBERT.md",
-    "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
     "Bidirectional Encoder Representations from Transformers.md",
     "RoBERTa.md",
     "BART.md",
@@ -264,9 +280,6 @@
     "Hyperparameter.md",
     "Lighteval.md",
     "spaCy.md",
-    "bitsandbytes.md",
-    "GPTQ.md",
-    "NF4.md",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
     "Courses/HuggingFace NLP",
