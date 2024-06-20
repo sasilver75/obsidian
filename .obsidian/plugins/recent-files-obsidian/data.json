@@ -5,16 +5,20 @@
       "path": "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md"
     },
     {
-      "basename": "Zero to Master PyTorch for Deep Learning",
-      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "MIPRO",
+      "path": "MIPRO.md"
     },
     {
       "basename": "Loss Function",
       "path": "Loss Function.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Zero to Master PyTorch for Deep Learning",
+      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
       "basename": "PyTorch Official Tutorial - Learn the Basics",
@@ -195,10 +199,6 @@
     {
       "basename": "Approximate Nearest Neighbor Search",
       "path": "Approximate Nearest Neighbor Search.md"
-    },
-    {
-      "basename": "RETRO",
-      "path": "RETRO.md"
     }
   ],
   "omittedPaths": [],
