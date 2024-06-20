@@ -434,6 +434,7 @@
 - [[Temperature]]
 - [[ReAct]]
 - [[DSPy]]
+- [[MIPRO]]
 - [[N-Gram]]
 - [[Coreference]], [[Coreference Resolution]]
 - [[Selective Language Modeling]] (SLM)

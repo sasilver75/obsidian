@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "bf1c9f7f2236b41e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "730e44c93bc19156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MIPRO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "797f9b72e5d46644",
             "type": "leaf",
             "state": {
@@ -104,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -242,12 +269,13 @@
   },
   "active": "0d65b0458d91e485",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "MIPRO.md",
+    "Loss Function.md",
+    "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md",
     "_attachments/Pasted image 20240619163423.png",
     "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP Introduction.md",
     "_attachments/Pasted image 20240619162934.png",
-    "Loss Function.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240619160158.png",
     "_attachments/Pasted image 20240619155227.png",
     "_attachments/Pasted image 20240619154047.png",
@@ -257,7 +285,6 @@
     "_attachments/Pasted image 20240619132854.png",
     "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
     "_attachments/Pasted image 20240619123321.png",
-    "_attachments/Pasted image 20240619121604.png",
     "Hyperparameter.md",
     "Lighteval.md",
     "spaCy.md",
