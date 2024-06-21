@@ -5,7 +5,7 @@ aliases:
 April 20, 2018 -- Courant Institute, [[AI2]], [[DeepMind]], others
 Paper: [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://arxiv.org/abs/1804.07461)
 #benchmark 
-
+A benchmark measuring the performance of models across 10 different text classification tasks.
 Model-agnostic, and incentivizes sharing knowledge across tasks because certain tasks have very limited training data.
 Models surpassed humans on this benchmark within a year.
 Succeeded by [[SuperGLUE]] in May 2019.

@@ -1,28 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Padding",
+      "path": "Padding.md"
+    },
+    {
+      "basename": "GLUE",
+      "path": "GLUE.md"
+    },
+    {
       "basename": "Zero to Master PyTorch for Deep Learning",
       "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
-      "basename": "Overfitting",
-      "path": "Overfitting.md"
-    },
-    {
-      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
+      "basename": "Common Objects in Context",
+      "path": "Common Objects in Context.md"
     },
     {
       "basename": "SigLIP",
       "path": "SigLIP.md"
     },
     {
-      "basename": "Bitter Lesson",
-      "path": "Bitter Lesson.md"
+      "basename": "Overfitting",
+      "path": "Overfitting.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Bitter Lesson",
+      "path": "Bitter Lesson.md"
     },
     {
       "basename": "Lecture - Back to Basics for RAG",
@@ -187,18 +199,6 @@
     {
       "basename": "Untitled 1",
       "path": "Articles/Untitled 1.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 20",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 20.md"
-    },
-    {
-      "basename": "Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation)",
-      "path": "Courses/LLM Mastery/Lecture - Beyond Explaining the Basics of Retrieval (Augmented Generation).md"
-    },
-    {
-      "basename": "Charles Frye",
-      "path": "Charles Frye.md"
     }
   ],
   "omittedPaths": [],
