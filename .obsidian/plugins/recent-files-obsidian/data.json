@@ -5,6 +5,10 @@
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md"
     },
     {
+      "basename": "Padding",
+      "path": "Padding.md"
+    },
+    {
       "basename": "HuggingFace NLP (4) Sharing Models and Tokenizers",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (4) Sharing Models and Tokenizers.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Padding",
-      "path": "Padding.md"
     },
     {
       "basename": "GLUE",
