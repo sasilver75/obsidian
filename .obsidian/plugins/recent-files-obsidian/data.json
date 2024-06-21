@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md"
+    },
+    {
       "basename": "HuggingFace NLP (5) The Datasets Library",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Prosody",
       "path": "Prosody.md"
-    },
-    {
-      "basename": "Sentence Transformers",
-      "path": "Sentence Transformers.md"
     }
   ],
   "omittedPaths": [],
