@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "bf1c9f7f2236b41e",
+            "id": "d66504167ebd0f1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,20 +34,32 @@
             }
           },
           {
-            "id": "ba5ecb78ded6ca22",
+            "id": "42f27adce6a6bb6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SigLIP.md",
+                "file": "Padding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55e3f3a23716e27b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GLUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
               }
             }
           },
@@ -195,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -242,13 +254,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bf1c9f7f2236b41e",
+  "active": "0d65b0458d91e485",
   "lastOpenFiles": [
-    "Overfitting.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
-    "SigLIP.md",
-    "_attachments/Pasted image 20240620160813.png",
+    "_attachments/Pasted image 20240620192649.png",
+    "~ Vocabulary.md",
+    "Padding.md",
+    "GLUE.md",
     "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+    "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
+    "_attachments/Pasted image 20240620172703.png",
+    "Common Objects in Context.md",
+    "SigLIP.md",
+    "Overfitting.md",
+    "_attachments/Pasted image 20240620160813.png",
     "_attachments/Pasted image 20240620160800.png",
     "_attachments/Pasted image 20240620160702.png",
     "_attachments/Pasted image 20240620154238.png",
@@ -256,7 +274,6 @@
     "Bitter Lesson.md",
     "_attachments/Pasted image 20240620152821.png",
     "_attachments/Pasted image 20240620141544.png",
-    "~ Vocabulary.md",
     "Courses/LLM Mastery/Lecture - Back to Basics for RAG.md",
     "Loss Function.md",
     "Claude.md",
@@ -264,7 +281,6 @@
     "MIPRO.md",
     "_attachments/Pasted image 20240620004814.png",
     "_attachments/Pasted image 20240620004716.png",
-    "_attachments/Pasted image 20240620004628.png",
     "Nils Reimers.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (1) Introduction.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (2) Using Transformers.md",
@@ -276,10 +292,6 @@
     "ELECTRA.md",
     "DeBERTa.md",
     "Distillation.md",
-    "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
-    "Hyperparameter.md",
-    "Lighteval.md",
-    "spaCy.md",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
     "Courses/HuggingFace NLP",

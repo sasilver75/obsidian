@@ -1669,7 +1669,7 @@ model_1_results = train(model=model_1,
 
 # 5. PyTorch Going Modular
 
-This section asnwers the question: How do I turn my notebook into Python scripts?
+This section answers the question: How do I turn my notebook into Python scripts?
 
 
 # 6. PyTorch Transfer Learning
