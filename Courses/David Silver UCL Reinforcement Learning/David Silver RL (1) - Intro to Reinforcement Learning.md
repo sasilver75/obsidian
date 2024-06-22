@@ -111,7 +111,7 @@ Policy
 	- We want to learn this thing from experience such that the policy guides us to getting the maximum possible reward (the RL goal!)
 - We could have a stochastic policy (which might be useful to make random, exploratory decisions): $\pi(a|s) = \mathcal{P}[A=a|S=s]$   ... where $\mathcal{P}$ is a probability distribution
 
-Value Function
+Value Function 
 - A prediction of expected future reward
 - We need this to learn to choose between (state1 and state2) or (action1 or action2)... and we do that by thinking about the expected total future reward.
 - $v_{\pi}(s) = \mathcal{E}_{\pi}[R_t + \gamma R_{t+1} + \gamma^2R_{t+2} + ...]$  where \gamma is some sort of discounting.
