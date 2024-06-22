@@ -5,6 +5,10 @@
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "HuggingFace NLP (5) The Datasets Library",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "GLUE",

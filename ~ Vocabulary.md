@@ -487,6 +487,7 @@
 - [[Credit Assignment Problem]]
 - [[Agent]]
 - [[Policy]]
+- [[Value Function]]
 - [[Hierarchical Reinforcement Learning]]
 - [[Inverse Reinforcement Learning]]
 - [[Q-Function]]

@@ -105,26 +105,92 @@ Non-exhaustively, they are:
 - ==Value Function==: Determines how good it is to be in a specific state; how much reward do we expect to get if we take a specific action and land in a specific state?
 - ==Model==: How the *agent* thinks the environment works -- the agent's representation of the environment.
 
-Policy
+==[[Policy]]==
 - A map from state to actions
 - We could have a deterministic policy $a = \pi(s)$
 	- We want to learn this thing from experience such that the policy guides us to getting the maximum possible reward (the RL goal!)
 - We could have a stochastic policy (which might be useful to make random, exploratory decisions): $\pi(a|s) = \mathcal{P}[A=a|S=s]$   ... where $\mathcal{P}$ is a probability distribution
 
-Value Function 
+==[[Value Function]]== 
 - A prediction of expected future reward
 - We need this to learn to choose between (state1 and state2) or (action1 or action2)... and we do that by thinking about the expected total future reward.
-- $v_{\pi}(s) = \mathcal{E}_{\pi}[R_t + \gamma R_{t+1} + \gamma^2R_{t+2} + ...]$  where \gamma is some sort of discounting.
+- $v_{\pi}(s) = \mathcal{E}_{\pi}[R_t + \gamma R_{t+1} + \gamma^2R_{t+2} + ...]$  where \gamma is some sort of discounting going into the future, which says we care more about immediate rewards than later rewards.
+	- If we cane compare different future states using a value function, we make optimize our behavior to optimize reward!
+
+==Model==
+- A model predicts what the environment will do next, which can be helpful in determining what to do next
+- Two parts to the mode:
+	- ==Transition Model==: Predicts the dynamics of the environment; $\mathcal{P}$ predicts the next state (i.e. dynamics). If the helicopter is *here* and does *this*, then it will likely be *there.*
+	- ==Reward Model==: Predicts the next (*immediate*) reward with $\mathcal{R}$. If the helicopter is in *this* situation, then it will get 1 reward for staying alive.
+![[Pasted image 20240622142538.png|300]]
+- A lot of the course will focus on [[Model-Free]] methods that don't use a model at all! It's not a requirement/necessary to explicitly model the environment like this, but you can!
+
+Categorizing RL Agents: We can taxonomize agents by the three components above!
+- ==Value-Based==
+	- Has a Value Function
+	- No Policy (Implicit; it just has to look at the Value Function and pick the best action greedily)
+- ==Policy-Based== Agent
+	- Instead of representing, inside the agent, the Value Function, how well it's going to do  from each of these states, instead they explicitly represent the Policy!
+	- A policy-based agent maintains some kind of data structure telling us the predicted action from any state.
+- ==Actor-Critic== Agent 
+	- Policy
+	- Value Function
+	- Basically combines the two above together and tries to get the best of both worlds.
+- ==[[Model-Free]]==
+	- We don't try to explicitly understand the environment; we don't understand the dynamics of how the environment behaves.
+	- Instead, we go directly to the policy or value function; we see experience and figure out a policy how to behave to best get a reward.
+		- (Question: How do you even do this without building a representation of the environment first?)
+	- Policy and/or Value Function
+	- No Model
+- ==[[Model-Based]]==
+	- First, we build a model of how our environment works (dynamics of a helicopter), and then figure out how to behave based on this.
+	- Policy and/or Value Function
+	- Model
+
+![[Pasted image 20240622144559.png]]
+We can either have a value function or not, a policy or not, and a model or not.
+- Ultimately, the agent has to select actions, and to select actions, it either needs to have a policy to pick it, or a value function to implicitly give us a policy where we greedily follow the value function through states.
+
+## Problems within Reinforcement Learning
+
+Learning and Planning
+- Two fundamental problems in sequential decision making
+	- ==Reinforcement Learning== problem:
+		- The environment is initially unknown! We drop our robot onto the factory floor and tell it to get maximum reward. We don't tell ti how the factory operates or how the wind blows, it figures out how what it has to do (given the environment and objectives) through interacting with the environment through trial-and-errror learning.
+		- The environment is initially unknown
+		- The agent interacts with the environment
+		- The agent improves its planning
+	- ==Planning== problem:
+		- A model of the environment is know (dynamics of the wind, differential equations describing how helicopter moves, etc).
+		- Instead of interacting with the environment, it can perform internal computations using its perfect model of reality WITHOUT any external interactions.
+		- As a result of this, it improves its policy 
+		- AKA deliberation, reasoning, introspection, pondering, though, search
 
 
+![[Pasted image 20240622145014.png]]
+
+![[Pasted image 20240622145053.png]]
+Question: If you have a bunch of actuators, doesn't the branching factor of the search place explores!
+Answer: Yes, there are tactics for this we'll talk about later.
 
 
+Exploration and Exploitation
+- Reinforcement learning is like trial-and-error learning; we don't know what the environment looks like -- we have to figure out through trial and error to figure out which parts of the space are good and which parts are bad -- but we might be learning rewards along to way!
+- So we want to learn a good policy from its experiences of the environment, without losing too much reward along the way by exploring.
+	- It has to balance exploration vs exploitation
+		- ==Exploration==: Finds more information about the environment
+		- ==Exploitation==: Maximizes reward given what's currently known about the environment
+![[Pasted image 20240622145621.png]]
 
+Prediction: Evaluate the future
+- How well will I do if I follow my current policy?
+Control: Optimize the future
+- What's the optimal policy? 
 
+Typically we need to be able to solve the prediction problem first before solving the control problem.
 
-
-
-
+![[Pasted image 20240622150936.png]]
+THE COURSE GOING FORWARD!
 
 
 
