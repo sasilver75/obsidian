@@ -1,20 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "David Silver RL (2) - Markov Decision Processes",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
+      "basename": "Dynamic Programming",
+      "path": "Dynamic Programming.md"
     },
     {
-      "basename": "Markov Chain",
-      "path": "Markov Chain.md"
-    },
-    {
-      "basename": "Markov Decision Process",
-      "path": "Markov Decision Process.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Policy Iteration",
+      "path": "Policy Iteration.md"
     },
     {
       "basename": "Padding",
@@ -23,6 +15,38 @@
     {
       "basename": "Zero to Master PyTorch for Deep Learning",
       "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
+    },
+    {
+      "basename": "Policy",
+      "path": "Policy.md"
+    },
+    {
+      "basename": "Bellman Equation",
+      "path": "Bellman Equation.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Markov Decision Process",
+      "path": "Markov Decision Process.md"
+    },
+    {
+      "basename": "Markov Chain",
+      "path": "Markov Chain.md"
+    },
+    {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Recommendation Systems",
+      "path": "Recommendation Systems.md"
+    },
+    {
+      "basename": "David Silver RL (2) - Markov Decision Processes",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
     },
     {
       "basename": "GLUE",
@@ -175,30 +199,6 @@
     {
       "basename": "CS224U Lecture 6",
       "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 6.md"
-    },
-    {
-      "basename": "Safe SuperIntelligence",
-      "path": "Safe SuperIntelligence.md"
-    },
-    {
-      "basename": "CS 11-777 Lecture 4",
-      "path": "Courses/CS 11-777 Multimodal ML @ CMU (2023)/CS 11-777 Lecture 4.md"
-    },
-    {
-      "basename": "Multimodal",
-      "path": "Multimodal.md"
-    },
-    {
-      "basename": "Softmax",
-      "path": "Softmax.md"
-    },
-    {
-      "basename": "Epoch",
-      "path": "Epoch.md"
-    },
-    {
-      "basename": "Pic - Adam Optimizer in PyTorch",
-      "path": "_attachments/Pic - Adam Optimizer in PyTorch.png"
     }
   ],
   "omittedPaths": [],
