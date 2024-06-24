@@ -1671,6 +1671,14 @@ model_1_results = train(model=model_1,
 
 This section answers the question: How do I turn my notebook into Python scripts?
 
+Going modular involves turning notebook code (eg from a Jupyter Notebook) into a series of different Python scripts that offer similar functionality. 
+We might break out notebook into:
+- `data_setup.py`: File to prepare/download data is needed
+- `engine.py`: File containing various training functions
+- `model_builder.py` or `model.py`: File to create a PyTorch model
+- `train.py`: A file to leverage all other files and train a target PyTorch model
+- `utils.py`: A file dedicated to helpful utility functions
+
 
 # 6. PyTorch Transfer Learning
 

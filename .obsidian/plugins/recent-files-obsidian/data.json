@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md"
+      "basename": "David Silver RL (2) - Markov Decision Processes",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
+    },
+    {
+      "basename": "Markov Chain",
+      "path": "Markov Chain.md"
+    },
+    {
+      "basename": "Markov Decision Process",
+      "path": "Markov Decision Process.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "HuggingFace NLP (5) The Datasets Library",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md"
-    },
-    {
       "basename": "Padding",
       "path": "Padding.md"
+    },
+    {
+      "basename": "Zero to Master PyTorch for Deep Learning",
+      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
+    },
+    {
+      "basename": "GLUE",
+      "path": "GLUE.md"
+    },
+    {
+      "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md"
+    },
+    {
+      "basename": "HuggingFace NLP (5) The Datasets Library",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md"
     },
     {
       "basename": "HuggingFace NLP (4) Sharing Models and Tokenizers",
@@ -23,14 +43,6 @@
     {
       "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
-    },
-    {
-      "basename": "GLUE",
-      "path": "GLUE.md"
-    },
-    {
-      "basename": "Zero to Master PyTorch for Deep Learning",
-      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
     },
     {
       "basename": "Common Objects in Context",
@@ -187,18 +199,6 @@
     {
       "basename": "Pic - Adam Optimizer in PyTorch",
       "path": "_attachments/Pic - Adam Optimizer in PyTorch.png"
-    },
-    {
-      "basename": "Will Scaling Work (Dec 2023) {Dwarkesh Patel}",
-      "path": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md"
-    },
-    {
-      "basename": "Hybrid Search",
-      "path": "Hybrid Search.md"
-    },
-    {
-      "basename": "Prosody",
-      "path": "Prosody.md"
     }
   ],
   "omittedPaths": [],

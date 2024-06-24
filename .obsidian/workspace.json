@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GLUE.md",
+                "file": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md"
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
               }
             }
           },
@@ -220,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,26 +269,29 @@
   },
   "active": "0d65b0458d91e485",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240622150936.png",
-    "_attachments/Pasted image 20240622145621.png",
-    "_attachments/Pasted image 20240622145053.png",
-    "_attachments/Pasted image 20240622145014.png",
-    "_attachments/Pasted image 20240622144559.png",
-    "_attachments/Pasted image 20240622142538.png",
+    "_attachments/Pasted image 20240623192456.png",
+    "_attachments/Pasted image 20240623192251.png",
+    "_attachments/Pasted image 20240623191830.png",
+    "_attachments/Pasted image 20240623191427.png",
+    "_attachments/Pasted image 20240623190046.png",
+    "_attachments/Pasted image 20240623185601.png",
+    "_attachments/Pasted image 20240623185530.png",
+    "_attachments/Pasted image 20240623184427.png",
+    "_attachments/Pasted image 20240623182525.png",
+    "_attachments/Pasted image 20240623182021.png",
+    "_attachments/Pasted image 20240623181601.png",
+    "Markov Chain.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
+    "Markov Decision Process.md",
     "~ Vocabulary.md",
+    "Padding.md",
+    "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+    "GLUE.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md",
-    "_attachments/Pasted image 20240621014443.png",
-    "_attachments/Pasted image 20240621013630.png",
-    "_attachments/Pasted image 20240621013328.png",
-    "_attachments/Pasted image 20240621013319.png",
-    "_attachments/Pasted image 20240621012832.png",
     "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md",
     "Courses/David Silver UCL Reinforcement Learning",
-    "Padding.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (4) Sharing Models and Tokenizers.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
-    "GLUE.md",
-    "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
     "Common Objects in Context.md",
     "SigLIP.md",
     "Overfitting.md",
@@ -303,9 +306,6 @@
     "Courses/HuggingFace NLP/HuggingFace NLP (2) Using Transformers.md",
     "DistilBERT.md",
     "Bidirectional Encoder Representations from Transformers.md",
-    "RoBERTa.md",
-    "BART.md",
-    "T5.md",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
     "Courses/HuggingFace NLP",
