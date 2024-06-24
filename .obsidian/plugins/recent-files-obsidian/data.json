@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "David Silver RL (3) - Planning by Dynamic Programming",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
+    },
+    {
       "basename": "HuggingFace NLP (7) Main NLP Tasks",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md"
+    },
+    {
+      "basename": "Zero to Master PyTorch for Deep Learning",
+      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
+    },
+    {
+      "basename": "PyTorch Official Tutorial - Learn the Basics",
+      "path": "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md"
+    },
+    {
+      "basename": "Unigram Tokenization",
+      "path": "Unigram Tokenization.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "David Silver RL (2) - Markov Decision Processes",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
     },
     {
       "basename": "HuggingFace NLP (6) The Tokenizers Library",
@@ -11,14 +35,6 @@
     {
       "basename": "WordPiece",
       "path": "WordPiece.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Unigram Tokenization",
-      "path": "Unigram Tokenization.md"
     },
     {
       "basename": "Byte-Pair Encoding",
@@ -61,10 +77,6 @@
       "path": "Padding.md"
     },
     {
-      "basename": "Zero to Master PyTorch for Deep Learning",
-      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
-    },
-    {
       "basename": "Policy",
       "path": "Policy.md"
     },
@@ -87,10 +99,6 @@
     {
       "basename": "Recommendation Systems",
       "path": "Recommendation Systems.md"
-    },
-    {
-      "basename": "David Silver RL (2) - Markov Decision Processes",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
     },
     {
       "basename": "GLUE",
@@ -191,14 +199,6 @@
     {
       "basename": "Distillation",
       "path": "Distillation.md"
-    },
-    {
-      "basename": "PyTorch Official Tutorial - Learn the Basics",
-      "path": "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md"
-    },
-    {
-      "basename": "Hyperparameter",
-      "path": "Hyperparameter.md"
     }
   ],
   "omittedPaths": [],
