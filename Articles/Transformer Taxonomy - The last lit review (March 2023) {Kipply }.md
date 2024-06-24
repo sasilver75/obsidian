@@ -175,7 +175,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 	- Good at handling sequences of different lengths
 	- Decays inter-token dependency with increasing relative distances
 - Better than sinusoidal positional embedding techniques
-### [[BPE]] vs [[SentencePiece]] tokenizers
+### [[Byte-Pair Encoding|BPE]] vs [[SentencePiece]] tokenizers
 - [[Byte-Pair Encoding]]s are the default for most language models, and were used by the original GPT paper, GPT-3, and presumably GPT-3.5.
 - Note: An obvious reason to *not* use plain BPE (and instead use SentencePiece_ is if your distribution *doesn't contain* space-separated words (eg AlphaCode, GLM (chinese), PaLM (multilingual))
 	- In other words, ==if your distribution of text isn't always cleanly space-separated (code, non-english characters), use SentencePiece instead of BPE.==

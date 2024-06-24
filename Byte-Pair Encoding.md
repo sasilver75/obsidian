@@ -2,6 +2,9 @@
 aliases:
   - BPE
 ---
+References:
+- [VIDEO: HuggingFace NLP Course BPE](https://youtu.be/HEikzVL-lZU?si=VESfTlnUoacLgEJX)
+
 Introduced in 2016's *Neural Machine Translation of Rare Words with Subword Units (Sennrich et al.)*
 
 Used by [[GPT-2]], [[GPT-3]], [[GPT-4]], [[RoBERTa]], and more.
@@ -45,6 +48,9 @@ And on and on.
 
 ---
 
+![[Pasted image 20240623225042.png]]
+Above: The three main subword tokenization algorithms, [[Byte-Pair Encoding|BPE]], [[WordPiece]], and Unigram
+
 From Amherst Course:
 ![[Pasted image 20240523163656.png]]
 How do we get a subword encoded? The BPE algorithm *start* with a character-level encoding, and forms words iteratively. 
@@ -69,6 +75,18 @@ Basically, we keep repeating this process until we've reached a number of steps 
 ![[Pasted image 20240523205905.png]]
 - It's actually 7x faster to use subword tokenization than byte-level tokenization!
 
-
 ---
 
+From HuggingFace NLP Course
+- BPE training starts by computing the unique set of words used in the corpus (after normalization and pre-tokenization steps are completed), then starting the vocabulary by taking all the symbols used to write those words.
+	- "hug", "pug", "pun", "bun", "hugs" -> ["b", "g", "h", "n", "p", "s", "u"]
+	- For real-world datasets, the base vocabulary will include all the ASCII characters, and probably some Unicode characters as well.
+	- If, at test time, your tokenizer use a character not seen in the training process, it will be converted to an UNK token (this is a reason why many NLP models are very bad at analyzing content with emojis).
+- After getting this base vocabulary, we add new tokens until the desired vocabulary size is reached by learning *merges* of tokens, where we produce a new token by combining two existing tokens. 
+	- So at the beginning, these merges will create tokens with two characters, and then, as training progresses, longer subwords (or words).
+	- Given counts of `("hug", 10), ("pug", 5), ("pun", 12), ("bun", 4), ("hugs", 5)`
+	- We split each word into our characters
+	- `("h" "u" "g", 10), ("p" "u" "g", 5), ("p" "u" "n", 12), ("b" "u" "n", 4), ("h" "u" "g" "s", 5)`
+	- Then look at pairs; the "hu" is present in "hugs" and "hug", so 15 times in total -- but the most common blogs to "ug", present in "hug," "pog", and "hugs" for a grand total of 20 times. So our first merge rule is that "ug" is aded to the vocabulary.
+	- We continue this until we reach the desired vocabulary size.
+- ==An interesting thing to note== is that BPE saves not just the resulting vocabulary, but also the merge rules. Because at test time, we tokenize sequences by breaking the sequence into the base vocabulary, and then following the merge rules to tokenize the string! This differs from [[WordPiece]], which follows a similar merging process to define the vocabulary, but has a different way of tokenizing sequences at test time.
