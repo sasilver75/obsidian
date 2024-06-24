@@ -23,3 +23,8 @@ Common tokenization strategies include:
 
 ![[Pasted image 20240530114310.png]]
 
+
+![[Pasted image 20240623222437.png]]
+Above: The steps of a tokenization pipeline, generally
+- Normalization involves general cleanup, such as removing needless whitespace, lowercasing, removing accents, and (eg) unicode normalization.
+- Pre-tokenization involves splitting the text into smaller entities, like words (which will later be the boundaries of the subtokens the tokenizer can learn during its training)

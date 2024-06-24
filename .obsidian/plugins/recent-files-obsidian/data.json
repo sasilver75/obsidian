@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "HuggingFace NLP (6) The Tokenizers Library",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md"
+    },
+    {
+      "basename": "WordPiece",
+      "path": "WordPiece.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Unigram Tokenization",
+      "path": "Unigram Tokenization.md"
+    },
+    {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "Transformer Taxonomy - The last lit review (March 2023) {Kipply }",
+      "path": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
+    },
+    {
+      "basename": "Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}",
+      "path": "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md"
+    },
+    {
+      "basename": "Tokenizer",
+      "path": "Tokenizer.md"
+    },
+    {
+      "basename": "SentencePiece",
+      "path": "SentencePiece.md"
+    },
+    {
+      "basename": "Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}",
+      "path": "Articles/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md"
+    },
+    {
+      "basename": "OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4)",
+      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md"
+    },
+    {
       "basename": "Dynamic Programming",
       "path": "Dynamic Programming.md"
     },
@@ -23,10 +67,6 @@
     {
       "basename": "Bellman Equation",
       "path": "Bellman Equation.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Markov Decision Process",
@@ -159,46 +199,6 @@
     {
       "basename": "Lighteval",
       "path": "Lighteval.md"
-    },
-    {
-      "basename": "spaCy",
-      "path": "spaCy.md"
-    },
-    {
-      "basename": "bitsandbytes",
-      "path": "bitsandbytes.md"
-    },
-    {
-      "basename": "GPTQ",
-      "path": "GPTQ.md"
-    },
-    {
-      "basename": "NF4",
-      "path": "NF4.md"
-    },
-    {
-      "basename": "PIL",
-      "path": "PIL.md"
-    },
-    {
-      "basename": "CS224U Lecture 2",
-      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 2.md"
-    },
-    {
-      "basename": "CS224U Lecture 3",
-      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 3.md"
-    },
-    {
-      "basename": "CS224U Lecture 4",
-      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 4.md"
-    },
-    {
-      "basename": "CS224U Lecture 5",
-      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 5.md"
-    },
-    {
-      "basename": "CS224U Lecture 6",
-      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 6.md"
     }
   ],
   "omittedPaths": [],

@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5e575c674d2b3388",
+        "id": "8768ba6680451634",
         "type": "tabs",
         "children": [
           {
-            "id": "11b9187f5992e9cf",
+            "id": "fd4c56a4b98f94a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5001e1c89f25dbeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,20 +34,45 @@
             }
           },
           {
-            "id": "f041275ae248bfea",
+            "id": "c09a6b2dbbaeafb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "Unigram Tokenization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47441dd6fd4827f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Byte-Pair Encoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2215c3ddee442d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tokenizer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynamic Programming.md"
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md"
               }
             }
           },
@@ -182,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -229,12 +267,29 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f041275ae248bfea",
+  "active": "fd4c56a4b98f94a5",
   "lastOpenFiles": [
+    "WordPiece.md",
+    "~ Vocabulary.md",
+    "Unigram Tokenization.md",
+    "Byte-Pair Encoding.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "BPE.md",
+    "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
+    "_attachments/Pasted image 20240623232407.png",
+    "Tokenizer.md",
+    "SentencePiece.md",
+    "_attachments/Pasted image 20240623225042.png",
+    "_attachments/Pasted image 20240623225032.png",
+    "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+    "_attachments/Pasted image 20240623223504.png",
+    "_attachments/Pasted image 20240623222437.png",
+    "Articles/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
+    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md",
+    "Dynamic Programming.md",
     "Policy Iteration.md",
     "Padding.md",
     "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
-    "Dynamic Programming.md",
     "Policy.md",
     "_attachments/Pasted image 20240623203729.png",
     "_attachments/Pasted image 20240623203721.png",
@@ -242,12 +297,6 @@
     "_attachments/Pasted image 20240623203353.png",
     "Bellman Equation.md",
     "_attachments/Pasted image 20240623202205.png",
-    "_attachments/Pasted image 20240623202151.png",
-    "_attachments/Pasted image 20240623202052.png",
-    "_attachments/Pasted image 20240623202011.png",
-    "_attachments/Pasted image 20240623201709.png",
-    "_attachments/Pasted image 20240623201417.png",
-    "~ Vocabulary.md",
     "Markov Decision Process.md",
     "Markov Chain.md",
     "~ Recommendations.md",
@@ -257,17 +306,6 @@
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md",
     "Courses/David Silver UCL Reinforcement Learning",
-    "Courses/HuggingFace NLP/HuggingFace NLP (4) Sharing Models and Tokenizers.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md",
-    "Common Objects in Context.md",
-    "SigLIP.md",
-    "Overfitting.md",
-    "Bitter Lesson.md",
-    "Courses/LLM Mastery/Lecture - Back to Basics for RAG.md",
-    "Loss Function.md",
-    "Claude.md",
-    "Selective Language Modeling.md",
-    "MIPRO.md",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
     "Courses/HuggingFace NLP",

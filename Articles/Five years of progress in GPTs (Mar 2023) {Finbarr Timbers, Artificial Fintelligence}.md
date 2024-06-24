@@ -95,7 +95,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 - The architecture was the same as GPT-3, except:
 	- Used [[RMSNorm]] (instead of [[Layer Normalization|LayerNorm]])
 	- Used relative positional encoding scheme from [[Transformer-XL]] (from Google)
-	- Use [[SentencePiece]] instead of [[BPE]]; using this seems to be an Alphabet-specific thing.
+	- Use [[SentencePiece]] instead of [[Byte-Pair Encoding|BPE]]; using this seems to be an Alphabet-specific thing.
 - From a computational perspective (how they trained it):
 	- Used optimizer state partitioning (ZeRO)
 	- Megatron-style model parallelism
