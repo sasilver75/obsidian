@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HuggingFace NLP (7) Main NLP Tasks",
+      "path": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md"
+    },
+    {
       "basename": "HuggingFace NLP (6) The Tokenizers Library",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hyperparameter",
       "path": "Hyperparameter.md"
-    },
-    {
-      "basename": "Lighteval",
-      "path": "Lighteval.md"
     }
   ],
   "omittedPaths": [],

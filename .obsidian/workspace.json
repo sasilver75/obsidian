@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md"
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md"
               }
             }
           },
@@ -220,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+                "file": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,6 +269,8 @@
   },
   "active": "fd4c56a4b98f94a5",
   "lastOpenFiles": [
+    "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+    "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
     "WordPiece.md",
     "~ Vocabulary.md",
     "Unigram Tokenization.md",
@@ -281,7 +283,6 @@
     "SentencePiece.md",
     "_attachments/Pasted image 20240623225042.png",
     "_attachments/Pasted image 20240623225032.png",
-    "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
     "_attachments/Pasted image 20240623223504.png",
     "_attachments/Pasted image 20240623222437.png",
     "Articles/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
@@ -304,7 +305,6 @@
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
     "GLUE.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
