@@ -173,5 +173,20 @@ How do we get q star?
 - We start at the final state, and work backwards while looking at rewards.
 - The bellman optimality equation for v_* helps us solve
 
+[[Bellman Equation]]
 ![[Pasted image 20240623192456.png]]
 The value of the state is the maximum value of taking the best of {the available actions, receiving its reward, landing (probabilistically) in some next state, and optimally exploiting that state in the same manner(recursive)}.
+
+![[Pasted image 20240623193423.png]]
+Solving this requires iterative solution methods like [[Value Iteration]], [[Policy Iteration]], [[Q-Learning]], or other methods.
+
+Q: Whats the intuition behind the bellman equation?
+A: The bellman optimality equation... the q star or v star tell you the maximum amount of score you can get from a screen. And the intuition is to look at the principle of optimality, which tells you to behave optimally for one step, and then behave optimally for the remaining trajectory. So now you just need to figure out how to behave optimally for one step, which is to optimize over the value functions of the places you might end up. Just by breaking down your trajectory into these two parts (optimal decision at one step, and optimal decision from then-on), we can make some progress.
+
+Extensions to MDPs
+- Infinite and continuous MDPs
+- Partially-observable MDPs
+- Undiscounted, average-reward MDPs
+
+We've mostly defined the RL problem using a markov decision process, and next time we'll start to talk more about how to actually solve them.
+
