@@ -1,3 +1,9 @@
+---
+aliases:
+  - Markov Process
+---
+
+
 A mathematical system that undergoes transitions from one state to another, on a state space, in a stochastic/random manner. The key property of a Markov Chain is that the probability of moving to the next state depends *only* on the current state, and *not* on the sequence of events that proceeded it --  i.e. it follows the [[Markov Assumption|Markov Property]].
 
 Markov Chains are foundational in more complex methods, like [[Markov Chain Monte Carlo]] (MCMC) methods.
