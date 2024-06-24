@@ -1679,6 +1679,27 @@ We might break out notebook into:
 - `train.py`: A file to leverage all other files and train a target PyTorch model
 - `utils.py`: A file dedicated to helpful utility functions
 
+Why would you want to go modular? 
+- Notebooks are fantastic for iteratively exploring/running experiments quickly.
+- But for larger scale projects, you might find Python script more reproducible and easier to run.
+- Libraries like fast.ai's `nb-dev`enable us to write whole Python libraries (including documentation) with Jupyter notebooks.
+
+Pros and Cons of notebooks vs Python Scripts
+![[Pasted image 20240624133118.png|300]]
+
+The author usually starts machine learning projects in Jupyter/Google Colab for quick experimentation and visualization, and then when something is working, we move the most useful pieces of code to Python scripts.
+
+In our travels, we'll see many code repositories for PyTorch-based ML projects that have instructions to run the Pytorch code in the form of Python scripts, for example:
+
+`python train.py --model MODEL_NAME --batch_size BATCH_SIZE --lr LEARNING_RATE --num_epochs NUM_EPOCHS`
+![[Pasted image 20240624133432.png|300]]
+Running a PyTorch `train.py` script on the command line with various hyperparameter settings passed via argument flags --model, --batch_size, --lr, and --num_epochs
+
+## 1.Getting Data
+- 
+
+## 2. Creating
+
 
 # 6. PyTorch Transfer Learning
 
