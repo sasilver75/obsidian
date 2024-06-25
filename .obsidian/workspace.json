@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,8 +139,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
               }
             }
           },
@@ -234,7 +233,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -283,6 +282,9 @@
   },
   "active": "fd4c56a4b98f94a5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240624195422.png",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
     "_attachments/Pasted image 20240624190554.png",
     "_attachments/Pasted image 20240624190354.png",
     "_attachments/Pasted image 20240624190208.png",
@@ -291,11 +293,9 @@
     "_attachments/Pasted image 20240624185027.png",
     "_attachments/Pasted image 20240624184901.png",
     "Value Function.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
     "_attachments/Pasted image 20240624184706.png",
     "_attachments/Pasted image 20240624184217.png",
     "_attachments/Pasted image 20240624183844.png",
-    "_attachments/Pasted image 20240624164117.png",
     "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
     "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
     "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
@@ -318,7 +318,6 @@
     "Policy.md",
     "Bellman Equation.md",
     "Markov Decision Process.md",
-    "Markov Chain.md",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
+      "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
+    },
+    {
       "basename": "David Silver RL (3) - Planning by Dynamic Programming",
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ELECTRA",
       "path": "ELECTRA.md"
-    },
-    {
-      "basename": "DeBERTa",
-      "path": "DeBERTa.md"
     }
   ],
   "omittedPaths": [],
