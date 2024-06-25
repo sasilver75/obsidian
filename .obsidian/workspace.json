@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
+                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md"
               }
             }
           },
@@ -233,7 +233,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -282,9 +282,11 @@
   },
   "active": "fd4c56a4b98f94a5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240625124500.png",
+    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+    "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
     "_attachments/Pasted image 20240624195422.png",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
-    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
     "_attachments/Pasted image 20240624190554.png",
     "_attachments/Pasted image 20240624190354.png",
     "_attachments/Pasted image 20240624190208.png",
@@ -295,7 +297,6 @@
     "Value Function.md",
     "_attachments/Pasted image 20240624184706.png",
     "_attachments/Pasted image 20240624184217.png",
-    "_attachments/Pasted image 20240624183844.png",
     "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
     "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
     "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
@@ -317,7 +318,6 @@
     "Padding.md",
     "Policy.md",
     "Bellman Equation.md",
-    "Markov Decision Process.md",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",

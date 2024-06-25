@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture - A Deep Dive on LM Evaluation",
+      "path": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md"
+    },
+    {
       "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
       "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "T5",
       "path": "T5.md"
-    },
-    {
-      "basename": "ELECTRA",
-      "path": "ELECTRA.md"
     }
   ],
   "omittedPaths": [],
