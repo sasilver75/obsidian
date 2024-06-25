@@ -5,6 +5,10 @@
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
     },
     {
+      "basename": "Value Function",
+      "path": "Value Function.md"
+    },
+    {
       "basename": "HuggingFace NLP (7) Main NLP Tasks",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DeBERTa",
       "path": "DeBERTa.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
     }
   ],
   "omittedPaths": [],
