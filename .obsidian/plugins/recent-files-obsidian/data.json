@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Data-Centric AI (2) - Label Errors",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
+      "basename": "SARSA",
+      "path": "SARSA.md"
+    },
+    {
+      "basename": "Value Function",
+      "path": "Value Function.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "SARSA-Lambda",
+      "path": "SARSA-Lambda.md"
+    },
+    {
+      "basename": "The Bitter Lesson Paper",
+      "path": "Papers/The Bitter Lesson Paper.md"
+    },
+    {
+      "basename": "Q-Learning",
+      "path": "Q-Learning.md"
+    },
+    {
+      "basename": "David Silver RL (5) Model-Free Control",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md"
+    },
+    {
+      "basename": "Return Set",
+      "path": "Return Set.md"
+    },
+    {
+      "basename": "David Silver RL (4) - Model-Free Prediction",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md"
+    },
+    {
+      "basename": "GLIE",
+      "path": "GLIE.md"
     },
     {
       "basename": "Deep Reinforcement Learning",
@@ -17,20 +49,28 @@
       "path": "Model-Free.md"
     },
     {
+      "basename": "Llamafile",
+      "path": "Llamafile.md"
+    },
+    {
+      "basename": "Berkeley Function-Calling Leaderboard",
+      "path": "Berkeley Function-Calling Leaderboard.md"
+    },
+    {
+      "basename": "Gorilla",
+      "path": "Gorilla.md"
+    },
+    {
+      "basename": "Data-Centric AI (2) - Label Errors",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
+    },
+    {
       "basename": "Model-Based",
       "path": "Model-Based.md"
     },
     {
-      "basename": "Q-Learning",
-      "path": "Q-Learning.md"
-    },
-    {
       "basename": "Policy Gradient",
       "path": "Policy Gradient.md"
-    },
-    {
-      "basename": "SARSA",
-      "path": "SARSA.md"
     },
     {
       "basename": "Deep Q-Networks",
@@ -85,10 +125,6 @@
       "path": "Trajectory.md"
     },
     {
-      "basename": "Value Function",
-      "path": "Value Function.md"
-    },
-    {
       "basename": "David Silver RL (3) - Planning by Dynamic Programming",
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
     },
@@ -123,10 +159,6 @@
     {
       "basename": "Tokenizer",
       "path": "Tokenizer.md"
-    },
-    {
-      "basename": "David Silver RL (4) - Model-Free Prediction",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md"
     },
     {
       "basename": "TD-Lambda",
@@ -167,38 +199,6 @@
     {
       "basename": "WordPiece",
       "path": "WordPiece.md"
-    },
-    {
-      "basename": "Transformer Taxonomy - The last lit review (March 2023) {Kipply }",
-      "path": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
-    },
-    {
-      "basename": "Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}",
-      "path": "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md"
-    },
-    {
-      "basename": "SentencePiece",
-      "path": "SentencePiece.md"
-    },
-    {
-      "basename": "Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}",
-      "path": "Articles/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4)",
-      "path": "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md"
-    },
-    {
-      "basename": "Dynamic Programming",
-      "path": "Dynamic Programming.md"
-    },
-    {
-      "basename": "Padding",
-      "path": "Padding.md"
-    },
-    {
-      "basename": "Policy",
-      "path": "Policy.md"
     }
   ],
   "omittedPaths": [],
