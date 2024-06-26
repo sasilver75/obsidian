@@ -1,20 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Lecture - A Deep Dive on LM Evaluation",
-      "path": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md"
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
     },
     {
-      "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
-      "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
+      "basename": "Monte-Carlo Learning",
+      "path": "Monte-Carlo Learning.md"
+    },
+    {
+      "basename": "Markov Reward Process",
+      "path": "Markov Reward Process.md"
+    },
+    {
+      "basename": "Model-Free",
+      "path": "Model-Free.md"
+    },
+    {
+      "basename": "Model-Based",
+      "path": "Model-Based.md"
     },
     {
       "basename": "David Silver RL (3) - Planning by Dynamic Programming",
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
     },
     {
+      "basename": "Trajectory",
+      "path": "Trajectory.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Value Function",
       "path": "Value Function.md"
+    },
+    {
+      "basename": "Tokenizer",
+      "path": "Tokenizer.md"
+    },
+    {
+      "basename": "David Silver RL (4) - Model-Free Prediction",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md"
+    },
+    {
+      "basename": "TD-Lambda",
+      "path": "TD-Lambda.md"
+    },
+    {
+      "basename": "Credit Assignment Problem",
+      "path": "Credit Assignment Problem.md"
+    },
+    {
+      "basename": "Bellman Equation",
+      "path": "Bellman Equation.md"
+    },
+    {
+      "basename": "David Silver RL (2) - Markov Decision Processes",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
+    },
+    {
+      "basename": "Monte-Carlo",
+      "path": "Monte-Carlo.md"
+    },
+    {
+      "basename": "Lecture - A Deep Dive on LM Evaluation",
+      "path": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md"
+    },
+    {
+      "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
+      "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
     },
     {
       "basename": "HuggingFace NLP (7) Main NLP Tasks",
@@ -33,14 +89,6 @@
       "path": "Unigram Tokenization.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "David Silver RL (2) - Markov Decision Processes",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
-    },
-    {
       "basename": "HuggingFace NLP (6) The Tokenizers Library",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md"
     },
@@ -49,20 +97,12 @@
       "path": "WordPiece.md"
     },
     {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
-    },
-    {
       "basename": "Transformer Taxonomy - The last lit review (March 2023) {Kipply }",
       "path": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
     },
     {
       "basename": "Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}",
       "path": "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md"
-    },
-    {
-      "basename": "Tokenizer",
-      "path": "Tokenizer.md"
     },
     {
       "basename": "SentencePiece",
@@ -91,10 +131,6 @@
     {
       "basename": "Policy",
       "path": "Policy.md"
-    },
-    {
-      "basename": "Bellman Equation",
-      "path": "Bellman Equation.md"
     },
     {
       "basename": "Markov Decision Process",
@@ -163,42 +199,6 @@
     {
       "basename": "Selective Language Modeling",
       "path": "Selective Language Modeling.md"
-    },
-    {
-      "basename": "MIPRO",
-      "path": "MIPRO.md"
-    },
-    {
-      "basename": "Nils Reimers",
-      "path": "Nils Reimers.md"
-    },
-    {
-      "basename": "HuggingFace NLP (1) Introduction",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (1) Introduction.md"
-    },
-    {
-      "basename": "HuggingFace NLP (2) Using Transformers",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (2) Using Transformers.md"
-    },
-    {
-      "basename": "DistilBERT",
-      "path": "DistilBERT.md"
-    },
-    {
-      "basename": "Bidirectional Encoder Representations from Transformers",
-      "path": "Bidirectional Encoder Representations from Transformers.md"
-    },
-    {
-      "basename": "RoBERTa",
-      "path": "RoBERTa.md"
-    },
-    {
-      "basename": "BART",
-      "path": "BART.md"
-    },
-    {
-      "basename": "T5",
-      "path": "T5.md"
     }
   ],
   "omittedPaths": [],

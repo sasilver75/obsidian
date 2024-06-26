@@ -90,3 +90,7 @@ From HuggingFace NLP Course
 	- Then look at pairs; the "hu" is present in "hugs" and "hug", so 15 times in total -- but the most common blogs to "ug", present in "hug," "pog", and "hugs" for a grand total of 20 times. So our first merge rule is that "ug" is aded to the vocabulary.
 	- We continue this until we reach the desired vocabulary size.
 - ==An interesting thing to note== is that BPE saves not just the resulting vocabulary, but also the merge rules. Because at test time, we tokenize sequences by breaking the sequence into the base vocabulary, and then following the merge rules to tokenize the string! This differs from [[WordPiece]], which follows a similar merging process to define the vocabulary, but has a different way of tokenizing sequences at test time.
+![[Pasted image 20240625172801.png|300]]
+
+
+==Monte-Carlo Control==

@@ -21,7 +21,7 @@
 # Probability/Statistics
 - [[Law of Large Numbers]]
 - [[Central Limit Theorem]]
-- [[Monte Carlo]]
+- [[Monte-Carlo]]
 - [[Markov Assumption]]
 - [[Hidden Markov Model]] (HMM)
 - [[Markov Chain]]
@@ -489,8 +489,10 @@
 - [[Agent]]
 - [[Policy]]
 - [[Value Function]]
+- [[Trajectory]]
 - [[Value Iteration]]
 - [[Policy Iteration]]
+- [[Policy Evaluation]]
 - [[Dynamic Programming]]
 - [[Hierarchical Reinforcement Learning]]
 - [[Inverse Reinforcement Learning]]
@@ -501,9 +503,12 @@
 - [[Proximal Policy Optimization]] (PPO)
 - [[Group Relative Policy Optimization]] (GRPO)
 - [[Bellman Equation]] 
+- [[Monte-Carlo Learning]]
 - [[Temporal Difference Learning]] (TD-Learning)
+- [[TD-Lambda]]
 - Actor-Critic methods
 - [[Experience Replay]]
+- [[Markov Reward Process]]
 - [[Markov Decision Process]]
 - [[REINFORCE]]
 - [[Advantage Function]]
