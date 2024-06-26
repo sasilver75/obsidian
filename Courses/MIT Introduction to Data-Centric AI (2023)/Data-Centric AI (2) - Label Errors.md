@@ -18,6 +18,37 @@ Agenda
 3. How to find label issues
 4. Mathematical intuition for why the methods work
 5. How to rank data by likelihood of having a label issue
+6. How to estimate the total number  of label issues in a dataset
+7. How to train a model on data with noisy labels
+8. Label errors in test sets, and the implications for ML benchmarks
+
+OVERAL GOAL: ==Improve ML models trained on data with label issues== (this is most datasets)
+
+----
+
+Why is sorting by loss/error ***not enough*** to find our data labeling errors?
+- If we don't regularize our data well... one form of bias is just by overfitting to the data; we might actually have zero loss in incorrectly-labeled data. Recall that we've seen that we can randomly shuffle labels and train a model on it to get zero loss.
+- Say you have a dataset of 1,000,000 things, and we've sorted the loss... how do we know where the "cutoff" is? How far down do we go before we stop manually checking?
+
+We need to know how much error is *in* the dataset, and use that information to help with things like sorting to help us find problems in our dataset.
+
+==Confident Learning (CL)== is a framework of theory and algorithms for:
+- Finding label errors in the dataset
+- Reranking data by likelihood of there being a label issue
+- Learning with noisy labels
+- Complete characterization of label noise in a dataset
+	- We'll focus on this one, in the context of classification with single-labels.
+- Data curation (next lecture!)
+
+Key idea: With CL, we can use ANY model's predicted probabilities to find label errors.
+
+![[Pasted image 20240626010153.png]]
+
+
+
+
+
+
 
 
 
