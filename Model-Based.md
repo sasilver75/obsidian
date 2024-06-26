@@ -3,5 +3,9 @@ A model is anything the agent uses to predict the environment's response to its 
 
 Model-based methods are those where the model uses a model to *plan* actions before they're taken.
 
-Examples
-- [[Dynamic Programming]]
+If you have a good model of your environment (an MDP, some differential equation) to start with, then you can work in this world. Some people don't even consider Model-Based RL as reinforcement learning.
+- If there's a specified, known, deterministic probability function P(s' | s, a) ... then  really powerful techniques to optimize $\pi$ exist:
+	- [[Policy Iteration]]
+	- [[Value Iteration]]
+	- [[Dynamic Programming]]
+

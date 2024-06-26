@@ -1,16 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "K-Nearest Neighbors",
-      "path": "K-Nearest Neighbors.md"
+      "basename": "Data-Centric AI (2) - Label Errors",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Deep Reinforcement Learning",
+      "path": "Deep Reinforcement Learning.md"
+    },
+    {
+      "basename": "Model-Free",
+      "path": "Model-Free.md"
+    },
+    {
+      "basename": "Model-Based",
+      "path": "Model-Based.md"
+    },
+    {
+      "basename": "Q-Learning",
+      "path": "Q-Learning.md"
+    },
+    {
+      "basename": "Policy Gradient",
+      "path": "Policy Gradient.md"
+    },
+    {
+      "basename": "SARSA",
+      "path": "SARSA.md"
+    },
+    {
+      "basename": "Deep Q-Networks",
+      "path": "Deep Q-Networks.md"
+    },
+    {
+      "basename": "Value Iteration",
+      "path": "Value Iteration.md"
+    },
+    {
+      "basename": "Policy Iteration",
+      "path": "Policy Iteration.md"
+    },
+    {
+      "basename": "Token",
+      "path": "Token.md"
+    },
+    {
+      "basename": "ONNX",
+      "path": "ONNX.md"
     },
     {
       "basename": "Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI",
       "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Curriculum Learning",
+      "path": "Curriculum Learning.md"
+    },
+    {
+      "basename": "FActScore",
+      "path": "FActScore.md"
+    },
+    {
+      "basename": "K-Nearest Neighbors",
+      "path": "K-Nearest Neighbors.md"
+    },
+    {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "Discriminative Learning Rate",
+      "path": "Discriminative Learning Rate.md"
     },
     {
       "basename": "Bellman Equation",
@@ -25,20 +89,8 @@
       "path": "Value Function.md"
     },
     {
-      "basename": "Curriculum Learning",
-      "path": "Curriculum Learning.md"
-    },
-    {
       "basename": "David Silver RL (3) - Planning by Dynamic Programming",
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
-    },
-    {
-      "basename": "Model-Based",
-      "path": "Model-Based.md"
-    },
-    {
-      "basename": "Model-Free",
-      "path": "Model-Free.md"
     },
     {
       "basename": "Monte-Carlo Learning",
@@ -47,10 +99,6 @@
     {
       "basename": "Active Learning",
       "path": "Active Learning.md"
-    },
-    {
-      "basename": "FActScore",
-      "path": "FActScore.md"
     },
     {
       "basename": "HuggingFace NLP (7) Main NLP Tasks",
@@ -67,10 +115,6 @@
     {
       "basename": "LAMBADA",
       "path": "LAMBADA.md"
-    },
-    {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
     },
     {
       "basename": "Markov Reward Process",
@@ -149,56 +193,12 @@
       "path": "Dynamic Programming.md"
     },
     {
-      "basename": "Policy Iteration",
-      "path": "Policy Iteration.md"
-    },
-    {
       "basename": "Padding",
       "path": "Padding.md"
     },
     {
       "basename": "Policy",
       "path": "Policy.md"
-    },
-    {
-      "basename": "Markov Decision Process",
-      "path": "Markov Decision Process.md"
-    },
-    {
-      "basename": "Markov Chain",
-      "path": "Markov Chain.md"
-    },
-    {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Recommendation Systems",
-      "path": "Recommendation Systems.md"
-    },
-    {
-      "basename": "GLUE",
-      "path": "GLUE.md"
-    },
-    {
-      "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (1) - Intro to Reinforcement Learning.md"
-    },
-    {
-      "basename": "HuggingFace NLP (5) The Datasets Library",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (5) The Datasets Library.md"
-    },
-    {
-      "basename": "HuggingFace NLP (4) Sharing Models and Tokenizers",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (4) Sharing Models and Tokenizers.md"
-    },
-    {
-      "basename": "HuggingFace NLP (3) Fine-Tuning a Pretrained Model",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (3) Fine-Tuning a Pretrained Model.md"
-    },
-    {
-      "basename": "Common Objects in Context",
-      "path": "Common Objects in Context.md"
     }
   ],
   "omittedPaths": [],

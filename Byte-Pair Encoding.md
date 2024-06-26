@@ -5,6 +5,9 @@ aliases:
 References:
 - [VIDEO: HuggingFace NLP Course BPE](https://youtu.be/HEikzVL-lZU?si=VESfTlnUoacLgEJX)
 
+Related:
+- [[Tiktoken]] is a fast BPE tokenizer used with OpenAI's models
+
 Introduced in 2016's *Neural Machine Translation of Rare Words with Subword Units (Sennrich et al.)*
 
 Used by [[GPT-2]], [[GPT-3]], [[GPT-4]], [[RoBERTa]], and more.
