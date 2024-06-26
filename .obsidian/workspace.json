@@ -13,7 +13,158 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
+                "file": "Monte-Carlo Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2ede54a5749cb3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model-Free.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d911718f7fc52b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model-Based.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31debf7b915c742b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b662f8f38850b277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06e7c9dfcc5f01bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Value Function.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5130d1976ca7eaae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trajectory.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fda74ee69f54f92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf75760a5feb2c53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d57d440ea1df6df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bellman Equation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49db81a9e3cd44ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0254c5b070a83ab7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf4f14d93d557eed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,21 +222,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2215c3ddee442d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tokenizer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -114,7 +253,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "p",
+                "query": "\"Markov Reward Process\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,7 +278,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
+                "file": "Byte-Pair Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
+                "file": "Byte-Pair Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md"
+                "file": "Byte-Pair Encoding.md"
               }
             }
           },
@@ -233,7 +373,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
+                "file": "Byte-Pair Encoding.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -280,44 +420,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fd4c56a4b98f94a5",
+  "active": "47441dd6fd4827f0",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240625132817.png",
-    "_attachments/Pasted image 20240625132656.png",
-    "_attachments/Pasted image 20240625131928.png",
-    "_attachments/Pasted image 20240625131635.png",
-    "_attachments/Pasted image 20240625131250.png",
-    "_attachments/Pasted image 20240625131219.png",
-    "_attachments/Pasted image 20240625130847.png",
-    "_attachments/Pasted image 20240625130846.png",
-    "_attachments/Pasted image 20240625130512.png",
-    "_attachments/Pasted image 20240625130236.png",
-    "_attachments/Pasted image 20240625130047.png",
-    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
-    "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
+    "_attachments/Pasted image 20240625172801.png",
+    "Monte-Carlo Learning.md",
+    "_attachments/Pasted image 20240625172250.png",
+    "_attachments/Pasted image 20240625172152.png",
+    "_attachments/Pasted image 20240625172011.png",
+    "Markov Reward Process.md",
+    "Model-Free.md",
+    "Model-Based.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+    "Trajectory.md",
+    "~ Vocabulary.md",
     "Value Function.md",
+    "Byte-Pair Encoding.md",
+    "Tokenizer.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md",
+    "_attachments/Pasted image 20240625171004.png",
+    "TD-Lambda.md",
+    "Untitled 2.md",
+    "_attachments/Pasted image 20240625165728.png",
+    "Credit Assignment Problem.md",
+    "_attachments/Pasted image 20240625165634.png",
+    "_attachments/Pasted image 20240625165512.png",
+    "_attachments/Pasted image 20240625165502.png",
+    "_attachments/Pasted image 20240625165359.png",
+    "_attachments/Pasted image 20240625165309.png",
+    "Bellman Equation.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
+    "Monte-Carlo.md",
+    "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
+    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
     "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
     "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
     "Unigram Tokenization.md",
-    "~ Vocabulary.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
     "WordPiece.md",
-    "Byte-Pair Encoding.md",
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "BPE.md",
-    "Articles/Five years of progress in GPTs (Mar 2023) {Finbarr Timbers, Artificial Fintelligence}.md",
-    "Tokenizer.md",
-    "SentencePiece.md",
-    "Articles/Decoder-Only Transformers - The Workhorse of Generative LLMs (Mar 2024) {Cameron R Wolfe}.md",
-    "Courses/OxML Fundamentals/OxML Fundamentals Lecture - Gen. AI (Vision and NLP) (Day 4).md",
-    "Dynamic Programming.md",
-    "Policy Iteration.md",
-    "Padding.md",
-    "Policy.md",
-    "Bellman Equation.md",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",

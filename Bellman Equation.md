@@ -1,3 +1,10 @@
+---
+aliases:
+  - Bellman Expectation Equation
+  - Bellman Optimality Equation
+---
+(Note that Bellman Expectation and Bellman Optimality have different but related meanings; they aren't synonyms, but I'm using this note as a landing page for each.)
+
 - References
 	- NOTE: [[David Silver RL (2) - Markov Decision Processes]]
 	- VIDEO: [Mutual Information: Bellman Equations, Dynamic Programming, Generalized Policy Iteration](https://www.youtube.com/watch?v=_j6pvGEchWU)

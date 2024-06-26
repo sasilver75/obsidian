@@ -40,7 +40,7 @@ A: One answer is to have a *Non-Stationary* Markov Decision Process. Or maybe if
 So far, we haven't really talked about 
 
 ## Markov Reward Processes (adding Rewards)
-- Now we have a Markov Reward Process, with is like a Markov Process with value judgements of how good it is to be in a particular state/in a particular sequence.
+- Now we have a [[Markov Reward Process]] (MRP), with is like a Markov Process with value judgements of how good it is to be in a particular state/in a particular sequence.
 - In our usual Markov Process/Chain, we had:
 	- Our ==state space== $\mathcal{S}$
 	- Our ==transition matrix== $\mathcal{P}$
