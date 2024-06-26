@@ -66,6 +66,7 @@
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
 - [[K-Means Clustering]]
+- [[K-Nearest Neighbors]] (kNN) 
 - [[Naive Bayes]]
 - [[Gradient Boosting Machine]] (GBM)
 - [[Classification]]
@@ -86,6 +87,8 @@
 - [[Hamming Distance]]
 - [[Manhattan Distance]]
 - [[Goodhardt's Law]]
+- [[Outlier Detection]]
+- [[Coreset Selection]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -762,6 +765,8 @@
 - [[Massive Multi-Discipline Multimodal Understanding]] (MMMU)
 - [[MMBench]]
 - [[Open VLM Leaderboard]]
+- [[LAMBADA]]
+- [[RACE]]
 
 # Datasets
 *Datasets for training/finetuning models*

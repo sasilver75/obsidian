@@ -8,176 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd4c56a4b98f94a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Monte-Carlo Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2ede54a5749cb3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model-Free.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d911718f7fc52b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model-Based.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31debf7b915c742b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b662f8f38850b277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06e7c9dfcc5f01bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Value Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5130d1976ca7eaae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trajectory.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fda74ee69f54f92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf75760a5feb2c53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d57d440ea1df6df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bellman Equation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49db81a9e3cd44ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0254c5b070a83ab7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "cf4f14d93d557eed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aadeb48ee1214ab0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Value Function.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -185,12 +21,12 @@
             }
           },
           {
-            "id": "5001e1c89f25dbeb",
+            "id": "cf8d8a5463230e95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
+                "file": "Curriculum Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -198,12 +34,12 @@
             }
           },
           {
-            "id": "c09a6b2dbbaeafb0",
+            "id": "da149c77519f00b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -211,12 +47,12 @@
             }
           },
           {
-            "id": "47441dd6fd4827f0",
+            "id": "22267d4b204ebc2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -224,17 +60,46 @@
             }
           },
           {
-            "id": "d6dee7dd8a3297d0",
+            "id": "a17219f4a6eda865",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "FActScore.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f181ad158f97a160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f910504b06057cba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K-Nearest Neighbors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -309,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+                "file": "K-Nearest Neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -326,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+                "file": "K-Nearest Neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -349,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md"
+                "file": "K-Nearest Neighbors.md"
               }
             }
           },
@@ -382,7 +247,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+                "file": "K-Nearest Neighbors.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -429,45 +294,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d6dee7dd8a3297d0",
+  "active": "f910504b06057cba",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240625174745.png",
-    "Byte-Pair Encoding.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)",
-    "_attachments/Pasted image 20240625172801.png",
-    "Monte-Carlo Learning.md",
-    "_attachments/Pasted image 20240625172250.png",
-    "_attachments/Pasted image 20240625172152.png",
-    "_attachments/Pasted image 20240625172011.png",
-    "Markov Reward Process.md",
-    "Model-Free.md",
-    "Model-Based.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
-    "Trajectory.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+    "_attachments/Pasted image 20240625203625.png",
+    "_attachments/Pasted image 20240625203053.png",
     "~ Vocabulary.md",
-    "Value Function.md",
-    "Tokenizer.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md",
-    "_attachments/Pasted image 20240625171004.png",
-    "TD-Lambda.md",
-    "Untitled 2.md",
-    "_attachments/Pasted image 20240625165728.png",
-    "Credit Assignment Problem.md",
-    "_attachments/Pasted image 20240625165634.png",
-    "_attachments/Pasted image 20240625165512.png",
-    "_attachments/Pasted image 20240625165502.png",
-    "_attachments/Pasted image 20240625165359.png",
     "Bellman Equation.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
-    "Monte-Carlo.md",
-    "Courses/LLM Mastery/Lecture - A Deep Dive on LM Evaluation.md",
-    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+    "Trajectory.md",
+    "Value Function.md",
+    "Curriculum Learning.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
+    "Model-Based.md",
+    "Model-Free.md",
+    "Monte-Carlo Learning.md",
+    "K-Nearest Neighbors.md",
+    "_attachments/Pasted image 20240625202733.png",
+    "_attachments/Pasted image 20240625202636.png",
+    "_attachments/Pasted image 20240625202538.png",
+    "_attachments/Pasted image 20240625202438.png",
+    "_attachments/Pasted image 20240625202011.png",
+    "Active Learning.md",
+    "FActScore.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
     "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
-    "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
-    "Unigram Tokenization.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
+    "RACE.md",
+    "LAMBADA.md",
+    "_attachments/Pasted image 20240625174745.png",
+    "Byte-Pair Encoding.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)",
+    "_attachments/Pasted image 20240625172801.png",
+    "_attachments/Pasted image 20240625172250.png",
+    "Markov Reward Process.md",
+    "Tokenizer.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md",
+    "TD-Lambda.md",
+    "Untitled 2.md",
+    "Credit Assignment Problem.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
