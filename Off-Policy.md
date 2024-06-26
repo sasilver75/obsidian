@@ -1,4 +1,4 @@
-In [[Reinforcement Learning]], off-policy algorithms learn from the experience gathered by following a *==behavior policy==*, while optimizing a separate *==target policy==*.
+In [[Reinforcement Learning]], off-policy algorithms learn from the experience gathered by following a *==behavior policy==* $\mu$, while optimizing a separate *==target policy==* $\pi$.
 - The behavior policy is used to generate actions and interact with the environment, while the target policy is the one being learned and optimized.
 - The agent can learn from actions taken by other agents, or from a replay buffer that stores past experiences (==experience replay==).
 

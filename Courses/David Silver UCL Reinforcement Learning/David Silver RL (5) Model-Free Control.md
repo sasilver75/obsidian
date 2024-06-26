@@ -219,10 +219,71 @@ Imagine we're in a gridworld where we're getting from a start point to our goal 
 
 ## (4/5) Off-Policy Learning
 
+Everything so far has considered the case of [[On-Policy]] learning, where we're "playing our best game" as we explore (with some $\epsilon$ chance of taking a uniform random action). The policy that I'm following is the policy that I'm learning about.
+
+[[Off-Policy]]
+![[Pasted image 20240626145451.png]]
+We want to evaluate our ==target policy== $\pi$ ... but say we're actually following ==behavior policy== $\mu$; this is the one that we're actually following in the environment.
+- Why would we want to do this?
+	- ==Learning from observing humans or other agents; not just using supervised learning to *copy*, but from that experience, learning how to do *better*, learning how to *solve the MDP!*==
+		- "I know how you could have done better, Human! you could have gotten more reward by following this *other* path."
+	- ==Re-using experience generated from *old* policies ($\pi_1$, $\pi_2$, $\pi_2$)==
+		- Can we use this data more than once, going back over *old* data? "Last time I was here, I took this action and got this other reward." Batch methods where we treat these as large datasets to learn from. Can we make use of this additional data to get a better estimate of our *current* policy $\pi_{t-1}$?
+	- ==Learning about *optimal* policies while following an exploratory policy.==
+		- This is perhaps the best-known; we know there's a big issue in RL, which is making sure that we explore the state space effectively; at the same time, we want to learn about the optimal behavior, which doesn't explore at all!
+		- We can have an exploratory policy that putters around, while still learning about the optimal policy!
+	- ==Learning about *multiple* policies while following *one* policy.==
+		- Perhaps the most exciting; we might have many different behaviors we want to figure out. "What would happen if I leave this room, how much reward will I get?" "What might happen if I change the topic, and go back to three slides ago." So many questions about the future are conditioned on different policies. Can we learn about these various policies while using the one stream of experience we have, called life?
+
+Off Policy learning is a significant, thorny problem!
+
+![[Pasted image 20240626150020.png]]
+[[Importance Sampling]]
+- The idea is to take this expectation... the expected future reward... and all we do is say that this is a sum over the probabilities times how much reward we got.
+(Muddled Explanation)
+
+![[Pasted image 20240626150135.png]]
+Monte-Carlo learning is a REALLY BAD idea for off-policy; your target policy and your behavior policy just never really match enough for it to be useful
+
+![[Pasted image 20240626150405.png]]
+So you have to use [[Temporal Difference Learning|TD-Learning]] when working off-policy; it becomes imperative to bootstrap!
+- The simplest idea is to importance sampling, but only doing it for one step, because we're bootstrapping after one step. We update our value function a little bit in the direction of our TD target...
+- We take our TD Target, and we correct for our distribution (from using a behavior policy, rather than our target policy), over that one step.
+It can still blow up, because we have variance, but it's much lower variance than Monte Carlo.
 
 
-## (5/5) Summary
+[[Q-Learning]] (is specific to TD-Zero) is the best option when it comes to [[Off-Policy]] learning.
+![[Pasted image 20240626150755.png]]
+- We're going to consider a case where we make use of our action-values Q(s,a) to do off-policy learning in a particular way that *doesn't* require importance sampling.
+- We select our next action using our *behavior* policy 
+- We also consider an alternative successor action that we might have taken, had we been following our target policy.
+- We update the Q value for the state we started in, and the action that we actually took... and we say the value of the state and action we actually took... we update towards the value of our *alternative*  action! Because that's the thing that tells us how much value it actually got under our real *target* policy.
+	- Updated in the direction of the reward we actually saw $R_{t+1}$ plus the discounted value of the next state of our *alternative action, under my target policy* (what would have happened if we were following the target policy we cared about). This is a bellman equation!
 
+You're sampling A_t+1 from your behavior policy, and A' from your target policy. EAch time you get to a state, you consider the thing you actually took (generating real behavior; that's the trajectory you're following), but at every step we also consider the thing we might have taken, and that's what we bootstrap from.
+
+![[Pasted image 20240626151148.png]]
+If you hear about the [[Q-Learning]], it's what we'l talk about in this slide, which is the special case where the target policy is a greedy policy. 
+- The special thing about Q-Learning is that both the behavior *and* target policies can improve.
+- At every step, we make the target policy greedy with respect to our value function -- an aggressive, deterministic thing.
+	- But our behavior-policy is only *epsilon-greedy* -- it roughly follows optimal actions, but explores as well.
+- When we plug this in to the previous slide, we end up seeing that... our alternative action is now taking this argmax over a'... which is the same as the max of our Q values.
+- So basically, Q learning updates a little bit in the direction of the maximum Q value we could take.
+
+
+![[Pasted image 20240626151429.png|400]]
+- The well-known Q-learning algorithm. He calls these SARSAMAX updates, because we're looking at SARS'A', and then the max over the A's.
+- We update our Q values a little bit in the direction of the best possible Q value that we could have over the next step. Should be familiar, because it's just like the [[Bellman Equation|Bellman Optimality Equation]], and converges to the optimal Q*.
+
+## (5/5) Summary 
+
+![[Pasted image 20240626151843.png|400]]
+- If we use the Bellman Expectation Equation for the value function $v_{\pi}$, you can use DP to evaluate your current policy... or you can just sample this thing and just take one sample, which gave us TD learning. So TD learning is just a sampling version of Iterative Policy Evaluation.
+	- TD we can think of as samples of the Bellman Expectation/Optimality equations; doing a one-step sample of what would happen if we were doing DP.
+- If we use the Bellman Expectation Equation for $q_{\pi}$, we can actually do SARSA now. We can use it to evaluate our state-action Q values, and plug it into generalized policy iteration to make it better and better. We can either use a policy iteration framework, or SARSA.
+- Finally, we can use the Bellman Optimality Equation for $q_*$, and plug it either into Value Iteration, or we can just sample this to give us the Q-Learning algorithm.
+
+Next week we'll talk about function approximation, and how to scale these things up to work on more practical, large-scale examples.
 
 
 
