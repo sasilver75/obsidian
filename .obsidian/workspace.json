@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Off-Policy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17822ab21c0f918f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Off-Policy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -226,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SARSA.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SARSA.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SARSA.md"
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md"
               }
             }
           },
@@ -299,7 +312,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SARSA.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -346,28 +359,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bb1466504f2e5c17",
+  "active": "f33194bcc6e38561",
   "lastOpenFiles": [
-    "Value Function.md",
-    "~ Vocabulary.md",
-    "SARSA-Lambda.md",
-    "Papers/The Bitter Lesson Paper.md",
-    "Q-Learning.md",
+    "_attachments/Pasted image 20240626151843.png",
+    "_attachments/Pasted image 20240626151429.png",
+    "_attachments/Pasted image 20240626151148.png",
+    "_attachments/Pasted image 20240626150755.png",
+    "Off-Policy.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
+    "~ Vocabulary.md",
+    "Value Function.md",
+    "SARSA.md",
+    "Q-Learning.md",
+    "Papers/The Bitter Lesson Paper.md",
+    "SARSA-Lambda.md",
+    "GLIE.md",
+    "_attachments/Pasted image 20240626150405.png",
+    "_attachments/Pasted image 20240626150135.png",
+    "_attachments/Pasted image 20240626150118.png",
+    "_attachments/Pasted image 20240626150020.png",
+    "_attachments/Pasted image 20240626145451.png",
     "_attachments/Pasted image 20240626142742.png",
     "_attachments/Pasted image 20240626142427.png",
-    "_attachments/Pasted image 20240626141943.png",
-    "_attachments/Pasted image 20240626135931.png",
-    "_attachments/Pasted image 20240626135745.png",
     "Return Set.md",
-    "SARSA.md",
-    "_attachments/Pasted image 20240626134859.png",
-    "_attachments/Pasted image 20240626134152.png",
-    "_attachments/Pasted image 20240626133830.png",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md",
-    "GLIE.md",
-    "_attachments/Pasted image 20240626133530.png",
-    "_attachments/Pasted image 20240626133240.png",
     "Deep Reinforcement Learning.md",
     "Model-Free.md",
     "Llamafile.md",
@@ -382,8 +397,6 @@
     "Token.md",
     "ONNX.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
-    "Curriculum Learning.md",
-    "FActScore.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",

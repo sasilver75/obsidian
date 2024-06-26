@@ -1,32 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "SARSA",
-      "path": "SARSA.md"
+      "basename": "David Silver RL (5) Model-Free Control",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md"
     },
     {
-      "basename": "Value Function",
-      "path": "Value Function.md"
+      "basename": "Off-Policy",
+      "path": "Off-Policy.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "SARSA-Lambda",
-      "path": "SARSA-Lambda.md"
+      "basename": "Value Function",
+      "path": "Value Function.md"
     },
     {
-      "basename": "The Bitter Lesson Paper",
-      "path": "Papers/The Bitter Lesson Paper.md"
+      "basename": "SARSA",
+      "path": "SARSA.md"
     },
     {
       "basename": "Q-Learning",
       "path": "Q-Learning.md"
     },
     {
-      "basename": "David Silver RL (5) Model-Free Control",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md"
+      "basename": "The Bitter Lesson Paper",
+      "path": "Papers/The Bitter Lesson Paper.md"
+    },
+    {
+      "basename": "SARSA-Lambda",
+      "path": "SARSA-Lambda.md"
+    },
+    {
+      "basename": "GLIE",
+      "path": "GLIE.md"
     },
     {
       "basename": "Return Set",
@@ -35,10 +43,6 @@
     {
       "basename": "David Silver RL (4) - Model-Free Prediction",
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md"
-    },
-    {
-      "basename": "GLIE",
-      "path": "GLIE.md"
     },
     {
       "basename": "Deep Reinforcement Learning",
@@ -195,10 +199,6 @@
     {
       "basename": "HuggingFace NLP (6) The Tokenizers Library",
       "path": "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md"
-    },
-    {
-      "basename": "WordPiece",
-      "path": "WordPiece.md"
     }
   ],
   "omittedPaths": [],
