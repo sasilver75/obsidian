@@ -8,4 +8,8 @@ Instead of trying to infer the policy from a learned Q function (like in Q-Learn
 		- Decrease the probability of actions that resulted in low reward
 		- Increase the probability of actions that resulted in high reward
 
-Limited by the fact that it can only perform a *single policy update* for each estimate of the policy gradient that is derived. It's notoriously data-inefficient -- we have to sample a lot of data hwen deriving a policy update.
+Limited by the fact that it can only perform a *single policy update* for each estimate of the policy gradient that is derived. It's notoriously data-inefficient -- we have to sample a lot of data when deriving a policy update.
+
+
+
+![[Pasted image 20240625232923.png]]

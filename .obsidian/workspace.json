@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aadeb48ee1214ab0",
+            "id": "6f3f0d57a16582bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+                "file": "Model-Free.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,7 @@
             }
           },
           {
-            "id": "cf8d8a5463230e95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curriculum Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da149c77519f00b1",
+            "id": "43e14f173dc8cb8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +34,12 @@
             }
           },
           {
-            "id": "22267d4b204ebc2d",
+            "id": "058d570c203259bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Deep Reinforcement Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +47,12 @@
             }
           },
           {
-            "id": "a17219f4a6eda865",
+            "id": "6ab9a9977b2eb469",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FActScore.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,25 +60,12 @@
             }
           },
           {
-            "id": "f181ad158f97a160",
+            "id": "b6db981e6b26e16b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f910504b06057cba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "K-Nearest Neighbors.md",
+                "file": "Q-Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K-Nearest Neighbors.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K-Nearest Neighbors.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K-Nearest Neighbors.md"
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
               }
             }
           },
@@ -247,7 +221,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "K-Nearest Neighbors.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -294,44 +268,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f910504b06057cba",
+  "active": "6ab9a9977b2eb469",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240626003833.png",
+    "~ Vocabulary.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
+    "Deep Reinforcement Learning.md",
+    "_attachments/Pasted image 20240626001656.png",
+    "Model-Free.md",
+    "_attachments/Pasted image 20240626000943.png",
+    "Model-Based.md",
+    "Q-Learning.md",
+    "_attachments/Pasted image 20240625232932.png",
+    "Policy Gradient.md",
+    "_attachments/Pasted image 20240625232923.png",
+    "SARSA.md",
+    "_attachments/Pasted image 20240625232913.png",
+    "Deep Q-Networks.md",
+    "_attachments/Pasted image 20240625232855.png",
+    "Value Iteration.md",
+    "_attachments/Pasted image 20240625232849.png",
+    "Policy Iteration.md",
+    "_attachments/Pasted image 20240625232846.png",
+    "Token.md",
+    "ONNX.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+    "Curriculum Learning.md",
+    "FActScore.md",
+    "K-Nearest Neighbors.md",
+    "Byte-Pair Encoding.md",
+    "Discriminative Learning Rate.md",
     "_attachments/Pasted image 20240625203625.png",
     "_attachments/Pasted image 20240625203053.png",
-    "~ Vocabulary.md",
     "Bellman Equation.md",
     "Trajectory.md",
     "Value Function.md",
-    "Curriculum Learning.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md",
-    "Model-Based.md",
-    "Model-Free.md",
     "Monte-Carlo Learning.md",
-    "K-Nearest Neighbors.md",
-    "_attachments/Pasted image 20240625202733.png",
-    "_attachments/Pasted image 20240625202636.png",
-    "_attachments/Pasted image 20240625202538.png",
-    "_attachments/Pasted image 20240625202438.png",
-    "_attachments/Pasted image 20240625202011.png",
     "Active Learning.md",
-    "FActScore.md",
-    "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md",
-    "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md",
-    "RACE.md",
-    "LAMBADA.md",
-    "_attachments/Pasted image 20240625174745.png",
-    "Byte-Pair Encoding.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
-    "_attachments/Pasted image 20240625172801.png",
-    "_attachments/Pasted image 20240625172250.png",
-    "Markov Reward Process.md",
-    "Tokenizer.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md",
-    "TD-Lambda.md",
-    "Untitled 2.md",
-    "Credit Assignment Problem.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",

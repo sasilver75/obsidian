@@ -413,7 +413,6 @@
 - [[Byte-Pair Encoding]] Tokenization
 - [[SentencePiece]] Tokenization
 - [[WordPiece]] Tokenization
-- [[Tiktoken]]
 - [[Unigram Tokenization]]
 - [[Self-Play]]
 - [[Self-Correct]]
@@ -491,6 +490,7 @@
 - [[Credit Assignment Problem]]
 - [[Agent]]
 - [[Policy]]
+- [[Deep Reinforcement Learning]]
 - [[Value Function]]
 - [[Trajectory]]
 - [[Value Iteration]]
@@ -514,6 +514,7 @@
 - [[Markov Reward Process]]
 - [[Markov Decision Process]]
 - [[REINFORCE]]
+- [[SARSA]]
 - [[Advantage Function]]
 - [[On-Policy]]
 - [[Off-Policy]]
