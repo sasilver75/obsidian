@@ -489,6 +489,8 @@
 - [[Reinforcement Learning]] (RL)
 - [[Credit Assignment Problem]]
 - [[Agent]]
+- [[Reward]]
+- [[Return]]
 - [[Policy]]
 - [[Deep Reinforcement Learning]]
 - [[Value Function]]
@@ -515,6 +517,7 @@
 - [[Markov Decision Process]]
 - [[REINFORCE]]
 - [[SARSA]]
+- [[SARSA-Lambda]]
 - [[Advantage Function]]
 - [[On-Policy]]
 - [[Off-Policy]]
@@ -523,6 +526,7 @@
 -  [[Reinforcement Learning from from AI Feedback]]
 -  [[Reinforcement Learning from Human Feedback]]
 	- [[Rejection Sampling]] in the RLHF context
+- [[Epsilon-Greedy]]
 
 # Models
 - [[AlphaGo]]
@@ -705,6 +709,7 @@
 - [[ONNX]] (Open Neural Network Exchange)
 - [[Safetensors]]
 - [[llama.cpp]]
+- [[Llamafile]]
 - [[fastText]]
 - [[Trafilatura]] 🔎📝
 - [[Langtrace]] (Unsure if this should be here.)
@@ -768,6 +773,7 @@
 - [[Open VLM Leaderboard]]
 - [[LAMBADA]]
 - [[RACE]]
+- [[Berkeley Function-Calling Leaderboard]]
 
 # Datasets
 *Datasets for training/finetuning models*

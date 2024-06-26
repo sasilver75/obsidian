@@ -1,7 +1,7 @@
 March 13, 2019 -- [[Richard Sutton]]
 Link: [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
-A paper from Rich Sutton in which he notes that across any fields, researchers who have stubbornly tried to introduce bias into models, "engineering knowledge into them" have been defeated by Moore's law combined with general learning algorithms with small amounts of bias. We aren't good at engineering opinionated algorithms; we should let 
+A paper from Rich Sutton in which he notes that across any fields, researchers who have stubbornly tried to introduce bias into models, "engineering knowledge into them" have been defeated by Moore's law combined with general learning algorithms with small amounts of bias. We aren't good at engineering opinionated algorithms; we should let models with only limited [[Inductive Bias]] learn from large amounts of data.
 
 The claim
 >   The biggest lesson that can be read from 70 years of AI research is that ==general methods that leverage computation are ultimately the most effective, and by a large margin==.
