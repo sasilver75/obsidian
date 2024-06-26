@@ -216,15 +216,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "d6dee7dd8a3297d0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -278,8 +288,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -300,7 +309,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -317,7 +326,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Byte-Pair Encoding.md"
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md"
               }
             }
           },
@@ -373,7 +382,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Byte-Pair Encoding.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -420,8 +429,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "47441dd6fd4827f0",
+  "active": "d6dee7dd8a3297d0",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240625174745.png",
+    "Byte-Pair Encoding.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)",
     "_attachments/Pasted image 20240625172801.png",
     "Monte-Carlo Learning.md",
     "_attachments/Pasted image 20240625172250.png",
@@ -434,7 +447,6 @@
     "Trajectory.md",
     "~ Vocabulary.md",
     "Value Function.md",
-    "Byte-Pair Encoding.md",
     "Tokenizer.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md",
     "_attachments/Pasted image 20240625171004.png",
@@ -446,7 +458,6 @@
     "_attachments/Pasted image 20240625165512.png",
     "_attachments/Pasted image 20240625165502.png",
     "_attachments/Pasted image 20240625165359.png",
-    "_attachments/Pasted image 20240625165309.png",
     "Bellman Equation.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md",
     "Monte-Carlo.md",
@@ -457,7 +468,6 @@
     "Courses/Misc Tutorials/PyTorch Official Tutorial - Learn the Basics.md",
     "Unigram Tokenization.md",
     "Courses/HuggingFace NLP/HuggingFace NLP (6) The Tokenizers Library.md",
-    "WordPiece.md",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
@@ -466,7 +476,6 @@
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
     "Excalidraw",
-    "Courses/LLM Mastery",
-    "Courses/OxML Fundamentals"
+    "Courses/LLM Mastery"
   ]
 }
