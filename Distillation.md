@@ -13,8 +13,8 @@ Soft-Target Distillation (logits) vs Hard-Target Distillation (label)
 
 Note:
 - I've heard "Distillation" used in two contexts:
-	- "Dataset Distillation" in the context of synthetic data, where we use (eg) GPT-4 to *distill* a set of synthetic data (eg using a technique like that from [[Self-Instruct]]), and then train a model on that dataset. We're basically training a student to predict the *labels* predicted by the teacher.
-	- "Model Distillation"/"Knowledge Distillation" where a weaker model is trained on the probability distributions (a strong training signal) of the larger model.
+	- "Dataset Distillation"/Hard target distillation in the context of synthetic data, where we use (eg) GPT-4 to *distill* a set of synthetic data (eg using a technique like that from [[Self-Instruct]]), and then train a model on that dataset. We're basically training a student to predict the *labels* predicted by the teacher.
+	- "Model Distillation"/"Knowledge Distillation"/Soft target distillation where a weaker model is trained on the probability distributions (a strong training signal) of the larger model.
 		- The MiniLLM paper modifies this slightly, and rather than encouraging the student model to mimic the entire probability distribution, it encourages the student to only focus on high-probability outcomes.
 	- There's also what I'll call "Representation Distillation," where the student is guided to have similar representations to the teacher model at intermediate layers of the model.
 

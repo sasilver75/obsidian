@@ -8,7 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c2d8ccafa36a01e",
+            "id": "8b6e635ae93c7ebe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "726ba74edb924a54",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +32,126 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09bd886f1550a265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b53c2f69ca85fd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edd4850c8e82d6e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Absolute Maximum Quantization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5182665a00b80c4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zero-Point Quantization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "029657f88b49bb23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zero-Point Quantization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94cf72bcc5564fa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32bc8a108c3a7057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "673308f44f8ea304",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gemma 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67fb327d7ed39b20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dynabench.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
               }
             }
           },
@@ -168,7 +299,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,44 +346,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0c2d8ccafa36a01e",
+  "active": "09bd886f1550a265",
   "lastOpenFiles": [
-    "Padding.md",
+    "_attachments/Pasted image 20240627165006.png",
+    "_attachments/Pasted image 20240627163555.png",
+    "_attachments/Pasted image 20240627162922.png",
+    "_attachments/Pasted image 20240627162810.png",
+    "_attachments/Pasted image 20240627160908.png",
     "~ Vocabulary.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
+    "_attachments/Pasted image 20240627160619.png",
+    "_attachments/Pasted image 20240627160300.png",
+    "_attachments/Pasted image 20240627155903.png",
+    "_attachments/Pasted image 20240627155233.png",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md",
+    "GPTQ.md",
+    "LLM.int8().md",
+    "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md",
+    "Absolute Maximum Quantization.md",
+    "Zero-Point Quantization.md",
+    "_attachments/Pasted image 20240627153922.png",
+    "_attachments/Pasted image 20240627153728.png",
+    "Zero-Shot Prompting.md",
+    "Claude.md",
+    "Dynabench.md",
+    "Gemma 2.md",
+    "Distillation.md",
+    "SB-1047.md",
+    "Support Vector Machine.md",
+    "bfloat16.md",
+    "float16.md",
+    "float32.md",
+    "INT8.md",
+    "Direct Preference Optimization.md",
+    "~ Useful Pictures.md",
+    "Padding.md",
     "Nemotron-4.md",
     "Zephyr.md",
     "LLaMA 2.md",
-    "Distillation.md",
-    "UltraInteract.md",
-    "IFEval.md",
-    "Weak-to-Strong Generalization.md",
-    "GenQA.md",
-    "Hybrid Search.md",
-    "Reward Model.md",
-    "Best-of-N Sampling.md",
-    "Rejection Sampling.md",
-    "Markov Assumption.md",
-    "Model Predictive Control.md",
-    "Process Reward Model.md",
-    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
-    "Reward.md",
-    "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
-    "Reinforcement Learning from Human Feedback with AI Feedback.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "Reinforcement Learning from from AI Feedback.md",
-    "Neural Radiance Fields.md",
-    "Tree of Thought.md",
-    "_attachments/Pasted image 20240627004632.png",
-    "_attachments/Pasted image 20240627003514.png",
-    "_attachments/Pasted image 20240626214831.png",
-    "_attachments/Pasted image 20240626212906.png",
-    "_attachments/Pasted image 20240626212855.png",
-    "_attachments/Pasted image 20240626212459.png",
-    "_attachments/Pasted image 20240626212411.png",
-    "_attachments/Pasted image 20240626212035.png",
-    "_attachments/Pasted image 20240626211421.png",
-    "_attachments/Pasted image 20240626211343.png",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",

@@ -1,7 +1,7 @@
 References:
 - Video: [Mutual Information's Monte Carlo and Off-Policy Methods](https://youtu.be/bpUszPiWM7o?si=1KKXNTpHpd7U2T-w)
 - Lecture: [[David Silver RL (4) - Model-Free Prediction]]
-- Lecture: [[David Silver RL (5) Model-Free Control]]
+- Lecture: [[David Silver RL (5) -  Model-Free Control]]
 
 A [[Model-Free]] method of RL in which we don't have knowledge of the environment.
 - We don't know how many cards are in the deck, or how the dealer works.

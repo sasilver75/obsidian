@@ -24,6 +24,11 @@ Variants:
 - [[Direct Nash Optimization|DNO]]
 - [[Stepwise Direct Preference Optimization|sDPO]]
 
+
+# Paper Figures
+
+# Non-Paper Figures
+
 ![[Pasted image 20240424155551.png]]
 - We're optimizing over our policy $\pi$ , the new LM we're trying to learn
 - The optimization samples a prompt $x$, and two responses: a winning/losing response
@@ -43,3 +48,7 @@ Doesn't require any of the sampling or the tricks that you're used to in RL; can
 
 ![[Pasted image 20240418171549.png]]
 ![[Pasted image 20240418171641.png]]
+
+
+![[Pasted image 20240627140357.png]]
+Note that it's  now common for DPO to be performed prior to [[Proximal Policy Optimization|PPO]] ([link](https://www.interconnects.ai/p/rlhf-roundup-2024))

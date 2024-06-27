@@ -1,5 +1,5 @@
 References:
-- Lecture: [[David Silver RL (5) Model-Free Control]]
+- Lecture: [[David Silver RL (5) -  Model-Free Control]]
 
 In [[Reinforcement Learning]], off-policy algorithms learn from the experience gathered by following a *==behavior policy==* $\mu$, while optimizing a separate *==target policy==* $\pi$.
 - The behavior policy is used to generate actions and interact with the environment, while the target policy is the one being learned and optimized.
