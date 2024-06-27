@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/The Bitter Lesson Paper.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,111 +21,7 @@
             }
           },
           {
-            "id": "d16b75959f3d3226",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SARSA-Lambda.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90ba781024affb0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Off-Policy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f33194bcc6e38561",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17822ab21c0f918f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Off-Policy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e39380b09354df34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Value Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb1466504f2e5c17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SARSA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "275a9879f5e2aada",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Value Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4695dea6de0dba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GLIE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad1d1864bc4365bd",
+            "id": "0c2d8ccafa36a01e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -136,35 +32,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "eb88b9f1d7ccf3a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Value Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6db981e6b26e16b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Q-Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md"
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
               }
             }
           },
@@ -312,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -359,28 +228,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f33194bcc6e38561",
+  "active": "b4a71ffdebe77940",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240626151843.png",
-    "_attachments/Pasted image 20240626151429.png",
-    "_attachments/Pasted image 20240626151148.png",
-    "_attachments/Pasted image 20240626150755.png",
-    "Off-Policy.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
+    "_attachments/Pasted image 20240626172516.png",
+    "_attachments/Pasted image 20240626172359.png",
+    "_attachments/Pasted image 20240626172151.png",
+    "_attachments/Pasted image 20240626171819.png",
+    "_attachments/Pasted image 20240626171806.png",
+    "_attachments/Pasted image 20240626171552.png",
+    "_attachments/Pasted image 20240626171427.png",
     "~ Vocabulary.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
+    "_attachments/Pasted image 20240626171355.png",
+    "_attachments/Pasted image 20240626165818.png",
+    "_attachments/Pasted image 20240626165746.png",
+    "_attachments/Pasted image 20240626165728.png",
+    "Markov Decision Process.md",
+    "Off-Policy.md",
+    "Importance Sampling.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md",
+    "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 5.md",
+    "Monte-Carlo Learning.md",
+    "KV Cache.md",
+    "Papers/The Bitter Lesson Paper.md",
+    "SARSA-Lambda.md",
+    "Epsilon-Greedy.md",
     "Value Function.md",
     "SARSA.md",
     "Q-Learning.md",
-    "Papers/The Bitter Lesson Paper.md",
-    "SARSA-Lambda.md",
     "GLIE.md",
-    "_attachments/Pasted image 20240626150405.png",
-    "_attachments/Pasted image 20240626150135.png",
-    "_attachments/Pasted image 20240626150118.png",
-    "_attachments/Pasted image 20240626150020.png",
-    "_attachments/Pasted image 20240626145451.png",
-    "_attachments/Pasted image 20240626142742.png",
-    "_attachments/Pasted image 20240626142427.png",
     "Return Set.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md",
     "Deep Reinforcement Learning.md",
@@ -388,15 +264,8 @@
     "Llamafile.md",
     "Berkeley Function-Calling Leaderboard.md",
     "Gorilla.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
     "Model-Based.md",
     "Policy Gradient.md",
-    "Deep Q-Networks.md",
-    "Value Iteration.md",
-    "Policy Iteration.md",
-    "Token.md",
-    "ONNX.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
