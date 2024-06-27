@@ -201,6 +201,7 @@
 - [[Graph Convolutional Network]]
 - [[Mode Collapse]] 
 - [[VC Dimension]]
+- [[PAC Learning]]
 - [[Alignment Tax]]
 - [[Curriculum Learning]]
 - [[Online Learning]]
@@ -406,7 +407,7 @@
 - [[Context-Free Grammar]]
 - [[Dependency Grammar]]
 - [[Prosody]]
-- [[Padding]]
+- [[Padding]] (In the context of sequences)
 - [[Back-Translation]]
 - [[BLEU]] Score
 - [[BLEURT]] Score
