@@ -498,6 +498,7 @@
 - [[Reward]]
 - [[Return]]
 - [[Policy]]
+- [[Reward Hacking]]
 - [[Deep Reinforcement Learning]]
 - [[Value Function]]
 - [[Trajectory]]
@@ -532,6 +533,7 @@
 -  [[Reinforcement Learning from from AI Feedback]]
 -  [[Reinforcement Learning from Human Feedback]]
 - [[Epsilon-Greedy]]
+- [[Model Predictive Control]] (MPC)
 
 # Models
 - [[AlphaGo]]

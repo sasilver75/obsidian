@@ -26,7 +26,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83d3ca06ff2ce700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d7ee021b449fbb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9df6ed61a62d4ba9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Predictive Control.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -382,7 +421,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -399,7 +438,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -422,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md"
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
               }
             }
           },
@@ -455,7 +494,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -504,12 +543,16 @@
   },
   "active": "29c073569ca475bd",
   "lastOpenFiles": [
-    "Reinforcement Learning from Human Feedback with AI Feedback.md",
+    "~ Vocabulary.md",
+    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+    "Reward.md",
+    "Process Reward Model.md",
+    "Model Predictive Control.md",
     "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+    "Reinforcement Learning from Human Feedback with AI Feedback.md",
     "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Reinforcement Learning from from AI Feedback.md",
-    "~ Vocabulary.md",
     "Markov Assumption.md",
     "Rejection Sampling.md",
     "Best-of-N Sampling.md",
@@ -521,7 +564,6 @@
     "Nemotron-4.md",
     "LLaMA 2.md",
     "Zephyr.md",
-    "Process Reward Model.md",
     "Reward Model.md",
     "Neural Radiance Fields.md",
     "Tree of Thought.md",
@@ -529,9 +571,6 @@
     "_attachments/Pasted image 20240627003514.png",
     "MTEB.md",
     "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
-    "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md",
-    "Out-of-Vocabulary Token.md",
-    "Distillation.md",
     "_attachments/Pasted image 20240626214831.png",
     "_attachments/Pasted image 20240626212906.png",
     "_attachments/Pasted image 20240626212855.png",
