@@ -1,3 +1,9 @@
+---
+aliases:
+  - Pruning
+---
+
+
 Resources:
 - [WandB Diving into Model Pruning](https://wandb.ai/authors/pruning/reports/Diving-Into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg)
 - 

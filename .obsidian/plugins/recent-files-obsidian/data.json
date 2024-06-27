@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Data-Centric AI (2) - Label Errors",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
+      "basename": "Efficient ML (1) - Introduction",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Activation-Aware Weight Quantization",
+      "path": "Activation-Aware Weight Quantization.md"
+    },
+    {
+      "basename": "Model Pruning",
+      "path": "Model Pruning.md"
+    },
+    {
+      "basename": "Data-Centric AI (2) - Label Errors",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
     },
     {
       "basename": "Markov Decision Process",
@@ -187,18 +199,6 @@
     {
       "basename": "TD-Lambda",
       "path": "TD-Lambda.md"
-    },
-    {
-      "basename": "Credit Assignment Problem",
-      "path": "Credit Assignment Problem.md"
-    },
-    {
-      "basename": "David Silver RL (2) - Markov Decision Processes",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (2) - Markov Decision Processes.md"
-    },
-    {
-      "basename": "Monte-Carlo",
-      "path": "Monte-Carlo.md"
     }
   ],
   "omittedPaths": [],
