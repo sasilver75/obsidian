@@ -91,6 +91,7 @@
 - [[Goodhardt's Law]]
 - [[Outlier Detection]]
 - [[Coreset Selection]]
+- [[Gradient Descent]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -155,10 +156,13 @@
 - [[Adapter]]
 - [[Adapter Fusion]]
 - [[Quantization]]
+- [[Absolute Maximum Quantization]] (Absmax Quantization)
+- [[Zero-Point Quantization]]
 - [[Quantization-Aware Training]] (QAT)
 - [[Post-Training Quantization]] (PTQ)
 - [[Model-Aware Quantization]]
 - [[Activation-Aware Weight Quantization]] (AWQ)
+- [[LLM.int8()]]
 - [[Model Pruning]]
 - [[Structured Pruning]]
 - [[Magnitude Pruning]]
@@ -212,7 +216,10 @@
 - [[RMSProp]]
 - [[Adagrad]]
 - [[Residual Connection]]
-- [[bfloat16]]
+- [[float32]] (FP32)
+- [[float16]] (FP16)
+- [[bfloat16]] (BF16)
+- [[INT8]]
 - [[Transformer]]
 - [[Encoder-Only Architecture]]
 - [[Decoder-Only Architecture]]
@@ -552,7 +559,6 @@
 - [[KOSMOS]]
 - [[KOSMOS 2]]
 - [[KOSMOS 2.5]]
-- [[PaliGemma]]
 - [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]
@@ -612,6 +618,8 @@
 - [[Claude]]
 - [[Gemeni]]
 - [[Gemma]]
+- [[Gemma 2]]
+- [[PaliGemma]]
 - [[Alpaca]]
 - [[Vicuna]]
 - [[Koala]]
@@ -951,3 +959,8 @@
 - [[Charles Frye]] 🟩
 - [[Georgei Gerganov]] 📦
 - [[Benjamin Clavié]] 🇫🇷🍝
+
+
+# Policy
+- [[SB-1047]]
+- 

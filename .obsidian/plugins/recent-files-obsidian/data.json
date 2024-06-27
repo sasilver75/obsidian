@@ -1,8 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "David Silver RL (6) - Value Function Approximation",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "David Silver RL (5) -  Model-Free Control",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md"
+    },
+    {
+      "basename": "GPTQ",
+      "path": "GPTQ.md"
+    },
+    {
+      "basename": "LLM.int8()",
+      "path": "LLM.int8().md"
+    },
+    {
+      "basename": "Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}",
+      "path": "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md"
+    },
+    {
+      "basename": "Absolute Maximum Quantization",
+      "path": "Absolute Maximum Quantization.md"
+    },
+    {
+      "basename": "Zero-Point Quantization",
+      "path": "Zero-Point Quantization.md"
+    },
+    {
+      "basename": "Zero-Shot Prompting",
+      "path": "Zero-Shot Prompting.md"
+    },
+    {
+      "basename": "Claude",
+      "path": "Claude.md"
+    },
+    {
+      "basename": "Dynabench",
+      "path": "Dynabench.md"
+    },
+    {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "SB-1047",
+      "path": "SB-1047.md"
+    },
+    {
+      "basename": "Support Vector Machine",
+      "path": "Support Vector Machine.md"
+    },
+    {
+      "basename": "bfloat16",
+      "path": "bfloat16.md"
+    },
+    {
+      "basename": "float16",
+      "path": "float16.md"
+    },
+    {
+      "basename": "float32",
+      "path": "float32.md"
+    },
+    {
+      "basename": "INT8",
+      "path": "INT8.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Padding",
@@ -19,10 +99,6 @@
     {
       "basename": "LLaMA 2",
       "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
     },
     {
       "basename": "UltraInteract",
@@ -123,82 +199,6 @@
     {
       "basename": "Lecture - Prompt Engineering Workshop",
       "path": "Courses/LLM Mastery/Lecture - Prompt Engineering Workshop.md"
-    },
-    {
-      "basename": "Activation-Aware Weight Quantization",
-      "path": "Activation-Aware Weight Quantization.md"
-    },
-    {
-      "basename": "Model Pruning",
-      "path": "Model Pruning.md"
-    },
-    {
-      "basename": "Temperature",
-      "path": "Temperature.md"
-    },
-    {
-      "basename": "Chain of Thought",
-      "path": "Chain of Thought.md"
-    },
-    {
-      "basename": "Efficient ML (1) - Introduction",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
-    },
-    {
-      "basename": "Data-Centric AI (2) - Label Errors",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
-    },
-    {
-      "basename": "Markov Decision Process",
-      "path": "Markov Decision Process.md"
-    },
-    {
-      "basename": "Off-Policy",
-      "path": "Off-Policy.md"
-    },
-    {
-      "basename": "Importance Sampling",
-      "path": "Importance Sampling.md"
-    },
-    {
-      "basename": "David Silver RL (5) Model-Free Control",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) Model-Free Control.md"
-    },
-    {
-      "basename": "CS224U Lecture 5",
-      "path": "Courses/CS224U NLU @ Stanford (2023)/CS224U Lecture 5.md"
-    },
-    {
-      "basename": "Monte-Carlo Learning",
-      "path": "Monte-Carlo Learning.md"
-    },
-    {
-      "basename": "KV Cache",
-      "path": "KV Cache.md"
-    },
-    {
-      "basename": "The Bitter Lesson Paper",
-      "path": "Papers/The Bitter Lesson Paper.md"
-    },
-    {
-      "basename": "SARSA-Lambda",
-      "path": "SARSA-Lambda.md"
-    },
-    {
-      "basename": "Epsilon-Greedy",
-      "path": "Epsilon-Greedy.md"
-    },
-    {
-      "basename": "Value Function",
-      "path": "Value Function.md"
-    },
-    {
-      "basename": "SARSA",
-      "path": "SARSA.md"
-    },
-    {
-      "basename": "Q-Learning",
-      "path": "Q-Learning.md"
     }
   ],
   "omittedPaths": [],

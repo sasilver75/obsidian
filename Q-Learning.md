@@ -1,5 +1,5 @@
 References:
-- Lecture: [[David Silver RL (5) Model-Free Control]] 
+- Lecture: [[David Silver RL (5) -  Model-Free Control]] 
 
 
 The goal is to learn Q(s,a), and then take the action *a* at state *s* that maximizes Q(s,a). This means that at every state, we output a Q(s,a{i}) for each discrete {i} action.
