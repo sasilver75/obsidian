@@ -1,20 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Efficient ML (1) - Introduction",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
+      "basename": "What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}",
+      "path": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md"
     },
     {
-      "basename": "Activation-Aware Weight Quantization",
-      "path": "Activation-Aware Weight Quantization.md"
+      "basename": "MTEB",
+      "path": "MTEB.md"
+    },
+    {
+      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "GenQA",
+      "path": "GenQA.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Weak-to-Strong Generalization",
+      "path": "Weak-to-Strong Generalization.md"
+    },
+    {
+      "basename": "IFEval",
+      "path": "IFEval.md"
+    },
+    {
+      "basename": "UltraInteract",
+      "path": "UltraInteract.md"
+    },
+    {
+      "basename": "Out-of-Vocabulary Token",
+      "path": "Out-of-Vocabulary Token.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Nemotron-4",
+      "path": "Nemotron-4.md"
+    },
+    {
+      "basename": "Gemeni",
+      "path": "Gemeni.md"
+    },
+    {
+      "basename": "LLaMA 2",
+      "path": "LLaMA 2.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+    },
+    {
+      "basename": "Lecture - Prompt Engineering Workshop",
+      "path": "Courses/LLM Mastery/Lecture - Prompt Engineering Workshop.md"
+    },
+    {
+      "basename": "Activation-Aware Weight Quantization",
+      "path": "Activation-Aware Weight Quantization.md"
+    },
+    {
       "basename": "Model Pruning",
       "path": "Model Pruning.md"
+    },
+    {
+      "basename": "Temperature",
+      "path": "Temperature.md"
+    },
+    {
+      "basename": "Chain of Thought",
+      "path": "Chain of Thought.md"
+    },
+    {
+      "basename": "Efficient ML (1) - Introduction",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
     },
     {
       "basename": "Data-Centric AI (2) - Label Errors",
@@ -135,70 +199,6 @@
     {
       "basename": "Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI",
       "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md"
-    },
-    {
-      "basename": "Curriculum Learning",
-      "path": "Curriculum Learning.md"
-    },
-    {
-      "basename": "FActScore",
-      "path": "FActScore.md"
-    },
-    {
-      "basename": "K-Nearest Neighbors",
-      "path": "K-Nearest Neighbors.md"
-    },
-    {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
-    },
-    {
-      "basename": "Discriminative Learning Rate",
-      "path": "Discriminative Learning Rate.md"
-    },
-    {
-      "basename": "Bellman Equation",
-      "path": "Bellman Equation.md"
-    },
-    {
-      "basename": "Trajectory",
-      "path": "Trajectory.md"
-    },
-    {
-      "basename": "David Silver RL (3) - Planning by Dynamic Programming",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (3) - Planning by Dynamic Programming.md"
-    },
-    {
-      "basename": "Active Learning",
-      "path": "Active Learning.md"
-    },
-    {
-      "basename": "HuggingFace NLP (7) Main NLP Tasks",
-      "path": "Courses/HuggingFace NLP/HuggingFace NLP (7) Main NLP Tasks.md"
-    },
-    {
-      "basename": "Zero to Master PyTorch for Deep Learning",
-      "path": "Courses/Misc Tutorials/Zero to Master PyTorch for Deep Learning.md"
-    },
-    {
-      "basename": "RACE",
-      "path": "RACE.md"
-    },
-    {
-      "basename": "LAMBADA",
-      "path": "LAMBADA.md"
-    },
-    {
-      "basename": "Markov Reward Process",
-      "path": "Markov Reward Process.md"
-    },
-    {
-      "basename": "Tokenizer",
-      "path": "Tokenizer.md"
-    },
-    {
-      "basename": "TD-Lambda",
-      "path": "TD-Lambda.md"
     }
   ],
   "omittedPaths": [],

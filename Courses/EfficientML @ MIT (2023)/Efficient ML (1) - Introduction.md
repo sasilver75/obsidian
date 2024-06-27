@@ -237,11 +237,32 @@ We want to use:
 
 ![[Pasted image 20240626212459.png]]
 
+![[Pasted image 20240626212906.png]]
+"I don't think we have these set as prerequisites, because everything is learnable from practice!"
+... but if you asked about prerequisites, this Computaiton Structures (what's SIMD, what's Cache, what's Branch Prediction)... watch it on Youtube!
 
 
 
+Part 1: Efficient Inference
+- Pruning
+- Quantization
+- Neural Architecture Search
+- Knowledge Distillation
 
+Part 2: Application-Specific OPtimizations
+- What is a Transformer? What is Attention?
+- What's a LLM?
+- Vision Transformers
+- GANs/Video/Point Cloud
+- Diffusion Models
 
+Part 3: Efficient Training
+- Distributed Training Part 1 (Model training, data parallelism, pipeline parallelism)
+- Distributed Training Part 2
+- On-device training Part 1 (eg finetuning on a phone)
+- On-Device training Part 2
+
+(And then some stuff on Quantum ML that we're going to skip 😜)
 
 
 

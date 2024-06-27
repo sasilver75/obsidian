@@ -5,6 +5,9 @@ Paper: [LLaMA 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/a
 #zotero 
 Takeaway: A great new open-weights model from Meta, available in a variety of sizes in either base or chat variants. Authors give a lot of time to the RLHF and safety portions of the paper.
 
+> "LLaMA-2-chat-70B was known to be a very disliked model." 
+> - Nate Lambert, "Frontiers in Synthetic Data" article
+
 ----
 
 Technical details:
