@@ -201,6 +201,7 @@
 - [[Alignment Tax]]
 - [[Curriculum Learning]]
 - [[Online Learning]]
+- [[Weak-to-Strong Generalization]]
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
 - [[Generative Adversarial Network]]
 - [[Adam]]
@@ -420,6 +421,7 @@
 - [[Self-Correct]]
 - [[Self-Instruct]]
 - [[Web Rephrase Augmented Pre-training]] (WRAP) (Rephrasing the Web)
+- [[GenQA]]
 - [[Self-Reward]]
 - [[Constitutional AI]]
 - [[Zero-Shot Prompting]]
@@ -677,6 +679,7 @@
 - [[MemGPT]]
 - [[FActScore]]
 - [[Alpagasus]]
+- [[Nemotron-4]]
 
 # Tools
 - [[ComfyUI]] 👨‍🔬🖼️
@@ -776,6 +779,7 @@
 - [[LAMBADA]]
 - [[RACE]]
 - [[Berkeley Function-Calling Leaderboard]]
+- [[IFEval]]
 
 # Datasets
 *Datasets for training/finetuning models*
@@ -801,6 +805,7 @@
 - [[MassiveText]] (Includes interesting work on quality/repetition filters)
 - [[UltraChat]]
 - [[UltraFeedback]]
+- [[UltraInteract]]
 - [[Dolma]] (Dataset for OLMo)
 - [[RefinedWeb]] (Dataset for Falcon)
 - [[Cosmopedia]] (Large 25B token synthetic dataset from HF)
