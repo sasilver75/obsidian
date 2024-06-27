@@ -2,7 +2,7 @@
 aliases:
   - MDP
 ---
-MDPs are an extension of [[Markov Chain]]s.
+MDPs are an extension/generalization of [[Markov Chain]] in which we also have *actions.*
 Related: Partially-Observable Markov Decision Process (POMDP) vs Fully-Observable MDPs
 
 A process in which an agent takes actions against an environment, which produces a reward and a new state, which are returned to the agent. The process repeats until (in the episodic case) some terminal state is reached, marking the end of an episode.

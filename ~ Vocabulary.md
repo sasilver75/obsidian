@@ -164,6 +164,7 @@
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
 - [[Weak Supervision]]
+- [[Confident Learning]]
 - [[Embedding]]
 - [[Token]]
 - [[Numericalization]]
