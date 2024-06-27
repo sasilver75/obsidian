@@ -13,7 +13,85 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
+                "file": "Process Reward Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29c073569ca475bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aba5ed65d423e8f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d87216a46a91fa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Assumption.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c5b757601201f0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rejection Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3085f7108861dbc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Best-of-N Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a0af0038b406f94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reward Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MTEB.md",
+                "file": "Hybrid Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -228,7 +306,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -303,7 +382,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
+                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,7 +399,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
+                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,7 +422,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md"
+                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md"
               }
             }
           },
@@ -376,7 +455,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
+                "file": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -399,7 +478,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6963334670110288,
+                  "scale": 0.6641608753267966,
                   "close": true
                 }
               }
@@ -423,30 +502,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f81c4f5983937f6d",
+  "active": "29c073569ca475bd",
   "lastOpenFiles": [
-    "MTEB.md",
-    "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
-    "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md",
-    "GenQA.md",
+    "Reinforcement Learning from Human Feedback with AI Feedback.md",
+    "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "Reinforcement Learning from from AI Feedback.md",
     "~ Vocabulary.md",
+    "Markov Assumption.md",
+    "Rejection Sampling.md",
+    "Best-of-N Sampling.md",
+    "Hybrid Search.md",
+    "GenQA.md",
     "Weak-to-Strong Generalization.md",
     "IFEval.md",
     "UltraInteract.md",
-    "Out-of-Vocabulary Token.md",
-    "Distillation.md",
     "Nemotron-4.md",
-    "Gemeni.md",
     "LLaMA 2.md",
     "Zephyr.md",
-    "Courses/LLM Mastery/Lecture - Prompt Engineering Workshop.md",
-    "Activation-Aware Weight Quantization.md",
-    "Model Pruning.md",
-    "Temperature.md",
-    "Chain of Thought.md",
+    "Process Reward Model.md",
+    "Reward Model.md",
+    "Neural Radiance Fields.md",
+    "Tree of Thought.md",
+    "_attachments/Pasted image 20240627004632.png",
+    "_attachments/Pasted image 20240627003514.png",
+    "MTEB.md",
+    "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
+    "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md",
+    "Out-of-Vocabulary Token.md",
+    "Distillation.md",
     "_attachments/Pasted image 20240626214831.png",
-    "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
-    "Courses/LLM Mastery/Office Hours - Wing Lian (Axolotl).md",
     "_attachments/Pasted image 20240626212906.png",
     "_attachments/Pasted image 20240626212855.png",
     "_attachments/Pasted image 20240626212459.png",
@@ -454,14 +540,7 @@
     "_attachments/Pasted image 20240626212035.png",
     "_attachments/Pasted image 20240626211421.png",
     "_attachments/Pasted image 20240626211343.png",
-    "_attachments/Pasted image 20240626211223.png",
-    "_attachments/Pasted image 20240626210847.png",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
     "Courses/EfficientML @ MIT (2023)",
-    "Courses/TinML and Efficient Deep Learning.md",
-    "Markov Decision Process.md",
-    "Off-Policy.md",
-    "Importance Sampling.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",

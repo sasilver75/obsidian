@@ -1,0 +1,1 @@
+The inference-time cousin of [[Rejection Sampling]]

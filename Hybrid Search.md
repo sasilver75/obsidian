@@ -24,8 +24,6 @@ With regard to embeddings:
 
 Another good baseline is [[Sentence Transformers]], which makes it simple to compute embeddings for sentences, paragraphs, and even images. It's a workhorse based on transformers like [[RoBERTa]], and supports 100+ languages.
 
-Consider looking at the [[MTEB]] leaderboard
-
 ### How do we retrieve documents with low latency at scale?
 - We use [[Approximate Nearest Neighbor Search|Approximate Nearest Neighber]] search, optimizing for retrieval speed and returns the approximate top-k most similar neighbors.
 - ANN embedding indices are data structures that let us do ANN searches efficiently. Popular techniques include:

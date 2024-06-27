@@ -1,24 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}",
-      "path": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md"
+      "basename": "The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}",
+      "path": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md"
     },
     {
-      "basename": "MTEB",
-      "path": "MTEB.md"
+      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
+      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
     },
     {
-      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
+      "basename": "Transformer Taxonomy - The last lit review (March 2023) {Kipply }",
+      "path": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
     },
     {
-      "basename": "GenQA",
-      "path": "GenQA.md"
+      "basename": "Reinforcement Learning from from AI Feedback",
+      "path": "Reinforcement Learning from from AI Feedback.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Markov Assumption",
+      "path": "Markov Assumption.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "Best-of-N Sampling",
+      "path": "Best-of-N Sampling.md"
+    },
+    {
+      "basename": "Hybrid Search",
+      "path": "Hybrid Search.md"
+    },
+    {
+      "basename": "GenQA",
+      "path": "GenQA.md"
     },
     {
       "basename": "Weak-to-Strong Generalization",
@@ -33,20 +53,8 @@
       "path": "UltraInteract.md"
     },
     {
-      "basename": "Out-of-Vocabulary Token",
-      "path": "Out-of-Vocabulary Token.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
-    },
-    {
-      "basename": "Gemeni",
-      "path": "Gemeni.md"
     },
     {
       "basename": "LLaMA 2",
@@ -55,6 +63,46 @@
     {
       "basename": "Zephyr",
       "path": "Zephyr.md"
+    },
+    {
+      "basename": "Process Reward Model",
+      "path": "Process Reward Model.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "Neural Radiance Fields",
+      "path": "Neural Radiance Fields.md"
+    },
+    {
+      "basename": "Tree of Thought",
+      "path": "Tree of Thought.md"
+    },
+    {
+      "basename": "MTEB",
+      "path": "MTEB.md"
+    },
+    {
+      "basename": "What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}",
+      "path": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md"
+    },
+    {
+      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Out-of-Vocabulary Token",
+      "path": "Out-of-Vocabulary Token.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Gemeni",
+      "path": "Gemeni.md"
     },
     {
       "basename": "Lecture - Prompt Engineering Workshop",
@@ -147,58 +195,6 @@
     {
       "basename": "David Silver RL (4) - Model-Free Prediction",
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (4) - Model-Free Prediction.md"
-    },
-    {
-      "basename": "Deep Reinforcement Learning",
-      "path": "Deep Reinforcement Learning.md"
-    },
-    {
-      "basename": "Model-Free",
-      "path": "Model-Free.md"
-    },
-    {
-      "basename": "Llamafile",
-      "path": "Llamafile.md"
-    },
-    {
-      "basename": "Berkeley Function-Calling Leaderboard",
-      "path": "Berkeley Function-Calling Leaderboard.md"
-    },
-    {
-      "basename": "Gorilla",
-      "path": "Gorilla.md"
-    },
-    {
-      "basename": "Model-Based",
-      "path": "Model-Based.md"
-    },
-    {
-      "basename": "Policy Gradient",
-      "path": "Policy Gradient.md"
-    },
-    {
-      "basename": "Deep Q-Networks",
-      "path": "Deep Q-Networks.md"
-    },
-    {
-      "basename": "Value Iteration",
-      "path": "Value Iteration.md"
-    },
-    {
-      "basename": "Policy Iteration",
-      "path": "Policy Iteration.md"
-    },
-    {
-      "basename": "Token",
-      "path": "Token.md"
-    },
-    {
-      "basename": "ONNX",
-      "path": "ONNX.md"
-    },
-    {
-      "basename": "Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (1) - Data-Centric AI vs Model-Centric AI.md"
     }
   ],
   "omittedPaths": [],

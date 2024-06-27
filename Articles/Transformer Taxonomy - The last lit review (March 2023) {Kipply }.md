@@ -188,7 +188,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 ### [[Reinforcement Learning from Human Feedback|RLHF]] with [[Proximal Policy Optimization|PPO]]
 - In RLHF, a reward model is trained, where the labeler evaluates an array of model generations. Then PPO is used for the RL, where the policy generates an output evaluated by the reward model to then improve on the policy.
 ### [[Constitutional AI]]
-- ==Basically a form of [[Reinforcement Learning from Human Feedback with AI Feedback|RLAIF]]==, though actually called [[Constitutional AI|CAI]]
+- ==Basically a form of [[Reinforcement Learning from from AI Feedback|RLAIF]] though actually called [[Constitutional AI|CAI]]
 - It has a supervised learning phase where a helpful-only AI is used to generate adversarial prompts.
 - The assistant then iterates on its own response based on the provided constitutions (a set of short values for the model to follow)
 	- This is like RLHF with PPO, except substituting AI feedback

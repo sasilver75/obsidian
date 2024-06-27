@@ -170,7 +170,7 @@ But already, there are some actionable suggestions one can conclude:
 	- If NO: use [[Parameter-Efficient Fine-Tuning|PEFT]]
 - Are existing AI models good enough for data generation or data verification?
 	- If good enough for data generation, try creating synthetic data!
-	- If good enough for *verification, but not generation*, try using [[Reinforcement Learning from Human Feedback with AI Feedback|RLAIF]] or *self-reflection*
+	- If good enough for *verification, but not generation*, try using [[Reinforcement Learning from from AI Feedback|RLAIF]]or *self-reflection*
 		- If neither, stick to RLHF
 
 

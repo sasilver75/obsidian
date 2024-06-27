@@ -22,9 +22,9 @@
 - [[Law of Large Numbers]]
 - [[Central Limit Theorem]]
 - [[Monte-Carlo]]
-- [[Markov Assumption]]
+- [[Markov Assumption]] (Markov Property)
 - [[Hidden Markov Model]] (HMM)
-- [[Markov Chain]]
+- [[Markov Chain]] (Markov Process)
 - [[Markov Chain Monte Carlo]] (MCMC)
 - [[Importance Sampling]]
 - [[Pearson Correlation Coefficient]]
@@ -35,6 +35,8 @@
 - [[Degrees of Freedom]]
 - [[Hyperparameter]]
 - [[Loss Function]]
+- [[Bandit]]
+- [[Multi-Armed Bandit]]
 
 # Analytics/Misc. Modeling
 - [[Type One Error]]
@@ -192,8 +194,9 @@
 - [[Self-Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
-- [[Reward Model]]
+- [[Reward Model]] (RM)
 - [[Pairwise Ranking]] vs [[Direct Assessment]]
+- [[Process Reward Model]] (PRM)
 - [[Bradley-Terry Model]]
 - [[Graph Convolutional Network]]
 - [[Mode Collapse]] 
@@ -222,7 +225,7 @@
 - [[Kalman Filter]]
 - [[Particle Filters]] 
 - [[Gaussian Splatting]]
-- [[Neural Radiance Fields]]
+- [[Neural Radiance Fields]] (NeRF)
 - [[Tree of Thought]] (ToT)
 - [[VLM]] 
 - [[Continuous Batching]]
@@ -305,9 +308,8 @@
 - [[Pairwise Cringe Optimization]] (PCO)
 - [[Maximum Inner Product Search]] (MIPS)
 - [[Reinforced Self-Training]] (ReST/$ReST^{EM}$)
-- [[Shepherd]]
-- [[Prometheus]]
-- [[Prometheus 2]]
+- [[Rejection Sampling]]
+- [[Best-of-N Sampling]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -529,7 +531,6 @@
 - [[Model-Free]]
 -  [[Reinforcement Learning from from AI Feedback]]
 -  [[Reinforcement Learning from Human Feedback]]
-	- [[Rejection Sampling]] in the RLHF context
 - [[Epsilon-Greedy]]
 
 # Models
@@ -680,6 +681,9 @@
 - [[FActScore]]
 - [[Alpagasus]]
 - [[Nemotron-4]]
+- [[Shepherd]]
+- [[Prometheus]]
+- [[Prometheus 2]]
 
 # Tools
 - [[ComfyUI]] 👨‍🔬🖼️
