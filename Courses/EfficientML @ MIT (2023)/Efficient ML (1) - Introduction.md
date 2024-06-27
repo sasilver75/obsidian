@@ -162,7 +162,82 @@ Combining vision, language, and more!
 
 ![[Pasted image 20240626203307.png]]
 [[LLaVA]] combines vision and language understanding. We ask it who's in the painting, and it responds that it's Mona Lisa! We want to compress these multimodal models as well!
-	- With ==[[Activation-Aware Weight Quantization|AWQ]]== , we quant
+- With ==[[Activation-Aware Weight Quantization|AWQ]]== , we quantized the model to 4 bits and retained high quality! It can still tell that it's from DaVinci, and given a second image that contains both text and an image (a meme). Naive quantization to 4 bits would significantly lose accuracy in this situation.
+
+
+
+![[Pasted image 20240626205037.png]]
+We can also add in actions (in addition to vision and language); The RT1 work from google takes instructions like "Bring me the rice chips from the drawer." It has the ability to see, understand language, and consider actions!
+
+![[Pasted image 20240626205310.png]]
+Everyone knows about AlphaGo, but did you know that each game took
+- 1920 CPUs
+- 280 GPUs
+- $3000 of electricity
+
+![[Pasted image 20240626205336.png]]
+AlphaFold reveals the structure of proteins
+
+
+---
+
+
+![[Pasted image 20240626205357.png]]
+The three pillars of Deep Learning:
+- Algorithms (have existsed for the past 20-30 years)
+- Hardware (the driving force that made everything possible)
+- Data (large scale datasets)
+
+![[Pasted image 20240626205424.png]]
+Parallel processing has a big impact on modern computing; especially GPUs!
+The right image shows  the computing performance growing over time of a single GPU; growing much faster than Moore's law for the past few years.
+- A100 introduced Structured Sparsity, which we'll cover later; further boosted Int8 performance.
+
+
+This presentation will focus on the software innovation, as well as software-harware codesign
+
+![[Pasted image 20240626205650.png]]
+The portion of the software cost is becoming more and more important.
+
+![[Pasted image 20240626210847.png]]
+H100s are backordered to next year and very difficult to get.
+- FP16 performance increasing quite fast (TOPs = Terra Operations per second)
+	- Peak performance doesn't always transfer to measure speedup! Memory is also a bandwidth!
+- Memory Bandwidth
+	- We'll calculate how many Flops to use in a NN in the next lecture, and introduce how to calculate the size of activations using a pen and pencil to calculate how much memory you need.
+	- It's interesting that memory seems to be growing at a slightly slower pace compared to FP16 perf
+- Power
+	- The above stats aren't a free lunch; these take a lot of power! 700Watts on a snigle GPU! If you combine these together into a stack of 8x GPUs, that's many watts.
+- Memory size
+	- From A100 to H100, there has been a relatively marginal size increase.
+
+So computation is cheap (increasing by many 10xs), but memory is expensive (only ~4x)
+
+These large GPUs can be used for training in the cloud, but what about on the edge? What about running on phones?
+![[Pasted image 20240626211223.png]]
+The Qualcomm Snapdragon series have pretty good performance measured in TOPs, with very modest power usage (which is very important for IOT). Pretty impressive, honestly!
+
+![[Pasted image 20240626211343.png]]
+Apple has their own hardware too; can run at ~16 TOPs per second; notice it has a lot less compared to Qualcomm -- but notice that peak performance doesn't always translate to the same measured speedup. But with algorithms/hardware co-design (Apple), they get great performance.
+
+![[Pasted image 20240626211421.png]]
+Nvidia's ==Jetson== series is their edge series. They have impressive peak performance at ~300TOPs
+
+
+![[Pasted image 20240626212035.png]]
+Cheap microcontrollers, too! Power in milliwatts, memory in kilobytes. Last year they had a project about deploying on Microcontrollers, but we have too many students now.
+
+![[Pasted image 20240626212411.png]]
+Naturally, these mobile and tiny processors are going to require specific strategies!
+We want to use:
+- Less computation
+- Less carbon
+- Less data
+- Fewer engineers
+
+![[Pasted image 20240626212459.png]]
+
+
 
 
 

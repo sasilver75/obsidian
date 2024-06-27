@@ -5,12 +5,12 @@
       "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Activation-Aware Weight Quantization",
       "path": "Activation-Aware Weight Quantization.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Model Pruning",
