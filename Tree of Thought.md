@@ -1,3 +1,9 @@
+---
+aliases:
+  - ToT
+---
+
+
 May 17, 2023 (4 months before ChatGPT)
 [[DeepMind]], Princeton
 Paper: [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
