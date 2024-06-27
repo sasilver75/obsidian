@@ -8,331 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f81c4f5983937f6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Process Reward Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29c073569ca475bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83d3ca06ff2ce700",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d7ee021b449fbb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9df6ed61a62d4ba9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model Predictive Control.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aba5ed65d423e8f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d87216a46a91fa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markov Assumption.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c5b757601201f0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rejection Sampling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3085f7108861dbc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Best-of-N Sampling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a0af0038b406f94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reward Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6d2b969e71345dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hybrid Search.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96476289a09857c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GenQA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1efa63acf375348f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcfe705f9a71e983",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weak-to-Strong Generalization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2a8c1e2ff19a0fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67006e54c3f667b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IFEval.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bccf8950b18fa02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "844f8092edac1c02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UltraInteract.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a3da1d9f867bb56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8ea4661560b759b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nemotron-4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f024b910ff148d4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "559a52c219a18bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLaMA 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7c658240ce490fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zephyr.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d02fb9c74f7d7a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10dd3b553147b046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nemotron-4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0c2d8ccafa36a01e",
             "type": "leaf",
             "state": {
@@ -345,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -421,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -438,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -461,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -494,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -541,36 +215,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "29c073569ca475bd",
+  "active": "0c2d8ccafa36a01e",
   "lastOpenFiles": [
+    "Padding.md",
     "~ Vocabulary.md",
+    "Nemotron-4.md",
+    "Zephyr.md",
+    "LLaMA 2.md",
+    "Distillation.md",
+    "UltraInteract.md",
+    "IFEval.md",
+    "Weak-to-Strong Generalization.md",
+    "GenQA.md",
+    "Hybrid Search.md",
+    "Reward Model.md",
+    "Best-of-N Sampling.md",
+    "Rejection Sampling.md",
+    "Markov Assumption.md",
+    "Model Predictive Control.md",
+    "Process Reward Model.md",
     "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
     "Reward.md",
-    "Process Reward Model.md",
-    "Model Predictive Control.md",
     "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
     "Reinforcement Learning from Human Feedback with AI Feedback.md",
     "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
     "Reinforcement Learning from from AI Feedback.md",
-    "Markov Assumption.md",
-    "Rejection Sampling.md",
-    "Best-of-N Sampling.md",
-    "Hybrid Search.md",
-    "GenQA.md",
-    "Weak-to-Strong Generalization.md",
-    "IFEval.md",
-    "UltraInteract.md",
-    "Nemotron-4.md",
-    "LLaMA 2.md",
-    "Zephyr.md",
-    "Reward Model.md",
     "Neural Radiance Fields.md",
     "Tree of Thought.md",
     "_attachments/Pasted image 20240627004632.png",
     "_attachments/Pasted image 20240627003514.png",
-    "MTEB.md",
-    "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
     "_attachments/Pasted image 20240626214831.png",
     "_attachments/Pasted image 20240626212906.png",
     "_attachments/Pasted image 20240626212855.png",
