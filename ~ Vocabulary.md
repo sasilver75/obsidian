@@ -156,6 +156,7 @@
 - [[Quantization-Aware Training]] (QAT)
 - [[Post-Training Quantization]] (PTQ)
 - [[Model-Aware Quantization]]
+- [[Activation-Aware Weight Quantization]] (AWQ)
 - [[Model Pruning]]
 - [[Structured Pruning]]
 - [[Magnitude Pruning]]

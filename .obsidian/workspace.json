@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f81c4f5983937f6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fbefbdb06397722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Activation-Aware Weight Quantization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0b4abc8b47c854a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Pruning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Activation-Aware Weight Quantization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
               }
             }
           },
@@ -181,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,19 +269,23 @@
   },
   "active": "b4a71ffdebe77940",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240626172516.png",
-    "_attachments/Pasted image 20240626172359.png",
-    "_attachments/Pasted image 20240626172151.png",
-    "_attachments/Pasted image 20240626171819.png",
-    "_attachments/Pasted image 20240626171806.png",
-    "_attachments/Pasted image 20240626171552.png",
-    "_attachments/Pasted image 20240626171427.png",
     "~ Vocabulary.md",
+    "Activation-Aware Weight Quantization.md",
+    "Model Pruning.md",
+    "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
+    "_attachments/Pasted image 20240626203307.png",
+    "_attachments/Pasted image 20240626203252.png",
+    "_attachments/Pasted image 20240626202829.png",
+    "_attachments/Pasted image 20240626202756.png",
+    "_attachments/Pasted image 20240626202539.png",
+    "_attachments/Pasted image 20240626202530.png",
+    "_attachments/Pasted image 20240626202400.png",
+    "_attachments/Pasted image 20240626201953.png",
+    "_attachments/Pasted image 20240626201802.png",
+    "_attachments/Pasted image 20240626201642.png",
     "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
-    "_attachments/Pasted image 20240626171355.png",
-    "_attachments/Pasted image 20240626165818.png",
-    "_attachments/Pasted image 20240626165746.png",
-    "_attachments/Pasted image 20240626165728.png",
+    "Courses/EfficientML @ MIT (2023)",
+    "Courses/TinML and Efficient Deep Learning.md",
     "Markov Decision Process.md",
     "Off-Policy.md",
     "Importance Sampling.md",
@@ -263,9 +306,6 @@
     "Model-Free.md",
     "Llamafile.md",
     "Berkeley Function-Calling Leaderboard.md",
-    "Gorilla.md",
-    "Model-Based.md",
-    "Policy Gradient.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
     "Courses/HuggingFace RL",
@@ -274,7 +314,6 @@
     "Courses/Misc Tutorials",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
-    "Excalidraw",
-    "Courses/LLM Mastery"
+    "Excalidraw"
   ]
 }
