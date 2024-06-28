@@ -534,13 +534,15 @@
 - [[Q-Learning]], [[Deep Q-Learning]]
 - [[Deep Q-Networks]]
 - [[Value Learning]] vs [[Policy Learning]]
+- [[Policy Gradient]]
+- [[Monte-Carlo Policy Gradient]]
+- [[Actor-Critic Policy Gradient]]
 - [[Proximal Policy Optimization]] (PPO)
 - [[Group Relative Policy Optimization]] (GRPO)
 - [[Bellman Equation]] 
 - [[Monte-Carlo Learning]]
 - [[Temporal Difference Learning]] (TD-Learning)
 - [[TD-Lambda]]
-- Actor-Critic methods
 - [[Experience Replay]]
 - [[Markov Reward Process]]
 - [[Markov Decision Process]]
@@ -552,6 +554,7 @@
 - [[Off-Policy]]
 - [[Model-Based]]
 - [[Model-Free]]
+- [[Advantage Function]]
 -  [[Reinforcement Learning from from AI Feedback]]
 -  [[Reinforcement Learning from Human Feedback]]
 - [[Epsilon-Greedy]]

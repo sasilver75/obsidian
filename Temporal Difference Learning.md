@@ -7,6 +7,10 @@ References:
 - [[David Silver RL (5) -  Model-Free Control]]
 - Video: [Mutual Information's Temporal Difference Learning and Q Learning](https://www.youtube.com/watch?v=AJiG3ykOxmY)
 
+Define:
+- ==TD-Error==
+- ==TD-Target==
+
 Almost all RL algorithms fall within the ==Generalized Policy Iteration== (GPI) paradigm:
 - Policy Evaluation (learning $v_{\pi}$)
 - Policy Improvement (using v_{\pi} to improve our current policy)
