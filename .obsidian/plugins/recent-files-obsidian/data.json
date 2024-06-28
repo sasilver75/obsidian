@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "David Silver RL (6) - Value Function Approximation",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
+      "basename": "Q-Learning",
+      "path": "Q-Learning.md"
+    },
+    {
+      "basename": "SARSA",
+      "path": "SARSA.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Temporal Difference Learning",
+      "path": "Temporal Difference Learning.md"
+    },
+    {
+      "basename": "David Silver RL (6) - Value Function Approximation",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
     },
     {
       "basename": "David Silver RL (5) -  Model-Free Control",
@@ -187,18 +199,6 @@
     {
       "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
       "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "Out-of-Vocabulary Token",
-      "path": "Out-of-Vocabulary Token.md"
-    },
-    {
-      "basename": "Gemeni",
-      "path": "Gemeni.md"
-    },
-    {
-      "basename": "Lecture - Prompt Engineering Workshop",
-      "path": "Courses/LLM Mastery/Lecture - Prompt Engineering Workshop.md"
     }
   ],
   "omittedPaths": [],
