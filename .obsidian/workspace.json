@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
+                "file": "Q-Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -252,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
+                "file": "Q-Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +269,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
+                "file": "Q-Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
+                "file": "Q-Learning.md"
               }
             }
           },
@@ -325,7 +325,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
+                "file": "Q-Learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -374,19 +374,21 @@
   },
   "active": "09bd886f1550a265",
   "lastOpenFiles": [
+    "SARSA.md",
+    "~ Vocabulary.md",
+    "Q-Learning.md",
+    "_attachments/Pasted image 20240627185925.png",
+    "_attachments/Pasted image 20240627184515.png",
+    "_attachments/Pasted image 20240627184453.png",
+    "Temporal Difference Learning.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
+    "_attachments/Pasted image 20240627184409.png",
+    "_attachments/Pasted image 20240627184008.png",
+    "_attachments/Pasted image 20240627183059.png",
     "_attachments/Pasted image 20240627175956.png",
     "_attachments/Pasted image 20240627175949.png",
     "_attachments/Pasted image 20240627175718.png",
     "_attachments/Pasted image 20240627175604.png",
-    "_attachments/Pasted image 20240627175513.png",
-    "_attachments/Pasted image 20240627175317.png",
-    "_attachments/Pasted image 20240627174435.png",
-    "_attachments/Pasted image 20240627174418.png",
-    "_attachments/Pasted image 20240627174150.png",
-    "~ Vocabulary.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
-    "_attachments/Pasted image 20240627173854.png",
-    "_attachments/Pasted image 20240627173808.png",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md",
     "GPTQ.md",
     "LLM.int8().md",
@@ -408,8 +410,6 @@
     "~ Useful Pictures.md",
     "Padding.md",
     "Nemotron-4.md",
-    "Zephyr.md",
-    "LLaMA 2.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
