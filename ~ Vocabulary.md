@@ -167,9 +167,12 @@
 - [[Model-Aware Quantization]]
 - [[Activation-Aware Weight Quantization]] (AWQ)
 - [[LLM.int8()]]
-- [[Model Pruning]]
+- [[Pruning]]
 - [[Structured Pruning]]
-- [[Magnitude Pruning]]
+- [[Magnitude-Based Pruning]]
+- [[Scaling-Based Pruning]]
+- [[Second-Order-Based Pruning]]
+- [[Percentage-of-Zero-Based Pruning]]
 - [[Masking]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
@@ -199,8 +202,9 @@
 - [[Region-Based Convolutional Neural Network]] (R-CNN)
 - [[Vanishing Gradients]], [[Exploding Gradients]]
 - [[Distillation]]
-- [[Context Distillation]]
 - [[Self-Distillation]]
+- [[Online Distillation]]
+- [[Context Distillation]]
 - [[Hallucination]]
 - [[Inductive Bias]]
 - [[Reward Model]] (RM)

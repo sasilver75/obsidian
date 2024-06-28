@@ -1,9 +1,10 @@
+![[Pasted image 20240628124210.png|400]]
 ![[Pasted image 20240628002751.png]]
 ![[Pasted image 20240615152744.png]]
 ![[Pasted image 20240615152810.png|300]]
 ![[Pasted image 20240627115334.png]]
 ![[Pasted image 20240617002144.png]]
-An LLM MCTS from @\_xjdr
+An LLM MCTS from @\_xjdr in Jax
 
 ![[Pasted image 20240613184924.png|300]]
 Storage hierarchy

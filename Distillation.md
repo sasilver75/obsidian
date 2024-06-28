@@ -7,7 +7,7 @@ aliases:
 Traditional knowledge distillation involves transferring knowledge from a larger, more complex model (teacher) to a smaller, simpler model (student). Generally this involving training on the logits of the teacher (model distillation), rather than on the data labels, but it can also refer to creating a set of labeled data using a teacher model that a student model can later train on (data distillation).
 
 Variant: [[Self-Distillation]]
-Variant: ==Online Distillation== (eg Gemeni Flash being distilled from 1.5 Pro *as Pro trained!*) (relevant [paper](https://arxiv.org/abs/1804.03235))
+Variant: ==[[Online Distillation]]== (eg Gemeni Flash being distilled from 1.5 Pro *as Pro trained!*) (relevant [paper](https://arxiv.org/abs/1804.03235))
 
 Soft-Target Distillation (logits) vs Hard-Target Distillation (label)
 

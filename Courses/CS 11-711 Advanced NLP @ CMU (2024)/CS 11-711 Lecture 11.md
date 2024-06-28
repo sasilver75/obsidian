@@ -8,7 +8,7 @@ But inference is actually *more expensive*, with costs far exceeding training co
 
 The answer is Model Compression! (Taking a trained model and reduce the size of it, pre-deployment))
 1. [[Quantization]]: Reducing the number of bits, with the same architecture/parameter count
-2. [[Model Pruning]]: Remove parts of the model (parameters) while retaining performance
+2. [[Pruning]]: Remove parts of the model (parameters) while retaining performance
 3. [[Distillation]]: Training a smaller model to imitate the bigger model (might change architecture too)
 
 Instead of taking a big model and making it smaller, why not just start with small model and train it from scratch?
@@ -96,7 +96,7 @@ In QLoRA, they use PEFT to train a highly-quantized 4-bit model, and they do a b
 
 Magnitude Pruning
 - The most intuitive way to do this is that if we have a bunch of parameters, some of them are very close to zero, and so we assume they aren't doing anything, and we set them to zero.
-- [[Magnitude Pruning]]![[Pasted image 20240617103641.png]]
+- [[Magnitude-Based Pruning]]![[Pasted image 20240617103641.png]]
 - In [[Machine Translation|MT]], people have seen that you can remove ~half the parameters in your model and still retain the same performance.
 	- This goes back to the thing of over-parametrization, where it's helpful to have a lot of parameters to train your model, but not to do inference, so you can remove them.
 
