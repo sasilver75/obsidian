@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Efficient ML (3) - Pruning and Sparsity Part 1",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md"
+      "basename": "David Silver RL (7) - Policy Gradient Methods",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md"
+    },
+    {
+      "basename": "Temporal Difference Learning",
+      "path": "Temporal Difference Learning.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "David Silver RL (6) - Value Function Approximation",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
+    },
+    {
+      "basename": "Bandit",
+      "path": "Bandit.md"
+    },
+    {
+      "basename": "Off-Policy",
+      "path": "Off-Policy.md"
+    },
+    {
+      "basename": "Efficient ML (3) - Pruning and Sparsity Part 1",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md"
     },
     {
       "basename": "DeepMind",
@@ -161,14 +181,6 @@
       "path": "SARSA.md"
     },
     {
-      "basename": "Temporal Difference Learning",
-      "path": "Temporal Difference Learning.md"
-    },
-    {
-      "basename": "David Silver RL (6) - Value Function Approximation",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
-    },
-    {
       "basename": "David Silver RL (5) -  Model-Free Control",
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "SB-1047",
       "path": "SB-1047.md"
-    },
-    {
-      "basename": "Support Vector Machine",
-      "path": "Support Vector Machine.md"
-    },
-    {
-      "basename": "bfloat16",
-      "path": "bfloat16.md"
-    },
-    {
-      "basename": "float16",
-      "path": "float16.md"
     }
   ],
   "omittedPaths": [],
