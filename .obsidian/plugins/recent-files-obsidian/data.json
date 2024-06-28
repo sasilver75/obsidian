@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Decoding Strategies in Large Language Models",
+      "path": "Articles/Decoding Strategies in Large Language Models.md"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Untitled 2.md"
+    },
+    {
+      "basename": "GPTQ",
+      "path": "GPTQ.md"
+    },
+    {
+      "basename": "Data-Centric AI (3) - Dataset Creation and Curation",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md"
+    },
+    {
+      "basename": "Selection Bias",
+      "path": "Selection Bias.md"
+    },
+    {
+      "basename": "t-SNE",
+      "path": "t-SNE.md"
+    },
+    {
+      "basename": "Diffusion Transformer",
+      "path": "Diffusion Transformer.md"
+    },
+    {
+      "basename": "Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}",
+      "path": "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
       "basename": "Q-Learning",
       "path": "Q-Learning.md"
     },
     {
       "basename": "SARSA",
       "path": "SARSA.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Temporal Difference Learning",
@@ -25,16 +65,8 @@
       "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md"
     },
     {
-      "basename": "GPTQ",
-      "path": "GPTQ.md"
-    },
-    {
       "basename": "LLM.int8()",
       "path": "LLM.int8().md"
-    },
-    {
-      "basename": "Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}",
-      "path": "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md"
     },
     {
       "basename": "Absolute Maximum Quantization",
@@ -167,38 +199,6 @@
     {
       "basename": "The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}",
       "path": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
-      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
-    },
-    {
-      "basename": "Transformer Taxonomy - The last lit review (March 2023) {Kipply }",
-      "path": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
-    },
-    {
-      "basename": "Reinforcement Learning from from AI Feedback",
-      "path": "Reinforcement Learning from from AI Feedback.md"
-    },
-    {
-      "basename": "Neural Radiance Fields",
-      "path": "Neural Radiance Fields.md"
-    },
-    {
-      "basename": "Tree of Thought",
-      "path": "Tree of Thought.md"
-    },
-    {
-      "basename": "MTEB",
-      "path": "MTEB.md"
-    },
-    {
-      "basename": "What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}",
-      "path": "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md"
-    },
-    {
-      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
     }
   ],
   "omittedPaths": [],
