@@ -14,7 +14,7 @@ Symptoms
 Mitigations
 - [[Cross-Validation]] (eg K-Fold Cross-Validation) to ensure the model can perform well on different subsets of the data.
 - Simplify the model, reducing its complexity by selecting fewer parameters or using a less flexible model architecture.
-- Apply regularization techniques like [[L1 Regularization]], [[L2 Regularization]], [[Dropout]], [[Early Stopping]], [[Model Pruning]], [[Data Augmentation]], or ensemble methods.
+- Apply regularization techniques like [[L1 Regularization]], [[L2 Regularization]], [[Dropout]], [[Early Stopping]], [[Pruning]], [[Data Augmentation]], or ensemble methods.
 - Use the same model, but collect more data!
 
 

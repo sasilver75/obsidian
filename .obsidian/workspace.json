@@ -13,7 +13,137 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12d3c7735b2cad96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5794908a521e11c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Percentage-of-Zero-Based Pruning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db2553cb313f443d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a02742892209a3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Second-Order-Based Pruning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd1c91df55a258e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaling-Based Pruning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0c1ebb4715e053b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaling-Based Pruning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef8701d2e4b93284",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6929d5d2eb683f6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f808a9d72a32a636",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pruning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf1265b898493193",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md"
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md"
               }
             }
           },
@@ -207,7 +337,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -256,17 +386,25 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240628122324.png",
-    "_attachments/Pasted image 20240628122149.png",
-    "_attachments/Pasted image 20240628122035.png",
-    "_attachments/Pasted image 20240628122017.png",
-    "_attachments/Pasted image 20240628121902.png",
-    "_attachments/Pasted image 20240628121652.png",
-    "_attachments/Pasted image 20240628121358.png",
-    "_attachments/Pasted image 20240628114418.png",
-    "_attachments/Pasted image 20240628114221.png",
-    "_attachments/Pasted image 20240628024722.png",
-    "_attachments/Pasted image 20240628024710.png",
+    "~ Vocabulary.md",
+    "Percentage-of-Zero-Based Pruning.md",
+    "_attachments/Pasted image 20240628135615.png",
+    "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
+    "_attachments/Pasted image 20240628135514.png",
+    "_attachments/Pasted image 20240628135408.png",
+    "_attachments/Pasted image 20240628135155.png",
+    "Second-Order-Based Pruning.md",
+    "Scaling-Based Pruning.md",
+    "_attachments/Pasted image 20240628135000.png",
+    "_attachments/Pasted image 20240628134955.png",
+    "_attachments/Pasted image 20240628134909.png",
+    "_attachments/Pasted image 20240628134832.png",
+    "_attachments/Pasted image 20240628134744.png",
+    "Distillation.md",
+    "_attachments/Pasted image 20240628134026.png",
+    "Pruning.md",
+    "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
+    "Magnitude-Based Pruning.md",
     "~ Useful Pictures.md",
     "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
     "Layer Normalization.md",
@@ -275,7 +413,6 @@
     "Average Pooling.md",
     "Max Pooling.md",
     "Receptive Field.md",
-    "~ Vocabulary.md",
     "Padding.md",
     "Top-P Sampling.md",
     "Greedy Decoding.md",
@@ -284,14 +421,6 @@
     "Gemma 2.md",
     "Dynabench.md",
     "Selection Bias.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
-    "Synthetic Data.md",
-    "Articles/Decoding Strategies in Large Language Models.md",
-    "Untitled 2.md",
-    "GPTQ.md",
-    "Articles/4-bit LLM Quantization with GPTQ.md",
-    "t-SNE.md",
-    "Diffusion Transformer.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",

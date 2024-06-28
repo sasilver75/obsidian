@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Efficient ML (2) - Basics of Neural Networks",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md"
+      "basename": "Efficient ML (3) - Pruning and Sparsity Part 1",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Percentage-of-Zero-Based Pruning",
+      "path": "Percentage-of-Zero-Based Pruning.md"
+    },
+    {
+      "basename": "Second-Order-Based Pruning",
+      "path": "Second-Order-Based Pruning.md"
+    },
+    {
+      "basename": "Scaling-Based Pruning",
+      "path": "Scaling-Based Pruning.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Pruning",
+      "path": "Pruning.md"
+    },
+    {
+      "basename": "Efficient ML (1) - Introduction",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
+    },
+    {
+      "basename": "Magnitude-Based Pruning",
+      "path": "Magnitude-Based Pruning.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Efficient ML (2) - Basics of Neural Networks",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md"
     },
     {
       "basename": "Layer Normalization",
@@ -31,10 +67,6 @@
     {
       "basename": "Receptive Field",
       "path": "Receptive Field.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Padding",
@@ -137,10 +169,6 @@
       "path": "Claude.md"
     },
     {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
       "basename": "SB-1047",
       "path": "SB-1047.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
-    },
-    {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
-      "basename": "LLaMA 2",
-      "path": "LLaMA 2.md"
-    },
-    {
-      "basename": "UltraInteract",
-      "path": "UltraInteract.md"
-    },
-    {
-      "basename": "IFEval",
-      "path": "IFEval.md"
-    },
-    {
-      "basename": "Weak-to-Strong Generalization",
-      "path": "Weak-to-Strong Generalization.md"
-    },
-    {
-      "basename": "GenQA",
-      "path": "GenQA.md"
-    },
-    {
-      "basename": "Hybrid Search",
-      "path": "Hybrid Search.md"
     }
   ],
   "omittedPaths": [],

@@ -11,7 +11,7 @@ The green line shows computing capacity in modern GPUs, and the red line shows t
 - (Note that there are other ways of increasing aggregate hardware performance, e.g. through parallelization)
 
 Model Compression and Efficient AI aim to compress the model, reducing the complexity of the model via:
-- [[Model Pruning|Pruning]]
+- [[Pruning]]
 - Sparsity
 - [[Quantization]]
 As well as hardware systems that can handle running these techniques.
