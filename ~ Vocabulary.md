@@ -37,6 +37,7 @@
 - [[Loss Function]]
 - [[Bandit]]
 - [[Multi-Armed Bandit]]
+- [[Least-Squares]]
 
 # Analytics/Misc. Modeling
 - [[Type One Error]]
@@ -92,6 +93,7 @@
 - [[Outlier Detection]]
 - [[Coreset Selection]]
 - [[Gradient Descent]]
+- [[Stochastic Gradient Descent]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -213,6 +215,7 @@
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
 - [[Generative Adversarial Network]]
 - [[Adam]]
+- [[AdamW]]
 - [[RMSProp]]
 - [[Adagrad]]
 - [[Residual Connection]]
