@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Decoding Strategies in Large Language Models.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f07bc8314c388e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Top-P Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "953ff9a1027c338f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Greedy Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11de0957386a3dc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -215,8 +254,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -291,7 +329,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +346,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,7 +369,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md"
               }
             }
           },
@@ -364,7 +402,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -411,30 +449,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "236709c5d58e5b93",
+  "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240628012751.png",
+    "_attachments/Pasted image 20240628011107.png",
+    "_attachments/Pasted image 20240628005545.png",
+    "_attachments/Pasted image 20240628004946.png",
+    "_attachments/Pasted image 20240628004904.png",
+    "Synthetic Data.md",
+    "~ Useful Pictures.md",
+    "Top-P Sampling.md",
+    "_attachments/Pasted image 20240628002751.png",
     "Articles/Decoding Strategies in Large Language Models.md",
-    "_attachments/Pasted image 20240627223103.png",
-    "_attachments/Pasted image 20240627221404.png",
+    "_attachments/Pasted image 20240628000557.png",
+    "_attachments/Pasted image 20240628000459.png",
+    "_attachments/Pasted image 20240627235554.png",
+    "Greedy Decoding.md",
+    "_attachments/Pasted image 20240627234906.png",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240627234617.png",
     "Untitled 2.md",
     "GPTQ.md",
     "Articles/4-bit LLM Quantization with GPTQ.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
-    "~ Vocabulary.md",
     "Selection Bias.md",
-    "_attachments/Pasted image 20240627210654.png",
     "t-SNE.md",
     "Diffusion Transformer.md",
     "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md",
     "~ Ideas.md",
-    "Synthetic Data.md",
-    "_attachments/Pasted image 20240627201536.png",
-    "_attachments/Pasted image 20240627195325.png",
-    "_attachments/Pasted image 20240627195223.png",
-    "_attachments/Pasted image 20240627195115.png",
-    "_attachments/Pasted image 20240627194852.png",
-    "_attachments/Pasted image 20240627194556.png",
-    "_attachments/Pasted image 20240627194350.png",
     "Q-Learning.md",
     "SARSA.md",
     "Temporal Difference Learning.md",
@@ -445,9 +487,6 @@
     "Zero-Point Quantization.md",
     "Zero-Shot Prompting.md",
     "Claude.md",
-    "Dynabench.md",
-    "Gemma 2.md",
-    "Distillation.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
