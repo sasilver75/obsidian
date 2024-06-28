@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "1f07bc8314c388e6",
+            "id": "4ed725f3c9b6595a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top-P Sampling.md",
+                "file": "Layer Normalization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "953ff9a1027c338f",
+            "id": "34afcc700e3dbe19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Greedy Decoding.md",
+                "file": "Receptive Field.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,207 +47,12 @@
             }
           },
           {
-            "id": "11de0957386a3dc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "236709c5d58e5b93",
+            "id": "40e92601c0f2c275",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b10509b7dbfe0e39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdf99310803169c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Selection Bias.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24de32adc3dd47aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Selection Bias.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56aabb8ecb0fa41c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19f8b46f7c14a24c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ae5956842cd0e38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b53c2f69ca85fd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edd4850c8e82d6e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Absolute Maximum Quantization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5182665a00b80c4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zero-Point Quantization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "029657f88b49bb23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zero-Point Quantization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94cf72bcc5564fa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32bc8a108c3a7057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "673308f44f8ea304",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemma 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67fb327d7ed39b20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dynabench.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -329,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -346,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -369,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md"
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md"
               }
             }
           },
@@ -402,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
+                "file": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -451,42 +256,42 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240628012751.png",
-    "_attachments/Pasted image 20240628011107.png",
-    "_attachments/Pasted image 20240628005545.png",
-    "_attachments/Pasted image 20240628004946.png",
-    "_attachments/Pasted image 20240628004904.png",
-    "Synthetic Data.md",
+    "_attachments/Pasted image 20240628122324.png",
+    "_attachments/Pasted image 20240628122149.png",
+    "_attachments/Pasted image 20240628122035.png",
+    "_attachments/Pasted image 20240628122017.png",
+    "_attachments/Pasted image 20240628121902.png",
+    "_attachments/Pasted image 20240628121652.png",
+    "_attachments/Pasted image 20240628121358.png",
+    "_attachments/Pasted image 20240628114418.png",
+    "_attachments/Pasted image 20240628114221.png",
+    "_attachments/Pasted image 20240628024722.png",
+    "_attachments/Pasted image 20240628024710.png",
     "~ Useful Pictures.md",
-    "Top-P Sampling.md",
-    "_attachments/Pasted image 20240628002751.png",
-    "Articles/Decoding Strategies in Large Language Models.md",
-    "_attachments/Pasted image 20240628000557.png",
-    "_attachments/Pasted image 20240628000459.png",
-    "_attachments/Pasted image 20240627235554.png",
-    "Greedy Decoding.md",
-    "_attachments/Pasted image 20240627234906.png",
+    "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
+    "Layer Normalization.md",
+    "Batch Normalization.md",
+    "Pooling.md",
+    "Average Pooling.md",
+    "Max Pooling.md",
+    "Receptive Field.md",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240627234617.png",
+    "Padding.md",
+    "Top-P Sampling.md",
+    "Greedy Decoding.md",
+    "Absolute Maximum Quantization.md",
+    "Zero-Point Quantization.md",
+    "Gemma 2.md",
+    "Dynabench.md",
+    "Selection Bias.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
+    "Synthetic Data.md",
+    "Articles/Decoding Strategies in Large Language Models.md",
     "Untitled 2.md",
     "GPTQ.md",
     "Articles/4-bit LLM Quantization with GPTQ.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
-    "Selection Bias.md",
     "t-SNE.md",
     "Diffusion Transformer.md",
-    "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md",
-    "~ Ideas.md",
-    "Q-Learning.md",
-    "SARSA.md",
-    "Temporal Difference Learning.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md",
-    "LLM.int8().md",
-    "Absolute Maximum Quantization.md",
-    "Zero-Point Quantization.md",
-    "Zero-Shot Prompting.md",
-    "Claude.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",

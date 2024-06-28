@@ -195,6 +195,7 @@
 - [[Long Short Term Memory]] (LSTM)
 - [[Gated Recurrent Unit]] (GRU)
 - [[Convolutional Neural Network]]
+- [[Receptive Field]]
 - [[Region-Based Convolutional Neural Network]] (R-CNN)
 - [[Vanishing Gradients]], [[Exploding Gradients]]
 - [[Distillation]]

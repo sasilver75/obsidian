@@ -10,3 +10,4 @@ Applying batching and padding at the same time is called "Dynamic Batching." Thi
 
 ## In Computer Vision Context
 - c.f. [[Same Padding]], [[Zero Padding]]
+![[Pasted image 20240628021406.png]]
