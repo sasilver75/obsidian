@@ -169,8 +169,26 @@ Our ReLU activation function will generate zeros for any inputs less than zero.
 Our task it to determine, among these three RGB channels... which channel we should pruen away?
 - A simple heuristic is just to examine the number of zeroes in the channel -- but we have different batches! So we want to look at this across batches.
 
+[[Percentage-of-Zero-Based Pruning]]
 ![[Pasted image 20240628135514.png]]
 We can define this ==APoZ== metric to determine which channel to prune.
+We count up the zeros in a channel, across elements in a batch, and divide by the (bs times area of kernel).
+The idea is that if we prune away channels that have mostly zero (having the largest ratio, here channel 2), then it will have minimal impact to the final result.
+
+
+In [[Regression-Based Pruning]]
+![[Pasted image 20240628140646.png]]
+We try to minimize the reconstructing layer of the corresponding layer's outputs.
+- We examine one individual layer
+- This is super helpful with LLMs; they're so computationally-expensive. It's super hard to finetune, to run through the whole network and reconstruct the network by backpropagating into each layer. So people designed a smarter method that can do it locally; just looking at one layer.
+- It tries to minimize the change before and after.
+	- Before we had a 2x4 X and a 4x8 W, resulting in a 2x8 output tensor.
+	- No we want to prune one channel, say... If we prune the second channel in the input, that means for the weight matrix, the second channel also becomes useless, since these dimensions correspond.
+	- But how do we determine which channel to prune?
+![[Pasted image 20240628140857.png]]
+The trick we do... is for each out product multiplication in the upper right, we want to have some coefficient that's learnable ($\beta$). We fix W, and solve to learn B. We then fix B, and solve to learn W -- to adjust the weight matrix W... to fit after pruning. ((?))
+
+This is an interesting technique in LLMs, because you don't have to backpropagate all the way to the end; you just have to reconstruct the weights in individual layers. But you can imagine this has drawbacks: You might not have a holistic picture of the entire NN; you're just doing an individual layer -- there's never free lunches!
 
 
 

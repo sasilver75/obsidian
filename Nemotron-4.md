@@ -1,5 +1,5 @@
 June 17, 2024
-[[Nvidia]]
+[[NVIDIA]]
 Paper: [Nemotron-4 340B Technical Report](https://arxiv.org/abs/2406.11704v1)
 
 > "[[Nemotron-4]]'s entire paper is focused on the training of a very good reward model, to then use as their data filterer."
