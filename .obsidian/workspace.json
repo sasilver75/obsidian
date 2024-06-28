@@ -34,6 +34,58 @@
             }
           },
           {
+            "id": "029142bef69bb95c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepMind.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b50ad91acb80b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NVIDIA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c8c205cecbeb84c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3f302e980ba100f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structured Pruning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5794908a521e11c3",
             "type": "leaf",
             "state": {
@@ -386,10 +438,16 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240628140857.png",
+    "_attachments/Pasted image 20240628140646.png",
     "~ Vocabulary.md",
+    "DeepMind.md",
+    "NVIDIA.md",
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
+    "Structured Pruning.md",
     "Percentage-of-Zero-Based Pruning.md",
-    "_attachments/Pasted image 20240628135615.png",
     "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
+    "_attachments/Pasted image 20240628135615.png",
     "_attachments/Pasted image 20240628135514.png",
     "_attachments/Pasted image 20240628135408.png",
     "_attachments/Pasted image 20240628135155.png",
@@ -401,7 +459,6 @@
     "_attachments/Pasted image 20240628134832.png",
     "_attachments/Pasted image 20240628134744.png",
     "Distillation.md",
-    "_attachments/Pasted image 20240628134026.png",
     "Pruning.md",
     "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
     "Magnitude-Based Pruning.md",
@@ -417,10 +474,6 @@
     "Top-P Sampling.md",
     "Greedy Decoding.md",
     "Absolute Maximum Quantization.md",
-    "Zero-Point Quantization.md",
-    "Gemma 2.md",
-    "Dynabench.md",
-    "Selection Bias.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",

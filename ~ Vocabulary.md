@@ -168,11 +168,13 @@
 - [[Activation-Aware Weight Quantization]] (AWQ)
 - [[LLM.int8()]]
 - [[Pruning]]
+- [[Unstructured Pruning]]
 - [[Structured Pruning]]
 - [[Magnitude-Based Pruning]]
 - [[Scaling-Based Pruning]]
 - [[Second-Order-Based Pruning]]
 - [[Percentage-of-Zero-Based Pruning]]
+- [[Regression-Based Pruning]]
 - [[Masking]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
@@ -236,7 +238,8 @@
 - [[Encoder-Decoder Architecture]]
 - [[Neural Architecture Search]]
 - [[Double Descent]]
-- [[Guardrails]], [[Steerability]]
+- [[Guardrails]]
+- [[Steerability]]
 - [[Class Token]] 
 - [[Contrastive Loss]]
 - [[Pre-text Training]] 
@@ -874,7 +877,7 @@
 - [[Google Research]]  🧠
 - [[HuggingFace]] 🤗
 - [[Inflection]] ☠️
-- [[DeepMind]]  🧠
+- [[DeepMind]]  🧠 (➡️ Google DeepMind/GDM)
 - [[Allen Institute]] (AI2)  🎓
 - [[AI21]]  🇮🇱
 - [[Microsoft Research]] (MSR)  🌲
@@ -883,7 +886,7 @@
 - [[Snorkel AI]]  🤿
 - [[Meta AI Research]] (FAIR)  🧑‍💻
 - [[Mistral]]  🇫🇷
-- [[Nvidia]]  💰
+- [[NVIDIA]]  💰
 - [[Center for Research on Foundation Models]] (CRFM)  🔬
 - [[Alignment Research Center]] (ARC)  🙀
 - [[Model Evaluation and Threat Research]] (METR) ❗
@@ -898,7 +901,7 @@
 - [[Contextual]]  📝
 - [[Reka AI]]  ❓
 - [[Alibaba Research]]  🇨🇳💰
-- [[DeepSeek]] 🇨🇳🧑‍💻
+- [[DeepSeek]] 🇨🇳🧑‍🍳
 - [[01.AI]]  🇨🇳
 - [[LAION]]  💽
 - [[National Institute of Standards and Technology]] (NIST)  👮‍♂️

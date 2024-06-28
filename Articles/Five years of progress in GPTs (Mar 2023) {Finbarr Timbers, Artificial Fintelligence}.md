@@ -67,7 +67,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 	- Maybe because this paper came before [[FlashAttention]] and other faster variants of dense attention, they thought dense attention was a computational bottleneck?
 - Architecture
 	- ==They don't provide any details about the computational architecture; how they distributed the model==. The authors claim that it doesn't matter, but this article's author thinks it was for competitive reasons, to make the paper more difficult to reproduce.
-		- In contrast, [[Nvidia]]'s [[Megatron]] was highly influential *because* it went into detail about how it made model parallelism work for their model.
+		- In contrast, [[NVIDIA]]'s [[Megatron]] was highly influential *because* it went into detail about how it made model parallelism work for their model.
 - Used a dataset size of ==45TB== of text.
 - Takeaways
 	- ==It was an incredible advance in capability without a lot of novelty==; they just took their existing methods and scaled it up.
@@ -84,7 +84,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 
 
 ### [[Megatron]]-Turing NLG (September 2019)
-- A highly influential paper from [[Nvidia]] that introduced efficient ==model-parallel architectures==.
+- A highly influential paper from [[NVIDIA]] that introduced efficient ==model-parallel architectures==.
 - ==If you're interviewing for an LLM job today, you're going to be expected to be familiar with it==.
 - Megatron ==introduced tensor parallelism==, a variant of ==model parallelism== that splits the models to allow for intra-layer model parallelism, achieving 76% as efficient as a single GPU baseline.
 - Prior to Megatron, the published SOTA for model parallelism was to use ==model pipelining== (eg GPipe), but this was difficult to do and not well supported by code.

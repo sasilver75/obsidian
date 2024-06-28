@@ -9,6 +9,22 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "DeepMind",
+      "path": "DeepMind.md"
+    },
+    {
+      "basename": "NVIDIA",
+      "path": "NVIDIA.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 11",
+      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
+    },
+    {
+      "basename": "Structured Pruning",
+      "path": "Structured Pruning.md"
+    },
+    {
       "basename": "Percentage-of-Zero-Based Pruning",
       "path": "Percentage-of-Zero-Based Pruning.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "float16",
       "path": "float16.md"
-    },
-    {
-      "basename": "float32",
-      "path": "float32.md"
-    },
-    {
-      "basename": "INT8",
-      "path": "INT8.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "Nemotron-4",
-      "path": "Nemotron-4.md"
     }
   ],
   "omittedPaths": [],
