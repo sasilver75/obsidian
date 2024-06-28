@@ -17,6 +17,7 @@
 - In the Lamini paper, when they're talking about Topic-Guided Instruction Generation, they constrain the topics that they look at because they worry that the long-titled topics are for obscure topics that the instruction-generating model won't know about. Can we use retrieval-augmentation to allow instruction-generating models to generate data?
 - I was talking with LDJ about synthetic data for pretraining, and we were lamenting the fact that pretraining on synthetic data requires that you do twice the number of forward passes of models... I was curious, is there a way of self-alignment on "synthetic" data such that you (eg) beam search out a bunch of sentences, and then use a reward model to pick the best one, and then 
 - https://www.youtube.com/watch?v=607EcmU9mFs&list=PL-Fhd_vrvisMYs8A5j7sj8YW1wHhoJSmW&index=2 This CMU MM course has a TA lecture on how to come up with research ideas in MM
+- https://x.com/jd_pressman/status/1806520905532625084 Using Rejection Sampling and Backtranslation methods to create synthetic datasets?
 
 
 https://x.com/thesephist/status/1734966611814289756?s=20

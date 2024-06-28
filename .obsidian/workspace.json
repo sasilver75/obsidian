@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md",
+                "file": "Articles/Decoding Strategies in Large Language Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "726ba74edb924a54",
+            "id": "236709c5d58e5b93",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +34,51 @@
             }
           },
           {
-            "id": "09bd886f1550a265",
+            "id": "b10509b7dbfe0e39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q-Learning.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdf99310803169c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Selection Bias.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24de32adc3dd47aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Selection Bias.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56aabb8ecb0fa41c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q-Learning.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q-Learning.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +331,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q-Learning.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -325,7 +364,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Q-Learning.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -372,27 +411,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "09bd886f1550a265",
+  "active": "236709c5d58e5b93",
   "lastOpenFiles": [
-    "SARSA.md",
+    "Articles/Decoding Strategies in Large Language Models.md",
+    "_attachments/Pasted image 20240627223103.png",
+    "_attachments/Pasted image 20240627221404.png",
+    "Untitled 2.md",
+    "GPTQ.md",
+    "Articles/4-bit LLM Quantization with GPTQ.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md",
     "~ Vocabulary.md",
+    "Selection Bias.md",
+    "_attachments/Pasted image 20240627210654.png",
+    "t-SNE.md",
+    "Diffusion Transformer.md",
+    "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md",
+    "~ Ideas.md",
+    "Synthetic Data.md",
+    "_attachments/Pasted image 20240627201536.png",
+    "_attachments/Pasted image 20240627195325.png",
+    "_attachments/Pasted image 20240627195223.png",
+    "_attachments/Pasted image 20240627195115.png",
+    "_attachments/Pasted image 20240627194852.png",
+    "_attachments/Pasted image 20240627194556.png",
+    "_attachments/Pasted image 20240627194350.png",
     "Q-Learning.md",
-    "_attachments/Pasted image 20240627185925.png",
-    "_attachments/Pasted image 20240627184515.png",
-    "_attachments/Pasted image 20240627184453.png",
+    "SARSA.md",
     "Temporal Difference Learning.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
-    "_attachments/Pasted image 20240627184409.png",
-    "_attachments/Pasted image 20240627184008.png",
-    "_attachments/Pasted image 20240627183059.png",
-    "_attachments/Pasted image 20240627175956.png",
-    "_attachments/Pasted image 20240627175949.png",
-    "_attachments/Pasted image 20240627175718.png",
-    "_attachments/Pasted image 20240627175604.png",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md",
-    "GPTQ.md",
     "LLM.int8().md",
-    "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md",
     "Absolute Maximum Quantization.md",
     "Zero-Point Quantization.md",
     "Zero-Shot Prompting.md",
@@ -400,16 +448,6 @@
     "Dynabench.md",
     "Gemma 2.md",
     "Distillation.md",
-    "SB-1047.md",
-    "Support Vector Machine.md",
-    "bfloat16.md",
-    "float16.md",
-    "float32.md",
-    "INT8.md",
-    "Direct Preference Optimization.md",
-    "~ Useful Pictures.md",
-    "Padding.md",
-    "Nemotron-4.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",

@@ -94,6 +94,7 @@
 - [[Coreset Selection]]
 - [[Gradient Descent]]
 - [[Stochastic Gradient Descent]]
+- [[Selection Bias]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -154,6 +155,7 @@
 - [[Diffusion Model]]
 - [[Latent Diffusion Model]]
 - [[Latent Consistency Model]]
+- [[Diffusion Transformer]] (DiT)
 - [[Parameter-Efficient Fine-Tuning]] (PEFT)
 - [[Adapter]]
 - [[Adapter Fusion]]
@@ -321,6 +323,7 @@
 - [[Reinforced Self-Training]] (ReST/$ReST^{EM}$)
 - [[Rejection Sampling]]
 - [[Best-of-N Sampling]]
+- [[Steering Vector]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
