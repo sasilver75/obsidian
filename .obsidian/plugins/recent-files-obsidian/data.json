@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "Efficient ML (2) - Basics of Neural Networks",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Layer Normalization",
+      "path": "Layer Normalization.md"
+    },
+    {
+      "basename": "Batch Normalization",
+      "path": "Batch Normalization.md"
+    },
+    {
+      "basename": "Pooling",
+      "path": "Pooling.md"
+    },
+    {
+      "basename": "Average Pooling",
+      "path": "Average Pooling.md"
+    },
+    {
+      "basename": "Max Pooling",
+      "path": "Max Pooling.md"
+    },
+    {
+      "basename": "Receptive Field",
+      "path": "Receptive Field.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Padding",
+      "path": "Padding.md"
+    },
+    {
+      "basename": "Top-P Sampling",
+      "path": "Top-P Sampling.md"
+    },
+    {
+      "basename": "Greedy Decoding",
+      "path": "Greedy Decoding.md"
+    },
+    {
+      "basename": "Absolute Maximum Quantization",
+      "path": "Absolute Maximum Quantization.md"
+    },
+    {
+      "basename": "Zero-Point Quantization",
+      "path": "Zero-Point Quantization.md"
+    },
+    {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
+    },
+    {
+      "basename": "Dynabench",
+      "path": "Dynabench.md"
+    },
+    {
+      "basename": "Selection Bias",
+      "path": "Selection Bias.md"
+    },
+    {
       "basename": "Data-Centric AI (3) - Dataset Creation and Curation",
       "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md"
     },
@@ -9,24 +77,8 @@
       "path": "Synthetic Data.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Top-P Sampling",
-      "path": "Top-P Sampling.md"
-    },
-    {
       "basename": "Decoding Strategies in Large Language Models",
       "path": "Articles/Decoding Strategies in Large Language Models.md"
-    },
-    {
-      "basename": "Greedy Decoding",
-      "path": "Greedy Decoding.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Untitled 2",
@@ -35,10 +87,6 @@
     {
       "basename": "GPTQ",
       "path": "GPTQ.md"
-    },
-    {
-      "basename": "Selection Bias",
-      "path": "Selection Bias.md"
     },
     {
       "basename": "t-SNE",
@@ -81,28 +129,12 @@
       "path": "LLM.int8().md"
     },
     {
-      "basename": "Absolute Maximum Quantization",
-      "path": "Absolute Maximum Quantization.md"
-    },
-    {
-      "basename": "Zero-Point Quantization",
-      "path": "Zero-Point Quantization.md"
-    },
-    {
       "basename": "Zero-Shot Prompting",
       "path": "Zero-Shot Prompting.md"
     },
     {
       "basename": "Claude",
       "path": "Claude.md"
-    },
-    {
-      "basename": "Dynabench",
-      "path": "Dynabench.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
     },
     {
       "basename": "Distillation",
@@ -137,10 +169,6 @@
       "path": "Direct Preference Optimization.md"
     },
     {
-      "basename": "Padding",
-      "path": "Padding.md"
-    },
-    {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Hybrid Search",
       "path": "Hybrid Search.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
-    },
-    {
-      "basename": "Best-of-N Sampling",
-      "path": "Best-of-N Sampling.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "Markov Assumption",
-      "path": "Markov Assumption.md"
-    },
-    {
-      "basename": "Model Predictive Control",
-      "path": "Model Predictive Control.md"
-    },
-    {
-      "basename": "Process Reward Model",
-      "path": "Process Reward Model.md"
-    },
-    {
-      "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
-      "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
     }
   ],
   "omittedPaths": [],
