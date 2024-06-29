@@ -1,3 +1,25 @@
+The first step of Policy Iteration is Policy Evaluation, where we fix a policy and determine what the state-value function V of the policy is.
+![[Pasted image 20240629000524.png|400]]
+After convergence, for all $s \in S$ we have an estimation of our policy's associated state-value function.
+![[Pasted image 20240629000840.png]]
+Equation 2 is correct for computing the value of a *stochastic* policy.
+
+In Policy Iteration
+- We have a policy
+- We evaluate it
+- We use the evaluation to make an improvement to the policy
+- We evaluate the new policy
+- ... (until convergence)
+
+![[Pasted image 20240629001042.png]]
+The new policy gets to maximize over actions. We look at the action in state $s$ that maximizes, averaged over s' stages, the reward we get immediately, and the discounted sum of future rewards we'd get if we followed policy $\pi_k$ from then on, from s'.
+- At (guaranteed) convergence, we have optimal policy. This converges faster than value iteration under some conditions.
+![[Pasted image 20240629001407.png]]
+
+
+
+
+
 
 ==Policy Iteration==
 - To find $\pi_*$ and $v_*$

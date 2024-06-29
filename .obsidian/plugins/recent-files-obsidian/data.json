@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Stat110 Probability (1) - Probability and Counting",
-      "path": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
+    },
+    {
+      "basename": "Mutual Information",
+      "path": "Mutual Information.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
+    },
+    {
+      "basename": "Policy Iteration",
+      "path": "Policy Iteration.md"
+    },
+    {
+      "basename": "Value Iteration",
+      "path": "Value Iteration.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Low-Rank Adaptation",
+      "path": "Low-Rank Adaptation.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Stat110 Probability (1) - Probability and Counting",
+      "path": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
     },
     {
       "basename": "Leverage",
@@ -59,10 +87,6 @@
     {
       "basename": "Scaling-Based Pruning",
       "path": "Scaling-Based Pruning.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Layer Normalization",
@@ -175,30 +199,6 @@
     {
       "basename": "Untitled 2",
       "path": "Untitled 2.md"
-    },
-    {
-      "basename": "GPTQ",
-      "path": "GPTQ.md"
-    },
-    {
-      "basename": "t-SNE",
-      "path": "t-SNE.md"
-    },
-    {
-      "basename": "Diffusion Transformer",
-      "path": "Diffusion Transformer.md"
-    },
-    {
-      "basename": "Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}",
-      "path": "Articles/Introduction to Weight Quantization (July 7, 2023) {Maxime Labonne}.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Q-Learning",
-      "path": "Q-Learning.md"
     }
   ],
   "omittedPaths": [],
