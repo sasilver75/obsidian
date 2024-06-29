@@ -11,8 +11,39 @@
             "id": "8b6e635ae93c7ebe",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "547de71d2f747f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac5d96649d8a1b54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "David Luan.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -114,7 +145,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,6 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "David Luan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,6 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "David Luan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +260,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "David Luan.md"
+              }
             }
           },
           {
@@ -258,6 +294,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "David Luan.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -304,8 +341,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8b6e635ae93c7ebe",
+  "active": "ac5d96649d8a1b54",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240629104112.png",
+    "~ Vocabulary.md",
+    "David Luan.md",
+    "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md",
+    "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Kullback-Leibler Divergence.md",
     "Mutual Information.md",
     "Entropy.md",
@@ -313,7 +355,6 @@
     "Policy Iteration.md",
     "_attachments/Pasted image 20240629001407.png",
     "Value Iteration.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240629001042.png",
     "_attachments/Pasted image 20240629001040.png",
     "_attachments/Pasted image 20240629000840.png",
@@ -340,9 +381,6 @@
     "Structured Pruning.md",
     "Percentage-of-Zero-Based Pruning.md",
     "Scaling-Based Pruning.md",
-    "Layer Normalization.md",
-    "Receptive Field.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
@@ -350,7 +388,6 @@
     "Courses/CS236 Deep Generative Models @ Stanford (2023)",
     "Courses/HuggingFace NLP",
     "Courses/Misc Tutorials",
-    "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)"
+    "Courses/CS 11-777 Multimodal ML @ CMU (2023)"
   ]
 }
