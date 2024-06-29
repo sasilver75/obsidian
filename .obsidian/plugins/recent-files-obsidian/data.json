@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "David Silver RL (7) - Policy Gradient Methods",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md"
-    },
-    {
-      "basename": "Temporal Difference Learning",
-      "path": "Temporal Difference Learning.md"
+      "basename": "Stat110 Probability (1) - Probability and Counting",
+      "path": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Leverage",
+      "path": "Leverage.md"
+    },
+    {
+      "basename": "Data-Centric AI (4) - Data-centric Evaluation of ML Models",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-centric Evaluation of ML Models.md"
+    },
+    {
+      "basename": "Cook's Distance",
+      "path": "Cook's Distance.md"
+    },
+    {
+      "basename": "Outlier Detection",
+      "path": "Outlier Detection.md"
+    },
+    {
+      "basename": "ROC-AUC",
+      "path": "ROC-AUC.md"
     },
     {
       "basename": "David Silver RL (6) - Value Function Approximation",
@@ -19,14 +35,6 @@
     {
       "basename": "Bandit",
       "path": "Bandit.md"
-    },
-    {
-      "basename": "Off-Policy",
-      "path": "Off-Policy.md"
-    },
-    {
-      "basename": "Efficient ML (3) - Pruning and Sparsity Part 1",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md"
     },
     {
       "basename": "DeepMind",
@@ -49,12 +57,40 @@
       "path": "Percentage-of-Zero-Based Pruning.md"
     },
     {
-      "basename": "Second-Order-Based Pruning",
-      "path": "Second-Order-Based Pruning.md"
-    },
-    {
       "basename": "Scaling-Based Pruning",
       "path": "Scaling-Based Pruning.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Layer Normalization",
+      "path": "Layer Normalization.md"
+    },
+    {
+      "basename": "Receptive Field",
+      "path": "Receptive Field.md"
+    },
+    {
+      "basename": "David Silver RL (7) - Policy Gradient Methods",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md"
+    },
+    {
+      "basename": "Temporal Difference Learning",
+      "path": "Temporal Difference Learning.md"
+    },
+    {
+      "basename": "Off-Policy",
+      "path": "Off-Policy.md"
+    },
+    {
+      "basename": "Efficient ML (3) - Pruning and Sparsity Part 1",
+      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md"
+    },
+    {
+      "basename": "Second-Order-Based Pruning",
+      "path": "Second-Order-Based Pruning.md"
     },
     {
       "basename": "Distillation",
@@ -73,16 +109,8 @@
       "path": "Magnitude-Based Pruning.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
       "basename": "Efficient ML (2) - Basics of Neural Networks",
       "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md"
-    },
-    {
-      "basename": "Layer Normalization",
-      "path": "Layer Normalization.md"
     },
     {
       "basename": "Batch Normalization",
@@ -99,10 +127,6 @@
     {
       "basename": "Max Pooling",
       "path": "Max Pooling.md"
-    },
-    {
-      "basename": "Receptive Field",
-      "path": "Receptive Field.md"
     },
     {
       "basename": "Padding",
@@ -175,30 +199,6 @@
     {
       "basename": "Q-Learning",
       "path": "Q-Learning.md"
-    },
-    {
-      "basename": "SARSA",
-      "path": "SARSA.md"
-    },
-    {
-      "basename": "David Silver RL (5) -  Model-Free Control",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (5) -  Model-Free Control.md"
-    },
-    {
-      "basename": "LLM.int8()",
-      "path": "LLM.int8().md"
-    },
-    {
-      "basename": "Zero-Shot Prompting",
-      "path": "Zero-Shot Prompting.md"
-    },
-    {
-      "basename": "Claude",
-      "path": "Claude.md"
-    },
-    {
-      "basename": "SB-1047",
-      "path": "SB-1047.md"
     }
   ],
   "omittedPaths": [],

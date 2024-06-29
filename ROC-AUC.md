@@ -1,6 +1,7 @@
 ---
 aliases:
   - Area under Curve
+  - AUROC
 ---
 "Area under the Curve" of a [[ROC Curve]]
 

@@ -13,7 +13,93 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
+                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "feee9e3826ca71b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9b76e006434e3c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fe4033fe5a32bf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cook's Distance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7ccf07f79a19fb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Outlier Detection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcf251fb81cc683d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "2673a5694f4d77ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROC-AUC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c733843690ca049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -22,266 +108,6 @@
           },
           {
             "id": "c9aedecc9b9c3d31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5ba3be4bb003a54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15d8a02be95dbb41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ee2959939e4b77f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bandit.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12d3c7735b2cad96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "029142bef69bb95c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DeepMind.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b50ad91acb80b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NVIDIA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c8c205cecbeb84c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3f302e980ba100f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Structured Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5794908a521e11c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Percentage-of-Zero-Based Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db2553cb313f443d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a02742892209a3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Second-Order-Based Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd1c91df55a258e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaling-Based Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0c1ebb4715e053b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaling-Based Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef8701d2e4b93284",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6929d5d2eb683f6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f808a9d72a32a636",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf1265b898493193",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ed725f3c9b6595a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Layer Normalization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34afcc700e3dbe19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Receptive Field.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40e92601c0f2c275",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -368,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
+                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -385,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
+                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -408,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md"
+                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
               }
             }
           },
@@ -441,7 +267,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
+                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -490,42 +316,43 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240628163253.png",
-    "_attachments/Pasted image 20240628163233.png",
-    "_attachments/Pasted image 20240628163023.png",
-    "_attachments/Pasted image 20240628163013.png",
-    "_attachments/Pasted image 20240628162946.png",
-    "_attachments/Pasted image 20240628162657.png",
-    "Temporal Difference Learning.md",
+    "_attachments/Pasted image 20240628191005.png",
+    "_attachments/Pasted image 20240628190210.png",
     "~ Vocabulary.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
-    "_attachments/Pasted image 20240628162254.png",
-    "_attachments/Pasted image 20240628162141.png",
+    "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
+    "_attachments/Pasted image 20240628185546.png",
+    "Leverage.md",
+    "Courses/Stat110 Probability @ Harvard (2013)",
+    "Courses/STAT110 Probability.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-centric Evaluation of ML Models.md",
+    "Cook's Distance.md",
+    "Outlier Detection.md",
+    "_attachments/Pasted image 20240628180414.png",
+    "_attachments/Pasted image 20240628174750.png",
+    "_attachments/Pasted image 20240628172152.png",
+    "_attachments/Pasted image 20240628171918.png",
+    "_attachments/Pasted image 20240628171804.png",
+    "_attachments/Pasted image 20240628171523.png",
+    "_attachments/Pasted image 20240628171432.png",
+    "_attachments/Pasted image 20240628170633.png",
+    "ROC-AUC.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
-    "_attachments/Pasted image 20240628161447.png",
-    "_attachments/Pasted image 20240628160416.png",
-    "_attachments/Pasted image 20240628160141.png",
     "Bandit.md",
-    "Off-Policy.md",
-    "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
     "DeepMind.md",
     "NVIDIA.md",
     "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
     "Structured Pruning.md",
     "Percentage-of-Zero-Based Pruning.md",
-    "Second-Order-Based Pruning.md",
     "Scaling-Based Pruning.md",
-    "Distillation.md",
-    "Pruning.md",
-    "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md",
-    "Magnitude-Based Pruning.md",
     "~ Useful Pictures.md",
-    "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md",
     "Layer Normalization.md",
-    "Batch Normalization.md",
-    "Pooling.md",
-    "Average Pooling.md",
-    "Max Pooling.md",
+    "Receptive Field.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
+    "Temporal Difference Learning.md",
+    "Off-Policy.md",
+    "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
+    "Second-Order-Based Pruning.md",
+    "Distillation.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",
@@ -534,7 +361,6 @@
     "Courses/HuggingFace NLP",
     "Courses/Misc Tutorials",
     "Courses/CS 11-777 Multimodal ML @ CMU (2023)",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)",
-    "Excalidraw"
+    "Courses/CS 11-711 Advanced NLP @ CMU (2024)"
   ]
 }

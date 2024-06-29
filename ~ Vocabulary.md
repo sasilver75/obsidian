@@ -38,6 +38,9 @@
 - [[Bandit]]
 - [[Multi-Armed Bandit]]
 - [[Least-Squares]]
+- [[Accuracy]]
+- [[Balanced Accuracy]]
+- [[Binomial Coefficient]]
 
 # Analytics/Misc. Modeling
 - [[Type One Error]]
@@ -95,6 +98,9 @@
 - [[Gradient Descent]]
 - [[Stochastic Gradient Descent]]
 - [[Selection Bias]]
+- [[Cook's Distance]] (Cook's D)
+- [[Outlier]]
+- [[Leverage]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
