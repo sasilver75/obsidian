@@ -74,7 +74,7 @@ He calls this a *sampling table*:
 |                                                                             |                                     |                      |
 We don't want to memorize the table above, we want to understand how each of these follow from the multiplication rule.
 - The top-right one is the only one that's much more subtle, but still useful.
-
+ 
 
 
 

@@ -11,13 +11,8 @@
             "id": "8b6e635ae93c7ebe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -112,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Value Iteration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -194,7 +189,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +205,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,9 +226,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
-              }
+              "state": {}
             }
           },
           {
@@ -267,7 +258,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -316,25 +306,31 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240628191005.png",
-    "_attachments/Pasted image 20240628190210.png",
+    "Kullback-Leibler Divergence.md",
+    "Mutual Information.md",
+    "Entropy.md",
+    "_attachments/Pasted image 20240629001745.png",
+    "Policy Iteration.md",
+    "_attachments/Pasted image 20240629001407.png",
+    "Value Iteration.md",
     "~ Vocabulary.md",
+    "_attachments/Pasted image 20240629001042.png",
+    "_attachments/Pasted image 20240629001040.png",
+    "_attachments/Pasted image 20240629000840.png",
+    "_attachments/Pasted image 20240629000524.png",
+    "_attachments/Pasted image 20240629000058.png",
+    "_attachments/Pasted image 20240628235834.png",
+    "_attachments/Pasted image 20240628233848.png",
+    "_attachments/Pasted image 20240628233314.png",
+    "Low-Rank Adaptation.md",
+    "~ Useful Pictures.md",
     "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
-    "_attachments/Pasted image 20240628185546.png",
     "Leverage.md",
     "Courses/Stat110 Probability @ Harvard (2013)",
     "Courses/STAT110 Probability.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-centric Evaluation of ML Models.md",
     "Cook's Distance.md",
     "Outlier Detection.md",
-    "_attachments/Pasted image 20240628180414.png",
-    "_attachments/Pasted image 20240628174750.png",
-    "_attachments/Pasted image 20240628172152.png",
-    "_attachments/Pasted image 20240628171918.png",
-    "_attachments/Pasted image 20240628171804.png",
-    "_attachments/Pasted image 20240628171523.png",
-    "_attachments/Pasted image 20240628171432.png",
-    "_attachments/Pasted image 20240628170633.png",
     "ROC-AUC.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
     "Bandit.md",
@@ -344,15 +340,9 @@
     "Structured Pruning.md",
     "Percentage-of-Zero-Based Pruning.md",
     "Scaling-Based Pruning.md",
-    "~ Useful Pictures.md",
     "Layer Normalization.md",
     "Receptive Field.md",
     "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md",
-    "Temporal Difference Learning.md",
-    "Off-Policy.md",
-    "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md",
-    "Second-Order-Based Pruning.md",
-    "Distillation.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",

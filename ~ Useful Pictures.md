@@ -1,3 +1,5 @@
+![[Pasted image 20240628215835.png]]
+(Rules about tensor broadcast in PyTorch/Numpy)
 ![[Pasted image 20240628124210.png|400]]
 ![[Pasted image 20240628002751.png]]
 ![[Pasted image 20240615152744.png]]
