@@ -53,7 +53,7 @@ When we have a massive unlabeled dataset and the thing that we care about is onl
 
 ![[Pasted image 20240630121833.png]]
 [[SEALS]]
-- We might have 10 billion images at Facebook collected over a single span! Just running a single inference pass with a ResNEt-50 model takes 38 exaFFLOPs of computation, or 40 GPU-months using P100 GPUs! The compute costs along of processing that amount of unlabeled data is going to dominate your costs, and it may be too slow!
+- We might have 10 billion images at Facebook collected over a single span! Just running a single inference pass with a ResNEt-50 model takes 38 exaFFLOPs of computation, or 40 GPU-months using P100 GPUs! The compute costs along of processing that amount of unlabeled data is going to dominate your costs, and it may be too slow! 
 You don't actually have to look at all of your data in order to process it!
 - Instead, what we can do is start the same way, with a large pool of unlabeled examples, and a small subset of labeled examples that we train an initial model with.
 ![[Pasted image 20240630121905.png]]
