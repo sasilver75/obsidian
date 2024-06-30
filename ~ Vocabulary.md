@@ -47,7 +47,8 @@
 - [[Type Two Error]]
 - [[Precision]]
 - [[Recall]]
-- [[Covariate Shift]]
+- [[Covariate Shift]] (Distribution Shift)
+- [[Concept Shift]]
 - [[Regularization]]
 	- [[L1 Regularization]]
 	- [[L2 Regularization]] ([[L2 Regularization|Weight Decay]])
@@ -57,6 +58,7 @@
 - [[Bootstrap Aggregation]]
 - [[Beam Search]]
 - [[F1 Score]]
+- [[F-Beta Score]]
 - [[ROC Curve]] (Received Operating Characteristic)
 - [[ROC-AUC]] (ROC Area under Curve)
 - [[Precision-Recall Curve]] (PR Curve)
@@ -94,6 +96,7 @@
 - [[Manhattan Distance]]
 - [[Goodhardt's Law]]
 - [[Outlier Detection]]
+- [[Anomaly Detection]]
 - [[Coreset Selection]]
 - [[Gradient Descent]]
 - [[Stochastic Gradient Descent]]
@@ -101,6 +104,9 @@
 - [[Cook's Distance]] (Cook's D)
 - [[Outlier]]
 - [[Leverage]]
+- [[Sample Weights]]
+- [[Balanced Mini-Batch Training]]
+- [[Isolation Forest]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -268,6 +274,7 @@
 - [[Negative Pair]]
 - [[Mode Collapse]]
 - [[Active Learning]]
+- [[SEALS]]
 - [[Prior Amplification]]
 - [[Prefix Tuning]]
 - Compute-Optimal Training

@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Hard Negative Mining",
+      "path": "Hard Negative Mining.md"
+    },
+    {
+      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
+    },
+    {
+      "basename": "Active Learning",
+      "path": "Active Learning.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "CIFAR-10",
+      "path": "CIFAR-10.md"
+    },
+    {
+      "basename": "MNIST",
+      "path": "MNIST.md"
+    },
+    {
+      "basename": "SEALS",
+      "path": "SEALS.md"
+    },
+    {
       "basename": "Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift",
       "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md"
+    },
+    {
+      "basename": "Covariate Shift",
+      "path": "Covariate Shift.md"
+    },
+    {
+      "basename": "Concept Shift",
+      "path": "Concept Shift.md"
+    },
+    {
+      "basename": "Outlier Detection",
+      "path": "Outlier Detection.md"
+    },
+    {
+      "basename": "Isolation Forest",
+      "path": "Isolation Forest.md"
+    },
+    {
+      "basename": "F-Beta Score",
+      "path": "F-Beta Score.md"
     },
     {
       "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
@@ -19,10 +67,6 @@
     {
       "basename": "Foundations of Deep RL (1) - MDPs and Exact Solution Methods",
       "path": "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Ivan Zhang",
@@ -47,10 +91,6 @@
     {
       "basename": "Value Iteration",
       "path": "Value Iteration.md"
-    },
-    {
-      "basename": "Outlier Detection",
-      "path": "Outlier Detection.md"
     },
     {
       "basename": "Cook's Distance",
@@ -159,46 +199,6 @@
     {
       "basename": "Off-Policy",
       "path": "Off-Policy.md"
-    },
-    {
-      "basename": "Efficient ML (3) - Pruning and Sparsity Part 1",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (3) - Pruning and Sparsity Part 1.md"
-    },
-    {
-      "basename": "Second-Order-Based Pruning",
-      "path": "Second-Order-Based Pruning.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "Pruning",
-      "path": "Pruning.md"
-    },
-    {
-      "basename": "Efficient ML (1) - Introduction",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (1) - Introduction.md"
-    },
-    {
-      "basename": "Magnitude-Based Pruning",
-      "path": "Magnitude-Based Pruning.md"
-    },
-    {
-      "basename": "Efficient ML (2) - Basics of Neural Networks",
-      "path": "Courses/EfficientML @ MIT (2023)/Efficient ML (2) - Basics of Neural Networks.md"
-    },
-    {
-      "basename": "Batch Normalization",
-      "path": "Batch Normalization.md"
-    },
-    {
-      "basename": "Pooling",
-      "path": "Pooling.md"
-    },
-    {
-      "basename": "Average Pooling",
-      "path": "Average Pooling.md"
     }
   ],
   "omittedPaths": [],
