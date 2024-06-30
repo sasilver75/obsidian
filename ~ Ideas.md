@@ -18,6 +18,10 @@
 - I was talking with LDJ about synthetic data for pretraining, and we were lamenting the fact that pretraining on synthetic data requires that you do twice the number of forward passes of models... I was curious, is there a way of self-alignment on "synthetic" data such that you (eg) beam search out a bunch of sentences, and then use a reward model to pick the best one, and then 
 - https://www.youtube.com/watch?v=607EcmU9mFs&list=PL-Fhd_vrvisMYs8A5j7sj8YW1wHhoJSmW&index=2 This CMU MM course has a TA lecture on how to come up with research ideas in MM
 - https://x.com/jd_pressman/status/1806520905532625084 Using Rejection Sampling and Backtranslation methods to create synthetic datasets?
+- https://youtu.be/B45s_qWYUt8?si=R5GLWXTiBAwV9ImR&t=345 Doing search over synthetically generated prompts to find prompts that (verifiably? By a judge?) break the model, and then using training to "fix" that break.
+	- "Because of Synthetic data, we've seen a total modal collapse of the "personality" of many models, since everyone is basically training on frontier model outputs. For Command R+, people say the model feels different/special, and that's not any magic they did at Cohere -- they just didn't do what everyone else does, which is train on the model outputs of OpenAI. No 'unraveling them mysteries,' no 'diving into the complexities,' etc."
+	- "Is [the modal collapse of LM personalities...] because they're eating eachother's poop?" "Yeah, it's some sort of human centipede effect... Everything collapsing into [GPT-'4's] personality."
+	- "Synthetic data methods that find more useful synthetic data... that are compelling at search, to automatically discover weak points of models, and closet those gaps."
 
 
 https://x.com/thesephist/status/1734966611814289756?s=20

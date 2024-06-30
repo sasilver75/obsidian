@@ -53,7 +53,6 @@
 	- [[L2 Regularization]] ([[L2 Regularization|Weight Decay]])
 - [[Consistency Regularization]]
 - [[One-Hot Encoding]]
-- [[t-SNE]]
 - [[Bootstrap]]
 - [[Bootstrap Aggregation]]
 - [[Beam Search]]
@@ -71,8 +70,6 @@
 - [[Monte-Carlo Tree Search]]
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
-- [[K-Means Clustering]]
-- [[K-Nearest Neighbors]] (kNN) 
 - [[Naive Bayes]]
 - [[Gradient Boosting Machine]] (GBM)
 - [[Classification]]
@@ -82,7 +79,10 @@
 - [[Validation Dataset]]
 - [[Test Dataset]]
 - [[Cross-Validation]]
+- [[K-Nearest Neighbors]] (kNN) 
+- [[K-Means Clustering]]
 - [[UMAP]]
+- [[t-SNE]]
 - [[DBSCAN]]
 - [[Cloze]]
 - [[Inverse Cloze]]
@@ -565,6 +565,9 @@
 -  [[Reinforcement Learning from Human Feedback]]
 - [[Epsilon-Greedy]]
 - [[Model Predictive Control]] (MPC)
+- [[Sample-Based Planning]]
+- [[Dyna-Q]]
+- 
 
 # Models
 - [[AlphaGo]]
@@ -983,6 +986,9 @@
 - [[Georgei Gerganov]] 📦
 - [[Benjamin Clavié]] 🇫🇷🍝
 - [[David Luan]] 🤖
+- [[Aidan Gomez]] 🇨🇦
+- [[Ivan Zhang]] 🇨🇦
+- [[Nick Frosst]] 🇨🇦
 
 
 # Policy
