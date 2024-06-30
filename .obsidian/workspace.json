@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -316,7 +316,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,7 +356,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md"
               }
             }
           },
@@ -389,7 +389,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -438,9 +438,10 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md",
     "Hard Negative Mining.md",
     "Active Learning.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
     "_attachments/Pasted image 20240630124512.png",
     "_attachments/Pasted image 20240630124503.png",
     "~ Vocabulary.md",
@@ -473,7 +474,6 @@
     "Value Iteration.md",
     "Cook's Distance.md",
     "Model-Based.md",
-    "~ Ideas.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
     "Courses/EfficientML @ MIT (2023)",
