@@ -13,7 +13,215 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
+                "file": "Hard Negative Mining.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a310f1635e351388",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Active Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20fb71cd174d6137",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28d92bca3426330c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEALS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc2766d90e6a4ef0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Active Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6d5f4a2a2b8b41f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Active Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "286be83b4186f0f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Covariate Shift.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0867cd44272b9ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concept Shift.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b4d12866a160583",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concept Shift.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bf7d859995cabbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "468c7d2afd589e69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Outlier Detection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "078ec84405bae755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0ba3fbe177842c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Isolation Forest.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a704a3d8ae11482d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "533988da02187834",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "555ceb0fedbaa6f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b9c32db8ee5267f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F-Beta Score.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +316,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
+                "file": "Hard Negative Mining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
+                "file": "Hard Negative Mining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +356,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md"
+                "file": "Hard Negative Mining.md"
               }
             }
           },
@@ -181,7 +389,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
+                "file": "Hard Negative Mining.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,43 +438,42 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+    "Active Learning.md",
+    "_attachments/Pasted image 20240630124512.png",
+    "_attachments/Pasted image 20240630124503.png",
+    "~ Vocabulary.md",
+    "CIFAR-10.md",
+    "_attachments/Pasted image 20240630124231.png",
+    "MNIST.md",
+    "_attachments/Pasted image 20240630124124.png",
+    "_attachments/Pasted image 20240630123845.png",
+    "SEALS.md",
+    "_attachments/Pasted image 20240630122858.png",
+    "_attachments/Pasted image 20240630122841.png",
+    "_attachments/Pasted image 20240630122657.png",
+    "_attachments/Pasted image 20240630122613.png",
+    "_attachments/Pasted image 20240630121905.png",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
+    "Covariate Shift.md",
+    "Concept Shift.md",
+    "Outlier Detection.md",
+    "Isolation Forest.md",
+    "F-Beta Score.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
     "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
     "Cohere.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md",
-    "~ Vocabulary.md",
     "Ivan Zhang.md",
     "Nick Frosst.md",
     "Aidan Gomez.md",
     "K-Means Clustering.md",
     "ROC-AUC.md",
     "Value Iteration.md",
-    "Outlier Detection.md",
     "Cook's Distance.md",
     "Model-Based.md",
-    "_attachments/Pasted image 20240629210251.png",
-    "_attachments/Pasted image 20240629210248.png",
-    "_attachments/Pasted image 20240629210223.png",
-    "_attachments/Pasted image 20240629210144.png",
-    "_attachments/Pasted image 20240629210057.png",
     "~ Ideas.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (8) - Integrating Learning and Planning.md",
-    "_attachments/Pasted image 20240629131850.png",
-    "_attachments/Pasted image 20240629131751.png",
-    "_attachments/Pasted image 20240629131527.png",
-    "_attachments/Pasted image 20240629131517.png",
-    "_attachments/Pasted image 20240629131501.png",
-    "K-Nearest Neighbors.md",
-    "David Luan.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
-    "Kullback-Leibler Divergence.md",
-    "Mutual Information.md",
-    "Entropy.md",
-    "Policy Iteration.md",
-    "Low-Rank Adaptation.md",
-    "~ Useful Pictures.md",
-    "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
     "Courses/Stat110 Probability @ Harvard (2013)",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",

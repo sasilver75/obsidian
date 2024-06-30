@@ -1,5 +1,11 @@
+---
+aliases:
+  - Hard Example Mining
+---
 Resources:
 - Eugene Yan's [More Design Patterns for Machine Learning](https://eugeneyan.com/writing/more-patterns/?utm_source=convertkit&utm_medium=email&utm_campaign=2023+Year+in+Review%20-%2012699108)
+
+
 
 
 Hard mining can be considered an extension of data augmentation where we find or generate challenging data points to train the model on.
