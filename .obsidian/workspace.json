@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -32,121 +32,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ac5d96649d8a1b54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "David Luan.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "feee9e3826ca71b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9b76e006434e3c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2fe4033fe5a32bf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cook's Distance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7ccf07f79a19fb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Outlier Detection.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcf251fb81cc683d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "2673a5694f4d77ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROC-AUC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c733843690ca049",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9aedecc9b9c3d31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Value Iteration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "David Luan.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "David Luan.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "David Luan.md"
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md"
               }
             }
           },
@@ -294,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "David Luan.md",
+                "file": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -341,46 +228,46 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ac5d96649d8a1b54",
+  "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240629104112.png",
-    "~ Vocabulary.md",
-    "David Luan.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md",
+    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
+    "Cohere.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md",
+    "~ Vocabulary.md",
+    "Ivan Zhang.md",
+    "Nick Frosst.md",
+    "Aidan Gomez.md",
+    "K-Means Clustering.md",
+    "ROC-AUC.md",
+    "Value Iteration.md",
+    "Outlier Detection.md",
+    "Cook's Distance.md",
+    "Model-Based.md",
+    "_attachments/Pasted image 20240629210251.png",
+    "_attachments/Pasted image 20240629210248.png",
+    "_attachments/Pasted image 20240629210223.png",
+    "_attachments/Pasted image 20240629210144.png",
+    "_attachments/Pasted image 20240629210057.png",
+    "~ Ideas.md",
+    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (8) - Integrating Learning and Planning.md",
+    "_attachments/Pasted image 20240629131850.png",
+    "_attachments/Pasted image 20240629131751.png",
+    "_attachments/Pasted image 20240629131527.png",
+    "_attachments/Pasted image 20240629131517.png",
+    "_attachments/Pasted image 20240629131501.png",
+    "K-Nearest Neighbors.md",
+    "David Luan.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Kullback-Leibler Divergence.md",
     "Mutual Information.md",
     "Entropy.md",
-    "_attachments/Pasted image 20240629001745.png",
     "Policy Iteration.md",
-    "_attachments/Pasted image 20240629001407.png",
-    "Value Iteration.md",
-    "_attachments/Pasted image 20240629001042.png",
-    "_attachments/Pasted image 20240629001040.png",
-    "_attachments/Pasted image 20240629000840.png",
-    "_attachments/Pasted image 20240629000524.png",
-    "_attachments/Pasted image 20240629000058.png",
-    "_attachments/Pasted image 20240628235834.png",
-    "_attachments/Pasted image 20240628233848.png",
-    "_attachments/Pasted image 20240628233314.png",
     "Low-Rank Adaptation.md",
     "~ Useful Pictures.md",
     "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
-    "Leverage.md",
     "Courses/Stat110 Probability @ Harvard (2013)",
-    "Courses/STAT110 Probability.md",
-    "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-centric Evaluation of ML Models.md",
-    "Cook's Distance.md",
-    "Outlier Detection.md",
-    "ROC-AUC.md",
-    "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md",
-    "Bandit.md",
-    "DeepMind.md",
-    "NVIDIA.md",
-    "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
-    "Structured Pruning.md",
-    "Percentage-of-Zero-Based Pruning.md",
-    "Scaling-Based Pruning.md",
     "Courses/EfficientML @ MIT (2023)",
     "Courses/MIT Introduction to Data-Centric AI (2023)",
     "Courses/David Silver UCL Reinforcement Learning",

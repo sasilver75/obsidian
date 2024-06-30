@@ -1,16 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "David Luan",
-      "path": "David Luan.md"
+      "basename": "Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md"
+    },
+    {
+      "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
+    },
+    {
+      "basename": "Data-Centric AI (2) - Label Errors",
+      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
+    },
+    {
+      "basename": "Cohere",
+      "path": "Cohere.md"
+    },
+    {
+      "basename": "Foundations of Deep RL (1) - MDPs and Exact Solution Methods",
+      "path": "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Foundations of Deep RL (1) - MDPs and Exact Solution Methods",
-      "path": "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md"
+      "basename": "Ivan Zhang",
+      "path": "Ivan Zhang.md"
+    },
+    {
+      "basename": "Nick Frosst",
+      "path": "Nick Frosst.md"
+    },
+    {
+      "basename": "Aidan Gomez",
+      "path": "Aidan Gomez.md"
+    },
+    {
+      "basename": "K-Means Clustering",
+      "path": "K-Means Clustering.md"
+    },
+    {
+      "basename": "ROC-AUC",
+      "path": "ROC-AUC.md"
+    },
+    {
+      "basename": "Value Iteration",
+      "path": "Value Iteration.md"
+    },
+    {
+      "basename": "Outlier Detection",
+      "path": "Outlier Detection.md"
+    },
+    {
+      "basename": "Cook's Distance",
+      "path": "Cook's Distance.md"
+    },
+    {
+      "basename": "Model-Based",
+      "path": "Model-Based.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "David Silver RL (8) - Integrating Learning and Planning",
+      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (8) - Integrating Learning and Planning.md"
+    },
+    {
+      "basename": "K-Nearest Neighbors",
+      "path": "K-Nearest Neighbors.md"
+    },
+    {
+      "basename": "David Luan",
+      "path": "David Luan.md"
     },
     {
       "basename": "Kullback-Leibler Divergence",
@@ -29,10 +93,6 @@
       "path": "Policy Iteration.md"
     },
     {
-      "basename": "Value Iteration",
-      "path": "Value Iteration.md"
-    },
-    {
       "basename": "Low-Rank Adaptation",
       "path": "Low-Rank Adaptation.md"
     },
@@ -47,22 +107,6 @@
     {
       "basename": "Leverage",
       "path": "Leverage.md"
-    },
-    {
-      "basename": "Data-Centric AI (4) - Data-centric Evaluation of ML Models",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-centric Evaluation of ML Models.md"
-    },
-    {
-      "basename": "Cook's Distance",
-      "path": "Cook's Distance.md"
-    },
-    {
-      "basename": "Outlier Detection",
-      "path": "Outlier Detection.md"
-    },
-    {
-      "basename": "ROC-AUC",
-      "path": "ROC-AUC.md"
     },
     {
       "basename": "David Silver RL (6) - Value Function Approximation",
@@ -155,50 +199,6 @@
     {
       "basename": "Average Pooling",
       "path": "Average Pooling.md"
-    },
-    {
-      "basename": "Max Pooling",
-      "path": "Max Pooling.md"
-    },
-    {
-      "basename": "Padding",
-      "path": "Padding.md"
-    },
-    {
-      "basename": "Top-P Sampling",
-      "path": "Top-P Sampling.md"
-    },
-    {
-      "basename": "Greedy Decoding",
-      "path": "Greedy Decoding.md"
-    },
-    {
-      "basename": "Absolute Maximum Quantization",
-      "path": "Absolute Maximum Quantization.md"
-    },
-    {
-      "basename": "Zero-Point Quantization",
-      "path": "Zero-Point Quantization.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
-    },
-    {
-      "basename": "Dynabench",
-      "path": "Dynabench.md"
-    },
-    {
-      "basename": "Selection Bias",
-      "path": "Selection Bias.md"
-    },
-    {
-      "basename": "Data-Centric AI (3) - Dataset Creation and Curation",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (3) - Dataset Creation and Curation.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
     }
   ],
   "omittedPaths": [],
