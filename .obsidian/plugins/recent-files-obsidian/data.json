@@ -1,48 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "TinyML (4) - Pruning and Sparsity Part 2",
+      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md"
+    },
+    {
+      "basename": "TinyML (3) - Pruning and Sparsity Part 1",
+      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md"
+    },
+    {
+      "basename": "TinyML (2) - Basics of Neural Networks",
+      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (2) - Basics of Neural Networks.md"
+    },
+    {
+      "basename": "TinyML (1) - Introduction",
+      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (1) - Introduction.md"
+    },
+    {
       "basename": "Data-Centric AI (7) - Interpretability in Data-Centric ML",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md"
-    },
-    {
-      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
-    },
-    {
-      "basename": "Hard Negative Mining",
-      "path": "Hard Negative Mining.md"
-    },
-    {
-      "basename": "Active Learning",
-      "path": "Active Learning.md"
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "CIFAR-10",
-      "path": "CIFAR-10.md"
-    },
-    {
-      "basename": "MNIST",
-      "path": "MNIST.md"
+      "basename": "Active Learning",
+      "path": "Active Learning.md"
     },
     {
       "basename": "SEALS",
       "path": "SEALS.md"
-    },
-    {
-      "basename": "Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md"
-    },
-    {
-      "basename": "Covariate Shift",
-      "path": "Covariate Shift.md"
-    },
-    {
-      "basename": "Concept Shift",
-      "path": "Concept Shift.md"
     },
     {
       "basename": "Outlier Detection",
@@ -57,12 +45,44 @@
       "path": "F-Beta Score.md"
     },
     {
+      "basename": "Covariate Shift",
+      "path": "Covariate Shift.md"
+    },
+    {
+      "basename": "Concept Shift",
+      "path": "Concept Shift.md"
+    },
+    {
+      "basename": "YOLO",
+      "path": "YOLO.md"
+    },
+    {
+      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
+    },
+    {
+      "basename": "Hard Negative Mining",
+      "path": "Hard Negative Mining.md"
+    },
+    {
+      "basename": "CIFAR-10",
+      "path": "CIFAR-10.md"
+    },
+    {
+      "basename": "MNIST",
+      "path": "MNIST.md"
+    },
+    {
+      "basename": "Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift",
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md"
+    },
+    {
       "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
     },
     {
       "basename": "Data-Centric AI (2) - Label Errors",
-      "path": "Courses/MIT Introduction to Data-Centric AI (2023)/Data-Centric AI (2) - Label Errors.md"
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md"
     },
     {
       "basename": "Cohere",
@@ -110,7 +130,7 @@
     },
     {
       "basename": "David Silver RL (8) - Integrating Learning and Planning",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (8) - Integrating Learning and Planning.md"
+      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
     },
     {
       "basename": "K-Nearest Neighbors",
@@ -154,7 +174,7 @@
     },
     {
       "basename": "David Silver RL (6) - Value Function Approximation",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (6) - Value Function Approximation.md"
+      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (6) - Value Function Approximation.md"
     },
     {
       "basename": "Bandit",
@@ -179,26 +199,6 @@
     {
       "basename": "Percentage-of-Zero-Based Pruning",
       "path": "Percentage-of-Zero-Based Pruning.md"
-    },
-    {
-      "basename": "Scaling-Based Pruning",
-      "path": "Scaling-Based Pruning.md"
-    },
-    {
-      "basename": "Layer Normalization",
-      "path": "Layer Normalization.md"
-    },
-    {
-      "basename": "Receptive Field",
-      "path": "Receptive Field.md"
-    },
-    {
-      "basename": "David Silver RL (7) - Policy Gradient Methods",
-      "path": "Courses/David Silver UCL Reinforcement Learning/David Silver RL (7) - Policy Gradient Methods.md"
-    },
-    {
-      "basename": "Temporal Difference Learning",
-      "path": "Temporal Difference Learning.md"
     }
   ],
   "omittedPaths": [],

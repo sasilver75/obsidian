@@ -6,7 +6,8 @@ June 8, 2015
 Paper: [You Only Look Once: Unified Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
 
 Many variants/versions of this model exist, it's been very successful.
-At the time of writing, we're at YOLOv8 ([Family Summary Paper](https://arxiv.org/html/2304.00501v6))
+At the time of writing (?), we're at YOLOv8 ([Family Summary Paper](https://arxiv.org/html/2304.00501v6))
+- As of June 2024, I believe we're on [YOLOv10](https://arxiv.org/abs/2405.14458)
 
 ![[Pasted image 20240418000723.png|350]]
 
