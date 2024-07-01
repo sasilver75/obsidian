@@ -161,7 +161,7 @@ Here's some examples of synthetic data generation:
 But already, there are some actionable suggestions one can conclude:
 - Does the original training corpus contain *all the capabilities and priors you desire?*
 	- If YES: Try [[Prompting]]
-	- If NO: Try [[Fine-Tuning]]
+	- If NO: Try [[Supervised Fine-Tuning|Fine-Tuning]]
 - Is it easy to source different finetuning datasets?
 	- If Yes, try [[Supervised Fine-Tuning]]
 	- If No, try [[Reinforcement Learning from Human Feedback|RLHF]] or [[Reinforcement Learning from from AI Feedback|RLAIF]]

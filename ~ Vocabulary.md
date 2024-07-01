@@ -151,7 +151,6 @@
 - [[Chain of Thought]] (CoT)
 - [[Chain of Note]] (CoN)
 - [[Catastrophic Forgetting]]
-- [[Fine-Tuning]]
 - [[Instruction-Tuning]]
 - [[Preference-Tuning]]
 - [[Transfer Learning]]

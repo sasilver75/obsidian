@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
+      "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
+      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
+    },
+    {
+      "basename": "Supervised Fine-Tuning",
+      "path": "Supervised Fine-Tuning.md"
+    },
+    {
+      "basename": "GPT-2",
+      "path": "GPT-2.md"
+    },
+    {
+      "basename": "GPT-3",
+      "path": "GPT-3.md"
+    },
+    {
+      "basename": "Pieter Abbeel",
+      "path": "Pieter Abbeel.md"
+    },
+    {
       "basename": "TinyML (5) - Quantization part 1",
       "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
     },
     {
       "basename": "Linear Quantization",
       "path": "Linear Quantization.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "K-Means Quantization",
@@ -171,34 +195,6 @@
     {
       "basename": "Cook's Distance",
       "path": "Cook's Distance.md"
-    },
-    {
-      "basename": "Model-Based",
-      "path": "Model-Based.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "David Silver RL (8) - Integrating Learning and Planning",
-      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
-    },
-    {
-      "basename": "K-Nearest Neighbors",
-      "path": "K-Nearest Neighbors.md"
-    },
-    {
-      "basename": "David Luan",
-      "path": "David Luan.md"
-    },
-    {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
-    },
-    {
-      "basename": "Mutual Information",
-      "path": "Mutual Information.md"
     }
   ],
   "omittedPaths": [],
