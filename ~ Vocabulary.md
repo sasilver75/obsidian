@@ -41,6 +41,11 @@
 - [[Accuracy]]
 - [[Balanced Accuracy]]
 - [[Binomial Coefficient]]
+- [[Kullback-Leibler Divergence]] (KL Divergence)
+- [[Entropy]]
+- [[Mutual Information]]
+- [[Cross-Entropy]]
+- [[Kolmogorov Complexity]]
 
 # Analytics/Misc. Modeling
 - [[Type One Error]]
@@ -122,10 +127,6 @@
 - [[Bitter Lesson]]
 - [[Self-Supervised Learning]]
 - [[Alignment]]
-- [[Kullback-Leibler Divergence]] (KL Divergence)
-- [[Entropy]]
-- [[Mutual Information]]
-- [[Cross-Entropy]]
 - [[Seq2Seq]]
 - [[Perplexity]] 
 - [[Bits-per-Character]] (BPC)
@@ -212,7 +213,8 @@
 - [[Recurrent Neural Network]] (RNN)
 - [[Long Short Term Memory]] (LSTM)
 - [[Gated Recurrent Unit]] (GRU)
-- [[Convolutional Neural Network]]
+- [[Convolutional Neural Network]] (CNN)
+- [[Kernel]]
 - [[Receptive Field]]
 - [[Region-Based Convolutional Neural Network]] (R-CNN)
 - [[Vanishing Gradients]], [[Exploding Gradients]]
@@ -586,6 +588,7 @@
 - [[Falcon]]
 - [[Falcon 2]]
 - [[AlexNet]]
+- [[GoogleNet]]
 - [[CLIP]] 
 - [[OpenCLIP]]
 - [[BLIP]]
@@ -617,8 +620,12 @@
 	- [[Skip-Gram]]
 	- [[Continuous Bag of Words]] (CBOW)
 - [[GloVe]]
+- [[VGGNet]]
+- [[Residual Network]] (ResNet)
+- [[DenseNet]]
+- [[MobileNet]]
+- [[MobileNet-V2]]
 - [[ConvNext]]
-- [[Residual Network]]
 - [[Segment Anything Model]]
 - [[T5]]
 - [[Transformer-XL]]
@@ -631,7 +638,6 @@
 - [[LLAMA Guard 2]]
 - [[Chinchilla]]
 - [[ControlNet]]
-- [[VGGNet]]
 - [[TinyStories]] (Prequel to Phi models)
 - [[Phi-1]]
 - [[Phi-1.5]]
@@ -787,6 +793,7 @@
 
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
+- [[ImageNet]] (ILSVRC)
 - [[GAIA]] (General AI Assistants benchmark)
 - [[Massive Multi-Task Language Understanding]] (MMLU)
 - [[MMLU-Pro]]
@@ -1000,7 +1007,7 @@
 - [[Aidan Gomez]] 🇨🇦
 - [[Ivan Zhang]] 🇨🇦
 - [[Nick Frosst]] 🇨🇦
-
+- [[Kaiming He]]
 
 # Policy
 - [[SB-1047]]

@@ -41,3 +41,5 @@ Above: Many cutting-edge CV models consist of multiple stages:
 - Neck refines the features
 - Head makes the detection for the task
 
+![[Pasted image 20240701111455.png]]
+(Comparison with CNNs and Vision Transformers); with massive training datasets, a general model will beat out the inductive biases of CNNs (eg Bitter Lesson).
