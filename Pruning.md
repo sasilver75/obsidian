@@ -5,7 +5,7 @@ aliases: []
 
 Resources:
 - Article: [WandB Diving into Model Pruning](https://wandb.ai/authors/pruning/reports/Diving-Into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg)
-- Note: [[Efficient ML (3) - Pruning and Sparsity Part 1]]
+- Note: [[TinyML (3) - Pruning and Sparsity Part 1]]
 
 
 The practice of discarding weights in a model that don't improve a model's performance. In this context, we really mean *zero-ing* out non-significant weights.
