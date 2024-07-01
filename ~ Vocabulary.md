@@ -448,7 +448,6 @@
 - [[Dependency Grammar]]
 - [[Prosody]]
 - [[Padding]] (In the context of sequences)
-- [[Back-Translation]]
 - [[BLEU]] Score
 - [[BLEURT]] Score
 - [[ROUGE]] Score
@@ -530,7 +529,20 @@
 # Data Augmentation Concepts
 - [[MixUp]]
 - [[MixMatch]]
+- [[RandAugment]]
 - [[Progressive Resizing]]
+- [[Back-Translation]]
+
+
+# ML Security Concepts
+- [[Security Goal]]
+- [[Threat Model]]
+- [[White-Box Access]]
+- [[Black-Box Access]]
+- [[Shadow Model]]
+- [[Membership Inference Attack]]
+- [[Data Extraction Attack]]
+- [[Metrics-Based Attack]]
 
 # Reinforcement Learning Concepts
 - [[Reinforcement Learning]] (RL)

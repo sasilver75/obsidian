@@ -10,6 +10,7 @@ Symptoms
 - High variance in errors indicates overfitting; means the models' predictions change dramatically with very small changes in the training data.
 
 ![[Pasted image 20240620160813.png|300]]
+![[Pasted image 20240701114630.png]]
 
 Mitigations
 - [[Cross-Validation]] (eg K-Fold Cross-Validation) to ensure the model can perform well on different subsets of the data.
