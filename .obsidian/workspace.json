@@ -13,7 +13,163 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1975fa369b80e7c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ImageNet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0294f7fe5f02e34f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Convolution.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fca86aba2f4c0ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2235c570375b45ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3e47990909b1e2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LeNet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "508bed87ecfcd0fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MobileNet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4a79cc98d0bb5d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DenseNet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2b43c99ea30a78b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swin.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "989075558ccf0d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Residual Block.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1772bd4bc261f020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Residual Connection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aaad3631e56f0614",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9d6665aeda92249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kernel.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -254,7 +410,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -312,8 +469,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -329,7 +485,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
+                "file": "LeNet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -346,7 +502,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
+                "file": "LeNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -369,7 +525,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
+                "file": "LeNet.md"
               }
             }
           },
@@ -402,7 +558,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
+                "file": "LeNet.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -449,45 +605,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8b6e635ae93c7ebe",
+  "active": "b3e47990909b1e2f",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240701000741.png",
-    "_attachments/Pasted image 20240701000543.png",
+    "ConvNext.md",
+    "_attachments/Pasted image 20240701111650.png",
+    "_attachments/Pasted image 20240701111629.png",
+    "_attachments/Pasted image 20240701111618.png",
+    "_attachments/Pasted image 20240701111604.png",
+    "_attachments/Pasted image 20240701111548.png",
+    "Vision Transformer.md",
+    "_attachments/Pasted image 20240701111455.png",
+    "MobileNet-V2.md",
+    "_attachments/Pasted image 20240701110330.png",
+    "_attachments/Pasted image 20240701110325.png",
+    "_attachments/Pasted image 20240701110218.png",
+    "_attachments/Pasted image 20240701110208.png",
     "~ Vocabulary.md",
+    "MobileNet.md",
+    "Convolution.md",
+    "DenseNet.md",
+    "Residual Block.md",
+    "ImageNet.md",
+    "Residual Network.md",
+    "Swin.md",
+    "Residual Connection.md",
+    "He Initialization.md",
+    "Ivan Zhang.md",
+    "Aidan Gomez.md",
+    "Nick Frosst.md",
+    "Articles/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Kaiming He.md",
+    "Batch Normalization.md",
+    "VGGNet.md",
+    "Convolutional Neural Network.md",
+    "GoogleNet.md",
+    "AlexNet.md",
+    "Kernel.md",
+    "Dropout.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
-    "Fine-Tuning.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "Supervised Fine-Tuning.md",
-    "_attachments/Pasted image 20240630235833.png",
-    "_attachments/Pasted image 20240630235032.png",
-    "_attachments/Pasted image 20240630235022.png",
-    "GPT-2.md",
-    "GPT-3.md",
-    "_attachments/Pasted image 20240630234533.png",
-    "_attachments/Pasted image 20240630234514.png",
-    "_attachments/Pasted image 20240630234430.png",
-    "_attachments/Pasted image 20240630234342.png",
-    "_attachments/Pasted image 20240630234228.png",
-    "_attachments/Pasted image 20240630234047.png",
-    "Untitled 3.md",
-    "Pieter Abbeel.md",
-    "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
-    "Courses/CS CS294-158.md",
-    "Linear Quantization.md",
-    "K-Means Quantization.md",
-    "Zero-Point Quantization.md",
-    "Quantization.md",
-    "float4.md",
-    "INT4.md",
-    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "float8.md",
-    "bfloat16.md",
-    "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md",
-    "float16.md",
-    "float32.md",
-    "INT8.md",
-    "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
     "Courses/TinyML and Efficient Deep Learning @ MIT (2023)",

@@ -1,12 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
-      "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
+      "basename": "LeNet",
+      "path": "LeNet.md"
+    },
+    {
+      "basename": "ConvNext",
+      "path": "ConvNext.md"
+    },
+    {
+      "basename": "Vision Transformer",
+      "path": "Vision Transformer.md"
+    },
+    {
+      "basename": "MobileNet-V2",
+      "path": "MobileNet-V2.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "MobileNet",
+      "path": "MobileNet.md"
+    },
+    {
+      "basename": "Convolution",
+      "path": "Convolution.md"
+    },
+    {
+      "basename": "DenseNet",
+      "path": "DenseNet.md"
+    },
+    {
+      "basename": "Residual Block",
+      "path": "Residual Block.md"
+    },
+    {
+      "basename": "ImageNet",
+      "path": "ImageNet.md"
+    },
+    {
+      "basename": "Residual Network",
+      "path": "Residual Network.md"
+    },
+    {
+      "basename": "Swin",
+      "path": "Swin.md"
+    },
+    {
+      "basename": "Residual Connection",
+      "path": "Residual Connection.md"
+    },
+    {
+      "basename": "He Initialization",
+      "path": "He Initialization.md"
+    },
+    {
+      "basename": "Ivan Zhang",
+      "path": "Ivan Zhang.md"
+    },
+    {
+      "basename": "Aidan Gomez",
+      "path": "Aidan Gomez.md"
+    },
+    {
+      "basename": "Nick Frosst",
+      "path": "Nick Frosst.md"
+    },
+    {
+      "basename": "RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Kaiming He",
+      "path": "Kaiming He.md"
+    },
+    {
+      "basename": "Batch Normalization",
+      "path": "Batch Normalization.md"
+    },
+    {
+      "basename": "VGGNet",
+      "path": "VGGNet.md"
+    },
+    {
+      "basename": "Convolutional Neural Network",
+      "path": "Convolutional Neural Network.md"
+    },
+    {
+      "basename": "GoogleNet",
+      "path": "GoogleNet.md"
+    },
+    {
+      "basename": "AlexNet",
+      "path": "AlexNet.md"
+    },
+    {
+      "basename": "Kernel",
+      "path": "Kernel.md"
+    },
+    {
+      "basename": "Dropout",
+      "path": "Dropout.md"
+    },
+    {
+      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
+      "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
     },
     {
       "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
@@ -99,102 +199,6 @@
     {
       "basename": "Data-Centric AI (7) - Interpretability in Data-Centric ML",
       "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md"
-    },
-    {
-      "basename": "Active Learning",
-      "path": "Active Learning.md"
-    },
-    {
-      "basename": "SEALS",
-      "path": "SEALS.md"
-    },
-    {
-      "basename": "Outlier Detection",
-      "path": "Outlier Detection.md"
-    },
-    {
-      "basename": "Isolation Forest",
-      "path": "Isolation Forest.md"
-    },
-    {
-      "basename": "F-Beta Score",
-      "path": "F-Beta Score.md"
-    },
-    {
-      "basename": "Covariate Shift",
-      "path": "Covariate Shift.md"
-    },
-    {
-      "basename": "Concept Shift",
-      "path": "Concept Shift.md"
-    },
-    {
-      "basename": "YOLO",
-      "path": "YOLO.md"
-    },
-    {
-      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
-    },
-    {
-      "basename": "Hard Negative Mining",
-      "path": "Hard Negative Mining.md"
-    },
-    {
-      "basename": "CIFAR-10",
-      "path": "CIFAR-10.md"
-    },
-    {
-      "basename": "MNIST",
-      "path": "MNIST.md"
-    },
-    {
-      "basename": "Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md"
-    },
-    {
-      "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
-    },
-    {
-      "basename": "Data-Centric AI (2) - Label Errors",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md"
-    },
-    {
-      "basename": "Cohere",
-      "path": "Cohere.md"
-    },
-    {
-      "basename": "Foundations of Deep RL (1) - MDPs and Exact Solution Methods",
-      "path": "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md"
-    },
-    {
-      "basename": "Ivan Zhang",
-      "path": "Ivan Zhang.md"
-    },
-    {
-      "basename": "Nick Frosst",
-      "path": "Nick Frosst.md"
-    },
-    {
-      "basename": "Aidan Gomez",
-      "path": "Aidan Gomez.md"
-    },
-    {
-      "basename": "K-Means Clustering",
-      "path": "K-Means Clustering.md"
-    },
-    {
-      "basename": "ROC-AUC",
-      "path": "ROC-AUC.md"
-    },
-    {
-      "basename": "Value Iteration",
-      "path": "Value Iteration.md"
-    },
-    {
-      "basename": "Cook's Distance",
-      "path": "Cook's Distance.md"
     }
   ],
   "omittedPaths": [],
