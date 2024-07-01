@@ -1,8 +1,108 @@
 {
   "recentFiles": [
     {
+      "basename": "Membership Inference Attack",
+      "path": "Membership Inference Attack.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Back-Translation",
+      "path": "Back-Translation.md"
+    },
+    {
+      "basename": "Data-Centric AI (9) - Data Privacy and Security",
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md"
+    },
+    {
+      "basename": "Data Extraction Attack",
+      "path": "Data Extraction Attack.md"
+    },
+    {
+      "basename": "Shadow Model",
+      "path": "Shadow Model.md"
+    },
+    {
+      "basename": "Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering",
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md"
+    },
+    {
+      "basename": "MixUp",
+      "path": "MixUp.md"
+    },
+    {
       "basename": "LeNet",
       "path": "LeNet.md"
+    },
+    {
+      "basename": "Overfitting",
+      "path": "Overfitting.md"
+    },
+    {
+      "basename": "Underfitting",
+      "path": "Underfitting.md"
+    },
+    {
+      "basename": "Inductive Bias",
+      "path": "Inductive Bias.md"
+    },
+    {
+      "basename": "ImageNet",
+      "path": "ImageNet.md"
+    },
+    {
+      "basename": "Convolution",
+      "path": "Convolution.md"
+    },
+    {
+      "basename": "GPT-4",
+      "path": "GPT-4.md"
+    },
+    {
+      "basename": "MobileNet",
+      "path": "MobileNet.md"
+    },
+    {
+      "basename": "DenseNet",
+      "path": "DenseNet.md"
+    },
+    {
+      "basename": "Swin",
+      "path": "Swin.md"
+    },
+    {
+      "basename": "Residual Block",
+      "path": "Residual Block.md"
+    },
+    {
+      "basename": "Residual Connection",
+      "path": "Residual Connection.md"
+    },
+    {
+      "basename": "float4",
+      "path": "float4.md"
+    },
+    {
+      "basename": "INT4",
+      "path": "INT4.md"
+    },
+    {
+      "basename": "Kernel",
+      "path": "Kernel.md"
+    },
+    {
+      "basename": "GPT-2",
+      "path": "GPT-2.md"
+    },
+    {
+      "basename": "K-Means Quantization",
+      "path": "K-Means Quantization.md"
+    },
+    {
+      "basename": "float8",
+      "path": "float8.md"
     },
     {
       "basename": "ConvNext",
@@ -17,40 +117,8 @@
       "path": "MobileNet-V2.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "MobileNet",
-      "path": "MobileNet.md"
-    },
-    {
-      "basename": "Convolution",
-      "path": "Convolution.md"
-    },
-    {
-      "basename": "DenseNet",
-      "path": "DenseNet.md"
-    },
-    {
-      "basename": "Residual Block",
-      "path": "Residual Block.md"
-    },
-    {
-      "basename": "ImageNet",
-      "path": "ImageNet.md"
-    },
-    {
       "basename": "Residual Network",
       "path": "Residual Network.md"
-    },
-    {
-      "basename": "Swin",
-      "path": "Swin.md"
-    },
-    {
-      "basename": "Residual Connection",
-      "path": "Residual Connection.md"
     },
     {
       "basename": "He Initialization",
@@ -97,10 +165,6 @@
       "path": "AlexNet.md"
     },
     {
-      "basename": "Kernel",
-      "path": "Kernel.md"
-    },
-    {
       "basename": "Dropout",
       "path": "Dropout.md"
     },
@@ -115,10 +179,6 @@
     {
       "basename": "Supervised Fine-Tuning",
       "path": "Supervised Fine-Tuning.md"
-    },
-    {
-      "basename": "GPT-2",
-      "path": "GPT-2.md"
     },
     {
       "basename": "GPT-3",
@@ -137,68 +197,8 @@
       "path": "Linear Quantization.md"
     },
     {
-      "basename": "K-Means Quantization",
-      "path": "K-Means Quantization.md"
-    },
-    {
       "basename": "Zero-Point Quantization",
       "path": "Zero-Point Quantization.md"
-    },
-    {
-      "basename": "Quantization",
-      "path": "Quantization.md"
-    },
-    {
-      "basename": "float4",
-      "path": "float4.md"
-    },
-    {
-      "basename": "INT4",
-      "path": "INT4.md"
-    },
-    {
-      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "float8",
-      "path": "float8.md"
-    },
-    {
-      "basename": "bfloat16",
-      "path": "bfloat16.md"
-    },
-    {
-      "basename": "TinyML (4) - Pruning and Sparsity Part 2",
-      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md"
-    },
-    {
-      "basename": "float16",
-      "path": "float16.md"
-    },
-    {
-      "basename": "float32",
-      "path": "float32.md"
-    },
-    {
-      "basename": "INT8",
-      "path": "INT8.md"
-    },
-    {
-      "basename": "TinyML (3) - Pruning and Sparsity Part 1",
-      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md"
-    },
-    {
-      "basename": "TinyML (2) - Basics of Neural Networks",
-      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (2) - Basics of Neural Networks.md"
-    },
-    {
-      "basename": "TinyML (1) - Introduction",
-      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (1) - Introduction.md"
-    },
-    {
-      "basename": "Data-Centric AI (7) - Interpretability in Data-Centric ML",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md"
     }
   ],
   "omittedPaths": [],

@@ -8,77 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b6e635ae93c7ebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1975fa369b80e7c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ImageNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0294f7fe5f02e34f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convolution.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fca86aba2f4c0ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2235c570375b45ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b3e47990909b1e2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeNet.md",
+                "file": "Membership Inference Attack.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,72 +21,7 @@
             }
           },
           {
-            "id": "508bed87ecfcd0fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MobileNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4a79cc98d0bb5d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DenseNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2b43c99ea30a78b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Swin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "989075558ccf0d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Residual Block.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1772bd4bc261f020",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Residual Connection.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aaad3631e56f0614",
+            "id": "1a6aef1e7c5356f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,12 +34,12 @@
             }
           },
           {
-            "id": "b9d6665aeda92249",
+            "id": "fd4793c61530cf74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kernel.md",
+                "file": "Data Extraction Attack.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +47,33 @@
             }
           },
           {
-            "id": "d866400271207956",
+            "id": "243b56f52ed18dc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shadow Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a746498702c1fcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Membership Inference Attack.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e511296fc63f717e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -190,228 +86,19 @@
             }
           },
           {
-            "id": "40a487d9fdf3b0b9",
+            "id": "8bee5c816745b2b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPT-2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12db3a1bf57d25c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "004d105d7e221c1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pieter Abbeel.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c3ba9b159d5f7c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "641f9136c8685296",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "K-Means Quantization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c11a590c1a2f3e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ed984189d2a0b14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zero-Point Quantization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "daa3e7d8221b4bb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ccb060c8ef82f8fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "float4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96f4183bc69f6c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INT4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3d01e6a19de385b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "float4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0140940f11711ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "float4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "885b9cd597a59757",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "float8.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d41a63bc3dad629",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee14b39607b13f59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "float8.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48b4357202ce61e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INT8.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20fb71cd174d6137",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Back-Translation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -469,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -485,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeNet.md",
+                "file": "Membership Inference Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -502,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LeNet.md",
+                "file": "Membership Inference Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -525,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LeNet.md"
+                "file": "Membership Inference Attack.md"
               }
             }
           },
@@ -558,7 +246,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LeNet.md",
+                "file": "Membership Inference Attack.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -607,42 +295,42 @@
   },
   "active": "b3e47990909b1e2f",
   "lastOpenFiles": [
-    "ConvNext.md",
-    "_attachments/Pasted image 20240701111650.png",
-    "_attachments/Pasted image 20240701111629.png",
-    "_attachments/Pasted image 20240701111618.png",
-    "_attachments/Pasted image 20240701111604.png",
-    "_attachments/Pasted image 20240701111548.png",
-    "Vision Transformer.md",
-    "_attachments/Pasted image 20240701111455.png",
-    "MobileNet-V2.md",
-    "_attachments/Pasted image 20240701110330.png",
-    "_attachments/Pasted image 20240701110325.png",
-    "_attachments/Pasted image 20240701110218.png",
-    "_attachments/Pasted image 20240701110208.png",
     "~ Vocabulary.md",
-    "MobileNet.md",
-    "Convolution.md",
-    "DenseNet.md",
-    "Residual Block.md",
+    "Membership Inference Attack.md",
+    "Back-Translation.md",
+    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
+    "Data Extraction Attack.md",
+    "Shadow Model.md",
+    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md",
+    "_attachments/Pasted image 20240701120230.png",
+    "_attachments/Pasted image 20240701120104.png",
+    "_attachments/Pasted image 20240701115909.png",
+    "MixUp.md",
+    "LeNet.md",
+    "_attachments/Pasted image 20240701115846.png",
+    "_attachments/Pasted image 20240701115059.png",
+    "Overfitting.md",
+    "Underfitting.md",
+    "_attachments/Pasted image 20240701114634.png",
+    "_attachments/Pasted image 20240701114630.png",
+    "_attachments/Pasted image 20240701114525.png",
+    "Inductive Bias.md",
+    "_attachments/Pasted image 20240701113217.png",
+    "_attachments/Pasted image 20240701113144.png",
     "ImageNet.md",
-    "Residual Network.md",
+    "Convolution.md",
+    "GPT-4.md",
+    "MobileNet.md",
+    "DenseNet.md",
     "Swin.md",
+    "Residual Block.md",
     "Residual Connection.md",
-    "He Initialization.md",
-    "Ivan Zhang.md",
-    "Aidan Gomez.md",
-    "Nick Frosst.md",
-    "Articles/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Kaiming He.md",
-    "Batch Normalization.md",
-    "VGGNet.md",
-    "Convolutional Neural Network.md",
-    "GoogleNet.md",
-    "AlexNet.md",
+    "float4.md",
+    "INT4.md",
     "Kernel.md",
-    "Dropout.md",
-    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
+    "GPT-2.md",
+    "K-Means Quantization.md",
+    "float8.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
