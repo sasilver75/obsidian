@@ -5,8 +5,16 @@
       "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
     },
     {
+      "basename": "Linear Quantization",
+      "path": "Linear Quantization.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "K-Means Quantization",
+      "path": "K-Means Quantization.md"
     },
     {
       "basename": "Zero-Point Quantization",
@@ -191,14 +199,6 @@
     {
       "basename": "Mutual Information",
       "path": "Mutual Information.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
-      "basename": "Policy Iteration",
-      "path": "Policy Iteration.md"
     }
   ],
   "omittedPaths": [],

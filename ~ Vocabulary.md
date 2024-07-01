@@ -175,6 +175,7 @@
 - [[Absolute Maximum Quantization]] (Absmax Quantization)
 - [[Zero-Point Quantization]] (ZPQ)
 - [[Quantization-Aware Training]] (QAT)
+- [[Linear Quantization]]
 - [[Post-Training Quantization]] (PTQ)
 - [[Model-Aware Quantization]]
 - [[Activation-Aware Weight Quantization]] (AWQ)
