@@ -2,6 +2,9 @@
 aliases:
   - MCTS
 ---
+References
+- Notes: [[David Silver RL (8) - Integrating Learning and Planning]]
+
 MCTS is a probabilistic algorithm using random simulations to guide the search for a best move in a game. 
 
 Game trees are graphs representing all possible game states within a combinatorial game.
@@ -45,3 +48,34 @@ Optimizations
 - MCTS can use either *light* or *heavy* playouts, where light playouts consist of random moves, while heavy playouts/rollouts apply various heuristics to influence the choice of moves (interestingly, playing suboptimally in simulations sometimes makes a MCTS program play stronger overall
 - Basic MCTS exploratory phase can be shortened in certain classes of games using a technique called RAVE (Rapid Action Value Estimation)
 - MCTS can be concurrently executed by many threads or processes.
+
+
+----
+
+Now let's talk about something that really solves SoTA problems!
+[[Monte-Carlo Tree Search]] (MCTS)
+![[Pasted image 20240701142547.png]]
+Again we start from the root state
+- Generate trajectories of experience from the root, using our current simulation policy.
+- The difference is that we view this policy $\pi$ as something that's living; that can improve.
+- We evaluate *every state action pair that we visit*...
+	- We build a search tree containing every state we've visited so far, and all of the actions we've tried from those states so far.
+- So we run a simulation out, and we continuous estimate action value for each of the intermediate (s,a) along that trajectory.
+	- We again do this by taking the mean return from every point onwards.
+	- So we basically record, at every part of our search tree... these Q(s,a) values, just by counting and taking the mean of the returns of times we pass through a state, action pair..
+- At the end of the search, again we pick the action that has the highest Q(s,a) value at the root.
+- But we can use this rich information in the search tree to make our search policy better.
+![[Pasted image 20240701144912.png]]
+After every simulation, we're going to make our simulation improve.
+- We do this just like how we do policy improvement
+- We look at Q values, and maximize over Q values in the search tree, to make them better.
+- The distinction is that here we don't have a complete table of Q values everywhere -- we only have them within our search tree
+Two phases
+- In the tree
+	- We improve the policy, picking actions to maximize the Q(S,A) we have stored in the tree.
+- Beyond the tree (where we have no stored information and we haven't seen)
+	- We behave according to some default, random simulation policy (could be naive)
+We repeat (for each simulation):
+- Evaluate states via MC evaluation
+- Improve our tree policy, e.g. by epsilon-greedy over the Q values.
+This is basically Monte-Carlo Control, but applied to simulated episodes of experience that start from the root state.

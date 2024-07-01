@@ -13,7 +13,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
+                "file": "Policy Gradient.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10e900e3071c2b4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c892d3d289fad973",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5581f3e4f31262df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temporal-Difference Search.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c8b18845009b4b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Monte-Carlo Tree Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -32,73 +84,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fd4793c61530cf74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Extraction Attack.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "243b56f52ed18dc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shadow Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a746498702c1fcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Membership Inference Attack.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e511296fc63f717e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bee5c816745b2b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Back-Translation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -173,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -246,7 +233,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -293,30 +280,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b3e47990909b1e2f",
+  "active": "10e900e3071c2b4e",
   "lastOpenFiles": [
-    "Data Extraction Attack.md",
-    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
-    "Back-Translation.md",
-    "_attachments/Pasted image 20240701135236.png",
-    "Membership Inference Attack.md",
+    "Policy Gradient.md",
     "~ Vocabulary.md",
+    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md",
+    "_attachments/Pasted image 20240701151942.png",
+    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md",
+    "_attachments/Pasted image 20240701151700.png",
+    "_attachments/Pasted image 20240701151244.png",
+    "Temporal-Difference Search.md",
+    "_attachments/Pasted image 20240701151158.png",
+    "_attachments/Pasted image 20240701151036.png",
+    "Monte-Carlo Tree Search.md",
+    "_attachments/Pasted image 20240701150630.png",
+    "_attachments/Pasted image 20240701150045.png",
+    "_attachments/Pasted image 20240701145954.png",
+    "_attachments/Pasted image 20240701145941.png",
+    "_attachments/Pasted image 20240701145907.png",
+    "Data Extraction Attack.md",
     "Shadow Model.md",
+    "Membership Inference Attack.md",
+    "Back-Translation.md",
+    "Model-Free.md",
+    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
     "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md",
-    "_attachments/Pasted image 20240701120230.png",
-    "_attachments/Pasted image 20240701120104.png",
-    "_attachments/Pasted image 20240701115909.png",
     "MixUp.md",
     "LeNet.md",
-    "_attachments/Pasted image 20240701115846.png",
-    "_attachments/Pasted image 20240701115059.png",
     "Overfitting.md",
     "Underfitting.md",
-    "_attachments/Pasted image 20240701114634.png",
-    "_attachments/Pasted image 20240701114630.png",
-    "_attachments/Pasted image 20240701114525.png",
     "Inductive Bias.md",
-    "_attachments/Pasted image 20240701113217.png",
     "ImageNet.md",
     "Convolution.md",
     "GPT-4.md",
@@ -325,11 +318,6 @@
     "Swin.md",
     "Residual Block.md",
     "Residual Connection.md",
-    "float4.md",
-    "INT4.md",
-    "Kernel.md",
-    "GPT-2.md",
-    "K-Means Quantization.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",

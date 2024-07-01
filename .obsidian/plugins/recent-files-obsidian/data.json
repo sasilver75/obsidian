@@ -1,28 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Data-Centric AI (9) - Data Privacy and Security",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Policy Gradient",
+      "path": "Policy Gradient.md"
+    },
+    {
+      "basename": "David Silver RL (8) - Integrating Learning and Planning",
+      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
+    },
+    {
+      "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
+      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md"
+    },
+    {
+      "basename": "Temporal-Difference Search",
+      "path": "Temporal-Difference Search.md"
+    },
+    {
+      "basename": "Monte-Carlo Tree Search",
+      "path": "Monte-Carlo Tree Search.md"
     },
     {
       "basename": "Data Extraction Attack",
       "path": "Data Extraction Attack.md"
     },
     {
-      "basename": "Back-Translation",
-      "path": "Back-Translation.md"
+      "basename": "Shadow Model",
+      "path": "Shadow Model.md"
     },
     {
       "basename": "Membership Inference Attack",
       "path": "Membership Inference Attack.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Back-Translation",
+      "path": "Back-Translation.md"
     },
     {
-      "basename": "Shadow Model",
-      "path": "Shadow Model.md"
+      "basename": "Model-Free",
+      "path": "Model-Free.md"
+    },
+    {
+      "basename": "Data-Centric AI (9) - Data Privacy and Security",
+      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md"
     },
     {
       "basename": "Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering",
@@ -175,30 +199,6 @@
     {
       "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
       "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
-    },
-    {
-      "basename": "Supervised Fine-Tuning",
-      "path": "Supervised Fine-Tuning.md"
-    },
-    {
-      "basename": "GPT-3",
-      "path": "GPT-3.md"
-    },
-    {
-      "basename": "Pieter Abbeel",
-      "path": "Pieter Abbeel.md"
-    },
-    {
-      "basename": "TinyML (5) - Quantization part 1",
-      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
-    },
-    {
-      "basename": "Linear Quantization",
-      "path": "Linear Quantization.md"
-    },
-    {
-      "basename": "Zero-Point Quantization",
-      "path": "Zero-Point Quantization.md"
     }
   ],
   "omittedPaths": [],
