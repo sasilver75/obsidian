@@ -98,13 +98,68 @@ This is a toy example where the matrix is only 4x4; if the matrix got much large
 - Obviously there's a big question about how to choose your k value/size of the codebook.
 
 How do we recover the accuracy loss when we train the model?
-- We get the gradients
-- We cluster teh gradients in teh same pattern as the weights, and we accumulate the same color gradients all together... sum them up or average theem, and then we get the reduced gradient. We subtract that, times the learning rate, and get the 
+- We ge t the gradients
+- We cluster the gradients in the same pattern as the weights, and we accumulate the same color gradients all together... sum them up or average them, and then we get the reduced gradient. We subtract that, times the learning rate, from the original centroid, to get our fine-tuned centroid. 
+
+![[Pasted image 20240630191924.png]]
+![[Pasted image 20240630200531.png]]
+
+![[Pasted image 20240630192003.png]]
+Pruning and quantization together can be combined together in a friendly manner to push the model to be much smaller, while maintaining accuracy.
+
+
+![[Pasted image 20240630195703.png]]
+![[Pasted image 20240630195707.png]]
+(We get discrete because there are fewer choices)
+After finetuning, we might see some subtle change in this distribution.
+
+
+![[Pasted image 20240630195914.png]]
+
+![[Pasted image 20240630195920.png]]
+Another way to reduce storage
+- Previously using the same number of weights for each weight!
+- Instead, we can use a different number of weights for each bit!
+- For infrequent weights, we use more bits to represent them; for frequent ones, we can use fewer bits to represent.
+((I think this is some form of compression? "Not easy to impleemnt in practice."))
 
 
 
+![[Pasted image 20240630200044.png]]
+"Deep Compression" approach (best paper ICLR) that has become standard in industry since them, from the speaker himself!
+![[Pasted image 20240630200214.png]]
+
+---
+
+Next, let's talk about ***[[Linear Quantization]]***
+- Integer Weights
+- Integer Arithmetic
+
+Given a matrix of 4x4 FP32 weights, we want to quantize to four equally-spaced categories. These again are going to be equally-spaced buckets, unlike in the K-Means quantization, which had arbitrary quantization using a codebook.
+
+![[Pasted image 20240630200745.png]]
+
+We can think of the zero point as a bias; we also havae a scaling factor, which is an fp32 number. Using this representation of (weight - zero point) x scaling factor, we can attempt to recover the reconstructed weights (with some quantization error).
+
+![[Pasted image 20240630201046.png]]
+Basically, the zero-point maps "z" to zero!
+![[Pasted image 20240630201227.png]]
+The q line is the quantized result of the input floating point number represented on r line.
+
+![[Pasted image 20240630201342.png]]
+![[Pasted image 20240630203157.png]]
 
 
+After quantization, how do we do arithmetic?
+![[Pasted image 20240630203348.png]]
+We plug in the integer representation of each of these things (q_y, q_w, q_z) and turn them into the floating point
+![[Pasted image 20240630203411.png]]
+![[Pasted image 20240630203528.png]]
 
+![[Pasted image 20240630203501.png]]
+![[Pasted image 20240630203654.png]]
 
+![[Pasted image 20240630203701.png]]
+
+![[Pasted image 20240630203724.png]]
 

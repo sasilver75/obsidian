@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "5c3ba9b159d5f7c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "641f9136c8685296",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K-Means Quantization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4c11a590c1a2f3e7",
             "type": "leaf",
             "state": {
@@ -373,23 +399,25 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240630191713.png",
-    "_attachments/Pasted image 20240630191707.png",
-    "_attachments/Pasted image 20240630191641.png",
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240630203724.png",
+    "_attachments/Pasted image 20240630203701.png",
+    "_attachments/Pasted image 20240630203654.png",
+    "_attachments/Pasted image 20240630203528.png",
+    "_attachments/Pasted image 20240630203524.png",
+    "_attachments/Pasted image 20240630203505.png",
+    "_attachments/Pasted image 20240630203501.png",
+    "_attachments/Pasted image 20240630203426.png",
+    "_attachments/Pasted image 20240630203411.png",
+    "_attachments/Pasted image 20240630203348.png",
+    "Linear Quantization.md",
     "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240630203157.png",
+    "K-Means Quantization.md",
     "Zero-Point Quantization.md",
-    "_attachments/Pasted image 20240630191313.png",
-    "_attachments/Pasted image 20240630191251.png",
-    "_attachments/Pasted image 20240630191241.png",
-    "_attachments/Pasted image 20240630191203.png",
-    "_attachments/Pasted image 20240630191131.png",
     "Quantization.md",
-    "_attachments/Pasted image 20240630190715.png",
     "float4.md",
     "INT4.md",
-    "_attachments/Pasted image 20240630185702.png",
-    "_attachments/Pasted image 20240630185657.png",
     "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "float8.md",
     "bfloat16.md",
@@ -407,8 +435,6 @@
     "Isolation Forest.md",
     "F-Beta Score.md",
     "Covariate Shift.md",
-    "Concept Shift.md",
-    "YOLO.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
     "Courses/TinyML and Efficient Deep Learning @ MIT (2023)",
