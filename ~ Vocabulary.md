@@ -74,7 +74,6 @@
 - [[Bloom Filter]]
 - [[Count-Min Sketch]]
 - [[MinHash]]
-- [[Monte-Carlo Tree Search]]
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
 - [[Naive Bayes]]
@@ -591,8 +590,11 @@
 - [[Epsilon-Greedy]]
 - [[Model Predictive Control]] (MPC)
 - [[Sample-Based Planning]]
+- [[Dyna]]
 - [[Dyna-Q]]
-- 
+- [[Dyna-2]]
+- [[Monte-Carlo Tree Search]] (MCTS)
+- [[Temporal-Difference Search]] (TD Search)
 
 # Models
 - [[AlphaGo]]

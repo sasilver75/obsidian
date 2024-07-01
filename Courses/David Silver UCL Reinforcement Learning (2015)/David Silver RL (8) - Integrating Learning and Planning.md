@@ -151,7 +151,7 @@ Consider two sources of experience:
 What if we combine these together?
 
 ![[Pasted image 20240629131527.png]]
-The ==Dyna== architecture is an older, but fundamental architecture from [[Richard Sutton]], where we learn a model from real experience, but then we use both sources of experience (real, simulated) to learn your value function or policy.
+The ==[[Dyna]]== architecture is an older, but fundamental architecture from [[Richard Sutton]], where we learn a model from real experience, but then we use both sources of experience (real, simulated) to learn your value function or policy.
 - Sometimes we should trust the real experience, sometimes we should trust the simulated experience.
 
 ![[Pasted image 20240629131751.png]]
@@ -172,3 +172,152 @@ The ==[[Dyna-Q]] Algorithm== is the simplest version of Dyna.
 
 
 # Simulation-Based Search
+Now let's back off to jus the planning problem, and really consider this idea of search combined with simulations using models, and see how we can use them to make SoTA planning methods.
+
+Key ideas: 
+1. Sampling
+2. Forward Search
+
+
+![[Pasted image 20240701141024.png]]Forward Search algorithms don't explore the entire state space. Here, we're saying "Actually, there's a state we care about getting the answer for, that that state is the one I'm in now!" "Now" has a special importance; if I'm climbing a mountain ,we care about the next step I need to take to be able to get to the top, rather than what I'm going to have lunch tomorrow -- that's irrelevant to me surviving.
+- We do forward search, focusing on what's likely to happen next in the short-term future. We do this via lookahead. 
+- We start the state we're at S_t, and build a search tree where we build search trees considering actions that we could take, and where the wind might blow us. The T states are terminating states. We build a whole search tree using our model, letting us look ahead at the whole tree of what might happen in the short term future.
+- ==The idea: We don't need to solve the whole MDP -- that's a waste of resources. We just need to focus on solving for the sub-MDP that's relevant, starting from now.==
+
+![[Pasted image 20240701141313.png]]
+A forward-search paradigm that uses sample-based planning; in other words, we start from now, and we imagine what might happen next; we imagine a trajectory of experience by sampling it from our model.
+- Right now I AM in this situation. In chess, I imagine what my opponent will do, and then I imagine what I'll do in response, and what they'll do in response, etc... and then I learn from that imagined experience.
+- It's forward search because we're rooted in the current moment, giving us a focus on what will happen next, rather than distributing our efforts over irrelevant-to-us-now parts of the MDP.
+- We end up seeing the situations that actually matter by sampling from our model+policy.
+
+Then, once we've got these trajectories of experience, we can apply [[Model-Free]] RL to simulated episodes! We apply our familiar techniques to those trajectories (eg MC Learning, TD Learning, SARSA).
+
+![[Pasted image 20240701141556.png]]
+We start from now (s_t, for simulation k), and we generate multiple episodes of experience.
+- We then apply some model-free RL to these simulated episodes, using whatever our favorite method is.
+	- MC Control gives us a method called Monte-Carlo Search
+	- SARSA gives us a method called TD search
+
+![[Pasted image 20240701141719.png]]
+Let's start with the simplest possible version.
+- Given a model and a simulation policy (some way that we're going to pick actions in our imagination).
+- We consider, from our root state, all of the actions we could take from our root state...
+- For each one, we generate k episodes by sampling from our model and the simulation policy.
+- We evaluate each of these (initial) actions by mean return (Monte Carlo evaluation)
+	- I could do a "left" action
+		- I run 100 simulations from after taking a "left" action, and then take the mean of returns
+	- I could do a "right" action
+		- I run 100 simulations after taking a "right" action, and then take the mean of returns from these simulations; that's our evaluation of how good it is to go right.
+- We see that if we just evaluate our actions, that gives us an action value function for the root of our search tree (Q(s,a)). By the law of large numbers, we get the true value function for the simulation policy.
+- All we do is pick *real actions to take* by picking the one with the highest Q(s,a).
+
+Q: If you simulation policy is poor, it wouldn't work well, right? Do we update it as we go?
+A: That's our next slide! This was "simple MC search," where we treat the policy as fixed.
+
+Now let's talk about something that really solves SoTA problems!
+[[Monte-Carlo Tree Search]] (MCTS)
+![[Pasted image 20240701142547.png]]
+Again we start from the root state
+- Generate trajectories of experience from the root, using our current simulation policy.
+- The difference is that we view this policy $\pi$ as something that's living; that can improve.
+- We evaluate *every state action pair that we visit*...
+	- We build a search tree containing every state we've visited so far, and all of the actions we've tried from those states so far.
+- So we run a simulation out, and we continuous estimate action value for each of the intermediate (s,a) along that trajectory.
+	- We again do this by taking the mean return from every point onwards.
+	- So we basically record, at every part of our search tree... these Q(s,a) values, just by counting and taking the mean of the returns of times we pass through a state, action pair..
+- At the end of the search, again we pick the action that has the highest Q(s,a) value at the root.
+- But we can use this rich information in the search tree to make our search policy better.
+![[Pasted image 20240701144912.png]]
+After every simulation, we're going to make our simulation improve.
+- We do this just like how we do policy improvement
+- We look at Q values, and maximize over Q values in the search tree, to make them better.
+- The distinction is that here we don't have a complete table of Q values everywhere -- we only have them within our search tree
+Two phases
+- In the tree
+	- We improve the policy, picking actions to maximize the Q(S,A) we have stored in the tree.
+- Beyond the tree (where we have no stored information and we haven't seen)
+	- We behave according to some default, random simulation policy (could be naive)
+We repeat (for each simulation):
+- Evaluate states via MC evaluation
+- Improve our tree policy, e.g. by epsilon-greedy over the Q values.
+This is basically Monte-Carlo Control, but applied to simulated episodes of experience that start from the root state.
+
+
+![[Pasted image 20240701145316.png]]
+![[Pasted image 20240701145416.png]]
+We define our reward function as just winning or losing the game, in the final terminal position.
+We consider policies for both sides (self-play), and try to consider value functions saying: "How good is state s, under a policy?"
+- We're trying to learn the optimal value function... which tries to find something like the minimax value (? We'll get more into this in the final lecture).
+
+So *simple monte carlo search* might look like this:
+- Roll out some games using the simulation policy, and average out returns to determine our Q(s,a) at our root.
+
+We could apply [[Monte-Carlo Tree Search|MCTS]] too:
+![[Pasted image 20240701145751.png]] 
+- A state we're visiting for our first time (with the star)... we run some rollout until we run into our squarer state, the terminal state. 1 means that the Black team won the game.
+- So we started, ran a simulation; so we can start storing some statistics in our node.
+
+
+![[Pasted image 20240701145806.png]]
+If we run one iteration further (starting back in our root state)... and building up our search tree of things we've visited so far. We add a new position into our search tree, and run a new simulation from there onwards. White ends up winning here instead of black, so we update our statistics in our tree.
+
+So because it wasn't successful to take this action, maybe we try a different action (using the tree policy to guide us, see?):
+![[Pasted image 20240701145907.png]]
+We run a simulation from this new point, and see that black wins this time. We update the parent nodes here.
+
+We continue
+![[Pasted image 20240701145954.png]]
+We see that we get richer and richer contingencies in our search tree; we start to expand our tree of lookahead possibilities towards things that are most promising. 
+- We see that white wins in this situation; so we back that information up the tree.
+
+Still, the left side looks better than the right side, so we run another simulation:
+![[Pasted image 20240701150045.png]]
+And start to expand the parts of the search tree that look the most promising.
+- What happens is, as we run this out, we see that it very *deeply* develops the part of the search tree that it thinks are most promising, and it completely *ignores* parts of the search tree that it thinks are useless.
+- But obviously we need to make sure that the algorithm spends *some time* exploring parts of the tree that are unexplored.
+
+![[Pasted image 20240701150630.png]]
+Why is MCTS a good idea?
+- Every episode, we go back to the root and pick again which path to follow through the search tree. So it's a kind of best-first search
+- We evaluate states dynamically, evaluating the position that we're in *right now*, instead of evaluating the entire space offline like in DP.
+- Uses sampling to break the curse of dimensionality; we don't have to consider all possible things that the environment might do -- we just sample.
+
+
+
+Although MCTS is a very effective method, it's not the only member of this family
+ The key ideas are doing:
+ - Forward Search
+ - Sampling
+If you use these together, with model-free RL methods being applied to these sampled experiences/simulations, we'll go far.
+
+
+[[Temporal-Difference Search]]
+![[Pasted image 20240701151036.png]]
+Instead of applying MC, let's apply [[Temporal Difference Learning|TD-Learning]], or [[SARSA]] from earlier in the course!
+- Whereas MCTS applies MC Control, we'll instead apply TD search to apply SARSA to the sub-MDP from now.
+
+![[Pasted image 20240701151158.png]]
+![[Pasted image 20240701151244.png]]
+What does it look like?
+- We start again from our real, start state (now, s_t).
+- We estimate an action-value function Q(s,a); we can store it in the nodes of our search tree in the same way.
+- For each step of the simulation, instead of waiting until the end of the episode and taking the real return of the whole episode, we instead estimate it via *==bootstrapping==*!
+	- The reward is the return from one step, plus the predicted reward from then on.
+We select actions by acting greedily to our Q values like before
+==The only thing that's changed== is how we update our Q values; using TD-Learning instead of Monte-Carlo learning
+
+We won't have time to go into this, but we *can* use function approximation for Q (for either MCL or TD-Learning).
+
+[[Dyna-2]]
+![[Pasted image 20240701151700.png]]
+Last topic! Let's come back to the Dyna idea, where we don't *just* have to learn from real experience *or* simulated experience, we can combine them together! So let's do the same thing but with our forward search algorithm, now.
+- We maintain two value functions, which you can think of as:
+	- Long-Term Memory (updated from real experience) "In general, it's good to make X motions with your arms to climb"
+	- Short-Term Memory (this is like your search tree; tells us how good it is in our search tree.. learning from simulations, to be in a certain situation) "I've done some simulations, and it looks like that rock up there is crumbly, so I don't think we should go this way"
+
+
+![[Pasted image 20240701151942.png]]
+The blue line is the Dyna 2 idea, which combines the best of both worlds
+- Runs real trajectories, and does search over simulations.o
+
+
