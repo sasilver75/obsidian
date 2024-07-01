@@ -20,3 +20,4 @@ Compared to [[float16|FP16]], BF16 has a larger representable range, which decre
 
 ![[Pasted image 20240627113928.png]]
 ![[Pasted image 20240618105044.png]]
+![[Pasted image 20240630183729.png]]

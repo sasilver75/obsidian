@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "TinyML (5) - Quantization part 1",
+      "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Zero-Point Quantization",
+      "path": "Zero-Point Quantization.md"
+    },
+    {
+      "basename": "Quantization",
+      "path": "Quantization.md"
+    },
+    {
+      "basename": "float4",
+      "path": "float4.md"
+    },
+    {
+      "basename": "INT4",
+      "path": "INT4.md"
+    },
+    {
+      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
+      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
+    },
+    {
+      "basename": "float8",
+      "path": "float8.md"
+    },
+    {
+      "basename": "bfloat16",
+      "path": "bfloat16.md"
+    },
+    {
       "basename": "TinyML (4) - Pruning and Sparsity Part 2",
       "path": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md"
+    },
+    {
+      "basename": "float16",
+      "path": "float16.md"
+    },
+    {
+      "basename": "float32",
+      "path": "float32.md"
+    },
+    {
+      "basename": "INT8",
+      "path": "INT8.md"
     },
     {
       "basename": "TinyML (3) - Pruning and Sparsity Part 1",
@@ -19,10 +67,6 @@
     {
       "basename": "Data-Centric AI (7) - Interpretability in Data-Centric ML",
       "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Active Learning",
@@ -155,50 +199,6 @@
     {
       "basename": "Policy Iteration",
       "path": "Policy Iteration.md"
-    },
-    {
-      "basename": "Low-Rank Adaptation",
-      "path": "Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Stat110 Probability (1) - Probability and Counting",
-      "path": "Courses/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
-    },
-    {
-      "basename": "Leverage",
-      "path": "Leverage.md"
-    },
-    {
-      "basename": "David Silver RL (6) - Value Function Approximation",
-      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (6) - Value Function Approximation.md"
-    },
-    {
-      "basename": "Bandit",
-      "path": "Bandit.md"
-    },
-    {
-      "basename": "DeepMind",
-      "path": "DeepMind.md"
-    },
-    {
-      "basename": "NVIDIA",
-      "path": "NVIDIA.md"
-    },
-    {
-      "basename": "CS 11-711 Lecture 11",
-      "path": "Courses/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
-    },
-    {
-      "basename": "Structured Pruning",
-      "path": "Structured Pruning.md"
-    },
-    {
-      "basename": "Percentage-of-Zero-Based Pruning",
-      "path": "Percentage-of-Zero-Based Pruning.md"
     }
   ],
   "omittedPaths": [],
