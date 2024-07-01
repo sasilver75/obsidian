@@ -13,7 +13,150 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md",
+                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c11a590c1a2f3e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ed984189d2a0b14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zero-Point Quantization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "daa3e7d8221b4bb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccb060c8ef82f8fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "float4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96f4183bc69f6c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INT4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3d01e6a19de385b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "float4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0140940f11711ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "float4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "885b9cd597a59757",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "float8.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d41a63bc3dad629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee14b39607b13f59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "float8.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48b4357202ce61e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INT8.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md",
+                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md",
+                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md"
+                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
               }
             }
           },
@@ -181,7 +324,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md",
+                "file": "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,23 +373,34 @@
   },
   "active": "8b6e635ae93c7ebe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240630173215.png",
-    "_attachments/Pasted image 20240630173201.png",
-    "_attachments/Pasted image 20240630173130.png",
-    "_attachments/Pasted image 20240630173002.png",
-    "_attachments/Pasted image 20240630172453.png",
-    "_attachments/Pasted image 20240630172304.png",
-    "_attachments/Pasted image 20240630171640.png",
-    "_attachments/Pasted image 20240630171633.png",
-    "_attachments/Pasted image 20240630171356.png",
-    "_attachments/Pasted image 20240630171042.png",
-    "_attachments/Pasted image 20240630170940.png",
-    "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md",
+    "_attachments/Pasted image 20240630191713.png",
+    "_attachments/Pasted image 20240630191707.png",
+    "_attachments/Pasted image 20240630191641.png",
+    "~ Vocabulary.md",
+    "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
+    "Zero-Point Quantization.md",
+    "_attachments/Pasted image 20240630191313.png",
+    "_attachments/Pasted image 20240630191251.png",
+    "_attachments/Pasted image 20240630191241.png",
+    "_attachments/Pasted image 20240630191203.png",
+    "_attachments/Pasted image 20240630191131.png",
+    "Quantization.md",
+    "_attachments/Pasted image 20240630190715.png",
+    "float4.md",
+    "INT4.md",
+    "_attachments/Pasted image 20240630185702.png",
+    "_attachments/Pasted image 20240630185657.png",
+    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "float8.md",
+    "bfloat16.md",
     "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (4) - Pruning and Sparsity Part 2.md",
+    "float16.md",
+    "float32.md",
+    "INT8.md",
+    "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md",
     "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (2) - Basics of Neural Networks.md",
     "Courses/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (1) - Introduction.md",
     "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (7) - Interpretability in Data-Centric ML.md",
-    "~ Vocabulary.md",
     "Active Learning.md",
     "SEALS.md",
     "Outlier Detection.md",
@@ -255,17 +409,6 @@
     "Covariate Shift.md",
     "Concept Shift.md",
     "YOLO.md",
-    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
-    "Hard Negative Mining.md",
-    "CIFAR-10.md",
-    "MNIST.md",
-    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (5) - Class Imbalance, Outliers, and Distribution Shift.md",
-    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
-    "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md",
-    "Cohere.md",
-    "Courses/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md",
-    "Ivan Zhang.md",
-    "Nick Frosst.md",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
     "Courses/TinyML and Efficient Deep Learning @ MIT (2023)",

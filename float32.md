@@ -3,6 +3,9 @@ aliases:
   - FP32
   - Full Precision
 ---
+References:
+- Notes: [[TinyML (5) - Quantization part 1]]
+
 Often referred to as "full precision", in contrast to [[float16|FP16]]/[[bfloat16|BF16]]'s "half precision"
 
 - ==Floating point numbers== are predominantly used, because they can represent a wide range of values with high precision. The *n* bits of a FP number are divided into three distinct components:
@@ -20,3 +23,7 @@ This provides a high degree of precision, but it has high memory and computation
 
 ![[Pasted image 20240627113928.png]]
 ![[Pasted image 20240618105044.png]]
+![[Pasted image 20240630183720.png]]
+![[Pasted image 20240630183305.png]]
+Normal case in Red, Subnormal case in the other rows
+

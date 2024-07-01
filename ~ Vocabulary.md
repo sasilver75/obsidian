@@ -173,12 +173,13 @@
 - [[Adapter Fusion]]
 - [[Quantization]]
 - [[Absolute Maximum Quantization]] (Absmax Quantization)
-- [[Zero-Point Quantization]]
+- [[Zero-Point Quantization]] (ZPQ)
 - [[Quantization-Aware Training]] (QAT)
 - [[Post-Training Quantization]] (PTQ)
 - [[Model-Aware Quantization]]
 - [[Activation-Aware Weight Quantization]] (AWQ)
 - [[LLM.int8()]]
+- [[K-Means Quantization]]
 - [[Pruning]]
 - [[Unstructured Pruning]]
 - [[Structured Pruning]]
@@ -243,7 +244,10 @@
 - [[float32]] (FP32)
 - [[float16]] (FP16)
 - [[bfloat16]] (BF16)
+- [[float8]] (FP8)
+- [[float4]] (FP4)
 - [[INT8]]
+- [[INT4]]
 - [[Transformer]]
 - [[Encoder-Only Architecture]]
 - [[Decoder-Only Architecture]]

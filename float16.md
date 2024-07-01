@@ -17,3 +17,4 @@ More memory efficient and accelerates computation, but the reduced range and pre
 
 ![[Pasted image 20240627113928.png]]
 ![[Pasted image 20240618105044.png]]
+![[Pasted image 20240630183725.png]]
