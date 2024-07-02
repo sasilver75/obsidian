@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Deep Generative Models (1) - Introduction",
+      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "David Silver RL (9) - Exploration and Exploitation",
       "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "VGGNet",
       "path": "VGGNet.md"
-    },
-    {
-      "basename": "Convolutional Neural Network",
-      "path": "Convolutional Neural Network.md"
-    },
-    {
-      "basename": "GoogleNet",
-      "path": "GoogleNet.md"
     }
   ],
   "omittedPaths": [],
