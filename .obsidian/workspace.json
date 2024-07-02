@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md"
               }
             }
           },
@@ -181,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,19 +230,22 @@
   },
   "active": "10e900e3071c2b4e",
   "lastOpenFiles": [
-    "Maximum Likelihood.md",
+    "_attachments/Pasted image 20240702112513.png",
+    "_attachments/Pasted image 20240702104825.png",
+    "_attachments/Pasted image 20240702104545.png",
+    "_attachments/Pasted image 20240702104409.png",
+    "_attachments/Pasted image 20240702104322.png",
+    "_attachments/Pasted image 20240702102739.png",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
+    "Normalized Discounted Cumulative Gain.md",
+    "AlexNet.md",
+    "Maximum Likelihood.md",
     "_attachments/Pasted image 20240702002110.png",
     "_attachments/Pasted image 20240702002059.png",
     "_attachments/Pasted image 20240702001516.png",
     "_attachments/Pasted image 20240702001403.png",
     "_attachments/Pasted image 20240702001154.png",
-    "_attachments/Pasted image 20240702001152.png",
-    "_attachments/Pasted image 20240702000943.png",
-    "_attachments/Pasted image 20240702000645.png",
-    "_attachments/Pasted image 20240702000412.png",
-    "_attachments/Pasted image 20240702000339.png",
-    "AlexNet.md",
     "~ Vocabulary.md",
     "Indices/Evaluation Index.md",
     "Temporal-Difference Search.md",
@@ -263,9 +266,6 @@
     "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md",
     "MixUp.md",
     "LeNet.md",
-    "Overfitting.md",
-    "Underfitting.md",
-    "Inductive Bias.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",

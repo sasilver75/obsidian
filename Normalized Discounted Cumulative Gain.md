@@ -2,6 +2,14 @@
 aliases:
   - NDCG
 ---
+References:
+- Video: [ritvikmath's nDCG: The evaluation metric you've (probably) never heard of](https://youtu.be/BvRMAgx0mvA?si=fQI4Y6Q6nrgSNzNP)
+	- Makes the formula pretty intuitive, but it seems like his numerator differs from the one that I have on this 
+
+A metric that tanks into account both the relevance of retrieved documents, and discounts them based on position in the retrieval. It terms this as a percentage of the *ideal* discounted cumulative gain (of a perfect retrieval/ordering), so nDCG is a metric that ranges from 0 to 1.
+
+----
+ 
  [[Normalized Discounted Cumulative Gain]] (NDCG@K) is another *order-aware* metric that we can derive from a few simpler metrics.
 - We start with Cumulative Gain (CG@K), which is calculate like so:
 ![[Pasted image 20240614110814.png|300]]
