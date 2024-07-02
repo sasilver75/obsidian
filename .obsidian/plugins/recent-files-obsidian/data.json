@@ -5,12 +5,12 @@
       "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
+      "basename": "Maximum Likelihood",
+      "path": "Maximum Likelihood.md"
     },
     {
-      "basename": "David Silver RL (9) - Exploration and Exploitation",
-      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
+      "basename": "AlexNet",
+      "path": "AlexNet.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -19,6 +19,22 @@
     {
       "basename": "Evaluation Index",
       "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "Temporal-Difference Search",
+      "path": "Temporal-Difference Search.md"
+    },
+    {
+      "basename": "Monte-Carlo Tree Search",
+      "path": "Monte-Carlo Tree Search.md"
+    },
+    {
+      "basename": "David Silver RL (9) - Exploration and Exploitation",
+      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
@@ -39,14 +55,6 @@
     {
       "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
       "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md"
-    },
-    {
-      "basename": "Temporal-Difference Search",
-      "path": "Temporal-Difference Search.md"
-    },
-    {
-      "basename": "Monte-Carlo Tree Search",
-      "path": "Monte-Carlo Tree Search.md"
     },
     {
       "basename": "Data Extraction Attack",
@@ -191,14 +199,6 @@
     {
       "basename": "Kaiming He",
       "path": "Kaiming He.md"
-    },
-    {
-      "basename": "Batch Normalization",
-      "path": "Batch Normalization.md"
-    },
-    {
-      "basename": "VGGNet",
-      "path": "VGGNet.md"
     }
   ],
   "omittedPaths": [],
