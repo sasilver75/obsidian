@@ -46,6 +46,7 @@
 - [[Mutual Information]]
 - [[Cross-Entropy]]
 - [[Kolmogorov Complexity]]
+- [[Thompson Sampling]]
 
 # Analytics/Misc. Modeling
 - [[Type One Error]]

@@ -1,5 +1,6 @@
 Resources:
-- [Eugene Yan's Evaluation Blog Post](https://eugeneyan.com/writing/evals/)
+- Blog: [Eugene Yan's Evaluation Blog Post](https://eugeneyan.com/writing/evals/)
+- Blog: [Anthropic out out a call for new Evals that includes criteria on what makes a good evaluation](https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations)
 
 Note: Even with recent benchmarks like MMLU, the same model can get significantly different scores based on the evaluation implementation.
 ![[Pasted image 20240525135012.png|300]]
@@ -66,3 +67,30 @@ Toxicity
 
 ![[Pasted image 20240528105840.png]]
 This is what Evals are really for (Bryan Bischof)
+
+---
+
+From Anthropic:
+### Principles of good evaluations
+
+[Developing great evaluations is hard](https://www.anthropic.com/news/evaluating-ai-systems). Even some of the most experienced developers fall into common traps, and even the best evaluations are not always indicative of risks they purport to measure. Below we list some of the characteristics of good evaluations that we’ve learned through trial-and-error:
+
+1. **Sufficiently difficult:** Evaluations should be relevant for measuring the capabilities listed for levels ASL-3 or ASL-4 in our Responsible Scaling Policy, and/or human-expert level behavior.
+
+2. **Not in the training data:** Too often, evaluations end up measuring model memorization because the data is in its training set. Where possible and useful, make sure the model hasn’t seen the evaluation. This helps indicate that the evaluation is capturing behavior that generalizes beyond the training data.
+
+3. **Efficient, scalable, ready-to-use:** Evaluations should be optimized for efficient execution, leveraging automation where possible. They should be easily deployable using existing infrastructure with minimal setup.
+
+4. **High volume where possible:** All else equal, evaluations with 1,000 or 10,000 tasks or questions are preferable to those with 100. However, high-quality, low-volume evaluations are also valuable.
+
+5. **Domain expertise:** If the evaluation is about expert performance on a particular subject matter (e.g. science), make sure to use subject matter experts to develop or review the evaluation.
+
+6. **Diversity of formats:** Consider using formats that go beyond multiple choice, such as task-based evaluations (for example, seeing if code passes a test or a flag is captured in a CTF), model-graded evaluations, or human trials.
+
+7. **Expert baselines for comparison:** It is often useful to compare the model’s performance to the performance of human experts on that domain.
+
+8. **Good documentation and reproducibility:** We recommend documenting exactly how the evaluation was developed and any limitations or pitfalls it is likely to have. Use standards like the Inspect or the METR standard where possible.
+
+9. **Start small, iterate, and scale:** Start by writing just one to five questions or tasks, run a model on the evaluation, and read the model transcripts. Frequently, you’ll realize the evaluation doesn’t capture what you want to test, or it’s too easy.
+
+10. **Realistic, safety-relevant threat modeling:** Safety evaluations should ideally have the property that if a model scored highly, experts would believe that a major incident could be caused. Most of the time, when models have performed highly, experts have realized that high performance on that version of the evaluation is not sufficient to worry them.
