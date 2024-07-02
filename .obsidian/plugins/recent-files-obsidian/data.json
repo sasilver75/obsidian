@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Deep Generative Models (2) - Background",
+      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md"
+    },
+    {
       "basename": "Deep Generative Models (1) - Introduction",
       "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
     },
     {
-      "basename": "Maximum Likelihood",
-      "path": "Maximum Likelihood.md"
+      "basename": "Normalized Discounted Cumulative Gain",
+      "path": "Normalized Discounted Cumulative Gain.md"
     },
     {
       "basename": "AlexNet",
       "path": "AlexNet.md"
+    },
+    {
+      "basename": "Maximum Likelihood",
+      "path": "Maximum Likelihood.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -191,14 +199,6 @@
     {
       "basename": "Nick Frosst",
       "path": "Nick Frosst.md"
-    },
-    {
-      "basename": "RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/RLAIF - Reinforcement Learning from AI Feedback (Sep 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Kaiming He",
-      "path": "Kaiming He.md"
     }
   ],
   "omittedPaths": [],
