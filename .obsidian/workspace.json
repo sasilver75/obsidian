@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "3a4d4be93e4c4d3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9fba5bee3ca5e541",
             "type": "leaf",
             "state": {
@@ -98,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
               }
             }
           },
@@ -246,7 +260,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -293,8 +307,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "10e900e3071c2b4e",
+  "active": "3a4d4be93e4c4d3d",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
+    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+    "_attachments/Pasted image 20240701175938.png",
+    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
     "_attachments/Pasted image 20240701175618.png",
     "_attachments/Pasted image 20240701175443.png",
     "_attachments/Pasted image 20240701175054.png",
@@ -304,11 +322,8 @@
     "_attachments/Pasted image 20240701174541.png",
     "_attachments/Pasted image 20240701174454.png",
     "_attachments/Pasted image 20240701174417.png",
-    "_attachments/Pasted image 20240701174058.png",
-    "_attachments/Pasted image 20240701172655.png",
     "~ Vocabulary.md",
     "Indices/Evaluation Index.md",
-    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
     "Policy Gradient.md",
     "Multi-Armed Bandit.md",
@@ -330,7 +345,6 @@
     "Inductive Bias.md",
     "ImageNet.md",
     "Convolution.md",
-    "GPT-4.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
