@@ -47,6 +47,9 @@
 - [[Cross-Entropy]]
 - [[Kolmogorov Complexity]]
 - [[Thompson Sampling]]
+- [[Chain Rule of Probability]]
+- [[Bayes Rule]]
+- [[Bayesian Network]]
 
 # Analytics/Misc. Modeling
 - [[Type One Error]]
