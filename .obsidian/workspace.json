@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3e47990909b1e2f",
+            "id": "10e900e3071c2b4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Policy Gradient.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "10e900e3071c2b4e",
+            "id": "9fba5bee3ca5e541",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27c32927d1213e62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indices/Evaluation Index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -85,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -160,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
               }
             }
           },
@@ -233,7 +246,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -282,22 +295,27 @@
   },
   "active": "10e900e3071c2b4e",
   "lastOpenFiles": [
-    "Policy Gradient.md",
+    "_attachments/Pasted image 20240701175618.png",
+    "_attachments/Pasted image 20240701175443.png",
+    "_attachments/Pasted image 20240701175054.png",
+    "_attachments/Pasted image 20240701174714.png",
+    "_attachments/Pasted image 20240701174638.png",
+    "_attachments/Pasted image 20240701174625.png",
+    "_attachments/Pasted image 20240701174541.png",
+    "_attachments/Pasted image 20240701174454.png",
+    "_attachments/Pasted image 20240701174417.png",
+    "_attachments/Pasted image 20240701174058.png",
+    "_attachments/Pasted image 20240701172655.png",
     "~ Vocabulary.md",
+    "Indices/Evaluation Index.md",
+    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
+    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
+    "Policy Gradient.md",
+    "Multi-Armed Bandit.md",
     "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md",
-    "_attachments/Pasted image 20240701151942.png",
     "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md",
-    "_attachments/Pasted image 20240701151700.png",
-    "_attachments/Pasted image 20240701151244.png",
     "Temporal-Difference Search.md",
-    "_attachments/Pasted image 20240701151158.png",
-    "_attachments/Pasted image 20240701151036.png",
     "Monte-Carlo Tree Search.md",
-    "_attachments/Pasted image 20240701150630.png",
-    "_attachments/Pasted image 20240701150045.png",
-    "_attachments/Pasted image 20240701145954.png",
-    "_attachments/Pasted image 20240701145941.png",
-    "_attachments/Pasted image 20240701145907.png",
     "Data Extraction Attack.md",
     "Shadow Model.md",
     "Membership Inference Attack.md",
@@ -313,11 +331,6 @@
     "ImageNet.md",
     "Convolution.md",
     "GPT-4.md",
-    "MobileNet.md",
-    "DenseNet.md",
-    "Swin.md",
-    "Residual Block.md",
-    "Residual Connection.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",

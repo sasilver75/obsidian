@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "David Silver RL (9) - Exploration and Exploitation",
+      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Evaluation Index",
+      "path": "Indices/Evaluation Index.md"
+    },
+    {
+      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
+      "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
+    },
+    {
       "basename": "Policy Gradient",
       "path": "Policy Gradient.md"
+    },
+    {
+      "basename": "Multi-Armed Bandit",
+      "path": "Multi-Armed Bandit.md"
     },
     {
       "basename": "David Silver RL (8) - Integrating Learning and Planning",
@@ -183,22 +199,6 @@
     {
       "basename": "GoogleNet",
       "path": "GoogleNet.md"
-    },
-    {
-      "basename": "AlexNet",
-      "path": "AlexNet.md"
-    },
-    {
-      "basename": "Dropout",
-      "path": "Dropout.md"
-    },
-    {
-      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
-      "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
-    },
-    {
-      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
-      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
     }
   ],
   "omittedPaths": [],
