@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Deep Generative Models (3) - Autoregressive Models",
+      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md"
+    },
+    {
+      "basename": "Masked Autoencoder",
+      "path": "Masked Autoencoder.md"
+    },
+    {
+      "basename": "AlexNet",
+      "path": "AlexNet.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "UCB Deep Unsupervised Learning (2) - Autoregressive Models",
       "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md"
     },
@@ -13,16 +29,8 @@
       "path": "Bayesian Network.md"
     },
     {
-      "basename": "AlexNet",
-      "path": "AlexNet.md"
-    },
-    {
       "basename": "Deep Generative Models (2) - Background",
       "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Deep Generative Models (1) - Introduction",
@@ -191,14 +199,6 @@
     {
       "basename": "MobileNet-V2",
       "path": "MobileNet-V2.md"
-    },
-    {
-      "basename": "Residual Network",
-      "path": "Residual Network.md"
-    },
-    {
-      "basename": "He Initialization",
-      "path": "He Initialization.md"
     }
   ],
   "omittedPaths": [],

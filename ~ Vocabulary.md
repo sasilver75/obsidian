@@ -115,6 +115,8 @@
 - [[Sample Weights]]
 - [[Balanced Mini-Batch Training]]
 - [[Isolation Forest]]
+- [[Linear Regression]]
+- [[Logistic Regression]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -159,6 +161,7 @@
 - [[Preference-Tuning]]
 - [[Transfer Learning]]
 - [[Autoencoder]]
+- [[Masked Autoencoder]]
 - [[Variational Autoencoder]] (VAE)
 - [[Beta-VAE]]
 - [[Ensemble Learning]]
