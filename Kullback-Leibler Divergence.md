@@ -9,12 +9,17 @@ References:
 - https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence
 - [Video: KL Divergence - CLEARLY Explained! ~ Kapil Sachdeva](https://youtu.be/9_eZHt2qJs4?si=SveGupYXpPJ5VOHe)
 - Video: [Luis Serrano KL Divergence](https://www.youtube.com/watch?v=sjgZxuCm_8Q&list=WL&index=24&t=9s)
-	- Actually explains the idea of "negative lob probabilities" very intuitively!
+	- Actually explains the idea of why we use "negative lob probabilities" very intuitively!
 
-$D_{KL}(P||Q) = \sum_{x\exists{X}}{P(x)log(P(x)/Q(x))}$ 
-This measures how much $Q$ diverges from $P$, or how much "information" is lost when using $Q$ to approximate $P$. KL Divergence is in the \[0, $\infty$\]
+![[Pasted image 20240703135248.png|300]]
+(Above: Definition)
+
+This measures how much $Q$ diverges from $P$, or how much "information" is lost when using $Q$ to approximate $P$. KL Divergence is in the \[0, $\infty$\], and 0 only if p=q.
 Captures distances between probability distributions. It is a ==non-symmetric measure==.
 Minimizing the Cross Entropy Loss is equivalent to minimizing the KL loss. Since the CE Loss has a simpler form, it's become (one of) the standard loss functions.
+
+![[Pasted image 20240703140046.png]]
+(Above: Definition; example in the case of probability density estimation, with our approximating distribution parametrized by some $\theta$)
 
 Variants:
 - ==Forward KL Divergence== (from p, the reference distribution, to q, the approximating distribution. This is the one we use in ML; it's mean-seeking)
@@ -43,8 +48,6 @@ The [[Kullback-Leibler Divergence|KL-Divergence]] is between P and Q is simply t
 - As you can see, the smallest KL divergence is between the distribution and itself, and the 
 (Correction to table: For Die 1: 0.4^4 * 0.2^2 * 0.1^1 * 0.1^1 * 0.2^2 For Die 2: 0.4^4 * 0.1^2 * 0.2^1 * 0.2^1 * 0.1^2 For Die 3: 0.1^4 * 0.2^2 * 0.4^1 * 0.2^1 * 0.1^2)
 
-![[Pasted image 20240703133047.png]]
-
 This can also be extended from the discrete case to the continuous case:
 ![[Pasted image 20240703133113.png]]
 
@@ -61,6 +64,11 @@ $H(P, Q) = H(P) + D_{KL}(P||Q)$
 
 or equivalently
 $D_{KL}(P||Q) = H(P,Q) -  H(P)$ 
+*KLDivergence(P,Q) = CrossEntropy(P,Q)-Entropy(P)*
+
+![[Pasted image 20240703135423.png|300]]
+(Above: Consider how this formula falls out of the alternative phrasing of Cross Entropy minus Entropy, where cross entropy is $H(P,Q) = -\sum{P(x)log(Q(x))}$  and entropy is $H(P) = -\sum_{P(x)log(P(x))}$ 
+- Consider the identity $log(a) - log(b)  = log(a/b)$ ... and we see how we get the log odds ratio.
 
 Therefore, relative entropy (KL Divergence) can be interpreted as ==the expected extra message-length per datum that must be communicated if a code that is optimal for a given (wrong) distribution Q is used, compared to using a code based on the true distribution P: it is the _excess_ entropy.==
 
