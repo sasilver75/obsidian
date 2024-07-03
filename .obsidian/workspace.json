@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -160,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md"
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
               }
             }
           },
@@ -233,7 +232,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
+                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -280,23 +279,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "10e900e3071c2b4e",
+  "active": "aba8fe69d46d9ccd",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240702201151.png",
-    "_attachments/Pasted image 20240702201106.png",
-    "_attachments/Pasted image 20240702201033.png",
-    "_attachments/Pasted image 20240702201014.png",
-    "_attachments/Pasted image 20240702200613.png",
-    "_attachments/Pasted image 20240702200401.png",
+    "_attachments/Pasted image 20240702215453.png",
+    "_attachments/Pasted image 20240702214616.png",
+    "_attachments/Pasted image 20240702214121.png",
+    "_attachments/Pasted image 20240702213924.png",
+    "_attachments/Pasted image 20240702213703.png",
+    "_attachments/Pasted image 20240702213453.png",
+    "_attachments/Pasted image 20240702213159.png",
+    "_attachments/Pasted image 20240702213013.png",
+    "_attachments/Pasted image 20240702212745.png",
+    "_attachments/Pasted image 20240702212525.png",
+    "_attachments/Pasted image 20240702212418.png",
+    "Variational Autoencoder.md",
+    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
     "Masked Autoencoder.md",
     "AlexNet.md",
-    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240702195410.png",
-    "_attachments/Pasted image 20240702195025.png",
-    "_attachments/Pasted image 20240702194815.png",
-    "_attachments/Pasted image 20240702193943.png",
-    "_attachments/Pasted image 20240702191033.png",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
     "Bayesian Network.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
@@ -316,8 +317,6 @@
     "Data Extraction Attack.md",
     "Shadow Model.md",
     "Membership Inference Attack.md",
-    "Back-Translation.md",
-    "Model-Free.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
