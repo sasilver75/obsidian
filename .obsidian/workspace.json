@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md"
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md"
               }
             }
           },
@@ -207,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -256,22 +256,24 @@
   },
   "active": "10e900e3071c2b4e",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240702142651.png",
-    "_attachments/Pasted image 20240702142456.png",
-    "_attachments/Pasted image 20240702141326.png",
-    "_attachments/Pasted image 20240702141055.png",
-    "_attachments/Pasted image 20240702141029.png",
-    "_attachments/Pasted image 20240702140947.png",
-    "_attachments/Pasted image 20240702132843.png",
-    "_attachments/Pasted image 20240702132805.png",
-    "_attachments/Pasted image 20240702132804.png",
-    "_attachments/Pasted image 20240702132707.png",
-    "_attachments/Pasted image 20240702132623.png",
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240702172917.png",
+    "_attachments/Pasted image 20240702171734.png",
+    "_attachments/Pasted image 20240702171618.png",
+    "_attachments/Pasted image 20240702171541.png",
+    "_attachments/Pasted image 20240702171357.png",
+    "_attachments/Pasted image 20240702171138.png",
+    "_attachments/Pasted image 20240702170947.png",
+    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
+    "_attachments/Pasted image 20240702170837.png",
+    "_attachments/Pasted image 20240702170807.png",
+    "_attachments/Pasted image 20240702165909.png",
+    "_attachments/Pasted image 20240702165839.png",
+    "Bayesian Network.md",
+    "AlexNet.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
+    "~ Vocabulary.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
     "Normalized Discounted Cumulative Gain.md",
-    "AlexNet.md",
     "Maximum Likelihood.md",
     "Indices/Evaluation Index.md",
     "Temporal-Difference Search.md",
@@ -290,8 +292,6 @@
     "Model-Free.md",
     "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md",
     "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md",
-    "MixUp.md",
-    "LeNet.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
