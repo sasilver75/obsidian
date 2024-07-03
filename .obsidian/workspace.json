@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Ideas.md"
+                "file": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md"
               }
             }
           },
@@ -246,7 +246,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -295,6 +295,19 @@
   },
   "active": "10e900e3071c2b4e",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240703011020.png",
+    "_attachments/Pasted image 20240703010824.png",
+    "_attachments/Pasted image 20240703010241.png",
+    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (5) - Building with DNA.md",
+    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (4) - Inheritance and Genes.md",
+    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (3) - Information Transfer in Biology.md",
+    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (2) - The Cell and How it Works.md",
+    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md",
+    "~ Ideas.md",
+    "Courses/Getting up to Speed in Biology @ MIT (2020)",
+    "Courses/Getting up to Speed in Biology @ MIT (2020).md",
+    "Courses/7.016 Introductory Biology @ MIT (2018)",
+    "Courses/7.016 INtroductory.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240702225605.png",
     "Monte-Carlo Tree Search.md",
@@ -308,8 +321,6 @@
     "_attachments/Pasted image 20240702223108.png",
     "_attachments/Pasted image 20240702222221.png",
     "_attachments/Pasted image 20240702215453.png",
-    "_attachments/Pasted image 20240702214616.png",
-    "_attachments/Pasted image 20240702214121.png",
     "Variational Autoencoder.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
     "Masked Autoencoder.md",
@@ -322,14 +333,6 @@
     "Maximum Likelihood.md",
     "Indices/Evaluation Index.md",
     "Temporal-Difference Search.md",
-    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
-    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
-    "Policy Gradient.md",
-    "Multi-Armed Bandit.md",
-    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md",
-    "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md",
-    "Data Extraction Attack.md",
-    "Shadow Model.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",
@@ -337,8 +340,6 @@
     "Courses/Introduction to Data-Centric AI @ MIT (2023)",
     "Courses/David Silver UCL Reinforcement Learning (2015)",
     "Courses/HuggingFace RL",
-    "Courses/CS236 Deep Generative Models @ Stanford (2023)",
-    "Courses/HuggingFace NLP",
-    "Courses/Misc Tutorials"
+    "Courses/CS236 Deep Generative Models @ Stanford (2023)"
   ]
 }
