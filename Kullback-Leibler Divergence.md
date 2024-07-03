@@ -12,8 +12,8 @@ References:
 	- Actually explains the idea of "negative lob probabilities" very intuitively!
 
 $D_{KL}(P||Q) = \sum_{x\exists{X}}{P(x)log(P(x)/Q(x))}$ 
-This measures how much $Q$ diverges from $P$, or how much "information" is lost when using $Q$ to approximate $P$.
-Captures distances between probability distributions. It is a non-symmetric measure.
+This measures how much $Q$ diverges from $P$, or how much "information" is lost when using $Q$ to approximate $P$. KL Divergence is in the \[0, $\infty$\]
+Captures distances between probability distributions. It is a ==non-symmetric measure==.
 Minimizing the Cross Entropy Loss is equivalent to minimizing the KL loss. Since the CE Loss has a simpler form, it's become (one of) the standard loss functions.
 
 Variants:
@@ -34,12 +34,20 @@ Say we wanted to replicate some sequence of rolls; Intuitively, the second die s
 - In the bottom right, we're comparing Die1 with itself, and we get the [[Cross-Entropy]] H(P|P); in this case, we're comparing it with itself, so it's just the [[Entropy]] H(P). In general, the more spread-out the distribution is, the higher the entropy is.
 Let's now do the same thing, but compare Die1 and Die2
 ![[Pasted image 20240703131238.png]]
-See that we're considering the cross entropy from Die1 to Die2, in this situation.
+See that we're considering the Cross Entropy from Die1 to Die2, in this situation. See that $-(1/n)log(probability)$ is equivalent to $-\sum_i{p_ilog(q_i)}$ -- think about why.
 And let's do the same thing for Die1 and Die3 (where Die3 was more visually dissimilar to Die1 than Die2 was)
 ![[Pasted image 20240703131357.png]]
 When we compare these figures
 ![[Pasted image 20240703131441.png]]
-The [[Kullback-Leibler Divergence|KL-Divergence]] is between P and Q is simp
+The [[Kullback-Leibler Divergence|KL-Divergence]] is between P and Q is simply the Cross Entropy H(P|Q).
+- As you can see, the smallest KL divergence is between the distribution and itself, and the 
+(Correction to table: For Die 1: 0.4^4 * 0.2^2 * 0.1^1 * 0.1^1 * 0.2^2 For Die 2: 0.4^4 * 0.1^2 * 0.2^1 * 0.2^1 * 0.1^2 For Die 3: 0.1^4 * 0.2^2 * 0.4^1 * 0.2^1 * 0.1^2)
+
+![[Pasted image 20240703133047.png]]
+
+This can also be extended from the discrete case to the continuous case:
+![[Pasted image 20240703133113.png]]
+
 
 - ---
 Relationship between KL Divergence and [[Cross-Entropy]]
@@ -49,9 +57,14 @@ Relationship between KL Divergence and [[Cross-Entropy]]
 Mathematically, we usually say:
 
 $H(P, Q) = H(P) + D_{KL}(P||Q)$ 
-CrossEntropy(P,Q) = Entropy(P) + KLDivergence(P, Q)
+*CrossEntropy(P,Q) = Entropy(P) + KLDivergence(P, Q)*
 
-Given two distributions, this makes sense that ==minimizing the CE and minimizing the KLD both amount to doing the same thing.==
+or equivalently
+$D_{KL}(P||Q) = H(P,Q) -  H(P)$ 
+
+Therefore, relative entropy (KL Divergence) can be interpreted as ==the expected extra message-length per datum that must be communicated if a code that is optimal for a given (wrong) distribution Q is used, compared to using a code based on the true distribution P: it is the _excess_ entropy.==
+
+Given two distributions, this makes sense that ==minimizing the Cross Entropy and minimizing the KL Divergence both amount to doing the same thing.==
 
 Q: So why do we choose to use Cross-Entropy instead of KL Divergence in most classification task losses?
 - Primarily due to the fact that Cross Entropy is formulated in a way that is computationally convenient and interpretable in the context of classification problems -- it directly ties to maximizing the likelihood of the observed data under the model, which is a fundamental principle in statistical modeling.

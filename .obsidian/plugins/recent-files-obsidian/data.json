@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "AlexNet",
+      "path": "AlexNet.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Sigmoid Activation Function",
+      "path": "Sigmoid Activation Function.md"
+    },
+    {
       "basename": "Kullback-Leibler Divergence",
       "path": "Kullback-Leibler Divergence.md"
     },
@@ -9,24 +25,12 @@
       "path": "Direct Preference Optimization.md"
     },
     {
-      "basename": "Sigmoid Activation Function",
-      "path": "Sigmoid Activation Function.md"
-    },
-    {
       "basename": "Cross-Entropy",
       "path": "Cross-Entropy.md"
     },
     {
       "basename": "Christopher Manning",
       "path": "Christopher Manning.md"
-    },
-    {
-      "basename": "AlexNet",
-      "path": "AlexNet.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Getting up to Speed (1) - The Molecules of Life",
@@ -51,10 +55,6 @@
     {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Monte-Carlo Tree Search",
