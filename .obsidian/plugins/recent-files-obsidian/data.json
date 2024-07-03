@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Deep Generative Models (4) - Maximum Likelihood Estimation",
+      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
+    },
+    {
+      "basename": "Variational Autoencoder",
+      "path": "Variational Autoencoder.md"
+    },
+    {
       "basename": "Deep Generative Models (3) - Autoregressive Models",
       "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "ConvNext",
       "path": "ConvNext.md"
-    },
-    {
-      "basename": "Vision Transformer",
-      "path": "Vision Transformer.md"
-    },
-    {
-      "basename": "MobileNet-V2",
-      "path": "MobileNet-V2.md"
     }
   ],
   "omittedPaths": [],
