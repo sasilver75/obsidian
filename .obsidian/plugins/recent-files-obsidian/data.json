@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "Sigmoid Activation Function",
+      "path": "Sigmoid Activation Function.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Christopher Manning",
+      "path": "Christopher Manning.md"
+    },
+    {
+      "basename": "AlexNet",
+      "path": "AlexNet.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Getting up to Speed (1) - The Molecules of Life",
       "path": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md"
     },
@@ -41,10 +69,6 @@
       "path": "Courses/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Variational Autoencoder",
       "path": "Variational Autoencoder.md"
     },
@@ -55,10 +79,6 @@
     {
       "basename": "Masked Autoencoder",
       "path": "Masked Autoencoder.md"
-    },
-    {
-      "basename": "AlexNet",
-      "path": "AlexNet.md"
     },
     {
       "basename": "UCB Deep Unsupervised Learning (2) - Autoregressive Models",
@@ -179,26 +199,6 @@
     {
       "basename": "GPT-4",
       "path": "GPT-4.md"
-    },
-    {
-      "basename": "MobileNet",
-      "path": "MobileNet.md"
-    },
-    {
-      "basename": "DenseNet",
-      "path": "DenseNet.md"
-    },
-    {
-      "basename": "Swin",
-      "path": "Swin.md"
-    },
-    {
-      "basename": "Residual Block",
-      "path": "Residual Block.md"
-    },
-    {
-      "basename": "Residual Connection",
-      "path": "Residual Connection.md"
     }
   ],
   "omittedPaths": [],

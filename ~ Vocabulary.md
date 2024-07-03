@@ -1002,6 +1002,7 @@
 - [[Sebastian Ruder]] 🧑‍🏫
 - [[Douwe Kiela]] 📝
 - [[Alec Radford]] 🐐
+- [[Christopher Manning]] 🧝
 - [[Christopher Potts]] 🧑‍🏫
 - [[Yi Tay]] 👨‍🔬
 - [[Maxime Labonne]] 👨‍🔬

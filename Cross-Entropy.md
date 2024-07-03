@@ -1,5 +1,7 @@
 References:
-- https://youtu.be/Pwgpl9mKars?si=JyHt2cKJhz_hksNm
+- Video: [Intuitively understanding the cross-entropy loss](https://youtu.be/Pwgpl9mKars?si=JyHt2cKJhz_hksNm)
+- Video: [Luis Serrano's KL Divergence Video](https://www.youtube.com/watch?v=sjgZxuCm_8Q&list=WL&index=24&t=9s)
+	- Has some great intuition on entropy, cross-entropy, KL divergence
 
 See also:
 - [[Kullback-Leibler Divergence]]

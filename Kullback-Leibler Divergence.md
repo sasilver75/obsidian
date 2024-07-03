@@ -8,23 +8,39 @@ References:
 - https://youtu.be/SxGYPqCgJWM?si=CKmBi34_mv0oayTZ
 - https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence
 - [Video: KL Divergence - CLEARLY Explained! ~ Kapil Sachdeva](https://youtu.be/9_eZHt2qJs4?si=SveGupYXpPJ5VOHe)
+- Video: [Luis Serrano KL Divergence](https://www.youtube.com/watch?v=sjgZxuCm_8Q&list=WL&index=24&t=9s)
+	- Actually explains the idea of "negative lob probabilities" very intuitively!
 
-
-
-
-$D_{KL}(P||Q) = \sum_{x\exists{X}}{P(x)log(\dfrac{P(x)}{Q(x)})}$ 
+$D_{KL}(P||Q) = \sum_{x\exists{X}}{P(x)log(P(x)/Q(x))}$ 
 This measures how much $Q$ diverges from $P$, or how much "information" is lost when using $Q$ to approximate $P$.
-
-
 Captures distances between probability distributions. It is a non-symmetric measure.
-
 Minimizing the Cross Entropy Loss is equivalent to minimizing the KL loss. Since the CE Loss has a simpler form, it's become (one of) the standard loss functions.
 
 Variants:
 - ==Forward KL Divergence== (from p, the reference distribution, to q, the approximating distribution. This is the one we use in ML; it's mean-seeking)
 - ==Reverse KL Divergence== (from q, the approximating distribution, to p, the reference distribution. Mode-seeking behavior.)
 
- 
+---
+
+Say we have a five-sided die with the following probabilities over rolls.
+![[Pasted image 20240703124320.png]]
+![[Pasted image 20240703124425.png|300]]
+Say we wanted to replicate some sequence of rolls; Intuitively, the second die seems most similar to the first die. But how can we actually quantify that? What's the probability of Die2 or Die3 of generating this sequence?
+- We can take the probability of generating a single outcome, and consider that all the rolls in the sequence are independent... so we just get the product of all of the probabilities of each roll in the sequence. 
+![[Pasted image 20240703131212.png]]
+- - This results in a very small number, because we're multiplying many < 1 numbers together -- we might even underflow! 
+- We can turn this product into a sum by taking the log of each probability and adding them! This is because of the identity $log(ab) = log(a) + log(b)$. Now we have a sum of log probabilities -- but the log of a small number between 0...1 is a negative number, so our sum is going to be negative. Because we'd prefer positives, let's just multiply the entire thing by -1 to get a positive number. Let's also divide by the number of rolls to get an average.
+![[Pasted image 20240703131027.png]]
+- In the bottom right, we're comparing Die1 with itself, and we get the [[Cross-Entropy]] H(P|P); in this case, we're comparing it with itself, so it's just the [[Entropy]] H(P). In general, the more spread-out the distribution is, the higher the entropy is.
+Let's now do the same thing, but compare Die1 and Die2
+![[Pasted image 20240703131238.png]]
+See that we're considering the cross entropy from Die1 to Die2, in this situation.
+And let's do the same thing for Die1 and Die3 (where Die3 was more visually dissimilar to Die1 than Die2 was)
+![[Pasted image 20240703131357.png]]
+When we compare these figures
+![[Pasted image 20240703131441.png]]
+The [[Kullback-Leibler Divergence|KL-Divergence]] is between P and Q is simp
+
 - ---
 Relationship between KL Divergence and [[Cross-Entropy]]
 - Both metrics aim to measure how one distribution differs from a second, reference probability distribution. When applied to the problem of classification.
