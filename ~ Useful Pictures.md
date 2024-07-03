@@ -1,3 +1,6 @@
+
+
+![[Pasted image 20240702224659.png]]
 ![[Pasted image 20240701175938.png]]
 
 ![[Pasted image 20240628215835.png]]

@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "~ Ideas.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8683cf9f8a03d560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -143,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -159,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "~ Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "~ Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
+                "file": "~ Ideas.md"
               }
             }
           },
@@ -232,7 +246,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "~ Ideas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -279,25 +293,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "aba8fe69d46d9ccd",
+  "active": "10e900e3071c2b4e",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240702225605.png",
+    "Monte-Carlo Tree Search.md",
+    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+    "_attachments/Pasted image 20240702225029.png",
+    "Courses/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240702224659.png",
+    "_attachments/Pasted image 20240702224644.png",
+    "_attachments/Pasted image 20240702224606.png",
+    "_attachments/Pasted image 20240702223108.png",
+    "_attachments/Pasted image 20240702222221.png",
     "_attachments/Pasted image 20240702215453.png",
     "_attachments/Pasted image 20240702214616.png",
     "_attachments/Pasted image 20240702214121.png",
-    "_attachments/Pasted image 20240702213924.png",
-    "_attachments/Pasted image 20240702213703.png",
-    "_attachments/Pasted image 20240702213453.png",
-    "_attachments/Pasted image 20240702213159.png",
-    "_attachments/Pasted image 20240702213013.png",
-    "_attachments/Pasted image 20240702212745.png",
-    "_attachments/Pasted image 20240702212525.png",
-    "_attachments/Pasted image 20240702212418.png",
     "Variational Autoencoder.md",
-    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
     "Masked Autoencoder.md",
     "AlexNet.md",
-    "~ Vocabulary.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
     "Bayesian Network.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
@@ -306,9 +322,7 @@
     "Maximum Likelihood.md",
     "Indices/Evaluation Index.md",
     "Temporal-Difference Search.md",
-    "Monte-Carlo Tree Search.md",
     "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md",
-    "~ Useful Pictures.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
     "Policy Gradient.md",
     "Multi-Armed Bandit.md",
@@ -316,7 +330,6 @@
     "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md",
     "Data Extraction Attack.md",
     "Shadow Model.md",
-    "Membership Inference Attack.md",
     "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Stat110 Probability @ Harvard (2013)",

@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Monte-Carlo Tree Search",
+      "path": "Monte-Carlo Tree Search.md"
+    },
+    {
       "basename": "Deep Generative Models (4) - Maximum Likelihood Estimation",
       "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
+    },
+    {
+      "basename": "Lecture - Why Fine-Tuning is Dead",
+      "path": "Courses/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Variational Autoencoder",
@@ -19,10 +39,6 @@
     {
       "basename": "AlexNet",
       "path": "AlexNet.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "UCB Deep Unsupervised Learning (2) - Autoregressive Models",
@@ -61,16 +77,8 @@
       "path": "Temporal-Difference Search.md"
     },
     {
-      "basename": "Monte-Carlo Tree Search",
-      "path": "Monte-Carlo Tree Search.md"
-    },
-    {
       "basename": "David Silver RL (9) - Exploration and Exploitation",
       "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
@@ -191,14 +199,6 @@
     {
       "basename": "K-Means Quantization",
       "path": "K-Means Quantization.md"
-    },
-    {
-      "basename": "float8",
-      "path": "float8.md"
-    },
-    {
-      "basename": "ConvNext",
-      "path": "ConvNext.md"
     }
   ],
   "omittedPaths": [],
