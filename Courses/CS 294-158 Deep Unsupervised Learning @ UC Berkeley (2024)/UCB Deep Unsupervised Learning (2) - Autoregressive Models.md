@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=2ojJUSMf-_g&list=PLwRJQ4m4UJjPIvv4kgBkvu_uygrV3ut_U&index=6
 
+Not a very useful lecture, PhD student self half is schizophrenic
+
 ![[Pasted image 20240702144053.png]]
 Autoregressive are *one type* of generative model (we'll cover ~5 in this course).
 It has many advantages that make it quite popular as a formulation these days, but it's still not so clear which models are going to be the most important ones.
@@ -272,3 +274,44 @@ Now let's talk about Caching.
 ![[Pasted image 20240702172917.png]]
 Annoying thing: We have to recompute all of the KVs for all of the prior timestamps every time! Meaning we have to run all of x1...xn-1 all through the entire transformer network -- this makes it very expensive.
 - Every sampling pass is a full forward pass of the transformer
+
+Instead, we cache the K and Vs for all attention layers of each sampling step!
+![[Pasted image 20240702173039.png]]
+Before, we would just throw our K and V.... but in this case, we explicitly store these tensors in our memory and keep them persistent as we sample the next tokens.
+![[Pasted image 20240702173108.png]]
+Then we compute k3,v3, and get q3, and compute the attention...
+We apeend (k3,v3) to our cache
+
+We then do x4...
+So we have our cache from k1 to k3, 
+![[Pasted image 20240702173138.png]]
+We compute k4,v4 and q, do attention, cache k4,v4, ...
+![[Pasted image 20240702173158.png]]
+We're essentially trading off GPU memory for speed; If we have 10 attention layer, we have to stash k,v's for every attention layer -- but it's ver worth it, because it brings our sampling down from O(L^2) to O(L).
+
+----
+
+# Other things to be aware of
+
+## Decoder only vs Encoder-Decoder models
+- The original attention is all you need paper used the [[Encoder-Decoder Architecture]], which is similar... but it has an additional encoder stack, and the decoder stack performs an additional cross-attention to the bi-directional encoder.
+- ![[Pasted image 20240702173433.png|250]]
+- In general, this is a pretty good architecture for cases when you have a clear conditional distribution to our model ( a clear input and output )
+	- MT
+	- Text to image generation
+	- Image captioning
+	- Video captioning
+	- Summarization
+(Clearly structured in some way)
+It just doesn't work as well for Chat-style models where you don't know "What is input and what is output (?)" -- output will be input eventually as you sample the model, making it harder to structure a model like this (?).
+![[Pasted image 20240702173556.png|400]]
+- It's nice to condition things on the representations produced by the encoder stack of these models (though you could also just use an encoder-only model? 😄)
+
+## New Incarnations of recurrent models
+- ![[Pasted image 20240702174201.png]]
+- Can we get around the sequential nature of recurrent models, to improve their performance during training?
+![[Pasted image 20240702175135.png]]
+- We treat x as the hidden state of our RNN, and u and the input, and y is the output.
+- So it's basically multiplying a few matrices.... and outputting it (?)
+
+(Terrible explanation)
