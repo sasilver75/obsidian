@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Deep Generative Models (4) - Maximum Likelihood Estimation",
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
+    },
+    {
+      "basename": "Deep Generative Models (1) - Introduction",
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
+    },
+    {
+      "basename": "TODO - Getting up to Speed (1) - The Molecules of Life",
+      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (1) - The Molecules of Life.md"
+    },
+    {
+      "basename": "TODO - Getting up to Speed (2) - The Cell and How it Works",
+      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (2) - The Cell and How it Works.md"
+    },
+    {
+      "basename": "TODO - Getting up to Speed (3) - Information Transfer in Biology",
+      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (3) - Information Transfer in Biology.md"
+    },
+    {
+      "basename": "TODO - Getting up to Speed (5) - Building with DNA",
+      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (5) - Building with DNA.md"
+    },
+    {
+      "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
+      "path": "Articles/Machine Learning/7 Tips for Junior Researchers (?) {Ofir Press}.md"
+    },
+    {
+      "basename": "A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}",
+      "path": "Articles/Machine Learning/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md"
+    },
+    {
+      "basename": "TODO - Getting up to Speed (4) - Inheritance and Genes",
+      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (4) - Inheritance and Genes.md"
+    },
+    {
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
+    },
+    {
       "basename": "AlexNet",
       "path": "AlexNet.md"
     },
@@ -17,40 +65,12 @@
       "path": "Sigmoid Activation Function.md"
     },
     {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
-    },
-    {
       "basename": "Direct Preference Optimization",
       "path": "Direct Preference Optimization.md"
     },
     {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
-    },
-    {
       "basename": "Christopher Manning",
       "path": "Christopher Manning.md"
-    },
-    {
-      "basename": "Getting up to Speed (1) - The Molecules of Life",
-      "path": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md"
-    },
-    {
-      "basename": "Getting up to Speed (5) - Building with DNA",
-      "path": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (5) - Building with DNA.md"
-    },
-    {
-      "basename": "Getting up to Speed (4) - Inheritance and Genes",
-      "path": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (4) - Inheritance and Genes.md"
-    },
-    {
-      "basename": "Getting up to Speed (3) - Information Transfer in Biology",
-      "path": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (3) - Information Transfer in Biology.md"
-    },
-    {
-      "basename": "Getting up to Speed (2) - The Cell and How it Works",
-      "path": "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (2) - The Cell and How it Works.md"
     },
     {
       "basename": "~ Ideas",
@@ -61,12 +81,8 @@
       "path": "Monte-Carlo Tree Search.md"
     },
     {
-      "basename": "Deep Generative Models (4) - Maximum Likelihood Estimation",
-      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
-    },
-    {
       "basename": "Lecture - Why Fine-Tuning is Dead",
-      "path": "Courses/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md"
+      "path": "Courses/Machine Learning/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md"
     },
     {
       "basename": "Variational Autoencoder",
@@ -74,7 +90,7 @@
     },
     {
       "basename": "Deep Generative Models (3) - Autoregressive Models",
-      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md"
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md"
     },
     {
       "basename": "Masked Autoencoder",
@@ -82,7 +98,7 @@
     },
     {
       "basename": "UCB Deep Unsupervised Learning (2) - Autoregressive Models",
-      "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md"
+      "path": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md"
     },
     {
       "basename": "Pasted image 20240702170947",
@@ -94,11 +110,7 @@
     },
     {
       "basename": "Deep Generative Models (2) - Background",
-      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md"
-    },
-    {
-      "basename": "Deep Generative Models (1) - Introduction",
-      "path": "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md"
     },
     {
       "basename": "Normalized Discounted Cumulative Gain",
@@ -118,11 +130,11 @@
     },
     {
       "basename": "David Silver RL (9) - Exploration and Exploitation",
-      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
+      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
     },
     {
       "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
-      "path": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
+      "path": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
     },
     {
       "basename": "Policy Gradient",
@@ -134,11 +146,11 @@
     },
     {
       "basename": "David Silver RL (8) - Integrating Learning and Planning",
-      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
+      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
     },
     {
       "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
-      "path": "Courses/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md"
+      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md"
     },
     {
       "basename": "Data Extraction Attack",
@@ -162,11 +174,11 @@
     },
     {
       "basename": "Data-Centric AI (9) - Data Privacy and Security",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md"
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md"
     },
     {
       "basename": "Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering",
-      "path": "Courses/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md"
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md"
     },
     {
       "basename": "MixUp",
@@ -187,18 +199,6 @@
     {
       "basename": "Inductive Bias",
       "path": "Inductive Bias.md"
-    },
-    {
-      "basename": "ImageNet",
-      "path": "ImageNet.md"
-    },
-    {
-      "basename": "Convolution",
-      "path": "Convolution.md"
-    },
-    {
-      "basename": "GPT-4",
-      "path": "GPT-4.md"
     }
   ],
   "omittedPaths": [],

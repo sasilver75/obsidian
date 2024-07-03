@@ -11,8 +11,65 @@
             "id": "e1df1f84dd8af4d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddfe739c2ccb173e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kullback-Leibler Divergence.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d10635b406757af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kullback-Leibler Divergence.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d21b0b0625c78340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-Entropy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3af48e67371ef70d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entropy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -69,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +187,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
+              }
             }
           },
           {
@@ -159,6 +221,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,50 +270,51 @@
   },
   "active": "e1df1f84dd8af4d9",
   "lastOpenFiles": [
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
+    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (1) - The Molecules of Life.md",
+    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (2) - The Cell and How it Works.md",
+    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (3) - Information Transfer in Biology.md",
+    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (5) - Building with DNA.md",
+    "Articles/Machine Learning/7 Tips for Junior Researchers (?) {Ofir Press}.md",
+    "Articles/Machine Learning/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
+    "Articles/Machine Learning",
+    "Courses/Machine Learning",
+    "Courses/Biology",
+    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (4) - Inheritance and Genes.md",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+    "_attachments/Pasted image 20240703150254.png",
+    "_attachments/Pasted image 20240703150208.png",
+    "_attachments/Pasted image 20240703150121.png",
+    "_attachments/Pasted image 20240703150113.png",
+    "_attachments/Pasted image 20240703150050.png",
+    "_attachments/Pasted image 20240703144606.png",
+    "_attachments/Pasted image 20240703144220.png",
+    "_attachments/Pasted image 20240703144139.png",
+    "_attachments/Pasted image 20240703144012.png",
+    "_attachments/Pasted image 20240703143827.png",
+    "Kullback-Leibler Divergence.md",
+    "Cross-Entropy.md",
+    "Entropy.md",
     "AlexNet.md",
     "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "Sigmoid Activation Function.md",
-    "Kullback-Leibler Divergence.md",
-    "_attachments/Pasted image 20240703133113.png",
-    "_attachments/Pasted image 20240703133112.png",
-    "_attachments/Pasted image 20240703133047.png",
-    "_attachments/Pasted image 20240703131441.png",
-    "_attachments/Pasted image 20240703131357.png",
-    "_attachments/Pasted image 20240703131238.png",
-    "_attachments/Pasted image 20240703131212.png",
-    "_attachments/Pasted image 20240703131027.png",
-    "_attachments/Pasted image 20240703130955.png",
-    "_attachments/Pasted image 20240703124425.png",
     "Direct Preference Optimization.md",
-    "Cross-Entropy.md",
     "Christopher Manning.md",
-    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md",
-    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (5) - Building with DNA.md",
-    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (4) - Inheritance and Genes.md",
-    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (3) - Information Transfer in Biology.md",
-    "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (2) - The Cell and How it Works.md",
     "~ Ideas.md",
-    "Courses/Getting up to Speed in Biology @ MIT (2020)",
+    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)",
     "Courses/Getting up to Speed in Biology @ MIT (2020).md",
-    "Courses/7.016 Introductory Biology @ MIT (2018)",
+    "Courses/Biology/7.016 Introductory Biology @ MIT (2018)",
     "Courses/7.016 INtroductory.md",
     "Monte-Carlo Tree Search.md",
-    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
-    "Courses/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md",
+    "Courses/Machine Learning/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md",
     "Variational Autoencoder.md",
-    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
     "Masked Autoencoder.md",
-    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
-    "Bayesian Network.md",
-    "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
-    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
-    "Courses/Pieter Abbeel Foundations of Deep RL (2021)",
-    "Courses/Stat110 Probability @ Harvard (2013)",
-    "Courses/TinyML and Efficient Deep Learning @ MIT (2023)",
-    "Courses/Introduction to Data-Centric AI @ MIT (2023)",
-    "Courses/David Silver UCL Reinforcement Learning (2015)",
-    "Courses/HuggingFace RL",
-    "Courses/CS236 Deep Generative Models @ Stanford (2023)"
+    "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
+    "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)",
+    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)",
+    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)"
   ]
 }
