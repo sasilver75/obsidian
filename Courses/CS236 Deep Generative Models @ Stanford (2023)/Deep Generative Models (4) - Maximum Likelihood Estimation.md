@@ -53,3 +53,8 @@ Otherwise you'll suffer based on:
 - How far away you are from the P_data estimate
 
 
+"Spend *days* working on your prompt! Make them clear, follow good prompting guides, etc."
+
+
+![[Pasted image 20240702225029.png]]
+

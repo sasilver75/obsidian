@@ -22,6 +22,9 @@
 	- "Because of Synthetic data, we've seen a total modal collapse of the "personality" of many models, since everyone is basically training on frontier model outputs. For Command R+, people say the model feels different/special, and that's not any magic they did at Cohere -- they just didn't do what everyone else does, which is train on the model outputs of OpenAI. No 'unraveling them mysteries,' no 'diving into the complexities,' etc."
 	- "Is [the modal collapse of LM personalities...] because they're eating eachother's poop?" "Yeah, it's some sort of human centipede effect... Everything collapsing into [GPT-'4's] personality."
 	- "Synthetic data methods that find more useful synthetic data... that are compelling at search, to automatically discover weak points of models, and closet those gaps."
+- MCTS for Synthetic Data Generation?
+
+![[Pasted image 20240702225605.png|300]]
 
 
 https://x.com/thesephist/status/1734966611814289756?s=20
