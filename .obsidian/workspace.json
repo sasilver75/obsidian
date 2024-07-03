@@ -4,137 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8768ba6680451634",
+        "id": "fc847f66a786a970",
         "type": "tabs",
         "children": [
           {
-            "id": "10e900e3071c2b4e",
+            "id": "e1df1f84dd8af4d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kullback-Leibler Divergence.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f26628372d6c0a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kullback-Leibler Divergence.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0636c21105cf8ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sigmoid Activation Function.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6aca79e062467833",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8683cf9f8a03d560",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e079686c6ec4e443",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9166274daf65b8ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "361648fa780d9e6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6d8c8b5feb0ae74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a4d4be93e4c4d3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AlexNet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -212,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kullback-Leibler Divergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kullback-Leibler Divergence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kullback-Leibler Divergence.md"
-              }
+              "state": {}
             }
           },
           {
@@ -285,7 +159,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kullback-Leibler Divergence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -332,8 +205,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "10e900e3071c2b4e",
+  "active": "e1df1f84dd8af4d9",
   "lastOpenFiles": [
+    "AlexNet.md",
+    "~ Vocabulary.md",
+    "~ Useful Pictures.md",
+    "Sigmoid Activation Function.md",
+    "Kullback-Leibler Divergence.md",
+    "_attachments/Pasted image 20240703133113.png",
+    "_attachments/Pasted image 20240703133112.png",
+    "_attachments/Pasted image 20240703133047.png",
     "_attachments/Pasted image 20240703131441.png",
     "_attachments/Pasted image 20240703131357.png",
     "_attachments/Pasted image 20240703131238.png",
@@ -341,17 +222,9 @@
     "_attachments/Pasted image 20240703131027.png",
     "_attachments/Pasted image 20240703130955.png",
     "_attachments/Pasted image 20240703124425.png",
-    "_attachments/Pasted image 20240703124320.png",
-    "_attachments/Pasted image 20240703124248.png",
     "Direct Preference Optimization.md",
-    "_attachments/Pasted image 20240703123854.png",
-    "_attachments/Pasted image 20240703123604.png",
-    "Kullback-Leibler Divergence.md",
-    "Sigmoid Activation Function.md",
     "Cross-Entropy.md",
     "Christopher Manning.md",
-    "AlexNet.md",
-    "~ Vocabulary.md",
     "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (1) - The Molecules of Life.md",
     "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (5) - Building with DNA.md",
     "Courses/Getting up to Speed in Biology @ MIT (2020)/Getting up to Speed (4) - Inheritance and Genes.md",
@@ -362,7 +235,6 @@
     "Courses/Getting up to Speed in Biology @ MIT (2020).md",
     "Courses/7.016 Introductory Biology @ MIT (2018)",
     "Courses/7.016 INtroductory.md",
-    "~ Useful Pictures.md",
     "Monte-Carlo Tree Search.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
     "Courses/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md",
