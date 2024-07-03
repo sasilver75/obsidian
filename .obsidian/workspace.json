@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md"
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md"
               }
             }
           },
@@ -207,7 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
+                "file": "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -256,18 +255,18 @@
   },
   "active": "10e900e3071c2b4e",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240702175135.png",
+    "_attachments/Pasted image 20240702174201.png",
+    "_attachments/Pasted image 20240702173556.png",
+    "_attachments/Pasted image 20240702173433.png",
+    "_attachments/Pasted image 20240702173158.png",
+    "_attachments/Pasted image 20240702173138.png",
+    "_attachments/Pasted image 20240702173108.png",
+    "_attachments/Pasted image 20240702173039.png",
     "_attachments/Pasted image 20240702172917.png",
     "_attachments/Pasted image 20240702171734.png",
     "_attachments/Pasted image 20240702171618.png",
-    "_attachments/Pasted image 20240702171541.png",
-    "_attachments/Pasted image 20240702171357.png",
-    "_attachments/Pasted image 20240702171138.png",
-    "_attachments/Pasted image 20240702170947.png",
-    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learnign (2) - Autoregressive Models.md",
-    "_attachments/Pasted image 20240702170837.png",
-    "_attachments/Pasted image 20240702170807.png",
-    "_attachments/Pasted image 20240702165909.png",
-    "_attachments/Pasted image 20240702165839.png",
+    "Courses/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (2) - Autoregressive Models.md",
     "Bayesian Network.md",
     "AlexNet.md",
     "Courses/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (2) - Background.md",
