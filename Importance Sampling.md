@@ -1,6 +1,8 @@
 References:
 - [Video: Mutual Information's Importance Sampling Introduction](https://youtu.be/C3p2wI4RAi8?si=HxU_JpVMBycDI_vP)
-- Video: [Mutual INformation's Monte Carlo and Off-Policy Methods (24:00)](https://www.youtube.com/watch?v=bpUszPiWM7o)
+- Video: [Mutual Information's Monte Carlo and Off-Policy Methods (24:00)](https://www.youtube.com/watch?v=bpUszPiWM7o)
+
+Define: *Proposal Distribution*
 
 Enables sampling an expectation of one distribution, using samples from another.
 Useful in the context of [[Off-Policy]] learning, where we have a *behavior policy* that's exploring the MDP, but we have a *target* policy that's of interest to us.

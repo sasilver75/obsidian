@@ -50,7 +50,9 @@
 - [[Chain Rule of Probability]]
 - [[Bayes Rule]]
 - [[Bayesian Network]]
-
+- [[Gaussian Mixture Model]] (GMM)
+- [[Jensen Inequality]]
+- [[Evidence Lower Bound]] (ELBO)
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
