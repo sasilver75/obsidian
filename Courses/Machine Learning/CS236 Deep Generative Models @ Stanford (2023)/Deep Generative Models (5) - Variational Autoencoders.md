@@ -130,7 +130,7 @@ We can actually figure out what that bias is.
 Recall: We want the log marginal probability, which we can write down as this importance sampling distribution:
 ![[Pasted image 20240703183328.png]]
 We know that log is a concave function.
-We can use this concavity property using the [[Jensen Inequality]]
+We can use this concavity property using the [[Jensen's Inequality]]
 - The log of the expectation of a function is at least as large as the expectation of the log.
 Because of this concavity, we can basically work out what happens if we swap the ordering of logarithm and expectation (if we put the expectation *outside* the log, we get a bound on the quantity we want).
 [[Evidence Lower Bound ]](ELBO)

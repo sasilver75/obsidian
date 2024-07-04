@@ -7,6 +7,8 @@ See also:
 - [[Kullback-Leibler Divergence]]
 - [[Entropy]]
 
+==TODO==: "Binary Cross Entropy"/BCE
+
 $H(P,Q) = -\sum_{x\exists{X}} P(x)log(Q(x))$ 
 
 - Cross entropy measures the amount of "information" required to identify an event from set $X$ if the wrong distribution $Q$ is used instead of the true distribution $P$.
@@ -14,7 +16,7 @@ $H(P,Q) = -\sum_{x\exists{X}} P(x)log(Q(x))$
 
 The cross entropy is the average number of bits needed to encode data coming from a source with distribution $P$ when we use model $Q$.
 
-Cross entropy is a non-symmetric measure.
+Cross entropy is a ==non-symmetric measure==.
 
 -------
 Comparing with KL Divergence (see [[Kullback-Leibler Divergence]] for more)
