@@ -48,11 +48,16 @@
 - [[Kolmogorov Complexity]]
 - [[Thompson Sampling]]
 - [[Chain Rule of Probability]]
+- [[Multiplication Rule of Probability]]
+- [[Naive Definition of Probability]]
 - [[Bayes Rule]]
 - [[Bayesian Network]]
 - [[Gaussian Mixture Model]] (GMM)
-- [[Jensen Inequality]]
+- [[Jensen's Inequality]]
 - [[Evidence Lower Bound]] (ELBO)
+- [[Variational Bayesian Inference]] ("Variational Bayes")
+- [[Gaussian Distribution]]
+- [[Bernoulli Distribution]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -1035,4 +1040,4 @@
 
 # Policy
 - [[SB-1047]]
-- 
+

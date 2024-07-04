@@ -13,7 +13,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31846915a25a8453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73a3b9d1b7ee89f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gaussian Distribution.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b3cd491a23ac7ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jensen's Inequality.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4545a690a6f554dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jensen's Inequality.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +78,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "205f11938b252923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6348489026db5536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Variational Bayesian Inference.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2404cad5e309c1a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bayes Rule.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8b7a28abc6be6ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chain Rule of Probability.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54893c8f40a02030",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -137,8 +254,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +283,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"TD ERror\"",
+                "query": "\"variational bayes\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,7 +329,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +346,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +369,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md"
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md"
               }
             }
           },
@@ -286,7 +402,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -333,27 +449,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "34fcb82cd93f4bb4",
+  "active": "e1df1f84dd8af4d9",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240703190536.png",
-    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
-    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+    "_attachments/Pasted image 20240703233915.png",
+    "_attachments/Pasted image 20240703233900.png",
+    "_attachments/Pasted image 20240703233041.png",
+    "_attachments/Pasted image 20240703232633.png",
+    "Variational Autoencoder.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
+    "_attachments/Pasted image 20240703231516.png",
+    "_attachments/Pasted image 20240703231417.png",
+    "_attachments/Pasted image 20240703231018.png",
+    "_attachments/Pasted image 20240703230904.png",
+    "_attachments/Pasted image 20240703230843.png",
+    "_attachments/Pasted image 20240703230706.png",
+    "Cross-Entropy.md",
+    "_attachments/Pasted image 20240703230349.png",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240703190027.png",
+    "Gaussian Distribution.md",
+    "Jensen's Inequality.md",
+    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
+    "Variational Bayesian Inference.md",
+    "Variational Inference.md",
+    "Bayes Rule.md",
+    "Chain Rule of Probability.md",
+    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
+    "Courses/Machine Learning/Untitled.md",
     "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
-    "_attachments/Pasted image 20240703184707.png",
-    "_attachments/Pasted image 20240703183901.png",
-    "_attachments/Pasted image 20240703183744.png",
     "Evidence Lower Bound.md",
-    "_attachments/Pasted image 20240703183509.png",
-    "_attachments/Pasted image 20240703183328.png",
-    "_attachments/Pasted image 20240703183232.png",
-    "_attachments/Pasted image 20240703183137.png",
-    "_attachments/Pasted image 20240703183130.png",
-    "_attachments/Pasted image 20240703183034.png",
     "Importance Sampling.md",
     "Gaussian Mixture Model.md",
-    "Bayes Rule.md",
     "Process Reward Model.md",
     "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
     "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
@@ -362,24 +488,14 @@
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (3) - Information Transfer in Biology.md",
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (5) - Building with DNA.md",
     "Articles/Machine Learning/7 Tips for Junior Researchers (?) {Ofir Press}.md",
-    "Articles/Machine Learning/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
     "Courses/Biology",
-    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (4) - Inheritance and Genes.md",
-    "Kullback-Leibler Divergence.md",
-    "Cross-Entropy.md",
-    "Entropy.md",
-    "AlexNet.md",
-    "~ Useful Pictures.md",
-    "Sigmoid Activation Function.md",
-    "Direct Preference Optimization.md",
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)",
     "Courses/Biology/7.016 Introductory Biology @ MIT (2018)",
     "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)",
-    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)",
-    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)"
+    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)"
   ]
 }

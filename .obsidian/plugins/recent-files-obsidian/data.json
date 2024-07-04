@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Stat110 Probability (2) - Story Proofs, Axioms of Probability",
-      "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md"
+      "basename": "Probability for CS (1) Counting",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md"
+    },
+    {
+      "basename": "Variational Autoencoder",
+      "path": "Variational Autoencoder.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Gaussian Distribution",
+      "path": "Gaussian Distribution.md"
+    },
+    {
+      "basename": "Jensen's Inequality",
+      "path": "Jensen's Inequality.md"
     },
     {
       "basename": "Stat110 Probability (1) - Probability and Counting",
       "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Variational Bayesian Inference",
+      "path": "Variational Bayesian Inference.md"
+    },
+    {
+      "basename": "Bayes Rule",
+      "path": "Bayes Rule.md"
+    },
+    {
+      "basename": "Chain Rule of Probability",
+      "path": "Chain Rule of Probability.md"
+    },
+    {
+      "basename": "Stat110 Probability (2) - Story Proofs, Axioms of Probability",
+      "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md"
     },
     {
       "basename": "Deep Generative Models (5) - Variational Autoencoders",
@@ -27,10 +59,6 @@
     {
       "basename": "Gaussian Mixture Model",
       "path": "Gaussian Mixture Model.md"
-    },
-    {
-      "basename": "Bayes Rule",
-      "path": "Bayes Rule.md"
     },
     {
       "basename": "Process Reward Model",
@@ -77,10 +105,6 @@
       "path": "Kullback-Leibler Divergence.md"
     },
     {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
-    },
-    {
       "basename": "Entropy",
       "path": "Entropy.md"
     },
@@ -115,10 +139,6 @@
     {
       "basename": "Lecture - Why Fine-Tuning is Dead",
       "path": "Courses/Machine Learning/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md"
-    },
-    {
-      "basename": "Variational Autoencoder",
-      "path": "Variational Autoencoder.md"
     },
     {
       "basename": "Deep Generative Models (3) - Autoregressive Models",
@@ -179,26 +199,6 @@
     {
       "basename": "David Silver RL (8) - Integrating Learning and Planning",
       "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
-    },
-    {
-      "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
-      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md"
-    },
-    {
-      "basename": "Data Extraction Attack",
-      "path": "Data Extraction Attack.md"
-    },
-    {
-      "basename": "Shadow Model",
-      "path": "Shadow Model.md"
-    },
-    {
-      "basename": "Membership Inference Attack",
-      "path": "Membership Inference Attack.md"
-    },
-    {
-      "basename": "Back-Translation",
-      "path": "Back-Translation.md"
     }
   ],
   "omittedPaths": [],
