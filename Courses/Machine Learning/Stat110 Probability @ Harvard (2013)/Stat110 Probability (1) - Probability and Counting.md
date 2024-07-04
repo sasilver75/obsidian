@@ -14,7 +14,7 @@ One of the things that make probability difficult is that we're going to be doin
 The ==Naive Definition of Probability== (which can only be used when you have strong justification for doing so) is that the probability of an event A, P(A) is equal to (# of possible favorable outcomes / # of possible outcomes).
 - So if we flip a coin twice, there are four possible outcomes. The sample space is $\{(H,H), (H,T), (T,H), (T,T)\}$ ... and so we have a 1/4 chance of $(H,H)$. We didn't say if it was a "fair" coin or not.
 	- This is an example where it's straightforward to count the number of possible outcomes; the size of the sample space. But for many problems this isn't easy to do!
-- This definition assumes that all outcomes are equally likely (a very strong assumption in many problems), and that we have some finite sample space (with which to use as our denominator).
+- ==This definition assumes that all outcomes are equally likely== (a ***very strong assumption*** in many problems), and that we have some finite sample space (with which to use as our denominator).%%  %%
 
 
 Counting

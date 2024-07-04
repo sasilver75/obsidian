@@ -152,6 +152,9 @@ ELBO: For any choice of q, we have a nice lower bound on the quantity we care ab
 - We can also rewrite this expression as the sum of two terms: the average log joint probability, under q ... and the entropy under q.
 "Essentially, the best way of guessing the z variables is to actually use the posterior distribution according to the model" 🤤
 
+((I'm pretty jealous of the students that are able to follow this material live in the course and still ask good questions!))
+
+
 
 
 

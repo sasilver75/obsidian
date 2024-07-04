@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
+                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -137,7 +137,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
+                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
+                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md"
+                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md"
               }
             }
           },
@@ -285,7 +286,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
+                "file": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -332,22 +333,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e1df1f84dd8af4d9",
+  "active": "34fcb82cd93f4bb4",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240703190536.png",
+    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
+    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240703190027.png",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
     "_attachments/Pasted image 20240703184707.png",
     "_attachments/Pasted image 20240703183901.png",
     "_attachments/Pasted image 20240703183744.png",
-    "~ Vocabulary.md",
     "Evidence Lower Bound.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
     "_attachments/Pasted image 20240703183509.png",
     "_attachments/Pasted image 20240703183328.png",
     "_attachments/Pasted image 20240703183232.png",
     "_attachments/Pasted image 20240703183137.png",
     "_attachments/Pasted image 20240703183130.png",
     "_attachments/Pasted image 20240703183034.png",
-    "_attachments/Pasted image 20240703182851.png",
-    "_attachments/Pasted image 20240703182711.png",
     "Importance Sampling.md",
     "Gaussian Mixture Model.md",
     "Bayes Rule.md",
@@ -371,8 +374,6 @@
     "~ Useful Pictures.md",
     "Sigmoid Activation Function.md",
     "Direct Preference Optimization.md",
-    "Christopher Manning.md",
-    "~ Ideas.md",
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)",
     "Courses/Biology/7.016 Introductory Biology @ MIT (2018)",
     "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
