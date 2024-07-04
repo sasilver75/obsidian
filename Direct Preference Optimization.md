@@ -16,9 +16,11 @@ Variants:
 
 ----
 
-"It doesn't actually totally do away with the reward model -- instead, it *embeds* it in the language model's loss function."
+Re RLHF: Training reward model is a drag, and it's expensive once you've trained it, because you have to run both the reward model and the main model together. Can we somehow do away with the reward model process?
+
+"It doesn't actually totally do away with the reward model from the RLHF objective -- instead, it *embeds* it in the language model's loss function."
 ![[Pasted image 20240703112224.png]]
-- Notice this formula has the reward from the reward model $r_{\phi}(x,y)$ , as well as the policy from the language model $\pi_{\theta}(y|x)$, which we we can think of as the probability of the next word.
+- Notice this RLHF objective has the reward from the reward model $r_{\phi}(x,y)$ , as well as the policy from the language model $\pi_{\theta}(y|x)$, which we we can think of as the probability of the next word.
 ![[Pasted image 20240703113451.png]]
 - This first main component tries to maximize the expected reward for model generations on prompts in our dataset..
 - The second part prevents the model from changing too drastically from one iteration of DPO to the next, using the [[Kullback-Leibler Divergence|KL-Divergence]] between the policy and the reference policy (meaning the language model "after" and "before"). The Beta is just a hyperparameter that we can tune, telling us how much we want to punish divergence.
@@ -41,7 +43,7 @@ Of course, there are other ways of turning rewards into probabilities, but this 
 Skipping the mathematical manipulation from the paper, out plops the loss function that we want! Note that it doesn't have the letter $r$ in it -- there's no reward directly, so we don't have to train a reward model (the reward is still there, implicitly, though).
 ![[Pasted image 20240703112020.png]]
 - $\pi_{\theta}$ is the probability of a response ($y_w$ if a winning response, $y_l$ if a losing response), given a prompt input $x$. This comes from our language model.
-- See that we want to maximize the left term, and minimize the right term. 
+- ==See that we want to maximize the left term, and minimize the right term.== 
 - We have an expected value, because we're averaging over generated responses.
 - Why do we have a logarithm? When we see sums of logarithms, we like to see it as the logarithm of a product... where the numbers being multiplied are often between zero and one. 
 ![[Pasted image 20240703123854.png]]

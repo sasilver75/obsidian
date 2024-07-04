@@ -51,7 +51,7 @@ Above: They also used PPO to fine-tuned a variant of the GPT-3.5 model; part of 
 
 ![[Pasted image 20240427151714.png]]
 Simple mistakes in the 175B PPO-ptx model (InstructGPT 175B) compared to GPT-3 175B.
-# Additional Pictures
+# Non-Paper Figures
 
 ![[Pasted image 20240418171453.png]]
 
@@ -62,3 +62,5 @@ From LLAMA-2 paper: An awesome picture from the [[LLaMA 2]] technical report sho
 ![[Pasted image 20240426132052.png]]
 From LLaMA-2 paper: Showing the improvement on Helpfulness and Harmlessness benchmarks from both human and LM judges as we do multiple rounds of SFT and then RLHFing
 
+![[Pasted image 20240704000725.png]]
+Above: Why did we think we even needed RL in the first place? Why can't we just do supervised learning somehow? The problem is that the $\hat{y}$ that we predict (the output text) and the "label" (a thumbs up) aren't the same type of thing, so we can't do something like $\mathcal{L} = |y-\hat{y}|$. Without a loss value, we can't run backpropagation through the model -- no good! Enter techniques like [[Direct Preference Optimization|DPO]], which uses annotated positive and negative pairs to learn (DPO is great, but it always need to operate off of a human-labeled dataset, whereas when we use a human-preferences dataset to train a model in RLHF, we can use that model to "grade" an infinite amount of generations thereafter.)
