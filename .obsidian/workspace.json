@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
+                "file": "Retrieval-Augmented Generation (Model).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7417b54c04d5088e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Direct Preference Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1286377b94c740e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning from Human Feedback.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -329,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
+                "file": "Retrieval-Augmented Generation (Model).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -346,7 +372,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
+                "file": "Retrieval-Augmented Generation (Model).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -369,7 +395,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md"
+                "file": "Retrieval-Augmented Generation (Model).md"
               }
             }
           },
@@ -402,7 +428,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
+                "file": "Retrieval-Augmented Generation (Model).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -451,20 +477,25 @@
   },
   "active": "e1df1f84dd8af4d9",
   "lastOpenFiles": [
+    "Douwe Kiela.md",
+    "Retrieval-Augmented Generation (Model).md",
+    "Retrieval-Augmented Generation.md",
+    "Reinforcement Learning from Human Feedback.md",
+    "Direct Preference Optimization.md",
+    "Entropy.md",
+    "_attachments/Pasted image 20240704000725.png",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
     "_attachments/Pasted image 20240703233915.png",
     "_attachments/Pasted image 20240703233900.png",
     "_attachments/Pasted image 20240703233041.png",
     "_attachments/Pasted image 20240703232633.png",
     "Variational Autoencoder.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
     "_attachments/Pasted image 20240703231516.png",
     "_attachments/Pasted image 20240703231417.png",
     "_attachments/Pasted image 20240703231018.png",
     "_attachments/Pasted image 20240703230904.png",
     "_attachments/Pasted image 20240703230843.png",
-    "_attachments/Pasted image 20240703230706.png",
     "Cross-Entropy.md",
-    "_attachments/Pasted image 20240703230349.png",
     "~ Vocabulary.md",
     "Gaussian Distribution.md",
     "Jensen's Inequality.md",
@@ -483,11 +514,6 @@
     "Process Reward Model.md",
     "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
     "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
-    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (1) - The Molecules of Life.md",
-    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (2) - The Cell and How it Works.md",
-    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (3) - Information Transfer in Biology.md",
-    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (5) - Building with DNA.md",
-    "Articles/Machine Learning/7 Tips for Junior Researchers (?) {Ofir Press}.md",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
     "Courses/Biology",

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Retrieval-Augmented Generation (Model)",
+      "path": "Retrieval-Augmented Generation (Model).md"
+    },
+    {
+      "basename": "Douwe Kiela",
+      "path": "Douwe Kiela.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Human Feedback",
+      "path": "Reinforcement Learning from Human Feedback.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
+    },
+    {
       "basename": "Probability for CS (1) Counting",
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md"
     },
@@ -105,10 +129,6 @@
       "path": "Kullback-Leibler Divergence.md"
     },
     {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
       "basename": "AlexNet",
       "path": "AlexNet.md"
     },
@@ -119,10 +139,6 @@
     {
       "basename": "Sigmoid Activation Function",
       "path": "Sigmoid Activation Function.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
     },
     {
       "basename": "Christopher Manning",
@@ -183,22 +199,6 @@
     {
       "basename": "David Silver RL (9) - Exploration and Exploitation",
       "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
-    },
-    {
-      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
-      "path": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
-    },
-    {
-      "basename": "Policy Gradient",
-      "path": "Policy Gradient.md"
-    },
-    {
-      "basename": "Multi-Armed Bandit",
-      "path": "Multi-Armed Bandit.md"
-    },
-    {
-      "basename": "David Silver RL (8) - Integrating Learning and Planning",
-      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
     }
   ],
   "omittedPaths": [],
