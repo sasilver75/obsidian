@@ -13,7 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34fcb82cd93f4bb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "601a9ee0f0723e51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Evidence Lower Bound.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd25041bbb7ef935",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c18ddd35fd574ae8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Importance Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89363d527aa2a8fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,8 +191,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md"
               }
             }
           },
@@ -221,7 +285,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -270,6 +334,25 @@
   },
   "active": "e1df1f84dd8af4d9",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240703184707.png",
+    "_attachments/Pasted image 20240703183901.png",
+    "_attachments/Pasted image 20240703183744.png",
+    "~ Vocabulary.md",
+    "Evidence Lower Bound.md",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
+    "_attachments/Pasted image 20240703183509.png",
+    "_attachments/Pasted image 20240703183328.png",
+    "_attachments/Pasted image 20240703183232.png",
+    "_attachments/Pasted image 20240703183137.png",
+    "_attachments/Pasted image 20240703183130.png",
+    "_attachments/Pasted image 20240703183034.png",
+    "_attachments/Pasted image 20240703182851.png",
+    "_attachments/Pasted image 20240703182711.png",
+    "Importance Sampling.md",
+    "Gaussian Mixture Model.md",
+    "Bayes Rule.md",
+    "Process Reward Model.md",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
     "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (1) - The Molecules of Life.md",
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (2) - The Cell and How it Works.md",
@@ -281,36 +364,17 @@
     "Courses/Machine Learning",
     "Courses/Biology",
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (4) - Inheritance and Genes.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
-    "_attachments/Pasted image 20240703150254.png",
-    "_attachments/Pasted image 20240703150208.png",
-    "_attachments/Pasted image 20240703150121.png",
-    "_attachments/Pasted image 20240703150113.png",
-    "_attachments/Pasted image 20240703150050.png",
-    "_attachments/Pasted image 20240703144606.png",
-    "_attachments/Pasted image 20240703144220.png",
-    "_attachments/Pasted image 20240703144139.png",
-    "_attachments/Pasted image 20240703144012.png",
-    "_attachments/Pasted image 20240703143827.png",
     "Kullback-Leibler Divergence.md",
     "Cross-Entropy.md",
     "Entropy.md",
     "AlexNet.md",
-    "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "Sigmoid Activation Function.md",
     "Direct Preference Optimization.md",
     "Christopher Manning.md",
     "~ Ideas.md",
     "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)",
-    "Courses/Getting up to Speed in Biology @ MIT (2020).md",
     "Courses/Biology/7.016 Introductory Biology @ MIT (2018)",
-    "Courses/7.016 INtroductory.md",
-    "Monte-Carlo Tree Search.md",
-    "Courses/Machine Learning/LLM Mastery/Lecture - Why Fine-Tuning is Dead.md",
-    "Variational Autoencoder.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (3) - Autoregressive Models.md",
-    "Masked Autoencoder.md",
     "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)",
     "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)",

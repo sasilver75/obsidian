@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Deep Generative Models (5) - Variational Autoencoders",
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Evidence Lower Bound",
+      "path": "Evidence Lower Bound.md"
+    },
+    {
+      "basename": "Importance Sampling",
+      "path": "Importance Sampling.md"
+    },
+    {
+      "basename": "Gaussian Mixture Model",
+      "path": "Gaussian Mixture Model.md"
+    },
+    {
+      "basename": "Bayes Rule",
+      "path": "Bayes Rule.md"
+    },
+    {
+      "basename": "Process Reward Model",
+      "path": "Process Reward Model.md"
+    },
+    {
       "basename": "Deep Generative Models (4) - Maximum Likelihood Estimation",
       "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
     },
@@ -51,10 +79,6 @@
     {
       "basename": "AlexNet",
       "path": "AlexNet.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "~ Useful Pictures",
@@ -175,30 +199,6 @@
     {
       "basename": "Data-Centric AI (9) - Data Privacy and Security",
       "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (9) - Data Privacy and Security.md"
-    },
-    {
-      "basename": "Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (8) - Encoding Human Priors - Data Augmentation and Prompt Engineering.md"
-    },
-    {
-      "basename": "MixUp",
-      "path": "MixUp.md"
-    },
-    {
-      "basename": "LeNet",
-      "path": "LeNet.md"
-    },
-    {
-      "basename": "Overfitting",
-      "path": "Overfitting.md"
-    },
-    {
-      "basename": "Underfitting",
-      "path": "Underfitting.md"
-    },
-    {
-      "basename": "Inductive Bias",
-      "path": "Inductive Bias.md"
     }
   ],
   "omittedPaths": [],
