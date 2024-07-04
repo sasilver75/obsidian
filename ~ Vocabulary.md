@@ -38,8 +38,6 @@
 - [[Bandit]]
 - [[Multi-Armed Bandit]]
 - [[Least-Squares]]
-- [[Accuracy]]
-- [[Balanced Accuracy]]
 - [[Binomial Coefficient]]
 - [[Kullback-Leibler Divergence]] (KL Divergence)
 - [[Entropy]]
@@ -110,6 +108,8 @@
 - [[Hamming Distance]]
 - [[Manhattan Distance]]
 - [[Goodhardt's Law]]
+- [[Accuracy]]
+- [[Balanced Accuracy]]
 - [[Outlier Detection]]
 - [[Anomaly Detection]]
 - [[Coreset Selection]]

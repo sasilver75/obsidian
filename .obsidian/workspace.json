@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Retrieval-Augmented Generation (Model).md",
+                "file": "Alpagasus.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b388e142fd90eff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Continuous Batching.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0af9a5c22e3d2a9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Accuracy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -355,7 +381,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Retrieval-Augmented Generation (Model).md",
+                "file": "Alpagasus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -372,7 +398,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Retrieval-Augmented Generation (Model).md",
+                "file": "Alpagasus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -395,7 +421,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Retrieval-Augmented Generation (Model).md"
+                "file": "Alpagasus.md"
               }
             }
           },
@@ -428,7 +454,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Retrieval-Augmented Generation (Model).md",
+                "file": "Alpagasus.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -477,11 +503,16 @@
   },
   "active": "e1df1f84dd8af4d9",
   "lastOpenFiles": [
-    "Douwe Kiela.md",
+    "~ Vocabulary.md",
+    "Alpagasus.md",
+    "Continuous Batching.md",
+    "Courses/Machine Learning/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
+    "Accuracy.md",
+    "Direct Preference Optimization.md",
     "Retrieval-Augmented Generation (Model).md",
+    "Douwe Kiela.md",
     "Retrieval-Augmented Generation.md",
     "Reinforcement Learning from Human Feedback.md",
-    "Direct Preference Optimization.md",
     "Entropy.md",
     "_attachments/Pasted image 20240704000725.png",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
@@ -496,7 +527,6 @@
     "_attachments/Pasted image 20240703230904.png",
     "_attachments/Pasted image 20240703230843.png",
     "Cross-Entropy.md",
-    "~ Vocabulary.md",
     "Gaussian Distribution.md",
     "Jensen's Inequality.md",
     "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
@@ -510,10 +540,6 @@
     "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
     "Evidence Lower Bound.md",
     "Importance Sampling.md",
-    "Gaussian Mixture Model.md",
-    "Process Reward Model.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
     "Courses/Biology",

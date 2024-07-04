@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Alpagasus",
+      "path": "Alpagasus.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Continuous Batching",
+      "path": "Continuous Batching.md"
+    },
+    {
+      "basename": "Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models",
+      "path": "Courses/Machine Learning/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md"
+    },
+    {
+      "basename": "Accuracy",
+      "path": "Accuracy.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
       "basename": "Retrieval-Augmented Generation (Model)",
       "path": "Retrieval-Augmented Generation (Model).md"
     },
@@ -17,10 +41,6 @@
       "path": "Reinforcement Learning from Human Feedback.md"
     },
     {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
-    },
-    {
       "basename": "Entropy",
       "path": "Entropy.md"
     },
@@ -35,10 +55,6 @@
     {
       "basename": "Cross-Entropy",
       "path": "Cross-Entropy.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Gaussian Distribution",
@@ -183,22 +199,6 @@
     {
       "basename": "Normalized Discounted Cumulative Gain",
       "path": "Normalized Discounted Cumulative Gain.md"
-    },
-    {
-      "basename": "Maximum Likelihood",
-      "path": "Maximum Likelihood.md"
-    },
-    {
-      "basename": "Evaluation Index",
-      "path": "Indices/Evaluation Index.md"
-    },
-    {
-      "basename": "Temporal-Difference Search",
-      "path": "Temporal-Difference Search.md"
-    },
-    {
-      "basename": "David Silver RL (9) - Exploration and Exploitation",
-      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
     }
   ],
   "omittedPaths": [],
