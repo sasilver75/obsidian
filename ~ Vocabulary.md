@@ -48,7 +48,7 @@
 - [[Chain Rule of Probability]]
 - [[Multiplication Rule of Probability]]
 - [[Naive Definition of Probability]]
-- [[Bayes Rule]]
+- [[Bayes Theorem]]
 - [[Bayesian Network]]
 - [[Gaussian Mixture Model]] (GMM)
 - [[Jensen's Inequality]]
@@ -56,6 +56,7 @@
 - [[Variational Bayesian Inference]] ("Variational Bayes")
 - [[Gaussian Distribution]]
 - [[Bernoulli Distribution]]
+- [[Uniform Distribution]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -533,7 +534,9 @@
 - [[Vision Transformer]] (ViT)
 
 # MultiModal Concepts
-- Early Fusion, Middle Fusion, Late Fusion
+- [[Early Fusion]]
+- [[Late Fusion]]
+- Middle Fusion
 - Representation Fusion
 - Representation Coordination
 - Representation Fission
@@ -867,6 +870,8 @@
 - [[RACE]]
 - [[Berkeley Function-Calling Leaderboard]]
 - [[IFEval]]
+- [[Parametric Evaluations]]
+- [[Vibe-Eval]]
 
 # Datasets
 *Datasets for training/finetuning models*

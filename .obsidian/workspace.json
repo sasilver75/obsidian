@@ -21,6 +21,97 @@
             }
           },
           {
+            "id": "9be902cabf083454",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b5565978c08cdff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ff82367bc8b90df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parametric Evaluations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bbf22ff6ecb5e98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1a6c922ba05bb8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "441632386f18fe2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nemotron-4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32872c4f440fd994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uniform Distribution.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6b388e142fd90eff",
             "type": "leaf",
             "state": {
@@ -169,7 +260,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayes Rule.md",
+                "file": "Bayes Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -306,7 +397,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -381,7 +473,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alpagasus.md",
+                "file": "Nemotron-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -398,7 +490,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alpagasus.md",
+                "file": "Nemotron-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,7 +513,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alpagasus.md"
+                "file": "Nemotron-4.md"
               }
             }
           },
@@ -454,7 +546,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Alpagasus.md",
+                "file": "Nemotron-4.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -501,9 +593,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e1df1f84dd8af4d9",
+  "active": "441632386f18fe2a",
   "lastOpenFiles": [
     "~ Vocabulary.md",
+    "Yi Tay.md",
+    "Pruning.md",
+    "Chinchilla.md",
+    "Early Fusion.md",
+    "Vibe-Eval.md",
+    "Parametric Evaluations.md",
+    "LLaMA 2.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+    "Uniform Distribution.md",
+    "Bayes Theorem.md",
     "Alpagasus.md",
     "Continuous Batching.md",
     "Courses/Machine Learning/LLM Mastery/Mastering LLMs Workshop 4 - Deploying Fine-Tuned Models.md",
@@ -529,17 +631,7 @@
     "Cross-Entropy.md",
     "Gaussian Distribution.md",
     "Jensen's Inequality.md",
-    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
-    "Variational Bayesian Inference.md",
-    "Variational Inference.md",
-    "Bayes Rule.md",
-    "Chain Rule of Probability.md",
-    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
-    "Courses/Machine Learning/Untitled.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md",
-    "Evidence Lower Bound.md",
-    "Importance Sampling.md",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
     "Courses/Biology",

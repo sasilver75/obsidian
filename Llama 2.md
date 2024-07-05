@@ -7,6 +7,8 @@ Takeaway: A great new open-weights model from Meta, available in a variety of si
 
 > "LLaMA-2-chat-70B was known to be a very disliked model." 
 > - Nate Lambert, "Frontiers in Synthetic Data" article
+>  "LLaMA 1 and LLAMa 2 were quite mid, but then LLaMA 3 got pretty good."
+>  - Yi Tay, Chief Scientist @ Reka, Latent Space interview
 
 ----
 
