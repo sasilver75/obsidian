@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -456,8 +456,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -473,7 +472,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -490,7 +489,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -513,7 +512,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nemotron-4.md"
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md"
               }
             }
           },
@@ -546,7 +545,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -595,6 +594,20 @@
   },
   "active": "441632386f18fe2a",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240705165813.png",
+    "_attachments/Pasted image 20240705165803.png",
+    "_attachments/Pasted image 20240705165732.png",
+    "_attachments/Pasted image 20240705165719.png",
+    "_attachments/Pasted image 20240705165705.png",
+    "_attachments/Pasted image 20240705165643.png",
+    "_attachments/Pasted image 20240705165637.png",
+    "_attachments/Pasted image 20240705165625.png",
+    "_attachments/Pasted image 20240705165429.png",
+    "_attachments/Pasted image 20240705164745.png",
+    "_attachments/Pasted image 20240705164545.png",
+    "Cross-Entropy.md",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
+    "Nemotron-4.md",
     "~ Vocabulary.md",
     "Yi Tay.md",
     "Pruning.md",
@@ -616,21 +629,7 @@
     "Retrieval-Augmented Generation.md",
     "Reinforcement Learning from Human Feedback.md",
     "Entropy.md",
-    "_attachments/Pasted image 20240704000725.png",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
-    "_attachments/Pasted image 20240703233915.png",
-    "_attachments/Pasted image 20240703233900.png",
-    "_attachments/Pasted image 20240703233041.png",
-    "_attachments/Pasted image 20240703232633.png",
-    "Variational Autoencoder.md",
-    "_attachments/Pasted image 20240703231516.png",
-    "_attachments/Pasted image 20240703231417.png",
-    "_attachments/Pasted image 20240703231018.png",
-    "_attachments/Pasted image 20240703230904.png",
-    "_attachments/Pasted image 20240703230843.png",
-    "Cross-Entropy.md",
-    "Gaussian Distribution.md",
-    "Jensen's Inequality.md",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
