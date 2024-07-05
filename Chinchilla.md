@@ -11,6 +11,8 @@ People calling the replication of the paper into question:
 
 Replication Paper: "Chinchilla Scaling: A replication attempt" where they get slightly different numbers (really, it's one of the three Chinchilla techniques that didn't replicate)
 
+*NOTE:* Chinchilla scaling laws describe compute-optimal *training*, of how to best use some amount of compute to minimize perplexity(?). In reality, you probably want *inference-optimal training,* where you take into account the fact that most of your costs of the model in the long run are going to be dominated by inference costs. This means you should do things like LLaMA 3, where you "overtrain" a smaller model on a large number of tokens.
+
 ----
 
 

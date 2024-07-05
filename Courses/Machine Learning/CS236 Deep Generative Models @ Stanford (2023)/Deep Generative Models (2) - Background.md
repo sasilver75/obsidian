@@ -79,7 +79,7 @@ The challenge is that this independence assumption is too strong -- we can't jus
 ![[Pasted image 20240702112625.png]]
 [[Chain Rule of Probability]]
 - Basic idea is that you can always write down the probability of a bunch of events happening the same time as a product of conditional probabilities. 
-[[Bayes Rule]]
+[[Bayes Theorem]]
 - Allows us to write the conditional probability of one even given another one as a function of the prior probability...and the likelihood of s2 happening, given s1.
 
 
@@ -159,7 +159,7 @@ Once we have this kind of model, we can do things like:
 - Can do classification on new data!
 
 ![[Pasted image 20240702132018.png]]
-Above: Given a new email, compute the probability Y by using [[Bayes Rule]]
+Above: Given a new email, compute the probability Y by using [[Bayes Theorem]]
 - In this case, that's P(x,Y)|p(x), where x here is the whole sequence
 	- ((In this case, the numerator is the probability of generating a sequence, given that's is spam, and the denominator is the probability of generating a sequence regardless of whether it's spam or not. This intuitively gives the probability that the label is spam, given the generated text))
 
