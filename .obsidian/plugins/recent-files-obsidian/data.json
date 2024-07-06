@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Bernoulli Distribution",
+      "path": "Bernoulli Distribution.md"
+    },
+    {
       "basename": "Thompson Sampling",
       "path": "Thompson Sampling.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Beta Distribution",
       "path": "Beta Distribution.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Binomial Distribution",
@@ -195,10 +199,6 @@
     {
       "basename": "Variational Autoencoder",
       "path": "Variational Autoencoder.md"
-    },
-    {
-      "basename": "Jensen's Inequality",
-      "path": "Jensen's Inequality.md"
     }
   ],
   "omittedPaths": [],
