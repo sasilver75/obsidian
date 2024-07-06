@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+                "file": "Normalizing Flows.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -525,7 +525,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+                "file": "Normalizing Flows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -542,7 +542,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+                "file": "Normalizing Flows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -565,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
+                "file": "Normalizing Flows.md"
               }
             }
           },
@@ -598,7 +598,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+                "file": "Normalizing Flows.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -647,12 +647,14 @@
   },
   "active": "9be902cabf083454",
   "lastOpenFiles": [
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+    "Normalizing Flows.md",
+    "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "_attachments/Pasted image 20240705185319.png",
     "_attachments/Pasted image 20240705185310.png",
     "_attachments/Pasted image 20240705185227.png",
     "_attachments/Pasted image 20240705185149.png",
     "~ Vocabulary.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "_attachments/Pasted image 20240705184545.png",
     "_attachments/Pasted image 20240705183638.png",
     "Combination.md",
@@ -660,7 +662,6 @@
     "_attachments/Pasted image 20240705182229.png",
     "_attachments/Pasted image 20240705182024.png",
     "_attachments/Pasted image 20240705182015.png",
-    "_attachments/Pasted image 20240705181909.png",
     "Binomial Coefficient.md",
     "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
     "Parametric Evaluations.md",
@@ -691,7 +692,6 @@
     "Courses/Biology/7.016 Introductory Biology @ MIT (2018)",
     "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
     "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)",
-    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)",
-    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)"
+    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)"
   ]
 }
