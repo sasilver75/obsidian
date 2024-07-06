@@ -34,6 +34,45 @@
             }
           },
           {
+            "id": "d5c824bfc58d208f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03d0faabc18249fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combination.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18a6bd7ad6a48f25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Binomial Coefficient.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9b5565978c08cdff",
             "type": "leaf",
             "state": {
@@ -91,7 +130,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78d0d770db07341c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permutation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -398,7 +450,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -456,7 +508,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -472,7 +525,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -489,7 +542,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -512,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md"
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
               }
             }
           },
@@ -545,7 +598,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -592,31 +645,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "441632386f18fe2a",
+  "active": "9be902cabf083454",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240705165813.png",
-    "_attachments/Pasted image 20240705165803.png",
-    "_attachments/Pasted image 20240705165732.png",
-    "_attachments/Pasted image 20240705165719.png",
-    "_attachments/Pasted image 20240705165705.png",
-    "_attachments/Pasted image 20240705165643.png",
-    "_attachments/Pasted image 20240705165637.png",
-    "_attachments/Pasted image 20240705165625.png",
-    "_attachments/Pasted image 20240705165429.png",
-    "_attachments/Pasted image 20240705164745.png",
-    "_attachments/Pasted image 20240705164545.png",
-    "Cross-Entropy.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
-    "Nemotron-4.md",
+    "_attachments/Pasted image 20240705185319.png",
+    "_attachments/Pasted image 20240705185310.png",
+    "_attachments/Pasted image 20240705185227.png",
+    "_attachments/Pasted image 20240705185149.png",
     "~ Vocabulary.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+    "_attachments/Pasted image 20240705184545.png",
+    "_attachments/Pasted image 20240705183638.png",
+    "Combination.md",
+    "_attachments/Pasted image 20240705182230.png",
+    "_attachments/Pasted image 20240705182229.png",
+    "_attachments/Pasted image 20240705182024.png",
+    "_attachments/Pasted image 20240705182015.png",
+    "_attachments/Pasted image 20240705181909.png",
+    "Binomial Coefficient.md",
+    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md",
+    "Parametric Evaluations.md",
+    "Permutation.md",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md",
+    "Cross-Entropy.md",
+    "Nemotron-4.md",
     "Yi Tay.md",
     "Pruning.md",
     "Chinchilla.md",
     "Early Fusion.md",
     "Vibe-Eval.md",
-    "Parametric Evaluations.md",
     "LLaMA 2.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "Uniform Distribution.md",
     "Bayes Theorem.md",
     "Alpagasus.md",
@@ -626,10 +683,6 @@
     "Direct Preference Optimization.md",
     "Retrieval-Augmented Generation (Model).md",
     "Douwe Kiela.md",
-    "Retrieval-Augmented Generation.md",
-    "Reinforcement Learning from Human Feedback.md",
-    "Entropy.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
