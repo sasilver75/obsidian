@@ -57,6 +57,9 @@
 - [[Gaussian Distribution]]
 - [[Bernoulli Distribution]]
 - [[Uniform Distribution]]
+- [[Permutation]]
+- [[Combination]]
+- [[Normalizing Flows]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
