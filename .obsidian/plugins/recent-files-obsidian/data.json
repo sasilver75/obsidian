@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Probability for CS (3) What is Probability?",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md"
+    },
+    {
+      "basename": "Probability for CS (2) Combinatorics",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Beta Distribution",
+      "path": "Beta Distribution.md"
+    },
+    {
+      "basename": "Alpagasus",
+      "path": "Alpagasus.md"
     },
     {
       "basename": "Bernoulli Distribution",
@@ -17,16 +33,8 @@
       "path": "Poisson Distribution.md"
     },
     {
-      "basename": "Beta Distribution",
-      "path": "Beta Distribution.md"
-    },
-    {
       "basename": "Binomial Distribution",
       "path": "Binomial Distribution.md"
-    },
-    {
-      "basename": "Alpagasus",
-      "path": "Alpagasus.md"
     },
     {
       "basename": "Cross-Entropy",
@@ -35,10 +43,6 @@
     {
       "basename": "Entropy",
       "path": "Entropy.md"
-    },
-    {
-      "basename": "Probability for CS (2) Combinatorics",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
     },
     {
       "basename": "Beta-VAE",
@@ -195,10 +199,6 @@
     {
       "basename": "Probability for CS (1) Counting",
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md"
-    },
-    {
-      "basename": "Variational Autoencoder",
-      "path": "Variational Autoencoder.md"
     }
   ],
   "omittedPaths": [],
