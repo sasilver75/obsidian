@@ -54,9 +54,15 @@
 - [[Jensen's Inequality]]
 - [[Evidence Lower Bound]] (ELBO)
 - [[Variational Bayesian Inference]] ("Variational Bayes")
-- [[Gaussian Distribution]]
+- [[Gaussian Distribution]] (Normal Distribution)
 - [[Bernoulli Distribution]]
+- [[Binomial Distribution]] (Probability that I get X heads in N flips)
 - [[Uniform Distribution]]
+- [[Beta Distribution]] 
+- [[Poisson Distribution]] (If 3 people walk into store per average hour, p(5 people walk in))
+- [[Exponential Distribution]]
+- [[Weibull Distribution]]
+- [[Geometric Distribution]]
 - [[Permutation]]
 - [[Combination]]
 - [[Normalizing Flows]]
@@ -118,7 +124,7 @@
 - [[Anomaly Detection]]
 - [[Coreset Selection]]
 - [[Gradient Descent]]
-- [[Stochastic Gradient Descent]]
+- [[Stochastic Gradient Descent]] (SGD)
 - [[Selection Bias]]
 - [[Cook's Distance]] (Cook's D)
 - [[Outlier]]
@@ -150,9 +156,9 @@
 - [[Weight Tying]]
 - [[Large Language Model]]
 - [[Foundation Model]]
+- [[Nesterov Momentum]]
 - [[Multimodal]]
 - [[VLM]] (Vision-Language Model)
-- [[Machine Learning]]
 - [[Softmax]]
 - [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
 - [[Leaky ReLU]]
@@ -659,7 +665,7 @@
 - [[DenseNet]]
 - [[MobileNet]]
 - [[MobileNet-V2]]
-- [[ConvNext]]
+- [[ConvNeXt]]
 - [[Segment Anything Model]]
 - [[T5]]
 - [[Transformer-XL]]

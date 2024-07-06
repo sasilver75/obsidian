@@ -1,16 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "Normalizing Flows",
-      "path": "Normalizing Flows.md"
+      "basename": "Thompson Sampling",
+      "path": "Thompson Sampling.md"
+    },
+    {
+      "basename": "Poisson Distribution",
+      "path": "Poisson Distribution.md"
+    },
+    {
+      "basename": "Beta Distribution",
+      "path": "Beta Distribution.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Binomial Distribution",
+      "path": "Binomial Distribution.md"
+    },
+    {
+      "basename": "Alpagasus",
+      "path": "Alpagasus.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
     },
     {
       "basename": "Probability for CS (2) Combinatorics",
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Beta-VAE",
+      "path": "Beta-VAE.md"
+    },
+    {
+      "basename": "Gaussian Distribution",
+      "path": "Gaussian Distribution.md"
+    },
+    {
+      "basename": "ConvNeXt",
+      "path": "ConvNeXt.md"
+    },
+    {
+      "basename": "Adagrad",
+      "path": "Adagrad.md"
+    },
+    {
+      "basename": "LLaVA",
+      "path": "LLaVA.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "SigLIP",
+      "path": "SigLIP.md"
+    },
+    {
+      "basename": "Stochastic Gradient Descent",
+      "path": "Stochastic Gradient Descent.md"
+    },
+    {
+      "basename": "Convolutional Neural Network",
+      "path": "Convolutional Neural Network.md"
+    },
+    {
+      "basename": "Adam",
+      "path": "Adam.md"
+    },
+    {
+      "basename": "RMSProp",
+      "path": "RMSProp.md"
+    },
+    {
+      "basename": "Product Quantization",
+      "path": "Product Quantization.md"
+    },
+    {
+      "basename": "Nesterov Momentum",
+      "path": "Nesterov Momentum.md"
+    },
+    {
+      "basename": "Normalizing Flows",
+      "path": "Normalizing Flows.md"
     },
     {
       "basename": "Pasted image 20240705183638",
@@ -39,10 +119,6 @@
     {
       "basename": "Deep Generative Models (6) - Variational AutoEncoders Part 2",
       "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
     },
     {
       "basename": "Nemotron-4",
@@ -81,10 +157,6 @@
       "path": "Bayes Theorem.md"
     },
     {
-      "basename": "Alpagasus",
-      "path": "Alpagasus.md"
-    },
-    {
       "basename": "Continuous Batching",
       "path": "Continuous Batching.md"
     },
@@ -117,10 +189,6 @@
       "path": "Reinforcement Learning from Human Feedback.md"
     },
     {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
       "basename": "Probability for CS (1) Counting",
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md"
     },
@@ -129,76 +197,8 @@
       "path": "Variational Autoencoder.md"
     },
     {
-      "basename": "Gaussian Distribution",
-      "path": "Gaussian Distribution.md"
-    },
-    {
       "basename": "Jensen's Inequality",
       "path": "Jensen's Inequality.md"
-    },
-    {
-      "basename": "Stat110 Probability (1) - Probability and Counting",
-      "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
-    },
-    {
-      "basename": "Variational Bayesian Inference",
-      "path": "Variational Bayesian Inference.md"
-    },
-    {
-      "basename": "Chain Rule of Probability",
-      "path": "Chain Rule of Probability.md"
-    },
-    {
-      "basename": "Deep Generative Models (5) - Variational Autoencoders",
-      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (5) - Variational Autoencoders.md"
-    },
-    {
-      "basename": "Evidence Lower Bound",
-      "path": "Evidence Lower Bound.md"
-    },
-    {
-      "basename": "Importance Sampling",
-      "path": "Importance Sampling.md"
-    },
-    {
-      "basename": "Gaussian Mixture Model",
-      "path": "Gaussian Mixture Model.md"
-    },
-    {
-      "basename": "Process Reward Model",
-      "path": "Process Reward Model.md"
-    },
-    {
-      "basename": "Deep Generative Models (4) - Maximum Likelihood Estimation",
-      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (4) - Maximum Likelihood Estimation.md"
-    },
-    {
-      "basename": "Deep Generative Models (1) - Introduction",
-      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (1) - Introduction.md"
-    },
-    {
-      "basename": "TODO - Getting up to Speed (1) - The Molecules of Life",
-      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (1) - The Molecules of Life.md"
-    },
-    {
-      "basename": "TODO - Getting up to Speed (2) - The Cell and How it Works",
-      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (2) - The Cell and How it Works.md"
-    },
-    {
-      "basename": "TODO - Getting up to Speed (3) - Information Transfer in Biology",
-      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (3) - Information Transfer in Biology.md"
-    },
-    {
-      "basename": "TODO - Getting up to Speed (5) - Building with DNA",
-      "path": "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)/TODO - Getting up to Speed (5) - Building with DNA.md"
-    },
-    {
-      "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
-      "path": "Articles/Machine Learning/7 Tips for Junior Researchers (?) {Ofir Press}.md"
-    },
-    {
-      "basename": "A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}",
-      "path": "Articles/Machine Learning/A Full Hardware Guide to Deep Learning (2018) {Tim Dettmers}.md"
     }
   ],
   "omittedPaths": [],
