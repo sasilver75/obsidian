@@ -65,7 +65,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94d110a8b2a58e4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -612,7 +625,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -628,7 +642,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -645,7 +659,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -668,7 +682,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md"
               }
             }
           },
@@ -701,7 +715,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -750,26 +764,28 @@
   },
   "active": "e3c53bf2983c1a70",
   "lastOpenFiles": [
-    "Bernoulli Distribution.md",
+    "_attachments/Pasted image 20240706143100.png",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md",
     "~ Vocabulary.md",
+    "Beta Distribution.md",
+    "Alpagasus.md",
+    "_attachments/Pasted image 20240706141249.png",
+    "_attachments/Pasted image 20240706141015.png",
+    "_attachments/Pasted image 20240706134349.png",
+    "_attachments/Pasted image 20240706132234.png",
+    "_attachments/Pasted image 20240706131703.png",
+    "_attachments/Pasted image 20240706131655.png",
+    "_attachments/Pasted image 20240706131247.png",
+    "_attachments/Pasted image 20240706130607.png",
+    "_attachments/Pasted image 20240706130215.png",
+    "_attachments/Pasted image 20240706130111.png",
+    "Bernoulli Distribution.md",
     "Thompson Sampling.md",
     "Poisson Distribution.md",
-    "Beta Distribution.md",
     "Binomial Distribution.md",
-    "_attachments/Pasted image 20240706112338.png",
-    "_attachments/Pasted image 20240706112219.png",
-    "Alpagasus.md",
     "Cross-Entropy.md",
     "Entropy.md",
-    "_attachments/Pasted image 20240706111915.png",
-    "_attachments/Pasted image 20240706111905.png",
-    "_attachments/Pasted image 20240706111845.png",
-    "_attachments/Pasted image 20240706111715.png",
-    "_attachments/Pasted image 20240706111330.png",
-    "_attachments/Pasted image 20240706111213.png",
-    "_attachments/Pasted image 20240706105928.png",
-    "_attachments/Pasted image 20240706105917.png",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "Beta-VAE.md",
     "Gaussian Distribution.md",
     "ConvNeXt.md",
@@ -784,9 +800,7 @@
     "Product Quantization.md",
     "Nesterov Momentum.md",
     "Machine Learning.md",
-    "Normalizing Flows.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
-    "Combination.md",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
