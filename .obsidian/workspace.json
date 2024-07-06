@@ -65,7 +65,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thompson Sampling.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af2ac9c05b1ebfee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bernoulli Distribution.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -599,8 +612,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -616,7 +628,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thompson Sampling.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -633,7 +645,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thompson Sampling.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -656,7 +668,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thompson Sampling.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -689,7 +701,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thompson Sampling.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -738,9 +750,11 @@
   },
   "active": "e3c53bf2983c1a70",
   "lastOpenFiles": [
+    "Bernoulli Distribution.md",
+    "~ Vocabulary.md",
+    "Thompson Sampling.md",
     "Poisson Distribution.md",
     "Beta Distribution.md",
-    "~ Vocabulary.md",
     "Binomial Distribution.md",
     "_attachments/Pasted image 20240706112338.png",
     "_attachments/Pasted image 20240706112219.png",
@@ -757,7 +771,6 @@
     "_attachments/Pasted image 20240706105917.png",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "Beta-VAE.md",
-    "Thompson Sampling.md",
     "Gaussian Distribution.md",
     "ConvNeXt.md",
     "Adagrad.md",

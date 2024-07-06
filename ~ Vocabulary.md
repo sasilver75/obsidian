@@ -60,6 +60,7 @@
 - [[Uniform Distribution]]
 - [[Beta Distribution]] 
 - [[Poisson Distribution]] (If 3 people walk into store per average hour, p(5 people walk in))
+- [[Gamma Distribution]]
 - [[Exponential Distribution]]
 - [[Weibull Distribution]]
 - [[Geometric Distribution]]
