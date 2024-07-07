@@ -2,6 +2,7 @@
 aliases:
   - Coverage
   - True Positive Rate
+  - Sensitivity
 ---
 The proportion of true positives that were correctly identified. If there were 100 positive instances in our data, and the model identified 80, Recall = 0.8.
 

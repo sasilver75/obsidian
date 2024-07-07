@@ -263,7 +263,7 @@
 - [[Online Learning]]
 - [[Weak-to-Strong Generalization]]
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
-- [[Generative Adversarial Network]]
+- [[Generative Adversarial Network]] (GAN)
 - [[Adam]]
 - [[AdamW]]
 - [[RMSProp]]
@@ -280,7 +280,7 @@
 - [[Encoder-Only Architecture]]
 - [[Decoder-Only Architecture]]
 - [[Encoder-Decoder Architecture]]
-- [[Neural Architecture Search]]
+- [[Neural Architecture Search]] (NAS)
 - [[Double Descent]]
 - [[Guardrails]]
 - [[Steerability]]
@@ -339,8 +339,8 @@
 - [[OSS-Instruct]]
 - [[Imitation Learning]]
 - [[Automatic Mixed-Precision Training]]
-- [[Xavier Initialization]]
-- [[He Initialization]]
+- [[Xavier Initialization]] (Glorot Initialization)
+- [[He Initialization]] (Kaiming Initialization)
 - [[Out-of-Bag Error]]
 - [[Boosting]]
 - [[Direct Preference Optimization]] (DPO)

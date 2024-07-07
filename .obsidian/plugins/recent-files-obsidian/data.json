@@ -1,20 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Probability for CS (4) Conditional Probability and Bayes",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
-    },
-    {
-      "basename": "Chain Rule of Probability",
-      "path": "Chain Rule of Probability.md"
+      "basename": "Balanced Accuracy",
+      "path": "Balanced Accuracy.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Precision",
+      "path": "Precision.md"
+    },
+    {
+      "basename": "Recall",
+      "path": "Recall.md"
+    },
+    {
+      "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
+    },
+    {
+      "basename": "Goodhardt's Law",
+      "path": "Goodhardt's Law.md"
+    },
+    {
+      "basename": "Xavier Initialization",
+      "path": "Xavier Initialization.md"
+    },
+    {
+      "basename": "He Initialization",
+      "path": "He Initialization.md"
+    },
+    {
+      "basename": "Kaiming He",
+      "path": "Kaiming He.md"
+    },
+    {
+      "basename": "Canary GUID",
+      "path": "Canary GUID.md"
+    },
+    {
+      "basename": "SEALS",
+      "path": "SEALS.md"
+    },
+    {
+      "basename": "Neural Architecture Search",
+      "path": "Neural Architecture Search.md"
+    },
+    {
+      "basename": "Generative Adversarial Network",
+      "path": "Generative Adversarial Network.md"
+    },
+    {
       "basename": "Probability for CS (2) Combinatorics",
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
+    },
+    {
+      "basename": "Residual Network",
+      "path": "Residual Network.md"
+    },
+    {
+      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
+    },
+    {
+      "basename": "Probability for CS (4) Conditional Probability and Bayes",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
+    },
+    {
+      "basename": "Chain Rule of Probability",
+      "path": "Chain Rule of Probability.md"
     },
     {
       "basename": "Foundations of Deep RL (2) - Deep Q-Learning",
@@ -143,62 +199,6 @@
     {
       "basename": "Adagrad",
       "path": "Adagrad.md"
-    },
-    {
-      "basename": "LLaVA",
-      "path": "LLaVA.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "SigLIP",
-      "path": "SigLIP.md"
-    },
-    {
-      "basename": "Convolutional Neural Network",
-      "path": "Convolutional Neural Network.md"
-    },
-    {
-      "basename": "Adam",
-      "path": "Adam.md"
-    },
-    {
-      "basename": "RMSProp",
-      "path": "RMSProp.md"
-    },
-    {
-      "basename": "Product Quantization",
-      "path": "Product Quantization.md"
-    },
-    {
-      "basename": "Nesterov Momentum",
-      "path": "Nesterov Momentum.md"
-    },
-    {
-      "basename": "Normalizing Flows",
-      "path": "Normalizing Flows.md"
-    },
-    {
-      "basename": "Pasted image 20240705183638",
-      "path": "_attachments/Pasted image 20240705183638.png"
-    },
-    {
-      "basename": "Stat110 Probability (2) - Story Proofs, Axioms of Probability",
-      "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (2) - Story Proofs, Axioms of Probability.md"
-    },
-    {
-      "basename": "Deep Generative Models (6) - Variational AutoEncoders Part 2",
-      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (6) - Variational AutoEncoders Part 2.md"
-    },
-    {
-      "basename": "Nemotron-4",
-      "path": "Nemotron-4.md"
-    },
-    {
-      "basename": "Yi Tay",
-      "path": "Yi Tay.md"
     }
   ],
   "omittedPaths": [],
