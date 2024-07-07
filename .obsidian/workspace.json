@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "fe3a18327ddb938a",
+            "id": "6cdda93097fdc9a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
+                "file": "Balanced Accuracy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +34,72 @@
             }
           },
           {
-            "id": "2892b3b60bed09f3",
+            "id": "ed6bef377a49b67b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Precision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17f1166d16d79c0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f353e0f2be0312f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Goodhardt's Law.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1311945cf9b6841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Xavier Initialization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d03394e3aa67b55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "He Initialization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a74c13141f0c5ed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +112,12 @@
             }
           },
           {
-            "id": "7a3df47f52d9cb5d",
+            "id": "e35518cb7dfb0386",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+                "file": "He Initialization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -135,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
+                "file": "Balanced Accuracy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
+                "file": "Balanced Accuracy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
+                "file": "Balanced Accuracy.md"
               }
             }
           },
@@ -208,7 +273,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
+                "file": "Balanced Accuracy.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,8 +320,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fe3a18327ddb938a",
+  "active": "6cdda93097fdc9a3",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Precision.md",
+    "Recall.md",
+    "Balanced Accuracy.md",
+    "_attachments/Pasted image 20240707164250.png",
+    "_attachments/Pasted image 20240707164240.png",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
+    "Goodhardt's Law.md",
+    "Xavier Initialization.md",
+    "He Initialization.md",
+    "Kaiming He.md",
+    "Canary GUID.md",
+    "SEALS.md",
+    "Neural Architecture Search.md",
+    "Generative Adversarial Network.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+    "Residual Network.md",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
     "_attachments/Pasted image 20240707153921.png",
     "_attachments/Pasted image 20240707153308.png",
     "_attachments/Pasted image 20240707152119.png",
@@ -265,13 +349,7 @@
     "_attachments/Pasted image 20240707150457.png",
     "_attachments/Pasted image 20240707150051.png",
     "_attachments/Pasted image 20240707145946.png",
-    "_attachments/Pasted image 20240707145803.png",
     "Chain Rule of Probability.md",
-    "~ Vocabulary.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
-    "_attachments/Pasted image 20240707144921.png",
-    "_attachments/Pasted image 20240707144715.png",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md",
     "Alpagasus.md",
     "Entropy.md",
@@ -280,19 +358,6 @@
     "Direct Preference Optimization.md",
     "Reinforcement Learning from Human Feedback.md",
     "Importance Sampling.md",
-    "Kullback-Leibler Divergence.md",
-    "Cross-Entropy.md",
-    "Gaussian Distribution.md",
-    "Jensen's Inequality.md",
-    "Variational Bayesian Inference.md",
-    "Bayes Theorem.md",
-    "Evidence Lower Bound.md",
-    "Bernoulli Distribution.md",
-    "Parametric Evaluations.md",
-    "Permutation.md",
-    "Uniform Distribution.md",
-    "Continuous Batching.md",
-    "Binomial Distribution.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",

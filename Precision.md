@@ -1,6 +1,7 @@
 ---
 aliases:
   - Positive Predictive Value
+  - Specificity
 ---
 Proportion of the model's positive predictions that were correct. If the model predicted positive 50 times, but only 30 were truly positive, precision = 0.6.
 
