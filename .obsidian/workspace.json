@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe3a18327ddb938a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2892b3b60bed09f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a3df47f52d9cb5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md"
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
               }
             }
           },
@@ -168,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,21 +255,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9be902cabf083454",
+  "active": "fe3a18327ddb938a",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240707010940.png",
-    "_attachments/Pasted image 20240707010710.png",
-    "_attachments/Pasted image 20240707010629.png",
-    "_attachments/Pasted image 20240707010509.png",
-    "_attachments/Pasted image 20240707004851.png",
-    "Alpagasus.md",
+    "_attachments/Pasted image 20240707153921.png",
+    "_attachments/Pasted image 20240707153308.png",
+    "_attachments/Pasted image 20240707152119.png",
+    "_attachments/Pasted image 20240707150817.png",
+    "_attachments/Pasted image 20240707150656.png",
+    "_attachments/Pasted image 20240707150457.png",
+    "_attachments/Pasted image 20240707150051.png",
+    "_attachments/Pasted image 20240707145946.png",
+    "_attachments/Pasted image 20240707145803.png",
+    "Chain Rule of Probability.md",
+    "~ Vocabulary.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
+    "_attachments/Pasted image 20240707144921.png",
+    "_attachments/Pasted image 20240707144715.png",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md",
+    "Alpagasus.md",
     "Entropy.md",
     "Beta Distribution.md",
     "Value Iteration.md",
     "Direct Preference Optimization.md",
     "Reinforcement Learning from Human Feedback.md",
-    "~ Vocabulary.md",
     "Importance Sampling.md",
     "Kullback-Leibler Divergence.md",
     "Cross-Entropy.md",
@@ -237,22 +286,13 @@
     "Jensen's Inequality.md",
     "Variational Bayesian Inference.md",
     "Bayes Theorem.md",
-    "Chain Rule of Probability.md",
     "Evidence Lower Bound.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "Bernoulli Distribution.md",
     "Parametric Evaluations.md",
     "Permutation.md",
     "Uniform Distribution.md",
     "Continuous Batching.md",
     "Binomial Distribution.md",
-    "Stochastic Gradient Descent.md",
-    "_attachments/Pasted image 20240707002746.png",
-    "_attachments/Pasted image 20240707002540.png",
-    "_attachments/Pasted image 20240707002520.png",
-    "_attachments/Pasted image 20240706150558.png",
-    "_attachments/Pasted image 20240706150505.png",
-    "_attachments/Pasted image 20240706150242.png",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Probability for CS (4) Conditional Probability and Bayes",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
+    },
+    {
+      "basename": "Chain Rule of Probability",
+      "path": "Chain Rule of Probability.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Probability for CS (2) Combinatorics",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
+    },
+    {
       "basename": "Foundations of Deep RL (2) - Deep Q-Learning",
       "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md"
     },
@@ -27,10 +43,6 @@
     {
       "basename": "Reinforcement Learning from Human Feedback",
       "path": "Reinforcement Learning from Human Feedback.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Importance Sampling",
@@ -61,16 +73,8 @@
       "path": "Bayes Theorem.md"
     },
     {
-      "basename": "Chain Rule of Probability",
-      "path": "Chain Rule of Probability.md"
-    },
-    {
       "basename": "Evidence Lower Bound",
       "path": "Evidence Lower Bound.md"
-    },
-    {
-      "basename": "Probability for CS (2) Combinatorics",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
     },
     {
       "basename": "Bernoulli Distribution",
@@ -195,10 +199,6 @@
     {
       "basename": "Yi Tay",
       "path": "Yi Tay.md"
-    },
-    {
-      "basename": "Pruning",
-      "path": "Pruning.md"
     }
   ],
   "omittedPaths": [],
