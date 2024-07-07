@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Foundations of Deep RL (2) - Deep Q-Learning",
+      "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md"
+    },
+    {
+      "basename": "Value Iteration",
+      "path": "Value Iteration.md"
+    },
+    {
+      "basename": "Foundations of Deep RL (1) - MDPs and Exact Solution Methods",
+      "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md"
+    },
+    {
+      "basename": "Deep Generative Models (8) - GANs",
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (8) - GANs.md"
+    },
+    {
       "basename": "Probability for CS (3) What is Probability?",
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Retrieval-Augmented Generation (Model)",
       "path": "Retrieval-Augmented Generation (Model).md"
-    },
-    {
-      "basename": "Douwe Kiela",
-      "path": "Douwe Kiela.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
-    },
-    {
-      "basename": "Reinforcement Learning from Human Feedback",
-      "path": "Reinforcement Learning from Human Feedback.md"
-    },
-    {
-      "basename": "Probability for CS (1) Counting",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (1) Counting.md"
     }
   ],
   "omittedPaths": [],
