@@ -67,6 +67,8 @@
 - [[Permutation]]
 - [[Combination]]
 - [[Normalizing Flows]]
+- [[Conditional Probability]]
+- [[Law of Total Probability]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]

@@ -1,3 +1,9 @@
+---
+aliases:
+  - Product Rule of Probability
+---
+
+
 For two events A and B, the chain rule states that
 P(A,B) = P(B|A)(PA)
 
