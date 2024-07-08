@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Balanced Accuracy",
-      "path": "Balanced Accuracy.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "SwiGLU",
+      "path": "SwiGLU.md"
+    },
+    {
+      "basename": "He Initialization",
+      "path": "He Initialization.md"
+    },
+    {
+      "basename": "GLU",
+      "path": "GLU.md"
+    },
+    {
+      "basename": "Hadamard Product",
+      "path": "Hadamard Product.md"
+    },
+    {
+      "basename": "Swish",
+      "path": "Swish.md"
+    },
+    {
+      "basename": "Gated Recurrent Unit",
+      "path": "Gated Recurrent Unit.md"
+    },
+    {
+      "basename": "Balanced Accuracy",
+      "path": "Balanced Accuracy.md"
     },
     {
       "basename": "Precision",
@@ -27,10 +51,6 @@
     {
       "basename": "Xavier Initialization",
       "path": "Xavier Initialization.md"
-    },
-    {
-      "basename": "He Initialization",
-      "path": "He Initialization.md"
     },
     {
       "basename": "Kaiming He",
@@ -179,26 +199,6 @@
     {
       "basename": "Probability for CS (3) What is Probability?",
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md"
-    },
-    {
-      "basename": "Thompson Sampling",
-      "path": "Thompson Sampling.md"
-    },
-    {
-      "basename": "Poisson Distribution",
-      "path": "Poisson Distribution.md"
-    },
-    {
-      "basename": "Beta-VAE",
-      "path": "Beta-VAE.md"
-    },
-    {
-      "basename": "ConvNeXt",
-      "path": "ConvNeXt.md"
-    },
-    {
-      "basename": "Adagrad",
-      "path": "Adagrad.md"
     }
   ],
   "omittedPaths": [],
