@@ -16,4 +16,4 @@ We use the Gini Index to determine the best split at each node: We evaluate pote
 
 If we have a node with 10 instances, 6As and 4Bs, the Gini Index is:
 $Gini = 1 - (0.6^2 + 0.4^2) = 1 - 0.52 = .48$
-If a split then results in two child nodes with Gini Indices of .2 and .3, and the *weighted* averages of these indices is lower than .48, the split is considered good.
+If a split then results in two child nodes with Gini Indices of .2 and .3, and the *weighted* averages of these indices is lower than .48, the split is considered good/useful.

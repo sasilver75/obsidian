@@ -10,7 +10,7 @@ Bell Labels
 
 One of the most popular clustering techniques, which uses iterative refinement of clusters to partition a dataset into a *predetermined number of k clusters*. Goals are:
 - Group similar datapoints together
-- To minimize the within-cluster variance
+- To minimize the within-cluster variance (dispersion)
 
 (Only requires specifying one main parameter, K -- the number of clusters to form)
 

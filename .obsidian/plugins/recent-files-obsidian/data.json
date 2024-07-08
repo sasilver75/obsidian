@@ -1,24 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "K-Means Clustering",
-      "path": "K-Means Clustering.md"
-    },
-    {
-      "basename": "Decision Tree",
-      "path": "Decision Tree.md"
+      "basename": "Probability for CS (5) Independence",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "DBSCAN",
-      "path": "DBSCAN.md"
+      "basename": "Conditional Probability",
+      "path": "Conditional Probability.md"
+    },
+    {
+      "basename": "Permutation",
+      "path": "Permutation.md"
+    },
+    {
+      "basename": "Combination",
+      "path": "Combination.md"
+    },
+    {
+      "basename": "Probability for CS (2) Combinatorics",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
+    },
+    {
+      "basename": "RMSProp",
+      "path": "RMSProp.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Adam",
+      "path": "Adam.md"
+    },
+    {
+      "basename": "Adagrad",
+      "path": "Adagrad.md"
+    },
+    {
+      "basename": "Decision Tree",
+      "path": "Decision Tree.md"
+    },
+    {
+      "basename": "Nesterov Momentum",
+      "path": "Nesterov Momentum.md"
+    },
+    {
+      "basename": "Random Forest",
+      "path": "Random Forest.md"
+    },
+    {
+      "basename": "Gini Index",
+      "path": "Gini Index.md"
+    },
+    {
+      "basename": "K-Means Clustering",
+      "path": "K-Means Clustering.md"
+    },
+    {
+      "basename": "DBSCAN",
+      "path": "DBSCAN.md"
     },
     {
       "basename": "UMAP",
@@ -141,10 +185,6 @@
       "path": "Naive Definition of Probability.md"
     },
     {
-      "basename": "Conditional Probability",
-      "path": "Conditional Probability.md"
-    },
-    {
       "basename": "Outcome",
       "path": "Outcome.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "Count-Min Sketch",
       "path": "Count-Min Sketch.md"
-    },
-    {
-      "basename": "Degrees of Freedom",
-      "path": "Degrees of Freedom.md"
-    },
-    {
-      "basename": "Multicollinearity",
-      "path": "Multicollinearity.md"
-    },
-    {
-      "basename": "SwiGLU",
-      "path": "SwiGLU.md"
-    },
-    {
-      "basename": "Swish",
-      "path": "Swish.md"
-    },
-    {
-      "basename": "Gated Recurrent Unit",
-      "path": "Gated Recurrent Unit.md"
-    },
-    {
-      "basename": "Recall",
-      "path": "Recall.md"
-    },
-    {
-      "basename": "Xavier Initialization",
-      "path": "Xavier Initialization.md"
-    },
-    {
-      "basename": "Kaiming He",
-      "path": "Kaiming He.md"
-    },
-    {
-      "basename": "Canary GUID",
-      "path": "Canary GUID.md"
-    },
-    {
-      "basename": "SEALS",
-      "path": "SEALS.md"
     }
   ],
   "omittedPaths": [],
