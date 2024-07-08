@@ -1,3 +1,6 @@
+
+![[Pasted image 20240708123835.png|300]]
+"imagine you are doing your ai phd defense and the panel asks 'ok but is your ai freepy or is it gloopy'" - alexanderrgriffing in eleuther discord
 ![[Pasted image 20240708003735.png]]
 
 ![[Pasted image 20240707184139.png]]

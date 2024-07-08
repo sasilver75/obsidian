@@ -1,5 +1,9 @@
-![[Pasted image 20240705221804.png]]
+References:
+- Video: [Sourish Kundu's Who's Adam and What's He Optimizing?](https://youtu.be/MD2fYip6QsQ?si=l1hj8bWgbRM181Xk)
+
+![[Pasted image 20240705221838.png]]
 (Stabilizer is just a small number that we add to the denominator so as not to divide by zero)
+- Adagrad doesn't use any Beta to weight down old gradients like the successor [[RMSProp]] does -- it just adds up the square of past gradients and takes the square root; so as training progresses, the denominator grows and grows, resulting in the effective learning rate getting smaller and smaller, hindering Adagrad's ability to converge. Adagrad introduces an exponentially-weighted average to address this.
 
 For each individual weight, the gradient step is scaled according to the square root of the sum of prior encountered gradients.
 The logic is similar to that of decaying learning rates, where the LR is reduced by some type of schedule as training progresses... with the idea that as training progresses, we're closer to the target minimum.

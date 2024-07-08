@@ -1,5 +1,6 @@
 References:
 - Video: [DeepBeen's Optimization for Deep Learning](https://youtu.be/NE88eqLngkg?si=rgi-jKviVsmPZyM-)
+- Video: [Sourish Kundu's Who's Adam and What's He Optimizing?](https://youtu.be/MD2fYip6QsQ?si=l1hj8bWgbRM181Xk)
 
 ![[Pasted image 20240705221317.png]]
 

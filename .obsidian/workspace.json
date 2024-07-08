@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,71 @@
             }
           },
           {
-            "id": "243db6116d9c168d",
+            "id": "85052b43bd30716d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K-Means Clustering.md",
+                "file": "Conditional Probability.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "825d6b1fcf7ae474",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permutation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72f97dd1628ce5b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combination.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c41695aaa73b003",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gini Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dab90ece3865147b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gini Index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K-Means Clustering.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K-Means Clustering.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K-Means Clustering.md"
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
               }
             }
           },
@@ -182,7 +233,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "K-Means Clustering.md",
+                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -229,44 +280,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "243db6116d9c168d",
+  "active": "9be902cabf083454",
   "lastOpenFiles": [
-    "Decision Tree.md",
+    "_attachments/Pasted image 20240708152418.png",
+    "_attachments/Pasted image 20240708152009.png",
+    "_attachments/Pasted image 20240708151435.png",
+    "_attachments/Pasted image 20240708151127.png",
+    "_attachments/Pasted image 20240708150849.png",
+    "_attachments/Pasted image 20240708150808.png",
+    "_attachments/Pasted image 20240708150742.png",
+    "_attachments/Pasted image 20240708150736.png",
+    "_attachments/Pasted image 20240708145847.png",
+    "_attachments/Pasted image 20240708145614.png",
     "~ Vocabulary.md",
+    "Conditional Probability.md",
+    "_attachments/Pasted image 20240708145518.png",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
+    "Permutation.md",
+    "Combination.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
+    "RMSProp.md",
+    "~ Useful Pictures.md",
+    "Adam.md",
+    "Adagrad.md",
+    "Decision Tree.md",
+    "Nesterov Momentum.md",
+    "Random Forest.md",
+    "Gini Index.md",
     "K-Means Clustering.md",
     "DBSCAN.md",
-    "~ Useful Pictures.md",
     "UMAP.md",
     "Student's t Distribution.md",
     "t-SNE.md",
-    "_attachments/Pasted image 20240708003735.png",
     "Multiplication Rule of Probability.md",
     "Chain Rule of Probability.md",
     "DataComp.md",
     "Event.md",
     "Event Space.md",
     "Sample Space.md",
-    "Mamba.md",
-    "Rejection Sampling.md",
-    "Balanced Accuracy.md",
-    "Precision.md",
-    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
-    "He Initialization.md",
-    "Goodhardt's Law.md",
-    "State Space Model.md",
-    "Coreset Selection.md",
-    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
-    "Catastrophic Forgetting.md",
-    "L1 Regularization.md",
-    "_attachments/Pasted image 20240707202526.png",
-    "_attachments/Pasted image 20240707184139.png",
-    "_attachments/Pasted image 20240707174104.png",
-    "_attachments/Pasted image 20240707173251.png",
-    "_attachments/Pasted image 20240707172353.png",
-    "_attachments/Pasted image 20240707164250.png",
-    "_attachments/Pasted image 20240707164240.png",
-    "_attachments/Pasted image 20240707153921.png",
-    "_attachments/Pasted image 20240707153308.png",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
