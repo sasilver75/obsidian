@@ -1,28 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "DataComp-LM",
-      "path": "DataComp-LM.md"
+      "basename": "K-Means Clustering",
+      "path": "K-Means Clustering.md"
     },
     {
-      "basename": "DataComp",
-      "path": "DataComp.md"
+      "basename": "Decision Tree",
+      "path": "Decision Tree.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "DBSCAN",
+      "path": "DBSCAN.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "UMAP",
+      "path": "UMAP.md"
+    },
+    {
+      "basename": "Student's t Distribution",
+      "path": "Student's t Distribution.md"
+    },
+    {
+      "basename": "t-SNE",
+      "path": "t-SNE.md"
+    },
+    {
+      "basename": "Multiplication Rule of Probability",
+      "path": "Multiplication Rule of Probability.md"
+    },
+    {
+      "basename": "Chain Rule of Probability",
+      "path": "Chain Rule of Probability.md"
+    },
+    {
+      "basename": "DataComp",
+      "path": "DataComp.md"
+    },
+    {
+      "basename": "Event",
+      "path": "Event.md"
+    },
+    {
+      "basename": "Event Space",
+      "path": "Event Space.md"
+    },
+    {
+      "basename": "Sample Space",
+      "path": "Sample Space.md"
+    },
+    {
       "basename": "Mamba",
       "path": "Mamba.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "Balanced Accuracy",
+      "path": "Balanced Accuracy.md"
+    },
+    {
+      "basename": "Precision",
+      "path": "Precision.md"
+    },
+    {
+      "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
+    },
+    {
+      "basename": "He Initialization",
+      "path": "He Initialization.md"
+    },
+    {
+      "basename": "Goodhardt's Law",
+      "path": "Goodhardt's Law.md"
     },
     {
       "basename": "State Space Model",
       "path": "State Space Model.md"
     },
     {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
+      "basename": "Coreset Selection",
+      "path": "Coreset Selection.md"
+    },
+    {
+      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
+    },
+    {
+      "basename": "Catastrophic Forgetting",
+      "path": "Catastrophic Forgetting.md"
+    },
+    {
+      "basename": "L1 Regularization",
+      "path": "L1 Regularization.md"
+    },
+    {
+      "basename": "DataComp-LM",
+      "path": "DataComp-LM.md"
     },
     {
       "basename": "Best-of-N Sampling",
@@ -65,28 +149,12 @@
       "path": "Outcome.md"
     },
     {
-      "basename": "Event",
-      "path": "Event.md"
-    },
-    {
       "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
       "path": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
       "basename": "Law of Total Probability",
       "path": "Law of Total Probability.md"
-    },
-    {
-      "basename": "Multiplication Rule of Probability",
-      "path": "Multiplication Rule of Probability.md"
-    },
-    {
-      "basename": "Chain Rule of Probability",
-      "path": "Chain Rule of Probability.md"
     },
     {
       "basename": "Count-Min Sketch",
@@ -105,10 +173,6 @@
       "path": "SwiGLU.md"
     },
     {
-      "basename": "He Initialization",
-      "path": "He Initialization.md"
-    },
-    {
       "basename": "Swish",
       "path": "Swish.md"
     },
@@ -117,24 +181,8 @@
       "path": "Gated Recurrent Unit.md"
     },
     {
-      "basename": "Balanced Accuracy",
-      "path": "Balanced Accuracy.md"
-    },
-    {
-      "basename": "Precision",
-      "path": "Precision.md"
-    },
-    {
       "basename": "Recall",
       "path": "Recall.md"
-    },
-    {
-      "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
-    },
-    {
-      "basename": "Goodhardt's Law",
-      "path": "Goodhardt's Law.md"
     },
     {
       "basename": "Xavier Initialization",
@@ -151,54 +199,6 @@
     {
       "basename": "SEALS",
       "path": "SEALS.md"
-    },
-    {
-      "basename": "Neural Architecture Search",
-      "path": "Neural Architecture Search.md"
-    },
-    {
-      "basename": "Generative Adversarial Network",
-      "path": "Generative Adversarial Network.md"
-    },
-    {
-      "basename": "Probability for CS (2) Combinatorics",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
-    },
-    {
-      "basename": "Residual Network",
-      "path": "Residual Network.md"
-    },
-    {
-      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
-    },
-    {
-      "basename": "Probability for CS (4) Conditional Probability and Bayes",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
-    },
-    {
-      "basename": "Foundations of Deep RL (2) - Deep Q-Learning",
-      "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md"
-    },
-    {
-      "basename": "Alpagasus",
-      "path": "Alpagasus.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
-      "basename": "Beta Distribution",
-      "path": "Beta Distribution.md"
-    },
-    {
-      "basename": "Value Iteration",
-      "path": "Value Iteration.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
     }
   ],
   "omittedPaths": [],
