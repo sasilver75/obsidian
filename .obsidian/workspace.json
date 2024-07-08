@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
+                "file": "Rejection Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
+                "file": "Rejection Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
+                "file": "Rejection Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
+                "file": "Rejection Sampling.md"
               }
             }
           },
@@ -233,7 +233,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
+                "file": "Rejection Sampling.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -282,6 +282,8 @@
   },
   "active": "9be902cabf083454",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240708155545.png",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "_attachments/Pasted image 20240708152418.png",
     "_attachments/Pasted image 20240708152009.png",
     "_attachments/Pasted image 20240708151435.png",
@@ -294,8 +296,6 @@
     "_attachments/Pasted image 20240708145614.png",
     "~ Vocabulary.md",
     "Conditional Probability.md",
-    "_attachments/Pasted image 20240708145518.png",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "Permutation.md",
     "Combination.md",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
