@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "DataComp-LM",
+      "path": "DataComp-LM.md"
+    },
+    {
+      "basename": "DataComp",
+      "path": "DataComp.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "SwiGLU",
-      "path": "SwiGLU.md"
+      "basename": "Mamba",
+      "path": "Mamba.md"
     },
     {
-      "basename": "He Initialization",
-      "path": "He Initialization.md"
+      "basename": "State Space Model",
+      "path": "State Space Model.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "Best-of-N Sampling",
+      "path": "Best-of-N Sampling.md"
+    },
+    {
+      "basename": "HyperLogLog",
+      "path": "HyperLogLog.md"
+    },
+    {
+      "basename": "Bloom Filter",
+      "path": "Bloom Filter.md"
     },
     {
       "basename": "GLU",
@@ -19,6 +43,70 @@
     {
       "basename": "Hadamard Product",
       "path": "Hadamard Product.md"
+    },
+    {
+      "basename": "MinHash",
+      "path": "MinHash.md"
+    },
+    {
+      "basename": "Stat110 Probability (1) - Probability and Counting",
+      "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
+    },
+    {
+      "basename": "Naive Definition of Probability",
+      "path": "Naive Definition of Probability.md"
+    },
+    {
+      "basename": "Conditional Probability",
+      "path": "Conditional Probability.md"
+    },
+    {
+      "basename": "Outcome",
+      "path": "Outcome.md"
+    },
+    {
+      "basename": "Event",
+      "path": "Event.md"
+    },
+    {
+      "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
+      "path": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Law of Total Probability",
+      "path": "Law of Total Probability.md"
+    },
+    {
+      "basename": "Multiplication Rule of Probability",
+      "path": "Multiplication Rule of Probability.md"
+    },
+    {
+      "basename": "Chain Rule of Probability",
+      "path": "Chain Rule of Probability.md"
+    },
+    {
+      "basename": "Count-Min Sketch",
+      "path": "Count-Min Sketch.md"
+    },
+    {
+      "basename": "Degrees of Freedom",
+      "path": "Degrees of Freedom.md"
+    },
+    {
+      "basename": "Multicollinearity",
+      "path": "Multicollinearity.md"
+    },
+    {
+      "basename": "SwiGLU",
+      "path": "SwiGLU.md"
+    },
+    {
+      "basename": "He Initialization",
+      "path": "He Initialization.md"
     },
     {
       "basename": "Swish",
@@ -89,10 +177,6 @@
       "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
     },
     {
-      "basename": "Chain Rule of Probability",
-      "path": "Chain Rule of Probability.md"
-    },
-    {
       "basename": "Foundations of Deep RL (2) - Deep Q-Learning",
       "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (2) - Deep Q-Learning.md"
     },
@@ -115,90 +199,6 @@
     {
       "basename": "Direct Preference Optimization",
       "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "Reinforcement Learning from Human Feedback",
-      "path": "Reinforcement Learning from Human Feedback.md"
-    },
-    {
-      "basename": "Importance Sampling",
-      "path": "Importance Sampling.md"
-    },
-    {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
-    },
-    {
-      "basename": "Gaussian Distribution",
-      "path": "Gaussian Distribution.md"
-    },
-    {
-      "basename": "Jensen's Inequality",
-      "path": "Jensen's Inequality.md"
-    },
-    {
-      "basename": "Variational Bayesian Inference",
-      "path": "Variational Bayesian Inference.md"
-    },
-    {
-      "basename": "Bayes Theorem",
-      "path": "Bayes Theorem.md"
-    },
-    {
-      "basename": "Evidence Lower Bound",
-      "path": "Evidence Lower Bound.md"
-    },
-    {
-      "basename": "Bernoulli Distribution",
-      "path": "Bernoulli Distribution.md"
-    },
-    {
-      "basename": "Parametric Evaluations",
-      "path": "Parametric Evaluations.md"
-    },
-    {
-      "basename": "Permutation",
-      "path": "Permutation.md"
-    },
-    {
-      "basename": "Uniform Distribution",
-      "path": "Uniform Distribution.md"
-    },
-    {
-      "basename": "Continuous Batching",
-      "path": "Continuous Batching.md"
-    },
-    {
-      "basename": "Binomial Distribution",
-      "path": "Binomial Distribution.md"
-    },
-    {
-      "basename": "Stochastic Gradient Descent",
-      "path": "Stochastic Gradient Descent.md"
-    },
-    {
-      "basename": "Binomial Coefficient",
-      "path": "Binomial Coefficient.md"
-    },
-    {
-      "basename": "Combination",
-      "path": "Combination.md"
-    },
-    {
-      "basename": "Foundations of Deep RL (1) - MDPs and Exact Solution Methods",
-      "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (1) - MDPs and Exact Solution Methods.md"
-    },
-    {
-      "basename": "Deep Generative Models (8) - GANs",
-      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (8) - GANs.md"
-    },
-    {
-      "basename": "Probability for CS (3) What is Probability?",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (3) What is Probability?.md"
     }
   ],
   "omittedPaths": [],

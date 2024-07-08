@@ -70,6 +70,10 @@
 - [[Normalizing Flows]]
 - [[Conditional Probability]]
 - [[Law of Total Probability]]
+- [[Sample Space]]
+- [[Event Space]]
+- [[Event]]
+- [[Outcome]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -94,9 +98,10 @@
 - [[JS Divergence]] (Jensen-Shannon Divergence)
 - [[Principal Component Analysis]] (PCA)
 - [[Independent Component Analysis]] (ICA)
-- [[Bloom Filter]]
-- [[Count-Min Sketch]]
-- [[MinHash]]
+- [[Bloom Filter]] (for set membership)
+- [[Count-Min Sketch]] (for frequency estimation)
+- [[MinHash]] (for set similarity)
+- [[HyperLogLog]] (for set cardinality)
 - [[Bias-Variance Tradeoff]]
 - [[XGBoost]]
 - [[Naive Bayes]]
@@ -138,6 +143,7 @@
 - [[Isolation Forest]]
 - [[Linear Regression]]
 - [[Logistic Regression]]
+- [[Standard Error]]
 
 # Machine Learning/General
 - [[Graph Neural Network]]
@@ -378,6 +384,7 @@
 - [[Rejection Sampling]]
 - [[Best-of-N Sampling]]
 - [[Steering Vector]]
+- [[State Space Model]] (SSM)
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -782,6 +789,9 @@
 - [[Shepherd]]
 - [[Prometheus]]
 - [[Prometheus 2]]
+- [[HiPPO]]
+- [[S4]]
+- [[Mamba]]
 
 # Tools
 - [[ComfyUI]] 👨‍🔬🖼️
@@ -1054,7 +1064,8 @@
 - [[Aidan Gomez]] 🇨🇦
 - [[Ivan Zhang]] 🇨🇦
 - [[Nick Frosst]] 🇨🇦
-- [[Kaiming He]]
+- [[Kaiming He]] 👁️
+- [[Albert Gu]] 🐍
 
 # Policy
 - [[SB-1047]]

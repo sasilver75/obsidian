@@ -1,0 +1,1 @@
+A subset of the [[Event Space]], consisting of [[Outcome]]s.

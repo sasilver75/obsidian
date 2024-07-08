@@ -12,3 +12,8 @@ Consists of a two-dimensional array of counters, along with several hash functio
 
 ![[Pasted image 20240422142005.png]]
 
+
+----
+Aside: [[HyperLogLog]] vs Count-Min Sketch:
+> For example, Put 3 of the item 'A' (where each 'A' is indistinguishable from another 'A') and similarly 5 of item 'B' into a Count-Min Sketch and a HyperLogLog. When you query the Count-Min Sketch for 'A', you can probably get back 3. You can also query for 'B' and get back 5. With you query the HyperLogLog you query how many unique/indistinguishable items are in the set, in this case 2. The HyperLogLog would return a number near 2.
+----
