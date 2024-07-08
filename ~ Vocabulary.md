@@ -17,6 +17,7 @@
 - [[Row Echelon Form]]  (+Reduced Row Echelon Form)
 - [[Inverse]]
 - [[Transpose]] (and Symmetric matrices)
+- [[Hadamard Product]]
 
 # Probability/Statistics
 - [[Law of Large Numbers]]
@@ -165,8 +166,8 @@
 - [[Softmax]]
 - [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
 - [[Leaky ReLU]]
-- [[Tanh]]
-- [[SwiGLU]] ([[Swish]] + GLU)
+- [[Tanh]] (Hyperbolic Tangent)
+- [[SwiGLU]] ([[Swish]] + [[GLU]])
 - [[Overfitting]]
 - [[Underfitting]]
 - [[Epoch]]
