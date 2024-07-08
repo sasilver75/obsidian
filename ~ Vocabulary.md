@@ -65,6 +65,7 @@
 - [[Exponential Distribution]]
 - [[Weibull Distribution]]
 - [[Geometric Distribution]]
+- [[Student's t Distribution]]
 - [[Permutation]]
 - [[Combination]]
 - [[Normalizing Flows]]

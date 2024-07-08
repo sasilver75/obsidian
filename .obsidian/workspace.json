@@ -21,259 +21,12 @@
             }
           },
           {
-            "id": "2d6e25dd864ba355",
+            "id": "243db6116d9c168d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multiplication Rule of Probability.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e53eea460b090814",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chain Rule of Probability.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a196121d4330c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataComp.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "927d309971d29b06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataComp-LM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e44c21816e14b58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mamba.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b32c179bccba23d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "State Space Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e832ee5104904ff4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rejection Sampling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "305297b4de95481a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Best-of-N Sampling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb6f139037b63e4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hadamard Product.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6cdda93097fdc9a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Balanced Accuracy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96a8c51cbfdde051",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Precision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed6bef377a49b67b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Precision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17f1166d16d79c0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f353e0f2be0312f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Goodhardt's Law.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1311945cf9b6841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Xavier Initialization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d03394e3aa67b55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "He Initialization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a74c13141f0c5ed7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e35518cb7dfb0386",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f4075bf8294f73b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd7f48d1415945ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
+                "file": "K-Means Clustering.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -281,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -356,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataComp-LM.md",
+                "file": "K-Means Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -373,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataComp-LM.md",
+                "file": "K-Means Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -396,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataComp-LM.md"
+                "file": "K-Means Clustering.md"
               }
             }
           },
@@ -429,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "DataComp-LM.md",
+                "file": "K-Means Clustering.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -476,36 +229,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "927d309971d29b06",
+  "active": "243db6116d9c168d",
   "lastOpenFiles": [
-    "DataComp.md",
-    "DataComp-LM.md",
+    "Decision Tree.md",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240707202526.png",
-    "Mamba.md",
-    "State Space Model.md",
-    "Rejection Sampling.md",
-    "Best-of-N Sampling.md",
-    "HyperLogLog.md",
-    "Bloom Filter.md",
-    "GLU.md",
-    "Hadamard Product.md",
-    "MinHash.md",
-    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md",
-    "Naive Definition of Probability.md",
-    "Conditional Probability.md",
-    "Outcome.md",
-    "Event.md",
-    "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+    "K-Means Clustering.md",
+    "DBSCAN.md",
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240707184139.png",
-    "Law of Total Probability.md",
+    "UMAP.md",
+    "Student's t Distribution.md",
+    "t-SNE.md",
+    "_attachments/Pasted image 20240708003735.png",
     "Multiplication Rule of Probability.md",
     "Chain Rule of Probability.md",
-    "Count-Min Sketch.md",
-    "Degrees of Freedom.md",
-    "Multicollinearity.md",
-    "SwiGLU.md",
+    "DataComp.md",
+    "Event.md",
+    "Event Space.md",
+    "Sample Space.md",
+    "Mamba.md",
+    "Rejection Sampling.md",
+    "Balanced Accuracy.md",
+    "Precision.md",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md",
+    "He Initialization.md",
+    "Goodhardt's Law.md",
+    "State Space Model.md",
+    "Coreset Selection.md",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+    "Catastrophic Forgetting.md",
+    "L1 Regularization.md",
+    "_attachments/Pasted image 20240707202526.png",
+    "_attachments/Pasted image 20240707184139.png",
     "_attachments/Pasted image 20240707174104.png",
     "_attachments/Pasted image 20240707173251.png",
     "_attachments/Pasted image 20240707172353.png",
@@ -513,7 +267,6 @@
     "_attachments/Pasted image 20240707164240.png",
     "_attachments/Pasted image 20240707153921.png",
     "_attachments/Pasted image 20240707153308.png",
-    "_attachments/Pasted image 20240707152119.png",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
