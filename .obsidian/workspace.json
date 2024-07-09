@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9be902cabf083454",
+            "id": "f169bf6aefc35f3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rejection Sampling.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "85052b43bd30716d",
+            "id": "547d6230bc5a1293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conditional Probability.md",
+                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,58 +34,20 @@
             }
           },
           {
-            "id": "825d6b1fcf7ae474",
+            "id": "a710a57a1daf05e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permutation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72f97dd1628ce5b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Combination.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c41695aaa73b003",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gini Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dab90ece3865147b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gini Index.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rejection Sampling.md",
+                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rejection Sampling.md",
+                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rejection Sampling.md"
+                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md"
               }
             }
           },
@@ -233,7 +195,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Rejection Sampling.md",
+                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -280,24 +242,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9be902cabf083454",
+  "active": "547d6230bc5a1293",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240708155545.png",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
-    "_attachments/Pasted image 20240708152418.png",
-    "_attachments/Pasted image 20240708152009.png",
-    "_attachments/Pasted image 20240708151435.png",
-    "_attachments/Pasted image 20240708151127.png",
-    "_attachments/Pasted image 20240708150849.png",
-    "_attachments/Pasted image 20240708150808.png",
-    "_attachments/Pasted image 20240708150742.png",
-    "_attachments/Pasted image 20240708150736.png",
-    "_attachments/Pasted image 20240708145847.png",
-    "_attachments/Pasted image 20240708145614.png",
+    "_attachments/Pasted image 20240708193414.png",
+    "_attachments/Pasted image 20240708193136.png",
+    "_attachments/Pasted image 20240708193027.png",
+    "_attachments/Pasted image 20240708192735.png",
+    "_attachments/Pasted image 20240708192726.png",
+    "_attachments/Pasted image 20240708192303.png",
+    "_attachments/Pasted image 20240708192122.png",
+    "_attachments/Pasted image 20240708191825.png",
+    "_attachments/Pasted image 20240708191349.png",
+    "_attachments/Pasted image 20240708190516.png",
+    "_attachments/Pasted image 20240708190217.png",
+    "Variance.md",
+    "Standard Error.md",
     "~ Vocabulary.md",
+    "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
+    "Standard Deviation.md",
+    "Importance Sampling.md",
     "Conditional Probability.md",
     "Permutation.md",
     "Combination.md",
+    "Gini Index.md",
+    "Rejection Sampling.md",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "RMSProp.md",
     "~ Useful Pictures.md",
@@ -306,18 +275,11 @@
     "Decision Tree.md",
     "Nesterov Momentum.md",
     "Random Forest.md",
-    "Gini Index.md",
     "K-Means Clustering.md",
     "DBSCAN.md",
     "UMAP.md",
     "Student's t Distribution.md",
     "t-SNE.md",
-    "Multiplication Rule of Probability.md",
-    "Chain Rule of Probability.md",
-    "DataComp.md",
-    "Event.md",
-    "Event Space.md",
-    "Sample Space.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",

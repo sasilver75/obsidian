@@ -75,6 +75,9 @@
 - [[Event Space]]
 - [[Event]]
 - [[Outcome]]
+- [[Variance]]
+- [[Standard Deviation]]
+- [[Covariance]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
