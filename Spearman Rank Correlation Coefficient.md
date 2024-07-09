@@ -1,14 +1,13 @@
 ---
 aliases:
-  - Spearman's rho
+  - Spearman's Rho
 ---
 
 
-Compare: [[Pearson Correlation Coefficient]]
-TLDR: This is not the "usual" correlation
+Compare: [[Pearson Correlation Coefficient]] ("Correlation")
 
 Also known as $\rho$ , it is a non-parametric measure of rank correlation.
-- Here, non-parametric measure means that it doesn't make any assumptions about the distribution of the data, whereas parametric methods assume that data follows a certain disitrbution.
+- Here, non-parametric measure means that it doesn't make any assumptions about the distribution of the data, whereas parametric methods assume that data follows a certain distribution.
 
 It assesses how well the relationship between two variables can be described using a **monotonic function**.
 

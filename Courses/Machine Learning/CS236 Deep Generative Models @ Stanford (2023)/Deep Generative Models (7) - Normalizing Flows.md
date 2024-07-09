@@ -31,3 +31,12 @@ KL divergence term:"Not only should you be able to reconstruct well, but the kin
 Q: When you're training, how do you compute the Divergence? Doesn't it require p(z)?
 A: Yeah, just look at the first line of that series of equations from the previous slide; in that one, every item is computable.
 
+
+![[Pasted image 20240709004051.png]]
+Flow Models are another way about going about intractability of the marginal probability (of p(x)?) in a latent variable model
+- Autorgressive models are nice because we directly have access to the probability of the data (via calculating out the chain of conditionals), so we don't have to deal with variational inference and encoders/decoders.
+- Variational autoencoders are nice because we can actually define pretty flexible marginal distributions... can generate in one shot, too.
+	- Problem is that we can't evaluate the marginal probabiliy (p(x)), so we have to come up with the ELBO...
+
+Flow Models are types of Latent Variable Models (kind of like VAEs) but have a special structure so that we don't have to do [[Variational Bayesian Inference|Variational Inference]], and can train them by [[Maximum Likelihood]]
+

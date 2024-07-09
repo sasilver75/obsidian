@@ -1,8 +1,104 @@
 {
   "recentFiles": [
     {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Test-Time Augmentation",
+      "path": "Test-Time Augmentation.md"
+    },
+    {
+      "basename": "Manhattan Distance",
+      "path": "Manhattan Distance.md"
+    },
+    {
+      "basename": "Hamming Distance",
+      "path": "Hamming Distance.md"
+    },
+    {
+      "basename": "Support Vector Machine",
+      "path": "Support Vector Machine.md"
+    },
+    {
+      "basename": "UMAP",
+      "path": "UMAP.md"
+    },
+    {
+      "basename": "Pearson Correlation Coefficient",
+      "path": "Pearson Correlation Coefficient.md"
+    },
+    {
+      "basename": "Spearman Rank Correlation Coefficient",
+      "path": "Spearman Rank Correlation Coefficient.md"
+    },
+    {
+      "basename": "Variance",
+      "path": "Variance.md"
+    },
+    {
+      "basename": "Covariance",
+      "path": "Covariance.md"
+    },
+    {
+      "basename": "Bayesian Network",
+      "path": "Bayesian Network.md"
+    },
+    {
+      "basename": "Gaussian Mixture Model",
+      "path": "Gaussian Mixture Model.md"
+    },
+    {
+      "basename": "Kolmogorov Complexity",
+      "path": "Kolmogorov Complexity.md"
+    },
+    {
+      "basename": "Multi-Armed Bandit",
+      "path": "Multi-Armed Bandit.md"
+    },
+    {
+      "basename": "Thompson Sampling",
+      "path": "Thompson Sampling.md"
+    },
+    {
+      "basename": "Maximum Likelihood",
+      "path": "Maximum Likelihood.md"
+    },
+    {
+      "basename": "Upper Confidence Bound",
+      "path": "Upper Confidence Bound.md"
+    },
+    {
+      "basename": "Deep Generative Models (7) - Normalizing Flows",
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (7) - Normalizing Flows.md"
+    },
+    {
+      "basename": "Kendall Rank Correlation Coefficient",
+      "path": "Kendall Rank Correlation Coefficient.md"
+    },
+    {
+      "basename": "David Silver RL (7) - Policy Gradient Methods",
+      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (7) - Policy Gradient Methods.md"
+    },
+    {
+      "basename": "Mechanistic Interpretability",
+      "path": "Mechanistic Interpretability.md"
+    },
+    {
+      "basename": "OpenLLM Leaderboard",
+      "path": "OpenLLM Leaderboard.md"
+    },
+    {
+      "basename": "Open LLM Leaderboard V2",
+      "path": "Open LLM Leaderboard V2.md"
+    },
+    {
+      "basename": "Representation Engineering",
+      "path": "Representation Engineering.md"
     },
     {
       "basename": "Adversarial Example",
@@ -11,10 +107,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Deep Generative Models (7) - Normalizing Flows",
-      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (7) - Normalizing Flows.md"
     },
     {
       "basename": "Bayes Theorem",
@@ -29,24 +121,12 @@
       "path": "MMLU-Redux.md"
     },
     {
-      "basename": "OpenLLM Leaderboard",
-      "path": "OpenLLM Leaderboard.md"
-    },
-    {
-      "basename": "Open LLM Leaderboard V2",
-      "path": "Open LLM Leaderboard V2.md"
-    },
-    {
       "basename": "Massive Multi-Task Language Understanding",
       "path": "Massive Multi-Task Language Understanding.md"
     },
     {
       "basename": "Foundations of Deep RL (3) Policy Gradients and Advantage Estimation",
       "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md"
-    },
-    {
-      "basename": "Variance",
-      "path": "Variance.md"
     },
     {
       "basename": "Standard Error",
@@ -115,90 +195,6 @@
     {
       "basename": "K-Means Clustering",
       "path": "K-Means Clustering.md"
-    },
-    {
-      "basename": "DBSCAN",
-      "path": "DBSCAN.md"
-    },
-    {
-      "basename": "UMAP",
-      "path": "UMAP.md"
-    },
-    {
-      "basename": "Student's t Distribution",
-      "path": "Student's t Distribution.md"
-    },
-    {
-      "basename": "t-SNE",
-      "path": "t-SNE.md"
-    },
-    {
-      "basename": "Multiplication Rule of Probability",
-      "path": "Multiplication Rule of Probability.md"
-    },
-    {
-      "basename": "Chain Rule of Probability",
-      "path": "Chain Rule of Probability.md"
-    },
-    {
-      "basename": "DataComp",
-      "path": "DataComp.md"
-    },
-    {
-      "basename": "Event",
-      "path": "Event.md"
-    },
-    {
-      "basename": "Event Space",
-      "path": "Event Space.md"
-    },
-    {
-      "basename": "Sample Space",
-      "path": "Sample Space.md"
-    },
-    {
-      "basename": "Mamba",
-      "path": "Mamba.md"
-    },
-    {
-      "basename": "Balanced Accuracy",
-      "path": "Balanced Accuracy.md"
-    },
-    {
-      "basename": "Precision",
-      "path": "Precision.md"
-    },
-    {
-      "basename": "Data-Centric AI (4) - Data-Centric Evaluation of ML Models",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (4) - Data-Centric Evaluation of ML Models.md"
-    },
-    {
-      "basename": "He Initialization",
-      "path": "He Initialization.md"
-    },
-    {
-      "basename": "Goodhardt's Law",
-      "path": "Goodhardt's Law.md"
-    },
-    {
-      "basename": "State Space Model",
-      "path": "State Space Model.md"
-    },
-    {
-      "basename": "Coreset Selection",
-      "path": "Coreset Selection.md"
-    },
-    {
-      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
-    },
-    {
-      "basename": "Catastrophic Forgetting",
-      "path": "Catastrophic Forgetting.md"
-    },
-    {
-      "basename": "L1 Regularization",
-      "path": "L1 Regularization.md"
     }
   ],
   "omittedPaths": [],

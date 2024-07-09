@@ -117,7 +117,7 @@ Basically, we get to pick the mean, and we just add some noise to the thing to m
 
 
 ![[Pasted image 20240628154102.png]]
-Analytical policy gradient (special case we're considering is one-step MDPs, where we start in one state s, we get to take a step, and get a reward... and then the episode terminates. There's no sequence, it's just one step and we're done, and the goal is to pick actions to maximize that reward; might depend on the state and action. It's a type of Contextual [[Bandit]]).
+Analytical policy gradient (special case we're considering is one-step MDPs, where we start in one state s, we get to take a step, and get a reward... and then the episode terminates. There's no sequence, it's just one step and we're done, and the goal is to pick actions to maximize that reward; might depend on the state and action. It's a type of Contextual Bandit).
 - We start by picking an objective function. Our objective function here is the expected reward under our policy. We want to find the gradient here and ascend it to get the most reward.
 (Math being done)
 

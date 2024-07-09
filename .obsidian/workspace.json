@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Speculative Decoding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "6e318128f7c2a459",
+            "id": "a7358fc1c861b3ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "547d6230bc5a1293",
+            "id": "8a1bddcbec09e23c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenLLM Leaderboard.md",
+                "file": "Speculative Decoding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "ef43006573c1a9d3",
+            "id": "97950b5e96c24597",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Manhattan Distance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "b30f25a5f7f45c1e",
+            "id": "1c562c1dc6cd4511",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Open LLM Leaderboard V2.md",
+                "file": "Hamming Distance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,20 +73,97 @@
             }
           },
           {
-            "id": "a710a57a1daf05e9",
+            "id": "901c555dc0b92ad4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Hamming Distance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "714566be2101d5d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Support Vector Machine.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a993996ee9c267e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMAP.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e81a0fbb6f4a08cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pearson Correlation Coefficient.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f8ca1c9df24c84b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spearman Rank Correlation Coefficient.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a1785a40d5b4411",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Covariance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2befce52f4c1bc93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Covariance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +192,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"variational bayes\"",
+                "query": "linearity of expectation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +217,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Speculative Decoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Speculative Decoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Speculative Decoding.md"
               }
             }
           },
@@ -234,7 +312,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Speculative Decoding.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -281,43 +359,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6e318128f7c2a459",
+  "active": "f169bf6aefc35f3d",
   "lastOpenFiles": [
-    "Adversarial Example.md",
+    "~ Vocabulary.md",
+    "Speculative Sampling.md",
+    "Speculative Decoding.md",
+    "Test-Time Augmentation.md",
+    "Manhattan Distance.md",
+    "Hamming Distance.md",
+    "Support Vector Machine.md",
+    "UMAP.md",
+    "Pearson Correlation Coefficient.md",
+    "Spearman Rank Correlation Coefficient.md",
+    "Variance.md",
+    "Covariance.md",
+    "Bayesian Network.md",
+    "Gaussian Mixture Model.md",
+    "Kolmogorov Complexity.md",
+    "Multi-Armed Bandit.md",
+    "Thompson Sampling.md",
+    "Maximum Likelihood.md",
+    "Upper Confidence Bound.md",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (7) - Normalizing Flows.md",
+    "Kendall Rank Correlation Coefficient.md",
+    "_attachments/Pasted image 20240709021349.png",
+    "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (7) - Policy Gradient Methods.md",
+    "Bandit.md",
+    "Mechanistic Interpretability.md",
+    "OpenLLM Leaderboard.md",
+    "Open LLM Leaderboard V2.md",
+    "_attachments/Pasted image 20240709004051.png",
+    "_attachments/Pasted image 20240709002041.png",
+    "_attachments/Pasted image 20240709001836.png",
+    "_attachments/Pasted image 20240708230809.png",
+    "_attachments/Pasted image 20240708230756.png",
     "_attachments/Pasted image 20240708225951.png",
     "_attachments/Pasted image 20240708225708.png",
     "_attachments/Pasted image 20240708225626.png",
-    "~ Vocabulary.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240708225531.png",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (7) - Normalizing Flows.md",
-    "_attachments/Pasted image 20240708223838.png",
-    "_attachments/Pasted image 20240708221735.png",
-    "_attachments/Pasted image 20240708221636.png",
-    "Bayes Theorem.md",
-    "_attachments/Pasted image 20240708221408.png",
-    "MMLU-Pro.md",
-    "_attachments/Pasted image 20240708201816.png",
-    "MMLU-Redux.md",
-    "OpenLLM Leaderboard.md",
-    "Open LLM Leaderboard V2.md",
-    "Massive Multi-Task Language Understanding.md",
-    "_attachments/Pasted image 20240708200315.png",
-    "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
-    "Variance.md",
-    "Standard Error.md",
-    "Standard Deviation.md",
-    "Importance Sampling.md",
-    "Conditional Probability.md",
-    "Permutation.md",
-    "Combination.md",
-    "Gini Index.md",
-    "Rejection Sampling.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
-    "RMSProp.md",
-    "Adam.md",
-    "Adagrad.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
