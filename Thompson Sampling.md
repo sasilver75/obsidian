@@ -1,7 +1,13 @@
+---
+aliases:
+  - Posterior Sampling
+---
+
+
 References:
 - Video: [Luis Serrano's Thompson Sampling](https://youtu.be/nkyDGGQ5h60?si=OtuteLjHa6ROI_wx)
 
-A probabilistic algorithm used for solving multi-argmed bandit problems and other exploration-exploitation dilemmas in machine learning.
+A bayesian probabilistic algorithm used for solving multi-armed bandit problems and other exploration-exploitation dilemmas in machine learning.
 
 In a [[Multi-Armed Bandit]] situation, we keep track of the [[Beta Distribution]] corresponding to our wins and losses for each slot machine.
 

@@ -1,12 +1,24 @@
-Feb 2, 2023
-DeepMind Paper: [Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318)
+---
+aliases:
+  - Speculative Sampling
+---
 
-Additional References
+
+November 30, 2022
+[[Google Research]] (Leviathan et al)
+[Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192)
+*and*
+Feb 2, 2023
+[[DeepMind]] (Chen et al)
+[Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318)
+
+
+References
 - [Video: Speculative Decoding: When two LLMs are Faster than One](https://www.youtube.com/watch?v=S-8yr_RibJ4)
 - [Blog: Philkrav's Speculative Decoding post](https://philkrav.com/posts/speculative/)
+- Github Repo Index: [hemingkx's SpeculativeDecodingPapers Repo](https://github.com/hemingkx/SpeculativeDecodingPapers)
 
 Note: 
-- I currently have [[Speculative Sampling]] as a separate vocabulary term, but I'm not sure if that's appropriate.
 - Interestingly, two concurrent papers both introduced these papers(Leviathan et al, 2022 and Chen et al, 2023) from Google Research and Deepmind respectively
 
 ----

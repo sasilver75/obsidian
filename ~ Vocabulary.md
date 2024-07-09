@@ -28,15 +28,14 @@
 - [[Markov Chain]] (Markov Process)
 - [[Markov Chain Monte Carlo]] (MCMC)
 - [[Importance Sampling]]
-- [[Pearson Correlation Coefficient]]
-- [[Spearman Correlation Coefficient]]
-- [[Kendall Rank Correlation Coefficient]]
+- [[Pearson Correlation Coefficient]] (PCC, Pearson's r)
+- [[Spearman Rank Correlation Coefficient]] (Spearman's Rho)
+- [[Kendall Rank Correlation Coefficient]] (Kendall's Tau)
 - [[Chi-Squared]]
 - [[Multicollinearity]]
 - [[Degrees of Freedom]]
 - [[Hyperparameter]]
 - [[Loss Function]]
-- [[Bandit]]
 - [[Multi-Armed Bandit]]
 - [[Least-Squares]]
 - [[Binomial Coefficient]]
@@ -46,6 +45,7 @@
 - [[Cross-Entropy]]
 - [[Kolmogorov Complexity]]
 - [[Thompson Sampling]]
+- [[Upper Confidence Bound]] (UCB)
 - [[Chain Rule of Probability]]
 - [[Multiplication Rule of Probability]]
 - [[Naive Definition of Probability]]
@@ -91,7 +91,7 @@
 - [[Consistency Regularization]]
 - [[One-Hot Encoding]]
 - [[Bootstrap]]
-- [[Bootstrap Aggregation]]
+- [[Bootstrap Aggregation]] (Bagging)
 - [[Beam Search]]
 - [[F1 Score]]
 - [[F-Beta Score]]
@@ -126,8 +126,9 @@
 - [[Inverse Cloze]]
 - [[Decision Tree]]
 - [[Random Forest]]
-- [[Mechanistic interp]]
-- [[Support Vector Machine]]
+- [[Mechanistic Interpretability]] (MechInterp)
+- [[Representation Engineering]] (RepEng)
+- [[Support Vector Machine]] (SVM)
 - [[Jaccard Similarity]]
 - [[Hamming Distance]]
 - [[Manhattan Distance]]
@@ -247,7 +248,7 @@
 - [[Depth-Wise Convolutions]]
 - [[Activation Function]]
 - [[Gini Index]]
-- [[Test-Time Augmentation]]
+- [[Test-Time Augmentation]] (TTA)
 - [[Gradient Accumulation]]
 - [[Recurrent Neural Network]] (RNN)
 - [[Long Short Term Memory]] (LSTM)
@@ -308,7 +309,6 @@
 - [[VLM]] 
 - [[Continuous Batching]]
 - [[Speculative Decoding]]
-- [[Speculative Sampling]]
 - [[Constrained Decoding]]
 - [[Reward-Augmented Decoding]]
 - [[Human-in-the-Loop Decoding]]
