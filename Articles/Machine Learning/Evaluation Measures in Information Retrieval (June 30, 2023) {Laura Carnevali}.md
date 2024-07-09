@@ -97,7 +97,7 @@ Above: The circled numbers represent the *IR system's predict ranking*, and the 
 To calculate the cumulative gain at position K (CG@K), we sum the relevance scores up to the predicted rank K. So when K=2:
 ![[Pasted image 20240614111116.png|300]]
 It's important that CG@K is *not order aware!* If we swap images 1 and 2, we'll return the same score when K >= 2 despite having the more relevant item placed first.
-Because of this lack of order awareness, we modify our [[Cumulative Gain]] metric to [[Discounted Cumulative Gain]] (DCG), adding a penalty in the form of $log_2(1+k)$ to the formula:
+Because of this lack of order awareness, we modify our Cumulative Gain metric to Discounted Cumulative Gain (DCG), adding a penalty in the form of $log_2(1+k)$ to the formula:
 ![[Pasted image 20240614111810.png|300]]
 Now, when we calculate DCG@2 and if we were to swap the position/ordering of the first two images, we return different scores!
 ![[Pasted image 20240614111856.png|300]]

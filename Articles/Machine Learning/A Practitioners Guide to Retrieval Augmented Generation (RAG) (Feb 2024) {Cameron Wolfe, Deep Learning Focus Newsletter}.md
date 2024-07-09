@@ -221,7 +221,7 @@ By performing hybrid search, we can make our RAG pipeline more robust and reduce
 #### Optimizing the RAG pipeline
 - To improve our retrieval system, we need to collect metrics that allow us to evaluate its results similarly to any normal search engine.
 	- We could expose the actual textual chunks used for certain generations to the user, as part of the response! As part of this, we could then prompt the user to provide binary feedback (+/-) as to whether the information was absolutely relevant! ((Human-in-the-loop-rating of retrieval))
-	- We can also evaluate the results of our retrieval system using traditional search metrics like [[Discounted Cumulative Gain|DCG]]/nDCG, test changes to our system via AB tests, and iteratively improve our results!
+	- We can also evaluate the results of our retrieval system using traditional search metrics like Discounted Cumulative Gain/nDCG, test changes to our system via AB tests, and iteratively improve our results!
 
 Evaluations for RAG must go beyond simply verifying the results of *retrieval* -- even if we retrieve the right documents, the generated outcome may not be correct. To evaluate the *generation* component of a RAG-included system, the AI community relies heavily on automated metrics like RAGAS and LLM-as-a-Judge, which perform evaluations by prompting LLMs like GPT-4 to score the results.
 

@@ -409,21 +409,19 @@
 - [[Sparse Retrieval]]
 - [[Dense Retrieval]]
 - [[Hybrid Search]]
+- [[Precision (Information Retrieval)]]
+- [[Recall (Information Retrieval)]]
+- [[Cross-Encoder]]
+- [[HyDE]]
+- [[Reverse HyDE]]
+- [[Approximate Nearest Neighbor Search]] (ANN Search)
+- [[Late Interaction]]
 - [[Dense Passage Retrieval]] (DPR)
 - [[ColBERT]]
 - [[ColBERT-QA]]
 - [[Baleen]]
 - [[ColBERTv2]]
 - [[PLAID]]
-- [[Cumulative Gain]]
-- [[Discounted Cumulative Gain]]
-- [[Precision (Information Retrieval)]]
-- [[Recall (Information Retrieval)]]
-- [[Cross-Encoder]]
-- [[HyDE]]
-- [[Reverse HyDE]]
-- [[Approximate Nearest Neighbor Search]]
-- [[Late Interaction]]
 - [[SPLADE]]
 - [[SPLADEv2]]
 - [[DRAGON]] (Dense Retrieval trained with Diverse Augmentation)
@@ -436,6 +434,10 @@
 - [[ORQA]] (Open-Retrieval Question Answering System)
 - [[FLARE]] (Forward-Looking Active Retrieval Augmented Generation)
 - [[CRAG]] (Corrective Retrieval Augmented Generation)
+- [[Promptagator]]
+- [[Contriever]]
+- [[InPars]] (Inquisitive Parrots for Search)
+- [[UPR]] (Unsupervised Passage Re-Ranker)
 - [[Success]]
 - [[Reciprocal Rank]]
 - [[Mean Reciprocal Rank]]
@@ -444,7 +446,6 @@
 - [[Return Set]]
 - [[Relevance Set]]
 - [[Average Precision]]
-- [[Promptagator]]
 - [[Iterative Retrieval]]
 - [[Recursive Retrieval]]
 - [[Adaptive Retrieval]]
@@ -456,10 +457,7 @@
 - Generate-Read, Recite-Read, Rewrite-Retrieve-Read, ...
 - [[Relevance-Guided Supervision]]
 - [[Hard Negative Mining]]
-- [[Contriever]]
 - [[Consistency Filtering]]
-- [[InPars]] (Inquisitive Parrots for Search)
-- [[UPR]] (Unsupervised Passage Re-Ranker)
 - [[Generate-then-Read]] (GenRead)
 - [[Approximate Nearest Neighbor Contrastive Learning]] (ANCE)
 
