@@ -21,12 +21,51 @@
             }
           },
           {
+            "id": "6e318128f7c2a459",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "547d6230bc5a1293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
+                "file": "OpenLLM Leaderboard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef43006573c1a9d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b30f25a5f7f45c1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open LLM Leaderboard V2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -122,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -195,7 +234,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -242,23 +281,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "547d6230bc5a1293",
+  "active": "6e318128f7c2a459",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240708193414.png",
-    "_attachments/Pasted image 20240708193136.png",
-    "_attachments/Pasted image 20240708193027.png",
-    "_attachments/Pasted image 20240708192735.png",
-    "_attachments/Pasted image 20240708192726.png",
-    "_attachments/Pasted image 20240708192303.png",
-    "_attachments/Pasted image 20240708192122.png",
-    "_attachments/Pasted image 20240708191825.png",
-    "_attachments/Pasted image 20240708191349.png",
-    "_attachments/Pasted image 20240708190516.png",
-    "_attachments/Pasted image 20240708190217.png",
+    "Adversarial Example.md",
+    "_attachments/Pasted image 20240708225951.png",
+    "_attachments/Pasted image 20240708225708.png",
+    "_attachments/Pasted image 20240708225626.png",
+    "~ Vocabulary.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240708225531.png",
+    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (7) - Normalizing Flows.md",
+    "_attachments/Pasted image 20240708223838.png",
+    "_attachments/Pasted image 20240708221735.png",
+    "_attachments/Pasted image 20240708221636.png",
+    "Bayes Theorem.md",
+    "_attachments/Pasted image 20240708221408.png",
+    "MMLU-Pro.md",
+    "_attachments/Pasted image 20240708201816.png",
+    "MMLU-Redux.md",
+    "OpenLLM Leaderboard.md",
+    "Open LLM Leaderboard V2.md",
+    "Massive Multi-Task Language Understanding.md",
+    "_attachments/Pasted image 20240708200315.png",
+    "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
     "Variance.md",
     "Standard Error.md",
-    "~ Vocabulary.md",
-    "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md",
     "Standard Deviation.md",
     "Importance Sampling.md",
     "Conditional Probability.md",
@@ -269,17 +316,8 @@
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md",
     "RMSProp.md",
-    "~ Useful Pictures.md",
     "Adam.md",
     "Adagrad.md",
-    "Decision Tree.md",
-    "Nesterov Momentum.md",
-    "Random Forest.md",
-    "K-Means Clustering.md",
-    "DBSCAN.md",
-    "UMAP.md",
-    "Student's t Distribution.md",
-    "t-SNE.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",

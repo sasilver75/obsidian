@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Adversarial Example",
+      "path": "Adversarial Example.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Deep Generative Models (7) - Normalizing Flows",
+      "path": "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (7) - Normalizing Flows.md"
+    },
+    {
+      "basename": "Bayes Theorem",
+      "path": "Bayes Theorem.md"
+    },
+    {
+      "basename": "MMLU-Pro",
+      "path": "MMLU-Pro.md"
+    },
+    {
+      "basename": "MMLU-Redux",
+      "path": "MMLU-Redux.md"
+    },
+    {
+      "basename": "OpenLLM Leaderboard",
+      "path": "OpenLLM Leaderboard.md"
+    },
+    {
+      "basename": "Open LLM Leaderboard V2",
+      "path": "Open LLM Leaderboard V2.md"
+    },
+    {
+      "basename": "Massive Multi-Task Language Understanding",
+      "path": "Massive Multi-Task Language Understanding.md"
+    },
+    {
       "basename": "Foundations of Deep RL (3) Policy Gradients and Advantage Estimation",
       "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md"
     },
@@ -11,10 +51,6 @@
     {
       "basename": "Standard Error",
       "path": "Standard Error.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Standard Deviation",
@@ -55,10 +91,6 @@
     {
       "basename": "RMSProp",
       "path": "RMSProp.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Adam",
@@ -167,38 +199,6 @@
     {
       "basename": "L1 Regularization",
       "path": "L1 Regularization.md"
-    },
-    {
-      "basename": "DataComp-LM",
-      "path": "DataComp-LM.md"
-    },
-    {
-      "basename": "Best-of-N Sampling",
-      "path": "Best-of-N Sampling.md"
-    },
-    {
-      "basename": "HyperLogLog",
-      "path": "HyperLogLog.md"
-    },
-    {
-      "basename": "Bloom Filter",
-      "path": "Bloom Filter.md"
-    },
-    {
-      "basename": "GLU",
-      "path": "GLU.md"
-    },
-    {
-      "basename": "Hadamard Product",
-      "path": "Hadamard Product.md"
-    },
-    {
-      "basename": "MinHash",
-      "path": "MinHash.md"
-    },
-    {
-      "basename": "Stat110 Probability (1) - Probability and Counting",
-      "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
     }
   ],
   "omittedPaths": [],
