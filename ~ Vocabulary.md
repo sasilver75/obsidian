@@ -126,6 +126,7 @@
 - [[Inverse Cloze]]
 - [[Decision Tree]]
 - [[Random Forest]]
+- [[Mechanistic interp]]
 - [[Support Vector Machine]]
 - [[Jaccard Similarity]]
 - [[Hamming Distance]]
@@ -171,6 +172,7 @@
 - [[Large Language Model]]
 - [[Foundation Model]]
 - [[Nesterov Momentum]]
+- [[Adversarial Example]]
 - [[Multimodal]]
 - [[VLM]] (Vision-Language Model)
 - [[Softmax]]
@@ -880,6 +882,7 @@
 - [[SQuAD]] (Stanford Question Answering Dataset)
 - [[ChatBotArena]]
 - [[OpenLLM Leaderboard]]
+- [[Open LLM Leaderboard V2]]
 - [[MT-Bench]] (Multi-Turn Benchmark)
 - [[AlpacaEval]]
 - [[AGIEval]]
