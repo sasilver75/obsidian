@@ -389,7 +389,9 @@
 - [[Reinforced Self-Training]] (ReST/$ReST^{EM}$)
 - [[Rejection Sampling]]
 - [[Best-of-N Sampling]]
-- [[Steering Vector]]
+- [[Steering Vector]] (Control Vector, Concept Vector)
+- [[Feature Steering]]
+- [[Feature Clamping]]
 - [[State Space Model]] (SSM)
 
 # Information Retrieval Concepts

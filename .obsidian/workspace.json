@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,20 @@
             }
           },
           {
-            "id": "a7358fc1c861b3ff",
+            "id": "f8127772f21f2e6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Steering Vector.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f02300be5dd091db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +47,12 @@
             }
           },
           {
-            "id": "8a1bddcbec09e23c",
+            "id": "decc9f2badbbc7ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "Steering Vector.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +60,12 @@
             }
           },
           {
-            "id": "97950b5e96c24597",
+            "id": "fdcbc63a9fa8e25f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manhattan Distance.md",
+                "file": "Feature Steering.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +73,12 @@
             }
           },
           {
-            "id": "1c562c1dc6cd4511",
+            "id": "b0c0af2931ad6e52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hamming Distance.md",
+                "file": "Feature Clamping.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +86,12 @@
             }
           },
           {
-            "id": "901c555dc0b92ad4",
+            "id": "f397b2a8e50a602c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hamming Distance.md",
+                "file": "Encoder-Decoder Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +99,12 @@
             }
           },
           {
-            "id": "714566be2101d5d0",
+            "id": "3ad3398a80c4cdb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Support Vector Machine.md",
+                "file": "Decoder-Only Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,12 +112,12 @@
             }
           },
           {
-            "id": "7a993996ee9c267e",
+            "id": "b7af340c1043dd82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMAP.md",
+                "file": "Encoder-Decoder Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,12 +125,12 @@
             }
           },
           {
-            "id": "e81a0fbb6f4a08cf",
+            "id": "7f0134e1dd16707c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pearson Correlation Coefficient.md",
+                "file": "Labeled Evaluations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,12 +138,12 @@
             }
           },
           {
-            "id": "2f8ca1c9df24c84b",
+            "id": "10e9093a50541f3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spearman Rank Correlation Coefficient.md",
+                "file": "Confident Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,12 +151,12 @@
             }
           },
           {
-            "id": "3a1785a40d5b4411",
+            "id": "d334df6585f56420",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Covariance.md",
+                "file": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,19 +164,33 @@
             }
           },
           {
-            "id": "2befce52f4c1bc93",
+            "id": "8613099c318d9260",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Covariance.md",
+                "file": "Unstructured Pruning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7358fc1c861b3ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structured Pruning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -192,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linearity of expectation",
+                "query": "\"structured sparsity\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,8 +244,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -239,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "Steering Vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "Steering Vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Speculative Decoding.md"
+                "file": "Steering Vector.md"
               }
             }
           },
@@ -312,7 +338,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "Steering Vector.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -359,35 +385,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f169bf6aefc35f3d",
+  "active": "decc9f2badbbc7ee",
   "lastOpenFiles": [
+    "Feature Steering.md",
+    "Feature Clamping.md",
+    "Steering Vector.md",
     "~ Vocabulary.md",
-    "Speculative Sampling.md",
+    "Encoder-Decoder Architecture.md",
+    "Decoder-Only Architecture.md",
+    "Encoder-Only Architecture.md",
+    "ELECTRA.md",
+    "Labeled Evaluations.md",
+    "Label-free Evaluations.md",
+    "Confident Learning.md",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md",
+    "Structured Pruning.md",
+    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md",
+    "Unstructured Pruning.md",
     "Speculative Decoding.md",
-    "Test-Time Augmentation.md",
     "Manhattan Distance.md",
     "Hamming Distance.md",
     "Support Vector Machine.md",
-    "UMAP.md",
     "Pearson Correlation Coefficient.md",
     "Spearman Rank Correlation Coefficient.md",
-    "Variance.md",
     "Covariance.md",
-    "Bayesian Network.md",
-    "Gaussian Mixture Model.md",
-    "Kolmogorov Complexity.md",
-    "Multi-Armed Bandit.md",
-    "Thompson Sampling.md",
-    "Maximum Likelihood.md",
-    "Upper Confidence Bound.md",
-    "Courses/Machine Learning/CS236 Deep Generative Models @ Stanford (2023)/Deep Generative Models (7) - Normalizing Flows.md",
-    "Kendall Rank Correlation Coefficient.md",
+    "UMAP.md",
+    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (1) - Introduction.md",
+    "Courses/Machine Learning/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md",
+    "Speculative Sampling.md",
     "_attachments/Pasted image 20240709021349.png",
-    "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (7) - Policy Gradient Methods.md",
-    "Bandit.md",
-    "Mechanistic Interpretability.md",
-    "OpenLLM Leaderboard.md",
-    "Open LLM Leaderboard V2.md",
     "_attachments/Pasted image 20240709004051.png",
     "_attachments/Pasted image 20240709002041.png",
     "_attachments/Pasted image 20240709001836.png",

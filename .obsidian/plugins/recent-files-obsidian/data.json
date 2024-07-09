@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Speculative Decoding",
-      "path": "Speculative Decoding.md"
+      "basename": "Steering Vector",
+      "path": "Steering Vector.md"
+    },
+    {
+      "basename": "Feature Steering",
+      "path": "Feature Steering.md"
+    },
+    {
+      "basename": "Feature Clamping",
+      "path": "Feature Clamping.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Test-Time Augmentation",
-      "path": "Test-Time Augmentation.md"
+      "basename": "Encoder-Decoder Architecture",
+      "path": "Encoder-Decoder Architecture.md"
+    },
+    {
+      "basename": "Decoder-Only Architecture",
+      "path": "Decoder-Only Architecture.md"
+    },
+    {
+      "basename": "Encoder-Only Architecture",
+      "path": "Encoder-Only Architecture.md"
+    },
+    {
+      "basename": "ELECTRA",
+      "path": "ELECTRA.md"
+    },
+    {
+      "basename": "Labeled Evaluations",
+      "path": "Labeled Evaluations.md"
+    },
+    {
+      "basename": "Label-free Evaluations",
+      "path": "Label-free Evaluations.md"
+    },
+    {
+      "basename": "Confident Learning",
+      "path": "Confident Learning.md"
+    },
+    {
+      "basename": "Data-Centric AI (2) - Label Errors",
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md"
+    },
+    {
+      "basename": "Structured Pruning",
+      "path": "Structured Pruning.md"
+    },
+    {
+      "basename": "TinyML (3) - Pruning and Sparsity Part 1",
+      "path": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md"
+    },
+    {
+      "basename": "Unstructured Pruning",
+      "path": "Unstructured Pruning.md"
+    },
+    {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
     },
     {
       "basename": "Manhattan Distance",
@@ -25,10 +77,6 @@
       "path": "Support Vector Machine.md"
     },
     {
-      "basename": "UMAP",
-      "path": "UMAP.md"
-    },
-    {
       "basename": "Pearson Correlation Coefficient",
       "path": "Pearson Correlation Coefficient.md"
     },
@@ -37,12 +85,28 @@
       "path": "Spearman Rank Correlation Coefficient.md"
     },
     {
-      "basename": "Variance",
-      "path": "Variance.md"
-    },
-    {
       "basename": "Covariance",
       "path": "Covariance.md"
+    },
+    {
+      "basename": "UMAP",
+      "path": "UMAP.md"
+    },
+    {
+      "basename": "TinyML (1) - Introduction",
+      "path": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (1) - Introduction.md"
+    },
+    {
+      "basename": "CS 11-711 Lecture 11",
+      "path": "Courses/Machine Learning/CS 11-711 Advanced NLP @ CMU (2024)/CS 11-711 Lecture 11.md"
+    },
+    {
+      "basename": "Test-Time Augmentation",
+      "path": "Test-Time Augmentation.md"
+    },
+    {
+      "basename": "Variance",
+      "path": "Variance.md"
     },
     {
       "basename": "Bayesian Network",
@@ -135,66 +199,6 @@
     {
       "basename": "Standard Deviation",
       "path": "Standard Deviation.md"
-    },
-    {
-      "basename": "Importance Sampling",
-      "path": "Importance Sampling.md"
-    },
-    {
-      "basename": "Conditional Probability",
-      "path": "Conditional Probability.md"
-    },
-    {
-      "basename": "Permutation",
-      "path": "Permutation.md"
-    },
-    {
-      "basename": "Combination",
-      "path": "Combination.md"
-    },
-    {
-      "basename": "Gini Index",
-      "path": "Gini Index.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "Probability for CS (5) Independence",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
-    },
-    {
-      "basename": "Probability for CS (2) Combinatorics",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (2) Combinatorics.md"
-    },
-    {
-      "basename": "RMSProp",
-      "path": "RMSProp.md"
-    },
-    {
-      "basename": "Adam",
-      "path": "Adam.md"
-    },
-    {
-      "basename": "Adagrad",
-      "path": "Adagrad.md"
-    },
-    {
-      "basename": "Decision Tree",
-      "path": "Decision Tree.md"
-    },
-    {
-      "basename": "Nesterov Momentum",
-      "path": "Nesterov Momentum.md"
-    },
-    {
-      "basename": "Random Forest",
-      "path": "Random Forest.md"
-    },
-    {
-      "basename": "K-Means Clustering",
-      "path": "K-Means Clustering.md"
     }
   ],
   "omittedPaths": [],

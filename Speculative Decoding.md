@@ -18,9 +18,6 @@ References
 - [Blog: Philkrav's Speculative Decoding post](https://philkrav.com/posts/speculative/)
 - Github Repo Index: [hemingkx's SpeculativeDecodingPapers Repo](https://github.com/hemingkx/SpeculativeDecodingPapers)
 
-Note: 
-- Interestingly, two concurrent papers both introduced these papers(Leviathan et al, 2022 and Chen et al, 2023) from Google Research and Deepmind respectively
-
 ----
 
 Notes:
