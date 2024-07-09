@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
+      "basename": "Foundations of Deep RL (3) Policy Gradients and Advantage Estimation",
+      "path": "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)/Foundations of Deep RL (3) Policy Gradients and Advantage Estimation.md"
     },
     {
-      "basename": "Probability for CS (5) Independence",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
+      "basename": "Variance",
+      "path": "Variance.md"
+    },
+    {
+      "basename": "Standard Error",
+      "path": "Standard Error.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Standard Deviation",
+      "path": "Standard Deviation.md"
+    },
+    {
+      "basename": "Importance Sampling",
+      "path": "Importance Sampling.md"
     },
     {
       "basename": "Conditional Probability",
@@ -23,6 +35,18 @@
     {
       "basename": "Combination",
       "path": "Combination.md"
+    },
+    {
+      "basename": "Gini Index",
+      "path": "Gini Index.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "Probability for CS (5) Independence",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
     },
     {
       "basename": "Probability for CS (2) Combinatorics",
@@ -55,10 +79,6 @@
     {
       "basename": "Random Forest",
       "path": "Random Forest.md"
-    },
-    {
-      "basename": "Gini Index",
-      "path": "Gini Index.md"
     },
     {
       "basename": "K-Means Clustering",
@@ -179,26 +199,6 @@
     {
       "basename": "Stat110 Probability (1) - Probability and Counting",
       "path": "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)/Stat110 Probability (1) - Probability and Counting.md"
-    },
-    {
-      "basename": "Naive Definition of Probability",
-      "path": "Naive Definition of Probability.md"
-    },
-    {
-      "basename": "Outcome",
-      "path": "Outcome.md"
-    },
-    {
-      "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
-      "path": "Papers/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
-    },
-    {
-      "basename": "Law of Total Probability",
-      "path": "Law of Total Probability.md"
-    },
-    {
-      "basename": "Count-Min Sketch",
-      "path": "Count-Min Sketch.md"
     }
   ],
   "omittedPaths": [],

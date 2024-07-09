@@ -14,3 +14,5 @@ To visualize the motivation behind rejection sampling, imagine graphing the prob
 
 ![[Pasted image 20240708155545.png]]
 An example of someone doing it in the discrete case.
+![[Pasted image 20240708155615.png]]
+Imagine just keeping the blue darts, and drawing a line down to the x axis for each dart. Note that x values near the mode will have the highest probability of being sampled.
