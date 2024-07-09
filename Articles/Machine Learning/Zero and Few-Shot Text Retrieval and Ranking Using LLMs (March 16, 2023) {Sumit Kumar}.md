@@ -12,7 +12,7 @@ Text retrieval and ranking simply refers to the task of producing a ranked list 
 - Neural information retrieval, on the other hand, captures and compares the ==semantics== of queries and documents. Dense representation-based NN models usually take the form of a [[Bi-Encoder]] network or a [[Cross-Encoder]] network.
 	- [[Bi-Encoder]]s *independently* learn latent representations for query and documents, and interacts them only the final layer to calculate some similarity function (dot-product, cosine, MaxSim, euclidean distance). An indexing solution like [[FAISS]] is often used to fetch document embeddings in real-time, during inference. The ability to encode and index passages ahead of time makes them a popular choice.
 	- [[Cross-Encoder]]s take a query *and* document vector as input, and calculate a scalar (or sometimes, binary) relevance score. Achieve *higher performance* than Bi-Encoders due to the richer interactions between queries and documents, but they don't scale well because you can't separately encode documents ahead of time.
-		- Metrics like Accuracy, Mean Rank, and [[Mean Reciprocal Rank]] (MRR) are used if the relevance score is binary, otherwise metrics like [[Discounted Cumulative Gain]] (DCG) and [[Normalized Discounted Cumulative Gain]] (nDCG) are used if a graded relevance score is used.
+		- Metrics like Accuracy, Mean Rank, and [[Mean Reciprocal Rank]] (MRR) are used if the relevance score is binary, otherwise metrics like Discounted Cumulative Gain (DCG) and [[Normalized Discounted Cumulative Gain]] (nDCG) are used if a graded relevance score is used.
 
 ## Cascade Ranking Pipline
 - In designing e2e retrieval systems, we often have to balance the tradeoffs between effectiveness and efficiency.

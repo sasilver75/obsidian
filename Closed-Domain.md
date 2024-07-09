@@ -1,0 +1,1 @@
+In contrast to [[Open-Domain]] systems, closed-domain ones are specialized for specific areas (eg medical diagnosis, legal advice), and don't have to have broad world knowledge.
