@@ -81,9 +81,9 @@ Do we prune individual cells in our matrix, or prune groups of them?
 # 2) Pruning Granularity
 - Pruning can be performed at different granularities, from structured to non-structured. You can imagine that structured pruning will have better efficiency.
 ![[Pasted image 20240628125324.png]]
-In is ==fine-grained, unstructured pruning==, the pruning looks completely random; we can have the most flexibility to prune our model, but it's hard to hardware accelerate, because it's irregular, which hardware doesn't like.
+In is ==fine-grained, [[Unstructured Pruning]]==, the pruning looks completely random; we can have the most flexibility to prune our model, but it's hard to hardware accelerate, because it's irregular, which hardware doesn't like.
 
-There's ==%% coarse-grained, structured pruning %%== too -- We might choose to prune away entire rows of our matrix.
+There's ==%% coarse-grained, [[Structured Pruning]] %%== too -- We might choose to prune away entire rows of our matrix.
 - The benefit of this is that it can still be considered as a dense matrix, so we can use our usual hardware acceleration!
 - But this is certainly a less flexible method of pruning -- we might be pruning "good" weights in our model too. 
 
