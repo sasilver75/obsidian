@@ -5,7 +5,7 @@ aliases:
 October 17, 2022 -- [[Google Research]], Stanford (but recall this is really just a subset of BIG-Bench problems)
 Paper: [Challenging BIG-Bench Tasks and whether Chain-of-Thought can Solve Them](https://arxiv.org/abs/2210.09261)
 
-Just a harder subset of tasks from [[BIG-Bench]]
+A subset of 23 challenging tasks from the [[BIG-Bench]] dataset (204 tasks), which use objective metrics, are hard, and contain enough samples to be statistically significant. Contain multistep arithmetic and algorithmic reasoning (understanding boolean expressions, SVG for geometric shapes, etc), language understanding (sarcasm detection, name disambiguation, etc) and some world knowledge.
 
 Abstract
 > BIG-Bench (Srivastava et al., 2022) is a diverse evaluation suite that focuses on tasks believed to be beyond the capabilities of current language models. Language models have already made good progress on this benchmark, with the best model in the BIG-Bench paper outperforming average reported human-rater results on 65% of the BIG-Bench tasks via few-shot prompting. But on what tasks do language models fall short of average human-rater performance, and are those tasks actually unsolvable by current language models?  
@@ -15,3 +15,5 @@ Abstract
 ![[Pasted image 20240420135348.png]]
 
 ![[Pasted image 20240420135407.png]]
+
+Examples of Questions from each subset (are available on the  Sample Explorer on this [blog post](https://huggingface.co/spaces/open-llm-leaderboard/blog?utm_source=ainews&utm_medium=email&utm_campaign=ainews-et-tu-mmlu-pro))

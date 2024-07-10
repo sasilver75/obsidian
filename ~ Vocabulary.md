@@ -78,6 +78,7 @@
 - [[Variance]]
 - [[Standard Deviation]]
 - [[Covariance]]
+- [[De Morgan's Law of Union]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -798,6 +799,7 @@
 - [[HiPPO]]
 - [[S4]]
 - [[Mamba]]
+- [[Chameleon]]
 
 # Tools
 - [[ComfyUI]] 👨‍🔬🖼️
@@ -860,8 +862,8 @@
 - [[MMLU-Redux]]
 - [[HumanEval]]
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
-- [[BIG-Bench Hard]]
-- [[BIG-Bench Lite]]
+- [[BIG-Bench Hard]] (BBH)
+- [[BIG-Bench Lite]] (BBL)
 - [[BigCodeBench]]
 - [[SWE-bench]]
 - [[DAWNBench]]
@@ -881,7 +883,7 @@
 - [[HoVer]]
 - [[SQuAD]] (Stanford Question Answering Dataset)
 - [[ChatBotArena]]
-- [[OpenLLM Leaderboard]]
+- [[Open LLM Leaderboard]]
 - [[Open LLM Leaderboard V2]]
 - [[MT-Bench]] (Multi-Turn Benchmark)
 - [[AlpacaEval]]
@@ -896,12 +898,14 @@
 - [[Massive Multi-Discipline Multimodal Understanding]] (MMMU)
 - [[MMBench]]
 - [[Open VLM Leaderboard]]
-- [[LAMBADA]]
-- [[RACE]]
+- [[LAMBADA]] (Language Modeling Broadened to Account for Discourse Aspects)
+- [[RACE]] (Large-Scale Reading Comprehension Dataset from Examination)
 - [[Berkeley Function-Calling Leaderboard]]
-- [[IFEval]]
+- [[IFEval]] (Instruction Following Evaluation)
 - [[Parametric Evaluations]]
 - [[Vibe-Eval]]
+- [[MuSR]] (Multistep Soft Reasoning)
+- [[MATH]] (Mathematics Aptitude Test of Heuristics)
 
 # Datasets
 *Datasets for training/finetuning models*

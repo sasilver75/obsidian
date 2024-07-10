@@ -8,480 +8,259 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f169bf6aefc35f3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61c73d638c358c19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Part-of-Speech Tagging.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0d4a3a439684397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Retrieval.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efa48a5947b854ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Modeling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5dac1c8d0c10c470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Modeling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c143ff81b7ab4a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4be08e06c9ad639b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diarization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ba5605d4e7f7373",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Extraction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9be4199807bdba6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anaphora.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1da112b3172d6c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Named Entity Recognition.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9d555c8dfab3095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Translation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c82a30edf4b8cb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Closed-Book.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf098f792f1c4e32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-Hop.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "703c9f319c71509c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Question Answering.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa52d85f5c542092",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Natural Language Understanding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b66325ca5e86ba55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Closed-Domain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84fc51ea7cd194de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language Grounding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59adc23e02bd028a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Argument Mining.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92ec9416f9201c47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sentiment Analysis.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "750bb304249aa7f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Approximate Nearest Neighbor Contrastive Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c9335fb934fbb52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf0bc0b5aee2a6fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Least-Squares.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18f701fcca7107a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Normalized Discounted Cumulative Gain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64cfda4d99452d76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRINGE Loss.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8127772f21f2e6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Steering Vector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f02300be5dd091db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "decc9f2badbbc7ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Steering Vector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdcbc63a9fa8e25f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Feature Steering.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0c0af2931ad6e52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Feature Clamping.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f397b2a8e50a602c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encoder-Decoder Architecture.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ad3398a80c4cdb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Decoder-Only Architecture.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7af340c1043dd82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encoder-Decoder Architecture.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f0134e1dd16707c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Labeled Evaluations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10e9093a50541f3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Confident Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d334df6585f56420",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8613099c318d9260",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unstructured Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a7358fc1c861b3ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structured Pruning.md",
+                "file": "Open LLM Leaderboard V2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80d75d6abdb96dd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IFEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3f3c72557b4a7d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IFEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df31040d824e6533",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fe7363e75dcc877",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPQA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbe0e4100f703dc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MuSR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b85715176b2a57f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83a8ac7e9b2620ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IFEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc55d7f5de5d9261",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BIG-Bench Hard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ad08efcb3367f38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bb2a59d54fff136",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f8f54abdb1d7ce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open LLM Leaderboard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8422bdbf4c00ee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LAMBADA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47136b598b48b2f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RACE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5509c7b91556e730",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BIG-Bench Lite.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7116c95a2fd0973b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eleuther LM Evaluation Harness.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "039d1cf6994a1fe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open LLM Leaderboard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5feec075c41d0bbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "De Morgan's Law of Union.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2f9a73a767cbf45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35abe4bcb6e81dd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chameleon.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -517,7 +296,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"structured sparsity\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -564,7 +343,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Open LLM Leaderboard V2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -581,7 +360,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Open LLM Leaderboard V2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -604,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Open LLM Leaderboard V2.md"
               }
             }
           },
@@ -637,7 +416,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Open LLM Leaderboard V2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -684,44 +463,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f169bf6aefc35f3d",
+  "active": "a7358fc1c861b3ff",
   "lastOpenFiles": [
-    "Part-of-Speech Tagging.md",
-    "Information Retrieval.md",
+    "_attachments/Pasted image 20240709192036.png",
+    "IFEval.md",
+    "_attachments/Pasted image 20240709192005.png",
+    "Open LLM Leaderboard V2.md",
+    "_attachments/Pasted image 20240709191843.png",
+    "Distillation.md",
+    "Eleuther LM Evaluation Harness.md",
+    "Open LLM Leaderboard.md",
+    "GPQA.md",
+    "Chameleon.md",
+    "_attachments/Pasted image 20240709184543.png",
+    "BIG-Bench Hard.md",
+    "MuSR.md",
+    "MATH.md",
     "~ Vocabulary.md",
-    "Topic Modeling.md",
-    "Diarization.md",
-    "Information Extraction.md",
-    "Anaphora.md",
-    "Coreference.md",
-    "Named Entity Recognition.md",
-    "Machine Translation.md",
-    "Open-Book.md",
-    "Closed-Book.md",
-    "Multi-Hop.md",
-    "Question Answering.md",
-    "Natural Language Understanding.md",
-    "Closed-Domain.md",
-    "Open-Domain.md",
-    "Language Grounding.md",
-    "Argument Mining.md",
-    "Sentiment Analysis.md",
-    "Approximate Nearest Neighbor Contrastive Learning.md",
-    "Least-Squares.md",
-    "Reverse HyDE.md",
-    "Normalized Discounted Cumulative Gain.md",
-    "Articles/Machine Learning/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md",
-    "Cumulative Gain.md",
-    "_attachments/Pasted image 20240709021349.png",
-    "_attachments/Pasted image 20240709004051.png",
-    "_attachments/Pasted image 20240709002041.png",
-    "_attachments/Pasted image 20240709001836.png",
-    "_attachments/Pasted image 20240708230809.png",
-    "_attachments/Pasted image 20240708230756.png",
-    "_attachments/Pasted image 20240708225951.png",
-    "_attachments/Pasted image 20240708225708.png",
-    "_attachments/Pasted image 20240708225626.png",
-    "_attachments/Pasted image 20240708225531.png",
+    "LAMBADA.md",
+    "RACE.md",
+    "BIG-Bench Lite.md",
+    "_attachments/Pasted image 20240709175835.png",
+    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation).md",
+    "_attachments/Pasted image 20240709172254.png",
+    "_attachments/Pasted image 20240709172146.png",
+    "_attachments/Pasted image 20240709170838.png",
+    "_attachments/Pasted image 20240709170815.png",
+    "_attachments/Pasted image 20240709170700.png",
+    "_attachments/Pasted image 20240709170617.png",
+    "De Morgan's Law of Union.md",
+    "Structured Pruning.md",
+    "Unstructured Pruning.md",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md",
+    "Confident Learning.md",
+    "Labeled Evaluations.md",
+    "Encoder-Decoder Architecture.md",
+    "Decoder-Only Architecture.md",
+    "Feature Clamping.md",
+    "Feature Steering.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
