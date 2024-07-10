@@ -8,38 +8,103 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7358fc1c861b3ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IFEval.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "635f430a85001390",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Skip-Gram.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "80d75d6abdb96dd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IFEval.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "646d5e214f0f77b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fully Sharded Data Parallelism.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be2d16ff4df472b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tensor Parallelism.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5a17b948470157c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HiPPO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e16c0dcf5a0ad216",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HiPPO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f4f1c88882fb2c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoNCE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dcf180686e5da11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MIPRO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8967ecb170edece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LongRoPE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -280,7 +345,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -355,7 +421,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IFEval.md",
+                "file": "Fully Sharded Data Parallelism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -372,7 +438,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IFEval.md",
+                "file": "Fully Sharded Data Parallelism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -395,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IFEval.md"
+                "file": "Fully Sharded Data Parallelism.md"
               }
             }
           },
@@ -428,7 +494,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "IFEval.md",
+                "file": "Fully Sharded Data Parallelism.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -475,44 +541,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a7358fc1c861b3ff",
+  "active": "646d5e214f0f77b5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240709230548.png",
+    "_attachments/Pasted image 20240709230509.png",
+    "_attachments/Pasted image 20240709230504.png",
+    "_attachments/Pasted image 20240709230459.png",
+    "_attachments/Pasted image 20240709230452.png",
+    "_attachments/Pasted image 20240709230425.png",
+    "_attachments/Pasted image 20240709230418.png",
+    "_attachments/Pasted image 20240709230409.png",
+    "_attachments/Pasted image 20240709230402.png",
+    "_attachments/Pasted image 20240709230350.png",
+    "_attachments/Pasted image 20240709225450.png",
+    "~ Vocabulary.md",
+    "Model Parallelism.md",
+    "Tensor Parallelism.md",
     "Fully Sharded Data Parallelism.md",
-    "Word2Vec.md",
+    "Natural Language Inference.md",
+    "Chameleon.md",
+    "HiPPO.md",
+    "InfoNCE.md",
+    "MIPRO.md",
+    "LongRoPE.md",
+    "Data Parallelism.md",
+    "IFEval.md",
     "Skip-Gram.md",
+    "Word2Vec.md",
     "Continuous Bag of Words.md",
     "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md",
     "Ancestral Sampling.md",
     "Rejection Sampling.md",
-    "IFEval.md",
-    "Chameleon.md",
     "Importance Sampling.md",
     "Open LLM Leaderboard V2.md",
-    "_attachments/Pasted image 20240709192036.png",
-    "_attachments/Pasted image 20240709192005.png",
-    "_attachments/Pasted image 20240709191843.png",
     "Distillation.md",
     "Eleuther LM Evaluation Harness.md",
     "Open LLM Leaderboard.md",
     "GPQA.md",
-    "_attachments/Pasted image 20240709184543.png",
     "BIG-Bench Hard.md",
-    "MuSR.md",
-    "MATH.md",
-    "~ Vocabulary.md",
-    "LAMBADA.md",
-    "RACE.md",
-    "BIG-Bench Lite.md",
-    "_attachments/Pasted image 20240709175835.png",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation).md",
-    "_attachments/Pasted image 20240709172254.png",
-    "_attachments/Pasted image 20240709172146.png",
-    "_attachments/Pasted image 20240709170838.png",
-    "_attachments/Pasted image 20240709170815.png",
-    "_attachments/Pasted image 20240709170700.png",
-    "De Morgan's Law of Union.md",
-    "Structured Pruning.md",
-    "Unstructured Pruning.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
