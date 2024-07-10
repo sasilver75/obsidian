@@ -67,7 +67,7 @@ We need strong reporting standards, and for papers to report enough details abou
 
 
 Distinction: Model Eval vs Downstream Eval
-- Model Eval: eg [[Massive Multi-Task Language Understanding|MMLU]]; measures how "generally capable" your LM is, to measure against other base models
+- Model Eval: eg [[MMLU|MMLU]]; measures how "generally capable" your LM is, to measure against other base models
 - Downstream Eval: I have a concrete use case in mind, and want to
 	- The best eval is one that you run the code for yourself, or even one that you've designed yourself.
 	- Find an evaluation where "hill climbing" is actually a *good thing* (hill climbing MMLU by checking it many times during finetuning doesn't mean that you model is getting better at what you actually care about)

@@ -41,7 +41,7 @@ Typically, pre-training is performed over a dataset that's much larger than the 
 ![[Pasted image 20240304223102.png|150]]
 - The transformer uses an [[Encoder-Decoder Architecture]], as shown above. 
 - However, the full encoder-decoder transformer architecture isn't our only option!
-	1. [[Bidirectional Encoder Representations from Transformers|BERT]] uses an [[Encoder-Only Architecture]]
+	1. [[BERT|BERT]] uses an [[Encoder-Only Architecture]]
 	2. Most modern language models use [[Decoder-Only Architecture]] transformers.
 
 Let's look quickly at these two variants:
@@ -81,7 +81,7 @@ What does T5 use?
 
 # BERT: Transfer Learning for NLP
 - Transfer learning in NLP typically uses recurrent neural networks pre-trained with a causal language modeling objective.
-	- But everything changed with the proposal of [[Bidirectional Encoder Representations from Transformers|BERT]], a transformer model that's pre-trained with a self-supervised objective (Masked Language Modeling/Cloze or Next Sentence Prediction), and then can be fine-tuned for use in a downstream task that you care about.
+	- But everything changed with the proposal of [[BERT|BERT]], a transformer model that's pre-trained with a self-supervised objective (Masked Language Modeling/Cloze or Next Sentence Prediction), and then can be fine-tuned for use in a downstream task that you care about.
 	- At the time of its proposal in late 2018, BERT set SoTA in nearly all NLP tasks that were considered (11).
 
 To make this a bit more specific, BERT relies on a "denoising" objective, called [[Masked Language Model]]ing, during pre-training.
@@ -136,7 +136,7 @@ T5 is fine-tuned on each task that it solves.
 The Model
 - As discussed previously, the transformer architecture as originally proposed contains both an encoder and a decoder module.
 - Recent work on language modeling has explored architectural variants that are encoder or decoder-only.
-	- [[Bidirectional Encoder Representations from Transformers|BERT]] is encoder-only
+	- [[BERT|BERT]] is encoder-only
 	- Most LLMs are decoder-only
 
 - ==T5 uses an [[Encoder-Decoder Architecture]] that closely resembles the original transformer. The differences are:==

@@ -107,7 +107,7 @@ Converting from one language to another; For both translation and summarization,
 
 Then there are some "general purpose" benchmarks ((Though I wouldn't say that they're about "general purpose use" of the models; ie I don't ask my models about MMLU questions))
 ![[Pasted image 20240615180648.png]]
-This includes things like [[BIG-Bench]] and [[Massive Multi-Task Language Understanding|MMLU]]
+This includes things like [[BIG-Bench]] and [[MMLU|MMLU]]
 
 
 They do a little talking on instruction tuning (mentioning a few papers), and then talk a tiny bit about dataset generation (self-instruct, ORCA, Evol-Instruct).

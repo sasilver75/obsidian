@@ -117,7 +117,7 @@ Notes:
 		- Hybrid routing approaches can be employed by combining both semantic and metadata-based methods for enhanced query routing.
 - Embedding
 	- In RAG, retrieval is achieved by calculating similarity (eg [[Cosine Similarity]]) between the embeddings of the question and document chunks. 
-	- This mainly includes a sparse encoder ([[BM25]]) and a dense retriever ([[Bidirectional Encoder Representations from Transformers|BERT]]). 
+	- This mainly includes a sparse encoder ([[BM25]]) and a dense retriever ([[BERT|BERT]]). 
 	- Mixed/Hybrid Retrieval
 		- Sparse and dense embedding approaches capture different relevance features, and can benefit from eachother by leveraging complementary relevance information.
 			- eg sparse retrieval models can be used to provide initial search results for training dense retrieval models.

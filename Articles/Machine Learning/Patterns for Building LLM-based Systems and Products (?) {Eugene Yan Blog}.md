@@ -35,8 +35,8 @@ Why do we need evaluations?
 - Without evaluations, we're flying blind, or would have to manually/visually inspect LLM outputs with each change.
 
 There are many benchmarks in the field of language modeling:
-- [[Massive Multi-Task Language Understanding|MMLU]]: A set of 57 tasks that span elementary math, US history, CS, law, and more. To perform well, you need both extensive world knowledge and problem-solving ability.
-- [[Eleuther LM Evaluation Harness]]: A unified framework to test models via zero/few-shot settings on 200 tests. Incorporates a large number of *other* evaluations, including [[BIG-Bench]], [[Massive Multi-Task Language Understanding|MMLU]], etc.
+- [[MMLU|MMLU]]: A set of 57 tasks that span elementary math, US history, CS, law, and more. To perform well, you need both extensive world knowledge and problem-solving ability.
+- [[Eleuther LM Evaluation Harness]]: A unified framework to test models via zero/few-shot settings on 200 tests. Incorporates a large number of *other* evaluations, including [[BIG-Bench]], [[MMLU|MMLU]], etc.
 - [[HELM]]: Instead of specific tasks and metrics, HELM aims to offer a *holistic and comprehensive* assessment of LLMs by evaluating them across multiple domains. Metrics include accuracy, calibration, robustness, fairness, bias, toxicity, etc. Tasks include Q&A, information retrieval, summarization, text classification, etc.
 - [[AlpacaEval]]: *Automated* evaluation framework which measures how often a strong LLM (e.g. GPT-4) prefers the output of one model over a reference model (eg TextDavinci003). Metrics include win rate, bias, latency, price, variance. Validated to have high agreement with 20k human annotations.
 
@@ -122,7 +122,7 @@ First, a little on text embeddings
 Quick note: While we mainly discuss text embeddings here, embeddings can take many modalities. For example, CLIP is multimodal and embeds images and text in the same space!
 
 RAG has its roots in open-domain QA:
-- An early Meta [paper](https://arxiv.org/abs/2005.04611) showed that retrieving relevant documents via [[TF-IDF]] and providing them as context to a LM ([[Bidirectional Encoder Representations from Transformers|BERT]]) improved performance on an open-domain task.
+- An early Meta [paper](https://arxiv.org/abs/2005.04611) showed that retrieving relevant documents via [[TF-IDF]] and providing them as context to a LM ([[BERT|BERT]]) improved performance on an open-domain task.
 
 ### Dense Passage Retrieval (DPR)
 - Later, Meta's [[Dense Passage Retrieval]] (DPR) showed that dense embeddings (rather than sparse ones used in TF-IDF) for document retrieval can outperform strong baselines like [[BM25]]... and that higher retrieval precision translates to higher e2e QA accuracy.

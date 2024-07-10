@@ -1,3 +1,8 @@
+---
+aliases:
+  - Receptance Weighted Key Value
+---
+
 May 22, 2023
 Paper: [RMKW: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048)
 

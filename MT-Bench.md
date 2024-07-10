@@ -15,7 +15,7 @@ The authors advocate for this mixture of hybrid evaluation frameworks for future
 Note: Generally, there is a risk of other models *overfitting* to the biases of the evaluating model -- often models will have higher scores on GPT4-rated evaluators but worse performance when tested by humans, because models will be trained such that they mimic GPT4's style, but not other aspects, like its factuality.
 
 They're motivated by the ==three main types of existing benchmarks==:
-- ==Core-knowledge benchmarks== ([[Massive Multi-Task Language Understanding|MMLU]], [[HellaSWAG]], [[Abstraction and Reasoning Corpus|ARC]], [[Winogrande]], [[HumanEval]], [[GSM8K]], [[AGIEval]]), typically requiring LLMs to generate a short, specific answer to benchmark questions that can be automatically evaluated.
+- ==Core-knowledge benchmarks== ([[MMLU|MMLU]], [[HellaSWAG]], [[Abstraction and Reasoning Corpus|ARC]], [[Winogrande]], [[HumanEval]], [[GSM8K]], [[AGIEval]]), typically requiring LLMs to generate a short, specific answer to benchmark questions that can be automatically evaluated.
 - ==Instruction-following benchmarks== (Flan, [[Self-Instruct]], [[Super-NaturalInstructions]]): Expand to slightly more open-ended questions and more diverse tasks, and are used to evaluate LLMs after [[Instruction-Tuning]].
 - ==Conversational benchmarks== (CoQA, MMDialog, OpenAssistant)): Closest to our intended uses cases of language models, but diversity and complexity of questions often fall short in challenging the capabilities of latest chatbots.
 

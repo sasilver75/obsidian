@@ -48,7 +48,7 @@ Is there a way that we can improve an LLM's ability to access and utilize high-q
 
 ![[Pasted image 20240224154101.png]]
 - First, let's build a RAG system by:
-	1. Using an embedding model (e.g. a [[Bidirectional Encoder Representations from Transformers|BERT]]-based [[Bi-Encoder]]) to produce corresponding vector representations for each of our chunks
+	1. Using an embedding model (e.g. a [[BERT|BERT]]-based [[Bi-Encoder]]) to produce corresponding vector representations for each of our chunks
 	2. Index all of these vector representations within a vector database. 
 	3. Then, embed the input query using the same embedding model and ...
 	4. Perform an efficient vector search ([[Dense Retrieval]]) to retrieve semantically related chunks

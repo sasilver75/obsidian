@@ -1,3 +1,9 @@
+---
+aliases:
+  - Pathways Language Model
+---
+
+
 April 5, 2022
 Paper: [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
 

@@ -1,3 +1,9 @@
+---
+aliases:
+  - Visual Geometry Group Network
+---
+
+
 September 4, 2014
 Paper: [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) (VGG = "Visual Geometry Group", the research lab @ Oxford that developed the model)
 

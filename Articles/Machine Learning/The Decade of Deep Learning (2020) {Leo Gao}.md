@@ -125,7 +125,7 @@ Honorable mentions: Other alternatives sprung up based on different ways of aggr
 
 ![BERT compared to GPT and ELMo (<a href='https://arxiv.org/abs/1810.04805'>Source</a>)](https://bmk.sh/images/bert_compare.png)
 ## 2018: [BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
-- [[Bidirectional Encoder Representations from Transformers]] is a bidirectional, contextual text-embedding model. Like [[Word2Vec]], it's based on assigning each word (or rather, sub-word tokens) a vector. However these vectors in BERT are contextual, allowing *homographs* (eg *console*, the noun vs *console*, the verb) to be properly distinguished!
+- [[BERT]] is a bidirectional, contextual text-embedding model. Like [[Word2Vec]], it's based on assigning each word (or rather, sub-word tokens) a vector. However these vectors in BERT are contextual, allowing *homographs* (eg *console*, the noun vs *console*, the verb) to be properly distinguished!
 - BERT is deeply bidirectional, with each latent vector in each layer depending on all latent vectors from the previous layer.
 	- In unidirectional LMs like GPT, the model is trained to predict the next token at each timestep, which works because the states at each timestep can only depend on previous states.
 

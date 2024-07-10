@@ -1,6 +1,10 @@
+---
+aliases:
+  - Robustly Optimized BERT Approach
+---
 July 26, 2019
-Paper: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692) ("Robustly Optimized BERT Approach")
-Compare: [[Bidirectional Encoder Representations from Transformers|BERT]]
+[[Meta AI Research]]
+Paper: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)
 
 Addresses some of the known limitations with BERT, chiefly the observation that the BERT team did an admirably detailed, but still partial set of ablation and optimization studies. The RoBERTa team takes over, trying to do a more thorough exploration of the design space.
 - Turns out we just scale the models bigger and nail the hyperparameters and we get a great BERT model!

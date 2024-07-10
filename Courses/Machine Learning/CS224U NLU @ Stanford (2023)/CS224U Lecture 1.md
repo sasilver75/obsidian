@@ -89,7 +89,7 @@ The result of this being so powerful is the advent of large-scale pretraining, w
 
 A big moment for contextual representations was the [[ELMo]] model in 2018. The gains they reported from fine-tuning their parameters on hard tasks for the field were just *mindblowing* to researchers at the time.
 
-The next year, [[Bidirectional Encoder Representations from Transformers|BERT]] came out -- the paper had a huge impact by the time it was even published; they too released model parameters. The first of his sequence of things based on the [[Transformer]] architecture.
+The next year, [[BERT|BERT]] came out -- the paper had a huge impact by the time it was even published; they too released model parameters. The first of his sequence of things based on the [[Transformer]] architecture.
 
 [[GPT]] came out
 ...

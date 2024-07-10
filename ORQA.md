@@ -20,7 +20,7 @@ ORQA is a jointly-trained retriever and reader model that learns to retrieve evi
 	- ICT accomplishes two main goals:
 		- Despite the mismatch between sentences during pre-training and questions during fine-tuning, we expect zero-shot evidence retrieval performance to be sufficient for bootstrapping the latent-variable learning.
 		- There's no such mismatch between pretrained evidence blocks and downstream evidence blocks. We can expect the block encoder BERT_B to work well without further training. Only the question encoder needs to be finetuned on downstream data.
-- The scoring components are derived from [[Bidirectional Encoder Representations from Transformers|BERT]]s, and we just use a dot product similarity metric.
+- The scoring components are derived from [[BERT|BERT]]s, and we just use a dot product similarity metric.
 - We fine-tune all parameters in the system *except those in the evidence block encoder*, so that we don't have to re-encode all of our documents as we fine-tune the model.
 
 Notes: 

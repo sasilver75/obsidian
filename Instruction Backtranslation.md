@@ -45,7 +45,7 @@ Note:
 	- When combining both seed data and augmented data for finetuning, we use tagging to distinguish these two data sources. 
 		- We append an addition sentence to the system prompt of "Answer in the style of an AI Assistant" for seed data, and "Answer with knowledge from web search" for augmented data. ((I don't really understand the reasoning behind this.))
 	- Successive models can be used to ==*rescore*== augmented examples for quality, resulting in new augmentation sets.
-- Authors call the resulting model ==[[Humpback]]==.
+- Authors call the resulting model ==Humpback==.
 - As is shown in Figure 5, when training on self-augmented data alone (without seed data), and without self-curation, the quality of instruction following does not improve, or even deteriorates with more data. However, training on the higher quality self-curated data brings improvements as training set size increases
 - 
 

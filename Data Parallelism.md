@@ -1,3 +1,10 @@
+---
+aliases:
+  - Data Parallel
+  - Distributed Data Paralellism
+  - DDP
+---
+
 Cf: [[Model Parallelism]], [[Fully Sharded Data Parallelism]]
 
 A distributed training strategy in which multiple copies of the entire model are run on different devices (eg GPUs), each processing a different subset of the training data.

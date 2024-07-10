@@ -10,7 +10,7 @@ Takeaway: Dispense with recurrence -- Query, Key, and Value are all you need? (*
 Types:
 - Encoder-only
 	- Designed to learn embeddings that can be used for various predictive tasks. Mainly used for learning *representations* of words while taking context into account. 
-	- [[Bidirectional Encoder Representations from Transformers]], [[Vision Transformer|ViT]] models
+	- [[BERT]], [[Vision Transformer|ViT]] models
 - Encoder-Decoder
 	- These models consist of both an encoder and a decoder; The encoder is responsible for encoding the input sequence into a fixed-length representation, while the decoder generates new texts or answers user queries.
 	- Suitable for tasks like translation, summarization, and text generation.

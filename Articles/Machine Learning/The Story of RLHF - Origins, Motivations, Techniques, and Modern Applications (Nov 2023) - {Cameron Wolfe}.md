@@ -4,7 +4,7 @@ Link: https://cameronrwolfe.substack.com/p/the-story-of-rlhf-origins-motivations
 ----
 
 For a long time, the AI community has leveraged different styles of language models to automate both ==generative== and ==discriminative== natural language tasks!
-- There was a surge of interest in 2018 with [[Bidirectional Encoder Representations from Transformers|BERT]], which demonstrated the power of a combination of:
+- There was a surge of interest in 2018 with [[BERT|BERT]], which demonstrated the power of a combination of:
 	- The [[Transformer]] architecture
 	- Self-supervised Pre-training
 	- Transfer learning

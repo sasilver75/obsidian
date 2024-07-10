@@ -5,7 +5,7 @@ aliases:
 Jun 9, 2022 -- 100 researchers around the globe
 Paper: [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models](https://arxiv.org/abs/2206.04615)
 
-A huge collaborative effort of 204 tasks across 450 authors. In contrast to [[Massive Multi-Task Language Understanding|MMLU]], BIG-Bench tries to incorporate tasks that are traditionally out-of-scope for benchmarks, like Ethical Judgements, Understanding and Generating Humor, Creative Writing, Poetry, Cryptic Crosswords, Theory of Mind tasks (in addition to man of the normal ones).
+A huge collaborative effort of 204 tasks across 450 authors. In contrast to [[MMLU|MMLU]], BIG-Bench tries to incorporate tasks that are traditionally out-of-scope for benchmarks, like Ethical Judgements, Understanding and Generating Humor, Creative Writing, Poetry, Cryptic Crosswords, Theory of Mind tasks (in addition to man of the normal ones).
 
 >Current language-modeling benchmarks are insufficient to satisfy our need to understand the behavior of language models and to predict their future behavior. These existing benchmarks suffer from several limitations, including focusing on narrow subsets of problems, short useful lifespans, and data collected through non-expert humans.
 

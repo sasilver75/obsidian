@@ -9,7 +9,7 @@ The year 2018 has been an inflection point for machine learning models handling 
 
 ![[Pasted image 20240401211802.png]]
 
-One of the latest milestones in this development is the release of [[Bidirectional Encoder Representations from Transformers|BERT]], an event described as marking the beginning of a new era in NLP.
+One of the latest milestones in this development is the release of [[BERT|BERT]], an event described as marking the beginning of a new era in NLP.
 BERT is a model that broke several records for how well models can handle language-based tasks.
 
 This is a momentous development since it enables anyone building a machine learning model involving language processing to use this powerhouse as a readily-available component.

@@ -1,4 +1,6 @@
+
 ![[Pasted image 20240708225531.png]]
+![[Pasted image 20240710014620.png]]
 
 ![[Pasted image 20240708123835.png|300]]
 "imagine you are doing your ai phd defense and the panel asks 'ok but is your ai freepy or is it gloopy'" - alexanderrgriffing in eleuther discord
@@ -217,7 +219,7 @@ Additional notes:
 How do you evaluate data quality in a 1T+ corpus?
 - Train a small (1B,2B under Chinchilla optimality)
 - Use a set of "high signal benchmarks" (smoothly improving performance with low variance)
-	- CommonSense QA, [[HellaSWAG|300]], Openbook QA, PiQA, SIQA, [[Winogrande|300]], [[Abstraction and Reasoning Corpus|ARC|300]], [[Massive Multi-Task Language Understanding|MMLU|300]]
+	- CommonSense QA, [[HellaSWAG|300]], Openbook QA, PiQA, SIQA, [[Winogrande|300]], [[Abstraction and Reasoning Corpus|ARC|300]], [[MMLU|MMLU|300]]
 - Use a debugging dataset so that you can tell your datasets apart (2 -- one of high quality (C4), and one that's more complex)
 ![[Pasted image 20240415162904.png|300]]
 `datatrove` is a library that HuggingFace+friends released to help process and filter data, and basically for preparing very large datasets for LLM training. It's fully in Python and very easy to set up on SLURM locally, to use remote filesystems as well, if you want to.

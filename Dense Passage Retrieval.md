@@ -10,7 +10,7 @@ Takeaway: Introduces the use (?) of a BERT-based Bi-Encoder for retrieval in the
 
 ----
 
-Introduces DPR, which is a [[Bidirectional Encoder Representations from Transformers|BERT]]-based [[Bi-Encoder]] that separately encodes (each with their own BERT base encoder, producing a d=768 representation at the CLS token) queries and passages, and finds relevant passages via the dot product between these two dense vector representations. For retrieval, they index document embeddings into FAISS offline, and at retrieval time they compute the embedding of a query and find the top k passages via approximate nearest neighbors, and provide it to the LM (BERT) that outputs the answer to the question. Beats the pants off of [[BM25]] and [[TF-IDF]] in terms of performance in open-domain question answering.
+Introduces DPR, which is a [[BERT|BERT]]-based [[Bi-Encoder]] that separately encodes (each with their own BERT base encoder, producing a d=768 representation at the CLS token) queries and passages, and finds relevant passages via the dot product between these two dense vector representations. For retrieval, they index document embeddings into FAISS offline, and at retrieval time they compute the embedding of a query and find the top k passages via approximate nearest neighbors, and provide it to the LM (BERT) that outputs the answer to the question. Beats the pants off of [[BM25]] and [[TF-IDF]] in terms of performance in open-domain question answering.
 
 Notes
 - Notes that reading comprehension models can be described with a two-stage framework, where a context *==retriever==* selects a small subset of passages, and then a machine *==reader==* examines the contents and identifies the correct answer.

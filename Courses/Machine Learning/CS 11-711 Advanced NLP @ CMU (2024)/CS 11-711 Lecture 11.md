@@ -165,7 +165,7 @@ Pruning with Forward Passes
 
 
 ![[Pasted image 20240617110628.png]]
-- [[DistilBERT]] is basically just [[Bidirectional Encoder Representations from Transformers|BERT]], with the size reduce in half, and the same performance.
+- [[DistilBERT]] is basically just [[BERT|BERT]], with the size reduce in half, and the same performance.
 	- They take every other layer of BERT, and initialize the layer from one of the initial BERT model... and effectively did soft-target distillation. 
 
 ![[Pasted image 20240617110654.png]]

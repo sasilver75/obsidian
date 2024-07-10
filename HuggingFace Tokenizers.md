@@ -1,4 +1,4 @@
-Offers access to tokenizers used by popular transformer-based models, like [[Bidirectional Encoder Representations from Transformers|BERT]], [[GPT]], and [[T5]], which ensures crucial consistency between tokenization used during pre-training and fine-tuning.
+Offers access to tokenizers used by popular transformer-based models, like [[BERT|BERT]], [[GPT]], and [[T5]], which ensures crucial consistency between tokenization used during pre-training and fine-tuning.
 
 re: [[Natural Language Toolkit|NLTK]], [[spaCy]], [[HuggingFace Tokenizers]]:
 > "Each of these providers offers unique strengths and features, catering to different needs and use cases within the NLP domain. NLTK's simplicity makes it a great choice for educational and exploratory purposes, while spaCy's performance and linguistic awareness make it suitable for production-ready applications. Hugging Face Tokenizers, on the other hand, excel at handling the complexities of advanced NLP models, ensuring seamless integration with state-of-the-art architectures."

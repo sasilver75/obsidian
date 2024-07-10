@@ -16,7 +16,7 @@ The authors note that there are many shortcomings of the "End-to-End LLM Strateg
 
 Notes:
 - References [[REALM]] and [[ORQA]] as other recently-introduced models that combined (masked) language models with a differentiable retriever.
-- The retriever that is used to retrieve relevant Wikipedia documents is [[Dense Passage Retrieval]], from the DPR paper. It's a [[Bidirectional Encoder Representations from Transformers|BERT]]-based [[Bi-Encoder]].
+- The retriever that is used to retrieve relevant Wikipedia documents is [[Dense Passage Retrieval]], from the DPR paper. It's a [[BERT|BERT]]-based [[Bi-Encoder]].
 - The generator component is [[BART]]-large, a pretrained seq2seq transformer with 400M parameters. It receives the input *x* concatenated with the retrieved content *z*.
 - Starts with a pre-trained "generator" Seq2Seq model ([[BART]]) and a pre-trained "retriever" model (DPR), and jointly fine-tunes them on sequence-to-sequence tasks.
 - Proposes two ways in which the generator can use the retriever:

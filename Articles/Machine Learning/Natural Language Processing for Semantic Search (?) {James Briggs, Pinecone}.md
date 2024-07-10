@@ -40,7 +40,7 @@ Since Word2vec, some superior technologies for building dense vectors have enter
 
 ### Sentence Similarity
 - Transformer models produce incredibly information-rich dense representations which can be used for a variety of downstream tasks.
-- [[Bidirectional Encoder Representations from Transformers|BERT]] is perhaps the most famous of these transformer architectures; here, we produce vector embeddings for each word (or token) similar to word2vec; but embeddings are much richer thanks to much deeper neural networks.
+- [[BERT|BERT]] is perhaps the most famous of these transformer architectures; here, we produce vector embeddings for each word (or token) similar to word2vec; but embeddings are much richer thanks to much deeper neural networks.
 - The [[Attention]] mechanism allows BERT to prioritize which context words should have the biggest impact on a specific embedding by considering the alignment of said context words.
 	- But we want to focus on comparing *sentences,* not words -- and BERT embeddings are produced for each token, which doesn't help us directly in comparison of sentences.
 	- The first transformer build explicitly for this was [[Sentence-BERT|sBERT]] (Sentence Bert), a modified version of BERT -- but sBERT has a context limit of only 128 tokens, being unable to create single vector embeddings for anything beyond this limit. Many of the latest models allow for longer sequence lengths!

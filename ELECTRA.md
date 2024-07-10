@@ -1,4 +1,11 @@
+---
+aliases:
+  - Efficiently Learning an Encoder that Classifies Token Replacements Accurately
+---
+
+
 March 23, 2020
+Stanford, [[Google Research]] (incl [[Quoc Le]], [[Christopher Manning|Chris Manning]])
 [ELECTRA: Pre-training Text Encoders as Discriminators Rather than Generators](https://arxiv.org/abs/2003.10555)
 
 References:

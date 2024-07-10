@@ -55,7 +55,7 @@ As such, ==*masked self-attention is NEEDED for next-token prediction.*==
 ----
 Aside:
 - The phrase "language model" may sometimes be used to refer to models beyond those that specialize in performing next token prediction.
-	- [[Bidirectional Encoder Representations from Transformers|BERT]] is considered by some to be a "language model," but it's trained using a Cloze-style objective, and is not a generative model.
+	- [[BERT|BERT]] is considered by some to be a "language model," but it's trained using a Cloze-style objective, and is not a generative model.
 		- As such, language models that specialize in next-token-prediction are oftentimes distinguished as =="causal" langauge models==.
 -----
 
@@ -77,7 +77,7 @@ Aside:
 - Nearly all causal language models use a decoder-only Transformer as their underlying architecture, which is just a normal Transformer with the encoder portion of the architecture removed.
 	- Additionally, the cross attention portion of each decoder block is removed due to the lack of an encoder (we can't attend to an encoder that doesn't exist).
 - Alternatively, one could form an "encoder-only" architecture by just using the encoder portion of the architecture.
-	- Encoder-only architectures like [[Bidirectional Encoder Representations from Transformers|BERT]] excel at solving a variety of discriminative natural language tasks, but aren't used for generating text. See more [here](https://cameronrwolfe.substack.com/p/language-understanding-with-bert). 
+	- Encoder-only architectures like [[BERT|BERT]] excel at solving a variety of discriminative natural language tasks, but aren't used for generating text. See more [here](https://cameronrwolfe.substack.com/p/language-understanding-with-bert). 
 
 Why the decoder?
 - The choice of using the decoder-only architecture (as opposed to encoder-only or the full encoder-decoder transformer) for LLMs is not arbitrary -- it's driven by the use of next-token prediction for training language models.
@@ -180,7 +180,7 @@ Architecture
 	- A 6B parameter, english-only causal language model that was proposed prior to GPT-NeoX-20B; This was similarly pretrained on [[The Pile]]. At the time of its release, it was the largest publicly-available [[GPT-3]] style language model.
 - GLM
 	- More of a pre-training objective than a language model.
-	- Explores the idea of unifying different pre-training techniques (eg from [[Bidirectional Encoder Representations from Transformers|BERT]], [[T5]], [[GPT]]) by proposing an autoregressive blank-infilling objective.
+	- Explores the idea of unifying different pre-training techniques (eg from [[BERT|BERT]], [[T5]], [[GPT]]) by proposing an autoregressive blank-infilling objective.
 		- In other words, we predict masked words in a sentence in an autoregressive manner, similar to a language model. The resulting model is quite small (<1B params), but is found to outperform BERT, T5, GPT on several popular NLP benchmarks.
 
 ![[Pasted image 20240214153453.png]]

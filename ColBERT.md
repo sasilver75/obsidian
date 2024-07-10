@@ -15,7 +15,7 @@ References:
 ----
 
 Notes:
-- In IR, recent approaches involved fine-tuning deep pre-trained language models like [[ELMo]] and [[Bidirectional Encoder Representations from Transformers|BERT]] for estimating relevant relevance -- these LMs help bridge the pervasive vocabulary mismatch between document and queries by computing and comparing deeply-contextualized semantic representations of each!
+- In IR, recent approaches involved fine-tuning deep pre-trained language models like [[ELMo]] and [[BERT|BERT]] for estimating relevant relevance -- these LMs help bridge the pervasive vocabulary mismatch between document and queries by computing and comparing deeply-contextualized semantic representations of each!
 	- But these came at a steep computational cost of ~100-1000x more expensive than prior models.
 - ColBERT propose a novel ==late interaction== paradigm for estimating relevance between a query $q$ and document $d$. 
 	- The $q$ and $d$ are separately encoded into two sets of contextual embeddings, and relevance is evaluated using cheap and *==pruning-friendly==* computations between both sets -- meaning fast computations that enable ranking without exhaustively evaluating every possible candidate.
@@ -105,13 +105,13 @@ Bonus Content
 
 # Paper Figures
 ![[Pasted image 20240517180611.png]]
-Above: Showing similar performance (as measured by [[Mean Reciprocal Rank|MRR]]) to [[Bidirectional Encoder Representations from Transformers|BERT]]-large, but with 2 OOM less query latency.
+Above: Showing similar performance (as measured by [[Mean Reciprocal Rank|MRR]]) to [[BERT|BERT]]-large, but with 2 OOM less query latency.
 
 ![[Pasted image 20240517181612.png]]
 Above: Comparison between various paradigms in Neural IR
 - a: ==Representation-based Similarity==: These independently compute an embedding for $q$ and an embedding for $d$, then estimate relevance a single similarity score between two vectors. Makes it possible to precompute document representations ahead of time, greatly reducing the computational load per query.
 - b: ==Query-Document Interaction==: Interaction-focused rankers model word- and phrase-level relationships across $q$ and $d$, and match them using a deep neural network (eg with CNNs/MLPs). In the simplest case, they feed the NN an *interaction matrix* that reflects the similarity between every pair of words across $q$ and $d$. Cannot precompute document representations ahead of time, but good performance.
-- c: ==All-to-all Interaction==: Models the interactions between words *within* as well *across* $q$ and $d$, like how we use [[Bidirectional Encoder Representations from Transformers|BERT]]'s transformer architecture to do query-document similarity. Cannot precompute document representations ahead of time, but good performance.
+- c: ==All-to-all Interaction==: Models the interactions between words *within* as well *across* $q$ and $d$, like how we use [[BERT|BERT]]'s transformer architecture to do query-document similarity. Cannot precompute document representations ahead of time, but good performance.
 - d: ==Late Interaction== (eg the proposed ColBERT): While b and c above have superior performance, they can't precompute document representations like a can. Imagine having 1,000,000 documents in the database and having to do 1,000,000 BERT forward passes -- it's unworkable! Late Interaction enables both the fine-grained matching of interaction-based models and the precomputability of document representations from representation-based models by retaining, yet judiciously *delaying* the query-document interaction! Every query embedding interacts with all document embeddings via a MaxSim operator, which compute compute maximum similarity, and the scalar outputs of these operators are summed across query terms. This allows ColBERT to exploit deep LM-based representations while shifting the cost of encoding documents offline and amortizing the cost of encoding the query *once* across all ranked documents. Also enables ColBERT to leverage vector similarity search indices to retrieve the top-k results directly from a large document collection, substantially improving *recall* over models that only re-rank the output of term-based retrieval.
 
 ![[Pasted image 20240517213218.png]]

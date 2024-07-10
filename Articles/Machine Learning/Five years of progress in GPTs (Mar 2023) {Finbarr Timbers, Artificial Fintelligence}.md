@@ -8,7 +8,7 @@ Link: https://www.artfintel.com/p/five-years-of-progress-in-gpts
 
 
 
-There's a ton of prior work before large GPTs (n-gram model, [[Bidirectional Encoder Representations from Transformers]]) and after ([[RWKV]]), but we're going to constrain this to discussions about GPTs. We also aren't going to go into [[Reinforcement Learning from Human Feedback|RLHF]] or other fineetuning methods.
+There's a ton of prior work before large GPTs (n-gram model, [[BERT]]) and after ([[RWKV]]), but we're going to constrain this to discussions about GPTs. We also aren't going to go into [[Reinforcement Learning from Human Feedback|RLHF]] or other fineetuning methods.
 
 
 ### [[GPT-1]] (June 2018)

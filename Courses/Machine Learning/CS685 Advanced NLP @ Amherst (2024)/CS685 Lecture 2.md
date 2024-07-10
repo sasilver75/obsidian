@@ -16,7 +16,7 @@ We've discussed the advantages of Transfer Learning, though
 - Where we have a pretrained model trained (perhaps) by a self-supervised training objective (eg SSL language modeling, with next-token prediction).
 - We can then specialize this generalized model to the specific downstream task that we care about, and take advantage
 
-This was popularized by things like [[ULMFiT]] (Jan '18), [[Bidirectional Encoder Representations from Transformers|BERT]] (Oct '18)
+This was popularized by things like [[ULMFiT]] (Jan '18), [[BERT|BERT]] (Oct '18)
 
 Note: A language model like ChatGPT isn't *just* trained to predict the next word; there are other steps after that like [[Instruction-Tuning]] and [[Reinforcement Learning from Human Feedback|RLHF]] that align the outputs of our model with what humans actually want to be seeing.
 

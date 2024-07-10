@@ -1,3 +1,9 @@
+---
+aliases:
+  - DBRex
+---
+
+
 March 27, 2024 -- [[DataBricks]]
 Blog: [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)
 
@@ -5,6 +11,8 @@ A [[Decoder-Only Architecture]] LLM trained with next-token prediction, using an
 
 DBRX
 DRBX-Instruct
+
+Note: The DBRX family was "rebranded" to DBRex in early-mid 2024.
 
 Summary
 > Today, we are excited to introduce DBRX, an open, general-purpose LLM created by Databricks. Across a range of standard benchmarks, DBRX sets a new state-of-the-art for established open LLMs. Moreover, it provides the open community and enterprises building their own LLMs with capabilities that were previously limited to closed model APIs; according to our measurements, it ==surpasses GPT-3.5==, and it is competitive with Gemini 1.0 Pro. It is an especially capable code model, surpassing specialized models like CodeLLaMA-70B on programming, in addition to its strength as a general-purpose LLM.
