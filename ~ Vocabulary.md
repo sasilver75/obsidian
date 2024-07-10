@@ -333,9 +333,10 @@
 - [[Mixture of Experts]] (MoE)
 - [[Soft Mixture of Experts]] (sMoE)
 - [[Mixture-of-Depths]] (MoD)
+- [[Data Parallelism]]
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
-- [[Fully Sharded Data Parallelism]]
+- [[Fully Sharded Data Parallelism]] (FSDP)
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
@@ -345,8 +346,8 @@
 - [[Self-Play Fine-Tuning]] (SPIN)
 - [[Canary GUID]]
 - [[Early Stopping]]
-- [[Learning Rate]]
-- [[Grouped Query Attention]]
+- [[Learning Rate]] (LR)
+- [[Grouped Query Attention]] (GQA)
 - [[RingAttention]]
 - [[Evol-Instruct]]
 - [[Evol-Amplify]]
@@ -355,7 +356,7 @@
 - [[Automatic Mixed-Precision Training]]
 - [[Xavier Initialization]] (Glorot Initialization)
 - [[He Initialization]] (Kaiming Initialization)
-- [[Out-of-Bag Error]]
+- [[Out-of-Bag Error]] (OOB Error)
 - [[Boosting]]
 - [[Direct Preference Optimization]] (DPO)
 - [[Conservative Direct Preference Optimization]] (cDPO)
@@ -412,8 +413,7 @@
 - [[Hybrid Search]]
 - [[Precision (Information Retrieval)]]
 - [[Recall (Information Retrieval)]]
-- [[Cross-Encoder]]
-- [[HyDE]]
+- [[HyDE]] (Hypothetical Document Embeddings)
 - [[Reverse HyDE]]
 - [[Approximate Nearest Neighbor Search]] (ANN Search)
 - [[Late Interaction]]
@@ -452,6 +452,8 @@
 - [[Adaptive Retrieval]]
 - [[Context Compression]]
 - [[Query Expansion]]
+- [[Cross-Encoder]]
+- [[Bi-Encoder]]
 - [[Iter-RetGen]]
 - [[Tree of Clarification]]
 - [[IRCoT]]
@@ -485,6 +487,7 @@
 	- [[Parsing]]
 	- [[Coreference Resolution]]
 	- [[Semantic Text Similarity]] (STS)
+	- [[Natural Language Inference]] (NLI, Textual Entailment)
 - [[Context-Free Grammar]]
 - [[Dependency Grammar]]
 - [[Prosody]]
@@ -514,7 +517,6 @@
 - [[Masked Language Model]]
 - [[U-Net]]
 - [[Matryoshka Representation Learning]]
-- [[Bi-Encoder]]
 - [[Out-of-Vocabulary Token]] / "UNK"
 - [[Greedy Decoding]]
 - [[Ancestral Sampling]]
@@ -527,12 +529,12 @@
 - [[Temperature]]
 - [[ReAct]]
 - [[DSPy]]
-- [[MIPRO]]
+- [[MIPRO]] (Multi-Prompt Instruction Proposal Optimizer)
 - [[N-Gram]]
 - [[Coreference]], [[Coreference Resolution]]
 - [[Selective Language Modeling]] (SLM)
 - [[Noise-Contrastive Estimation]]
-- [[InfoNCE]]
+- [[InfoNCE]] (Info Noise-Contrastive Estimation)
 
 # Computer Vision Concepts
 - [[Object Recognition]]
@@ -796,7 +798,7 @@
 - [[Shepherd]]
 - [[Prometheus]]
 - [[Prometheus 2]]
-- [[HiPPO]]
+- [[HiPPO]] (High-order Polynomial Projection Operators)
 - [[S4]]
 - [[Mamba]]
 - [[Chameleon]]

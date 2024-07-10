@@ -1,1 +1,3 @@
-A type of [[Model Parallelism]]
+A more specific type of [[Model Parallelism]]
+
+A distributed training strategy in which different parts of the model architecture are distributed across multiple devices, with each device responsible for computing only its assigned portion. While in layer-wise Model-Parallelism, 1+ layers are assigned to each device, in Tensor Parallelism, individual tensors (like large weight matrices) themselves are split across devices, allowing for parallelization within a single layer, unlike layer-wise model parallelism.

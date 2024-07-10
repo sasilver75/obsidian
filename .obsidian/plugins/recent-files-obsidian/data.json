@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "IFEval",
-      "path": "IFEval.md"
-    },
-    {
       "basename": "Fully Sharded Data Parallelism",
       "path": "Fully Sharded Data Parallelism.md"
     },
     {
-      "basename": "Word2Vec",
-      "path": "Word2Vec.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Model Parallelism",
+      "path": "Model Parallelism.md"
+    },
+    {
+      "basename": "Tensor Parallelism",
+      "path": "Tensor Parallelism.md"
+    },
+    {
+      "basename": "Natural Language Inference",
+      "path": "Natural Language Inference.md"
+    },
+    {
+      "basename": "Chameleon",
+      "path": "Chameleon.md"
+    },
+    {
+      "basename": "HiPPO",
+      "path": "HiPPO.md"
+    },
+    {
+      "basename": "InfoNCE",
+      "path": "InfoNCE.md"
+    },
+    {
+      "basename": "MIPRO",
+      "path": "MIPRO.md"
+    },
+    {
+      "basename": "LongRoPE",
+      "path": "LongRoPE.md"
+    },
+    {
+      "basename": "Data Parallelism",
+      "path": "Data Parallelism.md"
+    },
+    {
+      "basename": "IFEval",
+      "path": "IFEval.md"
     },
     {
       "basename": "Skip-Gram",
       "path": "Skip-Gram.md"
+    },
+    {
+      "basename": "Word2Vec",
+      "path": "Word2Vec.md"
     },
     {
       "basename": "Continuous Bag of Words",
@@ -31,10 +71,6 @@
     {
       "basename": "Rejection Sampling",
       "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "Chameleon",
-      "path": "Chameleon.md"
     },
     {
       "basename": "Importance Sampling",
@@ -71,10 +107,6 @@
     {
       "basename": "MATH",
       "path": "MATH.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "LAMBADA",
@@ -167,38 +199,6 @@
     {
       "basename": "Multi-Hop",
       "path": "Multi-Hop.md"
-    },
-    {
-      "basename": "Closed-Book",
-      "path": "Closed-Book.md"
-    },
-    {
-      "basename": "Anaphora",
-      "path": "Anaphora.md"
-    },
-    {
-      "basename": "Information Extraction",
-      "path": "Information Extraction.md"
-    },
-    {
-      "basename": "Diarization",
-      "path": "Diarization.md"
-    },
-    {
-      "basename": "Topic Modeling",
-      "path": "Topic Modeling.md"
-    },
-    {
-      "basename": "Information Retrieval",
-      "path": "Information Retrieval.md"
-    },
-    {
-      "basename": "Part-of-Speech Tagging",
-      "path": "Part-of-Speech Tagging.md"
-    },
-    {
-      "basename": "Coreference",
-      "path": "Coreference.md"
     }
   ],
   "omittedPaths": [],
