@@ -18,7 +18,7 @@ Notes:
 - To facilitate more thorough research into RLHF, a high-quality ranking dataset specifically for chat is essential, so we release [[Nectar]], a GPT-4-labeled ranking dataset composed of 183K chat prompts. Each prompt includes 7 responses distilled from various models like GPT-4, GPT-3.5-instruct, GPT-3.5-turbo, Mistral-7B-Instruct, LLaMA2-7B, resulting in ==a total of 3.8M pairwise comparisons==. 
 	- We also release our reward mode, Starling-RM-7B-alpha, trained with our K-wise loss on the Nectar dataset.
 	- We then fine-tuned the [[OpenChat]] 3.5 LM using our learned reward model. Our team is actively exploring the various training methodologies for both the reward and language models, and will update.
-- Authors complain about the HuggingFace [[OpenLLM Leaderboard]] as a benchmark for chat models, because, unlike [[AlpacaEval]] and [[MT-Bench]], it doesn't support custom chat templates.
+- Authors complain about the HuggingFace [[Open LLM Leaderboard]] as a benchmark for chat models, because, unlike [[AlpacaEval]] and [[MT-Bench]], it doesn't support custom chat templates.
 - Authors note that (Goodhaet's Law) higher preference ranking by GPT-4 does not necessarily correlate with human preference -- specifically, that higher MT-Bench scores (as endorsed by GPT-4), don't automatically imply greater human favorability, especially when it comes to models with lower scores.
 - Authors say that RLHF primarily enhances the *style* of the responses, in particular aspects of helpfulness and safety, as evidenced by performance in MT-Bench and AlpacaEval.
 	- ((The explanation that I've heard that I like is that it helps the model elicit knowledge that is already latent within it.))

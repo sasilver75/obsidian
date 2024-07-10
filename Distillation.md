@@ -9,7 +9,9 @@ Traditional knowledge distillation involves transferring knowledge from a larger
 Variant: [[Self-Distillation]]
 Variant: ==[[Online Distillation]]== (eg Gemeni Flash being distilled from 1.5 Pro *as Pro trained!*) (relevant [paper](https://arxiv.org/abs/1804.03235))
 
-Soft-Target Distillation (logits) vs Hard-Target Distillation (label)
+==Soft-Target Distillation== (logits, model distillation) vs ==Hard-Target Distillation== (label, data distillation)
+
+Note that dataset contamination is something to think about when you're doing hard-target distillation (eg) from some model that itself have been contaminated.
 
 Note:
 - I've heard "Distillation" used in two contexts:

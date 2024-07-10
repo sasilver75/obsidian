@@ -1,32 +1,168 @@
 {
   "recentFiles": [
     {
+      "basename": "Open LLM Leaderboard V2",
+      "path": "Open LLM Leaderboard V2.md"
+    },
+    {
+      "basename": "IFEval",
+      "path": "IFEval.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Eleuther LM Evaluation Harness",
+      "path": "Eleuther LM Evaluation Harness.md"
+    },
+    {
+      "basename": "Open LLM Leaderboard",
+      "path": "Open LLM Leaderboard.md"
+    },
+    {
+      "basename": "GPQA",
+      "path": "GPQA.md"
+    },
+    {
+      "basename": "Chameleon",
+      "path": "Chameleon.md"
+    },
+    {
+      "basename": "BIG-Bench Hard",
+      "path": "BIG-Bench Hard.md"
+    },
+    {
+      "basename": "MuSR",
+      "path": "MuSR.md"
+    },
+    {
+      "basename": "MATH",
+      "path": "MATH.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Part-of-Speech Tagging",
-      "path": "Part-of-Speech Tagging.md"
+      "basename": "LAMBADA",
+      "path": "LAMBADA.md"
     },
     {
-      "basename": "Information Retrieval",
-      "path": "Information Retrieval.md"
+      "basename": "RACE",
+      "path": "RACE.md"
     },
     {
-      "basename": "Topic Modeling",
-      "path": "Topic Modeling.md"
+      "basename": "BIG-Bench Lite",
+      "path": "BIG-Bench Lite.md"
     },
     {
-      "basename": "Diarization",
-      "path": "Diarization.md"
+      "basename": "Probability for CS (6) Random Variables and Expectation)",
+      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation).md"
+    },
+    {
+      "basename": "De Morgan's Law of Union",
+      "path": "De Morgan's Law of Union.md"
+    },
+    {
+      "basename": "Structured Pruning",
+      "path": "Structured Pruning.md"
+    },
+    {
+      "basename": "Unstructured Pruning",
+      "path": "Unstructured Pruning.md"
+    },
+    {
+      "basename": "Data-Centric AI (2) - Label Errors",
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md"
+    },
+    {
+      "basename": "Confident Learning",
+      "path": "Confident Learning.md"
+    },
+    {
+      "basename": "Labeled Evaluations",
+      "path": "Labeled Evaluations.md"
+    },
+    {
+      "basename": "Encoder-Decoder Architecture",
+      "path": "Encoder-Decoder Architecture.md"
+    },
+    {
+      "basename": "Decoder-Only Architecture",
+      "path": "Decoder-Only Architecture.md"
+    },
+    {
+      "basename": "Feature Clamping",
+      "path": "Feature Clamping.md"
+    },
+    {
+      "basename": "Feature Steering",
+      "path": "Feature Steering.md"
+    },
+    {
+      "basename": "Steering Vector",
+      "path": "Steering Vector.md"
+    },
+    {
+      "basename": "CRINGE Loss",
+      "path": "CRINGE Loss.md"
+    },
+    {
+      "basename": "Normalized Discounted Cumulative Gain",
+      "path": "Normalized Discounted Cumulative Gain.md"
+    },
+    {
+      "basename": "Approximate Nearest Neighbor Contrastive Learning",
+      "path": "Approximate Nearest Neighbor Contrastive Learning.md"
+    },
+    {
+      "basename": "Sentiment Analysis",
+      "path": "Sentiment Analysis.md"
+    },
+    {
+      "basename": "Argument Mining",
+      "path": "Argument Mining.md"
+    },
+    {
+      "basename": "Language Grounding",
+      "path": "Language Grounding.md"
+    },
+    {
+      "basename": "Closed-Domain",
+      "path": "Closed-Domain.md"
+    },
+    {
+      "basename": "Multi-Hop",
+      "path": "Multi-Hop.md"
+    },
+    {
+      "basename": "Closed-Book",
+      "path": "Closed-Book.md"
+    },
+    {
+      "basename": "Anaphora",
+      "path": "Anaphora.md"
     },
     {
       "basename": "Information Extraction",
       "path": "Information Extraction.md"
     },
     {
-      "basename": "Anaphora",
-      "path": "Anaphora.md"
+      "basename": "Diarization",
+      "path": "Diarization.md"
+    },
+    {
+      "basename": "Topic Modeling",
+      "path": "Topic Modeling.md"
+    },
+    {
+      "basename": "Information Retrieval",
+      "path": "Information Retrieval.md"
+    },
+    {
+      "basename": "Part-of-Speech Tagging",
+      "path": "Part-of-Speech Tagging.md"
     },
     {
       "basename": "Coreference",
@@ -45,14 +181,6 @@
       "path": "Open-Book.md"
     },
     {
-      "basename": "Closed-Book",
-      "path": "Closed-Book.md"
-    },
-    {
-      "basename": "Multi-Hop",
-      "path": "Multi-Hop.md"
-    },
-    {
       "basename": "Question Answering",
       "path": "Question Answering.md"
     },
@@ -61,28 +189,8 @@
       "path": "Natural Language Understanding.md"
     },
     {
-      "basename": "Closed-Domain",
-      "path": "Closed-Domain.md"
-    },
-    {
       "basename": "Open-Domain",
       "path": "Open-Domain.md"
-    },
-    {
-      "basename": "Language Grounding",
-      "path": "Language Grounding.md"
-    },
-    {
-      "basename": "Argument Mining",
-      "path": "Argument Mining.md"
-    },
-    {
-      "basename": "Sentiment Analysis",
-      "path": "Sentiment Analysis.md"
-    },
-    {
-      "basename": "Approximate Nearest Neighbor Contrastive Learning",
-      "path": "Approximate Nearest Neighbor Contrastive Learning.md"
     },
     {
       "basename": "Least-Squares",
@@ -91,114 +199,6 @@
     {
       "basename": "Reverse HyDE",
       "path": "Reverse HyDE.md"
-    },
-    {
-      "basename": "Normalized Discounted Cumulative Gain",
-      "path": "Normalized Discounted Cumulative Gain.md"
-    },
-    {
-      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
-      "path": "Articles/Machine Learning/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/Machine Learning/A Practitioners Guide to Retrieval Augmented Generation (RAG) (Feb 2024) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}",
-      "path": "Articles/Machine Learning/Evaluation Measures in Information Retrieval (June 30, 2023) {Laura Carnevali}.md"
-    },
-    {
-      "basename": "CRINGE Loss",
-      "path": "CRINGE Loss.md"
-    },
-    {
-      "basename": "Steering Vector",
-      "path": "Steering Vector.md"
-    },
-    {
-      "basename": "Feature Steering",
-      "path": "Feature Steering.md"
-    },
-    {
-      "basename": "Feature Clamping",
-      "path": "Feature Clamping.md"
-    },
-    {
-      "basename": "Encoder-Decoder Architecture",
-      "path": "Encoder-Decoder Architecture.md"
-    },
-    {
-      "basename": "Decoder-Only Architecture",
-      "path": "Decoder-Only Architecture.md"
-    },
-    {
-      "basename": "Encoder-Only Architecture",
-      "path": "Encoder-Only Architecture.md"
-    },
-    {
-      "basename": "ELECTRA",
-      "path": "ELECTRA.md"
-    },
-    {
-      "basename": "Labeled Evaluations",
-      "path": "Labeled Evaluations.md"
-    },
-    {
-      "basename": "Label-free Evaluations",
-      "path": "Label-free Evaluations.md"
-    },
-    {
-      "basename": "Confident Learning",
-      "path": "Confident Learning.md"
-    },
-    {
-      "basename": "Data-Centric AI (2) - Label Errors",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md"
-    },
-    {
-      "basename": "Structured Pruning",
-      "path": "Structured Pruning.md"
-    },
-    {
-      "basename": "TinyML (3) - Pruning and Sparsity Part 1",
-      "path": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (3) - Pruning and Sparsity Part 1.md"
-    },
-    {
-      "basename": "Unstructured Pruning",
-      "path": "Unstructured Pruning.md"
-    },
-    {
-      "basename": "Speculative Decoding",
-      "path": "Speculative Decoding.md"
-    },
-    {
-      "basename": "Manhattan Distance",
-      "path": "Manhattan Distance.md"
-    },
-    {
-      "basename": "Hamming Distance",
-      "path": "Hamming Distance.md"
-    },
-    {
-      "basename": "Support Vector Machine",
-      "path": "Support Vector Machine.md"
-    },
-    {
-      "basename": "Pearson Correlation Coefficient",
-      "path": "Pearson Correlation Coefficient.md"
-    },
-    {
-      "basename": "Spearman Rank Correlation Coefficient",
-      "path": "Spearman Rank Correlation Coefficient.md"
-    },
-    {
-      "basename": "Covariance",
-      "path": "Covariance.md"
-    },
-    {
-      "basename": "UMAP",
-      "path": "UMAP.md"
     }
   ],
   "omittedPaths": [],
