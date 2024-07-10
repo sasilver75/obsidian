@@ -1,120 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "LLM Master Credit Information",
+      "path": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md"
     },
     {
-      "basename": "HiPPO",
-      "path": "HiPPO.md"
+      "basename": "Alpagasus",
+      "path": "Alpagasus.md"
     },
     {
-      "basename": "S4",
-      "path": "S4.md"
+      "basename": "Variational Autoencoder",
+      "path": "Variational Autoencoder.md"
     },
     {
-      "basename": "MMLU",
-      "path": "MMLU.md"
-    },
-    {
-      "basename": "MMBench",
-      "path": "MMBench.md"
-    },
-    {
-      "basename": "FActScore",
-      "path": "FActScore.md"
-    },
-    {
-      "basename": "LLaVA",
-      "path": "LLaVA.md"
-    },
-    {
-      "basename": "CogVLM",
-      "path": "CogVLM.md"
-    },
-    {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
-    },
-    {
-      "basename": "GLIDE",
-      "path": "GLIDE.md"
-    },
-    {
-      "basename": "ALIGN",
-      "path": "ALIGN.md"
-    },
-    {
-      "basename": "ULMFiT",
-      "path": "ULMFiT.md"
-    },
-    {
-      "basename": "BYOL",
-      "path": "BYOL.md"
-    },
-    {
-      "basename": "T5",
-      "path": "T5.md"
-    },
-    {
-      "basename": "DeBERTa",
-      "path": "DeBERTa.md"
-    },
-    {
-      "basename": "BART",
-      "path": "BART.md"
-    },
-    {
-      "basename": "ELECTRA",
-      "path": "ELECTRA.md"
-    },
-    {
-      "basename": "RoBERTa",
-      "path": "RoBERTa.md"
-    },
-    {
-      "basename": "Encoder-Only Architecture",
-      "path": "Encoder-Only Architecture.md"
-    },
-    {
-      "basename": "BERT",
-      "path": "BERT.md"
-    },
-    {
-      "basename": "SigLIP",
-      "path": "SigLIP.md"
-    },
-    {
-      "basename": "Chameleon",
-      "path": "Chameleon.md"
-    },
-    {
-      "basename": "KOSMOS 2",
-      "path": "KOSMOS 2.md"
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
     },
     {
       "basename": "OWL-ViT",
       "path": "OWL-ViT.md"
-    },
-    {
-      "basename": "BLIP",
-      "path": "BLIP.md"
-    },
-    {
-      "basename": "OpenCLIP",
-      "path": "OpenCLIP.md"
-    },
-    {
-      "basename": "DINOv2",
-      "path": "DINOv2.md"
-    },
-    {
-      "basename": "KOSMOS 2.5",
-      "path": "KOSMOS 2.5.md"
-    },
-    {
-      "basename": "OWLv2",
-      "path": "OWLv2.md"
     },
     {
       "basename": "CLIP",
@@ -153,10 +57,6 @@
       "path": "SimVLM.md"
     },
     {
-      "basename": "SimCLR",
-      "path": "SimCLR.md"
-    },
-    {
       "basename": "LIMA",
       "path": "LIMA.md"
     },
@@ -165,40 +65,140 @@
       "path": "RWKV.md"
     },
     {
-      "basename": "Bootstrap",
-      "path": "Bootstrap.md"
-    },
-    {
-      "basename": "Dense Passage Retrieval",
-      "path": "Dense Passage Retrieval.md"
-    },
-    {
-      "basename": "Alpagasus",
-      "path": "Alpagasus.md"
-    },
-    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
     {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
+      "basename": "Data Parallelism",
+      "path": "Data Parallelism.md"
     },
     {
-      "basename": "Rectified Linear Unit",
-      "path": "Rectified Linear Unit.md"
+      "basename": "Tensor Parallelism",
+      "path": "Tensor Parallelism.md"
     },
     {
-      "basename": "Dolly",
-      "path": "Dolly.md"
+      "basename": "HiPPO",
+      "path": "HiPPO.md"
     },
     {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
+      "basename": "InfoNCE",
+      "path": "InfoNCE.md"
     },
     {
-      "basename": "Instruction-Tuning",
-      "path": "Instruction-Tuning.md"
+      "basename": "MIPRO",
+      "path": "MIPRO.md"
+    },
+    {
+      "basename": "LongRoPE",
+      "path": "LongRoPE.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "MuSR",
+      "path": "MuSR.md"
+    },
+    {
+      "basename": "MATH",
+      "path": "MATH.md"
+    },
+    {
+      "basename": "BIG-Bench Hard",
+      "path": "BIG-Bench Hard.md"
+    },
+    {
+      "basename": "BIG-Bench Lite",
+      "path": "BIG-Bench Lite.md"
+    },
+    {
+      "basename": "Eleuther LM Evaluation Harness",
+      "path": "Eleuther LM Evaluation Harness.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Chameleon",
+      "path": "Chameleon.md"
+    },
+    {
+      "basename": "Latent Consistency Model",
+      "path": "Latent Consistency Model.md"
+    },
+    {
+      "basename": "RETRO",
+      "path": "RETRO.md"
+    },
+    {
+      "basename": "Scaling Laws",
+      "path": "Scaling Laws.md"
+    },
+    {
+      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/Machine Learning/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "DINOv2",
+      "path": "DINOv2.md"
+    },
+    {
+      "basename": "BLIP",
+      "path": "BLIP.md"
+    },
+    {
+      "basename": "KOSMOS 2",
+      "path": "KOSMOS 2.md"
+    },
+    {
+      "basename": "ELECTRA",
+      "path": "ELECTRA.md"
+    },
+    {
+      "basename": "BYOL",
+      "path": "BYOL.md"
+    },
+    {
+      "basename": "ALIGN",
+      "path": "ALIGN.md"
+    },
+    {
+      "basename": "LLaVA",
+      "path": "LLaVA.md"
+    },
+    {
+      "basename": "Stable Diffusion",
+      "path": "Stable Diffusion.md"
+    },
+    {
+      "basename": "LATS",
+      "path": "LATS.md"
+    },
+    {
+      "basename": "David Silver RL (8) - Integrating Learning and Planning",
+      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
+    },
+    {
+      "basename": "David Silver RL (9) - Exploration and Exploitation",
+      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
+    },
+    {
+      "basename": "RAISE",
+      "path": "RAISE.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
+    },
+    {
+      "basename": "Latent Diffusion Model",
+      "path": "Latent Diffusion Model.md"
+    },
+    {
+      "basename": "VLM",
+      "path": "VLM.md"
     }
   ],
   "omittedPaths": [],

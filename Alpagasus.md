@@ -15,6 +15,7 @@ There's been a lot of work using strong language models as teachers to create in
 - The authors select four different *human-instruction* test sets for evaluating Alpagasus's instruction-following capability, including the ones used by [[WizardLM]], [[Vicuna]], [[Koala]], and [[Self-Instruct]].
 	- Authors use GPT-4 as their judge for these evaluations.
 	- Alpagasus performs significantly better than Alpaca on all four test sets, indicating that the authors' data filtering approach exhibits significant benefits.
+- 
 
 
 Abstract
@@ -23,7 +24,13 @@ Abstract
 
 # Paper Figures
 ![[Pasted image 20240710013447.png|300]]
+Showing performance of Alpagasus on the test sets from four papers (Vicuna, Koala, WizardLM, Self-Instruct) at different levels of filtering (of the Alpaca dataset, using the Alpagasus technique)
 
+![[Pasted image 20240710161434.png]]
+Showing along the top a few (instruction, input, response) pairs, and along the bottom, the corresponding scores from the response filtering method used to train Alpagasus. See that two of the three examples were rejected.
+
+![[Pasted image 20240710161423.png]]
+Curious what they mean here by "dimension"; really interesting that they choose to output a line indicating the score *before* outputting the 
 
 
 
