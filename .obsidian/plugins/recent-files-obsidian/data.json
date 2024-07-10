@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Open LLM Leaderboard V2",
-      "path": "Open LLM Leaderboard V2.md"
-    },
-    {
       "basename": "IFEval",
       "path": "IFEval.md"
+    },
+    {
+      "basename": "Fully Sharded Data Parallelism",
+      "path": "Fully Sharded Data Parallelism.md"
+    },
+    {
+      "basename": "Word2Vec",
+      "path": "Word2Vec.md"
+    },
+    {
+      "basename": "Skip-Gram",
+      "path": "Skip-Gram.md"
+    },
+    {
+      "basename": "Continuous Bag of Words",
+      "path": "Continuous Bag of Words.md"
+    },
+    {
+      "basename": "CS224N Lecture 1",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md"
+    },
+    {
+      "basename": "Ancestral Sampling",
+      "path": "Ancestral Sampling.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "Chameleon",
+      "path": "Chameleon.md"
+    },
+    {
+      "basename": "Importance Sampling",
+      "path": "Importance Sampling.md"
+    },
+    {
+      "basename": "Open LLM Leaderboard V2",
+      "path": "Open LLM Leaderboard V2.md"
     },
     {
       "basename": "Distillation",
@@ -23,10 +59,6 @@
     {
       "basename": "GPQA",
       "path": "GPQA.md"
-    },
-    {
-      "basename": "Chameleon",
-      "path": "Chameleon.md"
     },
     {
       "basename": "BIG-Bench Hard",
@@ -167,38 +199,6 @@
     {
       "basename": "Coreference",
       "path": "Coreference.md"
-    },
-    {
-      "basename": "Named Entity Recognition",
-      "path": "Named Entity Recognition.md"
-    },
-    {
-      "basename": "Machine Translation",
-      "path": "Machine Translation.md"
-    },
-    {
-      "basename": "Open-Book",
-      "path": "Open-Book.md"
-    },
-    {
-      "basename": "Question Answering",
-      "path": "Question Answering.md"
-    },
-    {
-      "basename": "Natural Language Understanding",
-      "path": "Natural Language Understanding.md"
-    },
-    {
-      "basename": "Open-Domain",
-      "path": "Open-Domain.md"
-    },
-    {
-      "basename": "Least-Squares",
-      "path": "Least-Squares.md"
-    },
-    {
-      "basename": "Reverse HyDE",
-      "path": "Reverse HyDE.md"
     }
   ],
   "omittedPaths": [],

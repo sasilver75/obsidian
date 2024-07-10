@@ -55,3 +55,4 @@ Which of the six evaluations should you pay attention to?
 - IFEval targets chat capabilities, but the format used in the benchmark tends to favor chat and instruction-tuned models, with pretrained models having a harder time reaching higher performances.
 
 ![[Pasted image 20240709192036.png]]
+****
