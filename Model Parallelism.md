@@ -1,6 +1,7 @@
 ---
 aliases:
   - Layer-wise Model Parallelism
+  - Model Parallel
 ---
 
 Cf: [[Data Parallelism]], [[Fully Sharded Data Parallelism]], [[Tensor Parallelism]]

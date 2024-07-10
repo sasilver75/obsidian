@@ -22,7 +22,7 @@ It's crazy how the AI/NLP landscape has evolved; [[Sebastian Ruder]] (author) ha
 
 
 ## 3. ML has become less open and more polarized
-- Early pre-trained models like [[ELMo]], [[Bidirectional Encoder Representations from Transformers|BERT]], [[GPT]], and [[T5]] were open-sourced, enabling widespread adoption
+- Early pre-trained models like [[ELMo]], [[BERT|BERT]], [[GPT]], and [[T5]] were open-sourced, enabling widespread adoption
 - Over time, this radical openness have shifted -- models like [[GPT-3]] and [[PaLM]] were increasingly locked behinds APIs, but the papers still described the architecture in detail.
 - After that generation, more recent models like [[GPT-4]] and [[PaLM 2]] and [[Gemeni]] aren't just closed-source, but their papers reveal very little about the architecture and training data!
 

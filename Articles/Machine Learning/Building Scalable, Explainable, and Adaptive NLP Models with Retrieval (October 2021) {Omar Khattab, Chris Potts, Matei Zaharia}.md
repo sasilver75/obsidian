@@ -8,7 +8,7 @@ This is an article from 2021, so caveat emptor! But Chris recommended reading it
 ----
 
 NLP has witnessed impressive developments in [[Question Answering]], [[Summarization]], and [[Machine Translation]].
-- Much of this progress is owed to training ever-larger LMs like [[T5]] and [[Bidirectional Encoder Representations from Transformers|BERT]].
+- Much of this progress is owed to training ever-larger LMs like [[T5]] and [[BERT|BERT]].
 
 
 During training, these models distill the facts they read into parametric knowledge they learn highly abstract knowledge representations of entities, events, and facts, as well as specific pieces of knowledge.
@@ -35,7 +35,7 @@ This leads to 3 key advantages:
 
 # ColBERT: Scalable yet expressive neural retrieval
 - Traditionally in IR, search tasks were conducted using ==bag of words== models like [[BM25]], which seek documents containing the *same tokens* as the query!
-- In 2019, search was revolutionized with [[Bidirectional Encoder Representations from Transformers|BERT]] for ranking.
+- In 2019, search was revolutionized with [[BERT|BERT]] for ranking.
 ![[Pasted image 20240425221743.png]]
 - The standard approach is above in ==2a==; each document is concatenated with the query, and both are fed jointly into a BERT model, fine-tuned to estimate relevance.
 	- BERT doubled the MRR@10 quality metric over BM25 on the popular [[MS MARCO]] passage ranking leaderboard, but also posed a ==fundamental limitation==: *scoring* each query-document pair required *billions* of operations!

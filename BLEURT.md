@@ -2,7 +2,7 @@ April 9, 2020
 [[Google Research]]
 [BLEURT: Learning Robust Metrics for Text Generation](https://arxiv.org/abs/2004.04696)
 
-Introduced by Google Research in 2020 as an improvement over BLEU. It's built on the popular [[Bidirectional Encoder Representations from Transformers|BERT]] model to offer a more nuanced and human-like assessment of translation accuracy.
+Introduced by Google Research in 2020 as an improvement over BLEU. It's built on the popular [[BERT|BERT]] model to offer a more nuanced and human-like assessment of translation accuracy.
 
 The model is trained via two steps:
 1. "Pretraining" (🤢), where they generate 6.5M synthetic pairs by randomly perturbing (mask-filling, backtranslation, word dropout) 1.8M sentences from Wikipedia.

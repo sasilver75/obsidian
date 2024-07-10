@@ -178,7 +178,7 @@ Notice that we don't have any sort of feedback as to whether we're right or wron
 Recall: The model doesn't predict tokens, the model predicts scores over the vocabulary, and we do some inferencing (and there are many schemes here to do this sampling, eg [[Beam Search]]) to choose what the next token will be. 
 
 
-# (4/9) [[Bidirectional Encoder Representations from Transformers|BERT]]
+# (4/9) [[BERT|BERT]]
 - BERT is essentially just an interesting use of the Transformer encoder.
 - In BERT, every sequence begins with a \[CLS\] token and end with a \[SEP\] token.
 ![[Pasted image 20240425142504.png]]

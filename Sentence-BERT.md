@@ -5,7 +5,7 @@ aliases:
 August 27, 2019
 Paper: [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084)
 
-Refer to: [[Bidirectional Encoder Representations from Transformers|BERT]]
+Refer to: [[BERT|BERT]]
 
 Abstract:
 

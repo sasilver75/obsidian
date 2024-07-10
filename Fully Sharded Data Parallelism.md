@@ -4,15 +4,17 @@ aliases:
 ---
 References:
 - Blog: [Clika.ai/Bar Rozenman's Fully Sharded Data Parallelism (FSDP)](https://blog.clika.io/fsdp-1/)
+- Blog: [Meta AI: Fully Sharded Data Parallel: Faster AI training with fewer GPUs](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
 
 Cf: [[Model Parallelism]], [[Data Parallelism]]
 Supported by PyTorch and 
 
-A distributed training technique for large neural networks. An extension of [[Data Parallelism]] that aims to overcome memory limitations and improve training efficiency.
+A distributed training technique for large neural networks. An extension of [[Data Parallelism]] that aims to overcome memory limitations and improve training efficiency. It allows us to train orders of magnitude larger models using fewer GPUs. It's relatively free of trade-offs (compared to alternatives),  optimizing memory efficiency by sharding model parameters, gradients, and optimizer states across GPUs, and improving computational efficiency by decomposing the communication and overlapping it with both the forward and backward passes. Produces identical results as standard distributed [[Data Parallelism|Data Parallel]] (DDP) training, and is available in an easy-to-use interface that's a drop-in replacement for PyTorch's DistributedDataParallel module.
 
 Problem: [[Data Parallelism]] distributes different batches of data across multiple GPUs, with each GPU running a full copy of the model. Forward passes and gradient are computed on each machine, then the gradients are synchronized (gathered, averaged, communicated) each epoch. Becomes problematic for large models that exceed single-GPU memory capacity. Similarly, in [[Model Parallelism]], when the first GPU in the sequence (say, in Layer-wise Model Parallelism) completes its forward pass on its batch and intends to run the forward pass on the next batch, it first has to update its gradients. This means it has to wait for the downstream GPUs to complete the forward pass and propagate their respective gradients backwards before its weights can be updated, resulting in significant idle time -- we've split out model amongst our GPUs, but our GPUs are often just sitting around waiting! [[Fully Sharded Data Parallelism|FSDP]] intends to offer a solution to this problem, allowing us to make full use of all the GPUs on large models without significant idle GPU time.
 
 Idea: FSDP shards (splits) not *just* the data, but also the model parameters, gradients, and optimizer states across multiple GPUs. This allows for training of models that are much larger than what can fit on a single GPU.
+Although the parameters are sharded to different GPUs, the computation for each microbatch of data is still local to each GPU worker. 
 
 Sharding:
 - Model parameters are split across GPUs, with each GPU storing only a ==portion of each layer== (parameters, gradients, optimizer states).
@@ -20,7 +22,7 @@ Sharding:
 - During the forward pass, required parameters are gathered from other GPUs.
 - After the backward pass, gradients are reduced across GPUs.
 - Optimizer steps are performed locally on each GPU for *its portion of the parameters*.
-- A'll GPUs run all the units one by one (in parallel) during forward and backward steps by gathering necessary shards of model parameters and other entities from other GPUs.
+- All GPUs run all the units one by one (in parallel) during forward and backward steps by gathering necessary shards of model parameters and other entities from other GPUs.
 
 This increases the communication required between devices, due to the need to gather parameters and reduce gradients, but uses efficient communication algorithms to minimize this overhead (all-gather and reduce-scatter operations for parameter and gradient communication).
 
@@ -77,3 +79,10 @@ Repeat for all the other units: Repeat the previous steps, broadcast, and execut
 Apply optimizer step: Run the optimizer step, update all MP and optimizer states. This constitutes a complete training step for the entire model on a single batch, achieving our goal of updating the model parameters while operating GPUs in parallel.
 ![[Pasted image 20240709230548.png]]
 Next batch: This brings us back to the initial state but with updated MP, GRD, and OS. Now we repeat all the steps for the forward and backward propagation, as well as the optimization step, using the next batch as input until the training is complete.
+
+----
+
+![[Pasted image 20240710000652.png]]
+> A comparison of standard data parallel training and fully sharded data parallel training. In standard data parallel training methods, a copy of the model is present on each GPU and a sequence of forward and backward passes are evaluated on only a shard of the data. After these local computations, the parameters and optimizers for each local process are shared with the other GPUs in order to calculate the global weight update. In FSDP, only a shard of the model is present on a GPU. Then, locally, all weights are gathered from the other GPUs — by means of an all-gather step — to calculate the forward pass. This gathering of weights is then performed again before the backward pass. After that backward pass, the local gradients are averaged and sharded across the GPUs by means of a reduce-scatter step, which allows each GPU to update its local weight shard.
+
+![[Pasted image 20240710000726.png]]

@@ -1,4 +1,10 @@
-October 29, 2019 (12 months after [[Bidirectional Encoder Representations from Transformers|BERT]])
+---
+aliases:
+  - Bidirectional and Auto-Regressive Transformers
+---
+
+
+October 29, 2019 (12 months after [[BERT|BERT]])
 [[Meta AI Research]]
 Paper: [BART: Denoising Sequence-to-Sequence Pre-training for Natural Langauge Generation, Translation, and Comprehension]()
 

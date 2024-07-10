@@ -45,7 +45,7 @@ Jeremy Howard and Sebastian Ruber
 	- Finetune a classifier on the task-specific data with *gradual unfreezing of layers to avoid catastrophic forgetting*.
 		- This is typically not done in practice when working with *Transformer* architectures, where all layers are typically finetuned at once.
 
-### (6/19) *[[Bidirectional Encoder Representations from Transformers|BERT]]: Pre-training of Bidirectional Transformers for Language Understanding (2018)*
+### (6/19) *[[BERT|BERT]]: Pre-training of Bidirectional Transformers for Language Understanding (2018)*
 Devlin, Change, Lee, Toutanova
 [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
 - After the original Transformer paper, LLM research bifurcated in two directions:

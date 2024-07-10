@@ -36,7 +36,7 @@ How do we fix this? With [[Parameter-Efficient Fine-Tuning]] (PEFT)!
 ![[Pasted image 20240225192900.png]]
 - Above:
 	- See that T5 is an example of the encoder-decoder architecture, which is great for Seq2Seq tasks like translation
-	- See that Encoder-only models are heavily used for information retrieval application (eg in vector search / [[Dense Retrieval]]), with examples in the [[Bidirectional Encoder Representations from Transformers|BERT]] family of models. Models like [[Sentence-BERT|sBERT]] even have semantic meaning to their embeddings.
+	- See that Encoder-only models are heavily used for information retrieval application (eg in vector search / [[Dense Retrieval]]), with examples in the [[BERT|BERT]] family of models. Models like [[Sentence-BERT|sBERT]] even have semantic meaning to their embeddings.
 	- See that the Decoder-only models are used by [[GPT]]-style models, and are great for efficient training/inference via next-token-prediction!
 
 Although GPT-style generative LLMs (i.e. large decoder-only transformers) are very popular today, many types of useful language models exist!

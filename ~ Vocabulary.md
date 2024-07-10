@@ -336,6 +336,7 @@
 - [[Data Parallelism]]
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
+- [[Pipeline Parallelism]]
 - [[Fully Sharded Data Parallelism]] (FSDP)
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
@@ -649,24 +650,23 @@
 - [[Falcon 2]]
 - [[AlexNet]]
 - [[GoogleNet]]
-- [[CLIP]] 
+- [[CLIP]] (Contrastive Language-Image Pretraining)
 - [[OpenCLIP]]
-- [[BLIP]]
-- [[BLIP-2]]
-- [[SigLIP]]
-- [[OWL]] (Multimodal)
-- [[OWLSAM]]
-- [[KOSMOS]]
+- [[BLIP]] (Bootstrapping Language-Image Pretraining)
+- [[BLIP-2]] (Bootstrapping Language-Image Pretraining v2)
+- [[SigLIP]] (Sigmoid Loss for Language-Image Pretraining)
+- [[OWL-ViT]] (Vision Transformer for Open-World Localization)
+- [[OWLv2]] (Vision Transformer for Open-World Localization v2)
 - [[KOSMOS 2]]
 - [[KOSMOS 2.5]]
-- [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
+- [[BERT]] (Bidirectional Encoder Representations from Transformers)
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[DistilBERT]]
-- [[RoBERTa]]
-- [[ELECTRA]]
-- [[BART]]
+- [[RoBERTa]] (Robustly Optimized BERT Approach)
+- [[ELECTRA]] (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
+- [[BART]] (Bidirectional and Auto-Regressive Transformers)
 - [[DistilBART]]
-- [[DeBERTa]]
+- [[DeBERTa]] (Decoding-enhanced BERT with Disentangled Attention)
 - [[GPT-2]]
 - [[GPT-3]]
 - [[InstructGPT]]
@@ -680,14 +680,14 @@
 	- [[Skip-Gram]]
 	- [[Continuous Bag of Words]] (CBOW)
 - [[GloVe]]
-- [[VGGNet]]
+- [[VGGNet]] (Visual Geometry Group Network)
 - [[Residual Network]] (ResNet)
 - [[DenseNet]]
 - [[MobileNet]]
 - [[MobileNet-V2]]
 - [[ConvNeXt]]
 - [[Segment Anything Model]]
-- [[T5]]
+- [[T5]] (Text-to-Text Transfer Transformer)
 - [[Transformer-XL]]
 - [[Compressive Transformer]]
 - [[Stable Diffusion]]
@@ -704,20 +704,20 @@
 - [[Phi-2]]
 - [[Phi-3]]
 - [[Flamingo]]
-- [[YOLO]]
+- [[YOLO]] (You Only Look Once)
 - [[U-Net]]
 - [[Inception]]
-- [[Latent Dirichlet Allocation]]
+- [[Latent Dirichlet Allocation]] (LDA)
 - [[Gato]]
 - [[Whisper]]
-- [[PaLM]]
-- [[FLAN]]
+- [[PaLM]] (Pathways Language Model)
+- [[FLAN]] (Fine-tuned Language Net)
 - [[FLAN-T5]]
 - [[DALL-E]]
 - [[DALL-E 2]]
 - [[DALL-E 3]]
-- [[DINO]]
-- [[DINOv2]]
+- [[DINO]] (Distillation with No Labels)
+- [[DINOv2]] (Distillation with No Labels v2)
 - [[Claude]]
 - [[Gemeni]]
 - [[Gemma]]
@@ -727,7 +727,7 @@
 - [[Vicuna]]
 - [[Koala]]
 - [[Dolly]]
-- [[RWKV]]
+- [[RWKV]] (Receptance Weighted Key Value)
 - [[Codex]]
 - [[Minerva]]
 - [[WebGPT]]
@@ -738,18 +738,18 @@
 - [[Gopher]]
 - [[AlphaCode]]
 - [[AlphaGeometry]]
-- [[MPT]] (Mosaic Pretrained Transformers)
+- [[MPT]] (Mosaic Pretrained Transformer)
 - [[OLMo]] (Open Language Model)
 - [[Zephyr]]
 - [[Orca]]
 - [[Orca 2]]
-- [[LIMA]]
-- [[DBRX]]
-- [[SimCLR]]
+- [[LIMA]] (Less is More for Alignment)
+- [[DBRX]] (DBRex)
+- [[SimCLR]] (Simple Framework for Contrastive Learning for Visual Representations)
 - [[SimCLR v2]]
-- [[SimVLM]]
-- [[BYOL]]
-- [[ULMFiT]]
+- [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
+- [[BYOL]] (Bootstrap Your Own Latent)
+- [[ULMFiT]] (Universal Language Model Finetuning)
 - [[StarCoder]]
 - [[StarCoder 2]]
 - [[WizardLM]]
@@ -778,28 +778,26 @@
 - [[DeepSeek-Math]]
 - [[Ada-Instruct]]
 - [[Yi]]
-- [[ALIGN]]
-- [[GLIDE]]
+- [[ALIGN]] (A Large-Scale Image and Noisy-Text Embedding)
+- [[GLIDE]] (Guided Language to Image Diffusion for Generation and Editing)
 - [[ImageBind]]
 - [[Imagen]]
 - [[Contrastive Captioner]] (CoCa)
 - [[OpenChat]]
 - [[LaMini-LM]]
 - [[Longform]]
-- [[Humpback]]
 - [[OpenELM]]
 - [[Medusa]]
 - [[CogVLM]]
-- [[LLaVA]]
+- [[LLaVA]] (Large Language and Vision Assistant)
 - [[MemGPT]]
-- [[FActScore]]
 - [[Alpagasus]]
 - [[Nemotron-4]]
 - [[Shepherd]]
 - [[Prometheus]]
 - [[Prometheus 2]]
 - [[HiPPO]] (High-order Polynomial Projection Operators)
-- [[S4]]
+- [[S4]] (Structured State Space Sequence Model)
 - [[Mamba]]
 - [[Chameleon]]
 
@@ -858,8 +856,8 @@
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
 - [[ImageNet]] (ILSVRC)
-- [[GAIA]] (General AI Assistants benchmark)
-- [[Massive Multi-Task Language Understanding]] (MMLU)
+- [[GAIA]] (General AI Assistants)
+- [[MMLU]] (Massive Multitask Language Understanding)
 - [[MMLU-Pro]]
 - [[MMLU-Redux]]
 - [[HumanEval]]
@@ -868,7 +866,7 @@
 - [[BIG-Bench Lite]] (BBL)
 - [[BigCodeBench]]
 - [[SWE-bench]]
-- [[DAWNBench]]
+- [[DAWNBench]] ('Data Analytics for What's Next' Benchmark)
 - [[HELM]] (Holistic Evaluation of Language Models)
 - [[GLUE]] (General Language Understanding Evaluation)
 - [[SuperGLUE]]
@@ -898,16 +896,16 @@
 - [[RewardBench]]
 - [[MTEB]] (Massive Text Embedding Benchmark)
 - [[Massive Multi-Discipline Multimodal Understanding]] (MMMU)
-- [[MMBench]]
+- [[MMBench]] (Multimodal Benchmark)
 - [[Open VLM Leaderboard]]
 - [[LAMBADA]] (Language Modeling Broadened to Account for Discourse Aspects)
 - [[RACE]] (Large-Scale Reading Comprehension Dataset from Examination)
 - [[Berkeley Function-Calling Leaderboard]]
 - [[IFEval]] (Instruction Following Evaluation)
 - [[Parametric Evaluations]]
-- [[Vibe-Eval]]
 - [[MuSR]] (Multistep Soft Reasoning)
 - [[MATH]] (Mathematics Aptitude Test of Heuristics)
+- [[FActScore]] (FActual Precision in Atomicity Score)
 
 # Datasets
 *Datasets for training/finetuning models*

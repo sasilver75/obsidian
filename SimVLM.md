@@ -1,3 +1,9 @@
+---
+aliases:
+  - Simple Visual Language Model Pretraining with Weak Supervision
+---
+
+
 August 24, 2021 (18 months after [[SimCLR]], if they're related)
 Paper: [SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/abs/2108.10904)
 

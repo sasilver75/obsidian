@@ -4,7 +4,7 @@ Link: https://www.interconnects.ai/p/chatbotarena-the-future-of-llm-evaluation
 ----
 
 Broadly, LM evaluation these days is reduced to three things:
-1. The best academic benchmarks: The [[Massive Multi-Task Language Understanding|MMLU]] benchmark, which is used to test general LM *knowledge*, along with some other static/open benchmarks. Developed by everyone, used by everyone, can benefit everyone.
+1. The best academic benchmarks: The [[MMLU|MMLU]] benchmark, which is used to test general LM *knowledge*, along with some other static/open benchmarks. Developed by everyone, used by everyone, can benefit everyone.
 2. A few new-styled benchmarks: The only one to break through here is the [[ChatBotArena]] from LMSYS where state-of-the-art chat models are pitted head to head to see which model is the best. Serves a broader stakeholder audience  by being publicly available.
 3. Benchmarks we *don't see*: eg Private A/B testing of different LM endpoints within user applications. The gold standard for evaluation, but you need an existing product pipeline to serve through.
 

@@ -1,8 +1,8 @@
 ---
 aliases:
   - FLAN 2021
+  - Fine-tuned Language Net
 ---
-
 September 3, 2021
 Paper: [Finetuned Language Models are Zero-Shot Learners](https://arxiv.org/abs/2109.01652) (FLAN = "Finetuned Language Network")
 

@@ -167,7 +167,7 @@ In this case, the output is just a SINGLE VECTOR that represents the input seque
 We can then slap a task-specific linear layer/regression/classification head to map to some output
 
 ![[Pasted image 20240411172611.png]]
-Above: This sort of process was popularized by [[Bidirectional Encoder Representations from Transformers|BERT]] in 2018
+Above: This sort of process was popularized by [[BERT|BERT]] in 2018
 
 ## [[Decoder-Only Architecture]]
 

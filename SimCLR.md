@@ -1,3 +1,9 @@
+---
+aliases:
+  - Simple Framework for Contrastive Learning for Visual Representations
+---
+
+
 Feb 13, 2020 -- Authors include [[Geoff Hinton]]
 Paper: [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
 

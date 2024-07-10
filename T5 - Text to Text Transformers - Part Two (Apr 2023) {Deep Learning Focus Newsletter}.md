@@ -5,7 +5,7 @@ Link: https://cameronrwolfe.substack.com/p/t5-text-to-text-transformers-part-354
 
 ![[Pasted image 20240305001135.png]]
 
-The proposal of [[Bidirectional Encoder Representations from Transformers|BERT]] led to the popularization of transfer learning approaches for natural language processing (NLP).
+The proposal of [[BERT|BERT]] led to the popularization of transfer learning approaches for natural language processing (NLP).
 
 Due to the widespread availability of unlabeled text on the internet, we could easily:
 1. Pre-train large transformer models over large amounts of raw text

@@ -8,7 +8,7 @@ Link: https://cameronrwolfe.substack.com/p/language-understanding-with-bert
 ![[Pasted image 20240304173621.png|600]]
 
 # What is BERT?
-- [[Bidirectional Encoder Representations from Transformers]] (BERT) is a popular deep learning model used for *numerous different language understanding tasks!*
+- [[BERT]] (BERT) is a popular deep learning model used for *numerous different language understanding tasks!*
 - BERT shares the same architecture as a transformer encoder, as is extensively pre-trained on raw, unlabeled textual data using a *self-supervised learning objective*, before then being *fine-tuned* to solve downstream tasks (eg question answering, sentence classification, named entity recognition, etc.)
 	- BERT obtained a new SoTA on 11 different language understanding tasks, prompting a nearly-instant rise to fame that's lasted ever since!
 

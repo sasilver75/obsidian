@@ -1,5 +1,5 @@
 Examples;
-- [[Bidirectional Encoder Representations from Transformers|BERT]]
+- [[BERT|BERT]]
 - [[RoBERTa]]
 - [[DeBERTa]]
 - [[ELECTRA]]

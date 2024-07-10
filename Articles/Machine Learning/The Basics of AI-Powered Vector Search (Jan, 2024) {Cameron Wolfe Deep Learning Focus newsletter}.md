@@ -80,7 +80,7 @@ Practical Implementation
 How can we create a smarter search algorithm?
 - The short answer is to use deep learning to improve both the retrieval and ranking process!
 - There are two types of models in particular that we can use for this purpose:
-	- [[Bi-Encoder]]s and [[Cross-Encoder]]s, which are both typically implemented using [[Encoder-Only Architecture]] [[Bidirectional Encoder Representations from Transformers|BERT]] models!
+	- [[Bi-Encoder]]s and [[Cross-Encoder]]s, which are both typically implemented using [[Encoder-Only Architecture]] [[BERT|BERT]] models!
 
 ==Bi-Encoders==
 - Form the basis of ==*dense retrieval*== algorithms.
@@ -122,7 +122,7 @@ We can then *combine* the results of these two retrieval algorithms by taking a 
 From the retrieval process, we receive a collection of query-related candidate documents. We choose to then more finely *rank* these documents using a cross-encoder that more accurately ranks the search results based on textual relevance to the query.
 
 # Using BERT for Search
-- ==Most of the commonly-used bi-encoder *and* cross-encoders are based on [[Bidirectional Encoder Representations from Transformers|BERT]]==
+- ==Most of the commonly-used bi-encoder *and* cross-encoders are based on [[BERT|BERT]]==
 - As such, understanding the encoder-only architecture and self-supervised training strategy of BERT is important!
 
 #### Encoder-Only Architecture
@@ -367,7 +367,7 @@ SentenceTransformers: Semantic Search in Practice!
 - Search algorithms proceed in two primary phases - ==retrieval== and ==ranking==
 - ==Lexical retrieval== with [[BM25]] uses keyword-matching to produce high-quality search results, and can be efficiently implemented with an inverted index.
 - Going beyond BM25, we can improve retrieval and ranking quality with ==dense-retrieval== [[Bi-Encoder]] and [[Cross-Encoder]] models, respectively.
-- Both bi-encoder and cross-encoders use a [[Bidirectional Encoder Representations from Transformers|BERT]]-style architecture.
+- Both bi-encoder and cross-encoders use a [[BERT|BERT]]-style architecture.
 - ==Cross-encoders are more computationally expensive than Bi-encoder for retrieval, so should only be used for the final ranking.==
 	- ((Note: It seems that "ranking" and "reranking" in this context are the same thing. It's only ever called "reranking" because some people refer to our "retrieval" step as "ranking" -- annoying!))
 - ==To use BERT as a bi-encoder, we must finetune the model== (as is done by [[Sentence-BERT|sBERT]]) to yield more semantically meaningful embeddings!

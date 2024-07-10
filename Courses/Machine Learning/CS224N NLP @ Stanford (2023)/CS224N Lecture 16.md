@@ -52,7 +52,7 @@ Early/Mid fusion (Rather than late-fusion) is really what you should be understa
 ## Multimodal Foundation Model section
 
 ![[Pasted image 20240417134753.png]]
-[[Bidirectional Encoder Representations from Transformers|BERT]]: How do we make this multimodal?
+[[BERT|BERT]]: How do we make this multimodal?
 - Student suggestion: You could take the ConvNet features and classifier feature from BERT, concatenate them, and then classify a Cat (or whatever)
 
 ![[Pasted image 20240417134959.png]]

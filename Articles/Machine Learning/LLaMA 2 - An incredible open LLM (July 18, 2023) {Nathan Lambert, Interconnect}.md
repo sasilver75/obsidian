@@ -125,7 +125,7 @@ The RLHF baselines the authors use are [[Proximal Policy Optimization|PPO]] and 
 
 # Evaluation (capabilities)
 - LLaMA 2 is way better than any other open source model at all scales on the HuggingFace Open LLM leaderboard.
-- The model scores better on automatic and less flashy benchmarks like [[Massive Multi-Task Language Understanding|MMLU]].
+- The model scores better on automatic and less flashy benchmarks like [[MMLU|MMLU]].
 - The base model capability is what others rely on; substantial data efforts are likely the biggest factor in these "basic" evaluations; then, RLHF makes the model easier to use and makes that knowledge available.
 
 In terms of performance, these models go beyond ChatGPT after RLHF3

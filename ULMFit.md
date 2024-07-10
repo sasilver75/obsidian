@@ -10,7 +10,7 @@ A transfer learning approach with three main stages:
 2. Target Task Language Model Fine-Tuning: We adapt the pre-trained model to domain-specific language of the target task, still using the language modeling objective of next-token prediction
 3. Classifier Fine-Tuning: The model is finetuned for some specific NLP-task in-domain, such as sentiment analysis or question answering. We replace the head of the model with some task-specific layers and use techniques like [[Gradual Unfreezing]] to train these layers.
 
-This set a [[Transfer Learning]] precedent for later models like [[Bidirectional Encoder Representations from Transformers|BERT]] and [[GPT]], which follow a similar approach of pre-training of a large corpus and then finetuning for specific tasks.
+This set a [[Transfer Learning]] precedent for later models like [[BERT|BERT]] and [[GPT]], which follow a similar approach of pre-training of a large corpus and then finetuning for specific tasks.
 
 Abstract
 > Inductive transfer learning has greatly impacted computer vision, but existing approaches in NLP still require task-specific modifications and training from scratch. We propose Universal Language Model Fine-tuning (ULMFiT), an ==effective transfer learning method that can be applied to any task in NLP==, and introduce techniques that are key for fine-tuning a language model. Our method significantly outperforms the state-of-the-art on six text classification tasks, reducing the error by 18-24% on the majority of datasets. Furthermore, with only 100 labeled examples, it matches the performance of training from scratch on 100x more data. We open-source our pretrained models and code.

@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Fully Sharded Data Parallelism",
-      "path": "Fully Sharded Data Parallelism.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Model Parallelism",
-      "path": "Model Parallelism.md"
-    },
-    {
-      "basename": "Tensor Parallelism",
-      "path": "Tensor Parallelism.md"
-    },
-    {
-      "basename": "Natural Language Inference",
-      "path": "Natural Language Inference.md"
-    },
-    {
-      "basename": "Chameleon",
-      "path": "Chameleon.md"
     },
     {
       "basename": "HiPPO",
       "path": "HiPPO.md"
     },
     {
-      "basename": "InfoNCE",
-      "path": "InfoNCE.md"
+      "basename": "S4",
+      "path": "S4.md"
     },
     {
-      "basename": "MIPRO",
-      "path": "MIPRO.md"
+      "basename": "MMLU",
+      "path": "MMLU.md"
     },
     {
-      "basename": "LongRoPE",
-      "path": "LongRoPE.md"
+      "basename": "MMBench",
+      "path": "MMBench.md"
     },
     {
-      "basename": "Data Parallelism",
-      "path": "Data Parallelism.md"
+      "basename": "FActScore",
+      "path": "FActScore.md"
     },
     {
-      "basename": "IFEval",
-      "path": "IFEval.md"
+      "basename": "LLaVA",
+      "path": "LLaVA.md"
     },
     {
-      "basename": "Skip-Gram",
-      "path": "Skip-Gram.md"
+      "basename": "CogVLM",
+      "path": "CogVLM.md"
     },
     {
-      "basename": "Word2Vec",
-      "path": "Word2Vec.md"
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
     },
     {
-      "basename": "Continuous Bag of Words",
-      "path": "Continuous Bag of Words.md"
+      "basename": "GLIDE",
+      "path": "GLIDE.md"
     },
     {
-      "basename": "CS224N Lecture 1",
-      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md"
+      "basename": "ALIGN",
+      "path": "ALIGN.md"
     },
     {
-      "basename": "Ancestral Sampling",
-      "path": "Ancestral Sampling.md"
+      "basename": "ULMFiT",
+      "path": "ULMFiT.md"
     },
     {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
+      "basename": "BYOL",
+      "path": "BYOL.md"
     },
     {
-      "basename": "Importance Sampling",
-      "path": "Importance Sampling.md"
+      "basename": "T5",
+      "path": "T5.md"
     },
     {
-      "basename": "Open LLM Leaderboard V2",
-      "path": "Open LLM Leaderboard V2.md"
+      "basename": "DeBERTa",
+      "path": "DeBERTa.md"
     },
     {
-      "basename": "Distillation",
-      "path": "Distillation.md"
+      "basename": "BART",
+      "path": "BART.md"
     },
     {
-      "basename": "Eleuther LM Evaluation Harness",
-      "path": "Eleuther LM Evaluation Harness.md"
+      "basename": "ELECTRA",
+      "path": "ELECTRA.md"
     },
     {
-      "basename": "Open LLM Leaderboard",
-      "path": "Open LLM Leaderboard.md"
+      "basename": "RoBERTa",
+      "path": "RoBERTa.md"
     },
     {
-      "basename": "GPQA",
-      "path": "GPQA.md"
+      "basename": "Encoder-Only Architecture",
+      "path": "Encoder-Only Architecture.md"
     },
     {
-      "basename": "BIG-Bench Hard",
-      "path": "BIG-Bench Hard.md"
+      "basename": "BERT",
+      "path": "BERT.md"
     },
     {
-      "basename": "MuSR",
-      "path": "MuSR.md"
+      "basename": "SigLIP",
+      "path": "SigLIP.md"
     },
     {
-      "basename": "MATH",
-      "path": "MATH.md"
+      "basename": "Chameleon",
+      "path": "Chameleon.md"
     },
     {
-      "basename": "LAMBADA",
-      "path": "LAMBADA.md"
+      "basename": "KOSMOS 2",
+      "path": "KOSMOS 2.md"
     },
     {
-      "basename": "RACE",
-      "path": "RACE.md"
+      "basename": "OWL-ViT",
+      "path": "OWL-ViT.md"
     },
     {
-      "basename": "BIG-Bench Lite",
-      "path": "BIG-Bench Lite.md"
+      "basename": "BLIP",
+      "path": "BLIP.md"
     },
     {
-      "basename": "Probability for CS (6) Random Variables and Expectation)",
-      "path": "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation).md"
+      "basename": "OpenCLIP",
+      "path": "OpenCLIP.md"
     },
     {
-      "basename": "De Morgan's Law of Union",
-      "path": "De Morgan's Law of Union.md"
+      "basename": "DINOv2",
+      "path": "DINOv2.md"
     },
     {
-      "basename": "Structured Pruning",
-      "path": "Structured Pruning.md"
+      "basename": "KOSMOS 2.5",
+      "path": "KOSMOS 2.5.md"
     },
     {
-      "basename": "Unstructured Pruning",
-      "path": "Unstructured Pruning.md"
+      "basename": "OWLv2",
+      "path": "OWLv2.md"
     },
     {
-      "basename": "Data-Centric AI (2) - Label Errors",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (2) - Label Errors.md"
+      "basename": "CLIP",
+      "path": "CLIP.md"
     },
     {
-      "basename": "Confident Learning",
-      "path": "Confident Learning.md"
+      "basename": "VGGNet",
+      "path": "VGGNet.md"
     },
     {
-      "basename": "Labeled Evaluations",
-      "path": "Labeled Evaluations.md"
+      "basename": "YOLO",
+      "path": "YOLO.md"
     },
     {
-      "basename": "Encoder-Decoder Architecture",
-      "path": "Encoder-Decoder Architecture.md"
+      "basename": "PaLM",
+      "path": "PaLM.md"
     },
     {
-      "basename": "Decoder-Only Architecture",
-      "path": "Decoder-Only Architecture.md"
+      "basename": "FLAN",
+      "path": "FLAN.md"
     },
     {
-      "basename": "Feature Clamping",
-      "path": "Feature Clamping.md"
+      "basename": "DINO",
+      "path": "DINO.md"
     },
     {
-      "basename": "Feature Steering",
-      "path": "Feature Steering.md"
+      "basename": "MPT",
+      "path": "MPT.md"
     },
     {
-      "basename": "Steering Vector",
-      "path": "Steering Vector.md"
+      "basename": "DBRX",
+      "path": "DBRX.md"
     },
     {
-      "basename": "CRINGE Loss",
-      "path": "CRINGE Loss.md"
+      "basename": "SimVLM",
+      "path": "SimVLM.md"
     },
     {
-      "basename": "Normalized Discounted Cumulative Gain",
-      "path": "Normalized Discounted Cumulative Gain.md"
+      "basename": "SimCLR",
+      "path": "SimCLR.md"
     },
     {
-      "basename": "Approximate Nearest Neighbor Contrastive Learning",
-      "path": "Approximate Nearest Neighbor Contrastive Learning.md"
+      "basename": "LIMA",
+      "path": "LIMA.md"
     },
     {
-      "basename": "Sentiment Analysis",
-      "path": "Sentiment Analysis.md"
+      "basename": "RWKV",
+      "path": "RWKV.md"
     },
     {
-      "basename": "Argument Mining",
-      "path": "Argument Mining.md"
+      "basename": "Bootstrap",
+      "path": "Bootstrap.md"
     },
     {
-      "basename": "Language Grounding",
-      "path": "Language Grounding.md"
+      "basename": "Dense Passage Retrieval",
+      "path": "Dense Passage Retrieval.md"
     },
     {
-      "basename": "Closed-Domain",
-      "path": "Closed-Domain.md"
+      "basename": "Alpagasus",
+      "path": "Alpagasus.md"
     },
     {
-      "basename": "Multi-Hop",
-      "path": "Multi-Hop.md"
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "Rectified Linear Unit",
+      "path": "Rectified Linear Unit.md"
+    },
+    {
+      "basename": "Dolly",
+      "path": "Dolly.md"
+    },
+    {
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
+    },
+    {
+      "basename": "Instruction-Tuning",
+      "path": "Instruction-Tuning.md"
     }
   ],
   "omittedPaths": [],

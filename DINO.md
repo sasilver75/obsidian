@@ -1,3 +1,9 @@
+---
+aliases:
+  - Distillation with No Labels
+---
+
+
 April 29, 2021
 Paper: [Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294) ("Self-DIstillation with NO Labels")
 

@@ -34,7 +34,7 @@ The resulting systems have been called ==Autoregressive Search Engines== and ==M
 	- Knowledge distillation (often from Cross-Encoders)
 	- Pre-training on pseudo-query and document pairs
 	- Fine-tuning with large-scale pre-trained language models
-- The most common dense retrieval methods use [[Bi-Encoder]] which are often based on a pretrained LM such as [[Bidirectional Encoder Representations from Transformers|BERT]]. 
+- The most common dense retrieval methods use [[Bi-Encoder]] which are often based on a pretrained LM such as [[BERT|BERT]]. 
 	- These bi-encoders separately encode documents into low-dimensional dense representations.
 
 ### Ranking

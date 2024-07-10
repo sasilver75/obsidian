@@ -21,3 +21,6 @@ aliases:
 - ==Imitation != Mastery==: Models that are instruction-tuned on ChatGPT-generated data mimic ChatGPT's style (and thus might fool human raters), but *not* its factuality (The False Promise of Imitating Proprietary LLMs, 2023), performing worse on standard benchmarks. Using stronger base models is the best way to address this.
 - ==The stronger the base, the better==: More powerful base models also produce stronger instruction-tuned models ([[Tulu]] using a 65B model)
 - ==The combination wins!==: Combining multiple instruction-tuning datasets results in the best average performance across tasks ([[Tulu]]). Dataset mixing and developing modular instruction-tuned models are thus important research directions.
+
+
+July 10, 2024: I'm seeing a lot of people saying that there's no reason to not use instruction data during pretraining. I think Nemotron or Gemma2 might have done this, too? Unsure.

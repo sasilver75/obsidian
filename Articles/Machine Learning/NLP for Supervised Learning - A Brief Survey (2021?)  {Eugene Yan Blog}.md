@@ -25,7 +25,7 @@ He's writing the summary in broad strokes, seeing how NLP has progressed from 19
 	- [[ULMFiT]]
 	- [[GPT]]
 6. Combining the above
-	- [[Bidirectional Encoder Representations from Transformers|BERT]]
+	- [[BERT|BERT]]
 7. Improving BERT
 	- [[DistilBERT]]
 	- ALBERT
@@ -145,7 +145,7 @@ Above: Al of these "dates" have the same embedding vector!
 
 
 # (6) BERT: No recurrence, bidirectional, pre-trained (2018)
-- Towards the end of 2018, [[Bidirectional Encoder Representations from Transformers]] was introduced. It obtained SOTA results on *eleven* NLP tasks, impressing the field! This was possible by using elements from previous models:
+- Towards the end of 2018, [[BERT]] was introduced. It obtained SOTA results on *eleven* NLP tasks, impressing the field! This was possible by using elements from previous models:
 	1. Transformer (BERT uses the Transformer encoder stack)
 	2. ELMo (BERT has bidirectional context)
 	3. ULMFiT and GPT (Also adopts pre-training and fine-tuning)

@@ -92,7 +92,7 @@ A brief history of contextual representation
 2. August 2017: McCann et al (2017) (CoVe): Pretrained bi-LSTMs for MT, and showed that this was a useful start-state for downstream tasks.
 3. February 2018: Peters et al (2018): [[ELMo]] first showed how very large scale pretraining of bidirectional LSTMs can lead to rich multipurpose representations.
 4. June 2018: [[GPT]]
-5. October 2018: [[Bidirectional Encoder Representations from Transformers|BERT]]
+5. October 2018: [[BERT|BERT]]
 
 As a field, we have been moving from smaller, more-structured/biased models, to larger, less-structured/biased models that impose essentially nothing on the world.
 

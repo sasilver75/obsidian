@@ -1,1 +1,0 @@
-The model trained in the [[Instruction Backtranslation]] paper

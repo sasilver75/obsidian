@@ -8,7 +8,7 @@ Topic: Information Retrieval
 # Part 1: Information Retrieval
 
 NLP is revolutionizing [[Information Retrieval]]
-- Soon after [[Bidirectional Encoder Representations from Transformers|BERT]] was launched, Google announced that it was incorporated aspects of BERT into its search technology; Microsoft soon followed, re: Bing.
+- Soon after [[BERT|BERT]] was launched, Google announced that it was incorporated aspects of BERT into its search technology; Microsoft soon followed, re: Bing.
 - Later, we saw that LLMs might play a role in search as well.
 	- The startup You.com (and now, Perplexity) were both visionaries in this sense.
 	- Microsoft has partnered with OpenAI and now uses OpenAI models as part of the Bing search experience.
@@ -263,7 +263,7 @@ See tha bM25 is
 
 # Part 4: Neural Information Retrieval
 
-IThe name of the game is to take a pre-trained [[Bidirectional Encoder Representations from Transformers|BERT]] models and finetune it for information-retrieval purposes.
+IThe name of the game is to take a pre-trained [[BERT|BERT]] models and finetune it for information-retrieval purposes.
 -  In that context, [[Cross-Encoder]]s are the simplest approach you could take
 
 ![[Pasted image 20240429180317.png]]

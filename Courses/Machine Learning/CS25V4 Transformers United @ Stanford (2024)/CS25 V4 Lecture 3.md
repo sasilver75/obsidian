@@ -24,7 +24,7 @@ In 2017: Attention is all you Need -- the [[Transformer]] arrives
 - It's a great mechanism to dig into what attention is actually doing, but not he focuso n this talk!
 
 2018: [[ELMo]] (Contextualized word embeddings)
-[[GPT-1]], [[Bidirectional Encoder Representations from Transformers|BERT]] get released -- getting these better models, training on large internet-scaled corpa
+[[GPT-1]], [[BERT|BERT]] get released -- getting these better models, training on large internet-scaled corpa
 
 2019: [[GPT-2]], we learn about scaling laws from Kaplan et al in 2020
 - Pioneered discussions on how to *release* language models, because of risks of language models.

@@ -10,7 +10,7 @@ Honestly this was very hard to grok
 # Transformer Basics
 - The Transformer (vanilla transformer) model has an [[Encoder-Decoder Architecture]]. as commonly used in many neural [[Machine Translation|MT]] models.
 - Later, simplified transformers were shown to achieve great performance in language modeling tasks:
-	- The encoder-only [[Bidirectional Encoder Representations from Transformers|BERT]]
+	- The encoder-only [[BERT|BERT]]
 	- The decoder-only [[GPT]]
 
 ## Attention and Self-Attention

@@ -3,7 +3,7 @@ References
 
 From 2012's *Japanese and Korean Voice Search (Schuster et al.)*
 
-WordPiece is a *subword tokenization algorithm* used in [[Bidirectional Encoder Representations from Transformers|BERT]], [[DistilBERT]], and [[ELECTRA]], among others.
+WordPiece is a *subword tokenization algorithm* used in [[BERT|BERT]], [[DistilBERT]], and [[ELECTRA]], among others.
 
 It's *very* similar to [[Byte-Pair Encoding|BPE]].
 

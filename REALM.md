@@ -6,7 +6,7 @@ February 10, 2020 (3 months before Meta's [[Retrieval-Augmented Generation (Mode
 [[DeepMind]] (Same org who would later go on to do [[RETRO]] in December 2021)
 Paper: [REALM: Retrieval-Augmented Language Model Pretraining](https://arxiv.org/abs/2002.08909)
 #zotero 
-Significance: The Bi-Encoder [[Bidirectional Encoder Representations from Transformers|BERT]]-*inspired* retriever learns to find documents that help a knowledge-augmented encoder predict these masked tokens in an [[Masked Language Model|MLM]] fashion ("The knowledge retriever and knowledge-augmented encoder are jointly-pretrained). Realm is an [[Encoder-Only Architecture]] -- it doesn't have a decoder component.
+Significance: The Bi-Encoder [[BERT|BERT]]-*inspired* retriever learns to find documents that help a knowledge-augmented encoder predict these masked tokens in an [[Masked Language Model|MLM]] fashion ("The knowledge retriever and knowledge-augmented encoder are jointly-pretrained). Realm is an [[Encoder-Only Architecture]] -- it doesn't have a decoder component.
 
 ---
 

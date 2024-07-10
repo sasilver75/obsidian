@@ -29,7 +29,7 @@ Let's cover recent efforts in four parts ==((I think this is a great way to disc
 
 # Supervised Fine-Tuning (SFT) Data
 - There are generally two purposes of SFT, corresponding to two types of data:
-	1. To improve the general language understanding abilities of LLMs, reflected in benchmarks like [[HellaSWAG]] and [[Massive Multi-Task Language Understanding|MMLU]]
+	1. To improve the general language understanding abilities of LLMs, reflected in benchmarks like [[HellaSWAG]] and [[MMLU|MMLU]]
 		- ==There are multi-task instruction-tuning datasets, which have been heavily explored between 2020-2022. These data combine thousands of NLP tasks together, so that one can train models on the combination in a multi-task way.==
 		- [[Natural Instructions]], [[Super-NaturalInstructions]], T0 (San), and [[FLAN]] (dataset)
 		- These datasets/models target traditional NLP tasks (QA, NLI) and then to have shorter/simpler/less-diverse instructions and responses. "Classify the sentiment of this sentence," not "Write me a personal webpage in a similar style to OpenAI's blog using Jekyll". 

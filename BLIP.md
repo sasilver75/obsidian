@@ -1,4 +1,5 @@
-Jan 28, 2022 -- Salesforce Research
+Jan 28, 2022
+[[Salesforce Research]]
 Paper: [BLIP:Bootstrapping Language-Image Pretraining for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)
 
 A vision-language model similar to [[CLIP]], though it bootstraps its own image captions.

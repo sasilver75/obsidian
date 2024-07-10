@@ -1,6 +1,6 @@
 ---
 aliases:
-  - BERT
+  - Bidirectional Encoder Representations from Transformers
 ---
 October 11, 2018 -- [[Google Research]]
 Paper: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
