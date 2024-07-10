@@ -11,26 +11,8 @@
             "id": "80d75d6abdb96dd7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52e5c01382c18b93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -943,8 +925,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -1019,7 +1000,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1036,7 +1016,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1058,9 +1037,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "~ Vocabulary.md"
-              }
+              "state": {}
             }
           },
           {
@@ -1092,7 +1069,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -1139,10 +1115,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "52e5c01382c18b93",
+  "active": "80d75d6abdb96dd7",
   "lastOpenFiles": [
-    "HiPPO.md",
     "~ Vocabulary.md",
+    "HiPPO.md",
     "S4.md",
     "MMLU.md",
     "MMBench.md",
