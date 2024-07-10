@@ -3,7 +3,8 @@ aliases:
   - VAE
 ---
 References:
-- Video: [Understanding Variational Autoencoders (VAEs)](https://youtu.be/HBYQvKlaE0A?si=PIMO3X3rEC-oqAa4)
+- Video: [DeepBean's Understanding Variational Autoencoders (VAEs)](https://youtu.be/HBYQvKlaE0A?si=PIMO3X3rEC-oqAa4)
+- Video: [Umar Jamil's Variational Autoencoder - Model, ELBO, loss function and maths explained easily!](https://www.youtube.com/watch?v=iwEzwTTalbg)
 
 Variants: VQ-VAE (Vector Quantized-Variational AutoEncoder, when you want the latent to be discrete)
 
@@ -163,3 +164,83 @@ A straightforward solution to encourage is to relatively weight the loss's recon
 Above: [[Beta-VAE]]
 
 ![[Pasted image 20240702204644.png]]
+
+----
+
+Explanation from Umar Jamil's video
+
+![[Pasted image 20240710150033.png]]
+The z learned for a cat might be very similar to the z learned for a pizza! There's no semantic relationship captured in the code.
+![[Pasted image 20240710150119.png]]
+The latent  space captures the semantic relationship of the data too! So all of the food pictures will have a similar representation, all of the animals too, etc. 
+- Importantly, we want to be able to *sample* from this latent space to generate new data!
+
+![[Pasted image 20240710151906.png]]
+Why do we call them *latents*, and *latent space?*
+- We model our data (random variable x, observable) as if it were conditioned on some other random variable z that we cannot observe (latent means hidden). 
+- We model this hidden variable as a multivariate gaussian parametrized by means and variances.
+
+First, a Math Pep Talk
+
+[[KL Divergence]] allows you to measure the difference between two probability distributions; It tells you how "far" two distributions p and q are from eachother. But it's not a true distance metric, because it's not symmetric.
+- But just like any distance metric, it's always >= 0, and \==0 only if the two distributions are the same.
+
+So we want to define our data as coming from some random distribution x, which is conditioned on some hidden data z.
+![[Pasted image 20240710152936.png]]
+We want to find p(x), but we don't have the ground-truth p(z|x), the probability of the latent given the real data. So we can't use this relationship either!
+
+We have a chicken and egg problem!
+![[Pasted image 20240710153038.png]]
+How do we come out of it? If we can't find something we want, we usually try to find out how to approximate it.
+![[Pasted image 20240710153141.png]]
+We want to find a *surrogate* for $p_\theta(z|x)$ ... and we'll assume that this surrogate is parametrized by its own parameters $\phi$.
+
+![[Pasted image 20240710153437.png]]
+We can do some maths:
+- Start with log likelihood of its data equal to itself
+- We can multiply by one (the integral over the domain of a probability distribution is always equal to one)
+- We can then bring the log(x) quantity inside the integral because it doesn't depend on the variable being integrated
+- Using the definition of expectation, we can rephrase...
+- Inside of the expectation, we can apply the equation given by the chain rule of probability
+- We can then multiply and divide by the same quantity of q(z|x)/q(z|x)
+- We can then split the expectation, because the log(ab) = log(a) + log(b), and then split the expectation
+- We see that the second term is the KL divergence, which is always >= 0
+
+What can we infer?
+![[Pasted image 20240710154941.png]]
+We call this the [[Evidence Lower Bound|ELBO]]
+What can we infer from this? As an example, the salary equation below. Without knowing anything about your bonus, you know that your total compensation is going to be *at least* your base salary! So your total compensation >= base salary. This is the same for our situation:
+![[Pasted image 20240710154929.png]]
+We can say this, without caring about what happens to our KL divergence property. So if we *maximize* this ELBO term, we also *maximize* the log probability of our data.
+
+If we want to maximize this [[Evidence Lower Bound|ELBO]], let's look closer into it:
+![[Pasted image 20240710155151.png]]
+
+![[Pasted image 20240710155647.png]]
+
+![[Pasted image 20240710155815.png]]
+There exists a very high-variance estimator for the ELBO. We can't use this high-variance estimator in practice... how do we run backpropagation on a quantity that's stochastic? How do we calculate the derivative of a sampling operation? Pytorch can't do that. So we need a new estimator!
+
+![[Pasted image 20240710155945.png]]
+==Reparametrization Trick==: We move the source of randomness outside the model!
+
+![[Pasted image 20240710160001.png]]
+We create a new variable $\epsilon$ that's our new stochastic node, and we combine the sampled information from it with the mu and sigmas of our multivariate gaussian we're tryin to learn... then run backpropagation through it.
+
+![[Pasted image 20240710160037.png]]
+![[Pasted image 20240710160212.png]]
+![[Pasted image 20240710160305.png]]
+- We found something called ELBO, which, if we maximize it, we'll learn the latent space.
+- We found an estimator of ELBO that allows backpropagation to be run.
+Above: Why are we learning $log(\sigma^2)$ instead of $\sigma^2$? If we learned sigma squared, we'd force our model to learn a positive quantity, because sigma squared cannot be negative. So we pretend to learn sigma squared by learning log sigma squared, and then later exponentiating it to recover the sigma squared.
+
+Imagine now we have a picture
+- We run it through the encoder; given our picture, it gives us the latent representation.
+- We sample from the noise source outside the model, and combine it with the parameters learned by the model.
+- We pass this latent to the decoder, to reconstruct an image.
+- Determine a reconstruction error comparing our input image and reconstructed image.
+
+![[Pasted image 20240710160443.png]]
+The loss function has two components:
+- Tells how far our learned distribution is from what we want our distribution to look like.
+- The quality of the reconstruction (boxed).

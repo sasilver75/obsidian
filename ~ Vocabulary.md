@@ -134,6 +134,7 @@
 - [[Hamming Distance]]
 - [[Manhattan Distance]]
 - [[Goodhardt's Law]]
+- [[Moravec's Paradox]]
 - [[Accuracy]]
 - [[Balanced Accuracy]]
 - [[Outlier Detection]]
@@ -207,7 +208,7 @@
 - [[Sparse Attention]]
 - [[Diffusion Model]]
 - [[Latent Diffusion Model]]
-- [[Latent Consistency Model]]
+- [[Latent Consistency Model]] (LCM)
 - [[Diffusion Transformer]] (DiT)
 - [[Parameter-Efficient Fine-Tuning]] (PEFT)
 - [[Adapter]]
@@ -307,7 +308,7 @@
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]] (NeRF)
 - [[Tree of Thought]] (ToT)
-- [[VLM]] 
+- [[VLM]] (Vision-Language Model)
 - [[Continuous Batching]]
 - [[Speculative Decoding]]
 - [[Constrained Decoding]]
@@ -320,7 +321,7 @@
 - [[Negative Pair]]
 - [[Mode Collapse]]
 - [[Active Learning]]
-- [[SEALS]]
+- [[SEALS]] (Similarity Search for Active Learning and Search)
 - [[Prior Amplification]]
 - [[Prefix Tuning]]
 - Compute-Optimal Training
@@ -528,7 +529,6 @@
 	- [[Scheduled Sampling]]
 	- [[Dataset Aggregation]]
 - [[Temperature]]
-- [[ReAct]]
 - [[DSPy]]
 - [[MIPRO]] (Multi-Prompt Instruction Proposal Optimizer)
 - [[N-Gram]]
@@ -536,6 +536,13 @@
 - [[Selective Language Modeling]] (SLM)
 - [[Noise-Contrastive Estimation]]
 - [[InfoNCE]] (Info Noise-Contrastive Estimation)
+
+# Agents
+- [[ReAct]] (Reason and Act)
+- [[RAISE]] (Reasoning and Acting through Scratchpad and Examples)
+- [[Reflexion]]
+- [[LATS]] (Language Agent Tree Search)
+- 
 
 # Computer Vision Concepts
 - [[Object Recognition]]
@@ -609,7 +616,7 @@
 - [[Inverse Reinforcement Learning]]
 - [[Q-Function]]
 - [[Q-Learning]], [[Deep Q-Learning]]
-- [[Deep Q-Networks]]
+- [[Deep Q-Networks]] (DQN)
 - [[Value Learning]] vs [[Policy Learning]]
 - [[Policy Gradient]]
 - [[Monte-Carlo Policy Gradient]]
@@ -848,7 +855,7 @@
 - [[spaCy]] 🪙🧨
 - [[HuggingFace Tokenizers]] 🪙🤗
 - [[EvalGen]] 🧪
--  [[Zeta Alpha]] 📝
+- [[Zeta Alpha]] 📝
 - [[Weights and Biases]] 📊
 - [[Replicate]] 🚂
 - [[bitsandbytes]] 🐜

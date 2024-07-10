@@ -3,8 +3,8 @@ aliases:
   - Retrieval-Enhanced Transformer
 ---
 December 8, 2021 (18 months after GPT-3)
-Paper: [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426)
 [[DeepMind]]
+Paper: [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426)
 #zotero 
 Takeaway: By retrieving over an unprecedented *2T token* database, RETRO obtains comparable performance to GPT-3, despite using 25x fewer parameters (at the time, retrieval for LM work usually considered small transformers and databases of limited size). The generation component is pretrained from scratch ***while incorporating input from the already-trained, frozen retrieval component***.
 Combines a frozen BERT retriever, a differentiable encoder, and chunked cross-attention to generate output. Notably, it does retrieval throughout the entire pre-training stage, not just during inference. Furthermore, fetches relevant documents based on chunks of input, allowing for finer-grained, repeated retrieval during generation, instead of only retrieving once per query. The encoding of the retrieved chunks depends on the attended activation of the input chunk.
@@ -37,3 +37,7 @@ Comparison with [[Retrieval-Augmented Generation (Model)|RAG]], [[REALM]], [[Den
 
 ![[Pasted image 20240501174523.png]]
 
+
+# Non-Paper Figures
+![[Pasted image 20240710135409.png]]
+![[Pasted image 20240710135710.png]]

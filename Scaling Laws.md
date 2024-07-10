@@ -41,3 +41,7 @@ From CS685 Lecture 17
 
 ![[Pasted image 20240605160423.png]]
 From CS685 Lecture 17
+
+![[Pasted image 20240710031557.png]]
+From Sebastian Borgeaud lecture @ UCL Dark
+- This means that if you want better models at a given level of compute, you're going to have to do a lot of large-scale distributed systems work... *and* inference will be quite expensive, because you "need" bigger models.
