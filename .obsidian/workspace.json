@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
+                "file": "Medusa.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e1e040c6f8ca17d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SiLU.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e778cb93fd846d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Together AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
+                "file": "Medusa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
+                "file": "Medusa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md"
+                "file": "Medusa.md"
               }
             }
           },
@@ -181,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
+                "file": "Medusa.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,19 +256,23 @@
   },
   "active": "746885d2386c951f",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "SiLU.md",
+    "Medusa.md",
+    "Rejection Sampling.md",
+    "_attachments/Pasted image 20240711144612.png",
+    "Together AI.md",
+    "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
+    "Untitled 3.md",
     "_attachments/Pasted image 20240711134445.png",
     "_attachments/Pasted image 20240711134318.png",
     "_attachments/Pasted image 20240711134013.png",
     "_attachments/Pasted image 20240711133836.png",
     "_attachments/Pasted image 20240711133831.png",
-    "~ Vocabulary.md",
-    "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
     "_attachments/Pasted image 20240711133724.png",
     "_attachments/Pasted image 20240711133448.png",
     "_attachments/Pasted image 20240711133255.png",
     "_attachments/Pasted image 20240711133214.png",
-    "_attachments/Pasted image 20240711132940.png",
-    "_attachments/Pasted image 20240711132335.png",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "Courses/Math",
     "AlpaGasus.md",
@@ -263,10 +293,6 @@
     "SynthLabs.md",
     "Stability AI.md",
     "Nemotron-4.md",
-    "EleutherAI.md",
-    "Stella Biderman.md",
-    "Louis Castricato.md",
-    "CarperAI.md",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",

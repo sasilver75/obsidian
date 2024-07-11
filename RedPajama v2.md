@@ -1,4 +1,4 @@
-October 30, 2023  (six months after [[RedPajama]]) -- [[TogetherAI]]
+October 30, 2023  (six months after [[RedPajama]]) -- [[Together AI]]
 [RedPajama-Data-v2: An open dataset with 30 trillion tokens for training large language models](https://www.together.ai/blog/redpajama-data-v2)
 
 ==30T== filtered and deduplicated tokens (from 100T raw tokens) from 84 CommonCrawl dumps covering 5 languages, along with 40+ pre-computed data quality annotations that can be used for further filtering and weighting.
