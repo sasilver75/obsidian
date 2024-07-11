@@ -5,20 +5,40 @@
       "path": "Quality-Diversity through AI Feedback.md"
     },
     {
-      "basename": "Nemotron-4",
-      "path": "Nemotron-4.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "LLaMA",
+      "path": "LLaMA.md"
+    },
+    {
+      "basename": "LLaMA 3",
+      "path": "LLaMA 3.md"
+    },
+    {
+      "basename": "Dependency Parsing",
+      "path": "Dependency Parsing.md"
+    },
+    {
+      "basename": "Weak Supervision",
+      "path": "Weak Supervision.md"
+    },
+    {
+      "basename": "TFEval",
+      "path": "TFEval.md"
+    },
+    {
+      "basename": "SynthLabs",
+      "path": "SynthLabs.md"
     },
     {
       "basename": "Stability AI",
       "path": "Stability AI.md"
     },
     {
-      "basename": "SynthLabs",
-      "path": "SynthLabs.md"
+      "basename": "Nemotron-4",
+      "path": "Nemotron-4.md"
     },
     {
       "basename": "EleutherAI",
@@ -35,10 +55,6 @@
     {
       "basename": "CarperAI",
       "path": "CarperAI.md"
-    },
-    {
-      "basename": "TFEval",
-      "path": "TFEval.md"
     },
     {
       "basename": "Direct Preference Optimization",
@@ -67,10 +83,6 @@
     {
       "basename": "CantTalkAboutThis",
       "path": "CantTalkAboutThis.md"
-    },
-    {
-      "basename": "Weak Supervision",
-      "path": "Weak Supervision.md"
     },
     {
       "basename": "ChatBot Arena",
@@ -187,18 +199,6 @@
     {
       "basename": "VGGNet",
       "path": "VGGNet.md"
-    },
-    {
-      "basename": "YOLO",
-      "path": "YOLO.md"
-    },
-    {
-      "basename": "PaLM",
-      "path": "PaLM.md"
-    },
-    {
-      "basename": "FLAN",
-      "path": "FLAN.md"
     }
   ],
   "omittedPaths": [],
