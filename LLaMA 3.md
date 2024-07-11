@@ -2,8 +2,9 @@ April 18, 2024 (~9 months after [[LLaMA 2]]) - [[Meta AI Research]]
 Paper: {Coming}
 
 Refrences
-- [Video: W&B Presentation from Director of Product @ Meta.ai re: LLaMA3](https://youtu.be/r3DC_gjFCSA?si=1zDwp3iildk6gL3W&t=367)
-- [Reaction by Andrej Karpathy](https://twitter.com/karpathy/status/1781028605709234613)
+- Video: [W&B Presentation from Director of Product @ Meta.ai re: LLaMA3](https://youtu.be/r3DC_gjFCSA?si=1zDwp3iildk6gL3W&t=367)
+- Tweet: [Reaction by Andrej Karpathy](https://twitter.com/karpathy/status/1781028605709234613)
+- Video: [Meta Engineering Interview: Understanding the Meta LLaMA 3 Tokenizer](https://youtu.be/Tmdk_H2WDj4?si=KKXIvT-FLC_wM69Z)
 
 Details:
 - Family: 8B, 70B, 405B parameters

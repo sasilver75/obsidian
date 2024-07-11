@@ -493,7 +493,8 @@
 		- [[Abstractive Summarization]]
 	- [[Named Entity Recognition]] (NER)
 	- [[Part-of-Speech Tagging]]
-	- [[Parsing]]
+	- [[Dependency Parsing]]
+	- [[Word-Sense Disambiguation]]
 	- [[Coreference Resolution]]
 	- [[Semantic Text Similarity]] (STS)
 	- [[Natural Language Inference]] (NLI, Textual Entailment)
