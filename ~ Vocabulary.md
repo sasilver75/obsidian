@@ -181,6 +181,7 @@
 - [[Softmax]]
 - [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
 - [[Leaky ReLU]]
+- [[Squared ReLU]]
 - [[Tanh]] (Hyperbolic Tangent)
 - [[SwiGLU]] ([[Swish]] + [[GLU]])
 - [[Overfitting]]
@@ -893,7 +894,7 @@
 - [[HotpotQA]]
 - [[HoVer]]
 - [[SQuAD]] (Stanford Question Answering Dataset)
-- [[ChatBotArena]]
+- [[ChatBot Arena]]
 - [[Open LLM Leaderboard]]
 - [[Open LLM Leaderboard V2]]
 - [[MT-Bench]] (Multi-Turn Benchmark)
@@ -975,6 +976,9 @@
 - [[CCNet]] (Cluster-Coordinated Net)
 - [[DataComp]]
 - [[DataComp-LM]]
+- [[HelpSteer]]
+- [[HelpSteer2]]
+- [[LMSYS-Chat-1M]]
 
 # Entities
 - [[Cohere]]  📝

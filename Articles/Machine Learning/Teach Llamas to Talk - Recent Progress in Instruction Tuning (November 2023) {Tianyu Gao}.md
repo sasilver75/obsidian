@@ -76,7 +76,7 @@ The most commonly used two preference datasets for developing alignment algorith
 
 There are ==crowd-sourcing efforts== to collect preferences from humans
 - OpenAssistant
-- [[ChatBotArena]]
+- [[ChatBot Arena]]
 
 More datasets take a simulated or ==heuristic approach to targeting existing data==: [[Stanford Human Preferences|SHP]] uses numbers-of-upvote heuristics on Reddit to construct a synthetic preference dataset.
 

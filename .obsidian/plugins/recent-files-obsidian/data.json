@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models Paper",
-      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md"
+      "basename": "Nemotron-4",
+      "path": "Nemotron-4.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "ChatBot Arena",
+      "path": "ChatBot Arena.md"
+    },
+    {
+      "basename": "LMSYS",
+      "path": "LMSYS.md"
+    },
+    {
+      "basename": "LMSYS-Chat-1M",
+      "path": "LMSYS-Chat-1M.md"
+    },
+    {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "HelpSteer2",
+      "path": "HelpSteer2.md"
+    },
+    {
+      "basename": "Batch",
+      "path": "Batch.md"
+    },
+    {
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
+    },
+    {
+      "basename": "Squared ReLU",
+      "path": "Squared ReLU.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "Proximal Policy Optimization",
+      "path": "Proximal Policy Optimization.md"
+    },
+    {
+      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models Paper",
+      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md"
     },
     {
       "basename": "Constrained Decoding",
@@ -27,14 +75,6 @@
     {
       "basename": "DeepSeekMath",
       "path": "DeepSeekMath.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "AlpaGasus",
-      "path": "AlpaGasus.md"
     },
     {
       "basename": "The Bitter Lesson Paper",
@@ -159,46 +199,6 @@
     {
       "basename": "Distillation",
       "path": "Distillation.md"
-    },
-    {
-      "basename": "MuSR",
-      "path": "MuSR.md"
-    },
-    {
-      "basename": "MATH",
-      "path": "MATH.md"
-    },
-    {
-      "basename": "BIG-Bench Hard",
-      "path": "BIG-Bench Hard.md"
-    },
-    {
-      "basename": "BIG-Bench Lite",
-      "path": "BIG-Bench Lite.md"
-    },
-    {
-      "basename": "Eleuther LM Evaluation Harness",
-      "path": "Eleuther LM Evaluation Harness.md"
-    },
-    {
-      "basename": "Chameleon",
-      "path": "Chameleon.md"
-    },
-    {
-      "basename": "Latent Consistency Model",
-      "path": "Latent Consistency Model.md"
-    },
-    {
-      "basename": "RETRO",
-      "path": "RETRO.md"
-    },
-    {
-      "basename": "Scaling Laws",
-      "path": "Scaling Laws.md"
-    },
-    {
-      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/Machine Learning/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
     }
   ],
   "omittedPaths": [],

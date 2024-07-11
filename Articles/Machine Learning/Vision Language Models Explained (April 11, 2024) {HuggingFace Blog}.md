@@ -32,7 +32,7 @@ Above: [[LLaVA]] 1.6, [[DeepSeek]]-vl-7b-base, DeepSeek-VL-Chat, moondream2, [[C
 
 ## Finding the right Vision Language Model
 - There are many ways to select the most appropriate model.
-	- Vision Arena is a version of [[ChatBotArena]] that's specific to VLMs, with its own leaderboard. The rankings are based on human preferences over head-to-head generations.
+	- Vision Arena is a version of [[ChatBot Arena]] that's specific to VLMs, with its own leaderboard. The rankings are based on human preferences over head-to-head generations.
 	- [Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) is another one where models are ranked according to a variety of metrics.
 - ==VLMEvalKit== is a toolkit to run benchmarks on vision language models, and powers the Open VLM Leaderboard. Another option is ==LMMS-Eval==, which provides a standard command line interface to evaluate HF models of your choice with datasets hosted on the HuggingFace Hub.
 

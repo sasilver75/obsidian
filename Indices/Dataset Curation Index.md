@@ -5,7 +5,7 @@ Resources:
 	- This doesn't always correlate with improved performance on downstream tasks of interest.
 2. Another method is to train small (cheap, fast) models on a representative subset of our dataset, and evaluate them on a set of evaluation tasks set of evaluation tasks.
 	- It's important to choose diverse and representative evaluation tasks, and try not to overfit to any individual benchmark.
-3. Another way to compare different datasets is to train a model on each dataset and have humans rate/compare the generations of the models, eg on [[ChatBotArena]]. 
+3. Another way to compare different datasets is to train a model on each dataset and have humans rate/compare the generations of the models, eg on [[ChatBot Arena]]. 
 	- This might provide the most reliable results, but it's expensive and slow, and simple pretrained (not-instruction-tuned) models aren't yet prepared to be assistants and might be very sensitive to prompt details.
 
 An example of the pipeline used to create a dataset ([[HuggingFace]]'s [[FineWeb]]):

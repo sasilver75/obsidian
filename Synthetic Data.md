@@ -1,3 +1,9 @@
+---
+aliases:
+  - Synthetic Data Generation
+  - SDG
+---
+
 References:
 - Eugene Yan's [Synthetic Data blogpost](https://eugeneyan.com/writing/synthetic/)
 
