@@ -58,7 +58,7 @@ The impact of data size on model performance was investigated in [[Chinchilla]],
 	- Corpus is ==comprised of web data that undergoes a purely-heuristic-based filtering pipeline== (ie no *model-based* filtering), and ends up with a high-quality pretraining dataset. 
 	- Large 5T token corpus, but ==only a small portion of the data (600B) was made available to the public.==
 - [[RedPajama]]
-	- An initiative led by [[TogetherAI]] to produce a leading open-source LLM and release it to the public with a more permissive license.
+	- An initiative led by [[Together AI]] to produce a leading open-source LLM and release it to the public with a more permissive license.
 	- As a first step, the authors recreated the pretraining dataset for LLaMA resulting in the RedPajama v1 and v2 datsets
 	- Similar to Dolma in nature, but RedPajama has a more limited scope; ==the creators of RedPajama are trying to reproduce LLaMA, whereas Dolma attempts ot provide a transparent resource that empowers others to study all notable aspects of LLM pretraining==, and pulls from a variety of additional sources (eg scientific papers, code, conversational forums, more).
 

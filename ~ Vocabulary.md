@@ -185,6 +185,7 @@
 - [[Squared ReLU]]
 - [[Tanh]] (Hyperbolic Tangent)
 - [[SwiGLU]] ([[Swish]] + [[GLU]])
+- [[SiLU]] (Sigmoid Linear Unit)
 - [[Overfitting]]
 - [[Underfitting]]
 - [[Epoch]]
@@ -993,7 +994,7 @@
 # Entities
 - [[Cohere]]  📝
 - [[CharacterAI]]  💁‍♀️
-- [[TogetherAI]]  🤝
+- [[Together AI]]  🤝
 - [[OpenAI]]  👺
 - [[Anthropic]]  👨
 - [[Google Research]]  🧠

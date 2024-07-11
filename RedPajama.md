@@ -1,4 +1,4 @@
-April 16, 2023 (5 months after ChatGPT, 2 months after LLaMA) -- [[TogetherAI]] (and others in collaboration) 
+April 16, 2023 (5 months after ChatGPT, 2 months after LLaMA) -- [[Together AI]] (and others in collaboration) 
 Blog: [RedPajama](https://www.together.ai/blog/redpajama)
 
 "RedPajama, a project to create leading open-source models, starts by reproducing [[LLaMA]] training dataset of over 1.2 trillion tokens. It follows the recipe described in the LLaMA paper."

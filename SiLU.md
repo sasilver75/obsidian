@@ -1,0 +1,4 @@
+---
+aliases:
+  - Sigmoid Linear Unit
+---
