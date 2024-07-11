@@ -8,306 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0a42dd429a5718f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81bb939b46762033",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quality-Diversity through AI Feedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a15b4ed6dae7d18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dependency Parsing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3c98d56c44767bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d058ce91affb76f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ChatBot Arena.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "152d3401c42cb29a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18bad6d44444d4a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "262ca9f7946bb627",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UltraChat.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1453c05eed22c6d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HelpSteer2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfcee1263e5754ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HelpSteer2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb32ff1a26ac04f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Squared ReLU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9739fe4d617c1475",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10f67f3919ee69a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constrained Decoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8ab60396090c868",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a41d64a80f42eaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f46cd62346b9eac4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mind's Eye.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b918d82dd1aa3192",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc6a87b0399e788f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a4ad1727fc53450",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e439e48bbdb91c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Minerva.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7fe230e1a90d910",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DeepSeekMath.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14697ef3d4727919",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Synthetic Data.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b93294bdbff713a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AlpaGasus.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "746885d2386c951f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96dac748078e5292",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -319,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -395,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quality-Diversity through AI Feedback.md",
+                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -412,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quality-Diversity through AI Feedback.md",
+                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quality-Diversity through AI Feedback.md"
+                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md"
               }
             }
           },
@@ -468,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Quality-Diversity through AI Feedback.md",
+                "file": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -515,53 +228,53 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "81bb939b46762033",
+  "active": "746885d2386c951f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240711134445.png",
+    "_attachments/Pasted image 20240711134318.png",
+    "_attachments/Pasted image 20240711134013.png",
+    "_attachments/Pasted image 20240711133836.png",
+    "_attachments/Pasted image 20240711133831.png",
     "~ Vocabulary.md",
+    "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
+    "_attachments/Pasted image 20240711133724.png",
+    "_attachments/Pasted image 20240711133448.png",
+    "_attachments/Pasted image 20240711133255.png",
+    "_attachments/Pasted image 20240711133214.png",
+    "_attachments/Pasted image 20240711132940.png",
+    "_attachments/Pasted image 20240711132335.png",
+    "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
+    "Courses/Math",
+    "AlpaGasus.md",
+    "Synthetic Data.md",
+    "DeepSeekMath.md",
+    "Minerva.md",
+    "Mind's Eye.md",
+    "Constrained Decoding.md",
+    "Squared ReLU.md",
+    "HelpSteer2.md",
+    "ChatBot Arena.md",
+    "Dependency Parsing.md",
+    "Quality-Diversity through AI Feedback.md",
     "LLaMA.md",
     "LLaMA 3.md",
-    "Dependency Parsing.md",
     "Weak Supervision.md",
     "TFEval.md",
     "SynthLabs.md",
     "Stability AI.md",
-    "Quality-Diversity through AI Feedback.md",
     "Nemotron-4.md",
     "EleutherAI.md",
     "Stella Biderman.md",
-    "_attachments/Pasted image 20240711011025.png",
     "Louis Castricato.md",
-    "_attachments/Pasted image 20240711010941.png",
-    "_attachments/Pasted image 20240711010915.png",
     "CarperAI.md",
-    "_attachments/Pasted image 20240711004909.png",
-    "_attachments/Pasted image 20240711004722.png",
-    "_attachments/Pasted image 20240711003507.png",
-    "_attachments/Pasted image 20240711003257.png",
-    "Direct Preference Optimization.md",
-    "Entropy.md",
-    "Synthetic Data.md",
-    "_attachments/Pasted image 20240710234731.png",
-    "_attachments/Pasted image 20240710233852.png",
-    "_attachments/Pasted image 20240710233504.png",
-    "Reward-Aware Preference Optimization.md",
-    "~ Followup.md",
-    "~ Interactions.md",
-    "CantTalkAboutThis.md",
-    "ChatBot Arena.md",
-    "LMSYS.md",
-    "LMSYS-Chat-1M.md",
-    "CAMEL.md",
-    "UltraChat.md",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",
     "Papers/Synthetic Data",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
-    "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
+    "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
-    "Courses/Biology",
-    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)"
+    "Courses/Biology"
   ]
 }

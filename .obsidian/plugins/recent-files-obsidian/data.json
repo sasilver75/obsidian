@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Quality-Diversity through AI Feedback",
-      "path": "Quality-Diversity through AI Feedback.md"
+      "basename": "Probability for CS (6) Random Variables and Expectation",
+      "path": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Probability for CS (5) Independence",
+      "path": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
+    },
+    {
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "DeepSeekMath",
+      "path": "DeepSeekMath.md"
+    },
+    {
+      "basename": "Minerva",
+      "path": "Minerva.md"
+    },
+    {
+      "basename": "Mind's Eye",
+      "path": "Mind's Eye.md"
+    },
+    {
+      "basename": "Constrained Decoding",
+      "path": "Constrained Decoding.md"
+    },
+    {
+      "basename": "Squared ReLU",
+      "path": "Squared ReLU.md"
+    },
+    {
+      "basename": "HelpSteer2",
+      "path": "HelpSteer2.md"
+    },
+    {
+      "basename": "ChatBot Arena",
+      "path": "ChatBot Arena.md"
+    },
+    {
+      "basename": "Dependency Parsing",
+      "path": "Dependency Parsing.md"
+    },
+    {
+      "basename": "Quality-Diversity through AI Feedback",
+      "path": "Quality-Diversity through AI Feedback.md"
     },
     {
       "basename": "LLaMA",
@@ -15,10 +63,6 @@
     {
       "basename": "LLaMA 3",
       "path": "LLaMA 3.md"
-    },
-    {
-      "basename": "Dependency Parsing",
-      "path": "Dependency Parsing.md"
     },
     {
       "basename": "Weak Supervision",
@@ -65,10 +109,6 @@
       "path": "Entropy.md"
     },
     {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
       "basename": "Reward-Aware Preference Optimization",
       "path": "Reward-Aware Preference Optimization.md"
     },
@@ -85,10 +125,6 @@
       "path": "CantTalkAboutThis.md"
     },
     {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
-    },
-    {
       "basename": "LMSYS",
       "path": "LMSYS.md"
     },
@@ -101,20 +137,8 @@
       "path": "UltraChat.md"
     },
     {
-      "basename": "HelpSteer2",
-      "path": "HelpSteer2.md"
-    },
-    {
       "basename": "Batch",
       "path": "Batch.md"
-    },
-    {
-      "basename": "AlpaGasus",
-      "path": "AlpaGasus.md"
-    },
-    {
-      "basename": "Squared ReLU",
-      "path": "Squared ReLU.md"
     },
     {
       "basename": "Proximal Policy Optimization",
@@ -125,24 +149,8 @@
       "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md"
     },
     {
-      "basename": "Constrained Decoding",
-      "path": "Constrained Decoding.md"
-    },
-    {
-      "basename": "Mind's Eye",
-      "path": "Mind's Eye.md"
-    },
-    {
       "basename": "Reflexion",
       "path": "Reflexion.md"
-    },
-    {
-      "basename": "Minerva",
-      "path": "Minerva.md"
-    },
-    {
-      "basename": "DeepSeekMath",
-      "path": "DeepSeekMath.md"
     },
     {
       "basename": "The Bitter Lesson Paper",
@@ -191,14 +199,6 @@
     {
       "basename": "OWL-ViT",
       "path": "OWL-ViT.md"
-    },
-    {
-      "basename": "CLIP",
-      "path": "CLIP.md"
-    },
-    {
-      "basename": "VGGNet",
-      "path": "VGGNet.md"
     }
   ],
   "omittedPaths": [],
