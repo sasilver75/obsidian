@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "LLM Master Credit Information",
-      "path": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md"
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
     },
     {
-      "basename": "Alpagasus",
-      "path": "Alpagasus.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "GPT",
+      "path": "GPT.md"
+    },
+    {
+      "basename": "text-davinci-002",
+      "path": "text-davinci-002.md"
+    },
+    {
+      "basename": "LLM Master Credit Information",
+      "path": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md"
     },
     {
       "basename": "Variational Autoencoder",
@@ -117,10 +129,6 @@
       "path": "Eleuther LM Evaluation Harness.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Chameleon",
       "path": "Chameleon.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "ReAct",
       "path": "ReAct.md"
-    },
-    {
-      "basename": "Latent Diffusion Model",
-      "path": "Latent Diffusion Model.md"
-    },
-    {
-      "basename": "VLM",
-      "path": "VLM.md"
     }
   ],
   "omittedPaths": [],

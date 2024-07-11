@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7d946ddaad26f636",
+            "id": "e99fd91d00116559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md",
+                "file": "AlpaGasus.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "746885d2386c951f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md",
+                "file": "AlpaGasus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md",
+                "file": "AlpaGasus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md"
+                "file": "AlpaGasus.md"
               }
             }
           },
@@ -168,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md",
+                "file": "AlpaGasus.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,22 +228,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7d946ddaad26f636",
+  "active": "e99fd91d00116559",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240710162045.png",
-    "Alpagasus.md",
+    "_attachments/Pasted image 20240710171000.png",
+    "_attachments/Pasted image 20240710170931.png",
+    "~ Vocabulary.md",
+    "AlpaGasus.md",
+    "_attachments/Pasted image 20240710170707.png",
+    "_attachments/Pasted image 20240710170535.png",
+    "_attachments/Pasted image 20240710170451.png",
+    "_attachments/Pasted image 20240710164944.png",
+    "_attachments/Pasted image 20240710163919.png",
+    "_attachments/Pasted image 20240710163914.png",
+    "_attachments/Pasted image 20240710163912.png",
+    "GPT.md",
+    "text-davinci-002.md",
+    "_attachments/Pasted image 20240710162532.png",
     "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md",
-    "_attachments/Pasted image 20240710161434.png",
-    "_attachments/Pasted image 20240710161423.png",
-    "_attachments/Pasted image 20240710161422.png",
-    "_attachments/Pasted image 20240710161223.png",
+    "_attachments/Pasted image 20240710162045.png",
     "Variational Autoencoder.md",
-    "_attachments/Pasted image 20240710160443.png",
-    "_attachments/Pasted image 20240710160305.png",
-    "_attachments/Pasted image 20240710160212.png",
-    "_attachments/Pasted image 20240710160037.png",
-    "_attachments/Pasted image 20240710160001.png",
-    "_attachments/Pasted image 20240710155945.png",
     "Kullback-Leibler Divergence.md",
     "OWL-ViT.md",
     "CLIP.md",
@@ -250,9 +266,6 @@
     "HiPPO.md",
     "InfoNCE.md",
     "MIPRO.md",
-    "LongRoPE.md",
-    "Distillation.md",
-    "MuSR.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",

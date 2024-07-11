@@ -798,7 +798,7 @@
 - [[CogVLM]]
 - [[LLaVA]] (Large Language and Vision Assistant)
 - [[MemGPT]]
-- [[Alpagasus]]
+- [[AlpaGasus]]
 - [[Nemotron-4]]
 - [[Shepherd]]
 - [[Prometheus]]

@@ -12,7 +12,7 @@ There are two main approaches to generate synthetic data:
 	- When the model learns from its own responses via an iterative loop. It avoids external dependencies and contractual restrictions. Nonetheless, it limits learning to the model's initial abilities and can amplify biases and errors.
 
 ![[Pasted image 20240525170708.png]]
-Above: [[TinyStories]], [[Phi-1]], [[Unnatural Instructions]], [[Alpaca]], [[Alpagasus]], [[Vicuna]], [[Orca]], [[Orca 2]], [[WizardLM]], [[WizardCoder]], [[Magicoder]], [[WaveCoder]], [[Starling]], [[AlphaGeometry]], [[Web Rephrase Augmented Pre-training|WRAP]], [[Self-Instruct]], [[Self-Play Fine-Tuning]], [[Instruction Backtranslation]], [[Reinforced Self-Training|ReSTEM]], [[Constitutional AI|CAI]], [[Self-Reward]]
+Above: [[TinyStories]], [[Phi-1]], [[Unnatural Instructions]], [[Alpaca]], [[AlpaGasus]], [[Vicuna]], [[Orca]], [[Orca 2]], [[WizardLM]], [[WizardCoder]], [[Magicoder]], [[WaveCoder]], [[Starling]], [[AlphaGeometry]], [[Web Rephrase Augmented Pre-training|WRAP]], [[Self-Instruct]], [[Self-Play Fine-Tuning]], [[Instruction Backtranslation]], [[Reinforced Self-Training|ReSTEM]], [[Constitutional AI|CAI]], [[Self-Reward]]
 
 Important considerations when generating synthetic data:
 - Diversity of content
