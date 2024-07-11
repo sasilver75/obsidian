@@ -8,12 +8,116 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e99fd91d00116559",
+            "id": "ac8e687248c0ef31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Nemotron-4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3b8c58864c8b94c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df308b18ec27c2e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TFEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e09b4e190e376160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0869ab7f3809f651",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd02b99312a35134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05d362b5bbd4eb3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Followup.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f79024ba7aef9969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weak Supervision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a42dd429a5718f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -488,48 +592,48 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e99fd91d00116559",
+  "active": "ac8e687248c0ef31",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240711004909.png",
+    "_attachments/Pasted image 20240711004722.png",
+    "_attachments/Pasted image 20240711003507.png",
     "~ Vocabulary.md",
+    "TFEval.md",
+    "Nemotron-4.md",
+    "_attachments/Pasted image 20240711003257.png",
+    "Direct Preference Optimization.md",
+    "Entropy.md",
+    "Synthetic Data.md",
+    "_attachments/Pasted image 20240710234731.png",
+    "_attachments/Pasted image 20240710233852.png",
+    "_attachments/Pasted image 20240710233504.png",
+    "_attachments/Pasted image 20240710233501.png",
+    "Reward-Aware Preference Optimization.md",
+    "~ Followup.md",
+    "~ Interactions.md",
+    "CantTalkAboutThis.md",
+    "Weak Supervision.md",
+    "_attachments/Pasted image 20240710224136.png",
     "ChatBot Arena.md",
     "LMSYS.md",
-    "Nemotron-4.md",
     "LMSYS-Chat-1M.md",
     "_attachments/Pasted image 20240710213312.png",
     "_attachments/Pasted image 20240710213137.png",
     "CAMEL.md",
     "UltraChat.md",
-    "Synthetic Data.md",
     "HelpSteer2.md",
     "Batch.md",
     "AlpaGasus.md",
-    "_attachments/Pasted image 20240710205858.png",
-    "_attachments/Pasted image 20240710205053.png",
-    "_attachments/Pasted image 20240710204602.png",
-    "_attachments/Pasted image 20240710204520.png",
     "Squared ReLU.md",
-    "_attachments/Pasted image 20240710204142.png",
-    "_attachments/Pasted image 20240710202313.png",
-    "Direct Preference Optimization.md",
     "Proximal Policy Optimization.md",
     "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md",
     "Constrained Decoding.md",
     "Mind's Eye.md",
     "Reflexion.md",
-    "Minerva.md",
-    "DeepSeekMath.md",
-    "Papers/General/The Bitter Lesson Paper.md",
-    "Papers/General/Understanding Deep Learning requires Rethinking Generalization Paper.md",
     "Papers/General",
-    "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
-    "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md",
-    "Papers/IR and RAG/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",
     "Papers/Synthetic Data",
-    "_attachments/Pasted image 20240710171000.png",
-    "_attachments/Pasted image 20240710170931.png",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",

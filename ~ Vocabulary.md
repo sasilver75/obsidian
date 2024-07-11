@@ -355,6 +355,7 @@
 - [[RingAttention]]
 - [[Evol-Instruct]]
 - [[Evol-Amplify]]
+- [[Genetic Instruct]]
 - [[OSS-Instruct]]
 - [[Imitation Learning]]
 - [[Automatic Mixed-Precision Training]]
@@ -371,12 +372,15 @@
 - [[Stepwise Direct Preference Optimization]] (sDPO)
 - [[Odds Ratio Preference Optimization]] (ORPO)
 - [[Trust Region Policy Optimization]] (TRPO)
+- [[Reward-Aware Preference Optimization]] (RPO)
 - [[Self-Consistency]]
 - [[Self-Ask]]
 - [[Self-RAG]]
 - [[Self-Discover]]
 - [[KV Cache]]
 - [[Negative Prompt]]
+- [[Reward Model]]
+- [[Reward-Model-as-a-Judge]]
 - [[LLM-as-a-Judge]]
 - [[Positional Bias]]
 - [[Verbosity Bias]]
@@ -918,6 +922,7 @@
 - [[MuSR]] (Multistep Soft Reasoning)
 - [[MATH]] (Mathematics Aptitude Test of Heuristics)
 - [[FActScore]] (FActual Precision in Atomicity Score)
+- [[TFEval]] (Topic-Following Eval)
 
 # Datasets
 *Datasets for training/finetuning models*
@@ -979,6 +984,7 @@
 - [[HelpSteer]]
 - [[HelpSteer2]]
 - [[LMSYS-Chat-1M]]
+- [[CantTalkAboutThis]]
 
 # Entities
 - [[Cohere]]  📝

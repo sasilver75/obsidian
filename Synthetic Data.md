@@ -57,3 +57,5 @@ Examples
 
 ![[Pasted image 20240627201536.png]]
 "Four Kinds of Synthetic Data" from [John David Pressman](https://x.com/jd_pressman/status/1797396190210015716)
+
+![[Pasted image 20240710234731.png]]

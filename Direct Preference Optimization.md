@@ -4,7 +4,7 @@ aliases:
 ---
 May 29, 2023
 Stanford (incl [[Christopher Manning]])
-Paper: [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)Takeaway: A method for human-preference finetuning that avoids much of the complexity of [[Proximal Policy Optimization|PPO]] and [[Reinforcement Learning from Human Feedback|RLHF]], where we have to train both a reward model and our language model.
+Paper: [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)Takeaway: A method for human-preference finetuning that avoids much of the complexity of [[Proximal Policy Optimization|PPO]] and [[Reinforcement Learning from Human Feedback|RLHF]], where we have to train both a reward model and our language model. Works on a labeled dataset of accepted and rejected generation pairs ($y_w,y_l$)
 
 Resources:
 - Video: [CornellTech Talk:AIF and DPO: Distilling Zephyr and Friends](https://youtu.be/cuObPxCOBCw?si=JSgXQGcareJU2mJd)
@@ -13,6 +13,8 @@ Resources:
 
 Variants: 
 - Iterated DPO, [[cDPO]], [[Kahneman-Tversky Optimization|KTO]] (Only requires a binary label, rather than a *pair* of accepted/rejected generations), [[Identity-Mapping Preference Optimization|IPO]] (DPO easily overfits; IPO is more robust to overfitting)), [[Binary Classifier Optimization|BCO]], [[Direct Nash Optimization|DNO]], [[Stepwise Direct Preference Optimization|sDPO]]
+
+Criticism from [[Nemotron-4]] paper: Some rejected responses will be only *slightly* worse than the paired chosen response, while in other cases the rejected response will be *far* behind. DPO is ignorant of this quality gap, leading to both overfitting and unnecessarily "unlearning" high-quality rejected responses.
 
 ----
 
