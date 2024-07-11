@@ -1,6 +1,7 @@
 ---
 aliases:
   - Constrained Generation
+  - Constrained Sampling
 ---
 References:
 - [VIDEO: CMU Advanced NLP 2024 (6): Generation Algorithms](https://youtu.be/96MMXDA7F74?si=hjzP2vmai5keSfNv&t=3749)

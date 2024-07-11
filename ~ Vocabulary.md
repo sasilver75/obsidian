@@ -243,6 +243,7 @@
 - [[Pre-training]]
 - [[AdaBoost]]
 - [[Batch]]
+- [[Scalable Oversight]]
 - [[Batch Normalization]] (BatchNorm)
 - [[Layer Normalization]] (LayerNorm)
 - [[Convolution]]
@@ -542,7 +543,7 @@
 - [[RAISE]] (Reasoning and Acting through Scratchpad and Examples)
 - [[Reflexion]]
 - [[LATS]] (Language Agent Tree Search)
-- 
+- [[Voyager]]
 
 # Computer Vision Concepts
 - [[Object Recognition]]
@@ -760,10 +761,12 @@
 - [[StarCoder]]
 - [[StarCoder 2]]
 - [[WizardLM]]
+- [[WizardMath]]
 - [[WizardLM 2]]
 - [[WizardCoder]]
 - [[WaveCoder]]
 - [[Magicoder]]
+- [[MetaMath]]
 - [[Starling]]
 - [[SteerLM]]
 - [[Jurassic-1]]
@@ -782,7 +785,7 @@
 - [[Hermes]]
 - [[Capybara]]
 - [[DeepSeek-Coder]]
-- [[DeepSeek-Math]]
+- [[DeepSeekMath]]
 - [[Ada-Instruct]]
 - [[Yi]]
 - [[ALIGN]] (A Large-Scale Image and Noisy-Text Embedding)
@@ -807,6 +810,7 @@
 - [[S4]] (Structured State Space Sequence Model)
 - [[Mamba]]
 - [[Chameleon]]
+- [[Mind's Eye]]
 
 # Tools
 - [[ComfyUI]] 👨‍🔬🖼️

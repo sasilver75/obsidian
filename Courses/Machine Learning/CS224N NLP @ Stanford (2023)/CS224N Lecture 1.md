@@ -3,9 +3,9 @@ Link: https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rMFqRtEuo6SGjY
 
 Agenda:
 - Course
-- Human Language and Word MEaning
+- Human Language and Word Meaning
 - Word2Vec introduction
-- Word2vec objective function gradients
+- Word2Vec objective function gradients
 - Optimization basics
 - Looking at word vectors
 

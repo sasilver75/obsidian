@@ -5,6 +5,9 @@ Related: [[Data Augmentation]]
 
 Relative to human annotation, it's faster and cheaper to generate task-specific synthetic data. The quality and diversity of synthetic data can often exceed that of human annotators, leading to improved performance and generalization when models are finetuned on synthetic data. It also lets us synthetic data sidesteps privacy and copyright concerns by avoiding reliance on user data or possibly copyrighted content.
 
+Synthetic data is a promising solution to address the challenges of data scarcity, privacy concerns, and the sheer cost of collecting and annotating data. The hope is that with synthetic data we can overcome the limitations of real-world data to develop more *robust, reliable, and fair AI models*.
+- Can be created through algorithms, generative models, or even simulations.
+
 There are two main approaches to generate synthetic data:
 1. [[Distillation]] from a stronger model
 	- Distillation transfers knowledge and reasoning skills from a stronger teacher to a weaker, but more efficient student, optimizing for response quality and computation efficiency.
