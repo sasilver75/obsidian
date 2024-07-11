@@ -124,7 +124,7 @@ In-context learning refers to the idea of a single model being able to solve a v
 - Given how expensive LLM pretraining is, it took some time for the research community to pursue the creation of an open-source LLM on the scale of GPT-3.
 
 #### GPT-NeoX-20B
-- ==One of the first open-source LLM created by [[Eleuther]].==
+- ==One of the first open-source LLM created by [[EleutherAI]].==
 - Created after the initial GPT-Neo model (2.7B) was trained over [[The Pile]].
 - Achieves impressive few-shot learning performance on a variety of natural language benchmarks.
 - Although this model was somewhat small compared to GPT-3 (20B vs 175B), it was the largest model we had at the time, and all of its training and evaluation code was released alongside its weights under ==Apache 2.0 license==, permitting commercial use!

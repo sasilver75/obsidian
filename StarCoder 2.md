@@ -1,4 +1,4 @@
-Feb 29, 2024 -- A huge assembly of researchers from 38 places, including [[HuggingFace]], [[Eleuther]], and more
+Feb 29, 2024 -- A huge assembly of researchers from 38 places, including [[HuggingFace]], [[EleutherAI]], and more
 Paper: [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173)
 
 See also: [[StarCoder]]

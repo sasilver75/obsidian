@@ -13,7 +13,111 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6fc0cfb7540addd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality-Diversity through AI Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a98b0ab26d44d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality-Diversity through AI Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1195915797418d70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stability AI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5a291335b6989e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality-Diversity through AI Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fffe438228172156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Nemotron-4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24ea6d646d95f6d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SynthLabs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "126de14ea0e86531",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EleutherAI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "379886beb07448bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CarperAI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -397,7 +501,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -472,7 +577,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "Quality-Diversity through AI Feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -489,7 +594,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "Quality-Diversity through AI Feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -512,7 +617,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nemotron-4.md"
+                "file": "Quality-Diversity through AI Feedback.md"
               }
             }
           },
@@ -545,7 +650,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "Quality-Diversity through AI Feedback.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -592,14 +697,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ac8e687248c0ef31",
+  "active": "a5a291335b6989e4",
   "lastOpenFiles": [
+    "Nemotron-4.md",
+    "Quality-Diversity through AI Feedback.md",
+    "~ Vocabulary.md",
+    "Stability AI.md",
+    "SynthLabs.md",
+    "EleutherAI.md",
+    "Stella Biderman.md",
+    "_attachments/Pasted image 20240711011025.png",
+    "Louis Castricato.md",
+    "_attachments/Pasted image 20240711010941.png",
+    "_attachments/Pasted image 20240711010915.png",
+    "CarperAI.md",
     "_attachments/Pasted image 20240711004909.png",
     "_attachments/Pasted image 20240711004722.png",
     "_attachments/Pasted image 20240711003507.png",
-    "~ Vocabulary.md",
     "TFEval.md",
-    "Nemotron-4.md",
     "_attachments/Pasted image 20240711003257.png",
     "Direct Preference Optimization.md",
     "Entropy.md",
@@ -607,29 +722,19 @@
     "_attachments/Pasted image 20240710234731.png",
     "_attachments/Pasted image 20240710233852.png",
     "_attachments/Pasted image 20240710233504.png",
-    "_attachments/Pasted image 20240710233501.png",
     "Reward-Aware Preference Optimization.md",
     "~ Followup.md",
     "~ Interactions.md",
     "CantTalkAboutThis.md",
     "Weak Supervision.md",
-    "_attachments/Pasted image 20240710224136.png",
     "ChatBot Arena.md",
     "LMSYS.md",
     "LMSYS-Chat-1M.md",
-    "_attachments/Pasted image 20240710213312.png",
-    "_attachments/Pasted image 20240710213137.png",
     "CAMEL.md",
     "UltraChat.md",
     "HelpSteer2.md",
     "Batch.md",
     "AlpaGasus.md",
-    "Squared ReLU.md",
-    "Proximal Policy Optimization.md",
-    "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md",
-    "Constrained Decoding.md",
-    "Mind's Eye.md",
-    "Reflexion.md",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",

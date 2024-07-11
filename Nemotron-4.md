@@ -3,7 +3,7 @@ June 17, 2024
 Paper: [Nemotron-4 340B Technical Report](https://arxiv.org/abs/2406.11704v1)
 - Note: There's also a [Nemotron-4 15B Technical Report](https://arxiv.org/abs/2402.16819)
 #zotero 
-Takeaway: ...
+Takeaway: A 340B parameter model train trained on 9T tokens - notably 98% of the finetuning data (both SFT and preference-tuning) is *synthetically generated*, and they share a lot of information (and tooling) relevant to this process. Introduces the [[HelpSteer2]] preferences dataset, an "Iterative Weak-to-Strong Alignment" process, [[Genetic Instruct]] as an [[Evol-Instruct]]-like technique to inflate code data, and [[Reward-Aware Preference Optimization]] (RPO), which is applied in this paper after [[Direct Preference Optimization|DPO]], and takes advantage of the relative difference in Reward Model-given score between the chosen and rejected generations (which DPO is blind to). They open-source the base, instruct, and reward models with permissive licenses.
 
 > "[[Nemotron-4]]'s entire paper is focused on the training of a very good reward model, to then use as their data filterer."
 

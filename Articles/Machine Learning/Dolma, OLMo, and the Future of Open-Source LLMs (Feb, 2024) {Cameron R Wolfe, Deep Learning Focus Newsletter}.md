@@ -23,7 +23,7 @@ Dolma and OLMo take massive steps toward demystifying the LLM preparing process 
 ![[Pasted image 20240220211043.png]]
 Above: The Dolma corpus
 - [[Common Crawl]]: A free, open repository of web crawl data, with over 250B pages... 3-5B pages added per month.
-- [[The Stack]]: A 3TB dataset of permissively licensed source code in 30 programming languages from [[Eleuther]].
+- [[The Stack]]: A 3TB dataset of permissively licensed source code in 30 programming languages from [[EleutherAI]].
 - Reddit: You know what it is-
 - [[C4]]: A *Colossal, Cleaned Common Crawl* -- it's basically a subset of the good parts of Common Crawl.
 - PeS2o: A collection of 40M creative open-access academic papers, derived from the Semantic Scholar Open Research Corpus, or S2ORC -- these are both from AI2. 

@@ -1,4 +1,4 @@
-August 20, 2021 -- [[Eleuther]]
+August 20, 2021 -- [[EleutherAI]]
 Paper: [LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-tExt Pairs]()
 Blogpost: [LAION-400-MILLION OPEN DATASET](https://laion.ai/blog/laion-400-open-dataset/)
 

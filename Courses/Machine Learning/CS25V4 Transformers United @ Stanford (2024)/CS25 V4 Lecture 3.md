@@ -96,7 +96,7 @@ LLaMA gets released, and instruction-tuning models show up
 		- You would install a Browser plugin that would let you share your prompts/conversations from ChatGPT.
 		- Legally gray -- not clear that users knew that the data was going to be used to train models. But incredibly important to the open source development
 - [[Koala]]: Mostly known for having a diverse set of datasets. (Alpaca, Anthropic Helpful/Harmless dataset, ShareGPT, WebGPT). 
-- [[Dolly]]: Finetuned from a different baes model; from the [[Pythia]] models from [[Eleuther]];
+- [[Dolly]]: Finetuned from a different baes model; from the [[Pythia]] models from [[EleutherAI]];
 	- Added some 15k human-written data to the loop!
 		- Almost all the projects we talk about today talk about either distilling data from OpenAI or creating synthetic data. Only some, like Dolly, go the extra distance.
 

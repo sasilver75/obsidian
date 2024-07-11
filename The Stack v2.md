@@ -1,8 +1,8 @@
-Feb 29, 2024 -- A huge assembly of researchers from 38 places, including [[HuggingFace]], [[Eleuther]], and more
+Feb 29, 2024 -- A huge assembly of researchers from 38 places, including [[HuggingFace]], [[EleutherAI]], and more
 Paper: [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173)
 HuggingFace Dataset: [The Stack V2](https://huggingface.co/datasets/bigcode/the-stack-v2)
 
-The dataset released along with the [[StarCoder 2]] model; mostly developed by [[Eleuther]]
+The dataset released along with the [[StarCoder 2]] model; mostly developed by [[EleutherAI]]
 900B unique tokens+ un
 
 Abstract

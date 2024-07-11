@@ -1,5 +1,5 @@
 
-December 31, 2020 -- [[Eleuther]]
+December 31, 2020 -- [[EleutherAI]]
 Paper: [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027
 Website: [The Pile](https://pile.eleuther.ai/)
 

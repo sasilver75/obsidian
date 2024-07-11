@@ -403,6 +403,7 @@
 - [[Feature Steering]]
 - [[Feature Clamping]]
 - [[State Space Model]] (SSM)
+- [[Quality-Diversity through AI Feedback]] (QDAIF)
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -818,6 +819,7 @@
 - [[Mind's Eye]]
 
 # Tools
+*Developer tools and libraries ranging from data cleaning to quantization to model training and serving*
 - [[ComfyUI]] 👨‍🔬🖼️
 - [[Automatic1111]] 👨‍🔬🖼️
 - [[Axolotl]] 👨‍🔬⚗️
@@ -870,7 +872,7 @@
 - [[bitsandbytes]] 🐜
 
 # Benchmarks, Evaluations
-*These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on*
+*These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on afaik*
 - [[ImageNet]] (ILSVRC)
 - [[GAIA]] (General AI Assistants)
 - [[MMLU]] (Massive Multitask Language Understanding)
@@ -1030,6 +1032,10 @@
 - [[EssentialAI]] 😶
 - [[Groq]] 🏎️
 - [[Safe SuperIntelligence]] (SSI) ⚗️
+- [[EleutherAI|EleutherAI]] 🔍
+- [[CarperAI]] 🐟
+- [[SynthLabs]] 🤖
+- [[Stability AI]] 🖼️
 
 
 # People
@@ -1098,6 +1104,9 @@
 - [[Nick Frosst]] 🇨🇦
 - [[Kaiming He]] 👁️
 - [[Albert Gu]] 🐍
+- [[Louis Castricato]] 🐟
+- [[Stella Biderman]] 😎
+- [[Emad Mostaque]] 🤡
 
 # Policy
 - [[SB-1047]]
