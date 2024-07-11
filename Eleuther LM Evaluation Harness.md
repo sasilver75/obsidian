@@ -3,7 +3,7 @@ aliases:
   - lm-eval
 ---
 
-From [[Eleuther|EleutherAI]]
+From [[EleutherAI|EleutherAI]]
 Github: [Link](https://github.com/EleutherAI/lm-evaluation-harness)
 
 Project providing a unified framework to test generative language models on a large number of 200 different evaluation tasks.

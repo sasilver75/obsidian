@@ -130,7 +130,7 @@ The ==main issue== with `pickle` as a file format is that ==it not only bundles 
 	- `safetensors` is not bound to Python as closely as Pickle: With pickle, you can only read/write in Python, but [[Safetensors]] is compatible across languages.
 	- `safetensors` limits language execution functionality available on serialization/deserialization.
 	- Because the backend of `safetensors` is written in Rust, it enforces type safety more rigorously, and optimized specifically with tensors in mind in a way that Pickle was not.
-- A safety audit from Trail of Bits and [[Eleuther]] was conducted and found satisfactory, so HuggingFace added it as the default format for the models on the Hub going forward.
+- A safety audit from Trail of Bits and [[EleutherAI]] was conducted and found satisfactory, so HuggingFace added it as the default format for the models on the Hub going forward.
 
 ## How `safetensors` works
 - ...

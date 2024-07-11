@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Quality-Diversity through AI Feedback",
+      "path": "Quality-Diversity through AI Feedback.md"
+    },
+    {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Stability AI",
+      "path": "Stability AI.md"
+    },
+    {
+      "basename": "SynthLabs",
+      "path": "SynthLabs.md"
+    },
+    {
+      "basename": "EleutherAI",
+      "path": "EleutherAI.md"
+    },
+    {
+      "basename": "Stella Biderman",
+      "path": "Stella Biderman.md"
+    },
+    {
+      "basename": "Louis Castricato",
+      "path": "Louis Castricato.md"
+    },
+    {
+      "basename": "CarperAI",
+      "path": "CarperAI.md"
     },
     {
       "basename": "TFEval",
@@ -171,34 +199,6 @@
     {
       "basename": "FLAN",
       "path": "FLAN.md"
-    },
-    {
-      "basename": "DINO",
-      "path": "DINO.md"
-    },
-    {
-      "basename": "MPT",
-      "path": "MPT.md"
-    },
-    {
-      "basename": "DBRX",
-      "path": "DBRX.md"
-    },
-    {
-      "basename": "SimVLM",
-      "path": "SimVLM.md"
-    },
-    {
-      "basename": "LIMA",
-      "path": "LIMA.md"
-    },
-    {
-      "basename": "RWKV",
-      "path": "RWKV.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     }
   ],
   "omittedPaths": [],

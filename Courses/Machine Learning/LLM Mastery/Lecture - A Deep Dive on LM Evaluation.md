@@ -1,6 +1,6 @@
 Or: Everything you didn't realize to needed to ask about LM Evals (an opinionated summary)
 From: Hailey Schoelkopf
-- Research Scientist at [[Eleuther|EleutherAI]], maintainer on [[Eleuther LM Evaluation Harness]], originally started with the goal of 1:1 reproducing the evaluations from the GPT-3 paper, and has since grown to many other evaluations. It's used as the backend for the [[Open LLM Leaderboard]] from [[HuggingFace]].
+- Research Scientist at [[EleutherAI|EleutherAI]], maintainer on [[Eleuther LM Evaluation Harness]], originally started with the goal of 1:1 reproducing the evaluations from the GPT-3 paper, and has since grown to many other evaluations. It's used as the backend for the [[Open LLM Leaderboard]] from [[HuggingFace]].
 
 ---
 

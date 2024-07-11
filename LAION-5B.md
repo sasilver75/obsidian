@@ -1,4 +1,4 @@
-October 16, 2022 (14 months after [[LAION-400M]]) -- [[Eleuther]]
+October 16, 2022 (14 months after [[LAION-400M]]) -- [[EleutherAI]]
 Paper: [LAION-5B: An open large-scale dataset for training next-generation image-text models](https://arxiv.org/abs/2210.08402)
 
 A dataset of 5.85 billion [[CLIP]]-filtered image-text pairs, of which 2.32B contain english English language.

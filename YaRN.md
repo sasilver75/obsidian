@@ -2,7 +2,7 @@
 aliases:
   - Yet another RoPE extensioN method
 ---
-August 31, 2023 -- [[Nous Research]], [[Eleuther]]
+August 31, 2023 -- [[Nous Research]], [[EleutherAI]]
 Paper: [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071)
 
 Abstract
