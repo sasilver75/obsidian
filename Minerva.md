@@ -1,4 +1,5 @@
-June 29, 2022 -- Google Research, Blueshift Team
+June 29, 2022 
+[[Google Research]], Blueshift Team
 Paper: [Solving Quantitative Reasoning Problems with Language Models](https://arxiv.org/abs/2206.14858)
 
 Minerva is a ==technical/mathematical/science model that builds on [[PaLM]]==, with ==further training on a 118GB dataset of scientific papers from arXiv==, and webpages containing LaTeX/MathJax, etc. By maintaining this symbolic formatting in the data, the model learns to converse by using standard mathematical notation.

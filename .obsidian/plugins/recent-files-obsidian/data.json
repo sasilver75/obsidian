@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "AlpaGasus",
-      "path": "AlpaGasus.md"
+      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models Paper",
+      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Constrained Decoding",
+      "path": "Constrained Decoding.md"
+    },
+    {
+      "basename": "Mind's Eye",
+      "path": "Mind's Eye.md"
+    },
+    {
+      "basename": "Reflexion",
+      "path": "Reflexion.md"
+    },
+    {
+      "basename": "Minerva",
+      "path": "Minerva.md"
+    },
+    {
+      "basename": "DeepSeekMath",
+      "path": "DeepSeekMath.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
+    },
+    {
+      "basename": "The Bitter Lesson Paper",
+      "path": "Papers/General/The Bitter Lesson Paper.md"
+    },
+    {
+      "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
+      "path": "Papers/General/Understanding Deep Learning requires Rethinking Generalization Paper.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
+      "path": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+    },
+    {
+      "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
+      "path": "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
+    },
+    {
+      "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
+      "path": "Papers/IR and RAG/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
+    },
+    {
+      "basename": "CS224N Lecture 1",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md"
     },
     {
       "basename": "GPT",
@@ -147,58 +199,6 @@
     {
       "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
       "path": "Articles/Machine Learning/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "DINOv2",
-      "path": "DINOv2.md"
-    },
-    {
-      "basename": "BLIP",
-      "path": "BLIP.md"
-    },
-    {
-      "basename": "KOSMOS 2",
-      "path": "KOSMOS 2.md"
-    },
-    {
-      "basename": "ELECTRA",
-      "path": "ELECTRA.md"
-    },
-    {
-      "basename": "BYOL",
-      "path": "BYOL.md"
-    },
-    {
-      "basename": "ALIGN",
-      "path": "ALIGN.md"
-    },
-    {
-      "basename": "LLaVA",
-      "path": "LLaVA.md"
-    },
-    {
-      "basename": "Stable Diffusion",
-      "path": "Stable Diffusion.md"
-    },
-    {
-      "basename": "LATS",
-      "path": "LATS.md"
-    },
-    {
-      "basename": "David Silver RL (8) - Integrating Learning and Planning",
-      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (8) - Integrating Learning and Planning.md"
-    },
-    {
-      "basename": "David Silver RL (9) - Exploration and Exploitation",
-      "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (9) - Exploration and Exploitation.md"
-    },
-    {
-      "basename": "RAISE",
-      "path": "RAISE.md"
-    },
-    {
-      "basename": "ReAct",
-      "path": "ReAct.md"
     }
   ],
   "omittedPaths": [],

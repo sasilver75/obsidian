@@ -13,6 +13,162 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9739fe4d617c1475",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10f67f3919ee69a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constrained Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8ab60396090c868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a41d64a80f42eaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f46cd62346b9eac4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mind's Eye.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b918d82dd1aa3192",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc6a87b0399e788f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a4ad1727fc53450",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e439e48bbdb91c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Minerva.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7fe230e1a90d910",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepSeekMath.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14697ef3d4727919",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthetic Data.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b93294bdbff713a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "AlpaGasus.md",
                 "mode": "source",
                 "backlinks": true,
@@ -108,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AlpaGasus.md",
+                "file": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AlpaGasus.md",
+                "file": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AlpaGasus.md"
+                "file": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md"
               }
             }
           },
@@ -181,7 +337,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "AlpaGasus.md",
+                "file": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,10 +386,28 @@
   },
   "active": "e99fd91d00116559",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md",
+    "Constrained Decoding.md",
+    "Mind's Eye.md",
+    "Reflexion.md",
+    "Minerva.md",
+    "DeepSeekMath.md",
+    "Synthetic Data.md",
+    "AlpaGasus.md",
+    "Papers/General/The Bitter Lesson Paper.md",
+    "Papers/General/Understanding Deep Learning requires Rethinking Generalization Paper.md",
+    "Papers/General",
+    "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+    "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md",
+    "Papers/IR and RAG/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md",
+    "Papers/Long-Inference and Prompting",
+    "Papers/Untitled.md",
+    "Papers/IR and RAG",
+    "Papers/Synthetic Data",
     "_attachments/Pasted image 20240710171000.png",
     "_attachments/Pasted image 20240710170931.png",
-    "~ Vocabulary.md",
-    "AlpaGasus.md",
     "_attachments/Pasted image 20240710170707.png",
     "_attachments/Pasted image 20240710170535.png",
     "_attachments/Pasted image 20240710170451.png",
@@ -245,7 +419,6 @@
     "text-davinci-002.md",
     "_attachments/Pasted image 20240710162532.png",
     "Courses/Machine Learning/LLM Mastery/LLM Master Credit Information.md",
-    "_attachments/Pasted image 20240710162045.png",
     "Variational Autoencoder.md",
     "Kullback-Leibler Divergence.md",
     "OWL-ViT.md",
@@ -253,28 +426,11 @@
     "VGGNet.md",
     "YOLO.md",
     "PaLM.md",
-    "FLAN.md",
-    "DINO.md",
-    "MPT.md",
-    "DBRX.md",
-    "SimVLM.md",
-    "LIMA.md",
-    "RWKV.md",
-    "~ Useful Pictures.md",
-    "Data Parallelism.md",
-    "Tensor Parallelism.md",
-    "HiPPO.md",
-    "InfoNCE.md",
-    "MIPRO.md",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Machine Learning/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
     "Courses/Machine Learning",
     "Courses/Biology",
-    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)",
-    "Courses/Biology/7.016 Introductory Biology @ MIT (2018)",
-    "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)",
-    "Courses/Machine Learning/Pieter Abbeel Foundations of Deep RL (2021)",
-    "Courses/Machine Learning/Stat110 Probability @ Harvard (2013)"
+    "Courses/Biology/Getting up to Speed in Biology @ MIT (2020)"
   ]
 }
