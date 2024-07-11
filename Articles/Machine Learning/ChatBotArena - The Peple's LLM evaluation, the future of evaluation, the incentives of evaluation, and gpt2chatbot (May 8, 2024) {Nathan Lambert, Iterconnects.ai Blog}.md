@@ -5,13 +5,13 @@ Link: https://www.interconnects.ai/p/chatbotarena-the-future-of-llm-evaluation
 
 Broadly, LM evaluation these days is reduced to three things:
 1. The best academic benchmarks: The [[MMLU|MMLU]] benchmark, which is used to test general LM *knowledge*, along with some other static/open benchmarks. Developed by everyone, used by everyone, can benefit everyone.
-2. A few new-styled benchmarks: The only one to break through here is the [[ChatBotArena]] from LMSYS where state-of-the-art chat models are pitted head to head to see which model is the best. Serves a broader stakeholder audience  by being publicly available.
+2. A few new-styled benchmarks: The only one to break through here is the [[ChatBot Arena]] from LMSYS where state-of-the-art chat models are pitted head to head to see which model is the best. Serves a broader stakeholder audience  by being publicly available.
 3. Benchmarks we *don't see*: eg Private A/B testing of different LM endpoints within user applications. The gold standard for evaluation, but you need an existing product pipeline to serve through.
 
 This post focuses on ChatBotArena.
 
 # What is ChatBotArena?
-- [[ChatBotArena]] is the side-by-side blind taste test for current language models (LMs) from the LMSYS organization, and it's everyone's public evaluation darling.
+- [[ChatBot Arena]] is the side-by-side blind taste test for current language models (LMs) from the LMSYS organization, and it's everyone's public evaluation darling.
 - ChatBotArena fills a large niche: "Which chatbot from the many we hear about use is best at handling the general wave of content that most people expect LMs to be useful for?"
 	- You enter a question, are given two answers, and then you can vote which of the two answers are better, or continue the conversation. Only once you vote are the identities of the two models revealed. 
 	- No sign-ins are required -- anyone can come and go at their liking.

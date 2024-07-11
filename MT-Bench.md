@@ -2,7 +2,7 @@ June 9, 2023 -- UC Berkeley, UCSD, Carnegie Melon, Stanford
 Paper: [Judging LLM-as-aJudge with MT-Bench and Chatbot Arena](https://arxiv.org/pdf/2306.05685.pdf)
 Leaderboard: [Link](https://chat.lmsys.org/?leaderboard)
 
-This paper actually introduces two banger evaluations: [[MT-Bench]] and [[ChatBotArena]]!
+This paper actually introduces two banger evaluations: [[MT-Bench]] and [[ChatBot Arena]]!
 
 ---
 

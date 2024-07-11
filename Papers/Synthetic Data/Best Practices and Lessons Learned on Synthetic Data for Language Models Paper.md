@@ -2,7 +2,7 @@ April 11, 2024
 [[DeepMind|Google DeepMind]], Stanford, Georgia Tech
 [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://arxiv.org/abs/2404.07503)
 #zotero 
-Takeaway: ...
+Takeaway: Nothing particularly interesting in this paper. Added one or two to vocab/reading list. It's all stuff that we know!
 
 
 -----

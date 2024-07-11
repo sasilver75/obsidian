@@ -47,7 +47,7 @@ Problem 3: [[Exposure Bias]]
 		- Have 2+ generations, and ask a human which is better than the other, or if they're tied.
 		- +: Can be easier and more intuitive than direct assessment.
 		- -: You can't tell if all systems are really good or really bad (maybe you have two shitty generations).
-	- There generally are a limited number of things that humans can compare before their calibration falls apart. A typical way around this (eg used by [[ChatBotArena]]) is to use something like an ELO or TrueSkill ranking (created for Chess, Games), where they battle against eachother pairwise in multiple matches, and these ranking algorithms give you a score about how good each of the players are.
+	- There generally are a limited number of things that humans can compare before their calibration falls apart. A typical way around this (eg used by [[ChatBot Arena]]) is to use something like an ELO or TrueSkill ranking (created for Chess, Games), where they battle against eachother pairwise in multiple matches, and these ranking algorithms give you a score about how good each of the players are.
 	- Human Feedback: ==Error Annotation==
 		- Using humans to annotate individual errors within the outputs, as more fine-grained feedback... but can be very time-consuming.
 - ==Machine prediction of human preferences==
