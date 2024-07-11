@@ -79,6 +79,7 @@
 - [[Standard Deviation]]
 - [[Covariance]]
 - [[De Morgan's Law of Union]]
+- [[Linearity of Expectation]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]

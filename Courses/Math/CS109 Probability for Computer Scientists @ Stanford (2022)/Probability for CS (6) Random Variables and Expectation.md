@@ -87,3 +87,45 @@ Then everything is just equal to P(E4|K1)!
 ((But... you can have a bunch of other Ks too, like "they like action", and then you have another layer of variables?))
 
 
+---
+
+![[Pasted image 20240711131617.png]]
+![[Pasted image 20240711131749.png]]
+The three most important things we can say about a random variable
+- The probability of any assignment to the random variable (PMF, PDF)
+- The expectation
+- The variance
+![[Pasted image 20240711132001.png]]
+![[Pasted image 20240711131959.png]]
+
+![[Pasted image 20240711132224.png]]
+Y is a random variable (we think about the probability of it taking on different values), k is a variable. We use capital letters for random variables.
+
+
+![[Pasted image 20240711132335.png]]
+For discrete random variables. 
+
+![[Pasted image 20240711132940.png]]
+Take your random variable,... for all the values it can take on, (x), consider the probability that it takes on x (p(x)). So it's the probability-weighted sum of values that the random variable can take on.
+
+![[Pasted image 20240711133255.png]]
+![[Pasted image 20240711133448.png]]
+If you randomly choose a student and assume they're only in one of those classes, it's most likely to be 150, but what's the probability of those outcomes?
+$5*5/165+10*10/165+150*150/165 = 137.1212121212$
+
+
+![[Pasted image 20240711133836.png]]
+[[Linearity of Expectation]]
+Any linear transformation of a random variable, adding other variables, etc... 
+
+![[Pasted image 20240711133831.png]]
+Regardless of whether X and Y are independent, this is true!
+
+
+![[Pasted image 20240711134013.png]]
+What's our expected number of coin flips?
+
+![[Pasted image 20240711134445.png]]
+- Probability of getting a tails on your t'th coinflip, times the reward you get after t-1 heads
+- We can write this as a sum then evaluate it
+Theoretically your winnings are infinite? It sort of breaks the idea of expectation.
