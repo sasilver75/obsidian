@@ -13,7 +13,7 @@ Takeaway: ...
 
 ### Introduction
 - Recent efforts have focused on pretraining on more, higher-quality tokens. [[LLaMA 2]] was trained on 2 trillion tokens, while [[LLaMA 3]] was trained on 15 trillion tokens. The Nemotron-4 340B base model was trained with 9 trillion tokens on a high-quality dataset.
-- The model is aligned with [[Supervised Fine-Tuning|SFT]], [[Direct Preference Optimization|DPO]], then [[Proximal Policy Optimization|PPO]].
+- The model is aligned with [[Supervised Fine-Tuning|SFT]], [[Direct Preference Optimization|DPO]], then [[Reward-Aware Preference Optimization]].
 - Authors release `Nemotron-4-340B-Base`, `Nemotron-4-340B-Instruct`, and also the [[Reward Model]], `Nemotron-4-340B-Reward` as open-access models with a permissive license.
 	- Because of the permissive license, the authors note that these would be great models to use for synthetic data generation.
 - They use synthetic data heavily to create `Nemotron-4-340B-Instruct` -- ==over 98% of their training data was synthetically generated throughout the alignment process.==
@@ -93,7 +93,56 @@ Takeaway: ...
 		- In order to elicit the desired behavior in user turns, ==we find it essential to provide the model with explicit prompts that describe user personalities.== They also post-process user turns to mimic real-world user questions by ==*excluding polite statements*== ("Thank you for ...", "Sure I'd be happy to...").
 	- They use Nemotron-4-340B-Reward to assess the quality of dialogues, assigning a score to each sample and ==filtering== out those that fall below a predetermined threshold.
 - Synthetic Preference Data Generation
-	- They use their 10k human-annotated [[HelpSteer2]] preference data to train Nemotron-4-340B-Reward, but we also need preference data with a *more diverse* domain of prompts (than in HelpSteer2), with higher-quality responses from top-tier models... so we 
+	- They use their 10k human-annotated [[HelpSteer2]] preference data to train Nemotron-4-340B-Reward, but we also need preference data with a *more diverse* domain of prompts (than in HelpSteer2), with higher-quality responses from top-tier models... so we generate synthetic preference data.
+	- The preference data contains synthetic single-turn prompts, instruction-following prompts, two-turn prompts, as well as real-world prompts including ShareGPT prompts, LMSYS prompts, and prompts from [[GSM8K]] and [[MATH]].
+		- For each prompt, we generate responses using multiple random intermediate models for diversity of responses (and even from the completed model, so it's later used to improve itself!).
+	- Given multiple responses for each prompt, we need to judge their preference ranking and choose the chosen and rejected response.
+		- Some tasks can be evaluated using ground-truth labels (eg GSM8K and MATH training dataset) or verifiers (instruction-following response can be validated with a Python script)
+		- Other tasks don't come with an objective answer, so we consider using either *LLM-as-a-Judge* and *Reward-Model-as-a-Judge*. They end up choosing to use ==[[Reward-Model-as-a-Judge]]==.
+- ==Iterative Weak-to-Strong Alignment==
+	- High-quality data is essential for model alignment. 
+	- What model should we use as a generator, and how does generator strength relate to data quality? How can we improve the dat generator?
+	- *Inspired* by [[Weak-to-Strong Generalization]] (Burns et al., 2023), they develop a novel iterative approach to incrementally refine their data towards optimality.
+		1. An initial aligned model is employed as the generator for both dialogue nad preference data.
+		2. The data is then used for aligning a better base model using SFT and preference-tuning.
+		3. We find that the teacher model doesn't impose a ceiling on the student model -- as the base model and alignment data are refined, the newly-aligned model is able to surpass the initial model by a significant margin.
+	- Note that ==alignment procedures are performed in parallel with base model pretraining!== (In the first iteration, they use Mixtral-8x7B-Instruct-v0.1 as the initial aligned model.) This is sort of iterative [[Weak Supervision]].
+		- Generated data is leveraged to train an intermediate checkpoint of Nemotron-4-340B-Bae, which we call `340B-Interm-1-Base`.
+	- This iterative process creates a self-reinforcing flywheel effect, where improvements can be attributed to two aspects:
+		1. When using the same dataset, the strength of the base model has a direct impact on the instruct model, with stronger base models yielding stronger instruct models.
+		2. When using the same base model, the quality of the dataset plays a critical role in determining the effectiveness of the instruct model, with higher-quality data leading to stronger instruct models.
+- Additional Data Sources
+	- We incorporate several supplementary datasets to impart specific capabilities to the model, as listed below:
+		- ==Topic following== (Incorporates the [[CantTalkAboutThis]] training set; dialogues intentionally interspersed with distractor turns to divert the chatbot from the main subject)
+		- ==Incapable tasks== (Eg those that require access to the internet or real-time knowledge; we ask the model to respond with rejections)
+		- ==STEM datasets== (Open-Platypus dataset, used to train the Platypus2 model, to improve STEM and logic knowledge. Also include PRM800K, SciBench, ARB, openbookQA)
+		- ==Document-based reasoning and QA== (Document-grounded QA is important for LLMs; they leverage the FinQA dataset to improve numerical reasoning capability, and the wikitablequestions dataset to strengthen the model's understanding of semi-structured data)
+		- Function calling (a subset of samples from Glaive AI)
+- Alignment Algorithms
+	- SFT
+		- Experimental results showed that learning multiple behaviors concurrently can lead to conflicts between them, preventing the model from achieving optimal alignment on all tasks. So they use a ==two-stage SFT strategy==:
+			1. Code SFT: Authors develop ==[[Genetic Instruct]]==, an approach that mimics evolutionary processes and is inspired by [[Self-Instruct]] and [[Evol-Instruct]], generating a large number of synthetic samples from a limited number of high-quality seed examples. Uses a fitness function employing an LLM to assess the correctness and quality of generated instructions and solutions.
+			2. General SFT: A blended dataset of 200k samples that encompasses a variety of tasks.
+	- Preference Fine-tuning
+		- Their preference fine-tuning stage involves multiple iterations of model improvement using both [[Direct Preference Optimization|DPO]] and their new alignment algorithm, ==[[Reward-Aware Preference Optimization]]== (RPO).
+		- Direct Preference Optimization (DPO)
+			- Seems like they had a difficult time with DPO, and noticed that improvement of one metric usually came with degradation of other metrics. 
+			- They add an additional SFT loss to prevent the policy network from shifting a lot away from the preference data.
+			- The use a preference dataset of 160k examples including a variety of tasks.
+		- Reward-Aware Preference Optimization (RPO)
+			- The majority of their preference data is synthetic, with their preference ranking judged by Nemotron-4-340B-Reward.
+			- DPO only uses the binary order between two responses -- meanwhile, the rewards contain more information! 
+				- ==Some rejected responses will be only *slightly* worse than the paired chosen response, while in other cases the rejected response will be *far* behind. DPO is ignorant of this quality gap, leading to both overfitting and unnecessarily "unlearning" high-quality rejected responses.==
+			- RPO attempts to approximate the reward gap using the implicit reward defined by the policy network, leading to the following new loss function:![[Pasted image 20240710233504.png]]
+			- Above: $\pi$ is the policy network to train, $\pi_{ref}$ is the reference policy, $(x, y_c, y_l)$ are the prompt, chosen response, and rejected response. $r^*(x, y_c)$ and $r^*(x, y_l)$ are the rewards of the chosen and rejected responses by the reward model, respectively.
+				- ((I think eta is some sort of shaping function for the reward difference.))
+			- Compared to DPO, RPO learns to approximate the reward gap, which prevents the overfitting issue described earlier. Depending on the choice of the distance metric $\mathbb{D}$ , RPO is related to existing approaches like [[Direct Nash Optimization|DNO]], [[Identity-Mapping Preference Optimization|IPO]], Distill DPO, BRAINn. Authors used ![[Pasted image 20240710233852.png]]
+			- "We use a preference dataset of 300k examples with a less-harsh quality filtering on chosen responses"; 3 iterations of RPO training
+- Instruct Model Evaluation
+	- Benchmarked against a bunch of the usual suspects, performed well.
+	- Used a team of trained annotators to assess Nemotron-4-340B-Instruct against GPT-4-1106-preview, and found that Nemotron performed pretty well against it (though they usually tied).
+
+
 
 
 
@@ -122,6 +171,20 @@ Showing the process for *prompt generation* across four tasks.
 
 ![[Pasted image 20240710213312.png]]
 
+![[Pasted image 20240710224136.png]]
+The "Iterative Weak-to-Strong Alignment" workflow is inspired by [[Weak-to-Strong Generalization]] (2023).
+
+![[Pasted image 20240711003257.png]]
+Benchmark performance against open and closed models.
+
+![[Pasted image 20240711003507.png]]
+Showing the model's performance across two SFT phases, DPO, and 3 rounds of iterated RPO.
+
+![[Pasted image 20240711004722.png]]
+Interesting that it performed so poorly on the "Rewrite" category against GPT-4
+
+![[Pasted image 20240711004909.png]]
+Human evaluation results regarding length of generations.
 
 
 # Non-Paper Figures

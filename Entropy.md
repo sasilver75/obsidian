@@ -4,6 +4,9 @@ References:
 
 The expected surprisal of an event!
 
+$H(X) := -\sum{p(x)logp(x)}$
+
+
 ----
 Constraints on "surprise":
 1. An event with probability 1 has no surprise

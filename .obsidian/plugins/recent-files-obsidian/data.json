@@ -9,6 +9,42 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "TFEval",
+      "path": "TFEval.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "Reward-Aware Preference Optimization",
+      "path": "Reward-Aware Preference Optimization.md"
+    },
+    {
+      "basename": "~ Followup",
+      "path": "~ Followup.md"
+    },
+    {
+      "basename": "~ Interactions",
+      "path": "~ Interactions.md"
+    },
+    {
+      "basename": "CantTalkAboutThis",
+      "path": "CantTalkAboutThis.md"
+    },
+    {
+      "basename": "Weak Supervision",
+      "path": "Weak Supervision.md"
+    },
+    {
       "basename": "ChatBot Arena",
       "path": "ChatBot Arena.md"
     },
@@ -25,10 +61,6 @@
       "path": "UltraChat.md"
     },
     {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
       "basename": "HelpSteer2",
       "path": "HelpSteer2.md"
     },
@@ -43,10 +75,6 @@
     {
       "basename": "Squared ReLU",
       "path": "Squared ReLU.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
     },
     {
       "basename": "Proximal Policy Optimization",
@@ -171,34 +199,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Data Parallelism",
-      "path": "Data Parallelism.md"
-    },
-    {
-      "basename": "Tensor Parallelism",
-      "path": "Tensor Parallelism.md"
-    },
-    {
-      "basename": "HiPPO",
-      "path": "HiPPO.md"
-    },
-    {
-      "basename": "InfoNCE",
-      "path": "InfoNCE.md"
-    },
-    {
-      "basename": "MIPRO",
-      "path": "MIPRO.md"
-    },
-    {
-      "basename": "LongRoPE",
-      "path": "LongRoPE.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
     }
   ],
   "omittedPaths": [],

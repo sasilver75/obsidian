@@ -1,4 +1,4 @@
-This is a file where I put things that I want to follow up on later.
+A file for people/things that I want to follow up on later.
 
-
-The GLUE (NLP) and VTAB (CV) papers for benchmarking of pretraining (Context https://www.youtube.com/watch?v=en1Ha3tw6d4 @ 15:00)
+This [[CantTalkAboutThis]] dataset is mentioned in the [[Nemotron-4]] paper.
+The paper authors note "NVVIDIA" and "Santa Clara, CA". Maybe I can reach out to one of them with some comments about the paper!
