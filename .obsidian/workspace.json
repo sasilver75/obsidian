@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Low-Rank Adaptation.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3df89e136e2792e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gibbs Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61218ce3f03902a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Best-of-N Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "708e5e0c80921ff9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Medusa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +137,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Low-Rank Adaptation.md",
+                "file": "Gibbs Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Low-Rank Adaptation.md",
+                "file": "Gibbs Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Low-Rank Adaptation.md"
+                "file": "Gibbs Sampling.md"
               }
             }
           },
@@ -247,7 +287,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Low-Rank Adaptation.md",
+                "file": "Gibbs Sampling.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -294,9 +334,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "746885d2386c951f",
+  "active": "3df89e136e2792e3",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240712113642.png",
+    "_attachments/Pasted image 20240712113218.png",
+    "_attachments/Pasted image 20240712111352.png",
+    "_attachments/Pasted image 20240712110714.png",
+    "~ Vocabulary.md",
+    "Gibbs Sampling.md",
+    "Best-of-N Sampling.md",
+    "FlashAttention.md",
+    "AgentInstruct.md",
     "Medusa.md",
+    "Low-Rank Adaptation.md",
     "EvalGen.md",
     "_attachments/Pasted image 20240711234004.png",
     "_attachments/Pasted image 20240711233958.png",
@@ -306,12 +356,8 @@
     "_attachments/Pasted image 20240711230717.png",
     "_attachments/Pasted image 20240711230626.png",
     "_attachments/Pasted image 20240711230442.png",
-    "_attachments/Pasted image 20240711201419.png",
-    "_attachments/Pasted image 20240711201144.png",
-    "_attachments/Pasted image 20240711201128.png",
     "Distillation.md",
     "Zephyr.md",
-    "~ Vocabulary.md",
     "SiLU.md",
     "Together AI.md",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
@@ -327,12 +373,6 @@
     "Squared ReLU.md",
     "HelpSteer2.md",
     "ChatBot Arena.md",
-    "Dependency Parsing.md",
-    "Quality-Diversity through AI Feedback.md",
-    "LLaMA.md",
-    "LLaMA 3.md",
-    "Weak Supervision.md",
-    "TFEval.md",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",

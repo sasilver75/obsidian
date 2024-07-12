@@ -80,6 +80,7 @@
 - [[Covariance]]
 - [[De Morgan's Law of Union]]
 - [[Linearity of Expectation]]
+- [[Gibbs Sampling]]
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
@@ -406,6 +407,7 @@
 - [[Feature Clamping]]
 - [[State Space Model]] (SSM)
 - [[Quality-Diversity through AI Feedback]] (QDAIF)
+- [[AgentInstruct]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]

@@ -1,6 +1,10 @@
 Resources:
 - [VIDEO: Last 10 minutes or so of Lecture 16 of CS685@Amherst](https://www.youtube.com/live/cG3PQX64rKE?si=plxfQ18PaT_7Y71n&t=3118)
 
+FlashAttention (May 2022)
+FlashAttention 2 (July 2023)
+FlashAttention 3 (July 2024)
+
 
 ![[Pasted image 20240415170254.png]]
 People used to be very scared by the quadratic cost of attention
