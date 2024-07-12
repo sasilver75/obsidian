@@ -41,7 +41,57 @@ Takeaway: ...
 	- Only tokens from the same continuation are regarded as historical data.
 	- For a given k'th head, its top-s_k predictions serve as the basis for candidate formulation, where s_k is a designated hyperparameter.
 	- Our candidate sequences are established by determining the Cartesian product of the top-s_k predictions from each head.
-		- Within this tree, only a token's predecessors are seen as historical context, 
+			- ((Authors note that there might be other ways to construct a tree than with a Cartesian product))
+		- Within this tree, only a token's predecessors are seen as historical context (based on how the attention mask is constructed).
+		- By employing this mask and properly setting the positional indices for positional encoding, we can process numerous candidates simultaneously without the need to expand the batch size.
+- Training Strategies
+	- At the most *basic level*, they train Medusa heads by freezing the backbone model and fine-tuning medusa heads. (Medusa-1; low-compute)
+	- But we can also train the backbone in conjunction with the Medusa heads to significantly enhance the accuracy of the Medusa heads. (Medusa-2; ample compute)
+	- Medusa-1: Frozen Backbone 🧊
+		- We use a [[Cross-Entropy]] loss between the prediction of the Medusa heads and the ground truth. Given a ground-truth token $y_{t+k+1}$ at position $t+k+1$, the loss for the kth head is $\mathcal{L_k} = -logp_t^k(y_t+k+1)$ ... where the $p_t^k(y)$ denotes the probability of token y predicted by the kth head.
+			- Note that L_k is larger when k is larger, which is reasonable since the prediction of the kth head is more uncertain when k is larger. So we add a weight $\lambda_k$ to the loss to balance the loss of different heads. Add a total Medusa loss:![[Pasted image 20240711171755.png|500]]
+			- In practice, they set $\lambda_k$ as the kth power of a constant, like .8.
+	- Medusa-2: Joint Training 🚬
+		- To further improve accuracy, we can train the medusa heads together with the backbone model -- but this requires a special training recipe to preserve the backbone's next-token-prediction capabilities and output quality. We use three strategies:
+			1. ==Combined loss==: We add the cross-entropy loss of the backbone model to the Medusa loss, and also add a weight $\lambda_0$ to balance the loss of the backbone model and the Medusa heads, so the total loss is: $\mathcal{L}_{Medusa2}=\mathcal{L}_LM + \lambda_0\mathcal{L}_{Medusa1}$ 
+			2. ==Differential learning rates==: Since the backbone model is already well-trained relative to the Medusa heads, we use separate learning rates for them to enable faster convergence of Medusa heads, while preserving backbone model's capability.
+			3. ==Heads warmup==: Notice that at the beginning of training, Medusa heads have large loss, leading to a large gradient that might distort the backbone model's parameters. Thusly, they use a two-stage training process where in the first stage they only train the medusa heads (As in medusa-1), and in the second stage they train the backbone model and heads together, using a warmup strategy: They train the backbone model for a few epochs first, then train the Medusa heads together with the backbone model.
+- Selecting the number of heads
+	- Empirically, ==we found that five heads are sufficient at most== -- they recommend training with five heads and referring to the strategy described later to determine the optimal configuration of the tree attention. With optimizer tree attention, sometimes three or four heads might be enough for inference.
+- Extensions
+	- ==Typical Acceptance== strategy
+		- In [[Speculative Decoding]] papers, authors usually employ [[Rejection Sampling]] to yield diverse outputs that align with the distribution of the original model. Subsequent papers reveal this strategy results in diminished efficiency as the sampling temperature increases!
+			- Think: If the draft model were the same as the original one and using greedy decoding, all output of the draft model would be accepted, maximizing efficiency.
+			- Conversely, rejection sampling introduces extra overhead, as the draft model and the original model are sampled independently -- even if their distributions align perfectly, the output of the draft model may still be rejected.
+		- We propose that higher temperatures shuld result in *more* opportunities for the original model to accept the draft model's output... and that it's unnecessary to match the distribution of the original model.
+		- Thus, we propose a typical acceptance scheme to select plausible candidates, rather than using rejection sampling.
+		- Our objective is to choose candidates that are *typical* (not exceedingly improbable to be produced by the original model). We use the prediction probability from the original model as a natural gauge for this, and establish a threshold based on the prediction distribution to determine an acceptance.
+		- Given a context x1...xn, and evaluating a candidate sequence x1...xn+k+1 (compose by top predictions of the original language model head and medusa heads), we consider the condition:
+		- ![[Pasted image 20240711191435.png|300]]
+			- H is the entropy function, epsilon and delta are the hard threshold and the entropy-dependent threshold, respectively.
+			- Assumption: Tokens with relatively high probability are meaningful, and when the distribution's entropy is high, various continuations may be deemed reasonable.
+		- Every candidate during decoding is evaluated using this criterion, and a *prefix* of the candidate is accepted if it satisfies the condition. To guarantee the generation of at least one token at each step, we apply greedy decoding to the first token and unconditionally accept it while employing typical acceptance for subsequent tokens.
+		- The final prediction for the current step is determined by the ==longest accepted prefix== among all candidates.
+		- Insights from this scheme:
+			- When the temperature is set to zero, it reverts to greedy decoding, since only the most probable token possesses non-zero probability. As the temperature surpasses 0 the outcomes of greedy decoding will be consistently accepted with appropriate epsilon, delta since those tokens have the maximum probability, yielding maximal speedup.
+- Self-Distillation
+	- We assumed previously that we had some training dataset that matches the target model's output distribution, but this isn't always the case -- for example, the model owners may only release the model without the training data, or the model might already have gone through a RLHF process, making the output distribution from the model different from the training dataset.
+	- To tackle this, we propose an automated [[Self-Distillation]] pipeline to use the model itself to generate the training dataset for Medusa heads, which matches the output distribution of the model!
+	- Dataset generation process:
+		- Take a public seed dataset from a domain similar to the target model (eg using [[ShareGPT]])
+		- Take the prompts from the dataset and ask the model to respond to the prompts.
+		- To obtain multi-turn conversation samples, we can sequentially feed the prompts from the seed dataset to the model, or, for models like [[Zephyr]] 7B trained on both roles of the conversation, they have the ability to "self-talk," and we can simply feed the first prompt and let the model generate multiple rounds of conversation.
+		- For Medusa-1, this dataset is sufficient for training Medusa heads.
+		- For Medusa-2, we observe that solely using this dataset for training the backbone *and* Medusa heads usually leads to lower generation quality! Even without training Medusa heads, training the backbone with this model leads to performance degradation -- this suggests that we also need to use the original model's probability prediction, instead of using the ground-truth token as the label for the backbone model -- similar to classic knowledge distillation works.
+		- So the loss for the backbone model is: 
+			- $\mathcal{L}_{LM-distill} = KL(p_{original,t}||p_t)$ ... where $p_{original,t}$ denotes the probability distribution of the original model's prediction at position t.
+		- This requires maintaining two models during training, increasing the model memory requirements.
+		- They use a PEFT adapter like [[Low-Rank Adaptation|LoRA]] to fine-tune the back-bone model; so the original model is simply the model with the adapter turned off -- so the self-distillation doesn't require additional memory consumption! Cool trick :) They note that it's preferable to use LoRA without quantization.
+- Searching for the optimized tree construction
+	- We noted earlier that the simplest way to construct the tree structure is just by taking the Cartesian product, but a regular tree structure might not be the best choice -- we can leverage an estimation of the accuracy to construct the tree structure...
+	- Thinking about building a tree by adding nodes one by one...using teh accuracies of top predictions from different heads on a calibration dataset. We greedily add nodes to the tree by choosing the node that's connected to the current tree and has the highest accuracy. Repeat the process until a desired number of nodes is reached.
+- Experiments
+	- 
 
 
 Abstract
@@ -52,5 +102,25 @@ Abstract
 # Paper Figures
 ![[Pasted image 20240711144612.png|300]]
 Medusa includes multiple prediction heads, each of which generates multiple predictions for its designated position. These predictions are assembled into sequence candidates, and a ==tree-based attention mechanism== is used to process them in parallel. It seems we can either use a standard [[Rejection Sampling]] scheme or a *typical acceptance* scheme.
+
+![[Pasted image 20240711170016.png|500]]
+It doesn't seem like we have to set the same s_k (?) for every k head -- in this example, they're considering two for the first position, and three for the second position. It sort of makes sense that as uncertainty increases (as we prognosticate further into the future), we consider more tokens/a wider tree.
+
+![[Pasted image 20240711200838.png|600]]
+See that Medusas gives a ~2.2-2.8x speedup over standard Vicuna, and that the speedup isn't uniform across MT-Bench categories.
+
+![[Pasted image 20240711201049.png|500]]
+
+![[Pasted image 20240711201128.png|400]]
+
+![[Pasted image 20240711201144.png|300]]
+
+![[Pasted image 20240711201419.png|300]]
+
+
+
+
+
+
 
 # Non-Paper Figures

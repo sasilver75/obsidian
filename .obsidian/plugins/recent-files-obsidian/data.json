@@ -5,6 +5,14 @@
       "path": "Medusa.md"
     },
     {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
       "path": "Papers/IR and RAG/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
-    },
-    {
-      "basename": "CS224N Lecture 1",
-      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md"
-    },
-    {
-      "basename": "GPT",
-      "path": "GPT.md"
     }
   ],
   "omittedPaths": [],

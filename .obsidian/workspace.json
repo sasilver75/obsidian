@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "1183ef67350ae448",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zephyr.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1e1e040c6f8ca17d",
             "type": "leaf",
             "state": {
@@ -88,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "1000 ",
+                "query": "\\math",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -256,9 +270,19 @@
   },
   "active": "746885d2386c951f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240711201419.png",
+    "_attachments/Pasted image 20240711201144.png",
+    "_attachments/Pasted image 20240711201128.png",
+    "_attachments/Pasted image 20240711201049.png",
+    "_attachments/Pasted image 20240711200838.png",
+    "Distillation.md",
+    "Medusa.md",
+    "Zephyr.md",
+    "_attachments/Pasted image 20240711191435.png",
+    "_attachments/Pasted image 20240711171755.png",
+    "_attachments/Pasted image 20240711170016.png",
     "~ Vocabulary.md",
     "SiLU.md",
-    "Medusa.md",
     "Rejection Sampling.md",
     "_attachments/Pasted image 20240711144612.png",
     "Together AI.md",
@@ -266,13 +290,6 @@
     "Untitled 3.md",
     "_attachments/Pasted image 20240711134445.png",
     "_attachments/Pasted image 20240711134318.png",
-    "_attachments/Pasted image 20240711134013.png",
-    "_attachments/Pasted image 20240711133836.png",
-    "_attachments/Pasted image 20240711133831.png",
-    "_attachments/Pasted image 20240711133724.png",
-    "_attachments/Pasted image 20240711133448.png",
-    "_attachments/Pasted image 20240711133255.png",
-    "_attachments/Pasted image 20240711133214.png",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "Courses/Math",
     "AlpaGasus.md",
@@ -290,9 +307,6 @@
     "LLaMA 3.md",
     "Weak Supervision.md",
     "TFEval.md",
-    "SynthLabs.md",
-    "Stability AI.md",
-    "Nemotron-4.md",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",
