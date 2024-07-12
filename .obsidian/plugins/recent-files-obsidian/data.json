@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "SynthLabs",
+      "path": "SynthLabs.md"
+    },
+    {
       "basename": "Gibbs Sampling",
       "path": "Gibbs Sampling.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "FlashAttention",
       "path": "FlashAttention.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
     },
     {
       "basename": "Medusa",
@@ -67,10 +75,6 @@
     {
       "basename": "AlpaGasus",
       "path": "AlpaGasus.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
     },
     {
       "basename": "DeepSeekMath",
@@ -123,10 +127,6 @@
     {
       "basename": "TFEval",
       "path": "TFEval.md"
-    },
-    {
-      "basename": "SynthLabs",
-      "path": "SynthLabs.md"
     },
     {
       "basename": "Stability AI",

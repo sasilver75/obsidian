@@ -24,8 +24,9 @@ There are two main approaches to generate synthetic data:
 Above: [[TinyStories]], [[Phi-1]], [[Unnatural Instructions]], [[Alpaca]], [[AlpaGasus]], [[Vicuna]], [[Orca]], [[Orca 2]], [[WizardLM]], [[WizardCoder]], [[Magicoder]], [[WaveCoder]], [[Starling]], [[AlphaGeometry]], [[Web Rephrase Augmented Pre-training|WRAP]], [[Self-Instruct]], [[Self-Play Fine-Tuning]], [[Instruction Backtranslation]], [[Reinforced Self-Training|ReSTEM]], [[Constitutional AI|CAI]], [[Self-Reward]]
 
 Important considerations when generating synthetic data:
+- Quality of content
 - Diversity of content
-- Depth/difficulty of content
+- Complexity/Depth/Nuance/Difficulty of content
 - Number of turns
 - Average turn length
 - (Sometimes) Removing undesirable behaviors (eg "as an AI language model")

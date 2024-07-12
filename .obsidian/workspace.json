@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gibbs Sampling.md",
+                "file": "AgentInstruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "022df3dab20e9adf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthetic Data.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -214,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gibbs Sampling.md",
+                "file": "AgentInstruct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gibbs Sampling.md",
+                "file": "AgentInstruct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gibbs Sampling.md"
+                "file": "AgentInstruct.md"
               }
             }
           },
@@ -287,7 +300,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Gibbs Sampling.md",
+                "file": "AgentInstruct.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -336,26 +349,28 @@
   },
   "active": "3df89e136e2792e3",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240712150655.png",
+    "_attachments/Pasted image 20240712142753.png",
+    "_attachments/Pasted image 20240712142243.png",
+    "_attachments/Pasted image 20240712141157.png",
+    "_attachments/Pasted image 20240712141155.png",
+    "_attachments/Pasted image 20240712140007.png",
+    "_attachments/Pasted image 20240712133542.png",
+    "Synthetic Data.md",
+    "SynthLabs.md",
+    "AgentInstruct.md",
+    "_attachments/Pasted image 20240712125513.png",
+    "Gibbs Sampling.md",
     "_attachments/Pasted image 20240712113642.png",
     "_attachments/Pasted image 20240712113218.png",
     "_attachments/Pasted image 20240712111352.png",
-    "_attachments/Pasted image 20240712110714.png",
     "~ Vocabulary.md",
-    "Gibbs Sampling.md",
     "Best-of-N Sampling.md",
     "FlashAttention.md",
-    "AgentInstruct.md",
     "Medusa.md",
     "Low-Rank Adaptation.md",
     "EvalGen.md",
-    "_attachments/Pasted image 20240711234004.png",
-    "_attachments/Pasted image 20240711233958.png",
-    "_attachments/Pasted image 20240711233314.png",
     "Rejection Sampling.md",
-    "_attachments/Pasted image 20240711231445.png",
-    "_attachments/Pasted image 20240711230717.png",
-    "_attachments/Pasted image 20240711230626.png",
-    "_attachments/Pasted image 20240711230442.png",
     "Distillation.md",
     "Zephyr.md",
     "SiLU.md",
@@ -365,14 +380,12 @@
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "Courses/Math",
     "AlpaGasus.md",
-    "Synthetic Data.md",
     "DeepSeekMath.md",
     "Minerva.md",
     "Mind's Eye.md",
     "Constrained Decoding.md",
     "Squared ReLU.md",
     "HelpSteer2.md",
-    "ChatBot Arena.md",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",

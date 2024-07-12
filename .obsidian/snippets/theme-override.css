@@ -59,9 +59,3 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-/* (07/12/24) Setting Image size defaults from https://forum.obsidian.md/t/set-default-size-for-images/68377/2*/
-.image-embed.image-embed img:not([width]) {
-    max-height: 350px;
-    max-width: 400px;
-}
