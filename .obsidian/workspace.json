@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Medusa.md",
+                "file": "Low-Rank Adaptation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "553ee9b5176a1618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EvalGen.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57d1bac997093c68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rejection Sampling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -148,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Medusa.md",
+                "file": "Low-Rank Adaptation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Medusa.md",
+                "file": "Low-Rank Adaptation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Medusa.md"
+                "file": "Low-Rank Adaptation.md"
               }
             }
           },
@@ -221,7 +247,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Medusa.md",
+                "file": "Low-Rank Adaptation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -270,26 +296,26 @@
   },
   "active": "746885d2386c951f",
   "lastOpenFiles": [
+    "Medusa.md",
+    "EvalGen.md",
+    "_attachments/Pasted image 20240711234004.png",
+    "_attachments/Pasted image 20240711233958.png",
+    "_attachments/Pasted image 20240711233314.png",
+    "Rejection Sampling.md",
+    "_attachments/Pasted image 20240711231445.png",
+    "_attachments/Pasted image 20240711230717.png",
+    "_attachments/Pasted image 20240711230626.png",
+    "_attachments/Pasted image 20240711230442.png",
     "_attachments/Pasted image 20240711201419.png",
     "_attachments/Pasted image 20240711201144.png",
     "_attachments/Pasted image 20240711201128.png",
-    "_attachments/Pasted image 20240711201049.png",
-    "_attachments/Pasted image 20240711200838.png",
     "Distillation.md",
-    "Medusa.md",
     "Zephyr.md",
-    "_attachments/Pasted image 20240711191435.png",
-    "_attachments/Pasted image 20240711171755.png",
-    "_attachments/Pasted image 20240711170016.png",
     "~ Vocabulary.md",
     "SiLU.md",
-    "Rejection Sampling.md",
-    "_attachments/Pasted image 20240711144612.png",
     "Together AI.md",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md",
     "Untitled 3.md",
-    "_attachments/Pasted image 20240711134445.png",
-    "_attachments/Pasted image 20240711134318.png",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md",
     "Courses/Math",
     "AlpaGasus.md",

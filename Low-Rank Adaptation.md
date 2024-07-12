@@ -2,6 +2,9 @@
 aliases:
   - LoRA
 ---
+References:
+- Video: [Umar Jamil's LoRA: Low-Rank Adaptation of Large Language Models](https://www.youtube.com/watch?v=PXWYUTMt-AU)
+
 See also: [[Parameter-Efficient Fine-Tuning]], [[Quantized Low-Rank Adaptation]]
 
 

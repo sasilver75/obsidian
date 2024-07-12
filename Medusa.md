@@ -2,7 +2,10 @@ January 19, 2024
 Princeton, [[Together AI]], UIUC, CMU, UConn (incl. [[Tri Dao]])
 [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/abs/2401.10774)
 #zotero 
-Takeaway: ...
+Takeaway: A method for increasing speeding up output generation that maintains output quality comparable to real model while increasing speed ~2-3x and requiring minimal changes to the existing LLM architecture by adding additional decoding heads. The heads can be fine-tuned separately with a frozen backbone, or jointly trained with the backbone (with some smart learning rates/warmup). The multiple decoding heads each predict a future token/position in parallel with the main model's processing, and their token probability distributions (with thresholding) construct a tree-like structure of potential token sequences. (Unsure): We can then feed the candidate sequences back through the model to see if it agrees, effectively jumping our generation forwards a few steps in a single forward pass (there's also something like a confidence score associated with these candidate sequences, and we can threshold on that).
+
+References:
+- Video: [OxenAI's How Medusa Works](https://www.youtube.com/watch?v=Jjjn-J9SJ1s&t=4s) esp 43:00
 
 ---
 
@@ -90,8 +93,6 @@ Takeaway: ...
 - Searching for the optimized tree construction
 	- We noted earlier that the simplest way to construct the tree structure is just by taking the Cartesian product, but a regular tree structure might not be the best choice -- we can leverage an estimation of the accuracy to construct the tree structure...
 	- Thinking about building a tree by adding nodes one by one...using teh accuracies of top predictions from different heads on a calibration dataset. We greedily add nodes to the tree by choosing the node that's connected to the current tree and has the highest accuracy. Repeat the process until a desired number of nodes is reached.
-- Experiments
-	- 
 
 
 Abstract
@@ -104,7 +105,13 @@ Abstract
 Medusa includes multiple prediction heads, each of which generates multiple predictions for its designated position. These predictions are assembled into sequence candidates, and a ==tree-based attention mechanism== is used to process them in parallel. It seems we can either use a standard [[Rejection Sampling]] scheme or a *typical acceptance* scheme.
 
 ![[Pasted image 20240711170016.png|500]]
-It doesn't seem like we have to set the same s_k (?) for every k head -- in this example, they're considering two for the first position, and three for the second position. It sort of makes sense that as uncertainty increases (as we prognosticate further into the future), we consider more tokens/a wider tree.
+It doesn't seem like we have to set the same s_k (?) for every k head -- in this example, they're considering two for the first position, and three for the second position. It sort of makes sense that as uncertainty increases (as we prognosticate further into the future), we consider more tokens/a wider tree. Above picture shows 2 candidates for the first medusa head, and the second 
+- "I'm not going to attend to all tokens, I'm only going to attend to tokens that came before on my "path" within the tree.
+![[Pasted image 20240711234004.png|300]]
+If, in our verification step, the model predicts "it" for the first position... we can discard the left side of the tree here, because the model didn't verify "I".
+- We do this speculative decoding to guess tokens the future in parallel (say 5 at a time), and we verify with the model. But instead of verifying a single tree path at a time, we want to verify the whole tree of candidates; the Tree attention mask above lets us do this whole verification simultaneously... 
+
+
 
 ![[Pasted image 20240711200838.png|600]]
 See that Medusas gives a ~2.2-2.8x speedup over standard Vicuna, and that the speedup isn't uniform across MT-Bench categories.
@@ -119,8 +126,57 @@ See that Medusas gives a ~2.2-2.8x speedup over standard Vicuna, and that the sp
 
 
 
-
-
-
-
 # Non-Paper Figures
+![[Pasted image 20240711230442.png|500]]
+From the OxenAI walkthrough; Essentially we have our 0 token to predict 1.... and 2 and 3 are Medusa speculation
+We feed the sequence 0,1,2,3, back to the model, and the LM predicts 1,2,3,4 for the next token for each. So it verifies it, cool. That's the rough idea.
+There's a strategy on how you actual accept things... We might not accept the entire proposal:
+![[Pasted image 20240711230626.png|500]]
+How do we actually accept these tokens, though?
+We *could* use Rejection sampling.... which at a simple level does the following:
+![[Pasted image 20240711230717.png]]
+Given a speculated token (2,3,4), they have an associated probability distribution (we're considering a greedy decoding setting, so only showing the top probability for the token that was actually accepted) from the respective medusa head.  If, upon feeding the sequence (with speculation) back to the main model, the main model has a higher probability, we accept. If it has a lower probability, we reject it with a certain probability, given as a ratio between the model/speculation... so the bigger the gap, the less likely we are to accept a token. This is basically the idea of [[Rejection Sampling]]
+
+![[Pasted image 20240711231445.png]]
+You can subtract the probability distributions, and sample from the remaining positive terms (as an alternative). The deepmind/google papers.  
+
+So Rejection Sampling is one way of doing it, but there's another way of doing it that the authors used. This process of being able to generate and then select is critical to Medusa's speedups and performance.
+
+But note there's one complication where every head isn't just picking its top token; instead, each medusa head is offering some top k tokens that are that combined in a cartesian product with the candidates from other medusa heads. Increasing the number of possible generations like this increases the probability of generating some longer accepted sequence... 
+
+----
+
+Preserving a great explainer of tree-attention from a [user on reddit](https://www.reddit.com/r/LocalLLaMA/comments/16g27s0/comment/k077ukn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button):
+
+> My understanding is that the tree attention by itself enables the parallel validation of each edge of the tree of speculated continuations, which is made up of the combinations of the top-k predictions of the Medusa heads produced in the previous inference step.
+> An example of 2 medusa heads with their top-2 predictions:
+> Head 1: ["I", "The"]
+> Head 2: ["love", "hate"]
+> Which produce a tree like this:
+> * 　　　　　->I　　　　　　　->love
+> 　　　　　　　　　　　　　　->hate
+> 　　　　　　->The　　　　　->love
+> 　　　　　　　　　　　　　　->hate
+> 
+> Each node of the tree consist of a token.
+> Each edge(arrow) points to a speculated next token continuation from each node.
+> Parallel validation works by simultaneously producing the model's next token for each node in the tree.
+> For example:
+> *(The)　　　->I(hate)　　　->love(the)
+> 　　　　　　　　　　　　　　->hate(those)
+> 　　　　　　->The(love)　　->love(of)
+> 　　　　　　　　　　　　　　->hatred(between)
+> 
+> The tokens in bold are the speculations that fit the output of the model. Starting from the root and going through the path of valid speculations, we can infer that the next three tokens should be "The", "love" and "of".
+> 
+> Now for a slightly different example, where the model output "desire" for the token "The" :
+> *(The)　　　->I(hate)　　　->love(the)
+> 　　　　　　　　　　　　　　->hate(those)
+> 　　　　　　->The(desire)　->love(of)
+> 　　　　　　　　　　　　　　->hatred(between)
+> 
+> The path of valid speculations here end at "The", because no speculated continuations from that node (the top-2 predictions of the Medusa head in the next position in the previous inference step) fit the model's continuation for that node (desire).
+> So only 2 tokens, "The" and "desire" are accepted in this example.
+
+
+

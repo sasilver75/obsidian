@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Low-Rank Adaptation",
+      "path": "Low-Rank Adaptation.md"
+    },
+    {
       "basename": "Medusa",
       "path": "Medusa.md"
+    },
+    {
+      "basename": "EvalGen",
+      "path": "EvalGen.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
     },
     {
       "basename": "Distillation",
@@ -19,10 +31,6 @@
     {
       "basename": "SiLU",
       "path": "SiLU.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
     },
     {
       "basename": "Together AI",
@@ -191,14 +199,6 @@
     {
       "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
       "path": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
-    },
-    {
-      "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
-      "path": "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
-    },
-    {
-      "basename": "Internet-Augmented Language Models through few-shot prompting for open-domain question-answering",
-      "path": "Papers/IR and RAG/Internet-Augmented Language Models through few-shot prompting for open-domain question-answering.md"
     }
   ],
   "omittedPaths": [],
