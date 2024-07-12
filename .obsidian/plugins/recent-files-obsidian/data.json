@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Low-Rank Adaptation",
-      "path": "Low-Rank Adaptation.md"
+      "basename": "Gibbs Sampling",
+      "path": "Gibbs Sampling.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Best-of-N Sampling",
+      "path": "Best-of-N Sampling.md"
+    },
+    {
+      "basename": "FlashAttention",
+      "path": "FlashAttention.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
     },
     {
       "basename": "Medusa",
       "path": "Medusa.md"
+    },
+    {
+      "basename": "Low-Rank Adaptation",
+      "path": "Low-Rank Adaptation.md"
     },
     {
       "basename": "EvalGen",
@@ -23,10 +43,6 @@
     {
       "basename": "Zephyr",
       "path": "Zephyr.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "SiLU",
@@ -183,22 +199,6 @@
     {
       "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models Paper",
       "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md"
-    },
-    {
-      "basename": "Reflexion",
-      "path": "Reflexion.md"
-    },
-    {
-      "basename": "The Bitter Lesson Paper",
-      "path": "Papers/General/The Bitter Lesson Paper.md"
-    },
-    {
-      "basename": "Understanding Deep Learning requires Rethinking Generalization Paper",
-      "path": "Papers/General/Understanding Deep Learning requires Rethinking Generalization Paper.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
-      "path": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
     }
   ],
   "omittedPaths": [],
