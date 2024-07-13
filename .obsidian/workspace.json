@@ -26,14 +26,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPQA.md",
+                "file": "WizardArena.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6d4e7e35e90968a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b99fd97e638e057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenRouter.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "WizardArena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "WizardArena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "WizardArena.md"
               }
             }
           },
@@ -181,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "WizardArena.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,16 +254,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ec9ae15c05885d21",
+  "active": "651d14c003ea6f0f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240713135409.png",
+    "_attachments/Pasted image 20240713135349.png",
+    "~ Vocabulary.md",
+    "OpenRouter.md",
+    "WizardArena.md",
     "GPQA.md",
     "MuSR.md",
     "GAIA.md",
     "IFEval.md",
     "ChatBot Arena.md",
     "UltraFeedback.md",
-    "WizardArena.md",
-    "~ Vocabulary.md",
     "UltraChat.md",
     "MT-Bench.md",
     "AlpacaEval.md",
@@ -255,8 +285,6 @@
     "Knowledge Pile.md",
     "Query of CC.md",
     "Orca 3.md",
-    "DROP.md",
-    "FoFo.md",
     "_attachments/Pasted image 20240712183600.png",
     "_attachments/Pasted image 20240712181603.png",
     "_attachments/Pasted image 20240712175030.png",
@@ -264,7 +292,6 @@
     "_attachments/Pasted image 20240712174902.png",
     "_attachments/Pasted image 20240712174846.png",
     "_attachments/Pasted image 20240712174504.png",
-    "_attachments/Pasted image 20240712171502.png",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
