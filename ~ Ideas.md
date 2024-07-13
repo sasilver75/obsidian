@@ -25,7 +25,7 @@
 - MCTS for Synthetic Data Generation?
 	- ![[Pasted image 20240702225605.png|300]]
 - > "I'm still of the mind that there do not exist good multi-turn datasets or other resources of bootstrapping anything like L3 or Gemma (without copious abuse of GPT-4 class models)." - Teortaxes
-
+- There are a bunch of papers for synthetic IFT and IFT evaluation that try to create taxonomies of skills -- See AgentInstruct and Skill-Mix, and look for others for information. It would be nice to compile that into a blog post or something.
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 
@@ -34,6 +34,3 @@ https://x.com/thesephist/status/1734966611814289756?s=20
 - As per [this](https://youtu.be/TIqf4LMNCjU?si=lTLl_4ft-TmCpMNr) video, distillation is usually used to create a smaller model with a similar performance. Can you use distillation (by providing higher quality labels; either distributions or rationales) to train successively better versions of the same size model? What about slightly increasing capacity models? Do you need more capacity to benefit from the slightly better labels?
 - Sort of like how yikes in the Latent Space paper club used OpenInterpreter to scrape a bunch of related papers into a Weaviate rag chatbot (Verba), and then used it as a sidecar to the presentation.... could you do the same thing for a powerpoint presentation, for instance? Extract topics, etc from the slides, find relevant documents ingest them, and people can answer questions they have about the presentation from a little sidecar Q&A bot while the presentation is still going, so they can have better understanding.
 
-![[Pasted image 20240313115215.png]]
-
-- A chrome extension that lets you comment on every page on the internet. The comment section of the internet. Bootstrap it with LLM outputs.

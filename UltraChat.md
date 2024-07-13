@@ -1,4 +1,5 @@
-May 23, 2023 -- Tsinghua University
+May 23, 2023
+Tsinghua University
 Paper: [Enhancing Chat Language Models by Scaling High-Quality Instructional Conversations](https://arxiv.org/abs/2305.14233)
 
 A dataset of systematically designed, diverse, informative instructional conversations aiming to capture the breadth of interactions that a human might have with an AI assistant, including multi-turn conversations.
