@@ -2,7 +2,7 @@ Mid-2023 (?) -- Tatsu Lab
 (No paper for AlpacaEval, just a GitHub Repo): [alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)
 But inspired by AlpacaFarm paper here: [AlpacaFarm](https://arxiv.org/abs/2305.14387)
 
-An automated evaluation framework measuring how often a strong LLM prefers the output of one model over a reference model. Metrics include win rate, bias, latency, price, variance, etc. Validated to have high human agreement with 20k human annotations.
+An automated evaluation framework measuring how often a strong LLM prefers the output of one model over a reference model. Metrics include win rate, bias, latency, price, variance, etc. Validated to have high human agreement with 20k human annotations. A model must generate a response to 805 questions on different topics, mostly focused on helpfulness, and then scored by GPT-4... but the final metric is the pairwise win-rate against a baseline model ([[text-davinci-003]]).
 
 Useful as a quick and cheap proxy for human evaluation of a simple instruction-following tasks. Useful for running many evaluations quickly, eg during model development.
 

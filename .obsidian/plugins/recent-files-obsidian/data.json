@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
       "basename": "Zephyr",
       "path": "Zephyr.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
+    },
+    {
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
+    },
+    {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
     },
     {
       "basename": "WizardLM",
@@ -19,14 +39,6 @@
     {
       "basename": "Together AI",
       "path": "Together AI.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "UltraFeedback",
-      "path": "UltraFeedback.md"
     },
     {
       "basename": "Rejection Sampling",
@@ -71,10 +83,6 @@
     {
       "basename": "InFoBench",
       "path": "InFoBench.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
     },
     {
       "basename": "~ Ideas",
@@ -191,14 +199,6 @@
     {
       "basename": "TFEval",
       "path": "TFEval.md"
-    },
-    {
-      "basename": "Stability AI",
-      "path": "Stability AI.md"
-    },
-    {
-      "basename": "Nemotron-4",
-      "path": "Nemotron-4.md"
     }
   ],
   "omittedPaths": [],
