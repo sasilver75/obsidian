@@ -1,28 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
+      "basename": "GPQA",
+      "path": "GPQA.md"
     },
     {
-      "basename": "MT-Bench",
-      "path": "MT-Bench.md"
+      "basename": "MuSR",
+      "path": "MuSR.md"
+    },
+    {
+      "basename": "GAIA",
+      "path": "GAIA.md"
+    },
+    {
+      "basename": "IFEval",
+      "path": "IFEval.md"
+    },
+    {
+      "basename": "ChatBot Arena",
+      "path": "ChatBot Arena.md"
     },
     {
       "basename": "UltraFeedback",
       "path": "UltraFeedback.md"
     },
     {
+      "basename": "WizardArena",
+      "path": "WizardArena.md"
+    },
+    {
       "basename": "UltraChat",
       "path": "UltraChat.md"
+    },
+    {
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
     },
     {
       "basename": "AgentInstruct",
@@ -97,10 +121,6 @@
       "path": "EQBench.md"
     },
     {
-      "basename": "MuSR",
-      "path": "MuSR.md"
-    },
-    {
       "basename": "Orca",
       "path": "Orca.md"
     },
@@ -173,32 +193,12 @@
       "path": "HelpSteer2.md"
     },
     {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
-    },
-    {
       "basename": "Dependency Parsing",
       "path": "Dependency Parsing.md"
     },
     {
       "basename": "Quality-Diversity through AI Feedback",
       "path": "Quality-Diversity through AI Feedback.md"
-    },
-    {
-      "basename": "LLaMA",
-      "path": "LLaMA.md"
-    },
-    {
-      "basename": "LLaMA 3",
-      "path": "LLaMA 3.md"
-    },
-    {
-      "basename": "Weak Supervision",
-      "path": "Weak Supervision.md"
-    },
-    {
-      "basename": "TFEval",
-      "path": "TFEval.md"
     }
   ],
   "omittedPaths": [],
