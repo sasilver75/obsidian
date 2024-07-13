@@ -1,4 +1,4 @@
-April 24, 2023
+April 24, 2023 (2 months after LLaMA, 1 month after Alpaca/Vicuna)
 [[Microsoft Research]]
 Paper: [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244)
 #zotero 

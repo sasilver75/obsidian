@@ -10,6 +10,7 @@ Authors use a 25M dataset created by this technique to finetune Mistral-7B into 
 Interestingly, the pipeline doesn't include information on if there's any subsequent filtering (eg via some LLM-as-a-Judge) after any of the steps.
 
 They'll be releasing the Orca-3-7b model soon, but when asked about the dataset, they said "You never know, we were able to release the [[Orca-Math]] dataset." Teknium said that the paper made replicating the code kind of impossible, because there were a lot of missing pieces.
+> Re: Teacher responses: "We used a mix of many GPT-$, GPT-4 Turbo versions, whatever we could get access to. Teacher response collection can be tricky, but in most cases GPT4 responses are taken as-is. But in some cases, like tool use, GPT4 might not always format correctly so we add checks." [twitter](https://x.com/420_gunna/status/1811927194979193131)... Regarding filtering steps to remove low-quality instructions, they reduced the number of unanswerable questions/instructions, but didn't remove them, so as to teach the model when not to answer (with the assumption here I think that the smart GPT-4 teacher model knows when to not answer, and would, via distillation, teach Orca 3.) But I don't think they did any other sort of quality filtering.
 
 ---
 

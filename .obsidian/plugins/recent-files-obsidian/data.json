@@ -5,32 +5,88 @@
       "path": "AgentInstruct.md"
     },
     {
-      "basename": "~ Tags",
-      "path": "~ Tags.md"
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
     },
     {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "SiLU",
+      "path": "SiLU.md"
+    },
+    {
+      "basename": "Together AI",
+      "path": "Together AI.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "EQBench",
-      "path": "EQBench.md"
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
     },
     {
-      "basename": "InFoBench",
-      "path": "InFoBench.md"
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "EvalGen",
+      "path": "EvalGen.md"
+    },
+    {
+      "basename": "Medusa",
+      "path": "Medusa.md"
+    },
+    {
+      "basename": "Best-of-N Sampling",
+      "path": "Best-of-N Sampling.md"
+    },
+    {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "Knowledge Pile",
+      "path": "Knowledge Pile.md"
+    },
+    {
+      "basename": "Query of CC",
+      "path": "Query of CC.md"
+    },
+    {
+      "basename": "Orca 3",
+      "path": "Orca 3.md"
+    },
+    {
+      "basename": "DROP",
+      "path": "DROP.md"
     },
     {
       "basename": "FoFo",
       "path": "FoFo.md"
     },
     {
-      "basename": "DROP",
-      "path": "DROP.md"
+      "basename": "InFoBench",
+      "path": "InFoBench.md"
+    },
+    {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "~ Tags",
+      "path": "~ Tags.md"
+    },
+    {
+      "basename": "EQBench",
+      "path": "EQBench.md"
     },
     {
       "basename": "MuSR",
@@ -41,24 +97,12 @@
       "path": "Orca.md"
     },
     {
-      "basename": "Orca 3",
-      "path": "Orca 3.md"
-    },
-    {
       "basename": "Mind's Eye",
       "path": "Mind's Eye.md"
     },
     {
       "basename": "AGIEval",
       "path": "AGIEval.md"
-    },
-    {
-      "basename": "Query of CC",
-      "path": "Query of CC.md"
-    },
-    {
-      "basename": "Knowledge Pile",
-      "path": "Knowledge Pile.md"
     },
     {
       "basename": "AgentInstruct 2024-07-12 15.36.46.excalidraw",
@@ -73,44 +117,16 @@
       "path": "Gibbs Sampling.md"
     },
     {
-      "basename": "Best-of-N Sampling",
-      "path": "Best-of-N Sampling.md"
-    },
-    {
       "basename": "FlashAttention",
       "path": "FlashAttention.md"
-    },
-    {
-      "basename": "Medusa",
-      "path": "Medusa.md"
     },
     {
       "basename": "Low-Rank Adaptation",
       "path": "Low-Rank Adaptation.md"
     },
     {
-      "basename": "EvalGen",
-      "path": "EvalGen.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
       "basename": "Distillation",
       "path": "Distillation.md"
-    },
-    {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
-      "basename": "SiLU",
-      "path": "SiLU.md"
-    },
-    {
-      "basename": "Together AI",
-      "path": "Together AI.md"
     },
     {
       "basename": "Probability for CS (6) Random Variables and Expectation",
@@ -183,22 +199,6 @@
     {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
-    },
-    {
-      "basename": "EleutherAI",
-      "path": "EleutherAI.md"
-    },
-    {
-      "basename": "Stella Biderman",
-      "path": "Stella Biderman.md"
-    },
-    {
-      "basename": "Louis Castricato",
-      "path": "Louis Castricato.md"
-    },
-    {
-      "basename": "CarperAI",
-      "path": "CarperAI.md"
     }
   ],
   "omittedPaths": [],
