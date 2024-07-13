@@ -60,3 +60,8 @@ Examples
 "Four Kinds of Synthetic Data" from [John David Pressman](https://x.com/jd_pressman/status/1797396190210015716)
 
 ![[Pasted image 20240710234731.png]]
+
+
+![[Pasted image 20240712174504.png|300]]
+This is from the AgentInstruct/Orca3 paper
+T

@@ -1,0 +1,2 @@
+Evaluates aspects of emotional intelligence in LMs; tests models' ability to comprehend intricate emotions and social interactions by providing a conversation between characters and asking the model to predict intensity of emotional states between characters. Strongly correlated (r=0.97) between EQ Bench and comprehensive multi-domain benchmarks like MMLU.
+((What's the point of a benchmark that's 97% correlated with MMLU performance?))
