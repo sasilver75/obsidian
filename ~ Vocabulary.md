@@ -921,6 +921,7 @@
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
 - [[Winoground]]
+- [[TruthfulQA]]
 - [[Dynabench]]
 - [[Dynaboard]]
 - [[RewardBench]]

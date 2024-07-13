@@ -13,7 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AgentInstruct.md",
+                "file": "Zephyr.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c08dd386d5bd6ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67ac90dbbdb3cfae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AlpacaEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa36c96a3aead9b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MT-Bench.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "983be17c3db84d55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UltraFeedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec9ae15c05885d21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UltraChat.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AgentInstruct.md",
+                "file": "Zephyr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AgentInstruct.md",
+                "file": "Zephyr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AgentInstruct.md"
+                "file": "Zephyr.md"
               }
             }
           },
@@ -169,7 +234,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "AgentInstruct.md",
+                "file": "Zephyr.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -212,18 +277,23 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "1183ef67350ae448",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240713000351.png",
+    "~ Vocabulary.md",
     "Zephyr.md",
+    "AlpacaEval.md",
+    "MT-Bench.md",
+    "UltraFeedback.md",
+    "UltraChat.md",
+    "_attachments/Pasted image 20240712222112.png",
+    "AgentInstruct.md",
     "WizardLM.md",
     "SiLU.md",
     "Together AI.md",
-    "~ Vocabulary.md",
-    "UltraFeedback.md",
     "Rejection Sampling.md",
     "EvalGen.md",
     "Medusa.md",
@@ -231,12 +301,10 @@
     "Synthetic Data.md",
     "Knowledge Pile.md",
     "Query of CC.md",
-    "AgentInstruct.md",
     "Orca 3.md",
     "DROP.md",
     "FoFo.md",
     "InFoBench.md",
-    "UltraChat.md",
     "~ Ideas.md",
     "_attachments/Pasted image 20240712183600.png",
     "dDPO.md",
@@ -248,12 +316,8 @@
     "_attachments/Pasted image 20240712174846.png",
     "_attachments/Pasted image 20240712174504.png",
     "EQBench.md",
-    "MuSR.md",
     "_attachments/Pasted image 20240712171502.png",
     "_attachments/Pasted image 20240712171355.png",
-    "Orca.md",
-    "_attachments/Pasted image 20240712170539.png",
-    "Mind's Eye.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
