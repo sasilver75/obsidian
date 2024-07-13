@@ -409,6 +409,7 @@
 - [[Quality-Diversity through AI Feedback]] (QDAIF)
 - [[AgentInstruct]]
 - [[Query of CC]]
+- [[WizardArena]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]

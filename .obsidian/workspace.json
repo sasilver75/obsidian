@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1183ef67350ae448",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zephyr.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c08dd386d5bd6ec",
+            "id": "ec9ae15c05885d21",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,51 +21,12 @@
             }
           },
           {
-            "id": "67ac90dbbdb3cfae",
+            "id": "651d14c003ea6f0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AlpacaEval.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa36c96a3aead9b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MT-Bench.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "983be17c3db84d55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UltraFeedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec9ae15c05885d21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UltraChat.md",
+                "file": "GPQA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zephyr.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zephyr.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zephyr.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -234,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zephyr.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -280,15 +227,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1183ef67350ae448",
+  "active": "ec9ae15c05885d21",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240713000351.png",
-    "~ Vocabulary.md",
-    "Zephyr.md",
-    "AlpacaEval.md",
-    "MT-Bench.md",
+    "GPQA.md",
+    "MuSR.md",
+    "GAIA.md",
+    "IFEval.md",
+    "ChatBot Arena.md",
     "UltraFeedback.md",
+    "WizardArena.md",
+    "~ Vocabulary.md",
     "UltraChat.md",
+    "MT-Bench.md",
+    "AlpacaEval.md",
+    "Zephyr.md",
+    "_attachments/Pasted image 20240713000351.png",
     "_attachments/Pasted image 20240712222112.png",
     "AgentInstruct.md",
     "WizardLM.md",
@@ -304,20 +257,14 @@
     "Orca 3.md",
     "DROP.md",
     "FoFo.md",
-    "InFoBench.md",
-    "~ Ideas.md",
     "_attachments/Pasted image 20240712183600.png",
-    "dDPO.md",
     "_attachments/Pasted image 20240712181603.png",
-    "~ Tags.md",
     "_attachments/Pasted image 20240712175030.png",
     "_attachments/Pasted image 20240712174934.png",
     "_attachments/Pasted image 20240712174902.png",
     "_attachments/Pasted image 20240712174846.png",
     "_attachments/Pasted image 20240712174504.png",
-    "EQBench.md",
     "_attachments/Pasted image 20240712171502.png",
-    "_attachments/Pasted image 20240712171355.png",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
