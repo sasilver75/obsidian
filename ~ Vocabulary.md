@@ -408,6 +408,7 @@
 - [[State Space Model]] (SSM)
 - [[Quality-Diversity through AI Feedback]] (QDAIF)
 - [[AgentInstruct]]
+- [[Query of CC]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -762,6 +763,9 @@
 - [[Zephyr]]
 - [[Orca]]
 - [[Orca 2]]
+- [[Orca 2.5]]
+- [[Orca-Math]]
+- [[Orca 3]]
 - [[LIMA]] (Less is More for Alignment)
 - [[DBRX]] (DBRex)
 - [[SimCLR]] (Simple Framework for Contrastive Learning for Visual Representations)
@@ -822,6 +826,9 @@
 - [[Mamba]]
 - [[Chameleon]]
 - [[Mind's Eye]]
+- [[Mistral 7B]]
+- [[Mixtral 8x7B]]
+- [[Mixtral 8x22B]]
 
 # Tools
 *Developer tools and libraries ranging from data cleaning to quantization to model training and serving*
@@ -930,6 +937,11 @@
 - [[MATH]] (Mathematics Aptitude Test of Heuristics)
 - [[FActScore]] (FActual Precision in Atomicity Score)
 - [[TFEval]] (Topic-Following Eval)
+- [[Orca-Bench]]
+- [[DROP]] (Discrete Reasoning over Paragraphs)
+- [[FoFo]] (Format Following)
+- [[InFoBench]] (Instruction Following Benchmark)
+- [[EQBench]]
 
 # Datasets
 *Datasets for training/finetuning models*
@@ -992,6 +1004,7 @@
 - [[HelpSteer2]]
 - [[LMSYS-Chat-1M]]
 - [[CantTalkAboutThis]]
+- [[Knowledge Pile]]
 
 # Entities
 - [[Cohere]]  📝

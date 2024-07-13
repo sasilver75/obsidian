@@ -5,8 +5,64 @@
       "path": "AgentInstruct.md"
     },
     {
+      "basename": "~ Tags",
+      "path": "~ Tags.md"
+    },
+    {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "EQBench",
+      "path": "EQBench.md"
+    },
+    {
+      "basename": "InFoBench",
+      "path": "InFoBench.md"
+    },
+    {
+      "basename": "FoFo",
+      "path": "FoFo.md"
+    },
+    {
+      "basename": "DROP",
+      "path": "DROP.md"
+    },
+    {
+      "basename": "MuSR",
+      "path": "MuSR.md"
+    },
+    {
+      "basename": "Orca",
+      "path": "Orca.md"
+    },
+    {
+      "basename": "Orca 3",
+      "path": "Orca 3.md"
+    },
+    {
+      "basename": "Mind's Eye",
+      "path": "Mind's Eye.md"
+    },
+    {
+      "basename": "AGIEval",
+      "path": "AGIEval.md"
+    },
+    {
+      "basename": "Query of CC",
+      "path": "Query of CC.md"
+    },
+    {
+      "basename": "Knowledge Pile",
+      "path": "Knowledge Pile.md"
+    },
+    {
+      "basename": "AgentInstruct 2024-07-12 15.36.46.excalidraw",
+      "path": "_attachments/AgentInstruct 2024-07-12 15.36.46.excalidraw.md"
     },
     {
       "basename": "SynthLabs",
@@ -15,10 +71,6 @@
     {
       "basename": "Gibbs Sampling",
       "path": "Gibbs Sampling.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Best-of-N Sampling",
@@ -85,10 +137,6 @@
       "path": "Minerva.md"
     },
     {
-      "basename": "Mind's Eye",
-      "path": "Mind's Eye.md"
-    },
-    {
       "basename": "Constrained Decoding",
       "path": "Constrained Decoding.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "CarperAI",
       "path": "CarperAI.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
-      "basename": "Reward-Aware Preference Optimization",
-      "path": "Reward-Aware Preference Optimization.md"
-    },
-    {
-      "basename": "~ Followup",
-      "path": "~ Followup.md"
-    },
-    {
-      "basename": "~ Interactions",
-      "path": "~ Interactions.md"
-    },
-    {
-      "basename": "CantTalkAboutThis",
-      "path": "CantTalkAboutThis.md"
-    },
-    {
-      "basename": "LMSYS",
-      "path": "LMSYS.md"
-    },
-    {
-      "basename": "LMSYS-Chat-1M",
-      "path": "LMSYS-Chat-1M.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
-    },
-    {
-      "basename": "Batch",
-      "path": "Batch.md"
-    },
-    {
-      "basename": "Proximal Policy Optimization",
-      "path": "Proximal Policy Optimization.md"
-    },
-    {
-      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models Paper",
-      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models Paper.md"
     }
   ],
   "omittedPaths": [],
