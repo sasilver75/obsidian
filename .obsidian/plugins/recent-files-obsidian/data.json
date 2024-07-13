@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "WizardArena",
+      "path": "WizardArena.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "OpenRouter",
+      "path": "OpenRouter.md"
     },
     {
       "basename": "GPQA",
@@ -27,10 +35,6 @@
     {
       "basename": "UltraFeedback",
       "path": "UltraFeedback.md"
-    },
-    {
-      "basename": "WizardArena",
-      "path": "WizardArena.md"
     },
     {
       "basename": "UltraChat",
@@ -195,10 +199,6 @@
     {
       "basename": "Dependency Parsing",
       "path": "Dependency Parsing.md"
-    },
-    {
-      "basename": "Quality-Diversity through AI Feedback",
-      "path": "Quality-Diversity through AI Feedback.md"
     }
   ],
   "omittedPaths": [],
