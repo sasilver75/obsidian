@@ -137,7 +137,7 @@ Such a result shows that language models can be effectively aligned via a small 
 
 - The recently-released [[LLaMA 2]] suite of LLMs is comprised of several open-source models with sizes ranging from 7-70B parameters.
 - Compared to predecessors (ie LLaMA-1), it differentiates itself by pretraining over 40% more data (ie 2T tokens), and using an architecture that is optimized for fast inference ([[Grouped Query Attention]]).
-- However, the LLaMA-2 suite contains more than just pre-trained LLMs! Authors invest heavily into the alignment process by fine-tuning each model (using both SFT and [[RLHF]]).
+- However, the LLaMA-2 suite contains more than just pre-trained LLMs! Authors invest heavily into the alignment process by fine-tuning each model (using both SFT and [[Reinforcement Learning from Human Feedback|RLHF]]).
 - The refined versions of LLaMA-2 perform incredibly well, emphasizing:
 	1. Helpfulness
 	2. Safety

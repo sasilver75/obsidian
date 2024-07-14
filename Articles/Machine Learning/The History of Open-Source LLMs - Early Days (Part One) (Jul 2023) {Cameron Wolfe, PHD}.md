@@ -109,7 +109,7 @@ What else do we need?
 - There's a reason that LLMs didn't explode is popularity until the proposal of models like ChatGPT -- ==just being able to predict the next token isn't very interesting==! It doesn't intrinsically make for a useful assistant -- instead, it often produces output that is repetitive, simple, and generally not helpful.
 - [[Alignment]] refers to the process of fine-tuning an LLM to better align with the desires of human users. This is primarily done via two techniques, at the time of this article:
 	- [[Supervised Fine-Tuning]] (SFT) 
-	- [[RLHF]]
+	- [[Reinforcement Learning from Human Feedback|RLHF]]
 
 Using LLMs in practice
 - After we've pre-trained and fine-tuned (or aligned) our language model, teh final step is to specialize the model to our desired application! This process may require extra fine-tuning over domain-specific data. More training is not always necessary, as we can accomplish a lot by using just in-context learning.

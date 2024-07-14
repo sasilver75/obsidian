@@ -1,0 +1,2 @@
+
+Note: A year after this DeepMind paper, OpenAI did their [[Let's Verify Step by Step]] paper, which similarly did an analysis of PRMs applied to math, but the used a more capable base model, significantly more human feedback, and used the more challenging [[MATH]] dataset, instead of [[GSM8K]].

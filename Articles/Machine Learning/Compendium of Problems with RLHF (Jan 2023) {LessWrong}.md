@@ -3,7 +3,7 @@ Link: https://www.lesswrong.com/posts/d6DvuCKH5bSoT62DB/compendium-of-problems-w
 
 -----------
 
-[[RLHF]] TLDR: ==We need a reward function, but we cannot hand-write it -- let's make the AI learn it!==
+[[Reinforcement Learning from Human Feedback|RLHF]] TLDR: ==We need a reward function, but we cannot hand-write it -- let's make the AI learn it!==
 
 ## Problem 0: RLHF is Confusing
 - Human judgement and feedback is so brittle that even junior alignment researchers like the author thought that RLHF is a not-too-bad-solution to the outer alignment problem.

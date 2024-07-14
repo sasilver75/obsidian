@@ -1,6 +1,7 @@
 ---
 aliases:
   - Outcome Reward Model
+  - ORM
 ---
 A model that, given a prompt and a response, produces some score output that is meant to highly-correlate with human evaluator's rankings.
 
