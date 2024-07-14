@@ -7,7 +7,7 @@ July ~10, 2024
 [[Microsoft Research]]
 [Arena Learning: Build Data Flywheel for LLMs Post-training via Simulated Chatbot Arena](https://www.microsoft.com/en-us/research/publication/arena-learning-build-data-flywheel-for-llms-post-training-via-simulated-chatbot-arena/)
 #zotero 
-Takeaway: ...
+Takeaway: Produces two artifacts: WizardLM-$\beta$ , trained using Arena Learning, and [[WizardArena]], a test set upon which performance is highly correlated with [[ChatBot Arena]]. The Arena Learning paradigm involves our model doing pairwise battle against various SoTA models with winners being judged by LLaMA3-70B-Instruct. After a set of battles, we SFT on the winning generations, and DPO/PPO on the pair of (winning, losing) generations. We then battle again.
 
 
 Reference:
@@ -80,7 +80,23 @@ Reference:
 	- The ==Offline-Mix WizardArena== combines the totality of the Diverse and Hard test subsets to create 2,000 samples.
 - LLM Battle
 	- We select some popular models and conduct pairwise battles in the Offline-Mix WizardArena using LLaMA3-70B-Instruct as the Judge. The seem to use 100 bootstraps (pairs?) and select the median as the model ELO score.
-	- 
+
+## Ablations
+- Data Selection
+	- The pair-judge method used in this paper is better than selecting via random sample, kmeans cluster, instruction length, IFD, or INSTAG.
+- The relationship between data size and performance
+	- The size of the SFT data and gap between (chosen, reject) pairs of data is important.
+	- Battle helps us filter out the truly needed data, thereby constructing a more efficient data flywheel.
+- LLaMA3-Chat Judge or GPT-4 Judge?
+	- People were accustomed to use GPT-4 as a judge in other papers. 
+	- The [[Spearman Rank Correlation Coefficient|Spearman's Rho]] between GPT-4 judge and LLaMA3-70B-Instruct judge is 99.26%.
+- Number of battle models
+	- As the number of models selected for battle increases, the performance of WizardLM-Beta increases. 
+- Impact of different battle modes
+	- Various battle modes were attempted "We use WizardLM-β-7B-SFT-I0, Openchat-3.5, Qwen-1.5-72B, and CommandR+ as the battle group in this section"
+- Performance on benchmarks
+- ...
+	
 
 
 
@@ -121,7 +137,9 @@ A great figure that shoes the LMSYS ELO compared to the various Arena ELOs (with
 ![[Pasted image 20240713200219.png|600]]
 Showing the improvement in ELO scores across incarnations of the model (SFT1, DPO1, PPO1, SFT2, ...)
 
-Instruction tagging for diversity and complexity analysis
+![[Pasted image 20240713202606.png|600]]
+Exploring some data selection strategies that could be used during the first round of SFT.
+It seems like the INSTAG method is pretty good as a comparison point -- we'll look at that in a different paper!
 
 # Non-Paper Figures
 
