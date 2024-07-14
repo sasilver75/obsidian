@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "DataComp-LM",
-      "path": "DataComp-LM.md"
-    },
-    {
-      "basename": "Trafilatura",
-      "path": "Trafilatura.md"
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/General/Let's Verify Step by Step.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "PRM800K",
+      "path": "PRM800K.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing",
+      "path": "Papers/IR and RAG/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md"
+    },
+    {
+      "basename": "Understanding Deep Learning requires Rethinking Generalization",
+      "path": "Papers/General/Understanding Deep Learning requires Rethinking Generalization.md"
+    },
+    {
+      "basename": "The Bitter Lesson",
+      "path": "Papers/General/The Bitter Lesson.md"
+    },
+    {
+      "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
+      "path": "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
+    },
+    {
       "basename": "Resiliparse",
       "path": "Resiliparse.md"
+    },
+    {
+      "basename": "Trafilatura",
+      "path": "Trafilatura.md"
+    },
+    {
+      "basename": "DataComp-LM",
+      "path": "DataComp-LM.md"
+    },
+    {
+      "basename": "DataComp",
+      "path": "DataComp.md"
     },
     {
       "basename": "OpenRouter",
@@ -167,38 +199,6 @@
     {
       "basename": "SynthLabs",
       "path": "SynthLabs.md"
-    },
-    {
-      "basename": "Gibbs Sampling",
-      "path": "Gibbs Sampling.md"
-    },
-    {
-      "basename": "FlashAttention",
-      "path": "FlashAttention.md"
-    },
-    {
-      "basename": "Low-Rank Adaptation",
-      "path": "Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "Probability for CS (6) Random Variables and Expectation",
-      "path": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (6) Random Variables and Expectation.md"
-    },
-    {
-      "basename": "Untitled 3",
-      "path": "Untitled 3.md"
-    },
-    {
-      "basename": "Probability for CS (5) Independence",
-      "path": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (5) Independence.md"
-    },
-    {
-      "basename": "AlpaGasus",
-      "path": "AlpaGasus.md"
     }
   ],
   "omittedPaths": [],
