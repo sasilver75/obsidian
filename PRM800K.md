@@ -6,7 +6,7 @@ May 31 2023
 
 ----
 
-A dataset of 800,000 step-level human feedback labels used to train [[Process Reward Model]]s, introduced as part of the [[Let's Verify Step by Step]] paper.
+A dataset of 800,000 step-level human feedback labels used to train [[Process Reward Model]]s, introduced as part of the [[Let's Verify Step by Step]] paper. It contains 800k step-level labels across 75k step-by-step/CoT-like solutions to 12k problems from the [[MATH]] dataset.
 
 
 

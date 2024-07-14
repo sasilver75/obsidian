@@ -3,7 +3,7 @@ Link: https://www.interconnects.ai/p/why-reward-models-matter
 
 -----
 
-We're entering an era of model-adaptation research where some people that bash on [[RLHF]] doen't even know what a reward model is.
+We're entering an era of model-adaptation research where some people that bash on [[Reinforcement Learning from Human Feedback|RLHF]] doen't even know what a reward model is.
 - In 2024, pmost folks are going to embrace that we might not need RL for RLHF, because of the simplicity and success of [[Direct Preference Optimization|DPO]]
 	- Link: [[Do we need RL for RLHF? (Dec 2023) {Nathan Lambert, Interconnect Newsletter}]]
 - DPO is actually making reward models more prevalent, but less likely to be used. (?)

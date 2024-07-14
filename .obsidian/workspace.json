@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc847f66a786a970",
+        "id": "e28362d73336272b",
         "type": "tabs",
         "children": [
           {
-            "id": "658c0c7dd52186e6",
+            "id": "fde4e56db705245e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,20 +21,7 @@
             }
           },
           {
-            "id": "c8788fe20a1e40dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a55ba313219023e5",
+            "id": "68469411dce8af06",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +34,25 @@
             }
           },
           {
-            "id": "6ac98c2d741d02b6",
+            "id": "4c9b852f00271257",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Process Reward Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8a65368493d6806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reward Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -253,12 +253,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "658c0c7dd52186e6",
+  "active": "fde4e56db705245e",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
-    "PRM800K.md",
-    "Papers/General/Let's Verify Step by Step.md",
     "Reward Model.md",
+    "Papers/General/Let's Verify Step by Step.md",
+    "_attachments/Pasted image 20240714130130.png",
+    "_attachments/Pasted image 20240714125157.png",
+    "PRM800K.md",
+    "_attachments/Pasted image 20240714123617.png",
+    "_attachments/Pasted image 20240714123616.png",
+    "_attachments/Pasted image 20240714123615.png",
+    "Papers/General/Solving math word problems with process- and outcome-based feedback.md",
+    "Process Reward Model.md",
+    "Reward.md",
+    "~ Vocabulary.md",
+    "Articles/Machine Learning/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
+    "RLHF.md",
+    "Articles/Machine Learning/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Articles/Machine Learning/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
+    "Supervised Fine-Tuning.md",
+    "Articles/Machine Learning/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md",
+    "Articles/Machine Learning/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md",
     "Papers/IR and RAG/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
     "Papers/General/Understanding Deep Learning requires Rethinking Generalization.md",
     "Papers/General/The Bitter Lesson.md",
@@ -272,25 +287,9 @@
     "_attachments/Pasted image 20240713230411.png",
     "_attachments/Pasted image 20240713222911.png",
     "_attachments/Pasted image 20240713221545.png",
-    "_attachments/Pasted image 20240713220007.png",
-    "_attachments/Pasted image 20240713215504.png",
-    "_attachments/Pasted image 20240713215343.png",
     "OpenRouter.md",
     "WizardArena.md",
     "UltraChat.md",
-    "_attachments/Pasted image 20240713202606.png",
-    "_attachments/Pasted image 20240713200219.png",
-    "Teacher Forcing.md",
-    "AgentInstruct.md",
-    "Orca 3.md",
-    "LLM-as-a-Judge.md",
-    "Reward-Model-as-a-Judge.md",
-    "ChatBot Arena.md",
-    "GPQA.md",
-    "MuSR.md",
-    "GAIA.md",
-    "IFEval.md",
-    "UltraFeedback.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",

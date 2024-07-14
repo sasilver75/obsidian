@@ -9,7 +9,7 @@ Despite this, most open-source models have relied heavily on supervised learning
 - The lack of emphasis on reinforcement learning can be attributed to several factors, including the necessity to curate a large amount of human preference data.
 - There's underlying skepticism towards reinforcement learning generally, because people aren't as familiar with it as they are with supervised learning -- people like to stick with the approaches they know best!
 
-In this theories, we'll start with some basic definitions and approaches, and work our way towards more modern algorithms (e.g. [[Proximal Policy Optimization|PPO]]) that are used to finetune language models with [[RLHF]].
+In this theories, we'll start with some basic definitions and approaches, and work our way towards more modern algorithms (e.g. [[Proximal Policy Optimization|PPO]]) that are used to finetune language models with [[Reinforcement Learning from Human Feedback|RLHF]].
 
 ![[Pasted image 20240208213922.png]]
 

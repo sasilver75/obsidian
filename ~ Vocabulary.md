@@ -255,7 +255,6 @@
 - [[Depth-Wise Convolutions]]
 - [[Activation Function]]
 - [[Gini Index]]
-- [[Test-Time Augmentation]] (TTA)
 - [[Gradient Accumulation]]
 - [[Recurrent Neural Network]] (RNN)
 - [[Long Short Term Memory]] (LSTM)
@@ -599,6 +598,7 @@
 - [[RandAugment]]
 - [[Progressive Resizing]]
 - [[Back-Translation]]
+- [[Test-Time Augmentation]] (TTA)
 
 
 # ML Security Concepts
