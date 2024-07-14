@@ -1,3 +1,9 @@
+---
+aliases:
+  - LM Judge
+---
+
+
 See use in [[Constitutional AI]]
 
 LLM judgements tend to be less noisy than human evaluation (due to lack of differing biases among annotators; the bias here is more systematic), but more biased. These biases include (among other political biases perhaps inherent in models):

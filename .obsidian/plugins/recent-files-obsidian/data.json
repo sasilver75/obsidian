@@ -9,6 +9,34 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "Teacher Forcing",
+      "path": "Teacher Forcing.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "Orca 3",
+      "path": "Orca 3.md"
+    },
+    {
+      "basename": "LLM-as-a-Judge",
+      "path": "LLM-as-a-Judge.md"
+    },
+    {
+      "basename": "Reward-Model-as-a-Judge",
+      "path": "Reward-Model-as-a-Judge.md"
+    },
+    {
+      "basename": "ChatBot Arena",
+      "path": "ChatBot Arena.md"
+    },
+    {
       "basename": "OpenRouter",
       "path": "OpenRouter.md"
     },
@@ -29,16 +57,8 @@
       "path": "IFEval.md"
     },
     {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
-    },
-    {
       "basename": "UltraFeedback",
       "path": "UltraFeedback.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
     },
     {
       "basename": "MT-Bench",
@@ -51,10 +71,6 @@
     {
       "basename": "Zephyr",
       "path": "Zephyr.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
     },
     {
       "basename": "WizardLM",
@@ -95,10 +111,6 @@
     {
       "basename": "Query of CC",
       "path": "Query of CC.md"
-    },
-    {
-      "basename": "Orca 3",
-      "path": "Orca 3.md"
     },
     {
       "basename": "DROP",
@@ -187,18 +199,6 @@
     {
       "basename": "Constrained Decoding",
       "path": "Constrained Decoding.md"
-    },
-    {
-      "basename": "Squared ReLU",
-      "path": "Squared ReLU.md"
-    },
-    {
-      "basename": "HelpSteer2",
-      "path": "HelpSteer2.md"
-    },
-    {
-      "basename": "Dependency Parsing",
-      "path": "Dependency Parsing.md"
     }
   ],
   "omittedPaths": [],

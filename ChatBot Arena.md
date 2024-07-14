@@ -8,6 +8,9 @@ The latter is described as a "Chatbot Battle Platform!" -- it's a crowdsourced p
 
 Arena-like systems that depend on the wisdom of the crowd works pretty well for quantifiable things where you have a clear metric (eg estimating the weight of a pig, number of marbles in a jar)... but it's hard to get reproducible results from it. While you avoid some of the biases of [[LLM-as-a-Judge]], you don't avoid all bias. Raters often prefer models that seem to *like us* and *agree with us!* Raters prefer models that are super assertive/confident about their answer, even if that means they're wrong (eg a cautious true answer is sometimes dispreferred to a confident wrong answer). Most raters demographically are men from the United States, which isn't representative enough. Most interactions before the user gives a rating turn out to be single-turn interactions, so multiturn performance isn't meaningfully evaluated (though it often isn't evaluated in automatic evaluations either).
 
+Additional "problems": Human evaluation is time-consuming and resource intensive, which limits the scale and frequency of evaluation of a given model. Due to LMSYS's priority limitations, most models aren't even able to participate in arena evaluations. Furthermore, the community only has access to a limited subset of conversation/preference data from LMSYS. This is one of the motivations for projects like [[WizardArena]].
+
+
 -----
 
 
