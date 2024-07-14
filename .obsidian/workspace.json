@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec9ae15c05885d21",
+            "id": "4b99fd97e638e057",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UltraChat.md",
+                "file": "DataComp-LM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "651d14c003ea6f0f",
+            "id": "e973e2bb2beb9ac8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WizardArena.md",
+                "file": "Trafilatura.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "f6d4e7e35e90968a",
+            "id": "fc09504abd9f7148",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,20 +47,19 @@
             }
           },
           {
-            "id": "4b99fd97e638e057",
+            "id": "658c0c7dd52186e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenRouter.md",
+                "file": "Resiliparse.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WizardArena.md",
+                "file": "DataComp-LM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WizardArena.md",
+                "file": "DataComp-LM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WizardArena.md"
+                "file": "DataComp-LM.md"
               }
             }
           },
@@ -208,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "WizardArena.md",
+                "file": "DataComp-LM.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,28 +253,32 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "651d14c003ea6f0f",
+  "active": "4b99fd97e638e057",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240713231750.png",
+    "Trafilatura.md",
+    "DataComp-LM.md",
+    "_attachments/Pasted image 20240713230445.png",
+    "_attachments/Pasted image 20240713230411.png",
+    "~ Vocabulary.md",
+    "Resiliparse.md",
+    "_attachments/Pasted image 20240713222911.png",
+    "_attachments/Pasted image 20240713221545.png",
+    "_attachments/Pasted image 20240713220007.png",
+    "_attachments/Pasted image 20240713215504.png",
+    "_attachments/Pasted image 20240713215343.png",
+    "OpenRouter.md",
+    "WizardArena.md",
+    "UltraChat.md",
     "_attachments/Pasted image 20240713202606.png",
     "_attachments/Pasted image 20240713200219.png",
-    "~ Vocabulary.md",
-    "UltraChat.md",
-    "WizardArena.md",
     "_attachments/Pasted image 20240713194359.png",
-    "_attachments/Pasted image 20240713175917.png",
-    "_attachments/Pasted image 20240713175650.png",
     "Teacher Forcing.md",
-    "_attachments/Pasted image 20240713155803.png",
-    "_attachments/Pasted image 20240713145954.png",
     "AgentInstruct.md",
     "Orca 3.md",
     "LLM-as-a-Judge.md",
     "Reward-Model-as-a-Judge.md",
-    "_attachments/Pasted image 20240713142510.png",
     "ChatBot Arena.md",
-    "_attachments/Pasted image 20240713135409.png",
-    "_attachments/Pasted image 20240713135349.png",
-    "OpenRouter.md",
     "GPQA.md",
     "MuSR.md",
     "GAIA.md",
@@ -284,14 +287,10 @@
     "MT-Bench.md",
     "AlpacaEval.md",
     "Zephyr.md",
-    "_attachments/Pasted image 20240713000351.png",
     "WizardLM.md",
     "SiLU.md",
     "Together AI.md",
     "Rejection Sampling.md",
-    "EvalGen.md",
-    "Medusa.md",
-    "Best-of-N Sampling.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
