@@ -4,3 +4,4 @@ Github: ["A Python package and command-line tool to gather text on the web"](htt
 
 This library consistently outperforms other open-source libraries in text-extraction benchmarks, showcasing its efficiency and accuracy in extracting web content.
 
+See also: [[Resiliparse]], which has similar performance but is faster, according to the [[DataComp-LM|DCLM]] paper.

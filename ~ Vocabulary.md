@@ -868,6 +868,7 @@
 - [[Llamafile]]
 - [[fastText]]
 - [[Trafilatura]] 🔎📝
+- [[Resiliparse]] 🔎📝
 - [[Langtrace]] (Unsure if this should be here.)
 - [[LangChain]] 🗣️⛓️
 - [[LangSmith]] 🗣️🔬
