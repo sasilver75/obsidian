@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b99fd97e638e057",
+            "id": "658c0c7dd52186e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataComp-LM.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,7 @@
             }
           },
           {
-            "id": "e973e2bb2beb9ac8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trafilatura.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc09504abd9f7148",
+            "id": "c8788fe20a1e40dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +34,25 @@
             }
           },
           {
-            "id": "658c0c7dd52186e6",
+            "id": "a55ba313219023e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resiliparse.md",
+                "file": "PRM800K.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ac98c2d741d02b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataComp-LM.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataComp-LM.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataComp-LM.md"
+                "file": "Papers/General/Let's Verify Step by Step.md"
               }
             }
           },
@@ -207,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "DataComp-LM.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -253,15 +253,23 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4b99fd97e638e057",
+  "active": "658c0c7dd52186e6",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240713231750.png",
+    "~ Vocabulary.md",
+    "PRM800K.md",
+    "Papers/General/Let's Verify Step by Step.md",
+    "Reward Model.md",
+    "Papers/IR and RAG/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md",
+    "Papers/General/Understanding Deep Learning requires Rethinking Generalization.md",
+    "Papers/General/The Bitter Lesson.md",
+    "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md",
+    "Resiliparse.md",
     "Trafilatura.md",
     "DataComp-LM.md",
+    "DataComp.md",
+    "_attachments/Pasted image 20240713231750.png",
     "_attachments/Pasted image 20240713230445.png",
     "_attachments/Pasted image 20240713230411.png",
-    "~ Vocabulary.md",
-    "Resiliparse.md",
     "_attachments/Pasted image 20240713222911.png",
     "_attachments/Pasted image 20240713221545.png",
     "_attachments/Pasted image 20240713220007.png",
@@ -272,7 +280,6 @@
     "UltraChat.md",
     "_attachments/Pasted image 20240713202606.png",
     "_attachments/Pasted image 20240713200219.png",
-    "_attachments/Pasted image 20240713194359.png",
     "Teacher Forcing.md",
     "AgentInstruct.md",
     "Orca 3.md",
@@ -284,13 +291,6 @@
     "GAIA.md",
     "IFEval.md",
     "UltraFeedback.md",
-    "MT-Bench.md",
-    "AlpacaEval.md",
-    "Zephyr.md",
-    "WizardLM.md",
-    "SiLU.md",
-    "Together AI.md",
-    "Rejection Sampling.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
