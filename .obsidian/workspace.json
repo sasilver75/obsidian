@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28aff3daa5d8c871",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WizardCoder.md",
+                "file": "Auto Evol-Instruct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,6 +87,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "ebd5b0eb40954526",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28aff3daa5d8c871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Auto Evol-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Auto Evol-Instruct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Auto Evol-Instruct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Auto Evol-Instruct.md"
               }
             }
           },
@@ -247,7 +253,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Auto Evol-Instruct.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -293,26 +299,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ba5434aca486c74c",
+  "active": "28aff3daa5d8c871",
   "lastOpenFiles": [
+    "WizardCoder.md",
     "Auto Evol-Instruct.md",
+    "Untitled 4.md",
+    "_attachments/Pasted image 20240715193416.png",
+    "_attachments/Pasted image 20240715192914.png",
+    "_attachments/Pasted image 20240715192644.png",
+    "_attachments/Pasted image 20240715192330.png",
+    "_attachments/Pasted image 20240715192123.png",
+    "_attachments/Pasted image 20240715191504.png",
+    "_attachments/Pasted image 20240715184945.png",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240715184940.png",
     "_attachments/Pasted image 20240715183422.png",
     "_attachments/Pasted image 20240715183401.png",
-    "_attachments/Pasted image 20240715183348.png",
-    "_attachments/Pasted image 20240715182542.png",
     "MT-Bench.md",
-    "_attachments/Pasted image 20240715175446.png",
-    "_attachments/Pasted image 20240715173917.png",
-    "_attachments/Pasted image 20240715162211.png",
-    "_attachments/Pasted image 20240715162058.png",
-    "~ Vocabulary.md",
-    "WizardCoder.md",
     "AlpacaEval.md",
     "Gemma 2.md",
     "Papers/General/Let's Verify Step by Step.md",
     "Reward Model.md",
-    "_attachments/Pasted image 20240714130130.png",
-    "_attachments/Pasted image 20240714125157.png",
     "PRM800K.md",
     "Papers/General/Solving math word problems with process- and outcome-based feedback.md",
     "Process Reward Model.md",
