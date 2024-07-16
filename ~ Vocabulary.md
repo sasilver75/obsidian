@@ -357,6 +357,7 @@
 - [[RingAttention]]
 - [[Evol-Instruct]]
 - [[Evol-Amplify]]
+- [[Auto Evol-Instruct]]
 - [[Genetic Instruct]]
 - [[OSS-Instruct]]
 - [[Imitation Learning]]
@@ -409,6 +410,7 @@
 - [[AgentInstruct]]
 - [[Query of CC]]
 - [[WizardArena]]
+- [[Instag]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -885,6 +887,7 @@
 - [[Replicate]] 🚂
 - [[bitsandbytes]] 🐜
 - [[OpenRouter]]
+- [[Lilac]]
 
 # Benchmarks, Evaluations
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on afaik*
