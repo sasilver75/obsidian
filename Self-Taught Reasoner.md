@@ -6,7 +6,7 @@ March 28, 2022
 Stanford, [[Google Research]] (lead [[Eric Zelikman]])
 [STaR: Bootstrapping Reasoning with Reasoning](https://arxiv.org/abs/2203.14465)
 #zotero 
-Takeaway: ...
+Takeaway: Given a problem dataset of (x, y) pairs and a much smaller prompt dataset of (x, r, y) to use for ICL, we prompt our language model to generate $\hat{r}$ and $\hat{y}$ for the $x$ in the problem dataset. The correct examples make it into a training set. For those generations that result in a in incorrect $\hat{y}$ (meaning the model wasn't able to "reason forwards" to the answer), we use "rationalization," where we give the model the correct $y$, and just ask it to generate the correct reasoning/rationale $\hat{r}$. Here, I think all of the rationalizations are assumed to be correct, which seems like a source of possible error. We then finetune the model on these predicted rationales and (correct) responses and repeat the process until we see no more gains.
 
 "We propose what is, to our knowledge, the first technique to allow a pre-trained LM to iteratively use its LM capacity to improve itself."
 
