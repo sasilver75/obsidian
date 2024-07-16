@@ -2,7 +2,8 @@ June 2, 2024 (But was "released" on Twitter on July 15, 2024)
 [[Microsoft Research]]
 [Automatic Instruction Evolving for Large Language Models](https://arxiv.org/abs/2406.00770#:~:text=This%20paper%20proposes%20Auto%20Evol,models%20without%20any%20human%20effort.)
 #zotero 
-Takeaway: ...
+Takeaway: A method of complexifying and diversifying instructions with automatic evolution of an instruction-rewriting prompt, with the goal of learning an instruction-evolving prompt $e^*$ that can transform a seed instruction dataset into one that optimizes the performance of a model. At every iteration we sample a minibatch of data from X, and, in the "==Evol Trajectory Analysis==" (ETA) step, we use the *evol-LLM* to evolve each instruction $l$ times to create an evaluation trajectory, then, the *optimizer-LLM* scrutinizes teh trajectory and provides feedback on detected issues. In the following "==Evolving Method Optimization==" (EMO) step, we ask the *optimizer-LLM* to use the feedback to create an updated version of the evolving instruction (this is actually done $m$ times in parallel, and they use a Best-of-N approach to decide which new $e_t$ to keep). We do multiple iterations of this (ETA, EMO) process to yield an optimal evaluation instruction $e^*$.
+- This differs from [[Evol-Instruct]] from the get-go, because the former method requires human experts to give a prior on the way in which instructions should be evolved (diversified, complicated) for a given domain.
 
 
 ---
@@ -31,7 +32,7 @@ Takeaway: ...
 	- $e^* = \underset{e}{argmax}Q(X_e)$ , where Q(X_e) is the performance of the resulting model tuned on X_e.
 - [[Auto Evol-Instruct]] develops evolving methods for instruction evaluation that surpass those crafted by human efforts, while minimizing failures and ensuring successful execution of instruction evolution.
 - Starts with a carefully-designed universal evolving method and a seed instruction dataset, then iteratively optimizes this initial evolving method to obtain the optimal evolving method over multiple steps of iteration.
-- In each step, we randomly sample a minibatch from X and utilize the ***evol LLM*** to evolve each instruction in the batch $l$ times. 
+- In each step, we randomly sample a minibatch from X and utilize the ***evol LLM*** to evolve each instruction in the batch $l$ times (it seems like recursively, maybe?). 
 	- Then we use the ***optimizer LLM*** to evaluate the evolutionary trajectory of all instructions in the current batch to identify existing issues and generate feedback (==Evol Trajectory Analysis==). 
 - The optimizer LLM will then make corresponding optimizations to the evolving method $e_{t-1}$ to obtain $e_t$ (==Evolving Method Optimization==).
 	- To improve stability, they execute analysis optimization multiple times with sampling decoding in parallel to obtain $m$ optimized evolving methods, then we select the method with the lowest *evolution failure rate* as the final $e_t$.
@@ -60,10 +61,24 @@ Takeaway: ...
 - 
 
 
-## Related Work
-
-
-## Conclusions and Limitations
+## Appendices
+- Authors categorize prevalent scenarios of instruction evolution *failure*:
+	1. Stagnant Complexity: Doesn't exhibit enhanced complexity
+	2. Insufficient Qualification: Evolved instructions lack necessary qualifications, necessitating additional inquiries for generating a meaningful response.
+	3. Loss of Key Information: Evolved instruction omits crucial details from the original instruction, leading to a need for supplementary information before a 
+- Authors analyze 200 instructions from GSM8K, and subject them to evolution using the *initial evolving method*. It fails to adequately account for the complexity inherent in the task of evolving instructions.
+	- Tendency to alter the core nature of the problem
+	- The introduction or irrelevant details
+	- The generation of contradictions with the original problem setup
+	- Overlooks the unique attributes of mathematical instructions
+	- (More on this in the paper figures, see tables)
+- Settings
+	- Mini-batch size 10
+	- Development set size 50
+	- Optimizer LLM temperature .6
+	- Top P to 0.95 ([[Top-P Sampling]]?)
+	- Evol LLM temperature 0 (This makes sense that we want our implementation to be "to-the-letter," and our evolutions (especially given that we're trying a few $m$) to have a little "creativity")
+	- 5 optimizations performed in each step by default.
 
 
 Abstract
@@ -73,7 +88,7 @@ Abstract
 # Paper Figures
 ![[Pasted image 20240715162211.png|600]]
 The optimization process has two stages:
-1. ==Evol Trajectory Analysis==: The EvolLLM evolves our minibatch $X$ $l$ distinct times, and the Optimizer LLM analyzes issues/failures in instructions produced by the Evol LLM.
+1. ==Evol Trajectory Analysis==: The EvolLLM evolves our minibatch $X$ $l$ distinct times (it seems recursively, maybe?), and the Optimizer LLM analyzes issues/failures in instructions produced by the Evol LLM.
 2. ==Evolving Method Optimization==: Optimizer LLM optimizes the evolving method by addressing these identified issues in feedback.
 These two stages alternate and repeat to develop an effective evolving strategy, using only a SUBSET of the initial instruction data. Once we reach our optimal evolving strategy, we direct the evol LLM to convert the entire instruction dataset into more diverse and complex forms.
 So in comparison to [[Evol-Instruct]], in which human experts craft the evolving instructions, it turns out there here in [[Auto Evol-Instruct]], our iteratively optimized evolving instructions produce better results.
@@ -94,5 +109,23 @@ On that subject, I'm also curious about at what point this technique will "top o
 ![[Pasted image 20240715183422.png|300]]
 This chart isn't clear to me... I think the left refers to the number of rounds of optimization, where a round includes both ETA and EMO, and the right shows that the number of optimization steps increases, performance can increase, but then monotonically decline???
 
+![[Pasted image 20240715184945.png|300]]
+Above: It seems like it's the general idea to use a stronger LLM for the optimizer LLM, which has the more difficult task of both critiquing evolutions and editing the evolution instructions.
 
+![[Pasted image 20240715191504.png|600]]
+The prompt for ==Evolutional Trajectory Analysis== (ETA)
+- This seems to make me think that the "l" instruction transformations it seems like are done recursively.
 
+![[Pasted image 20240715192123.png|500]]
+The prompt for Evolving Method Optimization (EMO)
+See that we slot in our $e_t$ into the {Evol Prompt} bit...
+ESL as fuck
+
+![[Pasted image 20240715192330.png|600]]
+Examples of instruction evolution failure cases, and the hokey heuristic detection rules that they use to find them. I'm sure that these detection rules are specific to the use of GPT-4 as the responding model? 
+
+![[Pasted image 20240715192644.png|600]]
+Problems that result from using the initial instruction evolution method.
+
+![[Pasted image 20240715192914.png|600]]
+More issues that result from the initial instruction evolution method.
