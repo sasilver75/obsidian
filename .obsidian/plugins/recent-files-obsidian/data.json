@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Self-Taught Reasoner",
+      "path": "Self-Taught Reasoner.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
+    },
+    {
+      "basename": "Reinforced Self-Training",
+      "path": "Reinforced Self-Training.md"
+    },
+    {
+      "basename": "Self-Consistency",
+      "path": "Self-Consistency.md"
+    },
+    {
+      "basename": "Chain of Thought",
+      "path": "Chain of Thought.md"
+    },
+    {
+      "basename": "Self-Taught Optimizer",
+      "path": "Self-Taught Optimizer.md"
+    },
+    {
+      "basename": "Eric Zelikman",
+      "path": "Eric Zelikman.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "Process Reward Model",
+      "path": "Process Reward Model.md"
+    },
+    {
+      "basename": "PRM800K",
+      "path": "PRM800K.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
       "basename": "Auto Evol-Instruct",
       "path": "Auto Evol-Instruct.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
     },
     {
       "basename": "WizardCoder",
@@ -13,16 +65,8 @@
       "path": "Untitled 4.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "MT-Bench",
       "path": "MT-Bench.md"
-    },
-    {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
     },
     {
       "basename": "Gemma 2",
@@ -33,20 +77,8 @@
       "path": "Papers/General/Let's Verify Step by Step.md"
     },
     {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
-    },
-    {
-      "basename": "PRM800K",
-      "path": "PRM800K.md"
-    },
-    {
       "basename": "Solving math word problems with process- and outcome-based feedback",
       "path": "Papers/General/Solving math word problems with process- and outcome-based feedback.md"
-    },
-    {
-      "basename": "Process Reward Model",
-      "path": "Process Reward Model.md"
     },
     {
       "basename": "Reward",
@@ -125,10 +157,6 @@
       "path": "Teacher Forcing.md"
     },
     {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
       "basename": "Orca 3",
       "path": "Orca 3.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "WizardLM",
       "path": "WizardLM.md"
-    },
-    {
-      "basename": "SiLU",
-      "path": "SiLU.md"
-    },
-    {
-      "basename": "Together AI",
-      "path": "Together AI.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "EvalGen",
-      "path": "EvalGen.md"
-    },
-    {
-      "basename": "Medusa",
-      "path": "Medusa.md"
-    },
-    {
-      "basename": "Best-of-N Sampling",
-      "path": "Best-of-N Sampling.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
     }
   ],
   "omittedPaths": [],

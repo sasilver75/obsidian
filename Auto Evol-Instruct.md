@@ -1,3 +1,8 @@
+---
+aliases:
+  - AutoEvol
+---
+
 June 2, 2024 (But was "released" on Twitter on July 15, 2024)
 [[Microsoft Research]]
 [Automatic Instruction Evolving for Large Language Models](https://arxiv.org/abs/2406.00770#:~:text=This%20paper%20proposes%20Auto%20Evol,models%20without%20any%20human%20effort.)

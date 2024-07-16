@@ -357,7 +357,7 @@
 - [[RingAttention]]
 - [[Evol-Instruct]]
 - [[Evol-Amplify]]
-- [[Auto Evol-Instruct]]
+- [[Auto Evol-Instruct]] (AutoEvol)
 - [[Genetic Instruct]]
 - [[OSS-Instruct]]
 - [[Imitation Learning]]
@@ -411,6 +411,9 @@
 - [[Query of CC]]
 - [[WizardArena]]
 - [[Instag]]
+- [[Self-Taught Reasoner]] (STaR)
+- [[Quiet STaR]]
+- [[Self-Taught Optimizer]] (STOP)
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
@@ -1013,6 +1016,7 @@
 - [[CantTalkAboutThis]]
 - [[Knowledge Pile]]
 - [[PRM800K]] 
+- [[CommonsenseQA]]
 
 # Entities
 - [[Cohere]]  📝
@@ -1133,6 +1137,7 @@
 - [[Louis Castricato]] 🐟
 - [[Stella Biderman]] 😎
 - [[Emad Mostaque]] 🤡
+- [[Eric Zelikman]] 🤔
 
 # Policy
 - [[SB-1047]]
