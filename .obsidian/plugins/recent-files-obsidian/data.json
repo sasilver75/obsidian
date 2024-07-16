@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+    },
+    {
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
+    },
+    {
+      "basename": "Nemotron-4",
+      "path": "Nemotron-4.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "FLAN",
+      "path": "FLAN.md"
+    },
+    {
+      "basename": "Self-Taught Reasoner",
+      "path": "Self-Taught Reasoner.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
     },
@@ -29,28 +69,12 @@
       "path": "Auto Evol-Instruct.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
       "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "Quiet STaR",
-      "path": "Quiet STaR.md"
     },
     {
       "basename": "Reinforced Self-Training",
@@ -175,30 +199,6 @@
     {
       "basename": "OpenRouter",
       "path": "OpenRouter.md"
-    },
-    {
-      "basename": "WizardArena",
-      "path": "WizardArena.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
-    },
-    {
-      "basename": "Teacher Forcing",
-      "path": "Teacher Forcing.md"
-    },
-    {
-      "basename": "Orca 3",
-      "path": "Orca 3.md"
-    },
-    {
-      "basename": "LLM-as-a-Judge",
-      "path": "LLM-as-a-Judge.md"
-    },
-    {
-      "basename": "Reward-Model-as-a-Judge",
-      "path": "Reward-Model-as-a-Judge.md"
     }
   ],
   "omittedPaths": [],

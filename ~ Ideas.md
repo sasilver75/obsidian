@@ -26,6 +26,8 @@
 	- ![[Pasted image 20240702225605.png|300]]
 - > "I'm still of the mind that there do not exist good multi-turn datasets or other resources of bootstrapping anything like L3 or Gemma (without copious abuse of GPT-4 class models)." - Teortaxes
 - There are a bunch of papers for synthetic IFT and IFT evaluation that try to create taxonomies of skills -- See AgentInstruct and Skill-Mix, and look for others for information. It would be nice to compile that into a blog post or something.
+- Reagarding Synthetic Data pipelines, check out JD Pressman's [RetroInistruct](https://github.com/JD-P/RetroInstruct?tab=readme-ov-file) and [MiniHF](https://github.com/JD-P/minihf?tab=readme-ov-file#sampling-branch-management-and-autoloom) projects
+- 
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 

@@ -412,8 +412,10 @@
 - [[WizardArena]]
 - [[Instag]]
 - [[Self-Taught Reasoner]] (STaR)
-- [[Quiet STaR]]
+- [[V-STaR]]
+- [[TRICE]]
 - [[Self-Taught Optimizer]] (STOP)
+- [[Quiet STaR]]
 
 # Information Retrieval Concepts
 - [[TF-IDF]]
