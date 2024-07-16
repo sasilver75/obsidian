@@ -952,6 +952,7 @@
 - [[FoFo]] (Format Following)
 - [[InFoBench]] (Instruction Following Benchmark)
 - [[EQBench]]
+- [[SciBench]]
 
 # Datasets
 *Datasets for training/finetuning models*

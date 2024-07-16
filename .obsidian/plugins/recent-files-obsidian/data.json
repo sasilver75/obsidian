@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
       "basename": "The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}",
       "path": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md"
+    },
+    {
+      "basename": "Scalable Oversight",
+      "path": "Scalable Oversight.md"
+    },
+    {
+      "basename": "Synthetic Data Index",
+      "path": "Indices/Synthetic Data Index.md"
+    },
+    {
+      "basename": "Web Rephrase Augmented Pre-training",
+      "path": "Web Rephrase Augmented Pre-training.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "Auto Evol-Instruct",
+      "path": "Auto Evol-Instruct.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
@@ -13,20 +41,12 @@
       "path": "~ Useful Pictures.md"
     },
     {
-      "basename": "Auto Evol-Instruct",
-      "path": "Auto Evol-Instruct.md"
-    },
-    {
       "basename": "AgentInstruct",
       "path": "AgentInstruct.md"
     },
     {
       "basename": "Self-Taught Reasoner",
       "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Quiet STaR",
@@ -179,26 +199,6 @@
     {
       "basename": "Reward-Model-as-a-Judge",
       "path": "Reward-Model-as-a-Judge.md"
-    },
-    {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
-    },
-    {
-      "basename": "GPQA",
-      "path": "GPQA.md"
-    },
-    {
-      "basename": "MuSR",
-      "path": "MuSR.md"
-    },
-    {
-      "basename": "GAIA",
-      "path": "GAIA.md"
-    },
-    {
-      "basename": "IFEval",
-      "path": "IFEval.md"
     }
   ],
   "omittedPaths": [],

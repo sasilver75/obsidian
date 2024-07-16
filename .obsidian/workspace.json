@@ -13,7 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
+                "file": "Synthetic Data.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1d832a88f07bb0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scalable Oversight.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4d0477f6579f243",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Rephrase Augmented Pre-training.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5fb988496a85afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rejection Sampling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82c097b9be39ebd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Auto Evol-Instruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf1dc9683797f316",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -153,7 +218,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\math",
+                "query": "ghost",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,7 +243,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
+                "file": "Synthetic Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
+                "file": "Synthetic Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md"
+                "file": "Synthetic Data.md"
               }
             }
           },
@@ -272,7 +338,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
+                "file": "Synthetic Data.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -320,10 +386,16 @@
   },
   "active": "e8a65368493d6806",
   "lastOpenFiles": [
-    "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
     "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
-    "~ Useful Pictures.md",
+    "Synthetic Data.md",
+    "Scalable Oversight.md",
+    "Indices/Synthetic Data Index.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "Rejection Sampling.md",
     "Auto Evol-Instruct.md",
+    "~ Vocabulary.md",
+    "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
+    "~ Useful Pictures.md",
     "AgentInstruct.md",
     "Self-Taught Reasoner.md",
     "_attachments/Pasted image 20240715234230.png",
@@ -333,7 +405,6 @@
     "_attachments/Pasted image 20240715233733.png",
     "_attachments/Pasted image 20240715233728.png",
     "_attachments/Pasted image 20240715233724.png",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240715232354.png",
     "_attachments/Pasted image 20240715232322.png",
     "_attachments/Pasted image 20240715232122.png",
@@ -351,11 +422,6 @@
     "Untitled 4.md",
     "MT-Bench.md",
     "Gemma 2.md",
-    "Papers/General/Let's Verify Step by Step.md",
-    "Papers/General/Solving math word problems with process- and outcome-based feedback.md",
-    "Reward.md",
-    "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
-    "RLHF.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",

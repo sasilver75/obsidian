@@ -3,7 +3,8 @@ aliases:
   - WRAP
   - Rephrasing the Web
 ---
-January 29, 2024 -- [[Apple]]
+January 29, 2024
+[[Apple]]
 Paper: [Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling](https://arxiv.org/abs/2401.16380)
 
 Web Rephrase Augmented Pre-training (WRAP) is a technique aimed at ==enhancing LM training efficiency by rephrasing web documents into styles like Wikipedia, or question-answer formats== using Mistral-7B-instruct. This challenges the idea of learning from unstructured web data, which typically requires significant compute and data resources.
