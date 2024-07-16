@@ -9,8 +9,8 @@ Todo: See how it's used both in [[Speculative Decoding]] and in [[Medusa]]; we h
 # Rejection Sampling in Probability
 (NOTE: There seems to be a concept of [Rejection Sampling/Accept-Reject Sampling](https://en.wikipedia.org/wiki/Rejection_sampling) in probability, and this seems *not* to be the same thing as rejection sampling )
 
-In *that* domain, it's seen as a basic technique to generate observations from a probability distribution (density; though it seems people do it with discrete anways). 
-It's based on the observation that to sample a random variable in one dimension, we can perform some uniformly-random sampling of a two-dimensional Cartesian graph (x,y), and keep the samples in the region under the graph of its density function. This can be extended to N-dimensional functions.
+In *that* domain, it's seen as a basic technique to generate observations from a probability distribution (density; though it seems people do it with discrete anyways). 
+It's based on the observation that to sample a random variable in one dimension, we can perform some uniformly-random sampling of a two-dimensional Cartesian graph (x, y), and keep the samples in the region under the graph of its density function. This can be extended to N-dimensional functions.
 
 To visualize the motivation behind rejection sampling, imagine graphing the probability density function (PDF) of a random variable onto a large rectangular board and throwing darts at it. Assume that the darts are uniformly distributed around the board. Now remove all of the darts that are outside the area under the curve. The remaining darts will be distributed uniformly within the area under the curve, and the 
 

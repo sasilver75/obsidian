@@ -6,6 +6,7 @@ aliases:
 
 References:
 - Eugene Yan's [Synthetic Data blogpost](https://eugeneyan.com/writing/synthetic/)
+- John David Pressman's [RetroInstruct guide to Synthetic Text Data](https://minihf.com/posts/2024-07-13-the-retroinstruct-guide-to-synthetic-text-data/)
 
 Related: [[Data Augmentation]]
 
@@ -31,7 +32,7 @@ Important considerations when generating synthetic data:
 - Average turn length
 - (Sometimes) Removing undesirable behaviors (eg "as an AI language model")
 
-Examples
+Examples (non-exhaustive)
 - Distillation
 	- [[Unnatural Instructions]] (Dec 19, 2022): Generates synthetic data from GPT-3.5, then uses synthetic data to finetune T5-LM. Starting with 15 seed human-written examples, they prompt GPT-3.5 with three examples to generate a fourth synthetic example (instruction+context), using nucleus sampling for creativity when generating prompts, and greedy decoding for accuracy when generating responses. Authors filtered instruction-input pairs that were low-quality, and included a template expansion step to increase format diversity.
 	- [[Alpaca]] (Mar 13, 2023): Finetuned LLaMa-7B on 52k instruction-following examples from GPT-3.5; used the same 175 human-written instruction-response pairs from the Self-Instruct seed set, and generated more pairs from GPT-3.5 via few-shot prompting (a la Self-Instruct).
@@ -64,4 +65,12 @@ Examples
 
 ![[Pasted image 20240712174504.png|300]]
 This is from the AgentInstruct/Orca3 paper
-T
+
+
+> "None of the currently well advertised ways to contribute to deep learning are particularly accessible:
+> - Model tuning is a malthusian winner-take-all rat race where people scavenge the same sources over and over for marginal improvements to model performance. It's notable that Hermes Nous, the overnight champion got there by making synthetic datasets with instruction models instead of picking over the same stale data every other public model team was using.
+> - Most new techniques require the author to be well versed in a corpus of dense math papers full of inscrutable symbols from the perspective of an undergraduate. It's simply not attainable for people with a normal software development background unless they're willing to put in a lot of study hours and ingratiate themselves to people who already know.
+> - Benchmarks are in theory open to anyone with a clever idea for measuring model performance but in practice are massive undertakings with an ideal set size of thousands of rows. They are not a hobby software project, but more like a full time job.
+> - Projects like OpenAssistant require a big name to back them for coordination purposes and don't seem to have a lot of impact relative to the effort that went into them. Teknium, founder of Nous Research and current model tuning champion openly mocks how bad OpenAssistant is on his Twitter account which has to discourage contributions.
+> As far as I know synthetic data is the only truly accessible way to contribute to open source AI for someone with a normal software development background. Since the bottleneck to automating most pipelines is subjective evaluation of whether a particular prompt works or not I expect it to remain an available avenue to contribute for at least a while.
+> " -JD Pressman
