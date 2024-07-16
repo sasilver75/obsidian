@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Taught Reasoner.md",
+                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Taught Reasoner.md",
+                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Taught Reasoner.md",
+                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Taught Reasoner.md"
+                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md"
               }
             }
           },
@@ -272,7 +272,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Taught Reasoner.md",
+                "file": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -320,6 +320,12 @@
   },
   "active": "e8a65368493d6806",
   "lastOpenFiles": [
+    "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
+    "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
+    "~ Useful Pictures.md",
+    "Auto Evol-Instruct.md",
+    "AgentInstruct.md",
+    "Self-Taught Reasoner.md",
     "_attachments/Pasted image 20240715234230.png",
     "_attachments/Pasted image 20240715233804.png",
     "_attachments/Pasted image 20240715233801.png",
@@ -328,7 +334,6 @@
     "_attachments/Pasted image 20240715233728.png",
     "_attachments/Pasted image 20240715233724.png",
     "~ Vocabulary.md",
-    "Self-Taught Reasoner.md",
     "_attachments/Pasted image 20240715232354.png",
     "_attachments/Pasted image 20240715232322.png",
     "_attachments/Pasted image 20240715232122.png",
@@ -336,15 +341,12 @@
     "Reinforced Self-Training.md",
     "Self-Consistency.md",
     "Chain of Thought.md",
-    "_attachments/Pasted image 20240715214956.png",
     "Self-Taught Optimizer.md",
     "Eric Zelikman.md",
     "Reward Model.md",
     "Process Reward Model.md",
     "PRM800K.md",
     "AlpacaEval.md",
-    "Auto Evol-Instruct.md",
-    "AgentInstruct.md",
     "WizardCoder.md",
     "Untitled 4.md",
     "MT-Bench.md",
@@ -352,10 +354,8 @@
     "Papers/General/Let's Verify Step by Step.md",
     "Papers/General/Solving math word problems with process- and outcome-based feedback.md",
     "Reward.md",
-    "Articles/Machine Learning/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
+    "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
     "RLHF.md",
-    "Articles/Machine Learning/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Articles/Machine Learning/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
