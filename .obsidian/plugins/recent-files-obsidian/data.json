@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Auto Evol-Instruct",
+      "path": "Auto Evol-Instruct.md"
+    },
+    {
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
+    },
+    {
+      "basename": "WizardCoder",
+      "path": "WizardCoder.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
+    },
+    {
       "basename": "Let's Verify Step by Step",
       "path": "Papers/General/Let's Verify Step by Step.md"
     },
@@ -23,10 +47,6 @@
     {
       "basename": "Reward",
       "path": "Reward.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}",
@@ -141,14 +161,6 @@
       "path": "UltraFeedback.md"
     },
     {
-      "basename": "MT-Bench",
-      "path": "MT-Bench.md"
-    },
-    {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
-    },
-    {
       "basename": "Zephyr",
       "path": "Zephyr.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Knowledge Pile",
       "path": "Knowledge Pile.md"
-    },
-    {
-      "basename": "Query of CC",
-      "path": "Query of CC.md"
-    },
-    {
-      "basename": "DROP",
-      "path": "DROP.md"
-    },
-    {
-      "basename": "FoFo",
-      "path": "FoFo.md"
     }
   ],
   "omittedPaths": [],
