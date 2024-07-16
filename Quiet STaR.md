@@ -11,6 +11,10 @@ Similar earlier papers include:
 
 > "Generalization of STaR that is the first work explicitly training LMs to reason generally from *text*, rather than on curated reasoning tasks or collections of reasoning tasks." - Authors
 
+Questions: 
+- It doesn't seem like the thoughts generated between output tokens A and B are useful for the generation of C, or even of the thoughts between B and C.
+- I was thinking that at the end of the training process, our mixing head should basically be weighting the representation at the end of the intermediate thought... at 100%? Or no? Not clear to me 🤔. I think we only attend to the end-of-token logit (and then the previous real token outputs).
+
 ----
 
 ## Introduction
@@ -59,7 +63,7 @@ Similar earlier papers include:
 	- ==We construct an attention mask that lets all thought tokens pay attention to themselves, preceding thought tokens in the same thought, and the preceding text== to generate continuations of all thoughts in parallel. ((See figure; this is sort of hard to grok, reminds me of the "tree attention" in [[Medusa]]))
 - "Mixing" (Residual) Heads
 	- Starting with a pre-trained model, thoughts will initially be out of distribution (?... Because producing rationales isn't something that the pre-trained model was trained to do). To smooth the transition to thinking, we introduce a learned interpolation between LM predictions *with* and *without* thoughts.
-	- Given end-of-thought token's hidden state and the hidden state of the original text token, the mixing head (shallow MLP) outputs a weight that determines the extent to which the post-thought prediction logits will be used.
+	- Given end-of-thought token's hidden state and the hidden state of the original text token, the mixing head (shallow MLP of 3 layers with ReLU) outputs a weight that determines the extent to which the post-thought prediction logits will be used.
 - Optimizing Rationale Generation
 	- Optimizing Start-of-Thought and End-of-Thought tokens
 		- These tokens serve as ***learned meta-tokens*** that control the model's rationale generation. Optimization the representation of these (especially the start of thought token) is crucial but challenging due to the discrete nature of the rationale tokens.
@@ -69,14 +73,30 @@ Similar earlier papers include:
 		- We don't expect thoughts to be useful in predicting *every token*, so we'd prefer the model's reward to depend less on the *exact* next word in the text following the thought, and more on the following semantic content.
 		- We use the parallel attention mask to compute the log probabilities of the true next tokens, applying [[Teacher Forcing]] by assuming the model selected the correct next ground-truth token...
 			- The number of future tokens included in the loss is a hyperparameter
-
+- Objective
+	- We use [[REINFORCE]] to optimize the likelihoods of the rationales based on their usefulness!
+		- The log-likelihood of the $n_true$ true next tokens X_{j+1:j+n_true+1} under the language model given previous observed tokens and a particular rationale (p_j:j+n_true^talk).
+		- To reduce variance, we generate *multiple* rationale continuations for each token in the input sequence (loosely inspired by [[TRICE]]). So we define the reward for each rational T as the difference between $p^{talk}_{j:j+n_{true}}$ and the average across rationales for that token.
+![[Pasted image 20240716153743.png]]
+This loss term encourages the model to generate rationales that improve its predictions of future tokens compared to the average prediction across all generated rationales for that token. The gradients from this loss are used to update both the LM parameters and the start of thought and end of thought toke n embeddings, with a hyperparameter weight applied to the gradients of the SoT and EoT token embeddings to accelerate their optimization.
+We also include a log likelihood loss to ensure that the LM learns to optimize the talking heads and also receives a next-token prediction signal for the base LM head.
 
 ## Experiment and Result
-
+- Intuitively, not all tokens require equal amounts of thought. Consider "the person is run-" ... it's likely that the next token is "ing". Additional thinking is unlikely to improve a well-trained model's prediction.
+- We conjecture that for most chunks of most online text, additional thought has little to no impact.
+- So we design our experiment to investigate whether our approach is useful in predicting that DO require thought!
+- We find thaat on average there is little improvement in the LM's ability to predict arbitrary tokens.
+- There are parallels between [[Chain of Thought]] and Quiet-STaR, but they'er actually orthogonal and complementary techniques. 
+	- CoT lets a model think out loud using its ordinary production distribution, whereas Quiet-STaR instead allows a model to think quietly at every token.
+	- Accuracy (unsure on whaat) over 8 samples increases from 40.6% to 47.7% using Chain of Thought with Quiet-STaR.
+- There's no explicit regularization in Quiet-STaR for thoughts to be human-interpretable... though they're generated from the same transformer used to model langauge, so they're likely to be at least partially understandable.
 
 
 ## Limitations and Conclusion
-
+- Authors only applied Quiet-STaR to a 7B model, albeit  powerful one. 
+	- It's often observed that similar techniques yield even better results when applied to stronger models.
+- Quiet-STaR results in substantial overhead, generating many tokens before generating every additional token.
+	- It's a way of leveraging additional compute to enhance next token predict.
 
 
 ## Appendix
@@ -100,3 +120,15 @@ Reminds me of the "tree attention" from the [[Medusa]] paper
 ![[Pasted image 20240716145308.png|600]]
 - Lol at the use of the kitchen mixer emoji for the mixing head. This is visualizing predicting three tokens ahead...
 - Dashed lines indicate teacher forcing. This just seems like usual teacher forcing, right? Though what does teacher forcing look like for thoughts, if that's what I'm seeing? Since we aren't using a labeled dataset.
+
+![[Pasted image 20240716154322.png|600]]
+See improvement that Quiet Star seems to make over CoT...
+
+![[Pasted image 20240716155249.png|600]]
+An example where we recall that one should start with magnesium to produce magnesium nitride, which allows it to better predict that the first step of the procedure involves heating magnesium. ((Makes me think: I bet the thoughts for the previous word were pretty similar... but I don't think we get to take any advantage of them.))
+
+![[Pasted image 20240716155414.png|600]]
+An example in which the most useful thoughts seem to be near-continuations that correspond more closely to the target text.
+
+![[Pasted image 20240716155656.png|600]]
+An example of a thought that occurs during the middle of reading a question (hence not used to predict the final answer). ((Interesting that we seem to limit the length of thoughts. I wonder how much that hyperparameter matters?))
