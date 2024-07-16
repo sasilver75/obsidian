@@ -4,6 +4,7 @@ aliases:
   - Fine-tuned Language Net
 ---
 September 3, 2021
+[[Google Research]] (incl [[Quoc Le]], Jason Wei)
 Paper: [Finetuned Language Models are Zero-Shot Learners](https://arxiv.org/abs/2109.01652) (FLAN = "Finetuned Language Network")
 
 FLAN is both a model and a dataset (they only release a partial dataset though, as the [[Pile-T5]] authors discovered)
