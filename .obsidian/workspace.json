@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "b2dcc37343af7493",
+            "id": "e45dc9ea008e8504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WizardMath.md",
+                "file": "SmolLM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +34,20 @@
             }
           },
           {
-            "id": "f9611f1cf9168697",
+            "id": "695ab5ec9dc9b6f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Ideas.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf3c384de13d7eb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,162 +60,20 @@
             }
           },
           {
-            "id": "af29a78c20e7ae00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reward-Augmented Decoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdeae4fbe5799450",
+            "id": "7b3b0e2b25201df3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01a314edbe48cecc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chrF.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec63ed4a865b9da4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/General/Let's Verify Step by Step.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcca4bda509061ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6df79efd6ac5242c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quiet STaR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f89ad8ec6eb32d4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforced Self-Training.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f087b67e55c26cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Consistency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c4f8ae14fbb9344",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f730397dcb709ae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9fea67e6cbae43a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Taught Optimizer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66466ce9e9d018d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eric Zelikman.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+                "file": "SmolLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+                "file": "SmolLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+                "file": "SmolLM.md"
               }
             }
           },
@@ -351,7 +222,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+                "file": "SmolLM.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -397,17 +268,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cf1dc9683797f316",
+  "active": "e45dc9ea008e8504",
   "lastOpenFiles": [
-    "WizardMath.md",
-    "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "_attachments/Pasted image 20240717004523.png",
+    "_attachments/Pasted image 20240717004516.png",
+    "_attachments/Pasted image 20240717004445.png",
+    "StarCoder.md",
+    "SmolLM.md",
+    "~ Ideas.md",
     "~ Vocabulary.md",
-    "Eric Zelikman.md",
+    "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "_attachments/Pasted image 20240717000601.png",
+    "_attachments/Pasted image 20240716235934.png",
+    "Cosmopedia.md",
+    "Phi-2.md",
+    "Phi-3.md",
+    "_attachments/Pasted image 20240716234758.png",
+    "FLAMe.md",
+    "WizardMath.md",
     "Reward-Augmented Decoding.md",
     "chrF.md",
+    "Papers/General/Let's Verify Step by Step.md",
+    "Quiet STaR.md",
+    "Reinforced Self-Training.md",
+    "Self-Consistency.md",
+    "Self-Taught Optimizer.md",
+    "Eric Zelikman.md",
     "GenQA.md",
     "Constrained Decoding.md",
-    "Papers/General/Let's Verify Step by Step.md",
     "Rejection Sampling.md",
     "Scalable Oversight.md",
     "Self-Taught Reasoner.md",
@@ -417,24 +305,7 @@
     "_attachments/Pasted image 20240716182343.png",
     "_attachments/Pasted image 20240716182318.png",
     "_attachments/Pasted image 20240716182010.png",
-    "_attachments/Pasted image 20240716181533.png",
-    "_attachments/Pasted image 20240716162809.png",
-    "Quiet STaR.md",
-    "_attachments/Pasted image 20240716155656.png",
-    "_attachments/Pasted image 20240716155414.png",
-    "_attachments/Pasted image 20240716155249.png",
     "Direct Preference Optimization.md",
-    "Zephyr.md",
-    "AlpaGasus.md",
-    "Nemotron-4.md",
-    "AgentInstruct.md",
-    "FLAN.md",
-    "~ Ideas.md",
-    "Synthetic Data.md",
-    "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md",
-    "Indices/Synthetic Data Index.md",
-    "Web Rephrase Augmented Pre-training.md",
-    "Auto Evol-Instruct.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
