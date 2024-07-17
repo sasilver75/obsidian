@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "chrF",
+      "path": "chrF.md"
+    },
+    {
+      "basename": "GenQA",
+      "path": "GenQA.md"
+    },
+    {
+      "basename": "Reward-Augmented Decoding",
+      "path": "Reward-Augmented Decoding.md"
+    },
+    {
+      "basename": "Constrained Decoding",
+      "path": "Constrained Decoding.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
       "basename": "Let's Verify Step by Step",
       "path": "Papers/General/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "Scalable Oversight",
+      "path": "Scalable Oversight.md"
+    },
+    {
+      "basename": "Self-Taught Reasoner",
+      "path": "Self-Taught Reasoner.md"
     },
     {
       "basename": "Reward Model",
@@ -11,10 +47,6 @@
     {
       "basename": "Quiet STaR",
       "path": "Quiet STaR.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Direct Preference Optimization",
@@ -41,10 +73,6 @@
       "path": "FLAN.md"
     },
     {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
     },
@@ -57,20 +85,12 @@
       "path": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md"
     },
     {
-      "basename": "Scalable Oversight",
-      "path": "Scalable Oversight.md"
-    },
-    {
       "basename": "Synthetic Data Index",
       "path": "Indices/Synthetic Data Index.md"
     },
     {
       "basename": "Web Rephrase Augmented Pre-training",
       "path": "Web Rephrase Augmented Pre-training.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
     },
     {
       "basename": "Auto Evol-Instruct",
@@ -179,26 +199,6 @@
     {
       "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
       "path": "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
-    },
-    {
-      "basename": "Resiliparse",
-      "path": "Resiliparse.md"
-    },
-    {
-      "basename": "Trafilatura",
-      "path": "Trafilatura.md"
-    },
-    {
-      "basename": "DataComp-LM",
-      "path": "DataComp-LM.md"
-    },
-    {
-      "basename": "DataComp",
-      "path": "DataComp.md"
-    },
-    {
-      "basename": "OpenRouter",
-      "path": "OpenRouter.md"
     }
   ],
   "omittedPaths": [],
