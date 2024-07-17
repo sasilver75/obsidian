@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quiet STaR.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8694d53e5d307ccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reward Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -304,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quiet STaR.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -321,7 +334,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quiet STaR.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quiet STaR.md"
+                "file": "Papers/General/Let's Verify Step by Step.md"
               }
             }
           },
@@ -377,7 +390,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Quiet STaR.md",
+                "file": "Papers/General/Let's Verify Step by Step.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -425,22 +438,26 @@
   },
   "active": "0563c5bee5738bb5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240716182457.png",
+    "_attachments/Pasted image 20240716182357.png",
+    "_attachments/Pasted image 20240716182343.png",
+    "_attachments/Pasted image 20240716182318.png",
+    "_attachments/Pasted image 20240716182010.png",
+    "_attachments/Pasted image 20240716181533.png",
+    "_attachments/Pasted image 20240716162809.png",
+    "Reward Model.md",
+    "Papers/General/Let's Verify Step by Step.md",
+    "Quiet STaR.md",
     "_attachments/Pasted image 20240716155656.png",
     "_attachments/Pasted image 20240716155414.png",
     "_attachments/Pasted image 20240716155249.png",
     "_attachments/Pasted image 20240716154322.png",
-    "_attachments/Pasted image 20240716153743.png",
-    "_attachments/Pasted image 20240716145308.png",
     "~ Vocabulary.md",
     "Direct Preference Optimization.md",
     "Zephyr.md",
     "AlpaGasus.md",
     "Nemotron-4.md",
     "AgentInstruct.md",
-    "Quiet STaR.md",
-    "_attachments/Pasted image 20240716140022.png",
-    "_attachments/Pasted image 20240716123827.png",
-    "_attachments/Pasted image 20240716122115.png",
     "FLAN.md",
     "Self-Taught Reasoner.md",
     "~ Ideas.md",
@@ -453,14 +470,10 @@
     "Auto Evol-Instruct.md",
     "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240715234230.png",
-    "_attachments/Pasted image 20240715233804.png",
     "Reinforced Self-Training.md",
     "Self-Consistency.md",
     "Chain of Thought.md",
     "Self-Taught Optimizer.md",
-    "Eric Zelikman.md",
-    "Reward Model.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
