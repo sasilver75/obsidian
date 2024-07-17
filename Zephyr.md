@@ -2,10 +2,11 @@ October 25, 2023
 [[HuggingFace]] H4 (Helpful, Honest, Harmless, Huggy) Team (including [[Nathan Lambert]])
 Paper: [Zephyr: Direct Distillation of LM Alignment](https://arxiv.org/abs/2310.16944)
 #zotero 
-Takeaway: Explores using a combination of [[Distillation]] and [[Direct Preference Optimization|DPO]] (which they call dDPO), where an ensemble of strong models give AI Feedback (AIF, rather than human feedback (HF)) regarding preference, and then authors use the resulting dataset to align [[Mistral 7B]]. 
+Takeaway: Explores using a combination of [[Distillation]] and [[Direct Preference Optimization|DPO]] (which they call dDPO), where an ensemble of strong models give AI Feedback (AIF, rather than human feedback (HF)) regarding preference, and then authors use the resulting dataset (pairs of (highest_score_generation, random_lower_score_generation)) to align [[Mistral 7B]]. 
 
-Note: There's a model called Notus, which is a variant of Zephyr with better filtered/fixed data.
-Q: What is Zephyr-Beta?
+
+Note: The Zephyr in this paper is actually ==Zephyr-Alpha== (finetune of [[Mistral 7B]]); later, a ==[Zephyr-Beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)== (finetune of [[Mistral 7B]]) and a ==[Zephyr-Gemma](https://huggingface.co/HuggingFaceH4/zephyr-7b-gemma-v0.1)== (finetune of [[Gemma]] 7B)
+Note: There's a model from [[Argilla]] called [Notus 7B](https://huggingface.co/argilla/notus-7b-v1), which is an analogue to Zephyr-Beta with a better preference dataset used for dDPO.
 
 ---
 
