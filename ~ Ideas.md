@@ -27,7 +27,9 @@
 - > "I'm still of the mind that there do not exist good multi-turn datasets or other resources of bootstrapping anything like L3 or Gemma (without copious abuse of GPT-4 class models)." - Teortaxes
 - There are a bunch of papers for synthetic IFT and IFT evaluation that try to create taxonomies of skills -- See AgentInstruct and Skill-Mix, and look for others for information. It would be nice to compile that into a blog post or something.
 - Reagarding Synthetic Data pipelines, check out JD Pressman's [RetroInistruct](https://github.com/JD-P/RetroInstruct?tab=readme-ov-file) and [MiniHF](https://github.com/JD-P/minihf?tab=readme-ov-file#sampling-branch-management-and-autoloom) projects
-- 
+- The [[SmolLM]] note talks about how for Cosmopedia v2, they started with a predefined list of 34,000 topics using the ==BISAC book classification==; that could be an interesting resource to check out, re: taxonomies.
+- The FineWeb paper showed the power of training (eg) educational-quality classifiers to filter large datasets; they filtered FineWeb to FineWeb-Edu, which resulted in dataset that outperformed the original FineWeb dataset on popular benchmarks! Showed the power of classifiers trained on synthetic data... is there a way to push this further, somehow?
+	- Stack-Edu-Python applied the same idea of FineWeb-Edu to Code! They used LLaMA3 to annotate 500k python samples from The Stack and used them to train an educational classifier using the same recipe as the FineWeb-Edu classifier.
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 

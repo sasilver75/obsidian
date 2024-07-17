@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+      "basename": "SmolLM",
+      "path": "SmolLM.md"
     },
     {
-      "basename": "WizardMath",
-      "path": "WizardMath.md"
+      "basename": "StarCoder",
+      "path": "StarCoder.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Eric Zelikman",
-      "path": "Eric Zelikman.md"
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "Cosmopedia",
+      "path": "Cosmopedia.md"
+    },
+    {
+      "basename": "Phi-2",
+      "path": "Phi-2.md"
+    },
+    {
+      "basename": "Phi-3",
+      "path": "Phi-3.md"
+    },
+    {
+      "basename": "FLAMe",
+      "path": "FLAMe.md"
+    },
+    {
+      "basename": "WizardMath",
+      "path": "WizardMath.md"
     },
     {
       "basename": "Reward-Augmented Decoding",
@@ -25,16 +49,36 @@
       "path": "chrF.md"
     },
     {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/General/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
+    },
+    {
+      "basename": "Reinforced Self-Training",
+      "path": "Reinforced Self-Training.md"
+    },
+    {
+      "basename": "Self-Consistency",
+      "path": "Self-Consistency.md"
+    },
+    {
+      "basename": "Self-Taught Optimizer",
+      "path": "Self-Taught Optimizer.md"
+    },
+    {
+      "basename": "Eric Zelikman",
+      "path": "Eric Zelikman.md"
+    },
+    {
       "basename": "GenQA",
       "path": "GenQA.md"
     },
     {
       "basename": "Constrained Decoding",
       "path": "Constrained Decoding.md"
-    },
-    {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/General/Let's Verify Step by Step.md"
     },
     {
       "basename": "Rejection Sampling",
@@ -51,10 +95,6 @@
     {
       "basename": "Reward Model",
       "path": "Reward Model.md"
-    },
-    {
-      "basename": "Quiet STaR",
-      "path": "Quiet STaR.md"
     },
     {
       "basename": "Direct Preference Optimization",
@@ -79,10 +119,6 @@
     {
       "basename": "FLAN",
       "path": "FLAN.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
     },
     {
       "basename": "Synthetic Data",
@@ -113,20 +149,8 @@
       "path": "~ Useful Pictures.md"
     },
     {
-      "basename": "Reinforced Self-Training",
-      "path": "Reinforced Self-Training.md"
-    },
-    {
-      "basename": "Self-Consistency",
-      "path": "Self-Consistency.md"
-    },
-    {
       "basename": "Chain of Thought",
       "path": "Chain of Thought.md"
-    },
-    {
-      "basename": "Self-Taught Optimizer",
-      "path": "Self-Taught Optimizer.md"
     },
     {
       "basename": "Process Reward Model",
@@ -175,30 +199,6 @@
     {
       "basename": "The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}",
       "path": "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md"
-    },
-    {
-      "basename": "Supervised Fine-Tuning",
-      "path": "Supervised Fine-Tuning.md"
-    },
-    {
-      "basename": "Compendium of Problems with RLHF (Jan 2023) {LessWrong}",
-      "path": "Articles/Compendium of Problems with RLHF (Jan 2023) {LessWrong}.md"
-    },
-    {
-      "basename": "Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/Basics of Reinforcement Learning for LLMs (Sep 2023) {Simon Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing",
-      "path": "Papers/IR and RAG/RAG and RAU - A Survey on Retrieval-Augmented Language Model in Natural Language Processing.md"
-    },
-    {
-      "basename": "Understanding Deep Learning requires Rethinking Generalization",
-      "path": "Papers/General/Understanding Deep Learning requires Rethinking Generalization.md"
-    },
-    {
-      "basename": "The Bitter Lesson",
-      "path": "Papers/General/The Bitter Lesson.md"
     }
   ],
   "omittedPaths": [],

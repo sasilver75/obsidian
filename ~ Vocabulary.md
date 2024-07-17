@@ -418,6 +418,7 @@
 - [[Quiet STaR]]
 - [[Web Rephrase Augmented Pre-training]] (WRAP) (Rephrasing the Web)
 - [[Constitutional AI]] (CAI)
+- [[FLAMe]] (Foundational Large Autorater Model)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -773,6 +774,7 @@
 - [[Mistral 7B]]
 - [[Mixtral 8x22B]]
 - [[Mixtral 8x7B]]
+- [[MobileLLM]]
 - [[MobileNet-V2]]
 - [[MobileNet]]
 - [[MPT]] (Mosaic Pretrained Transformer)
@@ -798,6 +800,7 @@
 - [[Prometheus 2]]
 - [[Prometheus]]
 - [[Qwen 2]]
+- [[Qwen 1.5]]
 - [[Qwen]]
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
@@ -811,6 +814,7 @@
 - [[SimCLR v2]]
 - [[SimCLR]] (Simple Framework for Contrastive Learning for Visual Representations)
 - [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
+- [[SmolLM]]
 - [[Stable Diffusion]]
 - [[StarCoder 2]]
 - [[StarCoder]]
