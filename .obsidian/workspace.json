@@ -13,67 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e45dc9ea008e8504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SmolLM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "695ab5ec9dc9b6f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Ideas.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf3c384de13d7eb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b3b0e2b25201df3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
+                "file": "DeepSeek.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SmolLM.md",
+                "file": "DeepSeek.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SmolLM.md",
+                "file": "DeepSeek.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SmolLM.md"
+                "file": "DeepSeek.md"
               }
             }
           },
@@ -222,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SmolLM.md",
+                "file": "DeepSeek.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -268,16 +215,22 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e45dc9ea008e8504",
+  "active": "cf1dc9683797f316",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240717132454.png",
+    "~ Vocabulary.md",
+    "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "Zephyr.md",
+    "UltraFeedback.md",
+    "~ Ideas.md",
+    "_attachments/Pasted image 20240717105802.png",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240717102611.png",
+    "SmolLM.md",
     "_attachments/Pasted image 20240717004523.png",
     "_attachments/Pasted image 20240717004516.png",
     "_attachments/Pasted image 20240717004445.png",
     "StarCoder.md",
-    "SmolLM.md",
-    "~ Ideas.md",
-    "~ Vocabulary.md",
-    "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "_attachments/Pasted image 20240717000601.png",
     "_attachments/Pasted image 20240716235934.png",
     "Cosmopedia.md",
@@ -298,14 +251,8 @@
     "Constrained Decoding.md",
     "Rejection Sampling.md",
     "Scalable Oversight.md",
-    "Self-Taught Reasoner.md",
-    "Reward Model.md",
     "_attachments/Pasted image 20240716182457.png",
     "_attachments/Pasted image 20240716182357.png",
-    "_attachments/Pasted image 20240716182343.png",
-    "_attachments/Pasted image 20240716182318.png",
-    "_attachments/Pasted image 20240716182010.png",
-    "Direct Preference Optimization.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",

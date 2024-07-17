@@ -1,16 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "SmolLM",
-      "path": "SmolLM.md"
-    },
-    {
-      "basename": "StarCoder",
-      "path": "StarCoder.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
+      "basename": "DeepSeek",
+      "path": "DeepSeek.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -19,6 +11,30 @@
     {
       "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
       "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+    },
+    {
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "SmolLM",
+      "path": "SmolLM.md"
+    },
+    {
+      "basename": "StarCoder",
+      "path": "StarCoder.md"
     },
     {
       "basename": "Cosmopedia",
@@ -101,10 +117,6 @@
       "path": "Direct Preference Optimization.md"
     },
     {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
       "basename": "AlpaGasus",
       "path": "AlpaGasus.md"
     },
@@ -143,10 +155,6 @@
     {
       "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
       "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Chain of Thought",
@@ -191,14 +199,6 @@
     {
       "basename": "Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}",
       "path": "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}",
-      "path": "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md"
     }
   ],
   "omittedPaths": [],

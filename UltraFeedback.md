@@ -1,5 +1,13 @@
-October 2, 2023 (5 months after [[UltraChat]]) -- Tsinghua University
+October 2, 2023 (5 months after [[UltraChat]])
+Tsinghua University
 [UltraFeedback: Boosting Language Models with High-quality Feedback](https://arxiv.org/abs/2310.01377)
+
+Takeaway: ...
+
+Note: When training [Notus 7B](https://huggingface.co/argilla/notus-7b-v1) (an "improvement" vs. [[Zephyr]]-Beta), the authors from [[Argilla]] noticed some issues in the original UltraFeedback dataset, leading to high-scores for bad responses... they manually-curated several hundreds of data points, and then binarized the dataset (for [[Direct Preference Optimization|DPO]]) and verified it with the Argilla platform... It led to a new dataset where the chosen response is different in ~50% of cases! This dataset is named [ultrafeedback-binarized-preferences](https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences) and is available on the hub.
+
+---
+
 
 A ==synthetic dataset== of "human preferences" (really well-prompted [[GPT-4]] preference judging, a la [[LLM-as-a-Judge]]; GPT-4 is shown to be very correlated with human preferences, I believe).
 - Generate 4 different responses from 4 language models; GPT-4 picks the winner.
@@ -13,3 +21,8 @@ Abstract
 
 
 
+
+# Non-Paper Figures
+
+![[Pasted image 20240717105802.png|600]]
+An example of one poorly-provided human feedback in the UltraChat dataset noticed by Argilla when training Notus.

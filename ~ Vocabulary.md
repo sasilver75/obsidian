@@ -953,6 +953,7 @@
 - [[RACE]] (Large-Scale Reading Comprehension Dataset from Examination)
 - [[RewardBench]]
 - [[SciBench]]
+- [[SEAL Leaderboard]]
 - [[SQuAD]] (Stanford Question Answering Dataset)
 - [[SuperGLUE]]
 - [[SWAG]] (Situations with Adversarial Generations)
@@ -960,6 +961,7 @@
 - [[TFEval]] (Topic-Following Eval)
 - [[TruthfulQA]]
 - [[VQAv2]] (Visual Question Answering)
+- [[WebArena]]
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
 - [[Winoground]]
