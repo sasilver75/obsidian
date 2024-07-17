@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "WizardMath",
+      "path": "WizardMath.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Eric Zelikman",
+      "path": "Eric Zelikman.md"
+    },
+    {
+      "basename": "Reward-Augmented Decoding",
+      "path": "Reward-Augmented Decoding.md"
     },
     {
       "basename": "chrF",
@@ -13,16 +29,8 @@
       "path": "GenQA.md"
     },
     {
-      "basename": "Reward-Augmented Decoding",
-      "path": "Reward-Augmented Decoding.md"
-    },
-    {
       "basename": "Constrained Decoding",
       "path": "Constrained Decoding.md"
-    },
-    {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
     },
     {
       "basename": "Let's Verify Step by Step",
@@ -121,10 +129,6 @@
       "path": "Self-Taught Optimizer.md"
     },
     {
-      "basename": "Eric Zelikman",
-      "path": "Eric Zelikman.md"
-    },
-    {
       "basename": "Process Reward Model",
       "path": "Process Reward Model.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "The Bitter Lesson",
       "path": "Papers/General/The Bitter Lesson.md"
-    },
-    {
-      "basename": "Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP",
-      "path": "Papers/Long-Inference and Prompting/Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP.md"
     }
   ],
   "omittedPaths": [],

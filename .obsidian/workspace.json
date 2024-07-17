@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "b2dcc37343af7493",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WizardMath.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9611f1cf9168697",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "af29a78c20e7ae00",
             "type": "leaf",
             "state": {
@@ -176,8 +202,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
               }
             }
           },
@@ -326,7 +351,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -372,14 +397,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cdeae4fbe5799450",
+  "active": "cf1dc9683797f316",
   "lastOpenFiles": [
-    "chrF.md",
-    "~ Vocabulary.md",
-    "GenQA.md",
-    "Reward-Augmented Decoding.md",
-    "Constrained Decoding.md",
+    "WizardMath.md",
     "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "~ Vocabulary.md",
+    "Eric Zelikman.md",
+    "Reward-Augmented Decoding.md",
+    "chrF.md",
+    "GenQA.md",
+    "Constrained Decoding.md",
     "Papers/General/Let's Verify Step by Step.md",
     "Rejection Sampling.md",
     "Scalable Oversight.md",
@@ -408,8 +435,6 @@
     "Indices/Synthetic Data Index.md",
     "Web Rephrase Augmented Pre-training.md",
     "Auto Evol-Instruct.md",
-    "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
-    "~ Useful Pictures.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
