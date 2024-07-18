@@ -13,59 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReAct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96d3041fb6b4d1d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e39e29e67144370",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigCodeBench.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0eb7631f10180de4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaLM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1931bead6e58a3e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+                "file": "Self-Refine.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -148,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReAct.md",
+                "file": "Self-Refine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReAct.md",
+                "file": "Self-Refine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReAct.md"
+                "file": "Self-Refine.md"
               }
             }
           },
@@ -221,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ReAct.md",
+                "file": "Self-Refine.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,26 +217,28 @@
   },
   "active": "0647e5f508b65e95",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240718010208.png",
+    "_attachments/Pasted image 20240718005833.png",
+    "_attachments/Pasted image 20240718005703.png",
+    "_attachments/Pasted image 20240718005340.png",
+    "_attachments/Pasted image 20240718002912.png",
+    "_attachments/Pasted image 20240718001829.png",
+    "_attachments/Pasted image 20240718001432.png",
+    "_attachments/Pasted image 20240718000143.png",
+    "Reflexion.md",
+    "Self-Refine.md",
+    "ReAct.md",
+    "~ Vocabulary.md",
+    "BigCodeBench.md",
+    "PaLM.md",
+    "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "_attachments/Pasted image 20240717230244.png",
     "_attachments/Pasted image 20240717230214.png",
     "_attachments/Pasted image 20240717230119.png",
-    "_attachments/Pasted image 20240717225028.png",
-    "_attachments/Pasted image 20240717222930.png",
-    "~ Vocabulary.md",
-    "BigCodeBench.md",
-    "ReAct.md",
     "Phi-3.md",
-    "PaLM.md",
-    "_attachments/Pasted image 20240717175051.png",
-    "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "MBPP.md",
     "PRM800K.md",
-    "_attachments/Pasted image 20240717171146.png",
-    "_attachments/Pasted image 20240717171130.png",
-    "_attachments/Pasted image 20240717171122.png",
-    "_attachments/Pasted image 20240717171056.png",
     "Tree of Thoughts.md",
-    "_attachments/Pasted image 20240717161509.png",
     "Papers/General/Let's Verify Step by Step.md",
     "~ Ideas.md",
     "DeepSeek.md",
@@ -303,8 +253,6 @@
     "WizardMath.md",
     "Reward-Augmented Decoding.md",
     "chrF.md",
-    "Quiet STaR.md",
-    "Reinforced Self-Training.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Self-Refine",
+      "path": "Self-Refine.md"
+    },
+    {
+      "basename": "Reflexion",
+      "path": "Reflexion.md"
+    },
+    {
       "basename": "ReAct",
       "path": "ReAct.md"
     },
@@ -13,16 +21,16 @@
       "path": "BigCodeBench.md"
     },
     {
-      "basename": "Phi-3",
-      "path": "Phi-3.md"
-    },
-    {
       "basename": "PaLM",
       "path": "PaLM.md"
     },
     {
       "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
       "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "Phi-3",
+      "path": "Phi-3.md"
     },
     {
       "basename": "MBPP",
@@ -191,14 +199,6 @@
     {
       "basename": "AlpacaEval",
       "path": "AlpacaEval.md"
-    },
-    {
-      "basename": "WizardCoder",
-      "path": "WizardCoder.md"
-    },
-    {
-      "basename": "Untitled 4",
-      "path": "Untitled 4.md"
     }
   ],
   "omittedPaths": [],
