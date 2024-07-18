@@ -1,28 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
       "basename": "ReAct",
       "path": "ReAct.md"
     },
     {
-      "basename": "Tree of Thoughts",
-      "path": "Tree of Thoughts.md"
+      "basename": "Phi-3",
+      "path": "Phi-3.md"
+    },
+    {
+      "basename": "PaLM",
+      "path": "PaLM.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/General/Let's Verify Step by Step.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
     },
     {
       "basename": "MBPP",
@@ -31,6 +27,18 @@
     {
       "basename": "PRM800K",
       "path": "PRM800K.md"
+    },
+    {
+      "basename": "Tree of Thoughts",
+      "path": "Tree of Thoughts.md"
+    },
+    {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/General/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
     },
     {
       "basename": "DeepSeek",
@@ -63,10 +71,6 @@
     {
       "basename": "Phi-2",
       "path": "Phi-2.md"
-    },
-    {
-      "basename": "Phi-3",
-      "path": "Phi-3.md"
     },
     {
       "basename": "FLAMe",
@@ -195,10 +199,6 @@
     {
       "basename": "MT-Bench",
       "path": "MT-Bench.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
     }
   ],
   "omittedPaths": [],

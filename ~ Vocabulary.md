@@ -419,6 +419,11 @@
 - [[Web Rephrase Augmented Pre-training]] (WRAP) (Rephrasing the Web)
 - [[Constitutional AI]] (CAI)
 - [[Self-Refine]]
+- [[LATS]] (Language Agent Tree Search)
+- [[RAISE]] (Reasoning and Acting through Scratchpad and Examples)
+- [[ReAct]] (Reason and Act)
+- [[Reflexion]]
+- [[Voyager]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -557,13 +562,6 @@
 - [[Selective Language Modeling]] (SLM)
 - [[Noise-Contrastive Estimation]]
 - [[InfoNCE]] (Info Noise-Contrastive Estimation)
-
-# Agents
-- [[LATS]] (Language Agent Tree Search)
-- [[RAISE]] (Reasoning and Acting through Scratchpad and Examples)
-- [[ReAct]] (Reason and Act)
-- [[Reflexion]]
-- [[Voyager]]
 
 # Computer Vision Concepts
 - [[Object Recognition]]
