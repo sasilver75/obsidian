@@ -911,6 +911,7 @@
 - [[BIG-Bench Lite]] (BBL)
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
 - [[BigCodeBench]]
+- [[BigCodeBench-Hard]]
 - [[ChatBot Arena]]
 - [[DAWNBench]] ('Data Analytics for What's Next' Benchmark)
 - [[DROP]] (Discrete Reasoning over Paragraphs)
