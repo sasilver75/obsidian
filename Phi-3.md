@@ -1,7 +1,9 @@
 April 22, 2024
+[[Microsoft Research]]
 Paper: [Phi-3 Technical Report](https://arxiv.org/abs/2404.14219)
 
 A new Phi model family, basically scaling up [[Phi-2]]. 
+Note: At some point, MSFT updated the Phi-3 models ("Phi 3.5," according to [redditors](https://www.reddit.com/r/LocalLLaMA/comments/1dtgylv/microsoft_updated_phi3_mini/))
 
 Model family:
 - Phi-3-mini (3.8B, 3.3T tokens)
