@@ -15,7 +15,7 @@ This changed with the proposal of advanced prompting techniques, such as [[Chain
 
 > *"It's perhaps surprising that underlying all this progress is still the original autoregressive mechanism for generating text, which makes token-level decisions one by one and in a left-to-right fashion."*
 
-In the [[Tree of Thought]] prompting approach, we solve problems by explicitly decomposing them into a series of *thoughts*, or intermediate steps.
+In the [[Tree of Thoughts]] prompting approach, we solve problems by explicitly decomposing them into a series of *thoughts*, or intermediate steps.
 - Similar to [[Chain of Thought]] prompting, ==tree of thoughts prompting generates a solution that is simply a sequence of individual thoughts.==
 - However, this approach goes further by ==allowing multiple reasoning paths to be considered at once== -- *forming a tree of potential thoughts or reasoning paths* -- and explores this entire solution space via LLM-powered self-evaluation.
 - With Tree of Thoughts, the LLM can deliberately plan its solution, test various intermediate reasoning paths, and even perform backtracking -- allowing the model to explore the solution space and eventually generate the correct output.
@@ -131,7 +131,7 @@ This is where Tree of Thought comes in!
 - Tree of Thought allows us to break problems down into smaller parts (i.e. like a chain of thought), but goes *further* by allowing us to explore multiple solution paths in parallel, forming a tree 🌳 instead of a chain  ⛓️!
 ![[Pasted image 20240306112834.png]]
 
-[[Tree of Thought]] (ToT) prompting breaks down a problem into a sequence of smaller steps that are solved individually -- but it doesn't constrain the model to output these steps all at once!
+[[Tree of Thoughts]] (ToT) prompting breaks down a problem into a sequence of smaller steps that are solved individually -- but it doesn't constrain the model to output these steps all at once!
 1. Explore multiple choices for each problem-solving thought
 2. Evaluate whether certain thoughts bring the model closer to a final solution
 3. Perform backtracking when certain thoughts are found to be a dead end

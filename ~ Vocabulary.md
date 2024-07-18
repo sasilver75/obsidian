@@ -311,7 +311,7 @@
 - [[Particle Filters]] 
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]] (NeRF)
-- [[Tree of Thought]] (ToT)
+- [[Tree of Thoughts]] (ToT)
 - [[VLM]] (Vision-Language Model)
 - [[Continuous Batching]]
 - [[Speculative Decoding]]
@@ -418,7 +418,7 @@
 - [[Quiet STaR]]
 - [[Web Rephrase Augmented Pre-training]] (WRAP) (Rephrasing the Web)
 - [[Constitutional AI]] (CAI)
-- [[FLAMe]] (Foundational Large Autorater Model)
+- [[Self-Refine]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -718,6 +718,7 @@
 - [[ELECTRA]] (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
 - [[Falcon 2]]
 - [[Falcon]]
+- [[FLAMe]] (Foundational Large Autorater Model)
 - [[Flamingo]]
 - [[FLAN-T5]]
 - [[FLAN]] (Fine-tuned Language Net)
@@ -995,6 +996,7 @@
 - [[LMSYS-Chat-1M]]
 - [[LoTTE]] (Long-Tail Topic-stratified Evaluation)
 - [[MassiveText]] (Includes interesting work on quality/repetition filters)
+- [[MBPP]] (Mostly Basic Python Problems)
 - [[MMC4]] (Multimodal C4)
 - [[MNIST]] (Modified National Institute of Standards and Technology)
 - [[MS MARCO Web Search]]

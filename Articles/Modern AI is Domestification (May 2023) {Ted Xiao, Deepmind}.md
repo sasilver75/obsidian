@@ -113,7 +113,7 @@ Here's a few examples of AI feedback that amplify existing AI priors onto other 
 - [[Claude]] introduced [[Constitutional AI]], which starts with a human-produced prompt of rules and principles that is used during AI feedback generation and preference ranking of outputs, which are then used during downstream reinforcement learning to reduce harmfulness and increase helpfulness of instruction-following LLMs.
 - [[ALMoST]] uses LLMs of different quality and sizes to generate contrasting responses which can be used to train a ranking-based reward model.
 - LLM Self-Reflection has been a rapidly accelerating area. LLMs understand their own uncertainty -- [[Reflexion]] (and followups) use AI feedback during inference time, and [[LLMs Self-Improving]] incorporates AI feedback during training.
-- [[Tree of Thought]] uses structured search at inference time to utilize LLMs to propose and search for the most promising reasoning chains.
+- [[Tree of Thoughts]] uses structured search at inference time to utilize LLMs to propose and search for the most promising reasoning chains.
 - [[Society of Minds]] utilizes multiagent debate between LLMs to use an almost ensemble-like approach to improve factuality and reasoning.
 - [[Inner Monologue]] uses expert models to provide textual feedback for LLMs that iteratively plan robotics tasks.
 - [[AutoGPT]] combines AI feedback with digital tool use to autonomously execute tasks during inference time until self-judged completion.
