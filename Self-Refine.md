@@ -2,7 +2,7 @@ March 30, 2023
 CMU, [[Allen Institute|AI2]], UW, [[NVIDIA]], UCSD, [[Google Research]] (Madaan et al.)
 [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)
 #zotero 
-Takeaway: An iterative algorithm in which the same model is used to initially generate, and then iteratively critique and refine its outputs based on the critique.
+Takeaway: A simple iterative algorithm in which the same model is used to initially generate, and then iteratively alternates between critiquing and refining its outputs based on the critique (either N times, or until some stopping criteria is reached).
 
 
 ---
@@ -44,16 +44,15 @@ Takeaway: An iterative algorithm in which the same model is used to initially ge
 
 ## Related Work
 - Leveraging human and machine-generated natural language (NL) feedback for refining outputs has been effective for a variety of tasks, including summarization, script generation, program synthesis, and other tasks. Refinement methods differ in the *source* and *format* of the feedback.
-	- Source of feedback:
-	- Representation of feedback:
-	- Types of refiners:
-	- Non-refinement reinforcement learning (RL) approaches:
-
+	- ==Source of feedback==: Human feedback is costly, so several approaches use a scalar reward function as a surrogate to human feedback. Alternative sources like compilers or Wikipedia edits can provide some domain-specific feedback. Recently, LLMs have been used to generate feedback for general domains, but ours is the only method that generates feedback using LLM on its *own* output.
+	- ==Representation of feedback==: Generally can be divided into natural language and non-natural-language feedback, where the latter can come in the form of human-provided example pairs or scalar rewards. We use NL feedback here, since it allows the model to easily provide self-feedback.
+	- ==Types of refiners==: Pairs of feedback and refinement have been used to learn supervised refiners. We avoid training a separate refiner, and show that the same model can be used both as the refiner and the source of feedback across multiple domains.
+	- ==Non-refinement reinforcement learning (RL) approaches==: Rather than have an explicit refinement, an alternative way to incorporate feedback is to optimize a scalar reward function (eg with RL); these methods differ from self-refine in that the model doesn't access feedback on an intermediate generation... and these methods require updating the model's parameters, unlike Self-Refine.
 
 ## Limitations and Discussion
-
-
-## Conclusion
+- The main limitation of our approach is that the base models need to have sufficient few-shot modeling or instruction-following abilities in order to learn to provide feedback and refine their answers in an in-context fashion.
+	- In appendix, authors experimented with [[Vicuna]]-13B, which struggled to follow the prompts intended for feedback refinement! This often led to outputs resembling assistant-like responses.
+- We exclusively experiment with datasets in English; in other languages, the current models may not provide the same benefits.
 
 
 Abstract
@@ -86,3 +85,6 @@ Showing the impact of multiple iterations on score improvement. It's important a
 Differences of initial code generation (left) and the output after applying self-refine.
 
 ![[Pasted image 20240718010208.png|500]]
+
+![[Pasted image 20240718121447.png|600]]
+
