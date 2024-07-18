@@ -14,5 +14,5 @@ Humans choosing which generation to return is common too. In ChatGPT, the human 
 
 But you don't necessarily need a human! 
 ![[Pasted image 20240614223831.png]]
-You can use tools like [[Tree of Thought]]; the idea is here is to generate several smaller sequences, and use a model to choose which one to continue.
+You can use tools like [[Tree of Thoughts]]; the idea is here is to generate several smaller sequences, and use a model to choose which one to continue.
 - The idea is that, through prompting, we achieve something that (if you squint) looks a lot like [[Beam Search]], where we use a signal from an external source to control exploration of a generation space at a broader level than on single tokens.

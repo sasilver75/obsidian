@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "DeepSeek",
-      "path": "DeepSeek.md"
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
+    },
+    {
+      "basename": "Tree of Thoughts",
+      "path": "Tree of Thoughts.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/General/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "MBPP",
+      "path": "MBPP.md"
+    },
+    {
+      "basename": "PRM800K",
+      "path": "PRM800K.md"
+    },
+    {
+      "basename": "DeepSeek",
+      "path": "DeepSeek.md"
     },
     {
       "basename": "Zephyr",
@@ -19,10 +43,6 @@
     {
       "basename": "UltraFeedback",
       "path": "UltraFeedback.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
     },
     {
       "basename": "~ Useful Pictures",
@@ -63,10 +83,6 @@
     {
       "basename": "chrF",
       "path": "chrF.md"
-    },
-    {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/General/Let's Verify Step by Step.md"
     },
     {
       "basename": "Quiet STaR",
@@ -165,10 +181,6 @@
       "path": "Process Reward Model.md"
     },
     {
-      "basename": "PRM800K",
-      "path": "PRM800K.md"
-    },
-    {
       "basename": "AlpacaEval",
       "path": "AlpacaEval.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Gemma 2",
       "path": "Gemma 2.md"
-    },
-    {
-      "basename": "Solving math word problems with process- and outcome-based feedback",
-      "path": "Papers/General/Solving math word problems with process- and outcome-based feedback.md"
-    },
-    {
-      "basename": "Reward",
-      "path": "Reward.md"
-    },
-    {
-      "basename": "Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}",
-      "path": "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md"
     }
   ],
   "omittedPaths": [],

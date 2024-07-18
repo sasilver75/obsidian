@@ -6,7 +6,7 @@ An emergency special; he information we need to understand what Q* is was right 
 
 My initial hypothesis, which I clearly labeled as a tin hat theory, was a vague merging of Q-learning and A* search. What I didn’t answer is, what is being searched over? My initial guess of searching over dialogue turns is almost certainly wrong due to infrastructure reasons I’ll touch on later.
 
-As I’ve dug into this in more detail, I’ve become convinced that they are doing something powerful by **searching over language steps via [[Tree of Thought]] reasoning**, but it is much smaller of a leap than people believe. The reason for the hyperbole is the goal of linking large language model training and usage to the core components of Deep RL that enabled success like AlphaGo: self-play and look-ahead planning.
+As I’ve dug into this in more detail, I’ve become convinced that they are doing something powerful by **searching over language steps via [[Tree of Thoughts]] reasoning**, but it is much smaller of a leap than people believe. The reason for the hyperbole is the goal of linking large language model training and usage to the core components of Deep RL that enabled success like AlphaGo: self-play and look-ahead planning.
 
 [[Self-Play]] is the idea that an agent can improve its gameplay by playing against slightly different versions of itself because it'll progressively encounter more challenging situations. In the space of LLMs, it's almost certain that the largest portion of self-play will look like AI Feedback, rather than competitive processes.
 
@@ -22,7 +22,7 @@ If we had the answers to these, it would be more clear as to how we could use ex
 
 ## Modular reasoning with LLMs: Tree of Thoughts (ToT) prompting
 - Promoting techniques like "take a deep breath" and "think step by step" are now expanding into advanced methods for inference with parallel computation and heuristics (some of the fundamentals of search).
-- [[Tree of Thought]] is really as simple as it sounds!
+- [[Tree of Thoughts]] is really as simple as it sounds!
 	- We prompt an LM to create a tree of reasoning paths that may or may not converge at a correct answer.
 ![[Pasted image 20240627003514.png|450]]
 The innovations that make this click are:
@@ -55,7 +55,7 @@ This allows for finer-tuned generation with reasoning problems, by sampling over
 Using [[Best-of-N Sampling]], essentially generating a bunch of of and using the one that scored the highest by the reward model (an inference-time cousin of [[Rejection Sampling]]), PRMs outperform standard RMs on reasoning tasks.
 
 To date, most resources for PRMs show how to use them at inference time -- the true signal will come when this signal is optimized against training. To create the richest optimization setting, having the ability to generate diverse reasoning pathways for scoring and learning from is essential.
-- [[Tree of Thought]] prompting can give diversity to generations, which a policy can learn to exploit with access to a PRM.
+- [[Tree of Thoughts]] prompting can give diversity to generations, which a policy can learn to exploit with access to a PRM.
 
 
 ## Putting it together: What Q* could be

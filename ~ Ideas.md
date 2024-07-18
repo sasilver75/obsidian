@@ -30,6 +30,7 @@
 - The [[SmolLM]] note talks about how for Cosmopedia v2, they started with a predefined list of 34,000 topics using the ==BISAC book classification==; that could be an interesting resource to check out, re: taxonomies.
 - The FineWeb paper showed the power of training (eg) educational-quality classifiers to filter large datasets; they filtered FineWeb to FineWeb-Edu, which resulted in dataset that outperformed the original FineWeb dataset on popular benchmarks! Showed the power of classifiers trained on synthetic data... is there a way to push this further, somehow?
 	- Stack-Edu-Python applied the same idea of FineWeb-Edu to Code! They used LLaMA3 to annotate 500k python samples from The Stack and used them to train an educational classifier using the same recipe as the FineWeb-Edu classifier.
+- The process (simple AST mutation) that they use to created a PRM dataset for Code in Let's Reward Step by Step" seems pretty weak. Can we make something better, using some model-based synthetic data techniques and some filtering?
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 

@@ -36,7 +36,7 @@ Notes:
 - ...
 - 6) Related Work
 	- Prompting Methods
-		- CoT, Least-to-most prompting, decomposed prompting, reframing, help me think prompting, stepback prompting, and search-based approaches like [[Tree of Thought]], Graph-of-thought, Branch-solve-merge, RAP
+		- CoT, Least-to-most prompting, decomposed prompting, reframing, help me think prompting, stepback prompting, and search-based approaches like [[Tree of Thoughts]], Graph-of-thought, Branch-solve-merge, RAP
 	- Reasoning and Planning
 		- The development of various reasoning/planning benchmarks like GSM8K and BigBench prompted methods to improve model performance. Chain of Thought, Scratchpad, question summarization, question decomposition, program generation, etc. 
 		- Our work in Self-Discover allows models to combine multiple reasoning approaches by self-composing into a structure without the need to access task labels.
