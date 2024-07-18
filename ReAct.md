@@ -97,3 +97,9 @@ Note that in ReAct it seems like "thoughts" and "observations" seem to be differ
 It seems for some reason seems like CoT is better at the "reasoning error" thing? OR wait, it just seems higher in React because React isn't spending 56% of its errors on Hallucinations like CoT is. So you just have to correctly interpret this chart, which doesn't have absolute error numbers, just percentages within a success/failure category.
 
 ![[Pasted image 20240717225028.png]]
+
+![[Pasted image 20240717230119.png|600]]
+
+![[Pasted image 20240717230214.png]]
+
+![[Pasted image 20240717230244.png]]
