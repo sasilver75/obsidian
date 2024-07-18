@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0647e5f508b65e95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Refine.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2732d8a4cfbe9810",
             "type": "leaf",
             "state": {
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Refine.md",
+                "file": "Reflexion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Refine.md",
+                "file": "Reflexion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Refine.md"
+                "file": "Reflexion.md"
               }
             }
           },
@@ -182,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Refine.md",
+                "file": "Reflexion.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -228,11 +215,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0647e5f508b65e95",
+  "active": "2732d8a4cfbe9810",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240718121447.png",
-    "Reflexion.md",
     "Self-Refine.md",
+    "Reflexion.md",
+    "_attachments/Pasted image 20240718121447.png",
     "Mistral NeMo.md",
     "~ Vocabulary.md",
     "_attachments/Pasted image 20240718010208.png",
@@ -248,7 +235,6 @@
     "PaLM.md",
     "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "_attachments/Pasted image 20240717230244.png",
-    "_attachments/Pasted image 20240717230214.png",
     "Phi-3.md",
     "MBPP.md",
     "PRM800K.md",
