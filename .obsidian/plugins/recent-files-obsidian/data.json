@@ -9,12 +9,16 @@
       "path": "Reflexion.md"
     },
     {
-      "basename": "ReAct",
-      "path": "ReAct.md"
+      "basename": "Mistral NeMo",
+      "path": "Mistral NeMo.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
     },
     {
       "basename": "BigCodeBench",
@@ -195,10 +199,6 @@
     {
       "basename": "Process Reward Model",
       "path": "Process Reward Model.md"
-    },
-    {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
     }
   ],
   "omittedPaths": [],
