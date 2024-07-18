@@ -5,6 +5,14 @@
       "path": "ReAct.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "BigCodeBench",
+      "path": "BigCodeBench.md"
+    },
+    {
       "basename": "Phi-3",
       "path": "Phi-3.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
       "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "MBPP",
@@ -195,10 +199,6 @@
     {
       "basename": "Untitled 4",
       "path": "Untitled 4.md"
-    },
-    {
-      "basename": "MT-Bench",
-      "path": "MT-Bench.md"
     }
   ],
   "omittedPaths": [],
