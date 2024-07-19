@@ -429,6 +429,7 @@
 - [[Self-Play Preference Optimization]] (SPPO)
 - [[Rejection Sampling Optimization]] (RSO)
 - [[Preference Optimization with Identity Mapping]] (IPO)
+- [[TextGrad]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]

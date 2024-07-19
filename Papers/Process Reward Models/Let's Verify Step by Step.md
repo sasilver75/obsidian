@@ -1,4 +1,4 @@
-May 31, 2023
+May 31, 2023 (6 months after [[Solving math word problems with process- and outcome-based feedback]])
 [[OpenAI]] (incl [[Ilya Sutskever]])
 [Let's Verify Step by Step](It is a significant battle that has unfortunately ended up getting drown out by all the warfare that has happened since it occurred. I wish it would get some more attention and study.)
 #zotero 

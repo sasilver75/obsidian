@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}",
+      "path": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "TextGrad",
+      "path": "TextGrad.md"
+    },
+    {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "Solving math word problems with process- and outcome-based feedback",
+      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
       "basename": "GenQA",
       "path": "GenQA.md"
-    },
-    {
-      "basename": "LIMA",
-      "path": "LIMA.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
     },
     {
       "basename": "FLAN-T5",
@@ -21,24 +45,8 @@
       "path": "Orca.md"
     },
     {
-      "basename": "FLAN",
-      "path": "FLAN.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
-    },
-    {
       "basename": "Self-Play Preference Optimization",
       "path": "Self-Play Preference Optimization.md"
-    },
-    {
-      "basename": "Preference Optimization with Identity Mapping",
-      "path": "Preference Optimization with Identity Mapping.md"
     },
     {
       "basename": "Rejection Sampling Optimization",
@@ -57,12 +65,28 @@
       "path": "Direct Preference Optimization.md"
     },
     {
-      "basename": "Model Merging",
-      "path": "Model Merging.md"
-    },
-    {
       "basename": "Gemma 2",
       "path": "Gemma 2.md"
+    },
+    {
+      "basename": "LIMA",
+      "path": "LIMA.md"
+    },
+    {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "FLAN",
+      "path": "FLAN.md"
+    },
+    {
+      "basename": "Preference Optimization with Identity Mapping",
+      "path": "Preference Optimization with Identity Mapping.md"
+    },
+    {
+      "basename": "Model Merging",
+      "path": "Model Merging.md"
     },
     {
       "basename": "Web Rephrase Augmented Pre-training",
@@ -71,10 +95,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
     },
     {
       "basename": "Distillation",
@@ -133,10 +153,6 @@
       "path": "PaLM.md"
     },
     {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
       "basename": "Phi-3",
       "path": "Phi-3.md"
     },
@@ -151,10 +167,6 @@
     {
       "basename": "Tree of Thoughts",
       "path": "Tree of Thoughts.md"
-    },
-    {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/General/Let's Verify Step by Step.md"
     },
     {
       "basename": "~ Ideas",
@@ -187,18 +199,6 @@
     {
       "basename": "Phi-2",
       "path": "Phi-2.md"
-    },
-    {
-      "basename": "FLAMe",
-      "path": "FLAMe.md"
-    },
-    {
-      "basename": "WizardMath",
-      "path": "WizardMath.md"
-    },
-    {
-      "basename": "Reward-Augmented Decoding",
-      "path": "Reward-Augmented Decoding.md"
     }
   ],
   "omittedPaths": [],
