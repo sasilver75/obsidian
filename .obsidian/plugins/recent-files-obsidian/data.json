@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Self-Play Preference Optimization",
-      "path": "Self-Play Preference Optimization.md"
+      "basename": "GenQA",
+      "path": "GenQA.md"
+    },
+    {
+      "basename": "LIMA",
+      "path": "LIMA.md"
+    },
+    {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "FLAN-T5",
+      "path": "FLAN-T5.md"
+    },
+    {
+      "basename": "Orca",
+      "path": "Orca.md"
+    },
+    {
+      "basename": "FLAN",
+      "path": "FLAN.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -11,6 +31,10 @@
     {
       "basename": "AlpacaEval",
       "path": "AlpacaEval.md"
+    },
+    {
+      "basename": "Self-Play Preference Optimization",
+      "path": "Self-Play Preference Optimization.md"
     },
     {
       "basename": "Preference Optimization with Identity Mapping",
@@ -175,30 +199,6 @@
     {
       "basename": "Reward-Augmented Decoding",
       "path": "Reward-Augmented Decoding.md"
-    },
-    {
-      "basename": "chrF",
-      "path": "chrF.md"
-    },
-    {
-      "basename": "Quiet STaR",
-      "path": "Quiet STaR.md"
-    },
-    {
-      "basename": "Reinforced Self-Training",
-      "path": "Reinforced Self-Training.md"
-    },
-    {
-      "basename": "Self-Consistency",
-      "path": "Self-Consistency.md"
-    },
-    {
-      "basename": "Self-Taught Optimizer",
-      "path": "Self-Taught Optimizer.md"
-    },
-    {
-      "basename": "Eric Zelikman",
-      "path": "Eric Zelikman.md"
     }
   ],
   "omittedPaths": [],

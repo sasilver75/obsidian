@@ -1,4 +1,5 @@
 October 20, 2022
+[[Google Research]] (Chung et al)
 Paper: [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
 
 It seems they practiced instruction-tuning various base-models that had previously been produced at Google. The one that people seem to have a lot of love for is the FLAN-T5 model, which appears to be the only one with checkpoints actually being released. See [[T5]].
