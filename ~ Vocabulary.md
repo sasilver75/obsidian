@@ -426,6 +426,9 @@
 - [[Voyager]]
 - [[Model Merging]]
 - [[Soft-Capping]]
+- [[Self-Play Preference Optimization]] (SPPO)
+- [[Rejection Sampling Optimization]] (RSO)
+- [[Preference Optimization with Identity Mapping]] (IPO)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]

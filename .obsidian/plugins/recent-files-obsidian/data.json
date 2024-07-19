@@ -1,28 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
+      "basename": "Self-Play Preference Optimization",
+      "path": "Self-Play Preference Optimization.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
+    },
+    {
+      "basename": "Preference Optimization with Identity Mapping",
+      "path": "Preference Optimization with Identity Mapping.md"
+    },
+    {
+      "basename": "Rejection Sampling Optimization",
+      "path": "Rejection Sampling Optimization.md"
+    },
+    {
+      "basename": "Prompting",
+      "path": "Prompting.md"
+    },
+    {
+      "basename": "Bradley-Terry Model",
+      "path": "Bradley-Terry Model.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "Model Merging",
+      "path": "Model Merging.md"
     },
     {
       "basename": "Gemma 2",
       "path": "Gemma 2.md"
     },
     {
-      "basename": "GPT-4o Mini",
-      "path": "GPT-4o Mini.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
       "basename": "Web Rephrase Augmented Pre-training",
       "path": "Web Rephrase Augmented Pre-training.md"
     },
     {
-      "basename": "Untitled 5",
-      "path": "Untitled 5.md"
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
     },
     {
       "basename": "Distillation",
@@ -33,20 +61,24 @@
       "path": "Online Distillation.md"
     },
     {
+      "basename": "Attention",
+      "path": "Attention.md"
+    },
+    {
+      "basename": "GPT-4o Mini",
+      "path": "GPT-4o Mini.md"
+    },
+    {
+      "basename": "Untitled 5",
+      "path": "Untitled 5.md"
+    },
+    {
       "basename": "Exposure Bias",
       "path": "Exposure Bias.md"
     },
     {
       "basename": "FlashAttention",
       "path": "FlashAttention.md"
-    },
-    {
-      "basename": "Attention",
-      "path": "Attention.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Instruction Backtranslation",
@@ -167,38 +199,6 @@
     {
       "basename": "Eric Zelikman",
       "path": "Eric Zelikman.md"
-    },
-    {
-      "basename": "GenQA",
-      "path": "GenQA.md"
-    },
-    {
-      "basename": "Constrained Decoding",
-      "path": "Constrained Decoding.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "Scalable Oversight",
-      "path": "Scalable Oversight.md"
-    },
-    {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "AlpaGasus",
-      "path": "AlpaGasus.md"
     }
   ],
   "omittedPaths": [],
