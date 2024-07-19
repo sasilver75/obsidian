@@ -1,3 +1,6 @@
+![[Pasted image 20240718182450.png|300]]
+July 18, 2024
+
 ![[Pasted image 20240717102611.png|500]]
 ![[Pasted image 20240708225531.png|400]]
 ![[Pasted image 20240710014620.png]]
