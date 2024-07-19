@@ -1,5 +1,5 @@
 July 3, 2024
-[[Microsoft Research]]
+[[Microsoft Research]] (Mitra et al.)
 [AgentInstruct: Toward Generative Teaching with Agentic Flows](https://arxiv.org/abs/2407.03502v1)
 #zotero 
 Takeaway: A agentic workflow for creating synthetic data tailored to helping a language model learn specific skills, given seed documents (eg textbook chapters, blog posts, code data). The workflow has three pieces:

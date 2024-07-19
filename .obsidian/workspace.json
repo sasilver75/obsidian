@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "d3b274ce1047af00",
+            "id": "bda1f311e1b3dbaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AlpacaEval.md",
+                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "ec4a7e231fe430b9",
+            "id": "6f5f7a29e1689e26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "AgentInstruct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "28afeaae23e08f12",
+            "id": "c98c0f2afb341978",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GenQA.md",
+                "file": "TextGrad.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "c504ae24379e0141",
+            "id": "d571d931b6f0c677",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FLAN-T5.md",
+                "file": "Papers/Process Reward Models/Let's Verify Step by Step.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,129 +73,12 @@
             }
           },
           {
-            "id": "9e0f035a5aaf9ff3",
+            "id": "ad8faeed5d77d876",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Orca.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4ae7c3937732c7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Play Preference Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fde76b2e92d15641",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preference Optimization with Identity Mapping.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36f24d6fc823b49b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89ccee691a73ebc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rejection Sampling Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc5f2ef8f64870cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prompting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db050c0d02a0f291",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bradley-Terry Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "804f22db724fc7ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AlpacaEval.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c7114c9ef1caece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Direct Preference Optimization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5dd4544d52b230a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemma 2.md",
+                "file": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -257,8 +140,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -279,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GenQA.md",
+                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GenQA.md",
+                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GenQA.md"
+                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
               }
             }
           },
@@ -352,7 +234,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "GenQA.md",
+                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -398,8 +280,28 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "28afeaae23e08f12",
+  "active": "bda1f311e1b3dbaf",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240719000942.png",
+    "AgentInstruct.md",
+    "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
+    "~ Vocabulary.md",
+    "TextGrad.md",
+    "Papers/Process Reward Models/Let's Verify Step by Step.md",
+    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "Papers/Process Reward Models",
+    "Papers/Untitled.md",
+    "AlpacaEval.md",
+    "GenQA.md",
+    "FLAN-T5.md",
+    "Orca.md",
+    "Self-Play Preference Optimization.md",
+    "Rejection Sampling Optimization.md",
+    "Prompting.md",
+    "Bradley-Terry Model.md",
+    "Direct Preference Optimization.md",
+    "Gemma 2.md",
     "_attachments/Pasted image 20240718230849.png",
     "_attachments/Pasted image 20240718230841.png",
     "_attachments/Pasted image 20240718230830.png",
@@ -409,33 +311,14 @@
     "_attachments/Pasted image 20240718230742.png",
     "_attachments/Pasted image 20240718230732.png",
     "LIMA.md",
-    "GenQA.md",
     "UltraChat.md",
     "_attachments/Pasted image 20240718223804.png",
     "_attachments/Pasted image 20240718223444.png",
-    "_attachments/Pasted image 20240718223011.png",
-    "FLAN-T5.md",
-    "Orca.md",
     "FLAN.md",
-    "~ Vocabulary.md",
-    "AlpacaEval.md",
-    "Self-Play Preference Optimization.md",
     "Preference Optimization with Identity Mapping.md",
-    "Rejection Sampling Optimization.md",
-    "Prompting.md",
-    "Bradley-Terry Model.md",
     "Bradle.md",
-    "Direct Preference Optimization.md",
     "Model Merging.md",
-    "Gemma 2.md",
     "Web Rephrase Augmented Pre-training.md",
-    "~ Useful Pictures.md",
-    "AgentInstruct.md",
-    "Distillation.md",
-    "Online Distillation.md",
-    "Attention.md",
-    "GPT-4o Mini.md",
-    "Untitled 5.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
@@ -444,7 +327,6 @@
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)",
     "Articles/Machine Learning",
-    "Courses/Machine Learning",
-    "Courses/Biology"
+    "Courses/Machine Learning"
   ]
 }
