@@ -1,4 +1,5 @@
-Jun 5, 2023 -- [[Microsoft Research]]
+Jun 5, 2023
+[[Microsoft Research]] (Mukherjee et al.)
 Paper: [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.02707)
 
 A 13B language model trained/[[Distillation|Distilled]] on explanation traces ([[Chain of Thought]], basically?) from [[GPT-4]] responses. 

@@ -6,7 +6,7 @@ June 14, 2024
 UCLA
 [Self-Play Preference Optimization for Language Model Alignment](https://www.youtube.com/watch?v=Q-81DStL7do)
 #zotero 
-Takeaway: ...
+Takeaway: ... (Honestly, I didn't understand this paper. It's very mathematical.)
 
 ----
 

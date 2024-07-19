@@ -52,6 +52,45 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "GenQA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c504ae24379e0141",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FLAN-T5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e0f035a5aaf9ff3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Orca.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4ae7c3937732c7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Self-Play Preference Optimization.md",
                 "mode": "source",
                 "backlinks": true,
@@ -193,7 +232,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"on-policy distillation\"",
+                "query": "\"finetuned language models are\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -240,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Play Preference Optimization.md",
+                "file": "GenQA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Play Preference Optimization.md",
+                "file": "GenQA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +319,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Play Preference Optimization.md"
+                "file": "GenQA.md"
               }
             }
           },
@@ -313,7 +352,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Play Preference Optimization.md",
+                "file": "GenQA.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -361,18 +400,31 @@
   },
   "active": "28afeaae23e08f12",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240718230849.png",
+    "_attachments/Pasted image 20240718230841.png",
+    "_attachments/Pasted image 20240718230830.png",
+    "_attachments/Pasted image 20240718230820.png",
+    "_attachments/Pasted image 20240718230809.png",
+    "_attachments/Pasted image 20240718230758.png",
+    "_attachments/Pasted image 20240718230742.png",
+    "_attachments/Pasted image 20240718230732.png",
+    "LIMA.md",
+    "GenQA.md",
+    "UltraChat.md",
+    "_attachments/Pasted image 20240718223804.png",
+    "_attachments/Pasted image 20240718223444.png",
+    "_attachments/Pasted image 20240718223011.png",
+    "FLAN-T5.md",
+    "Orca.md",
+    "FLAN.md",
     "~ Vocabulary.md",
     "AlpacaEval.md",
     "Self-Play Preference Optimization.md",
-    "_attachments/Pasted image 20240718203256.png",
-    "_attachments/Pasted image 20240718203028.png",
     "Preference Optimization with Identity Mapping.md",
     "Rejection Sampling Optimization.md",
     "Prompting.md",
-    "_attachments/Pasted image 20240718201435.png",
     "Bradley-Terry Model.md",
     "Bradle.md",
-    "_attachments/Pasted image 20240718195447.png",
     "Direct Preference Optimization.md",
     "Model Merging.md",
     "Gemma 2.md",
@@ -382,20 +434,8 @@
     "Distillation.md",
     "Online Distillation.md",
     "Attention.md",
-    "_attachments/Pasted image 20240718182450.png",
-    "_attachments/Pasted image 20240718175831.png",
-    "_attachments/Pasted image 20240718175542.png",
-    "_attachments/Pasted image 20240718175518.png",
-    "_attachments/Pasted image 20240718175459.png",
     "GPT-4o Mini.md",
-    "_attachments/Pasted image 20240718174508.png",
     "Untitled 5.md",
-    "Exposure Bias.md",
-    "FlashAttention.md",
-    "Instruction Backtranslation.md",
-    "Reflexion.md",
-    "Self-Refine.md",
-    "Mistral NeMo.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
