@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Rephrase Augmented Pre-training.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "063b5fcfb679727b",
+            "id": "d3b274ce1047af00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "AlpacaEval.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,59 +34,7 @@
             }
           },
           {
-            "id": "6c0b38514cccdae5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AgentInstruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6522c7cafdd18559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e97d409b505a5800",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Online Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee7c713dfc116a1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attention.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4049666e486b018e",
+            "id": "ec4a7e231fe430b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,9 +45,126 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "28afeaae23e08f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Play Preference Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fde76b2e92d15641",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preference Optimization with Identity Mapping.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36f24d6fc823b49b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89ccee691a73ebc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rejection Sampling Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc5f2ef8f64870cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompting.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db050c0d02a0f291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bradley-Terry Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "804f22db724fc7ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AlpacaEval.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c7114c9ef1caece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Direct Preference Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5dd4544d52b230a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gemma 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -175,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Self-Play Preference Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Self-Play Preference Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Self-Play Preference Optimization.md"
               }
             }
           },
@@ -248,7 +313,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Self-Play Preference Optimization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -294,44 +359,43 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "063b5fcfb679727b",
+  "active": "28afeaae23e08f12",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240718182450.png",
+    "~ Vocabulary.md",
+    "AlpacaEval.md",
+    "Self-Play Preference Optimization.md",
+    "_attachments/Pasted image 20240718203256.png",
+    "_attachments/Pasted image 20240718203028.png",
+    "Preference Optimization with Identity Mapping.md",
+    "Rejection Sampling Optimization.md",
+    "Prompting.md",
+    "_attachments/Pasted image 20240718201435.png",
+    "Bradley-Terry Model.md",
+    "Bradle.md",
+    "_attachments/Pasted image 20240718195447.png",
+    "Direct Preference Optimization.md",
+    "Model Merging.md",
     "Gemma 2.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "~ Useful Pictures.md",
+    "AgentInstruct.md",
+    "Distillation.md",
+    "Online Distillation.md",
+    "Attention.md",
+    "_attachments/Pasted image 20240718182450.png",
     "_attachments/Pasted image 20240718175831.png",
     "_attachments/Pasted image 20240718175542.png",
     "_attachments/Pasted image 20240718175518.png",
     "_attachments/Pasted image 20240718175459.png",
     "GPT-4o Mini.md",
-    "AgentInstruct.md",
-    "Web Rephrase Augmented Pre-training.md",
     "_attachments/Pasted image 20240718174508.png",
-    "_attachments/Pasted image 20240718174500.png",
-    "_attachments/Pasted image 20240718172546.png",
-    "_attachments/Pasted image 20240718170630.png",
-    "_attachments/Pasted image 20240718161743.png",
     "Untitled 5.md",
-    "_attachments/Pasted image 20240718154942.png",
-    "Distillation.md",
-    "Online Distillation.md",
     "Exposure Bias.md",
     "FlashAttention.md",
-    "Attention.md",
-    "~ Vocabulary.md",
     "Instruction Backtranslation.md",
     "Reflexion.md",
     "Self-Refine.md",
     "Mistral NeMo.md",
-    "ReAct.md",
-    "BigCodeBench.md",
-    "PaLM.md",
-    "Papers/General/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
-    "Phi-3.md",
-    "MBPP.md",
-    "PRM800K.md",
-    "Tree of Thoughts.md",
-    "Papers/General/Let's Verify Step by Step.md",
-    "~ Ideas.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
