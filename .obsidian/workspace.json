@@ -13,14 +13,93 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reflexion.md",
+                "file": "Web Rephrase Augmented Pre-training.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "063b5fcfb679727b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gemma 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c0b38514cccdae5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AgentInstruct.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6522c7cafdd18559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e97d409b505a5800",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Online Distillation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee7c713dfc116a1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attention.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4049666e486b018e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"on-policy distillation\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reflexion.md",
+                "file": "Gemma 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reflexion.md",
+                "file": "Gemma 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reflexion.md"
+                "file": "Gemma 2.md"
               }
             }
           },
@@ -169,7 +248,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reflexion.md",
+                "file": "Gemma 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,23 +294,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2732d8a4cfbe9810",
+  "active": "063b5fcfb679727b",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240718133309.png",
-    "_attachments/Pasted image 20240718133212.png",
-    "_attachments/Pasted image 20240718132741.png",
-    "_attachments/Pasted image 20240718132713.png",
-    "_attachments/Pasted image 20240718132703.png",
-    "_attachments/Pasted image 20240718132653.png",
-    "_attachments/Pasted image 20240718132640.png",
-    "_attachments/Pasted image 20240718130353.png",
-    "Self-Refine.md",
-    "Reflexion.md",
-    "_attachments/Pasted image 20240718121447.png",
-    "Mistral NeMo.md",
+    "_attachments/Pasted image 20240718175831.png",
+    "_attachments/Pasted image 20240718175542.png",
+    "_attachments/Pasted image 20240718175518.png",
+    "_attachments/Pasted image 20240718175459.png",
+    "GPT-4o Mini.md",
+    "AgentInstruct.md",
+    "Web Rephrase Augmented Pre-training.md",
+    "Gemma 2.md",
+    "_attachments/Pasted image 20240718174508.png",
+    "_attachments/Pasted image 20240718174500.png",
+    "_attachments/Pasted image 20240718172546.png",
+    "_attachments/Pasted image 20240718170630.png",
+    "_attachments/Pasted image 20240718161743.png",
+    "Untitled 5.md",
+    "_attachments/Pasted image 20240718154942.png",
+    "_attachments/Pasted image 20240718154931.png",
+    "Distillation.md",
+    "Online Distillation.md",
+    "Exposure Bias.md",
+    "FlashAttention.md",
+    "Attention.md",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240718010208.png",
-    "_attachments/Pasted image 20240718005833.png",
+    "Instruction Backtranslation.md",
+    "Reflexion.md",
+    "Self-Refine.md",
+    "Mistral NeMo.md",
     "ReAct.md",
     "BigCodeBench.md",
     "PaLM.md",
@@ -242,17 +332,6 @@
     "Tree of Thoughts.md",
     "Papers/General/Let's Verify Step by Step.md",
     "~ Ideas.md",
-    "DeepSeek.md",
-    "Zephyr.md",
-    "UltraFeedback.md",
-    "~ Useful Pictures.md",
-    "SmolLM.md",
-    "StarCoder.md",
-    "Cosmopedia.md",
-    "Phi-2.md",
-    "FLAMe.md",
-    "WizardMath.md",
-    "Reward-Augmented Decoding.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",

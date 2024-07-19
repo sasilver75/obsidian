@@ -11,6 +11,9 @@ Variant: ==[[Online Distillation]]== (eg Gemeni Flash being distilled from 1.5 P
 
 ==Soft-Target Distillation== (logits, model distillation) vs ==Hard-Target Distillation== (label, data distillation)
 
+==Off Policy Distillation== (usual) vs ==On-Policy Distillation== (See [[Gemma 2]])
+
+
 Note that dataset contamination is something to think about when you're doing hard-target distillation (eg) from some model that itself have been contaminated.
 
 Note:

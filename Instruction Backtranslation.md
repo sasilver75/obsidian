@@ -7,7 +7,9 @@ Takeaway: A method/model that applies the **==instruction backtranslation==** me
 - Then select high-quality examples from these generations (==**self-curation**==) to train the next iteration of the model.
 This is applied iteratively in a self-alignment manner. On the Alpaca leaderboard, it sounds like this model (Humpback, 7B/33B/65B LLaMA 1 finetunes) outperforms all other *non-distilled* instruction-following models (Non-distilled models don't rely on a stronger LM to teach them to be good models).
 
-Relevance: Is contrast to Distillation, Self-alignment methods don't rely on having a stronger model present to improve the current model. In contrast to other methods that might generating their own synthetic instructions *and/or responses*, this model simply generates instructions for already-existing human-written text "responses," and incorporates a discrimination component to filter out poor s
+Relevance: Is contrast to Distillation, Self-alignment methods don't rely on having a stronger model present to improve the current model. In contrast to other methods that might generating their own synthetic instructions *and/or responses*, this model simply generates instructions for already-existing human-written text "responses," and incorporates a discrimination component to filter out poor (...?)
+
+----
 
 Aside: 
 - The [[Self-Reward]]ing Language Models paper had critical things to say (see Obsidian references) about the LLM-as-a-Judge prompt used in this paper, where we had the model pick a score in a multiple-choice fashion, rather than using their explicit "add a point" criteria.
