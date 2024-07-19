@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "6f5f7a29e1689e26",
+            "id": "81bd1931332c4b03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AgentInstruct.md",
+                "file": "~ Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "c98c0f2afb341978",
+            "id": "d7136948b9af171d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TextGrad.md",
+                "file": "WizardArena.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "d571d931b6f0c677",
+            "id": "f77fa2d720c33b13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Process Reward Models/Let's Verify Step by Step.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "ad8faeed5d77d876",
+            "id": "ed8141265ed31cfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+                "file": "AutoGPT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -282,26 +282,36 @@
   },
   "active": "bda1f311e1b3dbaf",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240719000942.png",
-    "AgentInstruct.md",
+    "_attachments/Pasted image 20240719142317.png",
+    "~ Ideas.md",
     "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
     "~ Vocabulary.md",
+    "WizardArena.md",
+    "AgentInstruct.md",
+    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+    "AutoGPT.md",
+    "Hallucination.md",
+    "ROC-AUC.md",
+    "ROC Curve.md",
+    "BabyAGI.md",
     "TextGrad.md",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
-    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "DataComp-LM.md",
+    "Active Learning.md",
+    "GenQA.md",
+    "_attachments/Pasted image 20240719010914.png",
+    "_attachments/Pasted image 20240719005227.png",
+    "_attachments/Pasted image 20240719000942.png",
     "Papers/Process Reward Models",
     "Papers/Untitled.md",
     "AlpacaEval.md",
-    "GenQA.md",
     "FLAN-T5.md",
     "Orca.md",
     "Self-Play Preference Optimization.md",
     "Rejection Sampling Optimization.md",
     "Prompting.md",
     "Bradley-Terry Model.md",
-    "Direct Preference Optimization.md",
-    "Gemma 2.md",
     "_attachments/Pasted image 20240718230849.png",
     "_attachments/Pasted image 20240718230841.png",
     "_attachments/Pasted image 20240718230830.png",
@@ -309,16 +319,6 @@
     "_attachments/Pasted image 20240718230809.png",
     "_attachments/Pasted image 20240718230758.png",
     "_attachments/Pasted image 20240718230742.png",
-    "_attachments/Pasted image 20240718230732.png",
-    "LIMA.md",
-    "UltraChat.md",
-    "_attachments/Pasted image 20240718223804.png",
-    "_attachments/Pasted image 20240718223444.png",
-    "FLAN.md",
-    "Preference Optimization with Identity Mapping.md",
-    "Bradle.md",
-    "Model Merging.md",
-    "Web Rephrase Augmented Pre-training.md",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",

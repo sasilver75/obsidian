@@ -1,6 +1,6 @@
 July 3, 2024
 [[Microsoft Research]] (Mitra et al.)
-[AgentInstruct: Toward Generative Teaching with Agentic Flows](https://arxiv.org/abs/2407.03502v1)
+[AgentInstruct: Toward Generative Teaching with Agentic Flows](https://arxiv.org/abs/2407.03502v1) "The Orca 3 Paper"
 #zotero 
 Takeaway: A agentic workflow for creating synthetic data tailored to helping a language model learn specific skills, given seed documents (eg textbook chapters, blog posts, code data). The workflow has three pieces:
 1. ==Content Transformation Flow==: Transform the seed documents by making it more relevant for the skill we're trying to teach.
@@ -15,6 +15,7 @@ They'll be releasing the Orca-3-7b model soon, but when asked about the dataset,
 References:
 - Podcast: [Microsoft Research Abstracts Podcast: AgentInstruct](https://www.microsoft.com/en-us/research/podcast/abstracts-july-18-2024/)
 	- "Automated model repairing: Now that we have ability to generate data for a particular skill... we need basically error handling; something we can plug in and take the y and $\hat{y}$, figures out the error, and figures out how to give feedback (eg training data), so that's where we're working now."
+- Blog Post: [The Rise of Agentic Data Generation by Maximme Labonne](https://huggingface.co/blog/mlabonne/agentic-datagen)
 
 ---
 

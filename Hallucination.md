@@ -7,3 +7,16 @@ OpenAI in a blog post talked about: (Ref: Ep 11 Zeta Alpha)
 - Open-domain hallucination
 - Closed-domain hallucination
 
+Techniques to combat/ameliorate hallucination include ([from here](https://youtu.be/bCyWCz4NbN4?si=NhoM4XdghlOFxuW_)):
+- Build tools for people to detect model-generated output
+	1. Train an LM specifically for detection
+	2. Use the source LM itself to detect its generations "zero shot" (eg looking at the probability), or perturb the generation and see how the model's probability responds... Methods like DetectGPT
+- Help models better know what they don't know
+	1. Abstaining
+		- Avoiding incorrect predictions may be more important than classifying everything -- it might be better to be conservative.
+		- Determining whether an input is out-of-distribution 
+		- Selective classification: Only classify test inputs that the model are likely to get correct.
+- Improve model predictions under some distribution shifts
+	- Data rebalancing (upweight/upsample under-represented datapoints)
+	- Domain invariance (learn representations invariant to domain)
+(As you go down the list, you need more powerful tools/the problem gets harder)
