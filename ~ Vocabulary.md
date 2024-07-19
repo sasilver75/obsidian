@@ -430,6 +430,8 @@
 - [[Rejection Sampling Optimization]] (RSO)
 - [[Preference Optimization with Identity Mapping]] (IPO)
 - [[TextGrad]]
+- [[AutoGPT]]
+- [[BabyAGI]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -1163,6 +1165,7 @@
 - [[Yejin Choi]] 🎿
 - [[Yi Tay]] 👨‍🔬
 - [[Yoshua Bengio]] 🙀
+- [[Chelsea Finn]] 🌲
 
 # Policy
 - [[SB-1047]]

@@ -4,7 +4,7 @@ aliases:
 ---
 
 July ~10, 2024
-[[Microsoft Research]]
+[[Microsoft Research]] (Luo et al.)
 [Arena Learning: Build Data Flywheel for LLMs Post-training via Simulated Chatbot Arena](https://www.microsoft.com/en-us/research/publication/arena-learning-build-data-flywheel-for-llms-post-training-via-simulated-chatbot-arena/)
 #zotero 
 Takeaway: Produces two artifacts: WizardLM-$\beta$ , trained using Arena Learning, and [[WizardArena]], a test set upon which performance is highly correlated with [[ChatBot Arena]]. The Arena Learning paradigm involves our model doing pairwise battle against various SoTA models with winners being judged by LLaMA3-70B-Instruct. After a set of battles, we SFT on the winning generations, and DPO/PPO on the pair of (winning, losing) generations. We then battle again.
@@ -12,6 +12,7 @@ Takeaway: Produces two artifacts: WizardLM-$\beta$ , trained using Arena Learnin
 
 Reference:
 - Tweet: [Intro from a MSFT Wizard LM Person, mentions Wizard LM 3 is in the oven]( https://x.com/victorsungo/status/1811427047341776947)
+- Blog Post: [The Rise of Agentic Data Generation by Maximme Labonne](https://huggingface.co/blog/mlabonne/agentic-datagen)
 
 -------
 

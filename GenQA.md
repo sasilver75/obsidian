@@ -133,5 +133,5 @@ GenQA's prompting strategy results in more diversity than a static prompt that s
 ![[Pasted image 20240718223444.png|600]]
 Fuck these violin plots
 
-![[Pasted image 20240718223804.png]]
+![[Pasted image 20240718223804.png|600]]
 I'm confused by the comparisons here. We know that GenQA has like 10M tokens or so, and then the paper says that the WizardLM and Ultrachat datsets use something like ~200k token subsets...

@@ -5,12 +5,44 @@
       "path": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
     },
     {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "WizardArena",
+      "path": "WizardArena.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "Solving math word problems with process- and outcome-based feedback",
+      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+    },
+    {
+      "basename": "AutoGPT",
+      "path": "AutoGPT.md"
+    },
+    {
+      "basename": "Hallucination",
+      "path": "Hallucination.md"
+    },
+    {
+      "basename": "ROC-AUC",
+      "path": "ROC-AUC.md"
+    },
+    {
+      "basename": "ROC Curve",
+      "path": "ROC Curve.md"
+    },
+    {
+      "basename": "BabyAGI",
+      "path": "BabyAGI.md"
     },
     {
       "basename": "TextGrad",
@@ -21,20 +53,24 @@
       "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
     },
     {
-      "basename": "Solving math word problems with process- and outcome-based feedback",
-      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
-    },
-    {
       "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
       "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
     },
     {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
+      "basename": "DataComp-LM",
+      "path": "DataComp-LM.md"
+    },
+    {
+      "basename": "Active Learning",
+      "path": "Active Learning.md"
     },
     {
       "basename": "GenQA",
       "path": "GenQA.md"
+    },
+    {
+      "basename": "AlpacaEval",
+      "path": "AlpacaEval.md"
     },
     {
       "basename": "FLAN-T5",
@@ -163,42 +199,6 @@
     {
       "basename": "PRM800K",
       "path": "PRM800K.md"
-    },
-    {
-      "basename": "Tree of Thoughts",
-      "path": "Tree of Thoughts.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "DeepSeek",
-      "path": "DeepSeek.md"
-    },
-    {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
-      "basename": "UltraFeedback",
-      "path": "UltraFeedback.md"
-    },
-    {
-      "basename": "SmolLM",
-      "path": "SmolLM.md"
-    },
-    {
-      "basename": "StarCoder",
-      "path": "StarCoder.md"
-    },
-    {
-      "basename": "Cosmopedia",
-      "path": "Cosmopedia.md"
-    },
-    {
-      "basename": "Phi-2",
-      "path": "Phi-2.md"
     }
   ],
   "omittedPaths": [],
