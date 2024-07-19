@@ -2,7 +2,7 @@ July 3, 2024
 [[Microsoft Research]]
 [AgentInstruct: Toward Generative Teaching with Agentic Flows](https://arxiv.org/abs/2407.03502v1)
 #zotero 
-Takeaway: A agentic workflow for creating synthetic data tailored to helping a language model learn specific skills. The workflow has three pieces:
+Takeaway: A agentic workflow for creating synthetic data tailored to helping a language model learn specific skills, given seed documents (eg textbook chapters, blog posts, code data). The workflow has three pieces:
 1. ==Content Transformation Flow==: Transform the seed documents by making it more relevant for the skill we're trying to teach.
 2. ==Seed Instruction Generation Flow==: Generate an instruction relevant to the skill and (transformed) seed document. Often uses a set of templates specific to the skill.
 3. ==Instruction Refinement Flow==: Use a pair of Suggester and Editor agents to increase the complexity of the task by editing the document/task.
@@ -11,6 +11,10 @@ Interestingly, the pipeline doesn't include information on if there's any subseq
 
 They'll be releasing the Orca-3-7b model soon, but when asked about the dataset, they said "You never know, we were able to release the [[Orca-Math]] dataset." Teknium said that the paper made replicating the code kind of impossible, because there were a lot of missing pieces.
 > Re: Teacher responses: "We used a mix of many GPT-$, GPT-4 Turbo versions, whatever we could get access to. Teacher response collection can be tricky, but in most cases GPT4 responses are taken as-is. But in some cases, like tool use, GPT4 might not always format correctly so we add checks." [twitter](https://x.com/420_gunna/status/1811927194979193131)... Regarding filtering steps to remove low-quality instructions, they reduced the number of unanswerable questions/instructions, but didn't remove them, so as to teach the model when not to answer (with the assumption here I think that the smart GPT-4 teacher model knows when to not answer, and would, via distillation, teach Orca 3.) But I don't think they did any other sort of quality filtering.
+
+References:
+- Podcast: [Microsoft Research Abstracts Podcast: AgentInstruct](https://www.microsoft.com/en-us/research/podcast/abstracts-july-18-2024/)
+	- "Automated model repairing: Now that we have ability to generate data for a particular skill... we need basically error handling; something we can plug in and take the y and $\hat{y}$, figures out the error, and figures out how to give feedback (eg training data), so that's where we're working now."
 
 ---
 

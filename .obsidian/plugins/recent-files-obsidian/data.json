@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
+    },
+    {
+      "basename": "GPT-4o Mini",
+      "path": "GPT-4o Mini.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "Web Rephrase Augmented Pre-training",
+      "path": "Web Rephrase Augmented Pre-training.md"
+    },
+    {
+      "basename": "Untitled 5",
+      "path": "Untitled 5.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Online Distillation",
+      "path": "Online Distillation.md"
+    },
+    {
+      "basename": "Exposure Bias",
+      "path": "Exposure Bias.md"
+    },
+    {
+      "basename": "FlashAttention",
+      "path": "FlashAttention.md"
+    },
+    {
+      "basename": "Attention",
+      "path": "Attention.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
+    },
+    {
       "basename": "Reflexion",
       "path": "Reflexion.md"
     },
@@ -11,10 +59,6 @@
     {
       "basename": "Mistral NeMo",
       "path": "Mistral NeMo.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "ReAct",
@@ -155,50 +199,6 @@
     {
       "basename": "AlpaGasus",
       "path": "AlpaGasus.md"
-    },
-    {
-      "basename": "Nemotron-4",
-      "path": "Nemotron-4.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
-      "basename": "FLAN",
-      "path": "FLAN.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}",
-      "path": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md"
-    },
-    {
-      "basename": "Synthetic Data Index",
-      "path": "Indices/Synthetic Data Index.md"
-    },
-    {
-      "basename": "Web Rephrase Augmented Pre-training",
-      "path": "Web Rephrase Augmented Pre-training.md"
-    },
-    {
-      "basename": "Auto Evol-Instruct",
-      "path": "Auto Evol-Instruct.md"
-    },
-    {
-      "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
-      "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
-    },
-    {
-      "basename": "Chain of Thought",
-      "path": "Chain of Thought.md"
-    },
-    {
-      "basename": "Process Reward Model",
-      "path": "Process Reward Model.md"
     }
   ],
   "omittedPaths": [],

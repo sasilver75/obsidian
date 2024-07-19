@@ -424,6 +424,8 @@
 - [[ReAct]] (Reason and Act)
 - [[Reflexion]]
 - [[Voyager]]
+- [[Model Merging]]
+- [[Soft-Capping]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -734,7 +736,7 @@
 - [[GPT-3.5]]
 - [[GPT-3]]
 - [[GPT-4o]]
-- [[GPT 4o Mini]]
+- [[GPT-4o Mini]]
 - [[GPT-4V]]
 - [[GPT-4]]
 - [[GPT-J]]
