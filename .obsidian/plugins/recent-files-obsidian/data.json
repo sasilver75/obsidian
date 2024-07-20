@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Solving math word problems with process- and outcome-based feedback",
+      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Solving math word problems with process- and outcome-based feedback",
-      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+      "basename": "Expert Iteration",
+      "path": "Expert Iteration.md"
+    },
+    {
+      "basename": "Representation Finetuning",
+      "path": "Representation Finetuning.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
     },
     {
       "basename": "t",
@@ -187,18 +199,6 @@
     {
       "basename": "FlashAttention",
       "path": "FlashAttention.md"
-    },
-    {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
-    },
-    {
-      "basename": "Reflexion",
-      "path": "Reflexion.md"
-    },
-    {
-      "basename": "Self-Refine",
-      "path": "Self-Refine.md"
     }
   ],
   "omittedPaths": [],

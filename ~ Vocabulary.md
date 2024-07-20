@@ -436,6 +436,9 @@
 - [[TextGrad]]
 - [[AutoGPT]]
 - [[BabyAGI]]
+- [[Representation Finetuning]] (ReFT)
+- [[Verifier Voting]]
+- [[Expert Iteration]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
