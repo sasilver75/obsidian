@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "WizardMath.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "10c74738f9bfb3b5",
+            "id": "0690289d096b15ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Expert Iteration.md",
+                "file": "Auto Evol-Instruct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "55d985d177860b78",
+            "id": "42ebaaddea88442d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +47,64 @@
             }
           },
           {
-            "id": "cbfb08deeec0ed51",
+            "id": "17b9b369a78e8310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Finetuning.md",
+                "file": "Reinforcement Learning from Evol-Instruct Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1ee8914cf6f98a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reward Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fb7dd40f39532fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Process Reward Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65228e7ece198d14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Process Reward Models/Let's Verify Step by Step.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43ba12c83bd8e2b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WizardLM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "WizardMath.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "WizardMath.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+                "file": "WizardMath.md"
               }
             }
           },
@@ -207,7 +259,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "WizardMath.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,10 +307,25 @@
   },
   "active": "2732d8a4cfbe9810",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240720164410.png",
+    "_attachments/Pasted image 20240720164322.png",
+    "_attachments/Pasted image 20240720164217.png",
+    "_attachments/Pasted image 20240720160929.png",
+    "Auto Evol-Instruct.md",
+    "WizardMath.md",
     "~ Vocabulary.md",
-    "Expert Iteration.md",
+    "Reinforcement Learning from Evol-Instruct Feedback.md",
+    "MATH.md",
+    "Reward Model.md",
+    "Process Reward Model.md",
+    "_attachments/Pasted image 20240720154638.png",
+    "WizardLM.md",
+    "Papers/Process Reward Models/Let's Verify Step by Step.md",
+    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Representation Finetuning.md",
+    "Claude.md",
     "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+    "Expert Iteration.md",
     "_attachments/Pasted image 20240720142208.png",
     "_attachments/Pasted image 20240720141553.png",
     "_attachments/Pasted image 20240720140557.png",
@@ -270,28 +337,13 @@
     "Chinchilla.md",
     "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
     "AlpaGasus.md",
-    "_attachments/Pasted image 20240719163742.png",
-    "_attachments/Pasted image 20240719161637.png",
     "AutoGPT.md",
     "WizardArena.md",
     "~ Ideas.md",
     "MosaicML.md",
     "~ Todo.md",
-    "_attachments/Pasted image 20240719154000.png",
-    "_attachments/Pasted image 20240719150002.png",
     "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md",
-    "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
     "Papers/Untitled",
-    "AgentInstruct.md",
-    "Hallucination.md",
-    "ROC-AUC.md",
-    "ROC Curve.md",
-    "BabyAGI.md",
-    "TextGrad.md",
-    "Papers/Process Reward Models/Let's Verify Step by Step.md",
-    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
-    "DataComp-LM.md",
-    "Active Learning.md",
     "Papers/Process Reward Models",
     "Courses/Math",
     "Papers/General",
