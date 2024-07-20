@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -216,8 +216,9 @@
   },
   "active": "2732d8a4cfbe9810",
   "lastOpenFiles": [
-    "Chinchilla.md",
     "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+    "t.md",
+    "Chinchilla.md",
     "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
     "AlpaGasus.md",
     "_attachments/Pasted image 20240719163742.png",
@@ -251,7 +252,6 @@
     "Papers/Process Reward Models",
     "Papers/Untitled.md",
     "AlpacaEval.md",
-    "FLAN-T5.md",
     "_attachments/Pasted image 20240718230849.png",
     "_attachments/Pasted image 20240718230841.png",
     "Courses/Math",
