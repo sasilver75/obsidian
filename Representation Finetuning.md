@@ -6,7 +6,7 @@ April 4, 2024
 Stanford NLP, including (Wu et al), including [[Christopher Manning|Chris Manning]], [[Dan Jurafsky]], [[Christopher Potts|Chris Potts]]
 [ReFT: Representation Finetuning for Language Models](https://arxiv.org/abs/2404.03592)
 ....
-Takeaway: ...
+Takeaway: ... (Haven't read paper)
 
 References: 
 - Paper Club Video: [Oxen AI How ReFT Works w/ Author Zhengxuan Wu](https://www.youtube.com/watch?v=to2oKwnknUk)
@@ -24,4 +24,4 @@ Background
 	- [[Adapter]]-based methods (Require adding additional layers at the end or in-between layers that are learnable, adding a small amount of overhead during inference.)
 
 ReFT uses a"interventions" between selected layer and weights to steer representations
-- Inspired by a lot of work in model interpretability (In the Scaling Monosemanticity, they have a traditional transformer, but they stick a sparse auto-encoder into the middle of it to extract features from the middle of the network. It turns out you can turn on specific dimensions in that autoencoder latent that activate different features (eg Golden Gate Claude)).
+- Inspired by a lot of work in model interpretability (In the Scaling Monosemanticity, they have a traditional transformer, but they stick a sparse auto-encoder into the middle of it to extract features from the middle of the network. It turns out you can turn on/clamp activations in specific dimensions in that autoencoder latent that activate different features (eg Golden Gate Claude)).

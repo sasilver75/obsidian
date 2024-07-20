@@ -439,6 +439,7 @@
 - [[Representation Finetuning]] (ReFT)
 - [[Verifier Voting]]
 - [[Expert Iteration]]
+- [[Reinforcement Learning from Evol-Instruct Feedback]] (RLEIF)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]

@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Solving math word problems with process- and outcome-based feedback",
-      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+      "basename": "WizardMath",
+      "path": "WizardMath.md"
+    },
+    {
+      "basename": "Auto Evol-Instruct",
+      "path": "Auto Evol-Instruct.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Expert Iteration",
-      "path": "Expert Iteration.md"
+      "basename": "Reinforcement Learning from Evol-Instruct Feedback",
+      "path": "Reinforcement Learning from Evol-Instruct Feedback.md"
+    },
+    {
+      "basename": "MATH",
+      "path": "MATH.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "Process Reward Model",
+      "path": "Process Reward Model.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
     },
     {
       "basename": "Representation Finetuning",
       "path": "Representation Finetuning.md"
+    },
+    {
+      "basename": "Claude",
+      "path": "Claude.md"
+    },
+    {
+      "basename": "Solving math word problems with process- and outcome-based feedback",
+      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+    },
+    {
+      "basename": "Expert Iteration",
+      "path": "Expert Iteration.md"
     },
     {
       "basename": "Rejection Sampling",
@@ -89,14 +129,6 @@
       "path": "TextGrad.md"
     },
     {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
-    },
-    {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
       "basename": "DataComp-LM",
       "path": "DataComp-LM.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Web Rephrase Augmented Pre-training",
       "path": "Web Rephrase Augmented Pre-training.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "Online Distillation",
-      "path": "Online Distillation.md"
-    },
-    {
-      "basename": "Attention",
-      "path": "Attention.md"
-    },
-    {
-      "basename": "GPT-4o Mini",
-      "path": "GPT-4o Mini.md"
-    },
-    {
-      "basename": "Untitled 5",
-      "path": "Untitled 5.md"
-    },
-    {
-      "basename": "Exposure Bias",
-      "path": "Exposure Bias.md"
-    },
-    {
-      "basename": "FlashAttention",
-      "path": "FlashAttention.md"
     }
   ],
   "omittedPaths": [],
