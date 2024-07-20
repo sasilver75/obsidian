@@ -19,74 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bda1f311e1b3dbaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81bd1931332c4b03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Ideas.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7136948b9af171d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WizardArena.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f77fa2d720c33b13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed8141265ed31cfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AutoGPT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
+                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
+                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
+                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
               }
             }
           },
@@ -234,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
+                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -280,16 +214,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bda1f311e1b3dbaf",
+  "active": "2732d8a4cfbe9810",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240719142317.png",
-    "~ Ideas.md",
-    "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
-    "~ Vocabulary.md",
-    "WizardArena.md",
-    "AgentInstruct.md",
+    "Chinchilla.md",
     "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+    "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
+    "AlpaGasus.md",
+    "_attachments/Pasted image 20240719163742.png",
+    "_attachments/Pasted image 20240719161637.png",
     "AutoGPT.md",
+    "WizardArena.md",
+    "~ Vocabulary.md",
+    "~ Ideas.md",
+    "MosaicML.md",
+    "~ Todo.md",
+    "_attachments/Pasted image 20240719154000.png",
+    "_attachments/Pasted image 20240719150002.png",
+    "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md",
+    "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md",
+    "Papers/Untitled",
+    "_attachments/Pasted image 20240719142317.png",
+    "AgentInstruct.md",
     "Hallucination.md",
     "ROC-AUC.md",
     "ROC Curve.md",
@@ -307,18 +252,8 @@
     "Papers/Untitled.md",
     "AlpacaEval.md",
     "FLAN-T5.md",
-    "Orca.md",
-    "Self-Play Preference Optimization.md",
-    "Rejection Sampling Optimization.md",
-    "Prompting.md",
-    "Bradley-Terry Model.md",
     "_attachments/Pasted image 20240718230849.png",
     "_attachments/Pasted image 20240718230841.png",
-    "_attachments/Pasted image 20240718230830.png",
-    "_attachments/Pasted image 20240718230820.png",
-    "_attachments/Pasted image 20240718230809.png",
-    "_attachments/Pasted image 20240718230758.png",
-    "_attachments/Pasted image 20240718230742.png",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
@@ -326,7 +261,6 @@
     "Papers/Synthetic Data",
     "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)",
-    "Articles/Machine Learning",
-    "Courses/Machine Learning"
+    "Articles/Machine Learning"
   ]
 }

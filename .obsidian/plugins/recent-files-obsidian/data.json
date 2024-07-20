@@ -1,32 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}",
-      "path": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
+      "basename": "Solving math word problems with process- and outcome-based feedback",
+      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
     },
     {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
+      "basename": "Chinchilla",
+      "path": "Chinchilla.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey",
+      "path": "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md"
+    },
+    {
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
+    },
+    {
+      "basename": "AutoGPT",
+      "path": "AutoGPT.md"
     },
     {
       "basename": "WizardArena",
       "path": "WizardArena.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "MosaicML",
+      "path": "MosaicML.md"
+    },
+    {
+      "basename": "~ Todo",
+      "path": "~ Todo.md"
+    },
+    {
+      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
+      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
+    },
+    {
+      "basename": "The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}",
+      "path": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
+    },
+    {
       "basename": "AgentInstruct",
       "path": "AgentInstruct.md"
-    },
-    {
-      "basename": "Solving math word problems with process- and outcome-based feedback",
-      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
-    },
-    {
-      "basename": "AutoGPT",
-      "path": "AutoGPT.md"
     },
     {
       "basename": "Hallucination",
@@ -175,30 +199,6 @@
     {
       "basename": "Mistral NeMo",
       "path": "Mistral NeMo.md"
-    },
-    {
-      "basename": "ReAct",
-      "path": "ReAct.md"
-    },
-    {
-      "basename": "BigCodeBench",
-      "path": "BigCodeBench.md"
-    },
-    {
-      "basename": "PaLM",
-      "path": "PaLM.md"
-    },
-    {
-      "basename": "Phi-3",
-      "path": "Phi-3.md"
-    },
-    {
-      "basename": "MBPP",
-      "path": "MBPP.md"
-    },
-    {
-      "basename": "PRM800K",
-      "path": "PRM800K.md"
     }
   ],
   "omittedPaths": [],

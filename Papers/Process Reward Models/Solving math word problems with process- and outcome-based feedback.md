@@ -4,14 +4,24 @@ November 25, 2022 (6 months before [[Let's Verify Step by Step]])
 #zotero 
 Takeaway: 
 
-Note: A year after this DeepMind paper, OpenAI did their [[Let's Verify Step by Step]] paper, which similarly did an analysis of PRMs applied to math, but the used a more capable base model, significantly more human feedback, and used the more challenging [[MATH]] dataset, instead of [[GSM8K]].
+Note: A year after this DeepMind paper, OpenAI did their [[Let's Verify Step by Step]] paper, which similarly did an analysis of PRMs applied to math, but the used a more capable base model, significantly more human feedback, and used the more challenging [[MATH]] dataset, instead of [[GSM8K]] (these were all critiques that OpenAI had of this GDM paper).
 
 
 ---
 
 ## Introduction
-
-
+- Recent work has shown language models using step-by-step reasoning (eg) [[Chain of Thought|CoT]] to solve tasks.
+- How should we best supervise such models?
+	- Outcome-based approaches: Supervise the final result
+	- Process-based approaches: Supervise each step of the reasoning process, including the last step outputting the final result.
+- Process-based approaches emphasize human understanding -- in order to either demonstrate or select good reasoning steps, human annotators need to understand the task.
+- An answer without an understandable explanation may often confuse more than it implies.
+	- ((What you cannot explain, you don't understand.))
+	- ((Correct answer with incorrect explanation isn't aligned behavior, because in some cases they clearly weren't following that reasoning to get to the correct answers -- they're "lying."))
+- Authors conduct a comprehensive comparison between process and outcome-based approaches in the context of [[GSM8K]] math work problems.
+	- We vary whether or not supervision is provided only on the final answers (outcome-based) or on individual reasoning steps (process-based).
+	- All models used are based on [[Chinchilla]] (70B params, 1.4T tokens)
+		- ((This was later a criticism by the [[Let's Verify Step by Step]] paper, but TBH I think this is large enough of a model to benefit from a PRM... It must come down to the scale of the supervision provided?))
 
 
 ## Problem and Methods
