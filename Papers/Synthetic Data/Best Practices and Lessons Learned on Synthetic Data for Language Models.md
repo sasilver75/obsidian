@@ -4,6 +4,7 @@ April 11, 2024
 #zotero 
 Takeaway: Nothing particularly interesting in this paper. Added one or two to vocab/reading list. It's all stuff that we know!
 
+Super mid paper
 
 -----
 
