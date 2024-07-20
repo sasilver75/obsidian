@@ -1,23 +1,7 @@
 # Data Engineering
 - [[Apache Arrow]]
+- [[Apache Parquet]]
 
-# Linear Algebra
-- [[Vector]]
-- [[Span]]
-- [[Rank (Linear Algebra)]]
-- [[Column Space]]
-- [[Row Space]]
-- [[Dot Product]]
-- [[Cross Product]]
-- [[Cosine Similarity]]
-- [[Eigenvector]]
-- [[Eigenvalue]]
-- [[Determinant]]
-- [[Singular Value Decomposition]]
-- [[Row Echelon Form]]
-- [[Inverse]]
-- [[Transpose]]
-- [[Hadamard Product]]
 
 # Probability/Statistics
 - [[Law of Large Numbers]]
@@ -81,6 +65,26 @@
 - [[De Morgan's Law of Union]]
 - [[Linearity of Expectation]]
 - [[Gibbs Sampling]]
+
+# Linear Algebra
+- [[Vector]]
+- [[Span]]
+- [[Rank (Linear Algebra)]]
+- [[Column Space]]
+- [[Row Space]]
+- [[Dot Product]]
+- [[Cross Product]]
+- [[Cosine Similarity]]
+- [[Eigenvector]]
+- [[Eigenvalue]]
+- [[Determinant]]
+- [[Singular Value Decomposition]]
+- [[Row Echelon Form]]
+- [[Inverse]]
+- [[Transpose]]
+- [[Hadamard Product]]
+
+
 # Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
