@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WizardMath.md",
+                "file": "UltraChat.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4ce0bb4d2bdf7d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -179,7 +192,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"finetuned language models are\"",
+                "query": "\"Initially after running dSFT over the whole corpus, they got a model that would preface most of its answers\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,7 +217,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -225,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WizardMath.md",
+                "file": "UltraChat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WizardMath.md",
+                "file": "UltraChat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WizardMath.md"
+                "file": "UltraChat.md"
               }
             }
           },
@@ -298,7 +312,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "WizardMath.md",
+                "file": "UltraChat.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -346,32 +360,34 @@
   },
   "active": "2732d8a4cfbe9810",
   "lastOpenFiles": [
-    "Proximal Policy Optimization.md",
+    "_attachments/Pasted image 20240720194819.png",
+    "_attachments/Pasted image 20240720194802.png",
+    "_attachments/Pasted image 20240720194634.png",
+    "_attachments/Pasted image 20240720194615.png",
+    "_attachments/Pasted image 20240720194605.png",
+    "_attachments/Pasted image 20240720194433.png",
+    "_attachments/Pasted image 20240720192931.png",
+    "_attachments/Pasted image 20240720191057.png",
+    "_attachments/Pasted image 20240720190640.png",
+    "_attachments/Pasted image 20240720190623.png",
+    "_attachments/Pasted image 20240720181724.png",
+    "~ Vocabulary.md",
+    "UltraChat.md",
     "WizardMath.md",
+    "Proximal Policy Optimization.md",
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
-    "_attachments/Pasted image 20240720164410.png",
-    "_attachments/Pasted image 20240720164322.png",
-    "_attachments/Pasted image 20240720164217.png",
-    "_attachments/Pasted image 20240720160929.png",
     "Auto Evol-Instruct.md",
-    "~ Vocabulary.md",
     "Reinforcement Learning from Evol-Instruct Feedback.md",
     "MATH.md",
     "Reward Model.md",
     "Process Reward Model.md",
-    "_attachments/Pasted image 20240720154638.png",
     "WizardLM.md",
     "Representation Finetuning.md",
     "Claude.md",
     "Expert Iteration.md",
-    "_attachments/Pasted image 20240720142208.png",
-    "_attachments/Pasted image 20240720141553.png",
-    "_attachments/Pasted image 20240720140557.png",
-    "_attachments/Pasted image 20240720140549.png",
     "Rejection Sampling.md",
-    "_attachments/Pasted image 20240720115719.png",
     "t.md",
     "Chinchilla.md",
     "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
@@ -380,8 +396,6 @@
     "WizardArena.md",
     "~ Ideas.md",
     "MosaicML.md",
-    "~ Todo.md",
-    "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
