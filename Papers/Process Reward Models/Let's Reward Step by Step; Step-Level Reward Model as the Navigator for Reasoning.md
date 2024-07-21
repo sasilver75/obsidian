@@ -2,7 +2,7 @@ October 16, 2023 (5 months after [[Let's Verify Step by Step]])
 National University of Singapore (NUS), ByteDance, Shanghai Jiao Tong University (Ma et al.)
 [Let's Reward Step by Step: Step-Level Reward Model as the Navigator for Reasoning](https://arxiv.org/abs/2310.10080)
 #zotero 
-Takeaway: Introduces heuristic greedy-search algorithm for decoding, guided by [[Process Reward Model]]s (HGS-PRM). Also introduces a method used to create PRM data for the code domain, and uses it to create a ==PRM-Code== dataset (unreleased?) using code mutation.
+Takeaway: Introduces heuristic greedy-search algorithm for LM decoding, guided by [[Process Reward Model]]s (HGS-PRM). Also introduces a method used to create PRM data for the code domain, and uses it to create a ==PRM-Code== dataset (unreleased?) using code mutation.
 
 
 Builds on the work from [[Let's Verify Step by Step]] (2023) and *Uesato et al. (2022)* in the PRM space.
