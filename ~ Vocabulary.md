@@ -843,6 +843,7 @@
 - [[Transformer-XL]]
 - [[Tulu 2]]
 - [[Tulu]]
+- [[UltraLLaMA]]
 - [[U-Net]]
 - [[ULMFiT]] (Universal Language Model Finetuning)
 - [[VGGNet]] (Visual Geometry Group Network)
