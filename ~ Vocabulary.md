@@ -843,7 +843,6 @@
 - [[Transformer-XL]]
 - [[Tulu 2]]
 - [[Tulu]]
-- [[UltraLLaMA]]
 - [[U-Net]]
 - [[ULMFiT]] (Universal Language Model Finetuning)
 - [[VGGNet]] (Visual Geometry Group Network)
@@ -979,6 +978,7 @@
 - [[SWE-bench]]
 - [[TFEval]] (Topic-Following Eval)
 - [[TruthfulQA]]
+- [[FalseQA]]
 - [[VQAv2]] (Visual Question Answering)
 - [[WebArena]]
 - [[Winograd]]  (Winograd schemas)
@@ -1004,7 +1004,7 @@
 - [[Feedback Collection]]
 - [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[FineWeb]] (15T high-quality dataset from HF)
-- [[FLAN v2]]
+- [[FLAN v2]] (The FLAN Collection)
 - [[Helpful and Harmless]] (HH)
 - [[HelpSteer2]]
 - [[HelpSteer]]

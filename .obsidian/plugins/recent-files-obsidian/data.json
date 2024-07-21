@@ -1,12 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
+    },
+    {
+      "basename": "FLAN v2",
+      "path": "FLAN v2.md"
+    },
+    {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
+      "basename": "Orca",
+      "path": "Orca.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Evol-Instruct",
+      "path": "Evol-Instruct.md"
+    },
+    {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "UltraLLaMA",
+      "path": "UltraLLaMA.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "Process Reward Model",
+      "path": "Process Reward Model.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Evol-Instruct Feedback",
+      "path": "Reinforcement Learning from Evol-Instruct Feedback.md"
+    },
+    {
+      "basename": "Auto Evol-Instruct",
+      "path": "Auto Evol-Instruct.md"
+    },
+    {
+      "basename": "Solving math word problems with process- and outcome-based feedback",
+      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
     },
     {
       "basename": "WizardMath",
@@ -17,40 +73,8 @@
       "path": "Proximal Policy Optimization.md"
     },
     {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
-      "basename": "Solving math word problems with process- and outcome-based feedback",
-      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
-    },
-    {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
-    },
-    {
-      "basename": "Auto Evol-Instruct",
-      "path": "Auto Evol-Instruct.md"
-    },
-    {
-      "basename": "Reinforcement Learning from Evol-Instruct Feedback",
-      "path": "Reinforcement Learning from Evol-Instruct Feedback.md"
-    },
-    {
       "basename": "MATH",
       "path": "MATH.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
-    },
-    {
-      "basename": "Process Reward Model",
-      "path": "Process Reward Model.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
     },
     {
       "basename": "Representation Finetuning",
@@ -157,10 +181,6 @@
       "path": "FLAN-T5.md"
     },
     {
-      "basename": "Orca",
-      "path": "Orca.md"
-    },
-    {
       "basename": "Self-Play Preference Optimization",
       "path": "Self-Play Preference Optimization.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Direct Preference Optimization",
       "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
-    },
-    {
-      "basename": "LIMA",
-      "path": "LIMA.md"
-    },
-    {
-      "basename": "FLAN",
-      "path": "FLAN.md"
-    },
-    {
-      "basename": "Preference Optimization with Identity Mapping",
-      "path": "Preference Optimization with Identity Mapping.md"
-    },
-    {
-      "basename": "Model Merging",
-      "path": "Model Merging.md"
     }
   ],
   "omittedPaths": [],

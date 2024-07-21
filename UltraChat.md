@@ -2,7 +2,7 @@ May 23, 2023
 Tsinghua University (Ding et al)
 [Enhancing Chat Language Models by Scaling High-Quality Instructional Conversations](https://arxiv.org/abs/2305.14233)
 #zotero 
-Takeaway: A totally-synthetic dataset of 1.47M multi-turn dialogues covering a wide range of topics/instructions in the context of user-agent interactions. Uses a top-down three-sector (Questions about the World, Creation and Generation, Assistance on Existing Materials) approach to generate opening questions for dialogues. Uses separately-prompted User/Assistant GPT-3.5s to create each side of the dialogue. Authors finetune LLaMA-13B into [[UltraLLaMA]], which outperformed [[Vicuna]], the previously recognized as the SoTA open-source fine-tune.
+Takeaway: A totally-synthetic dataset of 1.47M multi-turn dialogues covering a wide range of topics/instructions in the context of user-agent interactions. Uses a top-down three-sector (Questions about the World, Creation and Generation, Assistance on Existing Materials) approach to generate opening questions for dialogues. Uses separately-prompted User/Assistant GPT-3.5s to create each side of the dialogue. Authors finetune LLaMA-13B into UltraLLaMA, which outperformed [[Vicuna]], the previously recognized as the SoTA open-source fine-tune.
 - Questions about the World uses a GPT-generated taxonomy of 30 topics like Technology, Food and drink, Money and finance, Beauty and self-care (+~50 subtopics per topic) to generate opening lines, while Creation and Generation and Assistance on Existing Materials use a taxonomy of 20 types of material (eg Articles and Blog Posts, Screenplays, Emails, Programs and Code) to inspire opening lines.
 
 
@@ -23,7 +23,7 @@ This is a great and inspiring paper regarding thinking about making multi-turn u
 - Then we employ ==meta-information==, ==in-context expansion==, and ==iterative prompting== to scale up the number of instructions.
 - To construct informative and realistic multi-turn conversations, ==two separate ChatGPT Turbo APIs are used to generate conversations, with one playing the role of the user, and the other generating the response==.
 	- They construct the user model with carefully-designed prompts to mimic human user behavior and call the two APIs iteratively.
-- Authors finetune [[LLaMA]]-13B into [[UltraLLaMA]], which consistently outperforms comparable open-source baselines.
+- Authors finetune [[LLaMA]]-13B into UltraLLaMA, which consistently outperforms comparable open-source baselines.
 
 ## Related Work
 - In instruction tuning, the [[T5]] and [[FLAN]] series of models did pioneering work on instruction tuning, expanded upon with [[FLAN-T5]]
@@ -59,7 +59,7 @@ This is a great and inspiring paper regarding thinking about making multi-turn u
 	- We include prompts explicitly instructing the model to adopt various user personalities. A prompt is employed to remind the model of the primary purpose of the dialogue.
 		- ((==Note:== not clear to me if they're using a different prompt for the (eg) first and second+ generations, for either user or assistant sides))
 - Once data generation is complete, a further filtration step is performed to ensure overall data quality, where we exclude polite statements like "Thank you," "Thanks," and "You're welcome."
-- Authors train [[UltraLLaMA]] off of a [[LLaMA]]-13B base. They break each dialogue into smaller sequences, limiting them to the maximum length of 2048 tokens.
+- Authors train UltraLLaMA off of a [[LLaMA]]-13B base. They break each dialogue into smaller sequences, limiting them to the maximum length of 2048 tokens.
 	- ((This sucks and is a huge red flag, no? Like you can't really benefit from coherent multi-turn interactions if you yourself don't have a context window to even accommodate them.))
 
 
