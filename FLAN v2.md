@@ -1,6 +1,7 @@
 ---
 aliases:
   - FLAN 2022
+  - FLAN Collection
 ---
 
 Jan 31, 2023 -- [[Google Research]]
@@ -8,7 +9,7 @@ Paper: [The Flan Collection: Designing Data and Methods for Effective Instructio
 HuggingFace Dataset card: [FLAN v2](https://huggingface.co/datasets/philschmid/flanv2)
 
 An investigation into ablations around the training dataset used for [[FLAN-T5]] (and other FLAN models, though the T5 one is the most famous), with the final *datasets* being released.
-- The dataset is a combination of [[FLAN]] 2021, P3, [[Super-NaturalInstructions]], and additional reasoning, dialog, and program synthesis datasets. 
+- *The dataset is a combination of [[FLAN]] 2021, P3, [[Super-NaturalInstructions]], and additional reasoning, dialog, and program synthesis datasets.* 
 - The 9 new reasoning datasets are additionally annotated with [[Chain of Thought]] annotations.
 
 Abstract

@@ -4,7 +4,9 @@ Paper: [Shepherd: A Critic for Language Model Generation](https://arxiv.org/abs/
 #zotero 
 Takeaway: Shepherd is a 7B parameter "Critique/Critic" model (a la [[Constitutional AI|CAI]]), specifically tuned to critique responses and *suggest refinements*. It's similar in performance to ChatGPT (which is pretty impressive for a 7B model).
 
-Related paper: Selfee (Ye et al., 2023) (which this paper references multiple times, and seems slightly worse)
+Related paper: SelFee (Ye et al., 2023) (which this paper references multiple times, and seems slightly worse)
+
+Shepherd in the [[UltraFeedback]] dataset is also referred to as a critique dataset, along with SelFee, so a dataset must have been released as an artifact.
 
 ----
 

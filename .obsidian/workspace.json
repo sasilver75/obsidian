@@ -4,159 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "e28362d73336272b",
+        "id": "82e31d0839fccca6",
         "type": "tabs",
         "children": [
           {
-            "id": "2732d8a4cfbe9810",
+            "id": "48a59a87496fa9b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UltraFeedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32c4f249ac2ffac9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shepherd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fedfdf142382873",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shepherd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14de8f67bb3faa16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3469909d099c0eb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FLAN v2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebbda6fe96bb7789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "182fe133ce7e1647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2afdd0a3d82045d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "UltraChat.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4ce0bb4d2bdf7d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "181d264ec16ea616",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1301779c949b3cfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4cb5e63b2efc9dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Process Reward Models/Let's Verify Step by Step.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0690289d096b15ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Auto Evol-Instruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42ebaaddea88442d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17b9b369a78e8310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning from Evol-Instruct Feedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1ee8914cf6f98a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reward Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fb7dd40f39532fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Process Reward Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65228e7ece198d14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Process Reward Models/Let's Verify Step by Step.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43ba12c83bd8e2b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WizardLM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -192,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Initially after running dSFT over the whole corpus, they got a model that would preface most of its answers\"",
+                "query": "\"The Flan Collection\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -239,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UltraChat.md",
+                "file": "UltraFeedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UltraChat.md",
+                "file": "UltraFeedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UltraChat.md"
+                "file": "UltraFeedback.md"
               }
             }
           },
@@ -312,7 +260,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "UltraChat.md",
+                "file": "UltraFeedback.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -358,44 +306,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2732d8a4cfbe9810",
+  "active": "48a59a87496fa9b9",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240721011105.png",
+    "_attachments/Pasted image 20240721010554.png",
+    "FLAN v2.md",
+    "UltraFeedback.md",
+    "Shepherd.md",
+    "Orca.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240721003950.png",
+    "_attachments/Pasted image 20240721003940.png",
+    "_attachments/Pasted image 20240721001110.png",
+    "FLAN Collection.md",
+    "Evol-Instruct.md",
+    "UltraChat.md",
+    "UltraLLaMA.md",
+    "WizardLM.md",
+    "Papers/Process Reward Models/Let's Verify Step by Step.md",
+    "Process Reward Model.md",
+    "Reward Model.md",
+    "Reinforcement Learning from Evol-Instruct Feedback.md",
+    "Auto Evol-Instruct.md",
+    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "_attachments/Pasted image 20240720195235.png",
     "_attachments/Pasted image 20240720194819.png",
     "_attachments/Pasted image 20240720194802.png",
     "_attachments/Pasted image 20240720194634.png",
     "_attachments/Pasted image 20240720194615.png",
     "_attachments/Pasted image 20240720194605.png",
-    "_attachments/Pasted image 20240720194433.png",
-    "_attachments/Pasted image 20240720192931.png",
-    "_attachments/Pasted image 20240720191057.png",
-    "_attachments/Pasted image 20240720190640.png",
-    "_attachments/Pasted image 20240720190623.png",
-    "~ Vocabulary.md",
-    "UltraChat.md",
     "WizardMath.md",
     "Proximal Policy Optimization.md",
-    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
-    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
-    "Papers/Process Reward Models/Let's Verify Step by Step.md",
-    "Auto Evol-Instruct.md",
-    "Reinforcement Learning from Evol-Instruct Feedback.md",
     "MATH.md",
-    "Reward Model.md",
-    "Process Reward Model.md",
-    "WizardLM.md",
     "Representation Finetuning.md",
     "Claude.md",
     "Expert Iteration.md",
     "Rejection Sampling.md",
     "t.md",
-    "Chinchilla.md",
-    "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
-    "AlpaGasus.md",
-    "AutoGPT.md",
-    "WizardArena.md",
-    "~ Ideas.md",
-    "MosaicML.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
