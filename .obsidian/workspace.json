@@ -21,6 +21,45 @@
             }
           },
           {
+            "id": "181d264ec16ea616",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1301779c949b3cfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4cb5e63b2efc9dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Process Reward Models/Let's Verify Step by Step.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0690289d096b15ca",
             "type": "leaf",
             "state": {
@@ -307,12 +346,16 @@
   },
   "active": "2732d8a4cfbe9810",
   "lastOpenFiles": [
+    "Proximal Policy Optimization.md",
+    "WizardMath.md",
+    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
+    "Papers/Process Reward Models/Let's Verify Step by Step.md",
     "_attachments/Pasted image 20240720164410.png",
     "_attachments/Pasted image 20240720164322.png",
     "_attachments/Pasted image 20240720164217.png",
     "_attachments/Pasted image 20240720160929.png",
     "Auto Evol-Instruct.md",
-    "WizardMath.md",
     "~ Vocabulary.md",
     "Reinforcement Learning from Evol-Instruct Feedback.md",
     "MATH.md",
@@ -320,11 +363,8 @@
     "Process Reward Model.md",
     "_attachments/Pasted image 20240720154638.png",
     "WizardLM.md",
-    "Papers/Process Reward Models/Let's Verify Step by Step.md",
-    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Representation Finetuning.md",
     "Claude.md",
-    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
     "Expert Iteration.md",
     "_attachments/Pasted image 20240720142208.png",
     "_attachments/Pasted image 20240720141553.png",
@@ -332,7 +372,6 @@
     "_attachments/Pasted image 20240720140549.png",
     "Rejection Sampling.md",
     "_attachments/Pasted image 20240720115719.png",
-    "_attachments/Pasted image 20240720115718.png",
     "t.md",
     "Chinchilla.md",
     "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",

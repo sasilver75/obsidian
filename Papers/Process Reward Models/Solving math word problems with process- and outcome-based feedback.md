@@ -56,6 +56,7 @@ Supervised finetuning
 		- ((==Note:== This means that even if you have correct reasoning... but later provide wrong answer, the reasoning steps are marked as incorrect? This seems bad))
 	- In the ==[[Process Reward Model]]== (PRM), the binary label after each steps indicates whether the steps so far are correct. We use human annotation for these labels.
 		- ((==Note:==, Wait so if reasoning step 3 is bad, but reasoning step 4 is good, does the PRM rate 4 badly too, because the steps "so far" aren't correct? This seems bad))
+		- ((This is also different from the later OpenAI [[Let's Verify Step by Step]] paper, where human labelers assign each step a positive/neutral/negative label, assumedly independently of whether a previous step was bad))
 - ((So it seems like both models are producing a score at every step, but the reference supervision/signal for an outcome-based model is "stupider" is the sense that it's all 0s or all 1s during training? But the PRM also has bits that are dumb.))
 
 Decoding

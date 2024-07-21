@@ -5,6 +5,22 @@
       "path": "WizardMath.md"
     },
     {
+      "basename": "Proximal Policy Optimization",
+      "path": "Proximal Policy Optimization.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "Solving math word problems with process- and outcome-based feedback",
+      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
+    },
+    {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
+    },
+    {
       "basename": "Auto Evol-Instruct",
       "path": "Auto Evol-Instruct.md"
     },
@@ -33,24 +49,12 @@
       "path": "WizardLM.md"
     },
     {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
-    },
-    {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
       "basename": "Representation Finetuning",
       "path": "Representation Finetuning.md"
     },
     {
       "basename": "Claude",
       "path": "Claude.md"
-    },
-    {
-      "basename": "Solving math word problems with process- and outcome-based feedback",
-      "path": "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md"
     },
     {
       "basename": "Expert Iteration",
@@ -195,10 +199,6 @@
     {
       "basename": "Model Merging",
       "path": "Model Merging.md"
-    },
-    {
-      "basename": "Web Rephrase Augmented Pre-training",
-      "path": "Web Rephrase Augmented Pre-training.md"
     }
   ],
   "omittedPaths": [],
