@@ -5,6 +5,10 @@
       "path": "UltraFeedback.md"
     },
     {
+      "basename": "Reinforcement Learning from from AI Feedback",
+      "path": "Reinforcement Learning from from AI Feedback.md"
+    },
+    {
       "basename": "FLAN v2",
       "path": "FLAN v2.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Bradley-Terry Model",
       "path": "Bradley-Terry Model.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
     }
   ],
   "omittedPaths": [],

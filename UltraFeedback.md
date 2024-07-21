@@ -73,16 +73,21 @@ Note: When training [Notus 7B](https://huggingface.co/argilla/notus-7b-v1) (an "
 		- OpenAI Summarization
 		- Anthropic HH-RLHF
 		- Stanford SHP
-	- On each dataset, they calculate the rewards of two responses for one prompt and predict which one is more preferred, and compare to the human preference dataset labels... It seems that it gets an average of 71.0% accuracy across the four datasets, which doesn't seem *that* impressive 🤔. It seems to be nearly on par with the "LLaMA2 Helpfulness" model.
+	- On each dataset, they calculate the rewards of two responses for one prompt and predict which one is more preferred, and compare to the human preference dataset labels... It seems that it gets an average of 71.0% accuracy across the four datasets, which doesn't seem *that* impressive 🤔. It seems to be nearly on par with the "LLaMA2 Helpfulness" model (which is a closed model).  
+		- ((Note that this model gets something like a 67 on [[RewardBench]], and better models like Nemotron or even some 8B LLaMA3 finetunes get like 90+; so this is no longer SoTA))
+- Best of N Experiments
+	- To verify that UltraRM could serve as a good indicator of response quality, they conduct a best-of-n experiment: They randomly sample 16 completions from the original UltraLM-13B on the [[AlpacaEval]] benchmark, and select the best response by the reward model. While we can get an initial one-sample 76.53% win rate against AlpacaEval's text-davinci-003 baseline, by increasing to best-of-16, our win rate hits 91.54%. See figure.
+- PPO Experiment
+	- We use UltraRM in an [[Reinforcement Learning from from AI Feedback|RLAIF]] experiment with [[Proximal Policy Optimization|PPO]], tuning it for 80 iterations on the UltraFeedback prompt (512 samples/iteration). UltraLM-13B-PPO overtakes LLAMA-based models, even beating the much larger LLaMA2-70B-Chat IFT'd model.
 
-
-## Agreement with Human Preferences
-
-
-## Analysis
-
+## Agreement with Human Preferences and Analysis
+- We randomly sample 400 comparison pairs from UltraFeedback/AlpacaEval/Evol-Instruct/UltraChat test sets (100 each) and ask 3 independent annotators to compare those pairs (win/tie/lose).
+- We present the agreement ratio between GPT-4 and the Annotators, which shows that the average inter-annotator agreement is something like 56-60%, with GPT-4 actually being the one with the highest 60% agreement with the annotators.
 
 ## Related Work
+- Incorporating human feedback with imitation learning and RL has been the mainstream approach to alignment.
+- [[Scalable Oversight]] aims to supervise potent AI models by models themselves, as models approach superhuman capability (or at least above the capabilities of annotators).
+- [[Constitutional AI]] to let LLMs refine their responses given a set of regulations.
 
 
 ## Conclusion
@@ -101,6 +106,31 @@ Comparison with some other preference and critique datasets including [[oasst1]]
 
 ![[Pasted image 20240721011105.png|500]]
 UltraRM accuracy on out-of-sample *real* human preference datasets. The 71.0 doesn't seem that impressive, huh? Note that this is just a 13B model. On [RewardBench](https://huggingface.co/spaces/allenai/reward-bench), it gets a 67.6 overall score, compared to (eg) 92.2 for [[Nemotron-4]]'s 340B Reward.
+
+![[Pasted image 20240721014035.png|400]]
+From the Best-of-N Experiments; Plots the win rate against text-davinci-003 on [[AlpacaEval]]. We sample *n* responses and choose the one with the highest reawrd.
+
+![[Pasted image 20240721014231.png|600]]
+
+![[Pasted image 20240721015126.png|300]]
+
+![[Pasted image 20240721021752.png|500]]
+
+![[Pasted image 20240721021834.png|600]]
+
+![[Pasted image 20240721022236.png|500]]
+
+![[Pasted image 20240721022541.png|500]]
+
+![[Pasted image 20240721022656.png|500]]
+
+![[Pasted image 20240721022754.png|500]]
+
+![[Pasted image 20240721022812.png|500]]
+
+![[Pasted image 20240721022823.png|500]]
+
+
 
 # Non-Paper Figures
 ![[Pasted image 20240424153738.png|300]]

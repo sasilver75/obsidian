@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "d9481471ad81bac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning from from AI Feedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "32c4f249ac2ffac9",
             "type": "leaf",
             "state": {
@@ -308,16 +321,23 @@
   },
   "active": "48a59a87496fa9b9",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240721011105.png",
-    "_attachments/Pasted image 20240721010554.png",
-    "FLAN v2.md",
+    "_attachments/Pasted image 20240721022823.png",
+    "_attachments/Pasted image 20240721022812.png",
+    "_attachments/Pasted image 20240721022754.png",
+    "_attachments/Pasted image 20240721022656.png",
+    "_attachments/Pasted image 20240721022541.png",
+    "_attachments/Pasted image 20240721022236.png",
+    "_attachments/Pasted image 20240721021834.png",
+    "_attachments/Pasted image 20240721021752.png",
+    "_attachments/Pasted image 20240721015126.png",
+    "Reinforcement Learning from from AI Feedback.md",
     "UltraFeedback.md",
+    "_attachments/Pasted image 20240721014231.png",
+    "_attachments/Pasted image 20240721014035.png",
+    "FLAN v2.md",
     "Shepherd.md",
     "Orca.md",
     "~ Vocabulary.md",
-    "_attachments/Pasted image 20240721003950.png",
-    "_attachments/Pasted image 20240721003940.png",
-    "_attachments/Pasted image 20240721001110.png",
     "FLAN Collection.md",
     "Evol-Instruct.md",
     "UltraChat.md",
@@ -330,12 +350,6 @@
     "Auto Evol-Instruct.md",
     "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
-    "_attachments/Pasted image 20240720195235.png",
-    "_attachments/Pasted image 20240720194819.png",
-    "_attachments/Pasted image 20240720194802.png",
-    "_attachments/Pasted image 20240720194634.png",
-    "_attachments/Pasted image 20240720194615.png",
-    "_attachments/Pasted image 20240720194605.png",
     "WizardMath.md",
     "Proximal Policy Optimization.md",
     "MATH.md",
@@ -343,7 +357,6 @@
     "Claude.md",
     "Expert Iteration.md",
     "Rejection Sampling.md",
-    "t.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
