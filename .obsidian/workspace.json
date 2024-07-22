@@ -21,12 +21,57 @@
             }
           },
           {
+            "id": "fc88901996290645",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e60c6e941576c9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Speculative Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f35b91f4305830ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Cross-Entropy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9095e0f7ce5bc57a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec3631b2d748a790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -228,28 +273,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "182fe133ce7e1647",
+  "active": "ec3631b2d748a790",
   "lastOpenFiles": [
-    "Cross-Entropy.md",
+    "_attachments/Pasted image 20240722144256.png",
+    "Exposure Bias.md",
     "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+    "_attachments/Pasted image 20240722143916.png",
+    "_attachments/Pasted image 20240722143515.png",
+    "_attachments/Pasted image 20240722143445.png",
+    "_attachments/Pasted image 20240722143156.png",
+    "_attachments/Pasted image 20240722143146.png",
+    "Self-Speculative Decoding.md",
+    "_attachments/Pasted image 20240722133414.png",
+    "Cross-Entropy.md",
+    "_attachments/Pasted image 20240722132617.png",
+    "~ Ideas.md",
+    "~ Vocabulary.md",
     "_attachments/Pasted image 20240722130822.png",
     "DataComp-LM.md",
     "FineWeb.md",
     "_attachments/Pasted image 20240722120851.png",
-    "~ Vocabulary.md",
     "Orca 3.md",
     "_attachments/Pasted image 20240721234822.png",
-    "_attachments/Pasted image 20240721234806.png",
-    "_attachments/Pasted image 20240721234753.png",
-    "_attachments/Pasted image 20240721234739.png",
-    "_attachments/Pasted image 20240721234724.png",
-    "_attachments/Pasted image 20240721234707.png",
-    "_attachments/Pasted image 20240721234647.png",
-    "_attachments/Pasted image 20240721234617.png",
     "UltraChat.md",
     "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "Medusa.md",
-    "~ Ideas.md",
     "FLAN v2.md",
     "Shepherd.md",
     "Reinforcement Learning from from AI Feedback.md",
@@ -263,9 +311,6 @@
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
     "Process Reward Model.md",
     "Reward Model.md",
-    "Reinforcement Learning from Evol-Instruct Feedback.md",
-    "Auto Evol-Instruct.md",
-    "Papers/Process Reward Models/Solving math word problems with process- and outcome-based feedback.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",

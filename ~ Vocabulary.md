@@ -319,6 +319,7 @@
 - [[VLM]] (Vision-Language Model)
 - [[Continuous Batching]]
 - [[Speculative Decoding]]
+- [[Self-Speculative Decoding]]
 - [[Constrained Decoding]]
 - [[Reward-Augmented Decoding]]
 - [[Human-in-the-Loop Decoding]]
