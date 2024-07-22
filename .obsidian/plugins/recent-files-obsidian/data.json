@@ -5,8 +5,24 @@
       "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
     },
     {
+      "basename": "Exposure Bias",
+      "path": "Exposure Bias.md"
+    },
+    {
+      "basename": "Self-Speculative Decoding",
+      "path": "Self-Speculative Decoding.md"
+    },
+    {
       "basename": "Cross-Entropy",
       "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "DataComp-LM",
@@ -15,10 +31,6 @@
     {
       "basename": "FineWeb",
       "path": "FineWeb.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Orca 3",
@@ -35,10 +47,6 @@
     {
       "basename": "Medusa",
       "path": "Medusa.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
     },
     {
       "basename": "FLAN v2",
@@ -191,14 +199,6 @@
     {
       "basename": "BabyAGI",
       "path": "BabyAGI.md"
-    },
-    {
-      "basename": "TextGrad",
-      "path": "TextGrad.md"
-    },
-    {
-      "basename": "Active Learning",
-      "path": "Active Learning.md"
     }
   ],
   "omittedPaths": [],
