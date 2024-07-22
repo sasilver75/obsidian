@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Ideas.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2afdd0a3d82045d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UltraChat.md",
+                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"The Flan Collection\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Ideas.md"
+                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
               }
             }
           },
@@ -182,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,6 +217,21 @@
   },
   "active": "182fe133ce7e1647",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240721234822.png",
+    "_attachments/Pasted image 20240721234806.png",
+    "_attachments/Pasted image 20240721234753.png",
+    "_attachments/Pasted image 20240721234739.png",
+    "_attachments/Pasted image 20240721234724.png",
+    "_attachments/Pasted image 20240721234707.png",
+    "_attachments/Pasted image 20240721234647.png",
+    "_attachments/Pasted image 20240721234617.png",
+    "_attachments/Pasted image 20240721234558.png",
+    "_attachments/Pasted image 20240721234532.png",
+    "UltraChat.md",
+    "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Medusa.md",
+    "~ Ideas.md",
     "~ Vocabulary.md",
     "FLAN v2.md",
     "Shepherd.md",
@@ -237,19 +239,9 @@
     "UltraFeedback.md",
     "GPT-4.md",
     "_attachments/Pasted image 20240721022823.png",
-    "_attachments/Pasted image 20240721022812.png",
-    "_attachments/Pasted image 20240721022754.png",
-    "_attachments/Pasted image 20240721022656.png",
-    "_attachments/Pasted image 20240721022541.png",
-    "_attachments/Pasted image 20240721022236.png",
-    "_attachments/Pasted image 20240721021834.png",
-    "_attachments/Pasted image 20240721021752.png",
-    "_attachments/Pasted image 20240721015126.png",
-    "_attachments/Pasted image 20240721014231.png",
     "Orca.md",
     "FLAN Collection.md",
     "Evol-Instruct.md",
-    "UltraChat.md",
     "UltraLLaMA.md",
     "WizardLM.md",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
@@ -261,11 +253,6 @@
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "WizardMath.md",
     "Proximal Policy Optimization.md",
-    "MATH.md",
-    "Representation Finetuning.md",
-    "Claude.md",
-    "Expert Iteration.md",
-    "Rejection Sampling.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
