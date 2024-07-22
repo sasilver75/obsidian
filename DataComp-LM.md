@@ -9,6 +9,8 @@ Website link: [DataComp-LM](https://www.datacomp.ai/dclm/index.html#home)
 #zotero 
 Takeaway: A benchmark/competition introduced in 2024 focused on data-centric AI. Whereas historically we treat datasets as constant and compete on model architectures (eg [[ImageNet|ILSVRC]]), DataComp is a competition in which architecture and training code is held constant, and competitors are encouraged to find ways of filtering and augmenting a dataset of 240T tokens from [[Common Crawl]] (or bringing their own data) called ==DCLM-Pool==. The benchmark consists of multiple scales, with various candidate pool sizes and associated compute budgets ranging from 412M to 7B parameters. As point of proof, authors produce a dataset called ==DCLM-Baseline==, which they use to train a model with a SoTA trade-off between compute and performance.
 
+Note: The DCLM-Baseline dataset seems to be on-par or even slightly better than [[FineWeb-Edu]], meaning it's a *strong* baseline! (See non-paper figures)
+
 ---
 
 ## Introduction
@@ -91,3 +93,10 @@ Comparisons between different methods for quality-based filtering of data! It se
 
 ![[Pasted image 20240713231750.png|400]]
 It's interesting that mixing in additional high quality datasets (eg Wikipedia, Stack Exchange, arXiv) usually improves datasets, but it doesn't in the case of the example DCLM-Baseline dataset (which is the one they do a lot of filtering on, from the DCLM-Poool dataset).
+
+
+
+# Non-Paper Figures
+
+![[Pasted image 20240722120851.png|500]]
+From [here](https://x.com/andersonbcdefg/status/1815197903809589337)

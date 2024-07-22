@@ -5,6 +5,26 @@
       "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
     },
     {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "DataComp-LM",
+      "path": "DataComp-LM.md"
+    },
+    {
+      "basename": "FineWeb",
+      "path": "FineWeb.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Orca 3",
+      "path": "Orca 3.md"
+    },
+    {
       "basename": "UltraChat",
       "path": "UltraChat.md"
     },
@@ -19,10 +39,6 @@
     {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "FLAN v2",
@@ -181,24 +197,8 @@
       "path": "TextGrad.md"
     },
     {
-      "basename": "DataComp-LM",
-      "path": "DataComp-LM.md"
-    },
-    {
       "basename": "Active Learning",
       "path": "Active Learning.md"
-    },
-    {
-      "basename": "GenQA",
-      "path": "GenQA.md"
-    },
-    {
-      "basename": "AlpacaEval",
-      "path": "AlpacaEval.md"
-    },
-    {
-      "basename": "FLAN-T5",
-      "path": "FLAN-T5.md"
     }
   ],
   "omittedPaths": [],

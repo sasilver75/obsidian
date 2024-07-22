@@ -7,14 +7,24 @@ Takeaway: ...
 This paper came out a few months after the [[Medusa]] paper, and is similar in the sense that they both involve multi-token prediction.
 
 ----
-
 ## Introduction
-
+- Next-token-prediction remains an inefficient way of acquiring language, world knowledge, and reasoning capabilities.
+- Training LLMs to predict multiple tokens at once (the n future tokens from each position, in parallel) will drive models towards better sample efficiency.
+- Authors propose a simple multi-token prediction architecture with no train time or memory overhead, and show that models at 13B solve around 15% more coding problems on average, as a result.
+	- It also enabled *==Self-Speculative Decoding==* (see [[Speculative Decoding]]), making models up to 3x faster across a wide range of batch sizes.
 
 ## Methods
+- Standard language modeling implementing a next-token prediction task, with the learning objective of minimizing cross-entropy loss: $L_1 = - \sum_tlogP_\theta(x_{t+1}|x_{t:1})$    so as to maximize the probability of $x_{t+1}$ as the next future token.
+- We generalize this to a multi-token prediction task, where at each position of the training corpus, we predict *n* future tokens at once! This translates into $L_1 = - \sum_tlogP_\theta(x_{t+n:t+1}|x_{t:1})$ , where we're predict not just the t+1'th token, but the t+1 ... t+n range of tokens.
+	- We assume our LLM employs a shared trunk to produce a latent representation of the observed context, which is then fed into *n* independent heads to predict in parallel each of the *n* future tokens, leading to the following factorization of the multi-token prediction cross-entropy loss (where $z_{t+1}$ is the latent representation shared among heads):
+![[Pasted image 20240722130822.png|400]]
+See the second summation sums across the prediction heads.
+- A big challenge in training multi-token predictors is reducing their GPU memory utilization
+	- Recall that the vocabulary size V is much larger than the dimension d of the latent representation... so the logit vectors (over V) become the GPU memory usage bottleneck.
 
 
 ## Experiments on Real Data
+- 
 
 
 ## Ablations on Synthetic Data
