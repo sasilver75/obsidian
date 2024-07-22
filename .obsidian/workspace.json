@@ -8,103 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48a59a87496fa9b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UltraFeedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9481471ad81bac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning from from AI Feedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32c4f249ac2ffac9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shepherd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fedfdf142382873",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shepherd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14de8f67bb3faa16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3469909d099c0eb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FLAN v2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebbda6fe96bb7789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "182fe133ce7e1647",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -200,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UltraFeedback.md",
+                "file": "~ Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UltraFeedback.md",
+                "file": "~ Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UltraFeedback.md"
+                "file": "~ Ideas.md"
               }
             }
           },
@@ -273,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "UltraFeedback.md",
+                "file": "~ Ideas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -319,8 +228,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "48a59a87496fa9b9",
+  "active": "182fe133ce7e1647",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "FLAN v2.md",
+    "Shepherd.md",
+    "Reinforcement Learning from from AI Feedback.md",
+    "UltraFeedback.md",
+    "GPT-4.md",
     "_attachments/Pasted image 20240721022823.png",
     "_attachments/Pasted image 20240721022812.png",
     "_attachments/Pasted image 20240721022754.png",
@@ -330,14 +245,8 @@
     "_attachments/Pasted image 20240721021834.png",
     "_attachments/Pasted image 20240721021752.png",
     "_attachments/Pasted image 20240721015126.png",
-    "Reinforcement Learning from from AI Feedback.md",
-    "UltraFeedback.md",
     "_attachments/Pasted image 20240721014231.png",
-    "_attachments/Pasted image 20240721014035.png",
-    "FLAN v2.md",
-    "Shepherd.md",
     "Orca.md",
-    "~ Vocabulary.md",
     "FLAN Collection.md",
     "Evol-Instruct.md",
     "UltraChat.md",

@@ -34,7 +34,8 @@
 - What about in an iterative prompt refinement synthetic data pipeline, introducing another prompt or document and asking the LM to incorporate/fuse prompts together? Or having sort of abstract prompts (are these more like templates?) that we then couch in some context document.
 	- Note that we can think about iterative refinement of prompts (AgentInstruct) and iterative refinement of responses (Arena Learning) separately.
 	- Is there an advantage to using multiple models/prompts? AgentInstruct uses a suggestor and editor agent.
-- Use of techniques like [[Constitutional AI|CAI]] together with synthetic data generatino
+- Use of techniques like [[Constitutional AI|CAI]] critique together with synthetic data generation
+- https://x.com/Teknium1/status/1815105755613376792
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 

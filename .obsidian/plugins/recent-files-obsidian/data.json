@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "UltraFeedback",
-      "path": "UltraFeedback.md"
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
     },
     {
-      "basename": "Reinforcement Learning from from AI Feedback",
-      "path": "Reinforcement Learning from from AI Feedback.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "FLAN v2",
@@ -17,12 +17,20 @@
       "path": "Shepherd.md"
     },
     {
-      "basename": "Orca",
-      "path": "Orca.md"
+      "basename": "Reinforcement Learning from from AI Feedback",
+      "path": "Reinforcement Learning from from AI Feedback.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
+    },
+    {
+      "basename": "GPT-4",
+      "path": "GPT-4.md"
+    },
+    {
+      "basename": "Orca",
+      "path": "Orca.md"
     },
     {
       "basename": "Evol-Instruct",
@@ -121,10 +129,6 @@
       "path": "WizardArena.md"
     },
     {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
       "basename": "MosaicML",
       "path": "MosaicML.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Prompting",
       "path": "Prompting.md"
-    },
-    {
-      "basename": "Bradley-Terry Model",
-      "path": "Bradley-Terry Model.md"
     }
   ],
   "omittedPaths": [],
