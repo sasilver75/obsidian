@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
+      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
+    },
+    {
+      "basename": "UltraChat",
+      "path": "UltraChat.md"
+    },
+    {
+      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
+      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
+    },
+    {
+      "basename": "Medusa",
+      "path": "Medusa.md"
+    },
+    {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
     },
@@ -35,10 +51,6 @@
     {
       "basename": "Evol-Instruct",
       "path": "Evol-Instruct.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
     },
     {
       "basename": "UltraLLaMA",
@@ -187,18 +199,6 @@
     {
       "basename": "FLAN-T5",
       "path": "FLAN-T5.md"
-    },
-    {
-      "basename": "Self-Play Preference Optimization",
-      "path": "Self-Play Preference Optimization.md"
-    },
-    {
-      "basename": "Rejection Sampling Optimization",
-      "path": "Rejection Sampling Optimization.md"
-    },
-    {
-      "basename": "Prompting",
-      "path": "Prompting.md"
     }
   ],
   "omittedPaths": [],
