@@ -1052,6 +1052,8 @@
 - [[UltraInteract]]
 - [[Unnatural Instructions]]
 - [[Webtext]]
+- [[CCAligned]]
+- [[CCMatrix]]
 
 
 # Entities
@@ -1101,6 +1103,7 @@
 - [[Stanford AI Lab]] (SAIL)  ⛵︎
 - [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)  🤖
 - [[SynthLabs]] 🤖
+- [[Tencent AI]] 🇨🇳
 - [[Together AI]]  🤝
 
 

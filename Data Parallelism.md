@@ -7,7 +7,7 @@ aliases:
 
 Cf: [[Model Parallelism]], [[Fully Sharded Data Parallelism]]
 
-A distributed training strategy in which multiple copies of the entire model are run on different devices (eg GPUs), each processing a different subset of the training data.
+A ==distributed training strategy in which multiple copies of the entire model are run== on different devices (eg GPUs), ==each processing a different subset of the training data==.
 
 Input data is split into batches and distributed across devices.
 Each device compute forward and backward passes independently.

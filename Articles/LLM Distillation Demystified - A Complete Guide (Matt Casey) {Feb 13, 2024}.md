@@ -1,5 +1,5 @@
 Link: https://snorkel.ai/llm-distillation-demystified-a-complete-guide/
-This article was bad
+This article was bad 💩
 
 ----
 

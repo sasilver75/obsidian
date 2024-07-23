@@ -38,6 +38,7 @@
 	- Is there an advantage to using multiple models/prompts? AgentInstruct uses a suggestor and editor agent.
 - Use of techniques like [[Constitutional AI|CAI]] critique together with synthetic data generation
 - https://x.com/Teknium1/status/1815105755613376792
+- The [[Better and Faster Large Language Models via Multi-token Prediction]] paper (in the figures) posits the idea that there are "choice points" of difficult to predict tokens whose selection heavily influences the following tokens... Is there some way to use per-token-reasoning ideas like those in [[Quiet STaR]] to target only 
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 

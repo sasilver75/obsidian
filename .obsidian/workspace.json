@@ -8,70 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "182fe133ce7e1647",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc88901996290645",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e60c6e941576c9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Speculative Decoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f35b91f4305830ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cross-Entropy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "9095e0f7ce5bc57a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ec3631b2d748a790",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -132,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -227,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -273,44 +214,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ec3631b2d748a790",
+  "active": "f35b91f4305830ee",
   "lastOpenFiles": [
+    "Model Merging.md",
+    "~ Vocabulary.md",
+    "Cross-Entropy.md",
+    "Self-Speculative Decoding.md",
+    "Quiet STaR.md",
+    "CCAligned.md",
+    "Data Parallelism.md",
+    "Model Parallelism.md",
+    "CCMatrix.md",
+    "_attachments/Pasted image 20240722174105.png",
+    "Papers/General/Scaling Neural Machine Translation to 200 Langauges.md",
+    "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md",
+    "~ Ideas.md",
+    "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+    "Self-Taught Reasoner.md",
+    "LLaMA 3.md",
+    "Rejection Sampling.md",
+    "UltraFeedback.md",
+    "Zephyr.md",
+    "Tulu 2.md",
+    "Distillation.md",
+    "_attachments/Pasted image 20240722161347.png",
+    "_attachments/Pasted image 20240722161051.png",
+    "_attachments/Pasted image 20240722160948.png",
+    "_attachments/Pasted image 20240722160941.png",
+    "Tulu.md",
+    "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
     "_attachments/Pasted image 20240722144256.png",
     "Exposure Bias.md",
-    "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
     "_attachments/Pasted image 20240722143916.png",
     "_attachments/Pasted image 20240722143515.png",
     "_attachments/Pasted image 20240722143445.png",
     "_attachments/Pasted image 20240722143156.png",
-    "_attachments/Pasted image 20240722143146.png",
-    "Self-Speculative Decoding.md",
-    "_attachments/Pasted image 20240722133414.png",
-    "Cross-Entropy.md",
-    "_attachments/Pasted image 20240722132617.png",
-    "~ Ideas.md",
-    "~ Vocabulary.md",
-    "_attachments/Pasted image 20240722130822.png",
     "DataComp-LM.md",
     "FineWeb.md",
-    "_attachments/Pasted image 20240722120851.png",
     "Orca 3.md",
-    "_attachments/Pasted image 20240721234822.png",
-    "UltraChat.md",
-    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Medusa.md",
-    "FLAN v2.md",
-    "Shepherd.md",
-    "Reinforcement Learning from from AI Feedback.md",
-    "UltraFeedback.md",
-    "GPT-4.md",
-    "Orca.md",
-    "FLAN Collection.md",
-    "Evol-Instruct.md",
-    "UltraLLaMA.md",
-    "WizardLM.md",
-    "Papers/Process Reward Models/Let's Verify Step by Step.md",
-    "Process Reward Model.md",
-    "Reward Model.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
