@@ -393,7 +393,7 @@
 - [[Positional Bias]]
 - [[Verbosity Bias]]
 - [[Self-Enhancement Bias]]
-- [[Continual Pretraining]]
+- [[Continued Pretraining]]
 - [[False Refuse]]
 - [[Lottery Ticket Hypothesis]]
 - [[Retrieval-Augmented Generation]] (RAG)
@@ -442,6 +442,7 @@
 - [[Expert Iteration]]
 - [[Reinforcement Learning from Evol-Instruct Feedback]] (RLEIF)
 - [[Magpie]]
+- [[Instruction Pretraining]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -920,6 +921,7 @@
 - [[Weave]] 🗣️🔬
 - [[Weights and Biases]] 📊
 - [[Zeta Alpha]] 📝
+- [[EvalPlus]]
 
 
 # Benchmarks, Evaluations
@@ -927,7 +929,7 @@
 - [[AGIEval]]
 - [[AlpacaEval]]
 - [[BEIR]] (Benchmarking IR)
-- [[Berkeley Function-Calling Leaderboard]]
+- [[Berkeley Function-Calling Leaderboard]] (BFCL)
 - [[BIG-Bench Hard]] (BBH)
 - [[BIG-Bench Lite]] (BBL)
 - [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
@@ -950,6 +952,7 @@
 - [[HotpotQA]]
 - [[HoVer]]
 - [[HumanEval]]
+- [[HumanEval+]]
 - [[IFEval]] (Instruction Following Evaluation)
 - [[ImageNet]] (ILSVRC)
 - [[InFoBench]] (Instruction Following Benchmark)
@@ -1018,6 +1021,7 @@
 - [[LoTTE]] (Long-Tail Topic-stratified Evaluation)
 - [[MassiveText]] (Includes interesting work on quality/repetition filters)
 - [[MBPP]] (Mostly Basic Python Problems)
+- [[MBPP+]]
 - [[MMC4]] (Multimodal C4)
 - [[MNIST]] (Modified National Institute of Standards and Technology)
 - [[MS MARCO Web Search]]
@@ -1170,6 +1174,7 @@
 - [[Samy Bengio]] 🧌
 - [[Sara Hooker]] 🪝
 - [[Sasha Rush]] 👨‍🏫
+- [[Sebastian Raschka]] 🧑‍🏫
 - [[Sebastian Ruder]] 🧑‍🏫
 - [[Shreya Shankar]] 📊
 - [[Stella Biderman]] 😎
