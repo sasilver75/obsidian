@@ -2,7 +2,8 @@ March 14, 2024
 Stanford, Notbad AI Inc (lead [[Eric Zelikman]])
 [Quiet-STaR: Language Models can Teach Themselves to Think Before Speaking]()
 #zotero 
-Takeaway: ...
+Takeaway: Involves generating short "thoughts" after each token in the input text, which are then used to predict the next token -- uses a parallel sampling algorithm to efficiently generate thoughts, and a "mixing head" is used to combine predictions with and without thoughts. Particularly seems to help with predicting difficult tokens that benefit from additional reasoning.
+- Naively, generating thoughts for each token would require an additional forward pass for each token in the thought sequence, but instead we use (for the input tokens) a *parallel sampling* approach in predict (eg) every thoughtTokenOne in parallel between all input tokens, and then every thoughtTokenTwo in parallel, etc. For the output tokens, we have to generate the thought tokens in sequence.
 
 Similar earlier papers include: 
 - [[Self-Taught Reasoner|STaR]] (same author, March 28, 2022)
@@ -85,7 +86,7 @@ We also include a log likelihood loss to ensure that the LM learns to optimize t
 - Intuitively, not all tokens require equal amounts of thought. Consider "the person is run-" ... it's likely that the next token is "ing". Additional thinking is unlikely to improve a well-trained model's prediction.
 - We conjecture that for most chunks of most online text, additional thought has little to no impact.
 - So we design our experiment to investigate whether our approach is useful in predicting that DO require thought!
-- We find thaat on average there is little improvement in the LM's ability to predict arbitrary tokens.
+- We find that on average there is little improvement in the LM's ability to predict arbitrary tokens.
 - There are parallels between [[Chain of Thought]] and Quiet-STaR, but they'er actually orthogonal and complementary techniques. 
 	- CoT lets a model think out loud using its ordinary production distribution, whereas Quiet-STaR instead allows a model to think quietly at every token.
 	- Accuracy (unsure on whaat) over 8 samples increases from 40.6% to 47.7% using Chain of Thought with Quiet-STaR.
@@ -97,9 +98,6 @@ We also include a log likelihood loss to ensure that the LM learns to optimize t
 	- It's often observed that similar techniques yield even better results when applied to stronger models.
 - Quiet-STaR results in substantial overhead, generating many tokens before generating every additional token.
 	- It's a way of leveraging additional compute to enhance next token predict.
-
-
-## Appendix
 
 
 

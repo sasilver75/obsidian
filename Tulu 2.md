@@ -7,6 +7,9 @@ Releases:
 - Tulu 2, a [[LLaMA 2]] finetune on the mixture above.
 - Tulu 2+DPO, Tulu 2 trained using [[Direct Preference Optimization]], making it the largest (70B) model trained with DPO, at the time
 
+----
+
+
 (There were questions after the 7b [[Zephyr]] model was trained whether this fancy new [[Direct Preference Optimization|DPO]] technique would actually scale! This paper showed that it indeed did!)
 
 Trained with roughly the same "Distilled [[Direct Preference Optimization|DPO]]" objective as Zephyr, but meaningfully scaled up.
@@ -16,3 +19,9 @@ Abstract
 
 
 ![[Pasted image 20240418172026.png]]
+
+
+![[Pasted image 20240722160941.png]]
+![[Pasted image 20240722160948.png]]
+![[Pasted image 20240722161051.png]]
+![[Pasted image 20240722161347.png]]

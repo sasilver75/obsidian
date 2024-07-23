@@ -1,12 +1,15 @@
 October 2, 2023 (5 months after [[UltraChat]])
 Tsinghua University et others (Cui et al.) - Only 1 author overlap with [[UltraFeedback]]
 [UltraFeedback: Boosting Language Models with High-quality Feedback](https://arxiv.org/abs/2310.01377)
+HuggingFace Dataset Card: [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback)
 #zotero 
 Takeaway: A large-scale, fine-grained, diverse, synthetic preference dataset with instructions sampled from a pool of open preference datasets, and responses sampled from a variety of closed and open models. Annotations are provided by [[GPT-4]] and include both rationales *and* fine-grained scalar scores across the *aspects* of Instruction Following, Helpfulness, Honesty, Truthfulness. Each instruction is responded to by four LMs sampled from our pool, with each LM prompted along with a single *principle* related to an *aspect* associated with the dataset from which the current prompt was sampled. Authors train a Reward Model (UltraRM), Critique Model (UltraCM), and Language Model (UltraLM). We collect about 64k prompts from diverse sources ([[UltraChat]], [[ShareGPT]], [[Evol-Instruct]], [[TruthfulQA]], [[FalseQA]], [[FLAN v2|FLAN Collection]]) and generate 4 responses for each prompt, resulting in 256k samples (you could interpret this as ~1M binarized comparison pairs).
 
-HuggingFace Dataset Card: [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback)
 
 Note: When training [Notus 7B](https://huggingface.co/argilla/notus-7b-v1) (an "improvement" vs. [[Zephyr]]-Beta), the authors from [[Argilla]] noticed some issues in the original UltraFeedback dataset, leading to high-scores for bad responses... they manually-curated several hundreds of data points, and then binarized the dataset (for [[Direct Preference Optimization|DPO]]) and verified it with the Argilla platform... It led to a new dataset where the chosen response is different in ~50% of cases! This dataset is named [ultrafeedback-binarized-preferences](https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences) and is available on the hub.
+
+> "We still don't really know why Zephyr (UltraFeedback) is such a strong dataset; there are two hypotheses -- UF is easy to use, because there's a diversity of models' generations in it... so you can finetune any basemodels on the data and get strong performance... Or maybe the prompts are really good. It's still the best dataset for finetuning models, almost a year after [[Zephyr]] and the [[Tulu 2]] models, which is shocking to me; we need to have more open preference data!... It seems the UltraFeedback dataset is really well-suited to DPO."
+> - [[Nathan Lambert]], "An update on DPO vs PPO for LLM alignment" (July 22, 2024) [link](https://www.youtube.com/watch?v=rDF7eFPeVto&list=WL&index=3)
 
 ---
 ## Introduction

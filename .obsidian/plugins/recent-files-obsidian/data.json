@@ -1,28 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
-      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Exposure Bias",
-      "path": "Exposure Bias.md"
-    },
-    {
-      "basename": "Self-Speculative Decoding",
-      "path": "Self-Speculative Decoding.md"
+      "basename": "Model Merging",
+      "path": "Model Merging.md"
     },
     {
       "basename": "Cross-Entropy",
       "path": "Cross-Entropy.md"
     },
     {
+      "basename": "Self-Speculative Decoding",
+      "path": "Self-Speculative Decoding.md"
+    },
+    {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
+    },
+    {
+      "basename": "CCAligned",
+      "path": "CCAligned.md"
+    },
+    {
+      "basename": "Data Parallelism",
+      "path": "Data Parallelism.md"
+    },
+    {
+      "basename": "Model Parallelism",
+      "path": "Model Parallelism.md"
+    },
+    {
+      "basename": "CCMatrix",
+      "path": "CCMatrix.md"
+    },
+    {
+      "basename": "Scaling Neural Machine Translation to 200 Langauges",
+      "path": "Papers/General/Scaling Neural Machine Translation to 200 Langauges.md"
+    },
+    {
+      "basename": "Scaling Synthetic Data Creation with 1,000,000,000 Personas",
+      "path": "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md"
+    },
+    {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
+      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
+    },
+    {
+      "basename": "Self-Taught Reasoner",
+      "path": "Self-Taught Reasoner.md"
+    },
+    {
+      "basename": "LLaMA 3",
+      "path": "LLaMA 3.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+    },
+    {
+      "basename": "Tulu 2",
+      "path": "Tulu 2.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Tulu",
+      "path": "Tulu.md"
+    },
+    {
+      "basename": "LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}",
+      "path": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md"
+    },
+    {
+      "basename": "Exposure Bias",
+      "path": "Exposure Bias.md"
     },
     {
       "basename": "DataComp-LM",
@@ -59,10 +127,6 @@
     {
       "basename": "Reinforcement Learning from from AI Feedback",
       "path": "Reinforcement Learning from from AI Feedback.md"
-    },
-    {
-      "basename": "UltraFeedback",
-      "path": "UltraFeedback.md"
     },
     {
       "basename": "GPT-4",
@@ -135,70 +199,6 @@
     {
       "basename": "Expert Iteration",
       "path": "Expert Iteration.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "t",
-      "path": "t.md"
-    },
-    {
-      "basename": "Chinchilla",
-      "path": "Chinchilla.md"
-    },
-    {
-      "basename": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey",
-      "path": "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md"
-    },
-    {
-      "basename": "AlpaGasus",
-      "path": "AlpaGasus.md"
-    },
-    {
-      "basename": "AutoGPT",
-      "path": "AutoGPT.md"
-    },
-    {
-      "basename": "WizardArena",
-      "path": "WizardArena.md"
-    },
-    {
-      "basename": "MosaicML",
-      "path": "MosaicML.md"
-    },
-    {
-      "basename": "~ Todo",
-      "path": "~ Todo.md"
-    },
-    {
-      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
-      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
-    },
-    {
-      "basename": "The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}",
-      "path": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
-      "basename": "Hallucination",
-      "path": "Hallucination.md"
-    },
-    {
-      "basename": "ROC-AUC",
-      "path": "ROC-AUC.md"
-    },
-    {
-      "basename": "ROC Curve",
-      "path": "ROC Curve.md"
-    },
-    {
-      "basename": "BabyAGI",
-      "path": "BabyAGI.md"
     }
   ],
   "omittedPaths": [],

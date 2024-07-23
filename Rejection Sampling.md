@@ -5,6 +5,8 @@ A sampling method for LLMs in which we sample a batch of K completions from a la
 
 Todo: See how it's used both in [[Speculative Decoding]] and in [[Medusa]]; we have some speculative artifact (a draft model, in SD, and multiple Medusa heads, in Medusa) that's generating a speculative forward-looking sequence of tokens that haven't yet been confirmed by the "main" model... We pass this speculative sequence through the main model to compare our per-token probabilities from our speculative process to the per-token probabilities as assessed by our main model. We accept tokens up until we reject one of the candidate tokens, which happens when both (in sequence) the $p_{model}(token) < p_{speculation}(token)$ *and* we then fail to otherwise accept it with $p_{accept} = p_{model}/p_{speculation}$ .
 
+> "The Star of the Show in [[LLaMA 2]]" - Nathan Lambert
+
 ----
 # Rejection Sampling in Probability
 (NOTE: There seems to be a concept of [Rejection Sampling/Accept-Reject Sampling](https://en.wikipedia.org/wiki/Rejection_sampling) in probability, and this seems *not* to be the same thing as rejection sampling )
