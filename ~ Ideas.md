@@ -39,6 +39,9 @@
 - Use of techniques like [[Constitutional AI|CAI]] critique together with synthetic data generation
 - https://x.com/Teknium1/status/1815105755613376792
 - The [[Better and Faster Large Language Models via Multi-token Prediction]] paper (in the figures) posits the idea that there are "choice points" of difficult to predict tokens whose selection heavily influences the following tokens... Is there some way to use per-token-reasoning ideas like those in [[Quiet STaR]] to target only 
+- The [[Magpie]] paper is really interesting. Can we apply it to other models? Are the instructions that are generated interesting in terms of quality/diversity/complexity?
+	- "Furthermore, the paper contains an analysis showing that the breadth or diversity in this dataset is much larger than that of other popular datasets for instruction finetuning, such as Alpaca, Evol Instruct, and UltraChat."
+- The RetroInstruct repo has an interesting list of ... topics? skills? [Here](https://github.com/JD-P/RetroInstruct/blob/main/WeaveEvalRubrics/rubric_themes.txt)
 
 https://x.com/thesephist/status/1734966611814289756?s=20
 

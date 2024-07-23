@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f35b91f4305830ee",
+            "id": "4463a55166baa651",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b530cb81c8352ffb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Ideas.md"
               }
             }
           },
@@ -168,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Ideas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -214,10 +228,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f35b91f4305830ee",
+  "active": "b530cb81c8352ffb",
   "lastOpenFiles": [
-    "Model Merging.md",
+    "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
+    "_attachments/Pasted image 20240723003222.png",
     "~ Vocabulary.md",
+    "~ Ideas.md",
+    "_attachments/Pasted image 20240722234604.png",
+    "_attachments/Pasted image 20240722232225.png",
+    "RouteLLM.md",
+    "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+    "Medusa.md",
+    "Safetensors.md",
+    "OpenRouter.md",
+    "_attachments/Pasted image 20240722204051.png",
+    "_attachments/Pasted image 20240722204048.png",
+    "HELM.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240722201805.png",
+    "Model Merging.md",
     "Cross-Entropy.md",
     "Self-Speculative Decoding.md",
     "Quiet STaR.md",
@@ -228,30 +257,14 @@
     "_attachments/Pasted image 20240722174105.png",
     "Papers/General/Scaling Neural Machine Translation to 200 Langauges.md",
     "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md",
-    "~ Ideas.md",
-    "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
     "Self-Taught Reasoner.md",
     "LLaMA 3.md",
     "Rejection Sampling.md",
     "UltraFeedback.md",
     "Zephyr.md",
-    "Tulu 2.md",
-    "Distillation.md",
     "_attachments/Pasted image 20240722161347.png",
     "_attachments/Pasted image 20240722161051.png",
     "_attachments/Pasted image 20240722160948.png",
-    "_attachments/Pasted image 20240722160941.png",
-    "Tulu.md",
-    "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md",
-    "_attachments/Pasted image 20240722144256.png",
-    "Exposure Bias.md",
-    "_attachments/Pasted image 20240722143916.png",
-    "_attachments/Pasted image 20240722143515.png",
-    "_attachments/Pasted image 20240722143445.png",
-    "_attachments/Pasted image 20240722143156.png",
-    "DataComp-LM.md",
-    "FineWeb.md",
-    "Orca 3.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
