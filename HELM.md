@@ -7,6 +7,9 @@ Paper: [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110
 Authors include [[Percy Liang]]
 #benchmark 
 
+References:
+- Video: [MIT: Rishi Bommasani - Holistic Evaluation of Language Models](https://youtu.be/A0kD00WdlKY?si=C6HR26Lj3-ARSjmI)
+
 A framework developed at Stanford's [[Center for Research on Foundation Models]] (CRFM) in Nov 2022
 
 A multi-metric approach to evaluation of LLMs, assessing ==7 metrics== (accuracy, calibration, robustness, fairness, bias, toxicity, efficiency) ==for each of the 16 core scenarios/use cases== that were identified, to show the trade-offs of models. Tasks include Q&A,, information retrieval, summarization, text classification.

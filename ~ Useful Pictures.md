@@ -1,3 +1,6 @@
+![[Pasted image 20240722201805.png|300]]
+Shitty Res pic of many of the ways that people are using ChatGPT
+
 ![[Pasted image 20240718182450.png|300]]
 July 18, 2024
 

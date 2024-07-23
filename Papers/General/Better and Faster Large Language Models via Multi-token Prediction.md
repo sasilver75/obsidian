@@ -122,7 +122,7 @@ For small model sizes, induction capability either only form when using multi-to
 ![[Pasted image 20240722143916.png|200]]
 
 ![[Pasted image 20240722144256.png|300]]
-An explanation of how this method implicitly assigns weights to training tokens depending on how correalted they are with their successors.
+An explanation of how this method implicitly assigns weights to training tokens depending on how correlated they are with their successors.
 - One transition is hard to predict choice point, while the other transitions are "inconsequential"; these inconsequential transitions following a choice point are hard to predict in advance!
 - ==We believe that the quality of text generations depends on picking the *right decisions* at choice points, and that *n-token* prediction losses promote those.==
 

@@ -441,6 +441,7 @@
 - [[Verifier Voting]]
 - [[Expert Iteration]]
 - [[Reinforcement Learning from Evol-Instruct Feedback]] (RLEIF)
+- [[Magpie]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -907,7 +908,8 @@
 - [[RAGAS]] 📝🔬
 - [[Replicate]] 🚂
 - [[Resiliparse]] 🔎📝
-- [[Safetensors]]
+- [[RouteLLM]] 🗺️
+- [[Safetensors]] 🚨
 - [[Sentence Transformers]] 📊
 - [[spaCy]] 🪙🧨
 - [[Streamlit]] ⚒️⚡

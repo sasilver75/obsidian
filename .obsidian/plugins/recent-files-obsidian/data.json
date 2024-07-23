@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
+      "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "RouteLLM",
+      "path": "RouteLLM.md"
+    },
+    {
+      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
+      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
+    },
+    {
+      "basename": "Medusa",
+      "path": "Medusa.md"
+    },
+    {
+      "basename": "Safetensors",
+      "path": "Safetensors.md"
+    },
+    {
+      "basename": "OpenRouter",
+      "path": "OpenRouter.md"
+    },
+    {
+      "basename": "HELM",
+      "path": "HELM.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Model Merging",
@@ -43,14 +79,6 @@
     {
       "basename": "Scaling Synthetic Data Creation with 1,000,000,000 Personas",
       "path": "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
-      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
     },
     {
       "basename": "Self-Taught Reasoner",
@@ -113,10 +141,6 @@
       "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
     },
     {
-      "basename": "Medusa",
-      "path": "Medusa.md"
-    },
-    {
       "basename": "FLAN v2",
       "path": "FLAN v2.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
       "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
-      "basename": "WizardMath",
-      "path": "WizardMath.md"
-    },
-    {
-      "basename": "Proximal Policy Optimization",
-      "path": "Proximal Policy Optimization.md"
-    },
-    {
-      "basename": "MATH",
-      "path": "MATH.md"
-    },
-    {
-      "basename": "Representation Finetuning",
-      "path": "Representation Finetuning.md"
-    },
-    {
-      "basename": "Claude",
-      "path": "Claude.md"
-    },
-    {
-      "basename": "Expert Iteration",
-      "path": "Expert Iteration.md"
     }
   ],
   "omittedPaths": [],
