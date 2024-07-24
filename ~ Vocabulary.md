@@ -443,6 +443,7 @@
 - [[Reinforcement Learning from Evol-Instruct Feedback]] (RLEIF)
 - [[Magpie]]
 - [[Instruction Pretraining]]
+- [[Persona Hub]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -777,6 +778,7 @@
 - [[LIMA]] (Less is More for Alignment)
 - [[LLaMA 2]]
 - [[LLaMA 3]]
+- [[LLaMA 3.1]]
 - [[LLAMA Guard 2]]
 - [[LLaMA Guard]]
 - [[LLaMA]]
@@ -1104,6 +1106,7 @@
 - [[Reka AI]]  ❓
 - [[Safe SuperIntelligence]] (SSI) ⚗️
 - [[Salesforce Research]]  💼
+- [[Scale AI]] 💽
 - [[Snorkel AI]]  🤿
 - [[Stability AI]] 🖼️
 - [[Stanford AI Lab]] (SAIL)  ⛵︎
