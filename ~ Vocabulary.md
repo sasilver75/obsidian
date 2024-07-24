@@ -930,6 +930,7 @@
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on afaik*
 - [[AGIEval]]
 - [[AlpacaEval]]
+- [[Arena-Hard]]
 - [[BEIR]] (Benchmarking IR)
 - [[Berkeley Function-Calling Leaderboard]] (BFCL)
 - [[BIG-Bench Hard]] (BBH)
@@ -989,6 +990,7 @@
 - [[FalseQA]]
 - [[VQAv2]] (Visual Question Answering)
 - [[WebArena]]
+- [[WildBench]]
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
 - [[Winoground]]

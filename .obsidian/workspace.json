@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Magpie.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,19 @@
             }
           },
           {
-            "id": "64a47f0129e9fc1e",
+            "id": "9a0655facb1b8c6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Persona Hub.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Persona Hub.md",
+                "file": "Magpie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Persona Hub.md",
+                "file": "Magpie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Persona Hub.md"
+                "file": "Magpie.md"
               }
             }
           },
@@ -183,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Persona Hub.md",
+                "file": "Magpie.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -229,23 +228,26 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "64a47f0129e9fc1e",
+  "active": "0302e7eeb4978747",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240723224506.png",
+    "_attachments/Pasted image 20240723224132.png",
+    "_attachments/Pasted image 20240723224114.png",
+    "_attachments/Pasted image 20240723224057.png",
+    "_attachments/Pasted image 20240723224043.png",
+    "_attachments/Pasted image 20240723223243.png",
+    "_attachments/Pasted image 20240723223230.png",
+    "~ Vocabulary.md",
+    "WildBench.md",
+    "Arena-Hard.md",
+    "Magpie.md",
+    "Persona Hub.md",
     "_attachments/Pasted image 20240723220813.png",
     "_attachments/Pasted image 20240723220456.png",
     "_attachments/Pasted image 20240723215027.png",
     "_attachments/Pasted image 20240723214647.png",
-    "_attachments/Pasted image 20240723212135.png",
-    "_attachments/Pasted image 20240723211322.png",
-    "_attachments/Pasted image 20240723211114.png",
-    "_attachments/Pasted image 20240723210003.png",
-    "_attachments/Pasted image 20240723203913.png",
-    "_attachments/Pasted image 20240723193806.png",
-    "_attachments/Pasted image 20240723193442.png",
     "Tencent AI.md",
     "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md",
-    "Persona Hub.md",
-    "~ Vocabulary.md",
     "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
     "LLaMA 3.md",
     "Articles/LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}.md",
@@ -264,9 +266,6 @@
     "Safetensors.md",
     "OpenRouter.md",
     "HELM.md",
-    "~ Useful Pictures.md",
-    "Model Merging.md",
-    "Cross-Entropy.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
