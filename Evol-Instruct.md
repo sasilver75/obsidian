@@ -13,3 +13,10 @@ A ***rewritten*** set of 250k English instruction-response pairs based on the [[
 - Low-quality instruction-response pairs are filtered using heuristics.
 - The process is repeated three times.
 ---
+
+
+
+# Non-Paper Figures
+
+![[Pasted image 20240724111016.png|500]]
+[Here](https://youtu.be/hgoqNstWi40?si=4Tbjg_vuYtNaqnXJ&t=301), Ellamind adopts an Evol-Instruct-like technique they call "Evol-Email" to generate synthetic user email data (re: customer service requests)
