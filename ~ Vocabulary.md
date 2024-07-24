@@ -1118,8 +1118,6 @@
 - [[Tencent AI]] 🇨🇳
 - [[Together AI]]  🤝
 
-
-
 # People
 - [[Aidan Gomez]] 🇨🇦
 - [[Albert Gu]] 🐍

@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Magpie",
-      "path": "Magpie.md"
+      "basename": "LLaMA 3.1",
+      "path": "LLaMA 3.1.md"
+    },
+    {
+      "basename": "vLLM",
+      "path": "vLLM.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Rejection Sampling",
+      "path": "Rejection Sampling.md"
+    },
+    {
+      "basename": "LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}",
+      "path": "Articles/LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "WizardMath",
+      "path": "WizardMath.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Distilabel",
+      "path": "Distilabel.md"
+    },
+    {
+      "basename": "Evol-Instruct",
+      "path": "Evol-Instruct.md"
+    },
+    {
+      "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
+      "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
+    },
+    {
       "basename": "Self-Play Preference Optimization",
       "path": "Self-Play Preference Optimization.md"
+    },
+    {
+      "basename": "Magpie",
+      "path": "Magpie.md"
     },
     {
       "basename": "Identity-Mapping Preference Optimization",
@@ -19,10 +59,6 @@
     {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
-    },
-    {
-      "basename": "LLaMA 3.1",
-      "path": "LLaMA 3.1.md"
     },
     {
       "basename": "WildBench",
@@ -47,10 +83,6 @@
     {
       "basename": "LLaMA 3",
       "path": "LLaMA 3.md"
-    },
-    {
-      "basename": "LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}",
-      "path": "Articles/LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}.md"
     },
     {
       "basename": "Gemma 2",
@@ -153,10 +185,6 @@
       "path": "Self-Taught Reasoner.md"
     },
     {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
       "basename": "UltraFeedback",
       "path": "UltraFeedback.md"
     },
@@ -171,30 +199,6 @@
     {
       "basename": "Tulu",
       "path": "Tulu.md"
-    },
-    {
-      "basename": "LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}",
-      "path": "Articles/LLM Distillation Demystified - A Complete Guide (Matt Casey) {Feb 13, 2024}.md"
-    },
-    {
-      "basename": "Exposure Bias",
-      "path": "Exposure Bias.md"
-    },
-    {
-      "basename": "DataComp-LM",
-      "path": "DataComp-LM.md"
-    },
-    {
-      "basename": "FineWeb",
-      "path": "FineWeb.md"
-    },
-    {
-      "basename": "Orca 3",
-      "path": "Orca 3.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
     }
   ],
   "omittedPaths": [],
