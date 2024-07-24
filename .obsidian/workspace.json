@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4f1aaf7173e2c91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Magpie.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9557fb3317474679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Play Preference Optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,24 +255,29 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0302e7eeb4978747",
+  "active": "e4f1aaf7173e2c91",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240724000134.png",
+    "_attachments/Pasted image 20240724000116.png",
+    "~ Vocabulary.md",
+    "Magpie.md",
+    "Self-Play Preference Optimization.md",
+    "Preference Optimization with Identity Mapping.md",
+    "Identity-Mapping Preference Optimization.md",
+    "~ Ideas.md",
+    "LLaMA 3.1.md",
+    "_attachments/Pasted image 20240723235006.png",
+    "_attachments/Pasted image 20240723234322.png",
+    "_attachments/Pasted image 20240723234210.png",
+    "_attachments/Pasted image 20240723233730.png",
+    "_attachments/Pasted image 20240723232541.png",
     "_attachments/Pasted image 20240723224506.png",
     "_attachments/Pasted image 20240723224132.png",
     "_attachments/Pasted image 20240723224114.png",
     "_attachments/Pasted image 20240723224057.png",
-    "_attachments/Pasted image 20240723224043.png",
-    "_attachments/Pasted image 20240723223243.png",
-    "_attachments/Pasted image 20240723223230.png",
-    "~ Vocabulary.md",
     "WildBench.md",
     "Arena-Hard.md",
-    "Magpie.md",
     "Persona Hub.md",
-    "_attachments/Pasted image 20240723220813.png",
-    "_attachments/Pasted image 20240723220456.png",
-    "_attachments/Pasted image 20240723215027.png",
-    "_attachments/Pasted image 20240723214647.png",
     "Tencent AI.md",
     "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md",
     "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
@@ -254,7 +286,6 @@
     "Gemma 2.md",
     "Instruction Pretraining.md",
     "Continued Pretraining.md",
-    "~ Ideas.md",
     "EvalPlus.md",
     "~ Todo.md",
     "Berkeley Function-Calling Leaderboard.md",
@@ -262,10 +293,6 @@
     "Distillation.md",
     "RouteLLM.md",
     "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
-    "Medusa.md",
-    "Safetensors.md",
-    "OpenRouter.md",
-    "HELM.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",

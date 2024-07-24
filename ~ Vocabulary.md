@@ -433,7 +433,7 @@
 - [[Soft-Capping]]
 - [[Self-Play Preference Optimization]] (SPPO)
 - [[Rejection Sampling Optimization]] (RSO)
-- [[Preference Optimization with Identity Mapping]] (IPO)
+- [[Identity-Mapping Preference Optimization]] (IPO)
 - [[TextGrad]]
 - [[AutoGPT]]
 - [[BabyAGI]]
@@ -1001,7 +1001,9 @@
 - [[C4]] (Colossal, Cleaned Common Crawl)
 - [[CantTalkAboutThis]]
 - [[Capybara Dataset]]
+- [[CCAligned]]
 - [[CCNet]] (Cluster-Coordinated Net)
+- [[CCMatrix]]
 - [[CIFAR-10]] (Canadian Institute for Advanced Research)
 - [[ClueWeb22]]
 - [[Common Crawl]]
@@ -1062,8 +1064,7 @@
 - [[UltraInteract]]
 - [[Unnatural Instructions]]
 - [[Webtext]]
-- [[CCAligned]]
-- [[CCMatrix]]
+- [[WildChat]]
 
 
 # Entities
