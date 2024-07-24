@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "EvalPlus",
-      "path": "EvalPlus.md"
+      "basename": "Persona Hub",
+      "path": "Persona Hub.md"
+    },
+    {
+      "basename": "Tencent AI",
+      "path": "Tencent AI.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
+      "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "LLaMA 3",
+      "path": "LLaMA 3.md"
+    },
+    {
+      "basename": "LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}",
+      "path": "Articles/LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
+    },
+    {
+      "basename": "Instruction Pretraining",
+      "path": "Instruction Pretraining.md"
+    },
+    {
+      "basename": "Continued Pretraining",
+      "path": "Continued Pretraining.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "EvalPlus",
+      "path": "EvalPlus.md"
     },
     {
       "basename": "~ Todo",
@@ -17,32 +53,12 @@
       "path": "Berkeley Function-Calling Leaderboard.md"
     },
     {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
-    },
-    {
       "basename": "MMLU-Redux",
       "path": "MMLU-Redux.md"
     },
     {
       "basename": "Distillation",
       "path": "Distillation.md"
-    },
-    {
-      "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
-      "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Instruction Pretraining",
-      "path": "Instruction Pretraining.md"
     },
     {
       "basename": "RouteLLM",
@@ -109,16 +125,8 @@
       "path": "Papers/General/Scaling Neural Machine Translation to 200 Langauges.md"
     },
     {
-      "basename": "Scaling Synthetic Data Creation with 1,000,000,000 Personas",
-      "path": "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md"
-    },
-    {
       "basename": "Self-Taught Reasoner",
       "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "LLaMA 3",
-      "path": "LLaMA 3.md"
     },
     {
       "basename": "Rejection Sampling",
@@ -187,18 +195,6 @@
     {
       "basename": "Orca",
       "path": "Orca.md"
-    },
-    {
-      "basename": "Evol-Instruct",
-      "path": "Evol-Instruct.md"
-    },
-    {
-      "basename": "UltraLLaMA",
-      "path": "UltraLLaMA.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
     }
   ],
   "omittedPaths": [],

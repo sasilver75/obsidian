@@ -12,7 +12,7 @@ Refrences
 
 
 Details:
-- Family: 8B, 70B, 405B parameters
+- Family: 8B, 70B, 405B parameters (405 not yet released)
 - Trained on: 15T tokens
 	- The [[Chinchilla]] "compute-optimal" point for an 8B model would be to train it for ~200B tokens, meaning that this training is ~75X beyond that point.
 - Context window: 8192 tokens (up from 4096 tokens in [[LLaMA 2]]) -- still quite small, but there may be fine-tunes that extend this shortly.
