@@ -9,6 +9,22 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Self-Play Preference Optimization",
+      "path": "Self-Play Preference Optimization.md"
+    },
+    {
+      "basename": "Identity-Mapping Preference Optimization",
+      "path": "Identity-Mapping Preference Optimization.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "LLaMA 3.1",
+      "path": "LLaMA 3.1.md"
+    },
+    {
       "basename": "WildBench",
       "path": "WildBench.md"
     },
@@ -47,10 +63,6 @@
     {
       "basename": "Continued Pretraining",
       "path": "Continued Pretraining.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
     },
     {
       "basename": "EvalPlus",
@@ -183,22 +195,6 @@
     {
       "basename": "UltraChat",
       "path": "UltraChat.md"
-    },
-    {
-      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "FLAN v2",
-      "path": "FLAN v2.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "Reinforcement Learning from from AI Feedback",
-      "path": "Reinforcement Learning from from AI Feedback.md"
     }
   ],
   "omittedPaths": [],
