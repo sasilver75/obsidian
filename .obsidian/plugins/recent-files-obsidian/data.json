@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Magpie",
+      "path": "Magpie.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "WildBench",
+      "path": "WildBench.md"
+    },
+    {
+      "basename": "Arena-Hard",
+      "path": "Arena-Hard.md"
+    },
+    {
       "basename": "Persona Hub",
       "path": "Persona Hub.md"
     },
     {
       "basename": "Tencent AI",
       "path": "Tencent AI.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
@@ -187,14 +199,6 @@
     {
       "basename": "Reinforcement Learning from from AI Feedback",
       "path": "Reinforcement Learning from from AI Feedback.md"
-    },
-    {
-      "basename": "GPT-4",
-      "path": "GPT-4.md"
-    },
-    {
-      "basename": "Orca",
-      "path": "Orca.md"
     }
   ],
   "omittedPaths": [],

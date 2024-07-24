@@ -2,7 +2,7 @@ June 28, 2024
 [[Tencent AI]] Lab, Seattle (*Chan et al.*)
 [Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/abs/2406.20094)
 #zotero 
-Takeaway: ...
+Takeaway: Authors use a Text-to-Persona ("What persona would like/hate/laugh at/etc. this text) and a Persona-to-Persona (Given a persona and a relationship, generate another persona), plus some MinHash/Embedding deduplication to generate a collection of ~1B diverse "personas". You can then use these personas in any sort of data generation process to increase data diversity; authors do it for math, logical reasoning, tool use, and Quora article generation.
 
 
 ---
