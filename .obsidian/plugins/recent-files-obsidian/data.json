@@ -5,12 +5,20 @@
       "path": "LLaMA 3.1.md"
     },
     {
-      "basename": "Prompt Tuning",
-      "path": "Prompt Tuning.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Model FLOPs Utilization",
+      "path": "Model FLOPs Utilization.md"
+    },
+    {
+      "basename": "Tensor Parallelism",
+      "path": "Tensor Parallelism.md"
+    },
+    {
+      "basename": "Prompt Tuning",
+      "path": "Prompt Tuning.md"
     },
     {
       "basename": "DeepSeek-Coder-V2",
@@ -191,14 +199,6 @@
     {
       "basename": "Medusa",
       "path": "Medusa.md"
-    },
-    {
-      "basename": "Safetensors",
-      "path": "Safetensors.md"
-    },
-    {
-      "basename": "OpenRouter",
-      "path": "OpenRouter.md"
     }
   ],
   "omittedPaths": [],

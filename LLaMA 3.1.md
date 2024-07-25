@@ -96,7 +96,49 @@ Takeaway: ...
 	1. ==Knowledge classification==: We develop a classifier to categorize the types of information contained in our web data to more effectively determine a data mix. We use this classifier to *downsample* data categories that are over-represented on the web (eg arts, entertainment).
 	2. ==Scaling laws for data mix==: To determine the best data mix, we perform scaling law experiments in which we train several small models on a single data mix, and use that to predict the performance of a larger model on that mix. We do this for many different data mixes before choosing one to train as a larger model.
 - In summary, the ==final pretraining datamix contains ~50% general knowledge, 25% math and reasoning tokens, 17% code tokens, and 8% multilingual tokens.==
-	- ((This doesn't seem to be their most granular taxonomy though, if they're downsampling arts and entertainment. And ))
+	- ((This doesn't seem to be their most granular taxonomy though, if they're downsampling arts and entertainment. And what kind of multilingual tokens are they?))
+
+### Annealing Data (More later in Section 3.4.3)
+- We find that ==annealing== on small amounts of high-quality code and math data can boost the performance of pre-trained models on key benchmarks ((for the smaller 3.1 models)).
+	- We perform this annealing with a data mix that upsamples high-quality data in select domains.
+	- We find that annealing improves the performance of a pre-trained LLaMA 3 *8B* model on the [[GSM8K]] and [[MATH]] validation sets by 24% and 6.4$, respectively... however the improvements on the *405B* model were negligible.
+- Using ==Annealing enables us to judge the value of small domain-specific datasets== -- we anneal the learning rate of a 50% trained LLaMA 3 8B model linearly to 0 on 40B tokens. We assign 30% weight to the new dataset and the remaining 70% weight to the default data mix.
+	- ==Using annealing to evaluate new data sources is more efficient than performing scaling law experiments for every small datasets.==
+	- ((The learning rate being gradually reduced during this process is similar to the metallurgical process of annealing where heat is gradually reduced))
+
+### Model Architecture
+- LLaMA 3 uses a standard dense Transformer architecture that doesn't deviate strongly from previous LLaMA models. ==Our performance gains are driven primarily by improvements in data quality, diversity, and scale==.
+- Some small modifications:
+	- Use of [[Grouped Query Attention]] (GQA) with 8 KV heads to improve inference speed and reduce size of KV Cache during decoding.
+	- Vocabulary size of 128K tokens, combining 100K tokens from the [[Tiktoken]] tokenizer with 28K new tokens to better-support non-english languages. 
+		- Improves compression rates on a sample of English data from 3.17 to 3.94 characters per token, ==enabling the model to read more text for the same training compute==.
+		- ((This is important! It's not just about inference-time compute, but also making better use of compute during training time, enabling better scaling!))
+	- We increase [[Rotary Positional Embedding|RoPE]] base frequency hyperparameter to 500,000, enabling us to better support longer contexts.
+
+### Scaling Laws
+- ==We develop our own scaling laws to determine optimal model sizes for our flagship model given our pre-training compute budget.==
+- A major challenge is to forecast the flagship model's performance on downstream benchmark tasks, due to a couple of issues:
+	1. ==Existing scaling laws typically predict only NTP loss ([[Perplexity]]) rather than benchmark performance.==
+	2. Scaling laws can be noisy and unreliable because they're developed based on pre-training runs with small compute budgets.
+1. We implement two-stage methodology to develop scaling laws that accurately predict downstream benchmark performance:
+	1. Establish a correlation between compute-optimal model's negative log-likelihood on downstream tasks and the training FLOPs.
+	2. Correlate negative log-likelihood on downstream tasks with task accuracy, using both the scaling law models and older models trained with higher compute flops...
+- ... We use the resulting compute-optimal models to forecast performance of L3 on benchmark datasets. We find this two-step scaling law prediction to be quite accurate.
+
+### Infrastructure, Scaling, and Efficiency
+- LLaMA 1 and 2 models were trained on Meta's AI Research Supercluster; the training for LLaMA 3 was migrated to Meta's production clusters, which optimizes for production-grade reliability, which is essential as we scale up training.
+- Compute: L3.1 405B was trained on  ==16,000 H100 GPUs==, with training jobs scheduled using MAST, Meta' global-scale training scheduler.
+- Storage: Tectonic, Meta's general purpose distributed filesystem, is used to build a storage fabric fro L3 pretraining, offering 240PB of storage out of 7,500 SSD-equipped servers, supporting a sustainable throughput of 2TB/s and a peak of 7 TB/s.
+	- ==A major challenge is supporting highly bursty checkpoint writes that saturate the storage fabric for short durations.==
+- Network: L3.1 405B used RDMA over Converged Ethernet (RoCE) fabric... smaller models in the L3 family used Nvidia Quantum2 Infiniband fabric. Both RoCE and Infiniband clusters leverage 400Gbps interconnects between GPUs.
+- Parallelism for model scaling:
+	- We use ==4D parallelism==, a combination of four types of parallelism methods, to shard the model. Combines:
+		- [[Tensor Parallelism]] (A type of [[Model Parallelism]]): Splits individual weight tensors into multiple chunks on different devices.
+		- [[Pipeline Parallelism]]: Partitions the model vertically into stages by layers, so different devices can process in parallel different stages of the full model pipeline.
+		- [[Context Parallelism]]: Divides the input context into segments, reducing memory bottleneck for very long sequence length inputs.
+		- [[Data Parallelism]] ([[Fully Sharded Data Parallelism|FSDP]]): Shards the model, optimizer, gradients while implementing data parallelism, which processes data in parallel on multiple GPUs and synchronizes after each training step.
+- ==Authors achieve an overall BF16 Model FLOPs Utilization ([[Model FLOPs Utilization|MFU]]) of 38-43%==.
+	- ((This is a pretty interesting fact. We can't expect to get 100% GPU utilization! Avoid the "bubble!"))
 
 ## Model Architecture
 
@@ -139,6 +181,15 @@ Abstract
 ![[Pasted image 20240724202317.png|600]]
 Comparison of the LLaMA 3.1 suite of models with competing frontier models, including [[Gemma 2]], [[Mistral 7B]], [[Mixtral 8x22B]], [[GPT-3.5]] Turbo, [[Nemotron-4]] 340B, [[GPT-4]], [[GPT-4o]], [[Claude 3.5]] Sonnet. See that the LLaMA 3.1 models are absolutely competitive in the 405B scale, and actually seem to ==*wipe the floor* with alternatives in the 8B and 70B categories==.
 - Note that results are obtained with 5-shot prompting and no CoT on some of the usual  benchmarks.
+
+![[Pasted image 20240725001928.png|500]]
+
+![[Pasted image 20240725003251.png|500]]
+Scaling laws that the Meta folks develop for their models.
+
+![[Pasted image 20240725005849.png]]
+Their 4D Parallelism, combining [[Tensor Parallelism]], [[Context Parallelism]], [[Data Parallelism]] ([[Fully Sharded Data Parallelism|FSDP]]), and [[Pipeline Parallelism]].
+
 
 # Non-Paper Figures
 ![[Pasted image 20240723235006.png]]

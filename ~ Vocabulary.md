@@ -347,6 +347,7 @@
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
 - [[Pipeline Parallelism]]
+- [[Context Parallelism]]
 - [[Fully Sharded Data Parallelism]] (FSDP)
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
@@ -444,6 +445,8 @@
 - [[Magpie]]
 - [[Instruction Pretraining]]
 - [[Persona Hub]]
+- [[FLOPs]]
+- [[Model FLOPs Utilization]] (MFU)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
