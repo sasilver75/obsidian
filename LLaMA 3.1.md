@@ -26,7 +26,7 @@ Takeaway: ...
 # General Overview
 - Development of the 3.1 models is broken into two main stages:
 	1. Pre-training
-		- Self-supervised learning, obtaining large amounts of knowledge about the world. Teh 405B is pretrained on 15.6T tokens using a context window of 8K tokens, which is then followed by a [[Continued Pretraining]] stage that increases the supported context window to 128K tokens.
+		- Self-supervised learning, obtaining large amounts of knowledge about the world. The 405B is pretrained on 15.6T tokens using a context window of 8K tokens, which is then followed by a [[Continued Pretraining]] stage that increases the supported context window to 128K tokens.
 	2. Post-training
 		- We align the model with human feedback in *several rounds,* each of which involves
 			- [[Supervised Fine-Tuning|SFT]]
@@ -139,6 +139,96 @@ Takeaway: ...
 		- [[Data Parallelism]] ([[Fully Sharded Data Parallelism|FSDP]]): Shards the model, optimizer, gradients while implementing data parallelism, which processes data in parallel on multiple GPUs and synchronizes after each training step.
 - ==Authors achieve an overall BF16 Model FLOPs Utilization ([[Model FLOPs Utilization|MFU]]) of 38-43%==.
 	- ((This is a pretty interesting fact. We can't expect to get 100% GPU utilization! Avoid the "bubble!"))
+- ...
+- When training with 16K GPUs, the space of failure scenarios is large, and the synchronous nature of training makes us less fault-tolerant; a single GPU failure may require a restart of the entire job.
+	- Despite this, they achieved ==higher than 90% effective training time==, while supporting automated cluster maintenance (firmware, Kernel upgrades).
+	- ==During a 54-day snapshot period of pretraining, we experienced a total of 466 job interruptions== (47 of which were planned interruptions due to automated maintenance operations.) 78% of unexpected interruptions are attributed to hardware issues like GPU or host component failures, with GPUs accounting for 58.7% of all unexpected issues.
+	- ==Despite the large number of failures, significant manual intervention was required only three times during this period, with the rest of issues handled by automation.==
+- To increase effective training time, we reduce job startup and checkpointing time, and develop tools for fast diagnosis and problem resolution.
+- Impact of environmental factors on training performance: For 405B, ==we noted a diurnal 1-2% throughput variation based on time-of-day, the result of higher mid-day temperatures impacting GPU dynamic voltage and frequency scaling.==
+
+### Pre-Training Recipe
+- Three main stages: ==initial pre-training, long-context pre-training, annealing==.
+Initial Pretraining
+- Use a ==cosine learning rate schedule==, with a peak of 8e-5, with a linear warm up of 8000 steps and a decay to 8e-7 over 1,200,000 training steps.
+- We use ==batch size ramping==, starting with a lower batch size early in training to improve training stability, and increase it subsequently to improve efficiency.
+Long-Context Pretraining
+- In the final stages of pretraining, they train on long sequences to support context windows of up to 128K tokens.
+	- (They don't do it earlier because of quadratic self-attention cost)
+- ==We increase it in increments==, pretraining until the model has successfully adapted to an increased context length (performance on short-context evaluations has recovered completely, and model perfectly solves [[Needle in a Haystack|NIAH]] tasks up to that new length).
+Annealing
+- During pre-training on the final 40M tokens, we linearly anneal LR to 0, maintaining a context of 128K tokens; we also adjust the datamix to upsample data sources of very high quality.
+- ((I wonder, is this basically doping))
+
+### Post-training Data
+- Preference data annotation process is similar to LLaMA 2; deploy multiple models for annotation after each round and sample two responses from two different models for each user prompt.
+	- We ask annotators to rate the strength of their preference by categorizing it into one of four levels (==significantly better, better, slightly better, marginally better==).
+		- For DPO and reward modeling
+	- ==We also incorporate an editing step after preference ranking to encourage annotators to further improve the preferred response -- allowing them to edit the chosen response *or* prompt the model with feedback to refine its own response.==
+		- ((On the LS podcast episode, they said this was basically to get the model out of a "hole" of crappy performance, especially where neither of the generations are good and (eg) DPOing on either wouldn't help much.))
+		- ((I assume they re-prompt with the critique and then SFT/DPO/etc on the response?))
+SFT Data
+- Finetuning data is comprised of:
+	1. Prompts from human annotation collection with [[Rejection Sampling]] responses
+	2. Synthetic data targeting specific capabilities
+	3. Small amounts of human-curated data
+- Rejection sampling
+	- For each prompt collected during human annotation, we sample ==10-30 outputs== from the latest chat model policy and use our reward model to select the best candidate. We use system prompts to steer RS responses to conform with desirable tone/style/formatting for different capabilities.
+	- We adopt [[PagedAttention]] to increase the efficiency of rejection sampling... it enhances memory efficiency through dynamic KV cache allocation, supporting arbitrary output lengths by dynamically scheduling requests based on current capacity. ==Leads to a throughput improvement of over 2x during rejection sampling.==
+		- ((?? I don't really understand this))
+- Overall data composition
+	- SFT and preference data have overlapping domains, but they're curated differently.
+	  In each round of post-training, ==we adjust our overall data mix carefully along the axes of topic, complexity, quality of data samples.==
+Data Processing and Quality Control
+- Given that most of our training data is model-generated, it requires careful cleaning and quality control.
+- Data Cleaning
+	- In early rounds, we observe a number of undesirable patterns common in our data, like ==excessive use of emojis, exclamation points, or overly-apologetic tonal issues==, so we used a series of rule-based data removal/modification strategies.
+- Data Pruning
+	- Apply a collection of model-based techniques to remove low-quality training samples and improve overall model performance.
+		- Topic classification using LLaMA 8b finetuned into a topic classifier (both coarse-grained "math reasoning" and fine-grained "geometry and trigonometry").
+- Quality Scoring
+	- Use the RM and LLaMA-based signals to obtain quality scores for each generation, and retaining 
+			- English data (Accuracy, Instruction Following, Tone/Presentation) and coding data (Bug identification, User intention) are scored with different rubrics
+			  The RM and LLaMA-based scores have ==high disagreement rates==, and we find that combining the signals yielded the best recall on test set.
+- Difficulty scoring
+	- We score data using two measures of difficulty ([[Instag]] and LLaMA-based scoring.)
+		- For Instag, we prompt LLaMA 3 70B to perform intention-tagging of SFT prompts, where more intentions implies more complexity.
+		- For LLaMa-based, we prompt it to measure the difficulty of dialogs on a three-point scale.
+- ==Semantic duplication==
+	- We cluster complete dialogues using [[RoBERTa]] and then within each cluster sort by quality score/difficult score. We then greedily select by iterating through all sorted examples, only keeping the ones that have maximum cosine similarity below some threshold.
+
+### Capabilities
+Code
+- They improve coding capabilities via training a code expert, generating synthetic data for SFT, improving formatting with system prompt steering, and creating quality filters to remove bad samples from our training data.
+- Code expert training
+	- We train a code expert to help us collect high-quality human annotations for code... They branch the main pretraining run and do [[Continued Pretraining]] on a 1T token mix of 85% code data... for the last several thousands steps performing long-context finetuning (LCFT) to extend expert context length to 16K tokens on a high-quality mix of repo-level code data... and follow similar post-training modeling recipes to align the model with SFT/DPO data mixes primarily targeting code. This model is also used for [[Rejection Sampling]] of coding prompts.
+- Synthetic data generation
+	- During development, we identified key issues/problems in code generation... used LLaMA 3 and the code expert to generate 2.7M synthetic SFT dialogues.
+	- Authors introduce ==execution feedback== as the primary source of truth.
+	1. Process:
+		1. Problem description generation: We generate a large collection of programming problem descriptions spanning diverse ranges of topics, sampling random code snippets from various sources and prompting the model to generate programming problems inspired by these examples.
+			- This is the [[OSS-Instruct]] technique from the [[Magicoder]] paper
+		2. Solution generation: We prompt LLaMA 3 to solve each problem, and add general rules of good programming to the prompt, and ask it to explain its thought process. ([[Chain of Thought|CoT]])
+		3. Correctness analysis: After generating a solution, it's crucial to recognize its correctness isn't guaranteed -- we extract the source code from the solution and apply a combination of static and dynamic analysis techniques to approximate correctness (but not guarantee it):
+			1. ==Static==: We run code through a linter and parser to ensure syntactic correctness, catching syntax errors, style issues, typing errors
+			2. ==Dynamic==: We prompt the model to generate unit tests, executed in a containerized environment together with the solution, catching run-time execution errors.
+			- ((Unclear if they do 1 before 2 or if they they do them both in parallel))
+			- ==If solution fails at any step, we prompt the model to revise==
+		- The finetuning process is conducted over multiple rounds, with each round building on the previous one. After each round, the model is improved, and able to generate higher quality synthetic data for the next round.
+	2. Programming language translation
+		- There's a performance gap between major programming languages (Python, C++) and less common ones (PHP, Typescript).
+		- ==We translate data from common programming languages to less common languages, using LLaMA 3 and ensuring quality by syntax parsing, compilation, and execution.==
+	3. To improve certain coding capabilities (documentation, explanations) where execution feedback is less informative, we employ a multistep approach:
+		- Generate 1.2M synthetic dialogs related to code explanation/generation/documentation/debugging.
+		1. Generate: Prompt LLaMA 3 to generate data that represents our target capability.
+		2. [[Back-Translation]]: Prompt the model to backtranslate the synthetically generated data to the original code. (eg generate code from documentation, or generate code from documentation/explanation)
+		3. Filter: Use the original code as a reference, and prompt L3 to determine the quality of the output (how faithful is the backtranslation)? We use the best in SFT.
+- System prompt steering during rejection sampling: We use code-specific system prompts to improve code readability, documentation, thoroughness, and specificity.
+- Filtering training data with execution and model-as-judge signals: We occasionally encounter quality issues in rejection-sampled data... it's hard to detect these, because the rejection-sampled responses contain a mix of natural language and code, and the code isn't always expected to be executable on its own. So we use a [[LLM-as-a-Judge]] approach, where L3 assign a binary score (0/1) based on code correctness and code style, keeping samples that achieve a perfect score of 2.
+	- They realized this led to a regression in benchmark perf, since it disproportionately removed difficult prompts, so they revised responses until they met the Judge's quality.
+
+Multilinguality
+- 
 
 ## Model Architecture
 
@@ -189,6 +279,20 @@ Scaling laws that the Meta folks develop for their models.
 
 ![[Pasted image 20240725005849.png]]
 Their 4D Parallelism, combining [[Tensor Parallelism]], [[Context Parallelism]], [[Data Parallelism]] ([[Fully Sharded Data Parallelism|FSDP]]), and [[Pipeline Parallelism]].
+
+![[Pasted image 20240725105458.png|500]]
+Pipeline parallelism
+
+![[Pasted image 20240725123709.png|500]]
+Despite the mixture of the pre-training data having like... 50% or so split between coding/reasoning/multilingual, it seems here that the majority (82%) of human preference data is just in the "general english" category (which might subsume).
+- Interesting that the average number of turns per dialog is 4.1 (where a turn is a user-agent loop)
+
+![[Pasted image 20240725133627.png]]
+Ah, but the SFT mixture is pretty similar to the pretraining data mixture. Note how long the average turn length is, 6.3!
+
+![[Pasted image 20240725151536.png|500]]
+![[Pasted image 20240725153021.png]]
+
 
 
 # Non-Paper Figures

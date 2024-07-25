@@ -5,8 +5,44 @@
       "path": "LLaMA 3.1.md"
     },
     {
+      "basename": "Magicoder",
+      "path": "Magicoder.md"
+    },
+    {
+      "basename": "~",
+      "path": "~.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Rule-Based Rewards",
+      "path": "Rule-Based Rewards.md"
+    },
+    {
+      "basename": "Instag",
+      "path": "Instag.md"
+    },
+    {
+      "basename": "UMAP",
+      "path": "UMAP.md"
+    },
+    {
+      "basename": "t-SNE",
+      "path": "t-SNE.md"
+    },
+    {
+      "basename": "Persona Hub",
+      "path": "Persona Hub.md"
+    },
+    {
+      "basename": "Needle in a Haystack",
+      "path": "Needle in a Haystack.md"
+    },
+    {
+      "basename": "Pipeline Parallelism",
+      "path": "Pipeline Parallelism.md"
     },
     {
       "basename": "Model FLOPs Utilization",
@@ -145,10 +181,6 @@
       "path": "Arena-Hard.md"
     },
     {
-      "basename": "Persona Hub",
-      "path": "Persona Hub.md"
-    },
-    {
       "basename": "Tencent AI",
       "path": "Tencent AI.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Instruction Pretraining",
       "path": "Instruction Pretraining.md"
-    },
-    {
-      "basename": "EvalPlus",
-      "path": "EvalPlus.md"
-    },
-    {
-      "basename": "~ Todo",
-      "path": "~ Todo.md"
-    },
-    {
-      "basename": "Berkeley Function-Calling Leaderboard",
-      "path": "Berkeley Function-Calling Leaderboard.md"
-    },
-    {
-      "basename": "MMLU-Redux",
-      "path": "MMLU-Redux.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "RouteLLM",
-      "path": "RouteLLM.md"
-    },
-    {
-      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
-      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
-    },
-    {
-      "basename": "Medusa",
-      "path": "Medusa.md"
     }
   ],
   "omittedPaths": [],
