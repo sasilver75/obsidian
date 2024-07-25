@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a0655facb1b8c6d",
+            "id": "cbc9ac2fe7612a2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,103 @@
             }
           },
           {
-            "id": "cbc9ac2fe7612a2a",
+            "id": "ea17735e65d37206",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evol-Instruct.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1244a52e436d983a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepSeek-Coder-V2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f3fcba56c30ad48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cdcf715d322cabf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3d1d842029a8fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trafilatura.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6defd38d010adea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datatrove.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d74c46950de61d5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Crawl.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d72963bbc03a693b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Continued Pretraining.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -228,44 +319,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9a0655facb1b8c6d",
+  "active": "cbc9ac2fe7612a2a",
   "lastOpenFiles": [
+    "Prompt Tuning.md",
+    "LLaMA 3.1.md",
+    "~ Vocabulary.md",
+    "DeepSeek-Coder-V2.md",
+    "Magpie.md",
+    "Trafilatura.md",
+    "Datatrove.md",
+    "fastText.md",
+    "Common Crawl.md",
+    "Continued Pretraining.md",
+    "_attachments/Pasted image 20240724202317.png",
+    "_attachments/Pasted image 20240724202309.png",
+    "Claude 3.5.md",
+    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
+    "AlpaGasus.md",
+    "Gemeni 1.5.md",
+    "Claude 3.md",
+    "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md",
+    "Decoder-Only Architecture.md",
+    "Anthropic.md",
+    "GPT-4o.md",
+    "Evol-Instruct.md",
     "vLLM.md",
     "Direct Preference Optimization.md",
     "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
     "Rejection Sampling.md",
     "Articles/LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}.md",
-    "WizardMath.md",
-    "~ Vocabulary.md",
-    "Distilabel.md",
-    "Evol-Instruct.md",
     "_attachments/Pasted image 20240724111016.png",
-    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
-    "Self-Play Preference Optimization.md",
-    "Magpie.md",
     "_attachments/Pasted image 20240724000134.png",
     "_attachments/Pasted image 20240724000116.png",
-    "Preference Optimization with Identity Mapping.md",
-    "Identity-Mapping Preference Optimization.md",
-    "~ Ideas.md",
-    "LLaMA 3.1.md",
     "_attachments/Pasted image 20240723235006.png",
     "_attachments/Pasted image 20240723234322.png",
     "_attachments/Pasted image 20240723234210.png",
     "_attachments/Pasted image 20240723233730.png",
     "_attachments/Pasted image 20240723232541.png",
-    "_attachments/Pasted image 20240723224506.png",
-    "_attachments/Pasted image 20240723224132.png",
-    "WildBench.md",
-    "Arena-Hard.md",
-    "Persona Hub.md",
-    "Tencent AI.md",
-    "Papers/Synthetic Data/Scaling Synthetic Data Creation with 1,000,000,000 Personas.md",
-    "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
-    "LLaMA 3.md",
-    "Gemma 2.md",
-    "Instruction Pretraining.md",
-    "Continued Pretraining.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",

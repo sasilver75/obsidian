@@ -110,7 +110,7 @@ In the past year, a few major approaches have gained traction. While their techn
 	- At training time, these AI critics can provide direct on-policy feedback, aiming to automatically distill the good AI critic priors into the finetuned models. There's a clear parallel here to lessons in Actor-Critic methods in RL, where critics are easier to learn but can provide great regularization and bootstrapping benefits to the actor policy.
 
 Here's a few examples of AI feedback that amplify existing AI priors onto other AI models:
-- [[Claude]] introduced [[Constitutional AI]], which starts with a human-produced prompt of rules and principles that is used during AI feedback generation and preference ranking of outputs, which are then used during downstream reinforcement learning to reduce harmfulness and increase helpfulness of instruction-following LLMs.
+- Claude introduced [[Constitutional AI]], which starts with a human-produced prompt of rules and principles that is used during AI feedback generation and preference ranking of outputs, which are then used during downstream reinforcement learning to reduce harmfulness and increase helpfulness of instruction-following LLMs.
 - [[ALMoST]] uses LLMs of different quality and sizes to generate contrasting responses which can be used to train a ranking-based reward model.
 - LLM Self-Reflection has been a rapidly accelerating area. LLMs understand their own uncertainty -- [[Reflexion]] (and followups) use AI feedback during inference time, and [[LLMs Self-Improving]] incorporates AI feedback during training.
 - [[Tree of Thoughts]] uses structured search at inference time to utilize LLMs to propose and search for the most promising reasoning chains.

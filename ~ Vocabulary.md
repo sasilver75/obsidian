@@ -710,7 +710,7 @@
 - [[Chameleon]]
 - [[ChatGPT]]
 - [[Chinchilla]]
-- [[Claude]]
+- [[Claude 3]]
 - [[CLIP]] (Contrastive Language-Image Pretraining)
 - [[Codex]]
 - [[CogVLM]]
@@ -726,12 +726,14 @@
 - [[DBRX]] (DBRex)
 - [[DeBERTa]] (Decoding-enhanced BERT with Disentangled Attention)
 - [[DeepSeek-Coder]]
+- [[DeepSeek-Coder-V2]]
 - [[DeepSeekMath]]
 - [[DenseNet]]
 - [[DINOv2]] (Distillation with No Labels v2)
 - [[DINO]] (Distillation with No Labels)
 - [[DistilBART]]
 - [[DistilBERT]]
+- [[DistilRoBERTa]]
 - [[Dolly]]
 - [[ELECTRA]] (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
 - [[Falcon 2]]
@@ -779,8 +781,9 @@
 - [[LLaMA 2]]
 - [[LLaMA 3]]
 - [[LLaMA 3.1]]
-- [[LLAMA Guard 2]]
 - [[LLaMA Guard]]
+- [[LLAMA Guard 2]]
+- [[LLaMA Guard 3]]
 - [[LLaMA]]
 - [[LLaVA]] (Large Language and Vision Assistant)
 - [[Longform]]
@@ -869,15 +872,15 @@
 
 # Tools
 *Developer tools and libraries ranging from data cleaning to quantization to model training and serving*
--  [[Eleuther LM Evaluation Harness]]
+-  [[Eleuther LM Evaluation Harness]] 🧪
 - [[Airoboros]] 🤖💽
 - [[AlpacaFarm]]
-- [[Argilla]]
+- [[Argilla]] 🏷️
 - [[Automatic1111]] 👨‍🔬🖼️
 - [[Axolotl]] 👨‍🔬⚗️
 - [[bitsandbytes]] 🐜
-- [[ChatML]]
-- [[CleanLab]]
+- [[ChatML]] ✍️
+- [[CleanLab]] 
 - [[ComfyUI]] 👨‍🔬🖼️
 - [[Datatrove]] 🔎📝
 - [[Distilabel]] 🤖💽

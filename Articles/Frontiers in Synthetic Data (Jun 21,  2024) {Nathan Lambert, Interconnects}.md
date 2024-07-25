@@ -32,7 +32,7 @@ It's largely unknown which models are best for which tasks, but surely the answe
 
 
 ## Are Gemeni Flash and Claude Haiku Distilled?
-- [[Gemeni Flash]] and [[Claude]] Haiku are becoming the most coveted model endpoints for many developers building applications with language models, due to their speed and low price.
+- [[Gemeni Flash]] and Claude Haiku are becoming the most coveted model endpoints for many developers building applications with language models, due to their speed and low price.
 	- Signs point to this being based on some form of [[Distillation]], rather than these models being trained from scratch.
 		- EDIT: Gemeni Flash is confirmed as distilled; the updated report says that Flash is a *dense model* that's been *distilled* from Pro, which is an [[Mixture of Experts|MoE]].
 	- In contrast, models of bigger size, like Claude 3.5 Sonnet or Gemeni Pro/Ultra seem to be models trained from scratch.
