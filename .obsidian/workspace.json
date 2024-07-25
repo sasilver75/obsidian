@@ -21,6 +21,58 @@
             }
           },
           {
+            "id": "5e90d871007028d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0477ec0bc32811c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model FLOPs Utilization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ade4761d7a6cb898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tensor Parallelism.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbf0031e5e216b9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ea17735e65d37206",
             "type": "leaf",
             "state": {
@@ -321,9 +373,14 @@
   },
   "active": "cbc9ac2fe7612a2a",
   "lastOpenFiles": [
-    "Prompt Tuning.md",
-    "LLaMA 3.1.md",
+    "_attachments/Pasted image 20240725005849.png",
     "~ Vocabulary.md",
+    "Model FLOPs Utilization.md",
+    "LLaMA 3.1.md",
+    "Tensor Parallelism.md",
+    "_attachments/Pasted image 20240725003251.png",
+    "_attachments/Pasted image 20240725001928.png",
+    "Prompt Tuning.md",
     "DeepSeek-Coder-V2.md",
     "Magpie.md",
     "Trafilatura.md",
@@ -346,17 +403,12 @@
     "Evol-Instruct.md",
     "vLLM.md",
     "Direct Preference Optimization.md",
-    "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md",
-    "Rejection Sampling.md",
-    "Articles/LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}.md",
     "_attachments/Pasted image 20240724111016.png",
     "_attachments/Pasted image 20240724000134.png",
     "_attachments/Pasted image 20240724000116.png",
     "_attachments/Pasted image 20240723235006.png",
     "_attachments/Pasted image 20240723234322.png",
     "_attachments/Pasted image 20240723234210.png",
-    "_attachments/Pasted image 20240723233730.png",
-    "_attachments/Pasted image 20240723232541.png",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
