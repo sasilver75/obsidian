@@ -7,7 +7,7 @@ See also:
 
 ![[Pasted image 20240214175911.png]]
 
-A majority of prior research on open LLMs focused heavily on creating better pre-trained base models -- but these models necessarily haven't undergone any fine-tuning or alignment, so they'll ultimately fail to match the quality of top closed-source LLM (eg [[ChatGPT]], [[Claude]]) do to their lack of alignment.
+A majority of prior research on open LLMs focused heavily on creating better pre-trained base models -- but these models necessarily haven't undergone any fine-tuning or alignment, so they'll ultimately fail to match the quality of top closed-source LLM (eg [[ChatGPT]], Claude) do to their lack of alignment.
 - Paid models are aligned extensively using [[Supervised Fine-Tuning]], [[Reinforcement Learning from Human Feedback]] ((and now, [[Direct Preference Optimization|DPO]])), which greatly enhances their usability.
 
 This overview will take a look at recent research that aims to improve the quality of open-source LLMs via more extensive fine-tuning and alignment.

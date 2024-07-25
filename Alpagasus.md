@@ -19,7 +19,7 @@ There's been a lot of work using strong language models as teachers to create in
 	- Authors prompt a strong LLM to provide a score for each triplet of (instruction, input, response) according to some user-specific property ("dimension"). authors use "Accuracy" as their dimension, and only keep the ~9k of the 52k that have scores of >= 4.5/5. They then use this dataset to fine-tune a LLaMA into AlpaGasus.
 	- Their prompt is interesting (see figures) because... it's not very interesting. It basically says: "Please rate this (instruction, input, response) with respect to dimension X. THEN provide an explanation for why you gave that rating." The ordering of those two actions seems suboptimal and not very CoT-y to me.
 - Evaluations
-	- They benchmark AlpaGasus against [[Alpaca]], [[text-davinci-003]], [[ChatGPT]], and [[Claude]].
+	- They benchmark AlpaGasus against [[Alpaca]], [[text-davinci-003]], [[ChatGPT]], and Claude.
 	- Excited by recent LLM-as-a-Judge papers, they include both model's responses in the input to the judge (eg GPT-4), followed by an instruction aiming to rate the responses between 1 and 10. 
 	- Authors limit LM responses to 1024 tokens, and to mitigate [[Positional Bias]], they try both orderings and define the final "Win-Tie-Lose" for AlpaGasus to be:
 		- Win: WinWin or WinTie

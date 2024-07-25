@@ -3,7 +3,7 @@ Examples:
 - [[LLaMA]] family
 - [[BLOOM]]
 - [[PaLM]]
-- [[Claude]] family
+- Claude family
 - [[Alpaca]]
 - [[Vicuna]]
 - [[DBRX]]

@@ -5,6 +5,86 @@
       "path": "LLaMA 3.1.md"
     },
     {
+      "basename": "Prompt Tuning",
+      "path": "Prompt Tuning.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "DeepSeek-Coder-V2",
+      "path": "DeepSeek-Coder-V2.md"
+    },
+    {
+      "basename": "Magpie",
+      "path": "Magpie.md"
+    },
+    {
+      "basename": "Trafilatura",
+      "path": "Trafilatura.md"
+    },
+    {
+      "basename": "Datatrove",
+      "path": "Datatrove.md"
+    },
+    {
+      "basename": "fastText",
+      "path": "fastText.md"
+    },
+    {
+      "basename": "Common Crawl",
+      "path": "Common Crawl.md"
+    },
+    {
+      "basename": "Continued Pretraining",
+      "path": "Continued Pretraining.md"
+    },
+    {
+      "basename": "Claude 3.5",
+      "path": "Claude 3.5.md"
+    },
+    {
+      "basename": "The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
+      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
+    },
+    {
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
+    },
+    {
+      "basename": "Gemeni 1.5",
+      "path": "Gemeni 1.5.md"
+    },
+    {
+      "basename": "Claude 3",
+      "path": "Claude 3.md"
+    },
+    {
+      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Decoder-Only Architecture",
+      "path": "Decoder-Only Architecture.md"
+    },
+    {
+      "basename": "Anthropic",
+      "path": "Anthropic.md"
+    },
+    {
+      "basename": "GPT-4o",
+      "path": "GPT-4o.md"
+    },
+    {
+      "basename": "Evol-Instruct",
+      "path": "Evol-Instruct.md"
+    },
+    {
       "basename": "vLLM",
       "path": "vLLM.md"
     },
@@ -29,16 +109,8 @@
       "path": "WizardMath.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Distilabel",
       "path": "Distilabel.md"
-    },
-    {
-      "basename": "Evol-Instruct",
-      "path": "Evol-Instruct.md"
     },
     {
       "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
@@ -47,10 +119,6 @@
     {
       "basename": "Self-Play Preference Optimization",
       "path": "Self-Play Preference Optimization.md"
-    },
-    {
-      "basename": "Magpie",
-      "path": "Magpie.md"
     },
     {
       "basename": "Identity-Mapping Preference Optimization",
@@ -93,10 +161,6 @@
       "path": "Instruction Pretraining.md"
     },
     {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
-    },
-    {
       "basename": "EvalPlus",
       "path": "EvalPlus.md"
     },
@@ -135,70 +199,6 @@
     {
       "basename": "OpenRouter",
       "path": "OpenRouter.md"
-    },
-    {
-      "basename": "HELM",
-      "path": "HELM.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Model Merging",
-      "path": "Model Merging.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
-    },
-    {
-      "basename": "Self-Speculative Decoding",
-      "path": "Self-Speculative Decoding.md"
-    },
-    {
-      "basename": "Quiet STaR",
-      "path": "Quiet STaR.md"
-    },
-    {
-      "basename": "CCAligned",
-      "path": "CCAligned.md"
-    },
-    {
-      "basename": "Data Parallelism",
-      "path": "Data Parallelism.md"
-    },
-    {
-      "basename": "Model Parallelism",
-      "path": "Model Parallelism.md"
-    },
-    {
-      "basename": "CCMatrix",
-      "path": "CCMatrix.md"
-    },
-    {
-      "basename": "Scaling Neural Machine Translation to 200 Langauges",
-      "path": "Papers/General/Scaling Neural Machine Translation to 200 Langauges.md"
-    },
-    {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "UltraFeedback",
-      "path": "UltraFeedback.md"
-    },
-    {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
-      "basename": "Tulu 2",
-      "path": "Tulu 2.md"
-    },
-    {
-      "basename": "Tulu",
-      "path": "Tulu.md"
     }
   ],
   "omittedPaths": [],
