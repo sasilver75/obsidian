@@ -1,0 +1,8 @@
+---
+aliases:
+  - RBR
+---
+OpenAI 
+July 24, 2024
+
+https://discord.com/channels/822583790773862470/1075282825051385876/1266132356431876097
