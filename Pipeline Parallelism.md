@@ -1,4 +1,4 @@
-
+Partitions the model vertically into stages by layers, so that different devices can process in parallel different stages of the full model pipeline. 
 
 ![[Pasted image 20240415165213.png]]
 ![[Pasted image 20240415165243.png]]

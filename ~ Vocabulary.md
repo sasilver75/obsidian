@@ -208,6 +208,7 @@
 - [[Masked Autoencoder]]
 - [[Variational Autoencoder]] (VAE)
 - [[Beta-VAE]]
+- [[Sparse Autoencoder]] (SAE)
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
 - [[Self-Attention]]
@@ -939,6 +940,7 @@
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on afaik*
 - [[AGIEval]]
 - [[AlpacaEval]]
+- [[AlpacaEval 2.0]]
 - [[Abstraction and Reasoning Corpus]] (ARC)
 - [[ARC Challenge]]
 - [[Arena-Hard]]
