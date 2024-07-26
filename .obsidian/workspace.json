@@ -21,6 +21,110 @@
             }
           },
           {
+            "id": "7473a8d9f0cd5e91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CommonSenseQA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adca41564e4aafb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQuAD.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "641b866f0dbde32e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c566371c76e7848",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQuAD v2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e99926c9dbe98e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hallucination.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4863f28c196a76b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Process Reward Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92312f1920c8dfc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61709aacdd1d5af1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Identification.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3b740612ff801273",
             "type": "leaf",
             "state": {
@@ -450,42 +554,42 @@
   },
   "active": "cbc9ac2fe7612a2a",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240725153021.png",
-    "_attachments/Pasted image 20240725151536.png",
-    "Magicoder.md",
-    "LLaMA 3.1.md",
-    "~.md",
+    "_attachments/Pasted image 20240725213826.png",
+    "_attachments/Pasted image 20240725213725.png",
+    "_attachments/Pasted image 20240725213319.png",
+    "_attachments/Pasted image 20240725213306.png",
+    "_attachments/Pasted image 20240725213258.png",
+    "_attachments/Pasted image 20240725213058.png",
+    "_attachments/Pasted image 20240725213037.png",
+    "_attachments/Pasted image 20240725213027.png",
+    "_attachments/Pasted image 20240725212804.png",
+    "_attachments/Pasted image 20240725212646.png",
+    "_attachments/Pasted image 20240725212352.png",
     "~ Vocabulary.md",
+    "LLaMA 3.1.md",
+    "Continued Pretraining.md",
+    "AgentInstruct.md",
+    "[BIG-Bench Hard.md",
+    "CommonSenseQA.md",
+    "SQuAD.md",
+    "SQuAD v2.md",
+    "Hallucination.md",
+    "ReAct.md",
+    "Process Reward Model.md",
+    "Language Identification.md",
+    "Magicoder.md",
+    "~.md",
     "Rule-Based Rewards.md",
     "Instag.md",
-    "_attachments/Pasted image 20240725133627.png",
-    "_attachments/Pasted image 20240725133622.png",
-    "_attachments/Pasted image 20240725123709.png",
     "UMAP.md",
     "t-SNE.md",
     "Persona Hub.md",
     "Needle in a Haystack.md",
-    "_attachments/Pasted image 20240725105458.png",
     "Pipeline Parallelism.md",
-    "_attachments/Pasted image 20240725105447.png",
-    "_attachments/Pasted image 20240725005849.png",
     "Model FLOPs Utilization.md",
     "Tensor Parallelism.md",
-    "_attachments/Pasted image 20240725003251.png",
-    "_attachments/Pasted image 20240725001928.png",
     "Prompt Tuning.md",
     "DeepSeek-Coder-V2.md",
-    "Magpie.md",
-    "Trafilatura.md",
-    "Datatrove.md",
-    "fastText.md",
-    "Common Crawl.md",
-    "Continued Pretraining.md",
-    "_attachments/Pasted image 20240724202317.png",
-    "Claude 3.5.md",
-    "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
-    "AlpaGasus.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",

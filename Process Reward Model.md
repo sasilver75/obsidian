@@ -2,6 +2,7 @@
 aliases:
   - PRM
   - Process-Supervised Reward Model
+  - Stepwise Reward Model
 ---
 Whereas [[Reward Model|Outcome Reward Model]]s (ORMs) only provide feedback on the final generation of a language model, whereas Process Reward Models (PRMs) provide more precise feedback along every reasoning step in a generation (eg one using [[Chain of Thought|CoT]]), which is more interpretable for humans and rewards human-endorsed CoTs (whereas ORMs can sometimes result in correct answers, even with incorrect reasoning paths, which isn't aligned behavior).
 

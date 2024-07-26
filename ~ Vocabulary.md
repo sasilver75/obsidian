@@ -543,6 +543,7 @@
 	- [[Coreference Resolution]]
 	- [[Semantic Text Similarity]] (STS)
 	- [[Natural Language Inference]] (NLI, Textual Entailment)
+	- [[Language Identification]] (LID)
 - [[Context-Free Grammar]]
 - [[Dependency Grammar]]
 - [[Prosody]]
@@ -938,6 +939,8 @@
 *These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on afaik*
 - [[AGIEval]]
 - [[AlpacaEval]]
+- [[Abstraction and Reasoning Corpus]] (ARC)
+- [[ARC Challenge]]
 - [[Arena-Hard]]
 - [[BEIR]] (Benchmarking IR)
 - [[Berkeley Function-Calling Leaderboard]] (BFCL)
@@ -990,6 +993,7 @@
 - [[SciBench]]
 - [[SEAL Leaderboard]]
 - [[SQuAD]] (Stanford Question Answering Dataset)
+- [[SQuAD v2]]
 - [[SuperGLUE]]
 - [[SWAG]] (Situations with Adversarial Generations)
 - [[SWE-bench]]
@@ -1016,7 +1020,7 @@
 - [[ClueWeb22]]
 - [[Common Crawl]]
 - [[Common Objects in Context]]
-- [[CommonsenseQA]]
+- [[CommonSenseQA]]
 - [[Cosmopedia]] (Large 25B token synthetic dataset from HF)
 - [[DataComp-LM]]
 - [[DataComp]]
