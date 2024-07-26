@@ -361,6 +361,40 @@ Also evaluate models on a wide variety of proficiency exams originally designed 
 - Blah blah blah
 - False refusal rates, violation rates, CBRN testing, read teaming
 
+Authors develop and release [[LLaMA Guard 3]] classifier, which is a L38B model finetuned for safety classification
+- Used to detect whether input prompts and/or output responses violate safety policies on specific categories of harm.  It's designed to support LLaMA's growing capabilities, and can be used for English and multimodal text.
+- ==Train on the 13 categories listed in the "AI Safety Taxonomy" (Vidgen et al, 2024)==
+	1. Child Sexual Exploitation
+	2. Defamation
+	3. Elections
+	4. Hate
+	5. Indiscriminate Weapons
+	6. Intellectual Property
+	7. Non-Violent Crimes
+	8. Privacy
+	9. Sex-related Criems
+	10. sExual Content
+	11. Specialized Advice
+	12. Suicide and Self-Harm
+	13. Violent Crimes
+- Authors also train to support tool-calls use cases and prevent code interpreter abuses.
+- Training data starts with the English data from [[LLaMA Guard]] and then expands it to incorporate new capabilities (multilinguality, tool use).
+	- We do extensive cleaning of collected samples using human and LLM annotation (using L3).
+
+Authors also introduce and open-source two prompt-based filtering mechanisms:
+- [[Prompt Guard]]: Model-based filter designed to detect prompt attacks, which are input strings designed to subvert intended behavior of an LLM.
+	- Detects direct jailbreaks and indirect prompt injections.
+	- Model finetuned from mDeBERTa-v3-base, a small (86M) model suitable for filtering inputs into an LLM.
+- [[Code Shield]]: Provides inference-time filtering, focusing on detecting the generation of insecure code before it might enter a downstream use case like a production system.
+	- Does so by leveraging a static analysis library (Insecure Code Detector, ICD) to identify insecure code.
+==These guardrails are generally useful for developers, who can deploy multi-layered protections in various applications.==
+
+# Inference
+Authors investigate two main techniques to main LLaMA 3 405B model efficient:
+1. Pipeline parallelism
+2. FP8 quantization
+	- Turns out that with some care and kernel engineering they can do FP8 quantization with negligible impact on the quality of model responses, according to our reward models.
+
 
 
 
@@ -444,6 +478,16 @@ Evaluation of L3 post-training on a variety of human proficiency exams
 It's sort of interesting when you see something like this. Like... when the L3 team saw GPT4o outcompeting L3405B on file upload-related tasks, did they just say "ok"?
 ![[Pasted image 20240725213725.png]]
 ![[Pasted image 20240725213826.png]]
+
+![[Pasted image 20240725215152.png]]
+Impact of [[LLaMA Guard 3]] on violate rate and false refusal rate
+
+![[Pasted image 20240725215753.png]]
+![[Pasted image 20240725215800.png]]
+See that [[LLaMA Guard 3]] can be quantized down to [[INT8]] without losing much performance.
+
+![[Pasted image 20240725220555.png|500]]
+On quantization
 
 
 # Non-Paper Figures

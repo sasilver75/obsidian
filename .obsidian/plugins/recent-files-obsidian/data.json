@@ -5,6 +5,14 @@
       "path": "LLaMA 3.1.md"
     },
     {
+      "basename": "float16",
+      "path": "float16.md"
+    },
+    {
+      "basename": "False Refuse",
+      "path": "False Refuse.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
       "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
-    },
-    {
-      "basename": "Self-Play Preference Optimization",
-      "path": "Self-Play Preference Optimization.md"
     }
   ],
   "omittedPaths": [],
