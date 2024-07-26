@@ -1892,7 +1892,7 @@ settings:
 		title: Tab title visibility
 		description: Visibility of the tab title text
 		type: class-select
-		default: minimal-tab-title-hover
+		default: minimal-tab-title-visible
 		options:
 			-
 				label: Hover only

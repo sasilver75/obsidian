@@ -160,7 +160,18 @@ Annealing
 - During pre-training on the final 40M tokens, we linearly anneal LR to 0, maintaining a context of 128K tokens; we also adjust the datamix to upsample data sources of very high quality.
 - ((I wonder, is this basically doping))
 
-### Post-training Data
+# Post-training Data
+- We produce an aligned L3 model by applying several rounds of post-training, with each round involving [[Supervised Fine-Tuning|SFT]] followed by [[Direct Preference Optimization|DPO]] on examples collected either from humans or generated synthetically.
+- We first train a reward model on top of the pretrained checkpoint using human-annotated preference data, and then finetune pre-trained checkpoints with SFT and further align them with DPO.
+- ==Because L3 has new capabilities like tool use, we design a new multi-message chat protocol/chat dialog format that uses various special headers and termination tokens.==
+- We train a RM covering different capabilities on top of the pre-trained checkpoint. In addition to standard preference pair of (chosen, rejected) response, annotations also create a third "edited response" for some prompts). So each preference ranking sample has either two or three responses with clear ranking (eg edited>chosen>rejected).
+- Reward model is used to perform [[Rejection Sampling]] on human-annotation prompts; together with synthetic data and other sources, we finetune pretrained LM using a standard [[Cross-Entropy]] loss on the target tokens.
+- We further train SFT models with [[Direct Preference Optimization|DPO]] for human preference alignment, primarily using the most recent batches of preference data collected using the best performing models from previous alignment rounds.
+	- We mask out special formatting tokens (like header and termination tokens) from both chosen and rejected responses.
+- We average models obtained from experiments using various versions of data or hyperparameters at each RM, SFT, or DPO stage.
+
+
+
 - Preference data annotation process is similar to LLaMA 2; deploy multiple models for annotation after each round and sample two responses from two different models for each user prompt.
 	- We ask annotators to rate the strength of their preference by categorizing it into one of four levels (==significantly better, better, slightly better, marginally better==).
 		- For DPO and reward modeling
@@ -228,25 +239,129 @@ Code
 	- They realized this led to a regression in benchmark perf, since it disproportionately removed difficult prompts, so they revised responses until they met the Judge's quality.
 
 Multilinguality
-- 
+- Like code, we train an *==multilingual expert==* specialized on substantially more multilingual data, sourcing and generating high-quality multilingual instruction tuning data for German, French, Italian, Portuguese, Hindi, Spanish, and Thai.
+	- We branch off the pretraining run and continue to pretrain on a data mix consisting of 90% multilingual tokens. This expert is used to collect higher-quality annotations on non-English languages until pretraining was fully complete.
+- Mixture: 2.4% human annotations, 44.2% data from other NLP tasks, 18.8% rejection sampled data, and 34.6% translated reasoning data.
+	- Human annotations: High-quality manually-annotated data from linguists and native speakers.
+	- Other NLP tasks: We use multilingual training data from other tasks and rewrite it into dialog format. We also use parallel texts from GlobalVoices and Wikimedia.
+	- [[Rejection Sampling]] data: We apply RS on our human-annotated prompts to generate high-quality samples for finetuning, with specialized system prompts and different levels of temperature. Prior to reward-model based selection, they do multilingual-specific checks to ensure a language match between prompt and response.
+	- Translated data: We try to avoid using MT data to finetune the model, to prevent *==translationese==*... and we want to prevent the model from being exposed only to tasks rooted in an English cultural context... but we made ==one exception== to this for the synthetic quantitative ==reasoning data== to improve performance in qualitative reasoning in non-English languages.
+		- Due to the simple nature of the language in these math problems, translated samples were found to have little to no quality issues.
 
-## Model Architecture
+### Math Reasoning
+- We define the ability to perform multi-step computations to arrive at the correct final answer. There were several challenges that guide our approach:
+	1. Lack of prompts (as complexity of question increases)
+		- We source relevant pre-training data from math contexts and convert it into a question-answer format which can then then be used for SFT.
+		- We identify math skills where the model underperforms and actively source prompts from humans to teach such skills.
+	2. Lack of ground-truth CoT
+		- We use LLAMA 3 to generate step-by-step solutions for a set of prompts... we filter to correct answer generations and do self-verification using L3.
+	3. ==Incorrect intermediate steps when using model-generated CoT.==
+		- We train [[Reward Model|Outcome Reward Model]]s and [[Process Reward Model]] ("stepwise") to filter training data where intermediate reasoning steps were incorrect.
+		  - For more challenging prompts, we use [[Monte-Carlo Tree Search|MCTS]] with [[Process Reward Model|PRM]]s to generate valid to generate valid reasoning traces, further enhancing collection of high-quality reasoning data.
+	4. Teaching models to use external tools (eg code interpreters), which can improve problem-solving abilities.
+	5. ==Discrepancy between training and inference== (During inference, the finetuned model may interact with humans or other models, requiring it to improve its reasoning using feedback. Ensuring consistency between training and real-world usage is crucial for maintaining reasoning performance.)
+		- We utilize incorrect generations (with incorrect reasoning traces) and perform error correction by prompting LLaMA 3 to yield correct generations.
+		- The iterative process of using feedback from incorrect attempts and correcting them helps improve the model's ability to reason accurately and learn from its mistakes.
+
+Long Context
+- ==Naively applying our SFT recipe with only short-context data resulted in significant regressions in long-context capabilities from pre-training, highlighting the need to incorporate long-context data in our SFT data mix.==
+- We predominantly rely on synthetic data to fill the gap... We use earlier versions of LLaMA 3 to generate synthetic data based on the ==key long context use-cases: question answering, summarization for long documents, and reasoning over code repositories.==
+	- QA: We curate a set of long documents from the pretraining mix, and split into 8K chunks. We then generate QA pairs conditioned on randomly selected chunk (pairs?) During training, we then use the whole doc.
+	- Summarization: We applied hierarchical summarization of long-context documents by first summarizing 8K chunks, then summarizing the summaries. During training, we then use the whole document.
+	- Long context code reasoning: We parse Python files to identify `import` statements and determine their dependencies. We select the most commonly depended-upon files, specifically those referenced from at least five other files. We remove one of these key files from a repository and prompt the model to identify which files depended on the missing file, and to generate the missing code.
+- We then further categorize these examples based on sequence length (16K, 32K, 64K, 128K) to enable more fine-grained targeting of input lengths.
+	- Authors mix ==only 0.1% of synthetically-generated long-context data with the original short-context data== to optimize performance across both short and long-context benchmarks.
+		- ((Recall that this is just to maintain the long-context performance that was engendered during pretraining!))
+- Authors note that only using ==short context training data in [[Direct Preference Optimization|DPO]] didn't seem to negatively impact long-context ability==, given that the SFT model was good at long-context tasks.
 
 
-## Infrastructure, Scaling, and Efficiency
+Tool use
+- LLaMA 3 is trained to interact with the following tools:
+	1. ==Search Engine==: L3 is trained to use the ==Brave Search== API to answer questions about recent events that go beyond its knowledge cutoff or that require retrieval.
+	2. ==Python Interpreter==: L3 can generate and execute code to perform complex computations, read files uploaded by the user, and solve tasks like QA, summarization, data analysis, visualization.
+	3. ==Math Computation Engine==: Can use the ==Wolfram Alpha== API to more accurately solve math, science problems, or retrieve accurate information from Wolfram's database.
+- We also improve L3's ==zero-shot tool use capabilities== (given in-context, potentially unseen tool definitions and a user query), training the model to generate correct tool calls.
+	- Tools can be implemented as Python functions with descriptions, demonstrations, and the models only needs the function signature and docstring as context to generate the appropriate call.
+	- We also convert function definitions and calls to JSON format (eg for web API calls).
+- Different from [[Toolformer]], we rely on human annotations and preferences to teach L3 to use tools.
+	- For tools, dialogs often contain more than a single assistant message (eg call the tool and then reason about its output), so we annotate at the message level to collect granular feedback; Annotators provide a preference between two assistant messages with the same context, or, if both contain major problems, edit one of the messages.
+		- We use ==human preference tuning== (with possible editing of agent's reasoning if both are bad) to help the assistant learn to both call tools and reason about tool outputs.
+	- ==We accelerate the annotations process by bootstrapping basic tool use capabilities by finetuning on synthetically generated data from previous L3 checkpoints. ==
+	- L3 improves gradually through iterative development; we progressively complexify our human annotation protocols, start with single turn before moving to tool use in dialogs, and finally multi-step tool use and data analysis.
+- Tool datasets
+	- Single-step tool use: ==We do synthetic generation of user prompts requiring a call to a core tool. Relying on few-shot generation, we generate appropriate tool calls, execute them, and add the output to model context. We then prompt the model again to generate a final answer.==
+	- Multi-step tool use: ==We follow a similar protocol and prompt L3 to generate user prompts that require at least two tool calls that can be the same or different tools from our core set.==
+		- ==We few-shot prompt L3 to generate solutions consisting of interleaved reasoning steps and tool calls, similar to [[ReAct]].==
+	- File uploads: We annotate for .txt, .docx, .pdf, .pptx, .xlsx, .csv, .tsv, .pv, .json, .jsonl, .html, .xml. Our prompts are based on a provided file, and ask to summarize the contexts of the file, find and fix bugs, optimize a piece of code, perform data analysis and/or visualization.
+- We also include ==challenging situations==:
+	- Multi-turn interactions
+	- More than three-step tool use
+	- Instances where a tool call doesn't give a satisfying answer.
+	- We also train the model to avoid calling tools for simple queries by adding queries from easy math or QA datasets and their responses without tools, ==with tools activated in the system prompt!==
+- To improve L3 zero-shot tool use, we finetune on a large and diverse set of partly synthetic tuples (function definitions, user query, corresponding call).
+	- We mine [[The Stack]] to ground our synthetic user queries in real functions, extracting function calls and their definitions, cleaning and filtering them, and using L3 to generate a natural language query corresponding to the function call.
+	- For multi-turn function calling, we generate synthetic data for multi-turn dialogs with function calls. We use multiple agents to generate domains, APIs, user queries, API calls, and responses.
+
+Factuality/[[Hallucination]] mitigation
+- We follow the principle that post-training should "align the model to know what it knows," rather than add additional knowledge.
+- We develop a knowledge probing technique that takes advantage of L3's in-context abilities:
+	1. ==Extract a data snippet== from pretraining data
+	2. ==Generate a factual question== about the snippet with L3
+	3. ==Sample responses== (plural) from L3
+	4. ==Score *correctness*== of generations using the original context and L3 as a judge
+	5. ==Score *informativeness*== of the generations using L3 as a judge
+	6. ==Generate a refusal== for responses which are consistently informative and *incorrect* across generations (these are ones that seem to be deceptive to users) using L3.
 
 
-## Training Recipe
-
-
-
-# Post-Training
-
+[[Steerability]]
+- The ability to direct model's actions and outcomes to meet developer/user specifications -- important for generic foundation models.
+- We use a system prompt with natural language instructions, especially about response length, format, tone, and character/persona.
+	- We collect steerability preference samples within the general English category by asking annotators to design different system prompts for L3, and then engage in conversations with models to evaluate consistency in following instructions defined in system prompts over the course of the conversation.
+	- After we collect preference data, we leverage it in reward modeling, rejection sampling, SFT, and DPO to enhance steerability.
 
 # Results
+- We investigate:
+	1. Pre-trained LM
+	2. Post-trained LM
+	3. Safety characteristics of L3
+
+## Pre-trained LM
+- Evaluations cover 8 top-level categories (see Table 8):
+	1. Commonsense reasoning (eg [[SQuAD v2]])
+	2. Knowledge eg ([[HumanEval]], [[MBPP]])
+	3. Reading comprehension (eg [[CommonSenseQA]], [[Winogrande]])
+	4. Math, reasoning, problem solving (eg [[GSM8K]], [[MATH]])
+	5. Long-context
+	6. Code
+	7. Adversarial evaluations
+	8. Aggregate evaluations (eg [[MMLU]])
+- LLaMA 3 8B outperforms competing models in virtually every category.
+- LLaMA 3 70B outperforms [[Mixtral 8x22B]] consistently.
+- LLaMA 3 405B performs competitively with other models in its class.
+- Models are also evaluated the robustness of our pretrained models to design choices in multiple-choice question setups (eg answer ordering, prompt formats). Results show that models are "very robust" to changes in MCQ labels and to structure of few-shot prompt labels.
+- We also evaluate on several adversarial benchmarks in QA, Math reasoning, and paraphrase detection... ours performed well against paraphrase detection, but performed substantially lower in the adversarial setting for math and question answering.
+- We conduct a contamination analysis to estimate the extent to which benchmark scores might be influenced by contamination of evaluation data in the pre-training corpus.
+
+## Post-trained LM
+- We evaluate over:
+	1. General (eg [[MMLU]], [[IFEval]])
+	2. Math and reasoning (eg [[GSM8K]], [[MATH]], [[GPQA]])
+	3. Code (eg [[HumanEval]], [[MBPP]], [[MBPP+]], [[HumanEval+]])
+	4. Multilinguality (eg MGSM, internal multilingual MMLU)
+	5. Tool-use (eg [[Berkeley Function-Calling Leaderboard|BFCL]]])
+	6. Long context (eg [[Needle in a Haystack|NIAH]], InfiniteBench)
+Also evaluate models on a wide variety of proficiency exams originally designed to test humans:
+- GRE
+- LSAT
+- SAT
+- AP
+- GMAT
+
+## Safety characteristics
+- Blah blah blah
+- False refusal rates, violation rates, CBRN testing, read teaming
 
 
-# Inference
 
 
 # Vision Experiments
@@ -293,7 +408,44 @@ Ah, but the SFT mixture is pretty similar to the pretraining data mixture. Note 
 ![[Pasted image 20240725151536.png|500]]
 ![[Pasted image 20240725153021.png]]
 
+![[Pasted image 20240725193113.png|500]]
+So that given a user prompt, the agent determines an initial plan of action, and then works through it, doing tool use and reasoning after each tool use (similar to [[ReAct]]).
+
+![[Pasted image 20240725195701.png|600]]
+Processing file uploads. Given a file path, assistant using code interpreted to load a pd.dataframe from the filepath, and plot some aspects of the data. Interesting that in this case there's no reflection/reasoning between the first and second tool use. 
+
+![[Pasted image 20240725204308.png|700]]
+The pre-training benchmarks, organized by category. See some classices like [[SQuAD v2]], [[MBPP]], [[HumanEval]], [[CommonSenseQA]], [[Winogrande]], [[GSM8K]], [[MATH]], [[ARC Challenge]], [[MMLU]], [[MMLU-Pro]], [[AGIEval]], [[BIG-Bench Hard]]
+
+![[Pasted image 20240725210907.png|600]]
+
+![[Pasted image 20240725210948.png]]
+Evaluation of L38B and L370B on standard benchmarks
+
+![[Pasted image 20240725212340.png]]
+![[Pasted image 20240725212342.png]]
+![[Pasted image 20240725212344.png]]
+![[Pasted image 20240725212348.png]]
+![[Pasted image 20240725212350.png]]
+![[Pasted image 20240725212352.png]]
+
+![[Pasted image 20240725212646.png]]
+The evaluations used for post-training evaluation
+
+![[Pasted image 20240725212804.png|500]]
+Evaluation of L3 post-training on a variety of human proficiency exams
+
+![[Pasted image 20240725213027.png]]
+![[Pasted image 20240725213037.png]]
+![[Pasted image 20240725213058.png|500]]
+![[Pasted image 20240725213258.png]]
+![[Pasted image 20240725213306.png]]
+![[Pasted image 20240725213319.png]]
+It's sort of interesting when you see something like this. Like... when the L3 team saw GPT4o outcompeting L3405B on file upload-related tasks, did they just say "ok"?
+![[Pasted image 20240725213725.png]]
+![[Pasted image 20240725213826.png]]
 
 
 # Non-Paper Figures
 ![[Pasted image 20240723235006.png]]
+

@@ -58,7 +58,7 @@ Similar papers include:
 
 
 ## Appendix
-- We came across a variety of interesting failure cases for common-sense reasoning in [[CommonsenseQA]], including "Question Implies Answer," "Begging the Question," "Exercise to Reader," "World State Assertions," and "Red Herrings", and "Hint Shortcutting"
+- We came across a variety of interesting failure cases for common-sense reasoning in [[CommonSenseQA]], including "Question Implies Answer," "Begging the Question," "Exercise to Reader," "World State Assertions," and "Red Herrings", and "Hint Shortcutting"
 
 
 Abstract
@@ -81,7 +81,7 @@ An example of an in-context exemplar from our prompt dataset.
 See the improvement that rationalization makes to the efficiency of the process! I'm still curious what the effect of training on incorrect rationales might be, in the case of rationalization. Even if it these bad apples don't result in a meaningful decrease in accuracy, if they result in the misaligned behavior of generating incorrect rationales for correct answers (which wouldn't be reflected in this chart), that's something to worry about!
 
 
-Below are some examples of failures of rationales observed when testing generations against the [[CommonsenseQA]] dataset.
+Below are some examples of failures of rationales observed when testing generations against the [[CommonSenseQA]] dataset.
 ![[Pasted image 20240715233724.png]]
 ![[Pasted image 20240715233728.png]]
 ![[Pasted image 20240715233733.png]]
@@ -90,7 +90,7 @@ Below are some examples of failures of rationales observed when testing generati
 ![[Pasted image 20240715233804.png]]
 
 
-Some examples of rationalizations on [[CommonsenseQA]] (where the answer is provided, and we want to generate a rationalization... which seems to also include an answer. I wonder if the answer even doesn't accurately identify the correctly-marked answer, hah!)
+Some examples of rationalizations on [[CommonSenseQA]] (where the answer is provided, and we want to generate a rationalization... which seems to also include an answer. I wonder if the answer even doesn't accurately identify the correctly-marked answer, hah!)
 ![[Pasted image 20240715234230.png|600]]
 See description above
 

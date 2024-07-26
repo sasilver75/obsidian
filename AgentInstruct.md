@@ -31,7 +31,7 @@ References:
 		- AgentInstruct ==generates both prompts and responses==. It uses a large number of agents and a ==taxonomy of over 100 subcategories== to create diverse and high-quality prompts and responses.
 	- Using raw data (unstructured text documents or source code) as seed has two benefits: it's abundant and can promote learning more general capabilities.
 	- ==They create a synthetic post-training dataset of 25 million prompt-repose pairs,== covering a range of skills including writing, reasoning, math, RAG, tool use, etc.
-		- They use it to finetune Mistral-7B into [[Orca 3]], and it seems to score significantly better (eg 20-50% better) on benchmarks like [[AGIEval]], [[MMLU]], [[GSM8K]], [[[BIG-Bench Hard|BBH]], and [[AlpacaEval]].
+		- They use it to finetune Mistral-7B into [[Orca 3]], and it seems to score significantly better (eg 20-50% better) on benchmarks like [[AGIEval]], [[MMLU]], [[GSM8K]], [[BIG-Bench Hard|BBH]], and [[AlpacaEval]].
 
 ## Generative Teaching: AgentInstruct
 - When creating synthetic data, we want to create a *large* amount of *high-quality, diverse, complex/nuanced/challenging* data.

@@ -5,16 +5,52 @@
       "path": "LLaMA 3.1.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Continued Pretraining",
+      "path": "Continued Pretraining.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "CommonSenseQA",
+      "path": "CommonSenseQA.md"
+    },
+    {
+      "basename": "SQuAD",
+      "path": "SQuAD.md"
+    },
+    {
+      "basename": "SQuAD v2",
+      "path": "SQuAD v2.md"
+    },
+    {
+      "basename": "Hallucination",
+      "path": "Hallucination.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
+    },
+    {
+      "basename": "Process Reward Model",
+      "path": "Process Reward Model.md"
+    },
+    {
+      "basename": "Language Identification",
+      "path": "Language Identification.md"
+    },
+    {
       "basename": "Magicoder",
       "path": "Magicoder.md"
     },
     {
       "basename": "~",
       "path": "~.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Rule-Based Rewards",
@@ -79,10 +115,6 @@
     {
       "basename": "Common Crawl",
       "path": "Common Crawl.md"
-    },
-    {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
     },
     {
       "basename": "Claude 3.5",
@@ -163,42 +195,6 @@
     {
       "basename": "Self-Play Preference Optimization",
       "path": "Self-Play Preference Optimization.md"
-    },
-    {
-      "basename": "Identity-Mapping Preference Optimization",
-      "path": "Identity-Mapping Preference Optimization.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "WildBench",
-      "path": "WildBench.md"
-    },
-    {
-      "basename": "Arena-Hard",
-      "path": "Arena-Hard.md"
-    },
-    {
-      "basename": "Tencent AI",
-      "path": "Tencent AI.md"
-    },
-    {
-      "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
-      "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "LLaMA 3",
-      "path": "LLaMA 3.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
-    },
-    {
-      "basename": "Instruction Pretraining",
-      "path": "Instruction Pretraining.md"
     }
   ],
   "omittedPaths": [],

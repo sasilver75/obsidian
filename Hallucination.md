@@ -20,3 +20,13 @@ Techniques to combat/ameliorate hallucination include ([from here](https://youtu
 	- Data rebalancing (upweight/upsample under-represented datapoints)
 	- Domain invariance (learn representations invariant to domain)
 (As you go down the list, you need more powerful tools/the problem gets harder)
+
+
+From [[LLaMA 3.1]] paper:
+> We develop a knowledge probing technique that takes advantage of L3's in-context abilities:
+> 	1. ==Extract a data snippet== from pretraining data
+> 	2. ==Generate a factual question== about the snippet with L3
+> 	3. ==Sample responses== (plural) from L3
+> 	4. ==Score *correctness*== of generations using the original context and L3 as a judge
+> 	5. ==Score *informativeness*== of the generations using L3 as a judge
+> 	6. ==Generate a refusal== for responses which are consistently informative and *incorrect* across generations (these are ones that seem to be deceptive to users) using L3.
