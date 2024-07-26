@@ -3,3 +3,8 @@ I the W&B LLaMA3 presentation, I heard the speaker refer to times when the model
 eg
 > User: Hey, can you help me write a birthday card for my friend?
 > Model: Sorry, I can't do that
+
+
+Metrics:
+- False Refusal Rate (FRR)
+- Violation Rate (VR)

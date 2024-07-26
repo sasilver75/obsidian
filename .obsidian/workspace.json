@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "4b766571c2c99529",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "False Refuse.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7473a8d9f0cd5e91",
             "type": "leaf",
             "state": {
@@ -554,6 +567,13 @@
   },
   "active": "cbc9ac2fe7612a2a",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240725220555.png",
+    "float16.md",
+    "LLaMA 3.1.md",
+    "_attachments/Pasted image 20240725215800.png",
+    "_attachments/Pasted image 20240725215753.png",
+    "False Refuse.md",
+    "_attachments/Pasted image 20240725215152.png",
     "_attachments/Pasted image 20240725213826.png",
     "_attachments/Pasted image 20240725213725.png",
     "_attachments/Pasted image 20240725213319.png",
@@ -561,12 +581,7 @@
     "_attachments/Pasted image 20240725213258.png",
     "_attachments/Pasted image 20240725213058.png",
     "_attachments/Pasted image 20240725213037.png",
-    "_attachments/Pasted image 20240725213027.png",
-    "_attachments/Pasted image 20240725212804.png",
-    "_attachments/Pasted image 20240725212646.png",
-    "_attachments/Pasted image 20240725212352.png",
     "~ Vocabulary.md",
-    "LLaMA 3.1.md",
     "Continued Pretraining.md",
     "AgentInstruct.md",
     "[BIG-Bench Hard.md",
@@ -588,8 +603,6 @@
     "Pipeline Parallelism.md",
     "Model FLOPs Utilization.md",
     "Tensor Parallelism.md",
-    "Prompt Tuning.md",
-    "DeepSeek-Coder-V2.md",
     "Papers/Untitled",
     "Papers/Process Reward Models",
     "Courses/Math",
