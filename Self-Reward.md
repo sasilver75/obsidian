@@ -8,6 +8,8 @@ Comparison: Similar to [[Pairwise Cringe Optimization]] (PCO), except this paper
 
 Questions: IIRC they don't talk too much about when/why the iterative improvement plateaus, do they? 
 
+References:
+- [OxenAI Self Rewarding Language Models](https://www.youtube.com/watch?v=jQEo5A-Pdls)
 ----
 
 Notes:

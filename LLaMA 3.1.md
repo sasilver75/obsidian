@@ -2,7 +2,11 @@ July 23, 2024
 [[Meta AI Research]]
 [The LLaMa 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
 #zotero 
-Takeaway: ...
+Takeaway: Probably too much for a takeaway section, but it introduces LLaMA 3.1 8B, 70B, 405B, trained on ~15T tokens on 16K H100 GPUs, using 50x the FLOPs (405b) of the largest LLAMA 2 70B model. Relative to L2, incorporates a specific focus on *reasoning, code, math, and tool use (incl. zero shot)* out of the box. Also releases [[LLaMA Guard 3]] along with [[Prompt Guard]] and [[Code Shield]]. Generally, this paper makes a lot of iterative improvement using both synthetic and human sourced data. Doesn't make use of RL, instead opting for a simple mixture of iterations of  [[Supervised Fine-Tuning|SFT]], [[Rejection Sampling]], and [[Direct Preference Optimization|DPO]]. Minimal architectural changes from L2 (addition of [[Grouped Query Attention|GQA]], expansion of vocabulary from 32k->128k, and slightly different [[Rotary Positional Embedding|RoPE]] hyperparameters); it's all about scaling data's quantity, quality, and diversity.
+- Lots of use of document classifiers and topic taggers distilled from LLaMA 2 during pretraining for document quality.
+- An interesting use of [[Process Reward Model|PRM]]s and [[Monte-Carlo Tree Search|MCTS]] to deal with incorrect reasoning steps in synthetically-generated CoTs, for the reasoning finetuning.
+- Preference annotators also have the ability to optionally edit the winning response, if neither are very good. This is helpful in the cold start problem for prompts where the model just isn't very good.
+- Segments on the training infrastructure describe "4D Parallelism," a combination of [[Pipeline Parallelism]], [[Tensor Parallelism]], [[Data Parallelism]], and [[Context Parallelism]].
 
 
 ---
@@ -397,19 +401,11 @@ Authors investigate two main techniques to main LLaMA 3 405B model efficient:
 
 
 
-
 # Vision Experiments
-
+...
 
 # Speech Experiments
-
-
-# Related Work
-
-
-# Conclusion
-
-
+...
 
 
 
