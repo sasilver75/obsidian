@@ -5,16 +5,28 @@
       "path": "Rule-Based Rewards.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}",
+      "path": "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
+    },
+    {
+      "basename": "Prometheus",
+      "path": "Prometheus.md"
+    },
+    {
+      "basename": "Feedback Collection",
+      "path": "Feedback Collection.md"
+    },
+    {
       "basename": "Pipeline Parallelism",
       "path": "Pipeline Parallelism.md"
     },
     {
       "basename": "Tensor Parallelism",
       "path": "Tensor Parallelism.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Self-Reward",
@@ -187,18 +199,6 @@
     {
       "basename": "Direct Preference Optimization",
       "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/LLaMA3 - Scaling open LLMs to AGI (April 18, 2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}",
-      "path": "Articles/LLaMA 3.1 405B, Meta's AI Strategy, and the new, open frontier model ecosystem (July 23) {Nathan Lambert, Interconnects}.md"
     }
   ],
   "omittedPaths": [],
