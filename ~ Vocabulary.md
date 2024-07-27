@@ -450,6 +450,7 @@
 - [[Model FLOPs Utilization]] (MFU)
 - [[Needle in a Haystack]] (NIAH)
 - [[Rule-Based Rewards]] (RBR)
+- [[Sparrow]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
