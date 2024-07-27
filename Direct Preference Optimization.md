@@ -14,7 +14,7 @@ Resources:
 Variants: 
 - Iterated DPO, [[cDPO]], [[Kahneman-Tversky Optimization|KTO]] (Only requires a binary label, rather than a *pair* of accepted/rejected generations), [[Identity-Mapping Preference Optimization|IPO]] (DPO easily overfits; IPO is more robust to overfitting)), [[Binary Classifier Optimization|BCO]], [[Direct Nash Optimization|DNO]], [[Stepwise Direct Preference Optimization|sDPO]]
 
-Criticism from [[Nemotron-4]] paper: Some rejected responses will be only *slightly* worse than the paired chosen response, while in other cases the rejected response will be *far* behind. DPO is ignorant of this quality gap, leading to both overfitting and unnecessarily "unlearning" high-quality rejected responses.
+Criticism from [[Nemotron-4]] paper: Some rejected responses will be only *slightly* worse than the paired chosen response, while in other cases the rejected response will be *far* behind. DPO is ignorant of this quality gap, leading to both overfitting and unnecessarily "unlearning" high-quality rejected responses. (Nemotron uses [[Reward-Aware Preference Optimization]] (RPO))
 
 ----
 
