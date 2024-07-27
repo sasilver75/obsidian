@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "Nemotron-4",
+      "path": "Nemotron-4.md"
+    },
+    {
       "basename": "Rule-Based Rewards",
       "path": "Rule-Based Rewards.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "GPT-4o",
       "path": "GPT-4o.md"
-    },
-    {
-      "basename": "Evol-Instruct",
-      "path": "Evol-Instruct.md"
-    },
-    {
-      "basename": "vLLM",
-      "path": "vLLM.md"
     }
   ],
   "omittedPaths": [],

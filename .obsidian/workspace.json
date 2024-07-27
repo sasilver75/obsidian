@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Direct Preference Optimization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5a9ed746c65976f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nemotron-4.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Direct Preference Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Direct Preference Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rule-Based Rewards.md"
+                "file": "Direct Preference Optimization.md"
               }
             }
           },
@@ -169,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Direct Preference Optimization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -217,6 +230,9 @@
   },
   "active": "d80bc2c631b0c670",
   "lastOpenFiles": [
+    "Nemotron-4.md",
+    "Direct Preference Optimization.md",
+    "Rule-Based Rewards.md",
     "_attachments/Pasted image 20240726224157.png",
     "_attachments/Pasted image 20240726224146.png",
     "_attachments/Pasted image 20240726224049.png",
@@ -227,9 +243,7 @@
     "_attachments/Pasted image 20240726200009.png",
     "_attachments/Pasted image 20240726200007.png",
     "_attachments/Pasted image 20240726200002.png",
-    "_attachments/Pasted image 20240726185430.png",
     "~ Useful Pictures.md",
-    "Rule-Based Rewards.md",
     "~ Vocabulary.md",
     "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "Prometheus.md",
@@ -252,7 +266,6 @@
     "SQuAD v2.md",
     "CommonSenseQA.md",
     "False Refuse.md",
-    "Papers/Alignment/Untitled.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
