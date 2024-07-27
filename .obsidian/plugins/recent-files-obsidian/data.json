@@ -5,6 +5,10 @@
       "path": "Rule-Based Rewards.md"
     },
     {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "vLLM",
       "path": "vLLM.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
     }
   ],
   "omittedPaths": [],

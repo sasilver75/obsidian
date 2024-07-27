@@ -1,3 +1,5 @@
+
+![[Pasted image 20240726181958.png|400]]
 ![[Pasted image 20240722201805.png|300]]
 Shitty Res pic of many of the ways that people are using ChatGPT
 
