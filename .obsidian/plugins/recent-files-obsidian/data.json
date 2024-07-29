@@ -9,6 +9,18 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "LIMA",
+      "path": "LIMA.md"
+    },
+    {
+      "basename": "Constitutional AI",
+      "path": "Constitutional AI.md"
+    },
+    {
+      "basename": "Self-Refine",
+      "path": "Self-Refine.md"
+    },
+    {
       "basename": "Rule-Based Rewards",
       "path": "Rule-Based Rewards.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Claude 3",
       "path": "Claude 3.md"
-    },
-    {
-      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "Decoder-Only Architecture",
-      "path": "Decoder-Only Architecture.md"
-    },
-    {
-      "basename": "Anthropic",
-      "path": "Anthropic.md"
     }
   ],
   "omittedPaths": [],
