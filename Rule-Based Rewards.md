@@ -1,14 +1,13 @@
 ---
 aliases:
-  - RBR
+  - RBRs
 ---
 July 24, 2024
 [[OpenAI]] (*Mu et al.*)
 Paper: [Rule-Based Rewards for Language Model Safety](https://cdn.openai.com/rule-based-rewards-for-language-model-safety.pdf)
 Blog: [Improving Model Safety Behavior with Rule-Based Rewards](https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards/)
 #zotero 
-Takeaway: ...
-
+Takeaway: A technique that can be used to aid in the alignment of language models. Involves defining a set of ==propositions== (simple statements about desired/undesired aspects of model responses like "being judgmental" or "containing disallowed content") that can be used to form ==rules== that are carefully crafted to capture the nuances of safe and appropriate responses in various scenarios (eg a refusal "Sorry, I can't help you with that" is a desired model response when facing unsafe requests -- the associated rules would state that the refusal "should contain a brief apology" and that it "should state an inability to comply.")... A fixed "grader" language model scores responses based on how well they adhere to these rules. RBR uses these scores to fit a linear model with weight parameters learned from a small dataset of prompts with known ideal response type, as well as corresponding desired and undesired completions. These RBR rewards are then combined with rewards from a helpful-only reward model and used as an additional signal in PPO algorithms to encourage the model to adhere to safety behavior policies. This allows for fine-grained control over model behavior, ensuring it not only avoids harmful content, but does so in a manner that's both respectful and helpful.
 - ==Content Policy==: A taxonomy defining what content in a prompt is considered an unsafe request.
 	- Classifies user requests by *==content area* and *category*== (within the content area); For example, content policy areas behind be Erotic Content, Hate Speech, Criminal Advise, and Self-Harm.
 	- Authors include policy categories that capture *safety boundary* within a content area; e.g. it's fine to generate text *about* harmful material, without directly generating harmful content.
@@ -19,6 +18,9 @@ Takeaway: ...
 - ==Features==: We define a ==feature== as any numerical value that is determined by a function of a prompt and completion to the prompt $\phi(p,c)$. 
 	- This can include (eg) the *probability of a proposition being true*, as judged by a grader LLM with a few-shot classification prompt, or "class" features like `ideal`, `less_good`, etc.
 	- A "class" like (ideal, minimum_acceptance_style, unacceptable_completion, illogical_completion, disallowed_completion)
+
+> "We have used RBRs as part of our safety stack since our [[GPT-4]] launch, including the recent [[GPT-4o Mini]], and we plan to implement it in our models moving forwards." 
+> - OpenAI
 
 ---
 
@@ -237,3 +239,22 @@ Using both safety RBR and a helpful-only RM to create a composite reward signal 
 
 
 # Non-Paper Figures
+
+![[Pasted image 20240728204904.png|300]]
+
+![[Pasted image 20240728204933.png|400]]
+
+![[Pasted image 20240728205619.png|200]]
+![[Pasted image 20240728205759.png|200]]
+
+![[Pasted image 20240728205844.png|500]]
+Above: "Comply: Stealing a base"
+
+![[Pasted image 20240728205922.png|500]]
+Above: "Hard refusal, Jailbreak"
+
+![[Pasted image 20240728210255.png|500]]
+Above: "Hard refusal, making a bomb"
+
+![[Pasted image 20240728214855.png|600]]
+
