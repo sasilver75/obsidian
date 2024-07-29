@@ -451,6 +451,7 @@
 - [[Needle in a Haystack]] (NIAH)
 - [[Rule-Based Rewards]] (RBR)
 - [[Sparrow]]
+- [[Self-Alignment with Instructable Reward Models]] (SALMON)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]

@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Self-Alignment with Instructable Reward Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2724596812a391c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Self-Alignment with Instructable Reward Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Self-Alignment with Instructable Reward Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rule-Based Rewards.md"
+                "file": "Self-Alignment with Instructable Reward Models.md"
               }
             }
           },
@@ -169,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Rule-Based Rewards.md",
+                "file": "Self-Alignment with Instructable Reward Models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -217,6 +230,9 @@
   },
   "active": "f5a9ed746c65976f",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Self-Alignment with Instructable Reward Models.md",
+    "Rule-Based Rewards.md",
     "_attachments/Pasted image 20240728214855.png",
     "_attachments/Pasted image 20240728210255.png",
     "_attachments/Pasted image 20240728205922.png",
@@ -227,12 +243,9 @@
     "_attachments/Pasted image 20240728204904.png",
     "Nemotron-4.md",
     "Direct Preference Optimization.md",
-    "Rule-Based Rewards.md",
     "_attachments/Pasted image 20240726224157.png",
     "_attachments/Pasted image 20240726224146.png",
-    "_attachments/Pasted image 20240726224049.png",
     "~ Useful Pictures.md",
-    "~ Vocabulary.md",
     "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "Prometheus.md",
     "Feedback Collection.md",
