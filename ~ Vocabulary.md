@@ -452,6 +452,7 @@
 - [[Rule-Based Rewards]] (RBR)
 - [[Sparrow]]
 - [[Self-Alignment with Instructable Reward Models]] (SALMON)
+- [[SELF-ALIGN]]
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
