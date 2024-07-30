@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "92ea92bfe600b9e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FineWeb.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc73f366369c7880",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constitutional AI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Alignment with Instructable Reward Models.md",
+                "file": "FineWeb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Alignment with Instructable Reward Models.md",
+                "file": "FineWeb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-Alignment with Instructable Reward Models.md"
+                "file": "FineWeb.md"
               }
             }
           },
@@ -169,7 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Self-Alignment with Instructable Reward Models.md",
+                "file": "FineWeb.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,14 +242,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "90c53fcb2c0ce67d",
+  "active": "92ea92bfe600b9e2",
   "lastOpenFiles": [
+    "UltraChat.md",
+    "Self-Alignment with Instructable Reward Models.md",
+    "_attachments/Pasted image 20240729191843.png",
+    "Constitutional AI.md",
     "_attachments/Pasted image 20240729190038.png",
     "_attachments/Pasted image 20240729190035.png",
     "Instruction Backtranslation.md",
-    "Self-Alignment with Instructable Reward Models.md",
     "_attachments/Pasted image 20240729183830.png",
-    "Constitutional AI.md",
     "SAM 2.md",
     "~ Vocabulary.md",
     "LIMA.md",
@@ -234,8 +263,6 @@
     "_attachments/Pasted image 20240728205844.png",
     "_attachments/Pasted image 20240728205759.png",
     "_attachments/Pasted image 20240728205619.png",
-    "_attachments/Pasted image 20240728204933.png",
-    "_attachments/Pasted image 20240728204904.png",
     "Nemotron-4.md",
     "Direct Preference Optimization.md",
     "~ Useful Pictures.md",

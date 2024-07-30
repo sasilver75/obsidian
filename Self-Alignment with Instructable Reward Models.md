@@ -40,7 +40,14 @@ Self-Alignment and [[Scalable Oversight]]
 	- [[Instruction Backtranslation]] uses web documents to create new training examples for an SFT model trained on 3,200 examples.
 
 ## Our Methodology
-- 
+- ==A significant challenge in the current RLHF paradigm is the need to iteratively gather "fresh" human preferences, aimed at countering reward hacking.==
+	- There's a risk that the current RL-optimized model might exploit certain vulnerabilities in the fixed reward model.
+	- In a 2022 Anthropic paper, they talk about both the reward model and RLHF policies requiring weekly updates. The LLaMA 2 paper similarly documented weekly collection of human preferences over 5 iterations.
+- As a result, the ==RLHF paradigm becomes highly-reliant on human annotation==, undermining its scalability for LM alignment, and limiting the utilization of pre-existing open source preference data.
+
+Collecting Principle-Driven Synthetic Preferences
+- Following [[Constitutional AI|CAI]], ==we sample two responses from an initial policy model, and the *the policy model itself* to select the preferred response based on a certain human-written principle.==
+- Our method *diverges* from prior RLAIF approaches that focus on AI safety when defining principles
 
 ## Experiments
 
@@ -62,5 +69,9 @@ Above:
 - In RLHF, we use human-labeled preferences to train a reward model, then train our LM policy with (eg) PPO against the RM.
 - In CAI/RLAIF, we generate AI-labeled preferences (using prompting/exemplars/principles) and use them to train a reward model, and similarly train our LM policy against the RM.
 - In [[Self-Alignment with Instructable Reward Models|SALMON]], the process is different. 
+
+![[Pasted image 20240729191843.png|600]]
+Above: ...
+
 
 
