@@ -27,13 +27,20 @@ Introducing: [[Self-Alignment with Instructable Reward Models|SALMON]]
 - Authors train a self-aligned model called `Dromedary-2` by only manually crafting 6 exemplars for in-context learning and a ==combined total of 31 principles== (17 from [[SELF-ALIGN]] and 14 from SALMON itself).
 	- Despite minimal human supervision design, our model outperformed the extensively RLHF-trained [[LLaMA 2]]-Chat model (trained on 20k+ human-curated response demonstrations for SFT and 1M+ human-annotated response preferences.)
 
-
-
 ## Related Work
+AI Alignment from Scratch
+- Our work focuses on the problem of aligning LLMs from scratch, without the need for to rely on existing well-aligned models like ChatGPT. 
+	- This differs from works where the primary focus is distilling the capabilities of well-aligned 
 
+Self-Alignment and [[Scalable Oversight]]
+- Many AI alignment methods have a heavy dependency on human-annotated data. 
+- To overcome this limitation for ==self-alignment==:
+	- A few notable exception involve bootstrapping by finetuning on model-generated synthetic data, like in [[Self-Instruct]].
+	- [[SELF-ALIGN]] involves using 16 principles and 5 ICL exemplars to guide the AI in generating appropriate examples for an SFT model trained on 3200 seed examples.
+	- [[Instruction Backtranslation]] uses web documents to create new training examples for an SFT model trained on 3,200 examples.
 
 ## Our Methodology
-
+- 
 
 ## Experiments
 
@@ -46,3 +53,14 @@ Abstract
 
 
 # Paper Figures
+
+![[Pasted image 20240729183830.png|500]]
+Above: Shows the number of demonstration annotations (SFT) and preference annotations (eg for DPO) for various open-source and closed source models.
+
+![[Pasted image 20240729190038.png|550]]
+Above: 
+- In RLHF, we use human-labeled preferences to train a reward model, then train our LM policy with (eg) PPO against the RM.
+- In CAI/RLAIF, we generate AI-labeled preferences (using prompting/exemplars/principles) and use them to train a reward model, and similarly train our LM policy against the RM.
+- In [[Self-Alignment with Instructable Reward Models|SALMON]], the process is different. 
+
+

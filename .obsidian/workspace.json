@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "60f940246a25d1fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constitutional AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "90c53fcb2c0ce67d",
             "type": "leaf",
             "state": {
@@ -32,35 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "81ff17f27eb5db51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2724596812a391c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,10 +217,15 @@
   },
   "active": "90c53fcb2c0ce67d",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240729190038.png",
+    "_attachments/Pasted image 20240729190035.png",
+    "Instruction Backtranslation.md",
     "Self-Alignment with Instructable Reward Models.md",
-    "LIMA.md",
+    "_attachments/Pasted image 20240729183830.png",
     "Constitutional AI.md",
+    "SAM 2.md",
+    "~ Vocabulary.md",
+    "LIMA.md",
     "Self-Refine.md",
     "Rule-Based Rewards.md",
     "_attachments/Pasted image 20240728214855.png",
@@ -273,8 +238,6 @@
     "_attachments/Pasted image 20240728204904.png",
     "Nemotron-4.md",
     "Direct Preference Optimization.md",
-    "_attachments/Pasted image 20240726224157.png",
-    "_attachments/Pasted image 20240726224146.png",
     "~ Useful Pictures.md",
     "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
     "Prometheus.md",
@@ -290,9 +253,6 @@
     "Datatrove.md",
     "Trafilatura.md",
     "DeepSeek-Coder-V2.md",
-    "Model FLOPs Utilization.md",
-    "Magicoder.md",
-    "Process Reward Model.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
