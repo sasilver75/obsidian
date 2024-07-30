@@ -5,16 +5,24 @@
       "path": "Self-Alignment with Instructable Reward Models.md"
     },
     {
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
+    },
+    {
+      "basename": "Constitutional AI",
+      "path": "Constitutional AI.md"
+    },
+    {
+      "basename": "SAM 2",
+      "path": "SAM 2.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
       "basename": "LIMA",
       "path": "LIMA.md"
-    },
-    {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
     },
     {
       "basename": "Self-Refine",
@@ -191,14 +199,6 @@
     {
       "basename": "AlpaGasus",
       "path": "AlpaGasus.md"
-    },
-    {
-      "basename": "Gemeni 1.5",
-      "path": "Gemeni 1.5.md"
-    },
-    {
-      "basename": "Claude 3",
-      "path": "Claude 3.md"
     }
   ],
   "omittedPaths": [],

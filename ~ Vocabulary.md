@@ -842,7 +842,8 @@
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
 - [[RWKV]] (Receptance Weighted Key Value)
 - [[S4]] (Structured State Space Sequence Model)
-- [[Segment Anything Model]]
+- [[Segment Anything Model]] (SAM)
+- [[SAM 2]]
 - [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
 - [[Shepherd]]
 - [[SigLIP]] (Sigmoid Loss for Language-Image Pretraining)
