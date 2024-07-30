@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Self-Alignment with Instructable Reward Models",
+      "path": "Self-Alignment with Instructable Reward Models.md"
+    },
+    {
+      "basename": "FLAN",
+      "path": "FLAN.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
+    },
+    {
+      "basename": "oasst1",
+      "path": "oasst1.md"
+    },
+    {
+      "basename": "Constitutional AI",
+      "path": "Constitutional AI.md"
+    },
+    {
       "basename": "FineWeb",
       "path": "FineWeb.md"
     },
     {
       "basename": "UltraChat",
       "path": "UltraChat.md"
-    },
-    {
-      "basename": "Self-Alignment with Instructable Reward Models",
-      "path": "Self-Alignment with Instructable Reward Models.md"
-    },
-    {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
     },
     {
       "basename": "Instruction Backtranslation",
@@ -187,18 +199,6 @@
     {
       "basename": "Magpie",
       "path": "Magpie.md"
-    },
-    {
-      "basename": "fastText",
-      "path": "fastText.md"
-    },
-    {
-      "basename": "Claude 3.5",
-      "path": "Claude 3.5.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
     }
   ],
   "omittedPaths": [],
