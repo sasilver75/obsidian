@@ -19,35 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "92ea92bfe600b9e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FineWeb.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc73f366369c7880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constitutional AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FineWeb.md",
+                "file": "Self-Alignment with Instructable Reward Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FineWeb.md",
+                "file": "Self-Alignment with Instructable Reward Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FineWeb.md"
+                "file": "Self-Alignment with Instructable Reward Models.md"
               }
             }
           },
@@ -196,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "FineWeb.md",
+                "file": "Self-Alignment with Instructable Reward Models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -242,27 +215,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "92ea92bfe600b9e2",
+  "active": "90c53fcb2c0ce67d",
   "lastOpenFiles": [
-    "UltraChat.md",
+    "FLAN.md",
     "Self-Alignment with Instructable Reward Models.md",
-    "_attachments/Pasted image 20240729191843.png",
+    "WizardLM.md",
+    "_attachments/Pasted image 20240730151252.png",
+    "_attachments/Pasted image 20240730151238.png",
+    "_attachments/Pasted image 20240730151224.png",
+    "_attachments/Pasted image 20240730151209.png",
+    "_attachments/Pasted image 20240730151043.png",
+    "_attachments/Pasted image 20240730151032.png",
+    "_attachments/Pasted image 20240730151018.png",
+    "_attachments/Pasted image 20240730151005.png",
+    "_attachments/Pasted image 20240730150909.png",
+    "_attachments/Pasted image 20240730150416.png",
+    "oasst1.md",
     "Constitutional AI.md",
-    "_attachments/Pasted image 20240729190038.png",
-    "_attachments/Pasted image 20240729190035.png",
+    "FineWeb.md",
+    "UltraChat.md",
     "Instruction Backtranslation.md",
-    "_attachments/Pasted image 20240729183830.png",
     "SAM 2.md",
     "~ Vocabulary.md",
     "LIMA.md",
     "Self-Refine.md",
     "Rule-Based Rewards.md",
-    "_attachments/Pasted image 20240728214855.png",
-    "_attachments/Pasted image 20240728210255.png",
-    "_attachments/Pasted image 20240728205922.png",
-    "_attachments/Pasted image 20240728205844.png",
-    "_attachments/Pasted image 20240728205759.png",
-    "_attachments/Pasted image 20240728205619.png",
     "Nemotron-4.md",
     "Direct Preference Optimization.md",
     "~ Useful Pictures.md",
@@ -275,11 +252,6 @@
     "Sparse Autoencoder.md",
     "Sparrow.md",
     "LLaMA 3.1.md",
-    "Continued Pretraining.md",
-    "Common Crawl.md",
-    "Datatrove.md",
-    "Trafilatura.md",
-    "DeepSeek-Coder-V2.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
