@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+    },
+    {
+      "basename": "Tree of Thoughts",
+      "path": "Tree of Thoughts.md"
+    },
+    {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Self-Directed Synthetic Dialogues",
+      "path": "Self-Directed Synthetic Dialogues.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "Persona Hub",
+      "path": "Persona Hub.md"
+    },
+    {
       "basename": "Self-Refine",
       "path": "Self-Refine.md"
     },
     {
       "basename": "Reflexion",
       "path": "Reflexion.md"
-    },
-    {
-      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
-      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
     },
     {
       "basename": "ReAct",
@@ -65,10 +93,6 @@
       "path": "SAM 2.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "LIMA",
       "path": "LIMA.md"
     },
@@ -83,10 +107,6 @@
     {
       "basename": "Direct Preference Optimization",
       "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}",
@@ -177,28 +197,8 @@
       "path": "float16.md"
     },
     {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
       "basename": "SQuAD",
       "path": "SQuAD.md"
-    },
-    {
-      "basename": "Language Identification",
-      "path": "Language Identification.md"
-    },
-    {
-      "basename": "~",
-      "path": "~.md"
-    },
-    {
-      "basename": "Instag",
-      "path": "Instag.md"
-    },
-    {
-      "basename": "UMAP",
-      "path": "UMAP.md"
     }
   ],
   "omittedPaths": [],
