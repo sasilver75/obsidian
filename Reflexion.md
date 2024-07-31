@@ -7,6 +7,8 @@ Takeaway: ...
 References:
 - Video: [Lead Author Noah Shinn @ London AI4Code: Reflexion](https://www.youtube.com/watch?v=kKNx64AmzwU)
 
+⚠️ In [[Large Language Models Cannot Self-Correct Reasoning Yet]], GDM authors note that the improvements in this study result from using *oracles* to guide the self-correction process, and the improvements vanish when oracle labels are not available.
+
 ---
 
 ## Introduction

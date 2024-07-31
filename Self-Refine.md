@@ -5,6 +5,9 @@ CMU, [[Allen Institute|AI2]], UW, [[NVIDIA]], UCSD, [[Google Research]] (Madaan 
 Takeaway: A simple iterative algorithm in which the same model is used to initially generate, and then iteratively alternates between critiquing and refining its outputs based on the critique (either N times, or until some stopping criteria is reached).
 
 
+⚠️ In [[Large Language Models Cannot Self-Correct Reasoning Yet]], GDM authors note that the improvements in this study result from using *oracles* to guide the self-correction process, and the improvements vanish when oracle labels are not available.
+
+
 ---
 
 ## Introduction
