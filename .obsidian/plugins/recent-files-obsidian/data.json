@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Self-RAG",
+      "path": "Self-RAG.md"
+    },
+    {
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
       "basename": "Self-Alignment with Instructable Reward Models",
       "path": "Self-Alignment with Instructable Reward Models.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Needle in a Haystack",
       "path": "Needle in a Haystack.md"
-    },
-    {
-      "basename": "Prompt Tuning",
-      "path": "Prompt Tuning.md"
-    },
-    {
-      "basename": "Magpie",
-      "path": "Magpie.md"
     }
   ],
   "omittedPaths": [],
