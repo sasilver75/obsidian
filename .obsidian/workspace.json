@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90c53fcb2c0ce67d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "554c69f83342599c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reflexion.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "85d664c79fbf614c",
             "type": "leaf",
             "state": {
@@ -121,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+                "file": "Self-Refine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+                "file": "Self-Refine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+                "file": "Self-Refine.md"
               }
             }
           },
@@ -194,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+                "file": "Self-Refine.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,11 +214,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "90c53fcb2c0ce67d",
+  "active": "85d664c79fbf614c",
   "lastOpenFiles": [
     "Reflexion.md",
-    "Self-Refine.md",
     "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+    "ReAct.md",
+    "_attachments/Pasted image 20240731105247.png",
+    "Gemma 2.md",
+    "Self-Refine.md",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "Self-RAG.md",
     "Self-Alignment with Instructable Reward Models.md",
@@ -259,7 +236,6 @@
     "_attachments/Pasted image 20240730151018.png",
     "_attachments/Pasted image 20240730151005.png",
     "_attachments/Pasted image 20240730150909.png",
-    "_attachments/Pasted image 20240730150416.png",
     "oasst1.md",
     "Constitutional AI.md",
     "FineWeb.md",
@@ -276,8 +252,6 @@
     "Prometheus.md",
     "Feedback Collection.md",
     "Pipeline Parallelism.md",
-    "Tensor Parallelism.md",
-    "Self-Reward.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

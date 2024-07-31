@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
-      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+      "basename": "Self-Refine",
+      "path": "Self-Refine.md"
     },
     {
       "basename": "Reflexion",
       "path": "Reflexion.md"
     },
     {
-      "basename": "Self-Refine",
-      "path": "Self-Refine.md"
+      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
+    },
+    {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
     },
     {
       "basename": "Apple Intelligence Foundation Language Models",
@@ -177,10 +185,6 @@
       "path": "SQuAD.md"
     },
     {
-      "basename": "ReAct",
-      "path": "ReAct.md"
-    },
-    {
       "basename": "Language Identification",
       "path": "Language Identification.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "UMAP",
       "path": "UMAP.md"
-    },
-    {
-      "basename": "t-SNE",
-      "path": "t-SNE.md"
     }
   ],
   "omittedPaths": [],

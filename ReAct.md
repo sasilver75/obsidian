@@ -8,6 +8,7 @@ Princeton, [[Google Research]] (Brain Team)
 #zotero 
 Takeaway: Explores the use of LLMs to generate both *reasoning traces* as well as *task-specific actions* in an interleaved manner, allowing for greater synergy between the two (reasoning traces help the model induce, track, and update action plans, while actions allow the model to gather additional information) (reason-to-act, and act-to-reason, respectively). They basically just train a model on human-written examples of tool use, where human annotators basically just write down their thoughts "Okay, so I should search for X", "It doesn't look like this had what I need, what if I search for Y?" "This means that I should do X", etc. as they solve the problem.
 
+Note: Subbarao Kambhampati [doesn't have nice things to say](https://youtu.be/hGXhFa3gzBs?si=MdW5opDIrgSt0Wr-) about ReAct's ability to generalize.
 
 ----
 ## Introduction
@@ -103,3 +104,9 @@ It seems for some reason seems like CoT is better at the "reasoning error" thing
 ![[Pasted image 20240717230214.png]]
 
 ![[Pasted image 20240717230244.png]]
+
+
+# Non-Paper Figures
+
+![[Pasted image 20240731105247.png]]
+https://youtu.be/hGXhFa3gzBs?si=PMUXYm6e8XwinTB_ : Generalization is non-existant; they 
