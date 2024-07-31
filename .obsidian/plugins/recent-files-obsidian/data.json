@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Self-RAG",
-      "path": "Self-RAG.md"
+      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+    },
+    {
+      "basename": "Reflexion",
+      "path": "Reflexion.md"
+    },
+    {
+      "basename": "Self-Refine",
+      "path": "Self-Refine.md"
     },
     {
       "basename": "Apple Intelligence Foundation Language Models",
       "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "Self-RAG",
+      "path": "Self-RAG.md"
     },
     {
       "basename": "Self-Alignment with Instructable Reward Models",
@@ -51,10 +63,6 @@
     {
       "basename": "LIMA",
       "path": "LIMA.md"
-    },
-    {
-      "basename": "Self-Refine",
-      "path": "Self-Refine.md"
     },
     {
       "basename": "Rule-Based Rewards",
@@ -191,14 +199,6 @@
     {
       "basename": "t-SNE",
       "path": "t-SNE.md"
-    },
-    {
-      "basename": "Persona Hub",
-      "path": "Persona Hub.md"
-    },
-    {
-      "basename": "Needle in a Haystack",
-      "path": "Needle in a Haystack.md"
     }
   ],
   "omittedPaths": [],
