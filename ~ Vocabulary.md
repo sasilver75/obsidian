@@ -453,6 +453,7 @@
 - [[Sparrow]]
 - [[Self-Alignment with Instructable Reward Models]] (SALMON)
 - [[SELF-ALIGN]]
+- [[Self-Directed Synthetic Dialogues]] (SDSD)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -1208,6 +1209,7 @@
 - [[Yi Tay]] 👨‍🔬
 - [[Yoshua Bengio]] 🙀
 - [[Chelsea Finn]] 🌲
+- [[Subbarao Kambhampati]] 🤔
 
 # Policy
 - [[SB-1047]]

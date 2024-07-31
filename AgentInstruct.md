@@ -17,6 +17,9 @@ References:
 	- "Automated model repairing: Now that we have ability to generate data for a particular skill... we need basically error handling; something we can plug in and take the y and $\hat{y}$, figures out the error, and figures out how to give feedback (eg training data), so that's where we're working now."
 - Blog Post: [The Rise of Agentic Data Generation by Maximme Labonne](https://huggingface.co/blog/mlabonne/agentic-datagen)
 
+Paper Club Note:
+- Some of the agents actually add in red herrings/extraneous information to prompts, it sounds like.
+
 ---
 
 ## Introduction
