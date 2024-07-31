@@ -9,6 +9,8 @@ Note: Gemma 2's Terms of Use has unrestricted use for the output, meaning models
 References:
 - Blog: [HuggingFace: Welcome Gemma 2 - Google's New Open LLM](https://huggingface.co/blog/gemma2)
 
+Update: Gemma "2B" was released on July 31, 2024, handily beating other models of a similar size (eg [[Phi-2]], [[Qwen 2]] 1.5B Instruct, etc.), *especially* in [[IFEval]], where it nearly *doubles* the scores of other models!
+
 ----
 
 ## Introduction

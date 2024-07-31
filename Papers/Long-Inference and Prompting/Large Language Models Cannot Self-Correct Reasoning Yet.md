@@ -26,11 +26,16 @@ Takeway: ...
 		2. Does it draw from external inputs? From humans, other models, external tools or knowledge sources?
 			- Models: [[Shepherd]], Refiner (2023)
 			- External tools and knowledge sources: Critic (2023), Teaching LLMs to Self-Debug (2023), Rarr (2023)
-		- This paper is going to focus on (1), whether LLMs have the ability to 
+		- This paper is going to focus on (1), whether LLMs have the inherent ability to correct their responses, without external or human feedback, a setting which we call ==**intrinsic self-correction***==.
 
 
 ## Can Large Language Models Self-Correct Reasoning?
-
+Self Correction with Oracle Feedback
+- Benchmarks: Focusing on [[GSM8K]] (grade-school math word problems; a previously-reported 7% improvement post self-correction), [[CommonSenseQA]] (MC questions for commonsense reasoning, with a previously-claimed 15% increase through self-correction), and [[HotpotQA]] (Multi-hop QA dataset, "significant performance improvement" priorly reported with self-correction)
+- Prompts: We apply a three-step prompting strategy for self-correction (eg like [[Reflexion]]):
+	1. Prompt the model to perform an initial generation
+	2. Prompt the model to review its previous generation and produce feedback.
+	3. Prompt the model to answer the original question again with feedback
 
 ## Self-Correction as Post-Hoc Prompting
 
