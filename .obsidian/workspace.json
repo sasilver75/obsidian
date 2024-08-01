@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
+                "file": "Nectar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e01aabafe1ee7653",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UltraFeedback.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa24f1704a55e055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nectar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e782d718b317da2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distillation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -85,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
+                "file": "Nectar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
+                "file": "Nectar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/General/Apple Intelligence Foundation Language Models.md"
+                "file": "Nectar.md"
               }
             }
           },
@@ -233,7 +273,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
+                "file": "Nectar.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -279,11 +319,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "308710955eeb74b1",
+  "active": "fa24f1704a55e055",
   "lastOpenFiles": [
+    "UltraFeedback.md",
+    "Nectar.md",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "Distillation.md",
+    "Mixture of Experts.md",
     "Fully Sharded Data Parallelism.md",
     "~ Vocabulary.md",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "Gemma 2.md",
     "_attachments/Pasted image 20240731162704.png",
     "float32.md",
@@ -313,10 +357,6 @@
     "WizardLM.md",
     "oasst1.md",
     "Constitutional AI.md",
-    "FineWeb.md",
-    "UltraChat.md",
-    "Instruction Backtranslation.md",
-    "SAM 2.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
