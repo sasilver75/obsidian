@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Nectar",
+      "path": "Nectar.md"
+    },
+    {
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
+    },
+    {
       "basename": "Apple Intelligence Foundation Language Models",
       "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Mixture of Experts",
+      "path": "Mixture of Experts.md"
     },
     {
       "basename": "Fully Sharded Data Parallelism",
@@ -183,22 +199,6 @@
     {
       "basename": "Magicoder",
       "path": "Magicoder.md"
-    },
-    {
-      "basename": "Process Reward Model",
-      "path": "Process Reward Model.md"
-    },
-    {
-      "basename": "Hallucination",
-      "path": "Hallucination.md"
-    },
-    {
-      "basename": "SQuAD v2",
-      "path": "SQuAD v2.md"
-    },
-    {
-      "basename": "CommonSenseQA",
-      "path": "CommonSenseQA.md"
     }
   ],
   "omittedPaths": [],

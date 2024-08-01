@@ -11,6 +11,8 @@ Takeaway: They introduce an MoE layer to the stacked LSTM context, where an MoE 
 Notes:
 - When someone says "8x7B"
 
+> "'You at AI2 do not have the engineering throughput to deal with the headaches of getting mixture-of-experts to work' is a comment from my big lab friends." - Nathan Lambert
+
 ---
 
 Notes:
