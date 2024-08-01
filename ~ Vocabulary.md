@@ -349,6 +349,7 @@
 - [[Tensor Parallelism]]
 - [[Pipeline Parallelism]]
 - [[Context Parallelism]]
+- [[Sequence Parallelism]]
 - [[Fully Sharded Data Parallelism]] (FSDP)
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
@@ -454,6 +455,7 @@
 - [[Self-Alignment with Instructable Reward Models]] (SALMON)
 - [[SELF-ALIGN]]
 - [[Self-Directed Synthetic Dialogues]] (SDSD)
+- [[Apple Intelligence Foundation Language Models|Apple Foundation Model]] (AFM)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]

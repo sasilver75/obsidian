@@ -7,7 +7,6 @@ References:
 - Blog: [Meta AI: Fully Sharded Data Parallel: Faster AI training with fewer GPUs](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
 
 Cf: [[Model Parallelism]], [[Data Parallelism]]
-Supported by PyTorch and 
 
 A distributed training technique for large neural networks. An extension of [[Data Parallelism]] that aims to overcome memory limitations and improve training efficiency. It allows us to train orders of magnitude larger models using fewer GPUs. It's relatively free of trade-offs (compared to alternatives),  optimizing memory efficiency by sharding model parameters, gradients, and optimizer states across GPUs, and improving computational efficiency by decomposing the communication and overlapping it with both the forward and backward passes. Produces identical results as standard distributed [[Data Parallelism|Data Parallel]] (DDP) training, and is available in an easy-to-use interface that's a drop-in replacement for PyTorch's DistributedDataParallel module.
 
