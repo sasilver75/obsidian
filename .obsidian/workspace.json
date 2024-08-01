@@ -8,90 +8,77 @@
         "type": "tabs",
         "children": [
           {
-            "id": "85d664c79fbf614c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b397a2e727470c1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3545848c213faa65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b4e7c10d8120ab7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Directed Synthetic Dialogues.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fa88f7c0319c0f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AgentInstruct.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24f0ad4171e808b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Directed Synthetic Dialogues.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "308710955eeb74b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Persona Hub.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e2dbe6280c1544e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fully Sharded Data Parallelism.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d46353783b264d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b6fcb9fa722b56e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gemma 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8c0f0cfe3ebe649",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Todo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "657d5420df20efb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -173,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md"
               }
             }
           },
@@ -246,7 +233,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -292,8 +279,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "85d664c79fbf614c",
+  "active": "308710955eeb74b1",
   "lastOpenFiles": [
+    "Fully Sharded Data Parallelism.md",
+    "~ Vocabulary.md",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "Gemma 2.md",
+    "_attachments/Pasted image 20240731162704.png",
+    "float32.md",
+    "~ Todo.md",
+    "Persona Hub.md",
+    "Self-Directed Synthetic Dialogues.md",
+    "AgentInstruct.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240731152048.png",
+    "_attachments/Pasted image 20240731151125.png",
     "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
     "_attachments/Pasted image 20240731150158.png",
     "_attachments/Pasted image 20240731150142.png",
@@ -301,22 +301,12 @@
     "_attachments/Pasted image 20240731145459.png",
     "Tree of Thoughts.md",
     "Shepherd.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240731140620.png",
     "_attachments/Pasted image 20240731140055.png",
-    "Self-Directed Synthetic Dialogues.md",
-    "AgentInstruct.md",
-    "Persona Hub.md",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20240731114552.png",
-    "_attachments/Pasted image 20240731113657.png",
-    "_attachments/Pasted image 20240731113635.png",
-    "_attachments/Pasted image 20240731113505.png",
     "Self-Refine.md",
     "Reflexion.md",
     "ReAct.md",
-    "Gemma 2.md",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "Self-RAG.md",
     "Self-Alignment with Instructable Reward Models.md",
     "FLAN.md",
@@ -327,8 +317,6 @@
     "UltraChat.md",
     "Instruction Backtranslation.md",
     "SAM 2.md",
-    "LIMA.md",
-    "Rule-Based Rewards.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

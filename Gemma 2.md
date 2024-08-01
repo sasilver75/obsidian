@@ -178,5 +178,7 @@ For the small Gemma 2, it seems to be meaningfully more performance than (eg) [[
 
 
 
+# Non-Paper Figures
 
-
+![[Pasted image 20240731162704.png]]
+For the Gemma 2 2B model from Daniel Han

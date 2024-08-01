@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "Fully Sharded Data Parallelism",
+      "path": "Fully Sharded Data Parallelism.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
+    },
+    {
+      "basename": "float32",
+      "path": "float32.md"
+    },
+    {
+      "basename": "~ Todo",
+      "path": "~ Todo.md"
+    },
+    {
+      "basename": "Persona Hub",
+      "path": "Persona Hub.md"
+    },
+    {
+      "basename": "Self-Directed Synthetic Dialogues",
+      "path": "Self-Directed Synthetic Dialogues.md"
+    },
+    {
+      "basename": "AgentInstruct",
+      "path": "AgentInstruct.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
@@ -17,22 +53,6 @@
       "path": "Shepherd.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Self-Directed Synthetic Dialogues",
-      "path": "Self-Directed Synthetic Dialogues.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
-      "basename": "Persona Hub",
-      "path": "Persona Hub.md"
-    },
-    {
       "basename": "Self-Refine",
       "path": "Self-Refine.md"
     },
@@ -43,14 +63,6 @@
     {
       "basename": "ReAct",
       "path": "ReAct.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
     },
     {
       "basename": "Self-RAG",
@@ -187,18 +199,6 @@
     {
       "basename": "CommonSenseQA",
       "path": "CommonSenseQA.md"
-    },
-    {
-      "basename": "False Refuse",
-      "path": "False Refuse.md"
-    },
-    {
-      "basename": "float16",
-      "path": "float16.md"
-    },
-    {
-      "basename": "SQuAD",
-      "path": "SQuAD.md"
     }
   ],
   "omittedPaths": [],
