@@ -1,3 +1,3 @@
-Training a model on a long prompt, and then running supervised learning onto the output with a shorter system prompt ((? This is bad lol))
+Training a model on a long prompt, and then running supervised learning onto the output with a shorter system prompt ((? This is bad explanation lol))
 
 ![[Pasted image 20240616235151.png]]
