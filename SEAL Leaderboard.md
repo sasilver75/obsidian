@@ -27,3 +27,4 @@ The usual challenges of leaderboards and evaluation include:
 
 Scale uses Elo-rankings to compare model performance across datasets; human evaluators compare responses of two models to the same prompt, and rate which is better along a multitude of capabilities. They use the same method as [[ChatBot Arena]], with the Bradley-Terry model... Authors also estimate confidence intervals using a bootstrapping technique (repeatedly sampling from the data with replacement).
 
+Unfortunately... SEAL Leaderboards are going to have a ==ceiling on trust==, due to the clear conflict of interests where models they're selling training data to likely have an advantage by possibly being in-distribution for human raters.
