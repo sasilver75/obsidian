@@ -8,194 +8,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "1791560d984f7fc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "308710955eeb74b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6d24cf800039559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Todo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78dc505530d4bad2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Speculative Decoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d4eb18d42e1fcf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EvalPlus.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3dbaaa517b8d19a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Constitutional AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e01aabafe1ee7653",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UltraFeedback.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa24f1704a55e055",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daphne Koeller.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e782d718b317da2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distillation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e2dbe6280c1544e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fully Sharded Data Parallelism.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d46353783b264d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b6fcb9fa722b56e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemma 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8c0f0cfe3ebe649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Todo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "657d5420df20efb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b398a0e0a332780",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FLAN-T5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b13de8f338b3edbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encoder-Decoder Architecture.md",
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -256,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -278,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+                "file": "C4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+                "file": "C4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md"
+                "file": "C4.md"
               }
             }
           },
@@ -351,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+                "file": "C4.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -397,10 +227,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "308710955eeb74b1",
+  "active": "1791560d984f7fc0",
   "lastOpenFiles": [
-    "~ Todo.md",
+    "Magpie.md",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
     "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+    "~ Todo.md",
     "Attention.md",
     "Speculative Decoding.md",
     "Encoder-Decoder Architecture.md",
@@ -420,7 +253,6 @@
     "_attachments/Pasted image 20240801233538.png",
     "_attachments/Pasted image 20240801230443.png",
     "_attachments/Pasted image 20240801224547.png",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "SEAL Leaderboard.md",
     "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
     "SEALS.md",
@@ -433,8 +265,6 @@
     "_attachments/Pasted image 20240801194003.png",
     "UltraFeedback.md",
     "Transformer.md",
-    "Epoch.md",
-    "Indices/Human Preferences.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

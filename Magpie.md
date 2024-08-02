@@ -7,6 +7,9 @@ Takeaway: Built on the simple observation that if you only input the system temp
 - See full Magpie collection [here](https://huggingface.co/Magpie-Align)
 - It seems from Figure 6 that Magpie data creates models good at Creative Tasks, Reasoning and Planning, and Info Seeking, but not Math and Data or Coding and Debugging.
 
+
+	Update (August 2, 2024): Since then. LLaMA 3.1 was released, so HuggingFace folks used [[LLaMA 3.1]] 405B and [[Distilabel]] to create a new ==Magpie Ultra v0.1== ([described here](https://x.com/gabrielmbmb_/status/1819398254867489001)), the first public synthetic dataset created with LLaMA 3.1 405B. Includes 50k *unfiltered rows* with instruction-response pairs across {information seeking, reasoning, planning, editing, coding and debugging, math, data analysis, creative writing, advice-seeking, brainstorming, and more}. They are working to bring out a filtered version. The dataset can be used for SFT, but also for RLAIF, because they included both an instruct model and base model response for each instruction.
+
 ---
 ## Introduction
 - The effectiveness of instruction tuning depends crucially on access to high-quality instruction datasets, but alignment datasets typically used to fine-tuned models like [[LLaMA 3]]-Instruct are typically private.

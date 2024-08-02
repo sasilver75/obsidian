@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "C4",
+      "path": "C4.md"
+    },
+    {
+      "basename": "Magpie",
+      "path": "Magpie.md"
+    },
+    {
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
+      "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
+    },
+    {
       "basename": "What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}",
       "path": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md"
     },
@@ -51,10 +67,6 @@
     {
       "basename": "Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}",
       "path": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
     },
     {
       "basename": "SEAL Leaderboard",
@@ -187,18 +199,6 @@
     {
       "basename": "Self-RAG",
       "path": "Self-RAG.md"
-    },
-    {
-      "basename": "Self-Alignment with Instructable Reward Models",
-      "path": "Self-Alignment with Instructable Reward Models.md"
-    },
-    {
-      "basename": "FLAN",
-      "path": "FLAN.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
     }
   ],
   "omittedPaths": [],
