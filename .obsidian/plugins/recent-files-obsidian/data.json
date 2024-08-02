@@ -5,6 +5,14 @@
       "path": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "EvalPlus",
+      "path": "EvalPlus.md"
+    },
+    {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "UltraFeedback",
       "path": "UltraFeedback.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Transformer",
@@ -195,10 +199,6 @@
     {
       "basename": "Pipeline Parallelism",
       "path": "Pipeline Parallelism.md"
-    },
-    {
-      "basename": "Tensor Parallelism",
-      "path": "Tensor Parallelism.md"
     }
   ],
   "omittedPaths": [],
