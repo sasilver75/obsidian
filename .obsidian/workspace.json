@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
+                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78dc505530d4bad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Speculative Decoding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -225,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
+                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
+                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
+                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
               }
             }
           },
@@ -298,7 +311,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
+                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -346,10 +359,24 @@
   },
   "active": "308710955eeb74b1",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240801220415.png",
+    "_attachments/Pasted image 20240801235750.png",
+    "_attachments/Pasted image 20240801235525.png",
+    "_attachments/Pasted image 20240801234112.png",
+    "_attachments/Pasted image 20240801233937.png",
+    "_attachments/Pasted image 20240801233754.png",
+    "_attachments/Pasted image 20240801233538.png",
+    "_attachments/Pasted image 20240801230443.png",
+    "Speculative Decoding.md",
+    "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
+    "_attachments/Pasted image 20240801224547.png",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "SEAL Leaderboard.md",
+    "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
     "~ Vocabulary.md",
-    "EvalPlus.md",
+    "SEALS.md",
     "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
+    "_attachments/Pasted image 20240801220415.png",
+    "EvalPlus.md",
     "~ Recommendations.md",
     "Constitutional AI.md",
     "Recommendation Systems.md",
@@ -357,15 +384,9 @@
     "Zephyr.md",
     "_attachments/Pasted image 20240801194003.png",
     "_attachments/Pasted image 20240801194001 1.png",
-    "_attachments/Pasted image 20240801194001.png",
     "UltraFeedback.md",
-    "_attachments/Pasted image 20240801192424.png",
-    "_attachments/Pasted image 20240801192421.png",
-    "_attachments/Pasted image 20240801192110.png",
     "Transformer.md",
     "Epoch.md",
-    "_attachments/Pasted image 20240801181218.png",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "Indices/Human Preferences.md",
     "Tulu 2.md",
     "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
@@ -374,14 +395,6 @@
     "Melanie Mitchell.md",
     "Distillation.md",
     "Mixture of Experts.md",
-    "Fully Sharded Data Parallelism.md",
-    "Gemma 2.md",
-    "_attachments/Pasted image 20240731162704.png",
-    "float32.md",
-    "Persona Hub.md",
-    "Self-Directed Synthetic Dialogues.md",
-    "_attachments/Pasted image 20240731152048.png",
-    "_attachments/Pasted image 20240731151125.png",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

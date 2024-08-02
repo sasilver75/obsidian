@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}",
-      "path": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
+      "basename": "Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}",
+      "path": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
+    },
+    {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
+    },
+    {
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "SEAL Leaderboard",
+      "path": "SEAL Leaderboard.md"
+    },
+    {
+      "basename": "ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}",
+      "path": "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "SEALS",
+      "path": "SEALS.md"
+    },
+    {
+      "basename": "Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}",
+      "path": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
     },
     {
       "basename": "EvalPlus",
@@ -43,10 +67,6 @@
     {
       "basename": "Epoch",
       "path": "Epoch.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
     },
     {
       "basename": "Human Preferences",
@@ -179,26 +199,6 @@
     {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}",
-      "path": "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
-    },
-    {
-      "basename": "Prometheus",
-      "path": "Prometheus.md"
-    },
-    {
-      "basename": "Feedback Collection",
-      "path": "Feedback Collection.md"
-    },
-    {
-      "basename": "Pipeline Parallelism",
-      "path": "Pipeline Parallelism.md"
     }
   ],
   "omittedPaths": [],
