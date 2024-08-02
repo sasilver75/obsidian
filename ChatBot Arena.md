@@ -11,6 +11,8 @@ Arena-like systems that depend on the wisdom of the crowd works pretty well for 
 Additional "problems": Human evaluation is time-consuming and resource intensive, which limits the scale and frequency of evaluation of a given model. Due to LMSYS's priority limitations, most models aren't even able to participate in arena evaluations. Furthermore, the community only has access to a limited subset of conversation/preference data from LMSYS. This is one of the motivations for projects like [[WizardArena]].
 
 
+Note: There was a kerfuffle when LMSYS showed that [[GPT-4o Mini]] was a top-3 model; LMSYS then went so far as to share a [thread](https://x.com/lmsysorg/status/1816838034270150984) and a [demo](https://huggingface.co/spaces/lmsys/gpt-4o-mini_battles) to specifically show how GPT-4o-mini performed so well on their arena and it paints a clear picture of what the _average_ ChatBotArena user tests -- it's mostly about style and whether the model is refusing safety-borderline prompts.
+
 -----
 
 

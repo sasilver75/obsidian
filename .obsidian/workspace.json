@@ -8,12 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1791560d984f7fc0",
+            "id": "519db7d9731ed45e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C4.md",
+                "file": "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1af4aed520a6d94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEAL Leaderboard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c58962ecba54ba35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatBot Arena.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C4.md",
+                "file": "SEAL Leaderboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C4.md",
+                "file": "SEAL Leaderboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C4.md"
+                "file": "SEAL Leaderboard.md"
               }
             }
           },
@@ -181,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "C4.md",
+                "file": "SEAL Leaderboard.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,11 +254,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1791560d984f7fc0",
+  "active": "f1af4aed520a6d94",
   "lastOpenFiles": [
-    "Magpie.md",
+    "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md",
+    "_attachments/Pasted image 20240802122652.png",
+    "_attachments/Pasted image 20240802122631.png",
+    "ChatBot Arena.md",
+    "_attachments/Pasted image 20240802121557.png",
+    "_attachments/Pasted image 20240802121510.png",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+    "C4.md",
+    "Magpie.md",
     "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
     "~ Todo.md",
     "Attention.md",
@@ -251,20 +285,12 @@
     "_attachments/Pasted image 20240801233937.png",
     "_attachments/Pasted image 20240801233754.png",
     "_attachments/Pasted image 20240801233538.png",
-    "_attachments/Pasted image 20240801230443.png",
-    "_attachments/Pasted image 20240801224547.png",
     "SEAL Leaderboard.md",
     "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
     "SEALS.md",
     "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
-    "_attachments/Pasted image 20240801220415.png",
     "~ Recommendations.md",
     "Constitutional AI.md",
-    "Recommendation Systems.md",
-    "Zephyr.md",
-    "_attachments/Pasted image 20240801194003.png",
-    "UltraFeedback.md",
-    "Transformer.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
