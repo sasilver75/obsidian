@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}",
-      "path": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
+      "basename": "What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}",
+      "path": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md"
+    },
+    {
+      "basename": "~ Todo",
+      "path": "~ Todo.md"
+    },
+    {
+      "basename": "Attention",
+      "path": "Attention.md"
     },
     {
       "basename": "Speculative Decoding",
       "path": "Speculative Decoding.md"
+    },
+    {
+      "basename": "Encoder-Decoder Architecture",
+      "path": "Encoder-Decoder Architecture.md"
+    },
+    {
+      "basename": "Context Distillation",
+      "path": "Context Distillation.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "DeepSeek-Coder-V2",
+      "path": "DeepSeek-Coder-V2.md"
+    },
+    {
+      "basename": "EvalPlus",
+      "path": "EvalPlus.md"
+    },
+    {
+      "basename": "Yi Tay",
+      "path": "Yi Tay.md"
+    },
+    {
+      "basename": "FLAN-T5",
+      "path": "FLAN-T5.md"
+    },
+    {
+      "basename": "DeepSeek-Coder",
+      "path": "DeepSeek-Coder.md"
+    },
+    {
+      "basename": "Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}",
+      "path": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
     },
     {
       "basename": "Apple Intelligence Foundation Language Models",
@@ -21,20 +65,12 @@
       "path": "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "SEALS",
       "path": "SEALS.md"
     },
     {
       "basename": "Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}",
       "path": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
-    },
-    {
-      "basename": "EvalPlus",
-      "path": "EvalPlus.md"
     },
     {
       "basename": "~ Recommendations",
@@ -47,10 +83,6 @@
     {
       "basename": "Recommendation Systems",
       "path": "Recommendation Systems.md"
-    },
-    {
-      "basename": "~ Todo",
-      "path": "~ Todo.md"
     },
     {
       "basename": "Zephyr",
@@ -167,38 +199,6 @@
     {
       "basename": "WizardLM",
       "path": "WizardLM.md"
-    },
-    {
-      "basename": "oasst1",
-      "path": "oasst1.md"
-    },
-    {
-      "basename": "FineWeb",
-      "path": "FineWeb.md"
-    },
-    {
-      "basename": "UltraChat",
-      "path": "UltraChat.md"
-    },
-    {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
-    },
-    {
-      "basename": "SAM 2",
-      "path": "SAM 2.md"
-    },
-    {
-      "basename": "LIMA",
-      "path": "LIMA.md"
-    },
-    {
-      "basename": "Rule-Based Rewards",
-      "path": "Rule-Based Rewards.md"
-    },
-    {
-      "basename": "Nemotron-4",
-      "path": "Nemotron-4.md"
     }
   ],
   "omittedPaths": [],

@@ -274,6 +274,7 @@
 - [[Online Distillation]]
 - [[Context Distillation]]
 - [[Hallucination]]
+- [[Prefix Language Model]]
 - [[Inductive Bias]]
 - [[Reward Model]] (RM)
 - [[Pairwise Ranking]] vs [[Direct Assessment]]

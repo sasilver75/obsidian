@@ -1,3 +1,9 @@
+---
+aliases:
+  - DSC
+---
+
+
 January 25, 2024 -- [[DeepSeek]]
 Paper: [DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence](https://arxiv.org/abs/2401.14196)
 

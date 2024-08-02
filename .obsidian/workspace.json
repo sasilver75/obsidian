@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
+                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6d24cf800039559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Todo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -156,7 +169,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b398a0e0a332780",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FLAN-T5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b13de8f338b3edbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encoder-Decoder Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -192,7 +231,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rubric",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,7 +256,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -238,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
+                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
+                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
+                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md"
               }
             }
           },
@@ -311,7 +351,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
+                "file": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -359,6 +399,19 @@
   },
   "active": "308710955eeb74b1",
   "lastOpenFiles": [
+    "~ Todo.md",
+    "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+    "Attention.md",
+    "Speculative Decoding.md",
+    "Encoder-Decoder Architecture.md",
+    "Context Distillation.md",
+    "~ Vocabulary.md",
+    "DeepSeek-Coder-V2.md",
+    "EvalPlus.md",
+    "Yi Tay.md",
+    "FLAN-T5.md",
+    "DeepSeek-Coder.md",
+    "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
     "_attachments/Pasted image 20240801235750.png",
     "_attachments/Pasted image 20240801235525.png",
     "_attachments/Pasted image 20240801234112.png",
@@ -366,35 +419,22 @@
     "_attachments/Pasted image 20240801233754.png",
     "_attachments/Pasted image 20240801233538.png",
     "_attachments/Pasted image 20240801230443.png",
-    "Speculative Decoding.md",
-    "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
     "_attachments/Pasted image 20240801224547.png",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "SEAL Leaderboard.md",
     "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
-    "~ Vocabulary.md",
     "SEALS.md",
     "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
     "_attachments/Pasted image 20240801220415.png",
-    "EvalPlus.md",
     "~ Recommendations.md",
     "Constitutional AI.md",
     "Recommendation Systems.md",
-    "~ Todo.md",
     "Zephyr.md",
     "_attachments/Pasted image 20240801194003.png",
-    "_attachments/Pasted image 20240801194001 1.png",
     "UltraFeedback.md",
     "Transformer.md",
     "Epoch.md",
     "Indices/Human Preferences.md",
-    "Tulu 2.md",
-    "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
-    "Nectar.md",
-    "Daphne Koeller.md",
-    "Melanie Mitchell.md",
-    "Distillation.md",
-    "Mixture of Experts.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
