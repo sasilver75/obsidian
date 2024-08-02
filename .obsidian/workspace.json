@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nectar.md",
+                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3dbaaa517b8d19a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Constitutional AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nectar.md",
+                "file": "Daphne Koeller.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,8 +137,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nectar.md",
+                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nectar.md",
+                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nectar.md"
+                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
               }
             }
           },
@@ -273,7 +285,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Nectar.md",
+                "file": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -319,44 +331,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fa24f1704a55e055",
+  "active": "308710955eeb74b1",
   "lastOpenFiles": [
+    "~ Recommendations.md",
+    "Constitutional AI.md",
+    "Recommendation Systems.md",
+    "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
+    "~ Todo.md",
+    "Zephyr.md",
+    "_attachments/Pasted image 20240801194003.png",
+    "_attachments/Pasted image 20240801194001 1.png",
+    "_attachments/Pasted image 20240801194001.png",
     "UltraFeedback.md",
-    "Nectar.md",
+    "~ Vocabulary.md",
+    "_attachments/Pasted image 20240801192424.png",
+    "_attachments/Pasted image 20240801192421.png",
+    "_attachments/Pasted image 20240801192110.png",
+    "Transformer.md",
+    "Epoch.md",
+    "_attachments/Pasted image 20240801181218.png",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "Indices/Human Preferences.md",
+    "Tulu 2.md",
+    "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+    "Nectar.md",
+    "Daphne Koeller.md",
+    "Melanie Mitchell.md",
     "Distillation.md",
     "Mixture of Experts.md",
     "Fully Sharded Data Parallelism.md",
-    "~ Vocabulary.md",
     "Gemma 2.md",
     "_attachments/Pasted image 20240731162704.png",
     "float32.md",
-    "~ Todo.md",
     "Persona Hub.md",
     "Self-Directed Synthetic Dialogues.md",
     "AgentInstruct.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240731152048.png",
     "_attachments/Pasted image 20240731151125.png",
-    "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
-    "_attachments/Pasted image 20240731150158.png",
-    "_attachments/Pasted image 20240731150142.png",
-    "_attachments/Pasted image 20240731145526.png",
-    "_attachments/Pasted image 20240731145459.png",
-    "Tree of Thoughts.md",
-    "Shepherd.md",
-    "_attachments/Pasted image 20240731140620.png",
-    "_attachments/Pasted image 20240731140055.png",
-    "_attachments/Pasted image 20240731114552.png",
-    "Self-Refine.md",
-    "Reflexion.md",
-    "ReAct.md",
-    "Self-RAG.md",
-    "Self-Alignment with Instructable Reward Models.md",
-    "FLAN.md",
-    "WizardLM.md",
-    "oasst1.md",
-    "Constitutional AI.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
