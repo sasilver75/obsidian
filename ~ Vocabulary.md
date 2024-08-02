@@ -941,6 +941,7 @@
 - [[Weights and Biases]] 📊
 - [[Zeta Alpha]] 📝
 - [[EvalPlus]]
+- [[Slurm]]
 
 
 # Benchmarks, Evaluations
