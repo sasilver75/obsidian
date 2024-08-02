@@ -12,6 +12,7 @@ Feb 2, 2023
 [[DeepMind]] (Chen et al)
 [Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318)
 
+A variety of token speculation techniques exist.
 
 References
 - [Video: Speculative Decoding: When two LLMs are Faster than One](https://www.youtube.com/watch?v=S-8yr_RibJ4)
