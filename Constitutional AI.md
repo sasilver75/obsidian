@@ -9,8 +9,11 @@ Paper: [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/
 Takeaway: CAI has two phases, a supervised learning phase and a reinforcement learning phase. In the supervised learning phase where we get the model "on distribution" by asking it to generate responses to a prompt, critique the prompt according to one of 16 principles, revise its response, given the prompt, origin response, and critique. This creates a dataset that we can train on in a supervised manner. In the RL phase, we hope to ameliorate the problem of asking humans for preference data. For "helpful" data, we still have to get human preference information, but for "harmless," we skip the RM-creating portion of the pipeline completely, and just use a reward model with CoT + 1/16 principle as a judge of "human" (via AI) preferences.
 
 References:
-- [[Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}]]
+- Notes: [[Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}]]
+- Notes: [[Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}]]
 
+Note: Anthropic's constitution (at time of paper) is available [here](https://raw.githubusercontent.com/anthropics/ConstitutionalHarmlessnessPaper/main/prompts/CritiqueRevisionInstructions.json)
+Note: I don't believe that this paper does anything besides zero-shot asking the model to critiques its responses, according to a principle(s?). In reality, the HuggingFace reimplementation article says that a good system prompt, post-processing of responses, and using few-shot prompting is required, especially when you're using small models.
 
 ----
 
@@ -72,3 +75,8 @@ Above: It makes sense to me that Helpfulness (which is sort of the capability to
 # Non-Paper Figures
 
 ![[Pasted image 20240412190738.png]]
+
+![[Pasted image 20240801192424.png]]
+This is such a good picture. It's from [here](https://huggingface.co/blog/constitutional_ai)
+To make the process more concrete, here's an example of a conversation that shows how the self-critique actually looks:
+![[Pasted image 20240801194003.png]]

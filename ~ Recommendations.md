@@ -123,8 +123,12 @@ Books
 
 Music
 - Tycho
-- Yvette Young
 - Boards of Canada
+- Tommy Guerrero
+- Emancipator
+- Bonobo
+- Khruangbin
+- 
 
 Locations
 - Midwest

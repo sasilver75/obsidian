@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Nectar",
-      "path": "Nectar.md"
+      "basename": "Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}",
+      "path": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
+    },
+    {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Constitutional AI",
+      "path": "Constitutional AI.md"
+    },
+    {
+      "basename": "Recommendation Systems",
+      "path": "Recommendation Systems.md"
+    },
+    {
+      "basename": "~ Todo",
+      "path": "~ Todo.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
     },
     {
       "basename": "UltraFeedback",
       "path": "UltraFeedback.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "Transformer.md"
+    },
+    {
+      "basename": "Epoch",
+      "path": "Epoch.md"
+    },
+    {
       "basename": "Apple Intelligence Foundation Language Models",
       "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "Human Preferences",
+      "path": "Indices/Human Preferences.md"
+    },
+    {
+      "basename": "Tulu 2",
+      "path": "Tulu 2.md"
+    },
+    {
+      "basename": "OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}",
+      "path": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md"
+    },
+    {
+      "basename": "Nectar",
+      "path": "Nectar.md"
+    },
+    {
+      "basename": "Daphne Koeller",
+      "path": "Daphne Koeller.md"
+    },
+    {
+      "basename": "Melanie Mitchell",
+      "path": "Melanie Mitchell.md"
     },
     {
       "basename": "Distillation",
@@ -25,20 +81,12 @@
       "path": "Fully Sharded Data Parallelism.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Gemma 2",
       "path": "Gemma 2.md"
     },
     {
       "basename": "float32",
       "path": "float32.md"
-    },
-    {
-      "basename": "~ Todo",
-      "path": "~ Todo.md"
     },
     {
       "basename": "Persona Hub",
@@ -101,10 +149,6 @@
       "path": "oasst1.md"
     },
     {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
-    },
-    {
       "basename": "FineWeb",
       "path": "FineWeb.md"
     },
@@ -155,50 +199,6 @@
     {
       "basename": "Tensor Parallelism",
       "path": "Tensor Parallelism.md"
-    },
-    {
-      "basename": "Self-Reward",
-      "path": "Self-Reward.md"
-    },
-    {
-      "basename": "Sparse Autoencoder",
-      "path": "Sparse Autoencoder.md"
-    },
-    {
-      "basename": "Sparrow",
-      "path": "Sparrow.md"
-    },
-    {
-      "basename": "LLaMA 3.1",
-      "path": "LLaMA 3.1.md"
-    },
-    {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
-    },
-    {
-      "basename": "Common Crawl",
-      "path": "Common Crawl.md"
-    },
-    {
-      "basename": "Datatrove",
-      "path": "Datatrove.md"
-    },
-    {
-      "basename": "Trafilatura",
-      "path": "Trafilatura.md"
-    },
-    {
-      "basename": "DeepSeek-Coder-V2",
-      "path": "DeepSeek-Coder-V2.md"
-    },
-    {
-      "basename": "Model FLOPs Utilization",
-      "path": "Model FLOPs Utilization.md"
-    },
-    {
-      "basename": "Magicoder",
-      "path": "Magicoder.md"
     }
   ],
   "omittedPaths": [],

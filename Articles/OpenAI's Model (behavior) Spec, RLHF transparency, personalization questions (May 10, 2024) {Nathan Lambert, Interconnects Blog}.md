@@ -1,5 +1,6 @@
 #article 
 Link: https://www.interconnects.ai/p/openai-rlhf-model-spec
+Actual OpenAI Model Spec: https://openai.com/index/introducing-the-model-spec/ 
 
 ----
 

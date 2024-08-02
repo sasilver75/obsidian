@@ -30,3 +30,7 @@ Variants:
 ![[Pasted image 20240130162320.png]]
 
 ![[Pasted image 20240130162218.png]]
+
+![[Pasted image 20240801181218.png]]
+Above: LLAMA2's architecture
+> "Transformer++" is GPT-2 plus [[Rotary Positional Embedding|RoPE]], [[SwiGLU]], [[RMSNorm]], and no biases. This is the architecture that most people think is the best transformer architecture for now. - Daniel Han (Unsloth, July 2024)
