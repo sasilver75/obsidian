@@ -8,17 +8,7 @@ July 29, 2024
 [[Apple]]
 [Apple Intelligence Foundation Language Models](https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models)
 #zotero 
-Takeaway: ...
-- Scratch
-	- AFM on device
-	- AFM server
-	- Responsible AI principles
-	- Posttraining
-		- Two stages:
-			- [[Supervised Fine-Tuning|SFT]] 
-			- [[Reinforcement Learning from Human Feedback|RLHF]] 
-		- Iterative Teaching Committee (iTeC)
-		- Leave-One-Out Estimator to estimate advantage of a prompt-response pair, and Mirror Descent Policy Optimization (MDPO) to optimize the policy, combined and named as Mirror Descent with Leave-One-Out Estimation (MDLOO).
+Takeaway: Apple Foundation Models is a suite of models for various tasks; this paper covers an AFM On-Device (3B) and AFM Server (?B) model. There's a particular focus on using swappable [[Low-Rank Adaptation|LoRA]] [[Adapter]]s at various positions in the network, to customize performance of models to tasks like summarization, rewriting, notifications, while keeping the model small. Efforts are made for effective quantization of models, followed by accuracy-recovering [[Low-Rank Adaptation|LoRA]] adapters that serve as the base for product-specific adapter finetuning described above. Notably in Post-training, authors introduce an ==Iterative Teaching Committee (iTeC)== technique, as well as a ==Mirror Descent with Leave-One-Out Estimation (MDLOO)== technique that authors say outperforms [[Proximal Policy Optimization|PPO]] by combining a leave-one-out estimator to estimate advantage of prompt-response pairs, and a Mirror Descent Policy Optimization (MDPO) to optimize the policy. Their RL incorporates both the *strength* of a preference (strongly, slightly, etc.), as well as "single-side grading" of each response.
 
 References:
 - Blog: [Swyx's AINews Apple Intelligence](https://buttondown.email/ainews/archive/ainews-apple-intelligence/)
