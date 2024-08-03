@@ -209,6 +209,8 @@
 - [[Variational Autoencoder]] (VAE)
 - [[Beta-VAE]]
 - [[Sparse Autoencoder]] (SAE)
+- [[VQ-VAE]]
+- [[VQGAN]]
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
 - [[Self-Attention]]

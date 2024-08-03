@@ -8,3 +8,4 @@ Learning rate schedules
 What are *influence functions* as described in the quoteblock in [[Tulu 2]]?
 Linear Attention?
 Prefix Language Models (PrefixLM)
+Bradley Terry and Bradley Terry Luce

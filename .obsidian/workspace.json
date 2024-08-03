@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "c77b089a0261621b",
+            "id": "b23856c40764d4a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trust Region Policy Optimization.md",
+                "file": "Bradley-Terry-Luce Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "58ac0e4b787a7449",
+            "id": "9acf00b9f0ded78d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kahneman-Tversky Optimization.md",
+                "file": "Self-Instruct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,33 +47,19 @@
             }
           },
           {
-            "id": "53d4d4df94baa5cc",
+            "id": "ff63b8120cb8f709",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Orca-Math.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ca3f9fbfeaed717",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+                "file": "~ Ideas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kahneman-Tversky Optimization.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kahneman-Tversky Optimization.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kahneman-Tversky Optimization.md"
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md"
               }
             }
           },
@@ -222,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kahneman-Tversky Optimization.md",
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -268,44 +254,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "58ac0e4b787a7449",
+  "active": "65d4caecd931bf71",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240802230736.png",
+    "_attachments/Pasted image 20240802225333.png",
+    "_attachments/Pasted image 20240802225307.png",
+    "~ Todo.md",
+    "Bradley-Terry-Luce Model.md",
+    "Self-Instruct.md",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "Identity-Mapping Preference Optimization.md",
+    "~ Ideas.md",
+    "~ Vocabulary.md",
+    "Trust Region Policy Optimization.md",
+    "Segment Anything Model.md",
+    "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md",
+    "VQAv2.md",
+    "~ Useful Pictures.md",
+    "VQGAN.md",
+    "VQ-VAE.md",
     "Orca-Math.md",
-    "Kahneman-Tversky Optimization.md",
     "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+    "_attachments/Pasted image 20240802211544.png",
+    "Diffusion Model.md",
+    "_attachments/Pasted image 20240802201242.png",
+    "_attachments/Pasted image 20240802201237.png",
+    "_attachments/Pasted image 20240802200337.png",
+    "ReAct.md",
+    "SAM 2.md",
+    "Kahneman-Tversky Optimization.md",
     "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
     "Direct Preference Optimization.md",
     "~ Recommendations.md",
-    "Trust Region Policy Optimization.md",
-    "~ Vocabulary.md",
     "MMLU.md",
     "SEAL Leaderboard.md",
-    "ChatBot Arena.md",
-    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
-    "MGSM.md",
-    "InfiniteBench.md",
-    "ZeroSCROLLS.md",
-    "Nexus.md",
-    "Berkeley Function-Calling Leaderboard.md",
-    "GPQA.md",
-    "ARC Challenge.md",
-    "MATH.md",
-    "GSM8K.md",
-    "MBPP.md",
-    "HumanEval.md",
-    "IFEval.md",
-    "voca.md",
-    "Chameleon.md",
     "_attachments/Pasted image 20240802122652.png",
     "_attachments/Pasted image 20240802122631.png",
     "_attachments/Pasted image 20240802121557.png",
     "_attachments/Pasted image 20240802121510.png",
-    "_attachments/Pasted image 20240801235750.png",
-    "_attachments/Pasted image 20240801235525.png",
-    "_attachments/Pasted image 20240801234112.png",
-    "_attachments/Pasted image 20240801233937.png",
-    "_attachments/Pasted image 20240801233754.png",
-    "_attachments/Pasted image 20240801233538.png",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

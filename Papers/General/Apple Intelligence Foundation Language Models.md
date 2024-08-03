@@ -13,6 +13,12 @@ Takeaway: ...
 	- AFM on device
 	- AFM server
 	- Responsible AI principles
+	- Posttraining
+		- Two stages:
+			- [[Supervised Fine-Tuning|SFT]] 
+			- [[Reinforcement Learning from Human Feedback|RLHF]] 
+		- Iterative Teaching Committee (iTeC)
+		- Leave-One-Out Estimator to estimate advantage of a prompt-response pair, and Mirror Descent Policy Optimization (MDPO) to optimize the policy, combined and named as Mirror Descent with Leave-One-Out Estimation (MDLOO).
 
 References:
 - Blog: [Swyx's AINews Apple Intelligence](https://buttondown.email/ainews/archive/ainews-apple-intelligence/)
@@ -89,10 +95,79 @@ References:
 
 
 ## Post-training
-- 
+- Even though we use task-specific adapters, we found lifts from post-training; we instill general purpose *instruction following and conversation capabilities* to AFM models, with the goal being to ensure these model capabilities are aligned with Apple core values/principles.
+- Two stages:
+	- [[Supervised Fine-Tuning|SFT]] (using a rejection sampling fine-tuning algorithm with teacher committee (==iTeC==))
+	- [[Reinforcement Learning from Human Feedback|RLHF]] (using a mirror descent policy optimization and leave-one-out advantage estimator (==MDLOO==))
+- Data
+	- We use a hybrid data strategy of both human-annotated and synthetic data; we've found *data quality to be the key to model success*, and have thus conducted extensive data curation and filtering procedures.
+	- Demonstration Data
+		- To fuel instruction fine-tuning of AFM, we collect high-quality human annotated demonstration datasets from *various sources.* This data consists of *both system-level and task-level instructions/prompts*, as well as their corresponding instructions.
+		- We focus on ==helpfulness, harmlessness, presentation, and response accuracy, and target a diverse task distribution covering Apple Intelligence features.==
+	- Human preference feedback
+		- We instruct human annotators to compare and rank two model responses for the same prompt to collect side-by-side preference labels.
+		- We also use "single-side question" to guide this process; these ask raters to grade model response quality on various aspects including instruction following, safety, factuality, and presentation, and we retain these labels for model training.
+	- Synthetic Data
+		- When guided by robust reward models, AFMs are capable of generating high-quality responses that, in some domains, are superior even to human annotations.
+		- Primarily in the domains of:
+			- ==Mathematics== (usually expert knowledge and laborious work; generating math problems and their solutions)
+				- *Problem **rephrase** and **reversion***: Rephrase seed math questions and curate reverse questions, asking the model to derive some specific number in a problem statement when provided with the final answer.
+				- *Problem evolution*: Inspired by [[Evol-Instruct]]; given a seed problem, evolve it either in-depth (adding complexity) or in-breadth (improving topic coverage). Ultimately, we only select problems that score above a certain depth (difficulty) threshold.
+				- We then prompt AFM to synthesize responses N responses with CoT per-question. We use ground-truth if available to filter answers, or otherwise assess correctness response by querying an LLM judge.
+			- ==Tool Use==
+				- We develop tool-use capabilities (eg function calling, code-interpreter, browsing) through a mixture of human and synthetic data.
+				- Bootstrap with synthetic data, which focuses on single-tool use cases, and then collect human annotations that involve multi-tool and multi-step scenarios.
+			- ==Coding==
+				- The generation of synthetic coding dataset involves a [[Self-Instruct]] method with [[Rejection Sampling]]. 
+				- They start with 71 different programming topics as seeds, and use the model to generate an initial pool of coding interview-like question. 
+					- For each question, we generate a set of unit tests and a number of potential solutions, and use an execution-based rejection sampling method to select the best solution (the solution with the highest number of successful executions).
+- SFT
+	- We establish a series of quality guards of data, including ratings from in-house human labelers, ==automatic model-based filtering techniques==, as well as ==deduplication using text embeddings==. We scale up via a variety of synthetic data generation methods and rejection sampling, as described above.
+	- We treat the mixture ratio as an optimization problem ((It seems like they literally use something like a gradient descent, training models at each point)).
+	- AFM Server uses 5e-6 LR, and 2e-5 for AFM-device, as well as a dropout rate of 0.1.
+- RLHF
+	- We train a robust reward model and apply it in two algorithms of ==iTeC== and ==MDLOO==.
+	- Reward Modeling
+		- Trained using human preference data, with each item containing one prompt and two responses, along with human labels indicating both:
+			1. The preferred response between the two, as the *==preference level==* (significantly better, better, slightly better, negligibly better)
+			2. The ==*single-sided grading*== of each response, measuring degree of (instruction following, conciseness, truthfulness, harmlessness) of the responses.
+		- RM training has two main innovations:
+			1. ==A soft label loss function that takes the *level of human preference* into account.==
+			2. ==We incorporate single-sided gradings as *regularization terms* in reward modeling.==
+	- Authors incorporate the [[Bradley-Terry-Luce Model]] (BTL Model) for reward modeling, where the probability that a human annotator prefers one response over another is modeled as the sigmoid function of the difference of the rewards.
+		- Authors find their method works better than margin-based loss functions (eg like that used in [[LLaMA 2]])
+		- ...and that using the single-sided gradings as regularization terms improves accuracy of the reward model.
+	- ==Iterative Teaching Committee (iTeC)==
+		- Authors use a novel RLHF framework that combines various preference optimization algorithms, including:
+			1. [[Rejection Sampling]]
+			2. [[Direct Preference Optimization]] and its variants, such as [[Identity-Mapping Preference Optimization|IPO]]
+			3. Online reinforcement learning (RL)  ((Meaning [[Proximal Policy Optimization|PPO]]?))
+		- Iterative committee: An important lesson is to refresh online human preference data collection using a *diverse set* of the best-performing models!
+			- For each batch of human preference data collection, we set up a collection of latest promising models trained from SFT/RS/DPO/IPO/RL, as well as the best models from previous iterations. We refer to this as our ==model committee==. We collect pairwise human preference on responses *sampled from the latest model committee* to update our reward model. We then continue the next round of RLHF.
+		- Committee Distillation
+			- We further run [[Rejection Sampling]] from the model committee with the latest reward model as a reranker. For each prompt, we sample multiple responses from each model in the committee, using the latest reward model to select the best response for each prompt. This allows us to combine advantages of models trained by different preference optimization algorithms.
+				- We find that online RLHF, DPO, and IPO are good at improving math skills, while rejection sampling fine-tuning learns instruction following and writing skills more effectively.
+			- Authors found that data quality matters more than data quantity for larger models, but smaller models can achieve tremendous improvement when we scale up the *number* of prompts for distillation.
+	- Online RLHF Algorithm: ==MDLOO==
+		- We use the commonly-adopted RLHF objective that maximizes the KL-penalized expected reward function:
+		- ![[Pasted image 20240802225307.png]]
+		- In their RL training authors use the follow equation, whose expectation is equivalent to equation (1) above:
+		- ![[Pasted image 20240802225333.png]]
+		- Similar to commonly-used RLHF algorithms like [[Proximal Policy Optimization|PPO]], we use a trust-region based policy iteration algorithm, making two main design choices in our online RL algorithm:
+			1. Use a ==Leave-One-Out (LOO) estimator== to estimate the advantage of a prompt-response pair.
+			2. We use ==Mirror Descent Policy Optimization (MDPO)== to optimize the policy, differently from the more commonly-used clipping-based PPO method.
+		- Authors combined these and named it as ==Mirror Descent with Leave-One-Out Estimation (MDLOO)==.
+			- For the decoding stage of the algorithm, we decode multiple response for each prompt, assign the *advantage* of each response to be the difference of the reward of the (prompt, response) pair and the mean reward of the other responses generated by the same prompt.
+				- This aims to estimate how much better a response is compared to a typical response.
+				- We find this crucial in stabilizing the RL algorithm!
+			- We use a KL-regularization-based trust-region method (==MDPO==) to control the policy change in each iteration. We find this algorithm to be more effective than PPO in our setting.
 
 
 ## Powering Apple Intelligence Features
+- We elevate the performance of even small models to best-in-class performance through task-specific fine-tuning, enabling a single model to be specialized for dozens of tasks.
+- Adapter Architecture
+	- We use [[Low-Rank Adaptation|LoRA]] [[Adapter]]s that can be plugged into *various layers* of the base model!
+		- We adapt all of AFM's linear projection matrices in self attention layers, 
 
 
 ## Evaluation
@@ -115,3 +190,5 @@ Abstract
 
 ![[Pasted image 20240731152048.png|500]]
 Is this true for both AFM-on-device (3B) and AFM-server ("Larger")?
+
+![[Pasted image 20240802230736.png]]
