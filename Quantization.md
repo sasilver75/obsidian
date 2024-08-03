@@ -12,3 +12,4 @@ Challenges:
 - Accuracy degradation
 - Hardware support (efficient execution of certain quantization schemes might require hardware supporting lower-precision arithmetic operations)
 
+Note that [[Quantization]] is sometimes followed by (as in the case of [[Apple Intelligence Foundation Language Models|AFM]]) the use of accuracy-recovering [[Low-Rank Adaptation|LoRA]] [[Adapter]]s.

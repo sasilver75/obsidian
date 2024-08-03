@@ -1024,6 +1024,7 @@
 - [[Nexus]]
 - [[SciCode]]
 - [[MGSM]]
+- [[Arena-Hard-Auto]]
 
 
 # Datasets
