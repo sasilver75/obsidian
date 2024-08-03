@@ -43,6 +43,7 @@
 	- "Furthermore, the paper contains an analysis showing that the breadth or diversity in this dataset is much larger than that of other popular datasets for instruction finetuning, such as Alpaca, Evol Instruct, and UltraChat."
 	- The most interesting part of the paper to me was about the idea of using this to generate multiturn datasets! See [Magpie-Pro-MT](https://huggingface.co/datasets/Magpie-Align/Magpie-Pro-MT-300K-v0.1)
 - The RetroInstruct repo has an interesting list of ... topics? skills? [Here](https://github.com/JD-P/RetroInstruct/blob/main/WeaveEvalRubrics/rubric_themes.txt)
+- [[Apple Intelligence Foundation Language Models|AFM]] talks about creating single-tool synthetic data, but choosing (?) to rely on humans to create examples of multi-tool/multi-step scenarios. Can we synthetically generate that?
 
 
 https://x.com/thesephist/status/1734966611814289756?s=20

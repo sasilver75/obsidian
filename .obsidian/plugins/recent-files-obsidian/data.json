@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Kahneman-Tversky Optimization",
-      "path": "Kahneman-Tversky Optimization.md"
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "~ Todo",
+      "path": "~ Todo.md"
+    },
+    {
+      "basename": "Bradley-Terry-Luce Model",
+      "path": "Bradley-Terry-Luce Model.md"
+    },
+    {
+      "basename": "Self-Instruct",
+      "path": "Self-Instruct.md"
+    },
+    {
+      "basename": "Identity-Mapping Preference Optimization",
+      "path": "Identity-Mapping Preference Optimization.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Trust Region Policy Optimization",
+      "path": "Trust Region Policy Optimization.md"
+    },
+    {
+      "basename": "Segment Anything Model",
+      "path": "Segment Anything Model.md"
+    },
+    {
+      "basename": "How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}",
+      "path": "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md"
+    },
+    {
+      "basename": "VQAv2",
+      "path": "VQAv2.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "VQGAN",
+      "path": "VQGAN.md"
+    },
+    {
+      "basename": "VQ-VAE",
+      "path": "VQ-VAE.md"
     },
     {
       "basename": "Orca-Math",
@@ -11,6 +63,22 @@
     {
       "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
       "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+    },
+    {
+      "basename": "Diffusion Model",
+      "path": "Diffusion Model.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
+    },
+    {
+      "basename": "SAM 2",
+      "path": "SAM 2.md"
+    },
+    {
+      "basename": "Kahneman-Tversky Optimization",
+      "path": "Kahneman-Tversky Optimization.md"
     },
     {
       "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
@@ -23,14 +91,6 @@
     {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Trust Region Policy Optimization",
-      "path": "Trust Region Policy Optimization.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "MMLU",
@@ -101,16 +161,8 @@
       "path": "Chameleon.md"
     },
     {
-      "basename": "How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}",
-      "path": "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md"
-    },
-    {
       "basename": "GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}",
       "path": "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
     },
     {
       "basename": "C4",
@@ -123,10 +175,6 @@
     {
       "basename": "What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}",
       "path": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md"
-    },
-    {
-      "basename": "~ Todo",
-      "path": "~ Todo.md"
     },
     {
       "basename": "Attention",
@@ -151,54 +199,6 @@
     {
       "basename": "EvalPlus",
       "path": "EvalPlus.md"
-    },
-    {
-      "basename": "Yi Tay",
-      "path": "Yi Tay.md"
-    },
-    {
-      "basename": "FLAN-T5",
-      "path": "FLAN-T5.md"
-    },
-    {
-      "basename": "DeepSeek-Coder",
-      "path": "DeepSeek-Coder.md"
-    },
-    {
-      "basename": "Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}",
-      "path": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
-    },
-    {
-      "basename": "ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}",
-      "path": "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md"
-    },
-    {
-      "basename": "SEALS",
-      "path": "SEALS.md"
-    },
-    {
-      "basename": "Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}",
-      "path": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
-    },
-    {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
-    },
-    {
-      "basename": "Recommendation Systems",
-      "path": "Recommendation Systems.md"
-    },
-    {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
-      "basename": "UltraFeedback",
-      "path": "UltraFeedback.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "Transformer.md"
     }
   ],
   "omittedPaths": [],

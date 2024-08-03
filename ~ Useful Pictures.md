@@ -1,3 +1,8 @@
+![[Pasted image 20240802211544.png|400]]
+On the Turing test
+
+![[Pasted image 20240802200337.png|500]]
+From 6:50 [here](https://youtu.be/9BHQvQlsVdE?si=Pk85zGf4Ji7wPKsi), a great video on generative modeling
 
 ![[Pasted image 20240726181958.png|400]]
 ![[Pasted image 20240722201805.png|300]]
