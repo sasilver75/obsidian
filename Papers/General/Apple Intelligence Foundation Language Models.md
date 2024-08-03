@@ -167,16 +167,28 @@ References:
 - We elevate the performance of even small models to best-in-class performance through task-specific fine-tuning, enabling a single model to be specialized for dozens of tasks.
 - Adapter Architecture
 	- We use [[Low-Rank Adaptation|LoRA]] [[Adapter]]s that can be plugged into *various layers* of the base model!
-		- We adapt all of AFM's linear projection matrices in self attention layers, 
+		- We adapt all of AFM's linear projection matrices in self-attention layers, and the fully-connected lays in the pointwise feedforward networks.
+		- By finetuning adapters, the original parameters of the base pre-trained model remain unchanged, preserving general knowledge of the model while tailoring the adapters to support specific tasks.
+		- Even representing adapter parameters using 16 bits, the ==parameters for a rank 16 adapter typically require only 10s of megabytes, and can be dynamically loaded and cached in memory and swapped, allowing for on-the-fly model customization==.
+- Optimizations
+	- Both inference latency and power efficiency are important for overall user experience. WE apply various optimization techniques to allow AFM to be efficiently deployed on-device and in Private Cloud Compute, reducing memory/latency/power usage while maintaining quality.
+	- We develop and apply SoTA model [[Quantization]] techniques to achieve quantization with an average *less than 4 bits per weight, with nearly zero loss in performance*.
+	- The model is *==compressed==* and *==quantized==* to an average of <4 bits-per-weight after the post-training stages. ==This results in a moderate quality loss, so we then attach a set of parameter-efficient LoRA adapters for quality recovery.==
+		- We make sure that these LoRA adapter training recipes are consistent with pre-training and post-training processes.
+		- It's noteworthy that training accuracy-recovery adapters is sample-efficient... ==we require only approximately 10B tokens (~0.15% of base model training) to fully-recover the capacity for the quantized model.==
+		- ==Application adapters can then be created by initializing adapter weights from the *accuracy-recovery* adapters, then fine-tune from these accuracy-recovery adapters (all while keeping the quantized base model frozen).==
+	- Regarding adapter size, we found that ==adapter adapter rank of 16 offers the optimal tradeoff between model capacity and inference performance== (but they provide a suite of accuracy-recover adapters in ranks {8, 16, 32}).
+- Quantization Schemes
+	- Another benefit brought by accuracy-recovery adapters is that they allow for more flexible choices of quantization schemes.
+	- Previously, people usually group the weights into small blocks, normalize each block by the corresponding maximal absolute values to filter out outliers, then apply quantization algorithms in a block basis (tradeoff of block size w.r.t. throughput and accuracy loss).
+		- We found that ==accuracy-recovery adapters== can greatly improve the pareto frontier of this tradeoff!
+	- Our AFM on-device model uses *palletization*: For projection weights, every 16 columns/rows share the same quantization constants (i.e. lookup tables) and are quantized using K-means with 16 unique values (4-bit).
+	- Mixed-precision quantization: Residual connections exist in every transformer block and every layer in AFM, so it's unlikely that all layers have equal importance. ==Following this intuition, we further reduce the memory usage by pushing some layers to use 2-bit quantization (default is 4-bit)== (on average, AFM-on-device can be compressed to ~3.5 bpw without significant quality loss).
 
 
 ## Evaluation
+Basically this can be summed up in the figures in the Paper Figures section below. Used a mix of public ([[MATH]], [[GSM8K]], [[MMLU]], [[IFEval]], [[Berkeley Function-Calling Leaderboard|BFCL]]) and internal evaluations.
 
-
-## Responsible AI
-
-
-## Conclusion
 
 
 Abstract
@@ -192,3 +204,28 @@ Abstract
 Is this true for both AFM-on-device (3B) and AFM-server ("Larger")?
 
 ![[Pasted image 20240802230736.png]]
+
+
+![[Pasted image 20240803125531.png]]
+![[Pasted image 20240803125540.png]]
+Note that huge frontier models are getting ~90 MMLU (saturated), and L3.1 70B got 79.3, L3.1 8B got 66.7B.,
+- Think: For notification summarization, etc... you don't *need* 100 MMLU, which includes knowledge from humanities, hard sciences, us history, virology, nutrition, etc.
+
+![[Pasted image 20240803130003.png]]
+Seems like the AFM models are about on-par with the LLaMA 3 models (not 3.1)
+
+![[Pasted image 20240803130059.png|400]]
+
+![[Pasted image 20240803130119.png|500]]
+
+![[Pasted image 20240803130137.png|500]]
+
+![[Pasted image 20240803130148.png|500]]
+
+![[Pasted image 20240803130233.png|500]]
+
+
+
+
+
+

@@ -5,8 +5,32 @@
       "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
     },
     {
+      "basename": "LLaMA 3.1",
+      "path": "LLaMA 3.1.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
       "basename": "~ Todo",
       "path": "~ Todo.md"
+    },
+    {
+      "basename": "Quantization",
+      "path": "Quantization.md"
+    },
+    {
+      "basename": "ChatBot Arena",
+      "path": "ChatBot Arena.md"
+    },
+    {
+      "basename": "WizardArena",
+      "path": "WizardArena.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Bradley-Terry-Luce Model",
@@ -19,14 +43,6 @@
     {
       "basename": "Identity-Mapping Preference Optimization",
       "path": "Identity-Mapping Preference Optimization.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Trust Region Policy Optimization",
@@ -99,10 +115,6 @@
     {
       "basename": "SEAL Leaderboard",
       "path": "SEAL Leaderboard.md"
-    },
-    {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
     },
     {
       "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
@@ -187,18 +199,6 @@
     {
       "basename": "Encoder-Decoder Architecture",
       "path": "Encoder-Decoder Architecture.md"
-    },
-    {
-      "basename": "Context Distillation",
-      "path": "Context Distillation.md"
-    },
-    {
-      "basename": "DeepSeek-Coder-V2",
-      "path": "DeepSeek-Coder-V2.md"
-    },
-    {
-      "basename": "EvalPlus",
-      "path": "EvalPlus.md"
     }
   ],
   "omittedPaths": [],
