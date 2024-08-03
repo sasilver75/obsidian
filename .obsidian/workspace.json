@@ -13,6 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cf44bc44e5aa9f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
                 "mode": "source",
                 "backlinks": true,
@@ -98,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -293,8 +307,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "65d4caecd931bf71",
+  "active": "7cf44bc44e5aa9f4",
   "lastOpenFiles": [
+    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "_attachments/Pasted image 20240803130233.png",
     "_attachments/Pasted image 20240803130148.png",
     "_attachments/Pasted image 20240803130137.png",
@@ -302,7 +318,6 @@
     "_attachments/Pasted image 20240803130059.png",
     "_attachments/Pasted image 20240803130003.png",
     "LLaMA 3.1.md",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "~ Ideas.md",
     "_attachments/Pasted image 20240803125540.png",
     "_attachments/Pasted image 20240803125531.png",
@@ -313,7 +328,6 @@
     "~ Vocabulary.md",
     "_attachments/Pasted image 20240802230736.png",
     "_attachments/Pasted image 20240802225333.png",
-    "_attachments/Pasted image 20240802225307.png",
     "Bradley-Terry-Luce Model.md",
     "Self-Instruct.md",
     "Identity-Mapping Preference Optimization.md",
