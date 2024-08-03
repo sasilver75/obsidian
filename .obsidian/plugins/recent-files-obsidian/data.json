@@ -1,24 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "SEAL Leaderboard",
-      "path": "SEAL Leaderboard.md"
+      "basename": "Kahneman-Tversky Optimization",
+      "path": "Kahneman-Tversky Optimization.md"
     },
     {
-      "basename": "GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md"
+      "basename": "Orca-Math",
+      "path": "Orca-Math.md"
+    },
+    {
+      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+    },
+    {
+      "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
+      "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
+    },
+    {
+      "basename": "Direct Preference Optimization",
+      "path": "Direct Preference Optimization.md"
+    },
+    {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Trust Region Policy Optimization",
+      "path": "Trust Region Policy Optimization.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "MMLU",
+      "path": "MMLU.md"
+    },
+    {
+      "basename": "SEAL Leaderboard",
+      "path": "SEAL Leaderboard.md"
     },
     {
       "basename": "ChatBot Arena",
       "path": "ChatBot Arena.md"
     },
     {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
-    },
-    {
       "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
       "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
+    },
+    {
+      "basename": "MGSM",
+      "path": "MGSM.md"
+    },
+    {
+      "basename": "InfiniteBench",
+      "path": "InfiniteBench.md"
+    },
+    {
+      "basename": "ZeroSCROLLS",
+      "path": "ZeroSCROLLS.md"
+    },
+    {
+      "basename": "Nexus",
+      "path": "Nexus.md"
+    },
+    {
+      "basename": "Berkeley Function-Calling Leaderboard",
+      "path": "Berkeley Function-Calling Leaderboard.md"
+    },
+    {
+      "basename": "GPQA",
+      "path": "GPQA.md"
+    },
+    {
+      "basename": "ARC Challenge",
+      "path": "ARC Challenge.md"
+    },
+    {
+      "basename": "MATH",
+      "path": "MATH.md"
+    },
+    {
+      "basename": "GSM8K",
+      "path": "GSM8K.md"
+    },
+    {
+      "basename": "MBPP",
+      "path": "MBPP.md"
+    },
+    {
+      "basename": "HumanEval",
+      "path": "HumanEval.md"
+    },
+    {
+      "basename": "IFEval",
+      "path": "IFEval.md"
+    },
+    {
+      "basename": "Chameleon",
+      "path": "Chameleon.md"
+    },
+    {
+      "basename": "How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}",
+      "path": "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md"
+    },
+    {
+      "basename": "GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
     },
     {
       "basename": "C4",
@@ -51,10 +143,6 @@
     {
       "basename": "Context Distillation",
       "path": "Context Distillation.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "DeepSeek-Coder-V2",
@@ -93,10 +181,6 @@
       "path": "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md"
     },
     {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
       "basename": "Constitutional AI",
       "path": "Constitutional AI.md"
     },
@@ -115,90 +199,6 @@
     {
       "basename": "Transformer",
       "path": "Transformer.md"
-    },
-    {
-      "basename": "Epoch",
-      "path": "Epoch.md"
-    },
-    {
-      "basename": "Human Preferences",
-      "path": "Indices/Human Preferences.md"
-    },
-    {
-      "basename": "Tulu 2",
-      "path": "Tulu 2.md"
-    },
-    {
-      "basename": "OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}",
-      "path": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md"
-    },
-    {
-      "basename": "Nectar",
-      "path": "Nectar.md"
-    },
-    {
-      "basename": "Daphne Koeller",
-      "path": "Daphne Koeller.md"
-    },
-    {
-      "basename": "Melanie Mitchell",
-      "path": "Melanie Mitchell.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "Mixture of Experts",
-      "path": "Mixture of Experts.md"
-    },
-    {
-      "basename": "Fully Sharded Data Parallelism",
-      "path": "Fully Sharded Data Parallelism.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
-    },
-    {
-      "basename": "float32",
-      "path": "float32.md"
-    },
-    {
-      "basename": "Persona Hub",
-      "path": "Persona Hub.md"
-    },
-    {
-      "basename": "Self-Directed Synthetic Dialogues",
-      "path": "Self-Directed Synthetic Dialogues.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
-      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
-    },
-    {
-      "basename": "Tree of Thoughts",
-      "path": "Tree of Thoughts.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "Self-Refine",
-      "path": "Self-Refine.md"
-    },
-    {
-      "basename": "Reflexion",
-      "path": "Reflexion.md"
     }
   ],
   "omittedPaths": [],

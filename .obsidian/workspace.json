@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "63b4a6aa1f1a8495",
+        "id": "ef28ee42afe558bb",
         "type": "tabs",
         "children": [
           {
-            "id": "519db7d9731ed45e",
+            "id": "65d4caecd931bf71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "f1af4aed520a6d94",
+            "id": "c77b089a0261621b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEAL Leaderboard.md",
+                "file": "Trust Region Policy Optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "c58962ecba54ba35",
+            "id": "58ac0e4b787a7449",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChatBot Arena.md",
+                "file": "Kahneman-Tversky Optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,25 @@
             }
           },
           {
-            "id": "308710955eeb74b1",
+            "id": "53d4d4df94baa5cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+                "file": "Orca-Math.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ca3f9fbfeaed717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +127,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -135,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEAL Leaderboard.md",
+                "file": "Kahneman-Tversky Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEAL Leaderboard.md",
+                "file": "Kahneman-Tversky Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEAL Leaderboard.md"
+                "file": "Kahneman-Tversky Optimization.md"
               }
             }
           },
@@ -208,7 +222,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SEAL Leaderboard.md",
+                "file": "Kahneman-Tversky Optimization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,43 +268,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f1af4aed520a6d94",
+  "active": "58ac0e4b787a7449",
   "lastOpenFiles": [
-    "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md",
+    "Orca-Math.md",
+    "Kahneman-Tversky Optimization.md",
+    "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+    "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md",
+    "Direct Preference Optimization.md",
+    "~ Recommendations.md",
+    "Trust Region Policy Optimization.md",
+    "~ Vocabulary.md",
+    "MMLU.md",
+    "SEAL Leaderboard.md",
+    "ChatBot Arena.md",
+    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+    "MGSM.md",
+    "InfiniteBench.md",
+    "ZeroSCROLLS.md",
+    "Nexus.md",
+    "Berkeley Function-Calling Leaderboard.md",
+    "GPQA.md",
+    "ARC Challenge.md",
+    "MATH.md",
+    "GSM8K.md",
+    "MBPP.md",
+    "HumanEval.md",
+    "IFEval.md",
+    "voca.md",
+    "Chameleon.md",
     "_attachments/Pasted image 20240802122652.png",
     "_attachments/Pasted image 20240802122631.png",
-    "ChatBot Arena.md",
     "_attachments/Pasted image 20240802121557.png",
     "_attachments/Pasted image 20240802121510.png",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
-    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
-    "C4.md",
-    "Magpie.md",
-    "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
-    "~ Todo.md",
-    "Attention.md",
-    "Speculative Decoding.md",
-    "Encoder-Decoder Architecture.md",
-    "Context Distillation.md",
-    "~ Vocabulary.md",
-    "DeepSeek-Coder-V2.md",
-    "EvalPlus.md",
-    "Yi Tay.md",
-    "FLAN-T5.md",
-    "DeepSeek-Coder.md",
-    "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
     "_attachments/Pasted image 20240801235750.png",
     "_attachments/Pasted image 20240801235525.png",
     "_attachments/Pasted image 20240801234112.png",
     "_attachments/Pasted image 20240801233937.png",
     "_attachments/Pasted image 20240801233754.png",
     "_attachments/Pasted image 20240801233538.png",
-    "SEAL Leaderboard.md",
-    "Articles/ChatBot Arena - The People's LLM evaluation, the future of evaluation, the incentives of evaluation, and gpt2chatbot (May 8, 2024) {Nathan Lambert, Iterconnects.ai Blog}.md",
-    "SEALS.md",
-    "Articles/Constitutional AI with Open LLMs (February 1, 2024) {Huggingface Blogpost, multiple authors}.md",
-    "~ Recommendations.md",
-    "Constitutional AI.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

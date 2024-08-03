@@ -6,6 +6,8 @@ May 29, 2023
 Stanford (incl [[Christopher Manning]])
 Paper: [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)Takeaway: A method for human-preference finetuning that avoids much of the complexity of [[Proximal Policy Optimization|PPO]] and [[Reinforcement Learning from Human Feedback|RLHF]], where we have to train both a reward model and our language model. Works on a labeled dataset of accepted and rejected generation pairs ($y_w,y_l$)
 
+A difference from RLHF is that DPO is *offline*, meaning you're not actively sampling from the model as you align it; you have a large static dataset of preferences, and you update the model to be inline with these preferences. This makes it simpler/faster, but recent research suggests that it might create a kind of ceiling for DPO; an online component might be a useful thing to have. The equivalent closed form that DPO gives you is differentiable so you can backpropagate and such.
+
 Resources:
 - Video: [CornellTech Talk:AIF and DPO: Distilling Zephyr and Friends](https://youtu.be/cuObPxCOBCw?si=JSgXQGcareJU2mJd)
 - Video: [Luis Serrano: DPO - How to finetune LLMs directly without RL](https://www.youtube.com/watch?v=k2pD3k1485A)

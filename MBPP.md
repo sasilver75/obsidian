@@ -9,3 +9,5 @@ Released as part of [[Google Research]]'s *Program Synthesis with Large Language
 
 The benchmark consists of around 1,000 crowd-sourced Python programming problems, designed to be solvable by entry-level programmers, covering programming fundamentals, standard library functionality, and so on. Each problem consists of a task description, code solution and 3 automated test cases.
 
+Notes:
+- Used by [[LLaMA 3.1]]

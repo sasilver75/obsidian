@@ -1017,6 +1017,11 @@
 - [[Winograd]]  (Winograd schemas)
 - [[Winogrande]]
 - [[Winoground]]
+- [[ZeroSCROLLS]]
+- [[InfiniteBench]]
+- [[Nexus]]
+- [[SciCode]]
+- [[MGSM]]
 
 
 # Datasets

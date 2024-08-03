@@ -2,7 +2,8 @@
 aliases:
   - BFCL
 ---
-
+Notes:
+- Used by [[LLaMA 3.1]]
 
 Link: https://gorilla.cs.berkeley.edu/leaderboard.html
 

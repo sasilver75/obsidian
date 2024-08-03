@@ -101,6 +101,7 @@ Podcasts
 	- Vanishing Gradients
 	- Machine Learning Street Talk
 	- TalkRL
+	- Vertex Ventures
 - Software Engineering
 	- Oxide and Friends
 	- Data Engineering Podcast
