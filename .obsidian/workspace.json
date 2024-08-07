@@ -47,19 +47,6 @@
             }
           },
           {
-            "id": "0b476cb28cbbfaf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Ideas.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6b7e04c906ea9e99",
             "type": "leaf",
             "state": {
@@ -138,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Ideas.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -287,7 +274,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Ideas.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -333,8 +320,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0b476cb28cbbfaf0",
+  "active": "f5d26868e4bdc846",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20240805212817.png",
+    "~ Ideas.md",
     "Leaky ReLU.md",
     "_attachments/Pasted image 20240804174144.png",
     "_attachments/Pasted image 20240804174126.png",
@@ -348,9 +338,7 @@
     "_attachments/Pasted image 20240803130059.png",
     "_attachments/Pasted image 20240803130003.png",
     "LLaMA 3.1.md",
-    "~ Ideas.md",
     "_attachments/Pasted image 20240803125540.png",
-    "_attachments/Pasted image 20240803125531.png",
     "~ Todo.md",
     "Quantization.md",
     "ChatBot Arena.md",
@@ -362,7 +350,6 @@
     "Segment Anything Model.md",
     "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md",
     "VQAv2.md",
-    "~ Useful Pictures.md",
     "VQGAN.md",
     "VQ-VAE.md",
     "Orca-Math.md",

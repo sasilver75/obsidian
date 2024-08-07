@@ -1,3 +1,5 @@
+![[Pasted image 20240805212817.png]]
+
 ![[Pasted image 20240802211544.png|400]]
 On the Turing test
 
