@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Todo.md",
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Todo.md",
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Todo.md",
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Todo.md"
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
               }
             }
           },
@@ -274,7 +274,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Todo.md",
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -322,6 +322,8 @@
   },
   "active": "f5d26868e4bdc846",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240806235424.png",
+    "~ Todo.md",
     "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240805212817.png",
@@ -339,7 +341,6 @@
     "_attachments/Pasted image 20240803130003.png",
     "LLaMA 3.1.md",
     "_attachments/Pasted image 20240803125540.png",
-    "~ Todo.md",
     "Quantization.md",
     "ChatBot Arena.md",
     "WizardArena.md",
