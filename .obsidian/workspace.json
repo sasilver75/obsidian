@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Todo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -154,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "$\\mu$p",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Todo.md"
               }
             }
           },
@@ -274,7 +274,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Todo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -322,13 +322,13 @@
   },
   "active": "f5d26868e4bdc846",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240805212817.png",
     "~ Ideas.md",
     "Leaky ReLU.md",
     "_attachments/Pasted image 20240804174144.png",
     "_attachments/Pasted image 20240804174126.png",
-    "~ Vocabulary.md",
     "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "_attachments/Pasted image 20240803130233.png",
