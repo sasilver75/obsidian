@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "SAM 2",
+      "path": "SAM 2.md"
+    },
+    {
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "GPT-4",
+      "path": "GPT-4.md"
+    },
+    {
+      "basename": "DeepSeekMath",
+      "path": "DeepSeekMath.md"
+    },
+    {
+      "basename": "~ Ideas",
+      "path": "~ Ideas.md"
+    },
+    {
+      "basename": "Continued Pretraining",
+      "path": "Continued Pretraining.md"
+    },
+    {
+      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "PRM800K",
+      "path": "PRM800K.md"
+    },
+    {
       "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
       "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
     },
@@ -9,24 +45,12 @@
       "path": "~ Todo.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
     {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
       "basename": "Leaky ReLU",
       "path": "Leaky ReLU.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
     },
     {
       "basename": "LLaMA 3.1",
@@ -85,20 +109,12 @@
       "path": "Orca-Math.md"
     },
     {
-      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
-      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
-    },
-    {
       "basename": "Diffusion Model",
       "path": "Diffusion Model.md"
     },
     {
       "basename": "ReAct",
       "path": "ReAct.md"
-    },
-    {
-      "basename": "SAM 2",
-      "path": "SAM 2.md"
     },
     {
       "basename": "Kahneman-Tversky Optimization",
@@ -179,26 +195,6 @@
     {
       "basename": "GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}",
       "path": "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "C4",
-      "path": "C4.md"
-    },
-    {
-      "basename": "Magpie",
-      "path": "Magpie.md"
-    },
-    {
-      "basename": "What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}",
-      "path": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md"
-    },
-    {
-      "basename": "Attention",
-      "path": "Attention.md"
-    },
-    {
-      "basename": "Speculative Decoding",
-      "path": "Speculative Decoding.md"
     }
   ],
   "omittedPaths": [],

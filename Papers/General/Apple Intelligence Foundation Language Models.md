@@ -10,6 +10,11 @@ July 29, 2024
 #zotero 
 Takeaway: Apple Foundation Models is a suite of models for various tasks; this paper covers an AFM On-Device (3B) and AFM Server (?B) model. There's a particular focus on using swappable [[Low-Rank Adaptation|LoRA]] [[Adapter]]s at various positions in the network, to customize performance of models to tasks like summarization, rewriting, notifications, while keeping the model small. Efforts are made for effective quantization of models, followed by accuracy-recovering [[Low-Rank Adaptation|LoRA]] adapters that serve as the base for product-specific adapter finetuning described above. Notably in Post-training, authors introduce an ==Iterative Teaching Committee (iTeC)== technique, as well as a ==Mirror Descent with Leave-One-Out Estimation (MDLOO)== technique that authors say outperforms [[Proximal Policy Optimization|PPO]] by combining a leave-one-out estimator to estimate advantage of prompt-response pairs, and a Mirror Descent Policy Optimization (MDPO) to optimize the policy. Their RL incorporates both the *strength* of a preference (strongly, slightly, etc.), as well as "single-side grading" of each response.
 
+> "Most people usually think that LoRAs are 100s-1000s of datapoints, but they used ~10B here." -Vibhu Sapra, Latent Space Paper Club
+
+Notes:
+- Note that the represent the values of the adapters using 16 bits, while the main model is ~3.7 bit quantized; this is why they can't just merge back in the common accuracy-recovering part of the adapter.
+
 References:
 - Blog: [Swyx's AINews Apple Intelligence](https://buttondown.email/ainews/archive/ainews-apple-intelligence/)
 - Official Blog: [Introducing Apple's On-Device and Server Foundation Models](https://machinelearning.apple.com/research/introducing-apple-foundation-models)
@@ -110,7 +115,8 @@ References:
 			- ==Coding==
 				- The generation of synthetic coding dataset involves a [[Self-Instruct]] method with [[Rejection Sampling]]. 
 				- They start with 71 different programming topics as seeds, and use the model to generate an initial pool of coding interview-like question. 
-					- For each question, we generate a set of unit tests and a number of potential solutions, and use an execution-based rejection sampling method to select the best solution (the solution with the highest number of successful executions).
+					- For each question, we generate a set of unit tests and a number of potential solutions, and use an execution-based ==rejection sampling== method to select the best solution (the solution with the highest number of successful executions against the unit tests).
+				- Resulted in 12k high-quality code samples
 - SFT
 	- We establish a series of quality guards of data, including ratings from in-house human labelers, ==automatic model-based filtering techniques==, as well as ==deduplication using text embeddings==. We scale up via a variety of synthetic data generation methods and rejection sampling, as described above.
 	- We treat the mixture ratio as an optimization problem ((It seems like they literally use something like a gradient descent, training models at each point)).
