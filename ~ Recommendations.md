@@ -165,6 +165,12 @@ Locations
 	- Sedona/Flagstaff, AZ
 	- Tucson, AZ
 
+Blogs
+- Lilian Weng Lil Log
+- Interconnects
+- Eugene Yan
+- Cameron Wolfe
+- Sebastian Rschka
 
 Articles
 - https://nostalgebraist.tumblr.com/post/741247180226052096/i-dont-think-youre-drawing-the-right-lesson-from
