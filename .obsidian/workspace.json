@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "a1902064f5280ac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Continued Pretraining.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6b7e04c906ea9e99",
             "type": "leaf",
             "state": {
@@ -123,9 +136,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2c7efd0a3f959259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DeepSeekMath.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9474333eff2a223",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01ef4fa93aa19679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SAM 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -201,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+                "file": "SAM 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +270,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+                "file": "SAM 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +293,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
+                "file": "SAM 2.md"
               }
             }
           },
@@ -274,7 +326,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+                "file": "SAM 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -320,19 +372,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f5d26868e4bdc846",
+  "active": "01ef4fa93aa19679",
   "lastOpenFiles": [
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "GPT-4.md",
+    "DeepSeekMath.md",
+    "Group Relative Policy }Optimization.md",
+    "~ Ideas.md",
+    "Continued Pretraining.md",
+    "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+    "~ Vocabulary.md",
+    "PRM800K.md",
+    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
     "_attachments/Pasted image 20240806235424.png",
     "~ Todo.md",
-    "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240805212817.png",
-    "~ Ideas.md",
     "Leaky ReLU.md",
     "_attachments/Pasted image 20240804174144.png",
     "_attachments/Pasted image 20240804174126.png",
-    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "_attachments/Pasted image 20240803130233.png",
     "_attachments/Pasted image 20240803130148.png",
     "_attachments/Pasted image 20240803130137.png",
@@ -340,7 +398,6 @@
     "_attachments/Pasted image 20240803130059.png",
     "_attachments/Pasted image 20240803130003.png",
     "LLaMA 3.1.md",
-    "_attachments/Pasted image 20240803125540.png",
     "Quantization.md",
     "ChatBot Arena.md",
     "WizardArena.md",
@@ -353,11 +410,6 @@
     "VQAv2.md",
     "VQGAN.md",
     "VQ-VAE.md",
-    "Orca-Math.md",
-    "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
-    "Diffusion Model.md",
-    "ReAct.md",
-    "SAM 2.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

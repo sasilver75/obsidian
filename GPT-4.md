@@ -2,7 +2,9 @@ March 15, 2023
 [[OpenAI]]
 [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
 
-Likely a 1.8T parameter MoE model with 16 experts, each with 111B parameters.
+> Likely a 1.8T parameter MoE model with 16 experts, each with 111B parameters. -NVIDIA Demo
+> "iirc lucas kaiser said in a webinar that GPT4 is trained on 13T tokens" - ChyGao, Interconnects Discord
+> " geohot said GPT-4 was 10T tokens, I think dylan (patel) reported something similar as well. So this number seems to be accurate" - Xeophon, Interconnects Discord
 
 
 Abstract
