@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAM 2.md",
+                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -206,7 +206,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "$\\mu$p",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,13 +231,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -253,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SAM 2.md",
+                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SAM 2.md",
+                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAM 2.md"
+                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md"
               }
             }
           },
@@ -326,7 +324,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SAM 2.md",
+                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -374,6 +372,8 @@
   },
   "active": "01ef4fa93aa19679",
   "lastOpenFiles": [
+    "SAM 2.md",
+    "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "GPT-4.md",
     "DeepSeekMath.md",
@@ -408,8 +408,6 @@
     "Segment Anything Model.md",
     "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md",
     "VQAv2.md",
-    "VQGAN.md",
-    "VQ-VAE.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
