@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -235,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -251,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +269,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md"
+                "file": "~ Recommendations.md"
               }
             }
           },
@@ -324,7 +325,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
+                "file": "~ Recommendations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -372,8 +373,8 @@
   },
   "active": "01ef4fa93aa19679",
   "lastOpenFiles": [
-    "SAM 2.md",
     "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
+    "SAM 2.md",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "GPT-4.md",
     "DeepSeekMath.md",
