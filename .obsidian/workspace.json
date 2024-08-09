@@ -175,9 +175,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d7116f9f4237407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -252,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
+                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md"
               }
             }
           },
@@ -325,7 +338,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -371,8 +384,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "01ef4fa93aa19679",
+  "active": "7d7116f9f4237407",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240808165743.png",
+    "_attachments/Pasted image 20240808165732.png",
+    "_attachments/Pasted image 20240808165722.png",
+    "_attachments/Pasted image 20240808162457.png",
+    "_attachments/Pasted image 20240808155056.png",
+    "_attachments/Pasted image 20240808143625.png",
+    "~ Vocabulary.md",
+    "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
+    "~ Recommendations.md",
     "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
     "SAM 2.md",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
@@ -382,7 +404,6 @@
     "~ Ideas.md",
     "Continued Pretraining.md",
     "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
-    "~ Vocabulary.md",
     "PRM800K.md",
     "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
     "_attachments/Pasted image 20240806235424.png",
@@ -393,11 +414,6 @@
     "_attachments/Pasted image 20240804174144.png",
     "_attachments/Pasted image 20240804174126.png",
     "_attachments/Pasted image 20240803130233.png",
-    "_attachments/Pasted image 20240803130148.png",
-    "_attachments/Pasted image 20240803130137.png",
-    "_attachments/Pasted image 20240803130119.png",
-    "_attachments/Pasted image 20240803130059.png",
-    "_attachments/Pasted image 20240803130003.png",
     "LLaMA 3.1.md",
     "Quantization.md",
     "ChatBot Arena.md",
@@ -406,9 +422,6 @@
     "Self-Instruct.md",
     "Identity-Mapping Preference Optimization.md",
     "Trust Region Policy Optimization.md",
-    "Segment Anything Model.md",
-    "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md",
-    "VQAv2.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

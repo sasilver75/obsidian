@@ -840,9 +840,10 @@
 - [[Pile-T5]]
 - [[Prometheus 2]]
 - [[Prometheus]]
-- [[Qwen 2]]
-- [[Qwen 1.5]]
 - [[Qwen]]
+- [[Qwen 1.5]]
+- [[Qwen 2]]
+- [[Qwen 2 Math]]
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
