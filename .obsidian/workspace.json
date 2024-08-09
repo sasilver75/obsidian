@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
+                "file": "DSPy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
+                "file": "DSPy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
+                "file": "DSPy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md"
+                "file": "DSPy.md"
               }
             }
           },
@@ -338,7 +338,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
+                "file": "DSPy.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -386,6 +386,7 @@
   },
   "active": "7d7116f9f4237407",
   "lastOpenFiles": [
+    "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
     "_attachments/Pasted image 20240808165743.png",
     "_attachments/Pasted image 20240808165732.png",
     "_attachments/Pasted image 20240808165722.png",
@@ -393,7 +394,6 @@
     "_attachments/Pasted image 20240808155056.png",
     "_attachments/Pasted image 20240808143625.png",
     "~ Vocabulary.md",
-    "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
     "~ Recommendations.md",
     "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
     "SAM 2.md",
@@ -413,7 +413,6 @@
     "Leaky ReLU.md",
     "_attachments/Pasted image 20240804174144.png",
     "_attachments/Pasted image 20240804174126.png",
-    "_attachments/Pasted image 20240803130233.png",
     "LLaMA 3.1.md",
     "Quantization.md",
     "ChatBot Arena.md",
