@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DSPy",
+      "path": "DSPy.md"
+    },
+    {
       "basename": "From Local to Global - a Graph RAG Approach to Query-Focused Summarization",
       "path": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "IFEval",
       "path": "IFEval.md"
-    },
-    {
-      "basename": "Chameleon",
-      "path": "Chameleon.md"
     }
   ],
   "omittedPaths": [],
