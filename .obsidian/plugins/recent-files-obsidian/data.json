@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "From Local to Global - a Graph RAG Approach to Query-Focused Summarization",
+      "path": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
       "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "PRM800K",
@@ -195,10 +199,6 @@
     {
       "basename": "Chameleon",
       "path": "Chameleon.md"
-    },
-    {
-      "basename": "GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/GPT-4o-mini Changed ChatBot Arena (July 31, 2024) {Nathan Lambert, Interconnects}.md"
     }
   ],
   "omittedPaths": [],
