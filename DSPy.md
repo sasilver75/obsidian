@@ -9,6 +9,7 @@ References:
 - [Video: Databrick's Data Brew - Demonstrate Search Predict Framework w Omar Khattab](https://youtu.be/bwkaI7olr_s?si=5zBBYNGPKJnzg6ox)
 - [Video: Weaviate Meetup with Omar Khattab on DSPy](https://youtu.be/Y81DoFmt-2U?si=2zfYQqS0w3M3D6F8&t=2145)
 - [Video: Designing Reliable AI Systems with DSPy | Zeta Alpha with Omar Khattab](https://youtu.be/Lba_MBZsR5s?si=hUH3LhKSQ6uj8rIM)
+- [Video: Neural Breakdown with AVG: DSPy Tutorial](https://youtu.be/_ROckQHGHsU?si=1tcLC-Bf6UAI9mN-)
 	
 See also: 
 - [[Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP]] (Previous work, same authors)
