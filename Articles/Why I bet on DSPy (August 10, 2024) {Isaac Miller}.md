@@ -1,4 +1,7 @@
 https://blog.isaacmiller.dev/posts/dspy
+
+Author says this was inspired by [[Subbarao Kambhampati]]'s appearance on MLST.
+
 -----
 
 DSPy is an open-source framework helping you compose multiple LLM calls together in a *principled manner* to solve a problem.
