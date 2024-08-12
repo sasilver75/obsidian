@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
+                "file": "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "203261670772dae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gemma 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
+                "file": "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
+                "file": "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md"
+                "file": "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md"
               }
             }
           },
@@ -168,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
+                "file": "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -216,6 +229,13 @@
   },
   "active": "4b8cd044c8d93661",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240811172330.png",
+    "_attachments/Pasted image 20240811172307.png",
+    "_attachments/Pasted image 20240811171948.png",
+    "_attachments/Pasted image 20240811143440.png",
+    "_attachments/Pasted image 20240811143323.png",
+    "Gemma 2.md",
+    "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
     "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
     "_attachments/AgentInstruct 2024-07-12 15.36.46.excalidraw.md",
     "Constitutional AI.md",
@@ -245,13 +265,6 @@
     "SAM 2.md",
     "GPT-4.md",
     "Group Relative Policy }Optimization.md",
-    "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
-    "PRM800K.md",
-    "_attachments/Pasted image 20240806235424.png",
-    "~ Todo.md",
-    "_attachments/Pasted image 20240805212817.png",
-    "_attachments/Pasted image 20240804174144.png",
-    "_attachments/Pasted image 20240804174126.png",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

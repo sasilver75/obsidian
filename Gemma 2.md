@@ -2,7 +2,7 @@ June 27, 2024
 [[DeepMind]], Gemma Team
 [Gemma 2: Improving Open Language Models at a Practical Size](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf)
 #zotero 
-Takeaway: A pair of language models (in base and instruct versions) sized 9B and 27B, trained on 8T and 13T tokens respectively (and a 2.6B Gemma 2 model being on the horizon, trained on 2T tokens); they're competitive alternatives to models 2-3x bigger, and come with permissive use licenses making them great for (eg) synthetic data generation.
+Takeaway: A pair of language models (in base and instruct versions) sized 9B and 27B, trained on 8T and 13T tokens respectively (and a 2.6B Gemma 2 model being on the horizon, trained on 2T tokens); they're competitive alternatives to models 2-3x bigger, and come with permissive use licenses making them great for (eg) synthetic data generation. 9B and 2.6B are distilled models (from the 27B teacher?)
 
 Note: Gemma 2's Terms of Use has unrestricted use for the output, meaning models trained on Gemma-2 output can be used for anything. This makes it an interesting choice for (eg) synthetic data generation. The people at r/localLLaMA really seem to love this model in mid-July 2024. Update: A week later in mid-July 2024, LLaMA 3.1 8b and 70b came out and wiped the floor with Gemma 2.
 
