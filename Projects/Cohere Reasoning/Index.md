@@ -5,4 +5,4 @@ Initial google doc: https://docs.google.com/document/d/1-U91ekhAwZA4XPI7OXZiMIGm
 August 17th: Joined Slack
 ~20h/week expectation
 
-
+Cohere docs: https://docs.cohere.com/ 
