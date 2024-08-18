@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gemma 2.md",
+                "file": "Projects/Cohere Reasoning/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gemma 2.md",
+                "file": "Projects/Cohere Reasoning/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gemma 2.md"
+                "file": "Projects/Cohere Reasoning/Index.md"
               }
             }
           },
@@ -182,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Gemma 2.md",
+                "file": "Projects/Cohere Reasoning/Index.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -228,8 +227,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "203261670772dae3",
+  "active": "4b8cd044c8d93661",
   "lastOpenFiles": [
+    "Gemma 2.md",
     "Projects/Cohere Reasoning/Index.md",
     "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
     "Projects/Cohere Reasoning",
@@ -239,7 +239,6 @@
     "_attachments/Pasted image 20240811171948.png",
     "_attachments/Pasted image 20240811143440.png",
     "_attachments/Pasted image 20240811143323.png",
-    "Gemma 2.md",
     "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
     "_attachments/AgentInstruct 2024-07-12 15.36.46.excalidraw.md",
     "Constitutional AI.md",
