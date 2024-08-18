@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}",
-      "path": "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md"
-    },
-    {
       "basename": "Gemma 2",
       "path": "Gemma 2.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Projects/Cohere Reasoning/Index.md"
+    },
+    {
+      "basename": "A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}",
+      "path": "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md"
     },
     {
       "basename": "Why I bet on DSPy (August 10, 2024) {Isaac Miller}",
@@ -195,10 +199,6 @@
     {
       "basename": "Nexus",
       "path": "Nexus.md"
-    },
-    {
-      "basename": "Berkeley Function-Calling Leaderboard",
-      "path": "Berkeley Function-Calling Leaderboard.md"
     }
   ],
   "omittedPaths": [],
