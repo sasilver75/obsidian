@@ -6,3 +6,13 @@ August 17th: Joined Slack
 ~20h/week expectation
 
 Cohere docs: https://docs.cohere.com/ 
+
+
+
+To-Do:
+- [ ] Discussion
+- [ ] Generate Taxonomy on Error Types
+- [ ] Create few-shot exemplars of corruption for each error type
+- [ ] Determine source reasoning benchmarks
+- [ ] Apply 
+- [ ] Filter
