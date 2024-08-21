@@ -12,12 +12,21 @@ Feb 2, 2023
 [[DeepMind]] (Chen et al)
 [Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318)
 
-A variety of token speculation techniques exist.
+A variety of token speculation techniques exist
+
 
 References
 - [Video: Speculative Decoding: When two LLMs are Faster than One](https://www.youtube.com/watch?v=S-8yr_RibJ4)
 - [Blog: Philkrav's Speculative Decoding post](https://philkrav.com/posts/speculative/)
 - Github Repo Index: [hemingkx's SpeculativeDecodingPapers Repo](https://github.com/hemingkx/SpeculativeDecodingPapers)
+- 
+
+Papers
+- These papers
+- [[Medusa]]
+- [[Hydra]]
+- [[EAGLE]]
+- [[Better and Faster Large Language Models via Multi-token Prediction]]
 
 ----
 
@@ -63,3 +72,27 @@ To cover:
 Above:
 - In speculative decoding, we use a smaller model (like in [[Contrastive Decoding]]) to decide what to generate (unlike in CD, where we decide what *not* to generate)! But occasionally the larger model might decide to go in another direction.
 - The smaller model generates blocks of tokens, and the larger model checks its work, and determines if the generation is "in distribution." The larger model can choose to reject proposals and generate a token itself.
+- ==Speculative decoding has no impact as to the *quality* of the model, because each prediction is  validated by the main model==
+
+From Eugene Cheah/Pico's paper club
+![[Pasted image 20240821120734.png|400]]
+
+![[Pasted image 20240821120858.png|400]]
+Speculative decoding is harder than it seems!
+![[Pasted image 20240821120909.png|400]]
+We save time, not compute, actually! (spend more compute time to save wall clock time)
+![[Pasted image 20240821120955.png|300]]
+Simplification: Your GPU goes through 3 states
+- Complex math in L1 SRAM 
+	- L1 SRAM is parts of memory typically closest to processor; fastest memory
+- Read/Write between L1 SRAM and VRAM
+- Wait around for other L1 SRAM/other threads
+![[Pasted image 20240821121231.png|400]]
+Most time is about waiting for memory!
+So you start to see why doing large batches of tokens, thing are much faster (you do the memory fetch once into L1, do all of your computation... between 1 token at a time, and 12 tokens...)
+So it is cheaper to process large batches of tokens, versus many tokens one at a time.
+
+![[Pasted image 20240821121748.png|300]]
+The point is to be able to use batching to compute multiple tokens at a time (using more compute), 
+
+![[Pasted image 20240821123021.png|450]]

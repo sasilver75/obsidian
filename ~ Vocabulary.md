@@ -751,6 +751,7 @@
 - [[DistilBERT]]
 - [[DistilRoBERTa]]
 - [[Dolly]]
+- [[EAGLE]]
 - [[ELECTRA]] (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
 - [[Falcon 2]]
 - [[Falcon]]
@@ -780,6 +781,7 @@
 - [[Guanaco]]
 - [[Hermes]]
 - [[HiPPO]] (High-order Polynomial Projection Operators)
+- [[Hydra]]
 - [[ImageBind]]
 - [[Imagen]]
 - [[Inception]]

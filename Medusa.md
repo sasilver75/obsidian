@@ -6,6 +6,7 @@ Takeaway: A method for increasing speeding up output generation that maintains o
 
 References:
 - Video: [OxenAI's How Medusa Works](https://www.youtube.com/watch?v=Jjjn-J9SJ1s&t=4s) esp 43:00
+- Repo: Github [Medusa](https://github.com/FasterDecoding/Medusa) Repo
 
 ---
 
@@ -178,5 +179,12 @@ Preserving a great explainer of tree-attention from a [user on reddit](https://w
 > The path of valid speculations here end at "The", because no speculated continuations from that node (the top-2 predictions of the Medusa head in the next position in the previous inference step) fit the model's continuation for that node (desire).
 > So only 2 tokens, "The" and "desire" are accepted in this example.
 
+
+From LS Paper Club Below
+![[Pasted image 20240821123527.png]]
+It's not good on its own; you'd never want to use it for a language model.
+It only works when it's used for speculative decoding... "bad outputs that are roughly right".
+When you do finetuning and give it input/output pairs... it kind of starts to work. You're not training it from task to do multi-token, you're taking a model that can do one token, not multiple, and having it learn to predict 2/3 forward with different heads.
+The Medusa heads are really small; if you do this on a 70B, you basically don't notice the addition of the heads at all.
 
 
