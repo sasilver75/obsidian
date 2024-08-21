@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b8cd044c8d93661",
+            "id": "203261670772dae3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Omar Khattab.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,19 +21,33 @@
             }
           },
           {
-            "id": "203261670772dae3",
+            "id": "60629f5b7a7e1bbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gemma 2.md",
+                "file": "Speculative Decoding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c096924077a45f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hydra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Omar Khattab.md",
+                "file": "Speculative Decoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Omar Khattab.md",
+                "file": "Speculative Decoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Omar Khattab.md"
+                "file": "Speculative Decoding.md"
               }
             }
           },
@@ -181,7 +195,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Omar Khattab.md",
+                "file": "Speculative Decoding.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,18 +241,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4b8cd044c8d93661",
+  "active": "60629f5b7a7e1bbe",
   "lastOpenFiles": [
-    "Projects/Cohere Reasoning/Index.md",
+    "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
+    "EAGLE.md",
+    "~ Vocabulary.md",
+    "Hydra.md",
+    "_attachments/Pasted image 20240821124253.png",
+    "_attachments/Pasted image 20240821124155.png",
     "Gemma 2.md",
+    "voca.md",
+    "Medusa.md",
+    "_attachments/Pasted image 20240821123527.png",
+    "Speculative Decoding.md",
+    "_attachments/Pasted image 20240821123021.png",
+    "_attachments/Pasted image 20240821121748.png",
+    "_attachments/Pasted image 20240821121231.png",
+    "_attachments/Pasted image 20240821120955.png",
+    "_attachments/Pasted image 20240821120909.png",
+    "_attachments/Pasted image 20240821120858.png",
+    "_attachments/Pasted image 20240821120734.png",
+    "Omar Khattab.md",
+    "Projects/Cohere Reasoning/Index.md",
     "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
     "Projects/Cohere Reasoning",
     "Projects",
-    "_attachments/Pasted image 20240811172330.png",
-    "_attachments/Pasted image 20240811172307.png",
-    "_attachments/Pasted image 20240811171948.png",
-    "_attachments/Pasted image 20240811143440.png",
-    "_attachments/Pasted image 20240811143323.png",
     "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
     "_attachments/AgentInstruct 2024-07-12 15.36.46.excalidraw.md",
     "Constitutional AI.md",
@@ -254,19 +281,6 @@
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "~ Recommendations.md",
     "Self-Play Fine-Tuning.md",
-    "Shepherd.md",
-    "DSPy.md",
-    "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md",
-    "_attachments/Pasted image 20240808165743.png",
-    "_attachments/Pasted image 20240808165732.png",
-    "_attachments/Pasted image 20240808165722.png",
-    "_attachments/Pasted image 20240808162457.png",
-    "_attachments/Pasted image 20240808155056.png",
-    "~ Vocabulary.md",
-    "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md",
-    "SAM 2.md",
-    "GPT-4.md",
-    "Group Relative Policy }Optimization.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

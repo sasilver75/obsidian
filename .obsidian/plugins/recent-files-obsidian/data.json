@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
+    },
+    {
+      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
+      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
+    },
+    {
+      "basename": "EAGLE",
+      "path": "EAGLE.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Hydra",
+      "path": "Hydra.md"
+    },
+    {
+      "basename": "Gemma 2",
+      "path": "Gemma 2.md"
+    },
+    {
+      "basename": "Medusa",
+      "path": "Medusa.md"
+    },
+    {
       "basename": "Omar Khattab",
       "path": "Omar Khattab.md"
     },
     {
       "basename": "Index",
       "path": "Projects/Cohere Reasoning/Index.md"
-    },
-    {
-      "basename": "Gemma 2",
-      "path": "Gemma 2.md"
     },
     {
       "basename": "A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}",
@@ -87,10 +111,6 @@
     {
       "basename": "From Local to Global - a Graph RAG Approach to Query-Focused Summarization",
       "path": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Generalized Visual Language Models (June 9, 2022) {Lilian Weng}",
@@ -179,26 +199,6 @@
     {
       "basename": "Direct Preference Optimization",
       "path": "Direct Preference Optimization.md"
-    },
-    {
-      "basename": "MMLU",
-      "path": "MMLU.md"
-    },
-    {
-      "basename": "SEAL Leaderboard",
-      "path": "SEAL Leaderboard.md"
-    },
-    {
-      "basename": "MGSM",
-      "path": "MGSM.md"
-    },
-    {
-      "basename": "InfiniteBench",
-      "path": "InfiniteBench.md"
-    },
-    {
-      "basename": "ZeroSCROLLS",
-      "path": "ZeroSCROLLS.md"
     }
   ],
   "omittedPaths": [],
