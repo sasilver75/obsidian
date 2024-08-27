@@ -22,7 +22,7 @@ References
 - 
 
 Papers
-- These papers
+- (These Google and Deepmind papers at the top)
 - [[Medusa]]
 - [[Hydra]]
 - [[EAGLE]]
