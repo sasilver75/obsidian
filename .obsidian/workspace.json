@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "~ Useful Pictures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "~ Useful Pictures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Speculative Decoding.md"
+                "file": "~ Useful Pictures.md"
               }
             }
           },
@@ -195,7 +195,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Speculative Decoding.md",
+                "file": "~ Useful Pictures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,6 +243,8 @@
   },
   "active": "60629f5b7a7e1bbe",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20240827144504.png",
+    "Speculative Decoding.md",
     "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
     "EAGLE.md",
     "~ Vocabulary.md",
@@ -253,7 +255,6 @@
     "voca.md",
     "Medusa.md",
     "_attachments/Pasted image 20240821123527.png",
-    "Speculative Decoding.md",
     "_attachments/Pasted image 20240821123021.png",
     "_attachments/Pasted image 20240821121748.png",
     "_attachments/Pasted image 20240821121231.png",
@@ -280,7 +281,6 @@
     "DeepSeekMath.md",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
     "~ Recommendations.md",
-    "Self-Play Fine-Tuning.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
