@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60629f5b7a7e1bbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qwen 2 VL.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 480.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -135,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Qwen 2 VL.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Qwen 2 VL.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Qwen 2 VL.md"
+                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md"
               }
             }
           },
@@ -208,7 +193,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Qwen 2 VL.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,16 +239,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1cfbe056f07714ed",
+  "active": "203261670772dae3",
   "lastOpenFiles": [
+    "Projects/Cohere Reasoning/Index.md",
+    "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+    "~ Followup.md",
+    "Projects/Cohere Reasoning/Meetings",
     "~ Vocabulary.md",
+    "Hydra.md",
     "Qwen 2 VL.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240827144504.png",
     "Speculative Decoding.md",
     "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
     "EAGLE.md",
-    "Hydra.md",
     "_attachments/Pasted image 20240821124253.png",
     "_attachments/Pasted image 20240821124155.png",
     "Gemma 2.md",
@@ -277,7 +266,6 @@
     "_attachments/Pasted image 20240821120909.png",
     "_attachments/Pasted image 20240821120858.png",
     "Omar Khattab.md",
-    "Projects/Cohere Reasoning/Index.md",
     "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
     "Projects/Cohere Reasoning",
     "Projects",
@@ -292,15 +280,12 @@
     "ChatBot Arena.md",
     "Bradley-Terry-Luce Model.md",
     "Self-Instruct.md",
-    "DeepSeekMath.md",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",
     "Papers/General",
     "Papers/Long-Inference and Prompting",
     "Papers/IR and RAG",
-    "Papers/Synthetic Data",
-    "Courses/Machine Learning/OxML Representation Learning and Generative Models (2024)"
+    "Papers/Synthetic Data"
   ]
 }
