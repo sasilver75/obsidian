@@ -54,6 +54,8 @@ ICLR <- Too early
 Formatting:
 - StepbyStep Math dataset?
 
-
-
 Section 1: Contrived/off-policy examples.
+
+Action Items posted in Slack
+Some todos by next Friday (1030AM PST)
+Recording in Otter
