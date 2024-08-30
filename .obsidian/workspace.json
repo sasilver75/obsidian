@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -32,21 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4c096924077a45f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hydra.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -239,14 +228,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "203261670772dae3",
+  "active": "1cfbe056f07714ed",
   "lastOpenFiles": [
-    "Projects/Cohere Reasoning/Index.md",
+    "Hydra.md",
     "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+    "~ Vocabulary.md",
+    "Projects/Cohere Reasoning/Index.md",
     "~ Followup.md",
     "Projects/Cohere Reasoning/Meetings",
-    "~ Vocabulary.md",
-    "Hydra.md",
     "Qwen 2 VL.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20240827144504.png",
