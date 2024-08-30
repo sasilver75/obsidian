@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cfbe056f07714ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Qwen 2 VL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Qwen 2 VL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Qwen 2 VL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Useful Pictures.md"
+                "file": "Qwen 2 VL.md"
               }
             }
           },
@@ -195,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Qwen 2 VL.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,13 +254,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "60629f5b7a7e1bbe",
+  "active": "1cfbe056f07714ed",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Qwen 2 VL.md",
+    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240827144504.png",
     "Speculative Decoding.md",
     "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
     "EAGLE.md",
-    "~ Vocabulary.md",
     "Hydra.md",
     "_attachments/Pasted image 20240821124253.png",
     "_attachments/Pasted image 20240821124155.png",
@@ -261,7 +276,6 @@
     "_attachments/Pasted image 20240821120955.png",
     "_attachments/Pasted image 20240821120909.png",
     "_attachments/Pasted image 20240821120858.png",
-    "_attachments/Pasted image 20240821120734.png",
     "Omar Khattab.md",
     "Projects/Cohere Reasoning/Index.md",
     "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
@@ -280,7 +294,6 @@
     "Self-Instruct.md",
     "DeepSeekMath.md",
     "Papers/General/Apple Intelligence Foundation Language Models.md",
-    "~ Recommendations.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

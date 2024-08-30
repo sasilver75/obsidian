@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Qwen 2 VL",
+      "path": "Qwen 2 VL.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "EAGLE",
       "path": "EAGLE.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Hydra",
@@ -195,10 +199,6 @@
     {
       "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
       "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
-    },
-    {
-      "basename": "Direct Preference Optimization",
-      "path": "Direct Preference Optimization.md"
     }
   ],
   "omittedPaths": [],
