@@ -7,6 +7,9 @@ August 17th: Joined Slack
 
 Cohere docs: https://docs.cohere.com/ 
 
+Edward Kim: 
+- https://eddotman.github.io/
+
 
 
 To-Do:
