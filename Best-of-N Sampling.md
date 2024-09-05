@@ -1,0 +1,1 @@
+The inference-time cousin of [[Rejection Sampling]], where we generate multiple completions and keep the best one (eg using a reward model).

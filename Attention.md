@@ -1,11 +1,12 @@
-[[Self-Attention]] vs [[Cross Attention]]
-[[Multi-Head Attention]] vs [[Multi-Query Attention]]
-[[Masked Attention]]/[[Causal Attention]] vs [[Bidirectional Attention]]
+[[Self-Attention]] vs [[Cross-Attention]]
+[[Multi-Headed Attention]] vs [[Multi-Query Attention]]
+[[Masked Attention]] vs [[Bidirectional Attention]]
 [[Sparse Attention]] vs [[Dense Attention]]
 [[Parallel Attention]]
-[[Paged Attention]]
-[[Flash Attention]]
-[[ALiBi|Attention with Linear Biases]] (ALiBi)
+[[PagedAttention]]
+[[FlashAttention]]
+[[Attention with Linear Biases|Attention with Linear Biases]] (ALiBi)
 [[Sliding Window Attention]]
-[[Group Query Attention]]
-[[Paged Attention]]
+[[PagedAttention]]
+
+Note that attention as introduced in *Attention is All You Need* is referred to as "Scaled Dot Product Attention (SDPA)"

@@ -1,1 +1,0 @@
-(See InstructGPT Paper; possibly pre-RLHF)

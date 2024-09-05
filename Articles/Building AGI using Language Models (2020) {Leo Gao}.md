@@ -28,7 +28,7 @@ While its writing are impressive at emulating humans, GPT-3 doesn't have any mem
 - A world model doesn't alone make an agent, though! So what does it take to turn a world model into an agent! 
 - It might be useful to set a goal, just as "*maximize the number of paper clips I have!*"
 - Our model could do something like "I go to ebay, look up paperclips, sorted by price ascending. I spent $10 on the first item on the list." -- So it can probably generate some possible actions.
-	- To estimate the state-action value of any action, we can do a [[Monte Carlo Tree Search]] (MCTS) to estimate the state-action values!
+	- To estimate the state-action value of any action, we can do a [[Monte-Carlo Tree Search]] (MCTS) to estimate the state-action values!
 		- Starting from a given agent state, we roll out a sequence of actions using the world model. We integrate over all rollouts, and we know how much future expected reward the agent can expect to get for each action it considers. Then, we can just use (eg) a greedy policy with that state-action value function to decide on actions to take (with a greedy policy, this is just to always take the one with the highest state-action value.)
 
 ![Monte Carlo Tree Search visualized (<a href='https://www.researchgate.net/figure/Phases-of-the-Monte-Carlo-tree-search-algorithm-A-search-tree-rooted-at-the-current_fig1_312172859'>Source</a>)](https://bmk.sh/images/agi-lms/mcts.png)

@@ -1,0 +1,1 @@
+Research lab spun out of [[EleutherAI|EleutherAI]], focusing on human preference learning at scale via representation learning + RL approach, with the goal of building large-scale natural text personalized preference models.

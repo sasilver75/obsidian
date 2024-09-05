@@ -1,0 +1,8 @@
+HuggingFace Link: [Capybara](https://huggingface.co/datasets/LDJnr/Capybara)
+
+- It uses a new generation method called ==[[Amplify-Instruct]]==, and the first resulting dataset using this method is called ==Capybara==, a ==20k training example dataset== (10x smaller than similarly-performing datasets).
+	- Average context length per conversation is over 1,000 tokens, and 3 turns or more per example. 
+	- Aggressively filtered to remove any and all possible examples of overt moralizing/alignment, and common undesirable behaviors such as "as an AI language model"
+	- Capybara is the culmination of insights derived from synthesis techniques like [[Evol-Instruct]] (used for [[WizardLM]]), [[Alpaca]], [[Orca]], [[Vicuna]], Lamini, FLASK and others.
+- Strong focus on information diversity across a wide range of domains, and multi-turn conversations that strongly emphasize reasoning, logic, and extrapolation about a wide variety of (sometimes obscure) subjects.
+- The single-turn seeds used to initiate the Amplify-Instruct synthesis of conversations are mostly based on datasets that i've personally vetted extensively, and are often highly regarded for their diversity and demonstration of logical robustness and prose, such as Airoboros, Know logic, EverythingLM, GPTeacher and even entirely new seed instructions derived from different sources, including certain in-house Nous multi-turn datasets like Dove and Verified-Camel(A successor to Puffin).

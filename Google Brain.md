@@ -1,1 +1,0 @@
-In 2023, Google Brain and Deepmind were merged to become "Google Deepmind."

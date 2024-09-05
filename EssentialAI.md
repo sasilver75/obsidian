@@ -1,0 +1,1 @@
+Cofounded by Ashish Vaswani and Niki Parmar in 2021 after they left [[Adept]]

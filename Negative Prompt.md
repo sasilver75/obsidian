@@ -1,0 +1,1 @@
+Negative prompts in stable diffusion serve as guiding mechanisms for what the *exclude* from generated images.

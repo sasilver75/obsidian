@@ -19,7 +19,7 @@ Questions asked:
 # Will we run out of data?
 ### Skeptic
 - We're about to run out of high-quality language data next year!
-	- [[Epoch AI]] says that we may exhaust the stock of high-quality **language** data by 2026, and low-quality language data by 2030-2050. It also estimates that we might run out of vision data by 2030 - 2060. It also estimates that we might run out of vision data by 2030 - 2060.
+	- Epoch AI says that we may exhaust the stock of high-quality **language** data by 2026, and low-quality language data by 2030-2050. It also estimates that we might run out of vision data by 2030 - 2060. It also estimates that we might run out of vision data by 2030 - 2060.
 		- [Chinchilla's Wild Implications](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) argued that ==training data would soon become a bottleneck for scaling large language models==.  "Data, not size, is the currently-active constraint on language-modeling performance. Current returns to additional data are immense, and current returns to model size are miniscule! In fact, most recent landmark models are *wastefully big!*"
 - Even handwaving scaling curves seriously imply that we'll 'll need 5 orders of magnitude (100,000x) more data than we seem to have (assuming same data efficiency).
 	- Multimodal data will give us more data, and we can recycle tokens on multiple epochs, and use [[Curriculum Learning]].
@@ -55,7 +55,7 @@ Questions asked:
 - Those benchmarks aren't good enough of a proxy, and (with respect to loss), we don't care directly about performance on next-token prediction! ==We want to find out whether these scaling curves on next-token prediction actually correspond to true progress towards general intelligence!==
 
 ### Believer: 
-- As you scale the models, the performance consistently and reliably improves on a broad range of task as measured by benchmarks like [[Massive Multi-task Language Understanding|MMLU]], [[BIG-Bench]], and [[HumanEval]].
+- As you scale the models, the performance consistently and reliably improves on a broad range of task as measured by benchmarks like [[MMLU|MMLU]], [[BIG-Bench]], and [[HumanEval]].
 
 ![[Pasted image 20240121174546.png]]
 ![[Pasted image 20240121174552.png]]
@@ -63,7 +63,7 @@ Questions asked:
 ![[Pasted image 20240121174558.png]]
 
 ### Skeptic:
-- Yeah, the numbers on the benchmarks are improving, but have you actually tried LOOKING at a random sample of questions from [[Massive Multi-task Language Understanding|MMLU]] and [[BIG-Bench]]? They're almost *all* just Google Search first hit results. They're good tests of *memorization*, not *intelligence!*
+- Yeah, the numbers on the benchmarks are improving, but have you actually tried LOOKING at a random sample of questions from [[MMLU|MMLU]] and [[BIG-Bench]]? They're almost *all* just Google Search first hit results. They're good tests of *memorization*, not *intelligence!*
 
 Here's some questions:
 
@@ -96,7 +96,7 @@ In the skeptic's opinion, it's not even work asking yet whether scaling will con
 - If there were some fundamental hard ceiling on deep learning and LLMs, shouldn't we have seen it before they started developing common sense, early reasoning, and the ability to think across abstractions? Why do you think there's some stubborn limit?
 - Think about how much better GPT-4 is than GPT-3; that's just a 100x scaleup; which sounds like a lot, until you consider that ==we can totally afford a further 10,000x scaleup of GPT-4 (eg GPT-6-level) before we touch even *one percent* of world GDP==...
 	- And that's before we account for 
-		- pre-training compute efficiency gains ([[Mixture of Experts]], [[Flash Attention]])
+		- pre-training compute efficiency gains ([[Mixture of Experts]], [[FlashAttention]])
 		- new post-training methods ([[Reinforcement Learning from Human Feedback|RLHF]], fine-tuning on [[Chain of Thought]], [[Self-Play]])
 		- hardware improvements
 

@@ -1,7 +1,16 @@
+June 12, 2017 -- [[Google Research]]
+Paper: [Attention is all you need](https://arxiv.org/abs/1706.03762)
+#zotero 
+Takeaway: Dispense with recurrence -- Query, Key, and Value are all you need? (*Also position embeddings, multiple attention heads, feed-forward layers, skip-connections, normalization, etc.)
+
+----
+
+
+
 Types:
 - Encoder-only
 	- Designed to learn embeddings that can be used for various predictive tasks. Mainly used for learning *representations* of words while taking context into account. 
-	- [[Bidirectional Encoder Representations from Transformers]], [[ViT]] models
+	- [[BERT]], [[Vision Transformer|ViT]] models
 - Encoder-Decoder
 	- These models consist of both an encoder and a decoder; The encoder is responsible for encoding the input sequence into a fixed-length representation, while the decoder generates new texts or answers user queries.
 	- Suitable for tasks like translation, summarization, and text generation.
@@ -21,3 +30,7 @@ Variants:
 ![[Pasted image 20240130162320.png]]
 
 ![[Pasted image 20240130162218.png]]
+
+![[Pasted image 20240801181218.png]]
+Above: LLAMA2's architecture
+> "Transformer++" is GPT-2 plus [[Rotary Positional Embedding|RoPE]], [[SwiGLU]], [[RMSNorm]], and no biases. This is the architecture that most people think is the best transformer architecture for now. - Daniel Han (Unsloth, July 2024)

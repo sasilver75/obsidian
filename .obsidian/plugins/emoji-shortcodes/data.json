@@ -1,0 +1,23 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":1234:",
+    ":-1:",
+    ":100:",
+    ":robot:",
+    ":open_mouth:",
+    ":question:",
+    ":cry:",
+    ":green_square:",
+    ":red_square:",
+    ":negative_squared_cross_mark:",
+    ":frowning:",
+    ":gorilla:",
+    ":money_with_wings:",
+    ":handshake:",
+    ":chains:"
+  ]
+}

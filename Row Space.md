@@ -1,0 +1,1 @@
+The row space of a matrix is **the collection of all linear combinations of its rows** (ie the [[Span]] of its row vectors).

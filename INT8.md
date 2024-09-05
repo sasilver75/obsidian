@@ -1,0 +1,1 @@
+8-bit integer format capable of representing $2^8=256$ different values in a single byte.

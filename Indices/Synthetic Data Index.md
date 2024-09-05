@@ -1,0 +1,19 @@
+
+- [[Self-Instruct]]
+- [[WizardLM]]/ [[Evol-Instruct]]
+- [[Evol-Amplify]]
+- [[Self-Reward]]
+- [[Self-Play Fine-Tuning|Self-Play Fine-Tuning]] (SPIN)
+- [[Orca]]
+- [[Orca 2]]
+- [[Starling]]
+- [[Constitutional AI]]
+- [[Unnatural Instructions]]
+- [[Instruction Backtranslation]]
+- [[TinyStories]]
+- [[Web Rephrase Augmented Pre-training|WRAP]]
+- [[Pairwise Cringe Optimization]]
+- [[LaMini-LM]]
+- [[Instruction Backtranslation]]
+- [[Magicoder]]
+- [[Reinforced Self-Training|ReST]]^EM

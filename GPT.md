@@ -1,6 +1,12 @@
+A family of language models from [[OpenAI]]
+
 [[GPT-1]]
 [[GPT-2]]
 [[GPT-3]]
+[[text-davinci-002]]
+[[text-davinci-003]]
 [[InstructGPT]]
-[[GPT-4]]
 [[ChatGPT]]
+[[GPT-4]]
+[[GPT-4V]]
+[[GPT-4o]]

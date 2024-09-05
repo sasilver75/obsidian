@@ -1,0 +1,4 @@
+---
+aliases:
+  - Bayes Net
+---

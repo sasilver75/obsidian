@@ -22,7 +22,7 @@ As a result, most of the time your first iteration might not even involve machin
 This seems strangle, right?
 But if you check out [[Google's 43 Rules of Machine Learning (2023) {Google}]], you'll see:
 
-> Rule #1: Don't be afraid to launch a product without machine learning!
+> ==Rule #1: Don't be afraid to launch a product without machine learning!==
 > 
 > Machine learning is cool, but it requires data. Theoretically, you can take data from a different problem and then tweak the model for a new product, but this will likely underperform basic heuristics, once you understand the problem.
 
@@ -42,7 +42,7 @@ Several machine learning practitioners that I interviewed as part of the Applyin
 ### What should we start with then, if not ML?
 - Regardless of whether you're using simple rules or deep learning, it helps to have a decent understanding of the data! Thus, grab a sample of the data to run some statistics and visualize! 
 	- This mainly applies to tabular data, but other data like images, text, audio, etc. can be trickier to run aggregate statistics on.
-- **Simple correlations** can help figuring out the relationships between each figure and the target variable! Then, we can select a subset of features, with the strongest relationships, to visualize.
+- ==**Simple correlations** can help figuring out the relationships between each figure and the target variable==! Then, we can select a subset of features, with the strongest relationships, to visualize.
 - Not only does this help with understanding the data and problem, it will help us apply machine learning more effectively later on! We also gain better context on the business domain.
 	- Note that correlations and aggregate statistics can be misleading! 
 	- Note that variables with strong correlative relationships can have zero causal effect, and variables that have strong relationships can appear to have zero correlation!
@@ -88,7 +88,7 @@ These heuristics also help with bootstrapping labels (aka weak supervision)!
 	- Once you're at some 195-rule handcrafted system, that becomes hard to update without breaking something.
 
 Google's Rules:
-> Rule #3: Choose machine learning over a *complex heuristic*.
+> ==Rule #3: Choose machine learning over a *complex heuristic*.==
 > 
 >A simple heuristic can get your  product out the door. A complex heuristic is unmaintainable. Once you have some data and a basic idea of what you're trying to accomplish, move on to machine learning! You'll find that the machine-learned model is easier to update and maintain.
 

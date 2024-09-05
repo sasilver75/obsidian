@@ -23,7 +23,7 @@ Link: https://simonwillison.net/2023/Dec/31/ai-in-2023/
 		- So training an LLM isn't something that a hobbyist (or many universities) can easily afford, but it's no longer the domain of the super-rich.
 - ==You can run LLMs on your own devices==
 	- In January of 2023, we thought it would be years before we could run useful LLMs on our own computers -- Then, in Februrary, [[Meta AI Research]] released [[LLaMA]], and a few weeks later, Georgi Gerganov released code that got it working on a MacBook.
-	- Later, in July Meta released [[LlLaMA 2]], an improved version that (crucially) included permission for commercial use!
+	- Later, in July Meta released [[LLaMA 2]], an improved version that (crucially) included permission for commercial use!
 	- Now, we can run a bunch on our laptop -- You can even run models like [[Mistral]] 7B on your iPhone! Or you can run them *entirely in your browser* using WASM, in the latest chrome!
 - ==Hobbyists can build their own fine-tuned models==
 	- While LLM development from scratch is still out of reach of hobbyists, fine-tuning these models is another matter entirely!
