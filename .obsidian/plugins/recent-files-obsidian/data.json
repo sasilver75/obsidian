@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
+      "basename": "MGSM",
+      "path": "MGSM.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Nexus",
+      "path": "Nexus.md"
+    },
+    {
+      "basename": "IFEval",
+      "path": "IFEval.md"
+    },
+    {
+      "basename": "FoFo",
+      "path": "FoFo.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
+    },
+    {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
+    },
+    {
+      "basename": "01a Literature Review and Datasets",
+      "path": "Projects/Cohere Reasoning/Meetings/01a Literature Review and Datasets.md"
+    },
+    {
+      "basename": "01 Kickoff Meeting Friday, August 30 1030AM",
+      "path": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Projects/Cohere Reasoning/Index.md"
     },
     {
       "basename": "Speculative Decoding",
       "path": "Speculative Decoding.md"
+    },
+    {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
     },
     {
       "basename": "Better and Faster Large Language Models via Multi-token Prediction",
@@ -15,10 +55,6 @@
     {
       "basename": "EAGLE",
       "path": "EAGLE.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Hydra",
@@ -35,10 +71,6 @@
     {
       "basename": "Omar Khattab",
       "path": "Omar Khattab.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Projects/Cohere Reasoning/Index.md"
     },
     {
       "basename": "A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}",
@@ -167,38 +199,6 @@
     {
       "basename": "How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}",
       "path": "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md"
-    },
-    {
-      "basename": "VQAv2",
-      "path": "VQAv2.md"
-    },
-    {
-      "basename": "VQGAN",
-      "path": "VQGAN.md"
-    },
-    {
-      "basename": "VQ-VAE",
-      "path": "VQ-VAE.md"
-    },
-    {
-      "basename": "Orca-Math",
-      "path": "Orca-Math.md"
-    },
-    {
-      "basename": "Diffusion Model",
-      "path": "Diffusion Model.md"
-    },
-    {
-      "basename": "ReAct",
-      "path": "ReAct.md"
-    },
-    {
-      "basename": "Kahneman-Tversky Optimization",
-      "path": "Kahneman-Tversky Optimization.md"
-    },
-    {
-      "basename": "Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}",
-      "path": "Articles/Deep Reinforcement Learning Doesn't Work Yet (Feb 14, 2018) {Sorta Insightful Blog}.md"
     }
   ],
   "omittedPaths": [],
