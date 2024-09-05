@@ -1,353 +1,1231 @@
-# Linear Algebra
-- 
+# Data Engineering
+- [[Apache Arrow]]
+- [[Apache Parquet]]
 
 
 # Probability/Statistics
-- [[Monte-Carlo Tree Search]]
+- [[Law of Large Numbers]]
+- [[Central Limit Theorem]]
+- [[Monte-Carlo]]
+- [[Markov Assumption]] (Markov Property)
+- [[Hidden Markov Model]] (HMM)
+- [[Markov Chain]] (Markov Process)
+- [[Markov Chain Monte Carlo]] (MCMC)
+- [[Importance Sampling]]
+- [[Pearson Correlation Coefficient]] (PCC, Pearson's r)
+- [[Spearman Rank Correlation Coefficient]] (Spearman's Rho)
+- [[Kendall Rank Correlation Coefficient]] (Kendall's Tau)
+- [[Chi-Squared]]
+- [[Multicollinearity]]
+- [[Degrees of Freedom]]
+- [[Hyperparameter]]
+- [[Loss Function]]
+- [[Multi-Armed Bandit]]
+- [[Least-Squares]]
+- [[Binomial Coefficient]]
+- [[Kullback-Leibler Divergence]] (KL Divergence)
+- [[Entropy]]
+- [[Mutual Information]]
+- [[Cross-Entropy]]
+- [[Kolmogorov Complexity]]
+- [[Thompson Sampling]]
+- [[Upper Confidence Bound]] (UCB)
+- [[Chain Rule of Probability]]
+- [[Multiplication Rule of Probability]]
+- [[Naive Definition of Probability]]
+- [[Bayes Theorem]]
+- [[Bayesian Network]]
+- [[Gaussian Mixture Model]] (GMM)
+- [[Jensen's Inequality]]
+- [[Evidence Lower Bound]] (ELBO)
+- [[Variational Bayesian Inference]] ("Variational Bayes")
+- [[Gaussian Distribution]] (Normal Distribution)
+- [[Bernoulli Distribution]]
+- [[Binomial Distribution]] (Probability that I get X heads in N flips)
+- [[Uniform Distribution]]
+- [[Beta Distribution]] 
+- [[Poisson Distribution]] (If 3 people walk into store per average hour, p(5 people walk in))
+- [[Gamma Distribution]]
+- [[Exponential Distribution]]
+- [[Weibull Distribution]]
+- [[Geometric Distribution]]
+- [[Student's t Distribution]]
+- [[Permutation]]
+- [[Combination]]
+- [[Normalizing Flows]]
+- [[Conditional Probability]]
+- [[Law of Total Probability]]
+- [[Sample Space]]
+- [[Event Space]]
+- [[Event]]
+- [[Outcome]]
+- [[Variance]]
+- [[Standard Deviation]]
+- [[Covariance]]
+- [[De Morgan's Law of Union]]
+- [[Linearity of Expectation]]
+- [[Gibbs Sampling]]
+
+# Linear Algebra
+- [[Vector]]
+- [[Span]]
+- [[Rank (Linear Algebra)]]
+- [[Column Space]]
+- [[Row Space]]
+- [[Dot Product]]
+- [[Cross Product]]
+- [[Cosine Similarity]]
+- [[Eigenvector]]
+- [[Eigenvalue]]
+- [[Determinant]]
+- [[Singular Value Decomposition]]
+- [[Row Echelon Form]]
+- [[Inverse]]
+- [[Transpose]]
+- [[Hadamard Product]]
 
 
-# Information Retrieval
-- [[BM25]]
-- [[Hierarchical Navigable Small Worlds]]
-- [[Locality Sensitive Hashing]]
-- [[Reranking]]
-
-# Analytics
+# Analytics/Misc. Modeling
 - [[Type One Error]]
 - [[Type Two Error]]
 - [[Precision]]
 - [[Recall]]
-- [[Covariate Shift]]
+- [[Covariate Shift]] (Distribution Shift)
+- [[Concept Shift]]
 - [[Regularization]]
+	- [[L1 Regularization]]
+	- [[L2 Regularization]] ([[L2 Regularization|Weight Decay]])
+- [[Consistency Regularization]]
 - [[One-Hot Encoding]]
-- [[t-SNE]]
 - [[Bootstrap]]
-- [[Bootstrap Aggregation]]
-- [[Hidden Markov Model]]
-- [[Markov Chain]]
+- [[Bootstrap Aggregation]] (Bagging)
 - [[Beam Search]]
 - [[F1 Score]]
-- [[AUC]]
-- [[ROC Curve]]
-- [[Principal Component Analysis]]
-- [[Independent Component Analysis]]
-
-# RecSys
+- [[F-Beta Score]]
+- [[ROC Curve]] (Received Operating Characteristic)
+- [[ROC-AUC]] (ROC Area under Curve)
+- [[Precision-Recall Curve]] (PR Curve)
+- [[PR-AUC]] (PR Area under Curve)
+- [[JS Divergence]] (Jensen-Shannon Divergence)
+- [[Principal Component Analysis]] (PCA)
+- [[Independent Component Analysis]] (ICA)
+- [[Bloom Filter]] (for set membership)
+- [[Count-Min Sketch]] (for frequency estimation)
+- [[MinHash]] (for set similarity)
+- [[HyperLogLog]] (for set cardinality)
+- [[Bias-Variance Tradeoff]]
+- [[XGBoost]]
+- [[Naive Bayes]]
+- [[Gradient Boosting Machine]] (GBM)
+- [[Classification]]
 - [[Collaborative Filtering]]
 - [[Content-Based Filtering]]
+- [[Training Dataset]]
+- [[Validation Dataset]]
+- [[Test Dataset]]
+- [[Cross-Validation]]
+- [[K-Nearest Neighbors]] (kNN) 
+- [[K-Means Clustering]]
+- [[UMAP]]
+- [[t-SNE]]
+- [[DBSCAN]]
+- [[Cloze]]
+- [[Inverse Cloze]]
+- [[Decision Tree]]
+- [[Random Forest]]
+- [[Mechanistic Interpretability]] (MechInterp)
+- [[Representation Engineering]] (RepEng)
+- [[Support Vector Machine]] (SVM)
+- [[Jaccard Similarity]]
+- [[Hamming Distance]]
+- [[Manhattan Distance]]
+- [[Goodhardt's Law]]
+- [[Moravec's Paradox]]
+- [[Accuracy]]
+- [[Balanced Accuracy]]
+- [[Outlier Detection]]
+- [[Anomaly Detection]]
+- [[Coreset Selection]]
+- [[Gradient Descent]]
+- [[Stochastic Gradient Descent]] (SGD)
+- [[Selection Bias]]
+- [[Cook's Distance]] (Cook's D)
+- [[Outlier]]
+- [[Leverage]]
+- [[Sample Weights]]
+- [[Balanced Mini-Batch Training]]
+- [[Isolation Forest]]
+- [[Linear Regression]]
+- [[Logistic Regression]]
+- [[Standard Error]]
 
-
-# Machine Learning
-- [[Matryoshka Representation Learning]]
+# Machine Learning/General
+- [[Graph Neural Network]]
+- [[Long Short Term Memory]] (LSTM)
+- [[Gradient Clipping]]
+- [[Data Augmentation]]
+- [[Gradual Unfreezing]]
+- [[Discriminative Learning Rate]]
+- [[Gated Recurrent Unit]] (GRU)
+- [[In-Context Learning]]
+- [[Few-Shot Prompting]]
+- [[Teacher Forcing]] vs [[Student Forcing]]
+- [[Bitter Lesson]]
+- [[Self-Supervised Learning]]
+- [[Alignment]]
+- [[Seq2Seq]]
+- [[Perplexity]] 
+- [[Bits-per-Character]] (BPC)
+- [[Bits-per-Word]] (BPW)
+- [[Weight Tying]]
 - [[Large Language Model]]
 - [[Foundation Model]]
+- [[Nesterov Momentum]]
+- [[Adversarial Example]]
 - [[Multimodal]]
-- [[VLM]]
-- [[Machine Learning]]
-- [[Supervised Learning]]
-- [[Unsupervised Learning]]
+- [[VLM]] (Vision-Language Model)
+- [[Softmax]]
+- [[Rectified Linear Unit|ReLU]] (Rectified Linear Unit)
+- [[Leaky ReLU]]
+- [[Squared ReLU]]
+- [[Tanh]] (Hyperbolic Tangent)
+- [[SwiGLU]] ([[Swish]] + [[GLU]])
+- [[SiLU]] (Sigmoid Linear Unit)
 - [[Overfitting]]
+- [[Underfitting]]
+- [[Epoch]]
+- [[Feature Engineering]]
 - [[Prompting]]
 - [[Prompt Tuning]]
-- [[Feed-Forward Network]]
-- [[Chain of Thought]]
+- [[Feed-Forward Network]] (FFNN)
+- [[Chain of Thought]] (CoT)
+- [[Chain of Note]] (CoN)
 - [[Catastrophic Forgetting]]
-- [[Reinforcement Learning from Human Feedback]]
-	- [[Rejection Sampling]] in the RLHF context
-- [[Fine-Tuning]]
-- [[Instruction Tuning]]
+- [[Instruction-Tuning]]
+- [[Preference-Tuning]]
 - [[Transfer Learning]]
-- [[Retrieval-Augmented Generation]]
 - [[Autoencoder]]
+- [[Masked Autoencoder]]
+- [[Variational Autoencoder]] (VAE)
+- [[Beta-VAE]]
+- [[Sparse Autoencoder]] (SAE)
+- [[VQ-VAE]]
+- [[VQGAN]]
 - [[Ensemble Learning]]
 - [[Attention]] Mechanism
-- [[Diffusion Models]]
-- [[Parameter-Efficient Fine-Tuning]]
-- [[Segmentation]]
-- [[Classification]]
+- [[Self-Attention]]
+- [[Cross-Attention]]
+- [[Bidirectional Attention]]
+- [[Sparse Attention]]
+- [[Diffusion Model]]
+- [[Latent Diffusion Model]]
+- [[Latent Consistency Model]] (LCM)
+- [[Diffusion Transformer]] (DiT)
+- [[Parameter-Efficient Fine-Tuning]] (PEFT)
+- [[Adapter]]
+- [[Adapter Fusion]]
 - [[Quantization]]
-- [[Model Pruning]]
+- [[Absolute Maximum Quantization]] (Absmax Quantization)
+- [[Zero-Point Quantization]] (ZPQ)
+- [[Quantization-Aware Training]] (QAT)
+- [[Linear Quantization]]
+- [[Post-Training Quantization]] (PTQ)
+- [[Model-Aware Quantization]]
+- [[Activation-Aware Weight Quantization]] (AWQ)
+- [[LLM.int8()]]
+- [[K-Means Quantization]]
+- [[Pruning]]
+- [[Unstructured Pruning]]
+- [[Structured Pruning]]
+- [[Magnitude-Based Pruning]]
+- [[Scaling-Based Pruning]]
+- [[Second-Order-Based Pruning]]
+- [[Percentage-of-Zero-Based Pruning]]
+- [[Regression-Based Pruning]]
 - [[Masking]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
 - [[Weak Supervision]]
+- [[Confident Learning]]
 - [[Embedding]]
-- [[Tokens]]
+- [[Token]]
 - [[Numericalization]]
 - [[Pre-training]]
+- [[AdaBoost]]
 - [[Batch]]
-- [[Batch Normalization]]
-- [[Layer Normalization]]
+- [[Scalable Oversight]]
+- [[Batch Normalization]] (BatchNorm)
+- [[Layer Normalization]] (LayerNorm)
 - [[Convolution]]
 - [[Grouped Convolutions]]
 - [[Depth-Wise Convolutions]]
-- [[Activation Function]]s
-- [[U-Net]]
-- [[ULMFit]]
+- [[Activation Function]]
 - [[Gini Index]]
-- [[Test-Time Augmentation]]
 - [[Gradient Accumulation]]
-- [[Recurrent Neural Networks]]
-- [[Long Short Term Memory]]
-- [[Gated Recurrent Unit]]
-- [[Convolutional Neural Network]]
-- [[Region-Based Convolutional Neural Network]]
+- [[Recurrent Neural Network]] (RNN)
+- [[Long Short Term Memory]] (LSTM)
+- [[Gated Recurrent Unit]] (GRU)
+- [[Convolutional Neural Network]] (CNN)
+- [[Kernel]]
+- [[Receptive Field]]
+- [[Region-Based Convolutional Neural Network]] (R-CNN)
 - [[Vanishing Gradients]], [[Exploding Gradients]]
-- [[Masked Language Model]]
 - [[Distillation]]
+- [[Self-Distillation]]
+- [[Online Distillation]]
+- [[Context Distillation]]
 - [[Hallucination]]
+- [[Prefix Language Model]]
 - [[Inductive Bias]]
+- [[Reward Model]] (RM)
+- [[Pairwise Ranking]] vs [[Direct Assessment]]
+- [[Process Reward Model]] (PRM)
+- [[Bradley-Terry Model]]
 - [[Graph Convolutional Network]]
 - [[Mode Collapse]] 
 - [[VC Dimension]]
+- [[PAC Learning]]
 - [[Alignment Tax]]
-- [[Perplexity]] 
 - [[Curriculum Learning]]
 - [[Online Learning]]
+- [[Weak-to-Strong Generalization]]
 - [[Label-free Evaluations]] vs [[Labeled Evaluations]]
-- [[Generative Adversarial Network]]
+- [[Generative Adversarial Network]] (GAN)
 - [[Adam]]
+- [[AdamW]]
 - [[RMSProp]]
+- [[Adagrad]]
 - [[Residual Connection]]
+- [[float32]] (FP32)
+- [[float16]] (FP16)
+- [[bfloat16]] (BF16)
+- [[float8]] (FP8)
+- [[float4]] (FP4)
+- [[INT8]]
+- [[INT4]]
 - [[Transformer]]
 - [[Encoder-Only Architecture]]
 - [[Decoder-Only Architecture]]
 - [[Encoder-Decoder Architecture]]
-- [[Neural Architecture Search]]
-- [[Out-of-Vocabulary Token]]
+- [[Neural Architecture Search]] (NAS)
 - [[Double Descent]]
-- [[Bias-Variance Tradeoff]]
-- [[Guardrails]], [[Steerability]]
+- [[Guardrails]]
+- [[Steerability]]
 - [[Class Token]] 
-- [[Contrastive learning]] / [[Contrastive Loss]]
+- [[Contrastive Loss]]
 - [[Pre-text Training]] 
 - [[Kalman Filter]]
-- [[Exposure Bias]]
 - [[Particle Filters]] 
 - [[Gaussian Splatting]]
-- [[Neural Radiance Fields]]
-- [[Tree of Thought]]
-- [[knowledge-base/VLM]] 
+- [[Neural Radiance Fields]] (NeRF)
+- [[Tree of Thoughts]] (ToT)
+- [[VLM]] (Vision-Language Model)
+- [[Continuous Batching]]
 - [[Speculative Decoding]]
-- [[Speculative Sampling]]
-- [[Dropout]]**
+- [[Self-Speculative Decoding]]
+- [[Constrained Decoding]]
+- [[Reward-Augmented Decoding]]
+- [[Human-in-the-Loop Decoding]]
+- [[Dropout]]
 - [[Label Smoothing]]
-- [[Direct Policy Optimization]]
 - [[Sampled Softmax]]
 - [[Positive Pair]]
 - [[Negative Pair]]
 - [[Mode Collapse]]
 - [[Active Learning]]
+- [[SEALS]] (Similarity Search for Active Learning and Search)
 - [[Prior Amplification]]
 - [[Prefix Tuning]]
 - Compute-Optimal Training
 - Inference-Optimal Training
--  [[Reinforcement Learning from from AI Feedback]]
-- [[Low-Rank Adaptation]]
-- [[Quantized Low-Rank Adaptation]]
-- [[Constitutional AI]]
-- [[Segmentation Mask]]
+- [[Low-Rank Adaptation]] (LoRA)
+- [[Quantized Low-Rank Adaptation]] (QLoRA)
+- [[Weight-Decomposed Low-Rank Adaptation]] (DoRA)
 - [[Scaling Laws]]
-- [[Self-Play]]
 - [[Synthetic Data]]
-- [[Self-Correct]]
-- [[Mixture of Experts]]
+- [[Mixture of Experts]] (MoE)
+- [[Soft Mixture of Experts]] (sMoE)
+- [[Mixture-of-Depths]] (MoD)
+- [[Data Parallelism]]
 - [[Model Parallelism]]
 - [[Tensor Parallelism]]
-- [[RMSNorm]]
+- [[Pipeline Parallelism]]
+- [[Context Parallelism]]
+- [[Sequence Parallelism]]
+- [[Fully Sharded Data Parallelism]] (FSDP)
+- [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
-- [[Byte-Pair Encoding]] 
-- [[Rotary Positional Embedding]]
-- [[SPIN]]
+- [[Rotary Positional Embedding]] (RoPE)
+- [[LongRoPE]]
+- [[YaRN]] (Yet another RoPE extensioN method)
+- [[Attention with Linear Biases]] (ALiBi)
+- [[Self-Play Fine-Tuning]] (SPIN)
 - [[Canary GUID]]
-- [[Weight Decay]]
 - [[Early Stopping]]
-- [[Learning Rate]]
+- [[Learning Rate]] (LR)
+- [[Grouped Query Attention]] (GQA)
+- [[RingAttention]]
+- [[Evol-Instruct]]
+- [[Evol-Amplify]]
+- [[Auto Evol-Instruct]] (AutoEvol)
+- [[Genetic Instruct]]
+- [[OSS-Instruct]]
+- [[Imitation Learning]]
+- [[Automatic Mixed-Precision Training]]
+- [[Xavier Initialization]] (Glorot Initialization)
+- [[He Initialization]] (Kaiming Initialization)
+- [[Out-of-Bag Error]] (OOB Error)
+- [[Boosting]]
+- [[Direct Preference Optimization]] (DPO)
+- [[Conservative Direct Preference Optimization]] (cDPO)
+- [[Identity-Mapping Preference Optimization]] (IPO)
+- [[Binary Classifier Optimization]] (BCO)
+- [[Kahneman-Tversky Optimization]] (KTO)
+- [[Direct Nash Optimization]] (DNO)
+- [[Stepwise Direct Preference Optimization]] (sDPO)
+- [[Odds Ratio Preference Optimization]] (ORPO)
+- [[Trust Region Policy Optimization]] (TRPO)
+- [[Reward-Aware Preference Optimization]] (RPO)
+- [[Self-Consistency]]
+- [[Self-Ask]]
+- [[Self-RAG]]
+- [[Self-Discover]]
+- [[KV Cache]]
+- [[Negative Prompt]]
+- [[Reward Model]]
+- [[Reward-Model-as-a-Judge]]
+- [[LLM-as-a-Judge]]
+- [[Positional Bias]]
+- [[Verbosity Bias]]
+- [[Self-Enhancement Bias]]
+- [[Continued Pretraining]]
+- [[False Refuse]]
+- [[Lottery Ticket Hypothesis]]
+- [[Retrieval-Augmented Generation]] (RAG)
+- [[Retrieval-Augmented Generation (Model)]] (RAG)
+- [[CRAG|Corrective Retrieval Augmented Generation]] (CRAG)
+- [[Instruction Backtranslation]]
+- [[CRINGE Loss]]
+- [[Hinge Loss]]
+- [[Pairwise Cringe Optimization]] (PCO)
+- [[Maximum Inner Product Search]] (MIPS)
+- [[Reinforced Self-Training]] (ReST/$ReST^{EM}$)
+- [[Rejection Sampling]]
+- [[Best-of-N Sampling]]
+- [[Steering Vector]] (Control Vector, Concept Vector)
+- [[Feature Steering]]
+- [[Feature Clamping]]
+- [[State Space Model]] (SSM)
+- [[Quality-Diversity through AI Feedback]] (QDAIF)
+- [[AgentInstruct]]
+- [[Query of CC]]
+- [[WizardArena]]
+- [[Instag]]
+- [[Self-Taught Reasoner]] (STaR)
+- [[V-STaR]]
+- [[TRICE]]
+- [[Self-Taught Optimizer]] (STOP)
+- [[Quiet STaR]]
+- [[Web Rephrase Augmented Pre-training]] (WRAP) (Rephrasing the Web)
+- [[Constitutional AI]] (CAI)
+- [[Self-Refine]]
+- [[LATS]] (Language Agent Tree Search)
+- [[RAISE]] (Reasoning and Acting through Scratchpad and Examples)
+- [[ReAct]] (Reason and Act)
+- [[Reflexion]]
+- [[Voyager]]
+- [[Model Merging]]
+- [[Soft-Capping]]
+- [[Self-Play Preference Optimization]] (SPPO)
+- [[Rejection Sampling Optimization]] (RSO)
+- [[Identity-Mapping Preference Optimization]] (IPO)
+- [[TextGrad]]
+- [[AutoGPT]]
+- [[BabyAGI]]
+- [[Representation Finetuning]] (ReFT)
+- [[Verifier Voting]]
+- [[Expert Iteration]]
+- [[Reinforcement Learning from Evol-Instruct Feedback]] (RLEIF)
+- [[Magpie]]
+- [[Instruction Pretraining]]
+- [[Persona Hub]]
+- [[FLOPs]]
+- [[Model FLOPs Utilization]] (MFU)
+- [[Needle in a Haystack]] (NIAH)
+- [[Rule-Based Rewards]] (RBR)
+- [[Sparrow]]
+- [[Self-Alignment with Instructable Reward Models]] (SALMON)
+- [[SELF-ALIGN]]
+- [[Self-Directed Synthetic Dialogues]] (SDSD)
+- [[Apple Intelligence Foundation Language Models|Apple Foundation Model]] (AFM)
+
+# Information Retrieval Concepts
+- [[Adaptive Retrieval]]
+- [[Approximate Nearest Neighbor Contrastive Learning]] (ANCE)
+- [[Approximate Nearest Neighbor Search]] (ANN Search)
+- [[Asymmetric Distance Computation]] (ADC)
+- [[Average Precision]]
+- [[Baleen]]
+- [[Bi-Encoder]]
+- [[BM25]]
+- [[ColBERT-QA]]
+- [[ColBERTv2]]
+- [[ColBERT]]
+- [[Consistency Filtering]]
+- [[Context Compression]]
+- [[Contriever]]
+- [[CRAG]] (Corrective Retrieval Augmented Generation)
+- [[Cross-Encoder]]
+- [[Dense Passage Retrieval]] (DPR)
+- [[Dense Retrieval]]
+- [[DRAGON]] (Dense Retrieval trained with Diverse Augmentation)
+- [[FLARE]] (Forward-Looking Active Retrieval Augmented Generation)
+- [[Fusion-in-Decoder]] (FiD)
+- [[Generate-then-Read]] (GenRead)
+- [[Hard Negative Mining]]
+- [[Hierarchical Navigable Small Worlds]] (HNSW)
+- [[Hybrid Search]]
+- [[HyDE]] (Hypothetical Document Embeddings)
+- [[InPars]] (Inquisitive Parrots for Search)
+- [[Inverted File Index]] (IVF)
+- [[Inverted Index]]
+- [[IRCoT]]
+- [[Iter-RetGen]]
+- [[Iterative Retrieval]]
+- [[KG-FiD]] (Knowledge Graph - Fusion in Decoder)
+- [[Late Interaction]]
+- [[Locality Sensitive Hashing]] (LSH)
+- [[Mean Average Precision]] (MAP)
+- [[Mean Reciprocal Rank]]
+- [[Normalized Discounted Cumulative Gain]] (NDCG)
+- [[Optimized Product Quantization]] (OPQ)
+- [[ORQA]] (Open-Retrieval Question Answering System)
+- [[PLAID]]
+- [[Precision (Information Retrieval)]]
+- [[Product Quantization]] (PQ)
+- [[Promptagator]]
+- [[Query Expansion]]
+- [[Rank (Information Retrieval)]]
+- [[REALM]] (Retrieval-Augmented Language Model Pretraining)
+- [[Recall (Information Retrieval)]]
+- [[Reciprocal Rank]]
+- [[Recursive Retrieval]]
+- [[Relevance Set]]
+- [[Relevance-Guided Supervision]]
+- [[Reranking]]
+- [[RETRO]] (Retrieval-Enhanced Transformer)
+- [[Return Set]]
+- [[Reverse HyDE]]
+- [[SANTA]] (Structure-Aware Dense Retrieval)
+- [[Sparse Retrieval]]
+- [[SPLADEv2]]
+- [[SPLADE]]
+- [[Success]]
+- [[TART]] (Task-Aware Retrieval with Instructions)
+- [[TF-IDF]]
+- [[Tree of Clarification]]
+- [[UPR]] (Unsupervised Passage Re-Ranker)
 
 
 # Natural Language Processing Concepts
-- [[Sentiment Analysis]]
-- [[Argument Mining]]
-- [[Language Grounding]]
-- [[Question Answering]]
-- [[Machine Translation]]
-- [[Information Extraction]]
-- [[Diarization]]
-- [[Topic Modeling]]
-
+- Tasks
+	- [[Sentiment Analysis]]
+	- [[Argument Mining]]
+	- [[Language Grounding]]
+	- [[Question Answering]] (QA)
+		- [[Open-Domain]]
+		- [[Closed-Domain]]
+		- [[Open-Book]]
+		- [[Closed-Book]]
+		- [[Multi-Hop]]
+	- [[Machine Translation]] (MT)
+	- [[Information Extraction]]
+	- [[Diarization]]
+	- [[Topic Modeling]]
+	- [[Summarization]]
+		- [[Extractive Summarization]]
+		- [[Abstractive Summarization]]
+	- [[Named Entity Recognition]] (NER)
+	- [[Part-of-Speech Tagging]]
+	- [[Dependency Parsing]]
+	- [[Word-Sense Disambiguation]]
+	- [[Coreference Resolution]]
+	- [[Semantic Text Similarity]] (STS)
+	- [[Natural Language Inference]] (NLI, Textual Entailment)
+	- [[Language Identification]] (LID)
+- [[Context-Free Grammar]]
+- [[Dependency Grammar]]
+- [[Prosody]]
+- [[Padding]] (In the context of sequences)
+- [[BLEU]] Score
+- [[BLEURT]] Score
+- [[ROUGE]] Score
+- [[COMET]] Score
+- [[BERTScore]]
+- [[chrF]]
+- [[Automatic Speech Recognition]]
+- [[Byte-Pair Encoding]] Tokenization
+- [[SentencePiece]] Tokenization
+- [[WordPiece]] Tokenization
+- [[Unigram Tokenization]]
+- [[Self-Play]]
+- [[Self-Correct]]
+- [[Self-Instruct]]
+- [[GenQA]]
+- [[Self-Reward]]
+- [[Zero-Shot Prompting]]
+- [[Step-Back Prompting]]
+- [[Least-to-Most Prompting]]
+- [[Plan-and-Solve Prompting]]
+- [[Masked Language Model]]
+- [[U-Net]]
+- [[Matryoshka Representation Learning]]
+- [[Out-of-Vocabulary Token]] / "UNK"
+- [[Greedy Decoding]]
+- [[Ancestral Sampling]]
+- [[Contrastive Decoding]]
+- [[Top-K Sampling]]
+- [[Top-P Sampling]] (Nucleus Sampling)
+- [[Exposure Bias]]
+	- [[Scheduled Sampling]]
+	- [[Dataset Aggregation]]
+- [[Temperature]]
+- [[DSPy]]
+- [[MIPRO]] (Multi-Prompt Instruction Proposal Optimizer)
+- [[N-Gram]]
+- [[Coreference]], [[Coreference Resolution]]
+- [[Selective Language Modeling]] (SLM)
+- [[Noise-Contrastive Estimation]]
+- [[InfoNCE]] (Info Noise-Contrastive Estimation)
 
 # Computer Vision Concepts
-- 
+- [[Object Recognition]]
+- [[Segmentation Mask]]
+- [[Zero Padding]]
+- [[Same Padding]]
+- [[Max Pooling]]
+- [[Average Pooling]]
+- Tasks:
+	- [[Image Segmentation]]
+	- [[Semantic Segmentation]]
+	- [[Panoptic Segmentation]]
+	- [[Instance Segmentation]]
+	- [[Image Classification]]
+	- [[Image Captioning]]
+	- [[Object Detection]]
+	- [[Video Classification]]
+	- [[Depth Estimation]]
+	- Image-to-Image synthesis
+	- Unconditional image generation
+	- Conditional image generation
+	- Image-to-Text (eg [[Optical Character Recognition]])
+	- Text-to-Image
+	- [[Visual Question-Answering]]
+- [[Swin|Swin Transformer]]
+- [[Vision Transformer]] (ViT)
+
+# MultiModal Concepts
+- [[Early Fusion]]
+- [[Late Fusion]]
+- Middle Fusion
+- Representation Fusion
+- Representation Coordination
+- Representation Fission
+- Single Stream vs Dual Stream
+
+# Data Augmentation Concepts
+- [[Back-Translation]]
+- [[MixMatch]]
+- [[MixUp]]
+- [[Progressive Resizing]]
+- [[RandAugment]]
+- [[Test-Time Augmentation]] (TTA)
+
+
+# ML Security Concepts
+- [[Black-Box Access]]
+- [[Data Extraction Attack]]
+- [[Membership Inference Attack]]
+- [[Metrics-Based Attack]]
+- [[Security Goal]]
+- [[Shadow Model]]
+- [[Threat Model]]
+- [[White-Box Access]]
 
 
 # Reinforcement Learning Concepts
-- [[Reinforcement Learning]]
+- [[Actor-Critic Policy Gradient]]
+- [[Advantage Function]]
+- [[Advantage Function]]
 - [[Agent]]
-- [[Policy]]
+- [[Bellman Equation]] 
+- [[Credit Assignment Problem]]
+- [[Deep Q-Networks]] (DQN)
+- [[Deep Reinforcement Learning]]
+- [[Dyna-2]]
+- [[Dyna-Q]]
+- [[Dynamic Programming]]
+- [[Dyna]]
+- [[Epsilon-Greedy]]
+- [[Experience Replay]]
+- [[Group Relative Policy Optimization]] (GRPO)
 - [[Hierarchical Reinforcement Learning]]
 - [[Inverse Reinforcement Learning]]
+- [[Markov Decision Process]]
+- [[Markov Reward Process]]
+- [[Model Predictive Control]] (MPC)
+- [[Model-Based]]
+- [[Model-Free]]
+- [[Monte-Carlo Learning]]
+- [[Monte-Carlo Policy Gradient]]
+- [[Monte-Carlo Tree Search]] (MCTS)
+- [[Off-Policy]]
+- [[On-Policy]]
+- [[Policy Evaluation]]
+- [[Policy Gradient]]
+- [[Policy Iteration]]
+- [[Policy]]
+- [[Proximal Policy Optimization]] (PPO)
 - [[Q-Function]]
-- [[Q-Learning]], [[Deep Q Networks]]
-- [[Policy Gradient Algorithm]]
-- [[Value Learning]] vs [[Policy Learning]]
-- [[Proximal Policy Optimization]]
-- [[Bellman Equation]]
+- [[Q-Learning]], [[Deep Q-Learning]]
+- [[Reinforcement Learning]] (RL)
+- [[Reinforcement Learning from from AI Feedback]] (RLAIF)
+- [[Reinforcement Learning from Human Feedback]] (RLHF)
+- [[REINFORCE]]
+- [[Return]]
+- [[Reward Hacking]]
+- [[Reward]]
+- [[Sample-Based Planning]]
+- [[SARSA-Lambda]]
+- [[SARSA]]
+- [[TD-Lambda]]
 - [[Temporal Difference Learning]] (TD-Learning)
-- On-Policy, Off-Policy
-- Actor-Critic methods
-- [[Direct Preference Optimization]]
+- [[Temporal-Difference Search]] (TD Search)
+- [[Trajectory]]
+- [[Value Function]]
+- [[Value Iteration]]
+- [[Value Learning]] vs [[Policy Learning]]
 
 
 # Models
-- [[LeNet]]
+- [[Ada-Instruct]]
 - [[AlexNet]]
-- [[CLIP]] 
-- [[Bidirectional Encoder Representations from Transformers]] ([[Bidirectional Encoder Representations from Transformers|BERT]])
-- [[GPT]]
-- [[Megatron]]
-- [[Word2Vec]]
-- [[GloVe]]
-- [[ConvNext]]
-- [[Residual Network]]
-- [[Segment Anything Model]]
-- [[T5]]
-- [[Stable Diffusion]]
-- [[LLaMA]]
-- [[Chinchilla]]
-- [[ControlNet]]
-- [[VGG]]
-- [[Phi-2]]
-- [[Flamingo]]
-- [[YOLO]]
-- [[U-Net]]
-- [[Inception]]
-- [[Latent Dirichlet Allocation]]
-- [[Random Forest]]
-- [[Support Vector Machine]]
-- [[Recur]]
-- [[Gato]]
-- [[Whisper]]
-- [[ReAct]]
-- [[PaLM]]
-- [[FLAN]]
-- [[DALL-E]]
-- [[DINO]]
-- [[Claude]]
-- [[Gemeni]]
+- [[ALIGN]] (A Large-Scale Image and Noisy-Text Embedding)
 - [[Alpaca]]
-- [[Vicuna]]
-- [[RWKV]]
+- [[AlpaGasus]]
+- [[AlphaCode]]
+- [[AlphaGeometry]]
+- [[AlphaGo]]
+- [[BART]] (Bidirectional and Auto-Regressive Transformers)
+- [[BERT]] (Bidirectional Encoder Representations from Transformers)
+- [[BLIP-2]] (Bootstrapping Language-Image Pretraining v2)
+- [[BLIP]] (Bootstrapping Language-Image Pretraining)
+- [[BYOL]] (Bootstrap Your Own Latent)
+- [[Capybara]]
+- [[Chameleon]]
+- [[ChatGPT]]
+- [[Chinchilla]]
+- [[Claude 3]]
+- [[CLIP]] (Contrastive Language-Image Pretraining)
 - [[Codex]]
-- [[Minerva]]
-- [[WebGPT]]
-- [[Toolformer]]
+- [[CogVLM]]
+- [[Command R+]]
+- [[Command R]]
+- [[Compressive Transformer]]
+- [[Contrastive Captioner]] (CoCa)
+- [[ControlNet]]
+- [[ConvNeXt]]
+- [[DALL-E 2]]
+- [[DALL-E 3]]
+- [[DALL-E]]
+- [[DBRX]] (DBRex)
+- [[DeBERTa]] (Decoding-enhanced BERT with Disentangled Attention)
+- [[DeepSeek-Coder]]
+- [[DeepSeek-Coder-V2]]
+- [[DeepSeekMath]]
+- [[DenseNet]]
+- [[DINOv2]] (Distillation with No Labels v2)
+- [[DINO]] (Distillation with No Labels)
+- [[DistilBART]]
+- [[DistilBERT]]
+- [[DistilRoBERTa]]
+- [[Dolly]]
+- [[EAGLE]]
+- [[ELECTRA]] (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
+- [[Falcon 2]]
+- [[Falcon]]
+- [[FLAMe]] (Foundational Large Autorater Model)
+- [[Flamingo]]
+- [[FLAN-T5]]
+- [[FLAN]] (Fine-tuned Language Net)
+- [[Gato]]
+- [[Gemeni]]
+- [[Gemma 2]]
+- [[Gemma]]
+- [[Genstruct]]
+- [[GLIDE]] (Guided Language to Image Diffusion for Generation and Editing)
+- [[GloVe]]
+- [[GoogleNet]]
+- [[Gopher]]
 - [[Gorilla]]
+- [[GPT-2]]
+- [[GPT-3.5]]
+- [[GPT-3]]
+- [[GPT-4o]]
+- [[GPT-4o Mini]]
+- [[GPT-4V]]
+- [[GPT-4]]
 - [[GPT-J]]
 - [[GPT-NeoX]]
-- [[Gopher]]
-- [[AlphaCode]]
-- [[MPT]]
-- [[OLMo]]
+- [[Guanaco]]
+- [[Hermes]]
+- [[HiPPO]] (High-order Polynomial Projection Operators)
+- [[Hydra]]
+- [[ImageBind]]
+- [[Imagen]]
+- [[Inception]]
+- [[InstructGPT]]
+- [[JetMoE]]
+- [[Jurassic-1]]
+- [[Koala]]
+- [[KOSMOS 2.5]]
+- [[KOSMOS 2]]
+- [[LaMDA]]
+- [[LaMini-LM]]
+- [[Latent Dirichlet Allocation]] (LDA)
+- [[LeNet]]
+- [[LIMA]] (Less is More for Alignment)
+- [[LLaMA 2]]
+- [[LLaMA 3]]
+- [[LLaMA 3.1]]
+- [[LLaMA Guard]]
+- [[LLAMA Guard 2]]
+- [[LLaMA Guard 3]]
+- [[LLaMA]]
+- [[LLaVA]] (Large Language and Vision Assistant)
+- [[Longform]]
+- [[Magicoder]]
+- [[Mamba]]
+- [[Medusa]]
+- [[Megatron]]
+- [[MemGPT]]
+- [[MetaMath]]
+- [[Mind's Eye]]
+- [[Minerva]]
+- [[Mistral 7B]]
+- [[Mixtral 8x22B]]
+- [[Mixtral 8x7B]]
+- [[Mistral NeMo]]
+- [[MobileLLM]]
+- [[MobileNet-V2]]
+- [[MobileNet]]
+- [[MPT]] (Mosaic Pretrained Transformer)
+- [[Nemotron-4]]
+- [[OLMo]] (Open Language Model)
+- [[OpenChat]]
+- [[OpenCLIP]]
+- [[OpenELM]]
+- [[Orca 2.5]]
+- [[Orca 2]]
+- [[Orca 3]]
+- [[Orca-Math]]
+- [[Orca]]
+- [[OWL-ViT]] (Vision Transformer for Open-World Localization)
+- [[OWLv2]] (Vision Transformer for Open-World Localization v2)
+- [[PaliGemma]]
+- [[PaLM]] (Pathways Language Model)
+- [[Phi-1.5]]
+- [[Phi-1]]
+- [[Phi-2]]
+- [[Phi-3]]
+- [[Pile-T5]]
+- [[Prometheus 2]]
+- [[Prometheus]]
+- [[Qwen]]
+- [[Qwen 1.5]]
+- [[Qwen 2]]
+- [[Qwen 2 Math]]
+- [[Residual Network]] (ResNet)
+- [[Rho-1]]
+- [[RoBERTa]] (Robustly Optimized BERT Approach)
+- [[RWKV]] (Receptance Weighted Key Value)
+- [[S4]] (Structured State Space Sequence Model)
+- [[Segment Anything Model]] (SAM)
+- [[SAM 2]]
+- [[Sentence-BERT]] ([[Sentence-BERT|sBERT]])
+- [[Shepherd]]
+- [[SigLIP]] (Sigmoid Loss for Language-Image Pretraining)
+- [[SimCLR v2]]
+- [[SimCLR]] (Simple Framework for Contrastive Learning for Visual Representations)
+- [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
+- [[SmolLM]]
+- [[Stable Diffusion]]
+- [[StarCoder 2]]
+- [[StarCoder]]
+- [[Starling]]
+- [[SteerLM]]
+- [[T5]] (Text-to-Text Transfer Transformer)
+- [[TinyStories]] (Prequel to Phi models)
+- [[Toolformer]]
+- [[Transformer-XL]]
+- [[Tulu 2]]
+- [[Tulu]]
+- [[U-Net]]
+- [[ULMFiT]] (Universal Language Model Finetuning)
+- [[VGGNet]] (Visual Geometry Group Network)
+- [[Vicuna]]
+- [[WaveCoder]]
+- [[WebGPT]]
+- [[Whisper]]
+- [[WizardCoder]]
+- [[WizardLM 2]]
+- [[WizardLM]]
+- [[WizardMath]]
+- [[Word2Vec]]
+	- [[Continuous Bag of Words]] (CBOW)
+	- [[Skip-Gram]]
+- [[Yi]]
+- [[YOLO]] (You Only Look Once)
+- [[Zephyr]]
+
+
 # Tools
-- [[ComfyUI]]
-- [[Automatic1111]] 
-- [[Axolotl]]
-- [[Oogabooga]]
-- [[Gradio]]
-- [[Streamlit]]
-- [[MergeKit]]
-- [[GGUF]] File Format
+*Developer tools and libraries ranging from data cleaning to quantization to model training and serving*
+-  [[Eleuther LM Evaluation Harness]] 🧪
+- [[Airoboros]] 🤖💽
+- [[AlpacaFarm]]
+- [[Argilla]] 🏷️
+- [[Automatic1111]] 👨‍🔬🖼️
+- [[Axolotl]] 👨‍🔬⚗️
+- [[bitsandbytes]] 🐜
+- [[ChatML]] ✍️
+- [[CleanLab]] 
+- [[ComfyUI]] 👨‍🔬🖼️
+- [[Datatrove]] 🔎📝
+- [[Distilabel]] 🤖💽
+- [[EvalGen]] 🧪
+- [[fastText]]
+- [[GGML]] File format 💿
+- [[GGUF]] File Format 💿
+- [[GPTQ]] 🐜
+- [[Gradio]] ⚒️⚡
+- [[HuggingFace Tokenizers]] 🪙🤗
+- [[Instructor]] 👮‍♂️🤖
+- [[LabelStudio]]
+- [[LangChain]] 🗣️⛓️
+- [[LangSmith]] 🗣️🔬
+- [[Langtrace]] (Unsure if this should be here.)
+- [[Lighteval]] ⚡🔬
+- [[Lilac]]
+- [[llama.cpp]]
+- [[Llamafile]]
+- [[LoRAX]] ⚡🤖
 - [[Ludwig]]
--  [[Eleuther LM Evaluation Harness]]
+- [[MergeKit]] 🙂+🤠
+- [[Modal]] 🟩🤖
+- [[Natural Language Toolkit]] (NLTK) 🧰🛠️
+- [[NF4]] (Normal Float 4-Bit) 🐜
+- [[ONNX]] (Open Neural Network Exchange)
+- [[Oogabooga]] 👨‍🔬⚗️
+- [[OpenRouter]]
+- [[Outlines]] 👮‍♂️🤖
+- [[PIL]] (Python Image Library) 🖼️
+- [[RAGAS]] 📝🔬
+- [[Replicate]] 🚂
+- [[Resiliparse]] 🔎📝
+- [[RouteLLM]] 🗺️
+- [[Safetensors]] 🚨
+- [[Sentence Transformers]] 📊
+- [[spaCy]] 🪙🧨
+- [[Streamlit]] ⚒️⚡
+- [[Trafilatura]] 🔎📝
+- [[TRL]] (Transformer Reinforcement Learning)
+- [[Unsloth]] 👨‍🔬⚗️
+- [[vLLM]]
+- [[Weave]] 🗣️🔬
+- [[Weights and Biases]] 📊
+- [[Zeta Alpha]] 📝
+- [[EvalPlus]]
+- [[Slurm]]
 
 
-# Benchmarks
-- [[GAIA]]: A benchmark for General AI Assistants
-- [[Massive Multi-task Language Understanding]] ([[Massive Multi-task Language Understanding|MMLU]])
+# Benchmarks, Evaluations
+*These are oftentimes also dataset, but they're not generally datasets that you should train/finetune models on afaik*
+- [[AGIEval]]
+- [[AlpacaEval]]
+- [[AlpacaEval 2.0]]
+- [[Abstraction and Reasoning Corpus]] (ARC)
+- [[ARC Challenge]]
+- [[Arena-Hard]]
+- [[BEIR]] (Benchmarking IR)
+- [[Berkeley Function-Calling Leaderboard]] (BFCL)
+- [[BIG-Bench Hard]] (BBH)
+- [[BIG-Bench Lite]] (BBL)
+- [[BIG-Bench]] (Beyond the Imitation Game Benchmark)
+- [[BigCodeBench]]
+- [[BigCodeBench-Hard]]
+- [[ChatBot Arena]]
+- [[DAWNBench]] ('Data Analytics for What's Next' Benchmark)
+- [[DROP]] (Discrete Reasoning over Paragraphs)
+- [[Dynabench]]
+- [[Dynaboard]]
+- [[EQBench]]
+- [[FActScore]] (FActual Precision in Atomicity Score)
+- [[FoFo]] (Format Following)
+- [[GAIA]] (General AI Assistants)
+- [[GLUE]] (General Language Understanding Evaluation)
+- [[GPQA]] (Google-Proof Q&A Benchmark)
+- [[GSM8K]] (Grade School Math)
+- [[HellaSWAG]]
+- [[HELM]] (Holistic Evaluation of Language Models)
+- [[HotpotQA]]
+- [[HoVer]]
 - [[HumanEval]]
-- [[BIG-Bench]]
+- [[HumanEval+]]
+- [[IFEval]] (Instruction Following Evaluation)
+- [[ImageNet]] (ILSVRC)
+- [[InFoBench]] (Instruction Following Benchmark)
+- [[LAMBADA]] (Language Modeling Broadened to Account for Discourse Aspects)
+- [[Massive Multi-Discipline Multimodal Understanding]] (Massive Multi-discipline Multimodal Understanding)
+- [[Massive Multi-Discipline Multimodal Understanding]] (MMMU)
+- [[MATH]] (Mathematics Aptitude Test of Heuristics)
+- [[MMBench]] (Multimodal Benchmark)
+- [[MMLU-Pro]]
+- [[MMLU-Redux]]
+- [[MMLU]] (Massive Multitask Language Understanding)
+- [[MNLI]] (Multi-Genre Natural Language Inference)
+- [[MT-Bench]] (Multi-Turn Benchmark)
+- [[MTEB]] (Massive Text Embedding Benchmark)
+- [[MuSR]] (Multistep Soft Reasoning)
+- [[Open LLM Leaderboard V2]]
+- [[Open LLM Leaderboard]]
+- [[Open VLM Leaderboard]]
+- [[Orca-Bench]]
+- [[Paloma]]
+- [[Parametric Evaluations]]
+- [[RACE]] (Large-Scale Reading Comprehension Dataset from Examination)
+- [[RewardBench]]
+- [[SciBench]]
+- [[SEAL Leaderboard]]
+- [[SQuAD]] (Stanford Question Answering Dataset)
+- [[SQuAD v2]]
+- [[SuperGLUE]]
+- [[SWAG]] (Situations with Adversarial Generations)
 - [[SWE-bench]]
-- [[GAIA]]
-- [[DAWNBench]]
-- [[HELM]]
-- [[GLUE]]
-- [[MNLI]]
+- [[TFEval]] (Topic-Following Eval)
+- [[TruthfulQA]]
+- [[FalseQA]]
+- [[VQAv2]] (Visual Question Answering)
+- [[WebArena]]
+- [[WildBench]]
+- [[Winograd]]  (Winograd schemas)
+- [[Winogrande]]
+- [[Winoground]]
+- [[ZeroSCROLLS]]
+- [[InfiniteBench]]
+- [[Nexus]]
+- [[SciCode]]
+- [[MGSM]]
+- [[Arena-Hard-Auto]]
 
 
 # Datasets
-- [[CommonCrawl]]
-- [[C4]] (improvement of CommonCrawl)
-- [[Webtext]], OpenWebtext2
-- [[The Stack]]
-- [[The Pile]]
-- [[LAION]]
-- [[Whisper]]
-- [[CIFAR-10]]
-- [[MNIST]]
-- [[TinyStories]] (The Phi-2 dataset)
-- [[LAION]]
-	- LAION-COCO
+*Datasets for training/finetuning models*
+- [[C4]] (Colossal, Cleaned Common Crawl)
+- [[CantTalkAboutThis]]
+- [[Capybara Dataset]]
+- [[CCAligned]]
+- [[CCNet]] (Cluster-Coordinated Net)
+- [[CCMatrix]]
+- [[CIFAR-10]] (Canadian Institute for Advanced Research)
+- [[ClueWeb22]]
+- [[Common Crawl]]
+- [[Common Objects in Context]]
+- [[CommonSenseQA]]
+- [[Cosmopedia]] (Large 25B token synthetic dataset from HF)
+- [[DataComp-LM]]
+- [[DataComp]]
+- [[Dolma]] (Dataset for OLMo)
+- [[Feedback Collection]]
+- [[FineWeb-Edu]] (A very high-quality filtered subset)
+- [[FineWeb]] (15T high-quality dataset from HF)
+- [[FLAN v2]] (The FLAN Collection)
+- [[Helpful and Harmless]] (HH)
+- [[HelpSteer2]]
+- [[HelpSteer]]
+- [[Knowledge Pile]]
+- [[LAION-400M]] (Large-scale Artificial Intelligence Open Network)
+- [[LAION-5B]]
+- [[LMSYS-Chat-1M]]
+- [[LoTTE]] (Long-Tail Topic-stratified Evaluation)
+- [[MassiveText]] (Includes interesting work on quality/repetition filters)
+- [[MBPP]] (Mostly Basic Python Problems)
+- [[MBPP+]]
 - [[MMC4]] (Multimodal C4)
-- [[Winograd]]  (Winograd schemas)
-- [[MS MARCO]] (Information retrieval)
-- [[RedPajama]]
+- [[MNIST]] (Modified National Institute of Standards and Technology)
+- [[MS MARCO Web Search]]
+- [[MS MARCO]] (Microsoft Machine Reading Comprehension)
+- [[Multi-Genre NLI]] (MNLI)
+- [[Natural Instructions]]
+- [[Natural Questions]]
+- [[Nectar]]
+- [[oasst1]]
+- [[oasst2]]
+- [[OpenHermes Dataset]]
+- [[OpenHermes2.5 Dataset]]
+- [[OpenOrca Dataset]]
+- [[Preference Collection]]
+- [[PRM800K]] 
 - [[Project Gutenberg]]
+- [[RedPajama v2]]
+- [[RedPajama]]
+- [[RefinedWeb]] (Dataset for Falcon)
+- [[S2ORC]] (Semantic Scholar Open Research Corpus)
+- [[ShareGPT]]
+- [[SlimOrca]]
+- [[SlimPajama]]
+- [[Stanford Human Preferences]] (SHP)
+- [[Stanford Natural Language Inference]] (SNLI)
+- [[Super-NaturalInstructions]]
+- [[The Pile]]
+- [[The Stack v2]]
+- [[The Stack]]
+- [[TL;DR]]
+- [[Tulu-v2-sft-mixture]]
+- [[UltraChat]]
+- [[UltraFeedback]]
+- [[UltraInteract]]
+- [[Unnatural Instructions]]
+- [[Webtext]]
+- [[WildChat]]
+
 
 # Entities
-- [[Cohere]]
-- [[OpenAI]]
-- [[Anthropic]]
-- [[Google Brain]]
-- [[HuggingFace]]
-- [[Cohere]]
-- [[Inflection]]
-- [[DeepMind]]
-- [[Allen Institute]]
-- [[Microsoft Research]]
-- [[Stanford AI Lab]] (SAIL)
-- [[Berkeley AI Research Lab]] (BAIR)
-- [[Snorkel AI]]
-- [[Meta AI Research]]
-- [[Mistral]]
-- [[Nvidia]]
-- [[Center for Research on Foundation Models]] (CRFM)
-- [[Alignment Research Center]] (ARC)
-- [[Model Evaluation and Threat Research]] (METR)
-- [[Machine Intelligence Research Institute]] (MIRI)
-- [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)
-
+- [[01.AI]]  🇨🇳
+- [[AI21]]  🇮🇱
+- [[Adept]]  🕵️
+- [[Alibaba Research]]  🇨🇳💰
+- [[Alignment Research Center]] (ARC)  🙀
+- [[Allen Institute]] (AI2)  🎓
+- [[Anthropic]]  👨
+- [[Apple]] 
+- [[Berkeley AI Research Lab]] (BAIR)  🐻
+- [[CarperAI]] 🐟
+- [[Center for Research on Foundation Models]] (CRFM)  🔬
+- [[Cerebras]]  🟧
+- [[CharacterAI]]  💁‍♀️
+- [[Cohere]]  📝
+- [[Contextual]]  📝
+- [[DataBricks]]  🧱
+- [[DeepMind]]  🧠 (➡️ Google DeepMind/GDM)
+- [[DeepSeek]] 🇨🇳🧑‍🍳
+- [[EleutherAI|EleutherAI]] 🔍
+- [[EssentialAI]] 😶
+- [[Google Research]]  🧠
+- [[Groq]] 🏎️
+- [[HuggingFace]] 🤗
+- [[IBM]] 🤡
+- [[Inflection]] ☠️
+- [[KAIST|Korea Advanced Institute of Science & Technology]] (KAIST) 🇰🇷
+- [[LAION]]  💽
+- [[LMSYS]] ⚔️
+- [[Machine Intelligence Research Institute]] (MIRI)  🔥
+- [[Meta AI Research]] (FAIR)  🧑‍💻
+- [[Microsoft Research]] (MSR)  🌲
+- [[Mistral]]  🇫🇷
+- [[Model Evaluation and Threat Research]] (METR) ❗
+- [[MosaicML]]  🌭
+- [[NVIDIA]]  💰
+- [[National Institute of Standards and Technology]] (NIST)  👮‍♂️
+- [[Nous Research]] 🛠️
+- [[OpenAI]]  👺
+- [[Reka AI]]  ❓
+- [[Safe SuperIntelligence]] (SSI) ⚗️
+- [[Salesforce Research]]  💼
+- [[Scale AI]] 💽
+- [[Snorkel AI]]  🤿
+- [[Stability AI]] 🖼️
+- [[Stanford AI Lab]] (SAIL)  ⛵︎
+- [[Stanford Institute for Human-Centered Artificial Intelligence]] (HAI)  🤖
+- [[SynthLabs]] 🤖
+- [[Tencent AI]] 🇨🇳
+- [[Together AI]]  🤝
 
 # People
-- [[Noam Shazeer]] (Founder/CEO of Character AI)
-- [[Daphne Koeller]]
-- [[Melanie Mitchell]]
-- [[Percy Liang]]
-- [[Ilya Sutskever]]
-- [[Greg Brockman]]
-- [[Sam Altman]]
-- [[Clem Delangue]]
-- [[Mustafa Suleyman]]
-- [[Demis Hassabis]]
-- [[Geoff Hinton]]
-- [[Fei-Fei Li]]
-- [[Yann LeCun]]
-- [[Jeremy Howard]]
-- [[Andrej Karpathy]]
-- [[Andrew Ng]]
-- [[Yoshua Bengio]]
-- [[Jurgen Schmidhuber]]
-- [[Stuart Russell]]
-- [[Peter Norvig]]
-- [[Richard Sutton]]
-- [[Pieter Abbeel]]
-- [[Yejin Choi]]
-- [[Paul Christiano]]
-- [[Ludwig Schmidt]]
-- [[Chris Ré]]
-- [[Alex Ratner]]
-- [[Sasha Rush]]
-- [[Jonathan Frankle]]
-- [[Sara Hooker]]
-- [[Stephen Bach]]
-- [[Ishan Misra]]
+- [[Aidan Gomez]] 🇨🇦
+- [[Albert Gu]] 🐍
+- [[Alec Radford]] 🐐
+- [[Alex Krizhevsky]] 🐐
+- [[Alex Ratner]] 🤿
+- [[Andrej Karpathy]] 🐐
+- [[Andrew Ng]] 🤴
+- [[Arthur Mensch]] 🇫🇷
+- [[Benjamin Clavié]] 🇫🇷🍝
+- [[Charles Frye]] 🟩
+- [[Chris Ré]] 🧠
+- [[Christopher Manning]] 🧝
+- [[Christopher Potts]] 🧑‍🏫
+- [[Clem Delangue]] 🤗
+- [[Daphne Koeller]] 🧣
+- [[Dario Amodei]] ⚛️
+- [[David Luan]] 🤖
+- [[Demis Hassabis]] ♟️
+- [[Douwe Kiela]] 📝
+- [[Emad Mostaque]] 🤡
+- [[Eric Zelikman]] ⭐
+- [[Fei-Fei Li]] 🥰
+- [[Geoff Hinton]] 👨‍🦳
+- [[Georgei Gerganov]] 📦
+- [[Greg Brockman]] 🗿
+- [[Ilya Sutskever]] 🫥
+- [[Ishan Misra]] 👁️
+- [[Ivan Zhang]] 🇨🇦
+- [[Jack Clark]] 📝
+- [[Jared Kaplan]] ⚛️
+- [[Jeff Dean]] 🐐
+- [[Jeremy Howard]] 👨‍🔬
+- [[John Schulman]] 🤖
+- [[Jon Durbin]] 👨‍🔬
+- [[Jonathan Frankle]] 🌭
+- [[Jurgen Schmidhuber]] ☝️
+- [[Kaiming He]] 👁️
+- [[Louis Castricato]] 🐟
+- [[Ludwig Schmidt]] 😎
+- [[Matei Zaharia]] 🧱
+- [[Maxime Labonne]] 👨‍🔬
+- [[Melanie Mitchell]] 🏕️
+- [[Mustafa Suleyman]] 🤡
+- [[Nathan Lambert]]  ⚗️
+- [[Nick Frosst]] 🇨🇦
+- [[Nils Reimers]] 👨‍🔬
+- [[Noam Chomsky]] 🗣️
+- [[Noam Shazeer]]  🧝
+- [[Omar Khattab]] 📂
+- [[Paul Christiano]] 🚨
+- [[Percy Liang]] 🧍
+- [[Peter Norvig]] 👨‍🦳
+- [[Pieter Abbeel]] 🤖
+- [[Quoc Le]] 🐐
+- [[Richard Sutton]] 👨‍🦳
+- [[Sam Altman]] 👹
+- [[Samy Bengio]] 🧌
+- [[Sara Hooker]] 🪝
+- [[Sasha Rush]] 👨‍🏫
+- [[Sebastian Raschka]] 🧑‍🏫
+- [[Sebastian Ruder]] 🧑‍🏫
+- [[Shreya Shankar]] 📊
+- [[Stella Biderman]] 😎
+- [[Stuart Russell]] 👨‍🦳
+- [[Tim Dettmers]] 🤏
+- [[Tri Dao]] 🌽
+- [[Yann LeCun]] 🇨🇦
+- [[Yejin Choi]] 🎿
+- [[Yi Tay]] 👨‍🔬
+- [[Yoshua Bengio]] 🙀
+- [[Chelsea Finn]] 🌲
+- [[Subbarao Kambhampati]] 🤔
+
+# Policy
+- [[SB-1047]]
+

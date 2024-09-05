@@ -1,0 +1,3 @@
+July 18, 2024
+
+At release time, Mini seems to be the same/mildly worse in some cases compared to GPT-4o, but it's only 3.5% the cost of [[GPT-4o]], and half the price of Claude Haiku (yet with opus level benchmarks), debuting at $0.15/$0.60 (input, output) per million tokens (mtok), meaning you could run 10 forward passes for the mini, and use self-consistency or a judge to choose the best answer, and still have money left over relative to the regular omni. 

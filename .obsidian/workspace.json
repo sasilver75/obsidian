@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cdce95e82d84e4e8",
+        "id": "d618a54ce3c71ea1",
         "type": "tabs",
         "children": [
           {
-            "id": "ba1100144a487720",
+            "id": "90d66d59e42e331c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Research Ideas.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,8 +65,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "cce13dc7fc1930b6",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -87,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Research Ideas.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Research Ideas.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,11 +136,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Research Ideas.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
+          },
+          {
+            "id": "8371c0eb93e8b958",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a628f73c6d92caf6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -140,6 +166,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-spaced-repetition:Review flashcards": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -147,55 +174,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba1100144a487720",
+  "active": "90d66d59e42e331c",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20240205172048.png",
-    "Principal Component Analysis.md",
-    "PaperClubs/LatentSpace/Self-Rewarding Language Models.md",
-    "Ishan Misra.md",
-    "Independent Component Analysis.md",
-    "Collaborative Filtering.md",
-    "Stephen Bach.md",
-    "Machine Translation.md",
     "conflict-files-obsidian-git.md",
+    "~.md",
+    "~ Todo.md",
+    "~ Tags.md",
+    "~ Quiz.md",
+    "~ Posting.md",
+    "~ Memes.md",
+    "~ Interactions.md",
+    "~ Ideas.md",
+    "vLLM.md",
+    "text-davinci-002.md",
+    "t.md",
+    "spaCy.md",
+    "s2orc.md",
+    "oasst2.md",
+    "oasst1.md",
+    "llama.cpp.md",
+    "float8.md",
+    "float4.md",
+    "float32.md",
+    "float16.md",
+    "fastText.md",
+    "chrF.md",
+    "bitsandbytes.md",
+    "bfloat16.md",
+    "_attachments/matryoshka-small.gif",
+    "_attachments/SamAltmanWizard.png",
+    "_attachments/Pasted image 20240821124253.png",
+    "_attachments/Pasted image 20240821124155.png",
+    "_attachments/Pasted image 20240821123527.png",
+    "_attachments/Pasted image 20240821123021.png",
+    "_attachments/Pasted image 20240821121748.png",
+    "_attachments/Pasted image 20240821121231.png",
+    "_attachments/Pasted image 20240821120955.png",
+    "_attachments/Pasted image 20240821120909.png",
     "~ Research Ideas.md",
-    "_attachments/Pasted image 20240201111336.png",
-    "_attachments/Pasted image 20240201004641.png",
-    "_attachments/Pasted image 20240201004336.png",
-    "_attachments/Pasted image 20240201004005.png",
-    "_attachments/Pasted image 20240201000937.png",
-    "_attachments/Pasted image 20240131205312.png",
-    "_attachments/Pasted image 20240131121906.png",
-    "_attachments/Pasted image 20240131121712.png",
-    "_attachments/Pasted image 20240131121429.png",
-    "OLMo.md",
-    "MPT.md",
-    "Learning Rate.md",
-    "DELETEME Pythia Paper Club.md",
-    "Articles/lmg - LLM Training Guide (?) {Alpin}.md",
-    "Allen Institute.md",
-    "~ Vocabulary.md",
-    "~ Useful Pictures.md",
-    "_attachments/Pasted image 20240131144136.png",
-    "~ Blog.md",
-    "PaperClubs/LatentSpace/Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
-    "~ Recommendations.md",
-    "PaperClubs/LatentSpace",
-    "PaperClub/Untitled.md",
-    "PaperClubs",
-    "~ Quotes.md",
-    "~ Motivation.md",
-    "Pieter Abbeel.md",
-    "Percy Liang.md",
+    "Templates",
+    "Projects/Cohere Reasoning",
+    "Projects",
+    "Indices",
+    "Excalidraw",
+    "Courses/Machine Learning/FastAI/Docs",
+    "Courses/Machine Learning/FastAI/2023 Course",
+    "Courses/Math/Stat110 Probability @ Harvard (2013)",
+    "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)",
+    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)",
     "Untitled.canvas",
-    "Rese",
-    "C++/LearnCPP",
-    "C++/UIUC Accelerated Fundamentals",
-    "C++",
-    "DeepLearning.ai",
-    "FastAI/Part 2",
-    "Articles",
-    "Videos",
     "Untitled 1.canvas"
   ]
 }

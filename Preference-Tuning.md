@@ -1,0 +1,1 @@
+Fine-tuning of a model to align with a human preferences dataset, perhaps via a method like [[Supervised Fine-Tuning|SFT]], [[Reinforcement Learning from Human Feedback|RLHF]], or methods like [[Direct Preference Optimization|DPO]].

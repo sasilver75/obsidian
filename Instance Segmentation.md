@@ -1,0 +1,3 @@
+A type of [[Image Segmentation]]
+
+This technique ==takes [[Semantic Segmentation]] a step further by differentiating between individual instances of an object==. So, in the same scenario of an image with three cars, instance segmentation would separately identify each one (e.g., car 1, car 2, and car 3). So, this technique not only classifies each pixel but also identifies distinct object instances, giving it a distinct object ID.

@@ -8,7 +8,7 @@ Link: https://www.artfintel.com/p/five-years-of-progress-in-gpts
 
 
 
-There's a ton of prior work before large GPTs (n-gram model, [[Bidirectional Encoder Representations from Transformers]]) and after ([[RWKV]]), but we're going to constrain this to discussions about GPTs. We also aren't going to go into [[Reinforcement Learning from Human Feedback|RLHF]] or other fineetuning methods.
+There's a ton of prior work before large GPTs (n-gram model, [[BERT]]) and after ([[RWKV]]), but we're going to constrain this to discussions about GPTs. We also aren't going to go into [[Reinforcement Learning from Human Feedback|RLHF]] or other fineetuning methods.
 
 
 ### [[GPT-1]] (June 2018)
@@ -32,7 +32,7 @@ There's a ton of prior work before large GPTs (n-gram model, [[Bidirectional Enc
 - This is where language models started to get big; the first time that OpenAI trained a model with >1B parameters.
 - Authors trained ==a *range/family* of models== here, rather than a single model
 - Architecture
-	- They used [[Layer Normalization]] on the inputs and add an additional [[LayerNorm]] to the output of the final self-attention block.
+	- They used [[Layer Normalization]] on the inputs and add an additional [[Layer Normalization|LayerNorm]] to the output of the final self-attention block.
 	- Weights are scaled by layer, by 1/sqrt(n)
 	- Vocabulary of ~50k (up from ~40k)
 	- Context of 1024 (up from 512)
@@ -64,17 +64,17 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 - In it, the authors train a family of 10 models, ranging from 125M to ==175B parameters (up from 1.5B, a ~115x increase)==
 - For each model, the architectures are identical to GPT-2, with the exception of their use of "alternating dense and locally banded sparse attention patterns in the layers of the transformer." ([[Sparse Attention]])
 	- Not clear *why* they used sparse attention; reproductions and later papers used dense attention.
-	- Maybe because this paper came before [[Flash Attention]] and other faster variants of dense attention, they thought dense attention was a computational bottleneck?
+	- Maybe because this paper came before [[FlashAttention]] and other faster variants of dense attention, they thought dense attention was a computational bottleneck?
 - Architecture
 	- ==They don't provide any details about the computational architecture; how they distributed the model==. The authors claim that it doesn't matter, but this article's author thinks it was for competitive reasons, to make the paper more difficult to reproduce.
-		- In contrast, [[Nvidia]]'s [[Megatron]] was highly influential *because* it went into detail about how it made model parallelism work for their model.
+		- In contrast, [[NVIDIA]]'s [[Megatron]] was highly influential *because* it went into detail about how it made model parallelism work for their model.
 - Used a dataset size of ==45TB== of text.
 - Takeaways
 	- ==It was an incredible advance in capability without a lot of novelty==; they just took their existing methods and scaled it up.
 		- Outside of labs like OpenAI, because of the need for novelty, there are many research projects that don't get pursued because they're "only" engineering projects, or they "only" do hyperparameter tuning. You could frame this as a weakness of the more academic labs that have review policies driven by publications.
 
 ### [[Jurassic-1]] (August 2021)
-- This model was developed by Israeli company [[AI21 Labs]], who specialize in NLP.
+- This model was developed by Israeli company [[AI21]], who specialize in NLP.
 - They trained a ==178B parameter model that outperformed GPT-3 in a few categories,== ==despite only having raised $<10M== at the time.
 - Paper is remarkably sparse on details, which was done for competitive reasons.
 	- [[Meta AI Research]] is the only company to go into details about their experiences training a 175B parameter model.
@@ -84,7 +84,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 
 
 ### [[Megatron]]-Turing NLG (September 2019)
-- A highly influential paper from [[Nvidia]] that introduced efficient ==model-parallel architectures==.
+- A highly influential paper from [[NVIDIA]] that introduced efficient ==model-parallel architectures==.
 - ==If you're interviewing for an LLM job today, you're going to be expected to be familiar with it==.
 - Megatron ==introduced tensor parallelism==, a variant of ==model parallelism== that splits the models to allow for intra-layer model parallelism, achieving 76% as efficient as a single GPU baseline.
 - Prior to Megatron, the published SOTA for model parallelism was to use ==model pipelining== (eg GPipe), but this was difficult to do and not well supported by code.
@@ -93,9 +93,9 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 ## [[Gopher]] (December 2021)
 - Gopher was an LLM trained by [[DeepMind]]. Interestingly, the lead author joined OpenAI shortly after it was published, along with a few of the coauthors.
 - The architecture was the same as GPT-3, except:
-	- Used [[RMSNorm]] (instead of [[LayerNorm]])
+	- Used [[RMSNorm]] (instead of [[Layer Normalization|LayerNorm]])
 	- Used relative positional encoding scheme from [[Transformer-XL]] (from Google)
-	- Use [[SentencePiece]] instead of [[BPE]]; using this seems to be an Alphabet-specific thing.
+	- Use [[SentencePiece]] instead of [[Byte-Pair Encoding|BPE]]; using this seems to be an Alphabet-specific thing.
 - From a computational perspective (how they trained it):
 	- Used optimizer state partitioning (ZeRO)
 	- Megatron-style model parallelism
@@ -135,7 +135,7 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 - This was ==incredibly expensive==; only Google would have the resources and infrastructure to do this.
 - Unfortunately, they were training PaLM at the same time that Chinchilla was being written; ==very suboptimal==!
 - Changes from GPT-3:
-	- Used [[Multi-Query Attention]], which is different from [[Multi-Head Attention]]; the key/value projections are shared for each head. This takes the same training time, but faster autoregressive decoding in inference.
+	- Used [[Multi-Query Attention]], which is different from [[Multi-Headed Attention]]; the key/value projections are shared for each head. This takes the same training time, but faster autoregressive decoding in inference.
 	- Parallelized transformer blocks, which improved training time by 15%. 
 	- [[SwiGLU]] activation functions, rather than the [[GeLU]] activations used by GPT-3s
 	- Used [[Rotary Positional Embedding|RoPE]] rather than the learned embeddings of GPT-3
@@ -148,12 +148,12 @@ Above: As you increase compute, data size, and the number of parameters, loss ju
 ### [[LLaMA]] (February 2023)
 - ==Combined a bunch of the best features from [[PaLM]] and [[Chinchilla]]==:
 	- Pre-normalize the input of each transformer sub-layer
-	- Use [[RMSNorm]] instead of [[LayNorm]]
+	- Use [[RMSNorm]] instead of [[Layer Normalization|LayerNorm]]
 	- [[SwiGLU]] activation function from [[PaLM]]
 	- Uses [[Rotary Positional Embedding|RoPE]], as [[PaLM]] did.
 	- Uses [[AdamW]], and [[Chinchilla]] did.
 - Computational changes:
-	- Uses efficient attention ([[Flash Attention]])
+	- Uses efficient attention ([[FlashAttention]])
 	- Uses [[Gradient Checkpointing]]
 	- Interestingly, appears to use float32s everywhere (or at least, don't say otherwise). Curious why they didn't use lower precision like Chinchilla did.
 - This paper was a ==shining example of how well smaller models can do when trained well!==

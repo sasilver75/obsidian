@@ -42,7 +42,7 @@ Architecture Unknown - "Transformer-like"
 - Uses an [[RMSNorm]] instead of a [[Layer Normalization|LayerNorm]], and uses a relative positional encoding scheme from [[Transformer-XL]] instead of an absolute positional encoding, which is why there are so many embedding parameters.
 - Tokenizes with [[SentencePiece]]
 - Vocabulary size 32k
-- Trained on 300B tokens, with half being from MassiveText (collected for Gopher), along with books, [[CommonCrawl]], Wikipedia, news, and Github.
+- Trained on 300B tokens, with half being from MassiveText (collected for Gopher), along with books, [[Common Crawl]], Wikipedia, news, and Github.
 - Note that ==Gopher was actually trained end of 2020== and released a year later.
 ### [[AlphaCode]] (February 2022, [[DeepMind]])
 41B params, 8 encoder layers, 56 decoder layers, 6144 embedding dimension
@@ -53,11 +53,11 @@ Architecture Unknown - "Transformer-like"
 7B params
 - *Retrieval* is a general technique, if you given a model a database to look up while doing inference.
 - This was ==the inaugural retrieval paper for transformers==, using a 2T token database.
-- It embeds the token-database in *chunks* using a pre-trained BERT-style model, and then performs chunked [[Cross Attention]] to nearest neighbors in the database during training and inference.
+- It embeds the token-database in *chunks* using a pre-trained BERT-style model, and then performs chunked [[Cross-Attention]] to nearest neighbors in the database during training and inference.
 ### [[GPT-3.5]] (March 2022, [[OpenAI]])
 Architecture Unknown
 - Delineates three models as GPT-3.5; specifically anything in the `davinci-002` or `davinci-003` family.
-	- [[code-davinci-002]] is the base model, [[text-davinci-002]] is a version with FeedME non-RL [[Instruction Tuning]].
+	- [[code-davinci-002]] is the base model, [[text-davinci-002]] is a version with FeedME non-RL [[Instruction-Tuning]].
 - This was turned into the ==original "ChatGPT" product==.
 ### [[Chinchilla]] (March 2022, [[DeepMind]])
 - ==New and improved [[Scaling Laws]]==
@@ -82,11 +82,11 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - Current (as of Jan 2023) ==largest publicly-known dense language model==, but was unfortunately pre-Chinchilla (and thus overparametrized as hell, as it was trained on 780B tokens).
 - PaLM activates with [[SwiGLU]], uses parallel attention, [[Multi-Query Attention]], [[Rotary Positional Embedding]], and uses the same matrices for input and output embeddings.
 - No biases were used and a SentencePiece tokenizer with 256k tokens was used.
-### [[GPT-NeoX]] (Feb 2022, [[Eleuther]])
+### [[GPT-NeoX]] (Feb 2022, [[EleutherAI]])
 20B parameters
 - An Eleuther open-sourced model, trained on GPUs with DeepSpeed and Nvidia Megatron. 
 - Uses the same architectural modifications as the earlier [[GPT-J]] had, and is trained on the entirety of [[The Pile]], 400B tokens.
-### [[GPT-J]] (July 2021, [[Eleuther]])
+### [[GPT-J]] (July 2021, [[EleutherAI]])
 6.7B parameters
 - ==Notable for being a fully open-sourced model, while matching the 6.7B performance from the GPT-3 paper==.
 - Trained on TPUs, and done with [[Rotary Positional Embedding]]. 
@@ -103,25 +103,25 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - Dialog model; dataset with a lot of dialog/forums.
 - Based model is often called "LaMBDA GLM" or "GLM-137B."
 	- LaMBDA itself adds a lot of dialog finetuning on top.
-### [[Switch]] (June 2022, Google)
+### [[Switch Transformer]] (June 2022, Google)
 - An improvement on [[GLaM]], SwitchTransformer is a== [[Mixture of Experts]] that only routes to *one* expert==, reducing the amount of compute on inference. 
 - It uses a different routing mechanism, with the main update being that routing to a single expert *works*.
 ### [[BLOOM]]  (July 2022, [[HuggingFace]])
 176B params, 70 layers, 14336 embedding dimension, 112 heads
 - The ==current largest open-source model== (as of this article, Jan 2023).
 - Trained on a Hugging Face corpus called [[ROOTS]], which is 498 Hugging Face datasets
-- Trained for 366B tokens, positional encodings done with [[ALiBi]]. 
+- Trained for 366B tokens, positional encodings done with [[Attention with Linear Biases]]. 
 - 250k vocab size BPE tokenizer, to help accommodate for multilingual data.
 ### Galactica (Nov 2022, [[Meta AI Research]])
 120B parameters
-- Galactica is a ==science model== pretrained mostly on papers, along with small amounts of code, other knowledge-based data, and a bit of [[CommonCrawl]].
+- Galactica is a ==science model== pretrained mostly on papers, along with small amounts of code, other knowledge-based data, and a bit of [[Common Crawl]].
 - Uses a `<work>` token to encode working memory, as well as special tokens for citations.
 ### [[LLaMa]] (Feb 2023, [[Meta AI Research]])
 65B parameters
 - [[Chinchilla]] replication; fairly standard training mix of mostly CommonCrawl.
 - Followed by [[LLaMA 2]], which had a permissive use license.
 ### Jurassic J1-Grande v2 (Dec 2022, [[AI21]])
-17B parameters
+178B parameters
 - An Israeli research lab; results look good for the size
 ### [[OPT]] (May 2022, [[Meta AI Research]])
 175B params; same architecture as GPT-3.
@@ -149,7 +149,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 ### [[Mixture of Experts]]
 - Technique where ==multiple expert networks are used to divide a problem space into subspaces==, with each expert network specializing in a specific subspace, and ==each input being routed to appropriate expert(s).== Lets models be pretrained with less compute, ==enabling the scaling up of the model or dataset size==.
 - Differs from ensemble techniques, in which all models are run on every input; Only 1-to-a-few models are run for each input in MoE.
-### [[Flash Attention]]
+### [[FlashAttention]]
 - An architectural change to== do attention with less memory access== (which is most of the cost). 
 - It tiles and incrementally performs the softmax reduction and avoids storing the whole intermediate attention matrix for the backwards pass.
 - ==Cites a 1.7x training speedup compared to megatron, and up to over 4x on inference.==
@@ -165,22 +165,22 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - [[SoLU]] (softmax) introduced in an anthropic paper and is simply `x*softmax(x)`, and ==is used to improve the interpretability of models==.
 - [[SwiGLU]] is the most sophisticated of these, and is a [[Noam Shazeer]] solo paper. Builds upon [[Gated Linear Unit]] (GLU), which was meant to be ==more stable than ReLU==, and does the "swish" operation before the GLU. It ==softens out the ReLU and allows some values to be under zero==.
 	- Is quoted in the paper as coming through "==divine benevolence=="
-### [[LayerNorm]] Alternatives: [[DeepNorm]], [[RMSNorm]]
+### [[Layer Normalization|LayerNorm]] Alternatives: [[DeepNorm]], [[RMSNorm]]
 - LLMs norm twice per block (once for attention, and once to feed-forward), which does some normalization functions to imrpve training.
 - DeepNorm and RMSNorm are alternatives.
 - RMSNorm is simply the square root of the mean of teh values
-### [[RoPE]]: Rotary Position Embedding
+### [[Rotary Positional Embedding|RoPE]]: Rotary Position Embedding
 - A way of finding a ==positional encoding function== for transformer architectures.
 - It ==improves performance in NLP tasks by more effectively leveraging positional information in sequences==. Combines the strengths of both absolute and relative positional embeddings.
 	- Good at handling sequences of different lengths
 	- Decays inter-token dependency with increasing relative distances
 - Better than sinusoidal positional embedding techniques
-### [[BPE]] vs [[SentencePiece]] tokenizers
+### [[Byte-Pair Encoding|BPE]] vs [[SentencePiece]] tokenizers
 - [[Byte-Pair Encoding]]s are the default for most language models, and were used by the original GPT paper, GPT-3, and presumably GPT-3.5.
 - Note: An obvious reason to *not* use plain BPE (and instead use SentencePiece_ is if your distribution *doesn't contain* space-separated words (eg AlphaCode, GLM (chinese), PaLM (multilingual))
 	- In other words, ==if your distribution of text isn't always cleanly space-separated (code, non-english characters), use SentencePiece instead of BPE.==
-### [[ALiBi]]
-- [[ALiBi|Attention with Linear Biases]] is a ==long-context positional embedding scheme to support extrapolation to longer lengths==, by biasing (linearly) the Query and Key scores according to their distance.
+### [[Attention with Linear Biases]]
+- [[Attention with Linear Biases|Attention with Linear Biases]] is a ==long-context positional embedding scheme to support extrapolation to longer lengths==, by biasing (linearly) the Query and Key scores according to their distance.
 
 -------
 # (3/5) Post-Pre-Training Techniques
@@ -188,7 +188,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 ### [[Reinforcement Learning from Human Feedback|RLHF]] with [[Proximal Policy Optimization|PPO]]
 - In RLHF, a reward model is trained, where the labeler evaluates an array of model generations. Then PPO is used for the RL, where the policy generates an output evaluated by the reward model to then improve on the policy.
 ### [[Constitutional AI]]
-- ==Basically a form of [[Reinforcement Learning from Human Feedback with AI Feedback|RLAIF]]==, though actually called [[Constitutional AI|CAI]]
+- ==Basically a form of [[Reinforcement Learning from from AI Feedback|RLAIF]] though actually called [[Constitutional AI|CAI]]
 - It has a supervised learning phase where a helpful-only AI is used to generate adversarial prompts.
 - The assistant then iterates on its own response based on the provided constitutions (a set of short values for the model to follow)
 	- This is like RLHF with PPO, except substituting AI feedback

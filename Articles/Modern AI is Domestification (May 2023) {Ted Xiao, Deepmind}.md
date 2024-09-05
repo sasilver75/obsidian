@@ -76,7 +76,7 @@ In the past year, a few major approaches have gained traction. While their techn
 	- [[Interactive Language]]: Language-annotated robot **trajectories**
 	- [[CodeXGLUE]]: Popular code repositories from GitHub; Well-written code.
 	- [[Locked-Image Tuning]] (LiT) finetunes text to match a frozen, pretrained image encoder.
-	- [[PEFT]] methods like [[Prefix Tuning]],  [[Prompt Tuning]], [[Low-Rank Adaptation]], [[ControlNet]] all freeze the main network and add new tunable weights that can be rapidly adapted to new datasets.
+	- [[Parameter-Efficient Fine-Tuning|PEFT]] methods like [[Prefix Tuning]],  [[Prompt Tuning]], [[Low-Rank Adaptation]], [[ControlNet]] all freeze the main network and add new tunable weights that can be rapidly adapted to new datasets.
 
 ### (3/5): Reinforcement Learning from Human Feedback (RLHF)
 - In contrast to SFT, [[Reinforcement Learning]]-related finetuning introduces a *reward model*, a *separate component* that aims to directly provide granular feedback signals to model outputs during training.
@@ -110,10 +110,10 @@ In the past year, a few major approaches have gained traction. While their techn
 	- At training time, these AI critics can provide direct on-policy feedback, aiming to automatically distill the good AI critic priors into the finetuned models. There's a clear parallel here to lessons in Actor-Critic methods in RL, where critics are easier to learn but can provide great regularization and bootstrapping benefits to the actor policy.
 
 Here's a few examples of AI feedback that amplify existing AI priors onto other AI models:
-- [[Claude]] introduced [[Constitutional AI]], which starts with a human-produced prompt of rules and principles that is used during AI feedback generation and preference ranking of outputs, which are then used during downstream reinforcement learning to reduce harmfulness and increase helpfulness of instruction-following LLMs.
+- Claude introduced [[Constitutional AI]], which starts with a human-produced prompt of rules and principles that is used during AI feedback generation and preference ranking of outputs, which are then used during downstream reinforcement learning to reduce harmfulness and increase helpfulness of instruction-following LLMs.
 - [[ALMoST]] uses LLMs of different quality and sizes to generate contrasting responses which can be used to train a ranking-based reward model.
 - LLM Self-Reflection has been a rapidly accelerating area. LLMs understand their own uncertainty -- [[Reflexion]] (and followups) use AI feedback during inference time, and [[LLMs Self-Improving]] incorporates AI feedback during training.
-- [[Tree of Thought]] uses structured search at inference time to utilize LLMs to propose and search for the most promising reasoning chains.
+- [[Tree of Thoughts]] uses structured search at inference time to utilize LLMs to propose and search for the most promising reasoning chains.
 - [[Society of Minds]] utilizes multiagent debate between LLMs to use an almost ensemble-like approach to improve factuality and reasoning.
 - [[Inner Monologue]] uses expert models to provide textual feedback for LLMs that iteratively plan robotics tasks.
 - [[AutoGPT]] combines AI feedback with digital tool use to autonomously execute tasks during inference time until self-judged completion.
@@ -161,16 +161,16 @@ Here's some examples of synthetic data generation:
 But already, there are some actionable suggestions one can conclude:
 - Does the original training corpus contain *all the capabilities and priors you desire?*
 	- If YES: Try [[Prompting]]
-	- If NO: Try [[Fine-Tuning]]
+	- If NO: Try [[Supervised Fine-Tuning|Fine-Tuning]]
 - Is it easy to source different finetuning datasets?
 	- If Yes, try [[Supervised Fine-Tuning]]
 	- If No, try [[Reinforcement Learning from Human Feedback|RLHF]] or [[Reinforcement Learning from from AI Feedback|RLAIF]]
 - Do you have access to a lot of compute?
 	- If YES: Finetune the whole model
-	- If NO: use [[PEFT]]
+	- If NO: use [[Parameter-Efficient Fine-Tuning|PEFT]]
 - Are existing AI models good enough for data generation or data verification?
 	- If good enough for data generation, try creating synthetic data!
-	- If good enough for *verification, but not generation*, try using [[Reinforcement Learning from Human Feedback with AI Feedback|RLAIF]] or *self-reflection*
+	- If good enough for *verification, but not generation*, try using [[Reinforcement Learning from from AI Feedback|RLAIF]]or *self-reflection*
 		- If neither, stick to RLHF
 
 

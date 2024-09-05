@@ -56,7 +56,7 @@ So why did we do the $\frac{1}{\sqrt{d_k}}$ ?
 
 
 ![[Pasted image 20240105222642.png]]
-- [[Multi-Head Attention]] allows the model to jointly attend to information from different representation subspaces at different positions.
+- [[Multi-Headed Attention]] allows the model to jointly attend to information from different representation subspaces at different positions.
 	- In other words, the network can learn "multiple things." Each attention will attend to different aspects of the input.
 - In this work, they employed $h=8$ parallel attention layers, or attention heads. They even used reduced dimensions fore each head (such that the multi-head attention head's dimensionality times the number of heads equaled the original dimensionality of the single-headed example.)
 

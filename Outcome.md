@@ -1,0 +1,1 @@
+The result of an experiment or trial.

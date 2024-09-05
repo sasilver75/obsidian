@@ -1,0 +1,23 @@
+November 2022
+UW - Same main author as [[DRAGON]]
+Paper: [Task-aware Retrieval with Instructions](https://arxiv.org/abs/2211.09260)
+...
+Takeaway: ...
+
+Related:
+- ZetaAlpha guys say this is similar in some ways to [[Promptagator]]
+
+---
+
+Notes:
+- ...
+
+Abstract
+> We study the problem of retrieval with instructions, where users of a retrieval system explicitly describe their intent along with their queries. We aim to develop a ==general-purpose task-aware retrieval system using multi-task instruction tuning==, which ==can follow human-written instructions to find the best documents for a given query==. We introduce the first large-scale collection of approximately 40 retrieval datasets with instructions, ==BERRI==, and present ==TART==, a multi-task retrieval system trained on BERRI with instructions. TART shows strong capabilities to adapt to a new retrieval task via instructions and advances the state of the art on two zero-shot retrieval benchmarks, BEIR and LOTTE, outperforming models up to three times larger. We further introduce a new evaluation setup, X^2-Retrieval to better reflect real-world scenarios, where diverse domains and tasks are pooled and a system needs to find documents aligning users' intents. In this setup, TART significantly outperforms competitive baselines, further demonstrating the effectiveness of guiding retrieval with instructions.
+
+
+# Paper Figures
+
+
+# Non-Paper Figures
+

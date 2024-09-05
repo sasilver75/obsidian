@@ -111,7 +111,7 @@ Honorable mentions: Other alternatives sprung up based on different ways of aggr
 ## 2017: [Attention is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
 - The [[Transformer]] architecture makes use of the aforementioned attention mechanism, but at scale! It's become the backbone of nearly all state-of-the-art ML models today.
 - Transformer models beat RNNs in large part due to the computational benefits in very large networks...
-	- In RNNs, the gradients need to be propagated through the entire *"unrolled"* graph, which makes memory access a large bottleneck, while *also* exacerbating the exploding/vanishing gradients problem (which necessitated the more complex and expensive [[LSTM]] and [[GRU]] models).
+	- In RNNs, the gradients need to be propagated through the entire *"unrolled"* graph, which makes memory access a large bottleneck, while *also* exacerbating the exploding/vanishing gradients problem (which necessitated the more complex and expensive [[Long Short Term Memory|LSTM]] and [[GRU]] models).
 - Instead, Transformer models are optimized for highly parallel processing -- the most computationally expensive components are 
 	- the feed forward networks after the attention layers, which can be applied in parallel, 
 	- and the attention itself, which is a large matrix multiplication and is also easily optimized.
@@ -125,7 +125,7 @@ Honorable mentions: Other alternatives sprung up based on different ways of aggr
 
 ![BERT compared to GPT and ELMo (<a href='https://arxiv.org/abs/1810.04805'>Source</a>)](https://bmk.sh/images/bert_compare.png)
 ## 2018: [BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
-- [[Bidirectional Encoder Representations from Transformers]] is a bidirectional, contextual text-embedding model. Like [[Word2Vec]], it's based on assigning each word (or rather, sub-word tokens) a vector. However these vectors in BERT are contextual, allowing *homographs* (eg *console*, the noun vs *console*, the verb) to be properly distinguished!
+- [[BERT]] is a bidirectional, contextual text-embedding model. Like [[Word2Vec]], it's based on assigning each word (or rather, sub-word tokens) a vector. However these vectors in BERT are contextual, allowing *homographs* (eg *console*, the noun vs *console*, the verb) to be properly distinguished!
 - BERT is deeply bidirectional, with each latent vector in each layer depending on all latent vectors from the previous layer.
 	- In unidirectional LMs like GPT, the model is trained to predict the next token at each timestep, which works because the states at each timestep can only depend on previous states.
 

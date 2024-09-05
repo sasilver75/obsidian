@@ -1,0 +1,15 @@
+May 19, 2019 (9 months after [[SWAG]]) -- [[Allen Institute]] and others
+Paper: [HellaSwag: Can a Machine Really Finish your Sentence?](https://arxiv.org/abs/1905.07830)
+
+With the introduction of BERT, near-human performance was achieved on the previous [[SWAG]] (Situations with Adversarial Generations) multiple choice dataset; 9 months later, HellaSWAG arrived.
+
+This is a new, more difficult challenge dataset debuted in May 2019 that uses "Adversarial Filtering" to collect data that's challenging for models but trivial for humans. ((This seems like a good thing to make into a target)).
+
+Abstract
+> Recent work by Zellers et al. (2018) introduced a new task of commonsense natural language inference: given an event description such as ((From SWAG:)) =="A woman sits at a piano," a machine must select the most likely followup: "She sets her fingers on the keys."== ==With the introduction of BERT, near human-level performance was reached==. Does this mean that machines can perform human level commonsense inference?  
+> In this paper, we show that commonsense inference still proves difficult for even state-of-the-art models, by presenting ==HellaSwag==, ==a new challenge dataset.== Though its questions are trivial for humans (>95% accuracy), state-of-the-art models struggle (<48%). We achieve this via ==Adversarial Filtering== (AF), a data collection paradigm wherein a series of discriminators iteratively select an adversarial set of machine-generated wrong answers. AF proves to be surprisingly robust. ==The key insight is to scale up the length and complexity of the dataset examples towards a critical 'Goldilocks' zone wherein generated text is ridiculous to humans, yet often misclassified by state-of-the-art models==.  
+> Our construction of HellaSwag, and its resulting difficulty, sheds light on the inner workings of deep pretrained models. More broadly, it suggests a new path forward for NLP research, in which benchmarks co-evolve with the evolving state-of-the-art in an adversarial way, so as to present ever-harder challenges.
+
+![[Pasted image 20240420144338.png]]
+
+![[Pasted image 20240420144358.png]]

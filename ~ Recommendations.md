@@ -1,4 +1,4 @@
-
+****
 Youtube Chanenls
 - Machine Learning
 	- Edan Meyer
@@ -24,6 +24,11 @@ Youtube Chanenls
 	- StatQuest with Josh Starmer
 	- Steve Brunton
 	- Stanford Online
+	- 3Blue1Brown
+		- Intuitive explanations and animations
+	- RitvikMath
+		- Great explanations of fundamental concepts in probability and math
+	- Mutual Information
 - Engineering
 	- System Design Fight Club
 	- System Design Interview
@@ -31,21 +36,34 @@ Youtube Chanenls
 	- InfoQ
 - Science, Technology
 	- The Well
-- Geopolitics
+- Geopolitics, Geography, History
 	- Center for Strategic & International Studies
+	- Alex Rothman
 - Grab-Bag
 	- Kirsten Dirksen
 	- Rational Animations
-	- 
+
+Newsletters
+- Cameron Wolfe's Deep (Learning) Focus
+- Nate Lambert's Interconnects
+- Jack Clark's ImportAI
+- Sebastian Raschka's Ahead of AI
+- The Gradient
+- Dylan Patel's SemiAnalysis
+- Sairam Sundaresan's Gradient Ascent
+- Ben Thompson's Stratechery 
 
 Podcasts
 - General Technology
 	- The Future of Everything
-	- Anatomy of Next
 	- Voices from DARPA
 	- Anatomy of Next
 	- The Asianometry Podcast
 	- Future of Life Podcast
+	- Sharp Tech with Ben Thompson
+	- BG2 Pod
+	- SVIC Podcast
+	- Your Undivided Attention
 - Investing, Thinkers
 	- Invest Like the Best with Patrick O'Shaughnessy
 	- Dwarkesh Podcsat
@@ -63,18 +81,15 @@ Podcasts
 	- Blowback
 	- Dan Carlin's Hardcore History
 	- Fall of Civilizations Podcast
+	- Angry Planet
 - Machine Learning
-	- Brain Inspired
-	- Sanctuary AI Ground Truth Podcast
 	- NLP Highlights
 	- Underrated ML
 	- CS224U
 	- The Retort AI Podcast
 	- Practically Intelligent
 	- Unsupervised Learning
-	- Interconnects Audio
-	- Stanford MLSys Seminar
-	- Deep Papers
+	- Stanford MLSys Seminar (Watch on Youtube)
 	- Latent Space
 	- The Gradient
 	- ThursdAI
@@ -82,8 +97,11 @@ Podcasts
 	- Weaviate Podcast
 	- The Cognitive Revolution
 	- MLOps.community
+	- Sanctuary AI Ground Truth Podcast
 	- Vanishing Gradients
 	- Machine Learning Street Talk
+	- TalkRL
+	- Vertex Ventures
 - Software Engineering
 	- Oxide and Friends
 	- Data Engineering Podcast
@@ -106,19 +124,67 @@ Books
 
 Music
 - Tycho
-- Yvette Young
 - Boards of Canada
+- Tommy Guerrero
+- Emancipator
+- Bonobo
+- Khruangbin
+- 
 
+Locations
+- Midwest
+	- Chicago, IL
+	- Door County, WI
+	- Traverse City, MI
+	- Decorah, IA
+	- Okoboji, IA
+	- Galena, IL,
+	- Petoskey, MI
+	- Door County, WI
+- California
+	- Sea Ranch, CA
+	- San Diego, CA
+	- San Luis Obispo, CA
+	- Mill Valley, CA
+	- Los Angeles, CA
+	- Mendocino, CA
+- PNW
+	- ...
+- Mountains
+	- Boulder, CO
+	- El Dorado, CO
+- East Coast
+	- Burlington, VT
+	- Savannah, GA
+	- Charleston, SC
+	- Chapel Hill, NC
+	- Greenville, SC
+- South
+	- ...
+- Southwest
+	- Sedona/Flagstaff, AZ
+	- Tucson, AZ
+
+Blogs
+- Lilian Weng Lil Log
+- Interconnects
+- Eugene Yan
+- Cameron Wolfe
+- Sebastian Rschka
 
 Articles
 - https://nostalgebraist.tumblr.com/post/741247180226052096/i-dont-think-youre-drawing-the-right-lesson-from
 	- The revolution in AI isn't from transformers, it's from predictable scaling laws.
-- 
+- https://cameronrwolfe.substack.com/p/basics-of-reinforcement-learning
+	- Understanding how Reinforcement Learning can be used in the context of language model fine-tuning.
+- Eugene Yan's Paper Reading List
 
 -----
 
 Anti-recommendations:
 - No Priors podcast
 - Super Data Science Podcast
+- Hard Fork
+
 
 
