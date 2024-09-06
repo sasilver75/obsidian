@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MGSM.md",
+                "file": "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -45,8 +45,25 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6fb3fd0a12fb3610",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8a204ebb4e6c7a0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MGSM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MGSM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MGSM.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,8 +212,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4d6996ec23dad97",
+  "active": "e8a204ebb4e6c7a0",
   "lastOpenFiles": [
+    "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
+    "_attachments/Pasted image 20240906105305.png",
+    "MGSM.md",
     "~ Vocabulary.md",
     "Nexus.md",
     "IFEval.md",
@@ -226,9 +242,6 @@
     "vLLM.md",
     "text-davinci-002.md",
     "t.md",
-    "spaCy.md",
-    "s2orc.md",
-    "oasst2.md",
     "_attachments/matryoshka-small.gif",
     "_attachments/SamAltmanWizard.png",
     "_attachments/Pasted image 20240821124253.png",
@@ -237,7 +250,6 @@
     "_attachments/Pasted image 20240821123021.png",
     "_attachments/Pasted image 20240821121748.png",
     "_attachments/Pasted image 20240821121231.png",
-    "_attachments/Pasted image 20240821120955.png",
     "Templates",
     "Projects/Cohere Reasoning",
     "Projects",
