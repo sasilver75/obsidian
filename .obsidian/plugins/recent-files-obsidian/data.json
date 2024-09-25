@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "LLaMA 3.2",
+      "path": "LLaMA 3.2.md"
+    },
+    {
+      "basename": "LLaMA Guard 3",
+      "path": "LLaMA Guard 3.md"
+    },
+    {
+      "basename": "Molmo",
+      "path": "Molmo.md"
+    },
+    {
+      "basename": "OLMoE",
+      "path": "OLMoE.md"
+    },
+    {
+      "basename": "PixMo",
+      "path": "PixMo.md"
+    },
+    {
       "basename": "01a Literature Review",
       "path": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "Process Reward Model",
       "path": "Process Reward Model.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
@@ -179,26 +199,6 @@
     {
       "basename": "ChatBot Arena",
       "path": "ChatBot Arena.md"
-    },
-    {
-      "basename": "Bradley-Terry-Luce Model",
-      "path": "Bradley-Terry-Luce Model.md"
-    },
-    {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
-    },
-    {
-      "basename": "DeepSeekMath",
-      "path": "DeepSeekMath.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
-    },
-    {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
     }
   ],
   "omittedPaths": [],
