@@ -5,6 +5,10 @@
       "path": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md"
     },
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Process Reward Model",
       "path": "Process Reward Model.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Self-Play Fine-Tuning",
-      "path": "Self-Play Fine-Tuning.md"
     }
   ],
   "omittedPaths": [],
