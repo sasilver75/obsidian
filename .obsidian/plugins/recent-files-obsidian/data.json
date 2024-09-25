@@ -1,16 +1,100 @@
 {
   "recentFiles": [
     {
+      "basename": "01a Literature Review",
+      "path": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md"
+    },
+    {
+      "basename": "Process Reward Model",
+      "path": "Process Reward Model.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
+    },
+    {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "InstructGPT",
+      "path": "InstructGPT.md"
+    },
+    {
+      "basename": "GPT-J",
+      "path": "GPT-J.md"
+    },
+    {
+      "basename": "BLOOM",
+      "path": "BLOOM.md"
+    },
+    {
+      "basename": "Reflexion",
+      "path": "Reflexion.md"
+    },
+    {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "ReAct",
+      "path": "ReAct.md"
+    },
+    {
+      "basename": "FLAN-T5",
+      "path": "FLAN-T5.md"
+    },
+    {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
+    },
+    {
+      "basename": "Self-Taught Reasoner",
+      "path": "Self-Taught Reasoner.md"
+    },
+    {
+      "basename": "Gopher",
+      "path": "Gopher.md"
+    },
+    {
+      "basename": "GPT-3.5",
+      "path": "GPT-3.5.md"
+    },
+    {
+      "basename": "ChatGPT",
+      "path": "ChatGPT.md"
+    },
+    {
+      "basename": "GPT-2",
+      "path": "GPT-2.md"
+    },
+    {
+      "basename": "GPT-3",
+      "path": "GPT-3.md"
+    },
+    {
+      "basename": "Evol-Instruct",
+      "path": "Evol-Instruct.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Human Feedback",
+      "path": "Reinforcement Learning from Human Feedback.md"
+    },
+    {
       "basename": "01 Kickoff Meeting Friday, August 30 1030AM",
       "path": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md"
     },
     {
       "basename": "Hydra",
       "path": "Hydra.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Index",
@@ -115,90 +199,6 @@
     {
       "basename": "Self-Play Fine-Tuning",
       "path": "Self-Play Fine-Tuning.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "DSPy",
-      "path": "DSPy.md"
-    },
-    {
-      "basename": "From Local to Global - a Graph RAG Approach to Query-Focused Summarization",
-      "path": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md"
-    },
-    {
-      "basename": "Generalized Visual Language Models (June 9, 2022) {Lilian Weng}",
-      "path": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md"
-    },
-    {
-      "basename": "SAM 2",
-      "path": "SAM 2.md"
-    },
-    {
-      "basename": "GPT-4",
-      "path": "GPT-4.md"
-    },
-    {
-      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
-      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
-    },
-    {
-      "basename": "PRM800K",
-      "path": "PRM800K.md"
-    },
-    {
-      "basename": "~ Todo",
-      "path": "~ Todo.md"
-    },
-    {
-      "basename": "Leaky ReLU",
-      "path": "Leaky ReLU.md"
-    },
-    {
-      "basename": "WizardArena",
-      "path": "WizardArena.md"
-    },
-    {
-      "basename": "Identity-Mapping Preference Optimization",
-      "path": "Identity-Mapping Preference Optimization.md"
-    },
-    {
-      "basename": "Trust Region Policy Optimization",
-      "path": "Trust Region Policy Optimization.md"
-    },
-    {
-      "basename": "Segment Anything Model",
-      "path": "Segment Anything Model.md"
-    },
-    {
-      "basename": "How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}",
-      "path": "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md"
-    },
-    {
-      "basename": "VQAv2",
-      "path": "VQAv2.md"
-    },
-    {
-      "basename": "VQGAN",
-      "path": "VQGAN.md"
-    },
-    {
-      "basename": "VQ-VAE",
-      "path": "VQ-VAE.md"
-    },
-    {
-      "basename": "Orca-Math",
-      "path": "Orca-Math.md"
-    },
-    {
-      "basename": "Diffusion Model",
-      "path": "Diffusion Model.md"
-    },
-    {
-      "basename": "ReAct",
-      "path": "ReAct.md"
     }
   ],
   "omittedPaths": [],

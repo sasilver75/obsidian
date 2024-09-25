@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7664134408f8f1e8",
+        "id": "af5f82376a8db947",
         "type": "tabs",
         "children": [
           {
-            "id": "203261670772dae3",
+            "id": "065e8be575143ab4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,77 @@
             }
           },
           {
-            "id": "1cfbe056f07714ed",
+            "id": "240b77a9050f8516",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d816eefedfd7345",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8efa596ad3ddd4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66304fa881f68d07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shepherd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e08bdb2876a640b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Process Reward Models/Let's Verify Step by Step.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8dfc0978ddf06f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "critique",
+                "query": "scaling instruction-fine",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +153,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md"
+                "file": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md"
               }
             }
           },
@@ -182,7 +248,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+                "file": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,7 +271,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6641608753267966,
+                  "scale": 1.0445002005165422,
                   "close": true
                 }
               }
@@ -215,7 +281,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 499.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -228,25 +294,38 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1cfbe056f07714ed",
+  "active": "240b77a9050f8516",
   "lastOpenFiles": [
-    "Hydra.md",
-    "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+    "Process Reward Model.md",
     "~ Vocabulary.md",
+    "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+    "Projects/Cohere Reasoning/Meetings/01a Literature Review.md",
+    "Shepherd.md",
+    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "InstructGPT.md",
+    "GPT-J.md",
+    "BLOOM.md",
+    "Reflexion.md",
+    "Papers/Process Reward Models/Let's Verify Step by Step.md",
+    "ReAct.md",
+    "FLAN-T5.md",
+    "Quiet STaR.md",
+    "Self-Taught Reasoner.md",
+    "Gopher.md",
+    "GPT-3.5.md",
+    "ChatGPT.md",
+    "GPT-2.md",
+    "GPT-3.md",
+    "Evol-Instruct.md",
+    "Reinforcement Learning from Human Feedback.md",
+    "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md",
+    "Hydra.md",
     "Projects/Cohere Reasoning/Index.md",
     "~ Followup.md",
     "Projects/Cohere Reasoning/Meetings",
-    "Qwen 2 VL.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20240827144504.png",
-    "Speculative Decoding.md",
-    "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md",
-    "EAGLE.md",
     "_attachments/Pasted image 20240821124253.png",
     "_attachments/Pasted image 20240821124155.png",
-    "Gemma 2.md",
-    "voca.md",
-    "Medusa.md",
     "_attachments/Pasted image 20240821123527.png",
     "_attachments/Pasted image 20240821123021.png",
     "_attachments/Pasted image 20240821121748.png",
@@ -254,21 +333,8 @@
     "_attachments/Pasted image 20240821120955.png",
     "_attachments/Pasted image 20240821120909.png",
     "_attachments/Pasted image 20240821120858.png",
-    "Omar Khattab.md",
-    "Articles/A recipe for Frontier Model Post-Training (August 7, 2024) {Nathan Lambert}.md",
     "Projects/Cohere Reasoning",
     "Projects",
-    "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
-    "_attachments/AgentInstruct 2024-07-12 15.36.46.excalidraw.md",
-    "Constitutional AI.md",
-    "~ Ideas.md",
-    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
-    "Continued Pretraining.md",
-    "LLaMA 3.1.md",
-    "Quantization.md",
-    "ChatBot Arena.md",
-    "Bradley-Terry-Luce Model.md",
-    "Self-Instruct.md",
     "Papers/Alignment",
     "Papers/Process Reward Models",
     "Courses/Math",

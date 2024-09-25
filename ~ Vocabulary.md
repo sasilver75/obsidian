@@ -715,6 +715,7 @@
 - [[Alpaca]]
 - [[AlpaGasus]]
 - [[AlphaCode]]
+- [[AlphaCode 2]]
 - [[AlphaGeometry]]
 - [[AlphaGo]]
 - [[BART]] (Bidirectional and Auto-Regressive Transformers)
@@ -1215,6 +1216,7 @@
 - [[Sasha Rush]] 👨‍🏫
 - [[Sebastian Raschka]] 🧑‍🏫
 - [[Sebastian Ruder]] 🧑‍🏫
+- [[Richard Socher]] 🔍
 - [[Shreya Shankar]] 📊
 - [[Stella Biderman]] 😎
 - [[Stuart Russell]] 👨‍🦳
