@@ -800,6 +800,7 @@
 - [[LLaMA 2]]
 - [[LLaMA 3]]
 - [[LLaMA 3.1]]
+- [[LLaMA 3.2]]
 - [[LLaMA Guard]]
 - [[LLAMA Guard 2]]
 - [[LLaMA Guard 3]]
@@ -821,9 +822,11 @@
 - [[MobileLLM]]
 - [[MobileNet-V2]]
 - [[MobileNet]]
+- [[Molmo]]
 - [[MPT]] (Mosaic Pretrained Transformer)
 - [[Nemotron-4]]
 - [[OLMo]] (Open Language Model)
+- [[OLMoE]]
 - [[OpenChat]]
 - [[OpenCLIP]]
 - [[OpenELM]]
@@ -1077,6 +1080,7 @@
 - [[OpenHermes Dataset]]
 - [[OpenHermes2.5 Dataset]]
 - [[OpenOrca Dataset]]
+- [[PixMo]]
 - [[Preference Collection]]
 - [[PRM800K]] 
 - [[Project Gutenberg]]
