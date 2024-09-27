@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture 0 Introduction",
+      "path": "Courses/UCSC/NLP243/Lecture 0 Introduction.md"
+    },
+    {
+      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
+      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
+    },
+    {
+      "basename": "Let's Verify Step by Step",
+      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
+    },
+    {
+      "basename": "Shepherd",
+      "path": "Shepherd.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "LLaMA 3.2",
-      "path": "LLaMA 3.2.md"
+      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
     },
     {
       "basename": "LLaMA Guard 3",
       "path": "LLaMA Guard 3.md"
     },
     {
+      "basename": "LLaMA 3.2",
+      "path": "LLaMA 3.2.md"
+    },
+    {
       "basename": "Molmo",
       "path": "Molmo.md"
+    },
+    {
+      "basename": "Lecture 0 Introduction",
+      "path": "Courses/UCSC/NLP201/Lecture 0 Introduction.md"
     },
     {
       "basename": "OLMoE",
@@ -29,24 +53,8 @@
       "path": "Projects/Cohere Reasoning/Meetings/01a Literature Review.md"
     },
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "Process Reward Model",
       "path": "Process Reward Model.md"
-    },
-    {
-      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
-      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
-      "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
     },
     {
       "basename": "InstructGPT",
@@ -63,10 +71,6 @@
     {
       "basename": "Reflexion",
       "path": "Reflexion.md"
-    },
-    {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
     },
     {
       "basename": "ReAct",
@@ -195,10 +199,6 @@
     {
       "basename": "Quantization",
       "path": "Quantization.md"
-    },
-    {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
     }
   ],
   "omittedPaths": [],
