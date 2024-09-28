@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SSHing into the NLP Servers",
+      "path": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md"
+    },
+    {
       "basename": "Lecture 0 Introduction",
       "path": "Courses/UCSC/NLP243/Lecture 0 Introduction.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "LLaMA 3.1",
       "path": "LLaMA 3.1.md"
-    },
-    {
-      "basename": "Quantization",
-      "path": "Quantization.md"
     }
   ],
   "omittedPaths": [],
