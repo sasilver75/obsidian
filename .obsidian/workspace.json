@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/UCSC/NLP243/Lecture 0 Introduction.md",
+                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/UCSC/NLP243/Lecture 0 Introduction.md",
+                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/UCSC/NLP243/Lecture 0 Introduction.md",
+                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/UCSC/NLP243/Lecture 0 Introduction.md"
+                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md"
               }
             }
           },
@@ -168,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/UCSC/NLP243/Lecture 0 Introduction.md",
+                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -216,8 +215,10 @@
   },
   "active": "a8dfc0978ddf06f7",
   "lastOpenFiles": [
-    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Courses/UCSC/NLP243/Lecture 0 Introduction.md",
+    "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
+    "Courses/UCSC/Bootcamp",
+    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Courses/UCSC/NLP243",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
     "Shepherd.md",
@@ -248,7 +249,6 @@
     "ReAct.md",
     "FLAN-T5.md",
     "Quiet STaR.md",
-    "Self-Taught Reasoner.md",
     "Projects/Cohere Reasoning/Meetings",
     "_attachments/Pasted image 20240827144504.png",
     "_attachments/Pasted image 20240821124253.png",
@@ -260,7 +260,6 @@
     "Projects",
     "Papers/Alignment",
     "Papers/Process Reward Models",
-    "Courses/Math",
-    "Papers/General"
+    "Courses/Math"
   ]
 }
