@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
+                "file": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
+                "file": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
+                "file": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md"
+                "file": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md"
               }
             }
           },
@@ -167,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
+                "file": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,11 +216,16 @@
   },
   "active": "a8dfc0978ddf06f7",
   "lastOpenFiles": [
-    "Courses/UCSC/NLP243/Lecture 0 Introduction.md",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)/Chapter 1 - Introduction.md",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
     "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Lecture 0 Introduction.md",
     "Courses/UCSC/Bootcamp",
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
-    "Courses/UCSC/NLP243",
+    "Courses/UCSC/NLP243 Deep Learning for NLP",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
     "Shepherd.md",
     "~ Vocabulary.md",
@@ -227,8 +233,8 @@
     "LLaMA Guard 3.md",
     "LLaMA 3.2.md",
     "Molmo.md",
-    "Courses/UCSC/NLP201/Lecture 0 Introduction.md",
-    "Courses/UCSC/NLP201",
+    "Courses/UCSC/NLP201 NLP I/Lecture 0 Introduction.md",
+    "Courses/UCSC/NLP201 NLP I",
     "Courses/UCSC",
     "Courses/NLP201.md",
     "_attachments/Pasted image 20240925121931.png",
@@ -247,8 +253,6 @@
     "BLOOM.md",
     "Reflexion.md",
     "ReAct.md",
-    "FLAN-T5.md",
-    "Quiet STaR.md",
     "Projects/Cohere Reasoning/Meetings",
     "_attachments/Pasted image 20240827144504.png",
     "_attachments/Pasted image 20240821124253.png",
@@ -257,9 +261,6 @@
     "_attachments/Pasted image 20240821123021.png",
     "_attachments/Pasted image 20240821121748.png",
     "Projects/Cohere Reasoning",
-    "Projects",
-    "Papers/Alignment",
-    "Papers/Process Reward Models",
-    "Courses/Math"
+    "Projects"
   ]
 }

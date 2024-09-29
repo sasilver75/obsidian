@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Chapter 1 - Introduction",
+      "path": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md"
+    },
+    {
+      "basename": "Chapter 1 - Introduction",
+      "path": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)/Chapter 1 - Introduction.md"
+    },
+    {
       "basename": "SSHing into the NLP Servers",
       "path": "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md"
     },
     {
       "basename": "Lecture 0 Introduction",
-      "path": "Courses/UCSC/NLP243/Lecture 0 Introduction.md"
+      "path": "Courses/UCSC/NLP243 Deep Learning for NLP/Lecture 0 Introduction.md"
     },
     {
       "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
@@ -42,7 +50,7 @@
     },
     {
       "basename": "Lecture 0 Introduction",
-      "path": "Courses/UCSC/NLP201/Lecture 0 Introduction.md"
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 0 Introduction.md"
     },
     {
       "basename": "OLMoE",
@@ -191,14 +199,6 @@
     {
       "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
       "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
-    },
-    {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
-    },
-    {
-      "basename": "LLaMA 3.1",
-      "path": "LLaMA 3.1.md"
     }
   ],
   "omittedPaths": [],
