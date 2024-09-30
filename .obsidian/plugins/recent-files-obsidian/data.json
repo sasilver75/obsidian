@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "InfiniteBench",
+      "path": "InfiniteBench.md"
+    },
+    {
+      "basename": "ZeroSCROLLS",
+      "path": "ZeroSCROLLS.md"
+    },
+    {
+      "basename": "RULER",
+      "path": "RULER.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Chapter 1 - Introduction",
       "path": "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md"
     },
@@ -27,10 +47,6 @@
     {
       "basename": "Shepherd",
       "path": "Shepherd.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
@@ -183,22 +199,6 @@
     {
       "basename": "Why I bet on DSPy (August 10, 2024) {Isaac Miller}",
       "path": "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md"
-    },
-    {
-      "basename": "AgentInstruct 2024-07-12 15.36.46.excalidraw",
-      "path": "_attachments/AgentInstruct 2024-07-12 15.36.46.excalidraw.md"
-    },
-    {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
-    },
-    {
-      "basename": "~ Ideas",
-      "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
-      "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
     }
   ],
   "omittedPaths": [],
