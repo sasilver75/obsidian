@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "IFEval",
+      "path": "IFEval.md"
+    },
+    {
+      "basename": "FoFo",
+      "path": "FoFo.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Hermes 3",
+      "path": "Hermes 3.md"
+    },
+    {
+      "basename": "Hermes 2",
+      "path": "Hermes 2.md"
+    },
+    {
+      "basename": "OpenHermes2.5 Dataset",
+      "path": "OpenHermes2.5 Dataset.md"
+    },
+    {
       "basename": "~ Memes",
       "path": "~ Memes.md"
     },
@@ -21,20 +45,8 @@
       "path": "MGSM.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Nexus",
       "path": "Nexus.md"
-    },
-    {
-      "basename": "IFEval",
-      "path": "IFEval.md"
-    },
-    {
-      "basename": "FoFo",
-      "path": "FoFo.md"
     },
     {
       "basename": "ReAct",
@@ -187,18 +199,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Leaky ReLU",
-      "path": "Leaky ReLU.md"
-    },
-    {
-      "basename": "WizardArena",
-      "path": "WizardArena.md"
-    },
-    {
-      "basename": "Identity-Mapping Preference Optimization",
-      "path": "Identity-Mapping Preference Optimization.md"
     }
   ],
   "omittedPaths": [],

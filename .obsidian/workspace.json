@@ -32,43 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b8eaff0f1e74d974",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FoFo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fb3fd0a12fb3610",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e8a204ebb4e6c7a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Memes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Memes.md",
+                "file": "IFEval.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Memes.md",
+                "file": "IFEval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Memes.md"
+                "file": "IFEval.md"
               }
             }
           },
@@ -221,10 +187,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8a204ebb4e6c7a0",
+  "active": "239c47ad0e39e9a9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "FoFo.md",
+    "~ Vocabulary.md",
+    "Hermes 3.md",
+    "Hermes 2.md",
+    "OpenHermes2.5 Dataset.md",
     "~ Memes.md",
+    "conflict-files-obsidian-git.md",
     "RULER.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)/Chapter 1 - Introduction.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
@@ -257,11 +228,6 @@
     "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
     "_attachments/Pasted image 20240906105305.png",
     "MGSM.md",
-    "~ Vocabulary.md",
-    "Nexus.md",
-    "IFEval.md",
-    "FoFo.md",
-    "ReAct.md",
     "_attachments/Pasted image 20240827144504.png",
     "Projects/Cohere Reasoning/Meetings",
     "_attachments/matryoshka-small.gif",
