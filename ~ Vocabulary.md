@@ -781,6 +781,8 @@
 - [[GPT-NeoX]]
 - [[Guanaco]]
 - [[Hermes]]
+- [[Hermes 2]]
+- [[Hermes 3]]
 - [[HiPPO]] (High-order Polynomial Projection Operators)
 - [[Hydra]]
 - [[ImageBind]]
