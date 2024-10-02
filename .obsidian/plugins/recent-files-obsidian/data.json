@@ -5,6 +5,10 @@
       "path": "~ Memes.md"
     },
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "~ Worksheet",
       "path": "~ Worksheet.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Identity-Mapping Preference Optimization",
       "path": "Identity-Mapping Preference Optimization.md"
-    },
-    {
-      "basename": "Trust Region Policy Optimization",
-      "path": "Trust Region Policy Optimization.md"
     }
   ],
   "omittedPaths": [],
