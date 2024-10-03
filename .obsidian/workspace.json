@@ -1,54 +1,40 @@
 {
   "main": {
-    "id": "2c9a5dcd9984e3f2",
+    "id": "af92b0d6fc864e9d",
     "type": "split",
     "children": [
       {
-        "id": "2d9cc71d28f9be3e",
+        "id": "81c94f0ed1dd63f4",
         "type": "tabs",
         "children": [
           {
-            "id": "d4d6996ec23dad97",
+            "id": "dd524c9214d0deec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "239c47ad0e39e9a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IFEval.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7b96c59cc8f4246f",
+    "id": "7ddc3cde93ab8ac8",
     "type": "split",
     "children": [
       {
-        "id": "5cd2534a76913604",
+        "id": "b5ae910f8c59e3eb",
         "type": "tabs",
         "children": [
           {
-            "id": "0c7dc73e0b308c7b",
+            "id": "aba8fe69d46d9ccd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +44,7 @@
             }
           },
           {
-            "id": "3bb0c947752adc10",
+            "id": "7060ea3bb41d02c2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -68,12 +54,12 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "43da419193ed00ea",
+            "id": "cc683cc0469bd198",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,7 +67,7 @@
             }
           },
           {
-            "id": "cce13dc7fc1930b6",
+            "id": "59090bd7d5886a5c",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -92,24 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
-    "id": "9abd8563ca161ddd",
+    "id": "d6ed0fac49903124",
     "type": "split",
     "children": [
       {
-        "id": "436c5fa009390d5d",
+        "id": "b0d6eaf36c9ecdfc",
         "type": "tabs",
         "children": [
           {
-            "id": "3b3296e07c4a81f1",
+            "id": "a0d64735b08f4f8d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IFEval.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,19 +106,19 @@
             }
           },
           {
-            "id": "d100f4f87b20998e",
+            "id": "c5b391fdf962eb73",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IFEval.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9b829491545096c8",
+            "id": "b62c933e1cd73916",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,17 +129,17 @@
             }
           },
           {
-            "id": "590cf3356aef7ad1",
+            "id": "5b50f2312857cfa7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "IFEval.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
           {
-            "id": "8371c0eb93e8b958",
+            "id": "ace0e39b92066d5f",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -162,7 +147,7 @@
             }
           },
           {
-            "id": "a628f73c6d92caf6",
+            "id": "aa739906969f18f7",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -171,71 +156,110 @@
           }
         ],
         "currentTab": 5
+      },
+      {
+        "id": "8a022290161ffefa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27a2719527686342",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 5,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.2284147748503207,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 499.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-spaced-repetition:Review flashcards": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "239c47ad0e39e9a9",
+  "active": "dd524c9214d0deec",
   "lastOpenFiles": [
-    "FoFo.md",
-    "~ Vocabulary.md",
     "Hermes 3.md",
     "Hermes 2.md",
-    "OpenHermes2.5 Dataset.md",
-    "~ Memes.md",
-    "conflict-files-obsidian-git.md",
+    "Yi Tay.md",
+    "~ Vocabulary.md",
+    "Nathan Lambert.md",
+    "Vicuna.md",
+    "UltraChat.md",
+    "Magpie.md",
+    "Yejin Choi.md",
     "RULER.md",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)/Chapter 1 - Introduction.md",
+    "ZeroSCROLLS.md",
+    "Tokenizer.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Lecture 0 Introduction.md",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
-    "Courses/UCSC/NLP243 Deep Learning for NLP",
     "Courses/UCSC/NLP201 NLP I/Lecture 1 Introduction.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 0 Introduction.md",
+    "InfiniteBench.md",
+    "conflict-files-obsidian-git.md",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)/Chapter 1 - Introduction.md",
+    "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Lecture 0 Introduction.md",
+    "Courses/UCSC/Bootcamp",
+    "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
+    "Courses/UCSC/NLP243 Deep Learning for NLP",
+    "Papers/Process Reward Models/Let's Verify Step by Step.md",
+    "Shepherd.md",
+    "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
+    "LLaMA Guard 3.md",
+    "LLaMA 3.2.md",
+    "Molmo.md",
     "Courses/UCSC/NLP201 NLP I",
-    "~ Worksheet.md",
+    "Courses/UCSC",
     "_attachments/Pasted image 20240925121931.png",
     "_attachments/Pasted image 20240925115953.png",
     "_attachments/Pasted image 20240925115935.png",
-    "Projects/Cohere Reasoning/Meetings/01a Literature Review.md",
-    "PixMo.md",
-    "OLMoE.md",
-    "Molmo.md",
-    "LLaMA Guard 3.md",
-    "LLaMA 3.2.md",
-    "Courses/UCSC/NLP201/Lecture 0 Introduction.md",
-    "Courses/UCSC/NLP243/Lecture 0 Introduction.md",
-    "Courses/UCSC/Bootcamp/SSHing into the NLP Servers.md",
-    "Courses/UCSC/NLP243",
-    "Courses/UCSC/NLP201",
-    "Courses/UCSC/Bootcamp",
-    "Courses/UCSC",
-    "ChatGPT.md",
-    "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
     "_attachments/Pasted image 20240906105305.png",
-    "MGSM.md",
-    "_attachments/Pasted image 20240827144504.png",
     "Projects/Cohere Reasoning/Meetings",
-    "_attachments/matryoshka-small.gif",
-    "_attachments/SamAltmanWizard.png",
+    "_attachments/Pasted image 20240827144504.png",
     "_attachments/Pasted image 20240821124253.png",
     "_attachments/Pasted image 20240821124155.png",
     "_attachments/Pasted image 20240821123527.png",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
+    "_attachments/Pasted image 20240821123021.png",
+    "_attachments/Pasted image 20240821121748.png",
+    "Projects/Cohere Reasoning",
+    "Projects"
   ]
 }
