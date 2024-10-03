@@ -1056,6 +1056,7 @@
 - [[DataComp]]
 - [[Dolma]] (Dataset for OLMo)
 - [[Feedback Collection]]
+- [[FinePersonas]]
 - [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[FineWeb]] (15T high-quality dataset from HF)
 - [[FLAN v2]] (The FLAN Collection)

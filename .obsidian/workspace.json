@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dab14a253b2b33c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FinePersonas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IFEval.md",
+                "file": "FinePersonas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IFEval.md",
+                "file": "FinePersonas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IFEval.md"
+                "file": "FinePersonas.md"
               }
             }
           },
@@ -187,10 +200,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "239c47ad0e39e9a9",
+  "active": "9dab14a253b2b33c",
   "lastOpenFiles": [
-    "FoFo.md",
     "~ Vocabulary.md",
+    "FinePersonas.md",
+    "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
+    "IFEval.md",
+    "FoFo.md",
     "Hermes 3.md",
     "Hermes 2.md",
     "OpenHermes2.5 Dataset.md",
@@ -224,10 +240,7 @@
     "Courses/UCSC/NLP201",
     "Courses/UCSC/Bootcamp",
     "Courses/UCSC",
-    "ChatGPT.md",
-    "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
     "_attachments/Pasted image 20240906105305.png",
-    "MGSM.md",
     "_attachments/Pasted image 20240827144504.png",
     "Projects/Cohere Reasoning/Meetings",
     "_attachments/matryoshka-small.gif",
