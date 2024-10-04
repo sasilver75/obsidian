@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "baad2ff83d70d64e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/UCSC/NLP201 NLP I/Lecture 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72e4c2ab4bd6ff8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anaphora.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Anaphora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Anaphora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "Anaphora.md"
               }
             }
           },
@@ -167,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Anaphora.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -213,12 +240,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "dd524c9214d0deec",
+  "active": "72e4c2ab4bd6ff8e",
   "lastOpenFiles": [
+    "Courses/UCSC/NLP201 NLP I/Lecture 2.md",
+    "Language Model.md",
+    "~ Vocabulary.md",
     "Hermes 3.md",
     "Hermes 2.md",
     "Yi Tay.md",
-    "~ Vocabulary.md",
     "Nathan Lambert.md",
     "Vicuna.md",
     "UltraChat.md",
@@ -244,8 +273,6 @@
     "Shepherd.md",
     "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md",
     "LLaMA Guard 3.md",
-    "LLaMA 3.2.md",
-    "Molmo.md",
     "Courses/UCSC/NLP201 NLP I",
     "Courses/UCSC",
     "_attachments/Pasted image 20240925121931.png",
