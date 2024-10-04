@@ -854,6 +854,7 @@
 - [[Qwen 2]]
 - [[Qwen 2 Math]]
 - [[Qwen 2 VL]]
+- [[Qwen 2.5]] (incl. Coder and Math)
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
