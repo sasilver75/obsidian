@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Qwen 2.5",
+      "path": "Qwen 2.5.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "04 Meeting October 4",
+      "path": "Projects/Cohere Reasoning/Meetings/04 Meeting October 4.md"
+    },
+    {
+      "basename": "IFEval",
+      "path": "IFEval.md"
+    },
+    {
       "basename": "FinePersonas",
       "path": "FinePersonas.md"
     },
@@ -9,16 +25,8 @@
       "path": "conflict-files-obsidian-git.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "02 Meeting Friday, September 6 1030AM",
       "path": "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md"
-    },
-    {
-      "basename": "IFEval",
-      "path": "IFEval.md"
     },
     {
       "basename": "FoFo",
@@ -191,14 +199,6 @@
     {
       "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
       "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
-    },
-    {
-      "basename": "PRM800K",
-      "path": "PRM800K.md"
-    },
-    {
-      "basename": "~ Todo",
-      "path": "~ Todo.md"
     }
   ],
   "omittedPaths": [],
