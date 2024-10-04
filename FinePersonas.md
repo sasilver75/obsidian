@@ -1,4 +1,4 @@
-September 19, 2024
+**September** 19, 2024
 [[Argilla]]
 HuggingFace Dataset: [Link](https://huggingface.co/datasets/argilla/FinePersonas-v0.1)
 
