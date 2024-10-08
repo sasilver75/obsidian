@@ -16,6 +16,9 @@ Questions:
 - It doesn't seem like the thoughts generated between output tokens A and B are useful for the generation of C, or even of the thoughts between B and C.
 - I was thinking that at the end of the training process, our mixing head should basically be weighting the representation at the end of the intermediate thought... at 100%? Or no? Not clear to me 🤔. I think we only attend to the end-of-token logit (and then the previous real token outputs).
 
+References:
+- [Eric Zelikman twitter post](https://x.com/ericzelikman/status/1768663835106513041)
+
 ----
 
 ## Introduction

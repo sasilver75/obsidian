@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "NVLM",
-      "path": "NVLM.md"
+      "basename": "o1",
+      "path": "o1.md"
+    },
+    {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -11,6 +15,10 @@
     {
       "basename": "Lecture 2",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 2.md"
+    },
+    {
+      "basename": "NVLM",
+      "path": "NVLM.md"
     },
     {
       "basename": "Anaphora",
@@ -63,10 +71,6 @@
     {
       "basename": "ReAct",
       "path": "ReAct.md"
-    },
-    {
-      "basename": "Quiet STaR",
-      "path": "Quiet STaR.md"
     },
     {
       "basename": "01a Literature Review and Datasets",
@@ -195,10 +199,6 @@
     {
       "basename": "GPT-4",
       "path": "GPT-4.md"
-    },
-    {
-      "basename": "Large Language Models Cannot Self-Correct Reasoning Yet",
-      "path": "Papers/Long-Inference and Prompting/Large Language Models Cannot Self-Correct Reasoning Yet.md"
     }
   ],
   "omittedPaths": [],

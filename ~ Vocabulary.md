@@ -829,6 +829,7 @@
 - [[MPT]] (Mosaic Pretrained Transformer)
 - [[Nemotron-4]]
 - [[NVLM]]
+- [[o1]]
 - [[OLMo]] (Open Language Model)
 - [[OLMoE]]
 - [[OpenChat]]
