@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "o1.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "o1.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "o1.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "o1.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "o1.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -216,12 +216,13 @@
   },
   "active": "fcc24db66b121161",
   "lastOpenFiles": [
+    "SWE-bench Multimodal.md",
+    "~ Vocabulary.md",
+    "o1.md",
     "_attachments/Pasted image 20241008102035.png",
     "_attachments/Pasted image 20241008102016.png",
     "Quiet STaR.md",
-    "~ Vocabulary.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 2.md",
-    "o1.md",
     "_attachments/Pasted image 20241008101825.png",
     "NVLM.md",
     "_attachments/Pasted image 20241006112825.png",
@@ -259,7 +260,6 @@
     "_attachments/Pasted image 20240925115935.png",
     "_attachments/Pasted image 20240906105305.png",
     "Projects/Cohere Reasoning/Meetings",
-    "_attachments/Pasted image 20240827144504.png",
     "Projects/Cohere Reasoning",
     "Projects"
   ]

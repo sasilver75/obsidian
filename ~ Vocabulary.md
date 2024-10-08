@@ -1025,6 +1025,7 @@
 - [[SuperGLUE]]
 - [[SWAG]] (Situations with Adversarial Generations)
 - [[SWE-bench]]
+- [[SWE-bench Multimodal]]
 - [[TFEval]] (Topic-Following Eval)
 - [[TruthfulQA]]
 - [[FalseQA]]
