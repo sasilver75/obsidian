@@ -84,12 +84,11 @@ Podcasts
 	- Angry Planet
 - Machine Learning
 	- NLP Highlights
-	- Underrated ML
+
 	- CS224U
 	- The Retort AI Podcast
-	- Practically Intelligent
 	- Unsupervised Learning
-	- Stanford MLSys Seminar (Watch on Youtube)
+	- Stanford MLSys Seminar (Watch on Youtube) 
 	- Latent Space
 	- The Gradient
 	- ThursdAI
