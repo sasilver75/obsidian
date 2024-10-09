@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fcc24db66b121161",
+            "id": "e838d80ddd54f630",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
+                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
+                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
+                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 3.md"
+                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md"
               }
             }
           },
@@ -168,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
+                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -214,21 +213,33 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fcc24db66b121161",
+  "active": "e838d80ddd54f630",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
-    "SWE-bench Multimodal.md",
+    "~ Story.md",
+    "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
+    "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md",
     "o1.md",
-    "_attachments/Pasted image 20241008102035.png",
-    "_attachments/Pasted image 20241008102016.png",
+    "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md",
+    "_attachments/Pasted image 20241009104841.png",
+    "_attachments/Pasted image 20241009104834.png",
+    "_attachments/Pasted image 20241009103905.png",
+    "_attachments/Pasted image 20241009103038.png",
+    "_attachments/Pasted image 20241009103031.png",
+    "_attachments/Pasted image 20241009102818.png",
+    "_attachments/Pasted image 20241009102753.png",
+    "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
+    "OLMoE.md",
+    "Molmo.md",
+    "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md",
+    "_attachments/Pasted image 20241008184628.png",
+    "_attachments/Pasted image 20241008184121.png",
+    "_attachments/Pasted image 20241008182129.png",
+    "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md",
+    "~ Vocabulary.md",
+    "SWE-bench Multimodal.md",
     "Quiet STaR.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 2.md",
-    "_attachments/Pasted image 20241008101825.png",
     "NVLM.md",
-    "_attachments/Pasted image 20241006112825.png",
-    "_attachments/Pasted image 20241006112728.png",
-    "_attachments/Pasted image 20241006112716.png",
     "Anaphora.md",
     "conflict-files-obsidian-git.md",
     "Qwen 2.5.md",
@@ -240,14 +251,6 @@
     "Yi Tay.md",
     "Nathan Lambert.md",
     "Vicuna.md",
-    "UltraChat.md",
-    "Magpie.md",
-    "Yejin Choi.md",
-    "RULER.md",
-    "ZeroSCROLLS.md",
-    "Tokenizer.md",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 1 Introduction.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
@@ -255,10 +258,6 @@
     "Courses/UCSC/NLP243 Deep Learning for NLP",
     "Courses/UCSC/NLP201 NLP I",
     "Courses/UCSC",
-    "_attachments/Pasted image 20240925121931.png",
-    "_attachments/Pasted image 20240925115953.png",
-    "_attachments/Pasted image 20240925115935.png",
-    "_attachments/Pasted image 20240906105305.png",
     "Projects/Cohere Reasoning/Meetings",
     "Projects/Cohere Reasoning",
     "Projects"
