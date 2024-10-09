@@ -2,7 +2,7 @@
 aliases:
   - BFCL
 ---
-Notes:
+rNotes:
 - Used by [[LLaMA 3.1]]
 
 [BFCL v1](https://gorilla.cs.berkeley.edu/blogs/12_bfcl_v2_live.html) 

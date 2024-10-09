@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Berkeley Function-Calling Leaderboard.md",
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 675.5
   },
   "right": {
     "id": "9abd8563ca161ddd",
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Berkeley Function-Calling Leaderboard.md",
+                "file": "~ Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Berkeley Function-Calling Leaderboard.md",
+                "file": "~ Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Berkeley Function-Calling Leaderboard.md"
+                "file": "~ Recommendations.md"
               }
             }
           },
@@ -199,8 +199,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d26c2120b3a9de25",
+  "active": "0c7dc73e0b308c7b",
   "lastOpenFiles": [
+    "Berkeley Function-Calling Leaderboard.md",
     "_attachments/Pasted image 20241006112825.png",
     "_attachments/Pasted image 20241006112728.png",
     "_attachments/Pasted image 20241006112716.png",
@@ -246,7 +247,6 @@
     "Projects/Cohere Reasoning/Meetings",
     "_attachments/matryoshka-small.gif",
     "_attachments/SamAltmanWizard.png",
-    "_attachments/Pasted image 20240821124253.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
