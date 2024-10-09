@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "How scaling changes model behavior (Oct 09, 2024) {Interconnects}",
+      "path": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "~ Story",
+      "path": "~ Story.md"
+    },
+    {
+      "basename": "A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}",
+      "path": "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "o1",
+      "path": "o1.md"
+    },
+    {
+      "basename": "Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}",
+      "path": "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md"
+    },
+    {
       "basename": "Lecture 3",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 3.md"
+    },
+    {
+      "basename": "OLMoE",
+      "path": "OLMoE.md"
+    },
+    {
+      "basename": "Molmo",
+      "path": "Molmo.md"
+    },
+    {
+      "basename": "LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}",
+      "path": "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}",
+      "path": "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -11,10 +47,6 @@
     {
       "basename": "SWE-bench Multimodal",
       "path": "SWE-bench Multimodal.md"
-    },
-    {
-      "basename": "o1",
-      "path": "o1.md"
     },
     {
       "basename": "Quiet STaR",
@@ -167,38 +199,6 @@
     {
       "basename": "Self-Instruct",
       "path": "Self-Instruct.md"
-    },
-    {
-      "basename": "DeepSeekMath",
-      "path": "DeepSeekMath.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
-    },
-    {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Self-Play Fine-Tuning",
-      "path": "Self-Play Fine-Tuning.md"
-    },
-    {
-      "basename": "Shepherd",
-      "path": "Shepherd.md"
-    },
-    {
-      "basename": "DSPy",
-      "path": "DSPy.md"
-    },
-    {
-      "basename": "From Local to Global - a Graph RAG Approach to Query-Focused Summarization",
-      "path": "Papers/IR and RAG/From Local to Global - a Graph RAG Approach to Query-Focused Summarization.md"
-    },
-    {
-      "basename": "Generalized Visual Language Models (June 9, 2022) {Lilian Weng}",
-      "path": "Articles/Generalized Visual Language Models (June 9, 2022) {Lilian Weng}.md"
     }
   ],
   "omittedPaths": [],

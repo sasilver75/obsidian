@@ -38,3 +38,31 @@ Sentence: A string of symbols, separated by spaces
 
 
 
+
+![[Pasted image 20241008164452.png]]
+This sigma star is the set of all finite words over Sigma (Sigma here is eg a vocabulary)
+So L1\* is any combination of those letters..
+And Sigma^i is any words of a particular length
+Note L+ is just L star but it doesn't include the empty string
+
+
+FSA
+
+little delta: Takes the cross product of Q and Sigma (eg a letter in the alphabet) and gives us a new state/
+The start state is just some initial starting state in Q
+F is called the final or accept states -- the set of states that, if we're in it, we accept.
+
+L(M), the language of M, is a subset of Sigma star, which is the set of strings that M accepts.
+
+![[Pasted image 20241008164933.png]]
+We have four states (q0, q1, q2, q3)
+We start at q0  as an initial state
+It's har d to see, but the right and bottom ones have a double ring around them, which denote them as final states -- which mean that if it ends up in that state, it's accepted, else it's not.
+
+The set Q is all of these states.
+The transition function delta tells me where to go based on what state I'm in , and what I see.
+- From q0
+	- If I see a 1, I go up to q1
+	- If I see a 0, I go back to q0
+
+The way we run the machien
