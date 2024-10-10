@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
+                "file": "Entropy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
+                "file": "Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
+                "file": "Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md"
+                "file": "Entropy.md"
               }
             }
           },
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
+                "file": "Entropy.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,8 +215,8 @@
   },
   "active": "e838d80ddd54f630",
   "lastOpenFiles": [
-    "~ Story.md",
     "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
+    "~ Story.md",
     "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md",
     "o1.md",
     "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md",

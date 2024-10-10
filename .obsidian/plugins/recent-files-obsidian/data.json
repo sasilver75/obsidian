@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Entropy",
+      "path": "Entropy.md"
+    },
+    {
       "basename": "How scaling changes model behavior (Oct 09, 2024) {Interconnects}",
       "path": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Bradley-Terry-Luce Model",
       "path": "Bradley-Terry-Luce Model.md"
-    },
-    {
-      "basename": "Self-Instruct",
-      "path": "Self-Instruct.md"
     }
   ],
   "omittedPaths": [],
