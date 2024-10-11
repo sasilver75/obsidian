@@ -5,6 +5,22 @@
       "path": "Entropy.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Verbosity Bias",
+      "path": "Verbosity Bias.md"
+    },
+    {
+      "basename": "Constrained Decoding",
+      "path": "Constrained Decoding.md"
+    },
+    {
+      "basename": "Lecture 4 (Missed)",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md"
+    },
+    {
       "basename": "How scaling changes model behavior (Oct 09, 2024) {Interconnects}",
       "path": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md"
     },
@@ -43,10 +59,6 @@
     {
       "basename": "OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}",
       "path": "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "SWE-bench Multimodal",
@@ -187,18 +199,6 @@
     {
       "basename": "LLaMA 3.1",
       "path": "LLaMA 3.1.md"
-    },
-    {
-      "basename": "Quantization",
-      "path": "Quantization.md"
-    },
-    {
-      "basename": "ChatBot Arena",
-      "path": "ChatBot Arena.md"
-    },
-    {
-      "basename": "Bradley-Terry-Luce Model",
-      "path": "Bradley-Terry-Luce Model.md"
     }
   ],
   "omittedPaths": [],
