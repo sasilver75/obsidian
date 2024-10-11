@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Nemotron-4",
+      "path": "Nemotron-4.md"
+    },
+    {
+      "basename": "Yi",
+      "path": "Yi.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
     },
     {
       "basename": "Verbosity Bias",
@@ -187,18 +199,6 @@
     {
       "basename": "~ Ideas",
       "path": "~ Ideas.md"
-    },
-    {
-      "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
-      "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
-    },
-    {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
-    },
-    {
-      "basename": "LLaMA 3.1",
-      "path": "LLaMA 3.1.md"
     }
   ],
   "omittedPaths": [],
