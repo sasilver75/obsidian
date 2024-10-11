@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entropy.md",
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03e0c7d25f96e48a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nemotron-4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70921d2d4e3d38d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Entropy.md",
+                "file": "~ Vocabulary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Entropy.md",
+                "file": "~ Vocabulary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Entropy.md"
+                "file": "~ Vocabulary.md"
               }
             }
           },
@@ -168,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Entropy.md",
+                "file": "~ Vocabulary.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -216,7 +242,11 @@
   },
   "active": "e838d80ddd54f630",
   "lastOpenFiles": [
+    "Nemotron-4.md",
     "~ Vocabulary.md",
+    "Yi.md",
+    "Zephyr.md",
+    "Entropy.md",
     "Verbosity Bias.md",
     "Constrained Decoding.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md",
@@ -230,7 +260,6 @@
     "_attachments/Pasted image 20241010165743.png",
     "_attachments/Pasted image 20241010165300.png",
     "_attachments/Pasted image 20241010165253.png",
-    "Entropy.md",
     "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
     "~ Story.md",
     "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md",
@@ -249,9 +278,6 @@
     "conflict-files-obsidian-git.md",
     "Qwen 2.5.md",
     "Projects/Cohere Reasoning/Meetings/04 Meeting October 4.md",
-    "FinePersonas.md",
-    "Language Model.md",
-    "Hermes 3.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
