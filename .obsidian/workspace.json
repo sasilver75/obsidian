@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Personal Evals.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Personal Evals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Personal Evals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Vocabulary.md"
+                "file": "~ Personal Evals.md"
               }
             }
           },
@@ -194,7 +193,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Personal Evals.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -242,8 +241,10 @@
   },
   "active": "e838d80ddd54f630",
   "lastOpenFiles": [
-    "Nemotron-4.md",
+    "~.md",
+    "~ Personal Evals.md",
     "~ Vocabulary.md",
+    "Nemotron-4.md",
     "Yi.md",
     "Zephyr.md",
     "Entropy.md",
@@ -276,8 +277,6 @@
     "NVLM.md",
     "Anaphora.md",
     "conflict-files-obsidian-git.md",
-    "Qwen 2.5.md",
-    "Projects/Cohere Reasoning/Meetings/04 Meeting October 4.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
