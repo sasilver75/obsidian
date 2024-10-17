@@ -13,11 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+                "file": "~ Memes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "~ Memes"
             }
           },
           {
@@ -26,14 +28,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "~ Useful Pictures"
+            }
+          },
+          {
+            "id": "12a6f231f12740d6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -68,7 +87,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -76,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -84,15 +107,16 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -108,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+                "file": "~ Memes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ~ Memes"
             }
           },
           {
@@ -125,10 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+                "file": "~ Memes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ~ Memes"
             }
           },
           {
@@ -139,7 +167,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -148,8 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 5.md"
-              }
+                "file": "~ Memes.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ~ Memes"
             }
           },
           {
@@ -157,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -165,11 +199,23 @@
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "01358515f2eb4ba3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "8a022290161ffefa",
@@ -181,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+                "file": "~ Memes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,7 +253,9 @@
                   "scale": 1.2284147748503207,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of ~ Memes"
             }
           }
         ]
@@ -227,8 +275,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e838d80ddd54f630",
+  "active": "01358515f2eb4ba3",
   "lastOpenFiles": [
+    "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+    "~ Memes.md",
     "_attachments/Pasted image 20241015163952.png",
     "_attachments/Pasted image 20241015163942.png",
     "_attachments/Pasted image 20241015163854.png",
@@ -239,9 +289,7 @@
     "_attachments/Pasted image 20241015162537.png",
     "_attachments/Pasted image 20241015162506.png",
     "_attachments/Pasted image 20241015160409.png",
-    "_attachments/Pasted image 20241015155229.png",
     "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
     "Nemotron-4.md",
     "Yi.md",
     "~ Personal Evals.md",
