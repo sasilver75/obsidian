@@ -17,7 +17,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Qwen 2.5"
             }
           },
           {
@@ -30,7 +32,51 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "8e6e1bfd974dee0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nemotron-4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nemotron-4"
+            }
+          },
+          {
+            "id": "c4fd56dc5acab7c8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
+            }
+          },
+          {
+            "id": "fc9f214c5b179693",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           },
           {
@@ -43,11 +89,13 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "~ Recommendations"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -67,7 +115,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -82,7 +132,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -90,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -98,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -121,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +185,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -138,10 +196,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           },
           {
@@ -152,7 +212,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -161,8 +223,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Recommendations.md"
-              }
+                "file": "conflict-files-obsidian-git.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -170,7 +234,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -178,11 +244,23 @@
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "969b6ea4b2032356",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -199,19 +277,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c7dc73e0b308c7b",
+  "active": "fc9f214c5b179693",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Nemotron-4.md",
+    "~ Vocabulary.md",
+    "Qwen 2.5.md",
+    "~ Recommendations.md",
+    "HyDE.md",
+    "o1.md",
+    "_attachments/Pasted image 20241008102035.png",
+    "_attachments/Pasted image 20241008102016.png",
+    "_attachments/Pasted image 20241008101825.png",
+    "SWE-bench Multimodal.md",
+    "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
     "Berkeley Function-Calling Leaderboard.md",
     "_attachments/Pasted image 20241006112825.png",
     "_attachments/Pasted image 20241006112728.png",
     "_attachments/Pasted image 20241006112716.png",
     "NVLM.md",
-    "Qwen 2.5.md",
-    "~ Vocabulary.md",
     "Projects/Cohere Reasoning/Meetings/04 Meeting October 4.md",
     "IFEval.md",
     "FinePersonas.md",
-    "conflict-files-obsidian-git.md",
     "Language Model.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 2.md",
     "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
@@ -228,25 +315,16 @@
     "Courses/UCSC/NLP243 Deep Learning for NLP/Lecture 0 Introduction.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
     "Courses/UCSC/NLP243 Deep Learning for NLP",
-    "Courses/UCSC/NLP201 NLP I/Lecture 1 Introduction.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 0 Introduction.md",
     "Courses/UCSC/NLP201 NLP I",
-    "~ Worksheet.md",
     "_attachments/Pasted image 20240925121931.png",
     "_attachments/Pasted image 20240925115953.png",
     "_attachments/Pasted image 20240925115935.png",
-    "Projects/Cohere Reasoning/Meetings/01a Literature Review.md",
-    "PixMo.md",
-    "OLMoE.md",
     "Courses/UCSC/NLP243",
     "Courses/UCSC/NLP201",
     "Courses/UCSC/Bootcamp",
     "Courses/UCSC",
     "_attachments/Pasted image 20240906105305.png",
-    "_attachments/Pasted image 20240827144504.png",
     "Projects/Cohere Reasoning/Meetings",
-    "_attachments/matryoshka-small.gif",
-    "_attachments/SamAltmanWizard.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

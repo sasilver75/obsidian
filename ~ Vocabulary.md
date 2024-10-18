@@ -829,6 +829,7 @@
 - [[MPT]] (Mosaic Pretrained Transformer)
 - [[Nemotron-4]]
 - [[NVLM]]
+- [[o1]]
 - [[OLMo]] (Open Language Model)
 - [[OLMoE]]
 - [[OpenChat]]
@@ -1024,6 +1025,7 @@
 - [[SuperGLUE]]
 - [[SWAG]] (Situations with Adversarial Generations)
 - [[SWE-bench]]
+- [[SWE-bench Multimodal]]
 - [[TFEval]] (Topic-Following Eval)
 - [[TruthfulQA]]
 - [[FalseQA]]
