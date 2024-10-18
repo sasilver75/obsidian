@@ -28,13 +28,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 01 Denny Zhou"
+              "title": "05 October 17"
+            }
+          },
+          {
+            "id": "fca99871d064379b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GSM8K.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GSM8K"
             }
           }
         ],
@@ -199,12 +214,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "cfe271e863f50c04",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "8a022290161ffefa",
@@ -266,24 +291,25 @@
   },
   "active": "12a6f231f12740d6",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20241017221802.png",
-    "_attachments/Pasted image 20241017221425.png",
-    "_attachments/Pasted image 20241017221242.png",
-    "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
+    "GSM8K.md",
+    "Projects/Cohere Reasoning/Meetings/05 October 17.md",
     "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+    "_attachments/Pasted image 20241017224421.png",
+    "_attachments/Pasted image 20241017224335.png",
+    "_attachments/Pasted image 20241017224153.png",
+    "_attachments/Pasted image 20241017223922.png",
+    "_attachments/Pasted image 20241017223847.png",
+    "_attachments/Pasted image 20241017223825.png",
+    "_attachments/Pasted image 20241017223754.png",
+    "_attachments/Pasted image 20241017223748.png",
+    "_attachments/Pasted image 20241017223521.png",
+    "_attachments/Pasted image 20241017223408.png",
+    "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
     "~ Memes.md",
     "~ Useful Pictures.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
-    "_attachments/Pasted image 20241015163952.png",
-    "_attachments/Pasted image 20241015163942.png",
-    "_attachments/Pasted image 20241015163854.png",
-    "_attachments/Pasted image 20241015162752.png",
-    "_attachments/Pasted image 20241015162618.png",
-    "_attachments/Pasted image 20241015162604.png",
-    "_attachments/Pasted image 20241015162556.png",
-    "_attachments/Pasted image 20241015162537.png",
     "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md",
     "Nemotron-4.md",
     "Yi.md",
@@ -302,7 +328,6 @@
     "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
     "OLMoE.md",
     "Molmo.md",
-    "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",

@@ -16,3 +16,5 @@ Abstract
 
 ![[Pasted image 20240513150845.png]]
 Above: A recent study found that several model families such as Phi and Mistral models show evidence of systematic overfitting on the GSM8k grade school math dataset. Note that one way of overfitting is through the creation of synthetic data which may inadvertently reflect use cases in the test data, rather than a broader set of model applications.
+
+![[Pasted image 20241017223754.png]]
