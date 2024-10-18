@@ -13,44 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Memes.md",
+                "file": "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Memes"
-            }
-          },
-          {
-            "id": "03e0c7d25f96e48a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Useful Pictures.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Useful Pictures"
+              "title": "Lecture 7"
             }
           },
           {
             "id": "12a6f231f12740d6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.4"
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "Lecture 01 Denny Zhou"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -132,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~ Memes.md",
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ~ Memes"
+              "title": "Backlinks for Lecture 01 Denny Zhou"
             }
           },
           {
@@ -151,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~ Memes.md",
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ~ Memes"
+              "title": "Outgoing links from Lecture 01 Denny Zhou"
             }
           },
           {
@@ -178,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~ Memes.md"
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ~ Memes"
+              "title": "Outline of Lecture 01 Denny Zhou"
             }
           },
           {
@@ -227,7 +216,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "~ Memes.md",
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +244,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of ~ Memes"
+              "title": "Graph of Lecture 01 Denny Zhou"
             }
           }
         ]
@@ -275,10 +264,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "01358515f2eb4ba3",
+  "active": "12a6f231f12740d6",
   "lastOpenFiles": [
-    "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+    "_attachments/Pasted image 20241017221802.png",
+    "_attachments/Pasted image 20241017221425.png",
+    "_attachments/Pasted image 20241017221242.png",
+    "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
+    "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+    "Courses/Berkeley Agents",
+    "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
     "~ Memes.md",
+    "~ Useful Pictures.md",
+    "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
     "_attachments/Pasted image 20241015163952.png",
     "_attachments/Pasted image 20241015163942.png",
     "_attachments/Pasted image 20241015163854.png",
@@ -287,8 +284,6 @@
     "_attachments/Pasted image 20241015162604.png",
     "_attachments/Pasted image 20241015162556.png",
     "_attachments/Pasted image 20241015162537.png",
-    "_attachments/Pasted image 20241015162506.png",
-    "_attachments/Pasted image 20241015160409.png",
     "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md",
     "Nemotron-4.md",
     "Yi.md",
@@ -308,11 +303,6 @@
     "OLMoE.md",
     "Molmo.md",
     "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md",
-    "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md",
-    "SWE-bench Multimodal.md",
-    "Quiet STaR.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 2.md",
-    "NVLM.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
@@ -321,7 +311,6 @@
     "Courses/UCSC/NLP201 NLP I",
     "Courses/UCSC",
     "Projects/Cohere Reasoning/Meetings",
-    "Projects/Cohere Reasoning",
-    "Projects"
+    "Projects/Cohere Reasoning"
   ]
 }
