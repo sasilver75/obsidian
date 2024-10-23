@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Perplexity",
+      "path": "Perplexity.md"
+    },
+    {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
       "basename": "05 October 17",
       "path": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Speculative Decoding",
       "path": "Speculative Decoding.md"
-    },
-    {
-      "basename": "Better and Faster Large Language Models via Multi-token Prediction",
-      "path": "Papers/General/Better and Faster Large Language Models via Multi-token Prediction.md"
-    },
-    {
-      "basename": "EAGLE",
-      "path": "EAGLE.md"
     }
   ],
   "omittedPaths": [],

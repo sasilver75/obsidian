@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
+                "file": "Perplexity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 October 17"
+              "title": "Perplexity"
             }
           },
           {
@@ -115,7 +115,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -224,12 +225,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3f256f079daca7ce",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "8a022290161ffefa",
@@ -291,8 +302,9 @@
   },
   "active": "12a6f231f12740d6",
   "lastOpenFiles": [
-    "GSM8K.md",
+    "Byte-Pair Encoding.md",
     "Projects/Cohere Reasoning/Meetings/05 October 17.md",
+    "GSM8K.md",
     "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
     "_attachments/Pasted image 20241017224421.png",
     "_attachments/Pasted image 20241017224335.png",
@@ -327,7 +339,6 @@
     "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
     "OLMoE.md",
-    "Molmo.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
