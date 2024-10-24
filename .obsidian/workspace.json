@@ -13,47 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
+                "file": "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 7"
-            }
-          },
-          {
-            "id": "12a6f231f12740d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Perplexity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Perplexity"
-            }
-          },
-          {
-            "id": "fca99871d064379b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GSM8K.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GSM8K"
+              "title": "Lecture 8 More on morphemes and stuff"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,8 +84,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,12 +203,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "23eeb95eb2bdd9af",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "8a022290161ffefa",
@@ -300,11 +278,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "12a6f231f12740d6",
+  "active": "e838d80ddd54f630",
   "lastOpenFiles": [
+    "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
+    "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
+    "GSM8K.md",
+    "Perplexity.md",
     "Byte-Pair Encoding.md",
     "Projects/Cohere Reasoning/Meetings/05 October 17.md",
-    "GSM8K.md",
     "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
     "_attachments/Pasted image 20241017224421.png",
     "_attachments/Pasted image 20241017224335.png",
@@ -318,7 +299,6 @@
     "_attachments/Pasted image 20241017223408.png",
     "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
     "Courses/Berkeley Agents",
-    "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
     "~ Memes.md",
     "~ Useful Pictures.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
@@ -337,8 +317,6 @@
     "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md",
     "o1.md",
     "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
-    "OLMoE.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
