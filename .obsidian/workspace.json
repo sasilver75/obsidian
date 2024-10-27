@@ -84,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -223,12 +224,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "73674f90568adbc4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       },
       {
         "id": "8a022290161ffefa",
@@ -288,7 +299,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e838d80ddd54f630",
+  "active": "73674f90568adbc4",
   "lastOpenFiles": [
     "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md",
