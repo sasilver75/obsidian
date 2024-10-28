@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Perplexity",
+      "path": "Perplexity.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
+    },
+    {
       "basename": "Lecture 9 Probability and Language Modeling I",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "GSM8K",
       "path": "GSM8K.md"
-    },
-    {
-      "basename": "Perplexity",
-      "path": "Perplexity.md"
     },
     {
       "basename": "Byte-Pair Encoding",
@@ -191,14 +199,6 @@
     {
       "basename": "ReAct",
       "path": "ReAct.md"
-    },
-    {
-      "basename": "01a Literature Review and Datasets",
-      "path": "Projects/Cohere Reasoning/Meetings/01a Literature Review and Datasets.md"
-    },
-    {
-      "basename": "01 Kickoff Meeting Friday, August 30 1030AM",
-      "path": "Projects/Cohere Reasoning/Meetings/01 Kickoff Meeting Friday, August 30 1030AM.md"
     }
   ],
   "omittedPaths": [],
