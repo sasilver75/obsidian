@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md",
+                "file": "Perplexity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 9 Probability and Language Modeling I"
+              "title": "Perplexity"
             }
           }
         ]
@@ -234,12 +234,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b484edc4ae97adff",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2b03bf3219e61539",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       },
       {
         "id": "8a022290161ffefa",
@@ -299,10 +319,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "73674f90568adbc4",
+  "active": "e838d80ddd54f630",
   "lastOpenFiles": [
-    "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
+    "Cross-Entropy.md",
+    "Kullback-Leibler Divergence.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md",
+    "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
     "GSM8K.md",
     "Perplexity.md",
@@ -336,8 +358,6 @@
     "Constrained Decoding.md",
     "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
     "~ Story.md",
-    "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md",
-    "o1.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
