@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Monte-Carlo",
+      "path": "Monte-Carlo.md"
+    },
+    {
       "basename": "Perplexity",
       "path": "Perplexity.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Nexus",
       "path": "Nexus.md"
-    },
-    {
-      "basename": "ReAct",
-      "path": "ReAct.md"
     }
   ],
   "omittedPaths": [],

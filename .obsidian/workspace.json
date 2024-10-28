@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Perplexity.md",
+                "file": "Monte-Carlo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Perplexity"
+              "title": "Monte-Carlo"
             }
           }
         ]
@@ -254,12 +254,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a45f891de62c42cf",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "324cb2f424e44e24",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       },
       {
         "id": "8a022290161ffefa",
@@ -321,13 +341,13 @@
   },
   "active": "e838d80ddd54f630",
   "lastOpenFiles": [
+    "Perplexity.md",
     "Cross-Entropy.md",
     "Kullback-Leibler Divergence.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
     "GSM8K.md",
-    "Perplexity.md",
     "Byte-Pair Encoding.md",
     "Projects/Cohere Reasoning/Meetings/05 October 17.md",
     "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
