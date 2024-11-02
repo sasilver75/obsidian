@@ -2,6 +2,9 @@ September 25, 2024
 [[Allen Institute|AI2]]
 [Molmo/Pixmo Blog Post](https://molmo.allenai.org/blog)
 
+References:
+- [Hannaneh Hajishirzi - OLMo: Accelerating the Science of Language Modeling (COLM)](https://youtu.be/qMTzor0j418?si=9Wrct3p5baAfq5Nx)
+
 Released as part of the [[Molmo]] release from the Allen Institute.
 - Contains less than 1M image-text pairs, in two broad categories:
 	1. Dense captioning data for multimodal pre-training
@@ -23,3 +26,15 @@ Blog Post Excerpts:
 > "We prompt the annotators to describe everything they see in great detail and include descriptions of spatial positioning and relationships. Empirically, we found that with this modality switching "trick" annotators provide far more detailed descriptions in less time, and for each description we collect an audio receipt (i.e., the annotator's recording) proving that a VLM was not used. In total, we collected detailed audio descriptions for 712k images that were sampled from 50 high-level topics."
 > "Pointing provides a natural explanation grounded in image pixels resulting in new and improved capabilities for Molmo. We believe that in the future pointing will be an important communication channel between VLMs and agents."
 
+
+
+
+-----
+
+# non-Paper figures
+
+![[Pasted image 20241101021048.png]]
+
+![[Pasted image 20241101021055.png]]
+
+![[Pasted image 20241101021104.png]]
