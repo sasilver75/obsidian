@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PixMo.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PixMo"
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "6d760f5bf3a6f23a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SmolLM2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SmolLM2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -294,12 +310,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "022a45968af0f866",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       },
       {
         "id": "8a022290161ffefa",
@@ -359,8 +385,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e838d80ddd54f630",
+  "active": "6d760f5bf3a6f23a",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "SmolLM2.md",
+    "PixMo.md",
     "_attachments/Pasted image 20241101021104.png",
     "_attachments/Pasted image 20241101021055.png",
     "_attachments/Pasted image 20241101021048.png",
@@ -384,7 +413,6 @@
     "_attachments/Pasted image 20241017223847.png",
     "_attachments/Pasted image 20241017223825.png",
     "_attachments/Pasted image 20241017223754.png",
-    "_attachments/Pasted image 20241017223748.png",
     "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
     "Courses/Berkeley Agents",
     "~ Memes.md",
@@ -395,9 +423,7 @@
     "Yi.md",
     "~ Personal Evals.md",
     "~.md",
-    "~ Vocabulary.md",
     "Zephyr.md",
-    "Entropy.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",

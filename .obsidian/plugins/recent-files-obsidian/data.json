@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SmolLM2",
+      "path": "SmolLM2.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "PixMo",
       "path": "PixMo.md"
     },
@@ -91,10 +99,6 @@
     {
       "basename": "~",
       "path": "~.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Zephyr",
@@ -195,10 +199,6 @@
     {
       "basename": "OpenHermes2.5 Dataset",
       "path": "OpenHermes2.5 Dataset.md"
-    },
-    {
-      "basename": "~ Worksheet",
-      "path": "~ Worksheet.md"
     }
   ],
   "omittedPaths": [],
