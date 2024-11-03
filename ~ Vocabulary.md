@@ -871,6 +871,7 @@
 - [[SimCLR]] (Simple Framework for Contrastive Learning for Visual Representations)
 - [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
 - [[SmolLM]]
+- [[SmolLM2]]
 - [[Stable Diffusion]]
 - [[StarCoder 2]]
 - [[StarCoder]]
