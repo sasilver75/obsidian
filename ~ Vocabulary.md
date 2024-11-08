@@ -488,6 +488,7 @@
 - [[Hierarchical Navigable Small Worlds]] (HNSW)
 - [[Hybrid Search]]
 - [[HyDE]] (Hypothetical Document Embeddings)
+- [[HyQE]] (Hypothetical Query Embeddings)
 - [[InPars]] (Inquisitive Parrots for Search)
 - [[Inverted File Index]] (IVF)
 - [[Inverted Index]]
