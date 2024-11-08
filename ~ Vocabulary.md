@@ -985,6 +985,7 @@
 - [[EQBench]]
 - [[FActScore]] (FActual Precision in Atomicity Score)
 - [[FoFo]] (Format Following)
+- [[FrontierMath]]
 - [[GAIA]] (General AI Assistants)
 - [[GLUE]] (General Language Understanding Evaluation)
 - [[GPQA]] (Google-Proof Q&A Benchmark)
