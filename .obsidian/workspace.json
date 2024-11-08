@@ -320,12 +320,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b6e4c373fae95300",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       },
       {
         "id": "8a022290161ffefa",
@@ -385,7 +395,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6d760f5bf3a6f23a",
+  "active": "b6e4c373fae95300",
   "lastOpenFiles": [
     "~ Vocabulary.md",
     "SmolLM2.md",
