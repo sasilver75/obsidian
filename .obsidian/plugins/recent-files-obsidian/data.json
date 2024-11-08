@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "SmolLM2",
-      "path": "SmolLM2.md"
+      "basename": "FrontierMath",
+      "path": "FrontierMath.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "GAIA",
+      "path": "GAIA.md"
+    },
+    {
+      "basename": "EQBench",
+      "path": "EQBench.md"
+    },
+    {
+      "basename": "SmolLM2",
+      "path": "SmolLM2.md"
     },
     {
       "basename": "PixMo",
@@ -187,18 +199,6 @@
     {
       "basename": "FoFo",
       "path": "FoFo.md"
-    },
-    {
-      "basename": "Hermes 3",
-      "path": "Hermes 3.md"
-    },
-    {
-      "basename": "Hermes 2",
-      "path": "Hermes 2.md"
-    },
-    {
-      "basename": "OpenHermes2.5 Dataset",
-      "path": "OpenHermes2.5 Dataset.md"
     }
   ],
   "omittedPaths": [],
