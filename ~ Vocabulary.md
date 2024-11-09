@@ -3,6 +3,7 @@
 - [[Apache Parquet]]
 
 
+
 # Probability/Statistics
 - [[Law of Large Numbers]]
 - [[Central Limit Theorem]]
@@ -16,7 +17,7 @@
 - [[Spearman Rank Correlation Coefficient]] (Spearman's Rho)
 - [[Kendall Rank Correlation Coefficient]] (Kendall's Tau)
 - [[Chi-Squared]]
-- [[Multicollinearity]]
+- [[Multicollinearity]]****
 - [[Degrees of Freedom]]
 - [[Hyperparameter]]
 - [[Loss Function]]
@@ -762,6 +763,7 @@
 - [[Flamingo]]
 - [[FLAN-T5]]
 - [[FLAN]] (Fine-tuned Language Net)
+- [[Fuyu]]
 - [[Gato]]
 - [[Gemeni]]
 - [[Gemma 2]]
@@ -791,6 +793,7 @@
 - [[Imagen]]
 - [[Inception]]
 - [[InstructGPT]]
+- [[Janus]]
 - [[JetMoE]]
 - [[Jurassic-1]]
 - [[Koala]]
@@ -850,6 +853,7 @@
 - [[Phi-2]]
 - [[Phi-3]]
 - [[Pile-T5]]
+- [[Pixtral]]
 - [[Prometheus 2]]
 - [[Prometheus]]
 - [[Qwen]]
