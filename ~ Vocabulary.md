@@ -3,6 +3,7 @@
 - [[Apache Parquet]]
 
 
+
 # Probability/Statistics
 - [[Law of Large Numbers]]
 - [[Central Limit Theorem]]
@@ -16,7 +17,7 @@
 - [[Spearman Rank Correlation Coefficient]] (Spearman's Rho)
 - [[Kendall Rank Correlation Coefficient]] (Kendall's Tau)
 - [[Chi-Squared]]
-- [[Multicollinearity]]
+- [[Multicollinearity]]****
 - [[Degrees of Freedom]]
 - [[Hyperparameter]]
 - [[Loss Function]]
@@ -488,6 +489,7 @@
 - [[Hierarchical Navigable Small Worlds]] (HNSW)
 - [[Hybrid Search]]
 - [[HyDE]] (Hypothetical Document Embeddings)
+- [[HyQE]] (Hypothetical Query Embeddings)
 - [[InPars]] (Inquisitive Parrots for Search)
 - [[Inverted File Index]] (IVF)
 - [[Inverted Index]]
@@ -761,6 +763,7 @@
 - [[Flamingo]]
 - [[FLAN-T5]]
 - [[FLAN]] (Fine-tuned Language Net)
+- [[Fuyu]]
 - [[Gato]]
 - [[Gemeni]]
 - [[Gemma 2]]
@@ -790,6 +793,7 @@
 - [[Imagen]]
 - [[Inception]]
 - [[InstructGPT]]
+- [[Janus]]
 - [[JetMoE]]
 - [[Jurassic-1]]
 - [[Koala]]
@@ -849,6 +853,7 @@
 - [[Phi-2]]
 - [[Phi-3]]
 - [[Pile-T5]]
+- [[Pixtral]]
 - [[Prometheus 2]]
 - [[Prometheus]]
 - [[Qwen]]
@@ -871,6 +876,7 @@
 - [[SimCLR]] (Simple Framework for Contrastive Learning for Visual Representations)
 - [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
 - [[SmolLM]]
+- [[SmolLM2]]
 - [[Stable Diffusion]]
 - [[StarCoder 2]]
 - [[StarCoder]]
@@ -984,6 +990,7 @@
 - [[EQBench]]
 - [[FActScore]] (FActual Precision in Atomicity Score)
 - [[FoFo]] (Format Following)
+- [[FrontierMath]]
 - [[GAIA]] (General AI Assistants)
 - [[GLUE]] (General Language Understanding Evaluation)
 - [[GPQA]] (Google-Proof Q&A Benchmark)

@@ -1,3 +1,7 @@
+References:
+- https://arxiv.org/pdf/2405.16359 
+
+
 Monte Carlo methods are a broad class of algorithms ==relying on *repeated random sampling* to obtain numerical results==.
 
 The underlying concept is to ==use randomness to solve problems that might be deterministic in principle==.

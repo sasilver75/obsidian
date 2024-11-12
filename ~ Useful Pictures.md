@@ -1,3 +1,5 @@
+![[Pasted image 20241109131403.png|300]]
+See: https://merge.moe/ 
 ![[Pasted image 20240827144504.png]]
 
 ![[Pasted image 20240805212817.png]]
