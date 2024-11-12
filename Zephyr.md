@@ -2,7 +2,7 @@ October 25, 2023
 [[HuggingFace]] H4 (Helpful, Honest, Harmless, Huggy) Team (including [[Nathan Lambert]])
 Paper: [Zephyr: Direct Distillation of LM Alignment](https://arxiv.org/abs/2310.16944)
 #zotero 
-Takeaway: Explores using a combination of [[Distillation]] and [[Direct Preference Optimization|DPO]] (which they call dDPO), where an *ensemble of strong models* give AI Feedback (AIF, rather than human feedback (HF)) regarding preference, and then authors use the resulting *dataset* (pairs of (highest_score_generation, random_lower_score_generation)) to align [[Mistral 7B]] using DPO. 
+Takeaway: Explores using a combination of [[Distillation]] and [[Direct Preference Optimization|DPO]] (which they call dDPO), where an *ensemble of strong models* give AI Feedback (AIF, rather than human feedback (HF)) regarding preference, and then authors use the resulting *dataset* (pairs of (highest_score_generation, random_lower_score_generation)) to align ==[[Mistral 7B]]== using DPO. 
 
 > "This paper is mostly about making DPO mainstream" - Nathan Lambert
 

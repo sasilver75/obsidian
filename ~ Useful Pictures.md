@@ -326,3 +326,5 @@ Above: Response to Dwarkesh's episode with Leopold Aschenbrenner
 From CMU Advanced NLP 2024 (7): Prompting
 
 
+![[Pasted image 20241022112908.png]]
+On the effect of preference tuning.

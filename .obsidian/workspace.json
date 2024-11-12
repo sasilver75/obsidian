@@ -70,13 +70,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "05 October 17"
+            }
+          },
+          {
+            "id": "dd66dc5dec9397ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Useful Pictures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "~ Useful Pictures"
+            }
+          },
+          {
+            "id": "94cb52002292d5cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Perplexity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Perplexity"
             }
           },
           {
@@ -93,9 +123,39 @@
               "icon": "lucide-file",
               "title": "~ Recommendations"
             }
+          },
+          {
+            "id": "7cbad37ee1ccf03c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "6915936823fd0dd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -126,12 +186,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "swarm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -157,7 +217,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +248,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks for 05 October 17"
             }
           },
           {
@@ -196,12 +257,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from conflict-files-obsidian-git"
+              "title": "Outgoing links from 05 October 17"
             }
           },
           {
@@ -223,10 +284,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of 05 October 17"
             }
           },
           {
@@ -255,12 +316,42 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "fe907e5461d6e006",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "5279ab2be5a8ea5f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3b12152e95e55cb2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -269,6 +360,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -277,54 +369,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc9f214c5b179693",
+  "active": "6915936823fd0dd1",
   "lastOpenFiles": [
+    "Perplexity.md",
     "conflict-files-obsidian-git.md",
+    "~ Recommendations.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20241022112908.png",
+    "Projects/Cohere Reasoning/Meetings/05 October 17.md",
+    "~ Story.md",
+    "~ Personal Evals.md",
+    "_attachments/Pasted image 20241017224421.png",
+    "_attachments/Pasted image 20241017224335.png",
+    "_attachments/Pasted image 20241017224153.png",
+    "_attachments/Pasted image 20241017223922.png",
+    "_attachments/Pasted image 20241017223847.png",
+    "_attachments/Pasted image 20241017223825.png",
+    "_attachments/Pasted image 20241017223754.png",
+    "_attachments/Pasted image 20241017223748.png",
+    "_attachments/Pasted image 20241017223521.png",
+    "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
+    "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
+    "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md",
+    "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+    "Courses/Berkeley Agents",
+    "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md",
+    "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md",
+    "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md",
+    "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
+    "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
+    "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md",
     "Nemotron-4.md",
     "~ Vocabulary.md",
     "Qwen 2.5.md",
-    "~ Recommendations.md",
     "HyDE.md",
     "o1.md",
-    "_attachments/Pasted image 20241008102035.png",
-    "_attachments/Pasted image 20241008102016.png",
-    "_attachments/Pasted image 20241008101825.png",
     "SWE-bench Multimodal.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
     "Berkeley Function-Calling Leaderboard.md",
-    "_attachments/Pasted image 20241006112825.png",
-    "_attachments/Pasted image 20241006112728.png",
-    "_attachments/Pasted image 20241006112716.png",
     "NVLM.md",
-    "Projects/Cohere Reasoning/Meetings/04 Meeting October 4.md",
-    "IFEval.md",
-    "FinePersonas.md",
-    "Language Model.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 2.md",
-    "Projects/Cohere Reasoning/Meetings/02 Meeting Friday, September 6 1030AM.md",
-    "FoFo.md",
-    "Hermes 3.md",
-    "Hermes 2.md",
-    "OpenHermes2.5 Dataset.md",
-    "~ Memes.md",
-    "RULER.md",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)/Chapter 1 - Introduction.md",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning/Chapter 1 - Introduction.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Lecture 0 Introduction.md",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
     "Courses/UCSC/NLP243 Deep Learning for NLP",
     "Courses/UCSC/NLP201 NLP I",
-    "_attachments/Pasted image 20240925121931.png",
-    "_attachments/Pasted image 20240925115953.png",
-    "_attachments/Pasted image 20240925115935.png",
     "Courses/UCSC/NLP243",
     "Courses/UCSC/NLP201",
     "Courses/UCSC/Bootcamp",
     "Courses/UCSC",
-    "_attachments/Pasted image 20240906105305.png",
-    "Projects/Cohere Reasoning/Meetings",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
