@@ -1,14 +1,100 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
+=======
+      "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
+      "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "NVLM",
+      "path": "NVLM.md"
+    },
+    {
+      "basename": "Fuyu",
+      "path": "Fuyu.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Untitled 6",
+      "path": "Untitled 6.md"
+    },
+    {
+      "basename": "HyQE",
+      "path": "HyQE.md"
+    },
+    {
+      "basename": "FrontierMath",
+      "path": "FrontierMath.md"
+    },
+    {
+      "basename": "GAIA",
+      "path": "GAIA.md"
+    },
+    {
+      "basename": "EQBench",
+      "path": "EQBench.md"
+    },
+    {
+      "basename": "SmolLM2",
+      "path": "SmolLM2.md"
+    },
+    {
+      "basename": "PixMo",
+      "path": "PixMo.md"
     },
     {
       "basename": "Perplexity",
       "path": "Perplexity.md"
     },
     {
+      "basename": "Long Short Term Memory",
+      "path": "Long Short Term Memory.md"
+    },
+    {
+      "basename": "Recurrent Neural Network",
+      "path": "Recurrent Neural Network.md"
+    },
+    {
+      "basename": "Monte-Carlo",
+      "path": "Monte-Carlo.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
+    },
+    {
+      "basename": "Lecture 9 Probability and Language Modeling I",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md"
+    },
+    {
+      "basename": "Lecture 8 More on morphemes and stuff",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md"
+    },
+    {
+      "basename": "Lecture 7",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 7.md"
+>>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
+    },
+    {
+      "basename": "Perplexity",
+      "path": "Perplexity.md"
+    },
+    {
+<<<<<<< HEAD
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
     },
@@ -19,26 +105,132 @@
     {
       "basename": "05 October 17",
       "path": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
+=======
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "05 October 17",
+      "path": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
+    },
+    {
+      "basename": "Lecture 01 Denny Zhou",
+      "path": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md"
+    },
+    {
+      "basename": "Building on Evaluation Quicksand (October 16, 2024) {Interconnects}",
+      "path": "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "~ Memes",
+      "path": "~ Memes.md"
+    },
+    {
+      "basename": "Lecture 5",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 5.md"
+    },
+    {
+      "basename": "Lecture 4 (Missed)",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md"
+>>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
     },
     {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
     },
     {
+<<<<<<< HEAD
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
       "basename": "Qwen 2.5",
       "path": "Qwen 2.5.md"
+=======
+      "basename": "Yi",
+      "path": "Yi.md"
+    },
+    {
+      "basename": "~ Personal Evals",
+      "path": "~ Personal Evals.md"
+    },
+    {
+      "basename": "~",
+      "path": "~.md"
+    },
+    {
+      "basename": "Zephyr",
+      "path": "Zephyr.md"
+>>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
     },
     {
       "basename": "HyDE",
       "path": "HyDE.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Berkeley Function-Calling Leaderboard",
       "path": "Berkeley Function-Calling Leaderboard.md"
+=======
+      "basename": "Verbosity Bias",
+      "path": "Verbosity Bias.md"
+    },
+    {
+      "basename": "Constrained Decoding",
+      "path": "Constrained Decoding.md"
+    },
+    {
+      "basename": "How scaling changes model behavior (Oct 09, 2024) {Interconnects}",
+      "path": "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "~ Story",
+      "path": "~ Story.md"
+    },
+    {
+      "basename": "A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}",
+      "path": "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "o1",
+      "path": "o1.md"
+    },
+    {
+      "basename": "Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}",
+      "path": "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "Lecture 3",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 3.md"
+    },
+    {
+      "basename": "OLMoE",
+      "path": "OLMoE.md"
+    },
+    {
+      "basename": "Molmo",
+      "path": "Molmo.md"
+    },
+    {
+      "basename": "LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}",
+      "path": "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}",
+      "path": "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md"
+    },
+    {
+      "basename": "SWE-bench Multimodal",
+      "path": "SWE-bench Multimodal.md"
+    },
+    {
+      "basename": "Quiet STaR",
+      "path": "Quiet STaR.md"
+    },
+    {
+      "basename": "Lecture 2",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 2.md"
+>>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
     }
   ],
   "omittedPaths": [],
