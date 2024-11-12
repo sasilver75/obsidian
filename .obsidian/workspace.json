@@ -1,29 +1,14 @@
 {
   "main": {
-    "id": "2c9a5dcd9984e3f2",
+    "id": "af92b0d6fc864e9d",
     "type": "split",
     "children": [
       {
-        "id": "2d9cc71d28f9be3e",
+        "id": "81c94f0ed1dd63f4",
         "type": "tabs",
         "children": [
           {
-            "id": "d4d6996ec23dad97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Qwen 2.5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Qwen 2.5"
-            }
-          },
-          {
-            "id": "9d14820e848d14a1",
+            "id": "1181c90ceba9eb75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,138 +23,81 @@
             }
           },
           {
-            "id": "8e6e1bfd974dee0b",
+            "id": "8f3df73085062124",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nemotron-4.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nemotron-4"
+              "title": "~ Vocabulary"
             }
           },
           {
-            "id": "c4fd56dc5acab7c8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "fc9f214c5b179693",
+            "id": "d3737d7db3bb9712",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
+                "file": "PaLI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 October 17"
+              "title": "PaLI"
             }
           },
           {
-            "id": "dd66dc5dec9397ce",
+            "id": "41f0f75963aa6a0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Useful Pictures"
+              "title": "~ Vocabulary"
             }
           },
           {
-            "id": "94cb52002292d5cd",
+            "id": "2c8d389dfb151cc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Perplexity.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Perplexity"
-            }
-          },
-          {
-            "id": "d26c2120b3a9de25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Recommendations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Recommendations"
-            }
-          },
-          {
-            "id": "7cbad37ee1ccf03c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "6915936823fd0dd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "~ Vocabulary"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7b96c59cc8f4246f",
+    "id": "7ddc3cde93ab8ac8",
     "type": "split",
     "children": [
       {
-        "id": "5cd2534a76913604",
+        "id": "b5ae910f8c59e3eb",
         "type": "tabs",
         "children": [
           {
-            "id": "0c7dc73e0b308c7b",
+            "id": "aba8fe69d46d9ccd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -181,12 +109,12 @@
             }
           },
           {
-            "id": "3bb0c947752adc10",
+            "id": "7060ea3bb41d02c2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "swarm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +126,7 @@
             }
           },
           {
-            "id": "43da419193ed00ea",
+            "id": "cc683cc0469bd198",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -208,7 +136,7 @@
             }
           },
           {
-            "id": "cce13dc7fc1930b6",
+            "id": "59090bd7d5886a5c",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -222,23 +150,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 675.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
-    "id": "9abd8563ca161ddd",
+    "id": "d6ed0fac49903124",
     "type": "split",
     "children": [
       {
-        "id": "436c5fa009390d5d",
+        "id": "b0d6eaf36c9ecdfc",
         "type": "tabs",
         "children": [
           {
-            "id": "3b3296e07c4a81f1",
+            "id": "a0d64735b08f4f8d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,25 +177,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 05 October 17"
+              "title": "Backlinks for Lecture 01 Denny Zhou"
             }
           },
           {
-            "id": "d100f4f87b20998e",
+            "id": "c5b391fdf962eb73",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md",
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 05 October 17"
+              "title": "Outgoing links from Lecture 01 Denny Zhou"
             }
           },
           {
-            "id": "9b829491545096c8",
+            "id": "b62c933e1cd73916",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -279,19 +208,19 @@
             }
           },
           {
-            "id": "590cf3356aef7ad1",
+            "id": "5b50f2312857cfa7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 05 October 17"
+              "title": "Outline of Lecture 01 Denny Zhou"
             }
           },
           {
-            "id": "8371c0eb93e8b958",
+            "id": "ace0e39b92066d5f",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -301,7 +230,7 @@
             }
           },
           {
-            "id": "a628f73c6d92caf6",
+            "id": "aa739906969f18f7",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -311,7 +240,7 @@
             }
           },
           {
-            "id": "969b6ea4b2032356",
+            "id": "01358515f2eb4ba3",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -321,7 +250,7 @@
             }
           },
           {
-            "id": "fe907e5461d6e006",
+            "id": "cfe271e863f50c04",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -331,7 +260,7 @@
             }
           },
           {
-            "id": "5279ab2be5a8ea5f",
+            "id": "3f256f079daca7ce",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -341,7 +270,147 @@
             }
           },
           {
-            "id": "3b12152e95e55cb2",
+            "id": "23eeb95eb2bdd9af",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "9ed71e27d43a58ed",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "73674f90568adbc4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b484edc4ae97adff",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2b03bf3219e61539",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a45f891de62c42cf",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "324cb2f424e44e24",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c86d980c3734c103",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3d170edbf7cf1f88",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "022a45968af0f866",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b6e4c373fae95300",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "45a96587282e3171",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8d456d26fda612e1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "9a93311f9d39f3ae",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d6daa016a4c5fd03",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -351,26 +420,77 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 23
+      },
+      {
+        "id": "8a022290161ffefa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27a2719527686342",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 5,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.2284147748503207,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Lecture 01 Denny Zhou"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 499.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6915936823fd0dd1",
+  "active": "d3737d7db3bb9712",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20241112123826.png",
+    "_attachments/Pasted image 20241112123815.png",
+    "~ Vocabulary.md",
+    "PaLI.md",
+    "SPARC.md",
+    "_attachments/Pasted image 20241112114827.png",
+    "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
+    "conflict-files-obsidian-git.md",
+    "_attachments/Pasted image 20241022112908.png",
     "_attachments/Pasted image 20241109140629.png",
     "_attachments/Pasted image 20241109140608.png",
     "_attachments/Pasted image 20241109140524.png",
@@ -378,46 +498,35 @@
     "_attachments/Pasted image 20241109135347.png",
     "_attachments/Pasted image 20241109132524.png",
     "_attachments/Pasted image 20241109132520.png",
-    "_attachments/Pasted image 20241109131735.png",
-    "_attachments/Pasted image 20241109131403.png",
-    "_attachments/Pasted image 20241109125616.png",
-    "_attachments/Pasted image 20241109124323.png",
-    "Untitled 6.md",
-    "SmolLM2.md",
-    "HyQE.md",
+    "NVLM.md",
     "Fuyu.md",
+    "~ Useful Pictures.md",
+    "Untitled 6.md",
+    "HyQE.md",
     "FrontierMath.md",
+    "GAIA.md",
+    "EQBench.md",
+    "SmolLM2.md",
+    "PixMo.md",
+    "Perplexity.md",
+    "Long Short Term Memory.md",
+    "Recurrent Neural Network.md",
+    "Monte-Carlo.md",
+    "Cross-Entropy.md",
+    "Kullback-Leibler Divergence.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
-    "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
-    "Perplexity.md",
-    "conflict-files-obsidian-git.md",
-    "~ Recommendations.md",
-    "~ Useful Pictures.md",
-    "Projects/Cohere Reasoning/Meetings/05 October 17.md",
-    "~ Story.md",
-    "~ Personal Evals.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 5.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md",
-    "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+    "GSM8K.md",
     "Courses/Berkeley Agents",
-    "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md",
-    "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md",
-    "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md",
-    "Articles/How scaling changes model behavior (Oct 09, 2024) {Interconnects}.md",
-    "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
-    "Articles/A post-training approach to AI regulation with Model Specs (Sep 9, 2024) {Interconnects}.md",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
+    "Courses/UCSC/Bootcamp",
     "Courses/UCSC/NLP243 Deep Learning for NLP",
     "Courses/UCSC/NLP201 NLP I",
-    "Courses/UCSC/NLP243",
-    "Courses/UCSC/NLP201",
-    "Courses/UCSC/Bootcamp",
     "Courses/UCSC",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
+    "Projects/Cohere Reasoning/Meetings",
+    "Projects/Cohere Reasoning"
   ]
 }

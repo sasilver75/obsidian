@@ -846,6 +846,7 @@
 - [[Orca]]
 - [[OWL-ViT]] (Vision Transformer for Open-World Localization)
 - [[OWLv2]] (Vision Transformer for Open-World Localization v2)
+- [[PaLI]]
 - [[PaliGemma]]
 - [[PaLM]] (Pathways Language Model)
 - [[Phi-1.5]]
@@ -877,6 +878,7 @@
 - [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
 - [[SmolLM]]
 - [[SmolLM2]]
+- [[SPARC]]
 - [[Stable Diffusion]]
 - [[StarCoder 2]]
 - [[StarCoder]]

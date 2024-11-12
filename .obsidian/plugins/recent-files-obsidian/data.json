@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-<<<<<<< HEAD
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-=======
-      "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
-      "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
+      "basename": "PaLI",
+      "path": "PaLI.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "SPARC",
+      "path": "SPARC.md"
+    },
+    {
+      "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
+      "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
     },
     {
       "basename": "NVLM",
@@ -87,25 +91,12 @@
     {
       "basename": "Lecture 7",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 7.md"
->>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
     },
     {
-      "basename": "Perplexity",
-      "path": "Perplexity.md"
+      "basename": "GSM8K",
+      "path": "GSM8K.md"
     },
     {
-<<<<<<< HEAD
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "05 October 17",
-      "path": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
-=======
       "basename": "Byte-Pair Encoding",
       "path": "Byte-Pair Encoding.md"
     },
@@ -132,21 +123,12 @@
     {
       "basename": "Lecture 4 (Missed)",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md"
->>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
     },
     {
       "basename": "Nemotron-4",
       "path": "Nemotron-4.md"
     },
     {
-<<<<<<< HEAD
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Qwen 2.5",
-      "path": "Qwen 2.5.md"
-=======
       "basename": "Yi",
       "path": "Yi.md"
     },
@@ -161,17 +143,12 @@
     {
       "basename": "Zephyr",
       "path": "Zephyr.md"
->>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
     },
     {
-      "basename": "HyDE",
-      "path": "HyDE.md"
+      "basename": "Entropy",
+      "path": "Entropy.md"
     },
     {
-<<<<<<< HEAD
-      "basename": "Berkeley Function-Calling Leaderboard",
-      "path": "Berkeley Function-Calling Leaderboard.md"
-=======
       "basename": "Verbosity Bias",
       "path": "Verbosity Bias.md"
     },
@@ -222,15 +199,6 @@
     {
       "basename": "SWE-bench Multimodal",
       "path": "SWE-bench Multimodal.md"
-    },
-    {
-      "basename": "Quiet STaR",
-      "path": "Quiet STaR.md"
-    },
-    {
-      "basename": "Lecture 2",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 2.md"
->>>>>>> c3ff96b8241698c6b2e5cadd3feebfcf3feb12fb
     }
   ],
   "omittedPaths": [],
