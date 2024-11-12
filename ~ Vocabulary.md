@@ -1031,6 +1031,7 @@
 - [[SEAL Leaderboard]]
 - [[SQuAD]] (Stanford Question Answering Dataset)
 - [[SQuAD v2]]
+- [[SugarCrepe]]
 - [[SuperGLUE]]
 - [[SWAG]] (Situations with Adversarial Generations)
 - [[SWE-bench]]

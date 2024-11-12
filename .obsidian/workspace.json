@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "CLIP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Vocabulary"
+              "title": "CLIP"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaLI.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PaLI"
+              "title": "~ Vocabulary"
             }
           },
           {
@@ -82,8 +82,7 @@
               "title": "~ Vocabulary"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -480,12 +479,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d3737d7db3bb9712",
+  "active": "1181c90ceba9eb75",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "SugarCrepe.md",
+    "CLIP.md",
+    "_attachments/Pasted image 20241112125844.png",
+    "PaLI.md",
     "_attachments/Pasted image 20241112123826.png",
     "_attachments/Pasted image 20241112123815.png",
-    "~ Vocabulary.md",
-    "PaLI.md",
     "SPARC.md",
     "_attachments/Pasted image 20241112114827.png",
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
@@ -496,8 +498,6 @@
     "_attachments/Pasted image 20241109140524.png",
     "_attachments/Pasted image 20241109140137.png",
     "_attachments/Pasted image 20241109135347.png",
-    "_attachments/Pasted image 20241109132524.png",
-    "_attachments/Pasted image 20241109132520.png",
     "NVLM.md",
     "Fuyu.md",
     "~ Useful Pictures.md",
@@ -517,7 +517,6 @@
     "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
-    "GSM8K.md",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",

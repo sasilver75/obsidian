@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "PaLI",
-      "path": "PaLI.md"
+      "basename": "CLIP",
+      "path": "CLIP.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "SugarCrepe",
+      "path": "SugarCrepe.md"
+    },
+    {
+      "basename": "PaLI",
+      "path": "PaLI.md"
     },
     {
       "basename": "SPARC",
@@ -191,14 +199,6 @@
     {
       "basename": "LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}",
       "path": "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md"
-    },
-    {
-      "basename": "OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}",
-      "path": "Articles/OLMoE and the hidden simplicity (Sep 04, 2024) {Interconnects}.md"
-    },
-    {
-      "basename": "SWE-bench Multimodal",
-      "path": "SWE-bench Multimodal.md"
     }
   ],
   "omittedPaths": [],

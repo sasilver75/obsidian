@@ -65,4 +65,5 @@ Above: More on robustness
 
 
 # Non-Paper Figures
-- 
+![[Pasted image 20241112125844.png]]
+[Link](https://youtu.be/zdejKiH06CU?si=n-pcOT9yzwSs9Y7y&t=577): We want to show some failure cases. The [[SugarCrepe]] benchmark is based on CoCo, has images with candidate captions. The main difference between the captions is that the object attribute changes. "One apple and several oranges" -> "several apples and orange"  (can the model count?), "A blue vase" -> "An orange vase" (Can the model see color?)
