@@ -747,7 +747,8 @@
 - [[DeBERTa]] (Decoding-enhanced BERT with Disentangled Attention)
 - [[DeepSeek-Coder]]
 - [[DeepSeek-Coder-V2]]
-- [[DeepSeekMath]]
+- [[DeepSeekMath
+- [[DeepSeek-VL]]
 - [[DenseNet]]
 - [[DINOv2]] (Distillation with No Labels v2)
 - [[DINO]] (Distillation with No Labels)
@@ -756,6 +757,7 @@
 - [[DistilRoBERTa]]
 - [[Dolly]]
 - [[EAGLE]]
+- [[Emu]]
 - [[ELECTRA]] (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
 - [[Falcon 2]]
 - [[Falcon]]
@@ -802,6 +804,7 @@
 - [[LaMDA]]
 - [[LaMini-LM]]
 - [[Latent Dirichlet Allocation]] (LDA)
+- [[LaVIT]]
 - [[LeNet]]
 - [[LIMA]] (Less is More for Alignment)
 - [[LLaMA 2]]
@@ -815,6 +818,7 @@
 - [[LLaVA]] (Large Language and Vision Assistant)
 - [[Longform]]
 - [[Magicoder]]
+- [[Make-A-Scene]]
 - [[Mamba]]
 - [[Medusa]]
 - [[Megatron]]
@@ -858,6 +862,7 @@
 - [[Prometheus 2]]
 - [[Prometheus]]
 - [[Qwen]]
+- [[Qwen VL]]
 - [[Qwen 1.5]]
 - [[Qwen 2]]
 - [[Qwen 2 Math]]
@@ -879,6 +884,7 @@
 - [[SmolLM]]
 - [[SmolLM2]]
 - [[SPARC]]
+- [[Sphinx]]
 - [[Stable Diffusion]]
 - [[StarCoder 2]]
 - [[StarCoder]]
@@ -891,6 +897,7 @@
 - [[Tulu 2]]
 - [[Tulu]]
 - [[U-Net]]
+- [[Unified-IO]]
 - [[ULMFiT]] (Universal Language Model Finetuning)
 - [[VGGNet]] (Visual Geometry Group Network)
 - [[Vicuna]]

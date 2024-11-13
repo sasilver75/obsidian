@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "CLIP",
-      "path": "CLIP.md"
+      "basename": "Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}",
+      "path": "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "CLIP",
+      "path": "CLIP.md"
+    },
+    {
+      "basename": "PaliGemma",
+      "path": "PaliGemma.md"
     },
     {
       "basename": "SugarCrepe",
@@ -191,14 +199,6 @@
     {
       "basename": "OLMoE",
       "path": "OLMoE.md"
-    },
-    {
-      "basename": "Molmo",
-      "path": "Molmo.md"
-    },
-    {
-      "basename": "LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}",
-      "path": "Articles/LLaMA 3.2 Vision and Molmo - Foundations for the multimodal open-source ecosystem (Sep 25, 2024) {Interconnects}.md"
     }
   ],
   "omittedPaths": [],
