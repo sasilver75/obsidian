@@ -8,67 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1181c90ceba9eb75",
+            "id": "b4d9f570a0aa4940",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLIP.md",
+                "file": "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLIP"
+              "title": "Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}"
             }
           },
           {
-            "id": "8f3df73085062124",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "d3737d7db3bb9712",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "41f0f75963aa6a0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "2c8d389dfb151cc8",
+            "id": "b2cceded970f7b34",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -414,12 +369,42 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "90c8108645195077",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7635a3645d025e80",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "264210c570ca0a75",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       },
       {
         "id": "8a022290161ffefa",
@@ -471,6 +456,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -479,11 +465,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1181c90ceba9eb75",
+  "active": "b4d9f570a0aa4940",
   "lastOpenFiles": [
     "~ Vocabulary.md",
-    "SugarCrepe.md",
+    "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md",
+    "_attachments/Pasted image 20241112165519.png",
+    "_attachments/Pasted image 20241112164612.png",
+    "_attachments/Pasted image 20241112145719.png",
+    "_attachments/Pasted image 20241112145706.png",
+    "_attachments/Pasted image 20241112145001.png",
+    "_attachments/Pasted image 20241112144134.png",
     "CLIP.md",
+    "PaliGemma.md",
+    "SugarCrepe.md",
     "_attachments/Pasted image 20241112125844.png",
     "PaLI.md",
     "_attachments/Pasted image 20241112123826.png",
@@ -492,12 +486,6 @@
     "_attachments/Pasted image 20241112114827.png",
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
     "conflict-files-obsidian-git.md",
-    "_attachments/Pasted image 20241022112908.png",
-    "_attachments/Pasted image 20241109140629.png",
-    "_attachments/Pasted image 20241109140608.png",
-    "_attachments/Pasted image 20241109140524.png",
-    "_attachments/Pasted image 20241109140137.png",
-    "_attachments/Pasted image 20241109135347.png",
     "NVLM.md",
     "Fuyu.md",
     "~ Useful Pictures.md",
@@ -514,9 +502,6 @@
     "Monte-Carlo.md",
     "Cross-Entropy.md",
     "Kullback-Leibler Divergence.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 7.md",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
