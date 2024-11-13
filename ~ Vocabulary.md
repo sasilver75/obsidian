@@ -1021,6 +1021,7 @@
 - [[MMLU-Pro]]
 - [[MMLU-Redux]]
 - [[MMLU]] (Massive Multitask Language Understanding)
+- [[MMVP]] (Multimodal Visual Patterns)
 - [[MNLI]] (Multi-Genre Natural Language Inference)
 - [[MT-Bench]] (Multi-Turn Benchmark)
 - [[MTEB]] (Massive Text Embedding Benchmark)

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "81c94f0ed1dd63f4",
+        "id": "a8f4f392bf729707",
         "type": "tabs",
         "children": [
           {
-            "id": "b4d9f570a0aa4940",
+            "id": "33dc872c459947bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "b2cceded970f7b34",
+            "id": "ef1481f13028a1be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -399,12 +399,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "f766e1ed9ed47adb",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 27
       },
       {
         "id": "8a022290161ffefa",
@@ -465,30 +475,33 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b4d9f570a0aa4940",
+  "active": "33dc872c459947bc",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20241112223250.png",
+    "_attachments/Pasted image 20241112222351.png",
+    "_attachments/Pasted image 20241112221531.png",
     "~ Vocabulary.md",
+    "MMVP.md",
     "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md",
+    "_attachments/Pasted image 20241112215535.png",
+    "_attachments/Pasted image 20241112213531.png",
+    "VLM.md",
+    "~ Useful Pictures.md",
+    "_attachments/Pasted image 20241112212005.png",
     "_attachments/Pasted image 20241112165519.png",
     "_attachments/Pasted image 20241112164612.png",
     "_attachments/Pasted image 20241112145719.png",
     "_attachments/Pasted image 20241112145706.png",
     "_attachments/Pasted image 20241112145001.png",
-    "_attachments/Pasted image 20241112144134.png",
     "CLIP.md",
     "PaliGemma.md",
     "SugarCrepe.md",
-    "_attachments/Pasted image 20241112125844.png",
     "PaLI.md",
-    "_attachments/Pasted image 20241112123826.png",
-    "_attachments/Pasted image 20241112123815.png",
     "SPARC.md",
-    "_attachments/Pasted image 20241112114827.png",
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
     "conflict-files-obsidian-git.md",
     "NVLM.md",
     "Fuyu.md",
-    "~ Useful Pictures.md",
     "Untitled 6.md",
     "HyQE.md",
     "FrontierMath.md",
@@ -500,8 +513,6 @@
     "Long Short Term Memory.md",
     "Recurrent Neural Network.md",
     "Monte-Carlo.md",
-    "Cross-Entropy.md",
-    "Kullback-Leibler Divergence.md",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
