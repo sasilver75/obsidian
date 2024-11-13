@@ -1,0 +1,4 @@
+---
+aliases:
+  - Multimodal Visual Patterns
+---

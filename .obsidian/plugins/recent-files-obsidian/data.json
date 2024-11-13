@@ -9,6 +9,18 @@
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "MMVP",
+      "path": "MMVP.md"
+    },
+    {
+      "basename": "VLM",
+      "path": "VLM.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
       "basename": "CLIP",
       "path": "CLIP.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "Fuyu",
       "path": "Fuyu.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Untitled 6",
@@ -191,14 +199,6 @@
     {
       "basename": "Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}",
       "path": "Articles/Reverse Engineering OpenAI's o1 (September 16, 2024) {Interconnects}.md"
-    },
-    {
-      "basename": "Lecture 3",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 3.md"
-    },
-    {
-      "basename": "OLMoE",
-      "path": "OLMoE.md"
     }
   ],
   "omittedPaths": [],

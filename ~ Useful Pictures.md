@@ -330,3 +330,6 @@ From CMU Advanced NLP 2024 (7): Prompting
 
 ![[Pasted image 20241022112908.png]]
 On the effect of preference tuning.
+
+![[Pasted image 20241112212005.png]]
+MosaicML sword
