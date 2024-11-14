@@ -582,6 +582,7 @@
 - [[Least-to-Most Prompting]]
 - [[Plan-and-Solve Prompting]]
 - [[Masked Language Model]]
+- [[Masked Image Model]]
 - [[U-Net]]
 - [[Matryoshka Representation Learning]]
 - [[Out-of-Vocabulary Token]] / "UNK"
@@ -732,6 +733,7 @@
 - [[Chinchilla]]
 - [[Claude 3]]
 - [[CLIP]] (Contrastive Language-Image Pretraining)
+- [[CM3Leon]]
 - [[Codex]]
 - [[CogVLM]]
 - [[Command R+]]
@@ -765,6 +767,7 @@
 - [[Flamingo]]
 - [[FLAN-T5]]
 - [[FLAN]] (Fine-tuned Language Net)
+- [[F-LAVA]] (Foundational Language and Vision Alignment)
 - [[Fuyu]]
 - [[Gato]]
 - [[Gemeni]]
@@ -816,16 +819,19 @@
 - [[LLaMA Guard 3]]
 - [[LLaMA]]
 - [[LLaVA]] (Large Language and Vision Assistant)
+- [[Llip]] (Latent Language Image Pretraining)
 - [[Longform]]
 - [[Magicoder]]
 - [[Make-A-Scene]]
 - [[Mamba]]
+- [[MaskVLM]]
 - [[Medusa]]
 - [[Megatron]]
 - [[MemGPT]]
 - [[MetaMath]]
 - [[Mind's Eye]]
 - [[Minerva]]
+- [[MiniGPT-4]]
 - [[Mistral 7B]]
 - [[Mixtral 8x22B]]
 - [[Mixtral 8x7B]]

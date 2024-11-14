@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Masked Image Model",
+      "path": "Masked Image Model.md"
+    },
+    {
+      "basename": "Llip",
+      "path": "Llip.md"
+    },
+    {
+      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
+      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
+    },
+    {
+      "basename": "Sparrow",
+      "path": "Sparrow.md"
+    },
+    {
       "basename": "An Introduction to Vision-Language Modeling",
       "path": "Papers/VLMs/An Introduction to Vision-Language Modeling.md"
+    },
+    {
+      "basename": "FLAVA",
+      "path": "FLAVA.md"
     },
     {
       "basename": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey",
@@ -47,10 +71,6 @@
     {
       "basename": "Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}",
       "path": "Articles/Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Why I build open language models (October 30) {Nathan Lambert}",
@@ -179,26 +199,6 @@
     {
       "basename": "05 October 17",
       "path": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
-    },
-    {
-      "basename": "Lecture 01 Denny Zhou",
-      "path": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md"
-    },
-    {
-      "basename": "Building on Evaluation Quicksand (October 16, 2024) {Interconnects}",
-      "path": "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md"
-    },
-    {
-      "basename": "~ Memes",
-      "path": "~ Memes.md"
-    },
-    {
-      "basename": "Lecture 5",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 5.md"
-    },
-    {
-      "basename": "Lecture 4 (Missed)",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md"
     }
   ],
   "omittedPaths": [],
