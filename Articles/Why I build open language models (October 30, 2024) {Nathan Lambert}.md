@@ -26,7 +26,7 @@ The opportunities afforded to individuals are some of the most straightforward p
 
  We don’t have an evaluation for an important part of the alignment process — let’s build a benchmark. All the closed labs are approaching RLHF differently than academics — let’s just do what the closed labs are doing and share it. What is “next” after that is to be determined in 2025.
 
-If this is you, please get in touch whether or not Allen Institute is the exact open place you end up at. It’s been very fun and I’m just going to keep going. I have some new stuff to share very soon.
+If this is you, please get in touch whether or not Allen Institute is the exact open place you end up at. It’s been very fun and I’m just going to keep going. I have some new stuff to share very soon.****
 
 
 
