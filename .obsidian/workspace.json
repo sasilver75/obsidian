@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tim Dettmers.md",
+                "file": "Papers/VLMs/An Introduction to Vision-Language Modeling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tim Dettmers"
+              "title": "An Introduction to Vision-Language Modeling"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -424,12 +423,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "957ce97fe37faa55",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8d705a234f161d58",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 32
       },
       {
         "id": "8a022290161ffefa",
@@ -490,8 +509,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "75b935c817c64ef3",
+  "active": "ef1481f13028a1be",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20241114014408.png",
+    "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
+    "Papers/VLMs/An Introduction to Vision-Language Modeling.md",
+    "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md",
+    "VLM.md",
+    "Papers/VLMs",
+    "Tim Dettmers.md",
     "Weights and Biases.md",
     "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
     "National AI Research Resource.md",
@@ -513,7 +539,6 @@
     "MMVP.md",
     "_attachments/Pasted image 20241112215535.png",
     "_attachments/Pasted image 20241112213531.png",
-    "VLM.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20241112212005.png",
     "_attachments/Pasted image 20241112165519.png",
@@ -524,11 +549,6 @@
     "SPARC.md",
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
     "conflict-files-obsidian-git.md",
-    "NVLM.md",
-    "Fuyu.md",
-    "Untitled 6.md",
-    "HyQE.md",
-    "FrontierMath.md",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
@@ -536,7 +556,6 @@
     "Courses/UCSC/Bootcamp",
     "Courses/UCSC/NLP243 Deep Learning for NLP",
     "Courses/UCSC/NLP201 NLP I",
-    "Courses/UCSC",
-    "Projects/Cohere Reasoning/Meetings"
+    "Courses/UCSC"
   ]
 }
