@@ -1262,4 +1262,5 @@
 
 # Policy
 - [[SB-1047]]
+- [[National AI Research Resource]] (NAIRR)
 
