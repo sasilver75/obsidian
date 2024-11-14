@@ -13,28 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md",
+                "file": "Tim Dettmers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why I build open language models (October 30, 2024) {Nathan Lambert}"
-            }
-          },
-          {
-            "id": "b1873df9c1991b8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "National AI Research Resource.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "National AI Research Resource"
+              "title": "Tim Dettmers"
             }
           }
         ]
@@ -99,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -428,12 +414,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "75b935c817c64ef3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 30
       },
       {
         "id": "8a022290161ffefa",
@@ -494,13 +490,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ef1481f13028a1be",
+  "active": "75b935c817c64ef3",
   "lastOpenFiles": [
-    "Articles/Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}.md",
+    "Weights and Biases.md",
+    "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
+    "National AI Research Resource.md",
+    "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
+    "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
     "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md",
+    "Articles/Untitled",
+    "Articles/Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}.md",
     "_attachments/Pasted image 20241113202106.png",
     "~ Vocabulary.md",
-    "National AI Research Resource.md",
     "Articles/Why I build open language models (October 30) {Nathan Lambert}.md",
     "Articles/The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}.md",
     "_attachments/Pasted image 20241113195616.png",
@@ -528,10 +529,6 @@
     "Untitled 6.md",
     "HyQE.md",
     "FrontierMath.md",
-    "GAIA.md",
-    "EQBench.md",
-    "SmolLM2.md",
-    "PixMo.md",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
@@ -540,7 +537,6 @@
     "Courses/UCSC/NLP243 Deep Learning for NLP",
     "Courses/UCSC/NLP201 NLP I",
     "Courses/UCSC",
-    "Projects/Cohere Reasoning/Meetings",
-    "Projects/Cohere Reasoning"
+    "Projects/Cohere Reasoning/Meetings"
   ]
 }

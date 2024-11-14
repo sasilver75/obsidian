@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Tim Dettmers",
+      "path": "Tim Dettmers.md"
+    },
+    {
+      "basename": "Weights and Biases",
+      "path": "Weights and Biases.md"
+    },
+    {
+      "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
+      "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "National AI Research Resource",
+      "path": "National AI Research Resource.md"
+    },
+    {
+      "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
+      "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
+      "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
+    },
+    {
       "basename": "Why I build open language models (October 30, 2024) {Nathan Lambert}",
       "path": "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "National AI Research Resource",
-      "path": "National AI Research Resource.md"
     },
     {
       "basename": "Why I build open language models (October 30) {Nathan Lambert}",
@@ -179,26 +199,6 @@
     {
       "basename": "~ Personal Evals",
       "path": "~ Personal Evals.md"
-    },
-    {
-      "basename": "~",
-      "path": "~.md"
-    },
-    {
-      "basename": "Zephyr",
-      "path": "Zephyr.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
-      "basename": "Verbosity Bias",
-      "path": "Verbosity Bias.md"
-    },
-    {
-      "basename": "Constrained Decoding",
-      "path": "Constrained Decoding.md"
     }
   ],
   "omittedPaths": [],
