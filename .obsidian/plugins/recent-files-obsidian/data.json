@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "An Introduction to Vision-Language Modeling",
+      "path": "Papers/VLMs/An Introduction to Vision-Language Modeling.md"
+    },
+    {
+      "basename": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey",
+      "path": "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md"
+    },
+    {
+      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
+      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
+    },
+    {
+      "basename": "VLM",
+      "path": "VLM.md"
+    },
+    {
       "basename": "Tim Dettmers",
       "path": "Tim Dettmers.md"
     },
@@ -51,10 +67,6 @@
     {
       "basename": "MMVP",
       "path": "MMVP.md"
-    },
-    {
-      "basename": "VLM",
-      "path": "VLM.md"
     },
     {
       "basename": "~ Useful Pictures",
@@ -187,18 +199,6 @@
     {
       "basename": "Lecture 4 (Missed)",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 4 (Missed).md"
-    },
-    {
-      "basename": "Nemotron-4",
-      "path": "Nemotron-4.md"
-    },
-    {
-      "basename": "Yi",
-      "path": "Yi.md"
-    },
-    {
-      "basename": "~ Personal Evals",
-      "path": "~ Personal Evals.md"
     }
   ],
   "omittedPaths": [],
