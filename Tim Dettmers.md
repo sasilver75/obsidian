@@ -9,6 +9,8 @@ References:
 
 "Dyslexics like me are known for having bad working memory. I'm in the bottom 5% for working memory related to symbols..."
 
+"Quantization is kind of solved. We need to move on to different problems (is an 8bit-16bit person)"
+
 
 ![[Pasted image 20240519005803.png|150]]
 
