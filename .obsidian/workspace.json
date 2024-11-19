@@ -80,8 +80,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -162,8 +162,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -462,8 +462,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -524,8 +524,7 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "2327705687d625da",
