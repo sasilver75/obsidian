@@ -21,8 +21,39 @@
               "icon": "lucide-file",
               "title": "LLaVA"
             }
+          },
+          {
+            "id": "f72cdb433a16b7f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}"
+            }
+          },
+          {
+            "id": "06c9f2dd325ace5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Qwen 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Qwen 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -472,12 +504,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7fea6957b7a1e9a9",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 36
       },
       {
         "id": "8a022290161ffefa",
@@ -538,13 +580,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2327705687d625da",
+  "active": "f72cdb433a16b7f3",
   "lastOpenFiles": [
+    "Qwen 2.md",
+    "~ Vocabulary.md",
+    "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
+    "_attachments/Pasted image 20241120183212.png",
+    "_attachments/Pasted image 20241120182814.png",
+    "_attachments/Pasted image 20241120182333.png",
+    "Articles/New LLM Pre-training and Post-training Par.md",
     "Contrastive Captioner.md",
     "Common Objects in Context.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 8.md",
     "Law of Large Numbers.md",
-    "~ Vocabulary.md",
     "Masked Image Model.md",
     "Llip.md",
     "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
@@ -559,7 +607,6 @@
     "Papers/VLMs",
     "Tim Dettmers.md",
     "Weights and Biases.md",
-    "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
     "National AI Research Resource.md",
     "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
     "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
@@ -571,13 +618,8 @@
     "Articles/The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}.md",
     "_attachments/Pasted image 20241113195616.png",
     "_attachments/Pasted image 20241113194913.png",
-    "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md",
     "_attachments/Pasted image 20241112223250.png",
     "_attachments/Pasted image 20241112222351.png",
-    "_attachments/Pasted image 20241112221531.png",
-    "MMVP.md",
-    "_attachments/Pasted image 20241112215535.png",
-    "_attachments/Pasted image 20241112213531.png",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",

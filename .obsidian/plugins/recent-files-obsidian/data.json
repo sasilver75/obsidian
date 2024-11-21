@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
+      "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "Qwen 2",
+      "path": "Qwen 2.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "LLaVA",
       "path": "LLaVA.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "Law of Large Numbers",
       "path": "Law of Large Numbers.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Masked Image Model",
@@ -67,10 +75,6 @@
     {
       "basename": "Weights and Biases",
       "path": "Weights and Biases.md"
-    },
-    {
-      "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
-      "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
     },
     {
       "basename": "National AI Research Resource",
@@ -195,10 +199,6 @@
     {
       "basename": "Kullback-Leibler Divergence",
       "path": "Kullback-Leibler Divergence.md"
-    },
-    {
-      "basename": "Lecture 9 Probability and Language Modeling I",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md"
     }
   ],
   "omittedPaths": [],

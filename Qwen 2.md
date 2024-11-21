@@ -3,6 +3,9 @@ Blog: [Alibaba Cloud Launches Tongyi Qianwen 2.0](https://www.alibabacloud.com/e
 HuggingFace: [Qwen2](https://huggingface.co/docs/transformers/en/model_doc/qwen2)
 See also: [[Qwen]]
 
+References:
+- [[New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}]]
+
 A second incarnation of the popular Qwen series of models from Alibaba, this time coming in (???) sizes.
 Incorporates [[SwiGLU]], [[Grouped Query Attention]], [[Sliding Window Attention]], and more.
 
