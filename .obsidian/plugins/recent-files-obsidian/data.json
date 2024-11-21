@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "LLaVA",
+      "path": "LLaVA.md"
+    },
+    {
+      "basename": "Contrastive Captioner",
+      "path": "Contrastive Captioner.md"
+    },
+    {
+      "basename": "Common Objects in Context",
+      "path": "Common Objects in Context.md"
+    },
+    {
       "basename": "Lecture 8",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 8.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Lecture 9 Probability and Language Modeling I",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md"
-    },
-    {
-      "basename": "Lecture 8 More on morphemes and stuff",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md"
-    },
-    {
-      "basename": "Lecture 7",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 7.md"
-    },
-    {
-      "basename": "GSM8K",
-      "path": "GSM8K.md"
     }
   ],
   "omittedPaths": [],
