@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "LLaVA",
+      "path": "LLaVA.md"
+    },
+    {
       "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
       "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
     },
@@ -13,8 +17,8 @@
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "LLaVA",
-      "path": "LLaVA.md"
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
     },
     {
       "basename": "Contrastive Captioner",
@@ -195,10 +199,6 @@
     {
       "basename": "Cross-Entropy",
       "path": "Cross-Entropy.md"
-    },
-    {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
     }
   ],
   "omittedPaths": [],

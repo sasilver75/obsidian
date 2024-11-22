@@ -245,6 +245,7 @@
 - [[Percentage-of-Zero-Based Pruning]]
 - [[Regression-Based Pruning]]
 - [[Masking]]
+- [[Superficial Alignment Hypothesis]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
@@ -529,6 +530,7 @@
 - [[TF-IDF]]
 - [[Tree of Clarification]]
 - [[UPR]] (Unsupervised Passage Re-Ranker)
+
 
 
 # Natural Language Processing Concepts
@@ -901,6 +903,7 @@
 - [[Toolformer]]
 - [[Transformer-XL]]
 - [[Tulu 2]]
+- [[Tulu 3]]
 - [[Tulu]]
 - [[U-Net]]
 - [[Unified-IO]]
