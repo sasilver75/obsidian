@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
+    },
+    {
       "basename": "Contriever",
       "path": "Contriever.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Monte-Carlo",
       "path": "Monte-Carlo.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
     }
   ],
   "omittedPaths": [],
