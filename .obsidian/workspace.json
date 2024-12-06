@@ -11,10 +11,15 @@
             "id": "0bc50b7a30d770e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Contriever.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Contriever"
             }
           }
         ]
@@ -489,12 +494,42 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "28ecd0b4f4a00875",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "33b1ca02afc03b75",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0603b41795cb20fb",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 37
+        "currentTab": 40
       },
       {
         "id": "8a022290161ffefa",
@@ -555,10 +590,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0bc50b7a30d770e7",
+  "active": "0603b41795cb20fb",
   "lastOpenFiles": [
-    "LLaVA.md",
     "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
+    "LLaVA.md",
     "Qwen 2.md",
     "~ Vocabulary.md",
     "conflict-files-obsidian-git.md",
