@@ -816,6 +816,7 @@
 - [[LLaMA 3]]
 - [[LLaMA 3.1]]
 - [[LLaMA 3.2]]
+- [[LLaMA 3.3]]
 - [[LLaMA Guard]]
 - [[LLAMA Guard 2]]
 - [[LLaMA Guard 3]]
@@ -860,6 +861,7 @@
 - [[OWLv2]] (Vision Transformer for Open-World Localization v2)
 - [[PaLI]]
 - [[PaliGemma]]
+- [[PaliGemma 2]]
 - [[PaLM]] (Pathways Language Model)
 - [[Phi-1.5]]
 - [[Phi-1]]
