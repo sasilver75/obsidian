@@ -878,6 +878,7 @@
 - [[Qwen 2 Math]]
 - [[Qwen 2 VL]]
 - [[Qwen 2.5]] (incl. Coder and Math)
+- [[QwQ]]
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
@@ -1032,6 +1033,7 @@
 - [[MMLU-Pro]]
 - [[MMLU-Redux]]
 - [[MMLU]] (Massive Multitask Language Understanding)
+- [[GlobalMMLU]]
 - [[MMVP]] (Multimodal Visual Patterns)
 - [[MNLI]] (Multi-Genre Natural Language Inference)
 - [[MT-Bench]] (Multi-Turn Benchmark)
@@ -1093,6 +1095,7 @@
 - [[FinePersonas]]
 - [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[FineWeb]] (15T high-quality dataset from HF)
+- [[FineWeb2]]
 - [[FLAN v2]] (The FLAN Collection)
 - [[Helpful and Harmless]] (HH)
 - [[HelpSteer2]]
