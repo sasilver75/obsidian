@@ -570,12 +570,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "289c778c560c7019",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 43
+        "currentTab": 44
       },
       {
         "id": "8a022290161ffefa",
@@ -636,7 +646,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1adc6877e248f560",
+  "active": "289c778c560c7019",
   "lastOpenFiles": [
     "Tulu 3.md",
     "~ Vocabulary.md",
