@@ -800,6 +800,8 @@
 - [[Imagen]]
 - [[Inception]]
 - [[InstructGPT]]
+- [[InternVL 1.5]]
+- [[InternVL 2.5]]
 - [[Janus]]
 - [[JetMoE]]
 - [[Jurassic-1]]
