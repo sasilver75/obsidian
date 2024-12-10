@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Recommendations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Vocabulary"
+              "title": "~ Recommendations"
             }
           }
         ],
@@ -646,10 +646,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "289c778c560c7019",
+  "active": "1adc6877e248f560",
   "lastOpenFiles": [
-    "Tulu 3.md",
     "~ Vocabulary.md",
+    "Tulu 3.md",
     "Speculative Decoding.md",
     "Contriever.md",
     "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
