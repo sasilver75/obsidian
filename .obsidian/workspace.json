@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Recommendations"
+              "title": "~ Vocabulary"
             }
           }
         ],
@@ -580,12 +580,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "03afba8db1ba1617",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 44
+        "currentTab": 45
       },
       {
         "id": "8a022290161ffefa",
@@ -648,6 +658,7 @@
   },
   "active": "1adc6877e248f560",
   "lastOpenFiles": [
+    "~ Recommendations.md",
     "~ Vocabulary.md",
     "Tulu 3.md",
     "Speculative Decoding.md",
@@ -679,7 +690,6 @@
     "Tim Dettmers.md",
     "Weights and Biases.md",
     "National AI Research Resource.md",
-    "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
     "Articles/Untitled",
     "_attachments/Pasted image 20241113202106.png",
     "_attachments/Pasted image 20241113195616.png",
