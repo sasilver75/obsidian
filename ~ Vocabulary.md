@@ -1134,6 +1134,7 @@
 - [[ShareGPT]]
 - [[SlimOrca]]
 - [[SlimPajama]]
+- [[Smoltalk]]
 - [[Stanford Human Preferences]] (SHP)
 - [[Stanford Natural Language Inference]] (SNLI)
 - [[Super-NaturalInstructions]]
