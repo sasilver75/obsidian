@@ -1,5 +1,7 @@
 References:
 - [Hitchhiker's Guide to Reasoning](https://youtu.be/S5l5OvJ01ws?si=N93dg0JJ1_21zjVI)
+- [Charlie Snell, UC Berkeley. Title: Scaling LLM Test-Time Compute](https://youtu.be/OXwGp9YeuBg?si=doUX1k5cphKBVWiu)
+
 
 The process of drawing ==conclusions== by generating ==inferences== from ==observations.==
 
