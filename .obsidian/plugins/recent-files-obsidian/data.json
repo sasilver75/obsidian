@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "LiveCodeBench",
+      "path": "LiveCodeBench.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Self-Taught Reasoner",
+      "path": "Self-Taught Reasoner.md"
+    },
+    {
+      "basename": "Stream of Search",
+      "path": "Stream of Search.md"
+    },
+    {
       "basename": "Tulu 3",
       "path": "Tulu 3.md"
     },
     {
       "basename": "Smoltalk",
       "path": "Smoltalk.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "~ Recommendations",
@@ -187,18 +199,6 @@
     {
       "basename": "EQBench",
       "path": "EQBench.md"
-    },
-    {
-      "basename": "SmolLM2",
-      "path": "SmolLM2.md"
-    },
-    {
-      "basename": "PixMo",
-      "path": "PixMo.md"
-    },
-    {
-      "basename": "Perplexity",
-      "path": "Perplexity.md"
     }
   ],
   "omittedPaths": [],
