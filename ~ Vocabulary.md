@@ -530,6 +530,7 @@
 - [[TF-IDF]]
 - [[Tree of Clarification]]
 - [[UPR]] (Unsupervised Passage Re-Ranker)
+- [[Stream of Search]]
 
 
 
@@ -1041,6 +1042,7 @@
 - [[MT-Bench]] (Multi-Turn Benchmark)
 - [[MTEB]] (Massive Text Embedding Benchmark)
 - [[MuSR]] (Multistep Soft Reasoning)
+- [[LiveCodeBench]]
 - [[Open LLM Leaderboard V2]]
 - [[Open LLM Leaderboard]]
 - [[Open VLM Leaderboard]]
