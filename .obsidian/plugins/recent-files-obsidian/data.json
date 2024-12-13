@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "LiveCodeBench",
-      "path": "LiveCodeBench.md"
+      "basename": "Reasoning",
+      "path": "Reasoning.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "LiveCodeBench",
+      "path": "LiveCodeBench.md"
     },
     {
       "basename": "Self-Taught Reasoner",
@@ -195,10 +199,6 @@
     {
       "basename": "GAIA",
       "path": "GAIA.md"
-    },
-    {
-      "basename": "EQBench",
-      "path": "EQBench.md"
     }
   ],
   "omittedPaths": [],

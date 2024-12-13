@@ -1,3 +1,6 @@
+# General
+- [[Reasoning]]
+
 # Data Engineering
 - [[Apache Arrow]]
 - [[Apache Parquet]]

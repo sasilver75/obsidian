@@ -73,13 +73,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiveCodeBench.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LiveCodeBench"
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "276547b1e92a6cad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reasoning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reasoning"
             }
           },
           {
@@ -98,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -736,9 +751,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c203542221348477",
+  "active": "276547b1e92a6cad",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20241212215654.png",
+    "_attachments/Pasted image 20241212204617.png",
+    "_attachments/Pasted image 20241212204541.png",
+    "_attachments/Pasted image 20241212204522.png",
     "~ Vocabulary.md",
+    "Reasoning.md",
     "LiveCodeBench.md",
     "Self-Taught Reasoner.md",
     "Stream of Search.md",
@@ -768,14 +788,9 @@
     "FLAVA.md",
     "_attachments/Pasted image 20241114110236.png",
     "_attachments/Pasted image 20241114014408.png",
-    "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
-    "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "_attachments/Pasted image 20241113202106.png",
-    "_attachments/Pasted image 20241113195616.png",
-    "_attachments/Pasted image 20241113194913.png",
-    "_attachments/Pasted image 20241112223250.png",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
