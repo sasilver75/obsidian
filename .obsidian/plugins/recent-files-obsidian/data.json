@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "VLM",
+      "path": "VLM.md"
+    },
+    {
       "basename": "Reasoning",
       "path": "Reasoning.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
       "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
-    },
-    {
-      "basename": "VLM",
-      "path": "VLM.md"
     },
     {
       "basename": "Tim Dettmers",
