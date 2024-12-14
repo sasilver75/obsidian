@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VLM.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VLM"
+              "title": "~ Vocabulary"
             }
           },
           {
@@ -763,6 +763,7 @@
   },
   "active": "276547b1e92a6cad",
   "lastOpenFiles": [
+    "VLM.md",
     "_attachments/Pasted image 20241213002417.png",
     "_attachments/Pasted image 20241213002303.png",
     "Reasoning.md",
@@ -798,7 +799,6 @@
     "Sparrow.md",
     "Papers/VLMs/An Introduction to Vision-Language Modeling.md",
     "FLAVA.md",
-    "_attachments/Pasted image 20241114110236.png",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
