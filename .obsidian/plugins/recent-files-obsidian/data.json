@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Bradley-Terry Model",
+      "path": "Bradley-Terry Model.md"
+    },
+    {
+      "basename": "Bradley-Terry-Luce Model",
+      "path": "Bradley-Terry-Luce Model.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Human Feedback",
+      "path": "Reinforcement Learning from Human Feedback.md"
+    },
+    {
+      "basename": "Likelihood Displacement",
+      "path": "Likelihood Displacement.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "WizardLM 2",
+      "path": "WizardLM 2.md"
+    },
+    {
+      "basename": "WizardLM",
+      "path": "WizardLM.md"
     },
     {
       "basename": "VLM",
@@ -171,34 +199,6 @@
     {
       "basename": "SPARC",
       "path": "SPARC.md"
-    },
-    {
-      "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
-      "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "NVLM",
-      "path": "NVLM.md"
-    },
-    {
-      "basename": "Fuyu",
-      "path": "Fuyu.md"
-    },
-    {
-      "basename": "Untitled 6",
-      "path": "Untitled 6.md"
-    },
-    {
-      "basename": "HyQE",
-      "path": "HyQE.md"
-    },
-    {
-      "basename": "FrontierMath",
-      "path": "FrontierMath.md"
-    },
-    {
-      "basename": "GAIA",
-      "path": "GAIA.md"
     }
   ],
   "omittedPaths": [],
