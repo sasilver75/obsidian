@@ -534,6 +534,7 @@
 - [[Tree of Clarification]]
 - [[UPR]] (Unsupervised Passage Re-Ranker)
 - [[Stream of Search]]
+- [[Likelihood Displacement]]
 
 
 
