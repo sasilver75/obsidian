@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
+    },
+    {
+      "basename": "Continued Pretraining",
+      "path": "Continued Pretraining.md"
+    },
+    {
+      "basename": "Reward Model",
+      "path": "Reward Model.md"
+    },
+    {
       "basename": "Bradley-Terry Model",
       "path": "Bradley-Terry Model.md"
     },
     {
       "basename": "Bradley-Terry-Luce Model",
       "path": "Bradley-Terry-Luce Model.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
     },
     {
       "basename": "Reinforcement Learning from Human Feedback",
@@ -191,14 +199,6 @@
     {
       "basename": "SugarCrepe",
       "path": "SugarCrepe.md"
-    },
-    {
-      "basename": "PaLI",
-      "path": "PaLI.md"
-    },
-    {
-      "basename": "SPARC",
-      "path": "SPARC.md"
     }
   ],
   "omittedPaths": [],
