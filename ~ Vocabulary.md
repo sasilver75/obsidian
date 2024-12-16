@@ -326,6 +326,7 @@
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]] (NeRF)
 - [[Tree of Thoughts]] (ToT)
+- [[Pretext Task]]
 - [[VLM]] (Vision-Language Model)
 - [[Continuous Batching]]
 - [[Speculative Decoding]]
