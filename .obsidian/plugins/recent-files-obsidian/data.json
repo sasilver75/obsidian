@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Self-Supervised Learning",
+      "path": "Self-Supervised Learning.md"
+    },
+    {
+      "basename": "SimCLR",
+      "path": "SimCLR.md"
+    },
+    {
+      "basename": "Distillation",
+      "path": "Distillation.md"
+    },
+    {
+      "basename": "Model Merging",
+      "path": "Model Merging.md"
+    },
+    {
+      "basename": "Quantized Low-Rank Adaptation",
+      "path": "Quantized Low-Rank Adaptation.md"
+    },
+    {
+      "basename": "Low-Rank Adaptation",
+      "path": "Low-Rank Adaptation.md"
+    },
+    {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
     },
@@ -27,10 +55,6 @@
     {
       "basename": "Likelihood Displacement",
       "path": "Likelihood Displacement.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "WizardLM 2",
@@ -175,30 +199,6 @@
     {
       "basename": "The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}",
       "path": "Articles/The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}.md"
-    },
-    {
-      "basename": "Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}",
-      "path": "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md"
-    },
-    {
-      "basename": "MMVP",
-      "path": "MMVP.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "CLIP",
-      "path": "CLIP.md"
-    },
-    {
-      "basename": "PaliGemma",
-      "path": "PaliGemma.md"
-    },
-    {
-      "basename": "SugarCrepe",
-      "path": "SugarCrepe.md"
     }
   ],
   "omittedPaths": [],
