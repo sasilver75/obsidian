@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "DSPy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Recommendations"
+              "title": "DSPy"
             }
           }
         ]
@@ -84,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -633,12 +634,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b8ea69a9da6cb18b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 51
+        "currentTab": 52
       },
       {
         "id": "8a022290161ffefa",
@@ -701,6 +712,8 @@
   },
   "active": "ecc2e5d8c2677f89",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20241217000943.png",
+    "~ Recommendations.md",
     "~ Vocabulary.md",
     "Self-Supervised Learning.md",
     "SimCLR.md",
@@ -734,9 +747,7 @@
     "Stream of Search.md",
     "Tulu 3.md",
     "Smoltalk.md",
-    "~ Recommendations.md",
     "Speculative Decoding.md",
-    "Contriever.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
