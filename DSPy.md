@@ -10,6 +10,7 @@ References:
 - [Video: Weaviate Meetup with Omar Khattab on DSPy](https://youtu.be/Y81DoFmt-2U?si=2zfYQqS0w3M3D6F8&t=2145)
 - [Video: Designing Reliable AI Systems with DSPy | Zeta Alpha with Omar Khattab](https://youtu.be/Lba_MBZsR5s?si=hUH3LhKSQ6uj8rIM)
 - [Video: Neural Breakdown with AVG: DSPy Tutorial](https://youtu.be/_ROckQHGHsU?si=1tcLC-Bf6UAI9mN-)
+- [Video: Bay.Area DSPy with Michael Ryan from DSPy (Very good)](https://youtu.be/s85YY3myQLw?si=UKZSVXVtYu9ClwC4)
 	
 See also: 
 - [[Demonstrate-Search-Predict - Composing retrieval and language models for knowledge-intensive NLP]] (Previous work, same authors)
@@ -117,3 +118,5 @@ We can do a better job telling people how to build metrics. Maybe you *start* wi
 We have some guidance on which type of optimizer to select, but there are really only 3-4 that you should choose from at any given time. For optimizing, you might want to use someone else's data, or synthesize some data to match your task. You can figure out how to get some data for training
 
 
+
+![[Pasted image 20241217000943.png]]
