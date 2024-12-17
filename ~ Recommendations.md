@@ -17,7 +17,6 @@ Youtube Chanenls
 	- James Briggs
 	- Serrano.Academy
 	- Weaviate
-	- Neel Nanda
 	- Allen Institute for AI
 	- Alfredo Canziani
 	- Neural Breakdown with AVB
