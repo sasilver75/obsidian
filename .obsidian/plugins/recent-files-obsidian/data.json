@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "PaperTemplate",
+      "path": "Templates/PaperTemplate.md"
+    },
+    {
+      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
+      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
+    },
+    {
       "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
       "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey",
       "path": "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md"
-    },
-    {
-      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
-      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
     },
     {
       "basename": "VLM",
@@ -195,10 +199,6 @@
     {
       "basename": "Lecture 8 More on morphemes and stuff",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md"
-    },
-    {
-      "basename": "Lecture 7",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 7.md"
     }
   ],
   "omittedPaths": [],
