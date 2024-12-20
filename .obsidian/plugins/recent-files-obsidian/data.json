@@ -5,6 +5,10 @@
       "path": "Templates/PaperTemplate.md"
     },
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
       "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Lecture 9 Probability and Language Modeling I",
       "path": "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md"
-    },
-    {
-      "basename": "Lecture 8 More on morphemes and stuff",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 8 More on morphemes and stuff.md"
     }
   ],
   "omittedPaths": [],

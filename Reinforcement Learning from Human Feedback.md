@@ -64,3 +64,10 @@ From LLaMA-2 paper: Showing the improvement on Helpfulness and Harmlessness benc
 
 ![[Pasted image 20240704000725.png]]
 Above: Why did we think we even needed RL in the first place? Why can't we just do supervised learning somehow? The problem is that the $\hat{y}$ that we predict (the output text) and the "label" (a thumbs up) aren't the same type of thing, so we can't do something like $\mathcal{L} = |y-\hat{y}|$. Without a loss value, we can't run backpropagation through the model -- no good! Enter techniques like [[Direct Preference Optimization|DPO]], which uses annotated positive and negative pairs to learn (DPO is great, but it always need to operate off of a human-labeled dataset, whereas when we use a human-preferences dataset to train a model in RLHF, we can use that model to "grade" an infinite amount of generations thereafter.)
+
+
+
+---
+
+![[Pasted image 20241214235809.png]]
+A danger with reward over-optimization from [here](https://youtu.be/2AthqCX3h8U?si=Kn-jKVOvsXLo9pM4)... as you over-optimize towards any source of reward, you overfit to it according to the truth...other reward models, etc.

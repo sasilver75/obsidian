@@ -4,7 +4,7 @@ aliases:
 ---
 A paradigm of ML in which the model is trained on data that *provides its own labels* -- we leverage the structure of the data itself to create labels that are already inherent to the data, removing the need for manual labeling.
 
-There are a variety of ==Pretext Tasks== that we can ask models to solve, which help them ==learn useful representations==.
+There are a variety of ==[[Pretext Task]]==s that we can ask models to solve, which help them ==learn useful representations==.
 
 In NLP, we use SSL for LM pretraining by performing next-token-prediction on sequences of text.
 

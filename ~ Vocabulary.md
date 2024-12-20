@@ -1,3 +1,6 @@
+# General
+- [[Reasoning]]
+
 # Data Engineering
 - [[Apache Arrow]]
 - [[Apache Parquet]]
@@ -245,6 +248,7 @@
 - [[Percentage-of-Zero-Based Pruning]]
 - [[Regression-Based Pruning]]
 - [[Masking]]
+- [[Superficial Alignment Hypothesis]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
 - [[Semi-Supervised Learning]]
@@ -322,6 +326,7 @@
 - [[Gaussian Splatting]]
 - [[Neural Radiance Fields]] (NeRF)
 - [[Tree of Thoughts]] (ToT)
+- [[Pretext Task]]
 - [[VLM]] (Vision-Language Model)
 - [[Continuous Batching]]
 - [[Speculative Decoding]]
@@ -529,6 +534,9 @@
 - [[TF-IDF]]
 - [[Tree of Clarification]]
 - [[UPR]] (Unsupervised Passage Re-Ranker)
+- [[Stream of Search]]
+- [[Likelihood Displacement]]
+
 
 
 # Natural Language Processing Concepts
@@ -798,6 +806,8 @@
 - [[Imagen]]
 - [[Inception]]
 - [[InstructGPT]]
+- [[InternVL 1.5]]
+- [[InternVL 2.5]]
 - [[Janus]]
 - [[JetMoE]]
 - [[Jurassic-1]]
@@ -814,6 +824,7 @@
 - [[LLaMA 3]]
 - [[LLaMA 3.1]]
 - [[LLaMA 3.2]]
+- [[LLaMA 3.3]]
 - [[LLaMA Guard]]
 - [[LLAMA Guard 2]]
 - [[LLaMA Guard 3]]
@@ -858,6 +869,7 @@
 - [[OWLv2]] (Vision Transformer for Open-World Localization v2)
 - [[PaLI]]
 - [[PaliGemma]]
+- [[PaliGemma 2]]
 - [[PaLM]] (Pathways Language Model)
 - [[Phi-1.5]]
 - [[Phi-1]]
@@ -874,6 +886,7 @@
 - [[Qwen 2 Math]]
 - [[Qwen 2 VL]]
 - [[Qwen 2.5]] (incl. Coder and Math)
+- [[QwQ]]
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
@@ -901,6 +914,7 @@
 - [[Toolformer]]
 - [[Transformer-XL]]
 - [[Tulu 2]]
+- [[Tulu 3]]
 - [[Tulu]]
 - [[U-Net]]
 - [[Unified-IO]]
@@ -1027,11 +1041,13 @@
 - [[MMLU-Pro]]
 - [[MMLU-Redux]]
 - [[MMLU]] (Massive Multitask Language Understanding)
+- [[GlobalMMLU]]
 - [[MMVP]] (Multimodal Visual Patterns)
 - [[MNLI]] (Multi-Genre Natural Language Inference)
 - [[MT-Bench]] (Multi-Turn Benchmark)
 - [[MTEB]] (Massive Text Embedding Benchmark)
 - [[MuSR]] (Multistep Soft Reasoning)
+- [[LiveCodeBench]]
 - [[Open LLM Leaderboard V2]]
 - [[Open LLM Leaderboard]]
 - [[Open VLM Leaderboard]]
@@ -1088,6 +1104,7 @@
 - [[FinePersonas]]
 - [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[FineWeb]] (15T high-quality dataset from HF)
+- [[FineWeb2]]
 - [[FLAN v2]] (The FLAN Collection)
 - [[Helpful and Harmless]] (HH)
 - [[HelpSteer2]]
@@ -1124,6 +1141,7 @@
 - [[ShareGPT]]
 - [[SlimOrca]]
 - [[SlimPajama]]
+- [[Smoltalk]]
 - [[Stanford Human Preferences]] (SHP)
 - [[Stanford Natural Language Inference]] (SNLI)
 - [[Super-NaturalInstructions]]
