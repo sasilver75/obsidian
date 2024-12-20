@@ -8,6 +8,9 @@ Paper: [InPars: Data Augmentation for Information Retrieval using LLMs](https://
 ...
 Takeaway: ...
 
+ReferenceS:
+- Quoted in [Zeta Alpha: Finetuning LLMs for Retrieval](https://youtu.be/V3hd8Ih_gMo?si=4iGbYY08zdCLtFeJ)
+
 
 Followed by [InPars-v2](https://arxiv.org/abs/2301.01820) in January 2023, where they used GPT-J
 See also [InPars Toolkit](https://arxiv.org/abs/2307.04601) (Jul 10, 2023), where they open-open-source the pipeline as a toolkit for synthetic data generation/filtering/training/evaluation.
