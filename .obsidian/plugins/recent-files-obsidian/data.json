@@ -1,138 +1,20 @@
 {
   "recentFiles": [
     {
-<<<<<<< HEAD
+      "basename": "Qwen 2.5",
+      "path": "Qwen 2.5.md"
+    },
+    {
       "basename": "PaperTemplate",
       "path": "Templates/PaperTemplate.md"
-=======
-      "basename": "Grouped Query Attention",
-      "path": "Grouped Query Attention.md"
-    },
-    {
-      "basename": "Multi-Query Attention",
-      "path": "Multi-Query Attention.md"
-    },
-    {
-      "basename": "KV Cache",
-      "path": "KV Cache.md"
-    },
-    {
-      "basename": "Format-Restricting Instruction",
-      "path": "Format-Restricting Instruction.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "DSPy",
-      "path": "DSPy.md"
->>>>>>> a66cc7a9b604fb99d1d292dd8b1179703bff1fb4
     },
     {
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
     },
     {
-<<<<<<< HEAD
       "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
       "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
-=======
-      "basename": "Self-Supervised Learning",
-      "path": "Self-Supervised Learning.md"
-    },
-    {
-      "basename": "SimCLR",
-      "path": "SimCLR.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "Model Merging",
-      "path": "Model Merging.md"
-    },
-    {
-      "basename": "Quantized Low-Rank Adaptation",
-      "path": "Quantized Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Low-Rank Adaptation",
-      "path": "Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
-    },
-    {
-      "basename": "Bradley-Terry Model",
-      "path": "Bradley-Terry Model.md"
-    },
-    {
-      "basename": "Bradley-Terry-Luce Model",
-      "path": "Bradley-Terry-Luce Model.md"
-    },
-    {
-      "basename": "Reinforcement Learning from Human Feedback",
-      "path": "Reinforcement Learning from Human Feedback.md"
-    },
-    {
-      "basename": "Likelihood Displacement",
-      "path": "Likelihood Displacement.md"
-    },
-    {
-      "basename": "WizardLM 2",
-      "path": "WizardLM 2.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
-    },
-    {
-      "basename": "VLM",
-      "path": "VLM.md"
-    },
-    {
-      "basename": "Reasoning",
-      "path": "Reasoning.md"
-    },
-    {
-      "basename": "LiveCodeBench",
-      "path": "LiveCodeBench.md"
-    },
-    {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "Stream of Search",
-      "path": "Stream of Search.md"
-    },
-    {
-      "basename": "Tulu 3",
-      "path": "Tulu 3.md"
-    },
-    {
-      "basename": "Smoltalk",
-      "path": "Smoltalk.md"
-    },
-    {
-      "basename": "Speculative Decoding",
-      "path": "Speculative Decoding.md"
-    },
-    {
-      "basename": "Contriever",
-      "path": "Contriever.md"
->>>>>>> a66cc7a9b604fb99d1d292dd8b1179703bff1fb4
     },
     {
       "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
@@ -201,7 +83,6 @@
     {
       "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
       "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
-<<<<<<< HEAD
     },
     {
       "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
@@ -318,12 +199,6 @@
     {
       "basename": "Kullback-Leibler Divergence",
       "path": "Kullback-Leibler Divergence.md"
-    },
-    {
-      "basename": "Lecture 9 Probability and Language Modeling I",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 9 Probability and Language Modeling I.md"
-=======
->>>>>>> a66cc7a9b604fb99d1d292dd8b1179703bff1fb4
     }
   ],
   "omittedPaths": [],
