@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Grouped Query Attention",
+      "path": "Grouped Query Attention.md"
+    },
+    {
+      "basename": "Multi-Query Attention",
+      "path": "Multi-Query Attention.md"
+    },
+    {
+      "basename": "KV Cache",
+      "path": "KV Cache.md"
+    },
+    {
       "basename": "Format-Restricting Instruction",
       "path": "Format-Restricting Instruction.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
       "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
-      "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
-    },
-    {
-      "basename": "Why I build open language models (October 30, 2024) {Nathan Lambert}",
-      "path": "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}",
-      "path": "Articles/Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}.md"
     }
   ],
   "omittedPaths": [],
