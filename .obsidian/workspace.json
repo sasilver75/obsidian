@@ -4,25 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "8f994c9ef6e7ac6d",
+        "id": "187e310c33b9894c",
         "type": "tabs",
         "children": [
           {
-            "id": "2327705687d625da",
+            "id": "ecc2e5d8c2677f89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qwen 2.5.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Qwen 2.5"
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "ebd700377246cac7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InPars.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "InPars"
+            }
+          },
+          {
+            "id": "d2b61552dc3e902e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reranking.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reranking"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,22 +114,14 @@
               "icon": "clock",
               "title": "Recent Files"
             }
-          },
-          {
-            "id": "9e3168d1374cb3b8",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -172,8 +195,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -477,7 +500,7 @@
             }
           },
           {
-            "id": "cf83c3d5901bc41f",
+            "id": "2a0f158223bb3513",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -487,7 +510,7 @@
             }
           },
           {
-            "id": "27cc0b05edd4303c",
+            "id": "7fea6957b7a1e9a9",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -497,7 +520,7 @@
             }
           },
           {
-            "id": "ca7e13cc1ef7e93a",
+            "id": "b575f1435ce02b2c",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -507,7 +530,167 @@
             }
           },
           {
-            "id": "5bbe87e76ede6336",
+            "id": "28ecd0b4f4a00875",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "33b1ca02afc03b75",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0603b41795cb20fb",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "99f4144259767678",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "19d4ab329c2698f2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "9d6680c79787507a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "289c778c560c7019",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "03afba8db1ba1617",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "331005ba0c97d404",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1e242fb3793946eb",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "82f16da407858391",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "4cb68f245539f70b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2f86326dae6324ca",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "124dcbd28f6e2dc6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b8ea69a9da6cb18b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7858f7bd561a2ca2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b7f8f2a220805cda",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -517,7 +700,7 @@
             }
           }
         ],
-        "currentTab": 38
+        "currentTab": 54
       },
       {
         "id": "8a022290161ffefa",
@@ -578,12 +761,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2327705687d625da",
+  "active": "ebd700377246cac7",
   "lastOpenFiles": [
-    "Templates/PaperTemplate.md",
-    "Format-Restricting Instruction.md",
+    "Reciprocal Rank Fusion.md",
+    "_attachments/Pasted image 20241220001143.png",
+    "~ Vocabulary.md",
+    "Reranking.md",
+    "Grouped Query Attention.md",
     "conflict-files-obsidian-git.md",
+    "_attachments/Pasted image 20241126143049.png",
+    "Multi-Query Attention.md",
+    "KV Cache.md",
+    "Format-Restricting Instruction.md",
+    "DSPy.md",
     "_attachments/Pasted image 20241217000943.png",
+    "~ Recommendations.md",
+    "Self-Supervised Learning.md",
+    "SimCLR.md",
+    "Distillation.md",
     "_attachments/Pasted image 20241215155948.png",
     "_attachments/Pasted image 20241215155821.png",
     "_attachments/Pasted image 20241215155604.png",
@@ -591,32 +786,19 @@
     "_attachments/Pasted image 20241215155307.png",
     "_attachments/Pasted image 20241215155141.png",
     "_attachments/Pasted image 20241215154957.png",
-    "_attachments/Pasted image 20241215154417.png",
-    "_attachments/Pasted image 20241215154409.png",
-    "Tulu 3.md",
-    "Stream of Search.md",
-    "Smoltalk.md",
-    "Reasoning.md",
-    "LiveCodeBench.md",
+    "Model Merging.md",
+    "Quantized Low-Rank Adaptation.md",
+    "Low-Rank Adaptation.md",
+    "Synthetic Data.md",
+    "Continued Pretraining.md",
+    "Reward Model.md",
+    "Bradley-Terry Model.md",
+    "Bradley-Terry-Luce Model.md",
+    "Reinforcement Learning from Human Feedback.md",
     "Likelihood Displacement.md",
-    "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md",
-    "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
-    "o1.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 8.md",
-    "Law of Large Numbers.md",
-    "~ Vocabulary.md",
-    "Masked Image Model.md",
-    "Llip.md",
-    "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
-    "Sparrow.md",
-    "Papers/VLMs/An Introduction to Vision-Language Modeling.md",
-    "FLAVA.md",
-    "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
-    "VLM.md",
+    "WizardLM 2.md",
+    "WizardLM.md",
     "Papers/VLMs",
-    "Tim Dettmers.md",
-    "Weights and Biases.md",
-    "National AI Research Resource.md",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
