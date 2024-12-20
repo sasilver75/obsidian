@@ -247,6 +247,7 @@
 - [[Second-Order-Based Pruning]]
 - [[Percentage-of-Zero-Based Pruning]]
 - [[Regression-Based Pruning]]
+- [[Format-Restricting Instruction]] (FRI)
 - [[Masking]]
 - [[Superficial Alignment Hypothesis]]
 - [[Supervised Learning]]
