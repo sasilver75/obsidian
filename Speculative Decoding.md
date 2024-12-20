@@ -19,7 +19,7 @@ References
 - [Video: Speculative Decoding: When two LLMs are Faster than One](https://www.youtube.com/watch?v=S-8yr_RibJ4)
 - [Blog: Philkrav's Speculative Decoding post](https://philkrav.com/posts/speculative/)
 - Github Repo Index: [hemingkx's SpeculativeDecodingPapers Repo](https://github.com/hemingkx/SpeculativeDecodingPapers)
-- 
+- Great animation: https://x.com/GoogleAI/status/1865172246534217941
 
 Papers
 - (These Google and Deepmind papers at the top)

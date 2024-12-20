@@ -19,3 +19,5 @@ Abstract
 ![[Pasted image 20240525153510.png]]
 
 # Non-Paper Figures
+
+![[Pasted image 20241215153704.png]]

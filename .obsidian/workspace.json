@@ -94,7 +94,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -502,12 +503,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "5bbe87e76ede6336",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 37
+        "currentTab": 38
       },
       {
         "id": "8a022290161ffefa",
@@ -570,9 +581,26 @@
   },
   "active": "2327705687d625da",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Templates/PaperTemplate.md",
+    "_attachments/Pasted image 20241217000943.png",
+    "_attachments/Pasted image 20241215155948.png",
+    "_attachments/Pasted image 20241215155821.png",
+    "_attachments/Pasted image 20241215155604.png",
+    "_attachments/Pasted image 20241215155343.png",
+    "_attachments/Pasted image 20241215155307.png",
+    "_attachments/Pasted image 20241215155141.png",
+    "_attachments/Pasted image 20241215154957.png",
+    "_attachments/Pasted image 20241215154417.png",
+    "_attachments/Pasted image 20241215154409.png",
+    "Tulu 3.md",
+    "Stream of Search.md",
+    "Smoltalk.md",
+    "Reasoning.md",
+    "LiveCodeBench.md",
+    "Likelihood Displacement.md",
     "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md",
     "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
-    "_attachments/Pasted image 20241126143049.png",
     "o1.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 8.md",
     "Law of Large Numbers.md",
@@ -583,8 +611,6 @@
     "Sparrow.md",
     "Papers/VLMs/An Introduction to Vision-Language Modeling.md",
     "FLAVA.md",
-    "_attachments/Pasted image 20241114110236.png",
-    "_attachments/Pasted image 20241114014408.png",
     "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md",
     "VLM.md",
     "Papers/VLMs",
@@ -592,21 +618,7 @@
     "Weights and Biases.md",
     "National AI Research Resource.md",
     "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md",
-    "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md",
-    "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md",
     "Articles/Untitled",
-    "Articles/Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}.md",
-    "_attachments/Pasted image 20241113202106.png",
-    "Articles/Why I build open language models (October 30) {Nathan Lambert}.md",
-    "Articles/The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}.md",
-    "_attachments/Pasted image 20241113195616.png",
-    "_attachments/Pasted image 20241113194913.png",
-    "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md",
-    "_attachments/Pasted image 20241112223250.png",
-    "_attachments/Pasted image 20241112222351.png",
-    "_attachments/Pasted image 20241112221531.png",
-    "MMVP.md",
-    "_attachments/Pasted image 20241112215535.png",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
