@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSPy.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSPy"
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "d2b61552dc3e902e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Format-Restricting Instruction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Format-Restricting Instruction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -644,12 +660,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7858f7bd561a2ca2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 52
+        "currentTab": 53
       },
       {
         "id": "8a022290161ffefa",
@@ -710,11 +736,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ecc2e5d8c2677f89",
+  "active": "d2b61552dc3e902e",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Format-Restricting Instruction.md",
+    "DSPy.md",
     "_attachments/Pasted image 20241217000943.png",
     "~ Recommendations.md",
-    "~ Vocabulary.md",
     "Self-Supervised Learning.md",
     "SimCLR.md",
     "Distillation.md",
@@ -729,7 +757,6 @@
     "_attachments/Pasted image 20241215154417.png",
     "_attachments/Pasted image 20241215154409.png",
     "Quantized Low-Rank Adaptation.md",
-    "_attachments/Pasted image 20241215153704.png",
     "Low-Rank Adaptation.md",
     "Synthetic Data.md",
     "Continued Pretraining.md",
@@ -747,7 +774,6 @@
     "Stream of Search.md",
     "Tulu 3.md",
     "Smoltalk.md",
-    "Speculative Decoding.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
