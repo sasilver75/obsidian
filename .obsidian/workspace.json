@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/PaperTemplate.md",
+                "file": "Qwen 2.5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PaperTemplate"
+              "title": "Qwen 2.5"
             }
           }
         ]
@@ -94,8 +94,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -581,9 +580,9 @@
   },
   "active": "2327705687d625da",
   "lastOpenFiles": [
+    "Templates/PaperTemplate.md",
     "Format-Restricting Instruction.md",
     "conflict-files-obsidian-git.md",
-    "Templates/PaperTemplate.md",
     "_attachments/Pasted image 20241217000943.png",
     "_attachments/Pasted image 20241215155948.png",
     "_attachments/Pasted image 20241215155821.png",
