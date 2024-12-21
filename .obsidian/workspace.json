@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InPars.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "InPars"
+              "title": "~ Useful Pictures"
             }
           },
           {
@@ -695,12 +695,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8e745aaaa06bb50d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 54
+        "currentTab": 55
       },
       {
         "id": "8a022290161ffefa",
@@ -763,6 +773,8 @@
   },
   "active": "ebd700377246cac7",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20241220232522.png",
+    "InPars.md",
     "Reciprocal Rank Fusion.md",
     "_attachments/Pasted image 20241220001143.png",
     "~ Vocabulary.md",
@@ -797,7 +809,6 @@
     "Reinforcement Learning from Human Feedback.md",
     "Likelihood Displacement.md",
     "WizardLM 2.md",
-    "WizardLM.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
