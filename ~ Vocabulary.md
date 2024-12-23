@@ -857,6 +857,7 @@
 - [[Nemotron-4]]
 - [[NVLM]]
 - [[o1]]
+- [[o3]]
 - [[OLMo]] (Open Language Model)
 - [[OLMoE]]
 - [[OpenChat]]
@@ -1108,6 +1109,8 @@
 - [[FineWeb]] (15T high-quality dataset from HF)
 - [[FineWeb2]]
 - [[FLAN v2]] (The FLAN Collection)
+- [[GSM8K]]
+- [[GSM-Symbolic]]
 - [[Helpful and Harmless]] (HH)
 - [[HelpSteer2]]
 - [[HelpSteer]]
