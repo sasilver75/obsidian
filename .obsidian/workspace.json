@@ -715,12 +715,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d4d65e999b3742a2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 56
+        "currentTab": 57
       },
       {
         "id": "8a022290161ffefa",
@@ -781,7 +791,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ebd700377246cac7",
+  "active": "d4d65e999b3742a2",
   "lastOpenFiles": [
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
