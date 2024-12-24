@@ -467,6 +467,8 @@
 - [[SELF-ALIGN]]
 - [[Self-Directed Synthetic Dialogues]] (SDSD)
 - [[Apple Intelligence Foundation Language Models|Apple Foundation Model]] (AFM)
+- [[Math-Shepherd]]
+- 
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
