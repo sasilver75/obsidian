@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-Reward.md",
+                "file": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-Reward"
+              "title": "Introduction to RL"
             }
           },
           {
@@ -115,12 +115,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -793,6 +792,10 @@
   },
   "active": "ebd700377246cac7",
   "lastOpenFiles": [
+    "Untitled 7.md",
+    "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
+    "Self-Reward.md",
+    "Courses/Machine Learning/Spinning Up in RL",
     "~ Vocabulary.md",
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
@@ -826,9 +829,6 @@
     "Synthetic Data.md",
     "Continued Pretraining.md",
     "Reward Model.md",
-    "Bradley-Terry Model.md",
-    "Bradley-Terry-Luce Model.md",
-    "Reinforcement Learning from Human Feedback.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
@@ -837,7 +837,6 @@
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
     "Courses/UCSC/Bootcamp",
     "Courses/UCSC/NLP243 Deep Learning for NLP",
-    "Courses/UCSC/NLP201 NLP I",
-    "Courses/UCSC"
+    "Courses/UCSC/NLP201 NLP I"
   ]
 }
