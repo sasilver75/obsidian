@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Introduction to RL",
+      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
+    },
+    {
+      "basename": "Untitled 7",
+      "path": "Untitled 7.md"
+    },
+    {
       "basename": "Self-Reward",
       "path": "Self-Reward.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
       "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
-    },
-    {
-      "basename": "Sparrow",
-      "path": "Sparrow.md"
-    },
-    {
-      "basename": "An Introduction to Vision-Language Modeling",
-      "path": "Papers/VLMs/An Introduction to Vision-Language Modeling.md"
     }
   ],
   "omittedPaths": [],
