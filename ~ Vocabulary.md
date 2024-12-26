@@ -763,6 +763,8 @@
 - [[DeepSeek-Coder-V2]]
 - [[DeepSeekMath
 - [[DeepSeek-VL]]
+- [[DeepSeek V2.5]]
+- [[DeepSeek V3]]
 - [[DenseNet]]
 - [[DINOv2]] (Distillation with No Labels v2)
 - [[DINO]] (Distillation with No Labels)
@@ -892,6 +894,7 @@
 - [[Qwen 2 VL]]
 - [[Qwen 2.5]] (incl. Coder and Math)
 - [[QwQ]]
+- [[QvQ]]
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
@@ -925,6 +928,7 @@
 - [[Unified-IO]]
 - [[ULMFiT]] (Universal Language Model Finetuning)
 - [[VGGNet]] (Visual Geometry Group Network)
+- [[Veo2]]
 - [[Vicuna]]
 - [[WaveCoder]]
 - [[WebGPT]]
@@ -1106,6 +1110,7 @@
 - [[DataComp]]
 - [[Dolma]] (Dataset for OLMo)
 - [[Feedback Collection]]
+- [[FineMath]]
 - [[FinePersonas]]
 - [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[FineWeb]] (15T high-quality dataset from HF)
