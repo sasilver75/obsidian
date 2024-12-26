@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "Monte-Carlo Tree Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Vocabulary"
+              "title": "Monte-Carlo Tree Search"
             }
           },
           {
@@ -735,12 +735,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "85769bd6437d01f1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 58
+        "currentTab": 59
       },
       {
         "id": "8a022290161ffefa",
@@ -803,11 +813,11 @@
   },
   "active": "ebd700377246cac7",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
     "Untitled 7.md",
     "Self-Reward.md",
     "Courses/Machine Learning/Spinning Up in RL",
-    "~ Vocabulary.md",
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
     "~ Useful Pictures.md",

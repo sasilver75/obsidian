@@ -4,6 +4,7 @@ aliases:
 ---
 References
 - Notes: [[David Silver RL (8) - Integrating Learning and Planning]]
+- Video: [John Levine Monte Carlo Tree Search](https://youtu.be/UXW2yZndl7U?si=j6JWJomA8CYyPIkn)
 
 MCTS is a probabilistic algorithm using random simulations to guide the search for a best move in a game. 
 
