@@ -35,9 +35,13 @@ The two most common types of stochastic policies in deep RL are:
 
 - ==Categorical policies==
 	- Can be used in discrete action spaces
+	- A classifier (eg N) over a 
+- ==Diagonal Gaussian Policies==
 	- 
 
-
+Two key computations are centrally important for training and using stochastic policies:
+- Computing log likelihoods of particular actions
+- Sampling actions from the policy
 
 
 

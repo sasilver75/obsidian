@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Constitutional AI",
+      "path": "Constitutional AI.md"
+    },
+    {
+      "basename": "Introduction to RL",
+      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
+    },
+    {
       "basename": "Monte-Carlo Tree Search",
       "path": "Monte-Carlo Tree Search.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Introduction to RL",
-      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
     },
     {
       "basename": "Untitled 7",
@@ -195,10 +199,6 @@
     {
       "basename": "Masked Image Model",
       "path": "Masked Image Model.md"
-    },
-    {
-      "basename": "Llip",
-      "path": "Llip.md"
     }
   ],
   "omittedPaths": [],
