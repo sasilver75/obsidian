@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monte-Carlo Tree Search.md",
+                "file": "Constitutional AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monte-Carlo Tree Search"
+              "title": "Constitutional AI"
             }
           },
           {
@@ -821,10 +821,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "31c3e7831e11276a",
+  "active": "ebd700377246cac7",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
+    "Monte-Carlo Tree Search.md",
+    "~ Vocabulary.md",
     "Untitled 7.md",
     "Self-Reward.md",
     "Courses/Machine Learning/Spinning Up in RL",
@@ -859,7 +860,6 @@
     "Low-Rank Adaptation.md",
     "Synthetic Data.md",
     "Continued Pretraining.md",
-    "Reward Model.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
