@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constitutional AI.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Constitutional AI"
+              "title": "~ Useful Pictures"
             }
           },
           {
@@ -823,6 +823,8 @@
   },
   "active": "ebd700377246cac7",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20241227122041.png",
+    "Constitutional AI.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
     "Monte-Carlo Tree Search.md",
     "~ Vocabulary.md",
@@ -858,8 +860,6 @@
     "Model Merging.md",
     "Quantized Low-Rank Adaptation.md",
     "Low-Rank Adaptation.md",
-    "Synthetic Data.md",
-    "Continued Pretraining.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
