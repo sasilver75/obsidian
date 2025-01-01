@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Consistency Filtering.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Useful Pictures"
+              "title": "Consistency Filtering"
             }
           },
           {
@@ -52,8 +52,7 @@
               "title": "Reranking"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -755,12 +754,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3c9644a077c20cfb",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 60
+        "currentTab": 61
       },
       {
         "id": "8a022290161ffefa",
@@ -821,19 +830,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ebd700377246cac7",
+  "active": "ecc2e5d8c2677f89",
   "lastOpenFiles": [
+    "Consistency Filtering.md",
+    "~ Vocabulary.md",
+    "~ Useful Pictures.md",
     "_attachments/Pasted image 20241227122041.png",
     "Constitutional AI.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
     "Monte-Carlo Tree Search.md",
-    "~ Vocabulary.md",
     "Untitled 7.md",
     "Self-Reward.md",
     "Courses/Machine Learning/Spinning Up in RL",
     "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md",
     "Papers/Process Reward Models/Let's Verify Step by Step.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20241220232522.png",
     "InPars.md",
     "Reciprocal Rank Fusion.md",
@@ -856,7 +866,6 @@
     "_attachments/Pasted image 20241215155604.png",
     "_attachments/Pasted image 20241215155343.png",
     "_attachments/Pasted image 20241215155307.png",
-    "_attachments/Pasted image 20241215155141.png",
     "Model Merging.md",
     "Quantized Low-Rank Adaptation.md",
     "Low-Rank Adaptation.md",

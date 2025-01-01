@@ -482,6 +482,7 @@
 - [[ColBERT-QA]]
 - [[ColBERTv2]]
 - [[ColBERT]]
+- [[ColPali]]
 - [[Consistency Filtering]]
 - [[Context Compression]]
 - [[Contriever]]
