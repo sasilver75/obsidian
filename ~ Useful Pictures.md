@@ -1,4 +1,5 @@
-
+![[Pasted image 20250103125836.png]]
+(From Jan 3, 2025)
 
 ![[Pasted image 20241227122041.png]]
 ![[Pasted image 20241220232522.png|400]]

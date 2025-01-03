@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Vocabulary"
+              "title": "~ Useful Pictures"
             }
           },
           {
@@ -764,12 +764,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7d91cbdc55727253",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 61
+        "currentTab": 62
       },
       {
         "id": "8a022290161ffefa",
@@ -832,8 +842,9 @@
   },
   "active": "ecc2e5d8c2677f89",
   "lastOpenFiles": [
-    "Consistency Filtering.md",
+    "_attachments/Pasted image 20250103125836.png",
     "~ Vocabulary.md",
+    "Consistency Filtering.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20241227122041.png",
     "Constitutional AI.md",
@@ -868,7 +879,6 @@
     "_attachments/Pasted image 20241215155307.png",
     "Model Merging.md",
     "Quantized Low-Rank Adaptation.md",
-    "Low-Rank Adaptation.md",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
