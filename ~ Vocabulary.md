@@ -786,8 +786,9 @@
 - [[Fuyu]]
 - [[Gato]]
 - [[Gemeni]]
-- [[Gemma 2]]
+- [[Gemeni 2]]
 - [[Gemma]]
+- [[Gemma 2]]
 - [[Genstruct]]
 - [[GLIDE]] (Guided Language to Image Diffusion for Generation and Editing)
 - [[GloVe]]

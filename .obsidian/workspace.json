@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Useful Pictures"
+              "title": "~ Vocabulary"
             }
           },
           {
@@ -842,11 +842,11 @@
   },
   "active": "ecc2e5d8c2677f89",
   "lastOpenFiles": [
+    "~ Useful Pictures.md",
     "_attachments/Pasted image 20250103132907.png",
     "_attachments/Pasted image 20250103125836.png",
     "~ Vocabulary.md",
     "Consistency Filtering.md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20241227122041.png",
     "Constitutional AI.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
@@ -876,7 +876,6 @@
     "_attachments/Pasted image 20241215155948.png",
     "_attachments/Pasted image 20241215155821.png",
     "_attachments/Pasted image 20241215155604.png",
-    "_attachments/Pasted image 20241215155343.png",
     "Model Merging.md",
     "Quantized Low-Rank Adaptation.md",
     "Papers/VLMs",
