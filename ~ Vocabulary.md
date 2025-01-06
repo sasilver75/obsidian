@@ -432,6 +432,7 @@
 - [[Instag]]
 - [[Self-Taught Reasoner]] (STaR)
 - [[V-STaR]]
+- [[B-STaR]]
 - [[TRICE]]
 - [[Self-Taught Optimizer]] (STOP)
 - [[Quiet STaR]]
@@ -468,7 +469,7 @@
 - [[Self-Directed Synthetic Dialogues]] (SDSD)
 - [[Apple Intelligence Foundation Language Models|Apple Foundation Model]] (AFM)
 - [[Math-Shepherd]]
-- 
+- [[Self-Correction via Reinforcement Learning]] (SCoRe)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
