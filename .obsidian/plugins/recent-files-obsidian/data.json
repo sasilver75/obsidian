@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Self-Correction via Reinforcement Learning",
-      "path": "Self-Correction via Reinforcement Learning.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Mid-Training",
+      "path": "Mid-Training.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Continued Pretraining",
+      "path": "Continued Pretraining.md"
+    },
+    {
+      "basename": "OLMo 2",
+      "path": "OLMo 2.md"
+    },
+    {
+      "basename": "Allen Institute",
+      "path": "Allen Institute.md"
+    },
+    {
       "basename": "Consistency Filtering",
       "path": "Consistency Filtering.md"
+    },
+    {
+      "basename": "Self-Correction via Reinforcement Learning",
+      "path": "Self-Correction via Reinforcement Learning.md"
+    },
+    {
+      "basename": "Reranking",
+      "path": "Reranking.md"
     },
     {
       "basename": "Constitutional AI",
@@ -51,10 +71,6 @@
     {
       "basename": "Reciprocal Rank Fusion",
       "path": "Reciprocal Rank Fusion.md"
-    },
-    {
-      "basename": "Reranking",
-      "path": "Reranking.md"
     },
     {
       "basename": "Grouped Query Attention",
@@ -107,10 +123,6 @@
     {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
     },
     {
       "basename": "Reward Model",
@@ -187,18 +199,6 @@
     {
       "basename": "Qwen 2",
       "path": "Qwen 2.md"
-    },
-    {
-      "basename": "Contrastive Captioner",
-      "path": "Contrastive Captioner.md"
-    },
-    {
-      "basename": "Common Objects in Context",
-      "path": "Common Objects in Context.md"
-    },
-    {
-      "basename": "Lecture 8",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 8.md"
     }
   ],
   "omittedPaths": [],

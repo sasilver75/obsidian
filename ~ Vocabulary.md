@@ -408,6 +408,9 @@
 - [[Verbosity Bias]]
 - [[Self-Enhancement Bias]]
 - [[Continued Pretraining]]
+- [[Pretraining]]
+- [[Post-Training]]
+- [[Mid-Training]]
 - [[False Refuse]]
 - [[Lottery Ticket Hypothesis]]
 - [[Retrieval-Augmented Generation]] (RAG)
@@ -866,6 +869,7 @@
 - [[o1]]
 - [[o3]]
 - [[OLMo]] (Open Language Model)
+- [[OLMo 2]]
 - [[OLMoE]]
 - [[OpenChat]]
 - [[OpenCLIP]]
@@ -885,6 +889,7 @@
 - [[Phi-1]]
 - [[Phi-2]]
 - [[Phi-3]]
+- [[Phi-3.5]]
 - [[Pile-T5]]
 - [[Pixtral]]
 - [[Prometheus 2]]
@@ -1223,6 +1228,7 @@
 - [[SynthLabs]] 🤖
 - [[Tencent AI]] 🇨🇳
 - [[Together AI]]  🤝
+- [[xAI]] 🤤
 
 # People
 - [[Aidan Gomez]] 🇨🇦
