@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mid-Training.md",
+                "file": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mid-Training"
+              "title": "Kevin Murphy's Reinforcement Learning - An Overview"
             }
           },
           {
@@ -234,8 +234,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -914,11 +913,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "392dee5d87c5e939",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
-        ]
+        ],
+        "currentTab": 65
       },
       {
         "id": "8a022290161ffefa",
@@ -981,9 +991,11 @@
   },
   "active": "ecc2e5d8c2677f89",
   "lastOpenFiles": [
-    "~ Useful Pictures.md",
     "~ Vocabulary.md",
+    "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md",
     "Mid-Training.md",
+    "Papers/RL",
+    "~ Useful Pictures.md",
     "Continued Pretraining.md",
     "OLMo 2.md",
     "Allen Institute.md",
@@ -1014,7 +1026,6 @@
     "DSPy.md",
     "_attachments/Pasted image 20241217000943.png",
     "~ Recommendations.md",
-    "Self-Supervised Learning.md",
     "_attachments/Pasted image 20241215155948.png",
     "_attachments/Pasted image 20241215155821.png",
     "_attachments/Pasted image 20241215155604.png",
@@ -1025,7 +1036,6 @@
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
     "Courses/UCSC/Bootcamp",
-    "Courses/UCSC/NLP243 Deep Learning for NLP",
-    "Courses/UCSC/NLP201 NLP I"
+    "Courses/UCSC/NLP243 Deep Learning for NLP"
   ]
 }

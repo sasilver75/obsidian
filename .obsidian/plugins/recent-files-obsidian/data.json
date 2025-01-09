@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
+      "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
       "basename": "Mid-Training",
       "path": "Mid-Training.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Continued Pretraining",
@@ -195,10 +199,6 @@
     {
       "basename": "LLaVA",
       "path": "LLaVA.md"
-    },
-    {
-      "basename": "Qwen 2",
-      "path": "Qwen 2.md"
     }
   ],
   "omittedPaths": [],

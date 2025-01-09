@@ -6,8 +6,8 @@ References:
 -----
 
 ==Mid-training== is vaguely in-between [[Pretraining]] and [[Post-Training]].
-
-In July 2024, OpenAI quietly announced that it had a "mid-training" division in two research job ads. Ever since, it's been rumored what the mid-training team's purpose is.
+****
+In July 2024, OpenAI **quietly**** announced that it had a "mid-training" division in two research job ads. Ever since, it's been rumored what the mid-training team's purpose is.
 
 It's possible that the OpenAI mid-training team stems from the internalized continuous pretraining program.
 

@@ -1268,6 +1268,7 @@
 - [[Jonathan Frankle]] 🌭
 - [[Jurgen Schmidhuber]] ☝️
 - [[Kaiming He]] 👁️
+- [[Kevin Murphy]]
 - [[Louis Castricato]] 🐟
 - [[Ludwig Schmidt]] 😎
 - [[Matei Zaharia]] 🧱
