@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "CS234 Lecture 1",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 1.md"
+      "basename": "Building a Generative AI Platform",
+      "path": "Articles/Building a Generative AI Platform.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "CS234 Lecture 2",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 2.md"
     },
     {
       "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
       "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "CS234 Lecture 1",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 1.md"
     },
     {
       "basename": "Continued Pretraining",
@@ -191,14 +199,6 @@
     {
       "basename": "Speculative Decoding",
       "path": "Speculative Decoding.md"
-    },
-    {
-      "basename": "Contriever",
-      "path": "Contriever.md"
-    },
-    {
-      "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
-      "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
     }
   ],
   "omittedPaths": [],
