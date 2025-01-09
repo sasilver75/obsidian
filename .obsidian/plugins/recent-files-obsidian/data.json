@@ -5,6 +5,10 @@
       "path": "Articles/Building a Generative AI Platform.md"
     },
     {
+      "basename": "Prompt Caching",
+      "path": "Prompt Caching.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Smoltalk",
       "path": "Smoltalk.md"
-    },
-    {
-      "basename": "Speculative Decoding",
-      "path": "Speculative Decoding.md"
     }
   ],
   "omittedPaths": [],
