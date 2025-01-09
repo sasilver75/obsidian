@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "CS234 Lecture 1",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 1.md"
+    },
+    {
       "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
       "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Mid-Training",
-      "path": "Mid-Training.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Continued Pretraining",
@@ -29,12 +25,20 @@
       "path": "Allen Institute.md"
     },
     {
+      "basename": "Self-Correction via Reinforcement Learning",
+      "path": "Self-Correction via Reinforcement Learning.md"
+    },
+    {
       "basename": "Consistency Filtering",
       "path": "Consistency Filtering.md"
     },
     {
-      "basename": "Self-Correction via Reinforcement Learning",
-      "path": "Self-Correction via Reinforcement Learning.md"
+      "basename": "Mid-Training",
+      "path": "Mid-Training.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "Reranking",
@@ -195,10 +199,6 @@
     {
       "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
       "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "LLaVA",
-      "path": "LLaVA.md"
     }
   ],
   "omittedPaths": [],
