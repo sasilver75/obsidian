@@ -1,4 +1,4 @@
-# General
+****# General
 - [[Reasoning]]
 
 # Data Engineering
@@ -1241,6 +1241,7 @@
 - [[Arthur Mensch]] 🇫🇷
 - [[Benjamin Clavié]] 🇫🇷🍝
 - [[Charles Frye]] 🟩
+- [[Chip Huyen]]
 - [[Chris Ré]] 🧠
 - [[Christopher Manning]] 🧝
 - [[Christopher Potts]] 🧑‍🏫
