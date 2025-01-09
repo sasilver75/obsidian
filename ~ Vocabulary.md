@@ -201,6 +201,7 @@
 - [[Epoch]]
 - [[Feature Engineering]]
 - [[Prompting]]
+- [[Prompt Caching]]
 - [[Prompt Tuning]]
 - [[Feed-Forward Network]] (FFNN)
 - [[Chain of Thought]] (CoT)
@@ -1241,7 +1242,7 @@
 - [[Arthur Mensch]] 🇫🇷
 - [[Benjamin Clavié]] 🇫🇷🍝
 - [[Charles Frye]] 🟩
-- [[Chip Huyen]]
+- [[Chip Huyen]] 🐿️
 - [[Chris Ré]] 🧠
 - [[Christopher Manning]] 🧝
 - [[Christopher Potts]] 🧑‍🏫
@@ -1253,6 +1254,7 @@
 - [[Douwe Kiela]] 📝
 - [[Emad Mostaque]] 🤡
 - [[Eric Zelikman]] ⭐
+- [[Eugene Yan]] 💪
 - [[Fei-Fei Li]] 🥰
 - [[Geoff Hinton]] 👨‍🦳
 - [[Georgei Gerganov]] 📦
