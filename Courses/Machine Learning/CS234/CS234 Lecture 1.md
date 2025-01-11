@@ -1,4 +1,4 @@
-Stanford Reinforcement Learning
+**Stanford** Reinforcement Learning
 https://youtu.be/WsvFL-LjA6U?si=2sGxUfRzguhMdOuU
 
 RL
