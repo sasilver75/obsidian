@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
-      "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
+      "basename": "CS234 Lecture 3",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 3.md"
+    },
+    {
+      "basename": "CS234 Vocabulary",
+      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Q-Function",
+      "path": "Q-Function.md"
+    },
+    {
       "basename": "CS234 Lecture 2",
       "path": "Courses/Machine Learning/CS234/CS234 Lecture 2.md"
+    },
+    {
+      "basename": "CS234 Lecture 1",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 1.md"
+    },
+    {
+      "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
+      "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
     },
     {
       "basename": "The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
@@ -59,10 +75,6 @@
     {
       "basename": "Building a Generative AI Platform",
       "path": "Articles/Building a Generative AI Platform.md"
-    },
-    {
-      "basename": "CS234 Lecture 1",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 1.md"
     },
     {
       "basename": "Continued Pretraining",
@@ -187,18 +199,6 @@
     {
       "basename": "Reward Model",
       "path": "Reward Model.md"
-    },
-    {
-      "basename": "Bradley-Terry Model",
-      "path": "Bradley-Terry Model.md"
-    },
-    {
-      "basename": "Bradley-Terry-Luce Model",
-      "path": "Bradley-Terry-Luce Model.md"
-    },
-    {
-      "basename": "Reinforcement Learning from Human Feedback",
-      "path": "Reinforcement Learning from Human Feedback.md"
     }
   ],
   "omittedPaths": [],
