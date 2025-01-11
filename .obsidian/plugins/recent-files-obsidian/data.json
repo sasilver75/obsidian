@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "CS234 Lecture 2",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 2.md"
+      "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
+      "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "CS234 Lecture 2",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 2.md"
+    },
+    {
+      "basename": "The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}",
+      "path": "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
+    },
+    {
+      "basename": "Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}",
+      "path": "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
+    },
+    {
+      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
+      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
+    },
+    {
+      "basename": "LLaMA",
+      "path": "LLaMA.md"
+    },
+    {
+      "basename": "GenQA",
+      "path": "GenQA.md"
+    },
+    {
+      "basename": "Alpaca",
+      "path": "Alpaca.md"
+    },
+    {
+      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
+      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
     },
     {
       "basename": "Prompt Caching",
@@ -15,10 +55,6 @@
     {
       "basename": "Chip Huyen Agents",
       "path": "Articles/Chip Huyen Agents.md"
-    },
-    {
-      "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
-      "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
     },
     {
       "basename": "Building a Generative AI Platform",
@@ -163,42 +199,6 @@
     {
       "basename": "Reinforcement Learning from Human Feedback",
       "path": "Reinforcement Learning from Human Feedback.md"
-    },
-    {
-      "basename": "Likelihood Displacement",
-      "path": "Likelihood Displacement.md"
-    },
-    {
-      "basename": "WizardLM 2",
-      "path": "WizardLM 2.md"
-    },
-    {
-      "basename": "WizardLM",
-      "path": "WizardLM.md"
-    },
-    {
-      "basename": "VLM",
-      "path": "VLM.md"
-    },
-    {
-      "basename": "Reasoning",
-      "path": "Reasoning.md"
-    },
-    {
-      "basename": "LiveCodeBench",
-      "path": "LiveCodeBench.md"
-    },
-    {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "Stream of Search",
-      "path": "Stream of Search.md"
-    },
-    {
-      "basename": "Tulu 3",
-      "path": "Tulu 3.md"
     }
   ],
   "omittedPaths": [],
