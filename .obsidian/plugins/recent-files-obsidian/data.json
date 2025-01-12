@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Reinforcement Learning",
+      "path": "Reinforcement Learning.md"
+    },
+    {
       "basename": "CS234 Lecture 3",
       "path": "Courses/Machine Learning/CS234/CS234 Lecture 3.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Synthetic Data",
       "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "Reward Model",
-      "path": "Reward Model.md"
     }
   ],
   "omittedPaths": [],

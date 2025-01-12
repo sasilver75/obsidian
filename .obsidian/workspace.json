@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS234/CS234 Lecture 3.md",
+                "file": "Reinforcement Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS234 Lecture 3"
+              "title": "Reinforcement Learning"
             }
           },
           {
@@ -889,11 +889,12 @@
   },
   "active": "22ef767c3196f30d",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250111164358.png",
+    "Courses/Machine Learning/CS234/CS234 Lecture 3.md",
+    "Courses/Machine Learning/CS234/CS234 Vocabulary.md",
     "_attachments/Pasted image 20250111132454.png",
     "_attachments/Pasted image 20250111132440.png",
     "_attachments/Pasted image 20250111132003.png",
-    "Courses/Machine Learning/CS234/CS234 Vocabulary.md",
-    "Courses/Machine Learning/CS234/CS234 Lecture 3.md",
     "_attachments/Pasted image 20250111131625.png",
     "_attachments/Pasted image 20250111131528.png",
     "_attachments/Pasted image 20250111130437.png",
@@ -901,7 +902,6 @@
     "_attachments/Pasted image 20250111130243.png",
     "_attachments/Pasted image 20250111125222.png",
     "_attachments/Pasted image 20250111124950.png",
-    "_attachments/Pasted image 20250111124745.png",
     "~ Vocabulary.md",
     "Q-Function.md",
     "Courses/Machine Learning/CS234/CS234 Lecture 2.md",
