@@ -9,6 +9,8 @@ An interdisciplinary area of ML and optimal control concerned with how an intell
 
 One of the three basic ML paradigms, along [[Supervised Learning]] and [[Unsupervised Learning]]
 
+![[Pasted image 20250111164358.png]]
+
 The agent must find a balance between ==exploration== (of uncharted territory) and exploitation (of current knowledge), with the goal of maximizing long term reward, whose feedback may be incomplete or delayed.
 - Related is the [[Credit Assignment Problem]], in which rewards are only sparsely received throughout exploration of the environment, and we need to determine which actions taken by the agent resulted in the reward.
 
