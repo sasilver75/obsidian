@@ -1,6 +1,7 @@
 References: 
 - [StatQuest Entropy Clearly Explained](https://www.youtube.com/watch?v=YtebGVx-Fxw&t=1s)
 - [[Chris Olah]]'s fantastic [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/) post
+- [Artem Kirsanov: They Key Equation Behind Probability Video](https://youtu.be/KHVR587oW8I?si=kPgUbkjrIk8cQ9ze)
 
 The expected surprisal of an event!
 

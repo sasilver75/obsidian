@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Triplet Loss.md",
+                "file": "Kullback-Leibler Divergence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Triplet Loss"
+              "title": "Kullback-Leibler Divergence"
             }
           },
           {
@@ -145,7 +145,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -854,12 +855,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e004762fba2a7a72",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 67
+        "currentTab": 68
       },
       {
         "id": "8a022290161ffefa",
@@ -922,8 +933,14 @@
   },
   "active": "1a4c19078051d20c",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "_attachments/Pasted image 20250112235914.png",
+    "Entropy.md",
+    "Cross-Entropy.md",
+    "Q-Function.md",
+    "Self-Supervised Learning.md",
+    "BYOL.md",
     "Triplet Loss.md",
+    "~ Vocabulary.md",
     "_attachments/Pasted image 20250112172832.png",
     "_attachments/Pasted image 20250112172825.png",
     "_attachments/Pasted image 20250112172816.png",
@@ -934,7 +951,6 @@
     "_attachments/Pasted image 20250112170951.png",
     "_attachments/Pasted image 20250112170948.png",
     "Contrastive Loss.md",
-    "Q-Function.md",
     "_attachments/Pasted image 20250112164559.png",
     "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
     "Courses/Machine Learning/CS234/CS234 Vocabulary.md",
@@ -953,10 +969,6 @@
     "LLaMA.md",
     "GenQA.md",
     "Alpaca.md",
-    "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md",
-    "Prompt Caching.md",
-    "Articles/Chip Huyen Agents.md",
-    "Articles/Building a Generative AI Platform.md",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",

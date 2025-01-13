@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Entropy.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Q-Function",
+      "path": "Q-Function.md"
+    },
+    {
+      "basename": "Self-Supervised Learning",
+      "path": "Self-Supervised Learning.md"
+    },
+    {
+      "basename": "BYOL",
+      "path": "BYOL.md"
+    },
+    {
       "basename": "Triplet Loss",
       "path": "Triplet Loss.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "Contrastive Loss",
       "path": "Contrastive Loss.md"
-    },
-    {
-      "basename": "Q-Function",
-      "path": "Q-Function.md"
     },
     {
       "basename": "CS234 Lecture 4",
@@ -179,26 +199,6 @@
     {
       "basename": "KV Cache",
       "path": "KV Cache.md"
-    },
-    {
-      "basename": "Format-Restricting Instruction",
-      "path": "Format-Restricting Instruction.md"
-    },
-    {
-      "basename": "DSPy",
-      "path": "DSPy.md"
-    },
-    {
-      "basename": "~ Recommendations",
-      "path": "~ Recommendations.md"
-    },
-    {
-      "basename": "Self-Supervised Learning",
-      "path": "Self-Supervised Learning.md"
-    },
-    {
-      "basename": "SimCLR",
-      "path": "SimCLR.md"
     }
   ],
   "omittedPaths": [],
