@@ -3,7 +3,51 @@ References:
 - Video: [Mutual Information's Monte Carlo and Off-Policy Methods (24:00)](https://www.youtube.com/watch?v=bpUszPiWM7o)
 
 
-It's a [[Monte-Carlo]] method for evaluating properties of a particular distribution, while only having samples generated from a different distribution than a distribution of interest (intriguing!). Useful in the context of [[Off-Policy]] learning, where we have a *behavior policy* that's exploring the MDP, but we have a *target* policy that's of interest to us. Also used in [[Variational Autoencoder]]s (VAEs).
+It's a [[Monte-Carlo]] method for evaluating properties of a particular distribution, while only having samples generated from a different distribution than a distribution of interest (intriguing!). Useful in the context of [[Off-Policy]] learning, where we have a *behavior policy* that's exploring the MDP, but we have a *target* policy that's trying to learn the optimal policy. Also used in [[Variational Autoencoder]]s (VAEs).
+
+When we want to calculate the expectation of a random variable $E_{x \sim p}[f(x)]$ , we can write it as $\int p(x)f(x)dx$, the probability-weighted sum of functions. This can also be written for discrete as $\sum{p(x)f(x)}$.
+
+A lot of the time, the integral is impossible to calculate exactly. Typically because the dimensionality of x is high, so the space it lives in is exponentially huge, so we have no hope of adding up everything within it. 
+
+This is where Monte-Carlo methods come in -- the idea is to merely approximate the expectation with an average:
+
+$\mathbb{E_p}[f(x)] \approx \frac{1}{N}\sum_{i=1}^Nf(x_i)$ where $x_i \sim p(x)$ 
+
+This says that we collect $N$ samples of $x$ from the distribution $p(x)$, plug those into $f$, and take their average. It turns out that as N gets large, this approaches our answer.
+![[Pasted image 20250113145641.png]]
+The area under this p(x)f(x) function is the truth that we're after (Area = 0.5406); but in the general case, it's not possible to approximate the area under this curve.
+
+So instead, we sample $x$s from $p(x)$, and then plug them into $f(x)$. The average of many of these is an approximation of area under this $p(x)f(x)$ curve! 
+
+Our sample average itself has its own distribution.
+![[Pasted image 20250113145928.png|300]]
+This MC estimate is ==unbiased==, because it's centered on the true expectation that we're after! Looking at this, we can see that the variance of our rollout return $s$, $V_p[s]$, matters a lot! It turns out that that the variance of $s$ is the variance of $f(x)$ scaled down by N!
+
+$\mathbb{V_p}[s] = \frac{1}{N}\mathbb{V_p}[f(x)]$ 
+
+Where did that come from? That's the [[Central Limit Theorem]], and it says that it doesn't matter what $p$ or $f$ are -- no matter what, as N gets large, it becomes closer and closer to a normal distribution!
+
+We can write as:
+![[Pasted image 20250113150529.png|350]]
+This says that $s$'s distribution approaches the Normal as N gets large. 
+- The mean of this normal is the expectation of the function that we're trying to calculate
+- Its variance is the variance of f(x) scaled down by N.
+
+Now we can learn about importance sampling!
+- We introduce a new distribution q(x). 
+- We're still interested in understanding $E_{x \sim p}[f(x)] = \int p(x)f(x)dx$ 
+
+We take the right term and multiply it by $\frac{q(x)}{q(x)}$, which is just 1.
+
+This gives us $= \int  q(x) \frac{p(x)}{q(x)}f(x)dx$ 
+This is the probability-weighted average of a new function!
+
+We can then rewrite this $\int q(x)$ as $\mathbb{E_{x \sim q}}$ so that the full thing can be written as 
+
+$E_{x \sim p}[f(x)] = E_{x \sim q}[\frac{p(x)}{q(x)}f(x)]dx$ 
+
+So the p-probability-weighted average of f(x) is equal to the q-probability-weighted average of a 
+
 
 ---
 Let's assume that we want to calculate the expectation of some function $f(x)$, where x is subject to some distribution $x \sim p(x)$ .

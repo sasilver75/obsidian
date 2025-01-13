@@ -183,4 +183,4 @@ That looks a little like this:
 
 So just to wrap up:
 ![[Pasted image 20250113125536.png]]
- TD we can think of as samples of the bellman expectation/optimality equations; they do a one-step sample of what would happen if you were oing dynamic programming.
+ TD we can think of as samples of the bellman expectation/optimality equations; they do a one-step sample of what would happen if you were doing dynamic programming.
