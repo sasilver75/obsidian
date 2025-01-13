@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Importance Sampling",
+      "path": "Importance Sampling.md"
+    },
+    {
       "basename": "CS234 Vocabulary (+David Silver)",
       "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Reciprocal Rank Fusion",
       "path": "Reciprocal Rank Fusion.md"
-    },
-    {
-      "basename": "Grouped Query Attention",
-      "path": "Grouped Query Attention.md"
     }
   ],
   "omittedPaths": [],
