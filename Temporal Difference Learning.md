@@ -7,6 +7,10 @@ References:
 - [[David Silver RL (5) -  Model-Free Control]]
 - Video: [Mutual Information's Temporal Difference Learning and Q Learning](https://www.youtube.com/watch?v=AJiG3ykOxmY)
 
+Referes to a family of algorithms, which can either be on-policy or off-policy depending on how they're implemented, e.g.:
+- [[Q-Learning]] (Off-Policy)
+- [[SARSA]] (On-Policy)
+
 Define:
 - ==TD-Error==
 - ==TD-Target==

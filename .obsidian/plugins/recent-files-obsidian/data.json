@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "CS234 Vocabulary (+David Silver)",
+      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Temporal Difference Learning",
+      "path": "Temporal Difference Learning.md"
+    },
+    {
+      "basename": "Generalized Policy Iteration",
+      "path": "Generalized Policy Iteration.md"
+    },
+    {
+      "basename": "Q-Function",
+      "path": "Q-Function.md"
+    },
+    {
+      "basename": "CS234 Lecture 4",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
+    },
+    {
+      "basename": "Contrastive Loss",
+      "path": "Contrastive Loss.md"
+    },
+    {
       "basename": "Kullback-Leibler Divergence",
       "path": "Kullback-Leibler Divergence.md"
     },
@@ -13,10 +41,6 @@
       "path": "Cross-Entropy.md"
     },
     {
-      "basename": "Q-Function",
-      "path": "Q-Function.md"
-    },
-    {
       "basename": "Self-Supervised Learning",
       "path": "Self-Supervised Learning.md"
     },
@@ -27,22 +51,6 @@
     {
       "basename": "Triplet Loss",
       "path": "Triplet Loss.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Contrastive Loss",
-      "path": "Contrastive Loss.md"
-    },
-    {
-      "basename": "CS234 Lecture 4",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
-    },
-    {
-      "basename": "CS234 Vocabulary",
-      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary.md"
     },
     {
       "basename": "Markov Reward Process",
@@ -191,14 +199,6 @@
     {
       "basename": "Grouped Query Attention",
       "path": "Grouped Query Attention.md"
-    },
-    {
-      "basename": "Multi-Query Attention",
-      "path": "Multi-Query Attention.md"
-    },
-    {
-      "basename": "KV Cache",
-      "path": "KV Cache.md"
     }
   ],
   "omittedPaths": [],
