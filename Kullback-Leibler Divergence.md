@@ -5,11 +5,13 @@ aliases:
   - Forward KL Divergence
 ---
 References:
-- https://youtu.be/SxGYPqCgJWM?si=CKmBi34_mv0oayTZ
-- https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence
+- [Intuitively Understanding the KL Divergence](https://youtu.be/SxGYPqCgJWM?si=CKmBi34_mv0oayTZ)
+- [LessWrong: Six and a Half Intuitions for KL Divergence](https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence)
 - [Video: KL Divergence - CLEARLY Explained! ~ Kapil Sachdeva](https://youtu.be/9_eZHt2qJs4?si=SveGupYXpPJ5VOHe)
 - Video: [Luis Serrano KL Divergence](https://www.youtube.com/watch?v=sjgZxuCm_8Q&list=WL&index=24&t=9s)
 	- Actually explains the idea of why we use "negative lob probabilities" very intuitively!
+- [Artem Kirsanov: They Key Equation Behind Probability Video](https://youtu.be/KHVR587oW8I?si=kPgUbkjrIk8cQ9ze)
+- [RitVik Math: The KL Divergence](https://youtu.be/q0AkK8aYbLY?si=8tQ4N_k7NhMlFKHV)
 
 ![[Pasted image 20240703135248.png|300]]
 (Above: Definition)
@@ -139,3 +141,6 @@ These all have in common:
 > $D_{KL}(P||Q)$ is a measure of how much our model $Q$ differs from the true distribution $P$. In other words, we care about how much $P$ and $Q$ differ from eachother *in the world where $P$ is true*, which explains why KL-divergence is not symmetric.
 
 To put this last point another way, $D_{KL}(P||Q)$  "doesn't care" when $q_x >> p_x$ (assuming both probabilities are small), because even when our model is wrong, reality doesn't frequently show us situations in which our model fails to match reality. But if $p_x >> q_x$, then the outcome $x$ will occur more frequently than we'd expect, consistently surprising our model and thereby demonstrating the model's inadequacy.
+
+
+![[Pasted image 20250112235914.png]]
