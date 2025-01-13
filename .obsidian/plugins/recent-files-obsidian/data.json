@@ -1,28 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "Reinforcement Learning",
-      "path": "Reinforcement Learning.md"
-    },
-    {
-      "basename": "CS234 Lecture 3",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 3.md"
-    },
-    {
-      "basename": "CS234 Vocabulary",
-      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary.md"
+      "basename": "Triplet Loss",
+      "path": "Triplet Loss.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+      "basename": "Contrastive Loss",
+      "path": "Contrastive Loss.md"
+    },
+    {
       "basename": "Q-Function",
       "path": "Q-Function.md"
+    },
+    {
+      "basename": "CS234 Lecture 4",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
+    },
+    {
+      "basename": "CS234 Vocabulary",
+      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary.md"
+    },
+    {
+      "basename": "Markov Reward Process",
+      "path": "Markov Reward Process.md"
+    },
+    {
+      "basename": "CS234 Lecture 3",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 3.md"
+    },
+    {
+      "basename": "Self-Taught Reasoner",
+      "path": "Self-Taught Reasoner.md"
+    },
+    {
+      "basename": "Reinforcement Learning",
+      "path": "Reinforcement Learning.md"
     },
     {
       "basename": "CS234 Lecture 2",
@@ -183,22 +199,6 @@
     {
       "basename": "SimCLR",
       "path": "SimCLR.md"
-    },
-    {
-      "basename": "Distillation",
-      "path": "Distillation.md"
-    },
-    {
-      "basename": "Model Merging",
-      "path": "Model Merging.md"
-    },
-    {
-      "basename": "Quantized Low-Rank Adaptation",
-      "path": "Quantized Low-Rank Adaptation.md"
-    },
-    {
-      "basename": "Low-Rank Adaptation",
-      "path": "Low-Rank Adaptation.md"
     }
   ],
   "omittedPaths": [],

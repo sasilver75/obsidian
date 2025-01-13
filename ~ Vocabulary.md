@@ -322,6 +322,8 @@
 - [[Steerability]]
 - [[Class Token]] 
 - [[Contrastive Loss]]
+- [[Triplet Loss]]
+- [[Triplet Mining]]
 - [[Pre-text Training]] 
 - [[Kalman Filter]]
 - [[Particle Filters]] 
@@ -500,6 +502,7 @@
 - [[Fusion-in-Decoder]] (FiD)
 - [[Generate-then-Read]] (GenRead)
 - [[Hard Negative Mining]]
+- [[Hard Negative]]
 - [[Hierarchical Navigable Small Worlds]] (HNSW)
 - [[Hybrid Search]]
 - [[HyDE]] (Hypothetical Document Embeddings)
