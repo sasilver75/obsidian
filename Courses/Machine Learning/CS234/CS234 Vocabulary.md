@@ -24,7 +24,10 @@
 [[Temporal Difference Learning]] (TD-Learning)
 - TD(0)/TD-Zero, or "1-Step TD Learning"
 - TD-Error
+- TD-Lambda (Forward)
+	- Backward-View TD(Lambda), Eligibility Traces
 
 Certainty Equivalence with Dynamic Programming
 
 Batch Policy Evaluation
+
