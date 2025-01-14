@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Q-Learning",
-      "path": "Q-Learning.md"
+      "basename": "CS234 Lecture 4",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
     },
     {
       "basename": "Generalized Policy Iteration",
       "path": "Generalized Policy Iteration.md"
     },
     {
+      "basename": "Temporal Difference Learning",
+      "path": "Temporal Difference Learning.md"
+    },
+    {
       "basename": "SARSA",
       "path": "SARSA.md"
+    },
+    {
+      "basename": "Q-Learning",
+      "path": "Q-Learning.md"
     },
     {
       "basename": "Q-Function",
@@ -19,10 +27,6 @@
     {
       "basename": "Policy Improvement",
       "path": "Policy Improvement.md"
-    },
-    {
-      "basename": "Temporal Difference Learning",
-      "path": "Temporal Difference Learning.md"
     },
     {
       "basename": "Importance Sampling",
@@ -35,10 +39,6 @@
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "CS234 Lecture 4",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
     },
     {
       "basename": "Contrastive Loss",

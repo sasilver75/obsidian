@@ -1,6 +1,7 @@
 ---
 aliases:
   - TD-Learning
+  - Temporal Difference
 ---
 References:
 - [[David Silver RL (4) - Model-Free Prediction]]
