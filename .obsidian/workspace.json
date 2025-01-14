@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q-Function.md",
+                "file": "SARSA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Q-Function"
+              "title": "SARSA"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Importance Sampling.md",
+                "file": "Q-Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Importance Sampling"
+              "title": "Q-Learning"
             }
           },
           {
@@ -918,6 +918,15 @@
   },
   "active": "2a7ed8b598825341",
   "lastOpenFiles": [
+    "Generalized Policy Iteration.md",
+    "Q-Learning.md",
+    "SARSA.md",
+    "_attachments/Pasted image 20250113211854.png",
+    "Q-Function.md",
+    "Policy Improvement.md",
+    "Temporal Difference Learning.md",
+    "Importance Sampling.md",
+    "_attachments/Pasted image 20250113160039.png",
     "_attachments/Pasted image 20250113150529.png",
     "_attachments/Pasted image 20250113145928.png",
     "_attachments/Pasted image 20250113145641.png",
@@ -927,13 +936,7 @@
     "_attachments/Pasted image 20250113125235.png",
     "_attachments/Pasted image 20250113125223.png",
     "_attachments/Pasted image 20250113124507.png",
-    "_attachments/Pasted image 20250113124008.png",
-    "_attachments/Pasted image 20250113123731.png",
-    "_attachments/Pasted image 20250113123333.png",
     "~ Vocabulary.md",
-    "Temporal Difference Learning.md",
-    "Generalized Policy Iteration.md",
-    "Q-Function.md",
     "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
     "Contrastive Loss.md",
     "Kullback-Leibler Divergence.md",
@@ -950,10 +953,6 @@
     "Courses/Machine Learning/CS234/CS234 Lecture 1.md",
     "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md",
     "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md",
-    "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md",
-    "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",

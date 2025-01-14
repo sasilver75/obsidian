@@ -46,8 +46,38 @@ We can then rewrite this $\int q(x)$ as $\mathbb{E_{x \sim q}}$ so that the full
 
 $E_{x \sim p}[f(x)] = E_{x \sim q}[\frac{p(x)}{q(x)}f(x)]dx$ 
 
-So the p-probability-weighted average of f(x) is equal to the q-probability-weighted average of a 
+==So the p-probability-weighted average of f(x) is equal to the q-probability-weighted average of f(x) times the ratio of p and q densities!==
 
+Recalling Monte Carlo, now, we can estimate this USING SAMPLES FROM q!
+
+$\mathbb{E_q}[\frac{p(x)}{q(x)}f(x)] \approx \frac{1}{N}\sum_{i=1}^N{\frac{p(x_i)}{q(x_i)}f(x)}$ , where $x_i \sim q(x)$
+
+In other words, we can approximate this expectation by using the Monte Carlo method, taking a bunch of samples of $x$ from the $q(x)$ distribution and seeing what the average return is, where the return is this $f(x)$ for the drawn $x$, but weighted by this ratio of $p(x)q(x)$.
+
+So what's the advantage of using this $\frac{1}{N}\sum_{i=1}^N{\frac{p(x_i)}{q(x_i)}f(x)}$  , which we'll refer to as $r$ ?
+This is still unbiased, and has a new, possibly-improved variance:
+
+The expected value of $r$ under $q$ is 
+$\mathbb{E_q}[r] = \mathbb{E_p}[f(x)]$
+
+New, possibly improved variance:
+$\mathbb{V_q[r]} = \frac{1}{N}\mathbb{V_q}[\frac{p(x)}{q(x)}f(x)]$
+
+So the hope is that we can choose q such that this variance is less than the variance we dealt with earlier:
+![[Pasted image 20250113160039.png|400]]
+This is a key result that we aren't proving, but it makes sense when you think that we're trying to estimate the area under the p(x)f(x) curve!
+
+How we chooose q(x) depends on p(x) and f(x). It's tricky, and the answers aren't very satisfying:
+- Maybe we can choose a q that approximates p?
+- It's very each to do a terrible job selecting q, especially in high dimensions. In these cases, the density ratio (p(x)/q(x)) will vary wildly over samples... and a majority of them will be very small. This means your average is effectively determined by a small number of samples, making it high variance -- not good!
+
+Wrap up:
+- When is Importance Sampling likely to be useful?
+	- When p(x) is difficult or impossible to sample from
+	- When we can *evaluate* p(x), meaning we can plug x in and get a probability.
+	- q(x) is easy to evaluate and sample from
+	- We can choose q(x) to be high were the |p(x)f(x)| is high
+		- This is not necessarily an easy task.
 
 ---
 Let's assume that we want to calculate the expectation of some function $f(x)$, where x is subject to some distribution $x \sim p(x)$ .
