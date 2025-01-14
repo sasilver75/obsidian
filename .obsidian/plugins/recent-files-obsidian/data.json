@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Q-Learning",
+      "path": "Q-Learning.md"
+    },
+    {
+      "basename": "Generalized Policy Iteration",
+      "path": "Generalized Policy Iteration.md"
+    },
+    {
+      "basename": "SARSA",
+      "path": "SARSA.md"
+    },
+    {
+      "basename": "Q-Function",
+      "path": "Q-Function.md"
+    },
+    {
+      "basename": "Policy Improvement",
+      "path": "Policy Improvement.md"
+    },
+    {
+      "basename": "Temporal Difference Learning",
+      "path": "Temporal Difference Learning.md"
+    },
+    {
       "basename": "Importance Sampling",
       "path": "Importance Sampling.md"
     },
@@ -11,18 +35,6 @@
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Temporal Difference Learning",
-      "path": "Temporal Difference Learning.md"
-    },
-    {
-      "basename": "Generalized Policy Iteration",
-      "path": "Generalized Policy Iteration.md"
-    },
-    {
-      "basename": "Q-Function",
-      "path": "Q-Function.md"
     },
     {
       "basename": "CS234 Lecture 4",
@@ -187,18 +199,6 @@
     {
       "basename": "Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning",
       "path": "Papers/Process Reward Models/Let's Reward Step by Step; Step-Level Reward Model as the Navigator for Reasoning.md"
-    },
-    {
-      "basename": "Let's Verify Step by Step",
-      "path": "Papers/Process Reward Models/Let's Verify Step by Step.md"
-    },
-    {
-      "basename": "InPars",
-      "path": "InPars.md"
-    },
-    {
-      "basename": "Reciprocal Rank Fusion",
-      "path": "Reciprocal Rank Fusion.md"
     }
   ],
   "omittedPaths": [],
