@@ -6,6 +6,7 @@ An algorithm for [[On-Policy]], [[Model-Free]] [[Temporal Difference Learning]],
 
 [[SARSA]] is [[On-Policy]] TD Control, a form of model-free control, so we apply our algorithm to action-values Q(s,a), not state-values V(s).
 "So while [[Q-Learning]] is [[Off-Policy]] [[Temporal Difference Learning|TD-Learning]] of the Q function, [[SARSA]] is [[On-Policy]] [[Temporal Difference Learning|TD-Learning]] of the Q function!"
+"Sarsa extends"
 
 ----
 
