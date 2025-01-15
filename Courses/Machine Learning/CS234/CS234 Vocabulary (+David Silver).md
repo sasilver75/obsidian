@@ -184,3 +184,248 @@ That looks a little like this:
 So just to wrap up:
 ![[Pasted image 20250113125536.png]]
  TD we can think of as samples of the bellman expectation/optimality equations; they do a one-step sample of what would happen if you were doing dynamic programming.
+
+-----
+
+# Lecture 6: Value Function Approximations
+Outline:
+1. Introduction
+2. Incremental Methods
+	- Take a function approximator like a NN, and every step, when you see some data as it comes in, you update your value function.
+3. Batch Methods
+	- More data-efficient methods that look at whole sets of data and try to fit your value function to things we've seen so far.
+
+Large-Scale Reinforcement Learning
+- Backgammon: !0^20 states
+- Go: 10^170 states
+- Helicopter: A Continuous space
+
+==So the idea of having a V or Q table with an entry for every single state is just clearly not going to work for many realistic problems!==
+- We'd like some methods that can avoid us having to compute and store all of these values for each state!
+- We'd like some methods that generalize across the state space; intuitively our value functions should understand that the value of being at position x or the value of being a millimeter from position x should be quite similar, and we want our value function approximators to understand that.
+
+We'd like to understand how to achieve this generalization and have efficient methods for representing and learning ==value functions== in RL
+- In a next class, we'll look at methods for function approximation for ==policy== space algorithms. But today we'll focus on Value Functions.
+
+In particular, we want to know how to do:
+- ==Prediction==/How to Evaluate a Policy
+- ==Control==: Finding an Optimal Policy
+
+![[Pasted image 20250114225628.png]]
+- So far we've looked at examples where every state had its own entry in a V(s) vector/lookup-table (or, alternatively, a Q table, in model-free control, since we didn't have access to the transition/dynamics model).
+- The problem is that there are too many states (or state, actions) to store in memory, and even if we could store it in memory, there's too much to reasonably explore!
+
+We're going to consider the true value function as just some function that maps from s to the true value of $v_{\pi}$, so if you feed in any $s$, it will give you an estimate of $v_{\pi}$.
+These parametric estimators have some vector of weights $w$ (e.g. the weights of a neural network), and we estimate the value function using a combination of them with the state.
+
+Ideally, using a small number of parameters we can fit/estimate the value function everywhere in a much larger state space (so it's more ==compact in memory== and has ==generalizability==)
+
+We could do this for the true $q_{\pi}(s,a)$ too, by approximating with $\hat{q}(s,a,w)$.
+
+First, let's talk about what it means to do function approximation using a value function:
+
+![[Pasted image 20250114230953.png]]
+These are like three different architectures you can use.
+- A NN is a canonical black-box function approximator, but you can use any architecture you'd like.
+- We use some sort of internal parameter vector $w$ -- that spits out the value function at the query state $s$, which is $\hat{v}(s,a)$.
+- When we do action-value function approximation, we have two cases!
+	- "==Action in==": Given (s,a), spit out predicted value for that
+	- "==Action out==": Sometimes it's more efficient to use a different form where we plug in the state and in a single forward pass the model spits out the values of *all* the actions we could take.
+		- In a single forward pass, you get all the information you need to make a decision.
+		- This was used by DeepMind in their Atari project.
+
+Can use any sort of algorithm you want:
+- ==Liner combination of features==
+- ==NNs==
+- Decision trees
+- Nearest Neighbor
+- Fourier/wavelet bases
+
+In this course, we'll focus on the ==differentiable== function approximators above that we can optimize using gradient-based methods.
+
+What's special about RL rather than regular Supervised Learning is that we have ==non-stationary sequence of value functions that we're trying to estimate!==  
+- If we want to estimate $v_{\pi}(s)$ for our current policy, but ==our policy is changing== (And maybe starts as a random policy), then that's a non-stationary target! The shape of that true $v_{\pi}$ will change as we get better at navigating our domain!
+- We also need to allow for ==non-i.i.d. data!==
+	- Where I am now is very highly correlated with where I am at the next step!
+
+![[Pasted image 20250114232303.png]]
+Here's gradient descent!
+We have a function J(w) that's differentiable with respect to a parameter vector w.
+Our gradient vector is the vector of partial derivatives with respect to each parameter.
+This gradient tells us the direction of steepest ascent.
+We go in the opposite direction, moving downhill (to minimize loss, in hopes of finding a local minimum).
+
+Let's now talk about its application in value funciton approximation!
+![[Pasted image 20250114232755.png]]
+Let's imagine that someone tells us $v_{\pi}$ -- that someone (an oracle) has just told us this.
+- If we had this, we could just minimize the [[Mean Squared Error|MSE]] against the oracle's true value function.
+- To do gradient ascent, all we need to do is move a little bit in the direction of the error that we see in each state multiplied by the gradient.
+	- (This naturally falls out of applying the chain rule to the first J(w) equation on top)
+- To deal with the expectation, we use Stochastic Gradient Descent
+	- Randomly sample a state by seeing what we visited, look at what the oracle says in that state, look at our estimate of the v, compute our error term, and then compute the gradient and do our multiplication in that bottom $\triangle w$ bit. 
+
+So every step, incrementally, online:
+- Take a step
+- Make a prediction of what the value is going to be
+- Oracle tells you what the value should be
+- Adjust our weights
+- Move on to the next step
+
+Stochastic approximation theory tells us that this really will ultimately let us fit the oracle's prediction.
+
+Is that clear so far, aside from the part that we've cheated with having the Oracle?
+
+![[Pasted image 20250114233402.png]]
+You'll usually see a bunch of linear function approximation using ==features== or ==feature vectors==, which are basically just... something that tells you something about your state space -- it can be *anything you'd like it to be!* (How far my robot is from each of these landmarks).
+
+
+
+The simplest way is to make a linear combination of these features with some weights $w$:
+
+$\hat{v}(S,w) = x(S)^{\top}w = \sum_{j=1}^n x_j(S)w_j$
+
+This isn't going to be a perfect representation (unless our features are very specifically engineered), it's a pretty simple function... but it's a good place to start.
+
+![[Pasted image 20250115101452.png]]
+Our Objective functino J(w) is going to be quadratic... because if we consider our parameters w, we have this squared error... we consider our mean squared error, we see that it's quadratic in w, meaning there's some bowl or other quadratic shape representing our mean-squared error, the objective funtion. THat's an easy shape to optimize using gradient descent, where we'll find the optimal mean-squared errors.
+
+==So this is a nice consequence of using a linear combination of features, we can find the global optimum because it's convex optimization.==
+- (This doesn't mean that the optimum found will be especially high-performing compared to some local optimum found by a more flexible estimator)
+
+![[Pasted image 20250115101850.png]]
+Table lookup (what we were doing before) is a special case of linear funciton approximation! We can build up a feature vector that says "If I'm in state 1, have a value of 1, else 0" (just a one-hot feature vector that' 1 for the state that we're in right now). If we use that as our feature vector, when when we take our dot product between our feature vector and our weights, then we're just picking out one of those weights!
+- (This is kind of dumb, but... okay.)
+
+
+But we've been ***cheating***, imagining the existence of some oracle that can tell us the true $v_{\pi}(s)$, so that we can fit against it using supervised learning! We need to figure this out from experience in practice.
+- We need to ==LEARN== this using (eg) Monte Carlo and Temporal Difference methods to give us a target to use for our function approximation, instead of the oracle!
+	- If we use MC learning, this target is just the return
+![[Pasted image 20250115102159.png]]
+ See that we just swap our the target (previous $V_{\pi}(s)$ given from an oracle) with our *estimate* of the state value function as given by our chosen technique (MC, TD, TD-Lambda)
+
+![[Pasted image 20250115102605.png]]
+We can think of this as a process that looks a lot like supervised learning
+- Monte-Carlo learning can be used to build some training data, but incrementally.
+	- We see state S_1, run a trajectory from it, see that we got G_1.
+	- We see state S_2, run a trajectory from it, and see that we got G_2.
+- Think of this as our training data.
+- Now, just like supervised learning, we treat this as a dataset and we adjust our function approximator to fit our G's.
+
+Q: How did that simplification work in that math equation on line two?
+A: For ***LINEAR*** MC policy evaluation, the value function approximation is assumed to be linear in the features of x(S_t), where x is our ==feature mapping== that turns our state into features. In linear function approximation $\hat{v}(s_t,w) = w^\top x(S_t)$, and when we take the gradient of this with respect to $w$, we get $\nabla_w\hat{v}(S_t,w) = x(S_t)$  . This is because the gradient of a linear function with respect to its parameters just gives you the features/inputs. This is why we can make the substitution we did.
+
+
+![[Pasted image 20250115103255.png]]
+Here's a similar example using TD Learning
+- If we consider again linear function approximation, we again plug in our TD target ($R + \gamma \hat{v}(S', w)$) 
+
+In practice, every step, we'll take a step, generate our TD target (taking a step, getting a rewards, generating a new estimate of the value, computing error, and updating our weights to better estimate $\hat{v}(S,w)$).
+
+Linear TD(0) still closes quite close to the global optimum, where "close" depends on things like your discount factor.
+
+
+![[Pasted image 20250115103740.png]]
+Finally, we can do the same idea with TD($\lambda$).
+- The association we're making is each state with some lambda-return, which is the mixture of all of our n-step lambda returns.
+- We try to learn to make our value function *fit* to these lambda return targets.
+This works for either the forward view or the backward view...
+
+
+----
+
+Let's move on to control!
+![[Pasted image 20250115104457.png]]
+We're now going to use ==approximate== policy evaluation:
+- We start off with some parameter vector w that defines some value function
+- We're goign to act greedily (With some epsilon exploration) with respect to that value function that we've defined (eg some NN), giving us a new policy.
+- We now want to evaluate that policy, which gives us a new value function!
+- We repeat
+- Note that we're not going to go all the way to the top during evaluation, wasting millions of sample of experience, to evaluate/perfectly fit the true value of our current policy.
+	- Instead, we'll take some steps toward it and immediately update our policy
+	- In the most incremental case, for TD for one step, we do this for every single step!
+		- Take an action
+		- Compute TD target
+		- Update our NN once
+		- Immediately act with respect to that latest NN to pick our actions
+
+In order to do control, we took GPI and added two new ingredients
+- Modeling the action-value function Q(s,a)
+- Some exploration, e.g. using epsilon greedy
+
+Now we just use a neural network to estimate our parameters Q
+So what happens? Does this really get to q*?
+- Of course not, it might not even be possible to represent q* using our approximation1
+- We typically end up with algorithms that oscillate around some ball around q*.
+
+![[Pasted image 20250115105025.png]]
+So how do we do this with an action value function?
+- Minimize the MSE between our predicted Q values and the "true" Q values for our policy (we don't have access to an oracle, so we'll use whatever method we'd like to estimate Q).
+- We use SGD to find a local minimum
+
+![[Pasted image 20250115105147.png]]
+What does our function approximator look like?
+- We can now build features of BOTH the state and action using our feature mapping x(S,A). This spits out some feature vector, given an (S,A) tuple.
+- This feature vector can be used in a linear combination with learnable weights.
+
+![[Pasted image 20250115105409.png]]
+We can plug in the same idea, where we can basically just do the same thing, substituting our best target for $q_{\pi}(S,A)$, using the return, one-step TD-target, or Lambda return (or the backward view of TD lambda, to use eligibility traces), this time using Q rather than V, so that we can do model-free control, since we can just take the action that maximizes Q, rather than know about the environment transition dynamics and using V.
+
+![[Pasted image 20250115110522.png]]
+A one-slide summary that roughly tell us when it's "okay" to use TD, when we're guaranteed for TD to converge to something. 
+
+![[Pasted image 20250115110630.png]]Gradient TD is a somewhat more new (in this 9 years ago lecture) method, which is a true gradient descent approach... it really follows the gradient of the projected bellman error... by just using a small additional correction term, which fixes the problem that we see in TD learning.
+
+What about for Control?
+![[Pasted image 20250115110747.png]]
+($\checkmark$) means that we get chattering around the near-optimal value function
+($X$) means that catastrophic divergence is possible
+
+## Batch Methods
+Motivation
+- Gradient descent is simple (just move in the up/downhill direction!) and appealing
+- But it's NOT sample efficient (we throw that experience away after, and move to the next one)
+- Batch methods seek to find the best-fitting value function to all of the data that we've seen in the batch -- the agent's experience ("training data")
+	- "Life is one big training set for an agent"
+
+We want to find a value function that best explains all the rewards it's seen so far.
+
+![[Pasted image 20250115111230.png]]
+One type of fit is a least-squares fit
+- We can define some dataset consisting of <state, value> pairs of $(s_n, v_1^{\pi})$ , where these values are given by an oracle or something.
+- The question is what's the best-fitting value function for the whole dataset?
+	- We can choose $w$ that minimize the sum of squared errors, giving us a best-fitting value function $\hat{v}(s,w)$
+- [[Least-Squares]] algorithms find parameters vectors that minimize the SSE between our estimator and the target.
+
+![[Pasted image 20250115111424.png]]
+And an easy way to find this least-squares solution is called [[Experience Replay]]
+- We actually store this dataset, we make it a literal thing -- we make our training set an explicitly-stored object, using an experience replay memory.
+- At every timestep, we sample a state and value from our experience buffer $(s, v^{\pi}) \sim D$
+	- This v is still an oracle return
+- We then apply SGD, updating our predicted towards the target.
+
+So we don't present things in the order they arrive (Which is strongly correlated), instead we de-correlate them, presenting them in a randomly sampled order, until we get to a least-squares solution.
+$w^\pi = \underset{w}{argmin} LS(w)$ 
+
+
+![[Pasted image 20250115111657.png]]
+Now we can understand the use of [[Deep Q-Networks|DQN]] for Atari!
+- Uses [[Experience Replay]] and off-policy [[Q-Learning]]
+- We remember the transitions we've seen so far
+- Every step, we take some action according to some epsilon-greedy policy with respect to our function approximator $\hat{q}$, which is just a big neural network.
+- We sample some mini-batch of transitions from our dataset $D$ (say, 64 random samples from our experience-replay memory)
+- Compute the gradient with respect to those 64 things ,and optimize the MSE between what the Q-network is predicting and our actual Q learning targets (this is a Q-learning target; just like our SARSA targets, but with a max over actions, if you recall).
+
+![[Pasted image 20250115113047.png]]
+Their DQN was a [[Convolutional Neural Network|CNN]] which at the end of it, output Q values for every single action.
+- They used the same NN with same hyperparameters, schedule, etc. across 50 different ATARI games, and the results were great! For most games, they did better than humans (mostly for the games that are very twitchy).
+
+![[Pasted image 20250115113256.png]]
+[[Stochastic Gradient Descent|SGD]] with [[Experience Replay]] as away of getting the most out of the data that you've seen so far.
+- Are there methods where we can jump directly to the least-squares solution?
+	- Yes, for the special case of linear function approximation.
+
+![[Pasted image 20250115113406.png]]
+For linear value function approximation, we can use closed-form solutions rather than SGD.
+
+![[Pasted image 20250115113433.png]]
+

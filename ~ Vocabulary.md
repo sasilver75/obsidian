@@ -40,6 +40,7 @@
 - [[Bayes Theorem]]
 - [[Bayesian Network]]
 - [[Gaussian Mixture Model]] (GMM)
+- [[Gaussian Process]]
 - [[Jensen's Inequality]]
 - [[Evidence Lower Bound]] (ELBO)
 - [[Variational Bayesian Inference]] ("Variational Bayes")
@@ -826,6 +827,7 @@
 - [[InstructGPT]]
 - [[InternVL 1.5]]
 - [[InternVL 2.5]]
+- [[InternLM 3]]
 - [[Janus]]
 - [[JetMoE]]
 - [[Jurassic-1]]
