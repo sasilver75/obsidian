@@ -129,7 +129,90 @@ What are we trying to evaluate, and what are we improving with respect to?
 	- And these are the tuples we need to do an update!
 - SARSA is an [[On-Policy]] algorithm
 	- Meaning that it computes an estimate of the Q value of the policy that we're using to act/make decisions with in the world.
-- 
+
+![[Pasted image 20250114153402.png]]
+- We're going to iterate. Our loop is going to be such that:
+	- We start in some state $a_t$ and take an action $s_t$, observe the reward $r_t$, end up in a next state $s_{t+1}$, and then we LOOP!
+	- We take the next action according to the same policy. We update our Q function given our tuple (SARSA). 
+	- This update looks similar to what we saw before:
+		- $Q(s_t,a_t) = Q(s_t, a_t) + \alpha(r_t + \gamma Q(s+{t+1}, a_{t+1}) - Q(s_t, a_t))$
+			- Note that $\alpha$ is the learning rate that tells us how much we update in the direction of the new error.
+	- This looks somewhat similar to what we saw in TD(0), where we have a ==target== (here, $r_t + \gamma Q(s+{t+1}, a_{t+1})$ ) and an ==error== (here,  $(r_t + \gamma Q(s+{t+1}, a_{t+1}) - Q(s_t, a_t))$)
+	- ==Note that we're plugging in the ACTUAL ACTION that we would take/took at the next state!==
+	- "What is the expected discounted sum of rewards of Q(s,a)? One estimate is the immediate reward that I'd get, plus the discounted Q value of the action that I'd take in the state I reached". This is why it's on-policy.
+
+Next, we do policy improvement:
+- $\forall s$ , $\pi(s) = \underset{a}{argmax}Q(s,a)$ with probability $1-\epsilon$, and a random action otherwise.
+- Note: We decay this epsilon between iterations, e.g. $\epsilon=  1/t$
+
+![[Pasted image 20250114155310.png]]
+- result is built on stochastic approximation
+- Relies on step-size decreasing at the right rate
+- Relies on the Bellman backup contraction property
+- Relies on bounded rewards and value function
+So it's not very clear that this should work, but it does (a bunch of beautiful papers out there from the 1990s)
+
+Empirically, it often does quite well, but [[Q-Learning]] is more popular. 
+
+
+----
+![[Pasted image 20250114160255.png]]
+
+
+now let's see if we can do [[Off-Policy]] learning, estimating and evaluating a policy using experience gathered from following a *different* policy. We'll still be in a [[Model-Free]] scenario, where we don't have access to reward/transition models.
+
+So we're acting in a certain way and using that to estimate the value of and improve an alternative policy.
+
+![[Pasted image 20250114160558.png]]
+See that there are basically two changes in the Q-Learning algorithm:
+
+![[Pasted image 20250114160642.png]]
+
+In the bellman equation, we'd have something like 
+$\sum_{s'}{p(s'|s,a)V^*(s')}$ 
+
+But we don't have access to the transition model $p(s'|s,a)$ in a model-free scenario
+
+In Q-Learning, we approximate that via this max:
+$\underset{a'}{max}Q(s_{t+1}, a')$
+
+Which is different from what SARSA does, because SARSA is on-policy and considers the actual action you would take:
+$Q(s_{t+1}, a_{t+1)}$
+
+Q-Learning doesn't care about the actual action you would take, it cares about the best thing you *could* have done there, because this gives a better estimate of the maximum discounted sum of rewards that you could get from that state in time.
+
+So we get this algorithm for [[Q-Learning]]:
+
+![[Pasted image 20250114161630.png|500]]
+- We gather data under our current epsilon-greedy policy
+- We use that data to update our Q value
+- Because we don't know what the actual Q function is, we do this weighted approximation between our current estimate of the Q function and the target that we calculated.
+
+==Even if you act completely randomly, you can learn Q* because in your Q* estimate, you're always doing this maxing. That's an important difference with SARSA, and it's what enables Q-learning to do off-policy learning==
+
+==But over time, we want to become greedy over time to allow us to exploit our better-understood Q function. We decay our epsilon over time.==
+
+
+
+-----
+
+Now let's talk about 
+
+# Model-Free Function Approximation
+- Policy Evaluation
+- Monte Carlo Policy Evaluation
+- Temporal Difference TD(0) Policy Evaluation
+
+
+
+
+
+
+
+
+
+
+
 
 
  

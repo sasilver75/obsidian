@@ -250,6 +250,7 @@
 - [[Regression-Based Pruning]]
 - [[Format-Restricting Instruction]] (FRI)
 - [[Masking]]
+- [[Conditional Random Field]] (CRF)
 - [[Superficial Alignment Hypothesis]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
