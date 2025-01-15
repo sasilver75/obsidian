@@ -732,6 +732,7 @@
 - [[Value Function]]
 - [[Value Iteration]]
 - [[Value Learning]] vs [[Policy Learning]]
+- [[Function Approximation]]
 
 
 # Models

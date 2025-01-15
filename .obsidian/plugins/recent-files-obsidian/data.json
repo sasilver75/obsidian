@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Function Approximation",
+      "path": "Function Approximation.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "CS234 Lecture 4",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
+    },
+    {
+      "basename": "Mean Squared Error",
+      "path": "Mean Squared Error.md"
+    },
+    {
+      "basename": "CS234 Vocabulary (+David Silver)",
+      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
+    },
+    {
       "basename": "SARSA",
       "path": "SARSA.md"
+    },
+    {
+      "basename": "Generalized Policy Iteration",
+      "path": "Generalized Policy Iteration.md"
+    },
+    {
+      "basename": "Temporal Difference Learning",
+      "path": "Temporal Difference Learning.md"
+    },
+    {
+      "basename": "Q-Learning",
+      "path": "Q-Learning.md"
     },
     {
       "basename": "Monte-Carlo Learning",
@@ -13,28 +45,8 @@
       "path": "Conditional Random Field.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Monte-Carlo",
       "path": "Monte-Carlo.md"
-    },
-    {
-      "basename": "Generalized Policy Iteration",
-      "path": "Generalized Policy Iteration.md"
-    },
-    {
-      "basename": "CS234 Lecture 4",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
-    },
-    {
-      "basename": "Temporal Difference Learning",
-      "path": "Temporal Difference Learning.md"
-    },
-    {
-      "basename": "Q-Learning",
-      "path": "Q-Learning.md"
     },
     {
       "basename": "Q-Function",
@@ -47,10 +59,6 @@
     {
       "basename": "Importance Sampling",
       "path": "Importance Sampling.md"
-    },
-    {
-      "basename": "CS234 Vocabulary (+David Silver)",
-      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
     },
     {
       "basename": "Contrastive Loss",
@@ -191,14 +199,6 @@
     {
       "basename": "Constitutional AI",
       "path": "Constitutional AI.md"
-    },
-    {
-      "basename": "Introduction to RL",
-      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
-    },
-    {
-      "basename": "Monte-Carlo Tree Search",
-      "path": "Monte-Carlo Tree Search.md"
     }
   ],
   "omittedPaths": [],

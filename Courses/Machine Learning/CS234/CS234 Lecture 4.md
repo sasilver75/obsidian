@@ -204,20 +204,107 @@ Now let's talk about
 - Temporal Difference TD(0) Policy Evaluation
 
 
+Now let's layer-on functiona approximation on top
+- Assuming that we don't have a big Q table for every (s,a), because therea re too many!
+
+Motivation for doing this:
+- Avoid explicitly storing or learning the following for every single state:
+	- Dynamics
+	- Value
+	- State-action Value
+	- Policy
+- instead, we want a more compact representation that generalizes across state or states and actions
+	- Let's reduce the memory, computation, and ideally EXPERIENCE needed to find/store/compute our (P,R)/V/Q/$\pi$ 
+		- Yep, that's our:
+			- Reward/Dynamics models (P,R)
+			- State value function V
+			- State-cation value function Q
+			- Policy $\pi$
 
 
+So how do we fit a function to represent our Q function?
+
+![[Pasted image 20250114174153.png]]
+Let's assume we had an ORACLE that would give us the true Q(s,a) for any (s,a).
+- Now we just have a supervised learning problem!
+	- Input: (s,a)
+	- Output: Q(s,a)
+- And we just learn a regression function
+
+Of course, we don't have these Oracle
+
+![[Pasted image 20250114174553.png]]
+In this class, we'll focus on methods that use [[Stochastic Gradient Descent]] to optimize, generally just using [[Mean Squared Error]].
+
+ This just means that we have to take our derivative through our Q function representation (?)...
+
+In general, we don't have this oracle that can tell us the true $Q^{\pi}(s,a)$ for any (s,a)! Instead, we have to learn that from experience, using ==model-free state-action value function approximation==.
+- Instead of writing it down as a table, we write it down with these parametrized functions.
+
+![[Pasted image 20250114174720.png]]
+We saw examples of using Monte Carlo and Temporal Difference methods  to do policy evaluation.
+- Now, in value function approximation, we change the estimate update step to include fitting the function approximator.
+
+![[Pasted image 20250114174821.png]]
+
+![[Pasted image 20250114175711.png]]
+We would like this G_t(s, a) to be our REAL Q, but we don't know our real Q, so we'll plug in the return that we just observed.
+
+==The structure of all of these algorithms whether it's policy evaluation, tabular, function approximation, is all extremely similar==:
+- Sample an episode or a tuple
+- Do one step where we update our estimate of the Q function (maybe optionally do function approximation fitting)
+- Use that to figure out how to act next, if we're doing control
 
 
+![[Pasted image 20250114175853.png]]
+For TD-Learning, it's very similar!
+It's useful to think about all the different ways we're doing approximations
+- We're sampling to approximate the expected value over the next state
+- We're bootstrapping to plug in what the value of those states are
+- Function approximation, where we represent the value of the function with some weights.
+
+![[Pasted image 20250114180836.png]]
+
+![[Pasted image 20250114180913.png]]
+We compute the gradient with respect to minimizing our MSE, and updating our weights.
 
 
+For control, it'll be very similar.
+![[Pasted image 20250114180941.png]]
+WE'll always be using our Q function instead of the value function, and we'll be doing off-policy learning like in Q-Learning
+
+![[Pasted image 20250114181006.png]]
+
+![[Pasted image 20250114181016.png]]
+We can either use SARSA, where we always plug in what the actual action we took next is, or we have Q-Learning, where we plug in a MAX over the Q function.
+
+![[Pasted image 20250114181053.png]]
+==Deadly Triad==: If you're doing bootstrapping (meaning plugging in an estimate of the next state) AND doing function approximation (eg DNN) AND doing off-policy earning (acting in a different way to your actual target policy), you might not converge at all.
+- Difference between what CAN occur and what will likely occur in practice -- don't let it limit you!
+![[Pasted image 20250114182037.png]]
+Q-Learning issues
+- Correlation between samples
+- Non-stationary targets; with TD learning, you're plugging in r + gamma(V(s')), but that V(s') is constatnly changing as you get more data
+Addresses it:
+- ==Experience Replay==: REuse tuples over time!
+- Fixed Q-Targets
+
+[[Experience Replay]]
+
+![[Pasted image 20250114182126.png]]
+We don't keep the buffer for all time, maybe just the last million episdoes
+
+If we think about what's happening in this casE: The way we change ht weights.... this target value is a function of the weights itself. The problem is that in general, this will change on your next update, because you've changed your weights; this can lead to instabilities.
+
+Second idea: Fixed Q Updates:
+![[Pasted image 20250114182404.png]]
+Our target network uses a different set of weights (?)
+- We're trying to make this more like supervised learning whee we have a fixed output y that doesn't change and we try to update our W
+
+![[Pasted image 20250114183253.png]]
 
 
-
-
-
- 
-
-
+![[Pasted image 20250114183347.png]]
 
 
 
