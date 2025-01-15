@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Function Approximation",
-      "path": "Function Approximation.md"
+      "basename": "Introduction to RL",
+      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
+    },
+    {
+      "basename": "Policy Gradient",
+      "path": "Policy Gradient.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Function Approximation",
+      "path": "Function Approximation.md"
+    },
+    {
+      "basename": "CS234 Vocabulary (+David Silver)",
+      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
     },
     {
       "basename": "CS234 Lecture 4",
@@ -15,10 +27,6 @@
     {
       "basename": "Mean Squared Error",
       "path": "Mean Squared Error.md"
-    },
-    {
-      "basename": "CS234 Vocabulary (+David Silver)",
-      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
     },
     {
       "basename": "SARSA",
@@ -191,14 +199,6 @@
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "Reranking",
-      "path": "Reranking.md"
-    },
-    {
-      "basename": "Constitutional AI",
-      "path": "Constitutional AI.md"
     }
   ],
   "omittedPaths": [],

@@ -1,4 +1,6 @@
-
+References:
+- [Mutual Information Function Approximation](https://youtu.be/Vky0WVh_FSk?si=4LDeYmjVrHzs_p50)
+- [David Silver Function Approximation](https://youtu.be/UoPei5o4fps?si=zxe8AENyoNU6R43y)
 
 Generalization: If an agent only visits a miniscule subset of all states, how can it generalize that experience to select high-reward actions over the remaining states?
 - We use [[Supervised Learning]]! 
@@ -63,6 +65,11 @@ $U_t = R_t + \gamma \hat{v}(S_t+1, w)$
 ![[Pasted image 20250114215238.png]]
 
 And now, for the sake of making stronger statements, let's constrain ourselves ot having a linear value function, meaning the value function is a dot product of w with $x(s)$, where $x(s)$ is a feature vector:
-
+![[Pasted image 20250114220154.png]]
 This linearity makes our optimization convex, so our local optimum == our global optimum.
-For semi-gradient TD,
+
+---
+
+  
+
+
