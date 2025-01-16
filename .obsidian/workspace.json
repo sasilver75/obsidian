@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -956,8 +957,10 @@
   },
   "active": "cc41bf7627813b2b",
   "lastOpenFiles": [
-    "Policy Gradient.md",
+    "Logistic Regression.md",
+    "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
     "~ Vocabulary.md",
+    "Policy Gradient.md",
     "_attachments/Pasted image 20250115122358.png",
     "_attachments/Pasted image 20250115121804.png",
     "_attachments/Pasted image 20250115121619.png",
@@ -990,7 +993,6 @@
     "BYOL.md",
     "Triplet Loss.md",
     "Markov Reward Process.md",
-    "Courses/Machine Learning/CS234/CS234 Lecture 3.md",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",
