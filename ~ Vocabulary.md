@@ -746,6 +746,7 @@
 - [[AlphaCode 2]]
 - [[AlphaGeometry]]
 - [[AlphaGo]]
+- [[AlphaZero]]
 - [[BART]] (Bidirectional and Auto-Regressive Transformers)
 - [[BERT]] (Bidirectional Encoder Representations from Transformers)
 - [[BLIP-2]] (Bootstrapping Language-Image Pretraining v2)
