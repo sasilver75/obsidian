@@ -686,6 +686,8 @@
 - [[Advantage Function]]
 - [[Advantage Function]]
 - [[Agent]]
+- [[Partial Observability]]
+- [[Partially-Observable Markov Decision Process]] (POMDP)
 - [[Bellman Equation]] 
 - [[Credit Assignment Problem]]
 - [[Deep Q-Networks]] (DQN)

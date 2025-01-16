@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "RoBERTa",
+      "path": "RoBERTa.md"
+    },
+    {
+      "basename": "DeBERTa",
+      "path": "DeBERTa.md"
+    },
+    {
+      "basename": "BERT",
+      "path": "BERT.md"
+    },
+    {
+      "basename": "Partial Observability",
+      "path": "Partial Observability.md"
+    },
+    {
+      "basename": "Partially-Observable Markov Decision Process",
+      "path": "Partially-Observable Markov Decision Process.md"
+    },
+    {
       "basename": "Introduction to RL",
       "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "Logistic Regression",
       "path": "Logistic Regression.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Bellman Equation",
@@ -179,26 +199,6 @@
     {
       "basename": "Chip Huyen Agents",
       "path": "Articles/Chip Huyen Agents.md"
-    },
-    {
-      "basename": "Building a Generative AI Platform",
-      "path": "Articles/Building a Generative AI Platform.md"
-    },
-    {
-      "basename": "Continued Pretraining",
-      "path": "Continued Pretraining.md"
-    },
-    {
-      "basename": "OLMo 2",
-      "path": "OLMo 2.md"
-    },
-    {
-      "basename": "Allen Institute",
-      "path": "Allen Institute.md"
-    },
-    {
-      "basename": "Self-Correction via Reinforcement Learning",
-      "path": "Self-Correction via Reinforcement Learning.md"
     }
   ],
   "omittedPaths": [],
