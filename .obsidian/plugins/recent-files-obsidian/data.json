@@ -5,12 +5,16 @@
       "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
     },
     {
-      "basename": "Policy Gradient",
-      "path": "Policy Gradient.md"
+      "basename": "Logistic Regression",
+      "path": "Logistic Regression.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Policy Gradient",
+      "path": "Policy Gradient.md"
     },
     {
       "basename": "Function Approximation",
@@ -195,10 +199,6 @@
     {
       "basename": "Mid-Training",
       "path": "Mid-Training.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     }
   ],
   "omittedPaths": [],
