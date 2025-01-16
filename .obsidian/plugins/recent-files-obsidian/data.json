@@ -5,12 +5,20 @@
       "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
     },
     {
+      "basename": "Model-Predictive Control",
+      "path": "Model-Predictive Control.md"
+    },
+    {
       "basename": "Logistic Regression",
       "path": "Logistic Regression.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Bellman Equation",
+      "path": "Bellman Equation.md"
     },
     {
       "basename": "Policy Gradient",
@@ -191,14 +199,6 @@
     {
       "basename": "Self-Correction via Reinforcement Learning",
       "path": "Self-Correction via Reinforcement Learning.md"
-    },
-    {
-      "basename": "Consistency Filtering",
-      "path": "Consistency Filtering.md"
-    },
-    {
-      "basename": "Mid-Training",
-      "path": "Mid-Training.md"
     }
   ],
   "omittedPaths": [],

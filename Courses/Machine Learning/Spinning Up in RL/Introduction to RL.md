@@ -1,7 +1,7 @@
 https://spinningup.openai.com/en/latest/spinningup/rl_intro.html
 
 --------------
-## Part 1: Key Concepts in RL
+# Part 1: Key Concepts in RL
 - The main characters of RL are the ==agent== and the ==environment==.
 	- The environment is the world that the agent lives in and interacts with.
 	- At every step of interaction, the agent sees a (possibly partial) observation of the state of the world, and decides on an action to take. The environment changes when the agent acts on it, but may also change on it own.
@@ -112,32 +112,179 @@ Here, $\underset{\pi}{max}$ means using the policy $\pi$ that gets the maximum e
 $Q^*(s,a) = \underset{\pi}{max}E_{\tau \sim \pi}[R(\tau | s_0=s, a_0=a)]$
 Meaning that we want to find the policy that maximizes the expected return of trajectories that start in state $s$ and take action $a$.
 
-### Relationship
+### Relationship between the optimal Q-function and the optimal Action
+By definition, our Q*(s,a) gives the expected return for starting in state s, taking an action a, and then acting according to the optimal policy forever after.
+- So how will that optimal policy act?
+	- The optimal policy in any state will select the action that maximizes the expected return from starting in $s$, since that's the definition of $V*$.
+
+So $a*(s) = \underset{a}{argmax}Q^*(s,a)$
+
+Note that if there are multiple actions that maximize Q(s,a), we can randomly select any of them.
+
+## Bellman Eqautions
+
+All four of the value function above obey self-consistency equations called the [[Bellman Equation]]s.
+
+
+The basic idea is this:
+> ==The value of your starting point is the reward you expect to get from being there, plus the value of wherever you end up next.==
+
+The Bellman-equations for the on-policy value functions are:
+
+![[Pasted image 20250115161915.png|400]]
+- For the state-value function: The value of being in a state $s$ and acting using policy $\pi$ is the expected reward of taking the action prescribed by the policy, followed by the discounted state-action value of the state that you end up in (as determined by some dynamics model).
+- For the action-value function: The value of being in a state and taking an action is the immediate expected return of taking an action, ending up in $s'$, plus the action-probability-weighted Q-value under our policy.
+
+The Bellman equations for the *optimal* value functions are:
+![[Pasted image 20250115162558.png]]
+The crucial difference between the Bellman equations for the on-policy value function and the optimal value functions is that here we've added the $max$ over actions.
+- This reflects the fact that ==Whenever the agent gets to choose its action, in order to act optimally, it has to pick whichever action leads to the highest value.==
+
+Note: The [[Bellman Backup]] for a state or a state-action pair is the ==right hand side== of the bellman equation -- it's the ==reward-plus-next-action==.
+
+## Advantage functions
+- Sometimes in RL we don't need to describe how good an action is in an absolute sense, but only how much better it is than others on average.
+- ==An [[Advantage Function]] $A^\pi(s,a)$ corresponding to a policy $\pi$ describes how much better it is to take a specific action $a$ in state $s$, over *randomly* selecting an action according to $\pi(\cdot|s)$, assuming that you act accordingly to $\pi$ forever after in either case.==
+
+$A^\pi = Q^\pi(s,a) - V^\pi(s)$
+So it's the excess value (positive or negative) of taking a specific action at a state (and then following policy $\pi$) *over* the expected value of being in the state in the first place (and just following policy $\pi$ from then on).
+
+Later, the ==advantage function will be crucially important to policy gradient methods!==
+
+
+# Part 2: Kinds of RL Algorithms
+
+![[Pasted image 20250115164013.png]]
+
+To make something that fits on a page and is reasonably digestible in an introduction essay, we've omitted some advanced material (exploration, transfer learning, meta-learning, etc.).
+
+Our goals here are:
+- To highlight the most foundational design choices in deep RL algorithms about what to learn and how to learn it.
+- To expose the trade-offs in those choices.
+- To place a few prominent modern algorithms into context with respect to those choices.
+
+### Model-Free vs Model-Based RL
+
+- ==Whether the agent has access to (or learns) a model of the environment==, meaning ==a function which predicts state transitions and rewards==, is an important branching point.
+
+- If we have a model of the environment, ==it allows the agent to plan by thinking ahead,== seeing what would happen for a range of possible choices, and explicitly deciding between its options.
+- ==Agents can then distill the results from planning ahead into a learned policy.==
+	- This is a form of [[Expert Iteration]]
+	- This is what is done in in [[AlphaZero]]; when this works, it can result in a substantial improvement in sample efficiency over methods that *don't* have a model.
+
+The main downside is that ==a ground-truth model of the environment is usually not available to the agent==, so if it *wants* to use a model in these situations, the agent ==has to learn the environment model purely from experience==, which has several challenges.
+- Model learning is fundamentally hard and can fail to pay off.
+
+Algorithms which use a model are called [[Model-Based]]
+Algorithms which don't use a model are called [[Model-Free]]
+
+While model-free methods forego the potential gains in sample efficiency from using a model, they tend to be ==easier to implement and tune==.
+
+### What to learn
+
+Another critical branching point is the question of **what to learn**:
+- Policies, either stochastic or deterministic
+- Action-Value Functions (Q Functions)
+- Value Functions (V Functions)
+- Environment Models
+
+### ... in Model-Free RL:
+
+There are two main approaches to representing and training agents:
+
+##### Policy optimization
+- Methods in this family represent a policy as $\pi_\theta(a|s)$; they optimize the parameters $\theta$ either directly by gradient ascent on the performance objective $J(\pi_\theta)$, or indirectly by maximizing local *approximations* of this $J(\pi_\theta)$ .
+- This is ==almost always performed on-policy==, meaning that each update only uses data collected while acting according to the most recent version of the policy.
+- Policy optimization also usually involves learning al approximator $V_{\phi}(s)$ for the on-policy value function $V^\pi(s)$, which gets used in figuring out how to update the policy.
+
+Examples:
+- A2C/A3C, which perform gradient ascent to directly maximize performance.
+- [[Proximal Policy Optimization|PPO]], whose updates indirectly maximize performance by instead maximizing a *surrogate objective function* which gives a conservative estimate for how much $J(\pi_\theta)$ will change as a result for the update.
+
+##### [[Q-Learning]]
+- Methods in this family learn an approximator $Q_{\theta}(s,a)$ for the optimal action-value function $Q^*(s,a)$.
+- Typically they use an objective based on the Bellman equation.
+- This optimization is ==almost always performed off-policy==, meaning that each update can use data collected at any point during training, regardless of how the agent was choosing to explore the environment when the data was obtained.
+
+The corresponding policy is obtained via the connection between $Q*$ and $\pi*$
+- The actions taken by the Q-learning agent are thus given as:
+
+$a(s) = \underset{a}{argmax} Q_\theta(s,a)$
+
+Examples:
+- [[Deep Q-Learning]], which launched the field of DeepRL
+- C51, a variant that learns a distribution over return whose expectation is Q*.
+
+
+==Tradeoffs between Policy Optimization and Q-Learning==
+- Policy Optimization is nice because you're *directly optimizing for the thing you want,* which tends to make them ==stable and reliable==.
+- Q-Learning methods only INDIRECTLY optimize for agent performance, by training $Q_{\theta}$ to satisfy a self-consistency equation. Many failure modes, so tends to be ==less stable==... but have the advantage of being ==more sample-efficient== when they do work, because they can be substantially more sample-efficient when they *do work*, because they can reuse data more effectively than policy optimization techniques.
+
+##### Interpolating between Policy Optimization and Q-Learning
+- There are a range of algorithms that live between the two extremes, carefully trading off betwen the strengths and weaknesses of both sides:
+	- DDPG
+	- SAC
+
+### What to learn in Model-Based RL
+- There aren't a small number of easy-to-define clusters of methods for model-based RL.
+- We'll give a few examples, but the list if far from exhaustive.
+
+Background: ==Pure Planning==
+- To most basic approach ==never== explicitly represents the policy, and uses pure planning techniques like [[Model-Predictive Control]] (MPC) to select actions.
+	- Each time the agent observes the environment, it compute a plan which is optimal with respect to the model, where the pan describes all actions to take over some fixed window of time after the present (with future rewards beyond the horizon being considered by the planning algorithm through some type of learned value function).
+	- The agent then executes the first plan of the action and immediately discards the rest of it, computing a new plan each time it prepares to interact with the environment, to avoid using an action frmo a plan with a shorter-than-desired planning horizon.
+
+==[[Expert Iteration]]==
+- A straightforward follow-on to pure planning involves using and learning an explicit representation of the policy $\pi_\theta(a|s).$
+- The agent uses a planning algorithm like [[Monte-Carlo Tree Search|MCTS]] in the model, generating ***candidate actions*** for the plan by sampling from its current policy.
+- The planning algorithm produces an action which is better than what the policy alone would have produced, hence it is an "expert" relative to the policy.
+	- Later, the policy is updated to produce an action more like the planning algorithm's output.
+- [[AlphaZero]] is another example of this.
+
+
+==Data Augmentation for Model-Free Methods==
+- Use a model-free RL algorithm to train a policy or Q-function, but either:
+1. Augment real experiences with fictitious ones in updating the agent
+2. Use ONLY fictitious experience for updating the agent
+Examples: MBVE and World Models
+
+==Embedding Planning Loops into Policies==
+- Another approach embeds the planning procedure directly into a policy as a subroutine, so that complete plans become side information to the policy, while training the output of the policy with any standard model-free algorithm.
+Examples: I2A
 
 
 
+# Part 3: Intro to Policy Optimization 
+
+Here, we'll discuss the mathematical foundations of ==Policy Optimization== algorithms, connecting the material sample code.
+
+We cover three results in the theory of [[Policy Gradient]]s:
+- The ==simplest equation== describing the gradient of policy performance with respect to policy parameteres
+- A rule which allows us to ==drop useless terms== frmo that expression
+- A rule which allows us to ==add useful terms== to that expression
+
+At the end we'll tie these together and describe the [[Advantage Function]]-based expression for the [[Policy Gradient]] -- the version we use in our Vanilla Policy Gradient implementation.
+
+#### Deriving the simplest policy gradient
+
+
+#### Implementing the simplest policy gradient
 
 
 
+#### Expected Grad-Log-Prob Lemma
+
+
+#### Don't Let the Past Distract You
 
 
 
+### Implementing Reward-to-Go Policy Gradient
 
 
 
+#### Baselines in Policy Gradients
 
 
+#### Other forms of the policy gradient
 
-
-
-
-
-
-
-
-
-## Part 2: Kinds of RL Algorithms
-- 
-
-# Part 3: Intro to Policy Optimization
-- 

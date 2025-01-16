@@ -1,3 +1,6 @@
+A ==Discriminative== model that learns p(y|x)
+- Note that 
+
 
 Assumes independence between all the records  that we're training on.
 
@@ -8,6 +11,3 @@ $\hat{w} = \underset{w}{min} L(w)$
 $L(w) = -\sum_{i=1}^N log(p(y_i|x_i))$
 
 Minimizing the negative log is the same as maximizing the function, as long as the function.
-
-==Cannot be solved for directly==
-
