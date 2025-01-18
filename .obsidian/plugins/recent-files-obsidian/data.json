@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Partial Observability",
+      "path": "Partial Observability.md"
+    },
+    {
+      "basename": "Model-Predictive Control",
+      "path": "Model-Predictive Control.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Mean Squared Error",
+      "path": "Mean Squared Error.md"
+    },
+    {
+      "basename": "Partially-Observable Markov Decision Process",
+      "path": "Partially-Observable Markov Decision Process.md"
+    },
+    {
+      "basename": "Introduction to RL",
+      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "RoBERTa",
@@ -15,22 +39,6 @@
     {
       "basename": "BERT",
       "path": "BERT.md"
-    },
-    {
-      "basename": "Partial Observability",
-      "path": "Partial Observability.md"
-    },
-    {
-      "basename": "Partially-Observable Markov Decision Process",
-      "path": "Partially-Observable Markov Decision Process.md"
-    },
-    {
-      "basename": "Introduction to RL",
-      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
-    },
-    {
-      "basename": "Model-Predictive Control",
-      "path": "Model-Predictive Control.md"
     },
     {
       "basename": "Logistic Regression",
@@ -55,10 +63,6 @@
     {
       "basename": "CS234 Lecture 4",
       "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
-    },
-    {
-      "basename": "Mean Squared Error",
-      "path": "Mean Squared Error.md"
     },
     {
       "basename": "SARSA",
@@ -195,10 +199,6 @@
     {
       "basename": "Prompt Caching",
       "path": "Prompt Caching.md"
-    },
-    {
-      "basename": "Chip Huyen Agents",
-      "path": "Articles/Chip Huyen Agents.md"
     }
   ],
   "omittedPaths": [],
