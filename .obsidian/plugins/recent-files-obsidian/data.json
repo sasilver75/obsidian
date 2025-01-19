@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Policy Gradient",
-      "path": "Policy Gradient.md"
+      "basename": "Introduction to RL",
+      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
     },
     {
-      "basename": "Reinforcement Finetuning",
-      "path": "Reinforcement Finetuning.md"
+      "basename": "Model Predictive Control",
+      "path": "Model Predictive Control.md"
+    },
+    {
+      "basename": "Lecture 5 Notes",
+      "path": "Courses/Machine Learning/Deepmind x URL RL/Lecture 5 Notes.md"
+    },
+    {
+      "basename": "Lecture 3 Notes",
+      "path": "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Lecture 3 Notes",
-      "path": "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md"
+      "basename": "CS234 Lecture 3",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 3.md"
+    },
+    {
+      "basename": "Lecture 3",
+      "path": "Courses/UCSC/NLP201 NLP I/Lecture 3.md"
+    },
+    {
+      "basename": "Logistic Regression",
+      "path": "Logistic Regression.md"
+    },
+    {
+      "basename": "Markov Assumption",
+      "path": "Markov Assumption.md"
+    },
+    {
+      "basename": "Markov Decision Process",
+      "path": "Markov Decision Process.md"
+    },
+    {
+      "basename": "Partially-Observable Markov Decision Process",
+      "path": "Partially-Observable Markov Decision Process.md"
+    },
+    {
+      "basename": "Policy Gradient",
+      "path": "Policy Gradient.md"
+    },
+    {
+      "basename": "Reinforcement Finetuning",
+      "path": "Reinforcement Finetuning.md"
     },
     {
       "basename": "Reinforcement Learning from Verifiable Rewards",
@@ -49,10 +85,6 @@
       "path": "UPR.md"
     },
     {
-      "basename": "Partially-Observable Markov Decision Process",
-      "path": "Partially-Observable Markov Decision Process.md"
-    },
-    {
       "basename": "CS234 Lecture 4",
       "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
     },
@@ -77,16 +109,8 @@
       "path": "Partial Observability.md"
     },
     {
-      "basename": "Model-Predictive Control",
-      "path": "Model-Predictive Control.md"
-    },
-    {
       "basename": "Mean Squared Error",
       "path": "Mean Squared Error.md"
-    },
-    {
-      "basename": "Introduction to RL",
-      "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
     },
     {
       "basename": "RoBERTa",
@@ -99,10 +123,6 @@
     {
       "basename": "BERT",
       "path": "BERT.md"
-    },
-    {
-      "basename": "Logistic Regression",
-      "path": "Logistic Regression.md"
     },
     {
       "basename": "Bellman Equation",
@@ -175,30 +195,6 @@
     {
       "basename": "BYOL",
       "path": "BYOL.md"
-    },
-    {
-      "basename": "Triplet Loss",
-      "path": "Triplet Loss.md"
-    },
-    {
-      "basename": "Markov Reward Process",
-      "path": "Markov Reward Process.md"
-    },
-    {
-      "basename": "CS234 Lecture 3",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 3.md"
-    },
-    {
-      "basename": "Self-Taught Reasoner",
-      "path": "Self-Taught Reasoner.md"
-    },
-    {
-      "basename": "Reinforcement Learning",
-      "path": "Reinforcement Learning.md"
-    },
-    {
-      "basename": "CS234 Lecture 2",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 2.md"
     }
   ],
   "omittedPaths": [],
