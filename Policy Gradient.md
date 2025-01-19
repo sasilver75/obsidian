@@ -171,4 +171,36 @@ But whoah, where did that come from? :) It's a big old proof, but let's break it
 				- \pi_\theta depends on theta
 				- The returns of a trajectory depends on theta as well
 
-But why are we introducing this log thing at all if we're able to simplify it to something much simpler, as 
+But why are we introducing this log thing at the top at all if we're able to simplify it to something much simpler, as we showed just above?
+- If we now expand what it means to calculate the probability of a trajectory under a policy characteized by theta... we will understand!
+
+(See blue under purple in image)
+What's the probability of a trajectory under a policy?
+- There's a probability of an ainitial state S_0
+- For each timestep, the action we take depends only on the state of the timestep.
+- At every timestep, when we take an action from a state, we have some environment that will give us both a new reward and a new state, probabilistically. 
+
+We do a trick that we often do in such situations, where we appeal to the log... so that we can turn our products into sums of logs!
+Now things are going to get really awesome... because now we can take our derivative with respect to the log..
+
+![[Pasted image 20250118181448.png]]
+
+![[Pasted image 20250118181623.png]]
+Above: $\mathbb{P}$ is just the policy
+
+These crossed out ones don't depend on our policy.
+If we had to care about these, then we would have had to model the environment!
+So to optimize our policy, we don't actually have to care about the environment, in a sense!
+The environment is notoriously difficult to model.
+So it's an awesome property that makes these policfy gradient techniques useful in the real world -- they're [[Model-Free]]!
+
+It reduces to this thing that we see at the end of the blue.
+
+Recap:
+- To find the derivative our of this expected reward function J with respect to our policy parameters Theta,
+- Then by the policfy gradient theorem, it's going to be this $\pi_\theta(\tau)$, our $R(\tau)$, and finally we can substitute into where our derivative $\frac{\partial}{\partial\theta}[log \pi_\theta(\tau)]$ is, instead have the value $\sum_{t=0}^T \frac{\partial}{\partial \theta}log[\mathbb{P}(A_t|S_t]$ 
+	- (I think his $\mathbb{P}$ is supposed to be his policy lol)
+
+The first term $\pi_\theta(\tau)$ is probability of the trajectory, and the rest of the term is some measure of that trajectory, and so we put the measure on the inside and we can wrap the entire thing into an expected value.
+
+Policy Gradient methods are popularly used in a method called [[Proximal Policy Optimization]], or PPO, which is based on this same theory that says: "If I want my agent to learn an optimal policy to solve some RL problem, it suffices to take the derivative of the expected reward with respect to the parameters that define my policy..." and doing so reduces to basically just taking the derivative of the log of our policy with respect to theta.

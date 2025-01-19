@@ -230,7 +230,7 @@ Examples:
 - We'll give a few examples, but the list if far from exhaustive.
 
 Background: ==Pure Planning==
-- To most basic approach ==never== explicitly represents the policy, and uses pure planning techniques like [[Model-Predictive Control]] (MPC) to select actions.
+- To most basic approach ==never== explicitly represents the policy, and uses pure planning techniques like [[Model Predictive Control]] (MPC) to select actions.
 	- Each time the agent observes the environment, it compute a plan which is optimal with respect to the model, where the pan describes all actions to take over some fixed window of time after the present (with future rewards beyond the horizon being considered by the planning algorithm through some type of learned value function).
 	- The agent then executes the first plan of the action and immediately discards the rest of it, computing a new plan each time it prepares to interact with the environment, to avoid using an action frmo a plan with a shorter-than-desired planning horizon.
 

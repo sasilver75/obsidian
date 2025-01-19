@@ -13,36 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "cc41bf7627813b2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logistic Regression.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Logistic Regression"
-            }
-          },
-          {
-            "id": "0791851c9073d597",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
                 "mode": "source",
                 "backlinks": true,
@@ -53,18 +23,33 @@
             }
           },
           {
-            "id": "253a1f7e20bd9be0",
+            "id": "0791851c9073d597",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Partially-Observable Markov Decision Process.md",
+                "file": "Markov Assumption.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Partially-Observable Markov Decision Process"
+              "title": "Markov Assumption"
+            }
+          },
+          {
+            "id": "253a1f7e20bd9be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Decision Process.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Markov Decision Process"
             }
           },
           {
@@ -262,8 +247,7 @@
               "title": "~ Vocabulary"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -1120,45 +1104,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e33acdb3a7151c0c",
+  "active": "22ef767c3196f30d",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20250118180253.png",
-    "_attachments/Pasted image 20250118175307.png",
-    "_attachments/Pasted image 20250118170444.png",
-    "Reinforcement Finetuning.md",
-    "~ Vocabulary.md",
+    "Model-Predictive Control.md",
+    "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
+    "Model Predictive Control.md",
+    "Courses/Machine Learning/Deepmind x URL RL/Lecture 5 Notes.md",
+    "_attachments/Pasted image 20250118202231.png",
+    "_attachments/Pasted image 20250118202138.png",
+    "_attachments/Pasted image 20250118200348.png",
+    "_attachments/Pasted image 20250118200057.png",
+    "_attachments/Pasted image 20250118200021.png",
     "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md",
+    "_attachments/Pasted image 20250118194737.png",
+    "_attachments/Pasted image 20250118194534.png",
+    "_attachments/Pasted image 20250118194002.png",
+    "~ Vocabulary.md",
+    "Courses/Machine Learning/CS234/CS234 Lecture 3.md",
+    "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
+    "Logistic Regression.md",
+    "Markov Assumption.md",
+    "Markov Decision Process.md",
+    "_attachments/Pasted image 20250118193932.png",
+    "_attachments/Pasted image 20250118193836.png",
+    "Partially-Observable Markov Decision Process.md",
+    "Policy Gradient.md",
+    "Reinforcement Finetuning.md",
     "Reinforcement Learning from Verifiable Rewards.md",
-    "_attachments/Pasted image 20250118165016.png",
-    "_attachments/Pasted image 20250118164902.png",
-    "_attachments/Pasted image 20250118164744.png",
-    "_attachments/Pasted image 20250118164734.png",
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20250118162324.png",
-    "_attachments/Pasted image 20250118162242.png",
     "Courses/Machine Learning/Untitled.md",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Regret.md",
-    "_attachments/Pasted image 20250118154439.png",
-    "_attachments/Pasted image 20250118154040.png",
     "Thompson Sampling.md",
     "Bayesian Statistics.md",
     "Upper Confidence Bound.md",
     "UPR.md",
-    "Policy Gradient.md",
-    "Partially-Observable Markov Decision Process.md",
     "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
     "Log-Likelihood Trick.md",
     "Epsilon-Greedy.md",
     "Q-Function.md",
-    "Multi-Armed Bandit.md",
-    "Partial Observability.md",
-    "Model-Predictive Control.md",
-    "Mean Squared Error.md",
-    "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
-    "RoBERTa.md",
-    "DeBERTa.md",
-    "BERT.md",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",
