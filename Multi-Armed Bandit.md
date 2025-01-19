@@ -6,6 +6,8 @@ aliases:
 
 A Bandit refers to a type of problem known as the [[Multi-Armed Bandit]] problem, which imagines a gambler at a row of slot machines (one-armed bandits), trying to determine which machine offers the best payout.
 
+![[Pasted image 20250118122001.png|400]]
+
 Variants: 
 - Stochastic Bandits: Rewards are random variables (Usually the default)
 - Adversarial Bandits: Rewards can be chosen by an adversary.
@@ -16,7 +18,7 @@ Use cases:
 - Clinical trials (which treatment to test?)
 - Recommendation systems (which item to recommend?)
 
-At the center of Bandit problems is the tension between exploration and exploitation.
+At the center of Bandit problems is the tension between ==exploration and exploitation== ([[Exploration-Exploitation Tradeoff]]).
 - Without an appropriate amount of exploring, it's possible that we won't learn the true distribution of an individual bandit's returns before we decide to "lock in" and exploit what we've learned.
 - At the same time, an "fully-baked" optimal policy can't be one that has a(n, eg, stochastic) component of exploration to it.
 

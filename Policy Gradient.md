@@ -110,3 +110,14 @@ Limited by the fact that it can only perform a *single policy update* for each e
 
 
 ![[Pasted image 20240625232923.png]]
+
+
+
+--------
+
+https://youtu.be/aQJP3Z2Ho8U?si=wmVyQWbWLsPd2nfc&t=2767
+
+We can modify policy gradients slightly by changing the mean of the reward, in some sense;
+
+![[Pasted image 20250118133114.png]]
+This doesn't change the expected direction of the gradients, but it *can* change the variance of the updates!

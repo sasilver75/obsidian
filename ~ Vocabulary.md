@@ -38,6 +38,7 @@
 - [[Multiplication Rule of Probability]]
 - [[Naive Definition of Probability]]
 - [[Bayes Theorem]]
+- [[Bayesian Statistics]]
 - [[Bayesian Network]]
 - [[Gaussian Mixture Model]] (GMM)
 - [[Gaussian Process]]
@@ -165,12 +166,14 @@
 - [[Standard Error]]
 
 # Machine Learning/General
+- [[Reinforcement Finetuning]]
 - [[Graph Neural Network]]
 - [[Language Model]]
 - [[Long Short Term Memory]] (LSTM)
 - [[Gradient Clipping]]
 - [[Data Augmentation]]
 - [[Gradual Unfreezing]]
+- [[Reinforcement Learning from Verifiable Rewards]] (RLVR)
 - [[Discriminative Learning Rate]]
 - [[Gated Recurrent Unit]] (GRU)
 - [[In-Context Learning]]
@@ -736,7 +739,8 @@
 - [[Value Iteration]]
 - [[Value Learning]] vs [[Policy Learning]]
 - [[Function Approximation]]
-
+- [[Regret]]
+- [[Exploration-Exploitation Tradeoff]]
 
 # Models
 - [[Ada-Instruct]]

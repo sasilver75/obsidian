@@ -1,6 +1,78 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Reinforcement Finetuning",
+      "path": "Reinforcement Finetuning.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Verifiable Rewards",
+      "path": "Reinforcement Learning from Verifiable Rewards.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Lecture 3 Notes",
+      "path": "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Courses/Machine Learning/Untitled.md"
+    },
+    {
+      "basename": "Regret",
+      "path": "Regret.md"
+    },
+    {
+      "basename": "Thompson Sampling",
+      "path": "Thompson Sampling.md"
+    },
+    {
+      "basename": "Bayesian Statistics",
+      "path": "Bayesian Statistics.md"
+    },
+    {
+      "basename": "Upper Confidence Bound",
+      "path": "Upper Confidence Bound.md"
+    },
+    {
+      "basename": "UPR",
+      "path": "UPR.md"
+    },
+    {
+      "basename": "Policy Gradient",
+      "path": "Policy Gradient.md"
+    },
+    {
+      "basename": "Partially-Observable Markov Decision Process",
+      "path": "Partially-Observable Markov Decision Process.md"
+    },
+    {
+      "basename": "CS234 Lecture 4",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
+    },
+    {
+      "basename": "Log-Likelihood Trick",
+      "path": "Log-Likelihood Trick.md"
+    },
+    {
+      "basename": "Epsilon-Greedy",
+      "path": "Epsilon-Greedy.md"
+    },
+    {
+      "basename": "Q-Function",
+      "path": "Q-Function.md"
+    },
+    {
+      "basename": "Multi-Armed Bandit",
+      "path": "Multi-Armed Bandit.md"
+    },
+    {
       "basename": "Partial Observability",
       "path": "Partial Observability.md"
     },
@@ -9,24 +81,12 @@
       "path": "Model-Predictive Control.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "Mean Squared Error",
       "path": "Mean Squared Error.md"
     },
     {
-      "basename": "Partially-Observable Markov Decision Process",
-      "path": "Partially-Observable Markov Decision Process.md"
-    },
-    {
       "basename": "Introduction to RL",
       "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "RoBERTa",
@@ -49,20 +109,12 @@
       "path": "Bellman Equation.md"
     },
     {
-      "basename": "Policy Gradient",
-      "path": "Policy Gradient.md"
-    },
-    {
       "basename": "Function Approximation",
       "path": "Function Approximation.md"
     },
     {
       "basename": "CS234 Vocabulary (+David Silver)",
       "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
-    },
-    {
-      "basename": "CS234 Lecture 4",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
     },
     {
       "basename": "SARSA",
@@ -91,10 +143,6 @@
     {
       "basename": "Monte-Carlo",
       "path": "Monte-Carlo.md"
-    },
-    {
-      "basename": "Q-Function",
-      "path": "Q-Function.md"
     },
     {
       "basename": "Policy Improvement",
@@ -151,54 +199,6 @@
     {
       "basename": "CS234 Lecture 2",
       "path": "Courses/Machine Learning/CS234/CS234 Lecture 2.md"
-    },
-    {
-      "basename": "CS234 Lecture 1",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 1.md"
-    },
-    {
-      "basename": "Kevin Murphy's Reinforcement Learning - An Overview",
-      "path": "Papers/RL/Kevin Murphy's Reinforcement Learning - An Overview.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}",
-      "path": "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
-    },
-    {
-      "basename": "Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}",
-      "path": "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
-    },
-    {
-      "basename": "Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}",
-      "path": "Articles/Modern AI is Domestification (May 2023) {Ted Xiao, Deepmind}.md"
-    },
-    {
-      "basename": "LLaMA",
-      "path": "LLaMA.md"
-    },
-    {
-      "basename": "GenQA",
-      "path": "GenQA.md"
-    },
-    {
-      "basename": "Alpaca",
-      "path": "Alpaca.md"
-    },
-    {
-      "basename": "Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}",
-      "path": "Articles/Frontiers in Synthetic Data (Jun 21,  2024) {Nathan Lambert, Interconnects}.md"
-    },
-    {
-      "basename": "Prompt Caching",
-      "path": "Prompt Caching.md"
     }
   ],
   "omittedPaths": [],
