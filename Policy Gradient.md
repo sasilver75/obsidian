@@ -7,6 +7,7 @@ aliases:
 
 References:
 - Video: [Mutual Information's Policy Gradient Methods](https://youtu.be/e20EY4tFC_Q?si=1bTNBR08Qu9PqExQ)
+- Video: [RitvikMath's Policy Gradient](https://youtu.be/k5AnU_zFkac?si=xmEND6QFEYxzPHRo) 
 
 -------
 
@@ -121,3 +122,53 @@ We can modify policy gradients slightly by changing the mean of the reward, in s
 
 ![[Pasted image 20250118133114.png]]
 This doesn't change the expected direction of the gradients, but it *can* change the variance of the updates!
+
+
+--------
+
+From RitvikMath's [video](https://youtu.be/k5AnU_zFkac?si=xmEND6QFEYxzPHRo)
+
+![[Pasted image 20250118170444.png]]
+- You're a manager at some sort
+- "More" and "Less" are our actions
+- Our State, p, is the change in demand for the product
+- The rewards are a function of the state of the world and the action we take!
+	- Rewards are positive if e.g.
+		- Demand is growing and we order more of the product
+		- Demand is shrinking as we order less of the product
+	- Rewards are negative in the complement cases
+
+We have everything we need to get started thinking about what it means to solve the problem.
+
+![[Pasted image 20250118175307.png]]
+Let's have a single parameter $\theta$ that we multiply with $p$ (our state) and pipe through a sigmoid $\sigma$ to get the probability of taking the MORE action.
+
+$\pi(MORE|p,\theta) = \sigma(\theta p)$ 
+
+We're mapping the state of the world to the probability of taking an action in the current timestep. This [[Policy]] is something that lets us look at the state of the world and say what we're going to do next.
+
+How should we find the best policy?
+- In normal ML, we're used to define some sort of loss, and then derive the parameter(s) of our policy with respect to the loss and move such to minimize the parameters.
+- Here, we're going to set up some function $J(\theta)$ which is equal to the expected total reward of the policy: $\mathbb{E}_\theta$. Since this is a measure of the expected total reward, we want to *maximize* this; we do gradient ascent!
+	- Note, this expected value is over all trajectories $\tau$ that result from following our policy $\pi_\theta$ 
+	- These trajectories all have different probabilities and different individual rewards, so we can turn the expectation of the rewards into this summation that we see in the bottom of the image.
+
+If we can find $\frac{\partial J}{\partial \theta}$ , then we can use gradient ascent to figure out the ideal policy!
+But how do we get the expectation of expected total reward?
+
+![[Pasted image 20250118180253.png]]
+Above: The [[Policy Gradient]] theorem, finding the expected total reward
+- Statement: The expected total reward is equal to the summation overall trajectories of the probability of the trajectory of the individual trajectory, times the derivative (now brought into) of the log of the probability of the trajectory times the total reward of the trajectory.
+
+But whoah, where did that come from? :) It's a big old proof, but let's break it down
+- If I take the first part of the term, $\pi_\theta(\tau)\frac{\partial}{\partial \theta}[log \pi_\theta(\tau)]$ 
+	- We see in purple that we can simplify this a little bit
+		- Appealing of the definition of the derivative of a log(x) is 1/x * x', where here x is $\pi_\theta(\tau)$.
+		- So we can simplify this whole thing to $\frac{\partial}{\partial \theta}\pi_\theta(\tau)$ 
+		- So if we then plug that in to replace the original term  $\pi_\theta(\tau)\frac{\partial}{\partial \theta}[log \pi_\theta(\tau)]$ 
+		- Then you can see that we get something pretty similar to our original formula for $\frac{\partial J}{\partial \theta} = \frac{\partial}{\partial \theta}\mathbb{E_\theta}R(\tau) = \frac{\partial}{\partial \theta}\sum_\tau \pi_\theta(\tau)R(\tau)$ ... looks pretty similar.
+			- Technically here, this derivative applies to both of these terms though!
+				- \pi_\theta depends on theta
+				- The returns of a trajectory depends on theta as well
+
+But why are we introducing this log thing at all if we're able to simplify it to something much simpler, as 
