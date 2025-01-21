@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "~ Recommendations",
+      "path": "~ Recommendations.md"
+    },
+    {
+      "basename": "Recommendation Systems",
+      "path": "Recommendation Systems.md"
+    },
+    {
       "basename": "Introduction to RL",
       "path": "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Self-Supervised Learning",
       "path": "Self-Supervised Learning.md"
-    },
-    {
-      "basename": "BYOL",
-      "path": "BYOL.md"
     }
   ],
   "omittedPaths": [],
