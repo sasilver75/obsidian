@@ -1049,12 +1049,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c872e653c15e956d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 70
+        "currentTab": 71
       },
       {
         "id": "8a022290161ffefa",
@@ -1115,7 +1125,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "22ef767c3196f30d",
+  "active": "c872e653c15e956d",
   "lastOpenFiles": [
     "Recommendation Systems.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
