@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Recommendations.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~ Recommendations"
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "cffb368ba4ae4150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maximal Update Parameterization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Maximal Update Parameterization"
             }
           },
           {
@@ -247,7 +262,8 @@
               "title": "~ Vocabulary"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1059,12 +1075,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7ae2ff15b232bc77",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 71
+        "currentTab": 72
       },
       {
         "id": "8a022290161ffefa",
@@ -1125,8 +1151,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c872e653c15e956d",
+  "active": "cffb368ba4ae4150",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Maximal Update Parameterization.md",
+    "~ Recommendations.md",
     "Recommendation Systems.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
     "Model-Predictive Control.md",
@@ -1141,7 +1170,6 @@
     "_attachments/Pasted image 20250118194737.png",
     "_attachments/Pasted image 20250118194534.png",
     "_attachments/Pasted image 20250118194002.png",
-    "~ Vocabulary.md",
     "Courses/Machine Learning/CS234/CS234 Lecture 3.md",
     "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
     "Logistic Regression.md",
@@ -1162,8 +1190,6 @@
     "Upper Confidence Bound.md",
     "UPR.md",
     "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
-    "Log-Likelihood Trick.md",
-    "Epsilon-Greedy.md",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",
