@@ -370,6 +370,7 @@
 - [[Context Parallelism]]
 - [[Sequence Parallelism]]
 - [[Fully Sharded Data Parallelism]] (FSDP)
+- [[Maximal Update Parameterization]]
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
