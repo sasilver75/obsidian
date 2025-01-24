@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maximal Update Parameterization.md",
+                "file": "GLUE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maximal Update Parameterization"
+              "title": "GLUE"
             }
           },
           {
@@ -1085,12 +1085,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7a2e19f9da89b5d2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 72
+        "currentTab": 73
       },
       {
         "id": "8a022290161ffefa",
@@ -1153,8 +1163,13 @@
   },
   "active": "cffb368ba4ae4150",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "SWAG.md",
+    "GLUE.md",
+    "Winogrande.md",
+    "Winograd.md",
+    "MNLI.md",
     "Maximal Update Parameterization.md",
+    "~ Vocabulary.md",
     "~ Recommendations.md",
     "Recommendation Systems.md",
     "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
@@ -1185,11 +1200,6 @@
     "Courses/Machine Learning/Untitled.md",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Regret.md",
-    "Thompson Sampling.md",
-    "Bayesian Statistics.md",
-    "Upper Confidence Bound.md",
-    "UPR.md",
-    "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",
