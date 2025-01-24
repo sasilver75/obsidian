@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "GLUE",
+      "path": "GLUE.md"
+    },
+    {
+      "basename": "SWAG",
+      "path": "SWAG.md"
+    },
+    {
+      "basename": "Winogrande",
+      "path": "Winogrande.md"
+    },
+    {
+      "basename": "Winograd",
+      "path": "Winograd.md"
+    },
+    {
+      "basename": "MNLI",
+      "path": "MNLI.md"
+    },
+    {
       "basename": "Maximal Update Parameterization",
       "path": "Maximal Update Parameterization.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Policy Improvement",
       "path": "Policy Improvement.md"
-    },
-    {
-      "basename": "Importance Sampling",
-      "path": "Importance Sampling.md"
-    },
-    {
-      "basename": "Contrastive Loss",
-      "path": "Contrastive Loss.md"
-    },
-    {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Entropy.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
     }
   ],
   "omittedPaths": [],
