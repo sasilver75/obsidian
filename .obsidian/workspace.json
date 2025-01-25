@@ -1095,12 +1095,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7008ca958b873a3a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 73
+        "currentTab": 74
       },
       {
         "id": "8a022290161ffefa",
@@ -1161,7 +1171,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cffb368ba4ae4150",
+  "active": "7008ca958b873a3a",
   "lastOpenFiles": [
     "SWAG.md",
     "GLUE.md",
