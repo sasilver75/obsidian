@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
+    },
+    {
       "basename": "GLUE",
       "path": "GLUE.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Monte-Carlo",
       "path": "Monte-Carlo.md"
-    },
-    {
-      "basename": "Policy Improvement",
-      "path": "Policy Improvement.md"
     }
   ],
   "omittedPaths": [],
