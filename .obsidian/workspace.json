@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GLUE.md",
+                "file": "Retrieval-Augmented Generation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GLUE"
+              "title": "Retrieval-Augmented Generation"
             }
           },
           {
@@ -294,7 +294,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cs234",
+                "query": "out of date",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -326,12 +326,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1105,12 +1104,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7fc2a7efad8f1c93",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 74
+        "currentTab": 75
       },
       {
         "id": "8a022290161ffefa",
@@ -1171,10 +1180,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7008ca958b873a3a",
+  "active": "7060ea3bb41d02c2",
   "lastOpenFiles": [
-    "SWAG.md",
     "GLUE.md",
+    "SWAG.md",
     "Winogrande.md",
     "Winograd.md",
     "MNLI.md",
