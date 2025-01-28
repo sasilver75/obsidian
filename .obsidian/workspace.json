@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Retrieval-Augmented Generation.md",
+                "file": "Speculative Decoding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Retrieval-Augmented Generation"
+              "title": "Speculative Decoding"
             }
           },
           {
@@ -326,7 +326,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1114,12 +1114,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "5bab3c13b266bfe1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 75
+        "currentTab": 76
       },
       {
         "id": "8a022290161ffefa",
@@ -1180,8 +1190,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7060ea3bb41d02c2",
+  "active": "cffb368ba4ae4150",
   "lastOpenFiles": [
+    "Retrieval-Augmented Generation.md",
     "GLUE.md",
     "SWAG.md",
     "Winogrande.md",
@@ -1218,7 +1229,6 @@
     "~ Useful Pictures.md",
     "Courses/Machine Learning/Untitled.md",
     "Courses/Machine Learning/Deepmind x URL RL",
-    "Regret.md",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",
