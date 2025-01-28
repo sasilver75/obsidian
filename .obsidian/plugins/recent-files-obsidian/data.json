@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "R1",
+      "path": "R1.md"
+    },
+    {
+      "basename": "Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}",
+      "path": "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "AIME",
+      "path": "AIME.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Evol-Instruct Feedback",
+      "path": "Reinforcement Learning from Evol-Instruct Feedback.md"
+    },
+    {
+      "basename": "Epsilon-Greedy",
+      "path": "Epsilon-Greedy.md"
+    },
+    {
+      "basename": "Log-Likelihood Trick",
+      "path": "Log-Likelihood Trick.md"
+    },
+    {
+      "basename": "CS234 Lecture 4",
+      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
+    },
+    {
+      "basename": "Upper Confidence Bound",
+      "path": "Upper Confidence Bound.md"
+    },
+    {
+      "basename": "Thompson Sampling",
+      "path": "Thompson Sampling.md"
+    },
+    {
+      "basename": "Reinforcement Learning from Verifiable Rewards",
+      "path": "Reinforcement Learning from Verifiable Rewards.md"
+    },
+    {
+      "basename": "Policy Gradient",
+      "path": "Policy Gradient.md"
+    },
+    {
+      "basename": "Lecture 3 Notes",
+      "path": "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md"
+    },
+    {
+      "basename": "Markov Decision Process",
+      "path": "Markov Decision Process.md"
+    },
+    {
+      "basename": "Markov Assumption",
+      "path": "Markov Assumption.md"
+    },
+    {
+      "basename": "DeepSeek V3",
+      "path": "DeepSeek V3.md"
+    },
+    {
       "basename": "Speculative Decoding",
       "path": "Speculative Decoding.md"
     },
@@ -33,10 +97,6 @@
       "path": "Maximal Update Parameterization.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
       "basename": "~ Recommendations",
       "path": "~ Recommendations.md"
     },
@@ -57,10 +117,6 @@
       "path": "Courses/Machine Learning/Deepmind x URL RL/Lecture 5 Notes.md"
     },
     {
-      "basename": "Lecture 3 Notes",
-      "path": "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md"
-    },
-    {
       "basename": "CS234 Lecture 3",
       "path": "Courses/Machine Learning/CS234/CS234 Lecture 3.md"
     },
@@ -73,28 +129,12 @@
       "path": "Logistic Regression.md"
     },
     {
-      "basename": "Markov Assumption",
-      "path": "Markov Assumption.md"
-    },
-    {
-      "basename": "Markov Decision Process",
-      "path": "Markov Decision Process.md"
-    },
-    {
       "basename": "Partially-Observable Markov Decision Process",
       "path": "Partially-Observable Markov Decision Process.md"
     },
     {
-      "basename": "Policy Gradient",
-      "path": "Policy Gradient.md"
-    },
-    {
       "basename": "Reinforcement Finetuning",
       "path": "Reinforcement Finetuning.md"
-    },
-    {
-      "basename": "Reinforcement Learning from Verifiable Rewards",
-      "path": "Reinforcement Learning from Verifiable Rewards.md"
     },
     {
       "basename": "~ Useful Pictures",
@@ -109,32 +149,12 @@
       "path": "Regret.md"
     },
     {
-      "basename": "Thompson Sampling",
-      "path": "Thompson Sampling.md"
-    },
-    {
       "basename": "Bayesian Statistics",
       "path": "Bayesian Statistics.md"
     },
     {
-      "basename": "Upper Confidence Bound",
-      "path": "Upper Confidence Bound.md"
-    },
-    {
       "basename": "UPR",
       "path": "UPR.md"
-    },
-    {
-      "basename": "CS234 Lecture 4",
-      "path": "Courses/Machine Learning/CS234/CS234 Lecture 4.md"
-    },
-    {
-      "basename": "Log-Likelihood Trick",
-      "path": "Log-Likelihood Trick.md"
-    },
-    {
-      "basename": "Epsilon-Greedy",
-      "path": "Epsilon-Greedy.md"
     },
     {
       "basename": "Q-Function",
@@ -175,30 +195,6 @@
     {
       "basename": "CS234 Vocabulary (+David Silver)",
       "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
-    },
-    {
-      "basename": "SARSA",
-      "path": "SARSA.md"
-    },
-    {
-      "basename": "Generalized Policy Iteration",
-      "path": "Generalized Policy Iteration.md"
-    },
-    {
-      "basename": "Temporal Difference Learning",
-      "path": "Temporal Difference Learning.md"
-    },
-    {
-      "basename": "Q-Learning",
-      "path": "Q-Learning.md"
-    },
-    {
-      "basename": "Monte-Carlo Learning",
-      "path": "Monte-Carlo Learning.md"
-    },
-    {
-      "basename": "Conditional Random Field",
-      "path": "Conditional Random Field.md"
     }
   ],
   "omittedPaths": [],

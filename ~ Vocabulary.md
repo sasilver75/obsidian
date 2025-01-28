@@ -781,7 +781,8 @@
 - [[DeBERTa]] (Decoding-enhanced BERT with Disentangled Attention)
 - [[DeepSeek-Coder]]
 - [[DeepSeek-Coder-V2]]
-- [[DeepSeekMath
+- [[DeepSeekMath]]
+- [[DeepSeek MoE]]
 - [[DeepSeek-VL]]
 - [[DeepSeek V2.5]]
 - [[DeepSeek V3]]
@@ -919,6 +920,9 @@
 - [[Qwen 2.5]] (incl. Coder and Math)
 - [[QwQ]]
 - [[QvQ]]
+- [[R1-Lite]]
+- [[R1]]
+- [[R1|R1-Zero]]
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
@@ -1118,6 +1122,7 @@
 
 # Datasets
 *Datasets for training/finetuning models*
+- [[AIME]]
 - [[C4]] (Colossal, Cleaned Common Crawl)
 - [[CantTalkAboutThis]]
 - [[Capybara Dataset]]

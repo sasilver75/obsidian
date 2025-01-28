@@ -90,7 +90,7 @@ Authors did a lot of ablation experiments.
 3. Then they finetune the entire model on chat data, unfreezing everything.
 
 ![[Pasted image 20241112164612.png|600]]
-Above: The [[DeepSeekVL]] training process
+Above: The [[DeepSeek-VL]] training process
 
 This model was SOTA against other open-source 7B models, but was unsurprisingly not as good against proprietary LMMS like GPT-4V or Gemeni Pro.
 - Their model also didn't see significant degradation on language model benchmarks, ==which is a problem that plagues VLMs, which tend to have rapidly degraded performance on LLM tasks!==
