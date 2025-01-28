@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Speculative Decoding",
+      "path": "Speculative Decoding.md"
+    },
+    {
       "basename": "Retrieval-Augmented Generation",
       "path": "Retrieval-Augmented Generation.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Conditional Random Field",
       "path": "Conditional Random Field.md"
-    },
-    {
-      "basename": "Monte-Carlo",
-      "path": "Monte-Carlo.md"
     }
   ],
   "omittedPaths": [],
