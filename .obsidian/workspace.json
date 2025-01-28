@@ -8,251 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22ef767c3196f30d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "cffb368ba4ae4150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Speculative Decoding.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Speculative Decoding"
-            }
-          },
-          {
-            "id": "0791851c9073d597",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markov Assumption.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Markov Assumption"
-            }
-          },
-          {
-            "id": "253a1f7e20bd9be0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markov Decision Process.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Markov Decision Process"
-            }
-          },
-          {
-            "id": "ed880d75ca3a0f1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "c5799c59c1d7289f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Upper Confidence Bound.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Upper Confidence Bound"
-            }
-          },
-          {
-            "id": "05ab4024057f5418",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 3 Notes"
-            }
-          },
-          {
-            "id": "31817dc33ca250b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "e33acdb3a7151c0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Policy Gradient.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Policy Gradient"
-            }
-          },
-          {
-            "id": "1d60a503ea8c1aaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning from Verifiable Rewards.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reinforcement Learning from Verifiable Rewards"
-            }
-          },
-          {
-            "id": "58822db0310f70f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thompson Sampling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Thompson Sampling"
-            }
-          },
-          {
-            "id": "3302f857ca9cb34c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Upper Confidence Bound.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Upper Confidence Bound"
-            }
-          },
-          {
-            "id": "3e2edd700bd52c40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CS234 Lecture 4"
-            }
-          },
-          {
-            "id": "e067da5556a9ffce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Log-Likelihood Trick.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Log-Likelihood Trick"
-            }
-          },
-          {
-            "id": "39604d30a7110a10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Log-Likelihood Trick.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Log-Likelihood Trick"
-            }
-          },
-          {
-            "id": "10f493c29886cbae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Epsilon-Greedy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Epsilon-Greedy"
-            }
-          },
-          {
             "id": "8430b467c7489767",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+                "file": "R1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "R1"
+            }
+          },
+          {
+            "id": "258075332a3d3343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
@@ -261,9 +36,23 @@
               "icon": "lucide-file",
               "title": "~ Vocabulary"
             }
+          },
+          {
+            "id": "7f61bdf3c0ffb1a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AIME.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AIME"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1124,12 +914,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "de3c561466e08ee7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 76
+        "currentTab": 77
       },
       {
         "id": "8a022290161ffefa",
@@ -1190,8 +990,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cffb368ba4ae4150",
+  "active": "8430b467c7489767",
   "lastOpenFiles": [
+    "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md",
+    "~ Vocabulary.md",
+    "AIME.md",
+    "DeepSeekVL.md",
+    "R1.md",
+    "_attachments/Pasted image 20250128123815.png",
+    "_attachments/Pasted image 20250128122915.png",
+    "_attachments/Pasted image 20250128122800.png",
+    "_attachments/Pasted image 20250128122624.png",
+    "_attachments/Pasted image 20250128122540.png",
+    "_attachments/Pasted image 20250128121031.png",
+    "_attachments/Pasted image 20250128120800.png",
+    "Reinforcement Learning from Evol-Instruct Feedback.md",
+    "_attachments/Pasted image 20250128120635.png",
+    "_attachments/Pasted image 20250128120621.png",
+    "_attachments/Pasted image 20250128120525.png",
+    "Epsilon-Greedy.md",
+    "Log-Likelihood Trick.md",
+    "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
+    "Upper Confidence Bound.md",
+    "Thompson Sampling.md",
+    "Reinforcement Learning from Verifiable Rewards.md",
+    "Policy Gradient.md",
+    "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md",
+    "Markov Decision Process.md",
+    "Markov Assumption.md",
+    "DeepSeek V3.md",
+    "Speculative Decoding.md",
     "Retrieval-Augmented Generation.md",
     "GLUE.md",
     "SWAG.md",
@@ -1199,35 +1027,7 @@
     "Winograd.md",
     "MNLI.md",
     "Maximal Update Parameterization.md",
-    "~ Vocabulary.md",
     "~ Recommendations.md",
-    "Recommendation Systems.md",
-    "Courses/Machine Learning/Spinning Up in RL/Introduction to RL.md",
-    "Model-Predictive Control.md",
-    "Model Predictive Control.md",
-    "Courses/Machine Learning/Deepmind x URL RL/Lecture 5 Notes.md",
-    "_attachments/Pasted image 20250118202231.png",
-    "_attachments/Pasted image 20250118202138.png",
-    "_attachments/Pasted image 20250118200348.png",
-    "_attachments/Pasted image 20250118200057.png",
-    "_attachments/Pasted image 20250118200021.png",
-    "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md",
-    "_attachments/Pasted image 20250118194737.png",
-    "_attachments/Pasted image 20250118194534.png",
-    "_attachments/Pasted image 20250118194002.png",
-    "Courses/Machine Learning/CS234/CS234 Lecture 3.md",
-    "Courses/UCSC/NLP201 NLP I/Lecture 3.md",
-    "Logistic Regression.md",
-    "Markov Assumption.md",
-    "Markov Decision Process.md",
-    "_attachments/Pasted image 20250118193932.png",
-    "_attachments/Pasted image 20250118193836.png",
-    "Partially-Observable Markov Decision Process.md",
-    "Policy Gradient.md",
-    "Reinforcement Finetuning.md",
-    "Reinforcement Learning from Verifiable Rewards.md",
-    "~ Useful Pictures.md",
-    "Courses/Machine Learning/Untitled.md",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
