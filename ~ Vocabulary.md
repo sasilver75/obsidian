@@ -295,6 +295,7 @@
 - [[Pairwise Ranking]] vs [[Direct Assessment]]
 - [[Process Reward Model]] (PRM)
 - [[Bradley-Terry Model]]
+- [[Routing Collapse]]
 - [[Graph Convolutional Network]]
 - [[Mode Collapse]] 
 - [[VC Dimension]]
@@ -361,6 +362,7 @@
 - [[Scaling Laws]]
 - [[Synthetic Data]]
 - [[Mixture of Experts]] (MoE)
+- [[ST-MoE]]
 - [[Soft Mixture of Experts]] (sMoE)
 - [[Mixture-of-Depths]] (MoD)
 - [[Data Parallelism]]
