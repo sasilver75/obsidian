@@ -5,12 +5,16 @@
       "path": "Mixture of Experts.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "Synthetic Data",
+      "path": "Synthetic Data.md"
     },
     {
       "basename": "R1",
       "path": "R1.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}",
@@ -195,10 +199,6 @@
     {
       "basename": "Function Approximation",
       "path": "Function Approximation.md"
-    },
-    {
-      "basename": "CS234 Vocabulary (+David Silver)",
-      "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
     }
   ],
   "omittedPaths": [],

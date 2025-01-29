@@ -221,7 +221,78 @@ How do we set the capacity factor?
 
 -------
 Aside: Why do we need a capacity factor? 
-- 
+- When the capacity for a particular expert is exceeded, the overflow tokens are simply passed through the residual connection to the next layer without expert processing. 
+- The capacity factor (which determines expert capacity) helps manage the trade-off between:
+	- Having enough buffer to handle routing imbalances (high capacity factor)
+	- Maintaining efficiency in memory usage and computation (lower capacity factor)
+
+Imagine you have 8 tokens and 100 tasks to process:
+1. Ideal scenario: Each expert would handle about 12-13 tasks.
+2. Reality: Some experts might be more relevant to certain tasks; you might end up with Expert A getting 25 tasks and Expert B only getting 5. This imbalance can cause bottleneck!
+3. So we set a capacity limit (like saying "each expert can only take 15 tasks") -- if an expert is "full", overflow gets a "fast pass" though the residual connection. ==A capacity factor of 1.25 means that each expert can handle 25% more than the perfectly balanced amount.==
+
+The goal is to prevent any single expert from becoming a bottleneck while maintaining efficient processing. Like having a queue management system at a bank -- if one teller's line gets too long, customers are redirected to keep things moving smoothly.
+
+==A higher capacity factor requires more memory!==
+Consider: You have 1000 tokens and 10 experts
+- A perfect distribution (capacity factor=1.0) means each expert should handle 100 tokens.
+- If you set capacity factor to 2.0, you're allocating space for each expert to handle up to 200 tokens.
+So with a higher capacity factor:
+- ==You need to allocate more memory buffers for each expert to *potentially* handle more tokens!==
+- ==This memory is reserved whether not it's used!== 
+- ==So you're essentially "over-provisioning" to handle potential imbalances!==
+
+Example:
+- Capacity Factor 1.0:
+	- Expert 1: {Buffer for 100 tokens}
+	- Expert 2:  {Buffer for 100 tokens}
+	- ...
+	- Total memory: 1000 token spaces
+- Capacity Factor 2.0:
+	- Expert 1: {Buffer for 200 tokens}
+	- Expert 2: {Buffer for 200 tokens}
+	- ...
+	- Total memory: 2000 token spaces
+
+See that the lower capacity factor is more memory efficient because we're allocating the memory that we would need in a perfectly-balanced scenario, but this come with the trade-off of being less-flexible when routing becomes imbalanced. Models like [[ST-MoE]] use a moderate capacity factor (1.25) during training -- it's a sweet spot between memory efficiency and routing flexibility.
+
+Q: What can an imbalance of tokens between experts cause bottlenecks?
+A: 
+Imagine a scenario where we have 4 experts and 100 tokens to process in parallel.
+
+```
+Balanced Scenario (No Bottleneck):
+Expert 1: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Expert 2: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Expert 3: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Expert 4: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Total Time: 1 time unit
+
+Imbalanced Scenario (Bottleneck):
+Expert 1: 70 tokens [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||] → Processes in 2.8 time units
+Expert 2: 10 tokens [||||||||||] → Processes in 0.4 time units
+Expert 3: 15 tokens [|||||||||||||||] → Processes in 0.6 time units
+Expert 4: 5 tokens  [|||||] → Processes in 0.2 time units
+Total Time: 2.8 time units (limited by slowest expert)
+```
+==The bottleneck occurs because==:
+1. Most ML systems process these in parallel
+2. The next layer can't start until ALL experts finish their current batch
+3. You're only as fast as your slowest (most overloaded) expert
+4. Other experts sit idle after finishing their smaller workloads
+
+This is why capacity limits help -- they force a more balanced distribution and let overflow tokens skip through the residual connection rather than creating a bottleneck at popular experts.
+
+==NOTE==: Okay, Claude lied a bit -- in a GPU, a single Matmul with 70 tokens vs 10 tokens would indeed be processed in effectively the same time due to parallel processing capabilities. The real bottlneck isn't in the processing time per-se, but rather in:
+1. Memory bandwidth requirements
+2. The potential need to split very large batches if they exceed hardware limits
+3. The synchronization required between different experts before the next layer can begin
+
+So... unclear
+
+
+
+
 
 -------
 
