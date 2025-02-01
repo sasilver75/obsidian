@@ -954,12 +954,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "86c62e49682f1571",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 77
+        "currentTab": 78
       },
       {
         "id": "8a022290161ffefa",
@@ -1020,7 +1030,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8430b467c7489767",
+  "active": "86c62e49682f1571",
   "lastOpenFiles": [
     "Synthetic Data.md",
     "Mixture of Experts.md",
