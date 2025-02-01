@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Closed-Book",
+      "path": "Closed-Book.md"
+    },
+    {
+      "basename": "Open-Book",
+      "path": "Open-Book.md"
+    },
+    {
       "basename": "Mixture of Experts",
       "path": "Mixture of Experts.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "BERT",
       "path": "BERT.md"
-    },
-    {
-      "basename": "Bellman Equation",
-      "path": "Bellman Equation.md"
-    },
-    {
-      "basename": "Function Approximation",
-      "path": "Function Approximation.md"
     }
   ],
   "omittedPaths": [],
