@@ -217,7 +217,9 @@ Expert capacity is controlled via the ==capacity factor== setting.
 - Alternatively, setting it *above one* provides extra buffer to accommodate for al imbalance in tokens between experts. However this comes at a cost (higher memory usage and lower efficiency).
 
 How do we set the capacity factor?
-- Interestingly, MoE models tend to perform well with relatively low capacity factors.
+- Interestingly, MoE models tend to perform well with relatively low capacity factors (1-2)
+- But we need to ensure that the number of dropped tokens is not too large to avoid any impact on the training run.
+- [ ] We can also use capacity factors for training and
 
 -------
 Aside: Why do we need a capacity factor? 
@@ -288,11 +290,7 @@ This is why capacity limits help -- they force a more balanced distribution and 
 2. The potential need to split very large batches if they exceed hardware limits
 3. The synchronization required between different experts before the next layer can begin
 
-So... unclear
-
-
-
-
+So... unclear 
 
 -------
 
