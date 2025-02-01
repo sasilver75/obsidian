@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mixture of Experts.md",
+                "file": "Closed-Book.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mixture of Experts"
+              "title": "Closed-Book"
             }
           },
           {
@@ -964,12 +964,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0a92d25d52aca89f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 78
+        "currentTab": 79
       },
       {
         "id": "8a022290161ffefa",
@@ -1030,10 +1040,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "86c62e49682f1571",
+  "active": "8430b467c7489767",
   "lastOpenFiles": [
-    "Synthetic Data.md",
+    "Open-Book.md",
     "Mixture of Experts.md",
+    "Synthetic Data.md",
     "R1.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
@@ -1067,7 +1078,6 @@
     "SWAG.md",
     "Winogrande.md",
     "Winograd.md",
-    "MNLI.md",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
