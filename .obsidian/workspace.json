@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Closed-Book.md",
+                "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Closed-Book"
+              "title": "Will Scaling Work (Dec 2023) {Dwarkesh Patel}"
+            }
+          },
+          {
+            "id": "aa7e0b45bfd5f61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}"
             }
           },
           {
@@ -144,13 +159,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1050,44 +1063,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "53e60d47b2694ea6",
+  "active": "8430b467c7489767",
   "lastOpenFiles": [
-    "Open-Book.md",
-    "Mixture of Experts.md",
-    "Synthetic Data.md",
-    "R1.md",
+    "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
+    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
+    "Articles/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md",
+    "Articles/Why I build open language models (October 30) {Nathan Lambert}.md",
+    "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md",
+    "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
+    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
+    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
+    "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
+    "Articles/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
+    "Articles/What is GGUF and GGML?.md",
+    "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
+    "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
+    "Articles/What are Quantized LLMS? (Sep 2023) {Miguel Neves, TensorOps}.md",
+    "Articles/What AI Systems can tell us about Intelligence (June 2022) {Yann LeCun}.md",
+    "Articles/Visual Information Theory (Oct 2015) {Chris Olah's Blog}.md",
+    "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md",
+    "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
+    "Articles/Understanding Large Language Models (April 2023) - {Sebastian Raschka}.md",
+    "Articles/Understanding Evaluation Metrics for Language Models (Oct 2019) {Chip Huyen}.md",
+    "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
+    "Articles/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
+    "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
+    "Articles/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
-    "~ Vocabulary.md",
     "_attachments/Pasted image 20250128153112.png",
     "_attachments/Pasted image 20250128145419.png",
     "_attachments/Pasted image 20250128144641.png",
     "_attachments/Pasted image 20250128144006.png",
     "_attachments/Pasted image 20250128143105.png",
-    "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md",
-    "AIME.md",
-    "DeepSeekVL.md",
     "_attachments/Pasted image 20250128123815.png",
     "_attachments/Pasted image 20250128122915.png",
     "_attachments/Pasted image 20250128122800.png",
-    "Reinforcement Learning from Evol-Instruct Feedback.md",
-    "Epsilon-Greedy.md",
-    "Log-Likelihood Trick.md",
-    "Courses/Machine Learning/CS234/CS234 Lecture 4.md",
-    "Upper Confidence Bound.md",
-    "Thompson Sampling.md",
-    "Reinforcement Learning from Verifiable Rewards.md",
-    "Policy Gradient.md",
-    "Courses/Machine Learning/Deepmind x URL RL/Lecture 3 Notes.md",
-    "Markov Decision Process.md",
-    "Markov Assumption.md",
-    "DeepSeek V3.md",
-    "Speculative Decoding.md",
-    "Retrieval-Augmented Generation.md",
-    "GLUE.md",
-    "SWAG.md",
-    "Winogrande.md",
-    "Winograd.md",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
