@@ -974,12 +974,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "53e60d47b2694ea6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 79
+        "currentTab": 80
       },
       {
         "id": "8a022290161ffefa",
@@ -1040,7 +1050,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8430b467c7489767",
+  "active": "53e60d47b2694ea6",
   "lastOpenFiles": [
     "Open-Book.md",
     "Mixture of Experts.md",
