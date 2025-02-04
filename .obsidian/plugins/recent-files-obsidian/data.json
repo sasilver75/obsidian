@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Cross-Encoder",
+      "path": "Cross-Encoder.md"
+    },
+    {
+      "basename": "Bi-Encoder",
+      "path": "Bi-Encoder.md"
+    },
+    {
+      "basename": "MT-Bench",
+      "path": "MT-Bench.md"
+    },
+    {
+      "basename": "Post-Training",
+      "path": "Post-Training.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "Transformer.md"
+    },
+    {
+      "basename": "Pretraining",
+      "path": "Pretraining.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
+      "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "AIME",
+      "path": "AIME.md"
+    },
+    {
+      "basename": "Will Scaling Work (Dec 2023) {Dwarkesh Patel}",
+      "path": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md"
+    },
+    {
       "basename": "CS234 Vocabulary (+David Silver)",
       "path": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md"
     },
     {
       "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
       "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md"
-    },
-    {
-      "basename": "Will Scaling Work (Dec 2023) {Dwarkesh Patel}",
-      "path": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md"
     },
     {
       "basename": "Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}",
@@ -83,10 +123,6 @@
     {
       "basename": "Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}",
       "path": "Articles/Vision Language Models Explained (April 11, 2024) {HuggingFace Blog}.md"
-    },
-    {
-      "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
-      "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
     },
     {
       "basename": "Understanding Large Language Models (April 2023) - {Sebastian Raschka}",
@@ -163,42 +199,6 @@
     {
       "basename": "The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
       "path": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}",
-      "path": "Articles/The First Rule of machine Learning (2023) {ApplyingML, Eugene Yan}.md"
-    },
-    {
-      "basename": "The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}",
-      "path": "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md"
-    },
-    {
-      "basename": "The Decade of Deep Learning (2020) {Leo Gao}",
-      "path": "Articles/The Decade of Deep Learning (2020) {Leo Gao}.md"
-    },
-    {
-      "basename": "The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}",
-      "path": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md"
-    },
-    {
-      "basename": "Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}",
-      "path": "Articles/Ten Noteworthy AI Research Papers of 2023 (Dec 2023) {Sebastian Raschka, Ahead of AI}.md"
-    },
-    {
-      "basename": "Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}",
-      "path": "Articles/Teach Llamas to Talk - Recent Progress in Instruction Tuning (November 2023) {Tianyu Gao}.md"
-    },
-    {
-      "basename": "T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}",
-      "path": "Articles/T5 - Text to Text Transformers - Part One (Mar 2023) {Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}",
-      "path": "Articles/Synthetic Data - Save Money, Time, and Carbon with Open Source (Feb 2024) {Hugging Face Blog}.md"
-    },
-    {
-      "basename": "Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}",
-      "path": "Articles/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md"
     }
   ],
   "omittedPaths": [],
