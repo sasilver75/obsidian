@@ -15,11 +15,44 @@
               "state": {
                 "file": "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Will Scaling Work (Dec 2023) {Dwarkesh Patel}"
+            }
+          },
+          {
+            "id": "ed4f252173ae0c71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CS234 Vocabulary (+David Silver)"
             }
           },
           {
@@ -97,7 +130,8 @@
               "title": "AIME"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +150,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -163,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 308.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -997,12 +1032,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "cc0c3e1033886788",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b673efa8c0539ffe",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 80
+        "currentTab": 82
       },
       {
         "id": "8a022290161ffefa",
@@ -1063,8 +1118,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8430b467c7489767",
+  "active": "ed4f252173ae0c71",
   "lastOpenFiles": [
+    "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md",
     "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
     "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
     "Articles/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md",
@@ -1090,7 +1146,6 @@
     "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
     "Articles/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md",
     "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md",
-    "Articles/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",
