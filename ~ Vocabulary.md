@@ -1165,6 +1165,7 @@
 - [[MS MARCO Web Search]]
 - [[MS MARCO]] (Microsoft Machine Reading Comprehension)
 - [[Multi-Genre NLI]] (MNLI)
+- [[MultiChallenge]]
 - [[Natural Instructions]]
 - [[Natural Questions]]
 - [[Nectar]]
