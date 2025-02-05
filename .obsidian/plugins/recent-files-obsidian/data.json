@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "UltraFeedback",
+      "path": "UltraFeedback.md"
+    },
+    {
+      "basename": "AlpaGasus",
+      "path": "AlpaGasus.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "MultiChallenge",
+      "path": "MultiChallenge.md"
+    },
+    {
       "basename": "Cross-Encoder",
       "path": "Cross-Encoder.md"
     },
@@ -31,10 +47,6 @@
     {
       "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
       "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "AIME",
@@ -187,18 +199,6 @@
     {
       "basename": "The Illustrated BERT, ELMo, and Co. (How NLP Cracked Transfer Learning) (Dec 2018?) {Jay Alammar}",
       "path": "Articles/The Illustrated BERT, ELMo, and Co. (How NLP Cracked Transfer Learning) (Dec 2018?) {Jay Alammar}.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/The History of Open-Source LLMs - Imitation and Alignment (Part Three) (Aug 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}",
-      "path": "Articles/The History of Open-Source LLMs - Early Days (Part One) (Jul 2023) {Cameron Wolfe, PHD}.md"
-    },
-    {
-      "basename": "The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/The History of Open-Source LLMs - Better Base Models (Part Two) (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
     }
   ],
   "omittedPaths": [],

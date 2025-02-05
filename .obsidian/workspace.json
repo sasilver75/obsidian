@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "187e310c33b9894c",
+        "id": "b015a39c9ded064f",
         "type": "tabs",
         "children": [
           {
-            "id": "ed4f252173ae0c71",
+            "id": "05cceaec10e4eeb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cross-Encoder.md",
+                "file": "UltraFeedback.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cross-Encoder"
+              "title": "UltraFeedback"
             }
           }
         ]
@@ -94,12 +94,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -963,12 +963,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "070634bccd0c3427",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "01f188b77e1fdc56",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 83
+        "currentTab": 85
       },
       {
         "id": "8a022290161ffefa",
@@ -1029,8 +1049,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ed4f252173ae0c71",
+  "active": "05cceaec10e4eeb2",
   "lastOpenFiles": [
+    "AlpaGasus.md",
+    "~ Vocabulary.md",
+    "MultiChallenge.md",
+    "Cross-Encoder.md",
     "Bi-Encoder.md",
     "MT-Bench.md",
     "Post-Training.md",
@@ -1038,7 +1062,6 @@
     "Pretraining.md",
     "~ Useful Pictures.md",
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
-    "~ Vocabulary.md",
     "AIME.md",
     "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
     "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md",
@@ -1054,9 +1077,6 @@
     "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "Articles/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
-    "Articles/What is GGUF and GGML?.md",
-    "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md",
-    "Articles/What do industry researchers do, anyway? (June 26, 2024) {Peng Qi}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",
