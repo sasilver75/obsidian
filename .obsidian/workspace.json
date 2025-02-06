@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b015a39c9ded064f",
+        "id": "e2bb4c2ac0a8b927",
         "type": "tabs",
         "children": [
           {
-            "id": "05cceaec10e4eeb2",
+            "id": "03da94880038a683",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UltraFeedback.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UltraFeedback"
+              "title": "~ Vocabulary"
             }
           }
         ]
@@ -94,8 +94,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -983,12 +982,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2c680a381a473076",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 85
+        "currentTab": 86
       },
       {
         "id": "8a022290161ffefa",
@@ -1049,8 +1058,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "05cceaec10e4eeb2",
+  "active": "03da94880038a683",
   "lastOpenFiles": [
+    "Courses/UCSC/NLP202 NLP II/Feb 5, 2024 Synax Notes.md",
+    "Courses/UCSC/NLP201 NLP I/Untitled.md",
+    "UltraFeedback.md",
+    "Courses/UCSC/NLP202 NLP II",
     "AlpaGasus.md",
     "~ Vocabulary.md",
     "MultiChallenge.md",
@@ -1074,9 +1087,6 @@
     "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
     "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
     "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
-    "Articles/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",
@@ -1095,7 +1105,6 @@
     "Articles/Untitled",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books"
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)"
   ]
 }
