@@ -168,6 +168,8 @@
 # Machine Learning/General
 - [[Reinforcement Finetuning]]
 - [[Graph Neural Network]]
+- [[Thinking LLMs]]
+- [[Iterative Reasoning Preference Optimization]] (IRPO)
 - [[Language Model]]
 - [[Long Short Term Memory]] (LSTM)
 - [[Gradient Clipping]]

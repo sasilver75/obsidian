@@ -11,13 +11,100 @@
             "id": "97b64ad297a931b6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "598e6cc36783f22b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thinking LLMs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Thinking LLMs"
+            }
+          },
+          {
+            "id": "97b9688ba1d1c8e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Iterative Reasoning Preference Optimization.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Iterative Reasoning Preference Optimization"
+            }
+          },
+          {
+            "id": "a04ac60bffecef0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thinking LLMs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Thinking LLMs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +167,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -978,12 +1066,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "25bbf873bfbc20ab",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 86
+        "currentTab": 87
       },
       {
         "id": "8a022290161ffefa",
@@ -1044,9 +1142,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "97b64ad297a931b6",
+  "active": "598e6cc36783f22b",
   "lastOpenFiles": [
     "~ Vocabulary.md",
+    "Thinking LLMs.md",
+    "Iterative Reasoning Preference Optimization.md",
+    "Iterative Retrieval.md",
     "Courses/UCSC/NLP202 NLP II/Feb 5, 2024 Synax Notes.md",
     "Courses/UCSC/NLP201 NLP I/Untitled.md",
     "UltraFeedback.md",
@@ -1070,9 +1171,6 @@
     "Articles/Why I build open language models (October 30) {Nathan Lambert}.md",
     "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md",
     "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
-    "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md",
-    "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md",
-    "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",
