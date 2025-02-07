@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Thinking LLMs",
+      "path": "Thinking LLMs.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Iterative Reasoning Preference Optimization",
+      "path": "Iterative Reasoning Preference Optimization.md"
+    },
+    {
+      "basename": "Iterative Retrieval",
+      "path": "Iterative Retrieval.md"
     },
     {
       "basename": "Feb 5, 2024 Synax Notes",
@@ -187,18 +199,6 @@
     {
       "basename": "The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}",
       "path": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
-    },
-    {
-      "basename": "The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}",
-      "path": "Articles/The RetroInstruct Guide to Synthetic Text Data (July 12, 2024) {John David Pressman}.md"
-    },
-    {
-      "basename": "The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}",
-      "path": "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}",
-      "path": "Articles/The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}.md"
     }
   ],
   "omittedPaths": [],
