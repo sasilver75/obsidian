@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thinking LLMs.md",
+                "file": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking LLMs"
+              "title": "UCB Deep Unsupervised Learning (1) - Introduction"
             }
           },
           {
@@ -1076,12 +1076,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "78b265df03aeb43d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 87
+        "currentTab": 88
       },
       {
         "id": "8a022290161ffefa",
@@ -1142,10 +1152,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "598e6cc36783f22b",
+  "active": "78b265df03aeb43d",
   "lastOpenFiles": [
-    "~ Vocabulary.md",
+    "Ilya Sutskever.md",
+    "Transformer.md",
     "Thinking LLMs.md",
+    "~ Vocabulary.md",
     "Iterative Reasoning Preference Optimization.md",
     "Iterative Retrieval.md",
     "Courses/UCSC/NLP202 NLP II/Feb 5, 2024 Synax Notes.md",
@@ -1158,7 +1170,6 @@
     "Bi-Encoder.md",
     "MT-Bench.md",
     "Post-Training.md",
-    "Transformer.md",
     "Pretraining.md",
     "~ Useful Pictures.md",
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
@@ -1170,7 +1181,6 @@
     "Articles/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md",
     "Articles/Why I build open language models (October 30) {Nathan Lambert}.md",
     "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md",
-    "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",

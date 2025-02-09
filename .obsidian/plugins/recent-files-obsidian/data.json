@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
+      "path": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
+    },
+    {
+      "basename": "Ilya Sutskever",
+      "path": "Ilya Sutskever.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "Transformer.md"
+    },
+    {
       "basename": "Thinking LLMs",
       "path": "Thinking LLMs.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "Post-Training",
       "path": "Post-Training.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "Transformer.md"
     },
     {
       "basename": "Pretraining",
@@ -191,14 +199,6 @@
     {
       "basename": "The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}",
       "path": "Articles/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md"
-    },
-    {
-      "basename": "The State of Computer Vision at Hugging Face 🤗 (Jan 2023) {Hugging Face Blog, Sayak Paul}",
-      "path": "Articles/The State of Computer Vision at Hugging Face 🤗 (Jan 2023) {Hugging Face Blog, Sayak Paul}.md"
-    },
-    {
-      "basename": "The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}",
-      "path": "Articles/The Rise of Agentic Data Generation (July 15, 2024) {Maximme Labonne}.md"
     }
   ],
   "omittedPaths": [],
