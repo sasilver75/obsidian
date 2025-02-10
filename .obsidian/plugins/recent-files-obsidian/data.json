@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Monte-Carlo Tree Search",
+      "path": "Monte-Carlo Tree Search.md"
+    },
+    {
+      "basename": "Building a Generative AI Platform",
+      "path": "Articles/Building a Generative AI Platform.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation",
+      "path": "Retrieval-Augmented Generation.md"
+    },
+    {
       "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
       "path": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}",
       "path": "Articles/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md"
-    },
-    {
-      "basename": "Thoughts on the 2024 AI Job Market (Feb 2024) {Sebastian Ruder Blog}",
-      "path": "Articles/Thoughts on the 2024 AI Job Market (Feb 2024) {Sebastian Ruder Blog}.md"
-    },
-    {
-      "basename": "The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}",
-      "path": "Articles/The Transformer Family Version 2.0 (January 27, 2023) {Lilian Weng}.md"
-    },
-    {
-      "basename": "The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}",
-      "path": "Articles/The State of Computer Vision 2023 - From Vision Transformers to Neural Radiance Fields (Jul 2023) {Sebastian Raschka, Ahead of AI blog}.md"
     }
   ],
   "omittedPaths": [],

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
+                "file": "Monte-Carlo Tree Search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UCB Deep Unsupervised Learning (1) - Introduction"
+              "title": "Monte-Carlo Tree Search"
             }
           },
           {
@@ -1086,12 +1086,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1db3dc5c7e6599a0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 88
+        "currentTab": 89
       },
       {
         "id": "8a022290161ffefa",
@@ -1152,8 +1162,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "78b265df03aeb43d",
+  "active": "598e6cc36783f22b",
   "lastOpenFiles": [
+    "Articles/Building a Generative AI Platform.md",
+    "Retrieval-Augmented Generation.md",
+    "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
     "Ilya Sutskever.md",
     "Transformer.md",
     "Thinking LLMs.md",
@@ -1178,9 +1191,6 @@
     "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md",
     "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md",
     "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
-    "Articles/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md",
-    "Articles/Why I build open language models (October 30) {Nathan Lambert}.md",
-    "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",
