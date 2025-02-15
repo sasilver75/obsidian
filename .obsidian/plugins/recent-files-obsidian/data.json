@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Reinforcement Learning",
+      "path": "Reinforcement Learning.md"
+    },
+    {
+      "basename": "Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More",
+      "path": "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md"
+    },
+    {
+      "basename": "Quantization",
+      "path": "Quantization.md"
+    },
+    {
       "basename": "Monte-Carlo Tree Search",
       "path": "Monte-Carlo Tree Search.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
       "path": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}",
-      "path": "Articles/Tree of Thoughts Prompting (Aug 2023) {Deep Learning Focus}.md"
-    },
-    {
-      "basename": "Transformer Taxonomy - The last lit review (March 2023) {Kipply }",
-      "path": "Articles/Transformer Taxonomy - The last lit review (March 2023) {Kipply }.md"
-    },
-    {
-      "basename": "Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}",
-      "path": "Articles/Transformer Inference Tricks (Nov 23, 2023) - {Finbarr Timbers, Artificial}.md"
     }
   ],
   "omittedPaths": [],

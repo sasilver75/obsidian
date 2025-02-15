@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monte-Carlo Tree Search.md",
+                "file": "Reinforcement Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Monte-Carlo Tree Search"
+              "title": "Reinforcement Learning"
             }
           },
           {
@@ -1096,12 +1096,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "fc6545ad042a3521",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0fbb5d7beb08b0a2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 89
+        "currentTab": 91
       },
       {
         "id": "8a022290161ffefa",
@@ -1164,6 +1184,9 @@
   },
   "active": "598e6cc36783f22b",
   "lastOpenFiles": [
+    "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
+    "Quantization.md",
+    "Monte-Carlo Tree Search.md",
     "Articles/Building a Generative AI Platform.md",
     "Retrieval-Augmented Generation.md",
     "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
@@ -1188,9 +1211,6 @@
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
     "AIME.md",
     "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
-    "Courses/Machine Learning/CS234/CS234 Vocabulary (+David Silver).md",
-    "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md",
-    "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",
