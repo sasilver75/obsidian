@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reinforcement Learning"
+              "title": "~ Vocabulary"
             }
           },
           {
@@ -1116,12 +1116,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1ccbd1c288d5940a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 91
+        "currentTab": 92
       },
       {
         "id": "8a022290161ffefa",
@@ -1184,6 +1194,7 @@
   },
   "active": "598e6cc36783f22b",
   "lastOpenFiles": [
+    "Reinforcement Learning.md",
     "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "Quantization.md",
     "Monte-Carlo Tree Search.md",
@@ -1210,7 +1221,6 @@
     "~ Useful Pictures.md",
     "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
     "AIME.md",
-    "Articles/Will Scaling Work (Dec 2023) {Dwarkesh Patel}.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
     "_attachments/Pasted image 20250128153112.png",
