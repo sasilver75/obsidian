@@ -1136,12 +1136,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7d5d89cdaea88b3d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 93
+        "currentTab": 94
       },
       {
         "id": "8a022290161ffefa",
@@ -1202,7 +1212,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fb3badfb8a3d56b3",
+  "active": "7d5d89cdaea88b3d",
   "lastOpenFiles": [
     "Reinforcement Learning.md",
     "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",

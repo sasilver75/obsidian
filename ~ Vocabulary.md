@@ -1110,6 +1110,7 @@
 - [[SWAG]] (Situations with Adversarial Generations)
 - [[SWE-bench]]
 - [[SWE-bench Multimodal]]
+- [[SWE-lancer]]
 - [[TFEval]] (Topic-Following Eval)
 - [[TruthfulQA]]
 - [[FalseQA]]
