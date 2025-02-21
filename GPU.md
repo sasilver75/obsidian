@@ -1,0 +1,4 @@
+---
+aliases:
+  - Graphics Processing Unit
+---
