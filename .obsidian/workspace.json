@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "97b64ad297a931b6",
+            "id": "52ce7841e9c956f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,6 +29,210 @@
               },
               "icon": "lucide-file",
               "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "b797a415d417323c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Streaming Multiprocessor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Streaming Multiprocessor"
+            }
+          },
+          {
+            "id": "a6e5d5cad7766e4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CUDA Core.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CUDA Core"
+            }
+          },
+          {
+            "id": "91838a3b24c5ca85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Load/Load Store Unit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Load Store Unit"
+            }
+          },
+          {
+            "id": "8fc6c2bf42fc8afe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Streaming Multiprocessor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Streaming Multiprocessor"
+            }
+          },
+          {
+            "id": "766705c6c7959341",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CUDA Core.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CUDA Core"
+            }
+          },
+          {
+            "id": "2e8a4c4bf3d370cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPU.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GPU"
+            }
+          },
+          {
+            "id": "67b9ee369f326b0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CUDA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CUDA"
+            }
+          },
+          {
+            "id": "ffd51ae8c4f80132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Streaming Multiprocessor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Streaming Multiprocessor"
+            }
+          },
+          {
+            "id": "99d7248e49a24c6c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           },
           {
@@ -79,7 +283,8 @@
               "title": "Thinking LLMs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +352,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1121,12 +1327,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e4858d2b78d956d1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 94
+        "currentTab": 95
       },
       {
         "id": "8a022290161ffefa",
@@ -1187,8 +1403,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "97b64ad297a931b6",
+  "active": "b797a415d417323c",
   "lastOpenFiles": [
+    "~ Vocabulary.md",
+    "Streaming Multiprocessor.md",
+    "CUDA Core.md",
+    "Load/Load Store Unit.md",
+    "_attachments/Pasted image 20250221120334.png",
+    "Tensor Core.md",
+    "Thinking LLMs.md",
+    "_attachments/Pasted image 20250221115212.png",
+    "Load",
+    "Special Function Unit.md",
+    "GPU.md",
+    "CUDA.md",
+    "_attachments/Pasted image 20250221113829.png",
+    "High-Bandwidth Memory.md",
+    "_attachments/Pasted image 20250221113821.png",
+    "_attachments/Pasted image 20250221112000.png",
+    "_attachments/Pasted image 20250221111145.png",
+    "_attachments/Pasted image 20250221110806.png",
+    "_attachments/Pasted image 20250221110603.png",
     "Reinforcement Learning.md",
     "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
     "Quantization.md",
@@ -1198,8 +1433,6 @@
     "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md",
     "Ilya Sutskever.md",
     "Transformer.md",
-    "Thinking LLMs.md",
-    "~ Vocabulary.md",
     "Iterative Reasoning Preference Optimization.md",
     "Iterative Retrieval.md",
     "Courses/UCSC/NLP202 NLP II/Feb 5, 2024 Synax Notes.md",
@@ -1207,25 +1440,8 @@
     "UltraFeedback.md",
     "Courses/UCSC/NLP202 NLP II",
     "AlpaGasus.md",
-    "MultiChallenge.md",
-    "Cross-Encoder.md",
-    "Bi-Encoder.md",
-    "MT-Bench.md",
-    "Post-Training.md",
-    "Pretraining.md",
-    "~ Useful Pictures.md",
-    "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md",
-    "AIME.md",
     "_attachments/Pasted image 20250128155902.png",
     "_attachments/Pasted image 20250128155758.png",
-    "_attachments/Pasted image 20250128153112.png",
-    "_attachments/Pasted image 20250128145419.png",
-    "_attachments/Pasted image 20250128144641.png",
-    "_attachments/Pasted image 20250128144006.png",
-    "_attachments/Pasted image 20250128143105.png",
-    "_attachments/Pasted image 20250128123815.png",
-    "_attachments/Pasted image 20250128122915.png",
-    "_attachments/Pasted image 20250128122800.png",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
@@ -1233,7 +1449,6 @@
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)"
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning"
   ]
 }
