@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "598e6cc36783f22b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
             "id": "97b9688ba1d1c8e9",
             "type": "leaf",
             "state": {
@@ -103,8 +79,7 @@
               "title": "Thinking LLMs"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -1212,7 +1187,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7d5d89cdaea88b3d",
+  "active": "97b64ad297a931b6",
   "lastOpenFiles": [
     "Reinforcement Learning.md",
     "Articles/Easily Train a Specialized LLM - PEFT, LoRA, QLoRA, LLaMA-Adapter, and More.md",
