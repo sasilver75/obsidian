@@ -21,8 +21,10 @@
 - [[L0 Cache]]
 - [[L1 Cache]]
 - [[PTX]]
+- [[SASS]]
 - [[Warp Scheduler]]
 - [[nvcc]]
+- [[Register File]]
 
 
 # Probability/Statistics
