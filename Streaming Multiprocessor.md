@@ -45,16 +45,38 @@ References:
 - Because the [[L1 Cache]]s on GPUs can be entirely programmer-managed and are shared between the warps scheduled together onto an SM, context switches on the GPU have much less impact on cache hit rates.
 - (Shown in "Orange" (grey))
 
+### What is a Register File?
+- A [[Register File]] of the SM stores bits in between their manipulation by the cores.
+- Register files are split into 32-bit registers that can be dynamically reallocated between different data types, like 32bit integers, 64bit floats, and (pairs of) 16-bit floating point numbers.
+- Allocation of registers in a Streaming Multiprocess to threads is usually managed by a compiler like [[nvcc]], which optimizes register usage by thread blocks.
+- (Shown in Blue)
+
+### What is the L1 Data Cache?
+- The [[L1 Cache]] on a SM is the private memory of the Streaming Multiprocessor.
+- Each SM partitions that memory among a group of threads scheduled onto it.
+- The L1 data cache is colocated with and is nearly as fast as components that effect computations (e.g. the CUDA Cores)
+- It is implemented with [[SRAM]], the same basic semiconductor cell used in CPU caches and registers and in the memory subsystem of things like [[Groq]] LPUs. The L1 data cache is accessed by the [[Load Store Unit]]s of teh SM.
+- CPUs also maintain an L1 cache, which is fully hardware managed. In GPUs, that cache is mostly programmer-managed.
+- Each L1 cache in each of an H100 SMs can store 256KiB. Across 132 SMs in an H100 SXM 5, that's 33MiB of cache space.
+	- (kibibyte and mebibyte)
 
 ### What is a Streaming Multiprocessor Architecture?
-- SMs are versioned with a particular "architecture" that defines their compatibility with Streaming Assembler (SASS) code.
+- SMs are versioned with a particular "architecture" that defines their compatibility with Streaming Assembler ([[SASS]]) code.
 	- For example, an H100 seems to have the "Hopper" SM90 architecture.
 - Note that most SM versions have two components: A Major version and a Minor version.
 	- The major version is almost synonymous with GPU architecture family -- for example, all SM versions 6.x are of the Pascal Architecture.
 
+### What is a Texture Processing Cluster (TPC)?
+- Generally synonymous with a "pair of SMs" -- rarely encountered in contemporary discussions of GPUs, and not mapped onto a level of the CUDA programming modle's memory hierarchy or thread hierarchy, unlike Graphics/GPU Processing Clusters.
+
+### Wait, what's a Graphics/GPU Processing Cluster (GPC)?
+- A GPC is a collection of TPCs (themselves groups of SMs) plus a raster engine.
+- Apparently some people use NVIDIA GPUs for Graphics ;), for which this raster engine is important.
 
 
 ![[Pasted image 20250221111145.png]]
+((Above: Note thatI think these four "blocks" that make up this specific SM are referred to as "==Processing Blocks=="))
+
 
 ![[Pasted image 20250221112000.png]]
 

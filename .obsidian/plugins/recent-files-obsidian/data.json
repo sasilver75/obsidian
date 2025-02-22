@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "SASS",
+      "path": "SASS.md"
+    },
+    {
+      "basename": "nvcc",
+      "path": "nvcc.md"
+    },
+    {
       "basename": "Streaming Multiprocessor",
       "path": "Streaming Multiprocessor.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "CUDA.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "CUDA Core",
-      "path": "CUDA Core.md"
+      "basename": "PTX",
+      "path": "PTX.md"
+    },
+    {
+      "basename": "SRAM",
+      "path": "SRAM.md"
+    },
+    {
+      "basename": "DRAM",
+      "path": "DRAM.md"
     },
     {
       "basename": "Load Store Unit",
-      "path": "Load/Load Store Unit.md"
+      "path": "Load Store Unit.md"
+    },
+    {
+      "basename": "VRAM",
+      "path": "VRAM.md"
+    },
+    {
+      "basename": "Register File",
+      "path": "Register File.md"
+    },
+    {
+      "basename": "CUDA Core",
+      "path": "CUDA Core.md"
     },
     {
       "basename": "Tensor Core",
@@ -31,10 +63,6 @@
     {
       "basename": "GPU",
       "path": "GPU.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "CUDA.md"
     },
     {
       "basename": "High-Bandwidth Memory",
@@ -171,34 +199,6 @@
     {
       "basename": "Why GPT-3 Matters (2020) {Leo Gao}",
       "path": "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md"
-    },
-    {
-      "basename": "Which GPU to get for Deep Learning (2019) {Tim Dettmers}",
-      "path": "Articles/Which GPU to get for Deep Learning (2019) {Tim Dettmers}.md"
-    },
-    {
-      "basename": "What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we learned from a year of building with LLMs (Part 3) - Strategy (June 6, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we Learned from a Year of Building with LLMs (Part 2) {Eugene Yan, Bryan Bischof, Charles Frye,  Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}",
-      "path": "Articles/What we learned from a Year of Building with LLMs (Part 1) (May 28, 2024) {Eugene Yan, Bryan Bischof, Charles Frye, Hamel Husain, Jason Liu, Shreya Shankar}.md"
-    },
-    {
-      "basename": "What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}",
-      "path": "Articles/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md"
-    },
-    {
-      "basename": "What is GGUF and GGML?",
-      "path": "Articles/What is GGUF and GGML?.md"
-    },
-    {
-      "basename": "What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}",
-      "path": "Articles/What happened to BERT and T5? On Transformer Encoders, PrefixLM, and Denoising Objectives (July 16) {Yi Tay}.md"
     }
   ],
   "omittedPaths": [],
