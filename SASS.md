@@ -8,3 +8,7 @@ aliases:
 - It is converted to device-specific binary microcodes during execution.
 - Presumably, the "Streaming" in "Streaming Assembler" refers to the [[Streaming Multiprocessor]]s which the assembly language programs.
 - SASS is versioned and tied to a specific NVIDIA GPU SM architecture.
+  
+  
+  
+   
