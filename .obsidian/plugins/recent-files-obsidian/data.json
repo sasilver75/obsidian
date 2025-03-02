@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "SASS",
-      "path": "SASS.md"
+      "basename": "The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025)",
+      "path": "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md"
     },
     {
-      "basename": "nvcc",
-      "path": "nvcc.md"
+      "basename": "Mixed Precision",
+      "path": "Mixed Precision.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
+    },
+    {
+      "basename": "Maximal Update Parameterization",
+      "path": "Maximal Update Parameterization.md"
+    },
+    {
+      "basename": "Chip Huyen Agents",
+      "path": "Articles/Chip Huyen Agents.md"
+    },
+    {
+      "basename": "Thinking LLMs",
+      "path": "Thinking LLMs.md"
+    },
+    {
+      "basename": "Iterative Reasoning Preference Optimization",
+      "path": "Iterative Reasoning Preference Optimization.md"
     },
     {
       "basename": "Streaming Multiprocessor",
@@ -17,24 +41,36 @@
       "path": "CUDA.md"
     },
     {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
+      "basename": "GPU",
+      "path": "GPU.md"
     },
     {
-      "basename": "PTX",
-      "path": "PTX.md"
+      "basename": "CUDA Core",
+      "path": "CUDA Core.md"
     },
     {
-      "basename": "SRAM",
-      "path": "SRAM.md"
+      "basename": "Load Store Unit",
+      "path": "Load Store Unit.md"
     },
     {
       "basename": "DRAM",
       "path": "DRAM.md"
     },
     {
-      "basename": "Load Store Unit",
-      "path": "Load Store Unit.md"
+      "basename": "SRAM",
+      "path": "SRAM.md"
+    },
+    {
+      "basename": "PTX",
+      "path": "PTX.md"
+    },
+    {
+      "basename": "SASS",
+      "path": "SASS.md"
+    },
+    {
+      "basename": "nvcc",
+      "path": "nvcc.md"
     },
     {
       "basename": "VRAM",
@@ -45,24 +81,12 @@
       "path": "Register File.md"
     },
     {
-      "basename": "CUDA Core",
-      "path": "CUDA Core.md"
-    },
-    {
       "basename": "Tensor Core",
       "path": "Tensor Core.md"
     },
     {
-      "basename": "Thinking LLMs",
-      "path": "Thinking LLMs.md"
-    },
-    {
       "basename": "Special Function Unit",
       "path": "Special Function Unit.md"
-    },
-    {
-      "basename": "GPU",
-      "path": "GPU.md"
     },
     {
       "basename": "High-Bandwidth Memory",
@@ -103,10 +127,6 @@
     {
       "basename": "Transformer",
       "path": "Transformer.md"
-    },
-    {
-      "basename": "Iterative Reasoning Preference Optimization",
-      "path": "Iterative Reasoning Preference Optimization.md"
     },
     {
       "basename": "Iterative Retrieval",
@@ -153,10 +173,6 @@
       "path": "Pretraining.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
       "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
       "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
     },
@@ -179,26 +195,6 @@
     {
       "basename": "Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}",
       "path": "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md"
-    },
-    {
-      "basename": "Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}",
-      "path": "Articles/Why I'm Excited about DSPy (Feb 2024) {Stephen Byrne, Thoughts on Tech newsletter}.md"
-    },
-    {
-      "basename": "Why I build open language models (October 30) {Nathan Lambert}",
-      "path": "Articles/Why I build open language models (October 30) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Why I build open language models (October 30, 2024) {Nathan Lambert}",
-      "path": "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Why I bet on DSPy (August 10, 2024) {Isaac Miller}",
-      "path": "Articles/Why I bet on DSPy (August 10, 2024) {Isaac Miller}.md"
-    },
-    {
-      "basename": "Why GPT-3 Matters (2020) {Leo Gao}",
-      "path": "Articles/Why GPT-3 Matters (2020) {Leo Gao}.md"
     }
   ],
   "omittedPaths": [],
