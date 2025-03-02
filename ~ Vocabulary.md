@@ -189,6 +189,7 @@
 - [[Reinforcement Finetuning]]
 - [[Graph Neural Network]]
 - [[Thinking LLMs]]
+- [[Mixed Precision]]
 - [[Iterative Reasoning Preference Optimization]] (IRPO)
 - [[Language Model]]
 - [[Long Short Term Memory]] (LSTM)
@@ -289,6 +290,8 @@
 - [[Pre-training]]
 - [[AdaBoost]]
 - [[Batch]]
+- [[Batch Size]]
+- [[Batch Size Tokens]] (BST)
 - [[Scalable Oversight]]
 - [[Batch Normalization]] (BatchNorm)
 - [[Layer Normalization]] (LayerNorm)
@@ -394,7 +397,9 @@
 - [[Context Parallelism]]
 - [[Sequence Parallelism]]
 - [[Fully Sharded Data Parallelism]] (FSDP)
-- [[Maximal Update Parameterization]]
+- [[ZeRO]]
+- [[Kernel Fusion]]
+- [[Maximal Update Parameterization]] (MuP)
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)

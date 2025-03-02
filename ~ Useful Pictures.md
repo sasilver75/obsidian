@@ -1,3 +1,7 @@
+
+![[Pasted image 20250301214404.png]]
+Bigass PNG from The Ultra-Scale Playbook
+
 ![[Pasted image 20250118162242.png]]******
 ![[Pasted image 20250118162324.png]]
 
