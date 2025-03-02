@@ -540,7 +540,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1529,12 +1529,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "84796ee363619605",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 95
+        "currentTab": 96
       },
       {
         "id": "8a022290161ffefa",
@@ -1595,7 +1605,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b797a415d417323c",
+  "active": "84796ee363619605",
   "lastOpenFiles": [
     "nvcc.md",
     "SASS.md",
