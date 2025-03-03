@@ -1,4 +1,9 @@
-Activations needed to compute the gradientsLink: The [Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=high_level_overview)
+Link: The [Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=high_level_overview)
+Video Version: [CUDA Mode Lecture 48](https://youtu.be/1E8GDR8QXKw?si=Vp7yQhS0lrCEWfPP)
+
+What do we do when we want to train a model on multiple GPUs?
+The information in this long article helps you run models on anything from 2 to 10,000 GPUs.
+- Note that H100s are rentable these days for $2/hour, so for $4/hour you're doing distributed training.
 
 -----------------------------
 
