@@ -103,7 +103,8 @@
               "title": "~ Vocabulary"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1185,12 +1187,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "619db16d4b61f2bf",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c625edcda3e62dfd",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 98
+        "currentTab": 100
       },
       {
         "id": "8a022290161ffefa",
@@ -1251,11 +1273,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "15c11b1948d9fc1f",
+  "active": "c625edcda3e62dfd",
   "lastOpenFiles": [
+    "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
     "_attachments/Pasted image 20250302012042.png",
     "().md",
-    "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
     "Mixed Precision.md",
     "_attachments/Pasted image 20250302002753.png",
     "_attachments/Pasted image 20250302002745.png",
@@ -1288,7 +1310,6 @@
     "Special Function Unit.md",
     "_attachments/Pasted image 20250221113829.png",
     "High-Bandwidth Memory.md",
-    "_attachments/Pasted image 20250221113821.png",
     "Reinforcement Learning.md",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
