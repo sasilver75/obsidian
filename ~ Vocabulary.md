@@ -970,6 +970,8 @@
 - [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
 - [[SmolLM]]
 - [[SmolLM2]]
+- [[SmolVLM]]
+- [[SmolVLM2]]
 - [[SPARC]]
 - [[Sphinx]]
 - [[Stable Diffusion]]
