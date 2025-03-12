@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "~ Vocabulary"
             }
+          },
+          {
+            "id": "a78dbec5f28bf6b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "~ Vocabulary"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1273,7 +1297,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c625edcda3e62dfd",
+  "active": "a78dbec5f28bf6b7",
   "lastOpenFiles": [
     "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
     "_attachments/Pasted image 20250302012042.png",
