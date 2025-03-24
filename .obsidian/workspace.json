@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7412046af0b088c3",
+        "id": "304d0b7862ca451b",
         "type": "tabs",
         "children": [
           {
-            "id": "71306532f2f67db2",
+            "id": "940ccff5b63a7312",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -1130,12 +1130,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1e2842f47d58b2e3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 101
+        "currentTab": 102
       },
       {
         "id": "8a022290161ffefa",
@@ -1196,8 +1206,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "71306532f2f67db2",
+  "active": "940ccff5b63a7312",
   "lastOpenFiles": [
+    "Reinforcement Learning from from AI Feedback.md",
     "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
     "~ Vocabulary.md",
     "~ Useful Pictures.md",
