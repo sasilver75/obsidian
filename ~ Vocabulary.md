@@ -732,6 +732,8 @@
 - [[Epsilon-Greedy]]
 - [[Experience Replay]]
 - [[Group Relative Policy Optimization]] (GRPO)
+- [[Dr. GRPO]]
+- [[DAPO]]
 - [[Hierarchical Reinforcement Learning]]
 - [[Inverse Reinforcement Learning]]
 - [[Markov Decision Process]]
