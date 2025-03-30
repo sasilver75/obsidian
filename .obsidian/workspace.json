@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Vocabulary.md",
+                "file": "~ Useful Pictures.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "~ Vocabulary"
+              "title": "~ Useful Pictures"
             }
           }
         ]
@@ -1164,12 +1164,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "92d5c92f9d82dd35",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b44162fe05f556e1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 103
+        "currentTab": 105
       },
       {
         "id": "8a022290161ffefa",
@@ -1232,9 +1252,11 @@
   },
   "active": "940ccff5b63a7312",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250325171831.png",
+    "_attachments/Pasted image 20250325165433.png",
+    "~ Vocabulary.md",
     "Reinforcement Learning from from AI Feedback.md",
     "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
-    "~ Vocabulary.md",
     "~ Useful Pictures.md",
     "_attachments/Pasted image 20250302012042.png",
     "().md",
@@ -1266,9 +1288,7 @@
     "_attachments/Pasted image 20250221115212.png",
     "Load",
     "Special Function Unit.md",
-    "_attachments/Pasted image 20250221113829.png",
     "High-Bandwidth Memory.md",
-    "Reinforcement Learning.md",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
