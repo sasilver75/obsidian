@@ -5,196 +5,200 @@
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Qwen 2.5",
-      "path": "Qwen 2.5.md"
+      "basename": "Value Iteration",
+      "path": "Value Iteration.md"
     },
     {
-      "basename": "PaperTemplate",
-      "path": "Templates/PaperTemplate.md"
+      "basename": "Value Function",
+      "path": "Value Function.md"
     },
     {
-      "basename": "Best Practices and Lessons Learned on Synthetic Data for Language Models",
-      "path": "Papers/Synthetic Data/Best Practices and Lessons Learned on Synthetic Data for Language Models.md"
+      "basename": "Monte-Carlo Learning",
+      "path": "Monte-Carlo Learning.md"
     },
     {
-      "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
-      "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
+      "basename": "Test-Time Augmentation",
+      "path": "Test-Time Augmentation.md"
     },
     {
-      "basename": "o1",
-      "path": "o1.md"
+      "basename": "RandAugment",
+      "path": "RandAugment.md"
     },
     {
-      "basename": "Lecture 8",
-      "path": "Courses/UCSC/NLP201 NLP I/Lecture 8.md"
+      "basename": "Mixup",
+      "path": "Mixup.md"
     },
     {
-      "basename": "Law of Large Numbers",
-      "path": "Law of Large Numbers.md"
+      "basename": "MixMatch",
+      "path": "MixMatch.md"
     },
     {
-      "basename": "Masked Image Model",
-      "path": "Masked Image Model.md"
+      "basename": "Swin",
+      "path": "Swin.md"
     },
     {
-      "basename": "Llip",
-      "path": "Llip.md"
+      "basename": "Noise-Contrastive Estimation",
+      "path": "Noise-Contrastive Estimation.md"
     },
     {
-      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
-      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
+      "basename": "Scheduled Sampling",
+      "path": "Scheduled Sampling.md"
     },
     {
-      "basename": "Sparrow",
-      "path": "Sparrow.md"
+      "basename": "Dataset Aggregation",
+      "path": "Dataset Aggregation.md"
     },
     {
-      "basename": "An Introduction to Vision-Language Modeling",
-      "path": "Papers/VLMs/An Introduction to Vision-Language Modeling.md"
+      "basename": "Contrastive Decoding",
+      "path": "Contrastive Decoding.md"
     },
     {
-      "basename": "FLAVA",
-      "path": "FLAVA.md"
+      "basename": "SentencePiece",
+      "path": "SentencePiece.md"
     },
     {
-      "basename": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey",
-      "path": "Papers/Synthetic Data/On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation - A Survey.md"
+      "basename": "Unigram Tokenization",
+      "path": "Unigram Tokenization.md"
     },
     {
-      "basename": "VLM",
-      "path": "VLM.md"
+      "basename": "chrF",
+      "path": "chrF.md"
     },
     {
-      "basename": "Tim Dettmers",
-      "path": "Tim Dettmers.md"
+      "basename": "Promptagator",
+      "path": "Promptagator.md"
     },
     {
-      "basename": "Weights and Biases",
-      "path": "Weights and Biases.md"
+      "basename": "Product Quantization",
+      "path": "Product Quantization.md"
     },
     {
-      "basename": "National AI Research Resource",
-      "path": "National AI Research Resource.md"
+      "basename": "Inverted File Index",
+      "path": "Inverted File Index.md"
     },
     {
-      "basename": "Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}",
-      "path": "Articles/Instruction Pretraining LLMs (July 20, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "7 Tips for Junior Researchers (?) {Ofir Press}",
-      "path": "Articles/7 Tips for Junior Researchers (?) {Ofir Press}.md"
-    },
-    {
-      "basename": "Why I build open language models (October 30, 2024) {Nathan Lambert}",
-      "path": "Articles/Why I build open language models (October 30, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}",
-      "path": "Articles/Saving the National AI Research Resource (November 13, 2024) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "Why I build open language models (October 30) {Nathan Lambert}",
-      "path": "Articles/Why I build open language models (October 30) {Nathan Lambert}.md"
-    },
-    {
-      "basename": "The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}",
-      "path": "Articles/The LLM Reasoning Debate Heats Up (October 20, 2024) {Melanie Mitchell}.md"
-    },
-    {
-      "basename": "Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}",
-      "path": "Articles/Paper's I've read this week - Vision Language Models (Oct 28, 2024) {Finbarr Timbers, Artificial Fintelligence Newsletter}.md"
-    },
-    {
-      "basename": "MMVP",
-      "path": "MMVP.md"
-    },
-    {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
-    },
-    {
-      "basename": "CLIP",
-      "path": "CLIP.md"
-    },
-    {
-      "basename": "PaliGemma",
-      "path": "PaliGemma.md"
-    },
-    {
-      "basename": "SugarCrepe",
-      "path": "SugarCrepe.md"
-    },
-    {
-      "basename": "PaLI",
-      "path": "PaLI.md"
-    },
-    {
-      "basename": "SPARC",
-      "path": "SPARC.md"
-    },
-    {
-      "basename": "Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}",
-      "path": "Articles/Understanding Multimodal LLMs (Nov 3, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "NVLM",
-      "path": "NVLM.md"
-    },
-    {
-      "basename": "Fuyu",
-      "path": "Fuyu.md"
-    },
-    {
-      "basename": "Untitled 6",
-      "path": "Untitled 6.md"
+      "basename": "InPars",
+      "path": "InPars.md"
     },
     {
       "basename": "HyQE",
       "path": "HyQE.md"
     },
     {
-      "basename": "FrontierMath",
-      "path": "FrontierMath.md"
+      "basename": "CRAG",
+      "path": "CRAG.md"
     },
     {
-      "basename": "GAIA",
-      "path": "GAIA.md"
+      "basename": "Contriever",
+      "path": "Contriever.md"
     },
     {
-      "basename": "EQBench",
-      "path": "EQBench.md"
+      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
+      "path": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
     },
     {
-      "basename": "SmolLM2",
-      "path": "SmolLM2.md"
+      "basename": "Context Compression",
+      "path": "Context Compression.md"
     },
     {
-      "basename": "PixMo",
-      "path": "PixMo.md"
+      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
+      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md"
     },
     {
-      "basename": "Perplexity",
-      "path": "Perplexity.md"
+      "basename": "Consistency Filtering",
+      "path": "Consistency Filtering.md"
     },
     {
-      "basename": "Long Short Term Memory",
-      "path": "Long Short Term Memory.md"
+      "basename": "Average Precision",
+      "path": "Average Precision.md"
     },
     {
-      "basename": "Recurrent Neural Network",
-      "path": "Recurrent Neural Network.md"
+      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
+      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
     },
     {
-      "basename": "Monte-Carlo",
-      "path": "Monte-Carlo.md"
+      "basename": "Asymmetric Distance Computation",
+      "path": "Asymmetric Distance Computation.md"
     },
     {
-      "basename": "Cross-Entropy",
-      "path": "Cross-Entropy.md"
+      "basename": "Maximum Inner Product Search",
+      "path": "Maximum Inner Product Search.md"
     },
     {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
+      "basename": "Instruction Backtranslation",
+      "path": "Instruction Backtranslation.md"
+    },
+    {
+      "basename": "Negative Prompt",
+      "path": "Negative Prompt.md"
+    },
+    {
+      "basename": "Self-Ask",
+      "path": "Self-Ask.md"
+    },
+    {
+      "basename": "Boosting",
+      "path": "Boosting.md"
+    },
+    {
+      "basename": "Evol-Amplify",
+      "path": "Evol-Amplify.md"
+    },
+    {
+      "basename": "Gradient Checkpointing",
+      "path": "Gradient Checkpointing.md"
+    },
+    {
+      "basename": "Sampled Softmax",
+      "path": "Sampled Softmax.md"
+    },
+    {
+      "basename": "Human-in-the-Loop Decoding",
+      "path": "Human-in-the-Loop Decoding.md"
+    },
+    {
+      "basename": "Self-Speculative Decoding",
+      "path": "Self-Speculative Decoding.md"
+    },
+    {
+      "basename": "Pre-text Training",
+      "path": "Pre-text Training.md"
+    },
+    {
+      "basename": "Context Distillation",
+      "path": "Context Distillation.md"
+    },
+    {
+      "basename": "Online Distillation",
+      "path": "Online Distillation.md"
+    },
+    {
+      "basename": "Self-Distillation",
+      "path": "Self-Distillation.md"
+    },
+    {
+      "basename": "Format-Restricting Instruction",
+      "path": "Format-Restricting Instruction.md"
+    },
+    {
+      "basename": "TinyML (5) - Quantization part 1",
+      "path": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
+    },
+    {
+      "basename": "Linear Quantization",
+      "path": "Linear Quantization.md"
+    },
+    {
+      "basename": "Jensen's Inequality",
+      "path": "Jensen's Inequality.md"
+    },
+    {
+      "basename": "Beta-VAE",
+      "path": "Beta-VAE.md"
+    },
+    {
+      "basename": "Chain of Note",
+      "path": "Chain of Note.md"
     }
   ],
   "omittedPaths": [],
