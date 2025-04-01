@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qwen 2.5.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Qwen 2.5"
+              "title": "~ Vocabulary"
             }
           }
         ]
@@ -512,12 +512,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "46f462635fe0436d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 38
+        "currentTab": 39
       },
       {
         "id": "8a022290161ffefa",
@@ -580,6 +590,7 @@
   },
   "active": "2327705687d625da",
   "lastOpenFiles": [
+    "Qwen 2.5.md",
     "Templates/PaperTemplate.md",
     "Format-Restricting Instruction.md",
     "conflict-files-obsidian-git.md",
@@ -616,7 +627,6 @@
     "Papers/VLMs",
     "Tim Dettmers.md",
     "Weights and Biases.md",
-    "National AI Research Resource.md",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
