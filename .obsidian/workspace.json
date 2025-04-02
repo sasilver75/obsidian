@@ -1184,12 +1184,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "fdae8a6c4675fc70",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 105
+        "currentTab": 106
       },
       {
         "id": "8a022290161ffefa",
@@ -1250,7 +1260,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "940ccff5b63a7312",
+  "active": "fdae8a6c4675fc70",
   "lastOpenFiles": [
     "_attachments/Pasted image 20250325171831.png",
     "_attachments/Pasted image 20250325165433.png",
