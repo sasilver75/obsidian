@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "304d0b7862ca451b",
+        "id": "2e9bdd4111f90633",
         "type": "tabs",
         "children": [
           {
-            "id": "940ccff5b63a7312",
+            "id": "c98c98417035c8de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~ Useful Pictures.md",
+                "file": "Articles/Vision Large Language Models (vLLMs).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "~ Useful Pictures"
+              "title": "Vision Large Language Models (vLLMs)"
             }
           }
         ]
@@ -94,8 +94,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1194,12 +1193,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "30d58793f608cc69",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 106
+        "currentTab": 107
       },
       {
         "id": "8a022290161ffefa",
@@ -1260,20 +1269,26 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fdae8a6c4675fc70",
+  "active": "c98c98417035c8de",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250402165209.png",
+    "_attachments/Pasted image 20250402164201.png",
+    "_attachments/Pasted image 20250402164025.png",
+    "_attachments/Pasted image 20250402163814.png",
+    "_attachments/Pasted image 20250402162934.png",
+    "_attachments/Pasted image 20250402162919.png",
+    "Articles/Vision Large Language Models (vLLMs).md",
+    "~ Useful Pictures.md",
     "_attachments/Pasted image 20250325171831.png",
     "_attachments/Pasted image 20250325165433.png",
     "~ Vocabulary.md",
     "Reinforcement Learning from from AI Feedback.md",
     "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
-    "~ Useful Pictures.md",
     "_attachments/Pasted image 20250302012042.png",
     "().md",
     "Mixed Precision.md",
     "_attachments/Pasted image 20250302002753.png",
     "_attachments/Pasted image 20250302002745.png",
-    "_attachments/Pasted image 20250301214404.png",
     "Maximal Update Parameterization.md",
     "Articles/Chip Huyen Agents.md",
     "Thinking LLMs.md",
@@ -1288,17 +1303,11 @@
     "PTX.md",
     "SASS.md",
     "nvcc.md",
-    "_attachments/Pasted image 20250221123227.png",
-    "_attachments/Pasted image 20250221122930.png",
     "VRAM.md",
     "Register File.md",
-    "_attachments/Pasted image 20250221121931.png",
-    "_attachments/Pasted image 20250221120334.png",
     "Tensor Core.md",
-    "_attachments/Pasted image 20250221115212.png",
     "Load",
     "Special Function Unit.md",
-    "High-Bandwidth Memory.md",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
