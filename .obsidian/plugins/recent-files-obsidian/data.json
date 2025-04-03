@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Vision Large Language Models (vLLMs)",
+      "path": "Articles/Vision Large Language Models (vLLMs).md"
+    },
+    {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "David Silver RL (1) - Intro to Reinforcement Learning",
       "path": "Courses/Machine Learning/David Silver UCL Reinforcement Learning (2015)/David Silver RL (1) - Intro to Reinforcement Learning.md"
-    },
-    {
-      "basename": "Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}",
-      "path": "Articles/Why Reward Models are Key for Alignment (Feb 2024) {Nathan Lambert, Interconnects newsletter}.md"
     }
   ],
   "omittedPaths": [],
