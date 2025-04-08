@@ -684,6 +684,7 @@
 	- [[Visual Question-Answering]]
 - [[Swin|Swin Transformer]]
 - [[Vision Transformer]] (ViT)
+- [[Model Context Protocol]]
 
 # MultiModal Concepts
 - [[Early Fusion]]
