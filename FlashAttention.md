@@ -20,3 +20,9 @@ Tri Dao @ Stanford invented FlashAttention, where the idea is basically that you
 A further development of FlashAttention that was 2x faster. The idea is to have as much of the computation in (a) MatMul Flop (?).... Divisions are 4x more expensive than a multiplication (when we do attention, we have a division!) -- we want to do these *at the end*. These types of things are what FlashAttention bring -- better parallelism, causal mask, and just better work partitioning memory in the GPU. It's an incremental improvement, but still a very nice addition! 😄.
 
 
+---------------------
+
+Jeff Explanation
+- Uses ==fusing of operations== (a single Kernel for matmul and softmax) and ==tiling== to improve ***memory*** efficiency from O(N^2) to O(N).
+	- Tiling: Break up your two matrices that you're multiplying into tiles; do the matmul for each tile in series, so that the fragments of matrices can fit into the SMs of the GPU chip.
+- Also this mathematical fact (in slideS) that we can compute attention incrementally.
