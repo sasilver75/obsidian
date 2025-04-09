@@ -1,9 +1,12 @@
-****# General
+# General
 - [[Reasoning]]
 
-# Data Engineering
+
+
+# Software Engineering
 - [[Apache Arrow]]
 - [[Apache Parquet]]
+- [[Server-Sent Event]] (SSE)
 
 # Hardware Stack (And related Software)
 - [[CUDA]]
