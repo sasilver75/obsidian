@@ -1,7 +1,8 @@
 References
 - Latent Space: [The Creators of Model Context Protocol](https://youtu.be/m2VqaNKstGc?si=HTKThmII-xH6Mvf1)
 - Docs: [Model Context Protocol](https://modelcontextprotocol.io/introduction)
-- 
+- Everything MCP Server Code: [Link](https://github.com/modelcontextprotocol/servers/blob/main/src/everything/README.md)
+	- Swyx: Everyone should look at these; I'll highlight the memory one first... there are a few memory startups, but you don't need them if you use this one. See the Knowledge Graph Memory Server. I'd also want to highlight the Filesystem MCP server here, because of its edit_file functionality; people were very interesting in this file editing tool which is basically open-source via this project. This is core IP for a lot of people, and it's just being put out in public here for free. SequentialThinking is another one here; it allows for branching... which is interesting. 
 
 A protocol designed to help ==AI applications== (not models themselves) extend themselves and integrate with an ecosystem of plugins.
 MCP is kind of like the USB-C port of AI applications, in that it's meant to be a universal connection to a whole ecosystem of datasources/tools.
@@ -142,6 +143,7 @@ When should people use a tool versus a resource, especially for things that DO h
 ![[Pasted image 20250407145401.png]]
 Swyx: I think this document is so useful that it should be on the front pages of the Docs. As a DevRel person, I always insist of having a map for people: "Here's a map of all the things you should understand; let's spend two hours going over this."
 
+
 > People still apply their usual SWE API engineering approaches to this, but I think we still need to relearn how to build something for LLMs and trust them, particularly as they're getting significantly better year-to-year. Nowadays, just throw data at the thing that's really good at dealing with data (an LLM). We need to unlearn 20-30 years of SWE practices that go into this, to some degree. 
 
 > One framing for MCP is to think about how crazy-fast AI is advancing; us thinking that the biggest bottleneck to the next wave of capabilities of models might be their ability to interact with the outside world, taking actions, etc. As AI get better, this will be key to becoming productive with AI; so MCP is sort of a bet on the future and this being more important going forward.
@@ -153,5 +155,21 @@ Build the servers... people do their tweets about connecting Claude Desktop to x
 > With MCP, it's easy to build something that's pretty good in half an hour; so pick the language of your choice that you love the most, pick an SDK for it, and build the tool that matters to you, personally! Build a server, throw the tool in, and don't worry too much about the description just yet -- write your little description as *you* think about it, throw it to the model, standard IO protocol into an application you like, and see it do things. It's empowerment and magic for developers. Adds a lot of fun to the development piece too, to have models that can go out and do this.
 
  
+If I want to build a Subreddit bot, I'm going to need a Reddit MCP and a Summarization MCP; How do I compose these?
+> One aspect is how can I build something agentically that requires an LLM call in a form or fashion for summarization or so, but staying model-independent? We have the ability for servers to ask the client (who owns the LLM interaction) for the server author to ask the client for completion and basically have it summarize something for the server, and return it back... {changing} You can imagine an MCP server serving something to Cursor or Windsurf or Claude Desktop but at the same time is an MCP client that itself can use MCP servers to create a richer experience. Now we have a recursive property that we tried to retrain. We can now think about this little bundle of application that's both a server and client, and we can add these in chains, and build basically graphs out of MCP servers that can richly interact with eachother. Each MCP server can use the entire ecosystem of MCP servers. We'll see more of this as people continue to engineer with these.
+
+Is an MCP server that's also a client... an agent? Because you're requesting something and it's going off and doing something that you don't know about... do you have a hot take on this?
+> Depends what an agent is? For me, you need to define the difference between an MCP server plus client that's just a proxy, versus an agent... which might be a sample loop to create a more richer experience... to have a model call tools through this MCP server with a client... then yeah that seems like an agent.
+> I think there's a few paths here. Perhaps MCP is a great way to represent agents (though it's probably missing some ergonomic features), or maybe MCP is a foundations communications layer for how agents communicate... or maybe MCP should narrowly specialize on the AI application side and not as much as on the agent side. It seems like a live question at this point.
+Swyx: Once you enable two-way and allow servers to delegate works to other MCP servers, it seems  more agentic than not.
+
+How many MCP things can only implementation support? This is the "wide versus deep" question, and is relevant to the nesting we talked about.
+There was an announcement that Claude can support 250 tools 🤔 But then you have tool confusion! When you call the wrong tool, you get bad results. Do you have a recommendation for a maximum number of MCP servers that are enabled at a given time?
+> There's not one answer to this, because it depends on the Model you're using, depends on how well tools are named and described for the model to avoid confusion. The dream is that you furnish all this information to the LLM and it can just figure everything out, but today the reality/practicality is that... in your client application (your AI application), you do some filtering over the tool set, or run some faster, smaller LLM to filter to what's more relevant, and only pass those to the bigger model, or could use an MCP server which is a proxy to other MCP servers, and does some filtering at that level or something like that... 
+> He thinks that hundreds is still relatively a safe bet, but over time you should expect this to get better, and we're worry about constraining.
+> It depends on the overlap of the tool descriptions; if you have separate servers that do separate things and have very clear, well-written descriptions, than if you have a GitHub and a GitLab server at the same time, where there's more overlap.
+
+
+
 
 

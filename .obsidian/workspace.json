@@ -79,8 +79,7 @@
               "title": "FlashAttention"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -1329,16 +1328,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6e5f0de9bb39d2d7",
+  "active": "c98c98417035c8de",
   "lastOpenFiles": [
+    "Server-Sent Event.md",
+    "~ Vocabulary.md",
+    "Reasoning.md",
+    "Model Context Protocol.md",
     "_attachments/Pasted image 20250407175101.png",
     "_attachments/Pasted image 20250407174752.png",
     "_attachments/Pasted image 20250407174420.png",
     "FlashAttention.md",
     "Grouped Query Attention.md",
-    "Model Context Protocol.md",
     "_attachments/Pasted image 20250407145401.png",
-    "~ Vocabulary.md",
     "Articles/Vision Large Language Models (vLLMs).md",
     "_attachments/Pasted image 20250402165209.png",
     "_attachments/Pasted image 20250402164201.png",
@@ -1347,7 +1348,6 @@
     "_attachments/Pasted image 20250402162934.png",
     "_attachments/Pasted image 20250402162919.png",
     "~ Useful Pictures.md",
-    "_attachments/Pasted image 20250325171831.png",
     "Reinforcement Learning from from AI Feedback.md",
     "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
     "().md",
@@ -1366,7 +1366,6 @@
     "PTX.md",
     "SASS.md",
     "nvcc.md",
-    "VRAM.md",
     "Load",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
