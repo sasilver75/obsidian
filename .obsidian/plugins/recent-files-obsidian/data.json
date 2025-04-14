@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Model Context Protocol",
+      "path": "Model Context Protocol.md"
+    },
+    {
+      "basename": "SRAM",
+      "path": "SRAM.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Reasoning",
       "path": "Reasoning.md"
-    },
-    {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
     },
     {
       "basename": "FlashAttention",
@@ -83,10 +87,6 @@
     {
       "basename": "DRAM",
       "path": "DRAM.md"
-    },
-    {
-      "basename": "SRAM",
-      "path": "SRAM.md"
     },
     {
       "basename": "PTX",
