@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c98c98417035c8de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
             "id": "6e5f0de9bb39d2d7",
             "type": "leaf",
             "state": {
@@ -1272,12 +1248,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b1e237101633602d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 109
+        "currentTab": 110
       },
       {
         "id": "8a022290161ffefa",
@@ -1338,10 +1324,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e654e57ac0a8b5ea",
+  "active": "6e5f0de9bb39d2d7",
   "lastOpenFiles": [
-    "Server-Sent Event.md",
+    "SRAM.md",
     "~ Vocabulary.md",
+    "Server-Sent Event.md",
     "Reasoning.md",
     "Model Context Protocol.md",
     "_attachments/Pasted image 20250407175101.png",
@@ -1372,7 +1359,6 @@
     "CUDA Core.md",
     "Load Store Unit.md",
     "DRAM.md",
-    "SRAM.md",
     "PTX.md",
     "SASS.md",
     "nvcc.md",
