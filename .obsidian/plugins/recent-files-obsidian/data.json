@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "FlashAttention",
+      "path": "FlashAttention.md"
+    },
+    {
       "basename": "Model Context Protocol",
       "path": "Model Context Protocol.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Reasoning",
       "path": "Reasoning.md"
-    },
-    {
-      "basename": "FlashAttention",
-      "path": "FlashAttention.md"
     },
     {
       "basename": "Grouped Query Attention",
