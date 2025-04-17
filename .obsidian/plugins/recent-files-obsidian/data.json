@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Unit 1 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 1 Notes.md"
+    },
+    {
+      "basename": "Unit 3 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 3 Notes.md"
+    },
+    {
+      "basename": "Unit 2 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 2 Notes.md"
+    },
+    {
       "basename": "FlashAttention",
       "path": "FlashAttention.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Bi-Encoder",
       "path": "Bi-Encoder.md"
-    },
-    {
-      "basename": "MT-Bench",
-      "path": "MT-Bench.md"
-    },
-    {
-      "basename": "Post-Training",
-      "path": "Post-Training.md"
-    },
-    {
-      "basename": "Pretraining",
-      "path": "Pretraining.md"
     }
   ],
   "omittedPaths": [],

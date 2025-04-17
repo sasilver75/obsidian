@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "f15a3133727dab9a",
+        "id": "bfcdcbee59015582",
         "type": "tabs",
         "children": [
           {
-            "id": "55631a8442a2bae2",
+            "id": "6fc3396cbd9d9de6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Courses/HuggingFaceAgents/Unit 1 Notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Unit 1 Notes"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"streaming assembler\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +94,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1230,12 +1243,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "dfba2118c740b59b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
-        "currentTab": 111
+        "currentTab": 112
       },
       {
         "id": "8a022290161ffefa",
@@ -1296,26 +1319,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "55631a8442a2bae2",
+  "active": "6fc3396cbd9d9de6",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250417164203.png",
+    "_attachments/Pasted image 20250417162928.png",
+    "_attachments/Pasted image 20250417162907.png",
+    "_attachments/Pasted image 20250417162756.png",
+    "_attachments/Pasted image 20250417162044.png",
+    "_attachments/Pasted image 20250417161831.png",
+    "_attachments/Pasted image 20250417160910.png",
+    "_attachments/Pasted image 20250417155815.png",
+    "_attachments/Pasted image 20250417153857.png",
+    "_attachments/Pasted image 20250417152954.png",
+    "_attachments/Pasted image 20250417150904.png",
+    "Courses/HuggingFaceAgents/Unit 3 Notes.md",
+    "Courses/HuggingFaceAgents/Unit 2 Notes.md",
+    "Courses/HuggingFaceAgents/Unit 1 Notes.md",
+    "Courses/HuggingFaceAgents",
     "FlashAttention.md",
     "Model Context Protocol.md",
     "SRAM.md",
     "~ Vocabulary.md",
     "Server-Sent Event.md",
     "Reasoning.md",
-    "_attachments/Pasted image 20250407175101.png",
-    "_attachments/Pasted image 20250407174752.png",
-    "_attachments/Pasted image 20250407174420.png",
     "Grouped Query Attention.md",
-    "_attachments/Pasted image 20250407145401.png",
     "Articles/Vision Large Language Models (vLLMs).md",
-    "_attachments/Pasted image 20250402165209.png",
-    "_attachments/Pasted image 20250402164201.png",
-    "_attachments/Pasted image 20250402164025.png",
-    "_attachments/Pasted image 20250402163814.png",
-    "_attachments/Pasted image 20250402162934.png",
-    "_attachments/Pasted image 20250402162919.png",
     "~ Useful Pictures.md",
     "Reinforcement Learning from from AI Feedback.md",
     "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
@@ -1330,10 +1358,6 @@
     "GPU.md",
     "CUDA Core.md",
     "Load Store Unit.md",
-    "DRAM.md",
-    "PTX.md",
-    "SASS.md",
-    "nvcc.md",
     "Load",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
@@ -1342,7 +1366,6 @@
     "Courses/Machine Learning/Spinning Up in RL",
     "Papers/VLMs",
     "Articles/Untitled",
-    "Courses/Berkeley Agents",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning"
+    "Courses/Berkeley Agents"
   ]
 }
