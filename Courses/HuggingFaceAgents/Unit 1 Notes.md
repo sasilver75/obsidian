@@ -598,8 +598,7 @@ These observations can take many forms, from reading webpage text to monitoring 
 3. Append the result as an Observation
 
 
-
-
+![[Pasted image 20250417172552.png]]
 
 
 
