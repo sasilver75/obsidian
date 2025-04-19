@@ -338,6 +338,386 @@ with MCPClient([server_params1, server_params2]) as tools:
 ### Understanding Secure Code Execution
 - Multiple papers have shown that ==letting the LLM write its own actions (the tool calls) in code is much better than teh standord format for tool calling, which is across the industry different shades of "writing actions as a JSON of tool names and arguments to use.==
 
+Code is just a better way to express actions than JSON snippets!
+- ==Composability==: Could we next JSON actions within eachother, or define JSON actions to re-use later, like we can with Python functions?
+- ==Object management==: Can we store the output of an action like generate_image in JSON?
+- ==Generality==: Code is built to express anything a computer can do
+- ==Representation in LLM training corpus==: LLMs have examples of many quality actions in training corpusses.
+
+![[Pasted image 20250419131825.png]]
+
+Local code execution:
+- By default, ==CodeAgent runs LLM-generated code in YOUR ENVIRONMENT!==
+	- This is ==INHERENTLY RISKY!==
+		- ==Plain LLM errors==: LLM might attempt to execute potentially dangerous code
+		- ==Supply chain attack==: An LLM might attempt to use code outside your supply chain (e.g. random PyPi package that you don't control)
+		- ==Prompt Injection==: An agent browsing the web could arrive on an a malicious website that contains harmful instructions, thus injecting an attack into the agent's memory.
+		- ==Exploitation of publicly-accessible agents==: Attacks crafting adversarial inputs to exploit the agent's execution capabilities.
+
+On the spectrum of agency, ==Code agents give much higher agency to the LLM, which goes hand-in-hand with higher risk!==
+
+We advise you to keep in mind that NO SOLUTION will be 100% safe!
+![[Pasted image 20250419132239.png]]
+
+
+Our local Python executor:
+- To add a FIRST layer of security, ==code execution in `smolagents` is not performed by the vanilla Python interpreter==.
+	- We rebuilt a more secure `LocalPythonExecutor` from the ground up.
+	- To be precise, this interpreter loads the Abstract Syntax Tree (AST) from the code and executes it operation by operation, making sure to always follow certain rules.
+		- ==Imports are disallowed until explicitly authorized by users==
+		- ==Access to submodules is disabled by default==, and each must be explicitly authorized in the import list as well
+			- You can do `numpy.*` to allow both `numpy` and all subpackages, like `numpy.random` or `numpy.a.b`.
+		- The total count of elementary operations processed is capped to ==prevent infinite loops== and resource bloating.
+		- Any operation that has not been explicitly defined in our customer interpreter will raise an error.
+
+==No local Python sandbox can ever be completely secure.==
+- It's still possible for a determined attacked or maliciously fine-tuend LLM to find vulnerabilitis and potentially harm your environment.
+	- For example, if you use `Pillow` to process images, the LLM could generate code that creates THOUSANDS of large image files to fill your hard drive!
+
+==The only way to run LLM-generated code with truly robust security isoluation is to use remote execution options like E2B or Docker==!
+
+
+
+### Sandbox Approaches for Secure CodeEx
+
+There are two main approaches to sandboxing code execution in smolagent:
+
+1. ==Running individual code snippets in a sandbox==
+	1. The rest of the agentic system is in your local environment; Simpler to set up, using executor_type="e2b"/"docker", but it doesn't support multi-agents and still requires passing state data between your environment and the sandbox.
+2. ==Running the entire agentic system in a sandobx==
+	1. This approach runs the entire agentic system, including the ==agent, model, and tools== within a sandbox environment.
+	2. This provides better isolation but requires more manual setup and might require passing sensitive credentials (like API keys) to the sandbox environment.
+
+
+##### E2B Setup
+
+> E2B: https://e2b.dev/
+> "Run AI-Generated Code Securely in your App. E2B is an open-source runtime for executing AI-generated code in secure cloud sandboxes. Made for agentic and AI use cases."
+
+1. Create an E2B account at e2b.dev
+2. Install the required packages
+
+`pip install smolagents[e2b]`
+
+There's a simple way to use an E2B Sandbox:
+- Adding `executor_type="e2b"` to the agent initialization as follows:
+
+```python
+from smolagentes import InferenceClientModel, CodeAgent
+
+agent = CodeAgent(model=InferenceClientModel(), tools=[], executor_type="e2b")
+
+agent.run("Can you give me a 100th Fibonacci number?")
+```
+
+This solution sends the agent state to the server at the start of each `agent.run()`. The *models* are called from the local environment, but the ==generated code will be sent to the sandbox for execution, with only the output being returned==.
+
+This is illustrated in the figure below:
+![[Pasted image 20250419134203.png|600]]
+
+==This solution doesn't work well for multi-agent setups, since we don't transfer *secrets* to the remote sandbox (this is a good thing).==
+- Hence this solution doesn't work (yet) for more complicated multi-agent setups.
+
+To use multi-agent setups in an E2B sandbox, you need to run your agents *completely* from within E2B
+
+\<Example of this>
+
+#### Docker Setup
+
+Installation:
+1. Install Docker on your system
+2. Install the required packages
+
+`pip install 'smolagents[docker]'`
+
+Similarly to the E2B run:
+```python
+from smolagents import InferenceClientModel, CodeAgent
+
+agent = CodeAgent(model=InferenceClientModel(), tools=[], executor_type="docker")
+
+agent.run("Can you give me the 100th Fibonacci number?")
+```
+
+To run multi-agent systems, we'll need to setup a custom interpreter in a sandbox.
+Here's to setup the Dockerfile:
+
+\<example of dockerfile>
+\<example of sandbox manager to run code>
+
+
+
+### Best Practices for Sandboxes (E2B and Docker)
+
+- Resource management
+	- Set memory and CPU limits
+	- Implement execution timeouts
+	- Monitor resource usage
+- Security
+	- Run with minimal privileges
+	- Disable unnecessary network access
+	- Use environment variables for secrets
+- Environment
+	- Keep dependencies minimal
+	- Use fixed package versions
+	- If you use base images, update them regularly
+- Cleanup
+	- Always ensure proper cleanup of resources, especially for Docker containers, to avoid having dangling containers eating up resources.
+
+
+### Comparing Security Approaches
+
+Approach 1: running just the code snippets in a sandbox:
+- +: Easy to setup (executor_type="docker"/"e2b", no need to transfer API keys, better protection for local env
+- -: Doesn't support multi-agent, requires transferring state between your environment and the sandbox, limited to specific code execution
+
+Approach 2: Running the entire agentic system in a sandbox
+- +: Support multi agents, complete isolation of the entire system, more flexible for complex agent architectures
+- -:  Requires more manual setup, may require transferring sensitive API keys to the sandbox, potentially higher-latency due to more complex operations
+
+Choose the approach that best balances your security needs with your application's requirements.
+For most applications with simpler agent architectures, Approach 1 provides a good balance of security and ease of use.
+For more complex ones, Approach 2, while harder to setup, offers better security.
+
+
+## Building a Web Browser with Vision Models
+
+
+```shell
+pip install smolagents selenium helium pillow -q
+```
+
+Let's setup:
+```python
+from io import BytesIO
+from time import sleep
+
+import helium # Lighter web automation based on Selenium
+from dotenv import load_dotenv # For environment variables
+from PIL import Image # Python Image Library
+from selenium import webdriver # Browser automation library
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+from smolagents import CodeAgent, tool # Our lovely agents framework
+from smolagents.agents import ActionStep
+
+# Load environment variables
+load_dotenv()
+```
+
+Now let's create our core browser interaction ==tools== that allow our agent to navigate and interact with web pages:
+```python
+@tool
+def search_item_ctrl_f(text: str, nth_result: int = 1) -> str:
+    """
+    Searches for text on the current page via Ctrl + F and jumps to the nth occurrence.
+    Args:
+        text: The text to search for
+        nth_result: Which occurrence to jump to (default: 1)
+    """
+    # driver is helium.start_chrome(headless=False, options=chrome_options) instance created earlier
+    
+    # finds the elements that contain our text
+    elements = driver.find_elements(By.XPATH, f"//*[contains(text(), '{text}')]")
+
+	# We can't return the n'th option if we have n-m options
+    if nth_result > len(elements):
+        raise Exception(f"Match n°{nth_result} not found (only {len(elements)} matches found)")
+    
+    result = f"Found {len(elements)} matches for '{text}'."
+    elem = elements[nth_result - 1]
+
+	# Scroll so that our n'th element is visible
+    driver.execute_script("arguments[0].scrollIntoView(true);", elem)
+    
+    result += f"Focused on element {nth_result} of {len(elements)}"
+
+	# Seems like result is a string that ... just has this narration of what happened?
+    return result
+
+@tool
+def go_back() -> None:
+    """Goes back to previous page."""
+    # driver is helium.start_chrome(headless=False, options=chrome_options) instance created earlier
+    driver.back()
+
+@tool
+def close_popups() -> str:
+    """
+    Closes any visible modal or pop-up on the page. Use this to dismiss pop-up windows!
+    This does not work on cookie consent banners.
+    """
+    
+    webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+```
+
+Earlier, we'd set up our browser with Chrome and configured screenshot capabilities:
+
+```python
+# Configure Chrome options
+chrome_options = webdriver.ChromeOptions() 
+chrome_options.add_argument("--force-device-scale-factor=1")
+chrome_options.add_argument("--window-size=1000,1350")
+chrome_options.add_argument("--disable-pdf-viewer")
+chrome_options.add_argument("--window-position=0,0")
+
+# Initialize the browser
+driver = helium.start_chrome(headless=False, options=chrome_options)
+
+# Set up screenshot callback
+def save_screenshot(memory_step: ActionStep, agent: CodeAgent) -> None:
+    sleep(1.0) # Let JavaScript animations happen before taking the screenshot <<< This is important
+    driver = helium.get_driver()  # I wonder if this the same driven object as above?
+    current_step = memory_step.step_number
+    if driver is not None:
+        for previous_memory_step in agent.memory.steps:  # Remove previous screenshots for lean processing
+            if isinstance(previous_memory_step, ActionStep) and previous_memory_step.step_number <= current_step - 2:
+                previous_memory_step.observations_images = None
+        png_bytes = driver.get_screenshot_as_png()  # Take screenshot
+        image = Image.open(BytesIO(png_bytes))  # Turn screenshot into a PIPL image
+        print(f"Captured a browser screenshot: {image.size} pixels")
+        memory_step.observations_images = [image.copy()]  # Create a copy to ensure it persists
+
+    # Update observations with current URL
+    url_info = f"Current url: {driver.current_url}"
+    memory_step.observations = (
+        url_info if memory_step.observations is None else memory_step.observations + "\n" + url_info
+    )
+```
+
+
+Now let's actually create our Web Automation Agent!
+```python
+from smolagents import InferenceClientModel
+
+# Initialize the model
+model_id = "meta-llama/Llama-3.3-70B-Instruct"  # You can change this to your preferred model
+model = InferenceClientModel(model_id=model_id) # Uses HF serverless inference, I think.
+
+# Create the agent
+agent = CodeAgent(
+    tools=[go_back, close_popups, search_item_ctrl_f], # Our tools we defined
+    model=model,
+    additional_authorized_imports=["helium"], # <-- Our tools don't require the import, but our step_callback does?
+    step_callbacks=[save_screenshot], # <-- See this is where we have this save_screenshot callback we wrote (not a tool)
+    max_steps=20, # Limits the number of steps the agent can take
+    verbosity_level=2, # Probabl somehow configures the verbosity of the output.
+)
+
+# Import helium for the agent
+agent.python_executor("from helium import *", agent.state) # Not sure why we have to do this, and why we have to pass state.
+# Oh, so it's just so that the agent doesn't have to remember to do this? I guess that's smart. See the prompt start below.
+```
+
+This agent needs instructions on how to use Helium for web automation:
+
+```python
+helium_instructions = """
+You can use helium to access websites. Don't bother about the helium driver, it's already managed.
+We've already ran "from helium import *"
+Then you can go to pages!
+Code:
+```py
+go_to('github.com/trending')
+```<end_code>
+
+You can directly click clickable elements by inputting the text that appears on them.
+Code:
+```py
+click("Top products")
+```<end_code>
+
+If it's a link:
+Code:
+```py
+click(Link("Top products"))
+```<end_code>
+
+If you try to interact with an element and it's not found, you'll get a LookupError.
+In general stop your action after each button click to see what happens on your screenshot.
+Never try to login in a page.
+
+To scroll up or down, use scroll_down or scroll_up with as an argument the number of pixels to scroll from.
+Code:
+```py
+scroll_down(num_pixels=1200) # This will scroll one viewport down
+```<end_code>
+
+When you have pop-ups with a cross icon to close, don't try to click the close icon by finding its element or targeting an 'X' element (this most often fails).
+Just use your built-in tool `close_popups` to close them:
+Code:
+```py
+close_popups()
+```<end_code>
+
+You can use .exists() to check for the existence of an element. For example:
+Code:
+```py
+if Text('Accept cookies?').exists():
+    click('I accept')
+```<end_code>
+"""
+```
+
+Now we can run our agent with our task!
+```python
+search_request = """
+Please navigate to https://en.wikipedia.org/wiki/Chicago and give me a sentence containing the word "1992" that mentions a construction accident.
+"""
+
+# Wait, so the helium_instructions aren't passed as the system prompt, but just appended to the user prompt?
+agent_output = agent.run(search_request + helium_instructions)
+print("Final output:")
+print(agent_output)
+```
+
+
+We can run different tasks by modifying the request:
+```python
+github_request = """
+I'm trying to find how hard I have to work to get a repo in github.com/trending.
+Can you navigate to the profile for the top author of the top trending repo, and give me their total number of commits over the last year?
+"""
+
+agent_output = agent.run(github_request + helium_instructions)
+print("Final output:")
+print(agent_output)
+```
+
+
+### Agent-Related objects
+
+Agents
+- Our agents inherit from `MultiStepagent`, meaning they can act in multiple steps, each step consisting of:
+	- ==A thought==
+	- ==One tool call and execution==
+- We provide two types of agentS:
+	- CodeAgent (default: Writes tool calls in Python code)
+	- ToolCallingAgnet: Writes its tool calls in JsON
+
+## Writing Actions as Code Snippets or JSON Blobs
+
+==ToolCalling Agents== are the second type of agent available in smolai
+- Use the built-in tool-calling capabilities of LLM providers to generate tool calls like JSON structures
+
+If Alfred wants to search for catering services and party ideas, a CodeAgent would generate and run python code like:
+
+```python
+for query in [
+    "Best catering services in Gotham City", 
+    "Party theme ideas for superheroes"
+]:
+    print(web_search(f"Search for: {query}"))
+```
+
+Whereas a ToolCalling Agent would instead create a JSON structure:
+```python
+[
+    {"name": "web_search", "arguments": "Best catering services in Gotham City"},
+    {"name": "web_search", "arguments": "Party theme ideas for superheroes"}
+]
+```
 
 # Unit 2.2: LlamaIndex
 - 
