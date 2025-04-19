@@ -7,7 +7,7 @@ Agent parts:
 - Brain: AI Model
 - Body: Capabilities and tools; things the agent is equipped to do.
 
-Spectrum of Agency:
+**Spectrum** of Agency:
 ![[Pasted image 20250417144744.png]]
 Above:
 - See that a "workflow" where the models are only used to perform actions in a deterministic DAG-like graph... isn't very agentic. So agentic stuff is about who owns the control flow AND who executes the nodes in the DAG.
@@ -44,7 +44,7 @@ You can think of a "token" as if it were a "word," but for efficiency reasons, L
 
 Each LLM has some ==special tokens== specific to the model.
 - The LLM uses these tokens to open and close the structured components of its generation.
-- To indicate the start or end of a sequence, message, or response, for instance.
+- To indicate the start or end of a sequence, message,**** or response, for instance.
 - The most important of these is the ==End of Sequence== (EOS) token.
 
 There are a variety of special tokens:
