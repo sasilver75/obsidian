@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/HuggingFaceAgents/Unit 1 Notes.md",
+                "file": "Courses/HuggingFaceAgents/Unit 2 Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Unit 1 Notes"
+              "title": "Unit 2 Notes"
             }
           }
         ]
@@ -1264,12 +1264,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7b60e7c63d0f5e52",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 113
+        "currentTab": 114
       },
       {
         "id": "8a022290161ffefa",
@@ -1332,6 +1342,9 @@
   },
   "active": "6fc3396cbd9d9de6",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250418231138.png",
+    "_attachments/Pasted image 20250418230847.png",
+    "Courses/HuggingFaceAgents/Unit 1 Notes.md",
     "_attachments/Pasted image 20250417172552.png",
     "_attachments/Pasted image 20250417164203.png",
     "_attachments/Pasted image 20250417162928.png",
@@ -1341,11 +1354,8 @@
     "_attachments/Pasted image 20250417161831.png",
     "_attachments/Pasted image 20250417160910.png",
     "_attachments/Pasted image 20250417155815.png",
-    "_attachments/Pasted image 20250417153857.png",
-    "_attachments/Pasted image 20250417152954.png",
     "Courses/HuggingFaceAgents/Unit 3 Notes.md",
     "Courses/HuggingFaceAgents/Unit 2 Notes.md",
-    "Courses/HuggingFaceAgents/Unit 1 Notes.md",
     "Courses/HuggingFaceAgents",
     "FlashAttention.md",
     "Model Context Protocol.md",
