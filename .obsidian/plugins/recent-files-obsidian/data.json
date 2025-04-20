@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Unit 2 Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 2 Notes.md"
+      "basename": "Unit 2 LangGraph",
+      "path": "Courses/HuggingFaceAgents/Unit 2 LangGraph.md"
     },
     {
-      "basename": "Unit 1 Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 1 Notes.md"
+      "basename": "Unit 2 LlamaIndex Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 2 LlamaIndex Notes.md"
     },
     {
       "basename": "Unit 3 Notes",
       "path": "Courses/HuggingFaceAgents/Unit 3 Notes.md"
+    },
+    {
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
+    },
+    {
+      "basename": "Unit 2 Smolagents Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md"
+    },
+    {
+      "basename": "Unit 1 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 1 Notes.md"
     },
     {
       "basename": "FlashAttention",
@@ -23,10 +35,6 @@
     {
       "basename": "SRAM",
       "path": "SRAM.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
     },
     {
       "basename": "Server-Sent Event",
@@ -191,14 +199,6 @@
     {
       "basename": "MultiChallenge",
       "path": "MultiChallenge.md"
-    },
-    {
-      "basename": "Cross-Encoder",
-      "path": "Cross-Encoder.md"
-    },
-    {
-      "basename": "Bi-Encoder",
-      "path": "Bi-Encoder.md"
     }
   ],
   "omittedPaths": [],
