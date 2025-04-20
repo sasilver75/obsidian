@@ -7,6 +7,14 @@
 - [[Apache Arrow]]
 - [[Apache Parquet]]
 - [[Server-Sent Event]] (SSE)
+- [[Chroma]]
+- [[LlamaParse]]
+- [[LlamaIndex]]
+- [[smolagents]]
+- [[LlamaTrace]]
+- [[LangChain]]
+- [[LangSmith]]
+- [[LangGraph]]
 
 # Hardware Stack (And related Software)
 - [[CUDA]]

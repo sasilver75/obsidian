@@ -718,8 +718,573 @@ Whereas a ToolCalling Agent would instead create a JSON structure:
     {"name": "web_search", "arguments": "Party theme ideas for superheroes"}
 ]
 ```
+And then this JSON blob is used to execute the tool calls (rather than the Code Block being executed, in the CodeAgent case)
 
-# Unit 2.2: LlamaIndex
+The difference is:
+- How they structure their actions (JSON objects that specify tool names and arguments, instead of executable code)
+- The system then parses these instructions to execute the appropriate tools.
+
+Let's make a web-browsing tool-calling agent:
+```python
+from smolagents import ToolCallingAgent, DuckDuckGoSearchTool, HfApiModel
+
+agent = ToolCallingAgent(tools=[DuckDuckGoSearchTool()], model=HfApiModel())
+
+agent.run("Search for the best music recommendations for a party at the Wayne's mansion.")
+```
+Above: So wee that we initialize the agent same way, just use ToolCallingAgent instead of CodeAgent.
+
+When we examine the agent's trace, instead of seeing Executing parsd code:, you'll see something likeL
+```
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Calling tool: 'web_search' with arguments: {'query': "best music recommendations for a party at Wayne's         │
+│ mansion"}                                                                                                       │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+
+### Tools
+
+Let's talk about tools now!
+
+To interact with a tool, an LLM needs an interface description with these key components:
+- ==Name==: What the tool is called
+- ==Tool descriptions==: What the tool does
+- ==Input types and descriptions==: What arguments the tool accepts
+- ==Output type==: What the tool returns
+
+By using these tools, Alfred can make informed decisions and gather all the information needed to plan the perfect party.
+
+In smolagents, tools can be defined in two wayS:
+1. Using the ==@tool decorator== for simple function-based tools
+2. Creating a ==subclass of Tool== for more complex functionality
+
+==The @tool decorator is the most recommended way to define simple tools.==
+Under the hood, smolagents will parse basic information about the function from Python.
+
+Generating a tool that retrieves the highest-rated catering:
+
+Let's imagine that Alfred has already decided on the menu for the party, butn ow he needs help preparing food for such a large number of guests.
+
+Average can leverage a tool to search for the best catering services in the area.
+
+```python
+from smolagents import CodeAgent, HfApiModel, tool
+
+@tool
+def catering_service_tool(query: str) -> str:
+    """
+    This tool returns the highest-rated catering service in Gotham City.
+
+    Args:
+        query: A search term for finding catering services.
+    """
+    # This is just a dopey example of a tool. Let's pretend that it's actually going out and doing something important.
+    
+    # Example list of catering services and their ratings
+    services = {
+        "Gotham Catering Co.": 4.9,
+        "Wayne Manor Catering": 4.8,
+        "Gotham City Events": 4.7,
+    }
+
+    # Find the highest rated catering service (simulating search query filtering)
+    best_service = max(services, key=services.get)
+
+    return best_service
+
+# then we can create our CodeAgent
+agent = CodeAgent(tools=[catering_service_tool], model=HfApiModel())
+
+# Run the agent to find the best catering service
+result = agent.run(
+    "Can you give me the name of the highest-rated catering service in Gotham City?"
+)
+
+print(result)   # Output: Gotham Catering Co.
+
+```
+
+
+Alternatively, we can define a Tool as a Python class, inheriting from Tool. We need to define:
+- ==name==: Tool's name
+- ==description==: A description used to populate the agent's system propmt
+- ==inputs==: A dictionary with keys type and description, providing information to help the Python interpreter process inputs
+- ==output_type==: Specifies the expected output type
+- ==forward==: The method containing the inference logic to execute
+
+Let's say we wanted to build a tool that generates creative theme ideas for our party!
+
+```python
+from smolagents import Tool, CodeAgent, HfApiModel
+
+# A class-based SmolAgent tool
+class SuperheroPartyThemeTool(Tool):
+
+	# Name of the tool
+    name = "superhero_party_theme_generator"
+    
+    # Description of the tool
+    description = """
+    This tool suggests creative superhero-themed party ideas based on a category.
+    It returns a unique party theme idea."""
+
+	# For each argument, the name, type, and description
+    inputs = {
+        "category": {
+            "type": "string",
+            "description": "The type of superhero party (e.g., 'classic heroes', 'villain masquerade', 'futuristic Gotham').",
+        }
+    }
+
+	# Output type
+    output_type = "string"
+
+	# The actual function that works
+    def forward(self, category: str):
+        themes = {
+            "classic heroes": "Justice League Gala: Guests come dressed as their favorite DC heroes with themed cocktails like 'The Kryptonite Punch'.",
+            "villain masquerade": "Gotham Rogues' Ball: A mysterious masquerade where guests dress as classic Batman villains.",
+            "futuristic Gotham": "Neo-Gotham Night: A cyberpunk-style party inspired by Batman Beyond, with neon decorations and futuristic gadgets."
+        }
+
+        return themes.get(category.lower(), "Themed party idea not found. Try 'classic heroes', 'villain masquerade', or 'futuristic Gotham'.")
+
+# Instantiate the tool
+party_theme_tool = SuperheroPartyThemeTool()
+agent = CodeAgent(tools=[party_theme_tool], model=HfApiModel())
+
+# Run the agent to generate a party theme idea
+result = agent.run(
+    "What would be a good superhero party idea for a 'villain masquerade' theme?"
+)
+
+print(result)  # Output: "Gotham Rogues' Ball: A mysterious masquerade where guests dress as classic Batman villains."
+```
+
+
+### Default toolbox
+
+Smolagents come with a set of ==pre-built tools that can be directly injected into your agent==
+- This default toolbox includes:
+	- ==PythonInterpreterTool==
+	- ==FinalAnswerTool==
+	- UserInputTool
+	- DuckDuckGoSearchTool
+	- GoogleSearchTool
+	- VisitWebpageTool
+
+Sharing and importing tools
+- We can share custom tools on the Hub, as well as connect with ==HF Spaces== and ==LangChain tools==, significantly enhancing Alfred's ability to orchestrate an unforgettable party at Wayne Manor.
+
+Sharing a Tool to the Hub
+- Sharing your custom tool with the community is easy. Just upload it to your HuggingFace account using the push_to_hub method.
+- We can import tools using the load_Tool function.
+
+```python
+# Saving a tool to the Hub
+party_theme_tool.push_to_hub("{your_username}/party_theme_tool", token="<YOUR_HUGGINGFACEHUB_API_TOKEN>")
+
+
+from smolagents import load_tool, CodeAgent, HfApiModel
+
+# Loading a tool from the Hub
+image_generation_tool = load_tool(
+    "m-ric/text-to-image",
+    trust_remote_code=True
+)
+
+agent = CodeAgent(
+    tools=[image_generation_tool],
+    model=HfApiModel()
+)
+```
+
+
+You can also import a HuggingFace Space as a tool! 
+- This opens up possibilities for integrating with thousand of spaces from the community for tasks from image generation to data analysis.
+
+```python
+from smolagents import CodeAgent, HfApiModel, Tool
+
+# Load a tool from HF Space
+image_generation_tool = Tool.from_space(
+    "black-forest-labs/FLUX.1-schnell",
+    name="image_generator",
+    description="Generate an image from a prompt"
+)
+
+# Create a model
+model = HfApiModel("Qwen/Qwen2.5-Coder-32B-Instruct")
+
+# Create an agent from the model and the tools
+agent = CodeAgent(tools=[image_generation_tool], model=model)
+
+# Ask the agent a question! :)
+agent.run(
+    "Improve this prompt, then generate an image of it.",
+    additional_args={'user_prompt': 'A grand superhero-themed party at Wayne Manor, with Alfred overseeing a luxurious gala'}
+)
+```
+
+
+Importing a LangChain tool:
+```python
+from langchain.agents import load_tools
+from smolagents import CodeAgent, HfApiModel, Tool
+
+# Load the LancgChain tool. load_tools does some lifting here too, which is interesting.
+# "serpapi" is SerpAPI, which is a Google Search API
+search_tool = Tool.from_langchain(load_tools(["serpapi"])[0])
+
+# Agent
+agent = CodeAgent(tools=[search_tool], model=model)
+
+# Run
+agent.run("Search for luxury entertainment ideas for a superhero-themed event, such as live performances and interactive experiences.")
+```
+
+Importing a tool collection from an MCP server
+
+```python
+import os
+from smolagents import ToolCollection, CodeAgent
+from mcp import StdioServerParameters
+from smolagents import HfApiModel
+
+# model
+model = HfApiModel("Qwen/Qwen2.5-Coder-32B-Instruct")
+
+# Information to comply with MCP using Stdio
+server_parameters = StdioServerParameters(
+    command="uvx",
+    args=["--quiet", "pubmedmcp@0.1.3"],
+    env={"UV_PYTHON": "3.12", **os.environ},
+)
+
+# Get the tool collection from the MCP server.
+with ToolCollection.from_mcp(server_parameters, trust_remote_code=True) as tool_collection:
+	# Given whatever tools the MCP server exposes to your CodeAgetn
+    agent = CodeAgent(tools=[*tool_collection.tools], model=model, add_base_tools=True)
+    # Heeeeeelp
+    agent.run("Please find a remedy for hangover.")
+```
+
+
+Retrieval Agents
+- [[Agentic RAG]] extends traditional RAG by combining autonomous agents with dynamic knowledge retrieval.
+	- A user's query is passed to a search engine, and the retrieved result are given to the model along with the query.
+	- The model then generates a response based on the query and retrieved information.
+	- Agentic RAG extends traditional RAG systems by combining autonomous agents with dynamic knowledge retrieval.
+
+Agentic RAG addresses these issues by ==allowing the agent to autonomously formulate search queries, critique retrieved results, and conduct multiple retrieval steps== for a more tailored  and comprehensive output.
+
+Let's build a simple agent that can search the web using DuckDuckGo!
+- This agent will retrieve information and synthesize responses to answer queries.
+
+Our agent can now:
+- Search for latest superhero party trends
+- Refine results to include luxury elements
+- Synthesize information into a complete plan
+
+Let's see:
+```python
+from smolagents import CodeAgent, DuckDuckGoSearchTool, HfApiModel
+
+# Initialize the search tool
+search_tool = DuckDuckGoSearchTool()
+
+# Initialize the model
+model = HfApiModel()
+
+agent = CodeAgent(
+    model=model,
+    tools=[search_tool],
+)
+
+# Example usage
+response = agent.run(
+    "Search for luxury superhero-themed party ideas, including decorations, entertainment, and catering."
+)
+print(response)
+```
+
+1. **Analyzes the Request:** Alfred’s agent identifies the key elements of the query—luxury superhero-themed party planning, with focus on decor, entertainment, and catering.
+2. **Performs Retrieval:** The agent leverages DuckDuckGo to search for the most relevant and up-to-date information, ensuring it aligns with Alfred’s refined preferences for a luxurious event.
+3. **Synthesizes Information:** After gathering the results, the agent processes them into a cohesive, actionable plan for Alfred, covering all aspects of the party.
+4. **Stores for Future Reference:** The agent stores the retrieved information for easy access when planning future events, optimizing efficiency in subsequent tasks.
+
+Custom knowledge bases can be invaluable, though!
+Let's create a tool that queries a vector database of technical documentation of specialized knowledge.
+Using semantic search, the agent can find the most relevant information for Alfred's needs.
+
+A ==vector database== stores numerical representations (embeddings) of text and other data, created by machine learning models.
+It enables semantic search by identifying similar meanings in high-dimensional space
+
+Let's use a [[BM25]] retriever to search the knowledge base and return the top results, and ==RecursiveCharacterTextSplitter== to split the documents into smaller chunks for more efficient search.
+
+```python
+from langchain.docstore.document import Document # Document objects
+from langchain.text_splitter import RecursiveCharacterTextSplitter  # Assumedly used to chunk documents
+from smolagents import Tool
+from langchain_community.retrievers import BM25Retriever # A retriever fro mLangchain
+from smolagents import CodeAgent, HfApiModel
+
+# A class based tool that returns information
+class PartyPlanningRetrieverTool(Tool):
+    # Name of the tool
+    name = "party_planning_retriever"
+    
+    description = "Uses semantic search to retrieve relevant party planning ideas for Alfred’s superhero-themed party at Wayne Manor."
+    inputs = {
+        "query": {
+            "type": "string",
+            "description": "The query to perform. This should be a query related to party planning or superhero themes.",
+        }
+    }
+    output_type = "string"
+
+    def __init__(self, docs, **kwargs):
+        super().__init__(**kwargs)
+        self.retriever = BM25Retriever.from_documents(
+            docs, k=5  # Retrieve the top 5 documents
+        )
+
+    def forward(self, query: str) -> str:
+        assert isinstance(query, str), "Your search query must be a string"
+
+        docs = self.retriever.invoke(
+            query,
+        )
+        return "\nRetrieved ideas:\n" + "".join(
+            [
+                f"\n\n===== Idea {str(i)} =====\n" + doc.page_content
+                for i, doc in enumerate(docs)
+            ]
+        )
+
+# Simulate a knowledge base about party planning
+party_ideas = [
+    {"text": "A superhero-themed masquerade ball with luxury decor, including gold accents and velvet curtains.", "source": "Party Ideas 1"},
+    {"text": "Hire a professional DJ who can play themed music for superheroes like Batman and Wonder Woman.", "source": "Entertainment Ideas"},
+    {"text": "For catering, serve dishes named after superheroes, like 'The Hulk's Green Smoothie' and 'Iron Man's Power Steak.'", "source": "Catering Ideas"},
+    {"text": "Decorate with iconic superhero logos and projections of Gotham and other superhero cities around the venue.", "source": "Decoration Ideas"},
+    {"text": "Interactive experiences with VR where guests can engage in superhero simulations or compete in themed games.", "source": "Entertainment Ideas"}
+]
+
+source_docs = [
+    Document(page_content=doc["text"], metadata={"source": doc["source"]})
+    for doc in party_ideas
+]
+
+# Split the documents into smaller chunks for more efficient search
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=500,
+    chunk_overlap=50,
+    add_start_index=True,
+    strip_whitespace=True,
+    separators=["\n\n", "\n", ".", " ", ""],
+)
+docs_processed = text_splitter.split_documents(source_docs)
+
+# Create the retriever tool
+party_planning_retriever = PartyPlanningRetrieverTool(docs_processed)
+
+# Initialize the agent
+agent = CodeAgent(tools=[party_planning_retriever], model=HfApiModel())
+
+# Example usage
+response = agent.run(
+    "Find ideas for a luxury superhero-themed party, including entertainment, catering, and decoration options."
+)
+
+print(response)
+```
+
+
+With agentic RAG, the agent can employ sophisticated strategies, like:
+1. ==Query Reformulation==: Instead of using the raw user query, the agent can rephrase the query to optimize it.
+2. ==Multi-Step Retrieval==: Can perform multiple searches, using initial results to inform later searches.
+3. ==Source Integration==: Can combine information from multiple sources, like web search and local documentation.
+4. ==Result Validation==: Retrieved content can be analyze for relevance and accuracy before being included in responses.
+
+Effective agentic RAG systems require careful consideration of several key aspets.
+The agent should select between available tools based on the query type and context.
+
+Memory systems help maintain conversation history and avoid repetitive retrievals.
+
+So: ==the `@tool` decorator is recommended for simple function-based tools, while subclasses of `Tool` offer more flexibility for complex functionality or custom metadata==
+
+
+## Multi-Agent Systems
+- Multi-agent systems enable specialized agents to collaborate on complex tasks, improving modularity, scalability, and robustness.
+- Instead of relying on a single agent, ==tasks are distributed among agents with distinct capabilities==
+
+A typical setup might include:
+- A manager agent for task delegation
+- A code interpreter agent for code execution
+- A web search agent for information retrieval
+
+((My question at this point: Why not just have a single agent with all of these tools?))
+
+
+![[Pasted image 20250419153812.png]]
+Example of a multi-agent system where a Manager Agent coordinates a Code Interpreter Tool and a Web Search Agent, which in turn utilizes tools to gather information.
+
+A multi-agent system consists of multiple specialized agents working together under the coordination of an ==Orchestrator Agent==
+
+Let's solve a complex task with a multi-agent hierarchy.
+
+Can we build an agent to find a replacement for Batman's Batmobile car, which was stolen? There's old batmobiles left behind on the various movie sets that we could tune up, if we could find them!
+
+Find all Batman filming locations in the world, calculate the time to transfer via boat to there, and represent them on a map, with a color varying by boat transfer time. Also represent some supercar factories with same boat transfer time.
+
+```shell
+pip install 'smolagents[litellm]' plotly geopandas shapely kaleido -q
+```
+
+\<example>
+
+We can ask our model to add some dedicated planning steps, and add more prompting:
+```python
+agent.planning_interval = 4
+
+detailed_report = agent.run(f"""
+You're an expert analyst. You make comprehensive reports after visiting many websites.
+Don't hesitate to search for many queries at once in a for loop.
+For each data point that you find, visit the source url to confirm numbers.
+
+{task}
+""")
+
+print(detailed_report)
+```
+
+The model’s context window is quickly filling up. So **if we ask our agent to combine the results of detailed search with another, it will be slower and quickly ramp up tokens and costs**.
+
+Let's improve the structure by splitting the task between two separate agents!
+- ==Each agent is more focused on its ore subtask, thus more performant==
+- ==Separating memories reduces the count of input tokens at each step, thus reducing latency and cost.==
+
+The manager agent should have plotting capabilities to write its final report, os let's give it access to additional imports:
+
+```python
+model = HfApiModel(
+    "Qwen/Qwen2.5-Coder-32B-Instruct", provider="together", max_tokens=8096
+)
+
+web_agent = CodeAgent(
+    model=model,
+    tools=[
+        GoogleSearchTool(provider="serper"),
+        VisitWebpageTool(),
+        calculate_cargo_travel_time,
+    ],
+    name="web_agent",
+    description="Browses the web to find information",
+    verbosity_level=0,
+    max_steps=10,
+)
+```
+
+The manager agent will need to do some heavy mental lifting, so let's give it astronger model and add a planning interval to the mix!
+```python
+from smolagents.utils import encode_image_base64, make_image_url
+from smolagents import OpenAIServerModel
+
+def check_reasoning_and_plot(final_answer, agent_memory):
+    multimodal_model = OpenAIServerModel("gpt-4o", max_tokens=8096)
+    filepath = "saved_map.png"
+    assert os.path.exists(filepath), "Make sure to save the plot under saved_map.png!"
+    image = Image.open(filepath)
+    prompt = (
+        f"Here is a user-given task and the agent steps: {agent_memory.get_succinct_steps()}. Now here is the plot that was made."
+        "Please check that the reasoning process and plot are correct: do they correctly answer the given task?"
+        "First list reasons why yes/no, then write your final decision: PASS in caps lock if it is satisfactory, FAIL if it is not."
+        "Don't be harsh: if the plot mostly solves the task, it should pass."
+        "To pass, a plot should be made using px.scatter_map and not any other method (scatter_map looks nicer)."
+    )
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": prompt,
+                },
+                {
+                    "type": "image_url",
+                    "image_url": {"url": make_image_url(encode_image_base64(image))},
+                },
+            ],
+        }
+    ]
+    output = multimodal_model(messages).content
+    print("Feedback: ", output)
+    if "FAIL" in output:
+        raise Exception(output)
+    return True
+
+manager_agent = CodeAgent(
+    model=HfApiModel("deepseek-ai/DeepSeek-R1", provider="together", max_tokens=8096),
+    tools=[calculate_cargo_travel_time],
+    managed_agents=[web_agent],
+    additional_authorized_imports=[
+        "geopandas",
+        "plotly",
+        "shapely",
+        "json",
+        "pandas",
+        "numpy",
+    ],
+    planning_interval=5, # Interval at which the agent will run a planning step.
+    verbosity_level=2,
+    final_answer_checks=[check_reasoning_and_plot],
+    max_steps=15,
+)
+```
+
+
+### Vision and Browser Agents
+
+Let's say that Alfred suspects that a visitor might be The Joker! But he needs to verify his identity to prevent him from entering the manor.
+
+```python
+from PIL import Image
+import requests
+from io import BytesIO
+
+image_urls = [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e8/The_Joker_at_Wax_Museum_Plus.jpg", # Joker image
+    "https://upload.wikimedia.org/wikipedia/en/9/98/Joker_%28DC_Comics_character%29.jpg" # Joker image
+]
+
+images = [] # A list of PIL Images
+for url in image_urls:
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" 
+    }
+    response = requests.get(url,headers=headers)
+    image = Image.open(BytesIO(response.content)).convert("RGB")
+    images.append(image)
+```
+
+...
+
+In this approach, images are dynamically added to the agent’s memory during execution. ==As we know, agents in `smolagents` are based on the `MultiStepAgent` class, which is an abstraction of the ReAct framework==. This class operates in a structured cycle where various variables and knowledge are logged at different stages:
+1. **==SystemPromptStep==:** Stores the system prompt.
+2. **==TaskStep==:** Logs the user query and any provided input.
+3. **==ActionStep==:** Captures logs from the agent’s actions and results.
+
+![[Pasted image 20250419161153.png]]
+
+Let's build our complete example now! 
+- Alfred wants to browse for details to have full control over the guest verification process.
+
+
+
+
+# Unit 2.2: **LlamaIndex**
 - 
 
 # Unit 2.3: LangGraph

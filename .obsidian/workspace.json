@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/HuggingFaceAgents/Unit 2 Notes.md",
+                "file": "Courses/HuggingFaceAgents/Unit 2 LangGraph.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Unit 2 Notes"
+              "title": "Unit 2 LangGraph"
+            }
+          },
+          {
+            "id": "f029a8434cc5137a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~ Vocabulary.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "~ Vocabulary"
             }
           }
         ]
@@ -94,8 +118,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1342,25 +1365,27 @@
   },
   "active": "6fc3396cbd9d9de6",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250419190359.png",
+    "_attachments/Pasted image 20250419185521.png",
+    "_attachments/Pasted image 20250419184915.png",
+    "Courses/HuggingFaceAgents/Unit 2 LlamaIndex Notes.md",
+    "Courses/HuggingFaceAgents/Unit 2 LangGraph.md",
+    "Courses/HuggingFaceAgents/Unit 3 Notes.md",
+    "_attachments/Pasted image 20250419180543.png",
+    "_attachments/Pasted image 20250419173945.png",
+    "~ Vocabulary.md",
+    "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md",
+    "_attachments/Pasted image 20250419161153.png",
+    "_attachments/Pasted image 20250419153812.png",
     "_attachments/Pasted image 20250419134203.png",
     "_attachments/Pasted image 20250419132239.png",
     "_attachments/Pasted image 20250419131825.png",
     "_attachments/Pasted image 20250418231138.png",
-    "_attachments/Pasted image 20250418230847.png",
     "Courses/HuggingFaceAgents/Unit 1 Notes.md",
-    "_attachments/Pasted image 20250417172552.png",
-    "_attachments/Pasted image 20250417164203.png",
-    "_attachments/Pasted image 20250417162928.png",
-    "_attachments/Pasted image 20250417162907.png",
-    "_attachments/Pasted image 20250417162756.png",
-    "_attachments/Pasted image 20250417162044.png",
-    "Courses/HuggingFaceAgents/Unit 3 Notes.md",
-    "Courses/HuggingFaceAgents/Unit 2 Notes.md",
     "Courses/HuggingFaceAgents",
     "FlashAttention.md",
     "Model Context Protocol.md",
     "SRAM.md",
-    "~ Vocabulary.md",
     "Server-Sent Event.md",
     "Reasoning.md",
     "Grouped Query Attention.md",
@@ -1377,8 +1402,6 @@
     "Streaming Multiprocessor.md",
     "CUDA.md",
     "GPU.md",
-    "CUDA Core.md",
-    "Load Store Unit.md",
     "Load",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
