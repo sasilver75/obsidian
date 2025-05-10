@@ -33,6 +33,23 @@
       "key": "O"
     }
   ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -42,13 +59,13 @@
       "key": "B"
     }
   ],
-  "editor:toggle-code": [
+  "file-explorer:open": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "C"
+      "key": "E"
     }
   ]
 }
