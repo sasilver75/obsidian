@@ -92,7 +92,7 @@ Although finetuning is computationally cheap relative to pretraining or training
 
 
 ## Model Quantization
-- The idea of [[Quantization]] in deep learning refers to quantizing (i.e. converting to a format that users fewer bits, for a less-granular representation) of the model's *activations and weights* during the forward and/or backward pass.
+- [ ] The idea of [[Quantization]] in deep learning refers to quantizing (i.e. converting to a format that users fewer bits, for a less-granular representation) of the model's *activations and weights* during the forward and/or backward pass.
 	- Because we use less precision to represent our weights, each weight takes up less space. Because a model is primarily a large file of such floats (representing weights), this means that we can fit a larger model into our GPU!
 - ==We usually do not sacrifice performance when performing such quantization== -- we basically get these efficiency benefits for free!
 	- ((I'm not sure that this is true...))

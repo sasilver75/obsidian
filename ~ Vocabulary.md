@@ -1,10 +1,30 @@
-# General
+****# General
 - [[Reasoning]]
 
 # Data Engineering
 - [[Apache Arrow]]
 - [[Apache Parquet]]
 
+# Hardware Stack (And related Software)
+- [[CUDA]]
+- [[Streaming Multiprocessor]] (SM)
+- [[CUDA Core]]
+- [[Tensor Core]]
+- [[NVLink]]
+- [[High-Bandwidth Memory]] (HBM)
+- [[GPU]]
+- [[VRAM]]
+- [[SRAM]]
+- [[DRAM]]
+- [[Special Function Unit]] (SFU)
+- [[Load Store Unit]] (LSU)
+- [[L0 Cache]]
+- [[L1 Cache]]
+- [[PTX]]
+- [[SASS]]
+- [[Warp Scheduler]]
+- [[nvcc]]
+- [[Register File]]
 
 
 # Probability/Statistics
@@ -38,8 +58,10 @@
 - [[Multiplication Rule of Probability]]
 - [[Naive Definition of Probability]]
 - [[Bayes Theorem]]
+- [[Bayesian Statistics]]
 - [[Bayesian Network]]
 - [[Gaussian Mixture Model]] (GMM)
+- [[Gaussian Process]]
 - [[Jensen's Inequality]]
 - [[Evidence Lower Bound]] (ELBO)
 - [[Variational Bayesian Inference]] ("Variational Bayes")
@@ -164,12 +186,17 @@
 - [[Standard Error]]
 
 # Machine Learning/General
+- [[Reinforcement Finetuning]]
 - [[Graph Neural Network]]
+- [[Thinking LLMs]]
+- [[Mixed Precision]]
+- [[Iterative Reasoning Preference Optimization]] (IRPO)
 - [[Language Model]]
 - [[Long Short Term Memory]] (LSTM)
 - [[Gradient Clipping]]
 - [[Data Augmentation]]
 - [[Gradual Unfreezing]]
+- [[Reinforcement Learning from Verifiable Rewards]] (RLVR)
 - [[Discriminative Learning Rate]]
 - [[Gated Recurrent Unit]] (GRU)
 - [[In-Context Learning]]
@@ -201,6 +228,7 @@
 - [[Epoch]]
 - [[Feature Engineering]]
 - [[Prompting]]
+- [[Prompt Caching]]
 - [[Prompt Tuning]]
 - [[Feed-Forward Network]] (FFNN)
 - [[Chain of Thought]] (CoT)
@@ -249,6 +277,7 @@
 - [[Regression-Based Pruning]]
 - [[Format-Restricting Instruction]] (FRI)
 - [[Masking]]
+- [[Conditional Random Field]] (CRF)
 - [[Superficial Alignment Hypothesis]]
 - [[Supervised Learning]]
 - [[Unsupervised Learning]]
@@ -261,6 +290,8 @@
 - [[Pre-training]]
 - [[AdaBoost]]
 - [[Batch]]
+- [[Batch Size]]
+- [[Batch Size Tokens]] (BST)
 - [[Scalable Oversight]]
 - [[Batch Normalization]] (BatchNorm)
 - [[Layer Normalization]] (LayerNorm)
@@ -289,6 +320,7 @@
 - [[Pairwise Ranking]] vs [[Direct Assessment]]
 - [[Process Reward Model]] (PRM)
 - [[Bradley-Terry Model]]
+- [[Routing Collapse]]
 - [[Graph Convolutional Network]]
 - [[Mode Collapse]] 
 - [[VC Dimension]]
@@ -321,6 +353,8 @@
 - [[Steerability]]
 - [[Class Token]] 
 - [[Contrastive Loss]]
+- [[Triplet Loss]]
+- [[Triplet Mining]]
 - [[Pre-text Training]] 
 - [[Kalman Filter]]
 - [[Particle Filters]] 
@@ -353,6 +387,7 @@
 - [[Scaling Laws]]
 - [[Synthetic Data]]
 - [[Mixture of Experts]] (MoE)
+- [[ST-MoE]]
 - [[Soft Mixture of Experts]] (sMoE)
 - [[Mixture-of-Depths]] (MoD)
 - [[Data Parallelism]]
@@ -362,6 +397,9 @@
 - [[Context Parallelism]]
 - [[Sequence Parallelism]]
 - [[Fully Sharded Data Parallelism]] (FSDP)
+- [[ZeRO]]
+- [[Kernel Fusion]]
+- [[Maximal Update Parameterization]] (MuP)
 - [[RMSNorm]] (Root Mean Square Layer Normalization)
 - [[Gradient Checkpointing]]
 - [[Rotary Positional Embedding]] (RoPE)
@@ -408,6 +446,9 @@
 - [[Verbosity Bias]]
 - [[Self-Enhancement Bias]]
 - [[Continued Pretraining]]
+- [[Pretraining]]
+- [[Post-Training]]
+- [[Mid-Training]]
 - [[False Refuse]]
 - [[Lottery Ticket Hypothesis]]
 - [[Retrieval-Augmented Generation]] (RAG)
@@ -432,6 +473,7 @@
 - [[Instag]]
 - [[Self-Taught Reasoner]] (STaR)
 - [[V-STaR]]
+- [[B-STaR]]
 - [[TRICE]]
 - [[Self-Taught Optimizer]] (STOP)
 - [[Quiet STaR]]
@@ -467,6 +509,8 @@
 - [[SELF-ALIGN]]
 - [[Self-Directed Synthetic Dialogues]] (SDSD)
 - [[Apple Intelligence Foundation Language Models|Apple Foundation Model]] (AFM)
+- [[Math-Shepherd]]
+- [[Self-Correction via Reinforcement Learning]] (SCoRe)
 
 # Information Retrieval Concepts
 - [[Adaptive Retrieval]]
@@ -480,6 +524,7 @@
 - [[ColBERT-QA]]
 - [[ColBERTv2]]
 - [[ColBERT]]
+- [[ColPali]]
 - [[Consistency Filtering]]
 - [[Context Compression]]
 - [[Contriever]]
@@ -492,6 +537,7 @@
 - [[Fusion-in-Decoder]] (FiD)
 - [[Generate-then-Read]] (GenRead)
 - [[Hard Negative Mining]]
+- [[Hard Negative]]
 - [[Hierarchical Navigable Small Worlds]] (HNSW)
 - [[Hybrid Search]]
 - [[HyDE]] (Hypothetical Document Embeddings)
@@ -537,6 +583,7 @@
 - [[UPR]] (Unsupervised Passage Re-Ranker)
 - [[Stream of Search]]
 - [[Likelihood Displacement]]
+- [[Reciprocal Rank Fusion]] (RRF)
 
 
 
@@ -672,6 +719,8 @@
 - [[Advantage Function]]
 - [[Advantage Function]]
 - [[Agent]]
+- [[Partial Observability]]
+- [[Partially-Observable Markov Decision Process]] (POMDP)
 - [[Bellman Equation]] 
 - [[Credit Assignment Problem]]
 - [[Deep Q-Networks]] (DQN)
@@ -683,6 +732,8 @@
 - [[Epsilon-Greedy]]
 - [[Experience Replay]]
 - [[Group Relative Policy Optimization]] (GRPO)
+- [[Dr. GRPO]]
+- [[DAPO]]
 - [[Hierarchical Reinforcement Learning]]
 - [[Inverse Reinforcement Learning]]
 - [[Markov Decision Process]]
@@ -719,7 +770,9 @@
 - [[Value Function]]
 - [[Value Iteration]]
 - [[Value Learning]] vs [[Policy Learning]]
-
+- [[Function Approximation]]
+- [[Regret]]
+- [[Exploration-Exploitation Tradeoff]]
 
 # Models
 - [[Ada-Instruct]]
@@ -731,6 +784,7 @@
 - [[AlphaCode 2]]
 - [[AlphaGeometry]]
 - [[AlphaGo]]
+- [[AlphaZero]]
 - [[BART]] (Bidirectional and Auto-Regressive Transformers)
 - [[BERT]] (Bidirectional Encoder Representations from Transformers)
 - [[BLIP-2]] (Bootstrapping Language-Image Pretraining v2)
@@ -758,8 +812,11 @@
 - [[DeBERTa]] (Decoding-enhanced BERT with Disentangled Attention)
 - [[DeepSeek-Coder]]
 - [[DeepSeek-Coder-V2]]
-- [[DeepSeekMath
+- [[DeepSeekMath]]
+- [[DeepSeek MoE]]
 - [[DeepSeek-VL]]
+- [[DeepSeek V2.5]]
+- [[DeepSeek V3]]
 - [[DenseNet]]
 - [[DINOv2]] (Distillation with No Labels v2)
 - [[DINO]] (Distillation with No Labels)
@@ -780,8 +837,9 @@
 - [[Fuyu]]
 - [[Gato]]
 - [[Gemeni]]
-- [[Gemma 2]]
+- [[Gemeni 2]]
 - [[Gemma]]
+- [[Gemma 2]]
 - [[Genstruct]]
 - [[GLIDE]] (Guided Language to Image Diffusion for Generation and Editing)
 - [[GloVe]]
@@ -797,6 +855,9 @@
 - [[GPT-4]]
 - [[GPT-J]]
 - [[GPT-NeoX]]
+- [[Grok]]
+- [[Grok 2]]
+- [[Grok 3]]
 - [[Guanaco]]
 - [[Hermes]]
 - [[Hermes 2]]
@@ -809,6 +870,7 @@
 - [[InstructGPT]]
 - [[InternVL 1.5]]
 - [[InternVL 2.5]]
+- [[InternLM 3]]
 - [[Janus]]
 - [[JetMoE]]
 - [[Jurassic-1]]
@@ -856,7 +918,9 @@
 - [[Nemotron-4]]
 - [[NVLM]]
 - [[o1]]
+- [[o3]]
 - [[OLMo]] (Open Language Model)
+- [[OLMo 2]]
 - [[OLMoE]]
 - [[OpenChat]]
 - [[OpenCLIP]]
@@ -876,6 +940,7 @@
 - [[Phi-1]]
 - [[Phi-2]]
 - [[Phi-3]]
+- [[Phi-3.5]]
 - [[Pile-T5]]
 - [[Pixtral]]
 - [[Prometheus 2]]
@@ -888,6 +953,10 @@
 - [[Qwen 2 VL]]
 - [[Qwen 2.5]] (incl. Coder and Math)
 - [[QwQ]]
+- [[QvQ]]
+- [[R1-Lite]]
+- [[R1]]
+- [[R1|R1-Zero]]
 - [[Residual Network]] (ResNet)
 - [[Rho-1]]
 - [[RoBERTa]] (Robustly Optimized BERT Approach)
@@ -903,6 +972,8 @@
 - [[SimVLM]] (Simple Visual Language Model Pretraining with Weak Supervision)
 - [[SmolLM]]
 - [[SmolLM2]]
+- [[SmolVLM]]
+- [[SmolVLM2]]
 - [[SPARC]]
 - [[Sphinx]]
 - [[Stable Diffusion]]
@@ -921,6 +992,7 @@
 - [[Unified-IO]]
 - [[ULMFiT]] (Universal Language Model Finetuning)
 - [[VGGNet]] (Visual Geometry Group Network)
+- [[Veo2]]
 - [[Vicuna]]
 - [[WaveCoder]]
 - [[WebGPT]]
@@ -1067,6 +1139,7 @@
 - [[SWAG]] (Situations with Adversarial Generations)
 - [[SWE-bench]]
 - [[SWE-bench Multimodal]]
+- [[SWE-lancer]]
 - [[TFEval]] (Topic-Following Eval)
 - [[TruthfulQA]]
 - [[FalseQA]]
@@ -1086,6 +1159,7 @@
 
 # Datasets
 *Datasets for training/finetuning models*
+- [[AIME]]
 - [[C4]] (Colossal, Cleaned Common Crawl)
 - [[CantTalkAboutThis]]
 - [[Capybara Dataset]]
@@ -1102,11 +1176,14 @@
 - [[DataComp]]
 - [[Dolma]] (Dataset for OLMo)
 - [[Feedback Collection]]
+- [[FineMath]]
 - [[FinePersonas]]
 - [[FineWeb-Edu]] (A very high-quality filtered subset)
 - [[FineWeb]] (15T high-quality dataset from HF)
 - [[FineWeb2]]
 - [[FLAN v2]] (The FLAN Collection)
+- [[GSM8K]]
+- [[GSM-Symbolic]]
 - [[Helpful and Harmless]] (HH)
 - [[HelpSteer2]]
 - [[HelpSteer]]
@@ -1123,6 +1200,7 @@
 - [[MS MARCO Web Search]]
 - [[MS MARCO]] (Microsoft Machine Reading Comprehension)
 - [[Multi-Genre NLI]] (MNLI)
+- [[MultiChallenge]]
 - [[Natural Instructions]]
 - [[Natural Questions]]
 - [[Nectar]]
@@ -1209,6 +1287,7 @@
 - [[SynthLabs]] 🤖
 - [[Tencent AI]] 🇨🇳
 - [[Together AI]]  🤝
+- [[xAI]] 🤤
 
 # People
 - [[Aidan Gomez]] 🇨🇦
@@ -1221,6 +1300,7 @@
 - [[Arthur Mensch]] 🇫🇷
 - [[Benjamin Clavié]] 🇫🇷🍝
 - [[Charles Frye]] 🟩
+- [[Chip Huyen]] 🐿️
 - [[Chris Ré]] 🧠
 - [[Christopher Manning]] 🧝
 - [[Christopher Potts]] 🧑‍🏫
@@ -1232,6 +1312,7 @@
 - [[Douwe Kiela]] 📝
 - [[Emad Mostaque]] 🤡
 - [[Eric Zelikman]] ⭐
+- [[Eugene Yan]] 💪
 - [[Fei-Fei Li]] 🥰
 - [[Geoff Hinton]] 👨‍🦳
 - [[Georgei Gerganov]] 📦
@@ -1248,6 +1329,7 @@
 - [[Jonathan Frankle]] 🌭
 - [[Jurgen Schmidhuber]] ☝️
 - [[Kaiming He]] 👁️
+- [[Kevin Murphy]]
 - [[Louis Castricato]] 🐟
 - [[Ludwig Schmidt]] 😎
 - [[Matei Zaharia]] 🧱

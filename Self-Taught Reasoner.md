@@ -2,6 +2,18 @@
 aliases:
   - STaR
 ---
+References:
+- [Noah D Goodman: Learning to Reason, Insights from Language Modeling"](https://youtu.be/YR9EztOF0R8?si=UW5emQF_MpeWD3n0)
+
+
+Noah D. Goodman Re: The diminishing returns of doing this self-improvement round after round: "STaR is kind of a batch algorithm; it does some solving and then it does some training; APA is a better algorithm that tries to update the policy as you go... it turns out that you get about the same results... In both cases, improvement tops out at some point. I think this is an open interesting problem in self-taught reasoning, that there tends to be a limit to the exploration that models do intrinsically, and to go beyond this, you need to do more aggressive forms of exploration as you teach it to reason."
+
+  
+Q: "Re: Does the model [resulting from STaR training] generalize across difference tasks? You trained to do CommonSenseQA, but does the reasoning strategy generalize to 24 ["Countdown" game, as used in SoS paper]?"
+Noah: "I only have 8 GPUs, but I have friend with 6 Million GPUs up in San Francisco, and they tried this, and it does seem to generalize, and if you talk to o1 you will have stronger evidence of this claim."
+
+--------
+
 March 28, 2022
 Stanford, [[Google Research]] (lead [[Eric Zelikman]])
 [STaR: Bootstrapping Reasoning with Reasoning](https://arxiv.org/abs/2203.14465)

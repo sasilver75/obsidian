@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2327705687d625da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "dffce1e0fa695040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
             "id": "d631c17245951cbc",
             "type": "leaf",
             "state": {
@@ -77,6 +29,42 @@
               },
               "icon": "lucide-file",
               "title": "Value Function"
+            }
+          },
+          {
+            "id": "981d34687ca77c0b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
+            "id": "c2de8a113eea6422",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           },
           {
@@ -920,7 +908,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1432,12 +1420,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "cd39747b91899bd9",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 40
+        "currentTab": 41
       },
       {
         "id": "8a022290161ffefa",
@@ -1498,53 +1496,53 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "dffce1e0fa695040",
+  "active": "c2de8a113eea6422",
   "lastOpenFiles": [
-    "Value Iteration.md",
+    "conflict-files-obsidian-git.md",
     "~ Vocabulary.md",
-    "Value Function.md",
-    "Monte-Carlo Learning.md",
-    "Test-Time Augmentation.md",
-    "RandAugment.md",
-    "Mixup.md",
-    "MixMatch.md",
-    "Swin.md",
-    "Noise-Contrastive Estimation.md",
-    "Scheduled Sampling.md",
-    "Dataset Aggregation.md",
-    "Contrastive Decoding.md",
-    "SentencePiece.md",
-    "Unigram Tokenization.md",
-    "chrF.md",
-    "Promptagator.md",
-    "Product Quantization.md",
-    "Inverted File Index.md",
-    "InPars.md",
-    "HyQE.md",
-    "CRAG.md",
-    "Contriever.md",
-    "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
-    "Context Compression.md",
-    "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md",
-    "_attachments/Pasted image 20241217000943.png",
-    "_attachments/Pasted image 20241215155948.png",
-    "_attachments/Pasted image 20241215155821.png",
-    "_attachments/Pasted image 20241215155604.png",
-    "_attachments/Pasted image 20241215155343.png",
-    "_attachments/Pasted image 20241215155307.png",
-    "_attachments/Pasted image 20241215155141.png",
-    "_attachments/Pasted image 20241215154957.png",
-    "_attachments/Pasted image 20241215154417.png",
-    "_attachments/Pasted image 20241215154409.png",
+    "nvcc.md",
+    "_attachments/Pasted image 20250325171831.png",
+    "_attachments/Pasted image 20250325165433.png",
+    "_attachments/Pasted image 20250302012042.png",
+    "_attachments/Pasted image 20250302002753.png",
+    "_attachments/Pasted image 20250302002745.png",
+    "_attachments/Pasted image 20250301214404.png",
+    "_attachments/Pasted image 20250221123227.png",
+    "_attachments/Pasted image 20250221122930.png",
+    "_attachments/Pasted image 20250221121931.png",
+    "_attachments/Pasted image 20250221120334.png",
+    "VRAM.md",
+    "Untitled 7.md",
+    "Triplet Loss.md",
+    "Thinking LLMs.md",
+    "Tensor Core.md",
+    "Streaming Multiprocessor.md",
+    "Special Function Unit.md",
+    "Self-Correction via Reinforcement Learning.md",
+    "SRAM.md",
+    "SASS.md",
+    "Reinforcement Learning from Verifiable Rewards.md",
+    "Reinforcement Finetuning.md",
+    "Regret.md",
+    "Register File.md",
+    "Reciprocal Rank Fusion.md",
+    "R1.md",
+    "Q-Function.md",
+    "Prompt Caching.md",
+    "Pretraining.md",
+    "Post-Training.md",
+    "Policy Improvement.md",
+    "Partially-Observable Markov Decision Process.md",
+    "Partial Observability.md",
+    "Papers/RL",
+    "Courses/UCSC/NLP202 NLP II",
+    "Courses/Machine Learning/Spinning Up in RL",
+    "Courses/Machine Learning/Deepmind x URL RL",
+    "Courses/Machine Learning/CS234",
     "Papers/VLMs",
     "Articles/Untitled",
     "Courses/Berkeley Agents",
     "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books",
-    "Courses/UCSC/Bootcamp",
-    "Courses/UCSC/NLP243 Deep Learning for NLP",
-    "Courses/UCSC/NLP201 NLP I",
-    "Courses/UCSC"
+    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/NLP with PyTorch (Rao)"
   ]
 }
