@@ -2,6 +2,11 @@
 aliases:
   - Bootstrap Your Own Latent
 ---
+References:
+- Boris Meinardus: [Fixing SimCLR's Main Problem - BYOL Paper Explained](https://youtu.be/7Ei3ZZ8-JFM?si=LY3ug3l1w0xhgS8c)
+	- See also: [[SimCLR]]
+	- See [[DINO]], which was inspired by distillation used in BYOL
+
 June 13, 2020
 Paper: [Bootstrap Your Own Latent: A new approach to Self-Supervised Learning](https://arxiv.org/abs/2006.07733)
 

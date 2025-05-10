@@ -4,8 +4,10 @@ aliases:
 ---
 References
 - Notes: [[David Silver RL (8) - Integrating Learning and Planning]]
+- Video: [John Levine Monte Carlo Tree Search](https://youtu.be/UXW2yZndl7U?si=j6JWJomA8CYyPIkn)
 
-MCTS is a probabilistic algorithm using random simulations to guide the search for a best move in a game. 
+MCTS is a probabilistic algorithm using random simulations to guide the search for a best move in a game. It is a ==heuristic search algorithm==, and have been used toghether with Ns to "solve" multiple board games like Chess, Shogi, Go, Scrabble, etc.
+- It ==uses random sampling for deterministic problems which are difficult or impossible to solve using other approaches.==
 
 Game trees are graphs representing all possible game states within a combinatorial game.
 - Nodes represent particular states of a game
@@ -21,13 +23,13 @@ These algorithms traverse the complete game tree to pick the optimal move -- but
 - It's in this case that [[Monte-Carlo Tree Search|MCTS]] is very effective.
 
 MCTS uses a heuristic search algorithm to solve the game tree!
-Unlike traditional algorithms that rely upon exhaustive exploration of the entire seek area, MCTS specializes in sampling and exploring only promising areas of the hunt area.
+==Unlike traditional algorithms that rely upon exhaustive exploration of the entire seek area, MCTS specializes in sampling and exploring only promising areas of the hunt area==.
 - The central idea is that we build a seek tree incrementally, by simulating random rollouts from the current state until a terminal state is reached; In each playout, the final game result of each playout is then used to weight the nodes in the game tree so that better nodes are more likely to be chosen in future playouts.
-- As the search continues, MCTS dynamically balances exploration and exploitation, considering moves by prioritizing both choices with high win ratios and by exploring unexplored/less-explored moves. We use Upper Confidence Bounds (UCB) to help us select moves. 
+- As the search continues, ==MCTS dynamically balances exploration and exploitation, considering moves by prioritizing both choices with high win ratios and by exploring unexplored/less-explored moves==. We use Upper Confidence Bounds (UCB) to help us select moves. 
 
 It has four phases:
-1. ==Selection==: We start from the root $R$, and select successive child nodes until a leaf node $L$ is reached. The root is the current game state, and a leaf is any node that has a potential child from which no simulation (playout) has yet been initiated.
-	- The algorithm uses the following Upper Confidence Bound (UCB) formula to calculate the state value of all possible next moves, and picks the one which gives the maximum value.
+1. ==Selection==: We start from the root $R$, and select successive child nodes until a leaf node $L$ is reached. The root is the current game state, and a leaf is any node that has a potential child from which no simulation (playout/rollout) has yet been initiated.
+	- The algorithm uses the following ==Upper Confidence Bound (UCB)== formula to calculate the state value of all possible next moves, and picks the one which gives the maximum value.
 	- ![[Pasted image 20240616212503.png|250]]
 	- v_i is the exploitation term; the second term lg(N/n_i) is the exploitation term. This defines the weightage between exploitation of known, high-valued nodes, and relatively unexplored nodes.
 	- At the beginning, when no node is explored, we make a random selection, because there's no data available for a more education selection. When a node is unexplored, the second term becomes $\infty$ , and thus obtains a maximum possible value, and automatically becomes a candidate for selection; thus, the equation makes sure all children get selected at least once.
@@ -37,7 +39,7 @@ It has four phases:
 4. ==Backpropagation==: Use the result of the playout to update information in he nodes on the path from $C$ to $R$.
 
 ![[Pasted image 20240616214707.png]]
-Above: Each node shows the ratio of wins to total plays from that point in the game tree.
+Above: *Each node shows the ratio of wins to total plays from that point in the game tree*.
 Rounds of search are repeated as long as the time allotted to a move remains; the move with the most simulations made (i.e. the highest denominator) is chosen as the final answer ((?)).
 
 The main difficulty in selecting child nodes is maintaining some balance between *exploitation* of moves with high-average-win-rates, and *exploration* of moves with few simulations.
@@ -45,9 +47,20 @@ The main difficulty in selecting child nodes is maintaining some balance between
 - Modern implementations of MCTS are based on some variant of UCT.
 
 Optimizations
-- MCTS can use either *light* or *heavy* playouts, where light playouts consist of random moves, while heavy playouts/rollouts apply various heuristics to influence the choice of moves (interestingly, playing suboptimally in simulations sometimes makes a MCTS program play stronger overall
+- MCTS can use either ==*light* playouts or *heavy* playouts,== where light playouts consist of random moves, while heavy playouts/rollouts apply various heuristics to influence the choice of moves (**interestingly, playing suboptimally in simulations sometimes makes a MCTS program play stronger overall**)
 - Basic MCTS exploratory phase can be shortened in certain classes of games using a technique called RAVE (Rapid Action Value Estimation)
 - MCTS can be concurrently executed by many threads or processes.
+	- Leaf parallelization: Parallel execution from many playouts from one leaf of the game tree
+	- Root parallelization: Building independent game trees in parallel and making the move based on the root-level branches of all these trees.
+	- Tree parallelization: Parallel building of the same game tree, protecting data from simultaneous writes.
+
+
+Advantages
+- The game tree in MCTS grows asymmetrically as the method concentrates on the more promising subtrees -- thus it achieves better results than classical algorithms in games with high branching factor.
+
+Disadvantages
+- In certain positions, there might be moves that *look* superficially strong, but actually lead to a loss via a subtle line of play. Such "trap states" require thorough analysis to be handled correctly, particularly when playing against an expert player... It's believes that this may have been part of the reason for AlphaGo's loss in its fourth game against Lee Sedol.
+
 
 
 ----

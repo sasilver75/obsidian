@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
+      "basename": "Value Function",
+      "path": "Value Function.md"
+    },
+    {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
       "basename": "Value Iteration",
       "path": "Value Iteration.md"
-    },
-    {
-      "basename": "Value Function",
-      "path": "Value Function.md"
     },
     {
       "basename": "Monte-Carlo Learning",
@@ -195,10 +199,6 @@
     {
       "basename": "Beta-VAE",
       "path": "Beta-VAE.md"
-    },
-    {
-      "basename": "Chain of Note",
-      "path": "Chain of Note.md"
     }
   ],
   "omittedPaths": [],

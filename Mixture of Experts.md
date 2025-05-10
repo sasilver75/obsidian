@@ -13,6 +13,11 @@ Notes:
 
 > "'You at AI2 do not have the engineering throughput to deal with the headaches of getting mixture-of-experts to work' is a comment from my big lab friends." - Nathan Lambert
 
+
+References:
+- [Cameron Wolfe: Mixture of Experts (MoE) LLMs](https://cameronrwolfe.substack.com/p/moe-llms?utm_source=post-email-title&publication_id=1092659&post_id=154340424&utm_campaign=email-post-title&isFreemail=true&r=764e6&triedRedirect=true&utm_medium=email)
+
+
 ---
 
 Notes:
@@ -61,3 +66,250 @@ Abstract
 Above: Because this paper came out before the Transformer, this is shown in the context of RNNs. But the MoE block is the same (as far as I can tell) as ones we might use in a Transformer, though the Transformer MoE blocks often will have a FFNN layer after combining results from experts.
 
 # Non-Paper Figures
+
+
+
+------
+
+From Cameron Wolfe's [Mixture of Experts Article](https://cameronrwolfe.substack.com/p/moe-llms?utm_source=post-email-title&publication_id=1092659&post_id=154340424&utm_campaign=email-post-title&isFreemail=true&r=764e6&triedRedirect=true&utm_medium=email)
+
+In an area of study that's rapidly changing, the decoder-only transformer architecture has remained one of the few enduring staples in large language model...
+
+MoE-based LLMs introduce sparsity to the models architecture, ==allowing us to increase its size (in terms of the number of total parameters)== ==without a corresponding increase in compute costs.==
+
+The relevant papers here (among others) are:
+- The Sparsely-Gated Mixture of Experts Layer
+- Switch Transformers
+- Stable and Transferable Mixture-of-Experts (ST-MoE)
+- DeepSeek MoE
+
+What are experts?
+- In the standard architecture, we have a SINGLE feed-forward NN component, usually made up of ==two feed-forward layers with a non-linear activation in between.
+- An MoE slightly modifies this block architecture -- instead of having a single feed-forward network within the feed-forward component of the block, we create ==several== feed-forward networks, each with their own independent weights. We refer each of these networks as an "expert."
+- For example, an MoE-based LLM may have eight independent experts in each of its feed-forward sub-layers:
+$Experts: {E_i(\cdot)}^N_{i=1}$ 
+We can refer to each i'th expert using the notation $E_i$.
+
+Creating an MoE-based tarnsformer:
+- We simply convert the transformer's feed-forward layers to MoE, or *expert* layers.
+- ==Each expert in the MoE layer has an architecture that is identical to the original FFNN from that layer.==
+
+![[Pasted image 20250128143105.png|500]]
+
+However we need not use experts for for *every* FF layer in the transformer.
+
+Most MoE-based LLMs use a ==stride of P, meaning that every P'th layer is converted into an expert layer, and others layers are left untouched.== These are also called ==interleaved MoE layers==.
+This approach can be used to achieve a better balance between the resulting model's performance and efficiency.
+
+### Routing algorithms:
+- The primary benefit of MoE-based architectures is their efficiency, but what do we do now that we have multiple experts? We want to ==sparsely select== the experts that should be used in each layer.
+- ==Our goal is to select a subset of experts to process each token.==
+	- In MoE literature, we usually say that the token will be *routed* to these experts! 
+- The simplest routing algorithm would apply a linear transformation to the token vector, forming a vector of size N (i.e. the number of experts).
+	- Then, we can apply a [[Softmax]] function to form a probability distribution over the set of experts for our token.
+	- We can use this distribution to choose experts to which our token should be routed by simply ==selecting the top-L experts in the distribution==.
+
+![[Pasted image 20250128144006.png|400]]
+
+This routing strategy was used in the original Shazeer MoE paper which proposed to sparse MoE layer structure that we use today. But ==such a routing mechanism doesn't explicitly encourage a balanced selection of experts!==
+- For this reason, the model is ==likely to converge to a state of repeatedly selecting the same few experts for every token instead of fully and uniformly utilizing its expert layers!== This is commonly referred to as [[Routing Collapse]]!
+
+> The gating network tends to converge to a state where ti always produces large weights for the same few experts. This imbalance is *self-reinforcing*, as favored experts are trained more rapidly and thus selected even *more* by the gated network.
+
+Active Parameters:
+- Because we only select a subset of experts to process each token within an MoE layer, there is a concept of =="active" parameters== in the MoE literature.
+	- Only a small portion of the MoE model's total parameters are active when processing a given token. 
+	- ==As a result, the total computation performed by the MoE is proportional to the number of active parameters, rather than the total number of parameters.==
+
+### Auxiliary Losses and Expert Load Balancing
+- In order to encourage a balanced selection of experts during training and avoid [[Routing Collapse]], we can simply ==add an additional constraint to the training loss that rewards the model for uniformly leveraging each of its experts==!
+- We define an ==importance score== for each expert!
+	- This importance score is based on the probability predicted for each expert by the routing mechanism.
+
+![[Pasted image 20250128144641.png]]
+
+1. ==Given a batch of data, we compute importance by taking taking a sum of the probabilities assigned to each expert across all tokens in the batch.==
+2. Then, to determine if these probabilities are balanced, by take the squared [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) (CV) of the expert importance scores. ==Put simply, the CV will be a small value if all experts have similar importance scores, and vice versa== .
+3. From here, ==we can simply add the importance loss shown above to our standard language modeling loss to form our new objective==, which helps to ensure that the MoE assigns equal probability to experts throughout the training process.
+
+Load Balancing
+- But just because experts are assigned equal equal importance doesn't mean that tokens are routed uniformly!
+	- Currently, experts would have equal importance with:
+		- A few tokens that assign them very high probability
+		- A much larger number of tokens that assign lower probability
+	- As a result, the number of tokens dispatched to each expert can still be highly non-uniform even when using an importance loss, which can lead to excessive memory usage and generally-degraded efficiency for the MoE...
+----
+Sam Aside:
+I think he means a situation where:
+
+```
+Expert A:
+- 10 tokens each assign 0.9 probability to Expert A
+- 90 tokens each assign 0.0 probability to Expert A
+- Total importance ≈ 9.0 (10 × 0.9 + 90 × 0.0)
+
+Expert B:
+- Those same 10 tokens each assign 0.1 probability to Expert B
+- Those same 90 tokens each assign 0.1 probability to Expert B
+- Total importance = 9.0 (10 × 0.1 + 90 × 0.1)
+```
+See that even though the cumulative probability/importance for both experts is the same across a batch, Expert A is very likely to get routed to for those 0.9-probability tokens, while Expert B might not get routed to at all despite having similar importance from a probability perspective! 
+So we need to make sure that we add an additional load balancing loss to ensure that the actual token distribution is balanced!
+
+----
+
+To solve this problem, we can create a single auxiliary loss term that captures BOTH:
+- Expert importance
+- Load Balancing
+
+Defined as the equal routing of tokens between each of the experts. In  [[Switch Transformer]], authors create a loss considering two quantities:
+1. The fraction of router ==probabilities== allocated to each expert. (old)
+2. The (actual) fraction of tokens ==dispatched== to each expert. (new)
+![[Pasted image 20250128145419.png]]
+Above: From the [[Switch Transformer]] paper. 
+- If we store these two quantities in their own N-dimensional vectors, we can create a single loss term by taking the [[Dot Product]] of these two vectors. 
+- ==The resulting loss is minimized when experts receive uniform probability and load balancing==, thus capturing both of our goals within a single auxiliary loss term.
+
+![[Pasted image 20250128153112.png]]
+Above: Router Z-Loss: The auxiliary load balancing loss described earlier is widely used throughout the MoE literature, but authors in [[ST-MoE]] propose an extra auxiliary loss term (above), called the router z-loss, which can further improve training stability.
+- This router Z-loss constrains the size of the ==logits== (not the probabilities) predicted by the routing mechanism.
+- Ideally, we don't want these logits to be too big! But they can be very large, leading to "round-off" errors that can destabilize the training process
+
+-----
+Aside: Why is the Z-Loss important for MoE model training stability?
+
+The key issue is above numerical stability when computing softmax probabilities from logits:
+1. The routing mechanism produces logits (raw scores) that are passed through a softmax function to get probabilities for each expert.
+2. The softmax function involves ==exponentials==: softmax(x) = exp(x) / sum(exp(x))
+3. When logits become ==very large, the exponential terms can become extremely large numbers==. This leads to numerical overflow even in float32! This destabilizes training.
+4. The router Z-Loss helps prevent these issues by explicitly penalizing large logit values. It encourages the model to produce smaller, more reasonable logit values that:
+	1. Won't lead to overflow when exponentiated
+	2. Lead to more numerically stable probability computations.
+	3. Result in more stable gradient updates during training.
+-----
+
+Given that the Z-loss function term shown above focused solely on regularizing the router's logits and performs no load balancing, we typically use the router z-loss in tandem with the auxiliary load balancing loss that we talked about earlier!
+
+Both of these losses are added on top of the LLM's standard language modeling loss:
+![[Pasted image 20250128155758.png]]
+
+Nice!
+
+
+### Expert Capacity
+
+The computation performed in an MoE layer is dynamic due to routing decisions made during both training and inference...
+But when we look at most implementations of sparse models, we will see that ==they usually have static batch sizes==.
+![[Pasted image 20250128155902.png]]
+
+Expert capacity: To formalize the fixed batch size that we set for each expert, we can define the expert capacity. The expert capacity is defined as shown below.
+
+Expert Capacity = ((Total # tokens in the batch) / N) * Capacity Factor
+
+==The expert capacity defines the maximum number of tokens in a batch that can be sent to each expert.==
+- If the number of tokens routed to an expert EXCEEDS the expert capacity, we just ==DROP== those extra tokens!
+	- Specifically, we perform no computation for these tokens and let their representation flow directly to the next layer, via the transformer's [[Residual Connection]].
+
+### Capacity Factor
+
+Expert capacity is controlled via the ==capacity factor== setting. 
+- A capacity factor of one of one means that tokens are routed in a perfectly-balanced manner across the experts
+- Alternatively, setting it *above one* provides extra buffer to accommodate for al imbalance in tokens between experts. However this comes at a cost (higher memory usage and lower efficiency).
+
+How do we set the capacity factor?
+- Interestingly, MoE models tend to perform well with relatively low capacity factors (1-2)
+- But we need to ensure that the number of dropped tokens is not too large to avoid any impact on the training run.
+- [ ] We can also use capacity factors for training and
+
+-------
+Aside: Why do we need a capacity factor? 
+- When the capacity for a particular expert is exceeded, the overflow tokens are simply passed through the residual connection to the next layer without expert processing. 
+- The capacity factor (which determines expert capacity) helps manage the trade-off between:
+	- Having enough buffer to handle routing imbalances (high capacity factor)
+	- Maintaining efficiency in memory usage and computation (lower capacity factor)
+
+Imagine you have 8 tokens and 100 tasks to process:
+1. Ideal scenario: Each expert would handle about 12-13 tasks.
+2. Reality: Some experts might be more relevant to certain tasks; you might end up with Expert A getting 25 tasks and Expert B only getting 5. This imbalance can cause bottleneck!
+3. So we set a capacity limit (like saying "each expert can only take 15 tasks") -- if an expert is "full", overflow gets a "fast pass" though the residual connection. ==A capacity factor of 1.25 means that each expert can handle 25% more than the perfectly balanced amount.==
+
+The goal is to prevent any single expert from becoming a bottleneck while maintaining efficient processing. Like having a queue management system at a bank -- if one teller's line gets too long, customers are redirected to keep things moving smoothly.
+
+==A higher capacity factor requires more memory!==
+Consider: You have 1000 tokens and 10 experts
+- A perfect distribution (capacity factor=1.0) means each expert should handle 100 tokens.
+- If you set capacity factor to 2.0, you're allocating space for each expert to handle up to 200 tokens.
+So with a higher capacity factor:
+- ==You need to allocate more memory buffers for each expert to *potentially* handle more tokens!==
+- ==This memory is reserved whether not it's used!== 
+- ==So you're essentially "over-provisioning" to handle potential imbalances!==
+
+Example:
+- Capacity Factor 1.0:
+	- Expert 1: {Buffer for 100 tokens}
+	- Expert 2:  {Buffer for 100 tokens}
+	- ...
+	- Total memory: 1000 token spaces
+- Capacity Factor 2.0:
+	- Expert 1: {Buffer for 200 tokens}
+	- Expert 2: {Buffer for 200 tokens}
+	- ...
+	- Total memory: 2000 token spaces
+
+See that the lower capacity factor is more memory efficient because we're allocating the memory that we would need in a perfectly-balanced scenario, but this come with the trade-off of being less-flexible when routing becomes imbalanced. Models like [[ST-MoE]] use a moderate capacity factor (1.25) during training -- it's a sweet spot between memory efficiency and routing flexibility.
+
+Q: What can an imbalance of tokens between experts cause bottlenecks?
+A: 
+Imagine a scenario where we have 4 experts and 100 tokens to process in parallel.
+
+```
+Balanced Scenario (No Bottleneck):
+Expert 1: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Expert 2: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Expert 3: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Expert 4: 25 tokens [||||||||||||||||||||||||] → Processes in 1 time unit
+Total Time: 1 time unit
+
+Imbalanced Scenario (Bottleneck):
+Expert 1: 70 tokens [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||] → Processes in 2.8 time units
+Expert 2: 10 tokens [||||||||||] → Processes in 0.4 time units
+Expert 3: 15 tokens [|||||||||||||||] → Processes in 0.6 time units
+Expert 4: 5 tokens  [|||||] → Processes in 0.2 time units
+Total Time: 2.8 time units (limited by slowest expert)
+```
+==The bottleneck occurs because==:
+1. Most ML systems process these in parallel
+2. The next layer can't start until ALL experts finish their current batch
+3. You're only as fast as your slowest (most overloaded) expert
+4. Other experts sit idle after finishing their smaller workloads
+
+This is why capacity limits help -- they force a more balanced distribution and let overflow tokens skip through the residual connection rather than creating a bottleneck at popular experts.
+
+==NOTE==: Okay, Claude lied a bit -- in a GPU, a single Matmul with 70 tokens vs 10 tokens would indeed be processed in effectively the same time due to parallel processing capabilities. The real bottlneck isn't in the processing time per-se, but rather in:
+1. Memory bandwidth requirements
+2. The potential need to split very large batches if they exceed hardware limits
+3. The synchronization required between different experts before the next layer can begin
+
+So... unclear 
+
+-------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
