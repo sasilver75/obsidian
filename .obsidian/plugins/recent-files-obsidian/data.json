@@ -13,8 +13,61 @@
       "path": "~ Vocabulary.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Value Iteration",
       "path": "Value Iteration.md"
+=======
+      "basename": "Unit 2 LangGraph",
+      "path": "Courses/HuggingFaceAgents/Unit 2 LangGraph.md"
+    },
+    {
+      "basename": "Unit 2 LlamaIndex Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 2 LlamaIndex Notes.md"
+    },
+    {
+      "basename": "Unit 3 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 3 Notes.md"
+    },
+    {
+      "basename": "Unit 2 Smolagents Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md"
+    },
+    {
+      "basename": "Unit 1 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 1 Notes.md"
+    },
+    {
+      "basename": "FlashAttention",
+      "path": "FlashAttention.md"
+    },
+    {
+      "basename": "Model Context Protocol",
+      "path": "Model Context Protocol.md"
+    },
+    {
+      "basename": "SRAM",
+      "path": "SRAM.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
+      "basename": "Reasoning",
+      "path": "Reasoning.md"
+    },
+    {
+      "basename": "Grouped Query Attention",
+      "path": "Grouped Query Attention.md"
+    },
+    {
+      "basename": "Vision Large Language Models (vLLMs)",
+      "path": "Articles/Vision Large Language Models (vLLMs).md"
+    },
+    {
+      "basename": "Reinforcement Learning from from AI Feedback",
+      "path": "Reinforcement Learning from from AI Feedback.md"
+>>>>>>> 98106a84cfeadc00c341c0400b77170b77bcd531
     },
     {
       "basename": "Monte-Carlo Learning",
@@ -65,12 +118,17 @@
       "path": "Unigram Tokenization.md"
     },
     {
+<<<<<<< HEAD
       "basename": "chrF",
       "path": "chrF.md"
     },
     {
       "basename": "Promptagator",
       "path": "Promptagator.md"
+=======
+      "basename": "PTX",
+      "path": "PTX.md"
+>>>>>>> 98106a84cfeadc00c341c0400b77170b77bcd531
     },
     {
       "basename": "Product Quantization",
@@ -157,6 +215,7 @@
       "path": "Sampled Softmax.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Human-in-the-Loop Decoding",
       "path": "Human-in-the-Loop Decoding.md"
     },
@@ -199,6 +258,10 @@
     {
       "basename": "Beta-VAE",
       "path": "Beta-VAE.md"
+=======
+      "basename": "MultiChallenge",
+      "path": "MultiChallenge.md"
+>>>>>>> 98106a84cfeadc00c341c0400b77170b77bcd531
     }
   ],
   "omittedPaths": [],

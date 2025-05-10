@@ -1,9 +1,20 @@
-****# General
+# General
 - [[Reasoning]]
 
-# Data Engineering
+
+
+# Software Engineering
 - [[Apache Arrow]]
 - [[Apache Parquet]]
+- [[Server-Sent Event]] (SSE)
+- [[Chroma]]
+- [[LlamaParse]]
+- [[LlamaIndex]]
+- [[smolagents]]
+- [[LlamaTrace]]
+- [[LangChain]]
+- [[LangSmith]]
+- [[LangGraph]]
 
 # Hardware Stack (And related Software)
 - [[CUDA]]
@@ -684,6 +695,7 @@
 	- [[Visual Question-Answering]]
 - [[Swin|Swin Transformer]]
 - [[Vision Transformer]] (ViT)
+- [[Model Context Protocol]]
 
 # MultiModal Concepts
 - [[Early Fusion]]
