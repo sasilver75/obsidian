@@ -1,8 +1,160 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
+      "basename": "SDIAH Core Concepts",
+      "path": "Courses/SystemDesign/SDIAH Core Concepts.md"
+    },
+    {
+      "basename": "SDIAH Common Patterns",
+      "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
+    },
+    {
+      "basename": "SDIAH Key Technologies",
+      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "SDIAH Framework",
+      "path": "Courses/SystemDesign/SDIAH Framework.md"
+    },
+    {
+      "basename": "SDIAH Intro",
+      "path": "Courses/SystemDesign/SDIAH Intro.md"
+    },
+    {
+      "basename": "Jensen's Inequality",
+      "path": "Jensen's Inequality.md"
+    },
+    {
+      "basename": "Least-Squares",
+      "path": "Least-Squares.md"
+    },
+    {
+      "basename": "Gibbs Sampling",
+      "path": "Gibbs Sampling.md"
+    },
+    {
+      "basename": "De Morgan's Law of Union",
+      "path": "De Morgan's Law of Union.md"
+    },
+    {
+      "basename": "Concept Shift",
+      "path": "Concept Shift.md"
+    },
+    {
+      "basename": "Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
+      "path": "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
+    },
+    {
+      "basename": "Consistency Regularization",
+      "path": "Consistency Regularization.md"
+    },
+    {
+      "basename": "Bootstrap Aggregation",
+      "path": "Bootstrap Aggregation.md"
+    },
+    {
+      "basename": "Bootstrap",
+      "path": "Bootstrap.md"
+    },
+    {
+      "basename": "F-Beta Score",
+      "path": "F-Beta Score.md"
+    },
+    {
+      "basename": "Cross-Validation",
+      "path": "Cross-Validation.md"
+    },
+    {
+      "basename": "Jaccard Similarity",
+      "path": "Jaccard Similarity.md"
+    },
+    {
+      "basename": "Balanced Accuracy",
+      "path": "Balanced Accuracy.md"
+    },
+    {
+      "basename": "Isolation Forest",
+      "path": "Isolation Forest.md"
+    },
+    {
+      "basename": "Discriminative Learning Rate",
+      "path": "Discriminative Learning Rate.md"
+    },
+    {
+      "basename": "Alignment",
+      "path": "Alignment.md"
+    },
+    {
+      "basename": "Prompt Tuning",
+      "path": "Prompt Tuning.md"
+    },
+    {
+      "basename": "Chain of Note",
+      "path": "Chain of Note.md"
+    },
+    {
+      "basename": "TinyML (5) - Quantization part 1",
+      "path": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
+    },
+    {
+      "basename": "Self-Distillation",
+      "path": "Self-Distillation.md"
+    },
+    {
+      "basename": "Context Distillation",
+      "path": "Context Distillation.md"
+    },
+    {
+      "basename": "Pre-text Training",
+      "path": "Pre-text Training.md"
+    },
+    {
+      "basename": "Boosting",
+      "path": "Boosting.md"
+    },
+    {
+      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
+      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
+      "path": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
+    },
+    {
+      "basename": "HyQE",
+      "path": "HyQE.md"
+    },
+    {
+      "basename": "Product Quantization",
+      "path": "Product Quantization.md"
+    },
+    {
+      "basename": "Promptagator",
+      "path": "Promptagator.md"
+    },
+    {
+      "basename": "chrF",
+      "path": "chrF.md"
+    },
+    {
+      "basename": "Contrastive Decoding",
+      "path": "Contrastive Decoding.md"
+    },
+    {
+      "basename": "Scheduled Sampling",
+      "path": "Scheduled Sampling.md"
+    },
+    {
+      "basename": "Noise-Contrastive Estimation",
+      "path": "Noise-Contrastive Estimation.md"
+    },
+    {
+      "basename": "Test-Time Augmentation",
+      "path": "Test-Time Augmentation.md"
+    },
+    {
+      "basename": "Monte-Carlo Learning",
+      "path": "Monte-Carlo Learning.md"
     },
     {
       "basename": "Value Function",
@@ -13,69 +165,8 @@
       "path": "~ Vocabulary.md"
     },
     {
-<<<<<<< HEAD
       "basename": "Value Iteration",
       "path": "Value Iteration.md"
-=======
-      "basename": "Unit 2 LangGraph",
-      "path": "Courses/HuggingFaceAgents/Unit 2 LangGraph.md"
-    },
-    {
-      "basename": "Unit 2 LlamaIndex Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 2 LlamaIndex Notes.md"
-    },
-    {
-      "basename": "Unit 3 Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 3 Notes.md"
-    },
-    {
-      "basename": "Unit 2 Smolagents Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md"
-    },
-    {
-      "basename": "Unit 1 Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 1 Notes.md"
-    },
-    {
-      "basename": "FlashAttention",
-      "path": "FlashAttention.md"
-    },
-    {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
-    },
-    {
-      "basename": "SRAM",
-      "path": "SRAM.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "Reasoning",
-      "path": "Reasoning.md"
-    },
-    {
-      "basename": "Grouped Query Attention",
-      "path": "Grouped Query Attention.md"
-    },
-    {
-      "basename": "Vision Large Language Models (vLLMs)",
-      "path": "Articles/Vision Large Language Models (vLLMs).md"
-    },
-    {
-      "basename": "Reinforcement Learning from from AI Feedback",
-      "path": "Reinforcement Learning from from AI Feedback.md"
->>>>>>> 98106a84cfeadc00c341c0400b77170b77bcd531
-    },
-    {
-      "basename": "Monte-Carlo Learning",
-      "path": "Monte-Carlo Learning.md"
-    },
-    {
-      "basename": "Test-Time Augmentation",
-      "path": "Test-Time Augmentation.md"
     },
     {
       "basename": "RandAugment",
@@ -94,20 +185,8 @@
       "path": "Swin.md"
     },
     {
-      "basename": "Noise-Contrastive Estimation",
-      "path": "Noise-Contrastive Estimation.md"
-    },
-    {
-      "basename": "Scheduled Sampling",
-      "path": "Scheduled Sampling.md"
-    },
-    {
       "basename": "Dataset Aggregation",
       "path": "Dataset Aggregation.md"
-    },
-    {
-      "basename": "Contrastive Decoding",
-      "path": "Contrastive Decoding.md"
     },
     {
       "basename": "SentencePiece",
@@ -116,152 +195,6 @@
     {
       "basename": "Unigram Tokenization",
       "path": "Unigram Tokenization.md"
-    },
-    {
-<<<<<<< HEAD
-      "basename": "chrF",
-      "path": "chrF.md"
-    },
-    {
-      "basename": "Promptagator",
-      "path": "Promptagator.md"
-=======
-      "basename": "PTX",
-      "path": "PTX.md"
->>>>>>> 98106a84cfeadc00c341c0400b77170b77bcd531
-    },
-    {
-      "basename": "Product Quantization",
-      "path": "Product Quantization.md"
-    },
-    {
-      "basename": "Inverted File Index",
-      "path": "Inverted File Index.md"
-    },
-    {
-      "basename": "InPars",
-      "path": "InPars.md"
-    },
-    {
-      "basename": "HyQE",
-      "path": "HyQE.md"
-    },
-    {
-      "basename": "CRAG",
-      "path": "CRAG.md"
-    },
-    {
-      "basename": "Contriever",
-      "path": "Contriever.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
-      "path": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
-    },
-    {
-      "basename": "Context Compression",
-      "path": "Context Compression.md"
-    },
-    {
-      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
-      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Consistency Filtering",
-      "path": "Consistency Filtering.md"
-    },
-    {
-      "basename": "Average Precision",
-      "path": "Average Precision.md"
-    },
-    {
-      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
-      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
-    },
-    {
-      "basename": "Asymmetric Distance Computation",
-      "path": "Asymmetric Distance Computation.md"
-    },
-    {
-      "basename": "Maximum Inner Product Search",
-      "path": "Maximum Inner Product Search.md"
-    },
-    {
-      "basename": "Instruction Backtranslation",
-      "path": "Instruction Backtranslation.md"
-    },
-    {
-      "basename": "Negative Prompt",
-      "path": "Negative Prompt.md"
-    },
-    {
-      "basename": "Self-Ask",
-      "path": "Self-Ask.md"
-    },
-    {
-      "basename": "Boosting",
-      "path": "Boosting.md"
-    },
-    {
-      "basename": "Evol-Amplify",
-      "path": "Evol-Amplify.md"
-    },
-    {
-      "basename": "Gradient Checkpointing",
-      "path": "Gradient Checkpointing.md"
-    },
-    {
-      "basename": "Sampled Softmax",
-      "path": "Sampled Softmax.md"
-    },
-    {
-<<<<<<< HEAD
-      "basename": "Human-in-the-Loop Decoding",
-      "path": "Human-in-the-Loop Decoding.md"
-    },
-    {
-      "basename": "Self-Speculative Decoding",
-      "path": "Self-Speculative Decoding.md"
-    },
-    {
-      "basename": "Pre-text Training",
-      "path": "Pre-text Training.md"
-    },
-    {
-      "basename": "Context Distillation",
-      "path": "Context Distillation.md"
-    },
-    {
-      "basename": "Online Distillation",
-      "path": "Online Distillation.md"
-    },
-    {
-      "basename": "Self-Distillation",
-      "path": "Self-Distillation.md"
-    },
-    {
-      "basename": "Format-Restricting Instruction",
-      "path": "Format-Restricting Instruction.md"
-    },
-    {
-      "basename": "TinyML (5) - Quantization part 1",
-      "path": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
-    },
-    {
-      "basename": "Linear Quantization",
-      "path": "Linear Quantization.md"
-    },
-    {
-      "basename": "Jensen's Inequality",
-      "path": "Jensen's Inequality.md"
-    },
-    {
-      "basename": "Beta-VAE",
-      "path": "Beta-VAE.md"
-=======
-      "basename": "MultiChallenge",
-      "path": "MultiChallenge.md"
->>>>>>> 98106a84cfeadc00c341c0400b77170b77bcd531
     }
   ],
   "omittedPaths": [],
