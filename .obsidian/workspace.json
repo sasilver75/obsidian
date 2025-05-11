@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8f994c9ef6e7ac6d",
+        "id": "6742a26b2be0637e",
         "type": "tabs",
         "children": [
           {
-            "id": "d631c17245951cbc",
+            "id": "34f0b256a137b1e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Value Function.md",
+                "file": "Courses/SystemDesign/SDIAH Core Concepts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,28 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Value Function"
+              "title": "SDIAH Core Concepts"
             }
           },
           {
-            "id": "981d34687ca77c0b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
-          },
-          {
-            "id": "c2de8a113eea6422",
+            "id": "3a65a989c2ed8a87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Courses/SystemDesign/SDIAH Key Technologies.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "SDIAH Key Technologies"
             }
           },
           {
-            "id": "6b379bd8b35ae4c2",
+            "id": "4be9daa24d63925b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monte-Carlo Learning.md",
+                "file": "Courses/SystemDesign/SDIAH Common Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,827 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Monte-Carlo Learning"
-            }
-          },
-          {
-            "id": "243d9cf1896204fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test-Time Augmentation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Test-Time Augmentation"
-            }
-          },
-          {
-            "id": "8643f8e2f1e4a30f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Noise-Contrastive Estimation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Noise-Contrastive Estimation"
-            }
-          },
-          {
-            "id": "32258bfaf1e3805f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scheduled Sampling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Scheduled Sampling"
-            }
-          },
-          {
-            "id": "112a2f8c39102474",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scheduled Sampling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Scheduled Sampling"
-            }
-          },
-          {
-            "id": "52049abe3a9a1ccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contrastive Decoding.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Contrastive Decoding"
-            }
-          },
-          {
-            "id": "1c86098e8954a593",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chrF.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "chrF"
-            }
-          },
-          {
-            "id": "f313ba533539a4a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Promptagator.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Promptagator"
-            }
-          },
-          {
-            "id": "3112a3c09c7a524c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product Quantization.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Quantization"
-            }
-          },
-          {
-            "id": "b9504213dc9ef85c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HyQE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HyQE"
-            }
-          },
-          {
-            "id": "91c1e101f6b9cc16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Retrieval-Augmented Generation for Large Language Models - A Survey"
-            }
-          },
-          {
-            "id": "1acb8123c17fd1d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}"
-            }
-          },
-          {
-            "id": "90db74c715a401d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boosting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Boosting"
-            }
-          },
-          {
-            "id": "0f4826ab074d3665",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pre-text Training.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Pre-text Training"
-            }
-          },
-          {
-            "id": "5036da756f1ba215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Context Distillation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Context Distillation"
-            }
-          },
-          {
-            "id": "727e4d849a2fcaff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Distillation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Self-Distillation"
-            }
-          },
-          {
-            "id": "b878fb0ed1cb4761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TinyML (5) - Quantization part 1"
-            }
-          },
-          {
-            "id": "e836bfe9d7ad9eeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chain of Note.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Chain of Note"
-            }
-          },
-          {
-            "id": "2daca4ec30390d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prompt Tuning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Prompt Tuning"
-            }
-          },
-          {
-            "id": "9fdaf14841baf32f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alignment.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Alignment"
-            }
-          },
-          {
-            "id": "913d7290c285d119",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discriminative Learning Rate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Discriminative Learning Rate"
-            }
-          },
-          {
-            "id": "ce59206bd258afa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Isolation Forest.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Isolation Forest"
-            }
-          },
-          {
-            "id": "b6319c1aa478cccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Balanced Accuracy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Balanced Accuracy"
-            }
-          },
-          {
-            "id": "6c6a9133775221d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jaccard Similarity.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Jaccard Similarity"
-            }
-          },
-          {
-            "id": "12d69d6f77c2180a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cross-Validation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cross-Validation"
-            }
-          },
-          {
-            "id": "d70418164fa05759",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F-Beta Score.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "F-Beta Score"
-            }
-          },
-          {
-            "id": "6ac054a0399c1728",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bootstrap.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bootstrap"
-            }
-          },
-          {
-            "id": "9057ce6ea55db8e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bootstrap Aggregation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bootstrap Aggregation"
-            }
-          },
-          {
-            "id": "b031f69eb4143adc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Consistency Regularization.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Consistency Regularization"
-            }
-          },
-          {
-            "id": "e659a5c79bdd7908",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}"
-            }
-          },
-          {
-            "id": "c04b18a67b6bc1ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concept Shift.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Concept Shift"
-            }
-          },
-          {
-            "id": "034816a65238e2b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "De Morgan's Law of Union.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "De Morgan's Law of Union"
-            }
-          },
-          {
-            "id": "84f2f2c7b6f49fed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gibbs Sampling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gibbs Sampling"
-            }
-          },
-          {
-            "id": "d95d094adf068145",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Least-Squares.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Least-Squares"
-            }
-          },
-          {
-            "id": "a16d7a432fff0503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jensen's Inequality.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Jensen's Inequality"
+              "title": "SDIAH Common Patterns"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -981,8 +152,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1496,53 +666,52 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c2de8a113eea6422",
+  "active": "34f0b256a137b1e0",
   "lastOpenFiles": [
+    "Courses/SystemDesign/SDIAH Common Patterns.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "Courses/SystemDesign/SDIAH Core Concepts.md",
+    "Courses/SystemDesign/SDIAH Framework.md",
+    "Courses/SystemDesign/Concepts",
+    "Courses/SystemDesign/SDIAH Intro.md",
+    "_attachments/Pasted image 20250510180528.png",
+    "_attachments/Pasted image 20250510170635.png",
+    "_attachments/Pasted image 20250510163040.png",
+    "_attachments/Pasted image 20250510162928.png",
+    "Courses/SystemDesign",
+    "Jensen's Inequality.md",
+    "Least-Squares.md",
+    "Gibbs Sampling.md",
+    "De Morgan's Law of Union.md",
+    "Concept Shift.md",
+    "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
+    "Consistency Regularization.md",
+    "Bootstrap Aggregation.md",
+    "Bootstrap.md",
+    "F-Beta Score.md",
+    "Cross-Validation.md",
+    "Jaccard Similarity.md",
+    "Balanced Accuracy.md",
+    "Isolation Forest.md",
+    "Discriminative Learning Rate.md",
+    "Alignment.md",
+    "Prompt Tuning.md",
+    "Chain of Note.md",
+    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
+    "Self-Distillation.md",
     "_attachments/Pasted image 20250419190359.png",
     "_attachments/Pasted image 20250419185521.png",
     "_attachments/Pasted image 20250419184915.png",
     "_attachments/Pasted image 20250419180543.png",
     "_attachments/Pasted image 20250419173945.png",
     "_attachments/Pasted image 20250419161153.png",
-    "_attachments/Pasted image 20250419153812.png",
-    "_attachments/Pasted image 20250419134203.png",
-    "_attachments/Pasted image 20250419132239.png",
-    "_attachments/Pasted image 20250419131825.png",
-    "_attachments/Pasted image 20250418231138.png",
-    "Server-Sent Event.md",
-    "Model Context Protocol.md",
-    "Courses/HuggingFaceAgents/Unit 3 Notes.md",
-    "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md",
-    "Courses/HuggingFaceAgents/Unit 2 LlamaIndex Notes.md",
-    "Courses/HuggingFaceAgents/Unit 2 LangGraph.md",
-    "Courses/HuggingFaceAgents/Unit 1 Notes.md",
     "Courses/HuggingFaceAgents",
-    "Articles/Vision Large Language Models (vLLMs).md",
-    "conflict-files-obsidian-git.md",
-    "~ Vocabulary.md",
-    "nvcc.md",
-    "VRAM.md",
-    "Untitled 7.md",
-    "Triplet Loss.md",
-    "Thinking LLMs.md",
-    "Tensor Core.md",
-    "Streaming Multiprocessor.md",
-    "Special Function Unit.md",
-    "Self-Correction via Reinforcement Learning.md",
-    "SRAM.md",
-    "SASS.md",
-    "Reinforcement Learning from Verifiable Rewards.md",
-    "Reinforcement Finetuning.md",
-    "Regret.md",
-    "Register File.md",
     "Papers/RL",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Spinning Up in RL",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
     "Papers/VLMs",
-    "Articles/Untitled",
-    "Courses/Berkeley Agents",
-    "Courses/UCSC/NLP243 Deep Learning for NLP/Books/Dive into Deep Learning"
+    "Articles/Untitled"
   ]
 }
