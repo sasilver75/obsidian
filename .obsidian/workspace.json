@@ -11,13 +11,52 @@
             "id": "704e5fc1e0359222",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Lottery Ticket Hypothesis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lottery Ticket Hypothesis"
+            }
+          },
+          {
+            "id": "a0e4e5134fa19eb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kullback-Leibler Divergence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kullback-Leibler Divergence"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1280,12 +1319,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1e3d0dd2c2fb1621",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "64d94156231723ee",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 116
+        "currentTab": 118
       },
       {
         "id": "8a022290161ffefa",
@@ -1346,8 +1405,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "704e5fc1e0359222",
+  "active": "a0e4e5134fa19eb5",
   "lastOpenFiles": [
+    "Jonathan Frankle.md",
+    "Lottery Ticket Hypothesis.md",
     "~ Useful Pictures.md",
     "~ Vocabulary.md",
     "Courses/HuggingFaceAgents/Unit 2 LangGraph.md",
@@ -1383,7 +1444,6 @@
     "Iterative Reasoning Preference Optimization.md",
     "Streaming Multiprocessor.md",
     "CUDA.md",
-    "GPU.md",
     "Load",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
