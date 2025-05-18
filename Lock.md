@@ -1,0 +1,6 @@
+---
+aliases:
+  - Locking
+  - Mutex
+  - Semaphore
+---
