@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "34f0b256a137b1e0",
+            "id": "33850ca71f6103e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,11 +152,13 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -600,12 +602,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "740faf1f8742e8ed",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 41
+        "currentTab": 42
       },
       {
         "id": "8a022290161ffefa",
@@ -666,11 +678,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "34f0b256a137b1e0",
+  "active": "33850ca71f6103e9",
   "lastOpenFiles": [
+    "Transport Layer Security.md",
+    "Courses/SystemDesign/SDIAH Core Concepts.md",
     "Courses/SystemDesign/SDIAH Common Patterns.md",
     "Courses/SystemDesign/SDIAH Key Technologies.md",
-    "Courses/SystemDesign/SDIAH Core Concepts.md",
+    "Consistency.md",
+    "Optimistic Concurrency Control.md",
+    "Index.md",
+    "PostgresDB.md",
+    "Change Data Capture.md",
+    "Server-Sent Events.md",
+    "_attachments/Pasted image 20250518130221.png",
+    "Geospatial Index.md",
+    "REST.md",
+    "Projects/Cohere Reasoning/Cohere Project Index.md",
+    "_attachments/Pasted image 20250518123007.png",
+    "Lock.md",
+    "Load Balancing.md",
+    "Horizon.md",
+    "_attachments/Pasted image 20250518115352.png",
     "Courses/SystemDesign/SDIAH Framework.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign/SDIAH Intro.md",
@@ -687,24 +715,9 @@
     "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md",
     "Consistency Regularization.md",
     "Bootstrap Aggregation.md",
-    "Bootstrap.md",
-    "F-Beta Score.md",
-    "Cross-Validation.md",
-    "Jaccard Similarity.md",
-    "Balanced Accuracy.md",
-    "Isolation Forest.md",
-    "Discriminative Learning Rate.md",
-    "Alignment.md",
-    "Prompt Tuning.md",
-    "Chain of Note.md",
-    "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md",
-    "Self-Distillation.md",
     "_attachments/Pasted image 20250419190359.png",
     "_attachments/Pasted image 20250419185521.png",
     "_attachments/Pasted image 20250419184915.png",
-    "_attachments/Pasted image 20250419180543.png",
-    "_attachments/Pasted image 20250419173945.png",
-    "_attachments/Pasted image 20250419161153.png",
     "Courses/HuggingFaceAgents",
     "Papers/RL",
     "Courses/UCSC/NLP202 NLP II",
