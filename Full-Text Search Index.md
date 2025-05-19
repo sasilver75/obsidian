@@ -1,0 +1,4 @@
+---
+aliases:
+  - Full-Text Search
+---
