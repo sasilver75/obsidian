@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33850ca71f6103e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/SystemDesign/SDIAH Core Concepts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SDIAH Core Concepts"
-            }
-          },
-          {
-            "id": "3a65a989c2ed8a87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/SystemDesign/SDIAH Key Technologies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SDIAH Key Technologies"
-            }
-          },
-          {
             "id": "4be9daa24d63925b",
             "type": "leaf",
             "state": {
@@ -77,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "SDIAH Common Patterns"
+            }
+          },
+          {
+            "id": "2affd395dc98bbae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/SystemDesign/SDIAH Key Technologies.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SDIAH Key Technologies"
             }
           }
         ],
@@ -679,10 +655,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3a65a989c2ed8a87",
+  "active": "2affd395dc98bbae",
   "lastOpenFiles": [
-    "Replication.md",
+    "Courses/SystemDesign/SDIAH Common Patterns.md",
+    "_attachments/Pasted image 20250518175647.png",
+    "Courses/SystemDesign/SDIAH Core Concepts.md",
     "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "Replication.md",
     "Partition.md",
     "Publish-Subscribe.md",
     "First-In First-Out.md",
@@ -697,9 +676,7 @@
     "Key-Value Database.md",
     "Hash Map.md",
     "_attachments/Pasted image 20250518133847.png",
-    "Courses/SystemDesign/SDIAH Core Concepts.md",
     "Transport Layer Security.md",
-    "Courses/SystemDesign/SDIAH Common Patterns.md",
     "Consistency.md",
     "Optimistic Concurrency Control.md",
     "Index.md",
@@ -712,12 +689,10 @@
     "Projects/Cohere Reasoning/Cohere Project Index.md",
     "_attachments/Pasted image 20250518123007.png",
     "Lock.md",
-    "Load Balancing.md",
     "_attachments/Pasted image 20250518115352.png",
     "Courses/SystemDesign/Concepts",
     "_attachments/Pasted image 20250510180528.png",
     "_attachments/Pasted image 20250510170635.png",
-    "_attachments/Pasted image 20250510163040.png",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
     "Papers/RL",

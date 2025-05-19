@@ -5,6 +5,14 @@
       "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
     },
     {
+      "basename": "SDIAH Common Patterns",
+      "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
+    },
+    {
+      "basename": "SDIAH Core Concepts",
+      "path": "Courses/SystemDesign/SDIAH Core Concepts.md"
+    },
+    {
       "basename": "Replication",
       "path": "Replication.md"
     },
@@ -49,16 +57,8 @@
       "path": "Hash Map.md"
     },
     {
-      "basename": "SDIAH Core Concepts",
-      "path": "Courses/SystemDesign/SDIAH Core Concepts.md"
-    },
-    {
       "basename": "Transport Layer Security",
       "path": "Transport Layer Security.md"
-    },
-    {
-      "basename": "SDIAH Common Patterns",
-      "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
     },
     {
       "basename": "Consistency",
