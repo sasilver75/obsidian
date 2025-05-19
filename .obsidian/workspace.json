@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/SDIAH Common Patterns.md",
+                "file": "Courses/SystemDesign/SDIAH Networking Essentials.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SDIAH Common Patterns"
+              "title": "SDIAH Networking Essentials"
+            }
+          },
+          {
+            "id": "e4dbe53429bc9c66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internet Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Internet Protocol"
             }
           },
           {
@@ -128,8 +152,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -656,42 +679,43 @@
   },
   "active": "4be9daa24d63925b",
   "lastOpenFiles": [
-    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "_attachments/Pasted image 20250519153749.png",
+    "_attachments/Pasted image 20250519153605.png",
+    "Retry.md",
+    "Courses/SystemDesign/SDIAH Networking Essentials.md",
+    "_attachments/Pasted image 20250519150515.png",
+    "_attachments/Pasted image 20250519145252.png",
+    "_attachments/Pasted image 20250519143736.png",
+    "_attachments/Pasted image 20250519141905.png",
+    "_attachments/Pasted image 20250519141712.png",
+    "_attachments/Pasted image 20250519132201.png",
+    "Internet Protocol.md",
+    "_attachments/Pasted image 20250519130233.png",
+    "_attachments/Pasted image 20250519125936.png",
     "Courses/SystemDesign/SDIAH Common Patterns.md",
-    "_attachments/Pasted image 20250518175647.png",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "_attachments/Pasted image 20250519124001.png",
+    "Kafka.md",
+    "Recommendation System.md",
     "Courses/SystemDesign/SDIAH Core Concepts.md",
     "Replication.md",
     "Partition.md",
     "Publish-Subscribe.md",
     "First-In First-Out.md",
-    "_attachments/Pasted image 20250518153646.png",
     "Full-Text Search Index.md",
-    "_attachments/Pasted image 20250518141218.png",
     "Content Distribution Network.md",
     "Blob Storage.md",
     "Eventual Consistency.md",
     "Sharding.md",
-    "_attachments/Pasted image 20250518135453.png",
     "Key-Value Database.md",
     "Hash Map.md",
-    "_attachments/Pasted image 20250518133847.png",
     "Transport Layer Security.md",
     "Consistency.md",
     "Optimistic Concurrency Control.md",
     "Index.md",
     "PostgresDB.md",
     "Change Data Capture.md",
-    "Server-Sent Events.md",
-    "_attachments/Pasted image 20250518130221.png",
-    "Geospatial Index.md",
-    "REST.md",
-    "Projects/Cohere Reasoning/Cohere Project Index.md",
-    "_attachments/Pasted image 20250518123007.png",
-    "Lock.md",
-    "_attachments/Pasted image 20250518115352.png",
     "Courses/SystemDesign/Concepts",
-    "_attachments/Pasted image 20250510180528.png",
-    "_attachments/Pasted image 20250510170635.png",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
     "Papers/RL",

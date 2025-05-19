@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "Retry",
+      "path": "Retry.md"
+    },
+    {
+      "basename": "Internet Protocol",
+      "path": "Internet Protocol.md"
+    },
+    {
       "basename": "SDIAH Common Patterns",
       "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
     },
     {
       "basename": "SDIAH Key Technologies",
       "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "Kafka",
+      "path": "Kafka.md"
+    },
+    {
+      "basename": "Recommendation System",
+      "path": "Recommendation System.md"
     },
     {
       "basename": "SDIAH Core Concepts",
@@ -179,26 +199,6 @@
     {
       "basename": "Prompt Tuning",
       "path": "Prompt Tuning.md"
-    },
-    {
-      "basename": "Chain of Note",
-      "path": "Chain of Note.md"
-    },
-    {
-      "basename": "TinyML (5) - Quantization part 1",
-      "path": "Courses/Machine Learning/TinyML and Efficient Deep Learning @ MIT (2023)/TinyML (5) - Quantization part 1.md"
-    },
-    {
-      "basename": "Self-Distillation",
-      "path": "Self-Distillation.md"
-    },
-    {
-      "basename": "Context Distillation",
-      "path": "Context Distillation.md"
-    },
-    {
-      "basename": "Pre-text Training",
-      "path": "Pre-text Training.md"
     }
   ],
   "omittedPaths": [],
