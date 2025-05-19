@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "SDIAH Key Technologies",
+      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "Replication",
+      "path": "Replication.md"
+    },
+    {
+      "basename": "Partition",
+      "path": "Partition.md"
+    },
+    {
+      "basename": "Publish-Subscribe",
+      "path": "Publish-Subscribe.md"
+    },
+    {
+      "basename": "First-In First-Out",
+      "path": "First-In First-Out.md"
+    },
+    {
+      "basename": "Full-Text Search Index",
+      "path": "Full-Text Search Index.md"
+    },
+    {
+      "basename": "Content Distribution Network",
+      "path": "Content Distribution Network.md"
+    },
+    {
+      "basename": "Blob Storage",
+      "path": "Blob Storage.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
+      "basename": "Key-Value Database",
+      "path": "Key-Value Database.md"
+    },
+    {
+      "basename": "Hash Map",
+      "path": "Hash Map.md"
+    },
+    {
       "basename": "SDIAH Core Concepts",
       "path": "Courses/SystemDesign/SDIAH Core Concepts.md"
     },
@@ -11,10 +59,6 @@
     {
       "basename": "SDIAH Common Patterns",
       "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
-    },
-    {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
     },
     {
       "basename": "Consistency",
@@ -155,50 +199,6 @@
     {
       "basename": "Pre-text Training",
       "path": "Pre-text Training.md"
-    },
-    {
-      "basename": "Boosting",
-      "path": "Boosting.md"
-    },
-    {
-      "basename": "Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}",
-      "path": "Articles/Zero and Few-Shot Text Retrieval and Ranking Using LLMs (March 16, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation for Large Language Models - A Survey",
-      "path": "Papers/IR and RAG/Retrieval-Augmented Generation for Large Language Models - A Survey.md"
-    },
-    {
-      "basename": "HyQE",
-      "path": "HyQE.md"
-    },
-    {
-      "basename": "Product Quantization",
-      "path": "Product Quantization.md"
-    },
-    {
-      "basename": "Promptagator",
-      "path": "Promptagator.md"
-    },
-    {
-      "basename": "chrF",
-      "path": "chrF.md"
-    },
-    {
-      "basename": "Contrastive Decoding",
-      "path": "Contrastive Decoding.md"
-    },
-    {
-      "basename": "Scheduled Sampling",
-      "path": "Scheduled Sampling.md"
-    },
-    {
-      "basename": "Noise-Contrastive Estimation",
-      "path": "Noise-Contrastive Estimation.md"
-    },
-    {
-      "basename": "Test-Time Augmentation",
-      "path": "Test-Time Augmentation.md"
     }
   ],
   "omittedPaths": [],
