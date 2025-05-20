@@ -43,7 +43,7 @@ While you can run Redis on a single node (in a single thread), it can basically 
 	- **==PATTERN==**: With Redis, one of the simple patterns is to simply append a random number to the key, such that you write that key to multiple hosts, and you can read it from multiple hosts!
 		- This provides a crude way to distribute the load across the cluster. If you're thinking about how you scale Redis, you should be thinking about your key space -- this is essential to how you reason about Redis scaling. 
 
-Use Cases:
+## Use Case: ==Caching==
 - The most common use of Redis is to use it like a [[Cache]]. 
 	- You might have a database where you need to make heavy queries; maybe they're analytics queries, maybe it's a search index, whatever.
 	- We create a Redis Cache off to the side, and our service needing data:
@@ -54,6 +54,7 @@ Use Cases:
 - We need to make sure that our Cache is spreading out the **LOAD** amongst all of the instances stored inside of it, as much as possible.
 	- In Redis, the way we do this is to assign keys. We might append values to our keys such that we are evenly distributing requests among all of our Redis caches. 
 	- ((Something that they're not explaining is how this appending really works. I get that we append some data to our key (eg our eventId), then hash it and modulo it, and adding this extra information to hot keys will result in the writes being more evenly distributed... but later when I want to get all of the data in my cache for HotKey 123, how do I know where to look? I don't know what random bits of shit I've been appending on every write for HotKey 123! They aren't explaining that yet.))
+		- ((The comments seem to say on Youtube that you have to keep track of which keys are "hot" (and thus sharded using the extra character) via some separate metadata, and during query time, if it's a hot key, aggregation is done over all the shards))... ((Another comment says that you can use the KEYS wildcard to get the key, and the random suffix doesn't matter))...((Another comment says you don't append a completely random number, instead appending a random number in a range of 1-10, and then when you read, you try all those numbers and fanout; this is a standard technique))
 
 - Another thing to consider for all Caches are [[Expiration Policy|Expiration Policies]]:
 	- The most common way to use redis is to use the EXPIRE command or to attach arguments to your SET and GET operations... such that after a certain amount of time, that item will no longer be readable.
@@ -61,6 +62,7 @@ Use Cases:
 	- Another way to configure Redis is in its [[Least Recently Used]] (LRU) setting
 		- In this version, you'll continue to be able to append keys into your Cache indefinitely until you run out of memory, at which point Redis will evict the least recently used keys. In many cases this is a drop-in replacement for [[Memcached]].
 
+## Use Case: ==Rate Limiter==
 - Another way to use Redis is as a [[Rate Limiting|Rate Limiter]]. 
 ![[Pasted image 20250520103534.png]]
 - Say that we have an expensive service, and we want to guard this expensive service from getting lots of requests; maybe the downstream can only accept 5 requests every 60 seconds.
@@ -73,7 +75,7 @@ Use Cases:
 	- Keep in mind that there are a lot of logistics that can go into this depending on the needs of your system; sometimes something simple is great.
 
 
-## Data Structures: Streams
+## Data Structures: ==Streams==
 - The most powerful and most complicated primitive that Redis offers is its [[Stream]].
 	- (See the Kafka post on the utility of disitrubted append-only logs in distributed system design).
 - Imagine ==Redis Streams== as being ordered lists of items
@@ -83,6 +85,7 @@ Use Cases:
 - In Redis:
 	- We create a [[Stream]] in Redis to store these items. We put items into this stream as they're created.
 	- We create a [[Consumer Group]],  which you can think of as a pointer in a stream that defines "where we're at". A consumer group keeps track of where in the stream it has to keep processing.
+		- ((Note that a consumer group is a Redis primitive to keep track of where we are in the stream; it exists on Redis. The workers however are separate machines))
 	- Worker processes can query the Consumer Group for unallocated items; If a worker asks for a piece of work and the CG is pointing at Item 2 and no workers have picked it up, that item is allocated to the worker.
 	- Redis has a concept of **claiming**: At any given moment, only one worker can have a **claim** on an item in the consumer group ((stream?)). If the worker fails for any reason, that item can be reclaimed by the consumer group and reallocated to another worker.
 		- So the idea of a Redis stream is that it **gives you a way to distribute work among workers in a way that's fault tolerant (partially, since you have the usual caveats about Redis) and very fast.**
@@ -94,7 +97,7 @@ You need to be able to handle [[Failure]]s in Redis
 	- Typically, **Worker** processes, while they're processing an item, are also heartbeating back to the consumer group to tell it that "Hey, I'm still working on this!" This way the consumer group isn't snatching back the work item before the workeer has had a chance to finish it.
 	- **==WARN:==** But if a worker loses connection to a consumer group, it might continue to process an item while the consumer group reclaims it and hands it off to another worker! So the behavior here is an [[At Least Once]] processing guarantee, which might be fine for your use case.
 
-## Data Structures: Sorted Sets
+## Data Structures: ==Sorted Sets==
 
 Example Use Case: **==Keeping a leaderboard of the Top 5 Most-Liked Tweets that contain the word "Tiger"==**
 - The ==SortedSet== commands in Redis all start with Z, and their syntax is quite simple:
@@ -116,7 +119,7 @@ If we want it to sit on multiple nodes, we need to keep multiple sorted sets, an
 - So we take a hash of the twee id, and keep a sorted set of the items that end up at the same node... when we then want to query this, we have to query all of  sorted sets across our cluster (issuing e.g. 16 queries for 16 shards) and then combining the results. 
 - This isn't that big a deal, because Redis is pretty fast, but there are certainly limitations.
 
-## Data Structures: Geospatial Indices
+## Data Structures: ==Geospatial Indices==
  ![[Pasted image 20250520113647.png]]
 - [[Geospatial Index]]es are implemented in Redis in a very useful way!
 - The use cases for this vary:
@@ -138,10 +141,32 @@ If we want it to sit on multiple nodes, we need to keep multiple sorted sets, an
 	- Can break this out by Continent, if we don't need to do cross-continent lookups (or if I'm by the border, I'll query two, e.g. North America and South America)
 
 
-### Capability: Pub Sub
+### Use Case: ==Pub Sub==
 - [[Publish-Subscribe|Pub Sub]] solves for teh unique instance where your services need to be able to address eachother in some sort of reasonable fashion. 
 - ![[Pasted image 20250520114636.png]]
 - The canonical example of this would be a Chatroom, where User 1 is connected to Server A, and they need to message User 3, who's connected to Server C. How does Server A know that User 3 is on Server C?
-	- This is an instance of "Which "
-- 
- 
+	- This question of "Which shard/server is my data on" might famously be handled by [[Consistent Hashing]], using a hash ring.
+		- There's a bunch of incremental problems that happen with these hash rings; notably that it's hard to manage the balance between servers, and scaling them up and down requires a bunch of careful orchestration with a service like [[ZooKeeper]].
+- Redis has the idea of [[Publish-Subscribe|Pub Sub]], where servers can connect to Redis and announce a publication they'll be making. On that topic, other servers can subscribe! 
+	- So User 1 connects to Server A, and Server A tells Redis "I have User 1. Any messages sent to the topic for User 1 should come back to me!". Server C does the same thing with User 3.
+	- When Server A wants to send a message to Server C such that User 3 gets it, it will **publish** to the topic of **user_3**. 
+		- ==WARN:== Note that Redis PubSub is [[At Most Once]] delivery! So the idea is that the message *might get to a user* and *might not!* So if you need to guarantee that messages eventually arrive, you'll have to try something else. But Redis PubSub is very fast! It operates on a single box, and can scale quite well.
+		- This allows us to... if we wanted to, swap User1 and User3 (they could connect to different hosts), and Redis could be the registry that knew which hosts that each user was connected to. This is something that's a little harder to pull off with a consistent hash ring. 
+		- If Server A were to go down, we can migrate User 3 to Server B quite quickly, because Server B wlil register its publication to that topic, and for a while, the messages will go to Server a and Server B, but will eventually get their way to user 3 on Server B. The **WhatsApp** key on the site talks about some of this stuff in depth. 
+
+### Use Case: ==Distributed Lock==
+- A common use case of [[Redis]] is SD settings is as a [[Distributed Lock]].
+	- Occasionally we have data in our system where we need to maintain consistency during updates (e.g. Design TicketMaster), or when we need to make sure that multiple people aren't performing an action at the same time (e.g. Design Uber).
+- In Redis, a simple ==distributed lock with timeout== might use the atomic increment (`INCR`) with a TTL.
+	- When we want to try to acquire the lock, we run `INCR`. If the response is 1, we own the lock and proceed. If the response is > 1 (i.e. someone else had the lock), we wait and retry again later. When we're done with the lock, we can `DEL` the key so that other processes can make use of it (rather than sit there retrying and waiting for the TTL to expire).
+	- More sophisticated locks in Redis can use the [[Redlock Algorithm]] described [here](https://redis.io/docs/latest/develop/use/patterns/distributed-locks/#the-redlock-algorithm)
+
+
+## Use Case: ==Rate Limiting== (Oops, covered above too)
+- A wide variety of rate limiting algorithms are possible. A common algorithm is a fixed-window rate limiter where we guarantee that the number of requests does not exceed N over some fixed window of time W.
+- In Redis:
+	- When a request comes in, we `INCR` the keey for our rate limiter and check the response.
+		- If the response is greater than N, we wait. If it's less than N, we proceed.
+		- We call `EXPIRE` on our key so that after some time period `W`, the value is reset.
+			- ((If we look at our previous explanation, it doesn't seem like we reset a timer after every request or anything like that.))
+
