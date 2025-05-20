@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/SDIAH Networking Essentials.md",
+                "file": "gRPC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SDIAH Networking Essentials"
+              "title": "gRPC"
             }
           },
           {
@@ -78,8 +78,33 @@
               "icon": "lucide-file",
               "title": "SDIAH Key Technologies"
             }
+          },
+          {
+            "id": "858163111d545c50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Consistent Hashing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Consistent Hashing"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -677,12 +702,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4be9daa24d63925b",
+  "active": "858163111d545c50",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250519174021.png",
+    "Eventual Consistency.md",
+    "Consistent Hashing.md",
+    "Read-your-Writes Consistency.md",
+    "Causal Consistency.md",
+    "Strong Consistency.md",
+    "Distributed Transaction.md",
+    "ACID.md",
+    "CAP Theorem.md",
+    "_attachments/Pasted image 20250519162604.png",
+    "Network Address Translation.md",
+    "WebRTC.md",
+    "gRPC.md",
+    "HTTPS.md",
+    "Courses/SystemDesign/SDIAH Networking Essentials.md",
+    "_attachments/Pasted image 20250519155039.png",
     "_attachments/Pasted image 20250519153749.png",
     "_attachments/Pasted image 20250519153605.png",
     "Retry.md",
-    "Courses/SystemDesign/SDIAH Networking Essentials.md",
     "_attachments/Pasted image 20250519150515.png",
     "_attachments/Pasted image 20250519145252.png",
     "_attachments/Pasted image 20250519143736.png",
@@ -690,11 +730,8 @@
     "_attachments/Pasted image 20250519141712.png",
     "_attachments/Pasted image 20250519132201.png",
     "Internet Protocol.md",
-    "_attachments/Pasted image 20250519130233.png",
-    "_attachments/Pasted image 20250519125936.png",
     "Courses/SystemDesign/SDIAH Common Patterns.md",
     "Courses/SystemDesign/SDIAH Key Technologies.md",
-    "_attachments/Pasted image 20250519124001.png",
     "Kafka.md",
     "Recommendation System.md",
     "Courses/SystemDesign/SDIAH Core Concepts.md",
@@ -703,18 +740,6 @@
     "Publish-Subscribe.md",
     "First-In First-Out.md",
     "Full-Text Search Index.md",
-    "Content Distribution Network.md",
-    "Blob Storage.md",
-    "Eventual Consistency.md",
-    "Sharding.md",
-    "Key-Value Database.md",
-    "Hash Map.md",
-    "Transport Layer Security.md",
-    "Consistency.md",
-    "Optimistic Concurrency Control.md",
-    "Index.md",
-    "PostgresDB.md",
-    "Change Data Capture.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

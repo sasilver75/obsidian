@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Consistent Hashing",
+      "path": "Consistent Hashing.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
+      "basename": "Read-your-Writes Consistency",
+      "path": "Read-your-Writes Consistency.md"
+    },
+    {
+      "basename": "Causal Consistency",
+      "path": "Causal Consistency.md"
+    },
+    {
+      "basename": "Strong Consistency",
+      "path": "Strong Consistency.md"
+    },
+    {
+      "basename": "Distributed Transaction",
+      "path": "Distributed Transaction.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "ACID.md"
+    },
+    {
+      "basename": "CAP Theorem",
+      "path": "CAP Theorem.md"
+    },
+    {
+      "basename": "Network Address Translation",
+      "path": "Network Address Translation.md"
+    },
+    {
+      "basename": "WebRTC",
+      "path": "WebRTC.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "gRPC.md"
+    },
+    {
+      "basename": "HTTPS",
+      "path": "HTTPS.md"
+    },
+    {
       "basename": "SDIAH Networking Essentials",
       "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
     },
@@ -59,10 +107,6 @@
     {
       "basename": "Blob Storage",
       "path": "Blob Storage.md"
-    },
-    {
-      "basename": "Eventual Consistency",
-      "path": "Eventual Consistency.md"
     },
     {
       "basename": "Sharding",
@@ -155,50 +199,6 @@
     {
       "basename": "Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
       "path": "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
-    },
-    {
-      "basename": "Consistency Regularization",
-      "path": "Consistency Regularization.md"
-    },
-    {
-      "basename": "Bootstrap Aggregation",
-      "path": "Bootstrap Aggregation.md"
-    },
-    {
-      "basename": "Bootstrap",
-      "path": "Bootstrap.md"
-    },
-    {
-      "basename": "F-Beta Score",
-      "path": "F-Beta Score.md"
-    },
-    {
-      "basename": "Cross-Validation",
-      "path": "Cross-Validation.md"
-    },
-    {
-      "basename": "Jaccard Similarity",
-      "path": "Jaccard Similarity.md"
-    },
-    {
-      "basename": "Balanced Accuracy",
-      "path": "Balanced Accuracy.md"
-    },
-    {
-      "basename": "Isolation Forest",
-      "path": "Isolation Forest.md"
-    },
-    {
-      "basename": "Discriminative Learning Rate",
-      "path": "Discriminative Learning Rate.md"
-    },
-    {
-      "basename": "Alignment",
-      "path": "Alignment.md"
-    },
-    {
-      "basename": "Prompt Tuning",
-      "path": "Prompt Tuning.md"
     }
   ],
   "omittedPaths": [],
