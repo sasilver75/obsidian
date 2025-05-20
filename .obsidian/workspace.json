@@ -54,57 +54,8 @@
               "icon": "lucide-file",
               "title": "Internet Protocol"
             }
-          },
-          {
-            "id": "2affd395dc98bbae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/SystemDesign/SDIAH Key Technologies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SDIAH Key Technologies"
-            }
-          },
-          {
-            "id": "858163111d545c50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Consistent Hashing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Consistent Hashing"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +128,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -636,12 +588,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "00defff5b47a9219",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 42
+        "currentTab": 43
       },
       {
         "id": "8a022290161ffefa",
@@ -702,11 +664,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "858163111d545c50",
+  "active": "4be9daa24d63925b",
   "lastOpenFiles": [
+    "Internet Protocol.md",
+    "Untitled 8.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "Redis.md",
+    "Consistent Hashing.md",
+    "_attachments/Pasted image 20250519180105.png",
+    "_attachments/Pasted image 20250519175935.png",
+    "_attachments/Pasted image 20250519175916.png",
+    "_attachments/Pasted image 20250519175828.png",
     "_attachments/Pasted image 20250519174021.png",
     "Eventual Consistency.md",
-    "Consistent Hashing.md",
     "Read-your-Writes Consistency.md",
     "Causal Consistency.md",
     "Strong Consistency.md",
@@ -724,14 +694,7 @@
     "_attachments/Pasted image 20250519153605.png",
     "Retry.md",
     "_attachments/Pasted image 20250519150515.png",
-    "_attachments/Pasted image 20250519145252.png",
-    "_attachments/Pasted image 20250519143736.png",
-    "_attachments/Pasted image 20250519141905.png",
-    "_attachments/Pasted image 20250519141712.png",
-    "_attachments/Pasted image 20250519132201.png",
-    "Internet Protocol.md",
     "Courses/SystemDesign/SDIAH Common Patterns.md",
-    "Courses/SystemDesign/SDIAH Key Technologies.md",
     "Kafka.md",
     "Recommendation System.md",
     "Courses/SystemDesign/SDIAH Core Concepts.md",
@@ -739,7 +702,6 @@
     "Partition.md",
     "Publish-Subscribe.md",
     "First-In First-Out.md",
-    "Full-Text Search Index.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
