@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Redis",
-      "path": "Redis.md"
+      "basename": "ElasticSearch",
+      "path": "ElasticSearch.md"
+    },
+    {
+      "basename": "Consensus",
+      "path": "Consensus.md"
+    },
+    {
+      "basename": "Vector Search",
+      "path": "Vector Search.md"
+    },
+    {
+      "basename": "Replication",
+      "path": "Replication.md"
     },
     {
       "basename": "Internet Protocol",
       "path": "Internet Protocol.md"
     },
     {
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
       "basename": "Expiration Policy",
       "path": "Expiration Policy.md"
     },
     {
-      "basename": "Sharding",
-      "path": "Sharding.md"
+      "basename": "Redis",
+      "path": "Redis.md"
     },
     {
       "basename": "Rate Limiting",
@@ -101,10 +117,6 @@
       "path": "Courses/SystemDesign/SDIAH Core Concepts.md"
     },
     {
-      "basename": "Replication",
-      "path": "Replication.md"
-    },
-    {
       "basename": "Partition",
       "path": "Partition.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "SDIAH Framework",
       "path": "Courses/SystemDesign/SDIAH Framework.md"
-    },
-    {
-      "basename": "SDIAH Intro",
-      "path": "Courses/SystemDesign/SDIAH Intro.md"
-    },
-    {
-      "basename": "Jensen's Inequality",
-      "path": "Jensen's Inequality.md"
-    },
-    {
-      "basename": "Least-Squares",
-      "path": "Least-Squares.md"
     }
   ],
   "omittedPaths": [],

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4be9daa24d63925b",
+            "id": "8cdf31e3d99192a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis.md",
+                "file": "ElasticSearch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,79 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Redis"
-            }
-          },
-          {
-            "id": "aa781c467511b9fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Expiration Policy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Expiration Policy"
-            }
-          },
-          {
-            "id": "ac24e48511a52700",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sharding.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sharding"
-            }
-          },
-          {
-            "id": "e4dbe53429bc9c66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internet Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Internet Protocol"
+              "title": "ElasticSearch"
             }
           }
         ]
@@ -712,28 +640,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4be9daa24d63925b",
+  "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20250520114636.png",
-    "_attachments/Pasted image 20250520113647.png",
+    "Consensus.md",
+    "ElasticSearch.md",
+    "_attachments/Pasted image 20250520145756.png",
+    "Vector Search.md",
+    "Replication.md",
+    "_attachments/Pasted image 20250520144832.png",
+    "_attachments/Pasted image 20250520143431.png",
+    "_attachments/Pasted image 20250520142121.png",
+    "_attachments/Pasted image 20250520141749.png",
+    "_attachments/Pasted image 20250520141521.png",
+    "_attachments/Pasted image 20250520141105.png",
+    "_attachments/Pasted image 20250520140846.png",
+    "_attachments/Pasted image 20250520140549.png",
+    "_attachments/Pasted image 20250520140325.png",
     "Internet Protocol.md",
-    "Redis.md",
-    "Expiration Policy.md",
     "Sharding.md",
-    "_attachments/Pasted image 20250520110118.png",
-    "_attachments/Pasted image 20250520103534.png",
+    "Expiration Policy.md",
+    "Redis.md",
     "Rate Limiting.md",
-    "_attachments/Pasted image 20250520102946.png",
-    "_attachments/Pasted image 20250520102945.png",
-    "_attachments/Pasted image 20250520101727.png",
-    "_attachments/Pasted image 20250520101542.png",
     "gRPC.md",
     "Untitled 8.md",
     "Courses/SystemDesign/SDIAH Key Technologies.md",
     "Consistent Hashing.md",
-    "_attachments/Pasted image 20250519180105.png",
-    "_attachments/Pasted image 20250519175935.png",
-    "_attachments/Pasted image 20250519175916.png",
     "Eventual Consistency.md",
     "Read-your-Writes Consistency.md",
     "Causal Consistency.md",
@@ -747,9 +678,6 @@
     "Courses/SystemDesign/SDIAH Networking Essentials.md",
     "Retry.md",
     "Courses/SystemDesign/SDIAH Common Patterns.md",
-    "Kafka.md",
-    "Recommendation System.md",
-    "Courses/SystemDesign/SDIAH Core Concepts.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
