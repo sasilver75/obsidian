@@ -178,9 +178,28 @@ Inside the Lucene Segments,we need to store all of our documents.
 - Lucene uses several techniques to pull them off, one of which is an [[Inverted Index]].
 ![[Pasted image 20250520145756.png]]
 
+Let's consider how the data is arranged in memory
+- Option 1: What we'd do in a SQL database, where each of these rows are stored contiguously, and ewe have structs representing each of these inputs.
+	- ![[Pasted image 20250520145856.png]]
+	- My table is an "array" of these "rows". It's easy to get the entirety of a row, given an identifier! In SQL databases and other transactional databases this is a common operation.
+- Option 2: We might not even care about the title or author in our query, we just want to do queries about prices. In this case, we might consider a columnar store.
+	- ![[Pasted image 20250520150130.png]]
+	- This allows us to get a small number of field values across ALL of the documents very quickly, since all of the prices are stored contiguously in memory.
 
 
+... 
 
+## Re-Overview
+Let's now step back and understand the entire onion, talking about how documents are ingested into a cluster and how they're made searchable
+
+![[Pasted image 20250520150626.png]]
+- Client sends document to an **Ingestion Node**, which runs a pipeline and passes the document to a **Data Node**.
+- Once the **Data Node** has received/indexed the document, it sends an acknowledgement back to the Ingestion Node so that it can confirm back to the client: "Hey, that document has been received."
+- On that **Data Node**, we'll add that document to a Lucene Index; That might result in the creation of a Lucene **Segment**.
+- At search time, our clients contact a **Coordinating Node**; the node parses the query, makes a plan for how to access the data (which shards it relies on), and then passes the query to the relevant data nodes, who pass that data to their relevant Lucene Indexes, which use features like inverted indices to filter and sort the results before returning them back up the stack.
+- The **Data Nodes** then return these partial results to the **Coordinating Node**, which *merges* the results and returns them back to the user.
+
+So we might be querying multiple shards, sending queries to various replicas, and in the Lucene indexes, we can be parallelizing the search using multiple CPUs.
 
 
 
