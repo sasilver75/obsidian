@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "gRPC",
+      "path": "gRPC.md"
+    },
+    {
+      "basename": "Internet Protocol",
+      "path": "Internet Protocol.md"
+    },
+    {
+      "basename": "Untitled 8",
+      "path": "Untitled 8.md"
+    },
+    {
+      "basename": "SDIAH Key Technologies",
+      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
       "basename": "Consistent Hashing",
       "path": "Consistent Hashing.md"
     },
@@ -41,10 +61,6 @@
       "path": "WebRTC.md"
     },
     {
-      "basename": "gRPC",
-      "path": "gRPC.md"
-    },
-    {
       "basename": "HTTPS",
       "path": "HTTPS.md"
     },
@@ -57,16 +73,8 @@
       "path": "Retry.md"
     },
     {
-      "basename": "Internet Protocol",
-      "path": "Internet Protocol.md"
-    },
-    {
       "basename": "SDIAH Common Patterns",
       "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
-    },
-    {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
     },
     {
       "basename": "Kafka",
@@ -191,14 +199,6 @@
     {
       "basename": "De Morgan's Law of Union",
       "path": "De Morgan's Law of Union.md"
-    },
-    {
-      "basename": "Concept Shift",
-      "path": "Concept Shift.md"
-    },
-    {
-      "basename": "Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}",
-      "path": "Articles/Learning with not Enough Data  Part 1 - Semi-Supervised Learning (Dec 5, 2021) {Lillian Wang}.md"
     }
   ],
   "omittedPaths": [],
