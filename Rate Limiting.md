@@ -1,4 +1,4 @@
 ---
 aliases:
-  - Shard
+  - Rate Limiter
 ---

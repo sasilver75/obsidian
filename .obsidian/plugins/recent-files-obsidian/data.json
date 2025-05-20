@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "gRPC",
-      "path": "gRPC.md"
+      "basename": "Redis",
+      "path": "Redis.md"
     },
     {
       "basename": "Internet Protocol",
       "path": "Internet Protocol.md"
+    },
+    {
+      "basename": "Expiration Policy",
+      "path": "Expiration Policy.md"
+    },
+    {
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
+      "basename": "Rate Limiting",
+      "path": "Rate Limiting.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "gRPC.md"
     },
     {
       "basename": "Untitled 8",
@@ -15,10 +31,6 @@
     {
       "basename": "SDIAH Key Technologies",
       "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Redis.md"
     },
     {
       "basename": "Consistent Hashing",
@@ -117,10 +129,6 @@
       "path": "Blob Storage.md"
     },
     {
-      "basename": "Sharding",
-      "path": "Sharding.md"
-    },
-    {
       "basename": "Key-Value Database",
       "path": "Key-Value Database.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Least-Squares",
       "path": "Least-Squares.md"
-    },
-    {
-      "basename": "Gibbs Sampling",
-      "path": "Gibbs Sampling.md"
-    },
-    {
-      "basename": "De Morgan's Law of Union",
-      "path": "De Morgan's Law of Union.md"
     }
   ],
   "omittedPaths": [],
