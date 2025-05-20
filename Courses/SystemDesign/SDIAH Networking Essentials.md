@@ -24,6 +24,20 @@ The [[Transport Layer]] provides additional functinoality on top of IP, like gua
 At the very top of the stack is the [[Application Layer]], where Layer 7 protocols like [[HTTP]] and [[Websockets]] exist. These are important to you as a developer, and important in navigating tradeoffs in how your system functions and what capabilities it has.
 
 ![[Pasted image 20250519130233.png]]
+- Above:
+	- The client starts by resolving the domain name of the website to an IP address using [[DNS]] (DNS Resolution)
+	- [[TCP]] Handshake: The client initiates a TCP connection with the server using a three-way handshake:
+		- client sends a SYN, server responds with SYN-ACK, client sends ACK and establishes a connection
+	- HTTP Requests
+	- Server Processing
+	- HTTP response
+	- TCP Teardown: After the data transfer is complete, the client and server close the TCP connection using a four-way handshake
+		- client sends FIN packet to server to terminate connection
+		- server acknowledges the FIN packet with an ACK
+		- server sends a FIN packet to client to terminate its side of the connection
+		- client acknowledges the server's FIN packet with an ACK.
+			- ((Does the server receive this, given that it's terminated its connection?... How does this work?))
+
 When the [[TCP]] connection is initially established, we do a TCP handshake (Syn, SynAck, Ack), then our TCP connection is established, and we can submit requests across that TCP connection/stream.
 - See that hte layers are building on eachother.
 	- The HTTP layer depends on the TCP connection being established
@@ -31,6 +45,10 @@ When the [[TCP]] connection is initially established, we do a TCP handshake (Syn
 
 **NOTE:** See that there's a lot of back and forth here, which incurs **latency**.
 **NOTE:** See also that we have STATE established here; we have a connection, and that connection is later terminated! We'lll see later about how to manage thsi state in our design.
+
+
+![[Pasted image 20250519155039.png]]
+
 
 -----------
 
