@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ElasticSearch.md",
+                "file": "Courses/SystemDesign/SDIAH Numbers to Know.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ElasticSearch"
+              "title": "SDIAH Numbers to Know"
             }
           }
         ]
@@ -104,13 +104,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -642,8 +640,14 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
-    "Consensus.md",
+    "_attachments/Pasted image 20250520155119.png",
+    "~ Vocabulary.md",
+    "Courses/SystemDesign/SDIAH Numbers to Know.md",
     "ElasticSearch.md",
+    "_attachments/Pasted image 20250520150626.png",
+    "_attachments/Pasted image 20250520150130.png",
+    "_attachments/Pasted image 20250520145856.png",
+    "Consensus.md",
     "_attachments/Pasted image 20250520145756.png",
     "Vector Search.md",
     "Replication.md",
@@ -653,9 +657,6 @@
     "_attachments/Pasted image 20250520141749.png",
     "_attachments/Pasted image 20250520141521.png",
     "_attachments/Pasted image 20250520141105.png",
-    "_attachments/Pasted image 20250520140846.png",
-    "_attachments/Pasted image 20250520140549.png",
-    "_attachments/Pasted image 20250520140325.png",
     "Internet Protocol.md",
     "Sharding.md",
     "Expiration Policy.md",
@@ -675,9 +676,6 @@
     "Network Address Translation.md",
     "WebRTC.md",
     "HTTPS.md",
-    "Courses/SystemDesign/SDIAH Networking Essentials.md",
-    "Retry.md",
-    "Courses/SystemDesign/SDIAH Common Patterns.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
