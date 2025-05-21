@@ -14,23 +14,31 @@ Four Sections:
 
 # Overview
 - Terminology Introduced:
-	- **==Broker==**: A server (physical or virtual) that hold the "queue."
-	- **==Partition==**: The "queue". An ordered, immutable sequence of messages that we append to, like a log file. Each broker can host multiple partitions. A *physical* grouping of messages.
-	- ==**Topic**==: A logical grouping of partitions. You can publish to and consume from Topics in Kafka. A *logical* grouping of messages (across physical/virtual servers, each hosting a partition for a given topic).
+	- **==Broker==**: A server (physical or virtual) that hold the "queue." Each broker is responsible for storing data and serving clients; The more brokers, the more data we can store and the more clients we can serve.
+	- **==Partition==**: The "queue". An ordered, immutable sequence of messages that we append to, like a log file. Each broker can host multiple partitions. A *physical* grouping of messages. Each broker has a number of partitions, which are ordered, immutable sequence of messages that are continually appended to: Think of a log file! Partitions are the way Kafka scales, allowing for messages to be consumed in parallel. ==Each partition functions essentially as an append-only log file!== This log is **immutable**, so that messages cannot be altered or deleted, which simplifies replication, speeds up recovery, and avoids consistency issues. The simplicity of the append-only log facilitates horizontal scaling; more partitions can be added and distributed across a cluster of brokers to handle incerasing loads, and each partitions can be replicated across multiple brokers to enhance fault tolerance.
+		- Each partition has a designated **leader replica**, which resides on a broker. This leader replica is responsible for **handling all READ and WRITE requests for the partition**! The assignment of the leader replica is managed centrally by the cluster controller, which ensures that each partition's leader replica is effectively distributed across the cluster to balance the load.
+		- Alongside the leader replica, several **follower replicas** exist for each partition, residing on different brokers. These **followers don't handle direct client requests**, instead passively replicating data from the leader replica. They're ready to take over, should the leader replica fail. Followers continuously synchronize with the leader replica to make sure they have the latest set of messages appended to heir partition log.
+		- The **Controller** in the Kafka cluster manages this replication process, as well as monitors the health of all brokers and manages the leadership and replication dynamics. **When a broker fails, the controller reassigns the leadership role to one of the in-sync follower replicas** to ensure continued availability of the partition.
+	- ==**Topic**==: A logical grouping of partitions. You can publish to and consume from Topics in Kafka. A *logical* grouping of messages (across physical/virtual servers, each hosting a partition for a given topic). When you publish a message, you publish it to a topic, and when you consume a message, you can consume from a topic. Topics are always multi-producer, wit ha topic having zero, one, or more producers that write data to it.
 	- ==**Producers**==: Write messages/records to Topics.
-	- ==**Consumers**==: Read messages/records off of Topics.
+	- ==**Consumers**==: Read messages/records off of Topics. Consumers read message from Kafka topics using a **pull-based** model, unlike some messaging systems that *push* data to consumers. Kafka consumers actively [[Poll]] the broker for new messages at intervals that they control. This pull-based system allows consumers to control their own consumption rate, simplifying failure handling and preventing overload of slow consumers. If a consumer were to go down and restart, it reads its last committed offset from Kafka and resumes processing from there, ensuring no messages are missed or duplicated.
+		- Note that in a Consumer Group, each Topic Partition is consumed by a single Consumer. Each Topic Partition is guaranteed to be processed in order, but events across partitions for a given topic (i.e. "events in a topic") are NOT guaranteed to be processed in the order that they're published!
+		- So every Consumer has 1+ Partitions from a Topic assigned to it (and afaik might even process multiple Topics if you want). If a Consumer goes down, its assigned Topic Partitions will be reassigned by Kafka to the other Consumers in the Cluster. When a Consumer comes back to life, it reads the latest Offsets for its assigned Partitions and continues from there.
+	- **==Record:==** A message in Kafka. Each message in a Kafka partition is assigned a unique offset, which is a sequential identifier indicating the message's position in the partition. This is used by consumers to track their progress in reading messages from the topic. As consumers read messages, they maintain their current offset and **periodically** commit this offset back to Kafka, such that they can resume reading from where they left of, in case of failure or restart. Specifically, ==consumers commit their offsets to Kafka after they process a message;== it's the consumer's way of saying "I've processed this message and can move on."
 
-Q: What's the difference between a **Topic** and a **Parition?** 
+Q: What's the difference between a **Topic** and a **Partition?** 
 - A topic is a logical grouping of messages. Ways of organizing your data.
 - A partition is a physical grouping of messages; it's a file on disk. Ways of scaling your data.
 
-Let's talk about what happens in a lifecycle of a message through a Kafka cluster.
-- 
+Importantly, ==You can use Kafka either as a [[Message Queue]] or as a [[Stream]]==.
+- The only meaningful difference here is how consumers interact with the data;
+	- In a Message queue, consumers read messages from the queue and acknowledge they've processed the message.
+	- In a Stream, consumers read messages from the stream, process them, and don't acknowledge that they've processed the message, allowing for more complex processing of the data.
 
 Messages (**Records**) in Kafka Structure has ==four main attributes==:
 - ==**Key**== ("Partition Key"): Determine which partition the data lives on. Is optional on an event being written; if not specified, they assign it round-robin to a partition. The common path is that we **do** specify a key.
 - ==**Value**==: ...
-- **==Timestamp==**: Determines orering; if none is specified, we use the machine time
+- **==Timestamp==**: Determines ordering; if none is specified, we use the machine time
 - **==Headers==**: Like HTTP threads, it's jut some keys and value that specify information
 
 We can use the Kafka cli or common client libraries in any language that has a client.
@@ -159,15 +167,74 @@ Things to know include:
 				- You'll have some logic in the producer which understands which partitions are hot and does this concatenation for those keys. For the Consumer, there will now not be ordering across those (e.g. 10) partitions.
 			- Apply **==[[Backpressure]]==**; A producer understands that a given topic partition is overwhelmed at the moment, and slows down its rate on production. This **might work** for your service.
 
+Aside: From the Article.... ==There are a few strategies to handle hot partitions:==
+1. Random partitioning with **no key**:  If you don't provide a key, Kafka will randomly assign a partition to the message, guaranteeing even distribution. The downside is that you lose the ability to guarantee ordering of messages.
+2. **Random [[Salt]]ing:** Add a random number (e.g. 1-10) or a timestamp to the ad ID when generating the partition key; may complicate aggregation logic later on the consumer side.
+3. Using a **Compound Key**: Instead of using just the ad ID, use a combination of ad ID and another attribute, like a geographical region or userID segments, to form a compound key. (Seems pretty similar to Random Salting, but perhaps more purposeful)
+4. [[Backpressure]]: Slow down the producer! A managed Kafka service may have built-in mechanisms to handle this, or you can implement it yourself by having the producer check the lag on the partition and slow down if it's too high.
 
 ### Dive: Fault Tolerance and Durability
 - One reason you might have chosen Kafka is that it **has really strong guarantees on durability!**
-	- For each **Topic Partition**, we have a **leader replica** and a number of **follower replicas** that are ready to take over if the leader goes down.
+	- For each **Topic Partition**, we have a **leader replica** and a number of **follower replicas** that are ready to take over if the leader goes down. ==A replication factor of 3 is common== (meaning a leader and two followers)
 	- The things that are more important is that there are **Two Relevant Settings**:
 		- When you set up a Kafka cluster, you have a config file. Two of the settings are:
-			- ==acks==: How many followers need to acknowledge a write before we can g
-			- ==replication factor==
+			- ==acks==: How many followers need to acknowledge a write before we can keep going? **acks=all** means maximum durability, where every follower needs to acknowledge that they also got the message, then we can say that we also got this message.
+				- The tradeoff is **durability versus performance/speed**. If acks is low, it's possible that we could lose data!
+			- ==replication factor==: How many followers we're going to have. Default is 3. Again a **durability versus performance/speed/space** option.
+- **==What happens when a Consumer goes down?==**
+	- **==NOTE:==** Kafka is often thought of as **always available;** if an interviewer asks you "What happens if Kafka goes down," this is often isn't very realistic; Kafka doesn't go down because the durability guarantees that we just discussed.
+	- A more realistic question is what happens when a consumer goes down.
+- ![[Pasted image 20250521115527.png|600]]
+	- Recall: We have the cluster, and our consumer firsts reads a message, then gets the offset of the message it just processed, and commits the **offset** of the message back to Kafka, saying "I've processed X".
+	- If we have a Consumer Group, then each Consumer is responsible for a **range of Topic Partitions!**
+		- ==So if a Consumer in a Consumer Group goes down, we need to do some rebalancing. That's all going to be handled by the Kafka Cluster, which will update the existing consumers on their new ranges.==
+	- It's important to know when to commit your offset, which is an action that says **"I've finished teh task that I've been asked to do.**
+		- For a Web Crawler,  we don't commit the offset until we have confirmation that the HTML that we've downloaded is stored in S3. If we commit the offset BEFORE we know the data is stored in S3, then if our consumer goes down... it's possible that we effectively skip an event.
+- **Let's talk about Errors and Retries**
+	- Our system may fail getting messages into or out of Kafka! Producer Retries and Consumer [[Retry|Retries]].
+	- For ==Producer Retries==: The Kafka Producer API supports some configurations that let us retry gracefully.
+		- ![[Pasted image 20250521115903.png]]
+		- You'll want to be sure that you've enabled [[Idempotent]] producer mode, which is to avoid duplicate message when retries are enabled; it makes sure that messages are only added once if we accidentally send it twice.
+- What about ==Consumer Retries?== **==NOTE: THIS IS MUCH MORE INTERESTING IN KAFKA!==**
+	- ![[Pasted image 20250521121747.png]]
+	- In a Web Crawling Example: Our Kafka broker is storing URLs of websites we need to crawl.
+		- Our Consumer pulls these URLs and then goes and fetches them from the internet in order to get the HTML and store it in some blob storage like S3.
+		- The Web is a dirty place, so maybe when we pull a url from the queue, and that ==**website is currently down**! What do we do, as as Consumer?==
+			- Kafka does actually not support Consumer Retries out of the box! Interestingly, [[Amazon SQS]] *does support Consumer Retries!*
+			- In Kafka, what we do is: After N failure to try to get the site, our Consumer will place a new message on a ==Retry Topic==, where that message says the number of retries... and some consumer (perhaps in a different CG) retries it.
+				- If that number of retries exceeds some number, say 5, then we can say that that message is permanently failed, and we can put it into a ==[[Dead Letter Queue]] Topic==. This just stays here and no one reads from it; an Engineer can later go and manually look at these.
 
+From the Article.... ==When a Consumer goes down, what happens?==
+- Kafka has fault tolerance mechanisms to help ensure continuity:
+	- **Offset Management**: Because partitions are just append-only logs wher each message is assigned unique offset... Consumers commit their offsets to Kafka after they process a message. This is the consumer's way of saying "I've processed this message." If a Consumer diesa nd comes back, it reads its latest offset from Kafka and resumes processing from there.
+	- **Rebalancing**: When part of a consumer group goes down, Kafka will redistribute the partitions among the remaining consumers so that all partitions are still being processed.
+
+### Dive: Performance Optimizations
+- We want to be mindful of the performance/throughput so that we can process messages as quickly as possible!
+- Producer Side:
+	- Batch messages on the Producer (this is a configuration that we can set on the Kafka Producer)
+	- Compress messages in the Producer (this compression is supported via the Producer clients; we can GZIP our messages so that they're smaller.)
+	- By ==Batching== and ==Compressing== our messages, we improve throughput by sending fewer, smalle messages.
+- Broker Side:
+	- The biggest impact you can have on performance is the choice of your **Partition Key**: The goal is to maximize parallelism by making sure that our messages are evenly split among our partitions and our brokers.
+		- ==You should always start with talking about the Partition Key that you're going to use in Kafka for a Topic, it's incredibly important==
+
+## Dive: Retention Policy
+- There are two settings in Kafka's configuration that determine how long we keep a message around before purging it
+- Kafka **Topics** have retention policies that determine how long messages are retained, via two settings, primarily:
+	- retention.ms (default 7 days): How long to keep a message
+	- retention.bytes (default 16GB): When to start purging, based on size
+	- (==Whichever of these come first is when purging starts==)
+- You can imagine a system where you have to be able to replay events months later; you can imagine that you have to discuss this in an interview, configurng the retention policy to keep these messages for a longer duration, but ==youll want to talk about the impact that this will have on storage costs and performance.==
+
+
+
+
+
+
+------------
+
+----------
 
 
 
@@ -208,23 +275,6 @@ So now every Event is associated with a Topic, and Consumer Groups subscribe to 
 - See that we have a specific Consumer Group for each Topic, and each Topic can still be still partitioned (and later, will be replicated as well) among multiple (virtual) servers.
 
 
-
-
-
-
-
-
-
-# Overview
-- 
-
-
-# When to use it in an Interview
-- 
-
-
-# What to know for Deep Dives
-- 
 
 
 

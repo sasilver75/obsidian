@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka.md",
+                "file": "API Gateway.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Kafka"
+              "title": "API Gateway"
             }
           },
           {
@@ -689,19 +689,21 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
-    "Short Polling.md",
+    "Service Mesh.md",
+    "API Gateway.md",
+    "_attachments/Pasted image 20250521130329.png",
+    "_attachments/Pasted image 20250521130153.png",
+    "_attachments/Pasted image 20250521130003.png",
+    "_attachments/Pasted image 20250521125943.png",
+    "_attachments/Pasted image 20250521125753.png",
+    "_attachments/Pasted image 20250521125639.png",
     "Kafka.md",
+    "_attachments/Pasted image 20250521121747.png",
+    "_attachments/Pasted image 20250521115903.png",
+    "_attachments/Pasted image 20250521115527.png",
+    "Short Polling.md",
     "_attachments/Pasted image 20250521110554.png",
-    "_attachments/Pasted image 20250521110506.png",
-    "_attachments/Pasted image 20250521110033.png",
-    "_attachments/Pasted image 20250521105855.png",
-    "_attachments/Pasted image 20250521105758.png",
-    "_attachments/Pasted image 20250521104630.png",
-    "_attachments/Pasted image 20250521104055.png",
-    "_attachments/Pasted image 20250521103635.png",
-    "_attachments/Pasted image 20250521103345.png",
     "~ Quiz.md",
-    "_attachments/Pasted image 20250520201848.png",
     "Vertical Scaling.md",
     "Horizontal Scaling.md",
     "Geohash.md",
@@ -723,8 +725,6 @@
     "Internet Protocol.md",
     "Sharding.md",
     "Expiration Policy.md",
-    "Redis.md",
-    "Rate Limiting.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
