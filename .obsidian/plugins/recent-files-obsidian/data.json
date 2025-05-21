@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "API Gateway",
+      "path": "API Gateway.md"
+    },
+    {
+      "basename": "Service Mesh",
+      "path": "Service Mesh.md"
+    },
+    {
       "basename": "Kafka",
       "path": "Kafka.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Full-Text Search Index",
       "path": "Full-Text Search Index.md"
-    },
-    {
-      "basename": "Content Distribution Network",
-      "path": "Content Distribution Network.md"
-    },
-    {
-      "basename": "Blob Storage",
-      "path": "Blob Storage.md"
     }
   ],
   "omittedPaths": [],
