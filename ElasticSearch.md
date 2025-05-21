@@ -105,7 +105,7 @@ Two approaches for this **Stateless Pagination**:
 
 ## How to use ElasticSearch in your System Design Scenarios!
 1. Typically for complex search scenarios; not your primary transactional database
-	1. [[Full-Text Search Index|Full-Text Search]], [[Geospatial Indexes]], [[Vector Search]]
+	1. [[Full-Text Search Index|Full-Text Search]], [[Geospatial Index]], [[Vector Search]]
 	2. Often used together with a primary transaction database (e.g. [[PostgresDB|Postgres]], and then use [[Change Data Capture]] to eventually-consistently move writes into the search index.)
 2. Best with read-heavy workloads
 	1. If you've got a lot of writes happening, and writes dominate reads, then ES might not be appropriate. There are a lot of ways to change the nature of your workload (e.g. limiting the number of writes, batching them out), but generally speaking, ES performs best when you have more reads than writes.

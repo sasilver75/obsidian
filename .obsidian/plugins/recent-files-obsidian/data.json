@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "SDIAH Database Indexing",
+      "path": "Courses/SystemDesign/SDIAH Database Indexing.md"
+    },
+    {
+      "basename": "Geohash",
+      "path": "Geohash.md"
+    },
+    {
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "ElasticSearch",
+      "path": "ElasticSearch.md"
+    },
+    {
       "basename": "SDIAH Numbers to Know",
       "path": "Courses/SystemDesign/SDIAH Numbers to Know.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "ElasticSearch",
-      "path": "ElasticSearch.md"
     },
     {
       "basename": "Consensus",
@@ -179,26 +199,6 @@
     {
       "basename": "Change Data Capture",
       "path": "Change Data Capture.md"
-    },
-    {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
-    },
-    {
-      "basename": "REST",
-      "path": "REST.md"
-    },
-    {
-      "basename": "Cohere Project Index",
-      "path": "Projects/Cohere Reasoning/Cohere Project Index.md"
-    },
-    {
-      "basename": "Lock",
-      "path": "Lock.md"
-    },
-    {
-      "basename": "Load Balancing",
-      "path": "Load Balancing.md"
     }
   ],
   "omittedPaths": [],

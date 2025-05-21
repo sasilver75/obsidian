@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/SDIAH Numbers to Know.md",
+                "file": "Courses/SystemDesign/SDIAH Database Indexing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SDIAH Numbers to Know"
+              "title": "SDIAH Database Indexing"
+            }
+          },
+          {
+            "id": "06267ba686d75fd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "QuadTree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "QuadTree"
+            }
+          },
+          {
+            "id": "849c669100349e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "R-Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "R-Tree"
             }
           }
         ]
@@ -640,23 +688,29 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20250520155119.png",
-    "~ Vocabulary.md",
-    "Courses/SystemDesign/SDIAH Numbers to Know.md",
+    "_attachments/Pasted image 20250520174744.png",
+    "_attachments/Pasted image 20250520174354.png",
+    "Geohash.md",
+    "Courses/SystemDesign/SDIAH Database Indexing.md",
+    "QuadTree.md",
+    "R-Tree.md",
+    "_attachments/Pasted image 20250520173950.png",
+    "_attachments/Pasted image 20250520173454.png",
+    "_attachments/Pasted image 20250520173041.png",
+    "Geospatial Index.md",
     "ElasticSearch.md",
-    "_attachments/Pasted image 20250520150626.png",
-    "_attachments/Pasted image 20250520150130.png",
-    "_attachments/Pasted image 20250520145856.png",
+    "Geospatial Indexes.md",
+    "_attachments/Pasted image 20250520172737.png",
+    "_attachments/Pasted image 20250520172710.png",
+    "_attachments/Pasted image 20250520172539.png",
+    "_attachments/Pasted image 20250520172350.png",
+    "_attachments/Pasted image 20250520172120.png",
+    "_attachments/Pasted image 20250520172119.png",
+    "Courses/SystemDesign/SDIAH Numbers to Know.md",
+    "~ Vocabulary.md",
     "Consensus.md",
-    "_attachments/Pasted image 20250520145756.png",
     "Vector Search.md",
     "Replication.md",
-    "_attachments/Pasted image 20250520144832.png",
-    "_attachments/Pasted image 20250520143431.png",
-    "_attachments/Pasted image 20250520142121.png",
-    "_attachments/Pasted image 20250520141749.png",
-    "_attachments/Pasted image 20250520141521.png",
-    "_attachments/Pasted image 20250520141105.png",
     "Internet Protocol.md",
     "Sharding.md",
     "Expiration Policy.md",
@@ -670,12 +724,6 @@
     "Read-your-Writes Consistency.md",
     "Causal Consistency.md",
     "Strong Consistency.md",
-    "Distributed Transaction.md",
-    "ACID.md",
-    "CAP Theorem.md",
-    "Network Address Translation.md",
-    "WebRTC.md",
-    "HTTPS.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

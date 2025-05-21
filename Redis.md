@@ -130,7 +130,7 @@ If we want it to sit on multiple nodes, we need to keep multiple sorted sets, an
 	- When we want to search:
 		- GEOSEARCH {indexKeyName} {longAnchor} {latAnchor} BYRADIS {radius, e.g. 5 km} {WITHDIST, optional}
 
-**Implementation:** Under the covers, each of these lat/longs are [[GeoHash]]ed to give them a numeric identifier. This numeric identifier is the ranking in the sorted set, and then Redis under the cover is calculating the bounding boxes given your radius, and finding the entries in that range in your sorted set.
+**Implementation:** Under the covers, each of these lat/longs are [[Geohash]]ed to give them a numeric identifier. This numeric identifier is the ranking in the sorted set, and then Redis under the cover is calculating the bounding boxes given your radius, and finding the entries in that range in your sorted set.
 - The important thing is that this API is super convenient and works in a wide variety of situations!
 
 **WARN**: There are a number of perils associated with this:
