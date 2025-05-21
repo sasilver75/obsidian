@@ -5,6 +5,14 @@
       "path": "Kafka.md"
     },
     {
+      "basename": "Short Polling",
+      "path": "Short Polling.md"
+    },
+    {
+      "basename": "~ Quiz",
+      "path": "~ Quiz.md"
+    },
+    {
       "basename": "Vertical Scaling",
       "path": "Vertical Scaling.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Blob Storage",
       "path": "Blob Storage.md"
-    },
-    {
-      "basename": "Key-Value Database",
-      "path": "Key-Value Database.md"
-    },
-    {
-      "basename": "Hash Map",
-      "path": "Hash Map.md"
     }
   ],
   "omittedPaths": [],

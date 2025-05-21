@@ -20,10 +20,158 @@ Four Sections:
 	- ==**Producers**==: Write messages/records to Topics.
 	- ==**Consumers**==: Read messages/records off of Topics.
 
+Q: What's the difference between a **Topic** and a **Parition?** 
+- A topic is a logical grouping of messages. Ways of organizing your data.
+- A partition is a physical grouping of messages; it's a file on disk. Ways of scaling your data.
+
 Let's talk about what happens in a lifecycle of a message through a Kafka cluster.
 - 
 
-# Motivating Examples
+Messages (**Records**) in Kafka Structure has ==four main attributes==:
+- ==**Key**== ("Partition Key"): Determine which partition the data lives on. Is optional on an event being written; if not specified, they assign it round-robin to a partition. The common path is that we **do** specify a key.
+- ==**Value**==: ...
+- **==Timestamp==**: Determines orering; if none is specified, we use the machine time
+- **==Headers==**: Like HTTP threads, it's jut some keys and value that specify information
+
+We can use the Kafka cli or common client libraries in any language that has a client.
+
+Once the Kafka cluster receives a message, ti needs to determine where it should put the message
+- Determine what the topic is
+- Determine what the broker is
+- Determine what the partition is
+
+![[Pasted image 20250521103345.png]]
+
+We hash the key using a [[MurmurHash]], which is a fast hash function, and we modulo that hash over the number of partitions we have. That resulting number corresponds to the partition!
+
+Next, we want to identify which **Broker** (server) that **Partition** exist on. There's a controller in the Kafka cluster that keeps the mapping of **Partitions** to **Brokers**. We look up what **Broker** we want to send it to, and that **Broker** receives the Record and appends it to the append-only log file.
+
+When the **Broker** appends the **Record** to the appropriate **Partition,** it appends that message to its append-only log file for that partition.
+![[Pasted image 20250521103635.png]]
+So we have msesages A,B,C,D,E... each of which have a correspodning **offset** in the log. ((Idk why he did it "backwards" to me))
+- As **Consumers** want to consume a message, they consume a message by specifying the offset of the last message they read!
+	- So if they already read Msg A and Msg B, then they know their latest offset was 1, and they'll ask for offset 2 the next time they want to go get some work from the queue.
+- **What if a Consumer went down and doesn't know the offset it read?**
+	- It will periodically commit its offsets to Kafka itself! So Kafka maintains the latest offset that is read for a given **Consumer**.
+![[Pasted image 20250521104055.png]]
+- In the case where we have a **Consumer Group**, then Consumer 2 can read and ask Kafka for the next message, and Kafka knows which offsets have been read by the other consumers in the Consumer Group, and it can give you the latest message and commit that offset.... so that everyone knows what the latest offset that's been read is.
+
+
+For producers, we can create records either from the CLI or via the (e.g. KafkaJS library).
+
+![[Pasted image 20250521104630.png]]
+In order to ensure **Durability** and **Availability**, we have a robust [[Replication]] mechanism in Kafka!
+- Each partition has a **Leader** replica, which is responsible for handling **==All read and write requests to the partition!==**
+- The assignment of the **Leader** is managed centrally by some cluster controller, making sure that each partition's leader replica is distributed effectively across the cluster to balance the load.
+- We then have **Followers**, which can reside on the same or different brokers; these don't handle client requests, and just passively backup writes from the leader, and are just ready to take over from the leader if things go down.
+
+So looking at the diagram again:
+- We have **Producers** which interface with our Kafka **Cluster** via a **Producer API**
+- Our Kafka **Cluster** is made of **Brokers** (just servers)
+- On these **Brokers** we have a bunch of **Partitions**, which are just append-only log files
+- These **Partitions** are grouped/labeled based on a Topic (e.g. Topic A, Topic B)
+- **Consumers** Consume from the **Cluster** via the **Consumer API**, and a **Consumer Group** consumes a specific **Topic** (e.g. Topic B)
+	- A Consumer will subscribe to (e.g.) Topic B and read all messages from Topic B.
+- **Consumer Groups** make sure that **Consumers** in the group read the same message only once; they don't read the same message twice.
+	- The primary purpose of CGs is to allow for parallel processing of data and ensuring that each message is processed exactly once (within the group).
+	- When a Topic is divided into Partitions, Events are assigned to partitions based on a partition key. Mesages within a topic-partitoin are ordered, but there's no ordering guarantee across partitions.
+	- When a Consumer Group consumes from a Topic
+		- **==Each partition is assigned to exactly one consumer within the group!==**, with a Consumer being able to consume from multiple partitions. So no two consumers in the same group can consume from the same partition simultaneously. The Kafka Broker's group coordinator handles this partition assignment to ensure no overlap.
+
+
+# When to Use Kafka in an Interview
+
+### Use Case: ==Any time you might need a message queue==
+	- 	- If processing can be done asynchronously, e.g. **Youtube Transcoding**
+![[Pasted image 20250521105758.png]]
+
+- When you upload a Video on Youtube, you upload the full video and store that video in object storage; then you need to Transcode that video, turning it into 360p, 480p, 720p, 1080p; This process takes a while, and can happen asynchronously!
+- This message can look like "VideoId": 123, "VideoLink": s3://123...
+- Our consumers are our Transcoders, which look at a record in a topic partition, do their transcoding, and store the result in S3.
+
+
+- ==Any time you need In-Order Message Processing==
+	- e.g. **TicketMaster waiting queues**!
+![[Pasted image 20250521105855.png]]
+- We might want to put people into a waiting queue and let them out of the queue 100 at a time, so that there isn't that much contention for the remaining seats.
+- When a user tries to view an event, we put them on our Kafka waiting queue
+- Periodically ,every 5 minutes, we pull the next 100 off the queue and let our clients know that it's their turn to actually start to book the event.
+- ==Notice that here the same service is both the producer and consumer. That's fine!==
+
+
+- ==When you want to decouple the consumer and the producer so that they can scale independently!==
+	- i.e. **LeetCode** or **Online Judge**
+![[Pasted image 20250521110033.png]]
+- In LeetCode, a bunch of users in a competition might submit their code, and we need to run their code and give them a response.
+- A bunch of users might submit their code at once (maybe 100k users!) and so we need to horizontally scale this primary server accordingly.
+- These primary servers are going to put the event on Kafka.
+	- We don't want to have to scale these servers that are doing the running of the code, perhaps because we're cost sensitive!
+	- So we can just scale our cheaper Primary Servers, which put the events on the Kafka queue, and later the (smaller, not scaled) workers will get the events from the queue and process them; the workers don't have to scale.
+
+
+## Use Case: ==Any Time You Need a Stream==
+- A Stream is used when you need to process a lot of data in real time, like in an **Ad Clicking Aggregator system**
+- ![[Pasted image 20250521110506.png]]
+	- In a Queue, the consumer gets to choose when it wants to read off the queue, and things can exist in the queue for a long time
+	- In a Stream, you have an infinite stream of data coming onto Kafka, and you want to be consuming it as quickly as possible in order to get some real-time statistics or updates.
+- When a user clicks an Ad, we put that click on our Kafka queue, and then we have a Consumer, in this case [[Flink]], reading off that stream in real time and aggregating those so that we can tell our advertisers how many their ad has been clicked.
+
+
+- Another use case if if you have a **Stream of messages that need to be processed by multiple consumers simultaneously, like in Messenger or FB Live Comments**
+- ![[Pasted image 20250521110554.png]]
+- Here, we have a stream of messages being processed by multiple consumers simultaneously -- also known as [[Publish-Subscribe|Pub Sub]]!
+- If we have a Commenter that leaves a comment on a live video, we can put that comment on Kafka as a pub sub, and have all of these other servers connected to the users that are watching the live video... and they're subscribed to the stream, and if they see a new comment come in on a live video that they know their client is subscribed to, they read the event and send the information to the user ((I assume either via [[Polling]] or via [[Server-Sent Event]]s)), so that it looks like the message showed up in real time for the user! (e.g. the comment appears and floats down the video, or whatever).
+
+
+
+
+# What to know about Kafka for Deep Dives in Interviews
+Things to know include:
+1. **Scalability**: How do you scale the system, and how do you scale Kafka?
+2. **Fault Tolerance and Durability**
+3. **Errors and Retries**: What happens when things go wrong?
+4. **Performance Optimizations**: Specifically for real-time use cases where you have a lot of events and you need to make sure throughput is as high as possible
+5. **Retention Policies**: To minimize the amount of storage on disk.
+
+#### Dive: Deep Dive Scalability:
+- "How is this going to Scale?" (usually in the context of the full system)
+- **Constraints work knowing**:
+	- There's ==no limit on the maximum size of a message in Kafka, but it's highly advised to **keep these messages < 1MB!**==
+		- **==COMMON MISTAKE==**: Candidates putting the entire media blob on Kafka!
+			- e.g. if we're doing Youtube transcoding of videos into different resolutions...
+				- GOOD: Storing the video blob in object storage and putting the S3 URL for the blob into the event. The consumer takes the event, finds the url, downloads the video via the S3 url. The only thing on Kafka is the videoId and the s3Url.
+				- BAD: Putting the ENTIRE VIDEO in the Kafka event! Yikes!
+	- A single ==broker== can store ==~1TB of data== and can handle ==~10k messags per second== (handwavey; depends on the hardware)
+		- In the interview, do the math! Does your system exceed this? If it doesn't we might not worry about scaling the number of brokers at all!
+- **In the case where we DO need to scale, what should we do?**
+	- Introduce more Brokers (servers; More memory, more disk, can store and process more messages)
+	- Choose a good partition key!
+		- Ideally, we'd like to uniformly partition data across our brokers, right? We don't want a ==hot partition== that gets overwhelmed and others getting no data!
+		- Complication: At the same time, if we need some in-order processing of events, note that order is only guaranteed within a single topic partition!
+	- Let's talk about **==how to handle hot partitions==**
+		- ((Aside: Nowadays, many of these scaling considerations these days are made easy by managed services from cloud providers, like Confluent Cloud or [[Amazon MSK]], which handle a lot of these scaling things for you; you still need to pick partition keys though))
+		- Recall: a ==Hot Partition== is one where ~everything is going to a single partition/broker, and it's overwhelmed.
+			- Consider an **Ad Click Aggregator**: We have a stream of data, where User A clicked on Ad B; We take that stream of ClickEvents and aggregate them to understand the metrics of how often ads are being clicked on!
+			- Naturally, we might partition by **AdId,** right? But if Nike ads a hot new add that everyone's clicking on, that partition might get quite hot! So ==how do we handle that hot partition==? 
+		- Options
+			- **==Remove the Key==** from your messages 🤷‍♂ such that you randomly distribute your messages across partitions, for this topic. ==If you don't care about ordering at all, this is fine and works!== It seems simple, but if you don't need ordering, it's a great option.
+			- Add a **==Compound Key==**; Instead of making the key **AdId**, we can make it **AdId:UserId**, or a ==common pattern== to do is to take our **AdId** and partition it across 10 partitions by doing **AdId:1-10**, adding a random number 1-10. This makes sure that our Nike ad is split across 10 different partitions, reducing the strain on the single hot partition.
+				- You'll have some logic in the producer which understands which partitions are hot and does this concatenation for those keys. For the Consumer, there will now not be ordering across those (e.g. 10) partitions.
+			- Apply **==[[Backpressure]]==**; A producer understands that a given topic partition is overwhelmed at the moment, and slows down its rate on production. This **might work** for your service.
+
+
+### Dive: Fault Tolerance and Durability
+- One reason you might have chosen Kafka is that it **has really strong guarantees on durability!**
+	- For each **Topic Partition**, we have a **leader replica** and a number of **follower replicas** that are ready to take over if the leader goes down.
+	- The things that are more important is that there are **Two Relevant Settings**:
+		- When you set up a Kafka cluster, you have a config file. Two of the settings are:
+			- ==acks==: How many followers need to acknowledge a write before we can g
+			- ==replication factor==
+
+
+
+
+# Motivating Examples (Intro)
 ![[Pasted image 20250520195007.png]]
 Imagine we're running a website where we're presenting **real-time event updates on each of the games in the World Cup!**
 - Events, when they occur, are placed in a queue!
