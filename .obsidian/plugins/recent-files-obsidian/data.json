@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Kafka",
+      "path": "Kafka.md"
+    },
+    {
+      "basename": "Vertical Scaling",
+      "path": "Vertical Scaling.md"
+    },
+    {
+      "basename": "Horizontal Scaling",
+      "path": "Horizontal Scaling.md"
+    },
+    {
       "basename": "Geohash",
       "path": "Geohash.md"
     },
@@ -149,10 +161,6 @@
       "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
     },
     {
-      "basename": "Kafka",
-      "path": "Kafka.md"
-    },
-    {
       "basename": "Recommendation System",
       "path": "Recommendation System.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Hash Map",
       "path": "Hash Map.md"
-    },
-    {
-      "basename": "Transport Layer Security",
-      "path": "Transport Layer Security.md"
-    },
-    {
-      "basename": "Consistency",
-      "path": "Consistency.md"
     }
   ],
   "omittedPaths": [],
