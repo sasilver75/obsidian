@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geohash.md",
+                "file": "Kafka.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geohash"
+              "title": "Kafka"
             }
           },
           {
@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -688,6 +689,19 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250520201848.png",
+    "_attachments/Pasted image 20250520201846 1.png",
+    "_attachments/Pasted image 20250520201846.png",
+    "_attachments/Pasted image 20250520201600.png",
+    "_attachments/Pasted image 20250520201357.png",
+    "_attachments/Pasted image 20250520201343.png",
+    "_attachments/Pasted image 20250520195521.png",
+    "_attachments/Pasted image 20250520195337.png",
+    "Vertical Scaling.md",
+    "Horizontal Scaling.md",
+    "Kafka.md",
+    "_attachments/Pasted image 20250520195007.png",
+    "Geohash.md",
     "Index.md",
     "B+ Tree.md",
     "Courses/SystemDesign/SDIAH Database Indexing.md",
@@ -696,17 +710,8 @@
     "_attachments/Pasted image 20250520184458.png",
     "QuadTree.md",
     "_attachments/Pasted image 20250520184220.png",
-    "Geohash.md",
-    "_attachments/Pasted image 20250520182448.png",
-    "_attachments/Pasted image 20250520182336.png",
     "Hash Index.md",
-    "_attachments/Pasted image 20250520180212.png",
     "B-Tree.md",
-    "_attachments/Pasted image 20250520180143.png",
-    "_attachments/Pasted image 20250520174744.png",
-    "_attachments/Pasted image 20250520174354.png",
-    "_attachments/Pasted image 20250520173950.png",
-    "_attachments/Pasted image 20250520173454.png",
     "ElasticSearch.md",
     "Geospatial Indexes.md",
     "Courses/SystemDesign/SDIAH Numbers to Know.md",
@@ -720,10 +725,6 @@
     "Redis.md",
     "Rate Limiting.md",
     "gRPC.md",
-    "Untitled 8.md",
-    "Courses/SystemDesign/SDIAH Key Technologies.md",
-    "Consistent Hashing.md",
-    "Eventual Consistency.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
