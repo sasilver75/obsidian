@@ -1,24 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "SDIAH Database Indexing",
-      "path": "Courses/SystemDesign/SDIAH Database Indexing.md"
-    },
-    {
       "basename": "Geohash",
       "path": "Geohash.md"
     },
     {
-      "basename": "QuadTree",
-      "path": "QuadTree.md"
+      "basename": "Index",
+      "path": "Index.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "B+ Tree.md"
+    },
+    {
+      "basename": "SDIAH Database Indexing",
+      "path": "Courses/SystemDesign/SDIAH Database Indexing.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
     },
     {
       "basename": "R-Tree",
       "path": "R-Tree.md"
     },
     {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
+      "basename": "Hash Index",
+      "path": "Hash Index.md"
+    },
+    {
+      "basename": "B-Tree",
+      "path": "B-Tree.md"
     },
     {
       "basename": "ElasticSearch",
@@ -183,22 +199,6 @@
     {
       "basename": "Consistency",
       "path": "Consistency.md"
-    },
-    {
-      "basename": "Optimistic Concurrency Control",
-      "path": "Optimistic Concurrency Control.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Index.md"
-    },
-    {
-      "basename": "PostgresDB",
-      "path": "PostgresDB.md"
-    },
-    {
-      "basename": "Change Data Capture",
-      "path": "Change Data Capture.md"
     }
   ],
   "omittedPaths": [],
