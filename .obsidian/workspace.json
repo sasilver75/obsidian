@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API Gateway.md",
+                "file": "Cassandra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "API Gateway"
+              "title": "Cassandra"
+            }
+          },
+          {
+            "id": "e8bef326e706d270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eventual Consistency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Eventual Consistency"
             }
           },
           {
@@ -689,8 +713,17 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
-    "Service Mesh.md",
+    "_attachments/Pasted image 20250521144107.png",
+    "Cassandra Query Language.md",
+    "Cassandra.md",
+    "_attachments/Pasted image 20250521141754.png",
+    "_attachments/Pasted image 20250521141604.png",
+    "_attachments/Pasted image 20250521141342.png",
+    "Eventual Consistency.md",
+    "QuadTree.md",
+    "_attachments/Pasted image 20250521134107.png",
     "API Gateway.md",
+    "Service Mesh.md",
     "_attachments/Pasted image 20250521130329.png",
     "_attachments/Pasted image 20250521130153.png",
     "_attachments/Pasted image 20250521130003.png",
@@ -698,11 +731,7 @@
     "_attachments/Pasted image 20250521125753.png",
     "_attachments/Pasted image 20250521125639.png",
     "Kafka.md",
-    "_attachments/Pasted image 20250521121747.png",
-    "_attachments/Pasted image 20250521115903.png",
-    "_attachments/Pasted image 20250521115527.png",
     "Short Polling.md",
-    "_attachments/Pasted image 20250521110554.png",
     "~ Quiz.md",
     "Vertical Scaling.md",
     "Horizontal Scaling.md",
@@ -712,7 +741,6 @@
     "Courses/SystemDesign/SDIAH Database Indexing.md",
     "Geospatial Index.md",
     "R-Tree.md",
-    "QuadTree.md",
     "Hash Index.md",
     "B-Tree.md",
     "ElasticSearch.md",
@@ -721,10 +749,6 @@
     "~ Vocabulary.md",
     "Consensus.md",
     "Vector Search.md",
-    "Replication.md",
-    "Internet Protocol.md",
-    "Sharding.md",
-    "Expiration Policy.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
