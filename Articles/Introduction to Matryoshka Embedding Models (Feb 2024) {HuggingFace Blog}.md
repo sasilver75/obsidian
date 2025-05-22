@@ -21,7 +21,7 @@ Embedding models always produce embeddings of the same fixed size -- ==you can t
 ![[Pasted image 20240413151823.png]]
 
 There are huge number of uses for embedding models -- they're the backbone for so many things:
-1. [[Recommendation Systems]]
+1. [[Recommendation System]]
 2. [[Information Retrieval]]
 3. One-Shot or Few-Shot learning
 4. Outlier detection

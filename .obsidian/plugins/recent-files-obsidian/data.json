@@ -1,30 +1,129 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
     },
     {
       "basename": "Kullback-Leibler Divergence",
       "path": "Kullback-Leibler Divergence.md"
+=======
+      "basename": "Cassandra",
+      "path": "Cassandra.md"
+    },
+    {
+      "basename": "LSM Tree",
+      "path": "LSM Tree.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+>>>>>>> 3c8e5b6f83ce2faa59eb3ae89575e9dcdf35f61c
     },
     {
       "basename": "Lottery Ticket Hypothesis",
       "path": "Lottery Ticket Hypothesis.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Jonathan Frankle",
       "path": "Jonathan Frankle.md"
     },
     {
       "basename": "~ Useful Pictures",
       "path": "~ Useful Pictures.md"
+=======
+      "basename": "Write-Ahead Log",
+      "path": "Write-Ahead Log.md"
+    },
+    {
+      "basename": "Cassandra Query Language",
+      "path": "Cassandra Query Language.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "API Gateway.md"
+    },
+    {
+      "basename": "Service Mesh",
+      "path": "Service Mesh.md"
+    },
+    {
+      "basename": "Kafka",
+      "path": "Kafka.md"
+    },
+    {
+      "basename": "Short Polling",
+      "path": "Short Polling.md"
+    },
+    {
+      "basename": "~ Quiz",
+      "path": "~ Quiz.md"
+    },
+    {
+      "basename": "Vertical Scaling",
+      "path": "Vertical Scaling.md"
+    },
+    {
+      "basename": "Horizontal Scaling",
+      "path": "Horizontal Scaling.md"
+    },
+    {
+      "basename": "Geohash",
+      "path": "Geohash.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Index.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "B+ Tree.md"
+    },
+    {
+      "basename": "SDIAH Database Indexing",
+      "path": "Courses/SystemDesign/SDIAH Database Indexing.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "Hash Index",
+      "path": "Hash Index.md"
+    },
+    {
+      "basename": "B-Tree",
+      "path": "B-Tree.md"
+    },
+    {
+      "basename": "ElasticSearch",
+      "path": "ElasticSearch.md"
+    },
+    {
+      "basename": "SDIAH Numbers to Know",
+      "path": "Courses/SystemDesign/SDIAH Numbers to Know.md"
+>>>>>>> 3c8e5b6f83ce2faa59eb3ae89575e9dcdf35f61c
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Unit 2 LangGraph",
       "path": "Courses/HuggingFaceAgents/Unit 2 LangGraph.md"
     },
@@ -199,6 +298,102 @@
     {
       "basename": "Feb 5, 2024 Synax Notes",
       "path": "Courses/UCSC/NLP202 NLP II/Feb 5, 2024 Synax Notes.md"
+=======
+      "basename": "Consensus",
+      "path": "Consensus.md"
+    },
+    {
+      "basename": "Vector Search",
+      "path": "Vector Search.md"
+    },
+    {
+      "basename": "Replication",
+      "path": "Replication.md"
+    },
+    {
+      "basename": "Internet Protocol",
+      "path": "Internet Protocol.md"
+    },
+    {
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
+      "basename": "Expiration Policy",
+      "path": "Expiration Policy.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
+      "basename": "Rate Limiting",
+      "path": "Rate Limiting.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "gRPC.md"
+    },
+    {
+      "basename": "Untitled 8",
+      "path": "Untitled 8.md"
+    },
+    {
+      "basename": "Consistent Hashing",
+      "path": "Consistent Hashing.md"
+    },
+    {
+      "basename": "Read-your-Writes Consistency",
+      "path": "Read-your-Writes Consistency.md"
+    },
+    {
+      "basename": "Causal Consistency",
+      "path": "Causal Consistency.md"
+    },
+    {
+      "basename": "Strong Consistency",
+      "path": "Strong Consistency.md"
+    },
+    {
+      "basename": "Distributed Transaction",
+      "path": "Distributed Transaction.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "ACID.md"
+    },
+    {
+      "basename": "CAP Theorem",
+      "path": "CAP Theorem.md"
+    },
+    {
+      "basename": "Network Address Translation",
+      "path": "Network Address Translation.md"
+    },
+    {
+      "basename": "WebRTC",
+      "path": "WebRTC.md"
+    },
+    {
+      "basename": "HTTPS",
+      "path": "HTTPS.md"
+    },
+    {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "Retry",
+      "path": "Retry.md"
+    },
+    {
+      "basename": "SDIAH Common Patterns",
+      "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
+    },
+    {
+      "basename": "Recommendation System",
+      "path": "Recommendation System.md"
+>>>>>>> 3c8e5b6f83ce2faa59eb3ae89575e9dcdf35f61c
     }
   ],
   "omittedPaths": [],

@@ -1,0 +1,4 @@
+---
+aliases:
+  - Semantic Search
+---
