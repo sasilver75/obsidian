@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Cassandra",
+      "path": "Cassandra.md"
+    },
+    {
+      "basename": "Cassandra Query Language",
+      "path": "Cassandra Query Language.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
       "basename": "API Gateway",
       "path": "API Gateway.md"
     },
@@ -51,10 +67,6 @@
     {
       "basename": "R-Tree",
       "path": "R-Tree.md"
-    },
-    {
-      "basename": "QuadTree",
-      "path": "QuadTree.md"
     },
     {
       "basename": "Hash Index",
@@ -125,10 +137,6 @@
       "path": "Consistent Hashing.md"
     },
     {
-      "basename": "Eventual Consistency",
-      "path": "Eventual Consistency.md"
-    },
-    {
       "basename": "Read-your-Writes Consistency",
       "path": "Read-your-Writes Consistency.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Publish-Subscribe",
       "path": "Publish-Subscribe.md"
-    },
-    {
-      "basename": "First-In First-Out",
-      "path": "First-In First-Out.md"
-    },
-    {
-      "basename": "Full-Text Search Index",
-      "path": "Full-Text Search Index.md"
     }
   ],
   "omittedPaths": [],
