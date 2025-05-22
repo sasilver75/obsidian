@@ -5,6 +5,22 @@
       "path": "Cassandra.md"
     },
     {
+      "basename": "LSM Tree",
+      "path": "LSM Tree.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "SDIAH Key Technologies",
+      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "Write-Ahead Log",
+      "path": "Write-Ahead Log.md"
+    },
+    {
       "basename": "Cassandra Query Language",
       "path": "Cassandra Query Language.md"
     },
@@ -129,10 +145,6 @@
       "path": "Untitled 8.md"
     },
     {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
-    },
-    {
       "basename": "Consistent Hashing",
       "path": "Consistent Hashing.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Recommendation System",
       "path": "Recommendation System.md"
-    },
-    {
-      "basename": "SDIAH Core Concepts",
-      "path": "Courses/SystemDesign/SDIAH Core Concepts.md"
-    },
-    {
-      "basename": "Partition",
-      "path": "Partition.md"
-    },
-    {
-      "basename": "Publish-Subscribe",
-      "path": "Publish-Subscribe.md"
     }
   ],
   "omittedPaths": [],
