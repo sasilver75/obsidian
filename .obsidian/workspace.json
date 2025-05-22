@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Kullback-Leibler Divergence"
             }
+          },
+          {
+            "id": "9778033f9beb0b8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1339,12 +1363,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e49f1a1b1d559430",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 118
+        "currentTab": 119
       },
       {
         "id": "8a022290161ffefa",
@@ -1405,8 +1439,23 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a0e4e5134fa19eb5",
+  "active": "9778033f9beb0b8f",
   "lastOpenFiles": [
+    "Kullback-Leibler Divergence.md",
+    "conflict-files-obsidian-git.md",
+    "_attachments/Pasted image 20250510180528.png",
+    "_attachments/Pasted image 20250510170635.png",
+    "_attachments/Pasted image 20250510163040.png",
+    "_attachments/Pasted image 20250510162928.png",
+    "RandAugment.md",
+    "Jaccard Similarity.md",
+    "Courses/SystemDesign/SDIAH Core Concepts.md",
+    "Courses/SystemDesign/SDIAH Intro.md",
+    "Courses/SystemDesign/SDIAH Framework.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "Courses/SystemDesign/SDIAH Common Patterns.md",
+    "Courses/SystemDesign",
+    "Context Compression.md",
     "Jonathan Frankle.md",
     "Lottery Ticket Hypothesis.md",
     "~ Useful Pictures.md",
@@ -1421,10 +1470,6 @@
     "_attachments/Pasted image 20250419173945.png",
     "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md",
     "_attachments/Pasted image 20250419161153.png",
-    "_attachments/Pasted image 20250419153812.png",
-    "_attachments/Pasted image 20250419134203.png",
-    "_attachments/Pasted image 20250419132239.png",
-    "_attachments/Pasted image 20250419131825.png",
     "Courses/HuggingFaceAgents/Unit 1 Notes.md",
     "Courses/HuggingFaceAgents",
     "FlashAttention.md",
@@ -1434,16 +1479,6 @@
     "Reasoning.md",
     "Grouped Query Attention.md",
     "Articles/Vision Large Language Models (vLLMs).md",
-    "Reinforcement Learning from from AI Feedback.md",
-    "Articles/The Ultra-Scale Playbook - Training LLMs on GPU Clusters (HuggingFace, 2025).md",
-    "().md",
-    "Mixed Precision.md",
-    "Maximal Update Parameterization.md",
-    "Articles/Chip Huyen Agents.md",
-    "Thinking LLMs.md",
-    "Iterative Reasoning Preference Optimization.md",
-    "Streaming Multiprocessor.md",
-    "CUDA.md",
     "Load",
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
@@ -1451,7 +1486,6 @@
     "Papers/RL",
     "Courses/Machine Learning/Spinning Up in RL",
     "Papers/VLMs",
-    "Articles/Untitled",
-    "Courses/Berkeley Agents"
+    "Articles/Untitled"
   ]
 }

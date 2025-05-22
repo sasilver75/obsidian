@@ -76,7 +76,7 @@
 - [[Jensen's Inequality]]
 - [[Evidence Lower Bound]] (ELBO)
 - [[Variational Bayesian Inference]] ("Variational Bayes")
-- [[Gaussian Distribution]] (Normal Distribution)
+- [ ] [[Gaussian Distribution]] (Normal Distribution)
 - [[Bernoulli Distribution]]
 - [[Binomial Distribution]] (Probability that I get X heads in N flips)
 - [[Uniform Distribution]]
