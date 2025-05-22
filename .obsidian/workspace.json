@@ -32,6 +32,54 @@
             }
           },
           {
+            "id": "20bcd3378bd15fee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Back Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Back Cache"
+            }
+          },
+          {
+            "id": "3eee6ca38bdc2f0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LSM Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LSM Tree"
+            }
+          },
+          {
             "id": "e8bef326e706d270",
             "type": "leaf",
             "state": {
@@ -53,54 +101,6 @@
               },
               "icon": "lucide-file",
               "title": "Eventual Consistency"
-            }
-          },
-          {
-            "id": "06267ba686d75fd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "QuadTree.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "QuadTree"
-            }
-          },
-          {
-            "id": "849c669100349e93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R-Tree.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "R-Tree"
             }
           }
         ]
@@ -713,23 +713,27 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250521204137.png",
+    "_attachments/Pasted image 20250521203842.png",
+    "_attachments/Pasted image 20250521193853.png",
+    "LSM Tree.md",
+    "Cassandra.md",
+    "Write-Back Cache.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "_attachments/Pasted image 20250521190219.png",
+    "Write-Ahead Log.md",
+    "_attachments/Pasted image 20250521182627.png",
+    "_attachments/Pasted image 20250521182626.png",
+    "_attachments/Pasted image 20250521182625.png",
     "_attachments/Pasted image 20250521144107.png",
     "Cassandra Query Language.md",
-    "Cassandra.md",
     "_attachments/Pasted image 20250521141754.png",
     "_attachments/Pasted image 20250521141604.png",
     "_attachments/Pasted image 20250521141342.png",
     "Eventual Consistency.md",
     "QuadTree.md",
-    "_attachments/Pasted image 20250521134107.png",
     "API Gateway.md",
     "Service Mesh.md",
-    "_attachments/Pasted image 20250521130329.png",
-    "_attachments/Pasted image 20250521130153.png",
-    "_attachments/Pasted image 20250521130003.png",
-    "_attachments/Pasted image 20250521125943.png",
-    "_attachments/Pasted image 20250521125753.png",
-    "_attachments/Pasted image 20250521125639.png",
     "Kafka.md",
     "Short Polling.md",
     "~ Quiz.md",
@@ -745,10 +749,6 @@
     "B-Tree.md",
     "ElasticSearch.md",
     "Geospatial Indexes.md",
-    "Courses/SystemDesign/SDIAH Numbers to Know.md",
-    "~ Vocabulary.md",
-    "Consensus.md",
-    "Vector Search.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
