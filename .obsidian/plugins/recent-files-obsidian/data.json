@@ -5,6 +5,18 @@
       "path": "Flink.md"
     },
     {
+      "basename": "Watermark",
+      "path": "Watermark.md"
+    },
+    {
+      "basename": "Checkpoint",
+      "path": "Checkpoint.md"
+    },
+    {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Complex Event Processing",
       "path": "Complex Event Processing.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Network Address Translation",
       "path": "Network Address Translation.md"
-    },
-    {
-      "basename": "WebRTC",
-      "path": "WebRTC.md"
-    },
-    {
-      "basename": "HTTPS",
-      "path": "HTTPS.md"
-    },
-    {
-      "basename": "SDIAH Networking Essentials",
-      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
     }
   ],
   "omittedPaths": [],

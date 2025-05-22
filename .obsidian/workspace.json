@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "0ac240744e445cfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Watermark.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Watermark"
+            }
+          },
+          {
             "id": "dffc8722949fceed",
             "type": "leaf",
             "state": {
@@ -736,10 +760,17 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
+    "Watermark.md",
+    "Flink.md",
+    "Checkpoint.md",
+    "conflict-files-obsidian-git.md",
+    "Serializability.md",
+    "RocksDB.md",
+    "Linearizability.md",
+    "BASE.md",
     "_attachments/Pasted image 20250522114149.png",
     "_attachments/Pasted image 20250522113704.png",
     "Complex Event Processing.md",
-    "Flink.md",
     "Avro.md",
     "_attachments/Pasted image 20250522103106.png",
     "Eventual Consistency.md",
@@ -755,7 +786,6 @@
     "_attachments/Pasted image 20250521190219.png",
     "Write-Ahead Log.md",
     "_attachments/Pasted image 20250521182627.png",
-    "_attachments/Pasted image 20250521182626.png",
     "Cassandra Query Language.md",
     "QuadTree.md",
     "API Gateway.md",
@@ -766,12 +796,6 @@
     "Vertical Scaling.md",
     "Horizontal Scaling.md",
     "Geohash.md",
-    "Index.md",
-    "B+ Tree.md",
-    "Courses/SystemDesign/SDIAH Database Indexing.md",
-    "Geospatial Index.md",
-    "R-Tree.md",
-    "Hash Index.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

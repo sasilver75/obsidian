@@ -1,5 +1,10 @@
 SDIAH Link: https://www.hellointerview.com/learn/system-design/deep-dives/flink
 
+
+Resources:
+- Flink: https://flink.apache.org/what-is-flink/flink-architecture/
+- Flink Paper: https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf
+
 Many System Design problems will require **[[Stream]] Processing**, where you have a continuous flow of data and you want to process, transform, or analyze it in real time.
 - **Stream Processing** actually hard and expensive to get right! Many problems that *seem* like stream processing problems can actually be reduced to **Batch Processing** problems where you'd use something like [[Spark]] (or Haddoop, if you're old).
 - Before embarking on a Stream processing solution, ==ask yourself: "**Do I really need real-time latencies?**"== ***For many problems, the answer is No***, and the Engineer after you will thank you for saving them the ops headache.
@@ -148,7 +153,7 @@ The end result of this state-based operator is that it ==maintains an ongoing co
 	- Different processing speeds across partitions
 	- Source system delays or failures
 	- Varying latencies in different parts of the system
-- [[[Watermark]]s are Flink's solution to the problem:
+- [[Watermark]]s are Flink's solution to the problem:
 	- A water mark is essentially a timestamp that flows through the system alongside streaming data, and declares: =="all events with timestamps before this watermark have arrived."==
 	- As an example, you might receive the the watermark that lets you know 5PM has passed at 5:01:15PM.
 	- This ensures that we have sufficient time to process all data that might have been created at 4:59PM but processed late.
@@ -370,19 +375,60 @@ The net result is that each **Task Manager** has a granular set of **Task Slots*
 ==**NOTE**==: The choice of state backend is crucial for production systems; memory state backend is fast but limited by RAM, while RocksDB can handle terabytes of state, but with higher latency.
 
 #### Checkpointing and Exactly-Once Processing
-- State is awesome, except when we need t orecover from failure!
-- This 
+- State is awesome, except when we need to recover from failure! This is where [[Checkpoint]] becomes important.
+-  Flink's checkpointing mechanism is based on the [Chandy-Lamport algorithm](https://en.wikipedia.org/wiki/Chandy-Lamport_algorithm) for distributed snapshots, which sounds harder to understand than it really is.
+	- [[Chandy-Lamport Algorithm]]
+- Remember with watermarking we're pushing an event through the system that declares "all events with timestamp ≤ T have arrived". 
+	- With checkpointing, we're taking a snapshot of the state of the system at a given point in time, functionally after all events before the checkpoint have arrived. 
+	- The job manager takes the lead in this process.
+		- The job manger initiates a checkpoint by sending a "checkpoint barrier" to the ources
+		- This barrier is a special event that flows through the job topology alongside data
+		- When an operator receives barriers from all inputs, it snapshots their state (serializes it and stores in backend). When all operators complete their snapshots, the checkpoint is complete and registered with the job manager.
+- With these checkpoitns, we can restore teh state of a system from the checkpoint, and resume processing from there!
+
+
+1. ==Failure Detection==: The Job Manager notices that a Task Manager is no longer sending [[Heartbeat]]s. It marks that Task Manager as failed.
+    
+2. ==Job Pause==: The **entire job is paused**. All tasks, even those running on healthy Task Managers, are stopped. This is important because Flink treats the job as a whole unit for consistency.
+    
+3. ==State Recovery==: Flink **retrieves the most recent checkpoint** from the state backend (which could be in memory, filesystem, or RocksDB depending on your configuration).
+    
+4. ==Task Redistribution==: The Job Manager **redistributes all the tasks that were running on the failed Task Manager to the remaining healthy Task Managers**. It may also redistribute other tasks to balance the load.
+    
+5. ==State Restoration==: **Each task restores its state from the checkpoint**. This means every operator gets back exactly the data it had processed up to the checkpoint.
+    
+6. ==Source Rewind==: **Source operators rewind to their checkpoint positions**. For example, a Kafka consumer would go back to the offset it had at checkpoint time.
+    
+7. ==Resume Processing==: The **job resumes processing from the checkpoint**. Since the checkpoint contains information about exactly which records were processed, Flink guarantees **==exactly-once processing==** even after a failure.
+
+
+**==Note==**: Flink guarantees ==exactly-once semantics== for internal state operations, but ==this doesn't automatically extend to external systems==. For example, when making API calls or writing to external databases, you may still process the same record multiple times in case of failure and recovery. You need to implement [[Idempotent]] operations or transactional behavior when interacting with external systems to achieve true end-to-end exactly-once processing.
 
 
 
+-------
+
+# Using Flink in an Interview
+
+1. **==It's usually overkill for simple stream processing==**. If you just need to transform messages as they flow through Kafka, setting up a service which consumes from Kafka is probably sufficient.
+2. Flink requires **significant operational overhead**. You need to consider **deployment**, **monitoring**, and **scaling** of the Flink cluster.
+3. **State management is both Flink's superpower and i biggest operational challenge**. Be prepared to discuss how you'll manage state growth and recovery.
+4. **Window choice** dramatically impacts both accuracy and resource usage. Be ready to justify your windowing decisions.
+5. **Consider whether you really need exactly-once processing**. It comes with performance overhead and complexity.
+
+While it might seem as though you can model _everything_ as a stream processing job that you can throw into Flink, I wouldn't recommend it. First because many interviewers aren't all familiar with all of Flink's capabilities which might mean they evaluate your solution incorrectly, and secondly because Flink adds complexity overhead which may or may not be appropriate for your problem! Use it where it fits.
+
+# Lessons from Flink
+- There are several lessons from its design:
+
+1. **Separation of Time Domains**: Flink's separation of ==[[Processing Time]]== and ==[[Event Time]]== is a powerful pattern that can be applied to many distributed systems problems.
+2. **Watermarks for Progress Tracking**: The ==[[Watermark]]== concept can be useful in any system that needs to track progress through unordered events.
+3. **State Management Patterns**: Flink's approach to state management, including **local state** and **checkpointing**, can inform the design of other stateful distributed systems.
+4. **Exactly-Once Processing**: The techniques Flink uses to achieve **exactly-once processing** can be applied to other streaming systems.
+5. **Resource Isolation**: Flink's **slot-based resource management** provides a clean way to isolate and share resources in a distributed system.
 
 
-
-
-
-
-
-
+Flink is a powerful tool for stateful stream processing that should be ready at your hip for any system design interview involving streaming data. While it's not always the right tool for the job, it's a powerful option to have in your toolbox and some of the design decisions made by Flink's designers can be applied to other systems.
 
 
 
