@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Flink",
+      "path": "Flink.md"
+    },
+    {
+      "basename": "Complex Event Processing",
+      "path": "Complex Event Processing.md"
+    },
+    {
+      "basename": "Avro",
+      "path": "Avro.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
       "basename": "Cassandra",
       "path": "Cassandra.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "Cassandra Query Language",
       "path": "Cassandra Query Language.md"
-    },
-    {
-      "basename": "Eventual Consistency",
-      "path": "Eventual Consistency.md"
     },
     {
       "basename": "QuadTree",
@@ -187,18 +199,6 @@
     {
       "basename": "SDIAH Networking Essentials",
       "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "Retry",
-      "path": "Retry.md"
-    },
-    {
-      "basename": "SDIAH Common Patterns",
-      "path": "Courses/SystemDesign/SDIAH Common Patterns.md"
-    },
-    {
-      "basename": "Recommendation System",
-      "path": "Recommendation System.md"
     }
   ],
   "omittedPaths": [],

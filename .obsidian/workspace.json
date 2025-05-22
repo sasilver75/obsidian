@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cassandra.md",
+                "file": "Flink.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cassandra"
+              "title": "Flink"
+            }
+          },
+          {
+            "id": "dffc8722949fceed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Complex Event Processing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Complex Event Processing"
             }
           },
           {
@@ -180,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -713,24 +736,27 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250522114149.png",
+    "_attachments/Pasted image 20250522113704.png",
+    "Complex Event Processing.md",
+    "Flink.md",
+    "Avro.md",
+    "_attachments/Pasted image 20250522103106.png",
+    "Eventual Consistency.md",
+    "_attachments/Pasted image 20250522095426.png",
+    "_attachments/Pasted image 20250522094641.png",
+    "Cassandra.md",
     "_attachments/Pasted image 20250521204137.png",
     "_attachments/Pasted image 20250521203842.png",
     "_attachments/Pasted image 20250521193853.png",
     "LSM Tree.md",
-    "Cassandra.md",
     "Write-Back Cache.md",
     "Courses/SystemDesign/SDIAH Key Technologies.md",
     "_attachments/Pasted image 20250521190219.png",
     "Write-Ahead Log.md",
     "_attachments/Pasted image 20250521182627.png",
     "_attachments/Pasted image 20250521182626.png",
-    "_attachments/Pasted image 20250521182625.png",
-    "_attachments/Pasted image 20250521144107.png",
     "Cassandra Query Language.md",
-    "_attachments/Pasted image 20250521141754.png",
-    "_attachments/Pasted image 20250521141604.png",
-    "_attachments/Pasted image 20250521141342.png",
-    "Eventual Consistency.md",
     "QuadTree.md",
     "API Gateway.md",
     "Service Mesh.md",
@@ -746,9 +772,6 @@
     "Geospatial Index.md",
     "R-Tree.md",
     "Hash Index.md",
-    "B-Tree.md",
-    "ElasticSearch.md",
-    "Geospatial Indexes.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
