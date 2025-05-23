@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flink.md",
+                "file": "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Flink"
+              "title": "Design Bit.ly"
             }
           },
           {
@@ -760,8 +760,12 @@
   },
   "active": "8cdf31e3d99192a5",
   "lastOpenFiles": [
-    "Watermark.md",
+    "Courses/SystemDesign/Case Studies/Design TicketMaster.md",
+    "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
+    "_attachments/Pasted image 20250523113102.png",
     "Flink.md",
+    "Courses/SystemDesign/Case Studies",
+    "Watermark.md",
     "Checkpoint.md",
     "conflict-files-obsidian-git.md",
     "Serializability.md",
@@ -785,7 +789,6 @@
     "Courses/SystemDesign/SDIAH Key Technologies.md",
     "_attachments/Pasted image 20250521190219.png",
     "Write-Ahead Log.md",
-    "_attachments/Pasted image 20250521182627.png",
     "Cassandra Query Language.md",
     "QuadTree.md",
     "API Gateway.md",
@@ -794,8 +797,6 @@
     "Short Polling.md",
     "~ Quiz.md",
     "Vertical Scaling.md",
-    "Horizontal Scaling.md",
-    "Geohash.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
@@ -804,7 +805,6 @@
     "Courses/Machine Learning/Spinning Up in RL",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
-    "Papers/VLMs",
-    "Articles/Untitled"
+    "Papers/VLMs"
   ]
 }

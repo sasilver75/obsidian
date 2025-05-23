@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Design Bit.ly",
+      "path": "Courses/SystemDesign/Case Studies/Design Bit.ly.md"
+    },
+    {
+      "basename": "Design TicketMaster",
+      "path": "Courses/SystemDesign/Case Studies/Design TicketMaster.md"
+    },
+    {
       "basename": "Flink",
       "path": "Flink.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "CAP Theorem",
       "path": "CAP Theorem.md"
-    },
-    {
-      "basename": "Network Address Translation",
-      "path": "Network Address Translation.md"
     }
   ],
   "omittedPaths": [],
