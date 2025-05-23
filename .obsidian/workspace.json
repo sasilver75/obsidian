@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Base62.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Base62"
+            }
+          },
+          {
+            "id": "0ac240744e445cfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
                 "mode": "source",
                 "source": false,
@@ -29,30 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "Design Bit.ly"
-            }
-          },
-          {
-            "id": "0ac240744e445cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Watermark.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Watermark"
             }
           },
           {
@@ -151,7 +151,8 @@
               "title": "Eventual Consistency"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,11 +225,13 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -758,14 +761,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8cdf31e3d99192a5",
+  "active": "0ac240744e445cfc",
   "lastOpenFiles": [
-    "Courses/SystemDesign/Case Studies/Design TicketMaster.md",
+    "_attachments/Pasted image 20250523133101.png",
+    "_attachments/Pasted image 20250523132338.png",
+    "_attachments/Pasted image 20250523131956.png",
+    "Untitled 10.md",
     "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
+    "Untitled 9.md",
+    "Cache Invalidation Strategy.md",
+    "Base62.md",
+    "Watermark.md",
+    "_attachments/Pasted image 20250523122039.png",
+    "Base64.md",
+    "_attachments/Pasted image 20250523120748.png",
+    "_attachments/Pasted image 20250523120746.png",
+    "Courses/SystemDesign/Case Studies/Design TicketMaster.md",
     "_attachments/Pasted image 20250523113102.png",
     "Flink.md",
     "Courses/SystemDesign/Case Studies",
-    "Watermark.md",
     "Checkpoint.md",
     "conflict-files-obsidian-git.md",
     "Serializability.md",
@@ -779,24 +793,13 @@
     "_attachments/Pasted image 20250522103106.png",
     "Eventual Consistency.md",
     "_attachments/Pasted image 20250522095426.png",
-    "_attachments/Pasted image 20250522094641.png",
     "Cassandra.md",
-    "_attachments/Pasted image 20250521204137.png",
-    "_attachments/Pasted image 20250521203842.png",
-    "_attachments/Pasted image 20250521193853.png",
     "LSM Tree.md",
     "Write-Back Cache.md",
     "Courses/SystemDesign/SDIAH Key Technologies.md",
-    "_attachments/Pasted image 20250521190219.png",
     "Write-Ahead Log.md",
     "Cassandra Query Language.md",
     "QuadTree.md",
-    "API Gateway.md",
-    "Service Mesh.md",
-    "Kafka.md",
-    "Short Polling.md",
-    "~ Quiz.md",
-    "Vertical Scaling.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

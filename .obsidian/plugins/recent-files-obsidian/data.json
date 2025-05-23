@@ -5,16 +5,36 @@
       "path": "Courses/SystemDesign/Case Studies/Design Bit.ly.md"
     },
     {
+      "basename": "Untitled 10",
+      "path": "Untitled 10.md"
+    },
+    {
+      "basename": "Untitled 9",
+      "path": "Untitled 9.md"
+    },
+    {
+      "basename": "Cache Invalidation Strategy",
+      "path": "Cache Invalidation Strategy.md"
+    },
+    {
+      "basename": "Base62",
+      "path": "Base62.md"
+    },
+    {
+      "basename": "Watermark",
+      "path": "Watermark.md"
+    },
+    {
+      "basename": "Base64",
+      "path": "Base64.md"
+    },
+    {
       "basename": "Design TicketMaster",
       "path": "Courses/SystemDesign/Case Studies/Design TicketMaster.md"
     },
     {
       "basename": "Flink",
       "path": "Flink.md"
-    },
-    {
-      "basename": "Watermark",
-      "path": "Watermark.md"
     },
     {
       "basename": "Checkpoint",
@@ -179,26 +199,6 @@
     {
       "basename": "Read-your-Writes Consistency",
       "path": "Read-your-Writes Consistency.md"
-    },
-    {
-      "basename": "Causal Consistency",
-      "path": "Causal Consistency.md"
-    },
-    {
-      "basename": "Strong Consistency",
-      "path": "Strong Consistency.md"
-    },
-    {
-      "basename": "Distributed Transaction",
-      "path": "Distributed Transaction.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "ACID.md"
-    },
-    {
-      "basename": "CAP Theorem",
-      "path": "CAP Theorem.md"
     }
   ],
   "omittedPaths": [],
