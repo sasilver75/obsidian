@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "Transactions",
       "path": "Transactions.md"
     },
@@ -19,84 +20,210 @@
     {
       "basename": "RocksDB",
       "path": "RocksDB.md"
+=======
+      "basename": "Design Bit.ly",
+      "path": "Courses/SystemDesign/Case Studies/Design Bit.ly.md"
+>>>>>>> 531190487e1664041ec824f94266e25332faf7bd
     },
     {
-      "basename": "Serializability",
-      "path": "Serializability.md"
+      "basename": "Untitled 10",
+      "path": "Untitled 10.md"
     },
     {
-      "basename": "Linearizability",
-      "path": "Linearizability.md"
+      "basename": "Untitled 9",
+      "path": "Untitled 9.md"
     },
     {
-      "basename": "Lottery Ticket Hypothesis",
-      "path": "Lottery Ticket Hypothesis.md"
+      "basename": "Cache Invalidation Strategy",
+      "path": "Cache Invalidation Strategy.md"
     },
     {
-      "basename": "BASE",
-      "path": "BASE.md"
+      "basename": "Base62",
+      "path": "Base62.md"
     },
     {
-      "basename": "Kullback-Leibler Divergence",
-      "path": "Kullback-Leibler Divergence.md"
+      "basename": "Watermark",
+      "path": "Watermark.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Jonathan Frankle",
       "path": "Jonathan Frankle.md"
+=======
+      "basename": "Base64",
+      "path": "Base64.md"
     },
     {
-      "basename": "~ Useful Pictures",
-      "path": "~ Useful Pictures.md"
+      "basename": "Design TicketMaster",
+      "path": "Courses/SystemDesign/Case Studies/Design TicketMaster.md"
+>>>>>>> 531190487e1664041ec824f94266e25332faf7bd
+    },
+    {
+      "basename": "Flink",
+      "path": "Flink.md"
+    },
+    {
+      "basename": "Checkpoint",
+      "path": "Checkpoint.md"
+    },
+    {
+      "basename": "Complex Event Processing",
+      "path": "Complex Event Processing.md"
+    },
+    {
+      "basename": "Avro",
+      "path": "Avro.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
+      "basename": "Cassandra",
+      "path": "Cassandra.md"
+    },
+    {
+      "basename": "LSM Tree",
+      "path": "LSM Tree.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "SDIAH Key Technologies",
+      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "Write-Ahead Log",
+      "path": "Write-Ahead Log.md"
+    },
+    {
+      "basename": "Cassandra Query Language",
+      "path": "Cassandra Query Language.md"
+    },
+    {
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "API Gateway.md"
+    },
+    {
+      "basename": "Service Mesh",
+      "path": "Service Mesh.md"
+    },
+    {
+      "basename": "Kafka",
+      "path": "Kafka.md"
+    },
+    {
+      "basename": "Short Polling",
+      "path": "Short Polling.md"
+    },
+    {
+      "basename": "~ Quiz",
+      "path": "~ Quiz.md"
+    },
+    {
+      "basename": "Vertical Scaling",
+      "path": "Vertical Scaling.md"
+    },
+    {
+      "basename": "Horizontal Scaling",
+      "path": "Horizontal Scaling.md"
+    },
+    {
+      "basename": "Geohash",
+      "path": "Geohash.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Index.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "B+ Tree.md"
+    },
+    {
+      "basename": "SDIAH Database Indexing",
+      "path": "Courses/SystemDesign/SDIAH Database Indexing.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "Hash Index",
+      "path": "Hash Index.md"
+    },
+    {
+      "basename": "B-Tree",
+      "path": "B-Tree.md"
+    },
+    {
+      "basename": "ElasticSearch",
+      "path": "ElasticSearch.md"
+    },
+    {
+      "basename": "SDIAH Numbers to Know",
+      "path": "Courses/SystemDesign/SDIAH Numbers to Know.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Unit 2 LangGraph",
-      "path": "Courses/HuggingFaceAgents/Unit 2 LangGraph.md"
+      "basename": "Consensus",
+      "path": "Consensus.md"
     },
     {
-      "basename": "Unit 2 LlamaIndex Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 2 LlamaIndex Notes.md"
+      "basename": "Vector Search",
+      "path": "Vector Search.md"
     },
     {
-      "basename": "Unit 3 Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 3 Notes.md"
+      "basename": "Replication",
+      "path": "Replication.md"
     },
     {
-      "basename": "Unit 2 Smolagents Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md"
+      "basename": "Internet Protocol",
+      "path": "Internet Protocol.md"
     },
     {
-      "basename": "Unit 1 Notes",
-      "path": "Courses/HuggingFaceAgents/Unit 1 Notes.md"
+      "basename": "Sharding",
+      "path": "Sharding.md"
     },
     {
-      "basename": "FlashAttention",
-      "path": "FlashAttention.md"
+      "basename": "Expiration Policy",
+      "path": "Expiration Policy.md"
     },
     {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
+      "basename": "Redis",
+      "path": "Redis.md"
     },
     {
-      "basename": "SRAM",
-      "path": "SRAM.md"
+      "basename": "Rate Limiting",
+      "path": "Rate Limiting.md"
     },
     {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
+      "basename": "gRPC",
+      "path": "gRPC.md"
     },
     {
-      "basename": "Reasoning",
-      "path": "Reasoning.md"
+      "basename": "Untitled 8",
+      "path": "Untitled 8.md"
     },
     {
-      "basename": "Grouped Query Attention",
-      "path": "Grouped Query Attention.md"
+      "basename": "Consistent Hashing",
+      "path": "Consistent Hashing.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Vision Large Language Models (vLLMs)",
       "path": "Articles/Vision Large Language Models (vLLMs).md"
     },
@@ -199,6 +326,10 @@
     {
       "basename": "Monte-Carlo Tree Search",
       "path": "Monte-Carlo Tree Search.md"
+=======
+      "basename": "Read-your-Writes Consistency",
+      "path": "Read-your-Writes Consistency.md"
+>>>>>>> 531190487e1664041ec824f94266e25332faf7bd
     }
   ],
   "omittedPaths": [],
