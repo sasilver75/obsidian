@@ -58,7 +58,7 @@ When textbooks talk about splitting databases at 100GB or avoiding large objects
 
 ### Databases
 - The raw power of modern databases surprises even experienced engineers.
-- Single [[PostgresDB|Postgres]] or [[MySQL]] instances now routinely handle ==dozens of TB of data while maintaining millisecond-level response times, and handle tens of thousands of transactions per second on a single primary==, with the bottleneck often being operational concerns rather than performance limits.
+- Single [[PostgreSQL|Postgres]] or [[MySQL]] instances now routinely handle ==dozens of TB of data while maintaining millisecond-level response times, and handle tens of thousands of transactions per second on a single primary==, with the bottleneck often being operational concerns rather than performance limits.
 **Numbers to Know**:
 - ==Storage==: Single instances handle ==up to 64TiB== for most database engines, with [[Amazon Aurora]] supporting up to ==128TiB== in some configurations.
 - ==Latency==: 
@@ -144,7 +144,7 @@ When to consider sharidng:
 	- Incorrect estimates routinely lead to over-engineering. 
 	- ==Imagine that we have a system with 5,000 writes per second! Candidates will often jump to adding a message queue to buffer this "high" write throughput, but they don't need to!==
 	- Let's put this in perspective:
-		- **A well-tuned [[PostgresDB|Postgres]] instance with simple writes should be able to handle 20k+ writes per second!**
+		- **A well-tuned [[PostgreSQL|Postgres]] instance with simple writes should be able to handle 20k+ writes per second!**
 		- ==What actually limits write capacity are== things like complex transactions spanning multiple tables, [[Write Amplification]] from excessive indexes, writes that trigger expensive cascading updates, or heavy concurrent reads competing with writes.
 	- Message Queues become valuable when you need **guaranteed delivery** in case of downstream failures, event sourcing patterns, or handling write **spikes** above 50k+ WPS, or just generally decoupling producers from consumers... but they add complexity and should be justified by actual requirements!
 		- Before reaching for a message queue, we should consider simpler optimizations like **==batch writes==**, **optimizing our schema and indexes**, and **using ==connection pooling== effectively,** or **using ==async commits== for non-critical writes.**

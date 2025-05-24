@@ -8,7 +8,7 @@ In this section we'll walk through some of the key categories of technologies re
 
 # Core Database
 - Almost all system design problems will require you to store some data, and you're most likely going to be storing it in either a database or in blob storage.
-- The most common types are [[Relational Database]]s (e.g. [[PostgresDB|Postgres]]) and [[NoSQL Database]]s (e.g. [[DynamoDB]]). 
+- The most common types are [[Relational Database]]s (e.g. [[PostgreSQL|Postgres]]) and [[NoSQL Database]]s (e.g. [[DynamoDB]]). 
 	- We recommend picking ONE for your interview.
 		- If you're talking predominantly product design interviews, we recommend a relational database.
 		- If you're taking predominantly infrastructure design interviews, we recommend a NoSQL database.
@@ -120,7 +120,7 @@ Things to know about search-optimized databases:
 Examples of search-optimized databases:
 - The clear leader is [[ElasticSearch]]
 	- A distributed, RESTful search or analytics engine built on top of Apache [[Lucene]], designed to be fast/scalable/easy to use.
-- Other options include [[PostgresDB|Postgres]]'s use of [[GIN Index]]es ,which support full-text search. [[Redis]] has a quite immature and bad full-search capability.
+- Other options include [[PostgreSQL|Postgres]]'s use of [[GIN Index]]es ,which support full-text search. [[Redis]] has a quite immature and bad full-search capability.
 
 
 

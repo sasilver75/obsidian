@@ -11,3 +11,4 @@ Atomic:
 
 
 
+A set of atomically executed operations that all either succeed or fail together.

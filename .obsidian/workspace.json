@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geospatial Index.md",
+                "file": "Transaction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geospatial Index"
+              "title": "Transaction"
             }
           },
           {
@@ -1508,9 +1508,15 @@
   },
   "active": "5cbfe6e60595a39d",
   "lastOpenFiles": [
+    "Geospatial Index.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled 11.md",
+    "PostgreSQL.md",
+    "Multiversion Concurrency Control.md",
+    "GiST.md",
+    "GIN Index.md",
     "Index.md",
     "B-Tree.md",
-    "Geospatial Index.md",
     "Composite Index.md",
     "Time-Series Database.md",
     "Blob Storage.md",
@@ -1531,13 +1537,7 @@
     "_attachments/Pasted image 20250523220300.png",
     "_attachments/Pasted image 20250523220225.png",
     "Global Secondary Index.md",
-    "Secondary Index.md",
-    "Locality Sensitive Hashing.md",
-    "Sharding.md",
     "_attachments/Pasted image 20250523210717.png",
-    "Hot Spot.md",
-    "Replication.md",
-    "Protobuf.md",
     "_attachments/Pasted image 20250523204026.png",
     "_attachments/Pasted image 20250523204016.png",
     "_attachments/Pasted image 20250523133101.png",
