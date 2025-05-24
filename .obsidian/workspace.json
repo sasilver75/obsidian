@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RocksDB.md",
+                "file": "Transactions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RocksDB"
+              "title": "Transactions"
             }
           }
         ]
@@ -1334,12 +1334,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7c3833eb24d873d3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 120
+        "currentTab": 121
       },
       {
         "id": "8a022290161ffefa",
@@ -1402,8 +1412,12 @@
   },
   "active": "704e5fc1e0359222",
   "lastOpenFiles": [
-    "Serializability.md",
+    "LSM Tree.md",
+    "Transactions.md",
+    "B+ Tree.md",
+    "Hash Index.md",
     "RocksDB.md",
+    "Serializability.md",
     "Linearizability.md",
     "Lottery Ticket Hypothesis.md",
     "BASE.md",
@@ -1434,10 +1448,6 @@
     "Retry.md",
     "Replication.md",
     "Redis.md",
-    "Recommendation System.md",
-    "Read-your-Writes Consistency.md",
-    "Rate Limiting.md",
-    "REST.md",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
     "Load",
