@@ -214,7 +214,7 @@ Let's move to our next non-functional requirement: Making the redirect as low la
 	- So we need to introduce [[Index|Indexing]] to our database, which we haven't mentioned yet.
 	- In a Database, we can define a [[Primary Key]], which enforces uniqueness and enforces that an [[Index]] is automatically built on that column in a table.
 	- You can think of this Index as something typically kept in memory, which you can think of as functioning as a **pointer to a location on disk.** We can then go exactly to that place in disk, find the LongURL and return it.
-- If we were using [[PostgresDB|Postgres]], then it likely uses a [[B-Tree]] as an index, which is a self-balancing tree. If you're been studying for coding interviews, you know plenty about these trees!
+- If we were using [[PostgreSQL|Postgres]], then it likely uses a [[B-Tree]] as an index, which is a self-balancing tree. If you're been studying for coding interviews, you know plenty about these trees!
 	- This makes the seeking to the appropriate location **Log(N)**.
 - You also have the option of creating another [[Hash Index]] on this ShortURL, which would be **O(1)**, which would hash the ShortURL and point directly to the place where our LongURL is. **But realistically you don't need to do this, BTrees are so optimized that this would effectively be the same.**
 	- So we're going to memory, using the index to find where to go on disk, and then return the information.

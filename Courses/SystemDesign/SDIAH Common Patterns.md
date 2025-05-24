@@ -70,7 +70,7 @@ Above: Managing ==multi-phase jobs== using a distributed, durable log (e.g. Kafk
 # Proximity-Based Services
 - Several systems like Uber or GoPuff will require you to search for entities by location!
 - [[Geospatial Index]]es are the key to being able to efficiently query and retrieve entities based on their geographic proximity. 
-- **Options:** These services often rely on extensions to commodity databases like [[PostgresDB|Postgres]] with [[PostGIS]] extensions, or on [[Redis]]'s geospatial datatype, or dedicated solutions like [[ElasticSearch]] with geo-queries enabled.
+- **Options:** These services often rely on extensions to commodity databases like [[PostgreSQL|Postgres]] with [[PostGIS]] extensions, or on [[Redis]]'s geospatial datatype, or dedicated solutions like [[ElasticSearch]] with geo-queries enabled.
 - These architectures typically involve dividing **up** the geographic area into manageable regions and indexing entities within these regions. This allows the system to quickly exclude vast areas that don't contain relevant entities, thereby reducing the search space significantly.
 - ==NOTE==: Geospatial indices are great, but if you've only got 1,000 items, you may be better off just scanning all of the items rather than incur the overhead of managing an additional purpose-built index or service.
 - **==NOTE==**: Most systems won't require users to be querying *globally*; often, when proximity is involved, users are just looking for entities *local* to them!****
