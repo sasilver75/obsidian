@@ -1,4 +1,7 @@
 
+For a B-Tree, nodes are typically the same size as dat pages (~4KB, 8KB, or 16KB, depending on the database)
+
+
 ![[Pasted image 20250520180143.png]]
 
 B-Trees have become the default choice for most database indexes because they excel at everything databases need:

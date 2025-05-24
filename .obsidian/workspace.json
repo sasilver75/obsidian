@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "27340a8ae3960bf6",
+        "id": "95d99a6912e62bee",
         "type": "tabs",
         "children": [
           {
-            "id": "704e5fc1e0359222",
+            "id": "5cbfe6e60595a39d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transactions.md",
+                "file": "Geospatial Index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Transactions"
+              "title": "Geospatial Index"
+            }
+          },
+          {
+            "id": "9850eccc63d387aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "B-Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "B-Tree"
+            }
+          },
+          {
+            "id": "db1e7f73426b2167",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Two-Phase Locking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Two-Phase Locking"
+            }
+          },
+          {
+            "id": "e697ace9aaad251d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Consistent Hashing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Consistent Hashing"
+            }
+          },
+          {
+            "id": "36db9dd373971f91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HDFS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HDFS"
             }
           }
         ]
@@ -1410,45 +1506,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "704e5fc1e0359222",
+  "active": "5cbfe6e60595a39d",
   "lastOpenFiles": [
+    "Index.md",
+    "B-Tree.md",
+    "Geospatial Index.md",
+    "Composite Index.md",
+    "Time-Series Database.md",
+    "Blob Storage.md",
+    "AWS Application Load Balancer.md",
+    "Amazon Aurora.md",
+    "Distributed File System.md",
+    "Three-Phase Commit.md",
+    "Two-Phase Locking.md",
+    "Consistent Hashing.md",
+    "HDFS.md",
+    "Full-Text Search Index.md",
+    "_attachments/Pasted image 20250524100034.png",
+    "Stream Processing.md",
+    "Batch Processing.md",
+    "Redis.md",
+    "Two-Phase Commit.md",
+    "Local Secondary Index.md",
+    "_attachments/Pasted image 20250523220300.png",
+    "_attachments/Pasted image 20250523220225.png",
+    "Global Secondary Index.md",
+    "Secondary Index.md",
+    "Locality Sensitive Hashing.md",
+    "Sharding.md",
+    "_attachments/Pasted image 20250523210717.png",
+    "Hot Spot.md",
+    "Replication.md",
+    "Protobuf.md",
+    "_attachments/Pasted image 20250523204026.png",
+    "_attachments/Pasted image 20250523204016.png",
     "_attachments/Pasted image 20250523133101.png",
     "_attachments/Pasted image 20250523132338.png",
     "_attachments/Pasted image 20250523131956.png",
     "_attachments/Pasted image 20250523122039.png",
-    "_attachments/Pasted image 20250523120748.png",
-    "_attachments/Pasted image 20250523120746.png",
-    "_attachments/Pasted image 20250523113102.png",
-    "_attachments/Pasted image 20250522114149.png",
-    "_attachments/Pasted image 20250522113704.png",
-    "_attachments/Pasted image 20250522103106.png",
-    "_attachments/Pasted image 20250522095426.png",
-    "Watermark.md",
-    "Untitled 9.md",
-    "Untitled 10.md",
-    "Flink.md",
-    "Courses/SystemDesign/Case Studies/Design TicketMaster.md",
-    "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
     "Courses/SystemDesign/Case Studies",
-    "Complex Event Processing.md",
-    "Checkpoint.md",
-    "Cache Invalidation Strategy.md",
-    "Base64.md",
-    "Base62.md",
-    "Avro.md",
-    "LSM Tree.md",
-    "Transactions.md",
-    "B+ Tree.md",
-    "Hash Index.md",
-    "RocksDB.md",
-    "Serializability.md",
-    "Linearizability.md",
-    "Lottery Ticket Hypothesis.md",
-    "BASE.md",
-    "Kullback-Leibler Divergence.md",
-    "conflict-files-obsidian-git.md",
-    "gRPC.md",
-    "Write-Back Cache.md",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
     "Load",
