@@ -5,6 +5,18 @@
       "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
     },
     {
+      "basename": "Mimetype",
+      "path": "Mimetype.md"
+    },
+    {
+      "basename": "Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}",
+      "path": "Articles/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md"
+    },
+    {
+      "basename": "Fingerprint",
+      "path": "Fingerprint.md"
+    },
+    {
       "basename": "SSL Termination",
       "path": "SSL Termination.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "~ Quiz",
       "path": "~ Quiz.md"
-    },
-    {
-      "basename": "Vertical Scaling",
-      "path": "Vertical Scaling.md"
-    },
-    {
-      "basename": "Horizontal Scaling",
-      "path": "Horizontal Scaling.md"
     }
   ],
   "omittedPaths": [],
