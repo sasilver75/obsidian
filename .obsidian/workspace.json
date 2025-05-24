@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6742a26b2be0637e",
+        "id": "5101130851c148bd",
         "type": "tabs",
         "children": [
           {
-            "id": "8cdf31e3d99192a5",
+            "id": "ec250ef858261cf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base62.md",
+                "file": "PostgreSQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Base62"
+              "title": "PostgreSQL"
             }
           },
           {
-            "id": "0ac240744e445cfc",
+            "id": "bd6571b5a76769f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
+                "file": "Transaction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Design Bit.ly"
+              "title": "Transaction"
             }
           },
           {
-            "id": "dffc8722949fceed",
+            "id": "8b6e6cc4c7edc759",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Complex Event Processing.md",
+                "file": "ACID.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,83 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Complex Event Processing"
-            }
-          },
-          {
-            "id": "20bcd3378bd15fee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Write-Back Cache.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Write-Back Cache"
-            }
-          },
-          {
-            "id": "3eee6ca38bdc2f0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LSM Tree.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "LSM Tree"
-            }
-          },
-          {
-            "id": "e8bef326e706d270",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eventual Consistency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Eventual Consistency"
+              "title": "ACID"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -281,82 +208,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "5b50f2312857cfa7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Lecture 01 Denny Zhou"
-            }
-          },
-          {
-            "id": "ace0e39b92066d5f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "aa739906969f18f7",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "01358515f2eb4ba3",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "cfe271e863f50c04",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "3f256f079daca7ce",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "23eeb95eb2bdd9af",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           },
           {
@@ -710,7 +567,7 @@
             }
           }
         ],
-        "currentTab": 44
+        "currentTab": 2
       },
       {
         "id": "8a022290161ffefa",
@@ -722,7 +579,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Courses/Berkeley Agents/Lecture 01 Denny Zhou.md",
+                "file": "PostgreSQL.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -750,7 +607,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Lecture 01 Denny Zhou"
+              "title": "Graph of PostgreSQL"
             }
           }
         ]
@@ -771,13 +628,23 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "05f8819527363c94",
+  "active": "ec250ef858261cf9",
   "lastOpenFiles": [
+    "Transaction.md",
+    "PostgreSQL.md",
+    "ACID.md",
+    "Read-your-Writes Consistency.md",
+    "Untitled 11.md",
+    "GIN Index.md",
+    "GiST.md",
+    "Multiversion Concurrency Control.md",
+    "LSM Tree.md",
+    "Eventual Consistency.md",
+    "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
     "_attachments/Pasted image 20250523133101.png",
     "_attachments/Pasted image 20250523132338.png",
     "_attachments/Pasted image 20250523131956.png",
     "Untitled 10.md",
-    "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
     "Untitled 9.md",
     "Cache Invalidation Strategy.md",
     "Base62.md",
@@ -799,17 +666,7 @@
     "_attachments/Pasted image 20250522114149.png",
     "_attachments/Pasted image 20250522113704.png",
     "Complex Event Processing.md",
-    "Avro.md",
     "_attachments/Pasted image 20250522103106.png",
-    "Eventual Consistency.md",
-    "_attachments/Pasted image 20250522095426.png",
-    "Cassandra.md",
-    "LSM Tree.md",
-    "Write-Back Cache.md",
-    "Courses/SystemDesign/SDIAH Key Technologies.md",
-    "Write-Ahead Log.md",
-    "Cassandra Query Language.md",
-    "QuadTree.md",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

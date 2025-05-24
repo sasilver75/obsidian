@@ -8,7 +8,7 @@ In this section we'll walk through some of the key categories of technologies re
 
 # Core Database
 - Almost all system design problems will require you to store some data, and you're most likely going to be storing it in either a database or in blob storage.
-- The most common types are [[Relational Database]]s (e.g. [[PostgresDB|Postgres]]) and [[NoSQL Database]]s (e.g. [[DynamoDB]]). 
+- The most common types are [[Relational Database]]s (e.g. [[PostgreSQL|Postgres]]) and [[NoSQL Database]]s (e.g. [[DynamoDB]]). 
 	- We recommend picking ONE for your interview.
 		- If you're talking predominantly product design interviews, we recommend a relational database.
 		- If you're taking predominantly infrastructure design interviews, we recommend a NoSQL database.
@@ -26,7 +26,7 @@ In this section we'll walk through some of the key categories of technologies re
 		- A way of storing data that ==makes it faster to query==. You might create an index on the `name` column of your `users` table, allowing you to query for users by name much quicker than if we didn't have the index.
 		- Often implemented using a [[B-Tree]] or [[Hash Map]].
 		- Relational databases support arbitrarily many indexes, which allow you to optimize different queries, and provide support for ==multi-column== and ==specialized indexes== (e.g. geospatial indexes, full-text indexes).
-	- **RDBMS [[Transactions]]**:
+	- **RDBMS [[Transaction]]**:
 		- ==A way of grouping multiple operations together into a single atomic operation.==
 		- If you have a users table and a posts table, you might want to create a new user and a new post for that user at the same time. With a transaction, either both operations will succeed or both will fail, ensuring you don't have invalid data like a post from a user who doesn't exist.
 
@@ -120,7 +120,7 @@ Things to know about search-optimized databases:
 Examples of search-optimized databases:
 - The clear leader is [[ElasticSearch]]
 	- A distributed, RESTful search or analytics engine built on top of Apache [[Lucene]], designed to be fast/scalable/easy to use.
-- Other options include [[PostgresDB|Postgres]]'s use of [[GIN Index]]es ,which support full-text search. [[Redis]] has a quite immature and bad full-search capability.
+- Other options include [[PostgreSQL|Postgres]]'s use of [[GIN Index]]es ,which support full-text search. [[Redis]] has a quite immature and bad full-search capability.
 
 
 

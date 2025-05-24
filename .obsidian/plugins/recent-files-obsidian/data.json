@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "PostgreSQL",
+      "path": "PostgreSQL.md"
+    },
+    {
+      "basename": "Transaction",
+      "path": "Transaction.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "ACID.md"
+    },
+    {
+      "basename": "Read-your-Writes Consistency",
+      "path": "Read-your-Writes Consistency.md"
+    },
+    {
+      "basename": "Untitled 11",
+      "path": "Untitled 11.md"
+    },
+    {
+      "basename": "GIN Index",
+      "path": "GIN Index.md"
+    },
+    {
+      "basename": "GiST",
+      "path": "GiST.md"
+    },
+    {
+      "basename": "Multiversion Concurrency Control",
+      "path": "Multiversion Concurrency Control.md"
+    },
+    {
+      "basename": "LSM Tree",
+      "path": "LSM Tree.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
       "basename": "Design Bit.ly",
       "path": "Courses/SystemDesign/Case Studies/Design Bit.ly.md"
     },
@@ -49,16 +89,8 @@
       "path": "Avro.md"
     },
     {
-      "basename": "Eventual Consistency",
-      "path": "Eventual Consistency.md"
-    },
-    {
       "basename": "Cassandra",
       "path": "Cassandra.md"
-    },
-    {
-      "basename": "LSM Tree",
-      "path": "LSM Tree.md"
     },
     {
       "basename": "Write-Back Cache",
@@ -167,38 +199,6 @@
     {
       "basename": "Internet Protocol",
       "path": "Internet Protocol.md"
-    },
-    {
-      "basename": "Sharding",
-      "path": "Sharding.md"
-    },
-    {
-      "basename": "Expiration Policy",
-      "path": "Expiration Policy.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Redis.md"
-    },
-    {
-      "basename": "Rate Limiting",
-      "path": "Rate Limiting.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "gRPC.md"
-    },
-    {
-      "basename": "Untitled 8",
-      "path": "Untitled 8.md"
-    },
-    {
-      "basename": "Consistent Hashing",
-      "path": "Consistent Hashing.md"
-    },
-    {
-      "basename": "Read-your-Writes Consistency",
-      "path": "Read-your-Writes Consistency.md"
     }
   ],
   "omittedPaths": [],

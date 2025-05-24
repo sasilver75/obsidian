@@ -38,7 +38,7 @@ _________________
 		- Reading and writing to a shared database, which is a network hop away (~1-10ms, ideally)
 		- Keeping multiple redundant copies across each of your servers.
 	- These can both result in race conditions and consistency challenges.
-	- Most database problems are built to resolve some of these directly, e.g. using [[Transactions]], but in other cases you might need to use a [[Distributed Lock]]. 
+	- Most database problems are built to resolve some of these directly, e.g. using [[Transaction]], but in other cases you might need to use a [[Distributed Lock]]. 
 		- Regardless, you'll have to be prepared to talk about how you're going to keep your data [[Consistency|Consistent]].
 
 
@@ -94,7 +94,7 @@ _________________
 - [[Geospatial Index]]es are used to index location data, useful for systems that need to do things like find the nearest restaurant or the nearest gas station.
 - [[Vector Database]] are used to index high-dimensional data, useful for systems that need to do things like find similar images or similar documents.
 - [[Full-Text Search Index]]es are used to index text data, useful for things that need to do things like search for documents or search for tweets.
-- Many mature databases like [[PostgresDB|Postgres]] support extensions that allow you to create specialized indices.
+- Many mature databases like [[PostgreSQL|Postgres]] support extensions that allow you to create specialized indices.
 	- For examples, Postgres has a ==PostGIS== extension that allows you to create geospatial indexes. 
 - If not, you'll need to maintain your indexes externally.
 	- [[ElasticSearch]] is our recommended solution for these secondary indexes, when it can work. It supports full-text indexes via [[Lucene]], geospatial indexes, and even vector indexes.

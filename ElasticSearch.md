@@ -106,7 +106,7 @@ Two approaches for this **Stateless Pagination**:
 ## How to use ElasticSearch in your System Design Scenarios!
 1. Typically for complex search scenarios; not your primary transactional database
 	1. [[Full-Text Search Index|Full-Text Search]], [[Geospatial Index]], [[Vector Search]]
-	2. Often used together with a primary transaction database (e.g. [[PostgresDB|Postgres]], and then use [[Change Data Capture]] to eventually-consistently move writes into the search index.)
+	2. Often used together with a primary transaction database (e.g. [[PostgreSQL|Postgres]], and then use [[Change Data Capture]] to eventually-consistently move writes into the search index.)
 2. Best with read-heavy workloads
 	1. If you've got a lot of writes happening, and writes dominate reads, then ES might not be appropriate. There are a lot of ways to change the nature of your workload (e.g. limiting the number of writes, batching them out), but generally speaking, ES performs best when you have more reads than writes.
 3. Must tolerate eventual consistency
@@ -114,7 +114,7 @@ Two approaches for this **Stateless Pagination**:
 4. Denormalization is key
 	1. You shouldn't have do joins in ElasticSearch. **==JOINS ARE NOT SUPPORTED IN ES==**, and the way you might bolt-on joins by doing lookups outside of ES will compromise performance.
 5. Do you even need it?
-	1. ES clusters aren't trivial to operate and maintain; A simple search capability in your [[PostgresDB|Postgres]] database might work, unless you need full-text search over billions of documents.
+	1. ES clusters aren't trivial to operate and maintain; A simple search capability in your [[PostgreSQL|Postgres]] database might work, unless you need full-text search over billions of documents.
 	2. ==If you have simplistic needs, use simplistic solutions!==
 
 
