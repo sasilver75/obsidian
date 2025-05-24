@@ -59,7 +59,7 @@ The most common NoSQL databases are:
 - [[Blob Storage]] (often used interchangeably with "Object Storage"), is for when you ==need to store large, unstructured blobs of data==, which could be images, videos, or other files.
 - Storing these large blobs in a traditional database is both expensive and inefficient, and should be avoided whenever possible -- instead, use a blob storage service like [[Amazon S3]] or [[Google Cloud Storage]]; these platforms are specifically designed for handling large blobs of data, and are much more cost-effective than a traditional database.
 - ==Blob storage services are simple: You can upload a blob of data and you get back a URL. You can later then use this URL to download the blob of data.==
-	- Oftentimes blob storage services work in conjunction with [[Content Distribution Network|CDN]]s so that you can get fast downloads from anywhere in the world. Upload a file/blob to blob storage which will act as your origin, then use a CDN to cache the file/blob in edge locations around the world.
+	- Oftentimes blob storage services work in conjunction with [[Content Delivery Network|CDN]]s so that you can get fast downloads from anywhere in the world. Upload a file/blob to blob storage which will act as your origin, then use a CDN to cache the file/blob in edge locations around the world.
 - ==**WARNING:**== Avoid using blob storage like S3 as your primary database unless you have a very good reason. ==In a typical setup, you'll have a core database like Postgres or DynamoDB that has **pointers** (just a url) to the blobs stored in S3==. This allows you to use the database to query and index the data with very low latency, while still getting the benefits of cheap blob storage.
 
 Here are some common usages of blob storage:
@@ -251,7 +251,7 @@ Most common distributed caches:
 
 # CDN
 - What's a CDN and when should be use it?
-- Modern systems often serve users globally, making it hard to deliver content quickly to users all over the world -- [[Content Distribution Network|CDN]]s are types of ==caches== that use ==distributed servers== to deliver content to users based on their geographic location.
+- Modern systems often serve users globally, making it hard to deliver content quickly to users all over the world -- [[Content Delivery Network|CDN]]s are types of ==caches== that use ==distributed servers== to deliver content to users based on their geographic location.
 	- ==Often used to deliver **static content** such as images, videos, and HTML files, but can also be used to deliver dynamic content like API responses.==
 	- Works by caching content on servers that are close to users. When a user requests content, the CDN routes the request to the closest server. If the content is cached on that server, the CDN will return the cached content. If the content is NOT cached on that server, the CDN will fetch the content from the origin server, cache it, and return the content to the user.
 - The most common use case in interviews is to use CDNs to cache static media assets like images, videos, and Javascript files which are often stored in object stores).

@@ -1,3 +1,7 @@
+---
+aliases:
+  - 2PC
+---
 
 
 A strategy used for [[Distributed Transaction]]s.
