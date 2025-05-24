@@ -259,7 +259,7 @@ Load Balancing:
 				- ![[Pasted image 20250519150515.png]]
 				- Layer 4 LBs are ==high performance==; it doesn't need to do a lot of thinking; It doesn't need to look at packets... all it needs to do is, when it receives a new connection, create a new connection with a server, and when it receives packets, just pushes them to the relevant server.
 			- **[[Layer 7]] Load Balancer (HTTP level)**:
-				- e.g. [[[AWS Application Load Balancer]]. This one, instead of only accepting TCP connections, accepts HTTP requests! It's going to choose an arbitrary server based on its load balancing algorithm, that it's going to send a request to.
+				- e.g. [[AWS Application Load Balancer]]. This one, instead of only accepting TCP connections, accepts HTTP requests! It's going to choose an arbitrary server based on its load balancing algorithm, that it's going to send a request to.
 				- It's not as straightforward that the connection ti has with the LB is the same one it has with its client!
 				- The Layer 7 LB might have only a few connections to servers, and many connections to clients.
 				- Tend to be more expensive, because they need to be able to handle a full HTTP request; But if I had a single TCP connection to a client and multiple HTTP requests that occur over it, I can then distribute those requests across the servers in my load pool, which can be very effective.

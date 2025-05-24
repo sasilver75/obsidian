@@ -60,7 +60,7 @@ When textbooks talk about splitting databases at 100GB or avoiding large objects
 - The raw power of modern databases surprises even experienced engineers.
 - Single [[PostgreSQL|Postgres]] or [[MySQL]] instances now routinely handle ==dozens of TB of data while maintaining millisecond-level response times, and handle tens of thousands of transactions per second on a single primary==, with the bottleneck often being operational concerns rather than performance limits.
 **Numbers to Know**:
-- ==Storage==: Single instances handle ==up to 64TiB== for most database engines, with [[AWS Aurora]] supporting up to ==128TiB== in some configurations.
+- ==Storage==: Single instances handle ==up to 64TiB== for most database engines, with [[Amazon Aurora]] supporting up to ==128TiB== in some configurations.
 - ==Latency==: 
 	- Reads: ==1-5ms for cached data==, ==5-30ms for disk== (optimized configurations for RDS and Aurora)
 	- Writes: ==5-15ms== for commit latency (single node, high-perf setups)

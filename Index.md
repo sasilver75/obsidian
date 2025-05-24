@@ -4,6 +4,8 @@ aliases:
 ---
 - [[Index]]es are data structures that are stored on disks and act as a map to tell us on which page some item exists in the database.
 
+Indexes are stored on [[Page]]s, just like table data!
+- e.g. For a B-Tree, nodes are typically the same size as dat pages (~4KB, 8KB, or 16KB, depending on the database)
 
 
 Various types:

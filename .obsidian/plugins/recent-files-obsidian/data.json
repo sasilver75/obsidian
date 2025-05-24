@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "PostgreSQL",
       "path": "PostgreSQL.md"
     },
@@ -13,192 +14,211 @@
       "path": "conflict-files-obsidian-git.md"
     },
     {
+=======
+>>>>>>> 406aa2463076a091e91d8fe8513634f45db1e005
       "basename": "Transaction",
       "path": "Transaction.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "ACID.md"
-    },
-    {
-      "basename": "Read-your-Writes Consistency",
-      "path": "Read-your-Writes Consistency.md"
-    },
-    {
-      "basename": "Untitled 11",
-      "path": "Untitled 11.md"
-    },
-    {
-      "basename": "GIN Index",
-      "path": "GIN Index.md"
-    },
-    {
-      "basename": "GiST",
-      "path": "GiST.md"
-    },
-    {
-      "basename": "Multiversion Concurrency Control",
-      "path": "Multiversion Concurrency Control.md"
-    },
-    {
-      "basename": "LSM Tree",
-      "path": "LSM Tree.md"
-    },
-    {
-      "basename": "Eventual Consistency",
-      "path": "Eventual Consistency.md"
-    },
-    {
-      "basename": "Design Bit.ly",
-      "path": "Courses/SystemDesign/Case Studies/Design Bit.ly.md"
-    },
-    {
-      "basename": "Untitled 10",
-      "path": "Untitled 10.md"
-    },
-    {
-      "basename": "Untitled 9",
-      "path": "Untitled 9.md"
-    },
-    {
-      "basename": "Cache Invalidation Strategy",
-      "path": "Cache Invalidation Strategy.md"
-    },
-    {
-      "basename": "Base62",
-      "path": "Base62.md"
-    },
-    {
-      "basename": "Watermark",
-      "path": "Watermark.md"
-    },
-    {
-      "basename": "Base64",
-      "path": "Base64.md"
-    },
-    {
-      "basename": "Design TicketMaster",
-      "path": "Courses/SystemDesign/Case Studies/Design TicketMaster.md"
-    },
-    {
-      "basename": "Flink",
-      "path": "Flink.md"
-    },
-    {
-      "basename": "Checkpoint",
-      "path": "Checkpoint.md"
-    },
-    {
-      "basename": "Complex Event Processing",
-      "path": "Complex Event Processing.md"
-    },
-    {
-      "basename": "Avro",
-      "path": "Avro.md"
-    },
-    {
-      "basename": "Cassandra",
-      "path": "Cassandra.md"
-    },
-    {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
-    },
-    {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
-    },
-    {
-      "basename": "Write-Ahead Log",
-      "path": "Write-Ahead Log.md"
-    },
-    {
-      "basename": "Cassandra Query Language",
-      "path": "Cassandra Query Language.md"
-    },
-    {
-      "basename": "QuadTree",
-      "path": "QuadTree.md"
-    },
-    {
-      "basename": "API Gateway",
-      "path": "API Gateway.md"
-    },
-    {
-      "basename": "Service Mesh",
-      "path": "Service Mesh.md"
-    },
-    {
-      "basename": "Kafka",
-      "path": "Kafka.md"
-    },
-    {
-      "basename": "Short Polling",
-      "path": "Short Polling.md"
-    },
-    {
-      "basename": "~ Quiz",
-      "path": "~ Quiz.md"
-    },
-    {
-      "basename": "Vertical Scaling",
-      "path": "Vertical Scaling.md"
-    },
-    {
-      "basename": "Horizontal Scaling",
-      "path": "Horizontal Scaling.md"
-    },
-    {
-      "basename": "Geohash",
-      "path": "Geohash.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Index.md"
-    },
-    {
-      "basename": "B+ Tree",
-      "path": "B+ Tree.md"
-    },
-    {
-      "basename": "SDIAH Database Indexing",
-      "path": "Courses/SystemDesign/SDIAH Database Indexing.md"
     },
     {
       "basename": "Geospatial Index",
       "path": "Geospatial Index.md"
     },
     {
-      "basename": "R-Tree",
-      "path": "R-Tree.md"
-    },
-    {
-      "basename": "Hash Index",
-      "path": "Hash Index.md"
+      "basename": "Index",
+      "path": "Index.md"
     },
     {
       "basename": "B-Tree",
       "path": "B-Tree.md"
     },
     {
-      "basename": "ElasticSearch",
-      "path": "ElasticSearch.md"
+      "basename": "Composite Index",
+      "path": "Composite Index.md"
     },
     {
-      "basename": "SDIAH Numbers to Know",
-      "path": "Courses/SystemDesign/SDIAH Numbers to Know.md"
+      "basename": "Time-Series Database",
+      "path": "Time-Series Database.md"
+    },
+    {
+      "basename": "Blob Storage",
+      "path": "Blob Storage.md"
+    },
+    {
+      "basename": "AWS Application Load Balancer",
+      "path": "AWS Application Load Balancer.md"
+    },
+    {
+      "basename": "Amazon Aurora",
+      "path": "Amazon Aurora.md"
+    },
+    {
+      "basename": "Distributed File System",
+      "path": "Distributed File System.md"
+    },
+    {
+      "basename": "Three-Phase Commit",
+      "path": "Three-Phase Commit.md"
+    },
+    {
+      "basename": "Two-Phase Locking",
+      "path": "Two-Phase Locking.md"
+    },
+    {
+      "basename": "Consistent Hashing",
+      "path": "Consistent Hashing.md"
+    },
+    {
+      "basename": "HDFS",
+      "path": "HDFS.md"
+    },
+    {
+      "basename": "Full-Text Search Index",
+      "path": "Full-Text Search Index.md"
+    },
+    {
+      "basename": "Stream Processing",
+      "path": "Stream Processing.md"
+    },
+    {
+      "basename": "Batch Processing",
+      "path": "Batch Processing.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
+      "basename": "Two-Phase Commit",
+      "path": "Two-Phase Commit.md"
+    },
+    {
+      "basename": "Local Secondary Index",
+      "path": "Local Secondary Index.md"
+    },
+    {
+      "basename": "Global Secondary Index",
+      "path": "Global Secondary Index.md"
+    },
+    {
+      "basename": "Secondary Index",
+      "path": "Secondary Index.md"
+    },
+    {
+      "basename": "Locality Sensitive Hashing",
+      "path": "Locality Sensitive Hashing.md"
+    },
+    {
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
+      "basename": "Hot Spot",
+      "path": "Hot Spot.md"
+    },
+    {
+      "basename": "Replication",
+      "path": "Replication.md"
+    },
+    {
+      "basename": "Protobuf",
+      "path": "Protobuf.md"
+    },
+    {
+      "basename": "Row Store",
+      "path": "Row Store.md"
+    },
+    {
+      "basename": "Column Store",
+      "path": "Column Store.md"
+    },
+    {
+      "basename": "Serializability",
+      "path": "Serializability.md"
+    },
+    {
+      "basename": "LSM Tree",
+      "path": "LSM Tree.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "B+ Tree.md"
+    },
+    {
+      "basename": "Hash Index",
+      "path": "Hash Index.md"
+    },
+    {
+      "basename": "RocksDB",
+      "path": "RocksDB.md"
+    },
+    {
+      "basename": "Linearizability",
+      "path": "Linearizability.md"
+    },
+    {
+      "basename": "Lottery Ticket Hypothesis",
+      "path": "Lottery Ticket Hypothesis.md"
+    },
+    {
+      "basename": "BASE",
+      "path": "BASE.md"
+    },
+    {
+      "basename": "Kullback-Leibler Divergence",
+      "path": "Kullback-Leibler Divergence.md"
+    },
+    {
+      "basename": "Jonathan Frankle",
+      "path": "Jonathan Frankle.md"
+    },
+    {
+      "basename": "~ Useful Pictures",
+      "path": "~ Useful Pictures.md"
     },
     {
       "basename": "~ Vocabulary",
       "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Consensus",
-      "path": "Consensus.md"
+      "basename": "Unit 2 LangGraph",
+      "path": "Courses/HuggingFaceAgents/Unit 2 LangGraph.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Vector Search",
       "path": "Vector Search.md"
+=======
+      "basename": "Unit 2 LlamaIndex Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 2 LlamaIndex Notes.md"
+    },
+    {
+      "basename": "Unit 3 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 3 Notes.md"
+    },
+    {
+      "basename": "Unit 2 Smolagents Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 2 Smolagents Notes.md"
+    },
+    {
+      "basename": "Unit 1 Notes",
+      "path": "Courses/HuggingFaceAgents/Unit 1 Notes.md"
+    },
+    {
+      "basename": "FlashAttention",
+      "path": "FlashAttention.md"
+    },
+    {
+      "basename": "Model Context Protocol",
+      "path": "Model Context Protocol.md"
+    },
+    {
+      "basename": "SRAM",
+      "path": "SRAM.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+>>>>>>> 406aa2463076a091e91d8fe8513634f45db1e005
     }
   ],
   "omittedPaths": [],
