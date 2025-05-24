@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "1782ad5ebc2f5b24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "bd6571b5a76769f2",
             "type": "leaf",
             "state": {
@@ -79,7 +103,8 @@
               "title": "ACID"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -579,7 +604,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "PostgreSQL.md",
+                "file": "conflict-files-obsidian-git.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -607,7 +632,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of PostgreSQL"
+              "title": "Graph of conflict-files-obsidian-git"
             }
           }
         ]
@@ -628,10 +653,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ec250ef858261cf9",
+  "active": "1782ad5ebc2f5b24",
   "lastOpenFiles": [
-    "Transaction.md",
     "PostgreSQL.md",
+    "conflict-files-obsidian-git.md",
+    "Transactions.md",
+    "Transaction.md",
     "ACID.md",
     "Read-your-Writes Consistency.md",
     "Untitled 11.md",
@@ -658,14 +685,12 @@
     "Flink.md",
     "Courses/SystemDesign/Case Studies",
     "Checkpoint.md",
-    "conflict-files-obsidian-git.md",
     "Serializability.md",
     "RocksDB.md",
     "Linearizability.md",
     "BASE.md",
     "_attachments/Pasted image 20250522114149.png",
     "_attachments/Pasted image 20250522113704.png",
-    "Complex Event Processing.md",
     "_attachments/Pasted image 20250522103106.png",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",
