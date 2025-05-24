@@ -226,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -695,12 +695,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "05f8819527363c94",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 43
+        "currentTab": 44
       },
       {
         "id": "8a022290161ffefa",
@@ -761,7 +771,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0ac240744e445cfc",
+  "active": "05f8819527363c94",
   "lastOpenFiles": [
     "_attachments/Pasted image 20250523133101.png",
     "_attachments/Pasted image 20250523132338.png",
