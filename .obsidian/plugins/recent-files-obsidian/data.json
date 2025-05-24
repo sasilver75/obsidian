@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Transactions",
+      "path": "Transactions.md"
+    },
+    {
+      "basename": "LSM Tree",
+      "path": "LSM Tree.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "B+ Tree.md"
+    },
+    {
+      "basename": "Hash Index",
+      "path": "Hash Index.md"
+    },
+    {
       "basename": "RocksDB",
       "path": "RocksDB.md"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "Monte-Carlo Tree Search",
       "path": "Monte-Carlo Tree Search.md"
-    },
-    {
-      "basename": "Building a Generative AI Platform",
-      "path": "Articles/Building a Generative AI Platform.md"
-    },
-    {
-      "basename": "Retrieval-Augmented Generation",
-      "path": "Retrieval-Augmented Generation.md"
-    },
-    {
-      "basename": "UCB Deep Unsupervised Learning (1) - Introduction",
-      "path": "Courses/Machine Learning/CS 294-158 Deep Unsupervised Learning @ UC Berkeley (2024)/UCB Deep Unsupervised Learning (1) - Introduction.md"
     }
   ],
   "omittedPaths": [],

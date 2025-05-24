@@ -21,3 +21,6 @@ Real-World Usage:
 - You need the ==absolute fastest possible exact-match lookups==
 - You'll ==never need range queries or sorting==    
 - You have ==plenty of memory== (hash indexes tend to be larger than B-trees)
+
+
+Downside: Your keyset generally needs to fit in memory, and there's poor support for range queries.
