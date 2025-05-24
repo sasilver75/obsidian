@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "PostgreSQL",
       "path": "PostgreSQL.md"
+    },
+    {
+      "basename": "Buffer Cache",
+      "path": "Buffer Cache.md"
+    },
+    {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
     },
     {
       "basename": "Transaction",
@@ -195,10 +199,6 @@
     {
       "basename": "Vector Search",
       "path": "Vector Search.md"
-    },
-    {
-      "basename": "Replication",
-      "path": "Replication.md"
     }
   ],
   "omittedPaths": [],
