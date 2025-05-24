@@ -92,7 +92,7 @@ See here that we're looking for all users with ages GREATER THAN 51!
 # Geospatial Index Commentary
 - [[Geohash]] is very popular today; it exists in things like Redis; it's the default... many production databases rely on Geohashing, relying on B-Trees.
 - [[QuadTree]] were foundational to the development of geospatial indexes, but aren't used much.
-- Instead, [[R-Tree]], their successor, are more often used in production. For instance [[PostgresDB|Postgres]] uses R-Trees!
+- Instead, [[R-Tree]], their successor, are more often used in production. For instance [[PostgreSQL|Postgres]] uses R-Trees!
 - In a SD interview, if you get tasked in a situation where you have two-dimensional lat/lon data, you know you want to mention some geospatial index, and mention to your interviewer that you understand the differences between these, and that you want to specify a particular one.
 
 
@@ -106,7 +106,7 @@ See here that we're looking for all users with ages GREATER THAN 51!
 Instead, we should be using an [[Inverted Index]]!
 - We can create a hashmap mapping each of the words that appear to all of the documents that they appear in!
 - If we're searching for "fast", these documents in the lists are pointers to the pages that these obviously exist in on disk, and so we pull those pages into memory and return the relevant rows.
-- These are used in [[ElasticSearch]], as well as [[PostgresDB|Postgres]]'s [[Full-Text Search Index|Full-Text Search]] feature.
+- These are used in [[ElasticSearch]], as well as [[PostgreSQL|Postgres]]'s [[Full-Text Search Index|Full-Text Search]] feature.
 
 
 # Note

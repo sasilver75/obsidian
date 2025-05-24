@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Transaction",
+      "path": "Transaction.md"
+    },
+    {
       "basename": "Geospatial Index",
       "path": "Geospatial Index.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "Column Store",
       "path": "Column Store.md"
-    },
-    {
-      "basename": "Transaction",
-      "path": "Transaction.md"
     },
     {
       "basename": "Serializability",
