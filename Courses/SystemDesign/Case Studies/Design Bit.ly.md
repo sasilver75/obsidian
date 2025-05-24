@@ -201,6 +201,7 @@ Great, so we've accomplished all of our functional requirements! (**==Double che
 	- So a user provides a LongURL
 	- We increment the counter
 	- We turn that counter into a Base62 encoding of length 6 (perhaps using either a raw Base62 encoder, or better by using a fancy library does uses a obfuscatory (but still bijective) function and then Base62 encodes the result)
+		- ((Wait, the encoding won't be any particular length, e.g. if the counter is 0, the code will just be like.. "n' or something. It's an encoding, so it gets longer as the data you're encoding gets longer.))
 	- We write that to the database, confident that no other record in the database will have the same 
 
 ### NFR: "Make the redirect as low latency as possible"
