@@ -41,7 +41,7 @@ Gateways handle:
 			- ((For example, in Kubernetes, each service will likely have a LoadBalancer by default, unless the configuration has been changed to some other networking model.))
 		- This can typically be abstracted away during an interview. Drawing a single box to handle "API gateway and Load Balancer" is usually sufficient. You don't want to get bogged down in the details of your entry points, as they're more likely to be a distraction from the core functionality of your system.
 	- For **managing ==global distribution**==:
-		- An option that works well for large applications with users spreads across the globe is to deploy API Gateways closer to our users, similar to how we'd deploy a [[Content Distribution Network|CDN]].
+		- An option that works well for large applications with users spreads across the globe is to deploy API Gateways closer to our users, similar to how we'd deploy a [[Content Delivery Network|CDN]].
 		- This typically involves:
 			- **Regional Deployment** of gateway instances
 			- **DNS-based Routing**, using [[GeoDNS]] to route users to the nearest gateway

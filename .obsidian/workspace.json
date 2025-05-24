@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5101130851c148bd",
+        "id": "c9af54358fe5fc0e",
         "type": "tabs",
         "children": [
           {
-            "id": "ec250ef858261cf9",
+            "id": "a9959ebcbfcbf9c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PostgreSQL.md",
+                "file": "Courses/SystemDesign/Case Studies/Design Dropbox.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,55 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PostgreSQL"
-            }
-          },
-          {
-            "id": "bd6571b5a76769f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Transaction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Transaction"
-            }
-          },
-          {
-            "id": "8b6e6cc4c7edc759",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ACID.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ACID"
+              "title": "Design Dropbox"
             }
           }
         ]
@@ -152,8 +104,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -579,7 +530,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "PostgreSQL.md",
+                "file": "Courses/SystemDesign/Case Studies/Design Dropbox.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -607,7 +558,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of PostgreSQL"
+              "title": "Graph of Design Dropbox"
             }
           }
         ]
@@ -628,8 +579,26 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ec250ef858261cf9",
+  "active": "a9959ebcbfcbf9c5",
   "lastOpenFiles": [
+    "SSL Termination.md",
+    "Courses/SystemDesign/Case Studies/Design Dropbox.md",
+    "ACID.md",
+    "Fan-Out.md",
+    "_attachments/Pasted image 20250524110029.png",
+    "Change Data Capture.md",
+    "Load Balancing.md",
+    "Transaction.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "Distributed Consensus.md",
+    "Leader Election.md",
+    "Cache.md",
+    "Two-Phase Commit.md",
+    "Three-Phase Commit.md",
+    "Write-Through Cache.md",
+    "Content Delivery Network.md",
+    "ZooKeeper.md",
+    "PostgreSQL.md",
     "_attachments/Pasted image 20250524100034.png",
     "_attachments/Pasted image 20250523220300.png",
     "_attachments/Pasted image 20250523220225.png",
@@ -637,9 +606,7 @@
     "_attachments/Pasted image 20250523204026.png",
     "_attachments/Pasted image 20250523204016.png",
     "Two-Phase Locking.md",
-    "Two-Phase Commit.md",
     "Time-Series Database.md",
-    "Three-Phase Commit.md",
     "Stream Processing.md",
     "Secondary Index.md",
     "Row Store.md",
@@ -647,25 +614,9 @@
     "Local Secondary Index.md",
     "Hot Spot.md",
     "HDFS.md",
-    "Global Secondary Index.md",
-    "Distributed File System.md",
-    "Composite Index.md",
-    "Column Store.md",
-    "Batch Processing.md",
-    "Amazon Aurora.md",
-    "AWS Application Load Balancer.md",
-    "Buffer Cache.md",
-    "PostgreSQL.md",
-    "conflict-files-obsidian-git.md",
-    "Transactions.md",
-    "Transaction.md",
-    "ACID.md",
-    "Read-your-Writes Consistency.md",
     "_attachments/Pasted image 20250523133101.png",
     "_attachments/Pasted image 20250523132338.png",
     "_attachments/Pasted image 20250523131956.png",
-    "_attachments/Pasted image 20250523122039.png",
-    "_attachments/Pasted image 20250523120748.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign/Concepts",
     "Courses/SystemDesign",

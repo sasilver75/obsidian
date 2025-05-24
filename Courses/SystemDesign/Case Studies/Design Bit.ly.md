@@ -228,7 +228,7 @@ Let's move to our next non-functional requirement: Making the redirect as low la
 		- The Key: ShortURL
 		- The Value: LongURL
 
-- **We could also cache in a [[Content Distribution Network|CDN]]**, which are little edge services around the world. Say you're in CA, and trying to request a URL from China. There's a lot of latency involved there! If a user in the past in CA has hit a server in China, we might have cached that information in California, which is much closer to our users.
+- **We could also cache in a [[Content Delivery Network|CDN]]**, which are little edge services around the world. Say you're in CA, and trying to request a URL from China. There's a lot of latency involved there! If a user in the past in CA has hit a server in China, we might have cached that information in California, which is much closer to our users.
 	- ==There's a problem with CDNs for this problem, though; It's the same problem we had considering those 302 permanent redirects; requests will never hit our main server, and so we might lose observability!==
 		- ((I'm not sure whether modern CDNs have the ability to contribute to your observability platform, etc.))
 
