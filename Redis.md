@@ -38,7 +38,7 @@ While you can run Redis on a single node (in a single thread), it can basically 
 		- If you make a request to the wrong host, it will say: "That key doesn't exist here, it's been moved!" But for performance sake, it's way more beneficial if a client knows which host to go to.
 		- This is why when you start up a Client in Redis, you make it aware of all of the hosts that are available.
 - The only way to [[Sharding|Shard]] Redis is through choosing your keys... and then, when you're choosing how to Shard, you're functionally choosing how to spread your data across the key space.
-	- If you have a Cache... one of the major problems is what's called a [[Hot Key Problem]], where many of your requests are going to the same key.
+	- If you have a Cache... one of the major problems is what's called a [[Hot Spot|Hot Key]] problem, where many of your requests are going to the same key.
 	- If one of your keys is located on the first Main node, and the aggregate requests to that node exceed what that node can handle, it doesn't matter that you've broken up key/slot space among many hosts; the uneven distribution of traffic to that singular host is going to kill it!
 	- **==PATTERN==**: With Redis, one of the simple patterns is to simply append a random number to the key, such that you write that key to multiple hosts, and you can read it from multiple hosts!
 		- This provides a crude way to distribute the load across the cluster. If you're thinking about how you scale Redis, you should be thinking about your key space -- this is essential to how you reason about Redis scaling. 

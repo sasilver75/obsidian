@@ -44,7 +44,14 @@ It's used inside many of your favorite databases, like: Redis, Cassandra, Dynamo
 
 
 
+----------
 
+We **don't** want to take a hash of a key, modulo by the number of servers, and then pick that partition, because if we add a new server to the cluster, we'll have to shuffle a large amount of our data! Instead, we use [[Consistent Hashing]], where we organize a hash range into a conceptual "ring," and when we have an incoming key, we hash it onto the ring, and walk clockwise around the ring until you find a shard's location on the ring. 
+		- This minimizes the amount of data rebalancing need when we either add or remove a machine from the cluster.
+		- It's common to use vNodes as well.
+			- Without vNodes, we might have uneven data distribution or hot spots, and when one node fails, all of its data goes to just one other node.
+			- With vNodes (100-256 vNodes per physical node), each physical node is responsible for many small, scattered segments of the hash space. When you remove a node, its data gets distributed across ~ALL other nodes in the cluster, not just one.
+			- Contrasting with hash+modulus.... with H+M, adding/removing one node reqiures rehashing/moving ~50% of all data, which is chaotic and affects the entire cluster. With vNodes, removing one node only affects the nodes data (1/N of total data), with the redistribution spread evenly across remaining nodes. So while all nodes might be affected in terms of who receives the new data, at least we aren't moving data around that doesn't need to move.
 
 
 

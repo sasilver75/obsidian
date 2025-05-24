@@ -24,5 +24,28 @@ CREATE INDEX idx_lng ON restaurants(longitude);
 - This is why we need indexes that understand 2D spatial relationships; rather than treating latitude and longitude as independent dimensions, spatial indices let us organize points based on their actual proximity in space!
 
 
+**THINK:** "Oh, but can't we use a [[Composite Index]] on (latitude, longitude) and query by that?" **Nope**! That's still not going to let us scan a contiguous, valid part of the index! 
+If we had 
+```
+(-122.4194, 37.7749)  // San Francisco
+(-122.4194, 37.7750)  // Slightly north in SF
+(-122.4194, 37.7751)  // Even more north in SF
+(-122.4193, 37.7749)  // Slightly east in SF
+(-122.4000, 37.7749)  // Much further east
+(-121.0000, 37.7749)  // Way across the bay
+```
+And then a query like:
+```sql
+-- Looking for points near (-122.4194, 37.7749) within ~0.01 degrees
+SELECT * FROM restaurants
+WHERE longitude BETWEEN -122.4294 AND -122.4094
+AND latitude BETWEEN 37.7649 AND 37.7849;
+```
+- We still have to: Scan all longitude values in the range (-122.24294 to -122.4094), and then for each longitude value, check if the latitude is also in range.
+	- We read the ROOT index page from disk into our. Since nodes in a B-Tree are stored on individual pages.
+	- We read some INTERMEDIATE index page from disk into memory (assuming it's not in buffer )
+
+
+
 Related Options:
 - [[Geohash]]ing, [[QuadTree]], [[R-Tree]]

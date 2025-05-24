@@ -38,7 +38,7 @@ _________________
 		- Reading and writing to a shared database, which is a network hop away (~1-10ms, ideally)
 		- Keeping multiple redundant copies across each of your servers.
 	- These can both result in race conditions and consistency challenges.
-	- Most database problems are built to resolve some of these directly, e.g. using [[Transactions]], but in other cases you might need to use a [[Distributed Lock]]. 
+	- Most database problems are built to resolve some of these directly, e.g. using [[Transaction]], but in other cases you might need to use a [[Distributed Lock]]. 
 		- Regardless, you'll have to be prepared to talk about how you're going to keep your data [[Consistency|Consistent]].
 
 
