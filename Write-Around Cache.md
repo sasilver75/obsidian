@@ -1,0 +1,2 @@
+**Writes data directly to the datastore, bypassing the cache**. This can minimize **==[[Cache Pollution]]==** but might increase data fetch times on subsequent reads when you have a cache miss. 
+		1. ((It makes sense to me that you wouldn't want to use this if your items are uniformly read, but rather if you have a lopsided distribution of reads. It doesn't make sense to write an item to the cache if it's never going to be requested, or if it's more important to prioritize the response time of more common requests, which will naturally populate the database.))

@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Design GoPuff",
+      "path": "Courses/SystemDesign/Case Studies/Design GoPuff.md"
+    },
+    {
+      "basename": "Time to Live",
+      "path": "Time to Live.md"
+    },
+    {
+      "basename": "Cache Aside",
+      "path": "Cache Aside.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
+      "basename": "Write-Around Cache",
+      "path": "Write-Around Cache.md"
+    },
+    {
+      "basename": "SDIAH Key Technologies",
+      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
+      "basename": "Replication",
+      "path": "Replication.md"
+    },
+    {
+      "basename": "Serializability",
+      "path": "Serializability.md"
+    },
+    {
       "basename": "Design Dropbox",
       "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
     },
@@ -41,10 +81,6 @@
       "path": "Transaction.md"
     },
     {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
-    },
-    {
       "basename": "Distributed Consensus",
       "path": "Distributed Consensus.md"
     },
@@ -53,20 +89,12 @@
       "path": "Leader Election.md"
     },
     {
-      "basename": "Cache",
-      "path": "Cache.md"
-    },
-    {
       "basename": "Two-Phase Commit",
       "path": "Two-Phase Commit.md"
     },
     {
       "basename": "Three-Phase Commit",
       "path": "Three-Phase Commit.md"
-    },
-    {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
     },
     {
       "basename": "Content Delivery Network",
@@ -165,40 +193,12 @@
       "path": "Cassandra.md"
     },
     {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
-    },
-    {
       "basename": "Write-Ahead Log",
       "path": "Write-Ahead Log.md"
     },
     {
       "basename": "Cassandra Query Language",
       "path": "Cassandra Query Language.md"
-    },
-    {
-      "basename": "QuadTree",
-      "path": "QuadTree.md"
-    },
-    {
-      "basename": "API Gateway",
-      "path": "API Gateway.md"
-    },
-    {
-      "basename": "Service Mesh",
-      "path": "Service Mesh.md"
-    },
-    {
-      "basename": "Kafka",
-      "path": "Kafka.md"
-    },
-    {
-      "basename": "Short Polling",
-      "path": "Short Polling.md"
-    },
-    {
-      "basename": "~ Quiz",
-      "path": "~ Quiz.md"
     }
   ],
   "omittedPaths": [],
