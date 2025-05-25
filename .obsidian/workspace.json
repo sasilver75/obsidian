@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/Case Studies/Design Dropbox.md",
+                "file": "ZooKeeper.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Design Dropbox"
+              "title": "ZooKeeper"
             }
           }
         ]
@@ -104,7 +104,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -513,12 +514,47 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "96a84444bc49ae73",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ZooKeeper.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ZooKeeper"
+            }
+          },
+          {
+            "id": "346b3c4d80bb1fdc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "801a0274910a3c1a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 40
       },
       {
         "id": "8a022290161ffefa",
@@ -581,6 +617,8 @@
   },
   "active": "a9959ebcbfcbf9c5",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20250524190247.png",
+    "Courses/SystemDesign/Case Studies/Design Dropbox.md",
     "_attachments/Pasted image 20250524134002.png",
     "_attachments/Pasted image 20250524133727.png",
     "_attachments/Pasted image 20250524132151.png",
@@ -588,14 +626,12 @@
     "_attachments/Pasted image 20250524130732.png",
     "Mimetype.md",
     "Articles/Synthetic Data - Anthropic CAI, from fine-tuning to pretraining, OpenAI's superalignment, tips, types, and open examples (Nov 2023) {Nathan Lambert, Interconnects}.md",
-    "Courses/SystemDesign/Case Studies/Design Dropbox.md",
     "Fingerprint.md",
     "_attachments/Pasted image 20250524122812.png",
     "_attachments/Pasted image 20250524122334.png",
     "_attachments/Pasted image 20250524121456.png",
     "_attachments/Pasted image 20250524121115.png",
     "_attachments/Pasted image 20250524120205.png",
-    "_attachments/Pasted image 20250524115854.png",
     "SSL Termination.md",
     "ACID.md",
     "Fan-Out.md",

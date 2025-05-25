@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ZooKeeper",
+      "path": "ZooKeeper.md"
+    },
+    {
       "basename": "Design Dropbox",
       "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "Content Delivery Network",
       "path": "Content Delivery Network.md"
-    },
-    {
-      "basename": "ZooKeeper",
-      "path": "ZooKeeper.md"
     },
     {
       "basename": "PostgreSQL",
