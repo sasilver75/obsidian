@@ -1,6 +1,7 @@
 ---
 aliases:
   - Replica
+  - Read Replica
 ---
 (Some of these comments are from "Jordan has no life," which might be bullshit)
 

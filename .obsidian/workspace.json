@@ -11,10 +11,144 @@
             "id": "40e942f02cf1ffae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Courses/SystemDesign/Case Studies/Design GoPuff.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Design GoPuff"
+            }
+          },
+          {
+            "id": "d81a22180d505e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache Aside.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Aside"
+            }
+          },
+          {
+            "id": "63ba580b940e893b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Back Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Back Cache"
+            }
+          },
+          {
+            "id": "c31956f77d9177be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache"
+            }
+          },
+          {
+            "id": "8a2510812b3f8bc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Back Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Back Cache"
+            }
+          },
+          {
+            "id": "29b666a8aa4bd8cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Serializability.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Serializability"
             }
           }
         ]
@@ -80,8 +214,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1330,12 +1463,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "32ca5a1660721696",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 121
+        "currentTab": 122
       },
       {
         "id": "8a022290161ffefa",
@@ -1398,19 +1541,27 @@
   },
   "active": "40e942f02cf1ffae",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20250524134002.png",
-    "_attachments/Pasted image 20250524133727.png",
-    "_attachments/Pasted image 20250524132151.png",
-    "_attachments/Pasted image 20250524130747.png",
-    "_attachments/Pasted image 20250524130732.png",
-    "_attachments/Pasted image 20250524122812.png",
-    "_attachments/Pasted image 20250524122334.png",
-    "_attachments/Pasted image 20250524121456.png",
-    "_attachments/Pasted image 20250524121115.png",
-    "_attachments/Pasted image 20250524120205.png",
-    "_attachments/Pasted image 20250524115854.png",
-    "ZooKeeper.md",
+    "Time to Live.md",
+    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
+    "Cache Aside.md",
+    "Write-Back Cache.md",
+    "Cache.md",
+    "Write-Around Cache.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
     "Write-Through Cache.md",
+    "_attachments/Pasted image 20250525121106.png",
+    "_attachments/Pasted image 20250525114034.png",
+    "Replication.md",
+    "_attachments/Pasted image 20250525112020.png",
+    "_attachments/Pasted image 20250525111223.png",
+    "Serializability.md",
+    "_attachments/Pasted image 20250525110132.png",
+    "_attachments/Pasted image 20250525105944.png",
+    "_attachments/Pasted image 20250525105342.png",
+    "_attachments/Pasted image 20250525102252.png",
+    "_attachments/Pasted image 20250525100749.png",
+    "_attachments/Pasted image 20250524134002.png",
+    "ZooKeeper.md",
     "SSL Termination.md",
     "Mimetype.md",
     "Leader Election.md",
@@ -1419,7 +1570,6 @@
     "Distributed Consensus.md",
     "Courses/SystemDesign/Case Studies/Design Dropbox.md",
     "Content Delivery Network.md",
-    "Cache.md",
     "Buffer Cache.md",
     "HDFS.md",
     "Consistent Hashing.md",
@@ -1427,13 +1577,6 @@
     "B-Tree.md",
     "Transaction.md",
     "Geospatial Index.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled 11.md",
-    "PostgreSQL.md",
-    "Multiversion Concurrency Control.md",
-    "GiST.md",
-    "GIN Index.md",
-    "Index.md",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
