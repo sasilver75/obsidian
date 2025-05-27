@@ -3,6 +3,10 @@ SDIAH Article: https://www.hellointerview.com/learn/system-design/problem-breakd
 
 I thought this one was pretty poor quality, TBH. Didn't like the service granularity/lack of referential integrity/sharing databases.
 
+(Something interesting about this one is that while we didn't choose to use Geohashes for proximity queries, because we only had 10k DCs, and we could easily keep them in-memory and do the computation in a few milliseconds.)
+(It wasn't clear to me again if we wanted to have a singular InventoryItem for every physical bag, or instead if we wanted to have one for each DC, with a quantity.)
+(Something else to note is that this doesn't really talk about geographic partitioning.)
+
 --------
 
 Recall our framework:
