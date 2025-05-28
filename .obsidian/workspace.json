@@ -214,7 +214,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1473,12 +1474,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "71eb04149dc8d907",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 122
+        "currentTab": 123
       },
       {
         "id": "8a022290161ffefa",
@@ -1541,9 +1552,11 @@
   },
   "active": "40e942f02cf1ffae",
   "lastOpenFiles": [
+    "Version Vector.md",
+    "Dotted Version Vector.md",
+    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
     "_attachments/Pasted image 20250524190247.png",
     "Time to Live.md",
-    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
     "Cache Aside.md",
     "Write-Back Cache.md",
     "Cache.md",
@@ -1561,7 +1574,6 @@
     "_attachments/Pasted image 20250525105342.png",
     "_attachments/Pasted image 20250525102252.png",
     "_attachments/Pasted image 20250525100749.png",
-    "_attachments/Pasted image 20250524134002.png",
     "ZooKeeper.md",
     "SSL Termination.md",
     "Mimetype.md",
@@ -1576,7 +1588,6 @@
     "Consistent Hashing.md",
     "Two-Phase Locking.md",
     "B-Tree.md",
-    "Transaction.md",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
