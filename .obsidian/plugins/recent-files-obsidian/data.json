@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
     },
@@ -27,6 +28,10 @@
     {
       "basename": "Dotted Version Vector",
       "path": "Dotted Version Vector.md"
+=======
+      "basename": "ZooKeeper",
+      "path": "ZooKeeper.md"
+>>>>>>> 92a7aa8b9705059e88bf03873a184a0a94290066
     }
   ],
   "omittedPaths": [],
