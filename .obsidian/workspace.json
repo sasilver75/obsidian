@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serializability.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,10 +148,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Serializability"
+              "title": "~ Vocabulary"
+            }
+          },
+          {
+            "id": "4ff6bbfd9198adf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Airflow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Airflow"
+            }
+          },
+          {
+            "id": "418f5088e15580aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1484,12 +1533,42 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c09c306d3eeb3885",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "95abdef3630b15ce",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d3ec4e91c41cc656",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 123
+        "currentTab": 126
       },
       {
         "id": "8a022290161ffefa",
@@ -1550,11 +1629,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "40e942f02cf1ffae",
+  "active": "418f5088e15580aa",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Apache Airflow.md",
+    "_attachments/Pasted image 20250618151325.png",
+    "_attachments/Pasted image 20250618151303.png",
+    "~ Vocabulary.md",
+    "Serializability.md",
+    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
     "Version Vector.md",
     "Dotted Version Vector.md",
-    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
     "_attachments/Pasted image 20250524190247.png",
     "Time to Live.md",
     "Cache Aside.md",
@@ -1568,12 +1653,9 @@
     "Replication.md",
     "_attachments/Pasted image 20250525112020.png",
     "_attachments/Pasted image 20250525111223.png",
-    "Serializability.md",
     "_attachments/Pasted image 20250525110132.png",
     "_attachments/Pasted image 20250525105944.png",
     "_attachments/Pasted image 20250525105342.png",
-    "_attachments/Pasted image 20250525102252.png",
-    "_attachments/Pasted image 20250525100749.png",
     "ZooKeeper.md",
     "SSL Termination.md",
     "Mimetype.md",
@@ -1584,10 +1666,6 @@
     "Courses/SystemDesign/Case Studies/Design Dropbox.md",
     "Content Delivery Network.md",
     "Buffer Cache.md",
-    "HDFS.md",
-    "Consistent Hashing.md",
-    "Two-Phase Locking.md",
-    "B-Tree.md",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
