@@ -4,155 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b876ec812b5200e7",
+        "id": "3f6fba624c7a3e1d",
         "type": "tabs",
         "children": [
           {
-            "id": "40e942f02cf1ffae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/SystemDesign/Case Studies/Design GoPuff.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Design GoPuff"
-            }
-          },
-          {
-            "id": "d81a22180d505e7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cache Aside.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cache Aside"
-            }
-          },
-          {
-            "id": "63ba580b940e893b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Write-Back Cache.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Write-Back Cache"
-            }
-          },
-          {
-            "id": "c31956f77d9177be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cache.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cache"
-            }
-          },
-          {
-            "id": "8a2510812b3f8bc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Write-Back Cache.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Write-Back Cache"
-            }
-          },
-          {
-            "id": "29b666a8aa4bd8cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~ Vocabulary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "~ Vocabulary"
-            }
-          },
-          {
-            "id": "4ff6bbfd9198adf6",
+            "id": "6ec37b1bf0c66e0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,33 +30,8 @@
               "icon": "lucide-file",
               "title": "Apache Airflow"
             }
-          },
-          {
-            "id": "418f5088e15580aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -1629,22 +1460,26 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "418f5088e15580aa",
+  "active": "6ec37b1bf0c66e0f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Apache Airflow.md",
+    "_attachments/Pasted image 20250707201042.png",
+    "_attachments/Pasted image 20250707201024.png",
+    "_attachments/Pasted image 20250707174023.png",
+    "_attachments/Pasted image 20250707172020.png",
+    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
+    "Cache Aside.md",
+    "Write-Back Cache.md",
+    "Cache.md",
+    "~ Vocabulary.md",
+    "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20250618151325.png",
     "_attachments/Pasted image 20250618151303.png",
-    "~ Vocabulary.md",
     "Serializability.md",
-    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
     "Version Vector.md",
     "Dotted Version Vector.md",
     "_attachments/Pasted image 20250524190247.png",
     "Time to Live.md",
-    "Cache Aside.md",
-    "Write-Back Cache.md",
-    "Cache.md",
     "Write-Around Cache.md",
     "Courses/SystemDesign/SDIAH Key Technologies.md",
     "Write-Through Cache.md",
@@ -1652,10 +1487,6 @@
     "_attachments/Pasted image 20250525114034.png",
     "Replication.md",
     "_attachments/Pasted image 20250525112020.png",
-    "_attachments/Pasted image 20250525111223.png",
-    "_attachments/Pasted image 20250525110132.png",
-    "_attachments/Pasted image 20250525105944.png",
-    "_attachments/Pasted image 20250525105342.png",
     "ZooKeeper.md",
     "SSL Termination.md",
     "Mimetype.md",
