@@ -1,13 +1,24 @@
 {
   "recentFiles": [
     {
-<<<<<<< HEAD
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "Apache Airflow",
       "path": "Apache Airflow.md"
+    },
+    {
+      "basename": "Design GoPuff",
+      "path": "Courses/SystemDesign/Case Studies/Design GoPuff.md"
+    },
+    {
+      "basename": "Cache Aside",
+      "path": "Cache Aside.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Cache.md"
     },
     {
       "basename": "~ Vocabulary",
@@ -18,20 +29,12 @@
       "path": "Serializability.md"
     },
     {
-      "basename": "Design GoPuff",
-      "path": "Courses/SystemDesign/Case Studies/Design GoPuff.md"
-    },
-    {
       "basename": "Version Vector",
       "path": "Version Vector.md"
     },
     {
       "basename": "Dotted Version Vector",
       "path": "Dotted Version Vector.md"
-=======
-      "basename": "ZooKeeper",
-      "path": "ZooKeeper.md"
->>>>>>> 92a7aa8b9705059e88bf03873a184a0a94290066
     }
   ],
   "omittedPaths": [],
