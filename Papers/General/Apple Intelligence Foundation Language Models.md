@@ -110,7 +110,7 @@ References:
 				- *Problem evolution*: Inspired by [[Evol-Instruct]]; given a seed problem, evolve it either in-depth (adding complexity) or in-breadth (improving topic coverage). Ultimately, we only select problems that score above a certain depth (difficulty) threshold.
 				- We then prompt AFM to synthesize responses N responses with CoT per-question. We use ground-truth if available to filter answers, or otherwise assess correctness response by querying an LLM judge.
 			- ==Tool Use==
-				- We develop tool-use capabilities (eg function calling, code-interpreter, browsing) through a mixture of human and synthetic data.
+				- [ ] We develop tool-use capabilities (eg function calling, code-interpreter, browsing) through a mixture of human and synthetic data.
 				- Bootstrap with synthetic data, which focuses on single-tool use cases, and then collect human annotations that involve multi-tool and multi-step scenarios.
 			- ==Coding==
 				- The generation of synthetic coding dataset involves a [[Self-Instruct]] method with [[Rejection Sampling]]. 
