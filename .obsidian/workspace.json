@@ -139,8 +139,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ],
@@ -223,8 +223,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -1463,8 +1463,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -1526,8 +1526,7 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "5aee5984124c597f",
