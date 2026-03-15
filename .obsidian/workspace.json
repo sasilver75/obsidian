@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3f6fba624c7a3e1d",
+        "id": "4d7acab62223e2aa",
         "type": "tabs",
         "children": [
           {
-            "id": "6ec37b1bf0c66e0f",
+            "id": "ada571967d97d8de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Airflow.md",
+                "file": "~ Vocabulary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache Airflow"
+              "title": "~ Vocabulary"
             }
           },
           {
-            "id": "5aee5984124c597f",
+            "id": "63f04f14143874d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synthetic Data.md",
+                "file": "Reasoning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,31 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Synthetic Data"
-            }
-          },
-          {
-            "id": "6832203a9ea8f243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/General/Apple Intelligence Foundation Language Models.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Apple Intelligence Foundation Language Models"
+              "title": "Reasoning"
             }
           }
         ],
@@ -132,24 +108,12 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "59090bd7d5886a5c",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1466,9 +1430,29 @@
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
             }
+          },
+          {
+            "id": "8596f9634f9e762b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "5c6b7905204f6f23",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 128
+        "currentTab": 130
       },
       {
         "id": "8a022290161ffefa",
@@ -1526,15 +1510,17 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5aee5984124c597f",
+  "active": "63f04f14143874d6",
   "lastOpenFiles": [
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
-    "Evol-Instruct.md",
-    "Synthetic Data.md",
+    "~ Vocabulary.md",
     "Apache Airflow.md",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "Synthetic Data.md",
+    "Evol-Instruct.md",
     "_attachments/Pasted image 20250707201042.png",
     "_attachments/Pasted image 20250707201024.png",
     "_attachments/Pasted image 20250707174023.png",
@@ -1543,7 +1529,6 @@
     "Cache Aside.md",
     "Write-Back Cache.md",
     "Cache.md",
-    "~ Vocabulary.md",
     "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20250618151325.png",
     "_attachments/Pasted image 20250618151303.png",
