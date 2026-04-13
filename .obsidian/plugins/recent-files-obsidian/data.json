@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Three.js",
+      "path": "Three.js.md"
+    },
+    {
       "basename": "Tile Server",
       "path": "Tile Server.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Geodesy",
       "path": "Geodesy.md"
-    },
-    {
-      "basename": "ESRI",
-      "path": "ESRI.md"
     }
   ],
   "omittedPaths": [],

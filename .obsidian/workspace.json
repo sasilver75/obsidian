@@ -680,6 +680,30 @@
             }
           },
           {
+            "id": "9afd5615ef89bdfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Three.js.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Three.js"
+            }
+          },
+          {
             "id": "8eb38f8bba754082",
             "type": "leaf",
             "state": {
@@ -728,7 +752,7 @@
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -2228,8 +2252,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "35001cbe8d878229",
+  "active": "9afd5615ef89bdfc",
   "lastOpenFiles": [
+    "Tile Server.md",
+    "Three.js.md",
     "Celery.md",
     "kepler.gl.md",
     "Zarr.md",
@@ -2240,7 +2266,6 @@
     "GeoJSON.md",
     "Geographic Information Systems.md",
     "GeoPackage.md",
-    "Tile Server.md",
     "Normalized Difference Vegetation Index.md",
     "AlphaEarth.md",
     "Landsat.md",
@@ -2255,7 +2280,6 @@
     "pg_tileserv.md",
     "QGIS.md",
     "ArcGIS.md",
-    "PostGIS.md",
     "_attachments/Pasted image 20260412185016.png",
     "_attachments/Pasted image 20260411202330.png",
     "_attachments/Pasted image 20260411185815.png",
