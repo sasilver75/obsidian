@@ -1,48 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "Geographic Information Systems",
-      "path": "Geographic Information Systems.md"
+      "basename": "SedonaDB",
+      "path": "SedonaDB.md"
     },
     {
-      "basename": "EPSG Code",
-      "path": "EPSG Code.md"
-    },
-    {
-      "basename": "Slippy Map",
-      "path": "Slippy Map.md"
-    },
-    {
-      "basename": "Tile Server",
-      "path": "Tile Server.md"
-    },
-    {
-      "basename": "Tile",
-      "path": "Tile.md"
-    },
-    {
-      "basename": "Mercator",
-      "path": "Mercator.md"
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
     },
     {
       "basename": "H3",
       "path": "H3.md"
     },
     {
-      "basename": "PostGIS",
-      "path": "PostGIS.md"
+      "basename": "Socrata",
+      "path": "Socrata.md"
     },
     {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
+      "basename": "Open Geospatial Consortium",
+      "path": "Open Geospatial Consortium.md"
+    },
+    {
+      "basename": "GeoPackage",
+      "path": "GeoPackage.md"
+    },
+    {
+      "basename": "Geographic Information Systems",
+      "path": "Geographic Information Systems.md"
+    },
+    {
+      "basename": "geopandas",
+      "path": "geopandas.md"
+    },
+    {
+      "basename": "GeoJSON",
+      "path": "GeoJSON.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "GeoTIFF",
+      "path": "GeoTIFF.md"
+    },
+    {
+      "basename": "Vector",
+      "path": "Vector.md"
+    },
+    {
+      "basename": "Shapefile",
+      "path": "Shapefile.md"
+    },
+    {
+      "basename": "Well-Known Text",
+      "path": "Well-Known Text.md"
     },
     {
       "basename": "Well-Known Binary",
       "path": "Well-Known Binary.md"
     },
     {
-      "basename": "Well-Known Text",
-      "path": "Well-Known Text.md"
+      "basename": "PostGIS",
+      "path": "PostGIS.md"
+    },
+    {
+      "basename": "Tile",
+      "path": "Tile.md"
+    },
+    {
+      "basename": "EPSG Code",
+      "path": "EPSG Code.md"
+    },
+    {
+      "basename": "Mercator",
+      "path": "Mercator.md"
+    },
+    {
+      "basename": "Slippy Map",
+      "path": "Slippy Map.md"
+    },
+    {
+      "basename": "Coordinate System",
+      "path": "Coordinate System.md"
+    },
+    {
+      "basename": "Tile Server",
+      "path": "Tile Server.md"
+    },
+    {
+      "basename": "Cloud-Optimized GeoTIFF",
+      "path": "Cloud-Optimized GeoTIFF.md"
     },
     {
       "basename": "SRID",
@@ -51,30 +99,6 @@
     {
       "basename": "Geodesy",
       "path": "Geodesy.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "Coordinate System",
-      "path": "Coordinate System.md"
-    },
-    {
-      "basename": "GeoPackage",
-      "path": "GeoPackage.md"
-    },
-    {
-      "basename": "Shapefile",
-      "path": "Shapefile.md"
-    },
-    {
-      "basename": "Vector",
-      "path": "Vector.md"
-    },
-    {
-      "basename": "GeoJSON",
-      "path": "GeoJSON.md"
     },
     {
       "basename": "ESRI",

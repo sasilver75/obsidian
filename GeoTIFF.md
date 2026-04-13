@@ -1,0 +1,1 @@
+See also: [[Cloud-Optimized GeoTIFF]] ("COG")

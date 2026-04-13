@@ -31,7 +31,7 @@ Most tiled web maps follow certain Google Maps conventions:
 
 Things like MapLibre GL JS and Mapbox GL JS consume vector tiles; this is generally what you want for interactive layers.
 
-`pg_tileserv` is a lightweight Go server that generates vector tiles directly from PostGIS queries. You point it at your databse and it exposes your spatial tables as tile endpoints:
+`pg_tileserv` is a lightweight Go server that generates vector tiles directly from PostGIS queries. You point it at your database and it exposes your spatial tables as tile endpoints:
 
 ```
 GET /public.service_requests/{z}/{x}/{y}.pbf

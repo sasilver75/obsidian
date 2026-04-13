@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vector.md",
+                "file": "Geographic Information Systems.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vector"
+              "title": "Geographic Information Systems"
+            }
+          },
+          {
+            "id": "4e47d60dff0c66fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GeoPackage.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GeoPackage"
+            }
+          },
+          {
+            "id": "da95f80adda4a63c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SedonaDB.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SedonaDB"
             }
           },
           {
@@ -277,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geographic Information Systems.md",
+                "file": "Open Geospatial Consortium.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geographic Information Systems"
+              "title": "Open Geospatial Consortium"
             }
           },
           {
@@ -517,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geographic Information Systems.md",
+                "file": "GeoTIFF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,11 +580,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geographic Information Systems"
+              "title": "GeoTIFF"
+            }
+          },
+          {
+            "id": "35001cbe8d878229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GeoTIFF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GeoTIFF"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2036,44 +2108,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3fb52da87d25bf98",
+  "active": "da95f80adda4a63c",
   "lastOpenFiles": [
-    "EPSG Code.md",
+    "_attachments/Pasted image 20260412185016.png",
+    "DuckDB.md",
+    "SedonaDB.md",
+    "H3.md",
+    "_attachments/Pasted image 20260411202330.png",
+    "Socrata.md",
+    "Open Geospatial Consortium.md",
+    "GeoPackage.md",
     "Geographic Information Systems.md",
-    "Slippy Map.md",
-    "Tile Server.md",
+    "geopandas.md",
+    "GeoJSON.md",
+    "WGS84.md",
+    "GeoTIFF.md",
+    "Vector.md",
+    "Shapefile.md",
+    "Well-Known Text.md",
+    "Well-Known Binary.md",
+    "PostGIS.md",
     "Tile.md",
+    "EPSG Code.md",
     "Mercator.md",
+    "Slippy Map.md",
+    "Coordinate System.md",
+    "Tile Server.md",
     "_attachments/Pasted image 20260411185815.png",
     "_attachments/Pasted image 20260411185613.png",
     "_attachments/Pasted image 20260411185334.png",
     "_attachments/Pasted image 20260411185332.png",
-    "H3.md",
-    "PostGIS.md",
     "Cloud-Optimized GeoTIFF.md",
-    "Well-Known Binary.md",
-    "Well-Known Text.md",
     "SRID.md",
     "Geodesy.md",
-    "WGS84.md",
-    "Coordinate System.md",
-    "GeoPackage.md",
-    "Shapefile.md",
-    "Vector.md",
-    "GeoJSON.md",
-    "ESRI.md",
-    "Raster.md",
     "_attachments/Pasted image 20260411132018.png",
-    "~ Vocabulary.md",
-    "Apache Airflow.md",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
-    "Synthetic Data.md",
-    "Evol-Instruct.md",
     "_attachments/Pasted image 20250707201042.png",
     "_attachments/Pasted image 20250707201024.png",
     "_attachments/Pasted image 20250707174023.png",
     "_attachments/Pasted image 20250707172020.png",
-    "_attachments/Pasted image 20250618151325.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
