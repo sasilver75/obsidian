@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SedonaDB.md",
+                "file": "Tile Server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SedonaDB"
+              "title": "Tile Server"
+            }
+          },
+          {
+            "id": "94b99ec3217afe49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Parquet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Parquet"
+            }
+          },
+          {
+            "id": "7a3687e9909ba14d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hot Module Replacement.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hot Module Replacement"
             }
           },
           {
@@ -2110,9 +2158,21 @@
   },
   "active": "da95f80adda4a63c",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260412185016.png",
+    "pg_tileserv.md",
+    "QGIS.md",
+    "ArcGIS.md",
+    "PostGIS.md",
     "DuckDB.md",
+    "Apache Parquet.md",
     "SedonaDB.md",
+    "deck.gl.md",
+    "MapLibre GL JS.md",
+    "TanStack Query.md",
+    "Zustand.md",
+    "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
+    "Vite.md",
+    "Hot Module Replacement.md",
+    "_attachments/Pasted image 20260412185016.png",
     "H3.md",
     "_attachments/Pasted image 20260411202330.png",
     "Socrata.md",
@@ -2126,26 +2186,14 @@
     "Vector.md",
     "Shapefile.md",
     "Well-Known Text.md",
-    "Well-Known Binary.md",
-    "PostGIS.md",
-    "Tile.md",
-    "EPSG Code.md",
-    "Mercator.md",
-    "Slippy Map.md",
-    "Coordinate System.md",
-    "Tile Server.md",
     "_attachments/Pasted image 20260411185815.png",
     "_attachments/Pasted image 20260411185613.png",
     "_attachments/Pasted image 20260411185334.png",
     "_attachments/Pasted image 20260411185332.png",
-    "Cloud-Optimized GeoTIFF.md",
-    "SRID.md",
-    "Geodesy.md",
     "_attachments/Pasted image 20260411132018.png",
     "_attachments/Pasted image 20250707201042.png",
     "_attachments/Pasted image 20250707201024.png",
     "_attachments/Pasted image 20250707174023.png",
-    "_attachments/Pasted image 20250707172020.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

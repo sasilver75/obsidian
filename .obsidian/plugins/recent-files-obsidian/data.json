@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "SedonaDB",
-      "path": "SedonaDB.md"
+      "basename": "Tile Server",
+      "path": "Tile Server.md"
+    },
+    {
+      "basename": "pg_tileserv",
+      "path": "pg_tileserv.md"
+    },
+    {
+      "basename": "QGIS",
+      "path": "QGIS.md"
+    },
+    {
+      "basename": "ArcGIS",
+      "path": "ArcGIS.md"
+    },
+    {
+      "basename": "PostGIS",
+      "path": "PostGIS.md"
     },
     {
       "basename": "DuckDB",
       "path": "DuckDB.md"
+    },
+    {
+      "basename": "Apache Parquet",
+      "path": "Apache Parquet.md"
+    },
+    {
+      "basename": "SedonaDB",
+      "path": "SedonaDB.md"
+    },
+    {
+      "basename": "deck.gl",
+      "path": "deck.gl.md"
+    },
+    {
+      "basename": "MapLibre GL JS",
+      "path": "MapLibre GL JS.md"
+    },
+    {
+      "basename": "TanStack Query",
+      "path": "TanStack Query.md"
+    },
+    {
+      "basename": "Zustand",
+      "path": "Zustand.md"
+    },
+    {
+      "basename": "Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling",
+      "path": "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md"
+    },
+    {
+      "basename": "Vite",
+      "path": "Vite.md"
+    },
+    {
+      "basename": "Hot Module Replacement",
+      "path": "Hot Module Replacement.md"
     },
     {
       "basename": "H3",
@@ -61,10 +113,6 @@
       "path": "Well-Known Binary.md"
     },
     {
-      "basename": "PostGIS",
-      "path": "PostGIS.md"
-    },
-    {
       "basename": "Tile",
       "path": "Tile.md"
     },
@@ -83,10 +131,6 @@
     {
       "basename": "Coordinate System",
       "path": "Coordinate System.md"
-    },
-    {
-      "basename": "Tile Server",
-      "path": "Tile Server.md"
     },
     {
       "basename": "Cloud-Optimized GeoTIFF",
@@ -155,10 +199,6 @@
     {
       "basename": "Version Vector",
       "path": "Version Vector.md"
-    },
-    {
-      "basename": "Dotted Version Vector",
-      "path": "Dotted Version Vector.md"
     }
   ],
   "omittedPaths": [],
