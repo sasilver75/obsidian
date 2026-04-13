@@ -59,7 +59,7 @@ GROUP BY n.name, n.geom;
 - [[rasterio]]: ==Read/write raster datasets== ([[GeoTIFF]], [[Cloud-Optimized GeoTIFF|COG]]). Access individual pixels, reproject rasters, compute band math.
 - [[rio-cogeo]]: Create and validate [[Cloud-Optimized GeoTIFF]]s (==COGs==).
 - [[pyogrio]]: Fast I/O for vector formats, a ==faster drop-in backend for [[geopandas]].==
-- [[sqlalchemy]] + [[geoalchemy2]]: SQLAlchemy ORM with PostGIS geometry type support.
+- [[SQLAlchemy]] + [[GeoAlchemy2]]: SQLAlchemy ORM with PostGIS geometry type support.
 - [[folium]]: A quick way to make Leaflet.js maps from Python; good for notebooks and exploration, but not for production.
 - [[kepler.gl]]: Uber's heavy-duty geospatial visualization, has a Python/Jupiter interface; good for EDA.
 

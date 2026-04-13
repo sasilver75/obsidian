@@ -314,13 +314,37 @@ COMMIT;
 This transaction assures [[Atomicity]]!
 - ==Things get more complicated when multiple transactions are happening concurrently==!
 
-##### Transactions and Concurrent Operations
+...
 
 
+_________
+
+## PostgresQL Extensions:
+- Built-in extension system lets optional modules be loaded into a database to add new types, functions, and operators.
+- ==Extensions are installed per-database, not globally.==
+```sql
+CREATE EXTENSION IF NOT EXISTS postgis;   -- adds geometry types + spatial functions
+CREATE EXTENSION IF NOT EXISTS h3;        -- adds H3 hexagonal indexing functions
+CREATE EXTENSION IF NOT EXISTS pg_trgm;   -- adds trigram text similarity indexes
+```
+- The extension'ss shared library (`.so` file) must exist on the PostgresQL server.
+	- For first party extensions (e.g. pg_stat_statements), this is bundled with postgres, while for third-party ones (like [[PostGIS]] and [[H3]]), they must be compiled and installed on the machine first.
+		- Typically your postgres infraDockerfile will compile h3-pg from source, for instance.
+- The `CREATE EXTENSION` call just loads it into a specific database -- the library is already on the server.
 
 
-
-
+### PostgreSQL Schemas
+- Supports multiple schemas within a single database -- named namespaces for tables like `raw.sr_311` vs `public.sr_311`, if we're ingesting some 311 information into a raw table and then enhancing/cleaning it with some sort of scheduled ETL process.
+- In [[SQLAlchemy]], our models declare their schema in `__table_args__`:
+```python
+class RawSR311(Base):
+    __tablename__ = "sr_311"
+    __table_args__ = (
+        Index("idx_raw_sr_311_fetched_at", "_fetched_at"),
+        {"schema": "raw"},   # ← puts this table in the raw schema
+    )
+```
+- Above: See that we're also defining [[Index]]es in the `__table_args__` class attribute.
 
 
 

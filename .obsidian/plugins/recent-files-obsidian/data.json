@@ -1,40 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Three.js",
-      "path": "Three.js.md"
+      "basename": "psycopg",
+      "path": "psycopg.md"
     },
     {
-      "basename": "Tile Server",
-      "path": "Tile Server.md"
+      "basename": "GeoAlchemy2",
+      "path": "GeoAlchemy2.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "Coordinate System",
+      "path": "Coordinate System.md"
+    },
+    {
+      "basename": "SRID",
+      "path": "SRID.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "PostgreSQL.md"
+    },
+    {
+      "basename": "SQLAlchemy",
+      "path": "SQLAlchemy.md"
+    },
+    {
+      "basename": "Connection Pool",
+      "path": "Connection Pool.md"
     },
     {
       "basename": "Celery",
       "path": "Celery.md"
     },
     {
-      "basename": "kepler.gl",
-      "path": "kepler.gl.md"
-    },
-    {
-      "basename": "Zarr",
-      "path": "Zarr.md"
-    },
-    {
-      "basename": "Amazon S3",
-      "path": "Amazon S3.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Docker.md"
-    },
-    {
-      "basename": "GeoTIFF",
-      "path": "GeoTIFF.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
+      "basename": "leafmap",
+      "path": "leafmap.md"
     },
     {
       "basename": "GeoJSON",
@@ -49,16 +53,12 @@
       "path": "GeoPackage.md"
     },
     {
+      "basename": "Tile Server",
+      "path": "Tile Server.md"
+    },
+    {
       "basename": "Normalized Difference Vegetation Index",
       "path": "Normalized Difference Vegetation Index.md"
-    },
-    {
-      "basename": "AlphaEarth",
-      "path": "AlphaEarth.md"
-    },
-    {
-      "basename": "Landsat",
-      "path": "Landsat.md"
     },
     {
       "basename": "United States Geological Survey",
@@ -71,6 +71,114 @@
     {
       "basename": "Shapefile",
       "path": "Shapefile.md"
+    },
+    {
+      "basename": "Well-Known Text",
+      "path": "Well-Known Text.md"
+    },
+    {
+      "basename": "Well-Known Binary",
+      "path": "Well-Known Binary.md"
+    },
+    {
+      "basename": "PostGIS",
+      "path": "PostGIS.md"
+    },
+    {
+      "basename": "whitebox-tools",
+      "path": "whitebox-tools.md"
+    },
+    {
+      "basename": "pydeck",
+      "path": "pydeck.md"
+    },
+    {
+      "basename": "Tile",
+      "path": "Tile.md"
+    },
+    {
+      "basename": "geopandas",
+      "path": "geopandas.md"
+    },
+    {
+      "basename": "H3",
+      "path": "H3.md"
+    },
+    {
+      "basename": "Apache Sedona",
+      "path": "Apache Sedona.md"
+    },
+    {
+      "basename": "SedonaDB",
+      "path": "SedonaDB.md"
+    },
+    {
+      "basename": "Open Geospatial Consortium",
+      "path": "Open Geospatial Consortium.md"
+    },
+    {
+      "basename": "EPSG Code",
+      "path": "EPSG Code.md"
+    },
+    {
+      "basename": "Mercator",
+      "path": "Mercator.md"
+    },
+    {
+      "basename": "Slippy Map",
+      "path": "Slippy Map.md"
+    },
+    {
+      "basename": "GeoTIFF",
+      "path": "GeoTIFF.md"
+    },
+    {
+      "basename": "Google Earth Engine",
+      "path": "Google Earth Engine.md"
+    },
+    {
+      "basename": "PlaceKey",
+      "path": "PlaceKey.md"
+    },
+    {
+      "basename": "Amazon S3",
+      "path": "Amazon S3.md"
+    },
+    {
+      "basename": "geemap",
+      "path": "geemap.md"
+    },
+    {
+      "basename": "kepler.gl",
+      "path": "kepler.gl.md"
+    },
+    {
+      "basename": "GeoParquet",
+      "path": "GeoParquet.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
+    },
+    {
+      "basename": "Three.js",
+      "path": "Three.js.md"
+    },
+    {
+      "basename": "Zarr",
+      "path": "Zarr.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Docker.md"
+    },
+    {
+      "basename": "AlphaEarth",
+      "path": "AlphaEarth.md"
+    },
+    {
+      "basename": "Landsat",
+      "path": "Landsat.md"
     },
     {
       "basename": "MODIS",
@@ -91,114 +199,6 @@
     {
       "basename": "Building on Evaluation Quicksand (October 16, 2024) {Interconnects}",
       "path": "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md"
-    },
-    {
-      "basename": "pg_tileserv",
-      "path": "pg_tileserv.md"
-    },
-    {
-      "basename": "QGIS",
-      "path": "QGIS.md"
-    },
-    {
-      "basename": "ArcGIS",
-      "path": "ArcGIS.md"
-    },
-    {
-      "basename": "PostGIS",
-      "path": "PostGIS.md"
-    },
-    {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
-    },
-    {
-      "basename": "SedonaDB",
-      "path": "SedonaDB.md"
-    },
-    {
-      "basename": "deck.gl",
-      "path": "deck.gl.md"
-    },
-    {
-      "basename": "MapLibre GL JS",
-      "path": "MapLibre GL JS.md"
-    },
-    {
-      "basename": "TanStack Query",
-      "path": "TanStack Query.md"
-    },
-    {
-      "basename": "Zustand",
-      "path": "Zustand.md"
-    },
-    {
-      "basename": "Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling",
-      "path": "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md"
-    },
-    {
-      "basename": "Vite",
-      "path": "Vite.md"
-    },
-    {
-      "basename": "H3",
-      "path": "H3.md"
-    },
-    {
-      "basename": "Socrata",
-      "path": "Socrata.md"
-    },
-    {
-      "basename": "Open Geospatial Consortium",
-      "path": "Open Geospatial Consortium.md"
-    },
-    {
-      "basename": "geopandas",
-      "path": "geopandas.md"
-    },
-    {
-      "basename": "Vector",
-      "path": "Vector.md"
-    },
-    {
-      "basename": "Well-Known Text",
-      "path": "Well-Known Text.md"
-    },
-    {
-      "basename": "Well-Known Binary",
-      "path": "Well-Known Binary.md"
-    },
-    {
-      "basename": "Tile",
-      "path": "Tile.md"
-    },
-    {
-      "basename": "EPSG Code",
-      "path": "EPSG Code.md"
-    },
-    {
-      "basename": "Mercator",
-      "path": "Mercator.md"
-    },
-    {
-      "basename": "Slippy Map",
-      "path": "Slippy Map.md"
-    },
-    {
-      "basename": "Coordinate System",
-      "path": "Coordinate System.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
-    },
-    {
-      "basename": "SRID",
-      "path": "SRID.md"
-    },
-    {
-      "basename": "Geodesy",
-      "path": "Geodesy.md"
     }
   ],
   "omittedPaths": [],
