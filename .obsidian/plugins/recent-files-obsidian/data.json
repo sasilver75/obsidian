@@ -5,6 +5,90 @@
       "path": "Tile Server.md"
     },
     {
+      "basename": "Celery",
+      "path": "Celery.md"
+    },
+    {
+      "basename": "kepler.gl",
+      "path": "kepler.gl.md"
+    },
+    {
+      "basename": "Zarr",
+      "path": "Zarr.md"
+    },
+    {
+      "basename": "Amazon S3",
+      "path": "Amazon S3.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Docker.md"
+    },
+    {
+      "basename": "GeoTIFF",
+      "path": "GeoTIFF.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "GeoJSON",
+      "path": "GeoJSON.md"
+    },
+    {
+      "basename": "Geographic Information Systems",
+      "path": "Geographic Information Systems.md"
+    },
+    {
+      "basename": "GeoPackage",
+      "path": "GeoPackage.md"
+    },
+    {
+      "basename": "Normalized Difference Vegetation Index",
+      "path": "Normalized Difference Vegetation Index.md"
+    },
+    {
+      "basename": "AlphaEarth",
+      "path": "AlphaEarth.md"
+    },
+    {
+      "basename": "Landsat",
+      "path": "Landsat.md"
+    },
+    {
+      "basename": "United States Geological Survey",
+      "path": "United States Geological Survey.md"
+    },
+    {
+      "basename": "Sentinel",
+      "path": "Sentinel.md"
+    },
+    {
+      "basename": "Shapefile",
+      "path": "Shapefile.md"
+    },
+    {
+      "basename": "MODIS",
+      "path": "MODIS.md"
+    },
+    {
+      "basename": "Hot Module Replacement",
+      "path": "Hot Module Replacement.md"
+    },
+    {
+      "basename": "Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}",
+      "path": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
+    },
+    {
+      "basename": "Apache Parquet",
+      "path": "Apache Parquet.md"
+    },
+    {
+      "basename": "Building on Evaluation Quicksand (October 16, 2024) {Interconnects}",
+      "path": "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md"
+    },
+    {
       "basename": "pg_tileserv",
       "path": "pg_tileserv.md"
     },
@@ -23,10 +107,6 @@
     {
       "basename": "DuckDB",
       "path": "DuckDB.md"
-    },
-    {
-      "basename": "Apache Parquet",
-      "path": "Apache Parquet.md"
     },
     {
       "basename": "SedonaDB",
@@ -57,10 +137,6 @@
       "path": "Vite.md"
     },
     {
-      "basename": "Hot Module Replacement",
-      "path": "Hot Module Replacement.md"
-    },
-    {
       "basename": "H3",
       "path": "H3.md"
     },
@@ -73,36 +149,12 @@
       "path": "Open Geospatial Consortium.md"
     },
     {
-      "basename": "GeoPackage",
-      "path": "GeoPackage.md"
-    },
-    {
-      "basename": "Geographic Information Systems",
-      "path": "Geographic Information Systems.md"
-    },
-    {
       "basename": "geopandas",
       "path": "geopandas.md"
     },
     {
-      "basename": "GeoJSON",
-      "path": "GeoJSON.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "GeoTIFF",
-      "path": "GeoTIFF.md"
-    },
-    {
       "basename": "Vector",
       "path": "Vector.md"
-    },
-    {
-      "basename": "Shapefile",
-      "path": "Shapefile.md"
     },
     {
       "basename": "Well-Known Text",
@@ -147,58 +199,6 @@
     {
       "basename": "ESRI",
       "path": "ESRI.md"
-    },
-    {
-      "basename": "Raster",
-      "path": "Raster.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "Reasoning",
-      "path": "Reasoning.md"
-    },
-    {
-      "basename": "Apache Airflow",
-      "path": "Apache Airflow.md"
-    },
-    {
-      "basename": "Apple Intelligence Foundation Language Models",
-      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "Evol-Instruct",
-      "path": "Evol-Instruct.md"
-    },
-    {
-      "basename": "Design GoPuff",
-      "path": "Courses/SystemDesign/Case Studies/Design GoPuff.md"
-    },
-    {
-      "basename": "Cache Aside",
-      "path": "Cache Aside.md"
-    },
-    {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
-    },
-    {
-      "basename": "Serializability",
-      "path": "Serializability.md"
-    },
-    {
-      "basename": "Version Vector",
-      "path": "Version Vector.md"
     }
   ],
   "omittedPaths": [],

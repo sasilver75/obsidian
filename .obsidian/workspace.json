@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Parquet.md",
+                "file": "Normalized Difference Vegetation Index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache Parquet"
+              "title": "Normalized Difference Vegetation Index"
+            }
+          },
+          {
+            "id": "1a519a0d3e0f8c83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Geological Survey.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Geological Survey"
             }
           },
           {
@@ -157,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hot Module Replacement.md",
+                "file": "Sentinel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hot Module Replacement"
+              "title": "Sentinel"
             }
           },
           {
@@ -637,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GeoTIFF.md",
+                "file": "Tile Server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,11 +676,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GeoTIFF"
+              "title": "Tile Server"
+            }
+          },
+          {
+            "id": "8eb38f8bba754082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kepler.gl.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "kepler.gl"
+            }
+          },
+          {
+            "id": "f56084cb7e947467",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon S3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon S3"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -2156,36 +2228,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "da95f80adda4a63c",
+  "active": "35001cbe8d878229",
   "lastOpenFiles": [
+    "Celery.md",
+    "kepler.gl.md",
+    "Zarr.md",
+    "Amazon S3.md",
+    "Docker.md",
+    "GeoTIFF.md",
+    "WGS84.md",
+    "GeoJSON.md",
+    "Geographic Information Systems.md",
+    "GeoPackage.md",
+    "Tile Server.md",
+    "Normalized Difference Vegetation Index.md",
+    "AlphaEarth.md",
+    "Landsat.md",
+    "United States Geological Survey.md",
+    "Sentinel.md",
+    "Shapefile.md",
+    "MODIS.md",
+    "Hot Module Replacement.md",
+    "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md",
+    "Apache Parquet.md",
+    "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md",
     "pg_tileserv.md",
     "QGIS.md",
     "ArcGIS.md",
     "PostGIS.md",
-    "DuckDB.md",
-    "Apache Parquet.md",
-    "SedonaDB.md",
-    "deck.gl.md",
-    "MapLibre GL JS.md",
-    "TanStack Query.md",
-    "Zustand.md",
-    "PaperClubs/LatentSpace/Paperclub Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling.md",
-    "Vite.md",
-    "Hot Module Replacement.md",
     "_attachments/Pasted image 20260412185016.png",
-    "H3.md",
     "_attachments/Pasted image 20260411202330.png",
-    "Socrata.md",
-    "Open Geospatial Consortium.md",
-    "GeoPackage.md",
-    "Geographic Information Systems.md",
-    "geopandas.md",
-    "GeoJSON.md",
-    "WGS84.md",
-    "GeoTIFF.md",
-    "Vector.md",
-    "Shapefile.md",
-    "Well-Known Text.md",
     "_attachments/Pasted image 20260411185815.png",
     "_attachments/Pasted image 20260411185613.png",
     "_attachments/Pasted image 20260411185334.png",
