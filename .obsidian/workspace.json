@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Iceberg.md",
+                "file": "MapTiler.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,113 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache Iceberg"
+              "title": "MapTiler"
+            }
+          },
+          {
+            "id": "f9efa58d1361eeae",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "c58a57c6a875d020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mapbox Vector Tile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mapbox Vector Tile"
+            }
+          },
+          {
+            "id": "89d52691c3c6a7e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenStreetMap.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenStreetMap"
+            }
+          },
+          {
+            "id": "7727d6cf66dca1f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenLayers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenLayers"
+            }
+          },
+          {
+            "id": "a4c5a7b7085b8373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leaflet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Leaflet"
             }
           },
           {
@@ -61,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloudflare R2.md",
+                "file": "MIT License.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +182,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cloudflare R2"
+              "title": "MIT License"
+            }
+          },
+          {
+            "id": "c4ced5483447f846",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mapbox Vector Tile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mapbox Vector Tile"
             }
           }
         ],
@@ -112,7 +242,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "titiler",
+                "query": "\"Coordinate Reference System\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1580,34 +1710,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "842b7473fa840a23",
+  "active": "f9efa58d1361eeae",
   "lastOpenFiles": [
-    "Google Cloud Storage.md",
+    "Coordinate Reference System.md",
+    "GeoAlchemy2.md",
+    "DuckDB.md",
+    "Protomaps.md",
+    "MapTiler.md",
+    "GDAL.md",
+    "Mapbox Vector Tile.md",
+    "Tile Server.md",
+    "Stadia Maps.md",
+    "OpenStreetMap.md",
+    "OpenLayers.md",
+    "Leaflet.md",
+    "Mapbox.md",
     "Apache Iceberg.md",
+    "MIT License.md",
+    "BSD License.md",
+    "Cloudflare R2.md",
+    "Google Cloud Storage.md",
     "Apache Avro.md",
     "Optimized Row Columnar.md",
     "Ibis.md",
-    "Cloudflare R2.md",
     "Apache Hive.md",
-    "GDAL.md",
     "H3.md",
     "Apache Arrow.md",
     "Ray.md",
     "Fiona.md",
-    "Apache Spark.md",
-    "TCP.md",
-    "Shapely.md",
-    "Amazon S3.md",
-    "PlaceKey.md",
-    "Google Earth Engine.md",
-    "Tile Server.md",
-    "Trino.md",
-    "Tile.md",
-    "Well-Known Binary.md",
-    "WGS84.md",
-    "Coordinate System.md",
-    "Slippy Map.md",
-    "Mercator.md",
     "_attachments/Pasted image 20260414121252.png",
     "_attachments/Pasted image 20260413205642.png",
     "_attachments/Pasted image 20260413173709.png",

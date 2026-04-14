@@ -3,7 +3,7 @@ A legacy format for geospatial feature data from [[ESRI]].
 A "shapefile" is actually ==3-7 files== that must travel together:
 - `.shp` (contains Geometry)
 - `.dbf` (Attribute table (dBASE format))
-- `.prj` (Projection/[[Coordinate System|CRS]] definition)
+- `.prj` (Projection/[[Coordinate Reference System|CRS]] definition)
 - `shx` (Shape index)
 
 You'll encounter these constantly when downloading from government GIS portals!

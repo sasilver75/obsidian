@@ -3,9 +3,9 @@ aliases:
   - Spacial Reference Identifier
   - Spatial Reference ID
 ---
-It's a database-internal integer used to identify a [[Coordinate System|Coordinate Reference System]] in a spatial database like [[PostGIS]].
+It's a database-internal integer used to identify a [[Coordinate Reference System|Coordinate Reference System]] in a spatial database like [[PostGIS]].
 
-- A [[Coordinate System|CRS]] is the abstract concept (full mathematical definition of how coordinates map to locations on Earth)
+- A [[Coordinate Reference System|CRS]] is the abstract concept (full mathematical definition of how coordinates map to locations on Earth)
 - [[EPSG Code|EPSG]] is the organization (now part of IOGP) that maintains a registry of numbered CRS definitions (e.g. 4326, 3857).
 - [[SRID]] is what a database uses internally to refer to one of those definitions.
 

@@ -19,7 +19,7 @@ class SR311(Base):
 ```
 Above:
 - Using SQLAlchemy and GeoAlchemy2 to declare a Geometry-type column on a Model.
-	- The `Geometry` type takes a geometry type string (POINT, POLYGON, MULTIPOLYGON) and an [[SRID]] (an identifier for a [[Coordinate System|Coordinate Reference System]]; 4326 is [[WGS84]], the standard geodetic datum used for global positioning, navigation, and mapping.)
+	- The `Geometry` type takes a geometry type string (POINT, POLYGON, MULTIPOLYGON) and an [[SRID]] (an identifier for a [[Coordinate Reference System|Coordinate Reference System]]; 4326 is [[WGS84]], the standard geodetic datum used for global positioning, navigation, and mapping.)
 
 
 ### The 'spatial_index=False' Gotcha

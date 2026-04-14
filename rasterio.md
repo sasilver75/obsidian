@@ -14,6 +14,6 @@ With Rasterio, you might:
 1. Open a [[GeoTIFF]] (satellite image) and read pixel values as [[NumPy]] arrays.
 2. Reproject rasters from one coordinate system to another
 3. Clip a raster to a polygon (e.g. "give me only the elevation data within LA County")
-4. Read raster metadata: [[Coordinate System|CRS]], pixel size (resolution), bounding box, band count
+4. Read raster metadata: [[Coordinate Reference System|CRS]], pixel size (resolution), bounding box, band count
 	1. (Band Count refers to how many separate data layers a Raster file contains, where each band stores one value per pixel! RGB image has 3 bands, RGBA 4 bands, etc. Hyperspectral satellite data might have 200+ bands, each capturing a different wavelength of light!)
 5. Write processed arrays back to disk as GeoTiff

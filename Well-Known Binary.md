@@ -5,7 +5,7 @@ aliases:
 Along with [[Well-Known Text|WKT]]s, WKBs are a serialization format for geometry objects, this time representing a shape as a binary blob.
 
 Unlike plain-text WKTs, WKBs are of course ==not human readable==! It's a binary encoding of the same information, so it's ==more compact and faster to parse==. 
-- [[PostGIS]] stores geometries internally in a variant called [[EWKB]], or "Extended WKB", which also encodes the [[EPSG Code]]/[[SRID]] so the [[Coordinate System|CRS]] travels with the geometry.
+- [[PostGIS]] stores geometries internally in a variant called [[EWKB]], or "Extended WKB", which also encodes the [[EPSG Code]]/[[SRID]] so the [[Coordinate Reference System|CRS]] travels with the geometry.
 
 When you run the SQL
 ```sql

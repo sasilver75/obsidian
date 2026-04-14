@@ -56,7 +56,7 @@ map.addLayer({
 
 ## Tile Formats
 A tile server converts raw data into tiles; a tile format is what the tiles look like!
-- [[Mapbox Vector Tiles]] (MVT; .mvt/.pbf)
+- [[Mapbox Vector Tile]] (MVT; .mvt/.pbf)
 	- ==The dominant web vector tile format==. 
 	- The map is divided into a grid of tiles at each zoom level (standard {z}/{x}/{y} scheme).
 	- Each tile contains the vector features (geometries, properties) clipped and simplified for that tile's bounding box and zoom level.

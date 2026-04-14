@@ -1,16 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "Coordinate Reference System",
+      "path": "Coordinate Reference System.md"
+    },
+    {
+      "basename": "GeoAlchemy2",
+      "path": "GeoAlchemy2.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
+    },
+    {
+      "basename": "Protomaps",
+      "path": "Protomaps.md"
+    },
+    {
+      "basename": "MapTiler",
+      "path": "MapTiler.md"
+    },
+    {
+      "basename": "GDAL",
+      "path": "GDAL.md"
+    },
+    {
+      "basename": "Mapbox Vector Tile",
+      "path": "Mapbox Vector Tile.md"
+    },
+    {
+      "basename": "Tile Server",
+      "path": "Tile Server.md"
+    },
+    {
+      "basename": "Stadia Maps",
+      "path": "Stadia Maps.md"
+    },
+    {
+      "basename": "OpenStreetMap",
+      "path": "OpenStreetMap.md"
+    },
+    {
+      "basename": "OpenLayers",
+      "path": "OpenLayers.md"
+    },
+    {
+      "basename": "Leaflet",
+      "path": "Leaflet.md"
+    },
+    {
+      "basename": "Mapbox",
+      "path": "Mapbox.md"
+    },
+    {
+      "basename": "Apache Iceberg",
+      "path": "Apache Iceberg.md"
+    },
+    {
+      "basename": "MIT License",
+      "path": "MIT License.md"
+    },
+    {
+      "basename": "BSD License",
+      "path": "BSD License.md"
+    },
+    {
       "basename": "Cloudflare R2",
       "path": "Cloudflare R2.md"
     },
     {
       "basename": "Google Cloud Storage",
       "path": "Google Cloud Storage.md"
-    },
-    {
-      "basename": "Apache Iceberg",
-      "path": "Apache Iceberg.md"
     },
     {
       "basename": "Apache Avro",
@@ -27,10 +87,6 @@
     {
       "basename": "Apache Hive",
       "path": "Apache Hive.md"
-    },
-    {
-      "basename": "GDAL",
-      "path": "GDAL.md"
     },
     {
       "basename": "H3",
@@ -73,10 +129,6 @@
       "path": "Google Earth Engine.md"
     },
     {
-      "basename": "Tile Server",
-      "path": "Tile Server.md"
-    },
-    {
       "basename": "Trino",
       "path": "Trino.md"
     },
@@ -91,10 +143,6 @@
     {
       "basename": "WGS84",
       "path": "WGS84.md"
-    },
-    {
-      "basename": "Coordinate System",
-      "path": "Coordinate System.md"
     },
     {
       "basename": "Slippy Map",
@@ -151,54 +199,6 @@
     {
       "basename": "Normalized Difference Vegetation Index",
       "path": "Normalized Difference Vegetation Index.md"
-    },
-    {
-      "basename": "Materialized View",
-      "path": "Materialized View.md"
-    },
-    {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
-    },
-    {
-      "basename": "Geographic Information Systems",
-      "path": "Geographic Information Systems.md"
-    },
-    {
-      "basename": "View",
-      "path": "View.md"
-    },
-    {
-      "basename": "GEOS",
-      "path": "GEOS.md"
-    },
-    {
-      "basename": "Apache Parquet",
-      "path": "Apache Parquet.md"
-    },
-    {
-      "basename": "SQLAlchemy",
-      "path": "SQLAlchemy.md"
-    },
-    {
-      "basename": "SRID",
-      "path": "SRID.md"
-    },
-    {
-      "basename": "Mapbox Vector Tiles",
-      "path": "Mapbox Vector Tiles.md"
-    },
-    {
-      "basename": "Data Lakehouse",
-      "path": "Data Lakehouse.md"
-    },
-    {
-      "basename": "Geopandas",
-      "path": "Geopandas.md"
-    },
-    {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Coordinate Reference System
   - CRS
 ---
 

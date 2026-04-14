@@ -1,6 +1,6 @@
 An open-standard spatial extension to the Apache [[Apache Parquet|Parquet]] file format, adding geospatial data types line points/lines/polygons.
 
-The geometry is stored as [[Well-Known Binary|WKB]] bytes in a column, with metadata describing both the [[Coordinate System|Coordinate Reference System]] and bounding box.
+The geometry is stored as [[Well-Known Binary|WKB]] bytes in a column, with metadata describing both the [[Coordinate Reference System|Coordinate Reference System]] and bounding box.
 
 Advantage:
 - Get Parquet's columnar analytics performance on geospatial data.

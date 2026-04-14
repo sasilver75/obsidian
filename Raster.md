@@ -18,7 +18,7 @@ In Raster data, ==Band Count== refers to how many separate data layers a Raster 
 - [[GeoTIFF]]
 	- The ==standard raster format==. 
 	- A regular [[TIFF]] image file with embedded geospatial metadata:
-		- What [[Coordinate System|Coordinate Reference System]] the pixels are in
+		- What [[Coordinate Reference System|Coordinate Reference System]] the pixels are in
 		- What the real-world coordinates of the image corners are.
 	- A satellite image of LA is a GeoTIFF. An elevation model of the Santa Monica Mountains is a GeoTIFF. A land-use classification grid is a GeoTIFF.
 	- Each "==band==" is a grid of values a standard RGB satellite image has 3 bands, an elevation model has 1 band, and multispectral satellite images may have many dozens or hundreds.

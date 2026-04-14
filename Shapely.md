@@ -6,7 +6,7 @@ Wraps the [[GEOS]] C library and ==lets you operate on geometric shapes in 2D sp
 
 It's important to know:
 - It supports ==planar== operations, ==not geographic==!
-- It works in raw coordinate space, and doesn't know about [[Coordinate System|Coordinate Reference System]]s or the curvature of the earth!
+- It works in raw coordinate space, and doesn't know about [[Coordinate Reference System|Coordinate Reference System]]s or the curvature of the earth!
 	- If you can `.distance()` on lat/lon coordinates, you get *degrees*, not *meters*
 	- To get real-world measurements, you'd need to either project first (e.g. using [[pyproj]]) or use [[PostGIS]]'s `::geography` cast.
 
