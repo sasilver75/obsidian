@@ -13,7 +13,7 @@ Useful for:
 - Large-scale ML training requiring high performance IO and random access
 - Storing, querying, and managing multimodal data including images, videos, audio, text, and embeddings
 
-Compatible with [[Pandas]], [[DuckDB]], [[Polars]], [[Apache Arrow|PyArrow]], [[Ray]], [[Spark]], and more.
+Compatible with [[Pandas]], [[DuckDB]], [[Polars]], [[Apache Arrow|PyArrow]], [[Ray]], [[Apache Spark]], and more.
 
 Key Features:
 - Expressive [[Hybrid Search]]: Combines vector similarity search, full-text search ([[BM25]]), and SQL analytics on the same dataset with accelerated secondary index.
@@ -21,4 +21,4 @@ Key Features:
 - Native multimodal data support: Store images, videos, audio, text, and embeddings in a single unified format with efficient blob encoding and lazy loading.
 - Data evolution: Efficiently add columns with backfilled values without full table rewrites, perfect for ML feature engineering.
 - Zero-copy versioning: Automatic versioning with [[ACID]] transactions, time travel, tags, and branches, with no infrastructure needed.
-- Rich ecosystem integration: [[Apache Arrow|Arrow]], [[Pandas]], [[Polars]], [[DuckDB]], [[Spark]], [[Ray]], [[Trino]], [[Apache Flink|Flink]], and open catalogs (e.g. [[Apache Polaris|Polaris]], [[Databricks Unity Catalog|Unity Catalog]], [[Apache Gravitino|Gravitino]])
+- Rich ecosystem integration: [[Apache Arrow|Arrow]], [[Pandas]], [[Polars]], [[DuckDB]], [[Apache Spark]], [[Ray]], [[Trino]], [[Apache Flink|Flink]], and open catalogs (e.g. [[Apache Polaris|Polaris]], [[Databricks Unity Catalog|Unity Catalog]], [[Apache Gravitino|Gravitino]])

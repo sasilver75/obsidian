@@ -11,7 +11,7 @@ Resources:
 - Flink Paper: https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf
 
 Many System Design problems will require **[[Stream]] Processing**, where you have a continuous flow of data and you want to process, transform, or analyze it in real time.
-- **Stream Processing** actually hard and expensive to get right! Many problems that *seem* like stream processing problems can actually be reduced to **Batch Processing** problems where you'd use something like [[Spark]] (or Haddoop, if you're old).
+- **Stream Processing** actually hard and expensive to get right! Many problems that *seem* like stream processing problems can actually be reduced to **Batch Processing** problems where you'd use something like [[Apache Spark]] (or Haddoop, if you're old).
 - Before embarking on a Stream processing solution, ==ask yourself: "**Do I really need real-time latencies?**"== ***For many problems, the answer is No***, and the Engineer after you will thank you for saving them the ops headache.
 
 The most basic example of stream processing might be a service reading clicks from a Kafka topic, doing a trivial transformation (maybe reformatting the data for ingestion), and writing to a database.

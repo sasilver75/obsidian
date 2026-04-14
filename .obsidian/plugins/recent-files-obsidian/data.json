@@ -1,24 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Spark",
-      "path": "Spark.md"
+      "basename": "Cloudflare R2",
+      "path": "Cloudflare R2.md"
     },
     {
-      "basename": "Band Count",
-      "path": "Band Count.md"
+      "basename": "Google Cloud Storage",
+      "path": "Google Cloud Storage.md"
     },
     {
-      "basename": "Fiona",
-      "path": "Fiona.md"
+      "basename": "Apache Iceberg",
+      "path": "Apache Iceberg.md"
+    },
+    {
+      "basename": "Apache Avro",
+      "path": "Apache Avro.md"
+    },
+    {
+      "basename": "Optimized Row Columnar",
+      "path": "Optimized Row Columnar.md"
+    },
+    {
+      "basename": "Ibis",
+      "path": "Ibis.md"
+    },
+    {
+      "basename": "Apache Hive",
+      "path": "Apache Hive.md"
     },
     {
       "basename": "GDAL",
       "path": "GDAL.md"
     },
     {
+      "basename": "H3",
+      "path": "H3.md"
+    },
+    {
       "basename": "Apache Arrow",
       "path": "Apache Arrow.md"
+    },
+    {
+      "basename": "Ray",
+      "path": "Ray.md"
+    },
+    {
+      "basename": "Fiona",
+      "path": "Fiona.md"
+    },
+    {
+      "basename": "Apache Spark",
+      "path": "Apache Spark.md"
+    },
+    {
+      "basename": "TCP",
+      "path": "TCP.md"
+    },
+    {
+      "basename": "Shapely",
+      "path": "Shapely.md"
     },
     {
       "basename": "Amazon S3",
@@ -29,176 +69,136 @@
       "path": "PlaceKey.md"
     },
     {
-      "basename": "TCP",
-      "path": "TCP.md"
-    },
-    {
-      "basename": "Microsoft Building Footprints",
-      "path": "Microsoft Building Footprints.md"
-    },
-    {
-      "basename": "SIMD",
-      "path": "SIMD.md"
-    },
-    {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
+      "basename": "Google Earth Engine",
+      "path": "Google Earth Engine.md"
     },
     {
       "basename": "Tile Server",
       "path": "Tile Server.md"
     },
     {
-      "basename": "Geopandas",
-      "path": "Geopandas.md"
-    },
-    {
-      "basename": "H3",
-      "path": "H3.md"
-    },
-    {
-      "basename": "Data Lakehouse",
-      "path": "Data Lakehouse.md"
-    },
-    {
-      "basename": "Mapbox Vector Tiles",
-      "path": "Mapbox Vector Tiles.md"
-    },
-    {
-      "basename": "Coordinate System",
-      "path": "Coordinate System.md"
-    },
-    {
-      "basename": "SRID",
-      "path": "SRID.md"
-    },
-    {
-      "basename": "SQLAlchemy",
-      "path": "SQLAlchemy.md"
-    },
-    {
-      "basename": "Apache Parquet",
-      "path": "Apache Parquet.md"
-    },
-    {
-      "basename": "GEOS",
-      "path": "GEOS.md"
-    },
-    {
-      "basename": "Shapely",
-      "path": "Shapely.md"
-    },
-    {
-      "basename": "Geographic Information Systems",
-      "path": "Geographic Information Systems.md"
-    },
-    {
-      "basename": "GeoPackage",
-      "path": "GeoPackage.md"
-    },
-    {
-      "basename": "Normalized Difference Vegetation Index",
-      "path": "Normalized Difference Vegetation Index.md"
-    },
-    {
-      "basename": "United States Geological Survey",
-      "path": "United States Geological Survey.md"
-    },
-    {
-      "basename": "Sentinel",
-      "path": "Sentinel.md"
-    },
-    {
-      "basename": "Shapefile",
-      "path": "Shapefile.md"
-    },
-    {
-      "basename": "pgvector",
-      "path": "pgvector.md"
-    },
-    {
-      "basename": "Well-Known Text",
-      "path": "Well-Known Text.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "STAC",
-      "path": "STAC.md"
-    },
-    {
-      "basename": "TIFF",
-      "path": "TIFF.md"
-    },
-    {
-      "basename": "Zarr",
-      "path": "Zarr.md"
-    },
-    {
-      "basename": "Lance",
-      "path": "Lance.md"
-    },
-    {
-      "basename": "Well-Known Binary",
-      "path": "Well-Known Binary.md"
-    },
-    {
-      "basename": "PostGIS",
-      "path": "PostGIS.md"
-    },
-    {
-      "basename": "Apache Gravitino",
-      "path": "Apache Gravitino.md"
-    },
-    {
-      "basename": "Databricks Unity Catalog",
-      "path": "Databricks Unity Catalog.md"
-    },
-    {
-      "basename": "Apache Flink",
-      "path": "Apache Flink.md"
-    },
-    {
-      "basename": "whitebox-tools",
-      "path": "whitebox-tools.md"
-    },
-    {
-      "basename": "Apache Polaris",
-      "path": "Apache Polaris.md"
-    },
-    {
-      "basename": "EPSG Code",
-      "path": "EPSG Code.md"
-    },
-    {
-      "basename": "Mercator",
-      "path": "Mercator.md"
-    },
-    {
-      "basename": "Slippy Map",
-      "path": "Slippy Map.md"
+      "basename": "Trino",
+      "path": "Trino.md"
     },
     {
       "basename": "Tile",
       "path": "Tile.md"
     },
     {
-      "basename": "Trino",
-      "path": "Trino.md"
+      "basename": "Well-Known Binary",
+      "path": "Well-Known Binary.md"
     },
     {
-      "basename": "Apache Iceberg",
-      "path": "Apache Iceberg.md"
+      "basename": "WGS84",
+      "path": "WGS84.md"
     },
     {
-      "basename": "GeoTIFF",
-      "path": "GeoTIFF.md"
+      "basename": "Coordinate System",
+      "path": "Coordinate System.md"
     },
     {
-      "basename": "Google Earth Engine",
-      "path": "Google Earth Engine.md"
+      "basename": "Slippy Map",
+      "path": "Slippy Map.md"
+    },
+    {
+      "basename": "Mercator",
+      "path": "Mercator.md"
+    },
+    {
+      "basename": "EPSG Code",
+      "path": "EPSG Code.md"
+    },
+    {
+      "basename": "Apache Flink",
+      "path": "Apache Flink.md"
+    },
+    {
+      "basename": "Databricks Unity Catalog",
+      "path": "Databricks Unity Catalog.md"
+    },
+    {
+      "basename": "Apache Gravitino",
+      "path": "Apache Gravitino.md"
+    },
+    {
+      "basename": "PostGIS",
+      "path": "PostGIS.md"
+    },
+    {
+      "basename": "Well-Known Text",
+      "path": "Well-Known Text.md"
+    },
+    {
+      "basename": "pgvector",
+      "path": "pgvector.md"
+    },
+    {
+      "basename": "GeoPackage",
+      "path": "GeoPackage.md"
+    },
+    {
+      "basename": "Shapefile",
+      "path": "Shapefile.md"
+    },
+    {
+      "basename": "Sentinel",
+      "path": "Sentinel.md"
+    },
+    {
+      "basename": "United States Geological Survey",
+      "path": "United States Geological Survey.md"
+    },
+    {
+      "basename": "Normalized Difference Vegetation Index",
+      "path": "Normalized Difference Vegetation Index.md"
+    },
+    {
+      "basename": "Materialized View",
+      "path": "Materialized View.md"
+    },
+    {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
+      "basename": "Geographic Information Systems",
+      "path": "Geographic Information Systems.md"
+    },
+    {
+      "basename": "View",
+      "path": "View.md"
+    },
+    {
+      "basename": "GEOS",
+      "path": "GEOS.md"
+    },
+    {
+      "basename": "Apache Parquet",
+      "path": "Apache Parquet.md"
+    },
+    {
+      "basename": "SQLAlchemy",
+      "path": "SQLAlchemy.md"
+    },
+    {
+      "basename": "SRID",
+      "path": "SRID.md"
+    },
+    {
+      "basename": "Mapbox Vector Tiles",
+      "path": "Mapbox Vector Tiles.md"
+    },
+    {
+      "basename": "Data Lakehouse",
+      "path": "Data Lakehouse.md"
+    },
+    {
+      "basename": "Geopandas",
+      "path": "Geopandas.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
     }
   ],
   "omittedPaths": [],
