@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Tile Server",
-      "path": "Tile Server.md"
+      "basename": "Dymaxion Projection",
+      "path": "Dymaxion Projection.md"
     },
     {
       "basename": "Mapbox Vector Tiles",
       "path": "Mapbox Vector Tiles.md"
+    },
+    {
+      "basename": "Tile Server",
+      "path": "Tile Server.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
     },
     {
       "basename": "Tile",
@@ -15,10 +23,6 @@
     {
       "basename": "GeoParquet",
       "path": "GeoParquet.md"
-    },
-    {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
     },
     {
       "basename": "Apache Parquet",
@@ -195,10 +199,6 @@
     {
       "basename": "DBAPI",
       "path": "DBAPI.md"
-    },
-    {
-      "basename": "Spatial SQL",
-      "path": "Spatial SQL.md"
     }
   ],
   "omittedPaths": [],

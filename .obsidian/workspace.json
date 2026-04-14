@@ -248,6 +248,54 @@
             }
           },
           {
+            "id": "df18b03642491593",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mapbox Vector Tiles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mapbox Vector Tiles"
+            }
+          },
+          {
+            "id": "7ccfda025567aa6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dymaxion Projection.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dymaxion Projection"
+            }
+          },
+          {
             "id": "432656fa437d6f18",
             "type": "leaf",
             "state": {
@@ -1184,7 +1232,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -2684,13 +2732,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5925dc899830d126",
+  "active": "7ccfda025567aa6f",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260413205642.png",
     "Mapbox Vector Tiles.md",
+    "Dymaxion Projection.md",
     "Tile Server.md",
+    "DuckDB.md",
     "Tile.md",
     "GeoParquet.md",
-    "DuckDB.md",
     "DuckSpatial.md",
     "Apache Parquet.md",
     "WGS84.md",
@@ -2710,8 +2760,6 @@
     "Well-Known Binary.md",
     "PostGIS.md",
     "whitebox-tools.md",
-    "EPSG Code.md",
-    "Mercator.md",
     "_attachments/Pasted image 20260413173709.png",
     "_attachments/Pasted image 20260413173026.png",
     "_attachments/Pasted image 20260413164302.png",
