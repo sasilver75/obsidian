@@ -53,3 +53,22 @@ map.addLayer({
 ... and then MapLibre handles everything else, requesting the right `{z}/{x}/{y}` tiles as the user pans, caching them in memory, cancelling in-flight request for tiles that have scrolled off screen.
 
 
+
+## Tile Formats
+A tile server converts raw data into tiles; a tile format is what the tiles look like!
+- [[Mapbox Vector Tiles]] (MVT; .mvt/.pbf)
+	- ==The dominant web vector tile format==. 
+	- The map is divided into a grid of tiles at each zoom level (standard {z}/{x}/{y} scheme).
+	- Each tile contains the vector features (geometries, properties) clipped and simplified for that tile's bounding box and zoom level.
+	- Encoded as [[Protobuf|Protocol Buffer]]s (binary).
+- [[PMTiles]]
+	- A ==single-file archive== containing an entire pyramid of MVT (or raster) tiles, with a spatial index for efficient range requests.
+	- Developed by Protomaps as an ==alternative to serving tiles from a live database==.
+	- Instead of running a tile server, you precompute all tiles, pack them into a PMTiles archive, upload to S3/R2/CDN, and serve tiles as HTTP range requests from static storage, with no backend required for the tiles.
+		- While live `pg_tilserv` tiles always reflect the current database, PMTiles are static snapshots and would have to be regenerated intermittently.
+
+
+## Tile Server Deployments
+
+![[Pasted image 20260413164125.png]]
+This is what it typically looks like when you deploy a tileserve like [[TiTiler]]

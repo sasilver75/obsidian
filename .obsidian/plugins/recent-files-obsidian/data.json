@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "psycopg",
-      "path": "psycopg.md"
+      "basename": "Tile Server",
+      "path": "Tile Server.md"
     },
     {
-      "basename": "GeoAlchemy2",
-      "path": "GeoAlchemy2.md"
+      "basename": "Mapbox Vector Tiles",
+      "path": "Mapbox Vector Tiles.md"
+    },
+    {
+      "basename": "Tile",
+      "path": "Tile.md"
+    },
+    {
+      "basename": "GeoParquet",
+      "path": "GeoParquet.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
+    },
+    {
+      "basename": "Apache Parquet",
+      "path": "Apache Parquet.md"
     },
     {
       "basename": "WGS84",
@@ -21,28 +37,20 @@
       "path": "SRID.md"
     },
     {
-      "basename": "PostgreSQL",
-      "path": "PostgreSQL.md"
-    },
-    {
       "basename": "SQLAlchemy",
       "path": "SQLAlchemy.md"
     },
     {
-      "basename": "Connection Pool",
-      "path": "Connection Pool.md"
+      "basename": "GEOS",
+      "path": "GEOS.md"
     },
     {
-      "basename": "Celery",
-      "path": "Celery.md"
+      "basename": "GDAL",
+      "path": "GDAL.md"
     },
     {
-      "basename": "leafmap",
-      "path": "leafmap.md"
-    },
-    {
-      "basename": "GeoJSON",
-      "path": "GeoJSON.md"
+      "basename": "Shapely",
+      "path": "Shapely.md"
     },
     {
       "basename": "Geographic Information Systems",
@@ -51,10 +59,6 @@
     {
       "basename": "GeoPackage",
       "path": "GeoPackage.md"
-    },
-    {
-      "basename": "Tile Server",
-      "path": "Tile Server.md"
     },
     {
       "basename": "Normalized Difference Vegetation Index",
@@ -89,34 +93,6 @@
       "path": "whitebox-tools.md"
     },
     {
-      "basename": "pydeck",
-      "path": "pydeck.md"
-    },
-    {
-      "basename": "Tile",
-      "path": "Tile.md"
-    },
-    {
-      "basename": "geopandas",
-      "path": "geopandas.md"
-    },
-    {
-      "basename": "H3",
-      "path": "H3.md"
-    },
-    {
-      "basename": "Apache Sedona",
-      "path": "Apache Sedona.md"
-    },
-    {
-      "basename": "SedonaDB",
-      "path": "SedonaDB.md"
-    },
-    {
-      "basename": "Open Geospatial Consortium",
-      "path": "Open Geospatial Consortium.md"
-    },
-    {
       "basename": "EPSG Code",
       "path": "EPSG Code.md"
     },
@@ -145,60 +121,84 @@
       "path": "Amazon S3.md"
     },
     {
-      "basename": "geemap",
-      "path": "geemap.md"
+      "basename": "Raster",
+      "path": "Raster.md"
     },
     {
-      "basename": "kepler.gl",
-      "path": "kepler.gl.md"
+      "basename": "Vector",
+      "path": "Vector.md"
     },
     {
-      "basename": "GeoParquet",
-      "path": "GeoParquet.md"
+      "basename": "PROJ",
+      "path": "PROJ.md"
     },
     {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
+      "basename": "Ibis",
+      "path": "Ibis.md"
     },
     {
-      "basename": "Three.js",
-      "path": "Three.js.md"
+      "basename": "Fiona",
+      "path": "Fiona.md"
     },
     {
-      "basename": "Zarr",
-      "path": "Zarr.md"
+      "basename": "~ Vocabulary",
+      "path": "~ Vocabulary.md"
     },
     {
-      "basename": "Docker",
-      "path": "Docker.md"
+      "basename": "MetaTiling",
+      "path": "MetaTiling.md"
     },
     {
-      "basename": "AlphaEarth",
-      "path": "AlphaEarth.md"
+      "basename": "rasterio",
+      "path": "rasterio.md"
     },
     {
-      "basename": "Landsat",
-      "path": "Landsat.md"
+      "basename": "Cloud-Optimized GeoTIFF",
+      "path": "Cloud-Optimized GeoTIFF.md"
     },
     {
-      "basename": "MODIS",
-      "path": "MODIS.md"
+      "basename": "Connection Pool",
+      "path": "Connection Pool.md"
     },
     {
-      "basename": "Hot Module Replacement",
-      "path": "Hot Module Replacement.md"
+      "basename": "TCP",
+      "path": "TCP.md"
     },
     {
-      "basename": "Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}",
-      "path": "Articles/Introducing Apple's On-Device and Server Foundation Models (June 10, 2024) {Apple}.md"
+      "basename": "Spark",
+      "path": "Spark.md"
     },
     {
-      "basename": "Apache Parquet",
-      "path": "Apache Parquet.md"
+      "basename": "Band Count",
+      "path": "Band Count.md"
     },
     {
-      "basename": "Building on Evaluation Quicksand (October 16, 2024) {Interconnects}",
-      "path": "Articles/Building on Evaluation Quicksand (October 16, 2024) {Interconnects}.md"
+      "basename": "TiTiler",
+      "path": "TiTiler.md"
+    },
+    {
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
+      "basename": "GiST",
+      "path": "GiST.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Index.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "DBAPI",
+      "path": "DBAPI.md"
+    },
+    {
+      "basename": "Spatial SQL",
+      "path": "Spatial SQL.md"
     }
   ],
   "omittedPaths": [],

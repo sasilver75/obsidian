@@ -4,7 +4,7 @@ Here's how it works: Start with one square covering your entire area. When a squ
 
 For proximity searches, navigate down the tree to find the target quadrant, check neighboring quadrants at the same level, and adjust the search radius by moving up or down tree levels as needed.
 
-The key advantage of quadtrees is their adaptive resolutoin: dense areas get subdivided more finely while sparse regions maintain larger quadrants.
+The key advantage of quadtrees is their adaptive resolution: dense areas get subdivided more finely while sparse regions maintain larger quadrants.
 - But while Geohashes leverage existing B-Tree implementations, Quadtrees require specialized tree structures. The implementation complexity explains why most modern DBs prefer Geohashes or R-Trees.
 
 ![[Pasted image 20250520184220.png]]

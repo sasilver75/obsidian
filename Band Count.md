@@ -1,0 +1,1 @@
+Band Count refers to how many separate data layers a [[Raster]] file contains, where each band stores one value per pixel! RGB image has 3 bands, RGBA 4 bands, etc. Hyperspectral satellite data might have 200+ bands, each capturing a different wavelength of light!

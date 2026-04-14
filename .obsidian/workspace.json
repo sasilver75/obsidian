@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGS84.md",
+                "file": "GDAL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WGS84"
+              "title": "GDAL"
+            }
+          },
+          {
+            "id": "7ee553c68116b926",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TiTiler.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TiTiler"
             }
           },
           {
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "psycopg.md",
+                "file": "Band Count.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +76,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "psycopg"
+              "title": "Band Count"
+            }
+          },
+          {
+            "id": "4097728211365050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fiona.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fiona"
+            }
+          },
+          {
+            "id": "5bf37cbf853c4590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GDAL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GDAL"
+            }
+          },
+          {
+            "id": "2e3c32a8f805ccb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spark.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spark"
+            }
+          },
+          {
+            "id": "b996717eccacd6d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TCP"
             }
           },
           {
@@ -61,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGS84.md",
+                "file": "GeoParquet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +196,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WGS84"
+              "title": "GeoParquet"
+            }
+          },
+          {
+            "id": "a31a6540d46e8c9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DuckDB.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DuckDB"
+            }
+          },
+          {
+            "id": "5925dc899830d126",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tile Server.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tile Server"
+            }
+          },
+          {
+            "id": "432656fa437d6f18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mapbox Vector Tiles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mapbox Vector Tiles"
             }
           },
           {
@@ -157,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Connection Pool.md",
+                "file": "Apache Parquet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +364,127 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Connection Pool"
+              "title": "Apache Parquet"
+            }
+          },
+          {
+            "id": "f392c84ee72e913d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GEOS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GEOS"
+            }
+          },
+          {
+            "id": "56867e217f5a710e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GDAL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GDAL"
+            }
+          },
+          {
+            "id": "6b46619a1aab06c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shapely.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shapely"
+            }
+          },
+          {
+            "id": "cd12ce19cf570e2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shapely.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shapely"
+            }
+          },
+          {
+            "id": "10fd9c13abad242a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shapely.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shapely"
             }
           },
           {
@@ -872,7 +1184,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -904,7 +1216,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "titiler",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2372,22 +2684,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9812093cc8ab2dd8",
+  "active": "5925dc899830d126",
   "lastOpenFiles": [
-    "GeoAlchemy2.md",
-    "psycopg.md",
+    "Mapbox Vector Tiles.md",
+    "Tile Server.md",
+    "Tile.md",
+    "GeoParquet.md",
+    "DuckDB.md",
+    "DuckSpatial.md",
+    "Apache Parquet.md",
     "WGS84.md",
     "Coordinate System.md",
     "SRID.md",
-    "PostgreSQL.md",
     "SQLAlchemy.md",
-    "Connection Pool.md",
-    "Celery.md",
-    "leafmap.md",
-    "GeoJSON.md",
+    "GEOS.md",
+    "GDAL.md",
+    "Shapely.md",
     "Geographic Information Systems.md",
     "GeoPackage.md",
-    "Tile Server.md",
     "Normalized Difference Vegetation Index.md",
     "United States Geological Survey.md",
     "Sentinel.md",
@@ -2396,20 +2710,18 @@
     "Well-Known Binary.md",
     "PostGIS.md",
     "whitebox-tools.md",
-    "pydeck.md",
-    "Tile.md",
-    "geopandas.md",
-    "H3.md",
+    "EPSG Code.md",
+    "Mercator.md",
+    "_attachments/Pasted image 20260413173709.png",
+    "_attachments/Pasted image 20260413173026.png",
+    "_attachments/Pasted image 20260413164302.png",
+    "_attachments/Pasted image 20260413164125.png",
     "_attachments/Pasted image 20260413112255.png",
     "_attachments/Pasted image 20260413111541.png",
     "_attachments/Pasted image 20260412185016.png",
     "_attachments/Pasted image 20260411202330.png",
     "_attachments/Pasted image 20260411185815.png",
     "_attachments/Pasted image 20260411185613.png",
-    "_attachments/Pasted image 20260411185334.png",
-    "_attachments/Pasted image 20260411185332.png",
-    "_attachments/Pasted image 20260411132018.png",
-    "_attachments/Pasted image 20250707201042.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

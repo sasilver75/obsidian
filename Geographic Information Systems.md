@@ -52,10 +52,10 @@ GROUP BY n.name, n.geom;
 
 # Common Python Libraries for Geospatial work
 - [[geopandas]]: ==Pandas + geometry column==. Reads [[Shapefile]], [[GeoJSON]], [[GeoPackage]], and provides spatial joins, buffering, and aggregation in Python.
-- [[shapely]]: ==Geometry primitives== in Python: Create, manipulate, and test geometric objects. *Used under the hood* by `geopandas`.
+- [[Shapely]]: ==Geometry primitives== in Python: Create, manipulate, and test geometric objects. *Used under the hood* by `geopandas`.
 - [[pyproj]]: ==[[Coordinate System|Coordinate Reference System]] transformations==, wraps the PROJ library.
 - `h3`: Python bindings for Uber's ==[[H3]] library==. Lat/Lon -> H3 index, neighbor lookups, [[K-Ring]]s.
-- [[fiona]]: ==Low-level geospatial file I/O== (reads/writes Shapefile, GeoJSON, etc.). *Used under the hood* by geopandas.
+- [[Fiona]]: ==Low-level geospatial file I/O== (reads/writes Shapefile, GeoJSON, etc.). *Used under the hood* by geopandas.
 - [[rasterio]]: ==Read/write raster datasets== ([[GeoTIFF]], [[Cloud-Optimized GeoTIFF|COG]]). Access individual pixels, reproject rasters, compute band math.
 - [[rio-cogeo]]: Create and validate [[Cloud-Optimized GeoTIFF]]s (==COGs==).
 - [[pyogrio]]: Fast I/O for vector formats, a ==faster drop-in backend for [[geopandas]].==

@@ -17,6 +17,7 @@ Various types:
 - [[QuadTree]]
 - [[R-Tree]]
 - [[Inverted Index]]
+- [[GiST]]
 
 #### Composite Indices
 - A [[Composite Index]] is the most common optimization pattern that we'll encounter in practice.
@@ -86,3 +87,15 @@ CREATE INDEX idx_user_time_likes ON posts(user_id, created_at) INCLUDE (likes);
 - **WARN**: The reality in 2025 is that ==covering indexes are more of a niche optimization than a go-to solution==. Modern database query optimizers have become quite sophisticated at executing queries efficiently with regular indexes. ==While covering indexes can provide significant performance gains in specific scenarios== - like read-heavy tables with limited columns - ==they come with real costs== in terms of maintenance overhead and storage space.
 	- In an interview, ==you may be wise to focus on simpler indexing strategies== and, if reaching for covering indexes, be sure to make sure you have a good reason for why it's necessary.
 	- If you're not sure if they make sense in a given scenario, it's often better to err on the side of simplicity.
+
+
+## Geospatial Indexes
+
+| Index Type | PostgreSQL keyword      | Best for                                                               | Used in LA Observatory project for                      |
+| ---------- | ----------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------- |
+| B-Tree     | `USING BTREE` (default) | Equality, range, sort on orderable types                               | `h3_r*` columns, `created_at`, `sr_number`              |
+| GiST       | `USING GIST`            | 2D geometry, PostGIS spatial queries                                   | `geom` column on `public.sr_311`                        |
+| SP-GiST    | `USING SPGIST`          | Space-partitioning structures, H3 proximity                            | Not used (B-Tree sufficient for our H3 queries)         |
+| GIN        | `USING GIN`             | Full-text search, JSONB containment, arrays                            | Not used in Phase 1                                     |
+| BRIN       | `USING BRIN`            | Very large tables with natural ordering (e.g. time-series append-only) | Candidate for `_fetched_at` on raw tables               |
+| Hash       | `USING HASH`            | Equality only, slightly faster than B-Tree                             | Rarely used — B-Tree does everything Hash does and more |

@@ -9,7 +9,7 @@ Tile Pyramid:
 	- ...
 	- **Zoom 15**: ~1 billion tiles (street level detail)
 	- **Zoom 20**: building-level detail
-- Here, each tile is addressed by a ==zoom/x/y== -- this is the XYZ tile scheme, also called a [[Slippy Map]] (a term referring to modern web maps which let you zoom and pan around).
+- Here, each tile is addressed by a ==zoom/x/y== -- this is the ==XYZ tile scheme==, also called a [[Slippy Map]] (a term referring to modern web maps which let you zoom and pan around). Jeff Albrecht refers to this as an "XYZ Tile".
 
 ![[Pasted image 20260411185613.png]]
 Above: XYZ Tiles coordinate numbers. Z is the zoom level, and X and Y identify the tile. This is the de-facto [[OpenStreetMap]] naming standard, known as either "Slippy Map Tilenames" or "XYZ". 
@@ -31,7 +31,7 @@ Most tiled web maps follow certain Google Maps conventions:
 
 Things like MapLibre GL JS and Mapbox GL JS consume vector tiles; this is generally what you want for interactive layers.
 
-`pg_tileserv` is a lightweight Go server that generates vector tiles directly from PostGIS queries. You point it at your database and it exposes your spatial tables as tile endpoints:
+[[pg_tileserv]] is a lightweight Go server that generates vector tiles directly from PostGIS queries. You point it at your database and it exposes your spatial tables as tile endpoints:
 
 ```
 GET /public.service_requests/{z}/{x}/{y}.pbf
@@ -39,4 +39,8 @@ GET /public.service_requests/{z}/{x}/{y}.pbf
 
 No pre-generation step: Tiles are computed on demand from live data. For a project where data updates daily, this is ideal! For very high traffic, you'd add a tile cache in front.
 
-`Martin`(written in Rust) is an alternative with more configuration options and perhaps better performance. Both of these are [[Tile Server]]s.
+[[Martin]](written in Rust) is an alternative with more configuration options and perhaps better performance. Both of these are [[Tile Server]]s.
+
+[[TiTiler]] is another common alternative.
+
+
