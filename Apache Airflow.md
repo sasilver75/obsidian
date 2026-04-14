@@ -2,6 +2,9 @@
 aliases:
   - Airflow
 ---
+Developed @ Airbnb in 2018, open-sourced in 2019.
+
+
 An open-source platform for: Developing...Scheduling... and Monitoring... **Batch-Oriented Workflows**
 - Airflow's extensible Python framework lets us build workflows connecting with virtually any technology, in Python.
 - A web-based UI helps us visualize, manage, and debug our worfklows.

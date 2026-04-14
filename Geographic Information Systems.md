@@ -51,14 +51,14 @@ GROUP BY n.name, n.geom;
 
 
 # Common Python Libraries for Geospatial work
-- [[geopandas]]: ==Pandas + geometry column==. Reads [[Shapefile]], [[GeoJSON]], [[GeoPackage]], and provides spatial joins, buffering, and aggregation in Python.
+- [[Geopandas]]: ==Pandas + geometry column==. Reads [[Shapefile]], [[GeoJSON]], [[GeoPackage]], and provides spatial joins, buffering, and aggregation in Python.
 - [[Shapely]]: ==Geometry primitives== in Python: Create, manipulate, and test geometric objects. *Used under the hood* by `geopandas`.
 - [[pyproj]]: ==[[Coordinate System|Coordinate Reference System]] transformations==, wraps the PROJ library.
 - `h3`: Python bindings for Uber's ==[[H3]] library==. Lat/Lon -> H3 index, neighbor lookups, [[K-Ring]]s.
 - [[Fiona]]: ==Low-level geospatial file I/O== (reads/writes Shapefile, GeoJSON, etc.). *Used under the hood* by geopandas.
 - [[rasterio]]: ==Read/write raster datasets== ([[GeoTIFF]], [[Cloud-Optimized GeoTIFF|COG]]). Access individual pixels, reproject rasters, compute band math.
 - [[rio-cogeo]]: Create and validate [[Cloud-Optimized GeoTIFF]]s (==COGs==).
-- [[pyogrio]]: Fast I/O for vector formats, a ==faster drop-in backend for [[geopandas]].==
+- [[pyogrio]]: Fast I/O for vector formats, a ==faster drop-in backend for [[Geopandas]].==
 - [[SQLAlchemy]] + [[GeoAlchemy2]]: SQLAlchemy ORM with PostGIS geometry type support.
 - [[folium]]: A quick way to make Leaflet.js maps from Python; good for notebooks and exploration, but not for production.
 - [[kepler.gl]]: Uber's heavy-duty geospatial visualization, has a Python/Jupiter interface; good for EDA.

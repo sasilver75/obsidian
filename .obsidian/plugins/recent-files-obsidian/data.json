@@ -1,36 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Dymaxion Projection",
-      "path": "Dymaxion Projection.md"
+      "basename": "Spark",
+      "path": "Spark.md"
     },
     {
-      "basename": "Mapbox Vector Tiles",
-      "path": "Mapbox Vector Tiles.md"
+      "basename": "Band Count",
+      "path": "Band Count.md"
     },
     {
-      "basename": "Tile Server",
-      "path": "Tile Server.md"
+      "basename": "Fiona",
+      "path": "Fiona.md"
+    },
+    {
+      "basename": "GDAL",
+      "path": "GDAL.md"
+    },
+    {
+      "basename": "Apache Arrow",
+      "path": "Apache Arrow.md"
+    },
+    {
+      "basename": "Amazon S3",
+      "path": "Amazon S3.md"
+    },
+    {
+      "basename": "PlaceKey",
+      "path": "PlaceKey.md"
+    },
+    {
+      "basename": "TCP",
+      "path": "TCP.md"
+    },
+    {
+      "basename": "Microsoft Building Footprints",
+      "path": "Microsoft Building Footprints.md"
+    },
+    {
+      "basename": "SIMD",
+      "path": "SIMD.md"
     },
     {
       "basename": "DuckDB",
       "path": "DuckDB.md"
     },
     {
-      "basename": "Tile",
-      "path": "Tile.md"
+      "basename": "Tile Server",
+      "path": "Tile Server.md"
     },
     {
-      "basename": "GeoParquet",
-      "path": "GeoParquet.md"
+      "basename": "Geopandas",
+      "path": "Geopandas.md"
     },
     {
-      "basename": "Apache Parquet",
-      "path": "Apache Parquet.md"
+      "basename": "H3",
+      "path": "H3.md"
     },
     {
-      "basename": "WGS84",
-      "path": "WGS84.md"
+      "basename": "Data Lakehouse",
+      "path": "Data Lakehouse.md"
+    },
+    {
+      "basename": "Mapbox Vector Tiles",
+      "path": "Mapbox Vector Tiles.md"
     },
     {
       "basename": "Coordinate System",
@@ -45,12 +77,12 @@
       "path": "SQLAlchemy.md"
     },
     {
-      "basename": "GEOS",
-      "path": "GEOS.md"
+      "basename": "Apache Parquet",
+      "path": "Apache Parquet.md"
     },
     {
-      "basename": "GDAL",
-      "path": "GDAL.md"
+      "basename": "GEOS",
+      "path": "GEOS.md"
     },
     {
       "basename": "Shapely",
@@ -81,8 +113,32 @@
       "path": "Shapefile.md"
     },
     {
+      "basename": "pgvector",
+      "path": "pgvector.md"
+    },
+    {
       "basename": "Well-Known Text",
       "path": "Well-Known Text.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "STAC",
+      "path": "STAC.md"
+    },
+    {
+      "basename": "TIFF",
+      "path": "TIFF.md"
+    },
+    {
+      "basename": "Zarr",
+      "path": "Zarr.md"
+    },
+    {
+      "basename": "Lance",
+      "path": "Lance.md"
     },
     {
       "basename": "Well-Known Binary",
@@ -93,8 +149,24 @@
       "path": "PostGIS.md"
     },
     {
+      "basename": "Apache Gravitino",
+      "path": "Apache Gravitino.md"
+    },
+    {
+      "basename": "Databricks Unity Catalog",
+      "path": "Databricks Unity Catalog.md"
+    },
+    {
+      "basename": "Apache Flink",
+      "path": "Apache Flink.md"
+    },
+    {
       "basename": "whitebox-tools",
       "path": "whitebox-tools.md"
+    },
+    {
+      "basename": "Apache Polaris",
+      "path": "Apache Polaris.md"
     },
     {
       "basename": "EPSG Code",
@@ -109,96 +181,24 @@
       "path": "Slippy Map.md"
     },
     {
+      "basename": "Tile",
+      "path": "Tile.md"
+    },
+    {
+      "basename": "Trino",
+      "path": "Trino.md"
+    },
+    {
+      "basename": "Apache Iceberg",
+      "path": "Apache Iceberg.md"
+    },
+    {
       "basename": "GeoTIFF",
       "path": "GeoTIFF.md"
     },
     {
       "basename": "Google Earth Engine",
       "path": "Google Earth Engine.md"
-    },
-    {
-      "basename": "PlaceKey",
-      "path": "PlaceKey.md"
-    },
-    {
-      "basename": "Amazon S3",
-      "path": "Amazon S3.md"
-    },
-    {
-      "basename": "Raster",
-      "path": "Raster.md"
-    },
-    {
-      "basename": "Vector",
-      "path": "Vector.md"
-    },
-    {
-      "basename": "PROJ",
-      "path": "PROJ.md"
-    },
-    {
-      "basename": "Ibis",
-      "path": "Ibis.md"
-    },
-    {
-      "basename": "Fiona",
-      "path": "Fiona.md"
-    },
-    {
-      "basename": "~ Vocabulary",
-      "path": "~ Vocabulary.md"
-    },
-    {
-      "basename": "MetaTiling",
-      "path": "MetaTiling.md"
-    },
-    {
-      "basename": "rasterio",
-      "path": "rasterio.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
-    },
-    {
-      "basename": "Connection Pool",
-      "path": "Connection Pool.md"
-    },
-    {
-      "basename": "TCP",
-      "path": "TCP.md"
-    },
-    {
-      "basename": "Spark",
-      "path": "Spark.md"
-    },
-    {
-      "basename": "Band Count",
-      "path": "Band Count.md"
-    },
-    {
-      "basename": "TiTiler",
-      "path": "TiTiler.md"
-    },
-    {
-      "basename": "QuadTree",
-      "path": "QuadTree.md"
-    },
-    {
-      "basename": "GiST",
-      "path": "GiST.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Index.md"
-    },
-    {
-      "basename": "R-Tree",
-      "path": "R-Tree.md"
-    },
-    {
-      "basename": "DBAPI",
-      "path": "DBAPI.md"
     }
   ],
   "omittedPaths": [],

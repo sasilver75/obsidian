@@ -25,7 +25,7 @@ Log-Based Message Broker, e.g. [[Kafka]]
 	- To increase read/write throughput of the broker, we can create more partitions (since partition leaders in Kafka are the only ones that serve reads and writes)
 	- If a consumer fails, it can resume at its last read offset.
 
-Stream Processing: Stateful Consumer Frameworks, e.g. [[Flink]]
+Stream Processing: Stateful Consumer Frameworks, e.g. [[Apache Flink]]
 - When consuming from message brokers, it's frequently hte case that you needto build up some sort of state, like when we're doing ==time window aggregation== for messages in the last hour.
 - It would stink if our consumer failed, and then all of those messages got lost!
 - Depending on the type of message broker, we can re-consume/re-play those messages again and build up our state again.

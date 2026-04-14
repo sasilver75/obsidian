@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TiTiler.md",
+                "file": "Apache Arrow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TiTiler"
+              "title": "Apache Arrow"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Band Count.md",
+                "file": "Spark.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Band Count"
+              "title": "Spark"
             }
           },
           {
@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GeoParquet.md",
+                "file": "Microsoft Building Footprints.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GeoParquet"
+              "title": "Microsoft Building Footprints"
+            }
+          },
+          {
+            "id": "1197f14b5390c41a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SIMD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SIMD"
             }
           },
           {
@@ -253,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mapbox Vector Tiles.md",
+                "file": "Geopandas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +292,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mapbox Vector Tiles"
+              "title": "Geopandas"
+            }
+          },
+          {
+            "id": "05574d28fb7b7882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "H3"
             }
           },
           {
@@ -277,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dymaxion Projection.md",
+                "file": "Data Lakehouse.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dymaxion Projection"
+              "title": "Data Lakehouse"
             }
           },
           {
@@ -733,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Well-Known Text.md",
+                "file": "pgvector.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -748,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Well-Known Text"
+              "title": "pgvector"
             }
           },
           {
@@ -853,7 +901,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "whitebox-tools.md",
+                "file": "Apache Gravitino.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +916,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "whitebox-tools"
+              "title": "Apache Gravitino"
             }
           },
           {
@@ -877,7 +925,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geographic Information Systems.md",
+                "file": "Databricks Unity Catalog.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -892,7 +940,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geographic Information Systems"
+              "title": "Databricks Unity Catalog"
+            }
+          },
+          {
+            "id": "37323996293d8610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Flink.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Flink"
             }
           },
           {
@@ -997,7 +1069,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EPSG Code.md",
+                "file": "Trino.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -1012,7 +1084,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "EPSG Code"
+              "title": "Trino"
             }
           },
           {
@@ -1117,7 +1189,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GeoTIFF.md",
+                "file": "Trino.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -1132,7 +1204,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GeoTIFF"
+              "title": "Trino"
+            }
+          },
+          {
+            "id": "55703d3316aa333f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Arrow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Arrow"
+            }
+          },
+          {
+            "id": "170e8cfd1f0b2b91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Iceberg.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Iceberg"
             }
           },
           {
@@ -1232,7 +1352,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2732,34 +2852,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7ccfda025567aa6f",
+  "active": "9812093cc8ab2dd8",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260413205642.png",
-    "Mapbox Vector Tiles.md",
-    "Dymaxion Projection.md",
-    "Tile Server.md",
+    "Band Count.md",
+    "Fiona.md",
+    "GDAL.md",
+    "Apache Arrow.md",
+    "Amazon S3.md",
+    "PlaceKey.md",
+    "Spark.md",
+    "TCP.md",
+    "Microsoft Building Footprints.md",
+    "SIMD.md",
     "DuckDB.md",
-    "Tile.md",
-    "GeoParquet.md",
-    "DuckSpatial.md",
-    "Apache Parquet.md",
-    "WGS84.md",
+    "Tile Server.md",
+    "Geopandas.md",
+    "H3.md",
+    "Data Lakehouse.md",
+    "Mapbox Vector Tiles.md",
     "Coordinate System.md",
     "SRID.md",
     "SQLAlchemy.md",
+    "Apache Parquet.md",
     "GEOS.md",
-    "GDAL.md",
     "Shapely.md",
     "Geographic Information Systems.md",
     "GeoPackage.md",
     "Normalized Difference Vegetation Index.md",
     "United States Geological Survey.md",
-    "Sentinel.md",
-    "Shapefile.md",
-    "Well-Known Text.md",
-    "Well-Known Binary.md",
-    "PostGIS.md",
-    "whitebox-tools.md",
+    "_attachments/Pasted image 20260413205642.png",
     "_attachments/Pasted image 20260413173709.png",
     "_attachments/Pasted image 20260413173026.png",
     "_attachments/Pasted image 20260413164302.png",
@@ -2769,7 +2890,6 @@
     "_attachments/Pasted image 20260412185016.png",
     "_attachments/Pasted image 20260411202330.png",
     "_attachments/Pasted image 20260411185815.png",
-    "_attachments/Pasted image 20260411185613.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

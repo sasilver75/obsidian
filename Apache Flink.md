@@ -1,3 +1,8 @@
+---
+aliases:
+  - Flink
+---
+
 SDIAH Link: https://www.hellointerview.com/learn/system-design/deep-dives/flink
 
 
@@ -20,7 +25,7 @@ Things can get substantially more complex from here!
 		- Re: **Scaling** - if we add another service instance because we want to handle more clicks, we need to figure out **how to ==redistribute this state==** from existing instances to new ones! This is complicated with many failure scenarios!
 		- What if events come in **==out-of-order==** or **==come in late==**? This is likely to happen and will impact the accuracy of our counts.
 
-And things only get *harder* from here as we add complexity and more statefulness! Luckily, we have powerful systems/abstractions to help us with this, like Apache [[Flink]].
+And things only get *harder* from here as we add complexity and more statefulness! Luckily, we have powerful systems/abstractions to help us with this, like Apache [[Apache Flink]].
 
 --------
 

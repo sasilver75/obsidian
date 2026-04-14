@@ -9,7 +9,7 @@ It is NOT:
 - A replacement for something like [[MapLibre GL JS]] + [[deck.gl]] in a frontend application.
 
 "A geospatial swiss army knife"
-- [[geopandas]]
+- [[Geopandas]]
 - [[pydeck]]
 - [[whitebox-tools]]
 

@@ -122,7 +122,7 @@ So looking at the diagram again:
 - ![[Pasted image 20250521110506.png]]
 	- In a Queue, the consumer gets to choose when it wants to read off the queue, and things can exist in the queue for a long time
 	- In a Stream, you have an infinite stream of data coming onto Kafka, and you want to be consuming it as quickly as possible in order to get some real-time statistics or updates.
-- When a user clicks an Ad, we put that click on our Kafka queue, and then we have a Consumer, in this case [[Flink]], reading off that stream in real time and aggregating those so that we can tell our advertisers how many their ad has been clicked.
+- When a user clicks an Ad, we put that click on our Kafka queue, and then we have a Consumer, in this case [[Apache Flink]], reading off that stream in real time and aggregating those so that we can tell our advertisers how many their ad has been clicked.
 
 
 - Another use case if if you have a **Stream of messages that need to be processed by multiple consumers simultaneously, like in Messenger or FB Live Comments**
