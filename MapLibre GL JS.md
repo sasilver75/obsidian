@@ -1,6 +1,6 @@
 An open-source base-map renderer, handling:
 - Fetching [[Vector Tile]] data from a [[Tile Server]]
-- Parsing and rendering the base map (roads, buildings, water, labels)
+- Parsing and rendering the ==base map== (roads, buildings, water, labels)
 - Camera: pan, zoom, rotate, tilt
 - Coordinate system: Converting long/lat to screen pixels
 - A style system for controlling how map features work (defined in a JSON file that describes each layer of the map)

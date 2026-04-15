@@ -1,6 +1,7 @@
 ---
 aliases:
   - Sentinel-2
+  - Sentinel-1
 ---
 A satellite mission that acquires optical imagery at high spatial resolutions (10m to 60m) over land and coastal waters.
 
@@ -8,7 +9,7 @@ The missions Sentinel-2A and Sentinel-2B satellites were joined in orbit in 2024
 
 Supports agricultural monitoring, emergencies management, land cover classification, and water quality.
 
-Developed and operated by the European Space Agency.
+Developed and operated by the [[European Space Agency]].
 
 
 Mission:
