@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MapTiler.md",
+                "file": "MapLibre GL JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,26 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MapTiler"
+              "title": "MapLibre GL JS"
             }
           },
           {
-            "id": "f9efa58d1361eeae",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "c58a57c6a875d020",
+            "id": "f10bcc573d4a622a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mapbox Vector Tile.md",
+                "file": "Tagged Image File Format.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mapbox Vector Tile"
+              "title": "Tagged Image File Format"
             }
           },
           {
-            "id": "89d52691c3c6a7e4",
+            "id": "1108c610ebdb1518",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenStreetMap.md",
+                "file": "Tagged Image File Format.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -110,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OpenStreetMap"
+              "title": "Tagged Image File Format"
             }
           },
           {
-            "id": "7727d6cf66dca1f4",
+            "id": "94eaa207b79f4725",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenLayers.md",
+                "file": "Joint Photographic Experts Group.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OpenLayers"
+              "title": "Joint Photographic Experts Group"
             }
           },
           {
@@ -143,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leaflet.md",
+                "file": "Scalable Vector Graphics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -158,7 +148,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Leaflet"
+              "title": "Scalable Vector Graphics"
+            }
+          },
+          {
+            "id": "46badd8de071fa8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extensible Markup Language.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Extensible Markup Language"
             }
           },
           {
@@ -210,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -274,11 +288,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 372.5,
     "collapsed": true
   },
   "right": {
@@ -1710,34 +1724,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f9efa58d1361eeae",
+  "active": "a4c5a7b7085b8373",
   "lastOpenFiles": [
+    "Shader.md",
+    "Extensible Markup Language.md",
+    "Joint Photographic Experts Group.md",
+    "Tagged Image File Format.md",
+    "MapLibre GL JS.md",
+    "Scalable Vector Graphics.md",
+    "OpenGL Shading Language.md",
     "Coordinate Reference System.md",
-    "GeoAlchemy2.md",
-    "DuckDB.md",
+    "Leaflet.md",
+    "OpenLayers.md",
+    "OpenStreetMap.md",
+    "Mapbox Vector Tile.md",
+    "Document Object Model.md",
+    "GeoTIFF.md",
+    "Raster.md",
+    "TiTiler.md",
+    "Cesium.md",
+    "D3.md",
+    "kepler.gl.md",
+    "deck.gl.md",
+    "GDAL.md",
+    "MapLibre.md",
+    "GPU Rendering Pipeline.md",
+    "Canvas.md",
     "Protomaps.md",
     "MapTiler.md",
-    "GDAL.md",
-    "Mapbox Vector Tile.md",
-    "Tile Server.md",
-    "Stadia Maps.md",
-    "OpenStreetMap.md",
-    "OpenLayers.md",
-    "Leaflet.md",
-    "Mapbox.md",
-    "Apache Iceberg.md",
-    "MIT License.md",
-    "BSD License.md",
-    "Cloudflare R2.md",
-    "Google Cloud Storage.md",
-    "Apache Avro.md",
-    "Optimized Row Columnar.md",
-    "Ibis.md",
-    "Apache Hive.md",
-    "H3.md",
-    "Apache Arrow.md",
-    "Ray.md",
-    "Fiona.md",
     "_attachments/Pasted image 20260414121252.png",
     "_attachments/Pasted image 20260413205642.png",
     "_attachments/Pasted image 20260413173709.png",

@@ -1,16 +1,100 @@
 {
   "recentFiles": [
     {
+      "basename": "Scalable Vector Graphics",
+      "path": "Scalable Vector Graphics.md"
+    },
+    {
+      "basename": "Shader",
+      "path": "Shader.md"
+    },
+    {
+      "basename": "Extensible Markup Language",
+      "path": "Extensible Markup Language.md"
+    },
+    {
+      "basename": "Joint Photographic Experts Group",
+      "path": "Joint Photographic Experts Group.md"
+    },
+    {
+      "basename": "Tagged Image File Format",
+      "path": "Tagged Image File Format.md"
+    },
+    {
+      "basename": "MapLibre GL JS",
+      "path": "MapLibre GL JS.md"
+    },
+    {
+      "basename": "OpenGL Shading Language",
+      "path": "OpenGL Shading Language.md"
+    },
+    {
       "basename": "Coordinate Reference System",
       "path": "Coordinate Reference System.md"
     },
     {
-      "basename": "GeoAlchemy2",
-      "path": "GeoAlchemy2.md"
+      "basename": "Leaflet",
+      "path": "Leaflet.md"
     },
     {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
+      "basename": "OpenLayers",
+      "path": "OpenLayers.md"
+    },
+    {
+      "basename": "OpenStreetMap",
+      "path": "OpenStreetMap.md"
+    },
+    {
+      "basename": "Mapbox Vector Tile",
+      "path": "Mapbox Vector Tile.md"
+    },
+    {
+      "basename": "Document Object Model",
+      "path": "Document Object Model.md"
+    },
+    {
+      "basename": "GeoTIFF",
+      "path": "GeoTIFF.md"
+    },
+    {
+      "basename": "Raster",
+      "path": "Raster.md"
+    },
+    {
+      "basename": "TiTiler",
+      "path": "TiTiler.md"
+    },
+    {
+      "basename": "Cesium",
+      "path": "Cesium.md"
+    },
+    {
+      "basename": "D3",
+      "path": "D3.md"
+    },
+    {
+      "basename": "kepler.gl",
+      "path": "kepler.gl.md"
+    },
+    {
+      "basename": "deck.gl",
+      "path": "deck.gl.md"
+    },
+    {
+      "basename": "GDAL",
+      "path": "GDAL.md"
+    },
+    {
+      "basename": "MapLibre",
+      "path": "MapLibre.md"
+    },
+    {
+      "basename": "GPU Rendering Pipeline",
+      "path": "GPU Rendering Pipeline.md"
+    },
+    {
+      "basename": "Canvas",
+      "path": "Canvas.md"
     },
     {
       "basename": "Protomaps",
@@ -21,12 +105,16 @@
       "path": "MapTiler.md"
     },
     {
-      "basename": "GDAL",
-      "path": "GDAL.md"
+      "basename": "pyogrio",
+      "path": "pyogrio.md"
     },
     {
-      "basename": "Mapbox Vector Tile",
-      "path": "Mapbox Vector Tile.md"
+      "basename": "GeoAlchemy2",
+      "path": "GeoAlchemy2.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
     },
     {
       "basename": "Tile Server",
@@ -35,18 +123,6 @@
     {
       "basename": "Stadia Maps",
       "path": "Stadia Maps.md"
-    },
-    {
-      "basename": "OpenStreetMap",
-      "path": "OpenStreetMap.md"
-    },
-    {
-      "basename": "OpenLayers",
-      "path": "OpenLayers.md"
-    },
-    {
-      "basename": "Leaflet",
-      "path": "Leaflet.md"
     },
     {
       "basename": "Mapbox",
@@ -123,85 +199,12 @@
     {
       "basename": "PlaceKey",
       "path": "PlaceKey.md"
-    },
-    {
-      "basename": "Google Earth Engine",
-      "path": "Google Earth Engine.md"
-    },
-    {
-      "basename": "Trino",
-      "path": "Trino.md"
-    },
-    {
-      "basename": "Tile",
-      "path": "Tile.md"
-    },
-    {
-      "basename": "Well-Known Binary",
-      "path": "Well-Known Binary.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "Slippy Map",
-      "path": "Slippy Map.md"
-    },
-    {
-      "basename": "Mercator",
-      "path": "Mercator.md"
-    },
-    {
-      "basename": "EPSG Code",
-      "path": "EPSG Code.md"
-    },
-    {
-      "basename": "Apache Flink",
-      "path": "Apache Flink.md"
-    },
-    {
-      "basename": "Databricks Unity Catalog",
-      "path": "Databricks Unity Catalog.md"
-    },
-    {
-      "basename": "Apache Gravitino",
-      "path": "Apache Gravitino.md"
-    },
-    {
-      "basename": "PostGIS",
-      "path": "PostGIS.md"
-    },
-    {
-      "basename": "Well-Known Text",
-      "path": "Well-Known Text.md"
-    },
-    {
-      "basename": "pgvector",
-      "path": "pgvector.md"
-    },
-    {
-      "basename": "GeoPackage",
-      "path": "GeoPackage.md"
-    },
-    {
-      "basename": "Shapefile",
-      "path": "Shapefile.md"
-    },
-    {
-      "basename": "Sentinel",
-      "path": "Sentinel.md"
-    },
-    {
-      "basename": "United States Geological Survey",
-      "path": "United States Geological Survey.md"
-    },
-    {
-      "basename": "Normalized Difference Vegetation Index",
-      "path": "Normalized Difference Vegetation Index.md"
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
 }

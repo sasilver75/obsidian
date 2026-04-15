@@ -7,10 +7,9 @@ aliases:
 - Latitude: North/South position, range -90 to 90 (negative = south of equator)
 
 Los Angeles is roughly (-118.25, 34.05) in (lon, lat) order!
-The most common coordinate system shown above is [[WGS84]]
-
+The most common coordinate system shown above is [[WGS84]].
 #### Gotcha!
-- While [[GeoJSON]], [[Mapbox]], and most web APIs use `(longitude, latitude)`...
+- While [[GeoJSON]], [[Mapbox]], and ==most web APIs use `(longitude, latitude)`...==
 - Many *older* tools, [[Shapefile]] conventions, and humans that say "lat/lon" will instead use `(latitude, longitude)`. This is a frequents source of coordinates ending up in the ocean 😄.
 
 
