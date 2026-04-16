@@ -14,7 +14,7 @@ Developed and operated by the [[European Space Agency]].
 
 Mission:
 - Multispectral data in 13 bands in visible, near infrared, and short wave infrared.
-- Global coverage of land surfaces from 56S to 84N, coastal waters, and all of hte Mediterranean sea.
+- Global coverage of land surfaces from 56S to 84N, coastal waters, and all of the Mediterranean sea.
 - Revisiting every 10 days under the same viewing angles.
 - Spatial resolution of 10m, 20m, and 60m.
 - 290km field of view

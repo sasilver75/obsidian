@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GDAL.md",
+                "file": "RapidEye.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,439 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GDAL"
+              "title": "RapidEye"
+            }
+          },
+          {
+            "id": "f5be4950dc25d050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Geospatial-Intelligence Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Geospatial-Intelligence Agency"
+            }
+          },
+          {
+            "id": "1238c4d981b87110",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thermal Infrared.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Thermal Infrared"
+            }
+          },
+          {
+            "id": "cfeb6fb364dc9a76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thermal Infrared.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Thermal Infrared"
+            }
+          },
+          {
+            "id": "31fa29ae1f7eb8fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Short-Wave Infrared.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Short-Wave Infrared"
+            }
+          },
+          {
+            "id": "6d5cc4047850ebad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Near Infrared.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Near Infrared"
+            }
+          },
+          {
+            "id": "7c0e01c67dd7b90f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital Elevation Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Digital Elevation Model"
+            }
+          },
+          {
+            "id": "2980867ace8040b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital Surface Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Digital Surface Model"
+            }
+          },
+          {
+            "id": "29bccd31a2e69d2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Top-of-Atmosphere.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Top-of-Atmosphere"
+            }
+          },
+          {
+            "id": "87d0920aa35cd0a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Top-of-Atmosphere.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Top-of-Atmosphere"
+            }
+          },
+          {
+            "id": "36975cf95578fa70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Surface Reflectance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Surface Reflectance"
+            }
+          },
+          {
+            "id": "dcb87c072a358cf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis Ready Data.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Analysis Ready Data"
+            }
+          },
+          {
+            "id": "3565b795ad0db470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis Ready Data.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Analysis Ready Data"
+            }
+          },
+          {
+            "id": "6684eda3b9ec2a47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ground Sample Distance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ground Sample Distance"
+            }
+          },
+          {
+            "id": "badf40073fac4713",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Geospatial-Intelligence Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Geospatial-Intelligence Agency"
+            }
+          },
+          {
+            "id": "004cf003d7102a91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital Elevation Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Digital Elevation Model"
+            }
+          },
+          {
+            "id": "6c0568e5f800ab0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Low Earth Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Low Earth Orbit"
+            }
+          },
+          {
+            "id": "a994325380b3a1d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geostationary Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geostationary Orbit"
+            }
+          },
+          {
+            "id": "4c2b08219c276bce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Medium Earth Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Medium Earth Orbit"
             }
           },
           {
@@ -133,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sentinel.md",
+                "file": "Panchromatic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sentinel"
+              "title": "Panchromatic"
             }
           },
           {
@@ -157,7 +589,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "European Space Agency.md",
+                "file": "Photogrammetry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,31 +604,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "European Space Agency"
-            }
-          },
-          {
-            "id": "521051491e053614",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sentinel.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sentinel"
+              "title": "Photogrammetry"
             }
           },
           {
@@ -205,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InSAR.md",
+                "file": "Medium Earth Orbit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +628,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "InSAR"
+              "title": "Medium Earth Orbit"
             }
           },
           {
-            "id": "a4c5a7b7085b8373",
+            "id": "46b91b2a8bac1f1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Remote Direct Memory Access.md",
+                "file": "Medium Earth Orbit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,11 +652,179 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Remote Direct Memory Access"
+              "title": "Medium Earth Orbit"
+            }
+          },
+          {
+            "id": "06f9fe3e9b74687b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geostationary Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geostationary Orbit"
+            }
+          },
+          {
+            "id": "f63e07e843ee144a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GOES-R.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GOES-R"
+            }
+          },
+          {
+            "id": "cf28f62dd2ab0740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Global Positioning System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Global Positioning System"
+            }
+          },
+          {
+            "id": "a88077ed5bdcf45d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Global Navigation Satellite System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Global Navigation Satellite System"
+            }
+          },
+          {
+            "id": "23470468029d3ebf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Global Positioning System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Global Positioning System"
+            }
+          },
+          {
+            "id": "7fc8674fd743402f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Low Earth Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Low Earth Orbit"
+            }
+          },
+          {
+            "id": "e33826cf80b618c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Low Earth Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Low Earth Orbit"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -280,7 +856,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Coordinate Reference System\"",
+                "query": "Albedo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -312,12 +888,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 372.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1681,12 +2256,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "ab3baa51efa2ec3f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "9a81cfa0edf8175b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 133
+        "currentTab": 135
       },
       {
         "id": "8a022290161ffefa",
@@ -1748,44 +2343,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a4c5a7b7085b8373",
+  "active": "1238c4d981b87110",
   "lastOpenFiles": [
-    "Extensible Markup Language.md",
-    "MIT License.md",
-    "Mapbox Vector Tile.md",
-    "Interferometry.md",
-    "Synthetic Aperture Radar.md",
-    "Orthoimage.md",
-    "Tagged Image File Format.md",
-    "Sentinel.md",
-    "European Space Agency.md",
-    "Raster.md",
-    "National Aeronautics and Space Administration.md",
-    "InSAR.md",
-    "MapLibre GL JS.md",
-    "GDAL.md",
-    "Remote Direct Memory Access.md",
-    "InstructGPT.md",
-    "Joint Photographic Experts Group.md",
-    "Stadia Maps.md",
-    "Geocoding Service.md",
-    "Geocode.md",
-    "Scalable Vector Graphics.md",
-    "Shader.md",
-    "OpenGL Shading Language.md",
-    "Coordinate Reference System.md",
-    "Leaflet.md",
-    "OpenLayers.md",
-    "_attachments/Pasted image 20260414121252.png",
-    "_attachments/Pasted image 20260413205642.png",
-    "_attachments/Pasted image 20260413173709.png",
-    "_attachments/Pasted image 20260413173026.png",
-    "_attachments/Pasted image 20260413164302.png",
-    "_attachments/Pasted image 20260413164125.png",
-    "_attachments/Pasted image 20260413112255.png",
-    "_attachments/Pasted image 20260413111541.png",
-    "_attachments/Pasted image 20260412185016.png",
-    "_attachments/Pasted image 20260411202330.png",
+    "Land Surface Temperature.md",
+    "Albedo.md",
+    "Albedo.md",
+    "National Geospatial-Intelligence Agency.md",
+    "Normalized Difference Vegetation Index.md",
+    "Electromagnetic Spectrum.md",
+    "Normalized Difference Water Index.md",
+    "Normalized Burn Ratio.md",
+    "Normalized Difference Built-up Index.md",
+    "Thermal Infrared.md",
+    "Short-Wave Infrared.md",
+    "Near Infrared.md",
+    "_attachments/Pasted image 20260415184933.png",
+    "Satellite.md",
+    "Digital Elevation Model.md",
+    "Digital Surface Model.md",
+    "Top-of-Atmosphere.md",
+    "Surface Reflectance.md",
+    "Analysis Ready Data.md",
+    "Ground Sample Distance.md",
+    "PlanetScope.md",
+    "Planet Labs.md",
+    "Maxar.md",
+    "Polar Orbit.md",
+    "RapidEye.md",
+    "Canadian Space Agency.md",
+    "Low Earth Orbit.md",
+    "_attachments/Pasted image 20260415125927.png",
+    "_attachments/Pasted image 20260415125923.png",
+    "_attachments/Pasted image 20260415124117.png",
+    "_attachments/Pasted image 20260415124102.png",
+    "_attachments/Pasted image 20260415124100.png",
+    "_attachments/Pasted image 20260415124055.png",
+    "_attachments/Pasted image 20260415124051.png",
+    "_attachments/Pasted image 20260415123922.png",
+    "_attachments/Pasted image 20260415115109.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
