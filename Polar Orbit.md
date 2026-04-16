@@ -1,3 +1,9 @@
+---
+aliases:
+  - Polar
+---
+
+
 A polar orbit is one in which a ==satellite passes above or nearly above both poles== of the body being orbited no each revolution.
 - It has an [[Inclination]] of about 80-90 degrees to the body's equator.
 

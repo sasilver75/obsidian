@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global Navigation Satellite System.md",
+                "file": "Electromagnetic Spectrum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Global Navigation Satellite System"
+              "title": "Electromagnetic Spectrum"
+            }
+          },
+          {
+            "id": "65f156505a9597e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polar Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Polar Orbit"
             }
           },
           {
@@ -229,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Low Earth Orbit.md",
+                "file": "MODIS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,11 +268,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Low Earth Orbit"
+              "title": "MODIS"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1768,9 +1792,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e33826cf80b618c6",
+  "active": "a88077ed5bdcf45d",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260416105955.png",
+    "Resolution.md",
+    "Polar Orbit.md",
+    "_attachments/Pasted image 20260416003010.png",
+    "_attachments/Pasted image 20260416002506.png",
+    "Global Navigation Satellite System.md",
     "Global Positioning System.md",
+    "Low Earth Orbit.md",
+    "MODIS.md",
+    "_attachments/Pasted image 20260416002144.png",
+    "_attachments/Pasted image 20260416001732.png",
+    "_attachments/Pasted image 20260416001542.png",
+    "Orbit.md",
+    "Index.md",
+    "Differential Interferometric Synthetic Aperture Radar.md",
+    "Apache Gravitino.md",
+    "recent-notes.txt",
     "GOES-R.md",
     "Geostationary Orbit.md",
     "Medium Earth Orbit.md",
@@ -1779,7 +1819,6 @@
     "Interferometry.md",
     "Tagged Image File Format.md",
     "MapLibre GL JS.md",
-    "Low Earth Orbit.md",
     "Digital Elevation Model.md",
     "National Geospatial-Intelligence Agency.md",
     "Ground Sample Distance.md",
@@ -1787,25 +1826,11 @@
     "Surface Reflectance.md",
     "Top-of-Atmosphere.md",
     "Digital Surface Model.md",
-    "Near Infrared.md",
-    "Short-Wave Infrared.md",
-    "Thermal Infrared.md",
-    "Normalized Burn Ratio.md",
-    "Raster.md",
-    "Amazon SNS.md",
-    "PlanetScope.md",
-    "Geosynhronous Orbit.md",
-    "Geosynchronous Orbit.md",
     "_attachments/Pasted image 20260415212859.png",
     "_attachments/Pasted image 20260415210327.png",
     "_attachments/Pasted image 20260415210300.png",
     "_attachments/Pasted image 20260415205729.png",
     "_attachments/Pasted image 20260415205539.png",
-    "_attachments/Pasted image 20260415205538.png",
-    "_attachments/Pasted image 20260415205517.png",
-    "_attachments/Pasted image 20260415205415.png",
-    "_attachments/Pasted image 20260415203716.png",
-    "_attachments/Pasted image 20260415203626.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
@@ -1814,7 +1839,6 @@
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
     "Papers/RL",
-    "Courses/Machine Learning/Spinning Up in RL",
-    "Papers/VLMs"
+    "Courses/Machine Learning/Spinning Up in RL"
   ]
 }

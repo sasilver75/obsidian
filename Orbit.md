@@ -45,3 +45,4 @@ An [[Medium Earth Orbit|MEO]] platform takes approximately 12 hours to complete 
 
 
 
+

@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Low Earth Orbit",
-      "path": "Low Earth Orbit.md"
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
+      "basename": "Resolution",
+      "path": "Resolution.md"
+    },
+    {
+      "basename": "Polar Orbit",
+      "path": "Polar Orbit.md"
+    },
+    {
+      "basename": "Global Navigation Satellite System",
+      "path": "Global Navigation Satellite System.md"
     },
     {
       "basename": "Global Positioning System",
       "path": "Global Positioning System.md"
+    },
+    {
+      "basename": "Low Earth Orbit",
+      "path": "Low Earth Orbit.md"
+    },
+    {
+      "basename": "MODIS",
+      "path": "MODIS.md"
+    },
+    {
+      "basename": "Orbit",
+      "path": "Orbit.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Index.md"
+    },
+    {
+      "basename": "Differential Interferometric Synthetic Aperture Radar",
+      "path": "Differential Interferometric Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Apache Gravitino",
+      "path": "Apache Gravitino.md"
     },
     {
       "basename": "GOES-R",
@@ -105,10 +141,6 @@
       "path": "Geosynchronous Orbit.md"
     },
     {
-      "basename": "Orbit",
-      "path": "Orbit.md"
-    },
-    {
       "basename": "Remote Sensing",
       "path": "Remote Sensing.md"
     },
@@ -165,40 +197,8 @@
       "path": "Normalized Difference Vegetation Index.md"
     },
     {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
-    },
-    {
       "basename": "Normalized Difference Water Index",
       "path": "Normalized Difference Water Index.md"
-    },
-    {
-      "basename": "Normalized Difference Built-up Index",
-      "path": "Normalized Difference Built-up Index.md"
-    },
-    {
-      "basename": "Polar Orbit",
-      "path": "Polar Orbit.md"
-    },
-    {
-      "basename": "RapidEye",
-      "path": "RapidEye.md"
-    },
-    {
-      "basename": "Canadian Space Agency",
-      "path": "Canadian Space Agency.md"
-    },
-    {
-      "basename": "SPOT",
-      "path": "SPOT.md"
-    },
-    {
-      "basename": "Global Navigation Satellite System",
-      "path": "Global Navigation Satellite System.md"
-    },
-    {
-      "basename": "Globalnaya Navigazionnaya Sputnikovaya Sistema",
-      "path": "Globalnaya Navigazionnaya Sputnikovaya Sistema.md"
     }
   ],
   "omittedPaths": [],
