@@ -2,6 +2,9 @@
 aliases:
   - SAR
 ---
+Resources:
+- [NASA EarthData: Synthetic Aperture Radar](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar) (Unread, looks great)
+
 A [[Remote Sensing]] technique that uses radar signals instead of visible light to image the Earth's surface.
 
 A satellite emits microwave pulses towards the ground and records the energy that bounces back; as the satellite moves forwards along its orbit, it takes many measurements from slightly different positions.

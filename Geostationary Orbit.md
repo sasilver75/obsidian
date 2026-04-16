@@ -1,6 +1,7 @@
 ---
 aliases:
   - GEO
+  - Geostationary
 ---
 Altitude: Exactly 35,786km
 Period: 24 hours, matching Earth's rotation
@@ -12,12 +13,16 @@ From the ground, a ==GEO satellite appears stationary==. This ==enables persiste
 
 Use cases:
 - Weather satellites, TV/broadcast, traditional communications, missile early warning.
-- Weather satellites like [[GOES-R]]
+- Weather satellites like [[GOES-R]] are in geostationary orbits above the equator.
 
 At 36,000km (22,000mi), geostationary orbit ==allows a satellite to hover over a constant spot on the earth==, since the orbital period at this altitude is 24 hours.
 - ~9% of satellites
 
 This allows uninterrupted coverage of more than 1/3 of the Earth per satellite, so three satellites, space 120 degrees apart, can cover the whole Earth.
+
+- Platforms orbiting at 35,786km are at an altitude at which their orbital speed matches the planet's rotation, and are in what is called [[Geosynchronous Orbit|Geosynchronous]] ([[Geosynhronous Orbit|GSO]]) orbit.
+	- A platform in GSO directly above the equator will have a [[Geostationary Orbit|Geostationary]] orbit, which enables a platform to maintain its position directly over the same place on the Earth's surface. So ==Geostationary is a subclass of Geosynchronous==.
+	- While both [[Geosynchronous Orbit]]s and [[Geostationary Orbit]]s are at 35,786km above the Earth, geosynchronous platforms have orbits that can be tilted above or below the equator, while geostationary platforms orbit Earth on *the same plane as the equator*.
 
 
 ![[Pasted image 20260415124100.png]]

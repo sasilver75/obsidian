@@ -49,8 +49,10 @@
 	- Generic term for *any* elevation raster
 - [[Digital Surface Model]] (DSM)
 	- Elevation of the top surface - includes buildings, trees, everything above bare earth.
+	- ==A DSM is a DEM of a surface== (including buildings, trees, powerlines)
 - [[Digital Terrain Model]] (DTM)
 	- Bare-earth elevation with buildings/vegetation removed.
+	- ==A DTM is a DEM of the bare earth== (buildings/vegetation are filtered out)
 - Radiometric Resolution
 	- How many distinct intensity levels the sensor reads, in bit depth:
 		- 8-bit = 256 levels

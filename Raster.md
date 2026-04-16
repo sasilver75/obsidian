@@ -44,4 +44,4 @@ In Raster data, ==Band Count== refers to how many separate data layers a Raster 
 	- A format for chunked, compressed N-dimensional arrays. Think "Numpy arrays stored in a way that works well in the cloud."
 	- Unlike COG (which is for 2D grids), ==Zarr handles arbitrary dimensions==: (space x time x variable), which makes it the ==dominant format for climate science and earth observation time series!==
 	- ==Not a single file!== It's a directory (or object storage prefix 😜) of `.zarr` files organized as a key-value store. Each chunk of the array is a separate file.
-	- You'll see it for [[NOAA]]/[[National Aeronautics and Space Administration|NASA]] climate datasets, ERA5 reanalysis, weather model outputs, any "datacube" product.
+	- You'll see it for [[National Oceanic and Atmospheric Administration|NOAA]]/[[National Aeronautics and Space Administration|NASA]] climate datasets, ERA5 reanalysis, weather model outputs, any "datacube" product.

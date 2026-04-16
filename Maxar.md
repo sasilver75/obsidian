@@ -6,6 +6,9 @@ A satellite imagery company (Acq. private equity in 2023) that operates a conste
 - WorldView-4 — 0.31m, but failed in 2019
 - GeoEye-1 — 0.41m pan, 1.65m multispectral
 
+![[Pasted image 20260415205415.png|400]]
+Above: Images from next-gen WorldView Legion satellites (2024)
+
 Good for:
 - Sub-meter resolution means that you can see individual cars, count parked aircraft, assess building damage after disasters.
 - Defense/intelligence work; Maxar is a major [[National Geospatial-Intelligence Agency]] (NGA) contractor.

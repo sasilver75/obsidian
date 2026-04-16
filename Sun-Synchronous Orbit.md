@@ -2,6 +2,8 @@
 aliases:
   - SSO
   - Heliosynchronous Orbit
+  - Sun-Synchronous
+  - Heliosynchronous
 ---
 Altitude: ~400-1000 km (a subset of [[Low Earth Orbit]]
 Inclination: ~97-98 degrees (slightly retrograde)

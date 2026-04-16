@@ -20,3 +20,5 @@ Mission:
 - 290km field of view
 - Free and open data policy
 
+
+![[Pasted image 20260415205539.png|500]]
