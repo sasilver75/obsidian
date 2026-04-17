@@ -1,3 +1,56 @@
+Geospatial indexes solve a fundamental problem: standard database indexes ([[B-Tree]]s) work on *one-dimensional* ordered values, but spatial data is inherently *two-dimensional.*
+- You can't sort points by latitude and longitude simultaneously in a way that preserves proximity!
+
+[[R-Tree]] is the dominant spatial indexing structure.
+- The idea is to ==group nearby geometries into minimum bounding rectangles (MBRs), then group those MBRs into larger MBRs, recursively==.
+- ==Queries work by traversing the tree==: If a query rectangle doesn't intersect an MBR, discard that whole subtree.
+- R-Trees ==handles all geometry types==: points, lines, polygons, and support queries like intersection, containment, distance.
+- Weakness: MBRs can overlap heavily in dense or irregular datasets, causing the tree to check many branches unnecessarily.
+
+[[PostGIS]] uses a variant called [[R-Tree]] with [[GiST]]; GiST is a PostgreSQL framework for building custom index types, and PostGIS plugs spatial logic into it.
+
+PostGIS actually offers two index types:
+- [[GiST]]: Balanced tree, good for overlapping geometries, handles all shapes well.
+	- For most cases, GiST is the right choice.
+	- (Postgres implements an R-Tree on top of the GiST framework)
+- [[GiST|SP-GiST]] (Space-partitioning GiST): Partitions space into non-overlapping regions, which is better for point data with clustering, worse for polygons.
+
+
+[[QuadTree]]s recursively subdivide space into 4 quadrants.
+- Simpler than [[R-Tree]]s, works well for uniformly distributed point data.
+- Degrades badly with clustered data or irregular shapes: heavily populated areas keep subdividing while empty areas waste tree depth.
+- Used internally in some systems, but rarely exposed directly as a database index type.
+
+[[KD-Tree]]s are binary trees that alternate splitting on X and Y axes at each level. Great for nearest-neighbor queries on point data, less good for range queries and polygons. Common in in-memory spatial libraries (scipy, sklearn), but not typically used in databases.
+
+
+## Two-Phase Query Execution
+- Almost all spatial indexes work in two phases, which is important to understand:
+	1. Phase 1 (index): Find candidate geometries whose MBR intersects query.
+	2. Phase 2(filteR): Test the actual geometry against query predicate.
+- The index gives you the candidates fast but imprecisely, since MBRs are approximations. The second phase does exact geometric computation on only those candidates.
+- In PostGIS, the && operator uses the index, and ST_Intersects (e.g.) does the exact test. Running ST_Intersects *without* an index forces exact computation on every row.
+
+
+## Practical PostGIS Notes
+- Always create a spatial index on *geometry columns* that you'll query!
+- Spatial indexing is still an active research area because no single structure handles all geometry types, distributions, and query patterns equally well, but PostGIS with GiST R-Trees are the safe default for most production use cases.
+
+
+> Aside: Grid/Cell indexes ([[Discrete Global Grid System|DGGS]]-based) like [[Geohash]], [[H3]], [[A5]], [[S2 Geometry|S2]]
+> - Encode geometries to cell IDs and typically use a regular [[B-Tree]] to index them.
+> - Fast for point lookups and approximate proximity, and cheap to implement, but polygon queries require covering the polygon with cells, which get expensive for large or irregular shapes, and you get false positives at cell boundaries that require a second-pass filter. 
+> - Not a replacement for "real" geospatial indices.
+
+
+
+
+
+
+
+
+___________________________
+
 GeoSpatial Indices have become a hot topic in System Design interviews because of proximity-based services like Yelp, Uber, and GoPuff, where we want to find "restaurants within 5 miles of me."
 
 **TLDR: If you're asked about Geospatial Indexing in an interview, focus on explaining the problem clearly and contrasting a tree-based approach with a hash-based approach:**

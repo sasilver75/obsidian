@@ -1,40 +1,184 @@
 {
   "recentFiles": [
     {
-      "basename": "Discrete Global Grid System",
-      "path": "Discrete Global Grid System.md"
+      "basename": "Light Detection and Ranging",
+      "path": "Light Detection and Ranging.md"
     },
     {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
+      "basename": "Global Ecosystem Dynamics Investigation",
+      "path": "Global Ecosystem Dynamics Investigation.md"
     },
     {
-      "basename": "H3",
-      "path": "H3.md"
+      "basename": "Canopy Height Model",
+      "path": "Canopy Height Model.md"
     },
     {
-      "basename": "S2 Geometry",
-      "path": "S2 Geometry.md"
+      "basename": "Inertial Measurement Unit",
+      "path": "Inertial Measurement Unit.md"
     },
     {
-      "basename": "Multispectral",
-      "path": "Multispectral.md"
+      "basename": "Copernicus DEM",
+      "path": "Copernicus DEM.md"
+    },
+    {
+      "basename": "WorldDEM",
+      "path": "WorldDEM.md"
+    },
+    {
+      "basename": "TanDEM-X",
+      "path": "TanDEM-X.md"
+    },
+    {
+      "basename": "TerraSAR-X",
+      "path": "TerraSAR-X.md"
+    },
+    {
+      "basename": "Shuttle Radar Topography Mission",
+      "path": "Shuttle Radar Topography Mission.md"
+    },
+    {
+      "basename": "InSAR",
+      "path": "InSAR.md"
+    },
+    {
+      "basename": "Hierarchical Data Format 5",
+      "path": "Hierarchical Data Format 5.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "Photogrammetry",
+      "path": "Photogrammetry.md"
+    },
+    {
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
+      "path": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
+    },
+    {
+      "basename": "Zarr",
+      "path": "Zarr.md"
+    },
+    {
+      "basename": "Network Common Data Form",
+      "path": "Network Common Data Form.md"
+    },
+    {
+      "basename": "Military Grid Reference System",
+      "path": "Military Grid Reference System.md"
+    },
+    {
+      "basename": "Universal Polar Stereographic",
+      "path": "Universal Polar Stereographic.md"
+    },
+    {
+      "basename": "Spatial ETL",
+      "path": "Spatial ETL.md"
+    },
+    {
+      "basename": "PMTiles",
+      "path": "PMTiles.md"
+    },
+    {
+      "basename": "Georeference",
+      "path": "Georeference.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "Google Earth Engine",
+      "path": "Google Earth Engine.md"
+    },
+    {
+      "basename": "Universal Transverse Mercator",
+      "path": "Universal Transverse Mercator.md"
+    },
+    {
+      "basename": "GDAL",
+      "path": "GDAL.md"
+    },
+    {
+      "basename": "FlatGeobuf",
+      "path": "FlatGeobuf.md"
+    },
+    {
+      "basename": "Overture Maps Foundation",
+      "path": "Overture Maps Foundation.md"
+    },
+    {
+      "basename": "Microsoft Planetary Computer",
+      "path": "Microsoft Planetary Computer.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "Surface Reflectance",
+      "path": "Surface Reflectance.md"
     },
     {
       "basename": "Panchromatic",
       "path": "Panchromatic.md"
     },
     {
+      "basename": "FlatBuffers",
+      "path": "FlatBuffers.md"
+    },
+    {
+      "basename": "Cloud-Optimized GeoTIFF",
+      "path": "Cloud-Optimized GeoTIFF.md"
+    },
+    {
+      "basename": "GIN Index",
+      "path": "GIN Index.md"
+    },
+    {
       "basename": "A5",
       "path": "A5.md"
     },
     {
-      "basename": "Top-of-Atmosphere",
-      "path": "Top-of-Atmosphere.md"
+      "basename": "S2 Geometry",
+      "path": "S2 Geometry.md"
     },
     {
-      "basename": "Surface Reflectance",
-      "path": "Surface Reflectance.md"
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "Mapbox",
+      "path": "Mapbox.md"
+    },
+    {
+      "basename": "Mapbox GL JS",
+      "path": "Mapbox GL JS.md"
+    },
+    {
+      "basename": "Discrete Global Grid System",
+      "path": "Discrete Global Grid System.md"
+    },
+    {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "H3",
+      "path": "H3.md"
+    },
+    {
+      "basename": "Multispectral",
+      "path": "Multispectral.md"
+    },
+    {
+      "basename": "Top-of-Atmosphere",
+      "path": "Top-of-Atmosphere.md"
     },
     {
       "basename": "Pansharpening",
@@ -43,10 +187,6 @@
     {
       "basename": "concept-definitions",
       "path": "concept-definitions.md"
-    },
-    {
-      "basename": "Overture Maps Foundation",
-      "path": "Overture Maps Foundation.md"
     },
     {
       "basename": "Lonboard",
@@ -59,146 +199,6 @@
     {
       "basename": "Space-filling Curve",
       "path": "Space-filling Curve.md"
-    },
-    {
-      "basename": "rasterio",
-      "path": "rasterio.md"
-    },
-    {
-      "basename": "OpenMapTiles",
-      "path": "OpenMapTiles.md"
-    },
-    {
-      "basename": "Mapbox Vector Tile",
-      "path": "Mapbox Vector Tile.md"
-    },
-    {
-      "basename": "Basemap",
-      "path": "Basemap.md"
-    },
-    {
-      "basename": "OpenStreetMap",
-      "path": "OpenStreetMap.md"
-    },
-    {
-      "basename": "HERE Technologies",
-      "path": "HERE Technologies.md"
-    },
-    {
-      "basename": "Run-length Encoding",
-      "path": "Run-length Encoding.md"
-    },
-    {
-      "basename": "GeoTIFF",
-      "path": "GeoTIFF.md"
-    },
-    {
-      "basename": "Tile Pyramid",
-      "path": "Tile Pyramid.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
-    },
-    {
-      "basename": "Tagged Image File Format",
-      "path": "Tagged Image File Format.md"
-    },
-    {
-      "basename": "Portable Network Graphics",
-      "path": "Portable Network Graphics.md"
-    },
-    {
-      "basename": "Hilbert Curve",
-      "path": "Hilbert Curve.md"
-    },
-    {
-      "basename": "Tippecanoe",
-      "path": "Tippecanoe.md"
-    },
-    {
-      "basename": "Vector Tile",
-      "path": "Vector Tile.md"
-    },
-    {
-      "basename": "MBTile",
-      "path": "MBTile.md"
-    },
-    {
-      "basename": "Bing QuadKey",
-      "path": "Bing QuadKey.md"
-    },
-    {
-      "basename": "GDAL",
-      "path": "GDAL.md"
-    },
-    {
-      "basename": "GeoParquet",
-      "path": "GeoParquet.md"
-    },
-    {
-      "basename": "OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}",
-      "path": "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md"
-    },
-    {
-      "basename": "PMTiles",
-      "path": "PMTiles.md"
-    },
-    {
-      "basename": "STAC",
-      "path": "STAC.md"
-    },
-    {
-      "basename": "Apache Gravitino",
-      "path": "Apache Gravitino.md"
-    },
-    {
-      "basename": "Protomaps",
-      "path": "Protomaps.md"
-    },
-    {
-      "basename": "Cloud-Native Geospatial",
-      "path": "Cloud-Native Geospatial.md"
-    },
-    {
-      "basename": "Ibis",
-      "path": "Ibis.md"
-    },
-    {
-      "basename": "Apache Iceberg",
-      "path": "Apache Iceberg.md"
-    },
-    {
-      "basename": "Geopandas",
-      "path": "Geopandas.md"
-    },
-    {
-      "basename": "RapidEye",
-      "path": "RapidEye.md"
-    },
-    {
-      "basename": "National Geospatial-Intelligence Agency",
-      "path": "National Geospatial-Intelligence Agency.md"
-    },
-    {
-      "basename": "Satellite",
-      "path": "Satellite.md"
-    },
-    {
-      "basename": "Digital Surface Model",
-      "path": "Digital Surface Model.md"
-    },
-    {
-      "basename": "Hierarchical Data Format",
-      "path": "Hierarchical Data Format.md"
-    },
-    {
-      "basename": "Orbit",
-      "path": "Orbit.md"
-    },
-    {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,7 @@
 ---
 aliases:
   - Overture Maps
+  - Overture
 ---
 Site: https://overturemaps.org/
 

@@ -17,7 +17,7 @@ Why it matters for analysis:
 Common SR products:
 - Landsat Collection 2 Level-2 (USGS)
 - Sentinel-2 LSA (ESA, processed with Sen2Cor)
-- Both available via [[STAC]] catalogs, accessible with rasterio/stackstac
+- Both available via [[SpatioTemporal Asset Catalog|STAC]] catalogs, accessible with rasterio/stackstac
 
 The tradeoff:
 - [[Surface Reflectance|SR]] requires accurate ==atmospheric data== at the time of the acquisition. ==If that's unavailable or low quality, TOA might actually be more reliable;  SR correction can introduce its own errors.==

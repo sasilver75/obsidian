@@ -23,7 +23,7 @@ What you can do with it:
 
 
 ![[Pasted image 20260416172435.png]]
-Above: Showing two of the six "face cells" in S2, one of which has been subdivided several times.
+Above: Showing two of the six "face cells" in S2, one of which has been subdivided several times. Notice that the cell edges appear to be curved; this is because they are _spherical geodesics_, i.e., straight lines on the sphere (similar to the routes that airplanes fly).
 
 ![[Pasted image 20260416182630.png|500]]
 Above: An illustration of the S2 curve after 5 levels of subdivision; In [[S2 Geometry|S2]], six Hilbert curves are linked together to form a single continuous loop over the entire sphere.

@@ -1,6 +1,7 @@
 ---
 aliases:
   - Interferometric Synthetic Aperture Radar
+  - Single-Pass InSAR
 ---
 A [[Remote Sensing]] technique that combines two or more radar images (using [[Synthetic Aperture Radar|SAR]]) of the same area, taken from slightly different positions or times, to measure millimeter-scale surface topography and changes.
 

@@ -42,6 +42,7 @@ Data Characteristics:
 - ==Temporal resolution==
 	- The frequency of flyovers by the satellite or plane, which is mostly relevant in time-series studies or those requiring an averaged or *mosaic* image, as in deforesting monitoring.
 		- Cloud cover over a given area or object makes it necessary to repeat the collection of said location.
+	- The ==Orbital period== is how long one orbit takes.
 
 
 A variety of corrections may need to be applied to images:
@@ -75,7 +76,71 @@ A taxonomy of processing "levels" defined in 1986 by [[National Aeronautics and 
 
 
 
+
+
 # Common Remote Sensing Tasks
+- [[Change Detection]]
+	- ==Detecting *what changed*== between two or more observations of the same area.
+	- The simplest form is *band differencing*, subtracting image A from B, with large values indicating change.  More sophisticated approaches use spectral indices (e.g. [[Normalized Difference Vegetation Index|NDVI]]), machine learning classifiers trained on change/no-change examples, or coherence analysis in SAR.
+	- Hard parts: Normalizing for atmospheric or illumination differences between the dates, distinguishing real change from sensor noises, and handling seasonal variation (a forest looks different in summer vs winter without having "changed").
+	- Applications: Deforestation Monitoring, Urban Expansion, Disaster Damage Assessment, Crop Monitoring.
+- [[Land Cover]] Classification
+	- ==Assigning every pixel to a class== (forest, water, urban, cropland, bare soil, etc.)
+	- Approaches range from a simple (thresholding NDVI) to traditional ML (random forest on spectral + texture features), to deep learning (U-Net and variants for semantic segmentation).
+	- The distinction between *land cover* (what's there) and *land use* (what it's being used for) matters; a parking lot and airport are both impervious surfaces but have different land uses.
+- [[Object Detection]] and [[Semantic Segmentation]]
+	- ==Detecting and delineating specific objects== (buildings, roads, vehicles, ships, solar panels, swimming pools). Usually deep learning now, typically trained on high-resolution commercial imagery. 
+	- Building footprint extraction is the canonical task, while vehicle detection from high-resolution imagery is a defense/intelligence application. Ship detection from SAR is used for maritime monitoring.
+	- The challenge is that objects of interest are tiny relative to scene size, training data is expensive to label, and performance varies across geographic regions and image conditions.
+- [[Spectral Unmixing]]
+	- Most pixels in moderate-resolution imagery (eg 30m [[Landsat]]) contain multiple materials. A pixel might be 60% forest, 30% soil, 10% shadow.
+	- Spectral unmixing decomposes pixels into fractional abundance of pure spectral signatures called ***endmembers***.
+	- ==Rather than classifying each pixel as one class, you get a continuous mixture.==
+	- Useful for vegetation fraction mapping, mineral mapping, etc. Requires knowing or estimating the endmember spectra, which is often the hardest part.
+- [[Time-Series Analysis]]
+	- ==Analyzing *how* pixel values change over time==, rather than looking at single scenes.
+	- Useful in Phenology (tracking vegetation growth cycles; when are plants planted/harvested?), trend detection (is the forest getting greener?), anomaly detection (drought stress, fire risk).
+	- The challenge is that available time series are gappy (clouds, revisit time) and noisy (atmospheric variability), requiring robust statistical methods.
+- [[Digital Elevation Model]] generation
+	- ==Deriving terrain elevation from imagery==.
+	- Comes in two flavors:
+		- [[Digital Surface Model]]: Includes buildings/vegetation
+		- [[Digital Terrain Model]]: : Bare earth only; requires filtering out above-ground objects
+	- Methods include:
+		- [[Photogrammetry|Stereophotogrammetry]] (using two optical images from different angles, matching features, and triangulating elevation from parallax)
+		- [[InSAR]] (interfering two SAR acquisitions to get elevation; [[Shuttle Radar Topography Mission|SRTM]] was created this way)
+		- [[Light Detection and Ranging|LiDAR]] (using active ranging; the most accurate, expensive, typically airborne; point clouds are processed into DEMs)
+		- Structure from Motion (SfM): Similar to photogrammetry, but uses *many* overlapping images; common with drone imagery.
+- Vegetation Analysis
+	- Beyond simple NDVI, common tasks include:
+		- Biomass estimation, important for carbon accounting
+		- Species classification (typically tree species)
+		- Forest structure (canopy height, leaf area index, crown closure; often from LiDAR)
+		- Crop type mapping (which crops are planted in which fields?)
+		- Stress detection (detecting drought stress, pest damage, disease before it's visible to the naked eye, using red-edge and SWIR bands)
+- Water Analysis
+	- Water body mapping (NDWI threshold is simple and works, Flood mapping sometimes uses SAR, since water appears dark)
+	- Water quality: Turbidity, chlorophyll concentration, algal bloom detection
+	- Bathymetry: Estimating shallow water depth from optical imagery using water's spectral absorption properties
+	- Coastal changes: Shoreline migration, erosion monitoring
+- Urban Analysis
+	- Building footprint etraction
+	- Urban heat island mapping
+	- Impervious surface mapping (important for stormwater modeling)
+	- 3D city models (combining building footprints with height data from stereo or LiDAR)
+	- Informal settlement mapping (detecting slums, informal housing from texture)
+- Atmospheric and Climate Applications
+	- Aerosol and optical depth retrieval (measuring atmospheric particulates)
+	- Cloud properties (cloud top height, optical thickness ice vs water phase)
+	- Sear surface temperature
+	- Fire detection and burned area maping
+	- Snow cover and ice extent
+
+==Each remote sensing product above *NEEDS VALIDATION==*
+- Typically you collect reference data (visit fields, get high-resolution imagery, use existing maps) at  sampled location, and compare to the classified/derived product.
+	- Compute confusion matrices, report overall accuracy, per-class precision/recall, and kappa coefficient.
+- The sampling design matters enormously: Whether random sampling, stratified sampling, and how you handle class imbalance all affect whether your accuracy estimate is meaningful. 
+	- This is often underemphasized but a remote sensing product *without rigorous accuracy assessment is scientifically incomplete!*
 
 
 # Essential Variables (EVs) (critical for observing given facets)

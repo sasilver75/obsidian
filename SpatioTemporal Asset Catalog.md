@@ -1,6 +1,6 @@
 ---
 aliases:
-  - SpatioTemporal Asset Catalog
+  - STAC
 ---
 A JSON metadata standard for discovering [[Raster]] datasets.
 

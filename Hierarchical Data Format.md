@@ -1,5 +1,0 @@
----
-aliases:
-  - HDF
----
-Data format
