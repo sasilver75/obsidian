@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lonboard.md",
+                "file": "Discrete Global Grid System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lonboard"
+              "title": "Discrete Global Grid System"
             }
           },
           {
-            "id": "f5953cfa9235c177",
+            "id": "5c8bf7b97a6d13f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GeoParquet.md",
+                "file": "Panchromatic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GeoParquet"
+              "title": "Panchromatic"
             }
           },
           {
-            "id": "753c5798ddc84d3b",
+            "id": "9d56fa92d1f04dce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MBTile.md",
+                "file": "A5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,203 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MBTile"
-            }
-          },
-          {
-            "id": "83225ce42f1615dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GDAL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GDAL"
-            }
-          },
-          {
-            "id": "af66f73b17c4c9e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S2 Geometry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "S2 Geometry"
-            }
-          },
-          {
-            "id": "458723d32380274e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bing QuadKey.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bing QuadKey"
-            }
-          },
-          {
-            "id": "cb90630f04082e2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hilbert Curve.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hilbert Curve"
-            }
-          },
-          {
-            "id": "a7eda631012436cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Space-filling Curve.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Space-filling Curve"
-            }
-          },
-          {
-            "id": "6170d6ca4a575282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Run-length Encoding.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Run-length Encoding"
-            }
-          },
-          {
-            "id": "d5700deca10ad2ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overture Maps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Overture Maps"
-            }
-          },
-          {
-            "id": "ca41083962752771",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rasterio.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "rasterio"
+              "title": "A5"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -335,8 +142,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1792,44 +1598,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "753c5798ddc84d3b",
+  "active": "c813347cfbd00e77",
   "lastOpenFiles": [
-    "GDAL.md",
-    "MBTile.md",
-    "GeoParquet.md",
-    "Lonboard.md",
-    "Mapbox Vector Tile.md",
-    "Tippecanoe.md",
-    "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
-    "PMTiles.md",
-    "rasterio.md",
-    "Overture Maps.md",
-    "Run-length Encoding.md",
-    "Hilbert Curve.md",
-    "Space-filling Curve.md",
-    "Discrete Global Grid System.md",
-    "Bing QuadKey.md",
-    "Bing Quad.md",
+    "Geospatial Index.md",
+    "H3.md",
     "S2 Geometry.md",
-    "Vector Tile.md",
-    "STAC.md",
-    "Apache Gravitino.md",
-    "Protomaps.md",
-    "Cloud-Native Geospatial.md",
-    "Ibis.md",
+    "Discrete Global Grid System.md",
+    "Multispectral.md",
+    "Panchromatic.md",
+    "A5.md",
+    "S2.md",
+    "Top-of-Atmosphere.md",
+    "_attachments/Pasted image 20260416213058.png",
+    "_attachments/Pasted image 20260416212902.png",
+    "Surface Reflectance.md",
+    "Pansharpening.md",
+    "concept-definitions.md",
+    "Overture Maps Foundation.md",
+    "Lonboard.md",
+    "Mapbox Tiling Service.md",
+    "Space-filling Curve.md",
+    "rasterio.md",
+    "OpenMapTiles.md",
+    "Mapbox Vector Tile.md",
+    "Basemap.md",
+    "OpenStreetMap.md",
+    "HERE Technologies.md",
+    "Run-length Encoding.md",
+    "GeoTIFF.md",
+    "Tile Pyramid.md",
+    "Cloud-Optimized GeoTIFF.md",
+    "_attachments/Pasted image 20260416183440.png",
+    "_attachments/Pasted image 20260416183251.png",
+    "_attachments/Pasted image 20260416183247.png",
+    "_attachments/Pasted image 20260416182630.png",
+    "_attachments/Pasted image 20260416181959.png",
+    "_attachments/Pasted image 20260416180317.png",
+    "_attachments/Pasted image 20260416172435.png",
     "_attachments/Pasted image 20260416154527.png",
-    "_attachments/Pasted image 20260416154322.png",
-    "Apache Iceberg.md",
-    "Geopandas.md",
-    "RapidEye.md",
-    "_attachments/Pasted image 20260416134548.png",
-    "_attachments/Pasted image 20260416134358.png",
-    "_attachments/Pasted image 20260416134228.png",
-    "_attachments/Pasted image 20260416105955.png",
-    "_attachments/Pasted image 20260416003010.png",
-    "_attachments/Pasted image 20260416002506.png",
-    "_attachments/Pasted image 20260416002144.png",
-    "_attachments/Pasted image 20260416001732.png",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

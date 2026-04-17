@@ -45,7 +45,7 @@ Ecosystem
 - [pmtiles.io](pmtiles.io) Is a viewer for PMTiles resources that could be either remote or local.
 - PMTiles CLI: Single-binary CLI to install; edit, extract, upload, serve PMTiles, works with Azure/S3/etc. buckets.
 - pmtiles extract: You can extract a smaller tile set from a larger one
-- overture-tiles: Create PMTiles from [[Overture Maps]] once a month.
+- overture-tiles: Create PMTiles from [[Overture Maps Foundation]] once a month.
 
 
 Compare with:
