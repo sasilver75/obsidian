@@ -1,12 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "Gaussian Splatting",
+      "path": "Gaussian Splatting.md"
+    },
+    {
+      "basename": "Neural Radiance Fields",
+      "path": "Neural Radiance Fields.md"
+    },
+    {
+      "basename": "Splat",
+      "path": "Splat.md"
+    },
+    {
+      "basename": "Potree",
+      "path": "Potree.md"
+    },
+    {
+      "basename": "NASADEM",
+      "path": "NASADEM.md"
+    },
+    {
+      "basename": "Shuttle Radar Topography Mission",
+      "path": "Shuttle Radar Topography Mission.md"
+    },
+    {
+      "basename": "Cloud-Optimized Point Cloud",
+      "path": "Cloud-Optimized Point Cloud.md"
+    },
+    {
+      "basename": "Entwine Point Tiles",
+      "path": "Entwine Point Tiles.md"
+    },
+    {
+      "basename": "3DEP",
+      "path": "3DEP.md"
+    },
+    {
+      "basename": "Point Data Abstraction Library",
+      "path": "Point Data Abstraction Library.md"
+    },
+    {
+      "basename": "United States Geological Survey",
+      "path": "United States Geological Survey.md"
+    },
+    {
+      "basename": "OpenTopography",
+      "path": "OpenTopography.md"
+    },
+    {
+      "basename": "Copernicus DEM",
+      "path": "Copernicus DEM.md"
+    },
+    {
+      "basename": "National Science Foundation",
+      "path": "National Science Foundation.md"
+    },
+    {
       "basename": "Light Detection and Ranging",
       "path": "Light Detection and Ranging.md"
     },
     {
-      "basename": "Global Ecosystem Dynamics Investigation",
-      "path": "Global Ecosystem Dynamics Investigation.md"
+      "basename": "TerraSAR-X",
+      "path": "TerraSAR-X.md"
+    },
+    {
+      "basename": "LASer",
+      "path": "LASer.md"
+    },
+    {
+      "basename": "American Society for Photogrammetry and Remote Sensing",
+      "path": "American Society for Photogrammetry and Remote Sensing.md"
     },
     {
       "basename": "Canopy Height Model",
@@ -17,24 +81,12 @@
       "path": "Inertial Measurement Unit.md"
     },
     {
-      "basename": "Copernicus DEM",
-      "path": "Copernicus DEM.md"
-    },
-    {
       "basename": "WorldDEM",
       "path": "WorldDEM.md"
     },
     {
       "basename": "TanDEM-X",
       "path": "TanDEM-X.md"
-    },
-    {
-      "basename": "TerraSAR-X",
-      "path": "TerraSAR-X.md"
-    },
-    {
-      "basename": "Shuttle Radar Topography Mission",
-      "path": "Shuttle Radar Topography Mission.md"
     },
     {
       "basename": "InSAR",
@@ -147,58 +199,6 @@
     {
       "basename": "S2 Geometry",
       "path": "S2 Geometry.md"
-    },
-    {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
-    },
-    {
-      "basename": "Mapbox",
-      "path": "Mapbox.md"
-    },
-    {
-      "basename": "Mapbox GL JS",
-      "path": "Mapbox GL JS.md"
-    },
-    {
-      "basename": "Discrete Global Grid System",
-      "path": "Discrete Global Grid System.md"
-    },
-    {
-      "basename": "SDIAH Networking Essentials",
-      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "H3",
-      "path": "H3.md"
-    },
-    {
-      "basename": "Multispectral",
-      "path": "Multispectral.md"
-    },
-    {
-      "basename": "Top-of-Atmosphere",
-      "path": "Top-of-Atmosphere.md"
-    },
-    {
-      "basename": "Pansharpening",
-      "path": "Pansharpening.md"
-    },
-    {
-      "basename": "concept-definitions",
-      "path": "concept-definitions.md"
-    },
-    {
-      "basename": "Lonboard",
-      "path": "Lonboard.md"
-    },
-    {
-      "basename": "Mapbox Tiling Service",
-      "path": "Mapbox Tiling Service.md"
-    },
-    {
-      "basename": "Space-filling Curve",
-      "path": "Space-filling Curve.md"
     }
   ],
   "omittedPaths": [],

@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Light Detection and Ranging.md",
+                "file": "3DEP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Light Detection and Ranging"
+              "title": "3DEP"
             }
           },
           {
-            "id": "597cac51dccfbce3",
+            "id": "e33ab9f382f28d62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global Ecosystem Dynamics Investigation.md",
+                "file": "Splat.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,271 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Global Ecosystem Dynamics Investigation"
+              "title": "Splat"
+            }
+          },
+          {
+            "id": "a92d4594b509396c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gaussian Splatting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Splatting"
+            }
+          },
+          {
+            "id": "00c896fd8cf4a4d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Radiance Fields.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Neural Radiance Fields"
+            }
+          },
+          {
+            "id": "612ff35a2e8a3427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shuttle Radar Topography Mission.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shuttle Radar Topography Mission"
+            }
+          },
+          {
+            "id": "4bc6913af03ba598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Point Data Abstraction Library.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Point Data Abstraction Library"
+            }
+          },
+          {
+            "id": "6657bd6d7818ed22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Copernicus DEM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Copernicus DEM"
+            }
+          },
+          {
+            "id": "730bc3c20275b9d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Science Foundation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Science Foundation"
+            }
+          },
+          {
+            "id": "9f66936c92059241",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entwine Point Tiles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Entwine Point Tiles"
+            }
+          },
+          {
+            "id": "4ab612a2fc0a3e9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entwine Point Tiles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Entwine Point Tiles"
+            }
+          },
+          {
+            "id": "cc4101a294051c5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud-Optimized Point Cloud.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cloud-Optimized Point Cloud"
+            }
+          },
+          {
+            "id": "d0515d4f29cbf99b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LASer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LASer"
+            }
+          },
+          {
+            "id": "a434cd87a25355b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "American Society for Photogrammetry and Remote Sensing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "American Society for Photogrammetry and Remote Sensing"
             }
           },
           {
@@ -488,7 +752,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -2008,44 +2272,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7eeb11a436a487f2",
+  "active": "a92d4594b509396c",
   "lastOpenFiles": [
-    "Global Ecosystem Dynamics Investigation.md",
+    "Neural Radiance Fields.md",
+    "Gaussian Splatting.md",
+    "Splat.md",
+    "Potree.md",
+    "NASADEM.md",
+    "_attachments/Pasted image 20260417150722.png",
+    "Shuttle Radar Topography Mission.md",
+    "Cloud-Optimized Point Cloud.md",
+    "_attachments/Pasted image 20260417145827.png",
+    "Entwine Point Tiles.md",
+    "_attachments/Pasted image 20260417145805.png",
+    "3DEP.md",
+    "Point Data Abstraction Library.md",
+    "United States Geological Survey.md",
+    "OpenTopography.md",
+    "Copernicus DEM.md",
+    "National Science Foundation.md",
     "Light Detection and Ranging.md",
+    "TerraSAR-X.md",
+    "LASer.md",
+    "American Society for Photogrammetry and Remote Sensing.md",
+    "Global Ecosystem Dynamics Investigation.md",
     "Canopy Height Model.md",
     "Inertial Measurement Unit.md",
-    "Copernicus DEM.md",
     "WorldDEM.md",
     "TanDEM-X.md",
-    "TerraSAR-X.md",
-    "Shuttle Radar Topography Mission.md",
     "InSAR.md",
     "Hierarchical Data Format 5.md",
     "Remote Sensing.md",
-    "srtm.md",
-    "Photogrammetry.md",
-    "Satellite.md",
     "_attachments/Pasted image 20260417124944.png",
-    "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md",
-    "Zarr.md",
     "_attachments/Pasted image 20260417122647.png",
-    "Network Common Data Form.md",
-    "Military Grid Reference System.md",
-    "Universal Polar Stereographic.md",
-    "Spatial ETL.md",
-    "PMTiles.md",
-    "Georeference.md",
-    "WGS84.md",
-    "Google Earth Engine.md",
-    "Universal Transverse Mercator.md",
     "_attachments/Pasted image 20260416213058.png",
     "_attachments/Pasted image 20260416212902.png",
     "_attachments/Pasted image 20260416183440.png",
     "_attachments/Pasted image 20260416183251.png",
     "_attachments/Pasted image 20260416183247.png",
-    "_attachments/Pasted image 20260416182630.png",
-    "_attachments/Pasted image 20260416181959.png",
-    "_attachments/Pasted image 20260416180317.png",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

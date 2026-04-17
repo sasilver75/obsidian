@@ -1,6 +1,8 @@
 ---
 aliases:
   - Copernicus
+  - GLO-30
+  - GLO-90
 ---
 
 

@@ -1,4 +1,4 @@
 ---
 aliases:
-  - GEDI
+  - LAS
 ---
