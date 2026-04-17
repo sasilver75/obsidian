@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RapidEye.md",
+                "file": "Lonboard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RapidEye"
+              "title": "Lonboard"
             }
           },
           {
-            "id": "f5be4950dc25d050",
+            "id": "f5953cfa9235c177",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "National Geospatial-Intelligence Agency.md",
+                "file": "GeoParquet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "National Geospatial-Intelligence Agency"
+              "title": "GeoParquet"
             }
           },
           {
-            "id": "1238c4d981b87110",
+            "id": "753c5798ddc84d3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Satellite.md",
+                "file": "MBTile.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Satellite"
+              "title": "MBTile"
             }
           },
           {
-            "id": "12692a991d1d5b63",
+            "id": "83225ce42f1615dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Surface Model.md",
+                "file": "GDAL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Digital Surface Model"
+              "title": "GDAL"
             }
           },
           {
-            "id": "6be7f8cb097cd9ea",
+            "id": "af66f73b17c4c9e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Surface Model.md",
+                "file": "S2 Geometry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Digital Surface Model"
+              "title": "S2 Geometry"
             }
           },
           {
-            "id": "cf28f62dd2ab0740",
+            "id": "458723d32380274e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global Positioning System.md",
+                "file": "Bing QuadKey.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Global Positioning System"
+              "title": "Bing QuadKey"
             }
           },
           {
-            "id": "a88077ed5bdcf45d",
+            "id": "cb90630f04082e2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electromagnetic Spectrum.md",
+                "file": "Hilbert Curve.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Electromagnetic Spectrum"
+              "title": "Hilbert Curve"
             }
           },
           {
-            "id": "65f156505a9597e3",
+            "id": "a7eda631012436cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polar Orbit.md",
+                "file": "Space-filling Curve.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Polar Orbit"
+              "title": "Space-filling Curve"
             }
           },
           {
-            "id": "23470468029d3ebf",
+            "id": "6170d6ca4a575282",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global Positioning System.md",
+                "file": "Run-length Encoding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Global Positioning System"
+              "title": "Run-length Encoding"
             }
           },
           {
-            "id": "7fc8674fd743402f",
+            "id": "d5700deca10ad2ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Low Earth Orbit.md",
+                "file": "Overture Maps.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Low Earth Orbit"
+              "title": "Overture Maps"
             }
           },
           {
-            "id": "e33826cf80b618c6",
+            "id": "ca41083962752771",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MODIS.md",
+                "file": "rasterio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,11 +268,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MODIS"
+              "title": "rasterio"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -304,7 +304,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Albedo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1792,45 +1792,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a88077ed5bdcf45d",
+  "active": "753c5798ddc84d3b",
   "lastOpenFiles": [
+    "GDAL.md",
+    "MBTile.md",
+    "GeoParquet.md",
+    "Lonboard.md",
+    "Mapbox Vector Tile.md",
+    "Tippecanoe.md",
+    "Articles/OpenAI's Model (behavior) Spec, RLHF transparency, personalization questions (May 10, 2024) {Nathan Lambert, Interconnects Blog}.md",
+    "PMTiles.md",
+    "rasterio.md",
+    "Overture Maps.md",
+    "Run-length Encoding.md",
+    "Hilbert Curve.md",
+    "Space-filling Curve.md",
+    "Discrete Global Grid System.md",
+    "Bing QuadKey.md",
+    "Bing Quad.md",
+    "S2 Geometry.md",
+    "Vector Tile.md",
+    "STAC.md",
+    "Apache Gravitino.md",
+    "Protomaps.md",
+    "Cloud-Native Geospatial.md",
+    "Ibis.md",
+    "_attachments/Pasted image 20260416154527.png",
+    "_attachments/Pasted image 20260416154322.png",
+    "Apache Iceberg.md",
+    "Geopandas.md",
+    "RapidEye.md",
+    "_attachments/Pasted image 20260416134548.png",
+    "_attachments/Pasted image 20260416134358.png",
+    "_attachments/Pasted image 20260416134228.png",
     "_attachments/Pasted image 20260416105955.png",
-    "Resolution.md",
-    "Polar Orbit.md",
     "_attachments/Pasted image 20260416003010.png",
     "_attachments/Pasted image 20260416002506.png",
-    "Global Navigation Satellite System.md",
-    "Global Positioning System.md",
-    "Low Earth Orbit.md",
-    "MODIS.md",
     "_attachments/Pasted image 20260416002144.png",
     "_attachments/Pasted image 20260416001732.png",
-    "_attachments/Pasted image 20260416001542.png",
-    "Orbit.md",
-    "Index.md",
-    "Differential Interferometric Synthetic Aperture Radar.md",
-    "Apache Gravitino.md",
     "recent-notes.txt",
-    "GOES-R.md",
-    "Geostationary Orbit.md",
-    "Medium Earth Orbit.md",
-    "Photogrammetry.md",
-    "Panchromatic.md",
-    "Interferometry.md",
-    "Tagged Image File Format.md",
-    "MapLibre GL JS.md",
-    "Digital Elevation Model.md",
-    "National Geospatial-Intelligence Agency.md",
-    "Ground Sample Distance.md",
-    "Analysis Ready Data.md",
-    "Surface Reflectance.md",
-    "Top-of-Atmosphere.md",
-    "Digital Surface Model.md",
-    "_attachments/Pasted image 20260415212859.png",
-    "_attachments/Pasted image 20260415210327.png",
-    "_attachments/Pasted image 20260415210300.png",
-    "_attachments/Pasted image 20260415205729.png",
-    "_attachments/Pasted image 20260415205539.png",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",

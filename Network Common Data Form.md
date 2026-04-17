@@ -1,0 +1,5 @@
+---
+aliases:
+  - NetCDF
+---
+Data format.

@@ -1,6 +1,8 @@
 ---
 aliases:
   - SAR
+  - L-Band
+  - S-Band
 ---
 Resources:
 - [NASA EarthData: Synthetic Aperture Radar](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar) (Unread, looks great)

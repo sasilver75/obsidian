@@ -8,9 +8,28 @@ Can be split into:
 - **==**Active== remote sensing: When a ==signal is emitted by a sensor== on satellite/aircraft, and the reflection is detected by the sensor.
 	- Emits energy to scan objects and areas whereupon a sensor then detects and measures the radiation that is reflected or backscattered from the target.
 	- [[RADAR]] and [[Light Detection and Ranging|LiDAR]] are examples active remote sensing where the time delay between emission and return is measured, establishing the location/speed/direction of an object.
+	- There are six main types of active instruments in [[National Aeronautics and Space Administration|NASA]]'s earth science data:
+		1. Laser Altimeter: Uses LiDAR to measure the height of the platform (spacecraft, aircraft) above the surface, as a means of determining the topography of the underlying surface.
+		2. [[Light Detection and Ranging|LiDAR]]: Uses a laser radar to transmit a light pulse and a receiver with sensitive detectors to measure the backscattered or reflected light. Distance to object is determined by recording time ∆.
+		3. [[RADAR]]: Emits microwave radiation in a series of pulses from an antenna; some of it is reflected back towards the instrument. This backscattered microwave radiation is detected, measured, and timed. Distance to target is determined by recording time ∆. A two dimensional image of the surface can be produced as the instrument passes by. [[Synthetic Aperture Radar]] (SAR) is a radar technique.
+		4. Ranging Instruments: Devices that measure the distance between the instrument and a target object. Radars and altimeters work by determining the time a transmitted pulse (microwaves or light) takes to reflect from a target and return to the instrument.
+		5. Scatterometer: A high-frequency microwave radar designed specifically to measure backscattered radiation.
+		6. Sounder: An instrument that measures the vertical distribution of precipitation and other atmospheric characteristics like temperature, humidity, and cloud composition.
 - ==**Passive**== remote sensing: When the ==reflection of sunlight is detected== by the sensor.
 	- Gathers radiation emitted or reflected by the object or surrounding areas; reflected sunlight is the most common source of radiation.
 	- Includes film photography, infrared, radiometers.
+	- The primary source of energy observed by such instruments is the Sun 🌞
+		- ==The amount of the Sun's energy that is reflected depends on the roughness of the surface and its [[Albedo]]==, which is how well a surface reflects light instead of absorbing it.
+	- Most passive instruments operate in the visible, infrared, thermal infrared, and microwave portions of the [[Electromagnetic Spectrum]], and most cannot penetrate dense cloud cover.
+	- There are several categories of passive instruments in NASA's repertoire:
+		1. Accelerometer: Measures acceleration; there are two types:
+			1. Measures translational accelerations (changes in linear motions in one or more dimensions)
+			2. Measures angular accelerations (changes in rotation rate per unit time)
+		2. Hyperspectral Radiometer: Advanced multispectral instrument that detects hundreds of very narrow spectral bands throughout the visible, near-infrared, and mid-infrared portions of the EM. Facilitates fine discrimination between targets based on target *spectral response* in each of the narrow bands.
+		3. Imaging Radiometer: Has a scanning capability to provide a two-dimensional array of pixels from which an image may be produced. 
+		4. Sounder: Measures vertical distributions of atmospheric parameters such as temperature, pressure, and composition from multispectral information.
+		5. Spectrometer: Detects, measures, and analyzes the spectral content of incident electromagnetic radiation. Conventionally uses gratings or prisms to disperse the radiation for spectral discrimination.
+		6. Spectroradiometer: Measures the intensity of radiation in multiple wavelength bands. Many times, the bands are of high-spectral resolution, designed for remote sensing specific geophysical parameters.
 
 
 Data Characteristics:
@@ -58,5 +77,28 @@ A taxonomy of processing "levels" defined in 1986 by [[National Aeronautics and 
 
 # Common Remote Sensing Tasks
 
+
+# Essential Variables (EVs) (critical for observing given facets)
+- EVs are variables that are known to be critical for observing and monitoring a given facet of the Earth system.
+- Climate
+	- The Global Climate Observing System (GCOS) has identified as set of 54 atmosphere, land, and ocean variables as Essential Climate Variables (ECVs). Has atmosphere ECVs, land ECVs, and ocean ECVs.
+![[Pasted image 20260416134228.png]]
+- Ocean
+	- According to UNESCO's Global Ocean Observing System (GOOS), critical ocean processes... include distribution and transport of heat, salt, and other water properties, exchanges of heat, momentum, freshwater, and gasses... and has other information on Essential Ocean Variables (EOVs).
+![[Pasted image 20260416134358.png]]
+- Biodiversity
+	- Current species suggest that Earth is home to at least 2 million to 6 billion species; Essential Biodiversity Variables (EBVs) capture the essential dimensions of biodiversity so that it can be monitored.
+	- The Group on Earth Observations Biodiversity Observation Network (GEO BON) has identified six *classes* of EBVs:
+		- One for genetics
+		- Two for species
+		- Three for communities and ecosystems
+![[Pasted image 20260416134548.png]]
+- Geodiversity
+	- The previous categories don't take into account consideration of the *abiotic surface and subsurface geology, mgeomorphology, and pedology (soil science) of an area.*
+	- Essential Geodiversity Variables (EGVs) play a significant role in the availability of natural resources and often underpin the other essential variable frameworks.
+		- Geodiversity has significant effects on biodiversity. Geodiversity directly influences the resources available for species, including energy, nutrients, and water. Geodiversity also plays a major role in the carbon, nitrogen, phosphorus, and sulfur cycles and their interactions with other Earth systems
+	- For example, mapping the distribution of a species if difficult, as it's impossible to use remote sensing for direct detection of many taxa, so scientists often rely on geodiversity variables that are known to constrain where a species is most likely to survive and thrive as a proxy variable to estimate likely distribution.
+- Agriculture
+	- GEO's Global Agriculture Monitoring (GEOGLAM) is developing an Essential Agricultural Variables (EAV) to define the minimum set of variables in order to reinforce the international community's capacity to produce and distribute relevant, timely, and accurate information on agricultural land use and production at national, regional, and global scales.
 
 
