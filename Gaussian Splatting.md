@@ -14,7 +14,7 @@ This same problem was previously dominated by [[Neural Radiance Fields]] (NeRFs)
 - Fast training: Minutes to hours, rather than days.
 
 # How it works
-- The scene is represented as a collection of 3D Gaussian ellipsoids, milliions of semi-transparent colored blobs in 3D space.
+- The scene is represented as a collection of 3D Gaussian ellipsoids, millions of semi-transparent colored blobs in 3D space.
 - Each blob has:
 	- Position (XYZ center)
 	- Covariance (shape and orientation; how stretched, which direction)

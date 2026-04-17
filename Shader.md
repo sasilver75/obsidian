@@ -1,3 +1,8 @@
+---
+aliases:
+  - Shading
+---
+
 A shader is a small program that runs on the GPU, written in [[OpenGL Shading Language]] (GLSL), a C-like language designed for parallel numeric computation.
 
 The name comes from their original purpose, computing how light *shades* a surface.

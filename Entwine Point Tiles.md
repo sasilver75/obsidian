@@ -1,6 +1,7 @@
 ---
 aliases:
   - EPT
+  - Entwine
 ---
 A ==cloud-friendly format for storing and serving large LiDAR point clouds==, developed by [[Hobu Inc.]], the same people behind [[Point Data Abstraction Library|PDAL]].
 - ==Analogous to [[Zarr]]== but for point cloud data; solves the same problems for [[LASer|LAS]] and [[LAZ]] that [[Cloud-Optimized GeoTIFF|COG]]s and [[Zarr]] solve for [[GeoTIFF]]. 
@@ -12,6 +13,8 @@ A ==cloud-friendly format for storing and serving large LiDAR point clouds==, de
 
 Compare with: [[Cloud-Optimized Point Cloud]] (COPC), which uses a philosophy to [[Cloud-Optimized GeoTIFF|COG]], but for point clouds.
 
+==Entwine== is an open source tool (by Hobu, the [[Point Data Abstraction Library|PDAL]] people) that converts [[LAZ]] files into [[Entwine Point Tiles|EPT]] format for cloud-native serving.
+- Reads your LAZ tiles, build the octree, writes EPT to local disk or S3.
 
 It organizes a point cloud as a hierarchical octree (a 3D analogue to [[QuadTree]]s that recursively subdivides spaces), and uses a multi-file format like Zarr:
 ```

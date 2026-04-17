@@ -2,6 +2,7 @@
 aliases:
   - Stereophotogrammetry
   - Photomapping
+  - Photogrammetric
 ---
 
 

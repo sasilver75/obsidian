@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c813347cfbd00e77",
+            "id": "f077bc6e79ecbde8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hierarchical Data Format 5.md",
+                "file": "3D Tiles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hierarchical Data Format 5"
+              "title": "3D Tiles"
             }
           },
           {
-            "id": "a65ade4eb7d81c81",
+            "id": "2bebac38e0c01479",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shuttle Radar Topography Mission.md",
+                "file": "GL Transmission Format.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Shuttle Radar Topography Mission"
+              "title": "GL Transmission Format"
             }
           },
           {
-            "id": "39e3567884b1b1f4",
+            "id": "463d473ee86a35cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TerraSAR-X.md",
+                "file": "GL Transmission Format.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TerraSAR-X"
+              "title": "GL Transmission Format"
             }
           },
           {
-            "id": "7eeb11a436a487f2",
+            "id": "0a0620edd741a353",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3DEP.md",
+                "file": "Industry Foundation Classes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3DEP"
+              "title": "Industry Foundation Classes"
             }
           },
           {
-            "id": "e33ab9f382f28d62",
+            "id": "2ba1f073939ddf75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Splat.md",
+                "file": "Industry Foundation Classes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Splat"
+              "title": "Industry Foundation Classes"
             }
           },
           {
-            "id": "a92d4594b509396c",
+            "id": "f1421ecc266fd8cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gaussian Splatting.md",
+                "file": "Building Information Modeling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gaussian Splatting"
+              "title": "Building Information Modeling"
             }
           },
           {
-            "id": "00c896fd8cf4a4d1",
+            "id": "6a7e75342a5bef47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neural Radiance Fields.md",
+                "file": "Shader.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,371 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Neural Radiance Fields"
+              "title": "Shader"
             }
           },
           {
-            "id": "612ff35a2e8a3427",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shuttle Radar Topography Mission.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Shuttle Radar Topography Mission"
-            }
-          },
-          {
-            "id": "4bc6913af03ba598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Point Data Abstraction Library.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Point Data Abstraction Library"
-            }
-          },
-          {
-            "id": "6657bd6d7818ed22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Copernicus DEM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Copernicus DEM"
-            }
-          },
-          {
-            "id": "730bc3c20275b9d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "National Science Foundation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "National Science Foundation"
-            }
-          },
-          {
-            "id": "9f66936c92059241",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entwine Point Tiles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Entwine Point Tiles"
-            }
-          },
-          {
-            "id": "4ab612a2fc0a3e9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entwine Point Tiles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Entwine Point Tiles"
-            }
-          },
-          {
-            "id": "cc4101a294051c5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud-Optimized Point Cloud.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cloud-Optimized Point Cloud"
-            }
-          },
-          {
-            "id": "d0515d4f29cbf99b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LASer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "LASer"
-            }
-          },
-          {
-            "id": "a434cd87a25355b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "American Society for Photogrammetry and Remote Sensing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "American Society for Photogrammetry and Remote Sensing"
-            }
-          },
-          {
-            "id": "6176e6a68a4cffa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Canopy Height Model.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Canopy Height Model"
-            }
-          },
-          {
-            "id": "d37858c3ce4f285a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inertial Measurement Unit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Inertial Measurement Unit"
-            }
-          },
-          {
-            "id": "18262eb015354e8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WorldDEM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WorldDEM"
-            }
-          },
-          {
-            "id": "47731a25043e35d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WorldDEM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WorldDEM"
-            }
-          },
-          {
-            "id": "c6f2330d30de939c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Copernicus DEM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Copernicus DEM"
-            }
-          },
-          {
-            "id": "36309b8803a9f5e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InSAR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "InSAR"
-            }
-          },
-          {
-            "id": "9dcfbc1b66120f8b",
+            "id": "ecc6d7d0202418bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -560,12 +200,12 @@
             }
           },
           {
-            "id": "37d8d64654c9aa49",
+            "id": "37f10a45fb7ffd76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universal Polar Stereographic.md",
+                "file": "Cesium.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Universal Polar Stereographic"
+              "title": "Cesium"
             }
           },
           {
-            "id": "8a2f817bec5b4fa4",
+            "id": "b8b156af1622d4ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PMTiles.md",
+                "file": "Industry Foundation Classes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -604,155 +244,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PMTiles"
-            }
-          },
-          {
-            "id": "b89668c120b5b1a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Georeference.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Georeference"
-            }
-          },
-          {
-            "id": "639dfffd17ea1092",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WGS84.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WGS84"
-            }
-          },
-          {
-            "id": "3dc162fa7223bbb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Universal Transverse Mercator.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Universal Transverse Mercator"
-            }
-          },
-          {
-            "id": "b5713a6cee75c9cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GDAL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GDAL"
-            }
-          },
-          {
-            "id": "f077bc6e79ecbde8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FlatGeobuf.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FlatGeobuf"
-            }
-          },
-          {
-            "id": "95ce61e2c6c751e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overture Maps Foundation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Overture Maps Foundation"
+              "title": "Industry Foundation Classes"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2272,44 +1768,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a92d4594b509396c",
+  "active": "463d473ee86a35cd",
   "lastOpenFiles": [
-    "Neural Radiance Fields.md",
-    "Gaussian Splatting.md",
-    "Splat.md",
-    "Potree.md",
-    "NASADEM.md",
-    "_attachments/Pasted image 20260417150722.png",
-    "Shuttle Radar Topography Mission.md",
-    "Cloud-Optimized Point Cloud.md",
-    "_attachments/Pasted image 20260417145827.png",
-    "Entwine Point Tiles.md",
-    "_attachments/Pasted image 20260417145805.png",
-    "3DEP.md",
-    "Point Data Abstraction Library.md",
-    "United States Geological Survey.md",
-    "OpenTopography.md",
-    "Copernicus DEM.md",
-    "National Science Foundation.md",
-    "Light Detection and Ranging.md",
-    "TerraSAR-X.md",
-    "LASer.md",
-    "American Society for Photogrammetry and Remote Sensing.md",
-    "Global Ecosystem Dynamics Investigation.md",
-    "Canopy Height Model.md",
-    "Inertial Measurement Unit.md",
-    "WorldDEM.md",
-    "TanDEM-X.md",
+    "Industry Foundation Classes.md",
+    "GL Transmission Format.md",
+    "Building Information Modeling.md",
+    "Physically-Based Rendering.md",
+    "Shader.md",
+    "Cesium.md",
+    "3D Tiles.md",
+    "_attachments/Pasted image 20260417163426.png",
+    "Photogrammetry.md",
+    "FlatGeobuf.md",
+    "GDAL.md",
+    "Universal Transverse Mercator.md",
+    "WGS84.md",
+    "Georeference.md",
+    "PMTiles.md",
+    "Universal Polar Stereographic.md",
     "InSAR.md",
-    "Hierarchical Data Format 5.md",
-    "Remote Sensing.md",
+    "Copernicus DEM.md",
+    "WorldDEM.md",
+    "Inertial Measurement Unit.md",
+    "Canopy Height Model.md",
+    "American Society for Photogrammetry and Remote Sensing.md",
+    "LASer.md",
+    "Cloud-Optimized Point Cloud.md",
+    "Entwine Point Tiles.md",
+    "National Science Foundation.md",
+    "Point Data Abstraction Library.md",
+    "_attachments/Pasted image 20260417150722.png",
+    "_attachments/Pasted image 20260417145827.png",
+    "_attachments/Pasted image 20260417145805.png",
     "_attachments/Pasted image 20260417124944.png",
     "_attachments/Pasted image 20260417122647.png",
     "_attachments/Pasted image 20260416213058.png",
     "_attachments/Pasted image 20260416212902.png",
     "_attachments/Pasted image 20260416183440.png",
     "_attachments/Pasted image 20260416183251.png",
-    "_attachments/Pasted image 20260416183247.png",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

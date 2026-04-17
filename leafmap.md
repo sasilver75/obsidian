@@ -11,7 +11,7 @@ It is NOT:
 "A geospatial swiss army knife"
 - [[Geopandas]]
 - [[pydeck]]
-- [[whitebox-tools]]
+- [[Whitebox Tools]]
 
 Various interactive tools that allow users to load vector and raster data onto the map without coding, and perform geospatial analysis directly within the leafmap user interface without writing a single line of code. Contains 500+ tools.
 
