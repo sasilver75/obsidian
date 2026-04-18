@@ -12,7 +12,7 @@ Structure:
 - SQLite isn't a network protocol, it's a file format that requires random access reads at the byte level, managed by the SQLite engine, which has to run in a Python process.
 
 Common MBTiles Workflow:
-- Generate tiles with tools like [[Tippecanoe]] (Vector) or [[GDAL]] (raster).
+- Generate tiles with tools like [[Tippecanoe]] (Vector) or [[Geospatial Data Abstraction Library|GDAL]] (raster).
 - Host with a tiler server like [[Martin]], [[pg_tileserv]], etc.
 - Tile server translates /{z}/{x}/{y} requests into SQLite queries
 

@@ -65,7 +65,7 @@ DuckDB + Python
 
 - DuckDB Spatial is an official extension that ofer the `GEOMETRY` type. (points, lines, polygons, multipolygons), modeled after [[PostGIS]].
 - ==No runtime dependencies==, like DuckDB itself
-	- Statically bundles [[GDAL]], GEOS, PROJ
+	- Statically bundles [[Geospatial Data Abstraction Library|GDAL]], GEOS, PROJ
 	- Embed the entire default PROJ projection database, so DuckDB will recognize >3,000 of the most common [[Coordinate Reference System|CRS]] definitions out of the box.
 
 - It's excellent for offline analysis, Jupyter notebooks, running SQL against [[Apache Parquet|Parquet]] files on disk, single-machine batch jobs, etc. It's fast at column-oriented aggregation.

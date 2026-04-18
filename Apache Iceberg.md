@@ -1,8 +1,10 @@
 ---
 aliases:
   - Iceberg
+tags: Catalog
 ---
-==An open table format for large analytic datasets from Netflix (2017), designed to sit on top of [[Blob Storage|Object Storage]] like [[Amazon S3|S3]], [[Google Cloud Storage|GCS]], etc, letting it behave more like a database table.==
+==An open table format for large analytic datasets from Netflix (2017), designed to sit on top of [[Apache Parquet|Parquet]] files in [[Blob Storage|Object Storage]] like [[Amazon S3|S3]], [[Google Cloud Storage|GCS]], etc, letting it behave more like a database table.==
+- Many different query layers are adopting Iceberg as a specification.
 
 Core problem it solves:
 - You have millions of [[Apache Parquet|Parquet]] files in S3, and querying them is painful:

@@ -3,6 +3,7 @@ aliases:
   - Airflow
 ---
 Developed @ Airbnb in 2018, open-sourced in 2019.
+See also: [[Prefect]], [[Dagster]]
 
 
 An open-source platform for: Developing...Scheduling... and Monitoring... **Batch-Oriented Workflows**

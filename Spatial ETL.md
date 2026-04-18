@@ -9,7 +9,7 @@ Spatial data comes from many places and in many formats:
 - Streaming sources ([[Automatic Identification System|AIS]] ship tracking, [[Global Positioning System|GPS]] telemetry)
 - FTP servers (still surprisingly common in government GIS)
 
-The extraction layer has to handle format diversity ([[Shapefile]], [[GeoJSON]], [[GeoPackage]], [[FlatGeobuf]], [[Cloud-Optimized GeoTIFF|COG]], etc.), which are where tools like [[GDAL]]/OGR earn their keep (they're almost always the underlying reader, regardless of what higher-level tool you're using).
+The extraction layer has to handle format diversity ([[Shapefile]], [[GeoJSON]], [[GeoPackage]], [[FlatGeobuf]], [[Cloud-Optimized GeoTIFF|COG]], etc.), which are where tools like [[Geospatial Data Abstraction Library|GDAL]]/OGR earn their keep (they're almost always the underlying reader, regardless of what higher-level tool you're using).
 
 
 # Transform: The Interesting  Part
@@ -36,7 +36,7 @@ Common transform steps include:
 - [[PostGIS]] for queryable vector storage
 - Object storage ([[Amazon S3|S3]], [[Cloudflare R2|R2]]) for [[Cloud-Optimized GeoTIFF|COG]]s, [[FlatGeobuf]]s, [[PMTiles]]
 - [[Tile Server]]s ([[Martin]], [[pg_tileserv]]) for serving [[Vector Tile]]s
-- Data warehouses ([[BigQuery]], [[Snowflake]], [[DuckDB]]) for analytics
+- Data warehouses ([[Google BigQuery]], [[Snowflake]], [[DuckDB]]) for analytics
 - Search indexes ([[ElasticSearch]] with geo support) for proximity search
 
 
@@ -58,7 +58,7 @@ ___________
 
 
 # Common Tools
-- [[GDAL]]/ogr2ogr: The swiss army knife for handling format conversion
+- [[Geospatial Data Abstraction Library|GDAL]]/ogr2ogr: The swiss army knife for handling format conversion
 - [[Tippecanoe]]: [[Vector Tile]] generation from large vector datasets
 - [[rasterio]] + [[Fiona]]: Python-native Raster and Vector processing
 - [[Geopandas]]:  Good for moderate-scale vector ETL, hits memory limits on large dataset.

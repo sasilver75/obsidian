@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3D Tiles.md",
+                "file": "Apache Airflow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,103 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3D Tiles"
-            }
-          },
-          {
-            "id": "2bebac38e0c01479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GL Transmission Format.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GL Transmission Format"
-            }
-          },
-          {
-            "id": "463d473ee86a35cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GL Transmission Format.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GL Transmission Format"
-            }
-          },
-          {
-            "id": "0a0620edd741a353",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Industry Foundation Classes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Industry Foundation Classes"
-            }
-          },
-          {
-            "id": "2ba1f073939ddf75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Industry Foundation Classes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Industry Foundation Classes"
+              "title": "Apache Airflow"
             }
           },
           {
@@ -248,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -280,7 +184,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Spatial REsolution\"",
+                "query": "Felt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1768,44 +1672,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "463d473ee86a35cd",
+  "active": "f1421ecc266fd8cc",
   "lastOpenFiles": [
+    "Antimeridian.md",
+    "Orthoimage.md",
+    "SpatioTemporal Asset Catalog.md",
     "Industry Foundation Classes.md",
+    "Wherobots.md",
+    "Dagster.md",
+    "Amazon Redshift.md",
+    "DuckDB Labs.md",
+    "Databricks.md",
+    "Apache Hudi.md",
+    "rasterio.md",
+    "Fiona.md",
+    "Delta Lake.md",
+    "Apache Iceberg.md",
+    "Apache Airflow.md",
+    "_attachments/Pasted image 20260417175836.png",
+    "DuckLake.md",
+    "_attachments/Pasted image 20260417175530.png",
+    "Geographic Information Systems.md",
+    "Google BigQuery.md",
+    "concept-definitions.md",
     "GL Transmission Format.md",
-    "Building Information Modeling.md",
-    "Physically-Based Rendering.md",
-    "Shader.md",
-    "Cesium.md",
-    "3D Tiles.md",
+    "Prefect.md",
+    "Airbyte.md",
+    "dbt.md",
+    "Geospatial Data Abstraction Library.md",
+    "DuckDB.md",
+    "GEOS.md",
+    "_attachments/Pasted image 20260417165951.png",
     "_attachments/Pasted image 20260417163426.png",
-    "Photogrammetry.md",
-    "FlatGeobuf.md",
-    "GDAL.md",
-    "Universal Transverse Mercator.md",
-    "WGS84.md",
-    "Georeference.md",
-    "PMTiles.md",
-    "Universal Polar Stereographic.md",
-    "InSAR.md",
-    "Copernicus DEM.md",
-    "WorldDEM.md",
-    "Inertial Measurement Unit.md",
-    "Canopy Height Model.md",
-    "American Society for Photogrammetry and Remote Sensing.md",
-    "LASer.md",
-    "Cloud-Optimized Point Cloud.md",
-    "Entwine Point Tiles.md",
-    "National Science Foundation.md",
-    "Point Data Abstraction Library.md",
     "_attachments/Pasted image 20260417150722.png",
     "_attachments/Pasted image 20260417145827.png",
     "_attachments/Pasted image 20260417145805.png",
     "_attachments/Pasted image 20260417124944.png",
     "_attachments/Pasted image 20260417122647.png",
     "_attachments/Pasted image 20260416213058.png",
-    "_attachments/Pasted image 20260416212902.png",
-    "_attachments/Pasted image 20260416183440.png",
-    "_attachments/Pasted image 20260416183251.png",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

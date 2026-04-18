@@ -1,0 +1,1 @@
+Creators of [[DuckDB]], [[DuckLake]]

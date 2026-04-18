@@ -518,7 +518,7 @@ A radar remote sensing technique where a satellite emits microwave pulses and re
 A flexible, high-quality raster image format from Adobe based on a collection of descriptive tags (metadata fields) rather than a fixed structure, supporting many data types, multiple bands, multiple compression schemes (LZW, DEFLATE, JPEG), and lossless storage. GeoTIFF extends TIFF by embedding geospatial metadata; it is the parent format for the geospatial raster ecosystem.
 
 ## Tippecanoe
-An open-source command-line tool (originally by Mapbox, now maintained by Felt) for generating vector tile sets (MBTiles or PMTiles) from large GeoJSON, Geobuf, or CSV datasets. Its main job is determining what to show at each zoom level — simplifying geometries, dropping or clustering features — so individual tiles stay within size limits while preserving the density and texture of the source data.
+An open-source command-line tool (originally by Mapbox, now maintained by [[Felt]]) for generating vector tile sets (MBTiles or PMTiles) from large GeoJSON, Geobuf, or CSV datasets. Its main job is determining what to show at each zoom level — simplifying geometries, dropping or clustering features — so individual tiles stay within size limits while preserving the density and texture of the source data.
 
 ## TiTiler
 A Python tile server for raster data (GeoTIFF, Cloud-Optimized GeoTIFF) that dynamically generates raster tiles on demand from COGs hosted on object storage. Pronounced "Tea Tiler," it is a common component in cloud-native satellite imagery serving pipelines alongside STAC catalogs and COGs.

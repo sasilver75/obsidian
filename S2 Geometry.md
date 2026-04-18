@@ -2,7 +2,7 @@
 aliases:
   - S2
 ---
-A library and [[Discrete Global Grid System]] developed by Google (used in [[Google Maps]], [[BigQuery]], others) for representing and indexing geographic regions on a sphere.
+A library and [[Discrete Global Grid System]] developed by Google (used in [[Google Maps]], [[Google BigQuery]], others) for representing and indexing geographic regions on a sphere.
 Unlike systems that work on flat 2D projections, S2 treats the earth as an actual sphere.
 
 Core idea:

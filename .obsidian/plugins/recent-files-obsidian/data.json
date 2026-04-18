@@ -1,16 +1,168 @@
 {
   "recentFiles": [
     {
-      "basename": "GL Transmission Format",
-      "path": "GL Transmission Format.md"
+      "basename": "Building Information Modeling",
+      "path": "Building Information Modeling.md"
+    },
+    {
+      "basename": "Antimeridian",
+      "path": "Antimeridian.md"
+    },
+    {
+      "basename": "Orthoimage",
+      "path": "Orthoimage.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
     },
     {
       "basename": "Industry Foundation Classes",
       "path": "Industry Foundation Classes.md"
     },
     {
-      "basename": "Building Information Modeling",
-      "path": "Building Information Modeling.md"
+      "basename": "Wherobots",
+      "path": "Wherobots.md"
+    },
+    {
+      "basename": "Dagster",
+      "path": "Dagster.md"
+    },
+    {
+      "basename": "Amazon Redshift",
+      "path": "Amazon Redshift.md"
+    },
+    {
+      "basename": "DuckDB Labs",
+      "path": "DuckDB Labs.md"
+    },
+    {
+      "basename": "Databricks",
+      "path": "Databricks.md"
+    },
+    {
+      "basename": "Apache Hudi",
+      "path": "Apache Hudi.md"
+    },
+    {
+      "basename": "rasterio",
+      "path": "rasterio.md"
+    },
+    {
+      "basename": "Fiona",
+      "path": "Fiona.md"
+    },
+    {
+      "basename": "Delta Lake",
+      "path": "Delta Lake.md"
+    },
+    {
+      "basename": "Apache Iceberg",
+      "path": "Apache Iceberg.md"
+    },
+    {
+      "basename": "Apache Airflow",
+      "path": "Apache Airflow.md"
+    },
+    {
+      "basename": "DuckLake",
+      "path": "DuckLake.md"
+    },
+    {
+      "basename": "Geographic Information Systems",
+      "path": "Geographic Information Systems.md"
+    },
+    {
+      "basename": "Google BigQuery",
+      "path": "Google BigQuery.md"
+    },
+    {
+      "basename": "concept-definitions",
+      "path": "concept-definitions.md"
+    },
+    {
+      "basename": "GL Transmission Format",
+      "path": "GL Transmission Format.md"
+    },
+    {
+      "basename": "Prefect",
+      "path": "Prefect.md"
+    },
+    {
+      "basename": "Airbyte",
+      "path": "Airbyte.md"
+    },
+    {
+      "basename": "dbt",
+      "path": "dbt.md"
+    },
+    {
+      "basename": "Geospatial Data Abstraction Library",
+      "path": "Geospatial Data Abstraction Library.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
+    },
+    {
+      "basename": "GEOS",
+      "path": "GEOS.md"
+    },
+    {
+      "basename": "GeoTIFF",
+      "path": "GeoTIFF.md"
+    },
+    {
+      "basename": "PROJ",
+      "path": "PROJ.md"
+    },
+    {
+      "basename": "PMTiles",
+      "path": "PMTiles.md"
+    },
+    {
+      "basename": "MBTile",
+      "path": "MBTile.md"
+    },
+    {
+      "basename": "Spatial ETL",
+      "path": "Spatial ETL.md"
+    },
+    {
+      "basename": "Point Data Abstraction Library",
+      "path": "Point Data Abstraction Library.md"
+    },
+    {
+      "basename": "3D Tiles",
+      "path": "3D Tiles.md"
+    },
+    {
+      "basename": "Ground Control Point",
+      "path": "Ground Control Point.md"
+    },
+    {
+      "basename": "Azure Blob Storage",
+      "path": "Azure Blob Storage.md"
+    },
+    {
+      "basename": "Light Detection and Ranging",
+      "path": "Light Detection and Ranging.md"
+    },
+    {
+      "basename": "Cloud-Optimized Point Cloud",
+      "path": "Cloud-Optimized Point Cloud.md"
+    },
+    {
+      "basename": "Zarr",
+      "path": "Zarr.md"
+    },
+    {
+      "basename": "Cloud-Optimized GeoTIFF",
+      "path": "Cloud-Optimized GeoTIFF.md"
+    },
+    {
+      "basename": "GeoParquet",
+      "path": "GeoParquet.md"
     },
     {
       "basename": "Physically-Based Rendering",
@@ -25,20 +177,12 @@
       "path": "Cesium.md"
     },
     {
-      "basename": "3D Tiles",
-      "path": "3D Tiles.md"
-    },
-    {
       "basename": "Photogrammetry",
       "path": "Photogrammetry.md"
     },
     {
       "basename": "FlatGeobuf",
       "path": "FlatGeobuf.md"
-    },
-    {
-      "basename": "GDAL",
-      "path": "GDAL.md"
     },
     {
       "basename": "Universal Transverse Mercator",
@@ -53,152 +197,8 @@
       "path": "Georeference.md"
     },
     {
-      "basename": "PMTiles",
-      "path": "PMTiles.md"
-    },
-    {
       "basename": "Universal Polar Stereographic",
       "path": "Universal Polar Stereographic.md"
-    },
-    {
-      "basename": "InSAR",
-      "path": "InSAR.md"
-    },
-    {
-      "basename": "Copernicus DEM",
-      "path": "Copernicus DEM.md"
-    },
-    {
-      "basename": "WorldDEM",
-      "path": "WorldDEM.md"
-    },
-    {
-      "basename": "Inertial Measurement Unit",
-      "path": "Inertial Measurement Unit.md"
-    },
-    {
-      "basename": "Canopy Height Model",
-      "path": "Canopy Height Model.md"
-    },
-    {
-      "basename": "American Society for Photogrammetry and Remote Sensing",
-      "path": "American Society for Photogrammetry and Remote Sensing.md"
-    },
-    {
-      "basename": "LASer",
-      "path": "LASer.md"
-    },
-    {
-      "basename": "Cloud-Optimized Point Cloud",
-      "path": "Cloud-Optimized Point Cloud.md"
-    },
-    {
-      "basename": "Entwine Point Tiles",
-      "path": "Entwine Point Tiles.md"
-    },
-    {
-      "basename": "National Science Foundation",
-      "path": "National Science Foundation.md"
-    },
-    {
-      "basename": "Point Data Abstraction Library",
-      "path": "Point Data Abstraction Library.md"
-    },
-    {
-      "basename": "Shuttle Radar Topography Mission",
-      "path": "Shuttle Radar Topography Mission.md"
-    },
-    {
-      "basename": "Neural Radiance Fields",
-      "path": "Neural Radiance Fields.md"
-    },
-    {
-      "basename": "Tippecanoe",
-      "path": "Tippecanoe.md"
-    },
-    {
-      "basename": "Whitebox Tools",
-      "path": "Whitebox Tools.md"
-    },
-    {
-      "basename": "Splat",
-      "path": "Splat.md"
-    },
-    {
-      "basename": "3DEP",
-      "path": "3DEP.md"
-    },
-    {
-      "basename": "TerraSAR-X",
-      "path": "TerraSAR-X.md"
-    },
-    {
-      "basename": "Gaussian Splatting",
-      "path": "Gaussian Splatting.md"
-    },
-    {
-      "basename": "Hierarchical Data Format 5",
-      "path": "Hierarchical Data Format 5.md"
-    },
-    {
-      "basename": "Overture Maps Foundation",
-      "path": "Overture Maps Foundation.md"
-    },
-    {
-      "basename": "Potree",
-      "path": "Potree.md"
-    },
-    {
-      "basename": "CloudCompare",
-      "path": "CloudCompare.md"
-    },
-    {
-      "basename": "LAStools",
-      "path": "LAStools.md"
-    },
-    {
-      "basename": "The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}",
-      "path": "Articles/The Difficulties of Text Generation using Autoregressive Language Models - A brief overview (2019) {Leo Gao}.md"
-    },
-    {
-      "basename": "NASADEM",
-      "path": "NASADEM.md"
-    },
-    {
-      "basename": "United States Geological Survey",
-      "path": "United States Geological Survey.md"
-    },
-    {
-      "basename": "OpenTopography",
-      "path": "OpenTopography.md"
-    },
-    {
-      "basename": "Light Detection and Ranging",
-      "path": "Light Detection and Ranging.md"
-    },
-    {
-      "basename": "TanDEM-X",
-      "path": "TanDEM-X.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
-    },
-    {
-      "basename": "Satellite",
-      "path": "Satellite.md"
-    },
-    {
-      "basename": "Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}",
-      "path": "Articles/Two Tower Model Architecture - Current State and Promising Extensions (March 4, 2023) {Sumit Kumar}.md"
-    },
-    {
-      "basename": "Zarr",
-      "path": "Zarr.md"
-    },
-    {
-      "basename": "Network Common Data Form",
-      "path": "Network Common Data Form.md"
     }
   ],
   "omittedPaths": [],

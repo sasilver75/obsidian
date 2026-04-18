@@ -1,4 +1,4 @@
-[[GDAL]], [[GEOS]], and [[PROJ]]  are three C libraries that underpin almost all geospatial software. You rarely call them directly; they're the engine under tools like [[PostGIS]], [[Shapely]], [[QGIS]], and more. GEOS implements the JTS (Java Topology Suite) specification in C.
+****[[Geospatial Data Abstraction Library|GDAL]], [[GEOS]], and [[PROJ]]  are three C libraries that underpin almost all geospatial software. You rarely call them directly; they're the engine under tools like [[PostGIS]], [[Shapely]], [[QGIS]], and more. GEOS implements the JTS (Java Topology Suite) specification in C.
 
 ==GEOS handles computational geometry operations on 2D vector features.==
 

@@ -1,4 +1,4 @@
-[[GDAL]], [[GEOS]], and [[PROJ]]  are three C libraries that underpin almost all geospatial software. You rarely call them directly; they're the engine under tools like [[PostGIS]], [[Shapely]], [[QGIS]], and more.
+[[Geospatial Data Abstraction Library|GDAL]], [[GEOS]], and [[PROJ]]  are three C libraries that underpin almost all geospatial software. You rarely call them directly; they're the engine under tools like [[PostGIS]], [[Shapely]], [[QGIS]], and more.
 
 PROJ ==converts coordinates between [[Coordinate Reference System|Coordinate Reference System]]s==.
 - The earth is a weird lumpy ellipsoid; every map projection is a mathematical function that flattens some portion of it onto a 2D plane.

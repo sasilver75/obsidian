@@ -7,6 +7,6 @@ A [[Tagged Image File Format|TIFF]] with ==additional tags that encode geospatia
 
 ==So a GeoTIFF is just a regular TIFF that knows where on Earth it lives.==
 - If you open it in a TIFF viewer, you just see an image.
-- If you open it in [[GDAL]]/[[QGIS]]/[[rasterio]], you also get the spatial context.
+- If you open it in [[Geospatial Data Abstraction Library|GDAL]]/[[QGIS]]/[[rasterio]], you also get the spatial context.
 
 

@@ -2,7 +2,7 @@
 aliases:
   - PDAL
 ---
-Basically ==the [[GDAL]] of point clouds==; Open source C++ library with a Python interface that ==reads/writes virtually every point cloud format== ([[LASer|LAS]], [[LAZ]], [[Cloud-Optimized Point Cloud|COPC]], [[Entwine Point Tiles|EPT]], PLY, PLTS, etc.) and provides a pipeline-based processing framework.
+Basically ==the [[Geospatial Data Abstraction Library|GDAL]] of point clouds==; Open source C++ library with a Python interface that ==reads/writes virtually every point cloud format== ([[LASer|LAS]], [[LAZ]], [[Cloud-Optimized Point Cloud|COPC]], [[Entwine Point Tiles|EPT]], PLY, PLTS, etc.) and provides a pipeline-based processing framework.
 
 You define a JSON pipeline of readers, filters, and writers:
 ```

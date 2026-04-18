@@ -1,5 +1,5 @@
 An open-standard spatial extension to the Apache [[Apache Parquet|Parquet]] file format, adding geospatial data types line points/lines/polygons.
-- A file format for Geospatial [[Vector]] data.
+- A ==file format for Geospatial [[Vector]] data==.
 	- (Compare with: [[Cloud-Optimized GeoTIFF]]s, which are for [[Raster]] data)
 		- GeoParquet is great for things like building footprints, road networks, POIs.
 		- COGs are great for remote sensing and continuous spatial phenomena (elevation data, satellite imagery, land cover classification

@@ -1,4 +1,4 @@
-Zarr is a chunk-based, compressed, N-dimensional array format designed from the ground up for cloud [[Blob Storage|Object Storage]], taking the conceptual model of [[Network Common Data Form|NetCDF]]/[[Hierarchical Data Format 5|HDF5]] (labeled multidimensional arrays with metadata) and rebuilding it so that each chunk is a separate file/object rather than a byte range inside a monolithic file.
+Zarr is a ==chunk-based, compressed, N-dimensional array format designed from the ground up for cloud [[Blob Storage|Object Storage]]==, taking the conceptual model of [[Network Common Data Form|NetCDF]]/[[Hierarchical Data Format 5|HDF5]] (labeled multidimensional arrays with metadata) and rebuilding it so that each chunk is a separate file/object rather than a byte range inside a monolithic file.
 - This is a tradeoff:
 	- [[Cloud-Optimized GeoTIFF|COG]] keeps everything in one file and uses HTTP range requests to fetch specific byte ranges.
 		- Single object to manage/copy/move/delete, one URL to share, no per-chunk storage overhead.

@@ -2,7 +2,7 @@
 aliases:
   - Mosaic Pretrained Transformer
 ---
-May 5, 2023 -- [[MosaicML]] (acq. [[DataBricks]])
+May 5, 2023 -- [[MosaicML]] (acq. [[Databricks]])
 Blog: [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.databricks.com/blog/mpt-7b)
 dels are open-source and commercially-usable LLMs pre-trained on 1T tokens.
 MPT-7B, MPT-30B (with variants like MPT-30B-Instruct and MPT-30B-Chat)

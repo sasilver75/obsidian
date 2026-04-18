@@ -38,7 +38,7 @@ Has a [[Run-length Encoding]] of repetitive data (e.g. ocean is 70% of the world
 
 
 Q: "What about Raster PMTiles?"
-A: This is less interesting because COG is everywhere, but we do have a rio-pmtiles plugin that lets you create PMTiles from any [[GDAL]] source... but most audiences are going to want to use COG.
+A: This is less interesting because COG is everywhere, but we do have a rio-pmtiles plugin that lets you create PMTiles from any [[Geospatial Data Abstraction Library|GDAL]] source... but most audiences are going to want to use COG.
 
 
 Ecosystem

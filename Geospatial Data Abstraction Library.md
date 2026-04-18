@@ -1,8 +1,8 @@
 ---
 aliases:
-  - Geospatial Data Abstraction Library
+  - GDAL
 ---
-[[GDAL]], [[GEOS]], and [[PROJ]]  are three C libraries  that underpin almost all geospatial software. You rarely call them directly; they're the engine under tools like [[PostGIS]], [[Shapely]], [[QGIS]], and more.
+[[Geospatial Data Abstraction Library|GDAL]], [[GEOS]], and [[PROJ]]  are three C libraries  that underpin almost all geospatial software. You rarely call them directly; they're the engine under tools like [[PostGIS]], [[Shapely]], [[QGIS]], and more.
 
 GDAL is foundational for reading and writing both raster and vector geospatial data formats. It's the "plumbing" that much of the geospatial software world is built on.
 

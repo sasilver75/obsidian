@@ -8,6 +8,7 @@ References:
 - [{CNG 2025} Is COG Scalable - Jeff Albrecht](https://youtu.be/-9tNOBRidVA)
 
 A [[GeoTIFF]] with a specific internal organization designed for efficient remote access.
+- Often paired with [[SpatioTemporal Asset Catalog|STAC]]s
 
 A [[Raster]] format designed for efficient HTTP range requests -- you can fetch just a tile-sized chunk of a massive satellite image without downloading the whole thing.
 

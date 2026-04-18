@@ -2,8 +2,6 @@
 aliases:
   - GIS
 ---
-
-
 ## Common Spatial Operations (with their [[PostGIS]])
 
 #### Point-in-Polygon: "What neighborhood does this crime incident fall in?"
@@ -76,4 +74,96 @@ GROUP BY n.name, n.geom;
 	- Some records have null or zero coordinates (often (0,0), in the Gulf of Guinea); filter those out at ingest using a `WHERE latitude IS NOT NULL and latitude != 0`.
 
 
+
+
+# Modern GIS Stack (mid-2025)
+Video: [Desktop GIS is Dying. Here's what Replaced It](https://youtu.be/T2_RtffBiUM)
+- Arrival of [[Cloud-Native Geospatial]] formats, which can sit in [[Blob Storage|Object Storage]] and be efficiently served.
+![[Pasted image 20260417165951.png]]
+Above (I think some of these categories are "sloppy"):
+- Transform
+	- [[Geospatial Data Abstraction Library|GDAL]]
+	- seer.ai
+	- [[dbt]]
+	- [[Airbyte]]
+	- BigGeo
+	- [[A5]]
+	- [[H3]]
+- Analytics
+	- [[CARTO]]
+	- Fused
+	- Foursquare/FSQ
+	- ?
+	- [[kepler.gl]]
+	- Preset
+	- Superset
+- GIS
+	- [[QGIS]]
+	- [[Felt]]
+	- Atlas
+	- NextGIS
+- AI
+	- Klarety
+	- Monarcha
+	- Countour
+	- Bunting Labs
+	- aino
+	- Mundi
+	- AskEarth
+	- GeoRetina
+- Python
+	- [[Geopandas]]
+	- [[rasterio]]
+	- TorchGeo
+	- [[leafmap]]
+	- GeoAI (?)
+	- [[Lonboard]]
+- Apps
+	- [[Mapbox]]
+	- [[deck.gl]]
+	- [[MapLibre]]
+	- GeoBase
+	- Veda
+- Orchestration
+	- [[Apache Airflow|Airflow]]
+	- [[Astronomer]]
+	- [[Dagster]]
+	- Kestra
+	- [[Prefect]]
+- Processing
+	- [[Wherobots]]
+	- Coiled
+	- [[Databricks]]
+	- [[Apache Sedona]]
+	- [[Dask]]
+	- [[Apache Spark]]
+- OLTP
+	- [[PostGIS]]
+	- Crunchy Data
+- OLAP
+	- [[Snowflake]]
+	- MotherDuck
+	- [[DuckDB]]
+	- [[Google BigQuery]]
+	- [[Amazon Redshift]]
+	- [[Trino]]
+- Catalogs
+	- [[Apache Iceberg]]
+	- [[Delta Lake]]
+	- [[Earthmover]]
+	- [[DuckLake]]
+- Cloud Storage
+	- [[Amazon S3|S3]]
+	- [[Cloudflare R2|R2]]
+	- [[Google Cloud Storage|GCS]]
+	- [[Azure Blob Storage]]
+	- Wasabi
+	- Obstore
+- (Cloud-Native Geospatial) Formats
+	- [[GeoParquet]]
+	- [[FlatGeobuf]]
+	- [[Cloud-Optimized GeoTIFF]]  (COG)
+	- [[SpatioTemporal Asset Catalog]] (STAC)
+	- [[Cloud-Optimized Point Cloud]] (COPC)
+	- [[Zarr]]
 
