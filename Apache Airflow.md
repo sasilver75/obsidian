@@ -215,7 +215,7 @@ This is a documentation placed anywhere
 This appears as:
 ![[Pasted image 20250707174023.png]]
 
-Setting up Dependenies
+Setting up Dependencies
 - In Airflows, tasks can depend on one another. For instance, if you have tasks t1, t2, and t3, you can define their ==dependencies== in several ways:
 
 ```python
@@ -250,7 +250,7 @@ Once you've written a DAG in a file like above, we can just run `python <filenam
 
 `airflow db migrate`
 - This performs database migrations using Alembic against the SQLite database located at `/Users/sam/airflow/airflow.db`. This creates tables for storing:
-	- DAG defintiions
+	- DAG definitions
 	- Task instances
 	- Connections to external systems
 	- Variable and configuration

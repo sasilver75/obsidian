@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "HTTP Range Request",
+      "path": "HTTP Range Request.md"
+    },
+    {
+      "basename": "Mapbox Vector Tile",
+      "path": "Mapbox Vector Tile.md"
+    },
+    {
+      "basename": "Spark JS",
+      "path": "Spark JS.md"
+    },
+    {
+      "basename": "Tobler's First Law of Geography",
+      "path": "Tobler's First Law of Geography.md"
+    },
+    {
+      "basename": "Winding Order",
+      "path": "Winding Order.md"
+    },
+    {
+      "basename": "Xarray",
+      "path": "Xarray.md"
+    },
+    {
+      "basename": "Isochrone",
+      "path": "Isochrone.md"
+    },
+    {
+      "basename": "Apache Airflow",
+      "path": "Apache Airflow.md"
+    },
+    {
+      "basename": "Industry Foundation Classes",
+      "path": "Industry Foundation Classes.md"
+    },
+    {
+      "basename": "Cesium",
+      "path": "Cesium.md"
+    },
+    {
+      "basename": "Photogrammetry",
+      "path": "Photogrammetry.md"
+    },
+    {
+      "basename": "Shader",
+      "path": "Shader.md"
+    },
+    {
       "basename": "Building Information Modeling",
       "path": "Building Information Modeling.md"
     },
@@ -15,10 +63,6 @@
     {
       "basename": "SpatioTemporal Asset Catalog",
       "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
-      "basename": "Industry Foundation Classes",
-      "path": "Industry Foundation Classes.md"
     },
     {
       "basename": "Wherobots",
@@ -59,10 +103,6 @@
     {
       "basename": "Apache Iceberg",
       "path": "Apache Iceberg.md"
-    },
-    {
-      "basename": "Apache Airflow",
-      "path": "Apache Airflow.md"
     },
     {
       "basename": "DuckLake",
@@ -159,46 +199,6 @@
     {
       "basename": "Cloud-Optimized GeoTIFF",
       "path": "Cloud-Optimized GeoTIFF.md"
-    },
-    {
-      "basename": "GeoParquet",
-      "path": "GeoParquet.md"
-    },
-    {
-      "basename": "Physically-Based Rendering",
-      "path": "Physically-Based Rendering.md"
-    },
-    {
-      "basename": "Shader",
-      "path": "Shader.md"
-    },
-    {
-      "basename": "Cesium",
-      "path": "Cesium.md"
-    },
-    {
-      "basename": "Photogrammetry",
-      "path": "Photogrammetry.md"
-    },
-    {
-      "basename": "FlatGeobuf",
-      "path": "FlatGeobuf.md"
-    },
-    {
-      "basename": "Universal Transverse Mercator",
-      "path": "Universal Transverse Mercator.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "Georeference",
-      "path": "Georeference.md"
-    },
-    {
-      "basename": "Universal Polar Stereographic",
-      "path": "Universal Polar Stereographic.md"
     }
   ],
   "omittedPaths": [],

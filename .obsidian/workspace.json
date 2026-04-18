@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Airflow.md",
+                "file": "HTTP Range Request.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,131 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache Airflow"
-            }
-          },
-          {
-            "id": "f1421ecc266fd8cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Building Information Modeling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Building Information Modeling"
-            }
-          },
-          {
-            "id": "6a7e75342a5bef47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shader.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Shader"
-            }
-          },
-          {
-            "id": "ecc6d7d0202418bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Photogrammetry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Photogrammetry"
-            }
-          },
-          {
-            "id": "37f10a45fb7ffd76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cesium.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cesium"
-            }
-          },
-          {
-            "id": "b8b156af1622d4ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Industry Foundation Classes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Industry Foundation Classes"
+              "title": "HTTP Range Request"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -1672,12 +1551,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f1421ecc266fd8cc",
+  "active": "f077bc6e79ecbde8",
   "lastOpenFiles": [
+    "Mapbox Vector Tile.md",
+    "HTTP Range Request.md",
+    "Spark JS.md",
+    "Tobler's First Law of Geography.md",
+    "Winding Order.md",
+    "Xarray.md",
+    "Isochrone.md",
+    "Apache Airflow.md",
+    "Industry Foundation Classes.md",
+    "Cesium.md",
+    "Photogrammetry.md",
+    "Shader.md",
+    "Building Information Modeling.md",
     "Antimeridian.md",
     "Orthoimage.md",
     "SpatioTemporal Asset Catalog.md",
-    "Industry Foundation Classes.md",
     "Wherobots.md",
     "Dagster.md",
     "Amazon Redshift.md",
@@ -1688,20 +1579,8 @@
     "Fiona.md",
     "Delta Lake.md",
     "Apache Iceberg.md",
-    "Apache Airflow.md",
     "_attachments/Pasted image 20260417175836.png",
-    "DuckLake.md",
     "_attachments/Pasted image 20260417175530.png",
-    "Geographic Information Systems.md",
-    "Google BigQuery.md",
-    "concept-definitions.md",
-    "GL Transmission Format.md",
-    "Prefect.md",
-    "Airbyte.md",
-    "dbt.md",
-    "Geospatial Data Abstraction Library.md",
-    "DuckDB.md",
-    "GEOS.md",
     "_attachments/Pasted image 20260417165951.png",
     "_attachments/Pasted image 20260417163426.png",
     "_attachments/Pasted image 20260417150722.png",
