@@ -197,7 +197,7 @@ Things you should know about streams for your interview:
 	2. Machine 2: (MyStream Partition 2 Leader, MyStream Partition 1 Replica)
 4. **[[Windowing]]:** Streams can support windowing, which is a ==way of grouping events together based on time or count==. This is ==useful for scenarios where you need to process events in batches, such as calculating hourly or daily aggregates of data.== Imagine a real-time dashboard that shows mean-delivery-time per region over the last 24 hours.
 
-The most common streaming technologies are [[Kafka]], [[Apache Flink]], and [[Kinesis]].
+The most common streaming technologies are [[Kafka]], [[Apache Flink]], and [[Amazon Kinesis]].
 
 # Distributed Lock
 - For a system like **TicketMaster**, you might need a way to lock some resource, like a concert ticket, for a short time (~10 minutes), so that while a user is buying a ticket, no one can steal it from them.

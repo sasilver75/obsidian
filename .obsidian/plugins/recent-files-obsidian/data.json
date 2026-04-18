@@ -1,6 +1,186 @@
 {
   "recentFiles": [
     {
+      "basename": "Cloud-Native Geospatial",
+      "path": "Cloud-Native Geospatial.md"
+    },
+    {
+      "basename": "Point Data Abstraction Library",
+      "path": "Point Data Abstraction Library.md"
+    },
+    {
+      "basename": "Canopy Height Model",
+      "path": "Canopy Height Model.md"
+    },
+    {
+      "basename": "Global Ecosystem Dynamics Investigation",
+      "path": "Global Ecosystem Dynamics Investigation.md"
+    },
+    {
+      "basename": "ETL",
+      "path": "ETL.md"
+    },
+    {
+      "basename": "Massively Parallel Processing",
+      "path": "Massively Parallel Processing.md"
+    },
+    {
+      "basename": "Amazon SNS",
+      "path": "Amazon SNS.md"
+    },
+    {
+      "basename": "Amazon EventBridge",
+      "path": "Amazon EventBridge.md"
+    },
+    {
+      "basename": "Dead Letter Queue",
+      "path": "Dead Letter Queue.md"
+    },
+    {
+      "basename": "Amazon Lambda",
+      "path": "Amazon Lambda.md"
+    },
+    {
+      "basename": "Amazon SQS",
+      "path": "Amazon SQS.md"
+    },
+    {
+      "basename": "Amazon S3",
+      "path": "Amazon S3.md"
+    },
+    {
+      "basename": "Amazon Open Data",
+      "path": "Amazon Open Data.md"
+    },
+    {
+      "basename": "Geographic Information Systems",
+      "path": "Geographic Information Systems.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "Amazon Elastic Block Store",
+      "path": "Amazon Elastic Block Store.md"
+    },
+    {
+      "basename": "Amazon Elastic File Store",
+      "path": "Amazon Elastic File Store.md"
+    },
+    {
+      "basename": "Independent Check Point",
+      "path": "Independent Check Point.md"
+    },
+    {
+      "basename": "Optimized Row Columnar",
+      "path": "Optimized Row Columnar.md"
+    },
+    {
+      "basename": "Comma-Separated Values",
+      "path": "Comma-Separated Values.md"
+    },
+    {
+      "basename": "Data Lakehouse",
+      "path": "Data Lakehouse.md"
+    },
+    {
+      "basename": "Amazon Identity and Access Management",
+      "path": "Amazon Identity and Access Management.md"
+    },
+    {
+      "basename": "AWS Glue",
+      "path": "AWS Glue.md"
+    },
+    {
+      "basename": "Amazon Redshift",
+      "path": "Amazon Redshift.md"
+    },
+    {
+      "basename": "Amazon NFS",
+      "path": "Amazon NFS.md"
+    },
+    {
+      "basename": "Orthoimage",
+      "path": "Orthoimage.md"
+    },
+    {
+      "basename": "Georeference",
+      "path": "Georeference.md"
+    },
+    {
+      "basename": "GLUE",
+      "path": "GLUE.md"
+    },
+    {
+      "basename": "Amazon Kinesis",
+      "path": "Amazon Kinesis.md"
+    },
+    {
+      "basename": "Online Analytical Processing",
+      "path": "Online Analytical Processing.md"
+    },
+    {
+      "basename": "Online Transactional Processing",
+      "path": "Online Transactional Processing.md"
+    },
+    {
+      "basename": "Airbyte",
+      "path": "Airbyte.md"
+    },
+    {
+      "basename": "DuckLake",
+      "path": "DuckLake.md"
+    },
+    {
+      "basename": "Ground Control Point",
+      "path": "Ground Control Point.md"
+    },
+    {
+      "basename": "Post-Processed Kinematic",
+      "path": "Post-Processed Kinematic.md"
+    },
+    {
+      "basename": "Rational Polynomial Coefficients",
+      "path": "Rational Polynomial Coefficients.md"
+    },
+    {
+      "basename": "Real-Time Kinematic GPS",
+      "path": "Real-Time Kinematic GPS.md"
+    },
+    {
+      "basename": "Inertial Measurement Unit",
+      "path": "Inertial Measurement Unit.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "TerraSAR-X",
+      "path": "TerraSAR-X.md"
+    },
+    {
+      "basename": "Differential Interferometric Synthetic Aperture Radar",
+      "path": "Differential Interferometric Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "InSAR",
+      "path": "InSAR.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "TanDEM-X",
+      "path": "TanDEM-X.md"
+    },
+    {
+      "basename": "United States Geological Survey",
+      "path": "United States Geological Survey.md"
+    },
+    {
       "basename": "HTTP Range Request",
       "path": "HTTP Range Request.md"
     },
@@ -19,186 +199,6 @@
     {
       "basename": "Winding Order",
       "path": "Winding Order.md"
-    },
-    {
-      "basename": "Xarray",
-      "path": "Xarray.md"
-    },
-    {
-      "basename": "Isochrone",
-      "path": "Isochrone.md"
-    },
-    {
-      "basename": "Apache Airflow",
-      "path": "Apache Airflow.md"
-    },
-    {
-      "basename": "Industry Foundation Classes",
-      "path": "Industry Foundation Classes.md"
-    },
-    {
-      "basename": "Cesium",
-      "path": "Cesium.md"
-    },
-    {
-      "basename": "Photogrammetry",
-      "path": "Photogrammetry.md"
-    },
-    {
-      "basename": "Shader",
-      "path": "Shader.md"
-    },
-    {
-      "basename": "Building Information Modeling",
-      "path": "Building Information Modeling.md"
-    },
-    {
-      "basename": "Antimeridian",
-      "path": "Antimeridian.md"
-    },
-    {
-      "basename": "Orthoimage",
-      "path": "Orthoimage.md"
-    },
-    {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
-      "basename": "Wherobots",
-      "path": "Wherobots.md"
-    },
-    {
-      "basename": "Dagster",
-      "path": "Dagster.md"
-    },
-    {
-      "basename": "Amazon Redshift",
-      "path": "Amazon Redshift.md"
-    },
-    {
-      "basename": "DuckDB Labs",
-      "path": "DuckDB Labs.md"
-    },
-    {
-      "basename": "Databricks",
-      "path": "Databricks.md"
-    },
-    {
-      "basename": "Apache Hudi",
-      "path": "Apache Hudi.md"
-    },
-    {
-      "basename": "rasterio",
-      "path": "rasterio.md"
-    },
-    {
-      "basename": "Fiona",
-      "path": "Fiona.md"
-    },
-    {
-      "basename": "Delta Lake",
-      "path": "Delta Lake.md"
-    },
-    {
-      "basename": "Apache Iceberg",
-      "path": "Apache Iceberg.md"
-    },
-    {
-      "basename": "DuckLake",
-      "path": "DuckLake.md"
-    },
-    {
-      "basename": "Geographic Information Systems",
-      "path": "Geographic Information Systems.md"
-    },
-    {
-      "basename": "Google BigQuery",
-      "path": "Google BigQuery.md"
-    },
-    {
-      "basename": "concept-definitions",
-      "path": "concept-definitions.md"
-    },
-    {
-      "basename": "GL Transmission Format",
-      "path": "GL Transmission Format.md"
-    },
-    {
-      "basename": "Prefect",
-      "path": "Prefect.md"
-    },
-    {
-      "basename": "Airbyte",
-      "path": "Airbyte.md"
-    },
-    {
-      "basename": "dbt",
-      "path": "dbt.md"
-    },
-    {
-      "basename": "Geospatial Data Abstraction Library",
-      "path": "Geospatial Data Abstraction Library.md"
-    },
-    {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
-    },
-    {
-      "basename": "GEOS",
-      "path": "GEOS.md"
-    },
-    {
-      "basename": "GeoTIFF",
-      "path": "GeoTIFF.md"
-    },
-    {
-      "basename": "PROJ",
-      "path": "PROJ.md"
-    },
-    {
-      "basename": "PMTiles",
-      "path": "PMTiles.md"
-    },
-    {
-      "basename": "MBTile",
-      "path": "MBTile.md"
-    },
-    {
-      "basename": "Spatial ETL",
-      "path": "Spatial ETL.md"
-    },
-    {
-      "basename": "Point Data Abstraction Library",
-      "path": "Point Data Abstraction Library.md"
-    },
-    {
-      "basename": "3D Tiles",
-      "path": "3D Tiles.md"
-    },
-    {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
-    },
-    {
-      "basename": "Azure Blob Storage",
-      "path": "Azure Blob Storage.md"
-    },
-    {
-      "basename": "Light Detection and Ranging",
-      "path": "Light Detection and Ranging.md"
-    },
-    {
-      "basename": "Cloud-Optimized Point Cloud",
-      "path": "Cloud-Optimized Point Cloud.md"
-    },
-    {
-      "basename": "Zarr",
-      "path": "Zarr.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
     }
   ],
   "omittedPaths": [],

@@ -1,0 +1,5 @@
+---
+aliases:
+  - Amazon IAM
+  - IAM
+---

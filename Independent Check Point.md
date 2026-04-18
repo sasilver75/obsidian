@@ -1,0 +1,5 @@
+---
+aliases:
+  - ICP
+  - Check Point
+---
