@@ -7,7 +7,7 @@ Site: https://overturemaps.org/
 
 An industry consortium backed by Amazon, Microsoft, Meta, and TomTom launched in 2022 to produce a free, open, interoperable alternative to proprietary map data like [[Google Maps]] or [[HERE Technologies|HERE]], and to improve on [[OpenStreetMap]].
 
-It produces a regularly updated dataset (released as [[GeoParquet]] files on [[Amazon S3|S3]]) covering:
+It produces a regularly updated dataset (released as [[GeoParquet]] files on [[Amazon S3|S3]]) covering the follow * Overture themes*:
 - Places (POIs like restaurants, shops, landmarks)
 - Buildings (Global building footprints, incorporated [[Microsoft Building Footprints]] and [[OpenStreetMap]])
 - Transportation (road networks, connectors, turn restrictions)
@@ -27,3 +27,4 @@ Data comes from:
 - TomTom contributes commercial map data from their existing datasets
 
 So in a sense, ==Overture is less a new mapping project and more a data normalization and reconciliation layer on top of existing sources==, with a consistent schema and open license.
+

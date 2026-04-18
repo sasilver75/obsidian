@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Massively Parallel Processing.md",
+                "file": "Medallion Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,247 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Massively Parallel Processing"
+              "title": "Medallion Architecture"
+            }
+          },
+          {
+            "id": "fab6da242026b83b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Sedona.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Sedona"
+            }
+          },
+          {
+            "id": "3b2547740edbb5fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Sedona.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Sedona"
+            }
+          },
+          {
+            "id": "94a863d60c968cd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dbt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "dbt"
+            }
+          },
+          {
+            "id": "b7f704defbcbfcd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dbt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "dbt"
+            }
+          },
+          {
+            "id": "385207db157fc892",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Sedona.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Sedona"
+            }
+          },
+          {
+            "id": "a2a2bf2df3acb843",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geocode.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geocode"
+            }
+          },
+          {
+            "id": "5dbb305302d65b80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ETL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ETL"
+            }
+          },
+          {
+            "id": "d4255c018eef18ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Directed Acyclic Graph.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Directed Acyclic Graph"
+            }
+          },
+          {
+            "id": "ef6f231f69ff1e4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Sedona.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Sedona"
+            }
+          },
+          {
+            "id": "d3a2b34e4757baa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Google BigLake.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Google BigLake"
             }
           },
           {
@@ -205,7 +445,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud-Native Geospatial.md",
+                "file": "Amazon Elastic Map Reduce.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +460,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cloud-Native Geospatial"
+              "title": "Amazon Elastic Map Reduce"
+            }
+          },
+          {
+            "id": "927d33ca51de962e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Lakehouse.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Data Lakehouse"
+            }
+          },
+          {
+            "id": "9743aa5e8da06572",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Athena.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Athena"
+            }
+          },
+          {
+            "id": "9744457b5510106d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Lake Formation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Lake Formation"
             }
           },
           {
@@ -656,7 +968,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -2175,34 +2487,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e0307d401ede0d7",
+  "active": "385207db157fc892",
   "lastOpenFiles": [
-    "Point Data Abstraction Library.md",
-    "Cloud-Native Geospatial.md",
-    "Canopy Height Model.md",
-    "Global Ecosystem Dynamics Investigation.md",
+    "Global Entity Reference System.md",
+    "Overture Maps Foundation.md",
+    "Geocode.md",
+    "Geocoding Service.md",
+    "DuckDB Labs.md",
+    "DuckLake.md",
+    "dbt.md",
     "ETL.md",
-    "Massively Parallel Processing.md",
-    "Amazon SNS.md",
-    "Amazon EventBridge.md",
-    "Dead Letter Queue.md",
-    "Dead-Letter Queue.md",
-    "Amazon Lambda.md",
-    "Amazon SQS.md",
-    "Amazon S3.md",
-    "Amazon Open Data.md",
-    "Geographic Information Systems.md",
-    "Geospatial Index.md",
-    "Amazon Elastic Block Store.md",
-    "Amazon Elastic File Store.md",
-    "Independent Check Point.md",
-    "Optimized Row Columnar.md",
-    "Comma-Separated Values.md",
+    "Yet Another Markup Langauge.md",
+    "Directed Acyclic Graph.md",
+    "Databricks Unity Catalog.md",
+    "OpenStreetMap.md",
+    "Apache Sedona.md",
+    "_attachments/Pasted image 20260418011250.png",
+    "Untitled 12.md",
+    "SedonaDB.md",
+    "Simple Features Access.md",
     "Data Lakehouse.md",
-    "Amazon Identity and Access Management.md",
-    "AWS Glue.md",
-    "Amazon Redshift.md",
-    "Amazon NFS.md",
+    "Medallion Architecture.md",
+    "Apache Iceberg.md",
+    "Google BigLake.md",
+    "Massively Parallel Processing.md",
+    "Amazon Elastic Map Reduce.md",
+    "Amazon Athena.md",
+    "Amazon Lake Formation.md",
+    "_attachments/Pasted image 20260418003329.png",
+    "Cloud-Native Geospatial.md",
+    "Point Data Abstraction Library.md",
     "_attachments/Pasted image 20260417175836.png",
     "_attachments/Pasted image 20260417175530.png",
     "_attachments/Pasted image 20260417165951.png",
@@ -2211,8 +2525,6 @@
     "_attachments/Pasted image 20260417145827.png",
     "_attachments/Pasted image 20260417145805.png",
     "_attachments/Pasted image 20260417124944.png",
-    "_attachments/Pasted image 20260417122647.png",
-    "_attachments/Pasted image 20260416213058.png",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

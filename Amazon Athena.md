@@ -1,0 +1,5 @@
+---
+aliases:
+  - AWS Athena
+  - Athena
+---

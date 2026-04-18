@@ -1,6 +1,102 @@
 {
   "recentFiles": [
     {
+      "basename": "Apache Sedona",
+      "path": "Apache Sedona.md"
+    },
+    {
+      "basename": "Global Entity Reference System",
+      "path": "Global Entity Reference System.md"
+    },
+    {
+      "basename": "Overture Maps Foundation",
+      "path": "Overture Maps Foundation.md"
+    },
+    {
+      "basename": "Geocode",
+      "path": "Geocode.md"
+    },
+    {
+      "basename": "Geocoding Service",
+      "path": "Geocoding Service.md"
+    },
+    {
+      "basename": "DuckDB Labs",
+      "path": "DuckDB Labs.md"
+    },
+    {
+      "basename": "DuckLake",
+      "path": "DuckLake.md"
+    },
+    {
+      "basename": "dbt",
+      "path": "dbt.md"
+    },
+    {
+      "basename": "ETL",
+      "path": "ETL.md"
+    },
+    {
+      "basename": "Yet Another Markup Langauge",
+      "path": "Yet Another Markup Langauge.md"
+    },
+    {
+      "basename": "Directed Acyclic Graph",
+      "path": "Directed Acyclic Graph.md"
+    },
+    {
+      "basename": "Databricks Unity Catalog",
+      "path": "Databricks Unity Catalog.md"
+    },
+    {
+      "basename": "OpenStreetMap",
+      "path": "OpenStreetMap.md"
+    },
+    {
+      "basename": "Untitled 12",
+      "path": "Untitled 12.md"
+    },
+    {
+      "basename": "SedonaDB",
+      "path": "SedonaDB.md"
+    },
+    {
+      "basename": "Simple Features Access",
+      "path": "Simple Features Access.md"
+    },
+    {
+      "basename": "Data Lakehouse",
+      "path": "Data Lakehouse.md"
+    },
+    {
+      "basename": "Medallion Architecture",
+      "path": "Medallion Architecture.md"
+    },
+    {
+      "basename": "Apache Iceberg",
+      "path": "Apache Iceberg.md"
+    },
+    {
+      "basename": "Google BigLake",
+      "path": "Google BigLake.md"
+    },
+    {
+      "basename": "Massively Parallel Processing",
+      "path": "Massively Parallel Processing.md"
+    },
+    {
+      "basename": "Amazon Elastic Map Reduce",
+      "path": "Amazon Elastic Map Reduce.md"
+    },
+    {
+      "basename": "Amazon Athena",
+      "path": "Amazon Athena.md"
+    },
+    {
+      "basename": "Amazon Lake Formation",
+      "path": "Amazon Lake Formation.md"
+    },
+    {
       "basename": "Cloud-Native Geospatial",
       "path": "Cloud-Native Geospatial.md"
     },
@@ -15,14 +111,6 @@
     {
       "basename": "Global Ecosystem Dynamics Investigation",
       "path": "Global Ecosystem Dynamics Investigation.md"
-    },
-    {
-      "basename": "ETL",
-      "path": "ETL.md"
-    },
-    {
-      "basename": "Massively Parallel Processing",
-      "path": "Massively Parallel Processing.md"
     },
     {
       "basename": "Amazon SNS",
@@ -81,10 +169,6 @@
       "path": "Comma-Separated Values.md"
     },
     {
-      "basename": "Data Lakehouse",
-      "path": "Data Lakehouse.md"
-    },
-    {
       "basename": "Amazon Identity and Access Management",
       "path": "Amazon Identity and Access Management.md"
     },
@@ -115,90 +199,6 @@
     {
       "basename": "Amazon Kinesis",
       "path": "Amazon Kinesis.md"
-    },
-    {
-      "basename": "Online Analytical Processing",
-      "path": "Online Analytical Processing.md"
-    },
-    {
-      "basename": "Online Transactional Processing",
-      "path": "Online Transactional Processing.md"
-    },
-    {
-      "basename": "Airbyte",
-      "path": "Airbyte.md"
-    },
-    {
-      "basename": "DuckLake",
-      "path": "DuckLake.md"
-    },
-    {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
-    },
-    {
-      "basename": "Post-Processed Kinematic",
-      "path": "Post-Processed Kinematic.md"
-    },
-    {
-      "basename": "Rational Polynomial Coefficients",
-      "path": "Rational Polynomial Coefficients.md"
-    },
-    {
-      "basename": "Real-Time Kinematic GPS",
-      "path": "Real-Time Kinematic GPS.md"
-    },
-    {
-      "basename": "Inertial Measurement Unit",
-      "path": "Inertial Measurement Unit.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
-    },
-    {
-      "basename": "TerraSAR-X",
-      "path": "TerraSAR-X.md"
-    },
-    {
-      "basename": "Differential Interferometric Synthetic Aperture Radar",
-      "path": "Differential Interferometric Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "InSAR",
-      "path": "InSAR.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "TanDEM-X",
-      "path": "TanDEM-X.md"
-    },
-    {
-      "basename": "United States Geological Survey",
-      "path": "United States Geological Survey.md"
-    },
-    {
-      "basename": "HTTP Range Request",
-      "path": "HTTP Range Request.md"
-    },
-    {
-      "basename": "Mapbox Vector Tile",
-      "path": "Mapbox Vector Tile.md"
-    },
-    {
-      "basename": "Spark JS",
-      "path": "Spark JS.md"
-    },
-    {
-      "basename": "Tobler's First Law of Geography",
-      "path": "Tobler's First Law of Geography.md"
-    },
-    {
-      "basename": "Winding Order",
-      "path": "Winding Order.md"
     }
   ],
   "omittedPaths": [],

@@ -3,6 +3,7 @@ aliases:
   - Reverse Geocode
   - Geocoding
   - Reverse Geocoding
+  - Forward Geocoding
 ---
 
 
