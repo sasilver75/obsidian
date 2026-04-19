@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "FlatGeobuf",
+      "path": "FlatGeobuf.md"
+    },
+    {
+      "basename": "Cloud-Native Geospatial",
+      "path": "Cloud-Native Geospatial.md"
+    },
+    {
+      "basename": "rasterio",
+      "path": "rasterio.md"
+    },
+    {
       "basename": "Maxar",
       "path": "Maxar.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Amazon Ground Station",
       "path": "Amazon Ground Station.md"
-    },
-    {
-      "basename": "Global Positioning System",
-      "path": "Global Positioning System.md"
-    },
-    {
-      "basename": "Global Navigation Satellite System",
-      "path": "Global Navigation Satellite System.md"
-    },
-    {
-      "basename": "Data Lakehouse",
-      "path": "Data Lakehouse.md"
     }
   ],
   "omittedPaths": [],

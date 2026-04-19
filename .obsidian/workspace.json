@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maxar.md",
+                "file": "Cloud-Native Geospatial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maxar"
+              "title": "Cloud-Native Geospatial"
+            }
+          },
+          {
+            "id": "5042c0625198fa88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FlatGeobuf.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FlatGeobuf"
             }
           },
           {
@@ -1280,7 +1304,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -2800,12 +2824,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "466f1404c54c37fb",
+  "active": "5042c0625198fa88",
   "lastOpenFiles": [
+    "Cloud-Native Geospatial.md",
+    "rasterio.md",
+    "Maxar.md",
     "Remote Sensing.md",
     "Planet Labs.md",
     "_attachments/Pasted image 20260418155521.png",
-    "Maxar.md",
     "_attachments/Pasted image 20260418155447.png",
     "_attachments/Pasted image 20260418155442.png",
     "BlackSky.md",
@@ -2834,8 +2860,6 @@
     "Mapbox GL JS.md",
     "Mapbox.md",
     "Leaflet.md",
-    "Magellan.md",
-    "LASer.md",
     "_attachments/Pasted image 20260418142007.png",
     "_attachments/Pasted image 20260418011250.png",
     "recent-notes.txt",
