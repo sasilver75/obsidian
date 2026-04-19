@@ -2,8 +2,9 @@
 aliases:
   - .gpkg
 ---
-A modern [[SQLite]]-based replacement for [[Shapefile]].
-Unlike Shapefile, which is actually 3-7 files that must travel together, GeoPackage format files are ==single files==, support multiple layers, and handles projections propely.
+A file format for [[Vector]] data, and a modern [[SQLite]]-based replacement for [[Shapefile]].
+- Not cloud-optimized, since it's stored internally as a SQLite database, the entire file must be downloaded to read any part of the file, and it requires a server (so the frontend can't just [[HTTP Range Request]] from [[Blob Storage|Object Storage]]).
+Unlike Shapefile, which is actually 3-7 files that must travel together, GeoPackage format files are ==single files==, support multiple layers, and handles projections properly.
 - Increasingly common from government sources.
 - Read natively in `geopandas`
 

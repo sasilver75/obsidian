@@ -1,3 +1,11 @@
+References:
+- Cloud-Optimized Geospatial Formats Guide: Zarr
+
+> Zarr is a format for storing large-scale, compressed  n-dimensional or [[Raster]] data that's too big for users' machines; Zarr makes data small and organizes it in a way where users can take just the chunks they need, or distribute the load of processing these chunks across many machines.
+> A Zarr chunk is an equally-sized block of the array in a larger Zarr store. Zarr chunks are normally stored in separate objects in object storage to make reading and updating individual chunks more efficient.
+> Zarr is NOT designed for [[Vector]], [[Point Cloud]], or sparse data.
+
+
 Zarr is a ==chunk-based, compressed, N-dimensional array format designed from the ground up for cloud [[Blob Storage|Object Storage]]==, taking the conceptual model of [[Network Common Data Form|NetCDF]]/[[Hierarchical Data Format 5|HDF5]] (labeled multidimensional arrays with metadata) and rebuilding it so that each chunk is a separate file/object rather than a byte range inside a monolithic file.
 - This is a tradeoff:
 	- [[Cloud-Optimized GeoTIFF|COG]] keeps everything in one file and uses HTTP range requests to fetch specific byte ranges.
@@ -53,7 +61,17 @@ HTTP Range requests let you fetch a specific byte range from a remote file.
 - Zarr extends the same idea to N-dimensional arrays
 	- Each chunk is a separate object in [[Amazon S3]], so you can fetch exactly what you need in parallel.
 
-Zarr is almost always used with the `Xarray` library, which is a Python library for labeled N-dimensional arrays (Pandas-like, it sounds like). 
+Zarr is almost always used with the [[Xarray]] library, which is a Python library for labeled N-dimensional arrays (Pandas-like, it sounds like). 
 - Xarray uses Zarr as a storage backend the same way that Pandas uses [[Apache Parquet|Parquet]].
+
+![[Pasted image 20260419015559.png]]
+
+![[Pasted image 20260419015616.png]]
+
+![[Pasted image 20260419015645.png]]
+
+![[Pasted image 20260419015658.png]]
+
+
 
 

@@ -1,7 +1,7 @@
 [[JSON]] with a geographic extension.
-This is the lingua franca of [[Geographic Information Systems|GIS]]! 
+This is the lingua franca of [[Geographic Information Systems|GIS]]!  It
 
-- ==Use when==: Serving data to frontend map, for small-to-medium datasets (e.g. <~10MB)
+- ==Use when==: ***Serving data to frontend map***, for small-to-medium datasets (e.g. <~10MB), since most programming languages can easily write it.
 - ==Don't use when==: You have millions of features - raw GeoJSON at that scale will crash browsers and waste bandwidth.
 	- GeoJSON is a complete dump of all features in one response: The browser has to parse every feature, hold them all in memory, and draw them. AT 1M features, that's hundreds of MB -- the browser tab dies.
 	- Instead, you should use [[Tile|Vector Tile]]s! Instead of "give me all the features," the map requests only the tiles that cover the current viewport at the current zoom level! If you're looking at Silver Lake (LA neighborhood), you might get 4-9 tiles worth of data, not the entire city. As you pan and zoom, new tires are loaded and older ones get evicted, and the browser never holds more than what's visible.

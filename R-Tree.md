@@ -1,8 +1,11 @@
 ---
 aliases:
   - Rectangle Tree
+  - Hilbert R-Tree
 ---
+
 A [[Geospatial Index]], similar to [[Geohash]]es and [[QuadTree]]s., Invented in 1984
+- Variation: Hilbert R-Tree, as used in [[FlatGeobuf]] file-internal indexes.
 
 - It indexes ==maximum bounding rectangles== (MBRs).
 	- For a point, it's just the point

@@ -2,7 +2,11 @@
 aliases:
   - CNG
   - Cloud-Native Geospatial Foundation
+  - Cloud-Optimized
 ---
+References:
+- [Cloud-Native Geospatial Data Format Glossay](https://guide.cloudnativegeo.org/glossary.html)
+
 A philosophy, set of formats, and architectural patterns for storing, accessing, and processing geospatial data in a way that's designed from the ground up for cloud [[Blob Storage|Object Storage]], rather than adapting traditional GIS workflows to the cloud.
 
 The shift to cloud-native geospatial is analogous to what happened to web applications moving from server-rendered pages to APIs + client-side rendering; it fundamentally changes the architecture.
@@ -18,6 +22,14 @@ The [[Cloud-Native Geospatial|Cloud-Native Geospatial Foundation]] (CNG) is a [[
 - [[Cloud-Optimized Point Cloud|COPC]] specification
 - [[PMTiles]]
 The foundation brings together organizations (AWS, Microsoft, Google [[ESRI]], [[Planet Labs|Planet]], [[Maxar]], and others) to coordinate development of these open standards and avoid fragmentation.
+
+# Why Cloud Optimization?
+- Geospatial data is experiencing exponential growth in both size and complexity; traditional data access methods (file downloads) have become increasingly impractical for achieving scientific objectives. 
+- Cloud optimization of file formats enables efficient, on-the-fly access to geospatial data, offering:
+	- Reduced latency (Subsets of the raw data can be fetched and processed much faster than downloading files)
+	- Scalability (stored on cloud object storage, which is infinitely scalable)
+	- Flexibility (high-levels of customization, advanced query capabilities without downloading)
+	- Cost-effectiveness (reduced data transfer and storage needs (compression))
 
 # Core Principles
 - ==Data stays where it is==
@@ -37,6 +49,21 @@ The foundation brings together organizations (AWS, Microsoft, Google [[ESRI]], [
 	- Data lives in [[Blob Storage|Object Storage]] ([[Amazon S3|S3]], [[Google Cloud Storage|GCS]], [[Cloudflare R2|R2]]) independently on any particular compute environment.
 	- The same COG can be read by a Python script, a web browser via [[TiTiler]], a [[QGIS]] user, or a [[Apache Spark|Spark]] cluster, without moving or copying the data. 
 	- Storage is cheap and durable; compute is ephemeral and elastic.
+
+
+## Cloud-Optimized Format Pattern
+1. Metadata or specification provides addresses for data blocks.
+2. Metadata is stored in a consistent format and location.
+3. All metadata can be loaded by a single read operation.
+4. Metadata or the format specification can be used by libraries to read subsets of data from the underlying file format. Subsetted access is facilitated via addressable chunks, internal tiling, or both.
+==The above characteristics allow for both parallelized and partial reading.==
+
+Questions to ask when generating Cloud-Optimized Geospatial Data in any format:
+1. What variable(s) should be included in the new data format?
+2. Will you create copies to optimize for different needs?
+3. What is the intended use case or usage profile? Is this for visualization, analysis, or both?
+4. What is the expected access method?
+5. How much of your data is typically rendered or selected at once?
 
 # The Stack
 - [[Vector]] Data
@@ -59,6 +86,8 @@ The foundation brings together organizations (AWS, Microsoft, Google [[ESRI]], [
 	- [[Xarray]] + [[Dask]]: [[Zarr]]/[[Cloud-Optimized GeoTIFF|COG]] time series
 	- [[Point Data Abstraction Library|PDAL]]: [[Cloud-Optimized Point Cloud|COPC]]/[[Entwine Point Tiles|EPT]] point clouds
 
+
+![[Pasted image 20260419014455.png|700]]
 
 
 

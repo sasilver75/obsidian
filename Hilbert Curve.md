@@ -1,4 +1,4 @@
-A [[Space-filling Curve]] that's constructed recursively.
+A [[Space-filling Curve]] that's constructed recursively, and used as part of many [[Geospatial Index]]es and [[Discrete Global Grid System|DGGS]]s like [[S2 Geometry|S2]], ensuring that objects near eachother in two-dimensional space (e.g. longitude-latitude) are also near eachother when ordered in (e.g.) a file.
 
 At each level, you subdivide a square into 4 quadrants and connect them in a U shape, then recurse into each quadrant, rotating/reflecting to keep the path continuous.
 

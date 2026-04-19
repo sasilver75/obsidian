@@ -1,14 +1,25 @@
 
 Resources:
 - [[Brandon Liu]]: [Minimum Viable Cloud-Native Geo @ Cloud-Native Geospatial Forum](https://youtu.be/4Qn3fOMQ6fI)
+- [Cloud-Optimized Geospatial Formats Guide: PMTiles](https://guide.cloudnativegeo.org/pmtiles/intro.html)
 
-The goal of PMTiles is a minimal-viable idea of reading datasets directly into the browser, which involves tradeoffs around latency and how much data you're transferring.
+See also:
+- [[MBTile]]s, the most common alternative, and in many ways the precursor to PMTiles that stores included vector tiles in a table in a SQLite database. Downside is that it's not serverless, meaning frontend clients like a web browser can't fetch tiles directly using range requests.
 
-If you're going from an S3 bucket to a browser, you want to make certain tradeoffs to minimize how long it takes for web apps to load.
+==A single-file [[Cloud-Native Geospatial]] archive format typically used for [[Vector Tile]]s== ([[Mapbox Vector Tile]]) (but can also do [[Raster]] Tiles), usually for visualization.
+- As an "archive format", it's similar to a [[ZIP]], ==containing the contents of many individual files inside of one PMTiles file.==
+- Designed to be used directly from a client over a network from [[Blob Storage|Object Storage]] using [[HTTP Range Request]]s, without having servers in the middle.
+- Most easily generated for vector data using the [[Tippecanoe]] tool.
 
-(Understanding the ==tradeoffs== that PMTiles make, and understanding when that's appropriate to use them, is very important.)
+## Internal Format
+- Has a file header, one or more metadata regions, and a region of tile data.
+- The ==header== is fixed length at the beginning of the file and includes necessary information to decode the rest of the file accurately.
+- Includes "==directories==", or regions of bytes with metadata about tiles. It's important for each directory to remain small, so while there will at always be at least one directory, larger PMTiles archives with many tiles will include more than one directory.
+- At the end of the file is the tile data, which includes all data for all tiles in the archive.
+	- Internally, tiles are oriented along a [[Hilbert Curve]], meaning tiles that are spatially near eachother in the file structure. This is important for PMTile's use case, since for visualization we're likely requesting data within a specific area.
+	- PMTiles support storing a full XYZ [[Tile Pyramid]] of tile data, meaning you can store multiple zoom levels of data in a single file.
 
-PMTiles is an opinionated spec for this access pattern:
+PMTiles is an opinionated spec for this cloud-native access pattern:
 - Assumes you want a [[Tile Pyramid]], which has multi-resolution overviews
 - It assumes that you want interactivity, meaning you want to [[Tile]] the data, and clip to the viewport. 
 	- This makes it inappropriate for al ot of cases related to analysis.
@@ -53,3 +64,11 @@ Compare with:
 - [[Cloud-Optimized GeoTIFF]] (COG): A data format for raster imagery that lets you read a spatial subset without downloading the whole file, useful for satellite imagery, elevation maps, etc.
 ... So they're complimentary technologies; a typical pipeline might store raw imagery as COGs, derived features as GEoParquet, and serve a stylized basemap via PMTiles.
 
+
+
+![[Pasted image 20260419130302.png]]
+- Analytical vs Tiled data;
+	- Analytical data: Refers to data in its original form, without any modifications to geometry
+		- Useful for operations like a spatial join, since the entire geometry is available.
+	- Tiled data: Apply a variety of modification to geometries, including clipping and simplification, to save space and make it faster to visualize.
+		- Useful for visualizations, because a user who wants to visualize a small area ownly needs to download a few tiles, which is faster.
