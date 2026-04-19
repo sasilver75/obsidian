@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Identity and Access Management.md",
+                "file": "Ground Sample Distance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,199 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Amazon Identity and Access Management"
+              "title": "Ground Sample Distance"
+            }
+          },
+          {
+            "id": "6509e841e34e77c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ground Control Point.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ground Control Point"
+            }
+          },
+          {
+            "id": "466f1404c54c37fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maxar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maxar"
+            }
+          },
+          {
+            "id": "aa6e9ca140ccdb91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planet Labs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Planet Labs"
+            }
+          },
+          {
+            "id": "bb712494486b679c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planet Labs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Planet Labs"
+            }
+          },
+          {
+            "id": "aafda0ee846dcc34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Satellogic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Satellogic"
+            }
+          },
+          {
+            "id": "b6fd6db1f46c5fb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shuttle Radar Topography Mission.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shuttle Radar Topography Mission"
+            }
+          },
+          {
+            "id": "6f3ea8f18b25bd1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nadir.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nadir"
+            }
+          },
+          {
+            "id": "5d856725f471eaaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Slew.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Slew"
             }
           },
           {
@@ -85,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Lakehouse.md",
+                "file": "Attitude.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +292,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Data Lakehouse"
+              "title": "Attitude"
+            }
+          },
+          {
+            "id": "92f40afb662310dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attitude Determination and Control System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Attitude Determination and Control System"
+            }
+          },
+          {
+            "id": "61c23592d4822dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Ground Station.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Ground Station"
+            }
+          },
+          {
+            "id": "500106cb92c344ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Global Navigation Satellite System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Global Navigation Satellite System"
             }
           },
           {
@@ -109,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comma-Separated Values.md",
+                "file": "Medium Earth Orbit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +388,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Comma-Separated Values"
+              "title": "Medium Earth Orbit"
+            }
+          },
+          {
+            "id": "948105b410594d6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Remote Sensing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Remote Sensing"
             }
           },
           {
@@ -277,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Sedona.md",
+                "file": "TorchGeo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +580,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache Sedona"
+              "title": "TorchGeo"
+            }
+          },
+          {
+            "id": "4dc6dc8bbf2c0d1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Interferometric Synthetic Aperture Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Differential Interferometric Synthetic Aperture Radar"
             }
           },
           {
@@ -968,7 +1280,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1000,7 +1312,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "direct georeferenc",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1031,7 +1343,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2487,44 +2800,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "385207db157fc892",
+  "active": "466f1404c54c37fb",
   "lastOpenFiles": [
-    "Global Entity Reference System.md",
-    "Overture Maps Foundation.md",
-    "Geocode.md",
-    "Geocoding Service.md",
-    "DuckDB Labs.md",
-    "DuckLake.md",
-    "dbt.md",
-    "ETL.md",
-    "Yet Another Markup Langauge.md",
-    "Directed Acyclic Graph.md",
-    "Databricks Unity Catalog.md",
-    "OpenStreetMap.md",
-    "Apache Sedona.md",
+    "Remote Sensing.md",
+    "Planet Labs.md",
+    "_attachments/Pasted image 20260418155521.png",
+    "Maxar.md",
+    "_attachments/Pasted image 20260418155447.png",
+    "_attachments/Pasted image 20260418155442.png",
+    "BlackSky.md",
+    "Satellogic.md",
+    "_attachments/Pasted image 20260418155428.png",
+    "_attachments/Pasted image 20260418155424.png",
+    "_attachments/Pasted image 20260418155350.png",
+    "_attachments/Pasted image 20260418155341.png",
+    "_attachments/Pasted image 20260418155335.png",
+    "Microsoft Building Footprints.md",
+    "NASADEM.md",
+    "Shuttle Radar Topography Mission.md",
+    "National Science Foundation.md",
+    "National Center for Atmospheric Research.md",
+    "BEIR.md",
+    "National Geospatial-Intelligence Agency.md",
+    "National Oceanic and Atmospheric Administration.md",
+    "National Aeronautics and Space Administration.md",
+    "Google Open Buildings.md",
+    "Microsoft Planetary Computer.md",
+    "SpatioTemporal Asset Catalog.md",
+    "3DEP.md",
+    "MODIS.md",
+    "MapLibre GL JS.md",
+    "MapLibre.md",
+    "Mapbox GL JS.md",
+    "Mapbox.md",
+    "Leaflet.md",
+    "Magellan.md",
+    "LASer.md",
+    "_attachments/Pasted image 20260418142007.png",
     "_attachments/Pasted image 20260418011250.png",
-    "Untitled 12.md",
-    "SedonaDB.md",
-    "Simple Features Access.md",
-    "Data Lakehouse.md",
-    "Medallion Architecture.md",
-    "Apache Iceberg.md",
-    "Google BigLake.md",
-    "Massively Parallel Processing.md",
-    "Amazon Elastic Map Reduce.md",
-    "Amazon Athena.md",
-    "Amazon Lake Formation.md",
-    "_attachments/Pasted image 20260418003329.png",
-    "Cloud-Native Geospatial.md",
-    "Point Data Abstraction Library.md",
-    "_attachments/Pasted image 20260417175836.png",
-    "_attachments/Pasted image 20260417175530.png",
-    "_attachments/Pasted image 20260417165951.png",
-    "_attachments/Pasted image 20260417163426.png",
-    "_attachments/Pasted image 20260417150722.png",
-    "_attachments/Pasted image 20260417145827.png",
-    "_attachments/Pasted image 20260417145805.png",
-    "_attachments/Pasted image 20260417124944.png",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

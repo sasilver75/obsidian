@@ -10,6 +10,7 @@ aliases:
 In [[Remote Sensing]], there are four types of resolution to consider for any dataset, each of which plays a role in how data from an instrument can be used:
 - ==Radiometric== Resolution: The amount of information in each pixel; the number of bits representing the energy recorded. The higher the radiometric resolution, the more values are available to store information, providing better discrimination between even the slightest differences in energy.
 - ==Spatial== Resolution: The size of each pixel within a digital image, and the area on Earth's surface represented by that pixel.
+	- Seems to mean the same thing as [[Ground Sample Distance]] (GSD).
 - ==Spectral== Resolution: The ability of an instrument to *discern* finer wavelengths; that is, having more and narrower bands.
 	- Many instruments are considered to be [[Multispectral]], meaning they have 3-10 bands.
 	- Some instruments have hundreds to even *thousands* of bands, and are considered to be [[Hyperspectral]].

@@ -6,4 +6,6 @@ The most precise term for what people loosely call "resolution"; The real-world 
 - GSD varies slightly with off-nadir angles; the further the satellite tilts from straight down, the larger the effective GSD.
 
 
+Seems to mean the same thing to me as [[Resolution|Spatial Resolution]].
+
 

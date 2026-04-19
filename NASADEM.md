@@ -1,4 +1,5 @@
-A reprocessed versoin of the original [[Shuttle Radar Topography Mission|SRTM]] data, released by NASA in 2020.
+A reprocessed/improved version of the original [[Shuttle Radar Topography Mission|SRTM]] global [[Digital Elevation Model|DEM]] data, released by NASA in 2020.
+- [[Copernicus DEM|Copernicus]] [[Copernicus DEM|GLO-30]] has largely superseded it.
 
 It uses the ==same raw radar data== from the 2000 SRTM Shuttle mission but ==applies two decades of algorithmic improvements== that weren't available in the original SRTM:
 - Better void filling (steep terrain, shadows)

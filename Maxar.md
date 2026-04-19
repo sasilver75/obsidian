@@ -1,10 +1,17 @@
-A satellite imagery company (Acq. private equity in 2023) that operates a constellation of *==very high resolution* (VHR) commercial optical satellites==:
+---
+aliases:
+  - Vantor
+  - Lanteris
+---
+- [ ] Maxar (rebranded as Maxar Intelligence as  ==Vantor== for intelligence and Maxar Space Systems as ==Lanteris==)
+
+A satellite imagery company (Acq. PE Company Advent Internationalin 2023) that operates a constellation of *==very high resolution* (VHR) commercial optical satellites==:
 - WorldView-1 — 0.5m [[Panchromatic]] only, very fast tasking
 - WorldView-2 — 0.46m pan, 1.8m multispectral (8 bands)
 - WorldView-3 — 0.31m pan, 1.24m multispectral, 3.7m SWIR — the sharpest commercial
  satellite in operation
-- WorldView-4 — 0.31m, but failed in 2019
-- GeoEye-1 — 0.41m pan, 1.65m multispectral
+- ==WorldView==-4 — 0.31m, but failed in 2019
+- ==GeoEye==-1 — 0.41m pan, 1.65m multispectral
 
 ![[Pasted image 20260415205415.png|400]]
 Above: Images from next-gen WorldView Legion satellites (2024)
@@ -17,3 +24,5 @@ Good for:
 Limitations:
 - Expensive to task commercially (~$15-30/km^2), low revisit for any single satellite, and clouds remain a problem, since it's an optical satellite.
 
+
+![[Pasted image 20260418155447.png]]

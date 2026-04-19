@@ -2,7 +2,6 @@
 aliases:
   - HERE
 ---
-
 One of the major commercial map data companies, alongside [[Google Maps]] and TomTom (often collectively called the "big three" in proprietary map data sources, typically having better coverage/consistency/attribute richness than OSM).
 
 It started as Nokia's mapping division, but was sold in 2015 to a consortium of German automakers (e.g. BMW, Daimler, Audi) who wanted to control the map data layer for autonomous vehicles. It's now a standalone companies.

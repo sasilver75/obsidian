@@ -1,8 +1,11 @@
 ---
 aliases:
   - Planet
+  - SkySat
+  - Tanager
 ---
 Now just called Planet, an SF based Earth observation company founded in 2010 by ex-[[National Aeronautics and Space Administration|NASA]] scientists.
+- SkySat is Planet's 50cm tasking capability, absorbed from Terra Bella/Google
 
 Philosophy: Flip the traditional satellite model: Instead of a few expensive, large satellites, build hundreds of cheap small ones.
 
@@ -24,3 +27,6 @@ Above: Planetscope imagery
 
 ![[Pasted image 20260415210300.png]]
 Above: Pelican image of aircraft in Qatar (Doha), October 2025
+
+
+![[Pasted image 20260418155442.png]]

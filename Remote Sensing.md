@@ -1,3 +1,10 @@
+---
+aliases:
+  - Earth Observation
+  - EO
+---
+
+
 The acquisition of information about an object or phenomenon without making physical contact with the object, in contrast to "in situ" or on-site observation.
 - Generally refers to the ==use of satellite or airborne sensor technologies to detect and classify objects on earth==.
 	- In 2008, more than 150 Earth observation satellites were in orbit, rand by 2021, that total had grown to over 950. By 2023, there were 1,167.
@@ -167,3 +174,32 @@ A taxonomy of processing "levels" defined in 1986 by [[National Aeronautics and 
 	- GEO's Global Agriculture Monitoring (GEOGLAM) is developing an Essential Agricultural Variables (EAV) to define the minimum set of variables in order to reinforce the international community's capacity to produce and distribute relevant, timely, and accurate information on agricultural land use and production at national, regional, and global scales.
 
 
+
+
+# Notable Commercial Earth Observation Companies
+- Optical Imaging
+	- [[Planet Labs|Planet]]: Largest constellation, daily global coverage, good for change detection over time
+	- [[Maxar]]: Highest commercial resolution, dominant in US defense/intelligence
+	- [[Satellogic]]: Low-cost high-res and [[Hyperspectral]], disrupting on price
+	- [[BlackSky]]: High-revisit tasking of specific sites with integrated real-time analytics
+	- [[Airbus Pleiades Neo]]: European 30cm competitor to Maxar, strong commercial/gov 
+	- ([[Planet Labs|SkySat]]): Planet's 50cm tasking capability, acq. in 2017 by Planet
+- [[Synthetic Aperture Radar]] (SAR)
+	- [[ICEYE]]: Finnish SAR leader, cloud-penetrating, strong in maritime and disaster response
+	- [[Capella Space]]: US SAR, defense-focused, sub-50cm resolution
+	- [[Umbra]]: Pushing SAR resolution limits (~16cm) with growing defense contracts
+	- [[Synspective]]: Japanese SAR operator with expanding constellation
+- Signals Intelligence
+	- [[HawkEye 360]]: Detects and geolocates radio frequency emissions, ship tracking, [[Automatic Identification System|AIS]] spoofing detection
+	- [[Spire Global]]: GPS radio occultation for weather + AIS ship tracking + RF monitoring
+- Hyperspectral
+	- [[Pixxel]]: Indian startup, hyperspectral constellation for agriculture, environmental monitoring.
+	- [[Planet Labs|Tanager]] (Planet): Methane/Co2 detection from space, climate-focused
+- Platforms/Marketplaces
+	- [[UP42]]: Data marketplace aggregating imagery from multiple providers
+	- [[Maxar SecureWatch]]: Subscription imagery platform widely used in enterprise/government
+
+
+
+
+![[Pasted image 20260418155521.png]]

@@ -7,6 +7,7 @@
 - "==Revisit Time / Revisit Rate==": How frequently a satellite or constellation passes over the same ground location. A single [[Sentinel|Sentinel-2]] satellite has a 10-day revisit, but with both satellites (2A + 2B) combined, it's ~5 days. High revisit is critical for time-series and change detection work.
 	- Compare with "Orbital period"
 - "==Swath Width==": The width of the strip of ground a satellite images on each pass. A wide swath means more area is covered per pass, but often at lower resolution.
+- "==Ground Track==": The path the satellite traces over Earth's surface
 - "==Ground Sample Distance==" ([[Ground Sample Distance|GSD]]): The most precise term for what people loosely call "resolution"; The real-world size represented by one pixel. WorldView-3's 0.31m GSD means each pixel covers a 31cm by 31cm square on the ground.
 	- GSD varies slightly with off-nadir angles; the further the satellite tilts from straight down, the larger the effective GSD.
 - "==Nadir==" vs "==Off-Nadir==":
@@ -66,14 +67,14 @@
 - ==Prograde Orbit==: Orbiting in the same direction as Earth's rotation (west to east). Most satellites are prograde.
 - ==Precession==: The slow rotation of an orbital plane over time due to Earth's equatorial bulge (Earth isn't a perfect sphere). Normally an annoyance that causes orbital drift. [[Sun-Synchronous Orbit|Sun-Synchronous]] orbits deliberately exploit precession: The inclination is tuned so that the plane precesses at exactly 360 degrees a year, keeping the satellite's crossing time synchronized with the sun.
 - ==Ground track==: The path that the satellite traces on the Earth's surface over time. For a [[Sun-Synchronous Orbit|Sun-Synchronous]] satellite, this is a series of parallel descending/ascending strips.
-- ==Look Angle==: The angle between Nadir (the point directly below the satellite) and where the sensor is pointing. Small look angles give better geometry, while large look angles increase distortion and atmosphere path length.
+- ==[[Look Angle]]==: The angle between Nadir (the point directly below the satellite) and where the sensor is pointing. Small look angles give better geometry, while large look angles increase distortion and atmosphere path length.
 - ==Atmospheric drag==: Even at LEO altitudes, there's still trace atmosphere. Drag slowly decays orbits, requires periodic reboosts using onboard thrusters to maintain altitude. The reason why LEO satellites have shorter lifespans.
 - ==J2 perturbation==: The dominant gravitational perturbation from Earth's equatorial bulge, causing orbital plane precession (the same effect that [[Sun-Synchronous Orbit|Sun-Synchronous]] orbits exploit).
 - ==Solar radiation pressure==: Photons from the sun exert a tiny but perceptible force on satellites that matters for orbit determination and altitude control.
 - ==Station Keeping==: The ongoing process of firing thrusters to correct for orbital perturbations (atmospheric drag, J2 perturbation, solar radiation pressure) and maintain the desired orbit.
 	- [[Geostationary Orbit|Geostationary]] satellites need North-South and East-West station keeping.
 	- [[Low Earth Orbit|LEO]] satellites mainly need altitude maintenance.
-- ==Attitude==: The orientation of the satellite in space (roll, pitch, yaw). Not position, attitude is which way it's pointing. This is measured and controlled by ==ADCS systems== (Attitude Determination and Control System), which uses star trackers, sun sensors, magnetometers to determine orientation, and reaction wheels and magnetic torquers to adjust it.
+- ==[[Attitude]]==: The orientation of the satellite in space (roll, pitch, yaw). Not position, attitude is which way it's pointing. This is measured and controlled by ==ADCS systems== ([[Attitude Determination and Control System]]), which uses star trackers, sun sensors, magnetometers to determine orientation, and reaction wheels and magnetic torquers to adjust it.
 	- Reaction wheels are spinning wheels inside the satellite; changing their spin rate transfers angular momentum to the satellite body rotating it. No fuel needed, purely electric.
 - ==Walker Constellation==: A specific orbital configuration of multiple satellites designed to maximize coverage. Used by [[Global Positioning System|GPS]], [[Iridium Satellite Constellation|Iridium]], and many imaging constellations.
 - ==Duty Cycle==: The fraction of time the sensor is actually imaging vs in other modes (downlinking, maneuvering, in eclipse). Power and thermal constraints limit how continuously a satellite can image.
