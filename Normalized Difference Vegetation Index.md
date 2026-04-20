@@ -18,3 +18,4 @@ Limitation:
 - Can saturate in dense canopy conditions, loses accuracy with certain soil types, and is sensitive to certain atmospheric conditions, which can lead to misinterpretation.
 
 
+==NDVI Curve==: The NDVI tracked over time; Corn peaks at a different time than Soy, for instance.

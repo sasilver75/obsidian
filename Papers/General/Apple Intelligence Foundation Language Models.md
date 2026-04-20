@@ -2,6 +2,7 @@
 aliases:
   - AFM
   - Apple Foundation Model
+  - Google Satellite Embedding Dataset
 ---
 
 July 29, 2024
@@ -14,6 +15,8 @@ Takeaway: Apple Foundation Models is a suite of models for various tasks; this p
 
 Notes:
 - Note that the represent the values of the adapters using 16 bits, while the main model is ~3.7 bit quantized; this is why they can't just merge back in the common accuracy-recovering part of the adapter.
+
+
 
 References:
 - Blog: [Swyx's AINews Apple Intelligence](https://buttondown.email/ainews/archive/ainews-apple-intelligence/)

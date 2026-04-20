@@ -4,22 +4,23 @@
 - "==Aquisition==": The act of a satellite capturing imagery over a specific location
 - "==Tasking==": Instructing a satellite to acquire imagery of a specific location at a specific time.
 	- Commercial satellites like [[Maxar]]'s are ==taskable==; you pay to point them where you want. Contrast this with ==survey mode== satellites like [[Planet Labs|Planet]]'s Doves, which just image everything below them continuously without being directed at specific targets.
+		- Note: "Systematic" is the inverse of "Taskable", from an operating mode perspective. "Survey mode" refers to a specific imaging mode, where the sensor sweeps a continuous strip along the ground track at a consistent resolution and swath width; they often coincide (i.e. [[Sentinel|Sentinel-1]] operating systematically and in stripmap mode (as survey mode is called in [[Synthetic Aperture Radar|SAR]])), but they *can* come apart: A tasked satellite like [[Maxar|WorldView]] can still use a stripmap-style collection mode, it just do so on request.
 - "==Revisit Time / Revisit Rate==": How frequently a satellite or constellation passes over the same ground location. A single [[Sentinel|Sentinel-2]] satellite has a 10-day revisit, but with both satellites (2A + 2B) combined, it's ~5 days. High revisit is critical for time-series and change detection work.
 	- Compare with "Orbital period"
-- "==Swath Width==": The width of the strip of ground a satellite images on each pass. A wide swath means more area is covered per pass, but often at lower resolution.
+- "==[[Swath]] Width==": The width of the strip of ground a satellite images on each pass. A wide swath means more area is covered per pass, but often at lower resolution.
 - "==Ground Track==": The path the satellite traces over Earth's surface
 - "==Ground Sample Distance==" ([[Ground Sample Distance|GSD]]): The most precise term for what people loosely call "resolution"; The real-world size represented by one pixel. WorldView-3's 0.31m GSD means each pixel covers a 31cm by 31cm square on the ground.
 	- GSD varies slightly with off-nadir angles; the further the satellite tilts from straight down, the larger the effective GSD.
-- "==Nadir==" vs "==Off-Nadir==":
+- [[Nadir]] vs [[Nadir|Off-Nadir]]:
 	- Nadir is the the point directly below the satellite; a straight-down look angle.
 	- Off-nadir is when the satellite tilts to image a target to the "side"; taskable satellites can tilt significantly (WorldView-3 up to ~45 degrees) to increase revisit flexibility or collect stereo pairs.
 		- Results in larger effective GSD, more geometric distortion, and more visible building/terrain lean.
-- "==Footprint=="
+- "==[[Footprint]]=="
 	- The geographic area (polygon) covered by a single scene or image acquisition. Also used for a satellite's instantaneous field of view projected onto the ground.
 - "==Scene== / ==Strip== / [[Tile]]"
 	- Strip: The continuous ribbon of imagery collected during one pass, before being cut into scenes.
-	- Scene: A discrete image product, usually with a fixed-size geoegraphic chunk (e.g. 100km x 100km tiles)
-	- Tile: Often used interchangably with scene, or specifically for pre-defined grid cells (e.g. XYZ web tiles, MGRS tiles, H3 cells)
+	- Scene: A discrete image product, usually with a fixed-size geographic chunk (e.g. 100km x 100km tiles)
+	- Tile: Often used interchangeably with scene, or specifically for pre-defined grid cells (e.g. XYZ web tiles, MGRS tiles, H3 cells)
 - ==[[Orthoimage|Orthorectification]]==
 	- Correcting for terrain distortion and sensor geometry so the image is planimetrically accurate.
 - [[Analysis Ready Data]] (ARD)
@@ -45,7 +46,7 @@
 	- A standard JSON spec for cataloging geospatial assets with spatial extent, time range, and links to actual files. 
 	- Lets you query: "Give me all [[Sentinel|Sentinel-2]] scenes over this bbox with <20% cloud cover between these dates" via a standard API.
 	- [[Microsoft Planetary Computer]] and [[Element84 Earth Search]] are the major public STAC holds.
-- Area of Interest (AOI)
+- [[Area of Interest]] (AOI)
 	- The geographic region you're working on. Universally used abbreviation in geospatial work.
 - [[Digital Elevation Model]] (DEM)
 	- Generic term for *any* elevation raster
@@ -92,6 +93,10 @@
 	- BRDF (Bidirectional Reflectance Distribution Function): How a surface reflects light differently depending on the illumination angle and viewing angle. A forest reflects very differently depending on if you look at it from directly above vs at an oblique angle.
 	- Emissivity: How efficiently a surface radiates thermal energy compared to a perfect blackbody. Water is ~0.99, dry sand is ~0.84.
 
+
+## Satellite Operational Modes: Tasked vs Systematic Acquisition
+1. ==Systematic==: Satellite collects everything in its swath continuously, regardless of specific requests. [[Sentinel|Sentinel-1]] and [[Sentinel|Sentinel-2]] operate this way, they just image everything on a fixed schedule.
+2. ==Tasked==: A customer or operator directs the satellite to a specific target. This is how [[Maxar]]'s [[Maxar|WorldView]] operates: someone pays to point the satellite at a location (finite resource, competing requests, priority queueing).
 
 
 

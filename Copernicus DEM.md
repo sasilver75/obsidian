@@ -7,8 +7,9 @@ aliases:
 
 
 
-A ==free==, global [[Digital Elevation Model]] dataset derived from Airbus's [[WorldDEM]] dataset
+A ==free==, global [[Digital Elevation Model]] dataset derived from Airbus's [[WorldDEM]] dataset (so derived from [[TanDEM-X]] radar interferometry)
 - It's a processed, edited, and hydrologically conditioned version of the TanDEM-X data, downsampled from 12m to 30m (GLO-30) and 90m (GLO-90)
+- ==The highest resolution freely available global DEM (as of 2026) @ 30m==
 
 The editing is important: The raw interferometric DEM has artifacts over water bodies (radar phase over water is noisy), voids over steep terrain, and other issues.
 - Result is ==cleaner and more usable than raw WorldDEM data==.

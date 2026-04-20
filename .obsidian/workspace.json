@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud-Native Geospatial.md",
+                "file": "AlphaEarth Foundations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,511 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cloud-Native Geospatial"
+              "title": "AlphaEarth Foundations"
+            }
+          },
+          {
+            "id": "181deb322f8969ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PALSAR.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PALSAR"
+            }
+          },
+          {
+            "id": "9fbbb7954edee3f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acquisition.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Acquisition"
+            }
+          },
+          {
+            "id": "79292f4b84f33eef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Very High Resolution.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Very High Resolution"
+            }
+          },
+          {
+            "id": "bfe3bb81e0d72c0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthetic Aperture Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Synthetic Aperture Radar"
+            }
+          },
+          {
+            "id": "c0de23f3fa36a207",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TESSERA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TESSERA"
+            }
+          },
+          {
+            "id": "d33e17093bcff75d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AlphaEarth Foundations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AlphaEarth Foundations"
+            }
+          },
+          {
+            "id": "a02a787d60436ef6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mosaic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mosaic"
+            }
+          },
+          {
+            "id": "d877cc7f5f1821a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maxar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maxar"
+            }
+          },
+          {
+            "id": "88e8405f11b2ccdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maxar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maxar"
+            }
+          },
+          {
+            "id": "22a78606934a0e90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthetic Aperture Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Synthetic Aperture Radar"
+            }
+          },
+          {
+            "id": "2163276ce245fef9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Area of Interest.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Area of Interest"
+            }
+          },
+          {
+            "id": "a3d4441ce83c45dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mosaic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mosaic"
+            }
+          },
+          {
+            "id": "ddc30245e7169149",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Remote Sensing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Remote Sensing"
+            }
+          },
+          {
+            "id": "2430c7c292a39b54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geospatial Embedding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geospatial Embedding"
+            }
+          },
+          {
+            "id": "110e84c55ddfcec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ImageNet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ImageNet"
+            }
+          },
+          {
+            "id": "ee00eff73b966abc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Supervised Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Self-Supervised Learning"
+            }
+          },
+          {
+            "id": "578f388769e8c029",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dropout.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dropout"
+            }
+          },
+          {
+            "id": "0d118a99fdb4b67c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HLS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HLS"
+            }
+          },
+          {
+            "id": "fcb2990d60532714",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Agriculture Imagery Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Agriculture Imagery Program"
+            }
+          },
+          {
+            "id": "e3ffc13ce0e82498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geospatial Embedding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geospatial Embedding"
+            }
+          },
+          {
+            "id": "0168f36e3bdbc667",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Agriculture Imagery Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Agriculture Imagery Program"
             }
           },
           {
@@ -133,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compression.md",
+                "file": "OWL-ViT.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +652,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Compression"
+              "title": "OWL-ViT"
+            }
+          },
+          {
+            "id": "f67d4a62f98a0a36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swath.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Swath"
+            }
+          },
+          {
+            "id": "5caa217298d3075e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Footprint.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Footprint"
+            }
+          },
+          {
+            "id": "3dc5706d48a831c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Area of Interest.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Area of Interest"
+            }
+          },
+          {
+            "id": "2faf526415abf084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TorchGeo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TorchGeo"
             }
           },
           {
@@ -824,7 +1424,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -856,7 +1456,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "archive",
+                "query": "slew",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2344,44 +2944,43 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b1f977e712289370",
+  "active": "79292f4b84f33eef",
   "lastOpenFiles": [
-    "HTTP Range Request.md",
-    "Hilbert Curve.md",
-    "gzip.md",
-    "Compression.md",
-    "Cloud-Native Geospatial.md",
-    "PMTiles.md",
-    "MBTile.md",
+    "Ground-Penetrating Radar.md",
+    "_attachments/Pasted image 20260419195526.png",
+    "Synthetic Aperture Radar.md",
+    "TESSERA.md",
+    "AlphaEarth Foundations.md",
+    "Mosaic.md",
+    "_attachments/Pasted image 20260419191046.png",
+    "Satellite.md",
+    "Maxar.md",
+    "Acquisition.md",
+    "Moderate Resolution Imaging Spectroradiometer.md",
+    "PALSAR.md",
+    "Backscatter.md",
+    "Area of Interest.md",
+    "Attitude.md",
+    "Slew.md",
+    "Task.md",
+    "Ephemeris.md",
+    "_attachments/Pasted image 20260419185727.png",
+    "TanDEM-X.md",
+    "Copernicus DEM.md",
+    "Very High Resolution.md",
+    "Shuttle Radar Topography Mission.md",
     "Ground Control Point.md",
-    "Geotransform.md",
-    "GeoPackage.md",
-    "GeoJSON.md",
-    "Archive.md",
-    "_attachments/Pasted image 20260419130302.png",
-    "FlatGeobuf.md",
-    "R-Tree.md",
-    "GeoParquet.md",
-    "_attachments/Pasted image 20260419122500.png",
-    "Cloud-Optimized Point Cloud.md",
-    "Fields of the World.md",
-    "Cloud-Optimized GeoTIFF.md",
-    "Kerchunk.md",
-    "Zarr.md",
-    "RasterFlow.md",
-    "_attachments/Pasted image 20260419113821.png",
-    "_attachments/Pasted image 20260419113820.png",
-    "_attachments/Pasted image 20260419110130.png",
-    "_attachments/Pasted image 20260419015943.png",
-    "_attachments/Pasted image 20260419015921.png",
-    "_attachments/Pasted image 20260419015847.png",
-    "Icechunk.md",
-    "_attachments/Pasted image 20260419015658.png",
-    "_attachments/Pasted image 20260419015645.png",
-    "Geospatial Embedding.md",
-    "Clay.md",
-    "ETL.md",
-    "Google BigLake.md",
+    "Planet Labs.md",
+    "Ground Station.md",
+    "GeoChat.md",
+    "RemoteCLIP.md",
+    "_attachments/Pasted image 20260419162712.png",
+    "_attachments/Pasted image 20260419161909.png",
+    "_attachments/Pasted image 20260419161039.png",
+    "_attachments/Pasted image 20260419161020.png",
+    "_attachments/Pasted image 20260419161002.png",
+    "_attachments/Pasted image 20260419155715.png",
+    "_attachments/Pasted image 20260419151510.png",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

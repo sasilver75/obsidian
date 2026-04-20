@@ -1,6 +1,7 @@
 ---
 aliases:
   - GDAL
+  - OGR
 ---
 [[Geospatial Data Abstraction Library|GDAL]], [[GEOS]], and [[PROJ]]  are three C libraries  that underpin almost all geospatial software. You rarely call them directly; they're the engine under tools like [[PostGIS]], [[Shapely]], [[QGIS]], and more.
 
@@ -8,7 +9,8 @@ GDAL is foundational for reading and writing both raster and vector geospatial d
 
 GDAL is two things that got merged:
 - ==GDAL proper==: *Raster* formats ([[GeoTIFF]], [[Cloud-Optimized GeoTIFF|COG]], [[HDF5]], [[NetCDF]], [[Zarr]], etc.)
-- ==OGR==: *Vector* formats ([[Shapefile]], [[GeoJSON]], [[GeoPackage]], [[PostGIS]], etc.)
+- ==OGR==: *Vector* formats ([[Shapefile]], [[GeoJSON]], [[GeoPackage]], [[PostGIS]], etc
+	- Used for converting between different vector data formats, as well as reprojecting between [[Coordinate Reference System|CRS]]s.
 
 It provides a unified API so that you can write one piece of code that works across hundreds of formats.
 

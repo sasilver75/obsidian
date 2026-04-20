@@ -1,6 +1,8 @@
 ---
 aliases:
   - SSL
+  - Self-Supervised
+  - Self-Supervision
 ---
 A paradigm of ML in which the model is trained on data that *provides its own labels* -- we leverage the structure of the data itself to create labels that are already inherent to the data, removing the need for manual labeling.
 

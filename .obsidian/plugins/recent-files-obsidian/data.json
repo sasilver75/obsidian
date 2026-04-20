@@ -1,160 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Compression",
-      "path": "Compression.md"
+      "basename": "Very High Resolution",
+      "path": "Very High Resolution.md"
     },
     {
-      "basename": "HTTP Range Request",
-      "path": "HTTP Range Request.md"
+      "basename": "Ground-Penetrating Radar",
+      "path": "Ground-Penetrating Radar.md"
     },
     {
-      "basename": "Hilbert Curve",
-      "path": "Hilbert Curve.md"
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
     },
     {
-      "basename": "gzip",
-      "path": "gzip.md"
+      "basename": "TESSERA",
+      "path": "TESSERA.md"
     },
     {
-      "basename": "Cloud-Native Geospatial",
-      "path": "Cloud-Native Geospatial.md"
+      "basename": "AlphaEarth Foundations",
+      "path": "AlphaEarth Foundations.md"
     },
     {
-      "basename": "PMTiles",
-      "path": "PMTiles.md"
+      "basename": "Mosaic",
+      "path": "Mosaic.md"
     },
     {
-      "basename": "MBTile",
-      "path": "MBTile.md"
+      "basename": "Satellite",
+      "path": "Satellite.md"
     },
     {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
+      "basename": "Maxar",
+      "path": "Maxar.md"
     },
     {
-      "basename": "Geotransform",
-      "path": "Geotransform.md"
+      "basename": "Acquisition",
+      "path": "Acquisition.md"
     },
     {
-      "basename": "GeoPackage",
-      "path": "GeoPackage.md"
+      "basename": "Moderate Resolution Imaging Spectroradiometer",
+      "path": "Moderate Resolution Imaging Spectroradiometer.md"
     },
     {
-      "basename": "GeoJSON",
-      "path": "GeoJSON.md"
+      "basename": "PALSAR",
+      "path": "PALSAR.md"
     },
     {
-      "basename": "Archive",
-      "path": "Archive.md"
+      "basename": "Backscatter",
+      "path": "Backscatter.md"
     },
     {
-      "basename": "FlatGeobuf",
-      "path": "FlatGeobuf.md"
-    },
-    {
-      "basename": "R-Tree",
-      "path": "R-Tree.md"
-    },
-    {
-      "basename": "GeoParquet",
-      "path": "GeoParquet.md"
-    },
-    {
-      "basename": "Cloud-Optimized Point Cloud",
-      "path": "Cloud-Optimized Point Cloud.md"
-    },
-    {
-      "basename": "Fields of the World",
-      "path": "Fields of the World.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
-    },
-    {
-      "basename": "Kerchunk",
-      "path": "Kerchunk.md"
-    },
-    {
-      "basename": "Zarr",
-      "path": "Zarr.md"
-    },
-    {
-      "basename": "RasterFlow",
-      "path": "RasterFlow.md"
-    },
-    {
-      "basename": "Icechunk",
-      "path": "Icechunk.md"
-    },
-    {
-      "basename": "Geospatial Embedding",
-      "path": "Geospatial Embedding.md"
-    },
-    {
-      "basename": "Clay",
-      "path": "Clay.md"
-    },
-    {
-      "basename": "ETL",
-      "path": "ETL.md"
-    },
-    {
-      "basename": "Google BigLake",
-      "path": "Google BigLake.md"
-    },
-    {
-      "basename": "Apache Sedona",
-      "path": "Apache Sedona.md"
-    },
-    {
-      "basename": "Directed Acyclic Graph",
-      "path": "Directed Acyclic Graph.md"
-    },
-    {
-      "basename": "Geocode",
-      "path": "Geocode.md"
-    },
-    {
-      "basename": "Differential Interferometric Synthetic Aperture Radar",
-      "path": "Differential Interferometric Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "TorchGeo",
-      "path": "TorchGeo.md"
-    },
-    {
-      "basename": "dbt",
-      "path": "dbt.md"
-    },
-    {
-      "basename": "Medallion Architecture",
-      "path": "Medallion Architecture.md"
-    },
-    {
-      "basename": "Optimized Row Columnar",
-      "path": "Optimized Row Columnar.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
-    },
-    {
-      "basename": "Medium Earth Orbit",
-      "path": "Medium Earth Orbit.md"
-    },
-    {
-      "basename": "Global Navigation Satellite System",
-      "path": "Global Navigation Satellite System.md"
-    },
-    {
-      "basename": "Amazon Ground Station",
-      "path": "Amazon Ground Station.md"
-    },
-    {
-      "basename": "Attitude Determination and Control System",
-      "path": "Attitude Determination and Control System.md"
+      "basename": "Area of Interest",
+      "path": "Area of Interest.md"
     },
     {
       "basename": "Attitude",
@@ -165,40 +61,144 @@
       "path": "Slew.md"
     },
     {
-      "basename": "Nadir",
-      "path": "Nadir.md"
+      "basename": "Task",
+      "path": "Task.md"
+    },
+    {
+      "basename": "Ephemeris",
+      "path": "Ephemeris.md"
+    },
+    {
+      "basename": "TanDEM-X",
+      "path": "TanDEM-X.md"
+    },
+    {
+      "basename": "Copernicus DEM",
+      "path": "Copernicus DEM.md"
     },
     {
       "basename": "Shuttle Radar Topography Mission",
       "path": "Shuttle Radar Topography Mission.md"
     },
     {
-      "basename": "Satellogic",
-      "path": "Satellogic.md"
+      "basename": "Ground Control Point",
+      "path": "Ground Control Point.md"
     },
     {
       "basename": "Planet Labs",
       "path": "Planet Labs.md"
     },
     {
-      "basename": "rasterio",
-      "path": "rasterio.md"
+      "basename": "Ground Station",
+      "path": "Ground Station.md"
     },
     {
-      "basename": "Maxar",
-      "path": "Maxar.md"
+      "basename": "GeoChat",
+      "path": "GeoChat.md"
     },
     {
-      "basename": "BlackSky",
-      "path": "BlackSky.md"
+      "basename": "RemoteCLIP",
+      "path": "RemoteCLIP.md"
     },
     {
-      "basename": "Microsoft Building Footprints",
-      "path": "Microsoft Building Footprints.md"
+      "basename": "GeoCLIP",
+      "path": "GeoCLIP.md"
     },
     {
-      "basename": "NASADEM",
-      "path": "NASADEM.md"
+      "basename": "SatCLIP",
+      "path": "SatCLIP.md"
+    },
+    {
+      "basename": "Apple Intelligence Foundation Language Models",
+      "path": "Papers/General/Apple Intelligence Foundation Language Models.md"
+    },
+    {
+      "basename": "SkySense",
+      "path": "SkySense.md"
+    },
+    {
+      "basename": "Geospatial Embedding",
+      "path": "Geospatial Embedding.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "GEO-Bench",
+      "path": "GEO-Bench.md"
+    },
+    {
+      "basename": "Fields of the World",
+      "path": "Fields of the World.md"
+    },
+    {
+      "basename": "SpaceNet",
+      "path": "SpaceNet.md"
+    },
+    {
+      "basename": "ImageNet",
+      "path": "ImageNet.md"
+    },
+    {
+      "basename": "SEN12MS",
+      "path": "SEN12MS.md"
+    },
+    {
+      "basename": "Renaissance Philanthropy",
+      "path": "Renaissance Philanthropy.md"
+    },
+    {
+      "basename": "Google Earth Engine",
+      "path": "Google Earth Engine.md"
+    },
+    {
+      "basename": "National Aeronautics and Space Administration",
+      "path": "National Aeronautics and Space Administration.md"
+    },
+    {
+      "basename": "Surface Reflectance",
+      "path": "Surface Reflectance.md"
+    },
+    {
+      "basename": "Microsoft Planetary Computer",
+      "path": "Microsoft Planetary Computer.md"
+    },
+    {
+      "basename": "BigEarthNet",
+      "path": "BigEarthNet.md"
+    },
+    {
+      "basename": "PANGAEA",
+      "path": "PANGAEA.md"
+    },
+    {
+      "basename": "AlphaGo",
+      "path": "AlphaGo.md"
+    },
+    {
+      "basename": "National Agriculture Imagery Program",
+      "path": "National Agriculture Imagery Program.md"
+    },
+    {
+      "basename": "Clay",
+      "path": "Clay.md"
+    },
+    {
+      "basename": "Self-Supervised Learning",
+      "path": "Self-Supervised Learning.md"
+    },
+    {
+      "basename": "Prithvi 2.0",
+      "path": "Prithvi 2.0.md"
+    },
+    {
+      "basename": "Dropout",
+      "path": "Dropout.md"
+    },
+    {
+      "basename": "Prithvi",
+      "path": "Prithvi.md"
     }
   ],
   "omittedPaths": [],

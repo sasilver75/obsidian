@@ -11,8 +11,8 @@ An algorithm that makes data smaller, at the cost of having to encode data into 
 
 
 # Lossy vs Lossless Compression
-- ==Lossy Compression==: 
-- ==Lossless Compression==: A type of compression where the exact original values **can** be recovered after decompression. This means that the compression process does not lose any information. Lossless compression codecs tend to give larger file sizes than lossy compression codecs.
+- ==Lossy Compression==: A type of compression where the exact original values CANNOT  be recovered after decompression, meaning the compression process permanently loses information. Tend to give smaller file sizes than Lossless Compression. [[Joint Photographic Experts Group|JPEG]], LERC.
+- ==Lossless Compression==: A type of compression where the exact original values **can** be recovered after decompression. This means that the compression process does not lose any information. Lossless compression codecs tend to give larger file sizes than lossy compression codecs. [[gzip]], deflate, LZW, ZSTD
 
 
 # External vs Internal Compression

@@ -3,7 +3,7 @@ aliases:
   - Mercator Projection
   - Web Mercator
 ---
-The Web Mercator is the de-facto standard for Web mapping applications. It rose to prominence when Google Maps adopted it in 2005.
+A [[Coordinate Reference System]] (projection) that is the de-facto standard for tiled data in web mapping applications. It rose to prominence when Google Maps adopted it in 2005.
 
 
 ![[Pasted image 20260411185815.png|400]]

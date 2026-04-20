@@ -1,3 +1,9 @@
+---
+aliases:
+  - Spatial Index
+---
+
+
 Geospatial indexes solve a fundamental problem: standard database indexes ([[B-Tree]]s) work on *one-dimensional* ordered values, but spatial data is inherently *two-dimensional.*
 - You can't sort points by latitude and longitude simultaneously in a way that preserves proximity!
 

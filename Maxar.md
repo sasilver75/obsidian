@@ -2,10 +2,12 @@
 aliases:
   - Vantor
   - Lanteris
+  - WorldView
+  - GeoEye
 ---
-- [ ] Maxar (rebranded as Maxar Intelligence as  ==Vantor== for intelligence and Maxar Space Systems as ==Lanteris==)
+Note: Maxar rebranded Maxar Intelligence as  [[Maxar|Vantor]] and Maxar Space Systems as [[Maxar|Lanteris]]
 
-A satellite imagery company (Acq. PE Company Advent Internationalin 2023) that operates a constellation of *==very high resolution* (VHR) commercial optical satellites==:
+A satellite imagery company (Acq. PE Company Advent International 2023) that operates a constellation of *==very high resolution* (VHR) commercial optical satellites==:
 - WorldView-1 — 0.5m [[Panchromatic]] only, very fast tasking
 - WorldView-2 — 0.46m pan, 1.8m multispectral (8 bands)
 - WorldView-3 — 0.31m pan, 1.24m multispectral, 3.7m SWIR — the sharpest commercial

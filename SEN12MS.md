@@ -1,0 +1,7 @@
+June 18, 2019
+[Arxiv Link](https://arxiv.org/abs/1906.07789)
+
+  A curated dataset of co-registered Sentinel-1 SAR + Sentinel-2 optical patch pairs, sampled globally across all four seasons. Designed specifically to enable research on multi-modal and  multi-seasonal EO classification.
+  
+Abstract
+> The availability of curated ==large-scale training data== is a crucial factor for the development of well-generalizing deep learning methods for the extraction of geoinformation from multi-sensor remote sensing imagery. While quite some datasets have already been published by the community, most of them suffer from rather strong limitations, e.g. regarding spatial coverage, diversity or simply number of available samples. Exploiting the freely available data acquired by the Sentinel satellites of the ==[[Copernicus DEM|Copernicus]]== program implemented by the European Space Agency, as well as the cloud computing facilities of [[Google Earth Engine]], we provide a dataset consisting of 180,662 triplets of dual-pol [[Synthetic Aperture Radar]] (SAR) image patches, multi-spectral [[Sentinel|Sentinel-2]]] image patches, and [[Moderate Resolution Imaging Spectroradiometer|MODIS]] land cover maps. With all patches being fully georeferenced at a 10 m ground sampling distance and covering all inhabited continents during all meteorological seasons, we expect the dataset to support the community in developing sophisticated deep learning-based approaches for common tasks such as scene classification or semantic segmentation for land cover mapping.

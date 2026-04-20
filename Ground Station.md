@@ -9,6 +9,7 @@ During a pass:
 1. Satellite comes over horizon
 2. Ground station antenna tracks it across the sky
 3. Satellite downloads collected imagery/data at high bandwidth
+	- "==Downlinking=="
 4. Ground station uplinks commands for the next orbit (tasking, attitude adjustments)
 5. Satellite disappears below horizon, and contact is lost
 

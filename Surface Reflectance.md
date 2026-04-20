@@ -47,7 +47,7 @@ Common approaches:
 - MODTRAN/6S/libRadtran
 	- Physics-based simulation of how light travels through atmosphere; much more accurate but requires auxiliary atmosphere data.
 - LaSRC ([[Landsat]])
-	- Uses [[MODIS]]-derived aerosol data, applies 6S-based radiative transfer
+	- Uses [[Moderate Resolution Imaging Spectroradiometer|MODIS]]-derived aerosol data, applies 6S-based radiative transfer
 - Sen2Cor ([[Sentinel|Sentinel-2]])
 	- Similar approach to above, uses scene-derived atmospheric estimates
 

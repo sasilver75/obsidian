@@ -13,7 +13,7 @@ Provides a data catalog over:
 - [[Sentinel|Sentinel-2]] L2A
 - NAIP imagery
 - [[Copernicus DEM]] 
-- [[MODIS]] products
+- [[Moderate Resolution Imaging Spectroradiometer|MODIS]] products
 - [[Microsoft Building Footprints]]
 - [[United States Geological Survey|USGS]] [[3DEP]] [[Light Detection and Ranging|LiDAR]] in [[Cloud-Optimized Point Cloud|COPC]]
 - ERA5 climate reanalysis

@@ -10,4 +10,5 @@ The ==formation flying is the key innovation==; like [[Shuttle Radar Topography 
 
 The ==primary product== was the [[WorldDEM]], a ==global [[Digital Elevation Model|DEM]] at 12m resolution== with ~2 relative vertical accuracy and ~10m absolute vertical accuracy.
 - ==Significantly better than SRTM in both resolution and accuracy.==
+- I believe (2026) ==this is the highest resolution global DEM==, with the best free/public one being Copernicus [[Copernicus DEM|GLO-30]], which is derived from this.
 

@@ -1,4 +1,6 @@
 A path through space that visits every point in a 2D (or higher) area, while remaining a continuous 1D curve.
+- An algorithm that translates two- or n-dimensional data into one-dimensional data. 
+- Useful as part of [[Geospatial Index]]es to group vector geometries nearby within a file according to their two-dimensional location, or as part of [[Discrete Global Grid System|DGGS]]s like [[S2 Geometry|S2]] to make nearby cells be nearby in ID.
 
 The key idea: You're creating a mapping from a 1D line to a 2D space that preserves notion of locality. 
 
