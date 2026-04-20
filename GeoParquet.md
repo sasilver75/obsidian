@@ -6,7 +6,7 @@ See also:
 	- While GeoParquet is great for things like building footprints, road networks, and POIs, COGs are great for elevation data, satellite imagery, and land cover classification.
 
 
-An cloud-optimized file format for storing geospatial [[Vector]] data (points, lines, polygons) in [[Apache Parquet|Parquet]], a popular columnar storage format for tabular data. Adds how to encode geometries in the geometry column, and how to include metadata like the geometries' [[Coordinate Reference System]] and bounding box.
+An ==cloud-optimized file format for storing geospatial [[Vector]] data (==points, lines, polygons) in [[Apache Parquet|Parquet]], a popular ==columnar storage format== for tabular data. Adds how to encode geometries in the geometry column, and how to include metadata like the geometries' [[Coordinate Reference System]] and bounding box.
 - GeoParquet stores geometries in standard [[Well-Known Binary]] (WKB), so it supports any vector geometry type defined in the [[Simple Features Access|OGC Simple Features]] specification.
 - Any program that can read Parquet can read GEoParquet as well, even if it doesn't make sense of the geometry information.
 

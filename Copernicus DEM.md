@@ -1,11 +1,9 @@
 ---
 aliases:
-  - Copernicus
   - GLO-30
   - GLO-90
+  - Copernicus
 ---
-
-
 
 A ==free==, global [[Digital Elevation Model]] dataset derived from Airbus's [[WorldDEM]] dataset (so derived from [[TanDEM-X]] radar interferometry)
 - It's a processed, edited, and hydrologically conditioned version of the TanDEM-X data, downsampled from 12m to 30m (GLO-30) and 90m (GLO-90)

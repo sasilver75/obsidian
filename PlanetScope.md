@@ -13,5 +13,5 @@ Good for:
 
 Limitations
 - 3-4m resolution is coarser than Maxar; less useful for counting individual objects.
-	- ==[[Planet Labs]]: Coarser but daily; [[Maxar]]: Sharper but infrequent; [[Sentinel-2]]: Free, 10m every 5 days==
+	- ==[[Planet Labs]]: Coarser but daily; [[Maxar]]: Sharper but infrequent; [[Sentinel|Sentinel-2]]: Free, 10m every 5 days==
 - Access is subscription-based and expensive for commercial use, though Planet has a Education and Research program.

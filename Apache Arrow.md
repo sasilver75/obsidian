@@ -2,16 +2,20 @@
 aliases:
   - PyArrow
   - Arrow
+  - Arrow Flight
+  - Arrow IPC
 ---
----
-
-
-An ==in-memory columnar tabular data format==.
-- A specification for how to lay out tabular data in RAM so that ==different tools can share it without copying or serializing==. Think of it as a ==common language for data in memory==.
+An ==in-memory columnar tabular data format==, essentially a spec. for how to lay out tabular data in RAM so that different tools can ==share it without copying or serializing==.
 	- If [[Pandas]], [[DuckDB]], and some custom C++ tool all agree to use Arrow's memory layout, they can pass data between eachother as a pointer (zero copy, zero serialization). This is the "==zero-copy IPC (inter-process communication==" that makes modern data pipelines fast!
+	-  [[Pandas]], [[DuckDB]], [[Apache Spark|Spark]], [[Polars]], [[Google BigQuery|BigQuery]] etc. cna all speak Arrow natively.
 
 ==Arrow is NOT a file format, it is a MEMORY FORMAT.==
-- (There's an Arrow IPC file format for streaming/saving Arrow data, but that's secondary)
+- [[Apache Arrow|Arrow]] format: The specification (language agnostic)
+- [[Apache Arrow|PyArrow]]: Python bindings
+- [[Apache Arrow|Arrow Flight]]: The RPC protocol for sending Arrow data over a network efficiently
+- [[Apache Arrow|Arrow IPC]]: The file/stream format for persisting Arrow datas
+
+The "[[Modern Data Stack]]" ([[DuckDB]] + [[Polars]] + [[Apache Parquet|Parquet]] + [[Apache Arrow|Arrow]]) is fast largely because data moves between tools without ever being deserialized, it's just passing points to shared memory buffers.
 
 
 ## Relation to [[Apache Parquet|Parquet]]

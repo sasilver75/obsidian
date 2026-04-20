@@ -2,7 +2,7 @@
 aliases:
   - NAIP
 ---
-Ran by the USDA Farm Service Agency (FSA). The highest-resolution free optical data available for the US; sub-meter, vs [[Sentinel|Sentinel-2]]'s 10m.
+Ran by the USDA Farm Service Agency (FSA). The ==highest-resolution free optical data available for the US==; ==sub-meter, vs [[Sentinel|Sentinel-2]]'s 10m==.
 - Contracts aerial survey flights (planes, not satellites) over the continental US
 
 Specs:

@@ -1,5 +1,11 @@
+---
+aliases:
+  - GeoZarr
+---
+
+
 References:
-- Cloud-Optimized Geospatial Formats Guide: Zarr
+- [Cloud-Optimized Geospatial Formats Guide: Zarr](https://guide.cloudnativegeo.org/overview.html#/what-is-zarr)
 
 > Zarr is a format for storing large-scale, compressed  n-dimensional or [[Raster]] data that's too big for users' machines; Zarr makes data small and organizes it in a way where users can take just the chunks they need, or distribute the load of processing these chunks across many machines.
 > A Zarr chunk is an equally-sized block of the array in a larger Zarr store. Zarr chunks are normally stored in separate objects in object storage to make reading and updating individual chunks more efficient.

@@ -1,7 +1,6 @@
-DuckDB is an ==in-process analytical database== (an ==embedded== SQL database), running inside your Python process, rather than as a separate server.
-- It's free and open source (MIT LIcense)
-- No open source dependencies.
-- Primarily written in C++
+DuckDB is an ==in-process [[Online Analytical Processing|OLAP]] database== (an ==embedded== SQL database), running inside your Python process (in C++, loaded into the Python process as a native extension; runs in the same memory), rather than as a separate server.
+- It's free and open source (MIT License)
+- Great at querying [[Apache Parquet|Parquet]], [[Comma-Separated Values|CSV]], and [[JSON]] files directly (`SELECT * FROM 'file.parquet'`), good for fast local ETL and data exploration, and is replacing heavy [[Apache Spark|Spark]] and [[Snowflake]] setups for medium-scale data (GBs, not PBs).
 
 ==DuckDB is not an in-memory DB==! Similar to SQLite, one database is represented as one file, so it's very easy to share, back up, etc.
 - Has [[ACID]] properties [[Transaction]].

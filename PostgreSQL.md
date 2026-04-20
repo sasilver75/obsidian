@@ -291,7 +291,7 @@ Above: Example of **Table Partitioning**
 ==**In your interview, emphasize that replication isn't just about scaling reads, it's also about reliability!**==
 - "We'll use replication not just to increase read throughput by distributing reads across the replicas, but also because replication allows our service to stay available even if we lose a database node."
 
-==Most teams use a managed PostgreSQL service like [[AWS RDS]]==, which handle the complexities of failover automatically.
+==Most teams use a managed PostgreSQL service like [[AWS Relational Data Store]]==, which handle the complexities of failover automatically.
 
 ## (4/4) Data Consistency
 - If you've chosen to prioritize consistency over availability, then PostgreSQL is a strong choice, built from the ground-up to provide strong consistency guarantees through [[ACID]] Transactions.
