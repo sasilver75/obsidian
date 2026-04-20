@@ -1,5 +1,5 @@
-[[JSON]] with a geographic extension.
-This is the lingua franca of [[Geographic Information Systems|GIS]]!  It
+[[JSON]] with a geographic extension, introduced in 2007.
+This is the lingua franca of [[Geographic Information Systems|GIS]]! 
 
 - ==Use when==: ***Serving data to frontend map***, for small-to-medium datasets (e.g. <~10MB), since most programming languages can easily write it.
 - ==Don't use when==: You have millions of features - raw GeoJSON at that scale will crash browsers and waste bandwidth.

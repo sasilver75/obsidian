@@ -17,3 +17,10 @@ Provides:
 	- Spectral index computation ([[Normalized Difference Vegetation Index|NDVI]], etc.)
 - Pretrained Models:
 	- Hosts pretrained weights for EO models like [[Clay]] and other foundation models.
+
+
+![[Pasted image 20260420104012.png]]
+From: https://www.youtube.com/watch?v=HPlZbkNa6zI 
+![[Pasted image 20260420104127.png]]
+If you don't do overlapping patches you get strange edge/boundary effects, typically does worse at the edge.
+These things (see the video above)... are what separates the kids from the adults.

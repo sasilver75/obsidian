@@ -35,7 +35,6 @@ Above:
 	- A Parquet metadata also includes *column statistics* (min/max value) for each column chunk, so if a user is interested in data where column "A > 100", the reader can skip loading/parsing any column chunks where the max value is known to be less than 100.
 	- Interestingly, the metadata is located at the END of the file, which makes it easier to write (initially), as you don't need to know how many total rows you have at the beginning, but slightly harder to read (in practice, not too much more).
 - Because Parquet is internally chunked, Parquet can fetch specific row groups that meet a filtering condition, and because it's column-oriented, only specific columns that the user is interested.
-- Parquet ==does not support spatial indexes yet==; this makes it somewhat harder to filter and apply predicates on the geometry column.
 
 
 - Parquet has internal chunking; instead of storing all data for a certain column in a single contiguous region, it stores all of the data for the first 100,000 rows in one big block, and the next 100,000 rows for the column in the next block, etc.

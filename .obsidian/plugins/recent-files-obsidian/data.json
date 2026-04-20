@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "OlmoEarth",
+      "path": "OlmoEarth.md"
+    },
+    {
+      "basename": "Fields of the World",
+      "path": "Fields of the World.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "GeoParquet",
+      "path": "GeoParquet.md"
+    },
+    {
+      "basename": "Shapefile",
+      "path": "Shapefile.md"
+    },
+    {
+      "basename": "GeoJSON",
+      "path": "GeoJSON.md"
+    },
+    {
+      "basename": "CARTO",
+      "path": "CARTO.md"
+    },
+    {
+      "basename": "Geospatial Embedding",
+      "path": "Geospatial Embedding.md"
+    },
+    {
+      "basename": "TorchGeo",
+      "path": "TorchGeo.md"
+    },
+    {
       "basename": "Project Ideas",
       "path": "Project Ideas.md"
     },
     {
       "basename": "SAM-Geospatial",
       "path": "SAM-Geospatial.md"
-    },
-    {
-      "basename": "Fields of the World",
-      "path": "Fields of the World.md"
     },
     {
       "basename": "Websockets",
@@ -23,10 +55,6 @@
     {
       "basename": "Hamming Distance",
       "path": "Hamming Distance.md"
-    },
-    {
-      "basename": "Geospatial Embedding",
-      "path": "Geospatial Embedding.md"
     },
     {
       "basename": "Normalized Difference Red Edge",
@@ -61,20 +89,12 @@
       "path": "SkySense.md"
     },
     {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
       "basename": "Cloud-Optimized GeoTIFF",
       "path": "Cloud-Optimized GeoTIFF.md"
     },
     {
       "basename": "Zarr",
       "path": "Zarr.md"
-    },
-    {
-      "basename": "GeoParquet",
-      "path": "GeoParquet.md"
     },
     {
       "basename": "Ephemeris",
@@ -179,26 +199,6 @@
     {
       "basename": "Amazon Elastic Block Store",
       "path": "Amazon Elastic Block Store.md"
-    },
-    {
-      "basename": "Amazon NFS",
-      "path": "Amazon NFS.md"
-    },
-    {
-      "basename": "Orthoimage",
-      "path": "Orthoimage.md"
-    },
-    {
-      "basename": "Inertial Measurement Unit",
-      "path": "Inertial Measurement Unit.md"
-    },
-    {
-      "basename": "Rational Polynomial Coefficients",
-      "path": "Rational Polynomial Coefficients.md"
-    },
-    {
-      "basename": "Post-Processed Kinematic",
-      "path": "Post-Processed Kinematic.md"
     }
   ],
   "omittedPaths": [],

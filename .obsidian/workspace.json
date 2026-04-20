@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fields of the World.md",
+                "file": "OlmoEarth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fields of the World"
-            }
-          },
-          {
-            "id": "ad5048a3433bbf8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project Ideas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Ideas"
+              "title": "OlmoEarth"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -1508,12 +1483,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "7cc7074311ec06d0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 135
+        "currentTab": 136
       },
       {
         "id": "8a022290161ffefa",
@@ -1575,18 +1560,33 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ad5048a3433bbf8d",
+  "active": "b73bb81196f0a1a0",
   "lastOpenFiles": [
-    "SAM-Geospatial.md",
-    "Project Ideas.md",
     "Fields of the World.md",
-    "_attachments/Pasted image 20260420013456.png",
+    "OlmoEarth.md",
+    "SpatioTemporal Asset Catalog.md",
+    "_attachments/Pasted image 20260420122213.png",
+    "_attachments/Pasted image 20260420122200.png",
+    "_attachments/Pasted image 20260420121854.png",
+    "_attachments/Pasted image 20260420121810.png",
+    "_attachments/Pasted image 20260420121700.png",
+    "_attachments/Pasted image 20260420121602.png",
+    "_attachments/Pasted image 20260420121151.png",
+    "_attachments/Pasted image 20260420121147.png",
+    "_attachments/Pasted image 20260420121114.png",
+    "_attachments/Pasted image 20260420120901.png",
+    "GeoParquet.md",
+    "Shapefile.md",
+    "GeoJSON.md",
+    "CARTO.md",
+    "Geospatial Embedding.md",
+    "TorchGeo.md",
+    "Project Ideas.md",
+    "SAM-Geospatial.md",
     "Websockets.md",
     "AWS Relational Data Store.md",
     "Hamming Distance.md",
-    "Geospatial Embedding.md",
     "().md",
-    "_attachments/Pasted image 20260420005612.png",
     "Normalized Difference Red Edge.md",
     "PlanetScope.md",
     "Sentinel-2.md",
@@ -1596,23 +1596,8 @@
     "Apache Arrow.md",
     "Notecards.md",
     "National Agriculture Imagery Program.md",
-    "_attachments/Pasted image 20260419232046.png",
     "SkySense.md",
-    "SpatioTemporal Asset Catalog.md",
-    "_attachments/Pasted image 20260419230142.png",
-    "_attachments/Pasted image 20260419225922.png",
-    "_attachments/Pasted image 20260419225921.png",
-    "_attachments/Pasted image 20260419225747.png",
-    "_attachments/Pasted image 20260419225709.png",
-    "_attachments/Pasted image 20260419225657.png",
-    "_attachments/Pasted image 20260419225642.png",
     "Cloud-Optimized GeoTIFF.md",
-    "Zarr.md",
-    "GeoParquet.md",
-    "Ephemeris.md",
-    "Modern Data Stack.md",
-    "Data Integration.md",
-    "Inter-Process Communication.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
