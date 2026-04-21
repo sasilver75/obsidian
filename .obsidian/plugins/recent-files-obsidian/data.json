@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Project Ideas",
-      "path": "Project Ideas.md"
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "CubeSat",
+      "path": "CubeSat.md"
+    },
+    {
+      "basename": "Multispectral",
+      "path": "Multispectral.md"
+    },
+    {
+      "basename": "Low Earth Orbit",
+      "path": "Low Earth Orbit.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "RADAR",
+      "path": "RADAR.md"
+    },
+    {
+      "basename": "Bidirectional Reflectance Distribution Function",
+      "path": "Bidirectional Reflectance Distribution Function.md"
     },
     {
       "basename": "Electromagnetic Spectrum",
       "path": "Electromagnetic Spectrum.md"
     },
     {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
+      "basename": "Sentinel",
+      "path": "Sentinel.md"
+    },
+    {
+      "basename": "Project Ideas",
+      "path": "Project Ideas.md"
     },
     {
       "basename": "ICEYE",
@@ -53,10 +81,6 @@
       "path": "Resolution.md"
     },
     {
-      "basename": "Satellite",
-      "path": "Satellite.md"
-    },
-    {
       "basename": "Ephemeris",
       "path": "Ephemeris.md"
     },
@@ -67,10 +91,6 @@
     {
       "basename": "Hyperspectral",
       "path": "Hyperspectral.md"
-    },
-    {
-      "basename": "Multispectral",
-      "path": "Multispectral.md"
     },
     {
       "basename": "Shader",
@@ -179,26 +199,6 @@
     {
       "basename": "SimCLR",
       "path": "SimCLR.md"
-    },
-    {
-      "basename": "Amazon Redshift",
-      "path": "Amazon Redshift.md"
-    },
-    {
-      "basename": "AWS Glue",
-      "path": "AWS Glue.md"
-    },
-    {
-      "basename": "Ground Sample Distance",
-      "path": "Ground Sample Distance.md"
-    },
-    {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
-    },
-    {
-      "basename": "AlphaEarth Foundations",
-      "path": "AlphaEarth Foundations.md"
     }
   ],
   "omittedPaths": [],

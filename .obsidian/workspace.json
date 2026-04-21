@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electromagnetic Spectrum.md",
+                "file": "Satellite.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Electromagnetic Spectrum"
+              "title": "Satellite"
+            }
+          },
+          {
+            "id": "2d23fa01194b4046",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RADAR.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RADAR"
+            }
+          },
+          {
+            "id": "0e589d1a5dbc3b80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bidirectional Reflectance Distribution Function.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bidirectional Reflectance Distribution Function"
             }
           },
           {
@@ -61,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Ideas.md",
+                "file": "Low Earth Orbit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +124,58 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Ideas"
+              "title": "Low Earth Orbit"
+            }
+          },
+          {
+            "id": "59a38c5d56060768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multispectral.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multispectral"
+            }
+          },
+          {
+            "id": "f679b016fe8f0ac1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CubeSat.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CubeSat"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -1620,11 +1715,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "aceca53bf1f49dbd",
+  "active": "b73bb81196f0a1a0",
   "lastOpenFiles": [
-    "Electromagnetic Spectrum.md",
-    "Project Ideas.md",
+    "CubeSat.md",
+    "Multispectral.md",
+    "Low Earth Orbit.md",
     "Synthetic Aperture Radar.md",
+    "Satellite.md",
+    "RADAR.md",
+    "Bidirectional Reflectance Distribution Function.md",
+    "Electromagnetic Spectrum.md",
+    "Sentinel.md",
+    "_attachments/Pasted image 20260421105630.png",
+    "_attachments/Pasted image 20260421105458.png",
+    "_attachments/Pasted image 20260421105456.png",
+    "Project Ideas.md",
     "_attachments/Pasted image 20260421013926.png",
     "_attachments/Pasted image 20260421004621.png",
     "_attachments/Pasted image 20260421004502.png",
@@ -1632,9 +1737,6 @@
     "_attachments/Pasted image 20260421004355.png",
     "_attachments/Pasted image 20260421004232.png",
     "_attachments/Pasted image 20260421004143.png",
-    "_attachments/Pasted image 20260421004125.png",
-    "_attachments/Pasted image 20260421004055.png",
-    "_attachments/Pasted image 20260421003751.png",
     "ICEYE.md",
     "Gaussian Splatting.md",
     "Maxar.md",
@@ -1645,19 +1747,12 @@
     "Analysis Ready Data.md",
     "Light Detection and Ranging.md",
     "Resolution.md",
-    "Satellite.md",
     "Ephemeris.md",
     "Spectral Index.md",
     "Hyperspectral.md",
-    "Multispectral.md",
     "Shader.md",
     "OlmoEarth.md",
     "Fields of the World.md",
-    "GeoParquet.md",
-    "Shapefile.md",
-    "GeoJSON.md",
-    "CARTO.md",
-    "Geospatial Embedding.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

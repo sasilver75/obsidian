@@ -1,3 +1,6 @@
+References:
+- Video: [The Efficient Engineer: How to Build a Satellite](https://youtu.be/5voQfQOTem8) (Incredible overview of Satellite design!)
+
 
 
 # Terms of Art:
@@ -87,11 +90,83 @@
 	- ==Polarization==: Radar can transmit and receive in horizontal (H) or vertical (V) polarization; Different polarization combinations (HH, VV, HV, VH) reveal different surface properties.
 	- ==Interferometric SAR== (InSAR): Comparing the phase of two SAR acquisitions to measure surface deformation at centimeter or millimeter scale. Used for earthquake displacement, volcano inflation, glacier movement, subsidence.
 - Radiometry concepts:
-	- Irradiance: The power of electromagnetic radiation *incident* on a surface per unit area, in (W/m^2). "What hits the surface"
-	- Radiance: Power emitted or reflected from a surface per unit area pr unit solid angel (W/m^2/sr). What the sensor measures.
-	- Albedo: Fraction of incoming *solar radiation* reflected by a surface across *all directions* and wavelengths. Fresh snow: ~0.9, Ocean: ~0.06. A bulk surface property, *not* a directional measurement.
-	- BRDF (Bidirectional Reflectance Distribution Function): How a surface reflects light differently depending on the illumination angle and viewing angle. A forest reflects very differently depending on if you look at it from directly above vs at an oblique angle.
-	- Emissivity: How efficiently a surface radiates thermal energy compared to a perfect blackbody. Water is ~0.99, dry sand is ~0.84.
+	- ==Irradiance==: The power of electromagnetic radiation *incident* on a surface per unit area, in (W/m^2). "What hits the surface"
+	- ==Radiance==: Power emitted or reflected from a surface per unit area pr unit solid angel (W/m^2/sr). What the sensor measures.
+	- ==[[Albedo]]:== Fraction of incoming *solar radiation* reflected by a surface across *all directions* and wavelengths. Fresh snow: ~0.9, Ocean: ~0.06. A bulk surface property, *not* a directional measurement.
+	- ==BRDF== ([[Bidirectional Reflectance Distribution Function]]): How a surface reflects light differently depending on the illumination angle and viewing angle. A forest reflects very differently depending on if you look at it from directly above vs at an oblique angle.
+	- ==Emissivity==: How efficiently a surface radiates thermal energy compared to a perfect blackbody. Water is ~0.99, dry sand is ~0.84.
+- Satellites are two separate systems:
+	- ==Payload==: Equipment used to carry out the mission the satellite was launched for; cameras, radio equipment for an EO mission, for communication, transponders and high-gain antennas.
+	- ==Satellite Bus==: Everything else, the structure and all systems needed to operate the satellite and support the payload.
+		- Subsystems
+			- ==Mechanical Structure==: Needs to be strong and stiff to survive launch, but also light as possible to save on launch cost. Careful analysis and material selection for lightweight aluminum/carbon-fiber-reinforced polymers. honeycombed composite panels provide surface for mounting equipment. ==Outgassing== causes the vacuum of space to cause materials to gradually release gasses trapped within them, which can condense on sensitive instruments. Metals like Aluminum tend not to outgas significantly, but all materials used on the satellite need to be checked for outgassing; a process called ==Bakeout== (heating under vacuum conditions to accelerate outgassing) is used to reduce risk.
+			- ==Thermal Control System==: As the esatellite orbits, it's exposed to impressive temperatures: Surfaces facing hte sun can get hot (~100C), with tempraturesplummeting (~-100C) as it enters the earth's shadow. Add the fact that many of the electronics will be dissipating power, locally increasing temperatures, and it becomes clear that controlling satellite temperature is a huge challenge; good thermal control is mission critical! Certain instruments might need to be in a range of temperatures . Batteries are at risk of failure if outside temperature limits. Thermal control systems make use of many technologies and clever engineering.
+				- Because there's not heat transfer by convection in the vacuum of space, the only way to exchange thermal energy with the environment is by radiation.
+				- Radiators are large surfaces with high emissivity coatings, used to radiate heat from the satellites. 
+				- Heat pipes are used to transport thermal energy from hot to cold areas. 
+				- Thermostat-controlled electric heaters switch on at low temperatures to make sure certain components don't get too cold.
+				- ==Multi-layer insulation blankets== on the satellite help control temperature by reflecting solar radiation when the satellite is in sunlight, and reducing radiative heat losses when the sunlight is in shadow.
+				- Special paints and coatings and phase change materials absorb or release thermal energy by undergoing a phase change.
+				- Even the attitude control system can change the direction radiators and other surfaces are facing. All of these components need to work in harmony, perfectly balancing absorbing, retaining, and dissipating heat to make sure the temperature of the satellite stays in acceptable ranges.
+			- ==On-Board Computer==: Brain that controls and coordinates all satellite functions, including processing data, monitoring health of satellite, and issuing commands to systems. Several printed circuit boards housed in an aluminum enclosure. Exposure to radiation in space can disrupt circuits and lead to system failure; the onboard computer is particularly vulnerable. Although radiation is low in LEO, those that are in higher orbits (those that pass through the [[Van Allen Radiation Belt]]s) need radiation-hardened components and shielded parts.
+			- ==Electrical Power System==:  Generates and stores the power needed to operate; a one-square meter  directly facing the sun in LEO will receive 1370W of solar power, so the most common method is the use of solar arrays. Deployable panels are used to maximize generated power, while allowing the satellite to fit in the fairing of the launcher. Often articulated arrays that can be pointed in the direction of the sun. ==Triple-junction solar cells== (35%) are used to capture a wider range of wavelengths than less expensive ==single-junction solar cells== (20%). Satellites experience periods of Eclipse when in earth's shadow, when solar rays can't generate power. As a result, satellites carry batteries charged by solar panels during periods of sunlight exposure, and discharged during periods of eclipse. The satellite's power control unit interfaces with the onboard computer and controls this process, regulating voltage to ensure stable power supply to all systems.
+			- ==Propulsion System==: C be used to move the satellite to a new orbit, or for station keeping (corrective maneuvers to maintain an existing orbit), but can be used for attitude control too. All use by thrust generated by accelerating mass through a nozzle.
+				- ==Cold Gas propulsion==: Controlled expansion of a cold pressurized inert gas like nitrogen through thruster nozzles. Low thrust but simple design and precise control; good choice for attitude control systems.
+				- ==Chemical propulsion==: Can generate higher thrust, using controlled chemical reactions. 
+					- ==Monopropoellant system==: Propellant liquids that compose into hot gasses when brought into contact with a catalyst gas (pressurant).  Lower thrust, but simpler system design.
+					- ==Bipropellant system==: Uses two propellants , a fuel and an oxidized, which are mixed and ignited, producing exhaust gasses.  Complex, but offer high thrust, useful for large satellites.
+				- ==Electric propulsion==: Uses electric energy to generate thrust, ionizing a propellant line Xenon, and then using electric and magnetic fields to accelerate the ions to high velocities, before expelling them through a nozzle. Lower thrust than chemical propulsion, but is very efficient, requiring less propellant.
+			- ==Attitude Determination and Control System== ([[Attitude Determination and Control System|ADCS]]): Used to determine and adjust how the satellite is oriented relative to a reference frame. This orientation is the satellite [[Attitude]], which is constantly being adjusted, and crucial immediately after separation from a launch vehicle, when they may experience tumbling. Also important for normal operation; a satellite might need to point the payload at a specific location, point solar panels to face the sun, and point an antenna towards a ground station. Made up of sensors (star trackers, inertial measurement units, sun sensors) used to determine the current satellite attitude, and actuators (reaction wheels, magnetorquers) used to make the adjustments.  Selected based on the requirements of the mission. A satellite with fewer pointing requirements might use IMUs and Sun Sensors.
+				- Attitude determination
+					- [[Inertial Measurement Unit|IMU]]: Contains gyroscopes and accelerometers; the three gyroscopes provide changes in satellite orientation, but gyroscopes only provide a relative measurement, and can drift over time, resulting in an error in predicted attitude. Commonly we determine attitude by combining attitude measurement with dat from star trackers
+					- ==Star Trackers==: Provide highly accurate  reference measurements of attitude that are used to periodically correct measurements from gyroscopes. Might operate anywhere from every 10s to every 20 minutes. A camera that captures images in the sky, and uses an algorithm to identify bright stars. They use an algorithm to identify bright stars; their position in the image is compared with a catalogue of known stars, letting the position of the satellite to be determined. Need to have clear FoV and can be affected by thermal distortion.
+					- ==Sun Sensors==: Simple devices that use photo detector cells to estimate hte attitude of the satellite relative to the sun. Don't work during the eclipse portion of the orbit.
+					- ==Magnetometers==: Measure the strength and direction of the magnetic field experienced by the satellite, compared with the model of the earth's magnetic field, and then used to estimate the satellite's attitude, give its position.
+				- Attitude Control
+					- Most modern satellites use three-axis stabilization, an approach to attitude control where actuators are used to precisely control satellite orientation around three axes.
+					- ==Reaction Wheel==: which consists of a flywheel attached to an electric motor. Using the motor to change the rotational velocity of the reaction wheel cause the satellite to rotate around its center of mass in the opposite direction. Three reaction wheels in orthogonal planes gives the satellite the ability to control in three dimensions.  
+						- After a certain number of attitude adjustments, the incremental increases in the rotational velocity of the flywheel can bring it close to its max allowable rotation speed (==saturation==). This means that reaction wheels can't be used as the only method for attitude control!
+					- ==Magnetorquers==: Used to de-saturate reaction wheels and control attitude. A coil of conductive wire wound around a magnetic core. Passing current through the coil creates a magnetic field. When the field interacts with the earth's magnetic field, a torque is generated. This can be used to control the satellite's attitude, or can be used to slow down the wheels.
+			- ==Communications System==: Two separate capabilities:
+				- ==Downlink==: Used to beam the data generated by the payload down to earth. Uses the Attitude control system to point its downlink antenna at a groundstation and starts transmitting data. The way this is done depends:
+					- Some transmit data once per orbit for each pass over the same groundstation
+					- Others transmit to same groundstations (those in geostationary orbit can use the same one continuously).
+					- They transmit to groundstations using EM waves, characterized by their wavelength and frequency. Visible light, X-Rays, and Gamma rays are all just EM waves with different frequencies. Satellite communications use waves in the Radio Frequency (RF) part of the spectrum, mostly between 1Ghz and 40Ghz, which is split into bands with designated names:
+						- L, S, C, X, K_U, K, K_A bands. As the frequency increases, the required power increases, but the data rates are also higher, and higher frequencies are more susceptible to degradation by atmospheric attenuation.
+						- The data transmitted from a satellite is essentially a stream of 0,1 bits, called the ==data stream==. To transmit this over vast distances, the digital data stream needs to be encoded onto an analog  ==carrier signal==, a continuous sinusoidal electromagnetic wave in a frequency in one of the bands above.
+						- This is done by changing certain properties of the carrier signal in a process called ==modulation==:
+							- ==Amplitude modulation==: Changes the amplitude of the carrier wave
+							- ==Frequency modulation==: Changes the frequency of the carrier wave instead.
+							- ==Phase Shift Keying==: Adjusts the phase of the carrier wave.
+								- Most high-rate communication links use a form of this, providing high data throughput and low error rates.
+									- Binary Phase-Shift Keying: Uses 2 phases
+									- Quadrature Phase-Shift Keying: Uses 4 phases
+									- 8 Phase-Shift Keying: Uses 8 phases
+					- Modulated signal is generated on the satellite by the  transmitter hardware, then through a series of switches and filters before arriving at the downlink antenna for transmission to the groundstation.
+					- At the groundstation, the signal is demodulated and processed to obtain valuable payload data.
+				- ==TT&C==: ==Telemetry, Tracking, and Command System==: Consists of a transceivers, various filters, switches, and antennas.
+					- Has three functions:
+						- ==Command function==: Lets operations team control the satellite using commands transmitted from the groundstation, demodulated from the TT&C hardware on the satellite, then routed to the onboard computer for implementation.
+						- ==Telemetry function==: Transmits housekeeping data from various sensors on the satellite down to the groundstation, like the temperature of critical components, the power levels in the batteries, or propellant levels in the tanks.
+						- ==Tracking function==: Provides information about the position and speed of the satellite. Ground station sends a signal to the satellite, which the transceiver receive and sends back. The turnaround time gives an estimate of the distance between the satellite and the groundstation, and the [[Doppler Effect]] frequency shift provides an estimate of the velocity of the satellite. These are used for the operations team to monitor the position and trajectory of the satellite. Many satellites also carry GPS receivers to enhance tracking capabilities.
+				- Satellite onboard antennas come in many different shapes and sizes (Helical, Patch, Reflector, Horn, Wire).
+					- It's useful to think about a theoretical antenna called an ==Isotropic Antenna==, which radiates signal in all directions. Two points an equal distance from the antenna will receives the same signal.
+					- Usually this isn't what we want: Real antennas are engineered to focus or receive energy in specific directions. This directionality can be visualized as a radiation pattern around the antenna, and is quantified by a parameter called ==Gain==, which is a measure of how much an antenna focuses energy in a specific direction, relative to an Isotropic antenna (gain of 1.0 in all directions). A real antenna will have one that's greater than 1 in some directions, and less than 1 in other directions.
+					- ==Antennas are selected to optimize performance for a specific task==
+						- Downlink use high-gain antennas that focus the signal into a tight beam, enabling high data transfer rates. 
+							- Antenna pointing mechanisms or attitude control system can be used to direct this beam to groundstations.
+						- TT&C prioritize reliable communications, instead of high data rate transfers, using low-gain antennas with wider coverage, to make sure that the satellite can communicate with the ground station in all conditions, even if it's tumbling or if the attitude control system isn't' working properly.
+- Satellite Mass Classification
+	- < 1kg: Pico Satellites
+	- < 10kg: Nano
+		- The [[CubeSat]]! Developed around the concept of a standardized cube-shaped unit, called 1U.
+		- Designed to be modular and low cost; can scale up to 3U, 6U, and 12U being common sizes.
+	- < 100kg: Micro
+	- < 500kg: Mini
+	- < 1000kg: Medium
+	- > 1000kg: Large
+
+
 
 
 ## Satellite Operational Modes: Tasked vs Systematic Acquisition
@@ -101,6 +176,9 @@
 
 
 ![[Pasted image 20260417124944.png]]
+
+
+![[Pasted image 20260421105630.png]]
 
 
 
