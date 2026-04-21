@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Satellite.md",
+                "file": "Interferometry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Satellite"
+              "title": "Interferometry"
+            }
+          },
+          {
+            "id": "f0d4dc99e2e3b3c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attenuation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Attenuation"
             }
           },
           {
@@ -207,7 +231,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ASCII",
+                "query": "attenu",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1717,14 +1741,24 @@
   },
   "active": "b73bb81196f0a1a0",
   "lastOpenFiles": [
+    "Synthetic Aperture Radar.md",
+    "Untitled 13.md",
+    "RADAR.md",
+    "Attenuation.md",
     "CubeSat.md",
+    "_attachments/Pasted image 20260421152941.png",
+    "Attention.md",
+    "Color Subaperture Image.md",
+    "Satellite.md",
+    "Electromagnetic Spectrum.md",
+    "Hexadecimal.md",
+    "Remote Sensing.md",
+    "MapLibre GL JS.md",
+    "Cloud Masking.md",
+    "Landsat.md",
     "Multispectral.md",
     "Low Earth Orbit.md",
-    "Synthetic Aperture Radar.md",
-    "Satellite.md",
-    "RADAR.md",
     "Bidirectional Reflectance Distribution Function.md",
-    "Electromagnetic Spectrum.md",
     "Sentinel.md",
     "_attachments/Pasted image 20260421105630.png",
     "_attachments/Pasted image 20260421105458.png",
@@ -1736,7 +1770,6 @@
     "_attachments/Pasted image 20260421004407.png",
     "_attachments/Pasted image 20260421004355.png",
     "_attachments/Pasted image 20260421004232.png",
-    "_attachments/Pasted image 20260421004143.png",
     "ICEYE.md",
     "Gaussian Splatting.md",
     "Maxar.md",
@@ -1744,15 +1777,6 @@
     "SpatioTemporal Asset Catalog.md",
     "SkySense.md",
     "Cloud-Native Geospatial.md",
-    "Analysis Ready Data.md",
-    "Light Detection and Ranging.md",
-    "Resolution.md",
-    "Ephemeris.md",
-    "Spectral Index.md",
-    "Hyperspectral.md",
-    "Shader.md",
-    "OlmoEarth.md",
-    "Fields of the World.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

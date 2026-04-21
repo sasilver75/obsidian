@@ -1,7 +1,11 @@
 References:
 - Video: [The Efficient Engineer: How to Build a Satellite](https://youtu.be/5voQfQOTem8) (Incredible overview of Satellite design!)
+- Video: [How to build a satellite with Stuart Eves](https://www.youtube.com/watch?v=oWidvY7JzFE)  (More technical/engineer-oriented than Efficient Engineer)
 
 
+Space is a near-perfect vacuum, but contains lots of high-energy radiation, so we need to ensure that the satellite can operate in this harsh environment!
+
+The Copernicus project, Sentinel-2A/B satellites, produces 9.54TB of data each day. This amount accelerates as other companies enter the space. 
 
 # Terms of Art:
 - "==Aquisition==": The act of a satellite capturing imagery over a specific location
@@ -132,7 +136,7 @@ References:
 					- Some transmit data once per orbit for each pass over the same groundstation
 					- Others transmit to same groundstations (those in geostationary orbit can use the same one continuously).
 					- They transmit to groundstations using EM waves, characterized by their wavelength and frequency. Visible light, X-Rays, and Gamma rays are all just EM waves with different frequencies. Satellite communications use waves in the Radio Frequency (RF) part of the spectrum, mostly between 1Ghz and 40Ghz, which is split into bands with designated names:
-						- L, S, C, X, K_U, K, K_A bands. As the frequency increases, the required power increases, but the data rates are also higher, and higher frequencies are more susceptible to degradation by atmospheric attenuation.
+						- L, S, C, X, K_U, K, K_A bands. As the frequency increases, the required power increases, but the data rates are also higher, and higher frequencies are more susceptible to degradation by atmospheric [[Attenuation]].
 						- The data transmitted from a satellite is essentially a stream of 0,1 bits, called the ==data stream==. To transmit this over vast distances, the digital data stream needs to be encoded onto an analog  ==carrier signal==, a continuous sinusoidal electromagnetic wave in a frequency in one of the bands above.
 						- This is done by changing certain properties of the carrier signal in a process called ==modulation==:
 							- ==Amplitude modulation==: Changes the amplitude of the carrier wave

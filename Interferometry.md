@@ -26,5 +26,9 @@ Used for:
 - Permafrost freeze/thaw cycles
 
 
+This is what we used ot measure einstein's gravitational waves! It's so precise, that we can produce measuremnts down to 1/100000th of a proton! the smallest measurement attempted by sciencec, ever!
+- Radar satellites can't do this, but hte same principle allows us to measure andm ap the deformation of the ground after earthquakes, or large explosions, or see track marks left b cars as they drive through fields, or measure hte thermal expansions of buildings from space as they expand/dialate from temperature difference -- all of that from fricken spaec!
+
+
 
 

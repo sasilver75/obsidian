@@ -41,7 +41,7 @@ This is an example of why ==seeing beyond the visible is powerful; it allows us 
 To allow us to difference between (eg) vegetation, we use what we know about the reflectance characteristics of those land covers, and create curves like this, which are known as [[Spectral Signature]]s, which is like a fingerprint!
 - They're likely to be very similar for all healthy vegetation; it allows us to explore vegetation health; deviation from this expected curve means something weird is happening with health of plants.
 	- Conifer vs broadleaf trees are likely to be a little bit different.
-- In the visual spectrum, see that water does have a spectral signature, and that beyond NIR, all life is ==attenuated== or absorbed, and we expect nothing in reflectance. This means that we can't do too much on the water's surface or below.
+- In the visual spectrum, see that water does have a spectral signature, and that beyond NIR, all life is ==[[Attenuation|Attenuated]]== or absorbed, and we expect nothing in reflectance. This means that we can't do too much on the water's surface or below.
 
 ![[Pasted image 20260420195319.png]]
 Above: The intensity of light decreases exponentially with water depth, and both conditions at the surface as well as turbidity below the surface highly impacts it.`

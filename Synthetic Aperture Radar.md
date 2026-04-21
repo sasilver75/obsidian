@@ -19,12 +19,52 @@ aliases:
 ---
 Resources:
 - [NASA EarthData: Synthetic Aperture Radar](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar) (Unread, looks great)
-- [Video: ICEEYE: The Value of SAR](https://youtu.be/GwyldSNlefk)
+- [Video: ICEEYE: The Value of SAR](https://youtu.be/GwyldSNlefk) (Awesome, canonical; Tom Ager)
+- [Video: GEOINT 2023, a SAR Discussion with Tom Ager](https://youtu.be/4IEp1L7re1A) (Good details)
+- Video: [Max Lenormand: How Radar Satellites See Through Clouds](https://youtu.be/zMsCyEAOrh0) (Incredible)
 
 A [[Remote Sensing]] technique that uses radar signals instead of visible light to image the Earth's surface.
 - The heritage of SAR is that it was usually used for intelligence, or very large civil programs (e.g. NASA, CSA, ESA).
 - Just over a decade ago, a few very capable SAR satellites [[TerraSAR-X]], [[RADARSAT|RADARSAT-2]], [[COSMO-SkyMed]]. These are public/private partnerships and massive satellites, over 1,000kg. 
 	- [[ICEYE]] revolution is that they have a small SAR satellite constellation funded primarily by VC, with mass of about 100kg and much cheaper, so there can be more.
+
+"Aperture", like in photography, is the size of our lens. It's the thing that captures signal. In our case, it's our (small) antenna, which we're synthetically lengthening by taking multiple observations along the arc of our orbit.
+- Like how long exposure photography reveals more stars, the more we look with our radar, the more resolution/details we can see.
+- So our resolution is completely separated from how far our satellite is from the ground!
+
+Another tricky thing:
+- The pixels in our images aren't necessarily square. In an optical image, the pictures are square, but in a radar image... that isn't necessarily the case. The two dimensions are independent:
+	- Range resolution: How close can two objects be for the pulse tot ell them apart; this depends on how short of a pulse we can create. These pulses require a lot of power, more than can be fit on a solar-powered satellite.
+		- To lower this below a meter, the trick was we had to modulate the frequency of the pulse. This let us see much finer without having to have a lot more power.
+	- Angular resolution: How narrow can we make our beams? That's determined by how narrow of an antenna we can build.
+
+
+Signal to Noise is the challenge for space-borne SAR:
+- When SAR sends a radar pulse (thousands per second), it leaves the antenna... for ICEYE, that pulse is 3000W of power, a strong pulse. It goes to the ground and starts to widen, like inflating a *balloon*. When you inflate a balloon, the skin gets thinner, so the *power density of the pulse weakens with the square of the distance*, as it has to go like 700km to the ground.
+- It hits the ground, and a portion of it reflects, and as it comes back, it weakens again with the square of the distance, coming back to a small antenna that can only capture a small amount of that backscatter/return.
+- When it hits the antenna, what would you guess is the strength of it (in Watts) when it hits the antenna? Would you say... 100W? 10W? It's 10^-17 Watts! 0.00000000000000001, or one hundred-quadrillionth of a Watt.
+- When Tom Ager first saw this, he was astounded! Electric engineers said "Yeah, how did you think it works?"
+- This thing that comes back is so enfeebled that any *noise* is a challenge for it!
+	- Noise is any microwave hitting the antenna that isn't our pulsed signal.
+	- Where would other microwaves be coming from?
+		- One source is called the cosmic background microwave radiation from the big bang! Those are microwaves traveling across the universe for 13 billion years, and some of them smack into the antenna.
+		- So some of the dots that you see in the SAR image are signals from the big bang, which is wonderful! 
+		- The system can't distinguish them from the "real" pulsed microwaves, they're the same.
+		- Fundamental Principle: All objects above absolute zero emit electromagnetic radiation
+			- So the recorder on the sensor/receiver also operates at a temperature, so IT emits microwaves!
+			- "The Poignant Story of Signals and Noise": The receiver itself creates microwaves that confuses it, that it thinks are the reflected signal! We can't stop it unless we can put up receivers that operate at absolute zero, which isn't going to happen. This is called Thermal Noise.
+	- So noise will always occur!
+		- You need a strong pulse (3000W) and a big antenna (but SAR satellites don't have big antennas!). So that's one of the things you give up when you have little SAR satellites like ICEYE's. One thing you don't give up, though is resolution.
+
+Why don't you give up resolution with small-antenna'd SAR?
+- The flight direction is called the Azimuth direction. The longer you image in that direction, the better the azimuth resolution. In spotlight mode, we're targeting one position on the ground.
+- The resolution in the Range direction is a function of how much we chirp the pulse; We send a pulse out, but we vary the pulse, like a bird's chirp! That's 300Mhz or so, which gives you on the ground roughly a meter. Soon (from 2023) it will be 600 Mhz, which will be half-meter, then it will be 1200Mhz, quarter-meter on the ground.
+- The resolution of the little baby SARs will be those numbers within two years (about 2025); and it won't really get better than that even 10-20 years from now, because once you make the aperture length that long (eg 200km) imposes collection and processing burdens that are difficult to deal with. 
+	- The range resolution is limited by the international telecommunications union, which says that you can't have a pulse bandwidth bigger than 1200 Mhz because it interferes with other signals, like 5G. So we'll be sitting around a quarter-meter resolution in range resolution.
+
+Use Cases for SAR:
+- People love resolution and will be asking for high resolution (of course, we can do high coverage to do things like look for ships at sea).
+- Used by the Ukranians to see Russian mechanized equipment, etc. Learning how to use SAR, talking to the Ukranians might be a good place to start.
 
 
 A satellite emits microwave pulses towards the ground and records the energy that bounces back; as the satellite moves forwards along its orbit, it takes many measurements from slightly different positions.
@@ -182,6 +222,7 @@ The other dimension of a SAR image is the range dimension, and the resolution in
 - Both are capable of quarter meter resolution, and both (==amazingly==) are ==independent of distance==!
 	- With optical, as you move your camera away, resolution degrades. ==With SAR, that doesn't happen==!
 		- In the 1960s, this was actually a ==SECRET FACT==!
+		- NOTE: The resolution doesn't suffer, but the signal to noise ratio does suffer. Anyone with a 100MP camera knows that just because a sensor has high resolution, doesn't mean it always takes good pictures, especially not at night. While there are many pixel sensors, each one receives so little light that hte data just gets noisy. ==The same thing happens with radar satellites; the resolution might not change iwth distnace, but the quality of the image degrades==. It turns out that we can push this far: We've bounced pulses from earth to the moon to map its surface at 70cm resolution, and the moon is 385,000 km away! 
 - SAR though is sensitive to distance, because as it moves away from the ground, the signal strength weakens tremendously, so SAR antennas have to be very sensitive to measure the weak reflections. But resolution itself does not degrade with distance.
 - Not too long from now, ==SAR satellites will achieve the practical maximum resolution in both Azimuth Resolution and Range Resolution==.
 
@@ -196,6 +237,12 @@ Which has the phase for every pixel: ==Phase Image==. Valuable!
 
 We can combine the two into a ==Complex Image==
 - SAR engineers use complex numbers (which have two values) to store this information; every pixel has an amplitude and a phase value.
+- ==The beating heart of SAR is its coherency, it's phase data. People often throw it away!== Understand that a real SAR image is a complex image!
+	- You can make a useful product from Phase called a ==[[Color Subaperture Image]] (CSI)==; if you're collecting Azimuth for a long time, getting high Azimuth resolution... imagine that instead of keeping the entire synthetic aperture, you just processed the first half of it. You could still make an image, with Azimuth resolution of 1/2. Then you can make one with the second half, and overlay them. You can do that with 3 of them (1/3 each), and make the first red, the second green, and the third blue. If the reflections are the same and you overlap them, you see the usual grayscale image you're used to. But suppose that in the first image... there's a Russian mechanized troop transport, which in the first part of the aperture *glints*. On the image, it shows up red. SAR reflects off things with straight lines and cubic structures: things that human built, not nature. So this color subaperture image shows colors for glints, and those tend to be HUMAN-MADE objects!
+	- We need to make amplitude and phase easily exploitable. 
+	- You can output the complex image in amplitude and phase, and put it in [[GeoTIFF]] or [[Cloud-Optimized GeoTIFF|COG]]. 
+
+"The great, brilliant Radar people I once new are getting older and retiring, and I don't believe they're getting replaced."
 
 Understand: SAR produces a complex image with amplitude and phase information.
 - If I send you an image for viewing, you'll get the Amplitude pixels only. All of the valuable Phase information is thrown away and it's not available to you!
@@ -242,6 +289,7 @@ All on a single image taken from a tiny SAR satellite.
 
 (Aside: And it seem they even have a new mode, ==Dwell Mode==, since this talk)
 ![[Pasted image 20260421013926.png]]
+- In Dwell Mode. they're imaging a spot on the ground for 25 seconds... and if it flies at 7.5km/s for 25 seconds, that's almost 190km during the collection, so the synthetic aperture length is 190km. It's as if you have an antenna in space 190km long; the resolution for that collection... is 5 centimeters.
 
 
 We know that SAR penetrates clouds and darkness.

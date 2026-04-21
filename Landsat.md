@@ -1,4 +1,4 @@
-The longest running enterprise that has acquired satellite imagery of earth.
+The longest running enterprise that has acquired satellite imagery of earth, first images released in 1972.
 
 A joint [[National Aeronautics and Space Administration|NASA]]/[[United States Geological Survey]] program.
 - The first was launched in 1972, the most recent (Landsat 9) launched in September 2021.

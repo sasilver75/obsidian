@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Satellite",
-      "path": "Satellite.md"
+      "basename": "Interferometry",
+      "path": "Interferometry.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Untitled 13",
+      "path": "Untitled 13.md"
+    },
+    {
+      "basename": "RADAR",
+      "path": "RADAR.md"
+    },
+    {
+      "basename": "Attenuation",
+      "path": "Attenuation.md"
     },
     {
       "basename": "CubeSat",
       "path": "CubeSat.md"
+    },
+    {
+      "basename": "Attention",
+      "path": "Attention.md"
+    },
+    {
+      "basename": "Color Subaperture Image",
+      "path": "Color Subaperture Image.md"
+    },
+    {
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
+      "basename": "Hexadecimal",
+      "path": "Hexadecimal.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "MapLibre GL JS",
+      "path": "MapLibre GL JS.md"
+    },
+    {
+      "basename": "Cloud Masking",
+      "path": "Cloud Masking.md"
+    },
+    {
+      "basename": "Landsat",
+      "path": "Landsat.md"
     },
     {
       "basename": "Multispectral",
@@ -17,20 +69,8 @@
       "path": "Low Earth Orbit.md"
     },
     {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "RADAR",
-      "path": "RADAR.md"
-    },
-    {
       "basename": "Bidirectional Reflectance Distribution Function",
       "path": "Bidirectional Reflectance Distribution Function.md"
-    },
-    {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
     },
     {
       "basename": "Sentinel",
@@ -159,46 +199,6 @@
     {
       "basename": "Element84 Earth Search",
       "path": "Element84 Earth Search.md"
-    },
-    {
-      "basename": "Flashcards",
-      "path": "Flashcards.md"
-    },
-    {
-      "basename": "Apache Arrow",
-      "path": "Apache Arrow.md"
-    },
-    {
-      "basename": "National Agriculture Imagery Program",
-      "path": "National Agriculture Imagery Program.md"
-    },
-    {
-      "basename": "Zarr",
-      "path": "Zarr.md"
-    },
-    {
-      "basename": "Modern Data Stack",
-      "path": "Modern Data Stack.md"
-    },
-    {
-      "basename": "Data Integration",
-      "path": "Data Integration.md"
-    },
-    {
-      "basename": "Inter-Process Communication",
-      "path": "Inter-Process Communication.md"
-    },
-    {
-      "basename": "Remote Procedure Call",
-      "path": "Remote Procedure Call.md"
-    },
-    {
-      "basename": "DuckDB",
-      "path": "DuckDB.md"
-    },
-    {
-      "basename": "SimCLR",
-      "path": "SimCLR.md"
     }
   ],
   "omittedPaths": [],

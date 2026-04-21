@@ -3,6 +3,8 @@ aliases:
   - Earth Observation
   - EO
 ---
+Fundamental Principle: All objects above absolute zero emit electromagnetic radiation.
+
 
 
 The acquisition of information about an object or phenomenon without making physical contact with the object, in contrast to "in situ" or on-site observation.
