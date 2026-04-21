@@ -3,5 +3,7 @@ However, these images have lower spatial resolutions (smaller bands mean less li
 
 In contrast, satellites like Landsat-8 also capture [[Panchromatic]] images; these are bands that have a single color, but capture more detail. [[Pansharpening]] involves fusing multispectral images (which have lower resolution) with panchromatic images (which have no color but higher resolution). 
 
+![[Pasted image 20260420194445.png]]
+
 
 ![[Pasted image 20260416212902.png]]

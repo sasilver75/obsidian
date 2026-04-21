@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Analysis Ready Data",
+      "path": "Analysis Ready Data.md"
+    },
+    {
+      "basename": "Light Detection and Ranging",
+      "path": "Light Detection and Ranging.md"
+    },
+    {
+      "basename": "Resolution",
+      "path": "Resolution.md"
+    },
+    {
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
+      "basename": "Ephemeris",
+      "path": "Ephemeris.md"
+    },
+    {
+      "basename": "Spectral Index",
+      "path": "Spectral Index.md"
+    },
+    {
+      "basename": "Hyperspectral",
+      "path": "Hyperspectral.md"
+    },
+    {
+      "basename": "Multispectral",
+      "path": "Multispectral.md"
+    },
+    {
+      "basename": "Shader",
+      "path": "Shader.md"
+    },
+    {
       "basename": "OlmoEarth",
       "path": "OlmoEarth.md"
     },
@@ -97,10 +141,6 @@
       "path": "Zarr.md"
     },
     {
-      "basename": "Ephemeris",
-      "path": "Ephemeris.md"
-    },
-    {
       "basename": "Modern Data Stack",
       "path": "Modern Data Stack.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "Planet Labs",
       "path": "Planet Labs.md"
-    },
-    {
-      "basename": "Sentinel",
-      "path": "Sentinel.md"
-    },
-    {
-      "basename": "SEN12MS",
-      "path": "SEN12MS.md"
-    },
-    {
-      "basename": "Copernicus DEM",
-      "path": "Copernicus DEM.md"
-    },
-    {
-      "basename": "Satellogic",
-      "path": "Satellogic.md"
-    },
-    {
-      "basename": "Mosaic",
-      "path": "Mosaic.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Area of Interest",
-      "path": "Area of Interest.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
-    },
-    {
-      "basename": "ImageNet",
-      "path": "ImageNet.md"
-    },
-    {
-      "basename": "Amazon Elastic Block Store",
-      "path": "Amazon Elastic Block Store.md"
     }
   ],
   "omittedPaths": [],

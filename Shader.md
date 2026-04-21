@@ -2,8 +2,9 @@
 aliases:
   - Shading
 ---
-
 A shader is a small program that runs on the GPU, written in [[OpenGL Shading Language]] (GLSL), a C-like language designed for parallel numeric computation.
+- When a GPU draws a 3D scene, they run two tiny programs for each frame: a [[Vertex Shader]] (runs once per corner of every triangle, deciding on screen where that corner ends up) and a [[Fragment Shader]] (runs once per pixel inside the triangle, deciding what color the pixel is). They're written in [[OpenGL Shading Language]] ([[OpenGL Shading Language|GLSL]]), a C-like language.
+- [[Three.js]] ships with pre-built shaders like MeshStandardMaterial, MeshBasicMaterial, so you don't usually have to write GLSL yourself.
 
 The name comes from their original purpose, computing how light *shades* a surface.
 - Today, they're used for any per-vertex or per-pixel computation.

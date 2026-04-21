@@ -8,9 +8,15 @@ aliases:
 
 
 In [[Remote Sensing]], there are four types of resolution to consider for any dataset, each of which plays a role in how data from an instrument can be used:
-- ==Radiometric== Resolution: The amount of information in each pixel; the number of bits representing the energy recorded. The higher the radiometric resolution, the more values are available to store information, providing better discrimination between even the slightest differences in energy.
+- ==Radiometric== Resolution:  The *bit depth.* The amount of information in each pixel; the number of bits representing the energy recorded. The higher the radiometric resolution, the more values are available to store information, providing better discrimination between even the slightest differences in energy.
+	- Relevant to all types of sensing, not just to radio-based active sensing!
+	- 2 bits gives 0-4 values, 4 bits gives 0-16, etc. Many older satellites tend to be 8-bit, but something like Sentinel-2 has 16-bit (0-65,535).
 - ==Spatial== Resolution: The size of each pixel within a digital image, and the area on Earth's surface represented by that pixel.
 	- Seems to mean the same thing as [[Ground Sample Distance]] (GSD).
+	- Low (~1km - 3~00m)
+	- Medium (~300 - ~30m)
+	- High (~30m - ~10m)
+	- Very High ([[Very High Resolution|VHR]]) (~10m - <1m)
 - ==Spectral== Resolution: The ability of an instrument to *discern* finer wavelengths; that is, having more and narrower bands.
 	- Many instruments are considered to be [[Multispectral]], meaning they have 3-10 bands.
 	- Some instruments have hundreds to even *thousands* of bands, and are considered to be [[Hyperspectral]].
@@ -19,6 +25,7 @@ In [[Remote Sensing]], there are four types of resolution to consider for any da
 	- Depends on the orbit, the instrument's characteristics, and the swath width.
 	- Because [[Geostationary Orbit|Geostationary]] platforms match the rate at which Earth rotates, the temporal resolution is much finer.
 	- [[Polar Orbit|Polar]] orbiting platforms have a temporal resolution that can vary from 1 day to 16 days.
+	- While a mission might have frequent visits over a certain area of the world, that might not help for parts of the world that are covered in cloud. If you have a higher temporal resolution, it increases the chances of getting data from the surface (optically).
 
 
 Q: ==Why not build an instrument with high radiometric, spatial, spectral, and temporal resolution?==

@@ -75,7 +75,7 @@ Class 18: High noise
 
 
 
-
+![[Pasted image 20260420213612.png]]
 
 
 
