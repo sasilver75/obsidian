@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Project Ideas",
+      "path": "Project Ideas.md"
+    },
+    {
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
       "basename": "Synthetic Aperture Radar",
       "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "ICEYE",
+      "path": "ICEYE.md"
+    },
+    {
+      "basename": "Gaussian Splatting",
+      "path": "Gaussian Splatting.md"
+    },
+    {
+      "basename": "Maxar",
+      "path": "Maxar.md"
+    },
+    {
+      "basename": "Cloud-Optimized GeoTIFF",
+      "path": "Cloud-Optimized GeoTIFF.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "SkySense",
+      "path": "SkySense.md"
+    },
+    {
+      "basename": "Cloud-Native Geospatial",
+      "path": "Cloud-Native Geospatial.md"
     },
     {
       "basename": "Analysis Ready Data",
@@ -19,10 +55,6 @@
     {
       "basename": "Satellite",
       "path": "Satellite.md"
-    },
-    {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
     },
     {
       "basename": "Ephemeris",
@@ -53,10 +85,6 @@
       "path": "Fields of the World.md"
     },
     {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
       "basename": "GeoParquet",
       "path": "GeoParquet.md"
     },
@@ -79,10 +107,6 @@
     {
       "basename": "TorchGeo",
       "path": "TorchGeo.md"
-    },
-    {
-      "basename": "Project Ideas",
-      "path": "Project Ideas.md"
     },
     {
       "basename": "SAM-Geospatial",
@@ -127,14 +151,6 @@
     {
       "basename": "National Agriculture Imagery Program",
       "path": "National Agriculture Imagery Program.md"
-    },
-    {
-      "basename": "SkySense",
-      "path": "SkySense.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
     },
     {
       "basename": "Zarr",
@@ -183,22 +199,6 @@
     {
       "basename": "AlphaEarth Foundations",
       "path": "AlphaEarth Foundations.md"
-    },
-    {
-      "basename": "PALSAR",
-      "path": "PALSAR.md"
-    },
-    {
-      "basename": "Acquisition",
-      "path": "Acquisition.md"
-    },
-    {
-      "basename": "Maxar",
-      "path": "Maxar.md"
-    },
-    {
-      "basename": "Planet Labs",
-      "path": "Planet Labs.md"
     }
   ],
   "omittedPaths": [],

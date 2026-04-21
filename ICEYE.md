@@ -1,4 +1,4 @@
-==Commercial imagery provider==, founded 2014, Helsinki, Finland
+==Commercial imagery provider==, founded 2014, Helsinki, Finland. Pronounced "IceEye"
 - Finland has persistent cloud cover, long dark winters, and a historically significant eastern border, which has made all-weather, day/night [[Synthetic Aperture Radar|SAR]] not just commercially interesting, but nationally strategic. Had strong Finnish government support early on, and became part of Finland's defense and intelligence infrastructure before expanding globally.
 ==Specializing in [[Synthetic Aperture Radar|X-Band]] [[Synthetic Aperture Radar|SAR]], with the world's largest commercial SAR fleet.==
 - Started purely as a data provider, but has expanded into:

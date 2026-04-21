@@ -15,7 +15,7 @@ A satellite imagery company (Acq. PE Company Advent International 2023) that ope
 - ==WorldView==-4 — 0.31m, but failed in 2019
 - ==GeoEye==-1 — 0.41m pan, 1.65m multispectral
 
-![[Pasted image 20260415205415.png|400]]
+![[Pasted image 20260415205415.png|1114]]
 Above: Images from next-gen WorldView Legion satellites (2024)
 
 Good for:

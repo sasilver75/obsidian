@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Synthetic Aperture Radar"
             }
+          },
+          {
+            "id": "aceca53bf1f49dbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project Ideas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project Ideas"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1596,44 +1620,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4d521e11e9332c44",
+  "active": "aceca53bf1f49dbd",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260420221645.png",
-    "_attachments/Pasted image 20260420221431.png",
-    "_attachments/Pasted image 20260420221421.png",
-    "Analysis Ready Data.md",
-    "_attachments/Pasted image 20260420213738.png",
-    "Light Detection and Ranging.md",
-    "_attachments/Pasted image 20260420213612.png",
+    "Electromagnetic Spectrum.md",
+    "Project Ideas.md",
     "Synthetic Aperture Radar.md",
-    "_attachments/Pasted image 20260420213305.png",
+    "_attachments/Pasted image 20260421013926.png",
+    "_attachments/Pasted image 20260421004621.png",
+    "_attachments/Pasted image 20260421004502.png",
+    "_attachments/Pasted image 20260421004407.png",
+    "_attachments/Pasted image 20260421004355.png",
+    "_attachments/Pasted image 20260421004232.png",
+    "_attachments/Pasted image 20260421004143.png",
+    "_attachments/Pasted image 20260421004125.png",
+    "_attachments/Pasted image 20260421004055.png",
+    "_attachments/Pasted image 20260421003751.png",
+    "ICEYE.md",
+    "Gaussian Splatting.md",
+    "Maxar.md",
+    "Cloud-Optimized GeoTIFF.md",
+    "SpatioTemporal Asset Catalog.md",
+    "SkySense.md",
+    "Cloud-Native Geospatial.md",
+    "Analysis Ready Data.md",
+    "Light Detection and Ranging.md",
     "Resolution.md",
     "Satellite.md",
-    "Electromagnetic Spectrum.md",
     "Ephemeris.md",
-    "_attachments/Pasted image 20260420195319.png",
-    "_attachments/Pasted image 20260420195112.png",
-    "_attachments/Pasted image 20260420194925.png",
-    "_attachments/Pasted image 20260420194636.png",
     "Spectral Index.md",
     "Hyperspectral.md",
-    "_attachments/Pasted image 20260420194450.png",
     "Multispectral.md",
     "Shader.md",
     "OlmoEarth.md",
     "Fields of the World.md",
-    "SpatioTemporal Asset Catalog.md",
     "GeoParquet.md",
     "Shapefile.md",
     "GeoJSON.md",
     "CARTO.md",
     "Geospatial Embedding.md",
-    "TorchGeo.md",
-    "Project Ideas.md",
-    "SAM-Geospatial.md",
-    "Websockets.md",
-    "AWS Relational Data Store.md",
-    "Hamming Distance.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
