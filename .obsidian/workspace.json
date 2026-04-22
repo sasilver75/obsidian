@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c6cc2d4184b29dfd",
+        "id": "a18195b824ab3e5d",
         "type": "tabs",
         "children": [
           {
-            "id": "c5dff934c595a644",
+            "id": "1583334ea6b022b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segment Anything Model.md",
+                "file": "NASA EarthData.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Segment Anything Model"
+              "title": "NASA EarthData"
             }
           },
           {
-            "id": "320ace2b32b7164c",
+            "id": "5995840f8478f419",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Very High Frequency.md",
+                "file": "NASA Open Data Portal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Very High Frequency"
+              "title": "NASA Open Data Portal"
             }
           },
           {
-            "id": "99010487df26ea33",
+            "id": "0b5279d7c6e2f8a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doppler Effect.md",
+                "file": "Georeference.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Doppler Effect"
+              "title": "Georeference"
             }
           },
           {
-            "id": "b9e1089b1ca792b8",
+            "id": "b234fe1b003946be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synthetic Aperture Radar.md",
+                "file": "Hyperspectral.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,178 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Synthetic Aperture Radar"
-            }
-          },
-          {
-            "id": "f0d4dc99e2e3b3c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attenuation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Attenuation"
-            }
-          },
-          {
-            "id": "2d23fa01194b4046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RADAR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RADAR"
-            }
-          },
-          {
-            "id": "0e589d1a5dbc3b80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bidirectional Reflectance Distribution Function.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bidirectional Reflectance Distribution Function"
-            }
-          },
-          {
-            "id": "4d521e11e9332c44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Synthetic Aperture Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Synthetic Aperture Radar"
-            }
-          },
-          {
-            "id": "aceca53bf1f49dbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Low Earth Orbit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Low Earth Orbit"
-            }
-          },
-          {
-            "id": "59a38c5d56060768",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multispectral.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Multispectral"
-            }
-          },
-          {
-            "id": "f679b016fe8f0ac1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CubeSat.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CubeSat"
+              "title": "Hyperspectral"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1811,44 +1644,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c5dff934c595a644",
+  "active": "5995840f8478f419",
   "lastOpenFiles": [
+    "NASA EarthData.md",
+    "NASA Open Data Portal.md",
+    "USGS EarthExplorer.md",
+    "_attachments/Pasted image 20260422125051.png",
+    "_attachments/Pasted image 20260422125040.png",
+    "Geocode.md",
+    "United States Geological Survey.md",
+    "Landsat.md",
+    "_attachments/Pasted image 20260422124317.png",
+    "_attachments/Pasted image 20260422124306.png",
+    "_attachments/Pasted image 20260422124106.png",
+    "_attachments/Pasted image 20260422124100.png",
+    "_attachments/Pasted image 20260422124011.png",
+    "_attachments/Pasted image 20260422123842.png",
+    "_attachments/Pasted image 20260422122606.png",
+    "_attachments/Pasted image 20260422122421.png",
+    "Remote Sensing.md",
+    "Georeference.md",
+    "Satellite.md",
+    "Orbit.md",
+    "Ground Sample Distance.md",
+    "Hyperspectral.md",
+    "Light Detection and Ranging.md",
+    "RADAR.md",
+    "Multispectral.md",
+    "Electromagnetic Spectrum.md",
+    "CubeSat.md",
+    "Low Earth Orbit.md",
+    "Synthetic Aperture Radar.md",
+    "Bidirectional Reflectance Distribution Function.md",
+    "Attenuation.md",
+    "Doppler Effect.md",
+    "Very High Frequency.md",
+    "Segment Anything Model.md",
     "SEN12MS.md",
     "HLS.md",
-    "Fields of the World V2.md",
-    "Fields of the World.md",
-    "Kessler Syndrome.md",
-    "Planet Labs.md",
-    "_attachments/Pasted image 20260422001626.png",
-    "_attachments/Pasted image 20260422001138.png",
-    "_attachments/Pasted image 20260422001040.png",
-    "_attachments/Pasted image 20260422001011.png",
-    "_attachments/Pasted image 20260422000946.png",
-    "_attachments/Pasted image 20260422000846.png",
-    "_attachments/Pasted image 20260422000748.png",
-    "_attachments/Pasted image 20260422000729.png",
-    "_attachments/Pasted image 20260422000625.png",
-    "_attachments/Pasted image 20260422000549.png",
-    "Remote Sensing.md",
-    "Satellite.md",
-    "Starshield.md",
-    "Synthetic Aperture Radar.md",
-    "Extremely High Frequency.md",
-    "High Frequency.md",
-    "Electromagnetic Spectrum.md",
-    "Inverse Synthetic Aperture Radar.md",
-    "TanDEM-X.md",
-    "Copernicus DEM.md",
-    "Shuttle Radar Topography Mission.md",
-    "Doppler Effect.md",
-    "Proximal Policy Optimization.md",
-    "Project Ideas.md",
-    "RADAR.md",
-    "TerraSAR-X.md",
-    "RADARSAT.md",
-    "COSMO-SkyMed.md",
-    "WorldDEM.md",
-    "Differential Interferometric Synthetic Aperture Radar.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

@@ -11,6 +11,12 @@ Fundamental Principle of EO: All objects above absolute zero emit electromagneti
 
 It has military, intelligence, commercial, economic, planning, and humanitarian applications, among others.
 
+
+> Comparison with [[Remote Sensing]]:
+- EO: The gathering of information about the Earth
+- RS: Gathering information about making contact
+- So they are not the same! EO can or can not use RS; I typically talk about the intersection of the two, here.
+
 ![[Pasted image 20260421212101.png]]
 
 Can be split into:
@@ -82,6 +88,14 @@ A taxonomy of processing "levels" defined in 1986 by [[National Aeronautics and 
 	- ==Generally smaller than lower level data sets, and thus can be dealt with without incurring a great deal of data handling overhead. Useful for many applications.==
 - 4:
 	- Model output or results from analyses of lower level data (i.e. variables that were not measured by the instruments, but instead derived from these measurements).
+
+![[Pasted image 20260422121153.png]]
+- Raw is still useful; you want imagery as soon as possible for disaster relief/aid, so that you can help people impacted by natural disaster, war, etc.
+	- Hasn't been aligned somewhere on the earth. You may know the satellite telemetry (position, angle, approximate), so you can roughly locate the image on earth, within a kilometer or so.
+- Typically, unless you're doing immediate response applications, you wait for a L1 or L2 product
+	- [[Top-of-Atmosphere]]: Typically an image that's been geometrically corrected and projected onto a [[Digital Elevation Model|DEM]], precisely geolocated. Has a little "tinge" to it, compared to the [[Surface Reflectance]] product.
+	- [[Surface Reflectance]] has a bunch of preprocessing effects to do atmospheric correction (removing thin clouds, etc.). Useful for surface applications, but if you're studying the atmosphere itself, you'd typically rather do top-of-atmosphere.
+- Level 3 products are so-called derived products, classified images created from satellite imagery..
 
 
 

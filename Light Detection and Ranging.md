@@ -79,6 +79,24 @@ Class 18: High noise
 
 
 
+____________
+Adam Stewart AI4EO class
+
+Similarities to Radar, as an active sensing technology. Works at night.
+Differences
+- Ultraviolet, visible, or infrared laser
+- Generates a point cloud:
+- ![[Pasted image 20260422115434.png]]
+- You can then take this 3D point cloud and try to build a 3D model of a forest, buildings, whatever you want to study.
+- Applications:
+	- Meteorology: clouds, aerosols
+	- [[Geodesy]]: Surveying, archaeology
+	- Forestry: Tree height, biomass density.
+
+
+
+
+
 
 
 

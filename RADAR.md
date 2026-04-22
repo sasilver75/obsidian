@@ -178,13 +178,24 @@ A phase history data file is not an image product and can't be viewed, but it is
 
 
 
+____________________
+Adam Stewart AI4EO Class
+
+- ==RADAR doesn't actually use radio waves, it uses microwaves.==
+
+- Meteorology: precipitation, wind using [[Doppler Effect|Doppler]] radar
+- [[Ground-Penetrating Radar]]: Can fire a small seismic pulse down into the ground and measure the time it takes for that signal to reflect off of material underground, including things like bunkers, ancient buildings, or oil reserves.
+- [[Synthetic Aperture Radar]] (SAR): You actually can't measure small changes in a surface with microwaves, since the wavelength of the light is very large... So you can make your radar receiver, your radar antenna, larger. If you make it larger, it can get detail at a great resolution.
+	- There's a physical limit to how large you can make a sensor, but you can physically MOVE the sensor and take multiple readings at different locations (several antennas in a large array, grid), or put that radar sensor in a large satellite and fly it around the earth, which synthetically increases the aperture of the sensor.
+	- Now we can make very precise measurements of things like elevation ([[Digital Elevation Model|DEM]]), flooding, or even use it for glaciology and peek into the surface level of ice and snow to understand how thick the ice is on a glacier!
+- An extension: [[InSAR|Interferometric Synthetic Aperture Radar]] (InSAR)
+	- Taking a SAR image... and taking *another* image at a different time! These images are interesting; they aren't just floating point numbers of intensity; because they use an active light source, they can measure the time it takes for the light source to bounce off the ground, reflect/return to the original satellite. This active signal is very nice, you can make your satellite work at night, working 24/7, but also... they pass through clouds. So even if there are clouds overhead, you can see the surface of the earth.
+	- With InSAR, we take two images at two different times, capturing both the intensity and phase of light, firing a polarized light source at the ground. So we have a complex number, with both intensity and phase. Comparing the phase of two images at two times, we can get an image like:
+	- ![[Pasted image 20260422115223.png]]
+	- This is a locations where there was an earthquake; the bulls-eye patterns are instants of subsidence, where the ground lifted or sunk by millimeters.
 
 
 
-There's a limit to how close two objects can be, before they look like the same echo to our antenna. This is called the range resolution.
-
-A radar emits a wave in all directions, and we can measure the distance of objects, but we have no idea what direction the objects are in!
-- In a similar fashion to a camera lens, we can focus a pulse to only be emitted in a single direction and rotate the antenna!
 
 
 

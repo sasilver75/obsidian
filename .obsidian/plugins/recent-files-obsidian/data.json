@@ -1,6 +1,98 @@
 {
   "recentFiles": [
     {
+      "basename": "NASA Open Data Portal",
+      "path": "NASA Open Data Portal.md"
+    },
+    {
+      "basename": "NASA EarthData",
+      "path": "NASA EarthData.md"
+    },
+    {
+      "basename": "USGS EarthExplorer",
+      "path": "USGS EarthExplorer.md"
+    },
+    {
+      "basename": "Geocode",
+      "path": "Geocode.md"
+    },
+    {
+      "basename": "United States Geological Survey",
+      "path": "United States Geological Survey.md"
+    },
+    {
+      "basename": "Landsat",
+      "path": "Landsat.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "Georeference",
+      "path": "Georeference.md"
+    },
+    {
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "Orbit",
+      "path": "Orbit.md"
+    },
+    {
+      "basename": "Ground Sample Distance",
+      "path": "Ground Sample Distance.md"
+    },
+    {
+      "basename": "Hyperspectral",
+      "path": "Hyperspectral.md"
+    },
+    {
+      "basename": "Light Detection and Ranging",
+      "path": "Light Detection and Ranging.md"
+    },
+    {
+      "basename": "RADAR",
+      "path": "RADAR.md"
+    },
+    {
+      "basename": "Multispectral",
+      "path": "Multispectral.md"
+    },
+    {
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
+      "basename": "CubeSat",
+      "path": "CubeSat.md"
+    },
+    {
+      "basename": "Low Earth Orbit",
+      "path": "Low Earth Orbit.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Bidirectional Reflectance Distribution Function",
+      "path": "Bidirectional Reflectance Distribution Function.md"
+    },
+    {
+      "basename": "Attenuation",
+      "path": "Attenuation.md"
+    },
+    {
+      "basename": "Doppler Effect",
+      "path": "Doppler Effect.md"
+    },
+    {
+      "basename": "Very High Frequency",
+      "path": "Very High Frequency.md"
+    },
+    {
       "basename": "Segment Anything Model",
       "path": "Segment Anything Model.md"
     },
@@ -29,20 +121,8 @@
       "path": "Planet Labs.md"
     },
     {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
-    },
-    {
-      "basename": "Satellite",
-      "path": "Satellite.md"
-    },
-    {
       "basename": "Starshield",
       "path": "Starshield.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
     },
     {
       "basename": "Extremely High Frequency",
@@ -51,10 +131,6 @@
     {
       "basename": "High Frequency",
       "path": "High Frequency.md"
-    },
-    {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
     },
     {
       "basename": "Inverse Synthetic Aperture Radar",
@@ -73,20 +149,12 @@
       "path": "Shuttle Radar Topography Mission.md"
     },
     {
-      "basename": "Doppler Effect",
-      "path": "Doppler Effect.md"
-    },
-    {
       "basename": "Proximal Policy Optimization",
       "path": "Proximal Policy Optimization.md"
     },
     {
       "basename": "Project Ideas",
       "path": "Project Ideas.md"
-    },
-    {
-      "basename": "RADAR",
-      "path": "RADAR.md"
     },
     {
       "basename": "TerraSAR-X",
@@ -109,20 +177,12 @@
       "path": "Differential Interferometric Synthetic Aperture Radar.md"
     },
     {
-      "basename": "Very High Frequency",
-      "path": "Very High Frequency.md"
-    },
-    {
       "basename": "Ultra High Frequency",
       "path": "Ultra High Frequency.md"
     },
     {
       "basename": "Super High Frequency",
       "path": "Super High Frequency.md"
-    },
-    {
-      "basename": "CubeSat",
-      "path": "CubeSat.md"
     },
     {
       "basename": "Interferometry",
@@ -133,72 +193,12 @@
       "path": "Untitled 13.md"
     },
     {
-      "basename": "Attenuation",
-      "path": "Attenuation.md"
-    },
-    {
       "basename": "Attention",
       "path": "Attention.md"
     },
     {
       "basename": "Color Subaperture Image",
       "path": "Color Subaperture Image.md"
-    },
-    {
-      "basename": "Hexadecimal",
-      "path": "Hexadecimal.md"
-    },
-    {
-      "basename": "MapLibre GL JS",
-      "path": "MapLibre GL JS.md"
-    },
-    {
-      "basename": "Cloud Masking",
-      "path": "Cloud Masking.md"
-    },
-    {
-      "basename": "Landsat",
-      "path": "Landsat.md"
-    },
-    {
-      "basename": "Multispectral",
-      "path": "Multispectral.md"
-    },
-    {
-      "basename": "Low Earth Orbit",
-      "path": "Low Earth Orbit.md"
-    },
-    {
-      "basename": "Bidirectional Reflectance Distribution Function",
-      "path": "Bidirectional Reflectance Distribution Function.md"
-    },
-    {
-      "basename": "Sentinel",
-      "path": "Sentinel.md"
-    },
-    {
-      "basename": "ICEYE",
-      "path": "ICEYE.md"
-    },
-    {
-      "basename": "Gaussian Splatting",
-      "path": "Gaussian Splatting.md"
-    },
-    {
-      "basename": "Maxar",
-      "path": "Maxar.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
-    },
-    {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
-      "basename": "SkySense",
-      "path": "SkySense.md"
     }
   ],
   "omittedPaths": [],

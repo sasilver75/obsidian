@@ -23,6 +23,27 @@ Just as your fingerprint is unique to you, ==everything on Earth has a unique sp
 Above: The Electromagnetic spectrum
 
 
+![[Pasted image 20260422112545.png]]
+- Visible spectrum: We can see basically things that are approximately the wavelength of a single-celled organism, but there are many other wavelengths of light...
+- Infrared spectrum: You can actually see temperature, as opposed to visible light. Can give you a sunburn.
+- Microwave:  Might not want to stick your head in a microwave, but relatively safe.
+- Radio: Safe, going through you right now.
+- UV: sunburns can get pretty bad
+- X-ray: Can see through your body, can cause cancer with regular exposure
+- Gamma rays: Most dangerous, can destroy the atoms in our body if there's enough energy. Earth's atmosphere blocks most of these high-frequency ones (not so much of the ultraviolet spectrum).
+
+Everything emits electromagnetic energy. The sun happens to emit a lot of light in the visible wavelengths. It's no accident that humans have evolved to see this particular wavelength of light. This is largely based on the temperature of the sun itself. 
+- As a human, you have  a temperature, and you emit light, which happens to be in the infrared spectrum.
+- Even pretty cold objects emits light at some wavelength of the spectrum.
+
+Traditional cameras are designed to capture light in the visible spectrum; this is the part that we're most interested in taking an imagine of, as people that see in the visible spectrum ourselves.
+- Separately filter and record different wavelengths of light (typically RGB).
+	- ![[Pasted image 20260422113252.png]]
+- You record three different bands, each of which are a grayscale image (just intensity, say 0-255), and you can sort of look at these and think about which of them are the grayscale. The top-right is blue, because it's bright/intense in the blue parts of the outfit.
+	- When you take these images and stack them on top of eachother, the result is a color image!
+	- Typically we record RGB, because those are the parts of the visual spectrum that humans are most sensitive to.
+	- Can be active or passive sensors (either creating a light source or just using the ambient light)
+
 ![[Pasted image 20260415184933.png]]
 Above: [[Panchromatic]], [[Near Infrared]] (NIR), [[Short-Wave Infrared]] (SWIR), [[Thermal Infrared]] (TIR), 
 
