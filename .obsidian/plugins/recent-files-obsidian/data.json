@@ -1,24 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "NASA Open Data Portal",
-      "path": "NASA Open Data Portal.md"
+      "basename": "Ground Control Point",
+      "path": "Ground Control Point.md"
+    },
+    {
+      "basename": "Post-Processed Kinematic",
+      "path": "Post-Processed Kinematic.md"
+    },
+    {
+      "basename": "Geospatial Evaluation",
+      "path": "Geospatial Evaluation.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Cross-Entropy.md"
+    },
+    {
+      "basename": "Hyperspectral",
+      "path": "Hyperspectral.md"
+    },
+    {
+      "basename": "Jaccard Index",
+      "path": "Jaccard Index.md"
+    },
+    {
+      "basename": "Recall",
+      "path": "Recall.md"
+    },
+    {
+      "basename": "Precision-Recall Curve",
+      "path": "Precision-Recall Curve.md"
+    },
+    {
+      "basename": "Mean Squared Error",
+      "path": "Mean Squared Error.md"
+    },
+    {
+      "basename": "Root Mean Squared Error",
+      "path": "Root Mean Squared Error.md"
+    },
+    {
+      "basename": "Coefficient of Determination",
+      "path": "Coefficient of Determination.md"
+    },
+    {
+      "basename": "Ephemeris",
+      "path": "Ephemeris.md"
+    },
+    {
+      "basename": "RADAR",
+      "path": "RADAR.md"
+    },
+    {
+      "basename": "ArcGIS",
+      "path": "ArcGIS.md"
+    },
+    {
+      "basename": "Geospatial Data Abstraction Library",
+      "path": "Geospatial Data Abstraction Library.md"
+    },
+    {
+      "basename": "rasterio",
+      "path": "rasterio.md"
+    },
+    {
+      "basename": "Geospatial Data Sources",
+      "path": "Geospatial Data Sources.md"
+    },
+    {
+      "basename": "Earth on AWS",
+      "path": "Earth on AWS.md"
+    },
+    {
+      "basename": "ESA Data Catalog",
+      "path": "ESA Data Catalog.md"
     },
     {
       "basename": "NASA EarthData",
       "path": "NASA EarthData.md"
     },
     {
+      "basename": "NASA Open Data Portal",
+      "path": "NASA Open Data Portal.md"
+    },
+    {
+      "basename": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)",
+      "path": "Courses/Machine Learning/OxML Fundamentals (2024)/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
+    },
+    {
+      "basename": "National Aeronautics and Space Administration",
+      "path": "National Aeronautics and Space Administration.md"
+    },
+    {
       "basename": "USGS EarthExplorer",
       "path": "USGS EarthExplorer.md"
     },
     {
-      "basename": "Geocode",
-      "path": "Geocode.md"
+      "basename": "How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}",
+      "path": "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md"
+    },
+    {
+      "basename": "Copernicus Browser",
+      "path": "Copernicus Browser.md"
     },
     {
       "basename": "United States Geological Survey",
       "path": "United States Geological Survey.md"
+    },
+    {
+      "basename": "Sentinel",
+      "path": "Sentinel.md"
+    },
+    {
+      "basename": "Geocode",
+      "path": "Geocode.md"
     },
     {
       "basename": "Landsat",
@@ -45,16 +141,8 @@
       "path": "Ground Sample Distance.md"
     },
     {
-      "basename": "Hyperspectral",
-      "path": "Hyperspectral.md"
-    },
-    {
       "basename": "Light Detection and Ranging",
       "path": "Light Detection and Ranging.md"
-    },
-    {
-      "basename": "RADAR",
-      "path": "RADAR.md"
     },
     {
       "basename": "Multispectral",
@@ -111,94 +199,6 @@
     {
       "basename": "Fields of the World",
       "path": "Fields of the World.md"
-    },
-    {
-      "basename": "Kessler Syndrome",
-      "path": "Kessler Syndrome.md"
-    },
-    {
-      "basename": "Planet Labs",
-      "path": "Planet Labs.md"
-    },
-    {
-      "basename": "Starshield",
-      "path": "Starshield.md"
-    },
-    {
-      "basename": "Extremely High Frequency",
-      "path": "Extremely High Frequency.md"
-    },
-    {
-      "basename": "High Frequency",
-      "path": "High Frequency.md"
-    },
-    {
-      "basename": "Inverse Synthetic Aperture Radar",
-      "path": "Inverse Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "TanDEM-X",
-      "path": "TanDEM-X.md"
-    },
-    {
-      "basename": "Copernicus DEM",
-      "path": "Copernicus DEM.md"
-    },
-    {
-      "basename": "Shuttle Radar Topography Mission",
-      "path": "Shuttle Radar Topography Mission.md"
-    },
-    {
-      "basename": "Proximal Policy Optimization",
-      "path": "Proximal Policy Optimization.md"
-    },
-    {
-      "basename": "Project Ideas",
-      "path": "Project Ideas.md"
-    },
-    {
-      "basename": "TerraSAR-X",
-      "path": "TerraSAR-X.md"
-    },
-    {
-      "basename": "RADARSAT",
-      "path": "RADARSAT.md"
-    },
-    {
-      "basename": "COSMO-SkyMed",
-      "path": "COSMO-SkyMed.md"
-    },
-    {
-      "basename": "WorldDEM",
-      "path": "WorldDEM.md"
-    },
-    {
-      "basename": "Differential Interferometric Synthetic Aperture Radar",
-      "path": "Differential Interferometric Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Ultra High Frequency",
-      "path": "Ultra High Frequency.md"
-    },
-    {
-      "basename": "Super High Frequency",
-      "path": "Super High Frequency.md"
-    },
-    {
-      "basename": "Interferometry",
-      "path": "Interferometry.md"
-    },
-    {
-      "basename": "Untitled 13",
-      "path": "Untitled 13.md"
-    },
-    {
-      "basename": "Attention",
-      "path": "Attention.md"
-    },
-    {
-      "basename": "Color Subaperture Image",
-      "path": "Color Subaperture Image.md"
     }
   ],
   "omittedPaths": [],

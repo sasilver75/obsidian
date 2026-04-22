@@ -26,7 +26,7 @@ Almost every geospatial tool uses GDAL:
 - [[QGIS]], [[PostGIS]], MapServer, all use GDAL under the hood.
 
 # Command line tools:
-- `gdalinfo`: Inspect a raster file
+- `gdalinfo`: Inspect a raster file, spits out a lot of information about the file.
 - `gdal_translate`: Convert between raster formats
 - `gdalwarp`: Reproject/warp rasters
 - `ogr2ogr` : Convert between vector formats

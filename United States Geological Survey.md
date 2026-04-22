@@ -19,7 +19,7 @@ Maintains ==USGS National Map== ([nationalmap.gov](https://nationalmap.gov), USG
 
 
 
-Hosts [[USGS EarthExplorer]], a website... 
+Hosts [[USGS EarthExplorer]], a website for getting satellite imagery data easily.
 ![[Pasted image 20260422122606.png]]
 ![[Pasted image 20260422123842.png]]
 Can specify a ==location, time==, etc. For Greenland, maybe we want to look at Greenland in the summer, so we look from April 1 2024 to the end of summer, September 30, 2024.

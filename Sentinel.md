@@ -59,3 +59,7 @@ Mission:
 
 
 ![[Pasted image 20260415205539.png|500]]
+
+
+![[Pasted image 20260422125313.png]]
+

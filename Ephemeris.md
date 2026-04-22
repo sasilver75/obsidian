@@ -3,6 +3,7 @@ aliases:
   - Two-Line Element Set
   - TLE
   - Ephemerides
+  - SPG4
 ---
 
 A [[Satellite]] ephemeris is a set of data providing the precise position and velocity of a satellite at a specific time. (Plural is Ephemerides)

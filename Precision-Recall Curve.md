@@ -1,3 +1,10 @@
+---
+aliases:
+  - PR Curve
+---
+
+
+
 Plots the trade-off between precision and recall across all thresholds. As we update the threshold for positive predictions, precision and recall change in opposite directions.
 
 A higher threshold leads to higher precision (fewer false positives), but lower recall (more false negatives), and vice versa.

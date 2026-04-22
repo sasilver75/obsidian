@@ -2,6 +2,8 @@
 aliases:
   - EarthData
 ---
+From [[National Aeronautics and Space Administration|NASA]]
+c.f. [[NASA Open Data Portal]], as well as alternatives like [[USGS EarthExplorer]], [[Copernicus Browser]]
 
 https://www.earthdata.nasa.gov/
 

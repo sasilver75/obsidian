@@ -8,7 +8,7 @@ Resources:
 
 
 RADAR's ability to determine range and motion make it suitable for many applications, but its most important attribute for imaging applications is that its relatively long wavelengths penetrate clouds, dust, and even volcanic ash, and it can image independent of most weather conditions. Given that we're on an ocean planet with a lot of water vapor continuously condensing into clouds over large regions of Earth's surface, radar is a core remote-sensing technology and it becomes the primary imaging source when cloud cover prevents other means of data collection.
-
+- Funnily, Radar uses ==microwave-band== waves, not radar band.
 
 
 -----------

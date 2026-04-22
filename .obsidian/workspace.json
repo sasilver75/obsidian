@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NASA EarthData.md",
+                "file": "Ground Control Point.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,11 +28,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NASA EarthData"
+              "title": "Ground Control Point"
             }
           },
           {
-            "id": "5995840f8478f419",
+            "id": "3014a0656b9378c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jaccard Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Jaccard Index"
+            }
+          },
+          {
+            "id": "3bb0ea3ff554a900",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Precision-Recall Curve.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Precision-Recall Curve"
+            }
+          },
+          {
+            "id": "ca09799d5c7e3ab0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mean Squared Error.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mean Squared Error"
+            }
+          },
+          {
+            "id": "d59280871d7ca227",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Root Mean Squared Error.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Root Mean Squared Error"
+            }
+          },
+          {
+            "id": "ec3c8f188e96e996",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coefficient of Determination.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Coefficient of Determination"
+            }
+          },
+          {
+            "id": "60b2bfd041e4ef86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Earth on AWS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Earth on AWS"
+            }
+          },
+          {
+            "id": "d977c6e9ec9e34ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,6 +197,78 @@
               },
               "icon": "lucide-file",
               "title": "NASA Open Data Portal"
+            }
+          },
+          {
+            "id": "5995840f8478f419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Machine Learning/OxML Fundamentals (2024)/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)"
+            }
+          },
+          {
+            "id": "7b943dfa17a43840",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESA Data Catalog.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ESA Data Catalog"
+            }
+          },
+          {
+            "id": "edc70111f9812406",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geospatial Data Sources.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geospatial Data Sources"
             }
           },
           {
@@ -103,8 +319,7 @@
               "title": "Hyperspectral"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -1644,44 +1859,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5995840f8478f419",
+  "active": "1583334ea6b022b5",
   "lastOpenFiles": [
+    "Post-Processed Kinematic.md",
+    "Geospatial Evaluation.md",
+    "Cross-Entropy.md",
+    "Hyperspectral.md",
+    "_attachments/Pasted image 20260422144955.png",
+    "_attachments/Pasted image 20260422144912.png",
+    "_attachments/Pasted image 20260422144858.png",
+    "_attachments/Pasted image 20260422144755.png",
+    "Jaccard Index.md",
+    "_attachments/Pasted image 20260422144716.png",
+    "_attachments/Pasted image 20260422144624.png",
+    "_attachments/Pasted image 20260422144513.png",
+    "Recall.md",
+    "Precision-Recall Curve.md",
+    "_attachments/Pasted image 20260422144427.png",
+    "Mean Squared Error.md",
+    "Root Mean Squared Error.md",
+    "_attachments/Pasted image 20260422142539.png",
+    "_attachments/Pasted image 20260422142358.png",
+    "Coefficient of Determination.md",
+    "Ephemeris.md",
+    "RADAR.md",
+    "ArcGIS.md",
+    "Geospatial Data Abstraction Library.md",
+    "rasterio.md",
+    "Geospatial Data Sources.md",
+    "Earth on AWS.md",
+    "ESA Data Catalog.md",
     "NASA EarthData.md",
     "NASA Open Data Portal.md",
+    "Courses/Machine Learning/OxML Fundamentals (2024)/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+    "National Aeronautics and Space Administration.md",
     "USGS EarthExplorer.md",
-    "_attachments/Pasted image 20260422125051.png",
-    "_attachments/Pasted image 20260422125040.png",
-    "Geocode.md",
+    "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md",
+    "Copernicus Browser.md",
     "United States Geological Survey.md",
-    "Landsat.md",
-    "_attachments/Pasted image 20260422124317.png",
-    "_attachments/Pasted image 20260422124306.png",
-    "_attachments/Pasted image 20260422124106.png",
-    "_attachments/Pasted image 20260422124100.png",
-    "_attachments/Pasted image 20260422124011.png",
-    "_attachments/Pasted image 20260422123842.png",
-    "_attachments/Pasted image 20260422122606.png",
-    "_attachments/Pasted image 20260422122421.png",
-    "Remote Sensing.md",
-    "Georeference.md",
-    "Satellite.md",
-    "Orbit.md",
-    "Ground Sample Distance.md",
-    "Hyperspectral.md",
-    "Light Detection and Ranging.md",
-    "RADAR.md",
-    "Multispectral.md",
-    "Electromagnetic Spectrum.md",
-    "CubeSat.md",
-    "Low Earth Orbit.md",
-    "Synthetic Aperture Radar.md",
-    "Bidirectional Reflectance Distribution Function.md",
-    "Attenuation.md",
-    "Doppler Effect.md",
-    "Very High Frequency.md",
-    "Segment Anything Model.md",
-    "SEN12MS.md",
-    "HLS.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
