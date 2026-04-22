@@ -7,6 +7,8 @@ Space is a near-perfect vacuum, but contains lots of high-energy radiation, so w
 
 The Copernicus project, Sentinel-2A/B satellites, produces 9.54TB of data each day. This amount accelerates as other companies enter the space. 
 
+"We've seen a 1000 fold increase in cost/performance of satellites in the last 5-10 years"
+
 # Terms of Art:
 - "==Aquisition==": The act of a satellite capturing imagery over a specific location
 - "==Tasking==": Instructing a satellite to acquire imagery of a specific location at a specific time.

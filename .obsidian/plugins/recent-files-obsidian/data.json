@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Fields of the World V2",
+      "path": "Fields of the World V2.md"
+    },
+    {
+      "basename": "Fields of the World",
+      "path": "Fields of the World.md"
+    },
+    {
+      "basename": "Kessler Syndrome",
+      "path": "Kessler Syndrome.md"
+    },
+    {
       "basename": "Planet Labs",
       "path": "Planet Labs.md"
     },
     {
-      "basename": "Starshield",
-      "path": "Starshield.md"
-    },
-    {
       "basename": "Remote Sensing",
       "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "Starshield",
+      "path": "Starshield.md"
     },
     {
       "basename": "Synthetic Aperture Radar",
@@ -117,10 +133,6 @@
       "path": "Color Subaperture Image.md"
     },
     {
-      "basename": "Satellite",
-      "path": "Satellite.md"
-    },
-    {
       "basename": "Hexadecimal",
       "path": "Hexadecimal.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Light Detection and Ranging",
       "path": "Light Detection and Ranging.md"
-    },
-    {
-      "basename": "Resolution",
-      "path": "Resolution.md"
-    },
-    {
-      "basename": "Ephemeris",
-      "path": "Ephemeris.md"
-    },
-    {
-      "basename": "Spectral Index",
-      "path": "Spectral Index.md"
     }
   ],
   "omittedPaths": [],
