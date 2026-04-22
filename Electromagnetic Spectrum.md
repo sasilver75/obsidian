@@ -1,6 +1,8 @@
 ---
 aliases:
   - EM Spectrum
+  - EM
+  - Electromagnetic
 ---
 -Electromagnetic energy, produced by the vibration of charged particles, travels in the form of waves through the atmosphere and the vacuum of space.
 
