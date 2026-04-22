@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Segment Anything Model",
+      "path": "Segment Anything Model.md"
+    },
+    {
+      "basename": "SEN12MS",
+      "path": "SEN12MS.md"
+    },
+    {
+      "basename": "HLS",
+      "path": "HLS.md"
+    },
+    {
       "basename": "Fields of the World V2",
       "path": "Fields of the World V2.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "SkySense",
       "path": "SkySense.md"
-    },
-    {
-      "basename": "Cloud-Native Geospatial",
-      "path": "Cloud-Native Geospatial.md"
-    },
-    {
-      "basename": "Analysis Ready Data",
-      "path": "Analysis Ready Data.md"
-    },
-    {
-      "basename": "Light Detection and Ranging",
-      "path": "Light Detection and Ranging.md"
     }
   ],
   "omittedPaths": [],

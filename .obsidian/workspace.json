@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fields of the World V2.md",
+                "file": "Segment Anything Model.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fields of the World V2"
+              "title": "Segment Anything Model"
             }
           },
           {
@@ -1813,8 +1813,10 @@
   },
   "active": "c5dff934c595a644",
   "lastOpenFiles": [
-    "Fields of the World.md",
+    "SEN12MS.md",
+    "HLS.md",
     "Fields of the World V2.md",
+    "Fields of the World.md",
     "Kessler Syndrome.md",
     "Planet Labs.md",
     "_attachments/Pasted image 20260422001626.png",
@@ -1847,8 +1849,6 @@
     "COSMO-SkyMed.md",
     "WorldDEM.md",
     "Differential Interferometric Synthetic Aperture Radar.md",
-    "Very High Frequency.md",
-    "Ultra High Frequency.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

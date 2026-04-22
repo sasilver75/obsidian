@@ -9,6 +9,7 @@ Focuses on Promptable Visual Segmentation (PVS) for *images*
 
 References:
 - Video: [Neural Breakdown's Segment Anything Model Explained](https://www.youtube.com/watch?v=OhxJkqD1vuE&t=305s)
+- Video: [AI Powered image annotation with James Gallagher](https://www.youtube.com/watch?v=0sbXo4auyv0):  Not only about SAM, but mentioned a bit.
 
 
 Abstract
