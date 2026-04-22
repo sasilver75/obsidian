@@ -8,252 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b73bb81196f0a1a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proximal Policy Optimization.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Proximal Policy Optimization"
-            }
-          },
-          {
-            "id": "dcf8f4adc4caff25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Doppler Effect.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Doppler Effect"
-            }
-          },
-          {
-            "id": "d01a42f87c76343c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Synthetic Aperture Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Synthetic Aperture Radar"
-            }
-          },
-          {
-            "id": "a3edd2f7c3495146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shuttle Radar Topography Mission.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Shuttle Radar Topography Mission"
-            }
-          },
-          {
-            "id": "9c6b19f4389aa100",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Copernicus DEM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Copernicus DEM"
-            }
-          },
-          {
-            "id": "1552a8e8cc360e2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TanDEM-X.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TanDEM-X"
-            }
-          },
-          {
-            "id": "c5414f3239fe715a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inverse Synthetic Aperture Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Inverse Synthetic Aperture Radar"
-            }
-          },
-          {
-            "id": "f96e3971f1880e89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electromagnetic Spectrum.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Electromagnetic Spectrum"
-            }
-          },
-          {
-            "id": "5dd8bab23f1242ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "High Frequency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "High Frequency"
-            }
-          },
-          {
-            "id": "d884865918190ae9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Extremely High Frequency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Extremely High Frequency"
-            }
-          },
-          {
             "id": "c5dff934c595a644",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synthetic Aperture Radar.md",
+                "file": "Planet Labs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Synthetic Aperture Radar"
+              "title": "Planet Labs"
             }
           },
           {
@@ -2051,8 +1811,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b73bb81196f0a1a0",
+  "active": "c5dff934c595a644",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260421221523.png",
+    "_attachments/Pasted image 20260421221351.png",
+    "_attachments/Pasted image 20260421221205.png",
+    "_attachments/Pasted image 20260421220641.png",
+    "_attachments/Pasted image 20260421220555.png",
+    "_attachments/Pasted image 20260421220403.png",
+    "Starshield.md",
+    "Remote Sensing.md",
+    "_attachments/Pasted image 20260421212101.png",
+    "Synthetic Aperture Radar.md",
+    "Extremely High Frequency.md",
+    "High Frequency.md",
+    "Electromagnetic Spectrum.md",
+    "Inverse Synthetic Aperture Radar.md",
+    "TanDEM-X.md",
+    "Copernicus DEM.md",
+    "Shuttle Radar Topography Mission.md",
+    "Doppler Effect.md",
+    "Proximal Policy Optimization.md",
     "Planet Labs.md",
     "Project Ideas.md",
     "RADAR.md",
@@ -2063,32 +1842,13 @@
     "TerraSAR-X.md",
     "RADARSAT.md",
     "COSMO-SkyMed.md",
-    "Synthetic Aperture Radar.md",
-    "_attachments/Pasted image 20260421185115.png",
-    "_attachments/Pasted image 20260421184806.png",
-    "_attachments/Pasted image 20260421184614.png",
-    "_attachments/Pasted image 20260421184546.png",
-    "_attachments/Pasted image 20260421184034.png",
-    "Doppler Effect.md",
-    "_attachments/Pasted image 20260421183738.png",
-    "TanDEM-X.md",
-    "Shuttle Radar Topography Mission.md",
-    "Copernicus DEM.md",
-    "Inverse Synthetic Aperture Radar.md",
     "WorldDEM.md",
     "Differential Interferometric Synthetic Aperture Radar.md",
-    "Electromagnetic Spectrum.md",
     "Very High Frequency.md",
     "Ultra High Frequency.md",
     "Super High Frequency.md",
-    "Extremely High Frequency.md",
     "CubeSat.md",
-    "High Frequency.md",
     "Interferometry.md",
-    "Untitled 13.md",
-    "Attenuation.md",
-    "Attention.md",
-    "Color Subaperture Image.md",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",

@@ -3,15 +3,15 @@ aliases:
   - Earth Observation
   - EO
 ---
-Fundamental Principle: All objects above absolute zero emit electromagnetic radiation.
-
-
-
 The acquisition of information about an object or phenomenon without making physical contact with the object, in contrast to "in situ" or on-site observation.
 - Generally refers to the ==use of satellite or airborne sensor technologies to detect and classify objects on earth==.
 	- In 2008, more than 150 Earth observation satellites were in orbit, rand by 2021, that total had grown to over 950. By 2023, there were 1,167.
 
+Fundamental Principle of EO: All objects above absolute zero emit electromagnetic radiation.
+
 It has military, intelligence, commercial, economic, planning, and humanitarian applications, among others.
+
+![[Pasted image 20260421212101.png]]
 
 Can be split into:
 - **==**Active== remote sensing: When a ==signal is emitted by a sensor== on satellite/aircraft, and the reflection is detected by the sensor.

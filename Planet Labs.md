@@ -7,6 +7,9 @@ aliases:
   - SuperDove
   - Pelican
 ---
+References:
+- Video: [April 2024 video of Will Marshall (Planet CEO) @ Stanford, re: AI in EO](https://www.youtube.com/watch?v=cDYaFGE3_ac)
+
 Now just called Planet, an SF based Earth observation company founded in 2010 by ex-[[National Aeronautics and Space Administration|NASA]] scientists.
 - SkySat is Planet's 50cm tasking capability, absorbed from Terra Bella/Google
 
@@ -34,3 +37,33 @@ Above: Pelican image of aircraft in Qatar (Doha), October 2025
 
 
 ![[Pasted image 20260418155442.png]]
+
+
+
+![[Pasted image 20260421220403.png]]
+Above: From Will Marshall's Video, April 2024
+
+![[Pasted image 20260421220555.png]]
+Above: From Will Marshall's Video,, April 2024
+- They primarily image the land masses; some ocean areas (e.g. south china sea), but primarily land.
+
+![[Pasted image 20260421220641.png]]
+- Human activity (Defense, intelligence use cases, providing/shedding light on events)
+- Tracking floods, draughts, renewable energy
+
+![[Pasted image 20260421221205.png]]
+Above: "We have.... 4,000,000 images coming down from our satellite every day, which is rather too many to look at in person."
+
+![[Pasted image 20260421221351.png]]
+Building by building damage assessment across all of Ukraine, to help understand what sort of cost it will take to rebuild Ukraine.... for the UN. Took a while to get to work!
+
+Subsequently, by the time that we got to the fire in La'Haina, they were able to do it in 24 hours, so the American Red Cross was using it for their decision making about where to bring Medical supplies, etc.
+
+![[Pasted image 20260421221523.png]]
+Above: Another analysis of Ukraine, of how every farmer's field was doing across the country.
+- What was the crop type?
+- How was the yield?
+- Overlaid whether it was under Russian control or Ukranian control, to help with food security issues.
+	- A lot of other countries rel
+
+

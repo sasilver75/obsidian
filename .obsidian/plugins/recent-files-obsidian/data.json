@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Proximal Policy Optimization",
-      "path": "Proximal Policy Optimization.md"
-    },
-    {
       "basename": "Planet Labs",
       "path": "Planet Labs.md"
+    },
+    {
+      "basename": "Starshield",
+      "path": "Starshield.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Extremely High Frequency",
+      "path": "Extremely High Frequency.md"
+    },
+    {
+      "basename": "High Frequency",
+      "path": "High Frequency.md"
+    },
+    {
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
+      "basename": "Inverse Synthetic Aperture Radar",
+      "path": "Inverse Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "TanDEM-X",
+      "path": "TanDEM-X.md"
+    },
+    {
+      "basename": "Copernicus DEM",
+      "path": "Copernicus DEM.md"
+    },
+    {
+      "basename": "Shuttle Radar Topography Mission",
+      "path": "Shuttle Radar Topography Mission.md"
+    },
+    {
+      "basename": "Doppler Effect",
+      "path": "Doppler Effect.md"
+    },
+    {
+      "basename": "Proximal Policy Optimization",
+      "path": "Proximal Policy Optimization.md"
     },
     {
       "basename": "Project Ideas",
@@ -29,40 +73,12 @@
       "path": "COSMO-SkyMed.md"
     },
     {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Doppler Effect",
-      "path": "Doppler Effect.md"
-    },
-    {
-      "basename": "TanDEM-X",
-      "path": "TanDEM-X.md"
-    },
-    {
-      "basename": "Shuttle Radar Topography Mission",
-      "path": "Shuttle Radar Topography Mission.md"
-    },
-    {
-      "basename": "Copernicus DEM",
-      "path": "Copernicus DEM.md"
-    },
-    {
-      "basename": "Inverse Synthetic Aperture Radar",
-      "path": "Inverse Synthetic Aperture Radar.md"
-    },
-    {
       "basename": "WorldDEM",
       "path": "WorldDEM.md"
     },
     {
       "basename": "Differential Interferometric Synthetic Aperture Radar",
       "path": "Differential Interferometric Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
     },
     {
       "basename": "Very High Frequency",
@@ -77,16 +93,8 @@
       "path": "Super High Frequency.md"
     },
     {
-      "basename": "Extremely High Frequency",
-      "path": "Extremely High Frequency.md"
-    },
-    {
       "basename": "CubeSat",
       "path": "CubeSat.md"
-    },
-    {
-      "basename": "High Frequency",
-      "path": "High Frequency.md"
     },
     {
       "basename": "Interferometry",
@@ -115,10 +123,6 @@
     {
       "basename": "Hexadecimal",
       "path": "Hexadecimal.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
     },
     {
       "basename": "MapLibre GL JS",
@@ -195,10 +199,6 @@
     {
       "basename": "Spectral Index",
       "path": "Spectral Index.md"
-    },
-    {
-      "basename": "Hyperspectral",
-      "path": "Hyperspectral.md"
     }
   ],
   "omittedPaths": [],
