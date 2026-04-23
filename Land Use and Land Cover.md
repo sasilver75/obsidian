@@ -1,0 +1,5 @@
+---
+aliases:
+  - Land Cover
+  - LULC
+---

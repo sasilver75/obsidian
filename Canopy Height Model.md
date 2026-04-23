@@ -1,6 +1,7 @@
 ---
 aliases:
   - CHM
+  - Canopy Height Map
 ---
 A [[Raster]] dataset representing the height of vegetation above the ground surface, essentially a map of how tall trees and other vegetation are at every point across a landscape.
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a18195b824ab3e5d",
+        "id": "d6ca1f7038a9a318",
         "type": "tabs",
         "children": [
           {
-            "id": "1583334ea6b022b5",
+            "id": "f9b334d7e742ce2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ground Control Point.md",
+                "file": "HLS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ground Control Point"
+              "title": "HLS"
             }
           },
           {
-            "id": "3014a0656b9378c5",
+            "id": "64ffe92e4bea7950",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jaccard Index.md",
+                "file": "ALOS PALSAR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Jaccard Index"
+              "title": "ALOS PALSAR"
             }
           },
           {
-            "id": "3bb0ea3ff554a900",
+            "id": "d04acb76002dd587",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Precision-Recall Curve.md",
+                "file": "Joint Emissivity Database Initiative.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Precision-Recall Curve"
+              "title": "Joint Emissivity Database Initiative"
             }
           },
           {
-            "id": "ca09799d5c7e3ab0",
+            "id": "e51f4b9deef4059e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mean Squared Error.md",
+                "file": "OlmoEarth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mean Squared Error"
+              "title": "OlmoEarth"
             }
           },
           {
-            "id": "d59280871d7ca227",
+            "id": "fcf85138362f38ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Root Mean Squared Error.md",
+                "file": "Cropland Data Layer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Root Mean Squared Error"
+              "title": "Cropland Data Layer"
             }
           },
           {
-            "id": "ec3c8f188e96e996",
+            "id": "6f7cca8b78a24b87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coefficient of Determination.md",
+                "file": "United States Department of Agriculture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Coefficient of Determination"
+              "title": "United States Department of Agriculture"
             }
           },
           {
-            "id": "60b2bfd041e4ef86",
+            "id": "99a5bb03d72e1f07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Earth on AWS.md",
+                "file": "Prithvi v2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Earth on AWS"
+              "title": "Prithvi v2"
             }
           },
           {
-            "id": "d977c6e9ec9e34ba",
+            "id": "5427b0e59f856b76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NASA Open Data Portal.md",
+                "file": "Galileo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NASA Open Data Portal"
+              "title": "Galileo"
             }
           },
           {
-            "id": "5995840f8478f419",
+            "id": "af79d30f47400eeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Machine Learning/OxML Fundamentals (2024)/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
+                "file": "DINOv3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,103 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)"
-            }
-          },
-          {
-            "id": "7b943dfa17a43840",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESA Data Catalog.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ESA Data Catalog"
-            }
-          },
-          {
-            "id": "edc70111f9812406",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Geospatial Data Sources.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Geospatial Data Sources"
-            }
-          },
-          {
-            "id": "0b5279d7c6e2f8a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Georeference.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Georeference"
-            }
-          },
-          {
-            "id": "b234fe1b003946be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hyperspectral.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hyperspectral"
+              "title": "DINOv3"
             }
           }
         ]
@@ -382,8 +286,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1859,44 +1762,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1583334ea6b022b5",
+  "active": "f9b334d7e742ce2f",
   "lastOpenFiles": [
-    "Post-Processed Kinematic.md",
-    "Geospatial Evaluation.md",
-    "Cross-Entropy.md",
-    "Hyperspectral.md",
-    "_attachments/Pasted image 20260422144955.png",
-    "_attachments/Pasted image 20260422144912.png",
-    "_attachments/Pasted image 20260422144858.png",
-    "_attachments/Pasted image 20260422144755.png",
-    "Jaccard Index.md",
-    "_attachments/Pasted image 20260422144716.png",
-    "_attachments/Pasted image 20260422144624.png",
-    "_attachments/Pasted image 20260422144513.png",
-    "Recall.md",
-    "Precision-Recall Curve.md",
-    "_attachments/Pasted image 20260422144427.png",
-    "Mean Squared Error.md",
-    "Root Mean Squared Error.md",
-    "_attachments/Pasted image 20260422142539.png",
-    "_attachments/Pasted image 20260422142358.png",
-    "Coefficient of Determination.md",
-    "Ephemeris.md",
-    "RADAR.md",
-    "ArcGIS.md",
-    "Geospatial Data Abstraction Library.md",
-    "rasterio.md",
-    "Geospatial Data Sources.md",
-    "Earth on AWS.md",
-    "ESA Data Catalog.md",
-    "NASA EarthData.md",
-    "NASA Open Data Portal.md",
-    "Courses/Machine Learning/OxML Fundamentals (2024)/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md",
-    "National Aeronautics and Space Administration.md",
-    "USGS EarthExplorer.md",
-    "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md",
-    "Copernicus Browser.md",
-    "United States Geological Survey.md",
+    "Dot Product.md",
+    "Global Land Cover Mapping and Estimation.md",
+    "AlphaEarth Foundations.md",
+    "_attachments/Pasted image 20260422205850.png",
+    "_attachments/Pasted image 20260422205818.png",
+    "_attachments/Pasted image 20260422205739.png",
+    "_attachments/Pasted image 20260422205718.png",
+    "_attachments/Pasted image 20260422205615.png",
+    "_attachments/Pasted image 20260422205526.png",
+    "_attachments/Pasted image 20260422205314.png",
+    "_attachments/Pasted image 20260422205201.png",
+    "Tile Pyramid.md",
+    "_attachments/Pasted image 20260422205011.png",
+    "_attachments/Pasted image 20260422204930.png",
+    "ALOS PALSAR.md",
+    "National Land Cover Database.md",
+    "DINOv3.md",
+    "Joint Emissivity Database Initiative.md",
+    "Remote Sensing.md",
+    "OlmoEarth.md",
+    "Cropland Data Layer.md",
+    "Canopy Height Model.md",
+    "United States Department of Agriculture.md",
+    "Galileo.md",
+    "Prithvi v2.md",
+    "test.md",
+    "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
+    "Papers/Earth Observation/Foundation Models for Remote Sensing and Earth Observation - a Survey.md",
+    "Papers/General/Apple Intelligence Foundation Language Models.md",
+    "Functional Map of the World.md",
+    "Visual Question-Answering.md",
+    "Visual Foundation Model.md",
+    "Light Detection and Ranging.md",
+    "Polarimetric SAR.md",
+    "Synthetic Aperture Radar.md",
+    "Seasonal Contrast.md",
+    "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
@@ -1905,7 +1809,6 @@
     "Courses/UCSC/NLP202 NLP II",
     "Courses/Machine Learning/Deepmind x URL RL",
     "Courses/Machine Learning/CS234",
-    "Papers/RL",
-    "Courses/Machine Learning/Spinning Up in RL"
+    "Papers/RL"
   ]
 }

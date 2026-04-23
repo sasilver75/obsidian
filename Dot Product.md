@@ -15,4 +15,11 @@ Geometric Properties:
 	- $cos(\theta) = (a \cdot b)/(||a||\ ||b||)$ 
 - Projection: The dot product also relates to the projection of one vector onto another; The scalar projection of a onto b is given by ($a \cdot b$)/($||b||$) -- this represents the length of the projection of a in the direction of b.
 - Magnitude Influence: If the vectors are in the same direction, then the dot product is maximal and positive. If the vectors are in opposite direction, then the dot product is maximal in magnitude but *negative*.
-- 
+
+
+
+
+
+
+![[Pasted image 20260422205314.png]]A way to collapse the MAGNITUDE and ANGLE between two vectors into a single scalar value that represents the similarity between two vectors.
+

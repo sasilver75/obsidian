@@ -217,5 +217,12 @@ A taxonomy of processing "levels" defined in 1986 by [[National Aeronautics and 
 
 
 
-
 ![[Pasted image 20260418155521.png]]
+
+____________-
+
+![[Pasted image 20260422195903.png]]
+(These numbers are in the [[Google Earth Engine|GEE]] data catalog, counts of images from different satellites; graph shows continue to see more sensors/data being added over time.)
+- We have about 100k new [[Sentinel|Sentinel-2]] images every week!
+
+Challenge is now not the access, but the translation of these images into actionable insights!

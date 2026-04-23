@@ -1,1 +1,7 @@
+---
+aliases:
+  - VQA
+---
+
+
 ![[Pasted image 20240605172123.png]]

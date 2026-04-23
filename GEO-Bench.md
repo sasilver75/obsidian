@@ -12,7 +12,7 @@ Evaluation protocol:
 
 Limitations:
 - Image-level labels on some tasks, not always pixel-precise
-- No temporal modeling tasks, all datasets are single-timestamp, so models with strong temporal pretraining ([[Prithvi 2.0]], [[AlphaEarth Foundations|AEF]]) can't demonstrate that advantage.
+- No temporal modeling tasks, all datasets are single-timestamp, so models with strong temporal pretraining ([[Prithvi v2]], [[AlphaEarth Foundations|AEF]]) can't demonstrate that advantage.
 - No multi-modal tasks: Most tasks are single-sensor, so multi-source models like [[AlphaEarth Foundations|AEF]] don't get credit for radar/LiDAR fusion.
 
 Abstract
