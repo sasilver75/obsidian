@@ -1,6 +1,86 @@
 {
   "recentFiles": [
     {
+      "basename": "Satellite Image Preprocessing",
+      "path": "Satellite Image Preprocessing.md"
+    },
+    {
+      "basename": "Geospatial Data Sources",
+      "path": "Geospatial Data Sources.md"
+    },
+    {
+      "basename": "Coupled Non-Negative Matrix Factorization",
+      "path": "Coupled Non-Negative Matrix Factorization.md"
+    },
+    {
+      "basename": "Thermal Noise",
+      "path": "Thermal Noise.md"
+    },
+    {
+      "basename": "GOES-R",
+      "path": "GOES-R.md"
+    },
+    {
+      "basename": "Cloud-Optimized GeoTIFF",
+      "path": "Cloud-Optimized GeoTIFF.md"
+    },
+    {
+      "basename": "GeoTIFF",
+      "path": "GeoTIFF.md"
+    },
+    {
+      "basename": "GeoParquet",
+      "path": "GeoParquet.md"
+    },
+    {
+      "basename": "Open Source Geospatial Foundation",
+      "path": "Open Source Geospatial Foundation.md"
+    },
+    {
+      "basename": "AlphaEarth Foundations",
+      "path": "AlphaEarth Foundations.md"
+    },
+    {
+      "basename": "ALOS PALSAR",
+      "path": "ALOS PALSAR.md"
+    },
+    {
+      "basename": "National Land Cover Database",
+      "path": "National Land Cover Database.md"
+    },
+    {
+      "basename": "Joint Emissivity Database Initiative",
+      "path": "Joint Emissivity Database Initiative.md"
+    },
+    {
+      "basename": "OlmoEarth",
+      "path": "OlmoEarth.md"
+    },
+    {
+      "basename": "DINOv3",
+      "path": "DINOv3.md"
+    },
+    {
+      "basename": "Galileo",
+      "path": "Galileo.md"
+    },
+    {
+      "basename": "Prithvi v2",
+      "path": "Prithvi v2.md"
+    },
+    {
+      "basename": "United States Department of Agriculture",
+      "path": "United States Department of Agriculture.md"
+    },
+    {
+      "basename": "Cropland Data Layer",
+      "path": "Cropland Data Layer.md"
+    },
+    {
+      "basename": "Untitled 14",
+      "path": "Untitled 14.md"
+    },
+    {
       "basename": "HLS",
       "path": "HLS.md"
     },
@@ -13,56 +93,16 @@
       "path": "Global Land Cover Mapping and Estimation.md"
     },
     {
-      "basename": "AlphaEarth Foundations",
-      "path": "AlphaEarth Foundations.md"
-    },
-    {
       "basename": "Tile Pyramid",
       "path": "Tile Pyramid.md"
-    },
-    {
-      "basename": "ALOS PALSAR",
-      "path": "ALOS PALSAR.md"
-    },
-    {
-      "basename": "National Land Cover Database",
-      "path": "National Land Cover Database.md"
-    },
-    {
-      "basename": "DINOv3",
-      "path": "DINOv3.md"
-    },
-    {
-      "basename": "Joint Emissivity Database Initiative",
-      "path": "Joint Emissivity Database Initiative.md"
     },
     {
       "basename": "Remote Sensing",
       "path": "Remote Sensing.md"
     },
     {
-      "basename": "OlmoEarth",
-      "path": "OlmoEarth.md"
-    },
-    {
-      "basename": "Cropland Data Layer",
-      "path": "Cropland Data Layer.md"
-    },
-    {
       "basename": "Canopy Height Model",
       "path": "Canopy Height Model.md"
-    },
-    {
-      "basename": "United States Department of Agriculture",
-      "path": "United States Department of Agriculture.md"
-    },
-    {
-      "basename": "Galileo",
-      "path": "Galileo.md"
-    },
-    {
-      "basename": "Prithvi v2",
-      "path": "Prithvi v2.md"
     },
     {
       "basename": "The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}",
@@ -125,10 +165,6 @@
       "path": "Georeference.md"
     },
     {
-      "basename": "Geospatial Data Sources",
-      "path": "Geospatial Data Sources.md"
-    },
-    {
       "basename": "ESA Data Catalog",
       "path": "ESA Data Catalog.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Jaccard Index",
       "path": "Jaccard Index.md"
-    },
-    {
-      "basename": "Geospatial Embedding",
-      "path": "Geospatial Embedding.md"
-    },
-    {
-      "basename": "Project Ideas",
-      "path": "Project Ideas.md"
-    },
-    {
-      "basename": "Ground-Penetrating Radar",
-      "path": "Ground-Penetrating Radar.md"
-    },
-    {
-      "basename": "3DEP",
-      "path": "3DEP.md"
-    },
-    {
-      "basename": "National Agriculture Imagery Program",
-      "path": "National Agriculture Imagery Program.md"
-    },
-    {
-      "basename": "United States Geological Survey",
-      "path": "United States Geological Survey.md"
-    },
-    {
-      "basename": "Ephemeris",
-      "path": "Ephemeris.md"
-    },
-    {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
-    },
-    {
-      "basename": "Post-Processed Kinematic",
-      "path": "Post-Processed Kinematic.md"
     }
   ],
   "omittedPaths": [],

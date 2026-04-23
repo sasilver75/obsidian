@@ -6,6 +6,8 @@ aliases:
   - GOES-19
   - Geostational Operational Environmental Satellite
 ---
+Pronounced like "Ghost" without the T, I think.
+
 The current generation of [[National Oceanic and Atmospheric Administration]]'s (NOAA) [[Geostationary Orbit|Geostationary]] weather satellites, representing a major upgrade over the previous GOES-NOP series.
 
 Data is ==free and publicly accessible== on AWS [[Amazon S3|S3]] in NetCDF4 format, with [[Amazon SNS|SNS]] notifications on every new file drop, making it ==one of the best real-time satellite data pipelines available== to developers ==without authentication or cost==.

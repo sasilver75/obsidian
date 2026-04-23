@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HLS.md",
+                "file": "Satellite Image Preprocessing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HLS"
+              "title": "Satellite Image Preprocessing"
             }
           },
           {
-            "id": "64ffe92e4bea7950",
+            "id": "1c72567e7af241ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALOS PALSAR.md",
+                "file": "Coupled Non-Negative Matrix Factorization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ALOS PALSAR"
+              "title": "Coupled Non-Negative Matrix Factorization"
             }
           },
           {
-            "id": "d04acb76002dd587",
+            "id": "64d31766abe201ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Joint Emissivity Database Initiative.md",
+                "file": "GOES-R.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Joint Emissivity Database Initiative"
+              "title": "GOES-R"
             }
           },
           {
-            "id": "e51f4b9deef4059e",
+            "id": "b0b6a202d6f52fe6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OlmoEarth.md",
+                "file": "Cloud-Optimized GeoTIFF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OlmoEarth"
+              "title": "Cloud-Optimized GeoTIFF"
             }
           },
           {
-            "id": "fcf85138362f38ce",
+            "id": "9fdc478e5250ce16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cropland Data Layer.md",
+                "file": "GeoParquet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cropland Data Layer"
+              "title": "GeoParquet"
             }
           },
           {
-            "id": "6f7cca8b78a24b87",
+            "id": "220611eb1a21706a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Department of Agriculture.md",
+                "file": "Open Source Geospatial Foundation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,79 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Department of Agriculture"
-            }
-          },
-          {
-            "id": "99a5bb03d72e1f07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prithvi v2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Prithvi v2"
-            }
-          },
-          {
-            "id": "5427b0e59f856b76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Galileo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Galileo"
-            }
-          },
-          {
-            "id": "af79d30f47400eeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DINOv3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DINOv3"
+              "title": "Open Source Geospatial Foundation"
             }
           }
         ]
@@ -1764,42 +1692,42 @@
   },
   "active": "f9b334d7e742ce2f",
   "lastOpenFiles": [
-    "Dot Product.md",
-    "Global Land Cover Mapping and Estimation.md",
+    "_attachments/Pasted image 20260423020956.png",
+    "_attachments/Pasted image 20260423020928.png",
+    "_attachments/Pasted image 20260423020919.png",
+    "_attachments/Pasted image 20260423020912.png",
+    "_attachments/Pasted image 20260423020858.png",
+    "Geospatial Data Sources.md",
+    "Satellite Image Preprocessing.md",
+    "_attachments/Pasted image 20260423015913.png",
+    "_attachments/Pasted image 20260423014611.png",
+    "_attachments/Pasted image 20260423014338.png",
+    "Coupled Non-Negative Matrix Factorization.md",
+    "_attachments/Pasted image 20260423013120.png",
+    "_attachments/Pasted image 20260423012908.png",
+    "_attachments/Pasted image 20260423012847.png",
+    "Thermal Noise.md",
+    "GOES-R.md",
+    "Cloud-Optimized GeoTIFF.md",
+    "GeoTIFF.md",
+    "GeoParquet.md",
+    "Open Source Geospatial Foundation.md",
     "AlphaEarth Foundations.md",
-    "_attachments/Pasted image 20260422205850.png",
-    "_attachments/Pasted image 20260422205818.png",
-    "_attachments/Pasted image 20260422205739.png",
-    "_attachments/Pasted image 20260422205718.png",
-    "_attachments/Pasted image 20260422205615.png",
-    "_attachments/Pasted image 20260422205526.png",
-    "_attachments/Pasted image 20260422205314.png",
-    "_attachments/Pasted image 20260422205201.png",
-    "Tile Pyramid.md",
-    "_attachments/Pasted image 20260422205011.png",
-    "_attachments/Pasted image 20260422204930.png",
     "ALOS PALSAR.md",
     "National Land Cover Database.md",
-    "DINOv3.md",
     "Joint Emissivity Database Initiative.md",
-    "Remote Sensing.md",
     "OlmoEarth.md",
-    "Cropland Data Layer.md",
-    "Canopy Height Model.md",
-    "United States Department of Agriculture.md",
+    "DINOv3.md",
     "Galileo.md",
     "Prithvi v2.md",
-    "test.md",
-    "Articles/The Q* Hypothesis - Tree of Thoughts reasoning, process reward models, and supercharging synthetic data (November 24, 2023) {Nathan Lambert}.md",
-    "Papers/Earth Observation/Foundation Models for Remote Sensing and Earth Observation - a Survey.md",
-    "Papers/General/Apple Intelligence Foundation Language Models.md",
-    "Functional Map of the World.md",
-    "Visual Question-Answering.md",
-    "Visual Foundation Model.md",
-    "Light Detection and Ranging.md",
-    "Polarimetric SAR.md",
-    "Synthetic Aperture Radar.md",
-    "Seasonal Contrast.md",
+    "United States Department of Agriculture.md",
+    "Cropland Data Layer.md",
+    "Untitled 14.md",
+    "HLS.md",
+    "Dot Product.md",
+    "Global Land Cover Mapping and Estimation.md",
+    "Tile Pyramid.md",
+    "Remote Sensing.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

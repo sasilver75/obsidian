@@ -272,6 +272,137 @@ Here's a similarly search not for vegetation, but for a biosphere reserve in the
 
 
 
+____________
+
+
+# Comparison with [[OlmoEarth]]:
+
+(Use full screen)
+```
+⏺ Shared Goal
+
+  Both are Earth observation foundation models trying to solve the same core problem: labeled data is scarce, satellite data is
+  abundant, so learn general representations that transfer to downstream mapping tasks with few labels.
+
+  ---
+  Architecture
+
+  ┌────────┬──────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────┐
+  │        │        OlmoEarth         │                                     AlphaEarth                                      │
+  ├────────┼──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────┤
+  │ Base   │ Standard ViT             │ Custom "Space Time Precision" (STP) — simultaneous spatial attention, time-axial    │
+  │        │ encoder-decoder          │ attention, and convolutions at multiple resolutions                                 │
+  ├────────┼──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────┤
+  │ Sizes  │ Nano/Tiny/Base/Large     │ ~480M and ~1B (used smaller)                                                        │
+  ├────────┼──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────┤
+  │ Time   │ Discrete timesteps (up   │ Continuous — any arbitrary date range, including interpolation/extrapolation        │
+  │        │ to 12)                   │                                                                                     │
+  ├────────┼──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────┤
+  │ Output │ Standard high-dim        │ 64-dimensional vectors on unit sphere S⁶³                                           │
+  │        │ embeddings               │                                                                                     │
+  └────────┴──────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────┘
+
+  ---
+  Training Data
+
+  ┌─────────────┬────────────────────────────────────────┬────────────────────────────────────────────────────────┐
+  │             │               OlmoEarth                │                       AlphaEarth                       │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ Scale       │ 285,288 locations                      │ 3 billion observations (~1.1% of Earth's land surface) │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ Optical     │ Sentinel-2, Landsat-8                  │ Sentinel-2, Landsat 8/9                                │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ Radar       │ Sentinel-1                             │ Sentinel-1, PALSAR2                                    │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ LiDAR       │ Canopy Height Model (derived)          │ GEDI directly                                          │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ Elevation   │ SRTM                                   │ GLO-30                                                 │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ Climate     │ None (ERA5 tested, dropped)            │ ERA5-Land, GRACE                                       │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ Maps/Labels │ WorldCereal, WorldCover, CDL, OSM, CHM │ NLCD                                                   │
+  ├─────────────┼────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+  │ Text        │ None                                   │ Wikipedia (geotagged) + GBIF species records           │
+  └─────────────┴────────────────────────────────────────┴────────────────────────────────────────────────────────┘
+
+  AEF uses significantly more diverse and voluminous data, including modalities OlmoEarth explicitly tested and dropped (ERA5),
+  and modalities OlmoEarth never tried (LiDAR directly, text).
+
+  ---
+  Key Technical Differences
+
+  Supervised data handling
+  - OlmoEarth: maps are decode-only targets, never encoded — encoder only ever sees observations
+  - AEF: not described the same way — uses NLCD as a training target but the separation is less explicit
+
+  Embedding compactness
+  - OlmoEarth: standard ViT dimensions (e.g. 768 for Base)
+  - AEF: 64 dimensions, constrained to unit sphere, designed for compactness
+
+  Continuous time
+  - OlmoEarth: handles time series but discretely
+  - AEF: treats time as a continuous variable — can produce an embedding for any [start, end] window without retraining, even
+  outside the support period (extrapolation)
+
+  ---
+  Deployment
+
+  ┌────────────────────────┬─────────────────────────────────────────┬──────────────────────────────────────────────────────┐
+  │                        │                OlmoEarth                │                      AlphaEarth                      │
+  ├────────────────────────┼─────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Model weights          │ Open                                    │ Not mentioned as released                            │
+  ├────────────────────────┼─────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Pre-computed           │ No                                      │ Global annual layers 2017-2024 on Google Earth       │
+  │ embeddings             │                                         │ Engine                                               │
+  ├────────────────────────┼─────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Platform               │ OlmoEarth Platform (end-to-end          │ GEE (sample embeddings directly)                     │
+  │                        │ pipeline)                               │                                                      │
+  ├────────────────────────┼─────────────────────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Target user            │ Nonprofits, humanitarian orgs           │ EO practitioners, applied scientists                 │
+  └────────────────────────┴─────────────────────────────────────────┴──────────────────────────────────────────────────────┘
+
+
+  ┌─────────────────────────┬──────────────────────────────────────────┬───────────────────────────────────────────────────────┐
+  │                         │                OlmoEarth                 │                      AlphaEarth                       │
+  ├─────────────────────────┼──────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+  │ Model weights           │ Open                                     │ Not mentioned as released                             │
+  ├─────────────────────────┼──────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+  │ Pre-computed embeddings │ No                                       │ Global annual layers 2017-2024 on Google Earth Engine │
+  ├─────────────────────────┼──────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+  │ Platform                │ OlmoEarth Platform (end-to-end pipeline) │ GEE (sample embeddings directly)                      │
+  ├─────────────────────────┼──────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+  │ Target user             │ Nonprofits, humanitarian orgs            │ EO practitioners, applied scientists                  │
+  └─────────────────────────┴──────────────────────────────────────────┴───────────────────────────────────────────────────────┘
+
+  This is a big practical difference. AEF's pre-computed embedding fields mean a user never runs inference — they just query GEE for the embedding at a location and date. OlmoEarth requires running the model but gives you more flexibility.
+
+  ---
+  Evaluation
+
+  ┌──────────────────┬────────────────────────────────────────────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────┐
+  │                  │                         OlmoEarth                          │                                          AlphaEarth                                           │
+  ├──────────────────┼────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ Regime           │ Standard benchmarks, typical training set sizes            │ Sparse label regime (1-shot, 10-shot, hundreds of samples)                                    │
+  ├──────────────────┼────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ Tasks            │ Classification, segmentation, time series                  │ Classification, regression, change detection                                                  │
+  ├──────────────────┼────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ Baselines        │ 12+ EO foundation models (Galileo, TerraMind, CROMA, etc.) │ Older/smaller models (Clay, Prithvi, SatCLIP) + designed features (CCDC, MOSAIKS, composites) │
+  ├──────────────────┼────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ Real-world tasks │ Yes — 7 partner organizations                              │ Yes — all evaluations tied to real products                                                   │
+  └──────────────────┴────────────────────────────────────────────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  Neither evaluated against the other. AEF's baselines are notably weaker — it didn't compare against Galileo, Panopticon, TerraMind, or OlmoEarth. OlmoEarth didn't compare against AEF.
+
+  ---
+  Takeaway
+
+  OlmoEarth is the more rigorous academic contribution — honest comparative evaluation against strong baselines, detailed ablations, open weights, designed for humanitarian deployment via a managed platform.
+
+  AlphaEarth makes a stronger practical claim — consistently outperforms everything in sparse label regimes, globally pre-computed and immediately usable via GEE, continuous time modeling is a genuine architectural advance. But the baseline comparison is
+  weaker and the evaluation regime is narrower.
+
+  The most interesting open question is how they compare head-to-head in sparse label regimes — that's where AEF claims dominance and where both models' target users actually live.
+```
 
 
 

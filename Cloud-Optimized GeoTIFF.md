@@ -46,3 +46,6 @@ Request: "Give me zoom level 8 view of this scene."
 
 ![[Pasted image 20260419015535.png]]
 
+
+
+![[Pasted image 20260423004238.png]]Left would be GeoTiff-type files

@@ -10,3 +10,6 @@ A [[Tagged Image File Format|TIFF]] with ==additional tags that encode geospatia
 - If you open it in [[Geospatial Data Abstraction Library|GDAL]]/[[QGIS]]/[[rasterio]], you also get the spatial context.
 
 
+
+
+![[Pasted image 20260423004231.png]]

@@ -2,7 +2,7 @@ References:
 - [Cloud-Optimized Geospatial Formats Guide: GeoParquet](https://guide.cloudnativegeo.org/geoparquet/)
 
 See also:
-- [[Cloud-Optimized GeoTIFF]], an analogous cloud-optimized datatype instead for Raster data.
+- [[Cloud-Optimized GeoTIFF]], an analogous cloud-optimized datatype instead for ==Raster== data.
 	- While GeoParquet is great for things like building footprints, road networks, and POIs, COGs are great for elevation data, satellite imagery, and land cover classification.
 
 
