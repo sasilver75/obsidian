@@ -151,14 +151,60 @@ Q: I'm sure you've seen of those "situation monitoring" type vibecoding projects
 A: I've loved looking at those, we've worked with some of the people who've been working on them, and it's awesome to see the creativity of what you can do with these tools. One of the things that's true is... we've standardized for the last 25 years on a zoomable map as the substrate that we think of when we think about digital mapping. The thing about AI is that it CAN look at the whole world... I think a lot of the exciting opportunities is applying AI at the very granular level, and rolling up some of these observations or alerts to a global view, MIB style.
 
 
-From our perspective... we own a constellation of satellites that works in the public cloud environment! Being able to run AI in apublic cloud, as opposed to a classified envonrment, is just a real change, in temrso f the compute buildup (OOMs)... The CAPEX expenditure from the top 5 hyperscales is probably like 7-80% of total US defense spending!
-	 
+From our perspective... we own a constellation of satellites that works in the public cloud environment! Being able to run AI in a public cloud, as opposed to a classified environment, is just a real change, in terms of the compute buildup (OOMs)... The CAPEX expenditure from the top 5 hyperscalers is probably like 7-80% of total US defense spending!
+
+Do we have a compute cluster big enough to do the whole world at high resolution?... who knows.
+
+For so long we've been focused on CV models, and so much of the exciting work in spatial intelligence is "what happens after you identify all of the vehicles in the parking lot?"
+
+Building a talking computer than can look at the pictures and tell you what happen... is not crazy at all anymore.  and it's very different fro the CV segmentation algorithms that we've typically used in satellite image analysis.
+
+It seems that we can do a lot more than just map the number of cars in a building. It's almost the point where we can map the chemical makeup of cars and stuff, hah.
+
+Developing a language and a grammar for spatial data
+- ==If you think of an image stack as pictures of a locatin over time, you can almost think of those as words that form a sentence over time.== And that considered together with adjacent stacks for adjacent locations is sort of like paragraphs.
+- A lot of things that we focus on are these types of higher abstractions... Fora lot of machines, these are going to be subspace in embedding spaces that have some sort of embedding content.
 
 
+A lot of the things that these zoomable maps have nailed is that california replaced San Francisco, etc... and that's encoded by hardcoded systems and semantic knowledge graph things... but if we think about events over time. A lot of spatial intelligence will be about anchoring on those patterns and formalizing themm.
+
+One of hte things thats really critical...
+The world "molecule" didn't exist, hte world "chemical" didn't exist.... people invented wordsa s science and technollogy advanced.
+ As we think about he next genratino of words, we'll need words for these types of spatial abstractions
+ - ==E.g. from a "sandia paper" he said soemthing abouat hwo if you see a parking lot and a looped track anda buillding, it's a school.==
+
+==Syntehtic imagery: We're planning of taking a pictutre of this location in 3 hours... let's gnenerate hte image that we think we're going to get, and then show the image that we're actually giong to get, and compare.==
 
 
+A lot of what we're seeing from an intelligence/tradecraft perspective is a ton of in-silico generation in this foreward-lookign way ... where we're generating all of the images that we anticipate we'll see over the next week... and then diffing reality against various courses of action... and either corroborating our hypothesis or rejecting our hypothesis...
 
 
+We launched a product last year called  ==Raptor== which is GPS-resilient positioning technology.
+- Now, in GPS, satellites have highly accurate atomic clocks, and they say "This is the time! this is the time!"
+- And you get that from multiple clocks and you do the trigonometry to figure out where you are.
+- In the modern battlespace people are spoofing those GPS signals all the time, or jamming them, so GPS can and often does go down.
+- So... in ==Raptor==
+	- ==In a battle situation... Raptor is a product we designed to navigate hte way that humans navigate, which is looking around, seeing hte 3D world, andsaying "Based on my knowledge of London and my obseraivations through my glasses on London, this s where I think I am."==
+		- ==We did chipping and shipping, where we cut out pieces of the model at high and low resolution, and give it to hte machine or robot and they can compare what they see on the camera to what they have in the little models they've been given. This gives positional accuracy very cloes to GPS, with teh advantage htat you know where you're looking too!'==
+		- 
+
+THERES A HUGE DATA ORCHESTRATION ELEMENT OF UPDATING DATA, multimaster version control systems, taking all the data that's coming up and updating the representation of the world, and making sure that everyone knows what versino for the world they're looking at.... similar to git for code, but also for the world.
+
+
+Last year a partnership with Niantic on using their augmented reality system against our globe, so that you can do augmented reality globally. A thing about GPS is that it's a global positioning system. While its' possible to do inset mapping.. if you want to go offroad (literally), you need a local positioning system (a terrain positioning system), basically. Taking their TPS and making it global requires them to look at a global representation of the world! that might not be important  in super enterprise or consumer worlds... but if you're a company trying to build AR experiences that DO work globally, that's sort of the genesis of that partnership.
+
+
+It sounds like you've been focusing on making all this information and that you created... accessible to today's language model and reasoning models... but what about vision models?... will there be a version where an agent system will be going in the 3d representatoins that you've created, and how do you think about those use cases?
+- yeah, there's a lot of cases for simulation stuff about self driving miles or trying to train robots 
+
+
+We do most of our perception layer (segmentation, computer vision)... which is mostly done in 2D space. ==A lot of the work we've been doing over the last year is taking a single image or a single stereo-pair image from our satellite and create an on-the-fly 3D image, and have been doing a littl work on the AI perception side to see: How much better does the perception model get when you give it a 3d image versus when you give it a 3D image.==
+- ==This is an interesting area of research!==
+- So much of this research elsehwre has been about segmenting and perceiving 2D images, but with the third dimension, you're getting ton more information!
+- ==A lot of how I as a human interpret a 2D scene is by constructing a 3D scene under the hood==! all living intelligence is about being in a 3D world.
+
+Vantor has an open data program for a lot of thing like wildfire events and things of public notes....
+- we run a nubmer of ML exercises and have make pieces of our archives accessible to people who are workign on particular maps, certain academic groups, etc.
 
 
 

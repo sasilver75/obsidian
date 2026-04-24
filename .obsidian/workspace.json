@@ -56,6 +56,30 @@
             }
           },
           {
+            "id": "e14703dd4b75f880",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Visual Positioning System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Visual Positioning System"
+            }
+          },
+          {
             "id": "8f24b71a87a3bdf4",
             "type": "leaf",
             "state": {
@@ -558,9 +582,81 @@
               "icon": "lucide-file",
               "title": "Open Source Geospatial Foundation"
             }
+          },
+          {
+            "id": "ff18e10a7e173b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TESSERA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TESSERA"
+            }
+          },
+          {
+            "id": "4d1baefbf403c346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRESTO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PRESTO"
+            }
+          },
+          {
+            "id": "35c048d762ac0541",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spectral-Temporal Barlow Twins.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spectral-Temporal Barlow Twins"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2120,11 +2216,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f9b334d7e742ce2f",
+  "active": "e14703dd4b75f880",
   "lastOpenFiles": [
-    "Satellite Image Preprocessing.md",
-    "Electromagnetic Spectrum.md",
+    "Continuous Change Detection and Classification.md",
+    "Visual Positioning System.md",
+    "Multi-task Observation using Satellite Imagery & Kitchen Sinks.md",
+    "Resolution.md",
+    "TESSERA.md",
+    "_attachments/Pasted image 20260424115644.png",
+    "_attachments/Pasted image 20260424115556.png",
     "Maxar.md",
+    "Electromagnetic Spectrum.md",
+    "Spectral-Temporal Barlow Twins.md",
+    "PRESTO.md",
+    "_attachments/Pasted image 20260424115458.png",
+    "_attachments/Pasted image 20260424115344.png",
+    "_attachments/Pasted image 20260424115235.png",
+    "_attachments/Pasted image 20260424115119.png",
+    "_attachments/Pasted image 20260424115114.png",
+    "_attachments/Pasted image 20260424114836.png",
+    "_attachments/Pasted image 20260424114550.png",
+    "_attachments/Pasted image 20260424114206.png",
+    "Remote Sensing.md",
+    "Satellite Image Preprocessing.md",
+    "SPOT.md",
+    "Geospatial Embedding.md",
+    "Foundation Model.md",
+    "Satellogic.md",
+    "Satellite.md",
+    "TCPED.md",
     "Rational Polynomial Coefficient.md",
     "Model Context Protocol.md",
     "Open Source Geospatial Foundation.md",
@@ -2134,30 +2254,6 @@
     "Planet Labs.md",
     "Normalized Difference Vegetation Index.md",
     "Spectral Matching.md",
-    "Spectral Index.md",
-    "Orthoimage.md",
-    "Remote Sensing.md",
-    "_attachments/Pasted image 20260423220818.png",
-    "OlmoEarth Embeddings.md",
-    "BlackSky.md",
-    "Global Positioning System.md",
-    "OSI Model.md",
-    "_attachments/Pasted image 20260423213546.png",
-    "Analysis Ready Data.md",
-    "Maxar Geospatial Platform.md",
-    "UP42.md",
-    "Clay.md",
-    "Niantic Spatial.md",
-    "Alternative Positioning, Navigation, and Timing.md",
-    "Overture Maps Foundation.md",
-    "_attachments/Pasted image 20260423190133.png",
-    "_attachments/Pasted image 20260423183108.png",
-    "_attachments/Pasted image 20260423182935.png",
-    "_attachments/Pasted image 20260423175427.png",
-    "_attachments/Pasted image 20260423172516.png",
-    "_attachments/Pasted image 20260423172150.png",
-    "_attachments/Pasted image 20260423170841.png",
-    "_attachments/Pasted image 20260423170806.png",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

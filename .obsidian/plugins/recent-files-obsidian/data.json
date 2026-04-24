@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "Visual Positioning System",
+      "path": "Visual Positioning System.md"
+    },
+    {
+      "basename": "Continuous Change Detection and Classification",
+      "path": "Continuous Change Detection and Classification.md"
+    },
+    {
+      "basename": "Multi-task Observation using Satellite Imagery & Kitchen Sinks",
+      "path": "Multi-task Observation using Satellite Imagery & Kitchen Sinks.md"
+    },
+    {
+      "basename": "Resolution",
+      "path": "Resolution.md"
+    },
+    {
+      "basename": "TESSERA",
+      "path": "TESSERA.md"
+    },
+    {
       "basename": "Maxar",
       "path": "Maxar.md"
+    },
+    {
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
+      "basename": "Spectral-Temporal Barlow Twins",
+      "path": "Spectral-Temporal Barlow Twins.md"
+    },
+    {
+      "basename": "PRESTO",
+      "path": "PRESTO.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
     },
     {
       "basename": "Satellite Image Preprocessing",
       "path": "Satellite Image Preprocessing.md"
     },
     {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
+      "basename": "SPOT",
+      "path": "SPOT.md"
+    },
+    {
+      "basename": "Geospatial Embedding",
+      "path": "Geospatial Embedding.md"
+    },
+    {
+      "basename": "Foundation Model",
+      "path": "Foundation Model.md"
+    },
+    {
+      "basename": "Satellogic",
+      "path": "Satellogic.md"
+    },
+    {
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "TCPED",
+      "path": "TCPED.md"
     },
     {
       "basename": "Rational Polynomial Coefficient",
@@ -55,10 +111,6 @@
     {
       "basename": "Orthoimage",
       "path": "Orthoimage.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
     },
     {
       "basename": "OlmoEarth Embeddings",
@@ -121,10 +173,6 @@
       "path": "Geospatial Intelligence.md"
     },
     {
-      "basename": "TCPED",
-      "path": "TCPED.md"
-    },
-    {
       "basename": "Software as a Service",
       "path": "Software as a Service.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "Infrastructure as a Service",
       "path": "Infrastructure as a Service.md"
-    },
-    {
-      "basename": "On-Premise",
-      "path": "On-Premise.md"
-    },
-    {
-      "basename": "Ground Sample Distance",
-      "path": "Ground Sample Distance.md"
-    },
-    {
-      "basename": "Network Time Protocol",
-      "path": "Network Time Protocol.md"
-    },
-    {
-      "basename": "Tippecanoe",
-      "path": "Tippecanoe.md"
-    },
-    {
-      "basename": "Cloud-Native Geospatial",
-      "path": "Cloud-Native Geospatial.md"
-    },
-    {
-      "basename": "OGC API Features",
-      "path": "OGC API Features.md"
-    },
-    {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
-      "basename": "Azimuth",
-      "path": "Azimuth.md"
-    },
-    {
-      "basename": "Amazon Location Service",
-      "path": "Amazon Location Service.md"
-    },
-    {
-      "basename": "Coupled Non-Negative Matrix Factorization",
-      "path": "Coupled Non-Negative Matrix Factorization.md"
-    },
-    {
-      "basename": "GloVe",
-      "path": "GloVe.md"
-    },
-    {
-      "basename": "Google Earth Engine",
-      "path": "Google Earth Engine.md"
     }
   ],
   "omittedPaths": [],
