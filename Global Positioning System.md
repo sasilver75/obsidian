@@ -2,6 +2,10 @@
 aliases:
   - GPS
 ---
+ReferenceS:
+- Article: [How the Heck Does GPS Work? (Interactive animations)](https://perthirtysix.com/how-the-heck-does-gps-work)
+
+
 A [[Global Navigation Satellite System]] (GNSS).
 The US-Operated Satellite [[Constellation]] that provides positioning, navigation, and timing (PNT) anywhere on Earth.
 - Ground truth for [[Remote Sensing]]; GPS-tagged field observations validate satellite classifications. Used for [[Georeference|Georeferencing]] of imagery/point clouds.

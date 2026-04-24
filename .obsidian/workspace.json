@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9b334d7e742ce2f",
+            "id": "10b7ef355a7521cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Position, Navigation, and Timing.md",
+                "file": "Electromagnetic Spectrum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Position, Navigation, and Timing"
+              "title": "Electromagnetic Spectrum"
+            }
+          },
+          {
+            "id": "f9b334d7e742ce2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maxar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maxar"
+            }
+          },
+          {
+            "id": "8f24b71a87a3bdf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maxar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maxar"
+            }
+          },
+          {
+            "id": "2e28a70f172acf20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rational Polynomial Coefficient.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rational Polynomial Coefficient"
+            }
+          },
+          {
+            "id": "222cb5ad2359c2b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Context Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Model Context Protocol"
+            }
+          },
+          {
+            "id": "68fad5c2f751e325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthetic Aperture Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Synthetic Aperture Radar"
+            }
+          },
+          {
+            "id": "1339c0331659d42b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overture Maps Foundation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Overture Maps Foundation"
+            }
+          },
+          {
+            "id": "f79329b4364c2953",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Niantic Spatial.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Niantic Spatial"
             }
           },
           {
@@ -37,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ground Sample Distance.md",
+                "file": "GEO-Bench.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +220,151 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ground Sample Distance"
+              "title": "GEO-Bench"
+            }
+          },
+          {
+            "id": "057fb9188ee8d2c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maxar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maxar"
+            }
+          },
+          {
+            "id": "972047992ccfe47f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geospatial Intelligence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geospatial Intelligence"
+            }
+          },
+          {
+            "id": "3068905f4f400905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geospatial Intelligence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geospatial Intelligence"
+            }
+          },
+          {
+            "id": "a54fb1f889bf47fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software as a Service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Software as a Service"
+            }
+          },
+          {
+            "id": "434b44360d5549fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infrastructure as a Service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Infrastructure as a Service"
+            }
+          },
+          {
+            "id": "f8b93900c9bec057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "On-Premise.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "On-Premise"
             }
           },
           {
@@ -311,7 +623,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1807,44 +2120,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "468bb39345a861fe",
+  "active": "f9b334d7e742ce2f",
   "lastOpenFiles": [
+    "Satellite Image Preprocessing.md",
+    "Electromagnetic Spectrum.md",
     "Maxar.md",
-    "Position, Navigation, and Timing.md",
+    "Rational Polynomial Coefficient.md",
+    "Model Context Protocol.md",
+    "Open Source Geospatial Foundation.md",
+    "Map.md",
+    "Least-Squares.md",
+    "Synthetic Aperture Radar.md",
+    "Planet Labs.md",
+    "Normalized Difference Vegetation Index.md",
+    "Spectral Matching.md",
+    "Spectral Index.md",
+    "Orthoimage.md",
+    "Remote Sensing.md",
+    "_attachments/Pasted image 20260423220818.png",
+    "OlmoEarth Embeddings.md",
+    "BlackSky.md",
+    "Global Positioning System.md",
+    "OSI Model.md",
+    "_attachments/Pasted image 20260423213546.png",
+    "Analysis Ready Data.md",
+    "Maxar Geospatial Platform.md",
+    "UP42.md",
+    "Clay.md",
+    "Niantic Spatial.md",
+    "Alternative Positioning, Navigation, and Timing.md",
+    "Overture Maps Foundation.md",
+    "_attachments/Pasted image 20260423190133.png",
+    "_attachments/Pasted image 20260423183108.png",
+    "_attachments/Pasted image 20260423182935.png",
     "_attachments/Pasted image 20260423175427.png",
-    "Network Time Protocol.md",
-    "Tippecanoe.md",
-    "Cloud-Native Geospatial.md",
     "_attachments/Pasted image 20260423172516.png",
     "_attachments/Pasted image 20260423172150.png",
     "_attachments/Pasted image 20260423170841.png",
     "_attachments/Pasted image 20260423170806.png",
-    "_attachments/Pasted image 20260423170448.png",
-    "_attachments/Pasted image 20260423170432.png",
-    "_attachments/Pasted image 20260423170300.png",
-    "_attachments/Pasted image 20260423165956.png",
-    "OGC API Features.md",
-    "SpatioTemporal Asset Catalog.md",
-    "Azimuth.md",
-    "_attachments/Pasted image 20260423161106.png",
-    "Amazon Location Service.md",
-    "Alternative Positioning, Navigation, and Timing.md",
-    "Coupled Non-Negative Matrix Factorization.md",
-    "GloVe.md",
-    "Google Earth Engine.md",
-    "Satellite Image Preprocessing.md",
-    "Geospatial Data Sources.md",
-    "Thermal Noise.md",
-    "GOES-R.md",
-    "Cloud-Optimized GeoTIFF.md",
-    "GeoTIFF.md",
-    "GeoParquet.md",
-    "Open Source Geospatial Foundation.md",
-    "AlphaEarth Foundations.md",
-    "ALOS PALSAR.md",
-    "National Land Cover Database.md",
-    "Joint Emissivity Database Initiative.md",
-    "OlmoEarth.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

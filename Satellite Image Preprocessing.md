@@ -276,7 +276,6 @@ Spectral Unmixing
 	- A similar idea to [[Fourier Series]]
 
 
-
 [[Spectral Matching]]
 Let's say you've got your pure color components from Spextral Unmixing! How do we actually tell what this material is?
 1. Create a database of reference hyperspetral signatures of various materials (often in a lab) (collect leaves from species of trees, photograph them with hyperspectral sensor under similar conditions)

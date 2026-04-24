@@ -1,3 +1,9 @@
+---
+aliases:
+  - MCP
+---
+
+
 References
 - Latent Space: [The Creators of Model Context Protocol](https://youtu.be/m2VqaNKstGc?si=HTKThmII-xH6Mvf1)
 - Docs: [Model Context Protocol](https://modelcontextprotocol.io/introduction)

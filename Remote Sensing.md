@@ -3,6 +3,8 @@ aliases:
   - Earth Observation
   - EO
 ---
+Note: This also serves as a dumping bucket for video notes, etc.
+
 The acquisition of information about an object or phenomenon without making physical contact with the object, in contrast to "in situ" or on-site observation.
 - Generally refers to the ==use of satellite or airborne sensor technologies to detect and classify objects on earth==.
 	- In 2008, more than 150 Earth observation satellites were in orbit, rand by 2021, that total had grown to over 950. By 2023, there were 1,167.
@@ -214,6 +216,7 @@ A taxonomy of processing "levels" defined in 1986 by [[National Aeronautics and 
 - Platforms/Marketplaces
 	- [[UP42]]: Data marketplace aggregating imagery from multiple providers
 	- [[Maxar SecureWatch]]: Subscription imagery platform widely used in enterprise/government
+		- Replaced by [[Maxar Geospatial Platform]]
 
 
 
@@ -226,3 +229,46 @@ ____________-
 - We have about 100k new [[Sentinel|Sentinel-2]] images every week!
 
 Challenge is now not the access, but the translation of these images into actionable insights!
+
+
+
+_________________
+[GeoAwesome: GeoAI Hype Cycle 2026 Panel](https://youtu.be/vyWcwFlcO3c)
+
+Q: What is overhyped? What is underhyped?
+A, George Lawrence @ [[UP42]]: Overhyped are smart satellites planning and acting on their own in space, having AI on satellites to task themselves, etc. Getting satellites off the ground is expensive; you want light satellites in the air, not heavy ones, and it's difficult to maintain satellites in space as well. But what I think is underrated... there's so much more that you can do with EO and GeoAI than defense, and in my work I see so many examples of this. Assessing a carbon above/below ground, monitoring environment, etc... So many GeoAI applications that the average person doesn't even appreciate... as people become more aware of what this technology can do, there will be challenges around confidentiality.
+A, Bill Greer, Cofounder [[Common Space]]:  I think AI is good for somethings... but I'll leave that to the manufacturing engineer folks... my hype cycle thing.. is that I'm unconvinced by most of the AI stuff until it can prove that it's better than statistical methods or as good... there's huge potential in lowering latency and cost and increasing access. Selective compressive of imagery before downlinking is fine.... for capacity building, that's where I hope it comes in the most, getting more people using the data in statistically accurate and good ways, but opening it up to users... is something that I'm excite about.
+A, Madeline Lisaius: I think satellite embeddings can offer value in many of these things... The whole premise of my thesis was how to make satellite data more accessible to people using embeddings. I see in many cases embeddings being a framework to do so, and I also think in many cases they're still overhyped. How can we help people who would benefit from this data most?
+
+Q: What are some of those... use cases that are really moving towards genuine productivity and maturity that we'd like to see.
+A: Madeline Liasus: My expertise is in the foundation model area, that's where the edge of my knowledge is... when it comes to foundation models, what really excites me... is  that with the right foundation model and customization, we're able to match and beat the results that were made by custom feature engineering, and to do so with a reduction in cost and compute by 10-20x. So taking away the knowledge requirements of being able to generate custom features... and also comptue rquirements. But results are not 10-20x better in accuracy. 
+
+Q: Requirements to train these models that you're seeing at UP42?
+A, Gordon Lawrence: Our mission is to deliver data from different providers in a consistent format... there are three things to mention:
+- Consistency: Lots of providers out there. But it's important to deliver data with consistent metadata. WE use [[SpatioTemporal Asset Catalog|STAC]] to do that at UP42, but it needs to go beyond metadata; there needs to be consisstencyi n the [[GeoTIFF]]s we delivery (consistent multispectral band ordering, for instance).
+- [[Analysis Ready Data]]: We work with partners like Airbus, Nanospace, etc to release processing capabilities.... like [[Pansharpening]], Photoregistration ([[Georeference]]?), upsampling... We've been consisting 16-bit analytical images into 8-bit display-ready images...
+	- At a danger of sounding like a demo, I was working with some super pixelated, very fuzzy data and we put it through some of these capabilities, and wended up with super sharp data, where you could recognize trees, railroad tracks, etc... and it was sharp and ready for analysis.
+		- (He seems ill informed on this, IMO. superresolution is by definition confabulation)
+- Accessibility: We're delivering [[Cloud-Optimized GeoTIFF|COG]]s, as well as streaming GeoTIFFs, almost Google Maps-like technology, so people can stream geospatial images for whatever application they've got
+	- We make sure we're documented by console, API, and SDK... next might be an [[Model Context Protocol]] (MCP) server.
+	- As well as access control things...
+
+
+________________
+
+[The Future of Geospatial AI (from Mmichaela Nadine Pacis, Marketing Manager @ Kili Technology, a data labeling tool company)](https://youtu.be/0sOs24APz8c)
+
+
+....
+
+
+_______
+
+
+
+
+
+
+
+
+

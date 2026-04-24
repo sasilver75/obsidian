@@ -17,6 +17,8 @@ Why timing matters: Critical for infrastructure for:
 
 
 Why it's a big deal
-- PNT is considered critical national infrastructure, because GPS jamming or spoofing can disrupt if
+- PNT is considered critical national infrastructure, because GPS jamming or spoofing can disrupt finance/power/comms/mil operations simultaneously!
+
+
 
 

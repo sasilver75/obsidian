@@ -8,6 +8,13 @@ Uses a 3D [[Masked Autoencoder]], extending the standard [[Vision Transformer|Vi
 - Metadata [[Dropout]] during pretraining (p=0.1), model learns to work with or without location/time information.
 
 
+Why better than [[Prithvi]]?
+- Unlike [[Prithvi]], ==explicitly include temporal and location embeddings in the model!==
+	- This has become standard and seems intuitive, but a lot of the early large GFM didn't include this, largely because it's a relatively complex thing to include.
+- 
+
+
+
 ![[Pasted image 20260419155715.png]]
 
 

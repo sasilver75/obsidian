@@ -252,7 +252,7 @@ Understand: SAR produces a complex image with amplitude and phase information.
 
 Einstein's gravity waves were measured by phase changes.  That's how SAR works; ==it measures little phase changes... which are measure with precision much much less than a single wavelength.==
 
-We talk about SAR resolution... we usually think about spatial resolution (Azimuth Resolution, Range Resolution; one based on range of synthetic aperture, and the other on Chirp), but there's also ==Phase Resolution==, which is much much less than a single 
+We talk about SAR resolution... we usually think about spatial resolution (Azimuth Resolution, ==Range Resolution==; one based on range of synthetic aperture, and the other on Chirp), but there's also ==Phase Resolution==, which is much much less than a single 
 wavelength.
 
 We have a number of different imaging modes with SAR:

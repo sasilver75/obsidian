@@ -1,5 +1,6 @@
 May, 2024
-An open-weight [[Geospatial Embedding]]/[[Geospatial Embedding|Geospatial Foundation Model]]
+An open-weight [[Geospatial Embedding]]/[[Geospatial Embedding|Geospatial Foundation Model]] built by [[Development Seed]] and the Clay Foundation. 
+
 
 References:
 - [Video: Clay AI for Earth. Technical from Zero to Hero](https://www.youtube.com/live/Zd3rbBj56P0?si=H3pFcFcx_5bpxXhU)
