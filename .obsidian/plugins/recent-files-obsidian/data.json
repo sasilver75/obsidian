@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "Ground Sample Distance",
+      "path": "Ground Sample Distance.md"
+    },
+    {
+      "basename": "Maxar",
+      "path": "Maxar.md"
+    },
+    {
+      "basename": "Position, Navigation, and Timing",
+      "path": "Position, Navigation, and Timing.md"
+    },
+    {
+      "basename": "Network Time Protocol",
+      "path": "Network Time Protocol.md"
+    },
+    {
+      "basename": "Tippecanoe",
+      "path": "Tippecanoe.md"
+    },
+    {
+      "basename": "Cloud-Native Geospatial",
+      "path": "Cloud-Native Geospatial.md"
+    },
+    {
+      "basename": "OGC API Features",
+      "path": "OGC API Features.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "Azimuth",
+      "path": "Azimuth.md"
+    },
+    {
+      "basename": "Amazon Location Service",
+      "path": "Amazon Location Service.md"
+    },
+    {
+      "basename": "Alternative Positioning, Navigation, and Timing",
+      "path": "Alternative Positioning, Navigation, and Timing.md"
+    },
+    {
+      "basename": "Coupled Non-Negative Matrix Factorization",
+      "path": "Coupled Non-Negative Matrix Factorization.md"
+    },
+    {
+      "basename": "GloVe",
+      "path": "GloVe.md"
+    },
+    {
+      "basename": "Google Earth Engine",
+      "path": "Google Earth Engine.md"
+    },
+    {
       "basename": "Satellite Image Preprocessing",
       "path": "Satellite Image Preprocessing.md"
     },
     {
       "basename": "Geospatial Data Sources",
       "path": "Geospatial Data Sources.md"
-    },
-    {
-      "basename": "Coupled Non-Negative Matrix Factorization",
-      "path": "Coupled Non-Negative Matrix Factorization.md"
     },
     {
       "basename": "Thermal Noise",
@@ -147,58 +199,6 @@
     {
       "basename": "Detection in Optical Remote Sensing Images",
       "path": "Detection in Optical Remote Sensing Images.md"
-    },
-    {
-      "basename": "Land Use and Land Cover",
-      "path": "Land Use and Land Cover.md"
-    },
-    {
-      "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
-      "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
-    },
-    {
-      "basename": "Hyperspectral",
-      "path": "Hyperspectral.md"
-    },
-    {
-      "basename": "Georeference",
-      "path": "Georeference.md"
-    },
-    {
-      "basename": "ESA Data Catalog",
-      "path": "ESA Data Catalog.md"
-    },
-    {
-      "basename": "OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2)",
-      "path": "Courses/Machine Learning/OxML Fundamentals (2024)/OxML Fundamentals Lecture - Advanced Practical topics in Machine Learning (Day 2).md"
-    },
-    {
-      "basename": "NASA Open Data Portal",
-      "path": "NASA Open Data Portal.md"
-    },
-    {
-      "basename": "Earth on AWS",
-      "path": "Earth on AWS.md"
-    },
-    {
-      "basename": "Coefficient of Determination",
-      "path": "Coefficient of Determination.md"
-    },
-    {
-      "basename": "Root Mean Squared Error",
-      "path": "Root Mean Squared Error.md"
-    },
-    {
-      "basename": "Mean Squared Error",
-      "path": "Mean Squared Error.md"
-    },
-    {
-      "basename": "Precision-Recall Curve",
-      "path": "Precision-Recall Curve.md"
-    },
-    {
-      "basename": "Jaccard Index",
-      "path": "Jaccard Index.md"
     }
   ],
   "omittedPaths": [],

@@ -86,8 +86,7 @@ There are different ways of storing an image on a computer
 ![[Pasted image 20260423004622.png]]
 Depending on the satellite... even looking at somewhat similar multispectral satellites, they're still completely different!
 - Landsat has these thermal bands that Sentinel-2 doesn't have
-- Sentinel-2 has more bands with narrow band width, so they're very specific about the information they're capturing.
-- For Sentinel-2, we have bands at 10m resolution, some at 60m resolution. There's a lot of complexity just in relatively similar satellites. ==You can't train a model naively on Landsat-8 data and use it on Landsat-7, or use it on Landsat-2! It's a very different type of image.==
+pj
 
 
 

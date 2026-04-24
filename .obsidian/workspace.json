@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Satellite Image Preprocessing.md",
+                "file": "Position, Navigation, and Timing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Satellite Image Preprocessing"
+              "title": "Position, Navigation, and Timing"
+            }
+          },
+          {
+            "id": "468bb39345a861fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ground Sample Distance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ground Sample Distance"
+            }
+          },
+          {
+            "id": "0f4f0f74491ef465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Time Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Network Time Protocol"
+            }
+          },
+          {
+            "id": "a108110aeedf36f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OGC API Features.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OGC API Features"
+            }
+          },
+          {
+            "id": "4588a2ba1d2b3c10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OGC API Features.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OGC API Features"
             }
           },
           {
@@ -151,7 +247,8 @@
               "title": "Open Source Geospatial Foundation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1623,12 +1720,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "91a4e97bbd511ab4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "b277fd75fa7d0f10",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 137
+        "currentTab": 139
       },
       {
         "id": "8a022290161ffefa",
@@ -1690,22 +1807,33 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f9b334d7e742ce2f",
+  "active": "468bb39345a861fe",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260423020956.png",
-    "_attachments/Pasted image 20260423020928.png",
-    "_attachments/Pasted image 20260423020919.png",
-    "_attachments/Pasted image 20260423020912.png",
-    "_attachments/Pasted image 20260423020858.png",
-    "Geospatial Data Sources.md",
-    "Satellite Image Preprocessing.md",
-    "_attachments/Pasted image 20260423015913.png",
-    "_attachments/Pasted image 20260423014611.png",
-    "_attachments/Pasted image 20260423014338.png",
+    "Maxar.md",
+    "Position, Navigation, and Timing.md",
+    "_attachments/Pasted image 20260423175427.png",
+    "Network Time Protocol.md",
+    "Tippecanoe.md",
+    "Cloud-Native Geospatial.md",
+    "_attachments/Pasted image 20260423172516.png",
+    "_attachments/Pasted image 20260423172150.png",
+    "_attachments/Pasted image 20260423170841.png",
+    "_attachments/Pasted image 20260423170806.png",
+    "_attachments/Pasted image 20260423170448.png",
+    "_attachments/Pasted image 20260423170432.png",
+    "_attachments/Pasted image 20260423170300.png",
+    "_attachments/Pasted image 20260423165956.png",
+    "OGC API Features.md",
+    "SpatioTemporal Asset Catalog.md",
+    "Azimuth.md",
+    "_attachments/Pasted image 20260423161106.png",
+    "Amazon Location Service.md",
+    "Alternative Positioning, Navigation, and Timing.md",
     "Coupled Non-Negative Matrix Factorization.md",
-    "_attachments/Pasted image 20260423013120.png",
-    "_attachments/Pasted image 20260423012908.png",
-    "_attachments/Pasted image 20260423012847.png",
+    "GloVe.md",
+    "Google Earth Engine.md",
+    "Satellite Image Preprocessing.md",
+    "Geospatial Data Sources.md",
     "Thermal Noise.md",
     "GOES-R.md",
     "Cloud-Optimized GeoTIFF.md",
@@ -1717,17 +1845,6 @@
     "National Land Cover Database.md",
     "Joint Emissivity Database Initiative.md",
     "OlmoEarth.md",
-    "DINOv3.md",
-    "Galileo.md",
-    "Prithvi v2.md",
-    "United States Department of Agriculture.md",
-    "Cropland Data Layer.md",
-    "Untitled 14.md",
-    "HLS.md",
-    "Dot Product.md",
-    "Global Land Cover Mapping and Estimation.md",
-    "Tile Pyramid.md",
-    "Remote Sensing.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

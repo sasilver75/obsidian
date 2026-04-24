@@ -6,6 +6,7 @@ aliases:
   - GeoEye
 ---
 Note: Maxar rebranded Maxar Intelligence as  [[Maxar|Vantor]] and Maxar Space Systems as [[Maxar|Lanteris]]
+- Lanteris was then sold to Intuitive Machines for $800M in November 2025.
 
 A satellite imagery company (Acq. PE Company Advent International 2023) that operates a constellation of *==very high resolution* (VHR) commercial optical satellites==:
 - WorldView-1 — 0.5m [[Panchromatic]] only, very fast tasking
