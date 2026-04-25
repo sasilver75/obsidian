@@ -1,12 +1,12 @@
 (Usually called Spark, just named Spark JS here because I don't want to shadow with [[Apache Spark]].)
 
-An advanced [[Gaussian Splatting]] renderer for [[Three.js]], built by World Labs.
+An advanced [[3D Gaussian Splatting]] renderer for [[Three.js]], built by World Labs.
 
 [Examples](https://sparkjs.dev/examples/#hello-world)
 
 In April 2025, released "Spark 2.0"
 - The main driver for Spark 2.0 is to enable huge worlds made of dynamic 3D Gaussian Splats.
-- The new Spark 2.0 is a complete solution for ==creating, streaming, and rendering huge [[Gaussian Splatting|3DGS]] worlds on the web on any device.== 
+- The new Spark 2.0 is a complete solution for ==creating, streaming, and rendering huge [[3D Gaussian Splatting|3DGS]] worlds on the web on any device.== 
 	- Any splat file can be loaded and turned into a =="***Level-of-Detail (LoD) Splat Tree==***" with all of the original splats as leaf nodes, and interior nodes representing downsampled versions of the splats all the way up to the top "root splat" that has the average color and shape of all the original splats combined.
 	- As you move around the scene, Spark computes "slices" through this tree that picks the best set of N splats from your current viewpoint, taking into account your distance to each splat and the view frustum.
 	- Supports LoD rendering across *multiple splat objects* simultaneously, traversing multiple trees jointly to compute the optimal set of splats that maximizes the maximum screen-space splat sizes. This lets us create huge composite worlds by adding as many splat object parts as you want to.

@@ -3,6 +3,7 @@ July 2018
 
 Not a single dataset, but a collection of challenges and datasets released collaboratively by [[In-Q-Tel]] (IQT), [[Nvidia]], [[Amazon Web Services]], [[Maxar]], starting in 2016. Each challenge targets a different high-resolution mapping problem.
 - ((Seemingly inspired by 2010's [[ImageNet]])
+- Used for competition for things like building detection, road detection, etc.
 
 The imagery is all commercial Very-High-Resolution (VHR) satellite imagery, primarily from [[Maxar]]'s WorldView constellation.
 

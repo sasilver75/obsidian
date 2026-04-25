@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maxar.md",
+                "file": "Geospatial Data Sources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maxar"
+              "title": "Geospatial Data Sources"
             }
           },
           {
-            "id": "e14703dd4b75f880",
+            "id": "4dbfb5fada07c0a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visual Positioning System.md",
+                "file": "Earth on AWS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Visual Positioning System"
+              "title": "Earth on AWS"
             }
           },
           {
-            "id": "8f24b71a87a3bdf4",
+            "id": "89254676e795f8c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maxar.md",
+                "file": "Element84 Earth Search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,563 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maxar"
-            }
-          },
-          {
-            "id": "2e28a70f172acf20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rational Polynomial Coefficient.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rational Polynomial Coefficient"
-            }
-          },
-          {
-            "id": "222cb5ad2359c2b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model Context Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Model Context Protocol"
-            }
-          },
-          {
-            "id": "68fad5c2f751e325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Synthetic Aperture Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Synthetic Aperture Radar"
-            }
-          },
-          {
-            "id": "1339c0331659d42b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overture Maps Foundation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Overture Maps Foundation"
-            }
-          },
-          {
-            "id": "f79329b4364c2953",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Niantic Spatial.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Niantic Spatial"
-            }
-          },
-          {
-            "id": "468bb39345a861fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GEO-Bench.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GEO-Bench"
-            }
-          },
-          {
-            "id": "057fb9188ee8d2c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maxar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Maxar"
-            }
-          },
-          {
-            "id": "972047992ccfe47f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Geospatial Intelligence.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Geospatial Intelligence"
-            }
-          },
-          {
-            "id": "3068905f4f400905",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Geospatial Intelligence.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Geospatial Intelligence"
-            }
-          },
-          {
-            "id": "a54fb1f889bf47fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software as a Service.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Software as a Service"
-            }
-          },
-          {
-            "id": "434b44360d5549fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Infrastructure as a Service.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Infrastructure as a Service"
-            }
-          },
-          {
-            "id": "f8b93900c9bec057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "On-Premise.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "On-Premise"
-            }
-          },
-          {
-            "id": "0f4f0f74491ef465",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Time Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Network Time Protocol"
-            }
-          },
-          {
-            "id": "a108110aeedf36f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OGC API Features.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OGC API Features"
-            }
-          },
-          {
-            "id": "4588a2ba1d2b3c10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OGC API Features.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OGC API Features"
-            }
-          },
-          {
-            "id": "1c72567e7af241ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coupled Non-Negative Matrix Factorization.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Coupled Non-Negative Matrix Factorization"
-            }
-          },
-          {
-            "id": "64d31766abe201ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GOES-R.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GOES-R"
-            }
-          },
-          {
-            "id": "b0b6a202d6f52fe6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud-Optimized GeoTIFF.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cloud-Optimized GeoTIFF"
-            }
-          },
-          {
-            "id": "9fdc478e5250ce16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GeoParquet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GeoParquet"
-            }
-          },
-          {
-            "id": "220611eb1a21706a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Open Source Geospatial Foundation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Open Source Geospatial Foundation"
-            }
-          },
-          {
-            "id": "ff18e10a7e173b42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TESSERA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TESSERA"
-            }
-          },
-          {
-            "id": "4d1baefbf403c346",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRESTO.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PRESTO"
-            }
-          },
-          {
-            "id": "35c048d762ac0541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spectral-Temporal Barlow Twins.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Spectral-Temporal Barlow Twins"
+              "title": "Element84 Earth Search"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -688,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "graph",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2216,44 +1664,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e14703dd4b75f880",
+  "active": "89254676e795f8c3",
   "lastOpenFiles": [
-    "Continuous Change Detection and Classification.md",
-    "Visual Positioning System.md",
-    "Multi-task Observation using Satellite Imagery & Kitchen Sinks.md",
-    "Resolution.md",
+    "Earth on AWS.md",
+    "Registry of Open Data on AWS.md",
+    "Nucleus4D.md",
+    "Element84 Earth Search.md",
+    "Geospatial Data Sources.md",
+    "Optical.md",
     "TESSERA.md",
-    "_attachments/Pasted image 20260424115644.png",
-    "_attachments/Pasted image 20260424115556.png",
-    "Maxar.md",
+    "_attachments/Pasted image 20260424183540.png",
+    "_attachments/Pasted image 20260424183510.png",
+    "_attachments/Pasted image 20260424183500.png",
+    "Google Earth Engine.md",
+    "_attachments/Pasted image 20260424174511.png",
+    "_attachments/Pasted image 20260424174418.png",
+    "Acquisition.md",
+    "deck.gl.md",
+    "_attachments/Pasted image 20260424173834.png",
+    "Microsoft Planetary Computer.md",
+    "_attachments/Pasted image 20260424172801.png",
+    "SpaceNet.md",
+    "GEOS.md",
     "Electromagnetic Spectrum.md",
-    "Spectral-Temporal Barlow Twins.md",
-    "PRESTO.md",
-    "_attachments/Pasted image 20260424115458.png",
-    "_attachments/Pasted image 20260424115344.png",
-    "_attachments/Pasted image 20260424115235.png",
-    "_attachments/Pasted image 20260424115119.png",
-    "_attachments/Pasted image 20260424115114.png",
-    "_attachments/Pasted image 20260424114836.png",
-    "_attachments/Pasted image 20260424114550.png",
-    "_attachments/Pasted image 20260424114206.png",
-    "Remote Sensing.md",
-    "Satellite Image Preprocessing.md",
-    "SPOT.md",
-    "Geospatial Embedding.md",
-    "Foundation Model.md",
-    "Satellogic.md",
-    "Satellite.md",
+    "_attachments/Pasted image 20260424172405.png",
+    "Maxar.md",
+    "3D Gaussian Splatting.md",
+    "Scaniverse.md",
+    "Prithvi.md",
     "TCPED.md",
+    "Teleport.md",
     "Rational Polynomial Coefficient.md",
     "Model Context Protocol.md",
-    "Open Source Geospatial Foundation.md",
-    "Map.md",
-    "Least-Squares.md",
     "Synthetic Aperture Radar.md",
-    "Planet Labs.md",
-    "Normalized Difference Vegetation Index.md",
-    "Spectral Matching.md",
+    "Overture Maps Foundation.md",
+    "Niantic Spatial.md",
+    "GEO-Bench.md",
+    "_attachments/Pasted image 20260424163321.png",
+    "_attachments/Pasted image 20260424154703.png",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

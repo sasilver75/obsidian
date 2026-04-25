@@ -207,6 +207,103 @@ Vantor has an open data program for a lot of thing like wildfire events and thin
 - we run a nubmer of ML exercises and have make pieces of our archives accessible to people who are workign on particular maps, certain academic groups, etc.
 
 
+_________________________
+
+
+Video: Geoawesome: [Unlocking the Future 3D Maps from Space with Maxar's Precision3D](https://www.youtube.com/watch?v=5a7bwXir9fg) (November 2024)
+- Making 3D work from satellite data (eg google earth) is a huge challenge, it's a very complicated technical and operational problem
+- Maxar and Josh Winer (Sernior Director, Enterprise Sales @ Maxar) are leading the charge here in the game of satellite-based 3D.
+- We take a global-scale 2D high resolution map , and expect that anywhere we look at the planet, we can see a high resolution current pserpsective of what it looks like. So why is it hard to do for 3D?
+	- Requires OOMs more data and processing to build out
+- When you create a 2D mosaic of the earth, you use asingle image over a single lcoation on the planet
+- When you build it in 3D, there are a couple of ways to do it. At Maxar, we use our Precision3D product, which does ==Multi-View [[Photogrammetry]].==, using 10, 20, or even 30 images of a certain location to build an accurate 3D map. The more complex the terrain is... the more data you need for that 3D. 
+![[Pasted image 20260424154703.png]]
+- Having a deep enough archive, enough capacity on a constellation of satellites to collect new imagery, having a processing capability to put it all together and build that 3D perspective.
+
+Q: What are soem of the technical hurdles that you guys overcame?
+- When you build a 3D model of a location in the past, you use ==steroscopic imagery==, where, whether it's collected from an iarplane ora satellite, you collect an image from two complimentary viewing angels, where you look at an object from one side and another, and itht that create a 3D model.
+- At maxar, instead o using scarce resource of capacity on our constellation, we're leveraging our deep archive.... and loking at fortuistously collectd images to stitch together and create that 3D perspective.
+- ==The models... that determine which images are used, how they're stitched together, how we prioritize those differnet look angles, and how we prioritize more current images o that we have hte most current perspetive of th earth in 3d... is all part of that challenge.==
+
+Q: There is an elment of ==spatial resolution... this 50cm== seems tobe sort of a holy grail of the elevation, resolution data in the industry. Is it more difficult to do it at aglobal scale at this resolution? What are the challenges with this... an dwhat are some of the next steps going forward, when it comes to what we can expect in the future?
+- You mentioend 50cm resolutio nas being the industry standard; we're moving ==towards 30cm resolution to build out the global skin from spce==... taking that a step further and ==being able to tprocess that with high definitiion capabilities down to a 15cm equivalent==... we're pushing the boundary of what [[Very High Resolution|VHR]] mens.
+	- ((This super resolution shit on satellite imagery is kind of BS imo))
+- If you think about satellites like landsat that are collecting at a 15m resolution, they're able toimage hte entire planet every couple weeks, so you have alow resolution skin of the earth contatntly being updated because you'lre looking at it thtroguh a wide aperture, a wide angle.
+- When you build out the world in 15, 30 cm... you're collecting very narrow, small imagse and stitching them together over time.
+- The challenge is having all the capacity to collect all that content, and the RECOLLECT it again to maintain a fresh perspective.
+- From a 2D perspective, we image the entire planet on an annual basis, stitching togethr all those images into a mosaic, which rainges from 30-50cm native reolution, and then "HD" a lot of that... to 15cm resolution.
+- As we start to do this with 3D, we want to build out tha 3D model first, and continue to update it on the sme annual cadence, but it requires a ton of data.
+- To build a 3D model with our capabilities, we use 10, 15, 20 images... and if you think about the earth's land mass as being ==135m square kilmoemters,== if you have to collect that 10,20,30 times... that's literally talkign about billions of quare kilometers of imagery being processed into a 3D model, reviewed and QA'd by a team of experts, and having that data available for end users. It's a huge challenge, and we're up to the challenge of moving and pushing that definition of what's expected from what's historically even 15m or 30m in 3D, using [[Shuttle Radar Topography Mission|SRTM]], collected in 2000, to where we are now... it's incredible how far we've come.
+
+
+Q: It's fair to say that Precision3d is rather unique. Lots of similar things to photogrammetry, b ut not hte same; how does it differ from traditional methods?
+- A lot of the global-scale, and dare-i-say all of the global scale 3D models up until now... have been historically derived from radar-based sensors, typically a [[Synthetic Aperture Radar]] sensor (think [[Shuttle Radar Topography Mission|SRTM]]), if you look at some of th other commerical companies in the space that are trying to build out the worldi n 3D... it's often in SAR
+- ==In our perspective, we have a deep archive of [[Optical]] imagery from many different look angles; so it's the adoption of this multi-view capability; instead of depending on two intentioanlly-collected [[Steroscopic]] imagery, and being able to leverage all of the fortuitiously-colllected multi-view images that actually complement eachother when used together...==
+	- ==Figuring out how to build a model that can figure out which images to use, and stitch those together to build a high quality 3D model, is the secret.==
+- This product has been around for <10 years, and we've already built out a bout 70% of the earth's landmass, over 90 million square kilometers. We're trying t push the limits in temrs of how quickly we can build out this global skin, and then maintain it with a more current model on an annual basis.
+- Our Legion satellites which launched this year (2025) and leveraging their content.. will be important.
+
+
+Q: How does Maxar's product approach compare to competitors? The 2D space is quite crowded these days? How do you compare hwen it comes to 3D?
+- There are OOMs more satellites in orbit today than there were 14 years ago when he started working at Maxar, ranging from [[Optical]] to [[Synthetic Aperture Radar|SAR]] earth observation satellites, communication satellites, etc. 
+	- Many of these compete or offer complimentary imagery to what we collect. ==The reality is there are only a few satellites intorbit that ocllect at the highest resolution avialble today, that 30cm native resolution.==
+	- We feel confident in those... and we're launching more of these satellites.
+	- We're launching another two... we're tripping our thirty centimeter capacity of satellites, and know what other satellite operators will push that as well
+- It's not just how you can launch these satellites, but also create products from them.
+- ==Collecting data is only as useful as the ability to disseminate it (think: [[TCPED]])==
+
+
+Q:  Beyond urban planning and disaster management, what are some of the newer applications that high-resolution satellite-based 3D models have enabled?
+- ==[[Global Positioning System|GPS]] is a great example where the initial use cases are often government driven...bu it's more interesting when that technology and acpability propagates down to hte consumer level, and is in theri pocket. ==
+- That level of tech demonstration is where really interesting use cases become apparent.
+- When you think about what some of those are... some use cases that rely on 3D maps:
+	- ==Telecommunication advancements that have been made==
+		- As we move from 4G to 5G, the antenna signal and capabilities behind 5G require a very different line-of-sight and propagation model than 4G does.
+		- 5G is so sensitive that even things like dense vegetation and buildings can interfere with hat signal in a way that you didn't have to think about so much with 4G
+		- To build out those 5G networks effectively, you need an accurate, current 3D model; even a tree that grows a foot a year can impact the placement of a 5G antenna for a network.
+		- We work closely with these types of companies to provide these models to assist in their deployment.
+	- ==Automotive advancements that have been made==
+		- All of these vehicles on the road now are mobile sensors, and all network-connected.
+		- For these vehicles to connect the data they do from onboard sensors and to localize themselves with these onboard sensors, they HAVE to have access to a mpa.
+		- A vehicle doesn't know where it is unless there's a map to help reflect that. GPS on the car is only accurate to a  certain extend, telling its location...
+		- They then use onboard sensors, saying "Ohm there's a sign there, or a bench", and hten it can reference a baes map it has and say: "Based on the location of that roadside furtniture, I know where I am."
+			- ((This seems error prone, what if ))
+
+
+> Moderator: It's one thing to have a 3D model that says "Hey, the height of the tree is 10M, but another thing to say 'hey, this is a bamboo tree', so it will probably grow X meters a year."
+
+
+Q: We hear a lot about VR and AR applications increasingly incorporating 3D data... how do you see this trend evolving?
+- The consumer applications of 3D or any of these space-based technologies are what he gets excited about the most.
+- Once you enable a world of developers to integrate this 3D data into an application that consumeres can access as easy as pulling their phone out... ==the use cases start to run wild,==
+- One he likes:
+	- ==Outdoor recreation applications for 3D mapping.==
+		- For a long time we've referenced where we are while exploring... look at a satellite image to provide an edit perspective.... but the ability to do that in 3D has really only started to grow... An example of this: Just two weeks ago, he was on a bikepacking trip across Utah. To have an understanding of the terrain that you're walking on or biking on or skiing on isn't just a convenience,e it's as safety issue! 
+		- We covered 20k feet of elevation change; fortunately we knew that going into it... but had we gone into that blind and not had an understanding of the terrain, it woud have been a very different trip!
+		- So you see Strava, Garmin, etc. make this 3D data incredibly accessible... and start to really open up applications...
+	- Also our everyday life...
+		- We plug our phones in so that we have our mpa in front of us when we're driving... As we move to 3D, it gives additional perspective for things like range estimation for electric vehicles, other applications.
+
+
+Q: What are the current limitations and challenges in 3D mapping, particularly those challenges of geography, ie urban environments, cloud coverage, etc.?
+- Mapping is a great industry to look at ... you can map to such a finite level that you're building a 1:1 scale map of the panet, and until you get tot htat, you have challenges!
+- ==From a 3D perspective, we do face different challenges than we do from a 2D perspective. Some of the biggest challenges are creating models tht do so in dense urban canyons. As you look at ametropolitain area in 3D, the tall buildings begin to create an occlusion challenge, where they block the roads underneath them, etc. Yo uneed a lot of differnet look angles eto see every perspective of the building, and the shadows they cast on roads and other buildings become challenges.==
+- ==Another challenge is prioritizing your definition of quality (whta does bet image or best 3d model mean?) - it depends on your use case. Best might be highest resolution, andi t's okay if that imge is 10y old beacuse i'm trying to get an image of a mountainous area. If you're trying to look at a new development outside las vegas, even if you haveh te most beatuiful image, if it's 10y old, then it's probably a neighborhood! So for that, I'd taek a lower quality image that has be collected in the last 3 months!==
+	- Same is true for 3D. Part of the challenge is understanding which images we should include in the model. 
+	- We're trying to figure out how to optimize these models to address the quality needs of someone who needs something current and someone who needs something high resolution/beautiful.
+- Challenge: Creating something that addresses the unique requirements of all of these different use cases.
+
+
+Q: How will upcoming technologies, like Maxar's WorldView ==Legion== satellites, help improve the quality and coverage of your 3D data (and create new challenges?)
+- At time of recording 4 are in orbit... excited to see the imagery that those satellites that are being collected be integrated into all of these products.
+- Integrating these new images into our 3d models, into our mosaics...
+- Better 2D and 3D models
+- Now we can collect not just in the sumemrtime and winterime, not just leaf on and leaf off... but with Legion, we're collecting in the morning, the afernoon, the evening ans these satellites have different orbits. These legion satellites... historically, all of the Maxar constellation has been in a [[Sun-Synchronous Orbit|Sun-Synchronous]] orbit, meaning it orbits the earth vertically, around the poles, collecting imagery. They go back around the planet, and collect again... it means you're always collecting at the same time of day (typically about 11am or so), which is intentional because the sun is highest in the sky, and the sun is our flash.
+- When you start working with different orbits like you do with legion, where we're launching into mid-[[Inclination]] orbits, you're in a sceanrio where you have a lot more refresh capability in the most populated part of the planet in these mid-lattitudes, but you can also collect at different imte sof day (9am, 4pm, etc) which has myriad new use cases! Being able to work around different shadow challenges you might have had, differnet look anglse as well, etc... Legion is going to create a very uniqeu capability for us in the way that we're going to operate and collect and contribute to our expanded archive.
+![[Pasted image 20260424163321.png]]
+- We're building out the world in 3D so that you can order different types of models ([[Digital Surface Model|DSM]], [[Digital Terrain Model|DTM]], other datasets)... and making these capabilities available in the format the customer needs, delivered in the way the customer needs, etc. 
+
+
 
 
 

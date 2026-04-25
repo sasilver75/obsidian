@@ -11,11 +11,11 @@ Original/Public Data Providers:
 
 
 
-
 Cloud Data Providers:
 - [[Google Earth Engine]]: https://earthengine.google.com/ 
 - [[Microsoft Planetary Computer]]: https://planetarycomputer.microsoft.com/ 
 - [[Earth on AWS]]: https://aws.amazon.com/earth/ 
+	- [[Element84 Earth Search]] is a STAC-compliant search and discovery API for data on the [[Registry of Open Data on AWS]]
 
 
 

@@ -2,11 +2,19 @@
 aliases:
   - Planetary Computer
 ---
+Compare with:
+- [[Earth on AWS]]
+- [[Microsoft Planetary Computer]]
+
 A cloud platform that hosts large-scale open geospatial datasets alongside compute, so you can analyze data without downloading it.
 - *"Planetary Computer is a STAC catalog + Azure storage + Jupyter notebooks; open geospatial data with compute sitting right next to it.*
 
+
+![[Pasted image 20260424172801.png]]
+
+
 Open geospatial data ([[Landsat]], [[Sentinel]], NAIP, building footprints, elevation models) is theoretically free but practically hard to use (datasets are TBs to PBs), hosted across dozens of agencies with inconsistent APIs.
-- Planetary Computer centralizes it all on Azure with a consistent [[SpatioTemporal Asset Catalog|STAC]] API and co-located compute; Everything is [[GeoParquet]] or [[Cloud-Optimized GeoTIFF|COG]], with a STAC entry, ope nstandards throughout.
+- Planetary Computer centralizes it all on Azure with a consistent [[SpatioTemporal Asset Catalog|STAC]] API and co-located compute; Everything is [[GeoParquet]] or [[Cloud-Optimized GeoTIFF|COG]], with a STAC entry, open standards throughout.
 
 Provides a data catalog over:
 - [[Landsat]] Collection 2

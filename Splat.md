@@ -5,4 +5,4 @@ In point cloud visualization (e.g. [[Potree]] visualization of [[Light Detection
 	- Disc size is typically computed from the local point spacing and camera distance.
 
 
-See: [[Gaussian Splatting]]
+See: [[3D Gaussian Splatting]]

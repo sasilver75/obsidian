@@ -259,8 +259,7 @@ ________________
 [The Future of Geospatial AI (from Mmichaela Nadine Pacis, Marketing Manager @ Kili Technology, a data labeling tool company)](https://youtu.be/0sOs24APz8c)
 
 
-....
-
+...
 
 _______
 
