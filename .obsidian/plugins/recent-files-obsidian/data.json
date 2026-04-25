@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "Apache Polaris",
+      "path": "Apache Polaris.md"
+    },
+    {
+      "basename": "Apache Iceberg",
+      "path": "Apache Iceberg.md"
+    },
+    {
+      "basename": "Java Database Connectivity",
+      "path": "Java Database Connectivity.md"
+    },
+    {
+      "basename": "Projection",
+      "path": "Projection.md"
+    },
+    {
+      "basename": "Fiona",
+      "path": "Fiona.md"
+    },
+    {
+      "basename": "Apache Gravitino",
+      "path": "Apache Gravitino.md"
+    },
+    {
+      "basename": "Polars",
+      "path": "Polars.md"
+    },
+    {
+      "basename": "Dask",
+      "path": "Dask.md"
+    },
+    {
+      "basename": "Intrinsic Dimension",
+      "path": "Intrinsic Dimension.md"
+    },
+    {
+      "basename": "Polar Orbit",
+      "path": "Polar Orbit.md"
+    },
+    {
+      "basename": "Apache Arrow",
+      "path": "Apache Arrow.md"
+    },
+    {
+      "basename": "Shader",
+      "path": "Shader.md"
+    },
+    {
+      "basename": "GeoArrow",
+      "path": "GeoArrow.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "AlphaEarth Foundations",
+      "path": "AlphaEarth Foundations.md"
+    },
+    {
+      "basename": "Google Earth Engine",
+      "path": "Google Earth Engine.md"
+    },
+    {
+      "basename": "Dymaxion Projection",
+      "path": "Dymaxion Projection.md"
+    },
+    {
+      "basename": "Mapbox Vector Tile",
+      "path": "Mapbox Vector Tile.md"
+    },
+    {
+      "basename": "MetaTiling",
+      "path": "MetaTiling.md"
+    },
+    {
+      "basename": "rasterio",
+      "path": "rasterio.md"
+    },
+    {
+      "basename": "rioxarray",
+      "path": "rioxarray.md"
+    },
+    {
+      "basename": "Pyogrio",
+      "path": "Pyogrio.md"
+    },
+    {
       "basename": "Apache Sedona",
       "path": "Apache Sedona.md"
     },
@@ -37,20 +125,8 @@
       "path": "Geopandas.md"
     },
     {
-      "basename": "Projection",
-      "path": "Projection.md"
-    },
-    {
       "basename": "PyProj",
       "path": "PyProj.md"
-    },
-    {
-      "basename": "Fiona",
-      "path": "Fiona.md"
-    },
-    {
-      "basename": "Pyogrio",
-      "path": "Pyogrio.md"
     },
     {
       "basename": "Zarr",
@@ -73,10 +149,6 @@
       "path": "GeoTIFF.md"
     },
     {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
       "basename": "stac-fastapi",
       "path": "stac-fastapi.md"
     },
@@ -91,10 +163,6 @@
     {
       "basename": "TorchGeo",
       "path": "TorchGeo.md"
-    },
-    {
-      "basename": "rioxarray",
-      "path": "rioxarray.md"
     },
     {
       "basename": "R-Tree",
@@ -131,74 +199,6 @@
     {
       "basename": "Shapefile",
       "path": "Shapefile.md"
-    },
-    {
-      "basename": "What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}",
-      "path": "Articles/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md"
-    },
-    {
-      "basename": "Tile Pyramid",
-      "path": "Tile Pyramid.md"
-    },
-    {
-      "basename": "Tile",
-      "path": "Tile.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "Photogrammetry",
-      "path": "Photogrammetry.md"
-    },
-    {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
-    },
-    {
-      "basename": "Geospatial Data Sources",
-      "path": "Geospatial Data Sources.md"
-    },
-    {
-      "basename": "Earth on AWS",
-      "path": "Earth on AWS.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Shuttle Radar Topography Mission",
-      "path": "Shuttle Radar Topography Mission.md"
-    },
-    {
-      "basename": "Orthoimage",
-      "path": "Orthoimage.md"
-    },
-    {
-      "basename": "Geodesy",
-      "path": "Geodesy.md"
-    },
-    {
-      "basename": "Element84 Earth Search",
-      "path": "Element84 Earth Search.md"
-    },
-    {
-      "basename": "Registry of Open Data on AWS",
-      "path": "Registry of Open Data on AWS.md"
-    },
-    {
-      "basename": "Nucleus4D",
-      "path": "Nucleus4D.md"
-    },
-    {
-      "basename": "Optical",
-      "path": "Optical.md"
-    },
-    {
-      "basename": "TESSERA",
-      "path": "TESSERA.md"
     }
   ],
   "omittedPaths": [],

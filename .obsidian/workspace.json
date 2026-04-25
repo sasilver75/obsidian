@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Sedona.md",
+                "file": "Fiona.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,11 +244,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache Sedona"
+              "title": "Fiona"
+            }
+          },
+          {
+            "id": "1637ab2ba375c57a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Polaris.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apache Polaris"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1808,44 +1832,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fc0aad6d643353e2",
+  "active": "1637ab2ba375c57a",
   "lastOpenFiles": [
+    "Apache Iceberg.md",
+    "Java Database Connectivity.md",
+    "Projection.md",
+    "Fiona.md",
+    "Apache Gravitino.md",
+    "Apache Polaris.md",
+    "_attachments/Pasted image 20260425131956.png",
+    "_attachments/Pasted image 20260425131748.png",
+    "_attachments/Pasted image 20260425131725.png",
+    "Polars.md",
+    "Dask.md",
+    "Intrinsic Dimension.md",
+    "_attachments/Pasted image 20260425125611.png",
+    "_attachments/Pasted image 20260425125606.png",
+    "_attachments/Pasted image 20260425125535.png",
+    "Polar Orbit.md",
+    "Apache Arrow.md",
+    "_attachments/Pasted image 20260425114257.png",
+    "_attachments/Pasted image 20260425114254.png",
+    "Shader.md",
+    "_attachments/Pasted image 20260425114000.png",
+    "GeoArrow.md",
+    "_attachments/Pasted image 20260425113839.png",
+    "SpatioTemporal Asset Catalog.md",
+    "AlphaEarth Foundations.md",
+    "Google Earth Engine.md",
+    "Dymaxion Projection.md",
+    "Mapbox Vector Tile.md",
+    "MetaTiling.md",
+    "rasterio.md",
+    "rioxarray.md",
+    "Pyogrio.md",
+    "Apache Sedona.md",
     "GeoParquet.md",
-    "_attachments/Pasted image 20260425102801.png",
     "Apache Parquet.md",
     "GeoJSON.md",
-    "_attachments/Pasted image 20260425101320.png",
-    "DuckDB.md",
-    "_attachments/Pasted image 20260425025416.png",
-    "MapLibre GL JS.md",
-    "MapLibre.md",
-    "Vector Tile.md",
-    "_attachments/Pasted image 20260425021050.png",
-    "Geopandas.md",
-    "_attachments/Pasted image 20260425014934.png",
-    "Projection.md",
-    "PyProj.md",
-    "Fiona.md",
-    "Pyogrio.md",
-    "Zarr.md",
-    "_attachments/Pasted image 20260425012514.png",
-    "_attachments/Pasted image 20260425012412.png",
-    "STAC-GeoParquet.md",
-    "Napari.md",
-    "_attachments/Pasted image 20260425010412.png",
-    "_attachments/Pasted image 20260425010344.png",
-    "Cloud-Optimized GeoTIFF.md",
-    "GeoTIFF.md",
-    "SpatioTemporal Asset Catalog.md",
-    "_attachments/Pasted image 20260425003135.png",
-    "stac-fastapi.md",
-    "Dynamic One for All Model.md",
-    "sta.md",
-    "Coordinate Reference System.md",
-    "TorchGeo.md",
-    "rioxarray.md",
-    "R-Tree.md",
-    "Earth Genome.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

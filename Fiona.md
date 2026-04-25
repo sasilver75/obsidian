@@ -5,3 +5,5 @@ Python GIS library
 > Depends on [[Geospatial Data Abstraction Library|GDAL]] but is different from GDAL's own (ugly) bindings to Python.
 
 See also: [[Pyogrio]]
+
+![[Pasted image 20260425103714.png]]

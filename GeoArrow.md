@@ -11,3 +11,6 @@ The ==GeoArrow== specification defines how the [[Vector]] features (geometries) 
 ## Relationship to [[GeoParquet]]
 - The GeoParquet specification originally started in this repo, but moved into its own, leaving this repo to focus on the Arrow-specific specifications (Arrow layout and extension type metadata). 
 - Whereas GeoParquet is a file-level metadata specification, GeoArrow is a field-level metadata and memory layout specification that applies in-memory (an Arrow array), on disk (using Parquet readers/writers provided by an Arrow implementation), and over the wire (using the Arrow IPC format).
+
+
+![[Pasted image 20260425113839.png]]

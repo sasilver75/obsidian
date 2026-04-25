@@ -25,14 +25,6 @@ Abstract:
 
 
 
-
-
-
-
-
-
-
-
 __________________________
 
 
@@ -62,6 +54,11 @@ Performance:
 - Outperforms [[Clay]], [[Prithvi]], [[SatCLIP]], and designed features ([[Continuous Change Detection and Classification|CCDC]], [[Multi-task Observation using Satellite Imagery & Kitchen Sinks|MOSAIKS]]) consistently across all tasks; the ==first approach where no single competitor wins anywhere==.
 - Only 64 bytes per embedding vs. 16x more for next-most-compact earned method
 - ~==480M parameter model== (smaller variant chosen for inference efficiency)
+
+
+____________________
+![[Pasted image 20260425111114.png]]
+
 
 _______________________________________________
 

@@ -18,10 +18,17 @@ An open specification for describing geospatial assets in a consistent, searchab
 Problem it solves: Every satellite data provider had their own metadata format and discovery mechanism, and STAC standardizes both:
 
 Four components:
-1. Item: Describes one asset (one Landsat scene, one Sentinel-2 tile; a [[GeoJSON]] feature).
-2. Collection: Groups related items (all Sentinel-2 L2A scenes).
-3. Catalog: A top-level container linking to collections.
+1. ==Catalog==: A top-level container linking to collections.
+2. ==Collection==: Groups related items (all Sentinel-2 L2A scenes).
+3. ==Item==: Describes one asset (one Landsat scene, one Sentinel-2 tile; a [[GeoJSON]] feature).
+	- Items point to ==Assets==, the actual data which may live somewhere else.
 4. API: Standard REST search endpoint; filter by bbox, datetime, cloud cover, collections.
+
+
+![[Pasted image 20260425112732.png]]
+![[Pasted image 20260425112927.png]]
+
+
 
 
 ![[Pasted image 20260419225513.png]]

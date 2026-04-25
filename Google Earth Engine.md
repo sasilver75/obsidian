@@ -23,3 +23,9 @@ What it is:
 ![[Pasted image 20260424174511.png]]
 
 
+
+![[Pasted image 20260425105721.png]]
+
+
+![[Pasted image 20260425105726.png]]
+

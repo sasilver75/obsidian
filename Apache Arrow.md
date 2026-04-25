@@ -16,6 +16,34 @@ An ==in-memory columnar tabular data format==, essentially a spec. for how to la
 - [[Apache Arrow|Arrow IPC]]: The file/stream format for persisting Arrow datas
 
 The "[[Modern Data Stack]]" ([[DuckDB]] + [[Polars]] + [[Apache Parquet|Parquet]] + [[Apache Arrow|Arrow]]) is fast largely because data moves between tools without ever being deserialized, it's just passing points to shared memory buffers.
+- Think of it as ==USB-C for data==, instead of every library inventing its own incompatible cable.
+
+```python
+import pandas as pd
+import pyarrow as pa
+import duckdb
+
+# Example Earth observation-style tabular data
+df = pd.DataFrame({
+    "tile_id": [101, 102, 103],
+    "ndvi": [0.72, 0.64, 0.81],
+    "elevation_m": [120, 340, 210]
+})
+
+# Creates a coluimnar- in-memory representation with contiguous arrays, efficient CPU cache access, SIMD-friendly layout, and langauge-independent memory format
+arrow_table = pa.Table.from_pandas(df)
+
+# Now we can query Arrow memory directly in DuckDB!
+# No copying rows around, just shared memory.
+result = duckdb.query("""  
+    SELECT  
+        tile_id,  
+        ndvi  
+    FROM arrow_table  
+    WHERE ndvi > 0.7  
+""").to_df()  
+
+```
 
 
 ## Relation to [[Apache Parquet|Parquet]]
@@ -40,6 +68,9 @@ The "[[Modern Data Stack]]" ([[DuckDB]] + [[Polars]] + [[Apache Parquet|Parquet]
 	- Query/transform with DuckDB or Pandas
 	- Write back to Parquet
 - ==Parquet is the storage format, Arrow is the compute format.==
+
+
+![[Pasted image 20260425114257.png]]
 
 
 ## GeoArrow

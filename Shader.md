@@ -33,3 +33,9 @@ Critically, ==shaders run in parallel==; if you have 10,000 hexagons, the GPU ru
 
 
 
+![[Pasted image 20260425114000.png]]
+
+![[Pasted image 20260425113742.png]]
+
+
+

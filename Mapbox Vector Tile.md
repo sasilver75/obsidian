@@ -23,8 +23,11 @@ MBTile vs MVT (similar name):
 
 
 
+![[Pasted image 20260425104955.png]]
 
-
+![[Pasted image 20260425105044.png]]
+Note:  When you get `/tiles/14/8732/5354.pbf`, you receive a single [[Mapbox Vector Tile|MVT]] file representing exactly one tile (encoded as [[Protobuf]]), which contains many layers, each with many vector features.
+- In other formats, sometimes tiles are bundled together, such as in [[MBTile]]s (SQLite database containing many files), or [[PMTiles]] (single cloud-optimized archive of many tiles)
 
 
 

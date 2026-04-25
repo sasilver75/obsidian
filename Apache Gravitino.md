@@ -13,3 +13,6 @@ Key capabilities:
 - Multi-source: Spans relational DB,s data lakes, file systems, [[Apache Iceberg|Iceberg]] tables
 - Centralized governance: Unified access control and permissions
 - Federated queries: Query across sources through a consistent interface
+
+
+![[Pasted image 20260425131725.png]]

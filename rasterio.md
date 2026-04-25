@@ -17,3 +17,12 @@ With Rasterio, you might:
 4. Read raster metadata: [[Coordinate Reference System|CRS]], pixel size (resolution), bounding box, band count
 	1. (Band Count refers to how many separate data layers a Raster file contains, where each band stores one value per pixel! RGB image has 3 bands, RGBA 4 bands, etc. Hyperspectral satellite data might have 200+ bands, each capturing a different wavelength of light!)
 5. Write processed arrays back to disk as GeoTiff
+
+
+![[Pasted image 20260425103719.png]]
+There isn't an improvement for [[rasterio]] in the same way that [[Pyogrio]] seems to be an improvement for [[Fiona]].
+- [[rioxarray]] brings [[rasterio]]/[[Geospatial Data Abstraction Library|GDAL]]-backed geospatial capabilities into the [[Xarray]] world, but itself is not a replacement for rasterio's raster I/O. 
+	- Use rasterio when building raster I/O machinery, and use rioxarray when analyzing raster data.
+		- Note: Tools like [[Geopandas]] are for [[Vector]] data, while tools like [[rioxarray]] are for [[Raster]] data.
+			- You can often use the two together, such as clipping a raster to a vector geometry's shape.
+

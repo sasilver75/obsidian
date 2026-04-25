@@ -3,3 +3,8 @@ Python library providing fast, bulk-oriented read/write access to [[Geospatial D
 
 The typical use of `pyogrio` is to read or write these data sources to or from [[Geopandas]] `GeoDataFrames`
 - Indeed, Geopandas is "built on" pyogrio
+
+Compare with [[Fiona]]
+Contrast with [[rasterio]] (Vector)
+
+![[Pasted image 20260425103705.png]]

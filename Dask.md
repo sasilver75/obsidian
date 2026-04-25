@@ -19,3 +19,8 @@ Strengths:
 Weaknesses:
 - Slower than [[Apache Spark|Spark]] at massive scale
 - Less mature ecosystem for SQL/Streaming
+
+
+![[Pasted image 20260425125606.png]]
+
+![[Pasted image 20260425125611.png]]
