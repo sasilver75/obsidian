@@ -10,3 +10,6 @@ A "shapefile" is actually ==3-7 files== that must travel together:
 You'll encounter these constantly when downloading from government GIS portals!
 In Python, `geopandas` can read them natively, but likely convert to GeoJSON or load into PostGIS before doing anything serious.
 
+
+![[Pasted image 20260424223504.png]]
+

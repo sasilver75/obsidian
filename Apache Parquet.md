@@ -11,3 +11,6 @@ Apache's columnar binary format for large tabular datasets.
 
 
 See also: [[GeoParquet]], an open-standard spatial extension to the Apache Parquet file format, adding geospatial data types line points/lines/polygons.
+
+
+![[Pasted image 20260425101320.png]]

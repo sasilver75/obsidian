@@ -21,11 +21,14 @@ aliases:
 ---
 Resources:
 - [NASA EarthData: Synthetic Aperture Radar](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar) (Unread, looks great)
-- [Video: ICEEYE: The Value of SAR](https://youtu.be/GwyldSNlefk) (Awesome, canonical; Tom Ager)
+- [Video: ICEEYE: The Value of SAR](https://youtu.be/GwyldSNlefk) (Awesome, canonical; Tom Ager... WATCH THE FOLLOWUPS ON ICEYE SITE!)
 - [Video: GEOINT 2023, a SAR Discussion with Tom Ager](https://youtu.be/4IEp1L7re1A) (Good details)
 - Video: [Max Lenormand: How Radar Satellites See Through Clouds](https://youtu.be/zMsCyEAOrh0) (Incredible)
+- Video: [Minds behind Maps: Breaking down Radar Satellite Images: Tom Ager](https://youtu.be/qEtg9VTfNj4)
 
-A [[Remote Sensing]] technique that uses radar signals instead of visible light to image the Earth's surface.
+==A [[Remote Sensing]] technique that uses radar signals (microwave bands) instead of visible light to image the Earth's surface.==
+- ==Can see at night, can see through clouds.==
+	- ==Approximately 67% to 70% of Earth's surface is covered by clouds at any given time==
 - The heritage of SAR is that it was usually used for intelligence, or very large civil programs (e.g. NASA, CSA, ESA).
 - Just over a decade ago, a few very capable SAR satellites [[TerraSAR-X]], [[RADARSAT|RADARSAT-2]], [[COSMO-SkyMed]]. These are public/private partnerships and massive satellites, over 1,000kg. 
 	- [[ICEYE]] revolution is that they have a small SAR satellite constellation funded primarily by VC, with mass of about 100kg and much cheaper, so there can be more.
@@ -299,6 +302,18 @@ We know that SAR penetrates clouds and darkness.
 - Resolution for SAR is independent of distance!
 - Multiple imaging modes; Spot, Strip, Scan modes... soon, it will be at its ***practical maximum resolution***, but less than a a meter in both directions.
 	- ((Wonder what he means by practical maximum resolution))
+
+
+___________________
+
+Video: [Minds behind Maps: Breaking down Radar Satellite Images: Tom Ager](https://youtu.be/qEtg9VTfNj4)
+
+- 60-70% of the Earth is covered by clouds; SAR is very important.
+- 
+
+
+
+
 
 
 

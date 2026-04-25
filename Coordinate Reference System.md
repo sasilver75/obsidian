@@ -30,3 +30,12 @@ The most common coordinate system shown above is [[WGS84]].
 ![[Pasted image 20260411132018.png]]
 
 
+
+
+GPT Image 2
+![[Pasted image 20260424234756.png]]
+Above:
+- Geodetic vs Geocentric:
+	- ==Geocentric coordinates==: Origin is the center of the earth, and position expressed as ==(X,Y,Z)== in a cartesian system. Useful for satellite math and physics, the Earth is just a mass at the origin.
+	- ==Geodetic coordinates==: The origin is the surface of the ellipsoid, effectively; the position is expressed as ==(latitude, longitude, height)==. This is what GPS gives you, and what humans use for "where on Earth." Note that geodetic latitude IS NOT geocentric latitude; because the Earth is an oblate spheroid (flattened at hte poles), and the surface normal at a point doesn't always point towards the Earth's center, it tilts slight outward to the equator. This matters for precision work!
+		- [[WGS84]] (what GPS uses) uses geodetic coordinates: [[EPSG Code|EPSG]]:4236.

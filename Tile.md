@@ -44,3 +44,9 @@ No pre-generation step: Tiles are computed on demand from live data. For a proje
 [[TiTiler]] is another common alternative.
 
 
+GPT Image 2:
+![[Pasted image 20260424222929.png]]
+
+
+And [[Tile Pyramid]]s:
+

@@ -1,12 +1,180 @@
 {
   "recentFiles": [
     {
-      "basename": "Element84 Earth Search",
-      "path": "Element84 Earth Search.md"
+      "basename": "Apache Parquet",
+      "path": "Apache Parquet.md"
+    },
+    {
+      "basename": "DuckDB",
+      "path": "DuckDB.md"
+    },
+    {
+      "basename": "MapLibre GL JS",
+      "path": "MapLibre GL JS.md"
+    },
+    {
+      "basename": "MapLibre",
+      "path": "MapLibre.md"
+    },
+    {
+      "basename": "Vector Tile",
+      "path": "Vector Tile.md"
+    },
+    {
+      "basename": "Geopandas",
+      "path": "Geopandas.md"
+    },
+    {
+      "basename": "Projection",
+      "path": "Projection.md"
+    },
+    {
+      "basename": "PyProj",
+      "path": "PyProj.md"
+    },
+    {
+      "basename": "Fiona",
+      "path": "Fiona.md"
+    },
+    {
+      "basename": "Pyogrio",
+      "path": "Pyogrio.md"
+    },
+    {
+      "basename": "Zarr",
+      "path": "Zarr.md"
+    },
+    {
+      "basename": "STAC-GeoParquet",
+      "path": "STAC-GeoParquet.md"
+    },
+    {
+      "basename": "Napari",
+      "path": "Napari.md"
+    },
+    {
+      "basename": "Cloud-Optimized GeoTIFF",
+      "path": "Cloud-Optimized GeoTIFF.md"
+    },
+    {
+      "basename": "GeoTIFF",
+      "path": "GeoTIFF.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "stac-fastapi",
+      "path": "stac-fastapi.md"
+    },
+    {
+      "basename": "GeoJSON",
+      "path": "GeoJSON.md"
+    },
+    {
+      "basename": "Dynamic One for All Model",
+      "path": "Dynamic One for All Model.md"
+    },
+    {
+      "basename": "Coordinate Reference System",
+      "path": "Coordinate Reference System.md"
+    },
+    {
+      "basename": "TorchGeo",
+      "path": "TorchGeo.md"
+    },
+    {
+      "basename": "rioxarray",
+      "path": "rioxarray.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "Earth Genome",
+      "path": "Earth Genome.md"
+    },
+    {
+      "basename": "Affine Transformation",
+      "path": "Affine Transformation.md"
+    },
+    {
+      "basename": "SedonaDB",
+      "path": "SedonaDB.md"
+    },
+    {
+      "basename": "Zustand",
+      "path": "Zustand.md"
+    },
+    {
+      "basename": "EPSG Code",
+      "path": "EPSG Code.md"
+    },
+    {
+      "basename": "GeoPackage",
+      "path": "GeoPackage.md"
+    },
+    {
+      "basename": "Raster",
+      "path": "Raster.md"
+    },
+    {
+      "basename": "Shapefile",
+      "path": "Shapefile.md"
+    },
+    {
+      "basename": "What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}",
+      "path": "Articles/What is Information Theory? What does Entropy Measure? Mutual Information? (Mar 2016) {Charles Frye Blog}.md"
+    },
+    {
+      "basename": "Tile Pyramid",
+      "path": "Tile Pyramid.md"
+    },
+    {
+      "basename": "Tile",
+      "path": "Tile.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "Photogrammetry",
+      "path": "Photogrammetry.md"
+    },
+    {
+      "basename": "Electromagnetic Spectrum",
+      "path": "Electromagnetic Spectrum.md"
+    },
+    {
+      "basename": "Geospatial Data Sources",
+      "path": "Geospatial Data Sources.md"
     },
     {
       "basename": "Earth on AWS",
       "path": "Earth on AWS.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Shuttle Radar Topography Mission",
+      "path": "Shuttle Radar Topography Mission.md"
+    },
+    {
+      "basename": "Orthoimage",
+      "path": "Orthoimage.md"
+    },
+    {
+      "basename": "Geodesy",
+      "path": "Geodesy.md"
+    },
+    {
+      "basename": "Element84 Earth Search",
+      "path": "Element84 Earth Search.md"
     },
     {
       "basename": "Registry of Open Data on AWS",
@@ -15,10 +183,6 @@
     {
       "basename": "Nucleus4D",
       "path": "Nucleus4D.md"
-    },
-    {
-      "basename": "Geospatial Data Sources",
-      "path": "Geospatial Data Sources.md"
     },
     {
       "basename": "Optical",
@@ -35,170 +199,6 @@
     {
       "basename": "Acquisition",
       "path": "Acquisition.md"
-    },
-    {
-      "basename": "deck.gl",
-      "path": "deck.gl.md"
-    },
-    {
-      "basename": "Microsoft Planetary Computer",
-      "path": "Microsoft Planetary Computer.md"
-    },
-    {
-      "basename": "SpaceNet",
-      "path": "SpaceNet.md"
-    },
-    {
-      "basename": "GEOS",
-      "path": "GEOS.md"
-    },
-    {
-      "basename": "Electromagnetic Spectrum",
-      "path": "Electromagnetic Spectrum.md"
-    },
-    {
-      "basename": "Maxar",
-      "path": "Maxar.md"
-    },
-    {
-      "basename": "3D Gaussian Splatting",
-      "path": "3D Gaussian Splatting.md"
-    },
-    {
-      "basename": "Scaniverse",
-      "path": "Scaniverse.md"
-    },
-    {
-      "basename": "Prithvi",
-      "path": "Prithvi.md"
-    },
-    {
-      "basename": "TCPED",
-      "path": "TCPED.md"
-    },
-    {
-      "basename": "Teleport",
-      "path": "Teleport.md"
-    },
-    {
-      "basename": "Rational Polynomial Coefficient",
-      "path": "Rational Polynomial Coefficient.md"
-    },
-    {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Overture Maps Foundation",
-      "path": "Overture Maps Foundation.md"
-    },
-    {
-      "basename": "Niantic Spatial",
-      "path": "Niantic Spatial.md"
-    },
-    {
-      "basename": "GEO-Bench",
-      "path": "GEO-Bench.md"
-    },
-    {
-      "basename": "Geospatial Intelligence",
-      "path": "Geospatial Intelligence.md"
-    },
-    {
-      "basename": "Software as a Service",
-      "path": "Software as a Service.md"
-    },
-    {
-      "basename": "Infrastructure as a Service",
-      "path": "Infrastructure as a Service.md"
-    },
-    {
-      "basename": "On-Premise",
-      "path": "On-Premise.md"
-    },
-    {
-      "basename": "Network Time Protocol",
-      "path": "Network Time Protocol.md"
-    },
-    {
-      "basename": "OGC API Features",
-      "path": "OGC API Features.md"
-    },
-    {
-      "basename": "Coupled Non-Negative Matrix Factorization",
-      "path": "Coupled Non-Negative Matrix Factorization.md"
-    },
-    {
-      "basename": "GOES-R",
-      "path": "GOES-R.md"
-    },
-    {
-      "basename": "Cloud-Optimized GeoTIFF",
-      "path": "Cloud-Optimized GeoTIFF.md"
-    },
-    {
-      "basename": "GeoParquet",
-      "path": "GeoParquet.md"
-    },
-    {
-      "basename": "Open Source Geospatial Foundation",
-      "path": "Open Source Geospatial Foundation.md"
-    },
-    {
-      "basename": "PRESTO",
-      "path": "PRESTO.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
-    },
-    {
-      "basename": "Spectral-Temporal Barlow Twins",
-      "path": "Spectral-Temporal Barlow Twins.md"
-    },
-    {
-      "basename": "Spectral Matching",
-      "path": "Spectral Matching.md"
-    },
-    {
-      "basename": "Satellite Image Preprocessing",
-      "path": "Satellite Image Preprocessing.md"
-    },
-    {
-      "basename": "Spectral Index",
-      "path": "Spectral Index.md"
-    },
-    {
-      "basename": "Landsat",
-      "path": "Landsat.md"
-    },
-    {
-      "basename": "Decart",
-      "path": "Decart.md"
-    },
-    {
-      "basename": "IBM",
-      "path": "IBM.md"
-    },
-    {
-      "basename": "4d Gaussian Splatting",
-      "path": "4d Gaussian Splatting.md"
-    },
-    {
-      "basename": "Visual Positioning System",
-      "path": "Visual Positioning System.md"
-    },
-    {
-      "basename": "Continuous Change Detection and Classification",
-      "path": "Continuous Change Detection and Classification.md"
-    },
-    {
-      "basename": "Multi-task Observation using Satellite Imagery & Kitchen Sinks",
-      "path": "Multi-task Observation using Satellite Imagery & Kitchen Sinks.md"
     }
   ],
   "omittedPaths": [],

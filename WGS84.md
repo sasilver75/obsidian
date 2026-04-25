@@ -13,5 +13,9 @@ Note: The World Geodetic System is the standard used for cartography, geodesy (m
 - A geodetic datum/geodetic system/geodetic reference datum/terrestrial reference frame, which is a reference frame for unambiguously representing the positoin of locations on Earth by means of either geodetic coordinates or geocentric coordinates.
 - Also describes the associated Earth Gravitational Model (EGM) and World Magentic Model (WMM).
 
-The WGS standard is maintained by the US National Geospatial Intelligence Agency (NGA).
+The WGS standard is maintained by the US [[National Geospatial-Intelligence Agency]] (NGA).
+
+
+GPT-2 Explainer:
+![[Pasted image 20260424222628.png]]
 

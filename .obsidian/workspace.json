@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electromagnetic Spectrum.md",
+                "file": "Projection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Electromagnetic Spectrum"
+              "title": "Projection"
             }
           },
           {
-            "id": "f9b334d7e742ce2f",
+            "id": "8a480abfd50a8871",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geospatial Data Sources.md",
+                "file": "Apache Parquet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geospatial Data Sources"
+              "title": "Apache Parquet"
             }
           },
           {
-            "id": "4dbfb5fada07c0a5",
+            "id": "802b1362860be574",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Earth on AWS.md",
+                "file": "MapLibre GL JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Earth on AWS"
+              "title": "MapLibre GL JS"
             }
           },
           {
-            "id": "89254676e795f8c3",
+            "id": "45202bdad53ae7b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Element84 Earth Search.md",
+                "file": "PyProj.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Element84 Earth Search"
+              "title": "PyProj"
+            }
+          },
+          {
+            "id": "f92ae2fb3031f850",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fiona.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fiona"
+            }
+          },
+          {
+            "id": "8ca34db39b797037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pyogrio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Pyogrio"
+            }
+          },
+          {
+            "id": "c8978ab898e7885e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SpatioTemporal Asset Catalog.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SpatioTemporal Asset Catalog"
+            }
+          },
+          {
+            "id": "b309f3a18dbb9044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stac-fastapi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "stac-fastapi"
+            }
+          },
+          {
+            "id": "3f229d68ee5d5600",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud-Optimized GeoTIFF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cloud-Optimized GeoTIFF"
+            }
+          },
+          {
+            "id": "fc0aad6d643353e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GeoJSON.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GeoJSON"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1664,44 +1808,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "89254676e795f8c3",
+  "active": "8a480abfd50a8871",
   "lastOpenFiles": [
-    "Earth on AWS.md",
-    "Registry of Open Data on AWS.md",
-    "Nucleus4D.md",
-    "Element84 Earth Search.md",
-    "Geospatial Data Sources.md",
-    "Optical.md",
-    "TESSERA.md",
-    "_attachments/Pasted image 20260424183540.png",
-    "_attachments/Pasted image 20260424183510.png",
-    "_attachments/Pasted image 20260424183500.png",
-    "Google Earth Engine.md",
-    "_attachments/Pasted image 20260424174511.png",
-    "_attachments/Pasted image 20260424174418.png",
-    "Acquisition.md",
-    "deck.gl.md",
-    "_attachments/Pasted image 20260424173834.png",
-    "Microsoft Planetary Computer.md",
-    "_attachments/Pasted image 20260424172801.png",
-    "SpaceNet.md",
-    "GEOS.md",
-    "Electromagnetic Spectrum.md",
-    "_attachments/Pasted image 20260424172405.png",
-    "Maxar.md",
-    "3D Gaussian Splatting.md",
-    "Scaniverse.md",
-    "Prithvi.md",
-    "TCPED.md",
-    "Teleport.md",
-    "Rational Polynomial Coefficient.md",
-    "Model Context Protocol.md",
-    "Synthetic Aperture Radar.md",
-    "Overture Maps Foundation.md",
-    "Niantic Spatial.md",
-    "GEO-Bench.md",
-    "_attachments/Pasted image 20260424163321.png",
-    "_attachments/Pasted image 20260424154703.png",
+    "_attachments/Pasted image 20260425101320.png",
+    "DuckDB.md",
+    "_attachments/Pasted image 20260425025416.png",
+    "MapLibre GL JS.md",
+    "MapLibre.md",
+    "Vector Tile.md",
+    "_attachments/Pasted image 20260425021050.png",
+    "Geopandas.md",
+    "_attachments/Pasted image 20260425014934.png",
+    "Projection.md",
+    "PyProj.md",
+    "Fiona.md",
+    "Pyogrio.md",
+    "Zarr.md",
+    "_attachments/Pasted image 20260425012514.png",
+    "_attachments/Pasted image 20260425012412.png",
+    "STAC-GeoParquet.md",
+    "Napari.md",
+    "_attachments/Pasted image 20260425010412.png",
+    "_attachments/Pasted image 20260425010344.png",
+    "Cloud-Optimized GeoTIFF.md",
+    "GeoTIFF.md",
+    "SpatioTemporal Asset Catalog.md",
+    "_attachments/Pasted image 20260425003135.png",
+    "_attachments/Pasted image 20260425002528.png",
+    "_attachments/Pasted image 20260425002420.png",
+    "stac-fastapi.md",
+    "GeoJSON.md",
+    "Dynamic One for All Model.md",
+    "sta.md",
+    "Coordinate Reference System.md",
+    "TorchGeo.md",
+    "rioxarray.md",
+    "R-Tree.md",
+    "Earth Genome.md",
+    "Affine Transformation.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

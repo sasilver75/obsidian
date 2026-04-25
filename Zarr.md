@@ -2,8 +2,6 @@
 aliases:
   - GeoZarr
 ---
-
-
 References:
 - [Cloud-Optimized Geospatial Formats Guide: Zarr](https://guide.cloudnativegeo.org/overview.html#/what-is-zarr)
 
@@ -78,6 +76,13 @@ Zarr is almost always used with the [[Xarray]] library, which is a Python librar
 
 ![[Pasted image 20260419015658.png]]
 
+
+
+
+![[Pasted image 20260425012412.png]]
+
+
+![[Pasted image 20260425012514.png]]
 
 
 

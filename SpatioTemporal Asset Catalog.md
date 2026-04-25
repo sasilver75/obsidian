@@ -164,3 +164,96 @@ Challenges in STAC
 
 ![[Pasted image 20260420122213.png]]
 Community meetings on Mondays @ 11a every two weeks.
+
+
+
+_______________________
+
+Video: [Cloud Native Geospatial Metadata with Stac Geoparquet - Pete Gadomski](https://www.youtube.com/watch?v=A7wxNAMQPxQ)  (February, 2026) (Pete Gadomski works at [[Development Seed]] as a geospatial engineer)
+
+
+![[Pasted image 20260425001043.png]]
+STAC history
+- See that it was just accepted as an [[Open Geospatial Consortium|OGC]] community standard.
+
+
+STAC is metadata, not data. It is the map to your data, and your map and data don't have to live in the same place.
+![[Pasted image 20260425001152.png]]
+
+
+So we have a common vocab:
+- ==**Catalog**==: File folder
+- ==**Collection**==: File folder with soem additoinal information (tempora, spatial)
+- ==**Item**==: A core thing. It's a GeoJSON with one or more assets associated with it
+	- ==**Assets**== are commonly [[Cloud-Optimized GeoTIFF|COG]] but could be a [[Zarr]] store, anything.
+
+![[Pasted image 20260425001329.png]]
+
+There's also an API specification that describes how you might search and discover things through an HTTP API
+- Every STAC API is an [[OGC API Features]] as well.
+
+
+
+Comparing and dcontrasting two main modes of STAC as it was designed:
+![[Pasted image 20260425001352.png]]
+- One the left are JSON assets that you'd put in blob storage
+- Static access pattern: No servers other than blob storage; the simplest possible way of storing a bunch of metadata somewhere. 
+- The search and discovery and the more powerful part of STAC is provided by APIs. To do that search and discovery, to find things in space and time and filter on attributes, you need some sort of database or document store on the server.
+	- Note that it also uses blob storage; they both do!
+- You'll see these two defined as ==static catalogues== and ==dynamic catalogues==,
+
+
+![[Pasted image 20260425001500.png]]
+Typical access patterns:
+- ==Search== pattern: I need a thing, or two things, or all the things! I need everything in a bounding box with some filters on it.
+- ==Full scan==, bulk access pattern: I need kind of everything, or half of the things, or a lot of it. Just trying to get a bunch of stuff.
+- (Switching from I'm using to I'm providing): I need to add some stuff to a datastore!
+	- A lot of stuff has new data coming into it; the ==ingest== pattern is on the left.
+- ==Near-Real-Time==: I need to know when a new thing shows up! A lot of tooling in the open ecosystem around STAC doesn't support this out of the box, and people build custom solutions that DO support that.
+
+
+![[Pasted image 20260425001749.png]]
+For ==Search==
+- This is what APIs and databases were designed for! APIs are really good for searches! when you have a million JSON blobs on object storage, that's a bad access pattern for searching, because you have to read every single thing and see if it's there.
+- This is where Static falls down
+
+
+![[Pasted image 20260425001759.png]]
+For Full Scan:
+- If anyone's tried to page through a [[Model Predictive Control|MPC]] api and get al of the sentinel images for 2025, you'll get throttled or something bad will happen
+- In the static case, it might take a long time, but lots of reads are what object storage is kinda built for (ish)
+
+![[Pasted image 20260425001843.png]]
+- Static:  Easy! Just stick it in object storage and rewrite the one pointer to it.
+- API: There's a lot of different ways of putting new STAC stuff into a STAC database, and it changes all the time.. it hasn't been solved in a way that's simple and easy and people do it the same way every time.
+
+
+![[Pasted image 20260425002058.png]]
+API: Most STAC servers don't support this out the box typically. Typically you have to Poll for it.
+Static: Lots of the static things support it out of the box; notifications off of S3 inserts are a prettty common thing.
+
+
+![[Pasted image 20260425002145.png]]
+Summary
+
+
+`stac-geoparquet` specitifcation:
+![[Pasted image 20260425002303.png]]
+- He essentially tried to mimic what pandas does with its features
+- ==The spec pulls attributes up out of properties to the top level.==
+- Not a very complicated spec, a few other decisions about how to encode things... but enables some interesting use cases!
+
+The first and most interesting being:
+![[Pasted image 20260425002339.png]]
+Providing essentially a snapshot of the database in a STAC-GeoParquet format... this exists on the [[Model Predictive Control|MPC]]... if you want all the things from a certain collection, you can just download this file instead of paging through the API.
+
+
+![[Pasted image 20260425002420.png]]
+Data is useful at rest! 
+- In the sam way that a [[Cloud-Optimized GeoTIFF|COG]] has [[Overview]]s in it, layers that let you visualize at different resolutions.
+- The organization of a STAC-Geoparquet file lets you visualize it relatively easily by hitting just one file.
+
+
+A subtle but important point:
+![[Pasted image 20260425002528.png]]
+not geospatial specific; the tools that work on [[GeoParquet]] works on [[STAC-GeoParquet]] too!

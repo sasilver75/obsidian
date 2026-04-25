@@ -4,6 +4,7 @@ aliases:
   - Orthophotomosaic
   - Orthorectification
   - Orthorectify
+  - Orthomosaic
 ---
 An aerial photograph or satellite image that's been ==geometrically corrected== ("orthorectified") to remove distortion from camera tilt and terrain relief.
 - Corrected-for distortions are caused by **[[Nadir|Off-Nadir]] viewing angles** and **varying terrain elevations** (using a [[Digital Elevation Model|DEM]]).

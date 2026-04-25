@@ -32,3 +32,5 @@ This is the lingua franca of [[Geographic Information Systems|GIS]]!
 ```
 - Above: See that this GeoJSON object has a type and features, where each feature here has a type, geometry, and properties.
 
+![[Pasted image 20260424231757.png]]
+

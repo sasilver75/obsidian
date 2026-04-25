@@ -72,5 +72,8 @@ DuckDB + Python
 
 
 
+![[Pasted image 20260425025416.png|1959]]
 
+Above: 
+- Number 8: The performance comparison re: Postgres is largely for analytical queries
 

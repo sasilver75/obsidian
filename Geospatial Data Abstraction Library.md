@@ -22,7 +22,7 @@ GDAL is the ==universal translator of geospatial data!==
 
 Almost every geospatial tool uses GDAL:
 - [[rasterio]] is a Python wrapper around GDAL raster
-- [[Fiona]] and [[pyogrio]] are wrappers around OGR (Vector)
+- [[Fiona]] and [[Pyogrio]] are wrappers around OGR (Vector)
 - [[QGIS]], [[PostGIS]], MapServer, all use GDAL under the hood.
 
 # Command line tools:
