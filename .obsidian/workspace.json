@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GeoJSON.md",
+                "file": "Apache Sedona.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,11 +244,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GeoJSON"
+              "title": "Apache Sedona"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1808,8 +1808,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8a480abfd50a8871",
+  "active": "fc0aad6d643353e2",
   "lastOpenFiles": [
+    "GeoParquet.md",
+    "_attachments/Pasted image 20260425102801.png",
+    "Apache Parquet.md",
+    "GeoJSON.md",
     "_attachments/Pasted image 20260425101320.png",
     "DuckDB.md",
     "_attachments/Pasted image 20260425025416.png",
@@ -1834,10 +1838,7 @@
     "GeoTIFF.md",
     "SpatioTemporal Asset Catalog.md",
     "_attachments/Pasted image 20260425003135.png",
-    "_attachments/Pasted image 20260425002528.png",
-    "_attachments/Pasted image 20260425002420.png",
     "stac-fastapi.md",
-    "GeoJSON.md",
     "Dynamic One for All Model.md",
     "sta.md",
     "Coordinate Reference System.md",
@@ -1845,7 +1846,6 @@
     "rioxarray.md",
     "R-Tree.md",
     "Earth Genome.md",
-    "Affine Transformation.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

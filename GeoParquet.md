@@ -49,3 +49,6 @@ Above:
 ![[Pasted image 20260419015943.png]]
 Source: https://guide.cloudnativegeo.org/overview.html#/geoparquet 
 
+
+
+![[Pasted image 20260425102801.png|1367]]

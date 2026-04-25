@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Apache Sedona",
+      "path": "Apache Sedona.md"
+    },
+    {
+      "basename": "GeoParquet",
+      "path": "GeoParquet.md"
+    },
+    {
       "basename": "Apache Parquet",
       "path": "Apache Parquet.md"
+    },
+    {
+      "basename": "GeoJSON",
+      "path": "GeoJSON.md"
     },
     {
       "basename": "DuckDB",
@@ -67,10 +79,6 @@
     {
       "basename": "stac-fastapi",
       "path": "stac-fastapi.md"
-    },
-    {
-      "basename": "GeoJSON",
-      "path": "GeoJSON.md"
     },
     {
       "basename": "Dynamic One for All Model",
@@ -191,14 +199,6 @@
     {
       "basename": "TESSERA",
       "path": "TESSERA.md"
-    },
-    {
-      "basename": "Google Earth Engine",
-      "path": "Google Earth Engine.md"
-    },
-    {
-      "basename": "Acquisition",
-      "path": "Acquisition.md"
     }
   ],
   "omittedPaths": [],
