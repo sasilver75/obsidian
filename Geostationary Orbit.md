@@ -5,6 +5,7 @@ aliases:
 ---
 Altitude: Exactly 35,786km
 Period: 24 hours, matching Earth's rotation
+An [[Equatorial Orbit]].
 
 From the ground, a ==GEO satellite appears stationary==. This ==enables persistent staring== at a fixed region, though the there are tradeoffs:
 - High altitude means ==lower resolution==
@@ -25,4 +26,9 @@ This allows uninterrupted coverage of more than 1/3 of the Earth per satellite, 
 	- While both [[Geosynchronous Orbit]]s and [[Geostationary Orbit]]s are at 35,786km above the Earth, geosynchronous platforms have orbits that can be tilted above or below the equator, while geostationary platforms orbit Earth on *the same plane as the equator*.
 
 
+![[Pasted image 20260425194910.png]]
+
+
 ![[Pasted image 20260415124100.png]]
+
+

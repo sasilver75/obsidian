@@ -51,3 +51,14 @@ Above: GPT-Image 2: "Explain to me how modern photogrammetry works"
 
 ![[Pasted image 20260424220915.png]]
 Above: GPT-2 image, explain those steps in more detail
+
+
+
+![[Pasted image 20260425194007.png]]
+
+![[Pasted image 20260425194013.png]]
+
+
+
+
+

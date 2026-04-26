@@ -57,3 +57,6 @@ Correction per band looks *something like:*
   atmospheric_transmittance_up)
 ```
 
+
+![[Pasted image 20260425141925.png]]
+

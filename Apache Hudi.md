@@ -49,6 +49,8 @@ Hudi's most distinctive feature — two fundamentally different storage layouts 
 In practice, Hudi is most common at companies with large-scale streaming data pipelines — ride-sharing, e-commerce, ad-tech — where the upsert performance and incremental pull capabilities justify the operational complexity. For most analytics-first data teams, Iceberg or Delta is simpler and sufficient.
 
 
+![[Pasted image 20260425135111.png]]
+
 
 
 

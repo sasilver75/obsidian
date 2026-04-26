@@ -33,6 +33,8 @@ Resources:
 - Just over a decade ago, a few very capable SAR satellites [[TerraSAR-X]], [[RADARSAT|RADARSAT-2]], [[COSMO-SkyMed]]. These are public/private partnerships and massive satellites, over 1,000kg. 
 	- [[ICEYE]] revolution is that they have a small SAR satellite constellation funded primarily by VC, with mass of about 100kg and much cheaper, so there can be more.
 
+![[Pasted image 20260425183333.png|1963]]
+
 "Aperture", like in photography, is the size of our lens. It's the thing that captures signal. In our case, it's our (small) antenna, which we're synthetically lengthening by taking multiple observations along the arc of our orbit.
 - Like how long exposure photography reveals more stars, the more we look with our radar, the more resolution/details we can see.
 - So our resolution is completely separated from how far our satellite is from the ground!

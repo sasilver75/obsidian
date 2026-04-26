@@ -19,6 +19,8 @@ The ==tradeoffs==:
 
 Examples: [[Sentinel]], [[Landsat]], [[Planet Labs]], [[Maxar]], Starlink/Oneweb broadband
 
+![[Pasted image 20260425191422.png]]
+
 
 Radio signals take much less time to reach LEO than [[Medium Earth Orbit|MEO]]/[[Geostationary Orbit|GEO]], making LEO communications satellites well-suited for delivering higher-quality internet service.
 

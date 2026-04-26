@@ -15,3 +15,8 @@ aliases:
 > 	- Antenna footprint shaping: Some communication satellites use a slight inclination deliberately so that their coverage footprint slowly shifts north and south throughout the day, spreading wear on transponders.
 > 	- Graveyard/transition orbit: Satellites drifting toward or away from a geostationary slot pass through inclined geosynchronous orbits. End-of-life satellites that weren't fully boosted to the graveyard ring can end up in slowly-inclining geosynchronous orbits as residual forces act on them over years.
 > 	- Honest answer: ==Truly intentional geosynchronous orbits are rare. Geostationary is almost always what operators want.==
+
+
+![[Pasted image 20260425195159.png]]
+
+

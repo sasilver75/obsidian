@@ -19,3 +19,6 @@ Different standards use different conventions, and they contradict eachother:
 
 
   ==You rarely think about winding order explicitly when using high-level tools — Shapely, GeoPandas, PostGIS all handle it internally. It surfaces when writing custom code.==
+
+
+![[Pasted image 20260425200100.png]]

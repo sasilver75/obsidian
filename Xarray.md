@@ -29,3 +29,5 @@ ds = xr.Dataset({
 }) 
 ```
 
+
+![[Pasted image 20260425195824.png]]

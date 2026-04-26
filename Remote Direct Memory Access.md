@@ -15,4 +15,5 @@ RDMA is implemented over different fabrics:
 
 Commonly used in high-performance computing clusters (HPC), data centers, and AI systems.
 
+![[Pasted image 20260425193244.png]]
 

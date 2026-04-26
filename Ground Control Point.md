@@ -35,7 +35,7 @@ GCPs let us correct this.
 
 - GCPs are especially critical in ==Drone photogrammetry==, since Drone GPS is typically consumer-grade (1-3m accuracy). Without GCPs, a photogrammetric model might be geometrically internally inconsistent.
 	-  Typically you have 5-10 GCPs distributed across the survey area
-- ==Satellite Imagery== comes with ***[[Rational Polynomial Coefficients]] (RPCs)***, a mathematical model describing the sensor geometry; the imagery is already *approximately georeferenced* from satellite GPS + start trackers (3-10m absolute accuracy). ***GCPs are used to refine the RPC model***, in a process called **==RPC refinement==*** or **==block adjustment==***.
+- ==Satellite Imagery== comes with ***[[Rational Polynomial Coefficient]]s (RPCs)***, a mathematical model describing the sensor geometry; the imagery is already *approximately georeferenced* from satellite GPS + start trackers (3-10m absolute accuracy). ***GCPs are used to refine the RPC model***, in a process called **==RPC refinement==*** or **==block adjustment==***.
 - Aerial Survey: Traditional airborne photogrammetry has used GCPs. Modern aircraft with PPK (Post-Processed Kinematics) or RTK GPS can achieve direct georeferencing accuracy of 5-10cm without GCPs, but they're still used for quality control.
 	- [[Real-Time Kinematic GPS]] (RTK GPS): A GPS technique using a base station at a known location broadcasting corrections to a rover receiver in real time, achieving 1-2cm horizontal accuracy. Used to survey GPS locations in the field.
 	- [[Post-Processed Kinematic]] (PPK): Similar to RTK but corrections are applied after the fact in post-processing, rather than in real time. More flexible (no need for radio link between base and rover) and often more accurate.

@@ -11,3 +11,4 @@ Transmits/receives multiple polarizations (HH, VV, HV) → reveals surface mater
 
 
 
+![[Pasted image 20260425191054.png]]

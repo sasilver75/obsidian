@@ -20,7 +20,7 @@ Use cases:
 Satellite deployments avoid the [[Van Allen Radiation Belt]]s, which peak around 1,000-6,000 km and again at around 15,000-20,000 km.
 
 
-
+![[Pasted image 20260425194938.png]]
 
 
 

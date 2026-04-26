@@ -13,4 +13,5 @@ Used for Earth-mapping, reconnaissance satellites, as well as for some weather s
 
 ==Fun fact:== Launching satellites into polar orbit requires a larger launch vehicle than for a satellite targeting a near-equatorial orbit at the same altitude, because it can't take advantage of the Earth's rotational velocity.
 
+![[Pasted image 20260425192350.png]]
 

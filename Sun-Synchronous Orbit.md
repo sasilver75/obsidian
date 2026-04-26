@@ -13,6 +13,12 @@ An LEO subtype, but important enough to understand separately. The orbital plane
 
 Almost all *optical* Earth-observation satellites ([[Sentinel|Sentinel-2]], [[Landsat]], [[SPOT]], [[PlanetScope]]). ==It's the default orbit for remote sensing.==
 
+
+
+![[Pasted image 20260425191320.png]]
+![[Pasted image 20260425191846.png]]
+
+
 ![[Pasted image 20260415123922.png]]
 Above: See that it'd be at the low end of LEO (the image is kind of bullshit)
 
