@@ -214,7 +214,7 @@ Flow:
 	2. In WebRTC, this STUN Server helps us both find an address we can use (so peer can connect to us) and also facilitate that holepunching.
 4. Then we can share that information between our peers so that they can connect to one another.
 5. Then our clients can connect with eachother and send information over that UDP connection to eachother.
-6. In the rare case where they aren't able to establish this P2P connection, they can use a TURN Server, which lets clients bounce requests to one another (this isn't a desirable outcome). 
+6. In the rare case where they aren't able to establish this P2P connection, they can use a TURN Server, which lets clients bounce requests to one another (this isn't a desirable outcome).  
 
 A lot of candidates use WebRTC unnecessarily; I would avoid it unless you're doing audio or video calling; in that case, it might be worth bringing it up.
 - In collaborative editors, you might use P2P connections to share updates to shared document.

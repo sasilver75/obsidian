@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "JSON Lines",
+      "path": "JSON Lines.md"
+    },
+    {
+      "basename": "Agent",
+      "path": "Agent.md"
+    },
+    {
+      "basename": "Beads",
+      "path": "Beads.md"
+    },
+    {
       "basename": "SDIAH Networking Essentials",
       "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Kafka Connect",
       "path": "Kafka Connect.md"
-    },
-    {
-      "basename": "dbt",
-      "path": "dbt.md"
-    },
-    {
-      "basename": "Random Sample Consensus",
-      "path": "Random Sample Consensus.md"
-    },
-    {
-      "basename": "Scale-Invariant Feature Transforms",
-      "path": "Scale-Invariant Feature Transforms.md"
     }
   ],
   "omittedPaths": [],

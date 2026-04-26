@@ -224,6 +224,78 @@
             }
           },
           {
+            "id": "1907cda36a65bdaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agent.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agent"
+            }
+          },
+          {
+            "id": "71858bacb68fa49c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSON Lines.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JSON Lines"
+            }
+          },
+          {
+            "id": "1204c3f1cd0d065e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Beads.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Beads"
+            }
+          },
+          {
             "id": "e12c0a47bb519c00",
             "type": "leaf",
             "state": {
@@ -776,7 +848,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -2336,13 +2408,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e12dee04e3c22c78",
+  "active": "71858bacb68fa49c",
   "lastOpenFiles": [
+    "JSON Lines.md",
+    "Agent.md",
+    "Beads.md",
+    "Courses/SystemDesign/SDIAH Networking Essentials.md",
     "WebRTC.md",
     "User Datagram Protocol.md",
     "Transport Control Protocol.md",
     "Connection Pool.md",
-    "Courses/SystemDesign/SDIAH Networking Essentials.md",
     "Dotted Version Vector.md",
     "OpenAI.md",
     "FAISS.md",
@@ -2364,12 +2439,9 @@
     "LAZ.md",
     "Potree.md",
     "Light Detection and Ranging.md",
-    "Conflict-Free Replicated Datatype.md",
     "_attachments/Pasted image 20260425235319.png",
-    "R-Tree.md",
     "_attachments/Pasted image 20260425235121.png",
     "_attachments/Pasted image 20260425235117.png",
-    "Land Use and Land Cover.md",
     "_attachments/Pasted image 20260425234821.png",
     "_attachments/Pasted image 20260425232145.png",
     "_attachments/Pasted image 20260425231240.png",
