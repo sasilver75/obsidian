@@ -42,6 +42,8 @@ Spatial Index + HTTP Range Requests
 	- Request 3: Range request for just those bytes -> get features
 - You never download features *outside* your area of interest; for a 10GB File covering the whole world, a query for a small city might transfer only a few KB.
 
+![[Pasted image 20260425202144.png|1840]]
+
 
 ![[Pasted image 20260419015921.png]]
 Source: https://guide.cloudnativegeo.org/overview.html#/flatgeobuf 

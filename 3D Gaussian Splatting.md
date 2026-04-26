@@ -37,3 +37,9 @@ The result is a differentiable renderer: You can optimize the Gaussian parameter
 
 ==3DGS works beautifully for bounded scenes (building, neighborhood), but doesn't yet scale to city or regional extent the way LiDAR point clouds or photogrammetric DEMs do. Active area of research.==
 
+![[Pasted image 20260425210438.png]]
+Above:
+- [[COLMAP]] is an open-source, general purpose [[Photogrammetry|Structure from Motion]] (SfM) and [[Photogrammetry|Multi-View Stereo]] (MVS) pipeline used to generate 3D reconstructions and camera poses from ordered or unordered image sets.
+	- Offers a GUI and command line interface for tasks like sparse/dense reconstruction, feature matching, and automatic reconstruction.
+
+

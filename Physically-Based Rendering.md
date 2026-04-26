@@ -14,3 +14,4 @@ sunglight, indoor lighting, overcast sky, etc. because it's ==described in terms
 - When you bring a building model into [[Cesium]] and the sun moves across the sky, PBR materials respond correctly to the changing illumination direction.
 
 
+![[Pasted image 20260425201750.png]]

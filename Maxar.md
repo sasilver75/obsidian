@@ -7,6 +7,7 @@ aliases:
 ---
 ReferenceS:
 - Video: [November 2025 Interview with Peter Wilczynski, CPO](https://www.youtube.com/watch?v=Uh9UoFcOsQ4)
+- Video: [January 2025 Interview with Peter Wilcyznski, CPO: "Reinventing Maxar, from EO to decision intelligence"](https://www.youtube.com/watch?v=sIG5sRdVfhM)
 
 
 Note: In 2023 Maxar rebranded Maxar Intelligence as  [[Maxar|Vantor]] and Maxar Space Systems as [[Maxar|Lanteris]]
@@ -307,6 +308,14 @@ Q: How will upcoming technologies, like Maxar's WorldView ==Legion== satellites,
 
 
 
+_______________
+
+Video: [January 2025 Interview with Peter Wilcyznski, CPO: "Reinventing Maxar, from EO to decision intelligence"](https://www.youtube.com/watch?v=sIG5sRdVfhM)
+
+
+- We take 30cm-class resolution data, which is exquisite, and produce it into sophisticated data products that act as a foundation for other lower resolution systems to plug into.
+	- High resolution systems let you get accuracy; when you have a lower resolution system, you tend to get lower accuracy.
+	- We call it [[Mosaic|Coregistration]]: How do you make sure that all the pictures actually line up with eachother from a number of different constellations.
 
 
 

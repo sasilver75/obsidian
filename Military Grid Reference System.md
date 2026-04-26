@@ -28,6 +28,7 @@ The hierarchy:
 ```
 
 
+![[Pasted image 20260425201959.png|1847]]
 
 
 

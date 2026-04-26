@@ -1,6 +1,6 @@
 A Google Serialization library.
 
-Comparison with Protocol Buffers:
+Comparison with [[Protobuf|Protocol Buffer]]:
 
   Protocol Buffers (Protobuf)
   - Schema-defined binary serialization
@@ -27,3 +27,6 @@ Comparison with Protocol Buffers:
    FlatGeobuf uses it — when doing a spatial query you're skipping most features
   entirely, so zero-copy access to just the fields you need (bbox, geometry bytes) is a
    significant win.
+
+
+![[Pasted image 20260425202855.png]]

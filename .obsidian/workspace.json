@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inertial Measurement Unit.md",
+                "file": "Maxar.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,151 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inertial Measurement Unit"
+              "title": "Maxar"
+            }
+          },
+          {
+            "id": "5b0cb8229ffc77c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mosaic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mosaic"
+            }
+          },
+          {
+            "id": "8afa77ab61851e6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Composite.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Composite"
+            }
+          },
+          {
+            "id": "6726ed5198c46222",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coregistration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Coregistration"
+            }
+          },
+          {
+            "id": "e333e39e229f2ae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scale-Invariant Feature Transforms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Scale-Invariant Feature Transforms"
+            }
+          },
+          {
+            "id": "536254be3b00f095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Difference of Gaussians.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Difference of Gaussians"
+            }
+          },
+          {
+            "id": "0657f21ff668bab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scale-Invariant Feature Transforms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Scale-Invariant Feature Transforms"
             }
           },
           {
@@ -344,7 +488,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -376,7 +520,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "graph",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1904,44 +2048,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "dc3b350b23282b5f",
+  "active": "e333e39e229f2ae2",
   "lastOpenFiles": [
-    "LAStools.md",
+    "Difference of Gaussians.md",
+    "Scale-Invariant Feature Transforms.md",
+    "COLMAP.md",
+    "3D Gaussian Splatting.md",
+    "FlatGeobuf.md",
+    "Coregistration.md",
+    "_attachments/Pasted image 20260425211409.png",
+    "Mosaic.md",
+    "_attachments/Pasted image 20260425211357.png",
+    "_attachments/Pasted image 20260425210438.png",
+    "4d Gaussian Splatting.md",
+    "Composite.md",
+    "_attachments/Pasted image 20260425210345.png",
+    "Maxar.md",
+    "FlatBuffers.md",
+    "_attachments/Pasted image 20260425202855.png",
+    "_attachments/Pasted image 20260425202144.png",
+    "Checkpoint.md",
+    "Ground Control Point.md",
+    "_attachments/Pasted image 20260425202054.png",
+    "_attachments/Pasted image 20260425202048.png",
+    "Military Grid Reference System.md",
+    "_attachments/Pasted image 20260425201959.png",
     "Physically-Based Rendering.md",
+    "_attachments/Pasted image 20260425201750.png",
+    "Inertial Measurement Unit.md",
+    "LAStools.md",
     "Post-Processed Kinematic.md",
-    "_attachments/Pasted image 20260425200522.png",
     "Rational Polynomial Coefficient.md",
     "Real-Time Kinematic GPS.md",
-    "_attachments/Pasted image 20260425200440.png",
-    "Ground Control Point.md",
     "Rational Polynomial Coefficients.md",
     "Inclined Orbit.md",
-    "_attachments/Pasted image 20260425200253.png",
     "Winding Order.md",
-    "_attachments/Pasted image 20260425200100.png",
     "Xarray.md",
-    "_attachments/Pasted image 20260425195824.png",
     "Pansharpening.md",
-    "_attachments/Pasted image 20260425195741.png",
     "Medium Earth Orbit.md",
-    "Geostationary Orbit.md",
-    "Geosynchronous Orbit.md",
-    "_attachments/Pasted image 20260425195159.png",
-    "_attachments/Pasted image 20260425194938.png",
-    "_attachments/Pasted image 20260425194910.png",
-    "Photogrammetry.md",
-    "_attachments/Pasted image 20260425194013.png",
-    "MapLibre GL JS.md",
-    "Equatorial Orbit.md",
-    "Polar Orbit.md",
-    "Apache Parquet.md",
-    "Remote Direct Memory Access.md",
-    "Low Earth Orbit.md",
-    "Sun-Synchronous Orbit.md",
-    "Differential Interferometric Synthetic Aperture Radar.md",
-    "Polarimetric SAR.md",
-    "InSAR.md",
-    "Synthetic Aperture Radar.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

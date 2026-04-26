@@ -29,8 +29,6 @@ GCPs let us correct this.
 - Road lane markings, painted parking lot lines
 - Building corners (if coordinates can be precisely measured)
 - Survey markets
-
-
 # Contexts
 
 - GCPs are especially critical in ==Drone photogrammetry==, since Drone GPS is typically consumer-grade (1-3m accuracy). Without GCPs, a photogrammetric model might be geometrically internally inconsistent.
@@ -49,3 +47,4 @@ GCPs at the edge and corners of your survey area are more valuable than GCPs clu
 	- ((Sort of just a held-out control point that isn't used to actually adjust the image, just as a sanity check))
 
 
+![[Pasted image 20260425202054.png|1944]]

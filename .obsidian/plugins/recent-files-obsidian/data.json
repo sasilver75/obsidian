@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "Scale-Invariant Feature Transforms",
+      "path": "Scale-Invariant Feature Transforms.md"
+    },
+    {
+      "basename": "Difference of Gaussians",
+      "path": "Difference of Gaussians.md"
+    },
+    {
+      "basename": "COLMAP",
+      "path": "COLMAP.md"
+    },
+    {
+      "basename": "3D Gaussian Splatting",
+      "path": "3D Gaussian Splatting.md"
+    },
+    {
+      "basename": "FlatGeobuf",
+      "path": "FlatGeobuf.md"
+    },
+    {
+      "basename": "Coregistration",
+      "path": "Coregistration.md"
+    },
+    {
+      "basename": "Mosaic",
+      "path": "Mosaic.md"
+    },
+    {
+      "basename": "4d Gaussian Splatting",
+      "path": "4d Gaussian Splatting.md"
+    },
+    {
+      "basename": "Composite",
+      "path": "Composite.md"
+    },
+    {
+      "basename": "Maxar",
+      "path": "Maxar.md"
+    },
+    {
+      "basename": "FlatBuffers",
+      "path": "FlatBuffers.md"
+    },
+    {
+      "basename": "Checkpoint",
+      "path": "Checkpoint.md"
+    },
+    {
+      "basename": "Ground Control Point",
+      "path": "Ground Control Point.md"
+    },
+    {
+      "basename": "Military Grid Reference System",
+      "path": "Military Grid Reference System.md"
+    },
+    {
+      "basename": "Physically-Based Rendering",
+      "path": "Physically-Based Rendering.md"
+    },
+    {
       "basename": "Inertial Measurement Unit",
       "path": "Inertial Measurement Unit.md"
     },
     {
       "basename": "LAStools",
       "path": "LAStools.md"
-    },
-    {
-      "basename": "Physically-Based Rendering",
-      "path": "Physically-Based Rendering.md"
     },
     {
       "basename": "Post-Processed Kinematic",
@@ -23,10 +79,6 @@
     {
       "basename": "Real-Time Kinematic GPS",
       "path": "Real-Time Kinematic GPS.md"
-    },
-    {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
     },
     {
       "basename": "Rational Polynomial Coefficients",
@@ -147,58 +199,6 @@
     {
       "basename": "Polars",
       "path": "Polars.md"
-    },
-    {
-      "basename": "Dask",
-      "path": "Dask.md"
-    },
-    {
-      "basename": "Intrinsic Dimension",
-      "path": "Intrinsic Dimension.md"
-    },
-    {
-      "basename": "Apache Arrow",
-      "path": "Apache Arrow.md"
-    },
-    {
-      "basename": "Shader",
-      "path": "Shader.md"
-    },
-    {
-      "basename": "GeoArrow",
-      "path": "GeoArrow.md"
-    },
-    {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
-      "basename": "AlphaEarth Foundations",
-      "path": "AlphaEarth Foundations.md"
-    },
-    {
-      "basename": "Google Earth Engine",
-      "path": "Google Earth Engine.md"
-    },
-    {
-      "basename": "Dymaxion Projection",
-      "path": "Dymaxion Projection.md"
-    },
-    {
-      "basename": "Mapbox Vector Tile",
-      "path": "Mapbox Vector Tile.md"
-    },
-    {
-      "basename": "MetaTiling",
-      "path": "MetaTiling.md"
-    },
-    {
-      "basename": "rasterio",
-      "path": "rasterio.md"
-    },
-    {
-      "basename": "rioxarray",
-      "path": "rioxarray.md"
     }
   ],
   "omittedPaths": [],
