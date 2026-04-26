@@ -1,4 +1,0 @@
----
-aliases:
-  - Transport Control Protocol
----

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "WebRTC",
+      "path": "WebRTC.md"
+    },
+    {
+      "basename": "User Datagram Protocol",
+      "path": "User Datagram Protocol.md"
+    },
+    {
+      "basename": "Transport Control Protocol",
+      "path": "Transport Control Protocol.md"
+    },
+    {
+      "basename": "Connection Pool",
+      "path": "Connection Pool.md"
+    },
+    {
+      "basename": "Dotted Version Vector",
+      "path": "Dotted Version Vector.md"
+    },
+    {
+      "basename": "OpenAI",
+      "path": "OpenAI.md"
+    },
+    {
       "basename": "FAISS",
       "path": "FAISS.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Scale-Invariant Feature Transforms",
       "path": "Scale-Invariant Feature Transforms.md"
-    },
-    {
-      "basename": "Difference of Gaussians",
-      "path": "Difference of Gaussians.md"
-    },
-    {
-      "basename": "COLMAP",
-      "path": "COLMAP.md"
-    },
-    {
-      "basename": "3D Gaussian Splatting",
-      "path": "3D Gaussian Splatting.md"
-    },
-    {
-      "basename": "FlatGeobuf",
-      "path": "FlatGeobuf.md"
-    },
-    {
-      "basename": "4d Gaussian Splatting",
-      "path": "4d Gaussian Splatting.md"
-    },
-    {
-      "basename": "FlatBuffers",
-      "path": "FlatBuffers.md"
-    },
-    {
-      "basename": "Checkpoint",
-      "path": "Checkpoint.md"
     }
   ],
   "omittedPaths": [],

@@ -26,7 +26,7 @@ At the very top of the stack is the [[Application Layer]], where Layer 7 protoco
 ![[Pasted image 20250519130233.png]]
 - Above:
 	- The client starts by resolving the domain name of the website to an IP address using [[DNS]] (DNS Resolution)
-	- [[TCP]] Handshake: The client initiates a TCP connection with the server using a three-way handshake:
+	- [[Transport Control Protocol|TCP]] Handshake: The client initiates a TCP connection with the server using a three-way handshake:
 		- client sends a SYN, server responds with SYN-ACK, client sends ACK and establishes a connection
 	- HTTP Requests
 	- Server Processing
@@ -38,7 +38,7 @@ At the very top of the stack is the [[Application Layer]], where Layer 7 protoco
 		- client acknowledges the server's FIN packet with an ACK.
 			- ((Does the server receive this, given that it's terminated its connection?... How does this work?))
 
-When the [[TCP]] connection is initially established, we do a TCP handshake (Syn, SynAck, Ack), then our TCP connection is established, and we can submit requests across that TCP connection/stream.
+When the [[Transport Control Protocol|TCP]] connection is initially established, we do a TCP handshake (Syn, SynAck, Ack), then our TCP connection is established, and we can submit requests across that TCP connection/stream.
 - See that hte layers are building on eachother.
 	- The HTTP layer depends on the TCP connection being established
 	- The TCP layer assumes that it can depend on using IP addresses to route packets through the network. 
@@ -77,7 +77,7 @@ Layer 4: [[Transport Layer]]
 - I also care about the **Ordering** of packets, as well as **Guaranteed Delivery!**
 
 - There are 3 Transport Level protocols in use:
-	- [[TCP]]: What you'll be relying on for most of your communications.
+	- [[Transport Control Protocol|TCP]]: What you'll be relying on for most of your communications.
 		- **Connection-Oriented ("Streams")**
 			- We establish a sequence, and give packets sequence numbers. As packets get out of order or get lost, the sender/recipient will know what happened, because we have the numbers to back it up.
 				- "Hey, I didn't get 2!", "Okay, I just got packets 3 and 5, I should probably wait for 4."
@@ -88,7 +88,7 @@ Layer 4: [[Transport Layer]]
 			- These guarantees have costs -- primarily in throughput and latency!
 			- If a packet is LOST in transmission, TCP needs to retransmit it! If your hosts are far apart, this retransmission can take a lot of time.
 		- **Flow Control, Congestion Control**
-	- [[UDP]]
+	- [[User Datagram Protocol|UDP]]
 		- **Connectionless**
 		- **No Delivery Guarantee**
 			- "Spray and pray"; as a sender, you send your data across the ocean and just... hope it makes it there. In most case it will, and in other cases it won't. This is really useful in some applications like video conferencing. If we were to drop a frame, we don't want to go back to the host and ask for it, because the conversation has moved on. We'll instead just drop the frame and try to smooth the audio on the recipient side. Great for real-time or lossy applications like multiplayer games, video streaming, etc.
@@ -202,7 +202,7 @@ You shouldn't design WebSockets with the idea of having a lot of request-respons
 
 ----
 
-The final protocol we'll talk about is [[WebRTC]], which runs over [[UDP]]
+The final protocol we'll talk about is [[WebRTC]], which runs over [[User Datagram Protocol|UDP]]
 - It's used in cases where you have **collaborative editors** or we have real-time **audio/visual connections** betwen clients. These are unique because it's a **Peer to Peer Connection!** It makes sense if you think about it being used for video conferencing or collaborative editors.
 
 Flow:

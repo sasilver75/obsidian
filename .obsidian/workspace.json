@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAISS.md",
+                "file": "Courses/SystemDesign/SDIAH Networking Essentials.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FAISS"
+              "title": "SDIAH Networking Essentials"
             }
           },
           {
@@ -2338,8 +2338,15 @@
   },
   "active": "e12dee04e3c22c78",
   "lastOpenFiles": [
-    "Voronoi Diagram.md",
+    "WebRTC.md",
+    "User Datagram Protocol.md",
+    "Transport Control Protocol.md",
+    "Connection Pool.md",
+    "Courses/SystemDesign/SDIAH Networking Essentials.md",
+    "Dotted Version Vector.md",
+    "OpenAI.md",
     "FAISS.md",
+    "Voronoi Diagram.md",
     "KD-Tree.md",
     "_attachments/Pasted image 20260426001734.png",
     "_attachments/Pasted image 20260426001114.png",
@@ -2364,16 +2371,9 @@
     "_attachments/Pasted image 20260425235117.png",
     "Land Use and Land Cover.md",
     "_attachments/Pasted image 20260425234821.png",
-    "Geostationary Orbit.md",
-    "International Telecommunications Union.md",
     "_attachments/Pasted image 20260425232145.png",
-    "Station Keeping.md",
-    "Cloud Masking.md",
     "_attachments/Pasted image 20260425231240.png",
-    "Composite.md",
-    "Perspective-n-Point.md",
     "_attachments/Pasted image 20260425230635.png",
-    "Polarimetric SAR.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

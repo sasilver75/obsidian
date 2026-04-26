@@ -4,7 +4,7 @@ aliases:
 ---
 Every time you query a database, you need a connection.
 
-Opening a raw [[TCP]] connection to to [[PostgreSQL|Postgres]] takes ~5-10ms (expensive) if you do it on every request
+Opening a raw [[Transport Control Protocol|TCP]] connection to to [[PostgreSQL|Postgres]] takes ~5-10ms (expensive) if you do it on every request
 
 Connection pooling keeps a pool of open connections that are used across requests.
 

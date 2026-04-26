@@ -1,5 +1,5 @@
 
-A **Peer to Peer** protocol that doesn't require an intermediating server for data exchange using [[UDP]].
+A **Peer to Peer** protocol that doesn't require an intermediating server for data exchange using [[User Datagram Protocol|UDP]].
 
 Ideal for audio/video calling and conferencing applications, and occasionally might be appropriate for collaborative applications like document editors, especially if they need to scale to many clients.
 - Note that you often need a central storage
