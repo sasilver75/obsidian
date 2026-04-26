@@ -29,6 +29,7 @@ PostGIS actually offers two index types:
 
 [[KD-Tree]]s are binary trees that alternate splitting on X and Y axes at each level. Great for nearest-neighbor queries on point data, less good for range queries and polygons. Common in in-memory spatial libraries (scipy, sklearn), but not typically used in databases.
 
+[[Octree]]s are QuadTrees for 3D space (e.g. [[Light Detection and Ranging|LiDAR]])
 
 ## Two-Phase Query Execution
 - Almost all spatial indexes work in two phases, which is important to understand:

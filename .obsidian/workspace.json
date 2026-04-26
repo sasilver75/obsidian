@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Composite.md",
+                "file": "LASer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +172,227 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Composite"
+              "title": "LASer"
+            }
+          },
+          {
+            "id": "032fbfbe5aaf3a2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geospatial Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geospatial Index"
+            }
+          },
+          {
+            "id": "e12dee04e3c22c78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FAISS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FAISS"
+            }
+          },
+          {
+            "id": "e12c0a47bb519c00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Voronoi Diagram.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Voronoi Diagram"
+            }
+          },
+          {
+            "id": "d889178082cf10e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ku-band.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ku-band"
+            }
+          },
+          {
+            "id": "534bc6e41f4cb347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Longitude.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Longitude"
+            }
+          },
+          {
+            "id": "9622facaa7dfe0f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "International Telecommunications Union.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "International Telecommunications Union"
             }
           },
           {
             "id": "6726ed5198c46222",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Perspective-n-Point.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Perspective-n-Point"
+            }
+          },
+          {
+            "id": "e1e72d3615be2ab5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Station Keeping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Station Keeping"
+            }
+          },
+          {
+            "id": "e7e86e4d8f7c058e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Japan Aerospace Exploration Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Japan Aerospace Exploration Agency"
+            }
+          },
+          {
+            "id": "19d76c5870360bc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,12 +416,12 @@
             }
           },
           {
-            "id": "e333e39e229f2ae2",
+            "id": "0da9b8f4e21f7295",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scale-Invariant Feature Transforms.md",
+                "file": "Amazon Simple Workflow Service.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +436,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Scale-Invariant Feature Transforms"
+              "title": "Amazon Simple Workflow Service"
+            }
+          },
+          {
+            "id": "24747b6ee882acaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Step Functions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Step Functions"
+            }
+          },
+          {
+            "id": "6384f262d9525f80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kafka Connect.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kafka Connect"
+            }
+          },
+          {
+            "id": "e333e39e229f2ae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Perspective-n-Point.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Perspective-n-Point"
             }
           },
           {
@@ -520,7 +808,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "octree",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2048,44 +2336,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e333e39e229f2ae2",
+  "active": "e12dee04e3c22c78",
   "lastOpenFiles": [
-    "Difference of Gaussians.md",
-    "Scale-Invariant Feature Transforms.md",
-    "COLMAP.md",
-    "3D Gaussian Splatting.md",
-    "FlatGeobuf.md",
-    "Coregistration.md",
-    "_attachments/Pasted image 20260425211409.png",
+    "Voronoi Diagram.md",
+    "FAISS.md",
+    "KD-Tree.md",
+    "_attachments/Pasted image 20260426001734.png",
+    "_attachments/Pasted image 20260426001114.png",
+    "Octree.md",
+    "QuadTree.md",
+    "Geospatial Index.md",
+    "Ku-band.md",
+    "Longitude.md",
+    "LASer.md",
     "Mosaic.md",
-    "_attachments/Pasted image 20260425211357.png",
-    "_attachments/Pasted image 20260425210438.png",
-    "4d Gaussian Splatting.md",
-    "Composite.md",
-    "_attachments/Pasted image 20260425210345.png",
     "Maxar.md",
-    "FlatBuffers.md",
-    "_attachments/Pasted image 20260425202855.png",
-    "_attachments/Pasted image 20260425202144.png",
-    "Checkpoint.md",
-    "Ground Control Point.md",
-    "_attachments/Pasted image 20260425202054.png",
-    "_attachments/Pasted image 20260425202048.png",
-    "Military Grid Reference System.md",
-    "_attachments/Pasted image 20260425201959.png",
-    "Physically-Based Rendering.md",
-    "_attachments/Pasted image 20260425201750.png",
-    "Inertial Measurement Unit.md",
-    "LAStools.md",
-    "Post-Processed Kinematic.md",
-    "Rational Polynomial Coefficient.md",
-    "Real-Time Kinematic GPS.md",
-    "Rational Polynomial Coefficients.md",
-    "Inclined Orbit.md",
-    "Winding Order.md",
-    "Xarray.md",
-    "Pansharpening.md",
-    "Medium Earth Orbit.md",
+    "Cloud-Optimized Point Cloud.md",
+    "_attachments/Pasted image 20260425235853.png",
+    "Entwine Point Tiles.md",
+    "LAZ.md",
+    "Potree.md",
+    "Light Detection and Ranging.md",
+    "Conflict-Free Replicated Datatype.md",
+    "_attachments/Pasted image 20260425235319.png",
+    "R-Tree.md",
+    "_attachments/Pasted image 20260425235121.png",
+    "_attachments/Pasted image 20260425235117.png",
+    "Land Use and Land Cover.md",
+    "_attachments/Pasted image 20260425234821.png",
+    "Geostationary Orbit.md",
+    "International Telecommunications Union.md",
+    "_attachments/Pasted image 20260425232145.png",
+    "Station Keeping.md",
+    "Cloud Masking.md",
+    "_attachments/Pasted image 20260425231240.png",
+    "Composite.md",
+    "Perspective-n-Point.md",
+    "_attachments/Pasted image 20260425230635.png",
+    "Polarimetric SAR.md",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

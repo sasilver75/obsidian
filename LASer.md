@@ -18,3 +18,5 @@ A LAS file stores an array, each with:
 - GPS timestamp
 - Scan angle
 
+
+![[Pasted image 20260425222440.png]]

@@ -2,10 +2,9 @@ An open-source [[Data Integration]] platform that moves data from sources to des
 - It's the ==open source alternative to commercial [[ETL]]/[[ETL|ELT]] tools like [[Fivetran]] and [[Stitch]]==.
 - The data integration problem (moving data from disparate sources into a central warehouse) is pervasive and generally hard at scale. Airbyte's connector ecosystem encapsulates complexity so that you don't have to rebuild it for every source.
 
-Airbyte sits in the [[ETL|Extract, Transform, Load]] paradigm. It extracts data from a source, loads it into a destination, and ==leaves transformation to a downstream tool== (typically [[dbt]]).
+Airbyte sits in the [[ETL|Extract, Transform, Load]] (ETL) paradigm. It extracts data from a source, loads it into a destination, and ==leaves transformation to a downstream tool== (typically [[dbt]]). It's an EL tool (Extract and Load).
 
 It doesn't transform data in transit; it moves it faithfully and lets you decide what to do with it once it's in your warehouse.
-
 ```
   Source (Postgres, Salesforce, Stripe, S3, APIs...)
     → Airbyte (extract + load)                                           
@@ -14,10 +13,17 @@ It doesn't transform data in transit; it moves it faithfully and lets you decide
           → Analytics / ML
 ```
 
-The ==heart of Airbyte is its connector catalog==:
+==Connectors== are: A ==source== (e.g. Postgres), a ==destination== (e.g. Snowflake), and a ==sync schedule==. Airbyte handles extraction, basic normalization, and loading.
+- Incremental syncs: Only pulls new/changed records since last sync, not the full dataset each time.
+- Schema evolution: Handles upstream schema changes without breaking pipeline
+- Normalizastion: Optionally transforms raw JSON blobs into typed relational tables
+
+The ==heart of Airbyte is its connector catalog== (and the ability to self-host):
 - ==300+ pre-built connectors== for common sources and destinations, including [[PostgreSQL]], [[MySQL]], [[MongoDB]], Salesforce, HubSpot, Stripe, Google Analytics, GitHub, Slack, [[Amazon S3|S3]], Shopify, Zendesk, [[Google BigQuery|BigQuery]], [[Snowflake]], [[Amazon Redshift|Redshift]], [[Google Cloud Storage|GCS]], and hundreds more.
 - ==Connectors are Docker containers, isolated, versioned, independently deployable. ==
 	- Each container implements the ==Airbyte Protocol==, a standard interface defining how to discover a schema, read records, and handle state for incremental syncs.
+
+![[Pasted image 20260425220410.png|1899]]
 
 # Sync Modes
 - How data is replicated depends on the sync mode:
@@ -44,11 +50,14 @@ Because the protocol is open, you can build custom connectors in any language; i
 
 
 # Relation to other tools:
-- vs [[Fivetran]]: Fivetran is fully managed, more reliable, better for enterprise, and much more expensive.
+- vs [[Fivetran]]: Fivetran is fully managed, more reliable, better for enterprise, and much more expensive. The commercial incument.
 - vs [[dbt]]: Complementary tech; Airbyte moves raw data into the warehouse, dbt transforms it. Commonly used together.
+- vs [[Debezium]]: A [[Change Data Capture]] platform that tails DB transaction logs ([[Write-Ahead Log|WAL]] in Postgres, binlog in [[MySQL]]) and  streams each insert/update/delete as an event in real time. These updates land in Kafka topics, which downstream consumers read.
 
-
-
+![[Pasted image 20260425215746.png]]
+Above:
+- ==Airbyte==: Use it when you need data in a warehouse for analytics, where latency of minutes to hours is fine, and you don't need deletes.
+- ==Debezium==: Use it when you need real-time, and you need every change, including deletes, or you're building event-driven systems or keeping multiple databases in sync.
 
 
 

@@ -1,6 +1,7 @@
 ---
 aliases:
   - OGC Simple Features
+  - OGC SFA
 ---
 A widely adopted [[Open Geospatial Consortium]] (OGC) standard for storing and accessing 2D [[Vector]] geospatial data (points, lines, polygons) in databases and GIS software.
 
@@ -10,3 +11,7 @@ Key aspects:
 - Defines spatial functions for databases, prefixed with `ST_` (e.g. `ST_Intersects`)
 
 Used extensively by databases like [[PostGIS]]
+
+
+![[Pasted image 20260425224942.png]]
+

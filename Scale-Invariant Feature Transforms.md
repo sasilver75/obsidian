@@ -2,7 +2,8 @@
 aliases:
   - SIFT
 ---
-An algorithm for detecting and describing **local features** in images that are invariant to scale, rotation, and partially-invariant to illumination and viewpoint changes.
+==An algorithm for detecting and describing **local features** in images that are invariant to scale, rotation, and partially-invariant to illumination and viewpoint changes.==
+- Used by [[COLMAP]]; SIFT finds the same physical points reliably across photos taken from different angles, distances, and lighting, which is exactly what you need to triangulate 3D structure.
 
 Two steps:
 1. ==Keypoint detection== (finding interesting points)
@@ -20,4 +21,7 @@ Two steps:
 		- Rotation invariant: Descriptor is rotated to align with the dominant gradient orientation.
 		- Partially illumination invariant: Uses gradients (relative changes), not raw intensities
 
-Matchin
+Matching:
+- To match these keypoints across images, compare their 128d descriptors by Euclidean distance: similar descriptors = probably the same physical point. This is exactly a [[K-Nearest Neighbors|kNN]] search, which is again where [[FAISS]]-style acceleration helps.
+
+

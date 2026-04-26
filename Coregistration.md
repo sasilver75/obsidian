@@ -1,3 +1,9 @@
+---
+aliases:
+  - Coregistered
+---
+
+
 The process of aligning multiple images of the same area so that the same ground point falls on the same pixel across all images.
 - Satellites don't image from the same position or angle on every pass; two acquisitions of the same location will have:
 	- Slightly different viewing angles

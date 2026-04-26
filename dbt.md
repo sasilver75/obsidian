@@ -57,3 +57,5 @@ DBT has a ==built-in testing framework== for data quality:
 ```
 
 
+
+![[Pasted image 20260425213714.png]]

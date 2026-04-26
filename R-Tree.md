@@ -45,3 +45,11 @@ This flexibility offers a crucial advantage:
 
 The trade-off for this flexibility is that the ==overlapping rectangles sometimes force us to search multiple branches of the tree. Modern R-Tree implementations use sophisticated algorithms to balance this overlap against tree depth, optimizing for how databases actually read data from disk.==
 - This balance of flexibility and disk efficiency is why R-Trees have become the standard choice for production spatial indices.
+
+
+
+![[Pasted image 20260425235117.png]]
+
+![[Pasted image 20260425235121.png]]
+
+

@@ -1,6 +1,174 @@
 {
   "recentFiles": [
     {
+      "basename": "FAISS",
+      "path": "FAISS.md"
+    },
+    {
+      "basename": "Voronoi Diagram",
+      "path": "Voronoi Diagram.md"
+    },
+    {
+      "basename": "KD-Tree",
+      "path": "KD-Tree.md"
+    },
+    {
+      "basename": "Octree",
+      "path": "Octree.md"
+    },
+    {
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "Ku-band",
+      "path": "Ku-band.md"
+    },
+    {
+      "basename": "Longitude",
+      "path": "Longitude.md"
+    },
+    {
+      "basename": "LASer",
+      "path": "LASer.md"
+    },
+    {
+      "basename": "Mosaic",
+      "path": "Mosaic.md"
+    },
+    {
+      "basename": "Maxar",
+      "path": "Maxar.md"
+    },
+    {
+      "basename": "Cloud-Optimized Point Cloud",
+      "path": "Cloud-Optimized Point Cloud.md"
+    },
+    {
+      "basename": "Entwine Point Tiles",
+      "path": "Entwine Point Tiles.md"
+    },
+    {
+      "basename": "LAZ",
+      "path": "LAZ.md"
+    },
+    {
+      "basename": "Potree",
+      "path": "Potree.md"
+    },
+    {
+      "basename": "Light Detection and Ranging",
+      "path": "Light Detection and Ranging.md"
+    },
+    {
+      "basename": "Conflict-Free Replicated Datatype",
+      "path": "Conflict-Free Replicated Datatype.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "Land Use and Land Cover",
+      "path": "Land Use and Land Cover.md"
+    },
+    {
+      "basename": "Geostationary Orbit",
+      "path": "Geostationary Orbit.md"
+    },
+    {
+      "basename": "International Telecommunications Union",
+      "path": "International Telecommunications Union.md"
+    },
+    {
+      "basename": "Station Keeping",
+      "path": "Station Keeping.md"
+    },
+    {
+      "basename": "Cloud Masking",
+      "path": "Cloud Masking.md"
+    },
+    {
+      "basename": "Composite",
+      "path": "Composite.md"
+    },
+    {
+      "basename": "Perspective-n-Point",
+      "path": "Perspective-n-Point.md"
+    },
+    {
+      "basename": "Polarimetric SAR",
+      "path": "Polarimetric SAR.md"
+    },
+    {
+      "basename": "Inverse Synthetic Aperture Radar",
+      "path": "Inverse Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Japan Aerospace Exploration Agency",
+      "path": "Japan Aerospace Exploration Agency.md"
+    },
+    {
+      "basename": "Ephemeris",
+      "path": "Ephemeris.md"
+    },
+    {
+      "basename": "Simple Features Access",
+      "path": "Simple Features Access.md"
+    },
+    {
+      "basename": "HLS",
+      "path": "HLS.md"
+    },
+    {
+      "basename": "SEN12MS",
+      "path": "SEN12MS.md"
+    },
+    {
+      "basename": "Coregistration",
+      "path": "Coregistration.md"
+    },
+    {
+      "basename": "Global Entity Reference System",
+      "path": "Global Entity Reference System.md"
+    },
+    {
+      "basename": "Temporal",
+      "path": "Temporal.md"
+    },
+    {
+      "basename": "Amazon Simple Workflow Service",
+      "path": "Amazon Simple Workflow Service.md"
+    },
+    {
+      "basename": "Amazon Step Functions",
+      "path": "Amazon Step Functions.md"
+    },
+    {
+      "basename": "Van Allen Radiation Belt",
+      "path": "Van Allen Radiation Belt.md"
+    },
+    {
+      "basename": "Airbyte",
+      "path": "Airbyte.md"
+    },
+    {
+      "basename": "Kafka Connect",
+      "path": "Kafka Connect.md"
+    },
+    {
+      "basename": "dbt",
+      "path": "dbt.md"
+    },
+    {
+      "basename": "Random Sample Consensus",
+      "path": "Random Sample Consensus.md"
+    },
+    {
       "basename": "Scale-Invariant Feature Transforms",
       "path": "Scale-Invariant Feature Transforms.md"
     },
@@ -21,24 +189,8 @@
       "path": "FlatGeobuf.md"
     },
     {
-      "basename": "Coregistration",
-      "path": "Coregistration.md"
-    },
-    {
-      "basename": "Mosaic",
-      "path": "Mosaic.md"
-    },
-    {
       "basename": "4d Gaussian Splatting",
       "path": "4d Gaussian Splatting.md"
-    },
-    {
-      "basename": "Composite",
-      "path": "Composite.md"
-    },
-    {
-      "basename": "Maxar",
-      "path": "Maxar.md"
     },
     {
       "basename": "FlatBuffers",
@@ -47,158 +199,6 @@
     {
       "basename": "Checkpoint",
       "path": "Checkpoint.md"
-    },
-    {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
-    },
-    {
-      "basename": "Military Grid Reference System",
-      "path": "Military Grid Reference System.md"
-    },
-    {
-      "basename": "Physically-Based Rendering",
-      "path": "Physically-Based Rendering.md"
-    },
-    {
-      "basename": "Inertial Measurement Unit",
-      "path": "Inertial Measurement Unit.md"
-    },
-    {
-      "basename": "LAStools",
-      "path": "LAStools.md"
-    },
-    {
-      "basename": "Post-Processed Kinematic",
-      "path": "Post-Processed Kinematic.md"
-    },
-    {
-      "basename": "Rational Polynomial Coefficient",
-      "path": "Rational Polynomial Coefficient.md"
-    },
-    {
-      "basename": "Real-Time Kinematic GPS",
-      "path": "Real-Time Kinematic GPS.md"
-    },
-    {
-      "basename": "Rational Polynomial Coefficients",
-      "path": "Rational Polynomial Coefficients.md"
-    },
-    {
-      "basename": "Inclined Orbit",
-      "path": "Inclined Orbit.md"
-    },
-    {
-      "basename": "Winding Order",
-      "path": "Winding Order.md"
-    },
-    {
-      "basename": "Xarray",
-      "path": "Xarray.md"
-    },
-    {
-      "basename": "Pansharpening",
-      "path": "Pansharpening.md"
-    },
-    {
-      "basename": "Medium Earth Orbit",
-      "path": "Medium Earth Orbit.md"
-    },
-    {
-      "basename": "Geostationary Orbit",
-      "path": "Geostationary Orbit.md"
-    },
-    {
-      "basename": "Geosynchronous Orbit",
-      "path": "Geosynchronous Orbit.md"
-    },
-    {
-      "basename": "Photogrammetry",
-      "path": "Photogrammetry.md"
-    },
-    {
-      "basename": "MapLibre GL JS",
-      "path": "MapLibre GL JS.md"
-    },
-    {
-      "basename": "Equatorial Orbit",
-      "path": "Equatorial Orbit.md"
-    },
-    {
-      "basename": "Polar Orbit",
-      "path": "Polar Orbit.md"
-    },
-    {
-      "basename": "Apache Parquet",
-      "path": "Apache Parquet.md"
-    },
-    {
-      "basename": "Remote Direct Memory Access",
-      "path": "Remote Direct Memory Access.md"
-    },
-    {
-      "basename": "Low Earth Orbit",
-      "path": "Low Earth Orbit.md"
-    },
-    {
-      "basename": "Sun-Synchronous Orbit",
-      "path": "Sun-Synchronous Orbit.md"
-    },
-    {
-      "basename": "Differential Interferometric Synthetic Aperture Radar",
-      "path": "Differential Interferometric Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Polarimetric SAR",
-      "path": "Polarimetric SAR.md"
-    },
-    {
-      "basename": "InSAR",
-      "path": "InSAR.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Projection",
-      "path": "Projection.md"
-    },
-    {
-      "basename": "Top-of-Atmosphere",
-      "path": "Top-of-Atmosphere.md"
-    },
-    {
-      "basename": "Surface Reflectance",
-      "path": "Surface Reflectance.md"
-    },
-    {
-      "basename": "Apache Hudi",
-      "path": "Apache Hudi.md"
-    },
-    {
-      "basename": "Apache Polaris",
-      "path": "Apache Polaris.md"
-    },
-    {
-      "basename": "Apache Iceberg",
-      "path": "Apache Iceberg.md"
-    },
-    {
-      "basename": "Java Database Connectivity",
-      "path": "Java Database Connectivity.md"
-    },
-    {
-      "basename": "Fiona",
-      "path": "Fiona.md"
-    },
-    {
-      "basename": "Apache Gravitino",
-      "path": "Apache Gravitino.md"
-    },
-    {
-      "basename": "Polars",
-      "path": "Polars.md"
     }
   ],
   "omittedPaths": [],

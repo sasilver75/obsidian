@@ -10,5 +10,7 @@ The key advantage of quadtrees is their adaptive resolution: dense areas get sub
 ![[Pasted image 20250520184220.png]]
 
 
+==Not common in production nowadays== (rather, people would use either [[Geohash]] or the conceptually similar [[R-Tree]]), Quadtrees had a significant impact on modern spatial indexing by ==introducing this recursive spatial subdivision strategy that forms the foundation for R-Trees,== which optimize these ideas for disk-based storage and better handling of overlapping regions.
 
-Not common in production nowadays (rather, people would use either [[Geohash]] or the conceptually similar [[R-Tree]]), Quadtrees had a significant impact on modern spatial indexing by introducing this recursive spatial subdivision strategy that forms the foundation for R-Trees, which optimize these ideas for disk-based storage and better handling of overlapping regions.
+
+![[Pasted image 20260425235319.png]]

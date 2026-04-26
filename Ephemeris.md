@@ -34,3 +34,6 @@ Encodes: [[Inclination]], RAAN, eccentricity, argument of perigee, mean anomaly,
 # Precise vs Broadcast Ephemeris
 - For [[InSAR]], you need very ==precise== ephemerides, ==broadcast== ones aren't accurate enough to isolate ground deformation from orbital error.
 ![[Pasted image 20260419185727.png]]
+
+
+![[Pasted image 20260425225802.png]]
