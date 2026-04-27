@@ -1,8 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "Prompt Caching",
+      "path": "Prompt Caching.md"
+    },
+    {
+      "basename": "Factory Droid",
+      "path": "Factory Droid.md"
+    },
+    {
+      "basename": "AMP Code",
+      "path": "AMP Code.md"
+    },
+    {
+      "basename": "Junie",
+      "path": "Junie.md"
+    },
+    {
+      "basename": "Pi",
+      "path": "Pi.md"
+    },
+    {
+      "basename": "Terminal Bench",
+      "path": "Terminal Bench.md"
+    },
+    {
+      "basename": "Hermes Agent",
+      "path": "Hermes Agent.md"
+    },
+    {
+      "basename": "Gas City",
+      "path": "Gas City.md"
+    },
+    {
       "basename": "Gas Town",
       "path": "Gas Town.md"
+    },
+    {
+      "basename": "Datomic",
+      "path": "Datomic.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Git.md"
+    },
+    {
+      "basename": "Git Hooks",
+      "path": "Git Hooks.md"
+    },
+    {
+      "basename": "Git Worktree",
+      "path": "Git Worktree.md"
+    },
+    {
+      "basename": "Steve Yegge",
+      "path": "Steve Yegge.md"
+    },
+    {
+      "basename": "Jeffrey Emanuel",
+      "path": "Jeffrey Emanuel.md"
+    },
+    {
+      "basename": "Kubernetes",
+      "path": "Kubernetes.md"
+    },
+    {
+      "basename": "Agent",
+      "path": "Agent.md"
     },
     {
       "basename": "Tom's Obvious Minimal Language",
@@ -13,28 +77,12 @@
       "path": "Continuous Integration.md"
     },
     {
-      "basename": "Agent",
-      "path": "Agent.md"
-    },
-    {
-      "basename": "git Hooks",
-      "path": "git Hooks.md"
-    },
-    {
       "basename": "Pretraining with Human Feedback",
       "path": "Pretraining with Human Feedback.md"
     },
     {
-      "basename": "git Worktree",
-      "path": "git Worktree.md"
-    },
-    {
       "basename": "Beads",
       "path": "Beads.md"
-    },
-    {
-      "basename": "git",
-      "path": "git.md"
     },
     {
       "basename": "OpenTelemetry Protocol",
@@ -151,54 +199,6 @@
     {
       "basename": "Geostationary Orbit",
       "path": "Geostationary Orbit.md"
-    },
-    {
-      "basename": "International Telecommunications Union",
-      "path": "International Telecommunications Union.md"
-    },
-    {
-      "basename": "Station Keeping",
-      "path": "Station Keeping.md"
-    },
-    {
-      "basename": "Cloud Masking",
-      "path": "Cloud Masking.md"
-    },
-    {
-      "basename": "Composite",
-      "path": "Composite.md"
-    },
-    {
-      "basename": "Perspective-n-Point",
-      "path": "Perspective-n-Point.md"
-    },
-    {
-      "basename": "Polarimetric SAR",
-      "path": "Polarimetric SAR.md"
-    },
-    {
-      "basename": "Inverse Synthetic Aperture Radar",
-      "path": "Inverse Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Japan Aerospace Exploration Agency",
-      "path": "Japan Aerospace Exploration Agency.md"
-    },
-    {
-      "basename": "Ephemeris",
-      "path": "Ephemeris.md"
-    },
-    {
-      "basename": "Simple Features Access",
-      "path": "Simple Features Access.md"
-    },
-    {
-      "basename": "HLS",
-      "path": "HLS.md"
-    },
-    {
-      "basename": "SEN12MS",
-      "path": "SEN12MS.md"
     }
   ],
   "omittedPaths": [],

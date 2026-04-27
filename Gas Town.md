@@ -1,3 +1,6 @@
+References:
+- [Gas Townhall Documentation (Docs)](https://docs.gastownhall.ai/)
+
 Multi-[[Agent]] orchestration system for [[Claude Code]] and others, with persistent work tracking.
 - Lets you coordinate multiple coding agents working on different tasks.
 - Instead of losing context when agents restart, Gas Town persists work state in git-backed hooks, enabling reliable, multi-agent workflows.
@@ -43,6 +46,26 @@ gt seance --talk <id> -p "What did you find?"  # One-shot question
 
 
 ![[Pasted image 20260426183256.png]]
+
+
+![[Pasted image 20260427004447.png]]
+
+![[Pasted image 20260427004451.png]]
+
+![[Pasted image 20260427004509.png]]
+
+
+![[Pasted image 20260427004533.png]]
+
+![[Pasted image 20260427004544.png]]
+
+![[Pasted image 20260427004609.png]]
+![[Pasted image 20260427004624.png]]
+![[Pasted image 20260427004635.png]]
+![[Pasted image 20260427004701.png]]
+![[Pasted image 20260427004724.png]]
+
+
 
 
 # Common Workflows
@@ -116,7 +139,7 @@ Events emitted: session lifecycle, agent state changes, bd calls with duration, 
 
 
 # Propulsion Principle
-- Gas Town uses [[git]] hooks as a propulsion mechanism.
+- Gas Town uses [[Git]] hooks as a propulsion mechanism.
 - Each hook is a git worktree with:
 	- Persistent state: Work survives agent restarts
 	- Version control: All changes tracked in git
@@ -335,7 +358,7 @@ The term for the big seas of work molecules, all the work in the world, is "guzz
 
 
 ## Nondeterministic Idempotence
-- NDI, or Nondeterministc Idepotence, is similar to Temporal's deterministic, durable replay, but Gas Town achieves its durability and guaranteed execution through completely difference machinery.
+- ==NDI, or Nondeterministc Idepotence==, is similar to Temporal's deterministic, durable replay, but Gas Town achieves its durability and guaranteed execution through completely difference machinery.
 ![[Pasted image 20260426220905.png|957]]
 - In Gas Town, on the MEOW (molecular expression of work) stack, all work is expressed as molecules.
 - They can have complex shapes, and loops, and gates, and are in fact Turing-complete, with each step of the workflow executed by a superintelligent AI.
@@ -348,8 +371,264 @@ The term for the big seas of work molecules, all the work in the world, is "guzz
 This means that ==molecular owrkflows are durable.==  
 
 IF A MOLECULE IS ON AN AGENT'S HOOK, THEN:
-1. The agent is persistent: a Bead backed by git. Sessions come and
+1. The agent is persistent: a Bead backed by git. Sessions come and go, but agents stay.
+2. The hook is persistent, and is also a Bead backed by Git.
+3. The molecule is persistent; a chain of Beads, also in Git.
 
+So it doesn't matter if Claude Code crashes or runs out of context.  As soon as another session starts up for this agent role, it will start working on that step in the molecule immediately (via GUPP, or when it gets nudged by one of the patrol agents).
+- If it founds out that it crashed in the middle of the next step, no biggie, it will figure the right fix, perform it, and move on.
+
+So ==even though the path is fully nondeterministic, the outcome eventually finishes, "guaranteed" as long as you keep throwing agents at it.==
+
+There are tons of edge cases... this description of NDI is over simplifying.
+
+
+### ==Wisps==: Ephemeral Orchestration Beads
+
+- There are some other corners of our textbook that we should probably touch on...
+- Most of the time, you don't care about this stuff, and you care about convoys starting and finishing, watching your activity feeds and dashboards... but Gas Town's molecular "chemistry" has a lot of rich corners that in active use in the orchestration.
+
+==Wisps== are ==ephemeral Beads==. They are in the database, get hashIDs, and act as regular Beads, but ==they are not written to the JSONL file, and thus not persisted to Git!==
+
+At the end of their run, Wisps are "burned" (destroyed). Optionally they can be squashed not a single-line summary digest that's committed to git.
+
+==Wisps are important for high-velocity orchestration workflows.==
+- All the patrol agents (Refinery, Witness, Deacon, Polecats) create wisp molecules for every single patrol or workflow run. They ensure that the workflows complete transactionally, but without polluting Git with orchestration noise.
+
+
+### Patrols
+- The ephemeral workflows that run for ==patrol workers==, most notably: Refinery, Witness, Deacon.
+- ==A patrol is an ephemeral (wisp) workflow that an agent runs in a loop.==
+	- Patrols have exponential backoff: The agent will gradually go to sleep if it finds no work in its patrol steps, by waiting longer and longer to start the next patrol.
+	- Any mutating `gt` or `bd` commands will wake the town, or you can do it yourself with the `gt` command, starting up individual workers, groups, a rig, or the whole town.
+
+![[Pasted image 20260426222135.png]]
+
+The ==Refinery=='s patrol is pretty simple. It has some preflight steps to clean up the workspace, then it processes the Merge Queue (MQ) until its empty, or needs to recycle the session.
+- It has some post-flight steps in the molecule when it's ready to hand off.
+- Soon, there will be plugins that muck with the MQ and try to order it intelligently.
+
+The ==Witness's== patrol is a little more complex; it has to check on the wellbeing of the Polecats, and the Refineries. It also peeks in at the Deacon, just to make sure it's not stick.
+- The Witness also runs Rig-level plugins.
+
+The ==Deacon=='s patrol has a lot of important responsibilities:
+- Runs Town-level plugins, which can do things like provide entire new UIs or capabilities.
+- Also involved in the protocol for `gt handoff` and recycling agent sessions, and ensuring some workers are cleaned up properly.
+- The patrol got complex enough, that we added ==Dogs== as helpers, the Deacon's personal crew.
+	- It hands complex work and investigations off to Dogs, so that long-running patrol steps don't interfere with the town's core eventing system, which is cooperative and mail-based.
+
+#### ==Plugins==
+- GT defines plugins as "coordinated or scheduled attention from an agent."
+- Gas town workers run workflows (often in patrol loops), and any workflow can contain any number of "run plugins" steps.
+
+I plan to implement a great deal of functionality in Gas Town as plugins.
+ They just didn't make it into the v1 launch. They're probably going to wind up as formulas in the Mol Mall.
+
+![[Pasted image 20260426224647.png|908]]
+
+
+### Convoys
+- Everything is Gas Town, all work, rolls up into a ==Convoy==
+	- The Convoy is Gas Town's ticketing or work-order system:
+
+![[Pasted image 20260426224751.png]]
+
+==A Convoy is a special bead that wraps a bunch of work into a unit that you track for delivery.==
+- It DOES NOT use the Epic structure, because the tracked issues in a Convoy are not its children. Most of them already have another parent.
+- The fundamental primitive for slinging work around in Gas Town  is `gt sling`:
+	- If I tell the Mayor "Our tmux sesssions are showing the wrong number of rigs in the status bar, file it and sling it", then the Mayor will file a bead for the problem, then `gt sling` it to a pole cat, which works on it immediately.
+
+I often tell my Beads crew to sling the release molecule to a polecat. The polecat will walk through the 20-step release process, finish it of, and then I'll be notified that the Convoy has landed/finished.
+
+It's confusing to hear: "issue wy-a7je4 just finished", so now ==we wrap every single unit of slung work== (from a single polecat sling to a big swarm someone kicks off) ==with a Convoy==.
+
+==Convoys are basically features==. Whether it's a tech debt cleanup or actual features, or a bug fix, each ==convoy is a ticketing unit of GT's work-order architecture==.
+- Note that a Convoy can have multiple swarms "attack" it (work on it) before it's finished. 
+- Swarms are ephemeral agent sessions taking on persistent work.
+- Whoever is managing the Convoy (e.g. Witness) will keep recycling polecats and pushing them on issues.
+
+
+## Gas Town Workflow
+
+- The most fundamental workflow in GT is the ==handoff== `gt handoff` or the `/handoff` command, or just say "let's hand off."
+- Your worker will optionally send itself work, then restart its session for you, right there in tmux.
+- ==All of your workers that you direct==, the Mayor, your Crew, and sometimes the others, ==will require you to let them know it's time to hand off.==
+- Other than that, Gas Town dev loop is more or less the same as it is with Claude Code (and Beads), just more of it.
+	- You get swarms for free ($)
+	- You get decent dashboards
+	- You get a way to describe workflows
+	- You get mail and messaging
+	- ...that's about it.
+
+## Planning in Gas Town
+- GT needs lots of fuel: It both consumes and produces guzzoline, or work molecules.
+- Aside from just keeping GT on the rails, ==the hardest problem is keeping it fed; it churns through implementation plans so quickly that you have to do a LOT of design and planning to keep the engine fed.==
+- On the consumption side, you feed GT epics, issues, and molecules (constructed workflows).
+- On the production side, you can use your own planning tool like [Spec Kit](https://github.com/github/spec-kit) or [BMAD](https://docs.bmad-method.org/), and then once your plan is ready, ask an agent to convert it into Beads kits.
+- You can use ==formulas== to generate work. If you want every piece of coding work (or design work, or UX work) to go through a particular template or workflow, you can define it as a molecule, and then "wrap" or compose the base work with your orchestration template.
+	- Yegge implemented a formula for Emmanuel's "Rule of Five," which is the observation that if you make an LLM review something 5 times, with different focus areas each time through, it generates superior outcomes and artifacts.
+
+This can generate LARGE workflows that can take many hours for days for you to crank through, especially if you are limiting your polecat numbers to throttle your costs or token burn.
+
+
+
+# Kubernetes Comparison
+- Both coordinate unreliable workers toward a goal.
+- ==HERE:== Both have a control plane (Mayor/Deacon vs Kube-Scheduler/Controller-Manager) watching over execution nodes (Rigs vs Nodes), each with a local agent (Witness vs Kubelet) monitoring ephemeral workers (Polecats vs Pods). Both use a source of truth (Beads vs [[etcd]])
+	- ==These are apparently natural shapes that emerge when you need to herd cats at scale.==
+
+The big difference is: Kuberentes asks: "Is it running? while Gas Town asks "Is it done?"
+- K8s optimizes for runtime (keeping N replicas alive, restarting crashed pods, maintain the desired state forever), while GT optimizes for completion (finish this work, land the convoy, then nuke the worker and move on).
+- K8s pods are anonymous cattle; Gas Town polecats are credited workers whose completions accumulate into CV chains, and the sessions cattle.
+- K8s reconciles towards a continuous desired state; Gas Town proceeds towards a terminal goal.
+
+
+______________________
+
+[The Future of Coding Agents, Steve Yegge](https://steve-yegge.medium.com/the-future-of-coding-agents-e9451a84207c) (January 4) [[Steve Yegge]]
+
+- 3 days since Gas Town launch.
+- It's currently unstable; it oozes, rather than whirs.
+- The instability will fade over the course of 2026; it will go from a slef-propellign slime monster to a shiny, well-run agent factory.
+	- Models will get smarter
+	- Gas Town and Beads are gong to finally make it into the training corpus
+		- Agents use Beads naturally and smoothly with no training, and Gas Town will get there too -- fast!
+- The gas town community is going nuts (>50 PRs in 3 days)
+- ==Agents will know all about Gas Town by summer.==
+
+> I have been curating Gas Town the same way I did Beads, using the ==Desire Paths approach to agent UX==. You ==tell the agent what you want, watch closely what they try, and then implement the thing they tried. Make it real. Over and over==. Until your tool works just the way agents believe it should work. So Gas Town is gradually becoming agent-friendly, even without being in the training corpus.
+
+
+
+> Gas Town eagerly adopted a discovery by [[Jeffrey Emanuel]], author of MCP Agent Mail. He found that combining Mail with Beads led to an ad-hoc “agent village,” where agents will naturally collaborate divide up work and farm it out. Coding agents are pros at email-like interfaces, and you can use mail as an “agent village” messaging system without needing to train or prompt them. They just get it. Gas Town was my attempt to turn an ad-hoc agent village into a coordinated agent town.
+
+
+> ## Why Golang?
+> But I am really liking Go for vibe-coded projects. I probably wrote close to a million lines of code last year, rivaling my entire 40-year career oeuvre to date.
+> During the time I was vibe-coding those million lines of code, I learned a lot about what AIs handle well and poorly. And what I found is that models waste a lot of tokens on TypeScript. It’s, like, too much language for them.
+> Easily a third to half of all my diffs they created in TS were either complicated type manipulations, or complicated workarounds to avoid having to put proper types on things. Every single “write code” step had to be followed by 2–3 “let’s make it less bad” steps that don’t exist in other languages, to force it to go clean up all its crummy type modeling.
+> Python was “fine”. It didn’t suck. It hot reloaded my changes as I was working, which was nice.
+> Whereas with Go, every agent has to reinstall and re-codesign the binary locally whenever you make a change, and they tend to forget. The agents don’t waste time wrestling with type modeling. I think for server-side stuff, Python can potentially be great. But for a client-side deployment, it still always felt like a bunch of scripts. I liked Beads’ ability to build and distribute a native Go binary, so I opted for that with Go Gas Town.
+
+> Sure enough, I found on my second major Go project that Go is just… good.
+
+> When the diffs go by in TypeScript, half the time you’re like, what awful thing is my computer up to now? But with Go, it’s just _boring_. It’s writing log files, doing simple loops, doing simple conditionals, reading from maps and arrays, just super duper plain vanilla stuff. Which means you can always understand it! Speaking as someone who has studied and used 50+ programming languages, always looking for elegance and compactness — ==to my surprise, Go is a real boon to vibe-coding systems programmers.==
+
+> Is TypeScript still the best for Web apps? Yeah, probably. I’m just glad I don’t have to build one.
+
+
+____________
+
+
+[Software Survival 3.0](https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b) (January 28, 2026)[[Steve Yegge]]
+
+> In this post, I’m going to make a prediction about which software will survive, if you believe Karpathy, in a world where AI writes all the software and is essentially infinitely capable. I think you can make a simple survival argument that comes down to selection pressure.
+
+> Karpathy describes a future where AI can build pretty much anything on demand,
+
+> It’s getting easier and easier to build what you need rather than buying it.
+
+> The trajectory is exponential, so home-grown medium-scale SaaS will be on the table by EOY.
+
+> It’s not just SaaS. We’ve already seen entire categories begin to be eaten up by AI: Stack Overflow and Chegg were early victims, but now we’re seeing pressure on new sectors.
+
+# The Selection Argument
+
+> Inference costs tokens, which cost energy, which costs money. For purposes of computing software survival odds, we can think of {tokens, energy, money} all as being equivalent, and all are perpetually constrained.
+
+> This resource constraint, I predict, will create a selection pressure that shapes the whole software ecosystem with a simple rule: ==**software tends to survive if it saves cognition**====.==
+
+> I think that systems have a financial and indeed an ethical obligation to minimize compute costs for solving cognitive problems, because energy is rapidly becoming the world’s biggest constraint.
+
+> But even with a bazillion smaller models deployed everywhere including your dental fillings, I think there is still a role for large classes of “old-fashioned” software systems that aren’t models, and don’t necessarily use AI at all. This essay concerns those systems, which I think will survive and thrive if they have the right properties.
+
+> My hunch is that if a tool saves AIs tokens, it has a high chance of being used and surviving. And tools that don’t save tokens will gradually be phased out.
+
+```
+Survival(T) ∝ (Savings × Usage × H) / (Awareness_cost + Friction_cost)
+```
+![[Pasted image 20260426234553.png]]
+
+
+## Lever 1: Insight Compression
+First lever: your software can make itself useful by compressing insights. The software industry has accumulated a lot of hard-won knowledge that would be expensive to rediscover. Many systems compress hard-won insights into reusable form.
+
+There is no better example than Git. It’s not going anywhere. Sure, it’s not hard for an AI to build its own version control system. But Git’s model–the DAG of commits, refs as pointers, the index, the reflog — I’m already losing you, but that’s the point. Git represents decades of accumulated wisdom about how to track changes when multiple people are working on the same thing, changing their minds, making mistakes, and merging their work back together.
+
+## Lever 2: Substrate Efficiency
+As Claude put it, “Nobody is coming for ==grep==.” It’s a great example of a tool that would _also_ be crazy to reinvent, because, like Lever 1, it saves a lot of tokens relative to the effort of using it.
+
+  But grep doesn’t compress any hard-won insights. In fact it’s pretty simple; Ken Thompson famously wrote grep in an afternoon. Grep saves cognition by doing it on a cheaper substrate: CPUs. Algorithmically, it also punches way above its weight class, doing a lot for very little effort. Pattern matching over text is a task where CPU beats GPU by orders of magnitude.
+
+So it would be irrational from any perspective–economic, ecological, moral, or otherwise–to spin up inference to do what grep does. Similarly, LLMs will choose calculators over writing code if they’re available. Tools that enable this lever include parsers, complex transformers like ImageMagick, and many Unix CLI tools.
+
+## Lever 3: Broad Utility
+This is the Usage term in the Survival Ratio. It basically amortizes your awareness cost and lowers the threshold for token savings. If you have a truly general-purpose token-saving tool, then it doesn’t really matter if it’s easy for AIs to recreate it. They’ll use the thing that’s everywhere. But how do you make your software be the “obvious” choice for agents?
+
+[[Temporal]] has comparatively high awareness and friction costs, e.g. compared to (say) Postgres, which has been around a lot longer and has much more training data available. But Temporal is as broadly useful as PostgreSQL; just as Postgres can be used to store and query most datasets people care about, Temporal can be used to model and execute most workflows people care about. Temporal has all three levers so far: aggressive insight compression, masterful use of the compute substrate to solve complex problems, and it’s broadly useful. So no AI in its right mind is going to try to clone it for any serious work.
+
+Dolt is another interesting example of software that’s ahead of its time. Gene Kim and I have been saying, “don’t use LLMs for production database access–only use agents in prod when you have Git as a backstop!” Well, what if your database was versioned with Git? Every single change?
+
+[[Dolt]] is OSS that has been around for 8 years, and is only now finally finding its killer app with agent-based prod and devops workflows. With Dolt, agents can make mistakes in prod, and roll back (or forward) with the full power of Git. But they hadn’t solved the awareness problem when I first made Beads, or I’d have used Dolt from the start.
+
+# Lever 4: Publicity
+Saving cognition isn’t enough on its own. You also need to solve the awareness problem somehow: the pre-sales problem. Agents have to know about you. Dolt was a great example of a tool with levers 1 to 3 but not 4: I’d have used for Beads sooner if Claude or I had known about it.
+
+# Lever 5: Minimizing Friction
+If Awareness is a pre-sales problem, then Product Friction is a post-sales problem. Your agent may be perfectly aware that it has a useful tool, but even a small amount of friction may change its calculation.
+
+Agents always act like they’re in a hurry, and if something appears to be failing for them, they will rapidly switch to trying workarounds. If they’re using your tool and they are having trouble getting it working correctly, they give up super fast.
+
+==Conversely, if you build the tool to their tastes, then agents will use the hell out of it.==
+- ((Search "Desire Path" in this file))
+
+...Make your tool intuitive for agents. Getting agents using Beads requires much less prompting, because Beads now has 4 months of “Desire Paths” design, which I’ve talked about before. Beads has evolved a very complex command-line interface, with 100+ subcommands, each with many sub-subcommands, aliases, alternate syntaxes, and other affordances.
+
+# Lever 6: The Human Coefficient
+We’ve covered ways to save tokens, and ways to make your tool more palatable to agents. These are great survival strategies starting right now, this year, today. But it’s not the only way.
+
+I think it’s already obvious to everyone that there will be software that thrives not because of token efficiency, but specifically because humans were involved somehow. This software’s value derives from human curation, social proof, creativity, physical presence, approval, whatever. It can be absurdly inefficient because it’s all about that human stink.
+
+
+__________________
+
+Article: [Vibe Maintainer (Mar 31, 2026)](https://steve-yegge.medium.com/vibe-maintainer-a2273a841040) [[Steve Yegge]]
+
+> Some attendees at an AI Tinkerers meetup in early Feb were asking me what it’s like to be the maintainer of a big OSS project where the community PRs are all AI slop.
+
+> Why is it so important for me to tell you how I deal with a storm of AI-generated PRs? Because I’m beginning to believe that my “vibe maintainer” workflow, crazy as it might sound, will be what a lot of you are doing before long. Everyone who works on successful OSS will soon have to deal with PR storms.
+
+> To give you a sense of the scale I work at, I’m cruising towards 50 contributor PRs a day, combined between [Beads](https://github.com/steveyegge/beads) (20k stars, 5 months old) and [Gas Town](https://github.com/steveyegge/gastown) (13k stars, 3 months old). That’s seven days a week; if I take a day or two off, they pile up and I may have to deal with 100 or more in a single day.
+
+> Through all that, my median time to resolution is about 15 hours, with few PRs waiting more than a few days. This is high velocity. 
+
+> Even with AI help, keeping up with community PRs takes me 15–20 hours a week, usually 2 to 3 hours a day. Sometimes much, much more
+
+> I wish I could tell you it’s easy work. I have at least managed to automate all the easy stuff, which is about half the PRs, sometimes up to two thirds of them. I was recently inspired by ==Dane Poyzer==’s `gt-toolkit` package _—_ a series of Gas Town formulas he published, which now has its own little user subcommunity. Dane’s formulas help you run his ambitious long running idea-to-delivery workflow, which is geared at comprehensive feature development and moving through mountains of work with his Gas Towns. My own PR workflow is now a formula as well.
+
+
+> Since 99% of my incoming PR submissions are AI-generated, it stands to reason that I could reduce my workload by 99% by saying “No AI PRs.”
+
+> Most OSS maintainers go this route. They straight-up forbid AI-generated or even AI-assisted pull requests. And I can understand why.
+
+> We hear comical stories of once-rejected PRs suddenly being accepted after they’re resubmitted with all the AI DNA scrubbed from the crime scene... But that’s the official party line for most OSS projects today: “No AI.” It all has to be done by sneaking.
+
+> Here’s the problem with that old-school approach. We are headed toward a world in which if you refuse enough PRs, the community will consider you a dead-end street and begin routing around you. They might even develop a community around their version.
+
+> It’s always been trivial to create a fork. The hard part has always been maintaining the fork. It used to take a good-sized team to support a fork, which was almost like a rival gang. Nobody liked a fork. There was always bad blood.
+> Today, things are astoundingly different. With the coding agents of 2026, everyone who loves your software is a credible threat to forking you.
+
+> My own approach is radically different from how most OSS maintainers work: I say Yes to AI. Instead of rejecting AI submissions, I encourage everyone to use AI to submit their PRs (subject to a growing list of hygiene rules). Indeed, I both observe and expect 99% of incoming PRs to be AI-assisted.
+
+> Instead of requiring perfect PRs from everyone, I aim to find a quick resolution that is satisfying to all parties. I accept most PRs, but still maintain hard lines on architecture, what goes in core, code quality, and many other AI-era design principles (e.g. [ZFC](https://steve-yegge.medium.com/zero-framework-cognition-a-way-to-build-resilient-ai-applications-56b090ed3e69)). ==If I were to send every PR back to the contributor for fixes, the rest of the community might be losing out on some important fix or feature for days to weeks.== And there it is, sitting there in the PR; it just has issues with it.
+
+
+> In this situation, if you want to maximize throughput, then you may need to fix the contributor’s code yourself before it can be merged. Most OSS maintainers say, “Go fix your code.” ==I try my best to fix it myself and get it merged. There’s an art to this that I’ll discuss below.==
+
+> My core philosophy is, **help contributors get to the finish line**. I optimize for community throughput. I review every PR and try to find the value in it, and have my worker agents do something appropriate for each one.
+
+
+(Then he gives an interesting description of some of the techniques and tools he uses)
 
 
 

@@ -1,10 +1,3 @@
 
 
 
-
-# git hooks
-
-
-# git worktree
-
-

@@ -15,7 +15,7 @@ Beads:
 - Key properties:
 	- First-class dependencies: 4 link types (==blocking==, ==parent/child==, ==discovered-from==, provenance)
 	- `bd ready --json`: Agents query for unblocked work instantly, no text parsing
-	- [[JSON Lines|JSONL]] + [[git]]: Stored as JSONL lines in git, giving both querability and version history. [[SQLite]] is used as well for queryability.
+	- [[JSON Lines|JSONL]] + [[Git]]: Stored as JSONL lines in git, giving both querability and version history. [[SQLite]] is used as well for queryability.
 		- Unlike Github Issues (flat) or Jira (two levels max), Beads supports unlimited parent/child nesting, which examples modeling genuinely complex long-horizon plans.
 	- Distributed: Multiple agents on multiple machines can share the same DB via git; AI resolves merge conflicts.
 

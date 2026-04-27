@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geospatial Fundamentals</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #22263a;
+    --accent: #4f8ef7;
+    --accent2: #6ee7b7;
+    --accent3: #f59e0b;
+    --text: #e2e8f0;
+    --muted: #8892a4;
+    --border: #2d3348;
+    --red: #f87171;
+    --purple: #a78bfa;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  #progress-bar {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    transition: width 0.3s ease;
+    z-index: 100;
+  }
+
+  #nav {
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    z-index: 100;
+    background: rgba(26, 29, 39, 0.9);
+    backdrop-filter: blur(8px);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid var(--border);
+  }
+
+  #nav button {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.2s;
+  }
+  #nav button:hover { background: var(--accent); }
+  #nav button:disabled { opacity: 0.3; cursor: default; }
+  #nav button:disabled:hover { background: var(--surface2); }
+
+  #counter {
+    font-size: 13px;
+    color: var(--muted);
+    min-width: 60px;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  #slides {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 100px 100px;
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .slide.active {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: all;
+  }
+
+  .slide.exit-left {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+
+  /* Title slide */
+  .slide.title {
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(ellipse at 60% 40%, rgba(79,142,247,0.08) 0%, transparent 70%),
+                radial-gradient(ellipse at 30% 70%, rgba(110,231,183,0.06) 0%, transparent 60%);
+  }
+
+  .slide-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: clamp(42px, 5vw, 64px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: clamp(28px, 3.5vw, 42px);
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    color: #fff;
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--accent2);
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--muted);
+    max-width: 780px;
+    margin-bottom: 16px;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 980px;
+  }
+
+  /* Cards */
+  .cards {
+    display: grid;
+    gap: 16px;
+    width: 100%;
+    max-width: 980px;
+  }
+  .cards.cols-2 { grid-template-columns: 1fr 1fr; }
+  .cards.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+  }
+
+  .card-title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: var(--accent);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .card p {
+    font-size: 15px;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+
+  /* Lists */
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 820px;
+  }
+
+  li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--muted);
+    padding-left: 24px;
+    position: relative;
+  }
+
+  li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  li strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* Highlight chips */
+  .chip {
+    display: inline-block;
+    background: rgba(79,142,247,0.12);
+    color: var(--accent);
+    border: 1px solid rgba(79,142,247,0.25);
+    border-radius: 6px;
+    padding: 3px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 6px;
+    margin-bottom: 4px;
+  }
+
+  .chip.green {
+    background: rgba(110,231,183,0.1);
+    color: var(--accent2);
+    border-color: rgba(110,231,183,0.2);
+  }
+
+  .chip.amber {
+    background: rgba(245,158,11,0.1);
+    color: var(--accent3);
+    border-color: rgba(245,158,11,0.2);
+  }
+
+  .chip.red {
+    background: rgba(248,113,113,0.1);
+    color: var(--red);
+    border-color: rgba(248,113,113,0.2);
+  }
+
+  .chip.purple {
+    background: rgba(167,139,250,0.1);
+    color: var(--purple);
+    border-color: rgba(167,139,250,0.2);
+  }
+
+  /* Code */
+  code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 14px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 2px 7px;
+    color: var(--accent2);
+  }
+
+  pre {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 22px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: var(--accent2);
+    overflow-x: auto;
+    max-width: 820px;
+    margin-bottom: 16px;
+  }
+
+  /* Table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 820px;
+    font-size: 15px;
+  }
+
+  th {
+    text-align: left;
+    padding: 10px 14px;
+    background: var(--surface2);
+    color: var(--text);
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid var(--border);
+  }
+
+  td {
+    padding: 9px 14px;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    background: var(--surface);
+  }
+
+  td:first-child { color: var(--text); font-weight: 500; }
+
+  /* Big number */
+  .big-num {
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -3px;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  /* Divider */
+  .divider {
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  /* Two columns layout */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    width: 100%;
+    max-width: 980px;
+    align-items: start;
+  }
+
+  /* Formula box */
+  .formula {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    color: var(--accent2);
+    display: inline-block;
+    margin: 12px 0 18px;
+  }
+
+  /* Callout */
+  .callout {
+    background: rgba(79,142,247,0.07);
+    border: 1px solid rgba(79,142,247,0.2);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 15px;
+    color: var(--text);
+    max-width: 820px;
+    line-height: 1.6;
+    margin-top: 12px;
+  }
+
+  .callout.amber {
+    background: rgba(245,158,11,0.07);
+    border-color: rgba(245,158,11,0.2);
+    border-left-color: var(--accent3);
+  }
+
+  .callout.green {
+    background: rgba(110,231,183,0.07);
+    border-color: rgba(110,231,183,0.2);
+    border-left-color: var(--accent2);
+  }
+
+  /* Keyboard hint */
+  #hint {
+    position: fixed;
+    bottom: 28px;
+    right: 32px;
+    font-size: 12px;
+    color: var(--border);
+  }
+
+  /* slide-specific background accents */
+  .slide:nth-child(odd) {
+    background: radial-gradient(ellipse at 80% 20%, rgba(79,142,247,0.04) 0%, transparent 60%);
+  }
+  .slide:nth-child(even) {
+    background: radial-gradient(ellipse at 20% 80%, rgba(110,231,183,0.03) 0%, transparent 60%);
+  }
+</style>
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<div id="slides">
+
+  <!-- SLIDE 1: Title -->
+  <div class="slide title active">
+    <div class="slide-label">Study Notes · April 2026</div>
+    <h1>Geospatial<br>Fundamentals</h1>
+    <p class="subtitle">From coordinate systems and data models to remote sensing, cloud-native formats, and spatial indexing.</p>
+    <div style="margin-top:32px; display:flex; gap:8px; flex-wrap:wrap;">
+      <span class="chip">CRS & Projections</span>
+      <span class="chip green">Raster & Vector</span>
+      <span class="chip amber">Remote Sensing</span>
+      <span class="chip purple">SAR & LiDAR</span>
+      <span class="chip">Cloud-Native</span>
+      <span class="chip red">STAC & COG</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: Raster vs Vector -->
+  <div class="slide">
+    <div class="slide-label">Data Models</div>
+    <h2>Raster vs Vector</h2>
+    <div class="divider"></div>
+    <div class="cards cols-2">
+      <div class="card">
+        <div class="card-title">🟦 Raster</div>
+        <p>A <strong>continuous field</strong> represented as a grid of cells (pixels). Each cell holds a numeric value.</p>
+        <ul style="margin-top:12px;">
+          <li>Satellite imagery (pixels = color values)</li>
+          <li>Elevation models (pixels = meters ASL)</li>
+          <li>Temperature grids, land cover maps</li>
+        </ul>
+        <div style="margin-top:14px;">
+          <span class="chip green">GeoTIFF</span>
+          <span class="chip green">COG</span>
+          <span class="chip green">Zarr</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">📐 Vector</div>
+        <p><strong>Discrete geometric shapes</strong> with attributes attached. Three types:</p>
+        <ul style="margin-top:12px;">
+          <li><strong>Point:</strong> crime incident, tree, 311 call</li>
+          <li><strong>Line:</strong> street segment, river, route</li>
+          <li><strong>Polygon:</strong> neighborhood, parcel, park</li>
+        </ul>
+        <div style="margin-top:14px;">
+          <span class="chip">GeoJSON</span>
+          <span class="chip">GeoPackage</span>
+          <span class="chip">FlatGeobuf</span>
+        </div>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:20px;">
+      Vector answers <strong>"Where is this thing?"</strong> with precise boundaries. Raster answers <strong>"What value exists at every point?"</strong> with continuous fields.
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Vector Formats -->
+  <div class="slide">
+    <div class="slide-label">Data Formats</div>
+    <h2>Vector Formats</h2>
+    <div class="divider"></div>
+    <table>
+      <tr>
+        <th>Format</th>
+        <th>Best For</th>
+        <th>Key Gotcha</th>
+      </tr>
+      <tr>
+        <td>Shapefile (.shp)</td>
+        <td>Legacy compatibility, government downloads</td>
+        <td>Split across 3+ files, 10-char column names, 2GB limit</td>
+      </tr>
+      <tr>
+        <td>GeoJSON</td>
+        <td>Web APIs, small datasets, config boundaries</td>
+        <td>Verbose, no spatial index, WGS84 only, 50MB+ for cities</td>
+      </tr>
+      <tr>
+        <td>GeoPackage (.gpkg)</td>
+        <td>Local storage, replacing Shapefiles</td>
+        <td>Not suited for concurrent writes or cloud-native access</td>
+      </tr>
+      <tr>
+        <td>FlatGeobuf (.fgb)</td>
+        <td>Serving from S3/CDN via range requests</td>
+        <td>Spatial index must be at file start; binary, not human-readable</td>
+      </tr>
+      <tr>
+        <td>GeoParquet</td>
+        <td>Analytics, large datasets, DuckDB/Spark</td>
+        <td>Columnar; needs tooling (not a single-file viewer like QGIS)</td>
+      </tr>
+    </table>
+    <div class="callout amber" style="margin-top:20px;">
+      <strong>Avoid Shapefiles</strong> when you have a choice. GeoJSON for small web data, GeoPackage for local exchange, GeoParquet for analytics.
+    </div>
+  </div>
+
+  <!-- SLIDE 4: CRS -->
+  <div class="slide">
+    <div class="slide-label">Coordinate Systems</div>
+    <h2>Coordinate Reference Systems</h2>
+    <div class="divider"></div>
+    <div class="two-col">
+      <div>
+        <p><strong>Latitude</strong> = North/South, –90 to 90 (negative = south of equator)<br>
+        <strong>Longitude</strong> = East/West, –180 to 180 (negative = west of Greenwich)</p>
+        <div class="callout amber" style="margin-top:0; margin-bottom:20px;">
+          ⚠️ <strong>Gotcha:</strong> GeoJSON, Mapbox, and most web APIs use <code>(lon, lat)</code> order — not lat/lon! Many bugs come from swapping these.
+        </div>
+        <h3>Common EPSG Codes</h3>
+        <ul>
+          <li><strong>EPSG:4326</strong> (WGS84) — Storing coordinates, GPS output, GeoJSON</li>
+          <li><strong>EPSG:3857</strong> (Web Mercator) — Displaying tiles in web maps</li>
+          <li><strong>Local projected CRS</strong> — Accurate distance/area calculations</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Two Coordinate Types</h3>
+        <div class="card" style="margin-bottom:12px;">
+          <div class="card-title">Geodetic (EPSG:4326)</div>
+          <p>Position expressed as latitude, longitude, height. Origin is the ellipsoid surface. What GPS gives you. <em>Note: geodetic latitude ≠ geocentric latitude</em> due to Earth's flattened poles.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">Geocentric (XYZ)</div>
+          <p>Origin is Earth's center of mass. Position as (X, Y, Z) in a Cartesian system. Used in satellite orbital mechanics.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: Projections -->
+  <div class="slide">
+    <div class="slide-label">Projections</div>
+    <h2>Map Projections</h2>
+    <div class="divider"></div>
+    <p>The Earth is an oblate spheroid. A projection is the mathematical transformation to a flat map. <strong>All projections distort something.</strong></p>
+    <div class="cards cols-3" style="margin-bottom:20px;">
+      <div class="card">
+        <div class="card-title">Conformal</div>
+        <p>Preserves <strong>local angles and shapes</strong>. Good for navigation.</p>
+        <div style="margin-top:10px;"><span class="chip">Web Mercator</span><span class="chip">UTM</span></div>
+        <p style="margin-top:8px; font-size:13px; color:var(--red);">Distorts: area (Greenland looks bigger than Africa)</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Equal-Area</div>
+        <p>Preserves <strong>area</strong>. Good for statistical analysis and comparisons.</p>
+        <div style="margin-top:10px;"><span class="chip green">Albers Equal Area</span></div>
+        <p style="margin-top:8px; font-size:13px; color:var(--red);">Distorts: shape and angles</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Equidistant</div>
+        <p>Preserves <strong>distance</strong> from a specific point. Good for range/coverage analysis.</p>
+        <div style="margin-top:10px;"><span class="chip amber">Azimuthal Equidistant</span></div>
+        <p style="margin-top:8px; font-size:13px; color:var(--red);">Distorts: area and shape elsewhere</p>
+      </div>
+    </div>
+    <div class="callout">
+      <strong>Rule:</strong> Store in EPSG:4326 (universal, what every API gives you). Display on web maps in EPSG:3857 (tile renderer handles conversion). Calculate distances/areas in a local projected CRS or use PostGIS's <code>geography</code> type.
+    </div>
+  </div>
+
+  <!-- SLIDE 6: Remote Sensing Overview -->
+  <div class="slide">
+    <div class="slide-label">Earth Observation</div>
+    <h2>Remote Sensing</h2>
+    <div class="divider"></div>
+    <p>Acquiring information about the Earth without making physical contact — using satellite or airborne sensors to detect and classify objects.</p>
+    <div class="cards cols-2">
+      <div class="card">
+        <div class="card-title">⚡ Active Sensing</div>
+        <p>Sensor <strong>emits a signal</strong> and measures the return. Works day or night, through clouds.</p>
+        <ul style="margin-top:12px;">
+          <li><strong>SAR (RADAR):</strong> Microwave pulses, measures backscatter</li>
+          <li><strong>LiDAR:</strong> Laser pulses, measures time-of-flight</li>
+          <li><strong>Altimeter:</strong> Measures height above surface</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">☀️ Passive Sensing</div>
+        <p>Sensor <strong>detects reflected sunlight</strong> or emitted radiation. Cannot penetrate clouds.</p>
+        <ul style="margin-top:12px;">
+          <li><strong>Optical:</strong> Visible and near-infrared bands</li>
+          <li><strong>Thermal IR:</strong> Detects heat emitted by surfaces</li>
+          <li><strong>Hyperspectral:</strong> Hundreds of narrow wavelength bands</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:20px;">
+      <strong>Fundamental principle:</strong> All objects above absolute zero emit electromagnetic radiation. The amount reflected depends on surface roughness and albedo (reflectivity).
+    </div>
+  </div>
+
+  <!-- SLIDE 7: Resolution Types -->
+  <div class="slide">
+    <div class="slide-label">Remote Sensing</div>
+    <h2>Four Types of Resolution</h2>
+    <div class="divider"></div>
+    <div class="cards cols-2">
+      <div class="card">
+        <div class="card-title">📏 Spatial Resolution</div>
+        <p>The size of one pixel on the ground. Ranges from &lt;30cm (Maxar commercial) to 1km+ (weather satellites).</p>
+      </div>
+      <div class="card">
+        <div class="card-title">🌈 Spectral Resolution</div>
+        <p>The number and width of wavelength bands captured. RGB = 3 bands; Landsat = 7+ bands; Hyperspectral = 200+ bands.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">💡 Radiometric Resolution</div>
+        <p>The number of intensity levels the sensor can distinguish. Typically 8–14 bits (256 to 16,384 shades) per band.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">🕐 Temporal Resolution</div>
+        <p>How often the satellite revisits the same location. Ranges from minutes (geostationary) to weeks (high-res commercial).</p>
+      </div>
+    </div>
+    <div class="callout amber" style="margin-top:20px;">
+      There's always a tradeoff: higher spatial resolution usually means narrower swath width, lower revisit frequency, and higher cost.
+    </div>
+  </div>
+
+  <!-- SLIDE 8: Processing Levels -->
+  <div class="slide">
+    <div class="slide-label">Remote Sensing</div>
+    <h2>Data Processing Levels</h2>
+    <div class="divider"></div>
+    <p>A taxonomy defined by NASA in 1986, now widely adopted:</p>
+    <table>
+      <tr><th>Level</th><th>Description</th><th>Usability</th></tr>
+      <tr><td>L0</td><td>Raw, unprocessed instrument data; communication artifacts removed</td><td>Specialist only</td></tr>
+      <tr><td>L1a</td><td>L0 + calibration coefficients appended (not applied). The fundamental data record.</td><td>Specialist only</td></tr>
+      <tr><td>L1b</td><td>L1a processed to sensor units (e.g. radar backscatter, brightness temperature)</td><td>Advanced users</td></tr>
+      <tr><td>L2</td><td>Derived geophysical variables (ocean wave height, soil moisture). <strong>First directly usable level.</strong></td><td>✅ Most science</td></tr>
+      <tr><td>L3</td><td>Variables mapped onto uniform space-time grids; missing data interpolated, mosaicked</td><td>✅ Most applications</td></tr>
+      <tr><td>L4</td><td>Model outputs or analyses derived from lower-level data (not directly measured)</td><td>✅ End products</td></tr>
+    </table>
+    <div class="callout green" style="margin-top:20px;">
+      <strong>L2 = Top of Atmosphere (ToA)</strong> — geometrically corrected, geolocated, but with atmospheric haze.<br>
+      <strong>L2 = Surface Reflectance (SR)</strong> — atmospheric correction applied; better for surface analysis, worse if studying the atmosphere.
+    </div>
+  </div>
+
+  <!-- SLIDE 9: Spectral Indices -->
+  <div class="slide">
+    <div class="slide-label">Spectral Analysis</div>
+    <h2>Spectral Indices</h2>
+    <div class="divider"></div>
+    <p>Mathematical combinations of spectral bands that highlight specific surface properties.</p>
+    <div class="cards cols-2" style="margin-bottom:20px;">
+      <div class="card">
+        <div class="card-title">🌿 NDVI — Vegetation</div>
+        <div class="formula">(NIR − Red) / (NIR + Red)</div>
+        <ul>
+          <li><strong>0.6–0.9:</strong> Dense healthy vegetation</li>
+          <li><strong>0.2–0.5:</strong> Sparse / grassland</li>
+          <li><strong>−0.1–0.1:</strong> Rock, sand, snow, dead vegetation</li>
+          <li><strong>Negative:</strong> Water, clouds</li>
+        </ul>
+        <p style="margin-top:10px; font-size:14px;">The NDVI curve over time distinguishes crop types — corn peaks at a different time than soy.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Other Common Indices</div>
+        <ul>
+          <li><strong>NDWI:</strong> (Green − NIR) / (Green + NIR) — water bodies</li>
+          <li><strong>NDBI:</strong> (SWIR − NIR) / (SWIR + NIR) — built-up areas</li>
+          <li><strong>NBR:</strong> (NIR − SWIR) / (NIR + SWIR) — burn severity</li>
+          <li><strong>NDRE:</strong> Red-edge band — crop stress, nitrogen content</li>
+          <li><strong>LST:</strong> Land Surface Temperature from thermal bands</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout amber">
+      NDVI saturates in dense canopies and is sensitive to atmospheric conditions and soil background. The red-edge band (Sentinel-2 has it; Landsat doesn't) significantly improves vegetation analysis.
+    </div>
+  </div>
+
+  <!-- SLIDE 10: SAR -->
+  <div class="slide">
+    <div class="slide-label">Active Remote Sensing</div>
+    <h2>Synthetic Aperture Radar (SAR)</h2>
+    <div class="divider"></div>
+    <p>An active radar system that emits microwave pulses and measures backscattered energy. Works <strong>day or night, through clouds and smoke.</strong></p>
+    <div class="two-col">
+      <div>
+        <h3>Why SAR Matters</h3>
+        <ul>
+          <li>Weather-independent — microwaves penetrate clouds</li>
+          <li>Sensitive to surface roughness and moisture</li>
+          <li>Can detect <strong>millimeter-scale surface deformation</strong> (InSAR)</li>
+          <li>Penetrates vegetation; L-band reaches soil beneath canopy</li>
+        </ul>
+        <h3>Radar Bands</h3>
+        <div style="margin-top:8px;">
+          <span class="chip">X-band</span><span style="font-size:13px;color:var(--muted)"> High resolution, Sentinel-1 alt.</span><br><br>
+          <span class="chip green">C-band</span><span style="font-size:13px;color:var(--muted)"> Sentinel-1, Radarsat</span><br><br>
+          <span class="chip amber">L-band</span><span style="font-size:13px;color:var(--muted)"> Penetrates vegetation, soil</span><br><br>
+          <span class="chip purple">P-band</span><span style="font-size:13px;color:var(--muted)"> Deepest penetration, biomass</span>
+        </div>
+      </div>
+      <div>
+        <h3>Polarization</h3>
+        <div class="card">
+          <p>Each pulse can be sent and received in horizontal (H) or vertical (V) polarization.</p>
+          <ul style="margin-top:10px;">
+            <li><strong>VV:</strong> Best for ocean surface, urban</li>
+            <li><strong>VH:</strong> Best for vegetation volume scattering</li>
+            <li><strong>HH:</strong> Penetrates into vegetation/soil</li>
+            <li><strong>Quad-pol:</strong> All 4; richest info but larger data</li>
+          </ul>
+        </div>
+        <div class="callout green" style="margin-top:12px;">
+          <strong>InSAR:</strong> Interfering two SAR acquisitions to measure surface deformation at mm precision. Used for earthquake monitoring, subsidence, volcanic activity.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 11: LiDAR -->
+  <div class="slide">
+    <div class="slide-label">Active Remote Sensing</div>
+    <h2>LiDAR</h2>
+    <div class="divider"></div>
+    <p>Emits laser pulses and measures time-of-flight to build a <strong>3D point cloud</strong> — millions of XYZ coordinates with intensity values.</p>
+    <div class="two-col">
+      <div>
+        <h3>Key Superpower: Multiple Returns</h3>
+        <ul>
+          <li>One laser pulse can generate <strong>2–5+ returns</strong></li>
+          <li><strong>First return:</strong> Top of tree canopy → DSM</li>
+          <li><strong>Last return:</strong> Ground through vegetation gaps → DTM</li>
+          <li>DSM − DTM = <strong>Canopy Height Model (CHM)</strong></li>
+        </ul>
+        <div class="callout green" style="margin-top:14px;">
+          No other technology reliably sees through vegetation to the ground at scale. This makes LiDAR irreplaceable for forestry and bare-earth terrain.
+        </div>
+      </div>
+      <div>
+        <h3>ASPRS Classification Codes</h3>
+        <pre style="font-size:12px; margin:0;">Class 2:  Ground
+Class 3:  Low vegetation (0–0.5m)
+Class 4:  Medium vegetation
+Class 5:  High vegetation (>2m)
+Class 6:  Building
+Class 9:  Water
+Class 17: Bridge deck</pre>
+        <h3>Point Density</h3>
+        <ul>
+          <li><strong>1 pt/m²:</strong> Decent DEM</li>
+          <li><strong>8 pts/m²:</strong> Reliable building extraction</li>
+          <li><strong>25+ pts/m²:</strong> Individual tree measurement</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 12: Elevation Models -->
+  <div class="slide">
+    <div class="slide-label">Terrain Data</div>
+    <h2>Elevation Models</h2>
+    <div class="divider"></div>
+    <div class="cards cols-3" style="margin-bottom:24px;">
+      <div class="card">
+        <div class="card-title">DEM</div>
+        <p><strong>Digital Elevation Model</strong> — generic term for any elevation dataset. Can refer to either DSM or DTM depending on context.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">DSM</div>
+        <p><strong>Digital Surface Model</strong> — Includes everything on the surface: buildings, trees, vehicles. First LiDAR return.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">DTM</div>
+        <p><strong>Digital Terrain Model</strong> — Bare earth only; above-ground objects filtered out. Last LiDAR return.</p>
+      </div>
+    </div>
+    <h3>How Elevation Models Are Created</h3>
+    <table>
+      <tr><th>Method</th><th>How</th><th>Accuracy</th></tr>
+      <tr><td>LiDAR</td><td>Active laser ranging; last return = ground</td><td>Best (±5cm)</td></tr>
+      <tr><td>InSAR</td><td>Phase difference between two SAR passes (SRTM)</td><td>~1–10m</td></tr>
+      <tr><td>Stereophotogrammetry</td><td>Feature matching from two optical images at different angles</td><td>~1–5m</td></tr>
+      <tr><td>Structure from Motion (SfM)</td><td>Many overlapping drone images; common for site surveys</td><td>~2–10cm</td></tr>
+    </table>
+    <div class="callout" style="margin-top:16px;">
+      <strong>SRTM</strong> (Shuttle Radar Topography Mission, 2000) is the most widely used free global DEM at 30m resolution, created via InSAR.
+    </div>
+  </div>
+
+  <!-- SLIDE 13: Common EO Tasks -->
+  <div class="slide">
+    <div class="slide-label">Applications</div>
+    <h2>Common Remote Sensing Tasks</h2>
+    <div class="divider"></div>
+    <div class="cards cols-2">
+      <div class="card">
+        <div class="card-title">🔄 Change Detection</div>
+        <p>Detect what changed between two observations. Band differencing, NDVI delta, SAR coherence. Challenge: separating real change from seasonal variation and atmospheric noise.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">🗺 Land Cover Classification</div>
+        <p>Assign every pixel to a class (forest, water, urban, cropland). Note: <em>land cover</em> (what's there) ≠ <em>land use</em> (what it's used for).</p>
+      </div>
+      <div class="card">
+        <div class="card-title">🏗 Object Detection</div>
+        <p>Detect and delineate specific objects: buildings, ships, vehicles, solar panels. Deep learning dominant now. Challenge: tiny objects, sparse labels, geographic generalization.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">📈 Time-Series Analysis</div>
+        <p>Track <em>how</em> pixel values change over time. Phenology (crop growth cycles), deforestation trends, drought stress. Challenge: gaps from clouds and atmospheric noise.</p>
+      </div>
+    </div>
+    <div class="callout amber" style="margin-top:20px;">
+      Every remote sensing product needs validation — confusion matrices, per-class precision/recall. A product without rigorous accuracy assessment is <strong>scientifically incomplete.</strong>
+    </div>
+  </div>
+
+  <!-- SLIDE 14: Web Map Tiles -->
+  <div class="slide">
+    <div class="slide-label">Web Mapping</div>
+    <h2>Web Map Tiles</h2>
+    <div class="divider"></div>
+    <p>Web maps divide the world into a pyramid of square tiles, each addressed by <code>Z/X/Y</code> — zoom level, column, row.</p>
+    <div class="cards cols-2" style="margin-bottom:20px;">
+      <div class="card">
+        <div class="card-title">Zoom Level Scale</div>
+        <ul>
+          <li><strong>Zoom 0:</strong> Entire world in 1 tile</li>
+          <li><strong>Zoom 1:</strong> 4 tiles (doubles in each dimension)</li>
+          <li><strong>Zoom 15:</strong> ~1 billion tiles (street level)</li>
+          <li><strong>Zoom 20:</strong> Building-level detail</li>
+        </ul>
+        <p style="margin-top:12px; font-size:14px;">Each zoom level quadruples the tile count. ~22 zoom levels cover all practical use cases.</p>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:12px;">
+          <div class="card-title">🖼 Raster Tiles</div>
+          <p>Pre-rendered PNG/JPEG images. Simple to serve via CDN. Used for satellite imagery basemaps. Not interactive — can't change style or query features.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">⚡ Vector Tiles (.pbf)</div>
+          <p>Binary geometry + properties. <strong>Rendering happens in the browser.</strong> Styles can change, features are queryable, tiles are smaller. Used by MapLibre GL JS and Mapbox GL JS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="callout green">
+      Tools: <strong>pg_tileserv</strong> (Go, from PostGIS on-demand) · <strong>Martin</strong> (Rust, high performance) · <strong>TiTiler</strong> (Python, raster tiles from COGs)
+    </div>
+  </div>
+
+  <!-- SLIDE 15: Cloud-Native Geospatial -->
+  <div class="slide">
+    <div class="slide-label">Architecture</div>
+    <h2>Cloud-Native Geospatial</h2>
+    <div class="divider"></div>
+    <p>A philosophy for storing and accessing geospatial data designed from the ground up for <strong>cloud object storage</strong> — not adapted from legacy GIS workflows.</p>
+    <div class="callout" style="margin-bottom:20px;">
+      The shift is analogous to web apps moving from server-rendered pages to APIs + client-side rendering. Analysis that required downloading TBs can now run against data in place.
+    </div>
+    <div class="cards cols-3">
+      <div class="card">
+        <div class="card-title">📁 COG</div>
+        <p>Cloud-Optimized GeoTIFF — rasters reorganized for HTTP range requests. Serves map tiles without loading the full file.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">📊 GeoParquet</div>
+        <p>Columnar vector format built on Apache Parquet. Query massive datasets with DuckDB or Spark without downloading everything.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">🗂 STAC</div>
+        <p>SpatioTemporal Asset Catalog — standardized metadata for discovering geospatial assets. The map to your data.</p>
+      </div>
+    </div>
+    <div style="margin-top:20px; font-size:14px; color:var(--muted);">
+      Standards stewarded by the <strong>Cloud-Native Geospatial Foundation</strong> (Linux Foundation project). Members include AWS, Microsoft, Google, ESRI, Planet, Maxar.
+    </div>
+  </div>
+
+  <!-- SLIDE 16: COG -->
+  <div class="slide">
+    <div class="slide-label">Cloud-Native Formats</div>
+    <h2>Cloud-Optimized GeoTIFF (COG)</h2>
+    <div class="divider"></div>
+    <div class="two-col">
+      <div>
+        <h3>The Problem with Classic GeoTIFF</h3>
+        <p>Pixels stored row-by-row. To serve a map tile, you'd need to decompress the entire file to extract relevant pixels. <strong>Unusable for on-demand tile serving.</strong></p>
+        <h3>COG Internal Structure</h3>
+        <ul>
+          <li><strong>Index at the start:</strong> Small header listing where every tile and overview lives</li>
+          <li><strong>Tiled internally:</strong> Pixels stored in 256×256 or 512×512 squares</li>
+          <li><strong>Overview pyramids:</strong> Pre-downsampled versions at multiple zoom levels, all inside one file</li>
+        </ul>
+      </div>
+      <div>
+        <div class="callout green">
+          <strong>Result:</strong> A 5GB satellite image on S3 can serve web map tiles by fetching only the bytes needed — without ever loading the full image into memory.
+        </div>
+        <div class="card" style="margin-top:14px;">
+          <div class="card-title">HTTP Range Request</div>
+          <p>Fetch the header → find where zoom-level-8 tiles are → issue a range request for exactly those bytes → return the 256×256 tile. No full download needed.</p>
+        </div>
+        <div class="callout amber" style="margin-top:12px;">
+          <strong>STAC + COG is the standard stack</strong> for satellite imagery: STAC tells you what exists and where, COG lets you efficiently read only the spatial subset you need.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 17: STAC -->
+  <div class="slide">
+    <div class="slide-label">Metadata Standard</div>
+    <h2>STAC — SpatioTemporal Asset Catalog</h2>
+    <div class="divider"></div>
+    <p>An open specification for describing geospatial assets in a consistent, searchable way. <strong>STAC is metadata, not data.</strong> It is the map to your data; your map and data don't need to live in the same place.</p>
+    <div class="cards cols-2" style="margin-bottom:16px;">
+      <div>
+        <div class="card" style="margin-bottom:12px;">
+          <div class="card-title">4 Components</div>
+          <ul>
+            <li><strong>Catalog:</strong> Top-level container (file folder)</li>
+            <li><strong>Collection:</strong> Groups related items + temporal/spatial context</li>
+            <li><strong>Item:</strong> One scene/asset; a GeoJSON feature with STAC fields</li>
+            <li><strong>Assets:</strong> Actual files (COGs, Zarr stores) that the Item points to</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:12px;">
+          <div class="card-title">Static vs Dynamic Catalogs</div>
+          <p><strong>Static:</strong> JSON blobs in object storage. Simple, no servers needed. Great for full scans; bad for search.</p>
+          <p style="margin-top:8px;"><strong>Dynamic (API):</strong> Database-backed. Filter by bbox, datetime, cloud cover. Bad for full scans; great for search.</p>
+        </div>
+      </div>
+    </div>
+    <div class="callout">
+      Key pattern: Search API returns Items; Items point to COG assets in S3; your code issues HTTP range requests directly to those COGs. No intermediate server required.
+    </div>
+  </div>
+
+  <!-- SLIDE 18: H3 Spatial Indexing -->
+  <div class="slide">
+    <div class="slide-label">Spatial Indexing</div>
+    <h2>H3 — Hierarchical Hexagonal Indexing</h2>
+    <div class="divider"></div>
+    <div class="two-col">
+      <div>
+        <h3>Why Hexagons?</h3>
+        <ul>
+          <li>Exactly <strong>6 equidistant neighbors</strong> (squares have 8, diagonals are further)</li>
+          <li>Consistent for spatial smoothing and neighbor queries</li>
+          <li>No gaps or overlaps; look better on maps</li>
+        </ul>
+        <h3>Key Properties</h3>
+        <ul>
+          <li><strong>Hierarchical:</strong> Each res-8 cell contains exactly 7 res-9 cells</li>
+          <li><strong>Universal:</strong> Any lat/lon → H3 index is O(1), pure function</li>
+          <li>Parent lookup = a bitmask operation, not a table lookup</li>
+        </ul>
+        <div class="callout amber" style="margin-top:14px;">
+          H3 has 12 pentagonal cells (icosahedron artifact) with only 5 neighbors — watch for edge cases in spatial algorithms.
+        </div>
+      </div>
+      <div>
+        <h3>Resolution Reference</h3>
+        <pre style="font-size:12.5px; margin:0 0 12px 0;">Res 6  ≈ 36 km²   city scale
+Res 7  ≈ 5.2 km²  large neighborhood
+Res 8  ≈ 0.7 km²  few city blocks ← sweet spot
+Res 9  ≈ 0.1 km²  one block face
+Res 10 ≈ 0.015 km² half a block
+Res 12 ≈ 0.0003 km² building scale</pre>
+        <div class="card">
+          <div class="card-title">Typical Usage Pattern</div>
+          <p><strong>H3 column + B-Tree index</strong> for "paint the city" aggregation views.</p>
+          <p style="margin-top:8px;"><strong>geometry column + GiST index</strong> for "what's near this specific point" detail queries.</p>
+          <p style="margin-top:8px; font-size:13px;">They're complementary — use both.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 19: Notable Satellites & Data Sources -->
+  <div class="slide">
+    <div class="slide-label">Data Sources</div>
+    <h2>Key Satellite Datasets</h2>
+    <div class="divider"></div>
+    <table>
+      <tr><th>Satellite</th><th>Type</th><th>Resolution</th><th>Revisit</th><th>Notes</th></tr>
+      <tr><td>Sentinel-2</td><td>Optical (MSI)</td><td>10m (vis)</td><td>5 days</td><td>Free, 13 bands, ESA. ~100k new images/week</td></tr>
+      <tr><td>Landsat 8/9</td><td>Optical</td><td>30m</td><td>16 days</td><td>Free, USGS, 50+ year archive</td></tr>
+      <tr><td>Sentinel-1</td><td>SAR (C-band)</td><td>5×20m</td><td>6–12 days</td><td>Free, ESA, cloud-penetrating</td></tr>
+      <tr><td>Planet (PlanetScope)</td><td>Optical</td><td>3m</td><td>Daily</td><td>Commercial, largest constellation</td></tr>
+      <tr><td>Maxar WorldView</td><td>Optical</td><td>30cm</td><td>Tasking</td><td>Commercial, highest resolution</td></tr>
+      <tr><td>ICEYE</td><td>SAR (X-band)</td><td>&lt;1m</td><td>Hours</td><td>Commercial, maritime + disaster</td></tr>
+      <tr><td>SRTM</td><td>Elevation (InSAR)</td><td>30m</td><td>One-time (2000)</td><td>Free global DEM</td></tr>
+      <tr><td>USGS 3DEP</td><td>LiDAR</td><td>1m+</td><td>Varies</td><td>Free US national LiDAR program</td></tr>
+    </table>
+  </div>
+
+  <!-- SLIDE 20: Summary -->
+  <div class="slide">
+    <div class="slide-label">Summary</div>
+    <h2>The Mental Model</h2>
+    <div class="divider"></div>
+    <div class="cards cols-2">
+      <div class="card">
+        <div class="card-title">Store & Exchange</div>
+        <ul>
+          <li><strong>WGS84 (EPSG:4326)</strong> for coordinates at rest</li>
+          <li><strong>GeoJSON</strong> for small vector data, APIs</li>
+          <li><strong>GeoParquet</strong> for large vector analytics</li>
+          <li><strong>COG</strong> for raster in the cloud</li>
+          <li><strong>STAC</strong> for discovering any of the above</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Analyze & Compute</div>
+        <ul>
+          <li><strong>Project locally</strong> before distance/area calculations</li>
+          <li><strong>NDVI + spectral indices</strong> for vegetation, water, burn</li>
+          <li><strong>SAR</strong> when you need cloud-penetrating or night imagery</li>
+          <li><strong>LiDAR last-return</strong> for bare-earth DTM</li>
+          <li><strong>H3 res 8–10</strong> for spatial aggregation analytics</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout green" style="margin-top:20px;">
+      <strong>The challenge today is not data access — it's translation into insight.</strong> There are ~100,000 new Sentinel-2 images every week alone.
+    </div>
+    <div style="margin-top:16px; font-size:14px; color: var(--muted);">
+      Key stack: <span class="chip">PostGIS</span><span class="chip green">GDAL / Rasterio</span><span class="chip amber">DuckDB + GeoParquet</span><span class="chip purple">STAC + COG</span><span class="chip">H3</span><span class="chip red">MapLibre GL JS</span>
+    </div>
+  </div>
+
+</div><!-- end #slides -->
+
+<div id="nav">
+  <button id="prev" onclick="changeSlide(-1)" disabled>←</button>
+  <span id="counter">1 / 20</span>
+  <button id="next" onclick="changeSlide(1)">→</button>
+</div>
+
+<div id="hint">← → arrow keys to navigate</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  let current = 0;
+
+  function changeSlide(dir) {
+    const next = current + dir;
+    if (next < 0 || next >= total) return;
+
+    slides[current].classList.remove('active');
+    if (dir > 0) slides[current].classList.add('exit-left');
+
+    setTimeout(() => {
+      slides[current].classList.remove('exit-left');
+      current = next;
+      slides[current].classList.add('active');
+      updateNav();
+    }, dir > 0 ? 0 : 0);
+
+    current = next;
+    slides[current].classList.add('active');
+    updateNav();
+  }
+
+  function updateNav() {
+    document.getElementById('counter').textContent = `${current + 1} / ${total}`;
+    document.getElementById('prev').disabled = current === 0;
+    document.getElementById('next').disabled = current === total - 1;
+    document.getElementById('progress-bar').style.width = `${((current + 1) / total) * 100}%`;
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+      e.preventDefault();
+      changeSlide(1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      changeSlide(-1);
+    }
+  });
+
+  // Touch swipe support
+  let touchStartX = 0;
+  document.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
+  document.addEventListener('touchend', e => {
+    const delta = touchStartX - e.changedTouches[0].clientX;
+    if (Math.abs(delta) > 50) changeSlide(delta > 0 ? 1 : -1);
+  });
+
+  updateNav();
+</script>
+</body>
+</html>
