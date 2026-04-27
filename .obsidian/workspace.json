@@ -248,36 +248,12 @@
             }
           },
           {
-            "id": "71858bacb68fa49c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSON Lines.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JSON Lines"
-            }
-          },
-          {
             "id": "1204c3f1cd0d065e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beads.md",
+                "file": "Gas Town.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +268,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Beads"
+              "title": "Gas Town"
+            }
+          },
+          {
+            "id": "fbaf562266fb6c95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tom's Obvious Minimal Language.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tom's Obvious Minimal Language"
+            }
+          },
+          {
+            "id": "d529679c2e03b526",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Continuous Integration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Continuous Integration"
+            }
+          },
+          {
+            "id": "1583f19743314d58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git Worktree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "git Worktree"
+            }
+          },
+          {
+            "id": "ecb58bb47f1c285e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agent.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agent"
+            }
+          },
+          {
+            "id": "a5d495954d7bc1a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "git"
+            }
+          },
+          {
+            "id": "be6ade64262df68e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenTelemetry Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenTelemetry Protocol"
+            }
+          },
+          {
+            "id": "978670c8dbade732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenTelemetry Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenTelemetry Protocol"
             }
           },
           {
@@ -2408,11 +2552,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "71858bacb68fa49c",
+  "active": "1204c3f1cd0d065e",
   "lastOpenFiles": [
-    "JSON Lines.md",
+    "_attachments/Pasted image 20260426220905.png",
+    "_attachments/Pasted image 20260426220747.png",
+    "Tom's Obvious Minimal Language.md",
+    "Gas Town.md",
+    "Continuous Integration.md",
+    "_attachments/Pasted image 20260426215745.png",
+    "_attachments/Pasted image 20260426214813.png",
     "Agent.md",
+    "_attachments/Pasted image 20260426211440.png",
+    "_attachments/Pasted image 20260426211305.png",
+    "_attachments/Pasted image 20260426211127.png",
+    "_attachments/Pasted image 20260426211053.png",
+    "_attachments/Pasted image 20260426211029.png",
+    "_attachments/Pasted image 20260426211015.png",
+    "_attachments/Pasted image 20260426210936.png",
+    "git Hooks.md",
+    "Pretraining with Human Feedback.md",
+    "git Worktree.md",
     "Beads.md",
+    "git.md",
+    "OpenTelemetry Protocol.md",
+    "JSON Lines.md",
     "Courses/SystemDesign/SDIAH Networking Essentials.md",
     "WebRTC.md",
     "User Datagram Protocol.md",
@@ -2423,29 +2586,10 @@
     "FAISS.md",
     "Voronoi Diagram.md",
     "KD-Tree.md",
-    "_attachments/Pasted image 20260426001734.png",
-    "_attachments/Pasted image 20260426001114.png",
     "Octree.md",
     "QuadTree.md",
     "Geospatial Index.md",
     "Ku-band.md",
-    "Longitude.md",
-    "LASer.md",
-    "Mosaic.md",
-    "Maxar.md",
-    "Cloud-Optimized Point Cloud.md",
-    "_attachments/Pasted image 20260425235853.png",
-    "Entwine Point Tiles.md",
-    "LAZ.md",
-    "Potree.md",
-    "Light Detection and Ranging.md",
-    "_attachments/Pasted image 20260425235319.png",
-    "_attachments/Pasted image 20260425235121.png",
-    "_attachments/Pasted image 20260425235117.png",
-    "_attachments/Pasted image 20260425234821.png",
-    "_attachments/Pasted image 20260425232145.png",
-    "_attachments/Pasted image 20260425231240.png",
-    "_attachments/Pasted image 20260425230635.png",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

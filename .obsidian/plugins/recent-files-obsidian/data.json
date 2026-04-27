@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "JSON Lines",
-      "path": "JSON Lines.md"
+      "basename": "Gas Town",
+      "path": "Gas Town.md"
+    },
+    {
+      "basename": "Tom's Obvious Minimal Language",
+      "path": "Tom's Obvious Minimal Language.md"
+    },
+    {
+      "basename": "Continuous Integration",
+      "path": "Continuous Integration.md"
     },
     {
       "basename": "Agent",
       "path": "Agent.md"
     },
     {
+      "basename": "git Hooks",
+      "path": "git Hooks.md"
+    },
+    {
+      "basename": "Pretraining with Human Feedback",
+      "path": "Pretraining with Human Feedback.md"
+    },
+    {
+      "basename": "git Worktree",
+      "path": "git Worktree.md"
+    },
+    {
       "basename": "Beads",
       "path": "Beads.md"
+    },
+    {
+      "basename": "git",
+      "path": "git.md"
+    },
+    {
+      "basename": "OpenTelemetry Protocol",
+      "path": "OpenTelemetry Protocol.md"
+    },
+    {
+      "basename": "JSON Lines",
+      "path": "JSON Lines.md"
     },
     {
       "basename": "SDIAH Networking Essentials",
@@ -167,38 +199,6 @@
     {
       "basename": "SEN12MS",
       "path": "SEN12MS.md"
-    },
-    {
-      "basename": "Coregistration",
-      "path": "Coregistration.md"
-    },
-    {
-      "basename": "Global Entity Reference System",
-      "path": "Global Entity Reference System.md"
-    },
-    {
-      "basename": "Temporal",
-      "path": "Temporal.md"
-    },
-    {
-      "basename": "Amazon Simple Workflow Service",
-      "path": "Amazon Simple Workflow Service.md"
-    },
-    {
-      "basename": "Amazon Step Functions",
-      "path": "Amazon Step Functions.md"
-    },
-    {
-      "basename": "Van Allen Radiation Belt",
-      "path": "Van Allen Radiation Belt.md"
-    },
-    {
-      "basename": "Airbyte",
-      "path": "Airbyte.md"
-    },
-    {
-      "basename": "Kafka Connect",
-      "path": "Kafka Connect.md"
     }
   ],
   "omittedPaths": [],
