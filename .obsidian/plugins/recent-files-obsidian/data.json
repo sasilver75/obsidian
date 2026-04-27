@@ -1,40 +1,144 @@
 {
   "recentFiles": [
     {
-      "basename": "Prompt Caching",
-      "path": "Prompt Caching.md"
+      "basename": "Encryption",
+      "path": "Encryption.md"
     },
     {
-      "basename": "Factory Droid",
-      "path": "Factory Droid.md"
+      "basename": "Transport Layer Security",
+      "path": "Transport Layer Security.md"
     },
     {
-      "basename": "AMP Code",
-      "path": "AMP Code.md"
+      "basename": "Advanced Encryption Standard",
+      "path": "Advanced Encryption Standard.md"
     },
     {
-      "basename": "Junie",
-      "path": "Junie.md"
+      "basename": "Certificate Authority",
+      "path": "Certificate Authority.md"
     },
     {
-      "basename": "Pi",
-      "path": "Pi.md"
+      "basename": "Key Exchange",
+      "path": "Key Exchange.md"
     },
     {
-      "basename": "Terminal Bench",
-      "path": "Terminal Bench.md"
+      "basename": "Asymmetric Key Encryption",
+      "path": "Asymmetric Key Encryption.md"
     },
     {
-      "basename": "Hermes Agent",
-      "path": "Hermes Agent.md"
+      "basename": "Hash",
+      "path": "Hash.md"
+    },
+    {
+      "basename": "Salt",
+      "path": "Salt.md"
+    },
+    {
+      "basename": "Symmetric Key Encryption",
+      "path": "Symmetric Key Encryption.md"
+    },
+    {
+      "basename": "Rivest-Shamir-Adleman",
+      "path": "Rivest-Shamir-Adleman.md"
+    },
+    {
+      "basename": "Secure Shell",
+      "path": "Secure Shell.md"
+    },
+    {
+      "basename": "Virtual Private Network",
+      "path": "Virtual Private Network.md"
+    },
+    {
+      "basename": "Tailscale",
+      "path": "Tailscale.md"
+    },
+    {
+      "basename": "WireGuard",
+      "path": "WireGuard.md"
+    },
+    {
+      "basename": "Data Plane",
+      "path": "Data Plane.md"
+    },
+    {
+      "basename": "NAT Holepunching",
+      "path": "NAT Holepunching.md"
+    },
+    {
+      "basename": "Project Ideas",
+      "path": "Project Ideas.md"
+    },
+    {
+      "basename": "Remote Direct Memory Access",
+      "path": "Remote Direct Memory Access.md"
+    },
+    {
+      "basename": "Polar Orbit",
+      "path": "Polar Orbit.md"
+    },
+    {
+      "basename": "Equatorial Orbit",
+      "path": "Equatorial Orbit.md"
+    },
+    {
+      "basename": "Ground Control Point",
+      "path": "Ground Control Point.md"
+    },
+    {
+      "basename": "Maxar",
+      "path": "Maxar.md"
+    },
+    {
+      "basename": "Mosaic",
+      "path": "Mosaic.md"
+    },
+    {
+      "basename": "LASer",
+      "path": "LASer.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "Agent",
+      "path": "Agent.md"
+    },
+    {
+      "basename": "Gas Town",
+      "path": "Gas Town.md"
     },
     {
       "basename": "Gas City",
       "path": "Gas City.md"
     },
     {
-      "basename": "Gas Town",
-      "path": "Gas Town.md"
+      "basename": "Pi",
+      "path": "Pi.md"
+    },
+    {
+      "basename": "Junie",
+      "path": "Junie.md"
+    },
+    {
+      "basename": "AMP Code",
+      "path": "AMP Code.md"
+    },
+    {
+      "basename": "Prompt Caching",
+      "path": "Prompt Caching.md"
+    },
+    {
+      "basename": "Armin Ronacher",
+      "path": "Armin Ronacher.md"
+    },
+    {
+      "basename": "Terminal Bench",
+      "path": "Terminal Bench.md"
     },
     {
       "basename": "Datomic",
@@ -45,28 +149,12 @@
       "path": "Git.md"
     },
     {
-      "basename": "Git Hooks",
-      "path": "Git Hooks.md"
-    },
-    {
-      "basename": "Git Worktree",
-      "path": "Git Worktree.md"
-    },
-    {
       "basename": "Steve Yegge",
       "path": "Steve Yegge.md"
     },
     {
       "basename": "Jeffrey Emanuel",
       "path": "Jeffrey Emanuel.md"
-    },
-    {
-      "basename": "Kubernetes",
-      "path": "Kubernetes.md"
-    },
-    {
-      "basename": "Agent",
-      "path": "Agent.md"
     },
     {
       "basename": "Tom's Obvious Minimal Language",
@@ -77,72 +165,16 @@
       "path": "Continuous Integration.md"
     },
     {
-      "basename": "Pretraining with Human Feedback",
-      "path": "Pretraining with Human Feedback.md"
-    },
-    {
-      "basename": "Beads",
-      "path": "Beads.md"
+      "basename": "Git Worktree",
+      "path": "Git Worktree.md"
     },
     {
       "basename": "OpenTelemetry Protocol",
       "path": "OpenTelemetry Protocol.md"
     },
     {
-      "basename": "JSON Lines",
-      "path": "JSON Lines.md"
-    },
-    {
-      "basename": "SDIAH Networking Essentials",
-      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "WebRTC",
-      "path": "WebRTC.md"
-    },
-    {
-      "basename": "User Datagram Protocol",
-      "path": "User Datagram Protocol.md"
-    },
-    {
-      "basename": "Transport Control Protocol",
-      "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "Connection Pool",
-      "path": "Connection Pool.md"
-    },
-    {
-      "basename": "Dotted Version Vector",
-      "path": "Dotted Version Vector.md"
-    },
-    {
-      "basename": "OpenAI",
-      "path": "OpenAI.md"
-    },
-    {
-      "basename": "FAISS",
-      "path": "FAISS.md"
-    },
-    {
       "basename": "Voronoi Diagram",
       "path": "Voronoi Diagram.md"
-    },
-    {
-      "basename": "KD-Tree",
-      "path": "KD-Tree.md"
-    },
-    {
-      "basename": "Octree",
-      "path": "Octree.md"
-    },
-    {
-      "basename": "QuadTree",
-      "path": "QuadTree.md"
-    },
-    {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
     },
     {
       "basename": "Ku-band",
@@ -153,52 +185,20 @@
       "path": "Longitude.md"
     },
     {
-      "basename": "LASer",
-      "path": "LASer.md"
+      "basename": "International Telecommunications Union",
+      "path": "International Telecommunications Union.md"
     },
     {
-      "basename": "Mosaic",
-      "path": "Mosaic.md"
+      "basename": "Perspective-n-Point",
+      "path": "Perspective-n-Point.md"
     },
     {
-      "basename": "Maxar",
-      "path": "Maxar.md"
+      "basename": "Station Keeping",
+      "path": "Station Keeping.md"
     },
     {
-      "basename": "Cloud-Optimized Point Cloud",
-      "path": "Cloud-Optimized Point Cloud.md"
-    },
-    {
-      "basename": "Entwine Point Tiles",
-      "path": "Entwine Point Tiles.md"
-    },
-    {
-      "basename": "LAZ",
-      "path": "LAZ.md"
-    },
-    {
-      "basename": "Potree",
-      "path": "Potree.md"
-    },
-    {
-      "basename": "Light Detection and Ranging",
-      "path": "Light Detection and Ranging.md"
-    },
-    {
-      "basename": "Conflict-Free Replicated Datatype",
-      "path": "Conflict-Free Replicated Datatype.md"
-    },
-    {
-      "basename": "R-Tree",
-      "path": "R-Tree.md"
-    },
-    {
-      "basename": "Land Use and Land Cover",
-      "path": "Land Use and Land Cover.md"
-    },
-    {
-      "basename": "Geostationary Orbit",
-      "path": "Geostationary Orbit.md"
+      "basename": "Japan Aerospace Exploration Agency",
+      "path": "Japan Aerospace Exploration Agency.md"
     }
   ],
   "omittedPaths": [],

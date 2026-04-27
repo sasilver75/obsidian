@@ -73,5 +73,21 @@ Looks a bit like Slack, Github, Copilot had a baby
 
 
 
+![[Pasted image 20260427130119.png]]
+
+
+![[Pasted image 20260427130129.png]]
+
+![[Pasted image 20260427130145.png]]
+
+![[Pasted image 20260427130152.png]]
+
+
+![[Pasted image 20260427130209.png]]
+
+![[Pasted image 20260427130217.png]]
+
+
+![[Pasted image 20260427130234.png]]
 
 

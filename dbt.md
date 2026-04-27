@@ -35,7 +35,7 @@ raw_events
 ```
 `dbt` executes models in the correct order automatically; if `gold_conversion_rate` depends on `silver_session`, dbt *always* builds `silver_session` first, and parallelizes what can be parallelized. and serializes what must be serialized.
 
-DBT models typically aren't plain SQL, they're [[Jinja]] templates, which adds programmatic capabilities.
+DBT models typically aren't plain SQL, they're [[Jinja2]] templates, which adds programmatic capabilities.
 
 ==Macros== are reusable Jinja functions, the equivalent to stored procedures or functions but in `dbt`'s templating scheme. There's a rich ecosystem of macros in `dbt-utils`` and other packages.
 

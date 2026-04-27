@@ -403,5 +403,37 @@ ______________________
 
 _________
 
+Ideation: https://claude.ai/chat/8c97aae4-43ed-442b-a3d8-350b076b157a 
+  
+
+- Tax delinquency lists + utility shutoffs + LLC filings → distressed property pipeline before MLS
+	- Tax delinquency: See PropertyRadar, Reonomy, PropStream, BatchLeads; Counties are required to publish lists. Quality vaires. Best in Florida/Texas/AZ/Midwest, worst in NE, some CA counties, where you have to FOIA.
+	- Utility shutoffs: Mostly no. Many states have explicit consumer protection rules against publishing this. Sometimes you can get water shutoff signals in cities where the water department is municipal and posts liens (Detroit, Baltimore, Cleveland, Philly post water liens). Uncut grass, pool turning green (possible from satellite data).
+		- So "utility shutoffs" is not available, but there are other proxies for "is this house being neglected/abandoned/financially stressed"
+	- LLC filings: Yes, per-state. The interesting join is LLC -> property; when an LLC owns a house, you want to pierce through to hte human, which requires some work.
+	- Yes, you could build it, but not really valuable. PropStream, BatchLeads, REIPro, Privy, DealMachine, PropertyRadar, REonomy all sell some version of "distress pipeline before MLS" to real estate investors, typically 50-300/month.
+		- Geographic coverage is uneven
+- Building violations + landlord LLC graph → worst-landlord leaderboard by city
+- H1B salary disclosures (public, by company + role) + LinkedIn → comp benchmark
+- Voter rolls (public most states) + donor data + property records → neighborhood political map
+- Oil tank shadow lengths (floating roof tanks) → crude inventory → trade WTI vs EIA reports
+- Parking lot fullness at big-box retailers + ticker → quarterly revenue nowcast
+- Dark ship detection (AIS off + SAR-detected vessel) at known sanctioned ports → sanctions evasion
+- Refugee camp growth via building footprint detection → humanitarian early warning
+- Auto-generated "due diligence report" for any address: roof age, tree-fall risk, drainage/pooling after storms, neighbor's yard condition, true sun exposure, hidden easements visible from above. People pay $400 for inspections — they'd pay $30 for this before even booking one.
+- Compare your assessed value to overhead-detected features (pool, addition, deck) vs your neighbors' assessments. Surface the houses where the assessor over-counted. Consumers in TX, NJ, IL especially will pay for this — typical appeal saves $500-2000/yr.
+- "What will grow here" plant recommender based on your specific lot's conditions, not your zip code.
+- Lawn-health diagnosis from above, with a treatment plan.
+
+Real Estate
+The probate-to-property pipeline for heirs (not investors). Probate filings are public in every state's county court system. When someone dies owning real estate, the estate enters probate, which on average drags on for 9-18 months. During that time, heirs — often siblings scattered across the country who suddenly co-own a house in their hometown — get hammered by wholesaler postcards and lowball cash offers, because investors scrape these filings aggressively. The flip: build a service for the heirs that finds the case the moment it's filed, automatically pulls the property's true market value from MLS comps and Zillow, estimates carrying costs (taxes, insurance, utilities while vacant), models the tax basis step-up, and gives the heirs a clean dashboard showing "here's what your inherited house is worth, here's what the wholesale offers you're getting are actually paying you on the dollar, here's a list of vetted local agents and probate attorneys." Data sources: county probate dockets, county assessor and recorder, MLS via a partnership or IDX feed, USPS address validation. Derived data: a "lowball score" on each unsolicited offer the heir uploads, a holding-cost-per-month estimate, and an estimated step-up basis. Buyer: heirs and probate attorneys (attorneys would white-label it for clients). Value: heirs routinely lose $50-150K on inherited homes by accepting the first cash offer; this product directly converts that asymmetry into the heir's pocket.
+
+Labor and jobs
+**Real comp benchmarking from H-1B disclosures, layered with everything else.** The Department of Labor publishes every H-1B Labor Condition Application — employer, exact job title, work location, salary, year. This is hundreds of thousands of real salary data points per year, by company and role and city, that nobody outside a handful of immigration lawyers and Levels.fyi power-users uses well. The product: a comp tool where you enter "senior backend engineer, Stripe, San Francisco" and get the real distribution of H-1B-disclosed salaries (which are floors, not means, but still informative), layered with Levels.fyi self-reports, Glassdoor, and BLS OES data, plus year-over-year trend. Data sources: DOL LCA disclosure data (free, quarterly), USCIS H-1B approvals, BLS Occupational Employment Statistics, scraped Levels.fyi and Glassdoor. Derived data: a per-company per-role per-city compensation distribution with confidence intervals; a "is this offer competitive" percentile score; a trend line showing whether comp at this company is rising or falling. Buyer: job-seekers preparing for negotiations, recruiters benchmarking offers, and (lucratively) employer comp teams. Value: people leave $10-30K per year on the table negotiating from bad data; this turns government filings into real leverage.
+
+
+
+
+
 
 
