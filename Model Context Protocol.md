@@ -1,6 +1,7 @@
 ---
 aliases:
   - MCP
+  - MCP Server
 ---
 
 

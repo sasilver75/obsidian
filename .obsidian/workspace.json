@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Server-Sent Event.md",
+                "file": "Claude Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Server-Sent Event"
+              "title": "Claude Code"
+            }
+          },
+          {
+            "id": "c771f608ca8d40da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semantic Versioning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Semantic Versioning"
+            }
+          },
+          {
+            "id": "5906297f28d65d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Context Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Model Context Protocol"
+            }
+          },
+          {
+            "id": "a90ead9da511785c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Server Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Language Server Protocol"
+            }
+          },
+          {
+            "id": "559dff7a0ec56753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Skill"
             }
           },
           {
@@ -171,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1685,10 +1780,24 @@
   },
   "active": "10b7ef355a7521cb",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260427230702.png",
+    "_attachments/Pasted image 20260427230646.png",
+    "_attachments/Pasted image 20260427230629.png",
+    "_attachments/Pasted image 20260427225302.png",
+    "_attachments/Pasted image 20260427225127.png",
+    "_attachments/Pasted image 20260427225100.png",
+    "_attachments/Pasted image 20260427222829.png",
+    "Semantic Versioning.md",
+    "Claude Code.md",
+    "_attachments/Pasted image 20260427214943.png",
+    "_attachments/Pasted image 20260427214812.png",
+    "Model Context Protocol.md",
+    "Language Server Protocol.md",
+    "Skill.md",
+    "Server-Sent Event.md",
     "_attachments/Pasted image 20260427174007.png",
     "Project Ideas.md",
     "WebSockets.md",
-    "Server-Sent Event.md",
     "Asymmetric Key Encryption.md",
     "Encryption.md",
     "WireGuard.md",
@@ -1706,22 +1815,8 @@
     "Key Exchange.md",
     "Hash.md",
     "Symmetric Key Encryption.md",
-    "Private Key.md",
-    "Tailscale.md",
-    "Remote Direct Memory Access.md",
-    "Polar Orbit.md",
-    "Equatorial Orbit.md",
     "_attachments/Pasted image 20260427130234.png",
-    "_attachments/Pasted image 20260427130217.png",
-    "_attachments/Pasted image 20260427130209.png",
-    "_attachments/Pasted image 20260427130152.png",
-    "_attachments/Pasted image 20260427130145.png",
-    "_attachments/Pasted image 20260427130129.png",
-    "_attachments/Pasted image 20260427130119.png",
     "geospatial-slideshow.html",
-    "_attachments/Pasted image 20260427015431.png",
-    "_attachments/Pasted image 20260427015044.png",
-    "_attachments/Pasted image 20260427014950.png",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",

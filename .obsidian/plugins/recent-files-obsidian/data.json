@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Claude Code",
+      "path": "Claude Code.md"
+    },
+    {
+      "basename": "Semantic Versioning",
+      "path": "Semantic Versioning.md"
+    },
+    {
+      "basename": "Model Context Protocol",
+      "path": "Model Context Protocol.md"
+    },
+    {
+      "basename": "Language Server Protocol",
+      "path": "Language Server Protocol.md"
+    },
+    {
+      "basename": "Skill",
+      "path": "Skill.md"
+    },
+    {
       "basename": "Server-Sent Event",
       "path": "Server-Sent Event.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Continuous Integration",
       "path": "Continuous Integration.md"
-    },
-    {
-      "basename": "Git Worktree",
-      "path": "Git Worktree.md"
-    },
-    {
-      "basename": "OpenTelemetry Protocol",
-      "path": "OpenTelemetry Protocol.md"
-    },
-    {
-      "basename": "Voronoi Diagram",
-      "path": "Voronoi Diagram.md"
-    },
-    {
-      "basename": "Ku-band",
-      "path": "Ku-band.md"
-    },
-    {
-      "basename": "Longitude",
-      "path": "Longitude.md"
     }
   ],
   "omittedPaths": [],
