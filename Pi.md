@@ -1,4 +1,4 @@
-A minimal OSS coding agent created by [[Mario Zechner]]
+dA minimal OSS coding agent created by [[Mario Zechner]]
 
 
 > "Adapt your coding agent to your workflows, instead of the other way around."

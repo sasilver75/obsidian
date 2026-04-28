@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill.md",
+                "file": "Pi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Skill"
+              "title": "Pi"
             }
           },
           {
@@ -1684,6 +1684,7 @@
   },
   "active": "559dff7a0ec56753",
   "lastOpenFiles": [
+    "Skill.md",
     "Language Server Protocol.md",
     "Model Context Protocol.md",
     "Semantic Versioning.md",
@@ -1702,7 +1703,6 @@
     "_attachments/Pasted image 20260427222829.png",
     "_attachments/Pasted image 20260427214943.png",
     "_attachments/Pasted image 20260427214812.png",
-    "Skill.md",
     "Server-Sent Event.md",
     "_attachments/Pasted image 20260427174007.png",
     "Project Ideas.md",
