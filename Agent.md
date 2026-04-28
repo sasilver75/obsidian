@@ -1,3 +1,7 @@
+References:
+- Article: [Ampcode: How to Build an Agent](https://ampcode.com/notes/how-to-build-an-agent) (in 400 LoC)
+
+
 An AI system that can take actions autonomously to accomplish a goal, rather than just generating a single response.
 
 Key properties:

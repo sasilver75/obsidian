@@ -1,24 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Claude Code",
-      "path": "Claude Code.md"
-    },
-    {
-      "basename": "Semantic Versioning",
-      "path": "Semantic Versioning.md"
-    },
-    {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
+      "basename": "Skill",
+      "path": "Skill.md"
     },
     {
       "basename": "Language Server Protocol",
       "path": "Language Server Protocol.md"
     },
     {
-      "basename": "Skill",
-      "path": "Skill.md"
+      "basename": "Model Context Protocol",
+      "path": "Model Context Protocol.md"
+    },
+    {
+      "basename": "Semantic Versioning",
+      "path": "Semantic Versioning.md"
+    },
+    {
+      "basename": "Amazon EC2",
+      "path": "Amazon EC2.md"
+    },
+    {
+      "basename": "Control Plane",
+      "path": "Control Plane.md"
+    },
+    {
+      "basename": "Data Plane",
+      "path": "Data Plane.md"
+    },
+    {
+      "basename": "Agent",
+      "path": "Agent.md"
+    },
+    {
+      "basename": "Magnitude-Based Pruning",
+      "path": "Magnitude-Based Pruning.md"
+    },
+    {
+      "basename": "Claude Code",
+      "path": "Claude Code.md"
     },
     {
       "basename": "Server-Sent Event",
@@ -47,10 +67,6 @@
     {
       "basename": "NAT Holepunching",
       "path": "NAT Holepunching.md"
-    },
-    {
-      "basename": "Data Plane",
-      "path": "Data Plane.md"
     },
     {
       "basename": "Virtual Private Network",
@@ -141,10 +157,6 @@
       "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
     },
     {
-      "basename": "Agent",
-      "path": "Agent.md"
-    },
-    {
       "basename": "Gas Town",
       "path": "Gas Town.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Steve Yegge",
       "path": "Steve Yegge.md"
-    },
-    {
-      "basename": "Jeffrey Emanuel",
-      "path": "Jeffrey Emanuel.md"
-    },
-    {
-      "basename": "Tom's Obvious Minimal Language",
-      "path": "Tom's Obvious Minimal Language.md"
-    },
-    {
-      "basename": "Continuous Integration",
-      "path": "Continuous Integration.md"
     }
   ],
   "omittedPaths": [],
