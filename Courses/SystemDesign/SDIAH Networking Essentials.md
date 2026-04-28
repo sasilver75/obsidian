@@ -21,7 +21,7 @@ We'll focus on the **[[Network Layer]]**, where protocols like IP and Infiniband
 
 The [[Transport Layer]] provides additional functinoality on top of IP, like guaranteed ordering and reliable delivery. 
 
-At the very top of the stack is the [[Application Layer]], where Layer 7 protocols like [[HTTP]] and [[Websockets]] exist. These are important to you as a developer, and important in navigating tradeoffs in how your system functions and what capabilities it has.
+At the very top of the stack is the [[Application Layer]], where Layer 7 protocols like [[HTTP]] and [[WebSockets]] exist. These are important to you as a developer, and important in navigating tradeoffs in how your system functions and what capabilities it has.
 
 ![[Pasted image 20250519130233.png]]
 - Above:
@@ -183,7 +183,7 @@ Server Sent Events are an extension of [[HTTP]], but with one noticable differen
 
 -----------
 
-In some instances though, we need **bidirectional communications**, where our clients need to be pushing to the server as much as the server pushes to the client! Enter [[Websockets]]!
+In some instances though, we need **bidirectional communications**, where our clients need to be pushing to the server as much as the server pushes to the client! Enter [[WebSockets]]!
 - WARN: often candidates use these inappropriately; They're very powerful, but often require a lot of infrastructure! **It may be more appropriate to think about a polling solution or SSE-based solution before launching into a full-tilt websocket solution, especially if the functionality we're designing is kind of narrow** (like getting a bid for an item on a page).
 	- But 
 
@@ -263,7 +263,7 @@ Load Balancing:
 				- It's not as straightforward that the connection ti has with the LB is the same one it has with its client!
 				- The Layer 7 LB might have only a few connections to servers, and many connections to clients.
 				- Tend to be more expensive, because they need to be able to handle a full HTTP request; But if I had a single TCP connection to a client and multiple HTTP requests that occur over it, I can then distribute those requests across the servers in my load pool, which can be very effective.
-				- These are not going to be appropriate in situations where we have a connection-oriented protocol like [[Websockets]]. In those cases, we'd rather use a Layer 4 load balancer.
+				- These are not going to be appropriate in situations where we have a connection-oriented protocol like [[WebSockets]]. In those cases, we'd rather use a Layer 4 load balancer.
 				- But in cases where we can accept a little performance hit, we'd like to use a Layer 7 Load balancer, which provides a lot of functionality, routing options, the ability to terminate HTTPS... It's going to be the default, and the thing we'd recommend in most instances.
 
 

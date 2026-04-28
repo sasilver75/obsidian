@@ -139,7 +139,7 @@ Examples of search-optimized databases:
 - For the purposes of an interview, you can assume that a Load Balancer is a black box that will distribute work across your system.
 	- ==In an interview, it can often be redundant to draw a load balancer in front of every service.== Instead, either omit it from the design (mentioning them), or add one only to the front of the design as an abstraction.
 - Sometimes you'll need to have ==specific features== from your load balancer, like [[Sticky Session]] or persistent connections. The most common decision to make is whether to use a [[Layer 4]] or [[Layer 7]] load balancer.
-	- ==**TIP:**== If you have persistent connections like [[Websockets]], you'll likely want to use an L4 load balancer. Otherwise an L7 load balancer offers great flexibility in routing traffic to different services while minimizing the connection load downstream.
+	- ==**TIP:**== If you have persistent connections like [[WebSockets]], you'll likely want to use an L4 load balancer. Otherwise an L7 load balancer offers great flexibility in routing traffic to different services while minimizing the connection load downstream.
 - Common load balancers:
 	- AWS Elastic Load Balancer (ELB), [[NGINX]] (an open-source webserver often used as a load balancer), and [[HAProxy]] (a popular open-source load balancer). For problems with extremely high traffic, specialized hardware load balancers will outperform software load balancers that you'd host yourself, and you'll quickly be pulled into the crazy world of network engineering.
 

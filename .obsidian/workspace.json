@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Server-Sent Event.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Server-Sent Event"
+            }
+          },
+          {
+            "id": "73a517afcebaa6ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Project Ideas.md",
                 "mode": "source",
                 "source": false,
@@ -32,12 +56,12 @@
             }
           },
           {
-            "id": "dbb59700e4d20025",
+            "id": "20d5503c6c9a9305",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asymmetric Key Encryption.md",
+                "file": "Project Ideas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Asymmetric Key Encryption"
+              "title": "Project Ideas"
             }
           },
           {
-            "id": "a5e784bead4222b5",
+            "id": "53093d5e0dd0f2df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encryption.md",
+                "file": "WebSockets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,323 +100,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Encryption"
-            }
-          },
-          {
-            "id": "04189fefd77fb309",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encryption.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Encryption"
-            }
-          },
-          {
-            "id": "c752b56cfdbb3044",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Encryption Standard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Advanced Encryption Standard"
-            }
-          },
-          {
-            "id": "7cf596e595d70fab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Certificate Authority.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Certificate Authority"
-            }
-          },
-          {
-            "id": "1466b30d58ece33d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Salt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Salt"
-            }
-          },
-          {
-            "id": "12422901896a0c45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asymmetric Key Encryption.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Asymmetric Key Encryption"
-            }
-          },
-          {
-            "id": "9e121ded0906cabb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Encryption Standard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Advanced Encryption Standard"
-            }
-          },
-          {
-            "id": "f58ca06928d855a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rivest-Shamir-Adleman.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rivest-Shamir-Adleman"
-            }
-          },
-          {
-            "id": "469130c68430cba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secure Shell.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Secure Shell"
-            }
-          },
-          {
-            "id": "6a1c0d7858d89b7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual Private Network.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Virtual Private Network"
-            }
-          },
-          {
-            "id": "09a11a52ff0cc840",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asymmetric Key Encryption.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Asymmetric Key Encryption"
-            }
-          },
-          {
-            "id": "d1f792ea80479e00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Plane.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Data Plane"
-            }
-          },
-          {
-            "id": "f0a7d12fb7c75b28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NAT Holepunching.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "NAT Holepunching"
-            }
-          },
-          {
-            "id": "fe9a16f89b00e950",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WireGuard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WireGuard"
+              "title": "WebSockets"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -1895,12 +1606,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "1c172911ffb09bd8",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 140
+        "currentTab": 141
       },
       {
         "id": "8a022290161ffefa",
@@ -1962,34 +1683,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "04189fefd77fb309",
+  "active": "10b7ef355a7521cb",
   "lastOpenFiles": [
-    "Transport Layer Security.md",
-    "Advanced Encryption Standard.md",
-    "Encryption.md",
-    "Certificate Authority.md",
-    "Key Exchange.md",
+    "_attachments/Pasted image 20260427174007.png",
+    "Project Ideas.md",
+    "WebSockets.md",
+    "Server-Sent Event.md",
     "Asymmetric Key Encryption.md",
-    "Hash.md",
-    "Salt.md",
-    "Symmetric Key Encryption.md",
-    "Rivest-Shamir-Adleman.md",
-    "Secure Shell.md",
+    "Encryption.md",
+    "WireGuard.md",
+    "NAT Holepunching.md",
+    "Data Plane.md",
     "Virtual Private Network.md",
+    "Secure Shell.md",
+    "Rivest-Shamir-Adleman.md",
+    "Advanced Encryption Standard.md",
+    "Salt.md",
+    "Certificate Authority.md",
+    "Evol-Instruct.md",
+    "Synthetic Data.md",
+    "Transport Layer Security.md",
+    "Key Exchange.md",
+    "Hash.md",
+    "Symmetric Key Encryption.md",
     "Private Key.md",
     "Tailscale.md",
-    "WireGuard.md",
-    "Data Plane.md",
-    "NAT Holepunching.md",
-    "Project Ideas.md",
     "Remote Direct Memory Access.md",
     "Polar Orbit.md",
     "Equatorial Orbit.md",
-    "Ground Control Point.md",
-    "Maxar.md",
-    "Mosaic.md",
-    "LASer.md",
-    "Geospatial Index.md",
     "_attachments/Pasted image 20260427130234.png",
     "_attachments/Pasted image 20260427130217.png",
     "_attachments/Pasted image 20260427130209.png",

@@ -109,7 +109,7 @@ _________________
 	- **Who initiates** the communication.
 	- What are the **latency considerations**.
 	- **How much data** needs to be sent.
-- Across most choices, systems can be built with a combination of [[REST]], [[Server-Sent Event]] (SSE) or [[Long Polling]], and [[Websockets]].
+- Across most choices, systems can be built with a combination of [[REST]], [[Server-Sent Event]] (SSE) or [[Long Polling]], and [[WebSockets]].
 
 ![[Pasted image 20250518130221.png|700]]
 
@@ -118,7 +118,7 @@ _________________
 - If you need to give your client near-realtime updates, you need a way for clients to receive updates from the server.
 	- [[Long Polling]] is a great way to do this that blends the simplicity and scalability of HTTP with the realtime updates of Websockets. With Long Polling, ==clients make a request o the server, and the server holds the request open until it has new data to send to the client.== Once the data is sent, the client remakes *another* request and the process repeats.
 		- ==BONUS==: You can use standard load balancers and firewalls with long polling -- no special infrastructure needed.
-- [[Websockets]] are necessary if you need realtime, bidirectional communication between the client and server.
+- [[WebSockets]] are necessary if you need realtime, bidirectional communication between the client and server.
 	- From a system design perspective, websockets can be ==challenging because you need to maintain the  connection between client and server==. This can be challenging for load balancers and firewalls, and it can be a challenge for your server to maintain many open connections.
 		- **==NOTE==**: A common pattern is to use a **message brokers** to handle the communication between the client and the server, and for the backend services to communicate with this message broker. This ensures that you don't need to maintain long connections to every service in your backend.
 - [[Server-Sent Event]]s (SSE) are a great way to send updates from the server to the client.

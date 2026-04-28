@@ -69,7 +69,7 @@
   - Feature engineering: DuckDB spatial window functions — speed variance, course change rate, time dark, port proximity, loitering score — all computed in SQL against the GeoParquet
   - ML inference: Pre-trained Isolation Forest (scikit-learn, serialized to S3), scored against
   feature vectors per vessel per day
-  - Backend: [[FastAPI]] — historical track endpoint (DuckDB query against GeoParquet), [[Websockets|Websocket]]
+  - Backend: [[FastAPI]] — historical track endpoint (DuckDB query against GeoParquet), [[WebSockets|WebSockets]]
   endpoint replaying recent vessel positions with live anomaly scores.
   - Infrastructure: [[Docker]], AWS [[Amazon Elastic Container Service|ECS]], S3, DuckDB as the query engine (no PostGIS server needed)
   - Frontend: deck.gl TripsLayer on [[MapLibre GL JS]] — animated vessel trails, anomalous vessels

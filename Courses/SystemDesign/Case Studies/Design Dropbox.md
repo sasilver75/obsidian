@@ -321,7 +321,7 @@ Questions:
 		- The client can periodically [[Poll]] for changes, using that SyncService
 			- We can change the polling rate based on what the client is doing (==adapative polling==); maybe if the client is doing a lot of work, we increase  the polling rate, etc. Also provide a "Refresh" button to the client which polls for them.
 			- This is appropriate
-		- Clients sometimes bring up [[Websockets]] or [[Long Polling]], but it's totally overkill
+		- Clients sometimes bring up [[WebSockets]] or [[Long Polling]], but it's totally overkill
 			- You don't want to set up a persistent, long-lived connection between client and server if you don't have to -- it introduces a bunch of overhead with a WebSocket manager, etc.
 			- Form a product requirement perspective, do you care about **milliseconds** vs **20 seconds**?
 			- Long Polling also doesn't make a lot of sense... it's for when you're expecting responses in a relatively quick window, but in this situation we don't know when updates are going to happen.
