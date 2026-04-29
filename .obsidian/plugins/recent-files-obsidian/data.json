@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Model Context Protocol",
+      "path": "Model Context Protocol.md"
+    },
+    {
+      "basename": "COLMAP",
+      "path": "COLMAP.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
       "basename": "WebTransport",
       "path": "WebTransport.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Language Server Protocol",
       "path": "Language Server Protocol.md"
-    },
-    {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
     },
     {
       "basename": "Semantic Versioning",
@@ -191,14 +199,6 @@
     {
       "basename": "Prompt Caching",
       "path": "Prompt Caching.md"
-    },
-    {
-      "basename": "Armin Ronacher",
-      "path": "Armin Ronacher.md"
-    },
-    {
-      "basename": "Terminal Bench",
-      "path": "Terminal Bench.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebTransport.md",
+                "file": "Model Context Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WebTransport"
+              "title": "Model Context Protocol"
             }
           },
           {
@@ -1626,12 +1626,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "131ccc19634ef2c1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "44f11d4500b8ba25",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 142
+        "currentTab": 144
       },
       {
         "id": "8a022290161ffefa",
@@ -1695,9 +1715,11 @@
   },
   "active": "559dff7a0ec56753",
   "lastOpenFiles": [
+    "COLMAP.md",
+    "Synthetic Aperture Radar.md",
+    "WebTransport.md",
     "_attachments/Pasted image 20260428170654.png",
     "Satellogic.md",
-    "WebTransport.md",
     "Planet Labs.md",
     "Pi.md",
     "Skill.md",
@@ -1720,7 +1742,6 @@
     "_attachments/Pasted image 20260427214943.png",
     "_attachments/Pasted image 20260427214812.png",
     "Server-Sent Event.md",
-    "_attachments/Pasted image 20260427174007.png",
     "Project Ideas.md",
     "WebSockets.md",
     "Asymmetric Key Encryption.md",
@@ -1730,7 +1751,6 @@
     "Virtual Private Network.md",
     "Secure Shell.md",
     "Rivest-Shamir-Adleman.md",
-    "Advanced Encryption Standard.md",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
     "recent-notes.txt",

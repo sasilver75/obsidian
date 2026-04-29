@@ -1,4 +1,4 @@
-[[COLMAP]] is an open-source, general purpose [[Photogrammetry|Structure from Motion]] (SfM) and [[Photogrammetry|Multi-View Stereo]] (MVS) pipeline used to generate 3D reconstructions and camera poses from ordered or unordered image sets.
+ [[COLMAP]] is an open-source, general purpose [[Photogrammetry|Structure from Motion]] (SfM) and [[Photogrammetry|Multi-View Stereo]] (MVS) pipeline used to generate 3D reconstructions and camera poses from ordered or unordered image sets.
 - Offers a GUI and command line interface for tasks like sparse/dense reconstruction, feature matching, and automatic reconstruction.
 - ==The standard preprocessing step for both [[Neural Radiance Fields|NeRF]]s and [[3D Gaussian Splatting|3DGS]]==; Both need camera poses as input, and COLMPA is how you get them from raw photos.
 
@@ -16,7 +16,6 @@ How it works:
 - [[Photogrammetry|MVS]] stage:
 	- Uses the recovered camera poses to do dense stereo matching across many image pairs, producing a dense point cloud or depth maps.
 
-
-
 ## Relationship to [[Coregistration]]
 - Related but different. Coregistration aligns 2D images to eachother, while COLMAP recovers the 3D geometry and camera positions that explain why images look the way they do.
+

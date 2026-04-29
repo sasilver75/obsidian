@@ -25,6 +25,7 @@ Resources:
 - [Video: GEOINT 2023, a SAR Discussion with Tom Ager](https://youtu.be/4IEp1L7re1A) (Good details)
 - Video: [Max Lenormand: How Radar Satellites See Through Clouds](https://youtu.be/zMsCyEAOrh0) (Incredible)
 - Video: [Minds behind Maps: Breaking down Radar Satellite Images: Tom Ager](https://youtu.be/qEtg9VTfNj4)
+- Video: [This Satellite Revealed Things we were Never Meant to See](https://youtu.be/UKLuei1CnZY) (Poppy but has some interesting applications)
 
 ==A [[Remote Sensing]] technique that uses radar signals (microwave bands) instead of visible light to image the Earth's surface.==
 - ==Can see at night, can see through clouds.==
