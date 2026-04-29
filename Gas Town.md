@@ -1,6 +1,10 @@
 References:
 - [Gas Townhall Documentation (Docs)](https://docs.gastownhall.ai/)
 
+> "I don't think people should be using it, and they are." 
+> "It's the shape that worked in December 2025, it's not the shape that ... going forward ([link](https://www.youtube.com/watch?v=aFsAOu2bgFk&t=12s))"
+> - Steve Yegge
+
 Multi-[[Agent]] orchestration system for [[Claude Code]] and others, with persistent work tracking.
 - Lets you coordinate multiple coding agents working on different tasks.
 - Instead of losing context when agents restart, Gas Town persists work state in git-backed hooks, enabling reliable, multi-agent workflows.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model Context Protocol.md",
+                "file": "Gas Town.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Model Context Protocol"
+              "title": "Gas Town"
             }
           },
           {
@@ -1715,6 +1715,7 @@
   },
   "active": "559dff7a0ec56753",
   "lastOpenFiles": [
+    "Model Context Protocol.md",
     "COLMAP.md",
     "Synthetic Aperture Radar.md",
     "WebTransport.md",
@@ -1724,7 +1725,6 @@
     "Pi.md",
     "Skill.md",
     "Language Server Protocol.md",
-    "Model Context Protocol.md",
     "Semantic Versioning.md",
     "Amazon EC2.md",
     "Control Plane.md",
