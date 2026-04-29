@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "WebTransport",
+      "path": "WebTransport.md"
+    },
+    {
+      "basename": "Satellogic",
+      "path": "Satellogic.md"
+    },
+    {
+      "basename": "Planet Labs",
+      "path": "Planet Labs.md"
+    },
+    {
       "basename": "Pi",
       "path": "Pi.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Terminal Bench",
       "path": "Terminal Bench.md"
-    },
-    {
-      "basename": "Datomic",
-      "path": "Datomic.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Git.md"
-    },
-    {
-      "basename": "Steve Yegge",
-      "path": "Steve Yegge.md"
     }
   ],
   "omittedPaths": [],
