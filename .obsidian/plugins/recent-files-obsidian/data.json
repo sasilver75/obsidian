@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Hard Link",
+      "path": "Hard Link.md"
+    },
+    {
+      "basename": "Soft Link",
+      "path": "Soft Link.md"
+    },
+    {
+      "basename": "Index Node",
+      "path": "Index Node.md"
+    },
+    {
+      "basename": "pnpm",
+      "path": "pnpm.md"
+    },
+    {
+      "basename": "Node Package Manager",
+      "path": "Node Package Manager.md"
+    },
+    {
       "basename": "Gas Town",
       "path": "Gas Town.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Geospatial Index",
       "path": "Geospatial Index.md"
-    },
-    {
-      "basename": "SDIAH Networking Essentials",
-      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "Gas City",
-      "path": "Gas City.md"
-    },
-    {
-      "basename": "Junie",
-      "path": "Junie.md"
-    },
-    {
-      "basename": "AMP Code",
-      "path": "AMP Code.md"
-    },
-    {
-      "basename": "Prompt Caching",
-      "path": "Prompt Caching.md"
     }
   ],
   "omittedPaths": [],

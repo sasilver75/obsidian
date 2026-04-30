@@ -32,6 +32,126 @@
             }
           },
           {
+            "id": "dfd322508007f4d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pnpm.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "pnpm"
+            }
+          },
+          {
+            "id": "fa82747f22e15eb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hard Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hard Link"
+            }
+          },
+          {
+            "id": "248230e3ba1807e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hard Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hard Link"
+            }
+          },
+          {
+            "id": "b955cd75a82a8d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Soft Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Soft Link"
+            }
+          },
+          {
+            "id": "9fcfdbbf5da43ddb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index Node.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Index Node"
+            }
+          },
+          {
             "id": "73a517afcebaa6ae",
             "type": "leaf",
             "state": {
@@ -103,7 +223,8 @@
               "title": "WebSockets"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1713,8 +1834,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "559dff7a0ec56753",
+  "active": "248230e3ba1807e0",
   "lastOpenFiles": [
+    "Soft Link.md",
+    "Hard Link.md",
+    "Index Node.md",
+    "pnpm.md",
+    "Node Package Manager.md",
+    "Gas Town.md",
     "Model Context Protocol.md",
     "COLMAP.md",
     "Synthetic Aperture Radar.md",
@@ -1745,12 +1872,6 @@
     "Project Ideas.md",
     "WebSockets.md",
     "Asymmetric Key Encryption.md",
-    "Encryption.md",
-    "WireGuard.md",
-    "NAT Holepunching.md",
-    "Virtual Private Network.md",
-    "Secure Shell.md",
-    "Rivest-Shamir-Adleman.md",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
     "recent-notes.txt",
