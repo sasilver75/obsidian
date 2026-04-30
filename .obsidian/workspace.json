@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hard Link.md",
+                "file": "npx.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,391 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hard Link"
+              "title": "npx"
+            }
+          },
+          {
+            "id": "5a71e32adeb00889",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agent Harness.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agent Harness"
+            }
+          },
+          {
+            "id": "1f3791a652749f44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tsx.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "tsx"
+            }
+          },
+          {
+            "id": "2918a2f7bccd6142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modern Frontend Development.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Modern Frontend Development"
+            }
+          },
+          {
+            "id": "7322357dc5f68b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React Server Components.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "React Server Components"
+            }
+          },
+          {
+            "id": "4a14a562db591e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hydration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hydration"
+            }
+          },
+          {
+            "id": "b832d8dc60f82fc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwind CSS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tailwind CSS"
+            }
+          },
+          {
+            "id": "685abf0c8f1bf034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SWR.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SWR"
+            }
+          },
+          {
+            "id": "c9871d4cd59c586c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TanStack Query.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TanStack Query"
+            }
+          },
+          {
+            "id": "92773941d5df83dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hydration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hydration"
+            }
+          },
+          {
+            "id": "8afbe3b86827e3f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Static Site Generation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Static Site Generation"
+            }
+          },
+          {
+            "id": "ce9a32237e17bad6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server-Side Rendering.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Server-Side Rendering"
+            }
+          },
+          {
+            "id": "a82ad19dc7fe0169",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Client-Side Rendering.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Client-Side Rendering"
+            }
+          },
+          {
+            "id": "2ea41689e110bed6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Single Page Application.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Single Page Application"
+            }
+          },
+          {
+            "id": "b85d70c9484b7fa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECMAScript Modules.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ECMAScript Modules"
+            }
+          },
+          {
+            "id": "1acdfe954203a34b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECMAScript Modules.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ECMAScript Modules"
+            }
+          },
+          {
+            "id": "66558b7b61fa9933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node.js.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Node.js"
             }
           },
           {
@@ -224,7 +608,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1834,10 +2218,29 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "248230e3ba1807e0",
+  "active": "2918a2f7bccd6142",
   "lastOpenFiles": [
-    "Soft Link.md",
+    "React Server Components.md",
+    "Hydration.md",
+    "Modern Frontend Development.md",
+    "Tailwind CSS.md",
+    "tsx.md",
+    "SWR.md",
+    "TanStack Query.md",
+    "Static Site Generation.md",
+    "Server-Side Rendering.md",
+    "Client-Side Rendering.md",
+    "Single Page Application.md",
+    "JSX.md",
+    "ECMAScript Modules.md",
+    "CommonJS.md",
+    "Node.js.md",
+    "Agent Harness.md",
+    "npx.md",
     "Hard Link.md",
+    "_attachments/Pasted image 20260430103353.png",
+    "_attachments/Pasted image 20260430103144.png",
+    "Soft Link.md",
     "Index Node.md",
     "pnpm.md",
     "Node Package Manager.md",
@@ -1845,20 +2248,7 @@
     "Model Context Protocol.md",
     "COLMAP.md",
     "Synthetic Aperture Radar.md",
-    "WebTransport.md",
     "_attachments/Pasted image 20260428170654.png",
-    "Satellogic.md",
-    "Planet Labs.md",
-    "Pi.md",
-    "Skill.md",
-    "Language Server Protocol.md",
-    "Semantic Versioning.md",
-    "Amazon EC2.md",
-    "Control Plane.md",
-    "Data Plane.md",
-    "Agent.md",
-    "Magnitude-Based Pruning.md",
-    "Claude Code.md",
     "_attachments/Pasted image 20260427230702.png",
     "_attachments/Pasted image 20260427230646.png",
     "_attachments/Pasted image 20260427230629.png",
@@ -1866,12 +2256,6 @@
     "_attachments/Pasted image 20260427225127.png",
     "_attachments/Pasted image 20260427225100.png",
     "_attachments/Pasted image 20260427222829.png",
-    "_attachments/Pasted image 20260427214943.png",
-    "_attachments/Pasted image 20260427214812.png",
-    "Server-Sent Event.md",
-    "Project Ideas.md",
-    "WebSockets.md",
-    "Asymmetric Key Encryption.md",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
     "recent-notes.txt",

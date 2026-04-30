@@ -22,8 +22,8 @@ Once you understand this, links are a little more obvious -- they're basically j
 # Hard Links
 - Just another directory entry pointing to the same inode:
 	- Directory: /hom/sam
-		- hello.txt -> 8429471
-		- greeting -> 8429471
+		- hello.txt -> 8429471           <------ These are called "Dentry"s or directory entries.
+		- greeting -> 8429471     <---- hard link, same inode
 	- Both names refer to the same file; there's no "original" and no "copy," they're equally valid names the same inode. This inode's **link count** is now 2.
 
 Example:
@@ -35,6 +35,13 @@ $ `ls -li`
 8429471 -rw-r--r-- 2 sam staff 13 Apr 30 greeting
 	    ↑                       ↑
      same inode             link count = 2
+     
+
+Aside:
+  8429471  -rw-r--r--  2  sam  staff  13  Apr 30  hello.txt
+     ↑          ↑      ↑   ↑     ↑     ↑     ↑        ↑
+   inode    perms    link owner group size  mtime  name
+   number          count
 ```
 
 Properties of hard links:
@@ -85,4 +92,38 @@ Properties of soft links:
 - ==Can point to directories==: common and useful
 - Can point to nothing (if you delete the target, the symlink still exists but is now "broken", "dangling", reading it gives `ENOENT`)
 - Can point to relative paths: `ln -s ../config.json` link is resolved at access time, so moving the parent directory may or may not break it depending on whether the relative path still resolves.
-- Has its own metadata; permissions on the symlink itself usually don't matter, most syscalls 
+- Has its own metadata; permissions on the symlink itself usually don't matter, most syscalls "follow" the symlink and apply to the target. 
+- Can chain; A symlink can point to asymlink and can point toa srymlink.
+
+Package managers like `pnpm` use symlinks *on top of hard links*  to construct each project's `node_modules` tree:
+
+```
+node_modules/react              → symlink to → ../.pnpm/react@18.2.0/node_modules/react
+                                                                                ↑
+                                                                    this directory contains
+                                                                    hard-linked files
+```
+The symlink lets pnpm assemble a per-project dependency tree without copying or hard-linking the directroy structuer itself; only the leaf files are hard-linked.
+
+![[Pasted image 20260430103144.png]]
+
+
+# The Mental Model to Carry Away
+  - A ==hard link== is another name for the same file. There is no "original."
+  - A ==soft link== is a tiny file containing a path that gets resolved on every access. It's a pointer, and
+  pointers can dangle.
+  - Filenames and files are separate things. Once you see the directory-entry-vs-inode split, every weird
+  link behavior makes sense.
+
+
+# The full pnpm Storage Chain
+
+![[Pasted image 20260430103353.png]]
+- ==Global store (~/.local/share/pnpm/store)== — one per machine. Holds the actual file bytes, named by content
+  hash. Every pnpm project on your machine shares this. Survives rm -rf node_modules.
+- ==Project .pnpm/ directory== — one per project. A flat list of every package version your project uses, each
+in its own isolated directory. The files here are hard links into the global store.
+- ==Project node_modules==/ — what Node.js's resolver looks at. Contains symlinks pointing into .pnpm/.
+
+Why two layers?
+- The symlinks in the top-level `node_modules` exist because Node's module resolver walkes `node_modules/pkg` and doesn't know about `.pnpm/`, so `pnpm` gives it Node what it expects (a node_modules/react path) while keeping the actual storage flat and deduplicated underneath.

@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "Modern Frontend Development",
+      "path": "Modern Frontend Development.md"
+    },
+    {
+      "basename": "React Server Components",
+      "path": "React Server Components.md"
+    },
+    {
+      "basename": "Hydration",
+      "path": "Hydration.md"
+    },
+    {
+      "basename": "Tailwind CSS",
+      "path": "Tailwind CSS.md"
+    },
+    {
+      "basename": "tsx",
+      "path": "tsx.md"
+    },
+    {
+      "basename": "SWR",
+      "path": "SWR.md"
+    },
+    {
+      "basename": "TanStack Query",
+      "path": "TanStack Query.md"
+    },
+    {
+      "basename": "Static Site Generation",
+      "path": "Static Site Generation.md"
+    },
+    {
+      "basename": "Server-Side Rendering",
+      "path": "Server-Side Rendering.md"
+    },
+    {
+      "basename": "Client-Side Rendering",
+      "path": "Client-Side Rendering.md"
+    },
+    {
+      "basename": "Single Page Application",
+      "path": "Single Page Application.md"
+    },
+    {
+      "basename": "JSX",
+      "path": "JSX.md"
+    },
+    {
+      "basename": "ECMAScript Modules",
+      "path": "ECMAScript Modules.md"
+    },
+    {
+      "basename": "CommonJS",
+      "path": "CommonJS.md"
+    },
+    {
+      "basename": "Node.js",
+      "path": "Node.js.md"
+    },
+    {
+      "basename": "Agent Harness",
+      "path": "Agent Harness.md"
+    },
+    {
+      "basename": "npx",
+      "path": "npx.md"
+    },
+    {
       "basename": "Hard Link",
       "path": "Hard Link.md"
     },
@@ -131,74 +199,6 @@
     {
       "basename": "Advanced Encryption Standard",
       "path": "Advanced Encryption Standard.md"
-    },
-    {
-      "basename": "Salt",
-      "path": "Salt.md"
-    },
-    {
-      "basename": "Certificate Authority",
-      "path": "Certificate Authority.md"
-    },
-    {
-      "basename": "Evol-Instruct",
-      "path": "Evol-Instruct.md"
-    },
-    {
-      "basename": "Synthetic Data",
-      "path": "Synthetic Data.md"
-    },
-    {
-      "basename": "Transport Layer Security",
-      "path": "Transport Layer Security.md"
-    },
-    {
-      "basename": "Key Exchange",
-      "path": "Key Exchange.md"
-    },
-    {
-      "basename": "Hash",
-      "path": "Hash.md"
-    },
-    {
-      "basename": "Symmetric Key Encryption",
-      "path": "Symmetric Key Encryption.md"
-    },
-    {
-      "basename": "Tailscale",
-      "path": "Tailscale.md"
-    },
-    {
-      "basename": "Remote Direct Memory Access",
-      "path": "Remote Direct Memory Access.md"
-    },
-    {
-      "basename": "Polar Orbit",
-      "path": "Polar Orbit.md"
-    },
-    {
-      "basename": "Equatorial Orbit",
-      "path": "Equatorial Orbit.md"
-    },
-    {
-      "basename": "Ground Control Point",
-      "path": "Ground Control Point.md"
-    },
-    {
-      "basename": "Maxar",
-      "path": "Maxar.md"
-    },
-    {
-      "basename": "Mosaic",
-      "path": "Mosaic.md"
-    },
-    {
-      "basename": "LASer",
-      "path": "LASer.md"
-    },
-    {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
     }
   ],
   "omittedPaths": [],
