@@ -1,6 +1,7 @@
 ---
 aliases:
   - Holistic Evaluation of Language Models
+  - HELM
 ---
 November 16, 2022 -- Stanford
 Paper: [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110)

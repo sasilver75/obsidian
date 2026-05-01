@@ -11,7 +11,7 @@ SDIAH: https://www.hellointerview.com/learn/system-design/deep-dives/api-gateway
 Gateways handle:
 - ==Validating Requests== (are they properly formed?)
 - ==Application of Middleware== (might require use of external services)
-	- Authenticate requests using [[JWT]] tokens.
+	- Authenticate requests using [[JSON Web Token|JWT]] tokens.
 	- [[Rate Limiting]] to prevent abuse
 	- Terminating [[SSL]] connections
 	- [[Logging]] and monitoring traffic

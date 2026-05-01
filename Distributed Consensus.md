@@ -2,7 +2,7 @@
 aliases:
   - Consensus
 ---
-e.g. [[PAXOS]], [[RAFT]]
+e.g. [[Paxos]], [[Raft]]
 
 
 

@@ -26,7 +26,7 @@ Notes:
 	- ==Authors find that even the larger open-source LLMS @ 70B are insufficient to evaluate using customized score rubrics==, compared to closed frontier models.
 - Authors introduce ==Feedback Collection==, a new dataset crafted to *encapsulate DIVERSE and FINE-GRAINED user assessment score rubrics* that represent realistic user demands. Unlike prior feedback datasets, it uses *custom*, not *generic* preference score rubrics to train models to *flexibly generalize* to practical and diverse evaluation preferences.
 	- They also say they're the first to explore the importance of including various reference materials -- particularly *"Reference Answers"* -- to effectively induce fine-grained evaluation capability.
-- Authors use Feedback Collection to create [[Prometheus]], a fine-tune of [[LLaMA 2]]-Chat-13B.
+- Authors use Feedback Collection to create [[Prometheus (Model)]], a fine-tune of [[LLaMA 2]]-Chat-13B.
 	- ==Prometheus obtains a correlation of .897 with human evaluators==, similar to GPT-4's .882, which are both significantly better than GPT-3.5-Turbo's .392... as measured on 45 customized score rubrics sampled across three test sets (MT Bench, Vicuna Bench, Feedback Bench).
 - ==Related Work==
 	- Model-free scores that evaluate machine-generated text based on a golden candidate reference, like [[BLEU]] (2002) and [[ROUGE]] (2004).
@@ -55,7 +55,7 @@ Notes:
 		2. **Expansion of 1k new score rubrics through GPT-4**: Expand the score rubrics from the initial 50 to a more robust and diverse set of 1000 score rubrics. Specifically, sampling 4 random original/human-written score rubrics and use them as [[Few-Shot Prompting]] demonstrations for GPT-4 to brainstorm new novel score rubrics. Also prompt GPT-4 to *paraphrase* the newly generated rubrics to help Prometheus generalize to different wordings.
 		3. **Augmentation of realistic instructions**: With a comprehensive dataset of 1,000 rubrics constructed, now we need to create N pertinent training instances for each. We prompt GPT-4 to generate 20k unique instructions (20 per rubric) that are highly relevant to each given score rubric.
 		4. **Augmentation of remaining components** in training instances (responses, including reference answers, feedback, scores): Sequentially generate responses and feedbacks by asking GPT-4 to generate each component that will get a score of (1..5). To eliminate the effect of decision bias when fine-tuning our evaluator LM, we generate an equal number of responses (20k) for each score (1..5). Note that for the response with a score of 5, we generate *two* distinctive responses, so we can use one of them as an input.
-- [[Prometheus]]
+- [[Prometheus (Model)]]
 	- We finetune Llama-2-Chat-7B and Llama-2-Chat-14B to obtain Prometheus.
 	- Similar to ==Chain-of-Thought Fine-Tuning==, we fine-tune to sequentially generate the *feedback*, and then the *score*. We ==highlight== that it's important to include a phrase like `[RESULT]` inbetween the feedback and score to prevent degeneration during inference.
 - Authors test Prometheus on both Absolute Evaluation/Grading and on Ranking Grading

@@ -23,7 +23,7 @@ We should name some concepts:
 
 So how do we bring documents into ElasticSearch and make them searchable?
 First, we need to ==create an index==:
-- ElasticSearch has a pretty good [[REST]]ful API
+- ElasticSearch has a pretty good [[Representational State Transfer|REST]]ful API
 ![[Pasted image 20250520132343.png]]
 - Here, first we're doing a PUT to our /books **Index**, with some parameters. This creates our `books` index.
 - We don't HAVE to specify a **Mapping**, but we CAN. The reason why we might want to is that if ElasticSearch can't infer the types of fields and which ones we might want to search, then it might make some mistakes. There's also some overhead in having ElasticSearch guess the fields that you might want to search on, since it might do more than you need.

@@ -1,4 +1,6 @@
 ---
 aliases:
   - OTLP
+  - OpenTelemetry
+  - OTel
 ---

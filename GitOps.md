@@ -1,0 +1,2 @@
+GitOps is ==an operational framework that applies [[DevOps]] best practices—such as version control, collaboration, and CI/CD—to infrastructure automation==, using Git as the "single source of truth" for declarative infrastructure. It ensures that the entire system state is stored in a repository, allowing automated tools to reconcile the actual infrastructure state with the desired state defined in code, which is ideal for managing [[Kubernetes]].
+

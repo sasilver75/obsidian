@@ -90,7 +90,7 @@ Additionally, It's simply the case that some principles generate data that's num
 			- UltraFeedback collects prompts from user sources like ShareGPT and existing instruction datasets like FLAN, and includes (?) model-generated critiques and completions.
 	- The final frontier is preference or instruction data generated through ==AI critiques==. Critiques are a process of repeatedly using an LLM to fine-tune data with respect to a specific principle or question.
 		- The addition of more context into the process makes the prerequisite capabilities of the model much higher, when it comes to critiquing synthetic data.
-		- See: Critic models like Meta's [[Shepherd]] (Aug, 2023) and KAIST's [[Prometheus]] (Oct, 2023)
+		- See: Critic models like Meta's [[Shepherd]] (Aug, 2023) and KAIST's [[Prometheus (Model)]] (Oct, 2023)
 
 Note: Nato says "Be warned: Prompt datasets like ShareGPT have low average quality and narrow distributions!"
 

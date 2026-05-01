@@ -37,7 +37,7 @@ Why do we need evaluations?
 There are many benchmarks in the field of language modeling:
 - [[MMLU|MMLU]]: A set of 57 tasks that span elementary math, US history, CS, law, and more. To perform well, you need both extensive world knowledge and problem-solving ability.
 - [[Eleuther LM Evaluation Harness]]: A unified framework to test models via zero/few-shot settings on 200 tests. Incorporates a large number of *other* evaluations, including [[BIG-Bench]], [[MMLU|MMLU]], etc.
-- [[HELM]]: Instead of specific tasks and metrics, HELM aims to offer a *holistic and comprehensive* assessment of LLMs by evaluating them across multiple domains. Metrics include accuracy, calibration, robustness, fairness, bias, toxicity, etc. Tasks include Q&A, information retrieval, summarization, text classification, etc.
+- [[HELM (Evaluation)]]: Instead of specific tasks and metrics, HELM aims to offer a *holistic and comprehensive* assessment of LLMs by evaluating them across multiple domains. Metrics include accuracy, calibration, robustness, fairness, bias, toxicity, etc. Tasks include Q&A, information retrieval, summarization, text classification, etc.
 - [[AlpacaEval]]: *Automated* evaluation framework which measures how often a strong LLM (e.g. GPT-4) prefers the output of one model over a reference model (eg TextDavinci003). Metrics include win rate, bias, latency, price, variance. Validated to have high agreement with 20k human annotations.
 
 We can group metrics into two categories:

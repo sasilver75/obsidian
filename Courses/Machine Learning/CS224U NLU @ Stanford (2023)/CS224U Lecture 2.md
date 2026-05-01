@@ -52,7 +52,7 @@ Reference to: [[Dynabench]]
 Reference to [[Dynaboard]]
 
 ![[Pasted image 20240422115547.png]]
-^ Sort of reminds me of [[HELM]]
+^ Sort of reminds me of [[HELM (Evaluation)]]
 
 
 ----

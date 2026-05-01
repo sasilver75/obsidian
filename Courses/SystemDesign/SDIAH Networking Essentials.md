@@ -107,7 +107,7 @@ Layer 7: [[Application Layer]]
 	- When I request some data, I might also specify to the application what type of data I can receive. (Header: Accept: application/json)
 	- In the response, the application can then specify the actual content type of the returned data: (Header: Content-Type: application/json; charset=utf-8), whether or not it's what's requested.
 	- This makes HTTP backwards and forwards compatible; new headers can be introduced, and clients/servers can negotiate on what formats to use.
-- HTTP is broader than just web pages: It can be used for building APIs, most commonly using [[REST]].
+- HTTP is broader than just web pages: It can be used for building APIs, most commonly using [[Representational State Transfer|REST]].
 	- REST uses the HTTP methods/verbs to describe what operations we're doing (reading/writing/updating/deleting)
 	- REST uses the idea of *resources* which have URLs associated with them. If we want to read UserId:1, we might use something like `GET /v1/users/1`, and be returned some sort of JSON result describing the USER. We might optionally pass a body in our PUT request if we then want to update the user.
 Basically, we're organizing our API around nouns and verbs (rather than around function calls)

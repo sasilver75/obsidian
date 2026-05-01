@@ -97,7 +97,7 @@ GET /changes?since={timestamp} -> fileIds[]
 
 ```
 Above:
-- We're careful to not put "User" in the body for creating a file; we want to mention that the UserId is going to be present in the request's header via a [[JWT]].
+- We're careful to not put "User" in the body for creating a file; we want to mention that the UserId is going to be present in the request's header via a [[JSON Web Token|JWT]].
 - ((I'm interested  that he's not introducing some sort of patch endpoint for a file that we'd changed locally.))
 
 

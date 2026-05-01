@@ -194,7 +194,7 @@ Aside: From the Article.... ==There are a few strategies to handle hot partition
 	- Our system may fail getting messages into or out of Kafka! Producer Retries and Consumer [[Retry|Retries]].
 	- For ==Producer Retries==: The Kafka Producer API supports some configurations that let us retry gracefully.
 		- ![[Pasted image 20250521115903.png]]
-		- You'll want to be sure that you've enabled [[Idempotent]] producer mode, which is to avoid duplicate message when retries are enabled; it makes sure that messages are only added once if we accidentally send it twice.
+		- You'll want to be sure that you've enabled [[Idempotency|Idempotent]] producer mode, which is to avoid duplicate message when retries are enabled; it makes sure that messages are only added once if we accidentally send it twice.
 - What about ==Consumer Retries?== **==NOTE: THIS IS MUCH MORE INTERESTING IN KAFKA!==**
 	- ![[Pasted image 20250521121747.png]]
 	- In a Web Crawling Example: Our Kafka broker is storing URLs of websites we need to crawl.

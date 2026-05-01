@@ -4,6 +4,6 @@ aliases:
 ---
 
 Notable (as far as I understand in Apr 2024) contributions:
-1. [[Prometheus]]
+1. [[Prometheus (Model)]]
 2. [[Odds Ratio Preference Optimization|ORPO]]
 

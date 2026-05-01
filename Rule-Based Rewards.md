@@ -80,7 +80,7 @@ We use a simplified content policy in our experiments, available in appendix
 {Some illustrative examples}
 ```
 - ==In our observations, LLMs demonstrate higher accuracy when asked to classify specific, individual tasks, like determining whether a text contains an apology, compared to general, multilayered tasks like rating completions given a large content and behavior policy ==
-	- ((Speaks to the method of [[Prometheus]], where you use some specific human rule rubric, rather than just asking for reasoning and then a rating.))
+	- ((Speaks to the method of [[Prometheus (Model)]], where you use some specific human rule rubric, rather than just asking for reasoning and then a rating.))
 	- So we simplified our complex policies into a series of individual binary tasks, termed ==propositions==.
 - We use the rule-based rankings to fit an auxiliary safety reward function that takes only proposition-based features as input, which we refer to as a ==Rule-Based Reward.== We can then combine this RBR with the ==helpful-only RM== to use as the total reward in RLHF.
 	- *Inner loop:* Fitting RBR weights, given features

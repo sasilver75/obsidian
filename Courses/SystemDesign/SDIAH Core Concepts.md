@@ -104,12 +104,12 @@ _________________
 # Communication Protocols
 - Protocols are an important part of software engineering, but most system design interviews don't cover the full OSI model. Instead, you'll be asked to reason about the communication protocols used to build your system.
 - There are ==two categories of protocols to handle:== **internal** and **external**.
-- For 90%+ of system design problems and typical microservice applications, either [[HTTP]](S) ((?? Do they mean [[REST]]?)) or [[gRPC]] will do the job -- don't make things complicated.
+- For 90%+ of system design problems and typical microservice applications, either [[HTTP]](S) ((?? Do they mean [[Representational State Transfer|REST]]?)) or [[gRPC]] will do the job -- don't make things complicated.
 - Externally, you'll need to ==consider how clients will communicate with your system:==
 	- **Who initiates** the communication.
 	- What are the **latency considerations**.
 	- **How much data** needs to be sent.
-- Across most choices, systems can be built with a combination of [[REST]], [[Server-Sent Event]] (SSE) or [[Long Polling]], and [[WebSockets]].
+- Across most choices, systems can be built with a combination of [[Representational State Transfer|REST]], [[Server-Sent Event]] (SSE) or [[Long Polling]], and [[WebSockets]].
 
 ![[Pasted image 20250518130221.png|700]]
 

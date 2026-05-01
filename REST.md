@@ -1,4 +1,0 @@
----
-aliases:
-  - Representational State Transfer
----

@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
+      "basename": "Cloudflare D1",
+      "path": "Cloudflare D1.md"
+    },
+    {
+      "basename": "BRIN Index",
+      "path": "BRIN Index.md"
+    },
+    {
+      "basename": "extended Berkeley Packet Filter",
+      "path": "extended Berkeley Packet Filter.md"
+    },
+    {
+      "basename": "Kernel (Filter)",
+      "path": "Kernel (Filter).md"
+    },
+    {
       "basename": "Modern Backend Development",
       "path": "Modern Backend Development.md"
     },
     {
-      "basename": "Backend for Frontend",
-      "path": "Backend for Frontend.md"
+      "basename": "SDIAH Core Concepts",
+      "path": "Courses/SystemDesign/SDIAH Core Concepts.md"
     },
     {
-      "basename": "Cache",
-      "path": "Cache.md"
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
     },
     {
-      "basename": "Cache Invalidation Strategy",
-      "path": "Cache Invalidation Strategy.md"
+      "basename": "ElasticSearch",
+      "path": "ElasticSearch.md"
     },
     {
-      "basename": "tsx",
-      "path": "tsx.md"
+      "basename": "Representational State Transfer",
+      "path": "Representational State Transfer.md"
     },
     {
-      "basename": "Cache Eviction Strategy",
-      "path": "Cache Eviction Strategy.md"
+      "basename": "Relationship-Based Access Control",
+      "path": "Relationship-Based Access Control.md"
     },
     {
-      "basename": "Cache Stampede",
-      "path": "Cache Stampede.md"
+      "basename": "Role-Based Access Control",
+      "path": "Role-Based Access Control.md"
     },
     {
-      "basename": "Cache-Aside",
-      "path": "Cache-Aside.md"
+      "basename": "Durable Execution Engine",
+      "path": "Durable Execution Engine.md"
     },
     {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
+      "basename": "Cloudflare Durable Objects",
+      "path": "Cloudflare Durable Objects.md"
     },
     {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
+      "basename": "Google Cloud Platform",
+      "path": "Google Cloud Platform.md"
     },
     {
-      "basename": "Read-Through Cache",
-      "path": "Read-Through Cache.md"
+      "basename": "Reranking",
+      "path": "Reranking.md"
     },
     {
-      "basename": "Prisma (ORM)",
-      "path": "Prisma (ORM).md"
+      "basename": "Amazon Secrets Manager",
+      "path": "Amazon Secrets Manager.md"
     },
     {
-      "basename": "PRISMA",
-      "path": "PRISMA.md"
+      "basename": "Web Assembly",
+      "path": "Web Assembly.md"
     },
     {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+      "basename": "End to End Test",
+      "path": "End to End Test.md"
     },
     {
-      "basename": "Apache Cassandra",
-      "path": "Apache Cassandra.md"
+      "basename": "Conflict-Free Replicated Data Types",
+      "path": "Conflict-Free Replicated Data Types.md"
     },
     {
-      "basename": "Cloud-Native Geospatial",
-      "path": "Cloud-Native Geospatial.md"
+      "basename": "Paxos",
+      "path": "Paxos.md"
     },
     {
-      "basename": "Design Dropbox",
-      "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
+      "basename": "Raft",
+      "path": "Raft.md"
     },
     {
-      "basename": "PostgreSQL",
-      "path": "PostgreSQL.md"
+      "basename": "Command Query Responsibility Segregation",
+      "path": "Command Query Responsibility Segregation.md"
     },
     {
-      "basename": "Amazon DynamoDB",
-      "path": "Amazon DynamoDB.md"
+      "basename": "Hexagonal Architecture",
+      "path": "Hexagonal Architecture.md"
     },
     {
-      "basename": "Google Spanner",
-      "path": "Google Spanner.md"
+      "basename": "Domain-Driven Design",
+      "path": "Domain-Driven Design.md"
     },
     {
-      "basename": "PlanetScale",
-      "path": "PlanetScale.md"
+      "basename": "Microservice",
+      "path": "Microservice.md"
     },
     {
-      "basename": "shadcn",
-      "path": "shadcn.md"
+      "basename": "Trunk-Based Development",
+      "path": "Trunk-Based Development.md"
     },
     {
-      "basename": "Modern Frontend Development",
-      "path": "Modern Frontend Development.md"
+      "basename": "Infrastructure as Code",
+      "path": "Infrastructure as Code.md"
     },
     {
-      "basename": "React Server Components",
-      "path": "React Server Components.md"
+      "basename": "Serverless",
+      "path": "Serverless.md"
     },
     {
-      "basename": "Hydration",
-      "path": "Hydration.md"
+      "basename": "HashiCorp Consul",
+      "path": "HashiCorp Consul.md"
     },
     {
-      "basename": "Tailwind CSS",
-      "path": "Tailwind CSS.md"
+      "basename": "HashiCorp Nomad",
+      "path": "HashiCorp Nomad.md"
     },
     {
-      "basename": "SWR",
-      "path": "SWR.md"
+      "basename": "Continuous Integration",
+      "path": "Continuous Integration.md"
     },
     {
-      "basename": "TanStack Query",
-      "path": "TanStack Query.md"
+      "basename": "GitOps",
+      "path": "GitOps.md"
     },
     {
-      "basename": "Static Site Generation",
-      "path": "Static Site Generation.md"
+      "basename": "HELM (Evaluation)",
+      "path": "HELM (Evaluation).md"
     },
     {
-      "basename": "Server-Side Rendering",
-      "path": "Server-Side Rendering.md"
+      "basename": "Golden Signals of Monitoring",
+      "path": "Golden Signals of Monitoring.md"
     },
     {
-      "basename": "Client-Side Rendering",
-      "path": "Client-Side Rendering.md"
+      "basename": "Application Performance Monitoring",
+      "path": "Application Performance Monitoring.md"
     },
     {
-      "basename": "Single Page Application",
-      "path": "Single Page Application.md"
+      "basename": "USE Method",
+      "path": "USE Method.md"
     },
     {
-      "basename": "JSX",
-      "path": "JSX.md"
+      "basename": "RED Method",
+      "path": "RED Method.md"
     },
     {
-      "basename": "ECMAScript Modules",
-      "path": "ECMAScript Modules.md"
+      "basename": "Service Level Agreement",
+      "path": "Service Level Agreement.md"
     },
     {
-      "basename": "CommonJS",
-      "path": "CommonJS.md"
+      "basename": "Service Level Indicator",
+      "path": "Service Level Indicator.md"
     },
     {
-      "basename": "Node.js",
-      "path": "Node.js.md"
+      "basename": "Service Level Objective",
+      "path": "Service Level Objective.md"
     },
     {
-      "basename": "Agent Harness",
-      "path": "Agent Harness.md"
+      "basename": "Grafana Loki",
+      "path": "Grafana Loki.md"
     },
     {
-      "basename": "npx",
-      "path": "npx.md"
+      "basename": "Prometheus (Model)",
+      "path": "Prometheus (Model).md"
     },
     {
-      "basename": "Hard Link",
-      "path": "Hard Link.md"
+      "basename": "OpenTelemetry Protocol",
+      "path": "OpenTelemetry Protocol.md"
     },
     {
-      "basename": "Soft Link",
-      "path": "Soft Link.md"
+      "basename": "Authentication",
+      "path": "Authentication.md"
     },
     {
-      "basename": "Index Node",
-      "path": "Index Node.md"
+      "basename": "Authorization",
+      "path": "Authorization.md"
     },
     {
-      "basename": "pnpm",
-      "path": "pnpm.md"
+      "basename": "Open Policy Agent",
+      "path": "Open Policy Agent.md"
     },
     {
-      "basename": "Node Package Manager",
-      "path": "Node Package Manager.md"
+      "basename": "Auth0",
+      "path": "Auth0.md"
     },
     {
-      "basename": "Gas Town",
-      "path": "Gas Town.md"
+      "basename": "Mutual TLS",
+      "path": "Mutual TLS.md"
     },
     {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
+      "basename": "Proof Key for Code Exchange",
+      "path": "Proof Key for Code Exchange.md"
     },
     {
-      "basename": "COLMAP",
-      "path": "COLMAP.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "WebTransport",
-      "path": "WebTransport.md"
-    },
-    {
-      "basename": "Satellogic",
-      "path": "Satellogic.md"
-    },
-    {
-      "basename": "Planet Labs",
-      "path": "Planet Labs.md"
+      "basename": "Web Authentication API",
+      "path": "Web Authentication API.md"
     }
   ],
   "omittedPaths": [],

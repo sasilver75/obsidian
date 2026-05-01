@@ -28,7 +28,7 @@ There's been a growing interest in applying LLMs to zero-shot text ranking in th
 	2. ==Instructional Query Generation==
 		- Use LLMs to generate a query based on the document, and measure the probability of generating the actual query.
 		- An example of this approach is [[UPR|Unsupervised Passage Re-Ranker]] (UPR), which applies an off-the-shelf LM and a prompt of *"Please write a question based on this passage"* to the document $d_i$ tokens, and computes the likelihood of query generation conditioned on the passage. ![[Pasted image 20240528174123.png]]
-- ((Neither of these seem that good to me! It's strange that in these examples we don't have the LLM generate any sort of rationale before giving a judgement, as we see in LLM-as-a-Judge papers like [[Prometheus]], [[Shepherd]])).
+- ((Neither of these seem that good to me! It's strange that in these examples we don't have the LLM generate any sort of rationale before giving a judgement, as we see in LLM-as-a-Judge papers like [[Prometheus (Model)]], [[Shepherd]])).
 
 ### (2/3) Pairwise Ranking
 - A pair of candidate items ($d_i, d_j$) along with the user query serve as prompts to guide the LLMS to determine which document (of the two) is most relevant to the given query. ![[Pasted image 20240528174203.png]]

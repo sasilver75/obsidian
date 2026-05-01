@@ -1,2 +1,2 @@
 - [[Shepherd]]
-- [[Prometheus]]
+- [[Prometheus (Model)]]

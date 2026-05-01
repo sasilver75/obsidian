@@ -407,7 +407,7 @@ The net result is that each **Task Manager** has a granular set of **Task Slots*
 7. ==Resume Processing==: The **job resumes processing from the checkpoint**. Since the checkpoint contains information about exactly which records were processed, Flink guarantees **==exactly-once processing==** even after a failure.
 
 
-**==Note==**: Flink guarantees ==exactly-once semantics== for internal state operations, but ==this doesn't automatically extend to external systems==. For example, when making API calls or writing to external databases, you may still process the same record multiple times in case of failure and recovery. You need to implement [[Idempotent]] operations or transactional behavior when interacting with external systems to achieve true end-to-end exactly-once processing.
+**==Note==**: Flink guarantees ==exactly-once semantics== for internal state operations, but ==this doesn't automatically extend to external systems==. For example, when making API calls or writing to external databases, you may still process the same record multiple times in case of failure and recovery. You need to implement [[Idempotency|Idempotent]] operations or transactional behavior when interacting with external systems to achieve true end-to-end exactly-once processing.
 
 
 

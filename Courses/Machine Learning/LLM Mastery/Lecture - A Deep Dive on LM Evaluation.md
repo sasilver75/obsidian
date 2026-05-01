@@ -62,7 +62,7 @@ Which of these two do you think are going to give better performance?
 ![[Pasted image 20240625131928.png]]
 We need strong reporting standards, and for papers to report enough details about how evaluations were done.
 - Basically, ==If evaluation code is not shared directly, it's likely not going to be reproducible.==
-- This is where libraries like [[Eleuther LM Evaluation Harness]], [[HELM]], etc. come in; by having a vetted codebase for evaluation, it's great to not have to worry about these tokenization issues, etc... and more think about what evaluations you want to do.
+- This is where libraries like [[Eleuther LM Evaluation Harness]], [[HELM (Evaluation)]], etc. come in; by having a vetted codebase for evaluation, it's great to not have to worry about these tokenization issues, etc... and more think about what evaluations you want to do.
 	- In contrast to HELM, Eval Harness tries to put tools in the hands of researchers; many tasks are supported, and it's easy to define new ones, edit prompts, etc.
 
 
