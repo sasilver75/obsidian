@@ -1,16 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "Modern Backend Development",
+      "path": "Modern Backend Development.md"
+    },
+    {
+      "basename": "Network Firewall",
+      "path": "Network Firewall.md"
+    },
+    {
+      "basename": "Network Layer",
+      "path": "Network Layer.md"
+    },
+    {
+      "basename": "Web Application Firewall",
+      "path": "Web Application Firewall.md"
+    },
+    {
+      "basename": "Next-Generation Firewall",
+      "path": "Next-Generation Firewall.md"
+    },
+    {
+      "basename": "Firewall",
+      "path": "Firewall.md"
+    },
+    {
+      "basename": "The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}",
+      "path": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "HTTP.md"
+    },
+    {
+      "basename": "Transport Layer",
+      "path": "Transport Layer.md"
+    },
+    {
+      "basename": "Application Layer",
+      "path": "Application Layer.md"
+    },
+    {
+      "basename": "OSI Model",
+      "path": "OSI Model.md"
+    },
+    {
+      "basename": "Amazon Network Load Balancer",
+      "path": "Amazon Network Load Balancer.md"
+    },
+    {
+      "basename": "Amazon Application Load Balancer",
+      "path": "Amazon Application Load Balancer.md"
+    },
+    {
+      "basename": "Middlebox",
+      "path": "Middlebox.md"
+    },
+    {
+      "basename": "QUIC",
+      "path": "QUIC.md"
+    },
+    {
+      "basename": "Forward Proxy",
+      "path": "Forward Proxy.md"
+    },
+    {
+      "basename": "Reverse Proxy",
+      "path": "Reverse Proxy.md"
+    },
+    {
       "basename": "HTTP 3",
       "path": "HTTP 3.md"
     },
     {
       "basename": "HTTP 2",
       "path": "HTTP 2.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "HTTP.md"
     },
     {
       "basename": "Huffman Coding",
@@ -57,16 +121,8 @@
       "path": "Tokenization.md"
     },
     {
-      "basename": "QUIC",
-      "path": "QUIC.md"
-    },
-    {
       "basename": "Transport Control Protocol",
       "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "OSI Model.md"
     },
     {
       "basename": "Webhook",
@@ -75,10 +131,6 @@
     {
       "basename": "Design Dropbox",
       "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
-    },
-    {
-      "basename": "Modern Backend Development",
-      "path": "Modern Backend Development.md"
     },
     {
       "basename": "Hash-based Message Authentication Code",
@@ -129,10 +181,6 @@
       "path": "Domain Name Service.md"
     },
     {
-      "basename": "Web Application Firewall",
-      "path": "Web Application Firewall.md"
-    },
-    {
       "basename": "Cloudflare D1",
       "path": "Cloudflare D1.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "Connection Pool",
       "path": "Connection Pool.md"
-    },
-    {
-      "basename": "pg_search",
-      "path": "pg_search.md"
-    },
-    {
-      "basename": "Cloudflare Vectorize",
-      "path": "Cloudflare Vectorize.md"
-    },
-    {
-      "basename": "Cloudflare",
-      "path": "Cloudflare.md"
-    },
-    {
-      "basename": "Cloudflare Workers AI",
-      "path": "Cloudflare Workers AI.md"
-    },
-    {
-      "basename": "Amazon Lambda",
-      "path": "Amazon Lambda.md"
-    },
-    {
-      "basename": "pnpm",
-      "path": "pnpm.md"
-    },
-    {
-      "basename": "Hard Link",
-      "path": "Hard Link.md"
-    },
-    {
-      "basename": "npx",
-      "path": "npx.md"
-    },
-    {
-      "basename": "Agent Harness",
-      "path": "Agent Harness.md"
-    },
-    {
-      "basename": "tsx",
-      "path": "tsx.md"
-    },
-    {
-      "basename": "Project Ideas",
-      "path": "Project Ideas.md"
-    },
-    {
-      "basename": "Index Node",
-      "path": "Index Node.md"
     }
   ],
   "omittedPaths": [],

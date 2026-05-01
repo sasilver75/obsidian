@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP.md",
+                "file": "Network Firewall.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "Network Firewall"
+            }
+          },
+          {
+            "id": "47f7edd963aecee8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modern Backend Development.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Modern Backend Development"
             }
           },
           {
@@ -61,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP.md",
+                "file": "Network Firewall.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +100,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "Network Firewall"
+            }
+          },
+          {
+            "id": "1fef257be6a4564d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Layer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Network Layer"
             }
           },
           {
@@ -85,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP 3.md",
+                "file": "Transport Layer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +148,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HTTP 3"
+              "title": "Transport Layer"
+            }
+          },
+          {
+            "id": "b7d6c78a17427723",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Application Layer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Application Layer"
+            }
+          },
+          {
+            "id": "2ed7b618ed92ca92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Forward Proxy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Forward Proxy"
+            }
+          },
+          {
+            "id": "3ed727c722d26c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reverse Proxy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reverse Proxy"
             }
           },
           {
@@ -368,7 +488,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1977,11 +2097,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f175255444b7f3c0",
+  "active": "47f7edd963aecee8",
   "lastOpenFiles": [
-    "HTTP 2.md",
+    "Network Firewall.md",
+    "Network Layer.md",
+    "Web Application Firewall.md",
+    "Next-Generation Firewall.md",
+    "Firewall.md",
+    "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
     "HTTP.md",
+    "Transport Layer.md",
+    "Application Layer.md",
+    "OSI Model.md",
+    "Amazon Network Load Balancer.md",
+    "Amazon Application Load Balancer.md",
+    "osi mo.md",
+    "Middlebox.md",
+    "QUIC.md",
+    "Forward Proxy.md",
+    "Reverse Proxy.md",
     "HTTP 3.md",
+    "HTTP 2.md",
     "Huffman Coding.md",
     "HPACK.md",
     "Multiplex.md",
@@ -1989,24 +2125,8 @@
     "Head-of-Line Blocking.md",
     "gRPC.md",
     "HTTP1.1.md",
-    "ConnectRPC.md",
-    "WebSockets.md",
-    "WebTransport.md",
-    "HTTP/3.md",
-    "HTTP/2.md",
     "HTTP",
-    "HTTP/1.1.md",
-    "Token.md",
-    "Tokenization.md",
-    "QUIC.md",
     "_attachments/Pasted image 20260501113601.png",
-    "Transport Control Protocol.md",
-    "OSI Model.md",
-    "Webhook.md",
-    "Courses/SystemDesign/Case Studies/Design Dropbox.md",
-    "webhooks.md",
-    "Modern Backend Development.md",
-    "Hash-based Message Authentication Code.md",
     "_attachments/Pasted image 20260430103353.png",
     "_attachments/Pasted image 20260430103144.png",
     "_attachments/Pasted image 20260428170654.png",
