@@ -168,7 +168,7 @@ This is kind of the best of both worlds, where we have high-performance intercon
 -----------
 
 With [[Server-Sent Event]]s (SSE), there are examples where, rather than using a request-response format, we might want to be able to send information (stock ticker updates, notifications) that we want to send to our users.
-- In this case we COULD go [[Poll]] the API, making repeated requests, but the information that we get would be delayed up to our polling frequency, and there's some overhead of repeatedly opening and closing these connections.
+- In this case we COULD go [[Polling|Poll]] the API, making repeated requests, but the information that we get would be delayed up to our polling frequency, and there's some overhead of repeatedly opening and closing these connections.
 
 Server Sent Events are an extension of [[HTTP]], but with one noticable difference:
 - With an HTTP request, the response is consumed almost wholly... for most cases, we don't process the response until we get everything. So if we were sending a list of responses, we don't process the events until all of them arrive...

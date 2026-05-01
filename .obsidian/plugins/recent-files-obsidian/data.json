@@ -1,24 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "ParadeDB",
-      "path": "ParadeDB.md"
+      "basename": "HTTP 3",
+      "path": "HTTP 3.md"
     },
     {
-      "basename": "ConnectRPC",
-      "path": "ConnectRPC.md"
+      "basename": "HTTP 2",
+      "path": "HTTP 2.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "HTTP.md"
+    },
+    {
+      "basename": "Huffman Coding",
+      "path": "Huffman Coding.md"
+    },
+    {
+      "basename": "HPACK",
+      "path": "HPACK.md"
+    },
+    {
+      "basename": "Multiplex",
+      "path": "Multiplex.md"
+    },
+    {
+      "basename": "HTTP 1.1",
+      "path": "HTTP 1.1.md"
+    },
+    {
+      "basename": "Head-of-Line Blocking",
+      "path": "Head-of-Line Blocking.md"
     },
     {
       "basename": "gRPC",
       "path": "gRPC.md"
     },
     {
-      "basename": "Cloud Native Computing Foundation",
-      "path": "Cloud Native Computing Foundation.md"
+      "basename": "ConnectRPC",
+      "path": "ConnectRPC.md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "WebTransport",
+      "path": "WebTransport.md"
+    },
+    {
+      "basename": "Token",
+      "path": "Token.md"
+    },
+    {
+      "basename": "Tokenization",
+      "path": "Tokenization.md"
+    },
+    {
+      "basename": "QUIC",
+      "path": "QUIC.md"
+    },
+    {
+      "basename": "Transport Control Protocol",
+      "path": "Transport Control Protocol.md"
+    },
+    {
+      "basename": "OSI Model",
+      "path": "OSI Model.md"
+    },
+    {
+      "basename": "Webhook",
+      "path": "Webhook.md"
+    },
+    {
+      "basename": "Design Dropbox",
+      "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
+    },
+    {
+      "basename": "Modern Backend Development",
+      "path": "Modern Backend Development.md"
+    },
+    {
+      "basename": "Hash-based Message Authentication Code",
+      "path": "Hash-based Message Authentication Code.md"
+    },
+    {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "Kafka",
+      "path": "Kafka.md"
+    },
+    {
+      "basename": "Polling",
+      "path": "Polling.md"
+    },
+    {
+      "basename": "Long Polling",
+      "path": "Long Polling.md"
+    },
+    {
+      "basename": "Short Polling",
+      "path": "Short Polling.md"
+    },
+    {
+      "basename": "Claude Cowork",
+      "path": "Claude Cowork.md"
+    },
+    {
+      "basename": "ParadeDB",
+      "path": "ParadeDB.md"
+    },
+    {
+      "basename": "Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Cloudflare Workers",
+      "path": "Cloudflare Workers.md"
+    },
+    {
+      "basename": "Amazon Bedrock",
+      "path": "Amazon Bedrock.md"
+    },
+    {
+      "basename": "Domain Name Service",
+      "path": "Domain Name Service.md"
+    },
+    {
+      "basename": "Web Application Firewall",
+      "path": "Web Application Firewall.md"
+    },
+    {
+      "basename": "Cloudflare D1",
+      "path": "Cloudflare D1.md"
     },
     {
       "basename": "Apache Lucene",
       "path": "Apache Lucene.md"
+    },
+    {
+      "basename": "Cloud Native Computing Foundation",
+      "path": "Cloud Native Computing Foundation.md"
+    },
+    {
+      "basename": "Gas Town",
+      "path": "Gas Town.md"
     },
     {
       "basename": "Connection Pool",
@@ -33,40 +161,12 @@
       "path": "Cloudflare Vectorize.md"
     },
     {
-      "basename": "Modern Backend Development",
-      "path": "Modern Backend Development.md"
-    },
-    {
       "basename": "Cloudflare",
       "path": "Cloudflare.md"
     },
     {
-      "basename": "Cloudflare D1",
-      "path": "Cloudflare D1.md"
-    },
-    {
-      "basename": "Web Application Firewall",
-      "path": "Web Application Firewall.md"
-    },
-    {
-      "basename": "Gas Town",
-      "path": "Gas Town.md"
-    },
-    {
-      "basename": "Domain Name Service",
-      "path": "Domain Name Service.md"
-    },
-    {
       "basename": "Cloudflare Workers AI",
       "path": "Cloudflare Workers AI.md"
-    },
-    {
-      "basename": "Amazon Bedrock",
-      "path": "Amazon Bedrock.md"
-    },
-    {
-      "basename": "Cloudflare Workers",
-      "path": "Cloudflare Workers.md"
     },
     {
       "basename": "Amazon Lambda",
@@ -93,112 +193,12 @@
       "path": "tsx.md"
     },
     {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
       "basename": "Project Ideas",
       "path": "Project Ideas.md"
     },
     {
       "basename": "Index Node",
       "path": "Index Node.md"
-    },
-    {
-      "basename": "Soft Link",
-      "path": "Soft Link.md"
-    },
-    {
-      "basename": "Node.js",
-      "path": "Node.js.md"
-    },
-    {
-      "basename": "ECMAScript Modules",
-      "path": "ECMAScript Modules.md"
-    },
-    {
-      "basename": "Single Page Application",
-      "path": "Single Page Application.md"
-    },
-    {
-      "basename": "Client-Side Rendering",
-      "path": "Client-Side Rendering.md"
-    },
-    {
-      "basename": "Server-Side Rendering",
-      "path": "Server-Side Rendering.md"
-    },
-    {
-      "basename": "Static Site Generation",
-      "path": "Static Site Generation.md"
-    },
-    {
-      "basename": "Hydration",
-      "path": "Hydration.md"
-    },
-    {
-      "basename": "TanStack Query",
-      "path": "TanStack Query.md"
-    },
-    {
-      "basename": "SWR",
-      "path": "SWR.md"
-    },
-    {
-      "basename": "Tailwind CSS",
-      "path": "Tailwind CSS.md"
-    },
-    {
-      "basename": "React Server Components",
-      "path": "React Server Components.md"
-    },
-    {
-      "basename": "shadcn",
-      "path": "shadcn.md"
-    },
-    {
-      "basename": "PlanetScale",
-      "path": "PlanetScale.md"
-    },
-    {
-      "basename": "Google Spanner",
-      "path": "Google Spanner.md"
-    },
-    {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
-    },
-    {
-      "basename": "PRISMA",
-      "path": "PRISMA.md"
-    },
-    {
-      "basename": "Prisma (ORM)",
-      "path": "Prisma (ORM).md"
-    },
-    {
-      "basename": "Read-Through Cache",
-      "path": "Read-Through Cache.md"
-    },
-    {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
-    },
-    {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
-    },
-    {
-      "basename": "Cache-Aside",
-      "path": "Cache-Aside.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
-    },
-    {
-      "basename": "Cache Stampede",
-      "path": "Cache Stampede.md"
     }
   ],
   "omittedPaths": [],

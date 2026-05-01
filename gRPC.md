@@ -2,7 +2,7 @@ A high-performance [[Remote Procedure Call|RPC]] framework originally built at G
 
 ### Key characteristics:
 - [[Protobuf|Protocol Buffer]]s (==Protobuf==): The default ==binary serialization format==.
-- [[HTTP/2]] transport: Multiplexed streams over a single connection, header compression, bidirectional streaming.
+- [[HTTP 2]] transport: Multiplexed streams over a single connection, header compression, bidirectional streaming.
 - ==Four call types:==
 	- Unary: Request -> response, like normal RPC
 	- Server streaming: One request -> stream of responses

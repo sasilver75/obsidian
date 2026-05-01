@@ -318,7 +318,7 @@ Questions:
 	- We want our sync to be consistent, meaning whatever is in our local folder is in remote, and whatever is in our remote folder is local.
 - So how do we make sync fast?
 	- How do we know when there are changes?
-		- The client can periodically [[Poll]] for changes, using that SyncService
+		- The client can periodically [[Polling|Poll]] for changes, using that SyncService
 			- We can change the polling rate based on what the client is doing (==adapative polling==); maybe if the client is doing a lot of work, we increase  the polling rate, etc. Also provide a "Refresh" button to the client which polls for them.
 			- This is appropriate
 		- Clients sometimes bring up [[WebSockets]] or [[Long Polling]], but it's totally overkill

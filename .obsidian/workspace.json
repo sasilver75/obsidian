@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gas Town.md",
+                "file": "Modern Backend Development.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,319 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gas Town"
+              "title": "Modern Backend Development"
+            }
+          },
+          {
+            "id": "e98281c2ea529740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP"
+            }
+          },
+          {
+            "id": "e7a9117d07de6449",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP"
+            }
+          },
+          {
+            "id": "f175255444b7f3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP 3"
+            }
+          },
+          {
+            "id": "1e25fcdc7b79228d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP 3"
+            }
+          },
+          {
+            "id": "64f4fd5b2dadb7a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Huffman Coding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Huffman Coding"
+            }
+          },
+          {
+            "id": "938d8681886b8526",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HPACK.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HPACK"
+            }
+          },
+          {
+            "id": "2c1e6f0eaa6a6d72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multiplex.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multiplex"
+            }
+          },
+          {
+            "id": "90e0c08e400c798a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Head-of-Line Blocking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Head-of-Line Blocking"
+            }
+          },
+          {
+            "id": "c21629f1f1436f86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP 2"
+            }
+          },
+          {
+            "id": "d4454e0d392db83a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP 3"
+            }
+          },
+          {
+            "id": "30d4faf4b92c3b6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transport Control Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Transport Control Protocol"
+            }
+          },
+          {
+            "id": "7bdf4ea1cfaaad0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSI Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OSI Model"
+            }
+          },
+          {
+            "id": "e66d3ab1b5feea30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hash-based Message Authentication Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hash-based Message Authentication Code"
             }
           },
           {
@@ -37,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ParadeDB.md",
+                "file": "WebSockets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,203 +364,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ParadeDB"
-            }
-          },
-          {
-            "id": "9104dfee0abc57fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ConnectRPC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ConnectRPC"
-            }
-          },
-          {
-            "id": "92784a1b2c803e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud Native Computing Foundation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cloud Native Computing Foundation"
-            }
-          },
-          {
-            "id": "019a10b1c35917e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apache Lucene.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Apache Lucene"
-            }
-          },
-          {
-            "id": "ebbd52e536a4fcc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloudflare D1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cloudflare D1"
-            }
-          },
-          {
-            "id": "be56e3108db8e0d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Application Firewall.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Web Application Firewall"
-            }
-          },
-          {
-            "id": "b06c020a7823d56d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Domain Name Service.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Domain Name Service"
-            }
-          },
-          {
-            "id": "0b107b2b370bd191",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon Bedrock.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Bedrock"
-            }
-          },
-          {
-            "id": "75415e8d1fb4154e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloudflare Workers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cloudflare Workers"
+              "title": "WebSockets"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -311,12 +431,12 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1857,34 +1977,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "dfd322508007f4d2",
+  "active": "f175255444b7f3c0",
   "lastOpenFiles": [
-    "ConnectRPC.md",
-    "ParadeDB.md",
+    "HTTP 2.md",
+    "HTTP.md",
+    "HTTP 3.md",
+    "Huffman Coding.md",
+    "HPACK.md",
+    "Multiplex.md",
+    "HTTP 1.1.md",
+    "Head-of-Line Blocking.md",
     "gRPC.md",
-    "Cloud Native Computing Foundation.md",
-    "Apache Lucene.md",
-    "Connection Pool.md",
-    "pg_search.md",
-    "Cloudflare Vectorize.md",
-    "Modern Backend Development.md",
-    "Cloudflare.md",
-    "Cloudflare D1.md",
-    "Web Application Firewall.md",
-    "Gas Town.md",
-    "Domain Name Service.md",
-    "Cloudflare Workers AI.md",
-    "Amazon Bedrock.md",
-    "Cloudflare Workers.md",
-    "Amazon Lambda.md",
-    "pnpm.md",
-    "Hard Link.md",
-    "npx.md",
-    "Agent Harness.md",
-    "tsx.md",
+    "HTTP1.1.md",
+    "ConnectRPC.md",
     "WebSockets.md",
-    "Project Ideas.md",
-    "Index Node.md",
+    "WebTransport.md",
+    "HTTP/3.md",
+    "HTTP/2.md",
+    "HTTP",
+    "HTTP/1.1.md",
+    "Token.md",
+    "Tokenization.md",
+    "QUIC.md",
+    "_attachments/Pasted image 20260501113601.png",
+    "Transport Control Protocol.md",
+    "OSI Model.md",
+    "Webhook.md",
+    "Courses/SystemDesign/Case Studies/Design Dropbox.md",
+    "webhooks.md",
+    "Modern Backend Development.md",
+    "Hash-based Message Authentication Code.md",
     "_attachments/Pasted image 20260430103353.png",
     "_attachments/Pasted image 20260430103144.png",
     "_attachments/Pasted image 20260428170654.png",
@@ -1894,7 +2016,6 @@
     "_attachments/Pasted image 20260427225302.png",
     "_attachments/Pasted image 20260427225127.png",
     "_attachments/Pasted image 20260427225100.png",
-    "_attachments/Pasted image 20260427222829.png",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
     "recent-notes.txt",
@@ -1903,7 +2024,6 @@
     "Courses/HuggingFaceAgents",
     "Load",
     "Courses/UCSC/NLP202 NLP II",
-    "Courses/Machine Learning/Deepmind x URL RL",
-    "Courses/Machine Learning/CS234"
+    "Courses/Machine Learning/Deepmind x URL RL"
   ]
 }

@@ -168,7 +168,7 @@ The metric above can give us a good idea of how well a language model "fits" the
 
 #### Downstream task evaluation
 - While perplexity-based evaluations are useful for understanding whether an LLM understands a doamin of text well (eg measuring perplexity over a corpus of scientific publications to determine if the LLM captures this data), but ==perplexity-based evaluations fail to directly measure how well an LLM performs on downstream tasks!==
-- For this, authors evaluate the model using the [[Catwalk]] framework, which provides a standardized abstraction for evaluating various LLMs across a wide variety of tasks and datasets. ==Models are solely evaluated using a zero-shot prompting strategy!==
+- For this, authors evaluate the model using the Catwalk framework, which provides a standardized abstraction for evaluating various LLMs across a wide variety of tasks and datasets. ==Models are solely evaluated using a zero-shot prompting strategy!==
 - ![[Pasted image 20240221151710.png]]
 - For OLMo, they selected nine reasoning tasks that were similar to the task set used to evaluate LLaMA and LLaMA 2.
 

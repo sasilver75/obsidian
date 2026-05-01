@@ -7,7 +7,7 @@ An RPC framework built by Buf that's designed as a ==more ergonomic, browser-fri
 Key points:
 - ==Same `.proto` files==: Define services in protobuf, exactly like gRPC. Reuses the protobuf ecosystem (codegen, types, tooling)
 - ==Three protocols on one server==. A Connect server simultaneously speaks:
-	- Connect protocol: Buf's own simpler HTTP/1.1 and [[HTTP/2]]-friendly protocol
+	- Connect protocol: Buf's own simpler HTTP/1.1 and [[HTTP 2]]-friendly protocol
 	- gRPC: Full compatibility with existing gRPC clients
 	- gRPC-Web: For browsers without a proxy
 - ==Browser-native==: Connect-Web works directly from the browser over HTTP/1.1 or HTTP/2, no Envoy/grpc-web proxy required. ==This is the big draw vs raw gRPC==.

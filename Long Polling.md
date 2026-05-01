@@ -1,4 +1,4 @@
 ---
 aliases:
-  - Short Poll
+  - Long Poll
 ---

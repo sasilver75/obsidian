@@ -22,7 +22,7 @@ Let's dive more into how this objective works, at conceptual and concrete levels
 - Let's now learn about next-token prediction (known as the standard language modeling objective); the workhorse behind all causal language models.
 
 ### Tokens and Vocabularies
-- The first question we might ask is: What is a [[Token]]? 
+- The first question we might ask is: What is a [[Tokenization]]? 
 	- It's a word or sub-world within a sequence of text.
 	- Given a sequence of raw text as an input, one of first steps we take in using a language model is to tokenize this raw text, breaking it into a sequence of discrete tokens.
 

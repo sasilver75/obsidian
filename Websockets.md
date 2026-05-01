@@ -2,3 +2,51 @@
 aliases:
   - WebSocket
 ---
+A protocol for full-duplex persistent connection between a client (usually a browser) and a server over a single long-lived [[Transport Control Protocol|TCP]] connection.
+
+How it works:
+1. Handshake: Client sends an HTTP `Upgrade: websocket` request, and a Server responds with `101 Switching Protocols`. After this, the connection is no longe [[HTTP]]; it's the [[WebSockets|WebSocket]] wire protocol over the same TCP socket.
+2. Framed messages: Both sides send binary or text frames. Tiny message overhead (2-14 bytes) vs HTTP's headers-on-every-request.
+3. Bidirectional:  Server can push to client whatever (no polling, no long-polling hacks)
+4. Stateful: Connection stays open, so the server typically holds per-connection state (user ID, room, subscription).
+
+In Browser:
+```javascript
+const ws = new
+WebSocket('wss://example.com/socket');
+ws.onmessage = (e) => console.log(e.data);
+ws.send('hello');
+```
+
+Use cases:
+- Chat/messaging
+- Live dashboards, stock tickers, sports scores
+	- ((It seems to me that this would be a better case for the unidirectional [[Server-Sent Event]] (SSE)))
+- Collaborative editing (Figma, Google Docs)
+- Multiplayer games
+- Real-time notifications
+
+Tradeoffs:
+- ✅: Low-latency, low-overhead, true bidirectional, widely supported in browsers.
+- ❌: Stateful: Doesn't fit [[Serverless]] models well. 
+	- Requires [[Sticky Session]]s behind [[Load Balancing|Load Balancer]]s.
+	- Scaling means coordinate connections accross servers.
+- ❌: No built-in reconnect, auth refresh, or message ordering guarantees; you have to build this.
+- ❌: Proxies/firewalls sometimes interfere; long-running connections cost more than short HTTP requests on some platforms.
+
+
+# Alternatives
+- [[Server-Sent Event]] (SSE): Server -> client only, simpler, runs over plain HTTP. Good when you don't need client -> server streaming.
+- [[Long Polling]]: Fallback for environments that block WebSockets.
+- [[WebTransport]]: A newer bidirectional protocol built on [[HTTP 3]] + [[QUIC]], supporting unreliable datagrams (good for games). Not yet universal.
+- Higher-level libs: Socket.IO (adds reconnect, rooms, fallbacks, etc.)
+
+
+
+
+
+
+
+
+
+

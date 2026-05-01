@@ -13,7 +13,7 @@
 - Go: stdlib `net/http`, Echo, Gin Fiber, Chi, Huma
 - Rust: Axum (Tokio team's, dominant)
 - Node/TS: Express (legacy default), Fastify (faster, schema-first), Elysia (Bun-native)
-- Python: FatAPI (default for new APIs, async, Pydantic-typed, OpenAPI auto), Django+DRF, Flask (legacy)
+- Python: [[FastAPI]] (default for new APIs, async, Pydantic-typed, OpenAPI auto), Django+DRF, Flask (legacy)
 - ...
 
 # API Paradigms
@@ -21,7 +21,7 @@
 - GraphQL: Well past peak hype but stable in places where federation pays off
 - [[gRPC]]: Standard for inter-service in polyglot environments. 
 	- `Connect` is gaining ground.
-- [[tRPC]]: Type-safe RPC for TS-only stakcs. No schema language, types flow through.
+- [[tRPC]]: Type-safe RPC for TS-only stacks. No schema language, types flow through.
 - [[WebSockets|WebSocket]]: bidirectional, persistent
 - [[Server-Sent Event]]s (SSE): One-way streaming over plain HTTP, the default transport for LLM streaming today.
 - [[Webhook]]s: Outbound HTTP callbacks. `Svix` is the dominant managed service.
