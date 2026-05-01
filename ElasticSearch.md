@@ -120,7 +120,7 @@ Two approaches for this **Stateless Pagination**:
 
 In a lot of interviews, you need to point out when you might use ElasticSearch and when you might use it in your overall design. If you're designing Twitter, search might be a part of your design, and delegating it to ES might make sense. In other interviews, your interviewer might explicitly tell you "Don't use ES, I'd love to see how you implement some of the core concepts." Being able to understand what goes on beneath the covers of ES is what this second section is about.
 
-The first thing to understand about ES is that it's something of an orchestration for [[Lucene]], which is a low-level search functionality.
+The first thing to understand about ES is that it's something of an orchestration for [[Apache Lucene]], which is a low-level search functionality.
 - ElasticSearch handles:
 	- Distributed System Aspects
 	- API
@@ -159,7 +159,7 @@ We mentioned before that the fundamental grouping of ES clusters are **Indexes**
 	- We might have Replicas of a Shard across multiple machines!
 	- So when a request comes in, the **Coordinating Node** can decide whether it wants to use Shard 1A or Shard 1B to serve a certain read!
 	- Shards have a hard limit of ~2B documents, which is a lot, but we still might want to divide those documents because it's too big for a single machine or if we want to spread the load across the cluster, to make it faster!
-- Inside of each Shard are these [[Lucene]] Indexes.
+- Inside of each Shard are these [[Apache Lucene]] Indexes.
 	- These Lucene Indexes are 1:1 with ES Shards.
 	- A Shard is basically just encapsulating a Lucene Index.
 	- Inside a Lucene Index we have **Segments**.

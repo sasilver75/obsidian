@@ -358,7 +358,7 @@ CREATE TABLE event_sections (
 - **==Storage Attached Indexes (SAI)==**: SAIs are a newer feature in Cassandra that offer global **secondary indexes** on columns. This offers flexible querying of data with performance that's worse than traditional querying based off partition key, but still good.
 	- Enable users to avoid excess denormalization of data if there's query patterns that are less frequent.
 - **==Materialized Views==**: A [[Materialized View]] is a way for a user to configure Cassandra to materialize tables based off a source table. They have some overlap with SQL views, except they actually "materialize" a table... As a User, this is convenient, because ==you can get Cassandra to denormalize data automatically for you!== This cuts complexity at your application level, since you don't need to author your application to write to multiple tables if data that is denormalized changes. 
-- **==Search Indexing==**: Cassandra can be wired up to a distributed search engine like [[ElasticSearch]] or Apache [[Solr]] via different plugins; One example is the Stratio [[Lucene]] Index.
+- **==Search Indexing==**: Cassandra can be wired up to a distributed search engine like [[ElasticSearch]] or Apache [[Solr]] via different plugins; One example is the Stratio [[Apache Lucene]] Index.
 
 
 ### Cassandra in an Interview

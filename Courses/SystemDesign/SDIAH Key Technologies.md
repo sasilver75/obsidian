@@ -119,7 +119,7 @@ Things to know about search-optimized databases:
 
 Examples of search-optimized databases:
 - The clear leader is [[ElasticSearch]]
-	- A distributed, RESTful search or analytics engine built on top of Apache [[Lucene]], designed to be fast/scalable/easy to use.
+	- A distributed, RESTful search or analytics engine built on top of Apache [[Apache Lucene]], designed to be fast/scalable/easy to use.
 - Other options include [[PostgreSQL|Postgres]]'s use of [[GIN Index]]es ,which support full-text search. [[Redis]] has a quite immature and bad full-search capability.
 
 

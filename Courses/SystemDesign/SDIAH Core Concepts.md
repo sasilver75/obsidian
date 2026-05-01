@@ -97,7 +97,7 @@ _________________
 - Many mature databases like [[PostgreSQL|Postgres]] support extensions that allow you to create specialized indices.
 	- For examples, Postgres has a ==PostGIS== extension that allows you to create geospatial indexes. 
 - If not, you'll need to maintain your indexes externally.
-	- [[ElasticSearch]] is our recommended solution for these secondary indexes, when it can work. It supports full-text indexes via [[Lucene]], geospatial indexes, and even vector indexes.
+	- [[ElasticSearch]] is our recommended solution for these secondary indexes, when it can work. It supports full-text indexes via [[Apache Lucene]], geospatial indexes, and even vector indexes.
 	- You can set ElasticSearch up to index most databases via [[Change Data Capture]] (CDC), where the ES cluster is listening to changes coming from the database, and updating its indexes accordingly.
 	- Still, ==having these secondary external systems storing indexes that your primary database might support isn't a perfect solution; you introduce a new point of failure and a new source of latency, along with potential consistency considerations!==
 

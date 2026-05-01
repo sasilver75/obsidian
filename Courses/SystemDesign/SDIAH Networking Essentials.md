@@ -25,7 +25,7 @@ At the very top of the stack is the [[Application Layer]], where Layer 7 protoco
 
 ![[Pasted image 20250519130233.png]]
 - Above:
-	- The client starts by resolving the domain name of the website to an IP address using [[DNS]] (DNS Resolution)
+	- The client starts by resolving the domain name of the website to an IP address using [[Domain Name Service]] (DNS Resolution)
 	- [[Transport Control Protocol|TCP]] Handshake: The client initiates a TCP connection with the server using a three-way handshake:
 		- client sends a SYN, server responds with SYN-ACK, client sends ACK and establishes a connection
 	- HTTP Requests
@@ -237,7 +237,7 @@ Load Balancing:
 		- Should use Client-Side Load Balancing in scenarios where:
 			- You don't have many clients (often the case in )
 			- If you have many clients, but you can tolerate update delays
-				- (Example of this is [[DNS]]; When we want to resolve HelloInterview.com, we get a list; we hit the first server on the list, and if they don't respond, we get the second server on the list, etc. This lets the client handle this themselves, but... if we make an update to that IP list, it may take as long as either 5 minutes or a day for all of the DNS servers to see that update and show it to clients. So it's not a good tool to use when you have services that are scaling down or up often.)
+				- (Example of this is [[Domain Name Service]]; When we want to resolve HelloInterview.com, we get a list; we hit the first server on the list, and if they don't respond, we get the second server on the list, etc. This lets the client handle this themselves, but... if we make an update to that IP list, it may take as long as either 5 minutes or a day for all of the DNS servers to see that update and show it to clients. So it's not a good tool to use when you have services that are scaling down or up often.)
 			- Client-Side Load Balancing can be powerful, but has drawbacks; Use it for internal microservices. [[gRPC]] supports it natively, which is cool. ==Generally speaking, favor a dedicated load balancer in cases where you need to work with external clients that need to "get" updates (about changes in which servers are available) relatively quickly==
 	- ==External Load Balancers==
 		- Can be either Hardware LBs (F1 Networks; very powerful) or Software LBs ([[HAProxy]], Apache Web Server, [[NGINX]])... or there are cloud offerings like [[AWS Elastic Load Balancer]] or [[AWS Application Load Balancer]].

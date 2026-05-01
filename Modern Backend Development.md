@@ -66,7 +66,7 @@
 - Search:
 	- [[ElasticSearch]] (license drama, OpenSearch fork by AWS)
 	- Meilisearch, Typesense, Algolia
-	- [[PostgreSQL|Postgres]] built-in FTS + [[paradeb]]/[[pg_search]]
+	- [[PostgreSQL|Postgres]] built-in FTS + [[ParadeDB]]/[[pg_search]]
 		- ...
 - Time-series: [[TimescaleDB]], [[InfluxDB]], QuestDB, ...
 - OLA/analytics: ClickHouse, [[DuckDB]], [[Apache Druid]], Pinot, StarRocks
