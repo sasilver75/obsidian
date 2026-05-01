@@ -235,7 +235,7 @@ Now the second problem: **Request bodies having a limit, and the files being too
 		- So we can upload these chunks, and **keep track of the status of which chunks have been uploaded**. This is so if we fail we can compare the chunks we have uploaded to those in the file... and upload those chunks that are missing
 	- So we need to update our FileMetadata db to store information on these chunks too...
 		- (We haven't specified whether it's SQL or NoSQL; when well-configured, they can largely do the same things.)
-		- If it were a DB like Postgres, we'd use another table like a Chunk table, but for this problem, we're going to pretend that we're using [[DynamoDB]], so we'll have a Chunks list on our FileMetadata,
+		- If it were a DB like Postgres, we'd use another table like a Chunk table, but for this problem, we're going to pretend that we're using [[Amazon DynamoDB|DynamoDB]], so we'll have a Chunks list on our FileMetadata,
 			- Where each **Chunk** in the list has:
 				- id
 				- status

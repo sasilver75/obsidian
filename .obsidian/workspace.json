@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modern Frontend Development.md",
+                "file": "Modern Backend Development.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,391 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modern Frontend Development"
+              "title": "Modern Backend Development"
+            }
+          },
+          {
+            "id": "0a4d3900d71cffda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache Invalidation Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Invalidation Strategy"
+            }
+          },
+          {
+            "id": "4f5053732ef602c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache Eviction Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Eviction Strategy"
+            }
+          },
+          {
+            "id": "4c7cd6b998720300",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache Invalidation Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Invalidation Strategy"
+            }
+          },
+          {
+            "id": "b1fcd8648fbf6c3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache Eviction Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Eviction Strategy"
+            }
+          },
+          {
+            "id": "c0f329bd78a1bd89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache Stampede.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Stampede"
+            }
+          },
+          {
+            "id": "07fda3c377f2211d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache"
+            }
+          },
+          {
+            "id": "7d356e8c02bb5f39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache-Aside.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache-Aside"
+            }
+          },
+          {
+            "id": "fe4384ddf9267e9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Back Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Back Cache"
+            }
+          },
+          {
+            "id": "5041d1173d8985d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Through Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Through Cache"
+            }
+          },
+          {
+            "id": "52493230ed4b4863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read-Through Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read-Through Cache"
+            }
+          },
+          {
+            "id": "9804e52d6a468bf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prisma (ORM).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Prisma (ORM)"
+            }
+          },
+          {
+            "id": "d32466a20e60acce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRISMA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PRISMA"
+            }
+          },
+          {
+            "id": "7eed50960a6a2522",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/SystemDesign/SDIAH Key Technologies.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SDIAH Key Technologies"
+            }
+          },
+          {
+            "id": "7b786c707ad2ee39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Google Spanner.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Google Spanner"
+            }
+          },
+          {
+            "id": "b1cdbcbe94b8460f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PlanetScale.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PlanetScale"
+            }
+          },
+          {
+            "id": "c55ec467fde4bffc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "shadcn"
             }
           },
           {
@@ -640,7 +1024,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "octree",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -676,8 +1060,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -2220,34 +2603,34 @@
   },
   "active": "2918a2f7bccd6142",
   "lastOpenFiles": [
+    "Backend for Frontend.md",
+    "Modern Backend Development.md",
+    "Cache.md",
+    "Cache Invalidation Strategy.md",
+    "tsx.md",
+    "Cache Eviction Strategy.md",
+    "Cache Stampede.md",
+    "Cache-Aside.md",
+    "Write-Back Cache.md",
+    "Write-Through Cache.md",
+    "Read-Through Cache.md",
+    "Prisma (ORM).md",
+    "PRISMA.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "Apache Cassandra.md",
+    "Cloud-Native Geospatial.md",
+    "Courses/SystemDesign/Case Studies/Design Dropbox.md",
+    "PostgreSQL.md",
+    "Amazon DynamoDB.md",
+    "Google Spanner.md",
+    "PlanetScale.md",
+    "shadcn.md",
+    "Modern Frontend Development.md",
     "React Server Components.md",
     "Hydration.md",
-    "Modern Frontend Development.md",
     "Tailwind CSS.md",
-    "tsx.md",
-    "SWR.md",
-    "TanStack Query.md",
-    "Static Site Generation.md",
-    "Server-Side Rendering.md",
-    "Client-Side Rendering.md",
-    "Single Page Application.md",
-    "JSX.md",
-    "ECMAScript Modules.md",
-    "CommonJS.md",
-    "Node.js.md",
-    "Agent Harness.md",
-    "npx.md",
-    "Hard Link.md",
     "_attachments/Pasted image 20260430103353.png",
     "_attachments/Pasted image 20260430103144.png",
-    "Soft Link.md",
-    "Index Node.md",
-    "pnpm.md",
-    "Node Package Manager.md",
-    "Gas Town.md",
-    "Model Context Protocol.md",
-    "COLMAP.md",
-    "Synthetic Aperture Radar.md",
     "_attachments/Pasted image 20260428170654.png",
     "_attachments/Pasted image 20260427230702.png",
     "_attachments/Pasted image 20260427230646.png",

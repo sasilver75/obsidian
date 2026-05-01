@@ -253,7 +253,7 @@ This is a pretty sizeable number of queries per second... given that this is ass
 	- Setting a **Time to Live** of ~ 1 minute ensures these results are fresh.
 	- ![[Pasted image 20250525121106.png|450]]
 	- ((Wait, why would this work? What would the Cache key be? Oh, so the availability service gets the nearby DCs given the client-provided latlon, then for a list of DCs, gets the items in the cache? So each DC has its own entry in Redis, or something? As long as each DC has been queried in the last minute, there should be an entry in there, so that's fine and probably realistic, given that users are just fetching))
-	- ((We would need to decide, as usual, our [[Cache Write Strategy]] ([[Write-Around Cache]]), deciding what to do on a cache miss ([[Cache Aside]]), a cache invalidation strategy, and a cache eviction strategy ([[Time to Live]])))
+	- ((We would need to decide, as usual, our [[Cache Write Strategy]] ([[Write-Around Cache]]), deciding what to do on a cache miss ([[Cache-Aside]]), a cache invalidation strategy, and a cache eviction strategy ([[Time to Live]])))
 - **==Great Solution==**: Postgres Read Replicas and Partitioning
 	- Instead of caching, we can just increase the write and read throughput of our database by [[Partition]]ing (by DCid) and [[Replication]] for [[Replication|Read Replica]].
 

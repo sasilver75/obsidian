@@ -246,7 +246,7 @@ What affects these limits?
 		- Maintain consistent schemas across shards
 		- Manage multiple databases
 	- Only introduce it when simpler optimizations aren't sufficient!
-	- ==Unlike [[DynamoDB]], [[PostgreSQL|Postgres]] doesn't have a built-in sharding solution!==
+	- ==Unlike [[Amazon DynamoDB|DynamoDB]], [[PostgreSQL|Postgres]] doesn't have a built-in sharding solution!==
 		- You'll have to implement sharding manually, or you can use managed services like [[Citus]] which handle many of the sharding complexities for you!
 
 ```sql

@@ -89,6 +89,7 @@ If you learn one thing: ==server components + server actions are the new mental 
 # Styling:
 - The biggest shakeup since 2019.
 - [[Tailwind CSS]]: Utility-first CSS, Dominant. v4 (2025) is config-less, CSS-driven, much faster,
+- [[shadcn]]: Not a component library, it's a CLI that compiles component source cope into your repo, built on Radix UI primitives + tailwind. This is the dominant pattern for "I need a Button/Dialog/Combobox."
 - [[CSS Modules]]: Scoped CSS, still fine.
 - CSS-in-JS: `styled-components`, `Emotion`: Falling out of favor due to RSC incompatibility and runtime cost.
 
@@ -142,4 +143,10 @@ Hosting and deployment:
 	2. Server Actions
 	3. Streaming
 	4. The "thick client SPA + JSON API" pattern is no longer the default for web applications.
-2. 
+2. Type-safety end-to-end. TS + Zod + tRPC/Drizzle/Server Actions means the type of a DB row flows to the JSX rendering it.
+3. [[Tailwind CSS|Tailwind]] + [[shadcn|shadcn/ui]] by copying their docs.
+4. [[TanStack Query]] for any client-fetched data
+5. [[Drizzle]] (just SQL with types)
+6. [[Auth.js]] or [[Clerk]] for uathentication
+7. [[Vitest]] + [[Playwright]]
+8. [[Vercel]] deploy story (env vars, preview deployments, AI SDK

@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "Modern Backend Development",
+      "path": "Modern Backend Development.md"
+    },
+    {
+      "basename": "Backend for Frontend",
+      "path": "Backend for Frontend.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
+      "basename": "Cache Invalidation Strategy",
+      "path": "Cache Invalidation Strategy.md"
+    },
+    {
+      "basename": "tsx",
+      "path": "tsx.md"
+    },
+    {
+      "basename": "Cache Eviction Strategy",
+      "path": "Cache Eviction Strategy.md"
+    },
+    {
+      "basename": "Cache Stampede",
+      "path": "Cache Stampede.md"
+    },
+    {
+      "basename": "Cache-Aside",
+      "path": "Cache-Aside.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
+      "basename": "Read-Through Cache",
+      "path": "Read-Through Cache.md"
+    },
+    {
+      "basename": "Prisma (ORM)",
+      "path": "Prisma (ORM).md"
+    },
+    {
+      "basename": "PRISMA",
+      "path": "PRISMA.md"
+    },
+    {
+      "basename": "SDIAH Key Technologies",
+      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
+    },
+    {
+      "basename": "Apache Cassandra",
+      "path": "Apache Cassandra.md"
+    },
+    {
+      "basename": "Cloud-Native Geospatial",
+      "path": "Cloud-Native Geospatial.md"
+    },
+    {
+      "basename": "Design Dropbox",
+      "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "PostgreSQL.md"
+    },
+    {
+      "basename": "Amazon DynamoDB",
+      "path": "Amazon DynamoDB.md"
+    },
+    {
+      "basename": "Google Spanner",
+      "path": "Google Spanner.md"
+    },
+    {
+      "basename": "PlanetScale",
+      "path": "PlanetScale.md"
+    },
+    {
+      "basename": "shadcn",
+      "path": "shadcn.md"
+    },
+    {
       "basename": "Modern Frontend Development",
       "path": "Modern Frontend Development.md"
     },
@@ -15,10 +103,6 @@
     {
       "basename": "Tailwind CSS",
       "path": "Tailwind CSS.md"
-    },
-    {
-      "basename": "tsx",
-      "path": "tsx.md"
     },
     {
       "basename": "SWR",
@@ -115,90 +199,6 @@
     {
       "basename": "Planet Labs",
       "path": "Planet Labs.md"
-    },
-    {
-      "basename": "Pi",
-      "path": "Pi.md"
-    },
-    {
-      "basename": "Skill",
-      "path": "Skill.md"
-    },
-    {
-      "basename": "Language Server Protocol",
-      "path": "Language Server Protocol.md"
-    },
-    {
-      "basename": "Semantic Versioning",
-      "path": "Semantic Versioning.md"
-    },
-    {
-      "basename": "Amazon EC2",
-      "path": "Amazon EC2.md"
-    },
-    {
-      "basename": "Control Plane",
-      "path": "Control Plane.md"
-    },
-    {
-      "basename": "Data Plane",
-      "path": "Data Plane.md"
-    },
-    {
-      "basename": "Agent",
-      "path": "Agent.md"
-    },
-    {
-      "basename": "Magnitude-Based Pruning",
-      "path": "Magnitude-Based Pruning.md"
-    },
-    {
-      "basename": "Claude Code",
-      "path": "Claude Code.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "Project Ideas",
-      "path": "Project Ideas.md"
-    },
-    {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
-      "basename": "Asymmetric Key Encryption",
-      "path": "Asymmetric Key Encryption.md"
-    },
-    {
-      "basename": "Encryption",
-      "path": "Encryption.md"
-    },
-    {
-      "basename": "WireGuard",
-      "path": "WireGuard.md"
-    },
-    {
-      "basename": "NAT Holepunching",
-      "path": "NAT Holepunching.md"
-    },
-    {
-      "basename": "Virtual Private Network",
-      "path": "Virtual Private Network.md"
-    },
-    {
-      "basename": "Secure Shell",
-      "path": "Secure Shell.md"
-    },
-    {
-      "basename": "Rivest-Shamir-Adleman",
-      "path": "Rivest-Shamir-Adleman.md"
-    },
-    {
-      "basename": "Advanced Encryption Standard",
-      "path": "Advanced Encryption Standard.md"
     }
   ],
   "omittedPaths": [],

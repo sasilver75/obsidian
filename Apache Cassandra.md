@@ -1,3 +1,8 @@
+---
+aliases:
+  - Cassandra
+---
+
 SDIAH: https://www.hellointerview.com/learn/system-design/deep-dives/cassandra
 
 Cassandra is one of the most versatile/popular databases to have in your toolbox. 
@@ -6,7 +11,7 @@ Cassandra is one of the most versatile/popular databases to have in your toolbox
 
 ==Cassandra is an open-source, distributed [[NoSQL Database]] that implements a **partitioned [[Wide-Column]] storage model with [[Eventual Consistency|Eventually Consistent]] semantics**==
 - It runs in a cluster and can [[Horizontal Scaling|Horizontally Scale]] via commodity hardware.
-- It combines elements of [[DynamoDB]] and [[Bigtable]] to handle massive data footprints, query volume, and flexible storage requirements. 
+- It combines elements of [[Amazon DynamoDB|DynamoDB]] and [[Bigtable]] to handle massive data footprints, query volume, and flexible storage requirements. 
 
 
 # Cassandra Basics
@@ -161,7 +166,7 @@ The 3 constructs that are core to the [[LSM Tree]] index are:
 2. **==Memtable:==** An **in-memory**, sorted data structure that storse writes data. It is sorted by the primary key of each row.
 3. **==[[SSTable]]==**: A "Sorted String Table". An **immutable** file **on disk** containing data that was flushed from a previous **Memtable**.
 
-With all of these working together, writes to [[Cassandra]] look like this:
+With all of these working together, writes to [[Apache Cassandra|Cassandra]] look like this:
 1. A write is issued for a node ((We know from before that this involves a client talking to any node, which acts a coordinator to determine the node to write to; it contacts that node to confirm the write, etc.))
 2. That write is written to the **commit log** so that it doesn't get lost if the node goes down while the write is being processed, or if the data is only in the Memtable when the node goes down.
 3. The write is written to the **Memtable**.

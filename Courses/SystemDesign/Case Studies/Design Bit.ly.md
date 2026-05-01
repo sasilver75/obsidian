@@ -222,7 +222,7 @@ Let's move to our next non-functional requirement: Making the redirect as low la
 	- This Cache is just a separate computer whose memory we utilize.
 - We're going to make this a [[Redis]] cache in front of our database.
 	- This is going to be a [[Read-Through Cache]]: In a ReadThrough cache, if the cache has a miss, the cache automatically fetches the data from the backing datastore, stores the fetched data in the cache, and returns the result to the requesting client.
-		- ((This is to compare to a [[Cache Aside]] strategy, though in the picture he's actually doing a Cache Aside strategy, lol))
+		- ((This is to compare to a [[Cache-Aside]] strategy, though in the picture he's actually doing a Cache Aside strategy, lol))
 	- We're going to use [[Least Recently Used]] policy as as [[Cache Eviction Strategy]]
 	- These caches are commonly Key:Value pairs.
 		- The Key: ShortURL

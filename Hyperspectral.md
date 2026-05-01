@@ -8,7 +8,7 @@ c.f. [[Multispectral]]
 - Hundreds of *contiguous* spectral bands (whereas multispectral is ~3-5 *disjoint* spectral bands).
 	- With a multispectral camera, you might have a small bandwidth covering the red portion of the spectrum, another covering the orange, and a gap in the middle that we don't collect/focus on. With a hyperspectral camera, we capture *every part* of the EM spectrum; there are still bars, but they're touching eachother and have very narrow width; it's like Riemann's sum in Calculus.
 - Similar to a mass spectrometer, where you're measuring the individual components of the subject that light is reflecting off of, and you can precisely pinpoint the type of surface or material that it's reflecting off of.
-- Examples: [[Hyperion]], [[PROBA]], [[PRIMSA]], [[EnMap]]
+- Examples: [[Hyperion]], [[PROBA]], [[PRISMA]], [[EnMap]]
 	- Most on order of 30m per pixel or worse; tend to have worse spatial resolution than multispectral.
 
 

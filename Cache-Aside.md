@@ -1,3 +1,5 @@
+
+
 A cache-aside cache is updated after the data is requested. A write-through cache is updated immediately when the primary database is updated. With both approaches, the application is essentially managing what data is being cached and for how long.
 
 A cache-aside cache is the most common caching strategy available. The fundamental data retrieval logic can be summarized as follows:

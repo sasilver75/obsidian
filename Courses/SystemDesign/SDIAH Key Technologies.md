@@ -8,7 +8,7 @@ In this section we'll walk through some of the key categories of technologies re
 
 # Core Database
 - Almost all system design problems will require you to store some data, and you're most likely going to be storing it in either a database or in blob storage.
-- The most common types are [[Relational Database]]s (e.g. [[PostgreSQL|Postgres]]) and [[NoSQL Database]]s (e.g. [[DynamoDB]]). 
+- The most common types are [[Relational Database]]s (e.g. [[PostgreSQL|Postgres]]) and [[NoSQL Database]]s (e.g. [[Amazon DynamoDB|DynamoDB]]). 
 	- We recommend picking ONE for your interview.
 		- If you're talking predominantly product design interviews, we recommend a relational database.
 		- If you're taking predominantly infrastructure design interviews, we recommend a NoSQL database.
@@ -51,8 +51,8 @@ Things to know about NoSQL databases:
 4. ==Scalability==: NoSQL databases scale horizontally by using [[Consistent Hashing]] and/or [[Sharding]] to distribute data across many servers.
 
 The most common NoSQL databases are:
-- [[DynamoDB]]: Breadth of features and widely accepted.
-- [[Cassandra]]: ==Good choice for write-heavy workloads due to its append-only storage model==, but comes with some tradeoffs in functionality.
+- [[Amazon DynamoDB|DynamoDB]]: Breadth of features and widely accepted.
+- [[Apache Cassandra|Cassandra]]: ==Good choice for write-heavy workloads due to its append-only storage model==, but comes with some tradeoffs in functionality.
 - [[MongoDB]]: Document-oriented.
 
 # Blob Storage
