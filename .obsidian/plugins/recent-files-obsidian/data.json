@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Architectural Decision Record",
+      "path": "Architectural Decision Record.md"
+    },
+    {
       "basename": "Specification",
       "path": "Specification.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ConnectRPC",
       "path": "ConnectRPC.md"
-    },
-    {
-      "basename": "WebTransport",
-      "path": "WebTransport.md"
     }
   ],
   "omittedPaths": [],

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pg_cron.md",
+                "file": "Product Requirements Document.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pg_cron"
+              "title": "Product Requirements Document"
             }
           },
           {
@@ -77,6 +77,54 @@
               },
               "icon": "lucide-file",
               "title": "Specification"
+            }
+          },
+          {
+            "id": "728a0911a206e6fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architectural Decision Record.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Architectural Decision Record"
+            }
+          },
+          {
+            "id": "38ef49dd3b245f5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architectural Decision Record.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Architectural Decision Record"
             }
           },
           {
@@ -200,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1809,10 +1857,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "af9c9cbe2baf1a2a",
+  "active": "728a0911a206e6fe",
   "lastOpenFiles": [
-    "Product Requirements Document.md",
     "Specification.md",
+    "Product Requirements Document.md",
+    "Architectural Decision Record.md",
     "pg_cron.md",
     "Beads.md",
     "Tracer Bullet.md",
@@ -1837,7 +1886,6 @@
     "Forward Proxy.md",
     "Application Layer.md",
     "Transport Layer.md",
-    "Network Layer.md",
     "_attachments/Pasted image 20260501151742.png",
     "_attachments/Pasted image 20260501143823.png",
     "HTTP",
