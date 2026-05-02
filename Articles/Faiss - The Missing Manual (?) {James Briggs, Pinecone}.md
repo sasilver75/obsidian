@@ -473,7 +473,7 @@ And that's MinHashing! We've taken a sparse vector and compressed it into a more
 
 but is information really maintained between our much larger sparse vector and much smaller dense vector? If so, surely the similarity between vectors will be similar too, right?
 
-We can use [[Jaccard Similarity]] to calculate the similarity between our sentences in shingle format, then repeat this for vectors in signature format!
+We can use [[Jaccard Index|Jaccard Similarity]] to calculate the similarity between our sentences in shingle format, then repeat this for vectors in signature format!
 
 ```python
 def jaccard(a: set, b: set):

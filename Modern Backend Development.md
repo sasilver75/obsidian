@@ -48,14 +48,12 @@
 - [[TiDB]]: MySQL compatible distributed database
 - [[Google Spanner]], [[Amazon Aurora]], [[Amazon AuAmazon Aurora DSQLrora DSQL]]: Managed globally-distributed SQL
 
-
 # Non-Relational
 - [[Redis]]: KV cache, queues, pub/sub, locks, rate limiting
 - [[Memcached]]: Pure cache, simpler than Redis
 - [[Amazon DynamoDB|DynamoDB]]: AWS-managed KV/document, single-digit ms, single-table design is the pattern to learn.
-- [[Apache Cassandra|Cassandra]]: Wide-column, write-heavy, eventually cosnsitent. [[ScyllaDB]] is the C++ rewrite, much faster.
+- [[Apache Cassandra|Cassandra]]: Wide-column, write-heavy, eventually consistent. [[ScyllaDB]] is the C++ rewrite, much faster.
 - [[MongoDB]]: Still widely deployed KV store
-
 
 # Specialized DBs
 - Vector databases for embeddings and [[Vector Search|Semantic Search]]
@@ -77,7 +75,6 @@
 
 Trend: "==Just use Postgres==" is the dominant default because of `pgvector`, `JSONB`, and good FTS. The case for adding a second store has just gotten more difficult.
 
-
 # Query Layer/ORMs
 - TS: 
 	- [[Drizzle]] (SQL-shaped, typesfe, growing fast)
@@ -94,7 +91,6 @@ Trend: "==Just use Postgres==" is the dominant default because of `pgvector`, `J
 - [[Read-Through Cache]], [[Write-Through Cache]], [[Write-Back Cache]]/[[Write-Back Cache|Write-Behind Cache]], [[Cache-Aside]]
 - [[Cache Stampede]]/Thundering Herd
 - [[Cache Invalidation Strategy|Cache Invalidation]]
-
 
 # Queues/Streaming/Event Infra
 - Message Queues: [[Amazon SQS|SQS]], [[RabbitMQ]], [[Redis Streams]], [[NATS]], [[PostgreSQL|Postgres]] as a queue (pg + SKIP LOCKED + River, Graphile Worker, pgmq)
@@ -127,6 +123,7 @@ Trend: "==Just use Postgres==" is the dominant default because of `pgvector`, `J
 
 If you don't know durable execution, learn it! It's the most consequential backend pattern of the last few years. The mental model is that you can write code as if it never crashes, and the engine persists each step.
 
+
 # Auth and Identity
 - Standards
 	- [[OAuth]] 2.1
@@ -142,7 +139,6 @@ If you don't know durable execution, learn it! It's the most consequential backe
 - Self-host:
 	- Keyclock, Ory, ...
 - Authz: [[Open Policy Agent]], Cedar (AWS)
-
 
 # Observability:
 - Metrics: Numerical time-series
@@ -181,7 +177,6 @@ If you don't know durable execution, learn it! It's the most consequential backe
 - [[API Gateway]]s: [[Kong]], Tyk, [[Envoy]]-based (Emissary, Gloo), AWS API GAteway, GCP API Gatway, etc.
 
 
-
 # [[Serverless]]/FaaS/Edge
 - [[Amazon Lambda|AWS Lambda]]: Still the giant, now supports SnapSstart, container images, longer timouts
 - [[Cloudflare Workers]]: V8 isolates, edge-first, very cheap, limited Node compatability
@@ -191,14 +186,12 @@ Concepts to know:
 - [[Warm Pool]]
 - Concurrency Models (per-instance vs reused)
 
-
 # [[Infrastructure as Code]] (IaC)
 - [[Terraform]] is still the default.
 	- OpenTofu is the open-source fork after the license change.
 - [[Pulumi]] is IAC in real languages like TS, Python, Go
 - Tools like Ansible, Chef, Puppet around config management are declining.
 - [[HashiCorp Packer]]: For image buildling
-
 
 # Build/CI/CD
 - [[Continuous Integration|CI]]: [[GitHub Actions]] is the default
@@ -211,7 +204,6 @@ Concepts to know:
 	- [[Trunk-Based Development]]
 		- Version control management practice where developers merge small, frequent code updates into a central "trunk" (main/master branch), multiple times a day.
 		- It avoids long-lived feature branches, reducing complex merge conflicts and enabling [[Continuous Integration]] (CI) and faster delivery. It requires robust automated testing and feature flags.
-
 
 # Architectural Patterns
 - [[Monolith]] vs [[Microservice]]s vs [[Modular Monolith]] ; then pendulum has swung back towards modular monolith as the default. Microservices reserved for org-scaling needs.
@@ -229,7 +221,6 @@ Concepts to know:
 - [[Distributed Consensus|Consensus]] algorithms; [[Raft]], [[Paxos]], [[Zab]]
 - [[Conflict-Free Replicated Data Types]] (CRDTs) for collaborative/offline-first applications.
 
-
 # Testing (backend-flavored)
 - [[Unit Test]], [[Integration Test]], [[End to End Test]]
 - [[Contract Test]]ing: [[Pact]]
@@ -240,14 +231,12 @@ Concepts to know:
 - Test Containers: [[Testcontainers]] (real DBs, queues in Docker for integration tests - Should be a default)
 - Ephemeral environments: Neon branches, PlanetScale branches...
 
-
 # Security
 - [[OWASP Top 10]]: Know it
 - Secrets management: [[HashiCorp Vault]], [[Amazon Secrets Manager]], Doppler
 - SBOM: Software Bill of Materials
 - Rate limiting: [[Token Bucket]], [[Leaky Bucket]],  Sliding window
 	- Hosted: Upstash Ratelimit, Cloudflare
-
 
 
 # AI/ML on the Backend

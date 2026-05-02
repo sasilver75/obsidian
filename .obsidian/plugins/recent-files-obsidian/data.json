@@ -1,16 +1,152 @@
 {
   "recentFiles": [
     {
+      "basename": "Specification",
+      "path": "Specification.md"
+    },
+    {
+      "basename": "Product Requirements Document",
+      "path": "Product Requirements Document.md"
+    },
+    {
+      "basename": "pg_cron",
+      "path": "pg_cron.md"
+    },
+    {
+      "basename": "Beads",
+      "path": "Beads.md"
+    },
+    {
+      "basename": "Tracer Bullet",
+      "path": "Tracer Bullet.md"
+    },
+    {
       "basename": "Modern Backend Development",
       "path": "Modern Backend Development.md"
+    },
+    {
+      "basename": "pgvector",
+      "path": "pgvector.md"
+    },
+    {
+      "basename": "Dot Product",
+      "path": "Dot Product.md"
+    },
+    {
+      "basename": "Jaccard Index",
+      "path": "Jaccard Index.md"
+    },
+    {
+      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
+      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
+    },
+    {
+      "basename": "Manhattan Distance",
+      "path": "Manhattan Distance.md"
+    },
+    {
+      "basename": "Hash-based Message Authentication Code",
+      "path": "Hash-based Message Authentication Code.md"
+    },
+    {
+      "basename": "OSI Model",
+      "path": "OSI Model.md"
+    },
+    {
+      "basename": "Transport Control Protocol",
+      "path": "Transport Control Protocol.md"
+    },
+    {
+      "basename": "HTTP 3",
+      "path": "HTTP 3.md"
+    },
+    {
+      "basename": "HTTP 2",
+      "path": "HTTP 2.md"
+    },
+    {
+      "basename": "Head-of-Line Blocking",
+      "path": "Head-of-Line Blocking.md"
+    },
+    {
+      "basename": "Multiplex",
+      "path": "Multiplex.md"
+    },
+    {
+      "basename": "HPACK",
+      "path": "HPACK.md"
+    },
+    {
+      "basename": "Huffman Coding",
+      "path": "Huffman Coding.md"
+    },
+    {
+      "basename": "Reverse Proxy",
+      "path": "Reverse Proxy.md"
+    },
+    {
+      "basename": "Forward Proxy",
+      "path": "Forward Proxy.md"
+    },
+    {
+      "basename": "Application Layer",
+      "path": "Application Layer.md"
+    },
+    {
+      "basename": "Transport Layer",
+      "path": "Transport Layer.md"
+    },
+    {
+      "basename": "Network Layer",
+      "path": "Network Layer.md"
     },
     {
       "basename": "Network Firewall",
       "path": "Network Firewall.md"
     },
     {
-      "basename": "Network Layer",
-      "path": "Network Layer.md"
+      "basename": "Intrusion Prevention System",
+      "path": "Intrusion Prevention System.md"
+    },
+    {
+      "basename": "Intrusion Detection System",
+      "path": "Intrusion Detection System.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
+      "basename": "Security Orchestration, Automation, and Response",
+      "path": "Security Orchestration, Automation, and Response.md"
+    },
+    {
+      "basename": "Endpoint Detection and Response",
+      "path": "Endpoint Detection and Response.md"
+    },
+    {
+      "basename": "Extended Detection and Response",
+      "path": "Extended Detection and Response.md"
+    },
+    {
+      "basename": "Security Information and Event Management",
+      "path": "Security Information and Event Management.md"
+    },
+    {
+      "basename": "Safetensors",
+      "path": "Safetensors.md"
+    },
+    {
+      "basename": "Amazon AuAmazon Aurora DSQLrora DSQL",
+      "path": "Amazon AuAmazon Aurora DSQLrora DSQL.md"
+    },
+    {
+      "basename": "Security Operations Center",
+      "path": "Security Operations Center.md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
     },
     {
       "basename": "Web Application Firewall",
@@ -33,18 +169,6 @@
       "path": "HTTP.md"
     },
     {
-      "basename": "Transport Layer",
-      "path": "Transport Layer.md"
-    },
-    {
-      "basename": "Application Layer",
-      "path": "Application Layer.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "OSI Model.md"
-    },
-    {
       "basename": "Amazon Network Load Balancer",
       "path": "Amazon Network Load Balancer.md"
     },
@@ -61,40 +185,8 @@
       "path": "QUIC.md"
     },
     {
-      "basename": "Forward Proxy",
-      "path": "Forward Proxy.md"
-    },
-    {
-      "basename": "Reverse Proxy",
-      "path": "Reverse Proxy.md"
-    },
-    {
-      "basename": "HTTP 3",
-      "path": "HTTP 3.md"
-    },
-    {
-      "basename": "HTTP 2",
-      "path": "HTTP 2.md"
-    },
-    {
-      "basename": "Huffman Coding",
-      "path": "Huffman Coding.md"
-    },
-    {
-      "basename": "HPACK",
-      "path": "HPACK.md"
-    },
-    {
-      "basename": "Multiplex",
-      "path": "Multiplex.md"
-    },
-    {
       "basename": "HTTP 1.1",
       "path": "HTTP 1.1.md"
-    },
-    {
-      "basename": "Head-of-Line Blocking",
-      "path": "Head-of-Line Blocking.md"
     },
     {
       "basename": "gRPC",
@@ -105,100 +197,8 @@
       "path": "ConnectRPC.md"
     },
     {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
       "basename": "WebTransport",
       "path": "WebTransport.md"
-    },
-    {
-      "basename": "Token",
-      "path": "Token.md"
-    },
-    {
-      "basename": "Tokenization",
-      "path": "Tokenization.md"
-    },
-    {
-      "basename": "Transport Control Protocol",
-      "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "Webhook",
-      "path": "Webhook.md"
-    },
-    {
-      "basename": "Design Dropbox",
-      "path": "Courses/SystemDesign/Case Studies/Design Dropbox.md"
-    },
-    {
-      "basename": "Hash-based Message Authentication Code",
-      "path": "Hash-based Message Authentication Code.md"
-    },
-    {
-      "basename": "SDIAH Networking Essentials",
-      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "Kafka",
-      "path": "Kafka.md"
-    },
-    {
-      "basename": "Polling",
-      "path": "Polling.md"
-    },
-    {
-      "basename": "Long Polling",
-      "path": "Long Polling.md"
-    },
-    {
-      "basename": "Short Polling",
-      "path": "Short Polling.md"
-    },
-    {
-      "basename": "Claude Cowork",
-      "path": "Claude Cowork.md"
-    },
-    {
-      "basename": "ParadeDB",
-      "path": "ParadeDB.md"
-    },
-    {
-      "basename": "Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/Dolma, OLMo, and the Future of Open-Source LLMs (Feb, 2024) {Cameron R Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Cloudflare Workers",
-      "path": "Cloudflare Workers.md"
-    },
-    {
-      "basename": "Amazon Bedrock",
-      "path": "Amazon Bedrock.md"
-    },
-    {
-      "basename": "Domain Name Service",
-      "path": "Domain Name Service.md"
-    },
-    {
-      "basename": "Cloudflare D1",
-      "path": "Cloudflare D1.md"
-    },
-    {
-      "basename": "Apache Lucene",
-      "path": "Apache Lucene.md"
-    },
-    {
-      "basename": "Cloud Native Computing Foundation",
-      "path": "Cloud Native Computing Foundation.md"
-    },
-    {
-      "basename": "Gas Town",
-      "path": "Gas Town.md"
-    },
-    {
-      "basename": "Connection Pool",
-      "path": "Connection Pool.md"
     }
   ],
   "omittedPaths": [],

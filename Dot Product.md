@@ -1,3 +1,8 @@
+---
+aliases:
+  - Inner Product
+---
+
 Resources:
 - [VIDEO: 3b1b Essence of Linear Algebra: Dot Products and Duality](https://www.youtube.com/watch?v=LyGKycYT2v0)
 

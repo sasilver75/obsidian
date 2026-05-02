@@ -1,7 +1,10 @@
 References:
 - Medium Blog: [Introducing Beads: A Coding Agent memory system.](https://steve-yegge.medium.com/introducing-beads-a-coding-agent-memory-system-637d7d92514a) (Went through all articles through Apr 2026; here)
 
-A ==lightweight, git-backed issue tracked designed specifically for coding agents==, built by Steve Yegge (ex-Sourcegraph) in October 2025.
+A ==lightweight, git-backed issue tracked designed specifically for coding agents==, built by Steve Yegge (ex-
+Sourcegraph) in October 2025.
+
+> "It's Google Maps for your plan. Every piece of work is addressable, and it has a label."
 
 The problem it solves:
 - Coding agents have no persistent memory between sessions (and every ~10 minutes context window ~resets from compaction).
@@ -15,7 +18,7 @@ Beads:
 - Key properties:
 	- First-class dependencies: 4 link types (==blocking==, ==parent/child==, ==discovered-from==, provenance)
 	- `bd ready --json`: Agents query for unblocked work instantly, no text parsing
-	- [[JSON Lines|JSONL]] + [[Git]]: Stored as JSONL lines in git, giving both querability and version history. [[SQLite]] is used as well for queryability.
+	- [[JSON Lines|JSONL]] + [[Git]]: Stored as JSONL lines in git, giving both queryability and version history. [[SQLite]] is used as well for queryability.
 		- Unlike Github Issues (flat) or Jira (two levels max), Beads supports unlimited parent/child nesting, which examples modeling genuinely complex long-horizon plans.
 	- Distributed: Multiple agents on multiple machines can share the same DB via git; AI resolves merge conflicts.
 
