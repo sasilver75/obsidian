@@ -5,7 +5,7 @@ See:
 - [[Symmetric Key Encryption]]
 	- One key, same key encrypts and decrypts.
 	- The key is fed into an algorithm along with the plaintext. The algorithm scrambles the data deterministically; the same key and same input always produces the same output. To decrypt, run it in reverse with the same key.
-	- ==The problem==: How do you share the key? If you're talking to someone for the first time over an untrusted network, you can't just send them the key; anyone listening would get it too. This is the [[Key Exchange Problem]].
+	- ==The problem==: How do you share the key? If you're talking to someone for the first time over an untrusted network, you can't just send them the key; anyone listening would get it too. This is the [[Key Exchange|Key Exchange Problem]].
 	- ==Common algorithms==: [[Advanced Encryption Standard]] (AES) is the modern standard, used everywhere ([[HTTPS]], [[WireGuard]]), [[ChaCha20]] is an alternative to AES that's faster on hardware without AES acceleration, like mobile devices.
 - [[Asymmetric Key Encryption]]
 	- Two linked keys. What one encrypts, the other decrypts.

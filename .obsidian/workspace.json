@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supabase.md",
+                "file": "Server-Sent Event.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Supabase"
+              "title": "Server-Sent Event"
+            }
+          },
+          {
+            "id": "d95f2238c73f96ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude Code Agent Teams.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Claude Code Agent Teams"
+            }
+          },
+          {
+            "id": "bf58cd277e7c9657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agent2Agent.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agent2Agent"
+            }
+          },
+          {
+            "id": "cb302a0e23124987",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Row-Level Security.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Row-Level Security"
+            }
+          },
+          {
+            "id": "93786588215cc3f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physical Replication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Physical Replication"
+            }
+          },
+          {
+            "id": "919fe4a4cc763486",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSON Web Key Set.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JSON Web Key Set"
+            }
+          },
+          {
+            "id": "f37f03013d70b1c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encryption.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Encryption"
+            }
+          },
+          {
+            "id": "720f6cca1559aa7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Key Exchange.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Key Exchange"
             }
           },
           {
@@ -464,7 +632,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -2073,14 +2241,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3d8acbe8ed4a8cba",
+  "active": "bf58cd277e7c9657",
   "lastOpenFiles": [
-    "Backend-as-a-Service.md",
-    "Supabase.md",
+    "JSON-RPC.md",
+    "Claude Code Agent Teams.md",
+    "Agent2Agent.md",
     "Row-Level Security.md",
+    "Physical Replication.md",
+    "Bayesian Smoothing.md",
+    "Server-Sent Event.md",
+    "Supabase.md",
+    "JSON Web Key Set.md",
+    "Encryption.md",
+    "Key Exchange.md",
+    "Key Exchange Problem.md",
+    "Proof Key for Code Exchange.md",
+    "Backend-as-a-Service.md",
     "Geocode.md",
     "Modern iOS Development.md",
-    "Claude Code Agent Teams.md",
     "Apple Push Notification service.md",
     "Signing.md",
     "Reverse DNS.md",
@@ -2093,16 +2271,6 @@
     "_attachments/Pasted image 20260502164011.png",
     "Claude Code on the Web.md",
     "Product Requirements Document.md",
-    "Architectural Decision Record.md",
-    "Specification.md",
-    "pg_cron.md",
-    "Beads.md",
-    "Tracer Bullet.md",
-    "Modern Backend Development.md",
-    "pgvector.md",
-    "Dot Product.md",
-    "Jaccard Index.md",
-    "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
     "_attachments/Pasted image 20260501155757.png",
     "_attachments/Pasted image 20260501151742.png",
     "_attachments/Pasted image 20260501143823.png",

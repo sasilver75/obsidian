@@ -1,3 +1,8 @@
+---
+aliases:
+  - RLS
+---
+
 A [[PostgreSQL|Postgres]] feature where access rules are enforced on individual rows o na table, not just on the table as a whole.
 
 Instead of "user can SELECT from `events`" (table-level), you write policies like:

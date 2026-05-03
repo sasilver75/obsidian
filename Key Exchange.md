@@ -3,6 +3,7 @@ aliases:
   - Diffie-Helman
   - Elliptic Curve Diffie-Hellman
   - ECDH
+  - Key Exchange Problem
 ---
 How two parties agree on a shared secret over a public channel without ever sending the secret.
 

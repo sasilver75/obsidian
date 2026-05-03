@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Supabase",
-      "path": "Supabase.md"
+      "basename": "Agent2Agent",
+      "path": "Agent2Agent.md"
     },
     {
-      "basename": "Backend-as-a-Service",
-      "path": "Backend-as-a-Service.md"
+      "basename": "JSON-RPC",
+      "path": "JSON-RPC.md"
+    },
+    {
+      "basename": "Claude Code Agent Teams",
+      "path": "Claude Code Agent Teams.md"
     },
     {
       "basename": "Row-Level Security",
       "path": "Row-Level Security.md"
+    },
+    {
+      "basename": "Physical Replication",
+      "path": "Physical Replication.md"
+    },
+    {
+      "basename": "Bayesian Smoothing",
+      "path": "Bayesian Smoothing.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
+      "basename": "Supabase",
+      "path": "Supabase.md"
+    },
+    {
+      "basename": "JSON Web Key Set",
+      "path": "JSON Web Key Set.md"
+    },
+    {
+      "basename": "Encryption",
+      "path": "Encryption.md"
+    },
+    {
+      "basename": "Key Exchange",
+      "path": "Key Exchange.md"
+    },
+    {
+      "basename": "Proof Key for Code Exchange",
+      "path": "Proof Key for Code Exchange.md"
+    },
+    {
+      "basename": "Backend-as-a-Service",
+      "path": "Backend-as-a-Service.md"
     },
     {
       "basename": "Geocode",
@@ -19,10 +59,6 @@
     {
       "basename": "Modern iOS Development",
       "path": "Modern iOS Development.md"
-    },
-    {
-      "basename": "Claude Code Agent Teams",
-      "path": "Claude Code Agent Teams.md"
     },
     {
       "basename": "Apple Push Notification service",
@@ -163,42 +199,6 @@
     {
       "basename": "Network Layer",
       "path": "Network Layer.md"
-    },
-    {
-      "basename": "Network Firewall",
-      "path": "Network Firewall.md"
-    },
-    {
-      "basename": "Intrusion Prevention System",
-      "path": "Intrusion Prevention System.md"
-    },
-    {
-      "basename": "Intrusion Detection System",
-      "path": "Intrusion Detection System.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "Security Orchestration, Automation, and Response",
-      "path": "Security Orchestration, Automation, and Response.md"
-    },
-    {
-      "basename": "Endpoint Detection and Response",
-      "path": "Endpoint Detection and Response.md"
-    },
-    {
-      "basename": "Extended Detection and Response",
-      "path": "Extended Detection and Response.md"
-    },
-    {
-      "basename": "Security Information and Event Management",
-      "path": "Security Information and Event Management.md"
-    },
-    {
-      "basename": "Safetensors",
-      "path": "Safetensors.md"
     }
   ],
   "omittedPaths": [],
