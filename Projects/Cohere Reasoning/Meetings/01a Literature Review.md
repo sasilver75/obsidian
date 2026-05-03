@@ -54,7 +54,7 @@ https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 	- Chen et al. (2022) Program of Thoughts Prompting
 		- Interesting in that uses language models to express the reasoning process as a program, and then separately executes that code, which seems like it could help with ameliorate certain types of errors. Can be combined with self-consistency.
 	- Zelikman et al. (2022) STaR: Self-Taught Reasoner Bootstrapping Reasoning with Reasoning ([[Self-Taught Reasoner|STaR]])
-	- Yao et al. (2022) ReAct: Synergizing Reasoning and Acting in Language Models ([[ReAct]])
+	- Yao et al. (2022) ReAct: Synergizing Reasoning and Acting in Language Models ([[ReAct (Agent)]])
 		- This one is a more "agentic" reasoning strategy, interacting with an external knowledge source over multiple terms.
 	- Mukherjee (2023) Orca: Progressive Learning from Complex Explanation Traces of GPT-4 ([[Orca]])
 		- Similar to STaR in that both involve generating (intrinsically, extrinsically) explanation traces and finetuning on the reasoning traces.

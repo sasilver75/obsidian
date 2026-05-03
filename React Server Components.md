@@ -2,7 +2,7 @@
 aliases:
   - RSC
 ---
-A type of [[React]] component that runs ==only on the server==, never on the client. The output is serialized and streamed to the browser, where React reconstructs the UI, but the component's code, dependencies, and data fetching never touch the user's machine.
+A type of [[ReAct (Agent)]] component that runs ==only on the server==, never on the client. The output is serialized and streamed to the browser, where React reconstructs the UI, but the component's code, dependencies, and data fetching never touch the user's machine.
 
 Thsi buys you:
 - Zero JS bundle cost for server components (a 200KB markdown library used in an RSC ships nothing to the client)

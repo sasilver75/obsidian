@@ -12,4 +12,16 @@ So `npx` is for *invoking* a tool, whereas `npm install -g` is for *installing* 
 Essentially, `npx` is: "I just want to invoke this CLI; figure out where it lives (local install? global? need to download?) and just run it." It's the ==canonical way to run scaffolders like `create-next-app` (which you only need once, then never again==. Typically adds 1-3s versus running an installed binary directly (checking caches, doing registry fetches), which is annoying if it's something that you're going to be using very frequently.
 
 
+![[Pasted image 20260502182432.png]]
+So there's a second job: Running a CLI from your local node_modules.
+So the flow is:
+  - npx sandcastle init → checks
+  node_modules/.bin/ → finds it → runs   it (no download needed, it's already there)
+
+Alternatives that also work:
+  - ./node_modules/.bin/sandcastle init (verbose but explicit)
+  - Add a script to package.json: "init": "sandcastle init", then npm run init
+  - In modern npm/pnpm/yarn, sometimes npm exec sandcastle init or just pnpm sandcastle init
+
+So npx here isn't downloading anything — it's just a convenient way to run the locally-installed CLI.
 

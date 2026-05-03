@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Claude Code Agent Teams",
+      "path": "Claude Code Agent Teams.md"
+    },
+    {
+      "basename": "Modern iOS Development",
+      "path": "Modern iOS Development.md"
+    },
+    {
+      "basename": "Apple Push Notification service",
+      "path": "Apple Push Notification service.md"
+    },
+    {
+      "basename": "Signing",
+      "path": "Signing.md"
+    },
+    {
+      "basename": "Reverse DNS",
+      "path": "Reverse DNS.md"
+    },
+    {
+      "basename": "npx",
+      "path": "npx.md"
+    },
+    {
+      "basename": "ReAct (Agent)",
+      "path": "ReAct (Agent).md"
+    },
+    {
+      "basename": "React",
+      "path": "React.md"
+    },
+    {
+      "basename": "Copy-on-Write",
+      "path": "Copy-on-Write.md"
+    },
+    {
       "basename": "Agent",
       "path": "Agent.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Web Application Firewall",
       "path": "Web Application Firewall.md"
-    },
-    {
-      "basename": "Next-Generation Firewall",
-      "path": "Next-Generation Firewall.md"
-    },
-    {
-      "basename": "Firewall",
-      "path": "Firewall.md"
-    },
-    {
-      "basename": "The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}",
-      "path": "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "HTTP.md"
-    },
-    {
-      "basename": "Amazon Network Load Balancer",
-      "path": "Amazon Network Load Balancer.md"
-    },
-    {
-      "basename": "Amazon Application Load Balancer",
-      "path": "Amazon Application Load Balancer.md"
-    },
-    {
-      "basename": "Middlebox",
-      "path": "Middlebox.md"
-    },
-    {
-      "basename": "QUIC",
-      "path": "QUIC.md"
-    },
-    {
-      "basename": "HTTP 1.1",
-      "path": "HTTP 1.1.md"
     }
   ],
   "omittedPaths": [],

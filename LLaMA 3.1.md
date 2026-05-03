@@ -295,7 +295,7 @@ Tool use
 - Tool datasets
 	- Single-step tool use: ==We do synthetic generation of user prompts requiring a call to a core tool. Relying on few-shot generation, we generate appropriate tool calls, execute them, and add the output to model context. We then prompt the model again to generate a final answer.==
 	- Multi-step tool use: ==We follow a similar protocol and prompt L3 to generate user prompts that require at least two tool calls that can be the same or different tools from our core set.==
-		- ==We few-shot prompt L3 to generate solutions consisting of interleaved reasoning steps and tool calls, similar to [[ReAct]].==
+		- ==We few-shot prompt L3 to generate solutions consisting of interleaved reasoning steps and tool calls, similar to [[ReAct (Agent)]].==
 	- File uploads: We annotate for .txt, .docx, .pdf, .pptx, .xlsx, .csv, .tsv, .pv, .json, .jsonl, .html, .xml. Our prompts are based on a provided file, and ask to summarize the contexts of the file, find and fix bugs, optimize a piece of code, perform data analysis and/or visualization.
 - We also include ==challenging situations==:
 	- Multi-turn interactions
@@ -439,7 +439,7 @@ Ah, but the SFT mixture is pretty similar to the pretraining data mixture. Note 
 ![[Pasted image 20240725153021.png]]
 
 ![[Pasted image 20240725193113.png|500]]
-So that given a user prompt, the agent determines an initial plan of action, and then works through it, doing tool use and reasoning after each tool use (similar to [[ReAct]]).
+So that given a user prompt, the agent determines an initial plan of action, and then works through it, doing tool use and reasoning after each tool use (similar to [[ReAct (Agent)]]).
 
 ![[Pasted image 20240725195701.png|600]]
 Processing file uploads. Given a file path, assistant using code interpreted to load a pd.dataframe from the filepath, and plot some aspects of the data. Interesting that in this case there's no reflection/reasoning between the first and second tool use. 

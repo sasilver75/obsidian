@@ -20,7 +20,7 @@ See also:
 Notes:
 - There has been an explosion in interest around building multi-stage *pipelines* and *agents* that decompose complex tasks into more manageable calls to LMs in an effort to improve performance.
 	- But LMs are sensitive in how they're prompted, and this is exacerbated in pipelines where multiple LM calls have to *interact* effectively. This results in brittle and unscalable hard-coded "prompt template" pipelines.
-- In DSPy's programming model, we translate string-based prompting techniques (eg [[Chain of Thought|CoT]], [[ReAct]]) into declarative modules that carry natural language typed signatures.
+- In DSPy's programming model, we translate string-based prompting techniques (eg [[Chain of Thought|CoT]], [[ReAct (Agent)]]) into declarative modules that carry natural language typed signatures.
 	- DSPy modules are task-adaptive components that abstract any particular text transformation, like answering a question or summarizing a paper.
 	- DSPy modules are ==parametrized==, so they can *learn* their desired behavior by iteratively bootstrapping useful demonstrations within the pipeline.
 - The DSPy compiler optimizes any DSPy program to improve quality or cost. The compiler inputs are the program, with a few training inputs with optional labels, and a validation metric.

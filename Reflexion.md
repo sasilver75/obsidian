@@ -12,7 +12,7 @@ References:
 ---
 
 ## Introduction
-- Recent works like [[ReAct]], Saycan, [[Toolformer]]. HuggingGPT, generative agents, and [[WebGPT]] have demonstrated the feasibility of autonomous decision-making agents that are built on top of a LLM core.
+- Recent works like [[ReAct (Agent)]], Saycan, [[Toolformer]]. HuggingGPT, generative agents, and [[WebGPT]] have demonstrated the feasibility of autonomous decision-making agents that are built on top of a LLM core.
 	- These methods use LLMs to generate text and "actions" that can be used in API calls, and executed in an environment.
 	- Such approaches so far have been limited to using in-context examples as a way of teaching the agents, since optimization schemes that modify parameters require substantial amounts of compute and time.
 - In this paper, they propose an alternative approach called [[Reflexion]] that uses verbal reinforcement to help agents learn from prior failings. 
@@ -53,7 +53,7 @@ References:
 	- ==Evaluator== ($M_e$) which scores the outputs produced by $M_a$ ("Here's a score/feedback for your guess")
 	- ==Self-Reflection== model ($M_{sr}$) which generates verbal reinforcement cues to assist the Actor in self-improvement. ("Here's an actionable lesson from your feedback")
 - ==Actor==: Built upon an LLM specifically prompted to generate necessary text and actions, conditioned on state observations.
-	- Authors explore various actor models, like [[Chain of Thought|CoT]] and [[ReAct]]. 
+	- Authors explore various actor models, like [[Chain of Thought|CoT]] and [[ReAct (Agent)]]. 
 	- Authors also add a memory component *mem* that provides additional context to this agent. 
 - ==Evaluator==: Plays a crucial role in assessing the generated outputs produced by the Actor. Takes as input a generated trajectory and computes a reward score that reflects its performance within the given task context. 
 	- Defining effective value and reward functions that apply to semantic spaces is difficult, so they try several variants, including exact-match grading, pre-defined heuristic functions, and using LLMs themselves as evaluators.

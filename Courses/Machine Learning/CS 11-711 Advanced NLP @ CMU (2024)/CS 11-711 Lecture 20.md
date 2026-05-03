@@ -116,7 +116,7 @@ This highlight a need for multimodal models
 ![[Pasted image 20240618135346.png]]
 It's not enough to just have planning/reasoning, though, because you can't actually effect the world around you!
 
-This is why it's useful for our language models to have a tool-use ability. ([[Toolformer]], [[Gorilla]], [[ReAct]])
+This is why it's useful for our language models to have a tool-use ability. ([[Toolformer]], [[Gorilla]], [[ReAct (Agent)]])
 ![[Pasted image 20240618135523.png]]
 By interacting with the environment (via generating and executing appropriate API calls with arguments), we change it; we can then re-observe the environment and again reason about what the next appropriate step should be.
 

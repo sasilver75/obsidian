@@ -467,7 +467,7 @@ So above, we can see:
 - ==Dynamic Adaptation==
 	- Each cycle allows the agent to incorporate fresh information (observations) into its reasoning (thoughut), ensuring that the final answer is well-informed and accurate.
 
-Above is the core concept behind the [[ReAct]] cycle:
+Above is the core concept behind the [[ReAct (Agent)]] cycle:
 - The interplay of ==Thought==, ==Action==, and ==Observation== that empowers AI agents to solve complex tasks iteratively.
 
 
@@ -478,7 +478,7 @@ Thoughts enable agents to break down complex problems into smaller, more managea
 
 ![[Pasted image 20250417161831.png]]
 
-[[ReAct]]: The ==concatenation of "Reasoning" (Think) with "Acting" (Act)==
+[[ReAct (Agent)]]: The ==concatenation of "Reasoning" (Think) with "Acting" (Act)==
 - A simple prompting technique that appends "Let's think Step by Step" before letting the LLM decode the net tokens.
 - Indeed, prompting the model to think "step by step" encourages the decoding process towards next tokens that generate a plan, rather than a final solution, since the model is encouraged to decompose the problem into subtasks.
 

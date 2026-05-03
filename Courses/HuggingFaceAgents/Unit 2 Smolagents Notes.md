@@ -83,7 +83,7 @@ The streamlined approach of CodeAgents, which generate Python tool calls to perf
 
 ![[Pasted image 20250418231138.png]]
 
-CodeAgent.run(): Follows the [[ReAct]] framework from Unit 1...
+CodeAgent.run(): Follows the [[ReAct (Agent)]] framework from Unit 1...
 - The main abstraction in `smolagents` is `MultiStepAgent`, which serves as the core building block.
 - CodeAgent is a special instance of `MultiStepAgent`.
 

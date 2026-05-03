@@ -37,7 +37,7 @@ We first need to understand the components of a prompt:
 
 Optimizing a prompt involves modifying one or more of these components:
 1. Prompting techniques
-	- Strategies like [[Chain of Thought]] and [[ReAct]] that define the reasoning steps you want the LM to emulate.
+	- Strategies like [[Chain of Thought]] and [[ReAct (Agent)]] that define the reasoning steps you want the LM to emulate.
 2. Instructions
 	- The "how" of a prompt; the string used to guide the LM to get desired output, given input.
 
