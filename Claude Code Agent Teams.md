@@ -7,7 +7,7 @@ Coordinate multiple Claude Code instances working together.
 	- While they use "file locking" for the task claiming, they also say: "Two teammates editing the same file leads to overwrites. ==Break the work so each teammate owns a different set of files==," so it doesn't seem like it uses file locking for actual edits.
 - ==Token cost scale linearly with # of teammates==... in the sense that tokens don't cost any more, you just use more of them, since you've got more teammates.
 
-Start with tasks that have clear boundaries and don't require writing code (e.g. reviewing a PR, researching a library, or investigating a bug. These show the value of parallel exploration without the coordination challenges that come with parallel implementation).
+Start with tasks that have clear boundaries and don't require writing code (e.g. reviewing a PR, researching a library, or investigating a        bug. These show the value of parallel exploration without the coordination challenges that come with parallel implementation).
 
 ==Having 5-6 tasks per teammate keeps everyone productive== without excessive context switching. If you have 15 independent tasks, 3 teammates is a good starting point.
 

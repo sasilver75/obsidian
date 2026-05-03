@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claude Code Agent Teams.md",
+                "file": "Supabase.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Claude Code Agent Teams"
+              "title": "Supabase"
+            }
+          },
+          {
+            "id": "61f7e3d3779694ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend-as-a-Service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Backend-as-a-Service"
             }
           },
           {
@@ -2051,8 +2075,12 @@
   },
   "active": "3d8acbe8ed4a8cba",
   "lastOpenFiles": [
-    "Claude Code Agent Teams.md",
+    "Backend-as-a-Service.md",
+    "Supabase.md",
+    "Row-Level Security.md",
+    "Geocode.md",
     "Modern iOS Development.md",
+    "Claude Code Agent Teams.md",
     "Apple Push Notification service.md",
     "Signing.md",
     "Reverse DNS.md",
@@ -2075,11 +2103,7 @@
     "Dot Product.md",
     "Jaccard Index.md",
     "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md",
-    "Jaccard Similarity.md",
-    "Manhattan Distance.md",
     "_attachments/Pasted image 20260501155757.png",
-    "Hash-based Message Authentication Code.md",
-    "OSI Model.md",
     "_attachments/Pasted image 20260501151742.png",
     "_attachments/Pasted image 20260501143823.png",
     "HTTP",

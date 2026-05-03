@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Claude Code Agent Teams",
-      "path": "Claude Code Agent Teams.md"
+      "basename": "Supabase",
+      "path": "Supabase.md"
+    },
+    {
+      "basename": "Backend-as-a-Service",
+      "path": "Backend-as-a-Service.md"
+    },
+    {
+      "basename": "Row-Level Security",
+      "path": "Row-Level Security.md"
+    },
+    {
+      "basename": "Geocode",
+      "path": "Geocode.md"
     },
     {
       "basename": "Modern iOS Development",
       "path": "Modern iOS Development.md"
+    },
+    {
+      "basename": "Claude Code Agent Teams",
+      "path": "Claude Code Agent Teams.md"
     },
     {
       "basename": "Apple Push Notification service",
@@ -183,22 +199,6 @@
     {
       "basename": "Safetensors",
       "path": "Safetensors.md"
-    },
-    {
-      "basename": "Amazon AuAmazon Aurora DSQLrora DSQL",
-      "path": "Amazon AuAmazon Aurora DSQLrora DSQL.md"
-    },
-    {
-      "basename": "Security Operations Center",
-      "path": "Security Operations Center.md"
-    },
-    {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
-      "basename": "Web Application Firewall",
-      "path": "Web Application Firewall.md"
     }
   ],
   "omittedPaths": [],
