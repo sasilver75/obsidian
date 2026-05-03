@@ -16,6 +16,8 @@ Key properties:
 ![[Pasted image 20260426195523.png]]
 The evolution of the programmer, 2024-2026
 
+![[Pasted image 20260502164011.png]]
+
 
 
 ___________________

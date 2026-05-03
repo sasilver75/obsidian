@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architectural Decision Record.md",
+                "file": "Agent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Architectural Decision Record"
+              "title": "Agent"
             }
           },
           {
@@ -1859,9 +1859,11 @@
   },
   "active": "728a0911a206e6fe",
   "lastOpenFiles": [
-    "Specification.md",
+    "_attachments/Pasted image 20260502164011.png",
+    "Claude Code on the Web.md",
     "Product Requirements Document.md",
     "Architectural Decision Record.md",
+    "Specification.md",
     "pg_cron.md",
     "Beads.md",
     "Tracer Bullet.md",
@@ -1884,8 +1886,6 @@
     "Huffman Coding.md",
     "Reverse Proxy.md",
     "Forward Proxy.md",
-    "Application Layer.md",
-    "Transport Layer.md",
     "_attachments/Pasted image 20260501151742.png",
     "_attachments/Pasted image 20260501143823.png",
     "HTTP",

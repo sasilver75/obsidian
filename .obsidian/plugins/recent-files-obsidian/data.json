@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Agent",
+      "path": "Agent.md"
+    },
+    {
+      "basename": "Claude Code on the Web",
+      "path": "Claude Code on the Web.md"
+    },
+    {
+      "basename": "Product Requirements Document",
+      "path": "Product Requirements Document.md"
+    },
+    {
       "basename": "Architectural Decision Record",
       "path": "Architectural Decision Record.md"
     },
     {
       "basename": "Specification",
       "path": "Specification.md"
-    },
-    {
-      "basename": "Product Requirements Document",
-      "path": "Product Requirements Document.md"
     },
     {
       "basename": "pg_cron",
@@ -191,14 +199,6 @@
     {
       "basename": "HTTP 1.1",
       "path": "HTTP 1.1.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "gRPC.md"
-    },
-    {
-      "basename": "ConnectRPC",
-      "path": "ConnectRPC.md"
     }
   ],
   "omittedPaths": [],
