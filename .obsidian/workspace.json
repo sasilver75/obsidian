@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agent2Agent.md",
+                "file": "DINOv2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agent2Agent"
+              "title": "DINOv2"
+            }
+          },
+          {
+            "id": "6237c25f9e7a620d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RF-DETR.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RF-DETR"
             }
           },
           {
@@ -632,7 +656,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -2174,12 +2198,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "8fbcae76dbd63b62",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "27ae368da9eba41d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 144
+        "currentTab": 146
       },
       {
         "id": "8a022290161ffefa",
@@ -2241,11 +2285,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bf58cd277e7c9657",
+  "active": "6237c25f9e7a620d",
   "lastOpenFiles": [
+    "RF-DETR.md",
+    "DINOv2.md",
+    "_attachments/Pasted image 20260503202326.png",
+    "MMVP.md",
+    "_attachments/Pasted image 20260503201953.png",
+    "_attachments/Pasted image 20260503201912.png",
+    "Courses/SystemDesign/SDIAH Intro.md",
+    "Courses/SystemDesign/SDIAH Framework.md",
+    "Agent2Agent.md",
     "JSON-RPC.md",
     "Claude Code Agent Teams.md",
-    "Agent2Agent.md",
     "Row-Level Security.md",
     "Physical Replication.md",
     "Bayesian Smoothing.md",
@@ -2264,22 +2316,14 @@
     "Reverse DNS.md",
     "npx.md",
     "ReAct (Agent).md",
-    "React.md",
-    "Copy-on-Write.md",
     "_attachments/Pasted image 20260502182432.png",
-    "Agent.md",
     "_attachments/Pasted image 20260502164011.png",
-    "Claude Code on the Web.md",
-    "Product Requirements Document.md",
     "_attachments/Pasted image 20260501155757.png",
     "_attachments/Pasted image 20260501151742.png",
     "_attachments/Pasted image 20260501143823.png",
     "HTTP",
     "_attachments/Pasted image 20260501113601.png",
     "_attachments/Pasted image 20260430103353.png",
-    "_attachments/Pasted image 20260430103144.png",
-    "_attachments/Pasted image 20260428170654.png",
-    "_attachments/Pasted image 20260427230702.png",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
     "recent-notes.txt",

@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "RF-DETR",
+      "path": "RF-DETR.md"
+    },
+    {
+      "basename": "DINOv2",
+      "path": "DINOv2.md"
+    },
+    {
+      "basename": "MMVP",
+      "path": "MMVP.md"
+    },
+    {
+      "basename": "SDIAH Intro",
+      "path": "Courses/SystemDesign/SDIAH Intro.md"
+    },
+    {
+      "basename": "SDIAH Framework",
+      "path": "Courses/SystemDesign/SDIAH Framework.md"
+    },
+    {
       "basename": "Agent2Agent",
       "path": "Agent2Agent.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Huffman Coding",
       "path": "Huffman Coding.md"
-    },
-    {
-      "basename": "Reverse Proxy",
-      "path": "Reverse Proxy.md"
-    },
-    {
-      "basename": "Forward Proxy",
-      "path": "Forward Proxy.md"
-    },
-    {
-      "basename": "Application Layer",
-      "path": "Application Layer.md"
-    },
-    {
-      "basename": "Transport Layer",
-      "path": "Transport Layer.md"
-    },
-    {
-      "basename": "Network Layer",
-      "path": "Network Layer.md"
     }
   ],
   "omittedPaths": [],
