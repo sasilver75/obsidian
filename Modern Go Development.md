@@ -1,14 +1,14 @@
 
 # Go the Language
 
-Go (also "Golang") is a compiled, statically-typed language from Google (2009, Rob Pike, Ken Thompson, Robert Griesemer). It was designed as a corrective to C++ — fast to compile, easy to read, built-in concurrency, no inheritance. It's the language of cloud infrastructure: [[Docker]], [[Kubernetes]], [[Terraform]], [[Prometheus]], [[etcd]], [[CockroachDB]], [[HashiCorp Consul|Consul]], [[HashiCorp Vault|Vault]], Caddy, and most of the modern DevOps toolchain are Go.
+Go (also "Golang") is a compiled, statically-typed language from Google (2009, Rob Pike, Ken Thompson, Robert Griesemer). It was designed as a corrective to C++ — fast to compile, easy to read, built-in concurrency, no inheritance. It's ==the language of cloud infrastructure==: [[Docker]], [[Kubernetes]], [[Terraform]], [[Prometheus]], [[etcd]], [[CockroachDB]], [[HashiCorp Consul|Consul]], [[HashiCorp Vault|Vault]], Caddy, and most of the modern DevOps toolchain are Go.
 
-**Mental model from JS/Python:** Go is what you reach for when you want Python's readability, C's performance, and Node's concurrency model — but with none of their footguns. It is aggressively boring by design.
+**Mental model from JS/Python:** Go is what you reach for when you want Python's readability, C's performance, and Node's concurrency model — but with none of their footguns. ==It is aggressively boring by design.==
 
 ## Key Design Decisions (the "why is this weird" section)
 
 ### Statically typed, compiled
-Unlike Python/JS, Go knows every variable's type at compile time. The binary you ship is native machine code — no interpreter, no JIT warmup.
+Unlike Python/JS, Go knows every variable's type at compile time. ==The binary you ship is native machine code — no interpreter==, no JIT warmup.
 
 ```go
 // Python: x = 42         (type discovered at runtime)
@@ -19,7 +19,7 @@ x := 42                    // shorthand (type inferred), the common form
 ```
 
 ### No exceptions — errors are values
-This is the biggest culture shock from Python/JS. Go has no `try/catch`. Functions return errors explicitly.
+This is the biggest culture shock from Python/JS. ==Go has no `try/catch`==. ==Functions return errors explicitly==.
 
 ```go
 // Python: raise ValueError("bad thing")   → try/except elsewhere
@@ -32,10 +32,10 @@ if err != nil {
 defer f.Close()
 ```
 
-The `if err != nil` pattern feels repetitive at first. It grows on you: error paths are explicit and impossible to accidentally ignore (the compiler warns on unused return values).
+The `if err != nil` pattern ==feels repetitive at first. It grows on you==: error paths are explicit and impossible to accidentally ignore (the compiler warns on unused return values).
 
 ### Interfaces are implicit (structural typing)
-No `implements` keyword. If your type has the right methods, it satisfies the interface. Like duck typing, but checked at compile time.
+No `implements` keyword. If your type has the right methods, it satisfies the interface. Like [[Duck Typing]], but checked at compile time.
 
 ```go
 type Writer interface {
@@ -50,7 +50,7 @@ func (m MyWriter) Write(p []byte) (int, error) { ... }
 This is more flexible than Java/C# and encourages small, composable interfaces. The standard library's `io.Reader`/`io.Writer` are the canonical example.
 
 ### Goroutines, not async/await
-Go's concurrency model uses goroutines (green threads managed by the Go runtime) and channels for communication. You don't have to think about `async`/`await` — everything can block and the runtime handles scheduling.
+Go's concurrency model uses ==goroutines== ([[Green Thread]]s managed by the Go runtime) and channels for communication. You don't have to think about `async`/`await` — everything can block and the runtime handles scheduling.
 
 ```go
 // Node: async function fetchUser() { await db.query(...) }
@@ -59,8 +59,8 @@ Go's concurrency model uses goroutines (green threads managed by the Go runtime)
 go fetchUser()  // spins up a goroutine — 2KB stack, runtime-scheduled
 ```
 
-### Structs, not classes
-Go has no classes, no inheritance, no `this`. You have structs with methods, and you compose behavior via embedding and interfaces.
+### ==Structs==, not classes
+Go has ==no classes==, ==no inheritance==, no `this`. You have structs with methods, and you compose behavior via embedding and interfaces.
 
 ```go
 type User struct {
@@ -75,13 +75,13 @@ func (u User) Greet() string {
 
 // Embedding (composition over inheritance):
 type AdminUser struct {
-    User              // "inherits" User's fields and methods
+    User              // "inherits" User's fields and methods <<<<----------eh?
     Permissions []string
 }
 ```
 
 ### Zero values
-Every type has a zero value. No `undefined`, no `null` for value types. Structs are ready to use without initialization.
+Every type has a ==zero value==. No `undefined`, no `null` for value types. Structs are ready to use without initialization.
 
 ```go
 var i int      // 0
@@ -96,9 +96,10 @@ var m map[string]int  // nil — not ready to write to, need make()
 f, _ := os.Open("file.txt")
 defer f.Close()  // runs when the surrounding function returns, always
 ```
+Above: `defer` ==Runs when the surrounding function returns, always==
 
 ### Pointers — the minimal subset
-Go has pointers but no pointer arithmetic. They exist mainly to distinguish "pass by value" vs "pass by reference."
+Go has ==pointers== but no pointer arithmetic. They exist mainly to distinguish =="pass by value" vs "pass by reference."==
 
 ```go
 func double(x *int) { *x *= 2 }  // modifies original
@@ -123,7 +124,7 @@ func Map[T, U any](slice []T, fn func(T) U) []U {
 
 # Toolchain
 
-Go ships with an exceptional standard toolchain — no npm-equivalent chaos:
+Go ships with an ==exceptional standard toolchain== — no npm-equivalent chaos:
 
 ```bash
 go mod init myapp          # initialize a module (go.mod)
@@ -179,14 +180,14 @@ http.ListenAndServe(":8080", mux)
 
 Community routers/frameworks, in rough order of preference for new projects:
 
-- **[[Chi]]**: Lightweight, composable, stdlib-compatible middleware. The clean default.
-- **[[Gin]]**: Fastest adoption, batteries-included, slightly non-idiomatic. Ubiquitous in the wild.
+- **Chi**: Lightweight, composable, stdlib-compatible middleware. The clean default.
+- **Gin**: Fastest adoption, batteries-included, slightly non-idiomatic. Ubiquitous in the wild.
 - **Echo**: Similar shape to Gin, good OpenAPI integration.
 - **Fiber**: Express-shaped, built on `fasthttp`. Fastest, but incompatible with stdlib `net/http` middleware.
 - **Huma**: If you want auto-generated OpenAPI/JSON Schema from your handler types. Schema-first.
 - **`net/http` stdlib**: Totally valid for simple services in Go 1.22+.
 
-For gRPC, use **`google.golang.org/grpc`** or the newer **[[Connect]]** (`connectrpc.com`) which speaks both gRPC and HTTP/1.1.
+For gRPC, use **`google.golang.org/grpc`** or the newer **Connect** (`connectrpc.com`) which speaks both gRPC and HTTP/1.1.
 
 
 # Database

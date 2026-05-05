@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Tippecanoe",
+      "path": "Tippecanoe.md"
+    },
+    {
+      "basename": "Xcode",
+      "path": "Xcode.md"
+    },
+    {
+      "basename": "Swift Package Manager",
+      "path": "Swift Package Manager.md"
+    },
+    {
+      "basename": "Modern Go Development",
+      "path": "Modern Go Development.md"
+    },
+    {
+      "basename": "OpenTelemetry Protocol",
+      "path": "OpenTelemetry Protocol.md"
+    },
+    {
+      "basename": "Physical Replication",
+      "path": "Physical Replication.md"
+    },
+    {
+      "basename": "Connect",
+      "path": "Connect.md"
+    },
+    {
+      "basename": "Row-Level Security",
+      "path": "Row-Level Security.md"
+    },
+    {
       "basename": "RF-DETR",
       "path": "RF-DETR.md"
     },
@@ -31,14 +63,6 @@
     {
       "basename": "Claude Code Agent Teams",
       "path": "Claude Code Agent Teams.md"
-    },
-    {
-      "basename": "Row-Level Security",
-      "path": "Row-Level Security.md"
-    },
-    {
-      "basename": "Physical Replication",
-      "path": "Physical Replication.md"
     },
     {
       "basename": "Bayesian Smoothing",
@@ -175,30 +199,6 @@
     {
       "basename": "Transport Control Protocol",
       "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "HTTP 3",
-      "path": "HTTP 3.md"
-    },
-    {
-      "basename": "HTTP 2",
-      "path": "HTTP 2.md"
-    },
-    {
-      "basename": "Head-of-Line Blocking",
-      "path": "Head-of-Line Blocking.md"
-    },
-    {
-      "basename": "Multiplex",
-      "path": "Multiplex.md"
-    },
-    {
-      "basename": "HPACK",
-      "path": "HPACK.md"
-    },
-    {
-      "basename": "Huffman Coding",
-      "path": "Huffman Coding.md"
     }
   ],
   "omittedPaths": [],

@@ -224,36 +224,12 @@
             }
           },
           {
-            "id": "6237c25f9e7a620d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RF-DETR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RF-DETR"
-            }
-          },
-          {
             "id": "cb302a0e23124987",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Row-Level Security.md",
+                "file": "Modern Go Development.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +244,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Row-Level Security"
+              "title": "Modern Go Development"
+            }
+          },
+          {
+            "id": "7dbfd2174f3ff35a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tippecanoe.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tippecanoe"
+            }
+          },
+          {
+            "id": "3b652f90242a452e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenTelemetry Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenTelemetry Protocol"
             }
           },
           {
@@ -656,7 +680,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -2218,8 +2242,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -2285,9 +2309,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6237c25f9e7a620d",
+  "active": "7dbfd2174f3ff35a",
   "lastOpenFiles": [
+    "Xcode.md",
+    "Swift Package Manager.md",
     "Modern Go Development.md",
+    "OpenTelemetry Protocol.md",
+    "Physical Replication.md",
+    "Connect.md",
+    "Row-Level Security.md",
     "RF-DETR.md",
     "DINOv2.md",
     "_attachments/Pasted image 20260503202326.png",
@@ -2299,8 +2329,6 @@
     "Agent2Agent.md",
     "JSON-RPC.md",
     "Claude Code Agent Teams.md",
-    "Row-Level Security.md",
-    "Physical Replication.md",
     "Bayesian Smoothing.md",
     "Server-Sent Event.md",
     "Supabase.md",
@@ -2312,10 +2340,6 @@
     "Backend-as-a-Service.md",
     "Geocode.md",
     "Modern iOS Development.md",
-    "Apple Push Notification service.md",
-    "Signing.md",
-    "Reverse DNS.md",
-    "npx.md",
     "_attachments/Pasted image 20260502182432.png",
     "_attachments/Pasted image 20260502164011.png",
     "_attachments/Pasted image 20260501155757.png",
