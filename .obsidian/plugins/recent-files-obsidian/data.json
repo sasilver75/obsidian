@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Optical",
+      "path": "Optical.md"
+    },
+    {
       "basename": "Tippecanoe",
       "path": "Tippecanoe.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "OSI Model",
       "path": "OSI Model.md"
-    },
-    {
-      "basename": "Transport Control Protocol",
-      "path": "Transport Control Protocol.md"
     }
   ],
   "omittedPaths": [],

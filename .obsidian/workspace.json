@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tippecanoe.md",
+                "file": "Optical.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tippecanoe"
+              "title": "Optical"
             }
           },
           {
@@ -2311,6 +2311,7 @@
   },
   "active": "7dbfd2174f3ff35a",
   "lastOpenFiles": [
+    "Tippecanoe.md",
     "Xcode.md",
     "Swift Package Manager.md",
     "Modern Go Development.md",
@@ -2339,7 +2340,6 @@
     "Proof Key for Code Exchange.md",
     "Backend-as-a-Service.md",
     "Geocode.md",
-    "Modern iOS Development.md",
     "_attachments/Pasted image 20260502182432.png",
     "_attachments/Pasted image 20260502164011.png",
     "_attachments/Pasted image 20260501155757.png",
