@@ -1,6 +1,9 @@
 ---
 aliases:
   - 3DGS
+  - 3D Gaussian Splat
+  - Gaussian Splat
+  - Splat
 ---
 Gaussian Splatting (3DGS) is a technique from 2023 that took the computer vision/graphics world by storm.
 

@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "SPlat Zip",
+      "path": "SPlat Zip.md"
+    },
+    {
+      "basename": "Polygon File Format",
+      "path": "Polygon File Format.md"
+    },
+    {
+      "basename": "Moravec's Paradox",
+      "path": "Moravec's Paradox.md"
+    },
+    {
+      "basename": "Zstandard",
+      "path": "Zstandard.md"
+    },
+    {
+      "basename": "3D Gaussian Splatting",
+      "path": "3D Gaussian Splatting.md"
+    },
+    {
       "basename": "Optical",
       "path": "Optical.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Dot Product",
       "path": "Dot Product.md"
-    },
-    {
-      "basename": "Jaccard Index",
-      "path": "Jaccard Index.md"
-    },
-    {
-      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
-      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
-    },
-    {
-      "basename": "Manhattan Distance",
-      "path": "Manhattan Distance.md"
-    },
-    {
-      "basename": "Hash-based Message Authentication Code",
-      "path": "Hash-based Message Authentication Code.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "OSI Model.md"
     }
   ],
   "omittedPaths": [],

@@ -272,6 +272,78 @@
             }
           },
           {
+            "id": "677e501072484e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SPlat Zip.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SPlat Zip"
+            }
+          },
+          {
+            "id": "8c11cd0980193a77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zstandard.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Zstandard"
+            }
+          },
+          {
+            "id": "1faf1d69bf328cda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3D Gaussian Splatting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3D Gaussian Splatting"
+            }
+          },
+          {
             "id": "3b652f90242a452e",
             "type": "leaf",
             "state": {
@@ -680,7 +752,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -2245,9 +2317,29 @@
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
             }
+          },
+          {
+            "id": "e55d263987b8bf77",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "34f20bd4053c009e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 146
+        "currentTab": 148
       },
       {
         "id": "8a022290161ffefa",
@@ -2309,8 +2401,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7dbfd2174f3ff35a",
+  "active": "677e501072484e66",
   "lastOpenFiles": [
+    "Polygon File Format.md",
+    "Moravec's Paradox.md",
+    "SPlat Zip.md",
+    "Zstandard.md",
+    "3D Gaussian Splatting.md",
+    "Optical.md",
     "Tippecanoe.md",
     "Xcode.md",
     "Swift Package Manager.md",
@@ -2334,12 +2432,6 @@
     "Server-Sent Event.md",
     "Supabase.md",
     "JSON Web Key Set.md",
-    "Encryption.md",
-    "Key Exchange.md",
-    "Key Exchange Problem.md",
-    "Proof Key for Code Exchange.md",
-    "Backend-as-a-Service.md",
-    "Geocode.md",
     "_attachments/Pasted image 20260502182432.png",
     "_attachments/Pasted image 20260502164011.png",
     "_attachments/Pasted image 20260501155757.png",
