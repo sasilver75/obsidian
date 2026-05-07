@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Small Modular Reactor",
+      "path": "Small Modular Reactor.md"
+    },
+    {
+      "basename": "Helium-Cooled High-Termperature Gas Reactor",
+      "path": "Helium-Cooled High-Termperature Gas Reactor.md"
+    },
+    {
+      "basename": "Boiling Water Reactor",
+      "path": "Boiling Water Reactor.md"
+    },
+    {
+      "basename": "Sodium-Cooled Fast Reactor",
+      "path": "Sodium-Cooled Fast Reactor.md"
+    },
+    {
+      "basename": "Moderator",
+      "path": "Moderator.md"
+    },
+    {
+      "basename": "Light Water Reactor",
+      "path": "Light Water Reactor.md"
+    },
+    {
+      "basename": "Pressurized Water Reactor",
+      "path": "Pressurized Water Reactor.md"
+    },
+    {
       "basename": "Zstandard",
       "path": "Zstandard.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Product Requirements Document",
       "path": "Product Requirements Document.md"
-    },
-    {
-      "basename": "Architectural Decision Record",
-      "path": "Architectural Decision Record.md"
-    },
-    {
-      "basename": "Specification",
-      "path": "Specification.md"
-    },
-    {
-      "basename": "pg_cron",
-      "path": "pg_cron.md"
-    },
-    {
-      "basename": "Beads",
-      "path": "Beads.md"
-    },
-    {
-      "basename": "Tracer Bullet",
-      "path": "Tracer Bullet.md"
-    },
-    {
-      "basename": "Modern Backend Development",
-      "path": "Modern Backend Development.md"
-    },
-    {
-      "basename": "pgvector",
-      "path": "pgvector.md"
     }
   ],
   "omittedPaths": [],

@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zstandard.md",
+                "file": "Boiling Water Reactor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,127 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Zstandard"
+              "title": "Boiling Water Reactor"
+            }
+          },
+          {
+            "id": "456129c80799d40c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Small Modular Reactor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Small Modular Reactor"
+            }
+          },
+          {
+            "id": "4cf50964771794da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sodium-Cooled Fast Reactor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sodium-Cooled Fast Reactor"
+            }
+          },
+          {
+            "id": "af82cd7def94da48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Moderator.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Moderator"
+            }
+          },
+          {
+            "id": "bccb9c2ce25a3998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Light Water Reactor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Light Water Reactor"
+            }
+          },
+          {
+            "id": "00e66c131312ed15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boiling Water Reactor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Boiling Water Reactor"
             }
           },
           {
@@ -728,7 +848,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -2320,12 +2440,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "6087cb398c3cc016",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 149
+        "currentTab": 150
       },
       {
         "id": "8a022290161ffefa",
@@ -2387,13 +2517,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8c11cd0980193a77",
+  "active": "456129c80799d40c",
   "lastOpenFiles": [
+    "Helium-Cooled High-Termperature Gas Reactor.md",
+    "Small Modular Reactor.md",
+    "Boiling Water Reactor.md",
+    "Sodium-Cooled Fast Reactor.md",
+    "Moderator.md",
+    "Light Water Reactor.md",
+    "Pressurized Water Reactor.md",
+    "Zstandard.md",
     "TiTiler.md",
     "SPlat Zip.md",
     "Polygon File Format.md",
     "Moravec's Paradox.md",
-    "Zstandard.md",
     "3D Gaussian Splatting.md",
     "Optical.md",
     "Tippecanoe.md",
@@ -2411,13 +2548,6 @@
     "_attachments/Pasted image 20260503201953.png",
     "_attachments/Pasted image 20260503201912.png",
     "Courses/SystemDesign/SDIAH Intro.md",
-    "Courses/SystemDesign/SDIAH Framework.md",
-    "Agent2Agent.md",
-    "JSON-RPC.md",
-    "Claude Code Agent Teams.md",
-    "Bayesian Smoothing.md",
-    "Server-Sent Event.md",
-    "Supabase.md",
     "_attachments/Pasted image 20260502182432.png",
     "_attachments/Pasted image 20260502164011.png",
     "_attachments/Pasted image 20260501155757.png",
