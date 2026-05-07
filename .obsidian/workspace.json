@@ -272,30 +272,6 @@
             }
           },
           {
-            "id": "677e501072484e66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SPlat Zip.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SPlat Zip"
-            }
-          },
-          {
             "id": "8c11cd0980193a77",
             "type": "leaf",
             "state": {
@@ -2334,12 +2310,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "a8a370d54a94d495",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 148
+        "currentTab": 149
       },
       {
         "id": "8a022290161ffefa",
@@ -2401,11 +2387,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "677e501072484e66",
+  "active": "8c11cd0980193a77",
   "lastOpenFiles": [
+    "TiTiler.md",
+    "SPlat Zip.md",
     "Polygon File Format.md",
     "Moravec's Paradox.md",
-    "SPlat Zip.md",
     "Zstandard.md",
     "3D Gaussian Splatting.md",
     "Optical.md",
@@ -2431,7 +2418,6 @@
     "Bayesian Smoothing.md",
     "Server-Sent Event.md",
     "Supabase.md",
-    "JSON Web Key Set.md",
     "_attachments/Pasted image 20260502182432.png",
     "_attachments/Pasted image 20260502164011.png",
     "_attachments/Pasted image 20260501155757.png",

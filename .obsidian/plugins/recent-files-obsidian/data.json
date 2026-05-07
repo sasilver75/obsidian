@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Zstandard",
+      "path": "Zstandard.md"
+    },
+    {
+      "basename": "TiTiler",
+      "path": "TiTiler.md"
+    },
+    {
       "basename": "SPlat Zip",
       "path": "SPlat Zip.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Moravec's Paradox",
       "path": "Moravec's Paradox.md"
-    },
-    {
-      "basename": "Zstandard",
-      "path": "Zstandard.md"
     },
     {
       "basename": "3D Gaussian Splatting",
@@ -195,10 +199,6 @@
     {
       "basename": "pgvector",
       "path": "pgvector.md"
-    },
-    {
-      "basename": "Dot Product",
-      "path": "Dot Product.md"
     }
   ],
   "omittedPaths": [],
