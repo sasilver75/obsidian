@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Small Modular Reactor.md",
+                "file": "Capacity Factor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Small Modular Reactor"
+              "title": "Capacity Factor"
+            }
+          },
+          {
+            "id": "51b2720c2a54b1a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capacity Factor (Energy).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Capacity Factor (Energy)"
             }
           },
           {
@@ -848,7 +872,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -2450,12 +2474,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "f6d4141de679e608",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 150
+        "currentTab": 151
       },
       {
         "id": "8a022290161ffefa",
@@ -2517,10 +2551,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "456129c80799d40c",
+  "active": "51b2720c2a54b1a5",
   "lastOpenFiles": [
-    "Helium-Cooled High-Termperature Gas Reactor.md",
+    "Capacity Factor (Energy).md",
+    "Capacity Factor.md",
+    "Apple Push Notification service.md",
+    "Go.md",
     "Small Modular Reactor.md",
+    "Helium-Cooled High-Termperature Gas Reactor.md",
     "Boiling Water Reactor.md",
     "Sodium-Cooled Fast Reactor.md",
     "Moderator.md",
@@ -2541,13 +2579,9 @@
     "Physical Replication.md",
     "Connect.md",
     "Row-Level Security.md",
-    "RF-DETR.md",
-    "DINOv2.md",
     "_attachments/Pasted image 20260503202326.png",
-    "MMVP.md",
     "_attachments/Pasted image 20260503201953.png",
     "_attachments/Pasted image 20260503201912.png",
-    "Courses/SystemDesign/SDIAH Intro.md",
     "_attachments/Pasted image 20260502182432.png",
     "_attachments/Pasted image 20260502164011.png",
     "_attachments/Pasted image 20260501155757.png",

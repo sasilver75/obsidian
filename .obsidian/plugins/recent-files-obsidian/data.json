@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Capacity Factor (Energy)",
+      "path": "Capacity Factor (Energy).md"
+    },
+    {
+      "basename": "Capacity Factor",
+      "path": "Capacity Factor.md"
+    },
+    {
+      "basename": "Apple Push Notification service",
+      "path": "Apple Push Notification service.md"
+    },
+    {
+      "basename": "Go",
+      "path": "Go.md"
+    },
+    {
       "basename": "Small Modular Reactor",
       "path": "Small Modular Reactor.md"
     },
@@ -161,10 +177,6 @@
       "path": "Modern iOS Development.md"
     },
     {
-      "basename": "Apple Push Notification service",
-      "path": "Apple Push Notification service.md"
-    },
-    {
       "basename": "Signing",
       "path": "Signing.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Copy-on-Write",
       "path": "Copy-on-Write.md"
-    },
-    {
-      "basename": "Agent",
-      "path": "Agent.md"
-    },
-    {
-      "basename": "Claude Code on the Web",
-      "path": "Claude Code on the Web.md"
-    },
-    {
-      "basename": "Product Requirements Document",
-      "path": "Product Requirements Document.md"
     }
   ],
   "omittedPaths": [],

@@ -11,15 +11,15 @@ This is "what's actually going on" in [[Modern Go Development|Go]] from the pers
 
 Coming from Python, here's what changes — not syntax, but the **shape of the world**:
 
-| What you knew (Python) | What it becomes (Go) |
-|---|---|
-| Code is read by an interpreter at runtime | Code is compiled to a native binary before it runs |
-| Types are discovered as values flow through | Types are declared/inferred at compile time and never change |
-| Exceptions bubble up through `try/except` | Errors are ordinary return values you check explicitly |
+| What you knew (Python)                       | What it becomes (Go)                                              |
+| -------------------------------------------- | ----------------------------------------------------------------- |
+| Code is read by an interpreter at runtime    | Code is compiled to a native binary before it runs                |
+| Types are discovered as values flow through  | Types are declared/inferred at compile time and never change      |
+| Exceptions bubble up through `try/except`    | Errors are ordinary return values you check explicitly            |
 | `class` with inheritance, `self`, `__init__` | `struct` + methods + composition. **No classes. No inheritance.** |
-| `None` is the universal "nothing" | Every type has a **zero value**; only some types can be `nil` |
-| `asyncio` event loop, `await` everywhere | Goroutines + channels; "blocking" code is normal |
-| Dynamic, batteries-included | Static, batteries-included, **and aggressively boring** |
+| `None` is the universal "nothing"            | Every type has a **zero value**; only some types can be `nil`     |
+| `asyncio` event loop, `await` everywhere     | Goroutines + channels; "blocking" code is normal                  |
+| Dynamic, batteries-included                  | Static, batteries-included, **and aggressively boring**           |
 
 **The single most important shift:** Go was designed to be read, not written. It optimizes for ten engineers maintaining the same codebase for ten years, not for the person typing today. That's why it's verbose in places Python is terse, why `gofmt` is non-negotiable, and why "clever" is a slur in Go review culture.
 
