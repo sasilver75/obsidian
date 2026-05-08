@@ -296,36 +296,12 @@
             }
           },
           {
-            "id": "456129c80799d40c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Capacity Factor.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Capacity Factor"
-            }
-          },
-          {
             "id": "51b2720c2a54b1a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capacity Factor (Energy).md",
+                "file": "Tri-Structural Isotropic Fuel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +316,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Capacity Factor (Energy)"
+              "title": "Tri-Structural Isotropic Fuel"
+            }
+          },
+          {
+            "id": "68b4e3dd2e8b86a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Very High Resolution.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Very High Resolution"
+            }
+          },
+          {
+            "id": "98c97a56c03f205c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tri-Structural Isotropic Fuel.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tri-Structural Isotropic Fuel"
             }
           },
           {
@@ -2551,18 +2575,26 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "51b2720c2a54b1a5",
+  "active": "68b4e3dd2e8b86a1",
   "lastOpenFiles": [
+    "United States Geological Survey.md",
+    "High-Assay Low-Enriched Uranium.md",
+    "Tri-Structural Isotropic Fuel.md",
     "Capacity Factor (Energy).md",
+    "Light Water Reactor.md",
+    "Heavy Water Reactor.md",
     "Capacity Factor.md",
+    "Boiling Water Reactor.md",
+    "_attachments/Pasted image 20260507181143.png",
+    "_attachments/Pasted image 20260507181133.png",
+    "_attachments/Pasted image 20260507181125.png",
+    "_attachments/Pasted image 20260507180944.png",
     "Apple Push Notification service.md",
     "Go.md",
     "Small Modular Reactor.md",
     "Helium-Cooled High-Termperature Gas Reactor.md",
-    "Boiling Water Reactor.md",
     "Sodium-Cooled Fast Reactor.md",
     "Moderator.md",
-    "Light Water Reactor.md",
     "Pressurized Water Reactor.md",
     "Zstandard.md",
     "TiTiler.md",
@@ -2575,21 +2607,13 @@
     "Xcode.md",
     "Swift Package Manager.md",
     "Modern Go Development.md",
-    "OpenTelemetry Protocol.md",
-    "Physical Replication.md",
-    "Connect.md",
-    "Row-Level Security.md",
     "_attachments/Pasted image 20260503202326.png",
     "_attachments/Pasted image 20260503201953.png",
     "_attachments/Pasted image 20260503201912.png",
     "_attachments/Pasted image 20260502182432.png",
     "_attachments/Pasted image 20260502164011.png",
     "_attachments/Pasted image 20260501155757.png",
-    "_attachments/Pasted image 20260501151742.png",
-    "_attachments/Pasted image 20260501143823.png",
     "HTTP",
-    "_attachments/Pasted image 20260501113601.png",
-    "_attachments/Pasted image 20260430103353.png",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
     "recent-notes.txt",
