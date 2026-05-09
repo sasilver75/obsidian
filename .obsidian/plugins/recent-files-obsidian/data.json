@@ -1,56 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Very High Resolution",
-      "path": "Very High Resolution.md"
+      "basename": "Smack Technologies",
+      "path": "Smack Technologies.md"
     },
     {
-      "basename": "United States Geological Survey",
-      "path": "United States Geological Survey.md"
+      "basename": "Kill Chain",
+      "path": "Kill Chain.md"
     },
     {
-      "basename": "High-Assay Low-Enriched Uranium",
-      "path": "High-Assay Low-Enriched Uranium.md"
+      "basename": "F2T2EA",
+      "path": "F2T2EA.md"
     },
     {
-      "basename": "Tri-Structural Isotropic Fuel",
-      "path": "Tri-Structural Isotropic Fuel.md"
+      "basename": "Modern Backend Development",
+      "path": "Modern Backend Development.md"
     },
     {
-      "basename": "Capacity Factor (Energy)",
-      "path": "Capacity Factor (Energy).md"
+      "basename": "Product Requirements Document",
+      "path": "Product Requirements Document.md"
     },
     {
-      "basename": "Light Water Reactor",
-      "path": "Light Water Reactor.md"
+      "basename": "Specification",
+      "path": "Specification.md"
     },
     {
-      "basename": "Heavy Water Reactor",
-      "path": "Heavy Water Reactor.md"
+      "basename": "Agent",
+      "path": "Agent.md"
     },
     {
-      "basename": "Capacity Factor",
-      "path": "Capacity Factor.md"
+      "basename": "npx",
+      "path": "npx.md"
+    },
+    {
+      "basename": "Modern iOS Development",
+      "path": "Modern iOS Development.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
+      "basename": "Claude Code Agent Teams",
+      "path": "Claude Code Agent Teams.md"
+    },
+    {
+      "basename": "DINOv2",
+      "path": "DINOv2.md"
+    },
+    {
+      "basename": "Modern Go Development",
+      "path": "Modern Go Development.md"
+    },
+    {
+      "basename": "Optical",
+      "path": "Optical.md"
     },
     {
       "basename": "Boiling Water Reactor",
       "path": "Boiling Water Reactor.md"
     },
     {
-      "basename": "Apple Push Notification service",
-      "path": "Apple Push Notification service.md"
+      "basename": "Tri-Structural Isotropic Fuel",
+      "path": "Tri-Structural Isotropic Fuel.md"
     },
     {
-      "basename": "Go",
-      "path": "Go.md"
+      "basename": "Concept of Operations",
+      "path": "Concept of Operations.md"
     },
     {
-      "basename": "Small Modular Reactor",
-      "path": "Small Modular Reactor.md"
-    },
-    {
-      "basename": "Helium-Cooled High-Termperature Gas Reactor",
-      "path": "Helium-Cooled High-Termperature Gas Reactor.md"
+      "basename": "Synchronization Matrix",
+      "path": "Synchronization Matrix.md"
     },
     {
       "basename": "Sodium-Cooled Fast Reactor",
@@ -61,52 +81,12 @@
       "path": "Moderator.md"
     },
     {
-      "basename": "Pressurized Water Reactor",
-      "path": "Pressurized Water Reactor.md"
-    },
-    {
-      "basename": "Zstandard",
-      "path": "Zstandard.md"
-    },
-    {
-      "basename": "TiTiler",
-      "path": "TiTiler.md"
-    },
-    {
-      "basename": "SPlat Zip",
-      "path": "SPlat Zip.md"
-    },
-    {
-      "basename": "Polygon File Format",
-      "path": "Polygon File Format.md"
-    },
-    {
-      "basename": "Moravec's Paradox",
-      "path": "Moravec's Paradox.md"
+      "basename": "Light Water Reactor",
+      "path": "Light Water Reactor.md"
     },
     {
       "basename": "3D Gaussian Splatting",
       "path": "3D Gaussian Splatting.md"
-    },
-    {
-      "basename": "Optical",
-      "path": "Optical.md"
-    },
-    {
-      "basename": "Tippecanoe",
-      "path": "Tippecanoe.md"
-    },
-    {
-      "basename": "Xcode",
-      "path": "Xcode.md"
-    },
-    {
-      "basename": "Swift Package Manager",
-      "path": "Swift Package Manager.md"
-    },
-    {
-      "basename": "Modern Go Development",
-      "path": "Modern Go Development.md"
     },
     {
       "basename": "OpenTelemetry Protocol",
@@ -115,58 +95,6 @@
     {
       "basename": "Physical Replication",
       "path": "Physical Replication.md"
-    },
-    {
-      "basename": "Connect",
-      "path": "Connect.md"
-    },
-    {
-      "basename": "Row-Level Security",
-      "path": "Row-Level Security.md"
-    },
-    {
-      "basename": "RF-DETR",
-      "path": "RF-DETR.md"
-    },
-    {
-      "basename": "DINOv2",
-      "path": "DINOv2.md"
-    },
-    {
-      "basename": "MMVP",
-      "path": "MMVP.md"
-    },
-    {
-      "basename": "SDIAH Intro",
-      "path": "Courses/SystemDesign/SDIAH Intro.md"
-    },
-    {
-      "basename": "SDIAH Framework",
-      "path": "Courses/SystemDesign/SDIAH Framework.md"
-    },
-    {
-      "basename": "Agent2Agent",
-      "path": "Agent2Agent.md"
-    },
-    {
-      "basename": "JSON-RPC",
-      "path": "JSON-RPC.md"
-    },
-    {
-      "basename": "Claude Code Agent Teams",
-      "path": "Claude Code Agent Teams.md"
-    },
-    {
-      "basename": "Bayesian Smoothing",
-      "path": "Bayesian Smoothing.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "Supabase",
-      "path": "Supabase.md"
     },
     {
       "basename": "JSON Web Key Set",
@@ -181,24 +109,96 @@
       "path": "Key Exchange.md"
     },
     {
-      "basename": "Proof Key for Code Exchange",
-      "path": "Proof Key for Code Exchange.md"
-    },
-    {
       "basename": "Backend-as-a-Service",
       "path": "Backend-as-a-Service.md"
     },
     {
-      "basename": "Geocode",
-      "path": "Geocode.md"
-    },
-    {
-      "basename": "Modern iOS Development",
-      "path": "Modern iOS Development.md"
+      "basename": "Apple Push Notification service",
+      "path": "Apple Push Notification service.md"
     },
     {
       "basename": "Signing",
       "path": "Signing.md"
+    },
+    {
+      "basename": "Reverse DNS",
+      "path": "Reverse DNS.md"
+    },
+    {
+      "basename": "ReAct (Agent)",
+      "path": "ReAct (Agent).md"
+    },
+    {
+      "basename": "React",
+      "path": "React.md"
+    },
+    {
+      "basename": "Architectural Decision Record",
+      "path": "Architectural Decision Record.md"
+    },
+    {
+      "basename": "pgvector",
+      "path": "pgvector.md"
+    },
+    {
+      "basename": "Dot Product",
+      "path": "Dot Product.md"
+    },
+    {
+      "basename": "Offline Reinforcement Learning",
+      "path": "Offline Reinforcement Learning.md"
+    },
+    {
+      "basename": "Online Reinforcement Learning",
+      "path": "Online Reinforcement Learning.md"
+    },
+    {
+      "basename": "Faiss - The Missing Manual (?) {James Briggs, Pinecone}",
+      "path": "Articles/Faiss - The Missing Manual (?) {James Briggs, Pinecone}.md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "Very High Resolution",
+      "path": "Very High Resolution.md"
+    },
+    {
+      "basename": "United States Geological Survey",
+      "path": "United States Geological Survey.md"
+    },
+    {
+      "basename": "High-Assay Low-Enriched Uranium",
+      "path": "High-Assay Low-Enriched Uranium.md"
+    },
+    {
+      "basename": "Capacity Factor (Energy)",
+      "path": "Capacity Factor (Energy).md"
+    },
+    {
+      "basename": "Heavy Water Reactor",
+      "path": "Heavy Water Reactor.md"
+    },
+    {
+      "basename": "Capacity Factor",
+      "path": "Capacity Factor.md"
+    },
+    {
+      "basename": "Go",
+      "path": "Go.md"
+    },
+    {
+      "basename": "Small Modular Reactor",
+      "path": "Small Modular Reactor.md"
+    },
+    {
+      "basename": "Helium-Cooled High-Termperature Gas Reactor",
+      "path": "Helium-Cooled High-Termperature Gas Reactor.md"
+    },
+    {
+      "basename": "Pressurized Water Reactor",
+      "path": "Pressurized Water Reactor.md"
     }
   ],
   "omittedPaths": [],

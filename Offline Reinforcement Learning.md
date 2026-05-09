@@ -1,0 +1,3 @@
+Online Reinforcement Learning (RL) involves an agent actively interacting with an environment to learn, offering superior performance through exploration and adaptation. 
+
+Conversely, Offline RL learns solely from pre-recorded datasets without environment interaction, making it better suited for safety-critical applications or when data collection is expensive, though it often suffers from poorer performance compared to online approaches
