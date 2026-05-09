@@ -6,6 +6,7 @@ Models:
 - Diet Cage 1.0
 	- Smack's proprietary lightweight model that enables split-second, campaign-informed decisions.
 
+> In its simplest form, Smack compresses the time it takes military commanders to make informed, intelligent, actionable decisions from months to minutes. It then enables warfighters and autonomous systems on the front lines to act on those decisions in a coordinated manner in real time, with or without comms access. 
 
 Founders:
 - ==Andy Markoff==: CEO and Co-Founder, ex Marine Raider 
@@ -19,7 +20,7 @@ Founders:
 		- Replacement for Dan, who didn't want to grind. She isn't down in the dirt enough. 
 			- > She's a total fraud.
 ![[Pasted image 20260508162103.png|600]]
-Above: Client (left, COO) and Andy (right, CEO)
+Above: Client (left, COO) and Andy (right, CEO)... Dan Gould (fair right) RIP
 
 
 Other important people:
@@ -596,16 +597,38 @@ Article: [Intelligent Autonomy is the Key to Decision Dominance and Winning the 
 3. Maximizing Autonomous System Effectiveness and Efficiency: Today's autonomous systems succeed in reducing risk to humans, but they don't yet meaningfully reduce the burden on them. That's because operators still have to task, coordinate, and adapt these systems in employment, often one platform at a time.
 
 Delivering RL to power intelligent autonomy
-- LLMS and VLMs are good at pattern recognition, classification, and prediction, and they are useful in many settings, but peer conflict poses a different kind of problem. It requires planning across multiple time horizons, optimizing under constraints, and reasoning through how actions unfold in physical space over time.
+- LLMS and VLMs are good at pattern recognition, classification, and prediction, and they are useful in many settings, but peer conflict poses a different kind of problem. It requires planning across multiple time horizons, optimizing under constraints, and reasoning through how actions unfold in physical space over time. And there is no dataset for modern peer-level conflict at the scale we would encounter in the Pacific Theater.
+
+Building such environments is hard. The physics have to be accurate. The decision space has to match real operational choices across functions and echelons. And human domain expertise has to be built into the system to cover what physics alone cannot capture, constrain the problem appropriately, and keep the outputs grounded in operational reality.
+
+The training environment is the data, and the quality of that environment comes from the depth of human knowledge encoded into it.
+
+The key to Decision Dominance is intelligent autonomy, which enables three things: humans to focus only on the decisions that matter, edge units to operate in a manner that’s locally independent but coordinated towards campaign objectives, and autonomous systems to act efficiently and effectively together. 
 
 
 Article: [Smack Technologies: What is it, What does it Do, and How does it work?](https://smacktechnologies.com/journal/what-is-smack-technologies) (April 27, 2026)
-- 
+- The first Frontier AI Lab built for national security.
+- It’s ==headquartered in Texas==, with offices in Washington, D.C. and El Segundo, California. 
+	- ((How much of the headcount is in El Segundo?))
 
 
+  
+At the top, a flexible human-machine interface leverages commercially available LLMs (model-agnostic) to power user-defined agentic workflows.
+- ((HOW IS IT MODEL AGNOSTIC! YOU'RE LITERALLY TALKING ABOUT DOING RL TRAINING))
 
+This interface is grounded in a proprietary Smack knowledge graph that structures real-world entities, relationships, and context.
 
+From there, the system calls Smack’s decision models to generate and evaluate courses of action. These models are trained within a proprietary environment, designed to reflect the physics, constraints, and human domain expertise of war.
 
+ecause there is no usable training dataset for WWIII, Smack’s environment is the training data, generating millions of synthetic engagements to teach our deep RL models how to master multi-agent behavior across space and time. Real-world data, while ideal, is both too sparse and too difficult to measure across interacting entities to train these models on its own. In its absence, Smack builds high-fidelity, expert-defined trajectories informed by human domain experts, then uses real-world data to refine and improve the synthetic manifold when it becomes available. 
+- ((What sort of experts can you use to build a theater-level environment with realistic trajectorires? You have to understand how subs are going to react, various ships, airfcraft, mortar crew, etc.))
+
+Smack’s models are built on a proprietary architecture that combines graph networks, diffusion models, and transformers for tactical inference.
+- We pair them with customer-specific applications (Fires, Logistics, etc.) in our Omega product suite to rapidly analyze multimodal data streams, reason over that analysis, and optimize decisions for commanders.
+((Non-transformer Diffusion models? Like Unets? Just use diffusion transformers (DiTs)))
+
+To close the loop, we then leverage our Alpha product suite to combine Smack’s lightweight models with proprietary hardware in order to fuse local sensor data with campaign-level context. This both enables warfighters at the edge to make command-informed decisions in degraded comms environments, as well as allowing for orchestration of intelligent autonomous systems.
+- ((Do you actually have proprietary hardware? I imagine no!))
 
 
 
