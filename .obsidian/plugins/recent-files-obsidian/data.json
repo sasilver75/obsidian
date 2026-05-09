@@ -5,6 +5,34 @@
       "path": "Smack Technologies.md"
     },
     {
+      "basename": "Command and Control",
+      "path": "Command and Control.md"
+    },
+    {
+      "basename": "Small Language Model",
+      "path": "Small Language Model.md"
+    },
+    {
+      "basename": "Selective Language Modeling",
+      "path": "Selective Language Modeling.md"
+    },
+    {
+      "basename": "Multi-Agent Proximal Policy Optimization",
+      "path": "Multi-Agent Proximal Policy Optimization.md"
+    },
+    {
+      "basename": "Multi-Agent Deep Deterministic Policy Gradient",
+      "path": "Multi-Agent Deep Deterministic Policy Gradient.md"
+    },
+    {
+      "basename": "Marine Corps Warfighting Laboratory",
+      "path": "Marine Corps Warfighting Laboratory.md"
+    },
+    {
+      "basename": "Joint Fires Network",
+      "path": "Joint Fires Network.md"
+    },
+    {
       "basename": "Kill Chain",
       "path": "Kill Chain.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "High-Assay Low-Enriched Uranium",
       "path": "High-Assay Low-Enriched Uranium.md"
-    },
-    {
-      "basename": "Capacity Factor (Energy)",
-      "path": "Capacity Factor (Energy).md"
-    },
-    {
-      "basename": "Heavy Water Reactor",
-      "path": "Heavy Water Reactor.md"
-    },
-    {
-      "basename": "Capacity Factor",
-      "path": "Capacity Factor.md"
-    },
-    {
-      "basename": "Go",
-      "path": "Go.md"
-    },
-    {
-      "basename": "Small Modular Reactor",
-      "path": "Small Modular Reactor.md"
-    },
-    {
-      "basename": "Helium-Cooled High-Termperature Gas Reactor",
-      "path": "Helium-Cooled High-Termperature Gas Reactor.md"
-    },
-    {
-      "basename": "Pressurized Water Reactor",
-      "path": "Pressurized Water Reactor.md"
     }
   ],
   "omittedPaths": [],

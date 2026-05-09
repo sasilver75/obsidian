@@ -7,23 +7,17 @@ Models:
 	- Smack's proprietary lightweight model that enables split-second, campaign-informed decisions.
 
 
-_______
-
-I was doing my PhD, very sadly, his roommate killed himself
-He went dark, decided to come back to life, one day got acold linkedi nfrom a startup, 
-
-_______
-
-
-
 Founders:
 - ==Andy Markoff==: CEO and Co-Founder, ex Marine Raider 
 	- A former Special Operations Officer in the 2nd Marine Raider Batallion. Before founding Smack, he was involved in operations and strategy at Palantir.
 	- Was originally infantry officer, taught at Marine Core's TOPGUN, took selection for MARSOC, became marine raider officer in 2nd Marine Raider Batt., deployments to Iraq and Afghanistan, out at 2016, working at Palantir...Starts a sports performance company with his wife.
 - ==Clint Alanis==: COO and Co-Founder, ex Marine Raider
 	- Retired Marine Corps Special Operations Officer with experience as a diplomat to Nordic nations and a commander in the indo-pacific region.
-- ==Dan Gould==: CTO, Head of Strategy and Co-Founder
+- ~~==Dan Gould==: CTO, Head of Strategy and Co-Founder~~
 	- Research background from Brown University, previously VP of technology at Tinder.
+	- [ ] Replacement: ==Paranaeha Maran==, Quantum Physics Professor from UCLA
+		- Replacement for Dan, who didn't want to grind. She isn't down in the dirt enough. 
+			- > She's a total fraud.
 ![[Pasted image 20260508162103.png|600]]
 Above: Client (left, COO) and Andy (right, CEO)
 
@@ -31,10 +25,13 @@ Above: Client (left, COO) and Andy (right, CEO)
 Other important people:
 - R Phillip Castagna (Head of Engineering): [LINK](https://www.linkedin.com/in/rpc3/)
 	- Formerly SWE @ FB, Head of engineering at Condor Softawre + Ideaflow
+	- Him, RPC, Tom, John... 4-5 of us are the heads of the tech side. RPC frankly is a decent boss... he kind of caters to his team, but I wouldn't look to him for a leadership guidance, but he will advocate. As a peer, hard to work.
 - Tom Plunket (Distinguished Engineer): [LINK](https://www.linkedin.com/in/tomplunket/)
 	- Formerly Tech Lead on the Maps product @ Anduril
+	- Gerat dude, we love tom.
 - John Coogan (Machine Learning Engineer): [LINK](https://www.linkedin.com/in/john-coogan-5b3386270/)
 	- Former Marine Corps Fire Support Officer/JTAC, Recent grad from MS Duke Data Science
+	- Has a good demeanor about him... Eli is currently frustrated because Eli is not a politician, and generally tries to stay out of politics... John isn't a politician either.  He's politicking a bit these days, and not paritcularly sciency despite trying to stake a lot of ground. Not in a good way with Eli rn, but in the long run, good.
 - Andrea Ezeobiejesi (Staff SWE): [LINK](https://www.linkedin.com/in/andrea-ezeobiejesi/)
 	- Formerly at Intuit, Northrop Grumman, and conducted NLP research at Johns Hopkins. 
 		- BS Loyola University Maryland, 2019
@@ -63,6 +60,11 @@ Other important people:
 	- Former Raider (Critical Skills Operator (CSO), not Special Operations Officer (SOO)) till 2021
 
 
+Hiring like crazy, just got a couple of hires.... surely the names won't mean anything. Frank Barret and John Falcone, CJ Scrapper, who was like a demigod in the NAVWAR organization, and strangely, a few months ago... JSN ...
+
+
+
+
 __________________
 
 
@@ -86,6 +88,32 @@ __________________
 - Are CAGE and Diet-Cage just like PEFT on open-source models, and then distillation of it?
 - Ignoring me for a second, what sort of talent do you need (on the )
 - What are the biggest frictions/bottlenecks to growth right now?
+
+q: Describe product?
+a: Right in that moment... where we're transitioning from scrapping to build the products needed to actually meet the requirements of each... contract that we have. Each contract... wasn't about money, it was about noteriety, momentum, etc.  If we lock down B soon, then no holds are barred. In terms of building what we perceive to be the long-term vision product. 
+A: We've delivered concepts to some of our clients
+A: We went out to Balacatan military exercise in Hawaii... He made a thing.
+A: It's in front of people, have them use it, etc. 
+Organization: MQWL: Marine Core Warfare Lab. Transitioned to the way we're framing our PtoC (Planning to ConOps) CtoE (...to Execution), and E...  (Execution)
+	John has lead on P to C
+	He's lead of C to E
+	E he has facsimile of... The idea is to have one monolithic product... That's sort of where we're heading, and the execution thing... our biggest contract to date is a $5m deal, a three-headed race between us, ScaleAI, and AppliedIntuition... it's sort of a race, but a couple things to note... as we become less contract-driven, I'm not sure how focused on converting that contract we are. Leadership wuld take asignificant chunk of progress there against he vision product. "Win the production contract" for sales... 
+- Secwar delivers an OPlan, which is al thin broken down into different warfighting functions
+	- Fires is the term for the thing, shooting thing. There's also other ones that are as lucrative, but perhaps not as high-focus, like logistics, maneuvers, and all sorts of stuff.
+
+
+Plannign is a harness where you dump a bunch of documents
+Through a well-grounded set of agentic calls, extract a target list from the documents.
+Then they pass it to Eli, and say "Here's the targeting list, please go ahead and make a execution plan"
+Almost more important than the fires themselves is ISR..  Effectors... Kinetic effectors have... or imply tragting requirements about how well you must know where the target is. 
+Nowadays everything is BVR (Beyond Visual Range), so you have to have a target locations that's sufficiently precise such that the effector you... most have some osrto terminal guidance where if you get them close, you have to have an
+
+One thing we have in spades is genuine experience. Andy was about as high as you can get in MARSOC without being behind a desk all that time. Clint was basically a year or two away from being a 2 star general. Our entire growth team are special operators who went into industry... So we don't lack for understanding,.. we do lack for technical understanding. 
+
+He's working on a pipeline for knowledge capture and dissemination... The more readily we can capture expert knowledge, the more readily we can... 
+
+This guy Leo... he casts a wide area... .a wide do not enter area.. and frankly, it has a deeply negative impact on Eli in particular. He does everything he can to denigrate Eli... "I'm not trying to take you down Leo, let me help you."
+- I checked in with an idea that turned out to be topical with their workflow... and what you guys are doing are juveline and https://arxiv.org/abs/2108.12370 
 
 
 
@@ -367,14 +395,220 @@ A: The model we're building... they're not JUST reinforcement learning... we do 
 
 Q: There's also so much sensor data we throw away because we can't process it fast enough to turn it into operational data. You have a predator above you in Mosul, but they have to fly the hard drive back Langley, so you only get the data in 72 hours, and only part of it.
 Q: Okay, so speed on data, trusting data... when you talk to the end user, do they have an idea, or are they asking industry for advice? Let's go back to "are we doing it real-time or offline?"
-A: In our mind... one of the things that's helped us to iterate quickly is very "==pop the hood up, show them what we're doing, and see what they think.==" We model platform capabilities... ways to compute how effective platform X is in Y scenario... And sure a Deep RL model is a little bit of black box trained on synthetic data... I can show you the deterministic models use to train it... We're all goin to get in a room, you show us what we're doing, etc.  I've 
+A: In our mind... one of the things that's helped us to iterate quickly is very "==pop the hood up, show them what we're doing, and see what they think.==" We model platform capabilities... ways to compute how effective platform X is in Y scenario... And sure a Deep RL model is a little bit of black box trained on synthetic data... I can show you the deterministic models use to train it... We're all goin to get in a room, you show us what we're doing, etc. 
 
- 
 Q: Build the trust on the process standpoint so that they can be comfortable with the outputs we give?
 A: Yeah.
 Q: Sometimes you have to know someone to get into the DoD. They're trying to change that, but for now, you have a strong inherent advantage. People want to build defense companies now because it's cool and we see it on X, but... you used a phrase:
 A: We're not defense tech tourists.
 A: The hard thing of building for this 
+
+How do you find the power users? We want to vet the best fire systems person in INDOPACOM, find and talk to that person. Or someone that got out two years ago and was the person who was the smartest on this thing, and talk to them, and pull that knowledge out of their head.
+
+Q: How is it going against much bigger companies?
+A: In some ways I've come full-circle where "I need to hide from everyone, not tell them what I'm thinking!"... It's stupid, though, and we work with all of them. And now they see some of the upstarts and quickly get sharp elbows... At the end of the day, Andy sees everyone as frenemies. 
+
+Q: Do you have any strategics on our cap table? 
+A: No.... could see doing it. I've generally avoided it out of fear of showing them everything we're doing... But wheat we're doing is so painful and different than what a lot of these other companies are doing, that I just don't believe that they would want to build it. There's going to be so much space for software that works, too. The market.... has created a story... that Palantir is just going to be "AI for defense", and Lattice will be "the C&C system for defense," but when you talk to users... what the end user decides is completely up to the end users! When you hear who wins a contract, it's like "I've never heard of them."
+
+
+Q: What's it been like, raising money in this environment?
+A: Before I started the company, I've never raised money, didn't know anything about venture, wandering around in the dark, getting shot in the face. We raised a seed pre-product with an idea on a napkin, and luckily have had investors that understood the problem and can take the fact that he speaks in animal noises and can translate it for me. It's a totally different game. Everyone wants to hear how you're not going to go heads-to-head with the large incumbents, and if you run from that, then everyone gets worried that you're too niche and the TAM isn't big enough.
+
+
+Q: Are you guys doing defense only? Or dual?
+A: At the end of the day, I'll never rule out dual-use, some of this goes to personal mission/capability. For Clint and Andy... they know what they are, they're marines and see themselves as warriors. They are uniquely positioned to go hard on defense... our unique advantage is in domain expertise, and our general perspective has been "Do what you're really good at," and that's what we're really good at. He worries about being spread too thin into an area where they aren't as uniquely advantaged as they are in this domain.
+
+Q: If you know at the end of the day that DoD/DoW is paying the bills, it takes some conviction to roger up and do what I've said since day one. As far as being able to focus... and tell your investor... "I hear you, I'm not ruling it out, but these guys are going to pay the bills."
+A: We've been really fortunate and we've had really good investors... In many ways it's been reassurance and coaching from our investors. Do what you're god at, do this... I think that the investors that we didn't get on the cap table that we were chasing were pushing on the commercial play "TAM isn't big enough, etc." We're fortunate we ended up with the ones we did. The good thing is that if we can get a DoW contract and you get really sticky as an SME... when Claude/Anthropic/ChatGPT destroy the software jobs, you'll still have something to hang your hat on.
+
+Q: Dario talking on ... Davos. All engineer gone in 12 months. What future trends in software are going to be important for defense.
+A: I think if the last couple years... if we talk bout AI and AI trends... the performance of LLMs...the next revolution is the operationalization of reinforcement learning, using modern RL architectures... "that leverage the learnings of the transformer system." Fundamentally LLMs... ==I sometimes sound like I know what I'm talking about, but I have no idea what any of this means, I just repeat what my engineers say and learn to put it together.==
+- LLMs are terrible at long-term goal planning, not good at near-term goal planning, not good at optimization
+- A whole category of problems that that technology has failed miserably at. 
+- RL is the right technology, what wasn't it used?
+	- Training environment
+	- Need to model the physics of the problem
+	- Need to model the decisions that could be made
+	- Need to get good human prior experience, otherwise you need to model the physics s.t. it's computationally intractable.
+- RL gyms are the hotness. People building them for financial modeling in the commercial space... I look at what we're doing as taking an infinitely more complicated problem and doing that in support of the DoW. The new training data isn't labeled training data, it's RL gyms and synthetic environment, scenarios they produce is the next thing.
+
+Q: Are you getting any indication that our adversaries are thinking about things in a similar way?
+A: I can at least say that they follow very similarly to what companies are doing in the united states.
+
+Q: Chinese Telegram in the last few days has talked about how... basically everything the CN government has said... is going to be human out of the loop in the field. We have to start pushing boundaries, etc. to make decisions without us there... what's your hot take?
+A: Andy's take is that we'll play by different sets of rules for ethical reasons that make us different. There is a huge risk that by keeping a human in the loop, you'll be too slow. I don't think it's black and white...There is a subset of the range of scenarios where it's fine to not have a human in the loop. To me, this raises the bar of... our accuracy and precision has to just be that much better that we can afford to. 
+
+Q: If you look at Ukraine...We just had a Tier 1 guy who helped build a ton of drone stuff out there. His comment was: The reason you see all these deep strikes hitting oil fields and refining facilities and military targets... that's a a Ukranian decision to not go after the Russian population, and it's not the same at the other side. Maximum death to basically driving the population into surrendering. People in Europe were double-checking: "We know we need AI, but we could be facing someone who has no qualms of turning the guardrails off, and just letting things cook. Should we build an inherent killswitch where we can turn our guardrails off and go full robot war."
+A: "The level of autonomy should be a dial that commanders/policy makers have the ability to dial." Should that dial be "no human in the loop" for a large range of scenarios? There's the kinetic aspects of war, but also global sentiment. If you're going fully autonomous in a way that's incredibly unethical, you may win battles or campaigns, but you don't necessarily win the war.
+
+
+Q: How do you learn new information?
+A: I find I have to do a real deep dive where I neglect...I'm an integrator so I need to be a generalist... the general way I do this... for RL, I don't know anything about it, so I'll go bother our head of RL, and say "Here's the books you should read, here's the courses you should take, etc." And then I neglect my other duties to deep-dive if I become an expert. I understand the framework... and then think: "Okay, is it worth investing going deeper?" I read, I take online courses (MIT OCW, Coursera have been a go-to for me for a wide range of things, from financial modeling to RL)... I usually ask people on our team.
+
+
+___________________
+
+# Blog Posts
+
+
+Article: [Human-Machine Integration: Enhancing Decision Superiority in Joint Operations](https://smacktechnologies.com/journal/human-machine-integration-enhancing-decision-superiority-in-joint-operations) (June 23, 2025)
+- HMI (Human Machine Integration) should reduce the cognitive burden on operators by presenting complex data in actionable, digestible formats.
+- Should enhance human decision-making capabilities and focus on adaptability... enabling seamless transition between autonomy levels based on operational requirements.
+- AI-driven HMI learns and adapts. Well-designed platforms integrate user feedback and mission data, refining their algorithms and improving responsiveness over time.
+
+
+Article: [What is Decision Dominance, and why is it necessary in the Age of AI](https://smacktechnologies.com/journal/what-is-decision-dominance-and-why-is-it-necessary-in-the-age-of-ai) (July 14, 2025)
+- Decision Dominance is the ability to analyze and contextualize vast streams of structured and unstructured data, including sensor data, to make the right decisions across the [[Kill Chain]] faster, more accurately, and more effectively than our adversaries.
+- Doing so successfully allows us US forces to gain, maintain, and exploit the operational initiative.
+- ==Decision Dominance requires==:
+	1. Understanding commander's ==intent== and campaign ==context==
+	2. ==Fusing sensor data== directly into actionable COAs (==Courses of Action==)
+	3. ==Filtering signals from noise==, including malicious information.
+	4. ==Factoring in risks and variables== (weather, telemetry, unknown targets, etc.)
+	5. ==Coordinating across echelons, domains, and forces==, including partners and allies.
+	6. ==Processing feedback== and providing battle damage assessments.
+	7. ==Updating plans in real-time==.
+And much more, all of this must be accomplished without overwhelming the cognitive capacities of human decision makers.
+
+Why is it so important?
+- China today is already outproducing the US with traditional and exquisite weapon systems, and are rapidly moving into emerging spaces such as autonomous systems (drones). 
+- Any Pacific conflict in the next 5 years will see the US overstretched and pitted against a military peer, where we will be challenged by munitions sufficiency and the tyranny of distance.
+
+How to achieve Decision Dominance?
+- AI orchestration platform that teaches thousands of reinforced agents how to learn and reason in a coordinated way, even without a constant communications connection.
+- Smack rapidly fuses and analyzes multimodal sensor data, enabling commanders to generate pulse cycles in under 5 minutes ,and updates in under 5 seconds.
+- =="Our breakthrough technology is an agent-based learning and reasoning core that leverages SoTA, multi-agent deep deterministic policy gradients built specifically for modern warfare."== 
+- We then break this into two core products:
+	- ==Omega==: Command-level stack powered by proprietary deep-RL models.
+	- ==Alpha==: The edge stack for front line units and platforms, using lightweight agents trained by our deep-RL models to execute coordinated decision making and enable feedback at the edge, even in degraded comms environments.
+
+Smack has already been awarded contracts with the [[Joint Fires Network]] and the US [[Marine Corps Warfighting Laboratory]] to develop Omega prototypes that are scheduled to go into production in the fall of 2025.
+
+
+Article: [Smack wins JFN, MCWL contracts to help bring Decision Dominance to the DoD](https://smacktechnologies.com/journal/smack-wins-jfn-mcwl-contracts-to-help-bring-decision-dominance-to-the-dod) (July 22, 2025)
+- Smack wins [[Joint Fires Network|JFN]] and [[Marine Corps Warfighting Laboratory|MCWL]] contracts to help bring decision dominance to the DoD.
+- The contracts total over seven figures and mark a milestone in bringing Decision Dominance to the DoD.
+- Omega uses advanced RL models and real-time computer vision to process multimodal data streams, rapidly generating COAs in minutes and plan repairs in seconds to restore lethality and continuity across the supply chain.
+- Smack is developing a ==Predictive ISR capability== based on Omega.
+- Smack's prototype system synchronizes sensor collection with long-range fires planning and battle damage assessment, using machine-to-machine orchestration and multi-INT data fusion ([[Remote Sensing|EO]], [[Synthetic Aperture Radar|SAR]], ELINT).
+- Our solution leverages Omega to support campaign-level decision-making through ==generative AI, 4D operational simulations, and proprietary models for weaponeering, aerial refueling, and SEAD==.
+	- ((This sounds extremely complicated; is it just a PRD doc or is it a product?))
+	- We aim to link tactical actions to strategic outcome and incorporate Allies and partners directly into Joint Fires planning.
+
+
+Article: [Achieving Decision Dominance via coalition partner integration with Smack](https://smacktechnologies.com/journal/achieving-decision-dominance-via-coalition-partner-integration-with-smack) (July 30, 2025)
+- In the Pacific theater, our allies will account for as much as 40% of necessary resources (bullets, gas, systems, etc.). In Europe, that number climbs as high as 60%.
+- Unfortunately, significant challenges currently stand between the US and successful coalition partner integrations. Among these:
+	1. The absence of machine-to-machine sharing, caused by a mix of policy restrictions and technology constraints.
+	2. The lack of a common confidence scoring system that would allow specific data and requests to be passed between partners, with an understanding of how COAs are built and weighted, while preserving the ability for both sides to set sharing parameters to filter sensitive information.
+- Today, coalition partner integrations relies almost entirely on air-gapped communications; Liasons must be either stationed directly in the room with partners to oversee what information can/cannot be shared, or sent episodically into allied/partner spaces with specific hand-written requests, often on sticky notes.
+- Smack solution:
+	- Omega is Smack's command-level stack powered by our proprietary deep-RL models.
+	- Alpha is the edge stack for front-line units and platforms, using lightweight agents trained by our deep-RL models to execute coordinated decision making and enable feedback at the edge, even in degraded comms environments.
+- ==Together, these two core Smack products serve as a machine-to-machine mesh enabling 2-way information exchange and decision making directly with our allies.== 
+	- ((This is handwaving a solution))
+	- Instead of relying on an intermediary system, ==Japanese Omega can communicate directly with US Omega.==
+- This 2-way data sharing is protected by ==Smack's proprietary confidence scoring system==, which allows US/Allies partners to share specific high-confidence data and requests with one another while being able to set sharing levels that filter sensitive information.
+	- ==Similar to a zero-knowledge proof in cryptography, this scoring system enables partners to know with high confidence that an action must be taken, and that it is the correct action to take, without needing to know why/how that decision was reached==.
+	- ((Okay, the reference to ZK proofs is a smell. Again, is this just totally a handwave, or is it an actual product?))
+
+
+Article: [Alpha and Omega: Smack's core product suite that's revolutionizing modern warfare](https://smacktechnologies.com/journal/alpha-and-omega-smack%E2%80%99s-core-product-suite-that-s-revolutionizing-modern-warfare) (August 21, 2025)
+- Omega follows a three-stage decision pipeline:
+	1. Turn broad mission intent into clear objectives
+	2. Build a detailed plan to execute against those objectives
+	3. Display that plan in machine-readable form.\
+
+First, Omega interprets mission intent using LLMs connected to Smack's ==proprietary military knowledge graphs== ((just some data in Neo4j?))
+
+Once objectives are clear, it synchronizes sensors using RL agents powered by SoTA multi-agent algorithms ([[Multi-Agent Deep Deterministic Policy Gradient|MADDPG]], [[Multi-Agent Proximal Policy Optimization|MAPPO]], DTT3, etc.) that excel at learning complex coordination policies and choreographies, teaching distributed systems how to work together, sequence actions optimally, and adapt their collective behavior in dynamic environments.
+- ((Is this DTT supposed to be Twin-Delayed Deep Deterministic Policy Gradients (TD3)))
+
+Omega then continues through fires and effects design, air superiority optimization, logistics handling, and virtual rehearsals via dual-tier simulation: a rapid LowFi simulation that can test over 10,000 COAs per minute to eliminate bad ideas quickly, and a physics-based HiFi Tacim that validates plans down to weapon trajectories and terrain effects.
+- ((Does this exist? Many of these seem themselves like enormous projects))
+
+The end result: Multi-day "pulse" planning in minutes, and plan repairs in seconds
+- ((Plan repairs itself seems like an incredibly difficult thing to do well.))
+
+For Alpha
+- Alpha deploys lightweight AI agents directly onto individual platforms and units, using [[Small Language Model|SLM]]s and [[Low-Rank Adaptation|LoRA]] adapters derived from Omega's deep-RL brain. 
+- Alpha is available when comms and compute are limited, which fundamentally increases lethality.
+- Enables localizing sensing and effecting in concert with end-user requirements, helping to realize the full potential of autonomus systems, and allows edge units to coordinate sensing and effecting with coalition partners.
+	- ((All of this talk of integration of sensors... that's a lot of work.))
+- Alpha uses episodic data synchronization through secure, low-bandwidth tactical waveforms to allow units to operate independently for extended periods and receive updates and send feedback when connectivity allows.
+	- ((Again, real?))
+- Built for Type 1 Encrypted Tactical Communications, Alpha enables even isolated units to make decisions informed by campaign-level equities.
+	- ((Real?))
+
+
+Article: [Beyond wargames: From simulation to synthetic warfare generation](https://smacktechnologies.com/journal/beyond-wargames-from-simulation-to-synthetic-warfare-generation) (September 23, 2025)
+- Historically, militaries have been trained to fight the last war, a pattern that leads to poor initial performance until hard-earned lessons drive adaptation.
+- ==A new paradigm is needed, one of rapidly generating and analyzing millions of scenarios, including those never encountered.== 
+	- Must integrate not only clearly-defined parameters like platforms, weapons, and sensors, but also ambiguous variables like temporal sequences, conditional dependencies, and operational constraints.
+
+
+Article: [Cognitive Offsetting: Decision Dominance and the Battle for Mental Bandwidth](https://smacktechnologies.com/journal/cognitive-offsetting-decision-dominance-and-the-battle-for-mental-bandwidth) (December 15, 2025)
+- RIMPAC 2024, the world's largest naval exercise, was a 200 surface ships, submarines, and aircraft, as well as 25,000 personnel from 29 countries, but was only able to explore a handful of scenarios at an estimated cost of $500M USD.
+- Wargaming simulations seek to reduce the need for such costly live events.
+
+Solution: Smack's Synthetic Warfare Generation
+- ==Omega uses tens of thousands of specialized agents to model the collective intelligence that emerges when war agents, sensors, and weapons interact across the battlespace.==
+	- ((Okay.. the fidelity of a simulator is very important if you want to do Sim2Real transfer of an agent, To say nothing of the "physics" of how a specific effector works, you have to accurately model the actions of REAL agents (eg a Himars battery team, some artillery officer, a destroyer, etc.) That's more easily said than done.))
+- The patterns we discover in these synthetic engagements transfer to operational reality because we're not learning specific sensor signatures, instead we're learning the mathematical structures of how warfare systems interact, deceive, and adapt.
+- With every synthetic engagement, we become "exponentially smarter" as we discover new patterns that improve our next generation's tactical creativity, which then becomes training data for even more complex scenarios.
+	- ((Exponentially smarter actually means something. You're probably becoming logarithmically smarter))
+
+For [[Joint Fires Network|JFN]], we're developing a ==Predictive ISR capability== built on Omega that synchronizes sensor collection with long-range fires planning and battle damage assessment, using machine-to-machine orchestration and multi-INT data fusion (EO, SAR, ELINT).
+- ((This is a garbage bag of terms. Nothing about fusing sensor data, planning fires, and doing BDA means "Predictive ISR" to me.))
+
+For [[Marine Corps Warfighting Laboratory|MCWL]], we're leveraging Omega to support campaign-level decision-making through generative AI, 4D operational simulations (fourth dim is time), and proprietary models for weaponeering, aerial refueling, and SEAD.
+- Each simulation captures not just outcomes, but the complete interaction dynamics between all systems, data that has never been available from real exercises or historical conflicts.
+	- ((Bullllshit))
+
+
+
+Article: [Smack Announces $32m in Funding to Build the First Frontier AI Lab for National Security](https://smacktechnologies.com/journal/smack-announces-32m-in-funding-to-build-the-first-frontier-ai-lab-for-national-security) (March 2, 2026)
+- Raised $32m from Geodesic Capital and Costanoa Ventures, with participation from Point72, Felicis, First In, Scribble Ventures, Bloomberg Beta, Washington Harbour Partners, Palumni VC, Fulcrum Venture Group, Anomaly Fund, and Fortitude Ventures.
+- Combined with their initial Seed by Point72 Ventures, the funding will enable Smack to scale technical hiring.
+
+((Why are they apparently raising a $250mish round if they just raised an A like two months ago? I know you typically start raising like immediately. ))
+
+
+Article: [Intelligent Autonomy is the Key to Decision Dominance and Winning the Next War](https://smacktechnologies.com/journal/intelligent-autonomy) (April 17, 2026)
+- Modern warfare is as much a question of decision-making as it is of hardware.
+- Three capabilities determine the outcome of the next peer-level conflict:
+	- Modernizing the industrial base
+	- Scaling autonomous systems
+	- Achieving decision dominance
+		- Most critical, and the only one that can be achieved in the immediate term.
+- In modern OODA loop... there is simply too much sensor data, often corrupted with misinformation, overloading human cognition and making it nearly impossible to orient.
+- At the same time, commanders are being asked to perform complex time-space calculations across a vast theater, using whiteboards and Microsoft 365, while navigating decision-making workflows through siloed planning horizons and limited communications with the front line.
+- Problem:
+	- It takes 96 hours to plan the next 96 hours, in which time China could land 30,000 troops on Taiwan.
+- Intelligent autonomy: The key to decision dominance, does three things:
+	- It alleviates pressure on human decision-making
+	- Enables decentralized command and control
+	- Maximizes the effectiveness and efficiency of autonomous systems
+
+1. Reducing pressure on human decision making (systems handle continuous analysis, coordination, and optimization required to operate at speed, while allowing the right amount of human-in-the-loop decision making at the moments where humans add the most value.)
+2. Enabling Decentralized [[Command and Control|C2]]: Reducing cognitive load becomes even more important in communications-degraded environments.
+3. Maximizing Autonomous System Effectiveness and Efficiency: Today's autonomous systems succeed in reducing risk to humans, but they don't yet meaningfully reduce the burden on them. That's because operators still have to task, coordinate, and adapt these systems in employment, often one platform at a time.
+
+Delivering RL to power intelligent autonomy
+- LLMS and VLMs are good at pattern recognition, classification, and prediction, and they are useful in many settings, but peer conflict poses a different kind of problem. It requires planning across multiple time horizons, optimizing under constraints, and reasoning through how actions unfold in physical space over time.
+
+
+Article: [Smack Technologies: What is it, What does it Do, and How does it work?](https://smacktechnologies.com/journal/what-is-smack-technologies) (April 27, 2026)
+- 
+
+
+
+
+
+
+
+
 
 
 

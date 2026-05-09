@@ -32,6 +32,174 @@
             }
           },
           {
+            "id": "88d6c1d1f584fd21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command and Control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Command and Control"
+            }
+          },
+          {
+            "id": "a38966d8d59a5b4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Small Language Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Small Language Model"
+            }
+          },
+          {
+            "id": "c0b750d5e71d68f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Selective Language Modeling.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Selective Language Modeling"
+            }
+          },
+          {
+            "id": "d4dc5699bfc26177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multi-Agent Proximal Policy Optimization.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Agent Proximal Policy Optimization"
+            }
+          },
+          {
+            "id": "9afc049bbf4c2724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multi-Agent Deep Deterministic Policy Gradient.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Agent Deep Deterministic Policy Gradient"
+            }
+          },
+          {
+            "id": "e3f8a407246d119a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Marine Corps Warfighting Laboratory.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Marine Corps Warfighting Laboratory"
+            }
+          },
+          {
+            "id": "dbebe1a20cf581ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Fires Network.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Fires Network"
+            }
+          },
+          {
             "id": "3e27c225b004a6d6",
             "type": "leaf",
             "state": {
@@ -53,6 +221,16 @@
               },
               "icon": "lucide-file",
               "title": "Kill Chain"
+            }
+          },
+          {
+            "id": "6c491bdf046c2245",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -1736,9 +1914,16 @@
   },
   "active": "e66d3ab1b5feea30",
   "lastOpenFiles": [
+    "Command and Control.md",
+    "Small Language Model.md",
+    "Selective Language Modeling.md",
+    "Multi-Agent Proximal Policy Optimization.md",
+    "Multi-Agent Deep Deterministic Policy Gradient.md",
+    "Marine Corps Warfighting Laboratory.md",
+    "Joint Fires Network.md",
     "Kill Chain.md",
-    "F2T2EA.md",
     "Smack Technologies.md",
+    "F2T2EA.md",
     "Modern Backend Development.md",
     "Product Requirements Document.md",
     "Specification.md",
@@ -1755,13 +1940,6 @@
     "Concept of Operations.md",
     "Synchronization Matrix.md",
     "Sodium-Cooled Fast Reactor.md",
-    "Moderator.md",
-    "Light Water Reactor.md",
-    "3D Gaussian Splatting.md",
-    "OpenTelemetry Protocol.md",
-    "Physical Replication.md",
-    "JSON Web Key Set.md",
-    "Encryption.md",
     "_attachments/Pasted image 20260508162103.png",
     "_attachments/Pasted image 20260508161339.png",
     "_attachments/Pasted image 20260507181143.png",
