@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abaf7cff6d43afbf",
+            "id": "a68beda6ba19e442",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SoftwareEngineering/Docker The Hands-On Way/Docker the Hands-On Way.md",
+                "file": "Radiant Industries.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Docker the Hands-On Way"
+              "title": "Radiant Industries"
+            }
+          },
+          {
+            "id": "2684857fed8acd4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idaho National Laboratory.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Idaho National Laboratory"
+            }
+          },
+          {
+            "id": "474fb502477e3a6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idaho National Laboratory.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Idaho National Laboratory"
+            }
+          },
+          {
+            "id": "e341d1e5cfcad137",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Department of Energy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Department of Energy"
+            }
+          },
+          {
+            "id": "d44a3ff320617d7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Radiant Industries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Radiant Industries"
+            }
+          },
+          {
+            "id": "f35f42fdbb4f9b84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nuclear Regulatory Commission.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nuclear Regulatory Commission"
+            }
+          },
+          {
+            "id": "bb6aeafc4d501428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idaho National Laboratory.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Idaho National Laboratory"
+            }
+          },
+          {
+            "id": "1db6cbb4890e1317",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nuclear Regulatory Commission.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nuclear Regulatory Commission"
             }
           }
         ]
@@ -98,7 +266,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1709,37 +1878,39 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "aba8fe69d46d9ccd",
+  "active": "a68beda6ba19e442",
   "lastOpenFiles": [
+    "Idaho National Laboratory.md",
+    "Radiant Industries.md",
+    "Fuel Line Pilot Program.md",
+    "United States Department of Energy.md",
+    "Google Cloud Run.md",
+    "Radiant Earth Foundation.md",
+    "Nuclear Fission.md",
+    "Nuclear Regulatory Commission.md",
+    "Thorium-Based Nuclear Power.md",
+    "_attachments/Pasted image 20260509225603.png",
+    "Nuclear Power.md",
+    "Behind-The-Meter.md",
+    "ColBERT.md",
+    "Late Interaction.md",
+    "Nuclear Criticality.md",
+    "Nuclear Fusion.md",
+    "Automatic Speech Recognition.md",
+    "Text to Speech.md",
+    "Guidance, Navigation, and Control.md",
+    "Nuclear Enrichment.md",
+    "LiveKit.md",
+    "WebRTC.md",
+    "Courses/SoftwareEngineering/Docker The Hands-On Way/Docker the Hands-On Way.md",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "_attachments/Pasted image 20260509181126.png",
     "Smack Technologies.md",
-    "Courses/SoftwareEngineering/Docker The Hands-On Way/Docker the Hands-On Way.md",
     "Courses/SoftwareEngineering/ixiumiuz Docker.md",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
     "Command and Control.md",
     "Small Language Model.md",
-    "Selective Language Modeling.md",
-    "Multi-Agent Proximal Policy Optimization.md",
-    "Multi-Agent Deep Deterministic Policy Gradient.md",
-    "Marine Corps Warfighting Laboratory.md",
-    "Joint Fires Network.md",
-    "Kill Chain.md",
-    "F2T2EA.md",
-    "Modern Backend Development.md",
-    "Product Requirements Document.md",
-    "Specification.md",
-    "Agent.md",
-    "npx.md",
-    "Modern iOS Development.md",
-    "Server-Sent Event.md",
-    "Claude Code Agent Teams.md",
-    "DINOv2.md",
-    "Modern Go Development.md",
-    "Optical.md",
-    "Boiling Water Reactor.md",
-    "Tri-Structural Isotropic Fuel.md",
     "_attachments/Pasted image 20260508162103.png",
     "_attachments/Pasted image 20260508161339.png",
     "_attachments/Pasted image 20260507181143.png",
@@ -1748,14 +1919,12 @@
     "_attachments/Pasted image 20260507180944.png",
     "_attachments/Pasted image 20260503202326.png",
     "_attachments/Pasted image 20260503201953.png",
-    "_attachments/Pasted image 20260503201912.png",
     "HTTP",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
     "recent-notes.txt",
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
-    "Courses/HuggingFaceAgents",
-    "Load"
+    "Courses/HuggingFaceAgents"
   ]
 }

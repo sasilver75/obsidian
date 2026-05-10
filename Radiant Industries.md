@@ -1,0 +1,183 @@
+An El Segundo-based company developing portable, factory-build nuclear microreactor(s) (1MW, called Kaleidos) designed for clean energy in remote locations and military bases (and also in space).
+
+> Radiant's factory-built, transportable nuclear generators are designed to provide always-on power for defense, disaster response, remote industry, and critical infrastructure: applications where traditional energy systems fall short.
+
+# Questions:
+- Why did Bob Urberger, co-founder and CTO, leave the company in January 2025? Does he have a replacement?
+
+# Fundraising
+- Sep 22, 2020: $1.2M Angel Round
+- Mar 3, 2022: $12.6M Series A (Union Square Ventures)
+- Apr 18, 2023: $40M Series B (Andreessen Horowitz)
+- Nov 14, 2024: $165M Series C (DCVC)
+- Dec 16 - Feb 17, 2025: $300M Series D (Boost VC, Draper Associates, Lockheed Martin Ventures)
+
+Headcount: 101-250
+
+# People
+- Doug Bernauer, founder/CEO
+	- Spent 12 years at SpaceX as an R&D engineer, where he led avionics development for the Grasshopper rocket and worked on Hyperloop and The Boring Company.
+	- Excited by ideas of how to power a potential Mars colony, which sparked his interest in advanced, portable energy solutions.
+- ~~Bob Urberger, co-founder/CTO~~
+	- Spent 6 years at SpaceX
+	- Left in January 2026
+
+Stall in industry, takes too much time to gain reward from these gigwatt projects
+In 60s: Nuclear used in Submarines
+70s: Power reactors abased on these
+80s: Nuclear reached peak scale, but also Chernobyl
+90s: States banned Nuclear
+Then climate change, and eventually an acceptance of climate change. Now we have solar, we have wind, and other renewables; everyone's excited about having a cleaner planet, and recognize that the nuclear of 50 years ago is not the Nuclear of today.
+We're trying to build a new reactor that no one has ever done before: We want to iterate as quickly as possible, and the only way to do that is to make a lot of reactors. 
+
+Secured partnerships with the DoD (DIU; Defense Innovation Unit)
+
+
+
+
+
+
+
+
+____________
+# Blog
+
+Blog: [Radiant raises >$300M in new funding to mass-produce portable nuclear reactors](https://radiantnuclear.com/blog/) (Dec 16, 2025)
+- (Series D)
+- Latest capital raise, just six months since closing its Series C... will support the scaling of commercialization efforts as Radiant prepares to break ground early next year on its recently announced ==R-50 factory== in Oak Ridge, Tennessee.
+- Micro-scaled nuclear, mass produced for the first time ever, can transform how the public thinks about nuclear energy.
+- Radiant is on track for their startup in July 2026 of their first reactor, the ==Kaleidos Demonstration Unit (KDU)== at [[Idaho National Laboratory]]'s Demonstration of Microreactor Experiments (DOME) facility.
+- 
+
+
+
+__________________
+# Videos
+
+Video: Giant Ideas:[ SpaceX Engineer Builds Nuclear Reactors in a Box](https://youtu.be/vMUAJgTFCSU) (November 13, 2025)
+
+
+> Nuclear has been burdened with extreme safety/regulatory load, in the aftermath of Three Mile Island, Chernobyl, etc. As a result of that, the supply chain and talent have atrophied for the industry. What was costing about $1000/KW to build in the US in the 60s is how costing 10x that much. It's pretty staggering; it ***was*** a cheap energy source in the 60s and 70s, and that was true in the US/France/Sweden, but in 2010+, it's become one of the most expensive and troublesome power sources to build globally. Public sentiment for Nuclear now is at decades-long highs. People realize it's safe, there are many active Nuclear power plants in the west, etc. And another catalyst in Europe especially is the Russian invasion of Ukraine, and the knock-on effects of Energy security that it had. Countries like the UK and France, having said originally that they were going to decom many of their Nuclear power plants are exercising a life extension program to get more out of them. The most aggressive regime change is in the US, though; Trump admin has been very bullish on Nuclear power, which was captured clearly in EOs issued in Spring 2025, which reduced some of the bureaucratic burden on Reactors, said they were going to resupply the entire nuclear supply chain in the US, and have been inking remarkable deals. Signed an $80B deal with Westinghouse to build more Nuclear reactors in the USA. Some people have been calling this a Nuclear Renaissance. It's safer even than Wind power, it's clean, it's base load energy, and should be highly deployable.
+
+> We were looking at Nuclear power, and was convinced that... we weren't goin to invest in a Reactor startup...  the shibboleth of "capital intensity, regulatory uncertainty, slow learning rates, broken fuel supply chain..." it felt too difficult. But he met Doug Bernauer and the team at Radiant, which changed his mind on investing in reactors. Reasons:
+1. Rather than building a big piece of energy infrastructure, they're building an energy product.
+	1. Radiant has made design choices very interesting to a specific customer base that want rapidly deployable power, and in most cases the only alternative is a diesel generator, which are cumbersome, dirty, and need refuel. Radiant's end customers are paying sometimes hundreds of dollars per gallon to get diesel to these remote locations where they need power.
+	2. Radiant's Kaleidos (1MW, portable, meltdown proof reactor that needs refueling once every 3-5 years) is an amazing product that can be offered at competitive price to this niche market.
+
+Quotes below from interview with Doug Bernauer
+- Playing around with Mars colony design, we were trying to make a refueling station more than a colony, initially, because it's very expensive to take a Starship and land it on mars... and if you do that, you want to be able to refuel it and bring it back so you don't waste the ship every time.
+	- To do this, you need power; we looked at Solar to do this... but it looked like 4-5 miracles in sequence; four football fields of solar, robots to connect those, the ground is dusty nad rocky and in mixed conditions, etc... 
+	- Elon said: "That's to many Nuclears, probably need Nuclear"
+	- It turns out the 5 miracles become 1... and it turns out it's the only way that you'll make life multiplanetary.
+- I knew almost nothing about Nuclear power as an engineer. As I learned about it, I learned that there were space reactors (in the 60s, US launched one called SNAP-10A; Russia launched a huge quantity of them in the past into space)
+- Q: Who can make this reactor?
+- As I looked round, I found there were no good options.
+- 3 years later... a program in the US came out called [[Project Pele]], which was the US Mil saying we needed a under-100Ton portable reactor that was about a MegaWatt (MW)... which happens to be about what you would need on Mars... about the right size to refuel a rocket every two years, which is the interval you have between Earth and Mars. 
+- So I tried to convince Elon help him make "Nuclear at SpaceX"... But this isn't something that they were going to touch. They're working on Starship, Starlink, and a bunch of other ideas.
+- I jumped out of that company, founded Radiant, and started to... learn how to become a Nuclear engineer. I started modeling reactors almost right away, did that for a year, put together a pitch deck... and I knew that my customer was going to initially be the military.
+	- "I want to make the smallest the military would accept, and I want to mass produce it, because mass production is the story of how things become cheap and reliable."
+- Q: I read a story that when you were doing early research, you pretended as if you were farming land on Mars in your back garden, just to get a sense of what that would be like.
+- Yeah, I went above and beyond... I figured out the number of missions... 
+
+
+Q: What is the actual idea for the first version of the Radiant reactor?
+A: We're doing this test on July 4, and by 2028 we want to have one unit out to a customer, likely licensed through the NRC, though we do have the option of using a DoE authorization license, where we can put it at a military base in the US (on government land, essentially). We want a partner who knows how to operate these units, who likes that it's mobile, but doesn't need it to be mobile.  The ideal partner is a domestic military installation... there's security at those facilities, so we don't have to worry about someone doing something they shouldn't be doing to the unit.
+- We signed a contract with the Airforce
+- There's a DoD program called JANUS just announced, which is to the tune of a $1-1.5B program; not sure how much will go to the developers; there will be 2-3 developers that they'll downselect later.
+- Our goal is to make maybe 15 reactors to put into those programs.
+
+We also have a deal signed with Equinix, a datacenter company, which is a downpayment for 20 units (one of the more real deals in Nuclear). We didn't really understand the interest that datacenters would have... 1MW is pretty small. 30MW or 100MW for a single datacenter is common... but they're still interested in 1MW because our reactor can go in a 1500 square foot area, and we can put 4 MW on 4000 square feet. These datacenters' interests are in having power immediately. 
+
+ New technology needs power immediately. If you go to the utility and say "I need more megawatts, even one megawatt," and they say "get in line," and that's 2-4 years in the US. You're working with the Utility, so there's no competition, you have to do what they say. 
+
+So you see buildings full of diesel generators (10 or 20 of them, however many needed) to power the business and compete against their peers.
+
+Our unit... put it on a truck, drive it into the customer site, insert it into a docking bay, which is just big blocks on concrete that we set up ahead of time. Put the reactor in, it powers up the same day, and it lasts for 5 years with no refueling. If you don't have that, then you need about 1200 gallons of Diesel per day per generator. For four generators, that's a full 5000gal fuel truck every single day at your facility.
+
+In terms of cost, you have the advantage of competing against Diesel, as opposed to on-grid power sources.
+
+Let's break the product down:
+- 1MW, compared to traditional nuclear plants ,which are about 1GW.
+	- How have you made economics of this work? Fuel costs for small reactors would usually be a massive proportion of the cost. You got clever on fuel, which lets you be refueled every 5 years.... What else have you done on fuel?
+		- The fuel is the largest proportion o the cost, at this very small scale. We've signed some deals
+			- UK's Urenco, we've signed enough fuel for 5 units. The first commercial [[High-Assay Low-Enriched Uranium|HALEU]] deal signed, I believe.
+			- ==Securing where the fuel is coming from is important in helping control costs, as everyone is out here trying to secure fuel.==
+		- In our nuclear core, we use ==zirconium hydride==, which we make here... what it does, really...  we use partially-enriched fuel (what you'd use in a research reactor, about 20% enrichment, which is more than what you'd use in a normal big 1GW reactor, which is about 5%). If you put zirconium hydride, you can actually use less fuel. When the fission occurs, you have Neutrons moving at about .07c... and when they're moving that fast, they don't interact thy don't cause fission, and you want to slow them down. This zirconium hydride slows them down over a very short distance inside the reactor... so you can control the size of the reactor and load less fuel and get relatively high burnup.
+- why is it safe?
+	- We use [[Tri-Structural Isotropic Fuel|TRISO]] fuel, developed in the 60s... tiny poppyseed sized kernels of nuclear fuel overcoated with ceramic layers that prevent fission gasses from getting out... there ceramics have extremely high temperature ratings (almost 2000C)... meaning you can't have a meltdown. It's a fuel form that just won't melt down. 
+	- Helium gas, which we use as a coolant, uniquely does not become radioactive in the reactor. If it leaks, it will not be radioactive. This is important because if our customers are off-grid; you want to have a reactor that's totally safe. 
+	- Third thing is a passive safety (part is due to size of reactor); if you make a reactor extremely small... when you turn a reactor off, it keeps producing a little bit of heat, and it will slowly decay away... and you need to cool it during that period, normally. A big reactor run multiple redundant cooling water pumps, and have to have a backup generator to run those. With a tiny reactor, you don't need that, because you don't have much fuel. We use the outdoor ambient air (even in the Sahara), which will flow up along the wall in the pressure vessel, which will carry off enough heat to prevent any overheat.
+- So is this foolproof? Or is that theoretical?
+	- In that Chernobyl incident, they removed 224 control rods to the maximum extension, and that's something that should not have been possible by design. 
+	- You can't really do that with a small reactor... if you come to our office in LA, we run a little simulator, where in the demonstration we remove all the safeties from the simulation to try to make it into something dangerous. 
+	- In that event, it warms up... and as it warms up, it reduces reactivity.
+- Yeah, tell me about this digital twin that you've built, which helps you make faster decisions.
+	- ==We came from SpaceX, and we learned that Software is King.==
+	- You can't outsource it. you must have a team that does the SWE and owns every line of code.
+	- This digital twin uses existing nuclear codes, and is based on a thing done in aerospace very commonly, usually called "[[Hardware in the Loop]]" or an "Iron Bird" in aerospace. We were doing this on Rockets. You simulate missions, you simulate potential failure modes, and you show that all of your safeties function.
+	- In the nuclear industry... we run these as safety analysis codes that are independent from the real system. Our novelty/innovation in the nuclear industry is that our control software that we run on the actual boards (which we also design/produce) is the same that we run on our safety analysis. We're not making safety analysis as a separate package that just needs to be closely matched, where you just gotta check line-by-line and look at different models and show that geometry is correct on both sides... instead, it's truly the same code being checked.
+
+You've been seeing real support of Nuclear. Got a July4 test with the USGov really supporting you and accelerating you. This has been the blocker historically; you need so many proof points for safety. Talk us through that a little bit, and about how much support you ARE getting from the US government.
+
+Q: Host CONTEXT: There hasn't been a new nuclear design approved for ~50 years. 
+A: You gotta add some qualifiers sometimes, but that's the truth of it.
+
+We're going to [[Idaho National Laboratory]], it's a pretty huge piece of land the size of Rhode Island. It's a giant high-desert zone, and they use it as a reactor test site... out in the middle of nowhere, west of Idaho Falls City.
+At this site, in 1956, they started testing reactors... they tested 52 different reactors.
+- The last of these was in 1977. They used to test these like clockwork, regularly! It would be several per year! A wild, different world.
+- There's a big regulatory barrier... and there hasn't really been customer demand to drive things to happen.
+
+In nuclear, there are customers, and if those customers are excited, then developers will take that excitement (and contracts) and will make a design and deliver on it on a schedule/design that's palatable to a customer. A large reactor takes a LONG time to make... and you're making no revenue till that turns on (4-6 years in the past; the most recent in the US was more like 15 years, in Georgia.) Regulatory adds additional years in the schedule, and is intertwined with financing in a weird way. 
+
+For a big reactor, in two chunks:
+- I want the [[Nuclear Regulatory Commission|NRC]], which licenses all commercial nuclear reactors, to check this design out and review this design
+	- You get a design approval after 2-3 years; the most recent one from NuScale was about ~10,000 pages (submitted?).
+	- You take these volumes... and you ship them these books, and they eventually tell you that this design was good.
+	- Then you can get financing! But that's it, because you don't have construction approval.
+- Then you need to permit this piece, the construction piece. This takes years.
+
+
+So we're three orders of magnitude smaller; it doesn't take a load of capital to put together. Through out investors, we're building reactors... and luckily, the government has switched position on Nuclear, and are ==driving for schedule!== It's different when the government is committed to making things happen quickly in reason -- we're still going through all of the same safety checks with the same technical experts, but there's a drive now to get things done.
+
+
+Q: Dream a little, what's the plan?
+A: We have the parts for our reactor already; the pressure vessel arrived a few weeks ago, so we'll construct the Kaleidos demonstration unit reactor which will go in the early part of the year around April, to the national lab... our fuel comes from a separate location. We can insert that reactor into a dome, which is a big pressurized structure, put the fuel inside of it in there, and go to zero-power critical, turn it on, and make it into a very exciting event.
+
+That reactor will get to a customer, make electric power, and ideally that's in the early part of 2028. Facility announced in Tennessee, which is where we'll fuel reactors in the future. For now, we're able to build it, but not fuel it, in our El Segundo facility. Beyond that, the space reactors will happen if there are customers.
+
+The reactor we make is pretty small (1MW), but we'll be able to make 50 a year. By 2030 we want 10 or more, and at 2033 or so, be at that 50 or more a year figure.
+
+==We want diesel permit parity.==
+- If you say "I want One Megawatt," and you call some rental company, they should say "Hey, do you want the diesel or the nuclear one?" and to make it so that you can use a great, safe, beneficial technology... it's an enormous benefit compared to a diesel generator with huge takes, multi thousand gallons, etc. You don't need 40,000 liter tanks added to your facility.
+
+
+Someone said that you've had the cleanest factory floor that they'd ever seen.
+A: That just means we're not doing enough yet!
+
+
+________________
+
+
+Video: [Radiant Selects Tennessee to Build World’s First Mass-Produced Nuclear Generator Factory](https://youtu.be/BGQTRkuQaps) (October 17, 2025)
+
+Radiant announced plans to build the world' first mass-produced nuclear generator facility in Oak Ridge, Tennessee, a $280 million investment.
+
+The company chose Tennessee for its skilled 
+
+![[Pasted image 20260509225603.png]]
+Radiant R-50 @ 900 Enrichment St.
+
+80 Year ago, this site once known as K27 and K29 played a pivotal role in the [[Manhattan Project]], which helped define the dawn of the nuclear age, and now Radiant is excited to help define the next chapter.
+
+Highly skilled workforce, and one of the highest nuclear IQs in the country. People understand what it means to build safe, innovative, world-changing technology.
+
+
+
+
+
+
+
+
+
+
+
