@@ -8,6 +8,13 @@ Models:
 
 > In its simplest form, Smack compresses the time it takes military commanders to make informed, intelligent, actionable decisions from months to minutes. It then enables warfighters and autonomous systems on the front lines to act on those decisions in a coordinated manner in real time, with or without comms access. 
 
+Fires:
+Logistics: Predict supply chain disruptions and autonomously coordinate resource distribution across contested theaters, ensuring sustainment under pressure.
+Intelligence: Process vast intelligence feeds to filter signal from noise, detect adversary patterns, and rapidly surface actionable, high-confidence assessments.
+Information: Identify and counter adversary disinformation campaigns swhile generating trusted narratives that maintain coalition synchronization across operations.
+Force Protection: Monitor threats across domains and echelons to provide predictive early warnings and automated response recommendations to safeguard forces and critical assets.
+
+
 Founders:
 - ==Andy Markoff==: CEO and Co-Founder, ex Marine Raider 
 	- A former Special Operations Officer in the 2nd Marine Raider Batallion. Before founding Smack, he was involved in operations and strategy at Palantir.

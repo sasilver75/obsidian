@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack Technologies.md",
+                "file": "Courses/SoftwareEngineering/Docker The Hands-On Way/Docker the Hands-On Way.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Smack Technologies"
+              "title": "Docker the Hands-On Way"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1710,9 +1709,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "abaf7cff6d43afbf",
+  "active": "aba8fe69d46d9ccd",
   "lastOpenFiles": [
+    "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
+    "_attachments/Pasted image 20260509181126.png",
     "Smack Technologies.md",
+    "Courses/SoftwareEngineering/Docker The Hands-On Way/Docker the Hands-On Way.md",
+    "Courses/SoftwareEngineering/ixiumiuz Docker.md",
+    "Courses/SoftwareEngineering/Docker The Hands-On Way",
+    "Courses/SoftwareEngineering",
     "Command and Control.md",
     "Small Language Model.md",
     "Selective Language Modeling.md",
@@ -1735,9 +1740,6 @@
     "Optical.md",
     "Boiling Water Reactor.md",
     "Tri-Structural Isotropic Fuel.md",
-    "Concept of Operations.md",
-    "Synchronization Matrix.md",
-    "Sodium-Cooled Fast Reactor.md",
     "_attachments/Pasted image 20260508162103.png",
     "_attachments/Pasted image 20260508161339.png",
     "_attachments/Pasted image 20260507181143.png",
@@ -1747,7 +1749,6 @@
     "_attachments/Pasted image 20260503202326.png",
     "_attachments/Pasted image 20260503201953.png",
     "_attachments/Pasted image 20260503201912.png",
-    "_attachments/Pasted image 20260502182432.png",
     "HTTP",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
@@ -1755,8 +1756,6 @@
     "Courses/SystemDesign/Case Studies",
     "Courses/SystemDesign",
     "Courses/HuggingFaceAgents",
-    "Load",
-    "Courses/UCSC/NLP202 NLP II",
-    "Courses/Machine Learning/Deepmind x URL RL"
+    "Load"
   ]
 }
