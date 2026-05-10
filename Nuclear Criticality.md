@@ -1,4 +1,6 @@
 ---
 aliases:
   - Criticality
+  - Critical
+  - Subcritical
 ---

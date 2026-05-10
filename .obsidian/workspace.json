@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a68beda6ba19e442",
+            "id": "b92a635a2d258b38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Radiant Industries.md",
+                "file": "Nuclear Meltdown.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Radiant Industries"
+              "title": "Nuclear Meltdown"
             }
           },
           {
-            "id": "2684857fed8acd4b",
+            "id": "75117a1e46d565da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Idaho National Laboratory.md",
+                "file": "Valar Atomics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Idaho National Laboratory"
+              "title": "Valar Atomics"
             }
           },
           {
-            "id": "474fb502477e3a6f",
+            "id": "75e7032644fb72c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Idaho National Laboratory.md",
+                "file": "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Idaho National Laboratory"
+              "title": "Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}"
             }
           },
           {
-            "id": "e341d1e5cfcad137",
+            "id": "6d0ca7f3da702d73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Department of Energy.md",
+                "file": "NuScale Power.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Department of Energy"
+              "title": "NuScale Power"
             }
           },
           {
-            "id": "d44a3ff320617d7a",
+            "id": "47ed9fc87a60de41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Radiant Industries.md",
+                "file": "Power.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,82 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Radiant Industries"
-            }
-          },
-          {
-            "id": "f35f42fdbb4f9b84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nuclear Regulatory Commission.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Regulatory Commission"
-            }
-          },
-          {
-            "id": "bb6aeafc4d501428",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Idaho National Laboratory.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Idaho National Laboratory"
-            }
-          },
-          {
-            "id": "1db6cbb4890e1317",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nuclear Regulatory Commission.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Regulatory Commission"
+              "title": "Power"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1878,39 +1807,39 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a68beda6ba19e442",
+  "active": "75117a1e46d565da",
   "lastOpenFiles": [
-    "Idaho National Laboratory.md",
+    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Valar Atomics.md",
+    "Nuclear Meltdown.md",
+    "Articles/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
+    "Westinghouse AP1000.md",
+    "Power.md",
+    "NuScale Power.md",
+    "Westinghouse.md",
     "Radiant Industries.md",
-    "Fuel Line Pilot Program.md",
-    "United States Department of Energy.md",
-    "Google Cloud Run.md",
-    "Radiant Earth Foundation.md",
-    "Nuclear Fission.md",
-    "Nuclear Regulatory Commission.md",
-    "Thorium-Based Nuclear Power.md",
-    "_attachments/Pasted image 20260509225603.png",
-    "Nuclear Power.md",
-    "Behind-The-Meter.md",
-    "ColBERT.md",
-    "Late Interaction.md",
     "Nuclear Criticality.md",
-    "Nuclear Fusion.md",
-    "Automatic Speech Recognition.md",
-    "Text to Speech.md",
-    "Guidance, Navigation, and Control.md",
-    "Nuclear Enrichment.md",
-    "LiveKit.md",
-    "WebRTC.md",
-    "Courses/SoftwareEngineering/Docker The Hands-On Way/Docker the Hands-On Way.md",
+    "Nuclear Power.md",
+    "Nuclear Energy Industry Modernization Act.md",
+    "Atomic Energy Commission.md",
+    "Idaho National Laboratory.md",
+    "Defense Innovation Unit.md",
+    "United States Department of Energy.md",
+    "Nuclear Regulatory Commission.md",
+    "Project Pele.md",
+    "High Temperature Gas Reactor.md",
+    "Tri-Structural Isotropic Fuel.md",
+    "High-Assay Low-Enriched Uranium.md",
+    "Reactor Pilot Program.md",
+    "AgentInstruct.md",
+    "Orca-Math.md",
+    "Microsoft Research.md",
+    "Persona Hub.md",
+    "_attachments/Pasted image 20260509225603.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "_attachments/Pasted image 20260509181126.png",
-    "Smack Technologies.md",
-    "Courses/SoftwareEngineering/ixiumiuz Docker.md",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
-    "Command and Control.md",
-    "Small Language Model.md",
     "_attachments/Pasted image 20260508162103.png",
     "_attachments/Pasted image 20260508161339.png",
     "_attachments/Pasted image 20260507181143.png",

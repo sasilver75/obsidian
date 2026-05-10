@@ -9,6 +9,11 @@ It is essential for most next-generation [[Small Modular Reactor]]s and microrea
 
 
 
+HEU: High-Enriched Uranium
+LEU: Low-Enriched Uranium
+
+
+
 
 
 

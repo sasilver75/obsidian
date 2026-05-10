@@ -1,9 +1,13 @@
-An El Segundo-based company developing portable, factory-build nuclear microreactor(s) (1MW, called Kaleidos) designed for clean energy in remote locations and military bases (and also in space).
+An El Segundo-based company developing portable, factory-build nuclear microreactor(s) (1MW, called ==Kaleidos==) designed for clean energy in remote locations and military bases (and also in space).
+- Kaleidos is a 1MW failsafe nuclear microreactor, with the Kaleidos Demonstration Unit (KDU) being tested in 2026, with initial customer deployments in 2028.
 
-> Radiant's factory-built, transportable nuclear generators are designed to provide always-on power for defense, disaster response, remote industry, and critical infrastructure: applications where traditional energy systems fall short.
+> Radiant's factory-built, transportable nuclear generators are designed to provide always-on power for ==defense==, ==disaster response==,  ==remote industry==, and ==critical infrastructure==: applications where traditional energy systems fall short, e.g. ==power for refugees==.
 
 # Questions:
-- Why did Bob Urberger, co-founder and CTO, leave the company in January 2025? Does he have a replacement?
+- Why did Bob Urberger, co-founder and CTO, leave the company in January 2025? Does Radiant have a replacement as CTO? How did his department affect July [[Idaho National Laboratory]] timelines?
+- I see that Radiant was the first company to sign a contract with the DoE for [[High-Assay Low-Enriched Uranium|HALEU]] fuel... and then I also see that they have one of the first commercial contracts for [[High-Assay Low-Enriched Uranium|HALEU]] enrichment with Urenco in the UK. Is the idea that DoE supplies HALEU for just the [[Idaho National Laboratory|INL]]/[[Idaho National Laboratory|DOME]] tests (and maybe for military applications), and then for future non-government commercial use cases, you'd use HALEU from Urenco?
+- It's very exciting that you guys announced the R-50 factory in Oak Ridge, Tennessee (home of Oak Ridge National Labs), with the goal of scaling production to 50 reactors per year within a few years of the beginning of production in 2028. What's the future of Radiant in El Segundo, specifically?
+- What's the size of the software engineering org? What do they handle? I know they do control systems for the reactor, the digital twin simulation stuff, 
 
 # Fundraising
 - Sep 22, 2020: $1.2M Angel Round
@@ -47,7 +51,35 @@ Blog: [Radiant raises >$300M in new funding to mass-produce portable nuclear rea
 - Latest capital raise, just six months since closing its Series C... will support the scaling of commercialization efforts as Radiant prepares to break ground early next year on its recently announced ==R-50 factory== in Oak Ridge, Tennessee.
 - Micro-scaled nuclear, mass produced for the first time ever, can transform how the public thinks about nuclear energy.
 - Radiant is on track for their startup in July 2026 of their first reactor, the ==Kaleidos Demonstration Unit (KDU)== at [[Idaho National Laboratory]]'s Demonstration of Microreactor Experiments (DOME) facility.
-- 
+- Made some key hires
+	- Chief Nuclear Officer: Dr. Rita Baranwal: Former Assistant Secretary for Nuclear Energy
+	- Chief Revenue Officer: Dr. Mike Starrett
+	- Almost a dozen VP/Director hires across engineering, manufacturing, and supply chain operations
+- Selected by the US [[United States Department of Energy|DoE]] to test at [[Idaho National Laboratory|INL]] in July, 2026, at the [[Idaho National Laboratory|DOME]] facility.
+- Regulatory front news:
+	- Submission and approval of its ==Nuclear Safety Design Agreement== (NSDA)
+	- Acceptance for review of its ==DOE Authorization Request for Kaleidos== (DARK) to meet the intent of the ==Preliminary Documented Safety Analysis== (PDSA), Radiant has made steady progress on the regulatory front to stay on track for this summer's first test at INL.
+- Radiant ==signed the first-even deal for mass-manufactured nuclear microreactors on U.S. military bases== with the [[Defense Innovation Unit]] and the Department of the air force.
+- Selected for the [[Reactor Pilot Program]], utilizing the DoE's streamlined approval process for deployment of new reactors.
+- Deal for 20 Kaleidos microreactors with Equinix (with deposits!), a datacenter company.
+- First company to sign a contract with DoE for [[High-Assay Low-Enriched Uranium|HALEU]] fuel for the test at [[Idaho National Laboratory|INL]]
+- First binding commercial contract for [[High-Assay Low-Enriched Uranium|HALEU]] enrichment with Urenco at a ceremony at the U.S embassy in London.
+- Radiant factory announced in Tennessee.
+
+
+Blog: [Radiant receives DOE approval of Preliminary Documented Safety Analysis, latest milestone towards start up of first reactor (](https://radiantnuclear.com/blog/doe-pdsa-approval/)February 9, 2026)
+- Radiant announced that the DoE has granted approval of its ==DOE Authorization Request for Kaleidos== (DARK), which is documentation designed to meet the intent of a ==Preliminary Documented Safety Analysis== (PDSA), and approval allows Radiant to keep on track to start up its first reactor this summer.
+
+
+Blog: [Radiant adds Lockheed Martin as a strategic investor to oversubscribed funding round](https://radiantnuclear.com/blog/lockheed-strategic-investment/) (Feb 17, 2026)
+- Announcement of additional financing from Lockheed through Lockheed Martin Ventures, further oversubscribing Radiant's current financing round.
+> "As national security becomes even more dependent on advanced DoE technologies, the ability to dispatch significant power quickly to remote locations is critical."
+
+
+Blog: [Air Force selects Radiant to deliver microreactors to Buckley Space Force Base](https://radiantnuclear.com/blog/buckley-space-force/) (April 22, 2026)
+- Kaleidos reactors will supply resilient power to support critical national security and intelligence missions.
+- The Department of the Air Force and the [[Defense Innovation Unit]] announced that it selected Radiant to develop and operate a nuclear microreactor proposed for Buckley Space Force Base in Aurora, Colorado, in fulfilllment of the [[Advanced Nuclear Power for Installations]] (ANPI) initiative.
+
 
 
 
@@ -170,6 +202,36 @@ Radiant R-50 @ 900 Enrichment St.
 80 Year ago, this site once known as K27 and K29 played a pivotal role in the [[Manhattan Project]], which helped define the dawn of the nuclear age, and now Radiant is excited to help define the next chapter.
 
 Highly skilled workforce, and one of the highest nuclear IQs in the country. People understand what it means to build safe, innovative, world-changing technology.
+
+
+_______________
+
+Video: [Sourcery with Molly O'Shea](https://www.youtube.com/watch?v=CEwZzC0H-lA&t=102s) May 31, 2024
+
+The Reactor is really pretty simple:
+- A steel pressure vessel that holds the pressure of the helium that we push into the core.
+- The helium flows up a "jacket", and then down through a core block which is made of graphite, and the graphite is a very strong material at high temperatures. In that block, we have [[Tri-Structural Isotropic Fuel|TRISO]] fuel particles.
+- We move control blades to turn it on/regulate power.
+- You generate power by [[Nuclear Fission]], with Uranium-235 splitting into these two heavy products () and making heat by the momentum transfer... the two recoil products that are slowing down, and then as they slow down they transfer energy and make heat.
+- The big block of graphite just gets hot inside the system.
+- We blow helium through that, and helium comes out hotter, and this is used to spin a turbine.
+- The helium is pushed in by an electric motor, so we can push as much or as little as we like.
+- If the helium pump fails, the system will heat up, and as it heats up a little bit, the reactor goes [[Nuclear Criticality|Subcritical]] and shuts itself off.  
+	- This is true for most reactor technologies... this is the behavior of the Uranium itself; you get less fission when it heats up. This is called a negative [[Thermal Coefficient of Reactivity]], and it makes the technology extremely simple and safe.
+	- Theres' an [[High Temperature Gas Reactor|HTGR]] reactor in Germany called AVR where the operators would just leave the operating room and allow the system to overheat, and they'd leave it overnight, and come back, and start operating the next day. It's a pretty simple and benign thing.
+- The nuclear reactor puts heat into a block of graphite, and you pump as much helium through as you'd like to heat up, and extract it out and use it for power. If you stop that, it turns itself off! It's a really beautiful technology.
+- When you have ceramic coatings with [[Tri-Structural Isotropic Fuel|TRISO]] and can handle really high temperatures, you just get away from the [[Nuclear Meltdown|Meltdown]] risk and other risks... but it comes with Cost.
+- Form any technologies we have, the goal is to get down to the bare-bones lowest possible cost you can get to... 
+	- They're already safe enough without TRISO, though!
+	- The accidents we had in the past, we don't use those technologies anymore, and there were human-in-the-loop errors.
+
+
+It's more important to be very dedicated and excited and motivated about the mission and to work hard for this future to be possible, it's not important necessarily what you studied in school.
+
+
+
+
+
 
 
 

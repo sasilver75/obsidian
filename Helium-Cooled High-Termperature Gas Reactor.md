@@ -1,5 +1,0 @@
----
-aliases:
-  - HGTR
-  - Helium Reactor
----
