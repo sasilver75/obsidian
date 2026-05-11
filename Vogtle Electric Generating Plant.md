@@ -1,0 +1,5 @@
+---
+aliases:
+  - Vogtle Plant
+  - Vogtle
+---

@@ -146,4 +146,260 @@ Electricity is not dynamically transportable through space
 		- This is getting slowly better but just not there yet
 	- Can only sell your "flowers" to like 5 people, in Energy, because of the distribution of the Grid.
 
-Even if you put out money in advance and have the ability to generate 7GW... how 
+
+Q: Even if you put out money in advance and have the ability to generate 7GW, how often are they utilized fully?
+A: Normal I think are like 30-40% across the fleet, which is a little bit of a deceptive number; that's what their capacity should be.. but what's even larger than that is the total electricity demand... Nuclear isn't easily scalable up and down. Because of the way that [[Neutronics]] works, basically, it's very difficult to get a nuclear powerplant to vary its output level.
+- It's difficult to dynamically move the reaction rates in a nuclear reactor, depending on your constructor, and it's also operationally obnoxious to dynamically control nuclear power output; they're somewhat fiddley machines.
+
+Because of this... Nuclear power... ==is generally only ever going to be 30-40% of demand==. With this curve above it that varies a lot, you want Nuclear to sit in a stable base zone. Then you have a bunch of other power sources to fill out these peaks (gas plants for instance are great at filling out)...
+
+Q: I'm also curious... if you put 100 power plants in the Ocean and also... I assume you want... the plant that turns the Nuclear energy into Hydrocarbons right next to the power plants, yes?
+A: At Valar, we're putting everything on ground. One of my earliest model was sinking nuclear reactors out in the Ocean, for various reasons... but what we eventually want to do is have massive nuclear power stations on the ground, producing tons of energy, and producing hydrocarbons .
+Q: What new infrastructure will you need?
+A: The awesome thing about hydrocarbons... any why I landed on tehm, is that the infratstrucutre is already there:
+- Pipeline infra
+- Burning plants
+- Shipping
+- Trucking
+Everything's already there and very scalable. The scaling of hydrocarbon as an industry is one o the most incredible ones on Earth. When there is a source of hydrocarbons and a need for hydrocarbons, the industry that pairs the source and the need is one of the most insane efficient things you'll seen. A buddy runs a water infrastructure company for oil wells. They'll get a call from an oil well that wants to drill. A lot of water gets used in the process. Buddy will get a call: We've got a apll we're drilling on, we need 50,000 cubes of water to go sit on this pad, and we need it in 8 days," and my buddy says "Ok!" and they'll call a bunch of landowners around these pads... and these people have ponds, access to a river, etc... and he'll call them and say "Hey, can we buy this many cubes of water from you?" And they'll go and set up pumps to each well, and lay temporary piping along roadways, across bridges, through drainage ditches... and build tepmorary onsite water storage tnaks (huge, mini lakes) next to this pad in 8 days... and then tear it all back up and just eave the water sitting there, and move onto the next site. 
+- That's just the water side!
+- The side of moving hydrocarbons around is a very impressive machine. Moving hydrocarbons around is one of the most excellent and functional industries known to mankind. If you have hydrocarbons, the hydrocarbons industry knows how to beat a path to you and say "Please, can we purchase your hydrocarbons."
+
+
+Q: I saw in one of your interviews... that China spends around $2B to get 1GW online, and we spend about $15B (mostly recently at the [[Vogtle Electric Generating Plant]]); why is there such a discrepancy?
+A: One massive overarching reason... is the incentive structure on how Nuclear works in conjunction with the electricity industry.
+- There's a problem with these older industries where no one company has excellent, fully integrated business model to delier a product that people are paying for.
+	- Instead, what you have is:
+		- Utility company that wants to add some capacity
+		- They go and try to integrate a project, getting construction from over hre, reactor from over hre, etc... or maybe work with a major contractor that does this integration (get reactor cores, turbines, etc). It's fractured and they try to assemble it.
+		- There's no one player there that's purchasing a commodity product at the other end, which means these incentives stack up, and you have this fractured cost-plus system, where one guy ays "We'll lay that concrete for... this continuous cost, not even a fixed price, it's you'll be paying us to do this for however long it takes, and it takes 7 years instead of 2 years."
+		- The way these utilities are run is generally not very private, meaning there isn't a lot of private capital at stake, you have a lot of government money at stake, so there's less incentives.
+	- Vogtle is a $30B messup, and taxpayer and utility payers lost out on that, but no one is really responsible for the cost of that entire machine all the way through.
+
+China has a single design: Go slap this down in 100 places, and they're much more fractured. 
+
+I think that there... there's a lot of good things about competition... but makes incentives all the way to the top.
+
+Q: Elon has a thing called the idiot index, the efficiency ratio of taking atoms and turning them into a specific object or whatever, product. What's the idiot index?
+A: Specifically, it's what's the sale price of the thing, versus the material cost. SpaceX pre-Elon, that was like 75... and for a mature product, it should be like 1 to 2. By my bets math... and we have a40 page internal paper on this, it's about 150 for nuclear, if you do the materials cost...
+Q: So it costs, let's say $200-250M per GW for material cost, and we're ~150x worse than this in many case. Massive idiot index. 
+
+Q: you said cheap hydrogen production is your biggest risk area.
+A: That's the biggest technological thing we need to prove; it's proving that we can do it at scale. It's really the core of the business, that we make cheap hydrogen. But when you have cheap hydrogen, how do you sell it? Hydrogen isn't a huge market today, it's very difficult to transport. What you really want o do is transform that hydrogen into hydrocarbons (eg CH4), which still has lots of potential energy per mass... You can burn it and gelt electricity...it's energy in a bucket. The fact that you can pour gasoline into a handheld container and carry it around is a massively underrated feature of modern society that we don't appreciate enough; it's very different from batteries. If you want to do this for a Battery, you have to wit for it to charge, and the amount of power you're holding is about 40x less than the same container would hold for hydrocarbons. You're spending a ton of time and getting 40x less energy per mass of thing you're holding. So Hydrocarbons are incredible, and we shouldn't leave the behind for the wrong reasons.
+- Good reasons to stop: We've found something that's more dense (volumetrically, gravimetrically), or safer... And that's not what's going on with battery tech.
+- Not to say that all electrification initiatives are bad; it makes sense to have electric in a car, since it doesn't matter how long it takes to charge, if I do it at night. Weight doesn't matter that much for cars. But there's a huge spectrum of use cases where hydrocarbons are not just the best we have now, but the best for the future. IT turns out that hydrocarbons are also the fuel of the future ([[Starship]] runs on ==Methalox==, which is methane and liquid oxygen).
+
+Q: How do you change the perception of hydrocarbons and nuclear?
+A: We don't need to... I don't want to have to change public opinion around Nuclear to be successful, I want to genuinely reset the cost of Energy in the world, which doesn't hinge on having to convince everyone that Nuclear is the way. Having to convince everyone in every state that you should be able to build there, etc... Better to build in one site and create hydrocarbons.
+
+I think once we do this, it will change public perception.
+
+Nuclear is not a large enough feature of our society; it's not responsible for enough of the goodness in society for us to recognize its merit; part of this is intentional from the Utility industry, who don't want you to think about the nuclear power station that much, or think about it sitting over there.
+
+Valar has a chance to make our awesome, sexy nuclear reactors and put them on TikTok, but them on IG reels, etc. We do want to change peoples' minds at the same time, though.
+
+One of the reasons that that ==Methalox== was chosen for Starship is that Methane is going to be synthesized on mars; we'll get fuel on mars from Methane synthesis, and it will be Nuclear reactors from Valar that do that.
+
+
+Q: Jules Verne fan?
+A: Great Frenchman with a great dose of American Spirit. "From he Earth to the Moon" is a look into what the American spirit has always been perceived to be from the outside, and it's a healthy thing for us to see. The US... it's hard to tell from the inside what we represent to other people, but what we represent is.... unbroken spirit of ambition. America has always been very technological:
+- Invented the Car
+- Put man on the moon
+Jules Verne recognizes that and also puts his French characters in there, which is very fun.
+Sometimes someone from outside the US has a clearer picture of what we are as a collective than we do from the inside, sometimes.
+
+Speaking of Scifi, I also love:
+- Robert Heinlein (loves Starship Troopers)
+
+"Global Empire Americana Feeling is Awesome" (It's satire)
+A trillion humans on a thousand worlds.
+Heinliein is also a true student of the human spirit as well, deep understanding of politics and philosophy as well.
+
+Q: How much cheaper can you produce a power plant by mass manufacturing them?
+A: Starting at idiot index of 150, what do we have to bring it down to, making jet fuel, hydrocarbons and selling them. That multiple... we need to get it down to about 70. If we can get it down to 70, that's doable. 
+If we didn't innovate on tech at all just took existing technologies and did it as a single vertically integrated company, you would easily get under the 70 mark. Not even vertically integrated, just doing it in a non-stupid way.
+- The centralized direction of a single company. 
+- Then there's vertical integration: We're going to own the process of developing all those technologies and the labor of installing them. 
+- The last is actual technological innovation.
+
+That will get us down to like 20! Your material costs should change with innovation; once you start innovating... which the industry doesn't do because of incentive problems... little gets built.
+
+Anything subsidized by the government (Utilities) are risk averse, not incentivized to innovate, etc. There are incredible designs for Nuclear reactors that change the math for ~50x that have been prototyped and built in some countries... and those are on my mind and on the horizon, but first we want to be building reactors, actually selling $X00B of jet fuel, and then doing the fun work of driving the base of that cost lower with innovation. 
+
+Q: This is a massive undertaking, which will take 10-15 years before you're actually there.
+A: Yeah, at what point is your R&D budget mostly coming from cash reinvested from selling our product, and I want to be there in 8 years (2 years ago). 
+
+Q: What kind of people..... Everything around here is high agency, urgency, etc. Why is that important?
+A: Time is absolutely everything. Close ranks with reality is probably the prime directive of Valar Atomics. We must repeatedly close ranks with reality. It takes SO MUCH internal energy to do that. You can sit at a desk or in a lab for years and have very limited slow trickle exposure to reality. You have to pull that reality onto you. Coming in every day and tackling reality. If you want to move fast and learn fast, you have to do constant energetic work to learn what reality is like, and it means acting aggressively constantly, every day. It's not a natural thing. 
+
+Q: Elon has set some very aggressive schedules, but also gets more done than pretty much everyone else.
+A: If your deadline does not seem literally impossible, then it's way too conservative. If your deadline seems reasonable.... go to an industry expert and tell them your timeline; if they don't gawk at you and hang up the phone, you're not aggressive enough. That's the only way that incredible technology moves forward. 
+
+Go to PatrickCollison.com/fast
+- The P-80 Shooting Star at Skunkworks; Kelly Johnson and his team created that, and from the commission they received to build the P80 to the first test 500mph test flight... was 143 days. 
+- If you told anyone to build a KIT PLANE in 143 days, they'd gawk at you; this was the first fighter jet in 143 days.
+- This is how startups must execute! The default is inaction, the default is going slower, waiting for suppliers, etc. 
+	- Don't wait for suppliers!
+
+Q: Boeing prided themselves by being supplied by 140,000... some crazy numbers of suppliers, and SpaceX is trying to vertically integrate everything... how do you think about that? 
+- In theory, you should be able to get financial leverage on certain parts of the business.
+- Let's say you have a process... Acme incorporated makes widgets, and the process has been designed, the machines/tools have been all designed, and it's a process making stuff.
+- It's almost guaranteed that somewhere in the world, that could be done more efficiently.
+- In the 70s/80s, a lot of companies realized this, and said: "Hey, we could probably get better competition on price across the board if we take parts and distribute them out... even if we separate them into different companies, even their base and their profit is less than it costs to do it here."
+- This works, but it doesn't include innovation; Technology should change at a rapid pace, it should be so different every year.
+- You could export the operation and save a little money, but that operation should change next year. And you can't change something that's being built across the world. It takes engineers looking at the machine.
+- I love to sit and look at it, and if you look at the El Segundo refinery, you can see how all of these parts are composed and how the processes are composed and how fluids move from one end to another, and how the scaffolding is built all around it... you start to think about this... and it's very internal/intuitive and not based on numbers...
+
+For us... we want to be maximally integrated, as integrated as we can be. The downside is that some things will cost more, we'll have to buy more tooling, but the speed is worth it, the pace is worth it.
+
+Q: When you first build a factory to produce these power plants ,will the R&D facility be at/near the factory?
+A: We want to be as colocated as we can, and as integrated as we possibly can, even to the extent to laying our own concrete.
+
+Q: What's the hardest thing you've ever overcome?
+A: That gets into some personal stuff, but let's do it... It's very very hard and worth it to have children. My son, my first son, frank, we brought him home from the hospital and I think the second night we were with him, no the first night, I randomly woke in the middle of the night an didn't know. I checked on him, and he wasn't breathing. We rushed him to the hospital at 90mph, and still not breathing when we reached the hospital. He's totally fine now, they put him on the respirator, etc. 
+Q: How long wasn't' he breathing?
+A: 6 minutes from wake up to emergency room, probably. That was... utterly terrifying, and I was praying every single moment that he would be okay. I guess I'm telling this now because I'm extremely grateful to God that he's okay. When things like that happen, you should remember them and publicly thank god for delivering you. That, and then the fear that comes from jumping off the cliff of starting a company, etc. You have to leap in everything.
+A: When we decided to have kids, I knew that spectrum of things was a possibility. You're exposing yourself to a spectrum of very difficult things. Overcoming the fear of simply doing it because you know it's worthwhile is hard, but once you've done it, you would never reverse it, once you've done it.
+
+
+__________
+
+Video: [Madison Malone: Inside America's Nuclear Energy Effort](https://www.youtube.com/watch?v=ceZt268RVHw) (June 17, 2025)
+
+Q: What is the ultimate industrial goal?
+A: Valar will built tens of ==thousands of nuclear reactors== over the coming decades; long-term, we think we can power the world.
+
+Q: "Is this the one that's going to the Phillipines?"
+A: We're ==basically doing a complete rebuild of this one in the Phillippines.==
+
+Essentially, we built a full Nuclear reactor, and we did this... to prove that it's possible to build one in under a year.
+We did everything but put Nuclear inside of it.
+It would take longer to do the licensing work to turn on the reactor than to build the entire thing.
+We set out: You can build Nuclear very quickly.
+
+Ward Zero: Our non-nuclear prototype reactor, which is about 100k pounds of steel and graphite, where we simulate a nuclear reaction. Instead of Uranium, we use silicone carbine, which is a strong electrical resistor. We pull out 12 city blocks of LA power off the grid, run it through the core, and it gets hotter than a nuclear reaction in the core. we can get this up to 2000C in the core. Now, Uranium centerline temperature in operation won't get that high, so we get hotter than a nuclear reaction.
+
+This is a test model. Essentially, we test all the systems, check out Helium leak rates, bring it up to pressure, temperature, etc.
+We'll build a copy in the Philippines.
+
+It's easy to recreate. It took us only about 4 months to fabricate after 6 months of design. 
+When we do ti again, this might come down to 2 months.
+In the long term we want to pump these out every couple of weeks. We want to build thousands, per-site probably hundreds.
+
+You named this (Ward) after your great grandfather.
+
+We're building four reactors in succession:
+- Ward Zero (non-nuclear prototype reactor)
+- Ward 1
+- Ward 2
+- Ward 3 
+Increasing power and sophistication, Ward 3 being the final commercial model that we build a lot of.
+
+We invented in the 40s, scaled out in 60s, and came to a halt in 1979 @ Three Mile Island.
+
+There's always a death rate associated with power.
+- How much power do you make
+- How many deaths per unit power?
+Nuclear is safer even than solar (typically in installation of solar panels on e.g. roofs, and in the material sourcing/mining)
+Nuclear is the safest form of power generation in the world.
+
+Elon sees the long curve of civilization and extracting huge amount of power from the sun... It's hard to imagine that the sun won't be the dominant source of energy in the solar system, but how are we going to power advanced manufacturing in the next 100 years? It's fission.
+
+Fission:
+- First discovered i Austria in 1938
+- First reactor built in the US in 1942
+- Quickly weaponized in the Manhattan Project
+- Isaiah believes fission and can be operated at scale.
+
+
+![[Pasted image 20260511001321.png]]
+==3 Modules that work together:==
+1. Heat Transport System (close left)
+	1. Open, to do maintenance
+2. Main Reactor Body (standing up, in the back left)
+3. The control center (right)
+
+Q: So an SMR is 
+A: Some people want to put a whole reactor in one box, including heat transport, including power conversion, these sorts of things. It's more logical to break these up. All three of these are built into ==ISO 668 Frames== (shipping container spec). 
+
+
+![[Pasted image 20260511001551.png]]
+Control center is pretty fun.
+- We don't want it to look like a hospital operating panel in the 1960s
+- We want people to fall in love with Nuclear and see it as something that powers the future.
+
+Q: In NZ we import a lot of coal. We have run out (?) of gas, and we have renewable energy for everything else. For an industrial scale, gas for residential is still required.... what solution do your SMRs potentially provide in creating not only energy, but fuels?
+A: We'd look at the off-gas from the coal plant, which is adding Co2 to the atmosphere, we'd capture that flue gas and convert it to either liquid fuels or natural gas. We can replace a gas supply or liquid fuel with the emissions of a coal plant.
+
+You want to build plants often and iterate and innovate. How do we drive down the safety curve in a technology. Cars, for instance: death rates are far lower. What's driven us down the curve is innovation: continuing to make new models, and make them better every year. We need to make reactors often and make them smaller and in a repeatable format. How do we improve it, how do we make it safer.
+
+![[Pasted image 20260511002100.png]]
+Uranium will be embedded in some of these fuel holes, and some of these holes are also open for cooling channels. There's as combination of helium flow and embedded uranium compacts.
+- A lot of nuclear companies need [[High-Assay Low-Enriched Uranium|HALEU]]... people want HALEU, it's an advanced fuel.
+- We actually use low-enriched uranium from [[Framatome]], which is off-the-shelf stuff that you can get anywhere.
+	- This powers 7% of global electricity today.
+	- We like using pre-existing supply chains that are very large and abundant.
+	- Uranium price... actually doesn't effect overall LC (lifetime cost) of nuclear too much
+	- Uranium is cheap compared to the power it makes, and the industry could scale up straightforwardly. Uranium is truly abundant on earth; there's enough Nuclear fuel on Earth to power humans for 40 billion years.
+
+
+![[Pasted image 20260511002347.png]]
+Inside the Ward Zero core.
+- Normally not open, just during refueling operations.
+- Three elements:
+	- Nuclear core: Stacked graphite
+	- Fuel blocks: Compact uranium and helium flow
+	- Graphite reflectors on the outside, and graphite base at the bottom
+	- All is stacked up inside the core barrel. You can see that we have a stainless steel 316 barrel, which is a heat shield, and then another vessel on the outside, thick heavy carbon steel outer RPV (reactor pressure vessel).
+The core gets up to ~2000C, but in actual nuclear operations, it will stay below 1000C.
+
+The next model we'll build will be 1.7x diameter, but still pretty small.
+The industrial capacity we have... we're really good at making things about the size of a bus, in the west. We get to use tools off the shelf from other manufacturers, more robust supply chain.
+
+![[Pasted image 20260511002826.png]]
+The thermal insulation on the underside of the "cap"
+It's shiny so that it reflects IR
+When we're producing a lot of IR heat, the shininess... we're reflecting it back down
+- This must be a different type of engineering, no?
+- Yeah, there are a lot of specialities in Nuclear. 
+
+
+==Q: Legal action against [[Nuclear Regulatory Commission|NRC]]?==
+A: When Congress passed the [[Atomic Energy Act of 1946]], they gave the feds carte blanche over anything that split the aton; anything there was under the [[Atomic Energy Commission|AEC]]. In 1954, they rolled it back a little, and said "There's a class of reactors ht AEC doesn't need to regulate," small, safe ones that aren't dangerous enough to effect the safety of the public or the US. They want to foster innovatino.
+The US Gov is great for created guardrails for mature industries, but not great for creating regulations that allow startups and smaller companies to do innovation and learn new ways of doing things.
+AEC ignored this mandate from Congress, and continued to claim jurisdiction.
+So I challenged them on this: Create a class of reactors which is outside the jurisdiction of the AEC, and our five co-plaintiffs States all want to accelerate nuclear and innovate by building reactors out in the desert, collecting data, iterating.
+
+
+I think that SMRs are one of the only ways to move ahead in the AI race.
+- It's hard to build new nat gas at this point
+- A couple years ago we were trying to move way from nat gas and now it seems we just need power wherever we can get it.
+- SMRs are positioned to be faster and cheaper than existing supplies of energy.
+
+
+Q: Synthetic Fuel?
+A: Current way the world gets most of their energy is by moving around hydrocarbon fuel
+- Can dig it out of the ground, a little dirty, etc
+- You can build it
+	- Take Co2 and Water, and you have all the ingredients to make jet fuel, diesel, natural gas.
+	- You need enough energy to split water into H and O, and then H, combined with Co2, makes a synthetic fuel. So essentially what we're talking about is large scale energy distribution rails.
+- You can think of the existing hydrocarbon infrastructure all over the world as an alternative energy grid. We get to plug into that if you can make hydrocarbons cheap enough. 
+
+
+Liquid fuel
+Stable at room temp
+Has the energy density need
+dHas elements already in the atmosphere
+
+We've stumbled onto an incredible thing with hydrocarbons.
+
+
+
+
+
+
+
+
+
+
+

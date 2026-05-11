@@ -1,3 +1,9 @@
+---
+aliases:
+  - Radiant
+---
+
+
 An El Segundo-based company developing portable, factory-build nuclear microreactor(s) (1MW, called ==Kaleidos==) designed for clean energy in remote locations and military bases (and also in space).
 - Kaleidos is a 1MW failsafe nuclear microreactor, with the Kaleidos Demonstration Unit (KDU) being tested in 2026, with initial customer deployments in 2028.
 
