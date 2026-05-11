@@ -1,6 +1,8 @@
 ---
 aliases:
   - Radiant
+  - Radiant Kaleidos
+  - Kaleidos
 ---
 
 

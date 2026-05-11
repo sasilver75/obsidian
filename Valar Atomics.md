@@ -1,3 +1,12 @@
+---
+aliases:
+  - Valar
+  - Ward Reactor
+  - Ward Zero
+  - Ward 250
+---
+
+
 # Leadership
 - Isaiah Taylor
 

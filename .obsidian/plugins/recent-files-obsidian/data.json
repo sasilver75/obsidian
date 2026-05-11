@@ -5,14 +5,6 @@
       "path": "Nuclear Fuel.md"
     },
     {
-      "basename": "Uranium Dioxide",
-      "path": "Uranium Dioxide.md"
-    },
-    {
-      "basename": "Experimental Breeder Reactor II",
-      "path": "Experimental Breeder Reactor II.md"
-    },
-    {
       "basename": "Separative Work Unit",
       "path": "Separative Work Unit.md"
     },
@@ -21,16 +13,72 @@
       "path": "Standard Nuclear.md"
     },
     {
+      "basename": "Nuclear Power Plant",
+      "path": "Nuclear Power Plant.md"
+    },
+    {
+      "basename": "Nuclear Index",
+      "path": "Nuclear Index.md"
+    },
+    {
+      "basename": "Passive Nuclear Safety",
+      "path": "Passive Nuclear Safety.md"
+    },
+    {
+      "basename": "Active Nuclear Safety",
+      "path": "Active Nuclear Safety.md"
+    },
+    {
+      "basename": "BWXT",
+      "path": "BWXT.md"
+    },
+    {
+      "basename": "National Nuclear Security Administration",
+      "path": "National Nuclear Security Administration.md"
+    },
+    {
+      "basename": "Tri-Structural Isotropic Fuel",
+      "path": "Tri-Structural Isotropic Fuel.md"
+    },
+    {
+      "basename": "Valar Atomics",
+      "path": "Valar Atomics.md"
+    },
+    {
+      "basename": "Utah San Rafael Energy Lab",
+      "path": "Utah San Rafael Energy Lab.md"
+    },
+    {
+      "basename": "Maxar",
+      "path": "Maxar.md"
+    },
+    {
+      "basename": "Radiant Industries",
+      "path": "Radiant Industries.md"
+    },
+    {
+      "basename": "Advanced Nuclear Power for Installations",
+      "path": "Advanced Nuclear Power for Installations.md"
+    },
+    {
+      "basename": "Uranium Dioxide",
+      "path": "Uranium Dioxide.md"
+    },
+    {
+      "basename": "Experimental Breeder Reactor II",
+      "path": "Experimental Breeder Reactor II.md"
+    },
+    {
+      "basename": "Chicago Pile Reactor",
+      "path": "Chicago Pile Reactor.md"
+    },
+    {
       "basename": "Neutronics",
       "path": "Neutronics.md"
     },
     {
       "basename": "Manhattan Project",
       "path": "Manhattan Project.md"
-    },
-    {
-      "basename": "Chicago Pile Reactor",
-      "path": "Chicago Pile Reactor.md"
     },
     {
       "basename": "Oak Ridge National Laboratory",
@@ -45,20 +93,8 @@
       "path": "Nuclear Criticality.md"
     },
     {
-      "basename": "Radiant Industries",
-      "path": "Radiant Industries.md"
-    },
-    {
       "basename": "Ultra Safe Nuclear Corporation",
       "path": "Ultra Safe Nuclear Corporation.md"
-    },
-    {
-      "basename": "Valar Atomics",
-      "path": "Valar Atomics.md"
-    },
-    {
-      "basename": "Tri-Structural Isotropic Fuel",
-      "path": "Tri-Structural Isotropic Fuel.md"
     },
     {
       "basename": "Vogtle Electric Generating Plant",
@@ -163,42 +199,6 @@
     {
       "basename": "Google Cloud Run",
       "path": "Google Cloud Run.md"
-    },
-    {
-      "basename": "Nuclear Fission",
-      "path": "Nuclear Fission.md"
-    },
-    {
-      "basename": "Thorium-Based Nuclear Power",
-      "path": "Thorium-Based Nuclear Power.md"
-    },
-    {
-      "basename": "Behind-The-Meter",
-      "path": "Behind-The-Meter.md"
-    },
-    {
-      "basename": "ColBERT",
-      "path": "ColBERT.md"
-    },
-    {
-      "basename": "Late Interaction",
-      "path": "Late Interaction.md"
-    },
-    {
-      "basename": "Nuclear Fusion",
-      "path": "Nuclear Fusion.md"
-    },
-    {
-      "basename": "Automatic Speech Recognition",
-      "path": "Automatic Speech Recognition.md"
-    },
-    {
-      "basename": "Text to Speech",
-      "path": "Text to Speech.md"
-    },
-    {
-      "basename": "Guidance, Navigation, and Control",
-      "path": "Guidance, Navigation, and Control.md"
     }
   ],
   "omittedPaths": [],

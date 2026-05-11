@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard Nuclear.md",
+                "file": "Nuclear Fuel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Standard Nuclear"
+              "title": "Nuclear Fuel"
             }
           },
           {
             "id": "fc2d1b16186f9b68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Separative Work Unit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Separative Work Unit"
-            }
-          },
-          {
-            "id": "774f7504a40402b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,6 +53,198 @@
               },
               "icon": "lucide-file",
               "title": "Nuclear Fuel"
+            }
+          },
+          {
+            "id": "774f7504a40402b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nuclear Power Plant.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nuclear Power Plant"
+            }
+          },
+          {
+            "id": "e43a239260626ad1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nuclear Fuel.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nuclear Fuel"
+            }
+          },
+          {
+            "id": "e340e933e9735a80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nuclear Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nuclear Index"
+            }
+          },
+          {
+            "id": "f4adf1f7c4a46011",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Active Nuclear Safety.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Active Nuclear Safety"
+            }
+          },
+          {
+            "id": "4240b826918a212d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BWXT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BWXT"
+            }
+          },
+          {
+            "id": "6f35856e5369345a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Nuclear Security Administration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Nuclear Security Administration"
+            }
+          },
+          {
+            "id": "ead99478b03044ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utah San Rafael Energy Lab.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Utah San Rafael Energy Lab"
+            }
+          },
+          {
+            "id": "2b7b86c39aead5e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nuclear Power Plant.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nuclear Power Plant"
             }
           },
           {
@@ -416,7 +584,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -479,7 +647,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2095,23 +2264,32 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "774f7504a40402b7",
+  "active": "fc2d1b16186f9b68",
   "lastOpenFiles": [
-    "Uranium Dioxide.md",
-    "Nuclear Fuel.md",
-    "Experimental Breeder Reactor II.md",
     "Separative Work Unit.md",
+    "Nuclear Fuel.md",
     "Standard Nuclear.md",
+    "Nuclear Power Plant.md",
+    "Nuclear Index.md",
+    "Passive Nuclear Safety.md",
+    "Active Nuclear Safety.md",
+    "BWXT.md",
+    "National Nuclear Security Administration.md",
+    "Tri-Structural Isotropic Fuel.md",
+    "Valar Atomics.md",
+    "Utah San Rafael Energy Lab.md",
+    "Maxar.md",
+    "Radiant Industries.md",
+    "Advanced Nuclear Power for Installations.md",
+    "Uranium Dioxide.md",
+    "Experimental Breeder Reactor II.md",
+    "Chicago Pile Reactor.md",
     "Neutronics.md",
     "Manhattan Project.md",
-    "Chicago Pile Reactor.md",
     "Oak Ridge National Laboratory.md",
     "Nuclear Power.md",
     "Nuclear Criticality.md",
-    "Radiant Industries.md",
     "Ultra Safe Nuclear Corporation.md",
-    "Valar Atomics.md",
-    "Tri-Structural Isotropic Fuel.md",
     "_attachments/Pasted image 20260511002826.png",
     "_attachments/Pasted image 20260511002347.png",
     "_attachments/Pasted image 20260511002100.png",
@@ -2119,18 +2297,9 @@
     "_attachments/Pasted image 20260511001321.png",
     "Vogtle Electric Generating Plant.md",
     "Power.md",
-    "Radiant Earth Foundation.md",
     "_attachments/Pasted image 20260510213834.png",
     "_attachments/Pasted image 20260510213824.png",
     "_attachments/Pasted image 20260510213809.png",
-    "Nuclear Meltdown.md",
-    "Automatic Identification System.md",
-    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Articles/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
-    "Westinghouse AP1000.md",
-    "NuScale Power.md",
-    "Westinghouse.md",
-    "Nuclear Energy Industry Modernization Act.md",
     "_attachments/Pasted image 20260509225603.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "_attachments/Pasted image 20260509181126.png",
