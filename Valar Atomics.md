@@ -115,5 +115,35 @@ When he was 14-16, he posed as a 22 year old... posted it on ELance, now called 
 
 
 
+Q: So what... we said.. if you put one power plant or 100 power plants, it's the same environmental study and like $200M to get it done, what are the other... fixed costs associated with building a nuclear power project?
+A: When people think about Nuclear power, they're imagining that reactors have to be cheaper, the reactor cores. This isn't quite true (it's great if you could, though). Most of the cost is cost of capital and plant. ==Cost of capital and cost of plant are the two major costs in Nuclear power.==
+- Environment surveys
+- Siting
+- Nuclear power ... there's so much construction, and it's unique construction, and novel construction... 
+So much of your costs are specific to your site and the person/company that's authorizing and financing the site, and there are parties that are bringing labor, parties bringing the cores, etc.
+- If you're a nuclear reactor company and making one reactor that's going to make a certain amount of power in NEvada, and another in NY. the people who build those ttwo sites (welding, concrete, rebar) are completely different people; different LABOR UNIONS govern those two processes, and different regulations about how the capital is raised, and how much capital need sto be on-hand.
+- ==All these things make Nuclear as an industry very site-specific and site-bound.==
+	- There are incredibly different scaling laws associated with scaling nuclear powers.
+- The world has committed to tripling our nuclear capacity in the next 20 years... if you think about what this means, it's a coordination problem of unbelievable magnitude, because you have so much dissimilarity between the locations where you could build each site.
+- You want to minimize how important hte site is, and maximize the power, if you want to do super cheap nucelar.
+
+So you have to pick somewhere, draw a circle, and say "This is our nuclear site"
+- Pay for labor crews
+- Pay for environmental survey
+- Pay for compliance
+- Figure out the capital
+All of these things come together... ==And you want to do this ideally once ,or maybe twice==, and then you want to put HUNDREDS OF GW OF POWER onto that circle, if you can!
+
+A typical nuclear powerplant is 1-2GW. The largest nuclear site int eh world is an 8GW plant (1 each in Japan, China). You want to build tons of nuclear capacity on a single site, because ==there's a set of costs that don't scale with the total amount of power there==. The majority of costs don't scale with that.
 
 
+Electricity is not dynamically transportable through space
+- If you have an electrical generation station, there are a few locations to which you can transmit power, but it's largely preset/hardwired in. 
+- If you're a flower shop, you want to be able to sell at the highest price, to whoever wants the flowers the most.
+- You want to be able to put flowers on the shelf (eg from Feb 10 to Feb 13) when people are very desperate for those flowers.
+- You want your product to be able to move in space and time to where it's needed; electricity is not like that at all. We don't need to store it through time:
+	- Batteries are too expensive; we don't have mass-scale grid storage.
+		- This is getting slowly better but just not there yet
+	- Can only sell your "flowers" to like 5 people, in Energy, because of the distribution of the Grid.
+
+Even if you put out money in advance and have the ability to generate 7GW... how 

@@ -5,12 +5,24 @@
       "path": "Valar Atomics.md"
     },
     {
-      "basename": "Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
       "basename": "Nuclear Meltdown",
       "path": "Nuclear Meltdown.md"
+    },
+    {
+      "basename": "Automatic Identification System",
+      "path": "Automatic Identification System.md"
+    },
+    {
+      "basename": "Nuclear Power",
+      "path": "Nuclear Power.md"
+    },
+    {
+      "basename": "Radiant Industries",
+      "path": "Radiant Industries.md"
+    },
+    {
+      "basename": "Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
     },
     {
       "basename": "Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}",
@@ -33,16 +45,8 @@
       "path": "Westinghouse.md"
     },
     {
-      "basename": "Radiant Industries",
-      "path": "Radiant Industries.md"
-    },
-    {
       "basename": "Nuclear Criticality",
       "path": "Nuclear Criticality.md"
-    },
-    {
-      "basename": "Nuclear Power",
-      "path": "Nuclear Power.md"
     },
     {
       "basename": "Nuclear Energy Industry Modernization Act",
@@ -195,10 +199,6 @@
     {
       "basename": "Marine Corps Warfighting Laboratory",
       "path": "Marine Corps Warfighting Laboratory.md"
-    },
-    {
-      "basename": "Joint Fires Network",
-      "path": "Joint Fires Network.md"
     }
   ],
   "omittedPaths": [],

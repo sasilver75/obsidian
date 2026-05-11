@@ -13,30 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nuclear Meltdown.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Meltdown"
-            }
-          },
-          {
-            "id": "75117a1e46d565da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Valar Atomics.md",
                 "mode": "source",
                 "source": false,
@@ -53,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "Valar Atomics"
+            }
+          },
+          {
+            "id": "75117a1e46d565da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automatic Identification System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Automatic Identification System"
             }
           },
           {
@@ -127,8 +127,7 @@
               "title": "Power"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -1807,19 +1806,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "75117a1e46d565da",
+  "active": "b92a635a2d258b38",
   "lastOpenFiles": [
-    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Valar Atomics.md",
     "Nuclear Meltdown.md",
+    "Automatic Identification System.md",
+    "Nuclear Power.md",
+    "Radiant Industries.md",
+    "Valar Atomics.md",
+    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
     "Articles/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md",
     "Westinghouse AP1000.md",
     "Power.md",
     "NuScale Power.md",
     "Westinghouse.md",
-    "Radiant Industries.md",
     "Nuclear Criticality.md",
-    "Nuclear Power.md",
     "Nuclear Energy Industry Modernization Act.md",
     "Atomic Energy Commission.md",
     "Idaho National Laboratory.md",
@@ -1834,7 +1834,6 @@
     "AgentInstruct.md",
     "Orca-Math.md",
     "Microsoft Research.md",
-    "Persona Hub.md",
     "_attachments/Pasted image 20260509225603.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "_attachments/Pasted image 20260509181126.png",
