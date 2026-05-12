@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b92a635a2d258b38",
+            "id": "19dc710eb6934df3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nuclear Fuel.md",
+                "file": "Valar Atomics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nuclear Fuel"
+              "title": "Valar Atomics"
             }
           },
           {
-            "id": "fc2d1b16186f9b68",
+            "id": "21d7fff74839a6ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nuclear Fuel.md",
+                "file": "Los Alamos National Laboratory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nuclear Fuel"
+              "title": "Los Alamos National Laboratory"
             }
           },
           {
-            "id": "774f7504a40402b7",
+            "id": "6539986adb557b59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nuclear Power Plant.md",
+                "file": "Army Nuclear Power Program.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nuclear Power Plant"
+              "title": "Army Nuclear Power Program"
             }
           },
           {
-            "id": "e43a239260626ad1",
+            "id": "be275ccf68768fd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nuclear Fuel.md",
+                "file": "Strategic Capabililties Office.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nuclear Fuel"
+              "title": "Strategic Capabililties Office"
             }
           },
           {
-            "id": "e340e933e9735a80",
+            "id": "a805db969a99ee97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nuclear Index.md",
+                "file": "United States Department of Defense.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nuclear Index"
+              "title": "United States Department of Defense"
             }
           },
           {
-            "id": "f4adf1f7c4a46011",
+            "id": "2b3368ec057e639f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Nuclear Safety.md",
+                "file": "United States Department of Defense.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,59 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Active Nuclear Safety"
+              "title": "United States Department of Defense"
             }
           },
           {
-            "id": "4240b826918a212d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BWXT.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "BWXT"
-            }
-          },
-          {
-            "id": "6f35856e5369345a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "National Nuclear Security Administration.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "National Nuclear Security Administration"
-            }
-          },
-          {
-            "id": "ead99478b03044ec",
+            "id": "7937b04300dce76a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -222,369 +174,8 @@
               "icon": "lucide-file",
               "title": "Utah San Rafael Energy Lab"
             }
-          },
-          {
-            "id": "2b7b86c39aead5e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nuclear Power Plant.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Power Plant"
-            }
-          },
-          {
-            "id": "2978f684e2b154cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uranium Dioxide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Uranium Dioxide"
-            }
-          },
-          {
-            "id": "781a52b25dbbce3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uranium Dioxide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Uranium Dioxide"
-            }
-          },
-          {
-            "id": "9384407af612afb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Experimental Breeder Reactor II.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Experimental Breeder Reactor II"
-            }
-          },
-          {
-            "id": "bdc0c6600bd52f0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chicago Pile Reactor.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Chicago Pile Reactor"
-            }
-          },
-          {
-            "id": "03246a0f8fb1dcca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nuclear Criticality.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Criticality"
-            }
-          },
-          {
-            "id": "0eb3d15672f00775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Radiant Industries.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Radiant Industries"
-            }
-          },
-          {
-            "id": "82e0764ab5fb39bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Oak Ridge National Laboratory.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Oak Ridge National Laboratory"
-            }
-          },
-          {
-            "id": "967245d117d7761d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ultra Safe Nuclear Corporation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ultra Safe Nuclear Corporation"
-            }
-          },
-          {
-            "id": "75117a1e46d565da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automatic Identification System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Automatic Identification System"
-            }
-          },
-          {
-            "id": "75e7032644fb72c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}"
-            }
-          },
-          {
-            "id": "6d0ca7f3da702d73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NuScale Power.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "NuScale Power"
-            }
-          },
-          {
-            "id": "47ed9fc87a60de41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nuclear Power.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Power"
-            }
-          },
-          {
-            "id": "8e5c7905c5881f2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vogtle Electric Generating Plant.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Vogtle Electric Generating Plant"
-            }
-          },
-          {
-            "id": "19dc710eb6934df3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neutronics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Neutronics"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -616,7 +207,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Falcon",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2264,45 +1855,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fc2d1b16186f9b68",
+  "active": "19dc710eb6934df3",
   "lastOpenFiles": [
-    "Separative Work Unit.md",
-    "Nuclear Fuel.md",
-    "Standard Nuclear.md",
-    "Nuclear Power Plant.md",
-    "Nuclear Index.md",
-    "Passive Nuclear Safety.md",
-    "Active Nuclear Safety.md",
-    "BWXT.md",
-    "National Nuclear Security Administration.md",
-    "Tri-Structural Isotropic Fuel.md",
-    "Valar Atomics.md",
-    "Utah San Rafael Energy Lab.md",
-    "Maxar.md",
-    "Radiant Industries.md",
-    "Advanced Nuclear Power for Installations.md",
-    "Uranium Dioxide.md",
-    "Experimental Breeder Reactor II.md",
-    "Chicago Pile Reactor.md",
-    "Neutronics.md",
-    "Manhattan Project.md",
-    "Oak Ridge National Laboratory.md",
-    "Nuclear Power.md",
     "Nuclear Criticality.md",
+    "Valar Atomics.md",
+    "Los Alamos National Laboratory.md",
+    "Project Pele.md",
+    "Army Nuclear Power Program.md",
+    "Nuclear Fusion.md",
+    "Westinghouse AP1000.md",
+    "Strategic Capabililties Office.md",
+    "United States Department of Defense.md",
+    "_attachments/Pasted image 20260511184810.png",
+    "Radiant Industries.md",
+    "Falcon.md",
+    "Defense Innovation Unit.md",
+    "Utah San Rafael Energy Lab.md",
+    "High Temperature Gas Reactor.md",
+    "Advanced Nuclear Power for Installations.md",
+    "Janus Program.md",
+    "Neutronics.md",
+    "Vogtle Electric Generating Plant.md",
+    "Nuclear Power.md",
+    "NuScale Power.md",
+    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
+    "Automatic Identification System.md",
     "Ultra Safe Nuclear Corporation.md",
+    "Oak Ridge National Laboratory.md",
+    "Chicago Pile Reactor.md",
+    "Experimental Breeder Reactor II.md",
     "_attachments/Pasted image 20260511002826.png",
     "_attachments/Pasted image 20260511002347.png",
     "_attachments/Pasted image 20260511002100.png",
     "_attachments/Pasted image 20260511001551.png",
     "_attachments/Pasted image 20260511001321.png",
-    "Vogtle Electric Generating Plant.md",
-    "Power.md",
     "_attachments/Pasted image 20260510213834.png",
     "_attachments/Pasted image 20260510213824.png",
     "_attachments/Pasted image 20260510213809.png",
     "_attachments/Pasted image 20260509225603.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
-    "_attachments/Pasted image 20260509181126.png",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
     "HTTP",

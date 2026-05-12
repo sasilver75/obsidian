@@ -11,11 +11,48 @@ An El Segundo-based company developing portable, factory-build nuclear microreac
 
 > Radiant's factory-built, transportable nuclear generators are designed to provide always-on power for ==defense==, ==disaster response==,  ==remote industry==, and ==critical infrastructure==: applications where traditional energy systems fall short, e.g. ==power for refugees==.
 
-# Questions:
-- Why did Bob Urberger, co-founder and CTO, leave the company in January 2025? Does Radiant have a replacement as CTO? How did his department affect July [[Idaho National Laboratory]] timelines?
-- I see that Radiant was the first company to sign a contract with the DoE for [[High-Assay Low-Enriched Uranium|HALEU]] fuel... and then I also see that they have one of the first commercial contracts for [[High-Assay Low-Enriched Uranium|HALEU]] enrichment with Urenco in the UK. Is the idea that DoE supplies HALEU for just the [[Idaho National Laboratory|INL]]/[[Idaho National Laboratory|DOME]] tests (and maybe for military applications), and then for future non-government commercial use cases, you'd use HALEU from Urenco?
-- It's very exciting that you guys announced the R-50 factory in Oak Ridge, Tennessee (home of Oak Ridge National Labs), with the goal of scaling production to 50 reactors per year within a few years of the beginning of production in 2028. What's the future of Radiant in El Segundo, specifically?
-- What's the size of the software engineering org? What do they handle? I know they do control systems for the reactor, the digital twin simulation stuff, 
+# Rene Intro
+- Thanks for talking with me! Again I don't think that we met at WashU, but I'm very happy that you seem to have found yourself to a very important and exciting space, at what seems like a very fortuitous time.
+- The Short of it is that I've recently graduated with an ML Master's and moved back down to LA, and along with the usual roles, I'm looking at adjacent things in robotics, energy, defense, etc. and perhaps considering working at a similar microreactor company in a similar role to the one you initially worked for.
+- So there's probably no one in the world who would be more relevant to talk to than you, and I'm really happy that Pat was able to connect us.
+
+# Rene Explanation
+- I've been a software engineer for a few years working at a variety of startups in electric vehicles, satellite agronomy and carbon credits, and mobile gaming, all sort of with a geospatial tint or flavor to them.
+- Got very interested again in Machine Learning in late 2022 (ChatGPT), and starting angling myself towards that and starting to tie up loose ends at work. Went to the only program that still had open admissions and was on the west coast, which ended up being a new Natural Language Processing program at UCSC from some CMU folks that had moved to the bay. Moved back down here afterwards in the last few months because my girlfriend got a job at Waymo (my internship at Niantic didn't convert because they got acquired), and so I'm looking around for interesting things to work on. 
+- So looking forward now about how to build a long-term career in LA, where the tech ecosystem has slightly changed since I last lived and worked here, a lot of interesting activity in the south bay and the extended Gundoverse, so I've been looking at a number of satellite, defense, manufacturing, and energy companies.
+- I've been following some of these folks on twitter for a few years and watching them, and ended up getting a tour of their Hawthorne factory from their director of business operations, Elijah Froh, last week. The facility is a little dead now, because a lot of the staff is up at the [[Utah San Rafael Energy Lab]] site, where they moved their Ward 250 reactor (Radiant is instead at [[Idaho National Laboratory|INL]]'s [[Idaho National Laboratory|DOME]] facility).  They ended up offering me what they call a "henchman" job, which I think is perhaps somewhat similar to what your initial "Operations" role was at Radiant.
+- So I've been holding onto that offer and have for the last few days been just sitting on my couch and trying to cram everything possible about this space and its history into my head so that I can make a more informed decision, which shortly led me to Radiant, and then to you. So along with learning about the history of Atoms for Peace, the TRISO supply chain, Project Pele, etc., I've also I think consumed pretty much every piece of media from both Radiant and Valar.
+	- 
+
+# Rene Questions:
+- Tell me about your trajectory since WashU? From seeing you in class I wouldn't have guessed that you were on the Formula SAE team, and then you went on to work for McMaster-Carr, in what looks like a pretty cool rotational program, even as a software engineer, and then on to Radiant. Was this path pretty intentional from the get-go?
+	- 
+- So you joined in November 2022, which I see was before their Series A, even... so how the hell did you hear about Radiant, and what was your pitch to them with respect to what you could bring to the table? Obviously you had a broad exposure to manufacturing through your time at McMaster Carr. And it seems like in whatever "Operations" role you were able to get, you quickly proved yourself, because you were, Doug Bernauer's, I assume, Chief of Staff, pretty quickly. What was that initial role like and how did you distinguish yourself? What was it like working for Doug (c.f. Isaiah Taylor), and how did your role evolve as the company's did?
+	- 
+- It's very exciting that you guys announced the R-50 factory in Oak Ridge, Tennessee (home of Oak Ridge National Labs), with the goal of scaling production to 50 reactors per year within a few years of the beginning of production in 2028. What's the future of Radiant in El Segundo, specifically? The TRISO fuel source is likely coming from a company near Tennessee, the reactor manufacturing being done in Tennessee, ... what's the point of being based in a manufacturing powerhouse like El Segundo?
+	- 
+- Can you tell me about the Equinix deal for 20x 1MW units, and how that deal came together? I typically think of 20MWe as being a little bit too small for a typical data center, so how are they thinking of using them? It seems to me that based on what I hear as the goals in terms of units-per-year, that pretty much books you out for the next 4 years or so, is that right (Doug: "By 2030 we want 10 or more, and at 2033 or so, be at that 50 or more a year figure.")?  How do you continue to sell when you're bottlenecked on production, like that? Or do you just put the sales function on a shelf and say "See you in a few years?"
+	- 
+	- Q: What does the actual deposit mean, in this context? Is it a refundable, milestone-gated thing, or are they prepaying in lump sum?
+		- 
+- Company shakeups:
+	- Q: Why did Bob Urberger, co-founder and CTO, leave the company in January 2025? Does Radiant have a replacement as CTO? How did his department affect July [[Idaho National Laboratory]] timelines?
+	- Q: Similarly, I saw that Tori (Shivanandan) had been named President at Radiant... Doug said "Her new role reflects what she's already been doing here," so is she still operating as interim COO or is there someone in mind to replace her?
+	- Q: What do you think of the leadership, generally?
+- I see that Radiant was the first company to sign a contract with the DoE for [[High-Assay Low-Enriched Uranium|HALEU]] fuel... and then I also see that they have one of the first commercial contracts for [[High-Assay Low-Enriched Uranium|HALEU]] enrichment with Urenco in the UK. Is the idea that DoE supplies HALEU for just the [[Idaho National Laboratory|INL]]/[[Idaho National Laboratory|DOME]] tests (and maybe for military applications), and then for future non-government commercial use cases, you'd use HALEU from Urenco?... and then of course that still needs to be processed into [[Tri-Structural Isotropic Fuel|TRISO]], so what's the plan there, because it seems like the only options in town are BWXT, Standard Nuclear, and X-Energy, unless you try to vertically integrate it like the folks at [[Oklo]]? I listened to a podcast with a Kurt Terrani from [[Standard Nuclear]] and Thomas Hendrix from Decisive Point Group (VC, invested in Radiant), and it seemed that Thomas was saying that Radiant's realization that the supply chain might be tight was what prompted their investment in Kurt @ Standard Nuclear after the [[Ultra Safe Nuclear Corporation]] (USNC) broke up (side note: Mark, President of USNC, is CNO @ Valar).
+	- 
+- What's the size of the software engineering org? What do they handle? I know they do control systems for the reactor, the digital twin simulation stuff, but unsure what else. Curious if those people come from typical SaaS-type software engineering backgrounds, or if they're a different breed from myself.
+	- 
+- What do you think about Valar and other "competitors" in the DoE RPP (e.g. Oklo?)? They're explicitly going offshore in the Philippines to iterate faster, their endgame is synthetic hydrocarbons, their team is somewhat more motley, relative to Radiant, I think, but they seem to be moving quite fast. Is there room for many winners? How do you assess yourself relative to others, on whatever dimensions you think are interesting? What comes after the RPP, or is that just one iron in the fire for you?
+	- 
+- So the recent "Operation Windlord" that got a lot of buzz about Ward 250 being transported to Utah San Rafael Energy Lab... thoughts on that?
+	- 
+- I was just reading about the [[Janus Program]] from the US Army (~$1-1.5B with 2-3 developers downselected), that they announced in October/November of last year... where they're deploying microreactors at a few sites. I know that you're working of course with the [[Defense Innovation Unit]] (DIU) and Air Force to deploy at Buckley Space force base as part of the [[Advanced Nuclear Power for Installations]] (ANPI) program ([LINK](https://www.diu.mil/latest/DOD-selects-eligible-companies-for-the-Advanced-Nuclear-Power-for-Installations-Program)) (which Valar was NOT selected for)... So there's a lot of programs going on. What's the timeline on that Janus Program, and is that the big fish right now?
+	- Q: Can you better help me pick apart some of the different slices of government (and commercial) customers that you're seeing, and why different customers do or do not move forward with specific microreactor companies?
+- Can you tell me about the authorization routes that are available for these microreactor companies? I see you went for the newer [[United States Department of Energy|DoE]] authorization route, rather than the [[Nuclear Regulatory Commission|NRC]]'s... how was that choice made? My understanding is that DoE authorization gets you onto government land fast but you can't deploy on non-federal land, so NRC licensing seems like the path to off-base use, is that correct? It seems that you're doing very well in government contracts.
+- It seems like political support both from the American people and from the administration isn't going to go anywhere in the next few years -- what does working with the Trump admin look like? I know that Isaiah spends a lot of time at Mar-a-Lago.
+- What do the current unit economics in terms of dollars be $/
+- I don't know enough yet to understand how these [[High Temperature Gas Reactor|HTGR]]s scale to larger power output -- I know that the Chinese [[Shidao Bay HTR-PM]] reactors are in the hundreds of MW, is doing that something that's on like the 10 year time frame, or does that just not make sense given our grid? 
 
 # Fundraising
 - Sep 22, 2020: $1.2M Angel Round
@@ -27,7 +64,7 @@ An El Segundo-based company developing portable, factory-build nuclear microreac
 Headcount: 101-250
 
 # People
-- Doug Bernauer, founder/CEO
+- ==Doug Bernauer==, founder/CEO
 	- Spent 12 years at SpaceX as an R&D engineer, where he led avionics development for the Grasshopper rocket and worked on Hyperloop and The Boring Company.
 	- Excited by ideas of how to power a potential Mars colony, which sparked his interest in advanced, portable energy solutions.
 - ~~Bob Urberger, co-founder/CTO~~
@@ -43,9 +80,6 @@ Then climate change, and eventually an acceptance of climate change. Now we have
 We're trying to build a new reactor that no one has ever done before: We want to iterate as quickly as possible, and the only way to do that is to make a lot of reactors. 
 
 Secured partnerships with the DoD (DIU; Defense Innovation Unit)
-
-
-
 
 
 
@@ -123,7 +157,7 @@ Quotes below from interview with Doug Bernauer
 Q: What is the actual idea for the first version of the Radiant reactor?
 A: We're doing this test on July 4, and by 2028 we want to have one unit out to a customer, likely licensed through the NRC, though we do have the option of using a DoE authorization license, where we can put it at a military base in the US (on government land, essentially). We want a partner who knows how to operate these units, who likes that it's mobile, but doesn't need it to be mobile.  The ideal partner is a domestic military installation... there's security at those facilities, so we don't have to worry about someone doing something they shouldn't be doing to the unit.
 - We signed a contract with the Airforce
-- There's a DoD program called JANUS just announced, which is to the tune of a $1-1.5B program; not sure how much will go to the developers; there will be 2-3 developers that they'll downselect later.
+- There's a DoD program called  just announced, which is to the tune of a $1-1.5B program; not sure how much will go to the developers; there will be 2-3 developers that they'll downselect later.
 - Our goal is to make maybe 15 reactors to put into those programs.
 
 We also have a deal signed with Equinix, a datacenter company, which is a downpayment for 20 units (one of the more real deals in Nuclear). We didn't really understand the interest that datacenters would have... 1MW is pretty small. 30MW or 100MW for a single datacenter is common... but they're still interested in 1MW because our reactor can go in a 1500 square foot area, and we can put 4 MW on 4000 square feet. These datacenters' interests are in having power immediately. 

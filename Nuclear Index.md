@@ -3,9 +3,11 @@
 - [[Nuclear Power]]
 - [[Nuclear Fission]]
 - [[Nuclear Fusion]]
+- [[Nuclear Enrichment]]
 - [[Nuclear Fuel]]
 - [[Nuclear Power Plant]]
-
+- [[Nuclear Meltdown]]
+- [[Nuclear Waste]]
 
 # Fuels
 - [[Uranium Dioxide]]

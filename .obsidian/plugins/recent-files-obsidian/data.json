@@ -1,108 +1,180 @@
 {
   "recentFiles": [
     {
-      "basename": "Nuclear Fuel",
-      "path": "Nuclear Fuel.md"
-    },
-    {
-      "basename": "Separative Work Unit",
-      "path": "Separative Work Unit.md"
-    },
-    {
-      "basename": "Standard Nuclear",
-      "path": "Standard Nuclear.md"
-    },
-    {
-      "basename": "Nuclear Power Plant",
-      "path": "Nuclear Power Plant.md"
-    },
-    {
-      "basename": "Nuclear Index",
-      "path": "Nuclear Index.md"
-    },
-    {
-      "basename": "Passive Nuclear Safety",
-      "path": "Passive Nuclear Safety.md"
-    },
-    {
-      "basename": "Active Nuclear Safety",
-      "path": "Active Nuclear Safety.md"
-    },
-    {
-      "basename": "BWXT",
-      "path": "BWXT.md"
-    },
-    {
-      "basename": "National Nuclear Security Administration",
-      "path": "National Nuclear Security Administration.md"
-    },
-    {
-      "basename": "Tri-Structural Isotropic Fuel",
-      "path": "Tri-Structural Isotropic Fuel.md"
-    },
-    {
       "basename": "Valar Atomics",
       "path": "Valar Atomics.md"
-    },
-    {
-      "basename": "Utah San Rafael Energy Lab",
-      "path": "Utah San Rafael Energy Lab.md"
-    },
-    {
-      "basename": "Maxar",
-      "path": "Maxar.md"
-    },
-    {
-      "basename": "Radiant Industries",
-      "path": "Radiant Industries.md"
-    },
-    {
-      "basename": "Advanced Nuclear Power for Installations",
-      "path": "Advanced Nuclear Power for Installations.md"
-    },
-    {
-      "basename": "Uranium Dioxide",
-      "path": "Uranium Dioxide.md"
-    },
-    {
-      "basename": "Experimental Breeder Reactor II",
-      "path": "Experimental Breeder Reactor II.md"
-    },
-    {
-      "basename": "Chicago Pile Reactor",
-      "path": "Chicago Pile Reactor.md"
-    },
-    {
-      "basename": "Neutronics",
-      "path": "Neutronics.md"
-    },
-    {
-      "basename": "Manhattan Project",
-      "path": "Manhattan Project.md"
-    },
-    {
-      "basename": "Oak Ridge National Laboratory",
-      "path": "Oak Ridge National Laboratory.md"
-    },
-    {
-      "basename": "Nuclear Power",
-      "path": "Nuclear Power.md"
     },
     {
       "basename": "Nuclear Criticality",
       "path": "Nuclear Criticality.md"
     },
     {
-      "basename": "Ultra Safe Nuclear Corporation",
-      "path": "Ultra Safe Nuclear Corporation.md"
+      "basename": "Los Alamos National Laboratory",
+      "path": "Los Alamos National Laboratory.md"
+    },
+    {
+      "basename": "Project Pele",
+      "path": "Project Pele.md"
+    },
+    {
+      "basename": "Army Nuclear Power Program",
+      "path": "Army Nuclear Power Program.md"
+    },
+    {
+      "basename": "Nuclear Fusion",
+      "path": "Nuclear Fusion.md"
+    },
+    {
+      "basename": "Westinghouse AP1000",
+      "path": "Westinghouse AP1000.md"
+    },
+    {
+      "basename": "Strategic Capabililties Office",
+      "path": "Strategic Capabililties Office.md"
+    },
+    {
+      "basename": "United States Department of Defense",
+      "path": "United States Department of Defense.md"
+    },
+    {
+      "basename": "Radiant Industries",
+      "path": "Radiant Industries.md"
+    },
+    {
+      "basename": "Falcon",
+      "path": "Falcon.md"
+    },
+    {
+      "basename": "Defense Innovation Unit",
+      "path": "Defense Innovation Unit.md"
+    },
+    {
+      "basename": "Utah San Rafael Energy Lab",
+      "path": "Utah San Rafael Energy Lab.md"
+    },
+    {
+      "basename": "High Temperature Gas Reactor",
+      "path": "High Temperature Gas Reactor.md"
+    },
+    {
+      "basename": "Advanced Nuclear Power for Installations",
+      "path": "Advanced Nuclear Power for Installations.md"
+    },
+    {
+      "basename": "Janus Program",
+      "path": "Janus Program.md"
+    },
+    {
+      "basename": "Neutronics",
+      "path": "Neutronics.md"
     },
     {
       "basename": "Vogtle Electric Generating Plant",
       "path": "Vogtle Electric Generating Plant.md"
     },
     {
+      "basename": "Nuclear Power",
+      "path": "Nuclear Power.md"
+    },
+    {
+      "basename": "NuScale Power",
+      "path": "NuScale Power.md"
+    },
+    {
+      "basename": "Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
+      "path": "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Automatic Identification System",
+      "path": "Automatic Identification System.md"
+    },
+    {
+      "basename": "Ultra Safe Nuclear Corporation",
+      "path": "Ultra Safe Nuclear Corporation.md"
+    },
+    {
+      "basename": "Oak Ridge National Laboratory",
+      "path": "Oak Ridge National Laboratory.md"
+    },
+    {
+      "basename": "Chicago Pile Reactor",
+      "path": "Chicago Pile Reactor.md"
+    },
+    {
+      "basename": "Experimental Breeder Reactor II",
+      "path": "Experimental Breeder Reactor II.md"
+    },
+    {
+      "basename": "Uranium Dioxide",
+      "path": "Uranium Dioxide.md"
+    },
+    {
+      "basename": "Nuclear Power Plant",
+      "path": "Nuclear Power Plant.md"
+    },
+    {
+      "basename": "National Nuclear Security Administration",
+      "path": "National Nuclear Security Administration.md"
+    },
+    {
+      "basename": "BWXT",
+      "path": "BWXT.md"
+    },
+    {
+      "basename": "Active Nuclear Safety",
+      "path": "Active Nuclear Safety.md"
+    },
+    {
+      "basename": "Nuclear Index",
+      "path": "Nuclear Index.md"
+    },
+    {
+      "basename": "Nuclear Fuel",
+      "path": "Nuclear Fuel.md"
+    },
+    {
+      "basename": "Nuclear Fission",
+      "path": "Nuclear Fission.md"
+    },
+    {
+      "basename": "Pressurized Water Reactor",
+      "path": "Pressurized Water Reactor.md"
+    },
+    {
+      "basename": "Standard Nuclear",
+      "path": "Standard Nuclear.md"
+    },
+    {
+      "basename": "Tri-Structural Isotropic Fuel",
+      "path": "Tri-Structural Isotropic Fuel.md"
+    },
+    {
       "basename": "Power",
       "path": "Power.md"
+    },
+    {
+      "basename": "Janus (Model)",
+      "path": "Janus (Model).md"
+    },
+    {
+      "basename": "Rene Babior Questions",
+      "path": "Rene Babior Questions.md"
+    },
+    {
+      "basename": "Separative Work Unit",
+      "path": "Separative Work Unit.md"
+    },
+    {
+      "basename": "Passive Nuclear Safety",
+      "path": "Passive Nuclear Safety.md"
+    },
+    {
+      "basename": "Maxar",
+      "path": "Maxar.md"
+    },
+    {
+      "basename": "Manhattan Project",
+      "path": "Manhattan Project.md"
     },
     {
       "basename": "Radiant Earth Foundation",
@@ -113,24 +185,8 @@
       "path": "Nuclear Meltdown.md"
     },
     {
-      "basename": "Automatic Identification System",
-      "path": "Automatic Identification System.md"
-    },
-    {
-      "basename": "Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
       "basename": "Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}",
       "path": "Articles/Big Tech's LLM Evals are just Marketing (Dec 2023) {Nathan Lambert, Interconnects Blog}.md"
-    },
-    {
-      "basename": "Westinghouse AP1000",
-      "path": "Westinghouse AP1000.md"
-    },
-    {
-      "basename": "NuScale Power",
-      "path": "NuScale Power.md"
     },
     {
       "basename": "Westinghouse",
@@ -143,62 +199,6 @@
     {
       "basename": "Atomic Energy Commission",
       "path": "Atomic Energy Commission.md"
-    },
-    {
-      "basename": "Idaho National Laboratory",
-      "path": "Idaho National Laboratory.md"
-    },
-    {
-      "basename": "Defense Innovation Unit",
-      "path": "Defense Innovation Unit.md"
-    },
-    {
-      "basename": "United States Department of Energy",
-      "path": "United States Department of Energy.md"
-    },
-    {
-      "basename": "Nuclear Regulatory Commission",
-      "path": "Nuclear Regulatory Commission.md"
-    },
-    {
-      "basename": "Project Pele",
-      "path": "Project Pele.md"
-    },
-    {
-      "basename": "High Temperature Gas Reactor",
-      "path": "High Temperature Gas Reactor.md"
-    },
-    {
-      "basename": "High-Assay Low-Enriched Uranium",
-      "path": "High-Assay Low-Enriched Uranium.md"
-    },
-    {
-      "basename": "Reactor Pilot Program",
-      "path": "Reactor Pilot Program.md"
-    },
-    {
-      "basename": "AgentInstruct",
-      "path": "AgentInstruct.md"
-    },
-    {
-      "basename": "Orca-Math",
-      "path": "Orca-Math.md"
-    },
-    {
-      "basename": "Microsoft Research",
-      "path": "Microsoft Research.md"
-    },
-    {
-      "basename": "Persona Hub",
-      "path": "Persona Hub.md"
-    },
-    {
-      "basename": "Fuel Line Pilot Program",
-      "path": "Fuel Line Pilot Program.md"
-    },
-    {
-      "basename": "Google Cloud Run",
-      "path": "Google Cloud Run.md"
     }
   ],
   "omittedPaths": [],

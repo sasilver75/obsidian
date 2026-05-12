@@ -103,10 +103,10 @@ A:
 		- The pitch of many of these microreactors is not having to have as much of a nuclear planning zone. They will have to prove to the public that hitting these 99.9999%...  if you're not hitting those nines, then you have a fission path of release that maybe is higher than you expected, which might not mean there's a release to the public, but this means that internal radiation alarms will go off, which means you'll have to shut down, do cleanup, find it, etc.
 
 
-Q: One of the key economic problems here... no matter what reactor technology it is... HTGR, Sodium Fast Reactor, etc... it's that "we're going to have a 93% reliability factor, because nuclear has a 93% [[Capacity Factor (Energy)|Capacity Factor]]! This in reality was a hard-fought achievement that took decades and decades of optimization of incidents...What we actually see, in China ([[Shidao Bay HTR-PM]])... the premise of the low-cost is that construction is going to be way simpler because the fuel is containment. ==The HTR-PMs at Shidao Bay took 9 years to construct.==
+Q: One of the key economic problems here... no matter what reactor technology it is... HTGR, Sodium Fast Reactor, etc... it's that "we're going to have a 93% reliability factor, because nuclear has a 93% [[Capacity Factor (Energy)|Capacity Factor]]! This in reality was a hard-fought achievement that took decades and decades of optimization of incidents...What we actually see, in China ([[Shidao Bay HTR-PM]])... the premise of the low-cost is that construction is going to be way simpler because the fuel is containment. ==The HTR-PMs at Shidao Bay took 9 years to construct.== (it was a pair of 250MWt driving a steam turbine generating 200MWe) 
 - The capacity factor according to the PRIS dataset for these Shidao reactors was 20.7% in their second year of operations.
 	- This will get better, just as the [[Pressurized Water Reactor|PWR]] went from 40-50% to the 90%s that we see in fleets today.
-The way we get past this death by 1000 cuts is having cheap fuel, and reliabiliyt that's there 90+% of the time.
+The way we get past this death by 1000 cuts is having cheap fuel, and reliability that's there 90+% of the time.
 So are we in the situation where we have:
 - Expensive fuel
 - Poor reliability
@@ -121,8 +121,35 @@ With these advanced reactors, we're definitely in the very beginning.
 	- We can get there, though!
 	- Does this mean that tis' going to be more economical than what we already have?
 	- Bet companies are taking: Light reactor and the uranium fuel cycle won, but that might mean that we missed something earlier, and we want to go back and take a run at a different approach.
-	- This doesn't mean that we should abandon reactors that are currently running/producing energy well, etc.
+	- This doesn't mean that we should abandon reactors (e.g. [[Westinghouse AP1000|AP1000]]) that are currently running/producing energy well, etc.
 	- But continuing to try to look at things that we might have overlooked... and maybe in the future, they might be a good alternative.
+
+
+Q: As I understand it, there are no reactors using [[Metallic Fuel]]... it's on pause. Let's talk about the history of metallic fuels.
+A: First, a minor correction: In commercial space, there really are no metallic fuel plants that are running. The US Navy and maybe the Russian navy... runs a sort of metallic plate fuel, at least in older designs. In newer ones, they've moved towards a more matrix-type approach, but in general these are specific applications with really highly 90%-enriched fuel. And so that's probably not what we would be considering for power generation with someone like [[Oklo]] for instance.
+
+A: But why do we want metallic fuel at all? IT comes back to some problems we discuss with [[Uranium Dioxide|UO2]]
+- UO2 has poor heat transfer, and good, but not great at retaining fission products, particularly fission gas.
+- Metal, on the other hand, has fantastic heat conductance; you won't have these same centerline temperature problems, heat will come out much more quickly, so you can operate at a higher power level and not have the same centerline temperature as ceramic.
+
+Soo... disadvantage of metallic is that:
+- Melting temperature is lower compared to ceramic
+- The heat transfer is much higher, which tends to offset the lower melting temperature
+
+The other problem with [[Uranium Dioxide|UO2]] was the buildup of fission gas and when the fuel pellet cracks and grain boundaries separate, you get fission gas released into the plenum, the space between the fuel cladding and the fuel pallet. 
+	In metallic fuel... because the metallic matrix tends to be very nice and if you have a displacement of a metal atom, they tend to rearrange themselves and put themselves back... the same is true when these new atoms are created... they tend to get "stuck" in this metal matrix, so your fission product gasses tend to be more well-contained; you don't have these big cracks that form because it's not a ceramic, and therefore there's a lot better containment of fission gasses so that they're not escaping into the plenum region or outside the fuel matrix itself.
+
+Two great things from metallic:
+- Better heat transfer
+- Better containment of fission gasses
+- ALSO: In UO2, you have Uranium and two oxygens, so the density of uranium you can get in there is much lower than what you can get in a metal-fueled reactor... so you can pack a whole lot more uranium in there.
+Downside:
+- Lower melting temperature; need better heat transfer; if yo lose that heat transfer, you're in a lot more trouble, a lot more quickly, because you have less of a margin before [[Nuclear Meltdown]].
+
+
+
+
+
 
 
 

@@ -14,6 +14,8 @@ Developing a 5M [[High Temperature Gas Reactor|HTGR]] (Helium) [[Microreactor]].
 
 
 
+November 2025: Project NOVA (Nuclear Observations of Valar Atomics), a collaboration between [[Los Alamos National Laboratory]]'s National Critical Experiments Research Center (NCERC) at the Nevada National Security Site (NNSS).
+
 
 _______________
 

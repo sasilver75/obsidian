@@ -82,8 +82,41 @@ Ashlee: Bill Gates has been 20 years of politicking on this, and trying to get t
 Ashlee: So yeah, you're a literal Iranian nuclear scientist, moved here when you're 16. What is it like trying to become a nuclear scientist in the US?
 Kurt: Moving when you're a 16 year old boy from Iran to the US... it was great, but I couldn't speak english, so might as well study math and all this stuff. His dad... actually worked in the Shah's government, and was head of the consulate in San Francisco. Took up 11 years to immigrate, but then I became a citizen. If you're a citizen in this country, there's no discussion/challenge -- it's been really great. I lived in AZ, then went to Bay Area for gradschool, then Tennessee.
 
-
 The way you measure enrichment is a weird unit called SWU, Separative Work Unit. The amount of SWU you need to go from Natural .7% to 2.5% is the same amount you need to go from 60% to bomb.
+
+It wasn't until the Russian invasion of Ukraine that socially it was okay to want to support defense industries... especially in the early days of Decisive Point, when Thomas was investing into this space, they were pulling companies into the space, rather than there being a wave of people we see today who have gone from being experts building dating apps to being experts in building defense products...
+
+As this has evolved... there have been more of a national recognition than Thomas had expected that defense products are important. You wouldn't be investing in this space if you thought it was too late. 
+
+
+Q: Can you paint a picture of the brightest possible future?
+A: Right now Nuclear provides bout 20% of the electricity in the US, and they're aging plants, built to operate 40 years, got extensions to 60, now 80... they need to be replaced. We want to go up as a fraction of electricity. You understand all the demands on the grid with renewables... We have to replace some of the fossil fuels... I want the US to be between 40-60% getting its power from Nuclear, and we want to be the ones exporting these technologies. Similar to space, EU is not leading... who's active out there? The Chinese are selling reactors, the Russians are selling reactors, the South Koreans are selling reactors... we want to bring this out there.
+
+Look at Africa: Whose technology is going to be powering that content?
+Let's go out and provide it to the world. We really want to be a very large scale, very low-cost supplier enabling all these things... and [[Tri-Structural Isotropic Fuel|TRISO]] is a building block (you can have space reactors, small reactors, bigger reactors, etc.)... 
+
+==We're called Standard Nuclear because we're following in the footprints of Standard Oil.==
+- They didn't win on producing, they also won on distribution, getting power out to the places that needed it.
+
+Ashlee: How much do you buy in to Microsoft, Google, OpenAI buying these reactors, etc.?
+Kurt: What's really different now versus 10 years ago is that they're investing, signing power purchase agreements, government support, etc. It's the demand! I'm selling fuel to reactor developers, the government, and to space companies, commercial space companies are buying. This demand is how industry happens.
+- Energy is ubiquitous and you need it everywhere. That demand is what's different today.
+
+
+By 2027, having $100M in contracts to supply this fuel... in Oak Ridge, they want to make bigger versions of their prototype production facility. 
+- People look at it and say: "That's industrial scale?"
+- The only thing we're doing... we just copy-paste those systems.
+- Q: Will that be in Tennessee?
+	- A: Expanding in a few locations, all locations where they have nuclear backgrounds. Expanding in Tennessee and a couple other places.
+- Q: Do you need more facilities for the 2027 contracts? For a few metric ton capacity?
+- A: We're expanding to achieve that, yes.
+
+What we're seeing in the EOs that came out a few months ago, solved a few core questions for the entire nuclear industry:
+- The source of the feedstock, [[High-Assay Low-Enriched Uranium|HALEU]] fuel, which is going to come from government stockpiles at least first, and they stand up domestic research capabilities ...And then licensing timelines.
+- Now that these are answered questions, timelines around capacity and how we're scaling... there's a lot more fidelity around that.
+
+
+I wouldn't call demand anymore, another word that starts with a D, desperation!
 
 
 

@@ -149,7 +149,7 @@ Unfortunately, there’s no information provided about how they trained the mode
 
 
 ## DeepSeek Janus
-- [[Janus]] from [[DeepSeek]] was released on October 17, 2024. In true DeepSeek fashion, it's an actual novel architecture!
+- [[Janus (Model)]] from [[DeepSeek]] was released on October 17, 2024. In true DeepSeek fashion, it's an actual novel architecture!
 - Janus has ==TWO visual encoders:==
 	- One for visual understanding
 	- One for image generation

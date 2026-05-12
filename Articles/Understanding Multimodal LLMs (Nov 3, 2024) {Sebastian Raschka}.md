@@ -177,7 +177,7 @@ Training consists of three stages:
 ### Emu3: NTP is all you need
 
 ### Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation
-- With the [[Janus]] paper from [[DeepSeek]] (October 17, 2024), a frameowrk that unifies multimodal ***understanding*** and ***generation*** tasks within a single LLM backbone...
+- With the [[Janus (Model)]] paper from [[DeepSeek]] (October 17, 2024), a frameowrk that unifies multimodal ***understanding*** and ***generation*** tasks within a single LLM backbone...
 - Key feature:
 	- Decoupling of visual encoding pathways to address the distinct requirements of *understanding* and *generation* tasks!
 	- Researchers: "==Image understanding requires high-dimensional semantic representations, while generation tasks require local information and global consistency in images.=="
