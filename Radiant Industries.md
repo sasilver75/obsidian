@@ -3,6 +3,7 @@ aliases:
   - Radiant
   - Radiant Kaleidos
   - Kaleidos
+  - DARK
 ---
 
 
@@ -12,7 +13,7 @@ An El Segundo-based company developing portable, factory-build nuclear microreac
 > Radiant's factory-built, transportable nuclear generators are designed to provide always-on power for ==defense==, ==disaster response==,  ==remote industry==, and ==critical infrastructure==: applications where traditional energy systems fall short, e.g. ==power for refugees==.
 
 # Rene Intro
-- Thanks for talking with me! Again I don't think that we met at WashU, but I'm very happy that you seem to have found yourself to a very important and exciting space, at what seems like a very fortuitous time.
+- Thanks for talking with me! Again I don't think that we met at WashU, but I'm very happy that you seem to have found yourself to a very important and excitinzjg space, at what seems like a very fortuitous time.
 - The Short of it is that I've recently graduated with an ML Master's and moved back down to LA, and along with the usual roles, I'm looking at adjacent things in robotics, energy, defense, etc. and perhaps considering working at a similar microreactor company in a similar role to the one you initially worked for.
 - So there's probably no one in the world who would be more relevant to talk to than you, and I'm really happy that Pat was able to connect us.
 

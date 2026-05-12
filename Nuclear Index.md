@@ -8,6 +8,7 @@
 - [[Nuclear Power Plant]]
 - [[Nuclear Meltdown]]
 - [[Nuclear Waste]]
+- [[Brayton Cycle]]
 
 # Fuels
 - [[Uranium Dioxide]]
@@ -15,17 +16,21 @@
 - 
 
 
-# Reactors/Power Plants
+# Reactors/Power Plants (Types)
+- [[Light Water Reactor]] (LWR)
+- [[Pressurized Water Reactor]] (PWR)
+- [[High Temperature Gas Reactor]] (HTGR)
+
+# Reactors/Power Plants (Instances)
 - [[Shidao Bay HTR-PM]]
 - [[Vogtle Electric Generating Plant]]
-- 
+- [[THTR-300]]
+- [[Hualong One]]
 
 
 # Safety Systems
 - [[Passive Nuclear Safety]]
 - [[Active Nuclear Safety]]
-
-
 
 
 # Governmental Organizations, Bills, Projects
@@ -34,7 +39,8 @@
 
 
 
-
+# Waste
+- [[Waste Isolation Pilot Plant]] (WIPP)
 
 
 

@@ -1,3 +1,8 @@
+References:
+- Video: [The Fuels Powering Nuclear's Biggest Promises](https://www.youtube.com/watch?v=kjItnaHoVdk) from Decouple Media (March 2026)
+
+
+
 
 
 
@@ -5,7 +10,7 @@
 ___________
 
 
-Video: The Fuels Powering Nuclear's Biggest Promises from Decouple Media (March 2026)
+Video: [The Fuels Powering Nuclear's Biggest Promises](https://www.youtube.com/watch?v=kjItnaHoVdk) from Decouple Media (March 2026)
 
 
 The fuel side of advanced nuclear illustrates some interesting points

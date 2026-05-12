@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Valar Atomics.md",
+                "file": "Passive Nuclear Safety.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Valar Atomics"
+              "title": "Passive Nuclear Safety"
             }
           },
           {
-            "id": "21d7fff74839a6ff",
+            "id": "07de5fe5f494d93f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Los Alamos National Laboratory.md",
+                "file": "Fort Saint Vrain Nuclear Power Plant.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Los Alamos National Laboratory"
+              "title": "Fort Saint Vrain Nuclear Power Plant"
             }
           },
           {
-            "id": "6539986adb557b59",
+            "id": "26725de32bfcea1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Army Nuclear Power Program.md",
+                "file": "Peach Bottom Nuclear Atomic Power Station.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Army Nuclear Power Program"
+              "title": "Peach Bottom Nuclear Atomic Power Station"
             }
           },
           {
-            "id": "be275ccf68768fd9",
+            "id": "a594a118383ec6aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strategic Capabililties Office.md",
+                "file": "High-Z.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Strategic Capabililties Office"
+              "title": "High-Z"
             }
           },
           {
-            "id": "a805db969a99ee97",
+            "id": "4b3e3cbbe8810d7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Department of Defense.md",
+                "file": "Radiation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Department of Defense"
+              "title": "Radiation"
             }
           },
           {
-            "id": "2b3368ec057e639f",
+            "id": "acad0bc78ec4d7be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Department of Defense.md",
+                "file": "Secondary Radiation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Department of Defense"
+              "title": "Secondary Radiation"
             }
           },
           {
-            "id": "7937b04300dce76a",
+            "id": "3ca4199eebf14e2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Utah San Rafael Energy Lab.md",
+                "file": "Pressurized Water Reactor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,10 +172,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Utah San Rafael Energy Lab"
+              "title": "Pressurized Water Reactor"
+            }
+          },
+          {
+            "id": "e9300da1d9f6ab15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hualong One.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hualong One"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1855,35 +1880,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "19dc710eb6934df3",
+  "active": "3ca4199eebf14e2a",
   "lastOpenFiles": [
-    "Nuclear Criticality.md",
-    "Valar Atomics.md",
-    "Los Alamos National Laboratory.md",
+    "Light Water Reactor.md",
+    "Neutron Moderator.md",
+    "Secondary Radiation.md",
+    "Pressurized Water Reactor.md",
+    "Nuclear Index.md",
+    "Hualong One.md",
+    "Passive Nuclear Safety.md",
+    "Levelized Cost of Energy.md",
+    "Sodium-Cooled Fast Reactor.md",
+    "Federal Energy Regulatory Commission.md",
+    "Power.md",
+    "Power Purchase Agreement.md",
     "Project Pele.md",
+    "Fort Saint Vrain Nuclear Power Plant.md",
+    "Peach Bottom Nuclear Atomic Power Station.md",
+    "High-Z.md",
+    "Radiation.md",
+    "Nuclear Fuel.md",
+    "Radiant Industries.md",
+    "Standard Nuclear.md",
+    "Atoms for Peace.md",
+    "Nuclear Criticality.md",
+    "Los Alamos National Laboratory.md",
     "Army Nuclear Power Program.md",
-    "Nuclear Fusion.md",
-    "Westinghouse AP1000.md",
     "Strategic Capabililties Office.md",
     "United States Department of Defense.md",
     "_attachments/Pasted image 20260511184810.png",
-    "Radiant Industries.md",
-    "Falcon.md",
-    "Defense Innovation Unit.md",
-    "Utah San Rafael Energy Lab.md",
-    "High Temperature Gas Reactor.md",
-    "Advanced Nuclear Power for Installations.md",
-    "Janus Program.md",
-    "Neutronics.md",
-    "Vogtle Electric Generating Plant.md",
-    "Nuclear Power.md",
-    "NuScale Power.md",
-    "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md",
-    "Automatic Identification System.md",
-    "Ultra Safe Nuclear Corporation.md",
-    "Oak Ridge National Laboratory.md",
-    "Chicago Pile Reactor.md",
-    "Experimental Breeder Reactor II.md",
     "_attachments/Pasted image 20260511002826.png",
     "_attachments/Pasted image 20260511002347.png",
     "_attachments/Pasted image 20260511002100.png",

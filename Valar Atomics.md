@@ -4,6 +4,7 @@ aliases:
   - Ward Reactor
   - Ward Zero
   - Ward 250
+  - NOVA
 ---
 
 
@@ -14,7 +15,7 @@ Developing a 5M [[High Temperature Gas Reactor|HTGR]] (Helium) [[Microreactor]].
 
 
 
-November 2025: Project NOVA (Nuclear Observations of Valar Atomics), a collaboration between [[Los Alamos National Laboratory]]'s National Critical Experiments Research Center (NCERC) at the Nevada National Security Site (NNSS).
+November 2025: Project ==NOVA== (Nuclear Observations of Valar Atomics), a collaboration between [[Los Alamos National Laboratory]]'s National Critical Experiments Research Center (NCERC) at the Nevada National Security Site (NNSS)... achieved zero-power criticality.
 
 
 _______________
@@ -88,7 +89,7 @@ Q: How do you prevent thermal runaway?
 A: Let me explain why nuclear reactors blow up
 - Uranium atoms, if one splits, it produces two neutrons (?), and one of the neutrons will hopefully hit another Uranium atom, which causes it to split, and it's exponential growth. 
 - This is actually not true; when the Neutron leaves the first Uranium atom, it's actually going too fast to cause Fission. You have to slow it down before it contacts another Uranium atom before it contacts another Uranium atom in order to cause another fission event. 
-- To slow it down, we bump it into a bunch of smaller atoms first, which slows it down, and then you can contact another Uranium. This is called a [[Moderator]], which is a substance that sits between the nuclear fuel and slows the Neutrons down so that they can cause more fission. The traditional moderator is Nuclear Reactor is water. The function of the water is two-fold:
+- To slow it down, we bump it into a bunch of smaller atoms first, which slows it down, and then you can contact another Uranium. This is called a [[Neutron Moderator]], which is a substance that sits between the nuclear fuel and slows the Neutrons down so that they can cause more fission. The traditional moderator is Nuclear Reactor is water. The function of the water is two-fold:
 	- To remove the heat, which is useful
 	- To moderate the Neutrons, because hydrogen is an effective Neutron moderator
 - But there's a safety issue there: It wants to be steam when it gets hot (as reactors do). Most [[Light Water Reactor|LWR]]s work above the boiling point of water, and so they're hyper-pressurized to maintain water as a liquid. There's a default problem built into these designs:
