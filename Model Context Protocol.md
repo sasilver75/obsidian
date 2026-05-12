@@ -3,8 +3,6 @@ aliases:
   - MCP
   - MCP Server
 ---
-
-
 References
 - Latent Space: [The Creators of Model Context Protocol](https://youtu.be/m2VqaNKstGc?si=HTKThmII-xH6Mvf1)
 - Docs: [Model Context Protocol](https://modelcontextprotocol.io/introduction)
@@ -14,6 +12,11 @@ References
 A protocol designed to help ==AI applications== (not models themselves) extend themselves and integrate with an ecosystem of plugins.
 MCP is kind of like the USB-C port of AI applications, in that it's meant to be a universal connection to a whole ecosystem of datasources/tools.
 There's a Client and Server nomenclature to it.
+
+
+> "MCPs... I'm pretty bearish on, because the harness forcibly injects those tokens in the context, and I don't have a say with it. They mess with autocompaction, the agent can forget how to use the tool.... there'ss probably only ever like 3 calls in playwright that I ever want to use, so I pay a big cost for a few things"
+> Ryan Lopololo, OpenAI
+
 
 MCP provides:
 - A growing list of pre-built integrations that your LLM can directly plug into.

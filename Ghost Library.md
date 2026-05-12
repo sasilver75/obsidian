@@ -1,0 +1,4 @@
+---
+aliases:
+  - Ghost Libraries
+---

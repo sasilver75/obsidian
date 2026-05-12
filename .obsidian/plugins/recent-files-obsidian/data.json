@@ -1,6 +1,90 @@
 {
   "recentFiles": [
     {
+      "basename": "AI Notes",
+      "path": "AI Notes.md"
+    },
+    {
+      "basename": "AI Quotes",
+      "path": "AI Quotes.md"
+    },
+    {
+      "basename": "OpenAI Frontier",
+      "path": "OpenAI Frontier.md"
+    },
+    {
+      "basename": "FrontierMath",
+      "path": "FrontierMath.md"
+    },
+    {
+      "basename": "gpt-oss-safeguard",
+      "path": "gpt-oss-safeguard.md"
+    },
+    {
+      "basename": "OpenAI Codex",
+      "path": "OpenAI Codex.md"
+    },
+    {
+      "basename": "OpenAI Symphony",
+      "path": "OpenAI Symphony.md"
+    },
+    {
+      "basename": "Model Context Protocol",
+      "path": "Model Context Protocol.md"
+    },
+    {
+      "basename": "Bogdan Erlang Abstract Machine",
+      "path": "Bogdan Erlang Abstract Machine.md"
+    },
+    {
+      "basename": "Ghost Library",
+      "path": "Ghost Library.md"
+    },
+    {
+      "basename": "Modern TypeScript Development",
+      "path": "Modern TypeScript Development.md"
+    },
+    {
+      "basename": "Cloudflare Workers",
+      "path": "Cloudflare Workers.md"
+    },
+    {
+      "basename": "Hono",
+      "path": "Hono.md"
+    },
+    {
+      "basename": "Codex (Old)",
+      "path": "Codex (Old).md"
+    },
+    {
+      "basename": "Passive Nuclear Safety",
+      "path": "Passive Nuclear Safety.md"
+    },
+    {
+      "basename": "Fort Saint Vrain Nuclear Power Plant",
+      "path": "Fort Saint Vrain Nuclear Power Plant.md"
+    },
+    {
+      "basename": "Peach Bottom Nuclear Atomic Power Station",
+      "path": "Peach Bottom Nuclear Atomic Power Station.md"
+    },
+    {
+      "basename": "High-Z",
+      "path": "High-Z.md"
+    },
+    {
+      "basename": "Radiation",
+      "path": "Radiation.md"
+    },
+    {
+      "basename": "Secondary Radiation",
+      "path": "Secondary Radiation.md"
+    },
+    {
+      "basename": "Hualong One",
+      "path": "Hualong One.md"
+    },
+    {
       "basename": "Pressurized Water Reactor",
       "path": "Pressurized Water Reactor.md"
     },
@@ -13,20 +97,8 @@
       "path": "Neutron Moderator.md"
     },
     {
-      "basename": "Secondary Radiation",
-      "path": "Secondary Radiation.md"
-    },
-    {
       "basename": "Nuclear Index",
       "path": "Nuclear Index.md"
-    },
-    {
-      "basename": "Hualong One",
-      "path": "Hualong One.md"
-    },
-    {
-      "basename": "Passive Nuclear Safety",
-      "path": "Passive Nuclear Safety.md"
     },
     {
       "basename": "Levelized Cost of Energy",
@@ -51,22 +123,6 @@
     {
       "basename": "Project Pele",
       "path": "Project Pele.md"
-    },
-    {
-      "basename": "Fort Saint Vrain Nuclear Power Plant",
-      "path": "Fort Saint Vrain Nuclear Power Plant.md"
-    },
-    {
-      "basename": "Peach Bottom Nuclear Atomic Power Station",
-      "path": "Peach Bottom Nuclear Atomic Power Station.md"
-    },
-    {
-      "basename": "High-Z",
-      "path": "High-Z.md"
-    },
-    {
-      "basename": "Radiation",
-      "path": "Radiation.md"
     },
     {
       "basename": "Nuclear Fuel",
@@ -143,62 +199,6 @@
     {
       "basename": "Neutronics",
       "path": "Neutronics.md"
-    },
-    {
-      "basename": "Vogtle Electric Generating Plant",
-      "path": "Vogtle Electric Generating Plant.md"
-    },
-    {
-      "basename": "Nuclear Power",
-      "path": "Nuclear Power.md"
-    },
-    {
-      "basename": "NuScale Power",
-      "path": "NuScale Power.md"
-    },
-    {
-      "basename": "Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}",
-      "path": "Articles/Data is the Foundation of Language Models (Jul 2023) {Cameron Wolfe, Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Automatic Identification System",
-      "path": "Automatic Identification System.md"
-    },
-    {
-      "basename": "Ultra Safe Nuclear Corporation",
-      "path": "Ultra Safe Nuclear Corporation.md"
-    },
-    {
-      "basename": "Oak Ridge National Laboratory",
-      "path": "Oak Ridge National Laboratory.md"
-    },
-    {
-      "basename": "Chicago Pile Reactor",
-      "path": "Chicago Pile Reactor.md"
-    },
-    {
-      "basename": "Experimental Breeder Reactor II",
-      "path": "Experimental Breeder Reactor II.md"
-    },
-    {
-      "basename": "Uranium Dioxide",
-      "path": "Uranium Dioxide.md"
-    },
-    {
-      "basename": "Nuclear Power Plant",
-      "path": "Nuclear Power Plant.md"
-    },
-    {
-      "basename": "National Nuclear Security Administration",
-      "path": "National Nuclear Security Administration.md"
-    },
-    {
-      "basename": "BWXT",
-      "path": "BWXT.md"
-    },
-    {
-      "basename": "Active Nuclear Safety",
-      "path": "Active Nuclear Safety.md"
     }
   ],
   "omittedPaths": [],

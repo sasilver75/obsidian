@@ -71,7 +71,7 @@ https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 	- Azerbayev et al. (2023) Llemma: An Open Language Model for Mathematics (Eleuther folks)
 	- Trinh et al. (2024) Solving olympiad geometry without human demonstrations ([[AlphaGeometry]])
 - Code:
-	- Chen et al. (2021) Evaluating Large Language Models trained on Code ([[Codex]] paper)
+	- Chen et al. (2021) Evaluating Large Language Models trained on Code ([[Codex (Old)]] paper)
 	- Li et al. (2022) Competition-Level Code Generation with Alphacode ([[AlphaCode]])
 	- Leblond et al. (2023) AlphaCode 2 Technical Report ([[AlphaCode 2]])
 - PRM Papers

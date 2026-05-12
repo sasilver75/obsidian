@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0abbd6c67d1d72a2",
+        "id": "f4feb225e7a2e2d9",
         "type": "tabs",
         "children": [
           {
-            "id": "19dc710eb6934df3",
+            "id": "9ed1802916629e19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Passive Nuclear Safety.md",
+                "file": "AI Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Passive Nuclear Safety"
+              "title": "AI Notes"
             }
           },
           {
-            "id": "07de5fe5f494d93f",
+            "id": "fa9bedbb5051fe54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fort Saint Vrain Nuclear Power Plant.md",
+                "file": "OpenAI Frontier.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fort Saint Vrain Nuclear Power Plant"
+              "title": "OpenAI Frontier"
             }
           },
           {
-            "id": "26725de32bfcea1c",
+            "id": "602c820d7614776a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Peach Bottom Nuclear Atomic Power Station.md",
+                "file": "OpenAI Frontier.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Peach Bottom Nuclear Atomic Power Station"
+              "title": "OpenAI Frontier"
             }
           },
           {
-            "id": "a594a118383ec6aa",
+            "id": "ae1f17180fdfc898",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "High-Z.md",
+                "file": "OpenAI Symphony.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "High-Z"
+              "title": "OpenAI Symphony"
             }
           },
           {
-            "id": "4b3e3cbbe8810d7f",
+            "id": "1a6514cf0fe48735",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Radiation.md",
+                "file": "Model Context Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Radiation"
+              "title": "Model Context Protocol"
             }
           },
           {
-            "id": "acad0bc78ec4d7be",
+            "id": "99c9dd055c3b3671",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondary Radiation.md",
+                "file": "Bogdan Erlang Abstract Machine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Secondary Radiation"
+              "title": "Bogdan Erlang Abstract Machine"
             }
           },
           {
-            "id": "3ca4199eebf14e2a",
+            "id": "e0498f0cc2a086cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pressurized Water Reactor.md",
+                "file": "Ghost Library.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pressurized Water Reactor"
+              "title": "Ghost Library"
             }
           },
           {
-            "id": "e9300da1d9f6ab15",
+            "id": "9a597dd31e957be3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hualong One.md",
+                "file": "Modern TypeScript Development.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,11 +196,82 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hualong One"
+              "title": "Modern TypeScript Development"
+            }
+          },
+          {
+            "id": "e3fa7019e0ed440e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloudflare Workers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cloudflare Workers"
+            }
+          },
+          {
+            "id": "1a447c421ded7754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codex (Old).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Codex (Old)"
+            }
+          },
+          {
+            "id": "4a9898c9525f4b19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenAI Codex.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenAI Codex"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -1880,34 +1951,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3ca4199eebf14e2a",
+  "active": "9ed1802916629e19",
   "lastOpenFiles": [
-    "Light Water Reactor.md",
-    "Neutron Moderator.md",
-    "Secondary Radiation.md",
-    "Pressurized Water Reactor.md",
-    "Nuclear Index.md",
-    "Hualong One.md",
+    "AI Quotes.md",
+    "OpenAI Frontier.md",
+    "FrontierMath.md",
+    "gpt-oss-safeguard.md",
+    "AI Notes.md",
+    "OpenAI Codex.md",
+    "OpenAI Symphony.md",
+    "Model Context Protocol.md",
+    "Bogdan Erlang Abstract Machine.md",
+    "Ghost Library.md",
+    "Modern TypeScript Development.md",
+    "Cloudflare Workers.md",
+    "Hono.md",
+    "Codex (Old).md",
     "Passive Nuclear Safety.md",
-    "Levelized Cost of Energy.md",
-    "Sodium-Cooled Fast Reactor.md",
-    "Federal Energy Regulatory Commission.md",
-    "Power.md",
-    "Power Purchase Agreement.md",
-    "Project Pele.md",
     "Fort Saint Vrain Nuclear Power Plant.md",
     "Peach Bottom Nuclear Atomic Power Station.md",
     "High-Z.md",
     "Radiation.md",
-    "Nuclear Fuel.md",
-    "Radiant Industries.md",
-    "Standard Nuclear.md",
-    "Atoms for Peace.md",
-    "Nuclear Criticality.md",
-    "Los Alamos National Laboratory.md",
-    "Army Nuclear Power Program.md",
-    "Strategic Capabililties Office.md",
-    "United States Department of Defense.md",
+    "Secondary Radiation.md",
+    "Hualong One.md",
+    "Pressurized Water Reactor.md",
+    "Light Water Reactor.md",
+    "Neutron Moderator.md",
+    "Nuclear Index.md",
+    "Levelized Cost of Energy.md",
     "_attachments/Pasted image 20260511184810.png",
     "_attachments/Pasted image 20260511002826.png",
     "_attachments/Pasted image 20260511002347.png",

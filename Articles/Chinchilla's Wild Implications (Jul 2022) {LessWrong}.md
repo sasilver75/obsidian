@@ -96,7 +96,7 @@ The optimal amount of data for PaLM would have been around 6.7T tokens, around ~
 	- [[The Pile]]'s scrape has 631GBGB of text, and 299B tokens
 	- The [[MassiveText]] scrape had 3.1TB of text, and 506B tokens
 	- The [[PaLM]] scrape had only 196GB of text (unsure how many tokens)
-	- The [[Codex]] paper's scrape was python-only and had 159GB or text
+	- The [[Codex (Old)]] paper's scrape was python-only and had 159GB or text
 
 All of these scrapes contained a large fraction of the total code available on GitHub.... generously, ==there might be ~1T tokens of code out there, but not vastly more than that.==
 

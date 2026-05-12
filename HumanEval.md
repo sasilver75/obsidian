@@ -1,7 +1,7 @@
 July 7, 2021 -- [[OpenAI]]
 Paper: [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)
 
-OpenAI ==code completion benchmark== of coding tasks and unit tests, introduced with the [[Codex]] model.
+OpenAI ==code completion benchmark== of coding tasks and unit tests, introduced with the [[Codex (Old)]] model.
 
 Notes:
 - Used by [[LLaMA 3.1]]

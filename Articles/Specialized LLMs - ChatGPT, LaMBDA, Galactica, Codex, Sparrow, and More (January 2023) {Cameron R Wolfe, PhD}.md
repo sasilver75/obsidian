@@ -18,7 +18,7 @@ These methods can be used to combat known limitations of LLMs and modify them to
 Now let's overview a variety of publications that extend generic LLMs to more specialized scenarios. Numerous different methodologies are used to modify and improve LLMs, but the general concept is the same.
 
 ## Evaluating Large Language Models Trained on Code (July 7, 2021)
-- This paper introduces [[Codex]], a finetune of a GPT model on code data from GitHub.
+- This paper introduces [[Codex (Old)]], a finetune of a GPT model on code data from GitHub.
 - ==Given a Python docstring, Codex is tasked with generating a working Python function that performs the task outlined in the docstring.==
 ![[Pasted image 20240501192220.png|300]]
 - Codex is quite a bit smaller than GPT-3 at only ==12B parameters==, finetuned over a 159Gb corpus of Python files from GitHub.

@@ -197,7 +197,7 @@ Trained on 400B tokens, though, in a later, post-Chinchilla paper, Anthropic use
 - From the Google Blueshift team, [[Minerva]] is a ==finetuned model on math and science data==.
 - It's a finetuned model from [[PaLM]], with datasets from ArXiV and some websites that were carefully preprocessed to preserve mathematical formatting.
 ### Codex
-- Launched in July 2021, OpenAI's [[Codex]] is a ==GPT-finetune on 100B tokens of code== (in this case, publicly available Github code).
+- Launched in July 2021, OpenAI's [[Codex (Old)]] is a ==GPT-finetune on 100B tokens of code== (in this case, publicly available Github code).
 - The paper also debuted [[HumanEval]], a human written code evaluation benchmark.
 - ==The paper most notably demonstrates that code data is really important for code performance==, as GPT-J was outperforming 3 at code. 
 

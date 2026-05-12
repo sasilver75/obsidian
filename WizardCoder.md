@@ -9,7 +9,7 @@ Takeaway: We finetune StarCoder 15B by using a slightly modifier version of the 
 Takes a cue from the 2-months-earlier [[WizardLM]] paper, and applies a modified version of the [[Evol-Instruct]] technique (Which they just call *Code Evol-Instruct* to a code-generating model, to finetune Code Alpaca.
 
 Notes
-- Despite its much smaller size, WizardCoder even surpasses Claude and Google's Bard in terms of pass rates on HumanEval and HumanEval+ (Which IIRC were datasets introduced in the [[Codex]] paper)
+- Despite its much smaller size, WizardCoder even surpasses Claude and Google's Bard in terms of pass rates on HumanEval and HumanEval+ (Which IIRC were datasets introduced in the [[Codex (Old)]] paper)
 	- WizardCoder also ==beats all other open-source Code LLMs by a substantial margin, including [[StarCoder]]==, as well as superior code-gen results compared to the largest closed-source LLMs, like Claude, Bard, [[PaLM]], [[PaLM 2]], and [[LaMDA]], despite being considerably smaller in size.
 - To adapt [[Evol-Instruct]] as proposed by WizardLM to the realm of code, we make the following modifications to the evolutionary prompt:
 	1. Streamlined the evolutionary instructions by *==removing* deepening, complicating input, and In-Breadth Evolving==!

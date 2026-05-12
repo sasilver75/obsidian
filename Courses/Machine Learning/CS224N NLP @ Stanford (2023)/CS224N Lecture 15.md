@@ -41,7 +41,7 @@ This relates to program synthesis!
 - We're speaking in (eg) input output examples to a synthesizer of programs, which is our listener, trying to determine what program we're referring to.
 
 
-OpenAI [[Codex]]
+OpenAI [[Codex (Old)]]
 - Basically GPT3 trains on some code samples to generate code based on python dosctrings
 - Authors introduced HumanEval benchmark, a manually created dataset of 164 problems.
 	- Each problem ha s set of hidden tests, a program is correct if it passes all hidden tests.

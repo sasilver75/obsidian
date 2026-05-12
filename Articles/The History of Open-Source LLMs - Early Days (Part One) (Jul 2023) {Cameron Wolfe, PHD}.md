@@ -172,7 +172,7 @@ Architecture
 - [[ALiBi]], attention with linear biases, which aids the model in generalizing to longer context lengths than those seen during training.
 - Embedding Layer Norm: An extra [[Layer Normalization|LayerNorm]] is placed after the model's embedding layer, which is empirically found to improve training 
 - Overall, not much different than most LLMs! The authors actually perform an extensive analysis between different types of transformer architectures (eg [[Encoder-Only Architecture]], [[Encoder-Decoder Architecture]], [[Decoder-Only Architecture]]), finding that ==the decoder-only model (used by nearly all causal language models) achieves the best performance after pre-training.==
-- Compared to other models, BLOOM performs relatively well. It achieves comparable or improved results relative ot OPT in natural language benchmarks, and excels in marchine translation tasks, given its multilingual training corpus. Still falls below that of proprietary models ([[Codex]], [[Chinchilla]], [[PaLM]]). ==Research in open-source LLMs was still lagging, at the time that BLOOM was proposed.==
+- Compared to other models, BLOOM performs relatively well. It achieves comparable or improved results relative ot OPT in natural language benchmarks, and excels in marchine translation tasks, given its multilingual training corpus. Still falls below that of proprietary models ([[Codex (Old)]], [[Chinchilla]], [[PaLM]]). ==Research in open-source LLMs was still lagging, at the time that BLOOM was proposed.==
 
 
 ### Other notable models
