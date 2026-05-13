@@ -477,3 +477,11 @@ All discovered files are concatenated into context rather than overriding each o
 Block-level HTML comments (`<!-- maintainer notes -->`) in CLAUDE.md files are stripped before the content is injected into Claude’s context. Use them to leave notes for human maintainers without spending context tokens on them. Comments inside code blocks are preserved. When you open a CLAUDE.md file directly with the Read tool, comments remain visible.
 
 
+
+
+
+
+
+![[Pasted image 20260513125117.png]]
+Ways of using claude ([ref](https://x.com/claudedevs/status/2054610152817619388?s=46&t=tMWvmS3OL3Ssg0b9lKvp4Q)/context)
+

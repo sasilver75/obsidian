@@ -5,6 +5,10 @@
       "path": "Agent Harness.md"
     },
     {
+      "basename": "Claude Code",
+      "path": "Claude Code.md"
+    },
+    {
       "basename": "Soft Link",
       "path": "Soft Link.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Falcon",
       "path": "Falcon.md"
-    },
-    {
-      "basename": "Defense Innovation Unit",
-      "path": "Defense Innovation Unit.md"
     }
   ],
   "omittedPaths": [],
