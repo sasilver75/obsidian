@@ -1,28 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Agent Harness",
+      "path": "Agent Harness.md"
+    },
+    {
+      "basename": "Soft Link",
+      "path": "Soft Link.md"
+    },
+    {
       "basename": "AI Notes",
       "path": "AI Notes.md"
     },
     {
-      "basename": "AI Quotes",
-      "path": "AI Quotes.md"
+      "basename": "Statsig",
+      "path": "Statsig.md"
     },
     {
       "basename": "OpenAI Frontier",
       "path": "OpenAI Frontier.md"
     },
     {
-      "basename": "FrontierMath",
-      "path": "FrontierMath.md"
-    },
-    {
-      "basename": "gpt-oss-safeguard",
-      "path": "gpt-oss-safeguard.md"
-    },
-    {
-      "basename": "OpenAI Codex",
-      "path": "OpenAI Codex.md"
+      "basename": "Observability",
+      "path": "Observability.md"
     },
     {
       "basename": "OpenAI Symphony",
@@ -49,12 +49,28 @@
       "path": "Cloudflare Workers.md"
     },
     {
-      "basename": "Hono",
-      "path": "Hono.md"
-    },
-    {
       "basename": "Codex (Old)",
       "path": "Codex (Old).md"
+    },
+    {
+      "basename": "OpenAI Codex",
+      "path": "OpenAI Codex.md"
+    },
+    {
+      "basename": "AI Quotes",
+      "path": "AI Quotes.md"
+    },
+    {
+      "basename": "FrontierMath",
+      "path": "FrontierMath.md"
+    },
+    {
+      "basename": "gpt-oss-safeguard",
+      "path": "gpt-oss-safeguard.md"
+    },
+    {
+      "basename": "Hono",
+      "path": "Hono.md"
     },
     {
       "basename": "Passive Nuclear Safety",
@@ -183,22 +199,6 @@
     {
       "basename": "Defense Innovation Unit",
       "path": "Defense Innovation Unit.md"
-    },
-    {
-      "basename": "High Temperature Gas Reactor",
-      "path": "High Temperature Gas Reactor.md"
-    },
-    {
-      "basename": "Advanced Nuclear Power for Installations",
-      "path": "Advanced Nuclear Power for Installations.md"
-    },
-    {
-      "basename": "Janus Program",
-      "path": "Janus Program.md"
-    },
-    {
-      "basename": "Neutronics",
-      "path": "Neutronics.md"
     }
   ],
   "omittedPaths": [],

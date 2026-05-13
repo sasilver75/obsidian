@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f4feb225e7a2e2d9",
+        "id": "7a0fab0795256d14",
         "type": "tabs",
         "children": [
           {
-            "id": "9ed1802916629e19",
+            "id": "1f29dbe4172da797",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Notes.md",
+                "file": "Agent Harness.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,247 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI Notes"
-            }
-          },
-          {
-            "id": "fa9bedbb5051fe54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenAI Frontier.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenAI Frontier"
-            }
-          },
-          {
-            "id": "602c820d7614776a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenAI Frontier.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenAI Frontier"
-            }
-          },
-          {
-            "id": "ae1f17180fdfc898",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenAI Symphony.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenAI Symphony"
-            }
-          },
-          {
-            "id": "1a6514cf0fe48735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model Context Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Model Context Protocol"
-            }
-          },
-          {
-            "id": "99c9dd055c3b3671",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bogdan Erlang Abstract Machine.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bogdan Erlang Abstract Machine"
-            }
-          },
-          {
-            "id": "e0498f0cc2a086cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ghost Library.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ghost Library"
-            }
-          },
-          {
-            "id": "9a597dd31e957be3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modern TypeScript Development.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Modern TypeScript Development"
-            }
-          },
-          {
-            "id": "e3fa7019e0ed440e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloudflare Workers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cloudflare Workers"
-            }
-          },
-          {
-            "id": "1a447c421ded7754",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codex (Old).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Codex (Old)"
-            }
-          },
-          {
-            "id": "4a9898c9525f4b19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenAI Codex.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenAI Codex"
+              "title": "Agent Harness"
             }
           }
         ]
@@ -1884,12 +1644,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "0d662f1116818866",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 151
+        "currentTab": 152
       },
       {
         "id": "8a022290161ffefa",
@@ -1951,22 +1721,29 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9ed1802916629e19",
+  "active": "1f29dbe4172da797",
   "lastOpenFiles": [
-    "AI Quotes.md",
-    "OpenAI Frontier.md",
-    "FrontierMath.md",
-    "gpt-oss-safeguard.md",
+    "_attachments/Pasted image 20260512223553.png",
+    "_attachments/Pasted image 20260512221527.png",
+    "_attachments/Pasted image 20260512221438.png",
+    "Soft Link.md",
     "AI Notes.md",
-    "OpenAI Codex.md",
+    "Statsig.md",
+    "OpenAI Frontier.md",
+    "Observability.md",
+    "Agent Harness.md",
     "OpenAI Symphony.md",
     "Model Context Protocol.md",
     "Bogdan Erlang Abstract Machine.md",
     "Ghost Library.md",
     "Modern TypeScript Development.md",
     "Cloudflare Workers.md",
-    "Hono.md",
     "Codex (Old).md",
+    "OpenAI Codex.md",
+    "AI Quotes.md",
+    "FrontierMath.md",
+    "gpt-oss-safeguard.md",
+    "Hono.md",
     "Passive Nuclear Safety.md",
     "Fort Saint Vrain Nuclear Power Plant.md",
     "Peach Bottom Nuclear Atomic Power Station.md",
@@ -1974,11 +1751,6 @@
     "Radiation.md",
     "Secondary Radiation.md",
     "Hualong One.md",
-    "Pressurized Water Reactor.md",
-    "Light Water Reactor.md",
-    "Neutron Moderator.md",
-    "Nuclear Index.md",
-    "Levelized Cost of Energy.md",
     "_attachments/Pasted image 20260511184810.png",
     "_attachments/Pasted image 20260511002826.png",
     "_attachments/Pasted image 20260511002347.png",
@@ -1987,8 +1759,6 @@
     "_attachments/Pasted image 20260511001321.png",
     "_attachments/Pasted image 20260510213834.png",
     "_attachments/Pasted image 20260510213824.png",
-    "_attachments/Pasted image 20260510213809.png",
-    "_attachments/Pasted image 20260509225603.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
