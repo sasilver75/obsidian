@@ -1,6 +1,114 @@
 {
   "recentFiles": [
     {
+      "basename": "Concurrency",
+      "path": "Concurrency.md"
+    },
+    {
+      "basename": "CS685 Lecture 2",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 2.md"
+    },
+    {
+      "basename": "CS685 Lecture 4",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 4.md"
+    },
+    {
+      "basename": "CS685 Lecture 19",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 19.md"
+    },
+    {
+      "basename": "CS685 Lecture 20",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md"
+    },
+    {
+      "basename": "CS685 Lecture 17",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 17.md"
+    },
+    {
+      "basename": "CS685 Lecture 10",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 10.md"
+    },
+    {
+      "basename": "CS685 Lecture 15",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md"
+    },
+    {
+      "basename": "CS685 Lecture 13",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 13.md"
+    },
+    {
+      "basename": "CS685 Lecture 12",
+      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 12.md"
+    },
+    {
+      "basename": "CS224N Lecture 7",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 7.md"
+    },
+    {
+      "basename": "CS224N Lecture 13",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 13.md"
+    },
+    {
+      "basename": "CS224N Lecture 18",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 18.md"
+    },
+    {
+      "basename": "CS224N Lecture 17",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 17.md"
+    },
+    {
+      "basename": "CS224N Lecture 16",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 16.md"
+    },
+    {
+      "basename": "CS224N Lecture 14",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 14.md"
+    },
+    {
+      "basename": "CS224N Lecture 12",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 12.md"
+    },
+    {
+      "basename": "CS224N Lecture 11",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 11.md"
+    },
+    {
+      "basename": "CS224N Lecture 10",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 10.md"
+    },
+    {
+      "basename": "CS224N Lecture 1",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md"
+    },
+    {
+      "basename": "CS224N Lecture 2",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 2.md"
+    },
+    {
+      "basename": "CS224N Lecture 3",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 3.md"
+    },
+    {
+      "basename": "CS224N Lecture 9",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 9.md"
+    },
+    {
+      "basename": "CS224N Lecture 8",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 8.md"
+    },
+    {
+      "basename": "CS224N Lecture 6",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 6.md"
+    },
+    {
+      "basename": "CS224N Lecture 5",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 5.md"
+    },
+    {
+      "basename": "CS224N Lecture 4",
+      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 4.md"
+    },
+    {
       "basename": "Weakly Typed",
       "path": "Weakly Typed.md"
     },
@@ -15,10 +123,6 @@
     {
       "basename": "COLMAP",
       "path": "COLMAP.md"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Concurrency.md"
     },
     {
       "basename": "Parallelism",
@@ -95,110 +199,6 @@
     {
       "basename": "OpenAI Frontier",
       "path": "OpenAI Frontier.md"
-    },
-    {
-      "basename": "Observability",
-      "path": "Observability.md"
-    },
-    {
-      "basename": "OpenAI Symphony",
-      "path": "OpenAI Symphony.md"
-    },
-    {
-      "basename": "Model Context Protocol",
-      "path": "Model Context Protocol.md"
-    },
-    {
-      "basename": "Bogdan Erlang Abstract Machine",
-      "path": "Bogdan Erlang Abstract Machine.md"
-    },
-    {
-      "basename": "Ghost Library",
-      "path": "Ghost Library.md"
-    },
-    {
-      "basename": "Modern TypeScript Development",
-      "path": "Modern TypeScript Development.md"
-    },
-    {
-      "basename": "Cloudflare Workers",
-      "path": "Cloudflare Workers.md"
-    },
-    {
-      "basename": "Codex (Old)",
-      "path": "Codex (Old).md"
-    },
-    {
-      "basename": "OpenAI Codex",
-      "path": "OpenAI Codex.md"
-    },
-    {
-      "basename": "AI Quotes",
-      "path": "AI Quotes.md"
-    },
-    {
-      "basename": "FrontierMath",
-      "path": "FrontierMath.md"
-    },
-    {
-      "basename": "gpt-oss-safeguard",
-      "path": "gpt-oss-safeguard.md"
-    },
-    {
-      "basename": "Hono",
-      "path": "Hono.md"
-    },
-    {
-      "basename": "Passive Nuclear Safety",
-      "path": "Passive Nuclear Safety.md"
-    },
-    {
-      "basename": "Fort Saint Vrain Nuclear Power Plant",
-      "path": "Fort Saint Vrain Nuclear Power Plant.md"
-    },
-    {
-      "basename": "Peach Bottom Nuclear Atomic Power Station",
-      "path": "Peach Bottom Nuclear Atomic Power Station.md"
-    },
-    {
-      "basename": "High-Z",
-      "path": "High-Z.md"
-    },
-    {
-      "basename": "Radiation",
-      "path": "Radiation.md"
-    },
-    {
-      "basename": "Secondary Radiation",
-      "path": "Secondary Radiation.md"
-    },
-    {
-      "basename": "Hualong One",
-      "path": "Hualong One.md"
-    },
-    {
-      "basename": "Pressurized Water Reactor",
-      "path": "Pressurized Water Reactor.md"
-    },
-    {
-      "basename": "Light Water Reactor",
-      "path": "Light Water Reactor.md"
-    },
-    {
-      "basename": "Neutron Moderator",
-      "path": "Neutron Moderator.md"
-    },
-    {
-      "basename": "Nuclear Index",
-      "path": "Nuclear Index.md"
-    },
-    {
-      "basename": "Levelized Cost of Energy",
-      "path": "Levelized Cost of Energy.md"
-    },
-    {
-      "basename": "Sodium-Cooled Fast Reactor",
-      "path": "Sodium-Cooled Fast Reactor.md"
     }
   ],
   "omittedPaths": [],

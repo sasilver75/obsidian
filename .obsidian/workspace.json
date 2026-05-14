@@ -104,30 +104,6 @@
             }
           },
           {
-            "id": "c5e382fe257b769f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weakly Typed.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Weakly Typed"
-            }
-          },
-          {
             "id": "97fc750a68b27319",
             "type": "leaf",
             "state": {
@@ -352,7 +328,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Falcon",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -383,13 +359,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -2040,39 +2014,39 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c5e382fe257b769f",
+  "active": "97fc750a68b27319",
   "lastOpenFiles": [
-    "Strongly Typed.md",
-    "Statically Typed.md",
-    "COLMAP.md",
-    "Weakly Typed.md",
-    "Concurrency.md",
-    "Parallelism.md",
-    "Dynamically Typed.md",
-    "Compiler.md",
-    "Interpreter.md",
-    "Irradiance.md",
-    "Radiant Power.md",
-    "International System of Units.md",
-    "Joule.md",
-    "WebSockets.md",
-    "Specific Impulse.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 2.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 4.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 19.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 17.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 10.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 13.md",
+    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 12.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 7.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 13.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 18.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 17.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 16.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 14.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 12.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 11.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 10.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 2.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 3.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 9.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 8.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 6.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 5.md",
+    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 4.md",
     "_attachments/Pasted image 20260513175720.png",
-    "WebRTC.md",
-    "Prompt Caching.md",
-    "Gradio.md",
-    "Agent Harness.md",
-    "Claude Code.md",
     "_attachments/Pasted image 20260513002502.png",
     "_attachments/Pasted image 20260513000059.png",
     "_attachments/Pasted image 20260512224247.png",
-    "Tactics, Techniques, and Procedure.md",
-    "Radioisotope.md",
-    "Codex App Server.md",
-    "Agent Orchestration.md",
     "_attachments/Pasted image 20260513125117.png",
-    "Supabase.md",
-    "Row-Level Security.md",
     "_attachments/Pasted image 20260512223553.png",
     "_attachments/Pasted image 20260512221527.png",
     "_attachments/Pasted image 20260512221438.png",
