@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Weakly Typed",
+      "path": "Weakly Typed.md"
+    },
+    {
+      "basename": "Strongly Typed",
+      "path": "Strongly Typed.md"
+    },
+    {
+      "basename": "Statically Typed",
+      "path": "Statically Typed.md"
+    },
+    {
+      "basename": "COLMAP",
+      "path": "COLMAP.md"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "Concurrency.md"
+    },
+    {
+      "basename": "Parallelism",
+      "path": "Parallelism.md"
+    },
+    {
+      "basename": "Dynamically Typed",
+      "path": "Dynamically Typed.md"
+    },
+    {
+      "basename": "Compiler",
+      "path": "Compiler.md"
+    },
+    {
+      "basename": "Interpreter",
+      "path": "Interpreter.md"
+    },
+    {
+      "basename": "Irradiance",
+      "path": "Irradiance.md"
+    },
+    {
+      "basename": "Radiant Power",
+      "path": "Radiant Power.md"
+    },
+    {
+      "basename": "International System of Units",
+      "path": "International System of Units.md"
+    },
+    {
+      "basename": "Joule",
+      "path": "Joule.md"
+    },
+    {
       "basename": "WebSockets",
       "path": "WebSockets.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "Sodium-Cooled Fast Reactor",
       "path": "Sodium-Cooled Fast Reactor.md"
-    },
-    {
-      "basename": "Federal Energy Regulatory Commission",
-      "path": "Federal Energy Regulatory Commission.md"
-    },
-    {
-      "basename": "Power",
-      "path": "Power.md"
-    },
-    {
-      "basename": "Power Purchase Agreement",
-      "path": "Power Purchase Agreement.md"
-    },
-    {
-      "basename": "Project Pele",
-      "path": "Project Pele.md"
-    },
-    {
-      "basename": "Nuclear Fuel",
-      "path": "Nuclear Fuel.md"
-    },
-    {
-      "basename": "Radiant Industries",
-      "path": "Radiant Industries.md"
-    },
-    {
-      "basename": "Standard Nuclear",
-      "path": "Standard Nuclear.md"
-    },
-    {
-      "basename": "Atoms for Peace",
-      "path": "Atoms for Peace.md"
-    },
-    {
-      "basename": "Nuclear Criticality",
-      "path": "Nuclear Criticality.md"
-    },
-    {
-      "basename": "Los Alamos National Laboratory",
-      "path": "Los Alamos National Laboratory.md"
-    },
-    {
-      "basename": "Army Nuclear Power Program",
-      "path": "Army Nuclear Power Program.md"
-    },
-    {
-      "basename": "Strategic Capabililties Office",
-      "path": "Strategic Capabililties Office.md"
-    },
-    {
-      "basename": "United States Department of Defense",
-      "path": "United States Department of Defense.md"
     }
   ],
   "omittedPaths": [],
