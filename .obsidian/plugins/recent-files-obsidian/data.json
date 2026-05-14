@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "Specific Impulse",
+      "path": "Specific Impulse.md"
+    },
+    {
+      "basename": "WebRTC",
+      "path": "WebRTC.md"
+    },
+    {
+      "basename": "Prompt Caching",
+      "path": "Prompt Caching.md"
+    },
+    {
+      "basename": "Gradio",
+      "path": "Gradio.md"
+    },
+    {
       "basename": "Agent Harness",
       "path": "Agent Harness.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "United States Department of Defense",
       "path": "United States Department of Defense.md"
-    },
-    {
-      "basename": "Utah San Rafael Energy Lab",
-      "path": "Utah San Rafael Energy Lab.md"
-    },
-    {
-      "basename": "Valar Atomics",
-      "path": "Valar Atomics.md"
-    },
-    {
-      "basename": "Nuclear Fusion",
-      "path": "Nuclear Fusion.md"
-    },
-    {
-      "basename": "Westinghouse AP1000",
-      "path": "Westinghouse AP1000.md"
-    },
-    {
-      "basename": "Falcon",
-      "path": "Falcon.md"
     }
   ],
   "omittedPaths": [],
