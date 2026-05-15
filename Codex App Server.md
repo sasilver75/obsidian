@@ -1,5 +1,5 @@
 
-It's OpenAI's embedding interface for Codex; instead of running Codex as a CLI, you launch `codex app-server` as a subprocess (or connect over [[WebSockets|WebSocket]]) and drive it via [[JSON-RPC]] 2.0.
+It's OpenAI's embedding interface for [[OpenAI Codex|Codex]]; instead of running Codex as a CLI, you launch `codex app-server` as a subprocess (or connect over [[WebSockets|WebSocket]]) and drive it via [[JSON-RPC]] 2.0.
 - Built for IDEs, custom GUIs, and any product that wants to host a Codex agent with full conversational state.
 	- Used by the OAI team in their [[OpenAI Symphony]] implementation.
 - If you ever wanted to build your own UI around Codex, this is the equivalent of [[Claude Code]]'s internal protocol, a stateful JSON-RPC contract with streaming, approvals, and sandbox integration baked in.

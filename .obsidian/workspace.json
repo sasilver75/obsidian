@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9c6f4a7b9eccee5e",
+        "id": "02a5eaf34cfac7b8",
         "type": "tabs",
         "children": [
           {
-            "id": "9300a90e14c7ae1f",
+            "id": "ae8bf77dbe474e0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebSockets.md",
+                "file": "Joint Battle Commpand-Platform.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WebSockets"
+              "title": "Joint Battle Commpand-Platform"
             }
           },
           {
-            "id": "4e42ffcb8cfbdce2",
+            "id": "e7fe6763a7983ba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COLMAP.md",
+                "file": "Palantir Army Vantage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "COLMAP"
+              "title": "Palantir Army Vantage"
             }
           },
           {
-            "id": "86dc4dccdaf61977",
+            "id": "92f71b7928801c7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statically Typed.md",
+                "file": "Third-Party Logistics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,227 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Statically Typed"
-            }
-          },
-          {
-            "id": "0cc28057eeea95bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Strongly Typed.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Strongly Typed"
-            }
-          },
-          {
-            "id": "97fc750a68b27319",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concurrency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Concurrency"
-            }
-          },
-          {
-            "id": "eac52f32ee780890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallelism.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Parallelism"
-            }
-          },
-          {
-            "id": "9a6281a4b2d9b4d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dynamically Typed.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dynamically Typed"
-            }
-          },
-          {
-            "id": "137ed545a92a54d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compiler.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Compiler"
-            }
-          },
-          {
-            "id": "83ad5f642d6d19c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interpreter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Interpreter"
-            }
-          },
-          {
-            "id": "47a2c328a9c128be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Radiant Power.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Radiant Power"
-            }
-          },
-          {
-            "id": "a8565e426cbac726",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "International System of Units.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "International System of Units"
-            }
-          },
-          {
-            "id": "7f274eff7f18be8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Radiant Power.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Radiant Power"
+              "title": "Third-Party Logistics"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -363,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1947,12 +1732,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "90c6384d78b49460",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 155
+        "currentTab": 156
       },
       {
         "id": "8a022290161ffefa",
@@ -2014,34 +1809,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "97fc750a68b27319",
+  "active": "e7fe6763a7983ba9",
   "lastOpenFiles": [
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 2.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 4.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 19.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 20.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 17.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 10.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 15.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 13.md",
-    "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 12.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 7.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 13.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 18.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 17.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 16.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 14.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 12.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 11.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 10.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 1.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 2.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 3.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 9.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 8.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 6.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 5.md",
-    "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 4.md",
+    "Palantir Army Vantage.md",
+    "Joint Battle Commpand-Platform.md",
+    "Third-Party Logistics.md",
+    "Logistics Package.md",
+    "Logistics Synchronization.md",
+    "Tactical Table-Top Exercises.md",
+    "Codex App Server.md",
+    "OpenAI Codex.md",
+    "Gallatin AI.md",
+    "Logistics Status.md",
+    "_attachments/Pasted image 20260514211601.png",
+    "Course of Action.md",
+    "Maven Smart System.md",
+    "OODA Loop.md",
+    "Secret Internet Protocol Router Network.md",
+    "DoD Impact Level 6.md",
+    "DoD Impact Level 5.md",
+    "_attachments/Pasted image 20260514201536.png",
+    "Synchronization Matrix.md",
+    "GLUE.md",
+    "WebSockets.md",
+    "COLMAP.md",
+    "Statically Typed.md",
+    "Strongly Typed.md",
+    "Radiant Power.md",
+    "International System of Units.md",
+    "Interpreter.md",
+    "Compiler.md",
     "_attachments/Pasted image 20260513175720.png",
     "_attachments/Pasted image 20260513002502.png",
     "_attachments/Pasted image 20260513000059.png",
@@ -2050,8 +1847,6 @@
     "_attachments/Pasted image 20260512223553.png",
     "_attachments/Pasted image 20260512221527.png",
     "_attachments/Pasted image 20260512221438.png",
-    "_attachments/Pasted image 20260511184810.png",
-    "_attachments/Pasted image 20260511002826.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
