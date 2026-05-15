@@ -1,6 +1,6 @@
 Founded July 1, 2024, Headcount ~45 as of May 2026
 Working on Tactical Resupply, building everything on top of Palantir Foundry
-Raised $15M April 2025 from [[8VC]] and others (Silent Ventures, Timeless, Moonshots capital, Banter)
+Emerged from Stealth in April 2025 after raised $15M from [[8VC]] and others (Silent Ventures, Timeless, Moonshots capital, Banter)
 
 # Founding Team
 - Woody Glier (Chief Executive Officer)
@@ -151,9 +151,83 @@ Daniel Bunchmueller, CTO + Co-Founder Gallatin
 
 
 ![[Pasted image 20260514201536.png]]
-Foundry on the Backend
+[[Palantir Foundry|Foundry]] on the Backend
 Frontend is VueJS and Typescript
-We make calls into OSDK; this is very common.
+We make calls into [[Palantir Ontology|OSDK]]; this is very common.
 
-Palantir
+This is the view of an army  [[S4 Officer]]...
+- One of the core workflows in logistics is [[Logistics Status|LOGSTAT]], logistics reports that are text, excel files, or communications over the radio.
+	- "I need more 5.56"
+	- We built a LOGSTAT understanding framework to parse...
+		- Today, if you think about logistics, it's very manual; they get reports, don't have accurate supply level information, etc... it takes hours to get through.
+
+
+> Uploads a LOGSTAT file, a pure .xls excel file.
+
+Parses it, uses an LM to extract it, compares it against the extracted date... and says "Hey, at this time, for this unit, what's the likely consumption that will happen or has happened since then?"
+- We see that we have 6k gallons on-hand... Navigator thinks a better suggestion will be 10,000. You can accept this or make a modification to it, etc.
+- We can tie an NSN ([[National Stock Number]]) from literally a company level all the way up to strategic planning levels, becuase we find that there's a huge catalogue of official NSNs, so if someone says "MREs," we can tie this up with a specific National Stock Number.
+- This informs the logistician of how a unit consumes goods.
+
+So we go to the 2/27 (2nd battalion, 27th infantry regiment), and we see:
+![[Pasted image 20260515004231.png]]
+We see the reported values, some graphs showing both historical as well as predicted consumption.
+- Why is predicted consumption relevant? It's super difficult, if you think about it.
+	- Depends on lots of factors
+
+
+But behind every military operation is an [[Operational Order]] (OPORD)
+
+We can extract information like weather.. in specific  phase of operation you might be offensive, defensive, building up a post, etc... could be warmer than usual right now, etc. All of this flows into our consumption model.
+![[Pasted image 20260515004728.png]]
+As a commander, you have the ability to say: All of these units on the map have certain supplies and need certaiin resupplies
+- Our algorithm solves both an ==optimization problem== and a ==traveling salesman problem== to say:
+	- I have these trucks available, these resources to transport... 
+![[Pasted image 20260515005004.png]]
+Heres what we expect them to have before and after
+
+![[Pasted image 20260515005012.png]]
+Here's the proposed convoys over the next 72 hours
+
+![[Pasted image 20260515005028.png]]
+Once you approve, you can see those convoys planned out.
+
+![[Pasted image 20260515005044.png]]
+This route takes into account friendly and enemy territory, route planning based on what's actually reachable...
+- Might have wading depth for a certain vehicle
+	- This is specified in an open data model; we can understand this and route or propose a round accordingly.
+
+==The decision is also with the operator to make the final decision, which creates a feedback loop to improve our algorithms.==
+
+Now, going into a demo... 
+
+![[Pasted image 20260515005233.png]]
+This is a workflow builder... basically the entire flow of our app in one view
+We've understood production... but what happens in terms of logs? That's what we're talking about today.
+
+Host: The complexity of your backend here is very visualized here...
+
+Yes... We can see all actions...
+
+So let's dive in! These are the production logs here...
+Let's dive in and see why it's slow
+![[Pasted image 20260515005340.png]]
+
+![[Pasted image 20260515005400.png]]
+We can see that there are hundreds of object loads in the background
+- Every time your function is run, you get a request log emitted to this view ... and you can dive in and... this is a function loading objects to the ontology. This is auto-instrumented for Daniel + Gallatin out of the box.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Joint Battle Commpand-Platform.md",
+                "file": "Logistics Synchronization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Joint Battle Commpand-Platform"
+              "title": "Logistics Synchronization"
+            }
+          },
+          {
+            "id": "ce9544d3a0faadd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Stock Number.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Stock Number"
             }
           },
           {
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Palantir Army Vantage.md",
+                "file": "S4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +76,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Palantir Army Vantage"
+              "title": "S4"
+            }
+          },
+          {
+            "id": "bb4132af5db40d2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Palantir Foundry.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Palantir Foundry"
+            }
+          },
+          {
+            "id": "86bd8177aba32cdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Palantir Ontology.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Palantir Ontology"
             }
           },
           {
@@ -1809,18 +1881,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e7fe6763a7983ba9",
+  "active": "ce9544d3a0faadd6",
   "lastOpenFiles": [
-    "Palantir Army Vantage.md",
+    "Operational Order.md",
+    "Visual Positioning System.md",
+    "Wide Area Motion Imagery.md",
+    "Logistics Synchronization.md",
+    "Logistics Status.md",
+    "Gallatin AI.md",
+    "_attachments/Pasted image 20260515005400.png",
+    "_attachments/Pasted image 20260515005340.png",
+    "_attachments/Pasted image 20260515005233.png",
+    "_attachments/Pasted image 20260515005044.png",
+    "_attachments/Pasted image 20260515005028.png",
+    "_attachments/Pasted image 20260515005012.png",
+    "_attachments/Pasted image 20260515005004.png",
+    "_attachments/Pasted image 20260515004728.png",
+    "_attachments/Pasted image 20260515004231.png",
+    "National Stock Number.md",
     "Joint Battle Commpand-Platform.md",
+    "S4.md",
+    "Palantir Foundry.md",
+    "Palantir Ontology.md",
+    "Palantir Army Vantage.md",
     "Third-Party Logistics.md",
     "Logistics Package.md",
-    "Logistics Synchronization.md",
     "Tactical Table-Top Exercises.md",
     "Codex App Server.md",
     "OpenAI Codex.md",
-    "Gallatin AI.md",
-    "Logistics Status.md",
     "_attachments/Pasted image 20260514211601.png",
     "Course of Action.md",
     "Maven Smart System.md",
@@ -1828,25 +1916,9 @@
     "Secret Internet Protocol Router Network.md",
     "DoD Impact Level 6.md",
     "DoD Impact Level 5.md",
-    "_attachments/Pasted image 20260514201536.png",
     "Synchronization Matrix.md",
     "GLUE.md",
     "WebSockets.md",
-    "COLMAP.md",
-    "Statically Typed.md",
-    "Strongly Typed.md",
-    "Radiant Power.md",
-    "International System of Units.md",
-    "Interpreter.md",
-    "Compiler.md",
-    "_attachments/Pasted image 20260513175720.png",
-    "_attachments/Pasted image 20260513002502.png",
-    "_attachments/Pasted image 20260513000059.png",
-    "_attachments/Pasted image 20260512224247.png",
-    "_attachments/Pasted image 20260513125117.png",
-    "_attachments/Pasted image 20260512223553.png",
-    "_attachments/Pasted image 20260512221527.png",
-    "_attachments/Pasted image 20260512221438.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",

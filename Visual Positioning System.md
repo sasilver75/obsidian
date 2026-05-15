@@ -7,7 +7,8 @@ References:
 
 
 
-
+Determines a device's precise location and orientation by comparing camera images of the surrounding environment against a known visual map.
+- Typically, uses CV to recognize landmarks, building edges, signs, road markings, interiors, or other visual features, and can then estimate where the device is, often more accurately than GPS, especially indoors or in dense cities.
 
 
 
