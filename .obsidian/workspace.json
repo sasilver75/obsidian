@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Movement.md",
+                "file": "Course of Action.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Movement"
+              "title": "Course of Action"
             }
           },
           {
@@ -328,12 +328,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cube",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -359,12 +359,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -2037,19 +2037,20 @@
   },
   "active": "389378e4a9497962",
   "lastOpenFiles": [
+    "AI Quotes.md",
+    "Logistics Release Point.md",
+    "Logistics Status.md",
+    "Logistics Package.md",
+    "Course of Action.md",
     "Movement.md",
     "Logistics Support Area.md",
-    "Course of Action.md",
     "Army Formations.md",
-    "Logistics Release Point.md",
     "Gallatin AI.md",
     "Supply Signal.md",
     "Logistics Common Operating Picture.md",
     "_attachments/Pasted image 20260515212559.png",
     "_attachments/Pasted image 20260515212522.png",
     "_attachments/Pasted image 20260515212343.png",
-    "Logistics Status.md",
-    "Logistics Package.md",
     "Radiant Industries.md",
     "Class of Supply.md",
     "Main Supply Route.md",
@@ -2072,7 +2073,6 @@
     "S4.md",
     "Palantir Foundry.md",
     "Palantir Ontology.md",
-    "Palantir Army Vantage.md",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",

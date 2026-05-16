@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Course of Action",
+      "path": "Course of Action.md"
+    },
+    {
+      "basename": "AI Quotes",
+      "path": "AI Quotes.md"
+    },
+    {
+      "basename": "Logistics Release Point",
+      "path": "Logistics Release Point.md"
+    },
+    {
+      "basename": "Logistics Status",
+      "path": "Logistics Status.md"
+    },
+    {
+      "basename": "Logistics Package",
+      "path": "Logistics Package.md"
+    },
+    {
       "basename": "Movement",
       "path": "Movement.md"
     },
@@ -9,16 +29,8 @@
       "path": "Logistics Support Area.md"
     },
     {
-      "basename": "Course of Action",
-      "path": "Course of Action.md"
-    },
-    {
       "basename": "Army Formations",
       "path": "Army Formations.md"
-    },
-    {
-      "basename": "Logistics Release Point",
-      "path": "Logistics Release Point.md"
     },
     {
       "basename": "Gallatin AI",
@@ -31,14 +43,6 @@
     {
       "basename": "Logistics Common Operating Picture",
       "path": "Logistics Common Operating Picture.md"
-    },
-    {
-      "basename": "Logistics Status",
-      "path": "Logistics Status.md"
-    },
-    {
-      "basename": "Logistics Package",
-      "path": "Logistics Package.md"
     },
     {
       "basename": "Radiant Industries",
@@ -195,10 +199,6 @@
     {
       "basename": "Concurrency",
       "path": "Concurrency.md"
-    },
-    {
-      "basename": "CS685 Lecture 2",
-      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 2.md"
     }
   ],
   "omittedPaths": [],

@@ -244,7 +244,11 @@ Usually:
 ==Mistakes = codew ritten by an agent that is misaligned due to some not yet written down non-funcitonal requirement.==
 
 
+____________
 
+Juniors worried about their careers should be learning how to use agents effectively. the cheap open models are good enough for this now. it’s easier than ever to have a hireable portfolio. i think the people who are half-decent at getting LLMs to speed up development without creating a mountain of slop are gonna be fine for a long time. every company has a million unbuilt ideas that they’d love for someone to be responsible for. responsibility and local complexity awareness is a human bottleneck regardless of how good the agents are.
+
+> Will, Interconnect discord
 
 
 
