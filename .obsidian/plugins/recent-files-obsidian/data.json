@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Logistics Release Point",
+      "path": "Logistics Release Point.md"
+    },
+    {
+      "basename": "Main Supply Route",
+      "path": "Main Supply Route.md"
+    },
+    {
+      "basename": "Gallatin AI",
+      "path": "Gallatin AI.md"
+    },
+    {
+      "basename": "Optimal Transport",
+      "path": "Optimal Transport.md"
+    },
+    {
+      "basename": "Tailscale",
+      "path": "Tailscale.md"
+    },
+    {
+      "basename": "WireGuard",
+      "path": "WireGuard.md"
+    },
+    {
       "basename": "National Stock Number",
       "path": "National Stock Number.md"
     },
@@ -23,10 +47,6 @@
     {
       "basename": "Logistics Status",
       "path": "Logistics Status.md"
-    },
-    {
-      "basename": "Gallatin AI",
-      "path": "Gallatin AI.md"
     },
     {
       "basename": "Joint Battle Commpand-Platform",
@@ -179,26 +199,6 @@
     {
       "basename": "CS685 Lecture 13",
       "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 13.md"
-    },
-    {
-      "basename": "CS685 Lecture 12",
-      "path": "Courses/Machine Learning/CS685 Advanced NLP @ Amherst (2024)/CS685 Lecture 12.md"
-    },
-    {
-      "basename": "CS224N Lecture 7",
-      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 7.md"
-    },
-    {
-      "basename": "CS224N Lecture 13",
-      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 13.md"
-    },
-    {
-      "basename": "CS224N Lecture 18",
-      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 18.md"
-    },
-    {
-      "basename": "CS224N Lecture 17",
-      "path": "Courses/Machine Learning/CS224N NLP @ Stanford (2023)/CS224N Lecture 17.md"
     }
   ],
   "omittedPaths": [],

@@ -2,6 +2,13 @@ Founded July 1, 2024, Headcount ~45 as of May 2026
 Working on Tactical Resupply, building everything on top of Palantir Foundry
 Emerged from Stealth in April 2025 after raised $15M from [[8VC]] and others (Silent Ventures, Timeless, Moonshots capital, Banter)
 
+
+### Vocabulary
+- "Cube": Means cargo volume (of a load).
+- "Cube-out": A vehicle runs out of physical.
+- "Weight-out": The vehicle hits its max payload weight before its cargo space is fuel.
+- 
+
 # Founding Team
 - Woody Glier (Chief Executive Officer)
 	- Palantir and Scale AI

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "National Stock Number.md",
+                "file": "Gallatin AI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "National Stock Number"
+              "title": "Gallatin AI"
+            }
+          },
+          {
+            "id": "7002e8c9b7e0d64a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics Release Point.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics Release Point"
+            }
+          },
+          {
+            "id": "b90c61628e3cf70e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimal Transport.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Optimal Transport"
+            }
+          },
+          {
+            "id": "6dfba16d6fbe61c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WireGuard.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "WireGuard"
             }
           },
           {
@@ -152,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1881,14 +1953,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ce9544d3a0faadd6",
+  "active": "7002e8c9b7e0d64a",
   "lastOpenFiles": [
+    "Main Supply Route.md",
+    "Logistics Release Point.md",
+    "Gallatin AI.md",
+    "Optimal Transport.md",
+    "Tailscale.md",
+    "WireGuard.md",
+    "National Stock Number.md",
     "Operational Order.md",
     "Visual Positioning System.md",
     "Wide Area Motion Imagery.md",
     "Logistics Synchronization.md",
     "Logistics Status.md",
-    "Gallatin AI.md",
     "_attachments/Pasted image 20260515005400.png",
     "_attachments/Pasted image 20260515005340.png",
     "_attachments/Pasted image 20260515005233.png",
@@ -1898,7 +1976,6 @@
     "_attachments/Pasted image 20260515005004.png",
     "_attachments/Pasted image 20260515004728.png",
     "_attachments/Pasted image 20260515004231.png",
-    "National Stock Number.md",
     "Joint Battle Commpand-Platform.md",
     "S4.md",
     "Palantir Foundry.md",
@@ -1914,11 +1991,6 @@
     "Maven Smart System.md",
     "OODA Loop.md",
     "Secret Internet Protocol Router Network.md",
-    "DoD Impact Level 6.md",
-    "DoD Impact Level 5.md",
-    "Synchronization Matrix.md",
-    "GLUE.md",
-    "WebSockets.md",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
