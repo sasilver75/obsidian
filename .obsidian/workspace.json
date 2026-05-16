@@ -80,6 +80,78 @@
             }
           },
           {
+            "id": "b96a1b04e888f6d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics Support Area.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics Support Area"
+            }
+          },
+          {
+            "id": "389378e4a9497962",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Movement.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Movement"
+            }
+          },
+          {
+            "id": "1626d6df0192b99e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Army Formations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Army Formations"
+            }
+          },
+          {
             "id": "b90c61628e3cf70e",
             "type": "leaf",
             "state": {
@@ -224,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1886,12 +1958,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "084bec1ff3972fc9",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 156
+        "currentTab": 157
       },
       {
         "id": "8a022290161ffefa",
@@ -1953,11 +2035,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7002e8c9b7e0d64a",
+  "active": "389378e4a9497962",
   "lastOpenFiles": [
-    "Main Supply Route.md",
+    "Movement.md",
+    "Logistics Support Area.md",
+    "Course of Action.md",
+    "Army Formations.md",
     "Logistics Release Point.md",
     "Gallatin AI.md",
+    "Supply Signal.md",
+    "Logistics Common Operating Picture.md",
+    "_attachments/Pasted image 20260515212559.png",
+    "_attachments/Pasted image 20260515212522.png",
+    "_attachments/Pasted image 20260515212343.png",
+    "Logistics Status.md",
+    "Logistics Package.md",
+    "Radiant Industries.md",
+    "Class of Supply.md",
+    "Main Supply Route.md",
     "Optimal Transport.md",
     "Tailscale.md",
     "WireGuard.md",
@@ -1966,7 +2061,6 @@
     "Visual Positioning System.md",
     "Wide Area Motion Imagery.md",
     "Logistics Synchronization.md",
-    "Logistics Status.md",
     "_attachments/Pasted image 20260515005400.png",
     "_attachments/Pasted image 20260515005340.png",
     "_attachments/Pasted image 20260515005233.png",
@@ -1974,23 +2068,11 @@
     "_attachments/Pasted image 20260515005028.png",
     "_attachments/Pasted image 20260515005012.png",
     "_attachments/Pasted image 20260515005004.png",
-    "_attachments/Pasted image 20260515004728.png",
-    "_attachments/Pasted image 20260515004231.png",
     "Joint Battle Commpand-Platform.md",
     "S4.md",
     "Palantir Foundry.md",
     "Palantir Ontology.md",
     "Palantir Army Vantage.md",
-    "Third-Party Logistics.md",
-    "Logistics Package.md",
-    "Tactical Table-Top Exercises.md",
-    "Codex App Server.md",
-    "OpenAI Codex.md",
-    "_attachments/Pasted image 20260514211601.png",
-    "Course of Action.md",
-    "Maven Smart System.md",
-    "OODA Loop.md",
-    "Secret Internet Protocol Router Network.md",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
