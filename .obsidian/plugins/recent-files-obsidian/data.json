@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Open Agent Skill",
+      "path": "Open Agent Skill.md"
+    },
+    {
+      "basename": "Joint Battle Command-Platform",
+      "path": "Joint Battle Command-Platform.md"
+    },
+    {
+      "basename": "Army Formations",
+      "path": "Army Formations.md"
+    },
+    {
+      "basename": "Joint Capabilities Release",
+      "path": "Joint Capabilities Release.md"
+    },
+    {
+      "basename": "Blue Force Tracking",
+      "path": "Blue Force Tracking.md"
+    },
+    {
+      "basename": "Logistics Status",
+      "path": "Logistics Status.md"
+    },
+    {
+      "basename": "Force XXI Battle Command Brigade and Below",
+      "path": "Force XXI Battle Command Brigade and Below.md"
+    },
+    {
+      "basename": "Decision Point",
+      "path": "Decision Point.md"
+    },
+    {
       "basename": "Course of Action",
       "path": "Course of Action.md"
     },
@@ -13,10 +45,6 @@
       "path": "Logistics Release Point.md"
     },
     {
-      "basename": "Logistics Status",
-      "path": "Logistics Status.md"
-    },
-    {
       "basename": "Logistics Package",
       "path": "Logistics Package.md"
     },
@@ -27,10 +55,6 @@
     {
       "basename": "Logistics Support Area",
       "path": "Logistics Support Area.md"
-    },
-    {
-      "basename": "Army Formations",
-      "path": "Army Formations.md"
     },
     {
       "basename": "Gallatin AI",
@@ -87,10 +111,6 @@
     {
       "basename": "Logistics Synchronization",
       "path": "Logistics Synchronization.md"
-    },
-    {
-      "basename": "Joint Battle Commpand-Platform",
-      "path": "Joint Battle Commpand-Platform.md"
     },
     {
       "basename": "S4",
@@ -179,26 +199,6 @@
     {
       "basename": "Interpreter",
       "path": "Interpreter.md"
-    },
-    {
-      "basename": "Compiler",
-      "path": "Compiler.md"
-    },
-    {
-      "basename": "Dynamically Typed",
-      "path": "Dynamically Typed.md"
-    },
-    {
-      "basename": "Parallelism",
-      "path": "Parallelism.md"
-    },
-    {
-      "basename": "shadcn",
-      "path": "shadcn.md"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Concurrency.md"
     }
   ],
   "omittedPaths": [],

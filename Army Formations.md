@@ -13,6 +13,7 @@ aliases:
   - Brigade
   - BCT
   - Division
+  - Brigade Combat Team
 ---
 
 

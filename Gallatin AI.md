@@ -40,7 +40,7 @@ Emerged from Stealth in April 2025 after raised $15M from [[8VC]] and others (Si
 		- compute ongoing requirements
 		- visualize supply trends
 	- ... units can make proactive adjustments before shortages impact operations.
-	- The system provides ==normalized supply levels== that creates a unified view of status from any input type, whether data comes from a [[Logistics Status|LOGSTAT]], [[Joint Battle Commpand-Platform|JBC-P]] message, an embedded sensor, or other variants of inventory and resupply requests.
+	- The system provides ==normalized supply levels== that creates a unified view of status from any input type, whether data comes from a [[Logistics Status|LOGSTAT]], [[Joint Battle Command-Platform|JBC-P]] message, an embedded sensor, or other variants of inventory and resupply requests.
 - Navigator's analytical engine ==continuously monitors supply data==, ==flagging anomalies== and ==recommending specific resupply actions== based on mission parameters and operational tempo.
 - Designed to provide planners with the most accurate logistics data they'v ever seen in the field.
 - Our ==algorithms== and ==AI Agents== handle the computational heavy lifting, running thousands of calculations that would otherwise burden logisticians across the team.
