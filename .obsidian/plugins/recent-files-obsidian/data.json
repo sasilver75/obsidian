@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "SWR",
+      "path": "SWR.md"
+    },
+    {
+      "basename": "Modern Frontend Development",
+      "path": "Modern Frontend Development.md"
+    },
+    {
+      "basename": "Third-Party Logistics",
+      "path": "Third-Party Logistics.md"
+    },
+    {
       "basename": "Open Agent Skill",
       "path": "Open Agent Skill.md"
     },
@@ -129,10 +141,6 @@
       "path": "Palantir Army Vantage.md"
     },
     {
-      "basename": "Third-Party Logistics",
-      "path": "Third-Party Logistics.md"
-    },
-    {
       "basename": "Tactical Table-Top Exercises",
       "path": "Tactical Table-Top Exercises.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Radiant Power",
       "path": "Radiant Power.md"
-    },
-    {
-      "basename": "International System of Units",
-      "path": "International System of Units.md"
-    },
-    {
-      "basename": "Interpreter",
-      "path": "Interpreter.md"
     }
   ],
   "omittedPaths": [],

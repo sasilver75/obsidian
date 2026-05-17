@@ -397,7 +397,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Open Agent Skill.md",
+                "file": "SWR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -412,7 +412,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Open Agent Skill"
+              "title": "SWR"
             }
           }
         ],
@@ -2178,6 +2178,9 @@
   },
   "active": "28a398c40794ffd3",
   "lastOpenFiles": [
+    "Modern Frontend Development.md",
+    "Third-Party Logistics.md",
+    "SWR.md",
     "Open Agent Skill.md",
     "Joint Battle Command-Platform.md",
     "Army Formations.md",
@@ -2204,9 +2207,6 @@
     "Optimal Transport.md",
     "Tailscale.md",
     "WireGuard.md",
-    "National Stock Number.md",
-    "Operational Order.md",
-    "Visual Positioning System.md",
     "_attachments/Pasted image 20260515005400.png",
     "_attachments/Pasted image 20260515005340.png",
     "_attachments/Pasted image 20260515005233.png",
