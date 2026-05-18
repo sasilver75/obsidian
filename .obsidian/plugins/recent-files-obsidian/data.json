@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "Logistics (Index)",
+      "path": "Logistics (Index).md"
+    },
+    {
       "basename": "Gallatin Prompts",
       "path": "Gallatin Prompts.md"
+    },
+    {
+      "basename": "Expeditionary Sustainment Command (ESC)",
+      "path": "Expeditionary Sustainment Command (ESC).md"
+    },
+    {
+      "basename": "Cyber Command",
+      "path": "Cyber Command.md"
+    },
+    {
+      "basename": "Space Command",
+      "path": "Space Command.md"
+    },
+    {
+      "basename": "Southern Command",
+      "path": "Southern Command.md"
+    },
+    {
+      "basename": "Northern Command",
+      "path": "Northern Command.md"
+    },
+    {
+      "basename": "Indo-Pacific Command",
+      "path": "Indo-Pacific Command.md"
+    },
+    {
+      "basename": "European Command",
+      "path": "European Command.md"
+    },
+    {
+      "basename": "Africa Command",
+      "path": "Africa Command.md"
+    },
+    {
+      "basename": "Central Command",
+      "path": "Central Command.md"
+    },
+    {
+      "basename": "Division Sustainment Brigade",
+      "path": "Division Sustainment Brigade.md"
+    },
+    {
+      "basename": "Special Operations Command",
+      "path": "Special Operations Command.md"
+    },
+    {
+      "basename": "Strategic Command",
+      "path": "Strategic Command.md"
+    },
+    {
+      "basename": "Transportation Command",
+      "path": "Transportation Command.md"
+    },
+    {
+      "basename": "Unified Combatant Command",
+      "path": "Unified Combatant Command.md"
+    },
+    {
+      "basename": "Division Sustainment Support Battalion",
+      "path": "Division Sustainment Support Battalion.md"
+    },
+    {
+      "basename": "Brigade Support Battalion",
+      "path": "Brigade Support Battalion.md"
+    },
+    {
+      "basename": "Forward Support Company",
+      "path": "Forward Support Company.md"
+    },
+    {
+      "basename": "Operational Control",
+      "path": "Operational Control.md"
     },
     {
       "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
@@ -21,12 +97,20 @@
       "path": "Quantity Per Unit Pack.md"
     },
     {
-      "basename": "Logistics Synchronization",
-      "path": "Logistics Synchronization.md"
-    },
-    {
       "basename": "Logistics Support Area",
       "path": "Logistics Support Area.md"
+    },
+    {
+      "basename": "Class of Supply",
+      "path": "Class of Supply.md"
+    },
+    {
+      "basename": "Maneuver Unit",
+      "path": "Maneuver Unit.md"
+    },
+    {
+      "basename": "Logistics Synchronization",
+      "path": "Logistics Synchronization.md"
     },
     {
       "basename": "Gallatin AI",
@@ -73,10 +157,6 @@
       "path": "Logistics Common Operating Picture.md"
     },
     {
-      "basename": "Class of Supply",
-      "path": "Class of Supply.md"
-    },
-    {
       "basename": "Optimal Transport",
       "path": "Optimal Transport.md"
     },
@@ -119,86 +199,6 @@
     {
       "basename": "Army Formations",
       "path": "Army Formations.md"
-    },
-    {
-      "basename": "Force XXI Battle Command Brigade and Below",
-      "path": "Force XXI Battle Command Brigade and Below.md"
-    },
-    {
-      "basename": "Decision Point",
-      "path": "Decision Point.md"
-    },
-    {
-      "basename": "Course of Action",
-      "path": "Course of Action.md"
-    },
-    {
-      "basename": "AI Quotes",
-      "path": "AI Quotes.md"
-    },
-    {
-      "basename": "Logistics Package",
-      "path": "Logistics Package.md"
-    },
-    {
-      "basename": "Movement",
-      "path": "Movement.md"
-    },
-    {
-      "basename": "Supply Signal",
-      "path": "Supply Signal.md"
-    },
-    {
-      "basename": "Radiant Industries",
-      "path": "Radiant Industries.md"
-    },
-    {
-      "basename": "Main Supply Route",
-      "path": "Main Supply Route.md"
-    },
-    {
-      "basename": "Tailscale",
-      "path": "Tailscale.md"
-    },
-    {
-      "basename": "National Stock Number",
-      "path": "National Stock Number.md"
-    },
-    {
-      "basename": "Operational Order",
-      "path": "Operational Order.md"
-    },
-    {
-      "basename": "Visual Positioning System",
-      "path": "Visual Positioning System.md"
-    },
-    {
-      "basename": "Wide Area Motion Imagery",
-      "path": "Wide Area Motion Imagery.md"
-    },
-    {
-      "basename": "Palantir Army Vantage",
-      "path": "Palantir Army Vantage.md"
-    },
-    {
-      "basename": "Tactical Table-Top Exercises",
-      "path": "Tactical Table-Top Exercises.md"
-    },
-    {
-      "basename": "Codex App Server",
-      "path": "Codex App Server.md"
-    },
-    {
-      "basename": "OpenAI Codex",
-      "path": "OpenAI Codex.md"
-    },
-    {
-      "basename": "OODA Loop",
-      "path": "OODA Loop.md"
-    },
-    {
-      "basename": "Secret Internet Protocol Router Network",
-      "path": "Secret Internet Protocol Router Network.md"
     }
   ],
   "omittedPaths": [],

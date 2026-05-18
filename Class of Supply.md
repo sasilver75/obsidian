@@ -10,6 +10,7 @@ aliases:
   - Class VIII
   - Class IX
   - Class X
+  - Supply Class
 ---
 
 ==Class I==: Subsistence, meaning food/water/rations

@@ -114,15 +114,41 @@ _____________
 ```
 
 "Let's say we just heard over the radio that their MRE got totally wiped out (he edits the On Hand MRE number to 0, from 333)... We save this, and then we see... that we're regenerating courses of actions. This is usually done over hours by our team, and we already see that Course of Action is updated. This is usually done over the course of hours by a whole team, and we're already seeing that courses of action are updated. We obviously need to supply them..."
+
+[IMAGE 1]
+So see that pressing the edit button makes the tables sort of grayscale, and then the on-hand column is darker, indicating that that is the sole editable column. So logistics officers can manually change the current on-hand supply of a given item in the inventory of a unit, but they can't change the 24 or 48 or 72 hour amounts of supply. You can also see that there is an X that appears to the right in its own column at the right side of the table, which allows for you to remove an inventory item. 
+
+The operator updates the "On Hand" quantity of the MRE inventory item to 0, and pressses the Save button.
+
+
+[IMAGE 2]
+[IMAGE 3]
+You can see from these sequential images that saving of the updated on-hand inventory causes a set of background operations that are reflected by the sequential appearances of toast items in the bottom-right corner. "Applying inventory edits...", "Inventory updated for 1 entry", "Regenerating courses of action...", and then later, a "Coruses of action updated" toast. 
+
+"We're seeing that the course of action is updated. Web obviously need to supply them, so we can go over to the LOGSYNC matrix."
+
+This will be our next slice, but first let's talk about what we've learned from this last slice of the demo.
+
 ```
 
 
 IMAGE 1
 ![[Pasted image 20260517173815.png]]
 ![[Pasted image 20260517174033.png]]
-See that there's some tasts in the lower right corner: "Applying inventory edits...", "Inventory updated for 1 entry." (green), "Regenerating Courses of Action"
+See that there's some toasts in the lower right corner: "Applying inventory edits...", "Inventory updated for 1 entry." (green), "Regenerating Courses of Action"
+
 ![[Pasted image 20260517174045.png]]
 After, see the MRE supply statuses are blacked out in the future too.
 
 ![[Pasted image 20260517174151.png]]
 "Courses of Action updated" toast
+
+
+_________
+
+
+```
+
+
+```
+
