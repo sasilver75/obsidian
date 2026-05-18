@@ -1,6 +1,110 @@
 {
   "recentFiles": [
     {
+      "basename": "Gallatin Prompts",
+      "path": "Gallatin Prompts.md"
+    },
+    {
+      "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
+      "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
+    },
+    {
+      "basename": "Unit of Issue",
+      "path": "Unit of Issue.md"
+    },
+    {
+      "basename": "Unit of Measure",
+      "path": "Unit of Measure.md"
+    },
+    {
+      "basename": "Quantity Per Unit Pack",
+      "path": "Quantity Per Unit Pack.md"
+    },
+    {
+      "basename": "Logistics Synchronization",
+      "path": "Logistics Synchronization.md"
+    },
+    {
+      "basename": "Logistics Support Area",
+      "path": "Logistics Support Area.md"
+    },
+    {
+      "basename": "Gallatin AI",
+      "path": "Gallatin AI.md"
+    },
+    {
+      "basename": "Joint Battle Command-Platform",
+      "path": "Joint Battle Command-Platform.md"
+    },
+    {
+      "basename": "Joint Capabilities Release",
+      "path": "Joint Capabilities Release.md"
+    },
+    {
+      "basename": "Logistics Status",
+      "path": "Logistics Status.md"
+    },
+    {
+      "basename": "Logistics Release Point",
+      "path": "Logistics Release Point.md"
+    },
+    {
+      "basename": "Blue Force Tracking",
+      "path": "Blue Force Tracking.md"
+    },
+    {
+      "basename": "EPSG Code",
+      "path": "EPSG Code.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "Coordinate Reference System",
+      "path": "Coordinate Reference System.md"
+    },
+    {
+      "basename": "Military Grid Reference System",
+      "path": "Military Grid Reference System.md"
+    },
+    {
+      "basename": "Logistics Common Operating Picture",
+      "path": "Logistics Common Operating Picture.md"
+    },
+    {
+      "basename": "Class of Supply",
+      "path": "Class of Supply.md"
+    },
+    {
+      "basename": "Optimal Transport",
+      "path": "Optimal Transport.md"
+    },
+    {
+      "basename": "WireGuard",
+      "path": "WireGuard.md"
+    },
+    {
+      "basename": "Third-Party Logistics",
+      "path": "Third-Party Logistics.md"
+    },
+    {
+      "basename": "Palantir Ontology",
+      "path": "Palantir Ontology.md"
+    },
+    {
+      "basename": "Palantir Foundry",
+      "path": "Palantir Foundry.md"
+    },
+    {
+      "basename": "S4",
+      "path": "S4.md"
+    },
+    {
+      "basename": "Maven Smart System",
+      "path": "Maven Smart System.md"
+    },
+    {
       "basename": "SWR",
       "path": "SWR.md"
     },
@@ -9,32 +113,12 @@
       "path": "Modern Frontend Development.md"
     },
     {
-      "basename": "Third-Party Logistics",
-      "path": "Third-Party Logistics.md"
-    },
-    {
       "basename": "Open Agent Skill",
       "path": "Open Agent Skill.md"
     },
     {
-      "basename": "Joint Battle Command-Platform",
-      "path": "Joint Battle Command-Platform.md"
-    },
-    {
       "basename": "Army Formations",
       "path": "Army Formations.md"
-    },
-    {
-      "basename": "Joint Capabilities Release",
-      "path": "Joint Capabilities Release.md"
-    },
-    {
-      "basename": "Blue Force Tracking",
-      "path": "Blue Force Tracking.md"
-    },
-    {
-      "basename": "Logistics Status",
-      "path": "Logistics Status.md"
     },
     {
       "basename": "Force XXI Battle Command Brigade and Below",
@@ -53,10 +137,6 @@
       "path": "AI Quotes.md"
     },
     {
-      "basename": "Logistics Release Point",
-      "path": "Logistics Release Point.md"
-    },
-    {
       "basename": "Logistics Package",
       "path": "Logistics Package.md"
     },
@@ -65,44 +145,20 @@
       "path": "Movement.md"
     },
     {
-      "basename": "Logistics Support Area",
-      "path": "Logistics Support Area.md"
-    },
-    {
-      "basename": "Gallatin AI",
-      "path": "Gallatin AI.md"
-    },
-    {
       "basename": "Supply Signal",
       "path": "Supply Signal.md"
-    },
-    {
-      "basename": "Logistics Common Operating Picture",
-      "path": "Logistics Common Operating Picture.md"
     },
     {
       "basename": "Radiant Industries",
       "path": "Radiant Industries.md"
     },
     {
-      "basename": "Class of Supply",
-      "path": "Class of Supply.md"
-    },
-    {
       "basename": "Main Supply Route",
       "path": "Main Supply Route.md"
     },
     {
-      "basename": "Optimal Transport",
-      "path": "Optimal Transport.md"
-    },
-    {
       "basename": "Tailscale",
       "path": "Tailscale.md"
-    },
-    {
-      "basename": "WireGuard",
-      "path": "WireGuard.md"
     },
     {
       "basename": "National Stock Number",
@@ -121,22 +177,6 @@
       "path": "Wide Area Motion Imagery.md"
     },
     {
-      "basename": "Logistics Synchronization",
-      "path": "Logistics Synchronization.md"
-    },
-    {
-      "basename": "S4",
-      "path": "S4.md"
-    },
-    {
-      "basename": "Palantir Foundry",
-      "path": "Palantir Foundry.md"
-    },
-    {
-      "basename": "Palantir Ontology",
-      "path": "Palantir Ontology.md"
-    },
-    {
       "basename": "Palantir Army Vantage",
       "path": "Palantir Army Vantage.md"
     },
@@ -153,52 +193,12 @@
       "path": "OpenAI Codex.md"
     },
     {
-      "basename": "Maven Smart System",
-      "path": "Maven Smart System.md"
-    },
-    {
       "basename": "OODA Loop",
       "path": "OODA Loop.md"
     },
     {
       "basename": "Secret Internet Protocol Router Network",
       "path": "Secret Internet Protocol Router Network.md"
-    },
-    {
-      "basename": "DoD Impact Level 6",
-      "path": "DoD Impact Level 6.md"
-    },
-    {
-      "basename": "DoD Impact Level 5",
-      "path": "DoD Impact Level 5.md"
-    },
-    {
-      "basename": "Synchronization Matrix",
-      "path": "Synchronization Matrix.md"
-    },
-    {
-      "basename": "GLUE",
-      "path": "GLUE.md"
-    },
-    {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
-      "basename": "COLMAP",
-      "path": "COLMAP.md"
-    },
-    {
-      "basename": "Statically Typed",
-      "path": "Statically Typed.md"
-    },
-    {
-      "basename": "Strongly Typed",
-      "path": "Strongly Typed.md"
-    },
-    {
-      "basename": "Radiant Power",
-      "path": "Radiant Power.md"
     }
   ],
   "omittedPaths": [],

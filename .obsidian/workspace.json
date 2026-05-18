@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logistics Synchronization.md",
+                "file": "Gallatin Prompts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logistics Synchronization"
+              "title": "Gallatin Prompts"
+            }
+          },
+          {
+            "id": "18a97b3bc4a10402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques"
+            }
+          },
+          {
+            "id": "d34aa950fe351381",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit of Issue.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Unit of Issue"
+            }
+          },
+          {
+            "id": "5277794a6d67bad8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit of Measure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Unit of Measure"
+            }
+          },
+          {
+            "id": "a9ed4a0e2ef2ac96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quantity Per Unit Pack.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Quantity Per Unit Pack"
+            }
+          },
+          {
+            "id": "fd821d5e8be5cc2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit of Measure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Unit of Measure"
             }
           },
           {
             "id": "ce9544d3a0faadd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gallatin AI.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gallatin AI"
-            }
-          },
-          {
-            "id": "7002e8c9b7e0d64a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logistics Release Point.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Logistics Release Point"
-            }
-          },
-          {
-            "id": "b96a1b04e888f6d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -102,321 +174,8 @@
               "icon": "lucide-file",
               "title": "Logistics Support Area"
             }
-          },
-          {
-            "id": "389378e4a9497962",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logistics Status.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Logistics Status"
-            }
-          },
-          {
-            "id": "5632b941630ff3eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Capabilities Release.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Capabilities Release"
-            }
-          },
-          {
-            "id": "dcda675eb25acfd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Battle Command-Platform.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Battle Command-Platform"
-            }
-          },
-          {
-            "id": "aa77fee17e742dc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blue Force Tracking.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Blue Force Tracking"
-            }
-          },
-          {
-            "id": "32cdb7cbaa3af922",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Capabilities Release.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Capabilities Release"
-            }
-          },
-          {
-            "id": "1626d6df0192b99e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Battle Command-Platform.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Battle Command-Platform"
-            }
-          },
-          {
-            "id": "b90c61628e3cf70e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimal Transport.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Optimal Transport"
-            }
-          },
-          {
-            "id": "6dfba16d6fbe61c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WireGuard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WireGuard"
-            }
-          },
-          {
-            "id": "e7fe6763a7983ba9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S4.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "S4"
-            }
-          },
-          {
-            "id": "bb4132af5db40d2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Palantir Foundry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Palantir Foundry"
-            }
-          },
-          {
-            "id": "86bd8177aba32cdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Palantir Ontology.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Palantir Ontology"
-            }
-          },
-          {
-            "id": "92f71b7928801c7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Third-Party Logistics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Third-Party Logistics"
-            }
-          },
-          {
-            "id": "28a398c40794ffd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SWR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SWR"
-            }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -448,7 +207,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cube",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2176,44 +1935,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "28a398c40794ffd3",
+  "active": "ae8bf77dbe474e0e",
   "lastOpenFiles": [
-    "Modern Frontend Development.md",
-    "Third-Party Logistics.md",
-    "SWR.md",
-    "Open Agent Skill.md",
-    "Joint Battle Command-Platform.md",
-    "Army Formations.md",
-    "Joint Capabilities Release.md",
-    "Blue Force Tracking.md",
-    "Logistics Status.md",
-    "Force XXI Battle Command Brigade and Below.md",
-    "Decision Point.md",
-    "Course of Action.md",
-    "AI Quotes.md",
-    "Logistics Release Point.md",
-    "Logistics Package.md",
-    "Movement.md",
+    "_attachments/Pasted image 20260517174151.png",
+    "_attachments/Pasted image 20260517174045.png",
+    "_attachments/Pasted image 20260517174033.png",
+    "_attachments/Pasted image 20260517173815.png",
+    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
+    "Unit of Issue.md",
+    "Unit of Measure.md",
+    "Gallatin Prompts.md",
+    "Quantity Per Unit Pack.md",
+    "Logistics Synchronization.md",
     "Logistics Support Area.md",
     "Gallatin AI.md",
-    "Supply Signal.md",
+    "Joint Battle Command-Platform.md",
+    "Joint Capabilities Release.md",
+    "Logistics Status.md",
+    "Logistics Release Point.md",
+    "_attachments/Pasted image 20260517171023.png",
+    "_attachments/Pasted image 20260517171022.png",
+    "Blue Force Tracking.md",
+    "EPSG Code.md",
+    "WGS84.md",
+    "Coordinate Reference System.md",
+    "Military Grid Reference System.md",
     "Logistics Common Operating Picture.md",
+    "_attachments/Pasted image 20260517154610.png",
+    "_attachments/Pasted image 20260517154305.png",
+    "Class of Supply.md",
+    "Optimal Transport.md",
+    "WireGuard.md",
+    "Third-Party Logistics.md",
+    "Palantir Ontology.md",
+    "Palantir Foundry.md",
+    "S4.md",
     "_attachments/Pasted image 20260515212559.png",
     "_attachments/Pasted image 20260515212522.png",
     "_attachments/Pasted image 20260515212343.png",
-    "Radiant Industries.md",
-    "Class of Supply.md",
-    "Main Supply Route.md",
-    "Optimal Transport.md",
-    "Tailscale.md",
-    "WireGuard.md",
-    "_attachments/Pasted image 20260515005400.png",
-    "_attachments/Pasted image 20260515005340.png",
-    "_attachments/Pasted image 20260515005233.png",
-    "_attachments/Pasted image 20260515005044.png",
-    "_attachments/Pasted image 20260515005028.png",
-    "_attachments/Pasted image 20260515005012.png",
-    "_attachments/Pasted image 20260515005004.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
