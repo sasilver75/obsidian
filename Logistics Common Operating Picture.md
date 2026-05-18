@@ -2,7 +2,6 @@
 aliases:
   - LCOP
 ---
-
 A centralized, real-time dashboard that integrates supply chain, inventory, and asset data into a single source of truth.
 - Provides commanders and managers immediate visibility over resources, enabling faster decision-making, predictive logistics, and seamless synchronization between field operations and central command.
 

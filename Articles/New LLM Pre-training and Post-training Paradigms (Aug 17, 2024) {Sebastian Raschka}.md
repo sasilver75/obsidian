@@ -80,7 +80,7 @@ One of the standout features of Qwen 2 LLMs are their good multilingual capabili
 
 
 ![[Pasted image 20241120182814.png|600]]
-Above: [[[MMLU]] scores for various models, by model size. See that the Qwen-2 models are roughly on the frontier of those compared here.
+Above: [[MMLU]] scores for various models, by model size. See that the Qwen-2 models are roughly on the frontier of those compared here.
 - Interesting that the AFM-server model from Apple lies above the usual frontier.
 
 Qwen 2 Pre-training

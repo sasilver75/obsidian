@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae8bf77dbe474e0e",
+            "id": "08c141033338b146",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gallatin Prompts.md",
+                "file": "Expeditionary Sustainment Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gallatin Prompts"
+              "title": "Expeditionary Sustainment Command"
             }
           },
           {
-            "id": "6aafafa16beb11f3",
+            "id": "c3df3dfa91ee9076",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logistics (Index).md",
+                "file": "Best-of-N Sampling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logistics (Index)"
+              "title": "Best-of-N Sampling"
             }
           },
           {
-            "id": "45e6ad152e8989de",
+            "id": "f84b8767993bf90d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Expeditionary Sustainment Command (ESC).md",
+                "file": "Rejection Sampling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expeditionary Sustainment Command (ESC)"
+              "title": "Rejection Sampling"
             }
           },
           {
-            "id": "b07dcce4911a956c",
+            "id": "00e5de08596898d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Expeditionary Sustainment Command (ESC).md",
+                "file": "Logistics Common Operating Picture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expeditionary Sustainment Command (ESC)"
+              "title": "Logistics Common Operating Picture"
             }
           },
           {
-            "id": "8d01850a219e5e4f",
+            "id": "f0036887a7a32524",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Command.md",
+                "file": "Army Echelons.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cyber Command"
+              "title": "Army Echelons"
             }
           },
           {
-            "id": "97b8ea77548dedfc",
+            "id": "83841795287c187a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Special Operations Command.md",
+                "file": "National Stock Number.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Special Operations Command"
+              "title": "National Stock Number"
             }
           },
           {
-            "id": "bd5075aba134f59c",
+            "id": "4cd073c6cc0c63b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strategic Command.md",
+                "file": "Third-Party Logistics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Strategic Command"
+              "title": "Third-Party Logistics"
             }
           },
           {
-            "id": "69571d78791bcc4b",
+            "id": "363bdd25ebe2ad56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transportation Command.md",
+                "file": "Modern ML Ops.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,35 +196,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Transportation Command"
-            }
-          },
-          {
-            "id": "c2e3c98f477a614b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unified Combatant Command.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Unified Combatant Command"
+              "title": "Modern ML Ops"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -292,8 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1984,26 +1959,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6aafafa16beb11f3",
+  "active": "f84b8767993bf90d",
   "lastOpenFiles": [
-    "Gallatin Prompts.md",
+    "Best-of-N Sampling.md",
+    "Unit of Measure.md",
+    "Logistics Common Operating Picture.md",
+    "Expeditionary Sustainment Command.md",
+    "Army Echelons.md",
+    "Class of Supply.md",
+    "National Stock Number.md",
+    "Theater Sustainment Command.md",
     "Logistics (Index).md",
-    "Expeditionary Sustainment Command (ESC).md",
+    "Quantity Per Unit Pack.md",
+    "Transportation Command.md",
+    "Projects/Cohere Reasoning/Meetings/05 October 17.md",
+    "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
+    "[MMLU.md",
+    "Third-Party Logistics.md",
+    "Modern AI Engineering.md",
+    "Gallatin Prompts.md",
+    "Modern ML Ops.md",
+    "Unified Combatant Command.md",
+    "Strategic Command.md",
+    "Special Operations Command.md",
     "Cyber Command.md",
+    "AI Engineering.md",
     "Space Command.md",
     "Southern Command.md",
     "Northern Command.md",
-    "Indo-Pacific Command.md",
-    "European Command.md",
-    "Africa Command.md",
-    "Central Command.md",
     "_attachments/Pasted image 20260517224622.png",
     "_attachments/Pasted image 20260517224548.png",
-    "Division Sustainment Brigade.md",
-    "Special Operations Command.md",
-    "Strategic Command.md",
-    "Transportation Command.md",
-    "Unified Combatant Command.md",
     "_attachments/Pasted image 20260517224003.png",
     "_attachments/Pasted image 20260517223953.png",
     "_attachments/Pasted image 20260517223336.png",
@@ -2012,16 +1997,6 @@
     "_attachments/Pasted image 20260517222839.png",
     "_attachments/Pasted image 20260517221740.png",
     "_attachments/Pasted image 20260517221738.png",
-    "Division Sustainment Support Battalion.md",
-    "Brigade Support Battalion.md",
-    "Forward Support Company.md",
-    "Operational Control.md",
-    "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md",
-    "Unit of Issue.md",
-    "Unit of Measure.md",
-    "Quantity Per Unit Pack.md",
-    "Logistics Support Area.md",
-    "Class of Supply.md",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",

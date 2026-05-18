@@ -1,25 +1,26 @@
-- [[Gallatin AI]]
+
+
 - [[Course of Action]]
-- [[Logistics Status]]
-- [[Logistics Package]]
-- [[Logistics Synchronization]]
-- [[Third-Party Logistics]]
-- [[National Stock Number]]
-- [[Main Supply Route]]
-- [[Logistics Release Point]]
-- [[Class of Supply]]
-- [[Logistics Common Operating Picture]]
-- [[Supply Signal]]
-- [[Logistics Support Area]]
+- [[Logistics Status]] (LOGSTAT)
+- [[Logistics Package]] (LOGPAC)
+- [[Logistics Synchronization]] (LOGSYNC)
+- [[Third-Party Logistics]] (3PL)
+- [[National Stock Number]] (NSN)
+- [[Main Supply Route]] (MSR)
+- [[Logistics Release Point]] (LRP)
+- [[Class of Supply]] (Supply Class)
+- [[Logistics Common Operating Picture]] (LCOP)
+- [[Supply Signal]] 
+- [[Logistics Support Area]] (LSA)
 - [[Movement]]
 - [[Decision Point]]
-- [[Gallatin Prompts]]
-- [[Unit of Issue]]
-- [[Unit of Measure]]
-- [[Quantity Per Unit Pack]]
-- [[Forward Support Company]]
-- [[Brigade Support Battalion]]
-- [[Division Sustainment Support Battalion]]
-- [[Division Sustainment Brigade]]
-- [[Expeditionary Sustainment Command (ESC)]]
-- [[Transportation Command]]
+- [[Unit of Issue]] (U/I)
+- [[Unit of Measure]] (U/M)
+- [[Quantity Per Unit Pack]] (QUP)
+- [[Forward Support Company]] (FSC)
+- [[Brigade Support Battalion]] (BSB)
+- [[Division Sustainment Support Battalion]] (DSSB)
+- [[Division Sustainment Brigade]] (DSB)
+- [[Expeditionary Sustainment Command]] (ESC)
+- [[Theater Sustainment Command]] (TSC)
+- [[Transportation Command]] (USTRANSCOM)

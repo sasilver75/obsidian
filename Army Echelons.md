@@ -14,6 +14,7 @@ aliases:
   - BCT
   - Division
   - Brigade Combat Team
+  - Echelon
 ---
 
 

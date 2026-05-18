@@ -21,7 +21,7 @@ The FSC has a company headquarters, field feeding section, distribution platoon,
 ![[Pasted image 20260517221207.png]]
 
 The next level up is the [[Brigade Support Battalion]], from which the FSCs are attached and replenished. 
-BSBs are organic to [[Army Formations|Brigade Combat Team]]s in most cases.
+BSBs are organic to [[Army Echelons|Brigade Combat Team]]s in most cases.
 
 ![[Pasted image 20260517221317.png]]
 

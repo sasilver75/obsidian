@@ -2,7 +2,7 @@
 aliases:
   - DSB
 ---
-Directly supports their assigned [[Army Formations|Division]]
+Directly supports their assigned [[Army Echelons|Division]]
 
 Consists of:
 - A special troops battalion

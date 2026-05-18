@@ -7,7 +7,7 @@ References:
 
 A combat service support battalion of the US Army. It is an expeditionary formation that deploys with its supported brigade, including (for airborne forces) conducting parachute assault operations.
 
-- A BSB is an organic part of a [[Army Formations|Brigade Combat Team]], providing self-sustainment to the BCDT for up to ==72 hours of high-intensity combat== before requiring replenishment.
+- A BSB is an organic part of a [[Army Echelons|Brigade Combat Team]], providing self-sustainment to the BCDT for up to ==72 hours of high-intensity combat== before requiring replenishment.
 - Consists of:
 	- ==A Headquarters and Headquarters Company (HHC)==
 		- Provides command and control, administrative and logistical support for all units assigned or attached to the BSB
@@ -19,7 +19,7 @@ A combat service support battalion of the US Army. It is an expeditionary format
 			- Delivered directly to the supporting [[Forward Support Company|Forward Support Companies]] (FSCs)
 			- The company will maintain a central supply point from which the FSCs come to pick up supplies.
 	- Brigade Support Medical Company (BSMC), "Charlie Med"
-		- Provides medical support to its [[Army Formations|Brigade Combat Team]] and on an area basis to any BCT units that don't have their own medical assets. Typically sets up a field hospital in the BSA.
+		- Provides medical support to its [[Army Echelons|Brigade Combat Team]] and on an area basis to any BCT units that don't have their own medical assets. Typically sets up a field hospital in the BSA.
 	- [[Forward Support Company]] assigned to each of the other battalions in the BCT.
 		- Organic to the BSBs of a BCT, combat aviation brigade, and [[Special Forces]] group.
 		- Provides direct support to the other battalions of its parent brigade, including field feeding, bulk fuel, general supply, ammunition, and field-level maintenance.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - ESC
+---
 
 Above the Division (e.g. [[Division Sustainment Brigade]]), the command and sustainment headquarters is the Expeditionary Sustainment Command.
 ![[Pasted image 20260517223237.png]]

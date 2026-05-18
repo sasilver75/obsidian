@@ -1,3 +1,9 @@
+---
+aliases:
+  - 3PL
+---
+
+
 Outsourcing of supply chain operations (e.g. warehousing, transportation, and order fulfillment) to specialized external providers.
 
 
