@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Best-of-N Sampling"
             }
+          },
+          {
+            "id": "f44eec6717ea285a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design in a Hurry.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "System Design in a Hurry"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1758,12 +1783,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "b71573a03b952b87",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 160
+        "currentTab": 161
       },
       {
         "id": "8a022290161ffefa",
@@ -1825,15 +1860,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c3df3dfa91ee9076",
+  "active": "f44eec6717ea285a",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260520013803.png",
+    "JSON Web Token.md",
+    "System Design in a Hurry.md",
+    "_attachments/Pasted image 20260520005321.png",
+    "_attachments/Pasted image 20260520004305.png",
+    "Best-of-N Sampling.md",
     "Modern ML Ops.md",
     "Third-Party Logistics.md",
     "National Stock Number.md",
     "Army Echelons.md",
     "Logistics Common Operating Picture.md",
     "Rejection Sampling.md",
-    "Best-of-N Sampling.md",
     "Unit of Measure.md",
     "Expeditionary Sustainment Command.md",
     "Class of Supply.md",
@@ -1850,9 +1890,6 @@
     "Strategic Command.md",
     "Special Operations Command.md",
     "Cyber Command.md",
-    "AI Engineering.md",
-    "Space Command.md",
-    "Southern Command.md",
     "_attachments/Pasted image 20260517224622.png",
     "_attachments/Pasted image 20260517224548.png",
     "_attachments/Pasted image 20260517224003.png",
@@ -1861,8 +1898,6 @@
     "_attachments/Pasted image 20260517223237.png",
     "_attachments/Pasted image 20260517223022.png",
     "_attachments/Pasted image 20260517222839.png",
-    "_attachments/Pasted image 20260517221740.png",
-    "_attachments/Pasted image 20260517221738.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",

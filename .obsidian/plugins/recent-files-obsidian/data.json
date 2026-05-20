@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "System Design in a Hurry",
+      "path": "System Design in a Hurry.md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
+    },
+    {
       "basename": "Best-of-N Sampling",
       "path": "Best-of-N Sampling.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "WGS84",
       "path": "WGS84.md"
-    },
-    {
-      "basename": "Coordinate Reference System",
-      "path": "Coordinate Reference System.md"
-    },
-    {
-      "basename": "Military Grid Reference System",
-      "path": "Military Grid Reference System.md"
     }
   ],
   "omittedPaths": [],
