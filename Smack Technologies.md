@@ -8,11 +8,11 @@ Models:
 
 > In its simplest form, Smack compresses the time it takes military commanders to make informed, intelligent, actionable decisions from months to minutes. It then enables warfighters and autonomous systems on the front lines to act on those decisions in a coordinated manner in real time, with or without comms access. 
 
-Fires:
-Logistics: Predict supply chain disruptions and autonomously coordinate resource distribution across contested theaters, ensuring sustainment under pressure.
-Intelligence: Process vast intelligence feeds to filter signal from noise, detect adversary patterns, and rapidly surface actionable, high-confidence assessments.
-Information: Identify and counter adversary disinformation campaigns swhile generating trusted narratives that maintain coalition synchronization across operations.
-Force Protection: Monitor threats across domains and echelons to provide predictive early warnings and automated response recommendations to safeguard forces and critical assets.
+- Fires:
+- Logistics: Predict supply chain disruptions and autonomously coordinate resource distribution across contested theaters, ensuring sustainment under pressure.
+- Intelligence: Process vast intelligence feeds to filter signal from noise, detect adversary patterns, and rapidly surface actionable, high-confidence assessments.
+- Information: Identify and counter adversary disinformation campaigns swhile generating trusted narratives that maintain coalition synchronization across operations.
+- Force Protection: Monitor threats across domains and echelons to provide predictive early warnings and automated response recommendations to safeguard forces and critical assets.
 
 
 Founders:
@@ -251,8 +251,8 @@ Building the brain for the kill-chain.
 
 [Omega Fires: Deliberate Decision Horizon](https://youtu.be/yqaYQ_S9TE0) (March 12, 2026)
 - Omega is designed to be in support of the ==general staff==
-- The best way to think of it... is operating in different tiem verticals:
-	- In the first, it's receiving higher headwuqarrters data (ordres, directives, guidance)
+- The best way to think of it... is operating in different time verticals:
+	- In the first, it's receiving higher headquarters data (orders, directives, guidance)
 	- Once it has that, it collates that information with a larger understanding of what's happening in the operational battlespace... an understanding of intent, doctrine. Works with user/staff/commander to take higher headquarters order, do problem framing, and initial planning,
 	- and ultimately produce a concept of operations, a [[Concept of Operations|CONOP]]... that is designed to be a large-scale application of "These are the things I want to have happen, here's what I have to do them with, nad here's the time horizon that I have to operate on."
 		- The reality... is that this flow... is just not sustainable... and that it's what most staffs are worried about today
