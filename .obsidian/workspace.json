@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Expeditionary Sustainment Command.md",
+                "file": "System Design in a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expeditionary Sustainment Command"
-            }
-          },
-          {
-            "id": "c3df3dfa91ee9076",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Best-of-N Sampling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Best-of-N Sampling"
-            }
-          },
-          {
-            "id": "f44eec6717ea285a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sun-Synchronous Orbit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sun-Synchronous Orbit"
+              "title": "System Design in a Hurry"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -1860,8 +1811,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f44eec6717ea285a",
+  "active": "08c141033338b146",
   "lastOpenFiles": [
+    "Expeditionary Sustainment Command.md",
+    "Best-of-N Sampling.md",
+    "Copy-on-Write.md",
+    "Sun-Synchronous Orbit.md",
     "Smack Technologies.md",
     "Gallatin AI.md",
     "System Design in a Hurry.md",
@@ -1869,7 +1824,6 @@
     "JSON Web Token.md",
     "_attachments/Pasted image 20260520005321.png",
     "_attachments/Pasted image 20260520004305.png",
-    "Best-of-N Sampling.md",
     "Modern ML Ops.md",
     "Third-Party Logistics.md",
     "National Stock Number.md",
@@ -1877,7 +1831,6 @@
     "Logistics Common Operating Picture.md",
     "Rejection Sampling.md",
     "Unit of Measure.md",
-    "Expeditionary Sustainment Command.md",
     "Class of Supply.md",
     "Theater Sustainment Command.md",
     "Logistics (Index).md",
@@ -1889,8 +1842,6 @@
     "Modern AI Engineering.md",
     "Gallatin Prompts.md",
     "Unified Combatant Command.md",
-    "Strategic Command.md",
-    "Special Operations Command.md",
     "_attachments/Pasted image 20260517224622.png",
     "_attachments/Pasted image 20260517224548.png",
     "_attachments/Pasted image 20260517224003.png",

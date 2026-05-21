@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "System Design in a Hurry",
+      "path": "System Design in a Hurry.md"
+    },
+    {
+      "basename": "Expeditionary Sustainment Command",
+      "path": "Expeditionary Sustainment Command.md"
+    },
+    {
+      "basename": "Best-of-N Sampling",
+      "path": "Best-of-N Sampling.md"
+    },
+    {
+      "basename": "Copy-on-Write",
+      "path": "Copy-on-Write.md"
+    },
+    {
       "basename": "Sun-Synchronous Orbit",
       "path": "Sun-Synchronous Orbit.md"
     },
@@ -13,16 +29,8 @@
       "path": "Gallatin AI.md"
     },
     {
-      "basename": "System Design in a Hurry",
-      "path": "System Design in a Hurry.md"
-    },
-    {
       "basename": "JSON Web Token",
       "path": "JSON Web Token.md"
-    },
-    {
-      "basename": "Best-of-N Sampling",
-      "path": "Best-of-N Sampling.md"
     },
     {
       "basename": "Modern ML Ops",
@@ -51,10 +59,6 @@
     {
       "basename": "Unit of Measure",
       "path": "Unit of Measure.md"
-    },
-    {
-      "basename": "Expeditionary Sustainment Command",
-      "path": "Expeditionary Sustainment Command.md"
     },
     {
       "basename": "Class of Supply",
@@ -195,10 +199,6 @@
     {
       "basename": "Logistics Release Point",
       "path": "Logistics Release Point.md"
-    },
-    {
-      "basename": "Blue Force Tracking",
-      "path": "Blue Force Tracking.md"
     }
   ],
   "omittedPaths": [],
