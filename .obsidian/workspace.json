@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design in a Hurry.md",
+                "file": "Position, Navigation, and Timing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "Position, Navigation, and Timing"
             }
           }
         ]
@@ -1813,13 +1813,15 @@
   },
   "active": "08c141033338b146",
   "lastOpenFiles": [
+    "Position, Navigation, and Timing.md",
+    "Alternative Positioning, Navigation, and Timing.md",
+    "System Design in a Hurry.md",
     "Expeditionary Sustainment Command.md",
     "Best-of-N Sampling.md",
     "Copy-on-Write.md",
     "Sun-Synchronous Orbit.md",
     "Smack Technologies.md",
     "Gallatin AI.md",
-    "System Design in a Hurry.md",
     "_attachments/Pasted image 20260520013803.png",
     "JSON Web Token.md",
     "_attachments/Pasted image 20260520005321.png",
@@ -1840,8 +1842,6 @@
     "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md",
     "[MMLU.md",
     "Modern AI Engineering.md",
-    "Gallatin Prompts.md",
-    "Unified Combatant Command.md",
     "_attachments/Pasted image 20260517224622.png",
     "_attachments/Pasted image 20260517224548.png",
     "_attachments/Pasted image 20260517224003.png",
