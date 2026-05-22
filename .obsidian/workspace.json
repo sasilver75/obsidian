@@ -1744,12 +1744,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "e7a1f08988c393b5",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 161
+        "currentTab": 162
       },
       {
         "id": "8a022290161ffefa",
@@ -1811,7 +1821,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "08c141033338b146",
+  "active": "e7a1f08988c393b5",
   "lastOpenFiles": [
     "Position, Navigation, and Timing.md",
     "Alternative Positioning, Navigation, and Timing.md",
