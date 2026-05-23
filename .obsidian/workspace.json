@@ -1774,12 +1774,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "b76fa003ad443392",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 164
+        "currentTab": 165
       },
       {
         "id": "8a022290161ffefa",
@@ -1841,7 +1851,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "dfdee2f08a394528",
+  "active": "b76fa003ad443392",
   "lastOpenFiles": [
     "System Design in a Hurry.md",
     "Courses/SystemDesign/SDIAH Intro.md",
