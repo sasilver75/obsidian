@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Attitude",
+      "path": "Attitude.md"
+    },
+    {
+      "basename": "System Design in a Hurry",
+      "path": "System Design in a Hurry.md"
+    },
+    {
+      "basename": "SDIAH Intro",
+      "path": "Courses/SystemDesign/SDIAH Intro.md"
+    },
+    {
       "basename": "Position, Navigation, and Timing",
       "path": "Position, Navigation, and Timing.md"
     },
     {
       "basename": "Alternative Positioning, Navigation, and Timing",
       "path": "Alternative Positioning, Navigation, and Timing.md"
-    },
-    {
-      "basename": "System Design in a Hurry",
-      "path": "System Design in a Hurry.md"
     },
     {
       "basename": "Expeditionary Sustainment Command",
@@ -191,14 +199,6 @@
     {
       "basename": "Logistics Synchronization",
       "path": "Logistics Synchronization.md"
-    },
-    {
-      "basename": "Joint Battle Command-Platform",
-      "path": "Joint Battle Command-Platform.md"
-    },
-    {
-      "basename": "Joint Capabilities Release",
-      "path": "Joint Capabilities Release.md"
     }
   ],
   "omittedPaths": [],

@@ -177,8 +177,15 @@ Twitter Example:
 ![[Pasted image 20260520013803.png]]
 Above: ==Building up the design, one endpoint (~functional requirement) at a time==
 
+### Deep Dives/Low Level Design
+- A simple, high-level design of Twitter is going to be woefully inefficienet when it comes to fetching users' feeds. No problem! We handle this in the deep dive section.
+- Here, we ==harden our design by making sure it addresses non-functional requirements, addresses edge cases, identifies and addresses issues and bottlenecks, improves design based on probes from interviewer==.
+- The degree to which you're proactive here is a function of your seniority.
+- Talking about horizontal scaling, introducing caches, database sharding, etc... Things like fanout-on-read vs fanout-on-write and the use of caches.
+- Make sure you give your interviewer room to ask questions and probe your design.
 
-### Deep Dives
+
+
 
 
 
