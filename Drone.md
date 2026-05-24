@@ -24,7 +24,7 @@ Components
 			- Some FCs are also able to process video signals, letting them overlay visual performance data atop the live video that's streamed to the pilot's goggles, such as battery voltage, signal strength, etc.
 	- The FPV System: There are two types of FPV systems: ==digital== and ==analog== FPV systems. 
 		- Focusing on the similarities, most basic FPV systems boil down to these components:
-			- FPV Camera: Sits at the front of the drone, capturing real-tiem video and sending it to the video transmitter. 
+			- FPV Camera: Sits at the front of the drone, capturing real-time video and sending it to the video transmitter. 
 				- Some cameras can stream video to your goggles *and* record higher definition 4k videos simultaneously.
 				- Despite this, many pilots still mount a separate Action Camera (e.g. GoPro, Insta360) on top.
 			- Video Transmitter: Converts the video signals from the camera into wireless signals. Has an antenna that transmits these signals to the pilot's FPV Goggles.

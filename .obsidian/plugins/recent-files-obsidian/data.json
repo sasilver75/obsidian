@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Electronic Warfare",
+      "path": "Electronic Warfare.md"
+    },
+    {
+      "basename": "Inertial Measurement Unit",
+      "path": "Inertial Measurement Unit.md"
+    },
+    {
+      "basename": "Terrain Following Navigation",
+      "path": "Terrain Following Navigation.md"
+    },
+    {
+      "basename": "Phased Array",
+      "path": "Phased Array.md"
+    },
+    {
+      "basename": "GPS INS",
+      "path": "GPS INS.md"
+    },
+    {
+      "basename": "Self-Protection Jamming",
+      "path": "Self-Protection Jamming.md"
+    },
+    {
+      "basename": "Destruction of Enemy Air Defenses",
+      "path": "Destruction of Enemy Air Defenses.md"
+    },
+    {
       "basename": "Drone",
       "path": "Drone.md"
     },
     {
-      "basename": "ExpressLRS",
-      "path": "ExpressLRS.md"
+      "basename": "Denied, Disrupted, Intermittent, Low-Bandwidth",
+      "path": "Denied, Disrupted, Intermittent, Low-Bandwidth.md"
+    },
+    {
+      "basename": "Suppression of Enemy Air Defenses",
+      "path": "Suppression of Enemy Air Defenses.md"
     },
     {
       "basename": "Electronic Speed Controller",
       "path": "Electronic Speed Controller.md"
+    },
+    {
+      "basename": "ExpressLRS",
+      "path": "ExpressLRS.md"
     },
     {
       "basename": "Lithium Ion",
@@ -163,42 +199,6 @@
     {
       "basename": "Subtractive Process",
       "path": "Subtractive Process.md"
-    },
-    {
-      "basename": "Manufacturing",
-      "path": "Manufacturing.md"
-    },
-    {
-      "basename": "Request for Quote",
-      "path": "Request for Quote.md"
-    },
-    {
-      "basename": "WebRTC",
-      "path": "WebRTC.md"
-    },
-    {
-      "basename": "CNC Machining",
-      "path": "CNC Machining.md"
-    },
-    {
-      "basename": "Attitude",
-      "path": "Attitude.md"
-    },
-    {
-      "basename": "System Design in a Hurry",
-      "path": "System Design in a Hurry.md"
-    },
-    {
-      "basename": "SDIAH Intro",
-      "path": "Courses/SystemDesign/SDIAH Intro.md"
-    },
-    {
-      "basename": "Position, Navigation, and Timing",
-      "path": "Position, Navigation, and Timing.md"
-    },
-    {
-      "basename": "Alternative Positioning, Navigation, and Timing",
-      "path": "Alternative Positioning, Navigation, and Timing.md"
     }
   ],
   "omittedPaths": [],
