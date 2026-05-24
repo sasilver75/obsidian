@@ -1,3 +1,8 @@
+---
+aliases:
+  - Batch
+---
+
 
 Todo:
 - Batch Size Rampup Schedules (eg as described in Nemotron)

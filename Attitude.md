@@ -8,3 +8,6 @@ Sun sensor: Coarser orientation reference
 [[Inertial Measurement Unit|IMU]] (Inertial Measurement Unit): Measures rotation/acceleration
 Magnetorquer: Uses Earth's magnetic field to adjust attitude (low-power, but slow)
 Thruster: A propellant-based propulsion device, for larger maneuvers.
+
+
+

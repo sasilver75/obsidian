@@ -1,6 +1,158 @@
 {
   "recentFiles": [
     {
+      "basename": "Manufacturing",
+      "path": "Manufacturing.md"
+    },
+    {
+      "basename": "Request for Quote",
+      "path": "Request for Quote.md"
+    },
+    {
+      "basename": "WebRTC",
+      "path": "WebRTC.md"
+    },
+    {
+      "basename": "Supplier",
+      "path": "Supplier.md"
+    },
+    {
+      "basename": "Quality Management System",
+      "path": "Quality Management System.md"
+    },
+    {
+      "basename": "Overall Equipment Effectiveness",
+      "path": "Overall Equipment Effectiveness.md"
+    },
+    {
+      "basename": "Work in Process",
+      "path": "Work in Process.md"
+    },
+    {
+      "basename": "Bonding",
+      "path": "Bonding.md"
+    },
+    {
+      "basename": "Turning",
+      "path": "Turning.md"
+    },
+    {
+      "basename": "Formative Process",
+      "path": "Formative Process.md"
+    },
+    {
+      "basename": "Additive Process",
+      "path": "Additive Process.md"
+    },
+    {
+      "basename": "Subtractive Process",
+      "path": "Subtractive Process.md"
+    },
+    {
+      "basename": "Batch (Machine Learning)",
+      "path": "Batch (Machine Learning).md"
+    },
+    {
+      "basename": "Geometric Dimensioning and Tolerancing",
+      "path": "Geometric Dimensioning and Tolerancing.md"
+    },
+    {
+      "basename": "Design for Manufacturing",
+      "path": "Design for Manufacturing.md"
+    },
+    {
+      "basename": "Direct Metal Laser Sintering",
+      "path": "Direct Metal Laser Sintering.md"
+    },
+    {
+      "basename": "Sterolithography",
+      "path": "Sterolithography.md"
+    },
+    {
+      "basename": "Fused Deposition Modeling",
+      "path": "Fused Deposition Modeling.md"
+    },
+    {
+      "basename": "Riveting",
+      "path": "Riveting.md"
+    },
+    {
+      "basename": "Takt Time",
+      "path": "Takt Time.md"
+    },
+    {
+      "basename": "Bill of Materials",
+      "path": "Bill of Materials.md"
+    },
+    {
+      "basename": "Welding",
+      "path": "Welding.md"
+    },
+    {
+      "basename": "Brazing",
+      "path": "Brazing.md"
+    },
+    {
+      "basename": "Bolting",
+      "path": "Bolting.md"
+    },
+    {
+      "basename": "Grinding",
+      "path": "Grinding.md"
+    },
+    {
+      "basename": "Drilling",
+      "path": "Drilling.md"
+    },
+    {
+      "basename": "Milling",
+      "path": "Milling.md"
+    },
+    {
+      "basename": "3D Printing",
+      "path": "3D Printing.md"
+    },
+    {
+      "basename": "Injection Molding",
+      "path": "Injection Molding.md"
+    },
+    {
+      "basename": "Bending",
+      "path": "Bending.md"
+    },
+    {
+      "basename": "Stamping",
+      "path": "Stamping.md"
+    },
+    {
+      "basename": "Forging",
+      "path": "Forging.md"
+    },
+    {
+      "basename": "CNC Machining",
+      "path": "CNC Machining.md"
+    },
+    {
+      "basename": "Actuator",
+      "path": "Actuator.md"
+    },
+    {
+      "basename": "Selective Laser Sintering",
+      "path": "Selective Laser Sintering.md"
+    },
+    {
+      "basename": "Casting",
+      "path": "Casting.md"
+    },
+    {
+      "basename": "Molding",
+      "path": "Molding.md"
+    },
+    {
+      "basename": "Transducer",
+      "path": "Transducer.md"
+    },
+    {
       "basename": "Attitude",
       "path": "Attitude.md"
     },
@@ -47,158 +199,6 @@
     {
       "basename": "JSON Web Token",
       "path": "JSON Web Token.md"
-    },
-    {
-      "basename": "Modern ML Ops",
-      "path": "Modern ML Ops.md"
-    },
-    {
-      "basename": "Third-Party Logistics",
-      "path": "Third-Party Logistics.md"
-    },
-    {
-      "basename": "National Stock Number",
-      "path": "National Stock Number.md"
-    },
-    {
-      "basename": "Army Echelons",
-      "path": "Army Echelons.md"
-    },
-    {
-      "basename": "Logistics Common Operating Picture",
-      "path": "Logistics Common Operating Picture.md"
-    },
-    {
-      "basename": "Rejection Sampling",
-      "path": "Rejection Sampling.md"
-    },
-    {
-      "basename": "Unit of Measure",
-      "path": "Unit of Measure.md"
-    },
-    {
-      "basename": "Class of Supply",
-      "path": "Class of Supply.md"
-    },
-    {
-      "basename": "Theater Sustainment Command",
-      "path": "Theater Sustainment Command.md"
-    },
-    {
-      "basename": "Logistics (Index)",
-      "path": "Logistics (Index).md"
-    },
-    {
-      "basename": "Quantity Per Unit Pack",
-      "path": "Quantity Per Unit Pack.md"
-    },
-    {
-      "basename": "Transportation Command",
-      "path": "Transportation Command.md"
-    },
-    {
-      "basename": "05 October 17",
-      "path": "Projects/Cohere Reasoning/Meetings/05 October 17.md"
-    },
-    {
-      "basename": "New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}",
-      "path": "Articles/New LLM Pre-training and Post-training Paradigms (Aug 17, 2024) {Sebastian Raschka}.md"
-    },
-    {
-      "basename": "Modern AI Engineering",
-      "path": "Modern AI Engineering.md"
-    },
-    {
-      "basename": "Gallatin Prompts",
-      "path": "Gallatin Prompts.md"
-    },
-    {
-      "basename": "Unified Combatant Command",
-      "path": "Unified Combatant Command.md"
-    },
-    {
-      "basename": "Strategic Command",
-      "path": "Strategic Command.md"
-    },
-    {
-      "basename": "Special Operations Command",
-      "path": "Special Operations Command.md"
-    },
-    {
-      "basename": "Cyber Command",
-      "path": "Cyber Command.md"
-    },
-    {
-      "basename": "AI Engineering",
-      "path": "AI Engineering.md"
-    },
-    {
-      "basename": "Space Command",
-      "path": "Space Command.md"
-    },
-    {
-      "basename": "Southern Command",
-      "path": "Southern Command.md"
-    },
-    {
-      "basename": "Northern Command",
-      "path": "Northern Command.md"
-    },
-    {
-      "basename": "Indo-Pacific Command",
-      "path": "Indo-Pacific Command.md"
-    },
-    {
-      "basename": "European Command",
-      "path": "European Command.md"
-    },
-    {
-      "basename": "Africa Command",
-      "path": "Africa Command.md"
-    },
-    {
-      "basename": "Central Command",
-      "path": "Central Command.md"
-    },
-    {
-      "basename": "Division Sustainment Brigade",
-      "path": "Division Sustainment Brigade.md"
-    },
-    {
-      "basename": "Division Sustainment Support Battalion",
-      "path": "Division Sustainment Support Battalion.md"
-    },
-    {
-      "basename": "Brigade Support Battalion",
-      "path": "Brigade Support Battalion.md"
-    },
-    {
-      "basename": "Forward Support Company",
-      "path": "Forward Support Company.md"
-    },
-    {
-      "basename": "Operational Control",
-      "path": "Operational Control.md"
-    },
-    {
-      "basename": "Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques",
-      "path": "Papers/General/Automatically Correcting Large Language Models - Surveying the landscape of diverse self-correction techniques.md"
-    },
-    {
-      "basename": "Unit of Issue",
-      "path": "Unit of Issue.md"
-    },
-    {
-      "basename": "Logistics Support Area",
-      "path": "Logistics Support Area.md"
-    },
-    {
-      "basename": "Maneuver Unit",
-      "path": "Maneuver Unit.md"
-    },
-    {
-      "basename": "Logistics Synchronization",
-      "path": "Logistics Synchronization.md"
     }
   ],
   "omittedPaths": [],
