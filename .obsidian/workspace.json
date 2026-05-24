@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "8a6d796622fd1688",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Manufacturing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Manufacturing"
-            }
-          },
-          {
             "id": "02696e741812624a",
             "type": "leaf",
             "state": {
@@ -2740,11 +2716,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8a6d796622fd1688",
+  "active": "02696e741812624a",
   "lastOpenFiles": [
+    "Manufacturing.md",
     "Request for Quote.md",
     "WebRTC.md",
-    "Manufacturing.md",
     "Supplier.md",
     "Quality Management System.md",
     "Overall Equipment Effectiveness.md",
