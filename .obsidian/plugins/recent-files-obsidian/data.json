@@ -5,8 +5,20 @@
       "path": "System Design in a Hurry.md"
     },
     {
+      "basename": "Google Cloud Load Balancing",
+      "path": "Google Cloud Load Balancing.md"
+    },
+    {
+      "basename": "Transport Layer",
+      "path": "Transport Layer.md"
+    },
+    {
       "basename": "Atomicity",
       "path": "Atomicity.md"
+    },
+    {
+      "basename": "Mutual TLS",
+      "path": "Mutual TLS.md"
     },
     {
       "basename": "Relational Database",
@@ -187,18 +199,6 @@
     {
       "basename": "Riveting",
       "path": "Riveting.md"
-    },
-    {
-      "basename": "Brazing",
-      "path": "Brazing.md"
-    },
-    {
-      "basename": "Welding",
-      "path": "Welding.md"
-    },
-    {
-      "basename": "Bill of Materials",
-      "path": "Bill of Materials.md"
     }
   ],
   "omittedPaths": [],

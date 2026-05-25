@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "346e1e95fea23ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Google Cloud Load Balancing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud Load Balancing"
+            }
+          },
+          {
             "id": "505283db4377863f",
             "type": "leaf",
             "state": {
@@ -2050,9 +2074,15 @@
   },
   "active": "24c9b50a33a28e73",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260524163754.png",
-    "Atomicity.md",
+    "Google Cloud Load Balancing.md",
     "System Design in a Hurry.md",
+    "Transport Layer.md",
+    "_attachments/Pasted image 20260524202329.png",
+    "Atomicity.md",
+    "Mutual TLS.md",
+    "_attachments/Pasted image 20260524195923.png",
+    "_attachments/Pasted image 20260524194500.png",
+    "_attachments/Pasted image 20260524163754.png",
     "Relational Database.md",
     "_attachments/Pasted image 20260524162708.png",
     "_attachments/Pasted image 20260524160056.png",
@@ -2064,9 +2094,7 @@
     "_attachments/Pasted image 20260524143922.png",
     "Cache.md",
     "Inverted File Index.md",
-    "_attachments/Pasted image 20260524142124.png",
     "Pagination.md",
-    "_attachments/Pasted image 20260524135110.png",
     "Courses/SystemDesign/SDIAH Intro.md",
     "Drone.md",
     "Destruction of Enemy Air Defenses.md",
@@ -2079,14 +2107,10 @@
     "Inertial Measurement Unit.md",
     "Concept of Operations.md",
     "Electronic Warfare.md",
-    "_attachments/Pasted image 20260524120708.png",
     "Self-Protection Jamming.md",
     "Electronic Speed Controller.md",
     "ExpressLRS.md",
-    "GPS/INS.md",
     "GPS",
-    "Actuator.md",
-    "_attachments/Pasted image 20260520013803.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",

@@ -472,6 +472,206 @@ Things to know about NoSQL databases:
 - Indexing: Supports indexing to make data faster to query; most common are [[Hash Index]] and [[B-Tree]]
 - Scalability: NoSQL databases scale via [[Horizontal Scaling]] via [[Consistent Hashing]]  and/or [[Sharding]] to distribute data across many servers.
 
+Mot Common NoSQL DAtabases
+- [[Amazon DynamoDB|DynamoDB]]: One of our favorites due to breadth of features and how widely accepted it is.
+- [[Apache Cassandra|Cassandra]]: Good choice for rite-heavy workloads due to its append-only storage model, though this comes with some tradeoffs in functionality.
+- [[MongoDB]]
+
+
+### Blob Storage
+- Sometimes you need to store large, unstructured blobs of data.
+	- Images
+	- Videos
+	- Other files
+- Storing these in a traditional database is expensive/inefficient and should be avoided when possible.
+	- Instead use [[AWS S3]] or [[Google Cloud Storage]]
+- Blob storages are simple:
+	- ==Upload a blob== of data
+	- ==Get back a URL==
+	- You can then ==use this URL to download== the blob of data.
+- Often times blob storage services work in conjunction with [[Content Delivery Network|CDN]]s, so you can get fast downloads from anywhere in the world. 
+	- Upload a file/blob to object storage, which acts as your origin, and then use a CDN to cache the file/blob in edge locations around the world!
+
+(==!NOTE!==) Avoid using S3 as your primary database unless you have a very good reason. In a typical setup you'll have a core database like Postgres or Dynamo that has *pointers* (just a URL) to the blobs stored in S3. 
+- This allows you to use the database to query and index the data with low latency, while still getting the benefits of cheap blob storage.
+![[Pasted image 20260524194500.png]]
+==To Upload==:
+- Client requests a [[Presigned URL]] from the server.
+- The server return a Presigned URL to the client, recording it in the database.
+- The client uploads the file to the presigned URL
+- The blob storage triggers a notification to the server that the upload is complete and that the status is updated.
+==To Download:==
+- Client request a specific file from the server, and is returned a presigned URL.
+- The client uses the presigned URL to download the file via the CDN, which proxies the request to underlying blob storage.
+
+Things to know about blob storage:
+- Incredibly durable, using replication and erasure coding to ensure that your data is safe even if a disk server fails.
+- Infinitely scalable; can handle an unlimited amount of data and an unlimited number of requests.
+- Cost: Cost-effective; much cheaper than storing large blobs of data in a traditional database.
+- Security: Blob storage services have built-in security features like encryption at rest and in transit. They also have access control features that give control over who accesses your data.
+- Clients themselves can upload and download blobs directly from the client. Familiarize yourself with [[Presigned URL]]s and how they can be used to grant temporary access to a blob, either for upload or download.
+- Chunking: When uploading large files, it's common to chunk the file into smaller pieces, which allows you to upload the file in parallel and resume uploads if its fails partway through. S3 + similar support chunking out of the box via the multipart upload API.
+
+
+#### Search-Optimized Databases
+- [[Full-Text Search Index|Full-Text Search]] is the ability to search through a large amount of text data to find relevant results.
+- Typically queries like `SELECT * FROM documents WHERE document_text LIKE '%search_term%'` require a full table scan and are slow and inefficient.
+- Search-optimized databases, on the other hand, are specifically designed to handle full-text search, using techniques like indexing, tokenization, and stemming to make queries fast and efficient. They work by building what are called [[Inverted Index]]es, which are data structures that map from words to the documents that contain them.
+```
+{
+  "word1": [doc1, doc2, doc3],
+  "word2": [doc2, doc3, doc4],
+  "word3": [doc1, doc3, doc4]
+}
+```
+- Now, instead of scanning the entire table, the database can quickly look up the word in the query and find all the matching documents fast.
+
+Things you should know about search-optimized databases:
+- [[Inverted Index]]es: These make search queries fast and efficient, mapping from words to documents that contain them.
+- [[Tokenization]]: The process of breaking a piece of text into individual words. Lets you map from words to documents in the inverted index.
+- [[Stemming]]: The process of reducing words to their root form. Allows you to match different forms of the same word; "running" and "runs" both map to "run."
+- Fuzzy Search: The ability to find results that are similar to a given search term. Most search optimizes databases support fuzzy search out of the box as a configuration option.
+- Scaling: Like traditional databases, search optimized databases by adding more nodes to a cluster and sharding data across those nodes.
+
+
+### [[API Gateway]]
+- Especially in a microservice architecture, an API Gateway ==sits in front of your system and is responsible for routing incoming requests to the appropriate backend services, and handling cross-cutting concerns like [[Authentication]], [[Rate Limiting]], and [[Logging]]==...
+![[Pasted image 20260524195923.png]]
+- You're free to read more in the our API Gateway deep dive, but note that interviewers rarely get into the details of the API gateway, they usually want ot ask questions which are more specific to the problem at hand.
+
+The most common API Gateways are:
+- [[AWS API Gateway]]
+- [[Kong]]
+- [[Apigee]]
+
+
+________
+Q: How is identity typically propagated in microservice architectures as the user request moves through API gateway and through multiple services?
+
+A: In the case of having a flow like this:
+```
+User
+	-> API Gateawy
+		-> Service A
+			-> Service B
+```
+The [[API Gateway]] authenticates the incoming [[JSON Web Token|JWT]], after which point it may propagate identity in one of three ways:
+1. Forward the original JWT, passing it along: `Authentication: Bearer eyJ...`, and each backend service then validates the JWT itself (common and strong security, but not always ideal).
+2. Gateway validates JWT, then forwards trusted identity headers. Strips any incoming identity heads from the client, validates the JWT, and injects headers like: `X-User-Id: 123`, `X-User-Email: alice@example.com`, `X-User-Roles: admin,billing`. Internal services then trust these headers, because they only accept traffic from the gateway or service mesh. Simple but dangerous if services are reachable directly.
+3. Token Exchange/Internal Service Tokens. ==Often the cleaner, mature pattern.== The gateway validates the user's external JWT, then exchanges it for an *internal token* scoped to the backend service:
+```
+External user token
+	-> Gateway Validates
+	-> Gateawy gets internal token for Service A
+	-> Service A calls Service B with another scoped token
+```
+The internal token might be:
+```
+{
+	"sub": "user_123",
+	"aud": "service-b",
+	"scope": "orders:read",
+	"act": "service-a"
+}
+```
+- Above: Service A is calling Service B on behalf of user_123, is what this says.
+	- Better "least privilege," each service receives a token intended for it. Preserves both user identity and calling-service identity. Downside is that it's more infrastructure, requires more token exchange, service identity, policy design. 
+
+Good mental model: ==[[Authentication]] can happen at the edge. [[Authorization]] often needs to happen in the service that owns the resource.==
+
+For many systems:
+- External client sends JWT to gateway.
+  - Gateway validates JWT.
+  - Gateway strips spoofable identity headers.
+  - Gateway forwards either:
+    - the original JWT, or
+    - signed/trusted identity headers, or
+    - an internal exchanged token.
+  - Internal services are only reachable through trusted infrastructure.
+  - Resource-owning services still enforce authorization.
+  - Service-to-service calls use [[Mutual TLS|mTLS]] or [[Service Token]]s.
+
+
+_______
+
+
+# [[Load Balancing|Load Balancer]]
+- Most system design problems require you to design systems that handle large amounts of traffic.
+- When you have a large amount of traffic, you need to distribute the request across multiple machines via [[Horizontal Scaling]] to avoid overloading any single machine by creating a [[Hot Spot]].
+- This is where a Load Balancer comes in! 
+	- For interviews, you can assume that your load balancer is a black box that distributes work across your system.
+![[Pasted image 20260524202329.png]]
+- Sometimes you'll need to have specific features from your load balancer, like [[Sticky Session]]s, or persistent connections like [[WebSockets]]s. 
+- The most important decision is whether to use a [[Transport Layer|Layer 4]] Load Balancer or a [[Application Layer|Layer 7]] Load Balancer.
+
+==Simple Rule of Thumb:==
+> *"If you have ==persistent connections== like [[WebSockets]], you'll likely want to use an ==[[Transport Layer|L4]] Load Balancer==. ==Otherwise==, an ==[[Application Layer|L7]] Load Balancers== offer great flexibility in routing traffic to different services while minimizing connection load downstream." 
+
+The most common Load Balancers:
+- [[AWS Elastic Load Balancer]] (AWS Managed)
+- [[Google Cloud Load Balancing]]
+- [[NGINX]] (OSS webserver frequently used as a LB)
+- [[HAProxy]] (OSS load balancer)
+
+Note: For problems with extremely high traffic, specialized *Hardware Load Balancers* outperform software load balancers that you'd host yourself.
+
+------
+Q: Just to be clear, it seems like For every pool of services, for example, image upload service, user service, orders service, etc., each pool of service instances would have their own unique load balancer, correct? We wouldn't share load balancer instances across different pools of services?
+A: Not quite! 
+==Each service pool usually has its own logical backend/target group/service endpoint, but not necessarily its own dedicated load balancer instance!==
+- You might have one shared [[Application Layer|L7]] Load BAlancer:
+```
+api.example.com
+/uploads/* -> image-upload-service instances
+/orders/* -> order-service instances
+/users/* -> user-service instances
+```
+Internally, this looks like One load balancer with 3 target groups.
+- The LB first decides which service pool should receive the request, and then load balances across instances in that pool. 
+You create separate load balancers when you need separate public/private exposure, security boundaries, protocols, scaling limits, ownership, cost isolation, or operational blast-radius reduction. Sharing a LB across multiple service pools is very common.
+
+
+Q: So... the primary benefit of the L7 Load Balancer is that it can make routing decisions based on the HTTP headers, message contents, stuff like that. Can you give some examples of when that would be useful?
+A: Yes. An [[Transport Layer|L4]] load balancer mostly just seeds `Source IP, Destination IP, port, TCP/UDP connection`, while an [[Application Layer|L7]] load balancer can route based on `Host header, Path, HTTP method, Headers, Cookies, Query params, sometimes request body`
+For L7, we might:
+Route by URL path
+```
+GET /users/123 -> user-service 
+GET /orders/456 -> order-service 
+POST /uploads/image -> image-upload-service
+```
+Method-based routing:
+```
+GET /reports/* -> read-optimized replicas/cache service
+POST /reports/* -> write service
+```
+Mobile vs web clients
+```
+User-Agent: MyiOSApp/12.4
+or
+X-Client-Type: mobile
+```
+Header-based internal routing:
+```
+X-Region: eu
+or
+X-Experiment: new-checkout
+```
+An [[Transport Layer|L4]] Load Balancer can't do this; it mostly sees a TCP connection to `api.example.com:443`
+
+Simply:
+- Use L4 when you want fast connection-level Load Balancing
+- Use L7 when you want the routing decision to understand what the request actually is.
+
+-------
+
+
+### [[Message Queue]]s
+- Queues serve as 
+
+
+
+
 
 
 
