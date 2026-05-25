@@ -5,8 +5,16 @@
       "path": "System Design in a Hurry.md"
     },
     {
+      "basename": "Service Token",
+      "path": "Service Token.md"
+    },
+    {
       "basename": "Pessimistic Concurrency Control",
       "path": "Pessimistic Concurrency Control.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
     },
     {
       "basename": "Amazon CloudFront",
@@ -31,10 +39,6 @@
     {
       "basename": "Redlock Algorithm",
       "path": "Redlock Algorithm.md"
-    },
-    {
-      "basename": "Pagination",
-      "path": "Pagination.md"
     },
     {
       "basename": "Apache ZooKeeper",
@@ -195,10 +199,6 @@
     {
       "basename": "Selective Laser Sintering",
       "path": "Selective Laser Sintering.md"
-    },
-    {
-      "basename": "Fused Deposition Modeling",
-      "path": "Fused Deposition Modeling.md"
     }
   ],
   "omittedPaths": [],
