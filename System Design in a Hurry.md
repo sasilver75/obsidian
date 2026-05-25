@@ -667,11 +667,261 @@ Simply:
 
 
 ### [[Message Queue]]s
-- Queues serve as 
+- Queues serve as ==buffers for bursty traffic== or as ==means of distributing work across a system!==
+- Two sides of the story:
+	- A resource sends messages to a queue and forgets about them.
+	- On the other end, a pool of workers processes the messages at their own pace.
+- The queue's function can be to ==smooth out the load on the system==; if we get a spike of 1,000 requests, but can only handle 200 requests per second, 800 requests will wait in the queue before being processed: But they are not dropped!
+- Queues also ==decouple the producer and consumer== of a system, ==allowing you to scale them independently.==
+
+==WARN==: Be careful of introducing queues into SYNCHRONOUS workloads! If you have strong latency requirements (e.g. < 500ms), you'll likely break that latency constraint.
+
+Common Use Cases:
+1. ==Buffer for Bursty Traffic==: In Uber, queues can be used to manage sudden surges in ride requests. During peak hours or special events, ride requests can spike massively. A queue buffers these incoming requests letting the system process them at a manageable rate without overloading the server or degrading user experience.
+2. ==Distribute Work== across system: In a cloud-based photo processing service, queues can be used to distribute expensive image processing tasks:
+	- When a user uploads photos for editing or filtering, these tasks are placed in a queue.
+	- Different worker nodes then pull tasks from the queue, ensuring even distribution of workload and efficient use of computing resources.
+![[Pasted image 20260524210040.png]]
+- Things to know about queues for your interview:
+	1. ==Message Ordering==: Most queues are [[First-In First-Out|FIFO]], meaning messages are processed in the order they're received. Some queues (eg [[Kafka]]) allow for more complex ordering guarantees (priority, time).
+	2. ==Retry Mechanisms==: Most queues have built-in retry mechanisms that try to redeliver a message a certain number of times before considering it a failure. You can configure retries, including the delay between attempts, and the maximum number of attempts.
+	3. ==[[Dead Letter Queue]]s==: DLQs are used to store ==messages that cannot be processed==. They're useful for debugging and auditing, as it allows you to inspect messages that failed to be processed and understand why they failed.
+	4. ==Scaling with [[Partition]]s==: Queues can be partitioned across multiple servers so that they can scale to handle more messages.
+		- Each partition can be processed by a different set of workers. Like databases, you need to specify a partition key to ensure that related messages are stored in the same partition.
+	5. ==[[Backpressure]]==: The biggest problem with queues is that they make it easy to overwhelm your system. If my system supports 200 requests per second but I'm receiving 300 requests per second, I'll never finish! A queue is just obscuring the problem that I don't have enough capacity. 
+		- Backpressure is a way of slowing down the production of messages when the queue is overwhelmed, preventing the queue from becoming a bottleneck in your system.
+		- E.g. if the queue is full, you might want to reject new messages or slow down the rate at which new messages are accepted, potentially returning an error to the user or producer.
+
+The most common queueing technologies:
+- [[Kafka]]: A distributed streaming platform that can be used as a queue.
+- [[Amazon SQS]]: A fully-managed queue service from AWS
+
+__________
+Q: So these queues, you talk about "redelivery," etc. Does this mean that these types of message brokers push messages to workers?
+
+A: Sometimes. There are two common models:
+
+#### (1/1) Pull-Based Queues
+- The worker asks the queue for work:
+```
+Worker -> Queue: Give me messages
+Queue -> Worker: Here's 10 messages.
+(Worker processes them)
+Worker -> Queue: Okay, ack/delete these messages.
+```
+This is how [[Amazon SQS|SQS]], [[Kafka]], [[Redis Streams]], and many cloud queue systems work.
+In SQS:
+- Worker calls `ReceiveMessage`
+- SQS returns messages and makes them temporarily invisible to other workers using a visibility timeout.
+- If the worker crashes or doesn't delete the message before the visibility timeout expires, the message becomes visible again.
+- Another worker can receive it (this is called **redelivery**)
+
+#### (2/2) Push-Based Queues
+- Worker subscribes, and the broker sends messages over an existing connection.
+```
+Worker -> Broker: I'm ready for messages!
+Broker -> Worker: Here's message 1
+Broker -> Worker: Here's message 2
+Worker -> Broker: ack message 1
+```
+Examples:
+- [[RabbitMQ]] / [[Advanced Message Queueing Protocol|AMQP]] consumers
+	- It feels push-based, but there's still flow control from the consumer
+- [[Google Pub/Sub]] push subscriptions
+- Webhook-style event delivery
+- Some [[NATS]] configurations
+
+
+In a Queue system "delivery" usually means: *The broker handed hte message to a consumer or made it available to a consumer under a lease/ack contract.* 
+- It doesn't imply a specific transport direction (e.g. pull or push)
+
+The important lifecycle is:
+- Message produced
+- Message stored in queue
+- Message "delivered" to consumer
+- Consumer processes message
+- Consumer acknowledges message
+- Message remove/offset committed
+If the consumer fails before acknowledgement:
+- Message is delivered again (redelivery)
+
+____________
+# Streams / Event Sourcing
+- Sometimes you'll be asked a question that requires either processing vast amounts of data in real-time or supporting complex processing scenarios like [[Event Sourcing]], a technique where changes in app state are stored as a sequence of events which can be replayed to reconstruct application 
+
+==Unlike message queues, streams can retain data for a configurable period of time, allowing consumers to read and re-read messages from the same position, or from a specified time in the past.==
+
+Streams are a good choice:
+1. When you need to process a large amount of data (e.g. using [[Apache Flink]] or [[Apache Spark|Spark]] Streaming) to process events in real-time to update (e.g.) an analytics dashboard
+2. When you need to support complex processing scenarios like event sourcing, like in a banking system where every transaction needs to be recorded and could affect multiple accounts.
+3. When you need to support multiple consumers reading from the same stream. In real-time chat applications, when a user sends a message, it's published to a stream associated with the chat room. This stream can act as a centralized channel where all chat participants are subscribers ([[Publish-Subscribe|Pub Sub]] pattern).
+
+Things to know about:
+1. Scaling with [[Partition]]ing: To scale streams, they can be partitioned across multiple servers; each partition can be processed by a different consumer, allowing for [[Horizontal Scaling]].
+2. Multiple [[Consumer Group]]s: Streams can support multiple consumer groups, allowing different consumers to read from the same stream independently! Useful when you need to process the same data in different ways.
+3. Replication: To support fault tolerance, like databases, streams can replicate data across multiple servers.
+4. Windowing: A way of grouping events together based on time or count. Useful for scenarios where you need to process events in batches, such as calculating hourly or daily aggregates of data.
+
+Most common streaming technologies:
+- [[Kafka]]
+- [[Apache Flink]]
+- [[Amazon Kinesis]]
+
+
+### Distributed Locks
+- When you're dealing with online systems like Ticketmaster, you might need to lock a resource like a concert ticket for a short time (~10 minutes) so that no one else can grab it.
+	- Traditional databases use transaction locks to keep data consistent, but they're not designed for longer term locking.
+- Perfect for situations where you need to lock something across different systems or processes for a reasonable period of time.
+- Often implemented using a distributed KV store like [[Redis]] or [[Apache ZooKeeper]].
+- Basic idea:
+	- Use a KV store to store a lock
+	- ==Use the atomicity of the KV store to ensure that only one process can acquire the lock at a time.==
+
+==Example==: You have a Redis instance with a key `ticket-123` and you want to lock it, you can set the value of `ticket-123` to `locked`. Other processes would fail to make this same change, because the value is set to `locked` already. Once the first process is done with the lock, it can set the value of `ticket-123` to `unlcoked` and another process can acquire the lock.
+- ((I believe these use ==atomic test-and-set== operations, which check (is a lock free?) and set (claim a lock) in a single, indivisible step. This ensures that ))
+
+Another handy feature of distributed locks is that they ==can be set to expire after a certain amount of time.==
+- This is great for ensuring that locks don't get stuck in a locked state if a process crashes or is killed.`
+
+
+Common use Cases:
+1. E-Commerce Checkout System: To hold a high-demand item, like limited-edition sneakers, in a user's cart for a short duration (e.g. 10 minutes) during checkout, so that their item isn't sold to anyone else.
+2. Ride-Share Matchmaking: Lock used manage the assignment of drivers to riders; we don't want to accidentally match a driver with multiple riders simultaneously.
+3. Distributed Cron Jobs: For systems that run scheduled tasks across multiple servers, a distributed lock ensures that a task is executed by only one server at at a time.
+4. Online Auction Bidding: A lock can be used during the final moments of bidding to ensure that when a bid is placed in the last seconds, the system locks the item briefly to process the bid and update the current highest bit, preventing other users from placing a bid on the same item simultaneously.
+
+Things to know:
+- Locking Mechanism:  There are different ways to implement dist. locks. A common one uses [[Redis]] and is called [[Redlock Algorithm|Redlock]].
+- Lock Expiry: Distributed locks can be set to expire after a certain amount of time, to ensure they don't get stuck locked if a process crashes.
+- Locking Granularity: Can be used to lock a single resource or a group of resources; You might want to lock a single ticket, or a group of tickets in a section of a stadium.
+- Deadlocks: Can occur when two or more processes are waiting for eachother to release a lock.
+	- ==Be prepared to discuss how to prevent this!==
+
+----
+Sam Update: 
+- When protecting database state, use databases transactions.
+- For fast, approximate, short-lived coordination where occasional duplicate work is tolerable, using Redis + Redlock.
+- For real service coordination/leader election, use [[etcd]], [[Apache ZooKeeper|ZooKeeper]], [[HashiCorp Consul|Consul]], Kubernetes Lease.
+- Use [[Fencing Token]]s when correctness matters and stale lock holders must be blocked.
+
+----
+
+### Distributed Caches
+- In most system design interviews, you have to scale your system and lower latency.
+	- One common way to do this is to use a distributed cache.
+	- A cache is just a server that stores data in memory; great for storing data that's expensive to compute or retrieve from a database.
+
+We use caches to:
+1. Save Aggregated Metrics that are expensive to compute
+2. Reduce Number of DB Queries in a web application. We might store user session data in a cache, allowing the system to quickly retrieve the data when a user makes a request.
+3. Speed Up Expensive Queries: Some complex queries take a long time to run on a traditional, disk-based database. Run the query once, store the results in a distributed cache, and then retrieve the results from the cache when requested.
+
+==Things we should know:==
+- [[Cache Eviction Strategy]]: Distributed caches have a variety of eviction policies that determine which items are removed from the cache when the cache is full. Common eviction policies are:
+	- [[Least Recently Used]] (LRU): Evicts the least recently accessed items first.
+	- [[First-In First-Out]] (FIFO): Evicts items in the order they were added
+	- [[Least Frequently Used]] (LFU) Removes items that are least frequently accessed.
+- [[Cache Invalidation Strategy]]: This is the strategy you'll use to ensure that the data in your cache is up to date when the backing data changes.
+- [[Cache Write Strategy]]: The strategy you use to make sure that data is written to your cache in a consistent way. Some strategies are:
+	- [[Write-Through Cache]]: Writes data to both the cache and the underlying datastore simultaneously. Ensures consistency but can be slower for write operations.
+	- [[Write-Around Cache]]: Writes data directly to the datastore, bypassing the cache. This minimizes cache pollution but might increase data fetch times on subsequent reads.
+	- [[Write-Back Cache]]: Writes data to the cache and then asynchronously writes the data to the datastore. Can be faster for write operations, but can lead to data loss if the cache fails before the data is written to the datastore.
+
+==Don't forget==: Modern caches have many ==different data structures== you can leverage, they aren't *just* simple key-value stores. If you're storing a list of events in your cache, you might want to use a sorted set so that you can easily retrieve the most popular events!
+
+The most common in-memory caches are [[Redis]] and [[Memcached]]
+- Redis supports many different data structures, including strings, hashes, lists, sets, sorted sets, bitmaps, and [[HyperLogLog]]s.
+- Memcached is a simple KV store that supports strings and binary objects.
+
+
+### [[Content Delivery Network]]s (CDNs)
+- Modern systems often serve users globally, making it challenging to deliver content quickly to users all over the world. Users expect fast load-times!
+- CDNs are types of [[Cache]]s that use geographically distributed servers to deliver content to users based on their geographic location.
+- Often used to deliver static content like images, videos, and HTML files, but can also be used to deliver dynamic content like API responses.
+
+When a user requests content, the CDN routes the request to the closest server. If the content is on that server, the CDN returns the cached content. If it's not on that server, the CDN fetches the content from the ==origin server==, caches it on the server, and returns the content to the user.
+
+In interviews, usually used for static media assets (images, videos).
+
+Things to know about CDNs:
+- CDNs are not just for static assets; for example a blog post updated once a day can be cached by CDN.
+- CDNs can be used to cache API responses
+- Eviction policies: CDNs like other caches need a [[Cache Eviction Strategy]]. You can set a [[Time to Live|TTL]] for cached content, or use a cache invalidation mechanism to remove content from the cache when it changes.
+
+Examples:
+- [[Cloudflare CDN]]
+- [[Akamai]]
+- [[Amazon CloudFront|AWS CloudFront]]
 
 
 
+# Common Patterns ([LINK](https://www.hellointerview.com/learn/system-design/in-a-hurry/patterns))
+These are common patterns that you can use to build systems.
 
+### Pushing Realtime Updates
+- In many systems, you need to be able to make updates to the user in real time.
+	- For synchronous APIs, this is as simple as returning a response once the request is completed.
+	- For other systems like ==chat, notifications, or live dashbords,== you need to be able to *push* updates to the user as they happen.
+
+There are a lot of decisions to make when implementing realtime updates:
+![[Pasted image 20260524230433.png]]
+- Choose a protocol
+	- Single [[HTTP]] [[Polling]] is the simplest option, but not the most efficient.
+		- ==We recommend starting with HTTP polling until it no longer serves your needs!==
+	- [[Server-Sent Event]]s (SSEs) and [[WebSockets]]  are purpose-built for realtime updates, but the infrastructure can be tricky to get right!
+- On the server side, you have more options:
+	- [[Publish-Subscribe|Pub Sub]] systems are a common way to decouple publisher and subscriber, while stateful servers in a consistent hash ring or other configurations can be used for situations where processing is heavier.
+
+
+#### Managing Long-Running Tasks
+- Many operations in distributed systems ==take too long for synchronous processing==: Video encoding, report generation, bulk operations, or any task that takes more than a few seconds.
+- This pattern splits those operations into immediate acking and background processing.
+	- When a user submits heavy tasks...
+		- Your web server:
+			- Validates the request
+			- Pushes a job to a queue like [[Redis]] or [[Kafka]]
+			- Returns a job ID within milliseconds.
+		- Your separate worker processes:
+			- Continuously pull jobs from the queue and execute the actual work.
+	- This provides fast user response times, independent scaling of web servers and workers, and fault isolation.
+
+
+(!WARN!): Many candidates are quick to pull the trigger on pushing their processing behind a queue, but this is frequently a bad decision; if you have a workload that would be short-running, simply returning the result of the job synchronously with the initial request (i.e. not using a queue at all) can dramatically simplify your architecture.
+
+![[Pasted image 20260524230832.png]]
+
+
+### Dealing with Contention
+- When multiple users try to access the same resource simultaneously, like booking the last concert ticket or bidding on an auction item, you need mechanisms to prevent race conditions and ensure data consistency. This pattern addresses coordination challenges in distributed systems.
+- Solutions range from DB-level approaches like [[Pessimistic Concurrency Control|Pessimistic Locking]] and [[Optimistic Concurrency Control]], to distributed coordination mechanisms.
+	- The key is understanding when to use [[Atomicity]] and [[Transaction]]s, versus explicit locking strategies. 
+	- For distributed systems, you might need [[Distributed Lock]]s, [[Two-Phase Commit]] (2PC) protocols, or queue-based serialization.
+
+Trade-offs include a performance versus consistency guarantee, and simple database solutions versus complex distributed coordination. Most problems start with single-database solutions before scaling to distributed approaches.
+![[Pasted image 20260524231334.png]]
+
+
+### Scaling Reads
+- As your application grows from hundreds to millions of users, ==read traffic often becomes the first bottleneck.==
+
+>> START HERE SAM
+
+### Scaling Writes
+- 
+
+
+### Handling Large Blobs
+- 
+
+
+### Multi-Step Processes
+- 
+
+### Proximity-Based Services
+- 
+
+### Pattern Selection
+- 
 
 
 

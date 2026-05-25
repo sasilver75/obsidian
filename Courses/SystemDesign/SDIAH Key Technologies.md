@@ -205,7 +205,7 @@ The most common streaming technologies are [[Kafka]], [[Apache Flink]], and [[Am
 	- (("They're not designed for longer term locking" needs some more explanation, I think.))
 	- ((Comments: "Distributed locks are higher-level global, often business-case-oriented locks. The pessimistic locks we discussed earlier are transaction-level locks, for doing specific updates to specific tables. When you scale to multiple machines, you need distributed locks -- the other doesn't cut it!))
 - ==Distributed locks== are perfect for situations where you need to ==lock something across different systems or processes== for a reasonable period of time.
-	- Often implemented using a distributed KV store like [[Redis]] or [[ZooKeeper]]. 
+	- Often implemented using a distributed KV store like [[Redis]] or [[Apache ZooKeeper]]. 
 		- Basic Idea: ==Use a KV store to store a lock, and use the atomicity of the KV store to ensure that only one process can acquire the lock at a time.==
 		- **==Example==:** If you have a Redis instance with key `ticket-123` and you want to lock it, you can set the value of `ticket-13` to `locked`. If another process tries to set the value to locked, it will fail, because the value is already set to locked. Once the first process is done, it can set the value of `ticket-123` to unlocked, and another process can acquire the lock.
 			- ((I believe this requires an atomic compare-and-swap operation, maybe? I feel like I remember this))

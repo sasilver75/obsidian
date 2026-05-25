@@ -337,7 +337,7 @@ allAlerts.addSink(ElasticsearchSink.builder(elasticsearchConfig).build());
 ![[Pasted image 20250522113704.png]]
 
 ==Job Managers are leader-based, meaning there's a single job manager that's responsible for coordinating the work in the cluster==.
-- High availability is achieved by deploying multiple Job Managers together and using a [[Quorum]]-based mechanism (e.g. [[ZooKeeper]]) to elect a leader.
+- High availability is achieved by deploying multiple Job Managers together and using a [[Quorum]]-based mechanism (e.g. [[Apache ZooKeeper]]) to elect a leader.
 
 - When you submit a job to Flink:
 	1. The Job Manager receives the application and constructs the **execution graph**

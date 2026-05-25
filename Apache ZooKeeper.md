@@ -1,3 +1,9 @@
+---
+aliases:
+  - ZooKeeper
+---
+
+
 
 A tool often used as a [[Coordination Service]] in distributed systems, used to help:
 - Elect leaders

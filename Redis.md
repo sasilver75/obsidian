@@ -146,7 +146,7 @@ If we want it to sit on multiple nodes, we need to keep multiple sorted sets, an
 - ![[Pasted image 20250520114636.png]]
 - The canonical example of this would be a Chatroom, where User 1 is connected to Server A, and they need to message User 3, who's connected to Server C. How does Server A know that User 3 is on Server C?
 	- This question of "Which shard/server is my data on" might famously be handled by [[Consistent Hashing]], using a hash ring.
-		- There's a bunch of incremental problems that happen with these hash rings; notably that it's hard to manage the balance between servers, and scaling them up and down requires a bunch of careful orchestration with a service like [[ZooKeeper]].
+		- There's a bunch of incremental problems that happen with these hash rings; notably that it's hard to manage the balance between servers, and scaling them up and down requires a bunch of careful orchestration with a service like [[Apache ZooKeeper]].
 - Redis has the idea of [[Publish-Subscribe|Pub Sub]], where servers can connect to Redis and announce a publication they'll be making. On that topic, other servers can subscribe! 
 	- So User 1 connects to Server A, and Server A tells Redis "I have User 1. Any messages sent to the topic for User 1 should come back to me!". Server C does the same thing with User 3.
 	- When Server A wants to send a message to Server C such that User 3 gets it, it will **publish** to the topic of **user_3**. 

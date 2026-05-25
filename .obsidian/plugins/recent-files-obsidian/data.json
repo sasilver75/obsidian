@@ -5,6 +5,50 @@
       "path": "System Design in a Hurry.md"
     },
     {
+      "basename": "Pessimistic Concurrency Control",
+      "path": "Pessimistic Concurrency Control.md"
+    },
+    {
+      "basename": "Amazon CloudFront",
+      "path": "Amazon CloudFront.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "Least Recently Used",
+      "path": "Least Recently Used.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Least Frequently Used",
+      "path": "Least Frequently Used.md"
+    },
+    {
+      "basename": "Redlock Algorithm",
+      "path": "Redlock Algorithm.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
+    },
+    {
+      "basename": "Apache ZooKeeper",
+      "path": "Apache ZooKeeper.md"
+    },
+    {
+      "basename": "Advanced Message Queueing Protocol",
+      "path": "Advanced Message Queueing Protocol.md"
+    },
+    {
+      "basename": "Amazon SQS",
+      "path": "Amazon SQS.md"
+    },
+    {
       "basename": "Google Cloud Load Balancing",
       "path": "Google Cloud Load Balancing.md"
     },
@@ -39,10 +83,6 @@
     {
       "basename": "Inverted File Index",
       "path": "Inverted File Index.md"
-    },
-    {
-      "basename": "Pagination",
-      "path": "Pagination.md"
     },
     {
       "basename": "SDIAH Intro",
@@ -159,46 +199,6 @@
     {
       "basename": "Fused Deposition Modeling",
       "path": "Fused Deposition Modeling.md"
-    },
-    {
-      "basename": "Forging",
-      "path": "Forging.md"
-    },
-    {
-      "basename": "Stamping",
-      "path": "Stamping.md"
-    },
-    {
-      "basename": "Bending",
-      "path": "Bending.md"
-    },
-    {
-      "basename": "Injection Molding",
-      "path": "Injection Molding.md"
-    },
-    {
-      "basename": "3D Printing",
-      "path": "3D Printing.md"
-    },
-    {
-      "basename": "Milling",
-      "path": "Milling.md"
-    },
-    {
-      "basename": "Drilling",
-      "path": "Drilling.md"
-    },
-    {
-      "basename": "Grinding",
-      "path": "Grinding.md"
-    },
-    {
-      "basename": "Bolting",
-      "path": "Bolting.md"
-    },
-    {
-      "basename": "Riveting",
-      "path": "Riveting.md"
     }
   ],
   "omittedPaths": [],
