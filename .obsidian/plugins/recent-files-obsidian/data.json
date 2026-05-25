@@ -1,44 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "Electronic Warfare",
-      "path": "Electronic Warfare.md"
+      "basename": "System Design in a Hurry",
+      "path": "System Design in a Hurry.md"
     },
     {
-      "basename": "Inertial Measurement Unit",
-      "path": "Inertial Measurement Unit.md"
+      "basename": "Atomicity",
+      "path": "Atomicity.md"
     },
     {
-      "basename": "Terrain Following Navigation",
-      "path": "Terrain Following Navigation.md"
+      "basename": "Relational Database",
+      "path": "Relational Database.md"
     },
     {
-      "basename": "Phased Array",
-      "path": "Phased Array.md"
+      "basename": "Solid State Disk",
+      "path": "Solid State Disk.md"
     },
     {
-      "basename": "GPS INS",
-      "path": "GPS INS.md"
+      "basename": "Non-Volatile Memory",
+      "path": "Non-Volatile Memory.md"
     },
     {
-      "basename": "Self-Protection Jamming",
-      "path": "Self-Protection Jamming.md"
+      "basename": "Cache",
+      "path": "Cache.md"
     },
     {
-      "basename": "Destruction of Enemy Air Defenses",
-      "path": "Destruction of Enemy Air Defenses.md"
+      "basename": "Inverted File Index",
+      "path": "Inverted File Index.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
+    },
+    {
+      "basename": "SDIAH Intro",
+      "path": "Courses/SystemDesign/SDIAH Intro.md"
     },
     {
       "basename": "Drone",
       "path": "Drone.md"
     },
     {
-      "basename": "Denied, Disrupted, Intermittent, Low-Bandwidth",
-      "path": "Denied, Disrupted, Intermittent, Low-Bandwidth.md"
+      "basename": "Destruction of Enemy Air Defenses",
+      "path": "Destruction of Enemy Air Defenses.md"
+    },
+    {
+      "basename": "GPS INS",
+      "path": "GPS INS.md"
+    },
+    {
+      "basename": "Phased Array",
+      "path": "Phased Array.md"
+    },
+    {
+      "basename": "Terrain Following Navigation",
+      "path": "Terrain Following Navigation.md"
+    },
+    {
+      "basename": "Lithium Ion",
+      "path": "Lithium Ion.md"
     },
     {
       "basename": "Suppression of Enemy Air Defenses",
       "path": "Suppression of Enemy Air Defenses.md"
+    },
+    {
+      "basename": "Denied, Disrupted, Intermittent, Low-Bandwidth",
+      "path": "Denied, Disrupted, Intermittent, Low-Bandwidth.md"
+    },
+    {
+      "basename": "Inertial Measurement Unit",
+      "path": "Inertial Measurement Unit.md"
+    },
+    {
+      "basename": "Concept of Operations",
+      "path": "Concept of Operations.md"
+    },
+    {
+      "basename": "Electronic Warfare",
+      "path": "Electronic Warfare.md"
+    },
+    {
+      "basename": "Self-Protection Jamming",
+      "path": "Self-Protection Jamming.md"
     },
     {
       "basename": "Electronic Speed Controller",
@@ -47,10 +91,6 @@
     {
       "basename": "ExpressLRS",
       "path": "ExpressLRS.md"
-    },
-    {
-      "basename": "Lithium Ion",
-      "path": "Lithium Ion.md"
     },
     {
       "basename": "Actuator",
@@ -159,46 +199,6 @@
     {
       "basename": "Bill of Materials",
       "path": "Bill of Materials.md"
-    },
-    {
-      "basename": "Takt Time",
-      "path": "Takt Time.md"
-    },
-    {
-      "basename": "Sterolithography",
-      "path": "Sterolithography.md"
-    },
-    {
-      "basename": "Defense Innovation Unit",
-      "path": "Defense Innovation Unit.md"
-    },
-    {
-      "basename": "Additive Process",
-      "path": "Additive Process.md"
-    },
-    {
-      "basename": "Formative Process",
-      "path": "Formative Process.md"
-    },
-    {
-      "basename": "Direct Metal Laser Sintering",
-      "path": "Direct Metal Laser Sintering.md"
-    },
-    {
-      "basename": "Design for Manufacturing",
-      "path": "Design for Manufacturing.md"
-    },
-    {
-      "basename": "Geometric Dimensioning and Tolerancing",
-      "path": "Geometric Dimensioning and Tolerancing.md"
-    },
-    {
-      "basename": "Batch (Machine Learning)",
-      "path": "Batch (Machine Learning).md"
-    },
-    {
-      "basename": "Subtractive Process",
-      "path": "Subtractive Process.md"
     }
   ],
   "omittedPaths": [],

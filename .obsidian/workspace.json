@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drone.md",
+                "file": "System Design in a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Drone"
+              "title": "System Design in a Hurry"
             }
           },
           {
-            "id": "c14ca95b2b07c0b2",
+            "id": "505283db4377863f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Destruction of Enemy Air Defenses.md",
+                "file": "Atomicity.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Destruction of Enemy Air Defenses"
+              "title": "Atomicity"
             }
           },
           {
-            "id": "d3af36d371b062d3",
+            "id": "8c4de92bf760b42e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPS INS.md",
+                "file": "Relational Database.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GPS INS"
+              "title": "Relational Database"
             }
           },
           {
-            "id": "f3734ba6288edb9c",
+            "id": "f469a8a0c3f2294e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phased Array.md",
+                "file": "Solid State Disk.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Phased Array"
+              "title": "Solid State Disk"
             }
           },
           {
-            "id": "46c8328a3fc132e2",
+            "id": "dcc62bb7d668fbda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terrain Following Navigation.md",
+                "file": "Non-Volatile Memory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Terrain Following Navigation"
+              "title": "Non-Volatile Memory"
             }
           },
           {
-            "id": "b745cd2ba16f1323",
+            "id": "d0bada0ee4a135fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electronic Warfare.md",
+                "file": "Cache.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Electronic Warfare"
+              "title": "Cache"
             }
           },
           {
-            "id": "02a79f7a0c79edfe",
+            "id": "599c218b3b3649be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inertial Measurement Unit.md",
+                "file": "Inverted File Index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inertial Measurement Unit"
+              "title": "Inverted File Index"
             }
           },
           {
-            "id": "a92464a9e9010246",
+            "id": "fe14e8562b6df773",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Denied, Disrupted, Intermittent, Low-Bandwidth.md",
+                "file": "Pagination.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,59 +196,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Denied, Disrupted, Intermittent, Low-Bandwidth"
-            }
-          },
-          {
-            "id": "35b6cbeafb64cd59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Suppression of Enemy Air Defenses.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Suppression of Enemy Air Defenses"
-            }
-          },
-          {
-            "id": "e937065a3ab6d2d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lithium Ion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Lithium Ion"
+              "title": "Pagination"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -2097,45 +2048,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b745cd2ba16f1323",
+  "active": "24c9b50a33a28e73",
   "lastOpenFiles": [
-    "Inertial Measurement Unit.md",
-    "Electronic Warfare.md",
-    "Terrain Following Navigation.md",
-    "Phased Array.md",
-    "_attachments/Pasted image 20260524120708.png",
-    "GPS INS.md",
-    "Self-Protection Jamming.md",
-    "Destruction of Enemy Air Defenses.md",
+    "_attachments/Pasted image 20260524163754.png",
+    "Atomicity.md",
+    "System Design in a Hurry.md",
+    "Relational Database.md",
+    "_attachments/Pasted image 20260524162708.png",
+    "_attachments/Pasted image 20260524160056.png",
+    "_attachments/Pasted image 20260524155635.png",
+    "Solid State Disk.md",
+    "Non-Volatile Memory.md",
+    "_attachments/Pasted image 20260524150715.png",
+    "_attachments/Pasted image 20260524143931.png",
+    "_attachments/Pasted image 20260524143922.png",
+    "Cache.md",
+    "Inverted File Index.md",
+    "_attachments/Pasted image 20260524142124.png",
+    "Pagination.md",
+    "_attachments/Pasted image 20260524135110.png",
+    "Courses/SystemDesign/SDIAH Intro.md",
     "Drone.md",
-    "Denied, Disrupted, Intermittent, Low-Bandwidth.md",
+    "Destruction of Enemy Air Defenses.md",
+    "GPS INS.md",
+    "Phased Array.md",
+    "Terrain Following Navigation.md",
+    "Lithium Ion.md",
     "Suppression of Enemy Air Defenses.md",
+    "Denied, Disrupted, Intermittent, Low-Bandwidth.md",
+    "Inertial Measurement Unit.md",
+    "Concept of Operations.md",
+    "Electronic Warfare.md",
+    "_attachments/Pasted image 20260524120708.png",
+    "Self-Protection Jamming.md",
     "Electronic Speed Controller.md",
     "ExpressLRS.md",
     "GPS/INS.md",
     "GPS",
-    "Lithium Ion.md",
     "Actuator.md",
-    "Supplier.md",
-    "Computer-Aided Design.md",
-    "Computer-Aided Manufacturing.md",
-    "Quality Management System.md",
-    "Overall Equipment Effectiveness.md",
-    "Work in Process.md",
-    "Bonding.md",
-    "Turning.md",
-    "Transducer.md",
-    "Molding.md",
-    "Casting.md",
     "_attachments/Pasted image 20260520013803.png",
-    "_attachments/Pasted image 20260520005321.png",
-    "_attachments/Pasted image 20260520004305.png",
-    "_attachments/Pasted image 20260517224622.png",
-    "_attachments/Pasted image 20260517224548.png",
-    "_attachments/Pasted image 20260517224003.png",
-    "_attachments/Pasted image 20260517223953.png",
-    "_attachments/Pasted image 20260517223336.png",
-    "_attachments/Pasted image 20260517223237.png",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",

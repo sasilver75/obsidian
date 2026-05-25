@@ -178,11 +178,312 @@ Twitter Example:
 Above: ==Building up the design, one endpoint (~functional requirement) at a time==
 
 ### Deep Dives/Low Level Design
-- A simple, high-level design of Twitter is going to be woefully inefficienet when it comes to fetching users' feeds. No problem! We handle this in the deep dive section.
+- A simple, high-level design of Twitter is going to be woefully inefficient when it comes to fetching users' feeds. No problem! We handle this in the deep dive section.
 - Here, we ==harden our design by making sure it addresses non-functional requirements, addresses edge cases, identifies and addresses issues and bottlenecks, improves design based on probes from interviewer==.
 - The degree to which you're proactive here is a function of your seniority.
 - Talking about horizontal scaling, introducing caches, database sharding, etc... Things like fanout-on-read vs fanout-on-write and the use of caches.
 - Make sure you give your interviewer room to ask questions and probe your design.
+
+
+# Core Concepts
+- The fundamental principles and techniques that form the foundation of every system design interview.
+- The ==vocabulary and grammar of system design.==
+	- Before understanding how to scale IG or design a ride-sharing service, you have to understanding:
+		- What caching is 
+		- When to shard a database
+		- How networks actually work
+
+#### Networking Essentials
+![[Pasted image 20260524135110.png]]
+- You can go incredibly deep on networking, but for SD interviews, you need to know the practical bits that come up when designing distributed systems. At a basic level, you need to understand how services talk to eachother, and what happens when those connections fail or get slow.
+- The most important decision you'll make is choosing your communication protocol.
+	- For most systems, this is [[HTTP]] over [[Transport Control Protocol|TCP]]. Well-understood, works everywhere, and handles 90% of use cases.
+	- [[WebSockets|WebSocket]]s and [[Server-Sent Event|SSE]] come up when you need real-time updates.
+		- SSE is unidirectional, while WebSockets are bidirectional.
+		- [[Server-Sent Event|SSE]]: Client makes an initial HTTP request to open the connection, then server pushes data down that connection (like live scores or notificaitons). The client can't send additional data over the same SSE connection.
+		- [[WebSockets|WebSocket]]s are necessary when clients need to push data back into hte server frequently.
+		- Both are ==stateful connections== which means ==you can't throw them behind a standard load balancer.== 
+			- You'll need to think about connection persistence and what happens when a server goes down with thousands of active connections.
+		- Also consider HTTP [[Long Polling]] as an alternative.
+	- [[gRPC]] is worth mentioning for internal service-to-service communication, when performance is critical. 
+		- Uses a binary serialization and [[HTTP 2]], making it significantly faster than typical [[JSON]] over [[HTTP]].
+		- ==Won't use for public-facing APIs== because browsers don't typically natively support gRPC. 
+		- A common pattern is REST for external APIs and gRPC internally.
+- [[Load Balancing]] is another area that interviewers love to probe.
+	- [[Application Layer|Layer 7]] load balancers operate at the application level and ==can route requests based on actual HTTP request content==. You can send API calls to one service and web page requests to another.
+	- [[Transport Layer|Layer 4]] load balancers work at the TCP level, and are ==faster but dumber.== They just distribute requests without looking at the content. For WebSockets, you typically need Layer 4 balancing, because you're maintaining a persistent [[Transport Control Protocol|TCP]] connection.
+
+Geography and Latency matter more than most candidates realize:
+- A request from NY to London has a minimum latency of around 80ms just from the speed of light through fiber optic cables, before processing anything.
+- This is why [[Content Delivery Network|CDN]]s exist: To serve static content from edge servers.
+
+### API Design
+- In almost every system design interview, you'll sketch out the APIs that clients use to interact with your system.
+- ==Most interviewers don't care about perfect API design;== they want to see that you can create reasonable endpoints and move on to the harder architectural problems.
+	- With that said, SLOPPY design can signal inexperience!
+- For 90% of interviews, you'll default to [[Representational State Transfer|REST]], which maps resources to URLs and uses HTTP methods to manipulate them.
+	- Think `GET /users/{id}` for getting a user, `POST /events/{id}/bookings` for creating a booking.
+
+==Don't spend too much time designing API details.== Sketch out 4-5 key endpoints in a few minute and move on.
+
+There are a ==few concepts worth mentioning==:
+- If you're returning large result sets, you'll need ==[[Pagination]]==.
+	- ==Cursor-based== pagination is better for real-time data where new items get added frequently.
+	- ==Offset-based== pagination is fine for most cases.
+- For authentication, use ==[[JSON Web Token|JWT]] tokens== for user sessions, and ==API keys== for service-to-service calls.
+- If your system could get hammered by bots or abuse, mention rate limiting, but don't go deep on any of these unless the interviewer specifically asks.
+
+#### Data  Modeling
+- One of those things that sounds simple but has massive downstream effects on your system; what date you store, and how you structure it directly affects performance, scalability, and how painful it is to build and maintain the system.
+- ![[Pasted image 20260524142124.png]]
+- The first big choice is [[Relational Database]] vs [[NoSQL Database]]
+	- Relational databases like [[PostgreSQL|Postgres]] work great when you have ==structured data== with clear relationships, and need strong consistency.
+		- You'll hear about [[Normalization]] and [[Denormalization]]. 
+			- Normalizing means splitting data across tables to avoid duplication.
+				- A `users`, `orders`, and `products` table... each `order` references a `userId` and `productId` instead of copying a full user and product data into every order record, keeping your data consistent.
+				- ==Start with a normalized relational model, and denormalize specific hot paths if you identify read performance issues! Don't propose denormalization unless you have a clear reason.==
+			- Denormalizing duplicates data to avoid joins, making reads faster. The downside is updates; if a user changes their name, you have to update it in the users table plus every order record that copied it. For read-heavy systems where data rarely changes, this tradeoff if often worth it.
+	- NoSQL databases like [[Amazon DynamoDB|DynamoDB]] or [[MongoDB]] shine when you need flexible schemas or want to scale horizontally across many servers without complex joins.
+		- Forces you to think different:
+			- DynamoDB requires you to design your ==partition key== and ==sort key== based on access patterns.. If you're building a a social med app and your most common query is "get all posts for user X", you'd use `user_id` as the partition key, but now queries like "get all posts mentioning hashtag Y" require scanning the entire table.
+				- You have to know your queries upfront and design around them!
+
+### Database Indexing
+- [[Indexing]] is used to make DB queries fast!
+- ==Without indexes, finding a user by Email means scanning every single row in your user table.==
+- The most common is a [[B-Tree]]
+	- Keeps  data sorted in a tree structure that supports both EXACT lookups and RANGE queries. 
+	- Most relational databases create B-Tree indices by default.
+- [[Hash Index]]es are faster for exact matches, but can't do range queries, so they're less common.
+- You'll see specialized indexes:
+	- Full-text Indexes for Search ([[Inverted Index]]) ("Find users with name starting with Sam")
+	- [[Geospatial Index]]es for location queries ("find restaurants in 5 miles")
+![[Pasted image 20260524143922.png]]
+In interviews: ==Think about your actual query patterns, and propose indexes on the fields you're querying frequently!==
+- If you're looking up users by email for authentication, index the email column. 
+- If you're doing composite queries like "find events in San Francisco on December 25th", you might need a [[Compound Index]] on both city and date.
+
+For specialized needs beyond what your primary DB supports, you may need external systems
+- [[ElasticSearch]] is the go-to- for full-text search (though [[pg_search]] is a common Rust-based Postgres extension)
+- For geospatial queries [[PostGIS]] is a popular extension to postgres.
+
+External indexes typically sync from your primary database via [[Change Data Capture]], meaning the search index will lag slightly behind the primary database.
+- The data you read from the search index is going to be stale by some small amount, but for MOST search use cases, that's almost always acceptable.
+
+
+### [[Cache]]s
+- Comes up in almost every system design interview, usually when you identify that your database is getting hammered with reads. The idea is simple: 
+	- ==Store frequently-accessed data in fast memory ([[Redis]]) so that you can skip the DB entirely for most reads.==
+- The performance difference is massive:
+	- A Cache on Redis takes 1ms, compared to 20-5ms for a typical DB query. It's a 20-50x speedup, which matters for users.
+		- It can also reduce load on the database, letting it handle more write traffic and avoiding the need to scale it up prematurely
+			- Still, worry here about the [[Cache Stampede]]/thundering herd problem!
+![[Pasted image 20260524143931.png]]
+- ==The pattern you'll use 90% of the time== is [[Cache-Aside]] with [[Redis]]:
+	- On read, *check the cache first!*
+		- If the data is there, return it.
+		- If not, query the database and store the result in the cache with a [[Time to Live|TTL]], and return it.
+- This works well for most read-heavy systems.
+- Still, caches introduce complexity! The hard part is ==[[Cache Invalidation Strategy|Cache Invalidation]]==!
+	- ==When a user updates their profile in the database, you need to delete or update the cached copy.==
+	- Otherwise, the next read returns stale data.
+	- There are ==a few strategies here==:
+		- You can invalidate the cache entry *immediately* after writes
+		- You can use short [[Time to Live|TTL]]s and accept some staleness
+- You also need to think about ==cache failures==:
+	- If Redis goes down, every request suddenly hits your database. Can it handle that traffic spike? This is called a [[Cache Stampede]] and can take down your whole system!
+	- Some approaches include keeping a small in-process cache as a fallback, using circuit breakers to prevent overwhelming the database, or accepting degraded performance until Redis comes back up.
+
+==(! NOTE !)==: A common mistake is to say "Cache everything!" Cache only data that's read frequently and doesn't change often. If you're caching data that changes on every request, you're just adding latency and complexity for no benefit.
+
+[[Content Delivery Network|CDN]] caching is different: IT's for static assets like images, videos, and JS files served from edge locations close to users. In-process caching works for small values like feature flags or config that change rarely, but for your core application data, external caching with Redis is the default.
+
+_______
+Q: What does that cache stampede actually look like? People often make handwaving claims about "Oh, it will take down the database," but what mechanically actually happens?
+
+A: 
+- The machine hosting the database is typically sized for a certain number of reads/sec (e.g. 500); you might have a 20x load in the case of cache failure.
+- What happens next depends on where the bottleneck hits first:
+	- If the application's [[Connection Pool]] is saturated, when a new user request needs the DB, it:
+		- Asks the pool for a connection
+		- There isn't one free
+		- So it waits in a queue
+		- If waiting exceeds some timeout (either by the application server or the API gateway), the user's request ultimately fails.
+		- In this case, the user requests stall and then time out, while the DB itself might still be alive.
+		- Still, if the app server is now holding lots of pending requests which consume resources, if enough pile up, the app tier can also become unhealthy.
+	- If the application opens up too many DB connections:
+		- If each app instance allows 50 DB connections, and autoscaling creates 100 app instances, then you might have 5,000 possible DB connections.
+		- Most databases can't handle that many active connection efficiently; for [[PostgreSQL|Postgres]], there's a `max_connections` limit beyond which new connections get rejected with errors like "too many clients."
+		- The DB may start rejecting connections, or spend so much time managing connections that useful work slows dramatically.
+	- If queries are running but the DB is overloaded
+		- Even with a fixed number of connections, the DB can saturate on:
+			- CPU
+			- Disk I/O
+			- Buffer/cache churn
+			- Lock contention
+			- Memory pressure
+			- Network bandwidth
+			- Replication lag
+			- Transaction log/write pressure.
+		- A query that normally takes 10ms might start taking 2s, then 10s, then timing out.
+		- Connections are held longer, so the pool frees connections more slowly, which causes more app requests to wait, creating a feedback loop.
+
+So when people say "it takes down the database," they really mean that the database stops being able to serve useful traffic within acceptable latency, causing timeouts and cascading failures across the app; it doesn't always mean that the database process literally exits.
+
+Solutions:
+- [[Backpressure]]
+- Bounded connection pools
+- Short acquire/query timeouts
+- [[Circuit Breaker]]s
+- Request coalescing
+- Stale cache serving
+- Rate limits
+- Avoiding automatic retries that multiply the traffic
+________
+
+
+### [[Sharding]]
+- Sharding comes up when you've outgrown a single databases and need to split your data across multiple independent servers.
+	- This happens when you hit storage limits (TBs), write throughput limits (10ks of writes/second) or read throughput that even replicas can't handle.
+![[Pasted image 20260524150715.png]]
+- The most important decision is your ==shard key==, which determines how data gets distributed and affects everything else in your design.
+	- For a user-centric app like Instagram, sharding by `user_id` keeps all of a user's posts, likes, and comments on a single shard.
+		- This makes user-scoped queries fast, because they only need to hit one shard.
+		- However, this makes "trending posts across all users" expensive because you have to hit every shard and aggregate results. That's the tradeoff.
+- Most systems use ==hash-based sharding== where you hash the shard key and use modulo over the number of shards to pick a shard.
+- ==Range-based sharding== can work if your access patterns naturally partition, but it's easy to create ==hot spots== if one range gets more traffic.
+- ==Directory-based sharding== uses a lookup table to decide where data lives. It's flexible but adds a dependency and latency to every request, so it's rarely worth it in interviews.
+
+==(! NOTE !)==: The biggest mistake with sharding is doing it too early! Doing it introduces a bunch of complications, and a well-tuned single database with [[Replication|Read Replica]]s can handle *way more* than most candidates think. Before proposing sharding, do the capacity math:
+- If you're at 10k writes per second and 100GB of data, you DON'T NEED sharding yet!
+- ==Bring it up when numbers justify it, not as a default scaling strategy.==
+
+Sharding creations new problems:
+- Cross-Shard [[Transaction]]s become nearly impossible, so you need to design your shard boundaries to avoid them. If a user transfer in your banking app requires updating accounts on different shards, you'll need [[Distributed Transaction]]s or [[Saga]]s, which are complex and slow.
+- ==Hot spots== happen when one shard gets disproportionate traffic (e.g. Taylor Swift's shard), and resharding is painful.
+
+Only bring up sharding after justifying why a single database won't work, then clearly state your shard key choice and explain the tradeoff.
+
+
+----
+Sam Reality Note:
+- In 2026, AWS RDS's biggest instance is `db.m8gd.48xlarge`, which has 768GB ram and 6x1900GB [[Non-Volatile Memory|NVMe]] [[Solid State Disk|SSD]]s (11.4TB of storage)
+
+==So it's pretty likely that you don't actually need to shard, for most applications.==
+
+-----
+
+
+### [[Consistent Hashing]]
+- Solves a specific problem that comes up with distributed caches and sharded databases. 
+- When you use simple hash-based distribution of `hash(key) % N`, ==adding a server changes N==
+	- This means that *almost every key now maps to a different server*, so you have to ==move most of your data around!== With millions of database records, this is a disaster!
+- [[Consistent Hashing]] ==fixes this in the following manner==:
+	- Arranging both servers and keys on a virtual ring:
+	- Hash each key and place it on the ring, then the key belongs to the next server you encounter going *clockwise*.
+	- When you add a new server, only the keys between that new server and the *previous*  (counter-clockwise) server need to move! When you remove a server, only *its* keys need to relocate to the next server on the ring; everything else stays put.
+- Huge improvement!
+	- With simple modulo hashing, adding one server to a 10-server cluster means moving ~90% of your data.
+	- With consistent hashing, you only move about 10%. This makes it practical to add/remove servers dynamically without causing a massive data migration.
+![[Pasted image 20260524155635.png]]
+- In an interview:
+	- You rarely have to explain how consistent hashing works unless specifically asked. It's enough to say: *"==we'll use consistent hashing to distribute data across cache nodes=="* when talking about a distributed cache, or "*==we'll use consistent hashing for the shard key==*" when talking about database sharding; the interviewer just wants to know that you're aware of the technique.
+
+
+### [[CAP Theorem]]
+- Comes up when you're designing distributed systems and need to make tradeoffs about how your data behaves during failures.
+- States that you can only have two of three properties at once:
+	- Consistency: All nodes see same data
+	- Availability: Every request gets a response
+	- Partition Tolerance: System works even when network connections fail between nodes
+- In practice, you're choosing between consistency and availability in the presence of faults.
+> "If you choose ==consistency==, when a network partition happens, some nodes will refuse to serve requests rather than return potentially stale data. Your system might go down, but when it's up, the data is always correct.
+   If you choose ==availability==, every node keeps serving requests even during a partition. Users always get a response, but different nodes might temporarily have different data until the partition heals."
+   
+   ![[Pasted image 20260524160056.png]]
+==For most systems, [[Availability]] is the right default.==
+- Users can tolerate seeing slightly stale data (e.g. your Instagram feed being 2 seconds old), but can't tolerate the application being down.
+- Social media feeds, recommendation systems, and analytics dashboards all work fine with [[Eventual Consistency]].
+
+==[[Strong Consistency]] only matters when the stale data causes actual business problems.==
+- Inventory systems need accurate stock counts or you'll oversell products. Banking systems need correct account balance or you'll allow fraud. Booking systems like Ticketmaster need to prevent double-booking the same seat.
+
+==You don't have to pick one model for you entire system, it's common to have different consistency requirements for different parts of the same application.==
+- E-Commerce: Product descriptions and reviews can be eventually consistent, but inventory counts and order processing need strong consistency to prevent overselling.
+
+Note: The [[CAP Theorem]] describes behavior during network partitions, which are relatively rare.
+- In normal operation, the real tradeoff is between [[Consistency]] and [[Latency]].
+- This is captured by the ==[[PACELC]] Theorem==:
+>*"During a Partition, choose Availability or Consistency; Else, choose Latency or Consistency."*
+- Even when your network is healthy, choosing strong consistency adds latency because nodes need to coordinate before responding.
+- In interviews, when you mention replication or distributed data, your interviewer might ask about consistency. ==The safe answer is eventually consistency unless the problem specifically involves money, inventory, or booking limited resources.==
+
+
+### Numbers to Know
+- You don't need to do back-of-the-envelope calculations at the start of an interview, but it's useful to use them when you need to make decisions ("Should I shard the database? Can a single Redis instance handle the cache load?")
+- The trick is knowing which numbers to use! Modern hardware is more powerful than many candidates realize.
+
+- Memory Access: Nanoseconds
+- SSD Reads: Microseconds
+- Network Calls within Datacenter: 1-10ms
+- Cross-continent Calls: 10-100s of ms
+
+![[Pasted image 20260524162708.png]]
+
+
+# Key Technologies ([LINK](https://www.hellointerview.com/learn/system-design/in-a-hurry/key-technologies))
+
+System design involves assembling the most effective building blocks to solve a problem, so it's crucial to have a good understanding of the of the most commonly used building blocks!
+
+## Core Database
+- Almost all SD problems will require you to store some data, and you'll typically store it in a database or [[Blob Storage|Object Storage]].
+- Most databases are [[Relational Database]]s or [[NoSQL Database]]s. 
+
+==IMPORTANT==: Some candidates try to ham-fist a verbal comparison of Relational vs NoSQL capabilities, but the reality is that these two technologies have become highly overlapping (e.g. NoSQL offering ACID transactions, Relational databases offering JSONB).
+
+### Relational Databases
+- [[Relational Database|RDBMS]] are the most common type of database. They're often used for transactional data and are typically the default choice for a product design interview.
+- Things to know about relational databases
+	- Joins: Can be a major performance bottleneck in your system, so minimize them where possible.
+	- Indexes: A way of storing data in a way that makes it faster to query. Commonly [[B-Tree]] and [[Hash Index]]es, but there are also [[Geospatial Index]]es, [[Inverted Index]]es, etc. for specific applications
+	- [[Transaction]]s: A way of grouping multiple operations together into a single [[Atomicity|Atomic]] operation that either succeeds or fails together.
+- Most common are [[PostgreSQL|Postgres]] and [[MySQL]]
+
+
+### NoSQL
+- A broad category of databases designed to accommodate a wide range of models:
+	- [[Key-Value Database]]
+	- [[Document Database]]
+	- [[Column-Family Database]]
+	- [[Graph Database]]
+- Don't use a traditional table-based structure and are often schema-less. This allows NoSQL to typically handle large volumes of unstructured, semi-structured, or structured data, and to scale horizontally with ease.
+![[Pasted image 20260524163754.png]]
+- Strong candidates for situations where:
+	- Flexible Data Models
+		- ((Note: If it's not Schema-on-Write, it's often Schema-on-Read; you're just moving the problem around. This matters more for some applications than others.))
+	- Scalability ([[Horizontal Scaling]])
+	- Handling Big Data and Real-Time Web Apps
+
+NOTE: ==The places where NoSQL databases excel are not necessarily places where Relational databases fail, and vice versa!== Don't make broad statements but instead discuss the specific features of the database you're using and how it will help you solve the problem at hand.
+
+Things to know about NoSQL databases:
+- Data models: Most common are key-value, document, column-family, and graph databases
+- Consistency Models: Offer various consistency models ranging from [[Strong Consistency]] to [[Eventual Consistency]]
+- Indexing: Supports indexing to make data faster to query; most common are [[Hash Index]] and [[B-Tree]]
+- Scalability: NoSQL databases scale via [[Horizontal Scaling]] via [[Consistent Hashing]]  and/or [[Sharding]] to distribute data across many servers.
+
+
+
+
+
+
+
+
+
+
+   
+   
+
 
 
 

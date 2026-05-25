@@ -1,3 +1,7 @@
+---
+aliases:
+  - Caching
+---
 
 Reading from disk is slow. We can introduce in-memory caches, which whold a subset of our data, to speed up data access.
 
