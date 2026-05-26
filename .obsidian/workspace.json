@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design in a Hurry.md",
+                "file": "System Design in a Hurry - Supplemental Flashcard Review.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "System Design in a Hurry - Supplemental Flashcard Review"
+            }
+          },
+          {
+            "id": "3db44f4db41da0d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Binary Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Binary Tree"
+            }
+          },
+          {
+            "id": "c666b4cdb176fbc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Binary Search Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Binary Search Tree"
+            }
+          },
+          {
+            "id": "a66019c9fed5cf0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LSM Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LSM Tree"
+            }
+          },
+          {
+            "id": "0b5b4e5c73d32bb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transcoding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Transcoding"
+            }
+          },
+          {
+            "id": "d61d24acca88c69c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon CloudFront.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon CloudFront"
+            }
+          },
+          {
+            "id": "619aebf881b2748e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sharding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sharding"
+            }
+          },
+          {
+            "id": "9508d49c89f48e4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sharding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sharding"
             }
           },
           {
@@ -2218,14 +2386,30 @@
   },
   "active": "24c9b50a33a28e73",
   "lastOpenFiles": [
+    "System Design in a Hurry - Flashcard Review Draft.md",
+    "System Design in a Hurry - Anki Supplemental Basic.tsv",
+    "System Design in a Hurry - Supplemental Flashcard Review.md",
+    "System Design in a Hurry - Anki Basic.tsv",
+    "Inertial Measurement Unit.md",
+    "System Design in a Hurry.md",
+    "Binary Tree.md",
+    "Binary Search Tree.md",
+    "LSM Tree.md",
+    "Transcoding.md",
+    "_attachments/Pasted image 20260525111240.png",
+    "Cloud-Native Geospatial.md",
+    "Pagination.md",
+    "AWS Step Functions.md",
+    "Amazon CloudFront.md",
+    "_attachments/Pasted image 20260525110016.png",
+    "_attachments/Pasted image 20260525104917.png",
+    "Sharding.md",
+    "_attachments/Pasted image 20260525104302.png",
     "Service Token.md",
     "Pessimistic Concurrency Control.md",
-    "Pagination.md",
-    "System Design in a Hurry.md",
     "_attachments/Pasted image 20260524231334.png",
     "_attachments/Pasted image 20260524230832.png",
     "_attachments/Pasted image 20260524230433.png",
-    "Amazon CloudFront.md",
     "Write-Back Cache.md",
     "Least Recently Used.md",
     "Untitled.md",
@@ -2238,22 +2422,7 @@
     "Google Cloud Load Balancing.md",
     "Transport Layer.md",
     "_attachments/Pasted image 20260524202329.png",
-    "Atomicity.md",
-    "Mutual TLS.md",
     "_attachments/Pasted image 20260524195923.png",
-    "_attachments/Pasted image 20260524194500.png",
-    "_attachments/Pasted image 20260524163754.png",
-    "Relational Database.md",
-    "_attachments/Pasted image 20260524162708.png",
-    "_attachments/Pasted image 20260524160056.png",
-    "Solid State Disk.md",
-    "Non-Volatile Memory.md",
-    "Cache.md",
-    "Inverted File Index.md",
-    "Courses/SystemDesign/SDIAH Intro.md",
-    "Drone.md",
-    "Destruction of Enemy Air Defenses.md",
-    "GPS INS.md",
     "GPS",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
@@ -2261,8 +2430,6 @@
     "HTTP",
     "geospatial-slideshow.html",
     "Papers/Earth Observation",
-    "recent-notes.txt",
-    "Courses/SystemDesign/Case Studies",
-    "Courses/SystemDesign"
+    "recent-notes.txt"
   ]
 }

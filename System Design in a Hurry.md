@@ -902,32 +902,134 @@ Trade-offs include a performance versus consistency guarantee, and simple databa
 
 
 ### Scaling Reads
-- As your application grows from hundreds to millions of users, ==read traffic often becomes the first bottleneck.==
-
->> START HERE SAM
+- As your application grows from hundreds to millions of users, ==read traffic often becomes the first bottleneck== before write traffic does. For most apps, the ==read-to-write ratio starts at 10:1 but often reaches 100:1 or higher!==
+- We can address this high read volume through (==in order, as needed==):
+	- Database Optimization (Proper [[Index|Indexing]], then [[Denormalization]] if needed)
+	- [[Horizontal Scaling]]
+	- [[Cache|Caching]]
+![[Pasted image 20260525104302.png]]
+- Key Considerations:
+	- Managing [[Cache Invalidation Strategy|Cache Invalidation]] and [[Cache Eviction Strategy|Cache Eviction]]
+	- Handling [[Replication]] Lag in read replicas
+	- Dealing with [[Hot Spot|Hot Key]]s where millions of users request the same popular content simultaneously
 
 ### Scaling Writes
-- 
+- As you grow from 100s to 1,000,000s of writes per second, individual database servers and storage systems hit hard limits. 
+- We can address this high write volume through:
+	- [[Sharding]] (typically [[Sharding|Horizontal Sharding]], but perhaps [[Sharding|Vertical Partitioning]])
+	- Handling write bursts through [[Message Queue]]s and load shedding (to prioritize important writes during overload. Batching techniques can reduce per-operation overhead by grouping multiple writes together.
+- Key Considerations:
+	- Selecting good partition keys that distribute ==*load*== evenly while keeping related data together.
+![[Pasted image 20260525104917.png]]
+
 
 
 ### Handling Large Blobs
-- 
+- Large files like videos, images, documents need special handling.
+- ==Instead of routing gigabytes of files through your application servers,== we instead use direct client-to-storage transfers using [[Presigned URL]], and reads are typically then served via [[Content Delivery Network|CDN]] delivery.
+	- You application server generates temporary, scoped credentials (a "presigned URL") that lets clients upload directly to blob storage like [[Amazon S3|S3]]. 
+	- Downloads come from CDNs with presigned URLs for access control. 
+- Key Challenges
+	- ==State synchronization== between database metadata (e.g. `photos` table with `photoUrl` column pointing to s3) and blob storage.
+		- Event notifications from storage services can help keep your application state consistent!
+	- Handling upload failures
+	- Managing the lifecycle of large files.
+![[Pasted image 20260525110016.png]]
+==Write Path== (Involves Client, App Server, Object Storage (no CDN at all)):
+- Client to app server: "I want to upload photo abc.jpg"
+- App server: Authorizes user, choose object key `users/123/photos/abc.jpg`, creates pending DB record, generates presigned PUT/POST URL and returns to client.
+- Client to S3 directly: Upload file bytes using presigned URL
+- Client to app server: "Upload is complete!"
+- App server verifies the object exists, checks size/checksum/content type, and marks DB record as uploaded/ready.
+- Optional post-upload processing step:
+	- S3 ObjectCreated event
+		- -> queue/Lambda/Worker
+		- Validates file
+		- Generates thumbnails
+		- Writes derived images back to S3
+		- Updates DB
+==Read Path== (Involves Client, App Server, CDN):
+- Client asks app server "Can I read photo abc.jpg?"
+- App server replies "Yes, here's a short-lived signed ***==CDN URL==***" (not a S3 presigned URL)
+	- Behind the scenes, the S3 bucket says private. The CDN (e.g. [[Amazon CloudFront|CloudFront]]) is able to read from S3 using an origin access identity/control.
+- Client makes a `GET http://cdn.example.com/photos/abc.jpg?signature=...` request
+- CDN validates the signature/access policy
+- If cache hit:
+	- CDN returns photo bytes to client
+- If cache hit:
+	- CDN -> S3 origin: GET /photos/abc.jpg
+	- S3 returns object to CDN
+	- CDN caches it according to Cache-Control rules
+	- CDN returns photo bytes to client
 
 
 ### Multi-Step Processes
-- 
+- Complex business processes often involve multiple services and long-running operations that must survive failures, retries, and external dependencies! e.g. order fulfillment, user onboarding, payment processing.
+- ==Solutions range==:
+	- Simple single-server orchestration
+	- Sophisticated workflow engines and durable execution systems
+	- Modern workflow systems like [[Temporal]] or [[Amazon Step Functions|AWS Step Functions]] handle state management, failure recovery, and retry logic automatically.
+- Key insight: Moving from scattered state management and manual error handling to ==declarative workflow definitions== where the system guarantees exactly-once execution and maintains complete audit trails.
+![[Pasted image 20260525111240.png]]
 
 ### Proximity-Based Services
-- 
+- Systems like Uber or GoPuff require you to search for entities by location. [[Geospatial Index]]es are the key to efficiently querying and retrieving entities based on geographical proximity. 
+- These services often rely on commodity databases like [[PostgreSQL|Postgres]] with [[PostGIS]], or [[Redis]]'s geospatial data type, or dedicated solutions like [[ElasticSearch]] with geo-queries enabled.
+- Architecture:
+	- Typically involves dividing the geographical area into manageable regions and indexing entities within these regions. This allows the system to quickly exclude vast areas that don't contain relevant entities, thereby reducing the search space significantly.
+- Most systems don't require users to be querying globally; often, when proximity is involved, it means users are looking for entities local to them.
 
 ### Pattern Selection
+- These patterns above are often used together!
+- A video platform might use:
+	- ==Large Blobs== for video uploads
+	- ==Long-Running Tasks== for [[Transcoding]]
+	- ==Realtime Updates== for progress notifications
+	- ==Multi-Step Processes== to coordinate the entire workflow.
+
+the key is recognizing which patterns apply to your specific problem, and understanding their tradeoffs!
+- Start with simpler approaches (polling, single-server orchestration), and only add complexity when you have specific requirements demanding it.
+
+
+________________
+# Core Concepts Below
+
+____________________
+
+# Networking Essentials
 - 
 
 
 
 
 
+# API Design
+- 
 
+
+
+# Data Modeling
+- 
+
+
+
+# Caching
+- 
+
+
+
+# Sharding
+ - 
+
+
+
+# Distributed Hashing
+- 
+
+
+
+# CAP Theorem
+- 
 
 
 

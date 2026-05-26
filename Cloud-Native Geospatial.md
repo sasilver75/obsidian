@@ -139,7 +139,7 @@ For Data Orchestation
 There isn't a single solution for any of this: At E84 we do a lot of work for small satellite companies, etc.
 - There are a lot of solutions out there: [[Apache Airflow|Airflow]], [[Prefect]], and other generalized orchestration platforms.
 - Planetary Computer uses something called pctasks for ingestion, but it's really specific to planetary computer (though it's open-source)
-- At [[Element84 Earth Search|Element84]], they use something called Cirrus which is open-source, completely based on AWS, using [[AWS Step Functions]], [[Amazon DynamoDB|DynamoDB]], etc... it's what we use for indexing geospatial data on AWS.
+- At [[Element84 Earth Search|Element84]], they use something called Cirrus which is open-source, completely based on AWS, using [[Amazon Step Functions|AWS Step Functions]], [[Amazon DynamoDB|DynamoDB]], etc... it's what we use for indexing geospatial data on AWS.
 - [[STAC Workflow Open Orchestration Platform]] (SWOOP) is something they're working on , which is an orchestration platform they're working on... will expose an API using [[OGC API Processes]].
 
 ![[Pasted image 20260423170300.png]]

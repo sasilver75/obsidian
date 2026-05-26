@@ -1,4 +1,5 @@
 ---
 aliases:
   - AWS CloudFront
+  - CloudFront
 ---

@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "System Design in a Hurry - Supplemental Flashcard Review",
+      "path": "System Design in a Hurry - Supplemental Flashcard Review.md"
+    },
+    {
+      "basename": "System Design in a Hurry - Flashcard Review Draft",
+      "path": "System Design in a Hurry - Flashcard Review Draft.md"
+    },
+    {
+      "basename": "Inertial Measurement Unit",
+      "path": "Inertial Measurement Unit.md"
+    },
+    {
       "basename": "System Design in a Hurry",
       "path": "System Design in a Hurry.md"
     },
     {
-      "basename": "Service Token",
-      "path": "Service Token.md"
+      "basename": "Binary Tree",
+      "path": "Binary Tree.md"
     },
     {
-      "basename": "Pessimistic Concurrency Control",
-      "path": "Pessimistic Concurrency Control.md"
+      "basename": "Binary Search Tree",
+      "path": "Binary Search Tree.md"
+    },
+    {
+      "basename": "LSM Tree",
+      "path": "LSM Tree.md"
+    },
+    {
+      "basename": "Transcoding",
+      "path": "Transcoding.md"
+    },
+    {
+      "basename": "Cloud-Native Geospatial",
+      "path": "Cloud-Native Geospatial.md"
     },
     {
       "basename": "Pagination",
@@ -19,6 +43,18 @@
     {
       "basename": "Amazon CloudFront",
       "path": "Amazon CloudFront.md"
+    },
+    {
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
+      "basename": "Service Token",
+      "path": "Service Token.md"
+    },
+    {
+      "basename": "Pessimistic Concurrency Control",
+      "path": "Pessimistic Concurrency Control.md"
     },
     {
       "basename": "Write-Back Cache",
@@ -125,10 +161,6 @@
       "path": "Denied, Disrupted, Intermittent, Low-Bandwidth.md"
     },
     {
-      "basename": "Inertial Measurement Unit",
-      "path": "Inertial Measurement Unit.md"
-    },
-    {
       "basename": "Concept of Operations",
       "path": "Concept of Operations.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Quality Management System",
       "path": "Quality Management System.md"
-    },
-    {
-      "basename": "Overall Equipment Effectiveness",
-      "path": "Overall Equipment Effectiveness.md"
-    },
-    {
-      "basename": "Work in Process",
-      "path": "Work in Process.md"
-    },
-    {
-      "basename": "Bonding",
-      "path": "Bonding.md"
-    },
-    {
-      "basename": "Turning",
-      "path": "Turning.md"
-    },
-    {
-      "basename": "Transducer",
-      "path": "Transducer.md"
-    },
-    {
-      "basename": "Molding",
-      "path": "Molding.md"
-    },
-    {
-      "basename": "Casting",
-      "path": "Casting.md"
-    },
-    {
-      "basename": "Selective Laser Sintering",
-      "path": "Selective Laser Sintering.md"
     }
   ],
   "omittedPaths": [],

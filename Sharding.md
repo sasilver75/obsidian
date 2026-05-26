@@ -1,6 +1,10 @@
 ---
 aliases:
   - Shard
+  - Horizontal Sharding
+  - Vertical Sharding
+  - Horizontal Partitioning
+  - Vertical Partitioning
 ---
 
 When we have a database with too much write load, or if it's simply storing too much data, we need to split it across multiple computers/servers/hosts.
