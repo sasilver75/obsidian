@@ -4,131 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "258d178feaeefcac",
+        "id": "df05e53f4c4623b3",
         "type": "tabs",
         "children": [
           {
-            "id": "51d67e125b954860",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "High Efficiency Image Container.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "High Efficiency Image Container"
-            }
-          },
-          {
-            "id": "98bef7412e8dca67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Army Structure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Army Structure"
-            }
-          },
-          {
-            "id": "bece3b73d302b59c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unified Combatant Command.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Unified Combatant Command"
-            }
-          },
-          {
-            "id": "1183da51b7707a40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Army Structure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Army Structure"
-            }
-          },
-          {
-            "id": "8c5a8b2e541560e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fires.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fires"
-            }
-          },
-          {
-            "id": "475d38728d6a0c25",
+            "id": "4937234b6ac4a86e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,12 +32,12 @@
             }
           },
           {
-            "id": "0523113529423fee",
+            "id": "3a08741aa8f5faf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protection.md",
+                "file": "Bluetooth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Protection"
+              "title": "Bluetooth"
             }
           },
           {
-            "id": "778223f8ec84e9cf",
+            "id": "1efb6e677d021a6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Army Training and Doctrine Command.md",
+                "file": "Ultra High Frequency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Army Training and Doctrine Command"
+              "title": "Ultra High Frequency"
             }
           },
           {
-            "id": "4937234b6ac4a86e",
+            "id": "8ee7cb989c7de4c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S4 Officer.md",
+                "file": "Wardriving.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "S4 Officer"
+              "title": "Wardriving"
             }
           },
           {
-            "id": "713e8d7990daf7c5",
+            "id": "1529a5be977de264",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GCSS-Army.md",
+                "file": "Low Frequency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GCSS-Army"
+              "title": "Low Frequency"
             }
           },
           {
-            "id": "e7d088634800e196",
+            "id": "f560da8db9e854da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fire Team.md",
+                "file": "Extremely High Frequency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fire Team"
+              "title": "Extremely High Frequency"
             }
           },
           {
-            "id": "4aea9c5a0706c361",
+            "id": "d0ff065b9d9dbc44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Division.md",
+                "file": "Very Low Frequency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Division"
+              "title": "Very Low Frequency"
             }
           },
           {
-            "id": "2159d5b52bb0254f",
+            "id": "2504e4dbba5e4bc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brigade Combat Team.md",
+                "file": "Radio Spectrum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Brigade Combat Team"
+              "title": "Radio Spectrum"
             }
           },
           {
-            "id": "92cbf946924ae423",
+            "id": "486f621cc91d1dfd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brigade.md",
+                "file": "Extremely Low Frequency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Brigade"
+              "title": "Extremely Low Frequency"
             }
           },
           {
-            "id": "15ade59a7d1eda7b",
+            "id": "50d629f8f9c39fd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regiment.md",
+                "file": "Bluetooth Low Energy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Regiment"
+              "title": "Bluetooth Low Energy"
             }
           },
           {
-            "id": "5bb1b4787904a83d",
+            "id": "74a854ae41cc92b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Squadron.md",
+                "file": "Black, Red, Amber, Green.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,16 +268,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Squadron"
+              "title": "Black, Red, Amber, Green"
             }
           },
           {
-            "id": "32c947a2c05b3e4f",
+            "id": "6a33e29501409331",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Battalion.md",
+                "file": "Light Support Battalion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -412,16 +292,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Battalion"
+              "title": "Light Support Battalion"
             }
           },
           {
-            "id": "5191dde070b457af",
+            "id": "66607283e0ecf255",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Battery (Echelon).md",
+                "file": "Synchronization Matrix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,16 +316,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Battery (Echelon)"
+              "title": "Synchronization Matrix"
             }
           },
           {
-            "id": "bddb406c737559c3",
+            "id": "7629e31801a047b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company.md",
+                "file": "Tactics, Techniques, and Procedure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,16 +340,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Company"
+              "title": "Tactics, Techniques, and Procedure"
             }
           },
           {
-            "id": "0d2ee7ee66dcb9f2",
+            "id": "27f17fc6c3636976",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Platoon.md",
+                "file": "Combat Logistics Company.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,16 +364,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Platoon"
+              "title": "Combat Logistics Company"
             }
           },
           {
-            "id": "d864be4180cde9ce",
+            "id": "d1284ca40217b363",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section.md",
+                "file": "Fleet Logistics Center.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,16 +388,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Section"
+              "title": "Fleet Logistics Center"
             }
           },
           {
-            "id": "8b2382c54b995885",
+            "id": "fdcbf3a59166b74b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Squad.md",
+                "file": "After-Action Review.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,16 +412,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Squad"
+              "title": "After-Action Review"
             }
           },
           {
-            "id": "8e52e9dc83eb9290",
+            "id": "9dddfd2ab6d563e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQuAD (Dataset).md",
+                "file": "Combat Sustainment Support Battalion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,16 +436,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQuAD (Dataset)"
+              "title": "Combat Sustainment Support Battalion"
             }
           },
           {
-            "id": "4084e548e92e7500",
+            "id": "601aeb568ac85205",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brigade.md",
+                "file": "Joint Readiness Training Center.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,11 +460,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Brigade"
+              "title": "Joint Readiness Training Center"
+            }
+          },
+          {
+            "id": "cf3c3f6d6fcf0184",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Large Scale Combat Operations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Large Scale Combat Operations"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -616,7 +520,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "FM 3-0",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2444,36 +2348,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4937234b6ac4a86e",
+  "active": "2504e4dbba5e4bc3",
   "lastOpenFiles": [
-    "GCSS-Army.md",
-    "S4 Officer.md",
-    "Fires.md",
-    "Maneuver.md",
-    "Logistics (Index).md",
-    "US Army Big Five.md",
-    "Anti-Access Area Denial.md",
-    "United States Army Futures Command.md",
-    "ISO Container.md",
-    "HIPPO.md",
-    "Targeting.md",
-    "Sustainment.md",
+    "Extremely Low Frequency.md",
+    "Radio Spectrum.md",
+    "Bluetooth Low Energy.md",
+    "Very Low Frequency.md",
+    "Extremely High Frequency.md",
+    "Medium Frequency.md",
+    "Low Frequency.md",
+    "Wardriving.md",
+    "Ultra High Frequency.md",
+    "Meshtastic.md",
+    "Bluetooth.md",
     "Warfighting Function.md",
-    "Protection.md",
-    "Water Buffalo.md",
-    "Maneuver Short-Range Air Defense.md",
-    "Army Structure.md",
-    "Army Transformation Initiative.md",
-    "Cycle Time.md",
-    "United States Army Training and Doctrine Command.md",
+    "OODA Loop.md",
+    "Intelligence.md",
+    "Logistics Package.md",
+    "Human Intelligence.md",
+    "Open-Source Intelligence.md",
+    "Signals Intelligence.md",
+    "Communications Intelligence.md",
+    "Electronic Intelligence.md",
+    "Foreign Instrumentation Signals Intelligence.md",
+    "Telemetry Intelligence.md",
+    "Measurement and Signature Intelligence.md",
+    "Geospatial Intelligence.md",
+    "Black, Red, Amber, Green.md",
+    "S4 Officer.md",
+    "_attachments/Pasted image 20260526104540.png",
     "_attachments/Pasted image 20260526010217.png",
     "_attachments/Pasted image 20260526010139.png",
-    "Maneuver Warfare.md",
-    "Intelligence.md",
-    "Command and Control.md",
-    "Movement and Maneuver.md",
-    "Multi-Domain Operations.md",
-    "HiPPO.md",
     "_attachments/Pasted image 20260526003120.png",
     "_attachments/Pasted image 20260525235005.png",
     "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
@@ -2484,7 +2389,6 @@
     "_attachments/Pasted image 20260525110016.png",
     "_attachments/Pasted image 20260525104917.png",
     "_attachments/Pasted image 20260525104302.png",
-    "_attachments/Pasted image 20260524231334.png",
     "GPS",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",

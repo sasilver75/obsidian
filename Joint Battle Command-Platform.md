@@ -17,18 +17,11 @@ Think of it as a rugged battlefield map, tracker, and messaging system.
 > Joint Battle Command-Platform [Blog Post](https://www.army.mil/article/168123/joint_battle_command_platform) (June 2018)
 
 
-__________________
 
-A U.S. Army tactical mission-command and friendly-force tracking system.
-- The Army's digital "see and communicate across the battlefield" system, descended from FBCB2/Blue Force Tracking.
-
-Gives soldiers and commanders a shared digital battlefield picture, including:
-- Unit locations
-- maps
-- overlays
-- messages
-- reports
-- situational-awareness data
+![[Pasted image 20260526104540.png]]
+- A network battle command information system enabling units to share near real-time friendly and enemy situational awareness information, operational maps and graphics, and command and control ([[Command and Control|C2]]) messages.
+- Used by the Army, Marine Corps, and SOF
+- 
 
 
 

@@ -3,6 +3,7 @@ aliases:
   - Synch Matrix
   - 5-0 Synch Matrix
   - Dynamic Synchronization Matrix
+  - SYNCMAT
 ---
 A visual planning tool commonly used in military operations and emergency management that aligns actions, forces, and resources over time and space.
 

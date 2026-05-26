@@ -2,8 +2,6 @@
 aliases:
   - Echelon
 ---
-
-
 - [[Fire Team]]
   - Rough size: 4-5 soldiers
   - Usually led by: sergeant or corporal

@@ -3,9 +3,14 @@ aliases:
   - FSC
   - Forward Support Companies
 ---
+cf. [[Brigade Support Battalion]] (BSB)
+
+
+___________
+
 ![[Pasted image 20260517215129.png]]
 
-In a [[Maneuver Unit]] (infantry, armor), the lowest level sustainment unit that supports the battalion.
+In a [[Maneuver Unit]] (infantry, armor), the ==lowest level sustainment unit that supports the battalion==.
 - The first multifunctional sustainment unit, in the sense that it's a unit with different types of logistics units in it, rather than a specialized single-function unit like apetroleum support company focused solely on fuel. 
 
 ![[Pasted image 20260517215155.png]]

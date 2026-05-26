@@ -60,7 +60,7 @@ Host:
 	- So are we doing it as:
 		- Raw Number
 		- Green/Amber/Red
-- The [[Battle Rythym]] matters: We often have two Battle Rhythm events of [[Logistics Status|LOGSTAT]] submissions: One early in the morning, and one late in the afternoon, which feeds our [[Logistics Synchronization|LOGSYNC]] one-time meeting. Two inputs for one output. 
+- The [[Battle Rhythm]] matters: We often have two Battle Rhythm events of [[Logistics Status|LOGSTAT]] submissions: One early in the morning, and one late in the afternoon, which feeds our [[Logistics Synchronization|LOGSYNC]] one-time meeting. Two inputs for one output. 
 	- You're looking at these in iterations to determine the frequency of upcoming consumption and where you're at inside the resupply window.
 - On using [[Days of Supply]] (Doss) as a measure of supply: "I have two Doss." 
 	- ==Using [[Days of Supply|DoS]] gives someone a false sense of confidence that they know what they're talking about.==
@@ -70,7 +70,19 @@ Host:
 	- If you're going to use DoS, be able to make a concrete argument for why you're talking that way. If you're talking about water, for instance, that might be okay. But what does two doss of [[Class of Supply|Class IV]] mean (Construction materials)?
 
 
+How LOGSTATs feed [[Logistics Synchronization|LOGSYNC]]
+- So we do the LOGSTATs twice a day... because I can't predict when the attack is going to happen, or when we're going to receive contact if we're doing movement to contact... Lets me know that ever 12 hours I'm going to receive updated data. We don't know when the enemy is going to attack, etc.
+	- AM, PM LOGSTAT
+- Between the two, in a 24 hour period, you can look at the consumption rate.
+- If you're sitting in the TOC and haven't received contact at all across the brigade, your [[Class of Supply|Class V]] (ammunition) probably isn't changing much. If everyone is hooting and hollering about killing Class V all day, but the LOGSTATs you're receiving don't show change in Class V:
+	- It's either a lazy LOGSTAT and they didn't report truthfully
+	- Or they had additional rounds on hand that they weren't telling us about
 
+At the [[Logistics Synchronization|LOGSYNC]], the Battalion XOs are attending, telling me what upcoming operations they're going to participate in, and I'm doing parallel/concurrent planning against the Brigade order at the [[Brigade Support Battalion]] (BSB) level, and I'm forecasting forwards and confirming those forecasts in the LOGSYNC... where are we going to resupply and when, at what locations? I'm communicating with maneuver, and that is the trusted discussion. Having both the [[Forward Support Company]] (FSC) do an ack, and the Battalion XO doing an ack. If there is a deviation in synchronization across echelons that affects when I saw we're going to resupply you, I immediately come on the horn and tell you.
+
+There's also a dialogue in the LOGSYNC about the LOGSTATs
+
+Oftentimes Maneuver S4s weren't geetting the information they needed, and they'd have to submit a generic LOGSTAT: "Each unit is going to consume the exact same amount!" and I'd be like "Really?... I need you to put in analysis and tell me, based on weighted effort, who needs what, when, so that we can communicate this to [[Forward Support Company|FSC]]s..."
 
 
 

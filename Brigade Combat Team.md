@@ -5,6 +5,14 @@ aliases:
   - IBCT
   - Mobile Brigade Combat Team
   - MBCT
+  - Stryker Brigade Combat Team
+  - SBCT
+  - Armored Brigade Combat Team
+  - ABCT
+  - Infantry BCT
+  - Mobile BCT
+  - Stryker BCT
+  - Armored BCT
 ---
 
 
