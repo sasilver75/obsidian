@@ -23,7 +23,6 @@ To prevent interference between users, the generation and transmission of radio 
 - [[Tremendously High Frequency]]
 
 
-
 # ITU Radio Bands Descriptions
 - [[Extremely Low Frequency]] (ELF): ITU Band 1
 	- Frequency:  3-30 Hz
@@ -60,16 +59,16 @@ To prevent interference between users, the generation and transmission of radio 
 - [[Ultra High Frequency]] (UHF): ITU Band 9
 	- Frequency: 300-3,000 MHz
 	- Wavelength: 100-10cm
-	- Use Cases: Television broadcasts, cable television broadcasting, microwave oven, radars, radio astronomy, [[Synthetic Aperture Radar|L-Band]] radar, mobile phones, wireless LAN, [[Bluetooth]], Zigbee, [[Global Positioning System|GPS]], emergency locator beacons, FRS/GMRS radios, amateur radio, satellite radio, remote control systems, cordless phones, internet, dial-up internet, satellite broadcasting, communication satellites, weather satellites, satellite phones (L band, S band).
+	- Use Cases: Television broadcasts, cable television broadcasting, microwave oven, radars, radio astronomy, L band radar, mobile phones, wireless LAN, [[Bluetooth]], Zigbee, [[Global Positioning System|GPS]], emergency locator beacons, FRS/GMRS radios, amateur radio, satellite radio, remote control systems, cordless phones, internet, dial-up internet, satellite broadcasting, communication satellites, weather satellites, satellite phones (L band, S band).
 - [[Super High Frequency]] (SHF): ITU Band 10 
 	- Frequency: 3-30 GHz
 	- Wavelength: 10-1 cm
 	- Use Cases: Radio astronomy, microwave devices/comms, wireless LAN, most modern radars, cable and satellite TV broadcasting, amateur radio, satellite broadcasting, communication satellites, weather satellites, satellite radio, cordless phone, internet, satellite phones (S band)
 - [[Extremely High Frequency]] (EHF): ITU Band 11
-	- Frequency: 
-	- Wavelength: 
-	- Use Cases: 
+	- Frequency: 30-300 Ghz
+	- Wavelength: 10-1 mm
+	- Use Cases: Radio astronomy, satellite broadcasting, communication satellites, weather satellites, high-frequency microwave radio relay, microwave remote sensing, directed energy weapons, millimeter wave scanners, internet.
 - [[Tremendously High Frequency]] (THF): ITU Band 12
-	- Frequency: 
-	- Wavelength: 
-	- Use Cases: 
+	- Frequency: 300-3,000 GHz
+	- Wavelength: 1-0.1 mm
+	- Use Cases: Experimental medical imaging to replace X-rays, ultrafast molecular dynamics, condensed-matter physics, terahertz time-domain spectroscopy, terahertz computing/communications, remote sensing.

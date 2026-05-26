@@ -176,30 +176,6 @@
             }
           },
           {
-            "id": "2504e4dbba5e4bc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Radio Spectrum.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Radio Spectrum"
-            }
-          },
-          {
             "id": "486f621cc91d1dfd",
             "type": "leaf",
             "state": {
@@ -2348,10 +2324,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2504e4dbba5e4bc3",
+  "active": "486f621cc91d1dfd",
   "lastOpenFiles": [
-    "Extremely Low Frequency.md",
     "Radio Spectrum.md",
+    "Extremely Low Frequency.md",
     "Bluetooth Low Energy.md",
     "Very Low Frequency.md",
     "Extremely High Frequency.md",
