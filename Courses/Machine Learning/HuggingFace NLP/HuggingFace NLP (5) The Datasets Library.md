@@ -16,7 +16,7 @@ load_dataset("csv", data_files="my_file.csv")
 load_dataset("pandas", data_files="my_dataframe.pkl")  # etc
 ```
 
-Let's look at the [[SQuAD]]-it dataset, which is a large-scale dataset for QA in italian.
+Let's look at the [[SQuAD (Dataset)]]-it dataset, which is a large-scale dataset for QA in italian.
 The training and test splits are hosted on Github, so we can download them all with a `wget` command
 - `wget` is a linux utility used for retrieving files using HTTP/HTTPS/FTP/FTPS
 

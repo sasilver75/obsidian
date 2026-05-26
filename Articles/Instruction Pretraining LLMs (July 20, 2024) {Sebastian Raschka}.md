@@ -45,7 +45,7 @@ Furthermore, the paper contains an analysis showing that the ==breadth or divers
 
 For an instruction synthesizer, they use a [[Mistral 7B]] v0.1 LLM finetuned to generate instruction-response pairs from raw text.
 
-To finetune this synthesizer, the researchers use datasets like [[HotpotQA]], (also RACE and [[SQuAD]]) which consists of passages from Wikipedia associated with questions and answers.
+To finetune this synthesizer, the researchers use datasets like [[HotpotQA]], (also RACE and [[SQuAD (Dataset)]]) which consists of passages from Wikipedia associated with questions and answers.
 
 ![[Pasted image 20240723130013.png]]
 ((Above: Note that we're generating both the instruction and response; not sure if this differs from [[Genstruct]]))

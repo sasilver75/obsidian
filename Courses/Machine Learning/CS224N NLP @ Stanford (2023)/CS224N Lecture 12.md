@@ -48,7 +48,7 @@ Given a question
 Rephrasing difficult problems as a reading comprehension problem (perhaps breaking them down into some sort of CoT type thing)
 
 ![[Pasted image 20240411210156.png]]
-[[SQuAD]]: Stanford Question Answering Dataset (2016)
+[[SQuAD (Dataset)]]: Stanford Question Answering Dataset (2016)
 - 100k annotated (passage, question, answer) triplets!
 	- Important: Answers are a short of text in the passage. ==This is a limitation! NOT all questions can be answered this way!==
 

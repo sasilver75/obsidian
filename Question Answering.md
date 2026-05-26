@@ -19,7 +19,7 @@ Variants:
 - [[Multimodal]] QA: Passages/Documents include non-text elements
 
 Relevant datasets and benchmarks include:
-- [[SQuAD]]
+- [[SQuAD (Dataset)]]
 - [[Natural Questions]]
 - TriviaQA
 - [[HotpotQA]]

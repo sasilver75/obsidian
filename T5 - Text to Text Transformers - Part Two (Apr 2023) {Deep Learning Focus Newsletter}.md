@@ -45,7 +45,7 @@ The question was answered by analysis performed with the unified [[T5|Text-to-Te
 		- Benchmarks include many tasks, like sentence acceptability judgement, sentiment analysis, paraphrasing, sentence similarity, natural language inference (NLI), coreference resolution, sentence completion, word sense disambiguation, and question answering.
 	- CNN + Daily Mail Abstractive Summarization
 		- Pairs news articles with a short, summarized sequence of text that captures the main highlights of the article.
-	- [[SQuAD]]: A question-answering dataset on Wikipedia articles, where the answer to each question is a segment of text from the related article.
+	- [[SQuAD (Dataset)]]: A question-answering dataset on Wikipedia articles, where the answer to each question is a segment of text from the related article.
 	- Several translation datasets
 
 

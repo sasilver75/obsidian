@@ -32,7 +32,7 @@ Notes
 	- For the selection of *positive* passages for datasets that only provide the question and *answer*, they use the highest-ranked passage from BM25 that contains the answer as a positive passage.
 - The loss function is the negative log likelihood of the positive passage.
 	- ![[Pasted image 20240501155253.png|200]]
-- The question-answering datasets that they used for experiments include [[Natural Questions]], TriviaQA, WebQuestions, CuratedTREC, and [[SQuAD]].
+- The question-answering datasets that they used for experiments include [[Natural Questions]], TriviaQA, WebQuestions, CuratedTREC, and [[SQuAD (Dataset)]].
 
 
 

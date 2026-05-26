@@ -1042,6 +1042,26 @@ ____________________
 
 
 
+_____________
+# VIDEO BELOW
+_______________________
+
+[Networking Essentials for System Design Interviews w/ Ex Meta Senior Manager](https://youtu.be/SHkbPm1Wrno)
+
+
+Networking is thought of as a layered cake where at the top are application-layer protocols like [[HTTP]] and [[WebSockets|WebSocket]]s, and at the bottom are physical layer segments like wires in a network
+
+
+Each layer is an abstraction that lets you think of the things that are important to you; they layers build on eachother and add features/functionality that you need.
+
+![[Pasted image 20260525182457.png]]
+Above:
+- [[Network Layer]]: Protocols like [[Internet Protocol|IP]] and [[Infiniband]] live here.
+- [[Transport Layer]]: Protocols like [[Transport Control Protocol|TCP]] and [[User Datagram Protocol|UDP]] live here, providing some additional functionality on top of IP such as guaranteed ordering and reliable delivery.
+- [[Application Layer]]: Protocols like [[HTTP]] and [[WebSockets|WebSocket]]s live here; things that are useful as a developer, and important as we navigate tradeoffs about how our system functions, and what capabilities it has.
+
+
+
 
 
 

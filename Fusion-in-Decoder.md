@@ -20,7 +20,7 @@ Notes:
 	- Passage Retrieval
 		- Initially, sparse representations based on [[TF-IDF]] were used to retrieve supporting documents. Later, recent works show that retrieval based entirely on dense representations and approximate nearest neighbors were competitive with traditional approaches.
 	- Generative Question Answering
-		- Generate models are competitive for reading comprehension tasks like [[SQuAD]] where answers are spans. Since 2020, we've used large pretrained generative models combined with retrieval-augmented generative models.
+		- Generate models are competitive for reading comprehension tasks like [[SQuAD (Dataset)]] where answers are spans. Since 2020, we've used large pretrained generative models combined with retrieval-augmented generative models.
 - FiD Method
 	- Retrieval
 		- Authors consider two methods: [[BM25]] and [[Dense Passage Retrieval|DPR]].

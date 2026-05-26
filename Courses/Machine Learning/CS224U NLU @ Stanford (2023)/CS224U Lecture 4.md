@@ -25,7 +25,7 @@ See above that the relationship between the query and document above is entirely
 Also, IR is revolutionizing NLP (as well!)
 - Standard QA
 	- Given a Title and a Context passage and a Question, the task is to answer the Question, but the Answer is guaranteed to be a literal substring of the entire passage.
-	- [[SQuAD]] 
+	- [[SQuAD (Dataset)]] 
 	- ![[Pasted image 20240425204447.png|250]]
 	- This used to be a hard problem, but has grown quite easy, and is even disconnected from actual things that we want to do with question-answering in the world (we rarely have this substring guarantee)
 - Open QA

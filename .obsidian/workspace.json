@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7dfdcfb9d3907e10",
+        "id": "258d178feaeefcac",
         "type": "tabs",
         "children": [
           {
-            "id": "24c9b50a33a28e73",
+            "id": "51d67e125b954860",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design in a Hurry - Supplemental Flashcard Review.md",
+                "file": "High Efficiency Image Container.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry - Supplemental Flashcard Review"
+              "title": "High Efficiency Image Container"
             }
           },
           {
-            "id": "3db44f4db41da0d2",
+            "id": "98bef7412e8dca67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binary Tree.md",
+                "file": "Army Structure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Binary Tree"
+              "title": "Army Structure"
             }
           },
           {
-            "id": "c666b4cdb176fbc0",
+            "id": "bece3b73d302b59c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binary Search Tree.md",
+                "file": "Unified Combatant Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Binary Search Tree"
+              "title": "Unified Combatant Command"
             }
           },
           {
-            "id": "a66019c9fed5cf0c",
+            "id": "1183da51b7707a40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LSM Tree.md",
+                "file": "Army Structure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LSM Tree"
+              "title": "Army Structure"
             }
           },
           {
-            "id": "0b5b4e5c73d32bb4",
+            "id": "8c5a8b2e541560e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transcoding.md",
+                "file": "Fires.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Transcoding"
+              "title": "Fires"
             }
           },
           {
-            "id": "d61d24acca88c69c",
+            "id": "475d38728d6a0c25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon CloudFront.md",
+                "file": "Warfighting Function.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Amazon CloudFront"
+              "title": "Warfighting Function"
             }
           },
           {
-            "id": "619aebf881b2748e",
+            "id": "0523113529423fee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sharding.md",
+                "file": "Protection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sharding"
+              "title": "Protection"
             }
           },
           {
-            "id": "9508d49c89f48e4e",
+            "id": "778223f8ec84e9cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sharding.md",
+                "file": "United States Army Training and Doctrine Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sharding"
+              "title": "United States Army Training and Doctrine Command"
             }
           },
           {
-            "id": "9e6cd6d5033d6a44",
+            "id": "53d98b0d3f52b220",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pessimistic Concurrency Control.md",
+                "file": "United States Army Training and Doctrine Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pessimistic Concurrency Control"
+              "title": "United States Army Training and Doctrine Command"
             }
           },
           {
-            "id": "11653e62e88d6b73",
+            "id": "a993ff3d26b67b42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon CloudFront.md",
+                "file": "United States Army Futures Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Amazon CloudFront"
+              "title": "United States Army Futures Command"
             }
           },
           {
-            "id": "b42919cb7b486963",
+            "id": "3ff6e7ca7983c730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Least Recently Used.md",
+                "file": "Army Transformation Initiative.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,16 +268,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Least Recently Used"
+              "title": "Army Transformation Initiative"
             }
           },
           {
-            "id": "08411017414bf65a",
+            "id": "f7208bf876c79e99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Least Frequently Used.md",
+                "file": "United States Army Futures Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,16 +292,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Least Frequently Used"
+              "title": "United States Army Futures Command"
             }
           },
           {
-            "id": "12befed559cd66c3",
+            "id": "df9c716b48f2d82d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache ZooKeeper.md",
+                "file": "Anti-Access Area Denial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,16 +316,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache ZooKeeper"
+              "title": "Anti-Access Area Denial"
             }
           },
           {
-            "id": "31495809928d13ed",
+            "id": "5b3f2477e559f27c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Message Queueing Protocol.md",
+                "file": "US Army Big Five.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,16 +340,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Advanced Message Queueing Protocol"
+              "title": "US Army Big Five"
             }
           },
           {
-            "id": "346e1e95fea23ccd",
+            "id": "d9e53b175d655aff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Google Cloud Load Balancing.md",
+                "file": "Logistics (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,16 +364,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Google Cloud Load Balancing"
+              "title": "Logistics (Index)"
             }
           },
           {
-            "id": "505283db4377863f",
+            "id": "b8afacb5830d160a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomicity.md",
+                "file": "Maneuver.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,16 +388,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Atomicity"
+              "title": "Maneuver"
             }
           },
           {
-            "id": "8c4de92bf760b42e",
+            "id": "9d4b76ac1f623626",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Relational Database.md",
+                "file": "Fires.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -412,16 +412,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Relational Database"
+              "title": "Fires"
             }
           },
           {
-            "id": "f469a8a0c3f2294e",
+            "id": "4937234b6ac4a86e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solid State Disk.md",
+                "file": "S4 Officer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,16 +436,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Solid State Disk"
+              "title": "S4 Officer"
             }
           },
           {
-            "id": "dcc62bb7d668fbda",
+            "id": "e7d088634800e196",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Non-Volatile Memory.md",
+                "file": "Fire Team.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,16 +460,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Non-Volatile Memory"
+              "title": "Fire Team"
             }
           },
           {
-            "id": "d0bada0ee4a135fd",
+            "id": "4aea9c5a0706c361",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Division.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,16 +484,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cache"
+              "title": "Division"
             }
           },
           {
-            "id": "599c218b3b3649be",
+            "id": "2159d5b52bb0254f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverted File Index.md",
+                "file": "Brigade Combat Team.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,16 +508,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inverted File Index"
+              "title": "Brigade Combat Team"
             }
           },
           {
-            "id": "fe14e8562b6df773",
+            "id": "92cbf946924ae423",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pagination.md",
+                "file": "Brigade.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,10 +532,251 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pagination"
+              "title": "Brigade"
+            }
+          },
+          {
+            "id": "15ade59a7d1eda7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Regiment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Regiment"
+            }
+          },
+          {
+            "id": "5bb1b4787904a83d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Squadron.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Squadron"
+            }
+          },
+          {
+            "id": "32c947a2c05b3e4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Battalion.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Battalion"
+            }
+          },
+          {
+            "id": "5191dde070b457af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Battery (Echelon).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Battery (Echelon)"
+            }
+          },
+          {
+            "id": "bddb406c737559c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Company.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Company"
+            }
+          },
+          {
+            "id": "0d2ee7ee66dcb9f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Platoon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Platoon"
+            }
+          },
+          {
+            "id": "d864be4180cde9ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Section"
+            }
+          },
+          {
+            "id": "8b2382c54b995885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Squad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Squad"
+            }
+          },
+          {
+            "id": "8e52e9dc83eb9290",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQuAD (Dataset).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQuAD (Dataset)"
+            }
+          },
+          {
+            "id": "4084e548e92e7500",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brigade.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Brigade"
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -598,7 +839,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2317,12 +2559,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "41aa98bb10348996",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 168
+        "currentTab": 169
       },
       {
         "id": "8a022290161ffefa",
@@ -2384,52 +2636,53 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "24c9b50a33a28e73",
+  "active": "3ff6e7ca7983c730",
   "lastOpenFiles": [
-    "System Design in a Hurry - Flashcard Review Draft.md",
+    "Army Transformation Initiative.md",
+    "United States Army Futures Command.md",
+    "United States Army Training and Doctrine Command.md",
+    "Anti-Access Area Denial.md",
+    "US Army Big Five.md",
+    "Sustainment.md",
+    "Protection.md",
+    "Army Structure.md",
+    "Warfighting Function.md",
+    "Logistics (Index).md",
+    "Intelligence.md",
+    "Logistics Support Area.md",
+    "Maneuver.md",
+    "Fires.md",
+    "S4 Officer.md",
+    "Unified Combatant Command.md",
+    "Theater Army.md",
+    "Army Echelons.md",
+    "_attachments/Pasted image 20260525235005.png",
+    "Large Scale Ground Combat.md",
+    "Counter-Insurgency.md",
+    "Brigade Combat Team.md",
+    "Culminating Point.md",
+    "High Efficiency Image Container.md",
+    "Class of Supply.md",
+    "Logistics Status.md",
+    "PACE Plan.md",
+    "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
+    "_attachments/Pasted image 20260525182457.png",
     "System Design in a Hurry - Anki Supplemental Basic.tsv",
-    "System Design in a Hurry - Supplemental Flashcard Review.md",
     "System Design in a Hurry - Anki Basic.tsv",
-    "Inertial Measurement Unit.md",
-    "System Design in a Hurry.md",
-    "Binary Tree.md",
-    "Binary Search Tree.md",
-    "LSM Tree.md",
-    "Transcoding.md",
     "_attachments/Pasted image 20260525111240.png",
-    "Cloud-Native Geospatial.md",
-    "Pagination.md",
-    "AWS Step Functions.md",
-    "Amazon CloudFront.md",
     "_attachments/Pasted image 20260525110016.png",
     "_attachments/Pasted image 20260525104917.png",
-    "Sharding.md",
     "_attachments/Pasted image 20260525104302.png",
-    "Service Token.md",
-    "Pessimistic Concurrency Control.md",
     "_attachments/Pasted image 20260524231334.png",
     "_attachments/Pasted image 20260524230832.png",
     "_attachments/Pasted image 20260524230433.png",
-    "Write-Back Cache.md",
-    "Least Recently Used.md",
-    "Untitled.md",
-    "Least Frequently Used.md",
-    "Redlock Algorithm.md",
-    "Apache ZooKeeper.md",
-    "Advanced Message Queueing Protocol.md",
-    "Amazon SQS.md",
     "_attachments/Pasted image 20260524210040.png",
-    "Google Cloud Load Balancing.md",
-    "Transport Layer.md",
-    "_attachments/Pasted image 20260524202329.png",
-    "_attachments/Pasted image 20260524195923.png",
     "GPS",
     "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
     "Courses/SoftwareEngineering/Docker The Hands-On Way",
     "Courses/SoftwareEngineering",
     "HTTP",
     "geospatial-slideshow.html",
-    "Papers/Earth Observation",
-    "recent-notes.txt"
+    "Papers/Earth Observation"
   ]
 }
