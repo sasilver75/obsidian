@@ -12,3 +12,12 @@ Five major weapon systems developed and fielded in the late 1970s and 1980s that
 Conceived post-Vietnam to counter Soviet technological advantages in Europe, these systems defined modern ground warfare and the "[[United States Army Training and Doctrine Command|AirLand Battle]]" doctrine from [[United States Army Training and Doctrine Command|TRADOC]].
 
 
+
+The Army's version of this today, if probably something like:
+- M10 Booker
+- M1A3 Abrams Tank
+- [[Maneuver Short-Range Air Defense|MSHORAD]] Stryker
+- Typhoon Missile Launcher
+- Precision Strike Missile
+- Bell V-280 Valor
+- New drone transportation and loitering drone munitions like the Switchblade
