@@ -34,7 +34,7 @@ Internet
 ## Modern Blurring
 - Some Cloud [[Web Application Firewall|WAF]]s bundle DDoS protection, bot arrangement, rate limiting, and geo-blocking, which are features that overlap with traditional firewalls and load balancers.
 - [[Next-Generation Firewall]]s (NGFWs) like Palo Alto, Fortinet can do [[Application Layer|L7]] inspection themselves, they can decrypt TLS and inspect HTTP. Conceptually they're [[Network Firewall]]s + [[Web Application Firewall|WAF]]s + IDS (Intrusion Detection Systems) in a box.
-- [[API Gateway]]s ([[Kong]], [[Apigee]])  do WAF-adjacent things (auth, rate limiting, schema validation) for API traffic specifically.
+- [[API Gateway]]s ([[Kong]], [[Apigee (GCP Managed Gateway)]])  do WAF-adjacent things (auth, rate limiting, schema validation) for API traffic specifically.
 - [[Service Mesh]]es ([[Istio]], [[Linkerd]]) also push some of this: [[Mutual TLS|mTLS]], [[Rate Limiting]], Policy, down into the cluster.
 
 

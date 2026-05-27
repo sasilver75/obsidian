@@ -542,7 +542,7 @@ Things you should know about search-optimized databases:
 The most common API Gateways are:
 - [[AWS API Gateway]]
 - [[Kong]]
-- [[Apigee]]
+- [[Apigee (GCP Managed Gateway)]]
 
 
 ________

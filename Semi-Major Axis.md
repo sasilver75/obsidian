@@ -1,0 +1,1 @@
+An [[Orbital Elements|Orbital Element]], part of a set of parameters describing the orbit of an object around a central body.
