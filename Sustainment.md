@@ -3,8 +3,13 @@ aliases:
   - Logistics
 ---
 A [[Warfighting Function]]
-
 The related tasks and systems that provide support and services to ensure freedom of action, extend operational reach, and endurance. Includes logistics, personnel services, and health service support.
+
+Note: [[Sustainment|Logistics]] is mainly supply, maintenance, transportation, fuel, ammo, field services, and distribution, while [[Sustainment]] is the broader logistics plus personnel services, financial management, and health service support.
+
+See [[Logistics (Index)]]
+
+
 
 
 # Notes
@@ -31,7 +36,17 @@ The related tasks and systems that provide support and services to ensure freedo
 - ==Why==: Aligns the sustainment effort with the commander's intent/maneuver plan. Answers WHY the supply is critical to enabling the overarching mission.
 
 
-See [[Logistics (Index)]]
+
+# How the [[Front Line of Troops|FLOT]] is Sustained
+
+- [[Company]] trains/Combat train
+- [[Battalion]]'s [[Forward Support Company]] (FSC) and [[Combat Trains Command Post]] (CTCP)
+- [[Brigade]]'s [[Brigade Support Area]] and [[Brigade Support Battalion]] (BSB)
+- [[Division]]'s [[Division Support Area]] and [[Division Sustainment Brigade]] (DSB) + [[Division Sustainment Support Battalion]] (DSSB)
+- [[Corps]]'s sustainment command or [[Expeditionary Sustainment Command]] (ESC)
+- [[Theater]]'s [[Theater Sustainment Command]] (TSC)
+- Theater ports, depots, and prepositioned stocks
+- [[Defense Logistics Agency]], [[Army Materiel Command]], [[Transportation Command|USTRANSCOM]], Industrial base
 
 
 ___________

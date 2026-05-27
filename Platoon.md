@@ -1,4 +1,4 @@
-In the U.S. Army, a platoon is a small tactical unit made up of several [[Squad]]s or sections, typically 20-50 soldiers led by a second lieutenant (O-1) or first lieutenant (O-2), along with a SFC (E-7) platoon sergeant.
+In the U.S. Army, a platoon is a small tactical unit made up of several (~4) [[Squad]]s, typically 20-50 soldiers led by a second lieutenant (O-1) or first lieutenant (O-2), along with a SFC (E-7) platoon sergeant.
 
 Its subordinate elements are [[Squad]]s and (indirectly) [[Fire Team]]s, while its higher unit is a [[Company]], [[Battery (Echelon)|Battery]], or [[Troop]].
 

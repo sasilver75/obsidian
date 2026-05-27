@@ -2,6 +2,8 @@
 aliases:
   - MDO
   - Multidomain Operations
+  - Multi-Domain
+  - Multidomain
 ---
 See also: [[FM 3-0]]
 

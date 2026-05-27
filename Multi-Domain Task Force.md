@@ -2,8 +2,8 @@
 aliases:
   - MDTF
 ---
-
 A theater-level US army formation built to make [[Multi-Domain Operations]] real.
+- It's roughly [[Brigade]]-level in size/organization, but is employed as a [[Theater]]-level formation.
 
 Its job is to combine long-range fires, intelligence, cyber, [[Electronic Warfare]], space capabilities, sensors, information effects, air/missile defense, and [[Sustainment]] so that the Army can help the joint force operate in a contested area. A [[Multi-Domain Task Force|MDTF]] is not a normal infantry or armor brigade, it's more like a joint-enabling *maneuver and targeting* formation. It creates openings for the joint force by synchronizing kinetic strikes and non-kinetic effects across land/air/maritime/sea/cyberspace.
 

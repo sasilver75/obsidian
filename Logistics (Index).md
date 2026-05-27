@@ -1,13 +1,5 @@
 
 
-## The 5 Ls of Logistics
-- [[Logistics Status|LOGSTAT]]
-- [[Logistics Synchronization|LOGSYNC]]
-- [[LOGSYNC Matrix]]
-- [[Logistics Common Operating Picture|LOGCOP]]
-- [[Logistics Package|LOGPAC]]
-
-
 - [[Course of Action]]
 - [[Logistics Status]] (LOGSTAT)
 - [[Logistics Package]] (LOGPAC)

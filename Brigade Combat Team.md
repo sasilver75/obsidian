@@ -17,7 +17,7 @@ aliases:
 
 
 The BCT was the basic deployable unit of maneuver in the US Army from 2011-2016.
-- Consisted of one combat arms branch maneuver brigade and its assigned support and fire units.
+- Consist of one combat arms branch maneuver brigade and its assigned support and fire units.
 - The US Army was structured around these BCTs, which were intended to be able to stand on their own, like a miniature [[Division]].
 
 There were originally three types of Brigade Combat Teams:
@@ -31,8 +31,10 @@ There were originally three types of Brigade Combat Teams:
 That is, until mid-2026, when the fourth variant, the ==Mobile Brigade Combat Team (MBCT)== was introduced, following the change of character of war in Ukraine.
 - Will feature the M1301 Infantry Squad Vehicle (ISV), based on the Chevy Colorado ZR2.
 
-
-
+Note: The Army is moving from the BCT as the main unit of action back towards [[Division]]s being the main tactical warfighting formation.  BCTs remain the primary close-combat maneuver units, but the division increasingly owns the bigger fight, since it has access to more limited capabilities to enable [[Multi-Domain Operations]] as per [[FM 3-0]], and can better own the bigger fight.
+- Division plans and integrates the fight (deep fires, aviation, air defense, sustainment, intelligence, cyber)
+- BCTs focus on the close fight (seizing terrain, destroying enemy forces, maneuver)
+- BCTs become less "standalone" deployables (a la [[Global War on Terror|GWOT]]), with [[Large Scale Combat Operations|LSCO]]/[[Multi-Domain Operations|MDO]] pushing BCTs fighting as part of a larger [[Division]] team.
 
 
 [[Brigade Combat Team|Mobile Brigade Combat Team]] Rifle Squad (2026, tentative)

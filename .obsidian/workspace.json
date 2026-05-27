@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bluetooth.md",
+                "file": "Army Echelons.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bluetooth"
+              "title": "Army Echelons"
             }
           },
           {
-            "id": "fe26b0c6b0274849",
+            "id": "553fbb376497b5c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bluetooth Low Energy.md",
+                "file": "Organic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bluetooth Low Energy"
+              "title": "Organic"
             }
           },
           {
@@ -125,6 +125,414 @@
               },
               "icon": "lucide-file",
               "title": "Open Container Initiative"
+            }
+          },
+          {
+            "id": "34624254eaa2fd14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sustainment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sustainment"
+            }
+          },
+          {
+            "id": "876d2b1bad366740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transportation Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Transportation Command"
+            }
+          },
+          {
+            "id": "b4f387ca27ac7e17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transportation Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Transportation Command"
+            }
+          },
+          {
+            "id": "29729c831aca375b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Expeditionary Sustainment Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Expeditionary Sustainment Command"
+            }
+          },
+          {
+            "id": "6c4efba4505848ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theater Sustainment Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Theater Sustainment Command"
+            }
+          },
+          {
+            "id": "e2a2fa1e1cdb13df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combat Trains Command Post.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Combat Trains Command Post"
+            }
+          },
+          {
+            "id": "35cd409a865f9841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics (Index)"
+            }
+          },
+          {
+            "id": "60db33e4189a4c2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Expeditionary Sustainment Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Expeditionary Sustainment Command"
+            }
+          },
+          {
+            "id": "126a1541b35f5b30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Supply Route.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Main Supply Route"
+            }
+          },
+          {
+            "id": "44c8e6a229ead09d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Third-Party Logistics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Third-Party Logistics"
+            }
+          },
+          {
+            "id": "4c06c4b99d983781",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theater.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Theater"
+            }
+          },
+          {
+            "id": "1b905e85a1fc667d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Decisive Operation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Decisive Operation"
+            }
+          },
+          {
+            "id": "f930f86ac8f2ed1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fires.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fires"
+            }
+          },
+          {
+            "id": "918c785628252453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brazing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Brazing"
+            }
+          },
+          {
+            "id": "660f479400537d78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Global War on Terror.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Global War on Terror"
+            }
+          },
+          {
+            "id": "1a09aadb406e32e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multi-Domain Operations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Domain Operations"
+            }
+          },
+          {
+            "id": "5cea96b818eff540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Container.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Container"
             }
           },
           {
@@ -176,7 +584,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -2045,34 +2453,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fe26b0c6b0274849",
+  "active": "34624254eaa2fd14",
   "lastOpenFiles": [
-    "Bluetooth.md",
-    "Bluetooth Low Energy.md",
-    "Movement and Maneuver.md",
-    "Terrain Following Navigation.md",
-    "Warfare Domain.md",
-    "Container.md",
-    "Suppression of Enemy Air Defenses.md",
+    "Transportation Command.md",
+    "Army Materiel Command.md",
+    "Defense Logistics Agency.md",
+    "Sustainment.md",
+    "Expeditionary Sustainment Command.md",
+    "Theater Sustainment Command.md",
+    "Combat Trains Command Post.md",
+    "Welding.md",
+    "Logistics (Index).md",
+    "Main Supply Route.md",
+    "Decision Point.md",
+    "Third-Party Logistics.md",
+    "Multi-Domain Task Force.md",
+    "Theater.md",
+    "Sustaining Operation.md",
+    "Decisive Operation.md",
+    "Fires.md",
+    "Shaping Operation.md",
+    "Soldering.md",
+    "Brazing.md",
     "Open Container Initiative.md",
-    "Operating System.md",
-    "Kernel.md",
-    "Takt Time.md",
-    "Telemetry Intelligence.md",
-    "Destruction of Enemy Air Defenses.md",
-    "Untitled.md",
-    "Squadron.md",
-    "Request for Quote.md",
-    "Quality Management System.md",
-    "Optimistic Concurrency Control.md",
-    "Pessimistic Concurrency Control.md",
-    "Overall Equipment Effectiveness.md",
-    "Medium Frequency.md",
-    "Warfighting Function.md",
-    "Intelligence.md",
-    "Company.md",
-    "Subassembly.md",
-    "Measurement and Signature Intelligence.md",
+    "Fastening.md",
+    "Riveting.md",
+    "Cutting.md",
+    "Grinding.md",
+    "Turning.md",
     "_attachments/Pasted image 20260526204846.png",
     "_attachments/Pasted image 20260526204538.png",
     "_attachments/Pasted image 20260526204426.png",

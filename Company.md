@@ -2,7 +2,6 @@
 aliases:
   - Companies
 ---
-
 In the US Army, a company is a tactical unit made up of several [[Platoon]]s, usually commanded by a Captain (O-3), with an first lieutenant (O-2) [[Executive Officer|XO]], and a first Sergeant (E-8) senior enlisted officer.
 
 About 60-200 soldiers, depending on unit type.
