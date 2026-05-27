@@ -1,52 +1,180 @@
 {
   "recentFiles": [
     {
-      "basename": "Extremely Low Frequency",
-      "path": "Extremely Low Frequency.md"
+      "basename": "Multi-Domain Task Force",
+      "path": "Multi-Domain Task Force.md"
     },
     {
-      "basename": "Radio Spectrum",
-      "path": "Radio Spectrum.md"
+      "basename": "Squad",
+      "path": "Squad.md"
     },
     {
-      "basename": "Bluetooth Low Energy",
-      "path": "Bluetooth Low Energy.md"
+      "basename": "Warfighting Function",
+      "path": "Warfighting Function.md"
     },
     {
-      "basename": "Very Low Frequency",
-      "path": "Very Low Frequency.md"
+      "basename": "Army Echelons",
+      "path": "Army Echelons.md"
     },
     {
-      "basename": "Extremely High Frequency",
-      "path": "Extremely High Frequency.md"
+      "basename": "Brigade Combat Team",
+      "path": "Brigade Combat Team.md"
     },
     {
-      "basename": "Medium Frequency",
-      "path": "Medium Frequency.md"
+      "basename": "FM 3-0",
+      "path": "FM 3-0.md"
     },
     {
-      "basename": "Low Frequency",
-      "path": "Low Frequency.md"
+      "basename": "Reception, Staging, Onward Movement, and Integration",
+      "path": "Reception, Staging, Onward Movement, and Integration.md"
     },
     {
-      "basename": "Wardriving",
-      "path": "Wardriving.md"
+      "basename": "Irregular Warfare",
+      "path": "Irregular Warfare.md"
     },
     {
-      "basename": "Ultra High Frequency",
-      "path": "Ultra High Frequency.md"
+      "basename": "Asymmetric Warfare",
+      "path": "Asymmetric Warfare.md"
     },
     {
-      "basename": "Meshtastic",
-      "path": "Meshtastic.md"
+      "basename": "Warfare Domain",
+      "path": "Warfare Domain.md"
+    },
+    {
+      "basename": "Multi-Domain Operations",
+      "path": "Multi-Domain Operations.md"
+    },
+    {
+      "basename": "Army Structure",
+      "path": "Army Structure.md"
+    },
+    {
+      "basename": "General Staff",
+      "path": "General Staff.md"
     },
     {
       "basename": "Bluetooth",
       "path": "Bluetooth.md"
     },
     {
-      "basename": "Warfighting Function",
-      "path": "Warfighting Function.md"
+      "basename": "Ultra High Frequency",
+      "path": "Ultra High Frequency.md"
+    },
+    {
+      "basename": "Wardriving",
+      "path": "Wardriving.md"
+    },
+    {
+      "basename": "Low Frequency",
+      "path": "Low Frequency.md"
+    },
+    {
+      "basename": "Extremely High Frequency",
+      "path": "Extremely High Frequency.md"
+    },
+    {
+      "basename": "Very Low Frequency",
+      "path": "Very Low Frequency.md"
+    },
+    {
+      "basename": "Geolocation",
+      "path": "Geolocation.md"
+    },
+    {
+      "basename": "Georeference",
+      "path": "Georeference.md"
+    },
+    {
+      "basename": "Ground Track",
+      "path": "Ground Track.md"
+    },
+    {
+      "basename": "Track",
+      "path": "Track.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "Bluetooth Low Energy",
+      "path": "Bluetooth Low Energy.md"
+    },
+    {
+      "basename": "Black, Red, Amber, Green",
+      "path": "Black, Red, Amber, Green.md"
+    },
+    {
+      "basename": "Light Support Battalion",
+      "path": "Light Support Battalion.md"
+    },
+    {
+      "basename": "Large Scale Combat Operations",
+      "path": "Large Scale Combat Operations.md"
+    },
+    {
+      "basename": "Joint Readiness Training Center",
+      "path": "Joint Readiness Training Center.md"
+    },
+    {
+      "basename": "Combat Sustainment Support Battalion",
+      "path": "Combat Sustainment Support Battalion.md"
+    },
+    {
+      "basename": "After-Action Review",
+      "path": "After-Action Review.md"
+    },
+    {
+      "basename": "Fleet Logistics Center",
+      "path": "Fleet Logistics Center.md"
+    },
+    {
+      "basename": "Combat Logistics Company",
+      "path": "Combat Logistics Company.md"
+    },
+    {
+      "basename": "Tactics, Techniques, and Procedure",
+      "path": "Tactics, Techniques, and Procedure.md"
+    },
+    {
+      "basename": "Synchronization Matrix",
+      "path": "Synchronization Matrix.md"
+    },
+    {
+      "basename": "Subterrene",
+      "path": "Subterrene.md"
+    },
+    {
+      "basename": "Geotagging",
+      "path": "Geotagging.md"
+    },
+    {
+      "basename": "How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}",
+      "path": "Articles/How we leveraged distilabel to create an Argilla 2.0 Chatbot (July 16, 2024) {HuggingFace Blog (HF)}.md"
+    },
+    {
+      "basename": "Geofencing",
+      "path": "Geofencing.md"
+    },
+    {
+      "basename": "Radio Spectrum",
+      "path": "Radio Spectrum.md"
+    },
+    {
+      "basename": "GPU Rendering Pipeline",
+      "path": "GPU Rendering Pipeline.md"
+    },
+    {
+      "basename": "Extremely Low Frequency",
+      "path": "Extremely Low Frequency.md"
+    },
+    {
+      "basename": "Medium Frequency",
+      "path": "Medium Frequency.md"
+    },
+    {
+      "basename": "Meshtastic",
+      "path": "Meshtastic.md"
     },
     {
       "basename": "OODA Loop",
@@ -71,134 +199,6 @@
     {
       "basename": "Signals Intelligence",
       "path": "Signals Intelligence.md"
-    },
-    {
-      "basename": "Communications Intelligence",
-      "path": "Communications Intelligence.md"
-    },
-    {
-      "basename": "Electronic Intelligence",
-      "path": "Electronic Intelligence.md"
-    },
-    {
-      "basename": "Foreign Instrumentation Signals Intelligence",
-      "path": "Foreign Instrumentation Signals Intelligence.md"
-    },
-    {
-      "basename": "Telemetry Intelligence",
-      "path": "Telemetry Intelligence.md"
-    },
-    {
-      "basename": "Measurement and Signature Intelligence",
-      "path": "Measurement and Signature Intelligence.md"
-    },
-    {
-      "basename": "Geospatial Intelligence",
-      "path": "Geospatial Intelligence.md"
-    },
-    {
-      "basename": "Black, Red, Amber, Green",
-      "path": "Black, Red, Amber, Green.md"
-    },
-    {
-      "basename": "S4 Officer",
-      "path": "S4 Officer.md"
-    },
-    {
-      "basename": "Fleet Logistics Center",
-      "path": "Fleet Logistics Center.md"
-    },
-    {
-      "basename": "Light Support Battalion",
-      "path": "Light Support Battalion.md"
-    },
-    {
-      "basename": "Large Scale Combat Operations",
-      "path": "Large Scale Combat Operations.md"
-    },
-    {
-      "basename": "Joint Readiness Training Center",
-      "path": "Joint Readiness Training Center.md"
-    },
-    {
-      "basename": "Combat Sustainment Support Battalion",
-      "path": "Combat Sustainment Support Battalion.md"
-    },
-    {
-      "basename": "After-Action Review",
-      "path": "After-Action Review.md"
-    },
-    {
-      "basename": "Combat Logistics Company",
-      "path": "Combat Logistics Company.md"
-    },
-    {
-      "basename": "Tactics, Techniques, and Procedure",
-      "path": "Tactics, Techniques, and Procedure.md"
-    },
-    {
-      "basename": "Synchronization Matrix",
-      "path": "Synchronization Matrix.md"
-    },
-    {
-      "basename": "Scientific Wild-Ass Guess",
-      "path": "Scientific Wild-Ass Guess.md"
-    },
-    {
-      "basename": "Sustainment",
-      "path": "Sustainment.md"
-    },
-    {
-      "basename": "FM 3-0",
-      "path": "FM 3-0.md"
-    },
-    {
-      "basename": "Logistics Synchronization",
-      "path": "Logistics Synchronization.md"
-    },
-    {
-      "basename": "Commodity Manager",
-      "path": "Commodity Manager.md"
-    },
-    {
-      "basename": "Staff Officer",
-      "path": "Staff Officer.md"
-    },
-    {
-      "basename": "Army Echelons",
-      "path": "Army Echelons.md"
-    },
-    {
-      "basename": "S2 Officer",
-      "path": "S2 Officer.md"
-    },
-    {
-      "basename": "Brigade",
-      "path": "Brigade.md"
-    },
-    {
-      "basename": "Squad",
-      "path": "Squad.md"
-    },
-    {
-      "basename": "Section",
-      "path": "Section.md"
-    },
-    {
-      "basename": "Platoon",
-      "path": "Platoon.md"
-    },
-    {
-      "basename": "Company",
-      "path": "Company.md"
-    },
-    {
-      "basename": "Battery (Echelon)",
-      "path": "Battery (Echelon).md"
-    },
-    {
-      "basename": "Battalion",
-      "path": "Battalion.md"
     }
   ],
   "omittedPaths": [],

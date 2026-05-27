@@ -7,22 +7,9 @@ To prevent interference between users, the generation and transmission of radio 
 - Ranges of allocated frequencies are often referred to by their provisioned use (e.g. "cellular spectrum," or "television spectrum")
 
 
-
-# ITU Radio Bands (Low to High Frequency)
-- [[Extremely Low Frequency]]
-- [[Super Low Frequency]]
-- [[Ultra Low Frequency]]
-- [[Very Low Frequency]]
-- [[Low Frequency]]
-- [[Medium Frequency]]
-- [[High Frequency]]
-- [[Very High Frequency]]
-- [[Ultra High Frequency]]
-- [[Super High Frequency]]
-- [[Extremely High Frequency]]
-- [[Tremendously High Frequency]]
-
-
+![[Pasted image 20260526150839.png]]
+![[Pasted image 20260526150600.png]]
+![[Pasted image 20260526150713.png]]
 # ITU Radio Bands Descriptions
 - [[Extremely Low Frequency]] (ELF): ITU Band 1
 	- Frequency:  3-30 Hz
@@ -72,3 +59,18 @@ To prevent interference between users, the generation and transmission of radio 
 	- Frequency: 300-3,000 GHz
 	- Wavelength: 1-0.1 mm
 	- Use Cases: Experimental medical imaging to replace X-rays, ultrafast molecular dynamics, condensed-matter physics, terahertz time-domain spectroscopy, terahertz computing/communications, remote sensing.
+
+
+# ITU Radio Bands (Low to High Frequency)
+- [[Extremely Low Frequency]]
+- [[Super Low Frequency]]
+- [[Ultra Low Frequency]]
+- [[Very Low Frequency]]
+- [[Low Frequency]]
+- [[Medium Frequency]]
+- [[High Frequency]]
+- [[Very High Frequency]]
+- [[Ultra High Frequency]]
+- [[Super High Frequency]]
+- [[Extremely High Frequency]]
+- [[Tremendously High Frequency]]
