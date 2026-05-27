@@ -1,0 +1,3 @@
+A form of conflict between opponents with unequal or fundamentally different capabilities, where one side avoids matching the other directly and instead uses strategies, tactics, technologies, or targets that exploit the opponent's weaknesses.
+
+Often overlaps with [[Irregular Warfare]]; An insurgent group using roadside bombs, ambushes, propaganda, and local support networks against a modern army is conducting **irregular warfare** in an **asymmetric** situation.

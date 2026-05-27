@@ -159,7 +159,7 @@ If you don't know durable execution, learn it! It's the most consequential backe
 
 # Containers and Orchestration
 - [[Docker]]: Container runtime
-	- Other [[Open Containers Initiative]] (OCI) alternatives such as [[Containerd]], [[Podman]], CRI-O.
+	- Other [[Open Container Initiative]] (OCI) alternatives such as [[Containerd]], [[Podman]], CRI-O.
 - [[Kubernetes]] is still the dominant orchestrator.
 	- Vocab: Pod, Deployment, Service, Ingress, ConfigMap, Secret, DaemonSet, StatefulSet, HPA (autoscaler), CRD (custom resource), Operator
 - K8s ecosystem:

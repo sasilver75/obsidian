@@ -2,11 +2,6 @@
 aliases:
   - GEOINT
 ---
-Compare with:
-- OSINT
-- HUMINT: Human 
-- SIGINT: Signals Intelligence
-	- COMINT: Communications Intelligence, interception of spoken, written digital communication
-	- ElINT: Electronic Signals like radar and telemetry: Gathering data from non-communication, EM, or radar systems
-	- FISINT: Foreign Instrumentation Signals Intelligence: Telemetry or beaconry derived from remote systems like missiles/sats
-- MASINT: Measurement and Signature Intelligence
+A type of [[Intelligence]].
+Intelligence derived from imagery, maps, terrain data, and location-based information. It helps answer where things are, how terrain affects operations, and what can be seen or inferred from geospatial data.
+

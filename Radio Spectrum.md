@@ -9,7 +9,7 @@ To prevent interference between users, the generation and transmission of radio 
 
 ![[Pasted image 20260526150839.png]]
 ![[Pasted image 20260526150600.png]]
-![[Pasted image 20260526150713.png]]
+![[Pasted image 20260526150713.png|1594]]
 # ITU Radio Bands Descriptions
 - [[Extremely Low Frequency]] (ELF): ITU Band 1
 	- Frequency:  3-30 Hz

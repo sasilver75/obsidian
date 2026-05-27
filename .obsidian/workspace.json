@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "efeedcf83b4657df",
+            "id": "ad5eab30118555fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multi-Domain Task Force.md",
+                "file": "Geospatial Intelligence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi-Domain Task Force"
+              "title": "Geospatial Intelligence"
             }
           },
           {
-            "id": "b3077607ecd77c81",
+            "id": "063f0c86366789ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Squad.md",
+                "file": "Bluetooth Low Energy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Squad"
+              "title": "Bluetooth Low Energy"
             }
           },
           {
-            "id": "491d6cd52ead9f4a",
+            "id": "36a85862858c73c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multi-Domain Task Force.md",
+                "file": "Bluetooth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi-Domain Task Force"
+              "title": "Bluetooth"
             }
           },
           {
-            "id": "69b0a7c95c9d6622",
+            "id": "fe26b0c6b0274849",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reception, Staging, Onward Movement, and Integration.md",
+                "file": "Bluetooth Low Energy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reception, Staging, Onward Movement, and Integration"
+              "title": "Bluetooth Low Energy"
             }
           },
           {
-            "id": "4e7f92758eed5289",
+            "id": "c1ef1ce641194eae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Irregular Warfare.md",
+                "file": "Open Container Initiative.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Irregular Warfare"
+              "title": "Open Container Initiative"
             }
           },
           {
-            "id": "29ee234d163162e9",
+            "id": "97781156b463c931",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asymmetric Warfare.md",
+                "file": "Operating System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Asymmetric Warfare"
+              "title": "Operating System"
             }
           },
           {
-            "id": "e2a33fca14a34b57",
+            "id": "c718acd58018f886",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Warfare Domain.md",
+                "file": "Kernel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,34 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Warfare Domain"
-            }
-          },
-          {
-            "id": "e50e5ae80482d8d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-Domain Operations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Multi-Domain Operations"
+              "title": "Kernel"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -231,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FM 3-0",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -262,8 +239,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2069,43 +2045,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "efeedcf83b4657df",
+  "active": "fe26b0c6b0274849",
   "lastOpenFiles": [
-    "Squad.md",
+    "Bluetooth.md",
+    "Bluetooth Low Energy.md",
+    "Movement and Maneuver.md",
+    "Terrain Following Navigation.md",
+    "Warfare Domain.md",
+    "Container.md",
+    "Suppression of Enemy Air Defenses.md",
+    "Open Container Initiative.md",
+    "Operating System.md",
+    "Kernel.md",
+    "Takt Time.md",
+    "Telemetry Intelligence.md",
+    "Destruction of Enemy Air Defenses.md",
+    "Untitled.md",
+    "Squadron.md",
+    "Request for Quote.md",
+    "Quality Management System.md",
+    "Optimistic Concurrency Control.md",
+    "Pessimistic Concurrency Control.md",
+    "Overall Equipment Effectiveness.md",
+    "Medium Frequency.md",
     "Warfighting Function.md",
-    "Multi-Domain Task Force.md",
+    "Intelligence.md",
+    "Company.md",
+    "Subassembly.md",
+    "Measurement and Signature Intelligence.md",
     "_attachments/Pasted image 20260526204846.png",
     "_attachments/Pasted image 20260526204538.png",
     "_attachments/Pasted image 20260526204426.png",
-    "Army Echelons.md",
-    "Brigade Combat Team.md",
     "_attachments/Pasted image 20260526204409.png",
-    "FM 3-0.md",
     "_attachments/Pasted image 20260526200156.png",
     "_attachments/Pasted image 20260526195924.png",
-    "Reception, Staging, Onward Movement, and Integration.md",
     "_attachments/Pasted image 20260526195437.png",
     "_attachments/Pasted image 20260526195413.png",
     "_attachments/Pasted image 20260526195013.png",
     "_attachments/Pasted image 20260526194925.png",
-    "Irregular Warfare.md",
-    "Asymmetric Warfare.md",
-    "Warfare Domain.md",
-    "Multi-Domain Operations.md",
-    "Army Structure.md",
-    "General Staff.md",
-    "Bluetooth.md",
-    "Ultra High Frequency.md",
-    "Wardriving.md",
-    "Low Frequency.md",
-    "Extremely High Frequency.md",
-    "Very Low Frequency.md",
-    "Geolocation.md",
-    "Georeference.md",
-    "Ground Track.md",
-    "Track.md",
-    "WGS84.md",
-    "Bluetooth Low Energy.md",
     "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
     "System Design in a Hurry - Anki Supplemental Basic.tsv",
     "System Design in a Hurry - Anki Basic.tsv",
