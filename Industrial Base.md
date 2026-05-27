@@ -1,0 +1,4 @@
+---
+aliases:
+  - Defense Industrial Base
+---

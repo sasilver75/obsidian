@@ -23,4 +23,4 @@
 - [[Division Sustainment Brigade]] (DSB)
 - [[Expeditionary Sustainment Command]] (ESC)
 - [[Theater Sustainment Command]] (TSC)
-- [[Transportation Command]] (USTRANSCOM)
+- [[US Transportation Command]] (USTRANSCOM)

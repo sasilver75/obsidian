@@ -8,7 +8,7 @@ The related tasks and systems that facilitate understanding of the operational e
 - Involves collecting, processing, and analyzing information to provide accurate and timely knowledge.
 
 
-Common Intelligence Picture (shared, fused view of intelligence):
+The [[Intelligence|Common Intelligence Picture]] (shared, fused view of intelligence):
 - [[Human Intelligence]] (HUMINT)
 - [[Open-Source Intelligence]] (OSINT)
 - [[Signals Intelligence]] (SIGINT)

@@ -1,0 +1,8 @@
+An intelligence and targeting method originally developed by US [[Special Operations Forces]], providing a structured framework to iteratively locate and neutralize threats.
+
+Find
+Fix
+Finish
+Exploit
+Analyze
+Disseminate

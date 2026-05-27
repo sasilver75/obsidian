@@ -39,14 +39,30 @@ See [[Logistics (Index)]]
 
 # How the [[Front Line of Troops|FLOT]] is Sustained
 
-- [[Company]] trains/Combat train
+- [[Company]]' trains/Combat train
 - [[Battalion]]'s [[Forward Support Company]] (FSC) and [[Combat Trains Command Post]] (CTCP)
 - [[Brigade]]'s [[Brigade Support Area]] and [[Brigade Support Battalion]] (BSB)
 - [[Division]]'s [[Division Support Area]] and [[Division Sustainment Brigade]] (DSB) + [[Division Sustainment Support Battalion]] (DSSB)
-- [[Corps]]'s sustainment command or [[Expeditionary Sustainment Command]] (ESC)
+- [[Corps]]'s [[Corps Sustainment Command]] (CSC) or [[Expeditionary Sustainment Command]] (ESC)
 - [[Theater]]'s [[Theater Sustainment Command]] (TSC)
 - Theater ports, depots, and prepositioned stocks
-- [[Defense Logistics Agency]], [[Army Materiel Command]], [[Transportation Command|USTRANSCOM]], Industrial base
+- [[Defense Logistics Agency]], [[Army Materiel Command]], [[US Transportation Command|USTRANSCOM]], Industrial base
+
+At the [[Front Line of Troops|FLOT]], soldiers, crews, platoons, and companies fight from their carried basic loads: ammunition, water, food, batteries, fuel in vehicles, medical supplies, and repair parts on hand.
+
+At [[Company]] level, the [[Commanding Officer|Commander]], [[Executive Officer|XO]], first sergeant, supply sergeant, medics, and maintenance reps manage immediate resupply, casualties, damaged equipment, and the company’s logistics reports.
+
+At the [[Battalion]] level, the [[Forward Support Company]] (FSC) supports the Battalion with fuel, ammo, water, food, field maintenance, medical support. The Battalion often uses a [[Combat Trains Command Post]] (CTCP) closer forward, and a [[Field Trains]] further back.
+
+At the [[Brigade]] level, the [[Brigade Support Battalion]] (BSB) runs the [[Brigade Support Area]] (BSA), receiving supplies from higher and pushing them down/forward to [[Forward Support Company|FSC]]s and Battalions through [[Logistics Release Point]]s (LRPs) or resupply convoys.
+
+At [[Division]] level, the [[Division Sustainment Brigade]] (DSB) or [[Division Sustainment Support Battalion]] (DSSB) synchronize sustainment for the division, run larger support areas, and allocate scarce transportation, fuel, ammo, maintenance, and medical capacity across brigades.
+
+At a [[Corps]] level, a [[Corps Sustainment Command]] (CSC) or [[Expeditionary Sustainment Command]] (ESC) coordinates operational sustainment for corps-sized operations, including movement control, theater distribution, reception of force, and support to multiple divisions or separate brigades.
+
+At a [[Theater]] level, the [[Theater Sustainment Command]] (TSC) is the senior Army logistics headquarters in theater; it links Army forces to ports, host-nation support, contractors, [[Defense Logistics Agency]] (DLA),  [[Army Materiel Command]] (AMC), [[Surface Deployment and Distribution Command]] (SDDC), and [[US Transportation Command]] (TRANSCOM).
+
+Generally, units report status and requirements upward, while higher sustainment echelons allocate capacity and push support downwards. Modern doctrine stresses that sustainment units in [[Large Scale Combat Operations|LSCO]] cannot assume safe, static rear areas. They must disperse, move, reduce signatures, survive contact, and still keep the forward force supplied.
 
 
 ___________
