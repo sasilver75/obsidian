@@ -2,7 +2,7 @@
 aliases:
   - BDE
 ---
-A major tactical formation made up of several [[Battalion]]s, usually commanded by a colonel.
+A major tactical formation made up of several [[Battalion]]s, usually commanded by a Colonel (O-6). Typically 3,000-5,000 soldiers.
 
 A [[Brigade Combat Team]] (BCT) is the Army's standard deployable combat brigade, which normally includes maneuver [[Battalion]]s, artillery, engineers, reconnaissance, sustainment, and headquarters elements.
 

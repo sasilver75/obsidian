@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Service-to-Service Authentication.md",
+                "file": "Division.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Service-to-Service Authentication"
+              "title": "Division"
+            }
+          },
+          {
+            "id": "3a48f40b823a1f41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Light Support Battalion.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Light Support Battalion"
             }
           },
           {
@@ -2719,10 +2743,16 @@
   },
   "active": "ad8f0e163f69102a",
   "lastOpenFiles": [
+    "Light Support Battalion.md",
+    "Division.md",
+    "_attachments/Pasted image 20260528011813.png",
+    "Brigade.md",
+    "Battalion.md",
+    "Brigade Combat Team.md",
+    "Service-to-Service Authentication.md",
     "System Design (Index).md",
     "OAuth.md",
     "Machine-to-Machine Authentication.md",
-    "Service-to-Service Authentication.md",
     "Networking (Index).md",
     "Cache Write Strategy.md",
     "Secondary Index.md",
@@ -2740,11 +2770,6 @@
     "Loopback Address.md",
     "Reception, Staging, Onward Movement, and Integration.md",
     "Warfighting Function.md",
-    "Combat Logistics Platoon.md",
-    "Brigade Combat Team.md",
-    "Encryption (Index).md",
-    "Hash-based Message Authentication Code.md",
-    "Internet Assigned Numbers Authority.md",
     "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",
     "_attachments/Pasted image 20260527133446.png",
@@ -2754,7 +2779,6 @@
     "_attachments/Pasted image 20260527121723.png",
     "_attachments/Pasted image 20260526204846.png",
     "_attachments/Pasted image 20260526204538.png",
-    "_attachments/Pasted image 20260526204426.png",
     "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
     "System Design in a Hurry - Anki Supplemental Basic.tsv",
     "System Design in a Hurry - Anki Basic.tsv",

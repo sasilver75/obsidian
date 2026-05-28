@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Division",
+      "path": "Division.md"
+    },
+    {
+      "basename": "Light Support Battalion",
+      "path": "Light Support Battalion.md"
+    },
+    {
+      "basename": "Brigade",
+      "path": "Brigade.md"
+    },
+    {
+      "basename": "Battalion",
+      "path": "Battalion.md"
+    },
+    {
+      "basename": "Brigade Combat Team",
+      "path": "Brigade Combat Team.md"
+    },
+    {
       "basename": "Service-to-Service Authentication",
       "path": "Service-to-Service Authentication.md"
     },
@@ -87,10 +107,6 @@
     {
       "basename": "Combat Logistics Platoon",
       "path": "Combat Logistics Platoon.md"
-    },
-    {
-      "basename": "Brigade Combat Team",
-      "path": "Brigade Combat Team.md"
     },
     {
       "basename": "Encryption (Index)",
@@ -183,22 +199,6 @@
     {
       "basename": "Domain-Specific Language",
       "path": "Domain-Specific Language.md"
-    },
-    {
-      "basename": "Irregular Warfare",
-      "path": "Irregular Warfare.md"
-    },
-    {
-      "basename": "Asymmetric Warfare",
-      "path": "Asymmetric Warfare.md"
-    },
-    {
-      "basename": "Container Networking",
-      "path": "Container Networking.md"
-    },
-    {
-      "basename": "Pulumi",
-      "path": "Pulumi.md"
     }
   ],
   "omittedPaths": [],

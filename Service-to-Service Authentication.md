@@ -12,4 +12,4 @@ Comparison with [[Machine-to-Machine Authentication]] (M2M Auth):
 
 
 
-> TODO: SAM... Continue here
+> TODO: SAM... Continue here, then the durable execution note, pleaes.
