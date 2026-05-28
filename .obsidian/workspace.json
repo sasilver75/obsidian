@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking (Index).md",
+                "file": "Service-to-Service Authentication.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,295 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Networking (Index)"
+              "title": "Service-to-Service Authentication"
+            }
+          },
+          {
+            "id": "2408fe4db19923dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OAuth.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OAuth"
+            }
+          },
+          {
+            "id": "09a4db4202a0a962",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine-to-Machine Authentication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Machine-to-Machine Authentication"
+            }
+          },
+          {
+            "id": "363a25d60a771c28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine-to-Machine Authentication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Machine-to-Machine Authentication"
+            }
+          },
+          {
+            "id": "7d9c0a842e4a1be1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Service-to-Service Authentication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Service-to-Service Authentication"
+            }
+          },
+          {
+            "id": "b353b18748cf2dd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache Write Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Write Strategy"
+            }
+          },
+          {
+            "id": "990d310a963c0d5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secondary Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Secondary Index"
+            }
+          },
+          {
+            "id": "6b2c46497531c3d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secondary Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Secondary Index"
+            }
+          },
+          {
+            "id": "0e0367daf083d014",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microservice.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Microservice"
+            }
+          },
+          {
+            "id": "a235b8e18667b5a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internet Service Provider.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Internet Service Provider"
+            }
+          },
+          {
+            "id": "4abcf9fa356e16d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNAME Record.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CNAME Record"
+            }
+          },
+          {
+            "id": "0ae9c4b0a71d9181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wireless Access Point.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Wireless Access Point"
+            }
+          },
+          {
+            "id": "cc3a1d71db2c6ecd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Interface Card.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Network Interface Card"
             }
           },
           {
@@ -2431,8 +2719,19 @@
   },
   "active": "ad8f0e163f69102a",
   "lastOpenFiles": [
-    "Virtual Private Cloud Peering.md",
+    "System Design (Index).md",
+    "OAuth.md",
+    "Machine-to-Machine Authentication.md",
+    "Service-to-Service Authentication.md",
     "Networking (Index).md",
+    "Cache Write Strategy.md",
+    "Secondary Index.md",
+    "Microservice.md",
+    "Internet Service Provider.md",
+    "CNAME Record.md",
+    "Wireless Access Point.md",
+    "Network Interface Card.md",
+    "Virtual Private Cloud Peering.md",
     "Network Access Control List.md",
     "Certificate Chain.md",
     "Web Application Firewall.md",
@@ -2446,17 +2745,6 @@
     "Encryption (Index).md",
     "Hash-based Message Authentication Code.md",
     "Internet Assigned Numbers Authority.md",
-    "Internet Corporation for Assigned Names and Numbers.md",
-    "Fully Qualified Domain Name.md",
-    "Top-Level Domain.md",
-    "Cross-Origin Resource Sharing.md",
-    "Mutual TLS.md",
-    "Sticky Session.md",
-    "Edge Server.md",
-    "Origin Server.md",
-    "Internet Control Message Protocol.md",
-    "Classless Inter-Domain Routing.md",
-    "Protobuf.md",
     "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",
     "_attachments/Pasted image 20260527133446.png",

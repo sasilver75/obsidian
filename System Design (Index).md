@@ -1,0 +1,95 @@
+
+
+
+Terms
+- [[Functional Requirement]]
+- [[Non-Functional Requirement]]
+- [[Service Level Objective]] (SLO)
+- [[Service Level Indicator]] (SLI)
+- [[Service Level Agreement]] (SLA)
+- [[Latency]]
+- [[Availability]]
+- [[Durability]]
+- [[Scalability]]
+- [[Monolith]]
+- [[Microservice|Service-Oriented Architecture]] / Microservices
+- [[Backend for Frontend]] (BFF)
+- [[API Gateway]]
+- [[Load Balancing|Load Balancer]] ([[Transport Layer|Layer 4]], [[Application Layer|Layer 7]])
+- [[Reverse Proxy]]
+- [[Service Discovery]]
+- [[Service Mesh]]
+- [[Rate Limiting|Rate Limiter]]
+- [[Representational State Transfer|REST]]
+- [[HTTP]]
+- [[Remote Procedure Call]]
+- [[gRPC]]
+- [[Webhook]]
+- [[WebSockets]]
+- [[Server-Sent Event]] (SSE)
+- [[Idempotency]]
+- [[Pagination]] (Cursor-based, Page-based)
+- Versioning
+- [[Relational Database]]
+- [[Key-Value Database|Key-Value Store]]
+- [[Document Database]]
+- [[Wide-Column]]
+- [[Blob Storage|Object Storage]]
+- [[Index]]
+- [[Secondary Index]] ([[Local Secondary Index]], [[Global Secondary Index]])
+- [[Sharding]]
+- [[Replication]]
+- [[Partition]]
+- [[Replication|Read Replica]]
+- [[Write-Ahead Log]] (WAL)
+- [[Cache]]
+- [[Cache-Aside]]
+- [[Read-Through Cache]]
+- [[Cache Write Strategy]]
+- [[Write-Through Cache]]
+- [[Write-Back Cache|Write-Back]]
+- [[Cache Invalidation Strategy|Cache Invalidation]]
+- [[Cache Eviction Strategy|Cache Eviction]]
+- [[Time to Live]] (TTL)
+- [[Cache Stampede]]
+- [[Content Delivery Network]] (CDN)
+- [[Message Queue]]
+- [[Publish-Subscribe|Pub Sub]]
+- [[Kafka]]
+- [[Amazon SNS|AWS SNS]], [[Amazon SQS|AWS SQS]]
+- [[Dead Letter Queue]]
+- [[Retry]]
+- [[Backoff]]
+- [[Outbox Pattern]]
+- [[Change Data Capture]] (CDC)
+- [[Consistency]]
+- [[Strong Consistency]]
+- [[Eventual Consistency]]
+- [[CAP Theorem]]
+- [[Distributed Consensus|Consensus]]
+- [[Leader Election]]
+- [[Distributed Lock]]
+- [[Two-Phase Commit]]
+- [[Three-Phase Commit]]
+- [[Saga]]
+- [[Circuit Breaker]]
+- [[Backpressure]]
+- [[Observability]]
+- [[Logging]]
+- [[Metrics]]
+- [[Tracing]]
+- [[OpenTelemetry Protocol|OpenTelemetry]]
+- [[Horizontal Scaling]]
+- [[Vertical Scaling]]
+- [[Authentication]]
+- [[Authorization]]
+- [[OAuth]] (OAuth 2.0)
+- [[OpenID Connect]] (OIDC)
+- [[JSON Web Token]] (JWT)
+- [[JSON Web Key Set]] (JWKS)
+- [[Mutual TLS]] (mTLS)
+- [[Service-to-Service Authentication]] (S2S Auth)
+- [[Machine-to-Machine Authentication]] (M2M Auth)
+- [[Durable Execution Engine]]
+
+

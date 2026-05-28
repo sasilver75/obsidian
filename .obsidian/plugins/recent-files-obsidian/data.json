@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Service-to-Service Authentication",
+      "path": "Service-to-Service Authentication.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "OAuth",
+      "path": "OAuth.md"
+    },
+    {
+      "basename": "Machine-to-Machine Authentication",
+      "path": "Machine-to-Machine Authentication.md"
+    },
+    {
       "basename": "Networking (Index)",
       "path": "Networking (Index).md"
+    },
+    {
+      "basename": "Cache Write Strategy",
+      "path": "Cache Write Strategy.md"
+    },
+    {
+      "basename": "Secondary Index",
+      "path": "Secondary Index.md"
+    },
+    {
+      "basename": "Microservice",
+      "path": "Microservice.md"
+    },
+    {
+      "basename": "Internet Service Provider",
+      "path": "Internet Service Provider.md"
+    },
+    {
+      "basename": "CNAME Record",
+      "path": "CNAME Record.md"
+    },
+    {
+      "basename": "Wireless Access Point",
+      "path": "Wireless Access Point.md"
+    },
+    {
+      "basename": "Network Interface Card",
+      "path": "Network Interface Card.md"
     },
     {
       "basename": "Virtual Private Cloud Peering",
@@ -155,50 +199,6 @@
     {
       "basename": "Pulumi",
       "path": "Pulumi.md"
-    },
-    {
-      "basename": "Route Table",
-      "path": "Route Table.md"
-    },
-    {
-      "basename": "PostgREST",
-      "path": "PostgREST.md"
-    },
-    {
-      "basename": "BRIN Index",
-      "path": "BRIN Index.md"
-    },
-    {
-      "basename": "S4 Officer",
-      "path": "S4 Officer.md"
-    },
-    {
-      "basename": "Support Operations Officer",
-      "path": "Support Operations Officer.md"
-    },
-    {
-      "basename": "Logistics (Index)",
-      "path": "Logistics (Index).md"
-    },
-    {
-      "basename": "Combat Trains Command Post",
-      "path": "Combat Trains Command Post.md"
-    },
-    {
-      "basename": "Theater Army",
-      "path": "Theater Army.md"
-    },
-    {
-      "basename": "Logistics Common Operating Picture",
-      "path": "Logistics Common Operating Picture.md"
-    },
-    {
-      "basename": "Logistics Package",
-      "path": "Logistics Package.md"
-    },
-    {
-      "basename": "Logistics Release Point",
-      "path": "Logistics Release Point.md"
     }
   ],
   "omittedPaths": [],

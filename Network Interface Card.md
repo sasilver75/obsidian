@@ -1,4 +1,4 @@
 ---
 aliases:
-  - OAuth 2.0
+  - NIC
 ---

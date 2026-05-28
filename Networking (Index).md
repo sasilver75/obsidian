@@ -26,6 +26,7 @@ Terms
 - [[Virtual Private Cloud]] (VPC)
 - [[Virtual Private Network]] (VPN)
 - [[Domain Name Service]] (DNS)
+- [[Domain Name Service Security Extensions]] (DNSSEC)
 - [[Reverse DNS]]
 - [[Network Time Protocol]] (NTP)
 - [[Secure Shell]] (SSH)
@@ -89,8 +90,9 @@ Terms
 - [[Timeout]]
 - [[Health Check]]
 - [[Service Discovery]]
-- [[CNAME]]
+- [[CNAME Record]] (CNAME)
 - [[A Record]]
+- [[AAAA Record]]
 - [[Origin Server]]
 - [[Edge Server]]
 - [[Sticky Session]] (Session Affinity)
@@ -105,6 +107,7 @@ Terms
 - [[Internet Assigned Numbers Authority]] (IANA)
 - [[Authoritative Namserver]]
 - [[Root Nameserver]]
+- [[Recursive Resolver]]
 - [[MAC Address]]
 - [[Loopback Address]]
 - [[Time to First Byte]] (TTFB)
@@ -124,3 +127,22 @@ Terms
 - [[Nslookup]]
 - [[Tcpdump]]
 - [[Wireshark]]
+- [[Network Interface Card]] (NIC)
+- [[Switch]]
+- [[Routing|Router]]
+- [[Gateway]]
+- [[Wireless Access Point]] (WAP; AP)
+- [[Modem]]
+- [[Ethernet]]
+- [[Infiniband]]
+- [[Fiber Optic]]
+- [[Rack]]
+- [[Top-of-Rack Switch]]
+- [[Leaf Switch]]
+- [[Spine Switch]]
+- [[Spine-Leaf Network]]
+- [[Layer 4 Load Balancer]]
+- [[Layer 7 Load Balancer]]
+- [[Hardware Load Balancer]]
+- [[Internet Service Provider]] (ISP)
+- [[Route Table]]
