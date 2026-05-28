@@ -31,7 +31,8 @@
 - [[S4 Officer]]
 - [[Support Operations Officer]] (SPO)
 - [[Brigade Support Area]] (BSA)
-- [[Combat Trains Command Post]] (CTCS)
+- [[Combat Trains Command Post]] (CTCP)
+- [[Field Trains Command Post]]
 - [[Combat Sustainment Support Battalion]] (CSSB)
 - [[Corps Sustainment Command]] (CSC)
 - [[Surface Deployment and Distribution Command]] (SDDC)

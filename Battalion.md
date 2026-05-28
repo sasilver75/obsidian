@@ -1,5 +1,5 @@
 
-A military [[Army Echelons|Echelon]]. In the US Army, typically 300-1,000 personnel and made up of 3-5 [[Company|Companies]] plus a HQ element, typically commanded by a lieutenant colonel.
+A military [[Army Echelons|Echelon]]. In the US Army, typically ~300-1,000 personnel and made up of 3-5 [[Company|Companies]] plus a HQ element, typically commanded by a Lieutenant Colonel (O-5).
 
 Battalions are typically the smallest unit with a significant headquarters staff, and can conduct independent tactical operation for limited periods.
 

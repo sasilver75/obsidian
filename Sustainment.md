@@ -52,7 +52,7 @@ At the [[Front Line of Troops|FLOT]], soldiers, crews, platoons, and companies f
 
 At [[Company]] level, the [[Commanding Officer|Commander]], [[Executive Officer|XO]], first sergeant, supply sergeant, medics, and maintenance reps manage immediate resupply, casualties, damaged equipment, and the company’s logistics reports.
 
-At the [[Battalion]] level, the [[Forward Support Company]] (FSC) supports the Battalion with fuel, ammo, water, food, field maintenance, medical support. The Battalion often uses a [[Combat Trains Command Post]] (CTCP) closer forward, and a [[Field Trains]] further back.
+At the [[Battalion]] level, the [[Forward Support Company]] (FSC) supports the Battalion with fuel, ammo, water, food, field maintenance, medical support. The Battalion often uses a [[Combat Trains Command Post]] (CTCP) closer forward, and a [[Field Trains Command Post]] further back.
 
 At the [[Brigade]] level, the [[Brigade Support Battalion]] (BSB) runs the [[Brigade Support Area]] (BSA), receiving supplies from higher and pushing them down/forward to [[Forward Support Company|FSC]]s and Battalions through [[Logistics Release Point]]s (LRPs) or resupply convoys.
 

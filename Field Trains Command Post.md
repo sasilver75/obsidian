@@ -1,18 +1,12 @@
 ---
 aliases:
-  - CTCP
+  - FTCP
+  - Field Trains
 ---
-A [[Battalion]] level forward logistics control node located close enough to support combat operations, but far enough back to avoid direct contact when possible.
 
-Controls and coordinates the battalion's immediate sustainment needs.
-- Ammunition, Fuel, Water resupply
-- Maintenance and recovery coordination
-- Casualty collection, medical evacuation coordination
-- Coordination with battalion [[Tactical Operations Center|TOC]] and [[Field Trains Command Post]]s.
+The command/control node for the [[Battalion]]'s [[Brigade Support Area]].
+- Its job is to coordinate the battalion's *rear sustainment work*, whereas the [[Combat Trains Command Post]] is the Battalion's *forward sustainment node* closer to the fight.
 
-# Whats is a "Trains"
-- Trains are the people, vehicles, equipment, and supplies that keep a combat unit operating. They're the units mobile sustainment package (fuel, food, water, etc.)
-- Comes from the older idea of a wagon train, meaning the support vehicles and supplies following a fighting force. The logistics tail of a combat unit.
 
 # Comparison (Closest-to-[[Front Line of Troops|FLOT]], descending)
 - [[Company Trains]]

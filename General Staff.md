@@ -12,6 +12,7 @@ aliases:
   - G3
   - G4
   - G5
+  - General Staff Officer
 ---
 cf. [[Staff Officer]]s
 

@@ -1,18 +1,7 @@
----
-aliases:
-  - CTCP
----
-A [[Battalion]] level forward logistics control node located close enough to support combat operations, but far enough back to avoid direct contact when possible.
+The [[Company]]-level sustainment assets that keep a company fighting. 
+- The company's small logistics tail: the people, vehicles, and supplies used for immediate support (supply sergeant, armorer, medics/evacuation team, company vehicles carrying food/water/ammunition)
+- The company's own nearby support package that connects the company to battalion sustainment.
 
-Controls and coordinates the battalion's immediate sustainment needs.
-- Ammunition, Fuel, Water resupply
-- Maintenance and recovery coordination
-- Casualty collection, medical evacuation coordination
-- Coordination with battalion [[Tactical Operations Center|TOC]] and [[Field Trains Command Post]]s.
-
-# Whats is a "Trains"
-- Trains are the people, vehicles, equipment, and supplies that keep a combat unit operating. They're the units mobile sustainment package (fuel, food, water, etc.)
-- Comes from the older idea of a wagon train, meaning the support vehicles and supplies following a fighting force. The logistics tail of a combat unit.
 
 # Comparison (Closest-to-[[Front Line of Troops|FLOT]], descending)
 - [[Company Trains]]

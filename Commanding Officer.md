@@ -2,6 +2,8 @@
 aliases:
   - CO
   - Commander
+  - OIC
+  - NCOIC
 ---
 The officer formally placed in command of a military unit, installation, ship, or organization.
 

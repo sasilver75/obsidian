@@ -1,88 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Division",
-      "path": "Division.md"
+      "basename": "Company Trains",
+      "path": "Company Trains.md"
     },
     {
-      "basename": "Light Support Battalion",
-      "path": "Light Support Battalion.md"
+      "basename": "Field Trains Command Post",
+      "path": "Field Trains Command Post.md"
     },
     {
-      "basename": "Brigade",
-      "path": "Brigade.md"
+      "basename": "Tactical Operations Center",
+      "path": "Tactical Operations Center.md"
     },
     {
-      "basename": "Battalion",
-      "path": "Battalion.md"
+      "basename": "Probability for CS (4) Conditional Probability and Bayes",
+      "path": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
     },
     {
-      "basename": "Brigade Combat Team",
-      "path": "Brigade Combat Team.md"
+      "basename": "Combat Trains Command Post",
+      "path": "Combat Trains Command Post.md"
     },
     {
-      "basename": "Service-to-Service Authentication",
-      "path": "Service-to-Service Authentication.md"
+      "basename": "Commanding Officer",
+      "path": "Commanding Officer.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
+      "basename": "Front Line of Troops",
+      "path": "Front Line of Troops.md"
     },
     {
-      "basename": "OAuth",
-      "path": "OAuth.md"
+      "basename": "Logistics (Index)",
+      "path": "Logistics (Index).md"
     },
     {
-      "basename": "Machine-to-Machine Authentication",
-      "path": "Machine-to-Machine Authentication.md"
+      "basename": "Reception, Staging, Onward Movement, and Integration",
+      "path": "Reception, Staging, Onward Movement, and Integration.md"
     },
     {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
+      "basename": "Line Officer",
+      "path": "Line Officer.md"
     },
     {
-      "basename": "Cache Write Strategy",
-      "path": "Cache Write Strategy.md"
-    },
-    {
-      "basename": "Secondary Index",
-      "path": "Secondary Index.md"
-    },
-    {
-      "basename": "Microservice",
-      "path": "Microservice.md"
-    },
-    {
-      "basename": "Internet Service Provider",
-      "path": "Internet Service Provider.md"
-    },
-    {
-      "basename": "CNAME Record",
-      "path": "CNAME Record.md"
-    },
-    {
-      "basename": "Wireless Access Point",
-      "path": "Wireless Access Point.md"
-    },
-    {
-      "basename": "Network Interface Card",
-      "path": "Network Interface Card.md"
-    },
-    {
-      "basename": "Virtual Private Cloud Peering",
-      "path": "Virtual Private Cloud Peering.md"
-    },
-    {
-      "basename": "Network Access Control List",
-      "path": "Network Access Control List.md"
-    },
-    {
-      "basename": "Certificate Chain",
-      "path": "Certificate Chain.md"
-    },
-    {
-      "basename": "Web Application Firewall",
-      "path": "Web Application Firewall.md"
+      "basename": "General Staff",
+      "path": "General Staff.md"
     },
     {
       "basename": "Transport Control Protocol",
@@ -97,16 +57,16 @@
       "path": "Loopback Address.md"
     },
     {
-      "basename": "Reception, Staging, Onward Movement, and Integration",
-      "path": "Reception, Staging, Onward Movement, and Integration.md"
-    },
-    {
       "basename": "Warfighting Function",
       "path": "Warfighting Function.md"
     },
     {
       "basename": "Combat Logistics Platoon",
       "path": "Combat Logistics Platoon.md"
+    },
+    {
+      "basename": "Brigade Combat Team",
+      "path": "Brigade Combat Team.md"
     },
     {
       "basename": "Encryption (Index)",
@@ -141,64 +101,104 @@
       "path": "Mutual TLS.md"
     },
     {
-      "basename": "Sticky Session",
-      "path": "Sticky Session.md"
+      "basename": "Certificate Chain",
+      "path": "Certificate Chain.md"
     },
     {
-      "basename": "Edge Server",
-      "path": "Edge Server.md"
+      "basename": "Network Access Control List",
+      "path": "Network Access Control List.md"
     },
     {
-      "basename": "Origin Server",
-      "path": "Origin Server.md"
+      "basename": "Virtual Private Cloud Peering",
+      "path": "Virtual Private Cloud Peering.md"
     },
     {
-      "basename": "Internet Control Message Protocol",
-      "path": "Internet Control Message Protocol.md"
+      "basename": "Network Interface Card",
+      "path": "Network Interface Card.md"
+    },
+    {
+      "basename": "Wireless Access Point",
+      "path": "Wireless Access Point.md"
+    },
+    {
+      "basename": "CNAME Record",
+      "path": "CNAME Record.md"
+    },
+    {
+      "basename": "Internet Service Provider",
+      "path": "Internet Service Provider.md"
+    },
+    {
+      "basename": "Microservice",
+      "path": "Microservice.md"
+    },
+    {
+      "basename": "Secondary Index",
+      "path": "Secondary Index.md"
+    },
+    {
+      "basename": "Cache Write Strategy",
+      "path": "Cache Write Strategy.md"
+    },
+    {
+      "basename": "Service-to-Service Authentication",
+      "path": "Service-to-Service Authentication.md"
+    },
+    {
+      "basename": "Machine-to-Machine Authentication",
+      "path": "Machine-to-Machine Authentication.md"
+    },
+    {
+      "basename": "OAuth",
+      "path": "OAuth.md"
+    },
+    {
+      "basename": "Light Support Battalion",
+      "path": "Light Support Battalion.md"
     },
     {
       "basename": "Classless Inter-Domain Routing",
       "path": "Classless Inter-Domain Routing.md"
     },
     {
-      "basename": "Protobuf",
-      "path": "Protobuf.md"
+      "basename": "Internet Control Message Protocol",
+      "path": "Internet Control Message Protocol.md"
     },
     {
-      "basename": "Vector Tile",
-      "path": "Vector Tile.md"
+      "basename": "Origin Server",
+      "path": "Origin Server.md"
     },
     {
-      "basename": "[Protobuf",
-      "path": "[Protobuf.md"
+      "basename": "Edge Server",
+      "path": "Edge Server.md"
     },
     {
-      "basename": "Combat Repair Team",
-      "path": "Combat Repair Team.md"
+      "basename": "Sticky Session",
+      "path": "Sticky Session.md"
     },
     {
-      "basename": "Light Logistics Cluster",
-      "path": "Light Logistics Cluster.md"
+      "basename": "Battalion",
+      "path": "Battalion.md"
     },
     {
-      "basename": "Row-Level Security",
-      "path": "Row-Level Security.md"
+      "basename": "Brigade",
+      "path": "Brigade.md"
     },
     {
-      "basename": "Internet Gateway",
-      "path": "Internet Gateway.md"
+      "basename": "Division",
+      "path": "Division.md"
     },
     {
-      "basename": "Container",
-      "path": "Container.md"
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
     },
     {
-      "basename": "Kubernetes",
-      "path": "Kubernetes.md"
+      "basename": "Networking (Index)",
+      "path": "Networking (Index).md"
     },
     {
-      "basename": "Domain-Specific Language",
-      "path": "Domain-Specific Language.md"
+      "basename": "Web Application Firewall",
+      "path": "Web Application Firewall.md"
     }
   ],
   "omittedPaths": [],
