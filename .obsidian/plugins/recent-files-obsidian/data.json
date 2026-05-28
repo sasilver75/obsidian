@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Session",
+      "path": "Session.md"
+    },
+    {
+      "basename": "Service-to-Service Authentication",
+      "path": "Service-to-Service Authentication.md"
+    },
+    {
+      "basename": "Durable Execution Engine",
+      "path": "Durable Execution Engine.md"
+    },
+    {
+      "basename": "Cross-Site Request Forgery",
+      "path": "Cross-Site Request Forgery.md"
+    },
+    {
+      "basename": "User Access Token",
+      "path": "User Access Token.md"
+    },
+    {
       "basename": "Company Trains",
       "path": "Company Trains.md"
     },
@@ -141,10 +161,6 @@
       "path": "Cache Write Strategy.md"
     },
     {
-      "basename": "Service-to-Service Authentication",
-      "path": "Service-to-Service Authentication.md"
-    },
-    {
       "basename": "Machine-to-Machine Authentication",
       "path": "Machine-to-Machine Authentication.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Brigade",
       "path": "Brigade.md"
-    },
-    {
-      "basename": "Division",
-      "path": "Division.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
-    },
-    {
-      "basename": "Web Application Firewall",
-      "path": "Web Application Firewall.md"
     }
   ],
   "omittedPaths": [],

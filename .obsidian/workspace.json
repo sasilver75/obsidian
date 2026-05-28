@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b5165777586673be",
+        "id": "960f81f43ff03de9",
         "type": "tabs",
         "children": [
           {
-            "id": "7eeb841d14921803",
+            "id": "06e9f9d9bcd393c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company Trains.md",
+                "file": "Session.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Company Trains"
+              "title": "Session"
+            }
+          },
+          {
+            "id": "4d99b8c9fdcac13b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-Site Request Forgery.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cross-Site Request Forgery"
+            }
+          },
+          {
+            "id": "7db897b31fc847a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "User Access Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "User Access Token"
             }
           }
         ]
@@ -1910,10 +1958,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7eeb841d14921803",
+  "active": "06e9f9d9bcd393c2",
   "lastOpenFiles": [
-    "Field Trains Command Post.md",
+    "Service-to-Service Authentication.md",
+    "Durable Execution Engine.md",
+    "Cross-Site Request Forgery.md",
+    "Session.md",
+    "User Access Token.md",
     "Company Trains.md",
+    "Field Trains Command Post.md",
     "Tactical Operations Center.md",
     "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
     "Combat Trains Command Post.md",
@@ -1933,11 +1986,6 @@
     "Hash-based Message Authentication Code.md",
     "Internet Assigned Numbers Authority.md",
     "Internet Corporation for Assigned Names and Numbers.md",
-    "Fully Qualified Domain Name.md",
-    "Top-Level Domain.md",
-    "Cross-Origin Resource Sharing.md",
-    "Mutual TLS.md",
-    "Certificate Chain.md",
     "_attachments/Pasted image 20260528011813.png",
     "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",
