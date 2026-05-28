@@ -21,4 +21,7 @@ The [[Open Container Initiative]] (OCI) publishes the main container standards:
 
 Common options: [[Docker]], [[Podman]], [[Containerd]], [[Kubernetes]]
 
+> Think of it as the difference between a food truck and a restaurant.
+
+
 

@@ -1,0 +1,14 @@
+
+
+
+
+
+
+- [[Docker]] creates a ==Bridge Network==, a private network that exists on on that server. All containers connected to the same bridge network can communicate with each other using just container names!
+- [[Container]]s have their own private networking inside them! When our payment service container runs, it might listen on port 9090 inside the container. How do external requests reach that application running inside the container? We need to map the container's internal port to a port on the host server.
+- Now when we run containers on multiple servers... how do we have them communicate across servers? Docker's ==Overlay Network== creates a virtual network that spans multiple hosts, making containers on different servers appear as if they were on the same network!
+- But now we're managing hundreds of containers...across dozens of servers. Which servers should a new container run on? What happens when a container crashes? How do we troubleshoot when something goes wrong? How do you even know when a container crashed? How do containers find eachother when they keep moving around from server to server?
+- [[Kubernetes]] to the rescue! Think of it like an automated building manager that assigns apartments, ensures everything is running, and handles maintenance.
+	- A ==Pod== is a group of one or more Containers that work closely together. Usually it's just one container per pod. Each pod gets its own [[Internet Protocol|IP Address]]. Think of it as an Apartment, which gets its own address. Everyone living in that apartment shares that address. Pods are temporary, though; they can be created, destroyed, moved around, etc. Each time K8S creates a new pod, it gets a new IP address! So we shouldn't rely on ephemeral pods being around for a long time.
+	- ==Kubernetes Service== provides a stable IP address and [[Domain Name Service|DNS]] name that never changes, even as pods come and go! We create a service for each of our pods (e.g. Database pods), and the Service gets a permanent IP address (10.244.8.42) and DNS name (database-service). Now, when a Website Pod needs to connect to a Database Pod, it connects to the database-service Service instead, which connects to a healthy Database Pod. Think of it like a department phone number at a company. Crucial, because Pods are constantly being created and destroyed, and Services provide the stability we need.
+	- How do external applications contact our applications running in our K8s cluster? We use ==Kubernetes Ingress==. A single Ingress is like a reception desk that routes visitors to the right department, based on what they're asking for. A single ingress can handle all inbound traffic and route it based on rules that we configure ("All Requests to travelbuddy.com/api/booking go to the booking service, all to /api/payment go to the payment service.)

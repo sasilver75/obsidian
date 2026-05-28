@@ -27,7 +27,7 @@ When you zoom "between" zoom levels (e.g. zoom 10.6), frontend renderers like [[
 	- The rendered knows the tile's geographic bounds and maps those integers back to screen pixels; thi is partially why the format is compact (no floats, no CRS metadata)
 
 ## Encoding
-- The binary format is [[[Protobuf|Protocol Buffer]]s; ==this is why [[Mapbox Vector Tile|MVT]] files are small compared to [[GeoJSON]]==
+- The binary format is [[Protobuf|Protocol Buffer]]s; ==this is why [[Mapbox Vector Tile|MVT]] files are small compared to [[GeoJSON]]==
 
 
 At rest, can be stored as:

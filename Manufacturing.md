@@ -24,7 +24,7 @@ The four foundational manufacturing processes that are used to shape and build m
 	- Best used for larger, high-precision, less complex parts and materials that are tough to 3D print (e.g. solid metals, certain woods, and stones).
 	- Key methods:
 		- [[CNC Machining]]: Computer-controlled cutting of material using tools like [[Milling|Mill]]s, [[Turning|Lathe]]s, and [[Drilling|Drill]]s
-			- e.g. [[Routing]]
+			- e.g. [[Routing (Manufacturing)]]
 		- [[Milling]]: A machining process where rotating cutting tools remove material from a workpiece
 		- [[Turning]]: A workpiece rotates while a cutting tool shapes it.
 		- [[Drilling]]

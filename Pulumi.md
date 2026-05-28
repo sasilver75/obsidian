@@ -1,0 +1,1 @@
+An [[Infrastructure as Code]] (IaC) tool like [[Terraform]], except instead of writing in [[Yet Another Markup Langauge|YAML]] or a [[Domain-Specific Language]], you can write in Python, JavaScript, and a variety of other languages, and include logic, etc.

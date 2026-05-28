@@ -1,0 +1,126 @@
+
+
+
+
+
+
+Terms
+- [[OSI Model]]
+- [[Application Layer]] (Layer 7)
+- [[Transport Layer]] (Layer 4)
+- [[Network Layer]] (Layer 3)
+- [[Data Plane]]
+- [[Control Plane]]
+- [[Routing]]
+- [[Port]]
+- [[Middlebox]]
+- [[Multiplex]]
+- [[Head-of-Line Blocking]]
+- [[Internet Protocol]] (IP)
+- [[Transport Control Protocol]] (TCP)
+- [[Transport Layer Security]] (TLS)
+- [[User Datagram Protocol]] (UDP)
+- [[QUIC]]
+- [[Network Address Translation]] (NAT)
+- [[Subnet]]
+- [[Virtual Private Cloud]] (VPC)
+- [[Virtual Private Network]] (VPN)
+- [[Domain Name Service]] (DNS)
+- [[Reverse DNS]]
+- [[Network Time Protocol]] (NTP)
+- [[Secure Shell]] (SSH)
+- [[HTTP]]
+- [[HTTPS]]
+- [[HTTP 1.1]]
+- [[HTTP 2]]
+- [[HTTP 3]]
+- [[HTTP Range Request]]
+- [[Representational State Transfer]] (REST)
+- [[Remote Procedure Call]] (RPC)
+- [[gRPC]]
+- [[ConnectRPC]]
+- [[Protobuf]]
+- [[Webhook]]
+- [[Polling]]
+- [[Short Polling]]
+- [[Server-Sent Event]] (SSE)
+- [[WebSockets]]
+- [[WebRTC]]
+- [[WebTransport]]
+- [[API Gateway]]
+- [[Reverse Proxy]]
+- [[Forward Proxy]]
+- [[Content Delivery Network]]
+- [[GeoDNS]]
+- [[SSL Termination]]
+- [[TCP Termination]]
+- [[Load Balancing]]
+- [[Firewall]]
+- [[Network Firewall]]
+- [[Host Firewall]]
+- [[Web Application Firewall]]
+- [[Next-Generation Firewall]]
+- [[Certificate Authority]]
+- [[Signing]]
+- [[Encryption]]
+- [[Symmetric Key Encryption]]
+- [[Asymmetric Key Encryption]]
+- [[Tailscale]]
+- [[WireGuard]]
+- [[Service Mesh]]
+- [[Packet]]
+- [[Frame]]
+- [[Socket]]
+- [[Classless Inter-Domain Routing]] (CIDR)
+- [[IPv4]]
+- [[IPv6]]
+- [[Internet Control Message Protocol]] (ICMP)
+- [[Dynamic Host Configuration Protocol]] (DHCP)
+- [[Address Resolution Protocol]] (ARP)
+- [[Border Gateway Protocol]] (BGP)
+- [[Maximum Transmission Unit]] (MTU)
+- [[Bandwidth]]
+- [[Latency]]
+- [[Tail Latency]]
+- [[Throughput]]
+- [[Packet Loss]]
+- [[Congestion Control]]
+- [[Keepalive]]
+- [[Timeout]]
+- [[Health Check]]
+- [[Service Discovery]]
+- [[CNAME]]
+- [[A Record]]
+- [[Origin Server]]
+- [[Edge Server]]
+- [[Sticky Session]] (Session Affinity)
+- [[Mutual TLS]] (mTLS)
+- [[Cross-Origin Resource Sharing]] (CORS)
+- [[Domain Name]]
+- [[Fully Qualified Domain Name]] (FQDN)
+- [[Top-Level Domain]] (TLD)
+- [[Subdomain]]
+- [[Internet Corporation for Assigned Names and Numbers]] (ICANN)
+- [[Registrar]]
+- [[Internet Assigned Numbers Authority]] (IANA)
+- [[Authoritative Namserver]]
+- [[Root Nameserver]]
+- [[MAC Address]]
+- [[Loopback Address]]
+- [[Time to First Byte]] (TTFB)
+- [[Congestion Control]]
+- [[Backpressure]]
+- [[Flow Control]]
+- [[Certificate Chain]] (Chain of Trust)
+- [[Network Access Control List]] (Network ACL; NACL)
+- [[NAT Gateway]]
+- [[Private Link]]
+- [[Virtual Private Cloud Peering]] (VPC Peering)
+- [[Transit Gateway]]
+- [[Overlay Network]]
+- [[Traceroute]]
+- [[Netcat]]
+- [[Dig]]
+- [[Nslookup]]
+- [[Tcpdump]]
+- [[Wireshark]]

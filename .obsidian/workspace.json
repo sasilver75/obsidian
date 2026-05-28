@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reception, Staging, Onward Movement, and Integration.md",
+                "file": "Transport Control Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reception, Staging, Onward Movement, and Integration"
+              "title": "Transport Control Protocol"
+            }
+          },
+          {
+            "id": "85bff1aac86f6b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time to First Byte.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Time to First Byte"
+            }
+          },
+          {
+            "id": "09e22099da7b5768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loopback Address.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Loopback Address"
             }
           },
           {
@@ -104,12 +152,36 @@
             }
           },
           {
+            "id": "7bc4415f1496a14b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encryption (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Encryption (Index)"
+            }
+          },
+          {
             "id": "b5e6950b5796924d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combat Logistics Platoon.md",
+                "file": "Hash-based Message Authentication Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Combat Logistics Platoon"
+              "title": "Hash-based Message Authentication Code"
             }
           },
           {
-            "id": "51b167bc68724a83",
+            "id": "0945b4b24ad40aef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combat Repair Team.md",
+                "file": "Internet Assigned Numbers Authority.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Combat Repair Team"
+              "title": "Internet Assigned Numbers Authority"
             }
           },
           {
-            "id": "c270e6f60050e8d1",
+            "id": "cc64e34b19328fe9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Light Logistics Cluster.md",
+                "file": "Internet Corporation for Assigned Names and Numbers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Light Logistics Cluster"
+              "title": "Internet Corporation for Assigned Names and Numbers"
             }
           },
           {
-            "id": "e0fae8f93a36d515",
+            "id": "f3f6562d39049c2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Light Logistics Cluster.md",
+                "file": "Fully Qualified Domain Name.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +268,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Light Logistics Cluster"
+              "title": "Fully Qualified Domain Name"
             }
           },
           {
-            "id": "b5566a81ad6d0e37",
+            "id": "9aae051a541ac58e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S4 Officer.md",
+                "file": "Top-Level Domain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +292,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "S4 Officer"
+              "title": "Top-Level Domain"
             }
           },
           {
-            "id": "a49ffbd02efde27e",
+            "id": "4b9f5f61726bbd72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Support Operations Officer.md",
+                "file": "Cross-Origin Resource Sharing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +316,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Support Operations Officer"
+              "title": "Cross-Origin Resource Sharing"
             }
           },
           {
-            "id": "c491f0c2fb98b0de",
+            "id": "db72fc60100fb42f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logistics (Index).md",
+                "file": "Mutual TLS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,16 +340,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logistics (Index)"
+              "title": "Mutual TLS"
             }
           },
           {
-            "id": "cde4d0e8f57d49e6",
+            "id": "1265159093817647",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gallatin AI.md",
+                "file": "Sticky Session.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,16 +364,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gallatin AI"
+              "title": "Sticky Session"
             }
           },
           {
-            "id": "c47db0dfbc40b2a6",
+            "id": "5b655ebe8fe5fff2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synchronization Matrix.md",
+                "file": "Edge Server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,16 +388,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Synchronization Matrix"
+              "title": "Edge Server"
             }
           },
           {
-            "id": "1b7b81b8c18b33b7",
+            "id": "f57fa2c48261b066",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synchronization Matrix.md",
+                "file": "Origin Server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,16 +412,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Synchronization Matrix"
+              "title": "Origin Server"
             }
           },
           {
-            "id": "f55e61208a52ce96",
+            "id": "facd3f64e5e75d9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Surface Deployment and Distribution Command.md",
+                "file": "Internet Control Message Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,16 +436,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Surface Deployment and Distribution Command"
+              "title": "Internet Control Message Protocol"
             }
           },
           {
-            "id": "51a85c941120ed73",
+            "id": "665340170f1dcd11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logistics Release Point.md",
+                "file": "Classless Inter-Domain Routing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,16 +460,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logistics Release Point"
+              "title": "Classless Inter-Domain Routing"
             }
           },
           {
-            "id": "55abc78bcffdf2fe",
+            "id": "ad8f0e163f69102a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reception, Staging, Onward Movement, and Integration.md",
+                "file": "Networking (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -412,16 +484,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reception, Staging, Onward Movement, and Integration"
+              "title": "Networking (Index)"
             }
           },
           {
-            "id": "0e7d5f5e759a7484",
+            "id": "6d3be4886f98f69d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S4 Officer.md",
+                "file": "Virtual Private Cloud Peering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,16 +508,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "S4 Officer"
+              "title": "Virtual Private Cloud Peering"
             }
           },
           {
-            "id": "a052fe2ee707742e",
+            "id": "64a6ae6086847248",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logistics Package.md",
+                "file": "Network Access Control List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,16 +532,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logistics Package"
+              "title": "Network Access Control List"
             }
           },
           {
-            "id": "908e0adbebe57306",
+            "id": "2d6e5424b114491b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logistics Common Operating Picture.md",
+                "file": "Certificate Chain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,83 +556,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logistics Common Operating Picture"
-            }
-          },
-          {
-            "id": "e6499b6fbb965375",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S4 Officer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "S4 Officer"
-            }
-          },
-          {
-            "id": "57ce0d87f1c37e20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Theater Army.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Theater Army"
-            }
-          },
-          {
-            "id": "0cbbf1bef0e003ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Combat Trains Command Post.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Combat Trains Command Post"
+              "title": "Certificate Chain"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -2429,34 +2429,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cde4d0e8f57d49e6",
+  "active": "ad8f0e163f69102a",
   "lastOpenFiles": [
-    "Synchronization Matrix.md",
-    "Logistics Synchronization Matrix.md",
-    "Logistics (Index).md",
-    "Staff Officer.md",
-    "Surface Deployment and Distribution Command.md",
-    "Logistics Release Point.md",
+    "Virtual Private Cloud Peering.md",
+    "Networking (Index).md",
+    "Network Access Control List.md",
+    "Certificate Chain.md",
+    "Web Application Firewall.md",
+    "Transport Control Protocol.md",
+    "Time to First Byte.md",
+    "Loopback Address.md",
     "Reception, Staging, Onward Movement, and Integration.md",
-    "S4 Officer.md",
-    "Logistics Package.md",
-    "Logistics Common Operating Picture.md",
-    "Support Operations Officer.md",
-    "Joint Staff.md",
-    "Theater Army.md",
-    "Corps.md",
-    "Combat Logistics Company.md",
-    "Combat Logistics Platoon.md",
-    "Combat Repair Team.md",
-    "Combat Sustainment Support Battalion.md",
-    "Corps Sustainment Command.md",
-    "Supply Signal.md",
-    "Light Support Battalion.md",
-    "Brigade Combat Team.md",
-    "Unmanned Autonomous System.md",
-    "Light Logistics Cluster.md",
-    "Battalion.md",
     "Warfighting Function.md",
+    "Combat Logistics Platoon.md",
+    "Brigade Combat Team.md",
+    "Encryption (Index).md",
+    "Hash-based Message Authentication Code.md",
+    "Internet Assigned Numbers Authority.md",
+    "Internet Corporation for Assigned Names and Numbers.md",
+    "Fully Qualified Domain Name.md",
+    "Top-Level Domain.md",
+    "Cross-Origin Resource Sharing.md",
+    "Mutual TLS.md",
+    "Sticky Session.md",
+    "Edge Server.md",
+    "Origin Server.md",
+    "Internet Control Message Protocol.md",
+    "Classless Inter-Domain Routing.md",
+    "Protobuf.md",
+    "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",
     "_attachments/Pasted image 20260527133446.png",
     "_attachments/Pasted image 20260527133433.png",
@@ -2466,7 +2467,6 @@
     "_attachments/Pasted image 20260526204846.png",
     "_attachments/Pasted image 20260526204538.png",
     "_attachments/Pasted image 20260526204426.png",
-    "_attachments/Pasted image 20260526204409.png",
     "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
     "System Design in a Hurry - Anki Supplemental Basic.tsv",
     "System Design in a Hurry - Anki Basic.tsv",

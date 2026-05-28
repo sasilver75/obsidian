@@ -4,7 +4,7 @@ aliases:
 ---
 A middlebox is any network device that sits between the client and server, and does something to the traffic beyond just forwarding packets.
 
-The name is deliberately vague: It's the umbrella term for "all the stuff in the middle of the internet that isn't a plain [[Router]]".
+The name is deliberately vague: It's the umbrella term for "all the stuff in the middle of the internet that isn't a plain [[Routing|Router]]".
 - A pure router looks at the destination IP and forwards the packet.
 - A middlebox ==inspects, modifies, terminates, or filters traffic based on higher-layer information== ([[Transport Control Protocol|TCP]] state, [[Transport Layer Security|TLS]] metadata, [[HTTP]] headers, etc.)
 

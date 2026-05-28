@@ -2,7 +2,6 @@
 aliases:
   - Block Range Index
 ---
-
 A [[PostgreSQL|Postgres]] Block Range Index is a specialized, compact index designed for massive tables with ==naturally ordered data==, such as timestamps or sequential IDs.
 - Ideal for large, append-only datasets like logs, time-series, or sensor data.
 

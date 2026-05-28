@@ -2,7 +2,7 @@
 aliases:
   - GCSS
 ---
-Teh US ARmy's primary web-based [[Enterprise Resource Planning]] (ERP) logistics and financial system.
+The US Army's primary web-based [[Enterprise Resource Planning]] (ERP) logistics and financial system.
 - Integrates property accountability, supply, maintenance, and tactical finance into a single repository to track equipment readiness and logistics operation.
 
 Standard processes include:
