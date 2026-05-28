@@ -35,3 +35,34 @@ Works alongside other primary [[Staff Officer]]s to help commanders make informe
 - One position is not more/less likely than another to have a stronger logistician in it, it comes down to the brigade commander's preference. 
 - If the Brigade SPO and the Brigade S4 aren't working together and tracking the same requirements throughout the fight, there's going to be things that slip through the cracks
 
+
+
+
+# Comparison with [[S4 Officer]]
+- [[S4 Officer]] is the logistics staff officer for the **supported unit**.
+	- "What does my unit need to keep operating?"
+	- Internally focused
+- [[Support Operations Officer]] is the logistics officer for the **supporting sustainment unit**.
+	- "How do we provide support to all of the units that we're responsible for?"
+	- Externally focused
+- Simply:
+	- S4: Logistics staff inside the unit being supported
+	- SPO: Support planner inside the sustainment unit providing support
+
+
+Note that You see both [[S4 Officer|S4]]s and [[Support Operations Officer|SPO]]s at multiple tactical echelons.
+
+For S4's, you commonly see:
+- [[Battalion]] [[S4 Officer|S4]] officer: Logistics officer for a battalion
+- [[Brigade]] [[S4 Officer|S4]] officer: Logistics officer for a brigade
+- Sometimes Regiment equivalents, depending on organization
+The S4 works for that unit's commander and manages that unit's logistics planning, reporting, sustainment coordination, property/accountability concerns, and requirements.
+
+For SPOs, you commonly see them in:
+- [[Brigade Support Battalion]]s (BSBs)
+- [[Light Support Battalion]]s (LSB)
+- [[Combat Sustainment Support Battalion]] (CSSBs)
+- [[Division Sustainment Support Battalion]] (DSSBs)
+- [[Division Sustainment Brigade]] (DSBs)
+- [[Expeditionary Sustainment Command]]s  (ESCs)
+The SPO works for the sustainment commander, and coordinates support to customer/supported units.

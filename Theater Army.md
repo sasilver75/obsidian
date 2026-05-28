@@ -1,3 +1,7 @@
+---
+aliases:
+  - Field Army
+---
 
 US Army has:
 - USARPAC (Pacific)

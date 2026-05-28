@@ -121,7 +121,7 @@ Video: [Palantir for Builders | Deploying into Maven Smart System ft. Gallatin A
 But let's play through a scenario:
 - We heard over the radio that their MREs got totally wiped out.
 - We save this, and then... we regenerate ==Courses of Actions== (usually done over actions by a team), and it happens nearly immediately here. We have to resupply them!
-- We go to our LOGSYNCH Matrix ([[Synchronization Matrix|Synch Matrix]]), which is a standard tool to understand what the movement of resupply convoys... usually you hold a LOGSYNCH meeting twice a day. 
+- We go to our LOGSYNC Matrix, which is a standard tool to understand what the movement of resupply convoys... usually you hold a LOGSYNC meeting twice a day. 
 - Our users love using this in war-gaming scenarios; you can simulate time, so that it's not the real time showing here...
 - We can see the load plan, which shows that we're currently at 0 MREs, we're going to resupply them with 257, and then they'll be at 257... this breaks down, and you can see what the convoy is made up of... and you can see the utilization of the actual underlying "prymovers" (?) transporting assets...
 - In the case of autonomous convoys, we can do this automatically. 

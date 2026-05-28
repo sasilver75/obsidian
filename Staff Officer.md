@@ -17,7 +17,9 @@ Staff Officers are usually organized into specialized departments based on their
 - Specialized Staff: Includes SMEs like Unit chaplains, medical officers, and legal advisors/judge advocates.
 
 
-# [[Staff Officer|S-Staff]] vs [[General Staff|G-Staff]]
+# [[Staff Officer|S-Staff]] (Staff Officers) vs [[General Staff|G-Staff]] (General Staff)
 - Usually used to differentiate these lower-[[Army Echelons|Echelon]] teams from the larger General Staff ([[General Staff|G-Staff]]), which operates at a higher, [[Division]]-level and above headquarters.
 	- Again, S-Staff in contrast operates at the [[Brigade]], [[Regiment]], and [[Battalion]] levels.
+	- G-Staff are typically found at [[Division]] and [[Corps]] level
+	- 
 

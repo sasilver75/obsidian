@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9085ee67aa47ce93",
+        "id": "3a8e98ddd1f4eae8",
         "type": "tabs",
         "children": [
           {
-            "id": "ad5eab30118555fc",
+            "id": "fc84801bfdb8c576",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "True Anomaly.md",
+                "file": "Reception, Staging, Onward Movement, and Integration.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,539 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "True Anomaly"
+              "title": "Reception, Staging, Onward Movement, and Integration"
+            }
+          },
+          {
+            "id": "508465d168ae0fa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Warfighting Function.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Warfighting Function"
+            }
+          },
+          {
+            "id": "f3904c14cc27bca0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combat Logistics Platoon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Combat Logistics Platoon"
+            }
+          },
+          {
+            "id": "0b3346d3edfa0d9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brigade Combat Team.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Brigade Combat Team"
+            }
+          },
+          {
+            "id": "b5e6950b5796924d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combat Logistics Platoon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Combat Logistics Platoon"
+            }
+          },
+          {
+            "id": "51b167bc68724a83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combat Repair Team.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Combat Repair Team"
+            }
+          },
+          {
+            "id": "c270e6f60050e8d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Light Logistics Cluster.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Light Logistics Cluster"
+            }
+          },
+          {
+            "id": "e0fae8f93a36d515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Light Logistics Cluster.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Light Logistics Cluster"
+            }
+          },
+          {
+            "id": "b5566a81ad6d0e37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "S4 Officer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "S4 Officer"
+            }
+          },
+          {
+            "id": "a49ffbd02efde27e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Support Operations Officer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Support Operations Officer"
+            }
+          },
+          {
+            "id": "c491f0c2fb98b0de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics (Index)"
+            }
+          },
+          {
+            "id": "cde4d0e8f57d49e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gallatin AI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gallatin AI"
+            }
+          },
+          {
+            "id": "c47db0dfbc40b2a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synchronization Matrix.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Synchronization Matrix"
+            }
+          },
+          {
+            "id": "1b7b81b8c18b33b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synchronization Matrix.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Synchronization Matrix"
+            }
+          },
+          {
+            "id": "f55e61208a52ce96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Surface Deployment and Distribution Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Surface Deployment and Distribution Command"
+            }
+          },
+          {
+            "id": "51a85c941120ed73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics Release Point.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics Release Point"
+            }
+          },
+          {
+            "id": "55abc78bcffdf2fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reception, Staging, Onward Movement, and Integration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reception, Staging, Onward Movement, and Integration"
+            }
+          },
+          {
+            "id": "0e7d5f5e759a7484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "S4 Officer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "S4 Officer"
+            }
+          },
+          {
+            "id": "a052fe2ee707742e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics Package.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics Package"
+            }
+          },
+          {
+            "id": "908e0adbebe57306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics Common Operating Picture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics Common Operating Picture"
+            }
+          },
+          {
+            "id": "e6499b6fbb965375",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "S4 Officer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "S4 Officer"
+            }
+          },
+          {
+            "id": "57ce0d87f1c37e20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theater Army.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Theater Army"
+            }
+          },
+          {
+            "id": "0cbbf1bef0e003ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combat Trains Command Post.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Combat Trains Command Post"
             }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -1900,39 +2429,39 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ad5eab30118555fc",
+  "active": "cde4d0e8f57d49e6",
   "lastOpenFiles": [
-    "Apigee (GCP Managed Gateway).md",
-    "Apigee.md",
-    "True Anomaly.md",
-    "Argument of Periapsis.md",
-    "Periapsis.md",
+    "Synchronization Matrix.md",
+    "Logistics Synchronization Matrix.md",
+    "Logistics (Index).md",
+    "Staff Officer.md",
+    "Surface Deployment and Distribution Command.md",
+    "Logistics Release Point.md",
+    "Reception, Staging, Onward Movement, and Integration.md",
+    "S4 Officer.md",
+    "Logistics Package.md",
+    "Logistics Common Operating Picture.md",
+    "Support Operations Officer.md",
+    "Joint Staff.md",
+    "Theater Army.md",
+    "Corps.md",
+    "Combat Logistics Company.md",
+    "Combat Logistics Platoon.md",
+    "Combat Repair Team.md",
+    "Combat Sustainment Support Battalion.md",
+    "Corps Sustainment Command.md",
+    "Supply Signal.md",
+    "Light Support Battalion.md",
+    "Brigade Combat Team.md",
+    "Unmanned Autonomous System.md",
+    "Light Logistics Cluster.md",
+    "Battalion.md",
+    "Warfighting Function.md",
     "_attachments/Pasted image 20260527135206.png",
     "_attachments/Pasted image 20260527133446.png",
     "_attachments/Pasted image 20260527133433.png",
-    "Right Ascension of the Ascending Node.md",
     "_attachments/Pasted image 20260527133334.png",
     "_attachments/Pasted image 20260527133236.png",
-    "UltraLLaMA.md",
-    "Orbital Elements.md",
-    "Mean Anomaly.md",
-    "Inclination.md",
-    "Eccentricity.md",
-    "Capacity.md",
-    "Semi-Major Axis.md",
-    "Geospatial Intelligence.md",
-    "Bluetooth Low Energy.md",
-    "Army Echelons.md",
-    "Organic.md",
-    "F3EAD.md",
-    "US Transportation Command.md",
-    "Unified Combatant Command.md",
-    "US Space Command.md",
-    "US Africa Command.md",
-    "US Southern Command.md",
-    "US Northern Command.md",
-    "Warfighting Function.md",
-    "US Indo-Pacific Command.md",
     "_attachments/Pasted image 20260527121723.png",
     "_attachments/Pasted image 20260526204846.png",
     "_attachments/Pasted image 20260526204538.png",
