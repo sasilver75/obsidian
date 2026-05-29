@@ -2,4 +2,5 @@
 aliases:
   - Signed
   - Sign
+  - Signature
 ---

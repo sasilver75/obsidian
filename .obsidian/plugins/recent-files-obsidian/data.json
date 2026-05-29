@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
+    },
+    {
+      "basename": "JSON Web Key Set",
+      "path": "JSON Web Key Set.md"
+    },
+    {
+      "basename": "Signing",
+      "path": "Signing.md"
+    },
+    {
+      "basename": "TLS Termination",
+      "path": "TLS Termination.md"
+    },
+    {
+      "basename": "TCP Termination",
+      "path": "TCP Termination.md"
+    },
+    {
+      "basename": "Proxy",
+      "path": "Proxy.md"
+    },
+    {
       "basename": "Session",
       "path": "Session.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "OAuth",
       "path": "OAuth.md"
-    },
-    {
-      "basename": "Light Support Battalion",
-      "path": "Light Support Battalion.md"
-    },
-    {
-      "basename": "Classless Inter-Domain Routing",
-      "path": "Classless Inter-Domain Routing.md"
-    },
-    {
-      "basename": "Internet Control Message Protocol",
-      "path": "Internet Control Message Protocol.md"
-    },
-    {
-      "basename": "Origin Server",
-      "path": "Origin Server.md"
-    },
-    {
-      "basename": "Edge Server",
-      "path": "Edge Server.md"
-    },
-    {
-      "basename": "Sticky Session",
-      "path": "Sticky Session.md"
-    },
-    {
-      "basename": "Battalion",
-      "path": "Battalion.md"
-    },
-    {
-      "basename": "Brigade",
-      "path": "Brigade.md"
     }
   ],
   "omittedPaths": [],

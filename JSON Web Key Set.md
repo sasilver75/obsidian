@@ -2,6 +2,40 @@
 aliases:
   - JWKS
 ---
+A published set of public keys that services use to verify [[JSON Web Token|JWT]] [[Signing|Signature]]s.
+
+- Authentication service signs a new [[JSON Web Token|JWT]] with a [[Asymmetric Key Encryption|Private Key]]
+	- The auth service exposes something like `https://auth.example.com/.well-known/jwks.json`, which other servers can retrieve when needed and store in their locak JWKS cache.
+- Other services then verify incoming [[JSON Web Token|JWT]]s with the public key from [[JSON Web Key Set|JWKS]]
+	- When a service receives an incoming JWT:
+		1. Decode JWT header
+		2. Read `kid = key-123`
+		3. Fetch/cache [[JSON Web Key Set|JWKS]] from trusted issuer
+		4. Find public key with `kid=key-123`
+		5. Verify signature
+		6. Validate claims: `iss`, `aud`, `exp`, `nbf`, scopes.
+		7. Authorize the request
+
+The JWKS contains public keys, with fields like:
+```
+  {
+    "keys": [
+      {
+        "kid": "key-123",
+        "kty": "RSA",
+        "alg": "RS256",
+        "use": "sig",
+        "n": "...",
+        "e": "..."
+      }
+    ]
+  }
+```
+
+
+
+__________
+
 A JSON document containing the set of [[Asymmetric Key Encryption|Public Key]]s that a server uses to sign [[JSON Web Token|JWT]]s.
 - Clients (or resource servers) fetch it to *verify token signatures* without having to hard-code or pre-share keys!
 - Enables [[Key Rotation]]: the issuer can publish a new key, start signing with it, and old/new keys can coexist in the set during the transition.

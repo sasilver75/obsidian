@@ -33,13 +33,24 @@ Tradeoffs:
 	- Scaling means coordinate connections accross servers.
 - ❌: No built-in reconnect, auth refresh, or message ordering guarantees; you have to build this.
 - ❌: Proxies/firewalls sometimes interfere; long-running connections cost more than short HTTP requests on some platforms.
-
-
 # Alternatives
 - [[Server-Sent Event]] (SSE): Server -> client only, simpler, runs over plain HTTP. Good when you don't need client -> server streaming.
 - [[Long Polling]]: Fallback for environments that block WebSockets.
 - [[WebTransport]]: A newer bidirectional protocol built on [[HTTP 3]] + [[QUIC]], supporting unreliable datagrams (good for games). Not yet universal.
 - Higher-level libs: Socket.IO (adds reconnect, rooms, fallbacks, etc.)
+
+
+# Why is it better to use a [[Transport Layer|Layer 4]] Load Balancer for WebSockets?
+- WebSockets start as [[HTTP]], but then upgrade into a long-lived bidirectional connection. After the upgrade, the connection is no longer normal request/response HTTP traffic: It becomes a persistent TCP connection carrying WebSocket frames.
+- This creates an issue for [[Application Layer|Layer 7]] load balancers:
+	- Connections must stay open for long time
+	- LB must maintain connection state
+	- Request-level routing matters only at connection setup
+	- There may be no normal HTTP requests after upgrade
+	- Some L7 features like per-request routing, buffering, retries, response integration don't apply well
+	- ((Basically, L7 are typically based on routing using HTTP features; WebSockets, other than the setup, aren't HTTP -- they're another application layer protocol))
+- An L4 load balancer is a good fit, because WebSockets are ultimately long-lived TCP connections. The L4 LB just keeps the TCP flow mapped to one backend; it doesn't need ot understand every WebSocket message.
+
 
 
 

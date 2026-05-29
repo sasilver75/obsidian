@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session.md",
+                "file": "TCP Termination.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Session"
+              "title": "TCP Termination"
+            }
+          },
+          {
+            "id": "d6c114a0420b00ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WebSockets.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "WebSockets"
+            }
+          },
+          {
+            "id": "8654b63f910be4d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSON Web Key Set.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JSON Web Key Set"
+            }
+          },
+          {
+            "id": "7ba690f6cb5cd6dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Signing"
+            }
+          },
+          {
+            "id": "ce301b194d4097af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proxy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Proxy"
             }
           },
           {
@@ -79,7 +175,8 @@
               "title": "User Access Token"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1958,12 +2055,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "06e9f9d9bcd393c2",
+  "active": "d6c114a0420b00ac",
   "lastOpenFiles": [
+    "Pagination.md",
+    "JSON Web Token.md",
+    "JSON Web Key Set.md",
+    "Signing.md",
+    "TLS Termination.md",
+    "TCP Termination.md",
+    "Proxy.md",
+    "Session.md",
     "Service-to-Service Authentication.md",
     "Durable Execution Engine.md",
     "Cross-Site Request Forgery.md",
-    "Session.md",
     "User Access Token.md",
     "Company Trains.md",
     "Field Trains Command Post.md",
@@ -1979,13 +2083,6 @@
     "Transport Control Protocol.md",
     "Time to First Byte.md",
     "Loopback Address.md",
-    "Warfighting Function.md",
-    "Combat Logistics Platoon.md",
-    "Brigade Combat Team.md",
-    "Encryption (Index).md",
-    "Hash-based Message Authentication Code.md",
-    "Internet Assigned Numbers Authority.md",
-    "Internet Corporation for Assigned Names and Numbers.md",
     "_attachments/Pasted image 20260528011813.png",
     "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",
