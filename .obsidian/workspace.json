@@ -4,155 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "960f81f43ff03de9",
+        "id": "a9b8e1da6f4944c6",
         "type": "tabs",
         "children": [
           {
-            "id": "06e9f9d9bcd393c2",
+            "id": "a056b09f05f88f4f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joule.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Joule"
-            }
-          },
-          {
-            "id": "7b81b49743a81c0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Energy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Energy"
-            }
-          },
-          {
-            "id": "a8c1abd0c7c1623d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electron (JavaScript).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Electron (JavaScript)"
-            }
-          },
-          {
-            "id": "784b5d1c08e3e9d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-to-Analog Converter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Digital-to-Analog Converter"
-            }
-          },
-          {
-            "id": "5ff7c3eb2d3e8cbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analog-to-Digital Converter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Analog-to-Digital Converter"
-            }
-          },
-          {
-            "id": "5be706198ba10684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electronics (Index).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Electronics (Index)"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -2031,8 +1896,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5be706198ba10684",
+  "active": "a056b09f05f88f4f",
   "lastOpenFiles": [
+    "Joule.md",
+    "Energy.md",
+    "Electron (JavaScript).md",
+    "Digital-to-Analog Converter.md",
+    "Analog-to-Digital Converter.md",
+    "Electronics (Index).md",
     "Ampere.md",
     "Radio Frequency.md",
     "Printed Circuit Board.md",
@@ -2053,12 +1924,6 @@
     "JSON Web Key Set.md",
     "Signing.md",
     "Proxy.md",
-    "Cross-Site Request Forgery.md",
-    "User Access Token.md",
-    "Electronics (Index).md",
-    "Alternating Current.md",
-    "Analog-to-Digital Converter.md",
-    "Digital-to-Analog Converter.md",
     "_attachments/Pasted image 20260528011813.png",
     "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",
