@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design (Index).md",
+                "file": "Joule.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design (Index)"
+              "title": "Joule"
+            }
+          },
+          {
+            "id": "7b81b49743a81c0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Energy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Energy"
+            }
+          },
+          {
+            "id": "a8c1abd0c7c1623d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electron (JavaScript).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Electron (JavaScript)"
             }
           },
           {
@@ -37,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operational Order.md",
+                "file": "Electronics (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +100,127 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Operational Order"
+              "title": "Electronics (Index)"
+            }
+          },
+          {
+            "id": "5be706198ba10684",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alternating Current.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Alternating Current"
+            }
+          },
+          {
+            "id": "866432b333ba9dff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Direct Current.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Direct Current"
+            }
+          },
+          {
+            "id": "795c7627882dc98f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Signal"
+            }
+          },
+          {
+            "id": "e2cd5a975ee049cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kirchhoff's Voltage Law.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kirchhoff's Voltage Law"
+            }
+          },
+          {
+            "id": "9c523164146c5000",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kirchhoff's Current Law.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kirchhoff's Current Law"
             }
           },
           {
@@ -61,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Partition.md",
+                "file": "Irradiance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +244,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Partition"
+              "title": "Irradiance"
+            }
+          },
+          {
+            "id": "66fa9190b768a11b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Radiant Power.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Radiant Power"
+            }
+          },
+          {
+            "id": "e3f983cd6eb13327",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Watt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Watt"
             }
           },
           {
@@ -343,7 +559,8 @@
               "title": "User Access Token"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2222,34 +2439,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "06e9f9d9bcd393c2",
+  "active": "d6c114a0420b00ac",
   "lastOpenFiles": [
-    "TCP Termination.md",
-    "Operational Order.md",
+    "Alternating Current.md",
+    "Electronics (Index).md",
+    "Direct Current.md",
+    "Signal.md",
+    "Kirchhoff's Voltage Law.md",
+    "Kirchhoff's Current Law.md",
+    "Networking (Index).md",
+    "Irradiance.md",
+    "Radiant Power.md",
+    "Power.md",
+    "Joule.md",
+    "Watt.md",
     "Partition.md",
+    "Electron (JavaScript).md",
+    "Energy.md",
+    "User Access Token.md",
+    "Operational Order.md",
+    "Transducer.md",
+    "System Design (Index).md",
+    "TCP Termination.md",
     "Row-Level Security.md",
     "Attribute-Based Access Control.md",
     "Platform-Agnostic Security Token.md",
     "GIN Index.md",
     "Two-Phase Locking.md",
-    "System Design (Index).md",
-    "Networking (Index).md",
     "ACID.md",
-    "Operational Plan.md",
-    "Operational Control.md",
-    "Goodhardt's Law.md",
-    "WebSockets.md",
-    "Pagination.md",
-    "JSON Web Token.md",
-    "JSON Web Key Set.md",
-    "Signing.md",
-    "TLS Termination.md",
-    "Proxy.md",
-    "Session.md",
-    "Service-to-Service Authentication.md",
-    "Durable Execution Engine.md",
-    "Cross-Site Request Forgery.md",
-    "User Access Token.md",
     "_attachments/Pasted image 20260528011813.png",
     "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",

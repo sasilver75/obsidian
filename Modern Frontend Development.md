@@ -134,7 +134,7 @@ Hosting and deployment:
 - [[React Native]]: Still alive
 - [[Expo]]: Meta-framework over REact Native. Use this. Expo Router mirrors Next.js App Router.
 - React Native Web: Lets you share a codebase between web and mobile.
-- [[Electron]]: Still the industry standard for desktop apps
+- [[Electron (JavaScript)]]: Still the industry standard for desktop apps
 - [[Tauri]]: The Rust-backed Electron alternative for desktop.
 
 # Trends to Internalize:

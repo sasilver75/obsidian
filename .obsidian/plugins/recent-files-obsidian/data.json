@@ -1,20 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
+      "basename": "Electronics (Index)",
+      "path": "Electronics (Index).md"
     },
     {
-      "basename": "TCP Termination",
-      "path": "TCP Termination.md"
+      "basename": "Alternating Current",
+      "path": "Alternating Current.md"
+    },
+    {
+      "basename": "Direct Current",
+      "path": "Direct Current.md"
+    },
+    {
+      "basename": "Signal",
+      "path": "Signal.md"
+    },
+    {
+      "basename": "Kirchhoff's Voltage Law",
+      "path": "Kirchhoff's Voltage Law.md"
+    },
+    {
+      "basename": "Kirchhoff's Current Law",
+      "path": "Kirchhoff's Current Law.md"
+    },
+    {
+      "basename": "Networking (Index)",
+      "path": "Networking (Index).md"
+    },
+    {
+      "basename": "Irradiance",
+      "path": "Irradiance.md"
+    },
+    {
+      "basename": "Radiant Power",
+      "path": "Radiant Power.md"
+    },
+    {
+      "basename": "Power",
+      "path": "Power.md"
+    },
+    {
+      "basename": "Joule",
+      "path": "Joule.md"
+    },
+    {
+      "basename": "Watt",
+      "path": "Watt.md"
+    },
+    {
+      "basename": "Partition",
+      "path": "Partition.md"
+    },
+    {
+      "basename": "Electron (JavaScript)",
+      "path": "Electron (JavaScript).md"
+    },
+    {
+      "basename": "Energy",
+      "path": "Energy.md"
+    },
+    {
+      "basename": "User Access Token",
+      "path": "User Access Token.md"
     },
     {
       "basename": "Operational Order",
       "path": "Operational Order.md"
     },
     {
-      "basename": "Partition",
-      "path": "Partition.md"
+      "basename": "Transducer",
+      "path": "Transducer.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "TCP Termination",
+      "path": "TCP Termination.md"
     },
     {
       "basename": "Row-Level Security",
@@ -35,10 +99,6 @@
     {
       "basename": "Two-Phase Locking",
       "path": "Two-Phase Locking.md"
-    },
-    {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
     },
     {
       "basename": "ACID",
@@ -101,10 +161,6 @@
       "path": "Cross-Site Request Forgery.md"
     },
     {
-      "basename": "User Access Token",
-      "path": "User Access Token.md"
-    },
-    {
       "basename": "Company Trains",
       "path": "Company Trains.md"
     },
@@ -143,62 +199,6 @@
     {
       "basename": "Line Officer",
       "path": "Line Officer.md"
-    },
-    {
-      "basename": "General Staff",
-      "path": "General Staff.md"
-    },
-    {
-      "basename": "Transport Control Protocol",
-      "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "Time to First Byte",
-      "path": "Time to First Byte.md"
-    },
-    {
-      "basename": "Loopback Address",
-      "path": "Loopback Address.md"
-    },
-    {
-      "basename": "Warfighting Function",
-      "path": "Warfighting Function.md"
-    },
-    {
-      "basename": "Combat Logistics Platoon",
-      "path": "Combat Logistics Platoon.md"
-    },
-    {
-      "basename": "Brigade Combat Team",
-      "path": "Brigade Combat Team.md"
-    },
-    {
-      "basename": "Encryption (Index)",
-      "path": "Encryption (Index).md"
-    },
-    {
-      "basename": "Hash-based Message Authentication Code",
-      "path": "Hash-based Message Authentication Code.md"
-    },
-    {
-      "basename": "Internet Assigned Numbers Authority",
-      "path": "Internet Assigned Numbers Authority.md"
-    },
-    {
-      "basename": "Internet Corporation for Assigned Names and Numbers",
-      "path": "Internet Corporation for Assigned Names and Numbers.md"
-    },
-    {
-      "basename": "Fully Qualified Domain Name",
-      "path": "Fully Qualified Domain Name.md"
-    },
-    {
-      "basename": "Top-Level Domain",
-      "path": "Top-Level Domain.md"
-    },
-    {
-      "basename": "Cross-Origin Resource Sharing",
-      "path": "Cross-Origin Resource Sharing.md"
     }
   ],
   "omittedPaths": [],
