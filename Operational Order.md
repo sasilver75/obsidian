@@ -2,7 +2,6 @@
 aliases:
   - OPORD
 ---
-
 A structured military order that tells a unit what mission to execute, why, when, where, and how.
 
 Typically used to turn a commander's plan into clear instructions for subordinate users.

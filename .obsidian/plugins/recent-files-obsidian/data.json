@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "TCP Termination",
+      "path": "TCP Termination.md"
+    },
+    {
+      "basename": "Operational Order",
+      "path": "Operational Order.md"
+    },
+    {
+      "basename": "Partition",
+      "path": "Partition.md"
+    },
+    {
+      "basename": "Row-Level Security",
+      "path": "Row-Level Security.md"
+    },
+    {
+      "basename": "Attribute-Based Access Control",
+      "path": "Attribute-Based Access Control.md"
+    },
+    {
+      "basename": "Platform-Agnostic Security Token",
+      "path": "Platform-Agnostic Security Token.md"
+    },
+    {
+      "basename": "GIN Index",
+      "path": "GIN Index.md"
+    },
+    {
+      "basename": "Two-Phase Locking",
+      "path": "Two-Phase Locking.md"
+    },
+    {
+      "basename": "Networking (Index)",
+      "path": "Networking (Index).md"
+    },
+    {
+      "basename": "ACID",
+      "path": "ACID.md"
+    },
+    {
+      "basename": "Operational Plan",
+      "path": "Operational Plan.md"
+    },
+    {
+      "basename": "Operational Control",
+      "path": "Operational Control.md"
+    },
+    {
+      "basename": "Goodhardt's Law",
+      "path": "Goodhardt's Law.md"
+    },
+    {
       "basename": "WebSockets",
       "path": "WebSockets.md"
     },
@@ -23,10 +79,6 @@
     {
       "basename": "TLS Termination",
       "path": "TLS Termination.md"
-    },
-    {
-      "basename": "TCP Termination",
-      "path": "TCP Termination.md"
     },
     {
       "basename": "Proxy",
@@ -147,58 +199,6 @@
     {
       "basename": "Cross-Origin Resource Sharing",
       "path": "Cross-Origin Resource Sharing.md"
-    },
-    {
-      "basename": "Mutual TLS",
-      "path": "Mutual TLS.md"
-    },
-    {
-      "basename": "Certificate Chain",
-      "path": "Certificate Chain.md"
-    },
-    {
-      "basename": "Network Access Control List",
-      "path": "Network Access Control List.md"
-    },
-    {
-      "basename": "Virtual Private Cloud Peering",
-      "path": "Virtual Private Cloud Peering.md"
-    },
-    {
-      "basename": "Network Interface Card",
-      "path": "Network Interface Card.md"
-    },
-    {
-      "basename": "Wireless Access Point",
-      "path": "Wireless Access Point.md"
-    },
-    {
-      "basename": "CNAME Record",
-      "path": "CNAME Record.md"
-    },
-    {
-      "basename": "Internet Service Provider",
-      "path": "Internet Service Provider.md"
-    },
-    {
-      "basename": "Microservice",
-      "path": "Microservice.md"
-    },
-    {
-      "basename": "Secondary Index",
-      "path": "Secondary Index.md"
-    },
-    {
-      "basename": "Cache Write Strategy",
-      "path": "Cache Write Strategy.md"
-    },
-    {
-      "basename": "Machine-to-Machine Authentication",
-      "path": "Machine-to-Machine Authentication.md"
-    },
-    {
-      "basename": "OAuth",
-      "path": "OAuth.md"
     }
   ],
   "omittedPaths": [],

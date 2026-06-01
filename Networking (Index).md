@@ -2,8 +2,6 @@
 
 
 
-
-
 Terms
 - [[OSI Model]]
 - [[Application Layer]] (Layer 7)

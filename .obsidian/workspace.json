@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCP Termination.md",
+                "file": "System Design (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TCP Termination"
+              "title": "System Design (Index)"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebSockets.md",
+                "file": "Operational Order.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WebSockets"
+              "title": "Operational Order"
+            }
+          },
+          {
+            "id": "6be168a7addf0e04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Partition.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Partition"
+            }
+          },
+          {
+            "id": "294a2d7379ce3f39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Row-Level Security.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Row-Level Security"
+            }
+          },
+          {
+            "id": "39bac939e4ecb9f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attribute-Based Access Control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Attribute-Based Access Control"
+            }
+          },
+          {
+            "id": "30e2f48617c7accd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Platform-Agnostic Security Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Platform-Agnostic Security Token"
+            }
+          },
+          {
+            "id": "42cf6bf60f8063e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GIN Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GIN Index"
+            }
+          },
+          {
+            "id": "f929ef0741660bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Two-Phase Locking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Two-Phase Locking"
+            }
+          },
+          {
+            "id": "4efd676338fdeead",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Networking (Index)"
             }
           },
           {
@@ -175,8 +343,7 @@
               "title": "User Access Token"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2055,34 +2222,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d6c114a0420b00ac",
+  "active": "06e9f9d9bcd393c2",
   "lastOpenFiles": [
+    "TCP Termination.md",
+    "Operational Order.md",
+    "Partition.md",
+    "Row-Level Security.md",
+    "Attribute-Based Access Control.md",
+    "Platform-Agnostic Security Token.md",
+    "GIN Index.md",
+    "Two-Phase Locking.md",
+    "System Design (Index).md",
+    "Networking (Index).md",
+    "ACID.md",
+    "Operational Plan.md",
+    "Operational Control.md",
+    "Goodhardt's Law.md",
+    "WebSockets.md",
     "Pagination.md",
     "JSON Web Token.md",
     "JSON Web Key Set.md",
     "Signing.md",
     "TLS Termination.md",
-    "TCP Termination.md",
     "Proxy.md",
     "Session.md",
     "Service-to-Service Authentication.md",
     "Durable Execution Engine.md",
     "Cross-Site Request Forgery.md",
     "User Access Token.md",
-    "Company Trains.md",
-    "Field Trains Command Post.md",
-    "Tactical Operations Center.md",
-    "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md",
-    "Combat Trains Command Post.md",
-    "Commanding Officer.md",
-    "Front Line of Troops.md",
-    "Logistics (Index).md",
-    "Reception, Staging, Onward Movement, and Integration.md",
-    "Line Officer.md",
-    "General Staff.md",
-    "Transport Control Protocol.md",
-    "Time to First Byte.md",
-    "Loopback Address.md",
     "_attachments/Pasted image 20260528011813.png",
     "_attachments/Pasted image 20260527220104.png",
     "_attachments/Pasted image 20260527135206.png",

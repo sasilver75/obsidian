@@ -69,8 +69,8 @@ Terms
 - [[Distributed Consensus|Consensus]]
 - [[Leader Election]]
 - [[Distributed Lock]]
-- [[Two-Phase Commit]]
-- [[Three-Phase Commit]]
+- [[Two-Phase Commit]] (2PC)
+- [[Three-Phase Commit]] (3PC)
 - [[Saga]]
 - [[Circuit Breaker]]
 - [[Backpressure]]
@@ -87,9 +87,58 @@ Terms
 - [[OpenID Connect]] (OIDC)
 - [[JSON Web Token]] (JWT)
 - [[JSON Web Key Set]] (JWKS)
+- [[Platform-Agnostic Security Token]] (PASETO)
 - [[Mutual TLS]] (mTLS)
 - [[Service-to-Service Authentication]] (S2S Auth)
 - [[Machine-to-Machine Authentication]] (M2M Auth)
 - [[Durable Execution Engine]]
+- [[ACID]]
+- [[Transaction]]
+- [[Distributed Transaction]]
+- [[Multiversion Concurrency Control]] (MVCC)
+- [[Optimistic Concurrency Control]] (OCC)
+- [[Pessimistic Concurrency Control]] (PCC)
+- [[Two-Phase Locking]] (2PL)
+- [[Linearizability]]
+- [[Serializability]]
+- [[Read-your-Writes Consistency]]
+- [[Causal Consistency]]
+- [[Consistent Hashing]]
+- [[Hot Spot]]
+- [[Full-Text Search Index]]
+- [[Geospatial Index]]
+- [[B-Tree]]
+- [[Hash Index]]
+- [[GIN Index]]
+- [[BRIN Index]]
+- [[Materialized View]]
+- [[Connection Pool]]
+- [[Sticky Session]]
+- [[Serverless]]
+- [[Role-Based Access Control]] (RBAC)
+- [[Attribute-Based Access Control]] (ABAC)
+- [[Relationship-Based Access Control]] (ReBAC)
+- [[Row-Level Security]] (RLS)
+- [[Cross-Site Request Forgery]] (CSRF)
+- [[Cross-Origin Resource Sharing]] (CORS)
+- [[Tail Latency]]
+- [[Bulkhead]]
+- [[Graceful Degradation]]
+- [[Health Check]]
+- [[Readiness Check]]
+- [[Liveness Check]]
+- [[Timeout]]
+- [[Session|User Session]]
+- [[User Access Token]]
+- [[Refresh Token]]
+- [[At Least Once]] Delivery
+- [[At Most Once]] Delivery
+- [[Exactly Once]] Delivery
+- [[Blue-Green Deployment]]
+- [[Canary Deployment]]
+- [[Feature Flag]]
+- [[Active-Active]]
+- [[Active-Passive]]
+
 
 
