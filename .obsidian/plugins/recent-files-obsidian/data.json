@@ -5,8 +5,20 @@
       "path": "Electronics (Index).md"
     },
     {
-      "basename": "Alternating Current",
-      "path": "Alternating Current.md"
+      "basename": "Ampere",
+      "path": "Ampere.md"
+    },
+    {
+      "basename": "Radio Frequency",
+      "path": "Radio Frequency.md"
+    },
+    {
+      "basename": "Printed Circuit Board",
+      "path": "Printed Circuit Board.md"
+    },
+    {
+      "basename": "Electronic Speed Controller",
+      "path": "Electronic Speed Controller.md"
     },
     {
       "basename": "Direct Current",
@@ -25,10 +37,6 @@
       "path": "Kirchhoff's Current Law.md"
     },
     {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
-    },
-    {
       "basename": "Irradiance",
       "path": "Irradiance.md"
     },
@@ -37,48 +45,8 @@
       "path": "Radiant Power.md"
     },
     {
-      "basename": "Power",
-      "path": "Power.md"
-    },
-    {
-      "basename": "Joule",
-      "path": "Joule.md"
-    },
-    {
       "basename": "Watt",
       "path": "Watt.md"
-    },
-    {
-      "basename": "Partition",
-      "path": "Partition.md"
-    },
-    {
-      "basename": "Electron (JavaScript)",
-      "path": "Electron (JavaScript).md"
-    },
-    {
-      "basename": "Energy",
-      "path": "Energy.md"
-    },
-    {
-      "basename": "User Access Token",
-      "path": "User Access Token.md"
-    },
-    {
-      "basename": "Operational Order",
-      "path": "Operational Order.md"
-    },
-    {
-      "basename": "Transducer",
-      "path": "Transducer.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "TCP Termination",
-      "path": "TCP Termination.md"
     },
     {
       "basename": "Row-Level Security",
@@ -99,6 +67,86 @@
     {
       "basename": "Two-Phase Locking",
       "path": "Two-Phase Locking.md"
+    },
+    {
+      "basename": "Networking (Index)",
+      "path": "Networking (Index).md"
+    },
+    {
+      "basename": "JSON Web Key Set",
+      "path": "JSON Web Key Set.md"
+    },
+    {
+      "basename": "Signing",
+      "path": "Signing.md"
+    },
+    {
+      "basename": "Proxy",
+      "path": "Proxy.md"
+    },
+    {
+      "basename": "Cross-Site Request Forgery",
+      "path": "Cross-Site Request Forgery.md"
+    },
+    {
+      "basename": "User Access Token",
+      "path": "User Access Token.md"
+    },
+    {
+      "basename": "Alternating Current",
+      "path": "Alternating Current.md"
+    },
+    {
+      "basename": "Analog-to-Digital Converter",
+      "path": "Analog-to-Digital Converter.md"
+    },
+    {
+      "basename": "Digital-to-Analog Converter",
+      "path": "Digital-to-Analog Converter.md"
+    },
+    {
+      "basename": "Electron (JavaScript)",
+      "path": "Electron (JavaScript).md"
+    },
+    {
+      "basename": "Energy",
+      "path": "Energy.md"
+    },
+    {
+      "basename": "Joule",
+      "path": "Joule.md"
+    },
+    {
+      "basename": "Drone",
+      "path": "Drone.md"
+    },
+    {
+      "basename": "Brushless Motor",
+      "path": "Brushless Motor.md"
+    },
+    {
+      "basename": "Power",
+      "path": "Power.md"
+    },
+    {
+      "basename": "Partition",
+      "path": "Partition.md"
+    },
+    {
+      "basename": "Operational Order",
+      "path": "Operational Order.md"
+    },
+    {
+      "basename": "Transducer",
+      "path": "Transducer.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "TCP Termination",
+      "path": "TCP Termination.md"
     },
     {
       "basename": "ACID",
@@ -129,20 +177,8 @@
       "path": "JSON Web Token.md"
     },
     {
-      "basename": "JSON Web Key Set",
-      "path": "JSON Web Key Set.md"
-    },
-    {
-      "basename": "Signing",
-      "path": "Signing.md"
-    },
-    {
       "basename": "TLS Termination",
       "path": "TLS Termination.md"
-    },
-    {
-      "basename": "Proxy",
-      "path": "Proxy.md"
     },
     {
       "basename": "Session",
@@ -157,48 +193,12 @@
       "path": "Durable Execution Engine.md"
     },
     {
-      "basename": "Cross-Site Request Forgery",
-      "path": "Cross-Site Request Forgery.md"
-    },
-    {
       "basename": "Company Trains",
       "path": "Company Trains.md"
     },
     {
       "basename": "Field Trains Command Post",
       "path": "Field Trains Command Post.md"
-    },
-    {
-      "basename": "Tactical Operations Center",
-      "path": "Tactical Operations Center.md"
-    },
-    {
-      "basename": "Probability for CS (4) Conditional Probability and Bayes",
-      "path": "Courses/Math/CS109 Probability for Computer Scientists @ Stanford (2022)/Probability for CS (4) Conditional Probability and Bayes.md"
-    },
-    {
-      "basename": "Combat Trains Command Post",
-      "path": "Combat Trains Command Post.md"
-    },
-    {
-      "basename": "Commanding Officer",
-      "path": "Commanding Officer.md"
-    },
-    {
-      "basename": "Front Line of Troops",
-      "path": "Front Line of Troops.md"
-    },
-    {
-      "basename": "Logistics (Index)",
-      "path": "Logistics (Index).md"
-    },
-    {
-      "basename": "Reception, Staging, Onward Movement, and Integration",
-      "path": "Reception, Staging, Onward Movement, and Integration.md"
-    },
-    {
-      "basename": "Line Officer",
-      "path": "Line Officer.md"
     }
   ],
   "omittedPaths": [],

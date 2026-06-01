@@ -1,73 +1,113 @@
 
 Terms
-- [[Electron]]
-- [[Electric Charge]]
-- [[Coulomb]]
-- [[Coulomb's Law]]
-- [[Electric Field]]
-- [[Voltage]]
-- [[Current]]
-- [[Resistance]]
-- [[Conductance]]
-- [[Power]]
-- [[Energy]]
-- [[Joule]]
-- [[Watt]]
-- [[Ohm's Law]]
-- [[Kirchhoff's Current Law]] (KCL)
-- [[Kirchhoff's Voltage Law]] (KVL)
-- [[Ground]]
-- [[Short Circuit]]
-- [[Open Circuit]]
-- [[Close Circuit]]
-- [[Circuit]]
-- [[Series Circuit]]
-- [[Parallel Circuit]]
-- [[Voltage Divider]]
-- [[Current Divider]]
-- [[Nodal Analysis]]
-- [[Mesh Analysis]]
-- [[Thevenin's Theorem]]
-- [[Norton's Theorem]]
-- [[Superposition Theorem]]
-- [[Source Transformation]]
-- [[Equivalent Resistance]]
-- [[Load]]
-- [[Resistor]]
-	- [[Pull-Up Resistor]]
-	- [[Pull-Down Resistor]]
-- [[Potentiometer]]
-- [[Capacitor]]
-	- [[Decoupling Capacitor]]
-	- [[Bypass Capacitor]]
-- [[Inductor]]
-- [[Fuse]]
-- [[Thermistor]]
-- [[Varistor]]
-- [[Signal]]
-- [[Direct Current]] (DC)
-- [[Alternating Current]] (AC)
-- [[Frequency]]
-- [[Period]]
-- [[Amplitude]]
-- [[Phase]]
-- [[Duty Cycle]]
-- [[Peak-to-Peak Voltage]]
-- [[Impedance]]
-- [[Reactance]]
-	- [[Capacitive Reactance]]
-	- [[Inductive Reactance]]
-- [[RC Circuit]]
-- [[RL Circuit]]
-- [[RLC Circuit]]
-- [[Time Constant]]
-- [[Low-Pass Filter]]
-- [[High-Pass Filter]]
-- [[Band-Pass Filter]]
-- [[Band-Stop Filter]]
-- [[Integrator Circuit]]
-- [[Differentiator Circuit]]
-- [[Step Response]]
-- [[Frequency Response]]
-- [[]]
-
+- [[Electron]]: A negatively charged subatomic particle carrying electric charge through conductors and semiconductors.
+- [[Electric Charge]]: A physical property of matter that causes electromagnetic attraction or repulsion.
+- [[Coulomb]]: The [[International System of Units|SI]] unit of electric charge; the charge moved by one [[Ampere]] of current in one second.
+- [[Coulomb's Law]]: The law describing the electric force between two charge as being proportional to their charges and inversely proportional to the square of their distance.
+- [[Electric Field]]: The region around a charge where other charges experience electric force.
+- [[Conductor]]: Material that allows charge to flow easily.
+- [[Insulator]]: A material that strongly resists electrical current flow, because its charges are not free to move easily.
+- [[Semiconductor]]: Material whose conductivity can be controlled, used in diodes, transistors, ICs, and sensors.
+- [[Voltage]]: Electric potential differences, meaning energy per unit charge between two points.
+- [[Volt]]:  The [[International System of Units|SI]] unit of voltage.
+- [[Current]]: The rate at which electric charge moves through a point in a circuit.
+- [[Ampere]]: The [[International System of Units|SI]] unit of current.
+- [[Resistance]]: The opposition to electric current.
+- [[Ohm]]: The [[International System of Units|SI]] unit of Resistance.
+- [[Conductance]]: The ease with which current flows, equal to the reciprocol of resistance.
+- [[Power]]: The rate of energy transfer or consumption in a circuit.
+- [[Energy]]: The capacity to do work, stored or transferred by electrical systems.
+- [[Joule]]: The [[International System of Units|SI]] unit of Energy
+- [[Watt]]: The [[International System of Units|SI]] unit of power, equal to one Joule per second.
+- [[Ohm's Law]]: The relationship `V=IR`
+- [[Kirchhoff's Current Law]] (KCL): Total current entering a circuit node equals total current leaving it.
+- [[Kirchhoff's Voltage Law]] (KVL): The sum of *voltage rises* and *voltage drops* around a closed loop is zero.
+- [[Ground]]: A common reference and return node in a circuit, often treated as 0 Volts., sometimes tied to chassis or earth.
+- [[Short Circuit]]: A low-resistance path that lets excessive current bypass the intended circuit.
+- [[Open Circuit]]: A broken or incomplete circuit path, where current can't flow.w
+- [[Closed Circuit]]: A complete path where current can flow.
+- [[Circuit]]: An interconnected path of electrical components through which current can flow.
+- [[Series Circuit]]: A circuit where components share the same current in one path.
+- [[Parallel Circuit]]: A circuit where components share the same voltage across multiple paths.
+- [[Voltage Divider]]: A resistor network that produces a smaller output voltage from a larger input voltage.
+- [[Current Divider]]: A parallel network that splits current among branches according tho their resistances or conductances.
+- [[Nodal Analysis]]: A circuit analysis method that solves for node voltages using KCL.
+- [[Mesh Analysis]]: A circuit analysis method that solves loop currents using KVL.
+- [[Thevenin's Theorem]]: The total voltage across a set of terminals in an electrical circuit when the load is disconnected.
+- [[Norton's Theorem]]: Any linear circuit can be simplified to one current source in parallel with one resistance.
+- [[Superposition Theorem]]: In a linear circuit, the total response equals the sum of responses from each independent source considered separately
+- [[Source Transformation]]: Converting between an equivalent voltages source with series resistance and currents source with parallel resistance.
+- [[Equivalent Resistance]]: A single resistance value that behaves likes a more complex resistor network.
+- [[Load]]: The device or part of a circuit consuming electrical power.
+- [[Resistor]]: A component that limits current or creates voltage drops.
+	- [[Pull-Up Resistor]]: Biases a signal line towards a high voltage when nothing else drives it.
+	- [[Pull-Down Resistor]]: Biases a signal line towards ground when nothing else drives it.
+- [[Potentiometer]]: An adjustable resistor commonly used as a variable voltage divider.
+- [[Capacitor]]: A component that stores energy in an electric field.
+	- [[Decoupling Capacitor]]: Placed near a component to stabilize its supply voltage during current changes.
+	- [[Bypass Capacitor]]: Shunts noise or AC variation to ground.
+- [[Inductor]]: Component that stores energy in a magnetic field and resists changes in current.
+- [[Fuse]]: A safety component that melts/opens circuit when current exceeds rated limit.
+- [[Thermistor]]: A temperature-sensitive resistor.
+- [[Varistor]]: A voltage-sensitive resistor used to protect circuits from voltage spikes.
+- [[Signal]]: A changing voltage, current, or electromagnetic quantity that carries information.
+- [[Direct Current]] (DC): Current that flows in one direction.
+- [[Alternating Current]] (AC): Current that periodically reverses direction.
+- [[Frequency]]: The number of cycles of a repeating signal per second.
+- [[Period]]: The time required for one complete cycle of a repeating signal.
+- [[Amplitude]]: The size or magnitude of a signal, relative to a reference.
+- [[Phase]]: The timing offset of one periodic signal relative to another.
+- [[Duty Cycle]]: The fraction of a cycle that a periodic signal is active or high.
+- [[Peak-to-Peak Voltage]]: The voltage difference between a signal's maximum and minimum values.
+- [[Impedance]]: Total opposition to AC current, including resistance and reactance.
+- [[Reactance]]: Frequency-dependent opposition to AC current caused by capacitance/inductance.
+	- [[Capacitive Reactance]]: Opposition to AC current from a capacitor, decreases when frequency increases.
+	- [[Inductive Reactance]]: Opposition to AC current from an inductor, increasing as frequency increases.
+- [[RC Circuit]]: A circuit containing resistance and capacitance
+- [[RL Circuit]]: A circuit containing resistance and inductance
+- [[RLC Circuit]]: A circuit containing resistance, inductance, and capacitance.
+- [[Time Constant]]: A value describing how quickly a capacitor or inductor circuit responds to change.
+- [[Low-Pass Filter]]: A filter that passes low frequencies and attenuates high frequencies.
+- [[High-Pass Filter]]: A filter that passes high frequencies and attenuates low frequencies.
+- [[Band-Pass Filter]]: A filter that passes a selected frequency range.
+- [[Band-Stop Filter]]: A filter that attenuates a selected frequency range.
+- [[Integrator Circuit]]: A circuit whose output is proportional to the time integral of its input.
+- [[Differentiator Circuit]]: A circuit whose output is proportional to the rate of change of its input.
+- [[Step Response]]: A circuit or system's output after a sudden input change.
+- [[Frequency Response]]: How a circuit or system responds to different input frequencies.
+- [[Battery]]: A device that stores chemical energy and delivers it as electrical energy.
+- [[Lithium Ion]] (Li-Ion): A rechargeable battery chemistry that moves lithium ions between electrodes.
+- [[Lithium Polymer]] (LiPo): A lithium-based rechargeable battery packaged as lightweight pouch cell.
+- [[Overdischarge]]: Draining a battery below its safe minimum voltage.
+- [[Overcharge]]: Charging a battery beyond its safe maximum voltage.
+- [[Analog-to-Digital Converter]] (ADC): A circuit that converts an analog voltage into a digital value.
+- [[Digital-to-Analog Converter]] (DAC): A circuit that converts a digital value into an analog voltage or current.
+- [[Microcontroller]]: A small computer on a chip with a processor, memory, and input/output peripherals.
+- [[Firmware]]: Low-level software programmed into hardware or embedded devices.
+- [[Motor]]: A device that converts electrical energy into mechanical motion.
+- [[Brushless Motor]]: An electric motor that uses electronic commutation instead of brushes.
+- [[Servo Motor]]: A motor with feedback control for precise position, speed, or torque.
+- [[Stepper Motor]]: A motor that moves in discrete angular steps.
+- [[Transducer]]: A device that converts one form of energy or signal into another.
+- [[Actuator]]: A device that converts a control signal into physical action or motion.
+- [[Sensor]]: A device that detects a physical condition and turns it into a useful signal.
+- [[Electronic Speed Controller]] (ESC): A circuit that controls motor speed, especially for brushless motors.
+- [[Breadboard]]: A reusable board for prototyping circuits without soldering.
+- [[Jumper Wires]]: Short wires used to make temporary circuit connections.
+- [[Multimeter]]: A tool measuring voltage, current resistance, and continuity.
+- [[Oscilloscope]]: A tool that displays how voltage changes over time.
+- [[Logic Analyzer]]: A tool that captures and displays digital signal timing.
+- [[Function Generator]]: A tool that produces test waveforms such as sine, square, or triangle waves.
+- [[Soldering]]: Joining metal parts by melting filler metal without melting the base parts.
+- [[Flux]]: A chemical cleaner that helps solder wet and bond to metal surfaces.
+- [[Electrostatic Discharge]]: A sudden transfer of static charge that can damage electronics.
+- [[Printed Circuit Board]] (PCB): A board with conductive traces that mechanically supports and electrically connects components.
+- [[Electromagnetic Spectrum]]: The full range of electromagnetic radiation frequencies.
+- [[Radio Spectrum]]: The portion of the EM spectrum used for radio communications and sensing.
+- [[Radio Frequency]] (RF): The specific frequency or signal in the radio spectrum.
+- [[Antenna]]: A structure that transmits or receives electromagnetic waves.
+- [[Bluetooth]]: A short-range wireless communication standard for connecting nearby devices.
+- [[Bluetooth Low Energy]] (BLE): A low-power version of Bluetooth optimized for small data transfers and battery-powered devices.
+- [[Flight Controller]]: The onboard computer that stabilizes and controls a drone.
+- [[Helping Hands]]: A small clamp tool that holds parts or wires during soldering and assembly.
+- [[Smoke Stopper]]: A current-limiting device used on first power-up to reduce damage from wiring mistakes.
