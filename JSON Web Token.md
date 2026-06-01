@@ -2,7 +2,7 @@
 aliases:
   - JWT
 ---
-A [[Signing|Signed]] token that carries claims about an identity or request context, encoded with [[JSON]]
+A [[Cryptographic Signature|Signed]] token that carries claims about an identity or request context, encoded with [[JSON]]
 
 Useful because backend services can validate tokens locally without calling the auth server on every request. `Client -> API Gatewawy -> Service A -> Service B`. Each service *can* verify the token signature and claims independently.
 - Note: This is one way it can work (JWT Pass-Through).

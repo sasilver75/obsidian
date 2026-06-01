@@ -13,8 +13,8 @@ The US-Operated Satellite [[Constellation]] that provides positioning, navigatio
 # Accuracy
 - Consumer GPS is accurate to ~3-5m
 - WAAS/SBAS (involves differential correction via ground stations): ~1m
-- [[Real-Time Kinematic GPS]]: centimeter level, used in surveying, precision ag, AVs
-- [[[Precise Point Positioning]] (PPP): Also centimeter level, but slower to converge.
+- [[Real-Time Kinematic Positioning]]: centimeter level, used in surveying, precision ag, AVs
+- [[Precise Point Positioning]] (PPP): Also centimeter level, but slower to converge.
 
 # How it works:
 - 24+ satellites in [[Medium Earth Orbit]] (~22,200km), arranged so that 4+ are always visible from any point.

@@ -25,7 +25,7 @@ This allows uninterrupted coverage of more than 1/3 of the Earth per satellite, 
 	- A platform in GSO directly above the equator will have a [[Geostationary Orbit|Geostationary]] orbit, which enables a platform to maintain its position directly over the same place on the Earth's surface. So ==Geostationary is a subclass of Geosynchronous==.
 	- While both [[Geosynchronous Orbit]]s and [[Geostationary Orbit]]s are at 35,786km above the Earth, geosynchronous platforms have orbits that can be tilted above or below the equator, while geostationary platforms orbit Earth on *the same plane as the equator*.
 
-Slot Scarcity: [[Geostationary Orbit|GEO]] is a single ring 35,786km above the equator. Satellites need to be spaced far enough that their signals don't interfere (typically ~2 degrees of separation for [[Ku-band]]). This means that only a few hundred usable GEO slots exist, and they're all claimed, mostly by the US, Europe, Russia, and China, which got there first.
+Slot Scarcity: [[Geostationary Orbit|GEO]] is a single ring 35,786km above the equator. Satellites need to be spaced far enough that their signals don't interfere (typically ~2 degrees of separation for [[Ku-Band]]). This means that only a few hundred usable GEO slots exist, and they're all claimed, mostly by the US, Europe, Russia, and China, which got there first.
 
 
 ![[Pasted image 20260425194910.png]]

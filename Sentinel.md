@@ -10,7 +10,7 @@ Part of the EU [[Copernicus DEM|Copernicus]] program, Europe's [[Remote Sensing|
 
 A satellite mission that acquires optical imagery at high spatial resolutions (10m to 60m) over land and coastal waters.
 
-==Sentinel-1==: [[Synthetic Aperture Radar|C-Band]] [[Synthetic Aperture Radar|SAR]]
+==Sentinel-1==: [[C-Band]] [[Synthetic Aperture Radar|SAR]]
 - Two satellites, 1A (2014) and 1B( 2016, failed 2022), 1B replaced by 1C in 2024
 - Primary uses are surface deformation ([[InSAR]]), flood mapping, sea ice, ship detection, agriculture
 - 6 day repaet

@@ -109,5 +109,7 @@ Terms
 - [[Bluetooth]]: A short-range wireless communication standard for connecting nearby devices.
 - [[Bluetooth Low Energy]] (BLE): A low-power version of Bluetooth optimized for small data transfers and battery-powered devices.
 - [[Flight Controller]]: The onboard computer that stabilizes and controls a drone.
+- [[Inertial Measurement Unit]] (IMU): A sensor (unit) that measures motion, specifically acceleration and rotation, without reference to any external signal.
 - [[Helping Hands]]: A small clamp tool that holds parts or wires during soldering and assembly.
 - [[Smoke Stopper]]: A current-limiting device used on first power-up to reduce damage from wiring mistakes.
+- [[Integrated Circuit]] (IC)

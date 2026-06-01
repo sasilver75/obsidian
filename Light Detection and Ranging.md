@@ -1,7 +1,6 @@
 ---
 aliases:
   - LiDAR
-  - Laser Altimeter
 ---
 An active [[Remote Sensing]] technology that ==measures distance by emitting laser pulses and timing how long they take to return==, which straightforwardly converts to distance.
 

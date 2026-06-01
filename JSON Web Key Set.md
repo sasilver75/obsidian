@@ -2,7 +2,7 @@
 aliases:
   - JWKS
 ---
-A published set of public keys that services use to verify [[JSON Web Token|JWT]] [[Signing|Signature]]s.
+A published set of public keys that services use to verify [[JSON Web Token|JWT]] [[Cryptographic Signature|Signature]]s.
 
 - Authentication service signs a new [[JSON Web Token|JWT]] with a [[Asymmetric Key Encryption|Private Key]]
 	- The auth service exposes something like `https://auth.example.com/.well-known/jwks.json`, which other servers can retrieve when needed and store in their locak JWKS cache.

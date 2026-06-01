@@ -60,7 +60,7 @@ Terms
 - [[Web Application Firewall]]
 - [[Next-Generation Firewall]]
 - [[Certificate Authority]]
-- [[Signing]]
+- [[Cryptographic Signature]]
 - [[Encryption]]
 - [[Symmetric Key Encryption]]
 - [[Asymmetric Key Encryption]]

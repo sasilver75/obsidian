@@ -27,7 +27,7 @@ GPR data format is the ==radargram==, a 2D cross-section image where:
 - Y: axis: Two-way travel time (proxy for depth)
 - Brightness: Reflection strength
 
-Same fundamental tradeoff as [[Synthetic Aperture Radar|SAR]] bands (e.g. [[Synthetic Aperture Radar|X-Band]], [[Synthetic Aperture Radar|P-Band]]), frequency governs penetration versus resolution:
+Same fundamental tradeoff as [[Synthetic Aperture Radar|SAR]] bands (e.g. [[X-Band]], [[P-Band]]), frequency governs penetration versus resolution:
 
 ![[Pasted image 20260419195526.png]]
 Low frequency means deep but blurry, while high frequency means shallow but detailed.

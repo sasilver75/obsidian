@@ -9,4 +9,4 @@ aliases:
 
 
 ![[Pasted image 20260421172830.png]]
-See: A little bit of the low band of [[Synthetic Aperture Radar|P-Band]]
+See: A little bit of the low band of [[P-Band]]

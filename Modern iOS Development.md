@@ -33,7 +33,7 @@ The biggest shock coming from cloud/backend is that Apple owns the distribution 
 - ==Apple Developer Program==: $99/year membership needed to distribute through App Store
 - ==[[App Store Connect]]==: Apple's web portal, manages your apple's metadata, screenshots, builds, beta testers, sales, reviews. The "[[Control Plane]]" for everything post-build.
 - ==Bundle ID==: Globally-unique [[Reverse DNS]] identifier for your app, e.g. `com.yourco.events`.  Locked once chosen for an app on the store.
-- ==Code Signing==: Every binary that runs on iOS must be [[Signing|Signed]] with an Apple-issued cryptographic identity.
+- ==Code Signing==: Every binary that runs on iOS must be [[Cryptographic Signature|Signed]] with an Apple-issued cryptographic identity.
 - ==Certificates==: Your Apple-issued signing identity. Two main kinds: development and distribution.
 - ==Provisioning Profile==: A signed file linking a certificate + a bundle ID + (for dev) a list of allowed device UDIDs + a list of "entitlements" the app is allowed to use. Xcode handles this mostly automatically.
 - ==Entitlements==: Capabilities your app declares it needs: push notifications, location-when-in-use, location-always, camera, contacts, HealthKit, in-app purchase, app groups, iCloud, etc. 

@@ -152,7 +152,7 @@ ___________________
 	- Fire
 	- Finish
 	- Feedback: Closes the OODA loop with an evaluative step. Bomb/Battle Damage Assessment.
-- ==[[F3EAD]]==: Particularly used in special operations ,a core intelligence process.
+- ==F3EAD==: Particularly used in special operations ,a core intelligence process.
 	- Find
 	- Fix
 	- Finish

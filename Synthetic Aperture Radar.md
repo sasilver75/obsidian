@@ -1,11 +1,6 @@
 ---
 aliases:
   - SAR
-  - L-Band
-  - S-Band
-  - X-Band
-  - C-Band
-  - P-Band
   - HH
   - HV
   - VH
@@ -95,15 +90,15 @@ Why it matters:
 - ==Key Intuition:== ==Wavelength ~= penetration depth==
 	- Shorter wavelength: bounces off surfaces, good for texture, structure, surface motion
 	- Longer wavelength: Penetrates through, good for what's underneath (canopy, soil, ice)
-- ==X-Band== Radar: ~3cm wavelength, 8-12GHz, best for fine detail (urban, sea ice surface)
+- ==[[X-Band]]== Radar: ~3cm wavelength, 8-12GHz, best for fine detail (urban, sea ice surface)
 	- [[TerraSAR-X]], Cosmo-SkyMed, [[Sentinel|Sentinel-1]] (partly)
-- ==C-Band== Radar: ~5.6cm wavelength, 4-8GHz, best for surface change, floods, agriculture
+- ==[[C-Band]]== Radar: ~5.6cm wavelength, 4-8GHz, best for surface change, floods, agriculture
 	- [[Sentinel|Sentinel-1]], [[RADARSAT|RADARSAT-2]]
-- ==S-Band== Radar: ~10cm wavelength, 2-4GHz, best for (transitional), soil moisture
+- ==[[S-Band]]== Radar: ~10cm wavelength, 2-4GHz, best for (transitional), soil moisture
 	- [[NISAR]]
-- ==L-Band== Radar: ~24cm wavelength, 1-2GHz, best for forest biomass, soil, subsurface
+- ==[[L-Band]]== Radar: ~24cm wavelength, 1-2GHz, best for forest biomass, soil, subsurface
 	- [[PALSAR|PALSAR-2]], [[NISAR]]
-- ==P-Band== Radar: ~70cm wavelength, 0.3-1GHz, best for deep forest biomass, root zone
+- ==[[P-Band]]== Radar: ~70cm wavelength, 0.3-1GHz, best for deep forest biomass, root zone
 	- Key sensors: BIOMASS (ESA, 2024)
 
 # SAR Polarization

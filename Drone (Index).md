@@ -1,0 +1,139 @@
+Great Videos:
+- [The Truth About U.S. Drones: A Full Industry Breakdown](https://youtu.be/A5yZlaTR5xI) (2025)
+
+Terms:
+- [[Drone]]: An uncrewed vehicle that can be remotely controlled, semi-autonomous, or autonomous.
+- [[Unmanned Aerial System]] (UAS): An uncrewed vehicle designed to operate in the air, under remote control or autonomous control.
+- [[Unmanned Aerial System|Small Unmanned Aerial System]] (sUAS): A smaller UAS category typically used for short-range reconnaissance, inspection, training, or tactical missions.
+- [[Unmanned Ground Vehicle]] (UGV): An uncrewed vehicle designed to operate on land under remote control or autonomous control.
+- [[Unmanned Surface Vehicle]] (USV): An uncrewed vehicle designed to operate on the surface of water.
+- [[Unmanned Underwater Vehicle]] (UUV): An uncrewed vehicle designed to operate underwater.
+- [[Quadrotor]]: A rotary-wing drone with four motors and propellers that controls motion by varying motor speeds.
+- [[Fixed-Wing]]: An aircraft configuration that generates lift from fixed wings rather than rotor thrust.
+- [[Brushless Motor|Brushless DC Motor]]: An electric motor that uses electronic commutation instead of brushes, commonly used for drone propulsion.
+- [[Electronic Speed Controller]] (ESC): An electronic module that controls the speed and direction of a motor, especially a brushless motor.
+- [[Flight Controller]]: The onboard computer that stabilizes the aircraft and translates pilot or autopilot commands into actuator outputs.
+- [[Inertial Measurement Unit]] (IMU): A sensor package, usually including accelerometers and gyroscopes, that measures motion and orientation changes.
+- [[Gyroscope]]: A sensor that measures angular rotation rate around one or more axes.
+- [[Accelerometer]]: A sensor that measures acceleration along one or more axes.
+- [[Magnetometer]]: A sensor that measures magnetic field direction and strength, often used as an electronic compass.
+- [[Barometer]]: A pressure sensor used to estimate altitude from changes in atmospheric pressure.
+- [[Compass]]: A direction sensor that estimates heading relative to magnetic north.
+- [[Global Positioning System]] (GPS): A satellite navigation system used to estimate position, velocity, and time.
+- [[GPS INS]]: An integrated navigation approach that combines GPS with inertial sensors to improve position and attitude estimates.
+- [[Antenna]]: A structure that transmits or receives electromagnetic waves for radio communication or sensing.
+- [[Radio Frequency]]: A specific frequency or signal in the radio portion of the electromagnetic spectrum.
+- [[Radio Spectrum]]: The range of radio frequencies used for communications, navigation, radar, sensing, and electronic warfare.
+- [[Radio Horizon]]: The approximate line-of-sight limit beyond which radio signals are blocked by Earth curvature or terrain.
+- [[Micro Air Vehicle Link]] (MAVLink): A lightweight messaging protocol commonly used for communication between drones, autopilots, payloads, and ground control stations.
+- [[Serial Bus]] (SBUS): A digital radio-control protocol used to carry multiple control channels from a receiver to a flight controller.
+- [[Crossfire]] (CRSF): A low-latency radio-control and telemetry protocol associated with Team BlackSheep Crossfire systems.
+- [[Pulse Width Modulation]] (PWM): A signal method that encodes control or power level by varying the width of pulses.
+	- Duty Cycle: The ratio of "on" time to "off" time
+- [[Digital Shot]] (DShot): A digital ESC control protocol used to command motor speed in multirotor drones.
+- [[Universal Asynchronous Receiver-Transmitter]] (UART): A serial communication interface commonly used between flight controllers, receivers, GPS modules, and telemetry radios.
+- [[Inter-Integrated Circuit]] (I2C): A short-distance serial bus used to connect low-speed sensors and peripherals to a controller.
+- [[Serial Peripheral Interface]] (SPI): A fast short-distance serial bus used to connect a controller to nearby chips such as sensors, memory, radios, or displays.
+- [[Battery]]: A device that stores chemical energy and delivers it as electrical energy.
+- [[Lithium Polymer]] (LiPo): A lightweight lithium-based rechargeable battery commonly used in drones because of its high discharge capability.
+- [[C Rating]]: A battery discharge rating that indicates how much current the battery can safely deliver relative to its capacity.
+- [[Battery Management System]] (BMS): Electronics that monitor and protect battery cells from unsafe voltage, current, temperature, or balancing conditions.
+- [[Power Distribution Board]] (PDB): A board that distributes battery power to ESCs, regulators, flight controllers, and other electronics.
+- [[Battery Eliminator Circuit]] (BEC): A voltage regulator that supplies lower-voltage electronics from a higher-voltage battery pack.
+- [[Voltage Regulator]]: A circuit that maintains a stable output voltage from a varying input voltage.
+- [[Buck Converter]] (Step-Down Converter): A switching regulator that converts a higher input voltage to a lower output voltage efficiently.
+- [[Return to Home]] (RTH): An autopilot function that commands the aircraft to navigate back to a home point.
+- [[Geofencing|Geofence]]: A virtual boundary used to restrict where an aircraft may fly or trigger actions when crossed.
+- Arming: The state change that allows a drone's motors or control outputs to become active.
+- Disarming: The state change that disables motor or actuator outputs to make the drone safer to handle.
+- [[Proportional-Integral-Derivative Controller]] (PID Controller): A feedback controller that uses proportional, integral, and derivative terms to reduce error between desired and measured state.
+- [[Servo Motor]]: A motor with control electronics and feedback used to move to commanded positions.
+- [[Video Transmitter]] (VTX): A transmitter that sends onboard camera video from the drone to a receiver or goggles.
+- [[Video receiver]] (VRX): A receiver that accepts the video signal transmitted from a drone.
+- [[Ground Control Station]] (GCS): A ground-based interface used to plan missions, monitor telemetry, and control or supervise a UAS.
+- [[ArduPilot]]: An open-source autopilot software stack used for multirotors, fixed-wing aircraft, rovers, boats, and other vehicles.
+- [[PX4]]: An open-source autopilot software stack used for drones and robotic vehicles.
+- [[Betaflight]]: Flight-control firmware primarily used for FPV multirotors and racing drones.
+- [[Intelligent Navigation System]] (INAV): Flight-control firmware focused on navigation features for multirotors and fixed-wing aircraft.
+- [[Smoke Stopper]]: A current-limiting device used during first power-up to reduce damage from wiring faults.
+- [[Visual Line of Sight]] (VLOS): Operation in which the remote pilot or observer can directly see the aircraft without aids beyond normal vision.
+- [[Beyond Visual Line of Sight]] (BVLOS): Operation in which the aircraft flies beyond the direct unaided visual range of the pilot or observer.
+- [[Group 1 UAS]]: A small U.S. military UAS category generally covering systems under 20 pounds that operate at low altitude and low speed.
+- [[Group 2 UAS]]: A U.S. military UAS category generally covering 21 to 55 pound systems operating below medium altitudes and speeds.
+- [[Group 3 UAS]]: A U.S. military UAS category generally covering systems under 1,320 pounds with higher altitude, speed, or endurance than Groups 1 and 2.
+- [[Group 4 UAS]]: A U.S. military UAS category generally covering systems over 1,320 pounds operating below 18,000 feet.
+- [[Group 5 UAS]]: A U.S. military UAS category generally covering large systems over 1,320 pounds operating above 18,000 feet.
+- [[Manned-Unmanned Teaming]] (MUM-T): The coordinated employment of crewed and uncrewed systems to share sensing, control, targeting, or mission effects.
+- [[Launch and Recovery Element]] (LRE): The personnel and equipment responsible for launching and recovering a UAS.
+- [[Mission Control Element]] (MCE): The personnel and equipment responsible for controlling or supervising the UAS mission after launch.
+- [[Terrain Following Navigation]]: Navigation that maintains a desired height above terrain using sensors, terrain data, or both.
+- [[Terrain Contour Matching]] (TERCOM): A navigation technique that compares measured terrain profiles to stored terrain maps.
+- [[Visual Odometry]]: Estimating motion by tracking visual changes between camera frames.
+- [[Visual Inertial Odometry]] (VIO): Estimating motion by fusing camera observations with inertial sensor measurements.
+- [[Simultaneous Localization and Mapping]] (SLAM): A method for building a map of an unknown environment while estimating the vehicle's position within it.
+- [[Position, Navigation, and Timing]]: The set of capabilities used to determine location, movement, orientation, and precise time.
+- [[Alternative Positioning, Navigation, and Timing]] (AltPNT): PNT methods that supplement or replace GPS/GNSS when satellite navigation is unavailable or unreliable.
+- [[Denied, Disrupted, Intermittent, Low-Bandwidth]] (DDIL): Conditions in which communication links are unavailable, degraded, unreliable, or bandwidth-constrained.
+- [[Optical|Electro-Optical]] Sensor: A sensor that forms images using visible or near-visible light.
+- [[Infrared]] Sensor: A sensor that detects infrared radiation rather than visible light.
+- [[Thermal Infrared]] Sensor: An infrared sensor that detects heat signatures emitted by objects.
+- [[Short-Wave Infrared]] (SWIR): An infrared band useful for imaging through some haze, smoke, low-light, or material-contrast conditions.
+- [[Light Detection and Ranging]] (LiDAR): A sensing method that uses laser pulses to measure distance and build 3D structure.
+- [[Synthetic Aperture Radar]] (SAR): A radar imaging technique that uses platform motion to synthesize a large antenna aperture and produce high-resolution images.
+- [[Inverse Synthetic Aperture Radar]] (ISAR): A radar imaging technique that uses target motion rather than sensor motion to form images.
+- [[Ground Moving Target Indicator]] (GMTI): A radar mode or product that detects and tracks moving objects on the ground.
+- [[Wide Area Motion Imagery]] (WAMI): Persistent imagery over a large area used to observe movement patterns over time.
+- [[Multispectral]]: Sensing that captures data in several discrete spectral bands.
+- [[Hyperspectral]]: Sensing that captures data across many narrow spectral bands for detailed material or signature analysis.
+- [[Laser Rangefinder]]: A device that measures distance by timing reflected laser energy.
+- [[Laser Designator]]: A device that marks a target with coded laser energy for compatible sensors or guided weapons.
+- [[Gimbal]]: A stabilized mount that points and steadies a camera, sensor, or payload.
+- [[Sensor Fusion]]: Combining data from multiple sensors to produce a more accurate or robust estimate than any single sensor can provide.
+- [[Command and Control]] (C2): The exercise of authority and direction over forces or systems to accomplish a mission.
+- [[Frequency Hopping Spread Spectrum]] (FHSS): A communication technique that rapidly changes carrier frequency according to a shared pattern.
+- [[Direct Sequence Spread Spectrum]] (DSSS): A communication technique that spreads a signal over a wider bandwidth using a coding sequence.
+- [[Low Probability of Intercept]] (LPI): Design features or tactics that make a signal harder for an adversary to intercept.
+- [[Low Probability of Detection]] (LPD): Design features or tactics that make a signal harder for an adversary to detect.
+- [[Encryption]]: Transforming information so only authorized parties with the proper key can read it.
+- [[Mesh Networking]]: A network topology in which nodes relay traffic for each other instead of relying on a single central link.
+- [[Communications Relay]]: A node or platform that extends communications by receiving and retransmitting signals.
+- [[Blue Force Tracking]] (BFT): Systems that show the location and status of friendly forces.
+- [[NATO STANAG 4586]]: A NATO standard for interoperability between UAS control systems and unmanned aircraft.
+- [[Electronic Warfare]] (EW): Military activity that uses or controls the electromagnetic spectrum to sense, attack, protect, or deceive.
+- [[Electronic Warfare|Electronic Support]] (ES): Electronic warfare activity that searches for, intercepts, identifies, or locates electromagnetic emissions.
+- [[Electronic Warfare|Electronic Attack]] (EA): Electronic warfare activity that uses electromagnetic energy to degrade, disrupt, deceive, or deny enemy systems.
+- [[Electronic Warfare|Electronic Protection]] (EP): Measures that protect friendly use of the electromagnetic spectrum from enemy or accidental interference.
+- [[Direction Finding]] (DF): Determining the direction from which a radio or electromagnetic signal is arriving.
+- [[Geolocation]]: Determining the geographic position of an object, emitter, or event.
+- [[Jamming]]: Deliberately transmitting or causing interference to degrade or deny a receiver or communication link.
+- [[Barrage Jamming]]: Jamming over a broad frequency range to cover many possible channels at once.
+- [[Spot Jamming]]: Jamming focused on a specific frequency or narrow channel.
+- [[Sweep Jamming]]: Jamming that rapidly moves across a frequency range.
+- [[Protocol-Aware Jamming]]: Jamming that targets known features or timing of a specific communication protocol.
+- [[Self-Protection Jamming]]: Jamming used by a platform to protect itself from detection, tracking, or engagement.
+- [[GNSS Jamming]]: Interference intended to degrade or deny reception of GPS signals.
+- [[GNSS Spoofing]]: Transmitting false navigation signals to mislead a receiver about position, time, or movement.
+- [[Meaconing]]: Receiving and rebroadcasting navigation signals to confuse receivers about the signal's true origin or timing.
+- [[Datalink Jamming]]: Jamming aimed at disrupting the communication link between a drone and its controller, network, or payload users.
+- [[Beamforming]]: Controlling antenna elements so transmitted or received energy is shaped in selected directions.
+- [[Null Steering]]: Shaping an antenna pattern to reduce reception or transmission in a selected direction.
+- [[Radio Frequency Signature]]: The observable RF characteristics that can help detect, classify, or identify an emitter.
+- [[Electromagnetic Signature]]: The observable electromagnetic characteristics produced by a system across relevant frequencies.
+- [[Counter-Unmanned Aerial System]] (C-UAS): Capabilities and tactics used to detect, track, identify, defeat, or mitigate unmanned aircraft.
+- [[Hard Kill]]: Physically damaging or destroying a target to defeat it.
+- [[Soft Kill]]: Defeating or disrupting a target without physically destroying it, often through electronic or cyber effects.
+- [[Directed Energy]]: Systems that use concentrated electromagnetic energy, such as lasers or microwaves, to produce effects on a target.
+- [[High-Power Microwave]] (HPM): Directed microwave energy used to disrupt, damage, or disable electronic systems.
+- [[Laser Weapon]]: A directed-energy weapon that uses concentrated light to damage or destroy a target.
+- [[Kinetic Interceptor]]: A physical interceptor intended to collide with, capture, or otherwise physically defeat a target.
+- [[Intelligence, Surveillance, and Reconnaissance]] (ISR): Activities that collect, observe, and report information to support understanding and decision-making.
+- [[Reconnaissance]]: A mission to obtain information about terrain, enemy forces, infrastructure, or other operational conditions.
+	- Route Reconnaissance: Reconnaissance focused on a specific route and its trafficability, threats, obstacles, and key terrain.
+	- Area Reconnaissance: Reconnaissance focused on a defined area and the conditions or activity within it.
+	- Zone Reconnaissance: Reconnaissance that systematically examines all routes, terrain, threats, and key features within a larger zone.
+- [[Targeting]]: The process of selecting, prioritizing, and matching targets with appropriate capabilities or effects.
+- [[Battle Damage Assessment]] (BDA): The assessment of effects on a target after an engagement or operation.
+- [[Short-Range Air Defense]] (SHORAD): Air defense capabilities intended to protect forces from low-altitude air threats at short range.
+- [[Maneuver Short-Range Air Defense]] (M-SHORAD): Mobile short-range air defense designed to protect maneuver forces.
+- [[Kill Chain]]: The sequence of steps used to find, track, target, engage, and assess effects on a target.
+

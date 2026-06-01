@@ -20,7 +20,7 @@ Provides:
 - A dashboard for monitoring what data is being processed/ingested into the API
 
 Datasets available:
-- [[[Sentinel|Sentinel-1]] ([[Synthetic Aperture Radar|SAR]])
+- [[Sentinel|Sentinel-1]] ([[Synthetic Aperture Radar|SAR]])
 - [[Sentinel|Sentinel-2]] ([[Multispectral]], entire catalog as [[Cloud-Optimized GeoTIFF|COG]]s)
 - [[Landsat]] Collection 2 (entire USSGS catalog)
 - [[Copernicus DEM]]

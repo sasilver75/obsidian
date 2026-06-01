@@ -1,0 +1,4 @@
+---
+aliases:
+  - ITU Frequency Band
+---

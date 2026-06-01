@@ -16,10 +16,10 @@ Below are notes from Tom Ager's Oceanography magazine, see Resources.
 
 # The value of Radar Imaging
 
-There are a number of established radar bands (e.g. [[Synthetic Aperture Radar|S-Band]], [[Synthetic Aperture Radar|X-Band]], [[Synthetic Aperture Radar|C-Band]]), each with their own frequencies and wavelengths. Radar imaging avoids wavelengths shorter than K-band (1.11-1.67cm, compared to X-Band's 2.5-3.75cm), because these are reflected by water vapor and other atmospheric particles.
+There are a number of established radar bands (e.g. [[S-Band]], [[X-Band]], [[C-Band]]), each with their own frequencies and wavelengths. Radar imaging avoids wavelengths shorter than K-band (1.11-1.67cm, compared to X-Band's 2.5-3.75cm), because these are reflected by water vapor and other atmospheric particles.
 - In fact, high-frequency microwave bands are used in [[Doppler Effect|Doppler]] radar weather instruments to detect rain and storms!
-The more typical imaging bands are [[Synthetic Aperture Radar|X-Band]], [[Synthetic Aperture Radar|C-Band]], and some very long wavelength bands.
-- The wavelengths of [[Synthetic Aperture Radar|L-Band]] and [[Ultra High Frequency]] (UHF; a confusing term that in the context of SAR bands is actually some of the lowest wavelengths) radar are so long that they can be used to penetrate foliage and see through tree canopy in forested areas.
+The more typical imaging bands are [[X-Band]], [[C-Band]], and some very long wavelength bands.
+- The wavelengths of [[L-Band]] and [[Ultra High Frequency]] (UHF; a confusing term that in the context of SAR bands is actually some of the lowest wavelengths) radar are so long that they can be used to penetrate foliage and see through tree canopy in forested areas.
 
 
 Radar has other notable characteristics that make it useful for remote-sensing applications:

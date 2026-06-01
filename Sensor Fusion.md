@@ -1,0 +1,6 @@
+---
+aliases:
+  - Fuse
+  - Fuses
+  - Fusion
+---

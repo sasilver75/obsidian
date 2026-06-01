@@ -8,4 +8,4 @@ aliases:
 ![[Pasted image 20260421172344.png]]
 
 ![[Pasted image 20260421172839.png]]
-See: [[Synthetic Aperture Radar|S-Band]] (upper end), [[Synthetic Aperture Radar|C-Band]], [[Synthetic Aperture Radar|X-Band]]
+See: [[S-Band]] (upper end), [[C-Band]], [[X-Band]]

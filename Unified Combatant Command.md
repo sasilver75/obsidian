@@ -2,6 +2,7 @@
 aliases:
   - CCMD
   - Combatant Command
+  - COCOM
 ---
 A ==joint military command of the US [[United States Department of Defense|DoD]]== composed of units from two or more service branches of the US Armed Forces, conducting broad and continuing missions.
 - Emerged as a system during World War II with the establishment of geographic theaters of operation composed of forces from multiple service branches reporting to a single commander supported by joint staff.

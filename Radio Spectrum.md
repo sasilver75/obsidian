@@ -61,7 +61,7 @@ To prevent interference between users, the generation and transmission of radio 
 	- Use Cases: Experimental medical imaging to replace X-rays, ultrafast molecular dynamics, condensed-matter physics, terahertz time-domain spectroscopy, terahertz computing/communications, remote sensing.
 
 
-# ITU Radio Bands (Low to High Frequency)
+# [[ITU Radio Band]]s (Low to High Frequency)
 - [[Extremely Low Frequency]]
 - [[Super Low Frequency]]
 - [[Ultra Low Frequency]]

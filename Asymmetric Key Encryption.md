@@ -13,7 +13,7 @@ Private key: Secret, never shared, stays on your machine.
 
 Use case:
 - [[Encryption]]: Someone uses your *public key* to encrypt a message. Only your *private* key can decrypt it. So anyone can send you a secret, but only you can read it.
-- [[Signing]]: You use your *private* key to sign something (a message, a piece of code). Anyone with your *public* key can verify the signature is genuine, proving it came from you and it wasn't tampered with.
+- [[Cryptographic Signature]]: You use your *private* key to sign something (a message, a piece of code). Anyone with your *public* key can verify the signature is genuine, proving it came from you and it wasn't tampered with.
 
 In the context of [[WireGuard]]/[[Secure Shell|SSH]]
 - Each device generates a key pair. Devices exchange public keys. When two devices want to talk, each encrypts traffic with the other's public key — so only the intended recipient (with their private key) can read it. This is how WireGuard authenticates peers without passwords.
