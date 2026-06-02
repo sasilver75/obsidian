@@ -1,0 +1,4 @@
+---
+aliases:
+  - Isotropic Radiator Antenna
+---

@@ -24,11 +24,11 @@ It has military, intelligence, commercial, economic, planning, and humanitarian 
 Can be split into:
 - **==**Active== remote sensing: When a ==signal is emitted by a sensor== on satellite/aircraft, and the reflection is detected by the sensor.
 	- Emits energy to scan objects and areas whereupon a sensor then detects and measures the radiation that is reflected or backscattered from the target.
-	- [[RADAR]] and [[Light Detection and Ranging|LiDAR]] are examples active remote sensing where the time delay between emission and return is measured, establishing the location/speed/direction of an object.
+	- [[Radar]] and [[Light Detection and Ranging|LiDAR]] are examples active remote sensing where the time delay between emission and return is measured, establishing the location/speed/direction of an object.
 	- There are six main types of active instruments in [[National Aeronautics and Space Administration|NASA]]'s earth science data:
 		1. [[Laser Altimeter]]: Uses LiDAR to measure the height of the platform (spacecraft, aircraft) above the surface, as a means of determining the topography of the underlying surface.
 		2. [[Light Detection and Ranging|LiDAR]]: Uses a laser radar to transmit a light pulse and a receiver with sensitive detectors to measure the backscattered or reflected light. Distance to object is determined by recording time ∆.
-		3. [[RADAR]]: Emits microwave radiation in a series of pulses from an antenna; some of it is reflected back towards the instrument. This backscattered microwave radiation is detected, measured, and timed. Distance to target is determined by recording time ∆. A two dimensional image of the surface can be produced as the instrument passes by. [[Synthetic Aperture Radar]] (SAR) is a radar technique.
+		3. [[Radar]]: Emits microwave radiation in a series of pulses from an antenna; some of it is reflected back towards the instrument. This backscattered microwave radiation is detected, measured, and timed. Distance to target is determined by recording time ∆. A two dimensional image of the surface can be produced as the instrument passes by. [[Synthetic Aperture Radar]] (SAR) is a radar technique.
 		4. Ranging Instruments: Devices that measure the distance between the instrument and a target object. Radars and altimeters work by determining the time a transmitted pulse (microwaves or light) takes to reflect from a target and return to the instrument.
 		5. Scatterometer: A high-frequency microwave radar designed specifically to measure backscattered radiation.
 		6. Sounder: An instrument that measures the vertical distribution of precipitation and other atmospheric characteristics like temperature, humidity, and cloud composition.

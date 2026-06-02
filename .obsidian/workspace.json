@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signals and Spectrum (Index).md",
+                "file": "Satellite (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Signals and Spectrum (Index)"
+              "title": "Satellite (Index)"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signals and Spectrum (Index).md",
+                "file": "Drone (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Signals and Spectrum (Index)"
+              "title": "Drone (Index)"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Layover.md",
+                "file": "Drone (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Layover"
+              "title": "Drone (Index)"
+            }
+          },
+          {
+            "id": "448e65e99b01d941",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signals and Spectrums (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Signals and Spectrums (Index)"
+            }
+          },
+          {
+            "id": "33e7ba15d75a9563",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anti-Jamming.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anti-Jamming"
+            }
+          },
+          {
+            "id": "7818e1cd4fed439b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pulse Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Pulse Radar"
+            }
+          },
+          {
+            "id": "86d4232d2763ff49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Radar"
             }
           },
           {
@@ -703,7 +799,8 @@
               "title": "Carrier Wave"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2593,16 +2690,22 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e9408d10e8051edb",
+  "active": "448e65e99b01d941",
   "lastOpenFiles": [
-    "Satellite (Index).md",
-    "Open Source Geospatial Foundation.md",
-    "Signals and Spectrum (Index).md",
-    "Layover.md",
     "Drone (Index).md",
-    "Drone.md",
-    "Manufacturing (Index).md",
+    "Signals and Spectrums (Index).md",
+    "Anti-Jamming.md",
+    "Pulse Radar.md",
+    "Radar.md",
     "Interferometric Synthetic Aperture Radar.md",
+    "Isotropic Radiator.md",
+    "Drone.md",
+    "Layover.md",
+    "Open Source Geospatial Foundation.md",
+    "Satellite (Index).md",
+    "Carrier Wave.md",
+    "Signals and Spectrum (Index).md",
+    "Manufacturing (Index).md",
     "Coregistration.md",
     "Differential Interferometric Synthetic Aperture Radar.md",
     "Ephemeris.md",
@@ -2615,12 +2718,6 @@
     "Joint Emissivity Database Initiative.md",
     "Rational Polynomial Coefficients.md",
     "Rational Polynomial Coefficient.md",
-    "Frequency Response.md",
-    "Carrier Wave.md",
-    "IEEE Radar Band.md",
-    "Electronics (Index).md",
-    "Gain.md",
-    "Semantic Simultaneous Localization and Mapping.md",
     "_attachments/Pasted image 20260601144441.png",
     "_attachments/Pasted image 20260601120421.png",
     "_attachments/Pasted image 20260528011813.png",

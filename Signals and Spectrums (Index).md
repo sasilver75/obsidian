@@ -1,0 +1,107 @@
+
+
+
+
+Terms
+- [[Signal]]
+- [[Analog Signal]]
+- [[Digital Signal]]
+- [[Waveform]]
+- [[Carrier Wave]]
+- [[Amplitude]]
+- [[Frequency]]
+- [[Wavelength]]
+- [[Phase]]
+- [[Period]]
+- [[Bandwidth]]
+- [[Baseband]]
+- [[Passband]]
+- [[Modulation]]
+- [[Demodulation]]
+- [[Amplitude Modulation]] (AM)
+- [[Frequency Modulation]] (FM)
+- [[Pulse Width Modulation]] (PWM)
+- [[Amplitude-Shift Keying]] (ASK)
+- [[Frequency-Shift Keying]] (FSK)
+- [[Phase-Shift Keying]] (PSK)
+- [[Quadrature Amplitude Modulation]] (QAM)
+- [[Orthogonal Frequency-Division Multiplexing]] (OFDM)
+- [[Spread Spectrum]]
+- [[Frequency Hopping Spread Spectrum]] (FHSS)
+- [[Direct Sequence Spread Spectrum]] (DSSS)
+- [[Chirp Spread Spectrum]] (CSS)
+- [[Noise]]
+- [[Signal-to-Noise Ratio]] (SNR)
+- [[Interference]]
+- [[Jamming]]
+- [[Spoofing]]
+- [[Multipath]]
+- [[Doppler Effect|Doppler Shift]]
+- [[Link Budget]]
+- [[Path Loss]]
+- [[Free-Space Path Loss]] (FSPL)
+- [[Fresnel Zone]]
+- [[Antenna]]
+- [[Gain]]
+- [[Isotropic Radiator]]
+- [[Effective Isotropic Radiated Power]] (EIRP)
+- [[Polarization]]
+- [[Omnidirectional Antenna]]
+- [[Directional Antenna]]
+- [[Yagi Antenna]]
+- [[Patch Antenna]]
+- [[Phased Array]]
+- [[Beamforming]]
+- [[Electromagnetic Spectrum]]
+- [[Radio Frequency]] (RF)
+- [[ITU Radio Band]]s
+- [[IEEE Radar Band]]s
+- [[P-Band]]
+- [[L-Band]]
+- [[S-Band]]
+- [[C-Band]]
+- [[X-Band]]
+- [[Ku-Band]]
+- [[K-Band]]
+- [[Ka-Band]]
+- [[Software-Defined Radio]] (SDR)
+- [[Transmitter]]
+- [[Receiver]]
+- [[Transceiver]]
+- [[Power Amplifier]]
+- [[Low-Noise Amplifier]] (LNA)
+- [[Mixer]]
+- [[Local Oscillator]]
+- [[Filter]]
+- [[Band-Pass Filter]]
+- [[Low-Pass Filter]]
+- [[High-Pass Filter]]
+- [[Analog-to-Digital Converter]] (ADC)
+- [[Digital-to-Analog Converter]] (DAC)
+- [[Sampling Rate]]
+- [[Nyquist Rate]]
+- [[Aliasing]]
+- [[Fast Fourier Transform]] (FFT)
+- [[Spectrogram]]
+- [[Waterfall Display]]
+- [[Radar]]
+- [[Pulse Radar]]
+- [[Continuous-Wave Radar]] (CW Radar)
+- [[Frequency-Modulated Continuous-Wave Radar]] (FMCW Radar)
+- [[Synthetic Aperture Radar]] (SAR)
+- [[Inverse Synthetic Aperture Radar]] (ISAR)
+- [[Electronic Warfare]] (EW)
+- [[Electronic Warfare|Electronic Attack]] (EA)
+- [[Electronic Warfare|Electronic Protection]] (EP)
+- [[Electronic Warfare|Electronic Support]] (ES)
+- [[Signals Intelligence]] (SIGINT)
+- [[Communications Intelligence]] (COMINT)
+- [[Electronic Intelligence]] (ELINT)
+- [[Direction Finding]]
+- [[Geolocation]]
+- [[Emitter]]
+- [[Emission Control]] (EMCON)
+- [[Low Probability of Intercept]] (LPI)
+- [[Low Probability of Detection]] (LPD)
+- [[Anti-Jamming]]
+- [[Meaconing]]
