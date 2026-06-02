@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Satellite (Index).md",
+                "file": "Signals and Spectrums (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,107 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Satellite (Index)"
-            }
-          },
-          {
-            "id": "d6e51dd620bf0447",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electronics (Index).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Electronics (Index)"
-            }
-          },
-          {
-            "id": "45a24e8ff9e64180",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electronics (Index).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Electronics (Index)"
-            }
-          },
-          {
-            "id": "661cb23e5a7fc037",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cryptography and Security (Index).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cryptography and Security (Index)"
-            }
-          },
-          {
-            "id": "d4714f8d95627ccf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nuclear (Index).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear (Index)"
+              "title": "Signals and Spectrums (Index)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -1950,12 +1854,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "5971a94be7d339ef",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 172
+        "currentTab": 173
       },
       {
         "id": "8a022290161ffefa",
@@ -2017,34 +1931,39 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "45a24e8ff9e64180",
+  "active": "f32c6566fd5a87e6",
   "lastOpenFiles": [
+    "Geospatial (Index).md",
+    "Networking (Index).md",
+    "flashcards/networking-index-anki.tsv",
+    "Cryptography and Security (Index).md",
+    "flashcards/logistics-index-anki.tsv",
+    "Satellite (Index).md",
+    "Electronics (Index).md",
+    "Logistics (Index).md",
+    "Quorum.md",
+    "Cache Stampede.md",
+    "Disaster Recovery.md",
+    "Multi-Tenancy.md",
+    "Pagination.md",
+    "Security Assertion Markdown Language.md",
+    "TLS Termination.md",
+    "Distributed Consensus.md",
+    "System Design (Index).md",
+    "flashcards/electronics-index-anki.tsv",
+    "flashcards/satellite-index-anki.tsv",
+    "flashcards/system-design-index-anki.tsv",
+    "GeoRouting.md",
+    "Geospatial Index.md",
+    "Security Information and Event Management.md",
+    "SSL Termination.md",
+    "Nuclear (Index).md",
     "Reality Capture (Index).md",
     "Logistics Synchronization Matrix.md",
-    "Cryptography and Security (Index).md",
-    "Nuclear (Index).md",
     "Smack Technologies.md",
     "Diode.md",
     "Electromagnetism.md",
     "Radar.md",
-    "Electrolysis.md",
-    "Flashcards Test.md",
-    "Kitbashing.md",
-    "CloudCompare.md",
-    "Drone (Index).md",
-    "4D Gaussian Splatting.md",
-    "Signals and Spectrums (Index).md",
-    "Low Probability of Detection.md",
-    "Low Probability of Intercept.md",
-    "Emission Control.md",
-    "Continuous-Wave Radar.md",
-    "Fast Fourier Transform.md",
-    "Low-Noise Amplifier.md",
-    "Software-Defined Radio.md",
-    "Effective Isotropic Radiated Power.md",
-    "Free-Space Path Loss.md",
-    "Signal-to-Noise Ratio.md",
-    "Chirp Spread Spectrum.md",
     "flashcards/geospatial-index-anki.tsv",
     "flashcards/drone-index-anki.tsv",
     "flashcards",
@@ -2059,11 +1978,6 @@
     "_attachments/Pasted image 20260527133236.png",
     "_attachments/Pasted image 20260527121723.png",
     "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
-    "System Design in a Hurry - Anki Supplemental Basic.tsv",
-    "System Design in a Hurry - Anki Basic.tsv",
-    "GPS",
-    "Courses/SoftwareEngineering/Computer Networking Fundamentals for Developers, DevOps, and Platform Engineers",
-    "Courses/SoftwareEngineering/Docker The Hands-On Way",
-    "Courses/SoftwareEngineering"
+    "System Design in a Hurry - Anki Supplemental Basic.tsv"
   ]
 }

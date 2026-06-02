@@ -1,8 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "Signals and Spectrums (Index)",
+      "path": "Signals and Spectrums (Index).md"
+    },
+    {
+      "basename": "Geospatial (Index)",
+      "path": "Geospatial (Index).md"
+    },
+    {
+      "basename": "Networking (Index)",
+      "path": "Networking (Index).md"
+    },
+    {
+      "basename": "Cryptography and Security (Index)",
+      "path": "Cryptography and Security (Index).md"
+    },
+    {
+      "basename": "Satellite (Index)",
+      "path": "Satellite (Index).md"
+    },
+    {
       "basename": "Electronics (Index)",
       "path": "Electronics (Index).md"
+    },
+    {
+      "basename": "Logistics (Index)",
+      "path": "Logistics (Index).md"
+    },
+    {
+      "basename": "Quorum",
+      "path": "Quorum.md"
+    },
+    {
+      "basename": "Cache Stampede",
+      "path": "Cache Stampede.md"
+    },
+    {
+      "basename": "Disaster Recovery",
+      "path": "Disaster Recovery.md"
+    },
+    {
+      "basename": "Multi-Tenancy",
+      "path": "Multi-Tenancy.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
+    },
+    {
+      "basename": "Security Assertion Markdown Language",
+      "path": "Security Assertion Markdown Language.md"
+    },
+    {
+      "basename": "TLS Termination",
+      "path": "TLS Termination.md"
+    },
+    {
+      "basename": "Distributed Consensus",
+      "path": "Distributed Consensus.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "GeoRouting",
+      "path": "GeoRouting.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "Security Information and Event Management",
+      "path": "Security Information and Event Management.md"
+    },
+    {
+      "basename": "SSL Termination",
+      "path": "SSL Termination.md"
+    },
+    {
+      "basename": "Nuclear (Index)",
+      "path": "Nuclear (Index).md"
     },
     {
       "basename": "Reality Capture (Index)",
@@ -11,14 +91,6 @@
     {
       "basename": "Logistics Synchronization Matrix",
       "path": "Logistics Synchronization Matrix.md"
-    },
-    {
-      "basename": "Cryptography and Security (Index)",
-      "path": "Cryptography and Security (Index).md"
-    },
-    {
-      "basename": "Nuclear (Index)",
-      "path": "Nuclear (Index).md"
     },
     {
       "basename": "Smack Technologies",
@@ -59,10 +131,6 @@
     {
       "basename": "4D Gaussian Splatting",
       "path": "4D Gaussian Splatting.md"
-    },
-    {
-      "basename": "Signals and Spectrums (Index)",
-      "path": "Signals and Spectrums (Index).md"
     },
     {
       "basename": "Low Probability of Detection",
@@ -131,74 +199,6 @@
     {
       "basename": "Phase-Shift Keying",
       "path": "Phase-Shift Keying.md"
-    },
-    {
-      "basename": "Quadrature Amplitude Modulation",
-      "path": "Quadrature Amplitude Modulation.md"
-    },
-    {
-      "basename": "Modulation",
-      "path": "Modulation.md"
-    },
-    {
-      "basename": "Geospatial (Index)",
-      "path": "Geospatial (Index).md"
-    },
-    {
-      "basename": "Satellite (Index)",
-      "path": "Satellite (Index).md"
-    },
-    {
-      "basename": "Manufacturing (Index)",
-      "path": "Manufacturing (Index).md"
-    },
-    {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
-    },
-    {
-      "basename": "Logistics (Index)",
-      "path": "Logistics (Index).md"
-    },
-    {
-      "basename": "Contour",
-      "path": "Contour.md"
-    },
-    {
-      "basename": "Open Source Geospatial Foundation",
-      "path": "Open Source Geospatial Foundation.md"
-    },
-    {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
-    },
-    {
-      "basename": "General Support Company",
-      "path": "General Support Company.md"
-    },
-    {
-      "basename": "Division Support Area",
-      "path": "Division Support Area.md"
-    },
-    {
-      "basename": "Sustainment",
-      "path": "Sustainment.md"
-    },
-    {
-      "basename": "Logistics Synchronization",
-      "path": "Logistics Synchronization.md"
-    },
-    {
-      "basename": "Palantir Army Vantage",
-      "path": "Palantir Army Vantage.md"
-    },
-    {
-      "basename": "Unit Identification Code",
-      "path": "Unit Identification Code.md"
-    },
-    {
-      "basename": "SPlat Zip",
-      "path": "SPlat Zip.md"
     }
   ],
   "omittedPaths": [],

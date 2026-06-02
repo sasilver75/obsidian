@@ -1,3 +1,5 @@
+
+
 Terms
 - [[Course of Action]] (CoA): A proposed way to accomplish a mission, including the resources, timing, routes, risks, and support concept.
 - [[Logistics Status]] (LOGSTAT): A logistics report that captures unit supply status, readiness, and sustainment requirements for forecasting and resupply.
@@ -49,6 +51,16 @@ Terms
 - [[Light Logistics Cluster]] (LLC): A smaller sustainment node inside a Light Support Area that provides distributed supply, fuel, water, ammunition, maintenance, or medical capability.
 - [[Combat Logistics Platoon]] (CLP): A task-organized forward distribution element that pushes supplies from a Light Support Battalion toward maneuver units.
 - [[Combat Repair Team]] (CRT): A forward maintenance and recovery element that provides urgent repair support near maneuver units.
+- [[Company Trains]]: The company-level sustainment assets, personnel, vehicles, and supplies that provide immediate support and connect the company to battalion sustainment.
+- [[Days of Supply]] (DoS): A planning measure that estimates how long a unit can operate with its available supplies at a given consumption rate.
+- [[Division Support Area]] (DSA): A division-level sustainment area where logistics, maintenance, medical, movement, and support activities are coordinated for division operations.
+- [[Culminating Point]]: The point at which a force no longer has enough combat power, momentum, or sustainment to continue its current offense or defense effectively.
+- [[Brigade Combat Team]] (BCT): A combined-arms brigade formation built around maneuver battalions and supporting fires, reconnaissance, engineer, sustainment, and headquarters elements.
+- [[Brigade]] (BDE): A tactical formation made up of multiple battalions and supporting elements, usually commanded by a colonel.
+- [[Battalion]]: A tactical echelon made up of multiple companies and a headquarters element, usually the smallest unit with a significant staff and limited independent operating ability.
+- [[Division]]: A large tactical formation made up of multiple brigades that commands and integrates major operations across maneuver, fires, sustainment, intelligence, and other functions.
+- [[Push Logistics]]: A supply approach where higher echelons forecast needs and send supplies forward without waiting for a specific request from the receiving unit.
+- [[Pull Logistics]]: A supply approach where units request or draw supplies based on reported demand, actual consumption, or current shortages.
 
 
 **Non-Army** terminology

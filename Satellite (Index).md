@@ -1,9 +1,6 @@
 
 
 
-
-
-
 Terms
 - [[Satellite]]: An object placed in orbit around a planet or other body, usually carrying payloads for communication, navigation, sensing, science, or defense.
 - [[Constellation]]: A coordinated group of satellites designed to work together to provide coverage, capacity, revisit, or resilience.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - SSL Termination
+---
 
 When a device or service decrypts [[HTTPS]]/[[Transport Layer Security|TLS]] traffic.
 

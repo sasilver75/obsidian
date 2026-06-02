@@ -51,7 +51,7 @@ Terms
 - [[Forward Proxy]]: A proxy that sits in front of clients and forwards their outbound requests to external servers.
 - [[Content Delivery Network]]: A distributed network of edge servers that caches and serves content close to users.
 - [[GeoDNS]]: DNS routing that returns different answers based on a client's geographic location or network region.
-- [[SSL Termination]]: The process of ending a TLS connection at a proxy or load balancer before forwarding traffic inward.
+- [[TLS Termination]]: The process of ending a TLS connection at a proxy or load balancer before forwarding traffic inward.
 - [[TCP Termination]]: The process of ending a TCP connection at an intermediary such as a proxy or load balancer.
 - [[Load Balancing]]: Distributing traffic across multiple servers or services to improve availability, capacity, and latency.
 - [[Firewall]]: A security control that permits or blocks network traffic according to rules.
@@ -109,7 +109,6 @@ Terms
 - [[MAC Address]]: A hardware identifier used to address devices on a local link-layer network.
 - [[Loopback Address]]: An address that routes traffic back to the same host, commonly `127.0.0.1` for IPv4.
 - [[Time to First Byte]] (TTFB): The time from starting a request until the first byte of the response is received.
-- [[Congestion Control]]: Algorithms that regulate sending rates to avoid overwhelming a network.
 - [[Backpressure]]: A signal or mechanism that tells upstream producers to slow down because downstream consumers are saturated.
 - [[Flow Control]]: Mechanisms that prevent a sender from overwhelming a receiver's processing or buffer capacity.
 - [[Certificate Chain]] (Chain of Trust): The ordered set of certificates that links an end-entity certificate back to a trusted root.
@@ -144,3 +143,4 @@ Terms
 - [[Hardware Load Balancer]]: A dedicated appliance that distributes traffic across backend servers.
 - [[Internet Service Provider]] (ISP): A company or organization that provides access to the internet.
 - [[Route Table]]: A set of routing rules that tells a host, router, or cloud subnet where to send traffic for different destinations.
+
