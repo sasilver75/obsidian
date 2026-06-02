@@ -1,3 +1,9 @@
+---
+aliases:
+  - Decryption
+---
+
+
 If you want to send a message across an untrusted medium (the internet, a letter, a radio signal) such that only the intended party can read it, Encryption can help you transform readable data ([[Plaintext]]) into unreadable data ([[Ciphertext]]) using an algorithm and a key. Without the key, reversing it is computationally infeasible.
 
 

@@ -1,0 +1,4 @@
+---
+aliases:
+  - Op-Amp
+---

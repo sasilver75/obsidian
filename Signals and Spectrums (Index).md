@@ -3,105 +3,107 @@
 
 
 Terms
-- [[Signal]]
-- [[Analog Signal]]
-- [[Digital Signal]]
-- [[Waveform]]
-- [[Carrier Wave]]
-- [[Amplitude]]
-- [[Frequency]]
-- [[Wavelength]]
-- [[Phase]]
-- [[Period]]
-- [[Bandwidth]]
-- [[Baseband]]
-- [[Passband]]
-- [[Modulation]]
-- [[Demodulation]]
-- [[Amplitude Modulation]] (AM)
-- [[Frequency Modulation]] (FM)
-- [[Pulse Width Modulation]] (PWM)
-- [[Amplitude-Shift Keying]] (ASK)
-- [[Frequency-Shift Keying]] (FSK)
-- [[Phase-Shift Keying]] (PSK)
-- [[Quadrature Amplitude Modulation]] (QAM)
-- [[Orthogonal Frequency-Division Multiplexing]] (OFDM)
-- [[Spread Spectrum]]
-- [[Frequency Hopping Spread Spectrum]] (FHSS)
-- [[Direct Sequence Spread Spectrum]] (DSSS)
-- [[Chirp Spread Spectrum]] (CSS)
-- [[Noise]]
-- [[Signal-to-Noise Ratio]] (SNR)
-- [[Interference]]
-- [[Jamming]]
-- [[Spoofing]]
-- [[Multipath]]
-- [[Doppler Effect|Doppler Shift]]
-- [[Link Budget]]
-- [[Path Loss]]
-- [[Free-Space Path Loss]] (FSPL)
-- [[Fresnel Zone]]
-- [[Antenna]]
-- [[Gain]]
-- [[Isotropic Radiator]]
-- [[Effective Isotropic Radiated Power]] (EIRP)
-- [[Polarization]]
-- [[Omnidirectional Antenna]]
-- [[Directional Antenna]]
-- [[Yagi Antenna]]
-- [[Patch Antenna]]
-- [[Phased Array]]
-- [[Beamforming]]
-- [[Electromagnetic Spectrum]]
-- [[Radio Frequency]] (RF)
-- [[ITU Radio Band]]s
-- [[IEEE Radar Band]]s
-- [[P-Band]]
-- [[L-Band]]
-- [[S-Band]]
-- [[C-Band]]
-- [[X-Band]]
-- [[Ku-Band]]
-- [[K-Band]]
-- [[Ka-Band]]
-- [[Software-Defined Radio]] (SDR)
-- [[Transmitter]]
-- [[Receiver]]
-- [[Transceiver]]
-- [[Power Amplifier]]
-- [[Low-Noise Amplifier]] (LNA)
-- [[Mixer]]
-- [[Local Oscillator]]
-- [[Filter]]
-- [[Band-Pass Filter]]
-- [[Low-Pass Filter]]
-- [[High-Pass Filter]]
-- [[Analog-to-Digital Converter]] (ADC)
-- [[Digital-to-Analog Converter]] (DAC)
-- [[Sampling Rate]]
-- [[Nyquist Rate]]
-- [[Aliasing]]
-- [[Fast Fourier Transform]] (FFT)
-- [[Spectrogram]]
-- [[Waterfall Display]]
-- [[Radar]]
-- [[Pulse Radar]]
-- [[Continuous-Wave Radar]] (CW Radar)
-- [[Frequency-Modulated Continuous-Wave Radar]] (FMCW Radar)
-- [[Synthetic Aperture Radar]] (SAR)
-- [[Inverse Synthetic Aperture Radar]] (ISAR)
-- [[Electronic Warfare]] (EW)
-- [[Electronic Warfare|Electronic Attack]] (EA)
-- [[Electronic Warfare|Electronic Protection]] (EP)
-- [[Electronic Warfare|Electronic Support]] (ES)
-- [[Signals Intelligence]] (SIGINT)
-- [[Communications Intelligence]] (COMINT)
-- [[Electronic Intelligence]] (ELINT)
-- [[Direction Finding]]
-- [[Geolocation]]
-- [[Emitter]]
-- [[Emission Control]] (EMCON)
-- [[Low Probability of Intercept]] (LPI)
-- [[Low Probability of Detection]] (LPD)
-- [[Anti-Jamming]]
-- [[Meaconing]]
+- [[Signal]]: A measurable variation in energy or state that carries information through a system or medium.
+- [[Analog Signal]]: A continuously varying waveform whose amplitude, frequency, phase, or other property represents information.
+- [[Digital Signal]]: A representation of information using discrete symbols or levels, commonly binary values.
+- [[Waveform]]: The shape of a varying value as it changes over time or space.
+- [[Carrier Wave]]: A usually periodic transmission wave modified to carry information through modulation.
+- [[Amplitude]]: The magnitude or strength of a signal relative to a reference level.
+- [[Frequency]]: The number of cycles or repeated events that occur per unit time.
+- [[Wavelength]]: The physical distance between equivalent points on successive cycles of a wave.
+- [[Phase]]: The position of a waveform within its cycle relative to a reference.
+- [[Period]]: The time required for one complete cycle of a repeating waveform.
+- [[Bandwidth]]: The range of frequencies occupied by a signal or passed by a system.
+- [[Baseband]]: The original frequency range of a signal before it is shifted onto a carrier for transmission.
+- [[Passband]]: The frequency range that a filter, channel, or receiver allows to pass with acceptable loss.
+- [[Modulation]]: The process of varying a carrier signal to encode information.
+- [[Demodulation]]: The process of recovering information from a modulated carrier signal.
+- [[Amplitude Modulation]] (AM): Variation of a carrier wave's amplitude to represent information.
+- [[Frequency Modulation]] (FM): Variation of a carrier wave's frequency to represent information.
+- [[Pulse Width Modulation]] (PWM): Encoding information by varying pulse duration while keeping the repetition pattern controlled.
+- [[Amplitude-Shift Keying]] (ASK): Digital symbol encoding by switching a carrier among different amplitude levels.
+- [[Frequency-Shift Keying]] (FSK): Digital symbol encoding by switching a carrier among different frequencies.
+- [[Phase-Shift Keying]] (PSK): Digital symbol encoding by switching a carrier among different phase states.
+- [[Quadrature Amplitude Modulation]] (QAM): Symbol encoding by combining amplitude and phase changes across two carrier components.
+- [[Orthogonal Frequency-Division Multiplexing]] (OFDM): Data transmission split across many closely spaced, mutually orthogonal subcarriers.
+- [[Spread Spectrum]]: Transmission over a wider bandwidth than minimally required to improve robustness, sharing, or concealment.
+- [[Frequency Hopping Spread Spectrum]] (FHSS): Rapid carrier changes across different frequencies according to a shared hopping pattern.
+- [[Direct Sequence Spread Spectrum]] (DSSS): Data multiplied by a faster chip sequence to spread it over a wider band.
+- [[Chirp Spread Spectrum]] (CSS): Information encoding with swept-frequency chirp signals that resist noise and interference.
+- [[Noise]]: Unwanted random energy or variation that degrades the clarity of a signal.
+- [[Signal-to-Noise Ratio]] (SNR): A comparison of desired signal power to background noise power.
+- [[Interference]]: Unwanted signal energy from another source that disrupts reception or interpretation.
+- [[Jamming]]: Deliberate interference intended to degrade, block, or deny use of a signal or channel.
+- [[Spoofing]]: Deceptive signals or data that cause a receiver to accept a false source, position, time, or message.
+- [[Multipath]]: Reception of the same transmission through multiple reflected or scattered paths.
+- [[Doppler Effect|Doppler Shift]]: A frequency change caused by relative motion between a transmitter, reflector, or receiver.
+- [[Link Budget]]: An accounting of gains, losses, noise, and margins used to estimate whether a communication path will work.
+- [[Path Loss]]: The reduction in signal power as a wave propagates between transmitter and receiver.
+- [[Free-Space Path Loss]] (FSPL): The idealized spreading loss of a radio signal traveling through unobstructed space.
+- [[Fresnel Zone]]: An ellipsoidal region around a radio path where obstructions can affect propagation through diffraction and phase cancellation.
+- [[Antenna]]: A structure that converts electrical signals into electromagnetic waves or electromagnetic waves into electrical signals.
+- [[Gain]]: The increase in signal power or directional effectiveness provided by a component, antenna, or system.
+- [[Isotropic Radiator]]: An ideal antenna that radiates equal power in every direction.
+- [[Effective Isotropic Radiated Power]] (EIRP): The apparent transmitted power in a direction after accounting for transmitter power, feed losses, and antenna gain.
+- [[Polarization]]: The orientation of an electromagnetic wave's electric field.
+- [[Omnidirectional Antenna]]: A radiator or receiver with roughly equal coverage around one plane.
+- [[Directional Antenna]]: A radiator or receiver that concentrates transmission or reception in selected directions.
+- [[Yagi Antenna]]: A directional array using driven and parasitic elements to focus radio energy.
+- [[Patch Antenna]]: A low-profile radiating structure that uses a conductive patch over a ground plane.
+- [[Phased Array]]: A group of antennas whose relative signal phases are controlled to steer or shape a beam.
+- [[Beamforming]]: Combining signals from multiple antenna elements to direct sensitivity or transmitted energy toward chosen directions.
+- [[Electromagnetic Spectrum]]: The full range of electromagnetic radiation organized by frequency, wavelength, or photon energy.
+- [[Radio Frequency]] (RF): Electromagnetic signals in the range used for radio communication, sensing, and transmission.
+- [[ITU Radio Band|ITU Radio Bands]]: Internationally defined frequency ranges used to classify radio spectrum for communication and regulation.
+- [[IEEE Radar Band|IEEE Radar Bands]]: Letter-designated frequency ranges commonly used to describe radar operating frequencies.
+- [[P-Band]]: A low-frequency microwave radar range often used for long-range propagation and foliage or ground penetration.
+- [[L-Band]]: A microwave range widely used for navigation, satellite links, radar, and surveillance systems.
+- [[S-Band]]: A microwave range commonly used for weather radar, air traffic radar, communications, and satellite services.
+- [[C-Band]]: A microwave range used for satellite communications, radar, and weather sensing with moderate atmospheric resilience.
+- [[X-Band]]: A microwave range often used for high-resolution radar, maritime radar, and military sensing.
+- [[Ku-Band]]: A microwave range commonly used for satellite communications, broadcasting, and compact radar systems.
+- [[K-Band]]: A microwave range used in radar and sensing, with notable atmospheric absorption near water vapor frequencies.
+- [[Ka-Band]]: A high-frequency microwave range used for high-throughput satellite links, radar, and wideband systems.
+- [[Software-Defined Radio]] (SDR): A radio architecture that implements traditionally fixed hardware functions in software.
+- [[Transmitter]]: A system or device that generates and sends a signal into a channel or propagation medium.
+- [[Receiver]]: A system or device that detects, selects, and processes incoming signals to recover information.
+- [[Transceiver]]: A system or device that combines transmitter and receiver functions.
+- [[Power Amplifier]]: A circuit or device that increases signal power to drive an antenna, load, or later stage.
+- [[Low-Noise Amplifier]] (LNA): A circuit or device that boosts weak received signals while adding as little noise as practical.
+- [[Mixer]]: A circuit or device that combines signals to shift information between frequencies through sum and difference products.
+- [[Local Oscillator]]: A stable reference-frequency source used for mixing, tuning, or synchronization.
+- [[Filter]]: A circuit or process that passes selected frequency components while attenuating others.
+- [[Band-Pass Filter]]: A frequency-selective circuit or process that passes a chosen range while attenuating frequencies below and above it.
+- [[Low-Pass Filter]]: A frequency-selective circuit or process that passes content below a cutoff while attenuating higher frequencies.
+- [[High-Pass Filter]]: A frequency-selective circuit or process that passes content above a cutoff while attenuating lower frequencies.
+- [[Analog-to-Digital Converter]] (ADC): A device that samples an analog input and represents it as digital values.
+- [[Digital-to-Analog Converter]] (DAC): A device that turns digital values into a corresponding analog output.
+- [[Sampling Rate]]: The number of measurements taken from a signal per unit time.
+- [[Nyquist Rate]]: The minimum sampling rate needed to represent a band-limited signal without aliasing.
+- [[Aliasing]]: Distortion that occurs when insufficient sampling makes different frequencies appear indistinguishable.
+- [[Fast Fourier Transform]] (FFT): An efficient algorithm for converting sampled data between time and frequency representations.
+- [[Spectrogram]]: A time-frequency view showing how a signal's spectral content changes over time.
+- [[Waterfall Display]]: A stacked view of successive spectrum measurements that shows frequency activity over time.
+- [[Radar]]: A sensing method that uses transmitted electromagnetic energy and received echoes to detect, locate, or characterize objects.
+- [[Pulse Radar]]: A sensing method that transmits short bursts of energy and measures echo timing to estimate range.
+- [[Continuous-Wave Radar]] (CW Radar): A sensing method that transmits continuously and typically measures velocity or presence from Doppler shift.
+- [[Frequency-Modulated Continuous-Wave Radar]] (FMCW Radar): A sensing method that sweeps transmit frequency to estimate range and velocity from beat frequencies.
+- [[Synthetic Aperture Radar]] (SAR): An imaging method that combines measurements from a moving platform to form high-resolution images.
+- [[Inverse Synthetic Aperture Radar]] (ISAR): An imaging method that uses target motion relative to the radar to form high-resolution images.
+- [[Electronic Warfare]] (EW): Military use of electromagnetic energy to sense, protect, attack, or control operations in the spectrum.
+- [[Electronic Warfare|Electronic Attack]] (EA): Use of electromagnetic energy, directed energy, or anti-radiation weapons to degrade or deny adversary systems.
+- [[Electronic Warfare|Electronic Protection]] (EP): Measures that preserve friendly use of the electromagnetic spectrum under interference, attack, or surveillance.
+- [[Electronic Warfare|Electronic Support]] (ES): Detection, interception, identification, location, or analysis of electromagnetic emissions for operational awareness.
+- [[Signals Intelligence]] (SIGINT): Intelligence derived from intercepted signals and electromagnetic emissions.
+- [[Communications Intelligence]] (COMINT): Intelligence derived from intercepted communications between people or systems.
+- [[Electronic Intelligence]] (ELINT): Intelligence derived from non-communication electromagnetic emissions such as radar signals.
+- [[Direction Finding]]: Estimation of the bearing or arrival direction of a signal source.
+- [[Geolocation]]: Estimation of the physical position of a signal source or receiver.
+- [[Emitter]]: Any source that radiates electromagnetic energy.
+- [[Emission Control]] (EMCON): Management or restriction of transmissions to reduce detection, interference, or intelligence exposure.
+- [[Low Probability of Intercept]] (LPI): Signal techniques that make interception by unintended receivers difficult.
+- [[Low Probability of Detection]] (LPD): Signal techniques that make discovery of a transmission difficult.
+- [[Anti-Jamming]]: Techniques that maintain signal performance despite deliberate interference.
+- [[Meaconing]]: Interception and rebroadcast of navigation signals to mislead receivers about position, timing, or bearing.
+
+

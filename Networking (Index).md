@@ -126,7 +126,7 @@ Terms
 - [[Tcpdump]]
 - [[Wireshark]]
 - [[Network Interface Card]] (NIC)
-- [[Switch]]
+- [[Networking Switch]]
 - [[Routing|Router]]
 - [[Gateway]]
 - [[Wireless Access Point]] (WAP; AP)

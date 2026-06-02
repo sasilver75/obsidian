@@ -53,8 +53,8 @@ Terms:
 - [[Video receiver]] (VRX): A receiver that accepts the video signal transmitted from a drone.
 - [[Ground Control Station]]/System (GCS): A ground-based interface used to plan missions, monitor telemetry, and control or supervise a UAS.
 - [[ArduPilot]]: An open-source autopilot software stack used for multirotors, fixed-wing aircraft, rovers, boats, and other vehicles.
-- [[PX4]]: An open-source autopilot software stack used for drones and robotic vehicles.
-- [[Betaflight]]: Flight-control firmware primarily used for FPV multirotors and racing drones.
+- [[PX4]]: An open-source autopilot software stack used for drones and robotic vehicles. Research/commercial/autonomy stack, [[Pixhawk]] ecosystem, [[Robot Operating System|ROS]]-like integration, industrial workflows.
+- [[Betaflight]]: Flight-control firmware primarily used for FPV multirotors and racing drones. The dfeault for normal FPV quads.
 - [[Intelligent Navigation System]] (INAV): Flight-control firmware focused on navigation features for multirotors and fixed-wing aircraft.
 - [[Smoke Stopper]]: A current-limiting device used during first power-up to reduce damage from wiring faults.
 - [[Visual Line of Sight]] (VLOS): Operation in which the remote pilot or observer can directly see the aircraft without aids beyond normal vision.
@@ -70,6 +70,7 @@ Terms:
 - [[Terrain Following Navigation]]: Navigation that maintains a desired height above terrain using sensors, terrain data, or both.
 - [[Terrain Contour Matching]] (TERCOM): A navigation technique that compares measured terrain profiles to stored terrain maps.
 - [[Visual Odometry]]: Estimating motion by tracking visual changes between camera frames.
+- [[Optical Flow]]: Tracks the 2D motion of pixels between consecutive image frames to show what is moving in the scene.
 - [[Visual Inertial Odometry]] (VIO): Estimating motion by fusing camera observations with inertial sensor measurements.
 - [[Simultaneous Localization and Mapping]] (SLAM): A method for building a map of an unknown environment while estimating the vehicle's position within it.
 - [[Semantic Simultaneous Localization and Mapping]] (SSLAM)
@@ -139,6 +140,6 @@ Terms:
 - [[Short-Range Air Defense]] (SHORAD): Air defense capabilities intended to protect forces from low-altitude air threats at short range.
 - [[Maneuver Short-Range Air Defense]] (M-SHORAD): Mobile short-range air defense designed to protect maneuver forces.
 - [[Kill Chain]]: The sequence of steps used to find, track, target, engage, and assess effects on a target.
-- [[Ground Control Point]]
-
-
+- [[Ground Control Point]]: A surveyed reference location used to georeference imagery, maps, or sensor products collected by a drone.
+- [[Radio Controller]]: A handheld transmitter used by a pilot to send command inputs to a drone over a radio link.
+- [[ExpressLRS]] (ELRS): An open-source, low-latency radio-control link protocol commonly used for long-range FPV and hobby drone control.

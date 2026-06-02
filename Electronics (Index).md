@@ -15,6 +15,7 @@ Terms
 - [[Resistance]]: The opposition to electric current.
 - [[Ohm]]: The [[International System of Units|SI]] unit of Resistance.
 - [[Conductance]]: The ease with which current flows, equal to the reciprocol of resistance.
+- [[Farad]]: The [[International System of Units|SI]] measure of electrical capacitance.
 - [[Power]]: The rate of energy transfer or consumption in a circuit.
 - [[Energy]]: The capacity to do work, stored or transferred by electrical systems.
 - [[Joule]]: The [[International System of Units|SI]] unit of Energy
@@ -78,6 +79,9 @@ Terms
 - [[Battery]]: A device that stores chemical energy and delivers it as electrical energy.
 - [[Lithium Ion]] (Li-Ion): A rechargeable battery chemistry that moves lithium ions between electrodes.
 - [[Lithium Polymer]] (LiPo): A lithium-based rechargeable battery packaged as lightweight pouch cell.
+- [[Polarity]]
+- [[Dielectric]]
+- [[Electrolysis]]
 - [[Overdischarge]]: Draining a battery below its safe minimum voltage.
 - [[Overcharge]]: Charging a battery beyond its safe maximum voltage.
 - [[Analog-to-Digital Converter]] (ADC): A circuit that converts an analog voltage into a digital value.
@@ -93,7 +97,7 @@ Terms
 - [[Sensor]]: A device that detects a physical condition and turns it into a useful signal.
 - [[Electronic Speed Controller]] (ESC): A circuit that controls motor speed, especially for brushless motors.
 - [[Breadboard]]: A reusable board for prototyping circuits without soldering.
-- [[Jumper Wires]]: Short wires used to make temporary circuit connections.
+- [[Jumper Wire]]: Short wire used to make temporary circuit connections.
 - [[Multimeter]]: A tool measuring voltage, current resistance, and continuity.
 - [[Oscilloscope]]: A tool that displays how voltage changes over time.
 - [[Logic Analyzer]]: A tool that captures and displays digital signal timing.
@@ -102,6 +106,7 @@ Terms
 - [[Flux]]: A chemical cleaner that helps solder wet and bond to metal surfaces.
 - [[Electrostatic Discharge]]: A sudden transfer of static charge that can damage electronics.
 - [[Printed Circuit Board]] (PCB): A board with conductive traces that mechanically supports and electrically connects components.
+- [[Electromagnetism]]
 - [[Electromagnetic Spectrum]]: The full range of electromagnetic radiation frequencies.
 - [[Radio Spectrum]]: The portion of the EM spectrum used for radio communications and sensing.
 - [[Radio Frequency]] (RF): The specific frequency or signal in the radio spectrum.
@@ -112,4 +117,21 @@ Terms
 - [[Inertial Measurement Unit]] (IMU): A sensor (unit) that measures motion, specifically acceleration and rotation, without reference to any external signal.
 - [[Helping Hands]]: A small clamp tool that holds parts or wires during soldering and assembly.
 - [[Smoke Stopper]]: A current-limiting device used on first power-up to reduce damage from wiring mistakes.
-- [[Integrated Circuit]] (IC)
+- [[Integrated Circuit]] (IC): A packaged semiconductor device containing many electronic components, such as transistors, diodes, resistors, or logic gates, on one chip.
+- [[Diode]]: A semiconductor component that primarily allows current to flow in one direction while blocking it in the other.
+- [[Rectifier]]: A circuit or device that converts alternating current into direct current.
+- [[Transistor]]: A semiconductor device used to switch or amplify electrical signals.
+- [[Metal-Oxide-Semiconductor Field-Effect Transistor]] (MOSFET): A voltage-controlled transistor commonly used for switching, power control, and digital logic.
+- [[Operational Amplifier]] (Op-Amp): A high-gain differential amplifier used for signal conditioning, filtering, buffering, and analog computation.
+- [[Comparator]]: A circuit that compares two input voltages and outputs a digital-like signal indicating which is higher.
+- [[Relay]]: An electrically controlled switch that uses a small control signal to open or close a separate circuit.
+- [[Switch]]: A component that opens, closes, or redirects an electrical path in a circuit.
+- [[Voltage Regulator]]: A circuit that keeps an output voltage stable despite changes in input voltage or load.
+- [[Buck Converter]]: A switching regulator that efficiently steps a higher input voltage down to a lower output voltage.
+- [[Universal Asynchronous Receiver-Transmitter]] (UART): A serial interface that sends and receives asynchronous data between digital devices.
+- [[Inter-Integrated Circuit]] (I2C): A two-wire serial bus used for short-distance communication between controllers and peripheral chips.
+- [[Serial Peripheral Interface]] (SPI): A fast synchronous serial bus that connects a controller to peripherals using separate clock and data lines.
+- [[Serial Bus]]: A communication bus that transfers data one bit or symbol at a time over a small number of signal lines.
+- [[Battery Management System]]: Electronics that monitor, protect, and balance battery cells during charging, discharging, and storage.
+- [[Transmitter]]: A circuit or device that generates and sends a signal into a wire, antenna, or other communication medium.
+- [[Receiver]]: A circuit or device that detects and processes an incoming signal to recover useful information.

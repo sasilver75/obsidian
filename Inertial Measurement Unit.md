@@ -3,7 +3,8 @@ aliases:
   - IMU
 ---
 A sensor (unit) that measures motion, specifically acceleration and rotation, without reference to any external signal.
-- "An IMU is dead reckoning in hardware; it tracks every movement from a known starting point, accumulating error the whole way."
+- "An IMU is dead reckoning in hardware; it tracks every movement from a known starting point, accumulating error the whole way." 
+- Typically has both a [[Gyroscope]] and [[Accelerometer]], and sometimes a [[Magnetometer]]/[[Compass]].
 
 By integrating acceleration over time, you get velocity. Integrate again, and you get position. By integrating rotation rate you get orientation. Starting from a known position/attitude, an IMU tracks where you've gone purely through math, with no GPS needed.
 - The catch is *drift:* Every integration accumulates error; small sensor noise compounds into position drift over time. This is why IMUs are almost always fused with GPS or other corrections.

@@ -1,3 +1,5 @@
+References:
+- Video: [Drones | How do they work?](https://www.youtube.com/watch?v=N_XneaFmOmU)
 
 - Fixed Wing: 
 - Multi-Rotor: An aircraft that flies not by air traveling over wings, but by propellers forcing the air downwards. 

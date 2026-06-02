@@ -35,7 +35,7 @@ Common Model:
 -: Harder to revoke before expiration, token can get large, requires careful expiration and rotation
 
 
-Note: [[Access Token]] vs [[Refresh Token]]
+Note: [[User Access Token]] vs [[Refresh Token]]
 - Modern apps often use:
 	- Access Token: Short-lived credential for requests
 	- Refresh Token: Longer-lived credential used to get new access tokens

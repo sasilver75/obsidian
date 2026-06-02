@@ -104,12 +104,12 @@
             }
           },
           {
-            "id": "448e65e99b01d941",
+            "id": "82133ffe6dcaaf1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signals and Spectrums (Index).md",
+                "file": "Diode.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Signals and Spectrums (Index)"
+              "title": "Diode"
             }
           },
           {
-            "id": "33e7ba15d75a9563",
+            "id": "ca4dc3f580b109fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anti-Jamming.md",
+                "file": "Electromagnetism.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,35 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Anti-Jamming"
+              "title": "Electromagnetism"
             }
           },
           {
-            "id": "7818e1cd4fed439b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pulse Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Pulse Radar"
-            }
-          },
-          {
-            "id": "86d4232d2763ff49",
+            "id": "50f49faf01c2ff7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,12 +176,12 @@
             }
           },
           {
-            "id": "32fd6fc4e70194d4",
+            "id": "33461dc5cf50cb1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interferometric Synthetic Aperture Radar.md",
+                "file": "Electromagnetism.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Interferometric Synthetic Aperture Radar"
+              "title": "Electromagnetism"
             }
           },
           {
-            "id": "eaa72d1d92809dff",
+            "id": "1ced8dda81a14795",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coregistration.md",
+                "file": "Electrolysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Coregistration"
+              "title": "Electrolysis"
             }
           },
           {
-            "id": "8cce4555feaf20cc",
+            "id": "eb019e1b10158af4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Moderate Resolution Imaging Spectroradiometer.md",
+                "file": "Reality Capture (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Moderate Resolution Imaging Spectroradiometer"
+              "title": "Reality Capture (Index)"
             }
           },
           {
-            "id": "4e693a056fb829ab",
+            "id": "ce3bb70627c49655",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frequency Response.md",
+                "file": "Kitbashing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,16 +268,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Frequency Response"
+              "title": "Kitbashing"
             }
           },
           {
-            "id": "b7fe2dad8ee5d9e4",
+            "id": "ceb6c13f8338f7e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gain.md",
+                "file": "CloudCompare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,11 +292,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gain"
+              "title": "CloudCompare"
             }
           },
           {
-            "id": "a75da1e6815eb56a",
+            "id": "260b69321a7d5b4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -344,12 +320,12 @@
             }
           },
           {
-            "id": "86c41ed1f28d0648",
+            "id": "96f7b218992349cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semantic Simultaneous Localization and Mapping.md",
+                "file": "4D Gaussian Splatting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,16 +340,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Semantic Simultaneous Localization and Mapping"
+              "title": "4D Gaussian Splatting"
             }
           },
           {
-            "id": "dbe8e6b7bdfc6273",
+            "id": "2f7e849a6ff324eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Telemetry, Tracking, and Command.md",
+                "file": "4D Gaussian Splatting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,16 +364,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Telemetry, Tracking, and Command"
+              "title": "4D Gaussian Splatting"
             }
           },
           {
-            "id": "82d59814f84d1098",
+            "id": "659e43a6184fc67d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Acquisition.md",
+                "file": "Signals and Spectrums (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -412,16 +388,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Acquisition"
+              "title": "Signals and Spectrums (Index)"
             }
           },
           {
-            "id": "5932978b09e6eb1d",
+            "id": "33db42e839085aa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Propulsion System.md",
+                "file": "Low Probability of Detection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,16 +412,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Propulsion System"
+              "title": "Low Probability of Detection"
             }
           },
           {
-            "id": "9107d59a3d5a2be2",
+            "id": "72aa232d2bc74b12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "J2 Term.md",
+                "file": "Low Probability of Intercept.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,16 +436,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "J2 Term"
+              "title": "Low Probability of Intercept"
             }
           },
           {
-            "id": "c2f5e555f637ec9e",
+            "id": "7dd7498e6f24026b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ephemeris.md",
+                "file": "Emission Control.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,16 +460,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ephemeris"
+              "title": "Emission Control"
             }
           },
           {
-            "id": "c3d69ed54eb0ee0f",
+            "id": "64d1b0c6b4f00ec7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geostationary Orbit.md",
+                "file": "Continuous-Wave Radar.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,16 +484,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geostationary Orbit"
+              "title": "Continuous-Wave Radar"
             }
           },
           {
-            "id": "1cda2f25ff692dcc",
+            "id": "1e0c487dcb0184ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geosynchronous Orbit.md",
+                "file": "Fast Fourier Transform.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,16 +508,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Geosynchronous Orbit"
+              "title": "Fast Fourier Transform"
             }
           },
           {
-            "id": "f33bc93991cdb121",
+            "id": "7ed02942b53bf6a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ground Control Station.md",
+                "file": "Low-Noise Amplifier.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,16 +532,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ground Control Station"
+              "title": "Low-Noise Amplifier"
             }
           },
           {
-            "id": "e2f117de5ba43ffe",
+            "id": "fff1145b9d1ae033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S2 Geometry.md",
+                "file": "Software-Defined Radio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,16 +556,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "S2 Geometry"
+              "title": "Software-Defined Radio"
             }
           },
           {
-            "id": "8e365992818d2daa",
+            "id": "21e9e19e02388ab9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protomaps.md",
+                "file": "Effective Isotropic Radiated Power.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -604,16 +580,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Protomaps"
+              "title": "Effective Isotropic Radiated Power"
             }
           },
           {
-            "id": "bad888764b5c1ab4",
+            "id": "2504fb255d011a59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Remote Sensing.md",
+                "file": "Free-Space Path Loss.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,16 +604,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Remote Sensing"
+              "title": "Free-Space Path Loss"
             }
           },
           {
-            "id": "29f344e30b34e3e1",
+            "id": "0a9d2c2bbc61d303",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Radar Altimeter.md",
+                "file": "Signal-to-Noise Ratio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,16 +628,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Radar Altimeter"
+              "title": "Signal-to-Noise Ratio"
             }
           },
           {
-            "id": "1c1376ec4579ef2a",
+            "id": "0e70b40a92f384a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Satellite-Based Augmentation System.md",
+                "file": "Chirp Spread Spectrum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,16 +652,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Satellite-Based Augmentation System"
+              "title": "Chirp Spread Spectrum"
             }
           },
           {
-            "id": "376045526d6a78a1",
+            "id": "1abaf46db668e258",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sensor Fusion.md",
+                "file": "Direct Sequence Spread Spectrum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,16 +676,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sensor Fusion"
+              "title": "Direct Sequence Spread Spectrum"
             }
           },
           {
-            "id": "adb32e528fc092c5",
+            "id": "887ec80d1639a993",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Navigation with Indian Constellation.md",
+                "file": "Frequency Hopping Spread Spectrum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -724,16 +700,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Navigation with Indian Constellation"
+              "title": "Frequency Hopping Spread Spectrum"
             }
           },
           {
-            "id": "99d0c9f317933901",
+            "id": "9e5308b5f2083576",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quazi-Zenith Satellite System.md",
+                "file": "Orthogonal Frequency-Division Multiplexing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -748,16 +724,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quazi-Zenith Satellite System"
+              "title": "Orthogonal Frequency-Division Multiplexing"
             }
           },
           {
-            "id": "b123bd09fae16a2b",
+            "id": "eec9dde94f864096",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Real-Time Kinematic Positioning.md",
+                "file": "Amplitude-Shift Keying.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -772,16 +748,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Real-Time Kinematic Positioning"
+              "title": "Amplitude-Shift Keying"
             }
           },
           {
-            "id": "eb019e1b10158af4",
+            "id": "8d2c170a44d0164a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrier Wave.md",
+                "file": "Frequency-Shift Keying.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,11 +772,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Carrier Wave"
+              "title": "Frequency-Shift Keying"
+            }
+          },
+          {
+            "id": "92836fb39ceffe9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phase-Shift Keying.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Phase-Shift Keying"
+            }
+          },
+          {
+            "id": "f16ce4f6033d0918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quadrature Amplitude Modulation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Quadrature Amplitude Modulation"
+            }
+          },
+          {
+            "id": "39084c5141689030",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modulation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Modulation"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -2690,34 +2738,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "448e65e99b01d941",
+  "active": "eb019e1b10158af4",
   "lastOpenFiles": [
+    "Cryptography and Security (Index).md",
+    "Electronics (Index).md",
     "Drone (Index).md",
-    "Signals and Spectrums (Index).md",
-    "Anti-Jamming.md",
-    "Pulse Radar.md",
-    "Radar.md",
-    "Interferometric Synthetic Aperture Radar.md",
-    "Isotropic Radiator.md",
+    "Reality Capture (Index).md",
+    "SPlat Zip.md",
+    "Electrolysis.md",
+    "Kitbashing.md",
+    "CloudCompare.md",
+    "Independent Check Point.md",
+    "COLMAP.md",
     "Drone.md",
-    "Layover.md",
-    "Open Source Geospatial Foundation.md",
-    "Satellite (Index).md",
+    "4D Gaussian Splatting.md",
+    "Software-Defined Radio.md",
     "Carrier Wave.md",
-    "Signals and Spectrum (Index).md",
-    "Manufacturing (Index).md",
-    "Coregistration.md",
-    "Differential Interferometric Synthetic Aperture Radar.md",
-    "Ephemeris.md",
-    "Project Ideas.md",
-    "Remote Sensing.md",
-    "Satellite.md",
-    "Sentinel.md",
-    "Synthetic Aperture Radar.md",
-    "Moderate Resolution Imaging Spectroradiometer.md",
-    "Joint Emissivity Database Initiative.md",
-    "Rational Polynomial Coefficients.md",
-    "Rational Polynomial Coefficient.md",
+    "Signals and Spectrums (Index).md",
+    "Low Probability of Detection.md",
+    "Low Probability of Intercept.md",
+    "Emission Control.md",
+    "Continuous-Wave Radar.md",
+    "Fast Fourier Transform.md",
+    "Low-Noise Amplifier.md",
+    "Effective Isotropic Radiated Power.md",
+    "Free-Space Path Loss.md",
+    "Signal-to-Noise Ratio.md",
+    "Chirp Spread Spectrum.md",
+    "Direct Sequence Spread Spectrum.md",
     "_attachments/Pasted image 20260601144441.png",
     "_attachments/Pasted image 20260601120421.png",
     "_attachments/Pasted image 20260528011813.png",

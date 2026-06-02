@@ -81,7 +81,7 @@ Above:
 
 
 # Notes on Polarization
-- Radar and other forms of [[Electromagnetic Spectrum|Electromagnetic]] radiation consist of electron and magnetic fields that are perpendicular to eachother.
+- Radar and other forms of [[Electromagnetism]] radiation consist of electron and magnetic fields that are perpendicular to eachother.
 - The polarization of an EM wave refers to the orientation of the electric field.
 - ![[Pasted image 20260421174616.png]]
 - If an electric field is oriented vertically with respect to the Earth's surface (left, Figure 13), it's "Vertically" polarized.

@@ -1,0 +1,2 @@
+Creating a new, original model by taking pieces, parts, or assets from two or more existing commercial kits and combining them.
+- Term originates from physical model (e.g. model cars), but has expanded to 3D design and visual effects.

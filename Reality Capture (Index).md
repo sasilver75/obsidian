@@ -1,0 +1,89 @@
+
+
+Terms:
+- [[Photogrammetry]]: The science of extracting measurements, camera geometry, and 3D structure from overlapping photographs.
+- [[Light Detection and Ranging|LiDAR]]: An active sensing method that measures distance by emitting laser pulses and timing their returns.
+- [[Depth Camera]]: A camera system that captures per-pixel distance information in addition to or instead of color imagery.
+- [[Point Cloud]]: A collection of 3D points representing sampled positions on surfaces or objects.
+- [[Texture Mapping]]: The process of applying image data to 3D geometry to give a model visual surface detail.
+- [[Mesh]]: A 3D surface representation made from connected vertices, edges, and faces.
+- [[Neural Radiance Fields]] (NeRFs): Neural scene representations that learn density and color fields for rendering novel views.
+- [[3D Gaussian Splatting]] (3DGS): A scene representation that uses many optimized 3D Gaussian ellipsoids to render photorealistic views in real time.
+- [[4D Gaussian Splatting]] (4DGS, Dynamic Gaussian Splatting): An extension of Gaussian splatting for representing scenes that change over time.
+- [[Digital Twin]]: A digital representation of a real-world asset, place, or system that can support visualization, analysis, simulation, or monitoring.
+- [[Ground Control Point]] (GCP): A surveyed reference point used to tie imagery or models to real-world coordinates.
+- [[Independent Check Point]]: A surveyed point withheld from processing and used to independently assess positional accuracy.
+- [[Georeference]]: The process of assigning real-world spatial coordinates to imagery, point clouds, models, or other data.
+- [[Coregistration]]: The alignment of multiple datasets so corresponding pixels, points, or features refer to the same physical locations.
+- [[Orthoimage|Orthomosaic]]: A seamless map-like image assembled from many orthorectified images.
+- [[Orthoimage|Orthorectification]]: The correction of imagery for terrain relief, sensor geometry, and viewing angle so it has map-accurate scale.
+- [[Digital Elevation Model]] (DEM): A raster surface representing elevation values over an area.
+- [[Digital Terrain Model]] (DTM): A bare-earth elevation model with buildings, vegetation, and other surface objects removed.
+- [[Digital Surface Model]] (DSM): An elevation model representing the top visible surface, including terrain, buildings, vegetation, and other objects.
+- [[Canopy Height Model]] (CHM): A raster model estimating vegetation height, often computed as the difference between a DSM and DTM.
+- [[Visual Odometry]]: Estimation of a camera or vehicle's motion by tracking visual changes across image frames.
+- [[Optical Flow]]: The apparent pixel-level motion of image content between consecutive frames.
+- [[Sensor Fusion]]: The combination of measurements from multiple sensors to produce a more accurate or robust estimate.
+- [[Inertial Measurement Unit]] (IMU): A sensor package that measures acceleration and angular rotation for estimating motion and orientation.
+- [[Global Navigation Satellite System]] (GNSS): Satellite-based positioning systems that provide location, velocity, and time.
+- [[GPS INS]]: A navigation approach that combines satellite positioning with inertial measurements for improved pose estimation.
+- [[COLMAP]]: An open-source Structure from Motion and Multi-View Stereo tool for estimating camera poses and reconstructing 3D scenes.
+- [[Splat]]: A rendered footprint used to visualize a point or primitive that does not have an explicit surface area.
+- [[Point Data Abstraction Library]] (PDAL): An open-source library and pipeline framework for reading, writing, transforming, and processing point cloud data.
+- [[CloudCompare]]: An open-source desktop application for visualizing, registering, measuring, and processing point clouds and meshes.
+- [[Potree]]: A web-based renderer for interactively visualizing large point cloud datasets.
+- [[Cesium]]: A 3D geospatial platform for streaming and visualizing globes, terrain, 3D tiles, imagery, and spatial data.
+- [[Octree]]: A hierarchical spatial data structure that recursively subdivides 3D space into eight child regions.
+- [[Building Information Modeling]] (BIM): A structured model of a built asset that combines geometry with semantic, material, and operational information.
+- [[Industry Foundation Classes]] (IFC): An open data standard for exchanging Building Information Modeling data across software tools.
+- [[Physically-Based Rendering]] (PBR): A rendering approach that models material and lighting behavior using physically motivated parameters.
+- [[Scaniverse]]: A mobile reality-capture app for creating 3D scans, meshes, and Gaussian splats from phone sensor data.
+- [[Niantic Spatial]]: A spatial computing platform focused on building and using real-world 3D maps and location-aware experiences.
+- [[OpenTopography]]: A platform for discovering, accessing, and processing high-resolution topographic and LiDAR data.
+- [[3DEP]]: The USGS 3D Elevation Program for collecting and distributing high-quality elevation data across the United States.
+- [[Photogrammetry|Structure from Motion]] (SfM): A photogrammetry method that jointly estimates camera poses and sparse 3D structure from overlapping images.
+- [[Photogrammetry|Multi-View Stereo]] (MVS): A reconstruction method that densifies scene geometry from multiple calibrated image views.
+- [[Camera Pose]]: A camera's position and orientation in a scene or coordinate system.
+- [[Camera Intrinsics]]: Internal camera parameters such as focal length, principal point, and lens model.
+- [[Camera Extrinsics]]: External camera parameters describing the camera's position and orientation relative to the world or another coordinate frame.
+- [[Camera Calibration]]: The process of estimating camera intrinsics, distortion, and sometimes extrinsics for accurate measurement and reconstruction.
+- [[Lens Distortion]]: Optical deformation that causes image points to deviate from ideal pinhole camera geometry.
+- [[Bundle Adjustment]]: An optimization process that refines camera parameters and 3D point positions to minimize reprojection error.
+- [[Feature Matching]]: The process of finding corresponding visual features across two or more images.
+- [[Keypoint]]: A distinctive image location used for matching, tracking, or geometric estimation.
+- [[Tie Point]]: A matched image feature that links overlapping images during alignment or reconstruction.
+- [[Depth Map]]: An image-like grid where each pixel stores distance or depth from a camera viewpoint.
+- [[Stereo Reconstruction]]: The estimation of 3D structure from two or more images taken from different viewpoints.
+- [[Epipolar Geometry]]: The projective geometry that constrains where corresponding points can appear across stereo image pairs.
+- [[Triangulation]]: The computation of a 3D point by intersecting or fitting rays from multiple camera views.
+- [[Registration]]: The process of aligning datasets, point clouds, meshes, images, or coordinate frames into a common space.
+- [[Iterative Closest Point]] (ICP): A registration algorithm that aligns point clouds by iteratively matching nearby points and minimizing alignment error.
+- [[Georeference|Direct Georeferencing]]: Georeferencing sensor data directly from measured platform position and orientation rather than relying primarily on ground control.
+- [[Real-Time Kinematic Positioning|Real-Time Kinematic]] (RTK): A GNSS correction technique that provides centimeter-level positioning in real time.
+- [[Post-Processed Kinematic]] (PPK): A GNSS correction technique that computes precise positions after data collection using base-station observations.
+- [[Novel View Synthesis]]: The task of rendering a scene from viewpoints that were not present in the original captured imagery.
+- [[Signed Distance Function]] (SDF): A scalar field that stores the signed distance from each point in space to a surface.
+- [[Truncated Signed Distance Function]] (TSDF): A signed distance field that stores distances only within a limited range near the surface.
+- [[Voxel]]: A volumetric pixel representing a value or occupancy within a discrete 3D grid cell.
+- [[Dynamic Scene Reconstruction]]: The reconstruction of 3D scenes whose geometry, appearance, or objects change over time.
+- [[Volumetric Capture]]: The capture of a subject or scene as time-varying 3D data that can be viewed from different angles.
+- [[RGB-D Camera]]: A camera system that captures both color imagery and depth measurements.
+- [[Stereo Camera]]: A camera system with two or more viewpoints used to estimate depth from parallax.
+- [[Polygon File Format]] (PLY): A 3D file format commonly used for storing point clouds, meshes, colors, normals, and other per-element attributes.
+- [[OBJ]] File Format: A widely supported 3D geometry format used for meshes, vertices, texture coordinates, normals, and material references.
+- [[GL Transmission Format]] (glTF): A 3D asset format designed for efficient transmission and loading of scenes and models.
+- [[GLB]]: The binary container form of glTF that packages geometry, materials, textures, and scene data into one file.
+- [[E57]]: A vendor-neutral file format for storing 3D imaging data such as laser scans, point clouds, and associated imagery.
+- [[Universal Scene Description Zipped]] (USDZ): A packaged form of Universal Scene Description commonly used for portable 3D and augmented reality assets.
+- [[CityGML]]: An open standard for representing semantic 3D city and landscape models.
+- [[3D Tiles]]: A standard for streaming massive heterogeneous 3D geospatial datasets using hierarchical tiles and levels of detail.
+- [[Cloud-Optimized Point Cloud]] (COPC): A cloud-readable LAZ-based point cloud format organized for efficient spatial subset access.
+- [[Entwine Point Tiles]] (EPT): A hierarchical point cloud tiling format for streaming large point cloud datasets.
+- [[SPlat Zip]] (SPZ): A compressed file format for storing 3D Gaussian splat scenes compactly.
+- [[LASer]] (LAS): A standard binary file format for storing LiDAR point cloud data.
+- [[LAZ]]: A losslessly compressed version of LAS used to store LiDAR point clouds more efficiently.
+
+
+
+
+
