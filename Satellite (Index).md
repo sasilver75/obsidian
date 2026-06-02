@@ -5,162 +5,164 @@
 
 
 Terms
-- [[Satellite]]
-- [[Constellation]]
-- [[Orbit]]
-- [[Payload]]
-- [[CubeSat]]
-- [[Ground Station]]
-- [[Task|Tasking]]
-- [[Acquisition]]
-- [[Revisit Rate]]
-- [[Swath]]
-- [[Ground Track]]
-- [[Footprint]]
-- [[Scene]], [[Strip]], and [[Tile]]s
-- [[Area of Interest]] (AOI)
-- [[Low Earth Orbit]] (LEO)
-- [[Medium Earth Orbit]] (MEO)
-- [[Geosynchronous Orbit]] (GSO)
-- [[Geostationary Orbit]] (GEO)
-- [[Sun-Synchronous Orbit]] (SSO)
-- [[Polar Orbit]]
-- [[Inclined Orbit]]
-- [[Equatorial Orbit]]
-- [[Orbital Elements]]
-- [[Ephemeris]]
-- [[Inclination]]
-- [[Period]]
-- [[Ascending Node]]
-- [[Descending Node]]
-- [[Precession]]
-- [[J2 Term]]
-- [[Station Keeping]]
-- [[Atmospheric Drag]]
-- [[Attitude]]
-- [[Attitude Determination and Control System]] (ADCS)
-- [[Reaction Wheel]]
-- [[Magnetorquer]]
-- [[Star Tracker]]
-- [[Sun Sensor]]
-- [[Inertial Measurement Unit]] (IMU)
-- [[Magnetometer]]
-- [[Thermal Control System]]
-- [[Radiation Hardening]]
-- [[Propulsion System]]
-- [[Deorbiting]]
-- [[Satellite Communications]] (SATCOM)
-- [[Uplink]]
-- [[Downlink]]
-- [[Overpass Window]]
-- [[Telemetry, Tracking, and Command]] TT&C
-- [[Transponder]]
-- [[Antenna]] 
-- [[Gain]]
-- [[P-Band]]
-- [[L-Band]]
-- [[S-Band]]
-- [[C-Band]]
-- [[X-Band]]
-- [[Ku-Band]]
-- [[K-Band]]
-- [[Ka-Band]]
-- [[Doppler Effect|Doppler Shift]]
-- [[Rain Fade]]
-- [[Remote Sensing|Earth Observation]]
-- [[Remote Sensing]]
-- [[Active Remote Sensing]]
-- [[Passive Remote Sensing]]
-- [[Panchromatic]]
-- [[Multispectral]] (MSI)
-- [[Hyperspectral]] (HSI)
-- [[Thermal Infrared]] (TIR)
-- [[Near Infrared]] (NIR)
-- [[Short-Wave Infrared]] (SWIR)
-- [[Synthetic Aperture Radar]] (SAR)
-- [[Radar Altimeter]]
-- [[Laser Altimeter]]
-- [[Radiometer]]
-- [[Spectrometer]]
-- [[Spectroradiometer]]
-- [[Scatterometer]]
-- [[Sounder]]
-- [[Ground Sample Distance]] (GSD)
-- [[Resolution|Spatial Resolution]]
-- [[Resolution|Temporal Resolution]]
-- [[Resolution|Spectral Resolution]]
-- [[Nadir]]
-- [[Nadir|Off-Nadir]]
-- [[Look Angle]]
-- [[Incidence Angle]]
-- [[Grazing Angle]]
-- [[Orthoimage|Orthorectification]]
-- [[Rational Polynomial Coefficient]]
-- [[Albedo]]
-- [[Radiance]]
-- [[Irradiance]]
-- [[Reflectance]]
-- [[Surface Reflectance]] (SR)
-- [[Top-of-Atmosphere]] (TOA)
-- [[Emissivity]]
-- [[Bidirectional Reflectance Distribution Function]] (BDRF)
-- [[Thermal Noise]]
-- [[Atmospheric Window]]
-- [[Satellite Image Preprocessing]]
-- [[Radiometric Calibration]]
-- [[Cloud Masking]]
-- [[Cloud Shadow Masking]]
-- [[Coregistration]]
-- [[Mosaic]]
-- [[Composite|Compositing]]
-- [[Pansharpening]]
-- [[Projection]]
-- [[Spectral Unmixing]]
-- [[Spectral Matching]]
-- [[Synthetic Aperture Radar]] (SAR)
-- [[Interferometric Synthetic Aperture Radar]] (InSAR)
-- [[Differential Interferometric Synthetic Aperture Radar]] (DInSAR)
-- [[Inverse Synthetic Aperture Radar]] (ISAR)
-- [[Synthetic Aperture Radar|ScanSAR]]
-- [[Synthetic Aperture Radar|TOPSAR]]
-- [[Backscatter]]
-- [[Polarization]] ([[Synthetic Aperture Radar|HH]]/[[Synthetic Aperture Radar|HV]]/[[Synthetic Aperture Radar|VH]]/[[Synthetic Aperture Radar|VV]]/[[Synthetic Aperture Radar|Quad-Pol]])
-- [[Range Resolution]]
-- [[Azimuth Resolution]]
-- [[Speckle]]
-- [[Layover]]
-- [[Foreshortening]]
-- [[Radar Shadow]]
-- [[Landsat]]
-- [[Sentinel]]
-- [[Moderate Resolution Imaging Spectroradiometer|MODIS]]
-- [[Shuttle Radar Topography Mission|SRTM]]
-- [[TerraSAR-X]]
-- [[RADARSAT]]
-- [[PALSAR]]
-- [[ALOS PALSAR]]
-- [[NISAR]]
-- [[Global Ecosystem Dynamics Investigation|GEDI]]
-- [[GOES-R]]
-- [[Iridium Satellite Constellation]]
-- [[Global Navigation Satellite System]] (GNSS)
+- [[Satellite]]: An object placed in orbit around a planet or other body, usually carrying payloads for communication, navigation, sensing, science, or defense.
+- [[Constellation]]: A coordinated group of satellites designed to work together to provide coverage, capacity, revisit, or resilience.
+- [[Orbit]]: The path a satellite follows around a celestial body under gravity and any perturbing forces.
+- [[Payload]]: The mission-specific equipment a satellite carries, such as a camera, radar, transponder, spectrometer, or scientific instrument.
+- [[CubeSat]]: A small satellite built from standardized 10-centimeter cube units, commonly used for low-cost research, demonstration, or commercial missions.
+- [[Ground Station]]: A terrestrial facility with antennas and systems for communicating with satellites, receiving data, or sending commands.
+- [[Task|Tasking]]: The process of requesting, scheduling, and commanding a satellite or sensor to collect data over a target or area.
+- [[Acquisition]]: The act of collecting a satellite observation or establishing contact with a satellite signal.
+- [[Revisit Rate]]: The frequency with which a satellite or constellation can observe the same location again.
+- [[Swath]]: The width of ground area imaged or sensed during a single satellite pass.
+- [[Ground Track]]: The path traced on Earth's surface by a satellite as it moves through orbit.
+- [[Footprint]]: The area on the ground covered by a satellite sensor, antenna beam, or observation at a given time.
+- [[Scene]]: A bounded satellite data collection covering a specific area, time, and sensor configuration.
+- [[Strip]]: A long continuous satellite collection acquired along the satellite's flight path.
+- [[Tile]]: A standardized spatial subdivision used to organize, process, or distribute satellite imagery or derived data.
+- [[Area of Interest]] (AOI): A user-defined geographic region selected for observation, analysis, monitoring, or tasking.
+- [[Low Earth Orbit]] (LEO): An orbit close to Earth, typically under about 2,000 kilometers altitude, used for imaging, communications, science, and crewed spacecraft.
+- [[Medium Earth Orbit]] (MEO): An orbit between LEO and GEO, commonly used by navigation constellations such as GNSS.
+- [[Geosynchronous Orbit]] (GSO): An orbit with a period matching Earth's rotation so the satellite returns to the same longitude each day.
+- [[Geostationary Orbit]] (GEO): A circular equatorial geosynchronous orbit where a satellite appears fixed over one point on Earth.
+- [[Sun-Synchronous Orbit]] (SSO): A near-polar orbit that keeps a satellite passing over locations at roughly consistent local solar times.
+- [[Polar Orbit]]: An orbit that passes near or over Earth's poles, enabling coverage of most of the planet as Earth rotates underneath.
+- [[Inclined Orbit]]: An orbit tilted relative to the equator by some inclination angle.
+- [[Equatorial Orbit]]: An orbit with very low inclination that stays close to Earth's equatorial plane.
+- [[Orbital Elements]]: A set of parameters describing a satellite's orbit, including size, shape, orientation, and position along the orbit.
+- [[Ephemeris]]: Time-indexed information describing the position and velocity of a satellite or celestial body.
+- [[Inclination]]: The angle between an orbit's plane and the equatorial plane of the body being orbited.
+- [[Period]]: The time required for a satellite to complete one full orbit.
+- [[Ascending Node]]: The point where an orbiting object crosses the equatorial plane moving northward.
+- [[Descending Node]]: The point where an orbiting object crosses the equatorial plane moving southward.
+- [[Precession]]: A gradual change in the orientation of an orbit or rotational axis over time.
+- [[J2 Term]]: The orbital perturbation caused by Earth's equatorial bulge, often important for nodal precession and sun-synchronous orbit design.
+- [[Station Keeping]]: Maneuvers used to maintain a satellite's desired orbit, position, or orbital slot.
+- [[Atmospheric Drag]]: Resistance from the upper atmosphere that slows low-orbiting satellites and gradually lowers their orbits.
+- [[Attitude]]: A satellite's orientation in space relative to an inertial frame, Earth, the Sun, or a target.
+- [[Attitude Determination and Control System]] (ADCS): The spacecraft subsystem that estimates and controls satellite orientation.
+- [[Reaction Wheel]]: A spinning wheel used to change or maintain spacecraft attitude by exchanging angular momentum with the satellite body.
+- [[Magnetorquer]]: An electromagnetic attitude-control device that interacts with Earth's magnetic field to generate torque.
+- [[Star Tracker]]: An optical sensor that determines spacecraft attitude by recognizing star patterns.
+- [[Sun Sensor]]: A sensor that measures the Sun's direction relative to a spacecraft for attitude determination or safe pointing.
+- [[Inertial Measurement Unit]] (IMU): A sensor package that measures acceleration and angular rotation to support navigation and attitude estimation.
+- [[Magnetometer]]: A sensor that measures magnetic field strength and direction, often used for attitude estimation or magnetic-field observations.
+- [[Thermal Control System]]: The subsystem that keeps spacecraft components within acceptable temperature ranges.
+- [[Radiation Hardening]]: Design techniques that make spacecraft electronics more resistant to radiation damage and single-event effects.
+- [[Propulsion System]]: Hardware that produces thrust for orbit insertion, station keeping, collision avoidance, or deorbiting.
+- [[Deorbiting]]: The process of lowering a satellite's orbit so it reenters the atmosphere or moves to a disposal trajectory.
+- [[Satellite Communications]] (SATCOM): Communication services that use satellites to relay voice, data, video, telemetry, or control signals.
+- [[Uplink]]: A communication signal transmitted from Earth or another platform to a satellite.
+- [[Downlink]]: A communication signal transmitted from a satellite to Earth or another receiving platform.
+- [[Overpass Window]]: The time interval when a satellite is visible or usable over a ground location.
+- [[Telemetry, Tracking, and Command]] TT&C: The functions used to monitor spacecraft health, determine its position, and send operational commands.
+- [[Transponder]]: A satellite radio-frequency device that receives, processes, and retransmits signals.
+- [[Antenna]]: A structure that transmits or receives electromagnetic waves for satellite communication, navigation, or sensing.
+- [[Gain]]: The directional concentration or amplification of signal power by an antenna, receiver, amplifier, or system.
+- [[P-Band]]: A low-frequency microwave band used in some radar and remote-sensing applications where penetration through vegetation or soil is useful.
+- [[L-Band]]: A microwave band widely used for GNSS, radar, satellite communications, and vegetation-sensitive remote sensing.
+- [[S-Band]]: A microwave band commonly used for telemetry, tracking, command, weather radar, and some communication links.
+- [[C-Band]]: A microwave band used for radar and satellite communications with moderate atmospheric resilience.
+- [[X-Band]]: A microwave band often used for high-resolution radar, Earth observation downlinks, and military communications.
+- [[Ku-Band]]: A microwave band commonly used for satellite television, broadband communications, and some radar systems.
+- [[K-Band]]: A microwave band used in radar and sensing, with practical constraints from atmospheric absorption near water vapor frequencies.
+- [[Ka-Band]]: A high-frequency microwave band used for high-throughput satellite communications, radar, and wideband links.
+- [[Doppler Effect|Doppler Shift]]: A frequency change caused by relative motion between a transmitter, receiver, or reflecting target.
+- [[Rain Fade]]: Signal attenuation caused by rain, especially at higher microwave frequencies such as Ku-band and Ka-band.
+- [[Remote Sensing|Earth Observation]]: The use of sensors, often on satellites or aircraft, to collect information about Earth's surface, atmosphere, oceans, or human activity.
+- [[Remote Sensing]]: The measurement of objects or environments from a distance using electromagnetic, acoustic, or other signals.
+- [[Active Remote Sensing]]: Remote sensing that emits its own energy and measures the returned signal, such as radar or LiDAR.
+- [[Passive Remote Sensing]]: Remote sensing that measures naturally emitted or reflected energy, such as sunlight reflected from Earth's surface.
+- [[Panchromatic]]: Single-band imagery collected across a broad spectral range, often with higher spatial resolution than multispectral bands.
+- [[Multispectral]] (MSI): Imagery collected in several discrete spectral bands, commonly used to distinguish land cover, vegetation, water, and materials.
+- [[Hyperspectral]] (HSI): Imagery collected across many narrow spectral bands to support detailed material or chemical discrimination.
+- [[Thermal Infrared]] (TIR): Infrared sensing of emitted heat, often used for temperature, fire, urban heat, and energy-balance applications.
+- [[Near Infrared]] (NIR): An infrared spectral range just beyond visible light, widely used for vegetation, water, and surface analysis.
+- [[Short-Wave Infrared]] (SWIR): An infrared spectral range useful for moisture, minerals, burn severity, haze penetration, and material discrimination.
+- [[Synthetic Aperture Radar]] (SAR): An active radar imaging method that uses platform motion to synthesize a large antenna aperture and produce high-resolution images.
+- [[Radar Altimeter]]: A radar instrument that measures surface height or range by timing reflected microwave pulses.
+- [[Laser Altimeter]]: A laser instrument that measures distance or elevation by timing reflected light pulses.
+- [[Radiometer]]: A passive instrument that measures naturally emitted or reflected electromagnetic energy over one or more bands.
+- [[Spectrometer]]: An instrument that measures the intensity of radiation across wavelengths or frequencies.
+- [[Spectroradiometer]]: An instrument that measures radiance or irradiance as a function of wavelength.
+- [[Scatterometer]]: A radar instrument that measures backscattered microwave energy to infer surface properties such as ocean winds or soil moisture.
+- [[Sounder]]: An instrument that profiles atmospheric or surface properties by measuring radiation across channels sensitive to different heights or conditions.
+- [[Ground Sample Distance]] (GSD): The ground area represented by one image pixel, usually expressed as a linear distance.
+- [[Resolution|Spatial Resolution]]: The smallest spatial detail a sensor or product can distinguish on the ground.
+- [[Resolution|Temporal Resolution]]: How frequently a sensor or system can observe the same location.
+- [[Resolution|Spectral Resolution]]: The fineness with which a sensor separates electromagnetic energy into wavelength or frequency bands.
+- [[Nadir]]: The point directly below a satellite or sensor on Earth's surface.
+- [[Nadir|Off-Nadir]]: A viewing geometry where the sensor looks away from the point directly beneath it.
+- [[Look Angle]]: The angle between the sensor's viewing direction and a reference direction such as nadir or vertical.
+- [[Incidence Angle]]: The angle at which incoming energy strikes a surface relative to the surface normal.
+- [[Grazing Angle]]: The shallow angle between incoming energy and the surface, commonly used in radar geometry.
+- [[Orthoimage|Orthorectification]]: The correction of imagery for terrain relief, sensor geometry, and viewing angle so it has map-accurate scale.
+- [[Rational Polynomial Coefficient]]: A compact mathematical model used to approximate satellite sensor geometry for geolocation and orthorectification.
+- [[Albedo]]: The fraction of incoming radiation reflected by a surface.
+- [[Radiance]]: The amount of electromagnetic energy traveling in a specific direction per unit area, solid angle, and wavelength or frequency interval.
+- [[Irradiance]]: The electromagnetic energy arriving at a surface per unit area.
+- [[Reflectance]]: The ratio of reflected radiation to incoming radiation for a surface.
+- [[Surface Reflectance]] (SR): Reflectance corrected for atmospheric effects to estimate the signal from the Earth's surface itself.
+- [[Top-of-Atmosphere]] (TOA): Measurements or reflectance values at the top of the atmosphere before atmospheric correction.
+- [[Emissivity]]: A surface's effectiveness at emitting thermal radiation relative to an ideal blackbody.
+- [[Bidirectional Reflectance Distribution Function]] (BRDF): A function describing how surface reflectance varies with illumination and viewing geometry.
+- [[Thermal Noise]]: Random signal variation caused by heat in sensors, electronics, or receiving systems.
+- [[Atmospheric Window]]: A wavelength or frequency range where the atmosphere is relatively transparent to electromagnetic radiation.
+- [[Satellite Image Preprocessing]]: The set of corrections and transformations applied to raw satellite data before analysis.
+- [[Radiometric Calibration]]: The process of converting raw sensor values into physically meaningful measurements such as radiance or reflectance.
+- [[Cloud Masking]]: The detection and labeling of cloud-contaminated pixels in imagery.
+- [[Cloud Shadow Masking]]: The detection and labeling of pixels affected by shadows cast by clouds.
+- [[Coregistration]]: The alignment of multiple images or datasets so corresponding pixels represent the same ground locations.
+- [[Mosaic]]: A larger image assembled from multiple overlapping or adjacent scenes.
+- [[Composite|Compositing]]: Combining multiple observations to create a single product, often to reduce clouds, noise, or temporal variation.
+- [[Pansharpening]]: Fusing high-resolution panchromatic imagery with lower-resolution multispectral imagery to create sharper multispectral images.
+- [[Projection]]: A mathematical transformation that represents positions on the curved Earth on a flat coordinate plane.
+- [[Spectral Unmixing]]: Estimating the mixture of materials or endmembers contributing to a pixel's spectral signal.
+- [[Spectral Matching]]: Comparing an observed spectrum to known reference spectra to identify materials or conditions.
+- [[Synthetic Aperture Radar]] (SAR): An active radar imaging method that uses platform motion to synthesize a large antenna aperture and produce high-resolution images.
+- [[Interferometric Synthetic Aperture Radar]] (InSAR): A SAR technique that compares radar phase between acquisitions to estimate elevation or surface displacement.
+- [[Differential Interferometric Synthetic Aperture Radar]] (DInSAR): An InSAR technique focused on measuring surface deformation by removing topographic phase effects.
+- [[Inverse Synthetic Aperture Radar]] (ISAR): A radar imaging technique that uses target motion rather than sensor motion to synthesize an aperture.
+- [[Synthetic Aperture Radar|ScanSAR]]: A SAR acquisition mode that scans across multiple subswaths to increase coverage at the cost of spatial resolution.
+- [[Synthetic Aperture Radar|TOPSAR]]: A SAR acquisition mode that steers the antenna beam during acquisition to improve wide-swath image quality.
+- [[Backscatter]]: The portion of transmitted radar energy that reflects back toward the sensor.
+- [[Polarization]] ([[Synthetic Aperture Radar|HH]]/[[Synthetic Aperture Radar|HV]]/[[Synthetic Aperture Radar|VH]]/[[Synthetic Aperture Radar|VV]]/[[Synthetic Aperture Radar|Quad-Pol]]): The orientation of transmitted and received radar electromagnetic fields, used to characterize surface and volume scattering.
+- [[Range Resolution]]: A radar system's ability to distinguish targets separated in the sensor-to-target direction.
+- [[Azimuth Resolution]]: A radar system's ability to distinguish targets separated along the flight-track or cross-range direction.
+- [[Speckle]]: Granular noise-like variation in coherent radar imagery caused by interference among many scatterers.
+- [[Layover]]: A radar imaging distortion where returns from tall objects appear displaced toward the sensor and can overlap lower terrain.
+- [[Foreshortening]]: A radar imaging distortion where terrain slopes facing the sensor appear compressed in range.
+- [[Radar Shadow]]: An area hidden from radar illumination because terrain or objects block the line of sight.
+- [[Landsat]]: A long-running Earth observation satellite program providing multispectral imagery for land monitoring and science.
+- [[Sentinel]]: A family of European Copernicus Earth observation satellites providing radar, optical, ocean, atmosphere, and land data.
+- [[Moderate Resolution Imaging Spectroradiometer|MODIS]]: A NASA sensor on Terra and Aqua that provides frequent moderate-resolution observations of land, ocean, and atmosphere.
+- [[Shuttle Radar Topography Mission|SRTM]]: A 2000 space shuttle radar mission that produced near-global elevation data using interferometric radar.
+- [[TerraSAR-X]]: A German X-band radar satellite mission providing high-resolution SAR imagery.
+- [[RADARSAT]]: A Canadian radar satellite program providing C-band SAR imagery for environmental, maritime, ice, and security applications.
+- [[PALSAR]]: A Japanese L-band SAR sensor used for forest, terrain, land cover, and deformation applications.
+- [[ALOS PALSAR]]: The PALSAR instrument flown on Japan's Advanced Land Observing Satellite mission.
+- [[NISAR]]: A joint NASA-ISRO radar mission designed to observe Earth surface change using L-band and S-band SAR.
+- [[Global Ecosystem Dynamics Investigation|GEDI]]: A NASA spaceborne LiDAR mission on the International Space Station for measuring forest structure and surface elevation.
+- [[GOES-R]]: A NOAA geostationary weather satellite series providing high-temporal-resolution observations of the Americas and surrounding oceans.
+- [[Iridium Satellite Constellation]]: A low Earth orbit communications constellation that provides global voice and data coverage.
+- [[Global Navigation Satellite System]] (GNSS): Satellite constellations that provide positioning, navigation, and timing signals.
 
 
 Organizations
-- [[National Oceanic and Atmospheric Administration]]
-- [[National Aeronautics and Space Administration]]
-- [[United States Geological Survey]]
-- [[National Geospatial-Intelligence Agency]]
-- [[National Reconnaissance Office]]
-- [[United States Department of Agriculture]]
-- [[National Agriculture Imagery Program]]
-- [[European Space Agency]] 
-- [[Canadian Space Agency]]
-- [[Japan Aerospace Exploration Agency]]
-- [[Copernicus DEM|Copernicus]]
-- [[Maxar]]
-- [[Planet Labs]]
-- [[Capella Space]]
-- [[BlackSky]]
-- [[ICEYE]]
-- [[Umbra]]
+- [[National Oceanic and Atmospheric Administration]]: A United States agency responsible for weather, ocean, climate, and environmental observation programs, including operational weather satellites.
+- [[National Aeronautics and Space Administration]]: The United States civil space agency responsible for space exploration, science missions, Earth observation, and aeronautics research.
+- [[United States Geological Survey]]: A United States science agency that provides geologic, hydrologic, hazard, mapping, and land remote-sensing data.
+- [[National Geospatial-Intelligence Agency]]: A United States intelligence agency responsible for geospatial intelligence in support of national security.
+- [[National Reconnaissance Office]]: A United States intelligence agency responsible for designing, building, launching, and operating reconnaissance satellites.
+- [[United States Department of Agriculture]]: A United States department whose programs use remote sensing for agriculture, forestry, land cover, and resource monitoring.
+- [[National Agriculture Imagery Program]]: A USDA aerial imagery program that collects leaf-on imagery across the contiguous United States during agricultural growing seasons.
+- [[European Space Agency]]: An intergovernmental space agency that develops and operates European space science, exploration, navigation, telecommunications, and Earth observation missions.
+- [[Canadian Space Agency]]: Canada's national space agency responsible for civil space programs, space science, robotics, and Earth observation partnerships.
+- [[Japan Aerospace Exploration Agency]]: Japan's national aerospace agency responsible for space science, exploration, launch vehicles, satellites, and Earth observation missions.
+- [[Copernicus DEM|Copernicus]]: The European Union Earth observation program providing satellite data and services for land, marine, atmosphere, climate, emergency, and security applications.
+- [[Maxar]]: A commercial satellite imagery and geospatial intelligence company known for high-resolution optical Earth observation.
+- [[Planet Labs]]: A commercial Earth observation company operating large constellations of small satellites for frequent optical imaging.
+- [[Capella Space]]: A commercial Earth observation company operating synthetic aperture radar satellites.
+- [[BlackSky]]: A commercial geospatial intelligence company combining satellite imagery, monitoring, and analytics.
+- [[ICEYE]]: A commercial synthetic aperture radar satellite company providing frequent all-weather Earth observation.
+- [[Umbra]]: A commercial synthetic aperture radar satellite company focused on high-resolution radar imagery.

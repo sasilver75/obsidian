@@ -1,0 +1,71 @@
+Terms
+- [[Radiation]]: Energy emitted or transmitted as particles or electromagnetic waves, including forms relevant to nuclear reactions and radioactive decay.
+- [[Secondary Radiation]]: Radiation produced when primary radiation interacts with matter and creates additional particles or photons.
+- [[Radioisotope]]: An unstable isotope that decays radioactively and emits radiation.
+- [[Nuclear Criticality]]: The state in which a fissile system sustains a nuclear chain reaction.
+- [[Neutronics]]: The study of neutron behavior, transport, moderation, absorption, and multiplication in nuclear systems.
+- [[Neutron Moderator]]: A material that slows fast neutrons so they are more likely to sustain fission in some reactor designs.
+- [[Nuclear Fission]]: A reaction in which an atomic nucleus splits into smaller nuclei, releasing energy and neutrons.
+- [[Nuclear Fusion]]: A reaction in which light atomic nuclei combine into heavier nuclei, releasing energy.
+- [[Nuclear Enrichment]]: The process of increasing the fraction of a desired isotope, usually uranium-235, in nuclear material.
+- [[Separative Work Unit]] (SWU): A unit measuring the effort required to separate uranium isotopes during enrichment.
+- [[Nuclear Fuel]]: Material used in a reactor to sustain fission and produce heat.
+- [[Nuclear Waste]]: Radioactive material left over from nuclear fuel use, reactor operation, medical work, research, or weapons production.
+- [[High-Assay Low-Enriched Uranium]] (HALEU): Uranium enriched above typical commercial fuel levels but below weapons-grade enrichment.
+- [[Uranium Dioxide]] (UO2): A ceramic uranium fuel commonly used as pellets in light water reactors.
+- [[Tri-Structural Isotropic Fuel]] (TRISO): A robust coated-particle nuclear fuel designed to retain fission products at very high temperatures.
+- [[Thorium-Based Nuclear Power]]: Nuclear power concepts that use thorium as fertile material to breed fissile uranium-233.
+- [[Light Water Reactor]] (LWR): A reactor type that uses ordinary water as both coolant and neutron moderator.
+- [[Pressurized Water Reactor]] (PWR): A light water reactor that keeps primary coolant under pressure so it does not boil in the reactor vessel.
+- [[Boiling Water Reactor]] (BWR): A light water reactor that boils water directly in the reactor vessel to make steam for the turbine.
+- [[Heavy Water Reactor]]: A reactor that uses heavy water as a moderator, allowing efficient neutron moderation with different fuel options.
+- [[High Temperature Gas Reactor]] (HTGR): A reactor type that uses gas coolant and high-temperature fuel, often associated with TRISO fuel.
+- [[Sodium-Cooled Fast Reactor]]: A fast-neutron reactor cooled by liquid sodium rather than water.
+- [[Small Modular Reactor]] (SMR): A smaller reactor design intended for factory fabrication, modular deployment, or reduced site complexity.
+- [[Brayton Cycle]]: A thermodynamic power cycle using compressed gas, heat addition, and turbine expansion, often discussed for gas-cooled or advanced reactors.
+- [[Nuclear Power]]: The use of nuclear reactions, usually fission, to produce heat and generate electricity or process energy.
+- [[Nuclear Power Plant]]: A facility that uses a nuclear reactor and power-conversion system to generate electricity.
+- [[Nuclear Meltdown]]: A severe reactor accident in which nuclear fuel overheats and loses structural integrity.
+- [[Active Nuclear Safety]]: Nuclear safety systems that depend on powered equipment, controls, or operator action.
+- [[Passive Nuclear Safety]]: Nuclear safety features that rely on physics, materials, or natural forces rather than active intervention.
+- [[Atomic Energy Commission]] (AEC): The former U.S. agency responsible for civilian and military nuclear development before later reorganization.
+- [[Nuclear Regulatory Commission]] (NRC): The U.S. regulator for civilian nuclear reactors, materials, and safety licensing.
+- [[National Nuclear Security Administration]] (NNSA): The U.S. agency responsible for nuclear security, weapons stewardship, and related national security missions.
+- [[United States Department of Energy]] (DOE): The U.S. cabinet department overseeing national energy policy, laboratories, and many nuclear programs.
+- [[Nuclear Energy Industry Modernization Act]]: A 2019 U.S. law intended to modernize nuclear licensing and support advanced reactor regulation.
+- [[Atoms for Peace]]: A U.S. initiative promoting civilian nuclear technology and international nuclear cooperation.
+- [[Army Nuclear Power Program]]: A U.S. Army program that developed small nuclear reactors for remote military power applications.
+- [[Advanced Nuclear Power for Installations]] (ANPI): A U.S. defense-related effort exploring advanced nuclear power for installations.
+- [[Reactor Pilot Program]]: A program or effort focused on demonstrating nuclear reactor technology in practical deployment settings.
+- [[Project Pele]]: A U.S. Department of Defense program to demonstrate a transportable microreactor for resilient power.
+- [[Fuel Line Pilot Program]]: A U.S. Department of Energy effort related to nuclear fuel production or supply-chain development.
+- [[Manhattan Project]]: The World War II program that developed the first nuclear weapons and key early nuclear infrastructure.
+- [[Chicago Pile Reactor]]: The first human-made nuclear reactor to achieve a self-sustaining chain reaction.
+- [[Oak Ridge National Laboratory]] (ORNL): A U.S. national laboratory with major historical and ongoing roles in nuclear science and energy.
+- [[Los Alamos National Laboratory]] (LANL): A U.S. national laboratory founded during the Manhattan Project and central to nuclear weapons science.
+- [[Idaho National Laboratory]] (INL): A U.S. national laboratory focused heavily on nuclear energy research, testing, and demonstration.
+- [[Experimental Breeder Reactor II]] (EBR-II): An experimental sodium-cooled fast reactor known for breeder reactor and passive safety demonstrations.
+- [[Westinghouse]]: A major nuclear technology company associated with reactor designs, fuel, services, and plant technology.
+- [[Westinghouse AP1000]]: A Generation III+ pressurized water reactor design from Westinghouse with passive safety features.
+- [[BWXT]]: A company supplying nuclear components, fuel, and technical services for commercial and national security nuclear programs.
+- [[NuScale Power]]: A company developing small modular light water reactor technology.
+- [[Radiant Industries]]: A company developing a portable nuclear microreactor called Kaleidos for remote and resilient power.
+- [[Valar Atomics]]: A nuclear startup focused on advanced reactor and fuel-cycle concepts.
+- [[Standard Nuclear]]: A nuclear company focused on advanced nuclear fuel and related supply-chain capabilities.
+- [[Ultra Safe Nuclear Corporation]] (USNC): A company developing advanced microreactor and TRISO-based fuel technologies.
+- [[Fort Saint Vrain Nuclear Power Plant]]: A former U.S. high-temperature gas-cooled nuclear power plant in Colorado.
+- [[Peach Bottom Nuclear Atomic Power Station]]: A U.S. nuclear power station historically associated with early high-temperature gas reactor demonstration and later commercial reactors.
+- [[Vogtle Electric Generating Plant]]: A U.S. nuclear power plant in Georgia known for AP1000 reactor construction.
+- [[Hualong One]]: A Chinese Generation III pressurized water reactor design.
+- [[Shidao Bay HTR-PM]]: A Chinese high-temperature gas-cooled pebble-bed reactor demonstration using modular reactor units.
+- [[THTR-300]]: A German thorium high-temperature reactor demonstration plant using pebble-bed fuel.
+- [[Waste Isolation Pilot Plant]] (WIPP): A U.S. deep geologic repository for defense-related transuranic radioactive waste.
+- [[Capacity Factor (Energy)]]: The ratio of actual energy output to the maximum possible output over a period.
+- [[Levelized Cost of Energy]] (LCOE): A metric estimating the average lifetime cost per unit of electricity generated.
+- [[Power Purchase Agreement]] (PPA): A contract in which a buyer agrees to purchase electricity from a generator under defined terms.
+- [[Behind-The-Meter]]: Energy generation or storage located on the customer side of the utility meter.
+- [[Watt]]: The SI unit of power, equal to one joule per second.
+- [[Power]]: The rate at which energy is produced, transferred, or consumed.
+- [[Energy]]: The capacity to do work or produce heat, commonly measured in joules, watt-hours, or related units.
+
+

@@ -643,9 +643,39 @@ To close the loop, we then leverage our Alpha product suite to combine Smack’s
 
 
 
+___________
+
+Call with RPC:
+- Working on ...
+- Customers 
+	- JFN Join Fires Network: 
+	- DIU D
+	- NAVWAR
+	- Marines
+- Geodesic as lead for Series A to help us sell into Japan, working with NF (?) in Japan, opportunities in Phillippines
+
+We have a research group developing core tech, and applied engineering wrapping products around those core technologies.
+In applied engineering, we've been pretty headcount constrained, and so everyone is wearing generalist full-stack engineer hats with emerging areas of speciality. As we continue to scale, we'll have more opportunities to scale, etc.  We're re-orging a bit... and one thing we're developing out is a ___ group that works with our internal knowledge graph and data processing for that.
 
 
+One of the ways we divide our product plannig
+- Deliberate
+- Dynamic
+- Execution
 
+Also the echelon of command you're working with
+The higher echelons inevitably ned to span more of that warfighting functions...
+At a mid-echelon time dynamic time horizon, we'll be working on the fires or intelligence tasking... ISR ins support of a fire plan generating. And we'll need to integrated with other software.. figure out data communication.
+
+The Joint Fires Newtwork has an entire complex software stack that has diffretn pieces that solve all these problems... and we need to provide best of breed solutiosn that integrate into that.
+From a development perspective... to build a best of breed for a function, you need to understand the other functions to.
+
+We push more integrated solutions... because 
+
+
+Coming up:
+- Technical Screen
+- Then another culture fit type thing
 
 
 

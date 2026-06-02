@@ -1,58 +1,56 @@
-
-
-- [[Course of Action]] (CoA)
-- [[Logistics Status]] (LOGSTAT)
-- [[Logistics Package]] (LOGPAC)
-- [[Logistics Synchronization]] (LOGSYNC)
-- Logistics [[Logistics Synchronization Matrix]] (LOGSYNCMAT)
-- [[Third-Party Logistics]] (3PL)
-- [[National Stock Number]] (NSN)
-- [[Main Supply Route]] (MSR)
-- [[Logistics Release Point]] (LRP)
-- [[Class of Supply]] (Supply Class)
-- [[Logistics Common Operating Picture]] (LCOP)
-- [[Supply Signal]] 
-- [[Demand Signal]]
-- [[Logistics Support Area]] (LSA)
-- [[Movement]]
-- [[Decision Point]]
-- [[Unit of Issue]] (U/I)
-- [[Unit of Measure]] (U/M)
-- [[Quantity Per Unit Pack]] (QUP)
-- [[Forward Support Company]] (FSC)
-- [[Brigade Support Battalion]] (BSB)
-- [[Division Sustainment Support Battalion]] (DSSB)
-- [[Division Sustainment Brigade]] (DSB)
-- [[Expeditionary Sustainment Command]] (ESC)
-- [[Theater Sustainment Command]] (TSC)
-- [[US Transportation Command]] (USTRANSCOM)
-- [[Sustainment]]
-- [[Sustaining Operation]]
-- [[S4 Officer]]
-- [[Support Operations Officer]] (SPO)
-- [[Brigade Support Area]] (BSA)
-- [[Combat Trains Command Post]] (CTCP)
-- [[Field Trains Command Post]]
-- [[Combat Sustainment Support Battalion]] (CSSB)
-- [[Corps Sustainment Command]] (CSC)
-- [[Surface Deployment and Distribution Command]] (SDDC)
-- [[Defense Logistics Agency]] (DLA)
-- [[Army Materiel Command]] (AMC)
-- [[Reception, Staging, Onward Movement, and Integration]] (RSOI)
-- [[GCSS-Army]] (GCSS)
-- [[Central Receiving and Shipping Point]] (CRSP)
-- [[Sustainment Planning Factor]] (Planning Factor)
-- [[Water Buffalo]]
-- [[HIPPO]]
-- [[Black, Red, Amber, Green]] (BRAG)
-- [[Light Support Battalion]] (LSB)
-- [[Light Support Area]] (LSA)
-- [[Light Logistics Cluster]] (LLC)
-- [[Combat Logistics Platoon]] (CLP)
-- [[Combat Repair Team]] (CRT)
+Terms
+- [[Course of Action]] (CoA): A proposed way to accomplish a mission, including the resources, timing, routes, risks, and support concept.
+- [[Logistics Status]] (LOGSTAT): A logistics report that captures unit supply status, readiness, and sustainment requirements for forecasting and resupply.
+- [[Logistics Package]] (LOGPAC): A planned resupply package or convoy that delivers items such as fuel, ammunition, food, water, and repair parts to forward units.
+- [[Logistics Synchronization]] (LOGSYNC): The process or meeting used to align sustainment actions with maneuver plans, unit requirements, and operational timing.
+- Logistics [[Logistics Synchronization Matrix]] (LOGSYNCMAT): A matrix that organizes logistics tasks, supported units, times, locations, responsibilities, and decision triggers.
+- [[Third-Party Logistics]] (3PL): Outsourced logistics services such as transportation, warehousing, freight coordination, and fulfillment.
+- [[National Stock Number]] (NSN): A standardized 13-digit identifier used to identify and manage items of supply across government and military logistics.
+- [[Main Supply Route]] (MSR): A designated primary road or route network used to move personnel, equipment, and supplies.
+- [[Logistics Release Point]] (LRP): A planned handoff location where supplying units transfer supplies to receiving units for onward distribution.
+- [[Class of Supply]] (Supply Class): The military grouping system for categories of supply such as rations, fuel, ammunition, medical materiel, and repair parts.
+- [[Logistics Common Operating Picture]] (LCOP): A shared logistics dashboard or view that shows supply, movement, readiness, and sustainment status across units.
+- [[Supply Signal]]: An observation or data input that updates the current or projected understanding of a unit's supply state.
+- [[Demand Signal]]: An indicator of actual need that can trigger replenishment, production, movement, or other supply-chain action.
+- [[Logistics Support Area]] (LSA): A staging and support area where sustainment resources, vehicles, and convoys are organized before movement.
+- [[Movement]]: The planned or active movement of people, equipment, or supplies from an origin to a destination.
+- [[Decision Point]]: A preplanned moment, condition, or location where leaders choose between planned options while there is still time to act.
+- [[Unit of Issue]] (U/I): The packaging or grouping in which an item is ordered, issued, or handled.
+- [[Unit of Measure]] (U/M): The physical measurement basis for an item, such as count, mass, length, or volume.
+- [[Quantity Per Unit Pack]] (QUP): The number of individual items contained in one package or issue unit.
+- [[Forward Support Company]] (FSC): The lowest multifunctional Army sustainment company that directly supports a maneuver battalion.
+- [[Brigade Support Battalion]] (BSB): A brigade-level sustainment battalion that provides supply, maintenance, medical, and distribution support to a brigade.
+- [[Division Sustainment Support Battalion]] (DSSB): A division-aligned sustainment battalion that provides logistics support capabilities to its assigned division.
+- [[Division Sustainment Brigade]] (DSB): The division-level sustainment brigade that synchronizes and commands logistics support for a division.
+- [[Expeditionary Sustainment Command]] (ESC): An operational sustainment headquarters that extends theater sustainment command capability and coordinates sustainment above division level.
+- [[Theater Sustainment Command]] (TSC): The senior Army sustainment headquarters in a theater, linking Army forces to theater, joint, contractor, and industrial logistics support.
+- [[US Transportation Command]] (USTRANSCOM): The joint command responsible for global military transportation of personnel and cargo.
+- [[Sustainment]]: The warfighting function that provides logistics, personnel services, and health service support to preserve freedom of action and endurance.
+- [[Sustaining Operation]]: An operation that enables decisive and shaping operations by preserving combat power, support, and operational endurance.
+- [[S4 Officer]]: The logistics staff officer responsible for a unit's internal supply, maintenance, transportation, and sustainment planning.
+- [[Support Operations Officer]] (SPO): The sustainment staff officer who plans and synchronizes external support to supported units.
+- [[Brigade Support Area]] (BSA): The brigade-level sustainment hub where supplies, maintenance, medical support, and distribution are organized for a brigade.
+- [[Combat Trains Command Post]] (CTCP): A battalion-level forward logistics node that coordinates immediate sustainment close to the fight.
+- [[Field Trains Command Post]]: A battalion-level rear logistics node that manages less immediate sustainment, administration, and coordination with higher support.
+- [[Combat Sustainment Support Battalion]] (CSSB): A modular sustainment battalion that provides multifunctional logistics support, often above brigade level.
+- [[Corps Sustainment Command]] (CSC): A corps-level sustainment command that coordinates logistics support across corps operations.
+- [[Surface Deployment and Distribution Command]] (SDDC): The Army component command that manages surface transportation, distribution, and port operations.
+- [[Defense Logistics Agency]] (DLA): The Department of Defense agency that supplies common commodities such as fuel, food, medical materiel, construction supplies, and repair parts.
+- [[Army Materiel Command]] (AMC): The Army command responsible for materiel readiness, depots, arsenals, prepositioned stocks, lifecycle support, supply, and maintenance.
+- [[Reception, Staging, Onward Movement, and Integration]] (RSOI): The process of receiving arriving forces, organizing them, moving them forward, and integrating them into operations.
+- [[GCSS-Army]] (GCSS): The Army's enterprise logistics and financial system for supply, maintenance, property accountability, and readiness data.
+- [[Central Receiving and Shipping Point]] (CRSP): A logistics hub that receives, stages, sorts, tracks, and forwards cargo, equipment, and supplies.
+- [[Sustainment Planning Factor]] (Planning Factor): A standardized estimate used to forecast supply, service, personnel, or transportation requirements.
+- [[Water Buffalo]]: A towable water tank used to store and distribute potable water in field conditions.
+- [[HIPPO]]: A large mobile water system used to transport, store, and dispense bulk potable water.
+- [[Black, Red, Amber, Green]] (BRAG): A color-coded status system used to show supply, readiness, or capability levels.
+- [[Light Support Battalion]] (LSB): A light or mobile brigade sustainment battalion designed around dispersed, mobile, and survivable logistics support.
+- [[Light Support Area]] (LSA): A distributed sustainment area used by a Light Support Battalion, built from smaller logistics clusters instead of one centralized brigade support area.
+- [[Light Logistics Cluster]] (LLC): A smaller sustainment node inside a Light Support Area that provides distributed supply, fuel, water, ammunition, maintenance, or medical capability.
+- [[Combat Logistics Platoon]] (CLP): A task-organized forward distribution element that pushes supplies from a Light Support Battalion toward maneuver units.
+- [[Combat Repair Team]] (CRT): A forward maintenance and recovery element that provides urgent repair support near maneuver units.
 
 
 **Non-Army** terminology
-- [[Combat Logistics Company]] (CLC)
-- [[Fleet Logistics Center]] (FLC)
-
+- [[Combat Logistics Company]] (CLC): A Marine Corps tactical logistics company that supports units through supply, transportation, maintenance, and services.
+- [[Fleet Logistics Center]] (FLC): A Navy regional logistics command that supports fleet and shore operations with transport, fuel, cargo, contracting, and port services.

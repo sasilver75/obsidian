@@ -38,7 +38,7 @@ Why do LOGSYNCs fail?
 
 
 The Correct Outputs of a LOGSYNC are:
-- [[LOGSYNC Matrix]]
+- [[Logistics Synchronization Matrix|LOGSYNC Matrix]]
 
 
 

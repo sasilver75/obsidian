@@ -1,121 +1,122 @@
 
 
 Terms
-- [[OpenStreetMap]]
-- [[Overture Maps Foundation]]
-- [[Basemap]]
-- [[Slippy Map]]
-- [[Tile Pyramid]]
-- [[Vector Tile]]
-- [[Mapbox Vector Tile]] (MVT)
-- [[PMTiles]]
-- [[Mapbox]]
-- [[MapLibre]]
-- [[MapLibre GL JS]]
-- [[deck.gl]]
-- [[Protomaps]]
-- [[Digital Elevation Model]] (DEM)
-- [[Digital Terrain Model]] (DTM)
-- [[Digital Surface Model]] (DSM)
-- [[Canopy Height Model]] (CHM)
-- [[Light Detection and Ranging]] (LiDAR)
-- [[Orthoimage|Orthomosaic]]
-- [[Remote Sensing]]
-- [[Remote Sensing|Earth Observation]]
-- [[Synthetic Aperture Radar]] (SAR)
-- [[Inverse Synthetic Aperture Radar]] (ISAR)
-- [[Interferometric Synthetic Aperture Radar|Interferometric Synthetic Aperture Radar]] (InSAR)
-- [[Differential Interferometric Synthetic Aperture Radar]] (DInSAR)
-- [[Coregistration]]
-- [[Mosaic]]
-- [[Orthoimage]], [[Orthoimage|Orthorectification]]
-- [[Cloud-Native Geospatial]]
-- [[Geographic Information Systems]] (GIS)
-- [[Map]]
-- [[Cartography]]
-- [[Geodesy]]
-- [[Tobler's First Law of Geography]]
-- [[Geolocation]]
-- [[Geocode]]
-- [[Geocode|Reverse Geocode]]
-- [[Geotagging]]
-- [[Georeference]]
-- [[Geofencing]]
-- [[Coordinate Reference System]] (CRS)
-- [[Projection]]
-- [[WGS84]]
-- [[EPSG Code]]
-- [[SRID]]
-- [[Universal Transverse Mercator]] (UTM)
-- [[Military Grid Reference System]] (MGRS)
-- [[Mercator|Web Mercator]]
-- [[Antimeridian]]
-- [[Vector]]
-- [[Raster]]
-- [[Point Cloud]]
-- [[GeoJSON]]
-- [[GeoPackage]]
-- [[Shapefile]]
-- [[FlatGeobuf]]
-- [[GeoParquet]]
-- [[GeoArrow]]
-- [[GeoTIFF]]
-- [[Cloud-Optimized GeoTIFF]] (COG)
-- [[Cloud-Optimized Point Cloud]] (COPC)
-- [[Zarr]]
-- [[SpatioTemporal Asset Catalog]] (STAC)
-- [[Spatial SQL]]
-- [[PostGIS]]
-- [[Simple Features Access]]
-- [[OGC API Features]]
-- [[OGC API Processes]]
-- [[Open Geospatial Consortium]]
-- [[Geospatial Index]]
-- [[R-Tree]]
-- [[GiST]]
-- [[QuadTree]]
-- [[Octree]]
-- [[Space-filling Curve]]
-- [[Hilbert Curve]]
-- [[S2 Geometry|S2]]
-- [[H3]]
-- [[Geohash]]
-- [[Discrete Global Grid System]]
-- [[Geospatial Data Abstraction Library]] (GDAL)
-- [[GEOS]]
-- [[PROJ]]
-- [[QGIS]]
-- [[ArcGIS]]
-- [[Geopandas]]
-- [[Shapely]]
-- [[PyProj]]
-- [[Fiona]]
-- [[rasterio]]
-- [[GeoAlchemy2]]
-- [[Apache Sedona]]
-- [[DuckDB]]
-- [[Google Earth Engine]] (GEE)
-- [[Cesium]]
-- [[Geotransform]]
-- [[Photogrammetry]]
-- [[Tile]]
-- [[Tile Server]]
-- [[OpenMapTiles]]
-- [[kepler.gl]]
-- [[Element84 Earth Search]]
-- [[Lonboard]]
-- [[leafmap]]
-- [[geemap]]
-- [[TorchGeo]]
-- [[NASA EarthData]]
-- [[USGS EarthExplorer]]
-- [[Earth on AWS]]
-- [[OpenTopography]]
-- [[3DEP]]
-- [[Countour]]
-- [[Hillshade]]
-- [[Slope]]
-- [[Aspect]]
-- [[Watershed]]
-- [[Terrain Ruggedness Index]] (TRI)
-- [[Datum]]
+- [[OpenStreetMap]]: An open, volunteer-maintained global map database of roads, buildings, places, boundaries, and other geographic features.
+- [[Overture Maps Foundation]]: An industry-backed project producing open, schema-normalized global map datasets such as buildings, places, transportation, boundaries, and base layers.
+- [[Basemap]]: A contextual background map, such as roads, labels, terrain, water, or imagery, used beneath operational data layers.
+- [[Slippy Map]]: An interactive web map that pans and zooms by requesting small map tiles for the current viewport.
+- [[Tile Pyramid]]: A multiresolution set of map or raster tiles organized by zoom level so clients can load appropriate detail efficiently.
+- [[Vector Tile]]: A map tile containing clipped vector geometries and attributes that the client renders and styles.
+- [[Mapbox Vector Tile]] (MVT): A compact Protobuf-based vector tile format widely used for web maps.
+- [[PMTiles]]: A single-file archive format for storing a tile pyramid that can be served from object storage using HTTP range requests.
+- [[Mapbox]]: A commercial mapping platform that popularized modern vector tiles, GL-style maps, and high-quality hosted map services.
+- [[MapLibre]]: An open-source mapping organization formed to maintain community map-rendering libraries after Mapbox GL JS licensing changed.
+- [[MapLibre GL JS]]: An open-source WebGL browser library for rendering interactive raster and vector-tile maps.
+- [[deck.gl]]: A WebGL visualization framework for large-scale geospatial overlays such as points, arcs, grids, trips, and 3D layers.
+- [[Protomaps]]: A project for self-hostable basemaps built around OpenStreetMap-derived tiles and the PMTiles archive format.
+- [[Digital Elevation Model]] (DEM): A generic elevation raster representing height values over a geographic area.
+- [[Digital Terrain Model]] (DTM): A bare-earth elevation raster with buildings, trees, and other above-ground objects removed.
+- [[Digital Surface Model]] (DSM): An elevation raster of the visible top surface, including buildings, vegetation, and other objects.
+- [[Canopy Height Model]] (CHM): A raster estimating vegetation height above ground, commonly computed as DSM minus DTM.
+- [[Light Detection and Ranging]] (LiDAR): An active sensing method that measures distance using laser pulses and produces 3D point clouds or elevation products.
+- [[Orthoimage|Orthomosaic]]: A map-accurate mosaic of orthorectified images stitched into one continuous image product.
+- [[Remote Sensing]]: Measuring objects or phenomena without physical contact, usually using satellite, airborne, or other sensor observations.
+- [[Remote Sensing|Earth Observation]]: The collection and analysis of information about Earth systems, often through remote sensing.
+- [[Synthetic Aperture Radar]] (SAR): An active microwave imaging technique that uses platform motion to synthesize a large antenna aperture and produce radar images.
+- [[Inverse Synthetic Aperture Radar]] (ISAR): A radar imaging technique that uses target motion rather than sensor motion to form a synthetic aperture.
+- [[Interferometric Synthetic Aperture Radar|Interferometric Synthetic Aperture Radar]] (InSAR): A SAR technique that compares radar phase between acquisitions to estimate elevation or surface deformation.
+- [[Differential Interferometric Synthetic Aperture Radar]] (DInSAR): An InSAR technique focused on isolating surface deformation by removing or comparing topographic phase.
+- [[Coregistration]]: Aligning multiple images or datasets so corresponding pixels or features refer to the same ground locations.
+- [[Mosaic]]: A combined image or raster product made by stitching adjacent or overlapping scenes into one spatially continuous layer.
+- [[Orthoimage]]: An aerial or satellite image corrected for terrain, sensor geometry, and camera tilt so it can be used like a map.
+- [[Orthoimage|Orthorectification]]: The process of geometrically correcting imagery so features appear in their true map positions.
+- [[Cloud-Native Geospatial]]: A set of formats and workflows designed for discovering, reading, and processing geospatial data directly in cloud object storage.
+- [[Geographic Information Systems]] (GIS): Systems for storing, analyzing, querying, editing, and visualizing data with spatial coordinates or geometry.
+- [[Map]]: A symbolic, selective representation of geographic information designed to communicate location, relationships, or patterns.
+- [[Cartography]]: The practice and discipline of designing maps so spatial information is accurate, legible, and meaningful.
+- [[Geodesy]]: The science of measuring and modeling Earth's shape, gravity field, position, and reference frames.
+- [[Tobler's First Law of Geography]]: The principle that nearby things tend to be more related than distant things.
+- [[Geolocation]]: Determining or estimating the geographic position of an object, person, device, or event.
+- [[Geocode]]: Converting an address, place name, or textual location description into geographic coordinates.
+- [[Geocode|Reverse Geocode]]: Converting geographic coordinates into an address, place name, or other human-readable location description.
+- [[Geotagging]]: Attaching geographic metadata, such as coordinates, to media, records, observations, or other data.
+- [[Georeference]]: Tying data such as imagery, scanned maps, or coordinates to real-world locations in a spatial reference system.
+- [[Geofencing]]: Creating a virtual geographic boundary that triggers logic when an object enters, exits, or crosses it.
+- [[Coordinate Reference System]] (CRS): A system defining how coordinate numbers map to real locations on or near Earth.
+- [[Projection]]: A mathematical transformation that represents Earth's curved surface on a flat plane while distorting some property.
+- [[WGS84]]: The global geodetic reference system used by GPS and commonly represented as longitude and latitude coordinates.
+- [[EPSG Code]]: A numeric identifier for a coordinate reference system or coordinate operation in the EPSG registry.
+- [[SRID]]: A spatial reference identifier used by databases and GIS software to associate geometry with a coordinate reference system.
+- [[Universal Transverse Mercator]] (UTM): A projected coordinate system dividing Earth into zones for local metric mapping with relatively low distortion.
+- [[Military Grid Reference System]] (MGRS): A grid reference system based on UTM and UPS for concise location reporting at varying precision levels.
+- [[Mercator|Web Mercator]]: The projected coordinate system used by most web map tile systems, optimized for display rather than accurate area measurement.
+- [[Antimeridian]]: The 180 degree longitude line where coordinate ranges wrap from +180 to -180.
+- [[Vector]]: A geospatial data model representing discrete features as points, lines, polygons, or related geometries with attributes.
+- [[Raster]]: A geospatial data model representing imagery or continuous fields as grids of pixel or cell values.
+- [[Point Cloud]]: A collection of many 3D points, often from LiDAR or photogrammetry, representing sampled surfaces or objects.
+- [[GeoJSON]]: A JSON-based format for encoding geographic features, geometries, and properties, usually in WGS84 coordinates.
+- [[GeoPackage]]: An OGC-standard SQLite-based file format for storing geospatial vector, raster, and metadata layers in one file.
+- [[Shapefile]]: A legacy Esri vector data format made of multiple companion files for geometry, attributes, and indexes.
+- [[FlatGeobuf]]: A binary vector format designed for fast streaming and optional spatial-indexed access from local files or object storage.
+- [[GeoParquet]]: A geospatial extension of Apache Parquet for storing vector geometries and attributes in columnar analytics workflows.
+- [[GeoArrow]]: A specification for efficient in-memory columnar representation of geospatial geometries.
+- [[GeoTIFF]]: A TIFF raster file with embedded geospatial metadata such as CRS, geotransform, and ground location.
+- [[Cloud-Optimized GeoTIFF]] (COG): A GeoTIFF organized with internal tiling and overviews for efficient remote range-read access.
+- [[Cloud-Optimized Point Cloud]] (COPC): A LAZ-based point cloud format organized with an internal octree for cloud-native spatial subsetting.
+- [[Zarr]]: A chunked, compressed N-dimensional array format commonly used for cloud-accessible climate, weather, and data-cube rasters.
+- [[SpatioTemporal Asset Catalog]] (STAC): A JSON and API specification for describing, discovering, and accessing geospatial assets by space, time, and metadata.
+- [[Spatial SQL]]: SQL extended with geometry types, spatial predicates, measurements, joins, and transformations.
+- [[PostGIS]]: A PostgreSQL extension that adds spatial types, indexes, and functions for serious geospatial database work.
+- [[Simple Features Access]]: An OGC standard defining common vector geometry types, encodings, and spatial operations.
+- [[OGC API Features]]: A web API standard for publishing and querying geospatial feature collections over HTTP.
+- [[OGC API Processes]]: A web API standard for exposing geospatial processing jobs, inputs, outputs, and execution over HTTP.
+- [[Open Geospatial Consortium]]: A standards organization that develops open interoperability standards for geospatial data, services, and APIs.
+- [[Geospatial Index]]: A data structure that accelerates spatial queries by organizing geometries according to location and extent.
+- [[R-Tree]]: A spatial index that groups geometries by nested minimum bounding rectangles.
+- [[GiST]]: PostgreSQL's generalized search tree framework used by PostGIS to implement spatial indexing.
+- [[QuadTree]]: A spatial partitioning structure that recursively divides 2D space into four quadrants.
+- [[Octree]]: A 3D spatial partitioning structure that recursively divides space into eight subregions.
+- [[Space-filling Curve]]: A method for mapping multidimensional space into one dimension while preserving some spatial locality.
+- [[Hilbert Curve]]: A locality-preserving space-filling curve often used to order spatial data or tiles efficiently.
+- [[S2 Geometry|S2]]: A spherical geometry and indexing system that partitions Earth into hierarchical cells.
+- [[H3]]: A hierarchical geospatial indexing system that divides Earth into mostly hexagonal cells at multiple resolutions.
+- [[Geohash]]: A string-based geospatial encoding that maps coordinates into hierarchical rectangular cells using prefixes.
+- [[Discrete Global Grid System]]: A global spatial reference system that partitions Earth into hierarchical cells for indexing, aggregation, and analysis.
+- [[Geospatial Data Abstraction Library]] (GDAL): A foundational library and command-line toolkit for reading, writing, converting, and processing geospatial raster and vector data.
+- [[GEOS]]: A geometry engine implementing spatial predicates and operations such as intersection, buffering, containment, and union.
+- [[PROJ]]: A library for coordinate reference system transformations, projections, and datum operations.
+- [[QGIS]]: An open-source desktop GIS application for viewing, editing, analyzing, and cartographically presenting geospatial data.
+- [[ArcGIS]]: Esri's commercial GIS platform for enterprise geospatial data management, analysis, mapping, and services.
+- [[Geopandas]]: A Python library that extends pandas with geometry columns and vector geospatial operations.
+- [[Shapely]]: A Python library for geometry objects and spatial operations, built on GEOS.
+- [[PyProj]]: Python bindings for PROJ used for CRS definitions and coordinate transformations.
+- [[Fiona]]: A Python library for reading and writing vector geospatial files through GDAL/OGR.
+- [[rasterio]]: A Python library for reading, writing, windowing, transforming, and analyzing raster datasets through GDAL.
+- [[GeoAlchemy2]]: A SQLAlchemy extension that adds PostGIS geometry types and spatial function support.
+- [[Apache Sedona]]: A distributed geospatial processing engine for spatial SQL and geometry operations on Apache Spark-scale data.
+- [[DuckDB]]: An embedded analytical database with a spatial extension for local geospatial SQL over files such as Parquet and GeoParquet.
+- [[Google Earth Engine]] (GEE): A hosted planetary-scale platform for analyzing remote sensing and geospatial datasets with server-side computation.
+- [[Cesium]]: A 3D geospatial visualization platform for globes, terrain, 3D Tiles, point clouds, and time-dynamic scenes.
+- [[Geotransform]]: A set of parameters mapping raster pixel coordinates to real-world coordinates in a coordinate reference system.
+- [[Photogrammetry]]: The science of deriving measurements, 3D geometry, and maps from overlapping photographs.
+- [[Tile]]: A small spatial chunk of map data or imagery addressed by zoom, x, and y coordinates.
+- [[Tile Server]]: A service that returns raster or vector map tiles for requested zoom/x/y tile coordinates.
+- [[OpenMapTiles]]: An open schema and toolchain for generating self-hostable vector tiles from OpenStreetMap data.
+- [[kepler.gl]]: A browser-based geospatial exploration and visualization tool built on deck.gl.
+- [[Element84 Earth Search]]: A STAC API for discovering cloud-hosted Earth observation datasets on AWS.
+- [[Lonboard]]: A Python notebook visualization library using GeoArrow, GeoParquet, and deck.gl for fast interactive geospatial maps.
+- [[leafmap]]: A Python package for interactive mapping and geospatial analysis in notebooks.
+- [[geemap]]: A Python package for working with Google Earth Engine in notebook-based workflows.
+- [[TorchGeo]]: A PyTorch ecosystem library for geospatial deep learning datasets, samplers, transforms, and models.
+- [[NASA EarthData]]: NASA's portal and access ecosystem for Earth science and Earth observation data.
+- [[USGS EarthExplorer]]: A USGS search and download portal for Landsat, aerial imagery, elevation, and other Earth science datasets.
+- [[Earth on AWS]]: AWS's program and landing page for cloud-hosted Earth science and geospatial datasets, tools, and case studies.
+- [[OpenTopography]]: A platform for discovering, accessing, and processing high-resolution topographic and LiDAR data.
+- [[3DEP]]: The USGS 3D Elevation Program, which provides broad U.S. elevation and LiDAR coverage.
+- [[Contour]]: A line connecting points of equal elevation on a map.
+- [[Hillshade]]: A terrain visualization that simulates illumination and shadow from an elevation surface.
+- [[Slope]]: A terrain derivative measuring steepness or rate of elevation change.
+- [[Aspect]]: A terrain derivative measuring the compass direction that a slope faces.
+- [[Watershed]]: A drainage area where surface water flows toward a common outlet or set of outlets.
+- [[Terrain Ruggedness Index]] (TRI): A terrain metric summarizing local elevation variability or roughness.
+- [[Datum]]: A reference model and anchor for coordinates, defining how locations relate to Earth's shape and surface.

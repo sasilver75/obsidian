@@ -3,144 +3,144 @@
 
 
 Terms
-- [[OSI Model]]
-- [[Application Layer]] (Layer 7)
-- [[Transport Layer]] (Layer 4)
-- [[Network Layer]] (Layer 3)
-- [[Data Plane]]
-- [[Control Plane]]
-- [[Routing]]
-- [[Port]]
-- [[Middlebox]]
-- [[Multiplex]]
-- [[Head-of-Line Blocking]]
-- [[Internet Protocol]] (IP)
-- [[Transport Control Protocol]] (TCP)
-- [[Transport Layer Security]] (TLS)
-- [[User Datagram Protocol]] (UDP)
-- [[QUIC]]
-- [[Network Address Translation]] (NAT)
-- [[Subnet]]
-- [[Virtual Private Cloud]] (VPC)
-- [[Virtual Private Network]] (VPN)
-- [[Domain Name Service]] (DNS)
-- [[Domain Name Service Security Extensions]] (DNSSEC)
-- [[Reverse DNS]]
-- [[Network Time Protocol]] (NTP)
-- [[Secure Shell]] (SSH)
-- [[HTTP]]
-- [[HTTPS]]
-- [[HTTP 1.1]]
-- [[HTTP 2]]
-- [[HTTP 3]]
-- [[HTTP Range Request]]
-- [[Representational State Transfer]] (REST)
-- [[Remote Procedure Call]] (RPC)
-- [[gRPC]]
-- [[ConnectRPC]]
-- [[Protobuf]]
-- [[Webhook]]
-- [[Polling]]
-- [[Short Polling]]
-- [[Server-Sent Event]] (SSE)
-- [[WebSockets]]
-- [[WebRTC]]
-- [[WebTransport]]
-- [[API Gateway]]
-- [[Reverse Proxy]]
-- [[Forward Proxy]]
-- [[Content Delivery Network]]
-- [[GeoDNS]]
-- [[SSL Termination]]
-- [[TCP Termination]]
-- [[Load Balancing]]
-- [[Firewall]]
-- [[Network Firewall]]
-- [[Host Firewall]]
-- [[Web Application Firewall]]
-- [[Next-Generation Firewall]]
-- [[Certificate Authority]]
-- [[Cryptographic Signature]]
-- [[Encryption]]
-- [[Symmetric Key Encryption]]
-- [[Asymmetric Key Encryption]]
-- [[Tailscale]]
-- [[WireGuard]]
-- [[Service Mesh]]
-- [[Packet]]
-- [[Frame]]
-- [[Socket]]
-- [[Classless Inter-Domain Routing]] (CIDR)
-- [[IPv4]]
-- [[IPv6]]
-- [[Internet Control Message Protocol]] (ICMP)
-- [[Dynamic Host Configuration Protocol]] (DHCP)
-- [[Address Resolution Protocol]] (ARP)
-- [[Border Gateway Protocol]] (BGP)
-- [[Maximum Transmission Unit]] (MTU)
-- [[Bandwidth]]
-- [[Latency]]
-- [[Tail Latency]]
-- [[Throughput]]
-- [[Packet Loss]]
-- [[Congestion Control]]
-- [[Keepalive]]
-- [[Timeout]]
-- [[Health Check]]
-- [[Service Discovery]]
-- [[CNAME Record]] (CNAME)
-- [[A Record]]
-- [[AAAA Record]]
-- [[Origin Server]]
-- [[Edge Server]]
-- [[Sticky Session]] (Session Affinity)
-- [[Mutual TLS]] (mTLS)
-- [[Cross-Origin Resource Sharing]] (CORS)
-- [[Domain Name]]
-- [[Fully Qualified Domain Name]] (FQDN)
-- [[Top-Level Domain]] (TLD)
-- [[Subdomain]]
-- [[Internet Corporation for Assigned Names and Numbers]] (ICANN)
-- [[Registrar]]
-- [[Internet Assigned Numbers Authority]] (IANA)
-- [[Authoritative Namserver]]
-- [[Root Nameserver]]
-- [[Recursive Resolver]]
-- [[MAC Address]]
-- [[Loopback Address]]
-- [[Time to First Byte]] (TTFB)
-- [[Congestion Control]]
-- [[Backpressure]]
-- [[Flow Control]]
-- [[Certificate Chain]] (Chain of Trust)
-- [[Network Access Control List]] (Network ACL; NACL)
-- [[NAT Gateway]]
-- [[Private Link]]
-- [[Virtual Private Cloud Peering]] (VPC Peering)
-- [[Transit Gateway]]
-- [[Overlay Network]]
-- [[Traceroute]]
-- [[Netcat]]
-- [[Dig]]
-- [[Nslookup]]
-- [[Tcpdump]]
-- [[Wireshark]]
-- [[Network Interface Card]] (NIC)
-- [[Networking Switch]]
-- [[Routing|Router]]
-- [[Gateway]]
-- [[Wireless Access Point]] (WAP; AP)
-- [[Modem]]
-- [[Ethernet]]
-- [[Infiniband]]
-- [[Fiber Optic]]
-- [[Rack]]
-- [[Top-of-Rack Switch]]
-- [[Leaf Switch]]
-- [[Spine Switch]]
-- [[Spine-Leaf Network]]
-- [[Layer 4 Load Balancer]]
-- [[Layer 7 Load Balancer]]
-- [[Hardware Load Balancer]]
-- [[Internet Service Provider]] (ISP)
-- [[Route Table]]
+- [[OSI Model]]: A seven-layer reference model for describing how networked systems communicate from physical signals up to applications.
+- [[Application Layer]] (Layer 7): The OSI layer where application protocols such as HTTP, DNS, SSH, and SMTP define user-facing network behavior.
+- [[Transport Layer]] (Layer 4): The layer that provides end-to-end communication between processes, commonly through TCP, UDP, or QUIC.
+- [[Network Layer]] (Layer 3): The layer that handles logical addressing and routing packets between networks.
+- [[Data Plane]]: The part of a network system that forwards actual traffic according to configured rules.
+- [[Control Plane]]: The part of a network system that computes, distributes, or manages forwarding rules and routing decisions.
+- [[Routing]]: The process of choosing paths for packets to travel between networks.
+- [[Port]]: A numbered endpoint on a host that identifies which application or service should receive traffic.
+- [[Middlebox]]: A network device that performs functions beyond simple forwarding, such as filtering, NAT, inspection, caching, or load balancing.
+- [[Multiplex]]: To carry multiple logical streams, connections, or signals over a shared physical or protocol channel.
+- [[Head-of-Line Blocking]]: A performance problem where one delayed item prevents later independent items from being processed.
+- [[Internet Protocol]] (IP): The network-layer protocol that addresses and routes packets across interconnected networks.
+- [[Transport Control Protocol]] (TCP): A reliable, ordered, connection-oriented transport protocol used by many internet applications.
+- [[Transport Layer Security]] (TLS): A cryptographic protocol that authenticates peers and encrypts traffic over a network connection.
+- [[User Datagram Protocol]] (UDP): A lightweight connectionless transport protocol that sends datagrams without built-in reliability or ordering.
+- [[QUIC]]: A UDP-based transport protocol that combines encryption, multiplexed streams, congestion control, and low-latency connection setup.
+- [[Network Address Translation]] (NAT): A technique that rewrites IP addresses or ports so private hosts can communicate through shared public addresses.
+- [[Subnet]]: A logical subdivision of an IP network with its own address range and routing boundary.
+- [[Virtual Private Cloud]] (VPC): An isolated cloud network where users define subnets, routing, firewalls, and connectivity for cloud resources.
+- [[Virtual Private Network]] (VPN): An encrypted network tunnel that lets remote devices or networks communicate as though they were on the same private network.
+- [[Domain Name Service]] (DNS): The naming system that resolves human-readable domain names into IP addresses and other records.
+- [[Domain Name Service Security Extensions]] (DNSSEC): DNS extensions that use digital signatures to authenticate DNS responses and reduce spoofing risk.
+- [[Reverse DNS]]: DNS lookup that maps an IP address back to a domain name.
+- [[Network Time Protocol]] (NTP): A protocol used to synchronize computer clocks across a network.
+- [[Secure Shell]] (SSH): An encrypted protocol for remote login, command execution, tunneling, and secure administration.
+- [[HTTP]]: The application-layer protocol used by clients and servers to exchange web requests and responses.
+- [[HTTPS]]: HTTP carried over TLS so web traffic is encrypted and the server can be authenticated.
+- [[HTTP 1.1]]: The mature text-based HTTP version that introduced persistent connections and remains widely supported.
+- [[HTTP 2]]: A binary HTTP version that multiplexes streams over one connection and improves efficiency with features like header compression.
+- [[HTTP 3]]: The HTTP version that runs over QUIC instead of TCP to reduce latency and avoid TCP head-of-line blocking.
+- [[HTTP Range Request]]: An HTTP request that asks for only a specific byte range of a resource.
+- [[Representational State Transfer]] (REST): An architectural style for APIs built around resources, standard HTTP methods, and stateless interactions.
+- [[Remote Procedure Call]] (RPC): A communication style where one program invokes a procedure or method on another system across a network.
+- [[gRPC]]: A high-performance RPC framework that commonly uses Protobuf messages over HTTP/2.
+- [[ConnectRPC]]: A protocol and framework for building RPC APIs compatible with gRPC, gRPC-Web, and ordinary HTTP clients.
+- [[Protobuf]]: A compact binary serialization format and schema language commonly used for typed service messages.
+- [[Webhook]]: An HTTP callback where one system sends an event notification to another system's configured URL.
+- [[Polling]]: Repeatedly checking a system for new data or state changes.
+- [[Short Polling]]: A polling pattern where each request returns immediately, even if no new data is available.
+- [[Server-Sent Event]] (SSE): A browser-supported HTTP streaming mechanism for one-way server-to-client event delivery.
+- [[WebSockets]]: A protocol that upgrades an HTTP connection into a persistent bidirectional message channel.
+- [[WebRTC]]: A browser-oriented real-time communication framework for peer-to-peer audio, video, and data channels.
+- [[WebTransport]]: A browser networking API over HTTP/3 and QUIC for low-latency reliable streams and unreliable datagrams.
+- [[API Gateway]]: A front-door service that routes, secures, transforms, and manages API traffic.
+- [[Reverse Proxy]]: A proxy that sits in front of servers and forwards client requests to backend services.
+- [[Forward Proxy]]: A proxy that sits in front of clients and forwards their outbound requests to external servers.
+- [[Content Delivery Network]]: A distributed network of edge servers that caches and serves content close to users.
+- [[GeoDNS]]: DNS routing that returns different answers based on a client's geographic location or network region.
+- [[SSL Termination]]: The process of ending a TLS connection at a proxy or load balancer before forwarding traffic inward.
+- [[TCP Termination]]: The process of ending a TCP connection at an intermediary such as a proxy or load balancer.
+- [[Load Balancing]]: Distributing traffic across multiple servers or services to improve availability, capacity, and latency.
+- [[Firewall]]: A security control that permits or blocks network traffic according to rules.
+- [[Network Firewall]]: A firewall that filters traffic at network boundaries or between network segments.
+- [[Host Firewall]]: A firewall running on an individual machine to control traffic to and from that host.
+- [[Web Application Firewall]]: A firewall that inspects HTTP traffic to block application-layer attacks and policy violations.
+- [[Next-Generation Firewall]]: A firewall that combines traditional filtering with deeper inspection, application awareness, and threat detection.
+- [[Certificate Authority]]: A trusted entity that issues and signs digital certificates.
+- [[Cryptographic Signature]]: A digital proof created with a private key that verifies data authenticity and integrity.
+- [[Encryption]]: The process of transforming data so only authorized parties can read it.
+- [[Symmetric Key Encryption]]: Encryption where the same secret key is used to encrypt and decrypt data.
+- [[Asymmetric Key Encryption]]: Encryption using a public/private key pair, where one key encrypts or verifies and the other decrypts or signs.
+- [[Tailscale]]: A managed mesh VPN service that uses WireGuard to connect devices across NATs and networks.
+- [[WireGuard]]: A modern VPN protocol focused on simple configuration, strong cryptography, and efficient encrypted tunnels.
+- [[Service Mesh]]: Infrastructure for managing service-to-service traffic, security, observability, and policy inside distributed systems.
+- [[Packet]]: A network-layer unit of data that carries addressing information and payload across networks.
+- [[Frame]]: A link-layer unit of data carried over a local network medium such as Ethernet.
+- [[Socket]]: A software endpoint for network communication, typically identified by protocol, IP address, and port.
+- [[Classless Inter-Domain Routing]] (CIDR): A notation and routing scheme that represents IP networks using address prefixes of arbitrary length.
+- [[IPv4]]: The 32-bit version of Internet Protocol using addresses such as `192.0.2.1`.
+- [[IPv6]]: The 128-bit version of Internet Protocol designed to provide vastly more address space and modern network features.
+- [[Internet Control Message Protocol]] (ICMP): A network-layer support protocol used for diagnostics, errors, and reachability messages such as ping.
+- [[Dynamic Host Configuration Protocol]] (DHCP): A protocol that automatically assigns IP addresses and network configuration to devices.
+- [[Address Resolution Protocol]] (ARP): A protocol that maps IPv4 addresses to MAC addresses on a local network.
+- [[Border Gateway Protocol]] (BGP): The interdomain routing protocol that exchanges reachability information between autonomous systems on the internet.
+- [[Maximum Transmission Unit]] (MTU): The largest packet or frame size that can be sent over a network link without fragmentation.
+- [[Bandwidth]]: The maximum data-carrying capacity of a network path or link.
+- [[Latency]]: The time it takes data to travel from one point to another and often back again.
+- [[Tail Latency]]: High-percentile latency that captures the slowest requests users or systems experience.
+- [[Throughput]]: The actual rate at which data or requests are successfully processed over time.
+- [[Packet Loss]]: The failure of packets to reach their destination.
+- [[Congestion Control]]: Algorithms that regulate sending rates to avoid overwhelming a network.
+- [[Keepalive]]: A periodic signal used to confirm that a connection, session, or peer is still active.
+- [[Timeout]]: A configured waiting period after which an operation is considered failed or abandoned.
+- [[Health Check]]: A probe that determines whether a service, host, or dependency is available and functioning.
+- [[Service Discovery]]: The process by which clients find the current network locations of services.
+- [[CNAME Record]] (CNAME): A DNS record that aliases one domain name to another canonical name.
+- [[A Record]]: A DNS record that maps a domain name to an IPv4 address.
+- [[AAAA Record]]: A DNS record that maps a domain name to an IPv6 address.
+- [[Origin Server]]: The backend server that holds or generates the authoritative content behind proxies or CDNs.
+- [[Edge Server]]: A server located near users that caches, proxies, or processes requests close to the network edge.
+- [[Sticky Session]] (Session Affinity): A load-balancing behavior that routes a client back to the same backend across requests.
+- [[Mutual TLS]] (mTLS): TLS authentication where both client and server present certificates to authenticate each other.
+- [[Cross-Origin Resource Sharing]] (CORS): A browser security mechanism that controls which origins may access a server's resources.
+- [[Domain Name]]: A human-readable internet name used to identify a site, service, or host.
+- [[Fully Qualified Domain Name]] (FQDN): A complete domain name that specifies a host's full path in the DNS hierarchy.
+- [[Top-Level Domain]] (TLD): The highest-level domain suffix in a DNS name, such as `.com`, `.org`, or `.net`.
+- [[Subdomain]]: A domain nested below another domain, such as `api.example.com`.
+- [[Internet Corporation for Assigned Names and Numbers]] (ICANN): The organization that coordinates global domain names, IP address allocation policy, and internet naming governance.
+- [[Registrar]]: A company authorized to register and manage domain names for customers.
+- [[Internet Assigned Numbers Authority]] (IANA): The function that maintains global internet number, protocol, and DNS root zone registries.
+- [[Authoritative Namserver]]: A DNS server that holds the official records for a domain or zone.
+- [[Root Nameserver]]: A DNS server at the top of the DNS hierarchy that directs resolvers toward top-level domain servers.
+- [[Recursive Resolver]]: A DNS resolver that performs lookups on behalf of clients and returns the final answer.
+- [[MAC Address]]: A hardware identifier used to address devices on a local link-layer network.
+- [[Loopback Address]]: An address that routes traffic back to the same host, commonly `127.0.0.1` for IPv4.
+- [[Time to First Byte]] (TTFB): The time from starting a request until the first byte of the response is received.
+- [[Congestion Control]]: Algorithms that regulate sending rates to avoid overwhelming a network.
+- [[Backpressure]]: A signal or mechanism that tells upstream producers to slow down because downstream consumers are saturated.
+- [[Flow Control]]: Mechanisms that prevent a sender from overwhelming a receiver's processing or buffer capacity.
+- [[Certificate Chain]] (Chain of Trust): The ordered set of certificates that links an end-entity certificate back to a trusted root.
+- [[Network Access Control List]] (Network ACL; NACL): A stateless packet-filtering rule set applied to network traffic, often at a subnet boundary.
+- [[NAT Gateway]]: A managed NAT device that lets private network resources initiate outbound internet connections.
+- [[Private Link]]: A private connectivity pattern for reaching a service without exposing traffic to the public internet.
+- [[Virtual Private Cloud Peering]] (VPC Peering): A private connection between VPCs that allows resources to route traffic directly between them.
+- [[Transit Gateway]]: A hub service that connects multiple networks or VPCs through centralized routing.
+- [[Overlay Network]]: A logical network built on top of another network, often using tunnels or encapsulation.
+- [[Traceroute]]: A diagnostic tool that shows the network hops packets take toward a destination.
+- [[Netcat]]: A command-line tool for reading and writing raw data over network connections.
+- [[Dig]]: A command-line DNS lookup tool used to query nameservers and inspect DNS records.
+- [[Nslookup]]: A command-line tool for querying DNS records and troubleshooting name resolution.
+- [[Tcpdump]]: A command-line packet capture tool for inspecting network traffic.
+- [[Wireshark]]: A graphical packet analyzer used to capture, inspect, and decode network traffic.
+- [[Network Interface Card]] (NIC): Hardware or a virtual adapter that connects a device to a network.
+- [[Networking Switch]]: A link-layer device that forwards frames between devices on a local network.
+- [[Routing|Router]]: A network device or function that forwards packets between networks using routing tables.
+- [[Gateway]]: A network node that provides access from one network or protocol environment to another.
+- [[Wireless Access Point]] (WAP; AP): A device that connects wireless clients to a wired network.
+- [[Modem]]: A device that converts between a provider's access network signal and local network data.
+- [[Ethernet]]: A family of wired local-area networking standards for carrying frames over cables or fiber.
+- [[Infiniband]]: A high-throughput, low-latency networking technology commonly used in data centers and high-performance computing.
+- [[Fiber Optic]]: A network medium that transmits data as light through glass or plastic fiber.
+- [[Rack]]: A standardized frame used to mount servers, switches, and other data-center equipment.
+- [[Top-of-Rack Switch]]: A switch placed in a server rack to connect local servers to the data-center fabric.
+- [[Leaf Switch]]: An access-layer data-center switch that connects servers or racks to spine switches.
+- [[Spine Switch]]: A data-center aggregation switch that connects leaf switches in a spine-leaf topology.
+- [[Spine-Leaf Network]]: A data-center topology where every leaf switch connects to every spine switch for predictable low-latency paths.
+- [[Layer 4 Load Balancer]]: A load balancer that routes traffic using transport-layer information such as IP address and port.
+- [[Layer 7 Load Balancer]]: A load balancer that routes requests using application-layer information such as host, path, headers, or cookies.
+- [[Hardware Load Balancer]]: A dedicated appliance that distributes traffic across backend servers.
+- [[Internet Service Provider]] (ISP): A company or organization that provides access to the internet.
+- [[Route Table]]: A set of routing rules that tells a host, router, or cloud subnet where to send traffic for different destinations.

@@ -18,7 +18,7 @@ See [[Logistics (Index)]]
 ## The 5 Ls of Logistics
 - [[Logistics Status|LOGSTAT]]: 
 - [[Logistics Synchronization|LOGSYNC]]:
-- [[LOGSYNC Matrix]]: 
+- [[Logistics Synchronization Matrix|LOGSYNC Matrix]]: 
 - [[Logistics Package|LOGPAC]]:
 - [[Logistics Common Operating Picture|LOGCOP]]:
 
