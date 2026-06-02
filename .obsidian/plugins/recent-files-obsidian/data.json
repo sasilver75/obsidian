@@ -1,12 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "Global Navigation Satellite System",
-      "path": "Global Navigation Satellite System.md"
+      "basename": "Signals and Spectrum (Index)",
+      "path": "Signals and Spectrum (Index).md"
+    },
+    {
+      "basename": "Satellite (Index)",
+      "path": "Satellite (Index).md"
+    },
+    {
+      "basename": "Open Source Geospatial Foundation",
+      "path": "Open Source Geospatial Foundation.md"
+    },
+    {
+      "basename": "Layover",
+      "path": "Layover.md"
+    },
+    {
+      "basename": "Drone (Index)",
+      "path": "Drone (Index).md"
+    },
+    {
+      "basename": "Drone",
+      "path": "Drone.md"
+    },
+    {
+      "basename": "Manufacturing (Index)",
+      "path": "Manufacturing (Index).md"
+    },
+    {
+      "basename": "Interferometric Synthetic Aperture Radar",
+      "path": "Interferometric Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Coregistration",
+      "path": "Coregistration.md"
+    },
+    {
+      "basename": "Differential Interferometric Synthetic Aperture Radar",
+      "path": "Differential Interferometric Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Ephemeris",
+      "path": "Ephemeris.md"
+    },
+    {
+      "basename": "Project Ideas",
+      "path": "Project Ideas.md"
+    },
+    {
+      "basename": "Remote Sensing",
+      "path": "Remote Sensing.md"
+    },
+    {
+      "basename": "Satellite",
+      "path": "Satellite.md"
+    },
+    {
+      "basename": "Sentinel",
+      "path": "Sentinel.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "Moderate Resolution Imaging Spectroradiometer",
+      "path": "Moderate Resolution Imaging Spectroradiometer.md"
+    },
+    {
+      "basename": "Joint Emissivity Database Initiative",
+      "path": "Joint Emissivity Database Initiative.md"
+    },
+    {
+      "basename": "Rational Polynomial Coefficient",
+      "path": "Rational Polynomial Coefficient.md"
+    },
+    {
+      "basename": "Frequency Response",
+      "path": "Frequency Response.md"
+    },
+    {
+      "basename": "Carrier Wave",
+      "path": "Carrier Wave.md"
+    },
+    {
+      "basename": "IEEE Radar Band",
+      "path": "IEEE Radar Band.md"
+    },
+    {
+      "basename": "Electronics (Index)",
+      "path": "Electronics (Index).md"
+    },
+    {
+      "basename": "Gain",
+      "path": "Gain.md"
+    },
+    {
+      "basename": "Semantic Simultaneous Localization and Mapping",
+      "path": "Semantic Simultaneous Localization and Mapping.md"
+    },
+    {
+      "basename": "Telemetry, Tracking, and Command",
+      "path": "Telemetry, Tracking, and Command.md"
+    },
+    {
+      "basename": "Acquisition",
+      "path": "Acquisition.md"
+    },
+    {
+      "basename": "Downlink",
+      "path": "Downlink.md"
+    },
+    {
+      "basename": "Propulsion System",
+      "path": "Propulsion System.md"
+    },
+    {
+      "basename": "J2 Term",
+      "path": "J2 Term.md"
+    },
+    {
+      "basename": "Geosynchronous Orbit",
+      "path": "Geosynchronous Orbit.md"
+    },
+    {
+      "basename": "Orbit",
+      "path": "Orbit.md"
+    },
+    {
+      "basename": "Geostationary Orbit",
+      "path": "Geostationary Orbit.md"
+    },
+    {
+      "basename": "Ground Control Station",
+      "path": "Ground Control Station.md"
     },
     {
       "basename": "Geospatial (Index)",
       "path": "Geospatial (Index).md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "Global Navigation Satellite System",
+      "path": "Global Navigation Satellite System.md"
     },
     {
       "basename": "S2 Geometry",
@@ -15,10 +155,6 @@
     {
       "basename": "Protomaps",
       "path": "Protomaps.md"
-    },
-    {
-      "basename": "Remote Sensing",
-      "path": "Remote Sensing.md"
     },
     {
       "basename": "Light Detection and Ranging",
@@ -61,144 +197,8 @@
       "path": "GNSS Jamming.md"
     },
     {
-      "basename": "Carrier Wave",
-      "path": "Carrier Wave.md"
-    },
-    {
       "basename": "Radio Spectrum",
       "path": "Radio Spectrum.md"
-    },
-    {
-      "basename": "Ku-Band",
-      "path": "Ku-Band.md"
-    },
-    {
-      "basename": "Ka-Band",
-      "path": "Ka-Band.md"
-    },
-    {
-      "basename": "Satellite Communications",
-      "path": "Satellite Communications.md"
-    },
-    {
-      "basename": "Super High Frequency",
-      "path": "Super High Frequency.md"
-    },
-    {
-      "basename": "ITU Radio Band",
-      "path": "ITU Radio Band.md"
-    },
-    {
-      "basename": "Sentinel",
-      "path": "Sentinel.md"
-    },
-    {
-      "basename": "RADAR",
-      "path": "RADAR.md"
-    },
-    {
-      "basename": "Precise Point Positioning",
-      "path": "Precise Point Positioning.md"
-    },
-    {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
-    },
-    {
-      "basename": "Global Positioning System",
-      "path": "Global Positioning System.md"
-    },
-    {
-      "basename": "IEEE Radar Band",
-      "path": "IEEE Radar Band.md"
-    },
-    {
-      "basename": "L-Band",
-      "path": "L-Band.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "PALSAR",
-      "path": "PALSAR.md"
-    },
-    {
-      "basename": "Ultra High Frequency",
-      "path": "Ultra High Frequency.md"
-    },
-    {
-      "basename": "Visual Foundation Model",
-      "path": "Visual Foundation Model.md"
-    },
-    {
-      "basename": "Very High Frequency",
-      "path": "Very High Frequency.md"
-    },
-    {
-      "basename": "ICEYE",
-      "path": "ICEYE.md"
-    },
-    {
-      "basename": "Ground-Penetrating Radar",
-      "path": "Ground-Penetrating Radar.md"
-    },
-    {
-      "basename": "Coregistration",
-      "path": "Coregistration.md"
-    },
-    {
-      "basename": "Capella Space",
-      "path": "Capella Space.md"
-    },
-    {
-      "basename": "International Telecommunications Union",
-      "path": "International Telecommunications Union.md"
-    },
-    {
-      "basename": "Radio Frequency",
-      "path": "Radio Frequency.md"
-    },
-    {
-      "basename": "Electromagnetic Signature",
-      "path": "Electromagnetic Signature.md"
-    },
-    {
-      "basename": "Find, Fix, Track, Target, Engage, Assess",
-      "path": "Find, Fix, Track, Target, Engage, Assess.md"
-    },
-    {
-      "basename": "Maneuver Short-Range Air Defense",
-      "path": "Maneuver Short-Range Air Defense.md"
-    },
-    {
-      "basename": "Short-Range Air Defense",
-      "path": "Short-Range Air Defense.md"
-    },
-    {
-      "basename": "Mean Average Precision",
-      "path": "Mean Average Precision.md"
-    },
-    {
-      "basename": "Drone (Index)",
-      "path": "Drone (Index).md"
-    },
-    {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
-    },
-    {
-      "basename": "Signature",
-      "path": "Signature.md"
-    },
-    {
-      "basename": "Cryptographic Signature",
-      "path": "Cryptographic Signature.md"
-    },
-    {
-      "basename": "Asymmetric Key Encryption",
-      "path": "Asymmetric Key Encryption.md"
     }
   ],
   "omittedPaths": [],

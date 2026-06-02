@@ -12,7 +12,7 @@ An 11-day [[National Aeronautics and Space Administration|NASA]] space shuttle m
 	- [[WorldDEM|TanDEM-X]]/[[WorldDEM]]: The full-resolution commercial product (12m) from the same mission as above; Not free, sold by Airbus.
 	- [[LiDAR]]: Where it exists, it's far superior to any satellite-derived DEM. 1m or better resolution, true bare-earth capability. Coverage is patchy, mostly in developed countries, coastal areas, and areas with specific research needs.
 
-Space Shuttle Endeavor flew with a modified radar system that used ==[[InSAR|Single-Pass InSAR]]== *two radar antennas separated by a 60-meter boom*  extended from the shuttle cargo bay, with one transmitting radar pulses and both receiving the returns.
+Space Shuttle Endeavor flew with a modified radar system that used ==[[Interferometric Synthetic Aperture Radar|Single-Pass InSAR]]== *two radar antennas separated by a 60-meter boom*  extended from the shuttle cargo bay, with one transmitting radar pulses and both receiving the returns.
 - The slight geometric difference for the two produced interferometric phase measurements which could be converted to elevation!
 
 Single-pass InSAR is important: Because both antennas were on the same platform at the same moment, there was ==no temporal decorrelation (surface didn't change between acquisitions), giving a clean, coherent phase measurement across almost all terrain types.

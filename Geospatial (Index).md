@@ -7,9 +7,8 @@ Terms
 - [[Slippy Map]]
 - [[Tile Pyramid]]
 - [[Vector Tile]]
-- [[Vector Tile]]
 - [[Mapbox Vector Tile]] (MVT)
-- [[PMTiles]] (PMT)
+- [[PMTiles]]
 - [[Mapbox]]
 - [[MapLibre]]
 - [[MapLibre GL JS]]
@@ -25,7 +24,7 @@ Terms
 - [[Remote Sensing|Earth Observation]]
 - [[Synthetic Aperture Radar]] (SAR)
 - [[Inverse Synthetic Aperture Radar]] (ISAR)
-- [[InSAR|Interferometric Synthetic Aperture Radar]] (InSAR)
+- [[Interferometric Synthetic Aperture Radar|Interferometric Synthetic Aperture Radar]] (InSAR)
 - [[Differential Interferometric Synthetic Aperture Radar]] (DInSAR)
 - [[Coregistration]]
 - [[Mosaic]]
@@ -96,4 +95,27 @@ Terms
 - [[Apache Sedona]]
 - [[DuckDB]]
 - [[Google Earth Engine]] (GEE)
-- 
+- [[Cesium]]
+- [[Geotransform]]
+- [[Photogrammetry]]
+- [[Tile]]
+- [[Tile Server]]
+- [[OpenMapTiles]]
+- [[kepler.gl]]
+- [[Element84 Earth Search]]
+- [[Lonboard]]
+- [[leafmap]]
+- [[geemap]]
+- [[TorchGeo]]
+- [[NASA EarthData]]
+- [[USGS EarthExplorer]]
+- [[Earth on AWS]]
+- [[OpenTopography]]
+- [[3DEP]]
+- [[Countour]]
+- [[Hillshade]]
+- [[Slope]]
+- [[Aspect]]
+- [[Watershed]]
+- [[Terrain Ruggedness Index]] (TRI)
+- [[Datum]]

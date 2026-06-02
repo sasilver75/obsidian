@@ -1,6 +1,7 @@
 Great Videos:
 - [The Truth About U.S. Drones: A Full Industry Breakdown](https://youtu.be/A5yZlaTR5xI) (2025)
 
+
 Terms:
 - [[Drone]]: An uncrewed vehicle that can be remotely controlled, semi-autonomous, or autonomous.
 - [[Unmanned Aerial System]] (UAS): An uncrewed vehicle designed to operate in the air, under remote control or autonomous control.
@@ -50,7 +51,7 @@ Terms:
 - [[Servo Motor]]: A motor with control electronics and feedback used to move to commanded positions.
 - [[Video Transmitter]] (VTX): A transmitter that sends onboard camera video from the drone to a receiver or goggles.
 - [[Video receiver]] (VRX): A receiver that accepts the video signal transmitted from a drone.
-- [[Ground Control Station]] (GCS): A ground-based interface used to plan missions, monitor telemetry, and control or supervise a UAS.
+- [[Ground Control Station]]/System (GCS): A ground-based interface used to plan missions, monitor telemetry, and control or supervise a UAS.
 - [[ArduPilot]]: An open-source autopilot software stack used for multirotors, fixed-wing aircraft, rovers, boats, and other vehicles.
 - [[PX4]]: An open-source autopilot software stack used for drones and robotic vehicles.
 - [[Betaflight]]: Flight-control firmware primarily used for FPV multirotors and racing drones.
@@ -71,6 +72,8 @@ Terms:
 - [[Visual Odometry]]: Estimating motion by tracking visual changes between camera frames.
 - [[Visual Inertial Odometry]] (VIO): Estimating motion by fusing camera observations with inertial sensor measurements.
 - [[Simultaneous Localization and Mapping]] (SLAM): A method for building a map of an unknown environment while estimating the vehicle's position within it.
+- [[Semantic Simultaneous Localization and Mapping]] (SSLAM)
+- [[Visual Positioning System]] (VPS): 
 - [[Position, Navigation, and Timing]]: The set of capabilities used to determine location, movement, orientation, and precise time.
 - [[Alternative Positioning, Navigation, and Timing]] (AltPNT): PNT methods that supplement or replace GPS/GNSS when satellite navigation is unavailable or unreliable.
 - [[Denied, Disrupted, Intermittent, Low-Bandwidth]] (DDIL): Conditions in which communication links are unavailable, degraded, unreliable, or bandwidth-constrained.
@@ -136,4 +139,6 @@ Terms:
 - [[Short-Range Air Defense]] (SHORAD): Air defense capabilities intended to protect forces from low-altitude air threats at short range.
 - [[Maneuver Short-Range Air Defense]] (M-SHORAD): Mobile short-range air defense designed to protect maneuver forces.
 - [[Kill Chain]]: The sequence of steps used to find, track, target, engage, and assess effects on a target.
+- [[Ground Control Point]]
+
 

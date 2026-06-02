@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global Navigation Satellite System.md",
+                "file": "Signals and Spectrum (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,439 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Global Navigation Satellite System"
+              "title": "Signals and Spectrum (Index)"
+            }
+          },
+          {
+            "id": "f32c6566fd5a87e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open Source Geospatial Foundation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Open Source Geospatial Foundation"
+            }
+          },
+          {
+            "id": "d6e51dd620bf0447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signals and Spectrum (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Signals and Spectrum (Index)"
+            }
+          },
+          {
+            "id": "661cb23e5a7fc037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Layover.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Layover"
+            }
+          },
+          {
+            "id": "32fd6fc4e70194d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interferometric Synthetic Aperture Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Interferometric Synthetic Aperture Radar"
+            }
+          },
+          {
+            "id": "eaa72d1d92809dff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coregistration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Coregistration"
+            }
+          },
+          {
+            "id": "8cce4555feaf20cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Moderate Resolution Imaging Spectroradiometer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Moderate Resolution Imaging Spectroradiometer"
+            }
+          },
+          {
+            "id": "4e693a056fb829ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frequency Response.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Frequency Response"
+            }
+          },
+          {
+            "id": "b7fe2dad8ee5d9e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gain.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gain"
+            }
+          },
+          {
+            "id": "a75da1e6815eb56a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Drone (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Drone (Index)"
+            }
+          },
+          {
+            "id": "86c41ed1f28d0648",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semantic Simultaneous Localization and Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Semantic Simultaneous Localization and Mapping"
+            }
+          },
+          {
+            "id": "dbe8e6b7bdfc6273",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Telemetry, Tracking, and Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Telemetry, Tracking, and Command"
+            }
+          },
+          {
+            "id": "82d59814f84d1098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acquisition.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Acquisition"
+            }
+          },
+          {
+            "id": "5932978b09e6eb1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Propulsion System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Propulsion System"
+            }
+          },
+          {
+            "id": "9107d59a3d5a2be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "J2 Term.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "J2 Term"
+            }
+          },
+          {
+            "id": "c2f5e555f637ec9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ephemeris.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ephemeris"
+            }
+          },
+          {
+            "id": "c3d69ed54eb0ee0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geostationary Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geostationary Orbit"
+            }
+          },
+          {
+            "id": "1cda2f25ff692dcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geosynchronous Orbit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Geosynchronous Orbit"
+            }
+          },
+          {
+            "id": "f33bc93991cdb121",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ground Control Station.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ground Control Station"
             }
           },
           {
@@ -303,7 +735,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Laser Altimeter",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2163,33 +2595,33 @@
   },
   "active": "e9408d10e8051edb",
   "lastOpenFiles": [
-    "Geospatial (Index).md",
-    "S2 Geometry.md",
-    "Protomaps.md",
-    "Global Navigation Satellite System.md",
+    "Satellite (Index).md",
+    "Open Source Geospatial Foundation.md",
+    "Signals and Spectrum (Index).md",
+    "Layover.md",
+    "Drone (Index).md",
+    "Drone.md",
+    "Manufacturing (Index).md",
+    "Interferometric Synthetic Aperture Radar.md",
+    "Coregistration.md",
+    "Differential Interferometric Synthetic Aperture Radar.md",
+    "Ephemeris.md",
+    "Project Ideas.md",
     "Remote Sensing.md",
-    "Light Detection and Ranging.md",
-    "Laser Altimeter.md",
-    "Radar Altimeter.md",
-    "Satellite-Based Augmentation System.md",
-    "Sensor Fusion.md",
-    "Navigation with Indian Constellation.md",
-    "Quazi-Zenith Satellite System.md",
-    "_attachments/Pasted image 20260601144441.png",
-    "GNSS Spoofing.md",
-    "Real-Time Kinematic Positioning.md",
-    "GNSS Jamming.md",
-    "Carrier Wave.md",
-    "Radio Spectrum.md",
-    "Ku-Band.md",
-    "Ka-Band.md",
-    "Satellite Communications.md",
-    "Super High Frequency.md",
-    "ITU Radio Band.md",
+    "Satellite.md",
     "Sentinel.md",
-    "RADAR.md",
-    "Precise Point Positioning.md",
-    "Geospatial Index.md",
+    "Synthetic Aperture Radar.md",
+    "Moderate Resolution Imaging Spectroradiometer.md",
+    "Joint Emissivity Database Initiative.md",
+    "Rational Polynomial Coefficients.md",
+    "Rational Polynomial Coefficient.md",
+    "Frequency Response.md",
+    "Carrier Wave.md",
+    "IEEE Radar Band.md",
+    "Electronics (Index).md",
+    "Gain.md",
+    "Semantic Simultaneous Localization and Mapping.md",
+    "_attachments/Pasted image 20260601144441.png",
     "_attachments/Pasted image 20260601120421.png",
     "_attachments/Pasted image 20260528011813.png",
     "_attachments/Pasted image 20260527220104.png",

@@ -1,7 +1,7 @@
 ---
 aliases:
 ---
-Letter-designated microwave/radio bands such as:
+Letter-designated microwave/radio bands such as (ascending in [[Frequency]]):
 - [[P-Band]]: Often explained as "previous," frequencies below L-band
 - [[L-Band]]: "Long" wavelength radar
 - [[S-Band]]: "Short" wavelength radar

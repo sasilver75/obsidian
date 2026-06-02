@@ -10,7 +10,7 @@ Core Physics
 ![[Pasted image 20260418142007.png|400]]
 
 
-In Geospatial, it's commonly used for [[InSAR|Interferometric Synthetic Aperture Radar]] (InSAR)
+In Geospatial, it's commonly used for [[Interferometric Synthetic Aperture Radar|Interferometric Synthetic Aperture Radar]] (InSAR)
 - We compare two [[Synthetic Aperture Radar|SAR]] radar images of the same area, taken at different times
 	- Same area, two passes gives two phase measurements.
 	- We can subtract the phases to get an ==interferogram== showing phase difference.

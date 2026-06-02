@@ -12,7 +12,7 @@ A satellite mission that acquires optical imagery at high spatial resolutions (1
 
 ==Sentinel-1==: [[C-Band]] [[Synthetic Aperture Radar|SAR]]
 - Two satellites, 1A (2014) and 1B( 2016, failed 2022), 1B replaced by 1C in 2024
-- Primary uses are surface deformation ([[InSAR]]), flood mapping, sea ice, ship detection, agriculture
+- Primary uses are surface deformation ([[Interferometric Synthetic Aperture Radar|InSAR]]), flood mapping, sea ice, ship detection, agriculture
 - 6 day repaet
 ![[Pasted image 20260419210027.png]]
 

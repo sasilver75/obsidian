@@ -5,7 +5,7 @@ When a satellite "acquires" an area, that encompasses all of:
 1. The sensor is [[Task|Tasked]] to collect at a specific time/location
 2. The satellite may maneuver/[[Slew]] (changing [[Attitude]]) to point at the target.
 3. Data is collected during the [[Overpass Window]].
-4. Raw data is [[Downlinked]] to a [[Ground Station]]
+4. Raw data is [[Downlink]]ed to a [[Ground Station]]
 5. Data is processed into an image product
 
 Defined by:

@@ -1,0 +1,4 @@
+---
+aliases:
+  - Grund Control System
+---

@@ -2,11 +2,7 @@
 - Fixed Wing: 
 - Multi-Rotor: An aircraft that flies not by air traveling over wings, but by propellers forcing the air downwards. 
 	- Most common rotor type is a quadcopter (4), but there are also bicopters (2), tricopter (3), hexacopters (6), octocopters (8), etc.
-
-
-
-
-
+	- 
 # FPV Drones
 
 

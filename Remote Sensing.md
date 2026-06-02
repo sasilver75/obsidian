@@ -133,7 +133,7 @@ A taxonomy of processing "levels" defined in 1986 by [[National Aeronautics and 
 		- [[Digital Terrain Model]]: : Bare earth only; requires filtering out above-ground objects
 	- Methods include:
 		- [[Photogrammetry|Stereophotogrammetry]] (using two optical images from different angles, matching features, and triangulating elevation from parallax)
-		- [[InSAR]] (interfering two SAR acquisitions to get elevation; [[Shuttle Radar Topography Mission|SRTM]] was created this way)
+		- [[Interferometric Synthetic Aperture Radar|InSAR]] (interfering two SAR acquisitions to get elevation; [[Shuttle Radar Topography Mission|SRTM]] was created this way)
 		- [[Light Detection and Ranging|LiDAR]] (using active ranging; the most accurate, expensive, typically airborne; point clouds are processed into DEMs)
 		- Structure from Motion (SfM): Similar to photogrammetry, but uses *many* overlapping images; common with drone imagery.
 - Vegetation Analysis

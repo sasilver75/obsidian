@@ -6,7 +6,7 @@ The most common classes of orbits are:
 - Low-Earth Orbit ([[Low Earth Orbit|LEO]]): 160-2000km
 - Medium-Earth Orbit ([[Medium Earth Orbit|MEO]]): 2,000-35,500km
 - High-Earth Orbit: Above 35,500km
-	- Platforms orbiting at 35,786km are at an altitude at which their orbital speed matches the planet's rotation, and are in what is called [[Geosynchronous Orbit|Geosynchronous]] ([[Geosynhronous Orbit|GSO]]) orbit.
+	- Platforms orbiting at 35,786km are at an altitude at which their orbital speed matches the planet's rotation, and are in what is called [[Geosynchronous Orbit|Geosynchronous]] orbit.
 		- A platform in GSO directly above the equator will have a [[Geostationary Orbit|Geostationary]] orbit, which enables a platform to maintain its position directly over the same place on the Earth's surface. So ==Geostationary is a subclass of Geosynchronous==.
 		- While both [[Geosynchronous Orbit]]s and [[Geostationary Orbit]]s are at 35,786km above the Earth, geosynchronous platforms have orbits that can be tilted above or below the equator, while geostationary platforms orbit Earth on *the same plane as the equator*.
 

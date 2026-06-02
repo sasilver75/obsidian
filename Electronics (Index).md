@@ -22,7 +22,7 @@ Terms
 - [[Ohm's Law]]: The relationship `V=IR`
 - [[Kirchhoff's Current Law]] (KCL): Total current entering a circuit node equals total current leaving it.
 - [[Kirchhoff's Voltage Law]] (KVL): The sum of *voltage rises* and *voltage drops* around a closed loop is zero.
-- [[Ground]]: A common reference and return node in a circuit, often treated as 0 Volts., sometimes tied to chassis or earth.
+- [[Ground]]: A common reference and return node in a circuit, often treated as 0 Volts, sometimes tied to chassis or earth.
 - [[Short Circuit]]: A low-resistance path that lets excessive current bypass the intended circuit.
 - [[Open Circuit]]: A broken or incomplete circuit path, where current can't flow.w
 - [[Closed Circuit]]: A complete path where current can flow.

@@ -1,0 +1,166 @@
+
+
+
+
+
+
+Terms
+- [[Satellite]]
+- [[Constellation]]
+- [[Orbit]]
+- [[Payload]]
+- [[CubeSat]]
+- [[Ground Station]]
+- [[Task|Tasking]]
+- [[Acquisition]]
+- [[Revisit Rate]]
+- [[Swath]]
+- [[Ground Track]]
+- [[Footprint]]
+- [[Scene]], [[Strip]], and [[Tile]]s
+- [[Area of Interest]] (AOI)
+- [[Low Earth Orbit]] (LEO)
+- [[Medium Earth Orbit]] (MEO)
+- [[Geosynchronous Orbit]] (GSO)
+- [[Geostationary Orbit]] (GEO)
+- [[Sun-Synchronous Orbit]] (SSO)
+- [[Polar Orbit]]
+- [[Inclined Orbit]]
+- [[Equatorial Orbit]]
+- [[Orbital Elements]]
+- [[Ephemeris]]
+- [[Inclination]]
+- [[Period]]
+- [[Ascending Node]]
+- [[Descending Node]]
+- [[Precession]]
+- [[J2 Term]]
+- [[Station Keeping]]
+- [[Atmospheric Drag]]
+- [[Attitude]]
+- [[Attitude Determination and Control System]] (ADCS)
+- [[Reaction Wheel]]
+- [[Magnetorquer]]
+- [[Star Tracker]]
+- [[Sun Sensor]]
+- [[Inertial Measurement Unit]] (IMU)
+- [[Magnetometer]]
+- [[Thermal Control System]]
+- [[Radiation Hardening]]
+- [[Propulsion System]]
+- [[Deorbiting]]
+- [[Satellite Communications]] (SATCOM)
+- [[Uplink]]
+- [[Downlink]]
+- [[Overpass Window]]
+- [[Telemetry, Tracking, and Command]] TT&C
+- [[Transponder]]
+- [[Antenna]] 
+- [[Gain]]
+- [[P-Band]]
+- [[L-Band]]
+- [[S-Band]]
+- [[C-Band]]
+- [[X-Band]]
+- [[Ku-Band]]
+- [[K-Band]]
+- [[Ka-Band]]
+- [[Doppler Effect|Doppler Shift]]
+- [[Rain Fade]]
+- [[Remote Sensing|Earth Observation]]
+- [[Remote Sensing]]
+- [[Active Remote Sensing]]
+- [[Passive Remote Sensing]]
+- [[Panchromatic]]
+- [[Multispectral]] (MSI)
+- [[Hyperspectral]] (HSI)
+- [[Thermal Infrared]] (TIR)
+- [[Near Infrared]] (NIR)
+- [[Short-Wave Infrared]] (SWIR)
+- [[Synthetic Aperture Radar]] (SAR)
+- [[Radar Altimeter]]
+- [[Laser Altimeter]]
+- [[Radiometer]]
+- [[Spectrometer]]
+- [[Spectroradiometer]]
+- [[Scatterometer]]
+- [[Sounder]]
+- [[Ground Sample Distance]] (GSD)
+- [[Resolution|Spatial Resolution]]
+- [[Resolution|Temporal Resolution]]
+- [[Resolution|Spectral Resolution]]
+- [[Nadir]]
+- [[Nadir|Off-Nadir]]
+- [[Look Angle]]
+- [[Incidence Angle]]
+- [[Grazing Angle]]
+- [[Orthoimage|Orthorectification]]
+- [[Rational Polynomial Coefficient]]
+- [[Albedo]]
+- [[Radiance]]
+- [[Irradiance]]
+- [[Reflectance]]
+- [[Surface Reflectance]] (SR)
+- [[Top-of-Atmosphere]] (TOA)
+- [[Emissivity]]
+- [[Bidirectional Reflectance Distribution Function]] (BDRF)
+- [[Thermal Noise]]
+- [[Atmospheric Window]]
+- [[Satellite Image Preprocessing]]
+- [[Radiometric Calibration]]
+- [[Cloud Masking]]
+- [[Cloud Shadow Masking]]
+- [[Coregistration]]
+- [[Mosaic]]
+- [[Composite|Compositing]]
+- [[Pansharpening]]
+- [[Projection]]
+- [[Spectral Unmixing]]
+- [[Spectral Matching]]
+- [[Synthetic Aperture Radar]] (SAR)
+- [[Interferometric Synthetic Aperture Radar]] (InSAR)
+- [[Differential Interferometric Synthetic Aperture Radar]] (DInSAR)
+- [[Inverse Synthetic Aperture Radar]] (ISAR)
+- [[Synthetic Aperture Radar|ScanSAR]]
+- [[Synthetic Aperture Radar|TOPSAR]]
+- [[Backscatter]]
+- [[Polarization]] ([[Synthetic Aperture Radar|HH]]/[[Synthetic Aperture Radar|HV]]/[[Synthetic Aperture Radar|VH]]/[[Synthetic Aperture Radar|VV]]/[[Synthetic Aperture Radar|Quad-Pol]])
+- [[Range Resolution]]
+- [[Azimuth Resolution]]
+- [[Speckle]]
+- [[Layover]]
+- [[Foreshortening]]
+- [[Radar Shadow]]
+- [[Landsat]]
+- [[Sentinel]]
+- [[Moderate Resolution Imaging Spectroradiometer|MODIS]]
+- [[Shuttle Radar Topography Mission|SRTM]]
+- [[TerraSAR-X]]
+- [[RADARSAT]]
+- [[PALSAR]]
+- [[ALOS PALSAR]]
+- [[NISAR]]
+- [[Global Ecosystem Dynamics Investigation|GEDI]]
+- [[GOES-R]]
+- [[Iridium Satellite Constellation]]
+- [[Global Navigation Satellite System]] (GNSS)
+
+
+Organizations
+- [[National Oceanic and Atmospheric Administration]]
+- [[National Aeronautics and Space Administration]]
+- [[United States Geological Survey]]
+- [[National Geospatial-Intelligence Agency]]
+- [[National Reconnaissance Office]]
+- [[United States Department of Agriculture]]
+- [[National Agriculture Imagery Program]]
+- [[European Space Agency]] 
+- [[Canadian Space Agency]]
+- [[Japan Aerospace Exploration Agency]]
+- [[Copernicus DEM|Copernicus]]
+- [[Maxar]]
+- [[Planet Labs]]
+- [[Capella Space]]
+- [[BlackSky]]
+- [[ICEYE]]
+- [[Umbra]]

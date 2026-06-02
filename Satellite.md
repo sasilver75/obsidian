@@ -91,7 +91,7 @@ The Copernicus project, Sentinel-2A/B satellites, produces 9.54TB of data each d
 - ==Eclipse==: When the satellite passes into Earth's shadow. No solar power, running on batteries, sensor usually off. LEO satellites experience ~15 eclipses per day, while Sun-synchronous orbits can be designed to be nearly eclipse-free.
 - SAR-specific concepts:
 	- ==Synthetic Aperture==: SAR simulates a very large antenna by combining radar returns collected over a long flight path. A longer synthetic aperture = finer along-track solution, which is why SAR can achieve high resolution from a small physical antenna.
-	- ==Coherence==: How similar the radar phase signal is between two SAR acquisitions. High coherence means the surface hasn't changed, and low coherence (decorrelation) means change; used in [[InSAR]] change detection.
+	- ==Coherence==: How similar the radar phase signal is between two SAR acquisitions. High coherence means the surface hasn't changed, and low coherence (decorrelation) means change; used in [[Interferometric Synthetic Aperture Radar|InSAR]] change detection.
 	- ==Backscatter==: How much radar energy bounces back to the sensor. Rough surfaces scatter more, smooth surfaces can act like mirrors and bounce energy away, appearing dark.
 	- ==Polarization==: Radar can transmit and receive in horizontal (H) or vertical (V) polarization; Different polarization combinations (HH, VV, HV, VH) reveal different surface properties.
 	- ==Interferometric SAR== (InSAR): Comparing the phase of two SAR acquisitions to measure surface deformation at centimeter or millimeter scale. Used for earthquake displacement, volcano inflation, glacier movement, subsidence.

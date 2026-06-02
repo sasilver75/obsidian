@@ -21,7 +21,7 @@ At 36,000km (22,000mi), geostationary orbit ==allows a satellite to hover over a
 
 This allows uninterrupted coverage of more than 1/3 of the Earth per satellite, so three satellites, space 120 degrees apart, can cover the whole Earth.
 
-- Platforms orbiting at 35,786km are at an altitude at which their orbital speed matches the planet's rotation, and are in what is called [[Geosynchronous Orbit|Geosynchronous]] ([[Geosynhronous Orbit|GSO]]) orbit.
+- Platforms orbiting at 35,786km are at an altitude at which their orbital speed matches the planet's rotation, and are in what is called [[Geosynchronous Orbit|Geosynchronous]]) orbit.
 	- A platform in GSO directly above the equator will have a [[Geostationary Orbit|Geostationary]] orbit, which enables a platform to maintain its position directly over the same place on the Earth's surface. So ==Geostationary is a subclass of Geosynchronous==.
 	- While both [[Geosynchronous Orbit]]s and [[Geostationary Orbit]]s are at 35,786km above the Earth, geosynchronous platforms have orbits that can be tilted above or below the equator, while geostationary platforms orbit Earth on *the same plane as the equator*.
 

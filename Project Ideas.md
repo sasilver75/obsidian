@@ -143,7 +143,7 @@
   ---
 # (6) InSAR Subsidence Time Machine 🥉
 
-  Process [[Sentinel|Sentinel-1]] [[InSAR]] displacement products for a subsiding city (Las Vegas, Central Valley,
+  Process [[Sentinel|Sentinel-1]] [[Interferometric Synthetic Aperture Radar|InSAR]] displacement products for a subsiding city (Las Vegas, Central Valley,
   Jakarta) into a [[Zarr]] time series on [[Amazon S3|S3]], detect anomalous sinking zones, and build a map where
   clicking any point shows millimeter-precision ground deformation over years.
 
