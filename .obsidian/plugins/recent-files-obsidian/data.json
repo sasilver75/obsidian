@@ -1,32 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Asynchronous Sever Gateway Interface",
-      "path": "Asynchronous Sever Gateway Interface.md"
+      "basename": "Agent Evaluation",
+      "path": "Agent Evaluation.md"
     },
     {
-      "basename": "Web Server",
-      "path": "Web Server.md"
+      "basename": "Agent Harness",
+      "path": "Agent Harness.md"
     },
     {
-      "basename": "Synchronous",
-      "path": "Synchronous.md"
+      "basename": "Agentic RAG",
+      "path": "Agentic RAG.md"
     },
     {
-      "basename": "Web Server Gateway Interface",
-      "path": "Web Server Gateway Interface.md"
+      "basename": "Context Engineering",
+      "path": "Context Engineering.md"
+    },
+    {
+      "basename": "Multi-Agent System",
+      "path": "Multi-Agent System.md"
+    },
+    {
+      "basename": "Automatic Prompt Optimizer",
+      "path": "Automatic Prompt Optimizer.md"
     },
     {
       "basename": "FastAPI",
       "path": "FastAPI.md"
     },
     {
-      "basename": "Socket.IO",
-      "path": "Socket.IO.md"
+      "basename": "Google Workflows",
+      "path": "Google Workflows.md"
+    },
+    {
+      "basename": "Web Server",
+      "path": "Web Server.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
     },
     {
       "basename": "Real-Time Communication",
       "path": "Real-Time Communication.md"
+    },
+    {
+      "basename": "Synchronous",
+      "path": "Synchronous.md"
+    },
+    {
+      "basename": "Asynchronous Sever Gateway Interface",
+      "path": "Asynchronous Sever Gateway Interface.md"
+    },
+    {
+      "basename": "Web Server Gateway Interface",
+      "path": "Web Server Gateway Interface.md"
+    },
+    {
+      "basename": "Socket.IO",
+      "path": "Socket.IO.md"
     },
     {
       "basename": "Replit",
@@ -35,10 +67,6 @@
     {
       "basename": "WorkOS",
       "path": "WorkOS.md"
-    },
-    {
-      "basename": "Google Workflows",
-      "path": "Google Workflows.md"
     },
     {
       "basename": "Flask",
@@ -51,10 +79,6 @@
     {
       "basename": "IEEE Radar Band",
       "path": "IEEE Radar Band.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
     },
     {
       "basename": "PALSAR",
@@ -175,30 +199,6 @@
     {
       "basename": "Electrolysis",
       "path": "Electrolysis.md"
-    },
-    {
-      "basename": "Flashcards Test",
-      "path": "Flashcards Test.md"
-    },
-    {
-      "basename": "Kitbashing",
-      "path": "Kitbashing.md"
-    },
-    {
-      "basename": "CloudCompare",
-      "path": "CloudCompare.md"
-    },
-    {
-      "basename": "Drone (Index)",
-      "path": "Drone (Index).md"
-    },
-    {
-      "basename": "4D Gaussian Splatting",
-      "path": "4D Gaussian Splatting.md"
-    },
-    {
-      "basename": "Low Probability of Detection",
-      "path": "Low Probability of Detection.md"
     }
   ],
   "omittedPaths": [],

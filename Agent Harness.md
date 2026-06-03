@@ -1,3 +1,9 @@
+---
+aliases:
+  - Agent Scaffold
+---
+
+
 References:
 - OAI Blog: [Harness Engineering: Leveraging Codex in an Agent-First World](https://openai.com/index/harness-engineering/) ([[Ryan Lopopolo]], February 11, 2026)
 - Video: [How Cursor Builds agentic Workflows across the SDLC](https://youtu.be/dJAVS1g3NDw) (May 12, 2026)

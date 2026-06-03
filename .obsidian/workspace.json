@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9b8e1da6f4944c6",
+        "id": "b538324423be7b97",
         "type": "tabs",
         "children": [
           {
-            "id": "f32c6566fd5a87e6",
+            "id": "9efc00ad974aa2a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "5016bebfa36891b4",
+            "id": "1fcebcb79f7e539b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Google Workflows.md",
+                "file": "Agent Evaluation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Google Workflows"
+              "title": "Agent Evaluation"
             }
           },
           {
-            "id": "36f61718e20704a7",
+            "id": "e45cf12f502a16ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI.md",
+                "file": "Agent Harness.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FastAPI"
+              "title": "Agent Harness"
             }
           },
           {
-            "id": "7a751cc1d8cd1d75",
+            "id": "9cf1dd0795179181",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Server.md",
+                "file": "Agentic RAG.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Web Server"
+              "title": "Agentic RAG"
             }
           },
           {
-            "id": "d8bf70b561593ed4",
+            "id": "922ba9d42d2d6f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asynchronous Sever Gateway Interface.md",
+                "file": "Context Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Asynchronous Sever Gateway Interface"
+              "title": "Context Engineering"
             }
           },
           {
-            "id": "4230e912753f195e",
+            "id": "bafc874cb033f8df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synchronous.md",
+                "file": "Context Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Synchronous"
+              "title": "Context Engineering"
             }
           },
           {
-            "id": "1d41094ba8e176ef",
+            "id": "b18240a55453e6a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Real-Time Communication.md",
+                "file": "Multi-Agent System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Real-Time Communication"
+              "title": "Multi-Agent System"
             }
           },
           {
-            "id": "6867fd317a3ce2c5",
+            "id": "6b10effff4e94453",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synthetic Aperture Radar.md",
+                "file": "Automatic Prompt Optimizer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,11 +196,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Synthetic Aperture Radar"
+              "title": "Automatic Prompt Optimizer"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2073,12 +2073,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "08fa3ac335ffd76b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 177
+        "currentTab": 178
       },
       {
         "id": "8a022290161ffefa",
@@ -2140,52 +2150,52 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d8bf70b561593ed4",
+  "active": "1fcebcb79f7e539b",
   "lastOpenFiles": [
-    "Web Server.md",
-    "Asynchronous Sever Gateway Interface.md",
-    "Synchronous.md",
-    "Web Server Gateway Interface.md",
+    "_attachments/Pasted image 20260603160451.png",
+    "_attachments/Pasted image 20260603160231.png",
+    "_attachments/Pasted image 20260603160114.png",
+    "_attachments/Pasted image 20260603155942.png",
+    "_attachments/Pasted image 20260603155941.png",
+    "_attachments/Pasted image 20260603155151.png",
+    "_attachments/Pasted image 20260603153924.png",
+    "Agent Harness.md",
+    "Agent Evaluation.md",
+    "Agentic RAG.md",
+    "Context Engineering.md",
+    "_attachments/Pasted image 20260603152239.png",
+    "_attachments/Pasted image 20260603152204.png",
+    "Multi-Agent System.md",
+    "Automatic Prompt Optimizer.md",
+    "_attachments/Pasted image 20260603151831.png",
+    "_attachments/Pasted image 20260603151651.png",
     "FastAPI.md",
-    "Socket.IO.md",
+    "Google Workflows.md",
+    "Web Server.md",
+    "Synthetic Aperture Radar.md",
     "Real-Time Communication.md",
+    "Synchronous.md",
+    "Asynchronous Sever Gateway Interface.md",
+    "Web Server Gateway Interface.md",
+    "Socket.IO.md",
     "Replit.md",
     "WorkOS.md",
-    "Google Workflows.md",
     "Flask.md",
     "Group 2 UAS.md",
     "IEEE Radar Band.md",
-    "Synthetic Aperture Radar.md",
     "PALSAR.md",
     "L-Band.md",
     "Signals and Spectrums (Index).md",
     "Geospatial (Index).md",
     "Networking (Index).md",
     "flashcards/networking-index-anki.tsv",
-    "Cryptography and Security (Index).md",
     "flashcards/logistics-index-anki.tsv",
-    "Satellite (Index).md",
-    "Electronics (Index).md",
-    "Logistics (Index).md",
-    "Quorum.md",
-    "Cache Stampede.md",
-    "Disaster Recovery.md",
     "flashcards/electronics-index-anki.tsv",
     "flashcards/satellite-index-anki.tsv",
     "flashcards/system-design-index-anki.tsv",
     "flashcards/geospatial-index-anki.tsv",
     "flashcards/drone-index-anki.tsv",
     "flashcards",
-    "_attachments/Pasted image 20260601144441.png",
-    "_attachments/Pasted image 20260601120421.png",
-    "_attachments/Pasted image 20260528011813.png",
-    "_attachments/Pasted image 20260527220104.png",
-    "_attachments/Pasted image 20260527135206.png",
-    "_attachments/Pasted image 20260527133446.png",
-    "_attachments/Pasted image 20260527133433.png",
-    "_attachments/Pasted image 20260527133334.png",
-    "_attachments/Pasted image 20260527133236.png",
-    "_attachments/Pasted image 20260527121723.png",
     "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
     "System Design in a Hurry - Anki Supplemental Basic.tsv"
   ]
