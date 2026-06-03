@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "IEEE Radar Band",
+      "path": "IEEE Radar Band.md"
+    },
+    {
+      "basename": "Synthetic Aperture Radar",
+      "path": "Synthetic Aperture Radar.md"
+    },
+    {
+      "basename": "PALSAR",
+      "path": "PALSAR.md"
+    },
+    {
+      "basename": "L-Band",
+      "path": "L-Band.md"
+    },
+    {
       "basename": "Signals and Spectrums (Index)",
       "path": "Signals and Spectrums (Index).md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Frequency Hopping Spread Spectrum",
       "path": "Frequency Hopping Spread Spectrum.md"
-    },
-    {
-      "basename": "Orthogonal Frequency-Division Multiplexing",
-      "path": "Orthogonal Frequency-Division Multiplexing.md"
-    },
-    {
-      "basename": "Amplitude-Shift Keying",
-      "path": "Amplitude-Shift Keying.md"
-    },
-    {
-      "basename": "Frequency-Shift Keying",
-      "path": "Frequency-Shift Keying.md"
-    },
-    {
-      "basename": "Phase-Shift Keying",
-      "path": "Phase-Shift Keying.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signals and Spectrums (Index).md",
+                "file": "IEEE Radar Band.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Signals and Spectrums (Index)"
+              "title": "IEEE Radar Band"
+            }
+          },
+          {
+            "id": "6867fd317a3ce2c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthetic Aperture Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Synthetic Aperture Radar"
             }
           }
         ]
@@ -1864,12 +1888,42 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "0bbfc561440c90d4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "a5fe458b1543d715",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "74e7fed3cf637bcf",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 173
+        "currentTab": 176
       },
       {
         "id": "8a022290161ffefa",
@@ -1931,8 +1985,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f32c6566fd5a87e6",
+  "active": "74e7fed3cf637bcf",
   "lastOpenFiles": [
+    "Synthetic Aperture Radar.md",
+    "PALSAR.md",
+    "L-Band.md",
+    "IEEE Radar Band.md",
+    "Signals and Spectrums (Index).md",
     "Geospatial (Index).md",
     "Networking (Index).md",
     "flashcards/networking-index-anki.tsv",
@@ -1959,11 +2018,6 @@
     "SSL Termination.md",
     "Nuclear (Index).md",
     "Reality Capture (Index).md",
-    "Logistics Synchronization Matrix.md",
-    "Smack Technologies.md",
-    "Diode.md",
-    "Electromagnetism.md",
-    "Radar.md",
     "flashcards/geospatial-index-anki.tsv",
     "flashcards/drone-index-anki.tsv",
     "flashcards",
