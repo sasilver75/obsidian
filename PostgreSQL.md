@@ -211,7 +211,7 @@ Above:
 		- (All changes for a transaction (table and indexes) are written to the WAL as a single, atomic operation, and then they're later all flushed to disk together. The commit is only acked to the client after all relevant WAL records are safely on disk, along with a commit record to the WAL. On crash recovery, we replay the WAL, and only transactions with a valid, fully-written commit record in the WAL are considered committed and are applied. If a transactions commit record is missing, all its changes are ignored/rolled back.)
 
 **Throughput Limitations**
-A well-tuned PostgreSQL instance on good (not great) hardware can handle (these assume PostgreSQL's default transaction [[Isolation]] level, [[Read Committed]], where transactions only see data committed before their query began):
+A well-tuned PostgreSQL instance on good (not great) hardware can handle (these assume PostgreSQL's default transaction [[Isolation]] level, [[Read Committed Isolation]], where transactions only see data committed before their query began):
 - Simple inserts: ~5,000 per second per core
 - Updates with index modifications: ~1,000-2,000 per second per core
 - Complex transactions (multiple tables/indexes): Hundreds per second

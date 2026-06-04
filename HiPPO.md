@@ -5,3 +5,5 @@ Refers to the Load Handling system (LHS) Compatible Water Tank Rack, a 2,000-gal
 ![[Pasted image 20260526010217.png]]
 
 
+See also: [[Water Buffalo]], [[Heavy Expanded Mobility Tactical Truck|Heavy Expanded Mobility Tactical Truck]]
+

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4209ceafb520d03",
+            "id": "ce1014ca4f79e191",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agent Harness.md",
+                "file": "System Design (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agent Harness"
+              "title": "System Design (Index)"
             }
           },
           {
-            "id": "d5b16e1246a106df",
+            "id": "777e67940b0b31e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "auth.md",
+                "file": "System Design (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,137 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "auth"
+              "title": "System Design (Index)"
+            }
+          },
+          {
+            "id": "205a279b0dce4d0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dual Write Problem.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dual Write Problem"
+            }
+          },
+          {
+            "id": "361c3cf5c5a854b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stale-While-Revalidate.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Stale-While-Revalidate"
+            }
+          },
+          {
+            "id": "4872fc8e6f967c7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Refresh-Ahead.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Refresh-Ahead"
+            }
+          },
+          {
+            "id": "14259285de0b230e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stale-While-Revalidate.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Stale-While-Revalidate"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "6e53cddab9fc9dd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74db906be30abce0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "High-Priority-System-Design.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "High-Priority-System-Design"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,8 +245,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1939,12 +2064,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "8f61a4a45e80bd3b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 178
+        "currentTab": 179
       },
       {
         "id": "8a022290161ffefa",
@@ -2006,44 +2141,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d5b16e1246a106df",
+  "active": "777e67940b0b31e0",
   "lastOpenFiles": [
-    "auth.md",
+    "High-Priority-System-Design.md",
+    "System Design (Index).md",
+    "Dual Write Problem.md",
+    "Dual Writes.md",
+    "Stale-While-Revalidate.md",
+    "Fallacies of Distributed Systems.md",
+    "Serializable Isolation.md",
+    "Modern Backend Development.md",
+    "Read Committed Isolation.md",
+    "Blue/Green Deployment.md",
+    "Blue",
+    "Service Token.md",
+    "System Design in a Hurry.md",
+    "Strong Consistency.md",
+    "Linearizability.md",
+    "Cache Write Strategy.md",
+    "Cache Read Strategy.md",
+    "Write-Through Cache.md",
+    "Write-Around Cache.md",
+    "Cache-Aside.md",
+    "Refresh-Ahead.md",
+    "Cache Freshness Strategy.md",
+    "Cache Eviction Strategy.md",
+    "Transactional Outbox Pattern.md",
     "Agent Harness.md",
+    "Strangler Pattern.md",
+    "System Design in a Hurry - Flashcard Review Draft.md",
+    "_attachments/Pasted image 20260604101725.png",
+    "_attachments/Pasted image 20260604093720.png",
+    "_attachments/Pasted image 20260604093556.png",
     "_attachments/Pasted image 20260603190824.png",
     "_attachments/Pasted image 20260603190813.png",
     "_attachments/Pasted image 20260603190808.png",
-    "OpenAI Agents SDK.md",
-    "Agent.md",
-    "Multi-Tenancy.md",
     "_attachments/Pasted image 20260603190343.png",
     "_attachments/Pasted image 20260603185408.png",
     "_attachments/Pasted image 20260603185024.png",
-    "Vite.md",
-    "Electronic Warfare.md",
-    "Vogtle Electric Generating Plant.md",
-    "Automatic Prompt Optimizer.md",
-    "Multi-Agent System.md",
-    "Context Engineering.md",
-    "Agentic RAG.md",
-    "Service Account.md",
-    "Area of Responsibility.md",
-    "Agent Evaluation.md",
-    "FastAPI.md",
-    "Joint Task Force.md",
-    "Task Force.md",
     "_attachments/Pasted image 20260603173446.png",
-    "_attachments/Pasted image 20260603161024.png",
-    "_attachments/Pasted image 20260603160451.png",
-    "_attachments/Pasted image 20260603160231.png",
-    "Google Workflows.md",
-    "Web Server.md",
-    "Synthetic Aperture Radar.md",
-    "Real-Time Communication.md",
-    "Synchronous.md",
-    "Asynchronous Sever Gateway Interface.md",
-    "Web Server Gateway Interface.md",
-    "Socket.IO.md",
     "flashcards/networking-index-anki.tsv",
     "flashcards/logistics-index-anki.tsv",
     "flashcards/electronics-index-anki.tsv",
@@ -2052,7 +2188,6 @@
     "flashcards/geospatial-index-anki.tsv",
     "flashcards/drone-index-anki.tsv",
     "flashcards",
-    "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv",
-    "System Design in a Hurry - Anki Supplemental Basic.tsv"
+    "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv"
   ]
 }

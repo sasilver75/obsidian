@@ -5,6 +5,7 @@ aliases:
 ---
 
 The Joint Readiness Training Center at Fort Polk, Louisiana trains thousands of soldiers annually.
+- A [[Combat Training Center]] (CTC)
 
 Its job is to put [[Brigade]]-sized units through hard, realistic simulated (14-day?) rotations against opposing forces, especially for [[Large Scale Combat Operations]].
 

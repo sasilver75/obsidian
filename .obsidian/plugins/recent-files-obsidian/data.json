@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "auth",
-      "path": "auth.md"
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "High-Priority-System-Design",
+      "path": "High-Priority-System-Design.md"
+    },
+    {
+      "basename": "Dual Write Problem",
+      "path": "Dual Write Problem.md"
+    },
+    {
+      "basename": "Stale-While-Revalidate",
+      "path": "Stale-While-Revalidate.md"
+    },
+    {
+      "basename": "Fallacies of Distributed Systems",
+      "path": "Fallacies of Distributed Systems.md"
+    },
+    {
+      "basename": "Serializable Isolation",
+      "path": "Serializable Isolation.md"
+    },
+    {
+      "basename": "Modern Backend Development",
+      "path": "Modern Backend Development.md"
+    },
+    {
+      "basename": "Read Committed Isolation",
+      "path": "Read Committed Isolation.md"
+    },
+    {
+      "basename": "Service Token",
+      "path": "Service Token.md"
+    },
+    {
+      "basename": "System Design in a Hurry",
+      "path": "System Design in a Hurry.md"
+    },
+    {
+      "basename": "Strong Consistency",
+      "path": "Strong Consistency.md"
+    },
+    {
+      "basename": "Cache Write Strategy",
+      "path": "Cache Write Strategy.md"
+    },
+    {
+      "basename": "Cache Read Strategy",
+      "path": "Cache Read Strategy.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
+      "basename": "Write-Around Cache",
+      "path": "Write-Around Cache.md"
+    },
+    {
+      "basename": "Cache-Aside",
+      "path": "Cache-Aside.md"
+    },
+    {
+      "basename": "Refresh-Ahead",
+      "path": "Refresh-Ahead.md"
+    },
+    {
+      "basename": "Cache Eviction Strategy",
+      "path": "Cache Eviction Strategy.md"
+    },
+    {
+      "basename": "Transactional Outbox Pattern",
+      "path": "Transactional Outbox Pattern.md"
     },
     {
       "basename": "Agent Harness",
       "path": "Agent Harness.md"
     },
     {
-      "basename": "OpenAI Agents SDK",
-      "path": "OpenAI Agents SDK.md"
+      "basename": "Strangler Pattern",
+      "path": "Strangler Pattern.md"
     },
     {
-      "basename": "Agent",
-      "path": "Agent.md"
+      "basename": "High-Z",
+      "path": "High-Z.md"
     },
     {
-      "basename": "Multi-Tenancy",
-      "path": "Multi-Tenancy.md"
+      "basename": "Military Decision-Making Process",
+      "path": "Military Decision-Making Process.md"
     },
     {
-      "basename": "Vite",
-      "path": "Vite.md"
+      "basename": "Unmanned Aerial System",
+      "path": "Unmanned Aerial System.md"
     },
     {
-      "basename": "Electronic Warfare",
-      "path": "Electronic Warfare.md"
+      "basename": "Combat Training Center",
+      "path": "Combat Training Center.md"
     },
     {
-      "basename": "Vogtle Electric Generating Plant",
-      "path": "Vogtle Electric Generating Plant.md"
+      "basename": "Joint Readiness Training Center",
+      "path": "Joint Readiness Training Center.md"
     },
     {
-      "basename": "Automatic Prompt Optimizer",
-      "path": "Automatic Prompt Optimizer.md"
+      "basename": "High-Payoff Target List",
+      "path": "High-Payoff Target List.md"
     },
     {
-      "basename": "Multi-Agent System",
-      "path": "Multi-Agent System.md"
+      "basename": "Forward Logistics Element",
+      "path": "Forward Logistics Element.md"
     },
     {
-      "basename": "Context Engineering",
-      "path": "Context Engineering.md"
+      "basename": "Heavy Expanded Mobility Tactical Truck",
+      "path": "Heavy Expanded Mobility Tactical Truck.md"
     },
     {
-      "basename": "Agentic RAG",
-      "path": "Agentic RAG.md"
+      "basename": "Future Operations",
+      "path": "Future Operations.md"
     },
     {
-      "basename": "Service Account",
-      "path": "Service Account.md"
+      "basename": "Current Operations",
+      "path": "Current Operations.md"
     },
     {
-      "basename": "Area of Responsibility",
-      "path": "Area of Responsibility.md"
+      "basename": "auth",
+      "path": "auth.md"
     },
     {
-      "basename": "Agent Evaluation",
-      "path": "Agent Evaluation.md"
-    },
-    {
-      "basename": "FastAPI",
-      "path": "FastAPI.md"
-    },
-    {
-      "basename": "Joint Task Force",
-      "path": "Joint Task Force.md"
-    },
-    {
-      "basename": "Task Force",
-      "path": "Task Force.md"
-    },
-    {
-      "basename": "Google Workflows",
-      "path": "Google Workflows.md"
-    },
-    {
-      "basename": "Web Server",
-      "path": "Web Server.md"
-    },
-    {
-      "basename": "Synthetic Aperture Radar",
-      "path": "Synthetic Aperture Radar.md"
-    },
-    {
-      "basename": "Real-Time Communication",
-      "path": "Real-Time Communication.md"
-    },
-    {
-      "basename": "Synchronous",
-      "path": "Synchronous.md"
-    },
-    {
-      "basename": "Asynchronous Sever Gateway Interface",
-      "path": "Asynchronous Sever Gateway Interface.md"
-    },
-    {
-      "basename": "Web Server Gateway Interface",
-      "path": "Web Server Gateway Interface.md"
-    },
-    {
-      "basename": "Socket.IO",
-      "path": "Socket.IO.md"
-    },
-    {
-      "basename": "Replit",
-      "path": "Replit.md"
-    },
-    {
-      "basename": "WorkOS",
-      "path": "WorkOS.md"
-    },
-    {
-      "basename": "Flask",
-      "path": "Flask.md"
-    },
-    {
-      "basename": "Group 2 UAS",
-      "path": "Group 2 UAS.md"
-    },
-    {
-      "basename": "IEEE Radar Band",
-      "path": "IEEE Radar Band.md"
-    },
-    {
-      "basename": "PALSAR",
-      "path": "PALSAR.md"
-    },
-    {
-      "basename": "L-Band",
-      "path": "L-Band.md"
-    },
-    {
-      "basename": "Signals and Spectrums (Index)",
-      "path": "Signals and Spectrums (Index).md"
-    },
-    {
-      "basename": "Geospatial (Index)",
-      "path": "Geospatial (Index).md"
-    },
-    {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
-    },
-    {
-      "basename": "Cryptography and Security (Index)",
-      "path": "Cryptography and Security (Index).md"
-    },
-    {
-      "basename": "Satellite (Index)",
-      "path": "Satellite (Index).md"
-    },
-    {
-      "basename": "Electronics (Index)",
-      "path": "Electronics (Index).md"
+      "basename": "Combat Sustainment Support Battalion",
+      "path": "Combat Sustainment Support Battalion.md"
     },
     {
       "basename": "Logistics (Index)",
       "path": "Logistics (Index).md"
     },
     {
-      "basename": "Quorum",
-      "path": "Quorum.md"
+      "basename": "High Value Target",
+      "path": "High Value Target.md"
     },
     {
-      "basename": "Cache Stampede",
-      "path": "Cache Stampede.md"
+      "basename": "Joint Terminal Attack Controller",
+      "path": "Joint Terminal Attack Controller.md"
     },
     {
-      "basename": "Disaster Recovery",
-      "path": "Disaster Recovery.md"
+      "basename": "Fire Support Officer",
+      "path": "Fire Support Officer.md"
     },
     {
-      "basename": "Pagination",
-      "path": "Pagination.md"
+      "basename": "Atomicity",
+      "path": "Atomicity.md"
     },
     {
-      "basename": "Security Assertion Markdown Language",
-      "path": "Security Assertion Markdown Language.md"
+      "basename": "Forward Observer",
+      "path": "Forward Observer.md"
     },
     {
-      "basename": "TLS Termination",
-      "path": "TLS Termination.md"
+      "basename": "Fire Support",
+      "path": "Fire Support.md"
     },
     {
-      "basename": "Distributed Consensus",
-      "path": "Distributed Consensus.md"
+      "basename": "Fire Support Team",
+      "path": "Fire Support Team.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
+      "basename": "Intelligence Preparation of the Operational Environment",
+      "path": "Intelligence Preparation of the Operational Environment.md"
     },
     {
-      "basename": "GeoRouting",
-      "path": "GeoRouting.md"
+      "basename": "Target Selection Standards",
+      "path": "Target Selection Standards.md"
     },
     {
-      "basename": "Geospatial Index",
-      "path": "Geospatial Index.md"
+      "basename": "Position Area for Artillery",
+      "path": "Position Area for Artillery.md"
+    },
+    {
+      "basename": "Large-Scale, Long-Range Air Assault",
+      "path": "Large-Scale, Long-Range Air Assault.md"
+    },
+    {
+      "basename": "Attack Guidance Matrix",
+      "path": "Attack Guidance Matrix.md"
+    },
+    {
+      "basename": "Light Medium Tactical Vehicle",
+      "path": "Light Medium Tactical Vehicle.md"
+    },
+    {
+      "basename": "HIPPO",
+      "path": "HIPPO.md"
+    },
+    {
+      "basename": "Future Plans",
+      "path": "Future Plans.md"
     }
   ],
   "omittedPaths": [],

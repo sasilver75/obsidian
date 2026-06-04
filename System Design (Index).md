@@ -45,11 +45,15 @@ Terms
 - [[Replication|Read Replica]]: A replicated database copy used to serve reads without adding load to the primary writer. Use it for read scaling, but avoid it for reads that must immediately observe recent writes unless lag is handled.
 - [[Write-Ahead Log]] (WAL): An append-only log written before data pages change so committed writes can be recovered after failures. It matters for durability, replication, point-in-time recovery, and understanding database write behavior.
 - [[Cache]]: A faster storage layer that keeps frequently or recently used data close to where it is needed. Use it when repeated reads are expensive, but define freshness and invalidation rules before relying on it.
+- [[Refresh-Ahead]]: Cache refreshes an entry in the background before it expires, usually when the key is hot or nearing its TTL. The goal is to avoid cache misses and keep frequently-read data fresh without making a user request wait for reload.
+- [[Stale-While-Revalidate]]: The cache is allowed to return stale data shortly after expiry while it refreshes the entry in the background. "Don't make the user wait just because the cached value is technically expired."
+- [[Cache Read Strategy|Cache Read Strategies]]: Ways for reading data from a cache (see below)
 - [[Cache-Aside]]: A caching pattern where application code reads from cache first, loads from the source on miss, and writes the value back to cache. Use it when the application can tolerate cache misses and explicitly manage cache population.
 - [[Read-Through Cache]]: A caching pattern where the cache itself loads missing data from the backing store. Use it when you want callers to treat the cache as the read interface, but ensure miss behavior and failures are visible.
 - [[Cache Write Strategy]]: A policy that defines how writes update or bypass cache and backing storage. Pick the strategy based on the required balance among latency, durability, freshness, and operational simplicity.
 - [[Write-Through Cache]]: A caching strategy where writes update the cache and backing store synchronously. Use it when read freshness matters and extra write latency is acceptable.
 - [[Write-Back Cache|Write-Back]]: A caching strategy where writes update cache first and are flushed to backing storage later. Use it to reduce write latency, but only when data loss or delayed persistence is acceptable or mitigated.
+- [[Write-Around Cache]]: A cache write strategy where writes bypass the cache and go directly to backing storage to avoid filling cache with cold data.
 - [[Cache Invalidation Strategy|Cache Invalidation]]: The process of removing or refreshing cached data when it may no longer be correct. Treat it as a core design problem because stale cache behavior often defines correctness.
 - [[Cache Eviction Strategy|Cache Eviction]]: The policy used to decide which cached items to remove when capacity is limited. Choose it based on access patterns, object size, and the cost of cache misses.
 - [[Time to Live]] (TTL): A duration after which data, cache entries, tokens, or messages expire automatically. Use TTLs to bound staleness and cleanup work, but avoid relying on them for precise correctness.
@@ -62,7 +66,7 @@ Terms
 - [[Dead Letter Queue]]: A queue that stores messages that could not be processed successfully after retries. Use it to keep bad messages from blocking progress while preserving them for inspection and repair.
 - [[Retry]]: Repeating a failed operation in hopes that a transient error has cleared. Use it only for failures that are likely transient, and pair it with idempotency and backoff.
 - [[Backoff]]: A retry strategy that increases delay between attempts to reduce load and improve recovery odds. Use jitter with backoff so many clients do not retry in synchronized waves.
-- [[Outbox Pattern]]: A pattern that records outbound events in the same transaction as state changes so they can be published reliably later. Use it when a service must update its database and emit an event without losing one side of the change.
+- [[Transactional Outbox Pattern]]: A pattern that records outbound events in the same transaction as state changes so they can be published reliably later. Use it when a service must update its database and emit an event without losing one side of the change.
 - [[Change Data Capture]] (CDC): Capturing database changes from logs or tables so downstream systems can react or replicate data. Use it when downstream systems need reliable updates without every writer manually publishing events.
 - [[Consistency]]: The degree to which reads observe the latest or expected state across replicas, transactions, or distributed components. Define the exact consistency needed per workflow instead of treating stronger consistency as universally better.
 - [[Strong Consistency]]: A guarantee that reads reflect the latest successful write according to the system's ordering rules. Use it when stale reads would violate correctness, money movement, permissions, or user trust.
@@ -101,8 +105,8 @@ Terms
 - [[Optimistic Concurrency Control]] (OCC): A concurrency strategy that allows work to proceed and checks for conflicts before commit. Use it when conflicts are rare and retrying failed writes is acceptable.
 - [[Pessimistic Concurrency Control]] (PCC): A concurrency strategy that prevents conflicts by locking data before operations proceed. Use it when conflicts are common or retries would be expensive or dangerous.
 - [[Two-Phase Locking]] (2PL): A locking protocol where transactions acquire locks before releasing any, then release them without acquiring new ones. It matters when strict serializability is needed but lock contention and deadlocks must be managed.
-- [[Linearizability]]: A consistency guarantee where each operation appears to occur atomically at one instant between invocation and response. Use it for single-object operations where clients need an immediately current result.
-- [[Serializability]]: An isolation guarantee where concurrent transactions produce the same result as some serial order. Use it when transaction correctness matters more than maximum concurrency.
+- [[Strong Consistency|Linearizability]]: A consistency guarantee where each operation appears to occur atomically at one instant between invocation and response. Use it for single-object operations where clients need an immediately current result.
+- [[Serializable Isolation]]: An isolation guarantee where concurrent transactions produce the same result as some serial order. Use it when transaction correctness matters more than maximum concurrency.
 - [[Read-your-Writes Consistency]]: A guarantee that a client can read its own previously successful writes. Use it for user-facing workflows where saving something and not seeing it immediately would feel broken.
 - [[Causal Consistency]]: A guarantee that causally related operations are observed in causal order. Use it in collaborative or replicated systems where users should not see effects before their causes.
 - [[Consistent Hashing]]: A partitioning technique that maps keys and nodes onto a ring to reduce remapping when nodes change. Use it for caches and distributed stores where nodes are added or removed often.
@@ -170,7 +174,6 @@ Terms
 - [[Count-Min Sketch]]: A probabilistic frequency structure that estimates item counts with small memory and bounded overestimation.
 - [[HyperLogLog]]: A probabilistic cardinality structure that estimates distinct counts with small, fixed memory.
 - [[Inverted File Index]]: An index that maps terms or values to the documents or records that contain them.
-- [[Write-Around Cache]]: A cache write strategy where writes bypass the cache and go directly to backing storage to avoid filling cache with cold data.
 - [[Event]]: An immutable record that something meaningful happened in the system or business domain.
 - [[Stream Processing]]: Continuous processing of ordered or semi-ordered event streams as data arrives.
 - [[Complex Event Processing]]: Detecting higher-level patterns by correlating multiple events across time windows, rules, or sequences.
@@ -252,7 +255,7 @@ Terms
 - [[Schema Evolution]]: Changing data, message, or API schemas over time while preserving compatibility for existing readers and writers.
 - [[Online Schema Migration]]: A database schema change performed while the application remains available.
 - [[Backfill]]: A batch process that fills, repairs, or recomputes historical data after a schema, model, or pipeline change.
-- [[Dual Writes]]: Writing the same logical change to two systems, often creating consistency and rollback risks.
+- [[Dual Write Problem]]: Writing the same logical change to two systems, often creating consistency and rollback risks.
 - [[Tombstone]]: A marker indicating that a record or key was deleted without immediately removing every trace of it.
 - [[Compaction]]: Rewriting logs, files, or storage segments to remove obsolete versions, deleted records, or redundant data.
 - [[Data Retention]]: A policy that defines how long data is stored before archival or deletion.

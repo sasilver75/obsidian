@@ -105,7 +105,7 @@ Trend: "==Just use Postgres==" is the dominant default because of `pgvector`, `J
 	- [[Amazon SNS|AWS SNS]]/[[Amazon SQS|AWS SQS]]/[[Amazon EventBridge|AWS EventBridge]], Azure Service Bus
 - Patterns: 
 	- [[At Least Once]] vs [[Exactly Once]]
-	- [[Outbox Pattern]]
+	- [[Transactional Outbox Pattern]]
 	- [[Idempotency]]
 	- [[Dead Letter Queue]] (DLQ)
 	- [[Backpressure]]
@@ -197,7 +197,7 @@ Concepts to know:
 - [[Continuous Integration|CI]]: [[GitHub Actions]] is the default
 - CD: [[ArgoCD]]/[[Flux]] ([[GitOps]] for K8s), Spinnaker, platform-built-ins (eg Vercel, Fly)
 - Release Patterns: 
-	- [[Blue/Green Deployment]]
+	- [[Blue-Green Deployment]]
 	- [[Canary Deployment]]
 	- [[Feature Flag]]s
 		- [[LaunchDarkly]] leads for enterprise, Statsig, Posthog also seen
@@ -212,11 +212,11 @@ Concepts to know:
 - [[Command Query Responsibility Segregation]] (CQRS): Separating the read and write models that are used.
 - [[Event Sourcing]]: Store events, not state; often paired with [[Command Query Responsibility Segregation|CQRS]]
 - [[Saga]] Pattern: Distributed transactions via compensating actions ([[Durable Execution Engine]]s like [[Temporal]] productize this, essentially).
-- [[Outbox Pattern]]: Atomically write to DB + Queue
+- [[Transactional Outbox Pattern]]: Atomically write to DB + Queue
 - [[Idempotency]]: Must-know, especially for HTTP APIs and message handlers.
 - [[Backpressure]]: Slowing producers when consumers can't keep up.
 - [[Bulkhead]]s and [[Circuit Breaker]]s (tools like Hystrix -> Resilience4j): Failure isolation.
-- [[CAP Theorem]], [[PACELC]], [[Consistency]] models ([[Linearizability]], Sequential, Causal, Eventual)
+- [[CAP Theorem]], [[PACELC]], [[Consistency]] models ([[Strong Consistency|Linearizability]], Sequential, Causal, Eventual)
 - [[Two-Phase Commit]] (2PC): For [[Distributed Transaction]]s, usually avoided
 - [[Distributed Consensus|Consensus]] algorithms; [[Raft]], [[Paxos]], [[Zab]]
 - [[Conflict-Free Replicated Data Types]] (CRDTs) for collaborative/offline-first applications.
@@ -280,7 +280,7 @@ Concepts to know:
 
 1. Learn [[PostgreSQL|Postgres]] deeply ([[Multiversion Concurrency Control|MVCC]], indexes like [[B-Tree]], [[GIN Index]], [[BRIN Index]], query planning, connection pooling, replication, [[Isolation]] levels)
 2. Caching patterns: [[Cache-Aside]], etc., [[Cache Stampede]] avoidance, [[Cache Invalidation Strategy|Invalidation]] strategies.
-3. Queues and Durable Execution: [[Outbox Pattern|Outbox]], [[Idempotency]], [[Exactly Once]] effects, [[Saga]]s
+3. Queues and Durable Execution: [[Transactional Outbox Pattern|Outbox]], [[Idempotency]], [[Exactly Once]] effects, [[Saga]]s
 4. Distributed systems primitives: [[CAP Theorem]], [[PACELC]], [[Distributed Consensus|Consensus]], [[Consistency]] models, [[Replication]] patterns, [[Partition|Partitioning]] ([[Consistent Hashing]], range, hash)
 5. Observability: [[RED Method]], [[USE Method]], [[OpenTelemetry Protocol|OpenTelemetry]], what to alert on.
 6. Auth: [[OAuth]] 2.1 + [[OpenID Connect|OIDC]] flows, Session vs Token, Authz models ([[Role-Based Access Control]] RBAC vs [[Relationship-Based Access Control]] ReBAC)

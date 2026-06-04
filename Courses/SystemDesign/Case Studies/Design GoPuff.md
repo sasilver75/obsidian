@@ -174,7 +174,7 @@ The idea of ensureing that we're not **double booking** is a common one in syste
 				- We might deadlock if both User1 and User2 are trying to buy A and B, but User1 has the lock for A and User2 has the lock for B -- neither can proceed!
 - ==**GREAT** Solution: Singular Postgres transaction==
 	- By putting both orders and inventory in the same database, we can take advantage of the [[ACID]] properties of our [[PostgreSQL|Postgres]] database.
-	- Using a singular transaction with [[Serializability|Serializable]] isolation level, we can ensure that the entire transaction is atomic.
+	- Using a singular transaction with [[Serializable Isolation|Serializable]] isolation level, we can ensure that the entire transaction is atomic.
 	- This means that if two users try to buy the same item at the same time, one of them will be rejected.
 	- This is because the transaction will fail to commit if the inventory is not available!
 	- ![[Pasted image 20250525111223.png|500]]
