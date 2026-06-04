@@ -151,8 +151,60 @@ This framing clarified many tradeoffs; we favored dependencies and abstractions 
 Technologies often described as "boring" tend to be easier for agents to model, due to composability, api stability, and representation in the training set.
 
 
+_____________
+
+[OpenAI Build Hour: Agents SDK](https://youtu.be/tK32trvj_b4)
 
 
+Talking about the notion of a ==model-native harness==, since models are now being trained in their proprietary/in-house harnesses during post-training (model and harness are basically merging into one system). He talks about how it ships with tools, affordances, etc. that are "in-distribution" to the model, and how that might give better performance.
+![[Pasted image 20260603185024.png]]
+Left side is supposed to show how agent development looked in 2025, where you'd have to build all of:
+- The Agent Loop: receiving requests from uesrs, routing ot model, calling tools, updating context, generating respones
+- The Tool Integration Code: integration code, file search, web search, mcps, code interpreters, skills
+- The Components: message handling, context management
+
+And the idea is that [[OpenAI Agents SDK]] is supposed to solve many of these problems for you.
+- "Instead of spending most of your time building the orchestration layer, you should spend more time building out your product to make it better for end users, and not really think about the orchestration."
+- You get all of these tools out-of-the box, and hav added in some [[Sandbox]] functionality too.
+
+
+
+If you imagine a world where the harness is tied to compute (codex running on laptop):
+- You have a container where the agent is both running (loop calling LLM api, in addition to working on same filesystem is together)
+- Your sandboxes become load-bearing, and if one dies or goes away, all that state is gone, and you don't have an external place you can refresh from. You have to do interesting gymnastics to manage your secrets; You don't want to have any secrets in our [[Sandbox]] or you'll be vulnerable to [[Prompt Injection]]/exfiltration.
+
+If you split compute/harness, you can treat the sandbox as a totally ephemeral thing.. and the harness, which is maybe running in a [[Temporal]] job, or on AWS, which can handle the rehydration, snapshotting, all this sort of stuff.
+![[Pasted image 20260603185408.png]]
+Above:
+- On the left, that harness runs inside the same sandbox where code execution happens. Teh sandbox also has the filesystem, and because the sandbox is untrusted, you cna't put serets or direct internal API access there, so you need a separate gateway service to hold secrets and intercept outbound calls.
+	- If the sandbox is compromised/killed, your agent loop is affected too.
+- On the right, the harness runs in a trusted service environment, outside the sandbox. The sandbox is reduce to what it *should* be: Just a place to run shell commands, inspect files, grep, build, test, and write code.
+	- So the agent loop stays with the server, secrets, model calls, MCP/tool access, and durable orchestration, while the sandbox only receives bounded compute/file operations.
+	- The sandbox has a more narrow job: execute commands and expose a filesystem. The harness has the broader job: reasoning, policy, tool routing, persistence, retries, approvals, and access to trusted services.
+
+
+![[Pasted image 20260603190343.png]]
+- Comes fully packed with ton of features like web search, file search, agent memory, text, and some other modalities (TTS, STT).
+- Networked containers is a new thing in the API/SDK....
+- We've also added agent memory so your tasks can improve over time and get better as they go.
+- Autocompaction, computer use through the shell, async shell interaction loop similar to Codex...  
+- Sandboxes are crucial: Modern work means working over many files (e.g. a large codebase, a lot of PDFs, creating powerpoints), and agents need access to those files and a place to create/store them. Sandboxes are an isolated environment where an agent has access to some files and can do stuff and produce meaningful output.
+- The Agents SDK is open source an customizable; any model, even not OpenAI ones, that uses the OpenAI Responses format will work
+
+
+![[Pasted image 20260603190808.png]]
+
+
+
+![[Pasted image 20260603190813.png]]
+More security control over containers
+
+
+![[Pasted image 20260603190824.png]]
+If you're used Skills in the past, common problem: You  a central source of truth for the skills, whether that's Github or a Bucket or now we have a Skills API where you can upload your skills.
+-  A skill is a bundle of files, a SKILL.md file, but also scripts, etc that a model can use to do a specific task.
+	- A task prep skill might define all the things I might need to know to do someone's taxes in 2025. 
+	- With the Skills API, you can upload that, iterate on it over time and create versions, set a default version, reference those versions with a hosted shell, and all of that works pretty seamlessly.
 
 
 

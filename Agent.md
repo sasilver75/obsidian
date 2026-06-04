@@ -11,6 +11,9 @@ Key properties:
 - ==Iteration==: Looping through observe -> reason -> act loops until the goal is complete.
 
 
+![[Pasted image 20260603173446.png]]
+Can be improved along all of these dimensions!
+
 
 
 ![[Pasted image 20260426195523.png]]

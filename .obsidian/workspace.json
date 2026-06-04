@@ -4,59 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b538324423be7b97",
+        "id": "1c7a5a5c006019a7",
         "type": "tabs",
         "children": [
           {
-            "id": "9efc00ad974aa2a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FastAPI.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FastAPI"
-            }
-          },
-          {
-            "id": "1fcebcb79f7e539b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agent Evaluation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Agent Evaluation"
-            }
-          },
-          {
-            "id": "e45cf12f502a16ab",
+            "id": "d4209ceafb520d03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,12 +32,12 @@
             }
           },
           {
-            "id": "9cf1dd0795179181",
+            "id": "d5b16e1246a106df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agentic RAG.md",
+                "file": "auth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,103 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agentic RAG"
-            }
-          },
-          {
-            "id": "922ba9d42d2d6f0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Context Engineering.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Context Engineering"
-            }
-          },
-          {
-            "id": "bafc874cb033f8df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Context Engineering.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Context Engineering"
-            }
-          },
-          {
-            "id": "b18240a55453e6a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-Agent System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Multi-Agent System"
-            }
-          },
-          {
-            "id": "6b10effff4e94453",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automatic Prompt Optimizer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Automatic Prompt Optimizer"
+              "title": "auth"
             }
           }
         ],
@@ -2150,26 +2006,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1fcebcb79f7e539b",
+  "active": "d5b16e1246a106df",
   "lastOpenFiles": [
+    "auth.md",
+    "Agent Harness.md",
+    "_attachments/Pasted image 20260603190824.png",
+    "_attachments/Pasted image 20260603190813.png",
+    "_attachments/Pasted image 20260603190808.png",
+    "OpenAI Agents SDK.md",
+    "Agent.md",
+    "Multi-Tenancy.md",
+    "_attachments/Pasted image 20260603190343.png",
+    "_attachments/Pasted image 20260603185408.png",
+    "_attachments/Pasted image 20260603185024.png",
+    "Vite.md",
+    "Electronic Warfare.md",
+    "Vogtle Electric Generating Plant.md",
+    "Automatic Prompt Optimizer.md",
+    "Multi-Agent System.md",
+    "Context Engineering.md",
+    "Agentic RAG.md",
+    "Service Account.md",
+    "Area of Responsibility.md",
+    "Agent Evaluation.md",
+    "FastAPI.md",
+    "Joint Task Force.md",
+    "Task Force.md",
+    "_attachments/Pasted image 20260603173446.png",
+    "_attachments/Pasted image 20260603161024.png",
     "_attachments/Pasted image 20260603160451.png",
     "_attachments/Pasted image 20260603160231.png",
-    "_attachments/Pasted image 20260603160114.png",
-    "_attachments/Pasted image 20260603155942.png",
-    "_attachments/Pasted image 20260603155941.png",
-    "_attachments/Pasted image 20260603155151.png",
-    "_attachments/Pasted image 20260603153924.png",
-    "Agent Harness.md",
-    "Agent Evaluation.md",
-    "Agentic RAG.md",
-    "Context Engineering.md",
-    "_attachments/Pasted image 20260603152239.png",
-    "_attachments/Pasted image 20260603152204.png",
-    "Multi-Agent System.md",
-    "Automatic Prompt Optimizer.md",
-    "_attachments/Pasted image 20260603151831.png",
-    "_attachments/Pasted image 20260603151651.png",
-    "FastAPI.md",
     "Google Workflows.md",
     "Web Server.md",
     "Synthetic Aperture Radar.md",
@@ -2178,16 +2044,6 @@
     "Asynchronous Sever Gateway Interface.md",
     "Web Server Gateway Interface.md",
     "Socket.IO.md",
-    "Replit.md",
-    "WorkOS.md",
-    "Flask.md",
-    "Group 2 UAS.md",
-    "IEEE Radar Band.md",
-    "PALSAR.md",
-    "L-Band.md",
-    "Signals and Spectrums (Index).md",
-    "Geospatial (Index).md",
-    "Networking (Index).md",
     "flashcards/networking-index-anki.tsv",
     "flashcards/logistics-index-anki.tsv",
     "flashcards/electronics-index-anki.tsv",

@@ -1,32 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Agent Evaluation",
-      "path": "Agent Evaluation.md"
+      "basename": "auth",
+      "path": "auth.md"
     },
     {
       "basename": "Agent Harness",
       "path": "Agent Harness.md"
     },
     {
-      "basename": "Agentic RAG",
-      "path": "Agentic RAG.md"
+      "basename": "OpenAI Agents SDK",
+      "path": "OpenAI Agents SDK.md"
     },
     {
-      "basename": "Context Engineering",
-      "path": "Context Engineering.md"
+      "basename": "Agent",
+      "path": "Agent.md"
     },
     {
-      "basename": "Multi-Agent System",
-      "path": "Multi-Agent System.md"
+      "basename": "Multi-Tenancy",
+      "path": "Multi-Tenancy.md"
+    },
+    {
+      "basename": "Vite",
+      "path": "Vite.md"
+    },
+    {
+      "basename": "Electronic Warfare",
+      "path": "Electronic Warfare.md"
+    },
+    {
+      "basename": "Vogtle Electric Generating Plant",
+      "path": "Vogtle Electric Generating Plant.md"
     },
     {
       "basename": "Automatic Prompt Optimizer",
       "path": "Automatic Prompt Optimizer.md"
     },
     {
+      "basename": "Multi-Agent System",
+      "path": "Multi-Agent System.md"
+    },
+    {
+      "basename": "Context Engineering",
+      "path": "Context Engineering.md"
+    },
+    {
+      "basename": "Agentic RAG",
+      "path": "Agentic RAG.md"
+    },
+    {
+      "basename": "Service Account",
+      "path": "Service Account.md"
+    },
+    {
+      "basename": "Area of Responsibility",
+      "path": "Area of Responsibility.md"
+    },
+    {
+      "basename": "Agent Evaluation",
+      "path": "Agent Evaluation.md"
+    },
+    {
       "basename": "FastAPI",
       "path": "FastAPI.md"
+    },
+    {
+      "basename": "Joint Task Force",
+      "path": "Joint Task Force.md"
+    },
+    {
+      "basename": "Task Force",
+      "path": "Task Force.md"
     },
     {
       "basename": "Google Workflows",
@@ -129,10 +173,6 @@
       "path": "Disaster Recovery.md"
     },
     {
-      "basename": "Multi-Tenancy",
-      "path": "Multi-Tenancy.md"
-    },
-    {
       "basename": "Pagination",
       "path": "Pagination.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "Geospatial Index",
       "path": "Geospatial Index.md"
-    },
-    {
-      "basename": "Security Information and Event Management",
-      "path": "Security Information and Event Management.md"
-    },
-    {
-      "basename": "SSL Termination",
-      "path": "SSL Termination.md"
-    },
-    {
-      "basename": "Nuclear (Index)",
-      "path": "Nuclear (Index).md"
-    },
-    {
-      "basename": "Reality Capture (Index)",
-      "path": "Reality Capture (Index).md"
-    },
-    {
-      "basename": "Logistics Synchronization Matrix",
-      "path": "Logistics Synchronization Matrix.md"
-    },
-    {
-      "basename": "Smack Technologies",
-      "path": "Smack Technologies.md"
-    },
-    {
-      "basename": "Diode",
-      "path": "Diode.md"
-    },
-    {
-      "basename": "Electromagnetism",
-      "path": "Electromagnetism.md"
-    },
-    {
-      "basename": "Radar",
-      "path": "Radar.md"
-    },
-    {
-      "basename": "Electrolysis",
-      "path": "Electrolysis.md"
     }
   ],
   "omittedPaths": [],

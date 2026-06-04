@@ -209,6 +209,64 @@ We usually compute performance metrics by aggregating across both tasks and tria
 ![[Pasted image 20260603160451.png]]
 
 
+# Broader Categories of Evaluation
+- For real production systems there are several additional sources of evaluation that we can use:
+	- Manual inspection (or vibe checks)
+	- Production monitoring of reported errors and key usage metrics or outcomes.
+	- [[A/B Testing]] (i.e. splitting traffic among variants and comparing production monitoring metrics)
+	- Explicit user feedback (e.g. thumbs up, thumbs down feedback, written comments, or even formally organized user studies)
+- Each of these techniques have pros and cons. Automatic evaluations require lots of up-front investment to build the evaluation suite, but capture open-ended aspects of model behavior and can be efficiently executed whenever needed. In contrast, production monitoring or A/B testing can measure real user behavior, but are reactive, slow, and noisy. The best approach is to combine all of these techniques.
+![[Pasted image 20260603161024.png]]
+A "swiss cheese" approach where you label all of these , which try to make up for eachothers' failings.
+
+
+# A Roadmap for Agent Evaluation
+A simple step-by-step summary for how one could approach curating an evaluation suite or benchmark for their own agent:
+1. Define Success
+2. Collect a small Task Set
+3. (Create Useful Tasks)
+4. Provide Ground Truth and References
+5. Configure Graders
+6. Build the Evaluation Harness
+7. Inspect, Iterate, and Maintain the Benchmark
+
+### 1) Define Success
+- What does it mean for the agent to succeed? This criteria should be detailed and clear, and can be written by researchers or domain experts.
+	- ==Outcome Goals== that verify aspects of the outcome (e.g. were expected DB entries made)
+	- ==Process Goals== that verify components of the the transcript (e.g. whether certain tools were called)
+- Many recent agent benchmarks are heavily outcome-oriented, as outcome goals provide reliable and objective mechanisms for assessing success.
+
+### 2) Collect a small task set
+- Instead of curating *a lot of data* up front, start with a small number of manually curated tasks for the agent, such as 10-20 initial tasks, considering realistic use cases.
+- This initial set is enough to detect obvious issues with the agent; we can perform basic human evaluations and vibe checks.
+- As we use the agent and find new failure cases, we should record these issues and add them to *new tasks* in our evaluation suite! We should continue collecting new, usually more difficult, tasks that challenge the agent and capture prominent failure modes.
+
+### 3) Create useful tasks
+- Tasks should be clear enough that repeated evaluations yield consistent results. Ambiguous or noisy tasks complicate the evaluation process with unstable and misleading results that can obfuscate the actual performance of an agent.
+
+### 4) Provide ground truth and references
+- When possible, each task should include a reference solution or known-good trajectory that proves the task is solvable and verifies that the grader is checking the right behavior.
+- This mirrors the design pattern used in benchmarks like [[Terminal Bench]], where tasks are paired with deterministic tests and oracle solutions.
+- These are useful for debugging behavior and monitoring task quality/correctness.
+
+### 5) Configure graders
+- When creating graders for our tasks, we should begin with simple graders, such as code-based deterministic checks. These graders are simple and easy to debug.
+- For more subjective criteria (did a solution follow a qualitative rubric?) we need to use either model-based graders or human review.
+	- The human evaluation process should be calibrated, and we should monitor [[Inter-Annotator Agreement]] between LLM judges and human experts.
+
+### 6) Build the evaluation harness
+- Once we've created several tasks, we need to be able to execute the evaluation efficiently and repeatably. To do this, we must create an evaluation harness that:
+	- Runs the agent in a realistic but controlled setup
+	- Collects the transcript, including tool calls and intermediate outputs.
+	- Captures the final output.
+The agent should ideally use the same scaffold, tools, and environment that is used in production during the evaluation process.
+
+### 7) Inspect, iterate, and maintain the benchmark
+- Agent evaluations can become saturated quickly, so we should treat evaluation suites as living artifacts that continually improve in difficulty, diversity, and reliability.
+- As the agent is used in the real world, we should observe its failures and continue adding new tasks to the evaluation suite. 
+
+
+
 
 
 
