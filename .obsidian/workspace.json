@@ -2074,12 +2074,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "adf6e7d97d4a0d67",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 179
+        "currentTab": 180
       },
       {
         "id": "8a022290161ffefa",
@@ -2141,7 +2151,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "74db906be30abce0",
+  "active": "adf6e7d97d4a0d67",
   "lastOpenFiles": [
     "System Design (Index).md",
     "High-Priority-System-Design.md",

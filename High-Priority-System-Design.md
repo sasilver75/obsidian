@@ -57,7 +57,7 @@ Comparison with [[Session|User Session]]s stored in DB
 High-level on [[OAuth]], [[OpenID Connect|OIDC]] and how they're actually implemented in a SD
 [[Blob Storage|Object Storage]] specifics, how to use, etc.
 [[Amazon SNS|SNS]] and [[Amazon SQS|SQS]] use together (SNS providing pub-sub fanout, while SQS providing durable queue-based message buffering)
-[[Kafka]]
+[[Kafka]] Topics
 [[Kafka Connect]]
 Actual event processing, what it looks like (e.g. [[Dead Letter Queue]]s, processing one at a time or batch-wise, broker bookkeeping)
 [[Materialized View]]
