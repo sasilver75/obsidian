@@ -20,7 +20,9 @@ Read Anomalies:
 - [[Non-Repeatable Read]]
 - [[Phantom Read]]
 - [[Write Skew]]
-How can Postgres be used as a Queue? See [[Transactional Outbox Pattern|Outbox Pattern]], for instance.
+How can Postgres be used as a Queue? 
+[[Conflict Resolution]]
+[[Distributed Transaction]]s, See [[Transactional Outbox Pattern|Outbox Pattern]], for instance.
 [[Change Data Capture]] (CDC) (vs Outbox)
 [[Distributed Transaction]]s generally
 [[Cache]] stuff
@@ -32,7 +34,7 @@ How can Postgres be used as a Queue? See [[Transactional Outbox Pattern|Outbox P
 - [[Stale-While-Revalidate]]
 - [[Time to Live]]
 - [[Cache Stampede]]
-- [[Redis]] datatypes, use cases, etc.
+- [[Redis]] datatypes, use cases, key naming conventions, etc.
 - [[In-Process Cache]]
 - [[Client-Side Cache]]
 [[TCP Termination]], [[TLS Termination]], when do they happen, and why? 
@@ -41,21 +43,21 @@ How can Postgres be used as a Queue? See [[Transactional Outbox Pattern|Outbox P
 [[Load Balancing|Load Balancer]]s
 [[Webhook]]s
 Realities of running [[WebSockets]] and [[Server-Sent Event|SSE]]s operationally (stateful -> failover, etc)
-[[Pagination]] (Cursor vs Offset, pretty much Cursor)
+[[Pagination]] ([[Pagination|Cursor-Based Pagination]] vs [[Pagination|Offset-Based Pagination]])
 Brief review of [[B-Tree]], [[Clustered Index]], [[Composite Index]]es
-[[Geospatial Index]]es (just one is fine)
-Quick review of [[Write-Ahead Log]]
+[[Geospatial Index]]es (just [[R-Tree]] is fine)
+Quick review of [[Write-Ahead Log]] and its uses
 Quick review of [[Replication]] strategies
-- Leader-follower vs Multi-leader vs Leaderless
-- Synchronous vs Asynchronous
-- Quorum replication vs full replication
-- Physical replication vs logical replication
+- [[Single-Leader|Leader-Follower]] vs [[Multi-Leader]] vs [[Leaderless]]
+- [[Synchronous Replication]] vs [[Asynchronous Replication]]
+- [[Quorum]] replication vs full replication ([[Quorum Write]], [[Quorum Read]], [[Gossip]])
+- [[Physical Replication]] vs [[Logical Replication]]
 - Cross-regional replication (sync vs async)
-Flow of [[JSON Web Token|JWT]], [[JSON Web Key Set|JWKS]], [[Refresh Token]]
+Mechanics and Flow of [[JSON Web Token|JWT]], [[JSON Web Key Set|JWKS]], [[Refresh Token]]
 [[User Access Token]]s vs [[Service Token]] 
 Comparison with [[Session|User Session]]s stored in DB
-High-level on [[OAuth]], [[OpenID Connect|OIDC]] and how they're actually implemented in a SD
-[[Blob Storage|Object Storage]] specifics, how to use, etc.
+High-level on [[OAuth]], [[OpenID Connect|OIDC]],  and how they (and anything else related to authn, auhz) is actually implemented in a SD
+[[Blob Storage|Object Storage]] usage specifics (presigned url flow, key naming conventions)
 [[Amazon SNS|SNS]] and [[Amazon SQS|SQS]] use together (SNS providing pub-sub fanout, while SQS providing durable queue-based message buffering)
 [[Kafka]] Topics
 [[Kafka Connect]]

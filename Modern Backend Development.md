@@ -219,7 +219,7 @@ Concepts to know:
 - [[CAP Theorem]], [[PACELC]], [[Consistency]] models ([[Strong Consistency|Linearizability]], Sequential, Causal, Eventual)
 - [[Two-Phase Commit]] (2PC): For [[Distributed Transaction]]s, usually avoided
 - [[Distributed Consensus|Consensus]] algorithms; [[Raft]], [[Paxos]], [[Zab]]
-- [[Conflict-Free Replicated Data Types]] (CRDTs) for collaborative/offline-first applications.
+- [[Conflict-Free Replicated Datatype]] (CRDTs) for collaborative/offline-first applications.
 
 # Testing (backend-flavored)
 - [[Unit Test]], [[Integration Test]], [[End to End Test]]

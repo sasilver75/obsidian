@@ -7,7 +7,7 @@ aliases:
 Geospatial indexes solve a fundamental problem: standard database indexes ([[B-Tree]]s) work on *one-dimensional* ordered values, but spatial data is inherently *two-dimensional.*
 - You can't sort points by latitude and longitude simultaneously in a way that preserves proximity!
 
-[[R-Tree]] is the dominant spatial indexing structure.
+[[R-Tree]] is the ==dominant== spatial indexing structure.
 - The idea is to ==group nearby geometries into minimum bounding rectangles (MBRs), then group those MBRs into larger MBRs, recursively==.
 - ==Queries work by traversing the tree==: If a query rectangle doesn't intersect an MBR, discard that whole subtree.
 - R-Trees ==handles all geometry types==: points, lines, polygons, and support queries like intersection, containment, distance.
@@ -23,11 +23,11 @@ PostGIS actually offers two index types:
 
 
 [[QuadTree]]s recursively subdivide space into 4 quadrants.
-- Simpler than [[R-Tree]]s, works well for uniformly distributed point data.
-- Degrades badly with clustered data or irregular shapes: heavily populated areas keep subdividing while empty areas waste tree depth.
+- ==Simpler== than [[R-Tree]]s, works well for uniformly distributed point data.
+- ==Degrades badly== with clustered data or irregular shapes: heavily populated areas keep subdividing while empty areas waste tree depth.
 - Used internally in some systems, but rarely exposed directly as a database index type.
 
-[[KD-Tree]]s are binary trees that alternate splitting on X and Y axes at each level. Great for nearest-neighbor queries on point data, less good for range queries and polygons. Common in in-memory spatial libraries (scipy, sklearn), but not typically used in databases.
+[[KD-Tree]]s are binary trees that alternate splitting on X and Y axes at each level. ==Great for nearest-neighbor queries on point data, less good for range queries and polygons==. Common in in-memory spatial libraries (scipy, sklearn), but not typically used in databases.
 
 [[Octree]]s are QuadTrees for 3D space (e.g. [[Light Detection and Ranging|LiDAR]])
 

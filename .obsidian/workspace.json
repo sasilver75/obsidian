@@ -8,157 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce1014ca4f79e191",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Design (Index).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "System Design (Index)"
-            }
-          },
-          {
-            "id": "777e67940b0b31e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Design (Index).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "System Design (Index)"
-            }
-          },
-          {
-            "id": "205a279b0dce4d0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dual Write Problem.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dual Write Problem"
-            }
-          },
-          {
-            "id": "361c3cf5c5a854b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stale-While-Revalidate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Stale-While-Revalidate"
-            }
-          },
-          {
-            "id": "4872fc8e6f967c7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Refresh-Ahead.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Refresh-Ahead"
-            }
-          },
-          {
-            "id": "14259285de0b230e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stale-While-Revalidate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Stale-While-Revalidate"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "6e53cddab9fc9dd8",
-        "type": "tabs",
-        "children": [
-          {
             "id": "74db906be30abce0",
             "type": "leaf",
             "state": {
@@ -181,8 +30,33 @@
               "icon": "lucide-file",
               "title": "High-Priority-System-Design"
             }
+          },
+          {
+            "id": "f62974fc2c5919d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idempotency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Idempotency"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2084,12 +1958,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "2fb1ef95aa5e46e8",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 180
+        "currentTab": 181
       },
       {
         "id": "8a022290161ffefa",
@@ -2151,35 +2035,39 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "adf6e7d97d4a0d67",
+  "active": "f62974fc2c5919d6",
   "lastOpenFiles": [
-    "System Design (Index).md",
+    "Exactly Once.md",
     "High-Priority-System-Design.md",
-    "Dual Write Problem.md",
-    "Dual Writes.md",
-    "Stale-While-Revalidate.md",
-    "Fallacies of Distributed Systems.md",
-    "Serializable Isolation.md",
-    "Modern Backend Development.md",
-    "Read Committed Isolation.md",
-    "Blue/Green Deployment.md",
+    "At Least Once.md",
+    "Idempotency.md",
+    "Pessimistic Concurrency Control.md",
+    "Consistent Prefix Consistency.md",
+    "Distributed Transaction.md",
+    "Logical Consistency.md",
+    "Page.md",
+    "Data Definition Language.md",
+    "Data Manipulation Language.md",
+    "Courses/SystemDesign/SDIAH Key Technologies.md",
+    "Jensen's Inequality.md",
+    "Transaction.md",
+    "Structured Query Language.md",
+    "_attachments/Pasted image 20260605151126.png",
+    "Transaction Control Language.md",
+    "Data Control Language.md",
+    "Data Query Language.md",
+    "Optimistic Concurrency Control.md",
+    "Application Layer.md",
+    "QUIC.md",
+    "Lock.md",
+    "Non-Repeatable Read.md",
+    "Dirty Write.md",
+    "Dirty Read.md",
+    "Read Skew.md",
+    "_attachments/Pasted image 20260605134101.png",
+    "_attachments/Pasted image 20260605132139.png",
+    "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
-    "Service Token.md",
-    "System Design in a Hurry.md",
-    "Strong Consistency.md",
-    "Linearizability.md",
-    "Cache Write Strategy.md",
-    "Cache Read Strategy.md",
-    "Write-Through Cache.md",
-    "Write-Around Cache.md",
-    "Cache-Aside.md",
-    "Refresh-Ahead.md",
-    "Cache Freshness Strategy.md",
-    "Cache Eviction Strategy.md",
-    "Transactional Outbox Pattern.md",
-    "Agent Harness.md",
-    "Strangler Pattern.md",
-    "System Design in a Hurry - Flashcard Review Draft.md",
     "_attachments/Pasted image 20260604101725.png",
     "_attachments/Pasted image 20260604093720.png",
     "_attachments/Pasted image 20260604093556.png",
@@ -2187,9 +2075,6 @@
     "_attachments/Pasted image 20260603190813.png",
     "_attachments/Pasted image 20260603190808.png",
     "_attachments/Pasted image 20260603190343.png",
-    "_attachments/Pasted image 20260603185408.png",
-    "_attachments/Pasted image 20260603185024.png",
-    "_attachments/Pasted image 20260603173446.png",
     "flashcards/networking-index-anki.tsv",
     "flashcards/logistics-index-anki.tsv",
     "flashcards/electronics-index-anki.tsv",
@@ -2197,7 +2082,6 @@
     "flashcards/system-design-index-anki.tsv",
     "flashcards/geospatial-index-anki.tsv",
     "flashcards/drone-index-anki.tsv",
-    "flashcards",
-    "System Design in a Hurry - Anki Supplemental Expansion Basic.tsv"
+    "flashcards"
   ]
 }

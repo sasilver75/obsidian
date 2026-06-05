@@ -1,6 +1,6 @@
+(Originally meant "Quick UDP Internet Connections," but the [[Internet Engineering Task Force|IETF]] standardized it as just "QUIC", not an acronym)
 
-
-[[Transport Layer]] protocol (replaces [[Transport Control Protocol|TCP]]). [[HTTP|HTTP/3]] *requires* [[QUIC]].
+[[Transport Layer]] protocol (~replaces [[Transport Control Protocol|TCP]]). [[HTTP|HTTP/3]] *requires* [[QUIC]].
 
 Replaces [[Transport Control Protocol|TCP]] + [[Transport Layer Security|TLS]] both at once. It's a combined transport-and-encryption replacement. It swallows:
 - TCP's job: Reliability, ordering, flow control, congestion control, congestion management
@@ -17,9 +17,9 @@ QUIC merges these two separate layers/state machines that don't know about eacho
 - [[User Datagram Protocol|UDP]] is what QUIC uses underneath; it's just a thin envelope: "here's a packet, here's its destination port, no guarantees."
 - ==QUIC needed *some way* to send packets across the existing internet without middleboxes mangling them, and UDP was the only option besides TCP that the internet's [[Network Address Translation|NAT]]s, firewalls, and [[Load Balancing|Load Balancer]]s reliably pass through.==
 So:
-- TCP is replaced (its relaibility/ordering/congestion-control role moves into QUIC)
-- TLS is replaced (its handshake/ecnryption roles move into QUIC)
-- UDP is *used, not replaced*: It's the carrier carrier that gets QUIC packets through teh internet.
+- TCP is replaced (its reliability/ordering/congestion-control role moves into QUIC)
+- TLS is replaced (its handshake/encryption roles move into QUIC)
+- UDP is *used, not replaced*: It's the carrier carrier that gets QUIC packets through the internet.
 
 >"*Everything TCP did and everything TLS did is now QUIC's job. UDP is just the truck QUIC rides in on.*"
 

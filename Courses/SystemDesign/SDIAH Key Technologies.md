@@ -18,7 +18,7 @@ In this section we'll walk through some of the key categories of technologies re
 			- "I'm using Postgres here because its ACID properties will allow me to maintain data integrity" is a great leader.
 #### Relational Databases
 - [[Relational Database]]s (RDBMS) are the most common type of database, often used for **transactional data** (e.g. user records, order records) and are typically the default choice for a product design interview.
-- Relational databases store your data in tables, which are composed to rows and columns. Each row represents a single record, and each column represents a single field on that record. A user's table might have a name and email column. Often queried via [[SQL]], a declarative language for querying data.
+- Relational databases store your data in tables, which are composed to rows and columns. Each row represents a single record, and each column represents a single field on that record. A user's table might have a name and email column. Often queried via [[Structured Query Language|SQL]], a declarative language for querying data.
 - Relational databases come equipped with several features which are useful for system design interviews:
 	- **SQL Joins**:
 		- A way of combining data from multiple tables. Joins ==can be a major performance bottleneck== in the system, so ==minimize them when possible==.
