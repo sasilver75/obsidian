@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1c7a5a5c006019a7",
+        "id": "7ecae752b5d0b542",
         "type": "tabs",
         "children": [
           {
-            "id": "74db906be30abce0",
+            "id": "bef563ce39654fa7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guidance, Navigation, and Control.md",
+                "file": "Message Queue.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Guidance, Navigation, and Control"
+              "title": "Message Queue"
+            }
+          },
+          {
+            "id": "f9a044360abe2a97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time to Live.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Time to Live"
+            }
+          },
+          {
+            "id": "609a787f606d34c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Around Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Around Cache"
+            }
+          },
+          {
+            "id": "ac8ab8e0cb257dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Around Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Around Cache"
+            }
+          },
+          {
+            "id": "90a21bf99c76c965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache"
+            }
+          },
+          {
+            "id": "1e2f29111d5ea25e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MX Record.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MX Record"
+            }
+          },
+          {
+            "id": "5286df46f69a2242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Google Cloud Platform.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud Platform"
+            }
+          },
+          {
+            "id": "95c0436bac21006e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multipurpose Internet Mail Extensions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multipurpose Internet Mail Extensions"
             }
           }
         ]
@@ -2011,44 +2179,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "74db906be30abce0",
+  "active": "bef563ce39654fa7",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260606142602.png",
+    "_attachments/Pasted image 20260606142417.png",
+    "_attachments/Pasted image 20260606142001.png",
+    "_attachments/Pasted image 20260606140946.png",
     "Cache.md",
-    "_attachments/Pasted image 20260605194617.png",
-    "_attachments/Pasted image 20260605194514.png",
-    "Index.md",
-    "PostGIS.md",
-    "Odometry.md",
-    "_attachments/Pasted image 20260605193733.png",
-    "Generalized Search Tree.md",
-    "GeoAlchemy2.md",
-    "Geographic Information Systems.md",
-    "Geospatial Index.md",
-    "Geospatial (Index).md",
-    "H3.md",
-    "PostgreSQL.md",
-    "S2 Geometry.md",
-    "QuadTree.md",
-    "R-Tree.md",
-    "_attachments/Pasted image 20260605193305.png",
-    "_attachments/Pasted image 20260605192545.png",
-    "_attachments/Pasted image 20260605192253.png",
-    "Radio Spectrum.md",
-    "Load Balancing Strategy.md",
-    "N + 1 Query Problem.md",
-    "Drone (Index).md",
-    "Very Low Frequency.md",
-    "Super Low Frequency.md",
-    "Ultra Low Frequency.md",
-    "Extremely Low Frequency.md",
-    "Tremendously High Frequency.md",
-    "Extremely High Frequency.md",
-    "Courses/SystemDesign/SDIAH Networking Essentials.md",
-    "Backoff.md",
-    "_attachments/Pasted image 20260605182326.png",
-    "_attachments/Pasted image 20260605182140.png",
-    "_attachments/Pasted image 20260605181649.png",
-    "_attachments/Pasted image 20260605181648.png",
+    "Message Queue.md",
+    "Write-Around Cache.md",
+    "_attachments/Pasted image 20260606140314.png",
+    "_attachments/Pasted image 20260606140001.png",
+    "_attachments/Pasted image 20260606135714.png",
+    "_attachments/Pasted image 20260606135457.png",
+    "Cache Eviction Strategy.md",
+    "Time to Live.md",
+    "_attachments/Pasted image 20260606132746.png",
+    "_attachments/Pasted image 20260606132217.png",
+    "_attachments/Pasted image 20260606132103.png",
+    "Frequency-Shift Keying.md",
+    "MX Record.md",
+    "Positional Encoding.md",
+    "Frequency-Based Positional Encoding.md",
+    "Electronic Warfare.md",
+    "Transceiver.md",
+    "External Cache.md",
+    "Multipurpose Internet Mail Extensions.md",
+    "Temporal.md",
+    "Software-Defined Radio.md",
+    "Internet Assigned Numbers Authority.md",
+    "Simple Mail Transfer Protocol.md",
+    "Articles/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
+    "Internet Engineering Task Force.md",
+    "Internet Service Provider.md",
+    "Regional Internet Registry.md",
+    "Google Cloud Platform.md",
+    "Amazon Web Services.md",
+    "Mimetype.md",
+    "Projection.md",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",

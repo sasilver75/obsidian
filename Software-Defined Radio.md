@@ -16,3 +16,4 @@ In practice, ==SDR lets you inspect or work with many signal types using the sam
 
 SDR is flexible, but needs enough compute, sampling bandwidth, and a good RF front end. Cheap SDRs are excellent learning tools, but limited in frequency range, sensitivity, transmit capability, and bandwidth.
 
+

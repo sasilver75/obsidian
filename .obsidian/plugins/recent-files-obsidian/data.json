@@ -1,12 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "Guidance, Navigation, and Control",
-      "path": "Guidance, Navigation, and Control.md"
+      "basename": "Message Queue",
+      "path": "Message Queue.md"
     },
     {
       "basename": "Cache",
       "path": "Cache.md"
+    },
+    {
+      "basename": "Write-Around Cache",
+      "path": "Write-Around Cache.md"
+    },
+    {
+      "basename": "Cache Eviction Strategy",
+      "path": "Cache Eviction Strategy.md"
+    },
+    {
+      "basename": "Time to Live",
+      "path": "Time to Live.md"
+    },
+    {
+      "basename": "Frequency-Shift Keying",
+      "path": "Frequency-Shift Keying.md"
+    },
+    {
+      "basename": "MX Record",
+      "path": "MX Record.md"
+    },
+    {
+      "basename": "Positional Encoding",
+      "path": "Positional Encoding.md"
+    },
+    {
+      "basename": "Frequency-Based Positional Encoding",
+      "path": "Frequency-Based Positional Encoding.md"
+    },
+    {
+      "basename": "Electronic Warfare",
+      "path": "Electronic Warfare.md"
+    },
+    {
+      "basename": "Transceiver",
+      "path": "Transceiver.md"
+    },
+    {
+      "basename": "External Cache",
+      "path": "External Cache.md"
+    },
+    {
+      "basename": "Multipurpose Internet Mail Extensions",
+      "path": "Multipurpose Internet Mail Extensions.md"
+    },
+    {
+      "basename": "Temporal",
+      "path": "Temporal.md"
+    },
+    {
+      "basename": "Software-Defined Radio",
+      "path": "Software-Defined Radio.md"
+    },
+    {
+      "basename": "Internet Assigned Numbers Authority",
+      "path": "Internet Assigned Numbers Authority.md"
+    },
+    {
+      "basename": "Simple Mail Transfer Protocol",
+      "path": "Simple Mail Transfer Protocol.md"
+    },
+    {
+      "basename": "Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}",
+      "path": "Articles/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md"
+    },
+    {
+      "basename": "Internet Engineering Task Force",
+      "path": "Internet Engineering Task Force.md"
+    },
+    {
+      "basename": "Internet Service Provider",
+      "path": "Internet Service Provider.md"
+    },
+    {
+      "basename": "Regional Internet Registry",
+      "path": "Regional Internet Registry.md"
+    },
+    {
+      "basename": "Google Cloud Platform",
+      "path": "Google Cloud Platform.md"
+    },
+    {
+      "basename": "Amazon Web Services",
+      "path": "Amazon Web Services.md"
+    },
+    {
+      "basename": "Projection",
+      "path": "Projection.md"
+    },
+    {
+      "basename": "Asymmetric Distance Computation",
+      "path": "Asymmetric Distance Computation.md"
+    },
+    {
+      "basename": "Guidance, Navigation, and Control",
+      "path": "Guidance, Navigation, and Control.md"
     },
     {
       "basename": "Index",
@@ -103,102 +199,6 @@
     {
       "basename": "SDIAH Networking Essentials",
       "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "Backoff",
-      "path": "Backoff.md"
-    },
-    {
-      "basename": "Primary Index",
-      "path": "Primary Index.md"
-    },
-    {
-      "basename": "Cascading Failure",
-      "path": "Cascading Failure.md"
-    },
-    {
-      "basename": "Directed Energy",
-      "path": "Directed Energy.md"
-    },
-    {
-      "basename": "Timeout",
-      "path": "Timeout.md"
-    },
-    {
-      "basename": "Regionalization",
-      "path": "Regionalization.md"
-    },
-    {
-      "basename": "IEEE Radar Band",
-      "path": "IEEE Radar Band.md"
-    },
-    {
-      "basename": "Load Balancing",
-      "path": "Load Balancing.md"
-    },
-    {
-      "basename": "ITU Radio Band",
-      "path": "ITU Radio Band.md"
-    },
-    {
-      "basename": "International Telecommunications Union",
-      "path": "International Telecommunications Union.md"
-    },
-    {
-      "basename": "Inbox Pattern",
-      "path": "Inbox Pattern.md"
-    },
-    {
-      "basename": "AWS Elastic Load Balancer",
-      "path": "AWS Elastic Load Balancer.md"
-    },
-    {
-      "basename": "Vertical Scaling",
-      "path": "Vertical Scaling.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "Horizontal Scaling",
-      "path": "Horizontal Scaling.md"
-    },
-    {
-      "basename": "WebRTC",
-      "path": "WebRTC.md"
-    },
-    {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
-      "basename": "High-Priority-System-Design",
-      "path": "High-Priority-System-Design.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "gRPC.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "GraphQL.md"
-    },
-    {
-      "basename": "Application Layer",
-      "path": "Application Layer.md"
-    },
-    {
-      "basename": "Idempotency",
-      "path": "Idempotency.md"
-    },
-    {
-      "basename": "Exactly Once",
-      "path": "Exactly Once.md"
-    },
-    {
-      "basename": "At Least Once",
-      "path": "At Least Once.md"
     }
   ],
   "omittedPaths": [],
