@@ -1,8 +1,8 @@
 ---
 aliases:
-  - Generalized Search Tree
   - SP-GiST
   - Space-Partitioned GiST
+  - GiST
 ---
 A flexible indexing method in [[PostgreSQL|Postgres]] supporting various data types and queries, particularly useful for complex data like ==geometry== and text search.
 
@@ -39,7 +39,7 @@ Two steps:
 
 
 ### SP-GiST, for H3 and Recursive Structures
- - Postgres also has an [[GiST|SP-GiST]] index, which implements space-partitioning trees like [[QuadTree]]s and [[k-d Trees]].
+ - Postgres also has an [[Generalized Search Tree|SP-GiST]] index, which implements space-partitioning trees like [[QuadTree]]s and [[k-d Trees]].
 	 - This works better than GiST for data that naturally partitions space evenly, like [[H3]] cells, which tile space perfectly.
 
 > Aside: In our LA Observatory project, we used [[B-Tree]] indexes on H3 columns, rather than GiST/SP-GiST, because we query H3 by exact cell ID, not by proximity.

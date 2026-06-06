@@ -133,7 +133,7 @@ WHERE ST_DWithin(
 		- Uber initially used it for their entire ride-matching system, fun fact!
 	- Spatial operations (==intersections==, ==containment==)
 	- Different coordinate systems
-- The index type used here [[GiST]] (Generalized Search Tree) for geometric data, using [[R-Tree]] indexing under the hood.
+- The index type used here [[Generalized Search Tree|GiST]] (Generalized Search Tree) for geometric data, using [[R-Tree]] indexing under the hood.
 
 
 

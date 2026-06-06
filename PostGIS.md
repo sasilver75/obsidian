@@ -22,7 +22,7 @@ Spatial indices: Without these, spatial queries do a full table scan:
 CREATE INDEX idx_service_requests_geom
 ON service_requests USING GIST (geom);
 ```
-Above, the [[GiST]] index is an [[R-Tree]] spatial index.
+Above, the [[Generalized Search Tree|GiST]] index is an [[R-Tree]] spatial index.
 
 
 Some PostGIS examples:

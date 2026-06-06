@@ -13,13 +13,13 @@ Geospatial indexes solve a fundamental problem: standard database indexes ([[B-T
 - R-Trees ==handles all geometry types==: points, lines, polygons, and support queries like intersection, containment, distance.
 - Weakness: MBRs can overlap heavily in dense or irregular datasets, causing the tree to check many branches unnecessarily.
 
-[[PostGIS]] uses a variant called [[R-Tree]] with [[GiST]]; GiST is a PostgreSQL framework for building custom index types, and PostGIS plugs spatial logic into it.
+[[PostGIS]] uses a variant called [[R-Tree]] with [[Generalized Search Tree|GiST]]; GiST is a PostgreSQL framework for building custom index types, and PostGIS plugs spatial logic into it.
 
 PostGIS actually offers two index types:
-- [[GiST]]: Balanced tree, good for overlapping geometries, handles all shapes well.
+- [[Generalized Search Tree|GiST]]: Balanced tree, good for overlapping geometries, handles all shapes well.
 	- For most cases, GiST is the right choice.
 	- (Postgres implements an R-Tree on top of the GiST framework)
-- [[GiST|SP-GiST]] (Space-partitioning GiST): Partitions space into non-overlapping regions, which is better for point data with clustering, worse for polygons.
+- [[Generalized Search Tree|SP-GiST]] (Space-partitioning GiST): Partitions space into non-overlapping regions, which is better for point data with clustering, worse for polygons.
 
 
 [[QuadTree]]s recursively subdivide space into 4 quadrants.

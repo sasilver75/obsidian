@@ -17,7 +17,7 @@ Various types:
 - [[QuadTree]]
 - [[R-Tree]]
 - [[Inverted Index]]
-- [[GiST]]
+- [[Generalized Search Tree|GiST]]
 
 #### Composite Indices
 - A [[Composite Index]] is the most common optimization pattern that we'll encounter in practice.
@@ -99,3 +99,118 @@ CREATE INDEX idx_user_time_likes ON posts(user_id, created_at) INCLUDE (likes);
 | GIN        | `USING GIN`             | Full-text search, JSONB containment, arrays                            | Not used in Phase 1                                     |
 | BRIN       | `USING BRIN`            | Very large tables with natural ordering (e.g. time-series append-only) | Candidate for `_fetched_at` on raw tables               |
 | Hash       | `USING HASH`            | Equality only, slightly faster than B-Tree                             | Rarely used — B-Tree does everything Hash does and more |
+
+
+__________________
+
+Let's understand the problem that indexing solves.
+
+![[Pasted image 20260605181254.png]]
+- Data in a database is often arranged in ~8KB [[Page]]s.
+- To find a particular item in the database *without indexing,* we pull a page into RAM, into memory, we scan for the item, and if we don't find it, we put it back, pull out the next one, put it back, etc.
+- If we had 100M users in our user table, and each page has 100 rows, that 1 Million pages! Each round trip from SSD to RAM is about 100ms, so that's 100 seconds in the worst case to find the item that we're looking for. This is far larger than the user wants to wait!
+
+So how do indexes solve this problem for us?
+- ==Indexes are just datastructres stored on disk that act as a map to tell us where items exist in the database.==
+- When a query comes in for a particular item:
+	- We first pull the index into memory
+	- We check which page that index tells us the resource/item lives on
+	- We pull only that particular page
+- As opposed to reading up to 1,000,000 pages, we now use the index to tell us exactly which page to look at!
+
+So what types of indexes are there, and when should we use them?
+
+[[B-Tree]] is by far the most popular index; Basic tree structure where each node in the tree is a sorted list of values, with pointers to another page in disk; either a child node in the B-Tree, or an actual database [[Page]].
+![[Pasted image 20260605181649.png]]
+If we wanted to select all users with age=51, and in our `users` table, we built an index on the `age` column...
+- We'd pull our root node (a [[Page]] itself) into memory, and we'd say: "We want 51, that's greater than 50, less than 90", and so we'd pull in that second-level B-Tree node (itself a [[Page]]) into memory, and look at it, and say, "well, 51 is less than 55", and so which page does that correspond to? It corresponds to a data Page 3!
+- So we pull Page 3 into memory, which is where all of our users with this condition live.
+
+What if we were to do a `WHERE age > 51`?
+- We'd pull in our root page for our index
+- We then pull in BOTH the (55, 67) and (91, 100, 102) pages into memory
+- When then pull in all 7 data pages into memory.
+
+
+The next index is a [[Hash Index]]
+![[Pasted image 20260605182140.png]]
+- A Hash Index is just a [[Hash Map]] on disk.
+- If we're looking for a user, we pass their (e.g.) email into a hash function, and then we have some hashmap that maps this key to a value, where the value is just a pointer to where that data exists on disk.
+
+==In reality... hash indexes are rarely used in production databases.==
+- They offer O(1), but [[B-Tree]]s function nearly as well for exactly matches, and *also* support range queries!
+
+The only place you'll see these are in-memory K:V stores like [[Redis]]
+
+
+
+[[Geospatial Index]]es
+![[Pasted image 20260605182326.png]]
+- If you have Geospatial data, like trying to search within regions ... like getting the people in a certain raidsu
+- Why can't we use B-Trees to satisfy this query?
+	- ==B-Trees excel at one-dimensional data, but not two dimensional data==
+
+This query would give us:
+- All of the red data for latitude
+- All of the blue data for longitude
+And then we'd pull each of these strips into memory and do a merge. These strips are huge.
+
+So is there a data structure that can help us?
+Yes, [[Geospatial Index]]es and [[Discrete Global Grid System|DGGS]]s can help.
+
+We'll look at:
+1. [[Geohash]]ing
+2. [[QuadTree]]s (not as popular as R-Trees)
+3. [[R-Tree]]s
+
+
+Geohashing
+![[Pasted image 20260605192253.png]]
+- Take map of the world, and split it into 4 parts
+- Recursively split each of those cells
+- By continuing to do this, we get increasing levels of precision
+	- Maybe New Mexico is 31, and Albequerque specifically is 310
+- Once you've converting lat/lon into these one-dimensional strings, ==all nearby locations share a similar prefix.==
+	- ((This isn't totally true in all cases, as you can see with 300 vs 211... but this is going to be better for deeper layers))
+- We can create the Geohashes and then build a [[B-Tree]] on top of the hashes themselves.
+
+==NOTE:== For the illustration, we did it with simple numbers, but in reality, we  actually [[Base32]] encode them, so that Los Angeles is `9qh16`
+
+
+
+Quadtrees
+![[Pasted image 20260605192545.png]]
+- Similar to Geohashing in that we split the world recursively
+- We map the splitting to a tree, rather than a one-dimensional string.
+	- We only need to go deeper in this tree in the places where we have high density. 
+- Imagine that this was a mapping of the world, and each dot was a location in our database.
+- We split the world into four initial grids, creating an initial tree whose root has four children.
+	- These point to all the businesses in each respective cell
+- For quadtrees we specify a `k` value: If any cell has >k items, recursively split it.
+	- We can see how we split the initial blue cell, and then had to recursively split one of the child cells.
+	- Now, when we want to find a particular business, we work our way down the tree accordingly...
+	- This tree is the index that ends up being stored on disk
+
+(==This is a shitty explanation. "The tree is stored on disk", okay how? How do we walk it? ==)
+NOT USED IN PRODUCTION MUCH THESE DAYS; R-TREES ARE, INSTEAD.
+
+
+[[R-Tree]]s
+
+![[Pasted image 20260605193305.png]]
+- Derived from Quadtrees, but instead of crudely splitting the world into even 4s, is more dynamic: Does some clustering to find locations or businesses that are close to eachother, and then each of these larger groupings can even have some overlap.
+- It's the same general idea of working down a tree to get increasing precision... working down to finally get the locations.
+- It's a bit more dynamic and fairly complex.
+
+[[PostGIS]] uses [[R-Tree]]s via its own [[Generalized Search Tree|GiST]] index, an adaptable framework.
+
+
+
+[[Inverted Index]]es
+![[Pasted image 20260605193733.png]]
+A [[B-Tree]] would be able to satisfy a query like `LIKE pizza%`, where we have a leading prefix that's known, since then it's just a range query on a collection of lexicographically sorted string...  But it can't do `%pizza%`
+
+Instead, we can create an inverted index. Great anytime that you need to search for text.
+
+We create a mapping from words/tokens to documents that they appear in.
+

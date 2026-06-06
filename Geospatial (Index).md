@@ -73,7 +73,7 @@ Terms
 - [[Open Geospatial Consortium]]: A standards organization that develops open interoperability standards for geospatial data, services, and APIs.
 - [[Geospatial Index]]: A data structure that accelerates spatial queries by organizing geometries according to location and extent.
 - [[R-Tree]]: A spatial index that groups geometries by nested minimum bounding rectangles.
-- [[GiST]]: PostgreSQL's generalized search tree framework used by PostGIS to implement spatial indexing.
+- [[Generalized Search Tree|GiST]]: PostgreSQL's generalized search tree framework used by PostGIS to implement spatial indexing.
 - [[QuadTree]]: A spatial partitioning structure that recursively divides 2D space into four quadrants.
 - [[Octree]]: A 3D spatial partitioning structure that recursively divides space into eight subregions.
 - [[Space-filling Curve]]: A method for mapping multidimensional space into one dimension while preserving some spatial locality.

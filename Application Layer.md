@@ -14,4 +14,19 @@ Works by simple text-formatted requests and responses:
 
 One of the more important ideas behind HTTP is [[Content Negotiation]]
 - When making a request, I might tell the web server I'm request it from what kind of things I can receive.
-- I can accept compressed content.
+	- "I can accept compressed content" or "I can accept certain encodings"
+- In the response, the server is free to tell me what it actually gave me.
+	- "You asked for compressed content, but I don't have it. I'm gonna give you plain text content."
+- This makes HTTP backwards/forward compatible when new headers are introduced, etc.
+
+The name HTTP is a little misleading, because it makes the assumption that we're just retrieving webpages, for instance... but it's most commonly used to build APIs, in our world.
+
+The most common way to build APIs on HTTP is via [[Representational State Transfer|REST]]:
+![[Pasted image 20260605162832.png]]
+- Verbs: Are we reading, writing, updated?
+- Resources have URLs associated with them
+
+To read user=1, we use the GET verb and /users/1 ... when I send message to a server, it responds with JSON describing the resource.
+
+
+

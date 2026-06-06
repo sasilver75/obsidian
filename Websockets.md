@@ -52,7 +52,30 @@ Tradeoffs:
 - An L4 load balancer is a good fit, because WebSockets are ultimately long-lived TCP connections. The L4 LB just keeps the TCP flow mapped to one backend; it doesn't need ot understand every WebSocket message.
 
 
+_____________
 
+
+In cases where we have high-frequency updates and bidirectional communications. They're very powerful, but also require a lot of infrastructure; you might want to reach for a [[Polling]] or [[Server-Sent Event|SSE]] solution before reaching for a WS solution, especially if you don't need the bidirectionality (e.g. getting an update on a bid for a browser of a page).
+
+In the cases where you need them, they're very powerful! 
+
+A way for you to exchange binary blobs that come in on the same order... and are in some sense guaranteed to be delivered reliably.
+
+In a system design interview, you typically talk about an API in terms of ==messages== that you're sending.
+- Becauese these aren't request and response, you don't typically have the input/output setup... instead, you say:
+
+![[Pasted image 20260605165549.png]]
+It doesn't eliminate the possibility that you have a message like "subscription accepted"... but you shouldn't design your API in with the expectation of having a bunch of request/response style communications. If you want that request/response functionality, just use HTTP.
+
+
+### Challenge!
+- Websockets in general involve a lot of ==state== for your application.
+- If you've got a WS connection, and that user is going to be around for an hour, I need a way for keeping that server alive for as long as tht connection needs to be alive. 
+	- This can play havoc if you're likely to have ==failures==, or if you want to do ==deployments of software==.
+	- We typically want to minimize statefulness, but websockets are inherently stateful!
+- ==The way we handle in an interview session is by having something on the periphery or edge of our design that handle the websockets and exposes methods that internal services can call.==
+	- You'll have your users connect via websocketes to that service, and then that service will make requests to your internal services, which will then send messages back.
+	- See the HelloInterview realtime updates guide.
 
 
 

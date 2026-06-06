@@ -94,4 +94,27 @@ Client API (browser)
 Generally: 
 - If you need server -> client only, use SSE.
 - If you need bidirectional, low-latency, or binary: use WebSockets
-- For occasional updates iwth simple semantics, use polling.
+- For occasional updates with simple semantics, use polling.
+
+
+__________
+
+![[Pasted image 20260605164351.png]]
+For stock ticket updates, you *could* poll the API to make repeated requests, but that means:
+- Your information will be delayed by up to your poling frequency
+- Overhead of repeatedly  opening/closing connections and making requests
+
+SSE is an extension on HTTP with one notable difference:
+- With a typical HTTP request, our response is consumed almost wholly (this isn't exactly true)... so if I were sending a list of events that happen over the course of 10s, I don't process those events until all complete and I get the response.
+- With SSE, I include additional headers in the response (chunked-encoding) and in the response I use newlines to designate how each of the new events are happening. Because of the headers, the proxies/other things handling the request will send that response on to my  clients, and they'll being parsing the response.
+	- So I have a way of unidirectionally pushing data from my server to a client using existing HTTP machinery.
+	- Downside: These connections are going to be severed frequently! HTTP requests are expected to return in the 30s-1m mark, so many routers/proxies will disconnect requests that exist longer than that. In those cases, our SSE client will automatically retry, opening a new SSE connection, passing the ID of the last event it received, in case events happened between the loss of connection and opening of responses.
+		- It's a bit of a kludge: we're existing on a connection that's constantly pushing responses which is periodically severed and re-enabled. Just because it's kludgey doesn't mean it doesn't work!
+- Use Cases
+	- If you're buying a product and you want to know the status that might evolve over the next 15 seconds
+	- For AI applications where you might want to stream tokens or responses back to the user, which might take awhile (e.g. 30 seconds).
+
+SSEs build on HTTP and let you have longer running requests and let the server unidirectionally push events down to the client.
+
+If we need bidirectional communication, we would use something like [[WebSockets|WebSocket]]
+

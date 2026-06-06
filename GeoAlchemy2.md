@@ -23,7 +23,7 @@ Above:
 
 
 ### The 'spatial_index=False' Gotcha
-- GeoAlchemy2 defaults to `spatial_index=True`, which makes it auto-create a [[GiST]] index named `idx_{tablename}_{columnname}` when the table is craeted.
+- GeoAlchemy2 defaults to `spatial_index=True`, which makes it auto-create a [[Generalized Search Tree|GiST]] index named `idx_{tablename}_{columnname}` when the table is craeted.
 	- If you also manually create an `Index(...)` in the `__table_args__` class attribute of your model, you get a duplicate index error at migration time.
 	- So if you're going to define your GiST index explicitly, always set `spatial_index=False` on your actual column.
 

@@ -19,7 +19,7 @@ SELECT c.*, n.name AS neighborhood
 FROM crimes c
 JOIN la_neighborhoods n ON ST_Within(c.geom, n.geom);
 ```
-Note: Needs a [[GiST]] index on both geometry columns to be fast!
+Note: Needs a [[Generalized Search Tree|GiST]] index on both geometry columns to be fast!
 
 #### Buffer: "Find all 311 requests within 500m of a school."
 ```sql

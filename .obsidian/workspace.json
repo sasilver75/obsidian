@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "High-Priority-System-Design.md",
+                "file": "Cache.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "High-Priority-System-Design"
-            }
-          },
-          {
-            "id": "f62974fc2c5919d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Idempotency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Idempotency"
+              "title": "Cache"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +94,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2035,46 +2011,46 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f62974fc2c5919d6",
+  "active": "74db906be30abce0",
   "lastOpenFiles": [
-    "Exactly Once.md",
-    "High-Priority-System-Design.md",
-    "At Least Once.md",
-    "Idempotency.md",
-    "Pessimistic Concurrency Control.md",
-    "Consistent Prefix Consistency.md",
-    "Distributed Transaction.md",
-    "Logical Consistency.md",
-    "Page.md",
-    "Data Definition Language.md",
-    "Data Manipulation Language.md",
-    "Courses/SystemDesign/SDIAH Key Technologies.md",
-    "Jensen's Inequality.md",
-    "Transaction.md",
-    "Structured Query Language.md",
-    "_attachments/Pasted image 20260605151126.png",
-    "Transaction Control Language.md",
-    "Data Control Language.md",
-    "Data Query Language.md",
-    "Optimistic Concurrency Control.md",
-    "Application Layer.md",
-    "QUIC.md",
-    "Lock.md",
-    "Non-Repeatable Read.md",
-    "Dirty Write.md",
-    "Dirty Read.md",
-    "Read Skew.md",
-    "_attachments/Pasted image 20260605134101.png",
-    "_attachments/Pasted image 20260605132139.png",
+    "_attachments/Pasted image 20260605194617.png",
+    "_attachments/Pasted image 20260605194514.png",
+    "Index.md",
+    "PostGIS.md",
+    "Odometry.md",
+    "_attachments/Pasted image 20260605193733.png",
+    "Generalized Search Tree.md",
+    "GeoAlchemy2.md",
+    "Geographic Information Systems.md",
+    "Geospatial Index.md",
+    "Geospatial (Index).md",
+    "H3.md",
+    "PostgreSQL.md",
+    "S2 Geometry.md",
+    "QuadTree.md",
+    "R-Tree.md",
+    "_attachments/Pasted image 20260605193305.png",
+    "_attachments/Pasted image 20260605192545.png",
+    "_attachments/Pasted image 20260605192253.png",
+    "Radio Spectrum.md",
+    "Load Balancing Strategy.md",
+    "N + 1 Query Problem.md",
+    "Drone (Index).md",
+    "Very Low Frequency.md",
+    "Super Low Frequency.md",
+    "Ultra Low Frequency.md",
+    "Extremely Low Frequency.md",
+    "Tremendously High Frequency.md",
+    "Extremely High Frequency.md",
+    "Courses/SystemDesign/SDIAH Networking Essentials.md",
+    "Backoff.md",
+    "_attachments/Pasted image 20260605182326.png",
+    "_attachments/Pasted image 20260605182140.png",
+    "_attachments/Pasted image 20260605181649.png",
+    "_attachments/Pasted image 20260605181648.png",
+    "_attachments/Pasted image 20260605181254.png",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
-    "_attachments/Pasted image 20260604101725.png",
-    "_attachments/Pasted image 20260604093720.png",
-    "_attachments/Pasted image 20260604093556.png",
-    "_attachments/Pasted image 20260603190824.png",
-    "_attachments/Pasted image 20260603190813.png",
-    "_attachments/Pasted image 20260603190808.png",
-    "_attachments/Pasted image 20260603190343.png",
     "flashcards/networking-index-anki.tsv",
     "flashcards/logistics-index-anki.tsv",
     "flashcards/electronics-index-anki.tsv",

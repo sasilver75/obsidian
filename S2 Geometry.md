@@ -7,7 +7,7 @@ Unlike systems that work on flat 2D projections, S2 treats the earth as an actua
 
 Core idea:
 - S2 maps the sphere onto the six faces of a cube, then subdivides each face into a hierarchical grid of cells, with each cell having a ==unique 64-bit integer ID==, called an ==S2 Cell ID==
-	- The 64-bit integer ID means that you can index spatial data in a regular spatial index like a [[B-Tree]] without needing a specialized spatial index like [[R-Tree]] or [[GiST]], making it popular for large-scale systems.
+	- The 64-bit integer ID means that you can index spatial data in a regular spatial index like a [[B-Tree]] without needing a specialized spatial index like [[R-Tree]] or [[Generalized Search Tree|GiST]], making it popular for large-scale systems.
 
 Cell hierarchy:
 - 30 levels of subdivision; Level 0 = one of 6 cube faces, level 30 = ~1cm^2

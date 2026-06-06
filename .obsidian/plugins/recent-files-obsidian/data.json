@@ -1,6 +1,194 @@
 {
   "recentFiles": [
     {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Index.md"
+    },
+    {
+      "basename": "PostGIS",
+      "path": "PostGIS.md"
+    },
+    {
+      "basename": "Odometry",
+      "path": "Odometry.md"
+    },
+    {
+      "basename": "Generalized Search Tree",
+      "path": "Generalized Search Tree.md"
+    },
+    {
+      "basename": "GeoAlchemy2",
+      "path": "GeoAlchemy2.md"
+    },
+    {
+      "basename": "Geographic Information Systems",
+      "path": "Geographic Information Systems.md"
+    },
+    {
+      "basename": "Geospatial Index",
+      "path": "Geospatial Index.md"
+    },
+    {
+      "basename": "Geospatial (Index)",
+      "path": "Geospatial (Index).md"
+    },
+    {
+      "basename": "H3",
+      "path": "H3.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "PostgreSQL.md"
+    },
+    {
+      "basename": "S2 Geometry",
+      "path": "S2 Geometry.md"
+    },
+    {
+      "basename": "QuadTree",
+      "path": "QuadTree.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "Radio Spectrum",
+      "path": "Radio Spectrum.md"
+    },
+    {
+      "basename": "Load Balancing Strategy",
+      "path": "Load Balancing Strategy.md"
+    },
+    {
+      "basename": "N + 1 Query Problem",
+      "path": "N + 1 Query Problem.md"
+    },
+    {
+      "basename": "Drone (Index)",
+      "path": "Drone (Index).md"
+    },
+    {
+      "basename": "Very Low Frequency",
+      "path": "Very Low Frequency.md"
+    },
+    {
+      "basename": "Super Low Frequency",
+      "path": "Super Low Frequency.md"
+    },
+    {
+      "basename": "Ultra Low Frequency",
+      "path": "Ultra Low Frequency.md"
+    },
+    {
+      "basename": "Extremely Low Frequency",
+      "path": "Extremely Low Frequency.md"
+    },
+    {
+      "basename": "Tremendously High Frequency",
+      "path": "Tremendously High Frequency.md"
+    },
+    {
+      "basename": "Extremely High Frequency",
+      "path": "Extremely High Frequency.md"
+    },
+    {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "Backoff",
+      "path": "Backoff.md"
+    },
+    {
+      "basename": "Primary Index",
+      "path": "Primary Index.md"
+    },
+    {
+      "basename": "Guidance, Navigation, and Control",
+      "path": "Guidance, Navigation, and Control.md"
+    },
+    {
+      "basename": "Cascading Failure",
+      "path": "Cascading Failure.md"
+    },
+    {
+      "basename": "Directed Energy",
+      "path": "Directed Energy.md"
+    },
+    {
+      "basename": "Timeout",
+      "path": "Timeout.md"
+    },
+    {
+      "basename": "Regionalization",
+      "path": "Regionalization.md"
+    },
+    {
+      "basename": "IEEE Radar Band",
+      "path": "IEEE Radar Band.md"
+    },
+    {
+      "basename": "Load Balancing",
+      "path": "Load Balancing.md"
+    },
+    {
+      "basename": "ITU Radio Band",
+      "path": "ITU Radio Band.md"
+    },
+    {
+      "basename": "International Telecommunications Union",
+      "path": "International Telecommunications Union.md"
+    },
+    {
+      "basename": "Inbox Pattern",
+      "path": "Inbox Pattern.md"
+    },
+    {
+      "basename": "AWS Elastic Load Balancer",
+      "path": "AWS Elastic Load Balancer.md"
+    },
+    {
+      "basename": "Vertical Scaling",
+      "path": "Vertical Scaling.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
+      "basename": "Horizontal Scaling",
+      "path": "Horizontal Scaling.md"
+    },
+    {
+      "basename": "WebRTC",
+      "path": "WebRTC.md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "High-Priority-System-Design",
+      "path": "High-Priority-System-Design.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "gRPC.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "GraphQL.md"
+    },
+    {
+      "basename": "Application Layer",
+      "path": "Application Layer.md"
+    },
+    {
       "basename": "Idempotency",
       "path": "Idempotency.md"
     },
@@ -9,196 +197,8 @@
       "path": "Exactly Once.md"
     },
     {
-      "basename": "High-Priority-System-Design",
-      "path": "High-Priority-System-Design.md"
-    },
-    {
       "basename": "At Least Once",
       "path": "At Least Once.md"
-    },
-    {
-      "basename": "Pessimistic Concurrency Control",
-      "path": "Pessimistic Concurrency Control.md"
-    },
-    {
-      "basename": "Consistent Prefix Consistency",
-      "path": "Consistent Prefix Consistency.md"
-    },
-    {
-      "basename": "Distributed Transaction",
-      "path": "Distributed Transaction.md"
-    },
-    {
-      "basename": "Logical Consistency",
-      "path": "Logical Consistency.md"
-    },
-    {
-      "basename": "Page",
-      "path": "Page.md"
-    },
-    {
-      "basename": "Data Definition Language",
-      "path": "Data Definition Language.md"
-    },
-    {
-      "basename": "Data Manipulation Language",
-      "path": "Data Manipulation Language.md"
-    },
-    {
-      "basename": "SDIAH Key Technologies",
-      "path": "Courses/SystemDesign/SDIAH Key Technologies.md"
-    },
-    {
-      "basename": "Jensen's Inequality",
-      "path": "Jensen's Inequality.md"
-    },
-    {
-      "basename": "Transaction",
-      "path": "Transaction.md"
-    },
-    {
-      "basename": "Structured Query Language",
-      "path": "Structured Query Language.md"
-    },
-    {
-      "basename": "Transaction Control Language",
-      "path": "Transaction Control Language.md"
-    },
-    {
-      "basename": "Data Control Language",
-      "path": "Data Control Language.md"
-    },
-    {
-      "basename": "Data Query Language",
-      "path": "Data Query Language.md"
-    },
-    {
-      "basename": "Optimistic Concurrency Control",
-      "path": "Optimistic Concurrency Control.md"
-    },
-    {
-      "basename": "Application Layer",
-      "path": "Application Layer.md"
-    },
-    {
-      "basename": "QUIC",
-      "path": "QUIC.md"
-    },
-    {
-      "basename": "Lock",
-      "path": "Lock.md"
-    },
-    {
-      "basename": "Non-Repeatable Read",
-      "path": "Non-Repeatable Read.md"
-    },
-    {
-      "basename": "Dirty Write",
-      "path": "Dirty Write.md"
-    },
-    {
-      "basename": "Dirty Read",
-      "path": "Dirty Read.md"
-    },
-    {
-      "basename": "Read Skew",
-      "path": "Read Skew.md"
-    },
-    {
-      "basename": "Phantom Read",
-      "path": "Phantom Read.md"
-    },
-    {
-      "basename": "Lost Update",
-      "path": "Lost Update.md"
-    },
-    {
-      "basename": "Write Skew",
-      "path": "Write Skew.md"
-    },
-    {
-      "basename": "Saga",
-      "path": "Saga.md"
-    },
-    {
-      "basename": "Read Phenomenon",
-      "path": "Read Phenomenon.md"
-    },
-    {
-      "basename": "Isolation",
-      "path": "Isolation.md"
-    },
-    {
-      "basename": "Multiversion Concurrency Control",
-      "path": "Multiversion Concurrency Control.md"
-    },
-    {
-      "basename": "Internet Engineering Task Force",
-      "path": "Internet Engineering Task Force.md"
-    },
-    {
-      "basename": "Transport Layer",
-      "path": "Transport Layer.md"
-    },
-    {
-      "basename": "Firewall",
-      "path": "Firewall.md"
-    },
-    {
-      "basename": "Network Layer",
-      "path": "Network Layer.md"
-    },
-    {
-      "basename": "Transport Control Protocol",
-      "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "OSI Model.md"
-    },
-    {
-      "basename": "Stale-While-Revalidate",
-      "path": "Stale-While-Revalidate.md"
-    },
-    {
-      "basename": "Refresh-Ahead",
-      "path": "Refresh-Ahead.md"
-    },
-    {
-      "basename": "Dual Write Problem",
-      "path": "Dual Write Problem.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "Strong Read-After-Write Consistency",
-      "path": "Strong Read-After-Write Consistency.md"
-    },
-    {
-      "basename": "Monotonic Reads Consistency",
-      "path": "Monotonic Reads Consistency.md"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Concurrency.md"
-    },
-    {
-      "basename": "Conflict-Free Replicated Datatype",
-      "path": "Conflict-Free Replicated Datatype.md"
-    },
-    {
-      "basename": "Operational Transform",
-      "path": "Operational Transform.md"
-    },
-    {
-      "basename": "Conflict Resolution",
-      "path": "Conflict Resolution.md"
-    },
-    {
-      "basename": "Eventual Consistency",
-      "path": "Eventual Consistency.md"
     }
   ],
   "omittedPaths": [],
