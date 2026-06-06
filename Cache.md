@@ -39,3 +39,6 @@ One option is an [[External Cache]], which is where the cache (e.g. [[Redis]], [
 - [[Cache-Aside]]: When your application needs data, it first checks the Cache. If it's not there, it's a [[Cache Miss]], so it fetches the data, stores it in the cache, and then returns it to the user.
 
 
+> SAM: CONTINUE HERE 
+
+

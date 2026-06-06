@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Guidance, Navigation, and Control.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cache"
+              "title": "Guidance, Navigation, and Control"
             }
           }
         ]
@@ -2013,6 +2013,7 @@
   },
   "active": "74db906be30abce0",
   "lastOpenFiles": [
+    "Cache.md",
     "_attachments/Pasted image 20260605194617.png",
     "_attachments/Pasted image 20260605194514.png",
     "Index.md",
@@ -2048,7 +2049,6 @@
     "_attachments/Pasted image 20260605182140.png",
     "_attachments/Pasted image 20260605181649.png",
     "_attachments/Pasted image 20260605181648.png",
-    "_attachments/Pasted image 20260605181254.png",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",
