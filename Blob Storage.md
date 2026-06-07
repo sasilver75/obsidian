@@ -62,6 +62,26 @@ What makes this so cheap and durable in the first place?
 ![[Pasted image 20260606212244.png]]
 Large files should be stored in Object Storage, but you need to store the metadata (e.g. the linkToObjectStore, photoURL, etc.) in your transactional database.
 
+In (e.g.) Postgres, you store a stable object reference in your entity table, and generate presigned urls (see below) when needed.
+Common column names:
+- object_key, storage_key, s3_key, blob_key
+
+==Typically, we store the object key, and keep the actual bucket name in config/environment variables==.
+
+- So we would store, in our `s3_key` column `users/123/avatar/01JZQM37K9V6B2N4P8R.jpg`
+- And we would know that the bucket is `AVATAR_BUCKET=user-uploads` from our config file
+- And then we could (when we need to) combine these two into an S3 [[Uniform Resource Identifier|URI]] : `s3://user-uploads/users/123/avatar/01JZ8Q3M7K9V6B2N4P8R.jpg`
+	- Or as an HTTPS [[Uniform Resource Locator|URL]]: `https://user-uploads.s3.amazonaws.com/users/123/avatar/01JZ8Q3M7K9V6B2N4P8R.jpg`
+
+(Note: The URI format is typically used for SDKs/CLIs/internal references/logs/config/database storage, while the HTTP URL tells an HTTP client/browser how to request an  object over the web.)
+
+And then we could get S3 to stick a presigned URL on top of it at runtime when the user needs upload/download access:
+
+`https://user-uploads.s3.amazonaws.com/users/123/avatar/01JZ8Q3M7K9V6B2N4P8R.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA...%2F20260607%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260607T190000Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=abc123...`
+
+
+
+
 
 ![[Pasted image 20260606212435.png]]
 You can both upload and download from S3 using [[Presigned URL]]s.
@@ -71,8 +91,12 @@ You can both upload and download from S3 using [[Presigned URL]]s.
 
 
 ![[Pasted image 20260606212648.png]]
-Multi-Part upload lets us upload parts of a document in chunks, and then stitch them togehter.
-- Important: ==On the internet, there are ==
+Multi-Part upload lets us upload parts of a document in chunks, and then stitch them together.
+- Important: ==On the internet, there are limits on the size of a file that can be POSTed/PUT on an internet==
 	- These limitations are in browsers, in gateways, in the servers themselves, etc. They exist all over.
+- In S3's case... their limit is ((Currently in June 2026, 50TB)) for a blob
+	- So our client can take the file, chunk it into a bunch of chunks, upload each of those chunks in parallel, and then our object store stitches those chunks together. If a chunk upload fails, it can be retried.
+
+
 
 

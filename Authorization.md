@@ -1,4 +1,5 @@
 ---
 aliases:
   - Authz
+  - Authorize
 ---

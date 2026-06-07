@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7ecae752b5d0b542",
+        "id": "27fafe9db148d1e8",
         "type": "tabs",
         "children": [
           {
-            "id": "bef563ce39654fa7",
+            "id": "1cc7a2fa88fa2758",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blob Storage.md",
+                "file": "Mutual TLS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Blob Storage"
+              "title": "Mutual TLS"
+            }
+          },
+          {
+            "id": "d3c39383fade9e5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lock.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lock"
+            }
+          },
+          {
+            "id": "7c99233e80bcc45c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RAM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RAM"
+            }
+          },
+          {
+            "id": "19d9938c651e82e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Authorization.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Authorization"
+            }
+          },
+          {
+            "id": "3b82b285dab4d3fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HMAC-based Key Derivation Function.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HMAC-based Key Derivation Function"
+            }
+          },
+          {
+            "id": "616346bcd6a215ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Certificate.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Certificate"
+            }
+          },
+          {
+            "id": "f218beaf78c39d23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Authoritative Nameserver.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Authoritative Nameserver"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rev",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1944,12 +2089,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "59913da09b71552f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 181
+        "currentTab": 182
       },
       {
         "id": "8a022290161ffefa",
@@ -2011,44 +2166,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bef563ce39654fa7",
+  "active": "d3c39383fade9e5f",
   "lastOpenFiles": [
+    "Backend for Frontend.md",
+    "Read-Through Cache.md",
+    "_attachments/Pasted image 20260607103404.png",
+    "Napkin Math.md",
+    "RAM.md",
+    "Mutual TLS.md",
+    "Authorization.md",
+    "Authentication.md",
+    "Transport Layer Security.md",
+    "HMAC-based Key Derivation Function.md",
+    "Domain Name Service.md",
+    "HTTP 2.md",
+    "Certificate.md",
+    "Authoritative Nameserver.md",
+    "HTTP 1.1.md",
+    "Transport Control Protocol.md",
+    "Cryptography and Security (Index).md",
+    "TLS Handshake.md",
+    "Backpressure.md",
+    "Retry Storm.md",
+    "Inbox Pattern.md",
+    "Transactional Outbox Pattern.md",
+    "Service Discovery.md",
+    "Reverse Proxy.md",
+    "Proxy.md",
+    "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
+    "Port.md",
     "_attachments/Pasted image 20260606212648.png",
     "_attachments/Pasted image 20260606212435.png",
     "_attachments/Pasted image 20260606212244.png",
     "_attachments/Pasted image 20260606202147.png",
     "_attachments/Pasted image 20260606201842.png",
-    "Cache.md",
-    "Redis.md",
-    "Stale-While-Revalidate.md",
-    "Request Coalescing.md",
-    "At-Most-Once Delivery.md",
-    "Hot Spot.md",
-    "Saga.md",
-    "Refresh-Ahead.md",
-    "Cache Stampede.md",
-    "Idempotency.md",
-    "API Gateway.md",
-    "Message Queue.md",
-    "Distributed Transaction.md",
     "_attachments/Pasted image 20260606184120.png",
     "_attachments/Pasted image 20260606183815.png",
     "_attachments/Pasted image 20260606183806.png",
     "_attachments/Pasted image 20260606182553.png",
-    "_attachments/Pasted image 20260606182004.png",
-    "_attachments/Pasted image 20260606181944.png",
-    "Proximity Search.md",
-    "Alert.md",
-    "Dead Letter Queue.md",
-    "BKD Tree.md",
-    "Reticulum Network.md",
-    "Android Team Awareness Kit.md",
-    "Amazon Simple Workflow Service.md",
-    "Amazon SQS.md",
-    "Untitled.md",
-    "Beamforming.md",
-    "Mobile Ad Hoc Network.md",
-    "Direction Finding.md",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",

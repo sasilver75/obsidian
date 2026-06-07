@@ -33,7 +33,6 @@ Tradeoff: Smaller locks allow for more productive concurrency, but cost more boo
 - Enforce uniqueness:
 
 
-
 Generic Locking Example:
 ```
 account,balance = 100
@@ -66,6 +65,37 @@ B releases lock
 ```
 The lock forces the critical section to happen one transaction at a time.
 
+
+
+
+# What happens when a query is trying to read data that has an exclusive lock on it?
+- It depends on the database and the kind of read!
+- For a normal read:
+	- May wait, or may read an older committed version
+- For a locking read/write:
+	- Usually waits for the exclusive lock to release
+
+In an [[Multiversion Concurrency Control|MVCC]] database (e.g. [[PostgreSQL|Postgres]]), normal reads don't usually have to wait on a row-level write lock.
+
+But otherwise, most databases have a lock manager, tracking:
+- resource: accounts row id=1
+- current lock holder: transaction A
+- lock mode: exclusive/write
+- wait queue: transaction B, transaction C, ...
+
+If another operation requests an incompatible lock:
+1. DB checks lock compatibility
+2. Sees exclusive lock already held
+3. Puts requesting transaction into a wait queue
+4. Blocks/suspends that operation
+5. When transaction A commits or rolls back, A releases lock
+6. DB wakes one or more waiters
+7. Waiting transaction retries/acquires lock
+
+If the wait is too long, you may get:
+- lock timeout
+- statement timeout
+- deadlock detected
 
 
 

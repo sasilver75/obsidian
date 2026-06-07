@@ -103,7 +103,7 @@ Terms
 - [[Internet Corporation for Assigned Names and Numbers]] (ICANN): The organization that coordinates global domain names, IP address allocation policy, and internet naming governance.
 - [[Registrar]]: A company authorized to register and manage domain names for customers.
 - [[Internet Assigned Numbers Authority]] (IANA): The function that maintains global internet number, protocol, and DNS root zone registries.
-- [[Authoritative Namserver]]: A DNS server that holds the official records for a domain or zone.
+- [[Authoritative Nameserver]]: A DNS server that holds the official records for a domain or zone.
 - [[Root Nameserver]]: A DNS server at the top of the DNS hierarchy that directs resolvers toward top-level domain servers.
 - [[Recursive Resolver]]: A DNS resolver that performs lookups on behalf of clients and returns the final answer.
 - [[MAC Address]]: A hardware identifier used to address devices on a local link-layer network.

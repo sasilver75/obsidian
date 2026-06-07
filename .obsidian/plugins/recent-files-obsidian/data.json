@@ -1,8 +1,124 @@
 {
   "recentFiles": [
     {
+      "basename": "Lock",
+      "path": "Lock.md"
+    },
+    {
+      "basename": "Backend for Frontend",
+      "path": "Backend for Frontend.md"
+    },
+    {
+      "basename": "Read-Through Cache",
+      "path": "Read-Through Cache.md"
+    },
+    {
+      "basename": "Napkin Math",
+      "path": "Napkin Math.md"
+    },
+    {
+      "basename": "RAM",
+      "path": "RAM.md"
+    },
+    {
+      "basename": "Mutual TLS",
+      "path": "Mutual TLS.md"
+    },
+    {
+      "basename": "Authorization",
+      "path": "Authorization.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Authentication.md"
+    },
+    {
+      "basename": "Transport Layer Security",
+      "path": "Transport Layer Security.md"
+    },
+    {
+      "basename": "HMAC-based Key Derivation Function",
+      "path": "HMAC-based Key Derivation Function.md"
+    },
+    {
+      "basename": "Domain Name Service",
+      "path": "Domain Name Service.md"
+    },
+    {
+      "basename": "HTTP 2",
+      "path": "HTTP 2.md"
+    },
+    {
+      "basename": "Certificate",
+      "path": "Certificate.md"
+    },
+    {
+      "basename": "Authoritative Nameserver",
+      "path": "Authoritative Nameserver.md"
+    },
+    {
+      "basename": "HTTP 1.1",
+      "path": "HTTP 1.1.md"
+    },
+    {
+      "basename": "Transport Control Protocol",
+      "path": "Transport Control Protocol.md"
+    },
+    {
+      "basename": "Cryptography and Security (Index)",
+      "path": "Cryptography and Security (Index).md"
+    },
+    {
+      "basename": "Backpressure",
+      "path": "Backpressure.md"
+    },
+    {
+      "basename": "Retry Storm",
+      "path": "Retry Storm.md"
+    },
+    {
+      "basename": "Inbox Pattern",
+      "path": "Inbox Pattern.md"
+    },
+    {
+      "basename": "Transactional Outbox Pattern",
+      "path": "Transactional Outbox Pattern.md"
+    },
+    {
+      "basename": "Service Discovery",
+      "path": "Service Discovery.md"
+    },
+    {
+      "basename": "Reverse Proxy",
+      "path": "Reverse Proxy.md"
+    },
+    {
+      "basename": "Proxy",
+      "path": "Proxy.md"
+    },
+    {
+      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
+      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
+    },
+    {
+      "basename": "Port",
+      "path": "Port.md"
+    },
+    {
+      "basename": "N + 1 Query Problem",
+      "path": "N + 1 Query Problem.md"
+    },
+    {
       "basename": "Blob Storage",
       "path": "Blob Storage.md"
+    },
+    {
+      "basename": "Uniform Resource Identifier",
+      "path": "Uniform Resource Identifier.md"
+    },
+    {
+      "basename": "Uniform Resource Locator",
+      "path": "Uniform Resource Locator.md"
     },
     {
       "basename": "Cache",
@@ -83,122 +199,6 @@
     {
       "basename": "Amazon Simple Workflow Service",
       "path": "Amazon Simple Workflow Service.md"
-    },
-    {
-      "basename": "Amazon SQS",
-      "path": "Amazon SQS.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
-      "basename": "Beamforming",
-      "path": "Beamforming.md"
-    },
-    {
-      "basename": "Mobile Ad Hoc Network",
-      "path": "Mobile Ad Hoc Network.md"
-    },
-    {
-      "basename": "Direction Finding",
-      "path": "Direction Finding.md"
-    },
-    {
-      "basename": "Time to Live",
-      "path": "Time to Live.md"
-    },
-    {
-      "basename": "ExpressLRS",
-      "path": "ExpressLRS.md"
-    },
-    {
-      "basename": "Unicast",
-      "path": "Unicast.md"
-    },
-    {
-      "basename": "Multipurpose Internet Mail Extensions",
-      "path": "Multipurpose Internet Mail Extensions.md"
-    },
-    {
-      "basename": "Google Cloud Platform",
-      "path": "Google Cloud Platform.md"
-    },
-    {
-      "basename": "MX Record",
-      "path": "MX Record.md"
-    },
-    {
-      "basename": "Write-Around Cache",
-      "path": "Write-Around Cache.md"
-    },
-    {
-      "basename": "Multicast",
-      "path": "Multicast.md"
-    },
-    {
-      "basename": "Anycast",
-      "path": "Anycast.md"
-    },
-    {
-      "basename": "Broadcast",
-      "path": "Broadcast.md"
-    },
-    {
-      "basename": "File Transfer Protocol",
-      "path": "File Transfer Protocol.md"
-    },
-    {
-      "basename": "Long Range",
-      "path": "Long Range.md"
-    },
-    {
-      "basename": "Large-Scale, Long-Range Air Assault",
-      "path": "Large-Scale, Long-Range Air Assault.md"
-    },
-    {
-      "basename": "Cache Eviction Strategy",
-      "path": "Cache Eviction Strategy.md"
-    },
-    {
-      "basename": "Frequency-Shift Keying",
-      "path": "Frequency-Shift Keying.md"
-    },
-    {
-      "basename": "Positional Encoding",
-      "path": "Positional Encoding.md"
-    },
-    {
-      "basename": "Frequency-Based Positional Encoding",
-      "path": "Frequency-Based Positional Encoding.md"
-    },
-    {
-      "basename": "Electronic Warfare",
-      "path": "Electronic Warfare.md"
-    },
-    {
-      "basename": "Transceiver",
-      "path": "Transceiver.md"
-    },
-    {
-      "basename": "External Cache",
-      "path": "External Cache.md"
-    },
-    {
-      "basename": "Temporal",
-      "path": "Temporal.md"
-    },
-    {
-      "basename": "Software-Defined Radio",
-      "path": "Software-Defined Radio.md"
-    },
-    {
-      "basename": "Internet Assigned Numbers Authority",
-      "path": "Internet Assigned Numbers Authority.md"
-    },
-    {
-      "basename": "Simple Mail Transfer Protocol",
-      "path": "Simple Mail Transfer Protocol.md"
     }
   ],
   "omittedPaths": [],

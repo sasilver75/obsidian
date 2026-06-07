@@ -5,3 +5,7 @@ Different apps listen on different ports.
 - MySQL port often listens on 3306
 
 > Think of it as an apartment building; 2436 Main Street is an address ([[Internet Protocol|IP]] Address), while the apartment number is the port.
+
+
+Standard ports:
+- ...
