@@ -1,0 +1,4 @@
+---
+aliases:
+  - Block KD-Tree
+---

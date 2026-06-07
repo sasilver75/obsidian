@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Message Queue.md",
+                "file": "Redis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Message Queue"
+              "title": "Redis"
             }
           },
           {
-            "id": "f9a044360abe2a97",
+            "id": "83b3edaa208c304a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time to Live.md",
+                "file": "Idempotency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Time to Live"
+              "title": "Idempotency"
             }
           },
           {
-            "id": "609a787f606d34c1",
+            "id": "9c549fc47f89ec29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Write-Around Cache.md",
+                "file": "Saga.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Write-Around Cache"
+              "title": "Saga"
             }
           },
           {
-            "id": "ac8ab8e0cb257dd0",
+            "id": "83aaff4db565878d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Write-Around Cache.md",
+                "file": "Hot Spot.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Write-Around Cache"
+              "title": "Hot Spot"
             }
           },
           {
-            "id": "90a21bf99c76c965",
+            "id": "110d46e833866c3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "At-Most-Once Delivery.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,79 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cache"
-            }
-          },
-          {
-            "id": "1e2f29111d5ea25e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MX Record.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MX Record"
-            }
-          },
-          {
-            "id": "5286df46f69a2242",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Google Cloud Platform.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Google Cloud Platform"
-            }
-          },
-          {
-            "id": "95c0436bac21006e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multipurpose Internet Mail Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Multipurpose Internet Mail Extensions"
+              "title": "At-Most-Once Delivery"
             }
           }
         ]
@@ -2181,42 +2109,42 @@
   },
   "active": "bef563ce39654fa7",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260606142602.png",
-    "_attachments/Pasted image 20260606142417.png",
-    "_attachments/Pasted image 20260606142001.png",
-    "_attachments/Pasted image 20260606140946.png",
-    "Cache.md",
+    "API Gateway.md",
     "Message Queue.md",
-    "Write-Around Cache.md",
-    "_attachments/Pasted image 20260606140314.png",
-    "_attachments/Pasted image 20260606140001.png",
-    "_attachments/Pasted image 20260606135714.png",
-    "_attachments/Pasted image 20260606135457.png",
-    "Cache Eviction Strategy.md",
+    "Idempotency.md",
+    "Distributed Transaction.md",
+    "Saga.md",
+    "_attachments/Pasted image 20260606184120.png",
+    "_attachments/Pasted image 20260606183815.png",
+    "_attachments/Pasted image 20260606183806.png",
+    "_attachments/Pasted image 20260606182553.png",
+    "_attachments/Pasted image 20260606182004.png",
+    "_attachments/Pasted image 20260606181944.png",
+    "_attachments/Pasted image 20260606181408.png",
+    "_attachments/Pasted image 20260606180744.png",
+    "_attachments/Pasted image 20260606171704.png",
+    "Proximity Search.md",
+    "_attachments/Pasted image 20260606170127.png",
+    "Hot Spot.md",
+    "Alert.md",
+    "Dead Letter Queue.md",
+    "BKD Tree.md",
+    "Reticulum Network.md",
+    "Android Team Awareness Kit.md",
+    "Amazon Simple Workflow Service.md",
+    "Amazon SQS.md",
+    "At-Most-Once Delivery.md",
+    "Untitled.md",
+    "Beamforming.md",
+    "Mobile Ad Hoc Network.md",
+    "Direction Finding.md",
     "Time to Live.md",
-    "_attachments/Pasted image 20260606132746.png",
-    "_attachments/Pasted image 20260606132217.png",
-    "_attachments/Pasted image 20260606132103.png",
-    "Frequency-Shift Keying.md",
-    "MX Record.md",
-    "Positional Encoding.md",
-    "Frequency-Based Positional Encoding.md",
-    "Electronic Warfare.md",
-    "Transceiver.md",
-    "External Cache.md",
+    "ExpressLRS.md",
+    "Unicast.md",
     "Multipurpose Internet Mail Extensions.md",
-    "Temporal.md",
-    "Software-Defined Radio.md",
-    "Internet Assigned Numbers Authority.md",
-    "Simple Mail Transfer Protocol.md",
-    "Articles/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md",
-    "Internet Engineering Task Force.md",
-    "Internet Service Provider.md",
-    "Regional Internet Registry.md",
     "Google Cloud Platform.md",
-    "Amazon Web Services.md",
-    "Mimetype.md",
-    "Projection.md",
+    "MX Record.md",
+    "Cache.md",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",
