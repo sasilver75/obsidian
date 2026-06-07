@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis.md",
+                "file": "Blob Storage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,103 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Redis"
-            }
-          },
-          {
-            "id": "83b3edaa208c304a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Idempotency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Idempotency"
-            }
-          },
-          {
-            "id": "9c549fc47f89ec29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Saga.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Saga"
-            }
-          },
-          {
-            "id": "83aaff4db565878d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hot Spot.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hot Spot"
-            }
-          },
-          {
-            "id": "110d46e833866c3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "At-Most-Once Delivery.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "At-Most-Once Delivery"
+              "title": "Blob Storage"
             }
           }
         ]
@@ -2109,23 +2013,31 @@
   },
   "active": "bef563ce39654fa7",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260606212648.png",
+    "_attachments/Pasted image 20260606212435.png",
+    "_attachments/Pasted image 20260606212244.png",
+    "_attachments/Pasted image 20260606202147.png",
+    "_attachments/Pasted image 20260606201842.png",
+    "Cache.md",
+    "Redis.md",
+    "Stale-While-Revalidate.md",
+    "Request Coalescing.md",
+    "At-Most-Once Delivery.md",
+    "Hot Spot.md",
+    "Saga.md",
+    "Refresh-Ahead.md",
+    "Cache Stampede.md",
+    "Idempotency.md",
     "API Gateway.md",
     "Message Queue.md",
-    "Idempotency.md",
     "Distributed Transaction.md",
-    "Saga.md",
     "_attachments/Pasted image 20260606184120.png",
     "_attachments/Pasted image 20260606183815.png",
     "_attachments/Pasted image 20260606183806.png",
     "_attachments/Pasted image 20260606182553.png",
     "_attachments/Pasted image 20260606182004.png",
     "_attachments/Pasted image 20260606181944.png",
-    "_attachments/Pasted image 20260606181408.png",
-    "_attachments/Pasted image 20260606180744.png",
-    "_attachments/Pasted image 20260606171704.png",
     "Proximity Search.md",
-    "_attachments/Pasted image 20260606170127.png",
-    "Hot Spot.md",
     "Alert.md",
     "Dead Letter Queue.md",
     "BKD Tree.md",
@@ -2133,18 +2045,10 @@
     "Android Team Awareness Kit.md",
     "Amazon Simple Workflow Service.md",
     "Amazon SQS.md",
-    "At-Most-Once Delivery.md",
     "Untitled.md",
     "Beamforming.md",
     "Mobile Ad Hoc Network.md",
     "Direction Finding.md",
-    "Time to Live.md",
-    "ExpressLRS.md",
-    "Unicast.md",
-    "Multipurpose Internet Mail Extensions.md",
-    "Google Cloud Platform.md",
-    "MX Record.md",
-    "Cache.md",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",

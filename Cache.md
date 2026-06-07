@@ -9,6 +9,7 @@ Like databases, caches can and often should use [[Replication]] and [[Sharding]]
 
 We need to consider:
 - [[Cache Read Strategy]] (What do we do when the Cache misses? Does the Cache hit the backing datastore )
+	- ((I'm still not convinced that this is the umbrella term to use, or if it fits well.))
 	- [[Read-Through Cache|Read-Through]]
 	- [[Cache-Aside]]
 - [[Cache Write Strategy]] (What do we do when we want to write data?)
@@ -23,6 +24,8 @@ We need to consider:
 - [[Content Delivery Network]]
 - [[Cache Hit]]
 - [[Cache Miss]]
+- [[Refresh-Ahead]]
+- [[Stale-While-Revalidate]]
 
 _____________________
 SDIAH

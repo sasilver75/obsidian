@@ -16,7 +16,7 @@ Let's talk about how Redis works from an end-user perspective, then how it opera
 
 Redis is a **==single-threaded==**, **==in-memory==** **==datastructure server==.**
 - Single Threaded: In many databases, the order of operations is hard to grok; in Redis, it's quite simple! The first request to come in is the first one that runs, and everyone else waits! This makes Redis simple to understand.
-- In-Memory: It's lightning fast, able to respond in sub-millisecond times, especially for operations like sets and gets. It also means that you can't necessarily guarantee the durability of data. With SQL databases, you need to "batch your requests together, or you run the risk of the N+1 problem. With Redis, you can fire off thousands of requests and the server will happliy return its results to you."
+- In-Memory: It's lightning fast, able to respond in sub-millisecond times, especially for operations like sets and gets. It also means that you can't necessarily guarantee the durability of data. With SQL databases, you need to "batch your requests together, or you run the risk of the N+1 problem. With Redis, you can fire off thousands of requests and the server will happily return its results to you."
 - Datastructure server: The core of Redis is this key-value dictionary, but Redis values don't necessarily needs to be strings or numbers or binary blobs: They can also be sorted sets, or hashes, or geospatial indexes, or bloom filters!
 	- Redis gives you a way to use familiar data structures in a distributed fashion, so that you can use all the knowledge you've accumulated in building up datastructure and algorithms expertise and bring it into a system design context.
 
@@ -70,7 +70,7 @@ While you can run Redis on a single node (in a single thread), it can basically 
 	- We talked about the **atomic increment** command earlier, which increments a key if it exists (if it doesn't exist, sets it to 1); it's basically count++
 	- Idea: If this value is over the limit (5 here), we don't want to make the request. If it's under that, that means we have space, and we can proceed with the request. The next thing we want to do is to make sure that this key gets expired. We're going to make sure that we expire this key in 60 seconds.
 		- This will let requests proceed through, and after 60 seconds, that key gets automatically "zeroed out" and subsequently the service can begin to make request again.
-- This doesn't behave particulary well when Rate Limits are under extreme stress. If I had 60 requests I needed to make, then all of my services are hitting Redis at the same time, and I don't have have any ordering enforced, I might be starving one of the services.
+- This doesn't behave particularly well when Rate Limits are under extreme stress. If I had 60 requests I needed to make, then all of my services are hitting Redis at the same time, and I don't have have any ordering enforced, I might be starving one of the services.
 - So ==there's a lot here to talk about in a system design interview, how you set the limits, what's most appropriate with respect to asserting fairness, etc.== This is the most basic implementation of a Rate Limiter; there are a lot of other structures that we could use that include Windows and give clients an idea about when they might be next in line, etc.
 	- Keep in mind that there are a lot of logistics that can go into this depending on the needs of your system; sometimes something simple is great.
 

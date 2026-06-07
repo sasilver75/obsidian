@@ -5,15 +5,15 @@ It trades extra background work for fewer cache misses and lower read latency.
 
 This is a policy that has to be implemented by application code, a cache library, a worker, etc. To refresh a cache entry, *something* must know both the cache key and the loader function for rebuilding it. Redis itself may know that `product:123` expires soon, but it doesn't know how to fetch product 123 from your DB and rebuild the cached JSON.
 
-A common implementation is read-triggered:
+A common implementation is ==read-triggered==:
 - read `product:123`
 - cache hit
 - entry is still fresh, but expires in 5 seconds
 - return cached value immediately
 - enqueue background refresh for product:123. which loads fresh data from the DB/API and writes a new cache value with a new TTL.
-(Pretty similar to [[Stale-While-Revalidate]], mechanically)
+(Pretty similar to [[Stale-While-Revalidate]], mechanically, imo)
 
-Another implementation is worker-driven:
+Another implementation is ==worker-driven==:
 - A job periodically refreshes known hot keys:
 	- Every minute:
 		- Get top dashboard/product/feed keys

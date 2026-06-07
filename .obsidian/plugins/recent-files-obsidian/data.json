@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Blob Storage",
+      "path": "Blob Storage.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
       "basename": "Redis",
       "path": "Redis.md"
+    },
+    {
+      "basename": "Stale-While-Revalidate",
+      "path": "Stale-While-Revalidate.md"
+    },
+    {
+      "basename": "Request Coalescing",
+      "path": "Request Coalescing.md"
+    },
+    {
+      "basename": "At-Most-Once Delivery",
+      "path": "At-Most-Once Delivery.md"
+    },
+    {
+      "basename": "Hot Spot",
+      "path": "Hot Spot.md"
+    },
+    {
+      "basename": "Saga",
+      "path": "Saga.md"
+    },
+    {
+      "basename": "Refresh-Ahead",
+      "path": "Refresh-Ahead.md"
+    },
+    {
+      "basename": "Cache Stampede",
+      "path": "Cache Stampede.md"
+    },
+    {
+      "basename": "Idempotency",
+      "path": "Idempotency.md"
     },
     {
       "basename": "API Gateway",
@@ -13,24 +53,12 @@
       "path": "Message Queue.md"
     },
     {
-      "basename": "Idempotency",
-      "path": "Idempotency.md"
-    },
-    {
       "basename": "Distributed Transaction",
       "path": "Distributed Transaction.md"
     },
     {
-      "basename": "Saga",
-      "path": "Saga.md"
-    },
-    {
       "basename": "Proximity Search",
       "path": "Proximity Search.md"
-    },
-    {
-      "basename": "Hot Spot",
-      "path": "Hot Spot.md"
     },
     {
       "basename": "Alert",
@@ -59,10 +87,6 @@
     {
       "basename": "Amazon SQS",
       "path": "Amazon SQS.md"
-    },
-    {
-      "basename": "At-Most-Once Delivery",
-      "path": "At-Most-Once Delivery.md"
     },
     {
       "basename": "Untitled",
@@ -103,10 +127,6 @@
     {
       "basename": "MX Record",
       "path": "MX Record.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
     },
     {
       "basename": "Write-Around Cache",
@@ -179,26 +199,6 @@
     {
       "basename": "Simple Mail Transfer Protocol",
       "path": "Simple Mail Transfer Protocol.md"
-    },
-    {
-      "basename": "Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}",
-      "path": "Articles/Mixture-of-Experts (MoE) - The Birth and Rise of Conditional Computation (Mar 2024) {Cameron Wolfe Deep Learning Focus Newsletter}.md"
-    },
-    {
-      "basename": "Internet Engineering Task Force",
-      "path": "Internet Engineering Task Force.md"
-    },
-    {
-      "basename": "Internet Service Provider",
-      "path": "Internet Service Provider.md"
-    },
-    {
-      "basename": "Regional Internet Registry",
-      "path": "Regional Internet Registry.md"
-    },
-    {
-      "basename": "Amazon Web Services",
-      "path": "Amazon Web Services.md"
     }
   ],
   "omittedPaths": [],
