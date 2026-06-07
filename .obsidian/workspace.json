@@ -8,84 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1cc7a2fa88fa2758",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mutual TLS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mutual TLS"
-            }
-          },
-          {
-            "id": "d3c39383fade9e5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lock.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Lock"
-            }
-          },
-          {
-            "id": "7c99233e80bcc45c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RAM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RAM"
-            }
-          },
-          {
             "id": "19d9938c651e82e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authorization.md",
+                "file": "TLS Termination.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Authorization"
+              "title": "TLS Termination"
             }
           },
           {
@@ -175,8 +103,7 @@
               "title": "Authoritative Nameserver"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2166,15 +2093,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d3c39383fade9e5f",
+  "active": "19d9938c651e82e5",
   "lastOpenFiles": [
+    "TCP Termination.md",
+    "Authorization.md",
+    "RAM.md",
+    "Lock.md",
+    "Mutual TLS.md",
     "Backend for Frontend.md",
     "Read-Through Cache.md",
     "_attachments/Pasted image 20260607103404.png",
     "Napkin Math.md",
-    "RAM.md",
-    "Mutual TLS.md",
-    "Authorization.md",
     "Authentication.md",
     "Transport Layer Security.md",
     "HMAC-based Key Derivation Function.md",
@@ -2193,8 +2122,6 @@
     "Service Discovery.md",
     "Reverse Proxy.md",
     "Proxy.md",
-    "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md",
-    "Port.md",
     "_attachments/Pasted image 20260606212648.png",
     "_attachments/Pasted image 20260606212435.png",
     "_attachments/Pasted image 20260606212244.png",

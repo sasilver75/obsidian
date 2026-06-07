@@ -13,6 +13,17 @@ App Server
 The client doesn't maintain a TCP connection to the app server, it's connected to the intermediary.
 
 
+_______
+
+Termination means "this layer of the connection ends here."
+
+In infra diagrams, it usually means a proxy/load balancer/API becomes the endpoint for that protocol, and then starts a separate connection upstream.
+
+`client -> TCP connection -> load balancer`
+`load balancer -> separate TCP connection -> backend service`
+
+The backend is not on the same TCP connection as the client. The load balancer receives bytes from the client, then forwards them over another connection.
+
 
 
 

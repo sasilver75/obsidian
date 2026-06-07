@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "TLS Termination",
+      "path": "TLS Termination.md"
+    },
+    {
+      "basename": "TCP Termination",
+      "path": "TCP Termination.md"
+    },
+    {
+      "basename": "Authorization",
+      "path": "Authorization.md"
+    },
+    {
+      "basename": "RAM",
+      "path": "RAM.md"
+    },
+    {
       "basename": "Lock",
       "path": "Lock.md"
+    },
+    {
+      "basename": "Mutual TLS",
+      "path": "Mutual TLS.md"
     },
     {
       "basename": "Backend for Frontend",
@@ -15,18 +35,6 @@
     {
       "basename": "Napkin Math",
       "path": "Napkin Math.md"
-    },
-    {
-      "basename": "RAM",
-      "path": "RAM.md"
-    },
-    {
-      "basename": "Mutual TLS",
-      "path": "Mutual TLS.md"
-    },
-    {
-      "basename": "Authorization",
-      "path": "Authorization.md"
     },
     {
       "basename": "Authentication",
@@ -191,14 +199,6 @@
     {
       "basename": "Reticulum Network",
       "path": "Reticulum Network.md"
-    },
-    {
-      "basename": "Android Team Awareness Kit",
-      "path": "Android Team Awareness Kit.md"
-    },
-    {
-      "basename": "Amazon Simple Workflow Service",
-      "path": "Amazon Simple Workflow Service.md"
     }
   ],
   "omittedPaths": [],

@@ -47,3 +47,47 @@ Forwarded: for=...; proto=https: host=...
 ```
 Apps need these for redirects, [[Logging]], [[Rate Limiting]], Auth callback URLS, security decisions.
 
+
+______________
+
+TLS Termination means the encrypted HTTPS connection ends at the intermediary.
+
+`client -> encrypted TLS -> API gateway / load balancer`
+`API gateway decrypts HTTP`
+`API gateway -> backend`
+
+Once TLS is terminated, the gateway can see the HTTP request:
+```
+method: GET
+path: /v1/orders
+headers
+cookies
+body
+```
+Then may it forward to the backend either:
+- plaintext HTTP
+- a new HTTPS/TLS connection
+
+So common patterns are:
+- TLS termination at the edge, plaintext internally
+- TLS termination at the edge, re-encrypted to backend
+- TLS passes through the edge, terminates at backend
+- [[Mutual TLS|mTLS]] between proxies/services internally
+
+Why it matters:
+- TLS termination is important because many gateway features require decrypted HTTP traffic
+```
+route by path/header
+authenticate requests
+rate limit by user/API key
+apply WAF rules
+inspect cookies/JWTs
+log HTTP metadata
+compress responses
+cache responses
+rewrite headers
+```
+
+
+If TLS is NOT terminated and is just passed through, the intermediary mostly sees: source IP, destination IP, port, maybe SNI hostname, packet/connection metadata. It can't inspect `/api/users` vs `/api/payments` because that's inside encrypted HTTP.
+- So both [[API Gateway]]s and [[Layer 7 Load Balancer]]s both often do [[TLS Termination]] (and [[TCP Termination]])
