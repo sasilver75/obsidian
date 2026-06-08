@@ -75,7 +75,7 @@ MVCC gives better concurrency, but has both benefits and costs!
 	- Avoids [[Dirty Read]]s
 - Costs
 	- Old row versions must be stored
-	- Cleanup/[[Vaccuum]]/garbage collection is needed.
+	- Cleanup/[[Vacuum]]/garbage collection is needed.
 	- Long-running transactions can keep old versions alive.
 	- More complex internals and visibility rules.
 

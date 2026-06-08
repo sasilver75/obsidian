@@ -57,7 +57,7 @@ References:
 - Document-level profanity and PPII filters are followed by an extraction and quality filtering pipeline:
 	1. Body extraction using a combination of Safari's reader mode and the ==Boilerpipe== (2010) algorithm.
 	2. Safety and profanity filtering, using both heuristics and model-based classifiers.
-	3. Global fuzzy deduplication using [[Locality Sensitive Hashing]]
+	3. Global fuzzy deduplication using [[Locality-Sensitive Hashing]]
 	4. Extensive quality filtering using both heuristics and model-based classifiers (cites [[DataComp-LM]])
 	5. Decontamination against 811 common pre-training benchmarks, filtering entire documents upon 4-13 gram collisions with any of the benchmark datasets, unless the collision count for a given n-gram reaches a "common usage" threshold of 1,000.
 - Apple also licenses a limited amount of high-quality data from publishers, which they similarly decontaminate.

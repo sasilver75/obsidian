@@ -12,7 +12,8 @@ Common Model:
 	- Server verifies credentials
 	- Server creates session
 	- Client stores session identifier, usually in a [[Cookie]]
-		- e.g. `session_id=abc123`
+		- e.g. `session_id=abc123` ; this "abc123" is typically a long random value
+		- This cookie typically has a limited lifetime and is revocable.
 	- Browser sends cookie on future requests
 		- Important flags:
 			- `HttpOnly`
@@ -25,6 +26,23 @@ Common Model:
 
 +: Easy to revoke, small cookie, sensitive data stays server-side
 -: Requires shared session storage, adds a lookup on each request
+
+The server-side session record that uses the client-side cookie (opaque random id) to look up in (e.g.) Redis might look something like:
+```json
+{
+    "session_id_hash": "sha256:...",
+    "user_id": "user_42",
+    "created_at": "2026-06-08T10:00:00Z",
+    "last_seen_at": "2026-06-08T10:42:00Z",
+    "expires_at": "2026-06-08T18:00:00Z",
+    "auth_level": "password+mfa",
+    "roles": ["admin"],
+    "csrf_token_hash": "sha256:...",
+    "ip_prefix": "203.0.113.0/24",
+    "user_agent_hash": "sha256:..."
+  }
+```
+In practice, on the server-side session store, you often store a [[Hash]] of the session ID (the abc123 opaque token), rather than the raw value itself, so that a database leak doesn't immediately become a list of usable sessions. When a client sends their session ID, the server hashes it and looks up the session in the database.
 
 
 # 2) Stateless Token Sessions

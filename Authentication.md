@@ -57,7 +57,13 @@ The process of verifying that someone or something is who they claim to be.
 - With a session, the cookie usually contains a random ID:
 ```
 cookie: session_id=abc123
-server: looks up abc123 in Database/Redis
+server: looks up abc123 in Database/Redis, and gets something like:
+
+{
+	"user_id": "user_42",
+	"expires_at": "...",
+	"roles": ["admin"]
+}
 ```
 
 - With a JWT, the token contains signed user data:

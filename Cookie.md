@@ -14,3 +14,5 @@ Important cookie attributes:
 - `Expires` / `Max-Age`: controls lifetime.
 
 For [[Authentication]], a secure `HttpOnly` cookie is usually safer than putting a token in [[Local Storage]], because [[Cross-Site Scripting|XSS]] cannot directly read it.
+
+

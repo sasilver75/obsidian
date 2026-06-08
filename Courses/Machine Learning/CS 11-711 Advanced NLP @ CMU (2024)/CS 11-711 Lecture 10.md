@@ -61,7 +61,7 @@ On the right side, the values in the lists are the indices of documents that con
 	- There exist methods for [[Approximate Nearest Neighbor Search]], which allow us to retrieve embeddings with maximum inner product (MIPS) with sub-linear time.
 ![[Pasted image 20240615221641.png]]
 There are two popular methods:
-- [[Locality Sensitive Hashing]]: You make partitions in continuous space, and then use it like an [[Inverted Index]].
+- [[Locality-Sensitive Hashing]]: You make partitions in continuous space, and then use it like an [[Inverted Index]].
 	- Let's say we have a bunch of embeddings (say they're shown in 2d space). We define a bunch of planes that separate these points into two spaces. 
 	- A given point can then be described by whether it's on the right/wrong side of every plane, which creates a sparse vector.
 	- We know that sparse vectors can be looked up in an inverted index table!

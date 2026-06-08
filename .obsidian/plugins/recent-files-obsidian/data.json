@@ -1,8 +1,112 @@
 {
   "recentFiles": [
     {
+      "basename": "Session",
+      "path": "Session.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Authentication.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Cookie.md"
+    },
+    {
+      "basename": "Refresh Token",
+      "path": "Refresh Token.md"
+    },
+    {
+      "basename": "OpenID Connect",
+      "path": "OpenID Connect.md"
+    },
+    {
+      "basename": "OAuth",
+      "path": "OAuth.md"
+    },
+    {
       "basename": "System Design (Index)",
       "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Bulkhead",
+      "path": "Bulkhead.md"
+    },
+    {
+      "basename": "Vacuum",
+      "path": "Vacuum.md"
+    },
+    {
+      "basename": "Circuit Breaker",
+      "path": "Circuit Breaker.md"
+    },
+    {
+      "basename": "Wide-Column",
+      "path": "Wide-Column.md"
+    },
+    {
+      "basename": "Google Bigtable",
+      "path": "Google Bigtable.md"
+    },
+    {
+      "basename": "Apache Cassandra",
+      "path": "Apache Cassandra.md"
+    },
+    {
+      "basename": "Count-Min Sketch",
+      "path": "Count-Min Sketch.md"
+    },
+    {
+      "basename": "Bloom Filter",
+      "path": "Bloom Filter.md"
+    },
+    {
+      "basename": "Failover",
+      "path": "Failover.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
+      "basename": "Logical Replication",
+      "path": "Logical Replication.md"
+    },
+    {
+      "basename": "Priority Queue",
+      "path": "Priority Queue.md"
+    },
+    {
+      "basename": "Probabilistic Data Structure",
+      "path": "Probabilistic Data Structure.md"
+    },
+    {
+      "basename": "Locality-Sensitive Hashing",
+      "path": "Locality-Sensitive Hashing.md"
+    },
+    {
+      "basename": "Cuckoo Filter",
+      "path": "Cuckoo Filter.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
+      "basename": "Browser Storage",
+      "path": "Browser Storage.md"
+    },
+    {
+      "basename": "Logical Clock",
+      "path": "Logical Clock.md"
+    },
+    {
+      "basename": "MinHash",
+      "path": "MinHash.md"
+    },
+    {
+      "basename": "Hash Set",
+      "path": "Hash Set.md"
     },
     {
       "basename": "Pagination",
@@ -93,112 +197,8 @@
       "path": "Progressive Web Application.md"
     },
     {
-      "basename": "Cookie",
-      "path": "Cookie.md"
-    },
-    {
       "basename": "IndexedDB",
       "path": "IndexedDB.md"
-    },
-    {
-      "basename": "Local Storage",
-      "path": "Local Storage.md"
-    },
-    {
-      "basename": "Session Storage",
-      "path": "Session Storage.md"
-    },
-    {
-      "basename": "Compare-and-Swap",
-      "path": "Compare-and-Swap.md"
-    },
-    {
-      "basename": "Garbage Collection",
-      "path": "Garbage Collection.md"
-    },
-    {
-      "basename": "Snapshot Isolation",
-      "path": "Snapshot Isolation.md"
-    },
-    {
-      "basename": "Intermediate System to Intermediate System",
-      "path": "Intermediate System to Intermediate System.md"
-    },
-    {
-      "basename": "Distributed Consensus",
-      "path": "Distributed Consensus.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "Modular Monolith",
-      "path": "Modular Monolith.md"
-    },
-    {
-      "basename": "Microservice",
-      "path": "Microservice.md"
-    },
-    {
-      "basename": "Browser Storage",
-      "path": "Browser Storage.md"
-    },
-    {
-      "basename": "Monolith",
-      "path": "Monolith.md"
-    },
-    {
-      "basename": "Service Worker",
-      "path": "Service Worker.md"
-    },
-    {
-      "basename": "Saga",
-      "path": "Saga.md"
-    },
-    {
-      "basename": "Open Shortest Path First",
-      "path": "Open Shortest Path First.md"
-    },
-    {
-      "basename": "Cache API",
-      "path": "Cache API.md"
-    },
-    {
-      "basename": "Clustered Index",
-      "path": "Clustered Index.md"
-    },
-    {
-      "basename": "Log-Structured Merge Tree",
-      "path": "Log-Structured Merge Tree.md"
-    },
-    {
-      "basename": "SST",
-      "path": "SST.md"
-    },
-    {
-      "basename": "Apache Cassandra",
-      "path": "Apache Cassandra.md"
-    },
-    {
-      "basename": "Sorted String Table",
-      "path": "Sorted String Table.md"
-    },
-    {
-      "basename": "Stale-While-Revalidate",
-      "path": "Stale-While-Revalidate.md"
-    },
-    {
-      "basename": "Content Delivery Network",
-      "path": "Content Delivery Network.md"
-    },
-    {
-      "basename": "Replication",
-      "path": "Replication.md"
-    },
-    {
-      "basename": "Load Balancing Strategy",
-      "path": "Load Balancing Strategy.md"
     }
   ],
   "omittedPaths": [],

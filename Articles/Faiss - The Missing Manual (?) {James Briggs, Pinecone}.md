@@ -244,7 +244,7 @@ How can we make our search faster?
 
 
 ### Locality-Sensitive Hashing (LSH)
-- In [[Locality Sensitive Hashing]] (LSH), a wide range of performances are heavily dependent on the parameters set. Good quality results in slower search, and fast search results in worse quality. Poor performance for high-dimensional data.
+- In [[Locality-Sensitive Hashing]] (LSH), a wide range of performances are heavily dependent on the parameters set. Good quality results in slower search, and fast search results in worse quality. Poor performance for high-dimensional data.
 - Locality Sensitive Hashing (LSH) ==works by grouping vectors into buckets by processing each vector through a hash function that maximizes hashing collisions -- rather than minimizing, as is usual with hashing functions==.
 ![[Pasted image 20240613104914.png|300]]
 Python dictionaries are examples of hash tables using typical hashing functions that *minimize* hashing collisions -- for LSH, we instead want to *maximize* hashing conditions.
@@ -341,7 +341,7 @@ D, I = index.search(xq, k)
 
 
 ## Chapter 3: Locality Sensitive Hashing (LSH): The Illustrated Guide
-- [[Locality Sensitive Hashing]] (LSH) is one of the original techniques for producing high-quality search, while maintaining lightning fast sublinear search speeds.
+- [[Locality-Sensitive Hashing]] (LSH) is one of the original techniques for producing high-quality search, while maintaining lightning fast sublinear search speeds.
 
 - LSH consists of a variety of different methods; in this article, we'll cover the traditional approach, which consists of multiple steps:
 	- Shingling

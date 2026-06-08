@@ -70,7 +70,7 @@ Reference:
 		1. Filter out illegal and toxic conversations
 		2. Remove conversations with instruction lengths less than 10
 		3. Eliminate duplicate instructions with prefixes of 10
-		4. Employ a [[MinHash]] [[Locality Sensitive Hashing|LSH]] technique for data deduplication
+		4. Employ a [[MinHash]] [[Locality-Sensitive Hashing|LSH]] technique for data deduplication
 		5. Used an embedding model (gte-large) to exclude instructions from the top 5 matches in semantic similarity with benchmarks (eg MT-Bench, AlpcaEval, OpenLLM leaderboard) to prevent test set leakage
 		6. Removed all non-english instructions.
 	- This yielded a refined ==276K instruction dataset== D, which they randomly split into 9 parts.

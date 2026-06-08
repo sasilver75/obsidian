@@ -1,3 +1,223 @@
+---
+aliases:
+  - Remote Dictionary Server
+---
+An in-memory datastructure database (think: "Networked data structure server"). A very fast server that stores named keys, where each key points to some typed value such as a hash, list, set, sorted set, stream, JSON document, time series, or vector index.
+> "An in-memory store with built-in [[Replication]], persistence, complex data types, and atomic operations"
+- It's highly useful in a variety of use cases:
+	- [[Cache]]
+	- [[Message Queue]]
+	- Streaming Engine
+	- [[Vector Database]]
+	- Real-time coordination layer
+
+Instead of asking Redis to store tables and rows, you ask it to operate on named structures:
+```
+SET session:abc123 "user-42" EX 3600
+HSET user:42 name "Ada" plan "pro"
+INCR pageviews:/pricing
+ZADD leaderboard 9812 "user-42"
+XADD events:orders * order_id 1001 status paid
+```
+Each command is small, direct, and usually maps to a specific data-structure operation. 
+
+# How Redis Words
+- Redis stores its active dataset primarily in ==RAM==.
+- Clients connect over the ==Redis protocol==, send commands, and receive replies. The protocol supports pipelining, so clients can send many commands before waiting for responses, reducing network round trips.
+- Redis command execution is mostly ==single-threaded==: one main execution path processes commands sequentially, which avoids locking overhead and makes individual commands atomic.
+	- Modern Redis can use background threads for some I/O work, but command execution still follows the single-threaded mental model.
+
+- Data is already in-memory
+- Commands are simple and data-structure aware
+- The server avoids heavyweight query planning
+- The event loop is efficient
+- Atomic single-command operations avoid many coordination costs (e.g. [[Lock|Locking]])
+
+### Keys and Values
+- Every Redis value is stored under a key, which conventionally are colon-separated names:
+```
+user:42
+session:abc123
+rate-limit:ip:203.0.113.10
+cart:user:42
+```
+- So Redis doesn't have real namespaces in the SQL schema sense; the colon convention is just naming discipline, but matters a lot for maintainability.
+- Keys can ==expire==: `SET <key> <value> EX 900` stores a token for 15 minutes (900 seconds).
+
+
+### Data Structures
+- Strings
+- Hashes: field-value maps under one key (user profiles, object metadata, compact records)
+	- (In Redis parlance, this doesn't refer to a hash value, it means a map/dictionary/object stored under one Redis key. Use Hashes when the object is flat, and use Redis JSON when the object is deeply nested.)
+- Lists: Ordered sequences (simple queues, recent activity, stacks)
+- Sets: Unordered unique members (membership checks, tags, deduplication)
+- Sorted Sets: Unique members sorted by some numeric score (leaderboards, [[Priority Queue]], rankings)
+- Streams: Append-only event logs with consumer groups. Useful for event processing, background work, audit trails, and moderate streaming workloads.
+- JSON: Structured document storage and querying
+- Bitmaps/bitfields: Compact boolean or integer tracking, such as daily active users
+- [[HyperLogLog]]: Approximate cardinality, such as unique visitors.
+- [[Bloom Filter]] and [[Cuckoo Filter]]: Probabilistic membership checks, such as "have we probably seen this before?"
+- Time series: Timestamped metrics and samples
+- Geospatial indexes: For location lookup by radius or distance (e.g. [[Proximity Search]])
+- Vector sets/search: For [[Vector Search|Semantic Search]]
+
+# Redis Key Best Practices
+
+Oftentimes a good Redis key can encode:
+```
+<domain>:<version>:<entity-type>:<entity-id>:<thhing>
+```
+The version gives us a cheap way to invalidate or change the meaning of a whole group of keys without deleting them one by one.
+Examples:
+- Caching
+	- `cache:v1:user:123:profile`
+	- `cache:v1:user:123:settings`
+	- `cache:v1:product:sku_ABC123:detail`
+	- `cache:v1:org:42:billing-plan`
+	- `cache:v1:post:984:comments:page:1
+- Sessions
+	- `session:sess_abc123`: Stores a logged-in user session, usually has a TTL.
+- Permissions
+	- `authz:v1:user:123:permissions`: Stores computed permissions/roles for a user.
+- External API responses
+	- `api:v1:weather:zip:94107`: Caches a response from an external API
+- An HTTP response from our application
+	- `http:v1:GET:sha256:8f14e45fceea...`: Here, you usually hash the full URLU/query/body instead of putting a giant URL in the key. The value is the response -- either just the body or a full JSON serialization of the status/headers/body.
+- A DB query result:
+	- `query:v1:user-orders:user:123:page:2:sort:created_desc`: The query + parameters in key, mapped to result.
+- Rate-limiting counters:
+	- `rl:v1:expensive-service:user:123:60s`
+	- `rl:v1:login:ip:203.0.113.10:60s`
+- Distributed lock keys, usually set with `NX` and a short TTL:
+	- `lock:v1:invoice:555`
+- [[Idempotency|Idempotency Key]]s to remember that some event was processed:
+	- `idem:v1:stripe-webhook:event:evt_123`
+	- `idem:v1:payment:req_7xK9` : A client-provided Idempotency-Key, with a value that looks like the below, so that if the same idempotency key comes in again, you compare the new request hash to the stored requestHash.
+		- If the client doesn't provide a key, the server can derive one from stable request fields, hashing them and creating a redis key like `idem:v1:payment:user:123:sha256:9f86d...`, with the value shown below
+		- In both cases, the hash should be computed from some **canonical representation**; the same request should produce the same bytes before hashing.
+```
+# Value in the Client-provides-Idempotency-Key scenario
+{
+    "status": "completed",
+    "requestHash": "sha256:abc123...",
+    "response": {
+      "paymentId": "pay_456",
+      "status": "succeeded"
+    },
+    "createdAt": "2026-06-08T20:40:00Z"
+}
+
+# Value in the Cilent-dosn't-provide-key scneario
+{
+    "status": "completed",
+    "response": {
+      "paymentId": "pay_456",
+      "status": "succeeded"
+    },
+    "createdAt": "2026-06-08T20:40:00Z"
+}
+```
+- Cached home feed/timeline
+	- `feed:v1:user:123:home`
+- Short-lived "user is online" marker
+	- `presernce:v1:user:123`
+
+Sometimes for counters or hot-write cases, you might see sharded keys:
+- `counter:v1:views:video:999:shard:0`
+- `counter:v1:views:video:999:shard:1`
+- `counter:v1:views:video:999:shard:2`
+And then reads will sum all shards
+
+Note: Keys with `{...}` use the text inside the braces as the hash target!
+- `cart:{user:123}:items`
+- `cart:{user:123}:total`
+These two keys go to the same shard, which is useful if you need multi-key operations.
+
+
+# Persistence
+- Although Redis is memory-first, it *can* persist data to disk for use as a backup. 
+- ==There are two classic persistence modes==
+	- RDB (Redis Database): Performs compact point-in-time snapshots of your dataset at specified intervals. Good for backups and disaster recovery.
+	- AOF (Append-only File): Logs every write operation received by the server. These operations can be replayed again at server startup, reconstructing the original dataset. Commands are logged using the same format as the Redis protocol itself (([[Physical Replication]]?)).
+- Redis can use both at the same time! If both are enabled, Redis uses AOF on restart, because that's a more complete reconstruction of the dataset.
+
+# Replication and High-Availability
+- Redis supports [[Single-Leader]] replication: A primary accepts writes, and replicas copy the primary's data stream via [[Asynchronous Replication]], meaning acked writes can be lost during failover.
+	- Replicas can serve reads in some architectures, support failovers, and provide redundancy.
+- ==Redis has two major High-Availability approaches==:
+	- Redis Sentinel: Monitors Redis instances and coordinates failover for non-clustered deployments.
+	- Redis Cluster: Shards data across multiple primary nodes and can promote replicas during failures.
+
+# Redis Clustering
+- Redis Cluster partitions keys across hash ==slots==. Each key belongs to one of 16384 slots, and slots are assigned to nodes. 
+- Clients either know the slot map (the mapping of slots to nodes or get redirected to the right node.
+- Cluster mode has important implications:
+	- Single-key commands work naturally
+	- Multi-key operations work only when the relevant keys are in the same hash slot.
+		- Hash tags like `user:{42}:profile` and `user:{42}:cart` can force related keys into the same slot.
+- Cluster uses asynchronous replication, so failover can lose recent writes in some failure windwos.
+
+# Transactions and Atomicity
+- Every single Redis command is atomic. If you run `INCR counter`, no other command interleaves halfway through that increment.
+- Redis also has transactions using `MULTI`, `EXEC`, `DISCARD`, and `WATCH`. Transactions queue commands and execute them sequentially as one isolated block (you don't need locks if you're doing single-threaded execution and just bunch your commands together in execution order!).
+- Redis also supports [[Lua]] scripting and REdis functions for service-side logic. These are useful when you need multiple reads/writes to happen atomically without round trips.
+
+# Eviction and Memory Management
+- Redis is often configured with a `maxmemory` limit. When memory fills, Redis can reject writes or evict keys depending on policy.
+- Common eviction policies include:
+	- `noeviction`: Return errors when memory is full
+	- `allkeys-lru`: Evict [[Least Recently Used]] keys. Common for caches.
+	- `allkeys-lfu`: Evict [[Least Frequently Used]] keys. Common for caches.
+	- `allkeys-random`: Evict random keys
+	- `volatile-lru`, `volatile-lfu`, etc: Evict only keys with TTLs
+
+
+# Messaging: Pub/Sub vs Streams
+- Redis has ==two different messaging styles:==
+	- Pub/Sub is fire-and-forget broadcasting. Subscribers receive messages while connected. Good for live notifications, invalidations, chat fanout, and lightweight event propagation.
+	- Streams are persistent append-only logs. Consumers can read, ack, retry, and use [[Consumer Group]]s. Streams are better for job processing, event pipelines, and systems that need replay or at-least-once delivery.
+
+# Practical Applications of Redis
+- [[Cache]]: Store database query results, rendered pages, API responses, permissions, product catalogs
+- [[Session]] Store: Keep login/session data with TTLs across many app servers
+- [[Rate Limiting]]: Use `INCR` plus expiration, sorted sets, or Lua scripts for token buckets/sliding windows
+- Leaderboards: Sorted sets make ranking natural
+- [[Message Queue]]s: Lists for simple queues, streams for durable/observable queues
+- Real-Time Analytics: Counters, [[HyperLogLog]], bitmaps, time series
+- Deduplication: Sets or [[Bloom Filter]]s
+- Feature flags/config: Fast shared reads across services
+- [[Distributed Lock]]s: Possible, but must be designed carefully; avoid casual locking for critical correctness
+- Presence systems: Track online user with expiring keys or sets
+- Shopping carts: Hashes or JSON documents
+- Geospatial apps: Nearby drivers, stores, devices, events 
+- Search and filtering: Redis Query Engine / ReiSearch-style indexing
+- AI/RAG systems: Vector search, semantic cache, conversation memory, retrieval context
+
+Caching Patterns:
+- The most common is [[Cache-Aside]], where the application server asks redis for `product:123`, and if it's not found, goes to the backing datastore, gets it, and places the entry in the cache.
+- Other patterns:
+	- [[Write-Through Cache|Write-Through]]: Write to cache and database together
+	- [[Write-Back Cache|Write-Behind]]: Write to cache first, persist later; faster but riskier
+	- [[Refresh-Ahead]]: Refresh hot keys before expiration
+	- Negative Caching: Cache "not found" briefly to avoid repeated expensive misses
+	- Dogpile prevention: Use locks or [[Stale-While-Revalidate]] so that many clients don't regenerate the same value at once in a [[Cache Stampede|Thundering Herd]].
+
+
+# Footguns
+- Running `KEYS *` in production on large datasets; use `SCAN`
+- Storing huge values that block the event loop
+- Letting lists, streams, or sorted sets grow without bounds
+- Using Redis as the only durable store without persistence, backups, and failover design
+- Forgetting that async replication can lose recent writes during [[Failover]]
+- Putting unrelated workloads with different eviction needs into one Redis database
+- Creating hot keys that one shard must handle alone
+- Running slow Lua scripts or large O(N) commands on busy instances
+- Treating Redis Cluster like a relational database with arbitrary cross-key joins
+
+
+__________________
+
+
 SDIAH Deep Dive: https://www.hellointerview.com/learn/system-design/deep-dives/redis
 
 System design is certainly about solving problems with end-to-end, but the interviewers are going to ask you some questions to test you knowledge. We're trying to get you a start to the foundation here...
@@ -169,4 +389,198 @@ If we want it to sit on multiple nodes, we need to keep multiple sorted sets, an
 		- If the response is greater than N, we wait. If it's less than N, we proceed.
 		- We call `EXPIRE` on our key so that after some time period `W`, the value is reset.
 			- ((If we look at our previous explanation, it doesn't seem like we reset a timer after every request or anything like that.))
+
+
+
+________________
+
+# [Redis Deep Dive w/ a Ex-Meta Senior Manager](https://youtu.be/fmT5nlEkl3U?si=A0W6SXiWDrcnE1aF)
+
+
+Redis is conceptually simple and highly useful! To know why a Redis query is pretty straightforward!
+- Let's talk about how it's useful from a developer perspective.
+- Then let's talk about how it operates under the cover.
+- And then let's talk about its use in System Design scenarios and common pitfalls.
+
+
+
+![[Pasted image 20260608085215.png]]
+Redis is a ==single-threaded==, ==in-memory== ==data structure server==
+- Single-threaded really simplifies things a lot. In many databases, the order of operation of operations is hard to grok, while in Redis, request are [[First-In First-Out|FIFO]] are serially executed!
+- In-memory means that it's lightning fast and can operate in sub-millisecond time for common operations like SETs and GETs, but you can't necessarily guarantee the durability of data. With Redis, you can fire off 1000 requests and the server will happily return its results to you in a way that you couldn't with a SQL database.
+- Redis values can be strings, numbers, binary blobs, sorted sets, [[Hash]]es, [[Geospatial Index]]es, [[Bloom Filter]]s
+
+Using Redis:
+- commands (e.g. `INCR`) are organized by the type of the data. It wouldn't make sense to call `INCR` on a hash, for instance.
+- They can get sophisticated`XADD mystream * name Sara surname OConnor` adds an item to a string!
+	- This `XADD` command operates on a Stream datatype, and the key is `mystream`
+
+The keys matter because that's how Redis handles multi-node environments ([[Distributed Cache]])
+
+![[Pasted image 20260608085635.png]]
+- You can run Redis on a ==Single Node== in a single thread, and it can write commands that successfully execute out to disk. You can configure the interval, I think the default is ~1s, meaning Redis *can lose data.*
+	- But in the ideal scenario, if Redis goes down, it can read from that file and recover somewhat gracefully. In practice this only kind of works
+- So in practice, people have a ==Replica== setup, where you have a main with a secondary that reads from that append-only [[Log]] of the master. This works sort of like [[Change Data Capture]]. This still limits us to the write throughput of a single node, but lets us scale read throughput with more read-only replicas.
+- Redis has an internal concept called a ==Slot==, which is a hash of a number modulo some number (16384 or something). When the cluster isn't resizing, a single master or main will own that slow, and clients should be aware of all of the nodes in the cluster, so clients will take the hash of `foo`, look up the slot it occupies, and then decide which node in the cluster I route my request to.
+	- Each node in the cluster (among mains) communicates with eachother via a [[Gossip]] protocol, so they know about the existence of eachother as well as which slots they have. 
+	- If you make a request to the wrong host as the client, it will tell you that the key doesn't exist here and has moved.
+	- For performance's sake, it's better if a client knows  exactly which host to go to, which is when when you start up a client, you make it aware of all the hosts that are available.
+	- This is where the keyspace becomes important: The only way to shard redis is through choosing your keys, and then when you choose how to shard, you're choosing how to spread your data among your keyspace.
+	- ==Important==: If you have a [[Hot Spot|Hot Key]] problem... how does this break Redis? If one of your keys is located on Main A, and the aggregate traffic to A exceeds what it can handle, it doesn't matter that the other Main hosts are out there, the uneven distribution of traffic will kill you!
+		- ==Solution==: Append a random number to the key so that way you can write the key to multiple hosts, and you can read it from multiple hosts. This provide a crude way to distribute load across the cluster, but if you think about how you scale redis, you should be thinking about your key space.
+			- ((My question below is about this))
+
+-----------
+Q: Wait, that solution of appending a random suffix (assumedly multiple times) to a hot key doesn't make sense to me for two reasons:
+1. How does the client know which replica to route to, when it wants to read the `taylor-swift` key?
+2. If the client updates `taylor-swift-12s1f3`, then what about the keys `taylor-swift-fe1f2f` and `taylor-swift-n923pl`? We have divergent state for the same semantic thing!
+
+A: If `user:123:profile` is extremely hot, adding more primaries doesn't help, because the key still belongs to one slot on one primary. Adding a random number changes the physical keys, though, so you have several Redis keys representing one logical thing.
+
+This can mean two very different strategies:
+
+#### Option 1: Split/Shard the Value   (for Write-Hot keys, not Read-Hot)
+- If you have a hot counter `views:video:42`, then you might do something like create multiple keys `views:video:42:0..15`.
+- So when you do `INCR views:video:42:7`, with `7` being randomly chosen on the client from `0..15`... this means that *reads* must fan out many requests (`GET views:video:42:0`, `views:video:42:1`, ...) and *sum them!*
+	- This only works because counters are mergable. There's no single source of truth inside Redis anymore; the logical value is the aggregate of all shards.
+- ==Considerations:==
+	- This only "works" because counters are mergable, in this situation.
+	- It only helps us with Hot Keys that are hot from a ***write*** perspective. If we have a `0..15` suffix, with 15 keys, our write load on any one of these keys is 1/15 what it would be without this strategy, but because we still have to fan out reads to 15 nods, each of them receives 1/1 reads from the normal case, and you suffer from [[Tail Latency]] problems (to the extent that you'll experience this for in-memory reads).
+
+#### Option 2: Duplicate the Sam Value (for a Read-Hot cache)
+- You can store the same logical value multiple times (`product:42:copy:0..4`), and reads pick one copy randomly, which distributes read load. 
+- ==Danger==: But now writes have the inverse problem from option one: You must update all copies, and that is not atomically consistent across the cluster. One write can succeed on copy 0 and fail on copy 3. Readers may see different values.
+	- This is only safe if Redis is being used a cache and the real source of truth is somewhere else (e.g. Postgres), and you can tolerate stale copies via TTLs, version numbers, invalidation, or rewrite-all-copies best effort.
+
+
+Q: What about for the read case... just adding more [[Replication|Read Replica]]s?
+
+A: Yes, although adding additional read replicas because of a single hot key in a shard can be somewhat overkill.
+
+### Option 3: Just have more read replicas (Read-Hot cache)
+- `hot:key` -> `slot 9182` -> `Primary A` (replicated to Replicas `A1, A2, A3`)
+- Writes like `SET hot:key value` still go to `Primary A`
+- Reads like `GET hot:key` can be spread across `Primary A, Replica A1, Replica A2, Replica A3`
+- This avoids the multiple sources of truth problem, because the primary is still the write authority, and the replicas are copies.
+- Caveats:
+	- Replicas are [[Eventual Consistency|Eventually Consistent]] because Redis uses [[Asynchronous Replication]].
+	- This does *not* help write-hot keys
+	- We should only use additional read replicas of the shard that owns the key. ((Yes, you can add "uneven" replica counts to different primaries))
+	- Your Redis client needs to support replica reads.
+
+----------
+
+# Uses of Redis.
+
+
+### Cache
+![[Pasted image 20260608095653.png]]
+- You have a DB where you need to make heavy queries (analytic queries, etc) and you want to be able to scale this.
+- We create a Redis cache off to the side and use it in (e.g.) a [[Cache-Aside]] pattern: On read, our app first checks the Redis cache quickly, and if it's not there, we get it from the database and store it in the cache.
+- This is appropriate in any case where you can tolerate some staleness and inconsistency.
+- Two concerns to address:
+	- [[Hot Spot|Hot Key]] issue: Is our cache spreading out the load amongst all of its instances?
+		- In Redis, we do this by assigning keys. We might append values to our keys such that we're eveny distributing requests across our Redis cache.
+	- Expiration: A common question is "What's the expiration policy in your cache?"
+		- The most common way is to use the `EXPIRE` command, which... after a certain time, an item won't be readable. It's a way of setting a [[Time to Live]] for our cache items.
+		- You can also configure it in its [[Least Recently Used]] (LRU) setup. In Redis, you continue to be able to append keys to your Cache indefinitely until you run out of memory, and at that point, Redis starts to evict LRU keys from your setup.
+
+### As a Rate Limiter
+![[Pasted image 20260608095701.png]]
+- We want to guard this expensive service from getting lots of requests (maybe it can only handle 5 requests every 50 seconds). If we have multiple instances of this service, we want to make sure they aren't, in aggregate, making more than 5 requests every 50 seconds. 
+- The Atomic Increment `INCR` command increments a key if it exists (if it doesn't exist, it sets it to 1) and returns the final value. Think of is as `variable++`. 
+	- If this value is over the limit, I don't want to make my request.
+	- If I get the opportunity to make a request, I want to make sure that this key gets expired. 
+
+```
+(Every time you make a request, you atomically run both of the following on Redis first)
+INCR expensive_ervice_rate_limit # 5
+EXPIRE expensive_service_rate_limit 60 LT
+```
+- EXPIRE line: "Set the key's TTL to 60 seconds only if 60 seconds is less than the key's current TTL"
+Example:
+```
+Request 1: INCR -> 1, TTL set to 60
+Request 2 after 10s: INCR -> 2, TTL is 50, EXPIRE 60 LT does nothing
+Request 3 after 20s: INCR -> 3, TTL is 40, EXPIRE 60 LT does nothing
+
+at t=60, Redis expires/deletes the key
+Request 4 @ t=61: INCR recreates key at 1, EXPIRE sets TTL to 60
+```
+
+This is the most basic Rate Limiter structure you can use. Keep in mind that there's a lot of logistics that can go into this depending on the needs of your system.
+
+
+### Work Queue
+![[Pasted image 20260608100626.png]]
+- The value of Redis and its data structure server is that its data structures can be very powerful!
+- Redis's ==Stream== primitive is pretty powerful. They can be imagined as ordered list of items. They're given an ID as they're inserted, and each item can have their own Keys and Values. Think of them as JSON objects.
+
+Let's say we want to build an async job queue
+- We want items in the queue to be processed in-order and reliably.
+- To store these items, we can create a Stream.
+- Then we can create a [[Consumer Group]], which you can think of as a pointer into the stream which defines where we're at.
+	- A consumer group can keep track of where in the stream it has to keep processing.
+- Workers can query the Consumer Group for unallocated items. If the Consumer Group is pointing at Item 2, and no one's picked it up, that item can be allocated to a worker.
+- There's a final notion around "Claiming." At any given moment, only one worker can have claim to an item on the Consumer Group. If the worker fails... then that item can be *reclaimed* by the Consumer Group and allocated out to an additional worker.
+- The Redis Stream gives us a way to distribute work among many workers in a way that's somewhat fault tolerant, and very fast (so you don't have to have a bunch of latency inserted; though IMO network is the big latency vs disk vs memory access in a queue). 
+- You need to be able to handle failures of Redis, and there are options like using a fork of Redis (MemoryDB), and you can also build some redundant in by having replications or additional shards... You'll also want ot figure out how you can keep workers allocated the right work. The typical way this is accomplished is that a worker will continue to [[Heartbeat]] back to the Consumer Group so that the Consumer Group doesn't snatch back the work item before the Worker has a chance to finish. Still, if Worker 2 loses connectivity to the Consumer Group, it might continue to process the item while the Consumer Group reclaims the work and hands it off to another worker. So the Consumer Group can only offer [[At Least Once|At Least Once Delivery]], but not Exactly-Once. This means that you want your work to be [[Idempotency|Idempotent]] if possible.
+
+
+#### Leaderboard
+![[Pasted image 20260608101133.png]]
+- Let's say we want to keep a leaderboard of the top-5 most-liked tweets containing the word "Tiger"
+- The `Sorted Set` commands all start with `Z`, and their syntax is simple: Give a key (our leaderboard), give a ranking value (500 likes), and some string identifier (the tweet id).
+- Remember that these are Sorted Sets. For any ID, it can only have one ranking value
+	- If "SomeId1" got another like, we'd run `ZADD tiger_tweets 501 "SomeId1"`
+- With `ZREMRANGEBYRANK tiger_tweets 0 -5`, we're removing all but the top 5; it's like a constrained max-heap. 
+- Every time I add a new tweet, I can remove the ones that are not in there. I'll only get an incremental example in the list when the tweets of it rises to a number of likes that is greater than my top 5.
+
+
+With the Sorted Set primitive, we can build a bunch of stuff on top!
+
+### Geospatial Proximity Search
+![[Pasted image 20260608101609.png]]
+- If you have a big list of items that have locations, and you want to be able to search them by location, this is a great way to do it.
+- When I want to add an item to my geospatial index, I add the long/lat and an identifier for my item, and them we add it to our index at this `bikes:rentable` key.
+- When we want to search the index, we use `GEOSEARCH`, giving the key, an anchor point, and a radius, and a distance!
+	- This returns the nearby stations, together with their distance!
+- Under the covers, the long/lats are [[Geohash]]ed to give them a numeric identifier. This identifier is a ranking in the sorted set, and Redis under the covers calculates the bounding box given the radius, and finds the entires in the range in your sorted set.
+- The important thing here isn't the internals, it's that the API is super convenient and works in a wide variety of different situations.
+
+This isn't without its perils! There are a number of cases where you might not want to do this.
+- If your items aren't changing location very often, it might be better to keep a static list of Longitudes and Latitudes in the service itself, and calculate the haversine distance for all of them. For 1000 locations, that's not too much! This is certainly faster than making a network call out to Redis.
+- This index is on a single key, which means it's on a single node.
+
+
+### [[Publish-Subscribe|Pub Sub]]
+- When your servers need to be able to address eachother in some reasonable fashiosn
+- ![[Pasted image 20260608102433.png]]
+- Chatroom context: 
+	- Say User 1 is connected to Server A, and User 3 is connected to Server C... How does A talk to C?
+		- Lots of typical solutions: One is to use a [[Consistent Hashing]] ring so that User 3 is always allocated to Server C, and Server A knows that... but there are a bunch of incremental problems that happen with these consistent hash rings (hard to manage load balance, reshuffling is a operational pain)
+	- Redis has a PubSub capability!
+		- The servers can connect to Redis and announce a publication that they're going to be making.
+		- On that Topic, other servers can subscribe.
+		- If, for instance, User 1 connects to Server A, Server A tells Reids: "I have user 1, any messages for User 1 come back to me". Server C does the same thing. When Server A wants to send a message to Server C, it publishes to the *topic* of User 3.
+		- It's [[At-Most-Once Delivery|At Most Once]] delivery; messages might or might not get to users. This is surprisingly useful in spite of its reliability issues. From a SD perspective, if you need to guarantee that messages arrive, you'll have to try something else.
+		- But it's very fast! All it does is bouncing requests between services.
+
+
+
+
+
+
+
+
+___________
+
+
+https://youtu.be/k8_qxgoZ4bg?si=vdWUH5kkbm2eD9w_
+
+
+
+
+
+
 

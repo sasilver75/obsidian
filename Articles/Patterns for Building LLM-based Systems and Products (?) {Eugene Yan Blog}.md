@@ -177,7 +177,7 @@ RAG has its roots in open-domain QA:
 How do we retrieve documents with low latency at scale?
 - We use [[Approximate Nearest Neighbor Search|Approximate Nearest Neighber]] search, optimizing for retrieval speed and returns the approximate top-k most similar neighbors.
 - ANN embedding indices are data structures that let us do ANN searches efficiently. Popular techniques include:
-	- [[Locality Sensitive Hashing]]
+	- [[Locality-Sensitive Hashing]]
 	- [[FAISS]]
 	- [[Hierarchical Navigable Small Worlds|HNSW]]
 	- Scalable Nearest Neighbors (ScaNN)

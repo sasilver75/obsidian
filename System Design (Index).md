@@ -225,7 +225,7 @@ Terms
 - [[Autoscaling]]: Automatically adjusting compute or service capacity based on demand, schedules, or resource signals.
 - [[Admission Control]]: A mechanism that decides whether to accept new work based on current capacity, priority, or policy.
 - [[Brownout]]: Temporarily disabling nonessential functionality during overload so critical paths remain available.
-- [[Priority Queueing]]: Scheduling higher-priority work ahead of lower-priority work when capacity is constrained.
+- [[Priority Queue]]: Scheduling higher-priority work ahead of lower-priority work when capacity is constrained.
 - [[Graceful Overload]]: A design approach where a system degrades or rejects selectively instead of collapsing under excess load.
 - [[Retry Storm]]: An overload failure mode where many clients retry at once and amplify pressure on a struggling dependency.
 - [[Cascading Failure]]: A failure pattern where one component's failure triggers failures in dependent or neighboring components.

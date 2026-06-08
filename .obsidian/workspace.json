@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Browser Storage.md",
+                "file": "Session.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Browser Storage"
+              "title": "Session"
             }
           },
           {
-            "id": "dec37cac2a85c3b4",
+            "id": "9b8840d7cf9b51d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design (Index).md",
+                "file": "Cookie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design (Index)"
+              "title": "Cookie"
+            }
+          },
+          {
+            "id": "8713989bc5137efb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Session.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Session"
+            }
+          },
+          {
+            "id": "d44b1d45230d27b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bulkhead.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bulkhead"
+            }
+          },
+          {
+            "id": "8098d2d0c071fd0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vacuum.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vacuum"
+            }
+          },
+          {
+            "id": "e0de4429c16be5cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wide-Column.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Wide-Column"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1979,12 +2075,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "93a09a91f80a014b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 182
+        "currentTab": 183
       },
       {
         "id": "8a022290161ffefa",
@@ -2046,44 +2152,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "dec37cac2a85c3b4",
+  "active": "8713989bc5137efb",
   "lastOpenFiles": [
-    "Pagination.md",
-    "System Design (Index).md",
-    "Distributed Lock.md",
-    "Zookeeper Atomic Broadcast.md",
-    "Amazon Route 53.md",
-    "Amazon Web Application Firewall.md",
-    "Amazon Elastic Kubernetes Service.md",
-    "ESP32.md",
-    "Datagram Transport Layer Security.md",
-    "Webhook.md",
-    "Certificate.md",
-    "HMAC-based Key Derivation Function.md",
-    "JSON Web Token.md",
-    "JSON Web Key Set.md",
-    "Amazon Simple Workflow Service.md",
-    "Virtual Router Redundancy Protocol.md",
-    "Load Balancing.md",
-    "Virtual IP Address.md",
-    "Border Gateway Protocol.md",
-    "Split Brain.md",
-    "Modern TypeScript Development.md",
-    "Cross-Site Scripting.md",
-    "Progressive Web Application.md",
+    "Authentication.md",
     "Cookie.md",
-    "IndexedDB.md",
-    "Local Storage.md",
+    "Refresh Token.md",
+    "Session.md",
+    "OpenID Connect.md",
+    "OAuth.md",
+    "System Design (Index).md",
+    "Bulkhead.md",
+    "Vacuum.md",
+    "Circuit Breaker.md",
+    "Wide-Column.md",
+    "Google Bigtable.md",
+    "Apache Cassandra.md",
+    "Bigtable.md",
+    "Count-Min Sketch.md",
+    "Bloom Filter.md",
+    "Failover.md",
+    "Write-Through Cache.md",
+    "Logical Replication.md",
+    "Priority Queue.md",
+    "Probabilistic Data Structure.md",
+    "Locality-Sensitive Hashing.md",
+    "Cuckoo Filter.md",
+    "Redis.md",
+    "Browser Storage.md",
+    "Logical Clock.md",
+    "_attachments/Pasted image 20260608102433.png",
+    "_attachments/Pasted image 20260608101609.png",
+    "_attachments/Pasted image 20260608101133.png",
+    "_attachments/Pasted image 20260608100626.png",
+    "_attachments/Pasted image 20260608095701.png",
+    "_attachments/Pasted image 20260608095653.png",
+    "_attachments/Pasted image 20260608085635.png",
+    "_attachments/Pasted image 20260608085215.png",
     "_attachments/Pasted image 20260607103404.png",
     "_attachments/Pasted image 20260606212648.png",
-    "_attachments/Pasted image 20260606212435.png",
-    "_attachments/Pasted image 20260606212244.png",
-    "_attachments/Pasted image 20260606202147.png",
-    "_attachments/Pasted image 20260606201842.png",
-    "_attachments/Pasted image 20260606184120.png",
-    "_attachments/Pasted image 20260606183815.png",
-    "_attachments/Pasted image 20260606183806.png",
-    "_attachments/Pasted image 20260606182553.png",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",

@@ -11,7 +11,7 @@ Cassandra is one of the most versatile/popular databases to have in your toolbox
 
 ==Cassandra is an open-source, distributed [[NoSQL Database]] that implements a **partitioned [[Wide-Column]] storage model with [[Eventual Consistency|Eventually Consistent]] semantics**==
 - It runs in a cluster and can [[Horizontal Scaling|Horizontally Scale]] via commodity hardware.
-- It combines elements of [[Amazon DynamoDB|DynamoDB]] and [[Bigtable]] to handle massive data footprints, query volume, and flexible storage requirements. 
+- It combines elements of [[Amazon DynamoDB|DynamoDB]] and [[Google Bigtable]] to handle massive data footprints, query volume, and flexible storage requirements. 
 
 
 # Cassandra Basics
