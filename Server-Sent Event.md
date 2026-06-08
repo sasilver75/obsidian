@@ -15,7 +15,7 @@ How it works:
 4. Client parses events; the browser's EventSource parses the stream and dispatches events to handlers.
 5. Auto-reconnect: If the connection drops, the browser automatically reconnects after a delay (configurable) and sends the last received event ID via the `Last-Event-ID` header so the server can resume.
 
-In the actual ==Wire Format==, events are newline-deliminted text; each event is a group of fields, terminated by a blank line:
+In the actual ==Wire Format==, events are newline-delimited text; each event is a group of fields, terminated by a blank line:
 
 ```
   event: priceUpdate
@@ -39,9 +39,9 @@ In the actual ==Wire Format==, events are newline-deliminted text; each event is
 ## Use Cases
 - LLM token streaming: Both Anthropic and OAI stream model output via SSE; each token (or content delta) is a separate event.
 - Live dashboard and monitoring
-- Notificaions and Activity feeds
-- Financial tickrs
-- Progress updates for long-runing jobs (eg video transcoding)
+- Notifications and Activity feeds
+- Financial tickers
+- Progress updates for long-running jobs (eg video transcoding)
 
 
 
@@ -109,7 +109,7 @@ SSE is an extension on HTTP with one notable difference:
 - With SSE, I include additional headers in the response (chunked-encoding) and in the response I use newlines to designate how each of the new events are happening. Because of the headers, the proxies/other things handling the request will send that response on to my  clients, and they'll being parsing the response.
 	- So I have a way of unidirectionally pushing data from my server to a client using existing HTTP machinery.
 	- Downside: These connections are going to be severed frequently! HTTP requests are expected to return in the 30s-1m mark, so many routers/proxies will disconnect requests that exist longer than that. In those cases, our SSE client will automatically retry, opening a new SSE connection, passing the ID of the last event it received, in case events happened between the loss of connection and opening of responses.
-		- It's a bit of a kludge: we're existing on a connection that's constantly pushing responses which is periodically severed and re-enabled. Just because it's kludgey doesn't mean it doesn't work!
+		- ==It's a bit of a kludge==: we're existing on a connection that's constantly pushing responses which is periodically severed and re-enabled. Just because it's kludgey doesn't mean it doesn't work!
 - Use Cases
 	- If you're buying a product and you want to know the status that might evolve over the next 15 seconds
 	- For AI applications where you might want to stream tokens or responses back to the user, which might take awhile (e.g. 30 seconds).

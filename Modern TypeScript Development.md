@@ -418,7 +418,7 @@ CMD ["bun", "/app/index.js"]
 ### Serverless / edge
 - [[Vercel]] / [[Netlify]]: deploy from git, zero-config for Next.js.
 - ==[[Cloudflare Workers]]==: Wrangler CLI; ==V8 isolates, no Node APIs by default==. Use Hono.
-- AWS Lambda: still common, esp. via [[SST]] / Serverless Framework / CDK.
+- AWS Lambda: still common, esp. via SST / Serverless Framework / CDK.
 
 
 # What's in "the stdlib"

@@ -218,7 +218,7 @@ Concepts to know:
 - [[Bulkhead]]s and [[Circuit Breaker]]s (tools like Hystrix -> Resilience4j): Failure isolation.
 - [[CAP Theorem]], [[PACELC]], [[Consistency]] models ([[Strong Consistency|Linearizability]], Sequential, Causal, Eventual)
 - [[Two-Phase Commit]] (2PC): For [[Distributed Transaction]]s, usually avoided
-- [[Distributed Consensus|Consensus]] algorithms; [[Raft]], [[Paxos]], [[Zab]]
+- [[Distributed Consensus|Consensus]] algorithms; [[Raft]], [[Paxos]], [[Zookeeper Atomic Broadcast]]
 - [[Conflict-Free Replicated Datatype]] (CRDTs) for collaborative/offline-first applications.
 
 # Testing (backend-flavored)

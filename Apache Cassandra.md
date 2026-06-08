@@ -152,7 +152,7 @@ Above: Specifying replication strategies for Cassandra **KeySpaces** using [[Cas
 
 ### Storage Model
 - Cassandra's storage model is important to understand because it's core to one of its strengths for system design: ==Write throughput!==
-- Cassandra leverages a data structure called a [[LSM Tree|Log-Structured Merge Tree]] (LSM Tree) index to achieve this speed!
+- Cassandra leverages a data structure called a [[Log-Structured Merge Tree|Log-Structured Merge Tree]] (LSM Tree) index to achieve this speed!
 	- The LSM-Tree is used **in place of** a [[B-Tree]], which is the index of choice for most databases.
 - **Cassandra opts for an approach that favors write speed over read speed!**
 	- Every create/update/delete is a **new entry** (with some exceptions)
@@ -161,10 +161,10 @@ Above: Specifying replication strategies for Cassandra **KeySpaces** using [[Cas
 		- The same can be said for deletes, which can be thought of as "removal updates", with Cassandra writing a [[Tombstone]] entry for row deletions.
 	- The **LSM Tree** enables Cassandra to efficiently understand the state of the row, while writing data to the database as almost entirely **==append-only writes==** (which are fast to do!).
 
-The 3 constructs that are core to the [[LSM Tree]] index are:
+The 3 constructs that are core to the [[Log-Structured Merge Tree]] index are:
 1. **==Commit Log==**: This is basically a [[Write-Ahead Log]] (WAL) to ensure durability of writes for Cassandra nodes.
 2. **==Memtable:==** An **in-memory**, sorted data structure that storse writes data. It is sorted by the primary key of each row.
-3. **==[[SSTable]]==**: A "Sorted String Table". An **immutable** file **on disk** containing data that was flushed from a previous **Memtable**.
+3. **==[[Sorted String Table|SSTable]]==**: A "Sorted String Table". An **immutable** file **on disk** containing data that was flushed from a previous **Memtable**.
 
 With all of these working together, writes to [[Apache Cassandra|Cassandra]] look like this:
 1. A write is issued for a node ((We know from before that this involves a client talking to any node, which acts a coordinator to determine the node to write to; it contacts that node to confirm the write, etc.))
@@ -365,7 +365,7 @@ CREATE TABLE event_sections (
 - When to use it:
 	- Cassandra can be an ==awesome choice for systems that play to its strengths!==
 	- ==A great choice in systems that prioritize [[Availability]] over [[Consistency]]== and have high scalability needs.
-	- Can perform ==fast writes and reads at scale==, but is especially good for systems with ==high write throughput==, given its write-optimized storage layer based on [[LSM Tree]] indexing!
+	- Can perform ==fast writes and reads at scale==, but is especially good for systems with ==high write throughput==, given its write-optimized storage layer based on [[Log-Structured Merge Tree]] indexing!
 	- Cassandra' [[Wide-Column]] design make it a ==great choice as a database for flexible schemas or schemas that involve many columns that might be sparse==.
 	- Cassandra is good when you have ==several clear access patterns for an application or use-case that can drive the design of your schema.==
 

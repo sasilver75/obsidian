@@ -246,7 +246,7 @@ Terms
 - [[GeoDNS]]: DNS-based routing that uses requester location or network metadata to return a regionally appropriate endpoint.
 - [[GeoRouting]]: Traffic routing that selects an endpoint based on geography, latency, compliance, or availability.
 - [[Anycast]]: A routing technique where the same IP prefix is advertised from multiple locations so networks route users to a nearby site.
-- [[Split-Brain]]: A distributed failure mode where partitioned nodes or regions each believe they are authoritative.
+- [[Split Brain]]: A distributed failure mode where partitioned nodes or regions each believe they are authoritative.
 - [[Conflict Resolution]]: Rules or mechanisms that reconcile concurrent, divergent, or replicated updates into an accepted state.
 - [[Clock Skew]]: Differences between machine clocks that can break ordering, expiry, lease, and consistency assumptions.
 - [[Quorum]]: The minimum number of nodes, replicas, or votes required to accept a read, write, or decision.
@@ -274,10 +274,82 @@ Terms
 
 
 
+_______________
+
+# Common Patterns
+
+
+| Pattern                        | What it solves                                | How it’s accomplished                                                                                    |
+| ------------------------------ | --------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Reservation / hold with TTL    | Temporarily claims scarce inventory.          | Create a pending reservation row with an expiry time, then confirm or release it via background cleanup. |
+| Idempotency key                | Prevents duplicate side effects from retries. | Store request keys with their final result, and return the stored result on duplicate keys.              |
+| Unique ID generation           | Creates identifiers without collisions.       | Use UUID/ULID, DB sequences, or Snowflake-style IDs combining timestamp, machine ID, and counter.        |
+| Optimistic concurrency         | Handles conflicting writes without locks.     | Update only when a version/timestamp matches, then retry or reject on mismatch.                          |
+| Pessimistic locking / leases   | Prevents concurrent mutation.                 | Acquire a DB lock, Redis lock, or lease with expiry before changing shared state.                        |
+| Rate limiting                  | Controls excessive traffic.                   | Track request counts or tokens per user/IP/key in Redis or local counters.                               |
+| Fan-out on write               | Makes reads fast for feeds/notifications.     | When an event occurs, write copies into each recipient’s inbox/feed.                                     |
+| Fan-out on read                | Avoids huge write amplification.              | Store original events and assemble the recipient’s view at request time.                                 |
+| Queue-based async work         | Moves slow work out of request paths.         | Enqueue jobs in Kafka/SQS/RabbitMQ/etc. and process them with workers.                                   |
+| Pub/sub events                 | Lets many systems react independently.        | Publish events to a topic; subscribers consume and handle their own side effects.                        |
+| Compare-and-swap               | Makes conditional updates atomic.             | Use atomic DB updates, Redis commands, or versioned writes like `WHERE version = ?`.                     |
+| Write-ahead log                | Preserves intent before mutation.             | Append the operation to durable storage before applying it to state.                                     |
+| Outbox pattern                 | Reliably publishes events from DB changes.    | Write the business row and outbox row in one transaction, then a relay publishes the event.              |
+| Saga pattern                   | Coordinates multi-step workflows.             | Chain local transactions and define compensating actions for rollback-like recovery.                     |
+| Two-phase commit               | Gives cross-resource atomicity.               | A coordinator asks participants to prepare, then tells all to commit or abort.                           |
+| Event sourcing                 | Stores history as source of truth.            | Append immutable domain events and rebuild current state by replaying them.                              |
+| CQRS                           | Separates write logic from read shape.        | Use one model for commands and separate projections/tables/indexes for queries.                          |
+| Materialized views             | Speeds up expensive reads.                    | Precompute query results and refresh them on schedule or from change events.                             |
+| Deduplication table            | Prevents duplicate message processing.        | Record processed message IDs and skip work when an ID already exists.                                    |
+| Soft deletes                   | Keeps recoverable deleted data.               | Mark rows with `deleted_at` or status instead of physically deleting them.                               |
+| Caching                        | Reduces latency and backend load.             | Store frequently used data in Redis, CDN, memory, or edge caches.                                        |
+| Cache-aside                    | Simple app-managed caching.                   | Read cache first, fetch from DB on miss, then write the value into cache.                                |
+| Write-through cache            | Keeps cache updated on writes.                | Write to cache and backing store together through a shared code path.                                    |
+| Read replicas                  | Scales database reads.                        | Replicate primary DB data to secondary nodes and route read queries there.                               |
+| Search index                   | Supports text/flexible querying.              | Copy searchable documents into Elasticsearch/OpenSearch/etc. and query the index.                        |
+| Denormalization                | Avoids expensive joins or remote reads.       | Duplicate selected fields into read tables, documents, or service-local copies.                          |
+| Pagination                     | Handles large result sets.                    | Use cursors or stable sort keys instead of returning everything at once.                                 |
+| Precomputation                 | Trades write/storage for fast reads.          | Compute rankings, aggregates, feeds, or recommendations ahead of request time.                           |
+| CDN edge caching               | Serves content near users.                    | Cache static or cacheable dynamic responses at CDN points of presence.                                   |
+| Sharding / partitioning        | Splits data and traffic.                      | Route records to partitions by hash, tenant, region, user ID, or time.                                   |
+| Hot key mitigation             | Prevents one key from overloading a shard.    | Split hot keys, salt counters, cache aggressively, or special-case large actors.                         |
+| Batching                       | Improves throughput.                          | Combine many operations into one DB write, API call, queue publish, or network request.                  |
+| Backpressure                   | Protects overloaded systems.                  | Bound queues and reject, delay, or slow producers when consumers fall behind.                            |
+| Write coalescing               | Reduces redundant writes.                     | Merge repeated updates and persist only the latest value or aggregate delta.                             |
+| Log-structured ingestion       | Handles high write volume.                    | Append events quickly to a log, then process/compact/index them later.                                   |
+| Time-based partitioning        | Manages logs/events efficiently.              | Partition tables or objects by hour/day/month and expire old partitions.                                 |
+| Retries with backoff           | Survives transient failures.                  | Retry after increasing delays, usually with jitter and a max attempt limit.                              |
+| Circuit breaker                | Avoids hammering failing dependencies.        | Track failures and temporarily fail fast once a threshold is crossed.                                    |
+| Timeouts                       | Bounds waiting.                               | Set explicit deadlines for network calls, DB queries, locks, and jobs.                                   |
+| Bulkheads                      | Isolates failures.                            | Give subsystems separate thread pools, queues, connection pools, or capacity limits.                     |
+| Graceful degradation           | Keeps partial service alive.                  | Return cached, simplified, or partial responses when dependencies are unavailable.                       |
+| Health checks                  | Detects bad instances.                        | Expose readiness/liveness endpoints and remove failing instances from rotation.                          |
+| Leader election                | Picks one coordinator.                        | Use consensus systems, leases, or lock services like ZooKeeper/etcd/Consul/Redis.                        |
+| Failover                       | Moves work away from failure.                 | Promote replicas, reroute traffic, or switch regions using load balancers/DNS/control planes.            |
+| Dead-letter queue              | Captures repeatedly failed work.              | Move messages to a separate queue after max retries for inspection or replay.                            |
+| Replay                         | Rebuilds state after failure.                 | Reprocess stored events/logs from a checkpoint or from the beginning.                                    |
+| API gateway                    | Centralizes edge concerns.                    | Route requests through one layer that handles auth, rate limits, routing, and logging.                   |
+| Service discovery              | Finds available instances.                    | Register instances in DNS or a registry and have clients/load balancers resolve them.                    |
+| Load balancing                 | Spreads traffic.                              | Use L4/L7 balancers with health checks and algorithms like round-robin or least-connections.             |
+| Request tracing                | Follows work across services.                 | Propagate trace IDs and emit spans from every service involved.                                          |
+| Versioned APIs                 | Evolves contracts safely.                     | Add `/v2`, version headers, or backward-compatible fields and migrations.                                |
+| Schema evolution               | Changes data formats safely.                  | Add optional fields first, deploy readers before writers, then remove old fields later.                  |
+| Webhooks                       | Notifies external systems.                    | Send signed HTTP callbacks with retries and event IDs.                                                   |
+| Polling vs push                | Chooses update delivery style.                | Poll with periodic requests, or push through WebSockets, SSE, webhooks, or queues.                       |
+| Stream processing              | Handles continuous events.                    | Consume from logs/topics and update state windows, counters, alerts, or projections.                     |
+| Batch processing               | Handles large offline jobs.                   | Run scheduled jobs over stored data using workers, Spark, SQL, or map-reduce-style systems.              |
+| Aggregation counters           | Avoids scanning raw data.                     | Increment stored counters when events happen, often with reconciliation jobs.                            |
+| Approximate counting           | Scales huge cardinality questions.            | Use sketches like HyperLogLog, Bloom filters, Count-Min Sketch, or sampling.                             |
+| Authn vs authz                 | Separates identity from permission.           | Authenticate users first, then check roles/policies/object ownership for actions.                        |
+| Capability tokens              | Grants limited authority.                     | Issue signed tokens containing scope, resource, and expiry.                                              |
+| Scoped access control          | Limits access by boundary.                    | Model permissions around tenants, orgs, projects, roles, and object-level rules.                         |
+| Audit log                      | Records sensitive activity.                   | Append immutable records of actor, action, target, time, and metadata.                                   |
+| Strong vs eventual consistency | Balances correctness and availability.        | Use transactions/quorums for strong consistency, or async replication/events for eventual consistency.   |
 
 
 
 ____________________
+# Q&A BELOW 
+
 
 Q: In an AWS-style architecture where a public internet client needs to reach an application running inside a VPC, what infrastructure components can sit between the client and the actual application server?
 

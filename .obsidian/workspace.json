@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Load Balancing.md",
+                "file": "Browser Storage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Load Balancing"
+              "title": "Browser Storage"
             }
           },
           {
-            "id": "3268ff24fe1deb01",
+            "id": "dec37cac2a85c3b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active-Passive.md",
+                "file": "System Design (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Active-Passive"
+              "title": "System Design (Index)"
             }
           },
           {
-            "id": "809f4fee6687ae74",
+            "id": "93de0f4c3eeb9e76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Load Balancing Strategy.md",
+                "file": "Distributed Lock.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Load Balancing Strategy"
+              "title": "Distributed Lock"
             }
           },
           {
-            "id": "873e8dd1c4d15362",
+            "id": "9682e9e50b093dfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing.md",
+                "file": "Distributed Lock.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Routing"
+              "title": "Distributed Lock"
             }
           },
           {
-            "id": "ef90f7e37a368933",
+            "id": "606f5a3ac67d0e52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Border Gateway Protocol.md",
+                "file": "Zookeeper Atomic Broadcast.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,395 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Border Gateway Protocol"
-            }
-          },
-          {
-            "id": "33dd9c8b86ff29cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual IP Address.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Virtual IP Address"
-            }
-          },
-          {
-            "id": "587715271b4ffae0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual IP Address.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Virtual IP Address"
-            }
-          },
-          {
-            "id": "3757b5ef6ba74016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Load Balancing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Load Balancing"
-            }
-          },
-          {
-            "id": "e617e01b1cf5e7a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual Router Redundancy Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Virtual Router Redundancy Protocol"
-            }
-          },
-          {
-            "id": "a236017ddef2d053",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon Simple Workflow Service.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Simple Workflow Service"
-            }
-          },
-          {
-            "id": "8aed7eb44526d7ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSON Web Key Set.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JSON Web Key Set"
-            }
-          },
-          {
-            "id": "bf6fb0e7f8f84487",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSON Web Key Set.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JSON Web Key Set"
-            }
-          },
-          {
-            "id": "72a80b8ed0f28b67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSON Web Token.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JSON Web Token"
-            }
-          },
-          {
-            "id": "3b82b285dab4d3fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HMAC-based Key Derivation Function.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HMAC-based Key Derivation Function"
-            }
-          },
-          {
-            "id": "616346bcd6a215ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Certificate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Certificate"
-            }
-          },
-          {
-            "id": "f218beaf78c39d23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Webhook.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Webhook"
-            }
-          },
-          {
-            "id": "9ed04cf03bbc69cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Datagram Transport Layer Security.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Datagram Transport Layer Security"
-            }
-          },
-          {
-            "id": "b29a7d7c76397f42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESP32.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ESP32"
-            }
-          },
-          {
-            "id": "83acb0ca17828a49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon Elastic Kubernetes Service.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Elastic Kubernetes Service"
-            }
-          },
-          {
-            "id": "7d635f4953a26bc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon Web Application Firewall.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Web Application Firewall"
-            }
-          },
-          {
-            "id": "e7cf11cfd8a735ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon Route 53.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Route 53"
+              "title": "Zookeeper Atomic Broadcast"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2502,34 +2118,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3268ff24fe1deb01",
+  "active": "9682e9e50b093dfe",
   "lastOpenFiles": [
-    "Load Balancing.md",
-    "Active-Active.md",
-    "Active-Passive.md",
-    "Load Balancing Strategy.md",
-    "Routing.md",
-    "Border Gateway Protocol.md",
-    "Virtual IP Address.md",
-    "Virtual Router Redundancy Protocol.md",
-    "Equal-Cost Multi-Path.md",
-    "Keepalive.md",
-    "Saga.md",
-    "Domain Name Service.md",
-    "Health-Checked DNS.md",
-    "Google Cloud Load Balancing.md",
-    "Temporal.md",
-    "Amazon Simple Workflow Service.md",
-    "Amazon Step Functions.md",
-    "JSON Web Key Set.md",
-    "Amazon Sagemaker.md",
-    "Transport Control Protocol.md",
-    "Distributed Transaction.md",
-    "Session.md",
-    "Authentication.md",
+    "Zookeeper Atomic Broadcast.md",
+    "Distributed Lock.md",
     "Amazon Route 53.md",
+    "Amazon Web Application Firewall.md",
+    "Amazon Elastic Kubernetes Service.md",
+    "ESP32.md",
+    "Datagram Transport Layer Security.md",
+    "Webhook.md",
+    "Certificate.md",
+    "HMAC-based Key Derivation Function.md",
     "JSON Web Token.md",
-    "Proxy.md",
+    "JSON Web Key Set.md",
+    "Amazon Simple Workflow Service.md",
+    "Virtual Router Redundancy Protocol.md",
+    "Load Balancing.md",
+    "Virtual IP Address.md",
+    "Border Gateway Protocol.md",
+    "Split Brain.md",
+    "Modern TypeScript Development.md",
+    "Cross-Site Scripting.md",
+    "Progressive Web Application.md",
+    "Cookie.md",
+    "IndexedDB.md",
+    "Local Storage.md",
+    "Session Storage.md",
+    "Compare-and-Swap.md",
     "_attachments/Pasted image 20260607103404.png",
     "_attachments/Pasted image 20260606212648.png",
     "_attachments/Pasted image 20260606212435.png",

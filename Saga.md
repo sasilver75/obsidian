@@ -57,6 +57,74 @@ A useful mental model is that a saga is state machine for a business process. Th
 
  
  Use sagas when the workflow is business-level, multi-service, and long-running.
-- ==Avoid them== when you truly need strict atomicity and isolation; in that case, ==keeping the data in one transaction boundary is usually cleaner==.
+- ==Avoid them== when you truly need strict atomicity and isolation; in that case, ==keeping the data in one transactional boundary is usually cleaner== (meaning keep it a [[Monolith]] if you can!)
 
+
+________________
+# IMPORTANT CAVEATS ABOUT ISOLATION AND SAGA DESIGN
+
+Q: What if we have a situation where we have steps A, B, and C that need to be done in a Saga, and we have two active transactions, with the following scenario where both Trx1 and Trx2 involve `user-123` in some way:
+```
+Trx 1: Does A: Increments user's balance from $40 to $60
+Trx 1: Does B: ...
+Trx 2: Does A: Decrements user's balance $50, from $60 to $10
+Trx 1: Tries C, but fails. Begin rollback!
+Trx 1: Compensating Action for B
+Trx 2: Does B: ...
+Trx 1: Compensating Action for A... does it set $10 to -$10? Trx1 Saga is "undone"!
+Trx 2: Does C, the Trx2 Saga is complete!
+```
+
+A: This is a ==Saga [[Isolation]] Problem!== A Saga gives you atomicity, but it does not give you [[ACID]]-style [[Serializable Isolation|Serializable]] Isolation. Compensation is not a real rollback, it's more business operations happening later.
+- General answer: ==Sagas do not provide isolation; you have to design the isolation strategy explicitly.== There is no universal automatic fix. 
+- Standard approaches:
+	- Define the real invariant first: "What must never be temporarily false?"
+		- Two users can't hole the same unique resource
+		- Inventory can't be oversold
+		- A shipment can't be created for a cancelled order
+		- A credit cannot be spent until finalized
+	- Use state machines, not raw final mutations
+		- Saga steps should usually create explicit states (our bug above comes from treating a pending state as if it were confirmed):
+			- pending
+			- reserved
+			- authorized
+			- confirmed
+			- canceled
+			- released
+			- failed
+	- Serialize by business key when needed
+		- If two sagas touch the same important entity, run them through a per-key queue/actor lock.
+		- For example:
+			- All workflows for `order_123` go through one ordered stream
+			- All workflows for `user_456` balance go through one writer
+			- All workflows for `sku_789` inventory go through one reservation service
+	- Use optimistic concurrency:
+		- Each step writes with a precondition of an assumed version, and if the row changed underneath you, the saga does not blindly continues; it retries, branches, or compensates.
+	- Make actions idempotent and compensations precise
+		- A compensation doesn't mean: "Undo whatever the current state is", it should mean: Reverse the exact effect created by `saga_id=abc`.
+	- Track dependencies when you allow them
+		- If Saga B is allowed to depend on Saga A's not-yet-final result, that dependency must be made explicit, so that if A fails, B must be blocked/retried/compensated/manually reconciled. 
+		- Implicit dependencies is where the nasty edge cases come from.
+
+==Short answer==: Handle saga interleavings by combining business state machines, per-entity serialization where needed, optimistic preconditions, precise compensation, and reconciliation. If the invariant is too important to be temporarily violated, don't use a loose saga boundary for it.
+
+
+Note that for things like money, you usually avoid mutable balances as the source of truth. Typically you'd model ledger entires like:
+```
+Initial posted balance: 40
+Trx1:
+	pending credit: 20
+Trx2:
+	tries debit -50
+
+
+```
+- ...then Trx2 should check against the posted/available balance, not raw balance including unresolved pending credits.
+- If pending credits are spendable, then you need stronger semantics: Trx2 becomes dependent on Trx1, and if Trx1 fails, Trx2 must also be compensated, blocked, or converted into some debt/negative-balance state. That dependency must be explicit.
+
+Bad saga step:
+    Payment service increments balance from 40 to 60
+
+  Better saga step:
+    Payment service records pending_credit +20 for saga_123
 

@@ -1,16 +1,196 @@
 {
   "recentFiles": [
     {
-      "basename": "Active-Passive",
-      "path": "Active-Passive.md"
+      "basename": "Distributed Lock",
+      "path": "Distributed Lock.md"
+    },
+    {
+      "basename": "Zookeeper Atomic Broadcast",
+      "path": "Zookeeper Atomic Broadcast.md"
+    },
+    {
+      "basename": "Amazon Route 53",
+      "path": "Amazon Route 53.md"
+    },
+    {
+      "basename": "Amazon Web Application Firewall",
+      "path": "Amazon Web Application Firewall.md"
+    },
+    {
+      "basename": "Amazon Elastic Kubernetes Service",
+      "path": "Amazon Elastic Kubernetes Service.md"
+    },
+    {
+      "basename": "ESP32",
+      "path": "ESP32.md"
+    },
+    {
+      "basename": "Datagram Transport Layer Security",
+      "path": "Datagram Transport Layer Security.md"
+    },
+    {
+      "basename": "Webhook",
+      "path": "Webhook.md"
+    },
+    {
+      "basename": "Certificate",
+      "path": "Certificate.md"
+    },
+    {
+      "basename": "HMAC-based Key Derivation Function",
+      "path": "HMAC-based Key Derivation Function.md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
+    },
+    {
+      "basename": "JSON Web Key Set",
+      "path": "JSON Web Key Set.md"
+    },
+    {
+      "basename": "Amazon Simple Workflow Service",
+      "path": "Amazon Simple Workflow Service.md"
+    },
+    {
+      "basename": "Virtual Router Redundancy Protocol",
+      "path": "Virtual Router Redundancy Protocol.md"
     },
     {
       "basename": "Load Balancing",
       "path": "Load Balancing.md"
     },
     {
-      "basename": "Active-Active",
-      "path": "Active-Active.md"
+      "basename": "Virtual IP Address",
+      "path": "Virtual IP Address.md"
+    },
+    {
+      "basename": "Border Gateway Protocol",
+      "path": "Border Gateway Protocol.md"
+    },
+    {
+      "basename": "Split Brain",
+      "path": "Split Brain.md"
+    },
+    {
+      "basename": "Modern TypeScript Development",
+      "path": "Modern TypeScript Development.md"
+    },
+    {
+      "basename": "Cross-Site Scripting",
+      "path": "Cross-Site Scripting.md"
+    },
+    {
+      "basename": "Progressive Web Application",
+      "path": "Progressive Web Application.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Cookie.md"
+    },
+    {
+      "basename": "IndexedDB",
+      "path": "IndexedDB.md"
+    },
+    {
+      "basename": "Local Storage",
+      "path": "Local Storage.md"
+    },
+    {
+      "basename": "Session Storage",
+      "path": "Session Storage.md"
+    },
+    {
+      "basename": "Compare-and-Swap",
+      "path": "Compare-and-Swap.md"
+    },
+    {
+      "basename": "Garbage Collection",
+      "path": "Garbage Collection.md"
+    },
+    {
+      "basename": "Snapshot Isolation",
+      "path": "Snapshot Isolation.md"
+    },
+    {
+      "basename": "Intermediate System to Intermediate System",
+      "path": "Intermediate System to Intermediate System.md"
+    },
+    {
+      "basename": "Distributed Consensus",
+      "path": "Distributed Consensus.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
+      "basename": "Modular Monolith",
+      "path": "Modular Monolith.md"
+    },
+    {
+      "basename": "Microservice",
+      "path": "Microservice.md"
+    },
+    {
+      "basename": "Browser Storage",
+      "path": "Browser Storage.md"
+    },
+    {
+      "basename": "Monolith",
+      "path": "Monolith.md"
+    },
+    {
+      "basename": "Service Worker",
+      "path": "Service Worker.md"
+    },
+    {
+      "basename": "Saga",
+      "path": "Saga.md"
+    },
+    {
+      "basename": "Open Shortest Path First",
+      "path": "Open Shortest Path First.md"
+    },
+    {
+      "basename": "Cache API",
+      "path": "Cache API.md"
+    },
+    {
+      "basename": "Clustered Index",
+      "path": "Clustered Index.md"
+    },
+    {
+      "basename": "Log-Structured Merge Tree",
+      "path": "Log-Structured Merge Tree.md"
+    },
+    {
+      "basename": "SST",
+      "path": "SST.md"
+    },
+    {
+      "basename": "Apache Cassandra",
+      "path": "Apache Cassandra.md"
+    },
+    {
+      "basename": "Sorted String Table",
+      "path": "Sorted String Table.md"
+    },
+    {
+      "basename": "Stale-While-Revalidate",
+      "path": "Stale-While-Revalidate.md"
+    },
+    {
+      "basename": "Content Delivery Network",
+      "path": "Content Delivery Network.md"
+    },
+    {
+      "basename": "Replication",
+      "path": "Replication.md"
     },
     {
       "basename": "Load Balancing Strategy",
@@ -19,186 +199,6 @@
     {
       "basename": "Routing",
       "path": "Routing.md"
-    },
-    {
-      "basename": "Border Gateway Protocol",
-      "path": "Border Gateway Protocol.md"
-    },
-    {
-      "basename": "Virtual IP Address",
-      "path": "Virtual IP Address.md"
-    },
-    {
-      "basename": "Virtual Router Redundancy Protocol",
-      "path": "Virtual Router Redundancy Protocol.md"
-    },
-    {
-      "basename": "Equal-Cost Multi-Path",
-      "path": "Equal-Cost Multi-Path.md"
-    },
-    {
-      "basename": "Keepalive",
-      "path": "Keepalive.md"
-    },
-    {
-      "basename": "Saga",
-      "path": "Saga.md"
-    },
-    {
-      "basename": "Domain Name Service",
-      "path": "Domain Name Service.md"
-    },
-    {
-      "basename": "Health-Checked DNS",
-      "path": "Health-Checked DNS.md"
-    },
-    {
-      "basename": "Google Cloud Load Balancing",
-      "path": "Google Cloud Load Balancing.md"
-    },
-    {
-      "basename": "Temporal",
-      "path": "Temporal.md"
-    },
-    {
-      "basename": "Amazon Simple Workflow Service",
-      "path": "Amazon Simple Workflow Service.md"
-    },
-    {
-      "basename": "Amazon Step Functions",
-      "path": "Amazon Step Functions.md"
-    },
-    {
-      "basename": "JSON Web Key Set",
-      "path": "JSON Web Key Set.md"
-    },
-    {
-      "basename": "Amazon Sagemaker",
-      "path": "Amazon Sagemaker.md"
-    },
-    {
-      "basename": "Transport Control Protocol",
-      "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "Distributed Transaction",
-      "path": "Distributed Transaction.md"
-    },
-    {
-      "basename": "Session",
-      "path": "Session.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "Authentication.md"
-    },
-    {
-      "basename": "Amazon Route 53",
-      "path": "Amazon Route 53.md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "JSON Web Token.md"
-    },
-    {
-      "basename": "Proxy",
-      "path": "Proxy.md"
-    },
-    {
-      "basename": "HMAC-based Key Derivation Function",
-      "path": "HMAC-based Key Derivation Function.md"
-    },
-    {
-      "basename": "Certificate",
-      "path": "Certificate.md"
-    },
-    {
-      "basename": "Webhook",
-      "path": "Webhook.md"
-    },
-    {
-      "basename": "Datagram Transport Layer Security",
-      "path": "Datagram Transport Layer Security.md"
-    },
-    {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
-      "basename": "Socket",
-      "path": "Socket.md"
-    },
-    {
-      "basename": "ESP32",
-      "path": "ESP32.md"
-    },
-    {
-      "basename": "HAProxy",
-      "path": "HAProxy.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "System Design in a Hurry",
-      "path": "System Design in a Hurry.md"
-    },
-    {
-      "basename": "Amazon API Gateway",
-      "path": "Amazon API Gateway.md"
-    },
-    {
-      "basename": "Amazon Elastic Kubernetes Service",
-      "path": "Amazon Elastic Kubernetes Service.md"
-    },
-    {
-      "basename": "Amazon Web Application Firewall",
-      "path": "Amazon Web Application Firewall.md"
-    },
-    {
-      "basename": "Amazon Global Accelerator",
-      "path": "Amazon Global Accelerator.md"
-    },
-    {
-      "basename": "Amazon Network Load Balancer",
-      "path": "Amazon Network Load Balancer.md"
-    },
-    {
-      "basename": "Amazon S3",
-      "path": "Amazon S3.md"
-    },
-    {
-      "basename": "Authoritative Nameserver",
-      "path": "Authoritative Nameserver.md"
-    },
-    {
-      "basename": "Forward Proxy",
-      "path": "Forward Proxy.md"
-    },
-    {
-      "basename": "TCP Termination",
-      "path": "TCP Termination.md"
-    },
-    {
-      "basename": "TLS Termination",
-      "path": "TLS Termination.md"
-    },
-    {
-      "basename": "Authorization",
-      "path": "Authorization.md"
-    },
-    {
-      "basename": "RAM",
-      "path": "RAM.md"
-    },
-    {
-      "basename": "Lock",
-      "path": "Lock.md"
-    },
-    {
-      "basename": "Mutual TLS",
-      "path": "Mutual TLS.md"
     }
   ],
   "omittedPaths": [],

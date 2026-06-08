@@ -30,12 +30,14 @@ So how do we coordinate which machine currently owns the VIP?
 
 We use [[Virtual Router Redundancy Protocol]] (VRRP), a protocol used to coordinate which machine currently owns the VIP. It's commonly used for routers, firewalls, and load balancers.
 
-A VRRP group usually has:
-- A virtual IP (e.g. 203.0.113.10)
-- A master, which currently owns and answers for that VIP
-- One or more backups, which monitor the master
-- A priority, used to decide who should become master
-- Periodic advertisements, sent by the master to prove it is alive
+Short Version of how VRRP is used to manage the VIP:
+- The clients connect to a stable virtual IP.
+- Only the active load balancer owns that IP.
+- VRRP decides which node owns it.
+- The active node sends advertisements.
+- If advertisements stop, the passive node takes over.
+- It announces the VIP using [[Address Resolution Protocol|Gratuitous ARP]]/[[Neighbor Discovery Protocol]] (for IPv6).
+- Traffic then flows to the new active node.
 
 
 

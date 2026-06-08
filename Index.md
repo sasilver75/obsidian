@@ -10,7 +10,7 @@ Indexes are stored on [[Page]]s, just like table data!
 
 Various types:
 - [[B-Tree]]
-- [[LSM Tree]] (+ [[SSTable]])
+- [[Log-Structured Merge Tree]] (+ [[Sorted String Table]])
 - [[B+ Tree]]
 - [[Hash Index]]
 - [[Geohash]]+B-Tree

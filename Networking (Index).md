@@ -106,7 +106,7 @@ Terms
 - [[Authoritative Nameserver]]: A DNS server that holds the official records for a domain or zone.
 - [[Root Nameserver]]: A DNS server at the top of the DNS hierarchy that directs resolvers toward top-level domain servers.
 - [[Recursive Resolver]]: A DNS resolver that performs lookups on behalf of clients and returns the final answer.
-- [[MAC Address]]: A hardware identifier used to address devices on a local link-layer network.
+- [[Media Access Control|MAC Address]]: A hardware identifier used to address devices on a local link-layer network.
 - [[Loopback Address]]: An address that routes traffic back to the same host, commonly `127.0.0.1` for IPv4.
 - [[Time to First Byte]] (TTFB): The time from starting a request until the first byte of the response is received.
 - [[Backpressure]]: A signal or mechanism that tells upstream producers to slow down because downstream consumers are saturated.

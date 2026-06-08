@@ -1,5 +1,13 @@
 A cache serving policy where an ==expired cached value may still be returned immediately for a limited stale window, while a background refresh fetches and stores a fresh value for later requests==.
 
+Verbal usage:
+- "Cached for 15 seconds, stale for 5 minutes while revalidating" means:
+	- For 15 seconds, the cached response is fresh
+	- After 15 seconds, it is technically safe
+	- For the *next* 300 seconds, the cache may still serve the stale response immediately, while kicking off an asynchronous job in the background to repopulate the value for the cache key.
+	- In a CDN, this might be: `Cache-Control: public, max-age=0, s-maxage=15, stale-while-revalidate=300`
+
+
 Stale While Revalidate:
 ```
 Cache hit and still fresh:

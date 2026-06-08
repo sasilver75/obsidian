@@ -6,7 +6,7 @@ In an application, we're likely to need to [[Horizontal Scaling|Horizontally Sca
 
 Load Balancers provide an intermediate layer that routes clients to one of the servers in its load balancing pool.
 
-Load Balancers can operate on multiple Load Balancing Policies:
+Load Balancers can operate on multiple Load Balancing Policies: See [[Load Balancing Strategy]]
 - [[Round Robin]]
 - [[Consistent Hashing]]
 	- IP Address vs User ID, for example; sometimes we want to route to the same server to take advantage of cached data.
@@ -144,7 +144,7 @@ For the service to stay reachable, we need redundancy at every required step in 
 
 > So how do clients keep using one stable service address while the load balancer itself is made redundant?
 
-There are a number of solutions, here:
+There are a number of solutions, here:[]()
 1. [[Active-Passive]] Load Balancers
 2. [[Active-Active]] Load Balancers
 3. A Managed Load Balancer
@@ -152,7 +152,7 @@ There are a number of solutions, here:
 They all work the same way:
 > Make the load-balancing layer redundant while preserving one stable address for clients!
 
-### (1/5) [[Active-Passive]] Load Balancers
+### [[Active-Passive]] Load Balancers
 We run ==two load balancers==
 ```
 clients
@@ -175,7 +175,7 @@ The clients keep using the same address, and behind the scenes, ownership of the
 This is often implemented with a ==[[Virtual IP Address]]== and a failover protocol like [[Virtual Router Redundancy Protocol|VRRP]]/Keepalived
 - A Virtual IP Address is a stable IP address that is not permanently tied to one physical machine. Instead, it can "move" between machines.
 
-### (2/5) [[Active-Active]] Load Balancers
+### [[Active-Active]] Load Balancers
 In this scheme, we run ==multiple load balancers==, and all of them serve traffic at the same time
 ```
 clients
@@ -221,7 +221,7 @@ The same IP is announced from multiple places:
 ```
 The network routes clients to a nearby/available location. If one location fails, its route is withdrawn and traffic shifts elsewhere. This is common for global edge systems, CDNs, DNS providers, large platforms.
 
-### (3/5) A Managed Load Balancer
+### A Managed Load Balancer
 In AWS/GCP/Azure, when you create a "Load Balancer" (e.g. [[Amazon Application Load Balancer|ALB]]), you are usually not getting a single VM, you're getting a managed service that's internally redundant:
 ```
 clients
