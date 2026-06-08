@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
+    },
+    {
       "basename": "Distributed Lock",
       "path": "Distributed Lock.md"
     },
@@ -121,10 +129,6 @@
       "path": "Distributed Consensus.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
       "basename": "Server-Sent Event",
       "path": "Server-Sent Event.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Load Balancing Strategy",
       "path": "Load Balancing Strategy.md"
-    },
-    {
-      "basename": "Routing",
-      "path": "Routing.md"
     }
   ],
   "omittedPaths": [],

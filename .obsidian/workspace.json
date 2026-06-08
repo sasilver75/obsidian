@@ -54,81 +54,9 @@
               "icon": "lucide-file",
               "title": "System Design (Index)"
             }
-          },
-          {
-            "id": "93de0f4c3eeb9e76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distributed Lock.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Distributed Lock"
-            }
-          },
-          {
-            "id": "9682e9e50b093dfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distributed Lock.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Distributed Lock"
-            }
-          },
-          {
-            "id": "606f5a3ac67d0e52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zookeeper Atomic Broadcast.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Zookeeper Atomic Broadcast"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2118,10 +2046,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9682e9e50b093dfe",
+  "active": "dec37cac2a85c3b4",
   "lastOpenFiles": [
-    "Zookeeper Atomic Broadcast.md",
+    "Pagination.md",
+    "System Design (Index).md",
     "Distributed Lock.md",
+    "Zookeeper Atomic Broadcast.md",
     "Amazon Route 53.md",
     "Amazon Web Application Firewall.md",
     "Amazon Elastic Kubernetes Service.md",
@@ -2144,8 +2074,6 @@
     "Cookie.md",
     "IndexedDB.md",
     "Local Storage.md",
-    "Session Storage.md",
-    "Compare-and-Swap.md",
     "_attachments/Pasted image 20260607103404.png",
     "_attachments/Pasted image 20260606212648.png",
     "_attachments/Pasted image 20260606212435.png",
