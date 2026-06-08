@@ -2,6 +2,7 @@
 aliases:
   - S3
   - Simple Storage Service
+  - AWS S3
 ---
 Amazon's [[Blob Storage|Object Storage]] service, one of the foundational infrastructure services of modern cloud computing.
 It's the dominant cloud storage platform and the de-facto standard for storing large-scale data in the cloud.

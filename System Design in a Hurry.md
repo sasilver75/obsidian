@@ -484,7 +484,7 @@ Mot Common NoSQL DAtabases
 	- Videos
 	- Other files
 - Storing these in a traditional database is expensive/inefficient and should be avoided when possible.
-	- Instead use [[AWS S3]] or [[Google Cloud Storage]]
+	- Instead use [[Amazon S3|AWS S3]] or [[Google Cloud Storage]]
 - Blob storages are simple:
 	- ==Upload a blob== of data
 	- ==Get back a URL==
@@ -540,7 +540,7 @@ Things you should know about search-optimized databases:
 - You're free to read more in the our API Gateway deep dive, but note that interviewers rarely get into the details of the API gateway, they usually want ot ask questions which are more specific to the problem at hand.
 
 The most common API Gateways are:
-- [[AWS API Gateway]]
+- [[Amazon API Gateway|AWS API Gateway]]
 - [[Kong]]
 - [[Apigee (GCP Managed Gateway)]]
 

@@ -1,6 +1,8 @@
 ---
 aliases:
   - JWKS
+  - JWK
+  - JSON Web Key
 ---
 A published set of public keys that services use to verify [[JSON Web Token|JWT]] [[Cryptographic Signature|Signature]]s.
 

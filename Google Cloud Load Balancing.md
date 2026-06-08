@@ -1,3 +1,4 @@
 ---
 aliases:
+  - Cloud Load Balancing
 ---

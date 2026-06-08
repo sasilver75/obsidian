@@ -271,3 +271,42 @@ Terms
 - [[Principle of Least Privilege]]: Granting each user, service, or process only the minimum permissions needed to perform its job.
 - [[Encryption at Rest]]: Encrypting stored data so stolen disks, backups, snapshots, or storage objects do not reveal plaintext.
 - [[Encryption in Transit]]: Encrypting data while it crosses networks so intermediaries cannot read or tamper with it.
+
+
+
+
+
+
+____________________
+
+Q: In an AWS-style architecture where a public internet client needs to reach an application running inside a VPC, what infrastructure components can sit between the client and the actual application server?
+
+A: There isn't just one mandatory chain, AWS gives you several "front doors," but for a normal public web/API app in a VPC, the common shape is:
+- Browser
+	- [[Amazon Route 53|Route 53]] [[Domain Name Service|DNS]]
+	- [[Amazon CloudFront|CloudFront]] (optional)
+	- [[Amazon Web Application Firewall|AWS Web Application Firewall]] (optional)
+	- Internet-facing [[Amazon Application Load Balancer|ALB]] in public subnets
+	- Target group
+	- [[Amazon EC2|AWS EC2]]/[[Amazon Elastic Container Service|ECS]]/[[Amazon Elastic Kubernetes Service|EKS]]
+
+Simple public web app:
+- Browser
+- [[Amazon Route 53|Route 53]]
+- [[Amazon Application Load Balancer|ALB]] in a public subnet
+- [[Amazon Elastic Container Service|ECS]] app in a private subnet
+
+With a CDN and WAF
+- Browser
+- [[Amazon Route 53|Route 53]]
+- [[Amazon CloudFront|CloudFront]] and [[Web Application Firewall|WAF]]
+- [[Amazon Application Load Balancer|ALB]] in public subnet
+- [[Amazon Elastic Container Service|ECS]] app in private subnet
+
+API Gateway to private app
+- Browser
+- [[Amazon Route 53|Route 53]]
+- [[API Gateway]]
+- VPC Link
+- [[Amazon Application Load Balancer|ALB]]/[[Amazon Network Load Balancer|NLB]]
+- [[Amazon Elastic Container Service|ECS]] app in private subnet

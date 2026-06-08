@@ -1,12 +1,188 @@
 {
   "recentFiles": [
     {
-      "basename": "TLS Termination",
-      "path": "TLS Termination.md"
+      "basename": "Active-Passive",
+      "path": "Active-Passive.md"
+    },
+    {
+      "basename": "Load Balancing",
+      "path": "Load Balancing.md"
+    },
+    {
+      "basename": "Active-Active",
+      "path": "Active-Active.md"
+    },
+    {
+      "basename": "Load Balancing Strategy",
+      "path": "Load Balancing Strategy.md"
+    },
+    {
+      "basename": "Routing",
+      "path": "Routing.md"
+    },
+    {
+      "basename": "Border Gateway Protocol",
+      "path": "Border Gateway Protocol.md"
+    },
+    {
+      "basename": "Virtual IP Address",
+      "path": "Virtual IP Address.md"
+    },
+    {
+      "basename": "Virtual Router Redundancy Protocol",
+      "path": "Virtual Router Redundancy Protocol.md"
+    },
+    {
+      "basename": "Equal-Cost Multi-Path",
+      "path": "Equal-Cost Multi-Path.md"
+    },
+    {
+      "basename": "Keepalive",
+      "path": "Keepalive.md"
+    },
+    {
+      "basename": "Saga",
+      "path": "Saga.md"
+    },
+    {
+      "basename": "Domain Name Service",
+      "path": "Domain Name Service.md"
+    },
+    {
+      "basename": "Health-Checked DNS",
+      "path": "Health-Checked DNS.md"
+    },
+    {
+      "basename": "Google Cloud Load Balancing",
+      "path": "Google Cloud Load Balancing.md"
+    },
+    {
+      "basename": "Temporal",
+      "path": "Temporal.md"
+    },
+    {
+      "basename": "Amazon Simple Workflow Service",
+      "path": "Amazon Simple Workflow Service.md"
+    },
+    {
+      "basename": "Amazon Step Functions",
+      "path": "Amazon Step Functions.md"
+    },
+    {
+      "basename": "JSON Web Key Set",
+      "path": "JSON Web Key Set.md"
+    },
+    {
+      "basename": "Amazon Sagemaker",
+      "path": "Amazon Sagemaker.md"
+    },
+    {
+      "basename": "Transport Control Protocol",
+      "path": "Transport Control Protocol.md"
+    },
+    {
+      "basename": "Distributed Transaction",
+      "path": "Distributed Transaction.md"
+    },
+    {
+      "basename": "Session",
+      "path": "Session.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Authentication.md"
+    },
+    {
+      "basename": "Amazon Route 53",
+      "path": "Amazon Route 53.md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
+    },
+    {
+      "basename": "Proxy",
+      "path": "Proxy.md"
+    },
+    {
+      "basename": "HMAC-based Key Derivation Function",
+      "path": "HMAC-based Key Derivation Function.md"
+    },
+    {
+      "basename": "Certificate",
+      "path": "Certificate.md"
+    },
+    {
+      "basename": "Webhook",
+      "path": "Webhook.md"
+    },
+    {
+      "basename": "Datagram Transport Layer Security",
+      "path": "Datagram Transport Layer Security.md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "Socket",
+      "path": "Socket.md"
+    },
+    {
+      "basename": "ESP32",
+      "path": "ESP32.md"
+    },
+    {
+      "basename": "HAProxy",
+      "path": "HAProxy.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "System Design in a Hurry",
+      "path": "System Design in a Hurry.md"
+    },
+    {
+      "basename": "Amazon API Gateway",
+      "path": "Amazon API Gateway.md"
+    },
+    {
+      "basename": "Amazon Elastic Kubernetes Service",
+      "path": "Amazon Elastic Kubernetes Service.md"
+    },
+    {
+      "basename": "Amazon Web Application Firewall",
+      "path": "Amazon Web Application Firewall.md"
+    },
+    {
+      "basename": "Amazon Global Accelerator",
+      "path": "Amazon Global Accelerator.md"
+    },
+    {
+      "basename": "Amazon Network Load Balancer",
+      "path": "Amazon Network Load Balancer.md"
+    },
+    {
+      "basename": "Amazon S3",
+      "path": "Amazon S3.md"
+    },
+    {
+      "basename": "Authoritative Nameserver",
+      "path": "Authoritative Nameserver.md"
+    },
+    {
+      "basename": "Forward Proxy",
+      "path": "Forward Proxy.md"
     },
     {
       "basename": "TCP Termination",
       "path": "TCP Termination.md"
+    },
+    {
+      "basename": "TLS Termination",
+      "path": "TLS Termination.md"
     },
     {
       "basename": "Authorization",
@@ -23,182 +199,6 @@
     {
       "basename": "Mutual TLS",
       "path": "Mutual TLS.md"
-    },
-    {
-      "basename": "Backend for Frontend",
-      "path": "Backend for Frontend.md"
-    },
-    {
-      "basename": "Read-Through Cache",
-      "path": "Read-Through Cache.md"
-    },
-    {
-      "basename": "Napkin Math",
-      "path": "Napkin Math.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "Authentication.md"
-    },
-    {
-      "basename": "Transport Layer Security",
-      "path": "Transport Layer Security.md"
-    },
-    {
-      "basename": "HMAC-based Key Derivation Function",
-      "path": "HMAC-based Key Derivation Function.md"
-    },
-    {
-      "basename": "Domain Name Service",
-      "path": "Domain Name Service.md"
-    },
-    {
-      "basename": "HTTP 2",
-      "path": "HTTP 2.md"
-    },
-    {
-      "basename": "Certificate",
-      "path": "Certificate.md"
-    },
-    {
-      "basename": "Authoritative Nameserver",
-      "path": "Authoritative Nameserver.md"
-    },
-    {
-      "basename": "HTTP 1.1",
-      "path": "HTTP 1.1.md"
-    },
-    {
-      "basename": "Transport Control Protocol",
-      "path": "Transport Control Protocol.md"
-    },
-    {
-      "basename": "Cryptography and Security (Index)",
-      "path": "Cryptography and Security (Index).md"
-    },
-    {
-      "basename": "Backpressure",
-      "path": "Backpressure.md"
-    },
-    {
-      "basename": "Retry Storm",
-      "path": "Retry Storm.md"
-    },
-    {
-      "basename": "Inbox Pattern",
-      "path": "Inbox Pattern.md"
-    },
-    {
-      "basename": "Transactional Outbox Pattern",
-      "path": "Transactional Outbox Pattern.md"
-    },
-    {
-      "basename": "Service Discovery",
-      "path": "Service Discovery.md"
-    },
-    {
-      "basename": "Reverse Proxy",
-      "path": "Reverse Proxy.md"
-    },
-    {
-      "basename": "Proxy",
-      "path": "Proxy.md"
-    },
-    {
-      "basename": "Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}",
-      "path": "Articles/Specialized LLMs - ChatGPT, LaMBDA, Galactica, Codex, Sparrow, and More (January 2023) {Cameron R Wolfe, PhD}.md"
-    },
-    {
-      "basename": "Port",
-      "path": "Port.md"
-    },
-    {
-      "basename": "N + 1 Query Problem",
-      "path": "N + 1 Query Problem.md"
-    },
-    {
-      "basename": "Blob Storage",
-      "path": "Blob Storage.md"
-    },
-    {
-      "basename": "Uniform Resource Identifier",
-      "path": "Uniform Resource Identifier.md"
-    },
-    {
-      "basename": "Uniform Resource Locator",
-      "path": "Uniform Resource Locator.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Redis.md"
-    },
-    {
-      "basename": "Stale-While-Revalidate",
-      "path": "Stale-While-Revalidate.md"
-    },
-    {
-      "basename": "Request Coalescing",
-      "path": "Request Coalescing.md"
-    },
-    {
-      "basename": "At-Most-Once Delivery",
-      "path": "At-Most-Once Delivery.md"
-    },
-    {
-      "basename": "Hot Spot",
-      "path": "Hot Spot.md"
-    },
-    {
-      "basename": "Saga",
-      "path": "Saga.md"
-    },
-    {
-      "basename": "Refresh-Ahead",
-      "path": "Refresh-Ahead.md"
-    },
-    {
-      "basename": "Cache Stampede",
-      "path": "Cache Stampede.md"
-    },
-    {
-      "basename": "Idempotency",
-      "path": "Idempotency.md"
-    },
-    {
-      "basename": "API Gateway",
-      "path": "API Gateway.md"
-    },
-    {
-      "basename": "Message Queue",
-      "path": "Message Queue.md"
-    },
-    {
-      "basename": "Distributed Transaction",
-      "path": "Distributed Transaction.md"
-    },
-    {
-      "basename": "Proximity Search",
-      "path": "Proximity Search.md"
-    },
-    {
-      "basename": "Alert",
-      "path": "Alert.md"
-    },
-    {
-      "basename": "Dead Letter Queue",
-      "path": "Dead Letter Queue.md"
-    },
-    {
-      "basename": "BKD Tree",
-      "path": "BKD Tree.md"
-    },
-    {
-      "basename": "Reticulum Network",
-      "path": "Reticulum Network.md"
     }
   ],
   "omittedPaths": [],

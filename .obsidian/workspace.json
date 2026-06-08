@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TLS Termination.md",
+                "file": "Load Balancing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,295 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TLS Termination"
+              "title": "Load Balancing"
+            }
+          },
+          {
+            "id": "3268ff24fe1deb01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Active-Passive.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Active-Passive"
+            }
+          },
+          {
+            "id": "809f4fee6687ae74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Load Balancing Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Load Balancing Strategy"
+            }
+          },
+          {
+            "id": "873e8dd1c4d15362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Routing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Routing"
+            }
+          },
+          {
+            "id": "ef90f7e37a368933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Border Gateway Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Border Gateway Protocol"
+            }
+          },
+          {
+            "id": "33dd9c8b86ff29cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Virtual IP Address.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Virtual IP Address"
+            }
+          },
+          {
+            "id": "587715271b4ffae0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Virtual IP Address.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Virtual IP Address"
+            }
+          },
+          {
+            "id": "3757b5ef6ba74016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Load Balancing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Load Balancing"
+            }
+          },
+          {
+            "id": "e617e01b1cf5e7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Virtual Router Redundancy Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Virtual Router Redundancy Protocol"
+            }
+          },
+          {
+            "id": "a236017ddef2d053",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Simple Workflow Service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Simple Workflow Service"
+            }
+          },
+          {
+            "id": "8aed7eb44526d7ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSON Web Key Set.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JSON Web Key Set"
+            }
+          },
+          {
+            "id": "bf6fb0e7f8f84487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSON Web Key Set.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JSON Web Key Set"
+            }
+          },
+          {
+            "id": "72a80b8ed0f28b67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSON Web Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JSON Web Token"
             }
           },
           {
@@ -85,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authoritative Nameserver.md",
+                "file": "Webhook.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,10 +388,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Authoritative Nameserver"
+              "title": "Webhook"
+            }
+          },
+          {
+            "id": "9ed04cf03bbc69cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datagram Transport Layer Security.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Datagram Transport Layer Security"
+            }
+          },
+          {
+            "id": "b29a7d7c76397f42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESP32.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ESP32"
+            }
+          },
+          {
+            "id": "83acb0ca17828a49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Elastic Kubernetes Service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Elastic Kubernetes Service"
+            }
+          },
+          {
+            "id": "7d635f4953a26bc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Web Application Firewall.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Web Application Firewall"
+            }
+          },
+          {
+            "id": "e7cf11cfd8a735ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Route 53.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Route 53"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2093,35 +2502,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "19d9938c651e82e5",
+  "active": "3268ff24fe1deb01",
   "lastOpenFiles": [
-    "TCP Termination.md",
-    "Authorization.md",
-    "RAM.md",
-    "Lock.md",
-    "Mutual TLS.md",
-    "Backend for Frontend.md",
-    "Read-Through Cache.md",
-    "_attachments/Pasted image 20260607103404.png",
-    "Napkin Math.md",
-    "Authentication.md",
-    "Transport Layer Security.md",
-    "HMAC-based Key Derivation Function.md",
+    "Load Balancing.md",
+    "Active-Active.md",
+    "Active-Passive.md",
+    "Load Balancing Strategy.md",
+    "Routing.md",
+    "Border Gateway Protocol.md",
+    "Virtual IP Address.md",
+    "Virtual Router Redundancy Protocol.md",
+    "Equal-Cost Multi-Path.md",
+    "Keepalive.md",
+    "Saga.md",
     "Domain Name Service.md",
-    "HTTP 2.md",
-    "Certificate.md",
-    "Authoritative Nameserver.md",
-    "HTTP 1.1.md",
+    "Health-Checked DNS.md",
+    "Google Cloud Load Balancing.md",
+    "Temporal.md",
+    "Amazon Simple Workflow Service.md",
+    "Amazon Step Functions.md",
+    "JSON Web Key Set.md",
+    "Amazon Sagemaker.md",
     "Transport Control Protocol.md",
-    "Cryptography and Security (Index).md",
-    "TLS Handshake.md",
-    "Backpressure.md",
-    "Retry Storm.md",
-    "Inbox Pattern.md",
-    "Transactional Outbox Pattern.md",
-    "Service Discovery.md",
-    "Reverse Proxy.md",
+    "Distributed Transaction.md",
+    "Session.md",
+    "Authentication.md",
+    "Amazon Route 53.md",
+    "JSON Web Token.md",
     "Proxy.md",
+    "_attachments/Pasted image 20260607103404.png",
     "_attachments/Pasted image 20260606212648.png",
     "_attachments/Pasted image 20260606212435.png",
     "_attachments/Pasted image 20260606212244.png",
