@@ -1,6 +1,90 @@
 {
   "recentFiles": [
     {
+      "basename": "Refresh Token",
+      "path": "Refresh Token.md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Cookie.md"
+    },
+    {
+      "basename": "Clock Skew",
+      "path": "Clock Skew.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Autoscaling",
+      "path": "Autoscaling.md"
+    },
+    {
+      "basename": "Load Shedding",
+      "path": "Load Shedding.md"
+    },
+    {
+      "basename": "Priority Queue",
+      "path": "Priority Queue.md"
+    },
+    {
+      "basename": "Distributed Cache",
+      "path": "Distributed Cache.md"
+    },
+    {
+      "basename": "In-Process Cache",
+      "path": "In-Process Cache.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "Data Lakehouse",
+      "path": "Data Lakehouse.md"
+    },
+    {
+      "basename": "HTTP 2",
+      "path": "HTTP 2.md"
+    },
+    {
+      "basename": "Feature Flag",
+      "path": "Feature Flag.md"
+    },
+    {
+      "basename": "Tail Latency",
+      "path": "Tail Latency.md"
+    },
+    {
+      "basename": "External Cache",
+      "path": "External Cache.md"
+    },
+    {
+      "basename": "Browser Storage",
+      "path": "Browser Storage.md"
+    },
+    {
+      "basename": "Client-Side Cache",
+      "path": "Client-Side Cache.md"
+    },
+    {
+      "basename": "Terraform",
+      "path": "Terraform.md"
+    },
+    {
+      "basename": "Cache Warming",
+      "path": "Cache Warming.md"
+    },
+    {
+      "basename": "Rollback Strategy",
+      "path": "Rollback Strategy.md"
+    },
+    {
       "basename": "Address Resolution Protocol",
       "path": "Address Resolution Protocol.md"
     },
@@ -77,10 +161,6 @@
       "path": "Amazon Identity and Access Management.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
       "basename": "Secrets Management",
       "path": "Secrets Management.md"
     },
@@ -119,86 +199,6 @@
     {
       "basename": "Deployment",
       "path": "Deployment.md"
-    },
-    {
-      "basename": "Smoke Test",
-      "path": "Smoke Test.md"
-    },
-    {
-      "basename": "Amazon CodeDeploy",
-      "path": "Amazon CodeDeploy.md"
-    },
-    {
-      "basename": "Blue-Green Deployment",
-      "path": "Blue-Green Deployment.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "JSON Web Token.md"
-    },
-    {
-      "basename": "Wide-Column",
-      "path": "Wide-Column.md"
-    },
-    {
-      "basename": "Vacuum",
-      "path": "Vacuum.md"
-    },
-    {
-      "basename": "Bulkhead",
-      "path": "Bulkhead.md"
-    },
-    {
-      "basename": "Refresh Token",
-      "path": "Refresh Token.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Redis.md"
-    },
-    {
-      "basename": "Session",
-      "path": "Session.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "Cookie.md"
-    },
-    {
-      "basename": "OAuth",
-      "path": "OAuth.md"
-    },
-    {
-      "basename": "Circuit Breaker",
-      "path": "Circuit Breaker.md"
-    },
-    {
-      "basename": "Google Bigtable",
-      "path": "Google Bigtable.md"
-    },
-    {
-      "basename": "Apache Cassandra",
-      "path": "Apache Cassandra.md"
-    },
-    {
-      "basename": "Count-Min Sketch",
-      "path": "Count-Min Sketch.md"
-    },
-    {
-      "basename": "Bloom Filter",
-      "path": "Bloom Filter.md"
-    },
-    {
-      "basename": "Failover",
-      "path": "Failover.md"
-    },
-    {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
     }
   ],
   "omittedPaths": [],

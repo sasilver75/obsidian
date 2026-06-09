@@ -137,9 +137,9 @@ Terms
 - [[Session|User Session]]: Server or client state representing a user's authenticated interaction over time. Use sessions when user continuity is needed, but design expiration, revocation, and storage deliberately.
 - [[User Access Token]]: A credential used by a client to access resources on behalf of a user. Keep it short-lived and scoped because a leaked bearer token can usually be used immediately.
 - [[Refresh Token]]: A long-lived credential used to obtain new access tokens without asking the user to log in again. Store and rotate it more carefully than access tokens because compromise lasts longer.
-- [[At Least Once]] Delivery: A delivery guarantee where a message is delivered one or more times and consumers must handle duplicates. Use it when losing work is worse than processing duplicates.
-- [[At Most Once]] Delivery: A delivery guarantee where a message is delivered zero or one time and may be lost. Use it only when low latency or simplicity matters more than guaranteed processing.
-- [[Exactly Once]] Delivery: A processing goal where each message's effect is applied once despite retries or failures. Treat it as an end-to-end design property, usually requiring idempotent writes and careful state management.
+- [[At Least Once|At Least Once Delivery]]: A delivery guarantee where a message is delivered one or more times and consumers must handle duplicates. Use it when losing work is worse than processing duplicates.
+- [[At-Most-Once Delivery]]: A delivery guarantee where a message is delivered zero or one time and may be lost. Use it only when low latency or simplicity matters more than guaranteed processing.
+- [[Exactly Once|Exactly Once Delivery]]: A processing goal where each message's effect is applied once despite retries or failures. Treat it as an end-to-end design property, usually requiring idempotent writes and careful state management.
 - [[Blue-Green Deployment]]: A release strategy that switches traffic between two complete production environments. Use it when fast rollback and environment-level separation justify duplicate capacity.
 - [[Canary Release]]: A release strategy that gradually exposes a new version to a small and then growing portion of traffic. Use it when production signals can safely validate a change before full rollout.
 - [[Feature Flag]]: A runtime switch that enables, disables, or varies behavior without redeploying code. Use it for gradual rollout, kill switches, experiments, and separating deploy from release.
@@ -215,6 +215,7 @@ Terms
 - [[Cache Warming]]: Proactively loading cache entries before user traffic needs them.
 - [[Distributed Cache]]: A shared cache accessed by multiple application instances or services.
 - [[In-Process Cache]]: A cache stored inside a single application process for very low latency at the cost of locality and duplication.
+- [[External Cache]]: A cache stored outside the application process, usually in a separate service, e.g. Redis.
 - [[Client-Side Cache]]: A cache stored in a browser, mobile app, SDK, or other consuming client to reduce network calls.
 - [[Fencing Token]]: A monotonically increasing token used with distributed locks so stale lock holders can be rejected.
 - [[Consumer Group]]: A set of consumers that share work from a stream or topic so partitions or messages are distributed among members.

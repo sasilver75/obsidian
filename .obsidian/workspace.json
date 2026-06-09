@@ -11,10 +11,240 @@
             "id": "5488e8b7d9012cb4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Refresh Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Refresh Token"
+            }
+          },
+          {
+            "id": "1dbd20259b2dcb80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cookie.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cookie"
+            }
+          },
+          {
+            "id": "93c3b01e97395b13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Load Shedding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Load Shedding"
+            }
+          },
+          {
+            "id": "de54c442947b9f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Distributed Cache"
+            }
+          },
+          {
+            "id": "566d59ebaa992568",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "In-Process Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "In-Process Cache"
+            }
+          },
+          {
+            "id": "d0c68b1afd5a0f02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SpatioTemporal Asset Catalog.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SpatioTemporal Asset Catalog"
+            }
+          },
+          {
+            "id": "e0ca95c59729776a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP 2"
+            }
+          },
+          {
+            "id": "1d2024847a98fa21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP 2"
+            }
+          },
+          {
+            "id": "2a406b3b57303e95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Feature Flag.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Feature Flag"
+            }
+          },
+          {
+            "id": "5f8e8df53266fb60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tail Latency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tail Latency"
             }
           }
         ]
@@ -1950,12 +2180,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "d297c4c2760c2b93",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 183
+        "currentTab": 184
       },
       {
         "id": "8a022290161ffefa",
@@ -2019,32 +2259,32 @@
   },
   "active": "5488e8b7d9012cb4",
   "lastOpenFiles": [
+    "JSON Web Token.md",
+    "Cookie.md",
+    "Clock Skew.md",
+    "System Design (Index).md",
+    "Autoscaling.md",
+    "Load Shedding.md",
+    "Priority Queue.md",
+    "Distributed Cache.md",
+    "In-Process Cache.md",
+    "SpatioTemporal Asset Catalog.md",
+    "Data Lakehouse.md",
+    "HTTP 2.md",
+    "Feature Flag.md",
+    "Tail Latency.md",
+    "External Cache.md",
+    "Browser Storage.md",
+    "Client-Side Cache.md",
+    "Terraform.md",
+    "Cache Warming.md",
+    "Rollback Strategy.md",
     "Address Resolution Protocol.md",
     "Dynamic Host Configuration Protocol.md",
     "Internet Protocol.md",
     "Wi-Fi.md",
     "Multicast DNS.md",
     "Network Interface Card.md",
-    "Wireless Access Point.md",
-    "Local Area Network.md",
-    "GeoDNS.md",
-    "Network Address Translation.md",
-    "GeoRouting.md",
-    "Canary Release.md",
-    "Security Assertion Markdown Language.md",
-    "OpenID Connect.md",
-    "Authentication.md",
-    "Distributed Lock.md",
-    "Key Rotation.md",
-    "Amazon Key Management Service.md",
-    "Amazon Identity and Access Management.md",
-    "System Design (Index).md",
-    "Secrets Management.md",
-    "IAM.md",
-    "Fencing Token.md",
-    "Single Sign-On.md",
-    "Release.md",
-    "Feature-Flagged Release.md",
     "A",
     "_attachments/Pasted image 20260608102433.png",
     "_attachments/Pasted image 20260608101609.png",

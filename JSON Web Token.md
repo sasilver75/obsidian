@@ -191,8 +191,33 @@ Now, the server asks: Can `user 42` actually read `project 132`?
 
 
 
+# It seems like [[Session]]s are preferred for first-party web applications. What should we use JWTs for?
 
+Yes, opaque server-side sessions are often the simpler and safer default
 
+You usually want a JWT when you specifically need ==portable, signed claims that another system can verify without calling your session database every time.==
+
+Good use cases:
+1. Short-lived API access tokens
+	- A common pattern is `opaque refresh token / session` -> short-lived JWT access token`
+	- The JWT lasts maybe 5-15 minutes. If it's leaked, damage is limited. Revocation happens by revoking the refresh token.
+2. Microservices/distributed systems
+	- Service A receives a request and passes identity to Service B. Service B can verify the JWT signature locally instead of calling the auth service on each request.
+3. Third-party APIs
+	- If external clients call your API, a JWT lets them present a signed token with scopes, tenant ID, expiry, issuer, etc.
+4. Federated login/OIDC
+	- [[OpenID Connect]] uses JWTs for ID tokens. If you integrate with Google/Auth0/Okta/Clerk, you'll encounter JWTs because they're a standard way to transmit signed identity claims.
+5. Edge/serverless environments
+	- IF your code runs across many regions/edge workers, verifying a signed token locally can be much faster and simpler than reaching a central control store.
+6. Scoped delegation
+	- JWTs are useful when you want a token that says:
+```
+user: 123
+scope: read:invoices
+tenant: acme
+expires: 10 minutes from now
+```
+So that the receiver can verify (with a [[JSON Web Key Set|JWK]] that the token was issued by you and hasn't expired.)
 
 
 
