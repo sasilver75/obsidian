@@ -2,7 +2,7 @@
 aliases:
   - Caching
 ---
-Reading from disk is slow. We can introduce in-memory caches, which whold a subset of our data, to speed up data access.
+Reading from disk is slow. We can introduce in-memory caches, which hold a subset of our data, to speed up data access.
 
 Like databases, caches can and often should use [[Replication]] and [[Sharding]]
 
@@ -10,22 +10,22 @@ Like databases, caches can and often should use [[Replication]] and [[Sharding]]
 We need to consider:
 - [[Cache Read Strategy]] (What do we do when the Cache misses? Does the Cache hit the backing datastore )
 	- ((I'm still not convinced that this is the umbrella term to use, or if it fits well.))
-	- [[Read-Through Cache|Read-Through]]
-	- [[Cache-Aside]]
+	- [[Read-Through Cache|Read-Through]]: Application only reads from the cache. On a miss, the cache itself reads the appropriate data from the database, updates itself, and serves the result to the application.
+	- [[Cache-Aside]]: Application first reads from the cache. On a miss, the application fetches the value from the database, stores it in the cache, and returns the result.
 - [[Cache Write Strategy]] (What do we do when we want to write data?)
 	- [[Write-Through Cache]]:  BOTH the cache and the underlying datastore** **simultaneously**! Ensures that your cache is **consistent** with your backing datastore, but can be **slower** for write operations since you have to do something like [[Two-Phase Commit|2PC]]
 	- [[Write-Around Cache]]: Data only written to DB; Data is pulled into the cache on a miss. Faster write and DB is source of truth, but Cache misses can be expensive.
 	- [[Write-Back Cache]]: An application writes directly to the Cache, and at some point the Cache asynchronously writes to Database. Super fast, and if you aren't reading from the Cache, you might not see the latest writes, plus list of data loss.
 - [[Cache Invalidation Strategy]]: Focuses on data *freshness* (ensuring no data of a certain staleness is served)
 - [[Cache Eviction Strategy]]: Focuses on capacity management (freeing up space when cache is full)
-- [[Cache Warming]]
-- [[Hot Spot|Hot Key]]s
-- [[Cache Stampede]]s
-- [[Content Delivery Network]]
-- [[Cache Hit]]
-- [[Cache Miss]]
-- [[Refresh-Ahead]]
-- [[Stale-While-Revalidate]]
+- [[Cache Warming]]: Proactively populating the cache (e.g. with content likely to be requested) before it's asked for.
+- [[Hot Spot|Hot Key]]s: Specific keys (e.g. Taylor Swift) that receive a large amount of write and/or read traffic.
+- [[Cache Stampede]]s: If a Cache is redeployed or if a very hot key expires via its TTL, a large number of application services (in the case of Cache Aside) are likely to all ask the database for a value, which can overload/degrade it.
+- [[Content Delivery Network]]: A geographically distributed cache often used for static assets (images, videos)
+- [[Cache Hit]]: When the Cache has the data you want, and is able to serve it.
+- [[Cache Miss]]: When the Cache does not have the data you want.
+- [[Refresh-Ahead]]: Similar to the idea of Cache Warming, but typically performed asynchronously after a user gets a cache hit on a cache entry with a TTL that is near expiring. Proactive.
+- [[Stale-While-Revalidate]]: Similar to Refresh-Ahead, but allows for serving of stale/expired content up to a specific point. When stale content is served, an asynchronous background job is kicked off to refresh that cache key.
 
 _____________________
 SDIAH

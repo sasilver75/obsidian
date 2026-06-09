@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eed3d7efc26f6b75",
+        "id": "106090a57f089010",
         "type": "tabs",
         "children": [
           {
-            "id": "5488e8b7d9012cb4",
+            "id": "86875795e12dc46d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Refresh Token.md",
+                "file": "SQLAlchemy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,223 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Refresh Token"
-            }
-          },
-          {
-            "id": "1dbd20259b2dcb80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cookie.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cookie"
-            }
-          },
-          {
-            "id": "93c3b01e97395b13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Load Shedding.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Load Shedding"
-            }
-          },
-          {
-            "id": "de54c442947b9f01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distributed Cache.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Distributed Cache"
-            }
-          },
-          {
-            "id": "566d59ebaa992568",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "In-Process Cache.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "In-Process Cache"
-            }
-          },
-          {
-            "id": "d0c68b1afd5a0f02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SpatioTemporal Asset Catalog.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SpatioTemporal Asset Catalog"
-            }
-          },
-          {
-            "id": "e0ca95c59729776a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTTP 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HTTP 2"
-            }
-          },
-          {
-            "id": "1d2024847a98fa21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTTP 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HTTP 2"
-            }
-          },
-          {
-            "id": "2a406b3b57303e95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Feature Flag.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Feature Flag"
-            }
-          },
-          {
-            "id": "5f8e8df53266fb60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tail Latency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tail Latency"
+              "title": "SQLAlchemy"
             }
           }
         ]
@@ -2257,34 +2041,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5488e8b7d9012cb4",
+  "active": "86875795e12dc46d",
   "lastOpenFiles": [
-    "JSON Web Token.md",
-    "Cookie.md",
-    "Clock Skew.md",
-    "System Design (Index).md",
-    "Autoscaling.md",
-    "Load Shedding.md",
-    "Priority Queue.md",
-    "Distributed Cache.md",
-    "In-Process Cache.md",
-    "SpatioTemporal Asset Catalog.md",
-    "Data Lakehouse.md",
-    "HTTP 2.md",
-    "Feature Flag.md",
+    "Multiversion Concurrency Control.md",
+    "ImageNet.md",
+    "SQLAlchemy.md",
+    "Pagination.md",
     "Tail Latency.md",
-    "External Cache.md",
-    "Browser Storage.md",
-    "Client-Side Cache.md",
-    "Terraform.md",
-    "Cache Warming.md",
-    "Rollback Strategy.md",
-    "Address Resolution Protocol.md",
-    "Dynamic Host Configuration Protocol.md",
-    "Internet Protocol.md",
-    "Wi-Fi.md",
-    "Multicast DNS.md",
-    "Network Interface Card.md",
+    "Feature Flag.md",
+    "HTTP 2.md",
+    "SpatioTemporal Asset Catalog.md",
+    "In-Process Cache.md",
+    "Denormalization.md",
+    "N + 1 Query Problem.md",
+    "Cache.md",
+    "Write-Back Cache.md",
+    "Release.md",
+    "Distributed Cache.md",
+    "Load Shedding.md",
+    "Cookie.md",
+    "Deployment.md",
+    "System Design (Index).md",
+    "flashcards/system-design-questions-anki.tsv",
+    "Courses/SystemDesign/SDIAH Intro.md",
+    "Key Rotation.md",
+    "Refresh-Ahead.md",
+    "Refresh Token.md",
+    "JSON Web Token.md",
+    "Clock Skew.md",
+    "Autoscaling.md",
     "A",
     "_attachments/Pasted image 20260608102433.png",
     "_attachments/Pasted image 20260608101609.png",
@@ -2303,7 +2088,6 @@
     "flashcards/electronics-index-anki.tsv",
     "flashcards/satellite-index-anki.tsv",
     "flashcards/system-design-index-anki.tsv",
-    "flashcards/geospatial-index-anki.tsv",
-    "flashcards/drone-index-anki.tsv"
+    "flashcards/geospatial-index-anki.tsv"
   ]
 }

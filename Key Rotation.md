@@ -1,4 +1,5 @@
 ---
 aliases:
   - Rotation
+  - Token Rotation
 ---

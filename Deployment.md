@@ -7,12 +7,9 @@ In contrast, a [[Release]] is when users are exposed to it.
 
 
 Strategies include:
-- Recreate Deployment
+- [[Big Bang Deployment]]
 - [[Rolling Deployment]]
 - [[Blue-Green Deployment]]
-- [[Canary Release]]
-- Shadow Deployment
-- Ring Deployment
 
 
 

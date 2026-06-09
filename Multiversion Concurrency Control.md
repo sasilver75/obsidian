@@ -9,8 +9,7 @@ A database technique where updates create new versions of rows, rather than imme
 > "The database keeps multiple committed/uncommitted versions of rows, and each transaction reads the version visible to its snapshot."
 
 Mainly about improving concurrency:
-- Usually avoids "Reader blocks writer"
-- Usually avoids "Writer blocks reader"
+- Usually avoids BBOTH "Reader blocks writer" AND "Writer blocks reader"
 - Avoids [[Dirty Read]]s, because readers ignore any uncommitted versions, as well as versions later than their snapshot.
 - Consistent statement/transaction view is achieved using snapshots.
 

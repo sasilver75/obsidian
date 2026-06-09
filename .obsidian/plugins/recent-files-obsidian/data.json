@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "SQLAlchemy",
+      "path": "SQLAlchemy.md"
+    },
+    {
+      "basename": "Multiversion Concurrency Control",
+      "path": "Multiversion Concurrency Control.md"
+    },
+    {
+      "basename": "ImageNet",
+      "path": "ImageNet.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
+    },
+    {
+      "basename": "Tail Latency",
+      "path": "Tail Latency.md"
+    },
+    {
+      "basename": "Feature Flag",
+      "path": "Feature Flag.md"
+    },
+    {
+      "basename": "HTTP 2",
+      "path": "HTTP 2.md"
+    },
+    {
+      "basename": "SpatioTemporal Asset Catalog",
+      "path": "SpatioTemporal Asset Catalog.md"
+    },
+    {
+      "basename": "In-Process Cache",
+      "path": "In-Process Cache.md"
+    },
+    {
+      "basename": "Denormalization",
+      "path": "Denormalization.md"
+    },
+    {
+      "basename": "N + 1 Query Problem",
+      "path": "N + 1 Query Problem.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "Release",
+      "path": "Release.md"
+    },
+    {
+      "basename": "Distributed Cache",
+      "path": "Distributed Cache.md"
+    },
+    {
+      "basename": "Load Shedding",
+      "path": "Load Shedding.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Cookie.md"
+    },
+    {
+      "basename": "Deployment",
+      "path": "Deployment.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "SDIAH Intro",
+      "path": "Courses/SystemDesign/SDIAH Intro.md"
+    },
+    {
+      "basename": "Key Rotation",
+      "path": "Key Rotation.md"
+    },
+    {
+      "basename": "Refresh-Ahead",
+      "path": "Refresh-Ahead.md"
+    },
+    {
       "basename": "Refresh Token",
       "path": "Refresh Token.md"
     },
@@ -9,56 +97,20 @@
       "path": "JSON Web Token.md"
     },
     {
-      "basename": "Cookie",
-      "path": "Cookie.md"
-    },
-    {
       "basename": "Clock Skew",
       "path": "Clock Skew.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
     },
     {
       "basename": "Autoscaling",
       "path": "Autoscaling.md"
     },
     {
-      "basename": "Load Shedding",
-      "path": "Load Shedding.md"
-    },
-    {
       "basename": "Priority Queue",
       "path": "Priority Queue.md"
     },
     {
-      "basename": "Distributed Cache",
-      "path": "Distributed Cache.md"
-    },
-    {
-      "basename": "In-Process Cache",
-      "path": "In-Process Cache.md"
-    },
-    {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
       "basename": "Data Lakehouse",
       "path": "Data Lakehouse.md"
-    },
-    {
-      "basename": "HTTP 2",
-      "path": "HTTP 2.md"
-    },
-    {
-      "basename": "Feature Flag",
-      "path": "Feature Flag.md"
-    },
-    {
-      "basename": "Tail Latency",
-      "path": "Tail Latency.md"
     },
     {
       "basename": "External Cache",
@@ -147,58 +199,6 @@
     {
       "basename": "Distributed Lock",
       "path": "Distributed Lock.md"
-    },
-    {
-      "basename": "Key Rotation",
-      "path": "Key Rotation.md"
-    },
-    {
-      "basename": "Amazon Key Management Service",
-      "path": "Amazon Key Management Service.md"
-    },
-    {
-      "basename": "Amazon Identity and Access Management",
-      "path": "Amazon Identity and Access Management.md"
-    },
-    {
-      "basename": "Secrets Management",
-      "path": "Secrets Management.md"
-    },
-    {
-      "basename": "Fencing Token",
-      "path": "Fencing Token.md"
-    },
-    {
-      "basename": "Single Sign-On",
-      "path": "Single Sign-On.md"
-    },
-    {
-      "basename": "Release",
-      "path": "Release.md"
-    },
-    {
-      "basename": "Feature-Flagged Release",
-      "path": "Feature-Flagged Release.md"
-    },
-    {
-      "basename": "AB Testing",
-      "path": "AB Testing.md"
-    },
-    {
-      "basename": "Modern iOS Development",
-      "path": "Modern iOS Development.md"
-    },
-    {
-      "basename": "Statsig",
-      "path": "Statsig.md"
-    },
-    {
-      "basename": "Agent Evaluation",
-      "path": "Agent Evaluation.md"
-    },
-    {
-      "basename": "Deployment",
-      "path": "Deployment.md"
     }
   ],
   "omittedPaths": [],

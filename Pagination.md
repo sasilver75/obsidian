@@ -20,7 +20,7 @@ aliases:
 - "Return the next 50 rows after this last seen position."
 - Good when data is large, changing, or feed-like (activity feeds, chat messages, event logs)
 - Uses a marker from the last item seen: `GET /orders?limit=50&cursor=eyJjcmVhdGVkX2..."`
-	- This `eyJjcmVhdGVkX2` is a [[Base64]]-encoded `{"created_at": 2026-06-01T100:00:00Z, "id": "ord_123"}`, which is used below to write the SQL query that basically says "Continue from where I left off"
+	- This `eyJjcmVhdGVkX2` is a ==[[Base64]]-encoded== `{"created_at": 2026-06-01T100:00:00Z, "id": "ord_123"}`, which is used below to write the SQL query that basically says "Continue from where I left off"
 - Often implemented as keyset pagination:
 ```sql
 SELECT *

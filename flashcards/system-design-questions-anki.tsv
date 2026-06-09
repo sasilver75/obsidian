@@ -1,0 +1,115 @@
+1. How would you handle a hot key in a cache or database?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+2. How would you detect and fix a hot partition?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+3. How would you choose a partition key for a high-traffic system?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+4. How would you rebalance shards without downtime?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+5. How would you handle one celebrity user or object receiving extreme traffic?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+6. How would you prevent a cache stampede after a popular key expires?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+7. How would you decide where to place a cache in a system?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+8. How would you keep a cache consistent with the database?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+9. How would you decide whether stale cache reads are acceptable?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+10. How would you invalidate cached data after a write?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+11. How would you warm a cache before a traffic spike or failover?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+12. How would you use stale-while-revalidate in a read-heavy system?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+13. How would you use negative caching, and what risks does it introduce?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+14. How would you handle bursty traffic that temporarily exceeds worker capacity?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+15. How would you apply backpressure when a downstream service is overloaded?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+16. How would you decide when to shed load instead of queueing more work?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+17. How would you reduce tail latency in a system with many dependencies?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+18. How would you avoid N+1 calls to databases or downstream services?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+19. How would you scale fanout when one event must notify many users?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+20. How would you design pagination for a large, changing dataset?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+21. How would you choose between offset pagination and cursor pagination?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+22. How would you keep a search index fresh after database writes?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+23. How would you use a materialized view, and how would you handle refresh lag?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+24. How would you store large user-uploaded files?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+25. Why should large files usually not be stored directly in an OLTP database?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+26. How would you separate object storage bytes from application metadata?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+27. How would you provide read-your-writes consistency?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+28. How would you provide monotonic reads for a user session?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+29. How would you decide between strong consistency and eventual consistency?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+30. How would you handle concurrent writes to the same record?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+31. How would you prevent lost updates?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+32. How would you prevent double booking or overselling a scarce resource?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+33. How would you make a payment or order creation endpoint idempotent?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+34. How would you make retrying a request safe after a timeout?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+35. How would you deduplicate repeated webhook events?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+36. How would you design an idempotent message consumer?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+37. How would you evaluate a claim that a system has exactly-once processing?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+38. How would you guarantee message ordering where it matters?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+39. How would you decide the scope of ordering: global, per-user, per-partition, or per-resource?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+40. How would you avoid the dual-write problem when updating a database and publishing an event?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+41. How would you use the transactional outbox pattern?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+42. How would you use the inbox pattern?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+43. How would you coordinate a multi-step workflow across services?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+44. How would you design a saga for a checkout flow?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+45. How would you handle a failed compensating action in a saga?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+46. When would you avoid a distributed transaction?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+47. When would two-phase commit be appropriate?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+48. How would you handle partial failure when one service call succeeds and the next fails?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+49. How would you design retries with exponential backoff and jitter?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+50. How would you decide whether to process work synchronously or through a queue?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+51. How would you handle a queue whose depth keeps growing?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+52. How would you handle poison messages?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+53. How would you use a dead letter queue?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+54. How would you monitor and respond to consumer lag?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+55. How would you choose a Kafka partition key?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+56. How would you scale consumers when partition count limits parallelism?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+57. How would you design a system that needs to replay old events?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+58. How would you make event replay safe?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+59. How would you remove a single point of failure from a design?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+60. How would you design failover for a primary database?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+61. How would you handle replication lag after failover?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+62. How would you prevent split brain?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+63. How would you set RPO and RTO requirements for disaster recovery?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+64. How would you test that backups can actually be restored?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+65. How would you degrade gracefully when a non-critical dependency fails?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+66. How would you isolate a failing dependency so it does not take down the whole system?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+67. How would you use a circuit breaker?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+68. How would you design health checks for a service?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+69. How would you avoid health checks that say a service is healthy when it cannot serve real traffic?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+70. How would services discover each other at runtime?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+71. How would you choose between client-side and server-side service discovery?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+72. How would you keep service discovery endpoints up to date?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+73. How would you choose between a layer 4 and layer 7 load balancer?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+74. How would you make a load balancer highly available?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+75. How would you choose between active-active and active-passive load balancers?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+76. How would you use sticky sessions, and what tradeoffs do they create?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+77. How would DNS caching and TTLs affect failover?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+78. How would you route users to the nearest healthy region?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+79. How would you design geo-routing for latency, compliance, and failover?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+80. How would you scale WebSocket connections?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+81. How would you track which server owns a WebSocket connection?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+82. How would you handle reconnects for a real-time client?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+83. How would you drain long-lived connections during a deploy?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+84. How would you choose between server-side sessions and JWT sessions?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+85. How would you revoke access for a logged-in user?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+86. How would you design refresh-token rotation?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+87. How would you store refresh tokens in a browser app?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+88. How would you decide between OAuth and OpenID Connect?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+89. How would you map an external OIDC identity to a local user account?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+90. How would you validate a JWT safely?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+91. How would JWKS support key rotation?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+92. How would you choose between mTLS and bearer tokens for service-to-service auth?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+93. How would you rotate service secrets, API keys, or certificates?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+94. How would an API gateway pass authenticated identity context to backend services safely?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+95. How would backend services enforce authorization instead of trusting the edge blindly?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+96. How would you monitor whether a system is overloaded?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+97. What metrics would you use to detect saturation before users notice?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+98. How would you design alerts that reflect user impact instead of only internal symptoms?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+99. How would you roll out a risky change safely?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+100. How would you use feature flags for gradual rollout and rollback?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+101. How would you prevent feature flag debt?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+102. How would you run a data migration without downtime?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+103. How would you backfill data safely while the system is live?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+104. How would you cut over from an old schema or service to a new one?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+105. How would you estimate QPS, storage, bandwidth, and memory for a design?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+106. How would you decide how many partitions, shards, or replicas a system needs?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+107. How would you control cost while adding caches, indexes, replicas, logs, and retention?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+108. How would you choose between B-tree and LSM-tree storage/indexing tradeoffs?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+109. How would you design Redis usage so key distribution does not create a bottleneck?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+110. How would you scale a Redis hot key that is read-heavy?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+111. How would you scale a Redis hot key that is write-heavy?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+112. How would you choose between Redis Pub/Sub and Redis Streams?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+113. How would you design a rate limiter shared across many app servers?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+114. How would you use object storage for direct uploads and authorized downloads?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions
+115. How would you design presigned URLs safely?	PLACEHOLDER	system-design questions	Generated abstract system design interview questions

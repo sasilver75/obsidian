@@ -10,7 +10,7 @@ It's related to, but distinct from [[Deployment]]
 
 
 Common release strategies:
-- Big-bang release: Enable the new behavior for everyone at once
+- [[Big Bang Release]]: Enable the new behavior for everyone at once
 - [[Feature-Flagged Release]]: Deploy code first, then turn behavior on with a flag
 - [[Canary Release|Canary Release]]: Expose a small percentage or cohort of users first, then expand
 - Ring release: Release through ordered groups, such as employees -> beta users -> one region -> all users
