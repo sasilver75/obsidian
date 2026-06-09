@@ -1,8 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Authentication.md"
+    },
+    {
+      "basename": "OpenID Connect",
+      "path": "OpenID Connect.md"
+    },
+    {
+      "basename": "Security Assertion Markdown Language",
+      "path": "Security Assertion Markdown Language.md"
+    },
+    {
+      "basename": "Single Sign-On",
+      "path": "Single Sign-On.md"
+    },
+    {
+      "basename": "Release",
+      "path": "Release.md"
+    },
+    {
+      "basename": "Feature-Flagged Release",
+      "path": "Feature-Flagged Release.md"
+    },
+    {
+      "basename": "Canary Release",
+      "path": "Canary Release.md"
+    },
+    {
+      "basename": "AB Testing",
+      "path": "AB Testing.md"
+    },
+    {
+      "basename": "Modern iOS Development",
+      "path": "Modern iOS Development.md"
+    },
+    {
+      "basename": "Statsig",
+      "path": "Statsig.md"
+    },
+    {
+      "basename": "Agent Evaluation",
+      "path": "Agent Evaluation.md"
+    },
+    {
+      "basename": "Deployment",
+      "path": "Deployment.md"
+    },
+    {
+      "basename": "Smoke Test",
+      "path": "Smoke Test.md"
+    },
+    {
+      "basename": "Amazon CodeDeploy",
+      "path": "Amazon CodeDeploy.md"
+    },
+    {
+      "basename": "Blue-Green Deployment",
+      "path": "Blue-Green Deployment.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
       "basename": "JSON Web Token",
       "path": "JSON Web Token.md"
+    },
+    {
+      "basename": "Wide-Column",
+      "path": "Wide-Column.md"
     },
     {
       "basename": "Vacuum",
@@ -21,14 +93,6 @@
       "path": "Redis.md"
     },
     {
-      "basename": "Authentication",
-      "path": "Authentication.md"
-    },
-    {
-      "basename": "OpenID Connect",
-      "path": "OpenID Connect.md"
-    },
-    {
       "basename": "Session",
       "path": "Session.md"
     },
@@ -41,16 +105,8 @@
       "path": "OAuth.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
       "basename": "Circuit Breaker",
       "path": "Circuit Breaker.md"
-    },
-    {
-      "basename": "Wide-Column",
-      "path": "Wide-Column.md"
     },
     {
       "basename": "Google Bigtable",
@@ -143,62 +199,6 @@
     {
       "basename": "Datagram Transport Layer Security",
       "path": "Datagram Transport Layer Security.md"
-    },
-    {
-      "basename": "Webhook",
-      "path": "Webhook.md"
-    },
-    {
-      "basename": "Certificate",
-      "path": "Certificate.md"
-    },
-    {
-      "basename": "HMAC-based Key Derivation Function",
-      "path": "HMAC-based Key Derivation Function.md"
-    },
-    {
-      "basename": "JSON Web Key Set",
-      "path": "JSON Web Key Set.md"
-    },
-    {
-      "basename": "Amazon Simple Workflow Service",
-      "path": "Amazon Simple Workflow Service.md"
-    },
-    {
-      "basename": "Virtual Router Redundancy Protocol",
-      "path": "Virtual Router Redundancy Protocol.md"
-    },
-    {
-      "basename": "Load Balancing",
-      "path": "Load Balancing.md"
-    },
-    {
-      "basename": "Virtual IP Address",
-      "path": "Virtual IP Address.md"
-    },
-    {
-      "basename": "Border Gateway Protocol",
-      "path": "Border Gateway Protocol.md"
-    },
-    {
-      "basename": "Split Brain",
-      "path": "Split Brain.md"
-    },
-    {
-      "basename": "Modern TypeScript Development",
-      "path": "Modern TypeScript Development.md"
-    },
-    {
-      "basename": "Cross-Site Scripting",
-      "path": "Cross-Site Scripting.md"
-    },
-    {
-      "basename": "Progressive Web Application",
-      "path": "Progressive Web Application.md"
-    },
-    {
-      "basename": "IndexedDB",
-      "path": "IndexedDB.md"
     }
   ],
   "omittedPaths": [],

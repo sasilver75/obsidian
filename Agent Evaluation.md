@@ -213,7 +213,7 @@ We usually compute performance metrics by aggregating across both tasks and tria
 - For real production systems there are several additional sources of evaluation that we can use:
 	- Manual inspection (or vibe checks)
 	- Production monitoring of reported errors and key usage metrics or outcomes.
-	- [[A/B Testing]] (i.e. splitting traffic among variants and comparing production monitoring metrics)
+	- [[AB Testing]] (i.e. splitting traffic among variants and comparing production monitoring metrics)
 	- Explicit user feedback (e.g. thumbs up, thumbs down feedback, written comments, or even formally organized user studies)
 - Each of these techniques have pros and cons. Automatic evaluations require lots of up-front investment to build the evaluation suite, but capture open-ended aspects of model behavior and can be efficiently executed whenever needed. In contrast, production monitoring or A/B testing can measure real user behavior, but are reactive, slow, and noisy. The best approach is to combine all of these techniques.
 ![[Pasted image 20260603161024.png]]

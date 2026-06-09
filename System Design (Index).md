@@ -141,7 +141,7 @@ Terms
 - [[At Most Once]] Delivery: A delivery guarantee where a message is delivered zero or one time and may be lost. Use it only when low latency or simplicity matters more than guaranteed processing.
 - [[Exactly Once]] Delivery: A processing goal where each message's effect is applied once despite retries or failures. Treat it as an end-to-end design property, usually requiring idempotent writes and careful state management.
 - [[Blue-Green Deployment]]: A release strategy that switches traffic between two complete production environments. Use it when fast rollback and environment-level separation justify duplicate capacity.
-- [[Canary Deployment]]: A release strategy that gradually exposes a new version to a small and then growing portion of traffic. Use it when production signals can safely validate a change before full rollout.
+- [[Canary Release]]: A release strategy that gradually exposes a new version to a small and then growing portion of traffic. Use it when production signals can safely validate a change before full rollout.
 - [[Feature Flag]]: A runtime switch that enables, disables, or varies behavior without redeploying code. Use it for gradual rollout, kill switches, experiments, and separating deploy from release.
 - [[Active-Active]]: A high-availability topology where multiple sites or instances serve production traffic simultaneously. Use it for high availability and low regional latency, but design for conflict handling and traffic steering.
 - [[Active-Passive]]: A high-availability topology where a standby environment takes over when the primary fails. Use it when simpler failover is acceptable and the standby lag or activation time meets recovery goals.

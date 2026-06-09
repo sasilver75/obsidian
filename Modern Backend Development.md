@@ -198,7 +198,7 @@ Concepts to know:
 - CD: [[ArgoCD]]/[[Flux]] ([[GitOps]] for K8s), Spinnaker, platform-built-ins (eg Vercel, Fly)
 - Release Patterns: 
 	- [[Blue-Green Deployment]]
-	- [[Canary Deployment]]
+	- [[Canary Release]]
 	- [[Feature Flag]]s
 		- [[LaunchDarkly]] leads for enterprise, Statsig, Posthog also seen
 	- [[Trunk-Based Development]]

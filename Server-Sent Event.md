@@ -44,7 +44,6 @@ In the actual ==Wire Format==, events are newline-delimited text; each event is 
 - Progress updates for long-running jobs (eg video transcoding)
 
 
-
 ## Client API (in Browser)
 ```javascript
 Client API (browser)
@@ -84,7 +83,6 @@ Client API (browser)
     req.on("close", () => clearInterval(interval));
   });
 ```
-
 
 
 # Comparison

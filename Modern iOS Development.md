@@ -73,7 +73,7 @@ The biggest shock coming from cloud/backend is that Apple owns the distribution 
 - GitHub Actions / Bitrise / Codemagic: Third-party CI services with hosted Mac runners. Common alternatives.
 
 # Common Third-party SDKs
-- [[Firebase]]: Google's all-in-one BaaS. Auth, Analytics, Crashlytics, Remote Config ([[Feature Flag]]s + [[A/B Testing]]), FCM (push), Realtime Database / Firestore. Free tier is generous.
+- [[Firebase]]: Google's all-in-one BaaS. Auth, Analytics, Crashlytics, Remote Config ([[Feature Flag]]s + [[AB Testing]]), FCM (push), Realtime Database / Firestore. Free tier is generous.
 - [[Supabase]]: Open-source Firebase alternative. Postgres + auth + realtime + storage. Has a Swift SDK.
 - [[Sentry]]: Third-party crash + error reporting with much better dev UX than Apple's built-in crash logs.
 - [[PostHog]]/Amplitude/Mixpanel: Product analytics (event tracking, funnels, retention cohorts)

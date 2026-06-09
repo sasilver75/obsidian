@@ -407,7 +407,7 @@ No GPUs before PMF unless privacy, latency, or unit economics force the issue.
 - [[Feature Store]]: system for consistent offline/online feature computation and serving.
 - [[Model Card]]: documentation for intended use, metrics, limitations, and risks.
 - [[Shadow Deployment]]: run candidate model on production traffic without using its output.
-- [[Canary Deployment]]: send a small slice of production traffic to a candidate.
+- [[Canary Release]]: send a small slice of production traffic to a candidate.
 - [[Champion Challenger]]: production model competes against candidate models.
 - [[Data Flywheel]]: production usage generates feedback/labels that improve future versions.
 

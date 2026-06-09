@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "27fafe9db148d1e8",
+        "id": "17b5aceaa9afa5d8",
         "type": "tabs",
         "children": [
           {
-            "id": "8098d2d0c071fd0e",
+            "id": "db91a22ac06e65bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSON Web Token.md",
+                "file": "System Design (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JSON Web Token"
+              "title": "System Design (Index)"
             }
           },
           {
-            "id": "e0de4429c16be5cf",
+            "id": "c155eaa57e6bff77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wide-Column.md",
+                "file": "Authentication.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Wide-Column"
+              "title": "Authentication"
+            }
+          },
+          {
+            "id": "51ca6c0b6594ac1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenID Connect.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenID Connect"
+            }
+          },
+          {
+            "id": "535db44039919f86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security Assertion Markdown Language.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Security Assertion Markdown Language"
+            }
+          },
+          {
+            "id": "93a55bb744523da9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Canary Release.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Canary Release"
             }
           }
         ]
@@ -2055,34 +2127,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8098d2d0c071fd0e",
+  "active": "db91a22ac06e65bf",
   "lastOpenFiles": [
+    "Authentication.md",
+    "OpenID Connect.md",
+    "Security Assertion Markdown Language.md",
+    "Single Sign-On.md",
+    "Release.md",
+    "System Design (Index).md",
+    "Feature-Flagged Release.md",
+    "Canary Release.md",
+    "AB Testing.md",
+    "A/B Testing.md",
+    "Modern iOS Development.md",
+    "Statsig.md",
+    "Agent Evaluation.md",
+    "A",
+    "Deployment.md",
+    "Smoke Test.md",
+    "Amazon CodeDeploy.md",
+    "Blue-Green Deployment.md",
+    "Server-Sent Event.md",
+    "JSON Web Token.md",
+    "Wide-Column.md",
     "Vacuum.md",
     "Bulkhead.md",
     "Refresh Token.md",
     "Redis.md",
-    "JSON Web Token.md",
-    "Authentication.md",
-    "OpenID Connect.md",
     "Session.md",
     "Cookie.md",
-    "OAuth.md",
-    "System Design (Index).md",
-    "Circuit Breaker.md",
-    "Wide-Column.md",
-    "Google Bigtable.md",
-    "Apache Cassandra.md",
-    "Bigtable.md",
-    "Count-Min Sketch.md",
-    "Bloom Filter.md",
-    "Failover.md",
-    "Write-Through Cache.md",
-    "Logical Replication.md",
-    "Priority Queue.md",
-    "Probabilistic Data Structure.md",
-    "Locality-Sensitive Hashing.md",
-    "Cuckoo Filter.md",
-    "Browser Storage.md",
     "_attachments/Pasted image 20260608102433.png",
     "_attachments/Pasted image 20260608101609.png",
     "_attachments/Pasted image 20260608101133.png",
@@ -2101,7 +2174,6 @@
     "flashcards/satellite-index-anki.tsv",
     "flashcards/system-design-index-anki.tsv",
     "flashcards/geospatial-index-anki.tsv",
-    "flashcards/drone-index-anki.tsv",
-    "flashcards"
+    "flashcards/drone-index-anki.tsv"
   ]
 }

@@ -2,7 +2,8 @@
 aliases:
   - OIDC
 ---
-A standard login/authentication layer built on top of [[OAuth|OAuth 2.0]].
+A standard login/authentication layer built on top of [[OAuth|OAuth 2.0]]. 
+- Can also be sued to implement [[Single Sign-On]] (SSO).
 
 While OAuth 2.0 mainly answers: "Can this app access this API/resource?"
 OIDC answers "Who is the user that just signed in?"

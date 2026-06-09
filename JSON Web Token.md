@@ -59,7 +59,7 @@ Cons:
 - Hard to revoke before expiration. Easy to misuse by trusting claims without validation. Tokens can become too large. Stale permissions if roles are embedded. Leaked bearer token can be replayed until expiration. Requires careful key rotation and caching.
 
 
-# How do we issue JWTs?
+# How do we issue JWTs? ((Not sure I love this))
 - Once we've authenticated a user , your auth server creates a JSON payload of claims and signs it with a key.
 1. Alice submits email/password
 2. Acme (our app) verifies password against its user DB
@@ -113,12 +113,10 @@ JWTs are still useful, but are more often for:
 - API-to-API auth
 - Mobile apps
 - CLIs
-- SPAs with careful token handling
+- [[Single Page Application|SPA]]s with careful token handling
 - Short-lived API access tokens
 - Tokens exchanged between internal services
 - Third-party API access
-
-
 
 
 # What reads paths look like, with user-supplied JWTs?
