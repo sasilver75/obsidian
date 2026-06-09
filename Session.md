@@ -10,16 +10,16 @@ A server-side or client-visible continuity of a user's authenticated interaction
 Common Model:
 - User Logs In
 	- Server verifies credentials
-	- Server creates session
+	- Server creates sessionID, stores a hash of it:Session, and tells the client to store the raw SessionID via a `Set-Cookie: session_id=sess_7uW9Xq2mK...; HttpOnly; Secure; SameSite=Lax; Max-Age=28800` header in the response
 	- Client stores session identifier, usually in a [[Cookie]]
 		- e.g. `session_id=abc123` ; this "abc123" is typically a long random value
 		- This cookie typically has a limited lifetime and is revocable.
-	- Browser sends cookie on future requests
-		- Important flags:
+	- Browser sends cookie on future requests (It comes in the Cookie header: `Cookie: session_id=sess_abc123`. If there are multiple cookies, they just come as `Cookie: session_id=sess_abc123; theme=dark; csrf_token=xyz`)
+		- Important flags to set on the server when setting :
 			- `HttpOnly`
 			- `Secure`
 			- `SameSite`: Controls cross-site sending, reducing [[Cross-Site Request Forgery|CSRF]] risk
-			- `Expires/Mag-Age`: Controls lifetime
+			- `Expires/Max-Age`: Controls lifetime
 			- `Domain/Path`: Controls where cookie sent
 	- Server uses session to identify user/request context.
 		- Server looks up: `session_id abc123 -> user_id 42, roles, expiration, metadata`
@@ -51,7 +51,6 @@ In practice, on the server-side session store, you often store a [[Hash]] of the
 
 +: No central session lookup required, works well in distributed systems
 -: Harder to revoke before expiration, token can get large, requires careful expiration and rotation
-
 
 Note: [[User Access Token]] vs [[Refresh Token]]
 - Modern apps often use:

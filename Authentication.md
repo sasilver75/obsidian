@@ -54,10 +54,10 @@ The process of verifying that someone or something is who they claim to be.
 
 
 # [[JSON Web Token|JWT]] vs [[Session]]
-- With a session, the cookie usually contains a random ID:
+- With a session, the cookie usually contains a random Session ID:
 ```
-cookie: session_id=abc123
-server: looks up abc123 in Database/Redis, and gets something like:
+cookie: session_id=f4o1ifn4molkf1...
+server: looks up f4o1ifn4molkf1... in Database/Redis, and gets something back like:
 
 {
 	"user_id": "user_42",
@@ -69,8 +69,15 @@ server: looks up abc123 in Database/Redis, and gets something like:
 - With a JWT, the token contains signed user data:
 ```
 Authorization: Bearer eyJ...
+
+This eyJ... actually looks something like eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30
+
+It has three parts: header, payload, and signature, which are period-delimited. 
+All are Base-64 encoded
+
 server: verifies signature and reads claims
 ```
+
 
 The key differences:
 - Sessions are stateful: The server stores session data
@@ -100,8 +107,11 @@ For service-to-service auth:
 - Opaque tokens for revocable APIs
 - JWTs for short-lived distributed API authentication
 
+Q: We've made the claim that form any normal web apps, secure cookie sessions are the better default. Why is this, exactly?
+A: Basically because the server keeps the real auth state. You can revoke/logout a user, do role changes, handle suspicious sessions, etc immediately by deleting/updating server-side state. With a self-contained JWT, the if the signature is valid and the token is not expired, it's often accepted.
 
 
+____________________
 
 # [[Refresh Token]]s
 - A Refresh Token is a *long-lived credential* that is used to get new short-lived access tokens!
@@ -127,7 +137,12 @@ So a very common combination is:
 - JWT access token gives fast API validation (because servers can validate without network requests, using an appropriate JWK)
 - Opaque refresh token gives the auth server control, allowing it to revoke it if needed.
 
-Q: Why don't we just make our access tokens long-lived?
+Q: Why don't we just make our *access* tokens long-lived?
 A: Because if an access token with a short-lived expiry is somehow leaked, the damage window is short! Whereas if a long-lived access token were to leak that would be more serious. We're able to use longer-lived refresh tokens for convenience because we can always revoke them on the server side if needed.
+
+
+_________
+
+
 
 

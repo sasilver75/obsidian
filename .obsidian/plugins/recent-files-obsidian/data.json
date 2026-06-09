@@ -1,24 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Session",
-      "path": "Session.md"
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
     },
     {
-      "basename": "Authentication",
-      "path": "Authentication.md"
+      "basename": "Vacuum",
+      "path": "Vacuum.md"
     },
     {
-      "basename": "Cookie",
-      "path": "Cookie.md"
+      "basename": "Bulkhead",
+      "path": "Bulkhead.md"
     },
     {
       "basename": "Refresh Token",
       "path": "Refresh Token.md"
     },
     {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Authentication.md"
+    },
+    {
       "basename": "OpenID Connect",
       "path": "OpenID Connect.md"
+    },
+    {
+      "basename": "Session",
+      "path": "Session.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Cookie.md"
     },
     {
       "basename": "OAuth",
@@ -27,14 +43,6 @@
     {
       "basename": "System Design (Index)",
       "path": "System Design (Index).md"
-    },
-    {
-      "basename": "Bulkhead",
-      "path": "Bulkhead.md"
-    },
-    {
-      "basename": "Vacuum",
-      "path": "Vacuum.md"
     },
     {
       "basename": "Circuit Breaker",
@@ -87,10 +95,6 @@
     {
       "basename": "Cuckoo Filter",
       "path": "Cuckoo Filter.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Redis.md"
     },
     {
       "basename": "Browser Storage",
@@ -151,10 +155,6 @@
     {
       "basename": "HMAC-based Key Derivation Function",
       "path": "HMAC-based Key Derivation Function.md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "JSON Web Token.md"
     },
     {
       "basename": "JSON Web Key Set",

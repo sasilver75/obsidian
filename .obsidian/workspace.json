@@ -8,108 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19d9938c651e82e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Session.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Session"
-            }
-          },
-          {
-            "id": "9b8840d7cf9b51d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cookie.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cookie"
-            }
-          },
-          {
-            "id": "8713989bc5137efb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Session.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Session"
-            }
-          },
-          {
-            "id": "d44b1d45230d27b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bulkhead.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bulkhead"
-            }
-          },
-          {
             "id": "8098d2d0c071fd0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vacuum.md",
+                "file": "JSON Web Token.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vacuum"
+              "title": "JSON Web Token"
             }
           },
           {
@@ -151,8 +55,7 @@
               "title": "Wide-Column"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -2152,17 +2055,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8713989bc5137efb",
+  "active": "8098d2d0c071fd0e",
   "lastOpenFiles": [
-    "Authentication.md",
-    "Cookie.md",
+    "Vacuum.md",
+    "Bulkhead.md",
     "Refresh Token.md",
-    "Session.md",
+    "Redis.md",
+    "JSON Web Token.md",
+    "Authentication.md",
     "OpenID Connect.md",
+    "Session.md",
+    "Cookie.md",
     "OAuth.md",
     "System Design (Index).md",
-    "Bulkhead.md",
-    "Vacuum.md",
     "Circuit Breaker.md",
     "Wide-Column.md",
     "Google Bigtable.md",
@@ -2177,9 +2082,7 @@
     "Probabilistic Data Structure.md",
     "Locality-Sensitive Hashing.md",
     "Cuckoo Filter.md",
-    "Redis.md",
     "Browser Storage.md",
-    "Logical Clock.md",
     "_attachments/Pasted image 20260608102433.png",
     "_attachments/Pasted image 20260608101609.png",
     "_attachments/Pasted image 20260608101133.png",

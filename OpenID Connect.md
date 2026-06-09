@@ -192,6 +192,7 @@ Q: Why does it have this back-and-forth thing? I totally understand how we have 
 
 A: Because the browser redirect is a leaky, user-controlled channel... We want to let Google deliver the real tokens over a direct server-to-server request after proving that the same legitimate app that started the login after finishing it.
 
+____________
 
 Q: I know that OIDC builds on OAuth, and that OAuth is used for Authz while OIDC is used for Authn, but I'm just surprised that the Authn thing builds on the Authz thing, given that I usually think that authentication is a prerequisite for authorization. Can you help put me straight?
 
@@ -204,10 +205,91 @@ OAuth 2.0 came out for use cases like "Allow Acme to read my Google Calendar." T
 - So user authentication *does happen* inside the OAuth flow, but OAuth doesn't expose some sort of standardized "Alice logged in" proof to the client.
 
 OIDC says: "Since the trusted provider themselves already authenticated Alice, also return a standardized `id_token` that tells Acme who Alice is!"
-- Alice authenticates to Google
-- Google authorizes Acme to receive identity claims about Alice
-- Acme authenticates Alice by validating that Google's signed `id_token` JWT actually came from Google
-- Acme authorizes Alice inside Acme's own app.
+1. Alice clicks "Sign in with Google" in Acme
+2. Acme redirects Alice to Google with: `client_id, redirect_uri, scope=openid, email prfile, state, nonce, PKCE challenge`
+3. Alice authenticates to Google, however Google likes
+4. Google decides Acme is allowed to receive the requested identity claims
+5. Google redirects the browser back to Acme: `/auth/callback?code=AUTH_CODE&state=STATE`
+6. Acme verifies state
+7. Acme sends AUTH_CODE to Google's token endpoint: `codce, client_id, client_secret or PKCE verifier, redirect_uri`
+8. Google returns tokens: `id_token, maybe access_token, maybe refresh_token`
+9. Acme validates `id_token`
+10. Acme maps the Google-returned identity to a local Acme user
+11. Acme creates and stores its own session cookie (SessionID hashed, stored in Redis, Set-Cookie with the real SessionID to the client)
+12. Later, Acme authenticates requests from Alice using her supplied session cookie, looking up her existing session in (e.g.) Redis via hash of the user-supplied session ID. It then authorizes actions based on Acme's understanding of Alice's roles, etc.
+
+If we wanted to have much more coarse perspective, it's something like:
+1. Start Login: Alice chooses to Login with Google and gets redirected
+2. Provider (Google) Authentication and Consent: Alice authenticates to Google
+3. Front-Channel Callback: Google redirects browser to Acme + Acme verifies state
+4. Back-Channel  Token Exchange: Acme redeems the temporary `code` with Google for a real token
+5. External Identity Verification: Acme validates Google-returned `id_token` JWT, maps to a local Acme user
+
+
+
+Q: Okay, when you say "Acme maps the Google-returned identity to a local Acme user," what does that look like, again?
+
+A: Recall that Google has returned to Acme something like:
+
+```
+{
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ij...JWT...",
+    "access_token": "token-for-calling-google-apis",
+    "expires_in": 3600,
+    "refresh_token": "optional-long-lived-token"
+}
+
+Where id_token, decoded, looks something like:
+{
+    "iss": "https://accounts.google.com",       // issuer. must be expected issuer
+    "sub": "109837465",                         // subject. stable Google user ID
+    "aud": "acme-client-id",                    // audience. must be Acme's client_id
+    "exp": 1760000000,                          // expiry. must not be expired
+    "iat": 1759996400,                          // issued at. issued-at sanity check
+    "nonce": "random_nonce_456",                // must match original nonce
+    "email": "alice@gmail.com",
+    "email_verified": true
+}
+```
+
+From this, Acme looks at the issuer (`iss`) and subject (`sub`). 
+
+We use the two of these to look up the Acme user identity in some sort of Acme auth service:
+- We might have a Postgres table: `external_identities`:
+
+```
+Postgres table: external_identities
+    issuer
+    subject
+    user_id
+    provider
+    created_at
+    last_login_at
+
+Uniqueness constraint: (issuer, subject)
+```
+
+Then at login:
+1. Acme validates Google's `id_token`
+2. Acme extracts `iss` + `sub`
+3. Acme queries Postgres: `SELECT user_id FROM external_identities WHERE issuer=... AND subject=...`
+4. Acme creates a session for that user_id
+
+You can cache this information if needed.
+
+----------
+
+Q: Why doesn't Google just include the real OIDC token in the redirect back to Acme? Why make Acme exchange an authorization code for the token in another round trip?
+
+A: 
+- Because redirect URLs are browser-mediated, and can leak through history, logs, referer headers, frontend code, extensions, analytics, or copied links. 
+- The temporary authorization code (on the other hand) is safer to send through the redirect because it is short-lived, single-use, and useless without [[Proof Key for Code Exchange|PKCE]] or client-secret proof. 
+- Acme then redeems it over a direct back-channel to Google, where Google can verify the legitimate client before issuing real tokens.
+
+
+
+
+
 
 
 
