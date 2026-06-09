@@ -5,6 +5,34 @@
       "path": "System Design (Index).md"
     },
     {
+      "basename": "Secrets Management",
+      "path": "Secrets Management.md"
+    },
+    {
+      "basename": "Canary Release",
+      "path": "Canary Release.md"
+    },
+    {
+      "basename": "Amazon Identity and Access Management",
+      "path": "Amazon Identity and Access Management.md"
+    },
+    {
+      "basename": "Amazon Key Management Service",
+      "path": "Amazon Key Management Service.md"
+    },
+    {
+      "basename": "Key Rotation",
+      "path": "Key Rotation.md"
+    },
+    {
+      "basename": "Fencing Token",
+      "path": "Fencing Token.md"
+    },
+    {
+      "basename": "Distributed Lock",
+      "path": "Distributed Lock.md"
+    },
+    {
       "basename": "Authentication",
       "path": "Authentication.md"
     },
@@ -27,10 +55,6 @@
     {
       "basename": "Feature-Flagged Release",
       "path": "Feature-Flagged Release.md"
-    },
-    {
-      "basename": "Canary Release",
-      "path": "Canary Release.md"
     },
     {
       "basename": "AB Testing",
@@ -173,32 +197,8 @@
       "path": "Pagination.md"
     },
     {
-      "basename": "Distributed Lock",
-      "path": "Distributed Lock.md"
-    },
-    {
       "basename": "Zookeeper Atomic Broadcast",
       "path": "Zookeeper Atomic Broadcast.md"
-    },
-    {
-      "basename": "Amazon Route 53",
-      "path": "Amazon Route 53.md"
-    },
-    {
-      "basename": "Amazon Web Application Firewall",
-      "path": "Amazon Web Application Firewall.md"
-    },
-    {
-      "basename": "Amazon Elastic Kubernetes Service",
-      "path": "Amazon Elastic Kubernetes Service.md"
-    },
-    {
-      "basename": "ESP32",
-      "path": "ESP32.md"
-    },
-    {
-      "basename": "Datagram Transport Layer Security",
-      "path": "Datagram Transport Layer Security.md"
     }
   ],
   "omittedPaths": [],
