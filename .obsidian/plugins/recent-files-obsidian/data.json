@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "Hexagonal Architecture",
+      "path": "Hexagonal Architecture.md"
+    },
+    {
+      "basename": "Idempotency",
+      "path": "Idempotency.md"
+    },
+    {
+      "basename": "Active-Active",
+      "path": "Active-Active.md"
+    },
+    {
+      "basename": "Modern Frontend Development",
+      "path": "Modern Frontend Development.md"
+    },
+    {
+      "basename": "Zod",
+      "path": "Zod.md"
+    },
+    {
       "basename": "SQLAlchemy",
       "path": "SQLAlchemy.md"
+    },
+    {
+      "basename": "Shapely",
+      "path": "Shapely.md"
     },
     {
       "basename": "Multiversion Concurrency Control",
@@ -171,34 +199,6 @@
     {
       "basename": "GeoDNS",
       "path": "GeoDNS.md"
-    },
-    {
-      "basename": "Network Address Translation",
-      "path": "Network Address Translation.md"
-    },
-    {
-      "basename": "GeoRouting",
-      "path": "GeoRouting.md"
-    },
-    {
-      "basename": "Canary Release",
-      "path": "Canary Release.md"
-    },
-    {
-      "basename": "Security Assertion Markdown Language",
-      "path": "Security Assertion Markdown Language.md"
-    },
-    {
-      "basename": "OpenID Connect",
-      "path": "OpenID Connect.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "Authentication.md"
-    },
-    {
-      "basename": "Distributed Lock",
-      "path": "Distributed Lock.md"
     }
   ],
   "omittedPaths": [],

@@ -203,7 +203,24 @@ address.user # the user for this address
 user.addresses # the list of Address objects for this user
 # Be careful of how you load these! We don't want to do an N+1 problem for mapping through user.addresses!
 ```
-- Relationships can be many-to-one, one-to-many, one-to-one, or many-to-many
+- Relationships can be many-to-one, one-to-many, one-to-one, or many-to-man.
+- They also help SQLAlchemy with the [[Unit of Work]], understanding what work need to be done
+```python
+user = User()
+address = Address()
+
+user.addresses.append(address)
+
+session.add(user)
+session.flush()
+```
+is mapped to
+```
+insert user
+get user.id
+set address.user_id
+insert address
+```
 
 
 ### Session
@@ -321,6 +338,9 @@ Populated by flush reliably:
 - Generated primary keys
 - Python-side defaults: default=..., onupdate=...
 - Relationship foreign keys once generated parent IDs are known
+
+==It's not even so clear as this, unfortunately! Just gotta check, basically 😄==
+
 
 
 
