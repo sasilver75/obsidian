@@ -172,6 +172,39 @@ class Address(Base):
     user: Mapped["User"] = relationship(back_populates="addresses")
 ```
 Relationships are connecting units between mapped classes that handle loading references/collections and persisting linkages.
+- They're ORM-level attributes that connect one mapped Python object to another mapped Python object. It's not a database column; we typically have a separate FK column though to the table with we have a relationship (on at least one side of the relationship, at least)
+
+```python
+class User(Base):
+    __tablename__ = "user"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+
+	# back_populates tells SQA: "This relationship and that other erlationship are two sides of the same link!"
+    addresses: Mapped[list["Address"]] = relationship(
+        back_populates="user"
+    )
+
+
+class Address(Base):
+    __tablename__ = "address"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("user.id"))
+
+	# back_populates tells SQA: "This relationship and that other erlationship are two sides of the same link!"
+    user: Mapped["User"] = relationship(
+        back_populates="addresses"
+    )
+
+
+# This lets us do:
+address.user # the user for this address
+user.addresses # the list of Address objects for this user
+# Be careful of how you load these! We don't want to do an N+1 problem for mapping through user.addresses!
+```
+- Relationships can be many-to-one, one-to-many, one-to-one, or many-to-many
+
 
 ### Session
 - The `Session` is the main ORM working object. It is where ORM queries happen, where new objects are added, where changed objects are tracked, and a place through which transactions are committed or rolled back.
@@ -255,6 +288,42 @@ session.commit() # Transaction committed
 ```
 After flush, (e.g.) generated primary keys are available, but other transactions shouldn't treat the data as durable until commit (depends on your Database, isolation settings, etc)
 
+==IMPORTANT:==
+- Flush always writes whatever pending INSERT/UPDATE/DELETE SQL is needed for dirty objects in the session.
+- SQA must know generated PK after INSERT, so after flush ==.user_id is normally populated==, but something like ==.created_at may not be==. That might require a refresh.
+A common pattern you'll see is documentation is:
+```
+user = User(...)
+session.add(user)
+session.commit()
+session.refresh(user)
+```
+But only do this if you need to; if you only need `id`, maybe not!
+
+`flush()`: "Send my pending SQL, then fill in whatever SQAlchemy either already knows or can cheaply/necessarily get back."
+
+```python
+class User(Base):
+	id = mapped_column(primary_key=True)
+	email = mapped_column(String)
+	
+	# Python-side default: SQLAlchemy runs this. Set at flush time, not obj creation 
+	# Will be populated post flush(), because SQA generates it before sending INSERT
+	created_at_py = mapped_column(DateTime, default=datetime.utcnow)
+	
+	# Server-side default: Database server runs this
+	# MAYBE populated after flush, depends if SQA fetched it with RETURNING
+	# Not guaranteed on every backend/config
+	created_at_db = mapped_column
+```
+Populated by flush reliably:
+- Explicitly assigned values
+- Generated primary keys
+- Python-side defaults: default=..., onupdate=...
+- Relationship foreign keys once generated parent IDs are known
+
+
+
 ### Autoflush
 - Means that the session may *automatically flush pending changes* before a query, so that the query sees the database state that corresponds to your in-memory changes.
 	- ((It seems to me that there are certain actions that might require/benefit from your dirty-but-not-yet-flushed objects being flushed, so these certain actions trigger a flushing))
@@ -293,6 +362,150 @@ detached: No longer associatd with a session
 expired: attributes cleared; will reload on access
 ```
 "Detached Object" errors usually happen when you try to lazy-load something after the session is gone
+
+==Lazy loading== means SQLAlchemy loads related data when you first access it:
+```
+user.addresses # may emit SELECT here
+```
+==Eager loading== means you ask SQLAlchemy to load related data up front:
+```
+from sqlalchemy.orm import selectinload
+stmt = select(User).options(selectinload(User.addresses))
+```
+
+Common eager strategies:
+- `selectinload`: Usually a great default for collections
+- `joinload`: Joins related rows into the original query
+- `subqueryload`: Older/special-case strategy
+
+Be intentional! ==Lazy loading can cause [[N + 1 Query Problem]]==!
+
+### Result, Row, ScalarResult
+- When you execute a statement, you get a `Result`
+```
+result: Result = session.execute(select(User))
+```
+Rows by default:
+```
+rows = result.all()
+```
+
+If you selected one ORM entity and want the entity objects directly, from the response:
+```python
+users: list[User] = session.scalars(select(User)).all()
+```
+
+Common methods on `Result` objects:
+```python
+result = session.execute(select(User))
+
+result.all() # list[Row[tuple[User]]]
+result.first() # Row[tuple[User]] | None
+result.one() # Row[tuple[User]] or raises NoResultFound/MultipleResultsFound
+result.one_or_none() # Row[tuple[User]] | None or raises MultipleResultsFound
+result.scalar() # User | None ... first "column" of first row ((User,))
+result.scalar_one_or_none() # User | None or raises MultipleResultsFound
+
+
+# If instead we used session.scalars, we don't have this (User,) Row tuple wrapping
+result = session.scalars(select(User))
+
+result.all() # list[User]
+result.first() # User | None
+result.one() # User or raise NoResult/MultipleResultsFound
+result.one_or_none() # User | None or raise MultipleResultsFound
+```
+
+
+### Core queries vs ORM Queries
+
+```python
+
+# In core, we can refer to the user_table object and drill to the column name
+stmt = select(user_table).where(user_table.c.name == "alice")
+
+with engine.connect() as conn:
+	rows: list[Row] = conn.execute(stmt).all()
+	
+
+# In the ORM
+stmt = select(User).where(User.name == "alice")
+
+with Session(engine) as session:
+	users: list[User] = session.scalars(stmt).all()
+```
+
+### Async SQLAlchemy
+
+Async uses async versions of these same ideas!
+```python
+from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
+
+engine = create_async_engine("postgresql+asyncpg://user:pass@localhost/app") # New!
+SessionLocal = async_sessionmaker(bind=engine) # New!
+
+session: AsyncSession = SessionLocal()
+
+async with SessionLocal() as session:
+	result = await session.scalars(select(User))
+	users = result.all()
+```
+Note that AsyncSession is still a session. Treat it as one unit-of-work object, not as a global shared object across concurrent tasks.
+
+
+### Alembic
+[[Alembic]] isn't SQLAlchemy itself, but it's the standard migration tool for the same ecosystem
+- SQLAlchemy models describe a database schema, and Alembic manages schema changes over time.
+
+You can use SQLAlchemy to define and use tables, and use Alembic to over time add columns, create indexes, rename tables, migrate production safely.
+
+
+### How SQLAlchemy is usually used
+```python
+# Somewhere, creating a sync SQA engine
+engine = create_engine(DATABASE_URL)
+SessionLocal = sessionmaker(bind=engine)
+
+# Perhaps elsewhere, defining models
+class User(Base):
+	__tablename__ = "user_account"
+	
+	id: Mapped[str] = mapped_column(primary_key=True)
+	name: Mapped[str]
+
+# Elsewhere, run a create a user
+# In this example, they're creating the session very locally to the query; it's typically created in a route handler I think for FastAPI
+def create_user(name: str) -> User:
+	with SessionLocal() as session:
+		user = User(name=name)
+		session.add(user) # Adds to session, but doesn't flush
+		session.commit() # Flushes and commits; user now has an .id
+		session.refresh(user)
+		
+# Elsewhere, run a query
+# Again, this session is typicaly per-request in FastAPI, not handled here
+def get_user(user_id: int) -> User | None:
+	with SessionLocal() as session:
+		return session.get(User, user_id)
+
+# More complex query
+stmt = select(User).where(User.name.ilke("%alice%")).order_by(User.id)
+with SessionLocal() as session:
+	users = session.scalars(stmt).all()
+```
+
+### The Big Picture
+
+If you remember only one flow:
+- ==Engine== owns the ==Pool== and ==Dialect==
+- ==Pool== manages the reusable DBAPI connections
+- ==Connection== executes Core SQL in a transaction
+- Declarative models map Python classes to tables
+- ==Session== manages ORM objects, acquires connections, and manages transaction
+- ==Identity map== keeps one object per row per session
+- ==Unit of Work== is the pattern that tracks changes and flushes SQL
+- Commit makes the transaction durable, or Rollback abandons it
+
 
 ____________
 
@@ -410,8 +623,12 @@ session.add(truck)
 session.flush()
 # SQLAlchemy sends "INSERT INTO food_trucks ..." but the transaction is still open
 # Might raise a unique constraint error, not-null error, etc.
-print(truck.id) # flushing gest you your db-generated values
-print(truck.created_at)
+print(truck.id) # PK will be present
+print(truck.created_at) # May not be present 
+
+# Forces a SELECT to reload the object from the database
+session.refresh(truck)
+print(truck.createdD_at) # Present
 
 # session.rollback()
 # You could roll back the session if you'd like.
@@ -423,6 +640,19 @@ session.commit() # Flushes automatically first, but also commits
 # In FastAPI, the common pattern is a dependency/context manager that handles this and calls session,.close() automatically after the request finishes.
 session.close()
 ```
+==IMPORTANT:==
+- Flush always writes whatever pending INSERT/UPDATE/DELETE SQL is needed for dirty objects in the session.
+- SQA must know generated PK after INSERT, so after flush ==.user_id is normally populated==, but something like ==.created_at may not be==. That might require a refresh.
+A common pattern you'll see is documentation is:
+```
+user = User(...)
+session.add(user)
+session.commit()
+session.refresh(user)
+```
+But only do this if you need to; if you only need `id`, maybe not!
+More on this in the flush section, I'll copy this.
+
 
 Lifecycle:
 - Engine owns the connection pool
