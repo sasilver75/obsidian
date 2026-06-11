@@ -2004,12 +2004,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "15bc974f66e3ef16",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 187
+        "currentTab": 188
       },
       {
         "id": "8a022290161ffefa",
@@ -2071,7 +2081,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ac8ca7538f9ec6a4",
+  "active": "15bc974f66e3ef16",
   "lastOpenFiles": [
     "Hexagonal Architecture.md",
     "Idempotency.md",
