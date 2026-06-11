@@ -54,7 +54,7 @@ Quick review of [[Replication]] strategies
 - [[Physical Replication]] vs [[Logical Replication]]
 - Cross-regional replication (sync vs async)
 Mechanics and Flow of [[JSON Web Token|JWT]], [[JSON Web Key Set|JWKS]], [[Refresh Token]]
-[[User Access Token]]s vs [[Service Token]] 
+[[Access Token]]s vs [[Service Token]] 
 Comparison with [[Session|User Session]]s stored in DB
 High-level on [[OAuth]], [[OpenID Connect|OIDC]],  and how they (and anything else related to authn, auhz) is actually implemented in a SD
 [[Blob Storage|Object Storage]] usage specifics (presigned url flow, key naming conventions)

@@ -288,6 +288,15 @@ A:
 - Acme then redeems it over a direct back-channel to Google, where Google can verify the legitimate client before issuing real tokens.
 
 
+_________
+
+![[Pasted image 20260611132947.png]]
+- Direct to Authn endpoint, showing you a login screen of "Sign in to Google"
+- If you enter your credentials and consent, then the provider returns the authorization code to the application.
+- Your application exchanges the authorization code for tokens, which gets us back the Access Token and ID Token.
+- From here, the Access Token is for OAuth 2.0 authorization, but the ID token is a [[JSON Web Token|JWT]] that contains your identity, including your email or user name, user id. After this point, your application is able to verify the signature and extract the user's identity...
+- By having this ID token, your application can now create its own Session for the user and grant the access token for that user.
+- 
 
 
 

@@ -1,5 +1,5 @@
 
-A longer-lived credential used to get a new short-lived (e.g.) [[User Access Token]] without making the user log in again. It is used only to get a new short-lived access token when the old access token expires or is about to expire.
+A longer-lived credential used to get a new short-lived (e.g.) [[Access Token]] without making the user log in again. It is used only to get a new short-lived access token when the old access token expires or is about to expire.
 
 We need refresh tokens so that access tokens can stay short-lived, so that if an access token leaks, it stops working soon, while the refresh token can be protected more tightly, revoked, rotated, and used only to issue new access tokens.
 

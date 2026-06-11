@@ -1,6 +1,8 @@
 ---
 aliases:
   - Decryption
+  - Encrypted
+  - Decrypted
 ---
 
 

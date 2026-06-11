@@ -9,7 +9,7 @@ Server B think its it 10:00:07
 These clocks are skewed by 7 seconds!
 
 This matters because many things in distributed systems depend on time:
-- Expiring [[Session]]s or [[User Access Token]]s
+- Expiring [[Session]]s or [[Access Token]]s
 - Ordering events
 - Database writes and timestamps
 - Cache expiration

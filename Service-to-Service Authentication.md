@@ -18,7 +18,7 @@ When `orders-services` calls `payemnts-service`, the latter needs to know:
 - Context: Is it acting for itself, or is it acting on behalf of a user?
 - Scope: Is this token meant for me, or was it stolen/replayed from somewhere else?
 
-A [[Service Token]] is a credential a service presents when calling another service, analogous to a [[User Access Token]] (UAT), but issued to a service identity, rather than a human user.
+A [[Service Token]] is a credential a service presents when calling another service, analogous to a [[Access Token]] (UAT), but issued to a service identity, rather than a human user.
 
 Might be a:
 - Opaque [[Bearer Token]]

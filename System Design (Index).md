@@ -135,7 +135,7 @@ Terms
 - [[Liveness Check]]: A probe that reports whether an instance is alive or should be restarted. Keep it narrow so slow dependencies do not cause unnecessary restart loops.
 - [[Timeout]]: A maximum waiting period after which an operation is abandoned or treated as failed. Set timeouts on every network dependency so callers do not wait indefinitely and exhaust resources.
 - [[Session|User Session]]: Server or client state representing a user's authenticated interaction over time. Use sessions when user continuity is needed, but design expiration, revocation, and storage deliberately.
-- [[User Access Token]]: A credential used by a client to access resources on behalf of a user. Keep it short-lived and scoped because a leaked bearer token can usually be used immediately.
+- [[Access Token]]: A credential used by a client to access resources on behalf of a user. Keep it short-lived and scoped because a leaked bearer token can usually be used immediately.
 - [[Refresh Token]]: A long-lived credential used to obtain new access tokens without asking the user to log in again. Store and rotate it more carefully than access tokens because compromise lasts longer.
 - [[At Least Once|At Least Once Delivery]]: A delivery guarantee where a message is delivered one or more times and consumers must handle duplicates. Use it when losing work is worse than processing duplicates.
 - [[At-Most-Once Delivery]]: A delivery guarantee where a message is delivered zero or one time and may be lost. Use it only when low latency or simplicity matters more than guaranteed processing.
@@ -371,3 +371,76 @@ API Gateway to private app
 - VPC Link
 - [[Amazon Application Load Balancer|ALB]]/[[Amazon Network Load Balancer|NLB]]
 - [[Amazon Elastic Container Service|ECS]] app in private subnet
+
+
+
+
+# Data Modeling ([link](https://youtu.be/TUcPS6dsWx4?si=fGpPYCMa6lz2arNm))
+
+The process of defining how your data is:
+- Stored (What database systems?)
+- Structured (What tables? What structured)
+- Related to eachother (FKs, etc.)
+
+In practice, we typically think about this both:
+- In the `Core Entities` stage: What are the objects that we're talking about?
+- In the `High-Level Design` stage: When you're talking about satisfying functional requirements and talking about how each API endpoint will be served/resolved, we'll naturally be in the database talking about which fields/column/etc. are required to satisfy requirements.
+
+Database Model Options:
+- Relational Database (Strong suggestion)
+	- The right answer can almost justify to be relational databases
+- Document Databases
+	- Hot take: The main reason you'd typically choose this is when you want to support schema flexibility. Speaker argues that if you're a SD interview and you've explicitly scope the requirements of your design... as a result, almost by definition, there's going to be no evolving schema unless the interviewer throws it at you, and not many do.
+- KeyValue Store
+- Graph Database
+
+Instagram Example
+![[Pasted image 20260611145517.png|400]]
+A table for each entity
+- User table
+- Post table that FKs to User table
+- Likes table which FKs both the person doing the liking as well as to the post being liked
+
+This structure prevents orphaned data and makes complex queries straightforward
+
+# Schema Design (Three Key Factors
+1. Data Volume: Where can data live? (single DB vs Distributed)
+2. Access Patterns: How is the data queried? (Drives your choice of indexes and structure)
+3. Consistency requirements: How strict? (ACID vs eventual consistency)
+
+# Entities, Keys, and Relationships
+- [[Primary Key]]: Unique identifier for each record in a table (e.g. monotonically increasing ID, UUID, etc.)
+- [[Foreign Key]]: Points of the primary key in another table to create a relationship
+	- In our `posts` table, we might have a `user_id` column as a FK to the `user` table via its `id` column.
+	- Foreign keys enforce ==referential integrity,== which just says that the database won't let you create a post that references a user that doesn't exist! Similarly, the database will typically stop you from deleting a user if posts still reference that user (unless you use, e.g. `ON DELETE CASCADE`)
+
+# [[Normalization]] vs [[Denormalization]]
+- Normalization: Storing each piece of information in exactly one location; User data lives in the `User` table and isn't duplicated across other tables. This prevents anomalies around inconsistent data, since you only need to update data in one place, on writes.
+- Denormalization: Deliberately duplicating data across tables, almost always for performance reasons (to reduce the number of joins needed on read).
+- Tradeoff: Normalization keeps data consistent, but requires expensive joins.
+- Recommendation: Start with a clean, Normalized model always, and only denormalize when you have a performance requirement (eg latency) that you can't satisfy via other means (e.g. Indexing, Caching, changes in communication protocols).
+
+
+# Indexing for Access Patterns
+- [[B-Tree]] indexes: Instead of scanning to find where Evan is, we can walk down a tree to make our full-table scan (O(N)) into a B-Tree lookup (Log(N)).
+- ==You need to specify which columns you want to build indexes for!==
+	- For Instagram, we would add indexes that support our most common queries.
+	- If we want to query Posts by userId, we need to put an index on column `user_id` in the `Posts` table!
+	- If we to query by the most recent posts, we might want to add an index on the `created_at` column in the `Posts` table.
+
+
+# [[Sharding]]
+- When your data gets too large for a single database node, you need to shard it across multiple nodes.
+- Instagram example:
+	- We should make sure that comments land in the same shard as their corresponding posts, for instance.
+	- The important thing is that we keep related data together so that we can avoid much more expensive *cross-shard joins.* We just want to have to go to *one* database.
+- In your interview, we continue to complete our datamodel by saying:
+	- "We're sharding the Posts by by postId"
+	- "We're also sharding the Comments by postId"
+- ==Golden Rule: Shard by your primary access pattern, so that you can avoid cross-shard joins whenever possible==. Your choice of shard key effects every single query, so think carefully about how you'll access data.
+
+
+
+
+
+

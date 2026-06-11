@@ -221,6 +221,44 @@ So that the receiver can verify (with a [[JSON Web Key Set|JWK]] that the token 
 
 
 
+# Where should we store JWTs?
+
+It depends on the application shape!
+- In a Web App with [[Backend for Frontend|BFF]] pattern
+	- The browser talks only to your BFF, and the BFF talks to downstream APIs. In this setup, the browser doesn't *need* the JWT access token; the browser can just hold a normal session cookie. This is often the best web security posture. The long-lived credential stays server-side, protected from browser JavaScript. 
+	- Access JWT storage: Do not store JWT in browser. 
+	- Refresh Token storage: Server/BFF stores it, browser uses an `HttpOnly, Secure, SameSite` [[Cookie]] session token.
+- In a [[Single Page Application|SPA]] that calls backend APIs directly
+	- Here, the frontend JS is the API client, so the API expects an `Authorization: Bearer eyJ...`. So the JS must have access to the JWT somehow. The preferred pattern is keeping the access JWT in memory only, and the refresh token in a `HttpOnly Secure SameSite` Cookie. If the user refreshes  the page, the in-memory access token disappears, and the app calls `/refresh`, automatically sending the `HttpOnly` refresh token stored in cookies, and the server returns a fresh JWT access token.
+	- Access JWT storage: Memory-only, if possible. 
+	- Refresh token storage:  `HttpOnly Secure SameSite` [[Cookie]] via your backend/token endpoint
+- In a pure browser [[Single Page Application|SPA]] with no backend
+	- In this scenario, your pap is just static files plus browser JS. There isn't a trusted application server that can hold secrets or manage sessions. ==This is the hardest model to secure cleanly.==
+	- Access JWT storage: Memory; [[Session Storage]] only as a tradeoff; avoid `localStorage`
+	- Refresh token storage:  Avoid if possible; if required, rotate/reuse-detect and understand JS exposure
+- In a native mobile application
+	- Native app isn't a browser, it has access to OS-provided secure storage. The access token should still be short-lived; the refresh token is the valuable credential, so you store using the platform's protected storage. Mobile can store refresh tokens more reasonably than a pure browser SPA because the OS gives you a better place to put secrets.
+	- Access JWT storage: Memory for access token.
+	- Refresh token storage:  iOS Keychain/Android Keystore-backed secure storage
+- In a CLI/Desktop application
+	- A CLI or Desktop application is also a public client, but it might have access to a system keychain (e.g. macOS Keychain, Windows Credential Manager, Linux Secret Service/libsecret).
+	- Access JWT storage: Memory for access token.
+	- Refresh token storage:  OS keychain/keyring, or protected config file if unavoidable
+- In a server-to-server context
+	- Here, there's no human user session. You typically don't want a user refresh token at all, you want a machine credential. JWTs are often used here because services can validate them locally, but you still want short expirations, `aud` restrictions, issuer validation, and key rotation.
+	- Access JWT storage: Memory/env/secret manager
+	- Refresh token storage:  Usually no user refresh token; use client credentials or workload identity
+
+
+The key point:
+```
+If JavaScript must attach `Authorization: Bearer <token>`, then JavaScript must be able to access the Access Token.
+```
+So keep that access token short-lived and in-memory; if you put it in [[Local Storage]], [[Cross-Site Scripting|XSS]] can steal it. If you put it in an `HttpOnly` cookie, JS can't attach it as a Bearer header; at that point, you're really doing cookie-based auth, often with a BFF pattern.
+
+
+
+
 
 
 

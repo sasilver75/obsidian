@@ -1,6 +1,7 @@
 ---
 aliases:
   - OAuth 2.0
+  - OAuth2
 ---
 A standard for *delegated* [[Authorization]].
 
@@ -28,4 +29,8 @@ It doesn't fully answer "Who is this user?" That identity layer is what [[OpenID
 3. Authorization server returns an an authorization code
 4. App exchanges the code for an access token
 5. App uses the access token to call an API on behalf of the user
+
+
+![[Pasted image 20260611132321.png]]
+You're getting back an Access Token for the Google Drive API, which you might think is an Authentication method, but the access token just proves that the app CAN access the resources, but it does NOT tell the app who you are; it just proves that the app *can* access certain resources from your Google Drive.
 

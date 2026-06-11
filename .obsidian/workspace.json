@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac8ca7538f9ec6a4",
+            "id": "ece4a936231c6980",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGS84.md",
+                "file": "Tokenization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WGS84"
+              "title": "Tokenization"
+            }
+          },
+          {
+            "id": "a5585adf36aec704",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Token"
+            }
+          },
+          {
+            "id": "8fe0bc03a3c1fd29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sharding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sharding"
+            }
+          },
+          {
+            "id": "5a7e4876f1718259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bearer Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bearer Token"
+            }
+          },
+          {
+            "id": "546da0aeaff0a393",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encryption.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Encryption"
+            }
+          },
+          {
+            "id": "7b3d7f73d080e985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Opaque Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Opaque Token"
+            }
+          },
+          {
+            "id": "7b3832d96100d812",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSRF Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CSRF Token"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2081,46 +2226,46 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "15bc974f66e3ef16",
+  "active": "8fe0bc03a3c1fd29",
   "lastOpenFiles": [
-    "Hexagonal Architecture.md",
-    "Idempotency.md",
-    "Active-Active.md",
-    "Modern Frontend Development.md",
-    "Zod.md",
-    "_attachments/Pasted image 20260609195202.png",
-    "SQLAlchemy.md",
-    "Shapely.md",
-    "Multiversion Concurrency Control.md",
-    "ImageNet.md",
-    "Pagination.md",
-    "Tail Latency.md",
-    "Feature Flag.md",
-    "HTTP 2.md",
-    "SpatioTemporal Asset Catalog.md",
-    "In-Process Cache.md",
-    "Denormalization.md",
-    "N + 1 Query Problem.md",
-    "Cache.md",
-    "Write-Back Cache.md",
-    "Release.md",
-    "Distributed Cache.md",
-    "Load Shedding.md",
-    "Cookie.md",
-    "Deployment.md",
     "System Design (Index).md",
+    "_attachments/Pasted image 20260611145517.png",
+    "Cross-Site Scripting.md",
+    "Token.md",
+    "Bearer Token.md",
+    "Encryption.md",
+    "Opaque Token.md",
+    "CSRF Token.md",
+    "Tokenization.md",
+    "ID Token.md",
+    "JSON Web Token.md",
+    "Access Token.md",
+    "Authentication.md",
+    "OAuth.md",
+    "Authorization.md",
+    "Access Control List.md",
+    "Network Access Control List.md",
+    "Single Sign-On.md",
+    "_attachments/Pasted image 20260611133608.png",
+    "_attachments/Pasted image 20260611133334.png",
+    "Sun-Synchronous Orbit.md",
+    "OpenID Connect.md",
+    "_attachments/Pasted image 20260611132947.png",
+    "_attachments/Pasted image 20260611132321.png",
+    "One-Time Password.md",
+    "Agent Harness.md",
+    "_attachments/Pasted image 20260611131229.png",
+    "Multi-Factor Authentication.md",
+    "API Key Authentication.md",
+    "Principal.md",
+    "WGS84.md",
+    "Hexagonal Architecture.md",
+    "_attachments/Pasted image 20260609195202.png",
     "flashcards/system-design-questions-anki.tsv",
-    "Courses/SystemDesign/SDIAH Intro.md",
     "A",
     "_attachments/Pasted image 20260608102433.png",
     "_attachments/Pasted image 20260608101609.png",
     "_attachments/Pasted image 20260608101133.png",
-    "_attachments/Pasted image 20260608100626.png",
-    "_attachments/Pasted image 20260608095701.png",
-    "_attachments/Pasted image 20260608095653.png",
-    "_attachments/Pasted image 20260608085635.png",
-    "_attachments/Pasted image 20260608085215.png",
-    "_attachments/Pasted image 20260607103404.png",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",

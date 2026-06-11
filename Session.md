@@ -52,7 +52,7 @@ In practice, on the server-side session store, you often store a [[Hash]] of the
 +: No central session lookup required, works well in distributed systems
 -: Harder to revoke before expiration, token can get large, requires careful expiration and rotation
 
-Note: [[User Access Token]] vs [[Refresh Token]]
+Note: [[Access Token]] vs [[Refresh Token]]
 - Modern apps often use:
 	- Access Token: Short-lived credential for requests
 	- Refresh Token: Longer-lived credential used to get new access tokens

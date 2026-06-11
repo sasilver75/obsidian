@@ -1,0 +1,5 @@
+---
+aliases:
+  - Magic Link
+  - OTP
+---

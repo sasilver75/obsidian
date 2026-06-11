@@ -21,3 +21,15 @@ Example:
 4. Google sees you already have a valid Google session.
 5. Google sends you back to Slack logged in.
 6. You open the HR app and the same thing happens.
+
+![[Pasted image 20260611133334.png]]
+It's a ==User Experience,== not an authentication method. You're able to login once, but access multiple services.
+- If you log into Google/Okta/etc... and you want to get access to multiple applications....
+- Log in once to your identity provider. SSO uses identity protocols underneath to validate these sessions.
+- Once you sign in with the identity provider (e.g. Google), your global session is stored in Session Storage, and you get back a SSO cookie to store in your client to access other resources.
+- If you want to access Gmail for the first time....
+	- Once you login, you verify hte session, and now you're able to access gmail.
+- If you then want to access Google Drive, you don't need to log in again because you have a cookie and session stored in the session storage, so we just verify your session, and if it's valid, you get access to Google Drive as well.
+
+SSO uses identity protocols underneath like [[Security Assertion Markdown Language|SAML]] or [[OpenID Connect|OIDC]]
+![[Pasted image 20260611133608.png]]

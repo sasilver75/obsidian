@@ -208,7 +208,10 @@ If you're used Skills in the past, common problem: You  a central source of trut
 
 
 
+____________
 
+![[Pasted image 20260611131229.png]]
+From ReeveOne on interconnects discord
 
 
 

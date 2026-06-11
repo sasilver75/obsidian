@@ -1,6 +1,106 @@
 {
   "recentFiles": [
     {
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Cross-Site Scripting",
+      "path": "Cross-Site Scripting.md"
+    },
+    {
+      "basename": "Token",
+      "path": "Token.md"
+    },
+    {
+      "basename": "Bearer Token",
+      "path": "Bearer Token.md"
+    },
+    {
+      "basename": "Encryption",
+      "path": "Encryption.md"
+    },
+    {
+      "basename": "Opaque Token",
+      "path": "Opaque Token.md"
+    },
+    {
+      "basename": "CSRF Token",
+      "path": "CSRF Token.md"
+    },
+    {
+      "basename": "Tokenization",
+      "path": "Tokenization.md"
+    },
+    {
+      "basename": "ID Token",
+      "path": "ID Token.md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
+    },
+    {
+      "basename": "Access Token",
+      "path": "Access Token.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Authentication.md"
+    },
+    {
+      "basename": "OAuth",
+      "path": "OAuth.md"
+    },
+    {
+      "basename": "Authorization",
+      "path": "Authorization.md"
+    },
+    {
+      "basename": "Access Control List",
+      "path": "Access Control List.md"
+    },
+    {
+      "basename": "Network Access Control List",
+      "path": "Network Access Control List.md"
+    },
+    {
+      "basename": "Single Sign-On",
+      "path": "Single Sign-On.md"
+    },
+    {
+      "basename": "Sun-Synchronous Orbit",
+      "path": "Sun-Synchronous Orbit.md"
+    },
+    {
+      "basename": "OpenID Connect",
+      "path": "OpenID Connect.md"
+    },
+    {
+      "basename": "One-Time Password",
+      "path": "One-Time Password.md"
+    },
+    {
+      "basename": "Agent Harness",
+      "path": "Agent Harness.md"
+    },
+    {
+      "basename": "Multi-Factor Authentication",
+      "path": "Multi-Factor Authentication.md"
+    },
+    {
+      "basename": "API Key Authentication",
+      "path": "API Key Authentication.md"
+    },
+    {
+      "basename": "Principal",
+      "path": "Principal.md"
+    },
+    {
       "basename": "WGS84",
       "path": "WGS84.md"
     },
@@ -99,106 +199,6 @@
     {
       "basename": "Deployment",
       "path": "Deployment.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "SDIAH Intro",
-      "path": "Courses/SystemDesign/SDIAH Intro.md"
-    },
-    {
-      "basename": "Key Rotation",
-      "path": "Key Rotation.md"
-    },
-    {
-      "basename": "Refresh-Ahead",
-      "path": "Refresh-Ahead.md"
-    },
-    {
-      "basename": "Refresh Token",
-      "path": "Refresh Token.md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "JSON Web Token.md"
-    },
-    {
-      "basename": "Clock Skew",
-      "path": "Clock Skew.md"
-    },
-    {
-      "basename": "Autoscaling",
-      "path": "Autoscaling.md"
-    },
-    {
-      "basename": "Priority Queue",
-      "path": "Priority Queue.md"
-    },
-    {
-      "basename": "Data Lakehouse",
-      "path": "Data Lakehouse.md"
-    },
-    {
-      "basename": "External Cache",
-      "path": "External Cache.md"
-    },
-    {
-      "basename": "Browser Storage",
-      "path": "Browser Storage.md"
-    },
-    {
-      "basename": "Client-Side Cache",
-      "path": "Client-Side Cache.md"
-    },
-    {
-      "basename": "Terraform",
-      "path": "Terraform.md"
-    },
-    {
-      "basename": "Cache Warming",
-      "path": "Cache Warming.md"
-    },
-    {
-      "basename": "Rollback Strategy",
-      "path": "Rollback Strategy.md"
-    },
-    {
-      "basename": "Address Resolution Protocol",
-      "path": "Address Resolution Protocol.md"
-    },
-    {
-      "basename": "Dynamic Host Configuration Protocol",
-      "path": "Dynamic Host Configuration Protocol.md"
-    },
-    {
-      "basename": "Internet Protocol",
-      "path": "Internet Protocol.md"
-    },
-    {
-      "basename": "Wi-Fi",
-      "path": "Wi-Fi.md"
-    },
-    {
-      "basename": "Multicast DNS",
-      "path": "Multicast DNS.md"
-    },
-    {
-      "basename": "Network Interface Card",
-      "path": "Network Interface Card.md"
-    },
-    {
-      "basename": "Wireless Access Point",
-      "path": "Wireless Access Point.md"
-    },
-    {
-      "basename": "Local Area Network",
-      "path": "Local Area Network.md"
-    },
-    {
-      "basename": "GeoDNS",
-      "path": "GeoDNS.md"
     }
   ],
   "omittedPaths": [],
