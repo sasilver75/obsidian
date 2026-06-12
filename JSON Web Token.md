@@ -259,8 +259,58 @@ So keep that access token short-lived and in-memory; if you put it in [[Local St
 
 
 
+# How does JWT [[Cryptographic Signature|Sign]]ing work?
+- (Note that Signing and [[Authentication Tag]]s are technically different, but people commonly use "signing" to refer to either of them. In the JWT case, I think it's common that you indeed use Private key to sign it, and then Public keys (in the form of [[JSON Web Key Set|JWKS]]) to validate it. So it indeed is better referred to as "signing.")
+- The signer doesn't like "The JSON object" in some abstract sense, they sign this exact byte string:
+```
+base64url(UTF8(protected_header)) + "." + base64url(payload)
+```
+then the final compact token is:
+```
+base64url(header).base64url(payload).base64url(signature)
+```
+
+The signature only answers: "Were these exact header and payload bytes produced by someone with the right signing key, and will the bytes have changed since then?"
+
+Header:
+```json
+{
+  "alg": "RS256",
+  "typ": "JWT",
+  "kid": "key-2026-01"
+}
+```
+Payload:
+```json
+{
+  "iss": "https://auth.example.com",
+  "sub": "user_123",
+  "aud": "payments-api",
+  "exp": 1781300000,
+  "scope": "invoice:read"
+}
+```
+
+The signer [[Base64]]url-encodes both pieces, joins them with a period, and then signs taht joined string.
+
+==There are two main signing styles:==
+
+| Style                           |                                                          Example `alg` | Key model               | Who can sign?                 | Who can verify?                                                 |
+| ------------------------------- | ---------------------------------------------------------------------: | ----------------------- | ----------------------------- | --------------------------------------------------------------- |
+| [[Message Authentication Code]] | `HS256` ([[Hash-based Message Authentication Code\|HMAC]]-[[SHA-256]]) | Shared secret           | Anyone with the shared secret | Anyone with the same shared secret                              |
+| ==Digital signature==           |                                     `RS256`, `PS256`, `ES256`, `EdDSA` | Private/public key pair | Only holder of private key    | Anyone with trusted public key (e.g. [[JSON Web Key Set\|JWK]]) |
+Q: Seems to me like you'd want to use the latter for a multi-service architecture where you have services authenticating incoming JWTs using a JWKS? So that you don't have to share the symmetric key around.
+A: Yes. This is why asymmetric JWT signing is usually the better architectural default when an authentication service issues tokens that many resource services need to verify. If you have a monolithic architecture, then an HMAC solution might be sufficient, but if you have a microservices architecture it's likely better to go the asymmetric route.
 
 
+Algo lookup:
+
+| JWT alg | Full name                                                          | Key type                       | Hash                        | Modern status                                                            |
+| ------- | ------------------------------------------------------------------ | ------------------------------ | --------------------------- | ------------------------------------------------------------------------ |
+| `RS256` | `RSASSA-PKCS1-v1_5` using SHA-256                                  | [[Rivest-Shamir-Adleman\|RSA]] | [[SHA-256]]                 | Common and widely supported; uses an older RSA padding scheme            |
+| `PS256` | `RSASSA-PSS` using SHA-256 and `MGF1` with SHA-256                 | [[Rivest-Shamir-Adleman\|RSA]] | [[SHA-256]]                 | Preferred modern RSA signature scheme                                    |
+| `ES256` | ECDSA using the P-256 elliptic curve and SHA-256                   | Elliptic curve                 | [[SHA-256]]                 | Common; smaller signatures than RSA; implementation details are trickier |
+| `EdDSA` | Edwards-curve Digital Signature Algorithm, usually Ed25519 in JWTs | Edwards elliptic curve         | Built into the EdDSA design | Modern, simple, fast, and deterministic                                  |
 
 
 

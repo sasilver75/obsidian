@@ -11,10 +11,24 @@
             "id": "041b040047d29a92",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JSON Web Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "JSON Web Token"
             }
           }
         ]
@@ -2069,6 +2083,12 @@
   },
   "active": "041b040047d29a92",
   "lastOpenFiles": [
+    "Cookie.md",
+    "JSON Web Token.md",
+    "Networking (Index).md",
+    "Intermediate System to Intermediate System.md",
+    "Byte-Pair Encoding.md",
+    "Out-of-Vocabulary Token.md",
     "Border Gateway Protocol.md",
     "Classless Inter-Domain Routing.md",
     "Port.md",
@@ -2089,12 +2109,6 @@
     "System Design (Index).md",
     "Read-your-Writes Consistency.md",
     "Symmetric Key Encryption.md",
-    "Asymmetric Key Encryption.md",
-    "Key Exchange.md",
-    "AES-GCM.md",
-    "Strong Read-After-Write Consistency.md",
-    "WebSockets.md",
-    "Inbox Pattern.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

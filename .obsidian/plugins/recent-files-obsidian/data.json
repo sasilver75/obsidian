@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "JSON Web Token",
+      "path": "JSON Web Token.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Cookie.md"
+    },
+    {
+      "basename": "Networking (Index)",
+      "path": "Networking (Index).md"
+    },
+    {
+      "basename": "Intermediate System to Intermediate System",
+      "path": "Intermediate System to Intermediate System.md"
+    },
+    {
+      "basename": "Byte-Pair Encoding",
+      "path": "Byte-Pair Encoding.md"
+    },
+    {
       "basename": "Border Gateway Protocol",
       "path": "Border Gateway Protocol.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Plaintext",
       "path": "Plaintext.md"
-    },
-    {
-      "basename": "Consistent Hashing",
-      "path": "Consistent Hashing.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "HTTP.md"
-    },
-    {
-      "basename": "Virtual Private Network",
-      "path": "Virtual Private Network.md"
-    },
-    {
-      "basename": "Secure Socket Layer",
-      "path": "Secure Socket Layer.md"
-    },
-    {
-      "basename": "Network Firewall",
-      "path": "Network Firewall.md"
     }
   ],
   "omittedPaths": [],

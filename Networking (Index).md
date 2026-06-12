@@ -144,3 +144,129 @@ Terms
 - [[Internet Service Provider]] (ISP): A company or organization that provides access to the internet.
 - [[Route Table]]: A set of routing rules that tells a host, router, or cloud subnet where to send traffic for different destinations.
 
+
+_________________
+
+# What happens when I type "Google.com" into my browser?
+
+- **User input to browser**    
+    - USB HID, Bluetooth HID, or internal keyboard bus
+    - Operating system input/event APIs
+- **Browser URL interpretation**
+    - URL syntax/parsing
+    - HTTPS upgrade policy
+    - HSTS, if cached or preloaded
+    - Optional: proxy auto-configuration via PAC/WPAD
+- **Local network configuration, usually already done**
+    - IPv4: DHCP
+    - IPv6: Router Advertisement, SLAAC, DHCPv6
+    - Optional: PPPoE on some broadband links
+- **DNS resolution**
+    - DNS for A, AAAA, and sometimes HTTPS records
+    - Usually UDP/53
+    - TCP/53 fallback for large/truncated responses
+    - Optional: DNS over HTTPS, DNS over TLS
+    - Optional: DNSSEC validation by resolver
+- **Local route selection**
+    - IP routing table lookup
+    - IPv4 or IPv6 forwarding decision
+    - No internet routing protocol runs on your laptop in the normal case
+- **Local address resolution**
+    - IPv4: ARP
+    - IPv6: Neighbor Discovery Protocol over ICMPv6
+- **Local link transmission**
+    - Ethernet, if wired
+    - Wi-Fi / IEEE 802.11, if wireless
+    - WPA2 or WPA3 for local Wi-Fi encryption
+    - VLAN tagging with IEEE 802.1Q, if used
+- **Home or edge router processing**
+    - IP forwarding
+    - NAT / PAT for typical IPv4 home networks
+    - Stateful firewall tracking
+    - Optional: QoS / DSCP handling
+    - Optional: TCP MSS clamping
+- **Access network**
+    - Cable: DOCSIS
+    - Fiber: GPON, XGS-PON, Ethernet, or similar
+    - DSL: DSL protocols plus PPPoE sometimes
+    - Cellular: LTE/5G radio protocols and mobile packet core protocols
+    - Enterprise/metro: Ethernet, MPLS, or provider-specific transport
+- **ISP internal routing**
+    - OSPF or IS-IS as interior gateway protocols
+    - iBGP inside larger networks
+    - MPLS, often with LDP, RSVP-TE, or Segment Routing
+    - ECMP for load-sharing across equal-cost paths
+- **Internet interdomain routing**
+    - eBGP between Autonomous Systems
+    - BGP communities and routing policy
+    - Optional: RPKI route origin validation
+    - Peering, transit, and internet exchange point switching
+- **General IP packet handling across the path**
+    - IPv4 or IPv6
+    - ICMP / ICMPv6 for errors, diagnostics, and path behavior
+    - Path MTU Discovery
+    - TTL / Hop Limit decrement at each router
+- **Google edge arrival**
+    - BGP anycast or traffic-engineered routing
+    - IP forwarding inside Google’s edge network
+    - Load balancing, often at Layer 4 and Layer 7
+    - DDoS filtering and abuse-control systems
+- **TCP connection setup**
+    - TCP three-way handshake: SYN, SYN-ACK, ACK
+    - TCP options: MSS, Window Scale, SACK Permitted, Timestamps
+    - TCP congestion control: CUBIC, BBR, or another algorithm
+    - TCP flow control via receive windows
+- **TLS handshake**
+    - TLS 1.3, usually
+    - X.509 certificates
+    - SNI: Server Name Indication
+    - ALPN: Application-Layer Protocol Negotiation
+    - Certificate Transparency checks
+    - Optional: OCSP / revocation mechanisms
+    - Optional: TLS session resumption
+- **HTTP protocol selection**
+    - Usually HTTP/2 over TLS
+    - Fallback: HTTP/1.1 over TLS
+    - Explicitly excluded here: HTTP/3 over QUIC
+- **HTTP request**
+    - HTTP/2 binary framing
+    - HTTP/2 streams
+    - HPACK header compression
+    - HTTP semantics: GET, headers, cookies, content negotiation
+    - If HTTP/1.1: textual request lines and headers instead of HTTP/2 frames
+- **Google Front End processing**
+    - TCP termination
+    - TLS termination
+    - HTTP/2 or HTTP/1.1 parsing
+    - Reverse proxying / load balancing
+    - Internal Google routing and service selection
+- **Google internal backend work**
+    - Private internal RPC systems
+    - Internal service discovery and load balancing
+    - Internal authentication/authorization mechanisms
+    - Internal storage/cache protocols, not usually public or directly observable
+- **HTTP response**
+    - HTTP status code and headers
+    - HTTP/2 DATA frames, or HTTP/1.1 response body
+    - Content encoding: Brotli or gzip
+    - Cookies via Set-Cookie
+    - Caching headers
+    - HSTS header
+    - Optional redirect headers, such as Location
+- **Return transport**
+    - HTTP response bytes inside TLS records
+    - TLS records inside TCP segments
+    - TCP segments inside IP packets
+    - IP packets inside Ethernet/Wi-Fi/provider frames
+    - NAT table lookup and reverse translation on your router, if IPv4 NAT is used
+- **Browser receives and renders**
+    - TCP reassembly
+    - TLS decryption
+    - HTTP/2 frame decoding or HTTP/1.1 parsing
+    - HTML parsing
+    - CSS parsing
+    - JavaScript execution
+    - Additional DNS/TCP/TLS/HTTP requests for subresources
+    - GPU/display protocols are platform-specific, not internet protocols
+
+
