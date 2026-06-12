@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authentication Tag.md",
+                "file": "System Design (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,127 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Authentication Tag"
+              "title": "System Design (Index)"
+            }
+          },
+          {
+            "id": "9f638d84d5544da5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read-your-Writes Consistency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read-your-Writes Consistency"
+            }
+          },
+          {
+            "id": "932ad5f5904c1326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox Pattern.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Inbox Pattern"
+            }
+          },
+          {
+            "id": "0cce38fe51869353",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Key-Range Lock.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Key-Range Lock"
+            }
+          },
+          {
+            "id": "b34548d82fb79bff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WebSockets.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "WebSockets"
+            }
+          },
+          {
+            "id": "e2ba5703cade80e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Strong Read-After-Write Consistency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Strong Read-After-Write Consistency"
             }
           },
           {
@@ -200,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2250,10 +2370,28 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "83005e1b17d88a63",
+  "active": "932ad5f5904c1326",
   "lastOpenFiles": [
-    "AGENTS.md",
+    "explainers/Inbox Pattern/script.js",
+    "explainers/Inbox Pattern/styles.css",
+    "explainers/Inbox Pattern/index.html",
+    "explainers/Inbox Pattern",
+    "explainers/AGENTS.md",
+    "explainers",
+    "Refresh-Ahead.md",
+    "Strong Consistency.md",
+    "Phantom Read.md",
+    "Key-Range Lock.md",
+    "Consistency.md",
+    "Change Data Capture.md",
+    "Authorization.md",
+    "Relationship-Based Access Control.md",
+    "System Design (Index).md",
+    "WebSockets.md",
+    "Strong Read-After-Write Consistency.md",
+    "Read-your-Writes Consistency.md",
     "Authentication Tag.md",
+    "AGENTS.md",
     "Agent.md",
     "Authenticated Encryption with Associated Data.md",
     "WireGuard.md",
@@ -2264,20 +2402,6 @@
     "Salt.md",
     "Asymmetric Key Encryption.md",
     "Message Authentication Code.md",
-    "AES-GCM.md",
-    "MD5.md",
-    "MurmurHash.md",
-    "Cryptography and Security (Index).md",
-    "Hash.md",
-    "Key Exchange.md",
-    "Signature.md",
-    "Media Access Control.md",
-    "Ciphertext.md",
-    "Plaintext.md",
-    "Consistent Hashing.md",
-    "HTTP.md",
-    "Virtual Private Network.md",
-    "Secure Socket Layer.md",
     "_attachments/Pasted image 20260611163444.png",
     "_attachments/Pasted image 20260611163307.png",
     "_attachments/Pasted image 20260611163247.png",
@@ -2293,10 +2417,6 @@
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",
-    "flashcards/logistics-index-anki.tsv",
-    "flashcards/electronics-index-anki.tsv",
-    "flashcards/satellite-index-anki.tsv",
-    "flashcards/system-design-index-anki.tsv",
-    "flashcards/geospatial-index-anki.tsv"
+    "flashcards/logistics-index-anki.tsv"
   ]
 }

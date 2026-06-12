@@ -1,0 +1,10 @@
+---
+aliases:
+  - Next-Key Lock
+---
+
+
+
+
+
+

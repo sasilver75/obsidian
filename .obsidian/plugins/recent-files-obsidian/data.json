@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Inbox Pattern",
+      "path": "Inbox Pattern.md"
+    },
+    {
+      "basename": "Refresh-Ahead",
+      "path": "Refresh-Ahead.md"
+    },
+    {
+      "basename": "Strong Consistency",
+      "path": "Strong Consistency.md"
+    },
+    {
+      "basename": "Phantom Read",
+      "path": "Phantom Read.md"
+    },
+    {
+      "basename": "Key-Range Lock",
+      "path": "Key-Range Lock.md"
+    },
+    {
+      "basename": "Consistency",
+      "path": "Consistency.md"
+    },
+    {
+      "basename": "Change Data Capture",
+      "path": "Change Data Capture.md"
+    },
+    {
+      "basename": "Authorization",
+      "path": "Authorization.md"
+    },
+    {
+      "basename": "Relationship-Based Access Control",
+      "path": "Relationship-Based Access Control.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "Strong Read-After-Write Consistency",
+      "path": "Strong Read-After-Write Consistency.md"
+    },
+    {
+      "basename": "Read-your-Writes Consistency",
+      "path": "Read-your-Writes Consistency.md"
+    },
+    {
       "basename": "Authentication Tag",
       "path": "Authentication Tag.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "Internet Protocol",
       "path": "Internet Protocol.md"
-    },
-    {
-      "basename": "Switch",
-      "path": "Switch.md"
-    },
-    {
-      "basename": "Ethernet",
-      "path": "Ethernet.md"
-    },
-    {
-      "basename": "Tokenization",
-      "path": "Tokenization.md"
-    },
-    {
-      "basename": "Token",
-      "path": "Token.md"
-    },
-    {
-      "basename": "Bearer Token",
-      "path": "Bearer Token.md"
-    },
-    {
-      "basename": "Encryption",
-      "path": "Encryption.md"
-    },
-    {
-      "basename": "Opaque Token",
-      "path": "Opaque Token.md"
-    },
-    {
-      "basename": "CSRF Token",
-      "path": "CSRF Token.md"
-    },
-    {
-      "basename": "Sharding",
-      "path": "Sharding.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "Cross-Site Scripting",
-      "path": "Cross-Site Scripting.md"
-    },
-    {
-      "basename": "ID Token",
-      "path": "ID Token.md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "JSON Web Token.md"
     }
   ],
   "omittedPaths": [],

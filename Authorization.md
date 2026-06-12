@@ -8,9 +8,10 @@ The step that happens after [[Authorization]].
 
 It needs to check what resources or actions the user has permissions to access, and what are the denied actions for that user.
 
-There are three main authorization models:
+There are ~~three~~ four main authorization models:
 - [[Role-Based Access Control]] (RBAC): Assigns roles (admin, editor) to users, which have permissions attached. Most common approach.
 - [[Attribute-Based Access Control]] (ABAC): More flexible/complex; Decision based on user/resource/environment attributes.
+- [[Relationship-Based Access Control]] (ReBAC): ((DO ME))
 - [[Access Control List]] (ACL): Each resource has its own permissions list. Common way of managing things like Google Docs.
 And we often use technologies like [[OAuth|OAuth 2.0]] and [[JSON Web Token|JWT]]s to make this work in practice.
 Real systems often combine multiple models together.
@@ -30,6 +31,10 @@ user.department == "HR" && time < 6PM && resource.confdientiality == "internal"
 ```
 - Can be combined with RBAC.
 - More flexible than RBAC, but more complex and requires good Policy management.
+
+
+# [[Relationship-Based Access Control]] (ReBAC)
+- 
 
 # [[Access Control List]] (ACL)
 - Have a document like a `doc123.json` file, which has a permission list:
