@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symmetric Key Encryption.md",
+                "file": "ChaCha20-Poly1305.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Symmetric Key Encryption"
+              "title": "ChaCha20-Poly1305"
             }
           },
           {
-            "id": "20d881bf2ef24b76",
+            "id": "83005e1b17d88a63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asymmetric Key Encryption.md",
+                "file": "Authentication Tag.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Asymmetric Key Encryption"
+              "title": "Authentication Tag"
             }
           },
           {
-            "id": "696b74369711b62f",
+            "id": "a185fdbe72653d1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nonce.md",
+                "file": "Message Authentication Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nonce"
+              "title": "Message Authentication Code"
             }
           },
           {
-            "id": "4f874aa630d4a2bf",
+            "id": "c4a6f9ff1bdf29f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography and Security (Index).md",
+                "file": "AES-GCM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,55 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cryptography and Security (Index)"
-            }
-          },
-          {
-            "id": "8fe0bc03a3c1fd29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hash.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hash"
-            }
-          },
-          {
-            "id": "b37756db0b01cc00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MD5"
+              "title": "AES-GCM"
             }
           },
           {
@@ -248,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2298,17 +2250,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8fe0bc03a3c1fd29",
+  "active": "83005e1b17d88a63",
   "lastOpenFiles": [
-    "MD5.md",
-    "Hash.md",
+    "AGENTS.md",
+    "Authentication Tag.md",
+    "Agent.md",
+    "Authenticated Encryption with Associated Data.md",
+    "WireGuard.md",
+    "Initialization Vector.md",
+    "Nonce.md",
+    "ChaCha20-Poly1305.md",
+    "Symmetric Key Encryption.md",
+    "Salt.md",
     "Asymmetric Key Encryption.md",
+    "Message Authentication Code.md",
+    "AES-GCM.md",
+    "MD5.md",
+    "MurmurHash.md",
+    "Cryptography and Security (Index).md",
+    "Hash.md",
     "Key Exchange.md",
     "Signature.md",
-    "Cryptography and Security (Index).md",
-    "Nonce.md",
-    "Symmetric Key Encryption.md",
-    "Authenticated Encryption with Associated Data.md",
     "Media Access Control.md",
     "Ciphertext.md",
     "Plaintext.md",
@@ -2316,19 +2278,9 @@
     "HTTP.md",
     "Virtual Private Network.md",
     "Secure Socket Layer.md",
-    "Transport Layer Security.md",
-    "Network Firewall.md",
-    "Port.md",
-    "User Datagram Protocol.md",
     "_attachments/Pasted image 20260611163444.png",
-    "Transport Control Protocol.md",
-    "Internet Control Message Protocol.md",
-    "Border Gateway Protocol.md",
     "_attachments/Pasted image 20260611163307.png",
-    "Routing.md",
-    "Open Shortest Path First.md",
     "_attachments/Pasted image 20260611163247.png",
-    "Subnet.md",
     "_attachments/Pasted image 20260611145517.png",
     "_attachments/Pasted image 20260611133608.png",
     "_attachments/Pasted image 20260611133334.png",

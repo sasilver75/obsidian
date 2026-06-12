@@ -15,7 +15,7 @@ Common algorithms include: [[SHA-256]], [[MD5]], etc.
  
 
 
-A **[[Hash|Hash Function]]** is any function that maps input data to a fixed-size value.
+A (non-cryptographic) **[[Hash|Hash Function]]** is any function that maps input data to a fixed-size value.
 - CRC32, xxHash, [[MurmurHash]], CityHash, FarmHash
 - Used for hash tables, [[Checksum]]s, [[Sharding]], [[Cache|Caching]]
 A **[[Hash|Cryptographic Hash Function]]** is a special kind of hash function designed to resist attackers.
@@ -38,7 +38,6 @@ A cryptographic hash function should provide:
 
 Important: Hashing ==is not encryption;== Hashing is one-way, and has no decryption key.
 
-
 # Common Cryptographic Hash Functions (and their security status)
 Note that there are still use cases for even non-cryptographic hash functions.
 - [[MD5]]: 128 bit digest, Broken security status. Fast, but collision attacks work.
@@ -55,5 +54,15 @@ Special cryptographic hash-functions that are designed specifically for storing 
 These are intentionally slow (so that they're expensive to brute-force), each using a unique [[Salt]].
 `password + salt + cost parameters -> bycrypt/Argon2 -> password hash`
 
+
+# Non-Cryptographic Hash Functions
+- [[CRC32]]: Common checksum for detecting accidental corruption in files, packets, archives, storage, etc.
+- Adler-32
+- [[MurmurHash]]: Common general-purpose hash for hash tables, partitioning, [[Sharding]], and distributed systems
+- [[xxHash]]: Very fast modern non-crypto hash for large data, cache keys, deduplication, and trusted fingerprints.
+- CityHash
+- [[FarmHash]]: Successor to Google's CityHash. Google fast hash families, often seen in infra/data-processing code.
+- FNV: Simple older hash, useful to recognize in legacy/lightweight code.
+- SipHash: Used when hash-table inputs may be attacker-controlled.
 
 
