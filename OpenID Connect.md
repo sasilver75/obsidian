@@ -2,6 +2,12 @@
 aliases:
   - OIDC
 ---
+References:
+- Video: [An Illustrated Guide to OAuth and OpenID Connect](https://youtu.be/t18YB3xDfXI?si=pTKHLbJTj6OK5u4L) (15 min)
+- Video: [OAuth 2.0 and OpenID Connect (in plain english)](https://www.youtube.com/watch?v=996OiexHze0) (1h)
+- Video: [Everything you Ever Wanted to Know about OAuth and OIDC](https://youtu.be/8aCyojTIW6U?si=Hi7df2PIKhHQjqSe) (30m)
+
+
 A standard login/authentication layer built on top of [[OAuth|OAuth 2.0]]. 
 - Can also be sued to implement [[Single Sign-On]] (SSO).
 

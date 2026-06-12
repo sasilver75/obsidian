@@ -3,6 +3,11 @@ aliases:
   - OAuth 2.0
   - OAuth2
 ---
+References:
+- Video: [An Illustrated Guide to OAuth and OpenID Connect](https://youtu.be/t18YB3xDfXI?si=pTKHLbJTj6OK5u4L) (15min)
+- Video: [OAuth 2.0 and OpenID Connect (in plain english)](https://www.youtube.com/watch?v=996OiexHze0) (1hr)
+- Video: [Everything you Ever Wanted to Know about OAuth and OIDC](https://youtu.be/8aCyojTIW6U?si=Hi7df2PIKhHQjqSe) (30m)
+
 A standard for *delegated* [[Authorization]].
 
 It lets one application access resources on another system without giving that application the user's password.

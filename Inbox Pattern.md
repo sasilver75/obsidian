@@ -102,7 +102,7 @@ The consumer needs to generate thumbnails, extract metadata, run moderation, and
 So in this case, an inbox row (with a status) will represent a claim:
 ```sql
 CREATE TABLE inbox_messages (
-  consumer_name text NOT NULL,
+  consumer_name text NOT NULL, -- The name of the logical consumer group
   message_id text NOT NULL,
 
   status text NOT NULL,
@@ -119,6 +119,8 @@ CREATE TABLE inbox_messages (
 
   CHECK (status IN ('processing', 'processed', 'failed', 'dead_lettered')),
 
+-- This stops another instance of the SAME logical consumer from claiming the same message.
+-- We do it via a consumer group name/id, because one published event might be legitimately consumer by billing/email/analytics/etc. separate logical consumers.
   PRIMARY KEY (consumer_name, message_id)
 );
 ```

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a1c33e69e585bcc2",
+        "id": "ba34eb0c6455a721",
         "type": "tabs",
         "children": [
           {
-            "id": "041b040047d29a92",
+            "id": "da91e28fff066278",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSON Web Token.md",
+                "file": "Global Positioning System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -23,12 +23,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "JSON Web Token"
+              "title": "Global Positioning System"
             }
           }
         ]
@@ -2081,10 +2081,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "041b040047d29a92",
+  "active": "da91e28fff066278",
   "lastOpenFiles": [
-    "Cookie.md",
+    "Inbox Pattern.md",
+    "OAuth.md",
+    "OpenID Connect.md",
     "JSON Web Token.md",
+    "Cookie.md",
     "Networking (Index).md",
     "Intermediate System to Intermediate System.md",
     "Byte-Pair Encoding.md",
@@ -2106,9 +2109,6 @@
     "Locked-Image Tuning.md",
     "Key-Range Lock.md",
     "Predicate Lock.md",
-    "System Design (Index).md",
-    "Read-your-Writes Consistency.md",
-    "Symmetric Key Encryption.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

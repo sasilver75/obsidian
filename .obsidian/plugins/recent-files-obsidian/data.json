@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Global Positioning System",
+      "path": "Global Positioning System.md"
+    },
+    {
+      "basename": "Inbox Pattern",
+      "path": "Inbox Pattern.md"
+    },
+    {
+      "basename": "OAuth",
+      "path": "OAuth.md"
+    },
+    {
+      "basename": "OpenID Connect",
+      "path": "OpenID Connect.md"
+    },
+    {
       "basename": "JSON Web Token",
       "path": "JSON Web Token.md"
     },
@@ -117,10 +133,6 @@
       "path": "WebSockets.md"
     },
     {
-      "basename": "Inbox Pattern",
-      "path": "Inbox Pattern.md"
-    },
-    {
       "basename": "Refresh-Ahead",
       "path": "Refresh-Ahead.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Signature",
       "path": "Signature.md"
-    },
-    {
-      "basename": "Media Access Control",
-      "path": "Media Access Control.md"
-    },
-    {
-      "basename": "Ciphertext",
-      "path": "Ciphertext.md"
-    },
-    {
-      "basename": "Plaintext",
-      "path": "Plaintext.md"
     }
   ],
   "omittedPaths": [],
