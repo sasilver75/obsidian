@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design (Index).md",
+                "file": "Predicate Lock.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,275 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design (Index)"
-            }
-          },
-          {
-            "id": "9f638d84d5544da5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Read-your-Writes Consistency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Read-your-Writes Consistency"
-            }
-          },
-          {
-            "id": "932ad5f5904c1326",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox Pattern.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Inbox Pattern"
-            }
-          },
-          {
-            "id": "0cce38fe51869353",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Key-Range Lock.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Key-Range Lock"
-            }
-          },
-          {
-            "id": "b34548d82fb79bff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WebSockets.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WebSockets"
-            }
-          },
-          {
-            "id": "e2ba5703cade80e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Strong Read-After-Write Consistency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Strong Read-After-Write Consistency"
-            }
-          },
-          {
-            "id": "a185fdbe72653d1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Message Authentication Code.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Message Authentication Code"
-            }
-          },
-          {
-            "id": "c4a6f9ff1bdf29f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AES-GCM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AES-GCM"
-            }
-          },
-          {
-            "id": "d0a3218ef07e39ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Key Exchange.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Key Exchange"
-            }
-          },
-          {
-            "id": "72f7cd59622fae64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asymmetric Key Encryption.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Asymmetric Key Encryption"
-            }
-          },
-          {
-            "id": "08b5cf9f8f6a7b40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Authenticated Encryption with Associated Data.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Authenticated Encryption with Associated Data"
-            }
-          },
-          {
-            "id": "04edf301714f1519",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Symmetric Key Encryption.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Symmetric Key Encryption"
+              "title": "Predicate Lock"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2370,8 +2106,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "932ad5f5904c1326",
+  "active": "83005e1b17d88a63",
   "lastOpenFiles": [
+    "System Design (Index).md",
+    "Predicate Lock.md",
+    "Read-your-Writes Consistency.md",
+    "Symmetric Key Encryption.md",
+    "Authenticated Encryption with Associated Data.md",
+    "Asymmetric Key Encryption.md",
+    "Key Exchange.md",
+    "AES-GCM.md",
+    "Message Authentication Code.md",
+    "Strong Read-After-Write Consistency.md",
+    "WebSockets.md",
+    "Key-Range Lock.md",
+    "Inbox Pattern.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
@@ -2381,27 +2130,15 @@
     "Refresh-Ahead.md",
     "Strong Consistency.md",
     "Phantom Read.md",
-    "Key-Range Lock.md",
     "Consistency.md",
     "Change Data Capture.md",
     "Authorization.md",
     "Relationship-Based Access Control.md",
-    "System Design (Index).md",
-    "WebSockets.md",
-    "Strong Read-After-Write Consistency.md",
-    "Read-your-Writes Consistency.md",
     "Authentication Tag.md",
     "AGENTS.md",
     "Agent.md",
-    "Authenticated Encryption with Associated Data.md",
     "WireGuard.md",
     "Initialization Vector.md",
-    "Nonce.md",
-    "ChaCha20-Poly1305.md",
-    "Symmetric Key Encryption.md",
-    "Salt.md",
-    "Asymmetric Key Encryption.md",
-    "Message Authentication Code.md",
     "_attachments/Pasted image 20260611163444.png",
     "_attachments/Pasted image 20260611163307.png",
     "_attachments/Pasted image 20260611163247.png",
@@ -2416,7 +2153,6 @@
     "A",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
-    "flashcards/networking-index-anki.tsv",
-    "flashcards/logistics-index-anki.tsv"
+    "flashcards/networking-index-anki.tsv"
   ]
 }

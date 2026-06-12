@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Predicate Lock",
+      "path": "Predicate Lock.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Read-your-Writes Consistency",
+      "path": "Read-your-Writes Consistency.md"
+    },
+    {
+      "basename": "Symmetric Key Encryption",
+      "path": "Symmetric Key Encryption.md"
+    },
+    {
+      "basename": "Authenticated Encryption with Associated Data",
+      "path": "Authenticated Encryption with Associated Data.md"
+    },
+    {
+      "basename": "Asymmetric Key Encryption",
+      "path": "Asymmetric Key Encryption.md"
+    },
+    {
+      "basename": "Key Exchange",
+      "path": "Key Exchange.md"
+    },
+    {
+      "basename": "AES-GCM",
+      "path": "AES-GCM.md"
+    },
+    {
+      "basename": "Message Authentication Code",
+      "path": "Message Authentication Code.md"
+    },
+    {
+      "basename": "Strong Read-After-Write Consistency",
+      "path": "Strong Read-After-Write Consistency.md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "Key-Range Lock",
+      "path": "Key-Range Lock.md"
+    },
+    {
       "basename": "Inbox Pattern",
       "path": "Inbox Pattern.md"
     },
@@ -15,10 +63,6 @@
     {
       "basename": "Phantom Read",
       "path": "Phantom Read.md"
-    },
-    {
-      "basename": "Key-Range Lock",
-      "path": "Key-Range Lock.md"
     },
     {
       "basename": "Consistency",
@@ -37,22 +81,6 @@
       "path": "Relationship-Based Access Control.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
-      "basename": "Strong Read-After-Write Consistency",
-      "path": "Strong Read-After-Write Consistency.md"
-    },
-    {
-      "basename": "Read-your-Writes Consistency",
-      "path": "Read-your-Writes Consistency.md"
-    },
-    {
       "basename": "Authentication Tag",
       "path": "Authentication Tag.md"
     },
@@ -63,10 +91,6 @@
     {
       "basename": "Agent",
       "path": "Agent.md"
-    },
-    {
-      "basename": "Authenticated Encryption with Associated Data",
-      "path": "Authenticated Encryption with Associated Data.md"
     },
     {
       "basename": "WireGuard",
@@ -85,24 +109,8 @@
       "path": "ChaCha20-Poly1305.md"
     },
     {
-      "basename": "Symmetric Key Encryption",
-      "path": "Symmetric Key Encryption.md"
-    },
-    {
       "basename": "Salt",
       "path": "Salt.md"
-    },
-    {
-      "basename": "Asymmetric Key Encryption",
-      "path": "Asymmetric Key Encryption.md"
-    },
-    {
-      "basename": "Message Authentication Code",
-      "path": "Message Authentication Code.md"
-    },
-    {
-      "basename": "AES-GCM",
-      "path": "AES-GCM.md"
     },
     {
       "basename": "MD5",
@@ -119,10 +127,6 @@
     {
       "basename": "Hash",
       "path": "Hash.md"
-    },
-    {
-      "basename": "Key Exchange",
-      "path": "Key Exchange.md"
     },
     {
       "basename": "Signature",
@@ -195,10 +199,6 @@
     {
       "basename": "Subnet",
       "path": "Subnet.md"
-    },
-    {
-      "basename": "Internet Protocol",
-      "path": "Internet Protocol.md"
     }
   ],
   "omittedPaths": [],
