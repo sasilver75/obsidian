@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "481416ed71fcdedc",
+        "id": "a1c33e69e585bcc2",
         "type": "tabs",
         "children": [
           {
-            "id": "ece4a936231c6980",
+            "id": "041b040047d29a92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ChaCha20-Poly1305.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ChaCha20-Poly1305"
-            }
-          },
-          {
-            "id": "83005e1b17d88a63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Predicate Lock.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Predicate Lock"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rev",
+                "query": "tamper",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2106,39 +2067,39 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "83005e1b17d88a63",
+  "active": "041b040047d29a92",
   "lastOpenFiles": [
-    "System Design (Index).md",
+    "Border Gateway Protocol.md",
+    "Classless Inter-Domain Routing.md",
+    "Port.md",
+    "Authentication Tag.md",
+    "Hash-based Message Authentication Code.md",
+    "ChaCha20-Poly1305.md",
+    "HMAC-based Key Derivation Function.md",
+    "Cryptography and Security (Index).md",
+    "HMAC-Based Extract-and-Expand Key Derivation Function.md",
+    "Transport Layer Security.md",
+    "Message Authentication Code.md",
+    "Authentication.md",
+    "Authenticated Encryption with Associated Data.md",
+    "Uniqueness Constraint.md",
+    "Locked-Image Tuning.md",
+    "Key-Range Lock.md",
     "Predicate Lock.md",
+    "System Design (Index).md",
     "Read-your-Writes Consistency.md",
     "Symmetric Key Encryption.md",
-    "Authenticated Encryption with Associated Data.md",
     "Asymmetric Key Encryption.md",
     "Key Exchange.md",
     "AES-GCM.md",
-    "Message Authentication Code.md",
     "Strong Read-After-Write Consistency.md",
     "WebSockets.md",
-    "Key-Range Lock.md",
     "Inbox Pattern.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
     "explainers/Inbox Pattern",
-    "explainers/AGENTS.md",
     "explainers",
-    "Refresh-Ahead.md",
-    "Strong Consistency.md",
-    "Phantom Read.md",
-    "Consistency.md",
-    "Change Data Capture.md",
-    "Authorization.md",
-    "Relationship-Based Access Control.md",
-    "Authentication Tag.md",
-    "AGENTS.md",
-    "Agent.md",
-    "WireGuard.md",
-    "Initialization Vector.md",
     "_attachments/Pasted image 20260611163444.png",
     "_attachments/Pasted image 20260611163307.png",
     "_attachments/Pasted image 20260611163247.png",

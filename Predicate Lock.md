@@ -32,7 +32,14 @@ The database records that Transaction A depends on the predicate `status = 'pend
 If Transaction B tries to insert or update a row so that the row satisfies `stauts= 'pending'`, that write conflicts with Transaction A's Predicate Lock.
 
 Q: This seems like it would really really limit concurrency, if a read is blocking writes!
-A: Yes, 
+A: Yes, that's right. Pessimistic Predicate Locking can heavily limit concurrency, especially if the predicate is broad, unindexed, or long-lived. This is why *==real databases typically AVOID pure arbitrary predicate locks!==* Instead, they use narrower or more optimistic techniques:
+- [[Key-Range Lock]]s: Lock a range of ordered index key values, not an arbitrary logical condition.
+- [[Multiversion Concurrency Control|MVCC]] Snapshots: Let readers and writers proceed without blocking eachother, but provide weaker guarantees unless combined with serializable checks.
+- Serializable conflict detection: Allow concurrency, then abort a transaction if the combined read/write pattern would not be serializable.
+- Coarser fallback locks: If the DB can't represent a predicate precisely, it may lock a page, relation, or table, which is safer but worse for concurrency.
+
+
+
 
 
 

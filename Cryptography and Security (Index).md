@@ -46,7 +46,7 @@ Terms
 - [[Session Key]]: A temporary symmetric key used to protect one communication session or transaction. Use session keys to limit damage from compromise, but derive and erase them correctly.
 - [[Key Pair]]: A matched public key and private key used in asymmetric cryptography. Share the public key freely, but protect the private key because it represents identity, decryption capability, or signing authority.
 - [[Key Derivation Function]] (KDF): A function that derives cryptographic keys from shared secrets, passwords, or other key material. Use KDFs to turn raw secrets into purpose-specific keys, but choose password-specific KDFs for human passwords.
-- [[HMAC-Based Extract-and-Expand Key Derivation Function]] (HKDF): A KDF that extracts strong key material and expands it into one or more derived keys. Use it after key exchange or for deriving multiple protocol keys, but do not use it as a password hash.
+- [[HMAC-based Key Derivation Function]] (HKDF): A KDF that extracts strong key material and expands it into one or more derived keys. Use it after key exchange or for deriving multiple protocol keys, but do not use it as a password hash.
 - [[Argon2]]: A memory-hard password hashing function designed to resist brute-force attacks. Use Argon2id for new password storage when available, tuning memory and time costs to your environment.
 - [[bcrypt]]: A password hashing function that uses salting and configurable work cost. Use it for broad compatibility, but be aware of password length limitations and tune the cost over time.
 - [[scrypt]]: A memory-hard password-based key derivation function designed to make large-scale cracking expensive. Use it when memory hardness is useful and Argon2 is unavailable, but tune its parameters carefully.

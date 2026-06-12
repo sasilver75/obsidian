@@ -1,4 +1,4 @@
-An [[Authenticated Encryption with Associated Data|AEAD]] construction that is a modern alternative to [[AES-GCM]], especially attractive when speed, software performance, and mobile compatibility matter.
+aAn [[Authenticated Encryption with Associated Data|AEAD]] construction that is a modern alternative to [[AES-GCM]], especially attractive when speed, software performance, and mobile compatibility matter.
 
 [[ChaCha20]]: A symmetric stream cipher. Encrypts data by generating a pseudorandom keystream and XORing it with the plaintext. Provides confidentiality
 ```
