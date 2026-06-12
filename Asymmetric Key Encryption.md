@@ -3,8 +3,78 @@ aliases:
   - Public Key
   - Private Key
   - Asymmetric Encryption
+  - Asymmetric Key Cryptography
+  - Asymmetric Cryptography
 ---
+Uses a key pair (Public key, Private key) for encryption and decryption, unlike [[Symmetric Key Encryption]].
 
+Uses two mathematically related keys that are generated together:
+- Public Key 
+	- Used to encrypt data. (Or, in the case of [[Signature]]s, used to *verify* a signature)
+	- Safe to distribute, can be placed in [[Certificate]]s, sent over the network, published in [[Domain Name Service|DNS]], or embedded in software.
+- Private Key
+	- Used to decrypt data. (Or, in the case of [[Cryptographic Signature|Signature]]s, used to * * signatures)
+	- Must remain secret; anyone who has access can impersonate the owner or decrypt data intended for them (depending on how the key is used).
+
+Simplified Flow:
+```
+Bob generates:
+public key + private key
+
+Bob shares public key with Alice
+Bob keeps private key secret
+
+Alice:
+plaintext + Bob's public key -> ciphertext
+
+Bob:
+ciphertext + bob's private key -> plaintext
+```
+
+# Uses of Asymmetric Cryptography
+1. Public-Key Encryption: Used to send confidential data to someone.
+```
+Encrypt with the recipient's public key
+Decrypt with the recipient's private key
+```
+2. Digital Signatures: Used to prove who created or approved data.
+```
+Sign with the sender's private key
+Verify with the sender's public key
+```
+3.  Key Agreement: Used to establish a shared [[Symmetric Key Encryption|Symmetric Key]] over an insecure network (e.g. [[Key Exchange|Diffie-Helman]]/[[Key Exchange|Elliptic Curve Diffie-Hellman]]])
+```
+Alice: Alice's private key + Bob's public key
+Bob: Bob's private key + Alice's public key
+
+Both are able to derive the same shared secret, a symmetric session key, without transmitting it!
+```
+
+# Use with [[Symmetric Key Encryption]]
+- In practice, systems often use hybrid encryption: Asymmetric cryptography is used to first solve identity and key exchange, then symmetric encryption is used for the actual data.
+
+In a Typical [[Transport Layer Security|TLS]]-style flow:
+1. Client connects to server
+2. Server proves identity using a [[Certificate]] and [[Asymmetric Key Encryption|Asymmetric Key Cryptography]] (Public/Private)
+3. Client and server perform a key agreement
+4. Both derive the same [[Symmetric Key Encryption|Symmetric Key]] for their session
+5. All further traffic is encrypted using fast, symmetric encryption.
+This is how [[HTTPS]] avoids using slower asymmetric encryption for *every message* during a long TLS session in which many HTTP messages are exchanged.
+
+Typically:
+- Use [[Symmetric Key Encryption|Symmetric Encryption]] for encrypting actual data (fast).
+- Use asymmetric cryptography to:
+	- Exchange symmetric keys  (or the data used to generate them)
+	- Verify identity
+	- Create digital signatures
+	- Establish secure sessions
+- Modern secure systems usually combine both: Symmetric encryption provides speed, while asymmetric cryptography provides scalable trust and key establishment.
+
+
+
+
+
+__________ 
 
 A Key pair is two mathematically linked numbers. What one key encrypts, only the other key can decrypt.
 

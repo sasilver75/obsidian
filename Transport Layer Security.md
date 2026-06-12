@@ -3,6 +3,9 @@ aliases:
   - TLS
   - TLS Handshake
 ---
+Encrypts the connection between two devices so that no one in the middle can read or change the data.
+- [[Transport Layer Security|TLS]] is the modern version of [[
+
 The protocol that gives [[HTTPS]] its security. It does three main things:
 1. Authenticates the server
 2. Negotiates encryption keys

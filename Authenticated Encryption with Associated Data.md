@@ -1,11 +1,4 @@
 ---
 aliases:
-  - UDP
+  - AEAD
 ---
-
-
-
-
-
-
-

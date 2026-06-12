@@ -1,16 +1,124 @@
 {
   "recentFiles": [
     {
-      "basename": "Sharding",
-      "path": "Sharding.md"
+      "basename": "Hash",
+      "path": "Hash.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
+      "basename": "MD5",
+      "path": "MD5.md"
     },
     {
-      "basename": "Cross-Site Scripting",
-      "path": "Cross-Site Scripting.md"
+      "basename": "Asymmetric Key Encryption",
+      "path": "Asymmetric Key Encryption.md"
+    },
+    {
+      "basename": "Key Exchange",
+      "path": "Key Exchange.md"
+    },
+    {
+      "basename": "Signature",
+      "path": "Signature.md"
+    },
+    {
+      "basename": "Cryptography and Security (Index)",
+      "path": "Cryptography and Security (Index).md"
+    },
+    {
+      "basename": "Nonce",
+      "path": "Nonce.md"
+    },
+    {
+      "basename": "Symmetric Key Encryption",
+      "path": "Symmetric Key Encryption.md"
+    },
+    {
+      "basename": "Authenticated Encryption with Associated Data",
+      "path": "Authenticated Encryption with Associated Data.md"
+    },
+    {
+      "basename": "Media Access Control",
+      "path": "Media Access Control.md"
+    },
+    {
+      "basename": "Ciphertext",
+      "path": "Ciphertext.md"
+    },
+    {
+      "basename": "Plaintext",
+      "path": "Plaintext.md"
+    },
+    {
+      "basename": "Consistent Hashing",
+      "path": "Consistent Hashing.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "HTTP.md"
+    },
+    {
+      "basename": "Virtual Private Network",
+      "path": "Virtual Private Network.md"
+    },
+    {
+      "basename": "Secure Socket Layer",
+      "path": "Secure Socket Layer.md"
+    },
+    {
+      "basename": "Transport Layer Security",
+      "path": "Transport Layer Security.md"
+    },
+    {
+      "basename": "Network Firewall",
+      "path": "Network Firewall.md"
+    },
+    {
+      "basename": "Port",
+      "path": "Port.md"
+    },
+    {
+      "basename": "User Datagram Protocol",
+      "path": "User Datagram Protocol.md"
+    },
+    {
+      "basename": "Transport Control Protocol",
+      "path": "Transport Control Protocol.md"
+    },
+    {
+      "basename": "Internet Control Message Protocol",
+      "path": "Internet Control Message Protocol.md"
+    },
+    {
+      "basename": "Border Gateway Protocol",
+      "path": "Border Gateway Protocol.md"
+    },
+    {
+      "basename": "Routing",
+      "path": "Routing.md"
+    },
+    {
+      "basename": "Open Shortest Path First",
+      "path": "Open Shortest Path First.md"
+    },
+    {
+      "basename": "Subnet",
+      "path": "Subnet.md"
+    },
+    {
+      "basename": "Internet Protocol",
+      "path": "Internet Protocol.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Switch.md"
+    },
+    {
+      "basename": "Ethernet",
+      "path": "Ethernet.md"
+    },
+    {
+      "basename": "Tokenization",
+      "path": "Tokenization.md"
     },
     {
       "basename": "Token",
@@ -33,8 +141,16 @@
       "path": "CSRF Token.md"
     },
     {
-      "basename": "Tokenization",
-      "path": "Tokenization.md"
+      "basename": "Sharding",
+      "path": "Sharding.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Cross-Site Scripting",
+      "path": "Cross-Site Scripting.md"
     },
     {
       "basename": "ID Token",
@@ -83,122 +199,6 @@
     {
       "basename": "One-Time Password",
       "path": "One-Time Password.md"
-    },
-    {
-      "basename": "Agent Harness",
-      "path": "Agent Harness.md"
-    },
-    {
-      "basename": "Multi-Factor Authentication",
-      "path": "Multi-Factor Authentication.md"
-    },
-    {
-      "basename": "API Key Authentication",
-      "path": "API Key Authentication.md"
-    },
-    {
-      "basename": "Principal",
-      "path": "Principal.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "Hexagonal Architecture",
-      "path": "Hexagonal Architecture.md"
-    },
-    {
-      "basename": "Idempotency",
-      "path": "Idempotency.md"
-    },
-    {
-      "basename": "Active-Active",
-      "path": "Active-Active.md"
-    },
-    {
-      "basename": "Modern Frontend Development",
-      "path": "Modern Frontend Development.md"
-    },
-    {
-      "basename": "Zod",
-      "path": "Zod.md"
-    },
-    {
-      "basename": "SQLAlchemy",
-      "path": "SQLAlchemy.md"
-    },
-    {
-      "basename": "Shapely",
-      "path": "Shapely.md"
-    },
-    {
-      "basename": "Multiversion Concurrency Control",
-      "path": "Multiversion Concurrency Control.md"
-    },
-    {
-      "basename": "ImageNet",
-      "path": "ImageNet.md"
-    },
-    {
-      "basename": "Pagination",
-      "path": "Pagination.md"
-    },
-    {
-      "basename": "Tail Latency",
-      "path": "Tail Latency.md"
-    },
-    {
-      "basename": "Feature Flag",
-      "path": "Feature Flag.md"
-    },
-    {
-      "basename": "HTTP 2",
-      "path": "HTTP 2.md"
-    },
-    {
-      "basename": "SpatioTemporal Asset Catalog",
-      "path": "SpatioTemporal Asset Catalog.md"
-    },
-    {
-      "basename": "In-Process Cache",
-      "path": "In-Process Cache.md"
-    },
-    {
-      "basename": "Denormalization",
-      "path": "Denormalization.md"
-    },
-    {
-      "basename": "N + 1 Query Problem",
-      "path": "N + 1 Query Problem.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
-    },
-    {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
-    },
-    {
-      "basename": "Release",
-      "path": "Release.md"
-    },
-    {
-      "basename": "Distributed Cache",
-      "path": "Distributed Cache.md"
-    },
-    {
-      "basename": "Load Shedding",
-      "path": "Load Shedding.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "Cookie.md"
-    },
-    {
-      "basename": "Deployment",
-      "path": "Deployment.md"
     }
   ],
   "omittedPaths": [],

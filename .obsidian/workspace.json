@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tokenization.md",
+                "file": "Symmetric Key Encryption.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tokenization"
+              "title": "Symmetric Key Encryption"
             }
           },
           {
-            "id": "a5585adf36aec704",
+            "id": "20d881bf2ef24b76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Token.md",
+                "file": "Asymmetric Key Encryption.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Token"
+              "title": "Asymmetric Key Encryption"
+            }
+          },
+          {
+            "id": "696b74369711b62f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nonce.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nonce"
+            }
+          },
+          {
+            "id": "4f874aa630d4a2bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptography and Security (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cryptography and Security (Index)"
             }
           },
           {
@@ -61,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sharding.md",
+                "file": "Hash.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sharding"
+              "title": "Hash"
             }
           },
           {
-            "id": "5a7e4876f1718259",
+            "id": "b37756db0b01cc00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bearer Token.md",
+                "file": "MD5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bearer Token"
+              "title": "MD5"
             }
           },
           {
-            "id": "546da0aeaff0a393",
+            "id": "d0a3218ef07e39ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encryption.md",
+                "file": "Key Exchange.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Encryption"
+              "title": "Key Exchange"
             }
           },
           {
-            "id": "7b3d7f73d080e985",
+            "id": "72f7cd59622fae64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Opaque Token.md",
+                "file": "Asymmetric Key Encryption.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Opaque Token"
+              "title": "Asymmetric Key Encryption"
             }
           },
           {
-            "id": "7b3832d96100d812",
+            "id": "08b5cf9f8f6a7b40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSRF Token.md",
+                "file": "Authenticated Encryption with Associated Data.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +220,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CSRF Token"
+              "title": "Authenticated Encryption with Associated Data"
+            }
+          },
+          {
+            "id": "04edf301714f1519",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Symmetric Key Encryption.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Symmetric Key Encryption"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2228,44 +2300,44 @@
   },
   "active": "8fe0bc03a3c1fd29",
   "lastOpenFiles": [
-    "System Design (Index).md",
+    "MD5.md",
+    "Hash.md",
+    "Asymmetric Key Encryption.md",
+    "Key Exchange.md",
+    "Signature.md",
+    "Cryptography and Security (Index).md",
+    "Nonce.md",
+    "Symmetric Key Encryption.md",
+    "Authenticated Encryption with Associated Data.md",
+    "Media Access Control.md",
+    "Ciphertext.md",
+    "Plaintext.md",
+    "Consistent Hashing.md",
+    "HTTP.md",
+    "Virtual Private Network.md",
+    "Secure Socket Layer.md",
+    "Transport Layer Security.md",
+    "Network Firewall.md",
+    "Port.md",
+    "User Datagram Protocol.md",
+    "_attachments/Pasted image 20260611163444.png",
+    "Transport Control Protocol.md",
+    "Internet Control Message Protocol.md",
+    "Border Gateway Protocol.md",
+    "_attachments/Pasted image 20260611163307.png",
+    "Routing.md",
+    "Open Shortest Path First.md",
+    "_attachments/Pasted image 20260611163247.png",
+    "Subnet.md",
     "_attachments/Pasted image 20260611145517.png",
-    "Cross-Site Scripting.md",
-    "Token.md",
-    "Bearer Token.md",
-    "Encryption.md",
-    "Opaque Token.md",
-    "CSRF Token.md",
-    "Tokenization.md",
-    "ID Token.md",
-    "JSON Web Token.md",
-    "Access Token.md",
-    "Authentication.md",
-    "OAuth.md",
-    "Authorization.md",
-    "Access Control List.md",
-    "Network Access Control List.md",
-    "Single Sign-On.md",
     "_attachments/Pasted image 20260611133608.png",
     "_attachments/Pasted image 20260611133334.png",
-    "Sun-Synchronous Orbit.md",
-    "OpenID Connect.md",
     "_attachments/Pasted image 20260611132947.png",
     "_attachments/Pasted image 20260611132321.png",
-    "One-Time Password.md",
-    "Agent Harness.md",
     "_attachments/Pasted image 20260611131229.png",
-    "Multi-Factor Authentication.md",
-    "API Key Authentication.md",
-    "Principal.md",
-    "WGS84.md",
-    "Hexagonal Architecture.md",
     "_attachments/Pasted image 20260609195202.png",
     "flashcards/system-design-questions-anki.tsv",
     "A",
-    "_attachments/Pasted image 20260608102433.png",
-    "_attachments/Pasted image 20260608101609.png",
-    "_attachments/Pasted image 20260608101133.png",
     "flashcards/high-priority-system-design-anki.tsv",
     "Blue",
     "flashcards/networking-index-anki.tsv",

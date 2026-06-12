@@ -13,7 +13,7 @@ Gateways handle:
 - ==Application of Middleware== (might require use of external services)
 	- Authenticate requests using [[JSON Web Token|JWT]] tokens.
 	- [[Rate Limiting]] to prevent abuse
-	- Terminating [[SSL]] connections
+	- Terminating [[Secure Socket Layer]] connections
 	- [[Logging]] and monitoring traffic
 	- [[Cache]]ing of Responses
 		- Full response caching, or partial caching of specific parts of responses that change infrequently.

@@ -30,7 +30,7 @@ And the same thing would happen if we were to remove a database!
 ![[Pasted image 20250519175935.png]]
 Only events that hashed to a spot between 0-25 need to be moved (and they need to be moved to database 3)
 
-But there's a little problem, with that right? In this picture, we're saying that Database 3 now has 2x the data of DB1 and DB4! So we'd like to make sure that the data is more evenly distributed when a database exits the ring...
+
 
 The solution is something called **VIRTUAL NODES**!
 - Instead of putting every database at one position in the ring, we put it at multiple!

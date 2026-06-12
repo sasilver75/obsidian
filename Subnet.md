@@ -1,4 +1,6 @@
 
+Defines the size of your local network, telling you how big or small the network is.
+
 
 > Think of it like a hospital with different floors/wings for different types of patients; Maternity ward on one flor, Security on another. We do the same with our network; Our public-facing frontend servers might go in Subnet 1 with IP address range 10.0.1.x, our Application servers might go in Subnet 2 with [[Internet Protocol|IP Address]] 10.0.2.x, and our Database servers might go in subnet 3 with 10.0.3.x. 
 > If they're in separate subnets, how does the Application server talk to the Database? Through [[Routing]]! Figures out how to get from Point A to Point B.

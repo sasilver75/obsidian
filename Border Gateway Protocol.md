@@ -13,3 +13,12 @@ Example:
 Other routers uses these announcements to decide where to send packets.
 
 On the public internet, BGP is the major protocol that actually connects different networks, such as ISPs, cloud providers, CDNs, and large companies.
+
+
+
+
+![[Pasted image 20260611163307.png]]
+Large companies like internet service providers use this to exchange routing information with eachother.
+
+
+
