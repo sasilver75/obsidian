@@ -25,7 +25,7 @@ So the request path, at runtime, from `order-service` to `payments-service`, is 
 - Proxy/LB/[[Service Mesh]]: App calls a stable name/local proxy; proxy keeps endpoint list fresh
 
 
-# Server-Side Discovery
+# (1/2) Server-Side Discovery
 - When the caller sends requests to a stable endpoint, and some server-side component chooses the actual service instance.
 - In this case, the client themselves does *not* need to know every healthy backend instance.
 If `orders-service` -> `payments.internal`
@@ -61,7 +61,7 @@ Examples:
 - Internal [[Domain Name Service|DNS]] pointing to a load balancer
 - [[Envoy]]/[[HAProxy]] fronting a service pool
 
-# Client-Side Discovery
+# (2/2) Client-Side Discovery
 - The calling service is responsible for finding and choosing the target service instance.
 - Instead of calling a stable load balancer and letting it pic an instance, the client gets a list of healthy examples and selects one itself.
 ```

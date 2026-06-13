@@ -3,11 +3,160 @@ aliases:
   - Object Storage
 ---
 Highly scalable and replicated ways of storing immutable file data.
+- "BLOB" = "Binary Large Object"
 
 Pros: Typically cheaper for storing static data than using a distributed file system.
-Cons: to do processing on the file data, we must first load it into a distributed file system, then run a batch job.
+Cons: To do processing on the file data, we must first load it into a distributed file system, then run a batch job. ((?))
 
-e.g. [[Amazon S3]]
+
+### How do authorized reads from Object Storage work, in an application?
+
+Typically, it's one of:
+1. Streaming the object through your application
+2. Issuing a short-lived signed URL.
+3. Issuing a short-lived CDN signed URL or signed cookie.
+4. Using cloud-native identity and access management for trusted client.
+
+The common default for web applications is: private object storage + application authorization check + short-lived signed download URL.
+
+For most web applications:
+1. Store files in private object storage
+2. Store file metadata and ownership in your application database
+3. Have user request downloads from your application by file id
+4. Authenticate the user
+5. Authorize access against your database
+6. Generate a short-lived signed URL
+7. Redirect the user's browser to that signed URL
+If you *really need strict control,* you can proxy the serving of content through your actual application.
+If you *really need high-scale delivery,* you can use a CDN + signed URLs or signed cookies.
+
+
+Otherwise, patterns include:
+##### (1/4) Streaming the object through your application  ((Atypical))
+- The client asks your application for the file, your application authorizes them, retrieves the object bytes itself from the application, and returns them to the client.
+```
+Browser -> App: GET /downloads/invoice-123
+App: authenticate user
+App: authorize user for invoice-123
+App -> Object Storage: GET private object
+Object Storage -> App: object bytes
+App -> Browser: object bytes
+```
+- In this model, the browser never talks to directly to object storage. This is useful when you need very tight control:
+	- Hiding object keys completely
+	- Check authorization continuously
+	- Log every byte served through your application.
+	- Apply transformations/watermarking/virus scanning/auditing.
+	- Revoke access immediately.
+- The downside is your application now incurs the network bandwidth + memory burden, which, for large files or high traffic, can be expensive and less scalable.
+
+##### (2/4) Issuing a short-lived signed URL. ((==Most Common==))
+- The client first asks your application for permission to download the file, and after authn/authz, your application fetches and returns a [[Presigned URL]], which the client can use to directly download the object bytes.
+```
+Browser -> App: I want file invoice-123.pdf
+App: authenticate user
+App: authorize user
+App -> Browser: signed URL valid for 60 seconds
+Browser -> Object Storage: GET signed URL
+Object Storage: validate signature and expiration
+Object Storage -> Browser: object bytes
+```
+- The [[Presigned URL]] contains authorization data, usually including:
+	- The object key
+	- The allowed HTTP method (e.g. `GET`)
+	- An expiration timestamp
+	- A cryptographic signature
+	- Sometimes response headers such as `Content-Disposition`
+- The Presigned Url is a *bearer capability:* whoever possesses the URL can use it until it expires. The object store doesn't ask "Is Alice allowed to download `invoice_123`?" Instead, it asks: "Is this signed URL unexpired and valid, according to a trusted credential."
+```
+https://example-private-bucket.s3.us-east-1.amazonaws.com/reports/2026/invoice-123.pdf
+	?X-Amz-Algorithm=AWS4-HMAC-SHA256
+	&X-Amz-Credential=ASIAIOSFODNN7EXAMPLE%2F20260613%2Fus-east-1%2Fs3%2Faws4_request
+	&X-Amz-Date=20260613T184512Z
+	&X-Amz-Expires=300
+	&X-Amz-SignedHeaders=host
+	&X-Amz-Security-Token=IQoJb3JpZ2luX2VjE...very-long-url-encoded-session-token...
+	&response-content-disposition=attachment%3B%20filename%3D%22invoice-123.pdf%22
+	&X-Amz-Signature=4f3b7a9c2e1d0f8a...64-hex-characters...
+```
+Above:
+- See that it uses AWS Signature Version 4 with [[Hash-based Message Authentication Code|HMAC]] using [[SHA-256]]
+- See that we have an access key + a credential scope (access-key-id/date/region/service/aws4_request). The access key ID is visible, but the secret access key is not in the URL.
+- We have the UTC timestamp when the URL was signed.
+- We have an expiry, showing that it expires 300 seconds (5 minutes) after the signing date.
+- We have inclusion of HTTP headers in the signature; for download, usually only `host` is signed
+- The security token appears when the signer used temporary credentials, like an [[Amazon Security Token Service|AWS Security Token Service]] assumed role.
+- The response content disposition tells S3 to return a `Content-Disposition` response header, so the browser downloads file with a friendly filename.
+- The signature at the end is the actual cryptographic proof. After user request of the URL, S3 will recompute the signature from the HTTP method, object path, query parameters, signed headers, timestamp, region, and credential scope. If anything signed changes, the signature no longer matches.
+
+> A presigned URL is a normal object URL plus a temporary, URL-encoded proof that someone with valid storage credentials authorized this exact request.
+
+##### (3/4) Issuing a short-lived [[Content Delivery Network|CDN]] signed URL or signed cookie. ((Relevant for giving access to many files, or for very large files where you want to limit travel))
+For large-scale downloads, a content delivery network can sit in front of private object storage.
+```
+Browser -> App: request download
+App: authenticate and authorize user
+App -> Browser: CDN signed URL or signed cookie
+Browser -> CDN: request file
+CDN -> Object Storage: fetch private object if cache miss
+CDN -> Browser: file bytes
+```
+- This is common for: Paid video content, software downloads, large media files, static assets requiring authorization, global users where latency matters.
+- There are two common CDN variants:
+	- Signed URL: Best for one specific file download
+	- Signed cookie: Best for access to many files under a path, such as a video playlist and its segment files.
+- More on signed cookies:
+	- A video streaming service might need signed cookie because a single video might requier many segment requests. Signing each segment URL separately is possible, but signed cookies are often simpler.
+```
+/course-7/video/segment-001.ts
+/course-7/video/segment-002.ts
+/course-7/video/segment-003.ts
+```
+For [[Amazon CloudFront]], the signed cookie might look like:
+```http
+HTTP/1.1 204 No Content
+Set-Cookie: CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9tZWRpYS5leGFtcGxlLmNvbS9jb3Vyc2VzL2NvdXJzZS03Lyo...; Domain=media.example.com; Path=/courses/course-7/; Secure; HttpOnly; SameSite=Lax; Max-Age=300
+Set-Cookie: CloudFront-Signature=GJX9L6ZC1Wq9X7...long-url-safe-signature...M6RyQ__; Domain=media.example.com; Path=/courses/course-7/; Secure; HttpOnly; SameSite=Lax; Max-Age=300
+Set-Cookie: CloudFront-Key-Pair-Id=K2JCJMDEHXQW5F; Domain=media.example.com; Path=/courses/course-7/; Secure; HttpOnly; SameSite=Lax; Max-Age=300
+```
+Above, the Cloudfront-Signature is a cryptographic signature over the policy, so that CloudFront can verify that the policy was signed by a trusted private key.
+Above, the Cloudfront-Key-Pair tells CloudFront which public key or key group to use when verifying the signature.
+Above, the CloudFront-Policy has the [[Base64]]-encoded policy document, which conceptually looks like:
+```json
+{
+  "Statement": [
+    {
+      "Resource": "https://media.example.com/courses/course-7/*",
+      "Condition": {
+        "DateLessThan": {
+          "AWS:EpochTime": 1781373600
+        }
+      }
+    }
+  ]
+}
+```
+Above, this just says the allow access to resources under this path until a certain timestamp.
+
+Then the browser can request matching CDN URLs normally, and the cookies are sent along with it:
+```http
+GET /courses/course-7/video/segment-001.ts HTTP/1.1
+Host: media.example.com
+Cookie: CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7...;
+        CloudFront-Signature=GJX9L6ZC1Wq9X7...;
+        CloudFront-Key-Pair-Id=K2JCJMDEHXQW5F
+```
+
+##### (4/4) Using cloud-native identity and access management for trusted client.
+- Sometimes the client itself has a cloud identity or temporary cloud credential:
+```
+Client -> Identity Provider: authenticate
+Identity Provider -> Client: temporary cloud credential
+Client -> Object Storage: GET object using credential
+```
+- This is most common for internal tools, server-to-server systems, mobile apps with carefully-scoped temporary credentials, and enterprise environments using federated identity. 
+- This is less common for ordinary public web applications, because exposing cloud-style credentials to browsers is easy to get wrong.
+
 
 
 

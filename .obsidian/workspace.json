@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Read Phenomenon.md",
+                "file": "Blob Storage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Read Phenomenon"
+              "title": "Blob Storage"
             }
           },
           {
-            "id": "9885b7afa9dd2951",
+            "id": "1c6415236c4a09eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hot Spot.md",
+                "file": "Amazon Lambda.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hot Spot"
+              "title": "Amazon Lambda"
+            }
+          },
+          {
+            "id": "72659eceb484a260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Data Firehose.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Data Firehose"
+            }
+          },
+          {
+            "id": "610c5f9b341c86a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Resource Name.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Resource Name"
+            }
+          },
+          {
+            "id": "d71a59db22e1454f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pgmq.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "pgmq"
             }
           }
         ],
@@ -2106,34 +2178,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9885b7afa9dd2951",
+  "active": "1c6415236c4a09eb",
   "lastOpenFiles": [
-    "In-Process Cache.md",
+    "Amazon SNS.md",
+    "Amazon Data Firehose.md",
+    "Amazon Resource Name.md",
+    "Amazon SQS.md",
+    "PostgreSQL.md",
+    "pgmq.md",
+    "Service Discovery.md",
+    "Refresh-Ahead.md",
+    "Write Skew.md",
+    "Read Skew.md",
+    "Untitled 1.md",
+    "Compression.md",
+    "Delivery.md",
+    "Blob Storage.md",
+    "Hexadecimal.md",
+    "SHA-256.md",
+    "Amazon Security Token Service.md",
+    "International System of Units.md",
+    "Electronics (Index).md",
+    "Switch.md",
     "Read Phenomenon.md",
     "Hot Spot.md",
-    "Amazon SNS.md",
+    "In-Process Cache.md",
     "Consistent Prefix Consistency.md",
-    "Read Skew.md",
     "Sticky Session.md",
     "Pagination.md",
-    "Session.md",
-    "Refresh Token.md",
-    "Refresh-Ahead.md",
-    "Materialized View.md",
-    "Global Positioning System.md",
-    "Inbox Pattern.md",
-    "OAuth.md",
-    "OpenID Connect.md",
-    "JSON Web Token.md",
-    "Cookie.md",
-    "Networking (Index).md",
-    "Intermediate System to Intermediate System.md",
-    "Byte-Pair Encoding.md",
-    "Out-of-Vocabulary Token.md",
-    "Border Gateway Protocol.md",
-    "Classless Inter-Domain Routing.md",
-    "Port.md",
-    "Authentication Tag.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

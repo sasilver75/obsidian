@@ -35,6 +35,70 @@ Event happens                                            �
       → Lambda (real-time dashboard update)
 ```
 
+How SNS actually delivers to a subscriber depends on the specific subscription protocol. Each subscription to an SNS topic says: "When a message is published to this topic, deliver it to this endpoint using this protocol."
+
+More mechanically, an SNS subscription has:
+1. A topic [[Amazon Resource Name|ARN]], meaning the SNS topic being subscribed to.
+2. A protocol 
+	1. `http`: endpoint value is a public `http://` URL, sends a `POST`
+	2. `https`: endpoint is a public `https://` URL, sends a `POST`
+	3. `lambda`: endpoint is a Lambda function ARN, invokes the Lambda function
+	4. `sqs`: endpoint is a SQS ARN, sends a message to the queue
+	5. `email`: endpoint is an email address, sends a text email
+	6. `email-json`: endpoint is an email address, sends a JSON-formatted email
+	7. `sms`: endpoint is a phone number, sends a SMS message
+	8. `application`: endpoint is a mobile platform endpoint ARN, sends a mobile push notification
+	9. `firehose`: endpoint is a [[Amazon Data Firehose|Data Firehose]] ARN, writes to a Firehose stream
+3. An endpoint, such as a SQS queue [[Amazon Resource Name|ARN]], a Lambda function [[Amazon Resource Name|ARN]], URL, email address, or phone number.
+4. Optional deliver behavior, such as filter policies, retry behavior, raw message delivery, or [[Dead Letter Queue]] sessions.
+
+==Importantly, not any arbitrary thing can be a subscriber!== SNS supports a fixed set of subscription protocols and endpoint types. If you want an unsupported system to receive SNS messages, the usual pattern is to put something supported in between, such as a Lambda function or SQS queue.
+
+Registering SNS subscription for Lambda:
+```bash
+aws sns subscribe \
+  --topic-arn arn:aws:sns:us-east-1:123456789012:order-events \
+  --protocol lambda \
+  --notification-endpoint arn:aws:lambda:us-east-1:123456789012:function:process-order-event
+```
+Registering SNS subscription for SQS:
+```bash
+aws sns subscribe \
+  --topic-arn arn:aws:sns:us-east-1:123456789012:order-events \
+  --protocol sqs \
+  --notification-endpoint arn:aws:sqs:us-east-1:123456789012:fulfillment-queue
+```
+
+Example publishing to the SNS topic:
+```bash
+aws sns publish \
+  --topic-arn arn:aws:sns:us-east-1:123456789012:order-events \
+  --message '{"eventType":"OrderCreated","orderId":"ord_123","total":49.99}' \
+  --message-attributes '{
+    "eventType": {
+      "DataType": "String",
+      "StringValue": "OrderCreated"
+    }
+  }'
+```
+If, for example, your Lambda needs "arguments," you put those in the published SNS message, then the Lambda parses the SNS message and treats those fields as its application-level inputs.
+
+SNS should not need to know your Lambda function's parameter list; SNS only knows how to invoke Lambda with an SNS event envelope. Your Lambda handler adapts that event envelope into your domain-specific function call:
+```js
+// Your actual registered Lambda function handler
+export async function handler(event) {
+  for (const record of event.Records) {
+    const message = JSON.parse(record.Sns.Message);
+    await processOrderCreated(message);
+  }
+}
+
+async function processOrderCreated({ orderId, customerId, total }) {
+  // normal application code here
+}
+```
+
+
 # Subscriber Message Filtering
 -   Rather than every subscriber receiving every message, SNS supports subscription filter policies — JSON policies that define which messages a subscriber receives, based on message attributes. Different subscribers can have different filters on the same topic.
 - This avoids having to create separate topics for every message type (one topic, filtered subscriptions)

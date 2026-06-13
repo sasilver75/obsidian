@@ -348,5 +348,110 @@ class RawSR311(Base):
 
 
 
+------------
 
+# Using Postgres as a [[Message Queue]]
+
+The essential design is:
+1. Store jobs in a durable Postgres table.
+2. Enqueue jobs with INSERT, often inside the same transaction as business data.
+3. Workers atomically claim jobs using UPDATE ... RETURNING with FOR UPDATE SKIP LOCKED.
+4. Workers mark jobs succeeded, retryable, or dead.
+5. Leases recover jobs from crashed workers.
+6. Idempotency handles duplicate execution.
+7. Indexes, cleanup, and batching keep the queue healthy.
+
+So Postgres doesn't act like a magical broker like you might get from other systems; instead, it just acts like a transactional state machine for work items, and the queue behavior emerges from durable rows, atomic state transactions, row-level locks, and careful retry semantics.
+
+```sql
+CREATE TABLE jobs (
+  id bigserial PRIMARY KEY,
+  queue_name text NOT NULL DEFAULT 'default',
+  payload jsonb NOT NULL,
+
+  status text NOT NULL DEFAULT 'available',
+  priority integer NOT NULL DEFAULT 0,
+  run_at timestamptz NOT NULL DEFAULT now(),
+
+  attempts integer NOT NULL DEFAULT 0,
+  max_attempts integer NOT NULL DEFAULT 5,
+
+  locked_by text,
+  locked_at timestamptz,
+
+  last_error text,
+
+  created_at timestamptz NOT NULL DEFAULT now(),
+  updated_at timestamptz NOT NULL DEFAULT now()
+);
+
+CREATE INDEX jobs_ready_idx
+ON jobs (queue_name, priority DESC, run_at, id)
+WHERE status = 'available';
+
+CREATE INDEX jobs_running_idx
+ON jobs (locked_at)
+WHERE status = 'running';
+```
+
+Payload contains a job input, like:
+```json
+{
+  "user_id": 123,
+  "email_template": "welcome",
+  "idempotency_key": "welcome-email:user:123"
+}
+```
+
+Later, consumers run a statement like:
+```sql
+INSERT INTO jobs (queue_name, payload, run_at)
+VALUES (
+  'email',
+  '{"user_id": 123, "template": "welcome"}',
+  now()
+);
+```
+
+Later, consumers can claim available run a query like:
+```sql
+-- Select the job to claim.
+WITH next_job AS (
+  SELECT id
+  FROM jobs
+  WHERE
+    (
+      status = 'available' -- Normal case: only consider jobs that have not been claimed.
+      AND run_at <= now() -- Only consider jobs whose scheduled time has arrived.
+    )
+    OR
+    (
+      status = 'running' -- Recovery case: consider jobs that were claimed earlier...
+      AND locked_at < now() - interval '5 minutes' -- ...but whose worker lease has expired.
+    )
+  ORDER BY
+    priority DESC, -- Prefer high-priority jobs first.
+    run_at ASC, -- Then prefer jobs that became runnable earlier.
+    id ASC -- Final deterministic tie-breaker.
+  FOR UPDATE SKIP LOCKED -- Lock the selected row; skip rows already locked by other workers.
+  LIMIT 1 -- Claim at most one job.
+)
+
+-- Claim that job.
+UPDATE jobs
+SET
+  status = 'running', -- Mark the job as claimed/in progress.
+  locked_by = $1, -- Record which worker claimed it; $1 is a query parameter.
+  locked_at = now(), -- Start or renew the worker's lease.
+  attempts = attempts + 1 -- Count this claim as a processing attempt.
+FROM next_job
+WHERE jobs.id = next_job.id -- Update only the job selected by the CTE above.
+RETURNING jobs.*; -- Return the claimed job to the worker.
+```
+Above: "Find one available job, lock it so no other worker can claim it, skip jobs already locked by other workers (unless their claim is expired), mark it as running, and return it."
+
+
+Rolling your own in the way above is okay for simple internal queues or when you need custom workflow state, but if you don't want to implement it yourself like this, [[pgmq]] is a popular Postgres extension that implements an [[Amazon SQS|SQS]]-like API inside Postgres (create queues, send JSON messages, read messages with a visibility timeout, delete messages, and archive messages).
+
+Or you can use a dedicated broker like [[Amazon SQS|SQS]], [[Kafka]], [[RabbitMQ]], etc. which can give high-throughput , cross-service messaging, fanout, replay, independent consumer groups.
 
