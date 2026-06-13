@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Hot Spot",
+      "path": "Hot Spot.md"
+    },
+    {
+      "basename": "In-Process Cache",
+      "path": "In-Process Cache.md"
+    },
+    {
+      "basename": "Read Phenomenon",
+      "path": "Read Phenomenon.md"
+    },
+    {
+      "basename": "Amazon SNS",
+      "path": "Amazon SNS.md"
+    },
+    {
+      "basename": "Consistent Prefix Consistency",
+      "path": "Consistent Prefix Consistency.md"
+    },
+    {
+      "basename": "Read Skew",
+      "path": "Read Skew.md"
+    },
+    {
+      "basename": "Sticky Session",
+      "path": "Sticky Session.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "Pagination.md"
+    },
+    {
+      "basename": "Session",
+      "path": "Session.md"
+    },
+    {
+      "basename": "Refresh Token",
+      "path": "Refresh Token.md"
+    },
+    {
+      "basename": "Refresh-Ahead",
+      "path": "Refresh-Ahead.md"
+    },
+    {
+      "basename": "Materialized View",
+      "path": "Materialized View.md"
+    },
+    {
       "basename": "Global Positioning System",
       "path": "Global Positioning System.md"
     },
@@ -133,10 +181,6 @@
       "path": "WebSockets.md"
     },
     {
-      "basename": "Refresh-Ahead",
-      "path": "Refresh-Ahead.md"
-    },
-    {
       "basename": "Strong Consistency",
       "path": "Strong Consistency.md"
     },
@@ -155,50 +199,6 @@
     {
       "basename": "Authorization",
       "path": "Authorization.md"
-    },
-    {
-      "basename": "Relationship-Based Access Control",
-      "path": "Relationship-Based Access Control.md"
-    },
-    {
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
-    },
-    {
-      "basename": "Agent",
-      "path": "Agent.md"
-    },
-    {
-      "basename": "WireGuard",
-      "path": "WireGuard.md"
-    },
-    {
-      "basename": "Initialization Vector",
-      "path": "Initialization Vector.md"
-    },
-    {
-      "basename": "Nonce",
-      "path": "Nonce.md"
-    },
-    {
-      "basename": "Salt",
-      "path": "Salt.md"
-    },
-    {
-      "basename": "MD5",
-      "path": "MD5.md"
-    },
-    {
-      "basename": "MurmurHash",
-      "path": "MurmurHash.md"
-    },
-    {
-      "basename": "Hash",
-      "path": "Hash.md"
-    },
-    {
-      "basename": "Signature",
-      "path": "Signature.md"
     }
   ],
   "omittedPaths": [],

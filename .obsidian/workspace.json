@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global Positioning System.md",
+                "file": "Read Phenomenon.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Global Positioning System"
+              "title": "Read Phenomenon"
+            }
+          },
+          {
+            "id": "9885b7afa9dd2951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hot Spot.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hot Spot"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2081,8 +2106,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "da91e28fff066278",
+  "active": "9885b7afa9dd2951",
   "lastOpenFiles": [
+    "In-Process Cache.md",
+    "Read Phenomenon.md",
+    "Hot Spot.md",
+    "Amazon SNS.md",
+    "Consistent Prefix Consistency.md",
+    "Read Skew.md",
+    "Sticky Session.md",
+    "Pagination.md",
+    "Session.md",
+    "Refresh Token.md",
+    "Refresh-Ahead.md",
+    "Materialized View.md",
+    "Global Positioning System.md",
     "Inbox Pattern.md",
     "OAuth.md",
     "OpenID Connect.md",
@@ -2096,19 +2134,6 @@
     "Classless Inter-Domain Routing.md",
     "Port.md",
     "Authentication Tag.md",
-    "Hash-based Message Authentication Code.md",
-    "ChaCha20-Poly1305.md",
-    "HMAC-based Key Derivation Function.md",
-    "Cryptography and Security (Index).md",
-    "HMAC-Based Extract-and-Expand Key Derivation Function.md",
-    "Transport Layer Security.md",
-    "Message Authentication Code.md",
-    "Authentication.md",
-    "Authenticated Encryption with Associated Data.md",
-    "Uniqueness Constraint.md",
-    "Locked-Image Tuning.md",
-    "Key-Range Lock.md",
-    "Predicate Lock.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

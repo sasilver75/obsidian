@@ -45,6 +45,15 @@ The server-side session record that uses the client-side cookie (opaque random i
 In practice, on the server-side session store, you often store a [[Hash]] of the session ID (the abc123 opaque token), rather than the raw value itself, so that a database leak doesn't immediately become a list of usable sessions. When a client sends their session ID, the server hashes it and looks up the session in the database.
 
 
+Q: What about [[Refresh Token]]s, do opaque token cookie-based server-side sessions use them?
+A: No! We usually don't have to use Refresh Tokens as a separate concepts. Instead, our server-side session state can be extended, expired, revoked, or rotated by the server at any time. On the server-side, we typically do something like this:
+- Session cookie is presented
+- Server validates session state
+- Server extends the session expiration
+The most important difference is *where the authority lives.* With Refresh token, the client holds a credential whose job is to mint/obtain new credentials. With server-side sessions, the server owns the session state, and the cookie is only an opaque lookup key. Because the server checks the lookup key against the live state on every request, the server can extend/revoke/expire the session directly!
+
+
+
 # 2) Stateless Token Sessions
 - Browser stores signed token, often a [[JSON Web Token|JWT]]
 - Server validates the token without a DB lookup, using [[JSON Web Key Set]] (JWKS)

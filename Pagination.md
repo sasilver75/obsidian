@@ -50,4 +50,4 @@ LIMIT 50
 ```
 Then you would skip `id=103` and `id=104`!
 
-Yan can use one field only if that field is: unique, stable, indexed, sorted in the exact order you want (e.g. a monotonically increasing `id`)
+You can use one field only if that field is: unique, stable, indexed, sorted in the exact order you want (e.g. a monotonically increasing `id`)
