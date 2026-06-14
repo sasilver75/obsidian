@@ -2,6 +2,7 @@
 aliases:
   - Idempotent
   - Idempotency Key
+  - Idempotently
 ---
 An operation is Idempotent when ==performing the same operation multiple times has the same intended effect as performing it once.==
 - Idempotency is NOT [[Exactly Once]]; it means that repeated attempts produce one logical effect.

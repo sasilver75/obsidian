@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Transactional Outbox Pattern",
+      "path": "Transactional Outbox Pattern.md"
+    },
+    {
+      "basename": "Idempotency",
+      "path": "Idempotency.md"
+    },
+    {
+      "basename": "Monotonic Reads Consistency",
+      "path": "Monotonic Reads Consistency.md"
+    },
+    {
+      "basename": "Partition Key",
+      "path": "Partition Key.md"
+    },
+    {
       "basename": "Dead Letter Queue",
       "path": "Dead Letter Queue.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "International System of Units",
       "path": "International System of Units.md"
-    },
-    {
-      "basename": "Electronics (Index)",
-      "path": "Electronics (Index).md"
-    },
-    {
-      "basename": "Switch",
-      "path": "Switch.md"
-    },
-    {
-      "basename": "Hot Spot",
-      "path": "Hot Spot.md"
-    },
-    {
-      "basename": "In-Process Cache",
-      "path": "In-Process Cache.md"
     }
   ],
   "omittedPaths": [],

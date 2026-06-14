@@ -4,7 +4,7 @@ Once a client has seen a version of data, future reads by that client will not r
 
 
 # How is it achieved?
-- The client/session records the highest version/timestamp/log position it has ***==observed==***.
+- The client/session records the highest version/timestamp/log position it has ***==observed==*** and sends this information.
 - Every later read must go to a replica whose state is at least that fresh. 
 - If the chosen replica is behind, the system either:
 	- waits until that replica is up-to-date

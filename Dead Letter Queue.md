@@ -8,6 +8,8 @@ A separate [[Message Queue]] or store that holds messages that a system could no
 Core Idea
 > "Don't let one bad message keep blocking the normal message flow, but also do not silently discard the bad message."
 
+> After the (e.g.) fifth failure, the component that has authority over retry state/count performs the dead-letter action. In broker-managed queues, that is the broker. In application-managed retry systems, that is the consumer application or its retry framework. This means that in a traditional broker queue like [[Amazon SQS|SQS]], the broker sends it to the DLQ (and the original record is removed), while in a [[Kafka]]-style log, the consumer typically sends it to the consumer group DLQ (and the original record remains).
+
 A message is usually directed to a dead letter queue when there are:
 - Too many processing failures (e.g. consumers repeatedly try to process the messages and fail)
 - Explicit rejection by consumer (consumer says that the message is invalid or unprocessable)

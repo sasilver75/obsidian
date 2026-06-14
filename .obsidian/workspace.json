@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dead Letter Queue.md",
+                "file": "Transactional Outbox Pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dead Letter Queue"
+              "title": "Transactional Outbox Pattern"
+            }
+          },
+          {
+            "id": "ffbca8e3492b7c25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idempotency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Idempotency"
             }
           },
           {
@@ -2299,9 +2323,13 @@
   },
   "active": "da91e28fff066278",
   "lastOpenFiles": [
+    "Idempotency.md",
+    "Transactional Outbox Pattern.md",
+    "Monotonic Reads Consistency.md",
+    "Partition Key.md",
+    "Dead Letter Queue.md",
     "Consistent Prefix Consistency.md",
     "Write Skew.md",
-    "Dead Letter Queue.md",
     "Read Phenomenon.md",
     "Isolation.md",
     "Lost Update.md",
@@ -2321,10 +2349,6 @@
     "Server-Sent Event.md",
     "Golden Signals of Monitoring.md",
     "Active-Active.md",
-    "Equal-Cost Multi-Path.md",
-    "OpenID Connect.md",
-    "Phantom Read.md",
-    "GeoRouting.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
