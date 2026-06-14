@@ -1,6 +1,6 @@
 An [[Isolation]]-related anomaly.
 
-A problem that happens when two actors read the same old value, both compute or choose a new value, adn one overwrites the other without noticing.
+A problem that happens when two actors read the same old value, both compute or choose a new value, and one overwrites the other without noticing.
 
 Example:
 ```

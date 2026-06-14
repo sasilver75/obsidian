@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Dead Letter Queue",
+      "path": "Dead Letter Queue.md"
+    },
+    {
+      "basename": "Consistent Prefix Consistency",
+      "path": "Consistent Prefix Consistency.md"
+    },
+    {
+      "basename": "Write Skew",
+      "path": "Write Skew.md"
+    },
+    {
+      "basename": "Read Phenomenon",
+      "path": "Read Phenomenon.md"
+    },
+    {
+      "basename": "Isolation",
+      "path": "Isolation.md"
+    },
+    {
+      "basename": "Lost Update",
+      "path": "Lost Update.md"
+    },
+    {
+      "basename": "Consistency",
+      "path": "Consistency.md"
+    },
+    {
+      "basename": "Read-your-Writes Consistency",
+      "path": "Read-your-Writes Consistency.md"
+    },
+    {
       "basename": "OAuth",
       "path": "OAuth.md"
     },
@@ -15,14 +47,6 @@
     {
       "basename": "SWR",
       "path": "SWR.md"
-    },
-    {
-      "basename": "Read Phenomenon",
-      "path": "Read Phenomenon.md"
-    },
-    {
-      "basename": "Isolation",
-      "path": "Isolation.md"
     },
     {
       "basename": "Non-Repeatable Read",
@@ -129,10 +153,6 @@
       "path": "Refresh-Ahead.md"
     },
     {
-      "basename": "Write Skew",
-      "path": "Write Skew.md"
-    },
-    {
       "basename": "Read Skew",
       "path": "Read Skew.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "In-Process Cache",
       "path": "In-Process Cache.md"
-    },
-    {
-      "basename": "Consistent Prefix Consistency",
-      "path": "Consistent Prefix Consistency.md"
-    },
-    {
-      "basename": "Sticky Session",
-      "path": "Sticky Session.md"
-    },
-    {
-      "basename": "Pagination",
-      "path": "Pagination.md"
-    },
-    {
-      "basename": "Session",
-      "path": "Session.md"
-    },
-    {
-      "basename": "Refresh Token",
-      "path": "Refresh Token.md"
     }
   ],
   "omittedPaths": [],
