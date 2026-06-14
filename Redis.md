@@ -65,7 +65,7 @@ cart:user:42
 
 Oftentimes a good Redis key can encode:
 ```
-<domain>:<version>:<entity-type>:<entity-id>:<thhing>
+<domain>:<version>:<entity-type>:<entity-id>:<thing>
 ```
 The version gives us a cheap way to invalidate or change the meaning of a whole group of keys without deleting them one by one.
 Examples:

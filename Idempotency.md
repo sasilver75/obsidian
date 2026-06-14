@@ -7,7 +7,6 @@ aliases:
 An operation is Idempotent when ==performing the same operation multiple times has the same intended effect as performing it once.==
 - Idempotency is NOT [[Exactly Once]]; it means that repeated attempts produce one logical effect.
 - Idempotency is NOT deduplication ("I saw this message before" is *one* way to implement idempotency)
-- 
 
 Mathematically:
 ```
@@ -15,7 +14,7 @@ f(f(x)) = f(x)
 ```
 
 In System Desing terms: 
-> If a request, message, job, or command is retried or delivered twice, the system does not accidentally duplicate teh side effect.
+> If a request, message, job, or command is retried or delivered twice, the system does not accidentally duplicate the side effect.
 
 
 Example: 
@@ -52,7 +51,7 @@ Idempotency gives us the ability to ==safely== use [[At Least Once|At Least Once
 
 
 # Design Checklist
-1. What's hte logical operation eidentity?
+1. What's the logical operation eidentity?
 2. Who generates the idempotency key?
 3. Where is the key stored?
 4. How long is the key retrained?
@@ -60,7 +59,7 @@ Idempotency gives us the ability to ==safely== use [[At Least Once|At Least Once
 6. What happens if the original request is still processing?
 7. What result should a retry receive?
 8. Are all side effects covred, including emails/queues/webhooks/external APIs?
-9. Is there a unique constrain or atomic write protectingraces?
+9. Is there a unique constrain or atomic write protecting races?
 10. Can failed/partial operations be retried safely?
 
 The strongest implementations usually combine:
@@ -151,6 +150,13 @@ Above: We store request hash so that the cilent can't use the same idempotency k
 - On retry:
 	- Server receives key `abc123` again, finds the stored result, and returns the same result instead of repeating the side effect
 
+Aside: There are typically two patterns for what to store:
+
+| Pattern                             | How it works                                                                                                                                                                                            | Tradeoffs                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Store full response after presenter | After the order is created and the presenter/resource layer formats the final HTTP response, store response_status and response_body in the idempotency row. Retries return that exact stored response. | Most faithful to HTTP semantics. Best when clients expect byte-for-byte or shape-for-shape replay. Handles later presentation-code changes because the old response is preserved. Costs more storage. Creates a recoverable gap: the order may be committed before the response cache is updated. Sensitive data in responses must now be protected/expired carefully. |
+| Store only resource_id              | After the order is created, store resource_type and resource_id in the idempotency row. Retries load the order and regenerate the response through the current presenter/resource layer.                | Simpler and stores less data. Avoids caching sensitive response bodies. Easier to recover if response formatting failed. But retries may receive a different response shape if presenter code, permissions, feature flags, localization, or related data changed. Less faithful as an HTTP replay cache; more like “same business effect” idempotency.                 |
+See the examples at the bottom to understand why storing the full response can get somewhat onerous.
 
 ### 3) Uniqueness Constraints
 - Databases are good at enforcing idempotency boundaries!
@@ -247,3 +253,242 @@ Message relay/publisher later reads this table and sends event to a queue
 - Another simple technique: Let the client provide the ID of the thing being created.
 Instead of  `POST /orders`, what if you did `POST /orders/order_abc123`, so that repeated requests target the same resource.
 - This is good/fine when the operation naturally creates a named resource.
+
+
+_________________
+
+# Idempotency Key/Table Detailed Example
+- Something we didn't show above is that the common design is something like: "Create an idempotency record in a pending/processing state, then later mark it completed." 
+- The idempotency table is not *only* a response cache, it is also a claim/lock record for  "this logical operation is already being attempted."
+
+Typically, the flow is going to look something like this:
+```
+1. Client sends Idempotency-Key.
+
+2. Server hashes the meaningful request payload.
+
+3. Server tries to insert idempotency row with unique key.
+
+4. If insert wins:
+   - create order
+   - store order_id and/or response in idempotency row  ((Often we can't do this here))
+   - commit
+   - return response
+
+5. If insert loses:
+   - compare request hash
+   - if hash differs, reject
+   - if completed, replay result
+   - if processing, wait/retry/return in-progress response
+```
+
+Here's a worked example:
+
+First, defining the tables:
+```sql
+CREATE TYPE idempotency_status AS ENUM (
+  'processing',
+  'completed',
+  'failed_retryable',
+  'failed_final'
+);
+
+CREATE TABLE orders (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+
+  tenant_id uuid NOT NULL,
+  customer_id uuid NOT NULL,
+
+  -- Critical recovery/safety field.
+  idempotency_key text NOT NULL,
+
+  description text NOT NULL,
+  total_cents integer NOT NULL CHECK (total_cents >= 0),
+  currency text NOT NULL,
+
+  created_at timestamptz NOT NULL DEFAULT now(),
+
+  UNIQUE (tenant_id, idempotency_key)
+);
+
+CREATE TABLE idempotency_keys (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+
+  tenant_id uuid NOT NULL,
+  endpoint text NOT NULL,
+  idempotency_key text NOT NULL,
+  request_hash bytea NOT NULL,
+
+  status idempotency_status NOT NULL,
+
+  locked_until timestamptz,
+  locked_by uuid,
+  attempt_number integer NOT NULL DEFAULT 1,
+
+  resource_type text,
+  resource_id uuid,
+
+  response_status integer,
+  response_body jsonb,
+
+  error_code text,
+  error_message text,
+
+  created_at timestamptz NOT NULL DEFAULT now(),
+  updated_at timestamptz NOT NULL DEFAULT now(),
+  completed_at timestamptz,
+  expires_at timestamptz NOT NULL,
+
+  UNIQUE (tenant_id, endpoint, idempotency_key),
+
+  CHECK (
+    status <> 'processing'
+    OR locked_until IS NOT NULL
+  ),
+
+  CHECK (
+    status <> 'completed'
+    OR (
+      response_status IS NOT NULL
+      AND response_body IS NOT NULL
+      AND completed_at IS NOT NULL
+    )
+  )
+);
+```
+
+Request comes in:
+```http
+POST /orders
+Idempotency-Key: ik_123
+
+{
+  "customer_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+  "description": "Annual subscription",
+  "total_cents": 12000,
+  "currency": "USD"
+}
+```
+Application then runs:
+```sql
+BEGIN;
+
+INSERT INTO idempotency_keys (
+  tenant_id,
+  endpoint,
+  idempotency_key,
+  request_hash,
+  status,
+  locked_until,
+  locked_by,
+  expires_at
+)
+VALUES (
+  $tenant_id,
+  'POST /orders',
+  $idempotency_key,
+  $request_hash,
+  'processing',
+  now() + interval '60 seconds',
+  $lock_owner,
+  now() + interval '24 hours'
+)
+ON CONFLICT (tenant_id, endpoint, idempotency_key)
+DO NOTHING
+RETURNING *;
+```
+
+If the insert returns a row, then this request owns the operation.
+```sql
+INSERT INTO orders (
+  tenant_id,
+  customer_id,
+  idempotency_key,
+  description,
+  total_cents,
+  currency
+)
+VALUES (
+  $tenant_id,
+  $customer_id,
+  $idempotency_key,
+  $description,
+  $total_cents,
+  $currency
+)
+RETURNING *;
+```
+
+Now complete the idempotency record:
+```sql
+UPDATE idempotency_keys
+SET
+  status = 'completed',
+  locked_until = NULL,
+  locked_by = NULL,
+  resource_type = 'order',
+  resource_id = $order_id,
+  response_status = 201,
+  response_body = jsonb_build_object(
+    'id', $order_id,
+    'customer_id', $customer_id,
+    'description', $description,
+    'total_cents', $total_cents,
+    'currency', $currency
+  ),
+  completed_at = now()
+WHERE
+  tenant_id = $tenant_id
+  AND endpoint = 'POST /orders'
+  AND idempotency_key = $idempotency_key
+  AND locked_by = $lock_owner
+RETURNING response_status, response_body;
+
+COMMIT;
+```
+Then the server returns the cached/stored response.
+
+
+
+After some back and forth, it looks more like:
+```
+1. Insert idempotency row:
+   status = processing
+   request_hash = hash(request body)
+
+2. Create order:
+   orders.idempotency_key = same idempotency key
+   unique constraint on (tenant_id, idempotency_key)
+
+3. Return order up through repository/interactor/resource layers.
+
+4. Resource layer formats final HTTP response.
+
+5. Update idempotency row:
+   status = completed
+   resource_id = order.id
+   response_status = 201
+   response_body = formatted response
+```
+
+On retry:
+```
+1. Request finds existing idempotency row.
+2. Request hash matches.
+3. status = processing.
+4. If lock has not timed out:
+   return 409/202/wait briefly.
+
+5. If lock has timed out:
+   check orders by tenant_id + idempotency_key.
+
+6. If order exists:
+   rebuild response from order.
+   update idempotency row to completed.
+   return response.
+
+7. If order does not exist:
+   reclaim the idempotency row.
+   try creating the order.
+```
+> A `processing` idempotency row does not tell you whether the business operation happened. It only tells you that the original request did not finish recording its final idempotency result. So after timeout, you do **not** say, “The request failed; run it again.” You say > “The request result is uncertain. First check whether the order already exists.” If the order exists, the system heals the idempotency row. If the order does not exist, the system may retry order creation.

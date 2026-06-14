@@ -1,12 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "Transactional Outbox Pattern",
-      "path": "Transactional Outbox Pattern.md"
+      "basename": "Temporal",
+      "path": "Temporal.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
+      "basename": "AAAA Record",
+      "path": "AAAA Record.md"
     },
     {
       "basename": "Idempotency",
       "path": "Idempotency.md"
+    },
+    {
+      "basename": "OpenID Connect",
+      "path": "OpenID Connect.md"
+    },
+    {
+      "basename": "Load Balancing Strategy",
+      "path": "Load Balancing Strategy.md"
+    },
+    {
+      "basename": "Sticky Session",
+      "path": "Sticky Session.md"
+    },
+    {
+      "basename": "Simplex",
+      "path": "Simplex.md"
+    },
+    {
+      "basename": "Half-Duplex",
+      "path": "Half-Duplex.md"
+    },
+    {
+      "basename": "Media Access Control",
+      "path": "Media Access Control.md"
+    },
+    {
+      "basename": "Actuator",
+      "path": "Actuator.md"
+    },
+    {
+      "basename": "Log-Structured Merge Tree",
+      "path": "Log-Structured Merge Tree.md"
+    },
+    {
+      "basename": "Structured Token",
+      "path": "Structured Token.md"
+    },
+    {
+      "basename": "Opaque Token",
+      "path": "Opaque Token.md"
+    },
+    {
+      "basename": "Full-Duplex",
+      "path": "Full-Duplex.md"
+    },
+    {
+      "basename": "Mobile Ad Hoc Network",
+      "path": "Mobile Ad Hoc Network.md"
+    },
+    {
+      "basename": "pgmq",
+      "path": "pgmq.md"
+    },
+    {
+      "basename": "Amazon Resource Name",
+      "path": "Amazon Resource Name.md"
+    },
+    {
+      "basename": "Amazon Data Firehose",
+      "path": "Amazon Data Firehose.md"
+    },
+    {
+      "basename": "Amazon Elastic Container Registry",
+      "path": "Amazon Elastic Container Registry.md"
+    },
+    {
+      "basename": "Equal-Cost Multi-Path",
+      "path": "Equal-Cost Multi-Path.md"
+    },
+    {
+      "basename": "Open Systems Interconnection",
+      "path": "Open Systems Interconnection.md"
+    },
+    {
+      "basename": "Dead Letter Queue",
+      "path": "Dead Letter Queue.md"
+    },
+    {
+      "basename": "Write Skew",
+      "path": "Write Skew.md"
+    },
+    {
+      "basename": "International Traffic in Arms Regulations",
+      "path": "International Traffic in Arms Regulations.md"
+    },
+    {
+      "basename": "Wide Area Network",
+      "path": "Wide Area Network.md"
+    },
+    {
+      "basename": "Transactional Outbox Pattern",
+      "path": "Transactional Outbox Pattern.md"
     },
     {
       "basename": "Monotonic Reads Consistency",
@@ -17,16 +117,8 @@
       "path": "Partition Key.md"
     },
     {
-      "basename": "Dead Letter Queue",
-      "path": "Dead Letter Queue.md"
-    },
-    {
       "basename": "Consistent Prefix Consistency",
       "path": "Consistent Prefix Consistency.md"
-    },
-    {
-      "basename": "Write Skew",
-      "path": "Write Skew.md"
     },
     {
       "basename": "Read Phenomenon",
@@ -81,10 +173,6 @@
       "path": "Security Information and Event Management.md"
     },
     {
-      "basename": "Open Systems Interconnection",
-      "path": "Open Systems Interconnection.md"
-    },
-    {
       "basename": "Blob Storage",
       "path": "Blob Storage.md"
     },
@@ -105,100 +193,12 @@
       "path": "Active-Active.md"
     },
     {
-      "basename": "Equal-Cost Multi-Path",
-      "path": "Equal-Cost Multi-Path.md"
-    },
-    {
-      "basename": "OpenID Connect",
-      "path": "OpenID Connect.md"
-    },
-    {
       "basename": "Phantom Read",
       "path": "Phantom Read.md"
     },
     {
       "basename": "GeoRouting",
       "path": "GeoRouting.md"
-    },
-    {
-      "basename": "B-Tree",
-      "path": "B-Tree.md"
-    },
-    {
-      "basename": "Amazon Elastic Container Registry",
-      "path": "Amazon Elastic Container Registry.md"
-    },
-    {
-      "basename": "Log-Structured Merge Tree",
-      "path": "Log-Structured Merge Tree.md"
-    },
-    {
-      "basename": "Amazon Lambda",
-      "path": "Amazon Lambda.md"
-    },
-    {
-      "basename": "Amazon SNS",
-      "path": "Amazon SNS.md"
-    },
-    {
-      "basename": "Amazon Data Firehose",
-      "path": "Amazon Data Firehose.md"
-    },
-    {
-      "basename": "Amazon Resource Name",
-      "path": "Amazon Resource Name.md"
-    },
-    {
-      "basename": "Amazon SQS",
-      "path": "Amazon SQS.md"
-    },
-    {
-      "basename": "PostgreSQL",
-      "path": "PostgreSQL.md"
-    },
-    {
-      "basename": "pgmq",
-      "path": "pgmq.md"
-    },
-    {
-      "basename": "Service Discovery",
-      "path": "Service Discovery.md"
-    },
-    {
-      "basename": "Refresh-Ahead",
-      "path": "Refresh-Ahead.md"
-    },
-    {
-      "basename": "Read Skew",
-      "path": "Read Skew.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.md"
-    },
-    {
-      "basename": "Compression",
-      "path": "Compression.md"
-    },
-    {
-      "basename": "Delivery",
-      "path": "Delivery.md"
-    },
-    {
-      "basename": "Hexadecimal",
-      "path": "Hexadecimal.md"
-    },
-    {
-      "basename": "SHA-256",
-      "path": "SHA-256.md"
-    },
-    {
-      "basename": "Amazon Security Token Service",
-      "path": "Amazon Security Token Service.md"
-    },
-    {
-      "basename": "International System of Units",
-      "path": "International System of Units.md"
     }
   ],
   "omittedPaths": [],

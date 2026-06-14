@@ -1,3 +1,7 @@
+References:
+- Video: [Temporal in 7 Minutes, the TLDR Intro](https://youtu.be/2HjnQlnA5eY?si=6SvQrCGt3WrtlQpe)
+- Video: [Getting to know Temporal](https://youtu.be/wIpz4ioK0gI?si=TW50PZp9SNlH7G2_)
+
 [Site: Temporal](https://temporal.io/)
 
 A ==durable execution platform.== It lets you write long-running, fault-tolerant workflows as ordinary  code, without manually managing ==state==, ==retries==, ==queues==, or ==failure recovery==.

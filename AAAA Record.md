@@ -1,0 +1,4 @@
+---
+aliases:
+  - Quad-A Record
+---
