@@ -169,7 +169,7 @@ Acme verifies the ID token using the provider's [[Asymmetric Key Encryption|Publ
 3. Pick matching public key
 4. Verify the JWT [[Signature]]
 5. Validate the claims
-- 
+
 
  9. Acme maps the external identity to a local user
 Usually, this key is:

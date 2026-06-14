@@ -13,7 +13,7 @@ Networking is usually thought of as a layered cake:
 - Top: Application-level protocols like HTTP and Websockets
 - Bottom: Physical items, like wires in a network
 ![[Pasted image 20250519125936.png]]
-Above: [[OSI Model]]
+Above: [[Open Systems Interconnection]]
 - These layers build upon one another, providing features and functionalities that you might need.
 
 We'll focus on the **[[Network Layer]]**, where protocols like IP and Infiniband live. 

@@ -2,7 +2,7 @@
 aliases:
   - SSE
 ---
-A *unidirectional communicaiton protocol* that's a web standard (part of HTML5) that ==lets a server asynchronously push data to a client over a single long-lived HTTP/1.1 or HTTP/2 connection.==
+A *unidirectional communication protocol* that's a web standard (part of HTML5) that ==lets a server asynchronously push data to a client over a single long-lived [[HTTP 1.1]] or [[HTTP 2]] connection.==
 
 Unlike traditional HTTP request/response, where the client must repeatedly poll the server for new data, SSE keeps the connection open and lets the server stream events whenever they occur. The transport is plain HTTP with a `Content-Type: text/event-stream` response header, and the body is a sequence of UTF-8 encoded text frames.
 
@@ -107,7 +107,7 @@ SSE is an extension on HTTP with one notable difference:
 - With SSE, I include additional headers in the response (chunked-encoding) and in the response I use newlines to designate how each of the new events are happening. Because of the headers, the proxies/other things handling the request will send that response on to my  clients, and they'll being parsing the response.
 	- So I have a way of unidirectionally pushing data from my server to a client using existing HTTP machinery.
 	- Downside: These connections are going to be severed frequently! HTTP requests are expected to return in the 30s-1m mark, so many routers/proxies will disconnect requests that exist longer than that. In those cases, our SSE client will automatically retry, opening a new SSE connection, passing the ID of the last event it received, in case events happened between the loss of connection and opening of responses.
-		- ==It's a bit of a kludge==: we're existing on a connection that's constantly pushing responses which is periodically severed and re-enabled. Just because it's kludgey doesn't mean it doesn't work!
+		- ==It's a bit of a kludge==: we're existing on a connection that's constantly pushing responses which is periodically severed and re-enabled. Just because it's kludgey doesn't mean it doesn't work! They maintain a long-lived HTTP response as an event stream, and long-lived HTTP connections are often interrupted by proxies, LBs, networks, or browser changes.
 - Use Cases
 	- If you're buying a product and you want to know the status that might evolve over the next 15 seconds
 	- For AI applications where you might want to stream tokens or responses back to the user, which might take awhile (e.g. 30 seconds).

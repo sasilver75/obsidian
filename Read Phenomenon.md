@@ -8,7 +8,13 @@ aliases:
 ---
 An [[Isolation]]-related [[Read Phenomenon|Read Phenomena]]
 
-Common Read Phenomena
+
+The SQL Standard Phenomena are:
+- [[Dirty Read]]: Transaction reads data written by another transaction that hasn't committed yet.
+- [[Non-Repeatable Read]]: Transaction reads the same row twice and sees different committed values, because another transaction updated or deleted the row between reads.
+- [[Phantom Read]]: A transaction repeats a predicate query and sees a different set of matching rows because another transaction inserted/deleted/updated rows matching the predicate.
+
+There is a broader set of anomalies that are actually referred to in literature:
 - [[Dirty Write]]: A transaction overwrites data written by another uncommitted transaction; very dangerous, and prevented by most databases even at their weaker isolation levels.
 - [[Dirty Read]]: A transaction reads another transaction's uncommitted data. If the writer rolls back, the reader saw that that never officially existed, which can subsequently effect the data it writes.
 - [[Non-Repeatable Read]] (Fuzzy Read): A transaction reads the same row twice, and get different values because another transaction committed an update between reads.

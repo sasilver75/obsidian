@@ -13,11 +13,9 @@ Needed in distributed database systems when two or more writes can happen withou
 [[Strong Consistency]] tries to prevent conflicts *before commit.*
 [[Eventual Consistency]] often accepts writes first, and then resolves conflicts afterwards.
 
-
-
 # Common Conflict Resolution Strategies
 
-There are two broad appraoches:
+There are two broad approaches:
 - ==Conflict prevention==: Coordinate before accepting writes.
 	- A bank transfer should use conflict prevention: [[Serializable Isolation|Serializable]] [[Transaction]]s, [[Strong Consistency|Linearizability]] for balances, a ledger with strict ordering.
 	- Give strong correctness, simpler reads, fewer surprises at the cost of more latency, less availability, harder multi-region scaling.

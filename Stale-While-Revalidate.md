@@ -1,4 +1,5 @@
 A cache serving policy where an ==expired cached value may still be returned immediately for a limited stale window, while a background refresh fetches and stores a fresh value for later requests==.
+- Avoid if you can't tolerate "stale" data, since SWR can serve stale data from the cache.
 
 Verbal usage:
 - "Cached for 15 seconds, stale for 5 minutes while revalidating" means:

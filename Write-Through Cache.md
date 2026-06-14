@@ -2,6 +2,6 @@
 aliases:
   - Write-Through
 ---
-
-
 **Writes data to BOTH the cache and the underlying datastore** **simultaneously**! Ensures that your cache is **consistent** with your backing datastore, but can be **slower** for write operations.
+
+

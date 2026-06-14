@@ -13,7 +13,7 @@ Uses two mathematically related keys that are generated together:
 	- Used to encrypt data. (Or, in the case of [[Signature]]s, used to *verify* a signature)
 	- Safe to distribute, can be placed in [[Certificate]]s, sent over the network, published in [[Domain Name Service|DNS]], or embedded in software.
 - Private Key
-	- Used to decrypt data. (Or, in the case of [[Cryptographic Signature|Signature]]s, used to * * signatures)
+	- Used to decrypt data. (Or, in the case of [[Cryptographic Signature|Signature]]s, used to *sign* signatures)
 	- Must remain secret; anyone who has access can impersonate the owner or decrypt data intended for them (depending on how the key is used).
 
 Simplified Flow:
@@ -37,11 +37,18 @@ ciphertext + bob's private key -> plaintext
 Encrypt with the recipient's public key
 Decrypt with the recipient's private key
 ```
+
+
 2. Digital Signatures: Used to prove who created or approved data.
 ```
 Sign with the sender's private key
 Verify with the sender's public key
 ```
+- Signing usually works like: message -> hash function -> message digest  -> signature algorithm using private key -> signature.
+- Verification usually works like: message + signature + public key -> hash the message again -> check signature against digest and public key -> valid or invalid.
+The hash function matters because signature algorithms usually sign a fixed-size digets, not an arbitrary-length message directly.
+
+
 3.  Key Agreement: Used to establish a shared [[Symmetric Key Encryption|Symmetric Key]] over an insecure network (e.g. [[Key Exchange|Diffie-Helman]]/[[Key Exchange|Elliptic Curve Diffie-Hellman]]])
 ```
 Alice: Alice's private key + Bob's public key

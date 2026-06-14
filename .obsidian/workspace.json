@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blob Storage.md",
+                "file": "OAuth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Blob Storage"
+              "title": "OAuth"
+            }
+          },
+          {
+            "id": "18abef26ffd52713",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read Phenomenon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read Phenomenon"
             }
           },
           {
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Lambda.md",
+                "file": "Open Systems Interconnection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +76,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Amazon Lambda"
+              "title": "Open Systems Interconnection"
+            }
+          },
+          {
+            "id": "350dd000c6e34b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equal-Cost Multi-Path.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Equal-Cost Multi-Path"
+            }
+          },
+          {
+            "id": "b4f0a82cc970dbc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equal-Cost Multi-Path.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Equal-Cost Multi-Path"
+            }
+          },
+          {
+            "id": "77d81f6ac11b9b95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Elastic Container Registry.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Elastic Container Registry"
             }
           },
           {
@@ -127,8 +223,7 @@
               "title": "pgmq"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2178,34 +2273,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1c6415236c4a09eb",
+  "active": "da91e28fff066278",
   "lastOpenFiles": [
+    "Write-Through Cache.md",
+    "Stale-While-Revalidate.md",
+    "SWR.md",
+    "Read Phenomenon.md",
+    "Isolation.md",
+    "Non-Repeatable Read.md",
+    "Conflict Resolution.md",
+    "Eventual Consistency.md",
+    "Security Information and Event Management.md",
+    "Open Systems Interconnection.md",
+    "Blob Storage.md",
+    "Asymmetric Key Encryption.md",
+    "Server-Sent Event.md",
+    "Golden Signals of Monitoring.md",
+    "Active-Active.md",
+    "Equal-Cost Multi-Path.md",
+    "OpenID Connect.md",
+    "Phantom Read.md",
+    "GeoRouting.md",
+    "B-Tree.md",
+    "Amazon Elastic Container Registry.md",
+    "Log-Structured Merge Tree.md",
+    "Amazon Lambda.md",
     "Amazon SNS.md",
     "Amazon Data Firehose.md",
     "Amazon Resource Name.md",
-    "Amazon SQS.md",
-    "PostgreSQL.md",
-    "pgmq.md",
-    "Service Discovery.md",
-    "Refresh-Ahead.md",
-    "Write Skew.md",
-    "Read Skew.md",
-    "Untitled 1.md",
-    "Compression.md",
-    "Delivery.md",
-    "Blob Storage.md",
-    "Hexadecimal.md",
-    "SHA-256.md",
-    "Amazon Security Token Service.md",
-    "International System of Units.md",
-    "Electronics (Index).md",
-    "Switch.md",
-    "Read Phenomenon.md",
-    "Hot Spot.md",
-    "In-Process Cache.md",
-    "Consistent Prefix Consistency.md",
-    "Sticky Session.md",
-    "Pagination.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

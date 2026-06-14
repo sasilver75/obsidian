@@ -3,7 +3,7 @@
 
 
 Terms
-- [[OSI Model]]: A seven-layer reference model for describing how networked systems communicate from physical signals up to applications.
+- [[Open Systems Interconnection]]: A seven-layer reference model for describing how networked systems communicate from physical signals up to applications.
 - [[Application Layer]] (Layer 7): The OSI layer where application protocols such as HTTP, DNS, SSH, and SMTP define user-facing network behavior.
 - [[Transport Layer]] (Layer 4): The layer that provides end-to-end communication between processes, commonly through TCP, UDP, or QUIC.
 - [[Network Layer]] (Layer 3): The layer that handles logical addressing and routing packets between networks.

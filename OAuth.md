@@ -29,11 +29,26 @@ It doesn't fully answer "Who is this user?" That identity layer is what [[OpenID
 - Scope: The permission boundary, like `calendar.read`
 
 ## Typical OAuth 2.0 flow:
-1. App redirects user to the authorization server (the system issuing tokens)
+1. MyApp redirects user to the authorization server (the system issuing tokens)
 2. User logs in and approves access, given description of what the App wants to do
 3. Authorization server returns an an authorization code
-4. App exchanges the code for an access token
-5. App uses the access token to call an API on behalf of the user
+4. MyApp exchanges the code for an [[Access Token]], which is typically an [[Opaque Token]]
+	- This is stored server-side, associated with the user's app session or user account.
+	- When the access token expires, we use a [[Refresh Token]] to get a new one, if we were issued one.
+5. MyApp uses the access token to call an API on behalf of the user
+
+
+The #3 response to MyApp typically looks like something like:
+```json
+{
+  "access_token": "opaque-google-token",
+  "expires_in": 3599,
+  "scope": "https://www.googleapis.com/auth/calendar.readonly",
+  "token_type": "Bearer",
+  "refresh_token": "opaque-refresh-token"
+}
+```
+
 
 
 ![[Pasted image 20260611132321.png]]

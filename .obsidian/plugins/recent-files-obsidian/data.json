@@ -1,6 +1,98 @@
 {
   "recentFiles": [
     {
+      "basename": "OAuth",
+      "path": "OAuth.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
+      "basename": "Stale-While-Revalidate",
+      "path": "Stale-While-Revalidate.md"
+    },
+    {
+      "basename": "SWR",
+      "path": "SWR.md"
+    },
+    {
+      "basename": "Read Phenomenon",
+      "path": "Read Phenomenon.md"
+    },
+    {
+      "basename": "Isolation",
+      "path": "Isolation.md"
+    },
+    {
+      "basename": "Non-Repeatable Read",
+      "path": "Non-Repeatable Read.md"
+    },
+    {
+      "basename": "Conflict Resolution",
+      "path": "Conflict Resolution.md"
+    },
+    {
+      "basename": "Eventual Consistency",
+      "path": "Eventual Consistency.md"
+    },
+    {
+      "basename": "Security Information and Event Management",
+      "path": "Security Information and Event Management.md"
+    },
+    {
+      "basename": "Open Systems Interconnection",
+      "path": "Open Systems Interconnection.md"
+    },
+    {
+      "basename": "Blob Storage",
+      "path": "Blob Storage.md"
+    },
+    {
+      "basename": "Asymmetric Key Encryption",
+      "path": "Asymmetric Key Encryption.md"
+    },
+    {
+      "basename": "Server-Sent Event",
+      "path": "Server-Sent Event.md"
+    },
+    {
+      "basename": "Golden Signals of Monitoring",
+      "path": "Golden Signals of Monitoring.md"
+    },
+    {
+      "basename": "Active-Active",
+      "path": "Active-Active.md"
+    },
+    {
+      "basename": "Equal-Cost Multi-Path",
+      "path": "Equal-Cost Multi-Path.md"
+    },
+    {
+      "basename": "OpenID Connect",
+      "path": "OpenID Connect.md"
+    },
+    {
+      "basename": "Phantom Read",
+      "path": "Phantom Read.md"
+    },
+    {
+      "basename": "GeoRouting",
+      "path": "GeoRouting.md"
+    },
+    {
+      "basename": "B-Tree",
+      "path": "B-Tree.md"
+    },
+    {
+      "basename": "Amazon Elastic Container Registry",
+      "path": "Amazon Elastic Container Registry.md"
+    },
+    {
+      "basename": "Log-Structured Merge Tree",
+      "path": "Log-Structured Merge Tree.md"
+    },
+    {
       "basename": "Amazon Lambda",
       "path": "Amazon Lambda.md"
     },
@@ -57,10 +149,6 @@
       "path": "Delivery.md"
     },
     {
-      "basename": "Blob Storage",
-      "path": "Blob Storage.md"
-    },
-    {
       "basename": "Hexadecimal",
       "path": "Hexadecimal.md"
     },
@@ -83,10 +171,6 @@
     {
       "basename": "Switch",
       "path": "Switch.md"
-    },
-    {
-      "basename": "Read Phenomenon",
-      "path": "Read Phenomenon.md"
     },
     {
       "basename": "Hot Spot",
@@ -115,90 +199,6 @@
     {
       "basename": "Refresh Token",
       "path": "Refresh Token.md"
-    },
-    {
-      "basename": "Materialized View",
-      "path": "Materialized View.md"
-    },
-    {
-      "basename": "Global Positioning System",
-      "path": "Global Positioning System.md"
-    },
-    {
-      "basename": "Inbox Pattern",
-      "path": "Inbox Pattern.md"
-    },
-    {
-      "basename": "OAuth",
-      "path": "OAuth.md"
-    },
-    {
-      "basename": "OpenID Connect",
-      "path": "OpenID Connect.md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "JSON Web Token.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "Cookie.md"
-    },
-    {
-      "basename": "Networking (Index)",
-      "path": "Networking (Index).md"
-    },
-    {
-      "basename": "Intermediate System to Intermediate System",
-      "path": "Intermediate System to Intermediate System.md"
-    },
-    {
-      "basename": "Byte-Pair Encoding",
-      "path": "Byte-Pair Encoding.md"
-    },
-    {
-      "basename": "Border Gateway Protocol",
-      "path": "Border Gateway Protocol.md"
-    },
-    {
-      "basename": "Classless Inter-Domain Routing",
-      "path": "Classless Inter-Domain Routing.md"
-    },
-    {
-      "basename": "Port",
-      "path": "Port.md"
-    },
-    {
-      "basename": "Authentication Tag",
-      "path": "Authentication Tag.md"
-    },
-    {
-      "basename": "Hash-based Message Authentication Code",
-      "path": "Hash-based Message Authentication Code.md"
-    },
-    {
-      "basename": "ChaCha20-Poly1305",
-      "path": "ChaCha20-Poly1305.md"
-    },
-    {
-      "basename": "HMAC-based Key Derivation Function",
-      "path": "HMAC-based Key Derivation Function.md"
-    },
-    {
-      "basename": "Cryptography and Security (Index)",
-      "path": "Cryptography and Security (Index).md"
-    },
-    {
-      "basename": "Transport Layer Security",
-      "path": "Transport Layer Security.md"
-    },
-    {
-      "basename": "Message Authentication Code",
-      "path": "Message Authentication Code.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "Authentication.md"
     }
   ],
   "omittedPaths": [],
