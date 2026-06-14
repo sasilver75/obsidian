@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temporal.md",
+                "file": "Service Token.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Temporal"
+              "title": "Service Token"
+            }
+          },
+          {
+            "id": "389fb42c3f1f70cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Back Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Back Cache"
+            }
+          },
+          {
+            "id": "6a38ae31d1c42334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write-Through Cache.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Through Cache"
             }
           }
         ]
@@ -2083,6 +2131,12 @@
   },
   "active": "da91e28fff066278",
   "lastOpenFiles": [
+    "Cache Write Strategy.md",
+    "Write-Back Cache.md",
+    "WGS84.md",
+    "Cache.md",
+    "Write-Through Cache.md",
+    "Temporal.md",
     "Redis.md",
     "AAAA Record.md",
     "Idempotency.md",
@@ -2103,12 +2157,6 @@
     "Amazon Data Firehose.md",
     "Amazon Elastic Container Registry.md",
     "Equal-Cost Multi-Path.md",
-    "Open Systems Interconnection.md",
-    "Dead Letter Queue.md",
-    "Write Skew.md",
-    "International Traffic in Arms Regulations.md",
-    "Wide Area Network.md",
-    "Transactional Outbox Pattern.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

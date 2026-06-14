@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Service Token",
+      "path": "Service Token.md"
+    },
+    {
+      "basename": "Cache Write Strategy",
+      "path": "Cache Write Strategy.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "WGS84",
+      "path": "WGS84.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
       "basename": "Temporal",
       "path": "Temporal.md"
     },
@@ -145,10 +169,6 @@
       "path": "OAuth.md"
     },
     {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
-    },
-    {
       "basename": "Stale-While-Revalidate",
       "path": "Stale-While-Revalidate.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Asymmetric Key Encryption",
       "path": "Asymmetric Key Encryption.md"
-    },
-    {
-      "basename": "Server-Sent Event",
-      "path": "Server-Sent Event.md"
-    },
-    {
-      "basename": "Golden Signals of Monitoring",
-      "path": "Golden Signals of Monitoring.md"
-    },
-    {
-      "basename": "Active-Active",
-      "path": "Active-Active.md"
-    },
-    {
-      "basename": "Phantom Read",
-      "path": "Phantom Read.md"
-    },
-    {
-      "basename": "GeoRouting",
-      "path": "GeoRouting.md"
     }
   ],
   "omittedPaths": [],
