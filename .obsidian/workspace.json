@@ -11,10 +11,48 @@
             "id": "8ae55eb677234ad1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Write-Ahead Log.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Write-Ahead Log"
+            }
+          },
+          {
+            "id": "18722ca6f282a015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physical Replication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Physical Replication"
             }
           }
         ]
@@ -2010,12 +2048,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "79cb704435d62d77",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 189
+        "currentTab": 190
       },
       {
         "id": "8a022290161ffefa",
@@ -2079,18 +2127,21 @@
   },
   "active": "8ae55eb677234ad1",
   "lastOpenFiles": [
+    "Physical Replication.md",
+    "Logical Replication.md",
+    "R-Tree.md",
+    "Redis.md",
+    "Write-Back Cache.md",
+    "Idempotency.md",
     "Photogrammetry.md",
     "SQLAlchemy.md",
     "Write-Through Cache.md",
-    "Write-Back Cache.md",
     "Service Token.md",
     "Cache Write Strategy.md",
     "WGS84.md",
     "Cache.md",
     "Temporal.md",
-    "Redis.md",
     "AAAA Record.md",
-    "Idempotency.md",
     "OpenID Connect.md",
     "Load Balancing Strategy.md",
     "Sticky Session.md",
@@ -2102,9 +2153,6 @@
     "Structured Token.md",
     "Opaque Token.md",
     "Full-Duplex.md",
-    "Mobile Ad Hoc Network.md",
-    "pgmq.md",
-    "Amazon Resource Name.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

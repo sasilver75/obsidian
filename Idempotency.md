@@ -96,7 +96,7 @@ Two repeated calls would deduct $200; not what our users likely want!
 	- `POST`: Not idempotent by default
 
 A non-idempotent `POST`:
-```
+```http
 POST /orders
 {
 	"itemId": "book_1"
@@ -104,8 +104,8 @@ POST /orders
 ```
 Calling this multiple times would create multiple orders.
 
-But if we use an [[Idempotency|Idempotency Key]] with a header:
-```
+But if we use an [[Idempotency|Idempotency Key]] as an HTTP header:
+```http
 POST /orders
 Idempotency-Key: order_attempt_789
 {
@@ -135,14 +135,14 @@ In this case, repeating the same command doesn't create another reservation.
 
 
 ### 2) Use Idempotency Keys
-- The client generates a unique key for a logical operation.
+- The client generates a unique key for a logical operation and sends it along as an HTTP header.
 - Servers stores the key with the result:
 ```
   idempotency_key | request_hash | status      | response
   ------------------------------------------------------------
   abc123          | h1           | completed   | payment_999
 ```
-Above: We store request hash so that the cilent can't use the same idempotency key with a different request body!
+Above: We store request hash so that the client can't use the same idempotency key with a different request body!
 - On the first request:
 	- Server receives key `abc123`
 	- Checks whether key exists, it does not, so it processes the request

@@ -3,6 +3,52 @@ aliases:
   - Rectangle Tree
   - Hilbert R-Tree
 ---
+A balanced tree [[Geospatial Index]] for spatial data, where each node stores a rectangle that bounds everything below that node. 
+
+An R-Tree doesn't subdivide *space* like a [[QuadTree]] or a [[KD-Tree]]. It subdivides *the set of objects* into groups, and then draws a ==minimum bounding rectangle== (MBR) around each group.
+- Instead of "cut the map into fixed regions, then put objects into those regions," it instead says "group nearby objects together, draw a bounding rectangle around each group, and then recursively group these rectangles."
+
+Suppose we were indexing polygons: Each polygon naturally has a MR around it:
+```
+Polygon A:
+
+      /\ 
+     /  \
+    /____\
+
+MBR of A:
+
+   +------+
+   |  /\  |
+   | /  \ |
+   |/____\|
+   +------+
+```
+
+A leaf entry then stores something like:
+```
+[MBR of polygon A] -> pointer/id for polygon A
+```
+
+An internal entry stores:
+```
+[MBR covering all child entries] -> pointer to child node
+```
+
+ So an R-Tree node might look like:
+ ```
+ Root
+├── Rectangle R1 -> child node containing objects A, B, C
+├── Rectangle R2 -> child node containing objects D, E, F
+└── Rectangle R3 -> child node containing objects G, H, I
+ ```
+Each internal rectangle is the smallest axis-aligned rectangle that contains all rectangles in that child node.
+
+
+
+
+
+_______________________________________________________________
 
 A [[Geospatial Index]], similar to [[Geohash]]es and [[QuadTree]]s., Invented in 1984
 - Variation: Hilbert R-Tree, as used in [[FlatGeobuf]] file-internal indexes.

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Write-Ahead Log",
+      "path": "Write-Ahead Log.md"
+    },
+    {
+      "basename": "Physical Replication",
+      "path": "Physical Replication.md"
+    },
+    {
+      "basename": "Logical Replication",
+      "path": "Logical Replication.md"
+    },
+    {
+      "basename": "R-Tree",
+      "path": "R-Tree.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
+      "basename": "Idempotency",
+      "path": "Idempotency.md"
+    },
+    {
       "basename": "Photogrammetry",
       "path": "Photogrammetry.md"
     },
@@ -11,10 +39,6 @@
     {
       "basename": "Write-Through Cache",
       "path": "Write-Through Cache.md"
-    },
-    {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
     },
     {
       "basename": "Service Token",
@@ -37,16 +61,8 @@
       "path": "Temporal.md"
     },
     {
-      "basename": "Redis",
-      "path": "Redis.md"
-    },
-    {
       "basename": "AAAA Record",
       "path": "AAAA Record.md"
-    },
-    {
-      "basename": "Idempotency",
-      "path": "Idempotency.md"
     },
     {
       "basename": "OpenID Connect",
@@ -183,22 +199,6 @@
     {
       "basename": "SWR",
       "path": "SWR.md"
-    },
-    {
-      "basename": "Non-Repeatable Read",
-      "path": "Non-Repeatable Read.md"
-    },
-    {
-      "basename": "Conflict Resolution",
-      "path": "Conflict Resolution.md"
-    },
-    {
-      "basename": "Eventual Consistency",
-      "path": "Eventual Consistency.md"
-    },
-    {
-      "basename": "Security Information and Event Management",
-      "path": "Security Information and Event Management.md"
     }
   ],
   "omittedPaths": [],

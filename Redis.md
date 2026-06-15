@@ -447,7 +447,7 @@ This can mean two very different strategies:
 	- This only "works" because counters are mergable, in this situation.
 	- It only helps us with Hot Keys that are hot from a ***write*** perspective. If we have a `0..15` suffix, with 15 keys, our write load on any one of these keys is 1/15 what it would be without this strategy, but because we still have to fan out reads to 15 nods, each of them receives 1/1 reads from the normal case, and you suffer from [[Tail Latency]] problems (to the extent that you'll experience this for in-memory reads).
 
-#### Option 2: Duplicate the Sam Value (for a Read-Hot cache)
+#### Option 2: Duplicate the Same Value (for a Read-Hot cache)
 - You can store the same logical value multiple times (`product:42:copy:0..4`), and reads pick one copy randomly, which distributes read load. 
 - ==Danger==: But now writes have the inverse problem from option one: You must update all copies, and that is not atomically consistent across the cluster. One write can succeed on copy 0 and fail on copy 3. Readers may see different values.
 	- This is only safe if Redis is being used a cache and the real source of truth is somewhere else (e.g. Postgres), and you can tolerate stale copies via TTLs, version numbers, invalidation, or rewrite-all-copies best effort.
