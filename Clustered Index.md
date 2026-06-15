@@ -1,4 +1,4 @@
-An index whose leaf level is the table data itself, rather than pointers to the table data on disk. Its ordering determines the physical storage ordering of the table on disk.
+An index whose leaf level is the table data itself, rather than pointers to the table data on disk. Its ordering determines the physical storage ordering of the table on disk. 
 
 
 # Comparison  with [[Primary Index]]

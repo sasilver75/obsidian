@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Apache Iceberg",
+      "path": "Apache Iceberg.md"
+    },
+    {
+      "basename": "Clustered Index",
+      "path": "Clustered Index.md"
+    },
+    {
       "basename": "Write-Ahead Log",
       "path": "Write-Ahead Log.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "OAuth",
       "path": "OAuth.md"
-    },
-    {
-      "basename": "Stale-While-Revalidate",
-      "path": "Stale-While-Revalidate.md"
-    },
-    {
-      "basename": "SWR",
-      "path": "SWR.md"
     }
   ],
   "omittedPaths": [],

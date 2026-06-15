@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Write-Ahead Log.md",
+                "file": "Apache Iceberg.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Write-Ahead Log"
+              "title": "Apache Iceberg"
             }
           },
           {
@@ -2127,6 +2127,8 @@
   },
   "active": "8ae55eb677234ad1",
   "lastOpenFiles": [
+    "Clustered Index.md",
+    "Write-Ahead Log.md",
     "Physical Replication.md",
     "Logical Replication.md",
     "R-Tree.md",
@@ -2151,8 +2153,6 @@
     "Actuator.md",
     "Log-Structured Merge Tree.md",
     "Structured Token.md",
-    "Opaque Token.md",
-    "Full-Duplex.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
