@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Photogrammetry",
+      "path": "Photogrammetry.md"
+    },
+    {
+      "basename": "SQLAlchemy",
+      "path": "SQLAlchemy.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
+      "basename": "Write-Back Cache",
+      "path": "Write-Back Cache.md"
+    },
+    {
       "basename": "Service Token",
       "path": "Service Token.md"
     },
@@ -9,20 +25,12 @@
       "path": "Cache Write Strategy.md"
     },
     {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
-    },
-    {
       "basename": "WGS84",
       "path": "WGS84.md"
     },
     {
       "basename": "Cache",
       "path": "Cache.md"
-    },
-    {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
     },
     {
       "basename": "Temporal",
@@ -191,14 +199,6 @@
     {
       "basename": "Security Information and Event Management",
       "path": "Security Information and Event Management.md"
-    },
-    {
-      "basename": "Blob Storage",
-      "path": "Blob Storage.md"
-    },
-    {
-      "basename": "Asymmetric Key Encryption",
-      "path": "Asymmetric Key Encryption.md"
     }
   ],
   "omittedPaths": [],
