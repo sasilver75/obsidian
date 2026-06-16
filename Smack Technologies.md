@@ -24,15 +24,14 @@ Founders:
 - ~~==Dan Gould==: CTO, Head of Strategy and Co-Founder~~
 	- Research background from Brown University, previously VP of technology at Tinder.
 	- [ ] Replacement: ==Paranaeha Maran==, Quantum Physics Professor from UCLA
-		- Replacement for Dan, who didn't want to grind. She isn't down in the dirt enough. 
-			- > She's a total fraud.
+		- Replacement for Dan, who didn't want to grind. She isn't down in the dirt enough.  > Seems like a grift.
 ![[Pasted image 20260508162103.png|600]]
 Above: Client (left, COO) and Andy (right, CEO)... Dan Gould (fair right) RIP
 
 
 Other important people:
 - R Phillip Castagna (Head of Engineering): [LINK](https://www.linkedin.com/in/rpc3/)
-	- Formerly SWE @ FB, Head of engineering at Condor Softawre + Ideaflow
+	- Formerly SWE @ FB, Head of engineering at Condor Software + Ideaflow
 	- Him, RPC, Tom, John... 4-5 of us are the heads of the tech side. RPC frankly is a decent boss... he kind of caters to his team, but I wouldn't look to him for a leadership guidance, but he will advocate. As a peer, hard to work.
 - Tom Plunket (Distinguished Engineer): [LINK](https://www.linkedin.com/in/tomplunket/)
 	- Formerly Tech Lead on the Maps product @ Anduril

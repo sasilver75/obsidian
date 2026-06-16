@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Smack Technologies",
+      "path": "Smack Technologies.md"
+    },
+    {
       "basename": "Apache Iceberg",
       "path": "Apache Iceberg.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Read-your-Writes Consistency",
       "path": "Read-your-Writes Consistency.md"
-    },
-    {
-      "basename": "OAuth",
-      "path": "OAuth.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Iceberg.md",
+                "file": "Smack Technologies.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apache Iceberg"
+              "title": "Smack Technologies"
             }
           },
           {
@@ -2058,12 +2058,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "32538d3c2c041976",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 190
+        "currentTab": 191
       },
       {
         "id": "8a022290161ffefa",
@@ -2127,6 +2137,7 @@
   },
   "active": "8ae55eb677234ad1",
   "lastOpenFiles": [
+    "Apache Iceberg.md",
     "Clustered Index.md",
     "Write-Ahead Log.md",
     "Physical Replication.md",
@@ -2152,7 +2163,6 @@
     "Media Access Control.md",
     "Actuator.md",
     "Log-Structured Merge Tree.md",
-    "Structured Token.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
