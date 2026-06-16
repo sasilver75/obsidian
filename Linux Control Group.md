@@ -1,0 +1,5 @@
+---
+aliases:
+  - Control Group
+  - cgroup
+---
