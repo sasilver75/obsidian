@@ -322,10 +322,155 @@ Executing commands in a container:
 # Start a shell inside a running container
 docker exec -it my-api sh
 docker exec -it my-api bash # If the image has Bash installed
+# Or just run a one-off command
+docker exec my-api node --version
+docker exec my-api env
+```
+
+Docker exec runs a command in an already-running container.
+But what if a container is exiting immediately? How do we debug?
+```bash
+# Override the startup command
+docker run --rm -it --entrypoint sh my-api:local
+docker run --rm -it my-api:local sh # Which of these two works depends on whether the image uses `ENTRYPOINT`, `CMD`, or both
+```
+A useful debugging pattern
+```bash
+docker run --rm -it --entrypoint sh --env-file .env my-api:local
+# Then, inside the container:
+ls
+env
+node dist/server.js
+```
+
+You can also inspect a container, getting a full container metadata including image ID, environment variables, mounted volumes, network settings, health status, etc.
+```bash
+docker inspect my-api
 ```
 
 
+You can copy files from host into a running container, or vice versa, though this is typically only useful for debugging, and shouldn't be part of a production deployment workflow.
+```bash
+docker cp ./local-file.txt my-api:/app/local-file.txt # From host into container
+docker cp my-api://app/localfile-txt ./local-file.txt # From container into host
+```
 
+Volumes and Mounts
+Containers have writeable filesystems, but container-local files are usually disposable when the container is killed.
+For persistent data, we use Docker volumes:
+```bash
+# Create a volume
+docker volume create app-data
+# Run a container with a volume mounted into it
+docker run --rm --mount type=volume,source=app-data,target=/app/data my-api:local
+# For simple local development, we might bind-mount a host directory
+docker run --rm --mount type=bind,source="$PWD",target=/app my-api:local
+```
+- **Volume**Managed by Docker; good for persistent container data.
+- **Bind mount**Maps a specific host path into the container; common for local development.
+
+
+Build Cache:
+- Docker builds images as layers. Docker can reuse layers when the relevant instruction and inputs have not changed.
+```bash
+# Build normally
+docker build -t my-api:local .
+# build without cache
+docker build --no-ache -t my-api:local .
+# Pull newer base images while building
+docker build --pull -t my-api:local .
+# Build using a specific Dockerfile
+docker build -f Dockerfile.production -t my-api:production .
+# Build for a specific platform (This matters on Apple Silicon machines, where cpu architcture might by arm64 instead of amd64)
+docker build --platform linux/amd64 -t my-api:linux-amd64
+```
+
+Tags and Registries
+```bash
+# Tag an image for registry
+docker tag my-api:local registry.example.com/my-api:2026-06-16
+# Log in
+docker login registry.example.com
+# Push an image
+docker push registry.example.com/my-api:2026-06-16
+# Pull it elsewhere
+docker pull registry.example.com/my-api:2026-06-16
+# A production-oriented tagging strategy often uses immutable tags:
+my-api:git-sha-abc123
+my-api:2026-06-16-1530
+# ... and maybe a mutable convenience taga
+my-api:staging
+my-api:production
+```
+
+
+A Realistic session:
+```bash
+# Start a container named `my-api` from the my-api:local image (-d: detached; --name: name of container; -p: port mapping; --env: env file; my-api:local is image name)
+docker run -d --name my-api -p 3000:3000 --env-file .env my-api:local
+# Check that it's running
+docker ps
+# Check logs (-f: follow log output)
+docker logs -f my-api
+# Call the health endpoint
+curl http://localhost:3000/healthz
+# Open a shell inisde it
+docker exec -it my-api sh
+# Stop the container
+docker stop my-api
+docker container stop my-api
+# Remove the container
+docker rm my-api
+docker container rm my-api
+# Rebuild image after code changes (-t: tag as)
+docker build -t my-api:local .
+docker image build -t my-api:local .
+# Run a fresh copy (--rm: Automaticaly remove container/volumes when it exits)
+docker run --rm -p 3000:3000 --env-file .env my-api:local
+```
+
+The most important commands to memorize, if you want to memorize any:
+```bash
+docker build -t name:tag . # Build an image from a dockerfile
+docker run --rm -p 3000:3000 name:tag # Run a container from an image
+docker ps # List containers (running, by default)
+docker ps -a # List all containers
+docker logs -f container-name # Follow log output for a container
+docker exec -it container-name sh # Exectue an interative/tty "sh" command in a container
+docker stop container-name # Stop a container
+docker rm container-name # Remove a container
+docker image ls # List images
+docker inspect container-name # Return low-level information/metadata on Docker object
+```
+
+#### More on Docker Volumes
+- A Docker volume is a Docker-managed persistent storage that can be mounted into one or more containers. 
+	- A Docker volume is external storage mounted into a container at a chosen path, so data can outlive the container and avoid being stored in the container’s disposable writable layer.
+	- Use volumes for local development and carefully managed stateful services. Prefer external managed services for production application state unless you explicitly understand the platform’s persistence, backup, replication, and scheduling behavior.
+- Important: If the image already contains files at the mount target, the mount ==*covers that directory!*== A mount replaces the container’s view of that path.
+Without containers:
+```bash
+# This downloads the postgres:17 image (if you don't have it locally) and runs it as a container under name my-postgres 
+docker run --name my-postgres postgres:17
+# When it's running, PostgreSQL writes DB files inside the container's writeable layer. If you later remove the container, then the files are removed with it.
+docker rm my-postgres
+# The Postgres files are gone. This is fine for throwaway processes, but is disastrous for stateful data.
+# A volume separates the data lifecycle from the container lifecycle!
+
+# --mount adds a filesystem to the container; type=volume says to use a Docker-managed volume, rather than doing a host bing mount
+# source=pg-data: The volume is named pg-data (docker creates if doesn't exist); target=...: inside the container, the volume appears at this path
+# For PostgreSQL specifically, /var/lib/postgresql/data is the directory wehre POstgreSQL stores its database files.
+docker run --name postgres --mount type=volume,source=pg-data,target=/var/lib/postgresql/data  postgres:17 # Modern, more explicit syntax
+docker run --name postgres -v pg-data:/var/lib/postgresql/data postgres:17 # Older shorthand for using a Docker volume
+
+# Inspect a volume
+docker volume inspect pg-data
+
+# Later, when we remvoe the contianer...
+docker rm postgres
+# We don't remove the volume! We can start a new container with the SAME volume!
+docker run --name postgres-2 -v pg-data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=example postgres:17
+```
 
 
 __________________

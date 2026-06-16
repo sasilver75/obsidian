@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Yet Another Markup Langauge.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Yet Another Markup Langauge"
             }
           }
         ]
@@ -2123,13 +2123,18 @@
   },
   "active": "18722ca6f282a015",
   "lastOpenFiles": [
+    "Kubernetes.md",
+    "_attachments/Pasted image 20260616152836.png",
+    "_attachments/Pasted image 20260616152601.png",
+    "_attachments/Pasted image 20260616152410.png",
+    "_attachments/Pasted image 20260616152323.png",
+    "_attachments/Pasted image 20260616151836.png",
+    "Docker Compose.md",
+    "Docker.md",
     "Physical Replication.md",
     "Linux Control Group.md",
-    "Docker Compose.md",
     "Reticulum Network.md",
-    "Docker.md",
     "Testcontainers.md",
-    "Kubernetes.md",
     "Smack Technologies.md",
     "Apache Iceberg.md",
     "Clustered Index.md",
@@ -2148,7 +2153,6 @@
     "Cache.md",
     "Temporal.md",
     "AAAA Record.md",
-    "OpenID Connect.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
@@ -2159,11 +2163,6 @@
     "_attachments/Pasted image 20260611163247.png",
     "_attachments/Pasted image 20260611145517.png",
     "_attachments/Pasted image 20260611133608.png",
-    "_attachments/Pasted image 20260611133334.png",
-    "_attachments/Pasted image 20260611132947.png",
-    "_attachments/Pasted image 20260611132321.png",
-    "_attachments/Pasted image 20260611131229.png",
-    "_attachments/Pasted image 20260609195202.png",
     "flashcards/system-design-questions-anki.tsv",
     "A",
     "flashcards/high-priority-system-design-anki.tsv",

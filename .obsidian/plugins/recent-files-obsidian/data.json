@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Yet Another Markup Langauge",
+      "path": "Yet Another Markup Langauge.md"
+    },
+    {
+      "basename": "Kubernetes",
+      "path": "Kubernetes.md"
+    },
+    {
+      "basename": "Docker Compose",
+      "path": "Docker Compose.md"
+    },
+    {
       "basename": "Docker",
       "path": "Docker.md"
     },
@@ -13,20 +25,12 @@
       "path": "Linux Control Group.md"
     },
     {
-      "basename": "Docker Compose",
-      "path": "Docker Compose.md"
-    },
-    {
       "basename": "Reticulum Network",
       "path": "Reticulum Network.md"
     },
     {
       "basename": "Testcontainers",
       "path": "Testcontainers.md"
-    },
-    {
-      "basename": "Kubernetes",
-      "path": "Kubernetes.md"
     },
     {
       "basename": "Smack Technologies",
@@ -195,10 +199,6 @@
     {
       "basename": "Monotonic Reads Consistency",
       "path": "Monotonic Reads Consistency.md"
-    },
-    {
-      "basename": "Partition Key",
-      "path": "Partition Key.md"
     }
   ],
   "omittedPaths": [],
