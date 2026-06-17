@@ -161,11 +161,12 @@ Above: The code defines one Terraform workspace that:
 
 
 
-
-
-
-
-
+# Comparison with [[Kubernetes]]
+- Terraform usually manages the cloud infrastructure *underneath the application.* Things like [[Virtual Private Cloud|VPC]]s, subnets, [[Amazon Identity and Access Management|IAM]] roles, [[Amazon S3|S3]] buckets, databases, DNS records, [[Amazon EC2|EC2]] instances, and often the K8s cluster itself in the form of things like [[Amazon Elastic Kubernetes Service|EKS]].
+- Kubernetes usually manages the application works that *run* on that infrastructure: Pods, Deployments, Services, Ingresses, ConfigMaps, Secrets, autoscalers, and related runtime objects.
+- The common stack is: Terraform creates the substrate (network, cluster, node groups, DB, storage, IAM), CI builds and pushes a container image, Kubernetes runs the services, Helm or Kustomize produces/customizes the Kubernetes manifests, and ArgoCD or Flux continuously applies those manifests from Git as GitOps, and Kubernetes rolls out new Pods and keeps them healthy.
+- It gets a little fuzzy because Terraform can manage Kubernetes objects, and Kubernetes can indirectly create cloud resources like load balancers or disks... but typically, Terraform is for slower-moving cloud/platform infra, and use Kubernetes plus GitOps tooling for faster-moving application development.
+	- In short: Terraform asks “what infrastructure should exist?” while Kubernetes asks “what workloads should be running on this infrastructure?”
 
 
 

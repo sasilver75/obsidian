@@ -1,6 +1,7 @@
 ---
 aliases:
   - Linearizability
+  - Strongly Consistent
 ---
 ==All reads reflect the most recent write. All readers have the same view of the system. Every operation appears to happen atomically in one instant, respecting real-time order. Once a read completes, all other later reads see it.==  The system behaves as like one up-to-date copy of the data.
 - Every operation takes effect *at one instant* between its start and finish, and real-time order is preserved.

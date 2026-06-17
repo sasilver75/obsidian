@@ -268,4 +268,41 @@ Host: api.example.com
 Upgrade: websocket
 Authorization: Bearer eyJ...
 ```
-This is usually unavailable for browser-native WS, unless you're using an environment or wrapper that supports custmo headers outside the standard browser API.
+This is usually unavailable for browser-native WS, unless you're using an environment or wrapper that supports custom headers outside the standard browser API.
+
+
+
+
+_________________
+
+Q: Who does a client actually connect to? How do we handle things like failover and retries? Is there a centralized service?
+
+A: Let's answer those in parts!
+
+### Who does the client connect to?
+The client connects to a public [[Domain Name Service|DNS]] name, for example:
+```
+wss://api.example.com/socket
+```
+The public name usually points to infrastructure, not directly to a specific application server.
+Common publicly-facing entrypoints:
+1. Load balancer: Accepts public traffic and forwards connections to backend instances
+2. Reverse proxy (e.g. NGINX): Handles TLS, routing, headers, compression, and forwards the upgraded connection
+3. API gateway: Similar idea, often managed by a cloud provider
+4. CDN or edge proxy: May proxy WebSockets i the platform supports it
+5. Direct server public IP: Possible, but less common for production systems
+
+"Passthrough" can mean two different things:
+- Layer 4 TCP passthrough: The load balancer forwards the raw TCP bytes to a backend; it doesn't understand HTTP or Websocket.
+- Layer 7 HTTP reverse proxying: The proxy understands HTTP, accepts the upgrade request itself, then keeps a long-lived upstream connection open to the selected backend. In this case, that second connection to the selected backend 
+
+### How does failover work?
+
+
+### How do we manage reconnecting?
+
+
+### Centralized WebSocket Service or Direct Service Connection?
+
+
+### The most important implementation details

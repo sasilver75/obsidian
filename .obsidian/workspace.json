@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yet Another Markup Langauge.md",
+                "file": "WebSockets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Yet Another Markup Langauge"
+              "title": "WebSockets"
+            }
+          },
+          {
+            "id": "abd2d46be442c370",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Elastic Kubernetes Service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Elastic Kubernetes Service"
             }
           }
         ]
@@ -2124,6 +2148,17 @@
   "active": "18722ca6f282a015",
   "lastOpenFiles": [
     "Kubernetes.md",
+    "Terraform.md",
+    "Amazon Elastic Kubernetes Service.md",
+    "GitOps.md",
+    "Strong Consistency.md",
+    "Kustomize.md",
+    "Flux.md",
+    "Modern TypeScript Development.md",
+    "Helm.md",
+    "OpenTelemetry.md",
+    "OpenTelemetry Protocol.md",
+    "Yet Another Markup Langauge.md",
     "_attachments/Pasted image 20260616152836.png",
     "_attachments/Pasted image 20260616152601.png",
     "_attachments/Pasted image 20260616152410.png",
@@ -2143,16 +2178,6 @@
     "R-Tree.md",
     "Redis.md",
     "Write-Back Cache.md",
-    "Idempotency.md",
-    "Photogrammetry.md",
-    "SQLAlchemy.md",
-    "Write-Through Cache.md",
-    "Service Token.md",
-    "Cache Write Strategy.md",
-    "WGS84.md",
-    "Cache.md",
-    "Temporal.md",
-    "AAAA Record.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

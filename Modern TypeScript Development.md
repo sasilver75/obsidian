@@ -327,7 +327,7 @@ describe('add', () => {
 
 - ==[[Pino]]==: Fast structured JSON logger for Node/Bun. The current default.
 - `console.log`: Still fine for small services / scripts.
-- ==[[OpenTelemetry]] JS SDK== (`@opentelemetry/*`): Vendor-neutral traces + metrics + logs.
+- ==[[OpenTelemetry Protocol|OpenTelemetry]] JS SDK== (`@opentelemetry/*`): Vendor-neutral traces + metrics + logs.
 - ==[[Sentry]]==: Error reporting, plus performance & traces. Ubiquitous in product apps.
 - For Workers/Edge: structured `console.log` + the platform's ingestion (Cloudflare Workers Logs, Vercel Logs).
 

@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Yet Another Markup Langauge",
-      "path": "Yet Another Markup Langauge.md"
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
     },
     {
       "basename": "Kubernetes",
       "path": "Kubernetes.md"
+    },
+    {
+      "basename": "Terraform",
+      "path": "Terraform.md"
+    },
+    {
+      "basename": "Amazon Elastic Kubernetes Service",
+      "path": "Amazon Elastic Kubernetes Service.md"
+    },
+    {
+      "basename": "GitOps",
+      "path": "GitOps.md"
+    },
+    {
+      "basename": "Strong Consistency",
+      "path": "Strong Consistency.md"
+    },
+    {
+      "basename": "Kustomize",
+      "path": "Kustomize.md"
+    },
+    {
+      "basename": "Flux",
+      "path": "Flux.md"
+    },
+    {
+      "basename": "Modern TypeScript Development",
+      "path": "Modern TypeScript Development.md"
+    },
+    {
+      "basename": "Helm",
+      "path": "Helm.md"
+    },
+    {
+      "basename": "OpenTelemetry Protocol",
+      "path": "OpenTelemetry Protocol.md"
+    },
+    {
+      "basename": "Yet Another Markup Langauge",
+      "path": "Yet Another Markup Langauge.md"
     },
     {
       "basename": "Docker Compose",
@@ -159,46 +199,6 @@
     {
       "basename": "Amazon Resource Name",
       "path": "Amazon Resource Name.md"
-    },
-    {
-      "basename": "Amazon Data Firehose",
-      "path": "Amazon Data Firehose.md"
-    },
-    {
-      "basename": "Amazon Elastic Container Registry",
-      "path": "Amazon Elastic Container Registry.md"
-    },
-    {
-      "basename": "Equal-Cost Multi-Path",
-      "path": "Equal-Cost Multi-Path.md"
-    },
-    {
-      "basename": "Open Systems Interconnection",
-      "path": "Open Systems Interconnection.md"
-    },
-    {
-      "basename": "Dead Letter Queue",
-      "path": "Dead Letter Queue.md"
-    },
-    {
-      "basename": "Write Skew",
-      "path": "Write Skew.md"
-    },
-    {
-      "basename": "International Traffic in Arms Regulations",
-      "path": "International Traffic in Arms Regulations.md"
-    },
-    {
-      "basename": "Wide Area Network",
-      "path": "Wide Area Network.md"
-    },
-    {
-      "basename": "Transactional Outbox Pattern",
-      "path": "Transactional Outbox Pattern.md"
-    },
-    {
-      "basename": "Monotonic Reads Consistency",
-      "path": "Monotonic Reads Consistency.md"
     }
   ],
   "omittedPaths": [],
