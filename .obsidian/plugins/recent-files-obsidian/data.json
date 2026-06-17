@@ -1,20 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
       "basename": "Kubernetes",
       "path": "Kubernetes.md"
     },
     {
-      "basename": "Terraform",
-      "path": "Terraform.md"
+      "basename": "Helm",
+      "path": "Helm.md"
+    },
+    {
+      "basename": "Alertmanager",
+      "path": "Alertmanager.md"
+    },
+    {
+      "basename": "Grafana",
+      "path": "Grafana.md"
+    },
+    {
+      "basename": "Log (Monitoring)",
+      "path": "Log (Monitoring).md"
+    },
+    {
+      "basename": "Amazon CloudWatch",
+      "path": "Amazon CloudWatch.md"
+    },
+    {
+      "basename": "Prometheus",
+      "path": "Prometheus.md"
+    },
+    {
+      "basename": "Grafana Tempo",
+      "path": "Grafana Tempo.md"
+    },
+    {
+      "basename": "Grafana Loki",
+      "path": "Grafana Loki.md"
+    },
+    {
+      "basename": "Log",
+      "path": "Log.md"
+    },
+    {
+      "basename": "Metric",
+      "path": "Metric.md"
+    },
+    {
+      "basename": "Trace",
+      "path": "Trace.md"
+    },
+    {
+      "basename": "WebSockets",
+      "path": "WebSockets.md"
+    },
+    {
+      "basename": "Write-Ahead Log",
+      "path": "Write-Ahead Log.md"
     },
     {
       "basename": "Amazon Elastic Kubernetes Service",
       "path": "Amazon Elastic Kubernetes Service.md"
+    },
+    {
+      "basename": "Terraform",
+      "path": "Terraform.md"
     },
     {
       "basename": "GitOps",
@@ -35,10 +83,6 @@
     {
       "basename": "Modern TypeScript Development",
       "path": "Modern TypeScript Development.md"
-    },
-    {
-      "basename": "Helm",
-      "path": "Helm.md"
     },
     {
       "basename": "OpenTelemetry Protocol",
@@ -83,10 +127,6 @@
     {
       "basename": "Clustered Index",
       "path": "Clustered Index.md"
-    },
-    {
-      "basename": "Write-Ahead Log",
-      "path": "Write-Ahead Log.md"
     },
     {
       "basename": "Logical Replication",
@@ -159,46 +199,6 @@
     {
       "basename": "Simplex",
       "path": "Simplex.md"
-    },
-    {
-      "basename": "Half-Duplex",
-      "path": "Half-Duplex.md"
-    },
-    {
-      "basename": "Media Access Control",
-      "path": "Media Access Control.md"
-    },
-    {
-      "basename": "Actuator",
-      "path": "Actuator.md"
-    },
-    {
-      "basename": "Log-Structured Merge Tree",
-      "path": "Log-Structured Merge Tree.md"
-    },
-    {
-      "basename": "Structured Token",
-      "path": "Structured Token.md"
-    },
-    {
-      "basename": "Opaque Token",
-      "path": "Opaque Token.md"
-    },
-    {
-      "basename": "Full-Duplex",
-      "path": "Full-Duplex.md"
-    },
-    {
-      "basename": "Mobile Ad Hoc Network",
-      "path": "Mobile Ad Hoc Network.md"
-    },
-    {
-      "basename": "pgmq",
-      "path": "pgmq.md"
-    },
-    {
-      "basename": "Amazon Resource Name",
-      "path": "Amazon Resource Name.md"
     }
   ],
   "omittedPaths": [],

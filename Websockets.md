@@ -292,17 +292,136 @@ Common publicly-facing entrypoints:
 4. CDN or edge proxy: May proxy WebSockets i the platform supports it
 5. Direct server public IP: Possible, but less common for production systems
 
-"Passthrough" can mean two different things:
+Common patterns:
 - Layer 4 TCP passthrough: The load balancer forwards the raw TCP bytes to a backend; it doesn't understand HTTP or Websocket.
 - Layer 7 HTTP reverse proxying: The proxy understands HTTP, accepts the upgrade request itself, then keeps a long-lived upstream connection open to the selected backend. In this case, that second connection to the selected backend 
+- WebSocket Gateway: The backend service that actually owns the WebSocket connection as part of the application (Rather than infra) and understands users, subscriptions, rooms, messages, authorization, presence, and reconnect behavior.
 
 ### How does failover work?
-
+- You usually cannot fail over an existing live WebSocket connection to another application server without disconnecting the client.
+- A WebSocket is backed by a TCP connection. TCP connection state lives in the client, the proxy/load balancer, and the backend server process/kernel. If the background process dies, that connection is gone.
+- Failover usually means: Detect the failure, close or lose the connection, have the client *reconnect*, restore application-level subscriptions or session state, and resume from the last known message, if the application requires reliable delivery.
 
 ### How do we manage reconnecting?
-
+- A good client usually does something like: Open Websocket connection, authenticate, subscribe to needed channels/resources, track last received event sequence number, send heartbeat or respond to server ping. If disconnected, reconnect with exponential backoff. Re-authenticate. Resubscribe. Ask for missed events since last sequence number.
+- Reconnect mechanisms can include [[Backoff|Exponential Backoff]], [[Jitter]], [[Heartbeat]]s, Session tokens, subscription replay, sequence numbers, idempotent client messages, server close codes.
 
 ### Centralized WebSocket Service or Direct Service Connection?
+There are two common designs:
+1. Each application service owns its websockets
+2. Dedicated WebSocket gateway
 
+Option A: Each application owns its own websockets
+- Client -> LB -> Chat service with WebSocket endpoint
+- This is simple when the realtime feature belongs clearly to one domain, such as chat. Fine for a small or medium app.
+- Simpler mental model, less infrastructure, and local domain logic; websocket message receipt can call service code directly.
+- On the downside, the service becomes stateful, cross-service events are harder, and we have more duplicated socket logic.
 
-### The most important implementation details
+Option B: Dedicated WebSocket Gateway
+- Client -> WebSocket gateway --(pub/sub, rpc, event routing)--> backend services
+- The gateway owns connections, and backend services publish events to the gateway through a broker or internal API. A common production architecture once realtime spans multiple domains.
+- One place for socket concerns, backend services can stay ordinary (request/response or event-driven), easier to scale realtime separately, better for many domains.
+- More moving parts, more protocol design, possible bottleneck.
+
+For many serious applications, default to this unless there's a strong reason not to:
+```
+Browser/mobile client
+  |
+  | wss://api.example.com/realtime
+  v
+Load balancer / reverse proxy
+  |
+  v
+WebSocket gateway instances
+  |
+  | subscribe/publish
+  v
+Message broker or event bus  (or just request/response)
+  |
+  +--> Chat service
+  +--> Notification service
+  +--> Document service
+  +--> Order service
+  +--> Background workers
+```
+
+The WebSocket Gateway is responsible for:
+- accepting connections
+- authenticating clients
+- tracking connected sockets
+- validating subscriptions
+- sending ping/pong heartbeats
+- enforcing rate limits
+- translating backend events into client messages
+- handling reconnect/resume
+
+_______________
+
+Q: Okay, so if we have these stateful Websocket Gateway instances (and we assume that we have > 1), then how do we route the same user packets to the same stateful websocket gateway, yes? So how do we do that? I'm familiar with [[Sticky Session]]s, where we typically use a Layer 7 load balancer with an HTTP [[Cookie]] set by the LB in the header to help it route to the right instance. But we're not in HTTP world (other than the handshake) for websockets, so... how do we do it
+
+A: For an already-open WebSocket connection, you do not route each user packet back to the same gateway. The load balancer already has a connection mapping:
+```
+client TCP connection -> LB -> WebSocket Gateway A
+```
+After the HTTP upgrade succeeds, WebSocket frames keep flowing through that same established path until the connection closes. The load balancer is not choosing a backend again for every WebSocket message.
+
+Two routing problems at play:
+- Keep one live WebSocket attached to the same gateway.
+	- Inherent connection affinity: the TCP/proxy connection is already pinned.
+- Make future WebSocket connections from the same user land on the same gateway. 
+	- Optional session affinity during the HTTP handshake.
+
+With a Layer 7 reverse proxy, the system usually looks like:
+```
+Client
+  |
+  | TCP connection 1
+  v
+Load balancer / reverse proxy
+  |
+  | TCP connection 2
+  v
+WebSocket Gateway A
+```
+The load balancer keeps both sides open, and copies bytes between them.
+
+Remember: Load balances are usually not stateful in the application sense, but are often stateful in the connection/flow sense.
+Things like:
+```
+client_ip:client_port -> lb_ip:443 maps to backend_ip:backend_port
+```
+This kind of state is much smaller and lower-level.
+Such as:
+```
+Client
+  |
+  | client-side connection #82731
+  v
+Load balancer / reverse proxy
+  |
+  | backend-side / upstream connection #55291
+  v
+Gateway A
+```
+So the load balancer's internal pairing is:
+```
+client-side connection #82731
+  is paired with
+backend-side connection #55291 to Gateway A
+```
+Note: This "two connections" model is specifically the L7 reverse-proxy model, where the proxy terminates the client connection and opens its own upstream connection.
+
+For a Layer 4 network load balancer, the model might be closer to:
+```
+Client TCP flow
+  |
+  v
+Load balancer tracks/rewrites packets
+  |
+  v
+Gateway A
+```
+In this case, the LB might not create a separate application-visible WebSocket connection to the Gateway A, it might just maintain a flow/[[Network Address Translation|NAT]] mapping. But the same idea holds:
+```
+all packets/frames for that one established WebSocket flow keep going to Gateway A
+```

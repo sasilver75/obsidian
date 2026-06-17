@@ -650,9 +650,271 @@ So how does it happen, when we say: "Make a pod?"
 
 A ==Manifest== provides a list of descriptions of "These are all the things I want" in a [[Yet Another Markup Langauge|YAML]] file.
 
+The first manifest we'll look at is a Pod:
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+	name: nginx
+spec: # This is where you put in your "order" about how you want your pod to be built
+	containers:
+	- name: nginx
+	  image: nginx:1.14.2 # This is where you want to be the most careful!
+	  ports:
+	  - containerPort: 80
+
+```
+- You'll see apiVersion, kind, and metadata inside *all* manifests.
+	- apiVersion: Everything in K8s is communicated through APIs... there are many inside a K8s cluster, and all of these different APIs are configured to work with different types of objects. v1 is the one that's proficient at creating pods. It's super important that you get the apiVersion value correct.
+
+Let's start building our first pods!
+First, let's learn some fundamental kubectl commands
+```bash
+# returns a list of whatever object you're asking for
+kubectl get <object>
+kubectl get pod
+> No resources found in default namespace.
+```
+Let's create a manifest, then, in `podmanifest.yml`, like the one above.
+Now let's create a pod from that manifest
+```bash
+# I would like to apply what is at this file location:
+# If this pod doesn't exist, kubectl apply will create it. We're applying what's in the manifest against the cluster
+kubectl apply -f podmanifest.yml
+# now
+kubectl get pods
+> NAME READY STATUS RESTARTS AGE
+> nginx 0/1  ConatinerCreating 0 6s
+# Remember taht we put one container in our pod? Just Nginx?
+# We can see that we have 0/1, as a result.
+# If we run Kubectl get again... there are zero restarts. When you see a lot of restarts on a pod, that's a big red flag. Something is causing that pod to die, and it needs to get fixed.
+```
+
+Next command, let's learn about describe
+```bash
+# kubectl descrbies brings up detailed information about a resource
+# kubectl describe RESOURCE RESOURCE_NAME
+kubektl descrribe pod nginx
+# Gives a huge output. Good for double-checking that resources have been created.
+# At the bottom of the output is a section called Events. If a resoruce is busted or not working, describe should be the first tool to reach for, because you'll often see in the Events section what you goofed up.
+```
+Let's delete resources
+```bash
+# kubectl delete RESOURCE RESOURCE_NAME
+kubectl delete -f podmanifest.yml
+# If we don't have the manifest or don't want to go looking for the manifest...
+kubectl delete pod nginx
+```
+
+Let's talk about namespaces
+```bash
+kubectl get pods
+> No resources foudn in default namespace
+
+kubectl get namespace
+NAME   STATUS   AGE
+default Active 23h
+kube-node-least Active 23h
+kube-public Active 23h
+kube-system Active 23h
+```
+
+So I'm just not looking in the right place!
+```bash
+kubectl get pods -n kube-system
+# Shows some system-integral pods, which are the ones that hold our clustser together.
+```
+
+It's easy to make new namespaces (we'll do it imperatively at the command line)
+```bash
+# Creat a "demo" namespace
+kubectl create ns demo
+
+# Offscreen, we'll hop back in our nginx .yml manifest from earlier.
+# If you don't set where the manifest is supposed to go, it goes to the default namespace.
+# You can add a namespace key under "metadata" section though, "namespace: demo"
+kubectl apply -f podmanifest.yml
+> pod/nginx created
+
+kubectl get pod
+> No resources found in default namespace
+
+# These pods are inside of the "demo" namespace!
+kubectl get pod -n demo
+NAME READY STATUS RESTARTS AGE
+nginx 1/1  Running 0  16s
+```
+
+You need to be sure that when resources are created, you aren't taking more than your fair share of resources (cpu, memory, etc). 
+We can create resource quotas, which attach to namespaces and set rules about the limits of what everything in a namespace is allowed to consume.
+- Resource quotas attach to namespaces.
+
+YAML to define one looks like:
+```yaml
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+	name: tiny-rq
+spec:
+	hard:
+		cpu: "1" # one core of CPU
+		memory: 1Gi # One gig of memory
+```
+`kubectl apply -f my-tiny-rq.yaml -n demo`
+Now you can see that our resource quota has been applied:
+```bash
+kubectl describe ns demo
+# Any pod created in the resource now have to adhere to these resource consumption rules.
+```
+
+Let's talk about this `apiVersion` line that's inside each manifest.
+- Let's imagine that the day is yesterday, a manifest with `apiVersion: vHonkabonka` worked... and today, we rolled out a new cluster at a later version than the one we had yesterday. Suddenly, your manifests don't work. 'There are no matches for kind "Pod" in version "vHonkabonka"'
+- When you're upgrading Kubernetes, you're upgrading its APIs, its ability to recognize, configure, and manage different kinds of resources!
+	- If you want to be a real pro at K8s, every time that someone talks about upgrading a cluster, I just want you to groan loudly; no one likes upgrading clusters, it's such a huge pain!
 
 
+Remember: A K8s cluster is an aggregate of all the nodes that are networked together to create one whole.
+You constantly have to keep an eye on how many resources can be consumed, and set reasonable guideposts and guardrails to make sure that wasn't being exceeded.
 
+```bash
+kubectl top nodes
+> error: Metrics API not available
+```
+We need to first apply a manifest:
+```bash
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/downlaod/components.yaml
+```
+This manifest is provided by a Github repo from Kubernetes.... this is going to make a whole bunch of objects. We need to give it a minute to spin up. We just created a bunch of Pods that are gathering/harvesting information about a bunch of pods in our cluster.
+
+```bash
+kubectl top nodes
+> NAME CPU(cores) CPU% MEMORY(bytes) MEMORY%
+> node-1 70m 3% 1258Mi 33%
+> node-2 ...
+# Cool, it shows what percentage of available CPU and memory has been used on the nodes in our cluster!
+
+# We can also use it for pods
+kubectl top pods
+> No resources found in current namespace
+
+# Okay, let's look in all namespaces!
+kubectl top pods -A
+NAMESPACE NAME CPU(cores) MEMORY(byteS)
+demo nginx 0m 1Mi
+kube-system calico-kube-controllers-6f... 4m 13Mi
+kube-system calico-node-wgnd 45m 117Mi
+...
+```
+
+We're going to continue talking about resource control.
+We're going to be editing our pod manifests, and give them more parameters, and make them more inline with the way we want them to behave. We want them to behave themselves when it comes to resource consumption; the containers in our pods need ==resources== to live (we don't want them to starve!) but we don't want them to be pigs, either!
+
+**==REQUESTS==** are parameters that you can set in your manifest that guarantees that your pod has a certain amount of resources. This is good, or otherwise they'll starve! 
+==**LIMITS**:== It's not unheard of for containers to go amok and consume limitless amounts of resources. Limits put a hard cap on the number of resources a container can shove in their face.
+
+Let's add to our manifest:
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+	name: demo-pod
+spec:
+	containers:
+	- name: nginx
+	  image: nginx:1.14.2
+	  resources:
+		  requests:
+			  cpu: 250m # 1 core is equal to 1000 "millicore"
+			  memory: "65M"
+		  limits: # limits must be at least the same as requests, or you get an error
+			  cpu: 500m
+			  memory: "130M"
+```
+Let's take a look back at our demo namespace from earlier:
+- Remember that we put a resource quota on it earlier?
+
+When we run `kubectl apply -f manifest.yml -n demo`
+We immediately see the Used resource quotas jump to 250m/65M!
+
+**RESOURCEQUOTAS**: Even when you've restricted your containers via requests/limits, at some point you're going to hit the maximum resources your namespace is allowed to use.
+- At a certain point, the club is full-up: go home, new entrants!
+- New pods would perhaps not be allowed to be created in our cluster.
+
+
+==Probes== are basically watchdogs you can put on individual pods to look out for an enforce certain behavior
+![[Pasted image 20260617114454.png]]
+- When you place a probe on a ***container***... that probe is constantly poking that container with a stick. Every couple of seconds or so, it asks "Hey, are you ok?", and the container replies "OMG, Yes!" and this happens over and over again, forever.
+- But there are two kinds of probes
+	- ==Liveness Probes==: When the container is probed by the probe and you get no response back at all, or the response comes too late, the probe says "Okay, that's a strike!" After a predetermined number of consecutive strikes, the probe *kills the container!* Because turning it off/on again is a time-honored technique of troubleshooting.
+	- ==Readiness Probes==: Also checks to see if a container is responsive... but it doesn't kill a non-responsive container. It's the gentle parent: "Ohh, little Timmy isn't awake yet, everyone, leave Timmy the container alone until he's ready, I don't want any traffic to go to him". That pod is removed from any predetermined settings we have that allow other pods/resources to communicate with it. Putting Readiness Probes makes sure that things are ready before they're being accessed.
+
+
+We can define them in manifests:
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+	name: sise-lp
+spec:
+	containers:
+	- name: sise
+	  image: mhausenblas/simpleservice:0.5.0
+	  ports:
+	  - containerPort: 9875
+	  livenessProbe: # Note that it's put on a container.
+		initialDelaySeconds: 2 # How soon after creation do we start probing?
+		periodSeconds: 5 # How often thereafter do we probe?
+		timeoutSeconds: 1 # How long are we giving the container to respond?
+		failureThreshold: 3 # How many consecutive failures before we kill this container?
+		httpGet:  # the method of the probe; what's the "stick" the probe is useing to tap?
+			path: /health
+			port: 9876 # We're sending GET requests to container:9876 /health
+```
+You can tweak these using all sorts of different parameters, etc... What's super nice is that the difference between writing a liveness probe and readiness probe is virtually nil:
+- We could literally change `livenessProbe` to `readinessProbe` and the arguments would still work!
+	- Instead of killing the container, it would just turn off traffic to the pod when the failure threshold is reached.
+
+Let's see kubectl run, which is a quick and dirty way of creating a pod without needing a manifest
+```bash
+# This is going to make a pod called demopod, using the nginx image
+kubectl run demopod --image=nginx
+> pod/demopod created
+
+# If I use port-forward against a pod, I can choose a local port to connect to the container port inside the nginx container itself: LOCALPORT:CONTAINERPORT
+# In the nginx container, port 80 is exposed for HTTP. For local port, it could be any TCP port that's available on your system.
+kubectl port-forward demopod 2224:80
+
+# Now, in a differen t terminal, we can:
+curl localhost:2224
+# And we seee in our pod that we're hitting :80
+```
+
+I'm going to use a kubectl exec command to open an interactive terminal inside my pod
+```bash
+kubectl exec -it demopod -- sh
+# Now we're inside our demo contaienr, and we can make changes
+mkdir -p var/www
+echo "HELP I'M STUCK IN A CONTAINER AND I CAN'T GET OUT!"
+```
+
+Say  I have a local file that I want to take and copy into a pod:
+```bash
+# Take my local nginx.conf file and put it in the demopod pod at the path etc/ngingx/nginx.conf, overwriting any file if it's there.
+kubectl cp nginx.conf demopod:etc/nginx/nginx.conf
+
+curl localhost:2224
+> HELP I'M STUCK IN A CONTAINER AND I CAN'T GET OUT!
+
+# What if we delete our pod?
+kubectl delete pod --all
+> pod "demopod" deleted
+
+# Let's recreate it
+kubectl run demopod --image=nginx
+# But now if we run our same command... we won't see our changes! Contaienrs are stateless; all the changes were made to the old container, they're dead and gone.
+```
+
+So how do we take ephemeral things like pods and containers and be able to push configurations to it?
 
 
 

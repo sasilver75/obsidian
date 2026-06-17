@@ -82,7 +82,7 @@ Terms
 - [[Backpressure]]: A mechanism for slowing producers when consumers or downstream systems cannot keep up. Use it in queues, streams, APIs, and pipelines to prevent unbounded memory growth and cascading overload.
 - [[Observability]]: The ability to understand a system's internal state from external signals such as logs, metrics, and traces. Design it early because production debugging depends on signals captured before the incident happens.
 - [[Logging]]: Recording discrete events and contextual details to support debugging, auditing, and operations. Use logs for high-cardinality context and narratives, but avoid leaking secrets or relying on logs for every metric.
-- [[Metrics]]: Numeric time-series measurements that summarize system behavior over time. Use metrics for alerting, dashboards, capacity planning, and trend detection.
+- [[Metric]]: Numeric time-series measurements that summarize system behavior over time. Use metrics for alerting, dashboards, capacity planning, and trend detection.
 - [[Tracing]]: Tracking a request or workflow across services to understand latency, dependencies, and failure paths. Use it in distributed systems where a single user action crosses many services or async boundaries.
 - [[OpenTelemetry Protocol|OpenTelemetry]]: A standard ecosystem for collecting, processing, and exporting telemetry such as traces, metrics, and logs. Use it to avoid vendor lock-in and to standardize instrumentation across services.
 - [[Horizontal Scaling]]: Increasing capacity by adding more instances, nodes, or workers. Prefer it when the workload can be partitioned or replicated cleanly across machines.
