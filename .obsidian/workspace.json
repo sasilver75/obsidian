@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "851eec60af1cf887",
+            "id": "376390fc783a2086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grafana.md",
+                "file": "Amazon Bedrock.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,203 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Grafana"
-            }
-          },
-          {
-            "id": "a7e8cd92040a5236",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Kubernetes"
-            }
-          },
-          {
-            "id": "5fad3b4d93307de9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon CloudWatch.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Amazon CloudWatch"
-            }
-          },
-          {
-            "id": "a8824ccbda064efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Log (Monitoring).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Log (Monitoring)"
-            }
-          },
-          {
-            "id": "8dc0b5612254a7a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Log.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Log"
-            }
-          },
-          {
-            "id": "be0de88dc89b2a13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metric.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Metric"
-            }
-          },
-          {
-            "id": "4e1b7ada0b2d1265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trace.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Trace"
-            }
-          },
-          {
-            "id": "4e4a2867c986b1a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Write-Ahead Log.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Write-Ahead Log"
-            }
-          },
-          {
-            "id": "abd2d46be442c370",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon Elastic Kubernetes Service.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Elastic Kubernetes Service"
+              "title": "Amazon Bedrock"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2271,12 +2079,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "a1157dd2df95f6dd",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 192
+        "currentTab": 193
       },
       {
         "id": "8a022290161ffefa",
@@ -2338,8 +2156,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a7e8cd92040a5236",
+  "active": "376390fc783a2086",
   "lastOpenFiles": [
+    "Amazon Athena.md",
+    "Amazon Elastic Container Registry.md",
+    "Cache.md",
+    "Amazon Certificate Manager.md",
+    "Base62.md",
+    "Amazon Fargate.md",
+    "Index.md",
+    "System Design (Index).md",
+    "Amazon Elastic Container Service.md",
+    "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
+    "Redirect.md",
+    "Amazon Elastic Kubernetes Service.md",
+    "bra.md",
+    "Prometheus.md",
+    "Amazon Cognito.md",
+    "Amazon Lambda.md",
+    "Serverless.md",
+    "Grafana.md",
+    "Write-Ahead Log.md",
+    "Trace.md",
+    "Metric.md",
+    "Log.md",
+    "Log (Monitoring).md",
+    "Amazon CloudWatch.md",
+    "Kubernetes.md",
+    "_attachments/Pasted image 20260617120435.png",
+    "_attachments/Pasted image 20260617120412.png",
+    "_attachments/Pasted image 20260617120352.png",
     "_attachments/Pasted image 20260617114454.png",
     "_attachments/Pasted image 20260617114453.png",
     "Helm.md",
@@ -2348,34 +2194,6 @@
     "_attachments/Pasted image 20260617102221.png",
     "_attachments/Pasted image 20260617102107.png",
     "_attachments/Pasted image 20260617101951.png",
-    "_attachments/Pasted image 20260617101921.png",
-    "_attachments/Pasted image 20260617101823.png",
-    "Alertmanager.md",
-    "Grafana.md",
-    "Log (Monitoring).md",
-    "Amazon CloudWatch.md",
-    "Prometheus.md",
-    "Grafana Tempo.md",
-    "Grafana Loki.md",
-    "Log.md",
-    "Metric.md",
-    "Trace.md",
-    "WebSockets.md",
-    "Write-Ahead Log.md",
-    "Amazon Elastic Kubernetes Service.md",
-    "Kubernetes.md",
-    "Terraform.md",
-    "GitOps.md",
-    "Strong Consistency.md",
-    "Kustomize.md",
-    "Flux.md",
-    "Modern TypeScript Development.md",
-    "OpenTelemetry.md",
-    "OpenTelemetry Protocol.md",
-    "Yet Another Markup Langauge.md",
-    "_attachments/Pasted image 20260616152836.png",
-    "_attachments/Pasted image 20260616152601.png",
-    "Docker Compose.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

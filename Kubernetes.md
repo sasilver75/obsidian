@@ -916,8 +916,75 @@ kubectl run demopod --image=nginx
 
 So how do we take ephemeral things like pods and containers and be able to push configurations to it?
 
+If you have experience working with Docker and Volumes, that will translate 100%.
+
+![[Pasted image 20260617120412.png]]
+A ConfigMap which has the config file in it, will be mounted to the volume itself.
+The volume is then mounted to the container at a specific mount point, which will be some arbirtrary directory in the container itself.
+You can mount this ConfigMap to as many pods as you want
+![[Pasted image 20260617120435.png]]
+Such that configuration changes only need to be done in one place.
+
+Let's write a Manifest to pull that off, but first, make a configmap.
+```bash
+# We're goign to cheat, using a kbuectl create command
+
+In a heroes.txt file...
+Superman
+Batman
+Wonderwoman
+Flash
+
+kubectl create configmap dem-heroes --from-file=heroes.txt
+> configmal/dem-heroes created
+
+kubectl get configmaps # or use "cm" instead of configmaps
+NAME DATA AGE
+dem-heroes 1 4s
+kube-root-ca.crt 1 24h
+
+# If I run describe:
+kubectl describe cm dem-heroes
+# We get, among other things, the contents of that config file as text.
+# You're not putting anything huge in ConfigMaps. 
+
+# Let's hop inside of our Pod manifest from earlier...
+apiVersion: v1
+kind: Pod
+metadata:
+  name: demo-pod
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.14.2
+      # STEP 2: Add the volume to the container
+      volumeMounts:
+        - name: dc-heroes
+          mountPath: /heroes # overwrites existing directories
+  volumes: # STEP 1: Add the configmap as a volume to the pod
+    - name: dc-heroes
+      configMap: # note the capital M... lowerCamelCase is a thing in k8s
+        name: dc-heroes
 
 
+# Let's now create our pod
+kubectl apply -f podmanifest.yml
+> pod/demo-pod created
+
+# Now if we jump in that pod
+kubectl exec -it demo-pod -- sh
+ls
+# We see heroes/, and inside of it, we see heroes.txt
+```
+
+
+Let's talk about Secrets, which are similar to ConfigMaps in many ways.
+- Note: Secrets do not encrypt  right out of the box!
+- There are many different kinds:
+	- Some for SSH authentication, some for Basic Authentication, some for ServiceAccount tokens, etc. The generic types of secrets are ones that are just `Opaque`.
+
+
+==Got Bored at 1:19:25 in [this video](https://youtu.be/MTHGoGUFpvE?si=b18qRwIJ-zdTuF92), maybe return==
 
 ______________
 

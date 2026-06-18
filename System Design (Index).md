@@ -262,6 +262,15 @@ Terms
 - [[Encryption in Transit]]: Encrypting data while it crosses networks so intermediaries cannot read or tamper with it.
 
 
+_____________
+
+# Useful tips for interviews
+
+- "I'm going to hold off on capacity estimations for now, and do them later if needed when they would directly inform a decision or direction that we take in our design."
+- "I'm blackboxing this for now (e.g. how a unique, random shortURL is generated, exactly), but I'll come back to it later."
+- Using a monotonically-increasing counter with [[Base62]] encoding for the URL shortener problem (downside is that it has predictability, which is bad for security... e.g. someone could scrape all of our URLs). Can improve this with a bijective function (which issue a 1:1 mapping). `sqids.org` is one of the more popular libraries; it takes a number and returns a Base62-encoded string.... but 1:1 maps it with some obfuscation so that you can't just know how to get the next shortURL if you're an attacker and trying to scrape.
+
+
 
 _______________
 

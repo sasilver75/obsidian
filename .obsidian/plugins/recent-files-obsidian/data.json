@@ -1,6 +1,106 @@
 {
   "recentFiles": [
     {
+      "basename": "Amazon Bedrock",
+      "path": "Amazon Bedrock.md"
+    },
+    {
+      "basename": "Amazon Athena",
+      "path": "Amazon Athena.md"
+    },
+    {
+      "basename": "Amazon Elastic Container Registry",
+      "path": "Amazon Elastic Container Registry.md"
+    },
+    {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
+      "basename": "Amazon Certificate Manager",
+      "path": "Amazon Certificate Manager.md"
+    },
+    {
+      "basename": "Base62",
+      "path": "Base62.md"
+    },
+    {
+      "basename": "Amazon Fargate",
+      "path": "Amazon Fargate.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Index.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Amazon Elastic Container Service",
+      "path": "Amazon Elastic Container Service.md"
+    },
+    {
+      "basename": "Design Bit.ly",
+      "path": "Courses/SystemDesign/Case Studies/Design Bit.ly.md"
+    },
+    {
+      "basename": "Redirect",
+      "path": "Redirect.md"
+    },
+    {
+      "basename": "Amazon Elastic Kubernetes Service",
+      "path": "Amazon Elastic Kubernetes Service.md"
+    },
+    {
+      "basename": "bra",
+      "path": "bra.md"
+    },
+    {
+      "basename": "Prometheus",
+      "path": "Prometheus.md"
+    },
+    {
+      "basename": "Amazon Cognito",
+      "path": "Amazon Cognito.md"
+    },
+    {
+      "basename": "Amazon Lambda",
+      "path": "Amazon Lambda.md"
+    },
+    {
+      "basename": "Serverless",
+      "path": "Serverless.md"
+    },
+    {
+      "basename": "Grafana",
+      "path": "Grafana.md"
+    },
+    {
+      "basename": "Write-Ahead Log",
+      "path": "Write-Ahead Log.md"
+    },
+    {
+      "basename": "Trace",
+      "path": "Trace.md"
+    },
+    {
+      "basename": "Metric",
+      "path": "Metric.md"
+    },
+    {
+      "basename": "Log",
+      "path": "Log.md"
+    },
+    {
+      "basename": "Log (Monitoring)",
+      "path": "Log (Monitoring).md"
+    },
+    {
+      "basename": "Amazon CloudWatch",
+      "path": "Amazon CloudWatch.md"
+    },
+    {
       "basename": "Kubernetes",
       "path": "Kubernetes.md"
     },
@@ -13,22 +113,6 @@
       "path": "Alertmanager.md"
     },
     {
-      "basename": "Grafana",
-      "path": "Grafana.md"
-    },
-    {
-      "basename": "Log (Monitoring)",
-      "path": "Log (Monitoring).md"
-    },
-    {
-      "basename": "Amazon CloudWatch",
-      "path": "Amazon CloudWatch.md"
-    },
-    {
-      "basename": "Prometheus",
-      "path": "Prometheus.md"
-    },
-    {
       "basename": "Grafana Tempo",
       "path": "Grafana Tempo.md"
     },
@@ -37,28 +121,8 @@
       "path": "Grafana Loki.md"
     },
     {
-      "basename": "Log",
-      "path": "Log.md"
-    },
-    {
-      "basename": "Metric",
-      "path": "Metric.md"
-    },
-    {
-      "basename": "Trace",
-      "path": "Trace.md"
-    },
-    {
       "basename": "WebSockets",
       "path": "WebSockets.md"
-    },
-    {
-      "basename": "Write-Ahead Log",
-      "path": "Write-Ahead Log.md"
-    },
-    {
-      "basename": "Amazon Elastic Kubernetes Service",
-      "path": "Amazon Elastic Kubernetes Service.md"
     },
     {
       "basename": "Terraform",
@@ -135,70 +199,6 @@
     {
       "basename": "R-Tree",
       "path": "R-Tree.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Redis.md"
-    },
-    {
-      "basename": "Write-Back Cache",
-      "path": "Write-Back Cache.md"
-    },
-    {
-      "basename": "Idempotency",
-      "path": "Idempotency.md"
-    },
-    {
-      "basename": "Photogrammetry",
-      "path": "Photogrammetry.md"
-    },
-    {
-      "basename": "SQLAlchemy",
-      "path": "SQLAlchemy.md"
-    },
-    {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
-    },
-    {
-      "basename": "Service Token",
-      "path": "Service Token.md"
-    },
-    {
-      "basename": "Cache Write Strategy",
-      "path": "Cache Write Strategy.md"
-    },
-    {
-      "basename": "WGS84",
-      "path": "WGS84.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
-    },
-    {
-      "basename": "Temporal",
-      "path": "Temporal.md"
-    },
-    {
-      "basename": "AAAA Record",
-      "path": "AAAA Record.md"
-    },
-    {
-      "basename": "OpenID Connect",
-      "path": "OpenID Connect.md"
-    },
-    {
-      "basename": "Load Balancing Strategy",
-      "path": "Load Balancing Strategy.md"
-    },
-    {
-      "basename": "Sticky Session",
-      "path": "Sticky Session.md"
-    },
-    {
-      "basename": "Simplex",
-      "path": "Simplex.md"
     }
   ],
   "omittedPaths": [],

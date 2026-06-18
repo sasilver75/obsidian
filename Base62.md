@@ -1,7 +1,7 @@
 
 Uses 0-9, A-Z, a-z
 
-The use case that I've seen for this is in the context of URL shortening, where we want to turn a URL like https://www.canoeclub.com/sale into a ShortURL
+The use case that I've seen for this is in the context of ==URL shortening==, where we want to turn a URL like https://www.canoeclub.com/sale into a ShortURL. The reason is that by losing `+` and `/` and `=` padding from Base64, we avoid all special characters, making it ==URL-safe!==
 - To keep it short (like 5-7 characters, so someone can even type it in if they wanted), we want to somehow encode it into a more dense format.
 - The reason that we don't use the 
 - So what we can do is is **something like**:

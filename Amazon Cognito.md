@@ -1,0 +1,10 @@
+---
+aliases:
+  - AWS Cognito
+  - Cognito
+---
+
+
+
+
+
