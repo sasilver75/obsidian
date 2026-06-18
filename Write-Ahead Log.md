@@ -70,4 +70,11 @@ LSN 130: COMMIT transaction 42
 
 
 
-
+# Physical, Logical, and Physiological logging
+There are several styles of logging:
+- Physical logging: Log describes byte-level or page-level changes ("On page 12, change bytes 80-90")
+	- Can be forward to redo/undo in [[Database Recovery|Crash Recovery]], but can be verbose.
+- Logical logging: High-level operation ("Insert row with id 5 into table users")
+	- Can be compact and flexible, but redo must be careful because the logical operation may not be repeatable in exactly the same environment.
+- Physiological logging: Logical operation within a physical page ("On page 12, insert this record")
+	- A common compromise between physical/logical.
