@@ -21,7 +21,7 @@ UPDATE orders
   WHERE id = 'order_123'
     AND version = 7;
 ```
-And then the app checks affected rows:
+And *then* the app checks affected rows:
 ```
 - 1 row updated: success
 - 0 rows updated: conflict; reload and retry/merge/reject

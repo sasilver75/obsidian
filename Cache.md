@@ -13,7 +13,7 @@ We need to consider:
 	- [[Read-Through Cache|Read-Through]]: Application only reads from the cache. On a miss, the cache itself reads the appropriate data from the database, updates itself, and serves the result to the application.
 	- [[Cache-Aside]]: Application first reads from the cache. On a miss, the application fetches the value from the database, stores it in the cache, and returns the result.
 - [[Cache Write Strategy]] (What do we do when we want to write data?)
-	- [[Write-Through Cache]]:  Write to BOTH the cache and the underlying datastore **simultaneously**! Ensures that your cache is **consistent** with your backing datastore, but can be **slower** for write operations since you have to do something like [[Two-Phase Commit|2PC]]
+	- [[Write-Through Cache]]:  Write to BOTH the cache and the underlying datastore! Ensures that your cache is **consistent** with your backing datastore, but can be **slower** for write operations since you have to do something like [[Two-Phase Commit|2PC]]. Typically the cache itself manages the write back to the backing datastore on behalf of the application; the point is that before the write is confirmed, the data 
 	- [[Write-Around Cache]]: Data only written to DB; Data is pulled into the cache on a miss. Faster write and DB is source of truth, but Cache misses can be expensive.
 	- [[Write-Back Cache]]: An application writes directly to the Cache, and at some point the Cache asynchronously writes to Database. Super fast, and if you aren't reading from the Cache, you might not see the latest writes, plus list of data loss.
 - [[Cache Invalidation Strategy]]: Focuses on data *freshness* (ensuring no data of a certain staleness is served)

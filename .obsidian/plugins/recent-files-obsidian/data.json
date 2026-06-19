@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Cache",
+      "path": "Cache.md"
+    },
+    {
+      "basename": "Write-Through Cache",
+      "path": "Write-Through Cache.md"
+    },
+    {
+      "basename": "Cache Consistency",
+      "path": "Cache Consistency.md"
+    },
+    {
+      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
+      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
+    },
+    {
+      "basename": "Pessimistic Concurrency Control",
+      "path": "Pessimistic Concurrency Control.md"
+    },
+    {
+      "basename": "Optimistic Concurrency Control",
+      "path": "Optimistic Concurrency Control.md"
+    },
+    {
+      "basename": "Read Skew",
+      "path": "Read Skew.md"
+    },
+    {
+      "basename": "Sticky Session",
+      "path": "Sticky Session.md"
+    },
+    {
       "basename": "Refresh Token",
       "path": "Refresh Token.md"
     },
@@ -47,10 +79,6 @@
     {
       "basename": "Amazon Elastic Container Registry",
       "path": "Amazon Elastic Container Registry.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
     },
     {
       "basename": "Amazon Certificate Manager",
@@ -171,34 +199,6 @@
     {
       "basename": "Modern TypeScript Development",
       "path": "Modern TypeScript Development.md"
-    },
-    {
-      "basename": "OpenTelemetry Protocol",
-      "path": "OpenTelemetry Protocol.md"
-    },
-    {
-      "basename": "Yet Another Markup Langauge",
-      "path": "Yet Another Markup Langauge.md"
-    },
-    {
-      "basename": "Docker Compose",
-      "path": "Docker Compose.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Docker.md"
-    },
-    {
-      "basename": "Physical Replication",
-      "path": "Physical Replication.md"
-    },
-    {
-      "basename": "Linux Control Group",
-      "path": "Linux Control Group.md"
-    },
-    {
-      "basename": "Reticulum Network",
-      "path": "Reticulum Network.md"
     }
   ],
   "omittedPaths": [],

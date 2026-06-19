@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Refresh Token.md",
+                "file": "Cache.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Refresh Token"
+              "title": "Cache"
             }
           }
         ]
@@ -2133,6 +2133,15 @@
   },
   "active": "18722ca6f282a015",
   "lastOpenFiles": [
+    "Write-Through Cache.md",
+    "Cache Consistency.md",
+    "Cache.md",
+    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
+    "Pessimistic Concurrency Control.md",
+    "Optimistic Concurrency Control.md",
+    "Read Skew.md",
+    "Sticky Session.md",
+    "Refresh Token.md",
     "Prometheus.md",
     "Alertmanager.md",
     "Database Recovery.md",
@@ -2144,21 +2153,12 @@
     "Amazon Bedrock.md",
     "Amazon Athena.md",
     "Amazon Elastic Container Registry.md",
-    "Cache.md",
     "Amazon Certificate Manager.md",
     "Base62.md",
     "Amazon Fargate.md",
     "Index.md",
     "System Design (Index).md",
     "Amazon Elastic Container Service.md",
-    "Courses/SystemDesign/Case Studies/Design Bit.ly.md",
-    "Redirect.md",
-    "Amazon Elastic Kubernetes Service.md",
-    "bra.md",
-    "Amazon Cognito.md",
-    "Amazon Lambda.md",
-    "Serverless.md",
-    "Grafana.md",
     "_attachments/Pasted image 20260617120435.png",
     "_attachments/Pasted image 20260617120412.png",
     "_attachments/Pasted image 20260617120352.png",

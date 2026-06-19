@@ -2,7 +2,6 @@
 aliases:
   - Session Affinity
 ---
-
 A [[Load Balancing]] routing behavior where requests from the same client are consistently routed to the same backend server for some period of time.
 
 Some applications store user/session state locally on one server; we want successive requests to be routed to that server. The load balancer needs to either remember or reliably calculate that "this client" needs to go to "that backend server." Especially important for things like [[WebSockets|WebSocket]]s and other long-lived connections.
@@ -73,6 +72,7 @@ cookie = base64(payload) + "." + HMAC(secret_key, payload)
 2. ==Lookup Key into Load Balancer State== ([[Opaque Token]])
 	- `Set-Cookie: LB_STICKY=s-79d42b0c9a; Path=/; Secure; HttpOnly; Max-Age=1800`
 	- The load balancer stores a mapping internally: `s-79d42b0c9a -> app-b`
+		- Of course, if you have multiple load balancers (e.g. active-active), then you have to externalize this state, which can incur additional latency.
 	- Later, client sends cookie with `LB_STICKY=s-79d42b0c9a`, load balancer looks it up, and sees that it routes to `app-b`. 
 	- This avoids exposing backend identity to the client, but requires that the LB maintains affinity state, and potentially replicate that state across load balancer nodes.
 

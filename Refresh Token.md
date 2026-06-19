@@ -1,6 +1,6 @@
 
 A longer-lived credential used to get a new short-lived (e.g.) [[Access Token]] without making the user log in again. It is used only to get a new short-lived access token when the old access token expires or is about to expire.
-- Note: Typically used for [[structured tok-based systems (JWTs, OAuth 2.0, OIDC), while traditional opaque-token ***cookie-based server sessions usually do not need a separate refresh token.***
+- Note: Typically used for [[Structured Token|Structured]] token-based systems (JWTs, OAuth 2.0, OIDC), while traditional [[Opaque Token|Opaque]] token ***cookie-based server sessions usually do not need a separate refresh token.***
 
 We need refresh tokens so that access tokens can stay short-lived, so that if an access token leaks, it stops working soon, while the refresh token can be protected more tightly, revoked, rotated, and used only to issue new access tokens.
 

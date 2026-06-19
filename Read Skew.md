@@ -52,3 +52,5 @@ Read Skew is closely related to a [[Non-Repeatable Read]], but the emphasis is d
 - Write skew is a *write anomaly:* two transactions each make a decision from a valid snapshot, then write different rows in a way that jointly violates an invariant.
 - Read skew is a read anomaly: A transaction observes an inconsistent state.
 
+
+
