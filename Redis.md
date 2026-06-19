@@ -468,6 +468,17 @@ A: Yes, although adding additional read replicas because of a single hot key in 
 	- We should only use additional read replicas of the shard that owns the key. ((Yes, you can add "uneven" replica counts to different primaries))
 	- Your Redis client needs to support replica reads.
 
+
+
+
+Q: Can you give me the lowdown again on the copy vs shard?
+A: Sure!
+- **Copying** means storing the **same complete Redis value** under multiple keys, such as `product:42:copy:0`, `product:42:copy:1`, and `product:42:copy:2`. This is mainly a **read-hot cache mitigation**: each read chooses one copy, usually randomly or by hashing the request, so readers do **not** gather from every key. The cost is on writes and invalidations, because every copy must be updated or deleted. This only makes sense when Redis is being used as a cache, stale reads are acceptable, and normal read scaling with replicas is unavailable, insufficient, or unsuitable.
+	- For the **copying** case, a write or invalidation must be applied to every copy of the cached value, such as `product:42:copy:0..4`. On a single Redis primary, or on Redis Cluster keys forced into the same hash slot with a hash tag like `product:{42}:copy:0`, Redis can update the copies atomically with `MSET` if no TTL is needed, or with `MULTI`/`EXEC` or a Lua script if each copy needs a TTL. If the copies are spread across different Redis Cluster shards, Redis cannot update all copies as one atomic transaction, so the application must tolerate temporary inconsistency. Common cache-safe approaches are deleting all copies best-effort and letting reads repopulate them, storing a version number inside each copied value, or accepting that some readers may briefly see an older copy.
+- **Sharding** means splitting one **logical value or workload** across multiple Redis keys, where each key stores only part of the state. For example, a write-hot counter might use `post:42:likes:shard:0..15`, with each increment choosing one shard. This is mainly a **write-hot mitigation** because writes spread across keys instead of concentrating on one key. The cost is on reads, because reading the full logical value may require gathering from every shard, such as summing all counter shards, unioning set shards, or merging sorted-set shards. So copying makes reads easy and writes harder; sharding makes writes easier and reads harder.
+
+
+
 ----------
 
 # Uses of Redis.

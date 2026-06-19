@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Redis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cache"
+              "title": "Redis"
             }
           }
         ]
@@ -2133,9 +2133,9 @@
   },
   "active": "18722ca6f282a015",
   "lastOpenFiles": [
+    "Cache.md",
     "Write-Through Cache.md",
     "Cache Consistency.md",
-    "Cache.md",
     "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
     "Pessimistic Concurrency Control.md",
     "Optimistic Concurrency Control.md",

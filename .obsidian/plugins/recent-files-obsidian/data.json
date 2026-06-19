@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis",
+      "path": "Redis.md"
+    },
+    {
       "basename": "Cache",
       "path": "Cache.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Flux",
       "path": "Flux.md"
-    },
-    {
-      "basename": "Modern TypeScript Development",
-      "path": "Modern TypeScript Development.md"
     }
   ],
   "omittedPaths": [],
