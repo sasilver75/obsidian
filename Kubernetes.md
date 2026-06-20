@@ -999,6 +999,111 @@ ______________
 - While Docker runs containers, K8S handles deployment, scaling, orchestration, management across hundreds of servers.
 
 
+__________________________________
+
+# Kubernetes Nouns
+
+### API Grammar
+- A Kubernetes Object is a persistent record of desired or observed cluster state. Kubernetes objects usually have `metadata`, `spec`, and `status`.
+- ==Manifest==: The YAML or JSON document you submit to the API server. Names the `apiVersion`, `kind`, `metadata`, and usually `spec`. Not a running thing, it's a declarative request for K8s to create/update an object.
+- ==Namespace==: Naming and tenancy boundary for many K8s objects (Pods, Deployments, Services, ConfigMaps, Secrets, Roles, RoleBindings usually live in a namespace, while other objects are cluster-scoped instead)
+- ==Label==: A queryable key-value marker on objects.
+- ==Selector==: A query over Labels; this is the glue is K8s. A Service finds Pods through selectors, ReplicaSets count Pods through selectors, and policies often target Pods through selectors.
+- ==Annotation==: A key-value metadata for tools and controllers, but unlike Labels, they're not meant for efficient selection. We use Labels for identity and grouping, and use Annotations for extra descriptive or controller-specific data.
+- ==OwnerReference==: Records parent-child relationships between objects. A Deployment might own ReplicaSets, and a ReplicaSet might own Pods. The garbage collection uses OwnerReferences to delete dependent objects when the owning object is deleted.
+- ==Finalizer==: A deletion hook stored on an object.
+### Compute and Workloads
+- ==Cluster==: A whole K8s system; control plane plus Nodes plus the API and objects stored on it.
+- ==Control Plane==: The set of components that expose the API, schedule Pods, and run controllers. The main pieces are the API server/etcd/scheduler/controller manager, and often cloud-controller-manager.
+- ==Node==: A worker machine, physical or virtual, where Pods run. The Node object represents capacity, conditions, addresses, labels, taints, and other machine-level state. Pods are scheduled onto Nodes.
+- ==Pod==: The smallest deployable unit in Kubernetes. Pod wraps one or more containers that share networking, storage volumes, and lifecycle. You usually don't create long-lived Pods directly; you create Deployment, StatefulSets, DaemonSets, Jobs, or CronJobs that create Pods for you.
+- ==Container==: A process environment inside a Pod; containers aren't top-level K8s objects. A pod spec contains container definitions, including image/command/environment variables/ports/probes/resource requests.
+- ==Image==: The immutable filesystem and metadata used to start a container. Kubernetes pulls images through the container runtime. Images are not Kubernetes objects; they live in registries.
+- ==Deployment==: Manages stateless replicated Pods through ReplicaSets. You say "run 5 copies of this app version," and the Deployment controller creates or updates ReplicaSets to make that true. Deployments are the common default for web apps and background services.
+- ==ReplicaSet==: Keeps a specified number of matching Pods running. In modern use, ReplicaSets are usually an implementation detail owned by Deployments. You rarely create these directly.
+- ==StatefulSet==: Manages Pods that need stable identity, stable ordering, and usually stable storage. StatefulSet Pods get predictable names like `db-0`, `db-1`, and commonly get one PersistentVolumeClaim per Pod. Use StatefulSets for databases and clustered system thats care about identity!
+- ==DaemonSet==: Ensures that matching Nodes run a copy of a Pod. DaemonSets are common for node-level agents: log collectors, metrics agents, storage agents, and network plugins.
+- ==Job==: Creates Pods that run to completion instead of running forever. Jobs are for finite work (migrations, batch processing, one-off calculations, queue workers that should eventually exit successfully).
+- ==CronJob==: Creates Jobs on a schedule. 
+- ==ReplicationController==: Older predecessor of ReplicaSet.
+- ==ControllerRevision==: Stores revision history for controllers such as DaemonSets and StatefulSets. You normally encounter it indirectly during rollouts and rollbacks.
+- ==PodTemplate==: A reusable Pod specification stored as an object. Commonly are embedded inside Deployments/StatefulSets/DaemonSets/Jobs/CronJobs rather than as standalone objects.
+- ==HorizontalPodAutoscaler==: Changes the replica count of a scalable target (e.g. Deployment, StatefulSet) based on metrics such as CPU usage or custom metrics. It scales horizontally by adding or removing Pods, not by resizing existing Pods.
+### Networking
+- ==Service==: Gives a stable virtual network identity to a changing set of Pods. Usually selects Pods by Labels, and traffic is routed to the matching Pod endpoints.
+- ==EndpointSlice==: Records the actual backend network endpoints for a Service. EndpointSlices are the scalable successor to Endpoints. 
+- ==Endpoints==: The older object that listed Service backends, replaced by EndpointSlice.
+- ==Ingress==: Defines HTTP or HTTPS routing from outside the cluster to Services inside the cluster. Ingress needs an Ingress controller to do anything. Ingress is widely used, but the API is relatively limited and Kubernetes now describes Gateway API as its successor.
+- ==IngressClass==: Identifies which Ingress controller should implement a given Ingress.
+- ==NetworkPolicy==: Defines allowed network traffic to or from selected Pods. Enforced only if the cluster's networking plugin supports it.
+- ==IPAddress==: Represents an IP address managed by Kubernetes networking APIs.
+- ==ServiceCIDR==: Represents a range of IP addresses available for Service cluster IPs.
+- ==GatewayClass==: A Gateway API add-on kind that defines a Gateways implemented by a particular Controller.
+- ==Gateway==: A Gateway API add-on kind representing traffic-handling infrastructure, such as load balancer or proxy listener. A Gateway attaches Routes and sends traffics to Services.
+- ==HTTPRoute==: A Gateway API add-on kind that maps HTTP requests from a Gateway listener to backend Services. Supports richer routing than Ingress.
+- ==GRPCRoute==: A GRPC is the Gateway API equipment for gRPC traffic.
+### Storage
+- ==Volume==: A Volume is a storage mounted into a Pod. Usually a field inside a Pod spec, not always a standalone object. Some volumes are ephemeral and die with the pod, while others are persistent.
+- ==PersistentVolume==: A cluster-scoped storage object representing actual storage capacity. Might be a cloud disk, network filesystem, local disk, etc.
+- ==PersistentVolumeClaim==: A namespaced request for storage by a workload. A Pod usually references a PersistentVolumeClaim, not a PersistentVolume directly. K8s binds a suitable PersistentVolume to the PersistentVolumeClaim.
+- ==StorageClass==: Describes a class of dynamically-provisioned storage (e.g. `fast-ssd` might create SSD-backed volumes).
+- ==CSIDriver==: Describes a Container Storage Interface driver installed in the cluster. CSI drivers are how Kubernetes integrates external storage systems.
+- ==CSINode==: Records CSI-driver-related information for a Node. It helps K8s understand which storage drivers are available on which Nodes.
+- ==CSIStorageCapacity==: Advertises how much storage capacity is available for a CSI driver in a topology segment. The scheduler uses it to make better placement decisions for Pods with storage requirements.
+- ==VolumeAttachment==: Represents attaching a Volume to a Node.
+- ==VolumeAttributesClass==: Stores mutable/driver-specific volume attributes that can be referenced by PersistentVolumeClaims.
+- ==VolumeSnapshot==: Common CSI snapshot add-on kind kinds, not guaranteed built into every cluster...
+### Configuration, Identity, and Secrets
+- ==ConfigMap==: Stores non-secret configuration data. Pods can consume ConfigMaps as environment variables, command arguments, or mounted files. Good for settings, not secret credentials.
+- ==Secret==: Stores sensitive configuration such as tokens, passwords, certificates, and registry credentials. Only safer than ConfigMaps if the cluster is configured carefully. By default, they're API objects that need proper access control and encryption-at-rest settings.
+- ==ServiceAccount==: An identity for processes running i nPods. Pods can use a ServiceAccount token to call the K8s API. RBAC permissions are commonly granted to ServiceAccounts through RoleBindings or ClusterRoleBindings.
+- ==CertificateSigningRequest==: A request for a certificate from the K8s certificates API. Used for workflows such as kubelet client certificates, or custom in-cluster certificate issuance.
+- ==ClusterTrustBundle==: Distributes trust anchors, such as certificate authority bundles, at cluster scope. Useful when workloads need to trust a particular signer or set of signers.
+- ==PodCertificateRequest==: A newer certificate-related API for requesting certificates associated with Pods. It's specialized plumbing around workload identity and certificate issuance.
+### Access Control and Policy
+- ==Role==: Grants permissions within a Namespace, saying which verbs are allowed on what resources in the Namespace.
+- ==RoleBinding==: Attaches a Role or ClusterRole to subjects within a Namespace. Subjects can be users, groups, or ServiceAccounts. How ServiceAccounts get namespaced-permissions.
+- ==ClusterRole==: Grants permissions at cluster scope or defines reusable permissions that can be bound inside Namespaces. Cluster Roles are needed for cluster-scoped resources like Nodes and PersistentVolumes.
+- ==ClusterRoleBinding==: Attaches a ClusterRole to subjects across the cluster.
+- ==ResourceQuota==: Limits aggregate resource usage inside a Namespace (e.g. CPU, memory, storage, object counts)
+- ==LimitRange==: Sets default, minimum, maximum resource requests or limits for objects in a Namespace. While ResourceQuota controls totals, LimitRange controls per-object or per-container bounds.
+- ==PodDisruptionBudget==: Says how many Pods for an application must remain available during voluntary disruptions, such as node drains. It doesn't prevent crashes, it constrains planned evictions.
+- ==PriorityClass==: Defines scheduling priority. Pods reference a PriorityClass, and higher-priority Pods can be scheduled before or event preempt lower-priority Pods when resources are scarce.
+- ==FlowSchema==: Classifies API requests for API priority and fairness. It is control-plane traffic management, not application traffic management.
+- ==PriorityLevelConfiguration==: Defines how much API server concurrency is available to a class of requests. FlowSchemas map requests into PriorityLevelConfigurations.
+### Scheduling and Dynamic Resources
+- ==Workload==: An overloaded term; Lowercase "workload" means an application running on K8s. The uppercase `Workload` API kind is an alpha scheduling object used to express scheduling constraints for workload lifecycle decisions.
+- ==PodGroup==: An alpha scheduling object representing Pods that should be considered together.
+- ==DeviceClass==: Defines a class of devices for Dynamic Resource Allocation, such as GPUs or specialized hardware. 
+- ==ResourceClaim==:  A request for dynamically-allocated resources, especially devices. A Pod can reference a ResourceClaim when the Pod needs a particular external/hardware resource. Can reference DeviceClass.
+- ==ResourceClaimTemplate==: A template for creating ResourceClaims, analogous to how a StatefulSet can template PersistentVolumeClaims. Lets a workload create resource claims per Pod or per group.
+- ==ResourceSlice==: Publishes available dynamic resources from a driver.
+- ==DeviceTaintRule==: Applies taint to matching devices, helps prevent or control use of devices unless workloads tolerate the taint.
+- ==ResourcePoolStatusRequest==: Asks K8s to calculate status for resource pools.
+### Events, Coordination, and Internals
+- ==Event==: Records something that happened, such as a Pod failing to schedule, or an image pull failing.
+- ==Lease==: A lightweight coordination object. K8s uses Leases for node heartbeats and leader election among controllers.
+- ==LeaseCandidate==: Related to coordinated leader elections. Represent a candidate participating in leader election flows.
+- ==ComponentStatus==: An old health-check object, deprecated.
+- ==StorageVersion==: Records internal API storage-version information.
+- ==StorageVersionMigration==: Requests migration of stored objects from one API storage version to another.
+### Admission and Extensibility
+- ==CustomResourceDefinition==: Defines a new API kind in the cluster. This is how K8s grows new nouns. Argo CD adds Applications, Gateway API adds Gateways, etc.
+- ==APIService==: Registers an aggregated API server with the main K8s API server.
+- ==MutatingWebhookConfiguration==: Configures external admission webhooks that can modify API requests before objects are persisted.
+- ==ValidatingWebhookConfiguration==: Configures external admission webhooks that can accept or reject API requests.
+- ==ValidatingAdmissionPolicy==: Validates API requests using Common Expression Language rather than an external webhook.
+- ==ValidatingAdmissionPolicyBinding==: Applies a ValidatedAdmissionPolicy to particular resources, Namespaces, or parameter objects.
+- ==MutatingAdmissionPolicy==: Mutates API requests using built-in admission policy machinery, rather than an external webhook.
+- ==MutatingAdmissionPolicyBinding==: Applies a MutatingAdmissionPolicy to selected requests.
+
+
+
+
+
+
+
+
 
 
 

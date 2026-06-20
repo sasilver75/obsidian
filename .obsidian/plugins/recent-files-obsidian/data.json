@@ -5,6 +5,10 @@
       "path": "Redis.md"
     },
     {
+      "basename": "Kubernetes",
+      "path": "Kubernetes.md"
+    },
+    {
       "basename": "Cache",
       "path": "Cache.md"
     },
@@ -159,10 +163,6 @@
     {
       "basename": "Amazon CloudWatch",
       "path": "Amazon CloudWatch.md"
-    },
-    {
-      "basename": "Kubernetes",
-      "path": "Kubernetes.md"
     },
     {
       "basename": "Helm",

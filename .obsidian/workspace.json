@@ -2133,6 +2133,8 @@
   },
   "active": "18722ca6f282a015",
   "lastOpenFiles": [
+    "Kubernetes.md",
+    "Redis.md",
     "Cache.md",
     "Write-Through Cache.md",
     "Cache Consistency.md",
@@ -2157,8 +2159,6 @@
     "Base62.md",
     "Amazon Fargate.md",
     "Index.md",
-    "System Design (Index).md",
-    "Amazon Elastic Container Service.md",
     "_attachments/Pasted image 20260617120435.png",
     "_attachments/Pasted image 20260617120412.png",
     "_attachments/Pasted image 20260617120352.png",

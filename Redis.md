@@ -215,6 +215,49 @@ Caching Patterns:
 - Treating Redis Cluster like a relational database with arbitrary cross-key joins
 
 
+
+
+# Redis Nouns
+- ==Instance==: One running Redis server process.
+- ==Client==: A program or connection talking to Redis.
+- ==Command==: The operation sent to Redis, such as `GET`, `SET`, `HGET`, `XADD`, `ZADD`.
+- ==Key==: The top-level name for a value. Keys are binary-safe strings, often using a format like `user:123:profile`.
+- ==Keyspace==: The set of keys in a database. Keyspace operations inspect or affect keys themselves, such as expiration, deletion, scanning, and notification.
+- ==Value==: The object stored at a key. Might be a Hash, List, Stream, Sorted Set, etc.
+- ==String==: The simplest Redis value type, a binary-safe byte sequence.
+- ==Bitmap==: A string interpreted as bits. Useful when each bit position represents membership or state, such as "user 123 was active on day 456". The underlying type is still String, but the commands treat the bytes as a bit array.
+- ==Bitfield==: Also stored in a string, but treats selected bit ranges as small integers. Useful for dense counters or packed numeric state where memory efficiency matters more than schema readability.
+- ==Array==: Redis's sparse, index-addressable sequence type.
+- ==Hash==: A field-value map stored under one key. Hashes are a natural fit for flat objects like user profiles, counters grouped by object, or small records. 
+- ==JSON==: Stores structured JSON documents, and lets Redis update/query parts of the document. Better than Hash when the object is nested.
+- ==List==: An insertion-ordered sequence of strings. Lists are useful for stacks, simple queues, recent-item lists, and blocking pop workflows.
+- ==Set==: An unordered collection of unique strings.
+- ==Sorted Set==: A collection of unique members, ordered by numeric score. Sorted Set are excellent for leaderboards, ranked feeds, priority queues, delayed jobs, and sliding-window rate limiters.
+- ==Geospatial Index==: Stores longitude and latitude data and supports nearby-location queries.
+- ==Stream==: An append-only log-like data type. Store ordered entries, where each entry has an ID and field-value pairs. Streams are for event records, work queues, and message processing where consumers may need persistence and replay.
+- ==Stream Entry==: One record in a stream.
+- ==Consumer Group==: A coordinated way for multiple consumers to process entries from the same Stream. Each entry is delivered to one consumer in the group, allowing for work to be divided across workers.
+- ==Pending Entries List==: The set of Stream messages delivered to a consumer group, but not yet acknowledged.
+- ==Time Series==: Stores timestamped samples. It is meant for metrics, sensor readings, observability data, and downsampling.
+- ==Vector Set==: Stores members associated with vector embeddings for similarity search. It is useful for semantic search, recommendations, and machine-learning retrieval.
+- ==Probabilistic Data Types==: Memory-efficient structures that give approximate answers, like Bloom filters, Cuckoo filters, Count-Min Sketch, HyperLogLog, Top-K, and t-digest.
+- ==TTL==: Time to live; an expiration attached to a key.
+- ==Eviction Policy==: Decides what Redis removes after `maxmemory` is reached. Common policies include LRU, LFU, LRM, random eviction, and shortest-remaining-TTL variants.
+- ==Pipeline==: Sending multiple commands without waiting for each individual reply before sending the next command.
+- ==Transaction==: A queued group of commands executed by `MULTI` and `EXEC`. Redis transactions are serialized and isolated during execution, but *do not provide rollback if one command fails after execution begins!*
+- ==Script==: Server-side Lua code executed atomically.
+- ==Function==: A named, persisted server-side program managed by Redis. Functions are like a more first-class form of Lua programmability. Redis persists and replicates them as database artifacts.
+- ==Module==: An extension loaded into Redis that can add commands, data types, or behavior.
+- ==RDB==: Redis Database snapshot. Writes point-in-time snapshots to disk. It is compact and good for backups and restarts, but if Redis crashes between snapshots, recent writes may be lost.
+- ==AOF==: Append-only File. AOF logs write operations, so Redis can replay them on startup. AOF is usually more durable than periodic snapshots, but can use more disk and needs rewriting to stay compact.
+- ==Cluster==: Redis's built-in sharding and availability mode. Splits data across nodes using 16,385 hash slots, and can promote replicas after failures.
+- ==Node==: In Redis Cluster, means one Redis instance participating in the cluster.
+- ==Shard==: The portion of the dataset owned by a primary, and usually replicated to one or more replicas.
+- ==Hash Slot==: One of 16384 partitions in Redis Cluster.
+- ==Hash Tag==: The `{...}` part of a key name that forces related keys into the same hash slot.
+	- `user:{123}:profile` and `user:{123}:cart` share the same slot, because the hash tag is `123`.
+
+
 __________________
 
 
