@@ -225,7 +225,91 @@ From the Article.... ==When a Consumer goes down, what happens?==
 	- retention.ms (default 7 days): How long to keep a message
 	- retention.bytes (default 16GB): When to start purging, based on size
 	- (==Whichever of these come first is when purging starts==)
-- You can imagine a system where you have to be able to replay events months later; you can imagine that you have to discuss this in an interview, configurng the retention policy to keep these messages for a longer duration, but ==youll want to talk about the impact that this will have on storage costs and performance.==
+- You can imagine a system where you have to be able to replay events months later; you can imagine that you have to discuss this in an interview, configuring the retention policy to keep these messages for a longer duration, but ==you'll want to talk about the impact that this will have on storage costs and performance.==
+
+_______________
+# Kafka Nouns
+- ==Kafka==: Distributed event streaming platform. Stores streams of events durably, lets producers write events, lets consumers read events, and lets applications process those event streams. The useful mental model is not "a queue", but a "replicated, partitioned, append-only log with clients that track their own read positions."
+- ==Event/Record/Message==: The unit that is written to and read from Kafka. Has a key, value, timestamp, optional headers, and metadata like topic/partition/offset.
+- ==Key==: The part of a record commonly used for partitioning and identity. Records with the same key end on the same partition, preserving order for that key.
+- ==Value==: The payload of the record. Kafka treats the values as bytes; JSON, [[Apache Avro|Avro]], [[Protobuf]], plain text, and custom binary formats are application-level choices. This is why Kafka often pairs with an external Schema Registry, although this isn't part of Kafka core.
+- ==Header==: Optional record metadata, key-value pairs attached to a record. Sometimes useful for trace IDs, tenant IDs, routing metadata, etc.
+- ==Timestamp==: The time associate with a record. Commonly, it's Event Time, meaning when the event happened at the source, or log append time, meaning when the broker appended the record. This distinction matters for stream processing and windowing.
+- ==Topic==: A named stream of records. A topic is the application-level category, such as `payments`, `orders`, or `user-clicks`. Not consumed destructively, as in an [[Amazon SQS|SQS]]-like queue; many independent consumers can read the events in the topic at their own pace.
+- ==Partition==: An ordered shard of a topic. Kafka's ordering guarantee is per-partition, not per whole topic.
+- ==Offset==: The monotonically increasing position of a record within a partition. Only meaningful inside one topic-partition; consumers use the offset to know where they've read, and where to resume.
+- ==Log==: The physical and conceptual storage structure behind a partition. Append-only, with consumers reading from offsets.
+- ==Log Segment==: A chunk of a partition log on disk. Kafka rolls partition logs into segment files, and retention/compaction usually acts at the segment level. 
+- ==Record Batch==: A group of records handled together for efficiency. Producers, brokers, and consumers benefit from batching because fewer larger network and disk operations are usually cheaper than many tiny ones.
+- ==Compression==: Means compressing record batches, not usually individual records. Compression is efficient in Kafka because similar records in a batch often compress well, reducing network and disk usage.
+- ==Retention==: The policy that decides how long Kafka keeps records. Can be time-based, size-based, or both.
+- ==Log Compaction==: A cleanup policy that keeps the latest record for each key, rather than simply keeping records by time or size. Useful for changelog-like topics where the latest value per key represents current state.
+- ==Tombstone==: A record with a key and a null value in a compacted topic. Means "delete this key's state." Eventually, cleaned up after delete retention rules allow compaction to remove older state.
+- ==Producer==: A client application that writes records to Kafka topics. Producers choose the topic, serialize keys and values, batch records, optionally compress records, and send records to the broker that leads the target partition.
+- ==Partitioner==: The producer-side logic that chooses which partition receives a record. 
+- ==Serializer==: Converts an application object into bytes before Kafka stores it.
+- ==Acknowledgement==: The producer's requested write confirmation. Default setting is `acks=all`, where the leader waits for the required in-sync replicas.
+- ==Idempotent Producer==: A producer mode that prevents duplicate writes caused by retries within a producer session. Foundational for stronger delivery guarantees.
+- ==Transactional Producer==: A producer that writes records and offset commits inside Kafka transactions. Transactions support [[Exactly Once]] processing patterns when producers, consumers, and downstream Kafka writes are coordinated correctly.
+- ==Transactional Coordinator==: The broker-side component that manages producer transactions. It tracks transaction state and ensures committed transaction markers or aborted transaction markers are written so consumers with the right isolation level see the correct data.
+- ==Consumer==: A client application that pulls records from Kafka brokers.
+- ==Consumer Group==: A named set of consumers that cooperate to read topics. Within one consumer group, a partition is normally assigned  to only one consumer at a time. Different consumer groups each get their own independent view of the same topic. The consumer group's offset progress for each topic partition is tracked by the consumer group.
+- ==Group Coordinator==: The broker responsible for managing a consumer group. It tracks membership, handles heartbeats, coordinates rebalances, and stores committed offsets for the group.
+- ==Rebalance==: The process of changing which consumers own which partitions. Rebalances happen when consumers join/leave/crash or subscriptions change. Modern Kafka has newer incremental consumer rebalance protocol that reduces disruption compared with older global-stop-style rebalances.
+- ==Partition Assignment==: The mapping from topic partitions to consumer in a group. Assignment determines parallelism: for traditional consumer groups, adding more consumers than partitions does not increase consumption parallelism for that topic.
+- ==Offset Commit==: A consumer group's durable record of progress. If a consumer processes records and commits offset 500, then after restart, the group can resume near offset 500.
+- ==Consumer Lag==: How far a consumer group is behind the latest records in a partition.
+- ==Share Consumer==: A newer Kafka consumer type for queue-like workloads. Unlike traditional consumer groups, share consumers in a share group can cooperatively process records from the same partitions, and the number of share consumers *can exceed* the partition count.
+- ==Share Group==: The group used by share consumers. It supports individual record acknowledgement, delivery attempt tracking, and record acquisition locks. Use this mental model for work-queue processing; use normal consumer groups for partition-ordered stream processing.
+- ==Broker==: A Kafka server that stores partition data and serves client reads and writes. A Kafka cluster has many brokers, and each broker hosts replicas of many partitions.
+- ==Cluster==: A full Kafka deployment: brokers plus controllers plus metadata. Clients bootstrap from one or more server addresses and then discover the current cluster metadata.
+- ==Controller==: The Kafka server role that manages cluster metadata and administrative decisions, such as partition leadership. In modern KRaft Kafka, controllers are explicit Kafka process roles.
+- ==KRaft==: Kafka's built-in [[Raft]]-based metadata system, replacing ZooKeeper for Kafka metadata management.
+- ==Metadata Log==: The internal replicated log that stores cluster metadata in KRaft. Topics, partitions, broker registrations, configurations, and related metadata are represented through records in this metadata log.
+- ==Metadata Quorum==: The group of KRaft controllers that replicate the metadata log. A majority of controllers must be available for the cluster metadata system to remain available.
+- ==ZooKeeper==: The legacy external coordination system.
+- ==Replica==: A copy of a partition or broker. Replication happens per partition, not per topic as an indivisible unit.
+- ==Leader==: The replica that handles writes for a partition. Producers send records to the leader. Reads commonly go to the leader.
+- ==Follower==: A replica that copies data from the leader. Followers make [[Failover]] possible. If the leader fails, Kafka can elect a suitable follower as the new leader.
+- ==Replication Factor==: the number of replicas per partition; a common default is 3, meaning leader plus 2 followers.
+- ==In-Sync Replica==: Means a replica is sufficiently caught-up with the leader.
+- ==Minimum In-Sync Replicas==: The minimum number of in-sync replicas required for writes, when producers use `acks=all`.
+- ==High Watermark==: The offset up to which records are considered committed and visible to consumers. Records beyond the high watermark may exist on the leader, but are not yet safely replicated enough to expose. ((It seems it's the offset up to which we've got a sufficient number of minimum in-sync replicas))
+- ==Leader Epoch==: A version number for partition leadership. 
+- ==Unclean Leader Election==: Refers to electing a replica that may not have all committed data. this favors availability over durability, and can cause data loss. Usually disabled for systems that care about correctness.
+- ==Broker Storage==: Usually local disk plus OS page cache. Kafka is not fast because it avoids disk, but because it uses append-only sequential I/O and lets the OS cache hot data.
+- ==Tiered Storage==: Separates local broker storage from remote storage, such as object storage. Local storage keeps hot log segments; remote storage can retain older completed segments. This makes long retention less tightly coupled to broker disk size.
+- ==Producer API==: The client API for reading records from topics. Exposes concepts like serializers, partitioning, batching, compression, acknowledgements, retries, idempotence, and transactions.
+- ==Consumer API==: The client API for reading records from topics. It exposes subscriptions, polling, partition assignment, seeking, offset commits, and group membership.
+- ==Share Consumer API==: The client API for share group consumption, designed for cooperative record processing with individual acknowledgements rather than strict one-consumer-per-partition assignment.
+- ==Admin API==: The client API for managing and inspecting Kafka objects. It creates topics, changes configurations, describes consumer groups, manages ACLs, and performs operational tasks.
+- ==[[Kafka Connect]]==: Kafka's integration framework for moving dat between Kafka and external systems. Connect is for reusable ingestion and export pipelines, not arbitrary stream processing.
+- ==Connector==: A Connect plugin/configuration that knows how to move data to or from an external system. Used for reusable ingestion and export pipelines, not arbitrary stream processing.
+- ==Task==: The unit of parallel work inside Kafka Connect. A connector can create multiple tasks, and distributed Connect workers spread tasks across the Connect cluster.
+- ==Worker==: A running Kafka Connect process. In standalone mode, one worker runs everything locally. In distributed mode, multiple workers coordinate, store configs/status/offsets in Kafka topics, and rebalance connector tasks.
+- ==Converter==: Kafka Connect's serialization bridge between Connect's internal data model and bytes in Kafka.
+- ==Single Message Transform==: A lightweight per-record transformation in Kafka Connect; it can rename fields, add headers, route topics, mask fields, or filter records, but is not necessarily meant to replace a full stream-processing application.
+- ==[[Kafka Streams]]==: Kafka's Java stream processing library. It reads input topics, processes records, maintains local state when needed, and writes output topics. Its' a library embedded in your application, not a separate processing cluster.
+- ==Topology==: The logical graph of a Kafka Streams application. Source processors read from topics, processors transform data, and sinks write to topics.
+- ==Processor==: A node in a Kafka Streams topology. Receives records, applies logic, and may emit records downstream.
+- ==State Store==: Local, fault-tolerant state used by Kafka Streams for joins, aggregations, deduplication, and windowed computations. State stores are backed by Kafka changelog topics so that state can be rebuilt after failure.
+- ==Changelog Topic==: An internal Kafka topic that records updates to a state store. If a Streams instance dies, another instance can restore the state store by replaying the changelog.
+- ==Repartition Topic==: An internal topic Kafka Streams creates when data must be redistributed by key before an operation such as a grouped aggregation or join.
+- ==KStream==: An unbounded stream of records, modeling facts or events over time, such as "payment made" or "page viewed."
+- ==KTable==: A changelog stream interpreted as a table of latest values by key. It models evolving state, such as "current account balance" or "latest user profile."
+- ==Window==: A bounded time interval used for stream operations. Windows let Kafka Streams compute things like "count clicks per user per five minutes" rather than over all time.
+- ==Event Time==: When the event happened.
+- ==Processing Time==: When the app processed it.
+- ==Stream Time==: Kafka Stream's progress through observed event timestamps.
+- ==Principal==: The authenticated identity of a Kafka client or broker. Principals are used by authorization and quotas.
+- ==Authentication==: Proves who a client is. Kafka supports TLS client authn and SASL mechanisms.
+- ==Authorization==: Decides what an authenticated principal may do. Typically, Kafka uses ACLs.
+- ==[[Access Control List]]==: A permission rule over Kafka resources such as topics, consumer groups, clusters, or transactional IDs. It can allow or deny operations such as read, write,  create, delete, describe, or alter.
+- ==Listener==: A named network endpoint configuration for Kafka clients, brokers, or controllers. Listeners matter, because Kafka has to advertise addresses that clients can actually reach.
+- ==Client ID==: An application-provided logical name for a Kafka client. Useful for metrics, logging, quotas, and debugging.
+- ==Quota==: Limits client resource use, such as produce bandwidth, fetch bandwidth, or request rate.
+- ==MirrorMaker==: Kafka's cross-cluster replication tool. Copies topics between Kafka clusters for migration/disaster recovery/regional replication/data sharing.
+
 
 
 

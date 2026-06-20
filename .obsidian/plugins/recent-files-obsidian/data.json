@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Cross-Site Request Forgery",
+      "path": "Cross-Site Request Forgery.md"
+    },
+    {
+      "basename": "Two-Phase Locking",
+      "path": "Two-Phase Locking.md"
+    },
+    {
+      "basename": "Raft",
+      "path": "Raft.md"
+    },
+    {
+      "basename": "FLP Impossibility Theorem",
+      "path": "FLP Impossibility Theorem.md"
+    },
+    {
+      "basename": "Wide-Column",
+      "path": "Wide-Column.md"
+    },
+    {
+      "basename": "Metal-Oxide-Semiconductor Field-Effect Transistor",
+      "path": "Metal-Oxide-Semiconductor Field-Effect Transistor.md"
+    },
+    {
+      "basename": "Cross-Origin Resource Sharing",
+      "path": "Cross-Origin Resource Sharing.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Distributed Consensus",
+      "path": "Distributed Consensus.md"
+    },
+    {
+      "basename": "Kafka",
+      "path": "Kafka.md"
+    },
+    {
       "basename": "Redis",
       "path": "Redis.md"
     },
@@ -105,10 +145,6 @@
       "path": "Index.md"
     },
     {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
       "basename": "Amazon Elastic Container Service",
       "path": "Amazon Elastic Container Service.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Amazon CloudWatch",
       "path": "Amazon CloudWatch.md"
-    },
-    {
-      "basename": "Helm",
-      "path": "Helm.md"
-    },
-    {
-      "basename": "Grafana Tempo",
-      "path": "Grafana Tempo.md"
-    },
-    {
-      "basename": "Grafana Loki",
-      "path": "Grafana Loki.md"
-    },
-    {
-      "basename": "WebSockets",
-      "path": "WebSockets.md"
-    },
-    {
-      "basename": "Terraform",
-      "path": "Terraform.md"
-    },
-    {
-      "basename": "GitOps",
-      "path": "GitOps.md"
-    },
-    {
-      "basename": "Strong Consistency",
-      "path": "Strong Consistency.md"
-    },
-    {
-      "basename": "Kustomize",
-      "path": "Kustomize.md"
-    },
-    {
-      "basename": "Flux",
-      "path": "Flux.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis.md",
+                "file": "System Design (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Redis"
+              "title": "System Design (Index)"
+            }
+          },
+          {
+            "id": "55f18bd563e481e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-Site Request Forgery.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cross-Site Request Forgery"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2131,10 +2156,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "18722ca6f282a015",
+  "active": "55f18bd563e481e4",
   "lastOpenFiles": [
-    "Kubernetes.md",
+    "Two-Phase Locking.md",
+    "Raft.md",
+    "FLP Impossibility Theorem.md",
+    "Wide-Column.md",
+    "Cross-Site Request Forgery.md",
+    "Metal-Oxide-Semiconductor Field-Effect Transistor.md",
+    "Cross-Origin Resource Sharing.md",
+    "System Design (Index).md",
+    "Distributed Consensus.md",
+    "Kafka.md",
     "Redis.md",
+    "Kubernetes.md",
     "Cache.md",
     "Write-Through Cache.md",
     "Cache Consistency.md",
@@ -2149,16 +2184,6 @@
     "Database Recovery.md",
     "Write-Ahead Log.md",
     "Buffer Cache.md",
-    "Snapshot.md",
-    "Checkpoint.md",
-    "Algorithms for Recovrety and Isolation Exploiting Semantics.md",
-    "Amazon Bedrock.md",
-    "Amazon Athena.md",
-    "Amazon Elastic Container Registry.md",
-    "Amazon Certificate Manager.md",
-    "Base62.md",
-    "Amazon Fargate.md",
-    "Index.md",
     "_attachments/Pasted image 20260617120435.png",
     "_attachments/Pasted image 20260617120412.png",
     "_attachments/Pasted image 20260617120352.png",
