@@ -1,8 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "AWS Elastic Load Balancer",
+      "path": "AWS Elastic Load Balancer.md"
+    },
+    {
+      "basename": "Amazon Route 53",
+      "path": "Amazon Route 53.md"
+    },
+    {
+      "basename": "Registrar",
+      "path": "Registrar.md"
+    },
+    {
+      "basename": "CNAME Record",
+      "path": "CNAME Record.md"
+    },
+    {
+      "basename": "Amazon Application Load Balancer",
+      "path": "Amazon Application Load Balancer.md"
+    },
+    {
+      "basename": "Health-Checked DNS",
+      "path": "Health-Checked DNS.md"
+    },
+    {
+      "basename": "Amazon Gateway Load Balancer",
+      "path": "Amazon Gateway Load Balancer.md"
+    },
+    {
+      "basename": "Amazon Network Load Balancer",
+      "path": "Amazon Network Load Balancer.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "Amazon EventBridge",
+      "path": "Amazon EventBridge.md"
+    },
+    {
+      "basename": "Modern Backend Development",
+      "path": "Modern Backend Development.md"
+    },
+    {
       "basename": "Cross-Site Request Forgery",
       "path": "Cross-Site Request Forgery.md"
+    },
+    {
+      "basename": "CSRF Token",
+      "path": "CSRF Token.md"
+    },
+    {
+      "basename": "Cross-Origin Resource Sharing",
+      "path": "Cross-Origin Resource Sharing.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "API Gateway.md"
+    },
+    {
+      "basename": "E",
+      "path": "E.md"
     },
     {
       "basename": "Two-Phase Locking",
@@ -23,14 +87,6 @@
     {
       "basename": "Metal-Oxide-Semiconductor Field-Effect Transistor",
       "path": "Metal-Oxide-Semiconductor Field-Effect Transistor.md"
-    },
-    {
-      "basename": "Cross-Origin Resource Sharing",
-      "path": "Cross-Origin Resource Sharing.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
     },
     {
       "basename": "Distributed Consensus",
@@ -143,62 +199,6 @@
     {
       "basename": "Index",
       "path": "Index.md"
-    },
-    {
-      "basename": "Amazon Elastic Container Service",
-      "path": "Amazon Elastic Container Service.md"
-    },
-    {
-      "basename": "Design Bit.ly",
-      "path": "Courses/SystemDesign/Case Studies/Design Bit.ly.md"
-    },
-    {
-      "basename": "Redirect",
-      "path": "Redirect.md"
-    },
-    {
-      "basename": "Amazon Elastic Kubernetes Service",
-      "path": "Amazon Elastic Kubernetes Service.md"
-    },
-    {
-      "basename": "bra",
-      "path": "bra.md"
-    },
-    {
-      "basename": "Amazon Cognito",
-      "path": "Amazon Cognito.md"
-    },
-    {
-      "basename": "Amazon Lambda",
-      "path": "Amazon Lambda.md"
-    },
-    {
-      "basename": "Serverless",
-      "path": "Serverless.md"
-    },
-    {
-      "basename": "Grafana",
-      "path": "Grafana.md"
-    },
-    {
-      "basename": "Trace",
-      "path": "Trace.md"
-    },
-    {
-      "basename": "Metric",
-      "path": "Metric.md"
-    },
-    {
-      "basename": "Log",
-      "path": "Log.md"
-    },
-    {
-      "basename": "Log (Monitoring)",
-      "path": "Log (Monitoring).md"
-    },
-    {
-      "basename": "Amazon CloudWatch",
-      "path": "Amazon CloudWatch.md"
     }
   ],
   "omittedPaths": [],

@@ -18,7 +18,7 @@ Gateways handle:
 	- [[Cache]]ing of Responses
 		- Full response caching, or partial caching of specific parts of responses that change infrequently.
 		- Uses TTL or event-based invalidation of cache.
-	- Handling [[CORS]] headers
+	- Handling [[Cross-Origin Resource Sharing|CORS]] headers
 	- Whitelist/blacklist IPs
 	- Validate Request Sizes
 	- Compress responses

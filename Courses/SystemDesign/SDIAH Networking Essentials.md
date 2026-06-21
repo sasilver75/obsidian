@@ -240,7 +240,7 @@ Load Balancing:
 				- (Example of this is [[Domain Name Service]]; When we want to resolve HelloInterview.com, we get a list; we hit the first server on the list, and if they don't respond, we get the second server on the list, etc. This lets the client handle this themselves, but... if we make an update to that IP list, it may take as long as either 5 minutes or a day for all of the DNS servers to see that update and show it to clients. So it's not a good tool to use when you have services that are scaling down or up often.)
 			- Client-Side Load Balancing can be powerful, but has drawbacks; Use it for internal microservices. [[gRPC]] supports it natively, which is cool. ==Generally speaking, favor a dedicated load balancer in cases where you need to work with external clients that need to "get" updates (about changes in which servers are available) relatively quickly==
 	- ==External Load Balancers==
-		- Can be either Hardware LBs (F1 Networks; very powerful) or Software LBs ([[HAProxy]], Apache Web Server, [[NGINX]])... or there are cloud offerings like [[AWS Elastic Load Balancer]] or [[AWS Application Load Balancer]].
+		- Can be either Hardware LBs (F1 Networks; very powerful) or Software LBs ([[HAProxy]], Apache Web Server, [[NGINX]])... or there are cloud offerings like [[AWS Elastic Load Balancer]] or [[Amazon Application Load Balancer|AWS Application Load Balancer]].
 		- ![[Pasted image 20250519145252.png]]
 		- When Servers are spun up, they announce themselves to the Load Balancer, saying "Hey, I'm active!" The Load Balancer will then make [[Health Check]]s on the Servers, which can either be:
 			- Shallow: e.g. "Can you take a TCP connection?"
@@ -259,7 +259,7 @@ Load Balancing:
 				- ![[Pasted image 20250519150515.png]]
 				- Layer 4 LBs are ==high performance==; it doesn't need to do a lot of thinking; It doesn't need to look at packets... all it needs to do is, when it receives a new connection, create a new connection with a server, and when it receives packets, just pushes them to the relevant server.
 			- **[[Layer 7]] Load Balancer (HTTP level)**:
-				- e.g. [[AWS Application Load Balancer]]. This one, instead of only accepting TCP connections, accepts HTTP requests! It's going to choose an arbitrary server based on its load balancing algorithm, that it's going to send a request to.
+				- e.g. [[Amazon Application Load Balancer|AWS Application Load Balancer]]. This one, instead of only accepting TCP connections, accepts HTTP requests! It's going to choose an arbitrary server based on its load balancing algorithm, that it's going to send a request to.
 				- It's not as straightforward that the connection ti has with the LB is the same one it has with its client!
 				- The Layer 7 LB might have only a few connections to servers, and many connections to clients.
 				- Tend to be more expensive, because they need to be able to handle a full HTTP request; But if I had a single TCP connection to a client and multiple HTTP requests that occur over it, I can then distribute those requests across the servers in my load pool, which can be very effective.

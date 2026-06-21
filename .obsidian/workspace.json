@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design (Index).md",
+                "file": "AWS Elastic Load Balancer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design (Index)"
+              "title": "AWS Elastic Load Balancer"
+            }
+          },
+          {
+            "id": "9df50803eb75f61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Route 53.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Route 53"
+            }
+          },
+          {
+            "id": "4c2adcf97b73fa1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Route 53.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Route 53"
+            }
+          },
+          {
+            "id": "4a055b149bc25f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registrar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Registrar"
+            }
+          },
+          {
+            "id": "af0cac3eb0cf1ab9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Application Load Balancer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Application Load Balancer"
+            }
+          },
+          {
+            "id": "14c25a1b7362dad7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Network Load Balancer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Network Load Balancer"
+            }
+          },
+          {
+            "id": "cd2f1539ae3135f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/SystemDesign/SDIAH Networking Essentials.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SDIAH Networking Essentials"
+            }
+          },
+          {
+            "id": "3bce73be0efaac4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon EventBridge.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon EventBridge"
             }
           },
           {
@@ -54,9 +222,56 @@
               "icon": "lucide-file",
               "title": "Cross-Site Request Forgery"
             }
+          },
+          {
+            "id": "af7901d8f36c4ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSRF Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CSRF Token"
+            }
+          },
+          {
+            "id": "f96ccc681f72ff85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-Site Request Forgery.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cross-Site Request Forgery"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2156,34 +2371,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "55f18bd563e481e4",
+  "active": "18722ca6f282a015",
   "lastOpenFiles": [
+    "Amazon Route 53.md",
+    "Registrar.md",
+    "CNAME Record.md",
+    "Amazon Application Load Balancer.md",
+    "Health-Checked DNS.md",
+    "Amazon Gateway Load Balancer.md",
+    "Amazon Network Load Balancer.md",
+    "AWS Elastic Load Balancer.md",
+    "System Design (Index).md",
+    "Courses/SystemDesign/SDIAH Networking Essentials.md",
+    "AWS Application Load Balancer.md",
+    "Amazon EventBridge.md",
+    "Modern Backend Development.md",
+    "Cross-Site Request Forgery.md",
+    "CSRF Token.md",
+    "Cross-Origin Resource Sharing.md",
+    "API Gateway.md",
+    "CORS.md",
+    "E.md",
     "Two-Phase Locking.md",
     "Raft.md",
     "FLP Impossibility Theorem.md",
     "Wide-Column.md",
-    "Cross-Site Request Forgery.md",
     "Metal-Oxide-Semiconductor Field-Effect Transistor.md",
-    "Cross-Origin Resource Sharing.md",
-    "System Design (Index).md",
     "Distributed Consensus.md",
     "Kafka.md",
-    "Redis.md",
-    "Kubernetes.md",
-    "Cache.md",
-    "Write-Through Cache.md",
-    "Cache Consistency.md",
-    "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md",
-    "Pessimistic Concurrency Control.md",
-    "Optimistic Concurrency Control.md",
-    "Read Skew.md",
-    "Sticky Session.md",
-    "Refresh Token.md",
-    "Prometheus.md",
-    "Alertmanager.md",
-    "Database Recovery.md",
-    "Write-Ahead Log.md",
-    "Buffer Cache.md",
     "_attachments/Pasted image 20260617120435.png",
     "_attachments/Pasted image 20260617120412.png",
     "_attachments/Pasted image 20260617120352.png",

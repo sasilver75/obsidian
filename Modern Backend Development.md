@@ -95,7 +95,7 @@ Trend: "==Just use Postgres==" is the dominant default because of `pgvector`, `J
 # Queues/Streaming/Event Infra
 - Message Queues: [[Amazon SQS|SQS]], [[RabbitMQ]], [[Redis Streams]], [[NATS]], [[PostgreSQL|Postgres]] as a queue (pg + SKIP LOCKED + River, Graphile Worker, pgmq)
 - Streaming/log-baed: 
-	- [[Kafka]] is still the ehavyweight
+	- [[Kafka]] is still the heavyweight
 	- [[Redpanda]] (C++ Kafka-compatible, no JVM)
 	- [[Warpstream]] (Kafka over S3)
 	- [[Amazon Kinesis|AWS Kinesis]]

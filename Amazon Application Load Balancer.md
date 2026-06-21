@@ -4,3 +4,5 @@ aliases:
   - AWS ALB
   - ALB
 ---
+
+An [[AWS Elastic Load Balancer|Elastic Load Balancer]] type.

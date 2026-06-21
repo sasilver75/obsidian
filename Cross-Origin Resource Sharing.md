@@ -4,8 +4,6 @@ aliases:
 ---
 A browser-mechanism that decides whether JS on one origin is allowed to read responses from another origin. CORS is enforced by browsers, not by servers themselves. A backend, `curl`, or Postman can still make the request. CORS mainly protects users from malicious websites reading data from other sites, using the user's browser credentials.
 
-
-
 # Example
 
 ```
@@ -28,6 +26,49 @@ This is important, because imagine if you're logged into your bank at `https://b
 Q: But if that request to https://bank.example was side-effecting... it sounds like it does the request and then the response just isn't delivered from the browser to the client JS? That still seems bad?
 A: Yes, you're right. CORS by itself doesn't stop side effects. If the request changes state, then the damage might already be done. This danger is called [[Cross-Site Request Forgery]] (CSRF)
 
+See also ==CORS Preflight requests==
+- A CORS preflight request is the browser first asking the server: "Before I send this cross-origin request, do you allow this origin, method, and set of request headers?"
+This might look like:
+```
+OPTIONS /transfer HTTP/1.1
+Host: bank.example
+Origin: https://app.bank.example
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: authorization, content-type
+```
+and *then* after the server returns (e.g.):
+```
+HTTP/1.1 204 No Content
+Access-Control-Allow-Origin: https://app.bank.example
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Headers: authorization, content-type
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 600
+```
+Only then does the browser send the real request:
+```
+POST /transfer HTTP/1.1
+Host: bank.example
+Origin: https://app.bank.example
+Content-Type: application/json
+Authorization: Bearer abc123
+
+{"to":"alice","amount":100}
+```
+This can help stop the side-effecting behavior.
+
+```
+PUT, PATCH, DELETE
+Content-Type: application/json
+Authorization header
+custom headers like X-CSRF-Token
+```
+but a classic HTML form-style request often does *not* trigger preflight:
+```
+POST /transfer
+Content-Type: application/x-www-form-urlencoded
+```
+This is why preflight is a CORS mechanism, not a complete [[Cross-Site Request Forgery|CSRF]] solution.
 
 
 # Localhost Development Example
