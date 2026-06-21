@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Design File Storage",
+      "path": "Courses/SystemDesign/Case Studies/Design File Storage.md"
+    },
+    {
+      "basename": "Design URL Shortener",
+      "path": "Courses/SystemDesign/Case Studies/Design URL Shortener.md"
+    },
+    {
+      "basename": "Disaster Recovery",
+      "path": "Disaster Recovery.md"
+    },
+    {
+      "basename": "Database Recovery",
+      "path": "Database Recovery.md"
+    },
+    {
+      "basename": "High Availability",
+      "path": "High Availability.md"
+    },
+    {
+      "basename": "Agent Harness",
+      "path": "Agent Harness.md"
+    },
+    {
+      "basename": "Amazon Fargate",
+      "path": "Amazon Fargate.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Statistics (Index)",
+      "path": "Statistics (Index).md"
+    },
+    {
+      "basename": "Information Retrieval",
+      "path": "Information Retrieval.md"
+    },
+    {
+      "basename": "RED Method",
+      "path": "RED Method.md"
+    },
+    {
+      "basename": "Linear Algebra (Index)",
+      "path": "Linear Algebra (Index).md"
+    },
+    {
       "basename": "Machine Learning (Index)",
       "path": "Machine Learning (Index).md"
     },
@@ -17,28 +65,8 @@
       "path": "Information Retrieval (Index).md"
     },
     {
-      "basename": "Information Retrieval",
-      "path": "Information Retrieval.md"
-    },
-    {
-      "basename": "Linear Algebra (Index)",
-      "path": "Linear Algebra (Index).md"
-    },
-    {
       "basename": "Reinforcement Finetuning",
       "path": "Reinforcement Finetuning.md"
-    },
-    {
-      "basename": "Statistics (Index)",
-      "path": "Statistics (Index).md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "RED Method",
-      "path": "RED Method.md"
     },
     {
       "basename": "Untitled 2",
@@ -171,30 +199,6 @@
     {
       "basename": "SDIAH Networking Essentials",
       "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "Amazon Network Load Balancer",
-      "path": "Amazon Network Load Balancer.md"
-    },
-    {
-      "basename": "Amazon Application Load Balancer",
-      "path": "Amazon Application Load Balancer.md"
-    },
-    {
-      "basename": "Registrar",
-      "path": "Registrar.md"
-    },
-    {
-      "basename": "Amazon Route 53",
-      "path": "Amazon Route 53.md"
-    },
-    {
-      "basename": "AWS Elastic Load Balancer",
-      "path": "AWS Elastic Load Balancer.md"
-    },
-    {
-      "basename": "CNAME Record",
-      "path": "CNAME Record.md"
     }
   ],
   "omittedPaths": [],

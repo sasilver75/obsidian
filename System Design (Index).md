@@ -270,12 +270,14 @@ Machine Learning
 - [[Sparse Retrieval]]
 - [[Dense Retrieval]]
 - [[Hybrid Search]]
-- [[Approximate Nearest Neighbor Search]]
+- [[Approximate Nearest Neighbor Search]], [[FAISS]], [[Hierarchical Navigable Small Worlds|HNSW]], etc.
 - [[LLM-as-a-Judge]]
 - [[Low-Rank Adaptation]]
 - [[Quantization]]
 - [[Tool Calling]]
 - [[Guardrails]]
+- [[LangChain]]
+- [[LangGraph]]
 - 
 
 

@@ -88,3 +88,4 @@ This design gives good performance, but it requires *both* undo and redo operati
 - Without checkpoints, crash recovery might need to scan an enormous log.
 - A checkpoint records enough information to reduce recovery time. After a crash, the database can usually start recovery near the last checkpoint, and proceed the recovery process from there.
 	- Note that in many systems, checkpoints are [[Checkpoint|Fuzzy Checkpoint]]s, meaning normal transaction processing continues while the checkpoint is taken, meaning all data might not be safely written.
+
