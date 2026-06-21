@@ -1,0 +1,74 @@
+
+
+Terms
+- - [[Adaptive Retrieval]]
+- [[Approximate Nearest Neighbor Contrastive Learning]] (ANCE)
+- [[Approximate Nearest Neighbor Search]] (ANN Search)
+- [[Asymmetric Distance Computation]] (ADC)
+- [[Average Precision]]
+- [[Baleen]]
+- [[Bi-Encoder]]
+- [[BM25]]
+- [[ColBERT-QA]]
+- [[ColBERTv2]]
+- [[ColBERT]]
+- [[ColPali]]
+- [[Consistency Filtering]]
+- [[Context Compression]]
+- [[Contriever]]
+- [[CRAG]] (Corrective Retrieval Augmented Generation)
+- [[Cross-Encoder]]
+- [[Dense Passage Retrieval]] (DPR)
+- [[Dense Retrieval]]
+- [[DRAGON]] (Dense Retrieval trained with Diverse Augmentation)
+- [[FLARE]] (Forward-Looking Active Retrieval Augmented Generation)
+- [[Fusion-in-Decoder]] (FiD)
+- [[Generate-then-Read]] (GenRead)
+- [[Hard Negative Mining]]
+- [[Hard Negative]]
+- [[Hierarchical Navigable Small Worlds]] (HNSW)
+- [[Hybrid Search]]
+- [[HyDE]] (Hypothetical Document Embeddings)
+- [[HyQE]] (Hypothetical Query Embeddings)
+- [[InPars]] (Inquisitive Parrots for Search)
+- [[Inverted File Index]] (IVF)
+- [[Inverted Index]]
+- [[IRCoT]]
+- [[Iter-RetGen]]
+- [[Iterative Retrieval]]
+- [[KG-FiD]] (Knowledge Graph - Fusion in Decoder)
+- [[Late Interaction]]
+- [[Locality Sensitive Hashing]] (LSH)
+- [[Mean Average Precision]] (MAP)
+- [[Mean Reciprocal Rank]]
+- [[Normalized Discounted Cumulative Gain]] (NDCG)
+- [[Optimized Product Quantization]] (OPQ)
+- [[ORQA]] (Open-Retrieval Question Answering System)
+- [[PLAID]]
+- [[Precision (Information Retrieval)]]
+- [[Product Quantization]] (PQ)
+- [[Promptagator]]
+- [[Query Expansion]]
+- [[Rank (Information Retrieval)]]
+- [[REALM]] (Retrieval-Augmented Language Model Pretraining)
+- [[Recall (Information Retrieval)]]
+- [[Reciprocal Rank]]
+- [[Recursive Retrieval]]
+- [[Relevance Set]]
+- [[Relevance-Guided Supervision]]
+- [[Reranking]]
+- [[RETRO]] (Retrieval-Enhanced Transformer)
+- [[Return Set]]
+- [[Reverse HyDE]]
+- [[SANTA]] (Structure-Aware Dense Retrieval)
+- [[Sparse Retrieval]]
+- [[SPLADEv2]]
+- [[SPLADE]]
+- [[Success]]
+- [[TART]] (Task-Aware Retrieval with Instructions)
+- [[TF-IDF]]
+- [[Tree of Clarification]]
+- [[UPR]] (Unsupervised Passage Re-Ranker)
+- [[Stream of Search]]
+- [[Likelihood Displacement]]
+- [[Reciprocal Rank Fusion]] (RRF)

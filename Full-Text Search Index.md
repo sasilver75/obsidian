@@ -1,6 +1,7 @@
 ---
 aliases:
   - Full-Text Search
+  - Search Index
 ---
 It's not trivial to search for text context
 - Find all the tweets that say "Sam is handsome."

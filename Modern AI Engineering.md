@@ -35,14 +35,6 @@ user/event
 The important shift is from ==prompting a model== to ==orchestrating a system of models, tools, data, state, and humans.==
 
 
-# AI Engineer vs ML Engineer
-
-Roughly:
-
-- [[Machine Learning Engineer]]: trains, fine-tunes, evaluates, serves, and monitors models.
-- [[MLOps]] engineer: builds the pipelines and platforms around model lifecycle.
-- AI engineer: uses foundation models as infrastructure to build product features.
-
 An AI engineer should be fluent in:
 - Backend engineering
 - Product UX

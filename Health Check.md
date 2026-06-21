@@ -3,3 +3,6 @@
 > "Is this thing okay?"
 
 The typical action on failure depends on context.
+- See [[Readiness Check]] and [[Liveness Check]]
+
+A health check is generic. It might mean a shallow check like “HTTP server responds with 200 OK,” or a deep check like “database connection, cache connection, message queue connection, disk space, and dependency latency are all acceptable.” The term has no single universal behavior unless a platform defines one.

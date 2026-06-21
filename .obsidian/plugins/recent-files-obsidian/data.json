@@ -1,24 +1,148 @@
 {
   "recentFiles": [
     {
-      "basename": "Health Check",
-      "path": "Health Check.md"
+      "basename": "Machine Learning (Index)",
+      "path": "Machine Learning (Index).md"
     },
     {
-      "basename": "Readiness Check",
-      "path": "Readiness Check.md"
+      "basename": "Modern AI Engineering",
+      "path": "Modern AI Engineering.md"
     },
     {
-      "basename": "Liveness Check",
-      "path": "Liveness Check.md"
+      "basename": "Machine Learning",
+      "path": "Machine Learning.md"
+    },
+    {
+      "basename": "Information Retrieval (Index)",
+      "path": "Information Retrieval (Index).md"
+    },
+    {
+      "basename": "Information Retrieval",
+      "path": "Information Retrieval.md"
+    },
+    {
+      "basename": "Linear Algebra (Index)",
+      "path": "Linear Algebra (Index).md"
+    },
+    {
+      "basename": "Reinforcement Finetuning",
+      "path": "Reinforcement Finetuning.md"
+    },
+    {
+      "basename": "Statistics (Index)",
+      "path": "Statistics (Index).md"
     },
     {
       "basename": "System Design (Index)",
       "path": "System Design (Index).md"
     },
     {
+      "basename": "RED Method",
+      "path": "RED Method.md"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Untitled 2.md"
+    },
+    {
+      "basename": "Mean Time to Recovery",
+      "path": "Mean Time to Recovery.md"
+    },
+    {
+      "basename": "Mean Time Between Failures",
+      "path": "Mean Time Between Failures.md"
+    },
+    {
+      "basename": "Mean Time to Failure",
+      "path": "Mean Time to Failure.md"
+    },
+    {
+      "basename": "Mean Time to Mitigate",
+      "path": "Mean Time to Mitigate.md"
+    },
+    {
+      "basename": "Mean Time to Contain",
+      "path": "Mean Time to Contain.md"
+    },
+    {
+      "basename": "Mean Time to Identify",
+      "path": "Mean Time to Identify.md"
+    },
+    {
+      "basename": "Mean Time to Acknowledge",
+      "path": "Mean Time to Acknowledge.md"
+    },
+    {
+      "basename": "Mean Time to Detect",
+      "path": "Mean Time to Detect.md"
+    },
+    {
       "basename": "Hot Spot",
       "path": "Hot Spot.md"
+    },
+    {
+      "basename": "Health Check",
+      "path": "Health Check.md"
+    },
+    {
+      "basename": "Liveness Check",
+      "path": "Liveness Check.md"
+    },
+    {
+      "basename": "Readiness Check",
+      "path": "Readiness Check.md"
+    },
+    {
+      "basename": "Feature Flag",
+      "path": "Feature Flag.md"
+    },
+    {
+      "basename": "Denormalization",
+      "path": "Denormalization.md"
+    },
+    {
+      "basename": "Full-Text Search Index",
+      "path": "Full-Text Search Index.md"
+    },
+    {
+      "basename": "Normalization",
+      "path": "Normalization.md"
+    },
+    {
+      "basename": "Command Query Responsibility Segregation",
+      "path": "Command Query Responsibility Segregation.md"
+    },
+    {
+      "basename": "Distributed Consensus",
+      "path": "Distributed Consensus.md"
+    },
+    {
+      "basename": "Recovery Time Objective",
+      "path": "Recovery Time Objective.md"
+    },
+    {
+      "basename": "Recovery Point Objective",
+      "path": "Recovery Point Objective.md"
+    },
+    {
+      "basename": "Reward-Aware Preference Optimization",
+      "path": "Reward-Aware Preference Optimization.md"
+    },
+    {
+      "basename": "Manufacturing (Index)",
+      "path": "Manufacturing (Index).md"
+    },
+    {
+      "basename": "Root Cause Analysis",
+      "path": "Root Cause Analysis.md"
+    },
+    {
+      "basename": "Fencing Token",
+      "path": "Fencing Token.md"
+    },
+    {
+      "basename": "Modern Backend Development",
+      "path": "Modern Backend Development.md"
     },
     {
       "basename": "Authorization",
@@ -71,130 +195,6 @@
     {
       "basename": "CNAME Record",
       "path": "CNAME Record.md"
-    },
-    {
-      "basename": "Health-Checked DNS",
-      "path": "Health-Checked DNS.md"
-    },
-    {
-      "basename": "Amazon Gateway Load Balancer",
-      "path": "Amazon Gateway Load Balancer.md"
-    },
-    {
-      "basename": "Modern Backend Development",
-      "path": "Modern Backend Development.md"
-    },
-    {
-      "basename": "Cross-Origin Resource Sharing",
-      "path": "Cross-Origin Resource Sharing.md"
-    },
-    {
-      "basename": "API Gateway",
-      "path": "API Gateway.md"
-    },
-    {
-      "basename": "E",
-      "path": "E.md"
-    },
-    {
-      "basename": "Two-Phase Locking",
-      "path": "Two-Phase Locking.md"
-    },
-    {
-      "basename": "Raft",
-      "path": "Raft.md"
-    },
-    {
-      "basename": "FLP Impossibility Theorem",
-      "path": "FLP Impossibility Theorem.md"
-    },
-    {
-      "basename": "Wide-Column",
-      "path": "Wide-Column.md"
-    },
-    {
-      "basename": "Metal-Oxide-Semiconductor Field-Effect Transistor",
-      "path": "Metal-Oxide-Semiconductor Field-Effect Transistor.md"
-    },
-    {
-      "basename": "Distributed Consensus",
-      "path": "Distributed Consensus.md"
-    },
-    {
-      "basename": "Kafka",
-      "path": "Kafka.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Redis.md"
-    },
-    {
-      "basename": "Kubernetes",
-      "path": "Kubernetes.md"
-    },
-    {
-      "basename": "Cache",
-      "path": "Cache.md"
-    },
-    {
-      "basename": "Write-Through Cache",
-      "path": "Write-Through Cache.md"
-    },
-    {
-      "basename": "Cache Consistency",
-      "path": "Cache Consistency.md"
-    },
-    {
-      "basename": "Data-Centric AI (6) - Growing or Compressing Datasets",
-      "path": "Courses/Machine Learning/Introduction to Data-Centric AI @ MIT (2023)/Data-Centric AI (6) - Growing or Compressing Datasets.md"
-    },
-    {
-      "basename": "Pessimistic Concurrency Control",
-      "path": "Pessimistic Concurrency Control.md"
-    },
-    {
-      "basename": "Optimistic Concurrency Control",
-      "path": "Optimistic Concurrency Control.md"
-    },
-    {
-      "basename": "Read Skew",
-      "path": "Read Skew.md"
-    },
-    {
-      "basename": "Sticky Session",
-      "path": "Sticky Session.md"
-    },
-    {
-      "basename": "Refresh Token",
-      "path": "Refresh Token.md"
-    },
-    {
-      "basename": "Prometheus",
-      "path": "Prometheus.md"
-    },
-    {
-      "basename": "Alertmanager",
-      "path": "Alertmanager.md"
-    },
-    {
-      "basename": "Database Recovery",
-      "path": "Database Recovery.md"
-    },
-    {
-      "basename": "Write-Ahead Log",
-      "path": "Write-Ahead Log.md"
-    },
-    {
-      "basename": "Buffer Cache",
-      "path": "Buffer Cache.md"
-    },
-    {
-      "basename": "Snapshot",
-      "path": "Snapshot.md"
-    },
-    {
-      "basename": "Checkpoint",
-      "path": "Checkpoint.md"
     }
   ],
   "omittedPaths": [],

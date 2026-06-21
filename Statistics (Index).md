@@ -1,0 +1,66 @@
+
+
+Terms:
+- [[Law of Large Numbers]]
+- [[Central Limit Theorem]]
+- [[Monte-Carlo]]
+- [[Markov Assumption]] (Markov Property)
+- [[Hidden Markov Model]] (HMM)
+- [[Markov Chain]] (Markov Process)
+- [[Markov Chain Monte Carlo]] (MCMC)
+- [[Importance Sampling]]
+- [[Pearson Correlation Coefficient]] (PCC, Pearson's r)
+- [[Spearman Rank Correlation Coefficient]] (Spearman's Rho)
+- [[Kendall Rank Correlation Coefficient]] (Kendall's Tau)
+- [[Chi-Squared]]
+- [[Multicollinearity]]****
+- [[Degrees of Freedom]]
+- [[Hyperparameter]]
+- [[Loss Function]]
+- [[Multi-Armed Bandit]]
+- [[Least-Squares]]
+- [[Binomial Coefficient]]
+- [[Kullback-Leibler Divergence]] (KL Divergence)
+- [[Entropy]]
+- [[Mutual Information]]
+- [[Cross-Entropy]]
+- [[Kolmogorov Complexity]]
+- [[Thompson Sampling]]
+- [[Upper Confidence Bound]] (UCB)
+- [[Chain Rule of Probability]]
+- [[Multiplication Rule of Probability]]
+- [[Naive Definition of Probability]]
+- [[Bayes Theorem]]
+- [[Bayesian Statistics]]
+- [[Bayesian Network]]
+- [[Gaussian Mixture Model]] (GMM)
+- [[Gaussian Process]]
+- [[Jensen's Inequality]]
+- [[Evidence Lower Bound]] (ELBO)
+- [[Variational Bayesian Inference]] ("Variational Bayes")
+- [[[Gaussian Distribution]] (Normal Distribution)
+- [[Bernoulli Distribution]]
+- [[Binomial Distribution]] (Probability that I get X heads in N flips)
+- [[Uniform Distribution]]
+- [[Beta Distribution]] 
+- [[Poisson Distribution]] (If 3 people walk into store per average hour, p(5 people walk in))
+- [[Gamma Distribution]]
+- [[Exponential Distribution]]
+- [[Weibull Distribution]]
+- [[Geometric Distribution]]
+- [[Student's t Distribution]]
+- [[Permutation]]
+- [[Combination]]
+- [[Normalizing Flows]]
+- [[Conditional Probability]]
+- [[Law of Total Probability]]
+- [[Sample Space]]
+- [[Event Space]]
+- [[Event]]
+- [[Outcome]]
+- [[Variance]]
+- [[Standard Deviation]]
+- [[Covariance]]
+- [[De Morgan's Law of Union]]
+- [[Linearity of Expectation]]
+- [[Gibbs Sampling]]

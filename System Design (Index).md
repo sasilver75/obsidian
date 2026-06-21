@@ -262,6 +262,23 @@ Terms
 - [[Encryption in Transit]]: Encrypting data while it crosses networks so intermediaries cannot read or tamper with it.
 
 
+Machine Learning
+- [[KV Cache]]
+- [[Prompt Caching]]
+- [[Agent Harness]]
+- [[Embedding]]
+- [[Sparse Retrieval]]
+- [[Dense Retrieval]]
+- [[Hybrid Search]]
+- [[Approximate Nearest Neighbor Search]]
+- [[LLM-as-a-Judge]]
+- [[Low-Rank Adaptation]]
+- [[Quantization]]
+- [[Tool Calling]]
+- [[Guardrails]]
+- 
+
+
 _____________
 
 # Useful tips for interviews

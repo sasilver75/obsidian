@@ -28,7 +28,8 @@ A value is not decided just because one server likes it; a value is typically de
 Typical vocabulary:
 - ==Replica==: A server participating in consensus
 - ==Proposal==: A candidate value that might be chosen
-- ==Round/term/epoch/ballot==: A monotonically-increasing attempt number used to order competing attempts
+- ==Round/term/epoch/ballot==: A monotonically-increasing attempt number used to order competing attempts.
+	- ((I think this is also a [[Fencing Token]]?))
 - ==Quorum==: A subset large enough to make decisions, usually a majority
 - ==Vote/accept==: Durable evidence that a replica supports a value in a particular round
 - ==Chosen/committed==: A value has enough votes that no conflicting value can later be chosen

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f96ccc681f72ff85",
+            "id": "6fc6e048bb1b4add",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "bea4f3cce37a9750",
+            "id": "1db67b3408cd510a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Liveness Check.md",
+                "file": "Statistics (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Liveness Check"
+              "title": "Statistics (Index)"
             }
           },
           {
-            "id": "1d39624d66ceaf5d",
+            "id": "f056d26f399f3a2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readiness Check.md",
+                "file": "Information Retrieval.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Readiness Check"
+              "title": "Information Retrieval"
             }
           },
           {
-            "id": "2047d4ca158bc324",
+            "id": "38103ba240a7bc0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Check.md",
+                "file": "Machine Learning (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Health Check"
+              "title": "Machine Learning (Index)"
             }
           },
           {
-            "id": "6fc6e048bb1b4add",
+            "id": "2d2d64a5f2c19244",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hot Spot.md",
+                "file": "Machine Learning (Index).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hot Spot"
+              "title": "Machine Learning (Index)"
+            }
+          },
+          {
+            "id": "3debf18667ff9e40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra (Index).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Linear Algebra (Index)"
+            }
+          },
+          {
+            "id": "df92d9dec9d05ada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RED Method.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RED Method"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2228,34 +2276,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2047d4ca158bc324",
+  "active": "2d2d64a5f2c19244",
   "lastOpenFiles": [
-    "Readiness Check.md",
-    "helath check.md",
-    "Liveness Check.md",
-    "Health Check.md",
+    "Modern AI Engineering.md",
+    "Machine Learning Engineer.md",
+    "Machine Learning (Index).md",
+    "Machine Learning.md",
+    "Information Retrieval (Index).md",
+    "Information Retrieval.md",
+    "Thinking LLMs.md",
+    "Linear Algebra (Index).md",
+    "Reinforcement Finetuning.md",
+    "Statistics (Index).md",
     "System Design (Index).md",
+    "RED Method.md",
+    "Untitled 2.md",
+    "Mean Time to Recovery.md",
+    "Mean Time Between Failures.md",
+    "Mean Time to Failure.md",
+    "Mean Time to Mitigate.md",
+    "Mean Time to Contain.md",
+    "Mean Time to Identify.md",
+    "Mean Time to Acknowledge.md",
+    "Mean Time to Detect.md",
     "Hot Spot.md",
-    "Authorization.md",
-    "Attribute-Based Access Control.md",
-    "Open Policy Agent.md",
-    "Cross-Site Request Forgery.md",
-    "CSRF Token.md",
-    "Amazon EventBridge.md",
-    "Courses/SystemDesign/SDIAH Networking Essentials.md",
-    "Amazon Network Load Balancer.md",
-    "Amazon Application Load Balancer.md",
-    "Registrar.md",
-    "Amazon Route 53.md",
-    "AWS Elastic Load Balancer.md",
-    "CNAME Record.md",
-    "Health-Checked DNS.md",
-    "Amazon Gateway Load Balancer.md",
-    "AWS Application Load Balancer.md",
-    "Modern Backend Development.md",
-    "Cross-Origin Resource Sharing.md",
-    "API Gateway.md",
-    "CORS.md",
+    "Health Check.md",
+    "Liveness Check.md",
+    "Readiness Check.md",
+    "Feature Flag.md",
     "_attachments/Pasted image 20260617120435.png",
     "_attachments/Pasted image 20260617120412.png",
     "_attachments/Pasted image 20260617120352.png",
