@@ -1,0 +1,1 @@
+ A probe that reports whether an instance is alive or should be restarted. Keep it narrow so slow dependencies do not cause unnecessary restart loops.

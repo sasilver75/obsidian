@@ -1,24 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "AWS Elastic Load Balancer",
-      "path": "AWS Elastic Load Balancer.md"
+      "basename": "Health Check",
+      "path": "Health Check.md"
     },
     {
-      "basename": "Amazon Route 53",
-      "path": "Amazon Route 53.md"
+      "basename": "Readiness Check",
+      "path": "Readiness Check.md"
+    },
+    {
+      "basename": "Liveness Check",
+      "path": "Liveness Check.md"
+    },
+    {
+      "basename": "System Design (Index)",
+      "path": "System Design (Index).md"
+    },
+    {
+      "basename": "Hot Spot",
+      "path": "Hot Spot.md"
+    },
+    {
+      "basename": "Authorization",
+      "path": "Authorization.md"
+    },
+    {
+      "basename": "Attribute-Based Access Control",
+      "path": "Attribute-Based Access Control.md"
+    },
+    {
+      "basename": "Open Policy Agent",
+      "path": "Open Policy Agent.md"
+    },
+    {
+      "basename": "Cross-Site Request Forgery",
+      "path": "Cross-Site Request Forgery.md"
+    },
+    {
+      "basename": "CSRF Token",
+      "path": "CSRF Token.md"
+    },
+    {
+      "basename": "Amazon EventBridge",
+      "path": "Amazon EventBridge.md"
+    },
+    {
+      "basename": "SDIAH Networking Essentials",
+      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
+    },
+    {
+      "basename": "Amazon Network Load Balancer",
+      "path": "Amazon Network Load Balancer.md"
+    },
+    {
+      "basename": "Amazon Application Load Balancer",
+      "path": "Amazon Application Load Balancer.md"
     },
     {
       "basename": "Registrar",
       "path": "Registrar.md"
     },
     {
-      "basename": "CNAME Record",
-      "path": "CNAME Record.md"
+      "basename": "Amazon Route 53",
+      "path": "Amazon Route 53.md"
     },
     {
-      "basename": "Amazon Application Load Balancer",
-      "path": "Amazon Application Load Balancer.md"
+      "basename": "AWS Elastic Load Balancer",
+      "path": "AWS Elastic Load Balancer.md"
+    },
+    {
+      "basename": "CNAME Record",
+      "path": "CNAME Record.md"
     },
     {
       "basename": "Health-Checked DNS",
@@ -29,32 +81,8 @@
       "path": "Amazon Gateway Load Balancer.md"
     },
     {
-      "basename": "Amazon Network Load Balancer",
-      "path": "Amazon Network Load Balancer.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "SDIAH Networking Essentials",
-      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
-    },
-    {
-      "basename": "Amazon EventBridge",
-      "path": "Amazon EventBridge.md"
-    },
-    {
       "basename": "Modern Backend Development",
       "path": "Modern Backend Development.md"
-    },
-    {
-      "basename": "Cross-Site Request Forgery",
-      "path": "Cross-Site Request Forgery.md"
-    },
-    {
-      "basename": "CSRF Token",
-      "path": "CSRF Token.md"
     },
     {
       "basename": "Cross-Origin Resource Sharing",
@@ -167,38 +195,6 @@
     {
       "basename": "Checkpoint",
       "path": "Checkpoint.md"
-    },
-    {
-      "basename": "Algorithms for Recovrety and Isolation Exploiting Semantics",
-      "path": "Algorithms for Recovrety and Isolation Exploiting Semantics.md"
-    },
-    {
-      "basename": "Amazon Bedrock",
-      "path": "Amazon Bedrock.md"
-    },
-    {
-      "basename": "Amazon Athena",
-      "path": "Amazon Athena.md"
-    },
-    {
-      "basename": "Amazon Elastic Container Registry",
-      "path": "Amazon Elastic Container Registry.md"
-    },
-    {
-      "basename": "Amazon Certificate Manager",
-      "path": "Amazon Certificate Manager.md"
-    },
-    {
-      "basename": "Base62",
-      "path": "Base62.md"
-    },
-    {
-      "basename": "Amazon Fargate",
-      "path": "Amazon Fargate.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Index.md"
     }
   ],
   "omittedPaths": [],
