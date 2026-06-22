@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c647252d069f2360",
+        "id": "7e43d1b6ca3aee05",
         "type": "tabs",
         "children": [
           {
-            "id": "26d2accfbb217ff4",
+            "id": "980153501ecc61ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +30,105 @@
               "icon": "lucide-file",
               "title": "Neo4j"
             }
+          },
+          {
+            "id": "0c90cead8ee74897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Database.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Graph Database"
+            }
+          },
+          {
+            "id": "12f619d851cd6d46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Palantir Ontology.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Palantir Ontology"
+            }
+          },
+          {
+            "id": "077ffceb6168d85c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Object-Relational Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Object-Relational Mapping"
+            }
+          },
+          {
+            "id": "5aa743b5cbb73773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Palantir Artificial Intelligence Platform.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Palantir Artificial Intelligence Platform"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2131,15 +2228,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "26d2accfbb217ff4",
+  "active": "12f619d851cd6d46",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260622141528.png",
     "Graph Database.md",
     "Neo4j.md",
+    "Palantir Ontology.md",
+    "Object-Relational Mapping.md",
+    "Palantir Artificial Intelligence Platform.md",
+    "Ontology.md",
+    "Web Ontology Language.md",
+    "Knowledge Graph.md",
+    "Load Balancing.md",
+    "_attachments/Pasted image 20260622141528.png",
     "SPARQL.md",
     "Property Graph.md",
-    "Web Ontology Language.md",
-    "Palantir Ontology.md",
     "Resource Description Framework.md",
     "International Organization for Standardization.md",
     "Graph Query Language.md",
@@ -2155,10 +2257,6 @@
     "Multipurpose Internet Mail Extensions.md",
     "High Availability.md",
     "Database Recovery.md",
-    "Stale Lease.md",
-    "Redlock Algorithm.md",
-    "Martin.md",
-    "Cache Stampede.md",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",
     "_attachments/Pasted image 20260621231436.png",
@@ -2168,7 +2266,6 @@
     "_attachments/Pasted image 20260621221713.png",
     "_attachments/Pasted image 20260621220821.png",
     "_attachments/Pasted image 20260621215751.png",
-    "_attachments/Pasted image 20260621215113.png",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

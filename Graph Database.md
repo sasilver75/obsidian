@@ -57,7 +57,7 @@ The database is optimized for "walk from here to nearby connected things" querie
 - [[Resource Description Framework]] (RDF) triple store: GraphDB, Blazegraph, Apache Jena, Amazon Neptune RDF mode
 	- `Alice worksAt Acme`
 
-See also: [[Web Ontology Language]] (OWL)
+See also: [[Web Ontology Language]] (OWL), [[Ontology]]
 
 
 

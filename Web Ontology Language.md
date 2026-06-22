@@ -2,7 +2,7 @@
 aliases:
   - OWL
 ---
-A formal [[Palantir Ontology|Ontology]] language built for machine reasoning over [[Resource Description Framework|RDF]]-style data. Used for defining precise logical meanings, classes, constraints, and inferable facts.
+A formal [[Ontology]] language built for machine reasoning over [[Resource Description Framework|RDF]]-style data. Used for defining precise logical meanings, classes, constraints, and inferable facts.
 - The odd acronym order is historical.
 
 > OWL is a standardized logic language for turning a knowledge graph from a collection of facts into a system that can infer, classify, and check meanings.
@@ -46,7 +46,7 @@ OWL exists because RDF triples alone do not say enough about meaning.
 	- Which categories imply other categories.
 	- Which combinations are impossible.
 
-An [[Palantir Ontology|Ontology]] in this context is the formal model: The classes, properties, and axioms that define the domain.
+An [[Ontology]] in this context is the formal model: The classes, properties, and axioms that define the domain.
 
 | OWL concept     | Meaning                                                                     |
 | --------------- | --------------------------------------------------------------------------- |
