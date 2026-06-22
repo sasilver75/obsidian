@@ -274,7 +274,7 @@ Manufacturing Quality terms:
  - [[Root Cause Analysis]]: A structured effort to find the underlying cause of a problem.
  - [[Correct Action]]: A fix intended to eliminate the cause of a defect or failure.
  - NDT: Non-destructive testing, inspection methods that evaluate parts without damaging them.
- - ISO 9001: A widely-used international quality management standard; a standard for creating and maintaining a [[Quality Management System]] (QMS).
+ - [[International Organization for Standardization|ISO]] 9001: A widely-used international quality management standard; a standard for creating and maintaining a [[Quality Management System]] (QMS).
  - ISO 9100
 
 

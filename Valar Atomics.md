@@ -332,7 +332,7 @@ Fission:
 3. The control center (right)
 
 Q: So an SMR is 
-A: Some people want to put a whole reactor in one box, including heat transport, including power conversion, these sorts of things. It's more logical to break these up. All three of these are built into ==ISO 668 Frames== (shipping container spec). 
+A: Some people want to put a whole reactor in one box, including heat transport, including power conversion, these sorts of things. It's more logical to break these up. All three of these are built into ==[[International Organization for Standardization|ISO]] 668 Frames== (shipping container spec). 
 
 
 ![[Pasted image 20260511001551.png]]

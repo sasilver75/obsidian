@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fc6e048bb1b4add",
+            "id": "26d2accfbb217ff4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md",
+                "file": "Neo4j.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,155 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Design Ticket Booking System"
-            }
-          },
-          {
-            "id": "0bd1b865dbe40c0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stale Lease.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Stale Lease"
-            }
-          },
-          {
-            "id": "d3e12d3c01950888",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fencing Token.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fencing Token"
-            }
-          },
-          {
-            "id": "39763bf6c7fcd390",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haversine Distance.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Haversine Distance"
-            }
-          },
-          {
-            "id": "54e0eaf6409d5611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multipurpose Internet Mail Extensions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Multipurpose Internet Mail Extensions"
-            }
-          },
-          {
-            "id": "810e2f6e1b53ec87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "High Availability.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "High Availability"
-            }
-          },
-          {
-            "id": "6e4fe57ffab385d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database Recovery.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Database Recovery"
+              "title": "Neo4j"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Stale Lease\"",
+                "query": "ISO",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2276,44 +2131,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0bd1b865dbe40c0a",
+  "active": "26d2accfbb217ff4",
   "lastOpenFiles": [
-    "Fencing Token.md",
-    "Stale Lease.md",
+    "_attachments/Pasted image 20260622141528.png",
+    "Graph Database.md",
+    "Neo4j.md",
+    "SPARQL.md",
+    "Property Graph.md",
+    "Web Ontology Language.md",
+    "Palantir Ontology.md",
+    "Resource Description Framework.md",
+    "International Organization for Standardization.md",
+    "Graph Query Language.md",
+    "GraphQL.md",
+    "Valar Atomics.md",
+    "Manufacturing (Index).md",
+    "SPARC.md",
+    "World Wide Web Consortium.md",
+    "Anti-Access Area Denial.md",
     "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md",
+    "Fencing Token.md",
+    "Haversine Distance.md",
+    "Multipurpose Internet Mail Extensions.md",
+    "High Availability.md",
+    "Database Recovery.md",
+    "Stale Lease.md",
     "Redlock Algorithm.md",
     "Martin.md",
     "Cache Stampede.md",
-    "Distributed Lock.md",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",
     "_attachments/Pasted image 20260621231436.png",
     "_attachments/Pasted image 20260621231018.png",
     "_attachments/Pasted image 20260621222822.png",
-    "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md",
     "_attachments/Pasted image 20260621222143.png",
     "_attachments/Pasted image 20260621221713.png",
     "_attachments/Pasted image 20260621220821.png",
     "_attachments/Pasted image 20260621215751.png",
     "_attachments/Pasted image 20260621215113.png",
-    "Haversine Distance.md",
-    "Courses/SystemDesign/Case Studies/Design File Storage.md",
-    "Database Recovery.md",
-    "Multipurpose Internet Mail Extensions.md",
-    "Courses/SystemDesign/Case Studies/Design URL Shortener.md",
-    "Disaster Recovery.md",
-    "High Availability.md",
-    "Agent Harness.md",
-    "Amazon Fargate.md",
-    "Courses/SystemDesign/Case Studies/Design GoPuff.md",
-    "System Design (Index).md",
-    "Statistics (Index).md",
-    "Information Retrieval.md",
-    "RED Method.md",
-    "Linear Algebra (Index).md",
-    "Machine Learning (Index).md",
-    "Modern AI Engineering.md",
-    "Machine Learning Engineer.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

@@ -1,16 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "Stale Lease",
-      "path": "Stale Lease.md"
+      "basename": "Neo4j",
+      "path": "Neo4j.md"
+    },
+    {
+      "basename": "Graph Database",
+      "path": "Graph Database.md"
+    },
+    {
+      "basename": "SPARQL",
+      "path": "SPARQL.md"
+    },
+    {
+      "basename": "Property Graph",
+      "path": "Property Graph.md"
+    },
+    {
+      "basename": "Web Ontology Language",
+      "path": "Web Ontology Language.md"
+    },
+    {
+      "basename": "Palantir Ontology",
+      "path": "Palantir Ontology.md"
+    },
+    {
+      "basename": "Resource Description Framework",
+      "path": "Resource Description Framework.md"
+    },
+    {
+      "basename": "International Organization for Standardization",
+      "path": "International Organization for Standardization.md"
+    },
+    {
+      "basename": "Graph Query Language",
+      "path": "Graph Query Language.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "GraphQL.md"
+    },
+    {
+      "basename": "Valar Atomics",
+      "path": "Valar Atomics.md"
+    },
+    {
+      "basename": "Manufacturing (Index)",
+      "path": "Manufacturing (Index).md"
+    },
+    {
+      "basename": "SPARC",
+      "path": "SPARC.md"
+    },
+    {
+      "basename": "World Wide Web Consortium",
+      "path": "World Wide Web Consortium.md"
+    },
+    {
+      "basename": "Anti-Access Area Denial",
+      "path": "Anti-Access Area Denial.md"
+    },
+    {
+      "basename": "Design Ticket Booking System",
+      "path": "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md"
     },
     {
       "basename": "Fencing Token",
       "path": "Fencing Token.md"
     },
     {
-      "basename": "Design Ticket Booking System",
-      "path": "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md"
+      "basename": "Haversine Distance",
+      "path": "Haversine Distance.md"
+    },
+    {
+      "basename": "Multipurpose Internet Mail Extensions",
+      "path": "Multipurpose Internet Mail Extensions.md"
+    },
+    {
+      "basename": "High Availability",
+      "path": "High Availability.md"
+    },
+    {
+      "basename": "Database Recovery",
+      "path": "Database Recovery.md"
+    },
+    {
+      "basename": "Stale Lease",
+      "path": "Stale Lease.md"
     },
     {
       "basename": "Redlock Algorithm",
@@ -33,20 +109,8 @@
       "path": "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md"
     },
     {
-      "basename": "Haversine Distance",
-      "path": "Haversine Distance.md"
-    },
-    {
       "basename": "Design File Storage",
       "path": "Courses/SystemDesign/Case Studies/Design File Storage.md"
-    },
-    {
-      "basename": "Database Recovery",
-      "path": "Database Recovery.md"
-    },
-    {
-      "basename": "Multipurpose Internet Mail Extensions",
-      "path": "Multipurpose Internet Mail Extensions.md"
     },
     {
       "basename": "Design URL Shortener",
@@ -55,10 +119,6 @@
     {
       "basename": "Disaster Recovery",
       "path": "Disaster Recovery.md"
-    },
-    {
-      "basename": "High Availability",
-      "path": "High Availability.md"
     },
     {
       "basename": "Agent Harness",
@@ -139,66 +199,6 @@
     {
       "basename": "Mean Time to Acknowledge",
       "path": "Mean Time to Acknowledge.md"
-    },
-    {
-      "basename": "Mean Time to Detect",
-      "path": "Mean Time to Detect.md"
-    },
-    {
-      "basename": "Hot Spot",
-      "path": "Hot Spot.md"
-    },
-    {
-      "basename": "Health Check",
-      "path": "Health Check.md"
-    },
-    {
-      "basename": "Liveness Check",
-      "path": "Liveness Check.md"
-    },
-    {
-      "basename": "Readiness Check",
-      "path": "Readiness Check.md"
-    },
-    {
-      "basename": "Feature Flag",
-      "path": "Feature Flag.md"
-    },
-    {
-      "basename": "Denormalization",
-      "path": "Denormalization.md"
-    },
-    {
-      "basename": "Full-Text Search Index",
-      "path": "Full-Text Search Index.md"
-    },
-    {
-      "basename": "Normalization",
-      "path": "Normalization.md"
-    },
-    {
-      "basename": "Command Query Responsibility Segregation",
-      "path": "Command Query Responsibility Segregation.md"
-    },
-    {
-      "basename": "Distributed Consensus",
-      "path": "Distributed Consensus.md"
-    },
-    {
-      "basename": "Recovery Time Objective",
-      "path": "Recovery Time Objective.md"
-    },
-    {
-      "basename": "Recovery Point Objective",
-      "path": "Recovery Point Objective.md"
-    },
-    {
-      "basename": "Reward-Aware Preference Optimization",
-      "path": "Reward-Aware Preference Optimization.md"
-    },
-    {
-      "basename": "Manufacturing (Index)",
-      "path": "Manufacturing (Index).md"
     }
   ],
   "omittedPaths": [],
