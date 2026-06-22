@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Design Local Delivery Service",
+      "path": "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md"
+    },
+    {
+      "basename": "Haversine Distance",
+      "path": "Haversine Distance.md"
+    },
+    {
       "basename": "Design File Storage",
       "path": "Courses/SystemDesign/Case Studies/Design File Storage.md"
+    },
+    {
+      "basename": "Database Recovery",
+      "path": "Database Recovery.md"
+    },
+    {
+      "basename": "Multipurpose Internet Mail Extensions",
+      "path": "Multipurpose Internet Mail Extensions.md"
     },
     {
       "basename": "Design URL Shortener",
@@ -11,10 +27,6 @@
     {
       "basename": "Disaster Recovery",
       "path": "Disaster Recovery.md"
-    },
-    {
-      "basename": "Database Recovery",
-      "path": "Database Recovery.md"
     },
     {
       "basename": "High Availability",
@@ -187,18 +199,6 @@
     {
       "basename": "Cross-Site Request Forgery",
       "path": "Cross-Site Request Forgery.md"
-    },
-    {
-      "basename": "CSRF Token",
-      "path": "CSRF Token.md"
-    },
-    {
-      "basename": "Amazon EventBridge",
-      "path": "Amazon EventBridge.md"
-    },
-    {
-      "basename": "SDIAH Networking Essentials",
-      "path": "Courses/SystemDesign/SDIAH Networking Essentials.md"
     }
   ],
   "omittedPaths": [],

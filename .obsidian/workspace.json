@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Recovery.md",
+                "file": "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Database Recovery"
+              "title": "Design Local Delivery Service"
+            }
+          },
+          {
+            "id": "39763bf6c7fcd390",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haversine Distance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Haversine Distance"
             }
           },
           {
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/Case Studies/Design File Storage.md",
+                "file": "Multipurpose Internet Mail Extensions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Design File Storage"
+              "title": "Multipurpose Internet Mail Extensions"
             }
           },
           {
@@ -103,8 +127,7 @@
               "title": "Database Recovery"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2203,13 +2226,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "54e0eaf6409d5611",
+  "active": "6fc6e048bb1b4add",
   "lastOpenFiles": [
-    "Courses/SystemDesign/Case Studies/Design URL Shortener.md",
+    "_attachments/Pasted image 20260621212543.png",
+    "_attachments/Pasted image 20260621212159.png",
+    "Haversine Distance.md",
+    "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md",
     "Courses/SystemDesign/Case Studies/Design File Storage.md",
+    "Database Recovery.md",
+    "Multipurpose Internet Mail Extensions.md",
+    "_attachments/Pasted image 20260621165831.png",
+    "_attachments/Pasted image 20260621162517.png",
+    "_attachments/Pasted image 20260621162331.png",
+    "_attachments/Pasted image 20260621161111.png",
+    "_attachments/Pasted image 20260621161110.png",
+    "_attachments/Pasted image 20260621161108.png",
+    "Courses/SystemDesign/Case Studies/Design URL Shortener.md",
     "_attachments/Pasted image 20260621150233.png",
     "Disaster Recovery.md",
-    "Database Recovery.md",
     "High Availability.md",
     "Agent Harness.md",
     "_attachments/Pasted image 20260621135151.png",
@@ -2230,17 +2264,6 @@
     "Reinforcement Finetuning.md",
     "Untitled 2.md",
     "Mean Time to Recovery.md",
-    "Mean Time Between Failures.md",
-    "Mean Time to Failure.md",
-    "Mean Time to Mitigate.md",
-    "Mean Time to Contain.md",
-    "_attachments/Pasted image 20260617120435.png",
-    "_attachments/Pasted image 20260617120412.png",
-    "_attachments/Pasted image 20260617120352.png",
-    "_attachments/Pasted image 20260617114454.png",
-    "_attachments/Pasted image 20260617114453.png",
-    "_attachments/Pasted image 20260617104033.png",
-    "_attachments/Pasted image 20260617104026.png",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
