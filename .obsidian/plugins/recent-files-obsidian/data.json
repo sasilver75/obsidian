@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Stale Lease",
+      "path": "Stale Lease.md"
+    },
+    {
+      "basename": "Fencing Token",
+      "path": "Fencing Token.md"
+    },
+    {
+      "basename": "Design Ticket Booking System",
+      "path": "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md"
+    },
+    {
+      "basename": "Redlock Algorithm",
+      "path": "Redlock Algorithm.md"
+    },
+    {
+      "basename": "Martin",
+      "path": "Martin.md"
+    },
+    {
+      "basename": "Cache Stampede",
+      "path": "Cache Stampede.md"
+    },
+    {
+      "basename": "Distributed Lock",
+      "path": "Distributed Lock.md"
+    },
+    {
       "basename": "Design Local Delivery Service",
       "path": "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Manufacturing (Index)",
       "path": "Manufacturing (Index).md"
-    },
-    {
-      "basename": "Root Cause Analysis",
-      "path": "Root Cause Analysis.md"
-    },
-    {
-      "basename": "Fencing Token",
-      "path": "Fencing Token.md"
-    },
-    {
-      "basename": "Modern Backend Development",
-      "path": "Modern Backend Development.md"
-    },
-    {
-      "basename": "Authorization",
-      "path": "Authorization.md"
-    },
-    {
-      "basename": "Attribute-Based Access Control",
-      "path": "Attribute-Based Access Control.md"
-    },
-    {
-      "basename": "Open Policy Agent",
-      "path": "Open Policy Agent.md"
-    },
-    {
-      "basename": "Cross-Site Request Forgery",
-      "path": "Cross-Site Request Forgery.md"
     }
   ],
   "omittedPaths": [],

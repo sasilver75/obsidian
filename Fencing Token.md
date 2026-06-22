@@ -1,6 +1,6 @@
 
 A monotonically increasing value issued to clients when it acquires a lock, lease, or leadership role in a distributed system. Its purpose is to prevent an old or paused client from performing writes after it has lost ownership.
-- See [[Distributed Lock]] for a description of the Stale Lease problem, and how fencing tokens help address it.
+- See [[Distributed Lock]] for a description of the [[Stale Lease]] problem, and how fencing tokens help address it.
 
 
 When a client gets a lock, it receives a token:

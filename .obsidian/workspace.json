@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md",
+                "file": "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Design Local Delivery Service"
+              "title": "Design Ticket Booking System"
+            }
+          },
+          {
+            "id": "0bd1b865dbe40c0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stale Lease.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Stale Lease"
+            }
+          },
+          {
+            "id": "d3e12d3c01950888",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fencing Token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fencing Token"
             }
           },
           {
@@ -127,7 +175,8 @@
               "title": "Database Recovery"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Stale Lease\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +239,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2226,28 +2276,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6fc6e048bb1b4add",
+  "active": "0bd1b865dbe40c0a",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260621212543.png",
-    "_attachments/Pasted image 20260621212159.png",
-    "Haversine Distance.md",
+    "Fencing Token.md",
+    "Stale Lease.md",
+    "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md",
+    "Redlock Algorithm.md",
+    "Martin.md",
+    "Cache Stampede.md",
+    "Distributed Lock.md",
+    "_attachments/Pasted image 20260621234840.png",
+    "_attachments/Pasted image 20260621232313.png",
+    "_attachments/Pasted image 20260621231436.png",
+    "_attachments/Pasted image 20260621231018.png",
+    "_attachments/Pasted image 20260621222822.png",
     "Courses/SystemDesign/Case Studies/Design Local Delivery Service.md",
+    "_attachments/Pasted image 20260621222143.png",
+    "_attachments/Pasted image 20260621221713.png",
+    "_attachments/Pasted image 20260621220821.png",
+    "_attachments/Pasted image 20260621215751.png",
+    "_attachments/Pasted image 20260621215113.png",
+    "Haversine Distance.md",
     "Courses/SystemDesign/Case Studies/Design File Storage.md",
     "Database Recovery.md",
     "Multipurpose Internet Mail Extensions.md",
-    "_attachments/Pasted image 20260621165831.png",
-    "_attachments/Pasted image 20260621162517.png",
-    "_attachments/Pasted image 20260621162331.png",
-    "_attachments/Pasted image 20260621161111.png",
-    "_attachments/Pasted image 20260621161110.png",
-    "_attachments/Pasted image 20260621161108.png",
     "Courses/SystemDesign/Case Studies/Design URL Shortener.md",
-    "_attachments/Pasted image 20260621150233.png",
     "Disaster Recovery.md",
     "High Availability.md",
     "Agent Harness.md",
-    "_attachments/Pasted image 20260621135151.png",
-    "_attachments/Pasted image 20260621134651.png",
     "Amazon Fargate.md",
     "Courses/SystemDesign/Case Studies/Design GoPuff.md",
     "System Design (Index).md",
@@ -2258,12 +2314,6 @@
     "Machine Learning (Index).md",
     "Modern AI Engineering.md",
     "Machine Learning Engineer.md",
-    "Machine Learning.md",
-    "Information Retrieval (Index).md",
-    "Thinking LLMs.md",
-    "Reinforcement Finetuning.md",
-    "Untitled 2.md",
-    "Mean Time to Recovery.md",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
