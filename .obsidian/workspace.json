@@ -30,105 +30,8 @@
               "icon": "lucide-file",
               "title": "Neo4j"
             }
-          },
-          {
-            "id": "0c90cead8ee74897",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Database.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Graph Database"
-            }
-          },
-          {
-            "id": "12f619d851cd6d46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Palantir Ontology.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Palantir Ontology"
-            }
-          },
-          {
-            "id": "077ffceb6168d85c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Object-Relational Mapping.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Object-Relational Mapping"
-            }
-          },
-          {
-            "id": "5aa743b5cbb73773",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Palantir Artificial Intelligence Platform.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Palantir Artificial Intelligence Platform"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -2228,13 +2131,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "12f619d851cd6d46",
+  "active": "980153501ecc61ad",
   "lastOpenFiles": [
     "Graph Database.md",
-    "Neo4j.md",
-    "Palantir Ontology.md",
-    "Object-Relational Mapping.md",
     "Palantir Artificial Intelligence Platform.md",
+    "Object-Relational Mapping.md",
+    "Palantir Ontology.md",
+    "Neo4j.md",
     "Ontology.md",
     "Web Ontology Language.md",
     "Knowledge Graph.md",
