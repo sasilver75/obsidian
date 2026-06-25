@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neo4j.md",
+                "file": "GEOS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Neo4j"
+              "title": "GEOS"
+            }
+          },
+          {
+            "id": "2f6787d5da9bb6c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gremlin.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gremlin"
+            }
+          },
+          {
+            "id": "693c84af2e1efd8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Query Language.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Graph Query Language"
             }
           }
         ]
@@ -2133,21 +2181,26 @@
   },
   "active": "980153501ecc61ad",
   "lastOpenFiles": [
+    "Geospatial Data Abstraction Library.md",
+    "Neo4j.md",
+    "().md",
     "Graph Database.md",
+    "Gremlin.md",
+    "Graph Query Language.md",
+    "International Organization for Standardization.md",
+    "Open Systems Interconnection.md",
+    "_attachments/Pasted image 20260624120103.png",
+    "Labeled Property Graph.md",
+    "Resource Description Framework.md",
     "Palantir Artificial Intelligence Platform.md",
     "Object-Relational Mapping.md",
     "Palantir Ontology.md",
-    "Neo4j.md",
     "Ontology.md",
     "Web Ontology Language.md",
     "Knowledge Graph.md",
     "Load Balancing.md",
     "_attachments/Pasted image 20260622141528.png",
     "SPARQL.md",
-    "Property Graph.md",
-    "Resource Description Framework.md",
-    "International Organization for Standardization.md",
-    "Graph Query Language.md",
     "GraphQL.md",
     "Valar Atomics.md",
     "Manufacturing (Index).md",
@@ -2156,10 +2209,6 @@
     "Anti-Access Area Denial.md",
     "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md",
     "Fencing Token.md",
-    "Haversine Distance.md",
-    "Multipurpose Internet Mail Extensions.md",
-    "High Availability.md",
-    "Database Recovery.md",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",
     "_attachments/Pasted image 20260621231436.png",
@@ -2168,7 +2217,6 @@
     "_attachments/Pasted image 20260621222143.png",
     "_attachments/Pasted image 20260621221713.png",
     "_attachments/Pasted image 20260621220821.png",
-    "_attachments/Pasted image 20260621215751.png",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

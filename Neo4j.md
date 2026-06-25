@@ -2,8 +2,6 @@
 aliases:
   - Cypher
 ---
-
-
 A [[Graph Database]] system designed to store and query data as nodes, relationships, and properties, instead of primarily as rows and tables. For data where the connections are as important as the individual records.
 - Neo4j is not “better than SQL databases” in general. It is better for certain graph-shaped workloads. A relational database is often still the better default for tabular business records, aggregations, reporting, strict normalized schemas, and workloads where relationships are simple or shallow.
 
@@ -165,19 +163,6 @@ Paying attention to concepts like:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ___________
 
 In context of [[Smack Technologies]], a knowledge graph might represent things like:
@@ -213,6 +198,178 @@ What equipment is within two relationship hops of this threat system?
 
 Which platforms share enough components or capabilities that maintenance knowledge transfers between them?
 ```
+
+
+___________________
+
+[Introduction to Neo4j and Graph Databases - M David Allen (Partner Solution Architect @ Neo4J), 2019](https://youtu.be/oRtVdXvtD3o?si=Nhx95BJ1UcNwfaS0)
+
+
+
+
+__________
+
+[Neo4J Crash Course](https://youtu.be/8jNPelugC2s?si=KNecvVsKvHuuOcJ3) (2022)
+
+
+
+
+_______________
+
+Conversation with Codex about data modeling in Neo4j and [[Labeled Property Graph]] databases... about the best practices as well as pitfalls.
+
+The main skill is deciding what deserves identity as a node, what should be a relationship, and what should stay as a property.
+
+Neo4J's guidance is strongly query-first:
+- Identify the questions that the application must answer
+- Build an initial graph model
+- Test the queries and performance
+- Refactor the model as the use cases change
+
+See this structure:
+```cypher
+(:Customer {customerId: "C123"})
+  -[:PLACED {at: datetime("2026-06-24T10:30:00Z")}]->
+(:Order {orderId: "O456"})
+  -[:CONTAINS {quantity: 2, unitPrice: 19.99}]->
+(:Product {sku: "SKU-9"})
+```
+This graph is good when the application is asking relationship-shaped questions:
+```cypher
+MATCH (c:Customer {customerId: $customerId})-[:PLACED]->(o:Order)-[line:CONTAINS]->(p:Product)
+RETURN o.orderId, p.sku, line.quantity, line.unitPrice
+```
+This graph would be less useful if most queries were simple table scans, aggregate reports, or isolated key-value lookups.
+
+NOTE:
+- Relationships always have a singular direction (i.e. unidirectional, not bidirectional); each relationships has a start node, an end node, a type, and properties.
+	- Still, some domain facts are going to be bidirectional, e.g. `Sam --Friend_Of--> Roz`. In this case, the domain fact is bidirectional, but in the database it's still stored in a single unidirectional edge. You typically want to have a deterministic rule/canonicalization choice of how you make this edge, such as storing the relationship from the lower `PersonId` to the higher `PersonId`, and avoid doubling-up on edges, in the case that both relationships mean the same domain fact.
+		- A common pitfall is choosing direction based on who initiated the friendship request., which usually mixes two facts; instead, you'd want to have a `(:Person)-[:SENT]->(:FriendRequest)-[:TO]->(:Person) and (:Person)-[:FRIEND_OF]->(:Person)`
+
+
+Start with questions, not tables. A graph model should be shaped around queries like "which customers share payment instruments?" "What services are affected by this outage?" or "Which products are frequently bought together?" This differs from relational normalization, where the model is often shaped round eliminating redundancy first.
+
+
+Use meaningful relationship types:
+- Prefer `(:Person)-[:WORKED_AT]->(:Company)` over the more vague (:Person)-[:RELATED_TO]->(:Company {kind: "employment"})`. Relationships should carry domain meaning.
+
+Use intermediate nodes for contextual facts.
+- Employment is often not merely `(:Person)-[:WORKED_AT]->(:Company)`
+- If you need role, start date, end date, manager, compensation band, or overlapping employment analysis, model employment itself as a node:
+```cypher
+(:Person)-[:HELD]->(:Employment {startDate, endDate})
+(:Employment)-[:AT]->(:Company)
+(:Employment)-[:AS]->(:Role)
+(:Employment)-[:MANAGED_BY]->(:Person)
+(:Employment)-[:IN_PAY_BAND]->(:PayBand)
+(:Employment)-[:LOCATED_IN]->(:Office)
+```
+Q: Why would we ant to have this as a separate node, instead of having it as an "employed_at" edge with properties?
+A: Neo4j relationships themselves cannot have relationships to other nodes.  The can have properties, but those properties are terminal values. So if `manager`, `role`, or `payBand` is just a  value, put it on the relationship, but if `manager`, `role`, or `payBand` should connect to other nodes, then make the employment itself a node.
+
+
+Create constraints early. 
+- Use uniqueness constraints for business identifiers such as `Customer.customerId`, `Order.orderId`, and `Product.sku`.
+
+Use indexes as entry points.
+- Neo4j traversals are fast after the starting node is found, but Neo4j still needs a good way to find the starting node.
+- Index common lookup properties and high-selectivity filters.
+
+Profile your real queries, using `EXPLAIN` to see the planned query without running it and `PROFILE` to run the query and see actual database hits.
+
+The biggest pitfall is building a relational model with graph syntax. If nodes contain foreign-key-like ID arrays such as `friendIds: ["u1", "u2"]`, the model is hiding graph structure inside properties. You should use relationships instead.
+
+Another pitfall is making *everything* a node. Something like `birthDate` usually belongs as a property. A `Date` node is useful only when dates are shared traversal anchors, part of calendar hierarchy, or part of a query pattern.
+
+Dense "supernodes" are dangerous. A node like `(:Country {code: "US"}` that's connected to 200 million users can become an expensive fan-out point. Sometimes that's correct, but often you need bucketing, more selective relationships, or a different query entry point.
+
+Unbounded variable length-paths can explode. Queries like this can match enormous numbers of paths:
+```cypher
+MATCH p = (a)-[:CONNECTED_TO*]->(b)
+RETURN p
+```
+Prefer bounded traversal and inline predicates:
+```cypher
+MATCH p = (a)-[:CONNECTED_TO*1..4]->(b)
+RETURN p
+```
+Neo4j's Cypher docs warn that broad, quantified path patterns can match very large numbers of paths and recommended precise predicates.
+Don't model for the diagram. A pretty graph visualization can still perform badly or answer the wrong questions. The real test is whether the model makes the important Cypher queries simple, selective, and stable.
+
+Practical rule: ==A good Neo4j model makes the most improtant query read almost like a sentence:==
+```cypher
+MATCH (customer:Customer {customerId: $id})
+      -[:PLACED]->(order:Order)
+      -[:CONTAINS]->(product:Product)
+RETURN order, product
+```
+The real test is whether the model makes the important Cypher queries simple, selective, and stable.
+If the Cypher is awkward, full of property decoding, generic relationship filtering, or huge variable-length traversals, the model is probably telling you where it wants to be refactored.
+
+
+
+Q: Is Neo4j a sort of "schemaless" database like Mongo, where you can just stuff bullshit into there and it's on the applications to have to deal with this when they pull it out?
+A: A better phrase is schema-optional; nodes and relationships *can be written freely by default,* but you can add schema-on-write enforcement with constraints.
+
+Neo4j supports constraint on both nodes and relationships:
+```cypher
+// Unique user id
+CREATE CONSTRAINT user_id
+FOR (u:User) REQUIRE u.id IS UNIQUE;
+
+// Required user name
+CREATE CONSTRAINT user_name_required
+FOR (u:User) REQUIRE u.name IS NOT NULL;
+
+// User name must be a string (note that this itself does not mean required)
+CREATE CONSTRAINT user_name_type
+FOR (u:User) REQUIRE u.name IS :: STRING;
+
+// Relationships having a property required
+CREATE CONSTRAINT purchase_at_required
+FOR ()-[p:PURCHASED]-() REQUIRE p.at IS NOT NULL;
+
+// Relationship property type
+CREATE CONSTRAINT purchase_at_type
+FOR ()-[p:PURCHASED]-() REQUIRE p.at IS :: ZONED DATETIME;
+```
+The core constraint categories are:
+- Property uniqueness: If the property exists, its value must be unique for that label or relationship type
+- Property existence: The property must exist
+- Property type: If it exists, it must have the specified Cypher type
+- Node key/relationship key: The property must exist and be unique, like a required business key
+
+Note: A type constraint alone does *not* mean "required," it means "if present, must have this type."
+
+Neo4j constraints do not normally define an exact closed set of allowed properties. If `:User` has constraints on `id`, `email`, and `createdAt, then Neo4j will still allow:
+```cypher
+CREATE (:User {
+  id: "u1",
+  email: "ada@example.com",
+  createdAt: datetime(),
+  randomExtraProperty: "allowed unless separately controlled"
+})
+```
+So it doesn't behave like Postgres where all allowed columns are declared, and undeclared columns are impossible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

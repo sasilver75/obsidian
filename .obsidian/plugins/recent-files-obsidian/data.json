@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "GEOS",
+      "path": "GEOS.md"
+    },
+    {
+      "basename": "Geospatial Data Abstraction Library",
+      "path": "Geospatial Data Abstraction Library.md"
+    },
+    {
       "basename": "Neo4j",
       "path": "Neo4j.md"
     },
     {
       "basename": "Graph Database",
       "path": "Graph Database.md"
+    },
+    {
+      "basename": "Gremlin",
+      "path": "Gremlin.md"
+    },
+    {
+      "basename": "Graph Query Language",
+      "path": "Graph Query Language.md"
+    },
+    {
+      "basename": "International Organization for Standardization",
+      "path": "International Organization for Standardization.md"
+    },
+    {
+      "basename": "Open Systems Interconnection",
+      "path": "Open Systems Interconnection.md"
+    },
+    {
+      "basename": "Labeled Property Graph",
+      "path": "Labeled Property Graph.md"
+    },
+    {
+      "basename": "Resource Description Framework",
+      "path": "Resource Description Framework.md"
     },
     {
       "basename": "Palantir Artificial Intelligence Platform",
@@ -39,22 +71,6 @@
     {
       "basename": "SPARQL",
       "path": "SPARQL.md"
-    },
-    {
-      "basename": "Property Graph",
-      "path": "Property Graph.md"
-    },
-    {
-      "basename": "Resource Description Framework",
-      "path": "Resource Description Framework.md"
-    },
-    {
-      "basename": "International Organization for Standardization",
-      "path": "International Organization for Standardization.md"
-    },
-    {
-      "basename": "Graph Query Language",
-      "path": "Graph Query Language.md"
     },
     {
       "basename": "GraphQL",
@@ -183,22 +199,6 @@
     {
       "basename": "Information Retrieval (Index)",
       "path": "Information Retrieval (Index).md"
-    },
-    {
-      "basename": "Reinforcement Finetuning",
-      "path": "Reinforcement Finetuning.md"
-    },
-    {
-      "basename": "Untitled 2",
-      "path": "Untitled 2.md"
-    },
-    {
-      "basename": "Mean Time to Recovery",
-      "path": "Mean Time to Recovery.md"
-    },
-    {
-      "basename": "Mean Time Between Failures",
-      "path": "Mean Time Between Failures.md"
     }
   ],
   "omittedPaths": [],

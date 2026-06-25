@@ -7,7 +7,7 @@ A formal [[Ontology]] language built for machine reasoning over [[Resource Descr
 
 > OWL is a standardized logic language for turning a knowledge graph from a collection of facts into a system that can infer, classify, and check meanings.
 
-A formal language for defining the meaning of classes, relationships, and logical constraints so that a reasoner can infer additional facts. It's more of an ontology/logic language than it is a data model like something like [[Property Graph]] or [[Resource Description Framework|RDF]].
+A formal language for defining the meaning of classes, relationships, and logical constraints so that a reasoner can infer additional facts. It's more of an ontology/logic language than it is a data model like something like [[Labeled Property Graph]] or [[Resource Description Framework|RDF]].
 
 ```
 Every Tank is a GroundVehicle.

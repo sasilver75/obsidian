@@ -7,7 +7,7 @@ aliases:
 
 GDAL is foundational for reading and writing both raster and vector geospatial data formats. It's the "plumbing" that much of the geospatial software world is built on.
 
-GDAL is two things that got merged:
+GDAL is two things that got merged: 
 - ==GDAL proper==: *Raster* formats ([[GeoTIFF]], [[Cloud-Optimized GeoTIFF|COG]], [[HDF5]], [[NetCDF]], [[Zarr]], etc.)
 - ==OGR==: *Vector* formats ([[Shapefile]], [[GeoJSON]], [[GeoPackage]], [[PostGIS]], etc
 	- Used for converting between different vector data formats, as well as reprojecting between [[Coordinate Reference System|CRS]]s.

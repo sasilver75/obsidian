@@ -52,7 +52,7 @@ The database is optimized for "walk from here to nearby connected things" querie
 
 
 # Main Variants
-- [[Property Graph]] Database: Nodes and edges can both have properties. Relationships usually have names and direction. Things like [[Neo4j]], JanusGraph, Amazon Neptune property graph mode
+- [[Labeled Property Graph]] Database: Nodes and edges can both have properties. Relationships usually have names and direction. Things like [[Neo4j]], JanusGraph, Amazon Neptune property graph mode
 	- `(Alice)-[:WORKS_AT {since: 2021}]->(Acme)`
 - [[Resource Description Framework]] (RDF) triple store: GraphDB, Blazegraph, Apache Jena, Amazon Neptune RDF mode
 	- `Alice worksAt Acme`
@@ -60,9 +60,29 @@ The database is optimized for "walk from here to nearby connected things" querie
 See also: [[Web Ontology Language]] (OWL), [[Ontology]]
 
 
+![[Pasted image 20260624120103.png]]
 
 
 
+# Query Languages
+
+> One of the things that I attribute the immaturity of the space is to the fact that there isn't just a single graph query language. There's an effort going on now to standardize query languages, especially across labeled property graphs, but that's just starting now, so it will be several years.
+> - David Bechberger (2020), talking about (I think?) [[Graph Query Language]]
+
+
+
+
+# Comments
+
+> A mistake I've seen customers make all the time... really understand what you're looking for in your data. People will put all their relationships in a graph... and somehow think that magic is going to happen and you'll get insight out. You have to know what questions you're going to ask. Is a question going to require you to look at all the data in your graph? If it does, then you're probably not going to get a 20ms response back. Is it instead going to look at a subgraph of your data? Understand what it is you're looking for and what your question takes to answer...
+
+> Understand what your algorithm is doing. If you want to do a vertex/edge lookup, that's a quick thing. If you want to understand the degree of a vertex, that's also quick. But you typically want to do other things with a graph, things like Shortest Path, PageRank, Chromatic Number, All Paths. These might take a lot of time.
+
+> Understand your data. Customers often don't take the time to understand the complexity of the data that they work on. The branching factor of a graph (the number of successors for any node) is something that often bites. If you have a branching fact or of 2, then as you traverse it's 1->2->4->8. This doesn't seem like a big deal, until you have a branching factor of 6... if you want to go out 6 levels deep, you're touching 56,000 vertices to get there.
+
+> Understand what the tails of your distribution are as well. Sometimes you have a small number of nodes that extremely high degree.
+
+> You can't just apply relational thinking to a graph; graphs are all about relationship. The graphs space and tooling are immature, relative to the relational space. Don't expect a seamless transition.
 
 
 
