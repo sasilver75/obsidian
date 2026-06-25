@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Electronic Warfare",
+      "path": "Electronic Warfare.md"
+    },
+    {
+      "basename": "Gremlin",
+      "path": "Gremlin.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "GraphQL.md"
+    },
+    {
       "basename": "GEOS",
       "path": "GEOS.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "Graph Database",
       "path": "Graph Database.md"
-    },
-    {
-      "basename": "Gremlin",
-      "path": "Gremlin.md"
     },
     {
       "basename": "Graph Query Language",
@@ -71,10 +79,6 @@
     {
       "basename": "SPARQL",
       "path": "SPARQL.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "GraphQL.md"
     },
     {
       "basename": "Valar Atomics",
@@ -195,10 +199,6 @@
     {
       "basename": "Machine Learning",
       "path": "Machine Learning.md"
-    },
-    {
-      "basename": "Information Retrieval (Index)",
-      "path": "Information Retrieval (Index).md"
     }
   ],
   "omittedPaths": [],

@@ -8,36 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "980153501ecc61ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GEOS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GEOS"
-            }
-          },
-          {
             "id": "2f6787d5da9bb6c5",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "234f2accb727b678",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Gremlin.md",
+                "file": "Electronic Warfare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gremlin"
+              "title": "Electronic Warfare"
             }
           },
           {
@@ -79,7 +65,8 @@
               "title": "Graph Query Language"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2179,13 +2166,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "980153501ecc61ad",
+  "active": "234f2accb727b678",
   "lastOpenFiles": [
+    "Gremlin.md",
+    "GraphQL.md",
+    "GEOS.md",
     "Geospatial Data Abstraction Library.md",
     "Neo4j.md",
     "().md",
     "Graph Database.md",
-    "Gremlin.md",
     "Graph Query Language.md",
     "International Organization for Standardization.md",
     "Open Systems Interconnection.md",
@@ -2201,14 +2190,12 @@
     "Load Balancing.md",
     "_attachments/Pasted image 20260622141528.png",
     "SPARQL.md",
-    "GraphQL.md",
     "Valar Atomics.md",
     "Manufacturing (Index).md",
     "SPARC.md",
     "World Wide Web Consortium.md",
     "Anti-Access Area Denial.md",
     "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md",
-    "Fencing Token.md",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",
     "_attachments/Pasted image 20260621231436.png",
