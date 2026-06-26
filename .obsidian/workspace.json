@@ -16,57 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "234f2accb727b678",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electronic Warfare.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Electronic Warfare"
-            }
-          },
-          {
-            "id": "693c84af2e1efd8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Query Language.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Graph Query Language"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2166,8 +2117,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "234f2accb727b678",
+  "active": "2f6787d5da9bb6c5",
   "lastOpenFiles": [
+    "Electronic Warfare.md",
+    "Graph Query Language.md",
     "Gremlin.md",
     "GraphQL.md",
     "GEOS.md",
@@ -2175,7 +2128,6 @@
     "Neo4j.md",
     "().md",
     "Graph Database.md",
-    "Graph Query Language.md",
     "International Organization for Standardization.md",
     "Open Systems Interconnection.md",
     "_attachments/Pasted image 20260624120103.png",
@@ -2195,7 +2147,6 @@
     "SPARC.md",
     "World Wide Web Consortium.md",
     "Anti-Access Area Denial.md",
-    "Courses/SystemDesign/Case Studies/Design Ticket Booking System.md",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",
     "_attachments/Pasted image 20260621231436.png",
