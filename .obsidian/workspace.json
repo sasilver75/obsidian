@@ -11,13 +11,134 @@
             "id": "2f6787d5da9bb6c5",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gallatin AI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gallatin AI"
+            }
+          },
+          {
+            "id": "a6f91b5b3110085d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sustainment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sustainment"
+            }
+          },
+          {
+            "id": "3419a34d0dc3f54f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flight Controller.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Flight Controller"
+            }
+          },
+          {
+            "id": "c3e49b2587a54197",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brigade.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Brigade"
+            }
+          },
+          {
+            "id": "e9e40f8bb2b1b089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistics Common Operating Picture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Logistics Common Operating Picture"
+            }
+          },
+          {
+            "id": "eacf8837b0d61579",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2050,12 +2171,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "a8962bbc977b9206",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 193
+        "currentTab": 194
       },
       {
         "id": "8a022290161ffefa",
@@ -2117,8 +2248,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2f6787d5da9bb6c5",
+  "active": "3419a34d0dc3f54f",
   "lastOpenFiles": [
+    "Sustainment.md",
+    "Brigade.md",
+    "Gallatin AI.md",
+    "Logistics Common Operating Picture.md",
+    "Army Structure.md",
+    "FM 3-0.md",
+    "High-Priority-System-Design.md",
     "Electronic Warfare.md",
     "Graph Query Language.md",
     "Gremlin.md",
@@ -2139,14 +2277,7 @@
     "Ontology.md",
     "Web Ontology Language.md",
     "Knowledge Graph.md",
-    "Load Balancing.md",
     "_attachments/Pasted image 20260622141528.png",
-    "SPARQL.md",
-    "Valar Atomics.md",
-    "Manufacturing (Index).md",
-    "SPARC.md",
-    "World Wide Web Consortium.md",
-    "Anti-Access Area Denial.md",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",
     "_attachments/Pasted image 20260621231436.png",

@@ -16,11 +16,11 @@ See [[Logistics (Index)]]
 - "Distro" = Distribution, the components of a logistics element that actually deliver LOGPACs.
 
 ## The 5 Ls of Logistics
-- [[Logistics Status|LOGSTAT]]: 
-- [[Logistics Synchronization|LOGSYNC]]:
-- [[Logistics Synchronization Matrix|LOGSYNC Matrix]]: 
-- [[Logistics Package|LOGPAC]]:
-- [[Logistics Common Operating Picture|LOGCOP]]:
+- [[Logistics Status|LOGSTAT]]: Logistics Status up from a sustained unit
+- [[Logistics Synchronization|LOGSYNC]]: Logistics Synchronization Meeting, twice a day
+- [[Logistics Synchronization Matrix|LOGSYNC Matrix]]: Output of LOGSYNC
+- [[Logistics Package|LOGPAC]]: Logistics Package
+- [[Logistics Common Operating Picture|LOGCOP]]: Logistics Common Operating Picture
 
 # The 4 Ds of Sustainment
 - ==Demand==: The specific type and quantity of resources, supplies, and services required to sustain the force

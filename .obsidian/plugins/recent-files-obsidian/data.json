@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Flight Controller",
+      "path": "Flight Controller.md"
+    },
+    {
+      "basename": "Sustainment",
+      "path": "Sustainment.md"
+    },
+    {
+      "basename": "Brigade",
+      "path": "Brigade.md"
+    },
+    {
+      "basename": "Gallatin AI",
+      "path": "Gallatin AI.md"
+    },
+    {
+      "basename": "Logistics Common Operating Picture",
+      "path": "Logistics Common Operating Picture.md"
+    },
+    {
+      "basename": "Army Structure",
+      "path": "Army Structure.md"
+    },
+    {
+      "basename": "FM 3-0",
+      "path": "FM 3-0.md"
+    },
+    {
+      "basename": "High-Priority-System-Design",
+      "path": "High-Priority-System-Design.md"
+    },
+    {
       "basename": "Electronic Warfare",
       "path": "Electronic Warfare.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Amazon Fargate",
       "path": "Amazon Fargate.md"
-    },
-    {
-      "basename": "System Design (Index)",
-      "path": "System Design (Index).md"
-    },
-    {
-      "basename": "Statistics (Index)",
-      "path": "Statistics (Index).md"
-    },
-    {
-      "basename": "Information Retrieval",
-      "path": "Information Retrieval.md"
-    },
-    {
-      "basename": "RED Method",
-      "path": "RED Method.md"
-    },
-    {
-      "basename": "Linear Algebra (Index)",
-      "path": "Linear Algebra (Index).md"
-    },
-    {
-      "basename": "Machine Learning (Index)",
-      "path": "Machine Learning (Index).md"
-    },
-    {
-      "basename": "Modern AI Engineering",
-      "path": "Modern AI Engineering.md"
-    },
-    {
-      "basename": "Machine Learning",
-      "path": "Machine Learning.md"
     }
   ],
   "omittedPaths": [],
