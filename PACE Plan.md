@@ -16,7 +16,7 @@ Last: The most time-consuming, costly, and inconvenient.
 The plan doesn't designate things such as the exact radio channel or talk group to be used if you're using a radio, rather the order in which you would plan to use the radio, then telephone, then email, then courier as means of communication.
 
 
-
+ 
 
 
 

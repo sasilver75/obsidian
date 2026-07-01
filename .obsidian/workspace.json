@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flight Controller.md",
+                "file": "PACE Plan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Flight Controller"
+              "title": "PACE Plan"
             }
           },
           {
@@ -2181,12 +2181,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "872c12c79d7befb7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 194
+        "currentTab": 195
       },
       {
         "id": "8a022290161ffefa",
@@ -2250,6 +2260,7 @@
   },
   "active": "3419a34d0dc3f54f",
   "lastOpenFiles": [
+    "Flight Controller.md",
     "Sustainment.md",
     "Brigade.md",
     "Gallatin AI.md",
@@ -2276,7 +2287,6 @@
     "Palantir Ontology.md",
     "Ontology.md",
     "Web Ontology Language.md",
-    "Knowledge Graph.md",
     "_attachments/Pasted image 20260622141528.png",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PACE Plan",
+      "path": "PACE Plan.md"
+    },
+    {
       "basename": "Flight Controller",
       "path": "Flight Controller.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Agent Harness",
       "path": "Agent Harness.md"
-    },
-    {
-      "basename": "Amazon Fargate",
-      "path": "Amazon Fargate.md"
     }
   ],
   "omittedPaths": [],
