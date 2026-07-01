@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Basic Formal Ontology",
+      "path": "Basic Formal Ontology.md"
+    },
+    {
+      "basename": "Ontology",
+      "path": "Ontology.md"
+    },
+    {
+      "basename": "Taxonomy",
+      "path": "Taxonomy.md"
+    },
+    {
+      "basename": "Brigade",
+      "path": "Brigade.md"
+    },
+    {
+      "basename": "Knowledge Pile",
+      "path": "Knowledge Pile.md"
+    },
+    {
       "basename": "PACE Plan",
       "path": "PACE Plan.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "Sustainment",
       "path": "Sustainment.md"
-    },
-    {
-      "basename": "Brigade",
-      "path": "Brigade.md"
     },
     {
       "basename": "Gallatin AI",
@@ -95,10 +111,6 @@
     {
       "basename": "Palantir Ontology",
       "path": "Palantir Ontology.md"
-    },
-    {
-      "basename": "Ontology",
-      "path": "Ontology.md"
     },
     {
       "basename": "Web Ontology Language",
@@ -187,18 +199,6 @@
     {
       "basename": "Design File Storage",
       "path": "Courses/SystemDesign/Case Studies/Design File Storage.md"
-    },
-    {
-      "basename": "Design URL Shortener",
-      "path": "Courses/SystemDesign/Case Studies/Design URL Shortener.md"
-    },
-    {
-      "basename": "Disaster Recovery",
-      "path": "Disaster Recovery.md"
-    },
-    {
-      "basename": "Agent Harness",
-      "path": "Agent Harness.md"
     }
   ],
   "omittedPaths": [],

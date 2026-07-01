@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PACE Plan.md",
+                "file": "Basic Formal Ontology.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PACE Plan"
+              "title": "Basic Formal Ontology"
+            }
+          },
+          {
+            "id": "4733e5fce57cc900",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basic Formal Ontology.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Basic Formal Ontology"
+            }
+          },
+          {
+            "id": "d495630db75f02fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taxonomy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Taxonomy"
             }
           },
           {
@@ -170,7 +218,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ISO",
+                "query": "end tuple",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2191,12 +2239,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "8f5f26cf45c21dcc",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 195
+        "currentTab": 196
       },
       {
         "id": "8a022290161ffefa",
@@ -2260,9 +2318,17 @@
   },
   "active": "3419a34d0dc3f54f",
   "lastOpenFiles": [
+    "Ontology.md",
+    "Basic Formal Ontology.md",
+    "Taxonomy.md",
+    "Brigade.md",
+    "Knowledge Pile.md",
+    "_attachments/Pasted image 20260701112614.png",
+    "_attachments/Pasted image 20260701112433.png",
+    "_attachments/Pasted image 20260701111323.png",
+    "PACE Plan.md",
     "Flight Controller.md",
     "Sustainment.md",
-    "Brigade.md",
     "Gallatin AI.md",
     "Logistics Common Operating Picture.md",
     "Army Structure.md",
@@ -2282,20 +2348,12 @@
     "_attachments/Pasted image 20260624120103.png",
     "Labeled Property Graph.md",
     "Resource Description Framework.md",
-    "Palantir Artificial Intelligence Platform.md",
-    "Object-Relational Mapping.md",
-    "Palantir Ontology.md",
-    "Ontology.md",
-    "Web Ontology Language.md",
     "_attachments/Pasted image 20260622141528.png",
     "_attachments/Pasted image 20260621234840.png",
     "_attachments/Pasted image 20260621232313.png",
     "_attachments/Pasted image 20260621231436.png",
     "_attachments/Pasted image 20260621231018.png",
     "_attachments/Pasted image 20260621222822.png",
-    "_attachments/Pasted image 20260621222143.png",
-    "_attachments/Pasted image 20260621221713.png",
-    "_attachments/Pasted image 20260621220821.png",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
