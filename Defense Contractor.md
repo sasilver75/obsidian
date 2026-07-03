@@ -46,4 +46,6 @@ Relevant Contractors
 - [[Rheinmetall]]
 - [[Kongsberg]]
 - [[Airbus]]
-
+- [[CHAOS Industries]]
+- [[Castellion]]
+- [[Red Cat]]

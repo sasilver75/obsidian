@@ -13,54 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Marine Corps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States Marine Corps"
-            }
-          },
-          {
-            "id": "298908fd2ef2536a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Defense Contractor.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Defense Contractor"
-            }
-          },
-          {
-            "id": "e13421ceb34f1746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "United States Navy.md",
                 "mode": "source",
                 "source": false,
@@ -80,12 +32,12 @@
             }
           },
           {
-            "id": "f83789e1674351d7",
+            "id": "da1ca4b7d9b797bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Program of Record.md",
+                "file": "RIM-156 SM-2ER.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Program of Record"
+              "title": "RIM-156 SM-2ER"
             }
           },
           {
-            "id": "21f7ab0fba186f63",
+            "id": "bbc71469a49659c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AIM-9 Sidewinder.md",
+                "file": "Vertical Launch System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +76,203 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AIM-9 Sidewinder"
+              "title": "Vertical Launch System"
             }
           },
           {
-            "id": "9df6ff41adb4aafa",
+            "id": "32fa152f99412901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RIM-66C SM-2MR.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RIM-66C SM-2MR"
+            }
+          },
+          {
+            "id": "1cc9fe19f0d30d35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BGM-109 Tomahawk Land Attack Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BGM-109 Tomahawk Land Attack Missile"
+            }
+          },
+          {
+            "id": "1c0311ce4615d922",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-158 JASSM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-158 JASSM"
+            }
+          },
+          {
+            "id": "16372428d41c9e8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-88E AARGM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-88E AARGM"
+            }
+          },
+          {
+            "id": "c4d379532f4383a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Marine Corps.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Marine Corps"
+            }
+          },
+          {
+            "id": "8df5844c0dfe3828",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FA-18 Hornet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FA-18 Hornet"
+            }
+          },
+          {
+            "id": "84e89ad0e4af1d5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FA-18 Hornet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FA-18 Hornet"
+            }
+          },
+          {
+            "id": "37f56b30a50a83c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FA-18 Super Hornet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FA-18 Super Hornet"
+            }
+          },
+          {
+            "id": "e54f5d9451dba761",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,12 +296,12 @@
             }
           },
           {
-            "id": "2e3172a2ce4adba5",
+            "id": "95ce6588a00b7ad4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGM-86 ALCM.md",
+                "file": "Intelligence, Surveillance, and Reconnaissance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +316,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AGM-86 ALCM"
+              "title": "Intelligence, Surveillance, and Reconnaissance"
             }
           },
           {
-            "id": "c1a1d841412890d2",
+            "id": "1f96200fd6608957",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combat Search and Rescue.md",
+                "file": "Sierra Nevada Corporation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +340,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Combat Search and Rescue"
+              "title": "Sierra Nevada Corporation"
             }
           },
           {
-            "id": "440ff6043252d7f5",
+            "id": "7a13ff95fd5ce2ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GBU-72.md",
+                "file": "CV-22 Osprey.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +364,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GBU-72"
+              "title": "CV-22 Osprey"
             }
           },
           {
-            "id": "ed1462e8d70aaed2",
+            "id": "3b36f629a5b88ce6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sortie.md",
+                "file": "Seawolf-Class Attack Submarine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +388,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sortie"
+              "title": "Seawolf-Class Attack Submarine"
             }
           },
           {
-            "id": "3850fa78c74d9188",
+            "id": "22255d7efe1c0884",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RC-135VW Rivet Joint.md",
+                "file": "Littoral Combat Ship.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,16 +412,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RC-135VW Rivet Joint"
+              "title": "Littoral Combat Ship"
             }
           },
           {
-            "id": "ccd29aa40941677c",
+            "id": "f7a0d7f4a92f46ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RC-135U Combat Sent.md",
+                "file": "Force Design 2030.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,16 +436,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RC-135U Combat Sent"
+              "title": "Force Design 2030"
             }
           },
           {
-            "id": "518a98e2165b1a3b",
+            "id": "051d2727cc071de1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RC-135VW Rivet Joint.md",
+                "file": "Combined Joint All-Domain Command and Control.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,10 +460,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RC-135VW Rivet Joint"
+              "title": "Combined Joint All-Domain Command and Control"
+            }
+          },
+          {
+            "id": "39f36920fcb1d5d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command, Control, Computers, Communications, Cyber, Intelligence, Surveillance, Reconnaissance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Command, Control, Computers, Communications, Cyber, Intelligence, Surveillance, Reconnaissance"
+            }
+          },
+          {
+            "id": "5fb0298efab40ff9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Air Naval Gunfire Liason Company.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Air Naval Gunfire Liason Company"
+            }
+          },
+          {
+            "id": "d27a0f88f4c533e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Fires Network.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Fires Network"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2459,34 +2676,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2f6787d5da9bb6c5",
+  "active": "bbc71469a49659c4",
   "lastOpenFiles": [
-    "United States Army.md",
-    "Defense Contractor.md",
+    "Vertical Launch System.md",
+    "RIM-156 SM-2ER.md",
     "United States Navy.md",
-    "Program of Record.md",
-    "US Army Big Five.md",
-    "AIM-9 Sidewinder.md",
+    "RIM-66C SM-2MR.md",
+    "BGM-109 Tomahawk Land Attack Missile.md",
+    "E-7A Wedgetail.md",
+    "AGM-158 JASSM.md",
+    "AGM-88E AARGM.md",
+    "United States Marine Corps.md",
+    "FA-18 Hornet.md",
+    "FA-18 Super Hornet.md",
     "United States Air Force.md",
-    "Denied, Disrupted, Intermittent, Low-Bandwidth.md",
-    "ISO Container.md",
-    "AGM-86 ALCM.md",
-    "Combat Search and Rescue.md",
-    "GBU-72.md",
-    "Sortie.md",
-    "C-5M Super Galaxy.md",
-    "RC-135V/W Rivet Joint.md",
-    "RC-135VW Rivet Joint.md",
-    "RC-135U Combat Sent.md",
-    "Military Operations.md",
-    "Sintering.md",
-    "Direct Metal Laser Sintering.md",
-    "Gallatin AI.md",
-    "Sustainment.md",
+    "F-35 Lightning II.md",
+    "Intelligence, Surveillance, and Reconnaissance.md",
+    "Contracted Research and Development.md",
+    "Foreign Military Sales.md",
+    "Optical.md",
+    "Defense Contractor.md",
+    "Sierra Nevada Corporation.md",
+    "Joint Fires Network.md",
+    "CV-22 Osprey.md",
+    "Supply-Class Fast Combat Support Ship.md",
+    "Seawolf-Class Attack Submarine.md",
+    "Littoral Combat Ship.md",
     "Marine Forces Special Operations Command.md",
-    "Army Special Operations Command.md",
-    "HH-60W Jolly Green II.md",
-    "Joint Direct Attack Munition.md",
+    "Red Cat.md",
     "RC-135V",
     "_attachments/Pasted image 20260702143347.png",
     "_attachments/Pasted image 20260702143335.png",

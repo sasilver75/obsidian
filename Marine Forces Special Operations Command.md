@@ -11,9 +11,15 @@ Three Subordinate commands
 The base unit of MARSOC is a fourteen-man Marine Special Operations Tea (MSOT). 
 - Captain Team Commander
 - Master Sergeant Team Chief
-- Two identical squads, each led by a Gunnery Sergeant as an element leader
+- Gunnery Sergeant Operations SNCO
+- Staff Sergeant Communications SNCO
+- Two identical 5-man tactical elements:
+	- Staff Sergeant Element Leader
+	- Sergeant Assistant Element Leader
+	- 2x Corporal/Sergeant Element Members
+	- Petty Officer Navy Corpsman (SARC: Special Amphibious Reconnaissance Corpsman)
 
-Raiders are awarded the MOS 0382 Marine Raider or MOS 0370 Marine RAider Officer.
+Raiders are awarded the MOS 0382 Marine Raider or MOS 0370 Marine Raider Officer.
 
 9 Month Marine Raider Course (MRC), formally called the Individual Training Course (ITC).
 Enlisted Marines in this context are known as ==Marine Raiders (MRs)==, formerly known as Critical Skills Operators (CSO).

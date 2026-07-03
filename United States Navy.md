@@ -5,24 +5,26 @@ aliases:
 ---
 ==US Navy Hull Classification Symbols==
 Major Combatants
-- CVN: Nuclear-powered Aircraft Carrier
-- CG: Guided Missile Cruiser
-- DDG: Guided Missile Destroyer
+- CVN: [[Nuclear-powered Aircraft Carrier]]
+- CG: [[Guided Missile Cruiser]]
+- DDG: [[Guided Missile Destroyer]]
 - DDG(X): Next-generated Guided Missile Destroyer
-- FFG: Guided Missile Frigate
-- LCS: Littoral Combat Ship
+- DDG 1000 ???
+- FFG: [[Guided Missile Frigate]]
+- LCS: [[Littoral Combat Ship]]
 Submarines
-- SSN: Nuclear-powered Attack Submarine
-- SSBN: Nuclear-powered Ballistic Missile Submarine
-- SSGN: Nuclear-powered Guided-Missile Submarine
+- SSN: [[Nuclear-powered Attack Submarine]]
+- SSBN: [[Nuclear-powered Ballistic Missile Submarine]]
+- SSGN: [[Nuclear-powered Guided-Missile Submarine]]
 - SSBN(X): Future Ballistic Missile Submarine, now Columbia Class
 - SSN(X): Future Attack Submarine
 Amphibious Warfare Ships
-- LHA: Amphibious Assault Ship, General-Purpose
+- LHA: [[Amphibious Assault Ship]], General-Purpose
 - LHD: Amphibious Assault Ship, Multi-purpose/Dock
-- LPD: Amphibious Transport Dock
+- LPD: [[Amphibious Transport Dock]]
 - LSD: Dock Landing Ship
 - LCU: Landing Craft Utility
+- LSM: Landing Ship Medium
 - LCAC: Landing Craft Air Cushion
 Combat Logistics/Sealift (T- means the ship is operated by Military Sealift Command with a mostly civilian mariner crew)
 - T-AO: Fleet oiler
@@ -36,12 +38,12 @@ Combat Logistics/Sealift (T- means the ship is operated by Military Sealift Comm
 - T-AGOS: Ocean Surveillance Ship
 - T-AGS: Oceanographic Survey Ship
 Mine Warfare/Patrol
-- MCM: Mine Countermeasures Ship
+- MCM: [[Mine Countermeasures Ship]]
 - AMCM: Airborne Mine Countermeasures
-- PC: Patrol Coastal
-- PB: Patrol Boat
+- PC: [[Patrol Coastal Ship]]
+- PB: [[Patrol Boat]]
 Command/Special Purpose
-- LLC: Amphibious Command Ship
+- LLC: [[Amphibious Command Ship]]
 - AG: Auxiliary, General
 - AGS: Surveying Ship
 - AGOS: Ocean Surveillance Ship
@@ -63,71 +65,74 @@ Aircraft Designators
 # Inventory
 
 ### Surface Ships and Submarines:
-- Nimitz-Class Aircraft Carrier
-- Gerald R. Ford-Class Aircraft Carrier
-- Ticonderoga-Class Cruiser
-- Arliehg Burke-Class Destroyer
-- Zumwalt-Class Destroyer
-- Freedom-Class Littoral Combat Ship
-- Independence-Class Littoral Combat Ship
-- Constellation-Class Frigate
-- Ohio-Class Ballistic Missile Submarine
-- Ohio-Class Guided Missile Submarine
-- Columbia-Class Ballistic Missile Submarine
-- Los Angeles-Class Attack Submarine
-- Seawolf-Class Attack Submarine (e.g. USS Jimmy Carter)
-- Virginia-Class Attack Submarine
-- America-Class Amphibious Assault Ship
-- Wasp-Class Amphibious Assault Ship
-- San Antonio-Class Amphibious Transport Dock
-- Whidbey Island-Class Dock Landing Ship
-- Harpers Ferry-Class Dock Landing Ship
-- Blue Ridge-Class Command Ship
-- Avenger-Class Mine Countermeasures Ship
-- Spearhead-Class Expeditionary Fast Transport
-- Montford Point-Class Expeditionary Transfer Dock
-- Lewis B. Puller-Class Expeditionary Mobile Base
-- John Lewis-Class Fleet Oiler
-- Henry J. Kaiser-Class Fleet Oiler
-- Lewis and Clark-Class Dry Cargo and Ammunition Ship
-- Supply-Class Fast combat Support Ship
-- Mercy-Class Hospital Ship
-- Pathfinder-Class Oceanographic Survey Ship
-- Victorious-Class Ocean Surveillance Ship
-- Navajo-Class Towing, Salvage, Rescue Ship
+- [[Nimitz-Class Aircraft Carrier]]
+- [[Gerald R. Ford-Class Aircraft Carrier]]
+- [[Ticonderoga-Class Cruiser]]
+- [[Arliehg Burke-Class Destroyer]]
+- [[Zumwalt-Class Destroyer]]
+- [[Freedom-Class Littoral Combat Ship]]
+- [[Independence-Class Littoral Combat Ship]]
+- [[Constellation-Class Frigate]]
+- [[Ohio-Class Ballistic Missile Submarine]]
+- [[Ohio-Class Guided Missile Submarine]]
+- [[Columbia-Class Ballistic Missile Submarine]]
+- [[Los Angeles-Class Attack Submarine]]
+- [[Seawolf-Class Attack Submarine]] (e.g. USS Jimmy Carter)
+- [[Virginia-Class Attack Submarine]]
+- [[America-Class Amphibious Assault Ship]]
+- [[Wasp-Class Amphibious Assault Ship]]
+- [[San Antonio-Class Amphibious Transport Dock]]
+- [[Whidbey Island-Class Dock Landing Ship]]
+- [[Harpers Ferry-Class Dock Landing Ship]]
+- [[Blue Ridge-Class Command Ship]]
+- [[Avenger-Class Mine Countermeasures Ship]]
+- [[Spearhead-Class Expeditionary Fast Transport]]
+- [[Montford Point-Class Expeditionary Transfer Dock]]
+- [[Lewis B. Puller-Class Expeditionary Mobile Base]]
+- [[John Lewis-Class Fleet Oiler]]
+- [[Henry J. Kaiser-Class Fleet Oiler]]
+- [[Lewis and Clark-Class Dry Cargo and Ammunition Ship]]
+- [[Supply-Class Fast Combat Support Ship]]
+- [[Mercy-Class Hospital Ship]]
+- [[Pathfinder-Class Oceanographic Survey Ship]]
+- [[Victorious-Class Ocean Surveillance Ship]]
+- [[Navajo-Class Towing, Salvage, Rescue Ship]]
 
 ### Naval Aviation
-- F/A-18E/F Super Hornet
-- EA-18G Growler
-- F-35C Lightning II
-- E-2D Advanced Hawkeye
-- E-2C Hawkeye
-- E-6B Mercury
-- P-8A Poseidon
-- MQ-4C Triton
-- MQ-25 Stringray
-- C-2A Greyhound
-- CMV-22B Osprey
-- MH-60R Seahawk
-- MH-60S Seahawk
-- MH-53E Sea Dragon
-- C-40A Clipper
-- C-37
-- C-130T, C-130J
-- C-26 Metroliner
-- C-20 Gulfstream
+- [[FA-18 Super Hornet|F/A-18 Super Hornet]]
+- [[EA-18G Growler]]
+- [[F-35 Lightning II|F-35C]] Lightning II
+- [[E-2D Advanced Hawkeye]]
+- [[E-2C Hawkeye]]
+- [[E-6B Mercury]]
+- [[P-8A Poseidon]]
+- [[MQ-4C Triton]]
+- [[MQ-25 Stringray]]
+- [[C-2A Greyhound]]
+- [[CV-22 Osprey|CMV-22B]] Osprey
+- [[MH-60R Seahawk]]
+- [[MH-60S Seahawk]]
+- [[MH-53E Sea Dragon]]
+- [[C-40A Clipper]]
+- [[C-37]]
+- [[C-130T Hercules]]
+- [[C-130J Super Hercules]]
+- [[C-26 Metroliner]]
+- [[C-20 Gulfstream]]
 
 Weapons/Munitions
 - [[AIM-9 Sidewinder|AIM-9X Sidewinder]]
-- AIM-120 AMRAAM
-- AGM-88E AARGM
-- AGM-88G AARGM-ER
-- AGM-84 Harpoon
-- AGM-84K SLAM-ER
-- AGM-154 JSOW
-- AGM-158C LRASM
-- BMG/RGM/UGM-109 Tomahawk
-- RIM-66/RIM-156 SM-2
+- [[AIM-120 AMRAAM]]
+- [[AGM-84 Harpoon]]
+- [[AGM-84E SLAM]]
+- [[AGM-84K SLAM-ER]]
+- [[AGM-88E AARGM]]
+- [[AGM-88G AARGM-ER]]
+- [[AGM-154 JSOW]]
+- [[AGM-158 JASSM|AGM-158C LRASM]]
+- [[BGM-109 Tomahawk Land Attack Missile]] (TLAM)
+- [[RIM-66C SM-2MR]]
+- [[RIM-156 SM-2ER]]
 - RIM-161 SM-3
 - RIM-174 SM-6
 - RIM-162 ESSM
@@ -208,6 +213,11 @@ Unmanned/Future/Programmatic
 - Virginia Payload Module
 - Integrated Combat System / Aegis modernization
 
+
+
+Terms:
+- Vertical Launching System
+- 
 
 
 
