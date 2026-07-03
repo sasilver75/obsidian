@@ -1,0 +1,1 @@
+A 1,000 pound [[Joint Direct Attack Munition|JDAM]]-equipped bomb that converts standard unguided gravity bombs into [[Precision Guided Munition]]s. Typically uses the 1,000-pound class Mk-83 or BLU-110 bombs.

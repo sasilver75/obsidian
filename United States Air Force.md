@@ -1,0 +1,114 @@
+---
+aliases:
+  - USAF
+  - Air Force
+---
+Resources:
+- Site: [US Air Force Fact Sheets](https://www.af.mil/About-Us/Fact-Sheets/)
+
+
+Inventories (Trying not to include retired inventories):
+- [[A-10C Thunderbolt II]]
+- [[AC-130J Ghostrider]]
+- [[ADM-160 MALD]]
+- [[AGM-65 Maverick]]
+- [[AGM-86 ACLM]]
+- [[AGM-88 HARM]]
+- [[AGM-114 Hellfire]]
+- [[AGM-154 JSOW]]
+- [[AGM-158 JASSM]] (LRASM)
+- [[AGM-176 Griffin]]
+- [[AGM-181 LRSO]]
+- [[AIM-120 AMRAAM]]
+- [[AIM-260 JATM]]
+- [[AIM-7 Sparrow]]
+- [[AIM-9 Sidewinder]]
+- [[ANALQ-131|AN/ALQ-131]]
+- [[ANALQ-184|AN/ALQ-184]]
+- [[ANALQ-250|AN/ALQ-250]] (EPAWSS)
+- [[ANASQ-236 Radar Pod|AN/ASQ-236 Radar Pod]]
+- [[ANASQ-213 HARM Targeting System|AN/ASQ-213 HARM Targeting System]]
+- [[Advanced Precision Kill Weapon System]] (APKWS/APKWS II; AGR-19/AGR-20/AGR-21)
+- [[B1-B Lancer]]
+- [[B-2 Spirit]]
+- [[B-21 Raider]]
+- [[B-52H Stratofortress]]
+- [[B-61]]
+- [[BLU-109]]
+- [[BLU-111]]
+- [[BLU-137]]
+- [[C-12 Huron]]
+- [[C-130 Hercules]]
+- [[C-146A Wolfhound]]
+- [[C-17 Globemaster III]]
+- [[C-21]]
+- [[C-32]]
+- [[C-37]]
+- [[C-40]]
+- [[C-5M Super Galaxy]]
+- [[CV-22 Osprey]]
+- [[E-11A BACN]]
+- [[E-3 Sentry]] (AWACS)
+- [[E-4B]] (Nightwatch)
+- [[E-7A Wedgetail]]
+- [[EA-37B Compass Call]]
+- [[EC-130H Compass Call]]
+- [[F-15 Eagle]]
+- [[F-15E Strike Eagle]] (and F-15EX Eagle II)
+- [[F-16 Fighting Falcon]]
+- [[F-22 Raptor]]
+- [[F-35 Lightning II]]
+- [[FQ-44 Fury]]
+- [[GBU-10 Paveway II]]
+- [[GBU-12 Paveway II]]
+- [[GBU-15]]
+- [[GBU-24 Paveway III]]
+- [[GBU-28]]
+- [[GBU-31]]
+- [[GBU-32]]
+- [[GBU-38]]
+- [[GBU-39B]] (Small Diameter Bomb; SDB)
+- [[GBU-43B Massive Ordnance Air Blast]] (MOAB)
+- [[GBU-53B StormBreaker]] (Small Diameter Bomb II; SDB-II)
+- [[GBU-54 Laser Joint Direct Attack Munition]]
+- [[GBU-57 Massive Ordnance Penetrator]] (MOP)
+- [[GBU-69B]] (Small Glide Munition)
+- [[GBU-72]]
+- [[HC-130J Combat King II]]
+- [[HH-60G Pave Hawk]]
+- [[HH-60W Jolly Green II]]
+- [[Hydra 70]]
+- [[Joint Direct Attack Munition]] (JDAM)
+- [[KC-135 Stratotanker]]
+- [[KC-46A Pegasus]]
+- [[LC-130 Hercules]]
+- [[LGM-30G Minuteman III]]
+- [[LGM-35A Sentinel]]
+- [[Legion Pod]]
+- [[LITENING Advanced Targeting Pod]]
+- [[MC-130J Commando II]]
+- [[MH-139A Grey Wolf]]
+- [[Mk 82]]
+- [[Mk 83]]
+- [[Mk 84]]
+- [[MQ-1B Predator]]
+- [[MQ-9 Reaper]]
+- [[OA-1K Skyraider II]]
+- [[RC-135S Cobra Ball]]
+- [[RC-135VW Rivet Joint]]
+- [[RC-135U Combat Sent]]
+- [[RQ-11B Raven]]
+- [[RQ-170 Sentinel]]
+- [[RQ-20 Puma]]
+- [[RQ-4 Global Hawk]]
+- [[Scan Eagle]]
+- [[Sniper Advanced Targeting Pod]]
+- [[U-28A Draco]]
+- [[U-2]] (Dragon Lady)
+- [[UH-1N Huey]]
+- [[VC-25]] (Air Force One)
+- [[Wasp III]]
+- [[WC-130 Hercules]]
+- [[YFQ-42A Dark Merlin]]
+
+

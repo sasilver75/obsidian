@@ -1,0 +1,5 @@
+---
+aliases:
+  - USMC
+  - Marine Corps
+---

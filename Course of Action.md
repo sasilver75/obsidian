@@ -13,8 +13,7 @@ In the context of military logistics, a COA is a specific logistics support opti
 - Timing, priorities, and sequencing. 
 - Risks, constraints, and assumptions.
 
-A logistics COA is not just: "We will supply the unit." 
-It's a concrete support concept, such as
+A logistics COA is not just: "We will supply the unit,"  it's:
 > "Use rail to move bulk supplies to a theater distribution hub, truck convoys to forward logistics sites, and aerial resupply for isolated units during the first 72 hours."
 
 Commanders and staff compare multiple COAs to determine which one is the most:
