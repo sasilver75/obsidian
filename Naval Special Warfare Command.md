@@ -1,0 +1,6 @@
+---
+aliases:
+  - NAVSPECWARCOM
+  - NAVSOC
+  - NSWC
+---

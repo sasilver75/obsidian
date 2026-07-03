@@ -1,0 +1,49 @@
+
+Pricing Models
+- Cost-Plus Pricing
+- Firm-Fixed Pricing
+- Cost-Plus Incentive Fee (CPIF) Pricing
+
+
+Relevant Contractors
+- [[Lockheed Martin]]
+- [[Raytheon]] (RTX after merger of Raytheon and United Technologies)
+- [[Northrop Grumman]]
+- [[Boeing]]
+- [[General Dynamics]]
+- [[L3Harris]]
+- [[BAE Systems]]
+- [[Huntington Ingalls Industries]]
+- [[Leidos]]
+- [[Booz Allen Hamilton]]
+- CACI
+- SAIC
+- [[Palantir]]
+- [[Anduril]]
+- [[Sierra Nevada Corporation]]
+- [[[AeroVironment]]
+- [[General Atomics]]
+- [[Textron Systems]]
+- [[Oshkosh Defense]]
+- [[KBR]]
+- [[Amentum]]
+- [[Epirus]]
+- [[Shield AI]]
+- [[Skydio]]
+- [[SpaceX]]
+- [[Rocket Lab]]
+- [[Viasat]]
+- [[Ursa Major]]
+- [[Firefly Aerospace]]
+- [[Kratos Defense]]
+- [[Leonardo DRS]]
+- [[Mercury Systems]]
+- [[Neros Technologies]]
+- [[Saronic Technologies]]
+- [[Allen Control Systems]]
+- [[Picogrid]]
+- [[CX2]]
+- [[Rheinmetall]]
+- [[Kongsberg]]
+- [[Airbus]]
+
