@@ -1,0 +1,2 @@
+A 4x4 multi-purpose [[Mine Resistant Ambush Protected|MRAP]] vehicle manufactured in South Africa by Land Systems OMC.
+The RG-31 has become the multi-purpose vehicle of choice of the UN and other peacekeeping and security forces. 

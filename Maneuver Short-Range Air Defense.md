@@ -2,10 +2,9 @@
 aliases:
   - MSHORAD
   - M-SHORAD
+  - Sgt Stout
 ---
-Mobile air defense system built to 
-
-
+Refers to the [[United States Army|Army]]'s [[Stryker]]-based mobile air defense system, officially designated as the Sgt. Stout.
 
 
 

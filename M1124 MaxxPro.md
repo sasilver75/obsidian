@@ -1,0 +1,1 @@
+An [[Mine Resistant Ambush Protected|MRAP]] armored fighting vehicle designed by Navistar Defense.

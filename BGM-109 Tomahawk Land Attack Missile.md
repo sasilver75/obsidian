@@ -5,4 +5,5 @@ aliases:
   - BGM-109
   - RGM-109
   - UGM-109
+  - Tomahawk
 ---

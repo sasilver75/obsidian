@@ -8,420 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f6787d5da9bb6c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States Navy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States Navy"
-            }
-          },
-          {
-            "id": "da1ca4b7d9b797bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RIM-156 SM-2ER.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RIM-156 SM-2ER"
-            }
-          },
-          {
-            "id": "bbc71469a49659c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vertical Launch System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Vertical Launch System"
-            }
-          },
-          {
-            "id": "32fa152f99412901",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RIM-66C SM-2MR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RIM-66C SM-2MR"
-            }
-          },
-          {
-            "id": "1cc9fe19f0d30d35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BGM-109 Tomahawk Land Attack Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "BGM-109 Tomahawk Land Attack Missile"
-            }
-          },
-          {
-            "id": "1c0311ce4615d922",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGM-158 JASSM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGM-158 JASSM"
-            }
-          },
-          {
-            "id": "16372428d41c9e8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGM-88E AARGM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGM-88E AARGM"
-            }
-          },
-          {
-            "id": "c4d379532f4383a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States Marine Corps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States Marine Corps"
-            }
-          },
-          {
-            "id": "8df5844c0dfe3828",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FA-18 Hornet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FA-18 Hornet"
-            }
-          },
-          {
-            "id": "84e89ad0e4af1d5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FA-18 Hornet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FA-18 Hornet"
-            }
-          },
-          {
-            "id": "37f56b30a50a83c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FA-18 Super Hornet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FA-18 Super Hornet"
-            }
-          },
-          {
-            "id": "e54f5d9451dba761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States Air Force.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States Air Force"
-            }
-          },
-          {
-            "id": "95ce6588a00b7ad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intelligence, Surveillance, and Reconnaissance.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Intelligence, Surveillance, and Reconnaissance"
-            }
-          },
-          {
-            "id": "1f96200fd6608957",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sierra Nevada Corporation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sierra Nevada Corporation"
-            }
-          },
-          {
-            "id": "7a13ff95fd5ce2ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CV-22 Osprey.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CV-22 Osprey"
-            }
-          },
-          {
-            "id": "3b36f629a5b88ce6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Seawolf-Class Attack Submarine.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Seawolf-Class Attack Submarine"
-            }
-          },
-          {
-            "id": "22255d7efe1c0884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Littoral Combat Ship.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Littoral Combat Ship"
-            }
-          },
-          {
             "id": "f7a0d7f4a92f46ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Force Design 2030.md",
+                "file": "United States Army.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Force Design 2030"
+              "title": "United States Army"
             }
           },
           {
-            "id": "051d2727cc071de1",
+            "id": "769a1b1cab54c5a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combined Joint All-Domain Command and Control.md",
+                "file": "Switchblade 300.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Combined Joint All-Domain Command and Control"
+              "title": "Switchblade 300"
             }
           },
           {
-            "id": "39f36920fcb1d5d4",
+            "id": "2fd39ae8cd1bdaef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command, Control, Computers, Communications, Cyber, Intelligence, Surveillance, Reconnaissance.md",
+                "file": "Indefinite Delivery, Indefinite Quantity.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Command, Control, Computers, Communications, Cyber, Intelligence, Surveillance, Reconnaissance"
+              "title": "Indefinite Delivery, Indefinite Quantity"
             }
           },
           {
-            "id": "5fb0298efab40ff9",
+            "id": "f1bf600fcb7d5da3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Air Naval Gunfire Liason Company.md",
+                "file": "Black Widow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Air Naval Gunfire Liason Company"
+              "title": "Black Widow"
             }
           },
           {
-            "id": "d27a0f88f4c533e3",
+            "id": "68867b7d8a1ccf74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Joint Fires Network.md",
+                "file": "Black Widow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,11 +124,298 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Joint Fires Network"
+              "title": "Black Widow"
+            }
+          },
+          {
+            "id": "d63b9678211693e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Black Widow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Black Widow"
+            }
+          },
+          {
+            "id": "ad8b5a038f65ad7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RQ-28A.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RQ-28A"
+            }
+          },
+          {
+            "id": "54f242ab3a1cda2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RQ-11B Raven.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RQ-11B Raven"
+            }
+          },
+          {
+            "id": "20defd3ce1192233",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RQ-7 Shadow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RQ-7 Shadow"
+            }
+          },
+          {
+            "id": "0abc3a5944560ee7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Short Takeoff and Vertical Landing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Short Takeoff and Vertical Landing"
+            }
+          },
+          {
+            "id": "7048cdd323163dc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Short Takeoff and Landing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Short Takeoff and Landing"
+            }
+          },
+          {
+            "id": "ad1edbf51f1497e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vertical Takekoff and Landing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vertical Takekoff and Landing"
+            }
+          },
+          {
+            "id": "90ca07d18965ac7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MV-75 Cheyenne II.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MV-75 Cheyenne II"
+            }
+          },
+          {
+            "id": "b4ea3844df29f0d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UH-72 Lakota.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UH-72 Lakota"
+            }
+          },
+          {
+            "id": "5658eec9ef2f1b04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MH-60L Direct Action Penetrator.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MH-60L Direct Action Penetrator"
+            }
+          },
+          {
+            "id": "d39faf9e34819d50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MH-60M Black Hawk.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MH-60M Black Hawk"
+            }
+          },
+          {
+            "id": "bf3ed52b1f58020f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MH-47G Chinook.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MH-47G Chinook"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -2676,45 +2555,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bbc71469a49659c4",
+  "active": "f7a0d7f4a92f46ec",
   "lastOpenFiles": [
-    "Vertical Launch System.md",
-    "RIM-156 SM-2ER.md",
-    "United States Navy.md",
-    "RIM-66C SM-2MR.md",
-    "BGM-109 Tomahawk Land Attack Missile.md",
-    "E-7A Wedgetail.md",
-    "AGM-158 JASSM.md",
-    "AGM-88E AARGM.md",
-    "United States Marine Corps.md",
-    "FA-18 Hornet.md",
-    "FA-18 Super Hornet.md",
-    "United States Air Force.md",
-    "F-35 Lightning II.md",
-    "Intelligence, Surveillance, and Reconnaissance.md",
-    "Contracted Research and Development.md",
-    "Foreign Military Sales.md",
-    "Optical.md",
-    "Defense Contractor.md",
-    "Sierra Nevada Corporation.md",
-    "Joint Fires Network.md",
-    "CV-22 Osprey.md",
-    "Supply-Class Fast Combat Support Ship.md",
-    "Seawolf-Class Attack Submarine.md",
-    "Littoral Combat Ship.md",
-    "Marine Forces Special Operations Command.md",
+    "Switchblade 300.md",
+    "United States Army.md",
+    "Indefinite Delivery, Indefinite Quantity.md",
+    "Black Widow.md",
+    "RQ-28A.md",
+    "Skydio.md",
     "Red Cat.md",
+    "Unmanned Aerial System.md",
+    "MH-47G Chinook.md",
+    "MH-60M Black Hawk.md",
+    "RQ-11B Raven.md",
+    "RQ-7 Shadow.md",
+    "Shadow Model.md",
+    "Short Takeoff and Vertical Landing.md",
+    "Coyote.md",
+    "KuRFS.md",
+    "Counter-Unmanned Aerial System.md",
+    "Enduring Shield.md",
+    "ANTWQ-1 Avenger.md",
+    "ANMPQ-64 Sentinel.md",
+    "Lower Tier Air and Missile Defense Sensor.md",
+    "Integrated Battle Command System.md",
+    "Terminal High Altitude Area Defense.md",
+    "PAC-3 MSE.md",
+    "PAC-2 GEM-T.md",
+    "Joint Operations and Readiness Training Cycle.md",
+    "_attachments/Pasted image 20260703232054.png",
+    "_attachments/Pasted image 20260703223132.png",
+    "_attachments/Pasted image 20260703221650.png",
+    "_attachments/Pasted image 20260703212656.png",
+    "_attachments/Pasted image 20260703190040.png",
+    "_attachments/Pasted image 20260703150418.png",
+    "_attachments/Pasted image 20260703144859.png",
+    "_attachments/Pasted image 20260703141834.png",
+    "_attachments/Pasted image 20260703141804.png",
+    "_attachments/Pasted image 20260703141739.png",
     "RC-135V",
-    "_attachments/Pasted image 20260702143347.png",
-    "_attachments/Pasted image 20260702143335.png",
-    "_attachments/Pasted image 20260702143326.png",
-    "_attachments/Pasted image 20260702140254.png",
-    "_attachments/Pasted image 20260702140235.png",
-    "_attachments/Pasted image 20260702140148.png",
-    "_attachments/Pasted image 20260702140116.png",
-    "_attachments/Pasted image 20260702140056.png",
-    "_attachments/Pasted image 20260702135934.png",
-    "_attachments/Pasted image 20260702135856.png",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",

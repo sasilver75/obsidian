@@ -1,7 +1,7 @@
 
 Pricing Models
-- Cost-Plus Pricing
-- Firm-Fixed Pricing
+- [[Cost-Plus Pricing]]
+- [[Firm-Fixed Pricing]]
 - Cost-Plus Incentive Fee (CPIF) Pricing
 
 
@@ -12,7 +12,7 @@ Relevant Contractors
 - [[Boeing]]
 - [[General Dynamics]]
 - [[L3Harris]]
-- [[BAE Systems]]
+- [[BAE Systems]]z
 - [[Huntington Ingalls Industries]]
 - [[Leidos]]
 - [[Booz Allen Hamilton]]

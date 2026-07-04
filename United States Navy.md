@@ -68,7 +68,7 @@ Aircraft Designators
 - [[Nimitz-Class Aircraft Carrier]]
 - [[Gerald R. Ford-Class Aircraft Carrier]]
 - [[Ticonderoga-Class Cruiser]]
-- [[Arliehg Burke-Class Destroyer]]
+- [[Arleigh Burke-Class Destroyer]]
 - [[Zumwalt-Class Destroyer]]
 - [[Freedom-Class Littoral Combat Ship]]
 - [[Independence-Class Littoral Combat Ship]]
@@ -132,92 +132,89 @@ Weapons/Munitions
 - [[AGM-158 JASSM|AGM-158C LRASM]]
 - [[BGM-109 Tomahawk Land Attack Missile]] (TLAM)
 - [[RIM-66C SM-2MR]]
+- [[RIM-116 RAM]]
 - [[RIM-156 SM-2ER]]
-- RIM-161 SM-3
-- RIM-174 SM-6
-- RIM-162 ESSM
-- RIM-116 RAM/SeaRAM
-- Naval Strike Missile
-- UGM-133 Trident II D5
-- RUM-139 VL-ASROC
-- Mk 48 ADCAP Torpedo
-- Mk 54 Lightweight Torpedo
-- Mk 46 Lightweight Torpedo (Legacy)
-- Mk 60 CAPTOR (Legacy)
-- Quickstrike Naval Mines
-- Hammerhead Mine
-- Mk 82, Mk 83, Mk 84 bomb bodies
-- JDAM
-- Laser JDAM: GBU-54
-- Paveway: GBU-10/12/16/24
-- Advanced Precision Kill Weapon System (APKWS)
-- Hydra 70
-- AGM-114 Hellfire
-- M61 Vulcan/M61A2
-- Mk 45 5-inch gun
-- Mk 110 57 mm gun
-- Mk 38 25mm gun
-- Mk 46 30 mm gun weapon system
-- Phalanx CIWS
-- Mk 70 Mod 1
+- [[RIM-161 SM-3]]
+- [[RIM-162 ESSM]]
+- [[RIM-174 SM-6]]
+- [[Naval Strike Missile]] (NSM)
+- [[UGM-133 Trident II]]
+- [[RUM-139 VL-ASROC]]
+- [[Mk 46 Torpedo]]
+- [[Mk 48 ADCAP Torpedo]]
+- [[Mk 54 Lightweight Torpedo]]
+- [[Quickstrike Naval Mines]]
+- [[Hammerhead Mine]]
+- [[Mk 82]]
+- [[Mk 83]]
+- [[Mk 84]]
+- [[Joint Direct Attack Munition|JDAM]]
+- [[GBU-54 Laser Joint Direct Attack Munition]]
+- [[GBU-10 Paveway II]]
+- [[GBU-12 Paveway II]]
+- [[GBU-16 Paveway II]]
+- [[GBU-24 Paveway III]]
+- [[Advanced Precision Kill Weapon System]] (APKWS)
+- [[Hydra 70]]
+- [[AGM-114 Hellfire]]
+- [[Mk 45]] 5-inch gun
+- [[Mk 110]] 57 mm gun
+- [[Mk 38]] 25mm gun
+- [[Mk 46]] 30 mm gun weapon system
+- [[Phalanx CIWS]]
+- [[Mk 70 Mod 1]]
 
 Sensors/Combat Systems
-- Aegis Combat System
-- Ship Self-Defense System
-- Mk 41 Vertical Launching System
-- Mk 57 Peripheral Vertical Launching System
-- Cooperative Engagement Capability
-- Naval Integrated Fire Control-Counter Air
-- Link 16
-- AN/SPY-1
-- AN/SPY-3
-- AN/SPY-6
-- Enterprise Air Surveillance Radar
-- AN/SPQ-9B
-- AN/SPS-48
-- AN/SPS-49
-- AN/SPS-73
-- AN/SLQ-32 SEWIP
-- Nulka Active Missile Decoy
-- Mk 36 SRBOC
-- AN/SLQ-25 Nixie
-- AN/SQQ-89 Undersea Combat System
-- AN/SQS-53 Hull-Mounted Sonar
-- TB-37 Multifunction Towed Array
-- AN/AWS-22 Airborne Low Frequency Sonar
-- Sonobuoy Families: SSQ-53, SSQ-62, SSQ-101, SSQ-125
-- AN/APY-9 on the E-2D
-- AN/APY-10 on P-8A
-- AN/APG-79 on F/A-18E/F and EA-18G
-- AN/APG-81 on EA-18G
-- AN/ALQ-99 Tactical Jamming System (Legacy)
-- AN/ALQ-249 Next Generation Jammer
-- AN/AAQ-24 LAIRCM for Aircraft Self-Projection
-- Electromagnetic Aircraft Launch System
-- Advanced Arresting Gear
+- [[Aegis Combat System]]
+- [[Ship Self-Defense System]] (SSDS)
+- [[Mk 41 VLS]]
+- [[Mk 57 VLS]]
+- [[Cooperative Engagement Capability]] (CEC)
+- [[Naval Integrated Fire Control-Counter Air]] (NIFC-CA)
+- [[Link 16]]
+- [[ANSPY-1|AN/SPY-1]]
+- [[ANSPY-3|AN/SPY-3]]
+- [[ANSPY-6|AN/SPY-6]] (EASR)
+- [[ANSPQ-9B|AN/SPQ-9B]]
+- [[ANSPS-48|AN/SPS-48]]
+- [[ANSPS-49|AN/SPS-49]]
+- [[ANSPS-73|AN/SPS-73]]
+- [[ANSLQ-32 SEWIP|AN/SLQ-32]]
+- [[Nulka Active Missile Decoy]]
+- [[Mk 36 SRBOC]]
+- [[ANSLQ-25 Nixie|AN/SLQ-25 Nixie]]
+- [[ANSQQ-89|AN/SQQ-89]] Undersea Combat System
+- [[ANSQS-53|AN/SQS-53]] Hull-Mounted Sonar
+- [[TB-37]] Multifunction Towed Array
+- [[ANAWS-22|AN/AWS-22]] Airborne Low Frequency Sonar
+- [[SSQ-53]]
+- [[SSQ-62]]
+- [[SSQ-101]]
+- [[SSQ-125]]
+- [[ANAPY-9|AN/APY-9]] on the E-2D
+- [[ANAPY-10|AN/APY-10]] on P-8A
+- [[ANAPG-79|AN/APG-79]] on F/A-18E/F and EA-18G
+- [[ANAPG-81|AN/APG-81]] on EA-18G
+- [[ANALQ-99|AN/ALQ-99]] Tactical Jamming System (Legacy)
+- [[ANALQ-249|AN/ALQ-249]] Next Generation Jammer
+- [[ANAAQ-24 LAIRCM|AN/AAQ-24 LAIRCM]] for Aircraft Self-Projection
 
 Unmanned/Future/Programmatic
-- MQ-25 Stingray
-- Orca XLUUV
-- Knifefish UUV
-- Razorback UUV
-- Lionfish small UUV
-- Large Unmanned Surface Vessel
-- Medium Unmanned Surface Vessel
+- [[MQ-25 Stingray]]
+- [[Orca XLUUV]]
+- [[Knifefish]]
+- [[Razorback]]
+- [[Lionfish]]
+- [[Large Unmanned Surface Vessel]] (LUSVs)
+- [[Medium Unmanned Surface Vessel]] (MUSVs)
 - DDG(X)
 - SSN(X)
 - F/A-XX
-- Conventional Prompt Strike
+- Conventional Prompt Strike (CPS)
 - Next-Generation Jammer
-- Columbia-class SSBN
-- Virginia Payload Module
+- Virginia Payload Module (VPM)
 - Integrated Combat System / Aegis modernization
 
-
-
-Terms:
-- Vertical Launching System
-- 
 
 
 
