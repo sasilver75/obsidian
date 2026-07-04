@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Army.md",
+                "file": "Joint Fires Network.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Army"
+              "title": "Joint Fires Network"
+            }
+          },
+          {
+            "id": "b8bab072d1c18960",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FIM-92 Stinger.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FIM-92 Stinger"
+            }
+          },
+          {
+            "id": "fc1efc6f722c684e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Surface-to-Air Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Surface-to-Air Missile"
+            }
+          },
+          {
+            "id": "f4255801006bd138",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Man-Portable Air Defense System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Man-Portable Air Defense System"
             }
           },
           {
@@ -397,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MH-47G Chinook.md",
+                "file": "United States Marine Corps.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -412,10 +484,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MH-47G Chinook"
+              "title": "United States Marine Corps"
             }
           }
-        ]
+        ],
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -2555,17 +2628,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f7a0d7f4a92f46ec",
+  "active": "bf3ed52b1f58020f",
   "lastOpenFiles": [
-    "Switchblade 300.md",
+    "United States Navy.md",
+    "United States Marine Corps.md",
+    "United States Air Force.md",
     "United States Army.md",
+    "MH-47G Chinook.md",
+    "Joint Fires Network.md",
+    "FIM-92 Stinger.md",
+    "Surface-to-Air Missile.md",
+    "Man-Portable Air Defense System.md",
+    "Switchblade 300.md",
+    "Combined Joint All-Domain Command and Control.md",
     "Indefinite Delivery, Indefinite Quantity.md",
     "Black Widow.md",
     "RQ-28A.md",
     "Skydio.md",
     "Red Cat.md",
     "Unmanned Aerial System.md",
-    "MH-47G Chinook.md",
     "MH-60M Black Hawk.md",
     "RQ-11B Raven.md",
     "RQ-7 Shadow.md",
@@ -2575,14 +2656,6 @@
     "KuRFS.md",
     "Counter-Unmanned Aerial System.md",
     "Enduring Shield.md",
-    "ANTWQ-1 Avenger.md",
-    "ANMPQ-64 Sentinel.md",
-    "Lower Tier Air and Missile Defense Sensor.md",
-    "Integrated Battle Command System.md",
-    "Terminal High Altitude Area Defense.md",
-    "PAC-3 MSE.md",
-    "PAC-2 GEM-T.md",
-    "Joint Operations and Readiness Training Cycle.md",
     "_attachments/Pasted image 20260703232054.png",
     "_attachments/Pasted image 20260703223132.png",
     "_attachments/Pasted image 20260703221650.png",
