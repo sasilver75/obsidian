@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f7a0d7f4a92f46ec",
+            "id": "e564be80fbc47fa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Joint Fires Network.md",
+                "file": "Intelligence Preparation of the Operational Environment.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Joint Fires Network"
+              "title": "Intelligence Preparation of the Operational Environment"
             }
           },
           {
-            "id": "b8bab072d1c18960",
+            "id": "e963625f0c3b5eac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FIM-92 Stinger.md",
+                "file": "Knifefish.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FIM-92 Stinger"
+              "title": "Knifefish"
             }
           },
           {
-            "id": "fc1efc6f722c684e",
+            "id": "9be0ddd8fec1a2ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Surface-to-Air Missile.md",
+                "file": "ANAPG-81.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,419 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Surface-to-Air Missile"
-            }
-          },
-          {
-            "id": "f4255801006bd138",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Man-Portable Air Defense System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Man-Portable Air Defense System"
-            }
-          },
-          {
-            "id": "769a1b1cab54c5a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Switchblade 300.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Switchblade 300"
-            }
-          },
-          {
-            "id": "2fd39ae8cd1bdaef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indefinite Delivery, Indefinite Quantity.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Indefinite Delivery, Indefinite Quantity"
-            }
-          },
-          {
-            "id": "f1bf600fcb7d5da3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Black Widow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Black Widow"
-            }
-          },
-          {
-            "id": "68867b7d8a1ccf74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Black Widow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Black Widow"
-            }
-          },
-          {
-            "id": "d63b9678211693e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Black Widow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Black Widow"
-            }
-          },
-          {
-            "id": "ad8b5a038f65ad7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RQ-28A.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RQ-28A"
-            }
-          },
-          {
-            "id": "54f242ab3a1cda2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RQ-11B Raven.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RQ-11B Raven"
-            }
-          },
-          {
-            "id": "20defd3ce1192233",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RQ-7 Shadow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RQ-7 Shadow"
-            }
-          },
-          {
-            "id": "0abc3a5944560ee7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Short Takeoff and Vertical Landing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Short Takeoff and Vertical Landing"
-            }
-          },
-          {
-            "id": "7048cdd323163dc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Short Takeoff and Landing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Short Takeoff and Landing"
-            }
-          },
-          {
-            "id": "ad1edbf51f1497e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vertical Takekoff and Landing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Vertical Takekoff and Landing"
-            }
-          },
-          {
-            "id": "90ca07d18965ac7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MV-75 Cheyenne II.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MV-75 Cheyenne II"
-            }
-          },
-          {
-            "id": "b4ea3844df29f0d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UH-72 Lakota.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UH-72 Lakota"
-            }
-          },
-          {
-            "id": "5658eec9ef2f1b04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MH-60L Direct Action Penetrator.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MH-60L Direct Action Penetrator"
-            }
-          },
-          {
-            "id": "d39faf9e34819d50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MH-60M Black Hawk.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MH-60M Black Hawk"
-            }
-          },
-          {
-            "id": "bf3ed52b1f58020f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States Marine Corps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States Marine Corps"
+              "title": "ANAPG-81"
             }
           }
-        ],
-        "currentTab": 19
+        ]
       }
     ],
     "direction": "vertical"
@@ -2628,44 +2219,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bf3ed52b1f58020f",
+  "active": "e564be80fbc47fa9",
   "lastOpenFiles": [
+    "Field Trains Command Post.md",
     "United States Navy.md",
-    "United States Marine Corps.md",
     "United States Air Force.md",
+    "United States Marine Corps.md",
     "United States Army.md",
-    "MH-47G Chinook.md",
-    "Joint Fires Network.md",
-    "FIM-92 Stinger.md",
-    "Surface-to-Air Missile.md",
-    "Man-Portable Air Defense System.md",
-    "Switchblade 300.md",
-    "Combined Joint All-Domain Command and Control.md",
-    "Indefinite Delivery, Indefinite Quantity.md",
-    "Black Widow.md",
-    "RQ-28A.md",
-    "Skydio.md",
-    "Red Cat.md",
-    "Unmanned Aerial System.md",
+    "Combat Sustainment Support Battalion.md",
+    "Attack Guidance Matrix.md",
+    "Doctrine.md",
+    "Fires.md",
+    "ANTWQ-1 Avenger.md",
+    "Knifefish.md",
+    "ANAPG-81.md",
+    "ACV-P.md",
     "MH-60M Black Hawk.md",
-    "RQ-11B Raven.md",
-    "RQ-7 Shadow.md",
-    "Shadow Model.md",
+    "MH-60L Direct Action Penetrator.md",
+    "UH-72 Lakota.md",
+    "MV-75 Cheyenne II.md",
+    "Vertical Takekoff and Landing.md",
+    "Short Takeoff and Landing.md",
     "Short Takeoff and Vertical Landing.md",
-    "Coyote.md",
-    "KuRFS.md",
-    "Counter-Unmanned Aerial System.md",
-    "Enduring Shield.md",
-    "_attachments/Pasted image 20260703232054.png",
-    "_attachments/Pasted image 20260703223132.png",
-    "_attachments/Pasted image 20260703221650.png",
-    "_attachments/Pasted image 20260703212656.png",
-    "_attachments/Pasted image 20260703190040.png",
-    "_attachments/Pasted image 20260703150418.png",
-    "_attachments/Pasted image 20260703144859.png",
-    "_attachments/Pasted image 20260703141834.png",
-    "_attachments/Pasted image 20260703141804.png",
-    "_attachments/Pasted image 20260703141739.png",
+    "RQ-7 Shadow.md",
+    "RQ-11B Raven.md",
+    "RQ-28A.md",
+    "Black Widow.md",
+    "Indefinite Delivery, Indefinite Quantity.md",
+    "Switchblade 300.md",
+    "_attachments/Pasted image 20260704125114.png",
+    "_attachments/Pasted image 20260704125107.png",
+    "_attachments/Pasted image 20260704121807.png",
+    "_attachments/Pasted image 20260704121800.png",
+    "_attachments/Pasted image 20260704121415.png",
+    "_attachments/Pasted image 20260704121055.png",
+    "_attachments/Pasted image 20260704120115.png",
+    "_attachments/Pasted image 20260704120039.png",
+    "_attachments/Pasted image 20260704120029.png",
+    "_attachments/Pasted image 20260704114113.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

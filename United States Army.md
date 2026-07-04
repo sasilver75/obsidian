@@ -63,7 +63,7 @@ Air Defense
 - [[PAC-3 MSE]]
 - [[Terminal High Altitude Area Defense]] (THAAD)
 - [[Integrated Battle Command System]] (IBCS)
-- [[Lower Tier Air and Missile Defense Sensor]] (LTAMDS, GhostEye)
+- [[Lower Tier Air and Missile Defense Sensor]] (LTAMDS, "GhostEye")
 - [[ANMPQ-64 Sentinel|AN/MPQ-64 Sentinel]]
 - [[ANTWQ-1 Avenger|ANTWQ-1 Avenger]]
 - [[FIM-92 Stinger]]

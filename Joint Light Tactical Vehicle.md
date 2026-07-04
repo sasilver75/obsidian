@@ -7,3 +7,5 @@ The program is the JLTV, but it's also known and marketed under [[Oshkosh Defens
 
 
 Lightweight, but has some [[Mine Resistant Ambush Protected|MRAP]] capabilities.
+
+![[Pasted image 20260704121055.png]]

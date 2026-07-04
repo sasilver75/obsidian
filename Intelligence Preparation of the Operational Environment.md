@@ -9,3 +9,4 @@ In an intelligence context, refers to the systematic, continuous process of anal
 3. Evaluate the Adversaries
 4. Determine Adversary Courses of Action
 
+
