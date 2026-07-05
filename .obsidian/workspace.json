@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7e43d1b6ca3aee05",
+        "id": "d0e9dca0e10abb7e",
         "type": "tabs",
         "children": [
           {
-            "id": "e564be80fbc47fa9",
+            "id": "ab708b772c3df17d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strategic Bombing.md",
+                "file": "Division.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Strategic Bombing"
+              "title": "Division"
             }
           },
           {
-            "id": "6fcafa98d9f39fb5",
+            "id": "992d2dd739a2b555",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common Operating Picture.md",
+                "file": "Private.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common Operating Picture"
+              "title": "Private"
             }
           },
           {
-            "id": "4b404534f0d9fa83",
+            "id": "867867bee6f0b499",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Committee on Foreign Investment in the United States.md",
+                "file": "Private First Class.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Committee on Foreign Investment in the United States"
+              "title": "Private First Class"
             }
           },
           {
-            "id": "b4ded4e6b1e3272e",
+            "id": "0492a31ba7182946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Air Operations Center.md",
+                "file": "Specialist.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Air Operations Center"
+              "title": "Specialist"
             }
           },
           {
-            "id": "ed45c0d5adeb882a",
+            "id": "3b9fd276425cb945",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bait and Bleed.md",
+                "file": "Corporal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bait and Bleed"
+              "title": "Corporal"
             }
           },
           {
-            "id": "0061b12eff781343",
+            "id": "d0fcc76ecdf64a6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overcome by Events.md",
+                "file": "Sergeant.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Overcome by Events"
+              "title": "Sergeant"
             }
           },
           {
-            "id": "d5df463056679c78",
+            "id": "644767805ce591a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Warden's Five Rings.md",
+                "file": "Staff Sergeant.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Warden's Five Rings"
+              "title": "Staff Sergeant"
             }
           },
           {
-            "id": "f4f47c5d5b215719",
+            "id": "cc5e5526fc087e01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maven Smart System.md",
+                "file": "Sergeant First Class.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maven Smart System"
+              "title": "Sergeant First Class"
             }
           },
           {
-            "id": "90bd0fa4c15d3e79",
+            "id": "9cf1fa4a724e052d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common Operating Picture.md",
+                "file": "Master Sergeant.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common Operating Picture"
+              "title": "Master Sergeant"
             }
           },
           {
-            "id": "eaacbd223ba9cf30",
+            "id": "9e44ffad4e3fe2b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "China.md",
+                "file": "First Sergeant.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "China"
+              "title": "First Sergeant"
             }
           },
           {
-            "id": "df41b8d1fbf2ac44",
+            "id": "727b85904b4f375f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pacing Threat.md",
+                "file": "Sergeant MAjor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,11 +268,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pacing Threat"
+              "title": "Sergeant MAjor"
+            }
+          },
+          {
+            "id": "788d8962ebcb2e7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command Sergeant Major.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Command Sergeant Major"
+            }
+          },
+          {
+            "id": "b7a0132a57361022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sergeant Major of the Army.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sergeant Major of the Army"
+            }
+          },
+          {
+            "id": "5c93df948043193f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Warrant Officer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Warrant Officer"
+            }
+          },
+          {
+            "id": "9788ed8b78245842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chief Warrant Officer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Chief Warrant Officer"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -2412,44 +2508,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0061b12eff781343",
+  "active": "9788ed8b78245842",
   "lastOpenFiles": [
-    "Overcome by Events.md",
-    "Bait and Bleed.md",
-    "Air Operations Center.md",
-    "Committee on Foreign Investment in the United States.md",
-    "Common Operating Picture.md",
-    "Target Systems Analysis.md",
-    "Warden's Five Rings.md",
-    "Deliberate Targeting.md",
-    "Strategic Bombing.md",
-    "Pacing Threat.md",
-    "China.md",
-    "Deconfliction.md",
-    "Maven Smart System.md",
+    "Second Lieutenant.md",
+    "Captain.md",
+    "First Lieutenant.md",
+    "Lieutenant Colonel.md",
+    "Major.md",
+    "Colonel.md",
+    "Brigadier General.md",
+    "Major General.md",
+    "Lieutenant General.md",
+    "General.md",
+    "Staff Sergeant.md",
+    "Sergeant.md",
+    "General of the Army.md",
+    "Chief Warrant Officer.md",
+    "Warrant Officer.md",
+    "Sergeant Major of the Army.md",
+    "Command Sergeant Major.md",
+    "Sergeant MAjor.md",
+    "First Sergeant.md",
+    "Master Sergeant.md",
+    "Sergeant First Class.md",
+    "Corporal.md",
+    "Specialist.md",
+    "Private First Class.md",
+    "Private.md",
+    "Division.md",
+    "_attachments/Pasted image 20260705001110.png",
+    "_attachments/Pasted image 20260704235254.png",
+    "_attachments/Pasted image 20260704235252.png",
+    "_attachments/Pasted image 20260704235251.png",
+    "_attachments/Pasted image 20260704224745.png",
+    "_attachments/Pasted image 20260704221743.png",
     "_attachments/Pasted image 20260704200809.png",
     "_attachments/Pasted image 20260704200646.png",
-    "Offset Strategy.md",
-    "Air Tasking Order.md",
-    "Warning Order.md",
-    "Operational Order.md",
-    "Airspace Control Order.md",
-    "Aviation Technology Office.md",
-    "Wide Area Motion Imagery.md",
-    "Palantir.md",
-    "Unmanned Aerial System.md",
-    "Dynamic Targeting.md",
-    "Time Sensitive Target.md",
-    "High Payoff Target.md",
-    "Restricted Target List.md",
     "_attachments/Pasted image 20260704195744.png",
     "_attachments/Pasted image 20260704195213.png",
-    "_attachments/Pasted image 20260704194731.png",
-    "_attachments/Pasted image 20260704180434.png",
-    "_attachments/Pasted image 20260704180400.png",
-    "_attachments/Pasted image 20260704175404.png",
-    "_attachments/Pasted image 20260704175333.png",
-    "_attachments/Pasted image 20260704175318.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

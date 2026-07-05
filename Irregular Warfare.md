@@ -1,5 +1,5 @@
 
-A form of warfare in which state or non-state actions use non-conventional methods to influence, coerce, or defeat an opponent, often by operating among populations and using tactics such as:
+A form of violent or non-violent conflict in which state or non-state actions use non-conventional methods to influence, coerce, or defeat an opponent, often by operating among populations and using tactics such as:
 - Insurgency
 - Guerilla Warfare
 - Terrorism

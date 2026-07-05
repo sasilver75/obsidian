@@ -1,3 +1,8 @@
+---
+aliases:
+  - WfF
+---
+
 
 The US Army defines six warfighting functions, including:
 - [[Movement and Maneuver]]: Positions forces to gain advantage over the enemy.

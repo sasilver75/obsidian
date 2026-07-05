@@ -1,3 +1,9 @@
+---
+aliases:
+  - BN
+---
+
+
 
 A military [[Army Echelons|Echelon]]. In the US Army, typically ~300-1,000 personnel and made up of 3-5 [[Company|Companies]] plus a HQ element, typically commanded by a Lieutenant Colonel (O-5).
 
