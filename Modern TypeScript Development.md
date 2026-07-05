@@ -271,7 +271,7 @@ Since TS types are erased, you need runtime schemas at boundaries (HTTP, env var
   ```
 - ==[[Valibot]]==: Same idea, tree-shakable, ~10× smaller bundle. Great for the edge/frontend.
 - ==[[ArkType]]==: Faster, more TS-native syntax (`type({ name: "string" })`).
-- ==[[Effect Schema]]==: Part of the [[Effect]] ecosystem; very powerful, steeper learning curve.
+- ==[[Effect Schema]]==: Part of the [[Effect (React)]] ecosystem; very powerful, steeper learning curve.
 
 Rule of thumb: ==Zod for most things, Valibot when bundle size matters==.
 
@@ -298,7 +298,7 @@ For ==structured concurrency / cancellation==:
   fetch(url, { signal: ctrl.signal })
   setTimeout(() => ctrl.abort(), 5000)
   ```
-- [[Effect]] / [[Neverthrow]] for higher-level fp-style error/concurrency handling (niche but growing).
+- [[Effect (React)]] / [[Neverthrow]] for higher-level fp-style error/concurrency handling (niche but growing).
 
 
 # Testing

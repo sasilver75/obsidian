@@ -2,11 +2,11 @@
 aliases:
   - AGM
 ---
-A commander-approved targeting tool that dictates ==when, how and why== to engage specific targets (e.g. on a [[High-Payoff Target List]]) to achieve desired battlefield effects, translating high-level strategy into actionable guidelines for targeting and fires support agencies.
+A commander-approved targeting tool that dictates ==when, how and why== to engage specific targets (e.g. on a [[High Payoff Target]] List) to achieve desired battlefield effects, translating high-level strategy into actionable guidelines for targeting and fires support agencies.
 
 
 Typically uses the following framework:
-1. [[High-Payoff Target List|High-Payoff Target]]s (HPTs): Specific targets prioritized by commander.
+1. [[High Payoff Target|High-Payoff Target]] Lists (HPTs): Specific targets prioritized by commander.
 2. [[Target Selection Standards]] (TSS): Criteria defining exactly who or what requires engagement.
 3. Desired Effects: The intended outcome of the attack (destroy, delay, disrupt, divert, suppress)
 4. Attack Timing: When a target should be hit (immediate or delayed)

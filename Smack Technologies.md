@@ -133,7 +133,7 @@ ___________________
 	- Dispatching of forces to target
 	- Initiation of attack on target
 	- Destruction of target
-- ==[[F2T2EA]]==: Find, Fix, Track, Target, Engage, Assess (A Kill Chain model)
+- ==[[Find, Fix, Track, Target, Engage, Assess|F2T2EA]]==: Find, Fix, Track, Target, Engage, Assess (A Kill Chain model)
 	- Find: Identify a target within surveillance or reconnaissance data or by intelligence means.
 	- Fix: Fix the target's location, obtaining specific coordinates from existing data or by collecting additional data.
 	- Track: Monitor the target's movement, keeping track of the target either until a decision is made to not engage the target or until the target is successfully engaged.

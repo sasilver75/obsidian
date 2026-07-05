@@ -77,7 +77,7 @@ Aviation Weapons / Effects
 - [[GBU-12 Paveway II]]
 - [[GBU-16 Paveway II]]
 - [[GBU-24 Paveway III]]
-- [[GBU-39B]] Small Diameter Bomb
+- [[GBU-39B Small Diameter Bomb]]
 - [[GBU-53B StormBreaker]]
 - [[AGM-158 JASSM|AGM-158C LRASM]]
 

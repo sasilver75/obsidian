@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intelligence Preparation of the Operational Environment.md",
+                "file": "Strategic Bombing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Intelligence Preparation of the Operational Environment"
+              "title": "Strategic Bombing"
             }
           },
           {
-            "id": "e963625f0c3b5eac",
+            "id": "6fcafa98d9f39fb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knifefish.md",
+                "file": "Common Operating Picture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Knifefish"
+              "title": "Common Operating Picture"
             }
           },
           {
-            "id": "9be0ddd8fec1a2ae",
+            "id": "4b404534f0d9fa83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANAPG-81.md",
+                "file": "Committee on Foreign Investment in the United States.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,10 +76,203 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ANAPG-81"
+              "title": "Committee on Foreign Investment in the United States"
+            }
+          },
+          {
+            "id": "b4ded4e6b1e3272e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Air Operations Center.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Air Operations Center"
+            }
+          },
+          {
+            "id": "ed45c0d5adeb882a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bait and Bleed.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bait and Bleed"
+            }
+          },
+          {
+            "id": "0061b12eff781343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overcome by Events.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Overcome by Events"
+            }
+          },
+          {
+            "id": "d5df463056679c78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Warden's Five Rings.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Warden's Five Rings"
+            }
+          },
+          {
+            "id": "f4f47c5d5b215719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maven Smart System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maven Smart System"
+            }
+          },
+          {
+            "id": "90bd0fa4c15d3e79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Operating Picture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Common Operating Picture"
+            }
+          },
+          {
+            "id": "eaacbd223ba9cf30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "China.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "China"
+            }
+          },
+          {
+            "id": "df41b8d1fbf2ac44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pacing Threat.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Pacing Threat"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -2219,44 +2412,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e564be80fbc47fa9",
+  "active": "0061b12eff781343",
   "lastOpenFiles": [
-    "Field Trains Command Post.md",
-    "United States Navy.md",
-    "United States Air Force.md",
-    "United States Marine Corps.md",
-    "United States Army.md",
-    "Combat Sustainment Support Battalion.md",
-    "Attack Guidance Matrix.md",
-    "Doctrine.md",
-    "Fires.md",
-    "ANTWQ-1 Avenger.md",
-    "Knifefish.md",
-    "ANAPG-81.md",
-    "ACV-P.md",
-    "MH-60M Black Hawk.md",
-    "MH-60L Direct Action Penetrator.md",
-    "UH-72 Lakota.md",
-    "MV-75 Cheyenne II.md",
-    "Vertical Takekoff and Landing.md",
-    "Short Takeoff and Landing.md",
-    "Short Takeoff and Vertical Landing.md",
-    "RQ-7 Shadow.md",
-    "RQ-11B Raven.md",
-    "RQ-28A.md",
-    "Black Widow.md",
-    "Indefinite Delivery, Indefinite Quantity.md",
-    "Switchblade 300.md",
-    "_attachments/Pasted image 20260704125114.png",
-    "_attachments/Pasted image 20260704125107.png",
-    "_attachments/Pasted image 20260704121807.png",
-    "_attachments/Pasted image 20260704121800.png",
-    "_attachments/Pasted image 20260704121415.png",
-    "_attachments/Pasted image 20260704121055.png",
-    "_attachments/Pasted image 20260704120115.png",
-    "_attachments/Pasted image 20260704120039.png",
-    "_attachments/Pasted image 20260704120029.png",
-    "_attachments/Pasted image 20260704114113.png",
+    "Overcome by Events.md",
+    "Bait and Bleed.md",
+    "Air Operations Center.md",
+    "Committee on Foreign Investment in the United States.md",
+    "Common Operating Picture.md",
+    "Target Systems Analysis.md",
+    "Warden's Five Rings.md",
+    "Deliberate Targeting.md",
+    "Strategic Bombing.md",
+    "Pacing Threat.md",
+    "China.md",
+    "Deconfliction.md",
+    "Maven Smart System.md",
+    "_attachments/Pasted image 20260704200809.png",
+    "_attachments/Pasted image 20260704200646.png",
+    "Offset Strategy.md",
+    "Air Tasking Order.md",
+    "Warning Order.md",
+    "Operational Order.md",
+    "Airspace Control Order.md",
+    "Aviation Technology Office.md",
+    "Wide Area Motion Imagery.md",
+    "Palantir.md",
+    "Unmanned Aerial System.md",
+    "Dynamic Targeting.md",
+    "Time Sensitive Target.md",
+    "High Payoff Target.md",
+    "Restricted Target List.md",
+    "_attachments/Pasted image 20260704195744.png",
+    "_attachments/Pasted image 20260704195213.png",
+    "_attachments/Pasted image 20260704194731.png",
+    "_attachments/Pasted image 20260704180434.png",
+    "_attachments/Pasted image 20260704180400.png",
+    "_attachments/Pasted image 20260704175404.png",
+    "_attachments/Pasted image 20260704175333.png",
+    "_attachments/Pasted image 20260704175318.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

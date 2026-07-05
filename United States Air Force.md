@@ -68,7 +68,7 @@ Inventories (Trying not to include retired inventories):
 - [[GBU-31]]: The 2,000-pound JDAM munition variant.
 - [[GBU-32]]: The 1,000-pound JDAM munition variant.
 - [[GBU-38]]: The 500-pound JDAM munition variant.
-- [[GBU-39B]] (Small Diameter Bomb; SDB): A 250-pound GPS-guided glide bomb that allows aircraft to carry more weapons per sortie.
+- [[GBU-39B Small Diameter Bomb]] (SDB): A 250-pound GPS-guided glide bomb that allows aircraft to carry more weapons per sortie.
 - [[GBU-43B Massive Ordnance Air Blast]] (MOAB): A very large conventional blast weapon delivered from cargo aircraft.
 - [[GBU-53B StormBreaker]] (Small Diameter Bomb II; SDB-II): A small precision glide weapon with multi-mode guidance for attacking targets in adverse weather.
 - [[GBU-54 Laser Joint Direct Attack Munition]]: Adds laser guidance to a JDAM-class weapon so that it can attack moving or relocatable targets.
@@ -101,6 +101,7 @@ Inventories (Trying not to include retired inventories):
 - [[RC-135U Combat Sent]]: A technical intelligence aircraft focused on collecting data about foreign radar and electronic systems.
 - [[RQ-11B Raven]]: A small, hand-launched unmanned aircraft used for short-range reconnaissance and surveillance.
 - [[RQ-170 Sentinel]]: A stealthy, unmanned reconnaissance aircraft with limited public detail.
+- [[RQ-180]] ("White Bat", "Shikaka"): Highly classified stealth reconnaissance drone; larger, more-advanced successor of RQ-170
 - [[RQ-20 Puma]]: Small unmanned aircraft for tactical ISR.
 - [[RQ-4 Global Hawk]]: A high-altitude, long-endurance unmanned aircraft used for wide-area intelligence, surveillance, and reconnaissance.
 - [[Scan Eagle]]: A small long-endurance unmanned aircraft used for ISR.

@@ -4,9 +4,18 @@ aliases:
   - Maven
   - Algorithmic Warfare Cross Functional Team
 ---
+Resources
+- Video: [Multi-Domain AI: The Future of Command and Control | CDAO at AIPCon 9](https://youtu.be/yrtDgoqWmgM?si=jjQFE3MGTJptG2qr)
+- Video: [Palantir's Al Targeting System Running the Iran War](https://youtu.be/CHLFl26p7Po?si=CxEoTXIwvFCvOOue)
+
 An AI-powered defense platform (primarily) developed by [[Palantir]] that integrates, analyzes, and acts on massive volumes of sensor and intelligence data for the U.S. military, serving as a core "command and control" ([[Command and Control|C2]]) system.
 
 Leverages computer vision and AI to identify targets and recommend actions, compressing the [[OODA Loop]] for military operators.
+
+
+
+![[Pasted image 20260704200646.png]]
+![[Pasted image 20260704200809.png]]
 
 
 
