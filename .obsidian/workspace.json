@@ -32,6 +32,198 @@
             }
           },
           {
+            "id": "b5b07d17f01d9b02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course of Action.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Course of Action"
+            }
+          },
+          {
+            "id": "6b14d17b4da40546",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diplomatic, Informational, Military, and Economic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Diplomatic, Informational, Military, and Economic"
+            }
+          },
+          {
+            "id": "14ef73c78894c5ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Air Tasking Order.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Air Tasking Order"
+            }
+          },
+          {
+            "id": "f4bb987de63fa348",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Small Multipurpose Equipment Transport.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Small Multipurpose Equipment Transport"
+            }
+          },
+          {
+            "id": "7666bb0be000999d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Security Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Security Strategy"
+            }
+          },
+          {
+            "id": "c71422c0425f5485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Department of Defense.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Department of Defense"
+            }
+          },
+          {
+            "id": "e2ce58174d7cd858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Office of the Director of National Intelligence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Office of the Director of National Intelligence"
+            }
+          },
+          {
+            "id": "133c94d98e740f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Security Council.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Security Council"
+            }
+          },
+          {
             "id": "fca5081248919048",
             "type": "leaf",
             "state": {
@@ -79,7 +271,8 @@
               "title": "Composite Tracking Network"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2219,9 +2412,23 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ab708b772c3df17d",
+  "active": "f4bb987de63fa348",
   "lastOpenFiles": [
+    "Unmanned Surface Vehicle.md",
     "Air Tasking Order.md",
+    "Unmanned Ground Vehicle.md",
+    "Small Multipurpose Equipment Transport.md",
+    "People's Liberation Army.md",
+    "United States Intelligence Community.md",
+    "_attachments/Pasted image 20260706002125.png",
+    "Diplomatic, Informational, Military, and Economic.md",
+    "_attachments/Pasted image 20260706000717.png",
+    "National Security Strategy.md",
+    "United States Department of Defense.md",
+    "Office of the Director of National Intelligence.md",
+    "National Security Council.md",
+    "Course of Action.md",
+    "Mission-Type Orders.md",
     "Non-Combatant Casualty Value.md",
     "Deconfliction.md",
     "Composite Tracking Network.md",
@@ -2235,18 +2442,6 @@
     "First Sergeant.md",
     "Master Sergeant.md",
     "Sergeant First Class.md",
-    "Staff Sergeant.md",
-    "Sergeant.md",
-    "Corporal.md",
-    "Specialist.md",
-    "Private First Class.md",
-    "Doctrine.md",
-    "Intelligence Preparation of the Operational Environment.md",
-    "Army Structure.md",
-    "Division.md",
-    "Second Lieutenant.md",
-    "Captain.md",
-    "First Lieutenant.md",
     "_attachments/Pasted image 20260705001110.png",
     "_attachments/Pasted image 20260704235254.png",
     "_attachments/Pasted image 20260704235252.png",
@@ -2255,8 +2450,6 @@
     "_attachments/Pasted image 20260704221743.png",
     "_attachments/Pasted image 20260704200809.png",
     "_attachments/Pasted image 20260704200646.png",
-    "_attachments/Pasted image 20260704195744.png",
-    "_attachments/Pasted image 20260704195213.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

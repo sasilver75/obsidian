@@ -19,6 +19,9 @@ PLA consists of four ==arms== (specialized branches providing specific capabilit
 - [[PLA Information Support Force]]
 - [[PLA Joint Logistics Support Force]]
 
+(You might also see reference to a [Strategic Support Force](https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Strategic_Support_Force); This existed 2015-2024, but was split into the Aerospace Force, Cyberspace Force, and Information Support Force).
+
+
 ![[Pasted image 20260705001110.png]]
 
 The five [theater commands](https://en.wikipedia.org/wiki/Theater_command) are:

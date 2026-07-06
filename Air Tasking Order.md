@@ -16,6 +16,9 @@ Still, [[Dynamic Targeting]], on-call aircraft, alert aircraft, retasking, and f
 
 
 
+# Relationship with a [[Course of Action]]
+- 
+
 
 
 

@@ -2,7 +2,8 @@
 aliases:
   - COA
 ---
-A proposed way to accomplish a mission. "Co-Uh"
+Pronounced "Co-Uh"
+A proposed way to accomplish a mission. 
 
 In the context of military logistics, a COA is a specific logistics support options that explains how forces will be sustained during an operation, usually covering things like:
 - How fuel, ammunition, food, water, and spare parts will move.
