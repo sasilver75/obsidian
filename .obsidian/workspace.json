@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Division.md",
+                "file": "Mission-Type Orders.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Division"
+              "title": "Mission-Type Orders"
             }
           },
           {
-            "id": "992d2dd739a2b555",
+            "id": "fca5081248919048",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private.md",
+                "file": "Deconfliction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Private"
+              "title": "Deconfliction"
             }
           },
           {
-            "id": "867867bee6f0b499",
+            "id": "754f76a0d68de078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private First Class.md",
+                "file": "Composite Tracking Network.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,299 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Private First Class"
-            }
-          },
-          {
-            "id": "0492a31ba7182946",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Specialist.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Specialist"
-            }
-          },
-          {
-            "id": "3b9fd276425cb945",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corporal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Corporal"
-            }
-          },
-          {
-            "id": "d0fcc76ecdf64a6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sergeant.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sergeant"
-            }
-          },
-          {
-            "id": "644767805ce591a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Staff Sergeant.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Staff Sergeant"
-            }
-          },
-          {
-            "id": "cc5e5526fc087e01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sergeant First Class.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sergeant First Class"
-            }
-          },
-          {
-            "id": "9cf1fa4a724e052d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Master Sergeant.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Master Sergeant"
-            }
-          },
-          {
-            "id": "9e44ffad4e3fe2b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "First Sergeant.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "First Sergeant"
-            }
-          },
-          {
-            "id": "727b85904b4f375f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sergeant MAjor.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sergeant MAjor"
-            }
-          },
-          {
-            "id": "788d8962ebcb2e7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command Sergeant Major.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Command Sergeant Major"
-            }
-          },
-          {
-            "id": "b7a0132a57361022",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sergeant Major of the Army.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sergeant Major of the Army"
-            }
-          },
-          {
-            "id": "5c93df948043193f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Warrant Officer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Warrant Officer"
-            }
-          },
-          {
-            "id": "9788ed8b78245842",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chief Warrant Officer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Chief Warrant Officer"
+              "title": "Composite Tracking Network"
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -2508,34 +2219,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9788ed8b78245842",
+  "active": "ab708b772c3df17d",
   "lastOpenFiles": [
-    "Second Lieutenant.md",
-    "Captain.md",
-    "First Lieutenant.md",
-    "Lieutenant Colonel.md",
-    "Major.md",
-    "Colonel.md",
-    "Brigadier General.md",
-    "Major General.md",
-    "Lieutenant General.md",
-    "General.md",
-    "Staff Sergeant.md",
-    "Sergeant.md",
-    "General of the Army.md",
+    "Air Tasking Order.md",
+    "Non-Combatant Casualty Value.md",
+    "Deconfliction.md",
+    "Composite Tracking Network.md",
+    "Offset Strategy.md",
+    "Private.md",
     "Chief Warrant Officer.md",
     "Warrant Officer.md",
     "Sergeant Major of the Army.md",
     "Command Sergeant Major.md",
-    "Sergeant MAjor.md",
+    "Sergeant Major.md",
     "First Sergeant.md",
     "Master Sergeant.md",
     "Sergeant First Class.md",
+    "Staff Sergeant.md",
+    "Sergeant.md",
     "Corporal.md",
     "Specialist.md",
     "Private First Class.md",
-    "Private.md",
+    "Doctrine.md",
+    "Intelligence Preparation of the Operational Environment.md",
+    "Army Structure.md",
     "Division.md",
+    "Second Lieutenant.md",
+    "Captain.md",
+    "First Lieutenant.md",
     "_attachments/Pasted image 20260705001110.png",
     "_attachments/Pasted image 20260704235254.png",
     "_attachments/Pasted image 20260704235252.png",

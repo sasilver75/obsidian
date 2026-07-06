@@ -23,5 +23,5 @@ Context:
 # ARSTRUC 2025-29
 - 
 
-# ARMY 2030
+# [[Army 2030]]
 - https://www.congress.gov/crs-product/IF11542 
