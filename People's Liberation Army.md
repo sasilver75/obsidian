@@ -52,6 +52,7 @@ China's Objectives:
 - 2049: Fully transform the people's armed forces into world-class forces.
 
 
+![[Pasted image 20260706185641.png]]
 
 
 

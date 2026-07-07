@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "People's Liberation Army.md",
+                "file": "Asymmetric Warfare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "People's Liberation Army"
+              "title": "Asymmetric Warfare"
+            }
+          },
+          {
+            "id": "668f507198011eb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Air Force.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Air Force"
+            }
+          },
+          {
+            "id": "2faa2ef125b45cc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Marine Expeditionary Brigade.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Marine Expeditionary Brigade"
+            }
+          },
+          {
+            "id": "14dcf2f05ef4cac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command, Control, Communicatinos, Computers, Intelligence, Surveillance, and Reconnaissance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Command, Control, Communicatinos, Computers, Intelligence, Surveillance, and Reconnaissance"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -2268,12 +2340,22 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f4bb987de63fa348",
+  "active": "2faa2ef125b45cc5",
   "lastOpenFiles": [
+    "Amphibious Readiness Group.md",
+    "United States Navy.md",
+    "Command, Control, Communicatinos, Computers, Intelligence, Surveillance, and Reconnaissance.md",
+    "Command, Control, Computers, Communications, Cyber, Intelligence, Surveillance, Reconnaissance.md",
+    "People's Liberation Army.md",
+    "_attachments/Pasted image 20260706185641.png",
+    "Unconventional Warfare.md",
+    "MQ-1B Predator.md",
+    "_attachments/Pasted image 20260706182727.png",
+    "United States Air Force.md",
+    "Asymmetric Warfare.md",
     "Neo4j.md",
     "Targeting.md",
     "Joint Targeting Cycle.md",
-    "Amphibious Readiness Group.md",
     "Untitled 4.md",
     "Table of Organization.md",
     "Order of Battle.md",
@@ -2289,14 +2371,6 @@
     "Hall-Effect Thruster.md",
     "Gridded Ion Thruster.md",
     "M58 Mine-Clearing Line Charge.md",
-    "Nx.md",
-    "United States Army Training and Doctrine Command.md",
-    "General Staff.md",
-    "Composite Tracking Network.md",
-    "Deconfliction.md",
-    "National Security Council.md",
-    "Office of the Director of National Intelligence.md",
-    "United States Department of Defense.md",
     "_attachments/Pasted image 20260706002125.png",
     "_attachments/Pasted image 20260706000717.png",
     "_attachments/Pasted image 20260705001110.png",
@@ -2304,8 +2378,6 @@
     "_attachments/Pasted image 20260704235252.png",
     "_attachments/Pasted image 20260704235251.png",
     "_attachments/Pasted image 20260704224745.png",
-    "_attachments/Pasted image 20260704221743.png",
-    "_attachments/Pasted image 20260704200809.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

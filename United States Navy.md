@@ -3,6 +3,18 @@ aliases:
   - USN
   - Navy
 ---
+
+The US Navy has seven active numbered fleets:
+- 2nd Fleet: Western North Atlantic Ocean
+- 3rd Fleet: Eastern Pacific Ocean
+- 4th Fleet: Southern Atlantic Ocean
+- 5th Fleet: Persian Gulf, Red Sea, and part of Indian Ocean
+- 6th Fleet: Eastern North Atlantic Ocean and Mediterranean
+- 7th Fleet: Western Pacific Ocean and Indian Ocean
+- 10th Fleet: Global
+
+
+
 ==US Navy Hull Classification Symbols==
 Major Combatants
 - CVN: [[Nuclear-powered Aircraft Carrier]]
