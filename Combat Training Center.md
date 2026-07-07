@@ -12,6 +12,5 @@ The US Army has three major "Dirt" CTCs:
 	- The premier crucible for heavy armored and [[Brigade Combat Team|Stryker Brigade Combat Team]]s in desert environments.
 - [[Joint Multinational Readiness Center]] (JMRC) in Hohenfels, Germany.
 	- The only CTC outside the US, focusing on interoperability with allied forces.
-
-Also:
-- [[Joint Pacific Multinational Readiness Center]] (JPMRC)
+Also, they have:
+- [[Joint Pacific Multinational Readiness Center]] (JPMRC) in Hawaii

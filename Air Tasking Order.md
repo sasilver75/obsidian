@@ -15,6 +15,9 @@ Still, [[Dynamic Targeting]], on-call aircraft, alert aircraft, retasking, and f
 - The ATO is best understood as the baseline plan for coordinated air operations, not as the whole execution reality. Dynamic targeting and subordinate initiative happen against that baseline.
 
 
+Q: Is this just an air force thing?
+A: No, it's a joint air operations product. The Air Operations Center/Joint Force Air Component Commander is frequently an Air Force comamnder, but the ATO can include air missions from multiple services.
+
 
 # Relationship with a [[Course of Action]]
 - 

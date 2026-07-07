@@ -8,6 +8,8 @@ Usually authoritative guidance, rather than a rigid script. The shared concepts/
 For example, fires doctrine explains how commanders prioritize targets, request fires, coordinate airspace, avoid fratricide, assign authorities, and assess effects.
 
 
+> "Doctrine assumes a relatively experienced staff, and what we see in reality is that the staffs don't have the experience through either training or execution to help identify friction points. In the context of CASEVAC, we don't understand the effects of the battalion casualty collection point being behind two creeks... We're decent with maneuver and fires, but struggle with anything in the sustainment enterprise in particular. There's a big experiential gap."
+
 
 
 # Fires Resources

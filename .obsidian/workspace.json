@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Marine Expeditionary Brigade.md",
+                "file": "Air Tasking Order.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Marine Expeditionary Brigade"
+              "title": "Air Tasking Order"
             }
           },
           {
-            "id": "14dcf2f05ef4cac6",
+            "id": "13c19c81e55e3c76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command, Control, Communicatinos, Computers, Intelligence, Surveillance, and Reconnaissance.md",
+                "file": "Wargame.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,11 +196,491 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Command, Control, Communicatinos, Computers, Intelligence, Surveillance, and Reconnaissance"
+              "title": "Wargame"
+            }
+          },
+          {
+            "id": "a46851e5beb45a87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AIM-260 JATM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AIM-260 JATM"
+            }
+          },
+          {
+            "id": "0e108b579996fb92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Special Access Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Special Access Program"
+            }
+          },
+          {
+            "id": "e1a18e6a74e28740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ramjet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ramjet"
+            }
+          },
+          {
+            "id": "2b19fead0bceb4f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scramjet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Scramjet"
+            }
+          },
+          {
+            "id": "94765a440f0575aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pacific Island Countries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Pacific Island Countries"
+            }
+          },
+          {
+            "id": "01e07143e405d883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pacific Island Countries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Pacific Island Countries"
+            }
+          },
+          {
+            "id": "37e9aeb1f3cf041e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Oceania.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Oceania"
+            }
+          },
+          {
+            "id": "c21ff62f4714deb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Australasia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Australasia"
+            }
+          },
+          {
+            "id": "00d3343c7fd9c7c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Air Naval Gunfire Liason Company.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Air Naval Gunfire Liason Company"
+            }
+          },
+          {
+            "id": "b6e28f8f3f3c9a54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fire Support Team.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fire Support Team"
+            }
+          },
+          {
+            "id": "9b54fa75bf2d0594",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fire Support Officer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fire Support Officer"
+            }
+          },
+          {
+            "id": "e6edf8e870cea17e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "China, Russia, Iran, and North Korea.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "China, Russia, Iran, and North Korea"
+            }
+          },
+          {
+            "id": "627c46a4388f84a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scramjet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Scramjet"
+            }
+          },
+          {
+            "id": "0290836df8e4d717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ramjet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ramjet"
+            }
+          },
+          {
+            "id": "043b7e9b9e19e933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Turbofan.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Turbofan"
+            }
+          },
+          {
+            "id": "7e54222a9d8a4c9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Turbofan.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Turbofan"
+            }
+          },
+          {
+            "id": "429c65796e0c3db0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Turbojet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Turbojet"
+            }
+          },
+          {
+            "id": "4e1f939205d11647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phillippines.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Phillippines"
+            }
+          },
+          {
+            "id": "e7f004a82e70be4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Military Exercise.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Military Exercise"
+            }
+          },
+          {
+            "id": "8cc633fd49876959",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Military Exercise.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Military Exercise"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -2340,44 +2820,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2faa2ef125b45cc5",
+  "active": "00d3343c7fd9c7c6",
   "lastOpenFiles": [
-    "Amphibious Readiness Group.md",
-    "United States Navy.md",
-    "Command, Control, Communicatinos, Computers, Intelligence, Surveillance, and Reconnaissance.md",
-    "Command, Control, Computers, Communications, Cyber, Intelligence, Surveillance, Reconnaissance.md",
-    "People's Liberation Army.md",
-    "_attachments/Pasted image 20260706185641.png",
-    "Unconventional Warfare.md",
-    "MQ-1B Predator.md",
-    "_attachments/Pasted image 20260706182727.png",
-    "United States Air Force.md",
-    "Asymmetric Warfare.md",
-    "Neo4j.md",
-    "Targeting.md",
-    "Joint Targeting Cycle.md",
-    "Untitled 4.md",
-    "Table of Organization.md",
-    "Order of Battle.md",
-    "Modified Combined Obstacle Overlay.md",
-    "_attachments/Pasted image 20260706161742.png",
-    "Intelligence Preparation of the Operational Environment.md",
-    "Intelligence.md",
-    "Mission-Type Orders.md",
-    "Course of Action.md",
-    "Air Tasking Order.md",
-    "Diplomatic, Informational, Military, and Economic.md",
-    "Pacing Threat.md",
-    "Hall-Effect Thruster.md",
-    "Gridded Ion Thruster.md",
-    "M58 Mine-Clearing Line Charge.md",
-    "_attachments/Pasted image 20260706002125.png",
-    "_attachments/Pasted image 20260706000717.png",
-    "_attachments/Pasted image 20260705001110.png",
-    "_attachments/Pasted image 20260704235254.png",
-    "_attachments/Pasted image 20260704235252.png",
-    "_attachments/Pasted image 20260704235251.png",
-    "_attachments/Pasted image 20260704224745.png",
+    "Pacific Island Forum.md",
+    "Fire Support Team.md",
+    "Fire Support Officer.md",
+    "Air Naval Gunfire Liason Company.md",
+    "Military Decision-Making Process.md",
+    "Pacific Island Countries.md",
+    "mddp.md",
+    "_attachments/Pasted image 20260707125755.png",
+    "_attachments/Pasted image 20260707125713.png",
+    "_attachments/Pasted image 20260707125049.png",
+    "Association of Southeast Asian Nations.md",
+    "_attachments/Pasted image 20260707124600.png",
+    "Australasia.md",
+    "Oceania.md",
+    "Micronesian Island Forum.md",
+    "China, Russia, Iran, and North Korea.md",
+    "Scramjet.md",
+    "_attachments/Pasted image 20260707123706.png",
+    "_attachments/Pasted image 20260707123528.png",
+    "Compact of Free Association.md",
+    "_attachments/Pasted image 20260707121553.png",
+    "_attachments/Pasted image 20260707120659.png",
+    "_attachments/Pasted image 20260707120644.png",
+    "_attachments/Pasted image 20260707120129.png",
+    "Synchronization Matrix.md",
+    "Doctrine.md",
+    "Turbofan.md",
+    "Wargame.md",
+    "Ramjet.md",
+    "Turbojet.md",
+    "Special Access Program.md",
+    "Phillippines.md",
+    "AIM-260 JATM.md",
+    "Multi-Domain Operations.md",
+    "AIM-120 AMRAAM.md",
+    "Defense Resources (Index).md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

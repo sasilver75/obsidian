@@ -27,3 +27,8 @@ Example:
 
 
 
+
+
+![[Pasted image 20260707103626.png]]
+
+![[Pasted image 20260707103641.png]]

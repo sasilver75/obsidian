@@ -1,0 +1,4 @@
+---
+aliases:
+  - Exercise Dynamic Mongoose
+---

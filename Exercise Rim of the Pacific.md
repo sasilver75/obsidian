@@ -1,6 +1,7 @@
 ---
 aliases:
   - RIMPAC
+  - Exercise RIMPAC
 ---
 https://en.wikipedia.org/wiki/RIMPAC
 
