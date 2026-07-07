@@ -4,7 +4,7 @@ aliases:
   - AirLand Battle
   - Active Defense
 ---
-WAS a major command of the US Army active from 1973 to 2025, charged with overseeing training of Army forces and the development of operational doctrine.
+WAS a major command of the US Army active from 1973 to 2025, charged with overseeing training of Army forces and the development of operational doctrine. "Replaced" with [[United States Army Training and Transformation Command|T2COM]] in 2025.
 - Operated 37 schools and centers at 27 locations, which included 1,304 courses and 108 language courses.
 - "An organization to design, develop, and build the Army."
 
@@ -19,7 +19,6 @@ Was one of the four major commands of the army:
 Instigated by what the US military saw happening during the Yom Kippur War.
 Its first chief was William DePuy.
 
-
 FM-100 Operations: "Active Defense"
 Second doctrine: "Airland Battle", rooted in the concept of Maneuver Warfare.
 - Far more aggressive, not a whole lot of withdrawing, etc. More about moving forward, violence of action, exploiting and destroying the enemy.
@@ -27,4 +26,7 @@ Second doctrine: "Airland Battle", rooted in the concept of Maneuver Warfare.
 
 
 
+
+TRADOC G2 was the intelligence directorate for [[United States Army Training and Doctrine Command|TRADOC]]; acts as the Army's primary authority on the Operational Environment (OE), analyzing real-world threats and creating the intelligence-validated scenarios used to train soldiers, educate leaders, and develop future military doctrine.
+- It is now T2COM G-2
 

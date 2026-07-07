@@ -8,7 +8,10 @@ US Army training facilities designed to stress test units.
 The US Army has three major "Dirt" CTCs:
 - [[Joint Readiness Training Center]] (JRTC) in Fort Polk, LA
 	- Primarily trains [[Brigade Combat Team|Infantry Brigade Combat Team]]s, airborne, air assault, and special operations units in complex environments.
-- National Training Center in Fort Irwin, CA
+- [[National Training Center]] (NTC) in Fort Irwin, CA
 	- The premier crucible for heavy armored and [[Brigade Combat Team|Stryker Brigade Combat Team]]s in desert environments.
-- Joint Multinational Readiness Center (JMRC) in Hohenfels, Germany.
+- [[Joint Multinational Readiness Center]] (JMRC) in Hohenfels, Germany.
 	- The only CTC outside the US, focusing on interoperability with allied forces.
+
+Also:
+- [[Joint Pacific Multinational Readiness Center]] (JPMRC)

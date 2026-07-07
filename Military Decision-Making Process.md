@@ -2,7 +2,7 @@
 aliases:
   - MDMP
 ---
-A structured, seven-step analytical planning methodology used by commanders and staff to understand a situation, develop potential [[Course of Action]]s (COAs), and produce executional [[Operational Plan]]s (OPLANs) and [[Operational Order]]s (OPORDs).
+The [[United States Army|Army]]'s structured, seven-step analytical planning methodology used by commanders and staff to understand a situation, develop potential [[Course of Action]]s (COAs), and produce executional [[Operational Plan]]s (OPLANs) and [[Operational Order]]s (OPORDs).
 
 
 1. Receipt of Mission

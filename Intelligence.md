@@ -39,3 +39,4 @@ The [[Intelligence|Common Intelligence Picture]] (shared, fused view of intellig
 - Wisdom
 
 
+

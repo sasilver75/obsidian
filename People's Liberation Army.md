@@ -2,6 +2,9 @@
 aliases:
   - PLA
 ---
+Resources not yet processed:
+- https://oe.t2com.army.mil/china-landing-zone-how-china-fights/ 
+
 
 The Chinese Communist Party (CCP)'s military wing. It is controlled by the party, not the state. It is led by the Central Military Commission (CMC), with its chairman acting as Commander-in-Chief.
 The PLA's primary mission is the defense of the party and its interests. The PLA is the guarantor of the party's survival and rule, and the party prioritizes maintaining control and loyalty of the PLA. Since 1989, the CCP General Secretary has also been the CMC chairman, acting as Commander-in-Chief.
@@ -38,6 +41,17 @@ Under each theater command (led by a military commander and an equally-ranked po
 
 Relevant Documents:
 - [2025 US DoD Annual Report to Congress on Military and Security Developments involving the PRC](https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF)
-- 
+
+
+China's Objectives:
+- 2027: Accelerate the integrated development of mechanization, informatization, and intelligentization, while boosting the speed of modernization in military theories, organizations, personnel, and weapons and equipment.
+	- Strategic decisive victory:  Ability to credibly prevail in a conflict at acceptable costs (Taiwan)
+	- Strategic counterbalance: Build up of means of strategic deterrence (including nuclear) to deter or restrain US military involvement. A means by which the weak offsets the advantages of the strong.
+	- Strategic deterrence and control: The ability to have the force capacity to limit horizontal escalation or dissuade other states from taking opportunistic actions.
+- 2035: Comprehensively advance the modernization of military theory, organizational structure, military personnel, and weaponry and equipment in step with the modernization of the country and basically complete the modernization of national defense and the military.
+- 2049: Fully transform the people's armed forces into world-class forces.
+
+
+
 
 

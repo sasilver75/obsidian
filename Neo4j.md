@@ -2,6 +2,14 @@
 aliases:
   - Cypher
 ---
+Todo:
+- Look at PRotege Plugin for ontologies
+- https://www.reddit.com/r/semanticweb/comments/1hhgnpw/a_good_resource_to_learn_about_ontologies_from/ 
+- https://www.reddit.com/r/OntologyEngineering/
+- https://www.reddit.com/r/semanticweb/comments/1s011z4/is_learning_ontology_development_still_worth_it/
+- 
+
+
 A [[Graph Database]] system designed to store and query data as nodes, relationships, and properties, instead of primarily as rows and tables. For data where the connections are as important as the individual records.
 - Neo4j is not “better than SQL databases” in general. It is better for certain graph-shaped workloads. A relational database is often still the better default for tabular business records, aggregations, reporting, strict normalized schemas, and workloads where relationships are simple or shallow.
 

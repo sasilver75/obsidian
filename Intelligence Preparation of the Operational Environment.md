@@ -1,6 +1,8 @@
 ---
 aliases:
   - IPOE
+  - Intelligence Preparation of the Battelfield
+  - IPB
 ---
 In an intelligence context, refers to the systematic, continuous process of analyzing the environment, adversary, and terrain to assist commanders in decision-making and planning operations.
 
@@ -11,6 +13,9 @@ In an intelligence context, refers to the systematic, continuous process of anal
 
 
 > "Stop calling it the Intel Prep of the OE and call it the Staff Prep of the OE. Otherwise, the rest of the staff will treat the S2 like the library with all the answers." - Random youtube comment
+
+(Aside: IPOE is the broader joint term, while IPB is the more traditional Army-specific term; means the same thing)
+
 
 
 

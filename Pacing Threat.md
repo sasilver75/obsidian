@@ -4,7 +4,17 @@ aliases:
   - Near-Peer
 ---
 
-Most commonly defined as China, whose rapidly expanding military, econmic
+Most commonly defined as China.
+
+
+
+
+
+
+
+
+
+
 
 
 
