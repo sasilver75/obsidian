@@ -7,6 +7,10 @@ Resources:
 - Site: [US Air Force Fact Sheets](https://www.af.mil/About-Us/Fact-Sheets/)
 
 
+Programs:
+- [[Family of Affordable Mass Munitions]]
+
+
 Inventories (Trying not to include retired inventories):
 - [[A-10C Thunderbolt II]]: A "survivable" CAS aircraft built around the GAU-8 30mm autocannon.
 - [[AC-130J Ghostrider]]: AFSOC gunship providing precision air-to-ground fires.

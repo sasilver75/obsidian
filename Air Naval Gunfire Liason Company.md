@@ -1,6 +1,10 @@
 ---
 aliases:
   - ANGLICO
+  - Supporting Arms Liaison Team
+  - SALT
+  - Firepower Control Team
+  - FCT
 ---
 https://en.wikipedia.org/wiki/Air_Naval_Gunfire_Liaison_Company
 
@@ -31,6 +35,37 @@ Typical Functions:
   - The battalion needs naval gunfire from a U.S. destroyer and close air support from U.S. aircraft.
 >  - The battalion does not have the right radios, procedures, terminal attack controllers, or fire-support coordination expertise.
   - An ANGLICO team embeds with the battalion and coordinates the fires.
+
+Hierarchy:
+```
+ANGLICO
+  ├── Headquarters section / headquarters platoon
+  ├── Brigade air-naval gunfire platoons
+  │   ├── Platoon headquarters element
+  │   ├── Supporting Arms Liaison Team (SALT)
+  │   │   ├── SALT headquarters element
+  │   │   ├── Firepower Control Team (FCT)
+  │   │   └── Firepower Control Team (FCT)
+  │   └── Supporting Arms Liaison Team (SALT)
+  │       ├── SALT headquarters element
+  │       ├── Firepower Control Team (FCT)
+  │       └── Firepower Control Team (FCT)
+```
+- Headquarters section / headquarters platoon: Supports [[Division]]-level headquarters; Senior Marine fires liaison to the supported force/MAGTF.
+- Brigade platoon: Supports [[Brigade]] or [[Regiment]]-sized force; Provides a fires liasion package to larger maneuver formation.
+- ==Supporting Arms Liaison Team (SALT)==: Supports [[Battalion]]-sized force; More coordination-heavy; helps the battalion think through fires, timing, clearance, requests, and integration with the battalion scheme of maneuver.
+- ==Firepower Control Team (FCT):== Supports [[Company]]-sized force; More forward-control heavy, the small team closer to the tactical edge that can help control CAS, naval surface fire support, artillery, etc.
+
+
+
+
+
+
+
+
+
+
+
 
 
 

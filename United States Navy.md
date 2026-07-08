@@ -226,6 +226,9 @@ Unmanned/Future/Programmatic
 - Next-Generation Jammer
 - Virginia Payload Module (VPM)
 - Integrated Combat System / Aegis modernization
+- [[Low-Cost Uncrewed Combat Attack System|LUCAS]]
+
+
 
 
 
