@@ -16,11 +16,12 @@ Still, [[Dynamic Targeting]], on-call aircraft, alert aircraft, retasking, and f
 
 
 Q: Is this just an air force thing?
-A: No, it's a joint air operations product. The Air Operations Center/Joint Force Air Component Commander is frequently an Air Force comamnder, but the ATO can include air missions from multiple services.
+A: No, it's a joint air operations product. The Air Operations Center/Joint Force Air Component Commander is frequently an Air Force commander, but the ATO can include air missions from multiple services.
 
 
 # Relationship with a [[Course of Action]]
-- 
+- A COA is not an order yet; it is an option being developed, tested, compared, and approved. 
+- After the commander selects a COA, the air component may publish an Air Tasking Order that converts the air part of the plan into assigned missions: sorties, call signs, targets, or mission areas, times, control agencies, refueling, and other instructions. The ATO is closer to an "order" than a COA; it tasks air capabilities for execution.
 
 
 

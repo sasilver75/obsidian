@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d0e9dca0e10abb7e",
+        "id": "83c053cae86ee04b",
         "type": "tabs",
         "children": [
           {
-            "id": "87965cf77048b749",
+            "id": "8ac9ed3a1e8d4a5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defense Procurement.md",
+                "file": "Joint Targeting Cycle.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Defense Procurement"
+              "title": "Joint Targeting Cycle"
             }
           },
           {
-            "id": "4b78ff9bdfc3ba5d",
+            "id": "a816b8a0bd376399",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drone Dominance Program.md",
+                "file": "Air Operations Directive.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Drone Dominance Program"
+              "title": "Air Operations Directive"
             }
           },
           {
-            "id": "379cad4298132a29",
+            "id": "9a31ba66db6e61d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Air Force.md",
+                "file": "Joint Force Air Component Commander.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,319 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Air Force"
+              "title": "Joint Force Air Component Commander"
+            }
+          },
+          {
+            "id": "f609b0cf2c99a751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Fires Element.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Fires Element"
+            }
+          },
+          {
+            "id": "37abb36b6bfa45e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Targeting Coordination Board.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Targeting Coordination Board"
+            }
+          },
+          {
+            "id": "753f2711b01a9fa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master Air Attack Plan.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Master Air Attack Plan"
+            }
+          },
+          {
+            "id": "b7106059ffdf4bd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Davidson Window.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Davidson Window"
+            }
+          },
+          {
+            "id": "4640b9337db25726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Air Tasking Cycle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Air Tasking Cycle"
+            }
+          },
+          {
+            "id": "3b6df8aa92460e58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Air Tasking Cycle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Air Tasking Cycle"
+            }
+          },
+          {
+            "id": "cf0b1cf03b56d24f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Target Development Nomination.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Target Development Nomination"
+            }
+          },
+          {
+            "id": "fd440c93dfb77a28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Integrated Prioritized Target List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Integrated Prioritized Target List"
+            }
+          },
+          {
+            "id": "08ed39c1add69c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "No-Strike List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "No-Strike List"
+            }
+          },
+          {
+            "id": "a8174120b3a5653b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Restricted Target List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Restricted Target List"
+            }
+          },
+          {
+            "id": "e72b7e986951f641",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Target List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Target List"
+            }
+          },
+          {
+            "id": "d307cc3ae2730a7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Candidate Target List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Candidate Target List"
+            }
+          },
+          {
+            "id": "d27ce578cde9d763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Target List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Target List"
             }
           }
         ]
@@ -2219,40 +2531,40 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "87965cf77048b749",
+  "active": "8ac9ed3a1e8d4a5a",
   "lastOpenFiles": [
-    "Replicator Program.md",
-    "United States Department of Defense.md",
-    "United States Navy.md",
-    "Defense Procurement.md",
-    "Family of Affordable Mass Munitions.md",
-    "Drone Dominance Program.md",
-    "United States Air Force.md",
-    "Low-Cost Uncrewed Combat Attack System.md",
-    "M3 Bradley.md",
+    "Air Operations Directive.md",
+    "Joint Targeting Cycle.md",
+    "Joint Force Air Component Commander.md",
+    "Joint Fires Element.md",
+    "Joint Targeting Coordination Board.md",
+    "Master Air Attack Plan.md",
+    "Battle Rhythm.md",
+    "Davidson Window.md",
+    "Air Tasking Cycle.md",
+    "Target Development Nomination.md",
+    "Joint Integrated Prioritized Target List.md",
+    "No-Strike List.md",
+    "People's Liberation Army.md",
+    "Joint Target List.md",
+    "Candidate Target List.md",
+    "Restricted Target List.md",
+    "PLA Air Force.md",
+    "Air Tasking Order.md",
+    "Course of Action.md",
+    "Weaponeering.md",
+    "Find, Fix, Track, Target, Engage, Assess.md",
+    "Smack Technologies.md",
+    "Constellation-Class Frigate.md",
+    "Area of Interest.md",
+    "AIM-120 AMRAAM.md",
+    "AGM-88G AARGM-ER.md",
     "_attachments/Pasted image 20260707181321.png",
-    "M2 Bradley.md",
     "_attachments/Pasted image 20260707181258.png",
-    "Fundamental Inputs to Capability.md",
-    "Untitled 5.md",
-    "M1E3 Abrams.md",
     "_attachments/Pasted image 20260707173629.png",
-    "United States Army.md",
-    "M1A2 Abrams.md",
     "_attachments/Pasted image 20260707173501.png",
-    "XM30 Mechanized Infantry Combat Vehicle.md",
-    "M7 BFIST.md",
-    "BGM-71 TOW.md",
-    "Organization for Economic Cooperation and Development.md",
-    "Comprehensive and Progressive Agreement for Trans-Pacific Partnership.md",
-    "Blue Dot Network.md",
-    "Indo-Pacific Economic Framework.md",
     "_attachments/Pasted image 20260707173316.png",
     "_attachments/Pasted image 20260707173133.png",
-    "United States Marine Corps.md",
-    "Intelligence Preparation of the Operational Environment.md",
-    "Trans-Pacific Partnership.md",
-    "Senkaku Islands.md",
     "_attachments/Pasted image 20260707142718.png",
     "_attachments/Pasted image 20260707142648.png",
     "_attachments/Pasted image 20260707142240.png",
