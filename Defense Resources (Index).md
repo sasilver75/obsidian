@@ -46,6 +46,7 @@ Youtube Channels
 - [RedEffect](https://www.youtube.com/@RedEffectChannel/videos), Tank Nerds
 - [HISutton](https://www.youtube.com/@HISuttonCovertShores/videos), Submarines and more
 - [Sandboxx](https://www.youtube.com/@SandboxxApp/videos)
+- [The Ops Center by Mike Solyom](https://www.youtube.com/@TheOpsCenterByMikeSolyom)
 
 
 Individuals

@@ -10,11 +10,23 @@ The Chinese Communist Party (CCP)'s military wing. It is controlled by the party
 The PLA's primary mission is the defense of the party and its interests. The PLA is the guarantor of the party's survival and rule, and the party prioritizes maintaining control and loyalty of the PLA. Since 1989, the CCP General Secretary has also been the CMC chairman, acting as Commander-in-Chief.
 
 
-PLA consists of four ==services==:
+PLA consists of four ==services== (+ their branches):
 - [[PLA Ground Force]] (PLAGF)
 - [[PLA Navy]] (PLAN)
+	- PLAN Surface Force
+	- PLAN Submarine Force
+	- PLAN Coastal Defense Force
+	- PLAN Marine Crops
+	- PLAN Air Force (PLANAF)
 - [[PLA Air Force]] (PLAAF)
+	- Aviation Force
+	- Airborne Force Branch
+	- Ground-to Air Missile Force
+	- Radar Forces
+	- Electronic Countermeasures Branch
+	- Communication Corps
 - [[PLA Rocket Force]] (PLARF)
+	- 
 
 PLA consists of four ==arms== (specialized branches providing specific capabilities to the larger services):
 - [[PLA Aerospace Force]]

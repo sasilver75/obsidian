@@ -20,43 +20,47 @@ Inventory:
 
 
 Fighters:
-- J-10C
-- J-11B/BG
-- J-16
-- J-16D
-- J-20
-- Su-30MKK
-- Su-35S
+- [[J-10 Menglong]]
+- [[J-11 Yinlong]]
+- [[J-15 Feisha]]
+- [[J-16 Qianlong]]
+- [[J-16D]]
+- [[J-20 Weilong]]
+- [[Su-30MKK]]
+- [[Su-35]]
+- [[J-35]]
 
 Transport/Tanker:
-- Y-20
-- Y-20U/YU-20
-- IL-76
-- IL-78
+- [[Y-20 Kunpeng]]
+- [[YY-20]]
+- [[IL-76]]
+- [[IL-78]]
+- [[Y-9]]
 
 UAS
-- GJ-1 Wing Loong family
-- GJ-2
-- WZ-7
-- WZ-8
+- [[GJ-1 Wing Loong 1]]
+- [[GJ-2 Wing Loong 2]]
+- [[WZ-7 Soaring Dragon]]
+- [[WZ-8]]
 
 Air Defense
-- HQ-9/HQ-9B
-- HQ-22
-- HQ-19
-- S-300/SA-20
-- S-400/SA-21
+- [[HQ-9]]
+- [[HQ-22]]
+- [[HQ-19]]
+- [[S-300]]
+- [[S-400 Triumf]]
 
 Air to Air
-- PL-10
-- PL-12
-- PL-15
-- Pl-17
+- [[PL-10]]
+- [[PL-12]]
+- [[PL-15]]
+- [[PL-16]]
+- [[PL-17]]
+- [[PL-21]]
 
 Strike weapons
-- KD-20/CJ-20
-- YJ-12
-- Possible H-6N air-launched ballistic missile, precision-guided bombs where sources are solid
+- [[KD-20]]
+- [[YJ-12]]
 
 
 

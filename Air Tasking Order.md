@@ -3,7 +3,7 @@ aliases:
   - ATO
   - ATO Tasking
 ---
-A highly centralized, rigid, and detailed planning cycle over a defined period, commonly a 24-72 period, used to sequence and direct combat air operations.
+A highly centralized, rigid, and detailed planning cycle over a defined period, commonly a 24 hour period (but up to 72h), used to sequence and direct combat air operations.
 
 In contrast, [[Mission-Type Orders]] Tasking is a decentralized approach where commanders dictate *what* needs to be accomplished, but give subordinate units the autonomy to decide *how* to do it.
 
