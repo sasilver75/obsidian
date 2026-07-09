@@ -22,13 +22,19 @@ Inventory:
 Fighters:
 - [[J-10 Menglong]]
 - [[J-11 Yinlong]]
-- [[J-15 Feisha]]
+- [[J-15 Feisha]] (This might be for the PLANAF carriers)
 - [[J-16 Qianlong]]
 - [[J-16D]]
 - [[J-20 Weilong]]
 - [[Su-30MKK]]
 - [[Su-35]]
-- [[J-35]]
+- [[J-35]] (There's also a PLANAF variant for carriers)
+- [[JH-XX]]
+
+Bombers
+- [[H-6]] (H-6K, H6N)
+- JH-7/JH-7A
+- [[H-20]]
 
 Transport/Tanker:
 - [[Y-20 Kunpeng]]
@@ -36,6 +42,27 @@ Transport/Tanker:
 - [[IL-76]]
 - [[IL-78]]
 - [[Y-9]]
+- H-6U/H-6DU
+
+Airborne Early Warning and Control
+- KJ-500
+- KJ-200
+- KJ-2000
+
+Electronic Warfare/Signals
+Y-8/Y-9 special mission variants
+TU-154 SIGINT/ELINT
+J-16D
+
+Reconnaissance/ISR
+- JZ-8
+- Y-8/Y-9 variants
+
+Helicopters
+- Z-8
+- Z-9
+- Z-20
+- Mi-17/171
 
 UAS
 - [[GJ-1 Wing Loong 1]]
@@ -49,8 +76,12 @@ Air Defense
 - [[HQ-19]]
 - [[S-300]]
 - [[S-400 Triumf]]
+- HQ-6
+- HQ-11
+- HQ-12
+- HQ-26
 
-Air to Air
+Air to Air Munitions
 - [[PL-10]]
 - [[PL-12]]
 - [[PL-15]]
@@ -61,6 +92,15 @@ Air to Air
 Strike weapons
 - [[KD-20]]
 - [[YJ-12]]
+- [[YJ-21]]
+- [[CJ-10]]
+
+Nuclear
+- [[JL-1]]
+
+
+To process: [LS PGB](https://en.wikipedia.org/wiki/LS_PGB#CS/BBC5) and [TG BGP](https://en.wikipedia.org/wiki/TG_PGB)
+
 
 
 

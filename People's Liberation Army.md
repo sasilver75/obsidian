@@ -17,7 +17,7 @@ PLA consists of four ==services== (+ their branches):
 	- PLAN Submarine Force
 	- PLAN Coastal Defense Force
 	- PLAN Marine Crops
-	- PLAN Air Force (PLANAF)
+	- PLAN Air Force ([[PLAN Air Force|PLANAF]])
 - [[PLA Air Force]] (PLAAF)
 	- Aviation Force
 	- Airborne Force Branch

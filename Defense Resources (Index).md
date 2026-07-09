@@ -37,6 +37,8 @@ Podcasts (Video or Audio)
 - [JRTC's The Crucible](https://www.youtube.com/@TheCrucible-TheJRTCExperience) podcast
 - [Drone Ultimatum](https://www.youtube.com/@thedroneultimatum) podcast
 - [Rebuilding the Fleet](https://www.youtube.com/@RebuildingTheFleet) podcast
+- Southeast Asia Radio
+- 
 
 
 Youtube Channels

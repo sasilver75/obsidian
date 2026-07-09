@@ -11,6 +11,13 @@ https://en.wikipedia.org/wiki/People's_Liberation_Army_Navy
 
 The navy also includes a 25,000 strong ==Marine Corps==, organized into seven brigades, as well as a 18,000 strong ==Naval Aviation Force== operating several hundred attack helicopters and fixed-wing aircraft.
 
+Has branches:
+- PLAN Surface Force
+- PLAN Submarine Force
+- PLAN Coastal Defense Force
+- PLAN Marine Crops
+- [[PLAN Air Force]] (PLANAF)
+
 
 
 

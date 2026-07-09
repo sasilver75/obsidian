@@ -10,6 +10,7 @@ aliases:
 
 
 https://en.wikipedia.org/wiki/South_China_Sea
+https://www.youtube.com/live/nvjq2keAPaQ?si=d4TdzlwjA0cgHcf-
 
 
 Bounded in the north by South China, in the west by the Indochinese Peninsula, in the east by Taiwan and northwestern Phillippines (Luzon, Mindoro, Palawan), and in the south by Borenu, eastern Sumatra, and the Bangka Belitung Islands.
