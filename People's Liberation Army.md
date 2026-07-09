@@ -12,6 +12,7 @@ The PLA's primary mission is the defense of the party and its interests. The PLA
 
 PLA consists of four ==services== (+ their branches):
 - [[PLA Ground Force]] (PLAGF)
+	- 
 - [[PLA Navy]] (PLAN)
 	- PLAN Surface Force
 	- PLAN Submarine Force
@@ -26,7 +27,6 @@ PLA consists of four ==services== (+ their branches):
 	- Electronic Countermeasures Branch
 	- Communication Corps
 - [[PLA Rocket Force]] (PLARF)
-	- 
 
 PLA consists of four ==arms== (specialized branches providing specific capabilities to the larger services):
 - [[PLA Aerospace Force]]

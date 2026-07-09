@@ -42,7 +42,8 @@ Transport/Tanker:
 - [[IL-76]]
 - [[IL-78]]
 - [[Y-9]]
-- H-6U/H-6DU
+- H-6U/HY-6U 
+- H-6DU/HY-6DU
 
 Airborne Early Warning and Control
 - KJ-500
