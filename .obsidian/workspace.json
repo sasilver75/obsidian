@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ac9ed3a1e8d4a5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Targeting Cycle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Targeting Cycle"
-            }
-          },
-          {
             "id": "a816b8a0bd376399",
             "type": "leaf",
             "state": {
@@ -2531,10 +2507,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8ac9ed3a1e8d4a5a",
+  "active": "a816b8a0bd376399",
   "lastOpenFiles": [
-    "Air Operations Directive.md",
     "Joint Targeting Cycle.md",
+    "Air Operations Directive.md",
     "Joint Force Air Component Commander.md",
     "Joint Fires Element.md",
     "Joint Targeting Coordination Board.md",
