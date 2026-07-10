@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combined Joint All-Domain Command and Control.md",
+                "file": "National Defense Budget Function 050.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Combined Joint All-Domain Command and Control"
+              "title": "National Defense Budget Function 050"
             }
           },
           {
-            "id": "973d751a5d0c01c3",
+            "id": "91b58c17b85a4157",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DF-21.md",
+                "file": "Planning, Programming, Budgeting, and Execution.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DF-21"
+              "title": "Planning, Programming, Budgeting, and Execution"
             }
           },
           {
-            "id": "8367c07305c872ee",
+            "id": "9f5b9711fcc2ff4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Radar Horizon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Radar Horizon"
+            }
+          },
+          {
+            "id": "e788bbff197bfa10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nap-of-the-Earth.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nap-of-the-Earth"
+            }
+          },
+          {
+            "id": "2001c8fae9c6d2b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cruise Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cruise Missile"
+            }
+          },
+          {
+            "id": "17666e0e2c520d63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cruise Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cruise Missile"
+            }
+          },
+          {
+            "id": "79ab561b3fe7a2f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ballistic Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ballistic Missile"
+            }
+          },
+          {
+            "id": "96e3444075468fdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Short-Range Ballistic Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Short-Range Ballistic Missile"
+            }
+          },
+          {
+            "id": "ffd42d93577ebc2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,12 +224,12 @@
             }
           },
           {
-            "id": "9f5b9711fcc2ff4c",
+            "id": "b6c23e9c2573f40a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PLAN Air Force.md",
+                "file": "Intermediate-Range Ballistic Missiles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,10 +244,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PLAN Air Force"
+              "title": "Intermediate-Range Ballistic Missiles"
+            }
+          },
+          {
+            "id": "8607347075cdd4a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intercontinental Ballistic Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Intercontinental Ballistic Missile"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -2243,44 +2412,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "65f4cebec31bd8b6",
+  "active": "79ab561b3fe7a2f0",
   "lastOpenFiles": [
-    "Integrated Air Defense.md",
-    "People's Liberation Army.md",
-    "Indefinite Delivery, Indefinite Quantity.md",
-    "PLA Air Force.md",
-    "DF-21.md",
-    "Last Supper.md",
-    "Military-Industrial Complex.md",
-    "_attachments/Pasted image 20260709144044.png",
-    "H-6.md",
+    "Precision Strike Missile.md",
+    "Cruise Missile.md",
+    "Short-Range Ballistic Missile.md",
+    "Radar Horizon.md",
     "Medium-Range Ballistic Missile.md",
-    "YJ-21.md",
-    "CJ-10.md",
-    "Defense Resources (Index).md",
-    "South China Sea.md",
-    "YJ-6.md",
-    "_attachments/Pasted image 20260709131416.png",
+    "Intermediate-Range Ballistic Missiles.md",
+    "Intercontinental Ballistic Missile.md",
+    "National Defense Budget Function 050.md",
+    "DF-21.md",
+    "Terrain Contour Matching.md",
+    "_attachments/Pasted image 20260709200556.png",
+    "Nap-of-the-Earth.md",
+    "_attachments/Pasted image 20260709195931.png",
+    "_attachments/Pasted image 20260709195311.png",
     "PLAN Air Force.md",
-    "Y-20 Kunpeng.md",
-    "PLA Navy.md",
+    "Radar Shadow.md",
+    "Ballistic Missile.md",
+    "_attachments/Pasted image 20260709192616.png",
+    "Defense Appropriates Act.md",
+    "People's Liberation Army.md",
+    "National Defense Authorization Act.md",
+    "Future Years Defense Program.md",
+    "Program Objective Memorandum.md",
+    "Planning, Programming, Budgeting, and Execution.md",
+    "Fiscal Year.md",
     "PLA Ground Force.md",
-    "Air Assault.md",
-    "H-20.md",
-    "JH-XX.md",
-    "PLA Rocket Force.md",
-    "JL-1.md",
-    "PL-15.md",
-    "S-400 Triumf.md",
-    "S-300.md",
+    "Combined Joint All-Domain Command and Control.md",
+    "United States Department of Defense.md",
+    "United States Space Force.md",
+    "Integrated Air Defense.md",
+    "_attachments/Pasted image 20260709144044.png",
+    "_attachments/Pasted image 20260709131416.png",
     "_attachments/Pasted image 20260708205543.png",
     "_attachments/Pasted image 20260708204838.png",
     "_attachments/Pasted image 20260708203241.png",
     "_attachments/Pasted image 20260707181321.png",
-    "_attachments/Pasted image 20260707181258.png",
-    "_attachments/Pasted image 20260707173629.png",
-    "_attachments/Pasted image 20260707173501.png",
-    "_attachments/Pasted image 20260707173316.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

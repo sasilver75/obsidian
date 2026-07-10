@@ -15,4 +15,8 @@ Pronounced: "Suh-Jadd C2", rhyming with "Muh Bad C2"
 
 # CJADC2: Combined Joint All-Domain Command and Control
 - "Combined" JADC2 simply adds allies and partners, not only US military services.
-- Historically, the [[United States Army|Army]], [[United States Navy|Navy]], [[United States Air Force|Air Force]], [[United States Marine Corps|Marine Corps]], [[Space Fro]]
+- Historically, the [[United States Army|Army]], [[United States Navy|Navy]], [[United States Air Force|Air Force]], [[United States Marine Corps|Marine Corps]], [[United States Space Force|Space Force]], intelligence agencies, and allies all built separate command-and-control stacks. JADC2 hopes to fix this by making data discoverable, usable, secure, and actionable across those boundaries.
+- The famous "any sensor, best shooter" idea is a simplification that captures the aspiration.
+
+
+
