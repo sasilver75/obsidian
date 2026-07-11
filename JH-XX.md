@@ -12,3 +12,5 @@ The second stealth bomber of China confirmed in existence by US intel community 
 In December 2024, social media photos suggested that Chengdu Aircraft Corporation (CAC) has publicly flown a prototype aircraft in Chengdu, tentatively designated as the "J-36" by military analysts.
 
 ==Not in service.==
+
+![[Pasted image 20260710011552.png]]

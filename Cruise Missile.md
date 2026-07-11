@@ -19,3 +19,5 @@ Cruise missiles use jet engines as the jet engines as their primary method of pr
 
 Cruise missiles can also mix their flight trajectory between high and low altitude in order to get the benefits of both. 
 
+Q: Again, how are cruise missiles different from some long-range air-to-ground missile?
+A: Cruise missiles are *jet-powered*, while the missile is likely rocket-powered. Typically the jet will have longer range.

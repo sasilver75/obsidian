@@ -70,6 +70,9 @@ UAS
 - [[GJ-2 Wing Loong 2]]
 - [[WZ-7 Soaring Dragon]]
 - [[WZ-8]]
+- [[CH-7]]
+- [[GJ-X]]
+- [[WZ-X]]
 
 Air Defense
 - [[HQ-9]]

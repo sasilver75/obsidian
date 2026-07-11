@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "83c053cae86ee04b",
+        "id": "82b97e54c1f1ff06",
         "type": "tabs",
         "children": [
           {
-            "id": "65f4cebec31bd8b6",
+            "id": "af1817f9cd8cd58e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "National Defense Budget Function 050.md",
+                "file": "Maritime Choke Points.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "National Defense Budget Function 050"
+              "title": "Maritime Choke Points"
             }
           },
           {
-            "id": "91b58c17b85a4157",
+            "id": "ff3cb0142feae28a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning, Programming, Budgeting, and Execution.md",
+                "file": "ISR Synchronization Matrix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Planning, Programming, Budgeting, and Execution"
+              "title": "ISR Synchronization Matrix"
             }
           },
           {
-            "id": "9f5b9711fcc2ff4c",
+            "id": "f759a250430e9bfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Radar Horizon.md",
+                "file": "Maritime Choke Points.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,203 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Radar Horizon"
-            }
-          },
-          {
-            "id": "e788bbff197bfa10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nap-of-the-Earth.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nap-of-the-Earth"
-            }
-          },
-          {
-            "id": "2001c8fae9c6d2b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cruise Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cruise Missile"
-            }
-          },
-          {
-            "id": "17666e0e2c520d63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cruise Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cruise Missile"
-            }
-          },
-          {
-            "id": "79ab561b3fe7a2f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ballistic Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ballistic Missile"
-            }
-          },
-          {
-            "id": "96e3444075468fdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Short-Range Ballistic Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Short-Range Ballistic Missile"
-            }
-          },
-          {
-            "id": "ffd42d93577ebc2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Medium-Range Ballistic Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Medium-Range Ballistic Missile"
-            }
-          },
-          {
-            "id": "b6c23e9c2573f40a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intermediate-Range Ballistic Missiles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Intermediate-Range Ballistic Missiles"
-            }
-          },
-          {
-            "id": "8607347075cdd4a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intercontinental Ballistic Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Intercontinental Ballistic Missile"
+              "title": "Maritime Choke Points"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2412,44 +2220,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "79ab561b3fe7a2f0",
+  "active": "f759a250430e9bfe",
   "lastOpenFiles": [
-    "Precision Strike Missile.md",
-    "Cruise Missile.md",
-    "Short-Range Ballistic Missile.md",
-    "Radar Horizon.md",
-    "Medium-Range Ballistic Missile.md",
-    "Intermediate-Range Ballistic Missiles.md",
-    "Intercontinental Ballistic Missile.md",
+    "Three Warfares.md",
+    "ISR Synchronization Matrix.md",
+    "Maritime Choke Points.md",
     "National Defense Budget Function 050.md",
-    "DF-21.md",
-    "Terrain Contour Matching.md",
-    "_attachments/Pasted image 20260709200556.png",
-    "Nap-of-the-Earth.md",
-    "_attachments/Pasted image 20260709195931.png",
-    "_attachments/Pasted image 20260709195311.png",
-    "PLAN Air Force.md",
-    "Radar Shadow.md",
-    "Ballistic Missile.md",
-    "_attachments/Pasted image 20260709192616.png",
-    "Defense Appropriates Act.md",
-    "People's Liberation Army.md",
-    "National Defense Authorization Act.md",
-    "Future Years Defense Program.md",
-    "Program Objective Memorandum.md",
     "Planning, Programming, Budgeting, and Execution.md",
-    "Fiscal Year.md",
-    "PLA Ground Force.md",
-    "Combined Joint All-Domain Command and Control.md",
-    "United States Department of Defense.md",
-    "United States Space Force.md",
-    "Integrated Air Defense.md",
-    "_attachments/Pasted image 20260709144044.png",
-    "_attachments/Pasted image 20260709131416.png",
-    "_attachments/Pasted image 20260708205543.png",
-    "_attachments/Pasted image 20260708204838.png",
-    "_attachments/Pasted image 20260708203241.png",
-    "_attachments/Pasted image 20260707181321.png",
+    "Radar Horizon.md",
+    "Nap-of-the-Earth.md",
+    "Cruise Missile.md",
+    "Ballistic Missile.md",
+    "Hypersonic Weapon.md",
+    "Hypersonic Glide Vehicle.md",
+    "Reentry Vehicle.md",
+    "Multiple Independently Targetable Reentry Vehicle.md",
+    "B-52H Stratofortress.md",
+    "Hypersonic Attack Cruise Missile.md",
+    "YJ-19.md",
+    "CJ-1000.md",
+    "One-Way Attack Drone.md",
+    "Precision Strike Missile.md",
+    "Intercontinental Ballistic Missile.md",
+    "Intermediate-Range Ballistic Missile.md",
+    "Medium-Range Ballistic Missile.md",
+    "Short-Range Ballistic Missile.md",
+    "Circular Error Probable.md",
+    "Air-Launched Ballistic Missile.md",
+    "Shahed 136.md",
+    "_attachments/Pasted image 20260710013109.png",
+    "_attachments/Pasted image 20260710012116.png",
+    "_attachments/Pasted image 20260710011819.png",
+    "_attachments/Pasted image 20260710011552.png",
+    "_attachments/Pasted image 20260710011421.png",
+    "_attachments/Pasted image 20260710011415.png",
+    "_attachments/Pasted image 20260710010835.png",
+    "_attachments/Pasted image 20260710010746.png",
+    "_attachments/Pasted image 20260710010711.png",
+    "_attachments/Pasted image 20260710010652.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

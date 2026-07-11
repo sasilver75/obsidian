@@ -5,3 +5,8 @@ Air-launched ballistic missile with hypersonic glide vehicle
 
 https://en.wikipedia.org/wiki/AGM-183_ARRW
 
+
+
+![[Pasted image 20260710005224.png]]
+Being carried by a [[B-52H Stratofortress]]
+

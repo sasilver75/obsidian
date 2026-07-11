@@ -1,6 +1,9 @@
 ---
-excalidraw-plugin: ATACMS
+excalidraw-plugin:
+aliases:
+  - ATACMS
 ---
+Pron. "Ay-Tack-Ums"
 https://en.wikipedia.org/wiki/ATACMS
 
 

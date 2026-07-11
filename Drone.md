@@ -5,6 +5,11 @@ References:
 - Multi-Rotor: An aircraft that flies not by air traveling over wings, but by propellers forcing the air downwards. 
 	- Most common rotor type is a quadcopter (4), but there are also bicopters (2), tricopter (3), hexacopters (6), octocopters (8), etc.
 	- 
+
+
+
+Analog vs Digital: Analog ones tend to degrade linearly under EW (more static, too much static, etc.), while Digital ones tend to just cut off entirely.
+
 # FPV Drones
 
 
