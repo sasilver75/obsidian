@@ -8,6 +8,246 @@
         "type": "tabs",
         "children": [
           {
+            "id": "31e6fc8194e902c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-188 Rusty Dagger.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-188 Rusty Dagger"
+            }
+          },
+          {
+            "id": "41279b295646b67f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Air Force.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Air Force"
+            }
+          },
+          {
+            "id": "5b8bdcdc1a3a2f81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-84 Harpoon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-84 Harpoon"
+            }
+          },
+          {
+            "id": "e0548615bd05ad53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Standoff Munition.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Standoff Munition"
+            }
+          },
+          {
+            "id": "28f460552fbbcc52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Naval Strike Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Naval Strike Missile"
+            }
+          },
+          {
+            "id": "1e89dc561eff3914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raytheon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Raytheon"
+            }
+          },
+          {
+            "id": "d56610021a84d532",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Foreign Military Sale.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Foreign Military Sale"
+            }
+          },
+          {
+            "id": "66dc0db4df7417a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Family of Affordable Mass Munitions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Family of Affordable Mass Munitions"
+            }
+          },
+          {
+            "id": "67b491de27faff0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-190.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-190"
+            }
+          },
+          {
+            "id": "e83d5bc8a5416ae1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GHOST.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GHOST"
+            }
+          },
+          {
             "id": "c12384ce6543458b",
             "type": "leaf",
             "state": {
@@ -103,7 +343,8 @@
               "title": "Aegis Combat System"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2243,34 +2484,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c12384ce6543458b",
+  "active": "e0548615bd05ad53",
   "lastOpenFiles": [
+    "Standoff Munition.md",
+    "AGM-84 Harpoon.md",
+    "AGM-184.md",
+    "Naval Strike Missile.md",
+    "Raytheon.md",
+    "United States Air Force.md",
+    "Defense Security Cooperation Agency.md",
+    "Foreign Military Sale.md",
+    "AGM-188 Rusty Dagger.md",
+    "Family of Affordable Mass Munitions.md",
+    "AGM-190.md",
+    "GHOST.md",
+    "Zone 5.md",
+    "Low-Cost Containerized Missile.md",
     "Aegis Combat System.md",
     "Joint Capabilities Integration and Development System.md",
-    "aegis.md",
+    "Integrated Air Defense.md",
     "Intelligence, Surveillance, and Reconnaissance.md",
+    "Leidos.md",
+    "aegis.md",
     "Maritime Choke Points.md",
     "ISR Synchronization Matrix.md",
     "DOTMLPF-P.md",
-    "Integrated Air Defense.md",
     "Three Warfares.md",
     "National Defense Budget Function 050.md",
     "Planning, Programming, Budgeting, and Execution.md",
-    "Radar Horizon.md",
-    "Nap-of-the-Earth.md",
-    "Cruise Missile.md",
-    "Ballistic Missile.md",
-    "Hypersonic Weapon.md",
-    "Hypersonic Glide Vehicle.md",
-    "Reentry Vehicle.md",
-    "Multiple Independently Targetable Reentry Vehicle.md",
-    "B-52H Stratofortress.md",
-    "Hypersonic Attack Cruise Missile.md",
-    "YJ-19.md",
-    "CJ-1000.md",
-    "One-Way Attack Drone.md",
-    "Precision Strike Missile.md",
-    "Intercontinental Ballistic Missile.md",
     "_attachments/Pasted image 20260710013109.png",
     "_attachments/Pasted image 20260710012116.png",
     "_attachments/Pasted image 20260710011819.png",
