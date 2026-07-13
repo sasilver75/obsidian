@@ -119,7 +119,6 @@ Aircraft Designators
 - [[E-6B Mercury]]
 - [[P-8A Poseidon]]
 - [[MQ-4C Triton]]
-- [[MQ-25 Stringray]]
 - [[C-2A Greyhound]]
 - [[CV-22 Osprey|CMV-22B]] Osprey
 - [[MH-60R Seahawk]]
@@ -155,7 +154,7 @@ Weapons/Munitions
 - [[Mk 46 Torpedo]]
 - [[Mk 48 ADCAP Torpedo]]
 - [[Mk 54 Lightweight Torpedo]]
-- [[Quickstrike Naval Mines]]
+- [[Quickstrike Naval Mine]]
 - [[Hammerhead Mine]]
 - [[Mk 82]]
 - [[Mk 83]]

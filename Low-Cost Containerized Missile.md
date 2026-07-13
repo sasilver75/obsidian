@@ -10,7 +10,7 @@ The program aims to procure over 10,000 containerized strike systems from commer
 Pentagon has awarded framework agreements to:
 - [[Anduril]] for the [[Barracuda-500]] class
 - [[CoAspire]] for the [[GHOST]] missile
-- [[Leidos]] for the [[AGM-190]]
+- [[Leidos]] for the [[AGM-190 Black Arrow]]
 - [[Zone 5]] for the [[AGM-188 Rusty Dagger]]
 
 |Existing high-end missiles|LCCM-style missiles|

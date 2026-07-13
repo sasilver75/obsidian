@@ -16,3 +16,4 @@ Range ~250 miles
 [[GPS INS]] navigation, with emphasis on GPS-degraded resilience
 
 
+![[Pasted image 20260712222653.png]]

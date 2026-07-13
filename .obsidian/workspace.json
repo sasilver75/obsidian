@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31e6fc8194e902c4",
+            "id": "67b491de27faff0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGM-188 Rusty Dagger.md",
+                "file": "Joint Direct Attack Munition.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,11 +28,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AGM-188 Rusty Dagger"
+              "title": "Joint Direct Attack Munition"
             }
           },
           {
-            "id": "41279b295646b67f",
+            "id": "caa2260ee21da408",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quickstrike Naval Mine.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Quickstrike Naval Mine"
+            }
+          },
+          {
+            "id": "adac676bd6c0b16d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ramp Launch Tube.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ramp Launch Tube"
+            }
+          },
+          {
+            "id": "f586f6acb89e3d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-190 Black Arrow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-190 Black Arrow"
+            }
+          },
+          {
+            "id": "4cbd47968d005bc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GBU-69B.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GBU-69B"
+            }
+          },
+          {
+            "id": "e3028dd3b6a52e30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-114 Hellfire.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-114 Hellfire"
+            }
+          },
+          {
+            "id": "c7cfc2198a301c44",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,12 +176,12 @@
             }
           },
           {
-            "id": "5b8bdcdc1a3a2f81",
+            "id": "92076cf8ea25d8eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGM-84 Harpoon.md",
+                "file": "GBU-69B.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AGM-84 Harpoon"
+              "title": "GBU-69B"
             }
           },
           {
-            "id": "e0548615bd05ad53",
+            "id": "1d8a097131e32774",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standoff Munition.md",
+                "file": "GBU-69B.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,151 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Standoff Munition"
-            }
-          },
-          {
-            "id": "28f460552fbbcc52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naval Strike Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Naval Strike Missile"
-            }
-          },
-          {
-            "id": "1e89dc561eff3914",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Raytheon.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Raytheon"
-            }
-          },
-          {
-            "id": "d56610021a84d532",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Foreign Military Sale.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Foreign Military Sale"
-            }
-          },
-          {
-            "id": "66dc0db4df7417a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Family of Affordable Mass Munitions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Family of Affordable Mass Munitions"
-            }
-          },
-          {
-            "id": "67b491de27faff0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGM-190.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGM-190"
-            }
-          },
-          {
-            "id": "e83d5bc8a5416ae1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GHOST.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GHOST"
+              "title": "GBU-69B"
             }
           },
           {
@@ -342,9 +318,32 @@
               "icon": "lucide-file",
               "title": "Aegis Combat System"
             }
+          },
+          {
+            "id": "66dc0db4df7417a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Family of Affordable Mass Munitions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Family of Affordable Mass Munitions"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -376,7 +375,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "end tuple",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2417,8 +2416,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -2484,44 +2483,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e0548615bd05ad53",
+  "active": "67b491de27faff0d",
   "lastOpenFiles": [
-    "Standoff Munition.md",
-    "AGM-84 Harpoon.md",
-    "AGM-184.md",
-    "Naval Strike Missile.md",
-    "Raytheon.md",
-    "United States Air Force.md",
-    "Defense Security Cooperation Agency.md",
-    "Foreign Military Sale.md",
-    "AGM-188 Rusty Dagger.md",
+    "_attachments/Pasted image 20260713010849.png",
+    "_attachments/Pasted image 20260713010628.png",
+    "_attachments/Pasted image 20260713010532.png",
+    "_attachments/Pasted image 20260713010530.png",
+    "_attachments/Pasted image 20260713010516.png",
+    "Dragon Cart.md",
+    "Quickstrike Naval Mine.md",
+    "United States Navy.md",
+    "quickstriek.md",
+    "Joint Direct Attack Munition.md",
+    "_attachments/Pasted image 20260713010004.png",
+    "AGM-158 JASSM.md",
     "Family of Affordable Mass Munitions.md",
-    "AGM-190.md",
-    "GHOST.md",
-    "Zone 5.md",
-    "Low-Cost Containerized Missile.md",
-    "Aegis Combat System.md",
-    "Joint Capabilities Integration and Development System.md",
-    "Integrated Air Defense.md",
+    "_attachments/Pasted image 20260713005320.png",
+    "_attachments/Pasted image 20260713004620.png",
+    "_attachments/Pasted image 20260713004610.png",
+    "_attachments/Pasted image 20260713004534.png",
+    "_attachments/Pasted image 20260713004522.png",
+    "AGM-190 Black Arrow.md",
+    "United States Air Force.md",
+    "Ramp Launch Tube.md",
+    "Common Launch Tube.md",
+    "GBU-69B.md",
+    "AGM-176 Griffin.md",
+    "AGM-114 Hellfire.md",
     "Intelligence, Surveillance, and Reconnaissance.md",
-    "Leidos.md",
-    "aegis.md",
-    "Maritime Choke Points.md",
-    "ISR Synchronization Matrix.md",
-    "DOTMLPF-P.md",
-    "Three Warfares.md",
-    "National Defense Budget Function 050.md",
-    "Planning, Programming, Budgeting, and Execution.md",
-    "_attachments/Pasted image 20260710013109.png",
-    "_attachments/Pasted image 20260710012116.png",
-    "_attachments/Pasted image 20260710011819.png",
-    "_attachments/Pasted image 20260710011552.png",
-    "_attachments/Pasted image 20260710011421.png",
-    "_attachments/Pasted image 20260710011415.png",
-    "_attachments/Pasted image 20260710010835.png",
-    "_attachments/Pasted image 20260710010746.png",
-    "_attachments/Pasted image 20260710010711.png",
-    "_attachments/Pasted image 20260710010652.png",
+    "Integrated Air Defense.md",
+    "Joint Capabilities Integration and Development System.md",
+    "M-28 Special Operations Multi-Role Aircraft.md",
+    "GHOST.md",
+    "DRAGON.md",
+    "AGM-179 JAGM.md",
+    "Raytheon.md",
+    "AGM-188 Rusty Dagger.md",
+    "Foreign Military Sale.md",
+    "Naval Strike Missile.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

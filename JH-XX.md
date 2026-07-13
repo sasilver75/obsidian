@@ -2,8 +2,13 @@
 aliases:
   - J-36
 ---
+References:
+- [Video: Perun: China's New Stealth Aircraft - "J-36"](https://youtu.be/exD-ZrG1XTA?si=r7GxUAHpN0sZy8dy) 
+
 
 https://en.wikipedia.org/wiki/JH-XX
+
+
 
 A designation applied to American intelligence agencies to a regional bomber/tactical bomber/fighter bomber.
 

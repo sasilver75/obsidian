@@ -130,7 +130,8 @@ Inventories (Trying not to include retired inventories):
 - [[Wasp III]]: A small hand-launched unmanned aircraft used for short-range reconnaissance and surveillance.
 - [[WC-130 Hercules]]: A weather reconnaissance C-130 variant best known for hurricaine reconnaissance missions.
 - [[YFQ-42A Dark Merlin]]: General Atomics' developmental uncrewed CCA aircraft for manned-unmanned fighter teaming.
-
+- [[M-28 Special Operations Multi-Role Aircraft]]: Multi-role STOL platform for AFSOC operations in austere environments.
+- 
 
 
 
