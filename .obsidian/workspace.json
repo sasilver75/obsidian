@@ -2419,9 +2419,19 @@
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
             }
+          },
+          {
+            "id": "862280b802fc41a7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 197
+        "currentTab": 198
       },
       {
         "id": "8a022290161ffefa",
@@ -2483,7 +2493,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "67b491de27faff0d",
+  "active": "862280b802fc41a7",
   "lastOpenFiles": [
     "_attachments/Pasted image 20260713010849.png",
     "_attachments/Pasted image 20260713010628.png",
