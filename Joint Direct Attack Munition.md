@@ -5,9 +5,10 @@ aliases:
 ---
 https://en.wikipedia.org/wiki/Joint_Direct_Attack_Munition
 
-
-
-Not a stand-alone weapon system; a "bolt-on" guidance package that converts unguided gravity bombs into Precision-Guided Munitions (PGMs).
+A "bolt-on" guidance package/kit that converts unguided gravity bombs ("dumb bombs") into all-weather Precision-Guided Munitions (PGMs).
+- Guided by an integrated [[GPS INS]] system.
+- JDAM-equipped bombs range from 500 to 2,000 pounds.
+- When installed a bomb (often times a [[Mk 82]], [[Mk 83]], [[Mk 84]], [[]])
 
 ![[Pasted image 20260713010628.png]]
 

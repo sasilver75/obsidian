@@ -34,7 +34,7 @@ Terms
 - [[Service Token]]: A credential used by a service or workload to authenticate to another system. Use it for service-to-service calls, but scope it narrowly by audience, permissions, and lifetime.
 - [[Plaintext]]: Data in its original readable form before encryption. Minimize where plaintext appears in storage, logs, memory, and network boundaries because it is the form attackers actually want.
 - [[Ciphertext]]: Data transformed by encryption so it is unreadable without the proper key. It is safer to store or transmit than plaintext, but metadata, access patterns, and key compromise can still leak sensitive information.
-- [[Cipher]]: An algorithm for encrypting and decrypting information. Use well-reviewed standard ciphers through trusted libraries, since custom cipher design is rarely defensible.
+- [[Saronic Cipher]]: An algorithm for encrypting and decrypting information. Use well-reviewed standard ciphers through trusted libraries, since custom cipher design is rarely defensible.
 - [[Block Cipher]]: A cipher that encrypts fixed-size blocks of data using a key. Use block ciphers through modern authenticated modes, because raw block encryption leaks structure and is not directly safe for messages.
 - [[Stream Cipher]]: A cipher that encrypts data as a continuous stream, usually by combining plaintext with a keystream. Use it for high-throughput or streaming contexts, but never reuse the same key and nonce combination.
 - [[ChaCha20]]: A fast stream cipher commonly used as an alternative to AES. Use it especially on devices without AES hardware acceleration, but pair it with authentication rather than using raw encryption alone.

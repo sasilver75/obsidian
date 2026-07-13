@@ -37,7 +37,7 @@ Inventories (Trying not to include retired inventories):
 - [[AGM-176 Griffin]]: Small precision-guided munition used by special operations aircraft for lower-collateral precision strike.
 - [[AGM-181 LRSO]]: Long-range standoff weapon; the future nuclear cruise missile replacing the AGM-84 ACLM.
 - [[AGM-183 ARRW]]: Air-launched rapid response weapon; air-launched hypersonic weapon program, but still under development.
-- [[AGM-184]]: 
+- [[AGM-184]] Joint Strike Missile: A multi-role, air-launched cruise missile, derived from the Naval Strike Missile.
 - [[AIM-120 AMRAAM]]: The standard U.S. active radar-guided beyond-visual-range air-to-air missile.
 - [[AIM-260 JATM]]: The planned next-generation US beyond-visual-range air-to-air missile; public details are limited.
 - [[AIM-7 Sparrow]]: A semi-active radar-guided air-to-air missile, but somewhat legacy for modern USAF fighter employment.

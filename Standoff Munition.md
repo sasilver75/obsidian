@@ -6,5 +6,7 @@ An air-launched or surface-launched missile, glide bomb, or rocket designed to s
 
 Common types:
 - [[Cruise Missile]]s
-- [[Glide Bomb]]s: Precision-guided bombs like the [[AGM-154 JSOW]] that
+- [[Glide Bomb]]s: Precision-guided bombs like the [[AGM-154 JSOW]]
 - [[Short-Range Ballistic Missile]]s (SRBMs)
+
+

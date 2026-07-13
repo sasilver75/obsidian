@@ -1,5 +1,5 @@
 ARRW = "Air-Launched Rapid Response Weapon"
-Air-launched ballistic missile with hypersonic glide vehicle
+Air-launched [[Ballistic Missile]] with [[Hypersonic Glide Vehicle]]
 
 ==Not developed yet==, does not have a formal in-service date; Revived in FY2027 budget, targeting enhanced production.
 

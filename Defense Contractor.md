@@ -4,7 +4,7 @@ Pricing Models
 - [[Firm-Fixed Pricing]]
 - Cost-Plus Incentive Fee (CPIF) Pricing
 
-
+==TODO: BREAK THESE UP BY COUNTRY OF ORIGIN==
 Relevant Contractors
 - [[Lockheed Martin]]
 - [[Raytheon]] (RTX after merger of Raytheon and United Technologies)
@@ -12,7 +12,7 @@ Relevant Contractors
 - [[Boeing]]
 - [[General Dynamics]]
 - [[L3Harris]]
-- [[BAE Systems]]z
+- [[BAE Systems]]
 - [[Huntington Ingalls Industries]]
 - [[Leidos]]
 - [[Booz Allen Hamilton]]
@@ -49,3 +49,11 @@ Relevant Contractors
 - [[CHAOS Industries]]
 - [[Castellion]]
 - [[Red Cat]]
+- [[Dynetics]]
+- [[BlackSea Technologies]]
+- [[Saildrone]]
+
+
+China:
+- [[Chengdu Aircraft Corporation]] (CAC)
+- [[Shenyang Aircraft Corporation]] (SAC)

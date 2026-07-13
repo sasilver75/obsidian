@@ -10,7 +10,7 @@ A palletized and disposable weapons module airdropped to deploy flying munitions
 
 In service 2021-Present
 
-The pallets, called "deployment boxes," provide a low-cost method allowing unmodified cargo planes like the [[C-130 Hercules]] or [[C-17 Globemaster III]] to be temporarily repurposed as standoff bombers capable of mass-launching any variant of long or short range [[AGM-158 JASSM]] cruise missiles against land or naval targets.
+The pallets, called "deployment boxes," provide a ==low-cost method allowing unmodified cargo planes== like the [[C-130 Hercules]] or [[C-17 Globemaster III]] ==to be temporarily repurposed as standoff bombers== capable of mass-launching any variant of long or short range [[AGM-158 JASSM]] cruise missiles against land or naval targets.
 
 The size of the deployment boxes are configurable, ==ranges from 4 to 45 [[AGM-158 JASSM|AGM-158B JASSM-ER]] cruise missiles==.
 

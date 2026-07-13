@@ -5,15 +5,13 @@ aliases:
   - AGM-176 Griffin C
   - AGM-176 Griffin C-er
 ---
-
-
 https://en.wikipedia.org/wiki/AGM-176_Griffin
 
-A lightweight precision-guided munition from [[Raytheon]] launched from the ground or air as a rocket-powered missile, or dropped from the air as a guided bomb (depending on variant). It was designed to be a precision low-collateral damage weapon for irregular warfare.
+A ==lightweight== precision-guided munition from [[Raytheon]] launched from the ground or air as a rocket-powered missile, or dropped from the air as a guided bomb (depending on variant). It was designed to be a precision low-collateral damage weapon for irregular warfare.
 
 In service 2008-Present
 
-Relatively small 13lb warhead to reduce collateral damage. The missile's folding fins allow it to be launched from a 5.5 inch-diameter tube, and can be set to explode with at a certain height, with point detonation, or fuze delay. Smaller than the [[AGM-114 Hellfire]] typically used by armed UAVs... three Griffins can be carried in place of one Hellfire.
+==Relatively small 13 pound warhead== to reduce collateral damage. The missile's folding fins allow it to be launched from a 5.5 inch-diameter tube, and can be set to explode with at a certain height, with point detonation, or fuze delay. Smaller than the [[AGM-114 Hellfire]] typically used by armed UAVs... three Griffins can be carried in place of one Hellfire.
 
 Variants:
 - AGM-176 Griffin A: Initial version without a rocket motor. A [[Glide Bomb]] for use from helicopters and drones.

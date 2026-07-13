@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82b97e54c1f1ff06",
+        "id": "331038c1bdcb8c1d",
         "type": "tabs",
         "children": [
           {
-            "id": "67b491de27faff0d",
+            "id": "d409ebb0f40a100b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Joint Direct Attack Munition.md",
+                "file": "Unmanned Surface Vehicle.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Joint Direct Attack Munition"
+              "title": "Unmanned Surface Vehicle"
             }
           },
           {
-            "id": "caa2260ee21da408",
+            "id": "804f4c697a7042cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quickstrike Naval Mine.md",
+                "file": "Saronic Technologies.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quickstrike Naval Mine"
+              "title": "Saronic Technologies"
             }
           },
           {
-            "id": "adac676bd6c0b16d",
+            "id": "8619a9afc0245f48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ramp Launch Tube.md",
+                "file": "Marauder.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ramp Launch Tube"
+              "title": "Marauder"
             }
           },
           {
-            "id": "f586f6acb89e3d1d",
+            "id": "222f8cc72fe8deb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGM-190 Black Arrow.md",
+                "file": "Saronic Cipher.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AGM-190 Black Arrow"
+              "title": "Saronic Cipher"
             }
           },
           {
-            "id": "4cbd47968d005bc1",
+            "id": "92a06851f47bbe37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GBU-69B.md",
+                "file": "Defense Contractor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GBU-69B"
+              "title": "Defense Contractor"
             }
           },
           {
-            "id": "e3028dd3b6a52e30",
+            "id": "95317e18e96b52db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGM-114 Hellfire.md",
+                "file": "Saronic Mirage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AGM-114 Hellfire"
+              "title": "Saronic Mirage"
             }
           },
           {
-            "id": "c7cfc2198a301c44",
+            "id": "22df4836edffe336",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "United States Air Force.md",
+                "file": "Saronic Corsair.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "United States Air Force"
+              "title": "Saronic Corsair"
             }
           },
           {
-            "id": "92076cf8ea25d8eb",
+            "id": "0b978a67e8686ad1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GBU-69B.md",
+                "file": "Anduril Anvil.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GBU-69B"
+              "title": "Anduril Anvil"
             }
           },
           {
-            "id": "1d8a097131e32774",
+            "id": "8a26c00216a20383",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GBU-69B.md",
+                "file": "Defense Contractor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GBU-69B"
+              "title": "Defense Contractor"
             }
           },
           {
-            "id": "c12384ce6543458b",
+            "id": "ddd04b916eec20bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intelligence, Surveillance, and Reconnaissance.md",
+                "file": "BlackSea Technologies.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Intelligence, Surveillance, and Reconnaissance"
+              "title": "BlackSea Technologies"
             }
           },
           {
-            "id": "053d3705d063f7f7",
+            "id": "5f78c32fd43fae90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Integrated Air Defense.md",
+                "file": "Global Autonomous Reconnaissance Craft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,82 +268,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Integrated Air Defense"
-            }
-          },
-          {
-            "id": "67979983d4d0f3a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Capabilities Integration and Development System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Capabilities Integration and Development System"
-            }
-          },
-          {
-            "id": "36745ab2f26b326e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aegis Combat System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Aegis Combat System"
-            }
-          },
-          {
-            "id": "66dc0db4df7417a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Family of Affordable Mass Munitions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Family of Affordable Mass Munitions"
+              "title": "Global Autonomous Reconnaissance Craft"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2493,44 +2422,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "862280b802fc41a7",
+  "active": "8619a9afc0245f48",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260713010849.png",
-    "_attachments/Pasted image 20260713010628.png",
-    "_attachments/Pasted image 20260713010532.png",
-    "_attachments/Pasted image 20260713010530.png",
-    "_attachments/Pasted image 20260713010516.png",
-    "Dragon Cart.md",
-    "Quickstrike Naval Mine.md",
-    "United States Navy.md",
-    "quickstriek.md",
-    "Joint Direct Attack Munition.md",
-    "_attachments/Pasted image 20260713010004.png",
-    "AGM-158 JASSM.md",
+    "Saronic Technologies.md",
+    "Saronic Cipher.md",
+    "Saronic Corsair.md",
+    "Defense Contractor.md",
+    "Saronic Mirage.md",
+    "Unmanned Surface Vehicle.md",
+    "Anduril.md",
+    "Anduril Anvil.md",
+    "_attachments/Pasted image 20260713153338.png",
+    "BlackSea Technologies.md",
+    "Global Autonomous Reconnaissance Craft.md",
+    "Electronics (Index).md",
+    "Anduril Copperhead.md",
+    "_attachments/Pasted image 20260713150729.png",
+    "Anduril Dive-XL.md",
+    "_attachments/Pasted image 20260713150707.png",
+    "Anduril Dive-LD.md",
+    "_attachments/Pasted image 20260713150656.png",
+    "Anduril Ghost.md",
+    "_attachments/Pasted image 20260713150625.png",
+    "Anduril Wisp.md",
+    "_attachments/Pasted image 20260713150615.png",
+    "Anduril Pulsar.md",
+    "_attachments/Pasted image 20260713150608.png",
+    "Anduril Sentry.md",
+    "_attachments/Pasted image 20260713150600.png",
+    "Anduril Seabed Sentry.md",
+    "Sentry.md",
+    "andurli.md",
+    "Collaborative Combat Aircraft.md",
     "Family of Affordable Mass Munitions.md",
-    "_attachments/Pasted image 20260713005320.png",
-    "_attachments/Pasted image 20260713004620.png",
-    "_attachments/Pasted image 20260713004610.png",
-    "_attachments/Pasted image 20260713004534.png",
-    "_attachments/Pasted image 20260713004522.png",
-    "AGM-190 Black Arrow.md",
-    "United States Air Force.md",
-    "Ramp Launch Tube.md",
-    "Common Launch Tube.md",
-    "GBU-69B.md",
-    "AGM-176 Griffin.md",
-    "AGM-114 Hellfire.md",
-    "Intelligence, Surveillance, and Reconnaissance.md",
-    "Integrated Air Defense.md",
-    "Joint Capabilities Integration and Development System.md",
-    "M-28 Special Operations Multi-Role Aircraft.md",
-    "GHOST.md",
-    "DRAGON.md",
-    "AGM-179 JAGM.md",
-    "Raytheon.md",
-    "AGM-188 Rusty Dagger.md",
-    "Foreign Military Sale.md",
-    "Naval Strike Missile.md",
+    "UH-72 Lakota.md",
+    "Unified Combatant Command.md",
+    "US Central Command.md",
+    "_attachments/Pasted image 20260713141411.png",
+    "_attachments/Pasted image 20260713134315.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

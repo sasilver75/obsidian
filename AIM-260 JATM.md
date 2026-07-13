@@ -6,3 +6,13 @@ https://en.wikipedia.org/wiki/AIM-260_JATM
 
 
 "stealth-optimized"
+
+
+
+
+![[Pasted image 20260713134258.png]]
+
+
+![[Pasted image 20260713134315.png]]
+
+

@@ -14,7 +14,8 @@ aliases:
   - G5
   - General Staff Officer
 ---
-cf. [[Staff Officer]]s
+https://en.wikipedia.org/wiki/Staff_(military)
+cf. [[Staff Officer]]s, [[Joint Staff]]
 
 A group of officers and civilian staff who serve as the principal advisory body to a military commander.
 - Responsible for formulating policy, coordinating plans, and overseeing the logistical and administrative needs of a [[Division]] or larger unit.
@@ -26,4 +27,8 @@ Divided into specialized directorates:
 - ==G4== (Logistics): Coordination of movement of troops, supplies, maintenance, and transportation
 - ==G5== (Plans/Civil-Military Operations): Long term strategy and relationship between mil/civ populations
 
+
+
+Comparison with [[Staff Officer]]s and [[Joint Staff]]
+- G-series officers serve on the staff of an [[United States Army|Army]] or [[United States Marine Corps|Marine Corps]] component commander, while J-series officers ([[Joint Staff]]) serve on teh staff of a joint commander, integrating all branches of the military.
 
