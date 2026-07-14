@@ -33,4 +33,7 @@ The system can be thought of fas a smart and disposable bomb bay in a box that i
 
 
 ![[Pasted image 20260713005320.png]]
-(Not the actual Rapid Dragon system, but an image showing the *idea*) of a mass launch of a swarm of miniature decoys to accomany a Rapid Dragon airdrop, so that you can saturate air defenses and destroy them with the actual (obscured) hitters, JASSMs.)
+(Not the actual Rapid Dragon system, but an image showing the *idea*) of a mass launch of a swarm of miniature decoys to accompany a Rapid Dragon airdrop, so that you can saturate air defenses and destroy them with the actual (obscured) hitters, JASSMs.)
+
+
+![[Pasted image 20260713215953.png]]

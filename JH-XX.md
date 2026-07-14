@@ -3,7 +3,8 @@ aliases:
   - J-36
 ---
 References:
-- [Video: Perun: China's New Stealth Aircraft - "J-36"](https://youtu.be/exD-ZrG1XTA?si=r7GxUAHpN0sZy8dy) 
+- [Video: Perun: China's New Stealth Aircraft - "J-36"](https://youtu.be/exD-ZrG1XTA?si=r7GxUAHpN0sZy8dy)  Unprocessed
+- [Video: Sandboxx: When we can learn about J-36 ](https://www.youtube.com/watch?v=dRIooaaPlOA) Unprocessed
 
 
 https://en.wikipedia.org/wiki/JH-XX

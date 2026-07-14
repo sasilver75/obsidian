@@ -1,3 +1,7 @@
+---
+aliases:
+  - LCS
+---
 
 Two classes:
 - [[Freedom-Class Littoral Combat Ship]]

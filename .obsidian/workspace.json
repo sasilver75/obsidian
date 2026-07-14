@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d409ebb0f40a100b",
+            "id": "1538c550f105942c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unmanned Surface Vehicle.md",
+                "file": "AGM-176 Griffin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Unmanned Surface Vehicle"
+              "title": "AGM-176 Griffin"
             }
           },
           {
-            "id": "804f4c697a7042cc",
+            "id": "0442185b3f5df6b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Saronic Technologies.md",
+                "file": "X-68A LongShot.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Saronic Technologies"
+              "title": "X-68A LongShot"
             }
           },
           {
-            "id": "8619a9afc0245f48",
+            "id": "2c6bba955713cd8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Marauder.md",
+                "file": "BLU-137.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Marauder"
+              "title": "BLU-137"
             }
           },
           {
-            "id": "222f8cc72fe8deb7",
+            "id": "6f700efb357b6392",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Saronic Cipher.md",
+                "file": "Vectis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Saronic Cipher"
+              "title": "Vectis"
             }
           },
           {
-            "id": "92a06851f47bbe37",
+            "id": "9727c6354ee5bdc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defense Contractor.md",
+                "file": "XQ-58 Valkyrie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Defense Contractor"
+              "title": "XQ-58 Valkyrie"
             }
           },
           {
-            "id": "95317e18e96b52db",
+            "id": "eab52db6be7c955b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Saronic Mirage.md",
+                "file": "Modular Open Systems Approach.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Saronic Mirage"
+              "title": "Modular Open Systems Approach"
             }
           },
           {
-            "id": "22df4836edffe336",
+            "id": "eb606e1b774648f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Saronic Corsair.md",
+                "file": "Modular Open Systems Approach.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Saronic Corsair"
+              "title": "Modular Open Systems Approach"
             }
           },
           {
-            "id": "0b978a67e8686ad1",
+            "id": "2167a6af6ff05055",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anduril Anvil.md",
+                "file": "DF-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +196,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Anduril Anvil"
+              "title": "DF-21"
             }
           },
           {
-            "id": "8a26c00216a20383",
+            "id": "fc3c4e2b1bd05274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defense Contractor.md",
+                "file": "Dragon Cart.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +220,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Defense Contractor"
+              "title": "Dragon Cart"
             }
           },
           {
-            "id": "ddd04b916eec20bf",
+            "id": "7aeffa14ee4091d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BlackSea Technologies.md",
+                "file": "Dragon Cart.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,35 +244,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BlackSea Technologies"
-            }
-          },
-          {
-            "id": "5f78c32fd43fae90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Global Autonomous Reconnaissance Craft.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Global Autonomous Reconnaissance Craft"
+              "title": "Dragon Cart"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2422,44 +2398,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8619a9afc0245f48",
+  "active": "0442185b3f5df6b1",
   "lastOpenFiles": [
-    "Saronic Technologies.md",
-    "Saronic Cipher.md",
-    "Saronic Corsair.md",
-    "Defense Contractor.md",
-    "Saronic Mirage.md",
-    "Unmanned Surface Vehicle.md",
-    "Anduril.md",
-    "Anduril Anvil.md",
-    "_attachments/Pasted image 20260713153338.png",
-    "BlackSea Technologies.md",
-    "Global Autonomous Reconnaissance Craft.md",
-    "Electronics (Index).md",
-    "Anduril Copperhead.md",
-    "_attachments/Pasted image 20260713150729.png",
-    "Anduril Dive-XL.md",
-    "_attachments/Pasted image 20260713150707.png",
-    "Anduril Dive-LD.md",
-    "_attachments/Pasted image 20260713150656.png",
-    "Anduril Ghost.md",
-    "_attachments/Pasted image 20260713150625.png",
-    "Anduril Wisp.md",
-    "_attachments/Pasted image 20260713150615.png",
-    "Anduril Pulsar.md",
-    "_attachments/Pasted image 20260713150608.png",
-    "Anduril Sentry.md",
-    "_attachments/Pasted image 20260713150600.png",
-    "Anduril Seabed Sentry.md",
-    "Sentry.md",
-    "andurli.md",
+    "_attachments/Pasted image 20260713225432.png",
+    "_attachments/Pasted image 20260713225424.png",
+    "AGM-176 Griffin.md",
+    "Dragon Cart.md",
+    "Common Launch Tube.md",
+    "United States Air Force.md",
     "Collaborative Combat Aircraft.md",
-    "Family of Affordable Mass Munitions.md",
-    "UH-72 Lakota.md",
-    "Unified Combatant Command.md",
-    "US Central Command.md",
-    "_attachments/Pasted image 20260713141411.png",
-    "_attachments/Pasted image 20260713134315.png",
+    "X-68A LongShot.md",
+    "BLU-137.md",
+    "Vectis.md",
+    "XQ-58 Valkyrie.md",
+    "Modular Open Systems Approach.md",
+    "DF-21.md",
+    "Weapon Open System Architecture.md",
+    "Joint Direct Attack Munition.md",
+    "X-Bat.md",
+    "_attachments/Pasted image 20260713222123.png",
+    "_attachments/Pasted image 20260713222115.png",
+    "BlackSea Chaser.md",
+    "FQ-44 Fury.md",
+    "Common Multi-Mission Truck.md",
+    "_attachments/Pasted image 20260713220517.png",
+    "_attachments/Pasted image 20260713220514.png",
+    "_attachments/Pasted image 20260713215953.png",
+    "_attachments/Pasted image 20260713215944.png",
+    "_attachments/Pasted image 20260713215934.png",
+    "BlackSea Comet.md",
+    "Forward-Looking Infrared.md",
+    "BlackSea NightTrain.md",
+    "Littoral Combat Ship.md",
+    "YFQ-42A Dark Merlin.md",
+    "_attachments/Pasted image 20260713214834.png",
+    "_attachments/Pasted image 20260713214823.png",
+    "Jet-Assisted Take-Off.md",
+    "mac.md",
+    "BLU-109.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

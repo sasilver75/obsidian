@@ -52,6 +52,7 @@ Relevant Contractors
 - [[Dynetics]]
 - [[BlackSea Technologies]]
 - [[Saildrone]]
+- [[MARTAC]]
 
 
 China:

@@ -19,7 +19,7 @@ Functional Combatant Commands
 - [[US Strategic Command]] ([[US Strategic Command|STRATCOM]])
 - [[US Transportation Command]] ([[US Transportation Command|TRANSCOM]])
 
-Geographic Combatant Commands
+Geographic Combatant Commands, each with an ==Area of Responsibility==
 - [[US Central Command]] ([[US Central Command|CENTCOM]]): Europe, Russia
 - [[US European Command]] ([[US European Command|EUCOM]]): Middle East, Stans
 - [[US Indo-Pacific Command]] ([[US Indo-Pacific Command|INDOPACOM]]): New Zealand to India to Japan, China, Mongolia, ...
