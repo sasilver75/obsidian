@@ -1,12 +1,16 @@
 ---
 aliases:
   - ADM-160 MALD-J
+  - ADM-160 MALD-V
 ---
 MALD = "Miniature Air-Launched Decoy/Jammer"
 
 https://en.wikipedia.org/wiki/ADM-160_MALD
 
 MALD-J is the later variant, additionally equipped with electronic countermeasures to actively jam early warming and target acquisition radars.
+TODO: MALD-V is an even newer variant...
+
+
 
 
 

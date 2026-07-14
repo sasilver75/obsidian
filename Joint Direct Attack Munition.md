@@ -75,4 +75,14 @@ In the Decoy version, they swap the explosive payload for an extra fuel tank, gi
 ![[Pasted image 20260713185034.png]]
 Above: the QuickStrike LR and Maritime Strike LR
 
+The QuickStrike LR Shallow water Mine:
+- Just an evolution of an earlier JDAM-based weapon called the Quickstrike ER, which is a 2,000 pound general purpose bomb fitted with underwater mine components like a new fuze, married up to the JDAM ER glide wing kit, resulting in a 2,000 pound undersea mine that can be dropped 40 miles from its intended area. Parachutes deploy to slow impact with the surface; it then sinks to the bottom of waterways and waits for its onboard Mk57 target detection device (fuze) to detect signatures of enemy vessels as they approach. They can differentiate between types of ships and count vessels as they pass by. Even with a few hundred feet of water above them, the detonation is enough to bring down huge warships.
+- With the LR, they just swapped out the glide wings for a new [[Turbojet]] + Glide Wing kit, making it possible to mine waterways from 300+ miles away, dramatically reducing risk and really complicating matters for adversary planners.
 
+The Maritime Strike variant
+- It's likely also just a turbojet-equipped version of another existing weapon; this time, likely the [[QUICKSINK]], which builds on the JDAM with a radar seeker in the nose and an infrared seeker in a side ferring... enabling it to strike moving targets in bad weather conditions... this makes it into a potent ship-killer.
+- With the addition of the JDAM LR glide wings and turbojet propulsion, this anti-ship bomb quickly becomes an anti-ship cruise missile.
+
+
+The price per JDAM-LR hasn't been described yet... but may be ~$200,000, making them way cheaper than many long-range cruise missiles in service today like the [[AGM-158 JASSM]] line, and a similar price point to new "cheap" missiles like the [[Common Multi-Mission Truck|CMMT]], [[Barracuda-500]], while delivering much larger (5-10x) payloads.
+- Note that this price is about ~5x the price of a standard JDAM
