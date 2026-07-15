@@ -1,4 +1,7 @@
 
+References:
+- [Video: Sandboxx: Lockheed Martin's VECTIS aims to be MORE than a loyal wingman](https://youtu.be/DePCfPkohdA?si=ctLNkRqvZc71f0gg) UNPROCESSED
+
 https://www.lockheedmartin.com/en-us/products/vectis.html
 https://www.twz.com/air/skunk-works-unveils-vectis-air-combat-drone-that-puts-a-premium-on-stealth
 
@@ -17,7 +20,7 @@ Still smaller than an [[F-16 Fighting Falcon]].
 
 > ==Vectis is not yet flying.==
 
-
+> "The most survivable of any CCA"
 
 
 

@@ -24,10 +24,15 @@ A [[Boeing]] aerial refueling drone that resulted from the Carrier-Based Aerial-
 
 
 ![[Pasted image 20260712212229.png]]
+
+
 ![[Pasted image 20260712212316.png]]
+
 
 ![[Pasted image 20260713162034.png]]
 Above: The retractable sensor turret that can stick out for [[Intelligence, Surveillance, and Reconnaissance|ISR]] (or strike operations).
 
 
 ![[Pasted image 20260713172221.png]]
+
+

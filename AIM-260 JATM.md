@@ -6,7 +6,9 @@ https://en.wikipedia.org/wiki/AIM-260_JATM
 
 
 "stealth-optimized"
-
+==Not yet in service;== being developed by [[Lockheed Martin]] for the [[United States Air Force|Air Force]] and [[United States Navy|Navy]].
+- See also the [[Long-Range Engagement Weapon]] (LREW)
+Expected to replace or supplement the [[AIM-120 AMRAAM]] currently in US service.
 
 
 
