@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1538c550f105942c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "X-68A LongShot.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "X-68A LongShot"
-            }
-          },
-          {
-            "id": "9b6b2f7ce594e2f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "No-Escape Zone.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "No-Escape Zone"
-            }
-          },
-          {
             "id": "986056f743a9fbc9",
             "type": "leaf",
             "state": {
@@ -78,8 +30,345 @@
               "icon": "lucide-file",
               "title": "QUICKSINK"
             }
+          },
+          {
+            "id": "80363b793db5a447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DARPA AlphaDogfight Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DARPA AlphaDogfight Program"
+            }
+          },
+          {
+            "id": "224d3bfb420fcf93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defense Advanced Research Projects Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Defense Advanced Research Projects Agency"
+            }
+          },
+          {
+            "id": "445f65d9959b95c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DARPA AlphaDogfight Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DARPA AlphaDogfight Program"
+            }
+          },
+          {
+            "id": "1b585e8a937528b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Marine Expeditionary Unit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Marine Expeditionary Unit"
+            }
+          },
+          {
+            "id": "c7a81b2b7b5668e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Beyond Visual Line of Sight.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Beyond Visual Line of Sight"
+            }
+          },
+          {
+            "id": "70052d1d34aa61c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Beyond Visual Line of Sight.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Beyond Visual Line of Sight"
+            }
+          },
+          {
+            "id": "3ce0043a4bc210a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flare.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Flare"
+            }
+          },
+          {
+            "id": "2f4367c03d9305d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defense Contractor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Defense Contractor"
+            }
+          },
+          {
+            "id": "ded49dff331cc17a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shield AI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shield AI"
+            }
+          },
+          {
+            "id": "eaa597b8e53a8bd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kill Web.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kill Web"
+            }
+          },
+          {
+            "id": "9c600af1751c9668",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FLARE (Information Retreival).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FLARE (Information Retreival)"
+            }
+          },
+          {
+            "id": "1bd74c0f705ae62d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shield AI Hivemind.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shield AI Hivemind"
+            }
+          },
+          {
+            "id": "24f501dd65aa1c04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FQ-42A Dark Merlin.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FQ-42A Dark Merlin"
+            }
+          },
+          {
+            "id": "9b67d35f06bbe451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agile Combat Employment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agile Combat Employment"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2229,44 +2518,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1538c550f105942c",
+  "active": "224d3bfb420fcf93",
   "lastOpenFiles": [
-    "GBU-53B StormBreaker.md",
-    "QUICKSINK.md",
-    "X-68A LongShot.md",
-    "No-Escape Zone.md",
-    "PL-15.md",
-    "Joint Direct Attack Munition.md",
-    "Mk 48 ADCAP Torpedo.md",
-    "ADM-160 MALD.md",
-    "AGM-181 LRSO.md",
-    "AGM-158 JASSM.md",
-    "AGM-176 Griffin.md",
-    "DF-21.md",
-    "Radar Cross Section.md",
-    "Vectis.md",
-    "Sensitive Compartmented Information Facility.md",
-    "Confidential Classification.md",
-    "Secret Classification.md",
-    "Top Secret Classification.md",
-    "Sensitive Compartmented Information.md",
-    "Collaborative Combat Aircraft.md",
+    "_attachments/Pasted image 20260714165359.png",
+    "Shield AI X-Bat.md",
+    "Shield AI V-Bat.md",
+    "_attachments/Pasted image 20260714163844.png",
+    "_attachments/Pasted image 20260714163832.png",
+    "DARPA ACE Program.md",
+    "DARPA AlphaDogfight Program.md",
+    "DARPA AIR Program.md",
     "Shield AI.md",
+    "Marine Expeditionary Unit.md",
+    "Beyond Visual Line of Sight.md",
+    "_attachments/Pasted image 20260714160532.png",
+    "Beyond Visual Range.md",
+    "Flare.md",
+    "Defense Contractor.md",
+    "Kill Web.md",
+    "FLARE (Information Retreival).md",
+    "EA-18G Growler.md",
+    "AGM-158 JASSM.md",
+    "SR-72.md",
+    "Scramjet.md",
+    "Turbofan.md",
+    "Ramjet.md",
+    "Meteor.md",
+    "X-68A LongShot.md",
+    "_attachments/Pasted image 20260714142834.png",
+    "Chaff.md",
     "Shield AI Hivemind.md",
-    "FQ-42A Dark Merlin.md",
-    "Group 5 UAS.md",
-    "Special Access Program.md",
-    "BLU-137.md",
-    "_attachments/Pasted image 20260714010849.png",
-    "_attachments/Pasted image 20260714003702.png",
-    "_attachments/Pasted image 20260713225432.png",
-    "_attachments/Pasted image 20260713225424.png",
-    "_attachments/Pasted image 20260713222123.png",
-    "_attachments/Pasted image 20260713222115.png",
-    "_attachments/Pasted image 20260713220517.png",
-    "_attachments/Pasted image 20260713220514.png",
-    "_attachments/Pasted image 20260713215953.png",
-    "_attachments/Pasted image 20260713215944.png",
+    "Conventional Prompt Strike.md",
+    "Low-Cost Uncrewed Combat Attack System.md",
+    "_attachments/Pasted image 20260714135930.png",
+    "_attachments/Pasted image 20260714135925.png",
+    "_attachments/Pasted image 20260714134240.png",
+    "_attachments/Pasted image 20260714134013.png",
+    "_attachments/Pasted image 20260714133956.png",
+    "_attachments/Pasted image 20260714125545.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

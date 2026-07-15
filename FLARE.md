@@ -1,4 +1,5 @@
-May 2023
-Link: [Active Retrieval Augmented Generation](https://arxiv.org/abs/2305.06983)
+A defensive countermeasure used by aircraft to avoid being hit by missiles.
 
-![[Pasted image 20240414174433.png]]
+Flares are used to trick heat-seeking (infrared) missiles by burning hotter and brighter than the aircraft's engine.
+
+See also: [[Chaff]]

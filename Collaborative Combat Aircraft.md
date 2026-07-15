@@ -39,3 +39,7 @@ General Atomics's :
 
 ![[Pasted image 20260713130556.png]]
 
+
+
+![[Pasted image 20260714123314.png]]
+Above: From the [[Mitchell Institute for Aerospace Studies]]

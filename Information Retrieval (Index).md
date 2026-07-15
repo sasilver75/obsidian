@@ -21,7 +21,7 @@ Terms
 - [[Dense Passage Retrieval]] (DPR)
 - [[Dense Retrieval]]
 - [[DRAGON]] (Dense Retrieval trained with Diverse Augmentation)
-- [[FLARE]] (Forward-Looking Active Retrieval Augmented Generation)
+- [[FLARE (Information Retreival)]] (Forward-Looking Active Retrieval Augmented Generation)
 - [[Fusion-in-Decoder]] (FiD)
 - [[Generate-then-Read]] (GenRead)
 - [[Hard Negative Mining]]

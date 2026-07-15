@@ -7,7 +7,7 @@ aliases:
 ---
 JASSM = "Joint Air-to-Surface Standoff Missile"
 Pron. "Jazz-Em"
-Pron. "El-Razz-Em" ((???))
+Pron. "Luh-Razz-Em" ((???))
 
 A family of *==low-observable==*, subsonic, air-launched [[Cruise Missile]]s designed to destroy valuable, heavily defended targets without requiring the launching aircraft to enter the densest part of the enemy's air-defense network.
 

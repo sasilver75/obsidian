@@ -16,3 +16,8 @@ Variants:
 
 
 Capable of being launched from a single point using [[Jet-Assisted Take-Off|JATO]], or launchable via a runway using a wheeled chassis that the drone leaves behind.
+
+
+
+
+![[Pasted image 20260714123933.png]]

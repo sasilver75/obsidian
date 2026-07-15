@@ -53,6 +53,7 @@ Relevant Contractors
 - [[BlackSea Technologies]]
 - [[Saildrone]]
 - [[MARTAC]]
+- [[Hermeus]]
 
 
 China:

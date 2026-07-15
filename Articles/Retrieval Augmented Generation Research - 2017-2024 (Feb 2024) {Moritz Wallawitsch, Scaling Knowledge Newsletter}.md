@@ -161,7 +161,7 @@ The authors further leverage contrastive learning to train the model to distingu
 
 # Other Retrieval Research
 
-### [[FLARE]]: Forward-looking active retrieval augmentation (Jiang, Xu, Gao, Sun et al 2023)
+### [[FLARE (Information Retreival)]]: Forward-looking active retrieval augmentation (Jiang, Xu, Gao, Sun et al 2023)
 - A limitation of some of the above-explained techniques is that sequentially retrieve ***then*** generate. This paper proposes a system that iteratively predicts the next sentence to retrieve relevant context if it contains low-confidence tokens.
 	- ((This sort of reminds me of something like speculative decoding, a bit?))
 

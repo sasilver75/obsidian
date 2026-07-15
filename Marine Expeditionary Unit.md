@@ -24,3 +24,5 @@ Together, the package is often called an ARG/MEU.
 
 Some MEUs are described as "special operations capable" in the sense that they've trained for certain specialized missions, but it's still a conventional Marine Corps formation, not under MARSOC.
 
+
+==TODO==: I think there are only like 7 MEUs?

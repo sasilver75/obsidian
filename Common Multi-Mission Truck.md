@@ -24,3 +24,5 @@ Above all else, CMMT is a manufacturing program at Lockheed; it must be 100 perc
 
 
 ![[Pasted image 20260713220517.png]]
+
+![[Pasted image 20260714125545.png]]

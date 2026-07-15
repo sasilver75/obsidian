@@ -1,3 +1,7 @@
+---
+aliases:
+  - YFQ-44
+---
 
 
 
@@ -8,4 +12,8 @@ Blue Force Technologies and the Fury were acquired by [[Anduril]] in 2023, and t
 
 *It's a fighter-like [[Unmanned Combat Aerial Vehicle|UCAV]] that is approximately half the dimensions of the [[F-16 Fighting Falcon]].*
 - Designed to fly at up to 50,000 feet and Mach 0.95, and cal pull a maximum of 9g while sustaining up to 4.5g at about 20,000 feet.
-- The design is expected to provie the USAF with "affordable mass" to augment its crewed fighteres in air-to-air missions. It's not "attritable," but it enables users and commanders to take greater risks and field greater numbers of them.
+- The design is expected to provide the USAF with "affordable mass" to augment its crewed fighters in air-to-air missions. It's not "attritable," but it enables users and commanders to take greater risks and field greater numbers of them.
+
+
+
+![[Pasted image 20260714123933.png]]

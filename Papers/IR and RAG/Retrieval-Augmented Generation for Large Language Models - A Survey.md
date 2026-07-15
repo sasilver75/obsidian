@@ -60,7 +60,7 @@ Notes:
 		- ==Hybrid retrieval== strategies integrate keyword, semantic, and vector searches to cater to diverse queries. 
 		- Additionally, employing sub-queries and hypothetical document embeddings ([[HyDE]]) seek to improve retrieval relevance by focusing on embedding similarities between generated answers and real documents.
 		- Adjustments in module arrangement and interaction, like the Demonstrate-Search-Predict ([[DSPy]]) framework, and the iterative Retrieve-Read-Retrieve-Read flow of [[Iter-RetGen]] showcase the dynamic use of module outputs to bolster another module's functionality, illustrating a sophisticated understanding of enhancing module synergy.
-		- Adaptive retrieval benefits are shown through techniques like [[FLARE]] and [[Self-RAG]], which evaluate the necessity of retrieval, based on different scenarios.
+		- Adaptive retrieval benefits are shown through techniques like [[FLARE (Information Retreival)]] and [[Self-RAG]], which evaluate the necessity of retrieval, based on different scenarios.
 - RAG vs Finetuning
 	- RAG is often compared with fine-tuning and prompt engineering; each method has distinct characteristics, but can be compared along the dimensions of *external knowledge requirements* and *model adaptation requirements*.
 		- Prompt engineering leverages a model's inherent capabilities with minimum necessity for external knowledge and model adaptation.
@@ -161,7 +161,7 @@ Notes:
 	- [[Tree of Clarification]] (ToC) creates a clarification tree that systematically optimizes the ambiguous parts in the query. Can be useful in complex search scenarios where a user's needs aren't entirely clear from the outset.
 	- To address specific data scenarios, recursive retrieval and multi-hop retrieval techniques are utilized together; Recursive retrieval involves a structured index to process and retrieve data in a hierarchical manner - this might include summarizing sections of a document or lengthy PDF  before performing a retrieval based on the summary. Subsequently, a secondary retrieval within the document refines the search, embodying the recursive nature of the process.
 - ==[[Adaptive Retrieval]]==
-	- Exemplified by [[FLARE]] and [[Self-RAG]]; Adaptive retrieval refines the RAG framework by enabling *LLMs* to actively determine the optimal moments and content for retrieval, thus enhancing the efficiency and relevance of the information sourced.
+	- Exemplified by [[FLARE (Information Retreival)]] and [[Self-RAG]]; Adaptive retrieval refines the RAG framework by enabling *LLMs* to actively determine the optimal moments and content for retrieval, thus enhancing the efficiency and relevance of the information sourced.
 		- These methods are vaguely related to other methods in a trend wherein LLMs employ *active judgement* in their operations (eg in [[Toolformer]]).
 	- Self-RAG introduces "reflection tokens" that allow the model to introspect its outputs. These tokens come in two varieties: "retrieve" and "critic." The model autonomously decides when the activate retrieval -- during retrieval, the generator conducts a fragment-level beam search across multiple paragraphs to derive the most coherent sequence. Critic scores are used to update the subdivision scores, with the flexibility to adjust these weights during inference ((Honestly these authors do not fuckign speak english)).
 
