@@ -1,3 +1,9 @@
+---
+aliases:
+  - AGM-114
+  - AGM-114 R9X
+---
+
 
 https://en.wikipedia.org/wiki/AGM-114_Hellfire
 
@@ -20,7 +26,7 @@ Variants:
 - AGM-114N Hellfire (MAC): Produced 2003-2018, for buildings, soft-skinned targets, ship-borne targets.
 - AGM-114P/P+ Hellfire II (for UAS): Produced 2003-2012, for all targets.
 - ==AGM-114 Hellfire II== (Hellfire Romeo): Produced 2012-Present, for all targets.
-- ==AGM-114R-9X== ("Flying Ginsu"): Variant with the kinetic warhead replaced with pop-out blades instead of explosives, used against human targets.
+- ==AGM-114 R9X== ("Flying Ginsu"): Variant with the kinetic warhead replaced with pop-out blades instead of explosives, used against human targets.
 
 
 ![[Pasted image 20260713114510.png]]

@@ -22,6 +22,34 @@ A satellite imagery company (Acq. PE Company Advent International 2023) that ope
 - ==WorldView==-4 — 0.31m, but failed in 2019
 - ==GeoEye==-1 — 0.41m pan, 1.65m multispectral
 
+
+# Products
+- Tensorglobe: Vantor's AI-powered spatial intelligence platform, designed to be a "living globe"
+	- Cortex: Automatically schedules and tasks satellite constellations
+	- Forge: Fuses that collected imagery with other sensors to build 3D maps
+	- Nexus: Securely hosts and serves that finished map data out via apps and APIs
+- Imaging/Base Mapping Products
+	- WorldView: Unified tasking access to commercial optical/radar satellite imagery.
+	- Vivid Mosaic: Suite of high-accuracy, cloud-free 2D basemap mosaics at up to 15cm resolution
+	- WorldView 3D and Vivid Terrain: 3D digital terrain and surface models providing continuous surface updates for remote/contested areas.
+	- Vivid Features: Analysis-ready vector and mapping data derived from satellite observations.
+- Mission Solutions for defense/intelligence/autonomy
+	- Sentry: A persistent monitoring/observation solutions for anticipating global threats and providing predictive intelligence.
+	- Raptor: Software designed to maximize GPS resilience for autonomous systems and operations in GPS-denied environments. Used for [[Visual Positioning System]]s.
+		- Raptor Guide: Navigate with certainty; [[Visual Positioning System|VPS]] software loaded directly onto the drone.
+		- Raptor Sync: Unify your view; software that [[Georeference|Georegister]]s (Georeferences) full-motion video feed from the drone's on-board camera with Vantor's 3D terrain data in real time; absolute coordinate extraction at a demonstrated absolute accuracy of less than 3 meters.
+		- Raptor Ace: Software installed on commodity laptop equipment that works alongside drone controllers, enabling operators to extract real-time target ground coordinates from full-motion aerial video feeds.
+
+
+
+![[Pasted image 20260715130421.png]]
+
+![[Pasted image 20260715130502.png]]
+
+
+
+
+
 ![[Pasted image 20260415205415.png|1114]]
 Above: Images from next-gen WorldView Legion satellites (2024)
 

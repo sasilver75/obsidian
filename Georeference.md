@@ -2,6 +2,8 @@
 aliases:
   - Georeferencing
   - Direct Georeferencing
+  - Georegistration
+  - Georegister
 ---
 ==Aligns digital images== or [[Raster]] datasets (like scanned maps or aerial photos) ==to a known coordinate system==, ==allowing them to be accurately positioned== on the Earth's surface.
 

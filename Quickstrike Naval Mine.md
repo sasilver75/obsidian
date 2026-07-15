@@ -13,6 +13,13 @@ The [[Quickstrike Naval Mine|Mk 64 Mod 5]] is a "Quickstrike Extended Range (ER)
 
 
 
+![[Pasted image 20260715100115.png]]
+
+THere's also a [[Joint Direct Attack Munition|JDAM-ER]] version of the quickstrike mine, as well as perhaps a [[Joint Direct Attack Munition|JDAM-LR]] version of the quickstrike mine.
+
+
+
+
 
 
 

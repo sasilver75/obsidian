@@ -8,7 +8,7 @@ The LCCM program is a [[United States Department of Defense|DoD]] initiative to 
 The program aims to procure over 10,000 containerized strike systems from commercial defense companies between 2027 and 2029.
 
 Pentagon has awarded framework agreements to:
-- [[Anduril]] for the [[Barracuda-500]] class
+- [[Anduril]] for the [[Barracuda]] class
 - [[CoAspire]] for the [[GHOST]] missile
 - [[Leidos]] for the [[AGM-190 Black Arrow]]
 - [[Zone 5]] for the [[AGM-188 Rusty Dagger]]

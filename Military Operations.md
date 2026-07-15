@@ -14,6 +14,7 @@ Major Operations:
 - [[Operation Neptune Spear]] (2011): Raid that killed Osama bin Laden in Abottabad, Pakistan.
 - [[Operation Odyssey Dawn]] (2011): U.S. opening phase of the Libya intervention.
 - [[Operation Juniper Shield]] (2012-Present): US counterterrorism support mission in the Sahara/Sahel.
+- [[Operation Spartan Shield]] (2012-Present): A US CENTCOM mission that deters regional threats across the middle east.
 - [[Operation Inherent Resolve]] (2014-Present): US-led coalition campaign against ISIS; now largely advisory.
 - [[Operation Atlantic Resolve]] (2014-Present): US/NATO deterrence and reassurance mission in Europe after Russian invasion of Ukraine.
 	- The actual funding program for Ukraine is called Ukraine Security Assistance Initiative (USAI), rather than a distinct operation name.

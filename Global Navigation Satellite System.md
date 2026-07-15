@@ -89,3 +89,11 @@ Above: Major civil/open GNSS frequency bands Omits military/restricted signals, 
 	- Used by WAAS, EGNOS, MSAS, GAGAN, and other SBAS systems; correction and integrity messages for aviation and improved civil positioning.
 
 
+
+
+![[Pasted image 20260715125522.png]]
+
+
+![[Pasted image 20260715125554.png]]
+See that many of these GNSSs live in a pretty tightly-coupled frequency band. I've heard it said that if you want to jam Russian [[Globalnaya Navigazionnaya Sputnikovaya Sistema|GLONASS]], you might be inherently jamming your own [[Global Positioning System|GPS]], because they inherently live in similar frequency bands.
+- Note that a lot of GPS systems aren't designed to take off without 

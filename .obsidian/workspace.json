@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quickstrike Naval Mine.md",
+                "file": "JP 3-60 Joint Targeting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,203 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quickstrike Naval Mine"
+              "title": "JP 3-60 Joint Targeting"
+            }
+          },
+          {
+            "id": "e6fa37591908ba04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kill Box.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kill Box"
+            }
+          },
+          {
+            "id": "ea25884b889982fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Worldwide Intelligence Communications System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Worldwide Intelligence Communications System"
+            }
+          },
+          {
+            "id": "9471f5daead251ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MV-75 Cheyenne II.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MV-75 Cheyenne II"
+            }
+          },
+          {
+            "id": "86b66e8e7fc00f7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Georeference.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Georeference"
+            }
+          },
+          {
+            "id": "fd9ec1635ddc1ec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "V-22 Osprey.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "V-22 Osprey"
+            }
+          },
+          {
+            "id": "d4ffb341f102f90e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CV-22 Osprey.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CV-22 Osprey"
+            }
+          },
+          {
+            "id": "1b19b202809fb540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CMV-22B Osprey.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CMV-22B Osprey"
+            }
+          },
+          {
+            "id": "8dbdb22bc7a8e674",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mk 46 Gun Weapon System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mk 46 Gun Weapon System"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2181,44 +2374,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "986056f743a9fbc9",
+  "active": "9471f5daead251ca",
   "lastOpenFiles": [
-    "QUICKSINK.md",
+    "GBU-53B StormBreaker.md",
+    "Maxar.md",
+    "_attachments/Pasted image 20260715130502.png",
+    "_attachments/Pasted image 20260715130421.png",
+    "Georeference.md",
+    "Joint Worldwide Intelligence Communications System.md",
+    "V-22 Osprey.md",
+    "CV-22 Osprey.md",
+    "CMV-22B Osprey.md",
+    "Mk 46 Gun Weapon System.md",
+    "Kill Box.md",
     "JP 3-60 Joint Targeting.md",
-    "Joint Targeting Cycle.md",
-    "Targeting.md",
-    "DARPA AlphaDogfight Program.md",
-    "Major Defense Acquisition Program.md",
-    "Electronic Countermeasure.md",
-    "AIM-260 JATM.md",
-    "Agile Combat Employment.md",
-    "FQ-42A Dark Merlin.md",
-    "Shield AI Hivemind.md",
-    "FLARE (Information Retreival).md",
+    "Global Navigation Satellite System.md",
+    "_attachments/Pasted image 20260715125554.png",
+    "_attachments/Pasted image 20260715125522.png",
+    "Saronic Marauder.md",
+    "_attachments/Pasted image 20260715124525.png",
+    "Palantir.md",
+    "Visual Positioning System.md",
+    "Software Bill of Materials.md",
     "Kill Web.md",
-    "Shield AI.md",
-    "Defense Contractor.md",
-    "Flare.md",
-    "Beyond Visual Line of Sight.md",
-    "Marine Expeditionary Unit.md",
-    "Milestone Decision Authority.md",
-    "Major Capability Acquisition.md",
-    "ANTWQ-1 Avenger.md",
-    "MQ-25 Stingray.md",
-    "Vectis.md",
-    "_attachments/Pasted image 20260714224214.png",
-    "Neros Technologies.md",
-    "_attachments/Pasted image 20260714185524.png",
-    "_attachments/Pasted image 20260714185507.png",
-    "_attachments/Pasted image 20260714185346.png",
-    "_attachments/Pasted image 20260714185336.png",
+    "Silent Arrow.md",
+    "_attachments/Pasted image 20260715112009.png",
+    "_attachments/Pasted image 20260715112003.png",
+    "_attachments/Pasted image 20260715111954.png",
+    "Maven Smart System.md",
+    "_attachments/Pasted image 20260715104657.png",
+    "_attachments/Pasted image 20260715104637.png",
+    "Mark 60 CAPTOR.md",
+    "Barracuda.md",
+    "Joint Direct Attack Munition.md",
+    "Military Operations.md",
+    "AGM-114 Hellfire.md",
     "Air Defense Artillery.md",
-    "_attachments/Pasted image 20260714184928.png",
-    "AIM-174B Gunslinger.md",
-    "_attachments/Pasted image 20260714182902.png",
-    "_attachments/Pasted image 20260714182426.png",
-    "_attachments/Pasted image 20260714165359.png",
-    "_attachments/Pasted image 20260714163844.png",
+    "Quickstrike Naval Mine.md",
+    "QUICKSINK.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

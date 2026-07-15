@@ -171,7 +171,7 @@ Weapons/Munitions
 - [[Mk 45]] 5-inch gun
 - [[Mk 110]] 57 mm gun
 - [[Mk 38]] 25mm gun
-- [[Mk 46]] 30 mm gun weapon system
+- [[Mk 46 Gun Weapon System]] 30 mm gun weapon system
 - [[Phalanx CIWS]]
 - [[Mk 70 Mod 1]]
 
