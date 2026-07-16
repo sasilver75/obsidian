@@ -9,7 +9,7 @@ They're *typically* used for [[Intelligence, Surveillance, and Reconnaissance|IS
 Examples:
 - [[United States Navy]]'s [[Orca XLUUV]]
 - [[PLA Navy|PLAN]]'s [[AJX002]] and [[HSU100]]
-- [[Anduril]]'s [[Ghost Shark]]
+- [[Anduril]]'s [[Anduril Ghost Shark XL-AUV]]
 - Canadian Solus-XR
 - Indian Jalkapi
 

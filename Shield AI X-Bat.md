@@ -5,6 +5,7 @@ aliases:
 References:
 - [Video: Sandbox: Shield AI's new X-Bat Fighter Drone could change AI warfare forever](https://youtu.be/GXgEqT0AR_k?si=kthV3XMXIHzOrbOp)
 - [Video: Shawn Ryan: Shield AI's X-Bat](https://www.youtube.com/watch?v=p8DjGa16PQM)
+- [Video: TWZ interview with X-BAT designer](https://youtu.be/FOAdh67NYuU?si=h3hrKGrqfxF7ml-a)
 
 https://shield.ai/x-bat/
 

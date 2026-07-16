@@ -1,6 +1,7 @@
 ---
 aliases:
   - YFQ-42A
+  - Gambit 2
 ---
 
 

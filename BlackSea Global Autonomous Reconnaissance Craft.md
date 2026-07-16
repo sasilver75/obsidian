@@ -2,6 +2,7 @@
 aliases:
   - GARC
   - Global Autonomous Reconnaissance Craft
+  - BlackSea GARC
 ---
 References:
 - [Video: GARC: The Most Proven Tactical USV](https://www.youtube.com/watch?v=KUKu0vGH_3k)

@@ -10,6 +10,7 @@
 - [[Anduril Dive-XL|Dive-XL]]
 - [[Anduril Copperhead|Copperhead]]
 - [[Anduril Seabed Sentry|Seabed Sentry]]
+- [[Anduril Ghost Shark XL-AUV]]
 
 
 # Land

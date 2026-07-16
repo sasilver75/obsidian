@@ -15,6 +15,7 @@ Terms
 ==TODO: BREAK THESE UP BY COUNTRY OF ORIGIN==
 Relevant Contractors
 - [[Lockheed Martin]]
+	- [[Sikorsky]]
 - [[Raytheon]] (RTX after merger of Raytheon and United Technologies)
 - [[Northrop Grumman]]
 - [[Boeing]]

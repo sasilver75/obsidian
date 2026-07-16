@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6fa37591908ba04",
+            "id": "fc3314e962456293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collaborative Combat Aircraft.md",
+                "file": "Coyote.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Collaborative Combat Aircraft"
+              "title": "Coyote"
             }
           },
           {
-            "id": "77904417f291303b",
+            "id": "3d1601e5d42c7db8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S-70 UAS.md",
+                "file": "Wasp III.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "S-70 UAS"
+              "title": "Wasp III"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2206,44 +2205,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "77904417f291303b",
+  "active": "fc3314e962456293",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260716091931.png",
-    "_attachments/Pasted image 20260716091910.png",
-    "S-70 UAS.md",
+    "_attachments/Pasted image 20260716150042.png",
+    "BlackSea Technologies.md",
+    "Black Widow.md",
+    "M134 Minigun.md",
+    "Joint Aviation Tactics & Evaluation Group.md",
     "Collaborative Combat Aircraft.md",
-    "_attachments/Pasted image 20260716090708.png",
-    "Drone.md",
+    "Coyote.md",
+    "_attachments/Pasted image 20260716145550.png",
+    "_attachments/Pasted image 20260716145030.png",
+    "Group 5 UAS.md",
+    "Group 4 UAS.md",
+    "Group 3 UAS.md",
+    "Group 2 UAS.md",
+    "Group 1 UAS.md",
+    "Wasp III.md",
+    "Anduril.md",
+    "Anduril Ghost Shark XL-AUV.md",
+    "Anduril Ghost.md",
+    "_attachments/Pasted image 20260716142448.png",
+    "_attachments/Pasted image 20260716142446.png",
+    "_attachments/Pasted image 20260716142441.png",
+    "Extra-Large Uncrewed Underwater Vehicle.md",
+    "Anduril Copperhead.md",
+    "BlackSea Global Autonomous Reconnaissance Craft.md",
+    "ROGUE-Fires.md",
     "Command and Control.md",
-    "Targeting.md",
-    "United States Army.md",
-    "MGM-140 Army Tactical Missile System.md",
-    "Mk 41 VLS.md",
-    "Precision Strike Missile.md",
-    "Defense Contractor.md",
-    "M3 Bradley.md",
-    "M270 Multiple Launch Rocket System.md",
-    "Guided Multiple Launch Rocket System.md",
-    "_attachments/Pasted image 20260716005455.png",
-    "_attachments/Pasted image 20260716005219.png",
-    "_attachments/Pasted image 20260716005211.png",
-    "_attachments/Pasted image 20260716004848.png",
-    "_attachments/Pasted image 20260716004842.png",
-    "ANMPQ-53.md",
-    "ANMPQ-65.md",
-    "M109 Paladin.md",
-    "Enduring Shield.md",
-    "JP 3-60 Joint Targeting.md",
-    "_attachments/Pasted image 20260716002136.png",
-    "_attachments/Pasted image 20260716002120.png",
-    "_attachments/Pasted image 20260716002052.png",
-    "MIM-104 Patriot.md",
-    "RIM-174 SM-6.md",
-    "PAC-2 GEM-T.md",
-    "PAC-3 MSE.md",
-    "Long-Range Hypersonic Weapon.md",
-    "Medium-Range Ballistic Missile.md",
-    "Kill Box.md",
+    "MQ-1C Gray Eagle.md",
+    "Shield AI X-Bat.md",
+    "HDT Hunter WOLF.md",
+    "Leonardo DRS.md",
+    "RQ-28A.md",
+    "_attachments/Pasted image 20260716110822.png",
+    "_attachments/Pasted image 20260716110821.png",
+    "_attachments/Pasted image 20260716110804.png",
+    "_attachments/Pasted image 20260716110748.png",
+    "_attachments/Pasted image 20260716110738.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

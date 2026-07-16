@@ -4,6 +4,8 @@ aliases:
 ---
 https://en.wikipedia.org/wiki/Naval_Strike_Missile
 
+In Service 2012-Present
+
 A highly maneuverable, fifth-generation anti-ship and land-attack cruise missile developed by the Norwegian company [[Kongsberg]].
 Attempts to evade advanced air defenses by utilizing sea-skimming capabilities and terrain-following evasive maneuvers.
 
