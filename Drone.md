@@ -1,3 +1,10 @@
+---
+aliases:
+  - Remotely  Piloted Aircraft
+  - RPA
+---
+
+
 References:
 - Video: [Drones | How do they work?](https://www.youtube.com/watch?v=N_XneaFmOmU)
 

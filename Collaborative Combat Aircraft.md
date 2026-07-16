@@ -2,13 +2,15 @@
 aliases:
   - CCA
 ---
-
+## Increment One
 One or both will be receiving a contract for operational service in the next year:
 - [[General Atomics]]'s [[FQ-42A Dark Merlin]] (Gambit 2)
 - [[Anduril]]'s [[FQ-44 Fury]] (A wingspan that is nearly half the size of the Dark Merlin's)
 
 ![[Pasted image 20260714010849.png]]
 Above: The YFQ-44A on top, and the YFQ-42A on bottom, now under developmenet as the FQ-44A and FQ-42A under Increment 1 of the USAF's CCA program.
+
+![[Pasted image 20260716090708.png]]
 
 
 #### Additional CCAs, not necessarily funded under the USAF CCA program
