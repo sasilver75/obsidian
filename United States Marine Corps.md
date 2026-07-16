@@ -32,7 +32,7 @@ Fires / Missiles
 - [[M777|M777A2]]: Lightweight 155mm towed howitzer used for cannon artillery fire support.
 - [[M142 High Mobility Artillery Rocket System|M142 HIMARS]]: Wheeled rocket-artillery launcher used to fire precision rockets and missiles such as GMLRS, ATACMS, and PrSM.
 - [[Guided Multiple Launch Rocket System|GMLRS]] + [[Guided Multiple Launch Rocket System|ER GMLRS]]: Precision-guided rocket family for HIMARS and MLRS launchers, with ER GMLRS extending the range of the baseline rocket.
-- [[Army Tactical Missile System]] (ATACMS): Long-range surface-to-surface ballistic missile fired from HIMARS or MLRS launchers for deep precision strike.
+- [[MGM-140 Army Tactical Missile System]] (ATACMS): Long-range surface-to-surface ballistic missile fired from HIMARS or MLRS launchers for deep precision strike.
 - [[Precision Strike Missile]] (PrSM): Next-generation long-range surface-to-surface missile replacing ATACMS for precision deep-strike missions.
 - [[Navy-Marine Expeditionary Ship Interdiction System]] (NMESIS): Marine Corps ground-based anti-ship missile system pairing Naval Strike Missiles with the unmanned ROGUE-Fires launcher.
 - [[Naval Strike Missile]]: Sea-skimming precision anti-ship missile used by NMESIS and naval platforms to attack surface vessels.

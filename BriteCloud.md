@@ -1,3 +1,6 @@
+References:
+- [Video: Sandboxx: America's F-35s just became EVEN HARDER to shoot down](https://www.youtube.com/watch?v=V_xLrIrbA70)
+
 An advanced [[Expendable Active Decoy]] developed by Leonardo that protects military aircraft from [[Radar]]-guided missiles.
 
 Launched like a standard flare, it uses a built-in [[Digital Radio Frequency Memory]] (DRFM) jammer to simulate "false targets," drawing enemy missiles away from the aircraft, acting as an "off-board" jammer, defeating the "home-on-jam" vulnerabilities common to traditional on-board [[Electronic Countermeasure]]s.

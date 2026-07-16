@@ -2,9 +2,10 @@
 aliases:
   - Suicide Drone
   - Kamikaze Drone
-  - OWA-UAV
+  - OWA
 ---
 https://en.wikipedia.org/wiki/One-way_attack_drone
+(Suicide Drone and Kamikaze Drone are terms that have fallen by the wayside, for obvious reasons)
 
 A self-destructive [[Unmanned Autonomous System|UAS]] designed to strike a target by crashing into it with an integrated warhead. 
 

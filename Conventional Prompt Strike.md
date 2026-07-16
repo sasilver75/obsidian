@@ -6,7 +6,7 @@ aliases:
 ---
 https://en.wikipedia.org/wiki/Conventional_Prompt_Strike
 
-Formerly called Prompt Global Strike (PGS)
+Formerly called Prompt Global Strike (PGS); The Navy analogue to the [[Long-Range Engagement Weapon]] (Dark Eagle)
 
 A military effort to develop a system that can deliver a precision-guided *conventional weapon strike* anywhere in the world within one hour, in a similar manner to a nuclear [[Intercontinental Ballistic Missile|ICBM]].
 

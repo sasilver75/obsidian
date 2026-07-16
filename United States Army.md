@@ -4,6 +4,33 @@ aliases:
 ---
 
 
+Major Branches:
+- Maneuvers, Fires, and Effects
+	- Infantry
+	- Armor
+	- Aviation
+	- Field Artillery
+	- [[Air Defense Artillery]]
+	- Corps of Engineers
+	- Special Forces
+- Operations Support
+	- Cyber
+	- Military Intelligence
+	- Military Police
+	- Signal Corps
+	- Chemical Corps
+- Force Sustainment
+	- Quartermaster Corps
+	- Transportation Corps
+	- Ordnance Corps
+	- Adjutant General's Corps
+	- Finance Corps
+- Special Branches
+	- Army Medical Department
+	- Chaplain Corps
+	- Judge Advocate General's (JAG) Corps
+	- Civil Affairs Corps
+
 
 
 # Maneuver, Fire Inventory
@@ -44,7 +71,7 @@ Fires
 - [[M270 Multiple Launch Rocket System]] (MLRS): Tracked rocket-artillery launcher used to fire GMLRS, ATACMS, and PrSM-family munitions.
 - [[M142 High Mobility Artillery Rocket System]] (HIMARS): Wheeled rocket-artillery launcher used to fire precision rockets and long-range missiles with high tactical mobility.
 - [[Guided Multiple Launch Rocket System]] (GMLRS, ER GMLRS): Precision-guided rocket family for HIMARS and MLRS launchers, with extended-range variants increasing reach.
-- [[Army Tactical Missile System]] (ATACMS): Long-range surface-to-surface ballistic missile fired from HIMARS or MLRS launchers for deep precision strike.
+- [[MGM-140 Army Tactical Missile System]] (ATACMS): Long-range surface-to-surface ballistic missile fired from HIMARS or MLRS launchers for deep precision strike.
 - [[Precision Strike Missile]] (PrSM, "Prism"): Next-generation surface-to-surface missile replacing ATACMS for longer-range precision fires.
 - [[Typhon Mid-Range Capability]] (MRC): Ground-launched mid-range fires system that gives the Army land-based Tomahawk and SM-6 missile capability.
 - [[Long-Range Hypersonic Weapon]] (LRHW, "Dark Eagle"): Ground-launched hypersonic missile system intended for very long-range, high-speed strike against time-sensitive or defended targets.
@@ -59,8 +86,8 @@ Fires
 
 Air Defense
 - [[MIM-104 Patriot]]: Army air and missile defense system used to defeat aircraft, cruise missiles, and tactical ballistic missiles.
-- [[PAC-2 GEM-T]]: Patriot interceptor variant optimized for aircraft, cruise missile, and tactical ballistic missile defense using proximity-fuzed fragmentation effects.
-- [[PAC-3 MSE]]: Hit-to-kill Patriot interceptor variant with improved range and maneuverability for ballistic missile and air-breathing threat defense.
+- [[MIM-104 Patriot|PAC-2 GEM-T]]: Patriot interceptor variant optimized for aircraft, cruise missile, and tactical ballistic missile defense using proximity-fuzed fragmentation effects.
+- [[MIM-104 Patriot|PAC-3 MSE]]: Hit-to-kill Patriot interceptor variant with improved range and maneuverability for ballistic missile and air-breathing threat defense.
 - [[Terminal High Altitude Area Defense]] (THAAD): High-altitude ballistic missile defense system designed to intercept ballistic missiles in the terminal phase.
 - [[Integrated Battle Command System]] (IBCS): Networked air and missile defense battle-management system that connects sensors, launchers, and command nodes across formations.
 - [[Lower Tier Air and Missile Defense Sensor]] (LTAMDS, "GhostEye"): New Patriot-family air and missile defense radar designed to provide 360-degree sensing and improved threat tracking.

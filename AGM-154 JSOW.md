@@ -5,6 +5,7 @@ https://en.wikipedia.org/wiki/AGM-154_Joint_Standoff_Weapon
 JSOW = "Joint Standoff Weapon
 
 In Service: 1998 - Present
+- Since 1998, "At least 400 of the JSOW weapons have been used."
 
 A  [[Glide Bomb]] resulting from a joint venture between the [[United States Navy|Navy]] and [[United States Air Force|Air Force]] to deploy a standardized medium-range precision-guided weapon.
 
