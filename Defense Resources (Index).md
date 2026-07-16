@@ -49,6 +49,7 @@ Youtube Channels
 - [HISutton](https://www.youtube.com/@HISuttonCovertShores/videos), Submarines and more
 - [Sandboxx](https://www.youtube.com/@SandboxxApp/videos)
 - [The Ops Center by Mike Solyom](https://www.youtube.com/@TheOpsCenterByMikeSolyom)
+- [The Merge](https://www.youtube.com/@TheMergeMedia)
 
 
 Individuals

@@ -121,7 +121,7 @@ Stabilizing Reinforcement Learning
 		- KL Regularization: Our loss has two terms, with the first being a term that improves reward, and the second being a term that penalizes distance from the original policy.
 		- Proximal Policy Optimization: (Explanation unclear)
 - ![[Pasted image 20240617142216.png]]
-All of these are implemented in libraries like [[TRL]] from HuggingFace.
+All of these are implemented in libraries like [[Transformer Reinforcement Learning]] from HuggingFace.
 
 
 Adding a Baseline

@@ -20,6 +20,10 @@ On September 30, 2024, Defense Secretary Lloyd Austin III announced a new phase 
 	- The DroneHunter is a reusable, artificial intelligence-driven interceptor drone that provides a unique and effective solution to counter small UAS, especially in settings where personnel, infrastructure and surrounding activity require careful control of effects.  
 
 
+> Some of the money from Replicator went to existing products, and others to projects in flights that were basically reoriented towards the replicator program.
+
+
+
 
 
 

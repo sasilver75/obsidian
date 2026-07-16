@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MV-75 Cheyenne II.md",
+                "file": "GBU-53B StormBreaker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MV-75 Cheyenne II"
+              "title": "GBU-53B StormBreaker"
             }
           },
           {
-            "id": "86b66e8e7fc00f7d",
+            "id": "96d8511bb7309237",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Georeference.md",
+                "file": "Time and Materials.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Georeference"
+              "title": "Time and Materials"
             }
           },
           {
-            "id": "fd9ec1635ddc1ec6",
+            "id": "318e2a9472e6cd75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "V-22 Osprey.md",
+                "file": "Z.ai.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "V-22 Osprey"
+              "title": "Z.ai"
             }
           },
           {
-            "id": "d4ffb341f102f90e",
+            "id": "c7743aca5b0dd755",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV-22 Osprey.md",
+                "file": "Global Positioning System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CV-22 Osprey"
+              "title": "Global Positioning System"
             }
           },
           {
-            "id": "1b19b202809fb540",
+            "id": "cb3256733b1138de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMV-22B Osprey.md",
+                "file": "Visual Positioning System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CMV-22B Osprey"
+              "title": "Visual Positioning System"
+            }
+          },
+          {
+            "id": "3be84eee0f789eeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANALE-55 Fiber-Optic Towed Decoy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ANALE-55 Fiber-Optic Towed Decoy"
+            }
+          },
+          {
+            "id": "b90d9db7cf3a058d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BriteCloud.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BriteCloud"
+            }
+          },
+          {
+            "id": "e920272b779217a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defense Contractor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Defense Contractor"
             }
           },
           {
@@ -205,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mk 46 Gun Weapon System.md",
+                "file": "Visual Odometry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,11 +292,419 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mk 46 Gun Weapon System"
+              "title": "Visual Odometry"
+            }
+          },
+          {
+            "id": "b88236e906430826",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Solid Rocket Motor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Solid Rocket Motor"
+            }
+          },
+          {
+            "id": "e420e8543555319e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electronic Countermeasure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Electronic Countermeasure"
+            }
+          },
+          {
+            "id": "68c763b722fd1c21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-154 JSOW.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-154 JSOW"
+            }
+          },
+          {
+            "id": "8be995ca67d3a64a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Precision Kill Weapon System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Advanced Precision Kill Weapon System"
+            }
+          },
+          {
+            "id": "5cc96cb7e64b79e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-154 JSOW.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-154 JSOW"
+            }
+          },
+          {
+            "id": "14c1161013eb806a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-154 JSOW.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-154 JSOW"
+            }
+          },
+          {
+            "id": "d1234330a569999c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BLU-108.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BLU-108"
+            }
+          },
+          {
+            "id": "2d06df1175e64fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BLU-97B Combined Effects Bomb.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BLU-97B Combined Effects Bomb"
+            }
+          },
+          {
+            "id": "49128d36e1b2c841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-158 JASSM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-158 JASSM"
+            }
+          },
+          {
+            "id": "e21cdf28b1756020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BLU-108.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BLU-108"
+            }
+          },
+          {
+            "id": "c3773bb126ab5a9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPS INS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GPS INS"
+            }
+          },
+          {
+            "id": "0b9ace17494a3946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infrared Countermeasure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Infrared Countermeasure"
+            }
+          },
+          {
+            "id": "681fa8e708b537de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Directional Infrared Countermeasure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Directional Infrared Countermeasure"
+            }
+          },
+          {
+            "id": "97cf42ebb298af29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANALE-55 Fiber-Optic Towed Decoy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ANALE-55 Fiber-Optic Towed Decoy"
+            }
+          },
+          {
+            "id": "99a70e642c5de3bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Visual Simultaneous Localization and Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Visual Simultaneous Localization and Mapping"
+            }
+          },
+          {
+            "id": "45a19e83621ba3ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liquid-Propellant Rocket.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Liquid-Propellant Rocket"
+            }
+          },
+          {
+            "id": "d2772e961671c626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liquid-Propellant Rocket.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Liquid-Propellant Rocket"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -2374,44 +2854,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9471f5daead251ca",
+  "active": "14c1161013eb806a",
   "lastOpenFiles": [
-    "GBU-53B StormBreaker.md",
-    "Maxar.md",
-    "_attachments/Pasted image 20260715130502.png",
-    "_attachments/Pasted image 20260715130421.png",
-    "Georeference.md",
-    "Joint Worldwide Intelligence Communications System.md",
-    "V-22 Osprey.md",
-    "CV-22 Osprey.md",
-    "CMV-22B Osprey.md",
-    "Mk 46 Gun Weapon System.md",
-    "Kill Box.md",
-    "JP 3-60 Joint Targeting.md",
-    "Global Navigation Satellite System.md",
-    "_attachments/Pasted image 20260715125554.png",
-    "_attachments/Pasted image 20260715125522.png",
-    "Saronic Marauder.md",
-    "_attachments/Pasted image 20260715124525.png",
-    "Palantir.md",
-    "Visual Positioning System.md",
-    "Software Bill of Materials.md",
-    "Kill Web.md",
-    "Silent Arrow.md",
-    "_attachments/Pasted image 20260715112009.png",
-    "_attachments/Pasted image 20260715112003.png",
-    "_attachments/Pasted image 20260715111954.png",
-    "Maven Smart System.md",
-    "_attachments/Pasted image 20260715104657.png",
-    "_attachments/Pasted image 20260715104637.png",
-    "Mark 60 CAPTOR.md",
-    "Barracuda.md",
-    "Joint Direct Attack Munition.md",
-    "Military Operations.md",
-    "AGM-114 Hellfire.md",
-    "Air Defense Artillery.md",
-    "Quickstrike Naval Mine.md",
-    "QUICKSINK.md",
+    "BLU-97B Combined Effects Bomb.md",
+    "AGM-154 JSOW.md",
+    "BLU-108.md",
+    "AGM-158 JASSM.md",
+    "GPS INS.md",
+    "Wikipedia.md",
+    "Advanced Precision Kill Weapon System.md",
+    "_attachments/Pasted image 20260715184839.png",
+    "_attachments/Pasted image 20260715184821.png",
+    "_attachments/Pasted image 20260715184806.png",
+    "Other Transaction Authority.md",
+    "APKWS II.md",
+    "Marine Expeditionary Unit.md",
+    "ANALE-55 Fiber-Optic Towed Decoy.md",
+    "_attachments/Pasted image 20260715180931.png",
+    "_attachments/Pasted image 20260715180919.png",
+    "North Atlantic Treaty Organization.md",
+    "Visual Simultaneous Localization and Mapping.md",
+    "MQ-25 Stingray.md",
+    "Defense Innovation Unit.md",
+    "DOTMLPF-P.md",
+    "Standardization Agreement.md",
+    "Directional Infrared Countermeasure.md",
+    "Infrared Countermeasure.md",
+    "Electronic Countermeasure.md",
+    "Miniature Self-Defense Missile.md",
+    "Solid Rocket Motor.md",
+    "Visual Odometry.md",
+    "_attachments/Pasted image 20260715172837.png",
+    "_attachments/Pasted image 20260715172525.png",
+    "Beyond Visual Range.md",
+    "_attachments/Pasted image 20260715171439.png",
+    "Solid-Propellant Rocket.md",
+    "Liquid-Propellant Rocket.md",
+    "_attachments/Pasted image 20260715170959.png",
+    "_attachments/Pasted image 20260715150115.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

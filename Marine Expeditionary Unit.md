@@ -2,7 +2,8 @@
 aliases:
   - MEU
 ---
-
+References:
+- [Video: Marines: What is an MEU?](https://youtu.be/7Y14qSQRVKI?si=RzKWAXDJ72vi2vtv) (Unprocessed)
 
 The smallest routinely-deployed [[Marine Air-Ground Task Force|MAGTF]]: a self-contained, forward-deployed Marine force built to respond quickly to crises from sea.
 Has its own command element, ground combat force, aviation force, and logistics force.

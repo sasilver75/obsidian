@@ -25,3 +25,13 @@ The US-Operated Satellite [[Constellation]] that provides positioning, navigatio
 	- Time of flight from satellites -> distance spheres -> where they intersect is you
 
 
+
+> A lot of people who don't use it... might be oblivious to things that happen in space (solar flares, coronal holes, sunspots, F10.7 cm Radio Emissions, Solar EUV irradiance, coronal mass ejections, solar wind, solar radiation storms, geomagnetic storms, ground induced currents, ionospheric scintillation, etc.) that degrade GPS... Satellites orbit the earth, and there are so many you uses for navigation... sometimes the triangulatio n gets too close and you have ==dilution of precision==. Note also that the different [[Global Navigation Satellite System|GNSS]] frequencies are pretty well-stacked over eachother, so if you're a good guy trying to jam [[Globalnaya Navigazionnaya Sputnikovaya Sistema|GLONASS]], you might also inherently jam your own stuff! Fratricide via jamming... and a lot of drone system are not designed to take off without a GPS lock. [[Visual Positioning System]]s can help you get around these.
+
+![[Pasted image 20260715145839.png]]
+
+![[Pasted image 20260715145745.png]]
+
+
+
+![[Pasted image 20260715145649.png]]

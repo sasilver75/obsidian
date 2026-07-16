@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Transformer Reinforcement Learning
+  - TRL
 ---
 Link: [TRL](https://huggingface.co/docs/trl/en/index)
 

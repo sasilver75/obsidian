@@ -1,8 +1,16 @@
+---
+aliases:
+  - Defense Contracting
+---
 
-Pricing Models
+
+Terms
 - [[Cost-Plus Pricing]]
+	- [[Time and Materials]]
 - [[Firm-Fixed Pricing]]
 - Cost-Plus Incentive Fee (CPIF) Pricing
+- [[Indefinite Delivery, Indefinite Quantity]]
+
 
 ==TODO: BREAK THESE UP BY COUNTRY OF ORIGIN==
 Relevant Contractors

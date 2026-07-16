@@ -11,8 +11,5 @@ Determines a device's precise location and orientation by comparing camera image
 
 
 
-
-[[Maxar|Vantor]] 
-
-
-
+# Comparison with [[Terrain Contour Matching|TERCOM]]
+- Both are GPS-independent navigation technologies used to determine location, but TERCOM matches 3D elevation maps with altitude data, while VPS matches 2D visual images with camera feeds.

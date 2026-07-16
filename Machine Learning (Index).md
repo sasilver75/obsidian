@@ -555,7 +555,7 @@ Terms:
 - [[spaCy]] 🪙🧨
 - [[Streamlit]] ⚒️⚡
 - [[Trafilatura]] 🔎📝
-- [[TRL]] (Transformer Reinforcement Learning)
+- [[Transformer Reinforcement Learning]] (TRL)
 - [[Unsloth]] 👨‍🔬⚗️
 - [[vLLM]]
 - [[Weave]] 🗣️🔬
