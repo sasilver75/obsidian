@@ -5,6 +5,9 @@ aliases:
   - MLRS
   - M270 MLRS
 ---
+References:
+- [Video: Battle Order: Battle Tactics of HIMARS and MLRS Missile Artillery](https://youtu.be/jv8a_Wz1H50?si=gGJzy7uG7pKpCcaa)
+
 https://en.wikipedia.org/wiki/M270_Multiple_Launch_Rocket_System
 In Service: 1983-Present
 
@@ -31,3 +34,36 @@ Variants:
 
 
 ![[Pasted image 20260716005219.png]]
+
+
+![[Pasted image 20260716234828.png]]
+
+
+![[Pasted image 20260716235035.png]]
+
+![[Pasted image 20260716235047.png]]
+
+
+
+
+![[Pasted image 20260716234854.png]]
+They use the same munitions
+
+![[Pasted image 20260716234908.png]]
+
+![[Pasted image 20260716234921.png]]
+
+![[Pasted image 20260716234935.png]]
+
+
+![[Pasted image 20260716235016.png]]
+
+![[Pasted image 20260716235108.png]]
+
+![[Pasted image 20260716235115.png]]
+
+![[Pasted image 20260716235126.png]]
+
+![[Pasted image 20260716235137.png]]
+
+![[Pasted image 20260716235150.png]]

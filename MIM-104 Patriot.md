@@ -6,6 +6,9 @@ aliases:
   - PAC-3 MSE
   - M903 LS
 ---
+References:
+- [Video: Battle Order: How the US Army's PATRIOT Missile Fights](https://www.youtube.com/watch?v=n1ixqmKv9b8)
+
 https://en.wikipedia.org/wiki/MIM-104_Patriot
 
 In Service 1984-Present

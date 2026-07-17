@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JP 3-60 Joint Targeting.md",
+                "file": "M1156 Precision Guidance Kit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JP 3-60 Joint Targeting"
+              "title": "M1156 Precision Guidance Kit"
             }
           },
           {
-            "id": "9b345cb4b1a3c0b8",
+            "id": "21b2693a270a5acf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Effect.md",
+                "file": "M982 Excalibur.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,79 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Effect"
-            }
-          },
-          {
-            "id": "cf078e45fe6268db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Time Sensitive Target.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Time Sensitive Target"
-            }
-          },
-          {
-            "id": "f4d85c75d19cb06c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Integrated Prioritized Target List.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Integrated Prioritized Target List"
-            }
-          },
-          {
-            "id": "ee88f04069176401",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Time Sensitive Target.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Time Sensitive Target"
+              "title": "M982 Excalibur"
             }
           }
         ],
@@ -2278,44 +2206,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9b345cb4b1a3c0b8",
+  "active": "21b2693a270a5acf",
   "lastOpenFiles": [
-    "JP 3-60 Joint Targeting.md",
-    "Time Sensitive Target.md",
-    "Joint Integrated Prioritized Target List.md",
-    "RQ-7 Shadow.md",
-    "MQ-1C Gray Eagle.md",
-    "Area of Responsibility.md",
-    "Restricted Operating Zone.md",
-    "Forward Line of Own Troops.md",
+    "Indications and Warning.md",
+    "M1156 Precision Guidance Kit.md",
+    "M982 Excalibur.md",
+    "Cost-Exchange Ratio.md",
+    "Analysis and Control Element.md",
+    "Circular Error Probable.md",
+    "_attachments/Pasted image 20260717111016.png",
+    "Advanced Field Artillery Tactical Data System.md",
+    "Complex Event Processing.md",
+    "ofetch.md",
+    "Guided Multiple Launch Rocket System.md",
+    "Find, Fix, Finish, Exploit, Analyze, Dissmeinate.md",
+    "Joint Planning and Execution Community.md",
+    "Joint Chiefs of Staff.md",
+    "Chairman of the Joint Chiefs of Staff.md",
+    "Measures of Performance.md",
+    "Defense Resources (Index).md",
+    "AGM-179 JAGM.md",
+    "AIM-260 JATM.md",
+    "Joint Fires Element.md",
+    "Aviation Apportionment.md",
+    "Joint Targeting Coordination Board.md",
+    "Joint Intelligence Preparation of the Environment.md",
     "Unified Combatant Command.md",
-    "Targeting.md",
-    "Kill Box.md",
-    "_attachments/Pasted image 20260716211733.png",
-    "Fire Support Coordination Line.md",
-    "Forward Line of Enemy Troops.md",
-    "GBU-69B.md",
-    "_attachments/Pasted image 20260716185119.png",
-    "Manned-Unmanned Teaming.md",
-    "_attachments/Pasted image 20260716184541.png",
-    "_attachments/Pasted image 20260716184408.png",
-    "_attachments/Pasted image 20260716184354.png",
-    "_attachments/Pasted image 20260716184301.png",
-    "_attachments/Pasted image 20260716184159.png",
-    "_attachments/Pasted image 20260716184100.png",
-    "_attachments/Pasted image 20260716183801.png",
-    "Reconnaissance.md",
-    "_attachments/Pasted image 20260716183415.png",
-    "gray eag.md",
-    "Wasp III.md",
-    "Precision Strike Missile.md",
-    "S-70 UAS.md",
-    "Naval Strike Missile.md",
-    "F-35 Lightning II.md",
-    "ANAPG-81.md",
-    "Anduril Dive-XL.md",
-    "Vertical Launch System.md",
-    "Coyote.md",
+    "Joint Operation Planning and Execution System.md",
+    "President of the United States.md",
+    "Secretary of Defense.md",
+    "_attachments/Pasted image 20260717101559.png",
+    "_attachments/Pasted image 20260717093954.png",
+    "_attachments/Pasted image 20260717000554.png",
+    "_attachments/Pasted image 20260717000525.png",
+    "_attachments/Pasted image 20260716235320.png",
+    "_attachments/Pasted image 20260716235308.png",
+    "_attachments/Pasted image 20260716235236.png",
+    "_attachments/Pasted image 20260716235226.png",
+    "_attachments/Pasted image 20260716235207.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

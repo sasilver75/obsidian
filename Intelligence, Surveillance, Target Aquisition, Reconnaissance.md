@@ -1,0 +1,10 @@
+---
+aliases:
+  - ISTAR
+  - Reconnaissance, Surveillance, Target Aquisition
+  - RSTA
+---
+
+
+It's all the same shit man
+![[Pasted image 20260717101559.png]]

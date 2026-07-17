@@ -3,7 +3,7 @@ aliases:
   - GMLRS
   - ER GMLRS
 ---
-
+Pron "Gimlers",  rhymes while Himmlers
 https://en.wikipedia.org/wiki/M270_Multiple_Launch_Rocket_System#GMLRS
 
 
@@ -17,3 +17,8 @@ Standard variants exceed 52mi/84km in range, while newer Extended-Range (==ER==)
 
 
 ![[Pasted image 20260716005455.png]]
+
+![[Pasted image 20260716235104.png]]
+
+![[Pasted image 20260716235115.png]]
+

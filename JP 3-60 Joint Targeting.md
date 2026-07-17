@@ -37,7 +37,15 @@ ________
 		4. ==Commander's Decision and Force Assignment==: Fuses the previous capabilities analysis with available forces, sensors, and weapons systems.
 		5. ==Mission Planning and Force Execution==: Detailed unit-level planning must be performed for the execution of operations. Provides component planners with direct access to detailed information on targets, and analytical reasoning that linked the target with the desired effects.
 		6. ==Combat Assessment==: Assesses the effectiveness of the activities that occurred during the first five phases of the JTC.
-- 
+- An [[Effect]] is the change in the physical or behavioral state of a target system, a target system component, a target, or a target element that results from an action, set of actions, or another effect.
+- The [[Joint Force Commander|JFC]]'s primary targeting responsibility is in integrating/synchronizing/establishing the objectives that component commanders will achieve throughout the operational environment.
+	- [[Aviation Apportionment|Apportionment]] (weight of effort) is normally proposed by the [[Joint Force Air Component Commander]] (JFACC), and approved by the [[Joint Force Commander|JFC]].
+	- Joint force and component commanders identify [[High Value Target]]s (HVTs) and [[High Payoff Target]]s (HPTs) for acquisition, collection, and attack or influence.
+	- The JFC promulgates intent, objective, guidance, sequencing, and priorities.
+	- Maintain currency of mission planning guidance, intent, and priority commander's critical intelligence requirements throughout the operation.
+	- Direct the formation, composition, and specific responsibilities of a [[Joint Fires Element]] (JFE) and [[Joint Targeting Coordination Board]] (JTCB) (if required).
+- Joint Force Staff Responsibilities
+	- 
 
 
 ## Section A: Targets

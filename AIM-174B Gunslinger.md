@@ -7,7 +7,7 @@ A derivative of the RIM-147B Standard Extended Range Active Missile (ERAM) surfa
 
 Has been confirmed to be capable of being carried and launched ==only== by the [[FA-18 Super Hornet]].
 
-Range: 150–250 mi
+Range: 150–300 mi
 
 
 

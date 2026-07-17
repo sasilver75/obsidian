@@ -44,12 +44,12 @@ Podcasts (Video or Audio)
 Youtube Channels
 - [Afterburn Defense](https://www.youtube.com/@AfterburnDefense)
 - [Perun](https://www.youtube.com/@PerunAU)
-- [Pax Americana](https://www.youtube.com/@michaelshurkin613)
 - [RedEffect](https://www.youtube.com/@RedEffectChannel/videos), Tank Nerds
 - [HISutton](https://www.youtube.com/@HISuttonCovertShores/videos), Submarines and more
 - [Sandboxx](https://www.youtube.com/@SandboxxApp/videos)
 - [The Ops Center by Mike Solyom](https://www.youtube.com/@TheOpsCenterByMikeSolyom)
 - [The Merge](https://www.youtube.com/@TheMergeMedia)
+- [35FoxTalks](https://www.youtube.com/@35FoxTalks) , Good intelligence covering
 
 
 Individuals
