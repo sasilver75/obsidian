@@ -37,7 +37,7 @@ See [[Logistics (Index)]]
 
 
 
-# How the [[Front Line of Troops|FLOT]] is Sustained
+# How the [[Forward Line of Own Troops|FLOT]] is Sustained
 
 - [[Company]]' trains/Combat train
 - [[Battalion]]'s [[Forward Support Company]] (FSC) and [[Combat Trains Command Post]] (CTCP)
@@ -48,7 +48,7 @@ See [[Logistics (Index)]]
 - Theater ports, depots, and prepositioned stocks
 - [[Defense Logistics Agency]], [[Army Materiel Command]], [[US Transportation Command|USTRANSCOM]], Industrial base
 
-At the [[Front Line of Troops|FLOT]], soldiers, crews, platoons, and companies fight from their carried basic loads: ammunition, water, food, batteries, fuel in vehicles, medical supplies, and repair parts on hand.
+At the [[Forward Line of Own Troops|FLOT]], soldiers, crews, platoons, and companies fight from their carried basic loads: ammunition, water, food, batteries, fuel in vehicles, medical supplies, and repair parts on hand.
 
 At [[Company]] level, the [[Commanding Officer|Commander]], [[Executive Officer|XO]], first sergeant, supply sergeant, medics, and maintenance reps manage immediate resupply, casualties, damaged equipment, and the company’s logistics reports.
 

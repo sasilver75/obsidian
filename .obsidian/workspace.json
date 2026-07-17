@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc3314e962456293",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coyote.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Coyote"
-            }
-          },
-          {
             "id": "3d1601e5d42c7db8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wasp III.md",
+                "file": "JP 3-60 Joint Targeting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +28,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Wasp III"
+              "title": "JP 3-60 Joint Targeting"
+            }
+          },
+          {
+            "id": "9b345cb4b1a3c0b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Effect.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Effect"
+            }
+          },
+          {
+            "id": "cf078e45fe6268db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time Sensitive Target.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Time Sensitive Target"
+            }
+          },
+          {
+            "id": "f4d85c75d19cb06c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Integrated Prioritized Target List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Integrated Prioritized Target List"
+            }
+          },
+          {
+            "id": "ee88f04069176401",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time Sensitive Target.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Time Sensitive Target"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2205,44 +2278,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fc3314e962456293",
+  "active": "9b345cb4b1a3c0b8",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260716150042.png",
-    "BlackSea Technologies.md",
-    "Black Widow.md",
-    "M134 Minigun.md",
-    "Joint Aviation Tactics & Evaluation Group.md",
-    "Collaborative Combat Aircraft.md",
-    "Coyote.md",
-    "_attachments/Pasted image 20260716145550.png",
-    "_attachments/Pasted image 20260716145030.png",
-    "Group 5 UAS.md",
-    "Group 4 UAS.md",
-    "Group 3 UAS.md",
-    "Group 2 UAS.md",
-    "Group 1 UAS.md",
-    "Wasp III.md",
-    "Anduril.md",
-    "Anduril Ghost Shark XL-AUV.md",
-    "Anduril Ghost.md",
-    "_attachments/Pasted image 20260716142448.png",
-    "_attachments/Pasted image 20260716142446.png",
-    "_attachments/Pasted image 20260716142441.png",
-    "Extra-Large Uncrewed Underwater Vehicle.md",
-    "Anduril Copperhead.md",
-    "BlackSea Global Autonomous Reconnaissance Craft.md",
-    "ROGUE-Fires.md",
-    "Command and Control.md",
+    "JP 3-60 Joint Targeting.md",
+    "Time Sensitive Target.md",
+    "Joint Integrated Prioritized Target List.md",
+    "RQ-7 Shadow.md",
     "MQ-1C Gray Eagle.md",
-    "Shield AI X-Bat.md",
-    "HDT Hunter WOLF.md",
-    "Leonardo DRS.md",
-    "RQ-28A.md",
-    "_attachments/Pasted image 20260716110822.png",
-    "_attachments/Pasted image 20260716110821.png",
-    "_attachments/Pasted image 20260716110804.png",
-    "_attachments/Pasted image 20260716110748.png",
-    "_attachments/Pasted image 20260716110738.png",
+    "Area of Responsibility.md",
+    "Restricted Operating Zone.md",
+    "Forward Line of Own Troops.md",
+    "Unified Combatant Command.md",
+    "Targeting.md",
+    "Kill Box.md",
+    "_attachments/Pasted image 20260716211733.png",
+    "Fire Support Coordination Line.md",
+    "Forward Line of Enemy Troops.md",
+    "GBU-69B.md",
+    "_attachments/Pasted image 20260716185119.png",
+    "Manned-Unmanned Teaming.md",
+    "_attachments/Pasted image 20260716184541.png",
+    "_attachments/Pasted image 20260716184408.png",
+    "_attachments/Pasted image 20260716184354.png",
+    "_attachments/Pasted image 20260716184301.png",
+    "_attachments/Pasted image 20260716184159.png",
+    "_attachments/Pasted image 20260716184100.png",
+    "_attachments/Pasted image 20260716183801.png",
+    "Reconnaissance.md",
+    "_attachments/Pasted image 20260716183415.png",
+    "gray eag.md",
+    "Wasp III.md",
+    "Precision Strike Missile.md",
+    "S-70 UAS.md",
+    "Naval Strike Missile.md",
+    "F-35 Lightning II.md",
+    "ANAPG-81.md",
+    "Anduril Dive-XL.md",
+    "Vertical Launch System.md",
+    "Coyote.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

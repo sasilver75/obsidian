@@ -2,6 +2,8 @@
 aliases:
   - Time-Sensitive Target
   - Target of Opportunity
+  - Targets of Opportunity
+  - TST
 ---
 A target that requires immediate or rapid action because the target presents a serious threat, is fleeting, or creates a short-lived opportunity.
 - The target still requires identification, authority, rules-of-engagement compliance, collateral-risk consideration, and coordination.

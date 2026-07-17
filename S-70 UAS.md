@@ -11,7 +11,9 @@ Operated via a simple tablet interface; designed to carry and launch dozens of s
 Standard BlackHawk is rated to carry ~2,600 pounds internally, but the U-Hawk increases this to ~7,000.
 - Both versions can carry 9,000 pounds (e.g. Howitzers, Humvees) under sling.
 
-Can deliver a [[M142 High Mobility Artillery Rocket System|HIMARS]] pod of 6 rockets, uncrewed ground vehicles (e.g. , launch air-launched effects, and incorporate additional internal fuel storage allowing for 1841 mile range.
+Can deliver a [[M142 High Mobility Artillery Rocket System|HIMARS]] pod of 6 rockets, two [[Naval Strike Missile]]s for the [[Navy-Marine Expeditionary Ship Interdiction System|NMESIS]] system, deliver uncrewed ground vehicles (e.g. [[HDT Hunter WOLF]] shown in demonstrations), launch air-launched effects, and incorporate additional internal fuel storage allowing for 1841 mile range.
+
+Has a modular Launched Effects Quiver for a variety of "launched effects" like loitering munitions (strike, EW, ISR)
 
 
 

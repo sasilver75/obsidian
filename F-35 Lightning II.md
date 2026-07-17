@@ -11,3 +11,15 @@ F-35C: Carrier Variant (CV) designed specifically for [[United States Navy|Navy]
 
 https://www.af.mil/About-Us/Fact-Sheets/Display/Article/478441/f-35a-lightning-ii/
 
+
+
+
+
+
+
+
+
+![[Pasted image 20260716163946.png]]
+Some sort of Radar shown in nose
+
+![[Pasted image 20260716163956.png]]

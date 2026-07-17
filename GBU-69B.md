@@ -2,6 +2,7 @@
 aliases:
   - GBU-69/B
   - Small Glide Munition
+  - GBU-69/B Small Glide Munition
 ---
 A 60-lb precision-guided bomb developed by [[Dynetics]]
 

@@ -14,7 +14,7 @@ Controls and coordinates the battalion's immediate sustainment needs.
 - Trains are the people, vehicles, equipment, and supplies that keep a combat unit operating. They're the units mobile sustainment package (fuel, food, water, etc.)
 - Comes from the older idea of a wagon train, meaning the support vehicles and supplies following a fighting force. The logistics tail of a combat unit.
 
-# Comparison (Closest-to-[[Front Line of Troops|FLOT]], descending)
+# Comparison (Closest-to-[[Forward Line of Own Troops|FLOT]], descending)
 - [[Company Trains]]
 	- Closest to [[Company]], main purpose is immediate company sustainment.
 	- Usually the Company 1SG runs the trains day to day, company [[Executive Officer|XO]] might coordinate resupply, maintenance, [[Logistics Package|LOGPAC]]s. Coordinates with the [[Combat Trains Command Post|CTCP]], the Battalion [[S4 Officer|S4]] officer, and the supporting [[Forward Support Company|FSC]].
