@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "21b2693a270a5acf",
+            "id": "d83fe001531deb01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M982 Excalibur.md",
+                "file": "Aegis Combat System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,227 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "M982 Excalibur"
-            }
-          },
-          {
-            "id": "186c1286106c374b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "One-Way Attack Drone.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "One-Way Attack Drone"
-            }
-          },
-          {
-            "id": "3b9368380cb8ab78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fort Sill.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fort Sill"
-            }
-          },
-          {
-            "id": "6339e6026c9fdb55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Counter-Battery Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Counter-Battery Radar"
-            }
-          },
-          {
-            "id": "cc0216e6822052be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Target Acquisition Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Target Acquisition Radar"
-            }
-          },
-          {
-            "id": "b407ea246d063339",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MQ-9 Reaper.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MQ-9 Reaper"
-            }
-          },
-          {
-            "id": "d5ef36d5ed4d2b18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Detection And Search Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Detection And Search Radar"
-            }
-          },
-          {
-            "id": "077f2c7a0c7b66f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Target Acquisition Radar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Target Acquisition Radar"
-            }
-          },
-          {
-            "id": "eaaf1cc0fab7917e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ground Moving Target Indication.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ground Moving Target Indication"
-            }
-          },
-          {
-            "id": "288cedf88f6ba6a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Air Force Research Lab.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Air Force Research Lab"
+              "title": "Aegis Combat System"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2422,44 +2206,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b407ea246d063339",
+  "active": "d83fe001531deb01",
   "lastOpenFiles": [
-    "Integrated Combat Turn.md",
-    "Radar.md",
-    "Detection And Search Radar.md",
-    "Target Acquisition Radar.md",
-    "Counter-Battery Radar.md",
-    "Fort Sill.md",
-    "Fort Huachuca.md",
-    "Positive Identification.md",
-    "One-Way Attack Drone.md",
-    "Moving Target Indication.md",
-    "Ground Moving Target Indication.md",
-    "Air Force Research Lab.md",
-    "Current Operations Integration Cell.md",
-    "Army Materiel Command.md",
-    "United States Army Transformation and Training Command.md",
-    "Joint Air Ground Integration Center.md",
-    "Analysis and Control Element.md",
     "M1156 Precision Guidance Kit.md",
-    "United States Army.md",
-    "Combat Information Center.md",
-    "_attachments/Pasted image 20260717130246.png",
-    "_attachments/Pasted image 20260717130039.png",
-    "Targeting Synchronization Matrix.md",
-    "Named Area of Interest.md",
-    "Target Area of Interest.md",
-    "Fire Support Team.md",
-    "High Payoff Target.md",
-    "M982 Excalibur.md",
-    "_attachments/Pasted image 20260717111016.png",
-    "_attachments/Pasted image 20260717101559.png",
-    "_attachments/Pasted image 20260717093954.png",
-    "_attachments/Pasted image 20260717000554.png",
-    "_attachments/Pasted image 20260717000525.png",
-    "_attachments/Pasted image 20260716235320.png",
-    "_attachments/Pasted image 20260716235308.png",
-    "_attachments/Pasted image 20260716235236.png",
+    "Aegis Combat System.md",
+    "Integrated Battle Command System.md",
+    "ANSPY-1.md",
+    "ANSPY-6.md",
+    "RIM-116 Rolling Airframe Missile.md",
+    "_attachments/Pasted image 20260718163635.png",
+    "ANTPY-2.md",
+    "_attachments/Pasted image 20260718163553.png",
+    "_attachments/Pasted image 20260718163532.png",
+    "_attachments/Pasted image 20260718163530.png",
+    "_attachments/Pasted image 20260718163509.png",
+    "United States Navy.md",
+    "RIM-162 ESSM.md",
+    "_attachments/Pasted image 20260718163235.png",
+    "_attachments/Pasted image 20260718163224.png",
+    "_attachments/Pasted image 20260718163149.png",
+    "Ballistic Missile.md",
+    "Mk 41 VLS.md",
+    "_attachments/Pasted image 20260718090801.png",
+    "Missile Defense Agency.md",
+    "Ground-Based Midcourse Defense.md",
+    "ANTPS-80 Ground Air Task-Oriented Radar.md",
+    "ANMPQ-53.md",
+    "ANSPY-65A.md",
+    "Lower Tier Air and Missile Defense Sensor.md",
+    "_attachments/Pasted image 20260718004029.png",
+    "M142 High Mobility Artillery Rocket System.md",
+    "Intelligence, Surveillance, and Reconnaissance.md",
+    "E-11A BACN.md",
+    "United States Air Force.md",
+    "Air Force Materiel Command.md",
+    "Air Force Research Lab.md",
+    "Clutter Zone.md",
+    "Stationary Target Indication.md",
+    "Moving Target Indication.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

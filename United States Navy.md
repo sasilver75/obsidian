@@ -143,7 +143,7 @@ Weapons/Munitions
 - [[AGM-158 JASSM|AGM-158C LRASM]]
 - [[BGM-109 Tomahawk Land Attack Missile]] (TLAM)
 - [[RIM-66C SM-2MR]]
-- [[RIM-116 RAM]]
+- [[RIM-116 Rolling Airframe Missile]] (RAM)
 - [[RIM-156 SM-2ER]]
 - [[RIM-161 SM-3]]
 - [[RIM-162 ESSM]]

@@ -6,6 +6,7 @@ aliases:
 ---
 References:
 - [Video: Battle Order: Battle Tactics of HIMARS and MLRS Missile Artillery](https://youtu.be/jv8a_Wz1H50?si=gGJzy7uG7pKpCcaa)
+- [Video: Task and Purpose: American HIMARS Rocket Artillery is Better than you think](https://youtu.be/vQOgQSm7g_c?si=Ey_ngr03asQ73R1E)
 
 https://en.wikipedia.org/wiki/M142_HIMARS
 

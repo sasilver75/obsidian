@@ -25,6 +25,12 @@ Comparison with [[Loitering Munition]]:
 Often (but not always) they use the lower-cost piston-driven engines, rather than turbojets found on more expensive [[Cruise Missile]].
 
 
+![[Pasted image 20260717224002.png]]
+
+![[Pasted image 20260717224020.png]]
+
+
+
 
 
 

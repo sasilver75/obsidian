@@ -39,7 +39,6 @@ Search radars scan great volumes of space with pulses of short radio waves, typi
 # Targeting Radars ([[Target Acquisition Radar]])
 Targeting radars use the same principle as search radars, but scan smaller volumes of space far more often, usually several times a second or more.
 - In semi-active radar homing (missile lock-on), the missile can "see" the target that the targeting radar is "illuminating."
-- 
 
 
 

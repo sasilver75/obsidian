@@ -12,8 +12,13 @@ Missiles powered initially by a rocket or series of rockets in stages, but then 
 
 Ballistic Missiles have three stages of flight:
 - ==Boost Phase==: Starts at launch and lasts until the rocket engine stops firing and the missile begins unpowered flight. Can last 3-5 minutes; most of this takes place in the atmosphere.
-- ==Midcourse Phase==: Begins after the rocket starts firing. The missile continues to ascend towards the highest point in its trajectory, then begins the descend towards Earth. This is the longest phase of the missile's flight. For [[Intercontinental Ballistic Missile|ICBM]]s, this can last ~20 minutes. During mid-course, ICBMs can travel 24,000km (15,000 miles) an hour.
+	- Can intercept all ranges of missiles, but the missile boost phase is only from one to five minutes. It is the best time to track the missile because it is bright and hot. The missile defense interceptors and sensors must be in close proximity to the launch, which is not always possible. This is the most desirable interception phase because it destroys the missile early in flight at its most vulnerable point and the debris will typically fall on the launching nations' territory.
+- ==Midcourse Phase==: Begins after the rocket starts firing. The missile continues to ascend towards the highest point in its trajectory, then begins the descend towards Earth. This is the longest phase of the missile's flight. For [[Intercontinental Ballistic Missile|ICBM]]s, this can last ~20 minutes. During mid-course, ICBMs can travel 24,000km (15,000 miles) an hour. 
+	- This phase begins after the booster burns out and begins coasting in space. This can last as long as 20 minutes. Any debris remaining will burn up as it enters the atmosphere. Ground-based missile defense systems can defend from long-range and intermediate-range ballistic missiles in this phase. Mobile elements can defend against medium and short ranged missiles in midcourse.
 - ==Terminal Phase==: Begins when the detached warheads reenter the Earth's atmosphere and ends upon impact or detonation. During this phase, which can last for less than a minute, strategic warheads can be traveling at speeds greater than 3,200 kilometers per hour (1,988 miles per hour).
+	- This phase is the last chance to intercept the warhead. This contains the least-desirable Interception Point (IP) because there is little room for error and the interception will probably occur close to the defended target.
+
+Sometimes a fourth phase is also inserted, between Boost and Midcourse, called the ==Ascent Phase==: This is the phase after powered flight but before the apogee. It is significantly less challenging than boost phase intercepts, less costly, minimizes the potential impact of debris, and reduces the number of interceptors required to defeat a raid of missiles.
 
 Common Ballistic Missile types, by increasing range:
 - Close-Range Ballistic Missile (CRBM)
