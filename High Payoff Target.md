@@ -4,6 +4,7 @@ aliases:
   - High Payoff Target List
   - High-Payoff Target
   - High-Payoff Target List
+  - HPT
 ---
 
 A target that is important to the friendly plan.
@@ -17,10 +18,10 @@ The key point is that a high-payoff target is good to hit from the friendly plan
 
 A High-Payoff target is ==usually selected from the broader set of [[High Value Target|High-Value Target]]s==; it's nice if a target can be both important for your plans and important for the adversary's plans.
 
-
 See also: [[High Value Target|High-Value Target]], [[Time Sensitive Target|Time-Sensitive Target]]
 
 
 High Payoff Target List: In [[Fires]], a prioritized list of targets critical to the success of a friendly mission, derived from a [[High Value Target]]s (HVT) list.
 
 
+> =="A high-payoff target (HPT) is a high-value target== whose loss to the enemy will significantly contribute to the success of a friendly course of action."

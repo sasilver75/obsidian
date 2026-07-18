@@ -11,6 +11,41 @@ RADAR's ability to determine range and motion make it suitable for many applicat
 - Funnily, Radar uses ==microwave-band== waves, not radar band.
 
 
+
+
+# [[Detection And Search Radar]]
+Search radars scan great volumes of space with pulses of short radio waves, typically scanning the volume 2-4 times a minute.
+- The radio waves are usually less than a meter long; ships and planes are metal and reflect radio waves.
+- The radar measures distance to the reflector as (c * (1/2 time from pulse emission to reception))
+- To be accepted, the received pulses has to lie within a period of time called the *range gate*
+
+- [[Early Warning Radar]] Systems
+	- Ground Control Intercept (GCI) Radar
+	- Airborne Early Warning (AEW)
+	- Airborne Ground Surveillance (AGS)
+	- Over-the-Horizon (OTH) Radar
+- [[Target Acquisition Radar]] Systems
+	- Surface-to-Air Missile (SAM) Systems
+	- Anti-Aircraft Artillery (AAA) Systems
+- Surface Search Radar (SS) Systems
+	- Surface Search Radar
+	- Coastal Surveillance Radar
+	- Harbour Surveillance Radar
+	- Antisubmarine Warfare (ASW) Radar
+- Height Finder Radar (HF) Systems
+- Gap Filler Radar Systems
+
+
+# Targeting Radars ([[Target Acquisition Radar]])
+Targeting radars use the same principle as search radars, but scan smaller volumes of space far more often, usually several times a second or more.
+- In semi-active radar homing (missile lock-on), the missile can "see" the target that the targeting radar is "illuminating."
+- 
+
+
+
+
+
+
 -----------
 Below are notes from Tom Ager's Oceanography magazine, see Resources.
 

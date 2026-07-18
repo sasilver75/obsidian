@@ -3,6 +3,35 @@ aliases:
   - Army
 ---
 
+Army Commands (ACOM):
+- US [[Army Materiel Command]] (AMC)
+- US [[United States Army Transformation and Training Command]] (T2COM)
+
+Army Service Component Commands (ASCC):
+- US Army Cyber Command (USARCYBER)
+- US Army Transportation Command (ARTRANS)
+- US Army Central (USARCENT)
+- US Army Europe and Africa (USAREUR-AF)
+- US Army Pacific (USARPAC)
+- US Army Space and Missile Defense Command (USAMDC)
+- US Army Special Operations Command (USASOC)
+- US Army Western Hemisphere Command (USAWHC)
+
+Direct Reporting Units (DRU)
+- Arlington National Cemetery (ANC)
+- Civilian Human Resources Agency (CHRA)
+- Military Postal Service Agency (MPSA)
+- US Army Acquisition Support Center (USAASC)
+- US Army Corps of Engineers (USACE)
+- US Army Criminal Investigation Division (USACID)
+- US Army Human Resources Command (HRC)
+- US Army Intelligence and Security Command (INSCOM)
+- US Army Medical Command (MEDCOM)
+- US Army Military District of Washington (MDW)
+- US Army Test and Evaluation Command (ATEC)
+- US Army War College (USAWC)
+- US Military Academy (USMA)
+
 
 Major Branches:
 - Maneuvers, Fires, and Effects

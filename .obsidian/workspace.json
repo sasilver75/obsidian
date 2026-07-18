@@ -54,9 +54,225 @@
               "icon": "lucide-file",
               "title": "M982 Excalibur"
             }
+          },
+          {
+            "id": "186c1286106c374b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "One-Way Attack Drone.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "One-Way Attack Drone"
+            }
+          },
+          {
+            "id": "3b9368380cb8ab78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fort Sill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fort Sill"
+            }
+          },
+          {
+            "id": "6339e6026c9fdb55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Counter-Battery Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Counter-Battery Radar"
+            }
+          },
+          {
+            "id": "cc0216e6822052be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Target Acquisition Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Target Acquisition Radar"
+            }
+          },
+          {
+            "id": "b407ea246d063339",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MQ-9 Reaper.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MQ-9 Reaper"
+            }
+          },
+          {
+            "id": "d5ef36d5ed4d2b18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Detection And Search Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Detection And Search Radar"
+            }
+          },
+          {
+            "id": "077f2c7a0c7b66f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Target Acquisition Radar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Target Acquisition Radar"
+            }
+          },
+          {
+            "id": "eaaf1cc0fab7917e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ground Moving Target Indication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ground Moving Target Indication"
+            }
+          },
+          {
+            "id": "288cedf88f6ba6a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Air Force Research Lab.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Air Force Research Lab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -2206,35 +2422,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "21b2693a270a5acf",
+  "active": "b407ea246d063339",
   "lastOpenFiles": [
-    "Indications and Warning.md",
-    "M1156 Precision Guidance Kit.md",
-    "M982 Excalibur.md",
-    "Cost-Exchange Ratio.md",
+    "Integrated Combat Turn.md",
+    "Radar.md",
+    "Detection And Search Radar.md",
+    "Target Acquisition Radar.md",
+    "Counter-Battery Radar.md",
+    "Fort Sill.md",
+    "Fort Huachuca.md",
+    "Positive Identification.md",
+    "One-Way Attack Drone.md",
+    "Moving Target Indication.md",
+    "Ground Moving Target Indication.md",
+    "Air Force Research Lab.md",
+    "Current Operations Integration Cell.md",
+    "Army Materiel Command.md",
+    "United States Army Transformation and Training Command.md",
+    "Joint Air Ground Integration Center.md",
     "Analysis and Control Element.md",
-    "Circular Error Probable.md",
+    "M1156 Precision Guidance Kit.md",
+    "United States Army.md",
+    "Combat Information Center.md",
+    "_attachments/Pasted image 20260717130246.png",
+    "_attachments/Pasted image 20260717130039.png",
+    "Targeting Synchronization Matrix.md",
+    "Named Area of Interest.md",
+    "Target Area of Interest.md",
+    "Fire Support Team.md",
+    "High Payoff Target.md",
+    "M982 Excalibur.md",
     "_attachments/Pasted image 20260717111016.png",
-    "Advanced Field Artillery Tactical Data System.md",
-    "Complex Event Processing.md",
-    "ofetch.md",
-    "Guided Multiple Launch Rocket System.md",
-    "Find, Fix, Finish, Exploit, Analyze, Dissmeinate.md",
-    "Joint Planning and Execution Community.md",
-    "Joint Chiefs of Staff.md",
-    "Chairman of the Joint Chiefs of Staff.md",
-    "Measures of Performance.md",
-    "Defense Resources (Index).md",
-    "AGM-179 JAGM.md",
-    "AIM-260 JATM.md",
-    "Joint Fires Element.md",
-    "Aviation Apportionment.md",
-    "Joint Targeting Coordination Board.md",
-    "Joint Intelligence Preparation of the Environment.md",
-    "Unified Combatant Command.md",
-    "Joint Operation Planning and Execution System.md",
-    "President of the United States.md",
-    "Secretary of Defense.md",
     "_attachments/Pasted image 20260717101559.png",
     "_attachments/Pasted image 20260717093954.png",
     "_attachments/Pasted image 20260717000554.png",
@@ -2242,8 +2460,6 @@
     "_attachments/Pasted image 20260716235320.png",
     "_attachments/Pasted image 20260716235308.png",
     "_attachments/Pasted image 20260716235236.png",
-    "_attachments/Pasted image 20260716235226.png",
-    "_attachments/Pasted image 20260716235207.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

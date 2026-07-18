@@ -85,7 +85,7 @@ Terms:
 - [[Light Detection and Ranging]] (LiDAR): A sensing method that uses laser pulses to measure distance and build 3D structure.
 - [[Synthetic Aperture Radar]] (SAR): A radar imaging technique that uses platform motion to synthesize a large antenna aperture and produce high-resolution images.
 - [[Inverse Synthetic Aperture Radar]] (ISAR): A radar imaging technique that uses target motion rather than sensor motion to form images.
-- [[Ground Moving Target Indicator]] (GMTI): A radar mode or product that detects and tracks moving objects on the ground.
+- [[Ground Moving Target Indication]] (GMTI): A radar mode or product that detects and tracks moving objects on the ground.
 - [[Wide Area Motion Imagery]] (WAMI): Persistent imagery over a large area used to observe movement patterns over time.
 - [[Multispectral]]: Sensing that captures data in several discrete spectral bands.
 - [[Hyperspectral]]: Sensing that captures data across many narrow spectral bands for detailed material or signature analysis.
