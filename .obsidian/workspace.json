@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1156 Precision Guidance Kit.md",
+                "file": "Military Operations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "M1156 Precision Guidance Kit"
+              "title": "Military Operations"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aegis Combat System.md",
+                "file": "MIM-104 Patriot.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Aegis Combat System"
+              "title": "MIM-104 Patriot"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2139,12 +2138,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "bbe74cec6f3f7ae7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 198
+        "currentTab": 199
       },
       {
         "id": "8a022290161ffefa",
@@ -2206,10 +2215,23 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d83fe001531deb01",
+  "active": "3d1601e5d42c7db8",
   "lastOpenFiles": [
-    "M1156 Precision Guidance Kit.md",
     "Aegis Combat System.md",
+    "Defense Resources (Index).md",
+    "Artillery Systems Cooperation Activities.md",
+    "Land-Based Phalanx Weapon System.md",
+    "_attachments/Pasted image 20260718201001.png",
+    "_attachments/Pasted image 20260718200953.png",
+    "_attachments/Pasted image 20260718200924.png",
+    "_attachments/Pasted image 20260718200919.png",
+    "Equivalent Full Charge.md",
+    "RIM-162 ESSM.md",
+    "_attachments/Pasted image 20260718171034.png",
+    "United States Army.md",
+    "M1156 Precision Guidance Kit.md",
+    "MIM-104 Patriot.md",
+    "United States Navy.md",
     "Integrated Battle Command System.md",
     "ANSPY-1.md",
     "ANSPY-6.md",
@@ -2220,30 +2242,17 @@
     "_attachments/Pasted image 20260718163532.png",
     "_attachments/Pasted image 20260718163530.png",
     "_attachments/Pasted image 20260718163509.png",
-    "United States Navy.md",
-    "RIM-162 ESSM.md",
-    "_attachments/Pasted image 20260718163235.png",
-    "_attachments/Pasted image 20260718163224.png",
-    "_attachments/Pasted image 20260718163149.png",
     "Ballistic Missile.md",
     "Mk 41 VLS.md",
-    "_attachments/Pasted image 20260718090801.png",
     "Missile Defense Agency.md",
     "Ground-Based Midcourse Defense.md",
     "ANTPS-80 Ground Air Task-Oriented Radar.md",
     "ANMPQ-53.md",
     "ANSPY-65A.md",
     "Lower Tier Air and Missile Defense Sensor.md",
-    "_attachments/Pasted image 20260718004029.png",
     "M142 High Mobility Artillery Rocket System.md",
     "Intelligence, Surveillance, and Reconnaissance.md",
     "E-11A BACN.md",
-    "United States Air Force.md",
-    "Air Force Materiel Command.md",
-    "Air Force Research Lab.md",
-    "Clutter Zone.md",
-    "Stationary Target Indication.md",
-    "Moving Target Indication.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

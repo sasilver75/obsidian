@@ -13,3 +13,5 @@ A medium-range, ship-launched surface-to-air interceptor manufactured by [[Rayth
 ![[Pasted image 20260718163224.png]]
 ![[Pasted image 20260718163235.png]]
 
+![[Pasted image 20260718171034.png]]
+

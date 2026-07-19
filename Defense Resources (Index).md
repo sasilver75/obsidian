@@ -50,6 +50,7 @@ Youtube Channels
 - [The Ops Center by Mike Solyom](https://www.youtube.com/@TheOpsCenterByMikeSolyom)
 - [The Merge](https://www.youtube.com/@TheMergeMedia)
 - [35FoxTalks](https://www.youtube.com/@35FoxTalks) , Good intelligence covering
+- [From the Crow's Nest](https://www.youtube.com/@FromTheCrowsNestPodcast/videos) Electronic Warfare
 
 
 Individuals

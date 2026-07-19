@@ -7,6 +7,8 @@ aliases:
 References:
 - [Video: Habitual Linecrosser: All About The Aegis](https://youtu.be/DzXu7lNU_vw?si=xBca1SfKMW9zJkQg)
 
+https://en.wikipedia.org/wiki/Aegis_Combat_System
+
 An American [[United States Navy|Navy]] integrated naval weapons system, which uses computers and radars to track and guide weapons to destroy enemy targets, now produced by [[Lockheed Martin]].
 
 Initially used by the Navy, Aegis is now also used by the Japan Maritime SDF, Spanish Navy, Royal Norwegian Navy, Republic of Korea Navy, and Royal Australian Navy, and is planned for use by the Royal Canadian Navy.
