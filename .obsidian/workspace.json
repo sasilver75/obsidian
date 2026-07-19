@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Military Operations.md",
+                "file": "Low Observability.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Military Operations"
+              "title": "Low Observability"
             }
           },
           {
-            "id": "d83fe001531deb01",
+            "id": "e645dbae5a548b8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIM-104 Patriot.md",
+                "file": "Coyote.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +52,179 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MIM-104 Patriot"
+              "title": "Coyote"
+            }
+          },
+          {
+            "id": "69e53f8b319da755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GRIZZLY.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GRIZZLY"
+            }
+          },
+          {
+            "id": "12ad60264811036c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VAMPIRE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "VAMPIRE"
+            }
+          },
+          {
+            "id": "d7fdfa5cda72aac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tricon Shipping Container.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tricon Shipping Container"
+            }
+          },
+          {
+            "id": "4065013857974f97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Launched Effect.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Launched Effect"
+            }
+          },
+          {
+            "id": "90def89bc8f9462f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tricon Shipping Container.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tricon Shipping Container"
+            }
+          },
+          {
+            "id": "81a23b0b1bb4778d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-179 JAGM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-179 JAGM"
+            }
+          },
+          {
+            "id": "ac4fa2ad670f31ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tricon Shipping Container.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tricon Shipping Container"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2215,44 +2384,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3d1601e5d42c7db8",
+  "active": "12ad60264811036c",
   "lastOpenFiles": [
-    "Aegis Combat System.md",
-    "Defense Resources (Index).md",
-    "Artillery Systems Cooperation Activities.md",
-    "Land-Based Phalanx Weapon System.md",
-    "_attachments/Pasted image 20260718201001.png",
-    "_attachments/Pasted image 20260718200953.png",
-    "_attachments/Pasted image 20260718200924.png",
-    "_attachments/Pasted image 20260718200919.png",
-    "Equivalent Full Charge.md",
-    "RIM-162 ESSM.md",
-    "_attachments/Pasted image 20260718171034.png",
-    "United States Army.md",
-    "M1156 Precision Guidance Kit.md",
-    "MIM-104 Patriot.md",
-    "United States Navy.md",
+    "_attachments/Pasted image 20260719145403.png",
+    "GRIZZLY.md",
+    "VAMPIRE.md",
+    "Infrared.md",
+    "_attachments/Pasted image 20260719144623.png",
+    "_attachments/Pasted image 20260719144604.png",
+    "_attachments/Pasted image 20260719144547.png",
+    "_attachments/Pasted image 20260719144530.png",
+    "_attachments/Pasted image 20260719144425.png",
+    "_attachments/Pasted image 20260719144418.png",
+    "_attachments/Pasted image 20260719144032.png",
+    "_attachments/Pasted image 20260719143931.png",
+    "Tricon Shipping Container.md",
+    "Launched Effect.md",
+    "_attachments/Pasted image 20260719143832.png",
+    "AGM-179 JAGM.md",
     "Integrated Battle Command System.md",
-    "ANSPY-1.md",
-    "ANSPY-6.md",
-    "RIM-116 Rolling Airframe Missile.md",
-    "_attachments/Pasted image 20260718163635.png",
-    "ANTPY-2.md",
-    "_attachments/Pasted image 20260718163553.png",
-    "_attachments/Pasted image 20260718163532.png",
-    "_attachments/Pasted image 20260718163530.png",
-    "_attachments/Pasted image 20260718163509.png",
-    "Ballistic Missile.md",
-    "Mk 41 VLS.md",
-    "Missile Defense Agency.md",
-    "Ground-Based Midcourse Defense.md",
-    "ANTPS-80 Ground Air Task-Oriented Radar.md",
-    "ANMPQ-53.md",
-    "ANSPY-65A.md",
-    "Lower Tier Air and Missile Defense Sensor.md",
-    "M142 High Mobility Artillery Rocket System.md",
-    "Intelligence, Surveillance, and Reconnaissance.md",
-    "E-11A BACN.md",
+    "_attachments/Pasted image 20260719143122.png",
+    "Defense Resources (Index).md",
+    "United States Department of Defense.md",
+    "Coyote.md",
+    "Unmanned Autonomous System.md",
+    "Aegis Combat System.md",
+    "Joint Electronics Type Designation System.md",
+    "MIM-104 Patriot.md",
+    "SM-6.md",
+    "AIM-174B Gunslinger.md",
+    "MQ-9 Reaper.md",
+    "ANMPQ-64 Sentinel.md",
+    "DOTMLPF-P.md",
+    "Red Wolf.md",
+    "Sentinel.md",
+    "MQ-1B Predator.md",
+    "Beyond Visual Line of Sight.md",
+    "Beyond Visual Range.md",
+    "Mojave.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

@@ -147,7 +147,7 @@ Weapons/Munitions
 - [[RIM-156 SM-2ER]]
 - [[RIM-161 SM-3]]
 - [[RIM-162 ESSM]]
-- [[RIM-174 SM-6]]
+- [[SM-6]]
 - [[Naval Strike Missile]] (NSM)
 - [[UGM-133 Trident II]]
 - [[RUM-139 VL-ASROC]]

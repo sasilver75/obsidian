@@ -4,6 +4,9 @@ aliases:
   - AirLand Battle
   - Active Defense
 ---
+References:
+- [Video: Task and Purpose: How the US Army Radically Transformed for WW3](https://youtu.be/ag7HX3jGLtc?si=sct1IRqendonkHlh)
+
 WAS a major command of the US Army active from 1973 to 2025, charged with overseeing training of Army forces and the development of operational doctrine. "Replaced" with [[United States Army Transformation and Training Command|T2COM]] in 2025.
 - Operated 37 schools and centers at 27 locations, which included 1,304 courses and 108 language courses.
 - "An organization to design, develop, and build the Army."

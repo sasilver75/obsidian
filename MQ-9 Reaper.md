@@ -20,7 +20,9 @@ The average unit cost of an MQ-9 is estimated at $34M in 2024 dollars.
 
 The MQ-9 has been further developed into the MQ-9B which (based on mission and payload) are referred to by General Atomics as SkyGuardian or SeaGuardian.
 
+In 2007, when the [[United States Air Force|USAF]] officially adopted the [[MQ-9 Reaper]], the pusher prop beat out the jet engine, but this pusher prop had 950 hp instead of the [[MQ-1B Predator]]'s original 115 hp, allowing the Reaper to carry ~15x as much ordinance or equipment as its predecessor, with a longe range of 1000 nautical miles, capable of staying in the air for 40 hours.
 
+It's slow and modern radar has no problem picking it up, but 
 
 
 

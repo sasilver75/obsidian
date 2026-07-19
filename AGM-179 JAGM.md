@@ -1,6 +1,7 @@
 ---
 aliases:
   - AGM-179
+  - AGM-179 Joint Air-to-Ground Missile
 ---
 JAGM = "Joint Air-to-Ground Missile"
 

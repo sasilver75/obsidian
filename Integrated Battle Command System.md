@@ -2,9 +2,16 @@
 aliases:
   - IBCS
 ---
+ReferenceS:
+- Missile Defense Advocacy Alliance
+
 Part of the [[Integrated Air Defense|Integrated Air and Missile Defense]] effort, [[Integrated Battle Command System|IBCS]] aims to create an integrated network of air defense sensors that can interoperate with IBCS engagement stations. [[Northrop Grumman]] is the prime contractor.
 - Development began in 2004, and then approved for full-rate production in 2023.
 - In September 2020, a joint cruise-missile-defense exercise demonstrated AI-based kill chains formulated in seconds; one of the kills was by a kinetic projectile fired by a tracked howitzer based on the [[M109 Paladin]].
+
+Suffered from early delays and scathing Pentagon reviews circa 2016 (Army delayed the [[Initial Operating Capability|IOC]] of the program from 2018 to 2022), but has evolved into a fully-functional combat-ready system and was approved for full-rate production in 2023, and by mid-2026, it's completed dozens of successful live-fire flight tests... and is seen as somewhat of a "game changer."
+
+> A C2 system intended to integrate systems across the army, as well as joint capabilities.
 
 Sensors include:
 - In the [[MIM-104 Patriot]] system:
@@ -28,6 +35,8 @@ IBCS engagement stations will be able to control Army air-defense systems like P
 
 > "IBCS is going to be [[Aegis Combat System|Aegis]] worldwide. Now you have land-based systems communicating with air-based and sea-based systems, and everyone can shoot everything that anyone can see. No one in the world has anything close to this. Originally designed to protect the carrier, but this moving around can create a bubble that protects everything around it."
 > - Habitual Linecrosser
+
+Poland has adopted the IBCS.
 
 
 ![[Pasted image 20260718003449.png]]

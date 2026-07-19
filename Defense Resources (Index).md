@@ -51,6 +51,8 @@ Youtube Channels
 - [The Merge](https://www.youtube.com/@TheMergeMedia)
 - [35FoxTalks](https://www.youtube.com/@35FoxTalks) , Good intelligence covering
 - [From the Crow's Nest](https://www.youtube.com/@FromTheCrowsNestPodcast/videos) Electronic Warfare
+- [Missile Defense Advocacy Alliance](https://www.youtube.com/@MissiledefenseadvocacyOrg1)
+- [Task & Purpose](https://www.youtube.com/@Taskandpurpose)
 
 
 Individuals

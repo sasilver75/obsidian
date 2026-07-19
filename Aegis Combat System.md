@@ -3,6 +3,7 @@ aliases:
   - Aegis
   - Aegis Ballistic Missile Defense
   - Aegis BMD
+  - Aegis Ashore
 ---
 References:
 - [Video: Habitual Linecrosser: All About The Aegis](https://youtu.be/DzXu7lNU_vw?si=xBca1SfKMW9zJkQg)
@@ -19,7 +20,12 @@ The Aegis Combat System is composed of:
 - Aegis Anti-Aircraft Warfare (AAW) capability
 - The [[Phalanx CIWS]]
 - [[Mk 41 VLS|Mark 41]] VLS
-- 
+- ...
+
+
+The first operational Aegis warships were the [[Ticonderoga-Class Cruiser]]s, and Aegis was subsequently installed on [[Arleigh Burke-Class Destroyer]]s and adapted into land-based ==Aegis Ashore== systems.
+
+Japan became the first country outside the US to operate Aegis-equipped warships.
 
 
 
