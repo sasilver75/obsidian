@@ -30,7 +30,7 @@ Relevant Contractors
 - [[Palantir]]
 - [[Anduril]]
 - [[Sierra Nevada Corporation]]
-- [[[AeroVironment]]
+- [[AeroVironment]]
 - [[General Atomics]]
 - [[Textron Systems]]
 - [[Oshkosh Defense]]

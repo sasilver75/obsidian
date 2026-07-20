@@ -1,3 +1,6 @@
+References:
+- [Video: Naval News: New Armed Drone Boats: BlackSea COMET and GARC](https://www.youtube.com/watch?v=m8mFf34xjtg&pp=0gcJCZkLAYcqIYzv)
+
 https://www.blacksea.tech/comet
 
 From [[BlackSea Technologies]]

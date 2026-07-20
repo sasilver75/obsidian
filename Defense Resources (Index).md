@@ -53,6 +53,8 @@ Youtube Channels
 - [From the Crow's Nest](https://www.youtube.com/@FromTheCrowsNestPodcast/videos) Electronic Warfare
 - [Missile Defense Advocacy Alliance](https://www.youtube.com/@MissiledefenseadvocacyOrg1)
 - [Task & Purpose](https://www.youtube.com/@Taskandpurpose)
+- [Naval News](https://www.youtube.com/@NavalNews/videos)
+- 
 
 
 Individuals

@@ -1,3 +1,11 @@
+---
+aliases:
+  - MQ-1C Gray Eagle Extended Range
+  - MQ-1C GE-ER
+  - Gray Eagle STOL
+---
+
+
 References:
 - [Video: Battle Order: Tactics of the U.S. Army's Deadliest Drone](https://youtu.be/oD6UsPjwF5A?si=lgvt9jsnwOrQQ5ld)
 
@@ -13,6 +21,9 @@ Was introduced in the middle of of a counterinsurgency mission, and typically op
 	- Small air-launched drones called "Air-launched effects" could act as jammers, decoys, or weapons themselves to extend the usage of Gray Eagles, allowing them to stay out of the range of some ground-based air-defense systems.
 
 ((Whats this then? https://youtu.be/1EaJMindNQ8?si=ynSiTGremXc9ciXZ see desc))
+
+On November 12, 2024, Gray Eagle STOL, the name of the mass-produced version of the [[Mojave]], performed a take-off test on ROKS Dokdo, a Korean amphibious assault ship. It took off from the Dokdo, but then landed on a runway in Korea.
+- (Note that the Mojave is smaller and shorter than the MQ-1C Gray Eagle, though it was built using the avionics of the Gray Eagle, but featured a more compact fuselage paired with a larger wing set for STOL)
 
 
 
@@ -58,3 +69,7 @@ When deployed, each company operates one Gray Eagle system including 12x MQ-1C a
 
 Comparison with [[MQ-9 Reaper]]:
 ![[Pasted image 20260716185119.png]]
+
+
+![[Pasted image 20260719195441.png]]
+

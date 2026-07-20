@@ -80,60 +80,12 @@
             }
           },
           {
-            "id": "12ad60264811036c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VAMPIRE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "VAMPIRE"
-            }
-          },
-          {
-            "id": "d7fdfa5cda72aac0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tricon Shipping Container.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tricon Shipping Container"
-            }
-          },
-          {
             "id": "4065013857974f97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Launched Effect.md",
+                "file": "MQ-9 Reaper.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +100,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Launched Effect"
+              "title": "MQ-9 Reaper"
+            }
+          },
+          {
+            "id": "75f183c7dc75fcb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "M3 Bradley.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "M3 Bradley"
+            }
+          },
+          {
+            "id": "6bf812daf9bd0e1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mojave.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mojave"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tricon Shipping Container.md",
+                "file": "BlackSea Comet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,59 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tricon Shipping Container"
-            }
-          },
-          {
-            "id": "81a23b0b1bb4778d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGM-179 JAGM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGM-179 JAGM"
-            }
-          },
-          {
-            "id": "ac4fa2ad670f31ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tricon Shipping Container.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tricon Shipping Container"
+              "title": "BlackSea Comet"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -2384,44 +2336,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "12ad60264811036c",
+  "active": "90def89bc8f9462f",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260719145403.png",
-    "GRIZZLY.md",
-    "VAMPIRE.md",
-    "Infrared.md",
-    "_attachments/Pasted image 20260719144623.png",
-    "_attachments/Pasted image 20260719144604.png",
-    "_attachments/Pasted image 20260719144547.png",
-    "_attachments/Pasted image 20260719144530.png",
-    "_attachments/Pasted image 20260719144425.png",
-    "_attachments/Pasted image 20260719144418.png",
-    "_attachments/Pasted image 20260719144032.png",
-    "_attachments/Pasted image 20260719143931.png",
-    "Tricon Shipping Container.md",
-    "Launched Effect.md",
-    "_attachments/Pasted image 20260719143832.png",
-    "AGM-179 JAGM.md",
-    "Integrated Battle Command System.md",
-    "_attachments/Pasted image 20260719143122.png",
+    "BlackSea Global Autonomous Reconnaissance Craft.md",
     "Defense Resources (Index).md",
-    "United States Department of Defense.md",
-    "Coyote.md",
-    "Unmanned Autonomous System.md",
-    "Aegis Combat System.md",
-    "Joint Electronics Type Designation System.md",
-    "MIM-104 Patriot.md",
-    "SM-6.md",
-    "AIM-174B Gunslinger.md",
-    "MQ-9 Reaper.md",
-    "ANMPQ-64 Sentinel.md",
-    "DOTMLPF-P.md",
-    "Red Wolf.md",
-    "Sentinel.md",
+    "MQ-4C Triton.md",
+    "RIM-116 Rolling Airframe Missile.md",
+    "Arleigh Burke-Class Destroyer.md",
+    "RIM-162 ESSM.md",
+    "Short-Range Air Defense.md",
+    "AeroVironment.md",
+    "Turboprop.md",
+    "MQ-8 Fire Scout.md",
+    "Radar.md",
+    "X-Band.md",
+    "RQ-4 Global Hawk.md",
+    "_attachments/Pasted image 20260719202916.png",
+    "_attachments/Pasted image 20260719202800.png",
+    "_attachments/Pasted image 20260719202752.png",
+    "MQ-1C Gray Eagle.md",
+    "_attachments/Pasted image 20260719195441.png",
     "MQ-1B Predator.md",
-    "Beyond Visual Line of Sight.md",
-    "Beyond Visual Range.md",
+    "MQ-9 Reaper.md",
+    "_attachments/Pasted image 20260719195423.png",
+    "United States Navy.md",
     "Mojave.md",
+    "_attachments/Pasted image 20260719195302.png",
+    "M3 Bradley.md",
+    "_attachments/Pasted image 20260719193908.png",
+    "_attachments/Pasted image 20260719193505.png",
+    "_attachments/Pasted image 20260719191635.png",
+    "_attachments/Pasted image 20260719191536.png",
+    "AGM-179 JAGM.md",
+    "Tricon Shipping Container.md",
+    "Untitled 7.md",
+    "M2 Bradley.md",
+    "United States Army.md",
+    "M109 Paladin.md",
+    "m3brad.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

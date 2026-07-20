@@ -10,3 +10,6 @@ Engineers set out to make it even bigger and better:
 In 2007, when the [[United States Air Force|USAF]] officially adopted the [[MQ-9 Reaper]], the pusher prop beat out the jet engine, but this pusher prop had 950 hp instead of the [[MQ-1B Predator]]'s original 115 hp, allowing the Reaper to carry ~15x as much ordinance or equipment as its predecessor, with a longe range of 1000 nautical miles, capable of staying in the air for 40 hours.
 
 ![[Pasted image 20260706182727.png]]
+
+
+![[Pasted image 20260719193908.png]]

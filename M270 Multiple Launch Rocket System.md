@@ -11,7 +11,7 @@ References:
 https://en.wikipedia.org/wiki/M270_Multiple_Launch_Rocket_System
 In Service: 1983-Present
 
-The [[United States Army|Army]] variant of the M270 is bassed on the chassis of the [[M3 Bradley|Bradley Cavalry Fighting Vehicle]].
+The [[United States Army|Army]] variant of the M270 is bassed on the chassis of the [[Infantry Fighting Vehicle]].
 
 > In the early 1970s, the Soviets had a clear advantage over US and NATO forces in terms of rocket artillery. Israel's use of rocket artillery in the 1973 Yom Kippur War reinforced that the US needed to be able to engage enemy air defenses and provide counter-battery fire, freeing large-caliber artillery units ot provide call-for-fire artillery support for ground forces.
 

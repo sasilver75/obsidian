@@ -18,13 +18,13 @@ The Reaper has a 950 horsepower turboprop engine compared to the [[MQ-1B Predato
 
 The average unit cost of an MQ-9 is estimated at $34M in 2024 dollars.
 
-The MQ-9 has been further developed into the MQ-9B which (based on mission and payload) are referred to by General Atomics as SkyGuardian or SeaGuardian.
+The MQ-9 has been further developed into the MQ-9B which (based on mission and payload) are referred to by General Atomics as ==SkyGuardian== or ==SeaGuardian==.
 
 In 2007, when the [[United States Air Force|USAF]] officially adopted the [[MQ-9 Reaper]], the pusher prop beat out the jet engine, but this pusher prop had 950 hp instead of the [[MQ-1B Predator]]'s original 115 hp, allowing the Reaper to carry ~15x as much ordinance or equipment as its predecessor, with a longe range of 1000 nautical miles, capable of staying in the air for 40 hours.
 
-It's slow and modern radar has no problem picking it up, but 
+In 2024, the Warzone reported on the Marine Corps adding an [[Electronic Warfare]] and data collection pod (SOAR Pod; Scalable Open Architecture Reconnaissance)to the Reaper, quoting the commandant describing it as a "black hole" that could make it "mostly undetectable." ((Huh)); It collects signals and helps locate emitters from standoff ranges (which usually means well beyond line-of-sight, ideally keeping Reapers out of danger).
 
-
+The smaller [[Mojave]] is being used to demonstrate STOL capabilities for the upcoming MQ-9B STOL ([in active development](https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-stol)), a wing-kit that allows the MQ-9B (which has greater payload and endurance than the Mojave) to operate from austere runways and aircraft carriers. 
 
 
 >Q: Why have so many MQ-9s been shot down in Iran?
@@ -47,4 +47,19 @@ It's slow and modern radar has no problem picking it up, but
 
 
 
+
+![[Pasted image 20260719150744.png]]
+![[Pasted image 20260719150748.png]]
+Above: The SOAR pod in question, for EW and data collection.
+It does make a big, slow aircraft harder to track cleanly, and turns it into a collector for the rest of the force.
+
+
+![[Pasted image 20260719153010.png]]
+The [[MQ-9 Reaper|MQ-9B SkyGuardian]] equipped with [[AGM-158 JASSM|AGM-158C LRASM]] and [[AGM-158 JASSM]] cruise missiles. 
+
+
+![[Pasted image 20260719193505.png]]
+MQ-9B STOL
+
+![[Pasted image 20260719193908.png]]
 
