@@ -1,4 +1,4 @@
-Pron. "Dot-Mil-P-F"
+Pron. "Dot-Mill-P-F"
 
 A comprehensive analysis framework used by the US [[United States Department of Defense|DoD]] to identify capability gaps and determine the best solutions to resolve them.
 

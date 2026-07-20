@@ -7,6 +7,7 @@ This is an index note to gather video/audio resources that are high-quality.
 
 
 Blogs
+- https://insideunmannedsystems.com/
 - 
 
 Podcasts (Video or Audio)
