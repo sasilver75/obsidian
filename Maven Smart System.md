@@ -10,6 +10,7 @@ Resources
 - Video: [Sandboxx: MAVEN AI is running combat ops in Iran](https://youtu.be/7rR-PlHut2w?si=zbPpVP_f7rgsVqd9) (Very Good)
 
 An AI-powered defense platform (primarily) developed by [[Palantir]] that integrates, analyzes, and acts on massive volumes of sensor and intelligence data for the U.S. military, serving as a core "command and control" ([[Command and Control|C2]]) system.
+- Started as a Pentagon program, but since 2022, the [[National Geospatial-Intelligence Agency|NGA]] has taken operational control of it.
 
 Leverages computer vision and AI to identify targets and recommend actions, compressing the [[OODA Loop]] for military operators.
 

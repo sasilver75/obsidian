@@ -1,3 +1,7 @@
+---
+aliases:
+  - Spark
+---
 
 https://www.anduril.com/spark
 

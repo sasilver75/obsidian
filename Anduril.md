@@ -39,21 +39,22 @@
 # Air
 
 ### Tactical Reconnaissance and Strike
-- [[Anduril Bolt]]
-- [[Anduril Altius]]
-- [[Anduril Ghost]]
+- [[Anduril Bolt|Bolt]]
+- [[Anduril Altius|Altius]]
+- [[Anduril Ghost|Ghost]]
 ### Counter-UAS
-- [[Anduril Anvil]]
-- [[Anduril Roadrunnner]]
-- [[Anduril Sentry]]
-- [[Anduril Pulsar]]
-- [[Anduril Wisp]]
-- [[Anduril Spyglass]]
-- [[Anduril Spark]]
+- [[Anduril Anvil|Anvil]]
+- [[Anduril Roadrunnner|Roadrunner]]
+- [[Anduril Sentry|Sentry]]
+- [[Anduril Pulsar|Pulsar]]
+- [[Anduril Wisp|Wisp]]
+- [[Anduril Spyglass|Spyglass]]
+- [[Anduril Spark|Spark]]
 ### Solid Rocket motors
 - (They're building solid rocket motors, though the last time I heard this it was harder than expected)
 ### Maneuver Dominance
-- [[Anduril Omen]]
+- [[Anduril Omen|Omen]]
+- [[Anduril Thunder|Thunder]]
 ### Connected Warfare
 - (Same as in the Land Section)
 

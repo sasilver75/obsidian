@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "331038c1bdcb8c1d",
+        "id": "2a245cad8db3585f",
         "type": "tabs",
         "children": [
           {
-            "id": "3d1601e5d42c7db8",
+            "id": "9f6e907de9ce118e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Low Observability.md",
+                "file": "Intelligence, Surveillance, and Reconnaissance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Low Observability"
+              "title": "Intelligence, Surveillance, and Reconnaissance"
             }
           },
           {
-            "id": "e645dbae5a548b8b",
+            "id": "33cd702fc44cda4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coyote.md",
+                "file": "Targeting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Coyote"
+              "title": "Targeting"
             }
           },
           {
-            "id": "69e53f8b319da755",
+            "id": "2b47a81c003e40a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRIZZLY.md",
+                "file": "Mk 70 Mod 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GRIZZLY"
+              "title": "Mk 70 Mod 1"
             }
           },
           {
-            "id": "4065013857974f97",
+            "id": "e3bbe0fbb61c8214",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MQ-9 Reaper.md",
+                "file": "Defense Contractor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MQ-9 Reaper"
+              "title": "Defense Contractor"
             }
           },
           {
-            "id": "75f183c7dc75fcb9",
+            "id": "a0a82ca18acc565a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M3 Bradley.md",
+                "file": "Red Wolf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "M3 Bradley"
+              "title": "Red Wolf"
             }
           },
           {
-            "id": "6bf812daf9bd0e1e",
+            "id": "974629646f5673b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mojave.md",
+                "file": "Anduril.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mojave"
+              "title": "Anduril"
             }
           },
           {
-            "id": "90def89bc8f9462f",
+            "id": "60dcab8f46465fad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BlackSea Comet.md",
+                "file": "Anduril.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +172,275 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BlackSea Comet"
+              "title": "Anduril"
+            }
+          },
+          {
+            "id": "20aa376c35f28b2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Barracuda.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Barracuda"
+            }
+          },
+          {
+            "id": "303272d4d58264bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Omen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Omen"
+            }
+          },
+          {
+            "id": "acca313c5f482c81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Spark.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Spark"
+            }
+          },
+          {
+            "id": "0a9ec2ffba18af84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Sentry.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Sentry"
+            }
+          },
+          {
+            "id": "88959e516ebdbe43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Roadrunnner.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Roadrunnner"
+            }
+          },
+          {
+            "id": "d34827a40e791bf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Anvil.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Anvil"
+            }
+          },
+          {
+            "id": "8a7a82bef3614e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Ghost.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Ghost"
+            }
+          },
+          {
+            "id": "a5aab59129ce7ba1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Altius.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Altius"
+            }
+          },
+          {
+            "id": "e321ba2eb5ecbe42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anduril Bolt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anduril Bolt"
+            }
+          },
+          {
+            "id": "65fb1cbf1442bc2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MARTAC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MARTAC"
+            }
+          },
+          {
+            "id": "eb690b98986332a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Barracuda.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Barracuda"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -2336,44 +2600,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "90def89bc8f9462f",
+  "active": "eb690b98986332a5",
   "lastOpenFiles": [
-    "BlackSea Global Autonomous Reconnaissance Craft.md",
-    "Defense Resources (Index).md",
-    "MQ-4C Triton.md",
-    "RIM-116 Rolling Airframe Missile.md",
-    "Arleigh Burke-Class Destroyer.md",
-    "RIM-162 ESSM.md",
-    "Short-Range Air Defense.md",
+    "_attachments/Pasted image 20260720093731.png",
+    "_attachments/Pasted image 20260720093722.png",
+    "_attachments/Pasted image 20260720093714.png",
+    "Saildrone Spectre.md",
+    "Barracuda.md",
+    "_attachments/Pasted image 20260720093206.png",
+    "_attachments/Pasted image 20260720093157.png",
+    "_attachments/Pasted image 20260720093112.png",
+    "_attachments/Pasted image 20260720093101.png",
+    "_attachments/Pasted image 20260720093047.png",
+    "_attachments/Pasted image 20260720093026.png",
+    "_attachments/Pasted image 20260720093024.png",
+    "_attachments/Pasted image 20260720093022.png",
+    "Anduril Thunder.md",
+    "Anduril.md",
+    "Anduril Omen.md",
+    "Anduril Spark.md",
+    "Anduril Sentry.md",
+    "Anduril Roadrunnner.md",
+    "Anduril Anvil.md",
+    "Anduril Ghost.md",
+    "Anduril Altius.md",
+    "Anduril Bolt.md",
+    "Detect, Identify, Locate, and Report.md",
+    "Red Wolf.md",
+    "Defense Contractor.md",
+    "Mk 70 Mod 1.md",
+    "Hermeus.md",
+    "MARTAC.md",
     "AeroVironment.md",
-    "Turboprop.md",
-    "MQ-8 Fire Scout.md",
-    "Radar.md",
-    "X-Band.md",
-    "RQ-4 Global Hawk.md",
-    "_attachments/Pasted image 20260719202916.png",
-    "_attachments/Pasted image 20260719202800.png",
-    "_attachments/Pasted image 20260719202752.png",
-    "MQ-1C Gray Eagle.md",
-    "_attachments/Pasted image 20260719195441.png",
-    "MQ-1B Predator.md",
-    "MQ-9 Reaper.md",
-    "_attachments/Pasted image 20260719195423.png",
-    "United States Navy.md",
-    "Mojave.md",
-    "_attachments/Pasted image 20260719195302.png",
-    "M3 Bradley.md",
-    "_attachments/Pasted image 20260719193908.png",
-    "_attachments/Pasted image 20260719193505.png",
-    "_attachments/Pasted image 20260719191635.png",
-    "_attachments/Pasted image 20260719191536.png",
-    "AGM-179 JAGM.md",
-    "Tricon Shipping Container.md",
-    "Untitled 7.md",
-    "M2 Bradley.md",
-    "United States Army.md",
-    "M109 Paladin.md",
-    "m3brad.md",
+    "Saildrone.md",
+    "Conventional Prompt Strike.md",
+    "Saildrone Surveyor.md",
+    "Saildrone Voyager.md",
+    "Anti-Submarine Warfare.md",
+    "Saildrone Explorer.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

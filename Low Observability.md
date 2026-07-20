@@ -15,6 +15,12 @@ Several factors can contribute to Low Observability:
 7. [[Radar]] (This actually requires special engineering of the aircraft; Buildnn rs tried using )
 
 
+> "Stealth does not make an aircraft invisible. Low-observable design reduces the ranges at which radars can detect, classify, track, and engage the aircraft."
+
+> "Lower-frequency radars may detect the presence of a low-observable aircraft but often have poorer angular resolution than higher-frequency fire-control radars with practical antenna sizes."
+
+> "An early-warning radar detecting an aircraft does not automatically mean a weapon can engage it. An engagement requires sufficiently precise location, velocity, update rate, track continuity, and uncertainty bounds. [[Sensor Fusion]] can narrow the gap between detection and engagement by combining measurements from radars operating at different frequencies and from different locations."
+
 
 # Defeating Infrared
 
