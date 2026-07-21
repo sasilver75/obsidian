@@ -1,4 +1,5 @@
 ---
 aliases:
   - Cruiser
+  - CG
 ---

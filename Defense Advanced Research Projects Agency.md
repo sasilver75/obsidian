@@ -1,9 +1,15 @@
 ---
 aliases:
   - DARPA
+  - Defense Sciences Office
+  - Information Innovation Office
+  - Microsystems Technology Office
+  - Strategic Technology Office
+  - Tactical Technology Office
+  - Biological Technologies Office
 ---
 
-A research and development agency of the US [[United States Department of Defense|DoD]] responsible for the eevelopment of emerging technologies for use by the military.
+A research and development agency of the US [[United States Department of Defense|DoD]] responsible for the development of emerging technologies for use by the military.
 Originally known as the Advanced Research PRojects Agency (ARPA).
 
 

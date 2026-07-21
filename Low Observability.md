@@ -12,7 +12,7 @@ Several factors can contribute to Low Observability:
 4. [[Electromagnetic Spectrum|EM]] Emissions (Deactivating or using receive-only modes for radios, data links, radar altimeters, etc.)
 5. Acoustics (By flying at an altitude where the aircraft can't be easily used by the ground)
 6. [[Infrared]] (IR) (This actually requires special engineering of the aircraft: Obscuring the view to the hottest part of the aircraft, the engine; place engine intakes and exhaust in a place where it's blocked from view from below.)
-7. [[Radar]] (This actually requires special engineering of the aircraft; Buildnn rs tried using )
+7. [[Radar]] (This actually requires special engineering of the aircraft)
 
 
 > "Stealth does not make an aircraft invisible. Low-observable design reduces the ranges at which radars can detect, classify, track, and engage the aircraft."
@@ -23,6 +23,8 @@ Several factors can contribute to Low Observability:
 
 
 # Defeating Infrared
+Obscure the view (from below) to the hottest part of the aircraft: its engine.
+
 
 ![[Pasted image 20260718230809.png]]
 Above: On the [[B-2 Spirit]], see the fore engine intake and aft engine exhausts, which are all on the top of the plane.
@@ -34,6 +36,8 @@ This gives the exhaust air enough time to mingle with cooler ambient air before 
 This limits an aircraft to flying at high altitude, since ther are airborne infrared sensors as well!
 
 
+# Defeating Radar Reflection
 
+Builders tried use Radar Absorbing Material (RAM), an example of which is a type of paint consisting of a non-conductive substance with tiny mounts of iron suspended in it. This was used in the [[SR-72]]
 
 

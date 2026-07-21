@@ -1,15 +1,9 @@
 ---
 aliases:
-  - JSOC
+  - SMU
+  - Tier 1 Unit
 ---
-https://en.wikipedia.org/wiki/Joint_Special_Operations_Command
-
-A joint component command of [[US Special Operations Command|USSOCOM]] charged with executing special operations missions worldwide.
-Established after the failure of 
-
-
-
-
+All military [[Speical Mission Unit|SMU]]s fall under the operational command of [[Joint Special Operations Command|JSOC]].
 
 
 
@@ -19,9 +13,6 @@ These elite units include:
 - [[24th Special Tactics Squadron]] (24th STS): Task Force White
 - [[Intelligence Support Activity]] (ISA): Task Force Orange
 - Ranger [[Regimental Reconnaissance Company]] (RRC): Task Force Red
-Along with:
-- [[Joint Communications Unit]] (JCU)
-- [[Aviation Technology Office]] (ATO)
 
 
 

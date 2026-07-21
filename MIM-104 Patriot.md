@@ -5,6 +5,7 @@ aliases:
   - PAC-2 GEM-T
   - PAC-3 MSE
   - M903 LS
+  - PAC-3 ACE
 ---
 References:
 - [Video: Battle Order: How the US Army's PATRIOT Missile Fights](https://www.youtube.com/watch?v=n1ixqmKv9b8)
@@ -37,7 +38,7 @@ Variants:
 - ==MIM-104F (PAC-3 CRI)==: 1995, 1996, 2000: Significant upgrades to nearly every aspect of the system...has effectively quintupled the "footprint" that a Patriot unit can defend against ballistic missiles of all types, and increased its lethality/effectiveness.
 - ==PAC-3 MSE==: 2004. A nearly total system redesign of the interceptor missiles, designed from the outset to engage and destroy enemy [[Short-Range Ballistic Missile|SRBM]]s. Launched by the M903 LS launching system, which can hold 4 PAC-3 launching canisters (16 missiles).
 	- Note that upgrades for the PAC-3 system continue to this day, with improved radar search capabilities, improved missiles, fire control computers, etc.
-- PAC-3 ACE (Adapted Capability Effector): Introduced in 2026, will cost [less than half](https://www.defensenews.com/news/your-military/2026/07/20/lockheed-martin-announces-cheaper-patriot-interceptor-missile/) of what a PAC-3 interceptor costs, and can be used with legacy equipment. meaning it would cost less than ~$2M a pop, still much more than a [[Shahed 136]]. Designed to target [[Cruise Missile]]s, [[Short-Range Ballistic Missile|SRBM]]s, and other airbreathing threats. Will be compatible with [[Integrated Battle Command System|IBCS]].
+- ==PAC-3 ACE== (Adapted Capability Effector): Introduced in 2026, will cost [less than half](https://www.defensenews.com/news/your-military/2026/07/20/lockheed-martin-announces-cheaper-patriot-interceptor-missile/) of what a PAC-3 interceptor costs, and can be used with legacy equipment. meaning it would cost less than ~$2M a pop, still much more than a [[Shahed 136]]. Designed to target [[Cruise Missile]]s, [[Short-Range Ballistic Missile|SRBM]]s, and other airbreathing threats. Will be compatible with [[Integrated Battle Command System|IBCS]]. Doesn't seem to have significnatly declined performance.
 
 
 ![[Pasted image 20260715234824.png]]

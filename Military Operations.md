@@ -5,6 +5,7 @@ Subordinate Operations:
 - [[Operation Phantom Fury]] (2004): Second Battle of Fallujah, one of the major urban battles of the Iraq War.
 - [[Operation Red Wings]] (2005): Failed SEAL reconnaissance mission in Afghanistan.
 - [[Operation Kayla Mueller]] (2019): The successful raid that killed ISIS leader Abu Bakr al-Baghdadi.
+- [[Operation Eagle Claw]] (1980): Failed U.S. military rescue mission intended to free 52 American hostages held in Tehran.
 
 Major Operations:
 - [[Operation Enduring Freedom]] (2001-2014): Main US war operation in Afghanistan after September 11.

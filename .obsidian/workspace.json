@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "33cd702fc44cda4f",
+            "id": "a27e78738a1fd56e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Targeting.md",
+                "file": "Tricon Container.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Targeting"
+              "title": "Tricon Container"
             }
           },
           {
-            "id": "2b47a81c003e40a5",
+            "id": "63489427d9b10048",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mk 70 Mod 1.md",
+                "file": "Turbojet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mk 70 Mod 1"
+              "title": "Turbojet"
             }
           },
           {
-            "id": "e3bbe0fbb61c8214",
+            "id": "312028669ca9e5ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defense Contractor.md",
+                "file": "Raytheon.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Defense Contractor"
+              "title": "Raytheon"
             }
           },
           {
-            "id": "a0a82ca18acc565a",
+            "id": "7ee215a6429cee4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Wolf.md",
+                "file": "Defense Advanced Research Projects Agency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Red Wolf"
+              "title": "Defense Advanced Research Projects Agency"
             }
           },
           {
-            "id": "5289d9793a02286c",
+            "id": "a2520a65436b4b8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sea Hunter.md",
+                "file": "SR-72.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sea Hunter"
+              "title": "SR-72"
             }
           },
           {
-            "id": "74f5e6be64bd194b",
+            "id": "01e566ba0838ddd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drone Dominance Program.md",
+                "file": "SR-71 Blackbird.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +172,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Drone Dominance Program"
+              "title": "SR-71 Blackbird"
             }
           },
           {
-            "id": "65dad4798c2a7ff2",
+            "id": "0310b1fbad0c8635",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allen Control Systems.md",
+                "file": "Electronic Countermeasure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,35 +196,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Allen Control Systems"
-            }
-          },
-          {
-            "id": "8d6510d3aa350bf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States Navy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States Navy"
+              "title": "Electronic Countermeasure"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2384,44 +2360,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8d6510d3aa350bf5",
+  "active": "7ee215a6429cee4a",
   "lastOpenFiles": [
-    "Advanced Field Artillery Tactical Data System.md",
-    "AGM-88 HARM.md",
-    "Android Team Awareness Kit.md",
-    "Strategic Capabililties Office.md",
-    "Allen Control Systems Bullfrog.md",
+    "SR-72.md",
+    "SR-71 Blackbird.md",
+    "Low Observability.md",
+    "Electronic Warfare.md",
+    "Mosaic Warfare.md",
+    "Electronic Countermeasure.md",
+    "Nuclear-powered Ballistic Missile Submarine.md",
+    "Nuclear-powered Attack Submarine.md",
+    "Littoral Combat Ship.md",
+    "Guided Missile Frigate.md",
+    "Guided Missile Destroyer.md",
+    "Guided Missile Cruiser.md",
+    "Nuclear-powered Aircraft Carrier.md",
+    "Raytheon.md",
+    "Turboprop.md",
+    "Turbojet.md",
+    "Turbofan.md",
+    "MIM-104 Patriot.md",
+    "Defense Advanced Research Projects Agency.md",
+    "Quadcon Container.md",
+    "_attachments/Pasted image 20260721011942.png",
+    "_attachments/Pasted image 20260721011931.png",
+    "Tricon Container.md",
+    "Kill Web.md",
+    "Kill Chain.md",
+    "United States Navy.md",
+    "Mosaic.md",
+    "Class IV USV.md",
     "_attachments/Pasted image 20260720174522.png",
-    "Allen Control Systems.md",
-    "Red Wolf.md",
-    "Offset Strategy.md",
-    "Defense Resources (Index).md",
-    "Drone Dominance Program.md",
-    "Untitled 8.md",
-    "Perennial Autonomy.md",
-    "Anduril Copperhead.md",
     "_attachments/Pasted image 20260720163807.png",
     "_attachments/Pasted image 20260720163806.png",
     "_attachments/Pasted image 20260720163804.png",
     "_attachments/Pasted image 20260720163802.png",
     "_attachments/Pasted image 20260720163450.png",
     "_attachments/Pasted image 20260720163446.png",
-    "Anduril Seabed Sentry.md",
     "_attachments/Pasted image 20260720163307.png",
-    "_attachments/Pasted image 20260720163233.png",
-    "Anduril Ghost Shark XL-AUV.md",
-    "_attachments/Pasted image 20260720161503.png",
-    "Anduril Dive-XL.md",
-    "Sea Hunter.md",
-    "Morfius.md",
-    "MIM-104 Patriot.md",
-    "United States Department of Defense.md",
-    "Defense Contractor.md",
-    "Counter-Unmanned Aerial System.md",
-    "Joint Interagency Task Force 401.md",
-    "Perennial Autonomy Bumblebee.md",
-    "Perennial Autonomy Merops.md",
-    "Perennial Autonomy Hornet.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

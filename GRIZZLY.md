@@ -1,7 +1,7 @@
 
 ==Not in service; an active developmental/prototype system==
 
-A [[Counter-Unmanned Aerial System|C-UAS]] system (generally targeting [[Group 3 UAS|Group 3]] drones, like the [[Shahed 136]]) from [[Lockheed Martin]]; A containerized missile launcher built into a standard [[Tricon Shipping Container]].
+A [[Counter-Unmanned Aerial System|C-UAS]] system (generally targeting [[Group 3 UAS|Group 3]] drones, like the [[Shahed 136]]) from [[Lockheed Martin]]; A containerized missile launcher built into a standard [[Tricon Container]].
 
 The idea is that it provides the [[United States Army|Army]] with a highly-mobile, rapidly-deployable precision strike system for base defense and counter-drone operation.
 

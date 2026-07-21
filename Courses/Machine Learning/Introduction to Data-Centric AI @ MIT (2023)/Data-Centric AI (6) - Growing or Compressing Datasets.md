@@ -52,7 +52,7 @@ We can't process the data from every single Tesla in the world, we have to be th
 When we have a massive unlabeled dataset and the thing that we care about is only a very small subset of that (eg fraud in a transactions database), we run into the second bottleneck: Processing all of the unlabeled data we have!
 
 ![[Pasted image 20240630121833.png]]
-[[SEALS]]
+[[SEALS (Similarity Search)]]
 - We might have 10 billion images at Facebook collected over a single span! Just running a single inference pass with a ResNEt-50 model takes 38 exaFFLOPs of computation, or 40 GPU-months using P100 GPUs! The compute costs along of processing that amount of unlabeled data is going to dominate your costs, and it may be too slow! 
 You don't actually have to look at all of your data in order to process it!
 - Instead, what we can do is start the same way, with a large pool of unlabeled examples, and a small subset of labeled examples that we train an initial model with.
@@ -68,7 +68,7 @@ They were able to get to the same accuracy as maximum entropy while only looking
 Again close to the same mean average precision while only having 1% of data considered
 ![[Pasted image 20240630122858.png]]
 Again, with only >0.1% of the unlabeled data.
-- So techniques like [[SEALS]] make it possible to do active learning on web-scale datasets.
+- So techniques like [[SEALS (Similarity Search)]] make it possible to do active learning on web-scale datasets.
 You can tune the number of neighbors you look at to increase how far you go in a single leap, etc.
 
 ![[Pasted image 20240630123845.png]]

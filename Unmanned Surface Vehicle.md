@@ -10,3 +10,7 @@ look up the taxonomy for what is a small, medium, large, etc. USV according to t
 
 https://youtu.be/RSHgyQkWuzY?si=YrS26DzHQbufG4gB
 ^ Covers lots of the navy options out there ([[Saronic Corsair]])
+
+
+# USV Classes
+- 

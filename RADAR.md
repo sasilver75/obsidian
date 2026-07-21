@@ -2,9 +2,30 @@
 aliases:
   - Radio Detection and Ranging
 ---
+https://en.wikipedia.org/wiki/Radar
+
 Resources:
 - Video: [Max Lenormand: How Radar Satellites See through Clouds](https://youtu.be/zMsCyEAOrh0) (This is EXCELLENT, explaining use of RADAR in [[Synthetic Aperture Radar|SAR]])
 - Article:[ "An Introduction to Synthetic Aperture Radar Imaging" by Tom Ager in Oceanography magazine](https://tos.org/oceanography/assets/docs/26-2_ager.pdf) (Excellent pictures!)
+
+A radar system consists of a transmitter producing electromagnetic waves in the Radio or Microwave domain, a transmitting antenna, a receiving antenna (often the same antenna is used) and a receiver and processor to determine properties of objects.
+
+Radio waves (pulsed or continuous) from the transmitter reflect off the objects and return to the receiver, giving information about the object's locations and speeds. 
+
+Modern uses of radar are highly diverse, including air and terrestrial traffic control, radar astronomy, air-defense systems, anti-missile systems, marine radars, ocean surveillance systems, outer space surveillance and rendezvous systems, radar altimetry and flight control systems, guided missile target locating systems, ground-penetrating radar, etc.
+
+A radar system has a transmitter that emits radio waves in predetermined directions. When these signals contact an object, they are usually reflected or scattered in many directions, and some will be absorbed and penetrate into the target.
+
+Radar receivers are usually in the same location as the transmitter; the reflected radar signals captured by the receiving antenna are usually very weak, so they're strengthened by electronic amplifiers and signal processing algorithms.
+
+==The weak absorption of radio waves by the medium through which they pass is what enables radar sets to detect objects at relatively long ranges; ranges at which other EM waves (e.g. visible light, infrared) are too strongly attenuated, especially in the case of fog/clouds/rain/snow/sleet, which are transparent to radio waves.==
+
+Radar waves scatter from objects in a variety of waves depending on the wavelength used and the shape of the target.
+- If the wavelength is much shorter than the target's size, the wave will bounce off in a way similar to the way light is reflected by a mirror. 
+- If the wavelength is much longer than the size of the target, the target may not be visible because of poor reflection.
+- ==Low frequency (long wavelength) radar technology is dependent on resonances for *detection*, but not *identification* of targets.==
+
+
 
 
 RADAR's ability to determine range and motion make it suitable for many applications, but its most important attribute for imaging applications is that its relatively long wavelengths penetrate clouds, dust, and even volcanic ash, and it can image independent of most weather conditions. Given that we're on an ocean planet with a lot of water vapor continuously condensing into clouds over large regions of Earth's surface, radar is a core remote-sensing technology and it becomes the primary imaging source when cloud cover prevents other means of data collection.
@@ -39,6 +60,13 @@ Search radars scan great volumes of space with pulses of short radio waves, typi
 # Targeting Radars ([[Target Acquisition Radar]])
 Targeting radars use the same principle as search radars, but scan smaller volumes of space far more often, usually several times a second or more.
 - In semi-active radar homing (missile lock-on), the missile can "see" the target that the targeting radar is "illuminating."
+
+
+
+
+
+
+
 
 
 

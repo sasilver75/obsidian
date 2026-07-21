@@ -261,7 +261,7 @@ Terms:
 - [[Negative Pair]]
 - [[Mode Collapse]]
 - [[Active Learning]]
-- [[SEALS]] (Similarity Search for Active Learning and Search)
+- [[SEALS (Similarity Search)]] (Similarity Search for Active Learning and Search)
 - [[Prior Amplification]]
 - [[Prefix Tuning]]
 - Compute-Optimal Training

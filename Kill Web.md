@@ -1,6 +1,17 @@
 Replaces linear [[Kill Chain]]s (a fixed sequence from finding to destroying a target) with a resilient, cross-domain mesh network.
 
 
+
+Traditionally, a [[Kill Chain]] is the series of sequential steps needed to kill in warfare. It begins with target identification, followed by deploying lethal force, and ends with target destruction. Traditionally, tacticians strive to shorten this chain as much as possible to increase speed and efficiency.
+
+Kill Webs aim to integrate nodes of the kill chain across the joint force, making the process more flexible and resilient to disruption.
+
+The theory of [[Mosaic Warfare|Mosaic Warfighting]] (where instead of each warfighting system serving a specific purpose as part of a larger system, systems instead fit multiple roles, so as to create unique mosaics of military force) complements the kill web.
+
+
+> A squad-sized ground force is tasked with an airborne raid of a compound to kill/capture an HVT.
+
+
 ![[Pasted image 20260714142834.png]]
 
 
