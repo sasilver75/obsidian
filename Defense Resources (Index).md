@@ -55,7 +55,8 @@ Youtube Channels
 - [Missile Defense Advocacy Alliance](https://www.youtube.com/@MissiledefenseadvocacyOrg1)
 - [Task & Purpose](https://www.youtube.com/@Taskandpurpose)
 - [Naval News](https://www.youtube.com/@NavalNews/videos)
-- 
+- [Mitchell Institute for Aerospace Studies](https://www.youtube.com/@mitchellstudies)
+- [Center for Strategic and International Studies](https://www.youtube.com/@csis)
 
 
 Individuals

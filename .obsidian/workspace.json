@@ -174,9 +174,57 @@
               "icon": "lucide-file",
               "title": "Drone Dominance Program"
             }
+          },
+          {
+            "id": "65dad4798c2a7ff2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allen Control Systems.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Allen Control Systems"
+            }
+          },
+          {
+            "id": "8d6510d3aa350bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Navy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Navy"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -2336,8 +2384,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "74f5e6be64bd194b",
+  "active": "8d6510d3aa350bf5",
   "lastOpenFiles": [
+    "Advanced Field Artillery Tactical Data System.md",
+    "AGM-88 HARM.md",
+    "Android Team Awareness Kit.md",
+    "Strategic Capabililties Office.md",
+    "Allen Control Systems Bullfrog.md",
+    "_attachments/Pasted image 20260720174522.png",
+    "Allen Control Systems.md",
+    "Red Wolf.md",
+    "Offset Strategy.md",
+    "Defense Resources (Index).md",
+    "Drone Dominance Program.md",
+    "Untitled 8.md",
+    "Perennial Autonomy.md",
     "Anduril Copperhead.md",
     "_attachments/Pasted image 20260720163807.png",
     "_attachments/Pasted image 20260720163806.png",
@@ -2350,11 +2411,8 @@
     "_attachments/Pasted image 20260720163233.png",
     "Anduril Ghost Shark XL-AUV.md",
     "_attachments/Pasted image 20260720161503.png",
-    "_attachments/Pasted image 20260720161456.png",
     "Anduril Dive-XL.md",
     "Sea Hunter.md",
-    "Red Wolf.md",
-    "Defense Resources (Index).md",
     "Morfius.md",
     "MIM-104 Patriot.md",
     "United States Department of Defense.md",
@@ -2364,15 +2422,6 @@
     "Perennial Autonomy Bumblebee.md",
     "Perennial Autonomy Merops.md",
     "Perennial Autonomy Hornet.md",
-    "Chemical. Biological, Radiological, and Nuclear.md",
-    "Class III USV.md",
-    "Naval Research Laboratory.md",
-    "Office of Naval Research.md",
-    "Class I USV.md",
-    "Seahawk.md",
-    "United States Navy.md",
-    "Immediate Superior in Command.md",
-    "DOTMLPF-P.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

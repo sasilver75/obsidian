@@ -18,8 +18,11 @@ The US Navy has seven active numbered fleets:
 ==US Navy Hull Classification Symbols==
 Major Combatants
 - CVN: [[Nuclear-powered Aircraft Carrier]]
+	- A mobile airbase whose principal weapon is its embarked air wing, rather than the ship's own guns or missiles.
 - CG: [[Guided Missile Cruiser]]
+	- A large surface combatant traditionally capable of independent operations, fleet screening, command duties, and attacks against surface or land targets. Modern ones emphasize fleet air and missile defense, long range strike, and command facilities.
 - DDG: [[Guided Missile Destroyer]]
+	- A fast, general-purpose surface combatant that escorts larger ships while conducting air defense, anti-surface warare
 - DDG(X): Next-generated Guided Missile Destroyer
 - DDG 1000 ???
 - FFG: [[Guided Missile Frigate]]

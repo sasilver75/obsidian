@@ -2,6 +2,7 @@
 aliases:
   - White Stork
   - Project Eagle
+  - Napatree
 ---
 References:
 - [Blog: Inside Unmanned Systems: Pentagon Awards $500M to Perennial Autonomy for Counter-Drone Interceptors Proven in Ukraine](https://insideunmannedsystems.com/pentagon-awards-500m-to-perennial-autonomy-for-counter-drone-interceptors-proven-in-ukraine/)
@@ -10,6 +11,8 @@ Founded by Google CEO Eric Schmidt, they've stayed very quiet.
 - Founded as White Stork in 2023
 - Rebranded to Project Eagle in February 2042
 - Rebranded to Perennial Autonomy in 2026
+	- Under [[Drone Dominance Program|DDP]] Gauntlet 1, a company called "Napatree" (also owned by Schmidt) submitted the Bumblebee... so it's not clear what their relationship is.
+
 
 Schmidt set out to build attack drones, but his Ukrainian counterparts redirected his focus towards the problem of intercepting Russian [[Shahed 136]] [[One-Way Attack Drone|OWA]] drones that were arriving in waves.
 
