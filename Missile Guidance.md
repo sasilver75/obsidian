@@ -7,8 +7,12 @@ aliases:
   - Remote Control Guidance
   - Command Guidance
   - Beam Riding
+  - Semi-Active Radar Homing
+  - SARH
+  - Active Radar Homing
+  - ARH
 ---
-
+https://en.wikipedia.org/wiki/Missile_guidance
 
 Guidance systems can be broadly divided into two categories:
 - ==Go-onto-target== (GOT) systems, which can be used against moving targets
@@ -53,3 +57,4 @@ Missiles and guided bombs generally use similar types of guidance systems, the d
 - Beam riding systems are often [[Semi-Automatic Command to Line of Sight|SACLOS]], but don't have to be. In other systems, the beam is a part of an automated radar tracking system.
 - Advantage is that multiple missile may be launched at once, using the same beam.
 - Suffers from the inherent weakness of inaccuracy when increasing range as the beam spreads out; laser beam riders are more accurate in this regard, but can be degraded by bad weather.
+- 
