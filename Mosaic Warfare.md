@@ -5,6 +5,7 @@ aliases:
 https://warontherocks.com/mosaic-warfare-small-and-scalable-are-beautiful/
 
 The [[Defense Advanced Research Projects Agency|DARPA]] [[Defense Advanced Research Projects Agency|Strategic Technology Office]]'s concept for force design and operations to enable 21st century maneuver warfare.
+- (Note that this is a different concept than the IRGC's "Mosaic Defense", which is about decentralized leadership)
 
 A "mosaic" is a system where pieces are designed to be flexibly networked and rapidly configured to provide resilient capabilities to the operator. Like the tiles in a mosaic, any system (or unit) having certain functional characteristics could be combined with others to provide a desired warfighting capability at the time and place of a commander's choosing.
 

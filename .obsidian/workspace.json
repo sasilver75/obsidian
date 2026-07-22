@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intelligence, Surveillance, and Reconnaissance.md",
+                "file": "AFDP 3-60.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Intelligence, Surveillance, and Reconnaissance"
+              "title": "AFDP 3-60"
             }
           },
           {
-            "id": "a27e78738a1fd56e",
+            "id": "815e8bd157494c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tricon Container.md",
+                "file": "Missile Guidance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tricon Container"
+              "title": "Missile Guidance"
             }
           },
           {
-            "id": "63489427d9b10048",
+            "id": "b8a8015725a64ebf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Turbojet.md",
+                "file": "Semi-Automatic Command to Line of Sight.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Turbojet"
+              "title": "Semi-Automatic Command to Line of Sight"
             }
           },
           {
-            "id": "312028669ca9e5ce",
+            "id": "597187da3755d48b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raytheon.md",
+                "file": "Semi-Automatic Command to Line of Sight.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Raytheon"
+              "title": "Semi-Automatic Command to Line of Sight"
+            }
+          },
+          {
+            "id": "f848ad0a13ad8b82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LASer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LASer"
+            }
+          },
+          {
+            "id": "60917d570bd29a75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AIM-9 Sidewinder.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AIM-9 Sidewinder"
+            }
+          },
+          {
+            "id": "7238fd4b7d205704",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defense Advanced Research Projects Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Defense Advanced Research Projects Agency"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2197,12 +2269,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "1a113cfce591e073",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 199
+        "currentTab": 200
       },
       {
         "id": "8a022290161ffefa",
@@ -2264,8 +2346,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "312028669ca9e5ce",
+  "active": "815e8bd157494c68",
   "lastOpenFiles": [
+    "Semi-Automatic Command to Line of Sight.md",
+    "Missile Guidance.md",
+    "LASer.md",
+    "Mosaic Warfare.md",
+    "AIM-9 Sidewinder.md",
+    "_attachments/Pasted image 20260721234056.png",
+    "AGM-65 Maverick.md",
+    "_attachments/Pasted image 20260721234026.png",
+    "AFDP 3-60.md",
+    "JP 3-60 Joint Targeting.md",
+    "Defense Advanced Research Projects Agency.md",
+    "_attachments/Pasted image 20260721220232.png",
+    "Joint Targeting Cycle.md",
+    "Intelligence, Surveillance, and Reconnaissance.md",
+    "Tricon Container.md",
+    "Turbojet.md",
+    "Raytheon.md",
     "Electronic Countermeasure.md",
     "SR-71 Blackbird.md",
     "SR-72.md",
@@ -2277,31 +2376,14 @@
     "_attachments/Pasted image 20260721150401.png",
     "_attachments/Pasted image 20260721150238.png",
     "_attachments/Pasted image 20260721150054.png",
-    "Raytheon.md",
     "Anduril Thunder.md",
     "_attachments/Pasted image 20260721133557.png",
-    "Defense Advanced Research Projects Agency.md",
     "Electronic Warfare.md",
-    "Mosaic Warfare.md",
     "Nuclear-powered Ballistic Missile Submarine.md",
     "Nuclear-powered Attack Submarine.md",
-    "Littoral Combat Ship.md",
-    "Guided Missile Frigate.md",
-    "Guided Missile Destroyer.md",
-    "Guided Missile Cruiser.md",
-    "Nuclear-powered Aircraft Carrier.md",
-    "Turboprop.md",
-    "Turbojet.md",
-    "Turbofan.md",
-    "MIM-104 Patriot.md",
-    "Quadcon Container.md",
     "_attachments/Pasted image 20260721011942.png",
     "_attachments/Pasted image 20260721011931.png",
-    "Tricon Container.md",
     "_attachments/Pasted image 20260720174522.png",
-    "_attachments/Pasted image 20260720163807.png",
-    "_attachments/Pasted image 20260720163806.png",
-    "_attachments/Pasted image 20260720163804.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

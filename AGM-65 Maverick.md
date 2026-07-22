@@ -9,3 +9,4 @@ https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/
 
 ![[Pasted image 20260713123733.png|600]]
 
+![[Pasted image 20260721234026.png]]
