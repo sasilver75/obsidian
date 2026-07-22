@@ -4,6 +4,7 @@ aliases:
 ---
 References:
 - [Video: Anduril: Animated Thunder Sizzle Reel](https://x.com/anduriltech/status/2079258396650614908?s=20)
+- [Video: Sandboxx: Meet Thunder; Anduril's Autonomous Attack Rotorcraft](https://youtu.be/6tYtJaMY9C4?si=89FK3Ek7tG9q84QI)
 
 https://www.anduril.com/thunder
 
@@ -15,8 +16,14 @@ A [[Group 5 UAS|Group 5]] autonomous attack rotorcraft. A joint development with
 
 > Shane Arnott, Anduril’s SVP of Maneuver Dominance, framed the collaboration as pulling commercial eVTOL performance and producibility into a defense airframe. Archer required a clean-sheet approach rather than a modification of an existing airframe, said Adam Goldstein, Archer’s founder and CEO, calling the result “the most sophisticated vertical lift aircraft ever made.”
 
+> The armament of an [[AH-64E Apache]] with the speed of a [[MV-75 Cheyenne II]].
+
 
 ![[Pasted image 20260720091729.png]]
 ![[Pasted image 20260720122033.png]]
 ![[Pasted image 20260720091731.png]]
 ![[Pasted image 20260720091734.png]]
+
+
+![[Pasted image 20260721133557.png]]
+An [[AH-64E Apache]] can control up to 6 Thunders
