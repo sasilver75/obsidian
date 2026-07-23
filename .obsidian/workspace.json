@@ -80,6 +80,54 @@
             }
           },
           {
+            "id": "8c6a2cc539411b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Controlled Reception Pattern Antenna.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Controlled Reception Pattern Antenna"
+            }
+          },
+          {
+            "id": "a35e5d5f8a90925b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gain.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gain"
+            }
+          },
+          {
             "id": "597187da3755d48b",
             "type": "leaf",
             "state": {
@@ -176,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2292,9 +2340,19 @@
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
             }
+          },
+          {
+            "id": "2df1dde6e6f3ec6a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 201
+        "currentTab": 202
       },
       {
         "id": "8a022290161ffefa",
@@ -2356,8 +2414,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b8a8015725a64ebf",
+  "active": "8c6a2cc539411b3f",
   "lastOpenFiles": [
+    "Gain.md",
+    "Controlled Reception Pattern Antenna.md",
+    "Anduril Menace-I.md",
     "Terrain Contour Matching.md",
     "_attachments/Pasted image 20260722221206.png",
     "Missile Guidance.md",
@@ -2389,8 +2450,6 @@
     "Turbojet.md",
     "Raytheon.md",
     "Electronic Countermeasure.md",
-    "SR-71 Blackbird.md",
-    "SR-72.md",
     "_attachments/Pasted image 20260721150401.png",
     "_attachments/Pasted image 20260721150238.png",
     "RC-135V",
