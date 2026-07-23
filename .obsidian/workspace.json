@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terrain Contour Matching.md",
+                "file": "Anduril Menace-I.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Terrain Contour Matching"
+              "title": "Anduril Menace-I"
             }
           },
           {
@@ -2289,8 +2289,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -2358,6 +2358,7 @@
   },
   "active": "b8a8015725a64ebf",
   "lastOpenFiles": [
+    "Terrain Contour Matching.md",
     "_attachments/Pasted image 20260722221206.png",
     "Missile Guidance.md",
     "Solid Rocket Motor.md",
@@ -2365,7 +2366,6 @@
     "_attachments/Pasted image 20260722205857.png",
     "_attachments/Pasted image 20260722205828.png",
     "_attachments/Pasted image 20260722205808.png",
-    "Terrain Contour Matching.md",
     "Ballistic Missile.md",
     "E-7A Wedgetail.md",
     "Semi-Automatic Command to Line of Sight.md",
@@ -2393,7 +2393,6 @@
     "SR-72.md",
     "_attachments/Pasted image 20260721150401.png",
     "_attachments/Pasted image 20260721150238.png",
-    "_attachments/Pasted image 20260721150054.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
