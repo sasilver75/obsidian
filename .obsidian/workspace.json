@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "E-7A Wedgetail.md",
+                "file": "Terrain Contour Matching.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "E-7A Wedgetail"
+              "title": "Terrain Contour Matching"
             }
           },
           {
@@ -2279,12 +2279,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "c58523a4ac68e1a8",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 200
+        "currentTab": 201
       },
       {
         "id": "8a022290161ffefa",
@@ -2348,12 +2358,20 @@
   },
   "active": "b8a8015725a64ebf",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260722221206.png",
+    "Missile Guidance.md",
+    "Solid Rocket Motor.md",
+    "Islamic State.md",
+    "_attachments/Pasted image 20260722205857.png",
+    "_attachments/Pasted image 20260722205828.png",
+    "_attachments/Pasted image 20260722205808.png",
+    "Terrain Contour Matching.md",
+    "Ballistic Missile.md",
+    "E-7A Wedgetail.md",
     "Semi-Automatic Command to Line of Sight.md",
     "Untitled 9.md",
     "E-3 Sentry.md",
-    "E-7A Wedgetail.md",
     "_attachments/Pasted image 20260722140645.png",
-    "Missile Guidance.md",
     "Association of Southeast Asian Nations.md",
     "LASer.md",
     "Mosaic Warfare.md",
@@ -2373,17 +2391,9 @@
     "Electronic Countermeasure.md",
     "SR-71 Blackbird.md",
     "SR-72.md",
-    "Diffuse Reflection.md",
-    "Specular Reflection.md",
-    "Corner Reflector.md",
-    "MQ-9 Reaper.md",
-    "Low Observability.md",
     "_attachments/Pasted image 20260721150401.png",
     "_attachments/Pasted image 20260721150238.png",
     "_attachments/Pasted image 20260721150054.png",
-    "_attachments/Pasted image 20260721133557.png",
-    "_attachments/Pasted image 20260721011942.png",
-    "_attachments/Pasted image 20260721011931.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

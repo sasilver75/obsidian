@@ -12,6 +12,9 @@ aliases:
   - Active Radar Homing
   - ARH
 ---
+References:
+- [Video: Mscope: How Missiles Work (Engines, Guidance, Warheads, and History)](https://www.youtube.com/watch?v=_ahR6LqnyYg)
+
 https://en.wikipedia.org/wiki/Missile_guidance
 
 Guidance systems can be broadly divided into two categories:

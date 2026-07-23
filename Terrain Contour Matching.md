@@ -2,6 +2,9 @@
 aliases:
   - TERCOM
 ---
+References:
+- [Video: Mscope: How Missiles Work (Engines, Guidance, Warheads, and History)](https://www.youtube.com/watch?v=_ahR6LqnyYg)
+
 https://en.wikipedia.org/wiki/TERCOM
 
 
@@ -15,7 +18,15 @@ Of course, now we have different models, etc. See [[Maxar|Vantor]]'s Raptor prod
 # Comparison with [[Visual Positioning System]] (VPS)
 - Both are GPS-independent navigation technologies used to determine location, but TERCOM matches 3D elevation maps with altitude data, while VPS matches 2D visual images with camera feeds.
 
+# Comparison with [[Digital Scene Matching Area Correlation]]
+- ...
+
+
+![[Pasted image 20260722221206.png]]
+Above: TCM vs DSMAC
 
 
 ![[Pasted image 20260715150115.png]]
 Above: TERCOM being used by [[BGM-109 Tomahawk Land Attack Missile|Tomahawk]]
+
+
