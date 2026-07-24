@@ -70,3 +70,8 @@ Relevant Contractors
 China:
 - [[Chengdu Aircraft Corporation]] (CAC)
 - [[Shenyang Aircraft Corporation]] (SAC)
+
+Israel:
+- [[Israel Aerospace Industries]] (IAI)
+- Elbit Systems
+- Rafael Advanced Defense Systems
