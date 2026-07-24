@@ -13,150 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AFDP 3-60.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AFDP 3-60"
-            }
-          },
-          {
-            "id": "815e8bd157494c68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "E-3 Sentry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "E-3 Sentry"
-            }
-          },
-          {
-            "id": "b8a8015725a64ebf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anduril Menace-I.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Anduril Menace-I"
-            }
-          },
-          {
-            "id": "8c6a2cc539411b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coalition Air Operations Center.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Coalition Air Operations Center"
-            }
-          },
-          {
-            "id": "2b63a6ddb8eb6ce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Integrated Combat Turn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Integrated Combat Turn"
-            }
-          },
-          {
-            "id": "3823fcafec4644ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Military Occupational Specialty.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Military Occupational Specialty"
-            }
-          },
-          {
-            "id": "8987802ebe8d49e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Agile Combat Employment.md",
                 "mode": "source",
                 "source": false,
@@ -176,12 +32,12 @@
             }
           },
           {
-            "id": "a96789bfbed0675d",
+            "id": "ed497093f8480ac0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Competition Continuum.md",
+                "file": "Aircraft Landing Status Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Competition Continuum"
+              "title": "Aircraft Landing Status Code"
             }
           },
           {
-            "id": "e1aea27ea60e0188",
+            "id": "a15c63f612847b91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mission Command.md",
+                "file": "OA-1K Skyraider II.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mission Command"
+              "title": "OA-1K Skyraider II"
             }
           },
           {
-            "id": "d7fd6f61fd604ac9",
+            "id": "7d4fbd5708fb5f06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Joint All-Domain Operations.md",
+                "file": "Kill Chain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Joint All-Domain Operations"
+              "title": "Kill Chain"
             }
           },
           {
-            "id": "0eea9f732f8b2982",
+            "id": "b8ac2b5e786e217f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agile Combat Employment.md",
+                "file": "Contested, Degraded, and Operationally Limited.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agile Combat Employment"
+              "title": "Contested, Degraded, and Operationally Limited"
             }
           },
           {
-            "id": "1a45e3b562e876e8",
+            "id": "39a00fa6d0732ad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Passive Electronically Scanned Array.md",
+                "file": "Contested, Degraded, and Operationally Limited.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,203 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Passive Electronically Scanned Array"
-            }
-          },
-          {
-            "id": "e36bc14697420c90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Passive Electronically Scanned Array.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Passive Electronically Scanned Array"
-            }
-          },
-          {
-            "id": "c60d71bae738f8f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Surface Warfare Officer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Surface Warfare Officer"
-            }
-          },
-          {
-            "id": "816aab02eaf7e706",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Air Force Speciality Code.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Air Force Speciality Code"
-            }
-          },
-          {
-            "id": "a35e5d5f8a90925b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gain.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gain"
-            }
-          },
-          {
-            "id": "597187da3755d48b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semi-Automatic Command to Line of Sight.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Semi-Automatic Command to Line of Sight"
-            }
-          },
-          {
-            "id": "f848ad0a13ad8b82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LASer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "LASer"
-            }
-          },
-          {
-            "id": "60917d570bd29a75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AIM-9 Sidewinder.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AIM-9 Sidewinder"
-            }
-          },
-          {
-            "id": "7238fd4b7d205704",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Defense Advanced Research Projects Agency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Defense Advanced Research Projects Agency"
+              "title": "Contested, Degraded, and Operationally Limited"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -2688,44 +2352,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a96789bfbed0675d",
+  "active": "7d4fbd5708fb5f06",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260723224744.png",
-    "_attachments/Pasted image 20260723224731.png",
-    "Competition Continuum.md",
-    "Agile Combat Employment.md",
-    "Mission Command.md",
-    "Joint All-Domain Operations.md",
-    "Analysis and Control Element.md",
-    "MJ-1.md",
-    "_attachments/Pasted image 20260723190750.png",
-    "Integrated Combat Turn.md",
-    "Inverse Cloze.md",
-    "Active Electronically Scanned Array.md",
-    "Passive Electronically Scanned Array.md",
-    "Defense Contractor.md",
-    "Rating.md",
-    "_attachments/Pasted image 20260723184504.png",
-    "Surface Warfare Officer.md",
-    "Military Occupational Specialty.md",
-    "Air Force Speciality Code.md",
-    "Area Defense.md",
-    "Point Defense.md",
-    "Special Instructions.md",
-    "Coalition Air Operations Center.md",
-    "Phased Array.md",
-    "Missile Guidance.md",
+    "MQ-9 Reaper.md",
+    "Perennial Autonomy Hornet.md",
+    "_attachments/Pasted image 20260724113534.png",
+    "_attachments/Pasted image 20260724113510.png",
+    "_attachments/Pasted image 20260724113503.png",
+    "_attachments/Pasted image 20260724111431.png",
+    "_attachments/Pasted image 20260724111401.png",
+    "_attachments/Pasted image 20260724111301.png",
+    "Perennial Autonomy Bumblebee.md",
+    "_attachments/Pasted image 20260724111234.png",
+    "_attachments/Pasted image 20260724111225.png",
+    "Perennial Autonomy Merops.md",
+    "_attachments/Pasted image 20260724111205.png",
+    "_attachments/Pasted image 20260724110847.png",
+    "Drone Interceptor.md",
     "Radar.md",
-    "Controlled Reception Pattern Antenna.md",
-    "Gain.md",
-    "Anduril Menace-I.md",
-    "_attachments/Pasted image 20260722221206.png",
-    "_attachments/Pasted image 20260722205857.png",
-    "_attachments/Pasted image 20260722205828.png",
-    "_attachments/Pasted image 20260722205808.png",
-    "_attachments/Pasted image 20260722140645.png",
-    "_attachments/Pasted image 20260721234056.png",
-    "_attachments/Pasted image 20260721234026.png",
+    "OA-1K Skyraider II.md",
+    "Aircraft Landing Status Code.md",
+    "Agile Combat Employment.md",
+    "Contested, Degraded, and Operationally Limited.md",
+    "AFDP 3-60.md",
+    "Short-Range Air Defense.md",
+    "Directed Energy.md",
+    "DE M-SHORAD.md",
+    "Maneuver Short-Range Air Defense.md",
+    "Integrated Battle Command System.md",
+    "Lower Tier Air and Missile Defense Sensor.md",
+    "Bradley Fighting Vehicle.md",
+    "ANTWQ-1 Avenger.md",
+    "MIM-104 Patriot.md",
+    "Mean Squared Error.md",
+    "Weapon Engagement Zone.md",
+    "B-52H Stratofortress.md",
+    "DARPA Gremlins Program.md",
+    "Warfighting Function.md",
+    "E-3 Sentry.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

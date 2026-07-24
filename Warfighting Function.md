@@ -1,6 +1,7 @@
 ---
 aliases:
   - WfF
+  - Joint Function
 ---
 
 

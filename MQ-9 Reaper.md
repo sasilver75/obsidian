@@ -10,6 +10,7 @@ aliases:
 References:
 - [Air Force Fact Sheet](https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104470/mq-9-reaper/)
 - [Video: Naval News: MQ-9B SeaGuardian at DIMDEX 2026](https://youtu.be/VVRjgSsVa70?si=jgcZcU-figya6ga8)
+- [Video: Media Magik Entertainment: Rare Look at MQ=9 Reaper Live Targeting Feed With Audio](https://www.youtube.com/watch?v=NpvscI2Tg4U)
 
 https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper
 

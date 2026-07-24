@@ -24,12 +24,14 @@ Patriot Systems are designed around [[Battalion]]s; a Patriot battalion consists
 In April 2026, the [[United States Navy|Navy]] announced that it was preparing to bring PAC-3 MSE interceptors to sea for use by its Aegis system, which uses advanced radars to identify, track, and then guide missiles, awarding Raytheon a multimillion dollar contract.
 - In the same month, the Pentagon agreed to a $4.7B contract with [[Lockheed Martin]] to accelerate PAC-3 MSE interceptor production.
 
+> "The radar can track 100 targets at a time."
+
 
 ![[Pasted image 20260715233212.png]]
 In service in Turkey
 
 ![[Pasted image 20260715235610.png]]
-A PAC-3 missile launcher, note four missiles in each canister
+A PAC-3 missile launcher, note four missiles in each canister, for a total of 12 per launcher.
 
 Variants:
 - ==MIM-104A== "Standard": Deployed in 1984; Used initially as an anti-aircraft system.
@@ -38,6 +40,7 @@ Variants:
 - ==MIM-104F (PAC-3 CRI)==: 1995, 1996, 2000: Significant upgrades to nearly every aspect of the system...has effectively quintupled the "footprint" that a Patriot unit can defend against ballistic missiles of all types, and increased its lethality/effectiveness.
 - ==PAC-3 MSE==: 2004. A nearly total system redesign of the interceptor missiles, designed from the outset to engage and destroy enemy [[Short-Range Ballistic Missile|SRBM]]s. Launched by the M903 LS launching system, which can hold 4 PAC-3 launching canisters (16 missiles).
 	- Note that upgrades for the PAC-3 system continue to this day, with improved radar search capabilities, improved missiles, fire control computers, etc.
+	- PAC-3 MSE was designed explicitly to fill the gap between the prior Patriot variants and [[Terminal High Altitude Area Defense|THAAD]], in terms of engagement zone.
 - ==PAC-3 ACE== (Adapted Capability Effector): Introduced in 2026, will cost [less than half](https://www.defensenews.com/news/your-military/2026/07/20/lockheed-martin-announces-cheaper-patriot-interceptor-missile/) of what a PAC-3 interceptor costs, and can be used with legacy equipment. meaning it would cost less than ~$2M a pop, still much more than a [[Shahed 136]]. Designed to target [[Cruise Missile]]s, [[Short-Range Ballistic Missile|SRBM]]s, and other airbreathing threats. Will be compatible with [[Integrated Battle Command System|IBCS]]. Doesn't seem to have significnatly declined performance.
 
 

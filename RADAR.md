@@ -33,6 +33,8 @@ RADAR's ability to determine range and motion make it suitable for many applicat
 
 
 
+==NOTE==: Most pure plastics are radio frequency (RF) transparent, making plastic-framed quadrotor drones have significantly lowered radar cross sections, and be harder to detect.
+
 
 # [[Detection And Search Radar]]
 Search radars scan great volumes of space with pulses of short radio waves, typically scanning the volume 2-4 times a minute.

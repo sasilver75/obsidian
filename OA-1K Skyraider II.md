@@ -1,3 +1,7 @@
+References:
+- [Video: Afterburn Defense: Inside AFSOC's Newest ATTACK Plane With the Test Pilot Who's Flown 47 Aircraft](https://youtu.be/t3kKJt7tAVU?si=8RnGKVvdCyguSSpJ)
+
+
 https://en.wikipedia.org/wiki/L3Harris_OA-1K_Skyraider_II
 https://www.afsoc.af.mil/About-Us/Fact-Sheets/Display/Article/4201500/oa-1k-skyraider-ii/
 https://www.youtube.com/watch?v=uvAyxlmpBdk

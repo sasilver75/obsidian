@@ -9,7 +9,7 @@ A framework that describes three broad categories of strategic relationships amo
 - ==Conflict==/war
 	- When military forces take action against an enemy in hostilities or declared war.
 
-
+==Cooperation, competition, and armed conflict can, and often do, occur simultaneously.==
 
 
 

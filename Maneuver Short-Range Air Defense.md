@@ -8,3 +8,5 @@ Refers to the [[United States Army|Army]]'s [[Stryker]]-based mobile air defense
 
 
 
+![[Pasted image 20260724004521.png]]
+
