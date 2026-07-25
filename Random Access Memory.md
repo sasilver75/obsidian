@@ -1,4 +1,4 @@
 ---
 aliases:
-  - FMS
+  - RAM
 ---

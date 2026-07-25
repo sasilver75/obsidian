@@ -1,4 +1,5 @@
 ---
 aliases:
   - FHSS
+  - Frequency Hopping
 ---

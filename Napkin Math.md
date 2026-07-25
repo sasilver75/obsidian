@@ -4,7 +4,7 @@ These are general order-of-magnitude references, not exact constants.
 
 
 # Rules of thumb:
-- [[RAM]] is ~1,000x faster than [[Solid State Disk|SSD]] random read.
+- [[Random Access Memory|RAM]] is ~1,000x faster than [[Solid State Disk|SSD]] random read.
 - [[Solid State Disk|SSD]] random read is ~100x faster than an [[HDD]] random read.
 - Same-region service calls are ms-scale
 - Cross-country calls are 10s of ms

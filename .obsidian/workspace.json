@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operational Control.md",
+                "file": "Targeting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Operational Control"
+              "title": "Targeting"
             }
           },
           {
@@ -181,6 +181,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Frequency Hopping Spread Spectrum.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Frequency Hopping Spread Spectrum"
+            }
+          },
+          {
+            "id": "5b4f45d42937eaad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Agile Combat Employment.md",
                 "mode": "source",
                 "source": false,
@@ -200,12 +224,12 @@
             }
           },
           {
-            "id": "5b4f45d42937eaad",
+            "id": "f6ad48a6f29683d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proliferated Warfighter Space Architecture.md",
+                "file": "Competition Continuum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,11 +244,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Proliferated Warfighter Space Architecture"
+              "title": "Competition Continuum"
+            }
+          },
+          {
+            "id": "d6502e11d37b7e4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defense Security Cooperation Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Defense Security Cooperation Agency"
+            }
+          },
+          {
+            "id": "e7034072f4ca2e45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Component-Critical Target.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Component-Critical Target"
+            }
+          },
+          {
+            "id": "26d0246133f00539",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secretary of Defense.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Secretary of Defense"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -2424,12 +2520,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0baa98961cd042bd",
+  "active": "d6502e11d37b7e4b",
   "lastOpenFiles": [
+    "Foreign Military Sale.md",
+    "Defense Security Cooperation Agency.md",
+    "Competition Continuum.md",
+    "Unconventional Warfare.md",
+    "Short-Range Air Defense.md",
+    "Random Access Memory.md",
+    "Napkin Math.md",
+    "Joint Force Commander.md",
+    "Rules of Engagement.md",
+    "Targeting.md",
+    "Component-Critical Target.md",
+    "Secretary of Defense.md",
+    "_attachments/Pasted image 20260725013631.png",
+    "Global Integrated Target List.md",
+    "Joint All-Domain Operations.md",
     "Operational Control.md",
-    "Administrative Control.md",
     "Tactical Command.md",
+    "Administrative Control.md",
+    "Frequency Hopping Spread Spectrum.md",
     "Agile Combat Employment.md",
+    "Combatant Commander.md",
+    "_attachments/Pasted image 20260724222738.png",
     "Proliferated Warfighter Space Architecture.md",
     "Space Development Agency.md",
     "Analysis and Control Element.md",
@@ -2438,30 +2552,12 @@
     "_attachments/Pasted image 20260724191704.png",
     "_attachments/Pasted image 20260724191542.png",
     "Combined Joint All-Domain Command and Control.md",
-    "Non-Classified Internet Protocol Router Network.md",
-    "Joint Worldwide Intelligence Communications System.md",
-    "Multi-Domain Operations.md",
-    "Chief Digital and Artificial Intelligence Office.md",
-    "AGM-158 JASSM.md",
-    "SM-6.md",
-    "Aircraft Landing Status Code.md",
-    "OA-1K Skyraider II.md",
-    "Contested, Degraded, and Operationally Limited.md",
-    "Defense Resources (Index).md",
-    "Kill Chain.md",
-    "MQ-9 Reaper.md",
-    "Perennial Autonomy Hornet.md",
     "_attachments/Pasted image 20260724113534.png",
     "_attachments/Pasted image 20260724113510.png",
     "_attachments/Pasted image 20260724113503.png",
     "_attachments/Pasted image 20260724111431.png",
     "_attachments/Pasted image 20260724111401.png",
     "_attachments/Pasted image 20260724111301.png",
-    "Perennial Autonomy Bumblebee.md",
-    "_attachments/Pasted image 20260724111234.png",
-    "_attachments/Pasted image 20260724111225.png",
-    "Perennial Autonomy Merops.md",
-    "Drone Interceptor.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

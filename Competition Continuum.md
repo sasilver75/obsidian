@@ -12,6 +12,7 @@ A framework that describes three broad categories of strategic relationships amo
 ==Cooperation, competition, and armed conflict can, and often do, occur simultaneously.==
 
 
+The [[Targeting]] processes can occur throughout the competition continuum: Much of the target development process can occur well prior to armed conflict.
 
 
 ![[Pasted image 20260723224744.png]]

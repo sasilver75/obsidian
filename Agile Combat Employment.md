@@ -36,7 +36,6 @@ ACE achieves its goals through the following Enablers:
 2. Mission Command
 3. Tailorable force packages
 
-
 # Expeditionary and Multi-Capable Airmen
 - Airmen need skills that enable them to operate in contested, degraded, and operationally limited ([[Contested, Degraded, and Operationally Limited|CDO]]) environments with ==minimal support==. 
 - ACE teams consist of unit-assigned multi-capable Airmen... with the ==goal of minimizing equipment and personnel footprints== to increase dispersal capabilities and complicate adversary targeting. The use of MCAs can reduce the number of people put in harm's way to generate airpower relative to traditional manning models.
@@ -58,7 +57,6 @@ ACE achieves its goals through the following Enablers:
 > "To generate combat power from a number of locations to create dilemmas for an adversary... I just need a runway, a ramp, a weapons trailer, a fuel bladder, and a pallet of MREs. That's maybe a little bit bold, but the point is that we have to be light, lean, and agile."
 > - General CQ Brown, Jr Chief of Staff of the Air Force, 2019
 
-
 # ACE Framework
 - ACE consists of ==five core elements==:
 	1. Posture
@@ -68,7 +66,6 @@ ACE achieves its goals through the following Enablers:
 	5. Sustainment
 
 The latter four align with the [[Warfighting Function]]
-
 
 ### Posture
 - The starting position from which all subsequent actions take place.
@@ -103,13 +100,35 @@ The latter four align with the [[Warfighting Function]]
 
 ### Protection
 - Air bases are no longer considered a sanctuary from attack, regardless of their location.
-- Forces must operate in and through contested environments. A combination of active and passive defense is necessary to counter threats in all domains.
+- Forces must operate in and through contested environments. A combination of active and passive defense is necessary to counter threats in all domains, against threats like [[Unmanned Aerial System|sUAS]], [[Cruise Missile]]s, [[Ballistic Missile]]s, and from [[Hypersonic Weapon]]s.
+- A strategy that implements [[Integrated Air Defense|IAMD]] to include layered defense counter-air capabilities complicates and frustrates enemy targeting.
+- Enduring location-focused force protection plans and strategies *are insufficient* to meet the needs of dispersed operations. 
 
 ### Sustainment
-- 
+- Supply and distribution systems need to transform from a fully-connected "pull" system, optimized for efficient operations, to a "push" system that maximizes distributed mission effectiveness.
+- ACE sustainment requires infrastructure innovation, operationalized war reserve materiel, and prepositioned equipment. 
+- ACE sustainment should focus primarily on aircraft sortie generation, but should also include the ability to execute implied tasks such as receiving airlift or sealift for resupply, executing BOS functions, and contracting local services, supplies, and equipment.
+
+### Information
+- Effective conduct of information warfare is a key element of ACE.
+- The deceptive use of information can cause an adversary to errantly diffuse or concentrate forces, rendering them ineffective. Similarly, it can create a state of "analysis paralysis" about ACE maneuver that challenges an adversary's ability to make effective, timely decisions.
+- The effective integration of information into ACE schemes of maneuver can bolster assurance and deterrence by revealing overall joint force capabilities to deny adversary benefits or punish aggression, conceal or obscure aspects that provide perishable advantage, or suggest elements that mislead adversaries.
+
+### Intelligence
+- [[Intelligence Preparation of the Operational Environment|IPOE]] is employed to identify enemy capabilities and threats to proposed ACE operations and support their mitigation. 
+- The intelligence and CI community must also consider threats from commercial vendors and contractors. 
+
+### Fires
+- ACE scheme of maneuver ensures the ability to mass fires to achieve convergence of effects in all domains.
+- Plans should account for timelines that it may take to aggregate forces originating from different dispersed sites to create effe
+
+### Conclusion
+- ACE requires a revolutionary change in how the Air Force thinks about and conducts operations within the modern operational environment.
+
+____________
 
 
-
+![[Pasted image 20260724222738.png]]
 
 
 _______________
