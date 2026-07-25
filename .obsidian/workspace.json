@@ -13,6 +13,174 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Multi-Domain Operations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Domain Operations"
+            }
+          },
+          {
+            "id": "129d1d6c29313425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Space Development Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Space Development Agency"
+            }
+          },
+          {
+            "id": "07de86f3566d695a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joint Worldwide Intelligence Communications System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Joint Worldwide Intelligence Communications System"
+            }
+          },
+          {
+            "id": "7ef1f4300ed0ac1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Space Development Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Space Development Agency"
+            }
+          },
+          {
+            "id": "97cfa8acabfb521c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operational Control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Operational Control"
+            }
+          },
+          {
+            "id": "a128212db5a31601",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tactical Command.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tactical Command"
+            }
+          },
+          {
+            "id": "72a7959d84e08b87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Administrative Control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Administrative Control"
+            }
+          },
+          {
+            "id": "0baa98961cd042bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Agile Combat Employment.md",
                 "mode": "source",
                 "source": false,
@@ -32,12 +200,12 @@
             }
           },
           {
-            "id": "ed497093f8480ac0",
+            "id": "5b4f45d42937eaad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aircraft Landing Status Code.md",
+                "file": "Proliferated Warfighter Space Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,107 +220,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Aircraft Landing Status Code"
-            }
-          },
-          {
-            "id": "a15c63f612847b91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OA-1K Skyraider II.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OA-1K Skyraider II"
-            }
-          },
-          {
-            "id": "7d4fbd5708fb5f06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kill Chain.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Kill Chain"
-            }
-          },
-          {
-            "id": "b8ac2b5e786e217f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contested, Degraded, and Operationally Limited.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Contested, Degraded, and Operationally Limited"
-            }
-          },
-          {
-            "id": "39a00fa6d0732ad2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contested, Degraded, and Operationally Limited.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Contested, Degraded, and Operationally Limited"
+              "title": "Proliferated Warfighter Space Architecture"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -2352,8 +2424,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7d4fbd5708fb5f06",
+  "active": "0baa98961cd042bd",
   "lastOpenFiles": [
+    "Operational Control.md",
+    "Administrative Control.md",
+    "Tactical Command.md",
+    "Agile Combat Employment.md",
+    "Proliferated Warfighter Space Architecture.md",
+    "Space Development Agency.md",
+    "Analysis and Control Element.md",
+    "Medium Earth Orbit.md",
+    "Low Earth Orbit.md",
+    "_attachments/Pasted image 20260724191704.png",
+    "_attachments/Pasted image 20260724191542.png",
+    "Combined Joint All-Domain Command and Control.md",
+    "Non-Classified Internet Protocol Router Network.md",
+    "Joint Worldwide Intelligence Communications System.md",
+    "Multi-Domain Operations.md",
+    "Chief Digital and Artificial Intelligence Office.md",
+    "AGM-158 JASSM.md",
+    "SM-6.md",
+    "Aircraft Landing Status Code.md",
+    "OA-1K Skyraider II.md",
+    "Contested, Degraded, and Operationally Limited.md",
+    "Defense Resources (Index).md",
+    "Kill Chain.md",
     "MQ-9 Reaper.md",
     "Perennial Autonomy Hornet.md",
     "_attachments/Pasted image 20260724113534.png",
@@ -2366,30 +2461,7 @@
     "_attachments/Pasted image 20260724111234.png",
     "_attachments/Pasted image 20260724111225.png",
     "Perennial Autonomy Merops.md",
-    "_attachments/Pasted image 20260724111205.png",
-    "_attachments/Pasted image 20260724110847.png",
     "Drone Interceptor.md",
-    "Radar.md",
-    "OA-1K Skyraider II.md",
-    "Aircraft Landing Status Code.md",
-    "Agile Combat Employment.md",
-    "Contested, Degraded, and Operationally Limited.md",
-    "AFDP 3-60.md",
-    "Short-Range Air Defense.md",
-    "Directed Energy.md",
-    "DE M-SHORAD.md",
-    "Maneuver Short-Range Air Defense.md",
-    "Integrated Battle Command System.md",
-    "Lower Tier Air and Missile Defense Sensor.md",
-    "Bradley Fighting Vehicle.md",
-    "ANTWQ-1 Avenger.md",
-    "MIM-104 Patriot.md",
-    "Mean Squared Error.md",
-    "Weapon Engagement Zone.md",
-    "B-52H Stratofortress.md",
-    "DARPA Gremlins Program.md",
-    "Warfighting Function.md",
-    "E-3 Sentry.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

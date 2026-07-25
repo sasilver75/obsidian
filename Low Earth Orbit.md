@@ -22,6 +22,8 @@ Examples: [[Sentinel]], [[Landsat]], [[Planet Labs]], [[Maxar]], Starlink/Oneweb
 ![[Pasted image 20260425191422.png]]
 
 
+![[Pasted image 20260724191704.png]]
+
 Radio signals take much less time to reach LEO than [[Medium Earth Orbit|MEO]]/[[Geostationary Orbit|GEO]], making LEO communications satellites well-suited for delivering higher-quality internet service.
 
 Being closer to Earth also lets satellites communicate with IoT devices despite these devices' low-power radios.

@@ -86,12 +86,24 @@ The latter four align with the [[Warfighting Function]]
 
 ### Command and Control (C2)
 - Commanders in any conflict require the ability to conduct C2 across domains.
+- When forces are dispersed from enduring locations... the name of the game is "centralized command, distributed control, and decentralized execution."
+- The communication of the commander's intent through issuance of [[Mission-Type Orders]]s in conjunction with delegated and conditions-based authorities, allowing operational commanders to generate combat airpower in a [[Contested, Degraded, and Operationally Limited]] environment.
+	- Forces conducting ACE *will* lose connectivity with operational C2, so it's important that units be trained to operate via commander's intent with limited direction from air operations centers or air component staffs.
+	- Plans must be flexible and commander's intent must provide the latitude needed to adapt to chnaging circumstances.
+- [[Joint All-Domain Operations|JADO]] requires that command authorities be flexible and responsive to battlespace changes with respect to time, geography, communications, and command relationships.
+- To contend with CDO-L environments, command authorities should be delegated to the lowest appropriate level.
+- ACE requires communications that are mobile, survivable, secure, and sustainable across the EM spectrum to provide access to DOD networks and voice services in a [[Contested, Degraded, and Operationally Limited|CDO-L]] environment.
 
 ### Movement and Maneuver
-- 
+- Agility is capable of disrupting an enemy's decision cycle by creating multiple dilemmas with which they must contend. 
+- ACE maneuver includes movement of forces to predetermined, dispersed locations and flow of dispersed forces back to an enduring location.
+	- Dispersal complicates enemy targeting. Once dispersed, friendly forces maintain operational momentum via distributed C2 principles.
+- ACE prioritized maneuver through delegation of [[Operational Control|OPCON]] or [[Tactical Command|TACON]] to the lowest applicable level, often to the [[Air Expeditionary Wing]] (AEW).
+- Utilizing the hub and spoke distribution methodology, moving cargo between an enduring location (hub) and a CL (spoke), organic transportation increases the flexibility and agility of forces within an AEW's base cluster.
 
 ### Protection
-- 
+- Air bases are no longer considered a sanctuary from attack, regardless of their location.
+- Forces must operate in and through contested environments. A combination of active and passive defense is necessary to counter threats in all domains.
 
 ### Sustainment
 - 

@@ -21,7 +21,8 @@ Satellite deployments avoid the [[Van Allen Radiation Belt]]s, which peak around
 
 
 ![[Pasted image 20260425194938.png]]
-
+a
+![[Pasted image 20260724191704.png]]
 
 
 
