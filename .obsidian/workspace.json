@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2a245cad8db3585f",
+        "id": "e3fdf743e0586d42",
         "type": "tabs",
         "children": [
           {
-            "id": "9f6e907de9ce118e",
+            "id": "fa776a04251b2975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multi-Domain Operations.md",
+                "file": "Neo4j.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,299 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi-Domain Operations"
-            }
-          },
-          {
-            "id": "129d1d6c29313425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Space Development Agency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Space Development Agency"
-            }
-          },
-          {
-            "id": "07de86f3566d695a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joint Worldwide Intelligence Communications System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Joint Worldwide Intelligence Communications System"
-            }
-          },
-          {
-            "id": "7ef1f4300ed0ac1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Space Development Agency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Space Development Agency"
-            }
-          },
-          {
-            "id": "97cfa8acabfb521c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Targeting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Targeting"
-            }
-          },
-          {
-            "id": "a128212db5a31601",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tactical Command.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tactical Command"
-            }
-          },
-          {
-            "id": "72a7959d84e08b87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Administrative Control.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Administrative Control"
-            }
-          },
-          {
-            "id": "0baa98961cd042bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Frequency Hopping Spread Spectrum.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Frequency Hopping Spread Spectrum"
-            }
-          },
-          {
-            "id": "5b4f45d42937eaad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agile Combat Employment.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Agile Combat Employment"
-            }
-          },
-          {
-            "id": "f6ad48a6f29683d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Competition Continuum.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Competition Continuum"
-            }
-          },
-          {
-            "id": "d6502e11d37b7e4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Defense Security Cooperation Agency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Defense Security Cooperation Agency"
-            }
-          },
-          {
-            "id": "e7034072f4ca2e45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Component-Critical Target.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Component-Critical Target"
-            }
-          },
-          {
-            "id": "26d0246133f00539",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secretary of Defense.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Secretary of Defense"
+              "title": "Neo4j"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -2520,44 +2231,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d6502e11d37b7e4b",
+  "active": "fa776a04251b2975",
   "lastOpenFiles": [
-    "Foreign Military Sale.md",
-    "Defense Security Cooperation Agency.md",
-    "Competition Continuum.md",
-    "Unconventional Warfare.md",
-    "Short-Range Air Defense.md",
-    "Random Access Memory.md",
-    "Napkin Math.md",
-    "Joint Force Commander.md",
-    "Rules of Engagement.md",
-    "Targeting.md",
-    "Component-Critical Target.md",
-    "Secretary of Defense.md",
-    "_attachments/Pasted image 20260725013631.png",
-    "Global Integrated Target List.md",
-    "Joint All-Domain Operations.md",
-    "Operational Control.md",
-    "Tactical Command.md",
-    "Administrative Control.md",
-    "Frequency Hopping Spread Spectrum.md",
-    "Agile Combat Employment.md",
-    "Combatant Commander.md",
-    "_attachments/Pasted image 20260724222738.png",
-    "Proliferated Warfighter Space Architecture.md",
-    "Space Development Agency.md",
-    "Analysis and Control Element.md",
-    "Medium Earth Orbit.md",
-    "Low Earth Orbit.md",
-    "_attachments/Pasted image 20260724191704.png",
-    "_attachments/Pasted image 20260724191542.png",
-    "Combined Joint All-Domain Command and Control.md",
-    "_attachments/Pasted image 20260724113534.png",
-    "_attachments/Pasted image 20260724113510.png",
-    "_attachments/Pasted image 20260724113503.png",
-    "_attachments/Pasted image 20260724111431.png",
-    "_attachments/Pasted image 20260724111401.png",
-    "_attachments/Pasted image 20260724111301.png",
+    "Bullseye.md",
+    "Bearing, Range, Altitude, and Aspect.md",
+    "bra.md",
+    "Air Parity.md",
+    "Combat Air Patrol.md",
+    "Fighter Communication.md",
+    "Defensive Counter-Air.md",
+    "Procedure Words.md",
+    "_attachments/Pasted image 20260725234235.png",
+    "_attachments/Pasted image 20260725233850.png",
+    "_attachments/Pasted image 20260725233840.png",
+    "_attachments/Pasted image 20260725233828.png",
+    "_attachments/Pasted image 20260725233811.png",
+    "_attachments/Pasted image 20260725233737.png",
+    "_attachments/Pasted image 20260725233727.png",
+    "_attachments/Pasted image 20260725233719.png",
+    "_attachments/Pasted image 20260725233450.png",
+    "_attachments/Pasted image 20260725233426.png",
+    "Geographic Reference.md",
+    "Theater Air Control System.md",
+    "Control and Reporting Center.md",
+    "Designated Mean Point of Impact.md",
+    "Designated Mean Point of Imapct.md",
+    "Standard Conventional Load.md",
+    "Coalition Air Operations Center.md",
+    "Airspace Control Order.md",
+    "Joint Force Maritime Component Commander.md",
+    "Joint Force Land Component Commander.md",
+    "ATO Fragment.md",
+    "Air Expeditionary Wing.md",
+    "Air Superiority.md",
+    "Coalition Force Air Component Commander.md",
+    "Coalition Force Commander.md",
+    "Joint Force Air Component Commander.md",
+    "Air Tasking Order.md",
+    "Air Supremacy.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

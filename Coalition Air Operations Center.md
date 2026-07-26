@@ -1,6 +1,7 @@
 ---
 aliases:
   - CAOC
+  - Combined Air Operations Center
 ---
 Pron. "Kay-Ock"
 

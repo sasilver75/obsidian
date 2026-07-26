@@ -1,6 +1,7 @@
 ---
 aliases:
   - TSA
+  - Target System
 ---
 Resources:
 - [Intelligence Officer Deep Dive into Targeting | Episode 109](https://youtu.be/1S06GVKAdg0?si=yPxMSEjyOjJqemLo&t=2196)

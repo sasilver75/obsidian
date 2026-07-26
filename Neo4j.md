@@ -208,16 +208,6 @@ Which platforms share enough components or capabilities that maintenance knowled
 ```
 
 
-___________________
-
-[Introduction to Neo4j and Graph Databases - M David Allen (Partner Solution Architect @ Neo4J), 2019](https://youtu.be/oRtVdXvtD3o?si=Nhx95BJ1UcNwfaS0)
-
-
-
-
-__________
-
-[Neo4J Crash Course](https://youtu.be/8jNPelugC2s?si=KNecvVsKvHuuOcJ3) (2022)
 
 
 
