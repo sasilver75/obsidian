@@ -11,10 +11,24 @@
             "id": "f86482e187f85491",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Air Tasking Cycle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Air Tasking Cycle"
             }
           }
         ]
@@ -80,8 +94,7 @@
               "title": "recent-files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2163,9 +2176,29 @@
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
             }
+          },
+          {
+            "id": "e5a022237cc752ce",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "dab0db8b32f8f735",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 204
+        "currentTab": 206
       },
       {
         "id": "8a022290161ffefa",
@@ -2223,11 +2256,14 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "f86482e187f85491",
   "lastOpenFiles": [
+    "Targeting.md",
+    "Air Tasking Cycle.md",
     "Acquisition.md",
     "Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance.md",
     "C4.md",
@@ -2252,8 +2288,6 @@
     "G1 Officer.md",
     "G2 Officer.md",
     "G3 Officer.md",
-    "G4 Officer.md",
-    "G5 Officer.md",
     "_attachments/Pasted image 20260725234235.png",
     "_attachments/Pasted image 20260725233850.png",
     "_attachments/Pasted image 20260725233840.png",
