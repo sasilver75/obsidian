@@ -8,13 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f86482e187f85491",
+            "id": "7b38037bc89fec96",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Air Tasking Cycle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Air Tasking Cycle"
             }
           }
         ]
@@ -2160,12 +2174,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "9df9a281c4e5ff5a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 204
+        "currentTab": 205
       },
       {
         "id": "8a022290161ffefa",
@@ -2227,34 +2251,36 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f86482e187f85491",
+  "active": "7b38037bc89fec96",
   "lastOpenFiles": [
-    "Acquisition.md",
-    "Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance.md",
-    "C4.md",
-    "Joint Staff.md",
-    "N-Staff.md",
-    "Area of Operations.md",
-    "A1 Officer.md",
-    "A2 Officer.md",
-    "A3 Officer.md",
-    "A4 Officer.md",
-    "A5 Officer.md",
-    "A6 Officer.md",
-    "A-Staff.md",
-    "S1 Officer.md",
-    "Continental Staff System.md",
-    "General Staff.md",
-    "J1 Officer.md",
-    "J2 Officer.md",
-    "J3 Officer.md",
-    "J4 Officer.md",
-    "J6 Officer.md",
-    "G1 Officer.md",
-    "G2 Officer.md",
-    "G3 Officer.md",
-    "G4 Officer.md",
-    "G5 Officer.md",
+    "Air Tasking Order.md",
+    "Air Tasking Cycle.md",
+    "Aviation Technology Office.md",
+    "_attachments/Pasted image 20260726225920.png",
+    "Joint Planning Process for Air.md",
+    "Conventional Warfare.md",
+    "Electronic Target Folder.md",
+    "Joint Integrated Prioritized Collection List.md",
+    "Component Prioritized Collection List.md",
+    "Intelligence, Surveillance, and Reconnaissance Division.md",
+    "Target Nomination List.md",
+    "Air Operations Directive.md",
+    "Strategy Division.md",
+    "Joint Integrated Prioritized Target List.md",
+    "Asymmetric Warfare.md",
+    "Global Integrated Target List.md",
+    "No-Strike List.md",
+    "Restricted Target List.md",
+    "no string list.md",
+    "Joint Target List.md",
+    "Candidate Target List.md",
+    "Target Development Nomination.md",
+    "Joint Force Commander.md",
+    "Joint Targeting Coordination Board.md",
+    "Air Operations Center.md",
+    "Joint Collection Management Board.md",
+    "_attachments/Pasted image 20260726191233.png",
+    "_attachments/Pasted image 20260726191131.png",
     "_attachments/Pasted image 20260725234235.png",
     "_attachments/Pasted image 20260725233850.png",
     "_attachments/Pasted image 20260725233840.png",
@@ -2262,9 +2288,6 @@
     "_attachments/Pasted image 20260725233811.png",
     "_attachments/Pasted image 20260725233737.png",
     "_attachments/Pasted image 20260725233727.png",
-    "_attachments/Pasted image 20260725233719.png",
-    "_attachments/Pasted image 20260725233450.png",
-    "_attachments/Pasted image 20260725233426.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

@@ -11,6 +11,10 @@ The GITL is adversary-focused, rather than a geographically-oriented list of tar
 It is the combined [[Joint Target List]] and [[Restricted Target List]] from multiple [[Combatant Commander]]s for a specific adversary, maintained by the supported CCDR.
 - The GITL is a coordination mechanism for the supported CCDR to request effects globally against a specific adversary... allowing (e.g.) an air component commander in one theater to nominate a target outside their area of responsibility, recognizing that striking that target may be critical to achieving their own commander's objectives.
 
+> A list of targets not restricted to a geographic area that reflects joint or restricted validated targets to be prioritized and synchronized inside or outside of a supported combatant commander's [[Area of Responsibility|AOR]].
+
+
+
 
 
 
