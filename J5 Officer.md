@@ -1,4 +1,4 @@
 ---
 aliases:
-  - C5ISR
+  - J-5
 ---

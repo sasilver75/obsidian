@@ -6,7 +6,7 @@ The [[Company]]-level sustainment assets that keep a company fighting.
 # Comparison (Closest-to-[[Forward Line of Own Troops|FLOT]], descending)
 - [[Company Trains]]
 	- Closest to [[Company]], main purpose is immediate company sustainment.
-	- Usually the Company 1SG runs the trains day to day, company [[Executive Officer|XO]] might coordinate resupply, maintenance, [[Logistics Package|LOGPAC]]s. Coordinates with the [[Combat Trains Command Post|CTCP]], the Battalion [[S4 Officer|S4]] officer, and the supporting [[Forward Support Company|FSC]].
+	- Usually the Company 1SG runs the trains day to day, company [[Executive Officer|XO]] might coordinate resupply, maintenance, [[Logistics Package|LOGPAC]]s. Coordinates with the [[Combat Trains Command Post|CTCP]], the Battalion [[S4 Officer|S-4]] officer, and the supporting [[Forward Support Company|FSC]].
 - [[Combat Trains Command Post]] (CTCP)
 	- Forward [[Battalion]] sustainment node near the fight.
 	- Doctrinally led by the Battalion [[S4 Officer]].

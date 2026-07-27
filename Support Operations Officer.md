@@ -23,11 +23,11 @@ In a [[Brigade Support Battalion]] (BSB) or in a new prototype [[Light Support B
 	- At a [[Brigade Support Battalion]] (BSB), for example, you'll find *both* an S4 handling the BSB's own internal logistics, while the SPO plans and synchronizes support to other units.
 
 
-Note that You see both [[S4 Officer|S4]]s and [[Support Operations Officer|SPO]]s at multiple tactical echelons.
+Note that You see both [[S4 Officer|S-4]]s and [[Support Operations Officer|SPO]]s at multiple tactical echelons.
 
 For S4's, you commonly see:
-- [[Battalion]] [[S4 Officer|S4]] officer: Logistics officer for a battalion
-- [[Brigade]] [[S4 Officer|S4]] officer: Logistics officer for a brigade
+- [[Battalion]] [[S4 Officer|S-4]] officer: Logistics officer for a battalion
+- [[Brigade]] [[S4 Officer|S-4]] officer: Logistics officer for a brigade
 - Sometimes Regiment equivalents, depending on organization
 The S4 works for that unit's commander and manages that unit's logistics planning, reporting, sustainment coordination, property/accountability concerns, and requirements.
 

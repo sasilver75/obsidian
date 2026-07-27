@@ -2,7 +2,7 @@
 aliases:
   - JFC
 ---
-
+Joint Force Commanders accomplish their mission based on their vision and concept of operations ([[Concept of Operations|CONOPS]]), using the fundamental doctrinal principles of the [[Joint Targeting Cycle]] (JTC) to provide guidance for the targeting process focused on the [[Area of Operations|Joint Operation Area]] (JOA), dividing the JTC responsibilities among the JFC staff and component commanders. Should direct the formation, composition, and specific responsibilities of the of the [[Joint Targeting Coordination Board]] (JTCB), and approve or delegate approval of the [[Joint Integrated Prioritized Target List]] (JIPTL). Typically includes targets nominated by any [[Unified Combatant Command|CCMD]]s through the [[Global Integrated Target List]] (GITL).
 
 Running an entire [[Unified Combatant Command|COCOM]] is a lot of work, so the JFC will have a staff to help spread out the workload.
 - For the air component, there will be a [[Joint Force Air Component Commander]] (JFACC)

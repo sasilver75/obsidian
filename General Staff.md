@@ -2,16 +2,6 @@
 aliases:
   - G-Staff
   - G Staff
-  - G-1
-  - G-2
-  - G-3
-  - G-4
-  - G-5
-  - G1
-  - G2
-  - G3
-  - G4
-  - G5
   - General Staff Officer
 ---
 https://en.wikipedia.org/wiki/Staff_(military)
@@ -21,11 +11,11 @@ A group of officers and civilian staff who serve as the principal advisory body 
 - Responsible for formulating policy, coordinating plans, and overseeing the logistical and administrative needs of a [[Division]] or larger unit.
 
 Divided into specialized directorates:
-- ==G1== (Personnel): Manages human resources, casualty reporting, morale, welfare, and troop administration
-- ==G2== (Intelligence): Gathering, analyzing, distributing enemy intelligence/battlefield information
-- ==G3== (Operations): Planning, training, and executing combat operations and military exercises
-- ==G4== (Logistics): Coordination of movement of troops, supplies, maintenance, and transportation
-- ==G5== (Plans/Civil-Military Operations): Long term strategy and relationship between mil/civ populations
+- [[G1 Officer]] (Personnel): Manages human resources, casualty reporting, morale, welfare, and troop administration
+- [[G2 Officer]] (Intelligence): Gathering, analyzing, distributing enemy intelligence/battlefield information
+- [[G3 Officer]] (Operations): Planning, training, and executing combat operations and military exercises
+- [[G4 Officer]] (Logistics): Coordination of movement of troops, supplies, maintenance, and transportation
+- [[G5 Officer]] (Plans/Civil-Military Operations): Long term strategy and relationship between mil/civ populations
 
 
 

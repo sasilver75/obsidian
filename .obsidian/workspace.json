@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e3fdf743e0586d42",
+        "id": "8a6a94b3160edcb3",
         "type": "tabs",
         "children": [
           {
-            "id": "fa776a04251b2975",
+            "id": "f86482e187f85491",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neo4j.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Neo4j"
+              "title": "New tab"
             }
           }
         ]
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spinn",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2164,12 +2150,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "bf40f02a1d21423a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 203
+        "currentTab": 204
       },
       {
         "id": "8a022290161ffefa",
@@ -2231,16 +2227,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fa776a04251b2975",
+  "active": "f86482e187f85491",
   "lastOpenFiles": [
-    "Bullseye.md",
-    "Bearing, Range, Altitude, and Aspect.md",
-    "bra.md",
-    "Air Parity.md",
-    "Combat Air Patrol.md",
-    "Fighter Communication.md",
-    "Defensive Counter-Air.md",
-    "Procedure Words.md",
+    "Acquisition.md",
+    "Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance.md",
+    "C4.md",
+    "Joint Staff.md",
+    "N-Staff.md",
+    "Area of Operations.md",
+    "A1 Officer.md",
+    "A2 Officer.md",
+    "A3 Officer.md",
+    "A4 Officer.md",
+    "A5 Officer.md",
+    "A6 Officer.md",
+    "A-Staff.md",
+    "S1 Officer.md",
+    "Continental Staff System.md",
+    "General Staff.md",
+    "J1 Officer.md",
+    "J2 Officer.md",
+    "J3 Officer.md",
+    "J4 Officer.md",
+    "J6 Officer.md",
+    "G1 Officer.md",
+    "G2 Officer.md",
+    "G3 Officer.md",
+    "G4 Officer.md",
+    "G5 Officer.md",
     "_attachments/Pasted image 20260725234235.png",
     "_attachments/Pasted image 20260725233850.png",
     "_attachments/Pasted image 20260725233840.png",
@@ -2251,24 +2265,6 @@
     "_attachments/Pasted image 20260725233719.png",
     "_attachments/Pasted image 20260725233450.png",
     "_attachments/Pasted image 20260725233426.png",
-    "Geographic Reference.md",
-    "Theater Air Control System.md",
-    "Control and Reporting Center.md",
-    "Designated Mean Point of Impact.md",
-    "Designated Mean Point of Imapct.md",
-    "Standard Conventional Load.md",
-    "Coalition Air Operations Center.md",
-    "Airspace Control Order.md",
-    "Joint Force Maritime Component Commander.md",
-    "Joint Force Land Component Commander.md",
-    "ATO Fragment.md",
-    "Air Expeditionary Wing.md",
-    "Air Superiority.md",
-    "Coalition Force Air Component Commander.md",
-    "Coalition Force Commander.md",
-    "Joint Force Air Component Commander.md",
-    "Air Tasking Order.md",
-    "Air Supremacy.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

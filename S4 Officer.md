@@ -1,7 +1,7 @@
 ---
 aliases:
-  - S4
   - Logistics and Supply Officer
+  - S-4
 ---
 A primary staff member in military units ([[Battalion]] level and above) responsible for supply chain management, maintenance, and overall logistical support.
 
@@ -50,11 +50,11 @@ Works alongside other primary [[Staff Officer]]s to help commanders make informe
 	- SPO: Support planner inside the sustainment unit providing support
 
 
-Note that You see both [[S4 Officer|S4]]s and [[Support Operations Officer|SPO]]s at multiple tactical echelons.
+Note that You see both [[S4 Officer|S-4]]s and [[Support Operations Officer|SPO]]s at multiple tactical echelons.
 
 For S4's, you commonly see:
-- [[Battalion]] [[S4 Officer|S4]] officer: Logistics officer for a battalion
-- [[Brigade]] [[S4 Officer|S4]] officer: Logistics officer for a brigade
+- [[Battalion]] [[S4 Officer|S-4]] officer: Logistics officer for a battalion
+- [[Brigade]] [[S4 Officer|S-4]] officer: Logistics officer for a brigade
 - Sometimes Regiment equivalents, depending on organization
 The S4 works for that unit's commander and manages that unit's logistics planning, reporting, sustainment coordination, property/accountability concerns, and requirements.
 

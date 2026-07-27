@@ -37,7 +37,7 @@ Video: [LOGSTATs: The Variable of Success and Frustration w/ JRTC Subject Matter
 
 Re: Routing:
 - [[Logistics Status|LOGSTAT]]s start at the maneuver line at the forward line of troops, and they're submitting how many stocks they currently have on hand. They put it into a document, which goes from their [[Platoon]] to their [[Company]] to their [[Battalion]]'s [[S4 Officer]], and from there it typically splits...
-	- It should go back to the brigade [[S4 Officer|S4]] to manage internal brigade logistics, but we often see that the S4 doesn't have enough people in their shop to manage that forecast of upcoming sustainment, so we'll see that there's a deviation in current submissions.
+	- It should go back to the brigade [[S4 Officer|S-4]] to manage internal brigade logistics, but we often see that the S4 doesn't have enough people in their shop to manage that forecast of upcoming sustainment, so we'll see that there's a deviation in current submissions.
 	- So we see a deviation in current submissions...
 		- Instead of it staying through the S4 chain and then the Brigade S4 submitting to the [[Support Operations Officer|SPO]], we see Battalion S4 submitting to both the SPO and the Brigade S4
 		- Then the SPO takes the LOGSTATS, does individual commodity assessments... one commodity manager might do all [[Class of Supply|Class I]] (all food and water) for the entire Brigade, sometime might do for [[Class of Supply|Class III]]... and so the [[Support Operations Officer|SPO]] ends up holding the majority of the requirement at their level. 
@@ -49,7 +49,7 @@ Re: Routing:
 Why is a LOGSTAT and a [[PACE Plan]] so critical?
 - Making sure that each gallon is counted, each meal is counted... is crucial, because the ==Demand Signal==... we'll start aligning assets and resources against it to get filled.
 - Example of why PACE Plans are critical:
-	- Underneath a Battalion, the Platoon in a company didn't have the right {item}. They couldn't report properly up to the Battalion S4, and what happened is the [[S4 Officer|S4]] was submitting what the *thought* the platoons had.
+	- Underneath a Battalion, the Platoon in a company didn't have the right {item}. They couldn't report properly up to the Battalion S4, and what happened is the [[S4 Officer|S-4]] was submitting what the *thought* the platoons had.
 	- Things moved forward into the LOGSYNC, which was then flawed because the data of what was on-hand at the battalion was skewed.
 	- Accurate reporting and having the means to do so...
 
