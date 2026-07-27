@@ -3,8 +3,7 @@ https://en.wikipedia.org/wiki/Asymmetric_warfare
 A form of conflict between opponents with unequal or fundamentally different capabilities, where one side avoids matching the other directly and instead uses strategies, tactics, technologies, or targets that exploit the opponent's weaknesses.
 
 Often overlaps with [[Irregular Warfare]]; An insurgent group using roadside bombs, ambushes, propaganda, and local support networks against a modern army is conducting **irregular warfare** in an **asymmetric** situation.
-
-
+- But not always; You can probably think of Iran's response in [[Operation Epic Fury]] to be [[Conventional Warfare]] in an [[Asymmetric Warfare]] context; Asymmetric Warfare doesn't necessarily imply [[Unconventional Warfare]].
 
 Key explanations for why the "weak" believe they can defeat the "strong"
 - Strategic interaction.
@@ -20,4 +19,3 @@ Tactical basis for why the "weak" can defeat he "strong"
 - Technological superiority is cancelled by more vulnerable infrastructure, which can be targeted, while the weaker side might not have these structures at all.
 - Tactics, training, technology allowing a smaller force to overcome a larger one (e.g. Greek hoplites use of phalanx, or Spartan use of terrain at the Battle of Thermopylae)
 - If the inferior power is in a position of self-defense, it may be possible to use hit-and-run/selective battles where the superior power is weaker (revolutionary war, French resistance in WW2)
-	- If the weaker power is in aggressive

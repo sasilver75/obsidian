@@ -49,7 +49,7 @@ Youtube Channels
 - [HISutton](https://www.youtube.com/@HISuttonCovertShores/videos), Submarines and more
 - [Sandboxx](https://www.youtube.com/@SandboxxApp/videos)
 - [The Ops Center by Mike Solyom](https://www.youtube.com/@TheOpsCenterByMikeSolyom)
-- [The Merge](https://www.youtube.com/@TheMergeMedia)
+- [The Merge](https://www.youtube.com/@TheMergeMedia) (Also has a good newsletter)
 - [35FoxTalks](https://www.youtube.com/@35FoxTalks) , Good intelligence covering
 - [From the Crow's Nest](https://www.youtube.com/@FromTheCrowsNestPodcast/videos) Electronic Warfare
 - [Missile Defense Advocacy Alliance](https://www.youtube.com/@MissiledefenseadvocacyOrg1)
@@ -57,6 +57,7 @@ Youtube Channels
 - [Naval News](https://www.youtube.com/@NavalNews/videos)
 - [Mitchell Institute for Aerospace Studies](https://www.youtube.com/@mitchellstudies)
 - [Center for Strategic and International Studies](https://www.youtube.com/@csis)
+- [Ward Carrol](https://www.youtube.com/@WardCarroll)
 
 
 Individuals

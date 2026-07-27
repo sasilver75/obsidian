@@ -49,7 +49,7 @@ The [[Joint Targeting Cycle]] is a six-phase iterative process:
 > The Joint Targeting Process categorizes adversary threat elements into Target Systems, Target System Components, and Target Elements
 
 
-
+In [[Contested, Degraded, and Operationally Limited]] environments, units may have to continue operations and targeting responsibilities despite the lack of continuous communications with higher headquarters (HHQ). 
 
 # Air Component
 
