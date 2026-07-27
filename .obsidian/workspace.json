@@ -90,8 +90,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ],
@@ -2176,6 +2176,7 @@
               "state": {},
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
+<<<<<<< HEAD
             }
           },
           {
@@ -2186,6 +2187,8 @@
               "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
+=======
+>>>>>>> b13a3bb56fb185ef585aa7d428e77d2a9247cf64
             }
           }
         ],
@@ -2247,8 +2250,7 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "7b38037bc89fec96",
