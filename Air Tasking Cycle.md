@@ -44,7 +44,7 @@ Air Tasking Cycle Stages
 	- Usually done (for air targets) by the Targets and Tactical Assessment (TTA) team from the [[Intelligence, Surveillance, and Reconnaissance Division|ISRD]].
 	- The final weaponeering solution is chosen by the [[Master Air Attack Plan|MAAP]] team.
 - Some weapons/capabilities require long lead times in planning, deployment, and approval, so they should be considered early and included at the beginning of the [[Joint Planning Process for Air|JPPA]] .
-- Precautions should be taken to avoid collateral damage and harm to civilians, other persons, and protected objects.
+- Precautions should be taken toi avoid collateral damage and harm to civilians, other persons, and protected objects.
 - [[Master Air Attack Plan]] (MAAP): The air component commander's time-phased air component scheme of maneuver for a given ATO period, synchronizing commander's guidance, desired effects, supported components' schemes of maneuver, friendly capabilities, and likely enemy [[Course of Action|COA]]s, and allocating friendly resources against approved targets.
 
 ### Stage 4: ATO Production and Dissemination
