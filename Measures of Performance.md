@@ -1,6 +1,6 @@
 ---
 aliases:
-  - MoP
+  - MOP
 ---
 In the context of [[Effect]]s and [[Targeting]]
 

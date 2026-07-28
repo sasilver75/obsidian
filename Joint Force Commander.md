@@ -27,6 +27,8 @@ Collaboration with the [[Joint Staff]] (J-Staff)
 - The JFC's public affairs advisor can provide public perception of target prosecution and any detrimental second or third-order effects.
 
 
+![[Pasted image 20260728115006.png]]
+
 
 
 

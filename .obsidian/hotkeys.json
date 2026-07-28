@@ -67,5 +67,20 @@
       ],
       "key": "E"
     }
+  ],
+  "mrj-jump-to-link:activate-jump-to-link": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "'"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
   ]
 }

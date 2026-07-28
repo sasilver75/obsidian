@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "army",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 16.436279196831,
   "linkStrength": 0.597527660155717,
   "linkDistance": 30,
-  "scale": 0.013933521132549632,
+  "scale": 0.0078125,
   "close": true
 }

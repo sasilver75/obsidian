@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8a6a94b3160edcb3",
+        "id": "ed6f4069a406933e",
         "type": "tabs",
         "children": [
           {
-            "id": "f86482e187f85491",
+            "id": "dc08fb194d7a5c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Air Tasking Cycle.md",
+                "file": "Digital Imagery Exploitation Engine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Air Tasking Cycle"
+              "title": "Digital Imagery Exploitation Engine"
+            }
+          },
+          {
+            "id": "c53eee7e95195ed8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DoD Impact Level 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DoD Impact Level 5"
+            }
+          },
+          {
+            "id": "48d72e5b4560a78d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theater Battle Management Core System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Theater Battle Management Core System"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +143,8 @@
               "title": "recent-files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2193,12 +2243,42 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "722e5db9ac8fcda0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "b45343cd121b4049",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "bb699ffeae261dc0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 206
+        "currentTab": 209
       },
       {
         "id": "8a022290161ffefa",
@@ -2260,44 +2340,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f86482e187f85491",
+  "active": "c53eee7e95195ed8",
   "lastOpenFiles": [
+    "Weaponeering.md",
+    "Integrated Munitions Effects Assessment.md",
+    "Digital Imagery Exploitation Engine.md",
+    "Weapons of Mass Destruction.md",
+    "Geospatial Intelligence.md",
+    "Hard and Deeply Buried Target.md",
+    "Theater Battle Management Core System.md",
+    "Joint Automated Deep Operations Coordination System.md",
+    "Air Operations Center.md",
+    "Digital Precision Strike Suite Collateral Damage Estimation.md",
+    "Joint Munitions Effectiveness Manual Weaponeering System.md",
+    "ANTPY-2.md",
+    "Law of War.md",
+    "Intermediate Target Development.md",
+    "Geolocation.md",
+    "Cyberspace Operations Lethality Estimation.md",
+    "Joint Munitions Effectiveness Manual.md",
+    "Advanced Target Development.md",
+    "Collateral Damage Estimation.md",
+    "Basic Target Development.md",
+    "Target Coordinate Mensuration.md",
+    "Joint Targeting Toolbox.md",
+    "Global Command and Control System - Integrated Imagery and Intelligence.md",
+    "Global Command and Control System.md",
+    "Machine-assisted Analytic Rapid-repository System.md",
+    "Modernized Integrated Database.md",
+    "_attachments/Pasted image 20260728145825.png",
+    "_attachments/Pasted image 20260728145816.png",
+    "_attachments/Pasted image 20260728122711.png",
+    "_attachments/Pasted image 20260728122706.png",
+    "_attachments/Pasted image 20260728115253.png",
+    "_attachments/Pasted image 20260728115006.png",
     "_attachments/Pasted image 20260726225920.png",
     "_attachments/Pasted image 20260726191233.png",
     "_attachments/Pasted image 20260726191131.png",
-    "Target Nomination List.md",
-    "Strategy Division.md",
-    "Staff Judge Advocate.md",
-    "Joint Planning Process for Air.md",
-    "Joint Integrated Prioritized Collection List.md",
-    "Joint Collection Management Board.md",
-    "Joint Air Operations Plan.md",
-    "Intelligence, Surveillance, and Reconnaissance Division.md",
-    "Electronic Target Folder.md",
-    "Conventional Warfare.md",
-    "Component Prioritized Collection List.md",
-    "Combat Plans Division.md",
-    "Combat Operations Division.md",
-    "Air Mobility Division.md",
-    "Targeting.md",
-    "Air Tasking Cycle.md",
-    "Acquisition.md",
-    "Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance.md",
-    "C4.md",
-    "Joint Staff.md",
-    "N-Staff.md",
-    "Area of Operations.md",
-    "A1 Officer.md",
-    "A2 Officer.md",
-    "A3 Officer.md",
     "_attachments/Pasted image 20260725234235.png",
-    "_attachments/Pasted image 20260725233850.png",
-    "_attachments/Pasted image 20260725233840.png",
-    "_attachments/Pasted image 20260725233828.png",
-    "_attachments/Pasted image 20260725233811.png",
-    "_attachments/Pasted image 20260725233737.png",
-    "_attachments/Pasted image 20260725233727.png",
-    "_attachments/Pasted image 20260725233719.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

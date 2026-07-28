@@ -62,9 +62,42 @@ Air Tasking Cycle Stages
 
 
 ### Stage 6: Assessment
-- 
+- The continuous process of measuring the overall effectiveness of joint force capabilities during military operations, and one of the four major [[Command and Control|C2]] activities.
+- Helps answer basic questions:
+	- "Are we doing the right things?"
+	- "Are we doing things right?"
+	- "Are we measuring the right things?"
+- [[Battle Damage Assessment]] (BDA): The purpose of a BDA is to estimate target damage or effects resulting from the application of either kinetic or non-kinetic capabilities.
+	- A coordinated and integrated effort between intelligence and operations functions.
+	- BDAs are defined by three phases:
+		1. The initial target assessment reporting on physical damage assessment (PDA) of the target.
+		2. The initial [[Functional Damage Assessment]] (FDA) of the target, and an estimate of the recuperation time required to repair or reconstitute the target's function. 
+		3. The [[Target System Damage Assessment]] (TSDA), which encompasses all-source assessments of the change and remaining target system functional capabilities and capacities relative to the targeting objectives after military operations began.
+- [[Collateral Damage Assessment]] (CDA) occurs to compare [[Collateral Damage Estimation|CDE]] with observed damage.
+- [[Munitions Effectiveness Assessment]] (MEA) occurs to evaluate if a munition performed as intended.
+- [[Reattack Recommendation]]s are issued after merging the picture of what was done ([[Battle Damage Assessment|BDA]]) with how it was done ([[Munitions Effectiveness Assessment|MEA]]) and comparing the result with [[Measures of Effectiveness|MOE]]s.
+
+![[Pasted image 20260728115006.png]]
+Above: The targeting process is integral to the air tasking cycle. 
+	See: [[Target Nomination List]], [[Joint Targeting Working Group]], [[Joint Targeting Coordination Board]], [[Joint Integrated Prioritized Target List]], [[Joint Force Commander]], [[Air Operations Directive]], [[Target Development]], [[Target Development Nomination]], [[Target Vetting]], [[Target Validation]], [[Weaponeering]] and [[Master Air Attack Plan|MAAP]], [[Air Tasking Order]] and [[Fragmentary Order|FRAGO]], [[Deliberate Targeting]] and [[Dynamic Targeting]], [[Combat Assessment]] ([[Battle Damage Assessment]], [[Munitions Effectiveness Assessment]], [[Collateral Damage Assessment]]), [[Reattack]].
+
+Deliberate vs Dynamic Target Processes in the Air Tasking Cycle
+- [[Deliberate Targeting|Deliberate On-Call Target]]s are included in the ATO along with the planned targets, but since the coordinates are known, no precise engagement time is listed.
+- Unscheduled targets ((those that have some deliberate planning behind them, but aren't being actioned on in the current cycle)) are developed similarly to on-call targets but do not meet the priority to make the ATO and are accounted for in planning in case they are detected.
+- Overall, both deliberate and dynamic targeting adhere to target development standards throughout the six stages of the air tasking cycle.
 
 
+![[Pasted image 20260728122706.png]]
+
+Dynamic targeting Kill Chain
+- Follows the [[Find, Fix, Track, Target, Engage, Assess|F2T2EA]] method for dynamic targeting process. This method is colloquially referred to as the [[Kill Chain]].
+![[Pasted image 20260728145816.png]]
+
+==Dynamic Rescue==
+- The utilization of the dynamic targeting process to complete the rescue and recovery of isolated personnel, especially in hostile or time-sensitive situations.
+
+
+ 
 
 
 
