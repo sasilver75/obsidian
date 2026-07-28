@@ -54,6 +54,7 @@ Air Tasking Cycle Stages
 - 
 
 ### Stage 5: Execution Planning and Force Execution
+
 - 
 
 ### Stage 6: Assessment

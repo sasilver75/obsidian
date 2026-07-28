@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Air Tasking Cycle.md",
+                "file": "Impact Level 6.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Air Tasking Cycle"
+              "title": "Impact Level 6"
+            }
+          },
+          {
+            "id": "9fb4101bc5e4b6fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Impact Level 4.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Impact Level 4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,8 +115,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ],
@@ -2176,7 +2201,6 @@
               "state": {},
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
-<<<<<<< HEAD
             }
           },
           {
@@ -2187,8 +2211,6 @@
               "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
-=======
->>>>>>> b13a3bb56fb185ef585aa7d428e77d2a9247cf64
             }
           }
         ],
@@ -2250,13 +2272,22 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7b38037bc89fec96",
+  "active": "9fb4101bc5e4b6fc",
   "lastOpenFiles": [
-    "Air Tasking Order.md",
+    "Impact Level 4.md",
+    "Federal Risk and Authorization Management Program.md",
+    "Impact Level 6.md",
+    "Impact Level 5.md",
+    "Impact Level 2.md",
+    "_attachments/Pasted image 20260728101031.png",
+    "Sensitive But Unclassified - Encrypted.md",
     "Air Tasking Cycle.md",
+    "Special Instructions.md",
+    "Air Tasking Order.md",
     "Aviation Technology Office.md",
     "_attachments/Pasted image 20260726225920.png",
     "Joint Planning Process for Air.md",
@@ -2275,12 +2306,6 @@
     "Restricted Target List.md",
     "no string list.md",
     "Joint Target List.md",
-    "Candidate Target List.md",
-    "Target Development Nomination.md",
-    "Joint Force Commander.md",
-    "Joint Targeting Coordination Board.md",
-    "Air Operations Center.md",
-    "Joint Collection Management Board.md",
     "_attachments/Pasted image 20260726191233.png",
     "_attachments/Pasted image 20260726191131.png",
     "_attachments/Pasted image 20260725234235.png",
@@ -2289,7 +2314,6 @@
     "_attachments/Pasted image 20260725233828.png",
     "_attachments/Pasted image 20260725233811.png",
     "_attachments/Pasted image 20260725233737.png",
-    "_attachments/Pasted image 20260725233727.png",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
