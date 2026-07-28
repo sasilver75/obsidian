@@ -49,13 +49,22 @@ Air Tasking Cycle Stages
 
 ### Stage 4: ATO Production and Dissemination
 - Finalization of the ATO and associated orders and dissemination to combat units.
+- The ATO Production Rhythm figure below shows that on any given execution day, five ATOs are either being developed or processed.
 - This stage is based on the commander's guidance (especially the [[Air Operations Directive|AOD]]), the [[Master Air Attack Plan|MAAP]], and component requirements. The [[Air Tasking Order|ATO]], [[Airspace Control Order|ACO]], and [[Special Instructions|SPINS]] provide operational and tactical direction at appropriate levels of detail.
-- ![[Pasted image 20260726225920.png|750]]
-- 
 
 ### Stage 5: Execution Planning and Force Execution
+<<<<<<< HEAD
 
 - 
+=======
+- ![[Pasted image 20260726225920.png|750]]
+- Targeting products crated in previous stages become the primary references distributed to the unit level for execution planning, including coordinating, and deconflicting changes to targeting information with tasked units.
+    • Force execution refers to the time frame within which an ATO is executed by combat units.
+    • During this period, the AOC serves as the centralized control node for tasking joint air capabilities and forces.
+- The AOC's combat operations division (COD) supervises the detailed execution of the ATO; its targeteers monitor ATO execution and execute alternate targets when ready.
+- If the OE changes due to factors like weather or enemy response to friendly applications, the senior intelligence duty officer (SIDO) in the COD monitors the enemy and provides further support.
+
+>>>>>>> origin/main
 
 ### Stage 6: Assessment
 - 

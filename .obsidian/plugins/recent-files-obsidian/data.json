@@ -5,6 +5,10 @@
       "path": "Impact Level 4.md"
     },
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Federal Risk and Authorization Management Program",
       "path": "Federal Risk and Authorization Management Program.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Joint Staff",
       "path": "Joint Staff.md"
-    },
-    {
-      "basename": "N-Staff",
-      "path": "N-Staff.md"
     }
   ],
   "omittedPaths": [],
