@@ -7,3 +7,8 @@ This list guides operational focus, feeds into the [[Air Tasking Order]] process
 
 
 > A prioritized list of targets approved by the [[Joint Force Commander]] that feeds the integrated tasking order/[[Air Tasking Order]] process. Of note, only those validated targets on the [[Joint Target List|JTL]], [[Restricted Target List|RTL]], or [[Global Integrated Target List|GITL]] can be nominated to a [[Joint Integrated Prioritized Target List|JIPTL]].
+
+
+
+![[Pasted image 20260728115006.png]]
+

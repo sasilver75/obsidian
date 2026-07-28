@@ -1,6 +1,6 @@
 ---
 aliases:
-  - MoE
+  - MOE
 ---
 In the context of [[Effect]]s and [[Targeting]]
 

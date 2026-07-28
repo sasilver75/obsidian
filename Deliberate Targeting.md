@@ -23,7 +23,8 @@ Deliberate Targeting involves more complete planning depth, producing targeting 
 > "There's also a sort of gray-zone between dynamic and deliberate, where we're going to do something dynamically, put plan it deliberately. Here's the order that the pickup game is going to go, whenever it is that it kicks off. We just don't know the time and the place."
 
 
+![[Pasted image 20260728115006.png]]
 
 
-
-
+![[Pasted image 20260728122711.png]]
+``

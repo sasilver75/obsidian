@@ -42,6 +42,8 @@ A: Because combat is chaotic and difficult to plan ahead for! It's easier to wor
 ![[Pasted image 20260726225920.png]]
 
 
+![[Pasted image 20260728115006.png]]
+
 
 
 
