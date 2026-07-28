@@ -53,6 +53,10 @@ Air Tasking Cycle Stages
 - This stage is based on the commander's guidance (especially the [[Air Operations Directive|AOD]]), the [[Master Air Attack Plan|MAAP]], and component requirements. The [[Air Tasking Order|ATO]], [[Airspace Control Order|ACO]], and [[Special Instructions|SPINS]] provide operational and tactical direction at appropriate levels of detail.
 
 ### Stage 5: Execution Planning and Force Execution
+<<<<<<< HEAD
+
+- 
+=======
 - ![[Pasted image 20260726225920.png|750]]
 - Targeting products crated in previous stages become the primary references distributed to the unit level for execution planning, including coordinating, and deconflicting changes to targeting information with tasked units.
     • Force execution refers to the time frame within which an ATO is executed by combat units.
@@ -60,6 +64,7 @@ Air Tasking Cycle Stages
 - The AOC's combat operations division (COD) supervises the detailed execution of the ATO; its targeteers monitor ATO execution and execute alternate targets when ready.
 - If the OE changes due to factors like weather or enemy response to friendly applications, the senior intelligence duty officer (SIDO) in the COD monitors the enemy and provides further support.
 
+>>>>>>> origin/main
 
 ### Stage 6: Assessment
 - The continuous process of measuring the overall effectiveness of joint force capabilities during military operations, and one of the four major [[Command and Control|C2]] activities.

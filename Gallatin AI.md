@@ -104,7 +104,7 @@ Video: [Palantir for Builders | Deploying into Maven Smart System ft. Gallatin A
 
 
 > Q: Why are you building your startup on [[Palantir Foundry]]?
-> A: Before cofounding, I had heard of Palantir but didn't know about it as a provider. When you deploy into mission-critical environments such as anything in defense, obviously, but other fields as well... you really need a cloud provider where... from day one, you can be assured that what you're doing comes with the required safeguards (often this is in the mil requirements), things like can you be [[DoD Impact Level 5|IL5]] compliant. ==Foundry got us to serving our customer much faster==. For a startup, everything is about speed. Once you're there... how can you iterate quickly? We release on a weekly or every other week basis into [[Maven Smart System]], and so that's super exciting for us to be able to deploy to our customers in hours, rather than days or weeks.
+> A: Before cofounding, I had heard of Palantir but didn't know about it as a provider. When you deploy into mission-critical environments such as anything in defense, obviously, but other fields as well... you really need a cloud provider where... from day one, you can be assured that what you're doing comes with the required safeguards (often this is in the mil requirements), things like can you be [[Impact Level 5|IL5]] compliant. ==Foundry got us to serving our customer much faster==. For a startup, everything is about speed. Once you're there... how can you iterate quickly? We release on a weekly or every other week basis into [[Maven Smart System]], and so that's super exciting for us to be able to deploy to our customers in hours, rather than days or weeks.
 > Q: So you're focused on the outcomes, and Palantir gets you there faster. 
 > A: Yes, also Palantir is a huge company... and we're small, about 40-45 people right now, up from scratch in 19 months. We have a joint slack channel with you all, and there are 120 people in our joint slack channel... so in a long-winded way, the attention to feedback from Palantir is unmatched. We complain a lot, find a lot of bugs, etc. And you guys care to hear feedback and quickly implement fixes (sometimes it's a P0 ticket we triggered). It feels like being part of building the product together.
 
@@ -151,7 +151,7 @@ Host: We're not only going to be showing off a production OSDK web app on Palant
 Daniel Bunchmueller, CTO + Co-Founder Gallatin
 - At Gallatin we believe that the AI revolution in the military isn't complete; huge proliferation in Cyber, Intelligence, C2 ... but logistics is left in the dust. We started in July 1, 2024, 20 people now, funded by 8VC.
 - ==Navigator== is our primary product, built on Foundry, chose for:
-	- Speed: To use premiere models in [[DoD Impact Level 5|IL5]] and [[DoD Impact Level 6|IL6]] for Top Secret environments in production. Approval to operate (speed to get approval) matters to use; Foundry comes with about 80% of the controls we need.
+	- Speed: To use premiere models in [[Impact Level 5|IL5]] and [[Impact Level 6|IL6]] for Top Secret environments in production. Approval to operate (speed to get approval) matters to use; Foundry comes with about 80% of the controls we need.
 	- Security: Leverage the security/deployment architecture trusted by Palantir's most critical/sensitive customers.
 	- Impact: Delivering transformational capabilities directly to warfighters.
 
