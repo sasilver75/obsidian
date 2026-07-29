@@ -1,10 +1,10 @@
 Github Link: [airoboros](https://github.com/jondurbin/airoboros)
-From [[Jon {Durbin]], a "==Customizable implementation of the [[Self-Instruct]] paper==."
+From [[Jon Durbin]], a "==Customizable implementation of the [[Self-Instruct]] paper==."
 Referenced by [[Nous Research]] folks in the [[Capybara]] series of models as being a useful tool for creating datasets. Note that there are also a series of Airoboros models that result from finetuning on datasets produced by Airoboros.
 
 > Jon Durbin: This is *my take* on implementing the Self-Instruct paper. The approach is quite heavily modified, and ==does not use any human-generated seeds==.
 
-> Problem and proposed solution:
+> Problem and proposed solution:**
 > - Models can only ever be as good as the data they are trained on.
 > - High quality data is difficult to curate manually, so ideally the process can be automated by AI/LLMs.
 > - Large models (gpt-4, etc.) are pricey to build/run and out of reach for individuals/small-medium business, and are subject to RLHF bias, censorship, and changes without notice.

@@ -4,7 +4,7 @@ aliases:
   - TRANSCOM
   - Transportation Command
 ---
-One of 11 [[Unified Combatant Command]]s of the US [[United States Department of Defense|DoD]]
+One of 11 [[Unified Combatant Command]]s of the US [[Department of Defense|DoD]]
 
 - Air Force's Air Mobility Command (AMC) fleet provides refueling and cargo/personnel transport capability.
 - Navy's Military Searlift Command (USC) is TRANSCOM's sealift component, providing sea transport worldwide.
@@ -15,7 +15,7 @@ One of 11 [[Unified Combatant Command]]s of the US [[United States Department of
 cf. [[Defense Logistics Agency]] (DLA):
 - DLA is about *stuff*: sourcing, managing, stocking, and supplying common materiel.
 - TRANSCOM is about *movement*: transporting people and cargo globally.
-Both are joint, [[United States Department of Defense|DoD]]-level organizations.
+Both are joint, [[Department of Defense|DoD]]-level organizations.
 
 
 

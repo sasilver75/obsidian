@@ -42,7 +42,9 @@ TSA can produce:
 
 
 
+![[Pasted image 20260728182136.png]]
 
+![[Pasted image 20260728182149.png]]
 
-
+![[Pasted image 20260728182421.png]]
 

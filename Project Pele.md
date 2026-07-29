@@ -52,7 +52,7 @@ In 2025...we've begun to assemble the reactor. We will also finish making the fu
 
 Host: This sounds like the most advanced microreactor occurring in the US *now*...
 
-It's not a commercial venture, but in the field of folks developing reactors... If we don't succeed, no one else will... this isn't out of arrogance... we are in a rapid prototyping organization, not the DoE where it would be very bureaucratic. We don't need to use [[Nuclear Regulatory Commission|NRC]] licensing, we're using [[United States Department of Energy|DoE]] licensing, and have received >$500M by the federal government and continue to receive healthy funding. This is the fastest moving advanced reactor project, and we've had the pick of the litter in experts.
+It's not a commercial venture, but in the field of folks developing reactors... If we don't succeed, no one else will... this isn't out of arrogance... we are in a rapid prototyping organization, not the DoE where it would be very bureaucratic. We don't need to use [[Nuclear Regulatory Commission|NRC]] licensing, we're using [[Department of Energy|DOE]] licensing, and have received >$500M by the federal government and continue to receive healthy funding. This is the fastest moving advanced reactor project, and we've had the pick of the litter in experts.
 
 > If you take anyone's microreactor design and red team it, you will find mistakes.
 

@@ -2,6 +2,7 @@
 aliases:
   - Ground Based Strategic Deterrent
   - GBSD
+  - Sentinel
 ---
 
 

@@ -1,4 +1,5 @@
 ---
 aliases:
   - SBUe
+  - SBU-E
 ---

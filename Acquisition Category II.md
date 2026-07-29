@@ -2,7 +2,7 @@
 aliases:
   - ACAT II
 ---
-A [[United States Department of Defense|DoD]] designation for "major systems" that fall below the thresholds of [[Major Defense Acquisition Program|ACAT I]].
+A [[Department of Defense|DoD]] designation for "major systems" that fall below the thresholds of [[Major Defense Acquisition Program|ACAT I]].
 
 These programs require an eventual total Research, Development, Test, and Evaluation (RDT&E) expenditure of more than $200 M, or procurement of more than $920 M.
 

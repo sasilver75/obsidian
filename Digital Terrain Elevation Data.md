@@ -9,7 +9,7 @@ aliases:
   - DTED2
 ---
 
-A standard uniform matrix of terrain elevation values ([[Digital Elevation Model|DEM]]) developed by the [[United States Department of Defense|DoD]].
+A standard uniform matrix of terrain elevation values ([[Digital Elevation Model|DEM]]) developed by the [[Department of Defense|DoD]].
 
 Provides elevation, slope, and surface roughness data ((More?)) for applications like flight path planning, line-of-sight analysis, and situational awareness tools like [[Android Team Awareness Kit|ATAK]].
 

@@ -31,7 +31,7 @@ Terms
 - [[Atomic Energy Commission]] (AEC): The former U.S. agency responsible for civilian and military nuclear development before later reorganization.
 - [[Nuclear Regulatory Commission]] (NRC): The U.S. regulator for civilian nuclear reactors, materials, and safety licensing.
 - [[National Nuclear Security Administration]] (NNSA): The U.S. agency responsible for nuclear security, weapons stewardship, and related national security missions.
-- [[United States Department of Energy]] (DOE): The U.S. cabinet department overseeing national energy policy, laboratories, and many nuclear programs.
+- [[Department of Energy]] (DOE): The U.S. cabinet department overseeing national energy policy, laboratories, and many nuclear programs.
 - [[Nuclear Energy Industry Modernization Act]]: A 2019 U.S. law intended to modernize nuclear licensing and support advanced reactor regulation.
 - [[Atoms for Peace]]: A U.S. initiative promoting civilian nuclear technology and international nuclear cooperation.
 - [[Army Nuclear Power Program]]: A U.S. Army program that developed small nuclear reactors for remote military power applications.

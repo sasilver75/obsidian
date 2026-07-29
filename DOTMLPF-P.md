@@ -1,6 +1,6 @@
 Pron. "Dot-Mill-P-F"
 
-A comprehensive analysis framework used by the US [[United States Department of Defense|DoD]] to identify capability gaps and determine the best solutions to resolve them.
+A comprehensive analysis framework used by the US [[Department of Defense|DoD]] to identify capability gaps and determine the best solutions to resolve them.
 
 It stands for:
 - ==Doctrine==: The fundamental principles and established guidance that govern how military forces are employed.

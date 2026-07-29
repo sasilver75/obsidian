@@ -6,7 +6,7 @@ aliases:
 ---
 https://en.wikipedia.org/wiki/Joint_Electronics_Type_Designation_System#cite_note-MIL-STD-196G-1
 
-A method developed by the [[United States Department of Defense|DoD]] during WW2 for assigning an unclassified designator to electronics equipment.
+A method developed by the [[Department of Defense|DoD]] during WW2 for assigning an unclassified designator to electronics equipment.
 
 The core of the JETDS system is the combination of a ==Type Designation== with an ==Item Name== to specify a particular item.
 > With the AN/PEQ-2A Infrared Illuminator, the "AN/PEQ-2A" is the Type Designation while the Item Name Code (INC) 26086 "Illuminator, Infrared" is the Item Name.

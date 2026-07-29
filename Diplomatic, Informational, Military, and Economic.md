@@ -8,7 +8,7 @@ aliases:
 - Military
 - Economics
 
-Became fashionable in the the last two decades in the [[United States Department of Defense|DoD]] during the [[Global War on Terror]]. By the late 2010s, even official Joint Doctrine used the DIME as a central organizing principle; by 2019, West Point's Modern War Institute was publishing papers that called for the DIME to be the organizing principle in how to prosecute a war.
+Became fashionable in the the last two decades in the [[Department of Defense|DoD]] during the [[Global War on Terror]]. By the late 2010s, even official Joint Doctrine used the DIME as a central organizing principle; by 2019, West Point's Modern War Institute was publishing papers that called for the DIME to be the organizing principle in how to prosecute a war.
 
 It's even become fashionable in some publications to expand on the DIM concept to make it ==DIMEFIL== (or ==MIDFIELD==)
 - Financial

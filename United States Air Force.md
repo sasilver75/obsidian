@@ -8,15 +8,15 @@ Resources:
 
 
 Nine Major Commands of the USAF
-- ==Air Combat Command== (ACC): Provides combat airpower to warfighting commanders (fighter, reconnaissance, battle-management, electronic combat, cyber, intelligence, communications, etc.)
-- ==Air Education and Training Command== (AETC): Recruits, trains, and educates Airmen for the Air Force.
-- ==Air Force Global Strike Command== (AFGSC): Provides the Air Force's strategic bomber and [[Intercontinental Ballistic Missile|ICBM]] forces.
-- ==[[Air Force Materiel Command]]== (AFMC): Manages research, development, test, evaluation, acquisition, lifecycle management, sustainment, support for Air Force weapon systems.
-- ==Air Force Reserve Command== (AFRC): Provides reserve combat-ready Airmen and units that can augment/integrate with active-duty Air Force.
-- ==Air Force Special Operations Command== (AFSOC): Provides SOF for global missions such as precision firepower, infiltration, exfiltration, resupply, special tactics.
-- ==Air Mobility Command== (AMC): Provides global airlift, aerial refueling, aeromedical evacuation, mobility support, and mobility command and control.
-- ==Pacific Air Forces== (PACAF): The Air Force component for INDOPACOM.
-- ==United States Air Forces in Europe - Air Forces Africa== (USAFE-AFAFRICA):  The Air Force component for [[US European Command|EUCOM]] and [[US Africa Command|AFRICOM]].
+1. [[Air Combat Command]] (ACC): Provides combat airpower to warfighting commanders (fighter, reconnaissance, battle-management, electronic combat, cyber, intelligence, communications, etc.)
+2. [[Air Education and Training Command]] (AETC): Recruits, trains, and educates Airmen for the Air Force.
+3. Air Force Global Strike Command (AFGSC): Provides the Air Force's strategic bomber and [[Intercontinental Ballistic Missile|ICBM]] forces.
+4. [[Air Force Materiel Command]] (AFMC): Manages research, development, test, evaluation, acquisition, lifecycle management, sustainment, support for Air Force weapon systems.
+5. [[Air Force Reserve Command]] (AFRC): Provides reserve combat-ready Airmen and units that can augment/integrate with active-duty Air Force.
+6. [[Air Force Special Operations Command]] (AFSOC): Provides SOF for global missions such as precision firepower, infiltration, exfiltration, resupply, special tactics.
+7. [[Air Mobility Command]] (AMC): Provides global airlift, aerial refueling, aeromedical evacuation, mobility support, and mobility command and control.
+8. [[Pacific Air Forces]] (PACAF): The Air Force component for INDOPACOM.
+9. [[United States Air Forces in Europe - Air Forces Africa]] (USAFE-AFAFRICA):  The Air Force component for [[US European Command|EUCOM]] and [[US Africa Command|AFRICOM]].
 
 
 Programs:

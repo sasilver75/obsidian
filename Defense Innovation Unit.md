@@ -5,7 +5,7 @@ aliases:
 ---
 https://en.wikipedia.org/wiki/Defense_Innovation_Unit
 
-A US [[United States Department of Defense|DoD]] organization founded to help the US military make faster use of emerging commercial technologies.
+A US [[Department of Defense|DoD]] organization founded to help the US military make faster use of emerging commercial technologies.
 
 Launched in 2015, it has been called "The Pentagon's Innovation Experiment," staffed by civillians and both active duty and reserve military personnel. Founded by then-SECDEF Ash Carter.
 

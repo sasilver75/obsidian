@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Designated Mean Point of Impact.md",
+                "file": "Department of the Treasury.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Designated Mean Point of Impact"
+              "title": "Department of the Treasury"
             }
           },
           {
-            "id": "c4a5c917f114341f",
+            "id": "50ce7ae5f5abb0ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Department of Justice.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,151 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Department of Justice"
+            }
+          },
+          {
+            "id": "d387de0dd9193dad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Drug Enforcement Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Drug Enforcement Agency"
+            }
+          },
+          {
+            "id": "5b02fabe17d46a7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Federal Bureau of Investigation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Federal Bureau of Investigation"
+            }
+          },
+          {
+            "id": "11b27ac771dc8445",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "National Space Intelligence Center.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "National Space Intelligence Center"
+            }
+          },
+          {
+            "id": "fcfe74b6d4df8dca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defense Intelligence Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Defense Intelligence Agency"
+            }
+          },
+          {
+            "id": "23132367b42d4f2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Central Intelligence Agency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Central Intelligence Agency"
+            }
+          },
+          {
+            "id": "c0a13701f6a6ea1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Department of Agriculture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Department of Agriculture"
             }
           }
         ],
@@ -2316,44 +2460,45 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c4a5c917f114341f",
+  "active": "50ce7ae5f5abb0ed",
   "lastOpenFiles": [
-    "Designated Mean Point of Impact.md",
-    "conflict-files-obsidian-git.md",
-    "_attachments/Pasted image 20260728101031.png",
-    "Sensitive But Unclassified - Encrypted.md",
-    "Impact Level 6.md",
-    "Impact Level 5.md",
-    "Impact Level 4.md",
-    "Impact Level 2.md",
-    "Federal Risk and Authorization Management Program.md",
-    "ATO Fragment.md",
-    "Designated Mean Point of Imapct.md",
-    "Digital Imagery Exploitation Engine.md",
-    "Theater Battle Management Core System.md",
-    "United States Department of Defense.md",
-    "Non-Classified Internet Protocol Router Network.md",
-    "Secret Internet Protocol Router Network.md",
-    "DoD Impact Level 5.md",
-    "Weaponeering.md",
-    "Integrated Munitions Effects Assessment.md",
-    "Weapons of Mass Destruction.md",
-    "Geospatial Intelligence.md",
-    "Hard and Deeply Buried Target.md",
-    "Joint Automated Deep Operations Coordination System.md",
-    "Air Operations Center.md",
-    "Digital Precision Strike Suite Collateral Damage Estimation.md",
-    "Joint Munitions Effectiveness Manual Weaponeering System.md",
-    "ANTPY-2.md",
-    "_attachments/Pasted image 20260728145825.png",
-    "_attachments/Pasted image 20260728145816.png",
-    "_attachments/Pasted image 20260728122711.png",
-    "_attachments/Pasted image 20260728122706.png",
-    "_attachments/Pasted image 20260728115253.png",
-    "_attachments/Pasted image 20260728115006.png",
-    "_attachments/Pasted image 20260726225920.png",
-    "_attachments/Pasted image 20260726191233.png",
-    "_attachments/Pasted image 20260726191131.png",
+    "Drug Enforcement Agency.md",
+    "Department of Justice.md",
+    "Federal Bureau of Investigation.md",
+    "Department of the Treasury.md",
+    "Department of Energy.md",
+    "BWXT.md",
+    "National Defense Budget Function 050.md",
+    "Nuclear Power.md",
+    "Project Pele.md",
+    "Radiant Industries.md",
+    "Joint Technical Coordinating Group for Munitions Effectiveness.md",
+    "National Space Intelligence Center.md",
+    "Defense Intelligence Agency.md",
+    "Central Intelligence Agency.md",
+    "United States Department of Agriculture.md",
+    "Department of Defense.md",
+    "Department of Homeland Security.md",
+    "Secret Service.md",
+    "Transportation Security Administration.md",
+    "Customs and Border Protection.md",
+    "Department of State.md",
+    "JP 3-60 Joint Targeting.md",
+    "Defense Threat Reduction Agency.md",
+    "National Security Agency.md",
+    "National Geospatial-Intelligence Agency.md",
+    "National Center for Medical Intelligence.md",
+    "_attachments/Pasted image 20260729102809.png",
+    "_attachments/Pasted image 20260729100758.png",
+    "_attachments/Pasted image 20260728183415.png",
+    "_attachments/Pasted image 20260728183401.png",
+    "_attachments/Pasted image 20260728183138.png",
+    "_attachments/Pasted image 20260728183049.png",
+    "_attachments/Pasted image 20260728183035.png",
+    "_attachments/Pasted image 20260728182823.png",
+    "_attachments/Pasted image 20260728182810.png",
+    "_attachments/Pasted image 20260728182756.png",
+    "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
@@ -2362,7 +2507,6 @@
     "explainers",
     "flashcards/system-design-questions-anki.tsv",
     "A",
-    "flashcards/high-priority-system-design-anki.tsv",
-    "Blue"
+    "flashcards/high-priority-system-design-anki.tsv"
   ]
 }

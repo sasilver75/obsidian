@@ -5,7 +5,7 @@ aliases:
 
 https://en.wikipedia.org/wiki/Defense_Security_Cooperation_Agency
 
-An agency within the [[United States Department of Defense|DoD]] which provides financial and technical assistance, transfer of defense materiel, training and services to allies, and promotes military-to-military contracts.
+An agency within the [[Department of Defense|DoD]] which provides financial and technical assistance, transfer of defense materiel, training and services to allies, and promotes military-to-military contracts.
 
 Basically does:
 - [[Foreign Military Sales]] (FMS)

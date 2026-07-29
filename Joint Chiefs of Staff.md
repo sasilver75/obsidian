@@ -2,7 +2,7 @@
 aliases:
   - JCS
 ---
-The body of the most senior uniformed leaders in the [[United States Department of Defense|DoD]], advising the [[President of the United States|POTUS]], [[Secretary of Defense|SECDEF]], the [[Homeland Security Council]], and the [[National Security Council]] on military matters.
+The body of the most senior uniformed leaders in the [[Department of Defense|DoD]], advising the [[President of the United States|POTUS]], [[Secretary of Defense|SECDEF]], the [[Homeland Security Council]], and the [[National Security Council]] on military matters.
 
 Consists of:
 - A [[Chairman of the Joint Chiefs of Staff]]

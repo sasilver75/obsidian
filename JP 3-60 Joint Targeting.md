@@ -2,7 +2,7 @@
 
 ![[Pasted image 20260714224214.png|300]]
 Joint Targeting (Published September 28, 2018)
-JP = "Joint Publication", doctrinal manuals published by the [[United States Department of Defense|DoD]] to standardize how different branches of the military operate together.
+JP = "Joint Publication", doctrinal manuals published by the [[Department of Defense|DoD]] to standardize how different branches of the military operate together.
 #zotero 
 
 

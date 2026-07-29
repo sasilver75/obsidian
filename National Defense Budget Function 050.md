@@ -4,7 +4,7 @@ aliases:
 ---
 The overarching federal budget category for U.S. national security, exceeding $1.1 trillion annually.
 
-Encompasses military operations of the [[United States Department of Defense|DoD]], [[United States Department of Energy|DoE]] nuclear weapons programs, and other national security activities across the FBI and Coast Guard.
+Encompasses military operations of the [[Department of Defense|DoD]], [[Department of Energy|DOE]] nuclear weapons programs, and other national security activities across the FBI and Coast Guard.
 
 Broken into three primary subfunctions:
 - Department of Defense - Military (Subfunction 051)

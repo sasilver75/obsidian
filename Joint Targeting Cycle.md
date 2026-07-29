@@ -57,6 +57,10 @@ Six Phases:
 
 
 
+![[Pasted image 20260728182514.png]]
+
+![[Pasted image 20260728182535.png]]
+
 
 
 
