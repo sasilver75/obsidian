@@ -2,6 +2,9 @@
 aliases:
   - IL2
 ---
+Publicly available information and data cleared for public release.
+Aligns directly with the [[Federal Risk and Authorization Management Program|FedRAMP]] Moderate baseline requirements.
+
 
 
 [[Controlled Unclassified Information]] or [[Uncontrolled Unclassified Information]]... Non-critical mission information.

@@ -1,3 +1,6 @@
+References:
+- https://www.youtube.com/watch?v=VJB4arMXH_Y unprocessed
+
 
 https://en.wikipedia.org/wiki/FIM-92_Stinger
 
