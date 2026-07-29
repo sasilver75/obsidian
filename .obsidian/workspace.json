@@ -4,16 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8a6a94b3160edcb3",
+        "id": "ed6f4069a406933e",
         "type": "tabs",
         "children": [
           {
-            "id": "7b38037bc89fec96",
+            "id": "dc08fb194d7a5c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Agile Combat Employment.md",
+=======
+                "file": "Designated Mean Point of Impact.md",
+>>>>>>> 2eba70434249b142f37e3853ef8211e73f294539
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +32,24 @@
                 }
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Agile Combat Employment"
             }
           },
           {
             "id": "ff941aff05ad8f98",
+=======
+              "title": "Designated Mean Point of Impact"
+            }
+          },
+          {
+            "id": "c4a5c917f114341f",
+>>>>>>> 2eba70434249b142f37e3853ef8211e73f294539
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Impact Level 4.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Impact Level 4"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -115,8 +127,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ],
@@ -2204,7 +2216,47 @@
             }
           },
           {
-            "id": "9df9a281c4e5ff5a",
+            "id": "e5a022237cc752ce",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "dab0db8b32f8f735",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "722e5db9ac8fcda0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "b45343cd121b4049",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "bb699ffeae261dc0",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -2214,7 +2266,7 @@
             }
           }
         ],
-        "currentTab": 205
+        "currentTab": 209
       },
       {
         "id": "8a022290161ffefa",
@@ -2276,6 +2328,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
+<<<<<<< HEAD
   "active": "ff941aff05ad8f98",
   "lastOpenFiles": [
     "Agile Combat Employment.md",
@@ -2285,12 +2338,44 @@
     "Contingency Location.md",
     "Impact Level 6.md",
     "FIM-92 Stinger.md",
+=======
+  "active": "c4a5c917f114341f",
+  "lastOpenFiles": [
+    "Designated Mean Point of Impact.md",
+    "conflict-files-obsidian-git.md",
+    "_attachments/Pasted image 20260728101031.png",
+    "Sensitive But Unclassified - Encrypted.md",
+    "Impact Level 6.md",
+    "Impact Level 5.md",
+    "Impact Level 4.md",
+    "Impact Level 2.md",
+    "Federal Risk and Authorization Management Program.md",
+    "ATO Fragment.md",
+    "Designated Mean Point of Imapct.md",
+    "Digital Imagery Exploitation Engine.md",
+    "Theater Battle Management Core System.md",
+    "United States Department of Defense.md",
+    "Non-Classified Internet Protocol Router Network.md",
+    "Secret Internet Protocol Router Network.md",
+    "DoD Impact Level 5.md",
+    "Weaponeering.md",
+    "Integrated Munitions Effects Assessment.md",
+    "Weapons of Mass Destruction.md",
+    "Geospatial Intelligence.md",
+    "Hard and Deeply Buried Target.md",
+    "Joint Automated Deep Operations Coordination System.md",
+    "Air Operations Center.md",
+    "Digital Precision Strike Suite Collateral Damage Estimation.md",
+    "Joint Munitions Effectiveness Manual Weaponeering System.md",
+    "ANTPY-2.md",
+>>>>>>> 2eba70434249b142f37e3853ef8211e73f294539
     "_attachments/Pasted image 20260728145825.png",
     "_attachments/Pasted image 20260728145816.png",
     "_attachments/Pasted image 20260728122711.png",
     "_attachments/Pasted image 20260728122706.png",
     "_attachments/Pasted image 20260728115253.png",
     "_attachments/Pasted image 20260728115006.png",
+<<<<<<< HEAD
     "Weapons of Mass Destruction.md",
     "Weapon System Video.md",
     "Untitled 10.md",
@@ -2311,6 +2396,8 @@
     "Joint Targeting Intelligence Modernization.md",
     "Joint Munitions Effectiveness Manual.md",
     "_attachments/Pasted image 20260728101031.png",
+=======
+>>>>>>> 2eba70434249b142f37e3853ef8211e73f294539
     "_attachments/Pasted image 20260726225920.png",
     "_attachments/Pasted image 20260726191233.png",
     "_attachments/Pasted image 20260726191131.png",

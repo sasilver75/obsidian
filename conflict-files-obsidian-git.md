@@ -5,7 +5,6 @@ Please resolve them and commit them using the commands `Obsidian Git: Commit all
 
 - Not a file: .obsidian/plugins/recent-files-obsidian/data.json
 - Not a file: .obsidian/workspace.json
-- [[Air Tasking Cycle]]
 
 # Additional Instructions
 I strongly recommend to use "Source mode" for viewing the conflicted files. For simple conflicts, in each file listed above replace every occurrence of the following text blocks with the desired text.
