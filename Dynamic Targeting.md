@@ -18,3 +18,18 @@ Often taught using [[Find, Fix, Track, Target, Engage, Assess|F2T2EA]] (Find, Fi
 
 ![[Pasted image 20260728145825.png]]
 
+![[Pasted image 20260728182554.png]]
+
+![[Pasted image 20260728182700.png]]
+
+![[Pasted image 20260728182718.png]]
+
+![[Pasted image 20260728182742.png]]
+
+![[Pasted image 20260728182756.png]]
+
+![[Pasted image 20260728182810.png]]
+
+![[Pasted image 20260728182823.png]]
+
+

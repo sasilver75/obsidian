@@ -4,5 +4,5 @@ aliases:
   - SOUTHCOM
   - Southern Command
 ---
-One of 11 [[Unified Combatant Command]]s of the US [[United States Department of Defense|DoD]]
+One of 11 [[Unified Combatant Command]]s of the US [[Department of Defense|DoD]]
 

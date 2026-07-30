@@ -6,7 +6,7 @@ aliases:
 https://en.wikipedia.org/wiki/Replicator_(United_States_military)
 
 
-A [[United States Department of Defense|DoD]] program intended to pioneer ways to cheaply produce large amount of weapons or systems for the military.
+A [[Department of Defense|DoD]] program intended to pioneer ways to cheaply produce large amount of weapons or systems for the military.
 
 It was announced on August 23, 2023 as a means of quickly producing weapons to deter and counter China, and that the first weapons produced under Replicator were going to be autonomous systems.
 

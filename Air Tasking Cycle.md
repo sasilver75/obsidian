@@ -101,8 +101,12 @@ Dynamic targeting Kill Chain
 ==Dynamic Rescue==
 - The utilization of the dynamic targeting process to complete the rescue and recovery of isolated personnel, especially in hostile or time-sensitive situations.
 
+![[Pasted image 20260728183138.png]]
+![[Pasted image 20260728183401.png]]
 
- 
+![[Pasted image 20260728183415.png]]
+
+
 
 
 

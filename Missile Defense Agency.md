@@ -4,7 +4,7 @@ aliases:
 ---
 https://en.wikipedia.org/wiki/Missile_Defense_Agency
 
-A component of the US [[United States Department of Defense|DoD]] responsible for developing a comprehensive defense against ballistic missiles, with its origins in the Strategic Defense Initiative (SDI) in 1983 under Reagan.
+A component of the US [[Department of Defense|DoD]] responsible for developing a comprehensive defense against ballistic missiles, with its origins in the Strategic Defense Initiative (SDI) in 1983 under Reagan.
 
 Partially or wholly responsible for the development of several [[Ballistic Missile]] defense systems, including the Patriot [[MIM-104 Patriot|PAC-3 MSE]], [[Aegis Combat System|Aegis]] BMD system, [[Terminal High Altitude Area Defense|THAAD]], and the [[Ground-Based Midcourse Defense]]
 

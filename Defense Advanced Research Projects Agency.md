@@ -11,7 +11,7 @@ aliases:
   - Multi-X Office
 ---
 
-A research and development agency of the US [[United States Department of Defense|DoD]] responsible for the development of emerging technologies for use by the military.
+A research and development agency of the US [[Department of Defense|DoD]] responsible for the development of emerging technologies for use by the military.
 Originally known as the Advanced Research PRojects Agency (ARPA).
 
 

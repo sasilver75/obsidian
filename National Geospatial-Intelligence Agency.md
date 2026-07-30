@@ -13,6 +13,10 @@ Products
 - Publishes many unclassified products (world port index, sailing directions, aeronautical charts)
 - Funds a lot of foundational geospatial research and standards
 
+> The primary national producer of [[Geospatial Intelligence|GEOINT]], which is the exploitation and analysis of imagery and geospatial information to describe, assess, and visually depict physical features and geographically referenced activities on the Earth. NGA’s analysts assist in federated [[Target Development]] and assessment using GEOINT analytical techniques and technologies, controlled source material, and refined mensuration techniques and data. NGA contributes to military operations by supplying the intelligence, mission-specific datasets, and foundational data to support targeting. NGA also produces many of the maps and charts Airmen use.
+
+
+
 
 
 

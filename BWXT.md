@@ -20,7 +20,7 @@ A company headquartered in Lynchburg, Virginia that supplies nuclear components 
 
 #### 4) BWXT Technical Services Group, Inc.
 - Manages complex, high-consequence nuclear and national security operations, including nuclear production facilities.
-- ==Manages the nations Strategic Petroleum Reserve==, and provides a broad range of technical services to [[United States Department of Energy|DoE]] and the [[National Nuclear Security Administration]] (NNSA).
+- ==Manages the nations Strategic Petroleum Reserve==, and provides a broad range of technical services to [[Department of Energy|DOE]] and the [[National Nuclear Security Administration]] (NNSA).
 
 
 

@@ -7,7 +7,7 @@ https://en.wikipedia.org/wiki/Joint_All-Domain_Command_and_Control
 
 Pronounced: "Suh-Jadd C2", rhyming with "Muh Bad C2"
 
-A concept in active development at the [[United States Department of Defense|DoD]], looking to link sensors from all branches of the US armed forces into a unified network powered by AI.
+A concept in active development at the [[Department of Defense|DoD]], looking to link sensors from all branches of the US armed forces into a unified network powered by AI.
 
 Each branch of the US armed forces have its own initiative that contributes directly to JADC2:
 - [[United States Army|Army]]: Project Convergence

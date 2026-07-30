@@ -64,7 +64,9 @@ Five fundamental principles guide the air component's targeting process:
 ![[Pasted image 20260725013631.png]]
 
 
+![[Pasted image 20260728180638.png]]
 
+![[Pasted image 20260728181618.png]]
 
 
 
