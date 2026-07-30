@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8a6a94b3160edcb3",
+        "id": "ed6f4069a406933e",
         "type": "tabs",
         "children": [
           {
-            "id": "7b38037bc89fec96",
+            "id": "dc08fb194d7a5c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secretary of Defense.md",
+                "file": "M113 Armored Personnel Carrier.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Secretary of Defense"
+              "title": "M113 Armored Personnel Carrier"
             }
           },
           {
-            "id": "bf80a53554645d43",
+            "id": "ae3e3764cc9fe591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Family of Affordable Mass Munitions Program.md",
+                "file": "Smack/Smack Onboarding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Family of Affordable Mass Munitions Program"
+              "title": "Smack Onboarding"
             }
           },
           {
-            "id": "e617ef6b95c60d05",
+            "id": "c131b95c59e2e375",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Low-Cost Containerized Missile.md",
+                "file": "Hypersonic Attack Cruise Missile.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Low-Cost Containerized Missile"
+              "title": "Hypersonic Attack Cruise Missile"
             }
           },
           {
-            "id": "308fcc52f8c6a49a",
+            "id": "5db296a64b4b45e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3D Printing.md",
+                "file": "One-Way Attack Drone.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,107 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3D Printing"
-            }
-          },
-          {
-            "id": "c39c6de9ac057876",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Missile Guidance.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Missile Guidance"
-            }
-          },
-          {
-            "id": "3cae6dfe0f5ca3ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Federal Contract Information.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Federal Contract Information"
-            }
-          },
-          {
-            "id": "7e38c031142de0ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States House Committee on Appropriations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States House Committee on Appropriations"
-            }
-          },
-          {
-            "id": "1c5812804f3caa76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States House Committee on Armed Services.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States House Committee on Armed Services"
+              "title": "One-Way Attack Drone"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -259,8 +163,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ],
@@ -2348,7 +2252,7 @@
             }
           },
           {
-            "id": "9df9a281c4e5ff5a",
+            "id": "e5a022237cc752ce",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -2358,7 +2262,47 @@
             }
           },
           {
-            "id": "848f2fc852f3a273",
+            "id": "dab0db8b32f8f735",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "722e5db9ac8fcda0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "b45343cd121b4049",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "bb699ffeae261dc0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "9507899c5e8e0697",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -2368,7 +2312,7 @@
             }
           }
         ],
-        "currentTab": 206
+        "currentTab": 210
       },
       {
         "id": "8a022290161ffefa",
@@ -2430,44 +2374,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c39c6de9ac057876",
+  "active": "ae3e3764cc9fe591",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260731004318.png",
-    "Planning, Programming, Budgeting, and Execution.md",
-    "Short-Range Ballistic Missile.md",
-    "Medium-Range Ballistic Missile.md",
-    "FP-5 Flamingo.md",
-    "_attachments/Pasted image 20260730224615.png",
-    "_attachments/Pasted image 20260730224146.png",
-    "_attachments/Pasted image 20260730224108.png",
-    "United States Air Force.md",
-    "Numbered Air Force.md",
-    "Major Command.md",
-    "Portfolio Acquisition Executive.md",
-    "XQ-58 Valkyrie.md",
-    "Long-Range Hypersonic Weapon.md",
-    "_attachments/Pasted image 20260730195749.png",
-    "Cybersecurity Maturity Model Certification.md",
-    "Controlled Unclassified Information.md",
-    "Federal Contract Information.md",
-    "Air Force Research Lab.md",
-    "Analysis and Control Element.md",
-    "United States Senate Committee on Appropriations.md",
-    "United States House Committee on Appropriations.md",
-    "United States House Committee on Armed Services.md",
-    "3D Printing.md",
-    "Low-Cost Containerized Missile.md",
-    "Family of Affordable Mass Munitions Program.md",
-    "Secretary of Defense.md",
-    "GHOST.md",
-    "_attachments/Pasted image 20260729222533.png",
-    "Coalition Heterogenous Affordable Offensive Strike Program.md",
-    "Special Access Program.md",
+    "Terrain Contour Matching.md",
+    "Digital Scene Matching Area Correlation.md",
+    "Directed Energy.md",
+    "Loitering Munition.md",
+    "Hypersonic Attack Cruise Missile.md",
+    "One-Way Attack Drone.md",
+    "Hypersonic Cruise Missile.md",
+    "Armored Personnel Carrier.md",
+    "M113 Armored Personnel Carrier.md",
+    "Self-Propelled Howitzer.md",
+    "Self-Propelled Anti-Aircraft Gun.md",
+    "Ground-Launched Cruise Missile.md",
+    "Fuel-Air Explosive.md",
+    "Laser-Guided Bomb.md",
+    "Anti-Radiation Missile.md",
+    "High-to-Medium Altitude Air Defense System.md",
+    "Air-to-Air Missile.md",
+    "Surface-to-Air Missile.md",
+    "Air-to-Surface Missile.md",
+    "Anti-Ship Cruise Missile.md",
+    "Land-Attack Cruise Missile.md",
+    "Sea-Launched Cruise Missile.md",
+    "Air-Launched Cruise Missile.md",
+    "Anti-Tank Guided Missile.md",
+    "Air-to-Ground Missile.md",
+    "Department of the Treasury.md",
     "_attachments/Pasted image 20260729102809.png",
     "_attachments/Pasted image 20260729100758.png",
     "_attachments/Pasted image 20260728183415.png",
     "_attachments/Pasted image 20260728183401.png",
     "_attachments/Pasted image 20260728183138.png",
+    "_attachments/Pasted image 20260728183049.png",
+    "_attachments/Pasted image 20260728183035.png",
+    "_attachments/Pasted image 20260728182823.png",
+    "_attachments/Pasted image 20260728182810.png",
+    "_attachments/Pasted image 20260728182756.png",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
