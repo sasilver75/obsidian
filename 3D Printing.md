@@ -1,6 +1,7 @@
 ---
 aliases:
   - 3D Print
+  - 3D Printed
 ---
 Building physical objects layer by layer from a digital model, a form of [[Additive Process|Additive Manufacturing]].
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Missile Guidance.md",
+                "file": "Secretary of Defense.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Missile Guidance"
+              "title": "Secretary of Defense"
+            }
+          },
+          {
+            "id": "bf80a53554645d43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Family of Affordable Mass Munitions Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Family of Affordable Mass Munitions Program"
+            }
+          },
+          {
+            "id": "e617ef6b95c60d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Low-Cost Containerized Missile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Low-Cost Containerized Missile"
+            }
+          },
+          {
+            "id": "308fcc52f8c6a49a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3D Printing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3D Printing"
+            }
+          },
+          {
+            "id": "c39c6de9ac057876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XQ-58 Valkyrie.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "XQ-58 Valkyrie"
+            }
+          },
+          {
+            "id": "7e38c031142de0ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States House Committee on Appropriations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States House Committee on Appropriations"
+            }
+          },
+          {
+            "id": "1c5812804f3caa76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States House Committee on Armed Services.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States House Committee on Armed Services"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2261,8 +2406,29 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7b38037bc89fec96",
+  "active": "c39c6de9ac057876",
   "lastOpenFiles": [
+    "Air Force Research Lab.md",
+    "Analysis and Control Element.md",
+    "United States Senate Committee on Appropriations.md",
+    "United States House Committee on Appropriations.md",
+    "United States House Committee on Armed Services.md",
+    "3D Printing.md",
+    "Low-Cost Containerized Missile.md",
+    "Family of Affordable Mass Munitions Program.md",
+    "Secretary of Defense.md",
+    "GHOST.md",
+    "_attachments/Pasted image 20260729222533.png",
+    "Coalition Heterogenous Affordable Offensive Strike Program.md",
+    "Special Access Program.md",
+    "United States Senate Committee on Armed Services.md",
+    "Top Secret Classification.md",
+    "Sensitive Compartmented Information.md",
+    "Interim Clearance.md",
+    "Secret Classification.md",
+    "Confidential Classification.md",
+    "Controlled Unclassified Information.md",
+    "Missile Guidance.md",
     "_attachments/Pasted image 20260729102809.png",
     "_attachments/Pasted image 20260729100758.png",
     "_attachments/Pasted image 20260728183415.png",
@@ -2272,8 +2438,6 @@
     "_attachments/Pasted image 20260728183035.png",
     "_attachments/Pasted image 20260728182823.png",
     "_attachments/Pasted image 20260728182810.png",
-    "_attachments/Pasted image 20260728182756.png",
-    "_attachments/Pasted image 20260728182742.png",
     "United States Air Forces in Europe - Air Forces Africa.md",
     "Uncontrolled Unclassified Information.md",
     "US Strategic Command Joint Air Operations Center.md",
@@ -2281,25 +2445,6 @@
     "Smack/Smack Onboarding.md",
     "Smack",
     "Sixteenth Air Force.md",
-    "Secret Service.md",
-    "Releasable by Information Disclosure Official.md",
-    "Predicted Impact Point.md",
-    "Pacific Air Forces.md",
-    "Office of Naval Intelligence.md",
-    "Nuclear Materials Management.md",
-    "No Foreign Dissemination.md",
-    "No Dissemination to Contractors.md",
-    "National Space Intelligence Center.md",
-    "National Security Agency.md",
-    "National Ground Intelligence Center.md",
-    "National Command Authority.md",
-    "National Center for Medical Intelligence.md",
-    "National Air and Space Intelligence Center.md",
-    "Missile and Space Intelligence Center.md",
-    "Marine Corps Intelligence Acitivity.md",
-    "Major Command.md",
-    "Limited Dissemination Control.md",
-    "Joint Warfare Analysis Center.md",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",

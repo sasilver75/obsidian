@@ -2,6 +2,7 @@
 aliases:
   - Low-Cost Containerized Missiles Program
   - LCCM
+  - LCCM Program
 ---
 The LCCM program is a [[Department of Defense|DoD]] initiative to rapidly field thousands of affordable, ground-launched cruise missiles.
 
