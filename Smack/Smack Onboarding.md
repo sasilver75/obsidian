@@ -3,24 +3,103 @@
 Smack Onboarding
 
 
-Questions:
-- So the two instances in 
-
 kg-curator: Where our ingest stuff is
 kg-gen: Old, not used!
 
-There's been somet akl about us having a repositroy to put python tools in; the curent theory is tostitch it onto Aegis... for deployment reasons, we think.
+______________
+# Product Surfaces
+- We use things like `demo.smackgov.com` as an internal way of navigating to different product surfaces; this is not customer facing.
+![[Pasted image 20260731132157.png]]
+-  Smack Unified Dashboard: Where we should spend all of our time.
+- Predictive ISR: Legacy
+- COA Generation: Legacy McQUILL PTC
+- SAILS: Legacy (All of these are in smack unified (?))
+- Typhoon: This is what we did fo the 82nd abn
+- Athena: Our COP Proxy
+- Agent Workbench: SAGE
+- User Admin
 
-Aegis
-Athen
-C2E
-SmackSpace
-synthetic_warafre_generation_AUTOEN: 
-frontend
-maestro
-mesa
-parallax
-monsoon
+
+Smack Unified Dashboard: We refer to this as a unified or continuous operationla workflow.
+- The Party Line: "Going from building CONOPS (plans int eh future), taking artifacts of that plan... to more near-term shecheduling (24-48 hours), and then immediately take the synchroniatino matrix and execute against it."
+- So we have OPORDS, WARNORDS, or FRAGOs from our higher headquarters. These are natural language, and look like this:
+- ![[Pasted image 20260731135914.png]]
+- It's alway a 5 paragraph thing.... in an OSMEAC format. Often times you have Annexes as well, there can be many possible annexes.
+
+
+
+
+# Repositories (Projects in Gitlab parlances, which can have subprojects)
+- [SmackBackend](https://gitlab.com/smacktech/smackbackend): 
+- [wizard](https://gitlab.com/smacktech/wizard): 
+- [Athena](https://gitlab.com/smacktech/Athena): 
+- [frontend](https://gitlab.com/smacktech/frontend): 
+- [ragnarok](https://gitlab.com/smacktech/ragnarok): 
+- [maestro](https://gitlab.com/smacktech/maestro): 
+- [smackspace](https://gitlab.com/smacktech/smackspace): This is a "meta-workspace"; it doesn't contain the application services directly. Instead it orchestrates 28 independent service repositories, cloning them into the gitignored `services/` directory and running them together through Docker Compose.
+	- The private Docker registry that we use for "registry" services is Gitlab's Container Registry, hosted at registry.gitlab.com. Smack images are grouped under this namespace: registry.gitlab.com/smacktech/smackbackend. The registry is private.
+	- Each service has one of four modes:
+		- registry: Pull and run a prebuilt image, generally the easiest fist-run choice
+		- local: Clone, build, and run the local source inside Docker
+		- native: Run from source directly on your host
+		- off: Don't run it
+	- Steps
+		- ./scripts/booststrap.sh
+		- Fill out the user-credentials.json and system-credentials.json using data that you get from a Smack employee (e.g. I asked Jules)
+		- make bootstrap
+		- make doctor
+		- make sync
+		- brew install node
+		- brew install bun
+		- brew install uv
+		- brew install go
+		- ./scripts/docker-login.sh
+		- If you have some problems with "native" JS services (frontend, maestro) that are missing bun packages, cd into those service directories and `bun install` 
+		- make up
+- [mesa](https://gitlab.com/smacktech/mesa): 
+- [synthetic_warefare_generation_AUTOGEN](https://gitlab.com/smacktech/synthetic_warefare_generation_AUTOGEN): 
+- [smithy](https://gitlab.com/smacktech/smithy): 
+- [spicy](https://gitlab.com/smacktech/spicy): 
+- [Infrastructure:](https://gitlab.com/smacktech/Infrastruct ure) 
+- [hopper](https://gitlab.com/smacktech/hopper): 
+- [canary](https://gitlab.com/smacktech/canary): 
+- [18ac_model](https://gitlab.com/smacktech/18ac_model): 
+- [saucy](https://gitlab.com/smacktech/saucy): 
+- [AEGIS](https://gitlab.com/smacktech/AEGIS): 
+- [kg-curator](https://gitlab.com/smacktech/kg-curator): 
+- [parallax](https://gitlab.com/smacktech/parallax): 
+- [monsoon](https://gitlab.com/smacktech/monsoon): 
+- [hermes](https://gitlab.com/smacktech/hermes): 
+- [simple](https://gitlab.com/smacktech/simple): 
+- [argus](https://gitlab.com/smacktech/argus): 
+- [sisrs](https://gitlab.com/smacktech/sisrs): 
+- [rosetta](https://gitlab.com/smacktech/rosetta): 
+- [herald](https://gitlab.com/smacktech/herald): 
+- [Smack Sensors]([https://gitlab.com/smacktech/Smack Sensors](https://gitlab.com/smacktech/smack-sensors)): 
+- [iris](https://gitlab.com/smacktech/iris): 
+- [KgGen](https://gitlab.com/smacktech/KgGen): 
+- [theseus](https://gitlab.com/smacktech/theseus): 
+- [c2e](https://gitlab.com/smacktech/c2e): 
+
+
+Another grouping of services:
+- Application edge
+	- `frontend`: Browser UI
+	- `maestro`: GraphQL gateway and application-level orchestration
+- Data integration and storage: Postgres, Neo4j, Redis, and object storage underneath these
+	- `hopper`: Track ingestion and streaming
+	- `simple`: Simulation/COP-related data
+	- `athena`: Knowledge graph access and proejctions
+	- `iris`: Blob/object storage abstraction
+	- `smack-sensors`: Sensor processing
+	- `hermes` : Tool execution and integration
+	- 
+- Planning and model execution
+	- 
+- Platform-wide capabilities
+	- 
+- Delivery infrastructure
+	- 
 
 
 Knowledge Base:
