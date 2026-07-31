@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "ae3e3764cc9fe591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Smack/Smack Onboarding.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Smack Onboarding"
-            }
-          },
-          {
             "id": "c131b95c59e2e375",
             "type": "leaf",
             "state": {
@@ -83,28 +59,14 @@
             "id": "5db296a64b4b45e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "One-Way Attack Drone.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "One-Way Attack Drone"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2307,12 +2269,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "0f00b07a85ddde66",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 210
+        "currentTab": 211
       },
       {
         "id": "8a022290161ffefa",
@@ -2374,17 +2346,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ae3e3764cc9fe591",
+  "active": "5db296a64b4b45e9",
   "lastOpenFiles": [
+    "Hypersonic Attack Cruise Missile.md",
+    "M113 Armored Personnel Carrier.md",
+    "One-Way Attack Drone.md",
+    "Smack/Smack Onboarding.md",
     "Terrain Contour Matching.md",
     "Digital Scene Matching Area Correlation.md",
     "Directed Energy.md",
     "Loitering Munition.md",
-    "Hypersonic Attack Cruise Missile.md",
-    "One-Way Attack Drone.md",
     "Hypersonic Cruise Missile.md",
     "Armored Personnel Carrier.md",
-    "M113 Armored Personnel Carrier.md",
     "Self-Propelled Howitzer.md",
     "Self-Propelled Anti-Aircraft Gun.md",
     "Ground-Launched Cruise Missile.md",
@@ -2401,7 +2374,6 @@
     "Air-Launched Cruise Missile.md",
     "Anti-Tank Guided Missile.md",
     "Air-to-Ground Missile.md",
-    "Department of the Treasury.md",
     "_attachments/Pasted image 20260729102809.png",
     "_attachments/Pasted image 20260729100758.png",
     "_attachments/Pasted image 20260728183415.png",
