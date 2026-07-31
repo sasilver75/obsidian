@@ -60,4 +60,8 @@ Missiles and guided bombs generally use similar types of guidance systems, the d
 - Beam riding systems are often [[Semi-Automatic Command to Line of Sight|SACLOS]], but don't have to be. In other systems, the beam is a part of an automated radar tracking system.
 - Advantage is that multiple missile may be launched at once, using the same beam.
 - Suffers from the inherent weakness of inaccuracy when increasing range as the beam spreads out; laser beam riders are more accurate in this regard, but can be degraded by bad weather.
-- 
+
+
+
+![[Pasted image 20260731004318.png]]
+Types of guidance, along with NATO brevity codes (FOX-1, FOX-2, FOX-3) for firing one of them off.
