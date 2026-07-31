@@ -14,6 +14,8 @@ A large two-stage rocket booster carrying an unpowered [[Hypersonic Glide Vehicl
 
 On 29 April 2026, the US [[US Central Command|CENTCOM]] requested that the Dark Eagle be sent to the Middle East for potential deployment against Iran during the 2026 Iran war, marking the first time Washington would deploy the technology, according to Bloomberg. 
 
+July 21 2026, the US Army deployed its new hypersonic missile, the Dark Eagle, on Guam during an exercise in June. This puts parts of China within the 2,175 mile range of the Dark Eagle.
+
 
 
 ![[Pasted image 20260709235352.png]]
@@ -25,3 +27,5 @@ On a [[Transporter Erector Launcher|TEL]] in 2024 @ Nellis AFB
 
 ![[Pasted image 20260715233008.png]]
 For scale
+
+![[Pasted image 20260730195749.png]]

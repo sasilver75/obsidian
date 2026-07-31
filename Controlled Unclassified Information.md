@@ -4,6 +4,10 @@ aliases:
 ---
 See also: [[Uncontrolled Unclassified Information]]
 
+
+> "As outlined in Title 32 CFR 2002.4(h), CUI is “information the Government creates or possesses, or that an entity creates or possesses for or on behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls.” For more information regarding specific CUI categories and subcategories, see the DoW CUI Registry website."
+
+
 Levels ((?)):
 - CUI Basic
 - CUI Specified

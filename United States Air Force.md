@@ -7,7 +7,7 @@ Resources:
 - Site: [US Air Force Fact Sheets](https://www.af.mil/About-Us/Fact-Sheets/)
 
 
-Nine Major Commands of the USAF
+# Nine [[Major Command]] of the USAF
 1. [[Air Combat Command]] (ACC): Provides combat airpower to warfighting commanders (fighter, reconnaissance, battle-management, electronic combat, cyber, intelligence, communications, etc.)
 2. [[Air Education and Training Command]] (AETC): Recruits, trains, and educates Airmen for the Air Force.
 3. Air Force Global Strike Command (AFGSC): Provides the Air Force's strategic bomber and [[Intercontinental Ballistic Missile|ICBM]] forces.
@@ -17,6 +17,33 @@ Nine Major Commands of the USAF
 7. [[Air Mobility Command]] (AMC): Provides global airlift, aerial refueling, aeromedical evacuation, mobility support, and mobility command and control.
 8. [[Pacific Air Forces]] (PACAF): The Air Force component for INDOPACOM.
 9. [[United States Air Forces in Europe - Air Forces Africa]] (USAFE-AFAFRICA):  The Air Force component for [[US European Command|EUCOM]] and [[US Africa Command|AFRICOM]].
+
+
+# Under Major Commands are [[Numbered Air Force]]s
+Numbered Air Forces are subordinate to MAJCOMs, and has assigned to it operational units such as wings, squadrons, and groups. Unlike MJACOMs, which have a management role, a NAF is a tactical organization with an operational focus.
+Active ones (July 2026) include:
+- First Air Force (Air Forces Northern)
+- Second Air Force
+- Third Air Force (Air Forces Europe)
+- Fourth Air Force
+- Fifth Air Force
+- Seventh Air Force (Air Forces Strategic)
+- Eighth Air Force
+- Ninth Air Force (Air Forces Central)
+- Tenth Air Force
+- Eleventh Air Force
+- Twelfth Air Force (Air Forces Southern)
+- Thirteenth Expeditionary Air Force
+- Fifteenth Air Force
+- Sixteenth Air Force (Air Forces Cyber)
+- Eighteenth Air Force (Air Forces TRansportation)
+- Nineteenth Air Force
+- Twentieth Air Force (Air Forces Strategic)
+- Twenty-First Air Force
+- Twenty-Second Air Force
+
+
+
 
 
 Programs:
