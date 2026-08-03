@@ -84,5 +84,5 @@ The Maritime Strike variant
 - With the addition of the JDAM LR glide wings and turbojet propulsion, this anti-ship bomb quickly becomes an anti-ship cruise missile.
 
 
-The price per JDAM-LR hasn't been described yet... but may be ~$200,000, making them way cheaper than many long-range cruise missiles in service today like the [[AGM-158 JASSM]] line, and a similar price point to new "cheap" missiles like the [[Common Multi-Mission Truck|CMMT]], [[Barracuda|Barracuda-500]], while delivering much larger (5-10x) payloads.
+The price per JDAM-LR hasn't been described yet... but may be ~$200,000, making them way cheaper than many long-range cruise missiles in service today like the [[AGM-158 JASSM]] line, and a similar price point to new "cheap" missiles like the [[Common Multi-Mission Truck|CMMT]], [[Anduril Barracuda|Barracuda-500]], while delivering much larger (5-10x) payloads.
 - Note that this price is about ~5x the price of a standard JDAM
