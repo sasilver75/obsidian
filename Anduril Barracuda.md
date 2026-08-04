@@ -6,6 +6,7 @@ aliases:
   - Barracuda-100M
   - Barracuda-250M
   - Barracuda-500M
+  - Barracuda
 ---
 An [[Anduril]] family of autonomous, software-defined [[Cruise Missile]]s.
 
