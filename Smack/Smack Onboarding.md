@@ -1,5 +1,747 @@
 
 
+Smack Onboarding
+
+
+kg-curator: Where our ingest stuff is
+kg-gen: Old, not used!
+
+______________
+# Product Surfaces
+- We use things like `demo.smackgov.com` as an internal way of navigating to different product surfaces; this is not customer facing.
+![[Pasted image 20260731132157.png]]
+-  Smack Unified Dashboard: Where we should spend all of our time.
+- Predictive ISR: Legacy
+- COA Generation: Legacy McQUILL PTC
+- SAILS: Legacy (All of these are in smack unified (?))
+- Typhoon: This is what we did fo the 82nd abn
+- Athena: Our COP Proxy
+- Agent Workbench: SAGE
+- User Admin
+
+
+Smack Unified Dashboard: We refer to this as a unified or continuous operationla workflow.
+- The Party Line: "Going from building CONOPS (plans int eh future), taking artifacts of that plan... to more near-term shecheduling (24-48 hours), and then immediately take the synchroniatino matrix and execute against it."
+- So we have OPORDS, WARNORDS, or FRAGOs from our higher headquarters. These are natural language, and look like this:
+- ![[Pasted image 20260731135914.png]]
+- It's alway a 5 paragraph thing.... in an OSMEAC format. Often times you have Annexes as well, there can be many possible annexes.
+
+
+
+
+# Repositories (Projects in Gitlab parlances, which can have subprojects)
+- [SmackBackend](https://gitlab.com/smacktech/smackbackend): 
+- [wizard](https://gitlab.com/smacktech/wizard): 
+- [Athena](https://gitlab.com/smacktech/Athena): 
+- [frontend](https://gitlab.com/smacktech/frontend): 
+- [ragnarok](https://gitlab.com/smacktech/ragnarok): 
+- [maestro](https://gitlab.com/smacktech/maestro): 
+- [smackspace](https://gitlab.com/smacktech/smackspace): This is a "meta-workspace"; it doesn't contain the application services directly. Instead it orchestrates 28 independent service repositories, cloning them into the gitignored `services/` directory and running them together through Docker Compose.
+	- The private Docker registry that we use for "registry" services is Gitlab's Container Registry, hosted at registry.gitlab.com. Smack images are grouped under this namespace: registry.gitlab.com/smacktech/smackbackend. The registry is private.
+	- Each service has one of four modes:
+		- registry: Pull and run a prebuilt image, generally the easiest fist-run choice
+		- local: Clone, build, and run the local source inside Docker
+		- native: Run from source directly on your host
+		- off: Don't run it
+	- Steps
+		- ./scripts/booststrap.sh
+		- Fill out the user-credentials.json and system-credentials.json using data that you get from a Smack employee (e.g. I asked Jules)
+		- make bootstrap
+		- make doctor
+		- make sync
+		- brew install node
+		- brew install bun
+		- brew install uv
+		- brew install go
+		- ./scripts/docker-login.sh
+		- If you have some problems with "native" JS services (frontend, maestro) that are missing bun packages, cd into those service directories and `bun install` 
+		- make up
+- [mesa](https://gitlab.com/smacktech/mesa): 
+- [synthetic_warefare_generation_AUTOGEN](https://gitlab.com/smacktech/synthetic_warefare_generation_AUTOGEN): 
+- [smithy](https://gitlab.com/smacktech/smithy): 
+- [spicy](https://gitlab.com/smacktech/spicy): 
+- [Infrastructure:](https://gitlab.com/smacktech/Infrastruct ure) 
+- [hopper](https://gitlab.com/smacktech/hopper): 
+- [canary](https://gitlab.com/smacktech/canary): 
+- [18ac_model](https://gitlab.com/smacktech/18ac_model): 
+- [saucy](https://gitlab.com/smacktech/saucy): 
+- [AEGIS](https://gitlab.com/smacktech/AEGIS): 
+- [kg-curator](https://gitlab.com/smacktech/kg-curator): 
+- [parallax](https://gitlab.com/smacktech/parallax): 
+- [monsoon](https://gitlab.com/smacktech/monsoon): 
+- [hermes](https://gitlab.com/smacktech/hermes): 
+- [simple](https://gitlab.com/smacktech/simple): 
+- [argus](https://gitlab.com/smacktech/argus): 
+- [sisrs](https://gitlab.com/smacktech/sisrs): 
+- [rosetta](https://gitlab.com/smacktech/rosetta): 
+- [herald](https://gitlab.com/smacktech/herald): 
+- [Smack Sensors]([https://gitlab.com/smacktech/Smack Sensors](https://gitlab.com/smacktech/smack-sensors)): 
+- [iris](https://gitlab.com/smacktech/iris): 
+- [KgGen](https://gitlab.com/smacktech/KgGen): 
+- [theseus](https://gitlab.com/smacktech/theseus): 
+- [c2e](https://gitlab.com/smacktech/c2e): 
+
+
+Another grouping of services:
+- Application edge
+	- `frontend`: Browser UI
+	- `maestro`: GraphQL gateway and application-level orchestration
+- Data integration and storage: Postgres, Neo4j, Redis, and object storage underneath these
+	- `hopper`: Track ingestion and streaming
+	- `simple`: Simulation/COP-related data
+	- `athena`: Knowledge graph access and proejctions
+	- `iris`: Blob/object storage abstraction
+	- `smack-sensors`: Sensor processing
+	- `hermes` : Tool execution and integration
+	- 
+- Planning and model execution
+	- 
+- Platform-wide capabilities
+	- 
+- Delivery infrastructure
+	- 
+
+
+Knowledge Base:
+- Labels (As of July 29, 2026)
+    - Air: 
+    - AirDefense: 
+    - AthenaCapability: 
+    - AthenaImport: 
+    - AthenaScenario: 
+    - Aviation: 
+    - C2: 
+    - Capability: 
+    - CapeNet: 
+    - ComponentType: 
+    - ElementInstance: 
+    - ElementType: 
+    - ELINT: 
+    - EnvTax_Mission: 
+    - EnvTax_Operation: 
+    - EnvTax_Tactic: 
+    - EnvTax_Technique: 
+    - EOIR: 
+    - Fires: 
+    - FormationInstance: 
+    - FormationType: 
+    - FP: 
+    - Ground: 
+    - Information: 
+    - Infrastructure: 
+    - Intelligence: 
+    - ISR: 
+    - Joint: 
+    - KGAS: 
+    - KGTS: 
+    - LinProv: Nodes that represent properties 
+    - LoadoutType: 
+    - LogNet: 
+    - M2: 
+    - Maritime: 
+    - Objective: 
+    - OQ: 
+    - Protection: 
+    - Radar: 
+    - SAR: 
+    - SatInstance: 
+    - SD: 
+    - SemNet: 
+    - SemSyn: 
+    - SemTax: 
+    - SemTroid: 
+    - SensNet: 
+    - SOF: 
+    - Space: 
+    - Support: 
+    - Sustainment: 
+    - TacFormation: 
+    - Task: 
+    - TSD: 
+    - Variant: 
+    - WpnNet: 
+- Relationships:
+	- ANTENNA_EFFICIENCY
+	- ANTENNA_GAIN_DBI
+	- ANTENNA_LENGTH_M
+	- ANTENNA_SCAN_RATE_DEG_S
+	- ANTENNA_WIDTH_M
+	- APERTURE_DIAMETER_M
+	- APPROX_RANGE_KM
+	- BACKSCATTER_SIGMA0
+	- BANDWIDTH_HZ
+	- BEAMWIDTH_RAD
+	- CAN_EXECUTE
+	- COHERENT_INTEGRATION_TIME_S
+	- COMPONENT_CAPE
+	- COUNTRY
+	- DESCRIPTION
+	- DETECTION_SNR_DB
+	- DETECTOR_COLS
+	- DETECTOR_PITCH_UM
+	- DETECTOR_ROWS
+	- DF_ACCURACY_DG
+	- DOPPLER_BEAM_SHARPENING
+	- EFFECT
+	- ELEMENT_CAPE
+	- ELEMENT_LOADOUT
+	- ELEMENT_VARIANT
+	- EMITTER_FREQUENCY_HZ
+	- EMITTER_DGAIN_DBI
+	- EMITTER_POWER_W
+	- ENABLES_CAPE
+	- FOCAL_LENGTH_M
+	- FORMATION_CAPE
+	- FORMATION_TYPE_CAPE
+	- FREQUENCY_HZ
+	- FRQEUENCY_MAX_HZ
+	- FREQUENCY_MIN_HZ
+	- FUEL_EFF_KMPLB
+	- FUEL_LBS
+	- FUEL_TYPE
+	- HAS_COMPONENT
+	- HAS_EFFECT OR
+	- HAS_ELEMENT
+	- HAS_FORMATION
+	- HAS_SENSOR
+	- HAS_SOURCe
+	- HAS_TAC_VARIANT
+	- HEIGHT_M
+	- INCIDENCE_ANGLE_DEG
+	- INSTANCE_OF
+	- INSTANTANEOUS_BNADWIDTH_HZ
+	- INTEGRATION_TIME_S
+	- IR_SIGNATURE_W_SR
+	- IS_ALIAS
+	- IS_CLASS
+	- IS_CORE
+	- IS_INSTANCE
+	- LENGTH_M
+	- LOADOUT_COMPONENT
+	- LOOK_DOWN_CAPABILITY
+	- MAPS_TO
+	- MAX_RANGE_M
+	- MAX_SPEED_MPS
+	- MIN_ELEVATION_RAD
+	- MISSION_LOADOUT
+	- MISSION_OBJECTIVE
+	- MODE
+	- MONOPULSE_SOPE
+	- NEDT_MK
+	- NOISE_FIGURE_DB
+	- OPERATING_TEMP_K
+	- OPPOSES
+	- ORBIT_ALTITUDE_KM
+	- PLATFORM_CATEGORY
+	- POLARIZATION
+	- PRF_HZ
+	- PULSE_WIDTH_RESOLUTION_NS
+	- PULSE_WIDTH_S
+	- QUANTUM_EFFICIENCY
+	- RANGE_KM
+	- RCS_DBSM
+	- RCS_FRONT_DBSM
+	- RCS_REAR_DBSM
+	- RCS_SIDE_DBSM
+	- SENSITIVITY_DBM
+	- SPEED_KPH
+	- STD_EDMPLOYMENT_ALT
+	- SUB_FORMATION
+	- SUPPORTS
+	- SYSTEM_LOSSES_DB
+	- SYSTEM_NOISE_TEMP_K
+	- TEAM
+	- TRANSMIT_POWER_W
+	- TYPICAL_ALTITUDE_M
+	- USES
+	- VIABLE_FOR
+	- WAVELENGTH_BAND
+	- WAVELENGTH_MAX_UM
+	- WAVERLENGTH_MIN_UM
+	- WIDTH_M
+- Property Keys
+	- _debug_a
+	- _debug_b
+	- _new
+	- _oldCountry
+	- _ref
+	- _writeTouch
+	- ~id
+	- active_guided
+	- active_msn
+	- agent
+	- airborne_max_min
+	- airborne_min_min
+	- aircraft_allowed
+	- aircraft_note
+	- aliases
+	- alr
+	- alt
+	- alt_ft_max
+	- alt_ft_min
+	- alt_max_ft
+	- alt_min_ft
+	- altitude_agnostic
+	- altitude_change
+	- andy_alert_id
+	- andy_alias_id
+	- andy_legacy_category
+	- andy_legacy_label
+	- antenna_efficiency
+	- antenna_gain_dbi
+	- antenna_length_m
+	- antenna_scan_rate_deg_s
+	- antenna_width_m
+	- aperture_diameter_m
+	- applies_to_label
+	- approx_range
+	- approx_range_km
+	- asOf
+	- assumption_asw
+	- assumption_comm_datalink
+	- assumption_cyber
+	- assumption_find_fix_track
+	- assumption_nke
+	- assumption_space
+	- athena_coa_workflow_group_id
+	- athena_coa_workflow_group_name
+	- athena_draft_id
+	- athena_import_id
+	- athena_is_draft
+	- athena_is_scenario
+	- athena_laydown_id
+	- athena_laydown_name
+	- athena_root_name
+	- athena_root_source_element_id
+	- athena_scenario_id
+	- athena_source_element_id
+	- athena_source_file
+	- athena_workflow_group_id
+	- athena_workflow_group_name
+	- athena_workflow_group_scope
+	- athena_workflow_id
+	- athena_workflow_name
+	- authority_type
+	- axis_id
+	- axis_kind
+	- azimuth_separation_nm_max
+	- azimuth_separation_nm_min
+	- backscatter_sigma0
+	- bandwidth_hz
+	- barrel_roll_in_scope
+	- beamwidth_rad
+	- binary_pair
+	- boss_excluded
+	- bounding_range_nm_max
+	- bounding_range_nm_min
+	- bounds_json
+	- branch
+	- canonical
+	- category
+	- classification
+	- climb_after_airspeed_achieved
+	- climb_rate_m_s
+	- closed_form_formula_shared
+	- closure_reduction
+	- coa_workflow_group_id
+	- coa_workflow_group_name
+	- coa_workflow_group_scope
+	- code
+	- coherent_integration_time_s
+	- cold_leg_nm_max
+	- cold_leg_nm_min
+	- combat_radius_km
+	- composite_id
+	- confidence
+	- context
+	- context_notes
+	- coordination_logic
+	- coordination_required
+	- count
+	- count_agnostic
+	- country
+	- coverage_pattern
+	- created_at
+	- crew_optimization_assumed_at_runtime
+	- cruise_speed_kph
+	- cruise_speed_mach
+	- cue_offset
+	- cue_tq
+	- curated
+	- curator_notes
+	- curator_test_marker
+	- curr_capacity
+	- data
+	- default_for_5th_gen
+	- deg_max
+	- deg_min
+	- derived_by
+	- description
+	- detection_snr_db
+	- detector_cols
+	- detector_pitch_um
+	- detector_rows
+	- df_accuracy_deg
+	- dimension
+	- disputed
+	- doc
+	- domain
+	- doppler_beam_sharpening
+	- ech
+	- echelon_type
+	- emitter_frequency_hz
+	- emitter_gain_dbi
+	- emitter_power_w
+	- end_id
+	- envelope_json
+	- excluded
+	- excluded_reason
+	- explore_variants
+	- fallthrough
+	- fires_status
+	- flow_direction
+	- focal_length_m
+	- forward_responsibility_transfers
+	- frequency_hz
+	- frequency_max_hz
+	- frequency_min_hz
+	- from_altitude
+	- fstatus
+	- fuel_eff_kmplb
+	- fuel_lbs
+	- fuel_type
+	- g_to_maintain_speed
+	- gate1_aa_deg
+	- gate1_off_nose_deg
+	- gate1_range_nm
+	- gate2_aa_deg
+	- gate2_off_nose_deg
+	- gate2_range_nm
+	- gate3_aa_deg
+	- gate3_off_nose_deg
+	- gate3_range_nm
+	- gate4_aa_deg
+	- gate4_off_nose_deg
+	- gate4_range_nm
+	- generation
+	- generation_or_class
+	- generation_point
+	- generation_tendency
+	- geometric_definition
+	- geometry_dependent
+	- group_criteria_nm
+	- happy_speed_mach
+	- height_m
+	- hot
+	- hot_leg_nm_max
+	- hot_leg_nm_min
+	- hot_leg_nm_typical
+	- id
+	- import_timestamp
+	- in_flight_guidance_transfers
+	- in_scope
+	- incidence_angle_deg
+	- inferred
+	- inflight_offset
+	- inflight_tq
+	- instantaneous_bandwidth_hz
+	- integration_time_s
+	- inter_group_min_separation_nm
+	- intercept_default_type
+	- intercept_type
+	- ir_guided
+	- ir_signature_w_sr
+	- is_default_for
+	- is_primary
+	- jamming
+	- kind
+	- kinematics_in_scope
+	- labels
+	- lat
+	- lateral_offset
+	- latitude
+	- length_m
+	- level
+	- loft_ideal_deg
+	- loft_max_deg
+	- loft_min_deg
+	- lon
+	- long
+	- longitude
+	- look_down_capability
+	- lower_nm
+	- mag_depth
+	- mag_dpth
+	- marker
+	- max_altitude_ft
+	- max_capacity
+	- max_g
+	- max_length_nm
+	- max_payload_kg
+	- max_range_m
+	- max_speed_kph
+	- max_speed_mach
+	- max_speed_mps
+	- max_tracks
+	- max_width_nm
+	- mechanism
+	- min_altitude_ft
+	- min_elevation_rad
+	- min_length_nm
+	- min_speed_mach
+	- min_speed_mps
+	- min_width_nm
+	- missile_conservation
+	- missile_count_per_aircraft
+	- mission
+	- mission_id
+	- modality
+	- mode
+	- mode_correctness
+	- modeled_explicitly
+	- monopulse_slope
+	- munition_type
+	- name
+	- Name
+	- nedt_mk
+	- new_owner_action
+	- nm
+	- nm_max
+	- nm_min
+	- node_class
+	- nodes
+	- noise_figure_db
+	- norad_id
+	- note
+	- num_contacts
+	- obj_id
+	- objective
+	- operating_altitude_ft_max
+	- operating_temp_k
+	- operation_scope
+	- optimal_altitude_ft
+	- optimal_speed_mach
+	- oq_text
+	- orbit_altitude_km
+	- order
+	- ordinal
+	- ostatus
+	- pair_aircraft
+	- parent_family
+	- parked
+	- parked_question
+	- pass_aft_of_3_4
+	- permitted_fires
+	- phase_time_max
+	- phase_time_min
+	- phase1
+	- phase2
+	- pk_max
+	- pk_min
+	- pk_modifier
+	- platform
+	- platform_category
+	- platform_class
+	- platform_criteria
+	- platform_id
+	- platform_type
+	- polarization
+	- preference_note
+	- preference_rank
+	- prf_hz
+	- primary
+	- prop_key
+	- propensity
+	- properties_json
+	- property_name
+	- pulse_width_resolution_ns
+	- pulse_width_s
+	- purposes
+	- python_code
+	- qualifier
+	- quantity
+	- quantum_efficiency
+	- radar_for_edge
+	- radar_range_nm_max
+	- radar_range_nm_min
+	- radius_nm
+	- range
+	- range_km
+	- range_nm_max
+	- range_nm_min
+	- ranges
+	- rationale
+	- rcs_dbsm
+	- rcs_front_dbsm
+	- rcs_rear_dbsm
+	- rcs_side_dbsm
+	- reason
+	- reasoning_plane
+	- ref_target_rcs_m2
+	- reference_platform
+	- reform_conditions
+	- rel_type
+	- relationships
+	- retrieved_at
+	- role
+	- role_phase
+	- role_swap
+	- rotation_deg
+	- sar_bandwidth_hz
+	- saunter_bank_deg
+	- scenario
+	- scenario_role_note
+	- scope
+	- sd_url
+	- search_query
+	- seconds
+	- section
+	- seeker
+	- selection_basis
+	- selection_deterministic
+	- selection_factors
+	- selection_selection_basis
+	- semantic
+	- sensitivity_dbm
+	- sensor_type
+	- service
+	- session_id
+	- signature_band
+	- size
+	- source
+	- source_doc
+	- source_sme
+	- source_url
+	- speed_band
+	- speed_ideal_mach
+	- speed_kph
+	- speed_mach_max
+	- speed_mach_min
+	- speed_max_mach
+	- speed_min_mach
+	- speed_saunter_ideal_mach
+	- speed_saunter_max_mach
+	- speed_saunter_min_mach
+	- speed_sprint_max_mach
+	- speed_sprint_min_mach
+	- speed_tactical_ideal_mach
+	- speed_tactical_max_mach
+	- speed_tactical_min_mach
+	- speed_transit_max_mach
+	- speed_transit_min_mach
+	- standoff_nm
+	- start_id
+	- start_name
+	- status
+	- statusNote
+	- std_employment_alt
+	- step_order
+	- style
+	- sub_bands
+	- supersonic_optional
+	- support_to_active
+	- sustained_turn_deg_s
+	- synonyms
+	- system_losses_db
+	- system_noise_temp_k
+	- tactical_context
+	- team
+	- terminal_offset
+	- terminal_tq
+	- test_marker
+	- tier
+	- timeline_lower_nm
+	- timeline_upper_nm
+	- tle
+	- tle_line_0
+	- tle_line_1
+	- tle_line_2
+	- to_altitude
+	- tq__reg
+	- tq_req
+	- trail_length_nm_max
+	- trail_length_nm_min
+	- transfers_on_swap
+	- transmit_power_w
+	- trigger
+	- tsd_url
+	- turn_consumes_nm
+	- turn_power_setting
+	- turnaround_hr
+	- two_phase
+	- two_phase_amraam
+	- type
+	- type_id
+	- typical_altitude_m
+	- unit_count
+	- units
+	- updated_at
+	- upper_nm
+	- uuid
+	- v3_origin
+	- value
+	- value_label
+	- value_origin
+	- value_set
+	- version
+	- vertical
+	- vertical_block_3_5
+	- vertical_turn_modeling
+	- via
+	- visualisation
+	- wavelength_band
+	- wavelength_max_um
+	- wavelength_min_um
+	- weapon_id
+	- weapon_summary
+	- weapon_type
+	- weight
+	- weight_source
+	- width_m
+	- width_nm_max
+	- width_nm_min
+	- worked_example
+	- workflow_group_id
+	- workflow_group_name
+	- workflow_group_scope
+	- workflow_id
+	- x_pos
+	- y_pos
+
+
+
+
+
+
+
+Things to get access to:
+- Sharepoint
+    - I don't know, yet. 
+- Rippling
+    - Personal email received an account creation link from <no-reply@rippling.com>. You'll have to fill in personal information (contact information, passport/ID data, tax withholdings) and then complete a number of training modules.
+- Gmail
+    - Personal email received an email address and a temporary password from a <no-reply@rippling.com> address.
+    - Your Gmail email/login is what's used for SSO for various things at Smack, not your outlook.
+- Outlook
+    - Personal email received a login link leading to a temporary password from <david.fletcher@sentinelblue.com>
+    - Your Outlook is what actually receives emails sent to myaddress@smacktechnologies.com, and is where you'll likely mange your calendar.
+- Gitlab
+    - Message Stewart (Stew) Alpert to be added to the Gitlab organization, which will result in an invite set to your Outlook inbox.
+- Slack
+    - Ask anyone to send you a Slack invite, which will arrive to your Outlook inbox.
+    - Make sure to use the "Browse Channel" feature to add enough channels to give you a broad understanding of the work going on at Smack.
+- Ramp
+    - I received an invite to create a Ramp acccount for Smack Technoologies in my Outlook inbox that was set to expire on the second day. 
+    - It didn't seem to me like I was able to do the suggested "Mailbox, Receipts from your work inbox" integration s.t. receipts in my inbox are automatically ingested to Ramp, but I was able to download the Chrome extension of course 😁. Add phone 2FA if you'd like, after SMS verification code.
+- Door access, parking pass
+    - If you're in the El Segundo office, talk to Trevor about getting a 4-digit door code (Enter as "XXXX#") and a parking pass. The latter requires that you have outlook access, as it involves an email being sent to you, you filling out a PDF, and sending it back to Trevor.
+- Codex/LLM Access
+    - ...
+- Remember to elect for your insurance benefits in Rippling.
+- Get invited to the Neo4j Aura organization (Coogan; will result in an email being sent to your outlook, accept it), then get invited to the "System Ontology" Project inside Aura. Smack Neo Dev is our development one.
+
+
+
 
 Smackronyms and Terms of Art:
 - OOB: Order of Battle

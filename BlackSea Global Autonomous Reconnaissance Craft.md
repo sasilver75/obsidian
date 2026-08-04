@@ -7,6 +7,7 @@ aliases:
 References:
 - [Video: GARC: The Most Proven Tactical USV](https://www.youtube.com/watch?v=KUKu0vGH_3k)
 - [Video: Naval News: New Armed Drone Boats: BlackSea COMET and GARC](https://www.youtube.com/watch?v=m8mFf34xjtg&pp=0gcJCZkLAYcqIYzv)
+- [Video: GARC Delivers 500 pounds of Cargo to US Navy EPF](https://youtu.be/GV3lRhRiAvc?si=iRBZeyjA6TF4K2vm)
 
 https://www.blacksea.tech/garc
 

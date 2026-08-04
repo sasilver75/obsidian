@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secretary of Defense.md",
+                "file": "Air Expeditionary Wing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Secretary of Defense"
+              "title": "Air Expeditionary Wing"
             }
           },
           {
-            "id": "bf80a53554645d43",
+            "id": "38a4da65d3857e3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Family of Affordable Mass Munitions Program.md",
+                "file": "Expeditionary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,179 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Family of Affordable Mass Munitions Program"
-            }
-          },
-          {
-            "id": "e617ef6b95c60d05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Low-Cost Containerized Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Low-Cost Containerized Missile"
-            }
-          },
-          {
-            "id": "308fcc52f8c6a49a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3D Printing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3D Printing"
-            }
-          },
-          {
-            "id": "c39c6de9ac057876",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Missile Guidance.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Missile Guidance"
-            }
-          },
-          {
-            "id": "2ac622a638393c47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PDW AI.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PDW AI"
-            }
-          },
-          {
-            "id": "3cae6dfe0f5ca3ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Federal Contract Information.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Federal Contract Information"
-            }
-          },
-          {
-            "id": "7e38c031142de0ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States House Committee on Appropriations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States House Committee on Appropriations"
-            }
-          },
-          {
-            "id": "1c5812804f3caa76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "United States House Committee on Armed Services.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "United States House Committee on Armed Services"
+              "title": "Expeditionary"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,7 +75,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -2387,8 +2219,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -2450,48 +2282,47 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "2ac622a638393c47",
+  "active": "38a4da65d3857e3e",
   "lastOpenFiles": [
-    "PDW AI.md",
-    "Missile Guidance.md",
-    "_attachments/Pasted image 20260731004318.png",
-    "Planning, Programming, Budgeting, and Execution.md",
-    "Short-Range Ballistic Missile.md",
-    "Medium-Range Ballistic Missile.md",
-    "FP-5 Flamingo.md",
-    "_attachments/Pasted image 20260730224615.png",
-    "_attachments/Pasted image 20260730224146.png",
-    "_attachments/Pasted image 20260730224108.png",
-    "United States Air Force.md",
-    "Numbered Air Force.md",
-    "Major Command.md",
-    "Portfolio Acquisition Executive.md",
-    "XQ-58 Valkyrie.md",
-    "Long-Range Hypersonic Weapon.md",
-    "_attachments/Pasted image 20260730195749.png",
-    "Cybersecurity Maturity Model Certification.md",
-    "Controlled Unclassified Information.md",
-    "Federal Contract Information.md",
-    "Air Force Research Lab.md",
-    "Analysis and Control Element.md",
-    "United States Senate Committee on Appropriations.md",
-    "United States House Committee on Appropriations.md",
-    "United States House Committee on Armed Services.md",
-    "3D Printing.md",
-    "Low-Cost Containerized Missile.md",
-    "Family of Affordable Mass Munitions Program.md",
+    "Expeditionary.md",
+    "Air Expeditionary Wing.md",
     "Secretary of Defense.md",
-    "GHOST.md",
-    "_attachments/Pasted image 20260729222533.png",
-    "Coalition Heterogenous Affordable Offensive Strike Program.md",
-    "_attachments/Pasted image 20260729102809.png",
-    "_attachments/Pasted image 20260729100758.png",
-    "_attachments/Pasted image 20260728183415.png",
-    "_attachments/Pasted image 20260728183401.png",
+    "Family of Affordable Mass Munitions Program.md",
+    "Low-Cost Containerized Missile.md",
+    "3D Printing.md",
+    "Office of Strategic Capital.md",
+    "Defense Contractor.md",
+    "Overland AI.md",
+    "Target Acquisition Radar.md",
+    "Ground-Based Air Defense.md",
+    "International Tribunal for the Law of the Sea.md",
+    "International Seabed Authority.md",
+    "Forward Arming and Refueling Point.md",
+    "conflict-files-obsidian-git.md",
+    "Integrated Combat Turn.md",
+    "Epirus.md",
+    "Fire-Control Radar.md",
+    "Zumwalt-Class Destroyer.md",
+    "United Nations Convention on the Law of the Sea.md",
+    "_attachments/Pasted image 20260802091156.png",
+    "_attachments/Pasted image 20260802091054.png",
+    "Anti-Satellite Weapon.md",
+    "Find, Fix, Finish, Exploit, Analyze, Dissmeinate.md",
+    "Textron Systems.md",
+    "_attachments/Pasted image 20260801224054.png",
+    "BlackSea Global Autonomous Reconnaissance Craft.md",
+    "FIM-92 Stinger.md",
+    "Missile Guidance.md",
+    "_attachments/Pasted image 20260731215031.png",
+    "_attachments/Pasted image 20260731200926.png",
+    "_attachments/Pasted image 20260731135914.png",
+    "_attachments/Pasted image 20260731132157.png",
+    "_attachments/Pasted image 20260731100645.png",
+    "_attachments/Pasted image 20260731100641.png",
+    "_attachments/Pasted image 20260731004318.png",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",

@@ -7,6 +7,10 @@ aliases:
   - VAMPIRE BAT
   - VAMPIRE Killcode
 ---
+References:
+- https://www.youtube.com/watch?v=3uaKZbMjXek Unprocessed
+
+
 https://www.l3harris.com/all-capabilities/vampire
 VAMPIRE = "Vehicle Agnostic Modular Palletized ISR Rocket Equipment"
 

@@ -1,0 +1,1 @@
+A term that means that something is organized/developed to deploy and operate away from a unit's normal home station, often with limited local infrastructure.
