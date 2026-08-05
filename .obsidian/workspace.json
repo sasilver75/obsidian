@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Air Expeditionary Wing.md",
+                "file": "Coyote.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Air Expeditionary Wing"
-            }
-          },
-          {
-            "id": "38a4da65d3857e3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Expeditionary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Expeditionary"
+              "title": "Coyote"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2285,8 +2260,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38a4da65d3857e3e",
+  "active": "7b38037bc89fec96",
   "lastOpenFiles": [
+    "_attachments/Pasted image 20260805171922.png",
+    "Perennial Autonomy Merops.md",
+    "Air Expeditionary Wing.md",
+    "BlackSea Global Autonomous Reconnaissance Craft.md",
+    "Expeditionary.md",
     "_attachments/Pasted image 20260803145948.png",
     "_attachments/Pasted image 20260803145816.png",
     "_attachments/Pasted image 20260803145801.png",
@@ -2297,7 +2277,6 @@
     "_attachments/Pasted image 20260803144351.png",
     "_attachments/Pasted image 20260803093746.png",
     "_attachments/Pasted image 20260803093732.png",
-    "_attachments/Pasted image 20260803093724.png",
     "United States Military Standard.md",
     "Track Quality.md",
     "NATO Friendly Force Information.md",
@@ -2310,8 +2289,6 @@
     "Defense Information Systems Agency.md",
     "Data Fusion.md",
     "Anduril Barracuda.md",
-    "Expeditionary.md",
-    "Air Expeditionary Wing.md",
     "Secretary of Defense.md",
     "Family of Affordable Mass Munitions Program.md",
     "Low-Cost Containerized Missile.md",
@@ -2321,8 +2298,6 @@
     "Overland AI.md",
     "Target Acquisition Radar.md",
     "Ground-Based Air Defense.md",
-    "International Tribunal for the Law of the Sea.md",
-    "International Seabed Authority.md",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",

@@ -1,3 +1,4 @@
+
 References:
 - [Video: Task and Purpose: The Coyote: This $100K drone is outgunning $2M missiles](https://youtu.be/nPMqgVFNMTQ?si=s1TG64KRE6Xy4YGW)
 
@@ -25,6 +26,8 @@ Despite the exploding stuff, it's meant for aerial targets ([[Group 1 UAS|Group 
 - Not intended for ground targets, can't return if they blow up.
 - 170+ drone kills (8 mo ago)
 - ==$100k/unit== ((Seems much worse than something like an [[Advanced Precision Kill Weapon System|APKWS II]])), bu still 24x cheapere than an [[RIM-66C SM-2MR|SM-2R]]
+![[Pasted image 20260805171922.png]]
+
 
 
 ![[Pasted image 20260716150042.png]]

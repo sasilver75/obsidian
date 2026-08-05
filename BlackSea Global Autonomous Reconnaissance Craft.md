@@ -8,6 +8,7 @@ References:
 - [Video: GARC: The Most Proven Tactical USV](https://www.youtube.com/watch?v=KUKu0vGH_3k)
 - [Video: Naval News: New Armed Drone Boats: BlackSea COMET and GARC](https://www.youtube.com/watch?v=m8mFf34xjtg&pp=0gcJCZkLAYcqIYzv)
 - [Video: GARC Delivers 500 pounds of Cargo to US Navy EPF](https://youtu.be/GV3lRhRiAvc?si=iRBZeyjA6TF4K2vm)
+- [Video: First GARC kamikaze strike on USS Peleliu in RIMPAC 2026 SINKEX](https://www.youtube.com/watch?v=QcZqVHR73-Y)
 
 https://www.blacksea.tech/garc
 
