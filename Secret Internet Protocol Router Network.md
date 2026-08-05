@@ -9,6 +9,9 @@ A secure, private network used by the US [[Department of Defense|DoD]] and Depar
 
 
 
+> "SIPR Station" being used to refer to a computer/terminal that can access SIPRNet, it seems.
+
+
 
 
 

@@ -129,7 +129,7 @@ Aircraft Designators
 - [[E-2D Advanced Hawkeye]]: Carrier-based airborne early-warning and command-and-control aircraft that uses a powerful radar to detect threats and coordinate naval air operations.
 - [[E-2C Hawkeye]]: Previous-generation carrier-based airborne early-warning and command-and-control aircraft being replaced by the E-2D.
 - [[E-6B Mercury]]: Strategic communications and airborne command-post aircraft that connects national leaders with US nuclear forces and can direct nuclear operations if required.
-- [[P-8A Poseidon]]: Land-based maritime patrol aircraft used for anti-submarine warfare, anti-surface warfare, intelligence collection, surveillance, and reconnaissance.
+- [[P-8 Poseidon]]: Land-based maritime patrol aircraft used for anti-submarine warfare, anti-surface warfare, intelligence collection, surveillance, and reconnaissance.
 - [[MQ-4C Triton]]: High-altitude long-endurance uncrewed aircraft that provides persistent broad-area maritime surveillance and complements the P-8A.
 - [[C-2A Greyhound]]: Legacy carrier-onboard-delivery aircraft used to carry personnel, mail, and high-priority cargo between shore bases and aircraft carriers.
 - [[CV-22 Osprey|CMV-22B]] Osprey: Navy tiltrotor aircraft replacing the C-2A for carrier-onboard delivery, including transport of personnel, cargo, and F-35 engine modules.
