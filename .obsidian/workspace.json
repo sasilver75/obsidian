@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Revolution in Military Affairs.md",
+                "file": "Defense Advanced Research Projects Agency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Revolution in Military Affairs"
+              "title": "Defense Advanced Research Projects Agency"
+            }
+          },
+          {
+            "id": "9e4d270b0c368b98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Heilmeier Catechism.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Heilmeier Catechism"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2260,10 +2285,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b38037bc89fec96",
+  "active": "9e4d270b0c368b98",
   "lastOpenFiles": [
-    "Turning.md",
+    "Heilmeier Catechism.md",
     "Defense Advanced Research Projects Agency.md",
+    "Revolution in Military Affairs.md",
+    "Turning.md",
     "Anduril.md",
     "Weapon Engagement Zone.md",
     "_attachments/Pasted image 20260806002333.png",
@@ -2296,8 +2323,6 @@
     "Defense Information Systems Agency.md",
     "Data Fusion.md",
     "Anduril Barracuda.md",
-    "Secretary of Defense.md",
-    "Family of Affordable Mass Munitions Program.md",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
