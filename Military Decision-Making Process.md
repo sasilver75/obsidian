@@ -2,6 +2,8 @@
 aliases:
   - MDMP
 ---
+https://youtu.be/z6-vQI--EJk?si=QnJSQuK6xFBN3BT9 UNPROCESSED BUT GOLD, also see the description for more resources
+
 The [[United States Army|Army]]'s structured, seven-step analytical planning methodology used by commanders and staff to understand a situation, develop potential [[Course of Action]]s (COAs), and produce executional [[Operational Plan]]s (OPLANs) and [[Operational Order]]s (OPORDs).
 
 
