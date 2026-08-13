@@ -2,6 +2,8 @@
 aliases:
   - WEZ
 ---
+Pron. "Wezz" like "Fezz" the hat
+
 A defined airspace or geographic area where a specific weapon system is responsible for engaging and destroying threats.
 
 The physical envelope defining a weapon's maximum range, minimum range, and altitude limits where a missile or projectile can track and intercept a target.
@@ -13,5 +15,8 @@ Can be designated as a JEZ (Joint Engagement Zone) when multiple defense systems
 A subset of WEZ is a [[Missile Engagement Zone]] (MEZ), which is just a WEZ that strictly applies to a [[Surface-to-Air Missile|SAM]] system.
 
 
+![[Pasted image 20260806002333.png]]
 
+![[Pasted image 20260806002329.png]]
+These help determine the WEZ
 

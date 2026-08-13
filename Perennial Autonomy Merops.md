@@ -6,6 +6,8 @@ aliases:
 References:
 - Blog: Business Insider: 
 
+Pron. "Meer-Ops"
+
 From [[Perennial Autonomy]]
 
 A three-foot fixed-wing propeller-driven ==interceptor== from a truck-portable launcher at speeds up to 175 miles per hour, with an operational range of 3-12 miles.
