@@ -11,13 +11,52 @@
             "id": "29cbe107af740143",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Smack/Smack Onboarding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Smack Onboarding"
+            }
+          },
+          {
+            "id": "c3517bca8a3c8d8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 11.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 11"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,16 +107,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "818d817a2320da72",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
             }
           }
         ],
@@ -226,15 +255,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29cbe107af740143",
+  "active": "c3517bca8a3c8d8e",
   "lastOpenFiles": [
+    "Smack/Smack Onboarding.md",
+    "Untitled 11.md",
     "_attachments/Pasted image 20260806002333.png",
     "_attachments/Pasted image 20260806002329.png",
     "_attachments/Pasted image 20260805171922.png",
     "Heilmeier Catechism.md",
     "AGENTS.md",
     "Development Seed.md",
-    "Smack/Smack Onboarding.md",
     "Grafana Loki.md",
     "Grafana Mimir.md",
     "Grafana Tempo.md",
@@ -263,7 +293,6 @@
     "_attachments/Pasted image 20260806133036.png",
     "_attachments/Pasted image 20260806122414.png",
     "_attachments/Pasted image 20260806122343.png",
-    "_attachments/Pasted image 20260806122316.png",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
