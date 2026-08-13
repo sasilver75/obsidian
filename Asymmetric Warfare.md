@@ -1,3 +1,9 @@
+---
+aliases:
+  - AW
+---
+
+
 https://en.wikipedia.org/wiki/Asymmetric_warfare
 
 A form of conflict between opponents with unequal or fundamentally different capabilities, where one side avoids matching the other directly and instead uses strategies, tactics, technologies, or targets that exploit the opponent's weaknesses.

@@ -6,5 +6,7 @@ Issued directly alongside an [[Air Tasking Order]] to define, restrict, and map 
 
 Where friendly aircraft should and should not go.
 
+Implements the [[Airspace Control Plan]] (ACP), activating specific [[Airspace Coordinating Measure]]s (ACMs) and procedural rules.
+
 
 

@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "/_attachments",
   "promptDelete": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showLineNumber": false
 }

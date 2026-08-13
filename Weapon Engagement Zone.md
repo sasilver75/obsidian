@@ -8,6 +8,10 @@ The physical envelope defining a weapon's maximum range, minimum range, and alti
 
 The inner subsection of a WEZ where a target cannot outmaneuver or outrun the incoming weapon using standard kinematic performance is called the [[No-Escape Zone]] (NEZ).
 
+Can be designated as a JEZ (Joint Engagement Zone) when multiple defense systems (e.g. fighters and missile batteries) operate simultaneously in teh same airspace.
+
+A subset of WEZ is a [[Missile Engagement Zone]] (MEZ), which is just a WEZ that strictly applies to a [[Surface-to-Air Missile|SAM]] system.
+
 
 
 

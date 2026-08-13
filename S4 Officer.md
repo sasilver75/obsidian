@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Logistics and Supply Officer
   - S-4
 ---
 A primary staff member in military units ([[Battalion]] level and above) responsible for supply chain management, maintenance, and overall logistical support.

@@ -1,4 +1,5 @@
 ---
 aliases:
   - AEW&C
+  - AEW
 ---

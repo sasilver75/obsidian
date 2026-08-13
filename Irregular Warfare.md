@@ -1,3 +1,9 @@
+---
+aliases:
+  - IW
+---
+
+
 References:
 - [Irregular Warfare Podcast: Iran, Ukraine, and the Future of Naval Warfare](https://youtu.be/uYYG9v8OvDQ?si=Ab1zeu7wqJDw_n8j)
 

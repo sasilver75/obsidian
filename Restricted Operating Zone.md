@@ -1,6 +1,8 @@
 ---
 aliases:
   - ROZ
+  - Restricted Operating Area
+  - ROA
 ---
 
 Gives the ability to deconflict air and ground assets without relying on a [[Fire Support Coordination Line|FSCL]] of battle to prevent friendly fire. Rather than a linear battle that commences and proceeds at an uncertain pace, ROZ operations utilize the element of surprise to open a column  of battlespace for a predetermined length of time, conduct operations in that battlespace, and collapse it as the mission concludes.

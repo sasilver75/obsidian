@@ -1,8 +1,13 @@
 ---
 aliases:
   - DIME
+  - DIMEFIL
+  - MIDFIELD
+  - PESTEL
+  - Instruments of Power
+  - IOP
 ---
-==DIME== describes key elements of national power:
+==DIME== describes key elements of national power (referred to as Instruments of Power (IOP)):
 - Diplomacy
 - Information
 - Military

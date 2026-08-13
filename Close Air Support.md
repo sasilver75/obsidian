@@ -16,6 +16,9 @@ aliases:
 5. ==Remarks/Restrictions==: Critical safety measures, hazards, or final attack restrictions.
 
 
+A ==Wheel== in the context of CAS (or "wheel orbit/wagon wheel") is the circular/elliptical holding pattern flown by support aircraft around a target area. It provides a constant, unbroken visual and sensor observation of the battlefield, while waiting to execute strikes.
+
+
 
 
 

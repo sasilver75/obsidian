@@ -8,7 +8,7 @@ References:
 
 [[Defensive Counter-Air]] (DCA): We mean a defensive line of airborne guards defending the rest of our forces; could mean escorting high-value assets like tankers or [[E-3 Sentry|AWACS]] or being an umbrella over troops/civilians on the ground, or being a line of protection on a border.
 
-The CAP can hang out in orbit near a fixed point in the air, or it can be ground-alert fighters sitting on an airfield for a call to intercept a target (saves fuel, worse response time). An airborne CAP will always respond faster than a ground-alert fighter. Typically continuously manned by a flight of fighters in 3 hour shifts. USAF requires a 12-hour rest opportunity between flight duty periods with a maximum of 12 hours in each flight duty period... this means that you might need 32 pilots and their planes to cover a 4-aircraft CAP station for 24 hours a day. 
+The CAP can hang out in orbit near a fixed point in the air, or it can be ground-alert fighters sitting on an airfield for a call to intercept a target (saves fuel, worse response time). An airborne CAP will always respond faster than a ground-alert fighter. Typically continuously manned by a flight of fighters in 3 hour shifts. USAF requires a 12-hour rest opportunity between flight duty periods with a maximum of 12 hours in each flight duty period... this means that you might need 32 pilots and their planes to cover a 4-aircraft CAP ==station== for 24 hours a day. 
 
 The time period that a CAP patrol is expected to be on station is known as the ==Vulnerability Window==, or "Vul" for short; this is the time on-station; planning, debriefing, and transit to station don't count. 
 
