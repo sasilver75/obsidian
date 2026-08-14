@@ -1,0 +1,5 @@
+---
+aliases:
+  - UXS
+  - Unmanned System
+---

@@ -1,11 +1,11 @@
 ---
 aliases:
   - South Sea
-  - Southern SEa
   - Sea of Cham
   - Champa Sea
   - West Philippine Sea
   - Philippine Sea
+  - Southern Sea
 ---
 
 

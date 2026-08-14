@@ -28,7 +28,7 @@ The most common ephemeris format is a ==TLE (Two-Line Element Set)==, a compact 
   1 25544U 98067A   24001.50000000  .00001234  00000-0  12345-4 0  9990           
   2 25544  51.6400 123.4567 0001234  12.3456 347.6543 15.49815933123456
 ```
-Encodes: [[Inclination]], RAAN, eccentricity, argument of perigee, mean anomaly, mean motion, giving you everything you need to propagate the orbit. ==SGP4== (Simplified General Perturbations 4) is the algorithm (propagator) used to compute a satellite future position/velocity from those elements.
+Encodes: [[Inclination]], [[Right Ascension of the Ascending Node|RAAN]], [[Eccentricity]], [[Argument of Periapsis|Argument of Perigee]], [[Mean Anomaly]], [[Mean Motion]], giving you everything you need to propagate the orbit. ==SGP4== (Simplified General Perturbations 4) is the algorithm (propagator) used to compute a satellite future position/velocity from those elements.
 
 
 # Precise vs Broadcast Ephemeris

@@ -4,7 +4,7 @@ aliases:
 ---
 https://en.wikipedia.org/wiki/United_Nations_Convention_on_the_Law_of_the_Sea
 
-International treaty defining world ocean zones, resource rights, and navigational rules signed in 1982, entering into force in 1994. Goals are resource management, environmental protection, and dispute resolutions (providing legal bodies like the [[International Tribunal for the Law of the Sea]] to solve sea-related disagreements.)
+International treaty defining world ocean zones, resource rights, and navigational rules signed in ==1982==, entering into force in ==1994==. Goals are resource management, environmental protection, and dispute resolutions (providing legal bodies like the [[International Tribunal for the Law of the Sea]] to solve sea-related disagreements.)
 - Also established the [[International Seabed Authority]]
 
 Defines, among others:

@@ -1,10 +1,179 @@
 
 
-Smack Onboarding
 
+Smack Onboarding
+https://docs.google.com/document/d/1Fzbh1A7PPNGBdXgIOGKSgT_NwOjI7A7wCRCHwug5UAQ/edit?tab=t.0
+https://app.notion.com/p/Services-Overview-3a049a4b13a780dfb4e6c013d907ec90
+
+Services:
+- Data Integration Layer
+	- ==Maestro== (API Gateway): A key piece of tech debt that we currently have is that we have one service acting as both our ==API gateway== as well as doing a lot of the ==data integration== work (fanning out, composing responses, etc) on its own, which makes it span both the application layer and data integration layer, creating a slightly bloated service that is harder to reason about and debug. In the future, it will be split into two services, on focused on handling the semantics of GraphQL requests for UI code, and the other primarily focused on data orchestration for the API gateway.
+		- ((Combines GraphQL Yoga (a GraphQL Server) with Pothos (a GraphQL schema builder)))
+	- ==Hopper== (Track Ingest): The service responsible for ==ingesting external track feeds into Omega==. Today, Hopper primarily pulls track data served to us by `weaponeering.network` servers. In that role, it acts as a bridge between externally-produced track data and the rest of the Omega data integration layer, normalizing track information so that downstream services/UIs can reason about platform positions without needing to understand the details of the original feed source.
+		- ((weaponeering.network is the DNS hostname of Hopper's current upstream track-feed server. It doesn't establish who owns or operates the domain... It doesn't seem that there's a companion track-feed server here.))
+		- In the future, different customers may expose track data through different protocols, schemas, update frequencies, and reliability assumptions. Hopper will therefore need to support configurable ingestion paths that can adapt customer-specific track feeds into Omega's internal representation.
+		- Should also be able to provide operational semantics about feed health (stale, degraded, disconnected), giving the application layer enough information to warn users when displayed track data might no longer be current.
+	- ==Simple== (as used for COP simulation): A ==simulation service== with general capabilities for ==storing and replaying scenarios==.
+		- In current Omega, Simple is primarily used as a stand-in for a COP provider in some product demos.
+			- In the JADO ISR tasking work built for the [[Joint Fires Network|JFN]] contract, Simple is used to play out track locations over time following a hardcoded script.
+			- These tracks are then consumed by the UI as though they were coming from a live operational feed.
+			- This is useful for demonstrations, but this use of Simple overlaps with the future responsibility we expect Hopper to take on around track replay.
+			- Once Hopper supports replaying canned track data, we'll likely move this COP-simulation behavior out of Simple and into Hopper, at which point Simple can either be used as a pure simulation service for other purposes (e.g. RL?) or be deprecated if those use cases are better handled elsewhere.
+	- ==Athena== (KG Projections): Provides ***==mutable==*** ==subgraph projections== (copies) from the immutable Smack ==knowledge graph==.
+		- The KG is intended to be a comprehensive cross-customer store of data about platforms, loadouts, capabilities, performance statistics, and other structured domain knowledge used across Smack products.
+		- Products should not generally mutate the KG directly; the data in that master layout is the trusted baseline across customers and product experiences..
+		- If an operator, planner, or product workflow needs to experiment with changed platform positions, modified capabilities, adjusted loadouts, or other scenario-specific assumptions, those changes should not be written back into the *canonical* KG in a way that affects other users.
+		- Athena exists to support this separation: It creates mutable projections (copies) of relevant subgraphs. Product experiences can then operate against those projections, allowing users to tweak requirements and scenario assumptions without changing the canonical data maintained in the master layer.
+		- This lets Omega preserve that KG as a durable source of shared domain truth while still enabling interactive planning workflows that require temporary customer-specific/mission-specific/user-specific modifications.
+		- A Go/gRPC service providing mutable subgraph "projections" of the immutable Neo4j KG...
+- Data Stores
+	- ==Postgres==: Our primary relational store, and, increasingly, its general-purpose structured data store.... Instead of running a separate database engine per concern, Omega runs a single PG deployment that hosts several logically-distinct databases , each owned by a different part of the system.
+		- The main app database holds the bulk of operational product data; tracks, missions, plans, OOB, platforms, units, sensor and effector types, geometry collections, and various workflow records that the application layer reads and writes.
+		- ==Maestro== is the primary owner of the schema, managing it through Drizzle migrations alongside an Ent-managed schema seeded from `shuffle`. Other services like `sisrs`, `simple`, `hopper`, and `herald` also read (and sometimes write) for the slices of data they own.
+			- ((Drizzle is like a Typescript ORM and migration toolkit used by Maestro;  Ent is a Go ORM and schema generator used by Shuffle, Shuffle is an internal Go schema-generation utility... historically it defined the core data model using Ent, imported reference data from Google Sheets, populated that model in Postgres, produced SQL dumps... this explains "Ent-managed schema seeded from Shuffle", but it's now somewhat stale.))
+			- ((It seems like each service "owns" its own Postgres databases in the deployment: `smackdb` is owned by Maestro, `temopral` and `temporal_visibility` are used by Temporal, `spicy` and `saucy` are owned by their respective authn and authz services, and `ragdb` is owned by Ragnarok, managed by SQLAlchemy.))
+				- ((In `smackdb` there are two relevant schemas;
+					- `public`: Operational/product tables, managed through Maestro's Drizzle definitions and migrations
+					- `core`: Shared reference/catalog tables: platform types, platform instances, units, sensor types, effector types, countries, etc.))
+		- ==Looking further out, we MIGHT move from the shared-databse model towards one where each microservice owns its own database inside the same Postgres deployment, holding only the data that it's authoritative for.== This would make the ownership boundaries more clear for which service is the source of truth for each kind of data, removing the implicit coupling created when many services share one schema... at the cost of more data integration work.
+		- Authn and Authz keep their own separate database so that identity and permission data is isolated from product data, and Temporal keeps its own database for workflow state.
+		- The "vector" half of this datastore comes from the `pgvector` extension, which lets us store/query embeddings inside the same Postgres deployment, rather than standing up a dedicated vector database. this is used today by `ragnarok`, which chunks documents, generates embeddings via `rosetta`, and stores them for later cosine-similarity search. Keeping vectors in PG fits the air-gapped readiness and minimal-footprint principles: it is one fewer piece of infra to deploy and secure in a customer environment.
+	- ==Neo4j==
+		- Hosts the ==smack knowledge graph==, the comprehensive cross-customer store of structure domain knowledge about platforms, loadouts, capabilities, performance statistics, doctrine, and the relationships between them that is used across Smack products. The master KG is treated as an immutable, trusted baseline maintained by Smack DS teams, with `athena` providing mutable subgraph projections so that products can experiment without mutating canonical data.
+			- Several services reach out to Neo4j over the `Bolt` protocol...
+				- `aegis` queries it for graph-backed AI features like [[Course of Action|COA]] generation and weaponeering
+				- `smack-sensors` reads sensor and platform specifications from it
+				- Where a workflow needs scenario-scoped or user-scoped overlays rather than the canonical graph, those reads are expected to route through `athena` rather than hitting Neo4j directly.
+			- Because Neo4j is a single logical source of domain truth, it's one o the dat stores that has to be pre-loaded for air-gapped deployments. ==A graph dump is exported from a connected environment and imported into the customer's in-cluster Neo4j instance at deploy time.==
+		- Looking ahead, we might move off Neo4j to a different graph database provider... to keep that option open, the near-term direction is to funnel direct graph interactions through `athena` rather than having services like `aegis` and `smack-sensors` open their own Bolt connections to Neo4j.
+			- Concentrating graph access behind `athena` means that a future swap to the underlying graph engine would be largely contained to Athena's implementation, instead of requiring coordinated changes across every service that talks to the graph today.
+	- ==Iris== (Object Storage) 
+		- The platform's ==blob/object storage gateway==, giving every service a consistent way to read/write large unstructured artifacts (files, docs, model checkpoints, and similar) without each service needing to know where those bytes physically live.
+		- This directly serves the customer-portability and air-gapped readiness principles: It prevents a single storage interface, but is backed by a pluggable provider underneath (e.g. [[Amazon S3|S3]] if we're deploying into AWS, [[Azure Blob Storage]] if deployed in to Azure, and a "native" [[MinIO]]-compatible object store for a fully air-gapped or on-prem deployment.)
+		- Historically, service reached out to S3 directly, which baked specific cloud providers into individual services.  Iris centralizes that integration point.
+	- ==Redis== (Cache Storage)
+		- Used as an ephemeral fast-access scratch storage, rather than as a source of truth. 
+		- Its primary role today is as an ==artifact handoff store== between [[Temporal]] workflows and their callers.
+			- Some workflows produce results that are too large to pass back through Temporal and gRPC ans inline payloads, like precomputed inputs and intermediate artifacts generated by JFN optimization in `aegis`, or the solve artifacts produced by `monsoon`.
+				- Here, instead of producing the whole payload, the producing activity writes ti to Redis under a key and returns a small reference (the artifact store, key, and payload format), then the caller fetches the full payload from Redis by that key.
+- Model Layer
+	- SISRS (==Legacy== ISR TAsking Model)
+		- The original ISR Tasking model server... responsible for ISR collection-plan scheduling: Given a compiled snapshot of the mission, available assets, and constraints, produces a concrete collection plan that assigns assets to collection windows.
+		- Mechanically, it builds a mathematical optimization model (constraints and objectivdes derived from the snsapshot), and solves it with [[Gurobi]], using either a local or remote solver. It reads supporting platform/scenario data from Postgres as part of assembling the problem.
+			- Also supports "repairing" an existing plan when the conditions change, which is what backs the deviation-handling behavior surfaced in the UI.
+		- ==Legacy== because ti represents the earlier, optimization-only approach to ISR tasking that predates the newer work in `aegis/wizard` and `argus`.
+			- Still serves the JADO ISR tasking flows it was built for, but new tasking capabilities are incerasingly being built around the other model-layer services rather than by extending sisrs.
+	- ==Aegis== (Weaponeering and ISR tasking model)
+		- The platform's ==AI orchestration service==, and within the model layer it's where LLM-backed planning work (notably weaponeering and [[Course of Action|COA]] generation) actually runs.
+			- Blends LLM reasoning with graph queries and solver calls to produce richer, more deliberative planning products.
+			- Runs a synchronous gRPC/HTTP surface for chat-style and request-response interactions, and a large family of Temporal workers for the long-running agent workflows that shouldn't block a request.
+				- These span COA generation and wargaming, weaponeering and target/FST extraction, planning-factor agent steps, dashboard generation, and several supporting flows.
+				- Draws on 
+					- LLM providers through `rosetta`, 
+					- The Knowledge graph (via Neo4j and `athena`)
+					- Gurobi solver for the optimization portions of weaponeering.
+		- Because `aegis` has organizcally grown to host many distinct agent families and model capabilities, it's been a frqeuent target of the modularity principle described above: capabilities are split into their own services as they mature.
+			- ==Two extractions are currently in-flight (maybe complete)==, Each gated behind a [[Feature Flag]] so that the work can be cut over cleanly:
+				- The ==SAGE== deliberate planning work is being carved into `herald`
+				- Weaponeering/ISR optimization model being cared into `wizard`
+			- ((So what will be left afterwards in Aegis, if anything?))
+	- ==Herald== (LLM deliberate-time-horizon planning)
+		- Hosts the platform's ==`SAGE`== deliberate-planning capability... The ==LLM-driven generation and execution of multi-stage plans== on a deliberate, rather than real-time, planning horizon... along with the Smack-owned MCP tools that those agent uses.
+			- The Retrieval/RAG tools being the exception as they live in `ragnarok`.
+		- A SAGE run has two phases, both implemented as Temporal workflows:
+			1. A plan-generation workflow uses an LLM to compile a structured, multi-stage plan.
+			2. An execution workflow walks that plan stage by stage, dispatching one agent activity per node and running the agents within a stage concurrently.
+				1. Keeps live per-node state queryable so that maestro and the frontend can paint progress while a plan executes.
+				2. The agents reach LLMs through `rosetta` and discover and invoke tools through `hermes`, while the MCP tools `herald` itself hosts read approved planning artifacts (COAS, FSTSs, concept fires, ATLAS target reports ) from the platform databases.
+					- ((What is ATLAS?))
+					- ((Seems like tools live on Herald, Hermes (?) and Ragnarok?))
+			- Recently cut out from `aegis` and potentially still gated behind the `USE_HERLAD` feature flag, which tells `aegis` to stop owning the SAGE task queue, so that the resopnsibility can be migrated without running it in two places at once.
+	- ==Wizard== (Weaponeering and ISR model; WISR)
+		- ==The staged planning service that turns scenario geometry and force laydowns into a weaponeering/ISR solve.==
+			- Has been split out of the weaponeering and ISR model work that previously lived inside `aegis`, with a feature flag used to handle the tcutover between interchangable interfaces.
+		- The model behind the weaponeering products: Given the planning geometry and an operator approved target list, it produces threat-weighted maps, the precomputed inputs that an optimization needs, and ultimately an optimized allocation.
+		- ==Runs as a Temporal worker rather than as a synchronous service==, like many of the heavier planning capabilities.
+		- Its orchestration workflow runs a fixed pipeline of stages, handing the artifact produced by each stage to the next. Artifacts  arrive as workflow parameters describing the planning geometry (waypoints, control measures, target areas of interest, and unit/principal boundaries), optional blue and red laydowns , optional supporting data, solver controls like time limit, PK threshold, horizon, and step count, and the approved target list. The stages are:
+			- Threat-weighted map (TWM) generation
+			- ETL/data-shaping stage
+			- Pre-compute stage
+			- Optimization solve
+			- Storage stage
+		- As mentioned before, LARGE intermediate artifacts between stages are handed off through shared blob/cache stores (iris or Redis), rather than passed inline.
+		- The solve stage runs a `wizard`-local copy of the legacy optimization pipeline against Gurobi.
+			- Along the way, we draw on the KG through `athena` for the domain data needed
+	- ==Rosetta==  (LLM Gateway)
+		- Rather than having every service integrate with model providers independently, Rosetta centralizes model access so that the rest of the system has one consistent way to talk to an an LLM.
+		- Two main roles
+			- Embedding generation exposed over gRPC (how `ragnarok` turns text into vectors for retrieval)
+			- Runs Temporal workers that execute conversation ("converse") workflows for callers like `aegis` and `herald`.
+				- Can run an iterative tool-use loop (fetching tool definition from `hermes`, letting the mode call tools, feeding results back, and repeating until the model produces a final answer), and when a caller asks for schema-constrained ==structured output==, it tries several resolution strategies (native structure output, tool-based structured output, and  fallback workflow) before giving up.
+		- The gateway role is central to the air-gapped readiness principle: `rosetta` can be pointed at cloud providers like Bedrock, OpenAI, or Anthropic in connected deployments, or at a customer-provided, OpenAI,-compatible inference service running inside the cluster.
+	- ==Argus== (SAILS tasking model)
+		- The ML inference service behind the SAILS product's tasking recommendations. It wraps the MADiff allocation engine, and given current product positions, returns predicted trajectories, recommended MQ-4C orbit stations, and track-quality scores that the SAILS UI renders on the map.
+		- Unlike `sisrs`, which solves an optimization model, `argus` performs neural-network inference, loading a pretrained PyTorch model checkpoint and runs it (CPU is enough; GPU optional) to produce its recommendations.
+			- The model is trained offline from data produced by the `synthetic_warefare_generation_autogen` research pipeline, which generates LLM-driven naval warfare scenarios.
+			- `argus` mirrors the relevant inference code out of that researcher repo so that production inferences stays decoupled from the training environment
+		- The Python PyTorch inference service behind SAILS tasking recommendations, wrapping the "MADiff" ISR allocaftion model and returning predicted trajectories, orbit-station recommendations, adn track-quality scores. GPU-optional, CPU-sufficient.
+	- Authentication and Authorization
+		- Handled by two small, separate services: `spicy` for authentication (who a user is) and `saucy` for authorization (waht a user is allowed to do).
+		- Keeping them split lets us reason about identity/permissions independency, and let a deployment federate identity to a customer's existing identity provider without disturbing how permissions are modeled.
+		- `maestro` calls spicy to verify a user's token on incoming requests, and then calls saucy to confirm that the user has permissions for the data or action being requested.
+	- ==Spicy==
+		- The identity provider; hosts the login experience and, on successful authn, issues a signed (RS256) [[JSON Web Token|JWT]] carrying the user's identity ,which the browser then presents on subsequent requests.
+		- Also provides a token-verification interface over gRPC that `maestro` calls to validate those tokens server-side on each request.
+		- Validates credentials against its own dedicated Postgres database of user accounts.
+		- ((We don't use JWKS or rotation of keys or refresh tokens))
+	- ==Saucy==
+		- Named so from "Smack-auth-z" -> "Sauthz", is the authorization service
+		- Once spicy has established who a user is, saucy answers whether that user is allowed to perform an action, using a [[Role-Based Access Control|RBAC]] model.
+		- Callers (maestro, typically), issue check requests for a user and an action pair, and saucy returns an allow or deny decision based on the roles and permission stored in its own dedicated Postgres database.
+		- Also exposes management and admin interfaces for mutating the underlying RBAC data.
+		- Authorization failures often surface to operators as product bugs ("I'm logged in but can't see X",) the user's role bindings in a given environment are a common first place to look when access doesn't match expectations.
+
+- Observability and monitoring
+	- Treated as a cross-cutting concern that every service participate in, built on [[OpenTelemetry Protocol|OpenTelemetry]] (OTel) as the common instrumentation standard.
+	- Each service emits three correlated signals (logs, metrics, traces) over OLTP (OpenTelemetry Protocol) to an in-cluster OTel Collector, which fans them out to purpose-built backends:
+		- Traces go to [[Grafana Tempo]]
+		- Metrics go to [[Grafana Mimir]]
+		- Logs go to [[Grafana Loki]]
+	- [[Grafana]] (the actual visualization dashboard/frontend) then 
+		- (Note that Loki, Grafana, Tempo, and Mimir make the "LGTM Stack", where Grafana ties the specialized backend data stores together into a single pane of glass. Cool!)
+	- The intent is that this all runs in the cluster with no external dependency, consistent with the air-gapped readiness principle... and is shipped as part of the deployment rather than relying on hosted vendor, giving engineers a consistent way to trace a single user interaction across the frontend, API gateway, and downstream data-integration and model-layer services.
+
+
+There's also a `frontend` service that's a SolidJS + TypeScript SPA (Bun, Vite) that ships ~12 product surfaces (sails, mcwl, athena, sage, jado-isr, demos, etc) from one codebase, selected at build time via VITE_PRODUCt.
+- Talks to `maestro` over Graphql using Apollo client
+- Is mid-migration from Mapbox to Cesium as the map engine... a few mapbox usages remain and are slated for removal.
+
+There's of course `ragnarok`, which is a Python FastAPI+gRPC++Temporal RAG service.... chunks documents, get embeddings from rosetta, stores vectors in Postgres/pgvector, and answers incoming cosine-similarity queries.
+
+And `parallax`, a Python gRPC source hosting the synthetic-warfare simulation engine and exposing an expert-takeover seam for the CLEAR cockpit, letting an operator flip a simulated asset from LLM-autonomous to human-controlled and submit decisions in the same grammar that the LLM pilots use, captured as "training data."
+
+
+Researcher repos:
+- ==18ac_model==: A Gurobi MILP for the XVIII Airborne Corps (18AC) ISR+ strike planning, built by repurposing a sibling USMC strike-planning model..
+- ==synthetic_warfare_generation_autogen==: Generates LLM-driven naval-warfare simulation scenarios... it's hte training pipeline behind `argus`'s inference model, and its "expert-takeover" HTTP contract is the frozen spec that `parallax` impleemnts over gRPC.
+	- Note that this doesn't get cloned in smackspace.
+
+Infrastructure/tooling:
+- ==infrastructure== "service" has [[Pulumi]] configs for provisioning AWS/Azure clustesr, plus per-environment bootstrap (namespace, RDS/Postgres, secrets) that `smackbackend`'s Helm chart then consumes.
+	- There's a `cluster` Pulumi project and an `appenv` project
+- ==smackbackend==: The deployment contract for the whole platform; an umbrella Helm Chart (charts/smack) plus the Gitlab CI that deploy it.
+	- No Gitops; editing a value file in git deploys nothing until a CI job runs. Adding a service or shared setting means editing every per-env values.{env}.yaml or you get drift... `python scripts/whats-live-where.py --check` catches it. A commit message containing `==RESEED==` actually reseeds the target environment's DB; this is dangerous on demo/gov.
+- ==smithy==: A small set of deployment utility images: Mirrors Chainguard images into the GitLab registry, builds Neo4j seed images, adn owns/builds the maestro Postgres seed-data image seed-postgres-job).
+	- Publishing the seed image never deploys or reseeds anything by itself, smackbeaackend has to separtely pin the tag and flip `postgresSeedJob.enabled`...
+
+The maestro gateway/orchestration split, aegis→herald/wizard extraction, and the whole feed-ingest expansion planned for hopper are the three biggest "known, planned" architectural debt items called out directly in docs/architecture/current-omega-architecture.md — reading that doc end-to-end is probably the highest-leverage thing you can do to get oriented.
+
+The research-to-production "lift" (18ac_model→monsoon, bk3-mirror→aegis, synthetic_warefare_generation_autogen→argus/parallax) is an ad-hoc, provenance-free pattern in most cases (parallax's vendoring is the one exception with real tracking), and it's already caused at least one production bug (the monsoon divergence postmortem) — worth being cautious around any of those four services.
+
+Agent-instruction-file coverage is uneven (see the audit's coverage matrix) — some repos (smack-sensors, wizard, infrastructure, smackbackend) have genuinely good agents.md files worth reading as references; others (iris, herald) have essentially nothing beyond a one-line README.
 
 kg-curator: Where our ingest stuff is
 kg-gen: Old, not used!
+KGAS: KG Auto-Scaler
+KGTS: KG Tabular Seed
 
 ______________
 # Product Surfaces
@@ -88,10 +257,11 @@ Another grouping of services:
 	- `maestro`: GraphQL gateway and application-level orchestration
 		- 
 - Data integration and storage: Postgres, Neo4j, Redis, and object storage underneath these; "What data do we have, wher dose it live, and how does it move?"... these provide the ilve state, simulation, domain knowledge, storage, sensor calculations, and callable tools that planners (the next section_ consume.)
-	- `hopper`: Track ingestion and streaming... brings externally-generated tracks into Omega. A track is a system's representation of a moving entity (id, lat/lng/alt, ground speed, heading, pitch, roll, classification nad model, track quality and confidence, combat-identification confidence, sensor mode)...
+	- ``hopper``: Track ingestion and streaming... brings externally-generated tracks into Omega. A track is a system's representation of a moving entity (id, lat/lng/alt, ground speed, heading, pitch, roll, classification nad model, track quality and confidence, combat-identification confidence, sensor mode)...
 		- A small Go service that connects to an upstream [[Transport Control Protocol|TCP]] track source , parses its CSV records into Omega's internal protobuf format, and fans the resulting stream out to [[gRPC]] subscribers... 
 		- The longer term vision is for Hopper to become the customer-track gateway, accommodating varying customer feeds.
 		- ==This feels still hazy... where do tracks live when ingested? Who are the subscribers?==
+		- A small Go service that connects to an upstream TCP track feed, parses CSV into protobuf TrackData, and fans it out to gRPC subscribers with autoreconnect. Intentionally minimal today... in the future, absorbing the COP simulation role that `simple` plays today.
 	- `simple`: Simulation/COP-related data... Stands for "Simulation of Platform Engagements", simulates military platforms moving and interacting within scenarios... its model includes concepts like platform routes/waypoints, holding patterns and regions, behavior-driven entities, mission objectives, tactical priorities, detection probabilities, sensing errors, environmental effects, morale or internal entity state.
 		- A scenario might say "Platform ALPHA is an MQ-9. Follow route X, enter racetrack Y, react according to behavior set Z. Advance simulation in five-second increments."
 		- So when frontend asks to play a scenario, Maestro calls Simple over gRPC, Simple runs simulation ticks, moving entities, evaluating behaviors, calculating detections/interactions. and updating scenario state... there are updates that are streamed via a GraphQL subscription, and Frontend renders a changing operational picture.
@@ -104,6 +274,7 @@ Another grouping of services:
 	- `iris`: Blob/object storage abstraction... Gives services one gRPC interface (getObject, putObject, deleteObject, PresignPut, PrseignGet, etc. etc.) for storing large binary or unstructured artifacts. This will then be stored in a configured storage provider  (AWS [[Amazon S3|S3]], Azure Blob Storage, [[MinIO]]-compatible storage)...
 		- This matters especially for air-gapped deployments to government environments; our application services don't need to change...
 		- Note that some services also still access S3 directly; the intended direction is to move those paths behind Iris.
+		- 
 	- `smack-sensors`: Sensor processing.
 		- Better described as a domain computation engine than a conventional CRUD service...
 		- Has three main capability areas:
@@ -123,7 +294,7 @@ Another grouping of services:
 		- ==So is this MCP server?==
 		- Herald or aegis requests an LLM converstion -> Rosetta asks Hermes for avilable tools -> receives defintiions ->< LLM chooses one tool and produces structured arguments -> Rosetta sends tool call to Hermes -> Hermes validates and maps tool -> Temporal workflow -> Temporal dispatches to the service that owns implementation. Structured result returns to the LLM.
 		- Hermes does not generally implement the tool logic itself; a Ragnarock retrieval tool shuld ultimately execute against Ragnarok-owned code.
-		- 
+		- Loads tool definitions from local JSON files (tool_library/) and dispatches Temporal workflows to run them, decoupling tool description from execution plumbing (used by `rosetta`'s MCP tool-calling loop)
 - Planning and model execution
 	- `sisrs`: The original ISR collection scheduler, builds a mathematical optimization problem and sends it to Gurobi, solving questions like "Which asset should collect against which target, at what time. subject ow hat constraints??" Legacy... still powers some JAD ISR flows built around it, but newer planning work is increasing in Aegis/Wizard/Argus...
 	- `aegis`: The platforms' general AI orchestration service, combining LLM reasoning, Temporal workflows, KG queries, solver cals, chat-style interactions, COA generation, Weaponeering, Planning-factor analysis, wargaming, dashboard report generation. 
@@ -166,7 +337,8 @@ Another grouping of services:
 		- The shared LLM gateway, to OpenAI/Anthropic/Bedrock/Foundry/local providers.
 		- Allows for model selection, structured output support, schema validation, retry and repair, tool call loops, embedding generation, etc.
 		- Services like Aegis/Herald/Ragnarok/Other calls proxy through Rosetta to models.
-		- For tool calls, when an LLM request a tool, Rosetta asks Hermes to execute it, and the tool rsetul is returnd to the LLM.
+		- For tool calls, when an LLM request a tool, Rosetta asks Hermes to execute it, and the tool result is returned to the LLM.
+		- The platform's shared LLM gateway: One interface for chat/structured-output across providers, with a layered structured-output fallback chain, plus MCP-tool calling `hermes`... also serves embeddings for `ragnarok`.
 - Platform-wide capabilities
 	- `spicy`: authentication
 	- `saucy`: authorization
@@ -180,7 +352,7 @@ Another grouping of services:
 	- `infrastructure`provisions cloud and cluster resources... using [[Pulumi]]... there's  some EWS and Azure stuff in here, also some [[Tailscale]] K8s Operator references.
 
 In short:
--
+- 
 
 
 Knowledge Base:
@@ -797,7 +969,7 @@ Knowledge Base:
 
 Things to get access to:
 - Sharepoint
-    - I don't know, yet. 
+    - I don't know, yet... seems like SSO might work? It seems like I have access to links that John Coogan sends me on Sharepoint, but I don't seem to have access to like "the landing page" (https://smack.sharepoint.us/ ?)
 - Rippling
     - Personal email received an account creation link from <no-reply@rippling.com>. You'll have to fill in personal information (contact information, passport/ID data, tax withholdings) and then complete a number of training modules.
     - Remember to elect for your insurance benefits in Rippling.
@@ -820,9 +992,15 @@ Things to get access to:
 - Door access, parking pass
     - If you're in the El Segundo office, talk to Trevor about getting a 4-digit door code (Enter as "XXXX#") and a parking pass. The latter requires that you have outlook access, as it involves an email being sent to you, you filling out a PDF, and sending it back to Trevor.
 - Codex/LLM Access
-    - ...
-
-- Get invited to the Neo4j Aura organization (Coogan; will result in an email being sent to your outlook, accept it), then get invited to the "System Ontology" Project inside Aura. Smack Neo Dev is our development one.
+    - ...?
+- Knowledge Graph
+	- Get invited to the Neo4j Aura organization (Coogan; will result in an email being sent to your outlook, accept it), then get invited to the "System Ontology" Project inside Aura. Smack Neo Dev is our development one.
+- AWS Console access
+	- Ask Stewart
+- Notion
+	- Got access from asking Jules
+- Linear
+	- You can just log in with your sharepoint.
 
 
 
