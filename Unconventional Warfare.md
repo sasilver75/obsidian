@@ -2,8 +2,11 @@
 aliases:
   - Hybrid Warfare
   - New Generation Warfare
+  - UW
 ---
-https://en.wikipedia.org/wiki/New_generation_warfare
+https://en.wikipedia.org/wiki/New_generation_warfare\\
+
+A specific subset under the broader 
 
 Broadly defined as "military and quasi-military operations other than conventional warfare," and may include:
 - Use of covert forces

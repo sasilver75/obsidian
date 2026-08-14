@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/Smack Onboarding.md",
+                "file": "Firepower Kill.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,127 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Smack Onboarding"
+              "title": "Firepower Kill"
+            }
+          },
+          {
+            "id": "65ac0dddad4d79e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mission Kill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mission Kill"
+            }
+          },
+          {
+            "id": "da275b7339d7f249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "2d209b26b90fbcea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Link Monitoring and Management Tool.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Link Monitoring and Management Tool"
+            }
+          },
+          {
+            "id": "9b14f6dd59557ac9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Track Confidence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Track Confidence"
+            }
+          },
+          {
+            "id": "0cc10bf8e9eca745",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smack/All-Hands/All-Hands August 13, 14, 2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "All-Hands August 13, 14, 2026"
             }
           },
           {
@@ -55,7 +175,8 @@
               "title": "OpenShift"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -255,8 +376,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29cbe107af740143",
+  "active": "da275b7339d7f249",
   "lastOpenFiles": [
+    "Mission Kill.md",
+    "Firepower Kill.md",
+    "Mobility Kill.md",
+    "Catastrophic Kill.md",
+    "Fast Attack Craft.md",
+    "Unconventional Warfare.md",
+    "Irregular Warfare.md",
+    "Global Command and Control System.md",
+    "Link Monitoring and Management Tool.md",
+    "Track Confidence.md",
+    "Smack/Smack Onboarding.md",
+    "Aegis Combat System.md",
+    "Smack/SAILS.md",
+    "Find, Fix, Track, Target, Engage, Assess.md",
+    "Smack/All-Hands/All-Hands August 13, 14, 2026.md",
+    "conflict-files-obsidian-git.md",
+    "National Counterintelligence Security Center.md",
+    "Bureau of Intelligence and Research.md",
     "Smack/Onboarding/Onboarding Session with RPC August 13.md",
     "OpenShift.md",
     "Tailscale.md",
@@ -264,32 +403,14 @@
     "_attachments/Pasted image 20260813165528.png",
     "Common Access Card.md",
     "Chengdu Aircraft Corporation.md",
-    "Smack/Smack Onboarding.md",
     "Smack Technologies.md",
     "Clay.md",
-    "Session.md",
-    "JSON Web Token.md",
     "_attachments/Pasted image 20260813153414.png",
-    "Smack/SAILS.md",
-    "Impact Level.md",
-    "Impact Level 6.md",
-    "Authorization to Operate.md",
-    "Aviation Technology Office.md",
-    "Secret Classification.md",
-    "Controlled Unclassified Information.md",
     "Smack/Onboarding",
-    "Defense Intelligence Agency.md",
-    "Smack/All-Hands/All-Hands August 13, 2026.md",
     "Smack/All-Hands",
-    "Untitled 11.md",
     "_attachments/Pasted image 20260806002333.png",
     "_attachments/Pasted image 20260806002329.png",
     "_attachments/Pasted image 20260805171922.png",
-    "Heilmeier Catechism.md",
-    "AGENTS.md",
-    "Development Seed.md",
-    "Grafana Loki.md",
-    "Grafana Mimir.md",
     "_attachments/Pasted image 20260810135837.png",
     "_attachments/Pasted image 20260810124025.png",
     "_attachments/Pasted image 20260810124018.png",

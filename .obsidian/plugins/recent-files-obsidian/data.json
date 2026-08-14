@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-<<<<<<< HEAD
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
-=======
+      "basename": "National Counterintelligence Security Center",
+      "path": "National Counterintelligence Security Center.md"
+    },
+    {
+      "basename": "Orbit",
+      "path": "Orbit.md"
+    },
+    {
+      "basename": "Department of State",
+      "path": "Department of State.md"
+    },
+    {
+      "basename": "Defense Advanced Research Projects Agency",
+      "path": "Defense Advanced Research Projects Agency.md"
+    },
+    {
+      "basename": "Bureau of Intelligence and Research",
+      "path": "Bureau of Intelligence and Research.md"
+    },
+    {
+      "basename": "National Reconnaissance Office",
+      "path": "National Reconnaissance Office.md"
+    },
+    {
+      "basename": "Anti-Satellite Weapon",
+      "path": "Anti-Satellite Weapon.md"
+    },
+    {
       "basename": "Military Decision-Making Process",
       "path": "Military Decision-Making Process.md"
     },
     {
       "basename": "Heilmeier Catechism",
       "path": "Heilmeier Catechism.md"
-    },
-    {
-      "basename": "Defense Advanced Research Projects Agency",
-      "path": "Defense Advanced Research Projects Agency.md"
     },
     {
       "basename": "Revolution in Military Affairs",
@@ -51,17 +71,12 @@
     {
       "basename": "Perennial Autonomy Merops",
       "path": "Perennial Autonomy Merops.md"
->>>>>>> 2bb86b2ca7363748c33ee47b6a85cf2b360ef820
     },
     {
-      "basename": "Development Seed",
-      "path": "Development Seed.md"
+      "basename": "Air Expeditionary Wing",
+      "path": "Air Expeditionary Wing.md"
     },
     {
-<<<<<<< HEAD
-      "basename": "Smack Onboarding",
-      "path": "Smack/Smack Onboarding.md"
-=======
       "basename": "BlackSea Global Autonomous Reconnaissance Craft",
       "path": "BlackSea Global Autonomous Reconnaissance Craft.md"
     },
@@ -72,197 +87,76 @@
     {
       "basename": "Secretary of Defense",
       "path": "Secretary of Defense.md"
->>>>>>> 2bb86b2ca7363748c33ee47b6a85cf2b360ef820
     },
     {
-      "basename": "Grafana Loki",
-      "path": "Grafana Loki.md"
+      "basename": "Family of Affordable Mass Munitions Program",
+      "path": "Family of Affordable Mass Munitions Program.md"
     },
     {
-      "basename": "Grafana Mimir",
-      "path": "Grafana Mimir.md"
+      "basename": "3D Printing",
+      "path": "3D Printing.md"
     },
     {
-      "basename": "Grafana Tempo",
-      "path": "Grafana Tempo.md"
+      "basename": "Office of Strategic Capital",
+      "path": "Office of Strategic Capital.md"
     },
     {
-      "basename": "Mako",
-      "path": "Mako.md"
+      "basename": "Defense Contractor",
+      "path": "Defense Contractor.md"
     },
     {
-      "basename": "Maritime Intelligence Operations Center",
-      "path": "Maritime Intelligence Operations Center.md"
+      "basename": "Overland AI",
+      "path": "Overland AI.md"
     },
     {
-      "basename": "S4 Officer",
-      "path": "S4 Officer.md"
+      "basename": "Target Acquisition Radar",
+      "path": "Target Acquisition Radar.md"
     },
     {
-      "basename": "Specular Reflection",
-      "path": "Specular Reflection.md"
+      "basename": "Ground-Based Air Defense",
+      "path": "Ground-Based Air Defense.md"
     },
     {
-      "basename": "Army Special Operations Command",
-      "path": "Army Special Operations Command.md"
+      "basename": "International Tribunal for the Law of the Sea",
+      "path": "International Tribunal for the Law of the Sea.md"
     },
     {
-      "basename": "1st Special Forces Command",
-      "path": "1st Special Forces Command.md"
+      "basename": "International Seabed Authority",
+      "path": "International Seabed Authority.md"
     },
     {
-      "basename": "Salvo",
-      "path": "Salvo.md"
+      "basename": "Forward Arming and Refueling Point",
+      "path": "Forward Arming and Refueling Point.md"
     },
     {
-      "basename": "Call for Fire",
-      "path": "Call for Fire.md"
+      "basename": "Integrated Combat Turn",
+      "path": "Integrated Combat Turn.md"
     },
     {
-      "basename": "Firepower Kill",
-      "path": "Firepower Kill.md"
+      "basename": "Epirus",
+      "path": "Epirus.md"
     },
     {
-      "basename": "Mobility Kill",
-      "path": "Mobility Kill.md"
+      "basename": "Fire-Control Radar",
+      "path": "Fire-Control Radar.md"
     },
     {
-      "basename": "Phase Line",
-      "path": "Phase Line.md"
-    },
-    {
-      "basename": "Strike Package",
-      "path": "Strike Package.md"
-    },
-    {
-      "basename": "Combined Enterprise Regional Information Exchange System",
-      "path": "Combined Enterprise Regional Information Exchange System.md"
-    },
-    {
-      "basename": "Exclusive Economic Zone",
-      "path": "Exclusive Economic Zone.md"
-    },
-    {
-      "basename": "Line of Effort",
-      "path": "Line of Effort.md"
-    },
-    {
-      "basename": "No Foreign Dissemination",
-      "path": "No Foreign Dissemination.md"
-    },
-    {
-      "basename": "Limited Dissemination Control",
-      "path": "Limited Dissemination Control.md"
-    },
-    {
-      "basename": "Priority Intelligence Requirement",
-      "path": "Priority Intelligence Requirement.md"
-    },
-    {
-      "basename": "Unmanned (Unspecified) System",
-      "path": "Unmanned (Unspecified) System.md"
-    },
-    {
-      "basename": "Argument of Periapsis",
-      "path": "Argument of Periapsis.md"
-    },
-    {
-      "basename": "Asymmetric Warfare",
-      "path": "Asymmetric Warfare.md"
-    },
-    {
-      "basename": "Track",
-      "path": "Track.md"
-    },
-    {
-      "basename": "Ground Track",
-      "path": "Ground Track.md"
-    },
-    {
-      "basename": "Ephemeris",
-      "path": "Ephemeris.md"
-    },
-    {
-      "basename": "Small Business Innovation Research",
-      "path": "Small Business Innovation Research.md"
-    },
-    {
-      "basename": "Time on Target",
-      "path": "Time on Target.md"
-    },
-    {
-      "basename": "Orientation, Situation, Mission, Execution Administration and Logistics, and Command and Signal",
-      "path": "Orientation, Situation, Mission, Execution Administration and Logistics, and Command and Signal.md"
-    },
-    {
-      "basename": "Surface Action Group",
-      "path": "Surface Action Group.md"
-    },
-    {
-      "basename": "Offensive Counter-Air",
-      "path": "Offensive Counter-Air.md"
-    },
-    {
-      "basename": "Line of Operation",
-      "path": "Line of Operation.md"
-    },
-    {
-      "basename": "Area of Operations",
-      "path": "Area of Operations.md"
-    },
-    {
-      "basename": "Fragmentary Order",
-      "path": "Fragmentary Order.md"
-    },
-    {
-      "basename": "Irregular Warfare",
-      "path": "Irregular Warfare.md"
-    },
-    {
-      "basename": "Diplomatic, Informational, Military, and Economic",
-      "path": "Diplomatic, Informational, Military, and Economic.md"
-    },
-    {
-      "basename": "Fire Support Task",
-      "path": "Fire Support Task.md"
-    },
-    {
-      "basename": "Facility Clearance Level",
-      "path": "Facility Clearance Level.md"
-    },
-    {
-      "basename": "Fault Tree Analysis",
-      "path": "Fault Tree Analysis.md"
+      "basename": "Zumwalt-Class Destroyer",
+      "path": "Zumwalt-Class Destroyer.md"
     },
     {
       "basename": "United Nations Convention on the Law of the Sea",
       "path": "United Nations Convention on the Law of the Sea.md"
     },
     {
-      "basename": "Carrier Strike Group",
-      "path": "Carrier Strike Group.md"
+      "basename": "Find, Fix, Finish, Exploit, Analyze, Dissmeinate",
+      "path": "Find, Fix, Finish, Exploit, Analyze, Dissmeinate.md"
     },
     {
-      "basename": "Nuclear-powered Attack Submarine",
-      "path": "Nuclear-powered Attack Submarine.md"
+      "basename": "Textron Systems",
+      "path": "Textron Systems.md"
     },
     {
-      "basename": "Air Interdiction of Maritime Target",
-      "path": "Air Interdiction of Maritime Target.md"
-    },
-    {
-<<<<<<< HEAD
-      "basename": "Airborne Early Warning and Control",
-      "path": "Airborne Early Warning and Control.md"
-    },
-    {
-      "basename": "Advanced Battle Management System",
-      "path": "Advanced Battle Management System.md"
-    },
-    {
-      "basename": "Phase",
-      "path": "Phase.md"
-=======
       "basename": "FIM-92 Stinger",
       "path": "FIM-92 Stinger.md"
     },
@@ -301,31 +195,6 @@
     {
       "basename": "Federal Contract Information",
       "path": "Federal Contract Information.md"
-    },
-    {
-      "basename": "United States House Committee on Appropriations",
-      "path": "United States House Committee on Appropriations.md"
-    },
-    {
-      "basename": "United States House Committee on Armed Services",
-      "path": "United States House Committee on Armed Services.md"
-    },
-    {
-      "basename": "Semi-Autonomy",
-      "path": "Semi-Autonomy.md"
-    },
-    {
-      "basename": "Planning, Programming, Budgeting, and Execution",
-      "path": "Planning, Programming, Budgeting, and Execution.md"
-    },
-    {
-      "basename": "Short-Range Ballistic Missile",
-      "path": "Short-Range Ballistic Missile.md"
-    },
-    {
-      "basename": "Medium-Range Ballistic Missile",
-      "path": "Medium-Range Ballistic Missile.md"
->>>>>>> 2bb86b2ca7363748c33ee47b6a85cf2b360ef820
     }
   ],
   "omittedPaths": [],
