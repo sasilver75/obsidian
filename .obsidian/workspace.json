@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/Onboarding/Onboarding Session with RPC August 13.md",
+                "file": "Smack/Smack Onboarding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Onboarding Session with RPC August 13"
-            }
-          },
-          {
-            "id": "d7d8e8ed9d51de08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenShift.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenShift"
+              "title": "Smack Onboarding"
             }
           },
           {
@@ -79,8 +55,7 @@
               "title": "OpenShift"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -280,17 +255,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7d8e8ed9d51de08",
+  "active": "29cbe107af740143",
   "lastOpenFiles": [
+    "Smack/Onboarding/Onboarding Session with RPC August 13.md",
+    "OpenShift.md",
+    "Tailscale.md",
     "Force Protection Condition.md",
     "_attachments/Pasted image 20260813165528.png",
     "Common Access Card.md",
     "Chengdu Aircraft Corporation.md",
     "Smack/Smack Onboarding.md",
     "Smack Technologies.md",
-    "Smack/Onboarding/Onboarding Session with RPC August 13.md",
     "Clay.md",
-    "OpenShift.md",
     "Session.md",
     "JSON Web Token.md",
     "_attachments/Pasted image 20260813153414.png",
