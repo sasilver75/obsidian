@@ -1,8 +1,6 @@
 ---
 aliases:
   - DOS
-  - Bureau of Intelligence and Research
-  - INR
 ---
 
 

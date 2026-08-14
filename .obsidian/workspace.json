@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defense Advanced Research Projects Agency.md",
+                "file": "Orbit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Defense Advanced Research Projects Agency"
+              "title": "Orbit"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Military Decision-Making Process.md",
+                "file": "Bureau of Intelligence and Research.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Military Decision-Making Process"
+              "title": "Bureau of Intelligence and Research"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2285,10 +2284,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e4d270b0c368b98",
+  "active": "7b38037bc89fec96",
   "lastOpenFiles": [
-    "Heilmeier Catechism.md",
+    "Department of State.md",
     "Defense Advanced Research Projects Agency.md",
+    "Bureau of Intelligence and Research.md",
+    "National Reconnaissance Office.md",
+    "Anti-Satellite Weapon.md",
+    "Military Decision-Making Process.md",
+    "Heilmeier Catechism.md",
     "Revolution in Military Affairs.md",
     "Turning.md",
     "Anduril.md",
@@ -2318,11 +2322,6 @@
     "Low-Cost Containerized Missiles Program.md",
     "Link 16.md",
     "Joint Directors of Laboratories Data Fusion Model.md",
-    "Friendly Force Tracking System.md",
-    "Engagement Confidence.md",
-    "Defense Information Systems Agency.md",
-    "Data Fusion.md",
-    "Anduril Barracuda.md",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
